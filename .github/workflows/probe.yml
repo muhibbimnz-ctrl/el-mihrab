@@ -1,0 +1,19 @@
+name: probe
+on: [push]
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          H="Origin: https://muhibbimnz-ctrl.github.io"
+          for u in \
+            "https://api.quranpedia.net/v1/ayah/2/2/translations" \
+            "https://api.quranpedia.net/v1/ayah/2/2/book/2004" \
+            "https://quranenc.com/api/v1/translations/list/tr" \
+            "https://quranenc.com/api/v1/translation/aya/turkish_mokhtasar/2/2" \
+            "https://quranenc.com/api/v1/translation/aya/turkish_rshd/2/2" \
+            "https://api.acikkuran.com/surah/2/verse/2" ; do
+            echo "=================== $u"
+            curl -s -D - -H "$H" -m 20 "$u" -o /tmp/b | grep -i -E "^HTTP|access-control-allow-origin" 
+            head -c 2500 /tmp/b; echo
+          done
