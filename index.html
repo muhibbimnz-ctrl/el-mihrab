@@ -137,6 +137,50 @@ a{color:var(--accent)}
   .rd-meal{display:block;margin-top:18px;padding-top:14px;border-top:1px dashed var(--line2);font-family:var(--serif);font-size:var(--msize);line-height:1.7;color:var(--ink2);direction:ltr;text-align:left}
   .rd-meal b{display:block;font-family:var(--ui);font-size:11px;letter-spacing:.4px;text-transform:uppercase;color:var(--accent);margin-bottom:3px}
 }
+.scr{position:fixed;top:60px;left:0;right:0;bottom:64px;z-index:44;background:var(--bg) var(--pat);display:flex;flex-direction:column;overflow:hidden}
+#okuma,#ezber{top:0;z-index:46}
+#home{overflow-y:auto;display:block}
+.home-in{max-width:980px;margin:0 auto;padding:22px 16px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.hcard{background:var(--paper);border:1px solid var(--line2);border-radius:20px;padding:18px 18px 16px;position:relative;overflow:hidden;box-shadow:0 10px 30px -22px rgba(80,55,10,.7)}
+.hcard:before{content:"";position:absolute;inset:6px;border:1px solid var(--gold);border-radius:15px;opacity:.35;pointer-events:none}
+.hcard.hsmall{grid-column:1/-1;padding:14px 18px}
+.hh{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+.hh .hi{width:46px;height:46px;flex:none;border-radius:14px;background:var(--accent);color:#f2dca4;display:flex;align-items:center;justify-content:center;font-family:'Amiri',serif;font-size:24px}
+.hh b{display:block;font-family:var(--disp);font-size:24px;color:var(--accent)}
+.hh small{color:var(--muted);font-size:13px}
+.hbtns{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.hbig{border:1px solid var(--line2);background:var(--card);border-radius:14px;padding:14px 10px;font-weight:700;font-size:15px;color:var(--ink);display:flex;flex-direction:column;align-items:center;gap:2px}
+.hbig .ar{font-family:'Amiri',serif;font-size:22px;color:var(--gold);font-weight:400}
+.hbig:hover{border-color:var(--gold)}
+.pt{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px}
+.pt .loc{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--muted);flex-wrap:wrap}
+.pt .loc b{color:var(--ink2)}
+.pt .nx{text-align:center;margin:8px 0 6px}
+.pt .nx b{font-family:var(--disp);font-size:30px;color:var(--accent);display:block;line-height:1.1}
+.pt .nx span{font-size:13px;color:var(--muted)}
+.pt .tm{display:grid;grid-template-columns:repeat(6,1fr);gap:4px;text-align:center}
+.pt .tm div{border-radius:10px;padding:6px 2px;font-size:12px;color:var(--muted)}
+.pt .tm div b{display:block;font-size:15px;color:var(--ink)}
+.pt .tm div.on{background:var(--accent);color:#dfeee6}.pt .tm div.on b{color:#fff}
+.pt input{padding:6px 9px;border:1px solid var(--line2);border-radius:9px;background:var(--paper);width:140px}
+.ok-body{flex:1;overflow-y:auto}
+.mus{max-width:900px;margin:16px auto;background:var(--paper);border:1px solid var(--line2);border-radius:6px;padding:26px 30px;font-family:var(--qfont),'Amiri Quran',serif;font-size:var(--qsize);line-height:2.35;direction:rtl;text-align:justify;text-align-last:center;position:relative}
+.mus:before{content:"";position:absolute;inset:8px;border:2px solid var(--gold);border-radius:3px;opacity:.5;pointer-events:none}
+.mus .sh2{text-align:center;font-family:'Reem Kufi','Amiri',serif;color:var(--accent);font-size:.9em;margin-bottom:.2em}
+.mus .oa{cursor:pointer;border-radius:6px}
+.mus .oa:hover{background:var(--hl)}
+.mus .oa.playing{background:var(--play)}
+.ez-cfg{flex:none;display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;padding:10px 14px;background:var(--paper);border-bottom:1px solid var(--line);font-size:14px}
+.ez-cfg select,.ez-cfg input[type=number]{padding:6px 8px;border:1px solid var(--line2);border-radius:9px;background:var(--card)}
+.ez-cfg input[type=number]{width:64px}
+.ez-cfg .ck{margin:0}
+.ez-body{flex:1;overflow-y:auto;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;text-align:center}
+.ez-k{color:var(--gold);font-weight:700;letter-spacing:.5px}
+.ez-ay{font-family:var(--qfont),'Amiri Quran',serif;font-size:calc(var(--qsize)*1.15);line-height:2.3;direction:rtl;max-width:900px;transition:filter .3s;cursor:pointer}
+.ez-ay.hid{filter:blur(9px);user-select:none}
+.ez-m{font-family:var(--serif);color:var(--ink2);max-width:760px;line-height:1.6;margin-top:8px}
+.ez-c{margin-top:14px;font-size:14px;color:var(--muted)}
+@media(max-width:760px){.home-in{grid-template-columns:1fr;padding:14px 10px}.pt .tm div b{font-size:13px}.mus{padding:18px 14px;margin:8px}}
 .src{line-height:1.65;font-size:15px}
 [dir=rtl]{--ui:'Noto Naskh Arabic','Source Sans 3',sans-serif;--disp:'Reem Kufi','Amiri',serif;--serif:'Amiri',serif}
 [dir=rtl] .tb i,[dir=rtl] .sbtn .ar,[dir=rtl] .dua .dt,[dir=rtl] .sc .a,[dir=rtl] .sh .t{display:none}
@@ -263,6 +307,38 @@ a{color:var(--accent)}
 
 <main class="wrap" id="main"></main>
 
+<section class="scr hide" id="home"><div class="home-in">
+  <div class="hcard">
+    <div class="hh"><span class="hi">۞</span><div><b>Kur'an ve Namaz</b><small>Ezan vakitleri · Kur'ân-ı Kerîm · Ezber</small></div></div>
+    <div id="pt" class="pt"></div>
+    <div class="hbtns"><button class="hbig" id="hRead"><span class="ar">اقرأ</span>Kur'ân-ı Kerîm oku</button><button class="hbig" id="hHifz"><span class="ar">احفظ</span>Ezber (Hıfz)</button></div>
+  </div>
+  <div class="hcard">
+    <div class="hh"><span class="hi">م</span><div><b>el-Mihrâb Dirâset</b><small>Tefsir · İ'râb · Belâgat · Kıraat · Meâller</small></div></div>
+    <p class="note" id="hDesc">Her âyetin altındaki düğmelerle tefsir, i'râb, belâgat ve kıraat kitaplarını okuyun.</p>
+    <div class="hbtns"><button class="hbig" id="hStudy"><span class="ar">ادرس</span><span id="hStudyT">Çalışmaya devam et</span></button><button class="hbig" id="hList"><span class="ar">السور</span>Sûre seç</button></div>
+  </div>
+  <div class="hcard hsmall"><b>İnternetsiz kullanım</b><p class="note">Kur'an metnini ve meâlleri bir kez indirin; uygulama internetsiz de açılır. Okuduğunuz tefsirler de cihazda saklanır.</p><button class="pill" id="hOff">İnternetsiz kullanım için indir</button> <span class="note" id="hOffI"></span></div>
+</div></section>
+
+<section class="scr hide" id="okuma">
+  <div class="rd-h"><button class="ib" id="okX" title="Ana sayfa"></button><button class="ib" id="okP" title="Önceki sûre"></button><b id="okT"></b><button class="ib" id="okN" title="Sonraki sûre"></button><span style="flex:1"></span></div>
+  <div class="ok-body"><div class="mus" id="okB" lang="ar"></div></div>
+</section>
+
+<section class="scr hide" id="ezber">
+  <div class="rd-h"><button class="ib" id="ezX" title="Ana sayfa"></button><b>Ezber (Hıfz)</b><span style="flex:1"></span></div>
+  <div class="ez-cfg">
+    <label>Sûre <select id="ezS"></select></label>
+    <label>Âyet <input id="ezA" type="number" min="1" value="1"> – <input id="ezB" type="number" min="1" value="5"></label>
+    <label>Tekrar <select id="ezR"><option>1</option><option>3</option><option selected>5</option><option>7</option><option>10</option><option>20</option></select></label>
+    <label class="ck"><input type="checkbox" id="ezL" checked> Aralığı baştan tekrarla</label>
+    <label class="ck"><input type="checkbox" id="ezH"> Metni gizle (kendini sına)</label>
+  </div>
+  <div class="ez-body"><div class="ez-k" id="ezK"></div><div class="ez-ay" id="ezT" lang="ar"></div><div class="ez-m" id="ezM"></div><div class="ez-c" id="ezC"></div></div>
+  <div class="rd-f"><button class="pill" id="ezPv">‹ Önceki</button><button class="pb main" id="ezPl"></button><button class="pill" id="ezNx">Sonraki ›</button></div>
+</section>
+
 <footer class="player">
   <button class="pb" id="aPrev" title="Önceki âyet"></button>
   <button class="pb main" id="aPlay" title="Oynat / duraklat"></button>
@@ -294,9 +370,9 @@ a{color:var(--accent)}
    <table>
     <tr><th>Bölüm</th><th>Kaynak</th></tr>
     <tr><td>Kur'ân-ı Kerîm metni</td><td>Tanzil projesinin Kur'an metni (Hafs rivâyeti, Osmânî resm ve imlâî yazım) — AlQuran.cloud üzerinden</td></tr>
-    <tr><td>Meâller</td><td>Diyanet İşleri, Elmalılı Hamdi Yazır, Diyanet Vakfı, Süleyman Ateş, Suat Yıldırım, Gölpınarlı, Ali Bulaç, Saheeh International — Tanzil / AlQuran.cloud</td></tr>
+    <tr><td>Meâller</td><td>Elmalılı Hamdi Yazır, Süleyman Ateş, Suat Yıldırım, Gölpınarlı, Ali Bulaç, Saheeh International — Tanzil / AlQuran.cloud</td></tr>
     <tr><td>Tefsir, i'râb, belâgat, nüzûl, garîb</td><td>Quranpedia (el-Mevsûatü'l-Kur'âniyye) dijital kütüphanesindeki basılı eserlerin metinleri; Kurtubî tefsiri Quran.com'dan</td></tr>
-    <tr><td>Türkçe tefsir ve açıklamalı meâller</td><td>el-Muhtasar fi't-Tefsîr Türkçe tercümesi (Merkezü Tefsîr) — Quranpedia; açıklamalı meâller — QuranEnc.com</td></tr>
+    <tr><td>Türkçe tefsir ve açıklamalı meâller</td><td>el-Muhtasar fi't-Tefsîr Türkçe tercümesi (Merkezü Tefsîr) — Quranpedia; Ravvâd ve Şaban Piriş açıklamalı meâlleri — QuranEnc.com; Elmalılı ve Süleyman Ateş meâlleri — Tanzil</td></tr>
     <tr><td>Kıraat farkları ve rivâyet sesleri</td><td>Quranpedia kıraat veritabanı</td></tr>
     <tr><td>Tilâvet sesleri</td><td>EveryAyah.com ve Islamic Network ses arşivi</td></tr>
     <tr><td>Tecvid renkleri, Latin okunuş</td><td>Quran.com; AlQuran.cloud</td></tr>
@@ -331,7 +407,7 @@ const JUZ=[[1,1],[2,142],[2,253],[3,93],[4,24],[4,148],[5,82],[6,111],[7,88],[8,
 
 /* ================= MEÂLLER ve KÂRİLER ================= */
 const MEALS_TR=[
- ['tr.diyanet','Diyanet İşleri'],['tr.yazir','Elmalılı Hamdi Yazır'],['tr.vakfi','Diyanet Vakfı'],['tr.ates','Süleyman Ateş'],['tr.yildirim','Suat Yıldırım'],
+ ['tr.yazir','Elmalılı Hamdi Yazır'],['tr.ates','Süleyman Ateş'],['tr.yildirim','Suat Yıldırım'],
  ['tr.golpinarli','Abdülbâki Gölpınarlı'],['tr.bulac','Ali Bulaç'],['en.sahih','Saheeh International (İngilizce)']];
 const MEALS_EN=[['en.sahih','Saheeh International'],['en.pickthall','Pickthall'],['en.yusufali','Abdullah Yusuf Ali'],['en.hilali','Hilali & Muhsin Khan'],['en.asad','Muhammad Asad'],['en.arberry','A. J. Arberry'],['en.maududi','Abul Ala Maududi'],['en.itani','Talal Itani — Clear Quran']];
 const MEALS_AR=[['ar.muyassar','التفسير الميسر'],['ar.jalalayn','تفسير الجلالين']];
@@ -355,7 +431,9 @@ const RECITERS=[
 const BK={
  'qc:169':['Ibn Kathir (Abridged)','Ibn Kathir','774'],'qc:168':["Ma'arif al-Qur'an",'Mufti Muhammad Shafi',''],'qc:817':['Tazkirul Quran','Maulana Wahiduddin Khan',''],
  2004:['el-Muhtasar fi\'t-Tefsîr — Türkçe tercümesi','Merkezü Tefsîr',''],
- 'qe:turkish_shahin':['Diyanet Vakfı heyeti (Ali Özek vd.) — Açıklamalı Meal','Ali Özek, H. Karaman vd.',''],
+ 'aq:tr.yazir':['Elmalılı Hamdi Yazır — Hak Dini Kur\'an Dili meali','Elmalılı M. Hamdi Yazır','1361'],
+ 'qe:turkish_shaban':['Şaban Piriş — Açıklamalı Türkçe Meal','Şaban Piriş',''],
+ 'aq:tr.ates':['Süleyman Ateş — Yüce Kur\'an\'ın Çağdaş Tefsiri meali','Süleyman Ateş',''],
  'qe:turkish_rwwad':['Ravvâd Tercüme Merkezi — Açıklamalı Türkçe Meal','Ravvâd Tercüme Merkezi',''],
  4:['Taberî — Câmiu\'l-Beyân','الطبري','310'],136:['İbn Kesîr — Tefsîru\'l-Kur\'âni\'l-Azîm','ابن كثير','774'],2:['Beğavî — Meâlimü\'t-Tenzîl','البغوي','516'],
  qc90:['Kurtubî — el-Câmi\' li-Ahkâmi\'l-Kur\'ân','القرطبي','671'],149:['İbn Ebî Hâtim — Tefsîr','ابن أبي حاتم','327'],273:['Suyûtî — ed-Dürrü\'l-Mensûr','السيوطي','911'],
@@ -383,7 +461,7 @@ const BK={
  2013:['es-Sirâc fî Beyâni Garîbi\'l-Kur\'ân','الخضيري',''],341:['İbn Kuteybe — Garîbü\'l-Kur\'ân','ابن قتيبة','276'],348:['Ebû Ubeyde — Mecâzü\'l-Kur\'ân','أبو عبيدة','209'],
  27761:['İbnü\'l-Cevzî — Tezkiretü\'l-Erîb','ابن الجوزي','597'],27784:['İbnü\'l-Hâim — et-Tibyân fî Tefsîri Garîbi\'l-Kur\'ân','ابن الهائم','815'],27764:['Zeyd b. Ali — Garîbü\'l-Kur\'ân','زيد بن علي','120']
 };
-const VERN=LANG==='tr'?[['Türkçe tefsir ve açıklamalı meâller',[2004,'qe:turkish_shahin','qe:turkish_rwwad']]]:LANG==='en'?[['English tafsirs',['qc:169','qc:168','qc:817']]]:[];
+const VERN=LANG==='tr'?[['Türkçe tefsir ve açıklamalı meâller',[2004,'aq:tr.yazir','qe:turkish_rwwad','qe:turkish_shaban','aq:tr.ates']]]:LANG==='en'?[['English tafsirs',['qc:169','qc:168','qc:817']]]:[];
 const CATS={
  tefsir:{n:'Tefsir',ar:'تفسير',def:LANG==='en'?'qc:169':184,dyn:'tafsir',groups:[
    ...VERN,
@@ -446,6 +524,20 @@ const I18N={
  "Kapalıyken tefsir, âyetin hemen altında açılan kutuda gösterilir.":["عند الإيقاف يُعرض التفسير تحت الآية مباشرة.","When off, tafsir opens in a box right under the verse."],
  "Ses":["الصوت","Audio"],"Âyet bitince sonrakine geç":["الانتقال إلى الآية التالية تلقائيًا","Continue to the next verse automatically"],
  "Hakkında ve destek":["عن العمل والدعم","About & support"],"Hakkında ve destek ›":["عن العمل والدعم ‹","About & support ›"],
+ "Kur'an ve Namaz":["القرآن والصلاة","Qur'an & Prayer"],"Ezan vakitleri · Kur'ân-ı Kerîm · Ezber":["مواقيت الصلاة · المصحف · الحفظ","Prayer times · Qur'an · Memorise"],
+ "Kur'ân-ı Kerîm oku":["قراءة المصحف","Read the Qur'an"],"Ezber (Hıfz)":["الحفظ","Memorise (Hifz)"],"el-Mihrâb Dirâset":["دراسة المحراب","el-Mihrâb Study"],
+ "Tefsir · İ'râb · Belâgat · Kıraat · Meâller":["التفسير · الإعراب · البلاغة · القراءات","Tafsir · I'rab · Balagha · Qira'at"],
+ "Her âyetin altındaki düğmelerle tefsir, i'râb, belâgat ve kıraat kitaplarını okuyun.":["اقرأ كتب التفسير والإعراب والبلاغة والقراءات من الأزرار تحت كل آية.","Read tafsir, i'rab, balagha and qira'at works from the buttons under each verse."],
+ "Çalışmaya devam et":["متابعة الدراسة","Continue studying"],"Sûre seç":["اختر سورة","Choose surah"],"İnternetsiz kullanım":["الاستخدام دون إنترنت","Offline use"],
+ "Kur'an metnini ve meâlleri bir kez indirin; uygulama internetsiz de açılır. Okuduğunuz tefsirler de cihazda saklanır.":["نزّل نص القرآن مرة واحدة ليعمل التطبيق دون إنترنت، وتُحفظ التفاسير التي قرأتها على الجهاز.","Download the Qur'an text and translations once and the app opens without internet. Tafsirs you have read are kept on the device too."],
+ "İnternetsiz kullanım için indir":["تنزيل للاستخدام دون إنترنت","Download for offline use"],"İndirildi ✓":["تم التنزيل ✓","Downloaded ✓"],"İnternetsiz kullanım için indirildi ✓":["تم التنزيل للاستخدام دون إنترنت ✓","Downloaded for offline use ✓"],
+ "İndirme tamamlanamadı; internet bağlantınızı kontrol edin":["تعذّر التنزيل؛ تحقق من الاتصال","Download failed; check your connection"],
+ "Konumumu kullan":["استخدم موقعي","Use my location"],"veya":["أو","or"],"Şehir (ör. Konya)":["المدينة","City"],"Tamam":["حسنًا","OK"],"Konum alınamadı":["تعذّر تحديد الموقع","Location unavailable"],
+ "Konum izni verilmedi; şehir yazın":["لم يُسمح بالموقع؛ اكتب المدينة","Location not allowed; type a city"],"Konumunuz":["موقعك","Your location"],
+ "Ezan vakitleri için konumunuzu seçin (Diyanet hesabı).":["اختر موقعك لمواقيت الصلاة (حساب الشؤون الدينية التركية).","Choose your location for prayer times (Diyanet method)."],
+ "Vakitler alınamadı. İnternet bağlantınızı kontrol edin.":["تعذّر تحميل المواقيت. تحقق من الاتصال.","Could not load prayer times. Check your connection."],
+ "değiştir":["تغيير","change"],"vaktine":["بعد","in"],"Ana sayfa":["الرئيسية","Home"],"Sûre":["السورة","Surah"],"Tekrar":["التكرار","Repeat"],
+ "Aralığı baştan tekrarla":["أعد المقطع من البداية","Loop the range"],"Metni gizle (kendini sına)":["إخفاء النص (اختبر نفسك)","Hide text (test yourself)"],"‹ Önceki":["السابق ›","‹ Previous"],"Sonraki ›":["‹ التالي","Next ›"],
  "Geniş okuma":["قراءة موسّعة","Wide reading"],"Âyeti göster":["إظهار الآية","Show verse"],
  "Mushaf yazı tipi yüklenemedi; kolay okunur yazıma geçildi":["تعذّر تحميل خط المصحف؛ تم التحويل إلى الرسم الإملائي","Mushaf font could not load; switched to easy-to-read script"],"Tecvidli metin alınamadı":["تعذّر تحميل نص التجويد","Could not load tajweed text"],
  "Beni hayır dualarınızda unutmayın":["","Do not forget me in your prayers"],
@@ -459,7 +551,7 @@ const I18R=[
  [/^Kaynak: (.+) ·$/,'المصدر: $1 ·','Source: $1 ·'],[/^Diğer kitaplar \((\d+)\)$/,'كتب أخرى ($1)','Other books ($1)'],
  [/^(\d+)\. Cüz$/,'الجزء $1','Juz $1'],[/^(\d+) sonuç$/,'$1 نتيجة','$1 results'],[/· ۩ secde$/,'· ۩ سجدة','· ۩ sajdah']
 ];
-function trS(s){const k=s.trim();if(!k)return s;const e=I18N[k];if(e)return e[LI]==null?s:s.replace(k,e[LI]);let o=k;for(const r of I18R)o=o.replace(r[0],r[1+LI]);return o===k?s:s.replace(k,o)}
+function trS(s){if(LANG==='tr')return s;const k=s.trim();if(!k)return s;const e=I18N[k];if(e)return e[LI]==null?s:s.replace(k,e[LI]);let o=k;for(const r of I18R)o=o.replace(r[0],r[1+LI]);return o===k?s:s.replace(k,o)}
 const NT='.txt,.ar-t,.meal,.tx,.rd-ay,.kw .w,.kv .d,.translit,.besm,.da,.prev,.sr .t,[data-nt],script,style';
 function trN(root){
   if(root.nodeType===3){const p=root.parentElement;if(p&&!p.closest(NT)){const v=trS(root.nodeValue);if(v!==root.nodeValue)root.nodeValue=v}return}
@@ -481,6 +573,7 @@ const MSG={
   ar:"بجانب كل قراءة اسم الراوي والإمام؛ اضغط ▶ للاستماع إلى تلك الرواية. ولتوجيه القراءات اختر من <b>التفسير</b>: أبا حيان أو السمين الحلبي أو ابن عاشور.",
   en:"Each reading lists its transmitter and imam; press ▶ to hear that riwayah. For the linguistic explanation of the readings choose Abu Hayyan, al-Samin al-Halabi or Ibn 'Ashur under <b>Tafsir</b>."}
 };
+MSG.offHint={tr:"Kur'an metnini ve meâlleri bir kez <b>indirirseniz</b> uygulama internetsiz de açılır; okuduğunuz tefsirler de cihazda saklanır.",ar:"إذا <b>نزّلت</b> نص القرآن مرة واحدة فسيعمل التطبيق دون إنترنت، وتُحفظ التفاسير التي قرأتها على الجهاز.",en:"<b>Download</b> the Qur'an text and translations once and the app will open without internet; tafsirs you have read are also kept on the device."};
 const M=(k,a)=>MSG[k][LANG].replace('$1',a||'');
 const BK_AR={4:'الطبري — جامع البيان',136:'ابن كثير — تفسير القرآن العظيم',2:'البغوي — معالم التنزيل',qc90:'القرطبي — الجامع لأحكام القرآن',149:'ابن أبي حاتم — تفسير القرآن العظيم',273:'السيوطي — الدر المنثور',324:'السمرقندي — بحر العلوم',313:'الثعلبي — الكشف والبيان',27770:'عبد الرزاق الصنعاني — تفسير القرآن',27755:'مقاتل بن سليمان — التفسير',520:'ابن أبي زمنين — تفسير القرآن العزيز',305:'الصحيح المسبور من التفسير بالمأثور',363:'تنوير المقباس (المنسوب إلى ابن عباس)',
  346:'الزمخشري — الكشاف',184:'ابن عاشور — التحرير والتنوير',352:'الرازي — مفاتيح الغيب',319:'البيضاوي — أنوار التنزيل',26:'النسفي — مدارك التنزيل',37:'أبو السعود — إرشاد العقل السليم',301:'الآلوسي — روح المعاني',322:'أبو حيان — البحر المحيط',350:'ابن عطية — المحرر الوجيز',468:'الماتريدي — تأويلات أهل السنة',336:'إسماعيل حقي — روح البيان',507:'الخازن — لباب التأويل',345:'ابن جزي — التسهيل لعلوم التنزيل',340:'ابن الجوزي — زاد المسير',343:'الشوكاني — فتح القدير',349:'القاسمي — محاسن التأويل',263:'رشيد رضا — تفسير المنار',542:'الماوردي — النكت والعيون',337:'النيسابوري — غرائب القرآن',169:'ابن عادل — اللباب في علوم الكتاب',
@@ -545,7 +638,7 @@ const LS={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const toAr=n=>String(n).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);
 const normAr=s=>String(s||'').replace(/[ؐ-ًؚ-ٰٟۖ-ۭـ]/g,'').replace(/[ٱأإآ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').trim();
-const DEF={lang:LANG,reader:true,script:'uthmani',translit:false,theme:'parsomen',font:"'Amiri Quran'",qsize:34,msize:17,tsize:21,meals:['tr.diyanet'],reciter:'afasy',cont:true,book:{},tajweed:false};
+const DEF={lang:LANG,reader:true,script:'uthmani',translit:false,theme:'parsomen',font:"'Amiri Quran'",qsize:34,msize:17,tsize:21,meals:[LANG==='tr'?'tr.yazir':LANG==='ar'?'ar.muyassar':'en.sahih'],reciter:'afasy',cont:true,book:{},tajweed:false};
 const set=Object.assign({},DEF,LS.get('beyan2.set',{}));set.book=set.book||{};
 set.meals=(set.meals||[]).filter(m=>MEAL_N[m]);if(!set.meals.length)set.meals=[MEALS[0][0]];
 const save=()=>LS.set('beyan2.set',set);
@@ -624,15 +717,33 @@ function fmt(text){
 }
 
 /* ================= SÛRE ================= */
-async function loadSurah(s,focus){
+/* ---- İnternetsiz kullanım: bütün Kur'an + meâller tek seferde cihaza indirilir ---- */
+const OFFC='mihrab-offline-v1';
+async function offGet(ed){try{const c=await caches.open(OFFC);const r=await c.match(AQ+'/quran/'+ed);return r?await r.json():null}catch(e){return null}}
+const offMem={};
+async function offEd(ed){if(!(ed in offMem))offMem[ed]=await offGet(ed);return offMem[ed]}
+async function offAyah(ed,s,a){const j=await offEd(ed);return j?.data?.surahs?.[s-1]?.ayahs?.[a-1]?.text}
+async function offSurah(s,eds){const out=[];for(const ed of eds){const j=await offEd(ed);if(!j){if(out.length)continue;throw new Error('offline-none')}const su=j.data.surahs[s-1];out.push({edition:{identifier:ed},ayahs:su.ayahs})}return out}
+async function offStatus(){try{const c=await caches.open(OFFC);const k=await c.keys();return k.map(r=>r.url.split('/quran/')[1])}catch(e){return []}}
+async function offDownload(btn,info){
+  const eds=[...new Set(['quran-uthmani','quran-simple',...MEALS.map(m=>m[0]),TRL])];
+  try{const c=await caches.open(OFFC);let i=0;
+    for(const ed of eds){i++;if(info)info.textContent=`${i} / ${eds.length} — ${ed}`;
+      const r=await fetch(AQ+'/quran/'+ed);if(!r.ok)throw new Error(ed);await c.put(AQ+'/quran/'+ed,r);delete offMem[ed]}
+    if(info)info.textContent='✓';toast('İnternetsiz kullanım için indirildi ✓');if(btn)btn.textContent='İndirildi ✓';
+  }catch(e){if(info)info.textContent='';toast('İndirme tamamlanamadı; internet bağlantınızı kontrol edin')}
+}
+async function loadSurah(s,focus,keep){
+  if(!keep)hideScr();
   s=Math.max(1,Math.min(114,s|0));const tok=++st.tok;st.s=s;st.open=null;stopAudio();
   $('#sName').textContent=`${s}. ${SN()[s-1]}`;$('#sAr').textContent=S_AR[s-1];document.title=SN()[s-1]+' — el-Mihrâb';
   const M=$('#main');M.innerHTML=head(s)+loading('Sûre yükleniyor…');scrollTo(0,0);
   const eds=[set.script==='simple'||st.fontFail?'quran-simple':'quran-uthmani',...(set.showMeal?set.meals:[]),...(set.translit?[TRL]:[])];let data;
-  try{data=(await getJSON(`${AQ}/surah/${s}/editions/${eds.join(',')}`)).data}
+  try{data=(await getJSON(`${AQ}/surah/${s}/editions/${eds.join(',')}`,12000)).data}
   catch(e){
+    try{data=await offSurah(s,eds);st.offline=true}catch(e2){
     if(tok!==st.tok)return;
-    M.innerHTML=head(s)+`<div class="banner">${M('loadErr')}<br><br><button class="pill" onclick="loadSurah(${s},${focus||0})">Tekrar dene</button></div>`;return}
+    $('#main').innerHTML=head(s)+`<div class="banner">${MSG.loadErr[LANG]}<br><br>${MSG.offHint[LANG]}<br><br><button class="pill" onclick="loadSurah(${s},${focus||0})">Tekrar dene</button> <button class="pill" onclick="offDownload(this)">İnternetsiz kullanım için indir</button></div>`;return}}
   if(tok!==st.tok)return;
   st.ay=data[0].ayahs.map((a,i)=>({n:a.numberInSurah,g:a.number,juz:a.juz,page:a.page,sajda:a.sajda,text:stripBasmala(s,a.numberInSurah,a.text),tr:Object.fromEntries(data.slice(1).map(d=>[d.edition.identifier,d.ayahs[i]?.text]))}));
   render();LS.set('beyan2.last',{s,a:focus||1});
@@ -670,6 +781,69 @@ $('#main').addEventListener('click',e=>{
   if(!set.reader&&st.open&&st.open.n===n&&st.open.c===c){closeBox();return}
   openBox(n,c);
 });
+/* ================= ANA SAYFA · EZAN · OKUMA · EZBER ================= */
+function hideScr(){['home','okuma','ezber'].forEach(i=>$('#'+i).classList.add('hide'));ezStop()}
+function showHome(){hideScr();closeBox();$('#home').classList.remove('hide');const l=LS.get('beyan2.last',{s:1,a:1});$('#hStudyT').textContent=`${trS('Çalışmaya devam et')} · ${SN()[(l.s||1)-1]} ${l.s||1}:${l.a||1}`;ptRender();offStatus().then(k=>{if(k.length>3)$('#hOff').textContent=trS('İndirildi ✓')})}
+const PN=[['Imsak','İmsak','الفجر','Fajr'],['Sunrise','Güneş','الشروق','Sunrise'],['Dhuhr','Öğle','الظهر','Dhuhr'],['Asr','İkindi','العصر','Asr'],['Maghrib','Akşam','المغرب','Maghrib'],['Isha','Yatsı','العشاء','Isha']];
+const pnm=p=>LANG==='ar'?p[2]:LANG==='en'?p[3]:p[1];
+async function ptData(force){
+  const loc=LS.get('mihrab.loc',null);if(!loc)return null;
+  const d=new Date(),y=d.getFullYear(),m=d.getMonth()+1,key=`${loc.k}|${y}-${m}`;
+  let c=LS.get('mihrab.pt',null);
+  if(!c||c.key!==key||force){
+    const u=loc.lat!=null?`https://api.aladhan.com/v1/calendar/${y}/${m}?latitude=${loc.lat}&longitude=${loc.lng}&method=13`:`https://api.aladhan.com/v1/calendarByCity/${y}/${m}?city=${encodeURIComponent(loc.city)}&country=Turkey&method=13`;
+    try{const j=await fetch(u).then(r=>r.json());if(!Array.isArray(j.data))throw 0;c={key,days:j.data.map(x=>x.timings)};LS.set('mihrab.pt',c)}catch(e){if(!c)return null}
+  }
+  return {loc,t:c.days[d.getDate()-1]};
+}
+let ptTimer;
+async function ptRender(){
+  const el=$('#pt');const loc=LS.get('mihrab.loc',null);
+  const locForm=`<div class="loc"><button class="pill" id="ptG">📍 ${trS('Konumumu kullan')}</button><span>${trS('veya')}</span><input id="ptC" placeholder="${trS('Şehir (ör. Konya)')}"><button class="pill" id="ptOk">${trS('Tamam')}</button></div>`;
+  const bind=()=>{const g=$('#ptG');if(g)g.onclick=()=>{if(!navigator.geolocation){toast(trS('Konum alınamadı'));return}g.textContent='…';navigator.geolocation.getCurrentPosition(p=>{LS.set('mihrab.loc',{k:'g'+p.coords.latitude.toFixed(2)+','+p.coords.longitude.toFixed(2),lat:+p.coords.latitude.toFixed(4),lng:+p.coords.longitude.toFixed(4),name:trS('Konumunuz')});ptRender()},()=>{toast(trS('Konum izni verilmedi; şehir yazın'));ptRender()},{timeout:15000})};
+    const ok=$('#ptOk');if(ok)ok.onclick=()=>{const v=$('#ptC').value.trim();if(!v)return;LS.set('mihrab.loc',{k:'c'+v,city:v,name:v});ptRender()};const ch=$('#ptCh');if(ch)ch.onclick=()=>{LS.set('mihrab.loc',null);LS.set('mihrab.pt',null);ptRender()}};
+  if(!loc){el.innerHTML=`<div class="note" style="margin-bottom:8px">${trS('Ezan vakitleri için konumunuzu seçin (Diyanet hesabı).')}</div>`+locForm;bind();return}
+  el.innerHTML=loading();
+  const r=await ptData();
+  if(!r){el.innerHTML=`<div class="note">${trS('Vakitler alınamadı. İnternet bağlantınızı kontrol edin.')}</div>`+locForm;bind();return}
+  const T=PN.map(p=>[p,String(r.t[p[0]]||'').slice(0,5)]);
+  const draw=()=>{const now=new Date(),mins=now.getHours()*60+now.getMinutes();
+    const tm=T.map(([p,v])=>{const[a,b]=v.split(':').map(Number);return a*60+b});
+    let ni=tm.findIndex(x=>x>mins);const tomorrow=ni<0;if(tomorrow)ni=0;
+    let left=(tomorrow?tm[0]+1440:tm[ni])-mins;const cur=tomorrow?5:(ni-1+6)%6;
+    el.innerHTML=`<div class="loc">📍 <b>${esc(loc.name||'')}</b><span style="flex:1"></span><a href="#" id="ptCh">${trS('değiştir')}</a></div>
+     <div class="nx"><span>${pnm(T[ni][0])} ${trS('vaktine')}</span><b>${Math.floor(left/60)}:${String(left%60).padStart(2,'0')}</b></div>
+     <div class="tm">${T.map(([p,v],i)=>`<div class="${i===cur&&!(mins<tm[0])?'on':''}">${pnm(p)}<b>${v}</b></div>`).join('')}</div>`;
+    $('#ptCh').onclick=e=>{e.preventDefault();LS.set('mihrab.loc',null);LS.set('mihrab.pt',null);ptRender()}};
+  draw();clearInterval(ptTimer);ptTimer=setInterval(()=>{if(!$('#home').classList.contains('hide')&&$('#pt .nx'))draw()},30000);
+}
+/* --- Kur'an okuma (mushaf düzeni) --- */
+async function openOkuma(s){
+  s=s||LS.get('mihrab.okS',1);LS.set('mihrab.okS',s);hideScr();$('#okuma').classList.remove('hide');
+  $('#okT').textContent=`${s}. ${SN()[s-1]}`;const B=$('#okB');B.innerHTML=loading();$('.ok-body').scrollTop=0;
+  const ed=set.script==='simple'||st.fontFail?'quran-simple':'quran-uthmani';let ay;
+  try{ay=(await getJSON(`${AQ}/surah/${s}/${ed}`,12000)).data.ayahs}catch(e){try{ay=(await offSurah(s,[ed]))[0].ayahs}catch(e2){B.innerHTML=`<div class="note" style="direction:ltr">${MSG.loadErr[LANG]}<br><br>${MSG.offHint[LANG]}</div>`;return}}
+  B.innerHTML=`<div class="sh2">سُورَةُ ${S_AR[s-1]}</div>`+(s!==1&&s!==9?'<div class="sh2" style="font-family:var(--qfont)">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>':'')+ay.map(a=>`<span class="oa" data-n="${a.numberInSurah}">${esc(stripBasmala(s,a.numberInSurah,a.text))}</span> <span class="num">${toAr(a.numberInSurah)}</span> `).join('');
+  $$('.oa',B).forEach(x=>x.onclick=()=>{hideScr();loadSurah(s,+x.dataset.n)});
+}
+/* --- Ezber --- */
+const ez={on:false,n:1,c:0,au:new Audio(),ay:[],s:0};
+function ezStop(){ez.on=false;ez.au.pause();const b=$('#ezPl');if(b)b.innerHTML=icon('p',22)}
+async function ezLoad(){
+  const s=+$('#ezS').value;LS.set('mihrab.ez',{s,a:+$('#ezA').value,b:+$('#ezB').value,r:$('#ezR').value});
+  if(ez.s!==s){ez.s=s;$('#ezT').innerHTML=loading();const mid=set.meals[0]||MEALS[0][0];
+    try{const d=(await getJSON(`${AQ}/surah/${s}/editions/quran-uthmani,${mid}`,12000)).data;ez.ay=d[0].ayahs.map((a,i)=>({n:a.numberInSurah,t:stripBasmala(s,a.numberInSurah,a.text),m:d[1]?.ayahs[i]?.text||''}))}
+    catch(e){try{const d=await offSurah(s,['quran-uthmani',mid]);ez.ay=d[0].ayahs.map((a,i)=>({n:a.numberInSurah,t:stripBasmala(s,a.numberInSurah,a.text),m:d[1]?.ayahs[i]?.text||''}))}catch(e2){$('#ezT').textContent='';$('#ezM').innerHTML=MSG.loadErr[LANG];return}}}
+  const max=ez.ay.length;$('#ezA').max=max;$('#ezB').max=max;
+  let a=Math.min(Math.max(1,+$('#ezA').value),max),b=Math.min(Math.max(a,+$('#ezB').value),max);$('#ezA').value=a;$('#ezB').value=b;
+  if(ez.n<a||ez.n>b)ez.n=a;ezShow();
+}
+function ezShow(){const a=ez.ay[ez.n-1];if(!a)return;$('#ezK').textContent=`${SN()[ez.s-1]} ${ez.s}:${a.n}`;$('#ezT').innerHTML=`${esc(a.t)} <span class="num">${toAr(a.n)}</span>`;$('#ezT').classList.toggle('hid',$('#ezH').checked);$('#ezM').textContent=a.m;$('#ezC').textContent=ez.on?`${trS('Tekrar')} ${ez.c+1} / ${$('#ezR').value}`:''}
+function ezPlay(){const a=ez.ay[ez.n-1];if(!a)return;let r=rec();if(!r[2])r=RECITERS[0];ez.au.src=`https://everyayah.com/data/${r[2]}/${pad(ez.s)}${pad(a.n)}.mp3`;ez.au.play().catch(()=>toast(trS('Ses çalınamadı')));ezShow()}
+ez.au.onended=()=>{if(!ez.on)return;const R=+$('#ezR').value,A=+$('#ezA').value,B=+$('#ezB').value;ez.c++;
+  if(ez.c<R)return ezPlay();ez.c=0;if(ez.n<B){ez.n++;return ezPlay()}if($('#ezL').checked){ez.n=A;return ezPlay()}ezStop();ezShow()};
+function openEzber(){hideScr();stopAudio();$('#ezber').classList.remove('hide');const c=LS.get('mihrab.ez',{s:st.s||1,a:1,b:5,r:'5'});
+  $('#ezS').innerHTML=SN().map((n,i)=>`<option value="${i+1}">${i+1}. ${esc(n)}</option>`).join('');$('#ezS').value=c.s;$('#ezA').value=c.a;$('#ezB').value=c.b;$('#ezR').value=c.r;ez.s=0;ez.n=c.a;ez.c=0;ezLoad()}
 function rdOpen(){return !$('#rd').classList.contains('hide')}
 function closeReader(fromPop){
   if(!rdOpen())return;const n=st.open?.n;$('#rd').classList.add('hide');document.body.style.overflow='';st.open=null;clip.pause();
@@ -731,8 +905,9 @@ async function boxBook(box,n,c){
   sel.onchange=()=>{set.book[c]=sel.value;save();showBook($('.body',box),n,c,sel.value,extra)};
   showBook($('.body',box),n,c,cur,extra);
 }
-const TRK=new Set(['2004','qe:turkish_shahin','qe:turkish_rwwad']);
+const TRK=new Set(['2004','aq:tr.yazir','qe:turkish_rwwad','qe:turkish_shaban','aq:tr.ates']);
 async function fetchBook(s,a,id){
+  if(String(id).startsWith('aq:')){const k=id.slice(3);let t='';try{t=(await getJSON(`${AQ}/ayah/${s}:${a}/${k}`))?.data?.text||''}catch(e){t=(await offAyah(k,s,a))||'';if(!t)throw e}return{text:t,via:'AlQuran.cloud (Tanzil)',lang:'tr',link:`https://quran.com/${s}:${a}`}}
   if(String(id).startsWith('qe:')){const k=id.slice(3);const j=await getJSON(`https://quranenc.com/api/v1/translation/aya/${k}/${s}/${a}`);const r=j?.result||{};
     let t=String(r.translation||'').trim();const fn=String(r.footnotes||'').trim();if(fn)t+='\n§AÇIKLAMALAR\n'+fn;
     return{text:t,via:'QuranEnc.com',lang:'tr',link:`https://quranenc.com/tr/browse/${k}/${s}/${a}`}}
@@ -817,7 +992,7 @@ function upd(){$('#aPlay').innerHTML=icon(st.playing?'pa':'p',22);$('#pA').textC
 /* ================= KATMANLAR ================= */
 const openOv=id=>{$$('.ov').forEach(o=>o.classList.add('hide'));$('#'+id).classList.remove('hide')};
 const closeOv=()=>$$('.ov').forEach(o=>o.classList.add('hide'));
-function goto(s,a){closeOv();if(s===st.s&&st.ay.length){const e=$('#a'+a);e&&e.scrollIntoView({block:'center',behavior:'smooth'})}else loadSurah(s,a)}
+function goto(s,a){closeOv();hideScr();if(s===st.s&&st.ay.length){const e=$('#a'+a);e&&e.scrollIntoView({block:'center',behavior:'smooth'})}else loadSurah(s,a)}
 function surahList(t){
   $$('#segS button').forEach(b=>b.classList.toggle('on',b.dataset.t===t));const B=$('#ovSB');
   if(t==='j'){B.innerHTML=`<div class="grid">${JUZ.map((j,i)=>`<button class="sc" data-s="${j[0]}" data-a="${j[1]}"><span class="n">${i+1}</span><span class="m"><b>${i+1}. Cüz</b><small>${SN()[j[0]-1]} ${j[0]}:${j[1]}</small></span></button>`).join('')}</div>`;$$('.sc',B).forEach(x=>x.onclick=()=>goto(+x.dataset.s,+x.dataset.a));return}
@@ -830,7 +1005,7 @@ function search(q){
   const R=$('#fRes');q=q.trim();const m=q.match(/^(\d{1,3})\s*[:.\- ]\s*(\d{1,3})$/);
   if(m){const s=+m[1],a=+m[2];if(s>=1&&s<=114&&a>=1&&a<=S_CNT[s-1]){R.innerHTML=`<div class="sr" id="jg"><div class="k">Âyete git</div><div class="t">${SN()[s-1]} ${s}:${a}</div></div>`;$('#jg').onclick=()=>goto(s,a)}return}
   if(q.length<3){R.innerHTML='';return}
-  const isAr=/[؀-ۿ]/.test(q);const ed=isAr?'quran-simple-clean':(set.meals.find(x=>!x.startsWith('ar.'))||(LANG==='tr'?'tr.diyanet':'en.sahih'));
+  const isAr=/[؀-ۿ]/.test(q);const ed=isAr?'quran-simple-clean':(set.meals.find(x=>!x.startsWith('ar.'))||(LANG==='tr'?'tr.yazir':'en.sahih'));
   R.innerHTML=loading('Aranıyor…');clearTimeout(fT);
   fT=setTimeout(async()=>{try{
     const j=await getJSON(`${AQ}/search/${encodeURIComponent(isAr?normAr(q):q)}/all/${ed}`);const ms=j?.data?.matches||[];
@@ -856,6 +1031,7 @@ function settings(){
     <label class="ck"><input type="checkbox" id="trC" ${set.translit?'checked':''}> Latin harfleriyle okunuşu göster</label>
     <p class="note">Arapça yazı telefonunuzda düzgün görünmüyorsa <b>Kolay okunur</b> yazımı ya da <b>Noto Naskh</b> hattını seçin.</p></section>
    <section><h4>Meâller</h4><label class="ck"><input type="checkbox" id="smC" ${set.showMeal?'checked':''}> <b>Seçili meâli âyetin altında hep göster</b></label><p class="note">Kapalıyken meal, diğer kutular gibi <b>Meâller</b> düğmesine basınca açılır. Sıralama ve vurgulama için seçin:</p>${MEALS.map(m=>`<label class="ck"><input type="checkbox" data-m="${m[0]}" ${set.meals.includes(m[0])?'checked':''}> ${m[1]}</label>`).join('')}</section>
+   <section style="grid-column:1/-1"><h4>İnternetsiz kullanım</h4><p class="note">Kur'an metnini ve meâlleri bir kez indirin; uygulama internetsiz de açılır. Okuduğunuz tefsirler de cihazda saklanır.</p><button class="pill" id="offB">İnternetsiz kullanım için indir</button> <span class="note" id="offI"></span></section>
    <section style="grid-column:1/-1"><h4>Okuma ve kaynaklar</h4>
     <label class="ck"><input type="checkbox" id="rdC" ${set.reader?'checked':''}> <b>Okuma ekranı:</b> tefsir okurken âyet üstte sabit kalsın</label>
     <p class="note">Kapalıyken tefsir, âyetin hemen altında açılan kutuda gösterilir.</p>
@@ -865,14 +1041,15 @@ function settings(){
   $$('[data-th]',B).forEach(x=>x.onclick=()=>{set.theme=x.dataset.th;save();applyVars();settings()});
   $$('[data-r]',B).forEach(x=>x.oninput=()=>{set[x.dataset.r]=+x.value;x.previousElementSibling.querySelector('span').textContent=x.value+'px';applyVars();save()});
   $('#fS').onchange=e=>{set.font=e.target.value;$('#fP').style.fontFamily=set.font+",'Amiri Quran'";applyVars();save()};
-  $$('[data-sc]',B).forEach(x=>x.onclick=()=>{set.script=x.dataset.sc;save();settings();loadSurah(st.s)});
-  $('#trC').onchange=e=>{set.translit=e.target.checked;save();loadSurah(st.s)};
+  $$('[data-sc]',B).forEach(x=>x.onclick=()=>{set.script=x.dataset.sc;save();settings();loadSurah(st.s,null,1)});
+  $('#trC').onchange=e=>{set.translit=e.target.checked;save();loadSurah(st.s,null,1)};
   $('#tjC').onchange=e=>{set.tajweed=e.target.checked;save();if(set.tajweed)loadTajweed(st.s,st.tok);else{st.ay.forEach(a=>a.tj=null);render()}};
-  $$('[data-m]',B).forEach(x=>x.onchange=()=>{const id=x.dataset.m;set.meals=x.checked?[...set.meals.filter(z=>z!==id),id]:set.meals.filter(z=>z!==id);save();loadSurah(st.s)});
-  $('#smC').onchange=e=>{set.showMeal=e.target.checked;save();loadSurah(st.s)};
+  $$('[data-m]',B).forEach(x=>x.onchange=()=>{const id=x.dataset.m;set.meals=x.checked?[...set.meals.filter(z=>z!==id),id]:set.meals.filter(z=>z!==id);save();loadSurah(st.s,null,1)});
+  $('#smC').onchange=e=>{set.showMeal=e.target.checked;save();loadSurah(st.s,null,1)};
   $('#rS').onchange=e=>{set.reciter=e.target.value;$('#recSel').value=set.reciter;save();upd()};
   $$('[data-lg]',B).forEach(x=>x.onclick=()=>{if(x.dataset.lg===LANG)return;set.lang=x.dataset.lg;set.meals=[];save();location.reload()});
   $('#rdC').onchange=e=>{closeBox();set.reader=e.target.checked;save()};
+  $('#offB').onclick=e=>offDownload(e.target,$('#offI'));offStatus().then(k=>{if(k.length>3)$('#offB').textContent=trS('İndirildi ✓')});
   $('#srcB').onclick=()=>openOv('ovK');$('#abtB').onclick=about;
   $('#cC').onchange=e=>{set.cont=e.target.checked;save()};
 }
@@ -887,7 +1064,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   applyVars();
   // Mushaf yazı tipi yüklenemezse (bazı telefonlar / kısıtlı ağlar) özel işaretler kutucuk görünür: kolay okunur metne geç
   if(document.fonts&&set.script!=='simple'){
-    const fail=()=>{if(st.fontFail)return;st.fontFail=true;toast('Mushaf yazı tipi yüklenemedi; kolay okunur yazıma geçildi');loadSurah(st.s,st.open?.n)};
+    const fail=()=>{if(st.fontFail)return;st.fontFail=true;toast('Mushaf yazı tipi yüklenemedi; kolay okunur yazıma geçildi');loadSurah(st.s,st.open?.n,1)};
     const t=setTimeout(fail,9000);
     document.fonts.load("30px 'Amiri Quran'","بِسْمِ ٱللَّهِ").then(l=>{clearTimeout(t);if(!l||!l.length)fail()}).catch(()=>{clearTimeout(t);fail()});
   }
@@ -921,8 +1098,20 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   if(isIOS&&!standalone&&location.protocol==='https:')$('#instB').classList.remove('hide');
   $('#instB').onclick=async()=>{if(deferred){deferred.prompt();await deferred.userChoice.catch(()=>{});deferred=null;$('#instB').classList.add('hide')}else{openOv('ovI')}};
   if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('sw.js').catch(()=>{});
+  $('#okX').innerHTML=icon('l');$('#ezX').innerHTML=icon('l');$('#okP').innerHTML=icon(RT?'r':'l');$('#okN').innerHTML=icon(RT?'l':'r');$('#ezPl').innerHTML=icon('p',22);
+  $('.brand').style.cursor='pointer';$('.brand').onclick=showHome;$('.brand').title=trS('Ana sayfa');
+  $('#hRead').onclick=()=>openOkuma();$('#hHifz').onclick=openEzber;$('#hStudy').onclick=()=>{const l=LS.get('beyan2.last',{s:1,a:1});hideScr();if(l.s===st.s&&st.ay.length){const e=$('#a'+l.a);e&&e.scrollIntoView({block:'center'})}else loadSurah(l.s||1,l.a>1?l.a:null)};
+  $('#hList').onclick=()=>{hideScr();openOv('ovS');surahList('s')};
+  $('#hOff').onclick=e=>offDownload(e.target,$('#hOffI'));
+  $('#okX').onclick=showHome;$('#ezX').onclick=showHome;
+  $('#okP').onclick=()=>{const s=LS.get('mihrab.okS',1);if(s>1)openOkuma(s-1)};$('#okN').onclick=()=>{const s=LS.get('mihrab.okS',1);if(s<114)openOkuma(s+1)};
+  $('#ezPl').onclick=()=>{if(ez.on){ezStop();ezShow()}else{ez.on=true;ez.c=0;$('#ezPl').innerHTML=icon('pa',22);ezPlay()}};
+  $('#ezPv').onclick=()=>{ez.n=Math.max(+$('#ezA').value,ez.n-1);ez.c=0;ez.on?ezPlay():ezShow()};$('#ezNx').onclick=()=>{ez.n=Math.min(+$('#ezB').value,ez.n+1);ez.c=0;ez.on?ezPlay():ezShow()};
+  $('#ezS').onchange=()=>{ezStop();$('#ezA').value=1;$('#ezB').value=Math.min(5,S_CNT[+$('#ezS').value-1]);ezLoad()};
+  ['#ezA','#ezB'].forEach(x=>$(x).onchange=()=>{ezStop();ezLoad()});$('#ezR').onchange=()=>ezLoad();
+  $('#ezH').onchange=ezShow;$('#ezT').onclick=()=>$('#ezT').classList.toggle('hid');
   const h=location.hash.match(/^#(\d{1,3})(?:-(\d{1,3}))?$/);
-  if(h)loadSurah(+h[1],+(h[2]||0)||null);else{const l=LS.get('beyan2.last',{s:1,a:1});loadSurah(l.s||1,l.a>1?l.a:null)}
+  if(h)loadSurah(+h[1],+(h[2]||0)||null);else{const l=LS.get('beyan2.last',{s:1,a:1});loadSurah(l.s||1,l.a>1?l.a:null);showHome()}
 })();
 </script>
 <style>
