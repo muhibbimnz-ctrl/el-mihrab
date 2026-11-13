@@ -493,7 +493,7 @@ async function showBook(body,n,c,id,extra){
     const au=r.book?.author?.ar_name||r.book?.author?.name||(meta&&meta[1])||'';
     const yr=meta?meta[2]:(ex?.year||'');
     let range='';
-    if(r.gids&&r.gids.length>1){const nums=r.gids.map(g=>st.ay.find(a=>a.g===g)?.n).filter(Boolean);if(nums.length>1)range=` · Bu pasaj <b>${st.s}:${Math.min(...nums)}–${Math.max(...nums)}</b> âyetlerini birlikte ele alır`}
+    if(r.gids&&r.gids.length>1){const nums=r.gids.map(g=>st.ay.find(a=>a.g===g)?.n).filter(Boolean);if(nums.length>1&&Math.min(...nums)!==Math.max(...nums))range=` · Bu pasaj <b>${st.s}:${Math.min(...nums)}–${Math.max(...nums)}</b> âyetlerini birlikte ele alır`}
     if(!text){body.innerHTML=`<div class="msg">Bu kitapta <b>${st.s}:${n}</b> âyetine ait ayrı bir metin bulunamadı. Müellif bu âyeti çoğu zaman önceki âyetle birlikte açıklar — <b>‹ Önceki âyet</b> düğmesiyle bakabilir ya da listeden başka bir kitap seçebilirsiniz.</div>`;return}
     body.innerHTML=`<div class="info">Müellif: <b>${esc(au)}</b>${yr?` (ö. ${esc(yr)})`:''}${range}${note?'<br>'+note:''}</div><div class="txt">${fmt(text)}</div>
       <div class="info" style="padding-bottom:12px">Kaynak: ${r.via} · <a href="${r.link}" target="_blank" rel="noopener">kaynak sayfasında aç</a></div>`;
