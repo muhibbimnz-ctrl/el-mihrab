@@ -121,6 +121,22 @@ a{color:var(--accent)}
 .rd-body .bh .cl,.rd-body .foot{display:none}
 .rd-f{flex:none;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 12px;background:var(--paper);border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
 .rd-f .pill{padding:9px 14px;font-size:14px}
+.rd-meal{display:none}
+.rd.wide .rd-ay{display:none}
+@media(min-width:1000px){
+  .rd{display:grid;grid-template-columns:minmax(0,1fr) minmax(340px,31%);grid-template-rows:52px auto minmax(0,1fr) auto}
+  .rd.wide{grid-template-columns:minmax(0,1fr)}
+  .rd-h{grid-column:1/-1;grid-row:1}
+  .rd-ay,.rd-ay.min{grid-column:2;grid-row:2/-1;max-height:none;white-space:normal;overflow-y:auto;font-size:var(--qsize);line-height:2.3;padding:22px 26px;border-bottom:0;border-left:2px solid var(--gold);box-shadow:-10px 0 22px -18px rgba(80,55,10,.6);cursor:default}
+  .rd-tabs{grid-column:1;grid-row:2}
+  .rd-body{grid-column:1;grid-row:3}
+  .rd-f{grid-column:1;grid-row:4}
+  .rd-body .box{max-width:none}
+  .rd.wide .rd-body .box{max-width:1150px}
+  .rd-body .txt{padding:14px 34px 26px}
+  .rd-meal{display:block;margin-top:18px;padding-top:14px;border-top:1px dashed var(--line2);font-family:var(--serif);font-size:var(--msize);line-height:1.7;color:var(--ink2);direction:ltr;text-align:left}
+  .rd-meal b{display:block;font-family:var(--ui);font-size:11px;letter-spacing:.4px;text-transform:uppercase;color:var(--accent);margin-bottom:3px}
+}
 .src{line-height:1.65;font-size:15px}
 .src table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14px}
 .src th,.src td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
@@ -258,7 +274,7 @@ a{color:var(--accent)}
   <div class="hd"><h2>Ayarlar</h2><button class="ib x"></button></div>
   <div class="bd" id="ovAB"></div></div></div>
 <div class="rd hide" id="rd">
-  <div class="rd-h"><button class="ib" id="rdX" title="Sûreye dön"></button><b id="rdKey"></b><span style="flex:1"></span><button class="ib" id="rdPlay" title="Bu âyeti dinle"></button></div>
+  <div class="rd-h"><button class="ib" id="rdX" title="Sûreye dön"></button><b id="rdKey"></b><span style="flex:1"></span><button class="pill" id="rdW" title="Âyeti gizle, tefsiri tam ekran oku"></button><button class="ib" id="rdPlay" title="Bu âyeti dinle"></button></div>
   <div class="rd-ay" id="rdAy" lang="ar" title="Daraltmak / genişletmek için dokunun"></div>
   <div class="rd-tabs" id="rdTabs"></div>
   <div class="rd-body"><div class="box" id="rdBox"></div></div>
@@ -511,7 +527,9 @@ function openReader(n,c){
   if(!rdOpen()){$('#rd').classList.remove('hide');document.body.style.overflow='hidden';try{history.pushState({rd:1},'');st.rdHist=true}catch(e){}}
   const same=st.open&&st.open.n===n;st.open={n,c};LS.set('beyan2.last',{s:st.s,a:n});
   $('#rdKey').textContent=`${S_TR[st.s-1]} ${st.s}:${n}`;$('#rdPos').textContent=`${n} / ${st.ay.length}`;
-  if(!same){$('#rdAy').innerHTML=`${a.tj||esc(a.text)} <span class="num">${toAr(n)}</span>`;$('#rdAy').scrollTop=0}
+  if(!same){$('#rdAy').innerHTML=`${a.tj||esc(a.text)} <span class="num">${toAr(n)}</span><div class="rd-meal"></div>`;$('#rdAy').scrollTop=0;
+    const mid=set.meals[0]||'tr.diyanet';getJSON(`${AQ}/ayah/${st.s}:${n}/${mid}`).then(j=>{const m=$('#rdAy .rd-meal');if(m&&st.open&&st.open.n===n&&j?.data?.text)m.innerHTML=`<b>${esc(MEAL_N[mid]||'Meal')}</b>${esc(j.data.text)}`}).catch(()=>{})}
+  $('#rd').classList.toggle('wide',!!set.rdWide);$('#rdW').textContent=set.rdWide?'Âyeti göster':'Geniş okuma';
   $('#rdTabs').innerHTML=ORDER.map(k=>`<button class="tb ${k===c?'on':''}" data-c="${k}">${CATS[k].n} <i>${CATS[k].ar}</i></button>`).join('');
   $('#rdPrev').disabled=n<=1;$('#rdNext').disabled=n>=st.ay.length;
   const box=$('#rdBox');box.innerHTML=loading();$('.rd-body').scrollTop=0;
@@ -727,6 +745,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   $('#rdX').innerHTML=icon('l');$('#rdPlay').innerHTML=icon('p',18);
   $('#rdX').onclick=()=>closeReader();$('#rdPlay').onclick=()=>st.open&&playAyah(st.open.n);
   $('#rdAy').onclick=()=>$('#rdAy').classList.toggle('min');
+  $('#rdW').onclick=()=>{set.rdWide=!set.rdWide;save();$('#rd').classList.toggle('wide',set.rdWide);$('#rdW').textContent=set.rdWide?'Âyeti göster':'Geniş okuma'};
   $('#rdTabs').onclick=e=>{const b=e.target.closest('.tb');if(b&&st.open)openReader(st.open.n,b.dataset.c)};
   $('#rdPrev').onclick=()=>st.open&&openReader(st.open.n-1,st.open.c);$('#rdNext').onclick=()=>st.open&&openReader(st.open.n+1,st.open.c);
   addEventListener('popstate',()=>closeReader(true));
