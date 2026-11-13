@@ -16,11 +16,11 @@ jobs:
         run: |
           keytool -genkeypair -keystore $RUNNER_TEMP/test.jks -storepass testtest -keypass testtest -alias test -keyalg RSA -keysize 2048 -validity 3650 -dname "CN=test"
           cd android
-          TEST_KS=$RUNNER_TEMP/test.jks VCODE=${{ github.run_number }} gradle --no-daemon bundleRelease assembleTester
+          TEST_KS=$RUNNER_TEMP/test.jks VCODE=${{ github.run_number }} gradle --no-daemon bundleRelease assembleDeneme
           find app/build/outputs -name "*.aab" -o -name "*.apk"
       - uses: actions/upload-artifact@v4
         with:
           name: el-mihrab-android
           path: |
             android/app/build/outputs/bundle/release/*.aab
-            android/app/build/outputs/apk/tester/*.apk
+            android/app/build/outputs/apk/deneme/*.apk

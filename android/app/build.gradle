@@ -21,7 +21,7 @@ android {
     }
     buildTypes {
         release { minifyEnabled false }
-        tester { initWith release; signingConfig signingConfigs.test; matchingFallbacks = ['release'] }
+        deneme { initWith release; signingConfig signingConfigs.test; matchingFallbacks = ['release'] }
     }
     lint { checkReleaseBuilds false; abortOnError false }
 }
