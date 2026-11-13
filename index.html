@@ -148,6 +148,24 @@ a{color:var(--accent)}
 .hh .hi{width:46px;height:46px;flex:none;border-radius:14px;background:var(--accent);color:#f2dca4;display:flex;align-items:center;justify-content:center;font-family:'Amiri',serif;font-size:24px}
 .hh b{display:block;font-family:var(--disp);font-size:24px;color:var(--accent)}
 .hh small{color:var(--muted);font-size:13px}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+.tiles.t3w{grid-template-columns:1fr 1fr 1fr;margin-top:8px}
+.tile{border:0;border-radius:26px;padding:18px 10px 14px;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-height:132px;box-shadow:0 14px 26px -18px rgba(40,25,5,.9);transition:transform .15s}
+.tile:active{transform:scale(.97)}
+.tile svg{width:52px;height:40px}
+.tile b{font-size:15px;line-height:1.25}
+.tile .ar{font-family:'Amiri',serif;font-size:19px;opacity:.85}
+.tile .big{font-family:'Amiri',serif;font-size:34px;line-height:1}
+.t3w .tile{min-height:96px;border-radius:22px;padding:12px 6px}
+.t1{background:linear-gradient(135deg,#d9c78a 0%,#7f8c7a 45%,#46606a 100%)}
+.t2{background:linear-gradient(135deg,#e2c98b 0%,#9a7448 45%,#5e4038 100%)}
+.t3{background:linear-gradient(135deg,#9fc9a8,#2f6f57 60%,#1d4a3a)}
+.t4{background:linear-gradient(135deg,#d8b3c4,#8a5770 60%,#55324a)}
+.t5{background:linear-gradient(135deg,#a9bfe0,#4c6a9a 60%,#2d4166)}
+.tbig{width:100%;min-height:170px;margin:4px 0 12px;background:linear-gradient(135deg,#e6cf8e 0%,#3f7a5e 50%,#0e4a37 100%)}
+.tbig svg{width:64px;height:48px}.tbig b{font-size:17px}
+.dl-h{margin-top:16px;font-family:var(--disp);font-size:19px;font-weight:700;color:var(--accent)}
+
 .hbtns{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
 .hbig{border:1px solid var(--line2);background:var(--card);border-radius:14px;padding:14px 10px;font-weight:700;font-size:15px;color:var(--ink);display:flex;flex-direction:column;align-items:center;gap:2px}
 .hbig .ar{font-family:'Amiri',serif;font-size:22px;color:var(--gold);font-weight:400}
@@ -181,6 +199,13 @@ a{color:var(--accent)}
 .ez-m{font-family:var(--serif);color:var(--ink2);max-width:760px;line-height:1.6;margin-top:8px}
 .ez-c{margin-top:14px;font-size:14px;color:var(--muted)}
 @media(max-width:760px){.home-in{grid-template-columns:1fr;padding:14px 10px}.pt .tm div b{font-size:13px}.mus{padding:18px 14px;margin:8px}}
+#home .pt{background:linear-gradient(135deg,#0e5a43,#0b4031);color:#e9f1ec;border:0}
+#home .pt .loc{color:#bcd6c8}.pt .loc b{color:#fff}.pt .loc a{color:#f2dca4}
+#home .pt .nx b{color:#f2dca4}.pt .nx span{color:#bcd6c8}
+#home .pt .tm div{color:#bcd6c8}.pt .tm div b{color:#fff}
+#home .pt .tm div.on{background:#f2dca4;color:#5b4512}.pt .tm div.on b{color:#2a1f05}
+#home .pt .note{color:#d7e6dd}
+#home .pt .pill{background:#ffffff1a;border-color:#ffffff40;color:#fff}
 .src{line-height:1.65;font-size:15px}
 [dir=rtl]{--ui:'Noto Naskh Arabic','Source Sans 3',sans-serif;--disp:'Reem Kufi','Amiri',serif;--serif:'Amiri',serif}
 [dir=rtl] .tb i,[dir=rtl] .sbtn .ar,[dir=rtl] .dua .dt,[dir=rtl] .sc .a,[dir=rtl] .sh .t{display:none}
@@ -309,14 +334,24 @@ a{color:var(--accent)}
 
 <section class="scr hide" id="home"><div class="home-in">
   <div class="hcard">
-    <div class="hh"><span class="hi">۞</span><div><b>Kur'an ve Namaz</b><small>Ezan vakitleri · Kur'ân-ı Kerîm · Ezber</small></div></div>
+    <div class="hh"><span class="hi">۞</span><div><b>Namaz ve Kur'an</b><small>Ezan vakitleri · Kur'ân-ı Kerîm · Ezber · Dil dersleri</small></div></div>
     <div id="pt" class="pt"></div>
-    <div class="hbtns"><button class="hbig" id="hRead"><span class="ar">اقرأ</span>Kur'ân-ı Kerîm oku</button><button class="hbig" id="hHifz"><span class="ar">احفظ</span>Ezber (Hıfz)</button></div>
+    <div class="tiles">
+      <button class="tile t1" id="hRead"><svg viewBox="0 0 64 48"><path d="M32 12C24 6 14 5 6 7v32c8-2 18-1 26 5 8-6 18-7 26-5V7c-8-2-18-1-26 5z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M32 12v32" stroke="currentColor" stroke-width="3"/></svg><b>Kur'ân-ı Kerîm oku</b><span class="ar">اقرأ</span></button>
+      <button class="tile t2" id="hHifz"><svg viewBox="0 0 64 48"><circle cx="32" cy="24" r="17" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 13v11l8 6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><b>Ezber (Hıfz)</b><span class="ar">احفظ</span></button>
+    </div>
+    <div class="dl-h">Dil dersleri</div>
+    <div class="tiles t3w">
+      <button class="tile t3" data-dil="arapca"><span class="big">ع</span><b>Arapça</b></button>
+      <button class="tile t4" data-dil="farsca"><span class="big">ف</span><b>Farsça</b></button>
+      <button class="tile t5" data-dil="ingilizce"><span class="big">En</span><b>İngilizce</b></button>
+    </div>
   </div>
   <div class="hcard">
     <div class="hh"><span class="hi">م</span><div><b>el-Mihrâb Dirâset</b><small>Tefsir · İ'râb · Belâgat · Kıraat · Meâller</small></div></div>
+    <button class="tile tbig" id="hStudy"><svg viewBox="0 0 64 48"><path d="M10 44V22C10 12 20 5 32 2c12 3 22 10 22 20v22z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M20 44V25c0-7 6-12 12-15 6 3 12 8 12 15v19" fill="none" stroke="currentColor" stroke-width="2"/></svg><b id="hStudyT">Çalışmaya devam et</b><span class="ar">ادرس</span></button>
     <p class="note" id="hDesc">Her âyetin altındaki düğmelerle tefsir, i'râb, belâgat ve kıraat kitaplarını okuyun.</p>
-    <div class="hbtns"><button class="hbig" id="hStudy"><span class="ar">ادرس</span><span id="hStudyT">Çalışmaya devam et</span></button><button class="hbig" id="hList"><span class="ar">السور</span>Sûre seç</button></div>
+    <button class="pill" id="hList">Sûre seç ›</button>
   </div>
   <div class="hcard hsmall"><b>İnternetsiz kullanım</b><p class="note">Kur'an metnini ve meâlleri bir kez indirin; uygulama internetsiz de açılır. Okuduğunuz tefsirler de cihazda saklanır.</p><button class="pill" id="hOff">İnternetsiz kullanım için indir</button> <span class="note" id="hOffI"></span></div>
 </div></section>
@@ -538,6 +573,7 @@ const I18N={
  "Vakitler alınamadı. İnternet bağlantınızı kontrol edin.":["تعذّر تحميل المواقيت. تحقق من الاتصال.","Could not load prayer times. Check your connection."],
  "değiştir":["تغيير","change"],"vaktine":["بعد","in"],"Ana sayfa":["الرئيسية","Home"],"Sûre":["السورة","Surah"],"Tekrar":["التكرار","Repeat"],
  "Aralığı baştan tekrarla":["أعد المقطع من البداية","Loop the range"],"Metni gizle (kendini sına)":["إخفاء النص (اختبر نفسك)","Hide text (test yourself)"],"‹ Önceki":["السابق ›","‹ Previous"],"Sonraki ›":["‹ التالي","Next ›"],
+ "Namaz ve Kur'an":["الصلاة والقرآن","Prayer & Qur'an"],"Ezan vakitleri · Kur'ân-ı Kerîm · Ezber · Dil dersleri":["المواقيت · المصحف · الحفظ · اللغات","Prayer times · Qur'an · Memorise · Languages"],"Dil dersleri":["دروس اللغات","Language lessons"],"Arapça":["العربية","Arabic"],"Farsça":["الفارسية","Persian"],"İngilizce":["الإنجليزية","English"],"Sûre seç ›":["اختر سورة ‹","Choose surah ›"],"Bu ders yakında eklenecek":["سيُضاف هذا الدرس قريبًا","This lesson will be added soon"],
  "Geniş okuma":["قراءة موسّعة","Wide reading"],"Âyeti göster":["إظهار الآية","Show verse"],
  "Mushaf yazı tipi yüklenemedi; kolay okunur yazıma geçildi":["تعذّر تحميل خط المصحف؛ تم التحويل إلى الرسم الإملائي","Mushaf font could not load; switched to easy-to-read script"],"Tecvidli metin alınamadı":["تعذّر تحميل نص التجويد","Could not load tajweed text"],
  "Beni hayır dualarınızda unutmayın":["","Do not forget me in your prayers"],
@@ -783,7 +819,7 @@ $('#main').addEventListener('click',e=>{
 });
 /* ================= ANA SAYFA · EZAN · OKUMA · EZBER ================= */
 function hideScr(){['home','okuma','ezber'].forEach(i=>$('#'+i).classList.add('hide'));ezStop()}
-function showHome(){hideScr();closeBox();$('#home').classList.remove('hide');const l=LS.get('beyan2.last',{s:1,a:1});$('#hStudyT').textContent=`${trS('Çalışmaya devam et')} · ${SN()[(l.s||1)-1]} ${l.s||1}:${l.a||1}`;ptRender();offStatus().then(k=>{if(k.length>3)$('#hOff').textContent=trS('İndirildi ✓')})}
+function showHome(){hideScr();closeBox();$('#home').classList.remove('hide');const l=LS.get('beyan2.last',{s:1,a:1});$('#hStudyT').innerHTML=`${trS('Çalışmaya devam et')}<br><small style="font-weight:500;opacity:.85">${SN()[(l.s||1)-1]} ${l.s||1}:${l.a||1}</small>`;ptRender();offStatus().then(k=>{if(k.length>3)$('#hOff').textContent=trS('İndirildi ✓')})}
 const PN=[['Imsak','İmsak','الفجر','Fajr'],['Sunrise','Güneş','الشروق','Sunrise'],['Dhuhr','Öğle','الظهر','Dhuhr'],['Asr','İkindi','العصر','Asr'],['Maghrib','Akşam','المغرب','Maghrib'],['Isha','Yatsı','العشاء','Isha']];
 const pnm=p=>LANG==='ar'?p[2]:LANG==='en'?p[3]:p[1];
 async function ptData(force){
@@ -1103,6 +1139,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   $('#hRead').onclick=()=>openOkuma();$('#hHifz').onclick=openEzber;$('#hStudy').onclick=()=>{const l=LS.get('beyan2.last',{s:1,a:1});hideScr();if(l.s===st.s&&st.ay.length){const e=$('#a'+l.a);e&&e.scrollIntoView({block:'center'})}else loadSurah(l.s||1,l.a>1?l.a:null)};
   $('#hList').onclick=()=>{hideScr();openOv('ovS');surahList('s')};
   $('#hOff').onclick=e=>offDownload(e.target,$('#hOffI'));
+  $$('[data-dil]').forEach(b=>b.onclick=async()=>{const u=b.dataset.dil+'.html';try{const r=await fetch(u,{method:'HEAD'});if(!r.ok)throw 0;location.href=u}catch(e){toast(trS('Bu ders yakında eklenecek'))}});
   $('#okX').onclick=showHome;$('#ezX').onclick=showHome;
   $('#okP').onclick=()=>{const s=LS.get('mihrab.okS',1);if(s>1)openOkuma(s-1)};$('#okN').onclick=()=>{const s=LS.get('mihrab.okS',1);if(s<114)openOkuma(s+1)};
   $('#ezPl').onclick=()=>{if(ez.on){ezStop();ezShow()}else{ez.on=true;ez.c=0;$('#ezPl').innerHTML=icon('pa',22);ezPlay()}};
