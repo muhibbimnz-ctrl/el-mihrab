@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e5a43">
+<meta name="description" content="el-Mihrâb — Kur'ân-ı Kerîm, meâller, tefsir, i'râb, belâgat ve kıraat tek sayfada">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="el-Mihrâb">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>el-Mihrâb (taslak) — Kur'ân-ı Kerîm ve Tefsîri</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Noto+Naskh+Arabic:wght@400;600&family=Reem+Kufi:wght@500;700&family=Cormorant+Garamond:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f3ead4;--paper:#fbf6e8;--card:#fffaf0;--ink:#2a2216;--ink2:#4a3f2c;--muted:#857455;
+  --accent:#0e5a43;--accentSoft:#e3efe7;--gold:#b0852f;--goldSoft:#f3e6c4;--line:#e3d4ad;--line2:#d6c391;--hl:#fff1c4;--play:#dcefe3;
+  --qfont:'Amiri Quran';--qsize:34px;--msize:17px;--tsize:21px;
+  --ui:'Source Sans 3',system-ui,sans-serif;--serif:'Source Serif 4',Georgia,serif;--disp:'Cormorant Garamond',Georgia,serif;
+  --pat:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='%23b0852f' stroke-opacity='.15'%3E%3Cpath d='M28 6l6.4 15.6L50 28l-15.6 6.4L28 50l-6.4-15.6L6 28l15.6-6.4z'/%3E%3Cpath d='M12.4 12.4h31.2v31.2H12.4z' transform='rotate(45 28 28)'/%3E%3Ccircle cx='28' cy='28' r='5'/%3E%3C/g%3E%3C/svg%3E");
+}
+[data-theme="gece"]{--bg:#0c1311;--paper:#111a16;--card:#15201b;--ink:#ece3cc;--ink2:#cfc5ab;--muted:#958c75;--accent:#4cc196;--accentSoft:#173328;--gold:#d6ab52;--goldSoft:#2a2414;--line:#24312b;--line2:#34453c;--hl:#2c2a16;--play:#143a2b;
+  --pat:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='%23d6ab52' stroke-opacity='.06'%3E%3Cpath d='M28 6l6.4 15.6L50 28l-15.6 6.4L28 50l-6.4-15.6L6 28l15.6-6.4z'/%3E%3Cpath d='M12.4 12.4h31.2v31.2H12.4z' transform='rotate(45 28 28)'/%3E%3C/g%3E%3C/svg%3E")}
+[data-theme="zumrut"]{--bg:#e6efe9;--paper:#f5faf6;--card:#fbfdfb;--ink:#122219;--ink2:#2c4236;--muted:#5f7a6b;--accent:#0b6a4e;--accentSoft:#d8ebe1;--gold:#9a7429;--goldSoft:#ece2c6;--line:#cfe0d5;--line2:#b4cfbf;--hl:#fdf3cf;--play:#cfeede}
+[data-theme="sade"]{--bg:#f6f6f4;--paper:#fff;--card:#fff;--ink:#1d1d1b;--ink2:#3c3c38;--muted:#77756e;--accent:#1f5f8b;--accentSoft:#e3eef6;--gold:#a4802e;--goldSoft:#f2ead6;--line:#e6e4de;--line2:#d4d1c7;--hl:#fff6cf;--play:#e0f0fa;--pat:none}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg) var(--pat);color:var(--ink);font-family:var(--ui);font-size:15px;-webkit-font-smoothing:antialiased;padding-bottom:80px}
+button,select,input{font:inherit;color:inherit}
+button{cursor:pointer}
+a{color:var(--accent)}
+.hide{display:none!important}
+
+/* üst çubuk */
+.top{position:sticky;top:0;z-index:30;height:60px;display:flex;align-items:center;gap:10px;padding:0 16px;background:var(--paper);border-bottom:1px solid var(--line);box-shadow:0 2px 0 -1px color-mix(in srgb,var(--gold) 40%,transparent)}
+.brand{display:flex;align-items:center;gap:9px}
+.brand b{font-family:var(--disp);font-size:23px;color:var(--accent);line-height:1}
+.brand small{display:block;font-size:11px;color:var(--muted);letter-spacing:.6px;text-transform:uppercase;margin-top:2px}
+.mid{flex:1;display:flex;justify-content:center;align-items:center;gap:6px;min-width:0}
+.sbtn{display:flex;align-items:center;gap:10px;padding:7px 16px;border:1px solid var(--line2);background:var(--card);border-radius:999px;font-weight:700;min-width:0}
+.sbtn .ar{font-family:'Reem Kufi','Amiri',serif;color:var(--accent);font-size:17px;font-weight:500}
+.ib{width:38px;height:38px;border-radius:10px;border:0;background:transparent;display:inline-flex;align-items:center;justify-content:center;color:var(--ink2)}
+.ib:hover{background:var(--accentSoft);color:var(--accent)}
+.jump{width:68px;padding:7px;border:1px solid var(--line2);border-radius:10px;background:var(--card);text-align:center}
+
+.wrap{max-width:940px;margin:0 auto;padding:22px 18px}
+.banner{background:#fff3cd;color:#5c4400;border:1px solid #e9cf7a;border-radius:12px;padding:12px 14px;margin-bottom:16px;line-height:1.55;font-size:14.5px}
+
+/* sûre başlığı */
+.sh{position:relative;text-align:center;background:var(--paper);border:1px solid var(--line2);border-radius:18px;padding:20px 20px 16px;margin-bottom:22px;overflow:hidden}
+.sh:before{content:"";position:absolute;inset:7px;border:1px solid var(--gold);border-radius:12px;opacity:.45;pointer-events:none}
+.sh:after{content:"";position:absolute;inset:0;background:var(--pat);pointer-events:none}
+.sh>*{position:relative;z-index:1}
+.sh .a{font-family:'Reem Kufi','Amiri',serif;font-size:38px;color:var(--accent)}
+.sh .t{font-family:var(--disp);font-size:25px;font-weight:700}
+.sh .m{color:var(--muted);font-size:13.5px;margin-top:4px}
+.besm{font-family:var(--qfont),'Amiri Quran',serif;font-size:calc(var(--qsize)*.92);margin-top:12px;direction:rtl}
+
+/* âyet */
+.ay{background:var(--card);border:1px solid var(--line);border-radius:16px;margin:0 0 16px;overflow:hidden;transition:background .25s,border-color .25s}
+.ay.playing{background:var(--play)}
+.ay.open{border-color:var(--gold);box-shadow:0 6px 24px -14px rgba(80,55,10,.45)}
+.ay-in{padding:18px 22px 10px}
+.ar-t{font-family:var(--qfont),'Amiri Quran',serif;font-size:var(--qsize);line-height:2.3;direction:rtl;text-align:right;word-spacing:2px}
+.num{display:inline-flex;align-items:center;justify-content:center;min-width:1.5em;height:1.5em;margin:0 .25em;font-family:'Amiri',serif;font-size:.6em;color:var(--accent);border:1.5px solid var(--gold);border-radius:50%;vertical-align:.15em;background:var(--paper)}
+.meal{font-family:var(--serif);font-size:var(--msize);line-height:1.65;color:var(--ink2);margin:8px 0 2px}
+.meal .k{font-family:var(--ui);font-size:11px;font-weight:700;color:var(--accent);background:var(--accentSoft);border-radius:6px;padding:1px 7px;margin-right:7px;vertical-align:2px;text-transform:uppercase;letter-spacing:.3px}
+.key{font-size:12px;font-weight:700;color:var(--gold);letter-spacing:.4px}
+
+/* düğme şeridi */
+.bar{display:flex;flex-wrap:wrap;gap:6px;padding:10px 16px 12px;border-top:1px dashed var(--line2);align-items:center}
+.bar .key{margin-right:2px}
+.bar .play{margin-right:auto}
+.tb{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line2);background:var(--paper);border-radius:10px;padding:6px 9px;font-weight:600;font-size:13.5px;color:var(--ink2)}
+.tb i{font-style:normal;font-family:'Amiri',serif;font-size:14px;color:var(--gold)}
+.tb:hover{border-color:var(--gold)}
+.tb.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.tb.on i{color:#f2dca4}
+.tb.play{padding:6px 10px}
+
+/* açılan kutu */
+.box{border-top:1px solid var(--line);background:var(--paper)}
+.bh{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line);position:sticky;top:60px;background:var(--paper);z-index:5}
+.bh select{flex:1;min-width:220px;padding:9px 12px;border-radius:10px;border:1px solid var(--line2);background:var(--card);font-weight:600;font-size:14.5px}
+.pill{border:1px solid var(--line2);background:var(--card);border-radius:8px;padding:6px 10px;font-size:13px;font-weight:600;color:var(--ink2)}
+.pill:hover{border-color:var(--gold)}
+.info{padding:10px 18px 0;font-size:13px;color:var(--muted)}
+.info b{color:var(--ink2)}
+.txt{padding:10px 20px 18px;font-family:'Amiri',serif;direction:rtl;text-align:justify;font-size:var(--tsize);line-height:2.05;color:var(--ink)}
+.txt p{margin:0 0 .7em}
+.txt .q{color:var(--accent)}
+.txt .h{color:#8a5a14}
+[data-theme="gece"] .txt .h{color:#e0b46a}
+.txt h5{font-family:'Reem Kufi','Amiri',serif;font-size:1.05em;color:var(--gold);margin:1em 0 .3em}
+.txt.ltr{direction:ltr;text-align:left;font-family:var(--serif);font-size:calc(var(--tsize)*.82);line-height:1.75}
+.txt.ltr h5{font-family:var(--ui);font-size:.8em;letter-spacing:.5px;text-transform:uppercase;color:var(--gold)}
+.txt.ltr sup{color:var(--accent);font-weight:700}
+.translit{font-style:italic;color:var(--muted);font-size:15px;margin-top:6px;line-height:1.6}
+.txt .sref{text-align:center;color:var(--muted);font-size:.85em}
+.note{font-size:13px;color:var(--muted);line-height:1.55}
+.msg{margin:14px 18px;padding:12px 14px;border-radius:10px;background:var(--goldSoft);border:1px solid var(--line2);font-size:14px;line-height:1.55;color:var(--ink2)}
+.loading{display:flex;align-items:center;gap:10px;color:var(--muted);padding:18px}
+.spin{width:18px;height:18px;border-radius:50%;border:2.5px solid var(--line2);border-top-color:var(--accent);animation:sp .8s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.rd{position:fixed;top:0;left:0;right:0;bottom:64px;z-index:45;background:var(--bg) var(--pat);display:flex;flex-direction:column}
+.rd-h{display:flex;align-items:center;gap:8px;height:52px;padding:0 10px;background:var(--paper);border-bottom:1px solid var(--line);flex:none}
+.rd-h b{font-family:var(--disp);font-size:21px;color:var(--accent)}
+.rd-ay{flex:none;max-height:36vh;overflow-y:auto;background:var(--card);border-bottom:2px solid var(--gold);padding:8px 22px 10px;font-family:var(--qfont),'Amiri Quran',serif;font-size:calc(var(--qsize)*.88);line-height:2.1;direction:rtl;text-align:right;cursor:pointer;box-shadow:0 8px 18px -14px rgba(80,55,10,.6);position:relative;z-index:2}
+.rd-ay.min{max-height:2.5em;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:calc(var(--qsize)*.66)}
+.rd-tabs{flex:none;display:flex;gap:6px;overflow-x:auto;padding:8px 12px;background:var(--paper);border-bottom:1px solid var(--line);scrollbar-width:none}
+.rd-tabs::-webkit-scrollbar{display:none}
+.rd-tabs .tb{flex:none}
+.rd-body{flex:1;overflow-y:auto;min-height:0}
+.rd-body .box{max-width:900px;margin:0 auto;border-top:0;min-height:100%}
+.rd-body .bh{top:0}
+.rd-body .bh .cl,.rd-body .foot{display:none}
+.rd-f{flex:none;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 12px;background:var(--paper);border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+.rd-f .pill{padding:9px 14px;font-size:14px}
+.src{line-height:1.65;font-size:15px}
+.src table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14px}
+.src th,.src td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.src th{background:var(--goldSoft)}
+.src td:first-child{font-weight:700;color:var(--accent);width:34%}
+.foot{display:flex;justify-content:space-between;gap:8px;padding:10px 16px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);align-items:center}
+
+/* meâller */
+.ml{padding:6px 18px 14px}
+.ml .r{padding:10px 0;border-bottom:1px solid var(--line)}
+.ml .r:last-child{border:0}
+.ml .n{font-weight:700;color:var(--accent);font-size:13px}
+.ml .tx{font-family:var(--serif);font-size:16.5px;line-height:1.65}
+
+/* kıraat */
+.kq{padding:8px 18px 16px}
+.kw{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:10px 14px;margin:10px 0}
+.kw .w{font-family:var(--qfont),'Amiri Quran',serif;font-size:28px;direction:rtl;text-align:right;color:var(--accent)}
+.kv{padding:8px 0;border-top:1px dashed var(--line2)}
+.kv .d{font-family:'Amiri',serif;direction:rtl;text-align:right;font-size:19px;line-height:1.8}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line2);background:var(--paper);border-radius:999px;padding:3px 4px 3px 10px;font-size:13px}
+.chip b{color:var(--ink)}
+.chip span{color:var(--muted)}
+.chip button{width:26px;height:26px;border-radius:50%;border:0;background:var(--accent);color:#fff;display:inline-flex;align-items:center;justify-content:center}
+
+/* alt oynatıcı */
+.player{position:fixed;left:0;right:0;bottom:0;height:64px;background:var(--paper);border-top:1px solid var(--line);display:flex;align-items:center;gap:10px;padding:0 14px;z-index:40}
+.pb{width:40px;height:40px;border-radius:50%;border:1px solid var(--line2);background:var(--card);display:inline-flex;align-items:center;justify-content:center;color:var(--ink2)}
+.pb.main{width:46px;height:46px;background:var(--accent);border-color:var(--accent);color:#fff}
+.pi{min-width:0;flex:1;line-height:1.25}
+.pi b{display:block;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pi span{font-size:12px;color:var(--muted)}
+.player select{padding:7px 8px;border-radius:10px;border:1px solid var(--line2);background:var(--card);font-size:13px;max-width:230px}
+
+/* katmanlar */
+.ov{position:fixed;inset:0;background:rgba(20,15,5,.45);backdrop-filter:blur(3px);z-index:60;display:flex;justify-content:center;align-items:flex-start;padding:5vh 14px}
+.ov .in{background:var(--paper);border:1px solid var(--line2);border-radius:18px;width:min(980px,100%);max-height:88vh;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 30px 80px -20px rgba(0,0,0,.45)}
+.ov .hd{display:flex;align-items:center;gap:10px;padding:14px 18px;border-bottom:1px solid var(--line)}
+.ov .hd h2{margin:0 auto 0 0;font-family:var(--disp);font-size:24px;color:var(--accent)}
+.ov .bd{padding:16px 18px;overflow:auto}
+.inp{width:100%;padding:11px 14px;border-radius:12px;border:1px solid var(--line2);background:var(--card);font-size:15px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:8px;margin-top:12px}
+.sc{display:flex;align-items:center;gap:10px;border:1px solid var(--line);background:var(--card);border-radius:12px;padding:9px 11px;text-align:left}
+.sc:hover{border-color:var(--gold);background:var(--goldSoft)}
+.sc.cur{border-color:var(--accent)}
+.sc .n{width:32px;height:32px;flex:none;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:var(--accent);border:1.5px solid var(--gold);border-radius:50%}
+.sc .m{flex:1;min-width:0}
+.sc .m b{display:block}
+.sc .m small{color:var(--muted);font-size:12px}
+.sc .a{font-family:'Reem Kufi','Amiri',serif;color:var(--accent);font-size:17px}
+.seg{display:inline-flex;border:1px solid var(--line2);border-radius:10px;overflow:hidden;background:var(--card)}
+.seg button{border:0;background:transparent;padding:7px 12px;font-weight:600;font-size:13px;color:var(--muted)}
+.seg button.on{background:var(--accent);color:#fff}
+.sr{padding:10px 4px;border-bottom:1px solid var(--line);cursor:pointer}
+.sr:hover{background:var(--goldSoft)}
+.sr .k{font-weight:700;color:var(--gold);font-size:12.5px}
+.sr .t{font-family:var(--serif);line-height:1.55}
+.sr .t.ar{font-family:'Amiri Quran','Amiri',serif;direction:rtl;font-size:21px}
+.sr mark{background:var(--hl);color:inherit}
+.sets{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.sets section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.sets h4{margin:0 0 8px;font-family:var(--disp);font-size:20px;color:var(--accent)}
+.f{margin:10px 0}
+.f label.l{display:flex;justify-content:space-between;font-size:13px;font-weight:600;color:var(--ink2);margin-bottom:5px}
+.f select{width:100%;padding:8px 10px;border:1px solid var(--line2);border-radius:10px;background:var(--paper)}
+.f input[type=range]{width:100%;accent-color:var(--accent)}
+.ck{display:flex;gap:8px;align-items:center;margin:6px 0;font-size:14px;cursor:pointer}
+.ck input{accent-color:var(--accent);width:16px;height:16px}
+.themes{display:flex;gap:8px}
+.themes button{flex:1;border:2px solid var(--line2);border-radius:12px;padding:10px 4px;font-weight:700;font-size:12.5px}
+.themes button.on{border-color:var(--accent)}
+.prev{font-size:27px;line-height:2;text-align:center;direction:rtl;border:1px dashed var(--line2);border-radius:10px;margin-top:6px;background:var(--paper)}
+.toast{position:fixed;left:50%;bottom:84px;transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:12px;font-size:14px;opacity:0;transition:opacity .25s;z-index:90;pointer-events:none}
+.toast.show{opacity:1}
+.nav{display:flex;gap:10px;margin-top:10px}
+.nav button{flex:1;border:1px solid var(--line2);background:var(--card);border-radius:12px;padding:12px;font-weight:600}
+.dua{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:4px 12px;margin:-10px auto 22px;padding:7px 18px;width:fit-content;max-width:100%;background:var(--paper);border:1px solid var(--line2);border-radius:999px;box-shadow:0 4px 14px -10px rgba(80,55,10,.5)}
+.dua .o{color:var(--gold);font-size:14px}
+.dua .da{font-family:'Amiri',serif;font-size:19px;color:var(--accent);direction:rtl}
+.dua .dt{font-family:var(--disp);font-style:italic;font-weight:600;font-size:16px;color:var(--ink2)}
+.credit{text-align:center;font-size:12px;color:var(--muted);margin:24px 0 8px;line-height:1.6}
+
+@media(max-width:720px){
+  .brand div{display:none}
+  .top{gap:4px;padding:0 8px}
+  .jump{display:none}
+  .wrap{padding:14px 8px}
+  .ay-in{padding:14px 14px 8px}
+  .bar{padding:8px 10px 10px;gap:5px}
+  .tb{padding:6px 9px;font-size:13px}
+  .tb i{display:none}
+  .bh{top:60px}
+  .txt{padding:10px 14px 16px}
+  .player select{max-width:120px}
+  .sets{grid-template-columns:1fr}
+  .sbtn .ar{display:none}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <svg width="36" height="36" viewBox="0 0 40 40" aria-hidden="true"><g fill="none" stroke="var(--gold)" stroke-width="1.6"><rect x="8" y="8" width="24" height="24"/><rect x="8" y="8" width="24" height="24" transform="rotate(45 20 20)"/></g><circle cx="20" cy="20" r="7" fill="var(--accent)"/><text x="20" y="24.2" text-anchor="middle" font-family="Amiri" font-size="12" fill="#fff">م</text></svg>
+    <div><b>el-Mihrâb</b><small>Kur'ân-ı Kerîm ve Tefsîri</small></div>
+  </div>
+  <div class="mid">
+    <button class="ib" id="prevS" title="Önceki sûre"></button>
+    <button class="sbtn" id="sBtn" title="Sûre seç"><span id="sName">…</span><span class="ar" id="sAr"></span></button>
+    <button class="ib" id="nextS" title="Sonraki sûre"></button>
+    <input class="jump" id="jump" placeholder="Âyet" title="Âyete git: 255 veya 2:255">
+  </div>
+  <button class="ib hide" id="instB" title="Uygulama olarak kur"></button>
+  <button class="ib" id="searchB" title="Ara"></button>
+  <button class="ib" id="setB" title="Ayarlar"></button>
+</header>
+
+<main class="wrap" id="main"></main>
+
+<footer class="player">
+  <button class="pb" id="aPrev" title="Önceki âyet"></button>
+  <button class="pb main" id="aPlay" title="Oynat / duraklat"></button>
+  <button class="pb" id="aNext" title="Sonraki âyet"></button>
+  <div class="pi"><b id="pA">Dinlemek için ▶</b><span id="pB"></span></div>
+  <select id="recSel" title="Kâri"></select>
+</footer>
+
+<div class="ov hide" id="ovS"><div class="in">
+  <div class="hd"><h2>Sûreler</h2><div class="seg" id="segS"><button data-t="s" class="on">Sûreler</button><button data-t="j">Cüzler</button></div><button class="ib x"></button></div>
+  <div class="bd" id="ovSB"></div></div></div>
+<div class="ov hide" id="ovF"><div class="in">
+  <div class="hd"><h2>Arama</h2><button class="ib x"></button></div>
+  <div class="bd"><input class="inp" id="fIn" placeholder="Mealde veya Arapça metinde ara… (ör. sabır, رحمة) ya da 2:255"><div id="fRes" style="margin-top:10px"></div></div></div></div>
+<div class="ov hide" id="ovA"><div class="in">
+  <div class="hd"><h2>Ayarlar</h2><button class="ib x"></button></div>
+  <div class="bd" id="ovAB"></div></div></div>
+<div class="rd hide" id="rd">
+  <div class="rd-h"><button class="ib" id="rdX" title="Sûreye dön"></button><b id="rdKey"></b><span style="flex:1"></span><button class="ib" id="rdPlay" title="Bu âyeti dinle"></button></div>
+  <div class="rd-ay" id="rdAy" lang="ar" title="Daraltmak / genişletmek için dokunun"></div>
+  <div class="rd-tabs" id="rdTabs"></div>
+  <div class="rd-body"><div class="box" id="rdBox"></div></div>
+  <div class="rd-f"><button class="pill" id="rdPrev">‹ Önceki âyet</button><span id="rdPos"></span><button class="pill" id="rdNext">Sonraki âyet ›</button></div>
+</div>
+<div class="ov hide" id="ovK"><div class="in" style="max-width:760px">
+  <div class="hd"><h2>Kaynaklar ve güvenilirlik</h2><button class="ib x"></button></div>
+  <div class="bd src">
+   <p><b>Bu kitaptaki hiçbir âyet, meal veya tefsir metni elle yazılmamış, yapay zekâ tarafından üretilmemiştir.</b> Bütün metinler aşağıdaki yayımlanmış kaynaklardan, okuduğunuz anda olduğu gibi alınır. Her tefsir metninin altında müellifi ve <i>kaynak sayfasında aç</i> bağlantısı bulunur; metni aslıyla karşılaştırabilirsiniz.</p>
+   <table>
+    <tr><th>Bölüm</th><th>Kaynak</th></tr>
+    <tr><td>Kur'ân-ı Kerîm metni</td><td>Tanzil projesinin Kur'an metni (Hafs rivâyeti, Osmânî resm ve imlâî yazım) — AlQuran.cloud üzerinden</td></tr>
+    <tr><td>Meâller</td><td>Diyanet İşleri, Elmalılı Hamdi Yazır, Diyanet Vakfı, Süleyman Ateş, Suat Yıldırım, Gölpınarlı, Ali Bulaç, Saheeh International — Tanzil / AlQuran.cloud</td></tr>
+    <tr><td>Tefsir, i'râb, belâgat, nüzûl, garîb</td><td>Quranpedia (el-Mevsûatü'l-Kur'âniyye) dijital kütüphanesindeki basılı eserlerin metinleri; Kurtubî tefsiri Quran.com'dan</td></tr>
+    <tr><td>Türkçe tefsir ve açıklamalı meâller</td><td>el-Muhtasar fi't-Tefsîr Türkçe tercümesi (Merkezü Tefsîr) — Quranpedia; açıklamalı meâller — QuranEnc.com</td></tr>
+    <tr><td>Kıraat farkları ve rivâyet sesleri</td><td>Quranpedia kıraat veritabanı</td></tr>
+    <tr><td>Tilâvet sesleri</td><td>EveryAyah.com ve Islamic Network ses arşivi</td></tr>
+    <tr><td>Tecvid renkleri, Latin okunuş</td><td>Quran.com; AlQuran.cloud</td></tr>
+   </table>
+   <p><b>Programın yaptığı tek işlem:</b> Bazı tefsirler kaynakta sayfa sayfa durur. Program, okuduğunuz âyetin şerhinin başladığı yeri bulup oradan gösterir; metnin kendisine dokunmaz. Böyle durumlarda kutunun üstünde <i>sayfanın tamamını göster</i> bağlantısı çıkar.</p>
+   <p><b>Hata görürseniz:</b> Metni kaynak sayfasıyla karşılaştırın. Fark varsa bizim tarafımızdadır, lütfen bildirin; yoksa kaynaktaki dijital nüshadan gelmektedir. İlmî çalışmalarda atıf için eserin basılı nüshasına müracaat ediniz.</p>
+   <p class="note">Sûre adları, arayüz yazıları ve yazılım bu çalışma için hazırlanmıştır.</p>
+  </div></div></div>
+<div class="ov hide" id="ovI"><div class="in" style="max-width:460px">
+  <div class="hd"><h2>Uygulama olarak kur</h2><button class="ib x"></button></div>
+  <div class="bd" style="line-height:1.7;font-size:15px">
+   <p><b>iPhone / iPad (Safari):</b><br>1. Alttaki <b>Paylaş</b> simgesine (yukarı ok olan kare) dokunun.<br>2. <b>Ana Ekrana Ekle</b>'yi seçin.<br>3. <b>Ekle</b>'ye dokunun.</p>
+   <p><b>Android (Chrome):</b><br>Sağ üstteki <b>⋮</b> menüsünden <b>Uygulamayı yükle</b> veya <b>Ana ekrana ekle</b>'yi seçin.</p>
+   <p class="note">Kurulduktan sonra el-Mihrâb ana ekranınızda kendi simgesiyle, tam ekran bir uygulama gibi açılır.</p></div></div></div>
+<div class="toast" id="toast"></div>
+<audio id="audio" preload="auto"></audio>
+
+<script>
+'use strict';
+/* ================= SÛRE VERİLERİ ================= */
+const S_TR="Fâtiha|Bakara|Âl-i İmrân|Nisâ|Mâide|En'âm|A'râf|Enfâl|Tevbe|Yûnus|Hûd|Yûsuf|Ra'd|İbrâhîm|Hicr|Nahl|İsrâ|Kehf|Meryem|Tâhâ|Enbiyâ|Hac|Mü'minûn|Nûr|Furkân|Şuarâ|Neml|Kasas|Ankebût|Rûm|Lokmân|Secde|Ahzâb|Sebe'|Fâtır|Yâsîn|Sâffât|Sâd|Zümer|Mü'min (Gâfir)|Fussılet|Şûrâ|Zuhruf|Duhân|Câsiye|Ahkâf|Muhammed|Fetih|Hucurât|Kâf|Zâriyât|Tûr|Necm|Kamer|Rahmân|Vâkıa|Hadîd|Mücâdele|Haşr|Mümtehine|Saf|Cum'a|Münâfikûn|Teğâbün|Talâk|Tahrîm|Mülk|Kalem|Hâkka|Meâric|Nûh|Cin|Müzzemmil|Müddessir|Kıyâme|İnsân|Mürselât|Nebe'|Nâziât|Abese|Tekvîr|İnfitâr|Mutaffifîn|İnşikâk|Bürûc|Târık|A'lâ|Gâşiye|Fecr|Beled|Şems|Leyl|Duhâ|İnşirâh|Tîn|Alak|Kadr|Beyyine|Zilzâl|Âdiyât|Kâria|Tekâsür|Asr|Hümeze|Fîl|Kureyş|Mâûn|Kevser|Kâfirûn|Nasr|Tebbet|İhlâs|Felak|Nâs".split('|');
+const S_AR="الفاتحة|البقرة|آل عمران|النساء|المائدة|الأنعام|الأعراف|الأنفال|التوبة|يونس|هود|يوسف|الرعد|إبراهيم|الحجر|النحل|الإسراء|الكهف|مريم|طه|الأنبياء|الحج|المؤمنون|النور|الفرقان|الشعراء|النمل|القصص|العنكبوت|الروم|لقمان|السجدة|الأحزاب|سبأ|فاطر|يس|الصافات|ص|الزمر|غافر|فصلت|الشورى|الزخرف|الدخان|الجاثية|الأحقاف|محمد|الفتح|الحجرات|ق|الذاريات|الطور|النجم|القمر|الرحمن|الواقعة|الحديد|المجادلة|الحشر|الممتحنة|الصف|الجمعة|المنافقون|التغابن|الطلاق|التحريم|الملك|القلم|الحاقة|المعارج|نوح|الجن|المزمل|المدثر|القيامة|الإنسان|المرسلات|النبأ|النازعات|عبس|التكوير|الانفطار|المطففين|الانشقاق|البروج|الطارق|الأعلى|الغاشية|الفجر|البلد|الشمس|الليل|الضحى|الشرح|التين|العلق|القدر|البينة|الزلزلة|العاديات|القارعة|التكاثر|العصر|الهمزة|الفيل|قريش|الماعون|الكوثر|الكافرون|النصر|المسد|الإخلاص|الفلق|الناس".split('|');
+const S_CNT=[7,286,200,176,120,165,206,75,129,109,123,111,43,52,99,128,111,110,98,135,112,78,118,64,77,227,93,88,69,60,34,30,73,54,45,83,182,88,75,85,54,53,89,59,37,35,38,29,18,45,60,49,62,55,78,96,29,22,24,13,14,11,11,18,12,12,30,52,52,44,28,28,20,56,40,31,50,40,46,42,29,19,36,25,22,17,19,26,30,20,15,21,11,8,8,19,5,8,8,11,11,8,3,9,5,4,7,3,6,3,5,4,5,6];
+const MEDENI=new Set([2,3,4,5,8,9,13,22,24,33,47,48,49,55,57,58,59,60,61,62,63,64,65,66,76,98,99,110]);
+const JUZ=[[1,1],[2,142],[2,253],[3,93],[4,24],[4,148],[5,82],[6,111],[7,88],[8,41],[9,93],[11,6],[12,53],[15,1],[17,1],[18,75],[21,1],[23,1],[25,21],[27,56],[29,46],[33,31],[36,28],[39,32],[41,47],[46,1],[51,31],[58,1],[67,1],[78,1]];
+
+/* ================= MEÂLLER ve KÂRİLER ================= */
+const MEALS=[
+ ['tr.diyanet','Diyanet İşleri'],['tr.yazir','Elmalılı Hamdi Yazır'],['tr.vakfi','Diyanet Vakfı'],['tr.ates','Süleyman Ateş'],['tr.yildirim','Suat Yıldırım'],
+ ['tr.golpinarli','Abdülbâki Gölpınarlı'],['tr.bulac','Ali Bulaç'],['en.sahih','Saheeh International (İngilizce)']];
+const MEAL_N=Object.fromEntries(MEALS);
+const RECITERS=[
+ ['afasy','Mişârî Râşid el-Afâsî','Alafasy_128kbps','ar.alafasy'],['husary','Mahmûd Halîl el-Husarî','Husary_128kbps','ar.husary'],
+ ['husarym','Husarî — Muallim (öğretici)','Husary_Muallim_128kbps',''],['minshawi','Minşâvî (Mürettel)','Minshawy_Murattal_128kbps','ar.minshawi'],
+ ['minshawij','Minşâvî (Mücevved)','Minshawy_Mujawwad_192kbps','ar.minshawimujawwad'],['basit','Abdülbâsıt (Mürettel)','Abdul_Basit_Murattal_192kbps','ar.abdulbasitmurattal'],
+ ['basitj','Abdülbâsıt (Mücevved)','Abdul_Basit_Mujawwad_128kbps',''],['sudais','Abdurrahmân es-Südeys','Abdurrahmaan_As-Sudais_192kbps','ar.abdurrahmaansudais'],
+ ['shuraym','Suûd eş-Şüreym','Saood_ash-Shuraym_128kbps','ar.saoodshuraym'],['maher','Mâhir el-Muaykılî','MaherAlMuaiqly128kbps','ar.mahermuaiqly'],
+ ['shatri','Ebû Bekr eş-Şâtırî','Abu_Bakr_Ash-Shaatree_128kbps','ar.shaatree'],['ajamy','Ahmed el-Acemî','ahmed_ibn_ali_al_ajamy_128kbps','ar.ahmedajamy'],
+ ['hudhaify','Ali el-Huzeyfî','Hudhaify_128kbps','ar.hudhaify'],['ayyoub','Muhammed Eyyûb','Muhammad_Ayyoub_128kbps','ar.muhammadayyoub'],
+ ['ghamadi','Sa\'d el-Ğâmidî','Ghamadi_40kbps',''],['dussary','Yâsir ed-Devserî','Yasser_Ad-Dussary_128kbps','']
+];
+
+/* ================= KİTAPLAR =================
+   Numaralar Quranpedia kitap numaralarıdır (api.quranpedia.net). 'qc90' = Quran.com Kurtubî. */
+const BK={
+ 2004:['el-Muhtasar fi\'t-Tefsîr — Türkçe tercümesi','Merkezü Tefsîr',''],
+ 'qe:turkish_shahin':['Diyanet Vakfı heyeti (Ali Özek vd.) — Açıklamalı Meal','Ali Özek, H. Karaman vd.',''],
+ 'qe:turkish_rwwad':['Ravvâd Tercüme Merkezi — Açıklamalı Türkçe Meal','Ravvâd Tercüme Merkezi',''],
+ 4:['Taberî — Câmiu\'l-Beyân','الطبري','310'],136:['İbn Kesîr — Tefsîru\'l-Kur\'âni\'l-Azîm','ابن كثير','774'],2:['Beğavî — Meâlimü\'t-Tenzîl','البغوي','516'],
+ qc90:['Kurtubî — el-Câmi\' li-Ahkâmi\'l-Kur\'ân','القرطبي','671'],149:['İbn Ebî Hâtim — Tefsîr','ابن أبي حاتم','327'],273:['Suyûtî — ed-Dürrü\'l-Mensûr','السيوطي','911'],
+ 324:['Semerkandî — Bahru\'l-Ulûm','السمرقندي','373'],313:['Sa\'lebî — el-Keşf ve\'l-Beyân','الثعلبي','427'],27770:['Abdürrezzâk es-San\'ânî — Tefsîr','الصنعاني','211'],
+ 27755:['Mukātil b. Süleyman — Tefsîr','مقاتل','150'],520:['İbn Ebî Zemenîn — Tefsîr','ابن أبي زمنين','399'],305:['es-Sahîhu\'l-Mesbûr mine\'t-Tefsîr bi\'l-Me\'sûr','حكمت بشير',''],
+ 363:['Tenvîrü\'l-Mikbâs (İbn Abbâs\'a nisbet edilen)','الفيروزآبادي','817'],
+ 346:['Zemahşerî — el-Keşşâf','الزمخشري','538'],184:['İbn Âşûr — et-Tahrîr ve\'t-Tenvîr','ابن عاشور','1393'],352:['Fahreddîn er-Râzî — Mefâtîhu\'l-Gayb','الرازي','606'],
+ 319:['Beyzâvî — Envâru\'t-Tenzîl','البيضاوي','685'],26:['Nesefî — Medâriku\'t-Tenzîl','النسفي','710'],37:['Ebüssuûd — İrşâdü\'l-Akli\'s-Selîm','أبو السعود','982'],
+ 301:['Âlûsî — Rûhu\'l-Meânî','الألوسي','1270'],322:['Ebû Hayyân — el-Bahru\'l-Muhît','أبو حيان','745'],350:['İbn Atıyye — el-Muharraru\'l-Vecîz','ابن عطية','542'],
+ 468:['Mâtürîdî — Te\'vîlâtü Ehli\'s-Sünne','الماتريدي','333'],336:['İsmâil Hakkı Bursevî — Rûhu\'l-Beyân','إسماعيل حقي','1127'],507:['Hâzin — Lübâbü\'t-Te\'vîl','الخازن','741'],
+ 345:['İbn Cüzey — et-Teshîl','ابن جزي','741'],340:['İbnü\'l-Cevzî — Zâdü\'l-Mesîr','ابن الجوزي','597'],343:['Şevkânî — Fethu\'l-Kadîr','الشوكاني','1250'],
+ 349:['Kâsımî — Mehâsinü\'t-Te\'vîl','القاسمي','1332'],263:['Reşîd Rızâ — Tefsîru\'l-Menâr','رشيد رضا','1354'],542:['Mâverdî — en-Nüket ve\'l-Uyûn','الماوردي','450'],
+ 337:['Nîsâbûrî — Garâibü\'l-Kur\'ân','النيسابوري','850'],169:['İbn Âdil — el-Lübâb fî Ulûmi\'l-Kitâb','ابن عادل','880'],
+ 168:['Bikâî — Nazmü\'d-Dürer (münâsebet)','البقاعي','885'],18:['Şa\'râvî — Tefsîr','الشعراوي','1418'],334:['Merâğî — Tefsîr','المراغي','1371'],
+ 330:['İzzet Derveze — et-Tefsîru\'l-Hadîs (nüzûl sırasına göre)','دروزة','1404'],333:['Abdülkerîm el-Hatîb — et-Tefsîru\'l-Kur\'ânî li\'l-Kur\'ân','عبد الكريم الخطيب','1390'],
+ 393:['Ebû Zehra — Zehretü\'t-Tefâsîr','أبو زهرة','1394'],306:['Vehbe ez-Zühaylî — et-Tefsîru\'l-Münîr','الزحيلي','1436'],27796:['Şinkītî — Edvâü\'l-Beyân','الشنقيطي','1393'],
+ 272:['Celâleyn','المحلي والسيوطي','864/911'],2012:['et-Tefsîru\'l-Müyesser','مجمع الملك فهد',''],3:['Sa\'dî — Teysîru\'l-Kerîmi\'r-Rahmân','السعدي','1376'],
+ 2003:['el-Muhtasar fi\'t-Tefsîr','مركز تفسير',''],321:['Tantâvî — et-Tefsîru\'l-Vasît','طنطاوي','1431'],160:['Sâbûnî — Safvetü\'t-Tefâsîr','الصابوني',''],
+ 201:['Ebû Bekir el-Cezâirî — Eyserü\'t-Tefâsîr','الجزائري','1439'],10:['el-Müntehab fî Tefsîri\'l-Kur\'ân','مجموعة',''],
+ 64:['Muhyiddîn Dervîş — İ\'râbü\'l-Kur\'ân ve Beyânüh','درويش','1403'],180:['Harrât — el-Müctebâ min Müşkili İ\'râbi\'l-Kur\'ân','الخراط',''],
+ 309:['Ukberî — et-Tibyân fî İ\'râbi\'l-Kur\'ân','العكبري','616'],318:['Nahhâs — İ\'râbü\'l-Kur\'ân','النحاس','338'],316:['İ\'râbü\'l-Kur\'ân (heyet)','مجموعة',''],
+ 162:['Semîn el-Halebî — ed-Dürrü\'l-Masûn','السمين الحلبي','756'],546:['Zeccâc — Meâni\'l-Kur\'ân ve İ\'râbüh','الزجاج','311'],351:['Ferrâ — Meâni\'l-Kur\'ân','الفراء','207'],
+ 27771:['Ahfeş — Meâni\'l-Kur\'ân','الأخفش','215'],
+ 2919:['Vâhidî — Esbâbü\'n-Nüzûl','الواحدي','468'],
+ 2013:['es-Sirâc fî Beyâni Garîbi\'l-Kur\'ân','الخضيري',''],341:['İbn Kuteybe — Garîbü\'l-Kur\'ân','ابن قتيبة','276'],348:['Ebû Ubeyde — Mecâzü\'l-Kur\'ân','أبو عبيدة','209'],
+ 27761:['İbnü\'l-Cevzî — Tezkiretü\'l-Erîb','ابن الجوزي','597'],27784:['İbnü\'l-Hâim — et-Tibyân fî Tefsîri Garîbi\'l-Kur\'ân','ابن الهائم','815'],27764:['Zeyd b. Ali — Garîbü\'l-Kur\'ân','زيد بن علي','120']
+};
+const CATS={
+ tefsir:{n:'Tefsir',ar:'تفسير',def:184,dyn:'tafsir',groups:[
+   ['Türkçe tefsir ve açıklamalı meâller',[2004,'qe:turkish_shahin','qe:turkish_rwwad']],
+   ['Dirâyet tefsirleri',[346,184,352,319,37,301,322,26,350,468,336,507,345,340,343,349,263,542,337,169]],
+   ['Rivâyet tefsirleri',[4,136,2,'qc90',149,273,324,313,27770,27755,520,305,363]],
+   ['Konulu · münâsebet · çağdaş',[168,306,18,334,330,333,393,27796]],
+   ['Muhtasar tefsirler',[272,2012,3,2003,321,160,201,10]]]},
+ irab:{n:'İ\'râb',ar:'إعراب',def:64,dyn:'e3rab',sec:['الإعراب'],secBooks:[64,306],groups:[
+   ['İ\'râb kitapları',[64,180,309,318,316,162,169]],['Meâni\'l-Kur\'ân (nahiv)',[546,351,27771]],['İ\'râb bölümü olan tefsirler',[306,322]]]},
+ belagat:{n:'Belâgat',ar:'بلاغة',def:64,sec:['البلاغة'],secBooks:[64,160,306],groups:[
+   ['Belâgat bölümü olan eserler',[64,160,306]],['Belâgat ve nazm tefsirleri',[346,184,37,301,319,337,168]]]},
+ kiraat:{n:'Kıraat',ar:'قراءات'},
+ meal:{n:'Meâller',ar:'معاني'},
+ nuzul:{n:'Nüzûl',ar:'نزول',def:2919,dyn:'asbab',groups:[['Esbâb-ı nüzûl',[2919]],['Nüzûl rivâyetlerini toplayan tefsirler',[4,273,149]]]},
+ garib:{n:'Garîb',ar:'غريب',def:2013,groups:[['Garîbü\'l-Kur\'ân',[2013,341,348,27761,27784,27764]]]}
+};
+const ORDER=['tefsir','irab','belagat','kiraat','meal','nuzul','garib'];
+const IMAM={1:'Nâfi\'',2:'İbn Kesîr',3:'Ebû Amr',4:'İbn Âmir',5:'Âsım',6:'Hamza',7:'Kisâî',8:'Ebû Ca\'fer',9:'Ya\'kûb',10:'Halef'};
+const RAVI={1:'Kâlûn',2:'Verş',3:'Bezzî',4:'Kunbül',5:'Dûrî',6:'Sûsî',7:'Hişâm',8:'İbn Zekvân',9:'Şu\'be',10:'Hafs',11:'Halef',12:'Hallâd',13:'Ebü\'l-Hâris',14:'Dûrî',15:'İbn Verdân',16:'İbn Cemmâz',17:'Ruveys',18:'Ravh',19:'İshâk',20:'İdrîs'};
+
+/* ================= YARDIMCILAR ================= */
+const AQ='https://api.alquran.cloud/v1',QC='https://api.quran.com/api/v4',QP='https://api.quranpedia.net/v1';
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const LS={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const toAr=n=>String(n).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);
+const normAr=s=>String(s||'').replace(/[ؐ-ًؚ-ٰٟۖ-ۭـ]/g,'').replace(/[ٱأإآ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').trim();
+const DEF={reader:true,script:'uthmani',translit:false,theme:'parsomen',font:"'Amiri Quran'",qsize:34,msize:17,tsize:21,meals:['tr.diyanet'],reciter:'afasy',cont:true,book:{},tajweed:false};
+const set=Object.assign({},DEF,LS.get('beyan2.set',{}));set.book=set.book||{};
+set.meals=(set.meals||[]).filter(m=>MEAL_N[m]);if(!set.meals.length)set.meals=['tr.diyanet'];
+const save=()=>LS.set('beyan2.set',set);
+const st={s:1,ay:[],open:null,playA:null,playing:false,tok:0};
+const IC={l:'<path d="M15 18l-6-6 6-6"/>',r:'<path d="M9 18l6-6-6-6"/>',s:'<circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>',g:'<circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/>',
+ p:'<path d="M7 4.5v15l13-7.5z" fill="currentColor" stroke="none"/>',pa:'<rect x="6" y="4.5" width="4" height="15" rx="1" fill="currentColor" stroke="none"/><rect x="14" y="4.5" width="4" height="15" rx="1" fill="currentColor" stroke="none"/>',
+ pv:'<path d="M18 18l-8.5-6L18 6z" fill="currentColor" stroke="none"/><path d="M6 6v12"/>',nx:'<path d="M6 6l8.5 6L6 18z" fill="currentColor" stroke="none"/><path d="M18 6v12"/>',x:'<path d="M18 6L6 18M6 6l12 12"/>',dl:'<path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><rect x="4" y="18" width="16" height="3" rx="1"/>'};
+const icon=(n,z=20)=>`<svg width="${z}" height="${z}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${IC[n]}</svg>`;
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove('show'),2600)}
+const memo=new Map();
+function getJSON(u,ms=25000){
+  if(memo.has(u))return memo.get(u);
+  const p=(async()=>{const c=new AbortController(),t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(u,{signal:c.signal});if(!r.ok)throw new Error('HTTP '+r.status);return await r.json()}finally{clearTimeout(t)}})();
+  memo.set(u,p);p.catch(()=>memo.delete(u));return p;
+}
+function stripBasmala(s,a,t){if(a!==1||s===1||s===9)return t;const w=t.split(' ');return w.length>4&&normAr(w.slice(0,4).join(' '))==='بسم الله الرحمن الرحيم'?w.slice(4).join(' '):t}
+const loading=m=>`<div class="loading"><div class="spin"></div>${m||'Yükleniyor…'}</div>`;
+
+/* Kitap HTML'ini temiz metne çevir, sonra Kur'an alıntılarını ve başlıkları biçimlendir */
+function htmlToText(h){
+  h=String(h).replace(/\r/g,'\n').replace(/<br\s*\/?>/gi,'\n').replace(/<\/p>|<p[^>]*>|<\/div>|<div[^>]*>|<\/h\d>|<h\d[^>]*>/gi,'\n');
+  const d=new DOMParser().parseFromString('<body>'+h+'</body>','text/html');d.querySelectorAll('script,style').forEach(e=>e.remove());
+  return d.body.textContent.replace(/[ \t]+\n/g,'\n').replace(/\n{2,}/g,'\n');
+}
+const HEADS=['الإعراب','البلاغة','اللغة','الفوائد','الصرف','المعنى','الفائدة','القراءات','التفسير','المفردات','الإعراب والبلاغة','المناسبة','سبب النزول','التفسير والبيان','فقه الحياة أو الأحكام','ما ترشد إليه الآيات','المعنى العام','الإيضاح','التفسير الإجمالي','اللطائف'];
+const HN=new Set(HEADS.map(h=>normAr(h).replace(/\s/g,'')));
+const isHead=l=>{const b=normAr(l).replace(/[:：\-–ـ\s\.]/g,'');return b.length<30&&HN.has(b)};
+const headOf=l=>{const t=l.trim();const i=t.search(/[:：]/);const left=i>0&&i<30?t.slice(0,i):t;const b=normAr(left).replace(/[\-–ـ\s\.]/g,'');return HN.has(b)&&b.length<30?{b,rest:i>0?t.slice(i+1).trim():''}:null};
+function extractSection(text,name){
+  const out=[];let on=false;const want=normAr(name).replace(/\s/g,'');
+  for(const l of text.split('\n')){const t=l.trim();if(!t)continue;const hd=headOf(t);
+    if(hd){if(hd.b===want){on=true;if(hd.rest)out.push(hd.rest);continue}if(on)on=false;continue}
+    if(/^\[سورة/.test(t)&&on)on=false;
+    if(on)out.push(t)}
+  const r=out.join('\n').trim();return r.length>15?r:null;
+}
+/* Sayfa bazlı gelen metni tam bu âyetin şerhine indir */
+const skel=s=>normAr(s).replace(/[^ء-ي]/g,'').replace(/[اويىءؤئ]/g,'');
+function trimToAyah(text,n){
+  const cur=st.ay[n-1],nx=st.ay[n];if(!cur)return null;
+  const sc=skel(cur.text),sn=nx?skel(nx.text):null,nAr=toAr(n);
+  const marks=[...text.matchAll(/\[[^\]\n]{4,90}\]/g)].filter(m=>normAr(m[0]).replace(/\s/g,'').startsWith('[سوره'));
+  let start=-1,end=-1;
+  for(const m of marks){if(new RegExp('ايه\\s*'+nAr+'\\s*\\]$').test(normAr(m[0]))){start=m.index;const x=marks.find(z=>z.index>m.index);if(x)end=x.index;break}}
+  if(start<0){
+    const C=[];
+    for(const q of text.matchAll(/﴿([^﴾]{1,400})﴾/g))C.push({i:q.index,ks:[skel(q[1])],min:3});
+    for(const q of text.matchAll(/\(([^()\n]{2,300})\)/g))if((q[1].match(/[ً-ْ]/g)||[]).length>2)C.push({i:q.index,ks:[skel(q[1])],min:3});
+    let pos=0;for(const line of text.split('\n')){const w=line.trim().split(/\s+/);if(w.length>1&&/[ً-ْ]/.test(line.slice(0,40)))C.push({i:pos,ks:[4,3,2].map(k=>skel(w.slice(0,k).join(' '))),min:4});pos+=line.length+1}
+    C.sort((a,b)=>a.i-b.i);
+    const hit=(c,S)=>S&&c.ks.some(k=>k.length>=c.min&&S.startsWith(k));
+    const s0=C.find(c=>hit(c,sc));
+    if(s0){start=s0.i;const e0=C.find(c=>c.i>start+5&&hit(c,sn)&&!hit(c,sc));if(e0)end=e0.i;const m2=marks.find(x=>x.index>start);if(m2&&(end<0||m2.index<end))end=m2.index}
+  }
+  if(start<0){ /* son çare: âyetin ilk kelimelerini metnin iskeletinde ara */
+    let sk='',map=[];for(let i=0;i<text.length;i++){const c=skel(text[i]);if(c){sk+=c;map.push(i)}}
+    const w=cur.text.split(' '),k=skel(w.slice(0,4).join(' '));
+    if(k.length>=6){const x=sk.indexOf(k);if(x>=0){start=text.lastIndexOf(' ',map[x])+1;
+      if(nx){const k2=skel(nx.text.split(' ').slice(0,4).join(' '));const y=k2.length>=6?sk.indexOf(k2,x+k.length):-1;if(y>=0)end=text.lastIndexOf(' ',map[y])+1}}}
+  }
+  if(start<0||(start<40&&end<0))return null;
+  const t=text.slice(start,end>start?end:undefined).trim();
+  return t.length>40?t:null;
+}
+function fmtTr(t){return t.split(/\n+/).map(l=>l.trim()).filter(Boolean).map(l=>l==='§AÇIKLAMALAR'?'<h5>Açıklamalar</h5>':`<p>${esc(l).replace(/\[(\d+)\]/g,'<sup>$1</sup>')}</p>`).join('')}
+function fmt(text){
+  return text.split('\n').map(l=>l.trim()).filter(Boolean).map(l=>{
+    if(isHead(l))return `<h5>${esc(l.replace(/[:：]\s*$/,''))}</h5>`;
+    const hd=headOf(l);if(hd&&hd.rest)return `<h5>${esc(l.slice(0,l.search(/[:：]/)))}</h5>`+fmt(hd.rest);
+    if(/^\[سورة/.test(l))return `<p class="sref">${esc(l)}</p>`;
+    let h=esc(l).replace(/﴿([^﴾]{1,700})﴾/g,'<span class="q">﴿$1﴾</span>').replace(/\{([^}]{1,700})\}/g,'<span class="q">﴿$1﴾</span>')
+      .replace(/«([^»]{2,400})»/g,'<span class="h">«$1»</span>')
+      .replace(/\(([^()]{2,500})\)/g,(m,x)=>((x.match(/[ً-ْ]/g)||[]).length>3?`<span class="q">(${x})</span>`:m));
+    return `<p>${h}</p>`;
+  }).join('');
+}
+
+/* ================= SÛRE ================= */
+async function loadSurah(s,focus){
+  s=Math.max(1,Math.min(114,s|0));const tok=++st.tok;st.s=s;st.open=null;stopAudio();
+  $('#sName').textContent=`${s}. ${S_TR[s-1]}`;$('#sAr').textContent=S_AR[s-1];document.title=S_TR[s-1]+' — el-Mihrâb';
+  const M=$('#main');M.innerHTML=head(s)+loading('Sûre yükleniyor…');scrollTo(0,0);
+  const eds=[set.script==='simple'||st.fontFail?'quran-simple':'quran-uthmani',...(set.showMeal?set.meals:[]),...(set.translit?['tr.transliteration']:[])];let data;
+  try{data=(await getJSON(`${AQ}/surah/${s}/editions/${eds.join(',')}`)).data}
+  catch(e){
+    if(tok!==st.tok)return;
+    M.innerHTML=head(s)+`<div class="banner"><b>Kur'an metni yüklenemedi.</b><br>Bu kitap; metni, mealleri, tefsirleri ve sesi internetten anlık olarak çeker. İnternete bağlı olduğunuzdan emin olun.<br><br><b>Önemli:</b> Dosyayı Claude içindeki önizleme penceresinde açtıysanız orada internet erişimi kapalıdır. Dosyayı <b>indirin</b> ve bilgisayarınızda <b>çift tıklayarak Chrome, Edge veya Safari ile açın</b>.<br><br><button class="pill" onclick="loadSurah(${s},${focus||0})">Tekrar dene</button></div>`;return}
+  if(tok!==st.tok)return;
+  st.ay=data[0].ayahs.map((a,i)=>({n:a.numberInSurah,g:a.number,juz:a.juz,page:a.page,sajda:a.sajda,text:stripBasmala(s,a.numberInSurah,a.text),tr:Object.fromEntries(data.slice(1).map(d=>[d.edition.identifier,d.ayahs[i]?.text]))}));
+  render();LS.set('beyan2.last',{s,a:focus||1});
+  if(set.tajweed&&set.script!=='simple'&&!st.fontFail)loadTajweed(s,tok);
+  if(focus)setTimeout(()=>{const e=$('#a'+focus);e&&e.scrollIntoView({block:'center'})},50);
+}
+function head(s){return `<div class="sh"><div class="a">سُورَةُ ${S_AR[s-1]}</div><div class="t">${s}. ${S_TR[s-1]} Sûresi</div><div class="m">${MEDENI.has(s)?'Medenî':'Mekkî'} · ${S_CNT[s-1]} âyet</div>${s!==1&&s!==9?'<div class="besm">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>':''}</div>${DUA}`}
+const DUA=`<div class="dua"><span class="o">۞</span><span class="da">لَا تَنْسَوْنِي مِنْ صَالِحِ دُعَائِكُمْ</span><span class="dt">Beni hayır dualarınızda unutmayın</span><span class="o">۞</span></div>`;
+function ayHTML(a){
+  return `<article class="ay" id="a${a.n}" data-a="${a.n}"><div class="ay-in">
+   <div class="ar-t" lang="ar">${a.tj||esc(a.text)} <span class="num">${toAr(a.n)}</span></div>
+   ${set.translit&&a.tr['tr.transliteration']?`<div class="translit">${esc(a.tr['tr.transliteration'])}</div>`:''}
+   ${(set.showMeal?set.meals:[]).map(m=>a.tr[m]?`<p class="meal"><span class="k">${esc(MEAL_N[m].split(' ')[0])}</span>${esc(a.tr[m])}</p>`:'').join('')}
+   </div><div class="bar"><span class="key">${st.s}:${a.n}${a.sajda?' · ۩ secde':''}</span><button class="tb play" data-c="play" title="Bu âyeti dinle">${icon('p',15)}</button>
+   ${ORDER.map(c=>`<button class="tb" data-c="${c}">${CATS[c].n} <i>${CATS[c].ar}</i></button>`).join('')}</div><div class="boxw"></div></article>`;
+}
+function render(){
+  const s=st.s;
+  $('#main').innerHTML=head(s)+st.ay.map(ayHTML).join('')+`<div class="nav">${s>1?`<button onclick="loadSurah(${s-1})">‹ ${S_TR[s-2]}</button>`:''}${s<114?`<button onclick="loadSurah(${s+1})">${S_TR[s]} ›</button>`:''}</div>
+   <div class="credit"><a href="#" onclick="openOv('ovK');return false">Kaynaklar ve güvenilirlik</a><br>Kur'an metni ve meâller: AlQuran.cloud (Tanzil) · Tefsir, i'râb, belâgat, kıraat, nüzûl ve garîb kitapları: Quranpedia (el-Mevsûatü'l-Kur'âniyye) · Kurtubî ve tecvid: Quran.com · Ses: EveryAyah.<br>Kitap metinleri kaynaklarından olduğu gibi aktarılır.</div>`;
+  if(st.playing&&st.playA)markPlay(st.playA);
+}
+async function loadTajweed(s,tok){
+  try{const j=await getJSON(`${QC}/quran/verses/uthmani_tajweed?chapter_number=${s}`);if(tok!==st.tok)return;
+    (j.verses||[]).forEach(v=>{const a=st.ay[+v.verse_key.split(':')[1]-1];if(!a)return;
+      a.tj=String(v.text_uthmani_tajweed).replace(/<span class=end>.*?<\/span>/g,'').replace(/<tajweed class=([a-z_]+)>(.*?)<\/tajweed>/g,(m,c,x)=>`<span class="tj-${c}">${x}</span>`).replace(/<(?!\/?span)[^>]*>/g,'')});
+    const o=st.open;render();if(o)openBox(o.n,o.c,true);
+  }catch(e){toast('Tecvidli metin alınamadı')}
+}
+
+/* ================= KUTU (âyet altı) ================= */
+$('#main').addEventListener('click',e=>{
+  const b=e.target.closest('.tb');if(!b)return;const n=+b.closest('.ay').dataset.a;const c=b.dataset.c;
+  if(c==='play'){playAyah(n);return}
+  if(!set.reader&&st.open&&st.open.n===n&&st.open.c===c){closeBox();return}
+  openBox(n,c);
+});
+function rdOpen(){return !$('#rd').classList.contains('hide')}
+function closeReader(fromPop){
+  if(!rdOpen())return;const n=st.open?.n;$('#rd').classList.add('hide');document.body.style.overflow='';st.open=null;clip.pause();
+  if(n){const e=$('#a'+n);e&&e.scrollIntoView({block:'center'})}
+  if(!fromPop&&st.rdHist){st.rdHist=false;history.back()}else st.rdHist=false;
+}
+function openReader(n,c){
+  const a=st.ay[n-1];if(!a)return;
+  if(!rdOpen()){$('#rd').classList.remove('hide');document.body.style.overflow='hidden';try{history.pushState({rd:1},'');st.rdHist=true}catch(e){}}
+  const same=st.open&&st.open.n===n;st.open={n,c};LS.set('beyan2.last',{s:st.s,a:n});
+  $('#rdKey').textContent=`${S_TR[st.s-1]} ${st.s}:${n}`;$('#rdPos').textContent=`${n} / ${st.ay.length}`;
+  if(!same){$('#rdAy').innerHTML=`${a.tj||esc(a.text)} <span class="num">${toAr(n)}</span>`;$('#rdAy').scrollTop=0}
+  $('#rdTabs').innerHTML=ORDER.map(k=>`<button class="tb ${k===c?'on':''}" data-c="${k}">${CATS[k].n} <i>${CATS[k].ar}</i></button>`).join('');
+  $('#rdPrev').disabled=n<=1;$('#rdNext').disabled=n>=st.ay.length;
+  const box=$('#rdBox');box.innerHTML=loading();$('.rd-body').scrollTop=0;
+  if(c==='meal')return boxMeal(box,n);
+  if(c==='kiraat')return boxKiraat(box,n);
+  boxBook(box,n,c);
+}
+function closeBox(){if(rdOpen())return closeReader();if(!st.open)return;const el=$('#a'+st.open.n);if(el){el.classList.remove('open');$('.boxw',el).innerHTML='';$$('.tb.on',el).forEach(x=>x.classList.remove('on'))}st.open=null}
+function openBox(n,c,keep){
+  if(set.reader)return openReader(n,c);
+  closeBox();const el=$('#a'+n);if(!el)return;
+  st.open={n,c};el.classList.add('open');$(`.tb[data-c="${c}"]`,el).classList.add('on');
+  const W=$('.boxw',el);W.innerHTML=`<div class="box">${loading()}</div>`;
+  LS.set('beyan2.last',{s:st.s,a:n});
+  if(!keep){const r=el.getBoundingClientRect();if(r.top<70||r.top>innerHeight*0.5)window.scrollTo({top:scrollY+r.top-74,behavior:'smooth'})}
+  const box=$('.box',W);
+  if(c==='meal')return boxMeal(box,n);
+  if(c==='kiraat')return boxKiraat(box,n);
+  boxBook(box,n,c);
+}
+function footer(n){return `<div class="foot"><button class="pill" data-go="${n-1}" ${n<=1?'disabled':''}>‹ Önceki âyet</button><span>${st.s}:${n}</span><button class="pill" data-go="${n+1}" ${n>=st.ay.length?'disabled':''}>Sonraki âyet ›</button></div>`}
+function bindFoot(box,c){$$('[data-go]',box).forEach(b=>b.onclick=()=>{const m=+b.dataset.go;if(m<1||m>st.ay.length)return;openBox(m,c)})}
+
+const qpLists=new Map();
+async function qpList(s,a,type){const k=`${s}:${a}:${type}`;if(!qpLists.has(k))qpLists.set(k,getJSON(`${QP}/ayah/${s}/${a}/${type}`).catch(()=>[]));return qpLists.get(k)}
+
+async function boxBook(box,n,c){
+  const C=CATS[c];const s=st.s;
+  let extra=[];
+  if(C.dyn){const l=await qpList(s,n,C.dyn);if(Array.isArray(l)){const known=new Set(C.groups.flatMap(g=>g[1]).map(String));extra=l.filter(b=>b&&b.id&&!known.has(String(b.id)))}}
+  if(!st.open||st.open.n!==n||st.open.c!==c)return;
+  const all=C.groups.flatMap(g=>g[1]).map(String).concat(extra.map(b=>String(b.id)));
+  let cur=String(set.book[c]??C.def);if(!all.includes(cur))cur=String(C.def);
+  const opt=(id,label)=>`<option value="${id}" ${String(id)===cur?'selected':''}>${esc(label)}</option>`;
+  box.innerHTML=`<div class="bh"><select class="bsel">${C.groups.map(g=>`<optgroup label="${esc(g[0])}">${g[1].map(id=>opt(id,BK[id][0])).join('')}</optgroup>`).join('')}
+     ${extra.length?`<optgroup label="Diğer kitaplar (${extra.length})">${extra.map(b=>opt(b.id,b.name+(b.author?' — '+b.author:'')+(b.year?' (ö. '+b.year+')':''))).join('')}</optgroup>`:''}</select>
+     <button class="pill fm" title="Yazıyı küçült">A−</button><button class="pill fp" title="Yazıyı büyüt">A+</button><button class="pill cp">Kopyala</button><button class="pill cl" title="Kapat">${icon('x',14)}</button></div>
+     <div class="body"></div>${footer(n)}`;
+  bindFoot(box,c);
+  $('.cl',box).onclick=closeBox;
+  $('.fm',box).onclick=()=>{set.tsize=Math.max(15,set.tsize-1);applyVars();save()};
+  $('.fp',box).onclick=()=>{set.tsize=Math.min(36,set.tsize+1);applyVars();save()};
+  $('.cp',box).onclick=()=>{const t=$('.txt',box)?.innerText||'';navigator.clipboard?.writeText(t).then(()=>toast('Metin kopyalandı'),()=>toast('Kopyalanamadı'))};
+  const sel=$('.bsel',box);
+  sel.onchange=()=>{set.book[c]=sel.value;save();showBook($('.body',box),n,c,sel.value,extra)};
+  showBook($('.body',box),n,c,cur,extra);
+}
+const TRK=new Set(['2004','qe:turkish_shahin','qe:turkish_rwwad']);
+async function fetchBook(s,a,id){
+  if(String(id).startsWith('qe:')){const k=id.slice(3);const j=await getJSON(`https://quranenc.com/api/v1/translation/aya/${k}/${s}/${a}`);const r=j?.result||{};
+    let t=String(r.translation||'').trim();const fn=String(r.footnotes||'').trim();if(fn)t+='\n§AÇIKLAMALAR\n'+fn;
+    return{text:t,via:'QuranEnc.com',lang:'tr',link:`https://quranenc.com/tr/browse/${k}/${s}/${a}`}}
+  if(id==='qc90'){const j=await getJSON(`${QC}/tafsirs/90/by_ayah/${s}:${a}`);return{text:htmlToText(j?.tafsir?.text||''),via:'Quran.com',link:`https://quran.com/${s}:${a}/tafsirs/ar-tafseer-al-qurtubi`}}
+  const j=await getJSON(`${QP}/ayah/${s}/${a}/book/${id}`);
+  const parts=(Array.isArray(j?.content)?j.content:[]);
+  const text=parts.map(p=>htmlToText(p.text||'')).join('\n');
+  const gids=parts.flatMap(p=>String(p.ayahs||'').split(',').map(Number).filter(Boolean));
+  return{text,via:'Quranpedia',lang:j?.book?.language?.code==='tr'?'tr':'ar',book:j?.book,gids,link:`https://quranpedia.net/ayahs/${s}/${a}/1/${id}`};
+}
+async function showBook(body,n,c,id,extra){
+  const C=CATS[c];const meta=BK[id];const ex=extra.find(b=>String(b.id)===String(id));
+  const name=meta?meta[0]:(ex?.name||'Kitap');
+  body.innerHTML=loading(esc(name)+' getiriliyor…');
+  try{
+    const r=await fetchBook(st.s,n,id);
+    if(!st.open||st.open.n!==n||st.open.c!==c)return;
+    let full=(r.text||'').trim(),text=full,note='';
+    if(r.lang==='tr'||TRK.has(String(id))){
+      if(!text){body.innerHTML=`<div class="msg">Bu eserde <b>${st.s}:${n}</b> için metin bulunamadı; listeden başka bir eser seçebilirsiniz.</div>`;return}
+      const au=(meta&&meta[1])||r.book?.author?.ar_name||'';
+      body.innerHTML=`<div class="info">${esc(au)}</div><div class="txt ltr">${fmtTr(text)}</div><div class="info" style="padding-bottom:12px">Kaynak: ${r.via} · <a href="${r.link}" target="_blank" rel="noopener">kaynak sayfasında aç</a></div>`;return}
+    if(text&&id!=='qc90'){const tr=trimToAyah(text,n);if(tr&&tr.length<text.length-20){text=tr;note=`Bu âyetin şerhi gösteriliyor · <a href="#" class="full">sayfanın tamamını göster</a>`}}
+    if(text&&C.sec&&C.secBooks&&C.secBooks.includes(+id)){
+      const sec=extractSection(text,C.sec[0])||extractSection(full,C.sec[0]);
+      if(sec){text=sec;note=`<b>${C.n}</b> bölümü gösteriliyor · <a href="#" class="full">kitabın bu âyetle ilgili tam metni</a>`}
+    }
+    const au=r.book?.author?.ar_name||r.book?.author?.name||(meta&&meta[1])||'';
+    const yr=meta?meta[2]:(ex?.year||'');
+    let range='';
+    if(r.gids&&r.gids.length>1){const nums=r.gids.map(g=>st.ay.find(a=>a.g===g)?.n).filter(Boolean);if(nums.length>1&&Math.min(...nums)!==Math.max(...nums))range=` · Bu pasaj <b>${st.s}:${Math.min(...nums)}–${Math.max(...nums)}</b> âyetlerini birlikte ele alır`}
+    if(!text){body.innerHTML=`<div class="msg">Bu kitapta <b>${st.s}:${n}</b> âyetine ait ayrı bir metin bulunamadı. Müellif bu âyeti çoğu zaman önceki âyetle birlikte açıklar — <b>‹ Önceki âyet</b> düğmesiyle bakabilir ya da listeden başka bir kitap seçebilirsiniz.</div>`;return}
+    body.innerHTML=`<div class="info">Müellif: <b>${esc(au)}</b>${yr?` (ö. ${esc(yr)})`:''}${range}${note?'<br>'+note:''}</div><div class="txt">${fmt(text)}</div>
+      <div class="info" style="padding-bottom:12px">Kaynak: ${r.via} · <a href="${r.link}" target="_blank" rel="noopener">kaynak sayfasında aç</a></div>`;
+    const f=$('.full',body);if(f)f.onclick=ev=>{ev.preventDefault();$('.txt',body).innerHTML=fmt(full);f.replaceWith(document.createTextNode('tam metin gösteriliyor'))};
+  }catch(e){
+    if(!st.open||st.open.n!==n)return;
+    body.innerHTML=`<div class="msg"><b>Kitap metni alınamadı.</b> İnternet bağlantınızı kontrol edip tekrar deneyin.<br><button class="pill rt" style="margin-top:8px">Tekrar dene</button></div>`;
+    $('.rt',body).onclick=()=>{qpLists.clear();showBook(body,n,c,id,extra)};
+  }
+}
+async function boxMeal(box,n){
+  try{
+    const j=await getJSON(`${AQ}/ayah/${st.s}:${n}/editions/${MEALS.map(m=>m[0]).join(',')}`);
+    if(!st.open||st.open.n!==n)return;
+    const by=Object.fromEntries((j.data||[]).map(d=>[d.edition.identifier,d.text]));
+    const MS=[...set.meals.map(id=>MEALS.find(m=>m[0]===id)).filter(Boolean),...MEALS.filter(m=>!set.meals.includes(m[0]))];
+    box.innerHTML=`<div class="bh"><b style="margin-right:auto">Meâller</b><button class="pill cl">${icon('x',14)}</button></div><div class="ml">${MS.map(m=>`<div class="r"><div class="n">${m[1]}</div><div class="tx">${esc(by[m[0]]||'—')}</div></div>`).join('')}</div>${footer(n)}`;
+    $('.cl',box).onclick=closeBox;bindFoot(box,'meal');
+  }catch(e){box.innerHTML=`<div class="msg">Meâller alınamadı. Bağlantınızı kontrol edin.</div>${footer(n)}`;bindFoot(box,'meal')}
+}
+async function boxKiraat(box,n){
+  try{
+    const j=await getJSON(`${QP}/ayah/${st.s}/${n}/qiraat`);
+    if(!st.open||st.open.n!==n)return;
+    const arr=Array.isArray(j)?j:[];
+    const body=arr.length?arr.map(w=>`<div class="kw"><div class="w">${esc(w.ayah_word)}</div>${(w.qiraat||[]).map(q=>`<div class="kv"><div class="d">${esc(q.qiraa_text)}</div><div class="chips">${(q.rewayat||[]).map(r=>{const rv=r.rawi||{};const im=rv.qiraa||{};
+        return `<span class="chip" title="${esc(rv.full_name||'')}"><b>${esc(RAVI[rv.id]||rv.name||'')}</b><span>${esc(IMAM[im.id]||im.short_name||'')}</span>${r.audio?`<button data-au="${esc(r.audio)}" title="Bu rivâyeti dinle">${icon('p',12)}</button>`:''}</span>`}).join('')}</div></div>`).join('')}</div>`).join('')
+      :`<div class="msg">Bu âyette kurrâ-i aşere arasında kayda geçmiş bir okuma farkı yok; bütün imamlar Hafs rivâyetindeki gibi okur.</div>`;
+    box.innerHTML=`<div class="bh"><b style="margin-right:auto">Kırâat-ı Aşere — kelime kelime farklar</b><button class="pill cl">${icon('x',14)}</button></div>
+      <div class="kq"><p class="note">Her okuyuşun yanında onu okuyan râvî ve imamı yazılıdır; ▶ ile o rivâyetten dinleyebilirsiniz. Kıraatlerin dilsel izahı için <b>Tefsir</b> kısmından Ebû Hayyân, Semîn el-Halebî veya İbn Âşûr'u seçin.</p>${body}</div>${footer(n)}`;
+    $('.cl',box).onclick=closeBox;bindFoot(box,'kiraat');
+    $$('[data-au]',box).forEach(b=>b.onclick=()=>{stopAudio();const same=clip.src===b.dataset.au&&!clip.paused;clip.pause();$$('[data-au]',box).forEach(x=>x.innerHTML=icon('p',12));if(same)return;clip.src=b.dataset.au;clip.play().then(()=>{b.innerHTML=icon('pa',12)}).catch(()=>toast('Ses çalınamadı'));clip.onended=()=>{b.innerHTML=icon('p',12)}});
+  }catch(e){box.innerHTML=`<div class="msg">Kıraat bilgisi alınamadı. Bağlantınızı kontrol edin.</div>${footer(n)}`;bindFoot(box,'kiraat')}
+}
+
+/* ================= SES ================= */
+const audio=$('#audio');const clip=new Audio();
+const rec=()=>RECITERS.find(r=>r[0]===set.reciter)||RECITERS[0];
+const pad=n=>String(n).padStart(3,'0');
+function aurl(a,alt){const r=rec();return alt&&r[3]?`https://cdn.islamic.network/quran/audio/128/${r[3]}/${a.g}.mp3`:`https://everyayah.com/data/${r[2]}/${pad(st.s)}${pad(a.n)}.mp3`}
+function playAyah(n){const a=st.ay[n-1];if(!a)return;clip.pause();st.playA=n;st.playing=true;audio._alt=false;audio.src=aurl(a);audio.play().catch(()=>{});markPlay(n);upd()}
+function markPlay(n){$$('.ay.playing').forEach(e=>e.classList.remove('playing'));const e=$('#a'+n);if(e){e.classList.add('playing');const r=e.getBoundingClientRect();if(!st.open&&(r.top<70||r.bottom>innerHeight-70))e.scrollIntoView({block:'center',behavior:'smooth'})}}
+function stopAudio(){audio.pause();st.playing=false;$$('.ay.playing').forEach(e=>e.classList.remove('playing'));upd()}
+audio.onended=()=>{if(set.cont&&st.playA<st.ay.length)playAyah(st.playA+1);else{st.playing=false;upd()}};
+audio.onerror=()=>{if(!st.playing)return;const a=st.ay[st.playA-1];if(a&&!audio._alt&&rec()[3]){audio._alt=true;audio.src=aurl(a,true);audio.play().catch(()=>{});return}st.playing=false;upd();toast('Ses alınamadı; başka kâri seçin')};
+function upd(){$('#aPlay').innerHTML=icon(st.playing?'pa':'p',22);$('#pA').textContent=st.playA?`${S_TR[st.s-1]} ${st.s}:${st.playA}`:`${S_TR[st.s-1]} Sûresi`;$('#pB').textContent=rec()[1]}
+
+/* ================= KATMANLAR ================= */
+const openOv=id=>{$$('.ov').forEach(o=>o.classList.add('hide'));$('#'+id).classList.remove('hide')};
+const closeOv=()=>$$('.ov').forEach(o=>o.classList.add('hide'));
+function goto(s,a){closeOv();if(s===st.s&&st.ay.length){const e=$('#a'+a);e&&e.scrollIntoView({block:'center',behavior:'smooth'})}else loadSurah(s,a)}
+function surahList(t){
+  $$('#segS button').forEach(b=>b.classList.toggle('on',b.dataset.t===t));const B=$('#ovSB');
+  if(t==='j'){B.innerHTML=`<div class="grid">${JUZ.map((j,i)=>`<button class="sc" data-s="${j[0]}" data-a="${j[1]}"><span class="n">${i+1}</span><span class="m"><b>${i+1}. Cüz</b><small>${S_TR[j[0]-1]} ${j[0]}:${j[1]}</small></span></button>`).join('')}</div>`;$$('.sc',B).forEach(x=>x.onclick=()=>goto(+x.dataset.s,+x.dataset.a));return}
+  B.innerHTML=`<input class="inp" id="sq" placeholder="Sûre adı veya numarası…"><div class="grid" id="sg"></div>`;
+  const draw=q=>{q=(q||'').toLocaleLowerCase('tr');$('#sg').innerHTML=S_TR.map((n,i)=>!q||n.toLocaleLowerCase('tr').includes(q)||String(i+1)===q||S_AR[i].includes(q)?`<button class="sc ${i+1===st.s?'cur':''}" data-s="${i+1}"><span class="n">${i+1}</span><span class="m"><b>${n}</b><small>${MEDENI.has(i+1)?'Medenî':'Mekkî'} · ${S_CNT[i]} âyet</small></span><span class="a">${S_AR[i]}</span></button>`:'').join('');$$('#sg .sc').forEach(x=>x.onclick=()=>{closeOv();loadSurah(+x.dataset.s)})};
+  draw();$('#sq').oninput=e=>draw(e.target.value);setTimeout(()=>$('#sq').focus(),40);
+}
+let fT;
+function search(q){
+  const R=$('#fRes');q=q.trim();const m=q.match(/^(\d{1,3})\s*[:.\- ]\s*(\d{1,3})$/);
+  if(m){const s=+m[1],a=+m[2];if(s>=1&&s<=114&&a>=1&&a<=S_CNT[s-1]){R.innerHTML=`<div class="sr" id="jg"><div class="k">Âyete git</div><div class="t">${S_TR[s-1]} ${s}:${a}</div></div>`;$('#jg').onclick=()=>goto(s,a)}return}
+  if(q.length<3){R.innerHTML='';return}
+  const isAr=/[؀-ۿ]/.test(q);const ed=isAr?'quran-simple-clean':(set.meals.find(x=>x.startsWith('tr.'))||'tr.diyanet');
+  R.innerHTML=loading('Aranıyor…');clearTimeout(fT);
+  fT=setTimeout(async()=>{try{
+    const j=await getJSON(`${AQ}/search/${encodeURIComponent(isAr?normAr(q):q)}/all/${ed}`);const ms=j?.data?.matches||[];
+    const rx=new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+    R.innerHTML=`<div class="note">${j?.data?.count||ms.length} sonuç</div>`+ms.slice(0,150).map(x=>`<div class="sr" data-s="${x.surah.number}" data-a="${x.numberInSurah}"><div class="k">${S_TR[x.surah.number-1]} ${x.surah.number}:${x.numberInSurah}</div><div class="t ${isAr?'ar':''}">${isAr?esc(x.text):esc(x.text).replace(rx,'<mark>$1</mark>')}</div></div>`).join('');
+    $$('.sr',R).forEach(x=>x.onclick=()=>goto(+x.dataset.s,+x.dataset.a));
+  }catch(e){R.innerHTML='<div class="note">Sonuç bulunamadı.</div>'}},350);
+}
+const FONTS=[["'Amiri Quran'",'Amiri Quran — klasik mushaf nesihi'],["'KFGQPC Hafs'",'Medine Mushafı hattı'],["'Scheherazade New'",'Scheherazade — iri harekeli'],["'Noto Naskh Arabic'",'Noto Naskh — sade'],["'Amiri'",'Amiri — Bulak nesihi']];
+function settings(){
+  const B=$('#ovAB');
+  B.innerHTML=`<div class="sets">
+   <section><h4>Görünüm</h4>
+    <div class="f"><label class="l">Tema</label><div class="themes">${[['parsomen','Parşömen','#f3ead4','#0e5a43'],['zumrut','Zümrüt','#e6efe9','#0b6a4e'],['gece','Gece','#0c1311','#d6ab52'],['sade','Sade','#fff','#1f5f8b']].map(t=>`<button data-th="${t[0]}" class="${set.theme===t[0]?'on':''}" style="background:${t[2]};color:${t[3]}">${t[1]}</button>`).join('')}</div></div>
+    <div class="f"><label class="l">Meal yazı boyutu <span>${set.msize}px</span></label><input type="range" min="13" max="24" value="${set.msize}" data-r="msize"></div>
+    <div class="f"><label class="l">Tefsir yazı boyutu <span>${set.tsize}px</span></label><input type="range" min="15" max="36" value="${set.tsize}" data-r="tsize"></div></section>
+   <section><h4>Hat</h4>
+    <div class="f"><label class="l">Kur'an hattı</label><select id="fS">${FONTS.map(f=>`<option value="${esc(f[0])}" ${f[0]===set.font?'selected':''}>${f[1]}</option>`).join('')}</select><div class="prev" id="fP" style="font-family:${set.font},'Amiri Quran'">ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ</div></div>
+    <div class="f"><label class="l">Arapça yazı boyutu <span>${set.qsize}px</span></label><input type="range" min="22" max="60" value="${set.qsize}" data-r="qsize"></div>
+    <div class="f"><label class="l">Yazım</label><div class="seg"><button data-sc="uthmani" class="${set.script!=='simple'?'on':''}">Mushaf (Osmânî resm)</button><button data-sc="simple" class="${set.script==='simple'?'on':''}">Kolay okunur (imlâî)</button></div></div>
+    <label class="ck"><input type="checkbox" id="tjC" ${set.tajweed?'checked':''}> Tecvid renkli metin (Mushaf yazımında)</label>
+    <label class="ck"><input type="checkbox" id="trC" ${set.translit?'checked':''}> Latin harfleriyle okunuşu göster</label>
+    <p class="note">Arapça yazı telefonunuzda düzgün görünmüyorsa <b>Kolay okunur</b> yazımı ya da <b>Noto Naskh</b> hattını seçin.</p></section>
+   <section><h4>Meâller</h4><label class="ck"><input type="checkbox" id="smC" ${set.showMeal?'checked':''}> <b>Seçili meâli âyetin altında hep göster</b></label><p class="note">Kapalıyken meal, diğer kutular gibi <b>Meâller</b> düğmesine basınca açılır. Sıralama ve vurgulama için seçin:</p>${MEALS.map(m=>`<label class="ck"><input type="checkbox" data-m="${m[0]}" ${set.meals.includes(m[0])?'checked':''}> ${m[1]}</label>`).join('')}</section>
+   <section style="grid-column:1/-1"><h4>Okuma ve kaynaklar</h4>
+    <label class="ck"><input type="checkbox" id="rdC" ${set.reader?'checked':''}> <b>Okuma ekranı:</b> tefsir okurken âyet üstte sabit kalsın</label>
+    <p class="note">Kapalıyken tefsir, âyetin hemen altında açılan kutuda gösterilir.</p>
+    <button class="pill" id="srcB">Kaynaklar ve güvenilirlik ›</button></section>
+   <section><h4>Ses</h4><div class="f"><label class="l">Kâri</label><select id="rS">${RECITERS.map(r=>`<option value="${r[0]}" ${r[0]===set.reciter?'selected':''}>${r[1]}</option>`).join('')}</select></div>
+    <label class="ck"><input type="checkbox" id="cC" ${set.cont?'checked':''}> Âyet bitince sonrakine geç</label></section></div>`;
+  $$('[data-th]',B).forEach(x=>x.onclick=()=>{set.theme=x.dataset.th;save();applyVars();settings()});
+  $$('[data-r]',B).forEach(x=>x.oninput=()=>{set[x.dataset.r]=+x.value;x.previousElementSibling.querySelector('span').textContent=x.value+'px';applyVars();save()});
+  $('#fS').onchange=e=>{set.font=e.target.value;$('#fP').style.fontFamily=set.font+",'Amiri Quran'";applyVars();save()};
+  $$('[data-sc]',B).forEach(x=>x.onclick=()=>{set.script=x.dataset.sc;save();settings();loadSurah(st.s)});
+  $('#trC').onchange=e=>{set.translit=e.target.checked;save();loadSurah(st.s)};
+  $('#tjC').onchange=e=>{set.tajweed=e.target.checked;save();if(set.tajweed)loadTajweed(st.s,st.tok);else{st.ay.forEach(a=>a.tj=null);render()}};
+  $$('[data-m]',B).forEach(x=>x.onchange=()=>{const id=x.dataset.m;set.meals=x.checked?[...set.meals.filter(z=>z!==id),id]:set.meals.filter(z=>z!==id);save();loadSurah(st.s)});
+  $('#smC').onchange=e=>{set.showMeal=e.target.checked;save();loadSurah(st.s)};
+  $('#rS').onchange=e=>{set.reciter=e.target.value;$('#recSel').value=set.reciter;save();upd()};
+  $('#rdC').onchange=e=>{closeBox();set.reader=e.target.checked;save()};
+  $('#srcB').onclick=()=>openOv('ovK');
+  $('#cC').onchange=e=>{set.cont=e.target.checked;save()};
+}
+function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;R.style.setProperty('--qfont',set.font);R.style.setProperty('--qsize',set.qsize+'px');R.style.setProperty('--msize',set.msize+'px');R.style.setProperty('--tsize',set.tsize+'px')}
+
+/* ================= BAŞLANGIÇ ================= */
+(function init(){
+  try{const ff=new FontFace('KFGQPC Hafs','url(https://api2.quranpedia.net/assets/fonts/hafs/hafs.woff2)');ff.load().then(f=>document.fonts.add(f)).catch(()=>{})}catch(e){}
+  applyVars();
+  // Mushaf yazı tipi yüklenemezse (bazı telefonlar / kısıtlı ağlar) özel işaretler kutucuk görünür: kolay okunur metne geç
+  if(document.fonts&&set.script!=='simple'){
+    const fail=()=>{if(st.fontFail)return;st.fontFail=true;toast('Mushaf yazı tipi yüklenemedi; kolay okunur yazıma geçildi');loadSurah(st.s,st.open?.n)};
+    const t=setTimeout(fail,9000);
+    document.fonts.load("30px 'Amiri Quran'","بِسْمِ ٱللَّهِ").then(l=>{clearTimeout(t);if(!l||!l.length)fail()}).catch(()=>{clearTimeout(t);fail()});
+  }
+  $('#prevS').innerHTML=icon('l');$('#nextS').innerHTML=icon('r');$('#searchB').innerHTML=icon('s');$('#setB').innerHTML=icon('g');
+  $('#aPrev').innerHTML=icon('pv',18);$('#aNext').innerHTML=icon('nx',18);
+  $$('.x').forEach(b=>{b.innerHTML=icon('x');b.onclick=closeOv});$$('.ov').forEach(o=>o.onclick=e=>{if(e.target===o)closeOv()});
+  $('#recSel').innerHTML=RECITERS.map(r=>`<option value="${r[0]}">${r[1]}</option>`).join('');$('#recSel').value=set.reciter;
+  $('#recSel').onchange=e=>{set.reciter=e.target.value;save();if(st.playing)playAyah(st.playA);upd()};
+  $('#aPlay').onclick=()=>{if(st.playing){audio.pause();st.playing=false;upd()}else if(st.playA&&audio.src){st.playing=true;audio.play().catch(()=>{});upd()}else playAyah(st.open?.n||1)};
+  $('#aPrev').onclick=()=>playAyah(Math.max(1,(st.playA||1)-1));$('#aNext').onclick=()=>playAyah(Math.min(st.ay.length,(st.playA||0)+1));
+  $('#prevS').onclick=()=>st.s>1&&loadSurah(st.s-1);$('#nextS').onclick=()=>st.s<114&&loadSurah(st.s+1);
+  $('#sBtn').onclick=()=>{openOv('ovS');surahList('s')};$$('#segS button').forEach(b=>b.onclick=()=>surahList(b.dataset.t));
+  $('#searchB').onclick=()=>{openOv('ovF');setTimeout(()=>$('#fIn').focus(),40)};$('#fIn').oninput=e=>search(e.target.value);
+  $('#setB').onclick=()=>{openOv('ovA');settings()};
+  $('#jump').onkeydown=e=>{if(e.key!=='Enter')return;const v=e.target.value.trim();const m=v.match(/^(\d+)\s*[:.\- ]\s*(\d+)$/);if(m)goto(+m[1],+m[2]);else if(+v)goto(st.s,Math.min(+v,S_CNT[st.s-1]));e.target.value=''};
+  addEventListener('keydown',e=>{if(e.key==='Escape'){if($$('.ov:not(.hide)').length)closeOv();else closeReader()}});
+  $('#rdX').innerHTML=icon('l');$('#rdPlay').innerHTML=icon('p',18);
+  $('#rdX').onclick=()=>closeReader();$('#rdPlay').onclick=()=>st.open&&playAyah(st.open.n);
+  $('#rdAy').onclick=()=>$('#rdAy').classList.toggle('min');
+  $('#rdTabs').onclick=e=>{const b=e.target.closest('.tb');if(b&&st.open)openReader(st.open.n,b.dataset.c)};
+  $('#rdPrev').onclick=()=>st.open&&openReader(st.open.n-1,st.open.c);$('#rdNext').onclick=()=>st.open&&openReader(st.open.n+1,st.open.c);
+  addEventListener('popstate',()=>closeReader(true));
+  upd();
+  // Uygulama olarak kurma
+  $('#instB').innerHTML=icon('dl');
+  const standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone;
+  const isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent);
+  let deferred=null;
+  addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferred=e;$('#instB').classList.remove('hide')});
+  if(isIOS&&!standalone&&location.protocol==='https:')$('#instB').classList.remove('hide');
+  $('#instB').onclick=async()=>{if(deferred){deferred.prompt();await deferred.userChoice.catch(()=>{});deferred=null;$('#instB').classList.add('hide')}else{openOv('ovI')}};
+  if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('sw.js').catch(()=>{});
+  const h=location.hash.match(/^#(\d{1,3})(?:-(\d{1,3}))?$/);
+  if(h)loadSurah(+h[1],+(h[2]||0)||null);else{const l=LS.get('beyan2.last',{s:1,a:1});loadSurah(l.s||1,l.a>1?l.a:null)}
+})();
+</script>
+<style>
+.tj-ham_wasl,.tj-slnt,.tj-laam_shamsiyah{color:#9b9b9b}.tj-madda_normal{color:#537fff}.tj-madda_permissible{color:#4050ff}.tj-madda_necessary{color:#000ebc}.tj-madda_obligatory{color:#2144c1}
+.tj-qalaqah{color:#dd0008}.tj-ikhafa_shafawi{color:#d500b7}.tj-ikhafa{color:#9400a8}.tj-idgham_shafawi{color:#58b800}.tj-iqlab{color:#26bffd}.tj-idgham_ghunnah{color:#169777}.tj-idgham_wo_ghunnah{color:#169200}.tj-idgham_mutajanisayn,.tj-idgham_mutaqaribayn{color:#a1a1a1}.tj-ghunnah{color:#ff7e1e}
+</style>
+</body>
+</html>
