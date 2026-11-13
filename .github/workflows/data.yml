@@ -1,0 +1,21 @@
+name: data
+on: [workflow_dispatch, push]
+jobs:
+  build:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[data]')
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - name: Kur'an ve meâlleri göm
+        run: |
+          set -e
+          for ed in quran-uthmani quran-simple tr.yazir tr.ates tr.yildirim tr.golpinarli tr.bulac tr.transliteration en.transliteration en.sahih en.pickthall en.yusufali en.hilali en.asad en.arberry en.maududi en.itani ar.muyassar ar.jalalayn; do
+            curl -sf --retry 4 "https://api.alquran.cloud/v1/quran/$ed" -o /tmp/q.json
+            mkdir -p data/q/$ed
+            for s in $(seq 1 114); do
+              jq -c ".data.surahs[$((s-1))] | {n:.number,a:[.ayahs[]|{n:.numberInSurah,g:.number,j:.juz,p:.page,sj:(.sajda!=false),t:.text}]}" /tmp/q.json > data/q/$ed/$s.json
+            done
+            echo "$ed ok"
+          done
+          git add data && git -c user.name=muhibbimnz-ctrl -c user.email=muhibbimnz-ctrl@users.noreply.github.com commit -q -m "Gömülü Kur'an ve meâl verisi" && git push
