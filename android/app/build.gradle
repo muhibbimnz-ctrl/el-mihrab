@@ -1,0 +1,28 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'app.elmihrab.quran'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'app.elmihrab.quran'
+        minSdk 23
+        targetSdk 35
+        versionCode((System.getenv('VCODE') ?: '1') as int)
+        versionName '1.0.' + (System.getenv('VCODE') ?: '0')
+    }
+    signingConfigs {
+        test {
+            if (System.getenv('TEST_KS')) {
+                storeFile file(System.getenv('TEST_KS'))
+                storePassword 'testtest'
+                keyAlias 'test'
+                keyPassword 'testtest'
+            }
+        }
+    }
+    buildTypes {
+        release { minifyEnabled false }
+        tester { initWith release; signingConfig signingConfigs.test; matchingFallbacks = ['release'] }
+    }
+    lint { checkReleaseBuilds false; abortOnError false }
+}
+dependencies { implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.5.0' }
