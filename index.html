@@ -366,6 +366,9 @@ a{color:var(--accent)}
   .sbtn .ar{display:none}
 }
 .bsel optgroup{color:#fff;background:var(--accent);font-weight:800;font-style:normal;letter-spacing:.3px}.bsel option{color:var(--ink);background:var(--paper);font-weight:400;padding:4px 0}
+.mus.qcf{text-align:center;text-align-last:center}.mus .ql{display:flex;direction:rtl;justify-content:space-between;align-items:flex-end;font-size:min(6.1vw,34px);line-height:1.9;white-space:nowrap}
+.mus .ql .qw{font-family:inherit;color:var(--ink)}.mus .ql.qm{flex-wrap:wrap;justify-content:flex-start;gap:2px 8px;white-space:normal;font-size:min(5.6vw,30px)}
+.mus .ql.qm .qw{display:inline-flex;flex-direction:column;align-items:center}.mus .ql.qm .qw b{font-weight:400;font-family:inherit}.mus .ql.qm .qw i{font:normal 12.5px/1.25 system-ui,sans-serif;color:var(--accent);direction:ltr;max-width:9em;text-align:center}
 </style>
 </head>
 <body>
@@ -505,7 +508,7 @@ a{color:var(--accent)}
 const S_TR="Fâtiha|Bakara|Âl-i İmrân|Nisâ|Mâide|En'âm|A'râf|Enfâl|Tevbe|Yûnus|Hûd|Yûsuf|Ra'd|İbrâhîm|Hicr|Nahl|İsrâ|Kehf|Meryem|Tâhâ|Enbiyâ|Hac|Mü'minûn|Nûr|Furkân|Şuarâ|Neml|Kasas|Ankebût|Rûm|Lokmân|Secde|Ahzâb|Sebe'|Fâtır|Yâsîn|Sâffât|Sâd|Zümer|Mü'min (Gâfir)|Fussılet|Şûrâ|Zuhruf|Duhân|Câsiye|Ahkâf|Muhammed|Fetih|Hucurât|Kâf|Zâriyât|Tûr|Necm|Kamer|Rahmân|Vâkıa|Hadîd|Mücâdele|Haşr|Mümtehine|Saf|Cum'a|Münâfikûn|Teğâbün|Talâk|Tahrîm|Mülk|Kalem|Hâkka|Meâric|Nûh|Cin|Müzzemmil|Müddessir|Kıyâme|İnsân|Mürselât|Nebe'|Nâziât|Abese|Tekvîr|İnfitâr|Mutaffifîn|İnşikâk|Bürûc|Târık|A'lâ|Gâşiye|Fecr|Beled|Şems|Leyl|Duhâ|İnşirâh|Tîn|Alak|Kadr|Beyyine|Zilzâl|Âdiyât|Kâria|Tekâsür|Asr|Hümeze|Fîl|Kureyş|Mâûn|Kevser|Kâfirûn|Nasr|Tebbet|İhlâs|Felak|Nâs".split('|');
 const S_AR="الفاتحة|البقرة|آل عمران|النساء|المائدة|الأنعام|الأعراف|الأنفال|التوبة|يونس|هود|يوسف|الرعد|إبراهيم|الحجر|النحل|الإسراء|الكهف|مريم|طه|الأنبياء|الحج|المؤمنون|النور|الفرقان|الشعراء|النمل|القصص|العنكبوت|الروم|لقمان|السجدة|الأحزاب|سبأ|فاطر|يس|الصافات|ص|الزمر|غافر|فصلت|الشورى|الزخرف|الدخان|الجاثية|الأحقاف|محمد|الفتح|الحجرات|ق|الذاريات|الطور|النجم|القمر|الرحمن|الواقعة|الحديد|المجادلة|الحشر|الممتحنة|الصف|الجمعة|المنافقون|التغابن|الطلاق|التحريم|الملك|القلم|الحاقة|المعارج|نوح|الجن|المزمل|المدثر|القيامة|الإنسان|المرسلات|النبأ|النازعات|عبس|التكوير|الانفطار|المطففين|الانشقاق|البروج|الطارق|الأعلى|الغاشية|الفجر|البلد|الشمس|الليل|الضحى|الشرح|التين|العلق|القدر|البينة|الزلزلة|العاديات|القارعة|التكاثر|العصر|الهمزة|الفيل|قريش|الماعون|الكوثر|الكافرون|النصر|المسد|الإخلاص|الفلق|الناس".split('|');
 const S_EN="Al-Fatihah|Al-Baqarah|Ali 'Imran|An-Nisa|Al-Ma'idah|Al-An'am|Al-A'raf|Al-Anfal|At-Tawbah|Yunus|Hud|Yusuf|Ar-Ra'd|Ibrahim|Al-Hijr|An-Nahl|Al-Isra|Al-Kahf|Maryam|Taha|Al-Anbya|Al-Hajj|Al-Mu'minun|An-Nur|Al-Furqan|Ash-Shu'ara|An-Naml|Al-Qasas|Al-'Ankabut|Ar-Rum|Luqman|As-Sajdah|Al-Ahzab|Saba|Fatir|Ya-Sin|As-Saffat|Sad|Az-Zumar|Ghafir|Fussilat|Ash-Shuraa|Az-Zukhruf|Ad-Dukhan|Al-Jathiyah|Al-Ahqaf|Muhammad|Al-Fath|Al-Hujurat|Qaf|Adh-Dhariyat|At-Tur|An-Najm|Al-Qamar|Ar-Rahman|Al-Waqi'ah|Al-Hadid|Al-Mujadila|Al-Hashr|Al-Mumtahanah|As-Saf|Al-Jumu'ah|Al-Munafiqun|At-Taghabun|At-Talaq|At-Tahrim|Al-Mulk|Al-Qalam|Al-Haqqah|Al-Ma'arij|Nuh|Al-Jinn|Al-Muzzammil|Al-Muddaththir|Al-Qiyamah|Al-Insan|Al-Mursalat|An-Naba|An-Nazi'at|'Abasa|At-Takwir|Al-Infitar|Al-Mutaffifin|Al-Inshiqaq|Al-Buruj|At-Tariq|Al-A'la|Al-Ghashiyah|Al-Fajr|Al-Balad|Ash-Shams|Al-Layl|Ad-Duhaa|Ash-Sharh|At-Tin|Al-'Alaq|Al-Qadr|Al-Bayyinah|Az-Zalzalah|Al-'Adiyat|Al-Qari'ah|At-Takathur|Al-'Asr|Al-Humazah|Al-Fil|Quraysh|Al-Ma'un|Al-Kawthar|Al-Kafirun|An-Nasr|Al-Masad|Al-Ikhlas|Al-Falaq|An-Nas".split('|');
-const LANG=(()=>{try{const v=JSON.parse(localStorage.getItem('beyan2.set')||'{}').lang;if(v==='tr'||v==='ar'||v==='en')return v}catch(e){}const n=(navigator.language||'tr').slice(0,2);return n==='tr'?'tr':n==='ar'?'ar':'en'})();
+const LANG=(()=>{try{const v=JSON.parse(localStorage.getItem('beyan2.set')||'{}').lang;if(v==='tr'||v==='ar'||v==='en')return v}catch(e){}const n=(navigator.language||'tr').slice(0,2);return n==='ar'?'ar':'tr'})();
 const SN=()=>LANG==='ar'?S_AR:LANG==='en'?S_EN:S_TR;
 const S_CNT=[7,286,200,176,120,165,206,75,129,109,123,111,43,52,99,128,111,110,98,135,112,78,118,64,77,227,93,88,69,60,34,30,73,54,45,83,182,88,75,85,54,53,89,59,37,35,38,29,18,45,60,49,62,55,78,96,29,22,24,13,14,11,11,18,12,12,30,52,52,44,28,28,20,56,40,31,50,40,46,42,29,19,36,25,22,17,19,26,30,20,15,21,11,8,8,19,5,8,8,11,11,8,3,9,5,4,7,3,6,3,5,4,5,6];
 const MEDENI=new Set([2,3,4,5,8,9,13,22,24,33,47,48,49,55,57,58,59,60,61,62,63,64,65,66,76,98,99,110]);
@@ -990,6 +993,19 @@ const okC={};async function okSurah(s,ed){const k=s+ed;if(okC[k])return okC[k];l
   try{r=(await locEd(ed,s)).ayahs}catch(e){r=(await getJSON(`${AQ}/surah/${s}/${ed}`,12000)).data.ayahs}
   return okC[k]=r.map(a=>({n:a.numberInSurah??a.n,t:a.text??a.t}))}
 function pageOf(s,a){let p=1;for(let i=0;i<604;i++){const q=PG[i];if(q[0]<s||(q[0]===s&&q[1]<=a))p=i+1;else break}return p}
+/* Medine mushafı birebir: Quran.com QCF v2 sayfa yazı tipleri; olmazsa normal metin */
+const qcfOK={};
+async function qcfFont(p){if(qcfOK[p])return true;const urls=[`https://static.qurancdn.com/fonts/quran/hafs/v2/woff2/p${p}.woff2`,`https://verses.quran.foundation/fonts/quran/hafs/v2/woff2/p${p}.woff2`];
+  for(const u of urls){try{const f=new FontFace('qcf'+p,`url(${u}) format('woff2')`,{display:'block'});await Promise.race([f.load(),new Promise((_,j)=>setTimeout(()=>j(0),9000))]);document.fonts.add(f);qcfOK[p]=1;return true}catch(e){}}return false}
+async function qcfPage(p,ml){const [r,f]=await Promise.all([getJSON(`https://api.qurancdn.com/api/qdc/verses/by_page/${p}?words=true&word_fields=code_v2,line_number&word_translation_language=${ml||'tr'}&per_page=60&mushaf=1`,12000),qcfFont(p)]);
+  if(!f||!r||!r.verses||!r.verses.length)return null;const WL=ml==='en'?'english':'turkish',L={};let any=0;
+  for(const v of r.verses){const [s,n]=v.verse_key.split(':').map(Number);for(const w of v.words){if(!w.code_v2||!w.line_number)return null;any=1;(L[w.line_number]=L[w.line_number]||[]).push({w,s,n})}}
+  if(!any)return null;let h='',prev=0;
+  for(const ln of Object.keys(L).map(Number).sort((a,b)=>a-b)){const ws=L[ln],f0=ws[0];
+    if(f0.n===1&&f0.w.position===1){h+=`<div class="sh2 sbox">سُورَةُ ${S_AR[f0.s-1]}</div>`+(f0.s!==1&&f0.s!==9?'<div class="sh2 bsm">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>':'')}
+    h+=`<div class="ql${ml?' qm':''}" style="font-family:qcf${p}">`+ws.map(({w})=>{const t=ml&&w.char_type_name==='word'&&w.translation&&w.translation.language_name===WL?esc(w.translation.text||''):'';
+      return ml?`<span class="qw"><b>${w.code_v2}</b><i>${t||'&nbsp;'}</i></span>`:`<span class="qw">${w.code_v2}</span>`}).join('')+'</div>'}
+  return h}
 let okP=1;
 async function openOkuma(s){hideScr();scrSet('okuma');$('#okuma').classList.remove('hide');
   const p=s?pageOf(s,1):LS.get('mihrab.okP',1);
@@ -1000,13 +1016,16 @@ async function okPage(p){p=Math.min(604,Math.max(1,p));okP=p;LS.set('mihrab.okP'
   $('#okN2').value=p;$('#okS').value=s1;$('#okT').textContent=`${trS('Sayfa')} ${p} · ${trS('Cüz')} ${Math.min(30,p<22?1:Math.floor((p-2)/20)+1)}`;
   const ed=set.script==='simple'||st.fontFail?'quran-simple':'quran-uthmani',ml=set.okMeal===true?'tr':(set.okMeal||'');let h='',W={};
   if(ml){try{const r=await getJSON(`https://api.qurancdn.com/api/qdc/verses/by_page/${p}?words=true&word_translation_language=${ml}&word_fields=text_uthmani&per_page=60`,12000);r.verses.forEach(v=>W[v.verse_key]=v.words.filter(w=>w.char_type_name==='word').map(w=>(w.translation&&w.translation.language_name!==(ml==='en'?'english':'turkish')?{...w,translation:{text:''}}:w)))}catch(e){}}
+  if(navigator.onLine!==false){try{const r=await qcfPage(p,ml);if(r&&okP===p){B.classList.toggle('ml',!!ml);B.classList.add('qcf');B.innerHTML=r+`<div class="pgno">${toAr(p)}</div>`;$('.ok-body').scrollTop=0;return}}catch(e){}}
+  B.classList.remove('qcf');
   try{for(let s=s1;s<=Math.min(s2,114);s++){
       const ay=await okSurah(s,ed),me=ml?await okSurah(s,ml==='en'?'en.sahih':'tr.yazir').catch(()=>[]):[];
       const from=s===s1?a1:1,to=s===s2?a2-1:ay.length;if(to<from)continue;
       if(from===1){h+=`<div class="sh2 sbox">سُورَةُ ${S_AR[s-1]}</div>`+(s!==1&&s!==9?'<div class="sh2 bsm">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>':'')}
       for(let n=from;n<=to;n++){const a=ay[n-1];
         const w=ml?W[s+':'+n]:null;
-        if(w&&w.length)h+=`<span class="oa ww" data-s="${s}" data-n="${n}">${w.map(x=>`<span class="wd"><b>${esc(x.text_uthmani)}</b><i>${esc(x.translation?.text||'')}</i></span>`).join('')}</span><span class="num">${toAr(n)}</span> `;
+        const WL=ml==='en'?'english':'turkish',ok=w?w.filter(x=>x.translation&&x.translation.language_name===WL).length:0;
+        if(w&&w.length&&ok>=w.length*0.6)h+=`<span class="oa ww" data-s="${s}" data-n="${n}">${w.map(x=>`<span class="wd"><b>${esc(x.text_uthmani)}</b><i>${x.translation&&x.translation.language_name===WL?esc(x.translation.text||''):'&nbsp;'}</i></span>`).join('')}</span><span class="num">${toAr(n)}</span> `;
         else{h+=`<span class="oa" data-s="${s}" data-n="${n}">${esc(stripBasmala(s,n,a.t))}</span> <span class="num">${toAr(n)}</span> `;
           if(ml&&me[n-1])h+=`<div class="om" dir="ltr"><b>${s}:${n}</b> ${esc(me[n-1].t)}</div>`}}}
   }catch(e){B.innerHTML=`<div class="note" style="direction:ltr">${MSG.loadErr[LANG]}<br><br>${MSG.offHint[LANG]}</div>`;return}
@@ -1310,7 +1329,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   if(navigator.onLine&&!LS.get('mihrab.offdone',0)&&location.protocol==='https:')setTimeout(()=>{if(navigator.connection&&navigator.connection.saveData)return;offDownload(null,null)},6000);
   if(navigator.storage&&navigator.storage.persist)navigator.storage.persist().catch(()=>{});
   const h=location.hash.match(/^#(\d{1,3})(?:-(\d{1,3}))?$/);
-  if(h)loadSurah(+h[1],+(h[2]||0)||null);else{const l=LS.get('beyan2.last',{s:1,a:1});let sc='home';try{sc=sessionStorage.getItem('mihrab.scr')||'home'}catch(e){}
+  if(h)loadSurah(+h[1],+(h[2]||0)||null);else{const l=LS.get('beyan2.last',{s:1,a:1});let sc='home';try{const nv=performance.getEntriesByType('navigation')[0];if(nv&&nv.type==='reload')sc=sessionStorage.getItem('mihrab.scr')||'home'}catch(e){}
     loadSurah(l.s||1,l.a>1?l.a:null);
     if(sc==='namaz')openNamaz();else if(sc==='okuma')openOkuma();else if(sc==='ezber')openEzber();else if(sc!=='study')showHome()}
 })();
