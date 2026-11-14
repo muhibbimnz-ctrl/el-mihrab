@@ -829,14 +829,15 @@ function fmt(text){
 /* ================= SÛRE ================= */
 /* ---- İnternetsiz kullanım: bütün Kur'an + meâller tek seferde cihaza indirilir ---- */
 /* Yük dağıtımı: GitHub adresinde (Play uygulaması) ağır veri Cloudflare'den (sınırsız trafik) gelir; olmazsa kendi sunucusundan. */
-const CF='https://el-mihrab.pages.dev/data/q/',LD=/github\.io$/.test(location.hostname)?CF:'data/q/';
-async function locEd(ed,s){let j;try{j=await getJSON(`${LD}${ed}/${s}.json`,15000)}catch(e){if(LD===CF)j=await getJSON(`data/q/${ed}/${s}.json`,15000);else throw e}return {edition:{identifier:ed},ayahs:j.a.map(x=>({numberInSurah:x.n,number:x.g,juz:x.j,page:x.p,sajda:x.sj,text:x.t}))}}
+const CF='https://el-mihrab.pages.dev/data/q/',LD='data/q/'; /* pages.dev Türkiye'de erişilemediği için veri kendi adresinden gelir */
+let cfBad=false;
+async function locEd(ed,s){let j;const base=LD===CF&&!cfBad?CF:'data/q/';try{j=await getJSON(`${base}${ed}/${s}.json`,15000)}catch(e){if(base===CF){cfBad=true;j=await getJSON(`data/q/${ed}/${s}.json`,15000)}else throw e}return {edition:{identifier:ed},ayahs:j.a.map(x=>({numberInSurah:x.n,number:x.g,juz:x.j,page:x.p,sajda:x.sj,text:x.t}))}}
 async function offSurah(s,eds){const r=await Promise.all(eds.map(ed=>locEd(ed,s).catch(()=>null)));if(!r[0])throw new Error('local');return r.filter(Boolean)}
 async function offAyah(ed,s,a){try{return (await locEd(ed,s)).ayahs[a-1]?.text}catch(e){return null}}
 async function offStatus(){return LS.get('mihrab.offdone',0)?['x','x','x','x']:[]}
 async function offDownload(btn,info){
   const eds=[...new Set(['quran-uthmani','quran-simple',...MEALS.map(m=>m[0]),TRL])];const jobs=['arapca.html','farsca.html','ingilizce.html','almanca.html','fransizca.html','ispanyolca.html','index.html','manifest.webmanifest','icon-192.png','icon-512.png'];
-  for(const ed of eds)for(let s=1;s<=114;s++)jobs.push(`${LD}${ed}/${s}.json`);
+  for(const ed of eds)for(let s=1;s<=114;s++)jobs.push(`data/q/${ed}/${s}.json`);
   let done=0,fail=0;
   const worker=async()=>{while(jobs.length){const u=jobs.shift();try{const r=await fetch(u);if(!r.ok)throw 0;const c=await caches.open('mihrab-data-v1');await c.put(new URL(u,location.href).href,r)}catch(e){fail++}done++;if(info&&done%20===0)info.textContent=Math.round(done/(done+jobs.length)*100)+'%'}};
   await Promise.all([1,2,3,4,5,6].map(worker));
