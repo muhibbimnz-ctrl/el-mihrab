@@ -178,10 +178,15 @@ a{color:var(--accent)}
 .zb:active{transform:scale(.95)}
 .gay{grid-column:1/-1;min-height:0;text-align:right}
 .gay .q{font-family:var(--qfont),'Amiri Quran',serif;font-size:22px;line-height:2;direction:rtl}
-.gay .m{font-family:var(--serif);font-size:14px;color:var(--ink2);text-align:left;line-height:1.55}
+.gay .m{font-family:var(--serif);font-size:17px;color:var(--ink2);text-align:left;line-height:1.55}
 .gay .k{font-size:12px;color:var(--gold);font-weight:700;text-align:left}
 .gh .t{font-family:var(--serif);font-size:16px;line-height:1.6;color:var(--ink);text-align:left}
 .gd .gv{font-size:17px}
+.gd{grid-column:1/-1;min-height:0;gap:8px}#gZikir{grid-column:1/-1}.gd .gk{text-align:left}
+.dv{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:var(--hl);border:1px solid var(--line2);border-radius:14px;padding:10px 12px;cursor:pointer;color:inherit;font:inherit}
+.dv .di{font-size:24px}.dv .dt{flex:1;display:flex;flex-direction:column;gap:2px}.dv .dt b{font-size:15px}.dv .dt small{font-size:12.5px;color:var(--muted)}
+.dv .dt i{display:block;height:5px;border-radius:3px;background:var(--line2);margin-top:4px;position:relative;overflow:hidden}.dv .dt i:after{content:"";position:absolute;inset:0;width:var(--p);background:var(--gold)}
+.dv .da{font-size:22px;color:var(--gold)}
 .offs{text-align:center;margin:18px 0 6px;font-size:13px}
 .offs a{color:var(--muted)}
 .tile{border:0;border-radius:26px;padding:18px 10px 14px;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-height:132px;box-shadow:0 14px 26px -18px rgba(40,25,5,.9);transition:transform .15s}
@@ -223,6 +228,9 @@ a{color:var(--accent)}
 .okm{border:1px solid var(--gold);background:transparent;color:inherit;border-radius:10px;padding:6px 12px;cursor:pointer;font:inherit}.okm.on{background:var(--gold);color:#fff}
 .mus .sbox{border:1.5px solid var(--gold);border-radius:8px;padding:2px 0;margin:.4em 0 .2em}.mus .bsm{font-family:var(--qfont)!important;color:inherit}
 .mus .om{direction:ltr;text-align:left;text-align-last:auto;font-family:system-ui,sans-serif;font-size:15px;line-height:1.55;color:var(--mut,#6d655a);background:var(--hl);border-radius:8px;padding:6px 10px;margin:4px 0 10px}
+.mus .ow{display:flex;flex-wrap:wrap;direction:rtl;gap:6px;background:var(--hl);border-radius:10px;padding:8px;margin:4px 0 12px;text-align:right;text-align-last:auto}
+.mus .ow span{display:flex;flex-direction:column;align-items:center;background:var(--paper);border:1px solid var(--line2);border-radius:8px;padding:4px 8px;min-width:54px}
+.mus .ow b{font-family:var(--qfont),'Amiri Quran',serif;font-weight:400;font-size:.62em;line-height:1.7}.mus .ow i{font-style:normal;font-family:system-ui,sans-serif;font-size:12.5px;line-height:1.3;color:var(--ink2);direction:ltr;text-align:center;max-width:120px}
 .mus .om b{color:var(--accent);margin-right:4px}.mus .pgno{text-align:center;font-size:.7em;color:var(--accent);margin-top:.6em;text-align-last:center}
 .mus{transition:transform .25s,opacity .25s;min-height:70vh}.mus.tl{transform:translateX(40px);opacity:.3}.mus.tr{transform:translateX(-40px);opacity:.3}
 .ok-hint{text-align:center;font-size:12px;opacity:.55;margin:0 0 18px}
@@ -404,10 +412,10 @@ a{color:var(--accent)}
     </div>
     <div class="dl-h">Günlük</div>
     <div class="gl">
+      <div class="gcard" id="gDevam"></div>
       <div class="gcard" id="gHicri"></div>
       <div class="gcard" id="gKible"></div>
       <div class="gcard gz" id="gZikir"><div class="gk">Zikirmatik</div><select id="zS"><option>Sübhânallah</option><option>Elhamdülillah</option><option>Allâhu ekber</option><option>Lâ ilâhe illallah</option><option>Estağfirullah</option><option>Salavât</option></select><button id="zB" class="zb">0</button><div class="note"><a href="#" id="zR">sıfırla</a> · hedef <select id="zT"><option>33</option><option>99</option><option>100</option><option>1000</option></select></div></div>
-      <div class="gcard" id="gDevam"></div>
       <div class="gcard gay" id="gAyet"></div>
       <div class="gcard gay gh" id="gHadis"></div>
     </div>
@@ -416,7 +424,7 @@ a{color:var(--accent)}
 </section>
 
 <section class="scr hide" id="okuma">
-  <div class="rd-h"><button class="ib" id="okX" title="Ana sayfa"></button><b id="okT"></b><span style="flex:1"></span><button class="okm" id="okM">Meal</button></div>
+  <div class="rd-h"><button class="ib" id="okX" title="Ana sayfa"></button><b id="okT"></b><span style="flex:1"></span><button class="okm" id="okM">Kelime meali</button></div>
   <div class="ok-bar"><button class="okb" id="okNx" title="Sonraki sayfa">‹</button><select id="okS"></select><input id="okN2" type="number" min="1" max="604" inputmode="numeric"><button class="okb" id="okPv" title="Önceki sayfa">›</button></div>
   <div class="ok-body"><div class="mus" id="okB" lang="ar"></div><div class="ok-hint">‹ Kaydırarak sayfa çevirin ›</div></div>
 </section>
@@ -638,7 +646,7 @@ const I18N={
  "Günlük":["اليوم","Today"],"Hicrî takvim":["التقويم الهجري","Hijri date"],"Kıble yönü":["اتجاه القبلة","Qibla"],"Kuzeyden saat yönünde":["من الشمال باتجاه عقارب الساعة","Clockwise from north"],"Kıble yönü için yukarıdan \"Konumumu kullan\"ı seçin.":["لاتجاه القبلة اختر «استخدم موقعي» في الأعلى.","For the qibla, choose “Use my location” above."],"Zikirmatik":["المسبحة","Tasbih counter"],"sıfırla":["تصفير","reset"],"hedef":["الهدف","target"],"Günün âyeti":["آية اليوم","Verse of the day"],"İnternetsiz kullanım hazır":["جاهز للاستخدام دون إنترنت","Ready for offline use"],"⬇ İnternetsiz kullanım için indir":["⬇ تنزيل للاستخدام دون إنترنت","⬇ Download for offline use"],
  "Almanca":["الألمانية","German"],"Fransızca":["الفرنسية","French"],"İspanyolca":["الإسبانية","Spanish"],
  "Günün hadisi":["حديث اليوم","Hadith of the day"],"mealen":["بالمعنى","meaning"],"Kaldığınız yer":["موضع التوقف","Where you left off"],"Okumaya devam":["تابع القراءة","Continue reading"],"Mushafta":["في المصحف","In mushaf"],"Kur'an ve meâller cihazınıza kaydedildi":["حُفظ القرآن على جهازك","Qur'an and translations saved to your device"],"güncelle":["تحديث","update"],
- "Sayfa":["صفحة","Page"],"Cüz":["جزء","Juz"],"Meal":["الترجمة","Translation"],"‹ Kaydırarak sayfa çevirin ›":["‹ اسحب لتقليب الصفحة ›","‹ Swipe to turn the page ›"],"Sonraki sayfa":["الصفحة التالية","Next page"],"Önceki sayfa":["الصفحة السابقة","Previous page"], "Geniş okuma":["قراءة موسّعة","Wide reading"],"Âyeti göster":["إظهار الآية","Show verse"],
+ "Sayfa":["صفحة","Page"],"Cüz":["جزء","Juz"],"Meal":["الترجمة","Translation"],"‹ Kaydırarak sayfa çevirin ›":["‹ اسحب لتقليب الصفحة ›","‹ Swipe to turn the page ›"],"Sonraki sayfa":["الصفحة التالية","Next page"],"Önceki sayfa":["الصفحة السابقة","Previous page"], "Mushaf":["المصحف","Mushaf"],"Tefsirli okuma":["القراءة مع التفسير","Reading with tafsir"],"Kelime meali":["معاني الكلمات","Word by word"], "Geniş okuma":["قراءة موسّعة","Wide reading"],"Âyeti göster":["إظهار الآية","Show verse"],
  "Mushaf yazı tipi yüklenemedi; kolay okunur yazıma geçildi":["تعذّر تحميل خط المصحف؛ تم التحويل إلى الرسم الإملائي","Mushaf font could not load; switched to easy-to-read script"],"Tecvidli metin alınamadı":["تعذّر تحميل نص التجويد","Could not load tajweed text"],
  "Beni hayır dualarınızda unutmayın":["","Do not forget me in your prayers"],
  "English tafsirs":["تفاسير بالإنجليزية","English tafsirs"],"Dil · Language":["اللغة","Language"]
@@ -901,13 +909,16 @@ function gunluk(){
   $('#zR').onclick=e=>{e.preventDefault();z.c=0;$('#zB').textContent=0;sv()};$('#zS').onchange=()=>{z.i=$('#zS').selectedIndex;z.c=0;$('#zB').textContent=0;sv()};$('#zT').onchange=()=>{z.t=+$('#zT').value;sv()};
   const dn=new Date(),dayL=Math.floor((Date.UTC(dn.getFullYear(),dn.getMonth(),dn.getDate()))/864e5);
   const hd=HADIS[dayL%HADIS.length];$('#gHadis').innerHTML=`<div class="gk" style="text-align:left">${trS('Günün hadisi')}</div><div class="t">“${esc(hd[0])}”</div><div class="k">${esc(hd[1])} · <span style="font-weight:400;color:var(--muted)">${trS('mealen')}</span></div>`;
-  const lr=LS.get('beyan2.last',{s:1,a:1}),ok=LS.get('mihrab.okS',1);
-  $('#gDevam').className='gcard gd';$('#gDevam').innerHTML=`<div class="gk">${trS('Kaldığınız yer')}</div><div class="gv">${esc(SN()[(lr.s||1)-1])} ${lr.s||1}:${lr.a||1}</div><button class="pill" id="gDv">${trS('Okumaya devam')} ›</button><div class="gs" style="margin-top:4px">${trS('Mushafta')}: ${esc(SN()[ok-1])}</div>`;
-  $('#gDv').onclick=()=>{hideScr();loadSurah(lr.s||1,lr.a>1?lr.a:null)};
+  const lr=LS.get('beyan2.last',{s:1,a:1}),okp=LS.get('mihrab.okP',1),oks=PG[okp-1][0],pc=Math.round(okp/604*100);
+  $('#gDevam').className='gcard gd';$('#gDevam').innerHTML=`<div class="gk">${trS('Kaldığınız yer')}</div>
+   <button class="dv" id="gDm"><span class="di">📖</span><span class="dt"><b>${trS('Mushaf')} · ${trS('Sayfa')} ${okp}</b><small>${esc(SN()[oks-1])} · %${pc}</small><i style="--p:${pc}%"></i></span><span class="da">›</span></button>
+   <button class="dv" id="gDv"><span class="di">📚</span><span class="dt"><b>${trS('Tefsirli okuma')}</b><small>${esc(SN()[(lr.s||1)-1])} ${lr.s||1}:${lr.a||1}</small></span><span class="da">›</span></button>`;
+  $('#gDm').onclick=()=>openOkuma();$('#gDv').onclick=()=>{hideScr();loadSurah(lr.s||1,lr.a>1?lr.a:null)};
   const day=dayL,seq=[[2,255],[2,286],[3,190],[3,26],[13,28],[14,7],[17,23],[17,80],[18,10],[20,114],[21,87],[23,1],[24,35],[25,63],[29,45],[31,17],[33,41],[39,53],[40,60],[49,13],[55,13],[57,4],[59,22],[65,3],[67,1],[94,5],[2,152],[2,186],[3,159],[16,90],[7,56]];
   const [s,a]=seq[day%seq.length],mid=set.meals[0]||MEALS[0][0];
-  Promise.all([offAyah('quran-uthmani',s,a),offAyah(mid,s,a)]).then(([q,m])=>{if(!q){$('#gAyet').classList.add('hide');return}
-    $('#gAyet').innerHTML=`<div class="gk" style="text-align:left">${trS('Günün âyeti')}</div><div class="q">${esc(q)} <span class="num">${toAr(a)}</span></div><div class="m">${esc(m||'')}</div><div class="k"><a href="#" id="gGo">${SN()[s-1]} ${s}:${a} ›</a></div>`;
+  const ged=LANG==='ar'?'quran-uthmani':LANG==='en'?'en.sahih':(String(mid).startsWith('tr.')&&mid!=='tr.transliteration'?mid:'tr.yazir');
+  offAyah(ged,s,a).then(m=>{if(!m){$('#gAyet').classList.add('hide');return}
+    $('#gAyet').innerHTML=`<div class="gk" style="text-align:left">${trS('Günün âyeti')}</div><div class="m"${LANG==='ar'?' dir="rtl" style="text-align:right;font-family:var(--qfont)"':''}>“${esc(m)}”</div><div class="k"><a href="#" id="gGo">${SN()[s-1]} ${s}:${a} ›</a></div>`;
     $('#gGo').onclick=e=>{e.preventDefault();hideScr();loadSurah(s,a)}});
 }
 async function ptNext(){const r=await ptData().catch(()=>null);if(!r)return;const now=new Date(),mins=now.getHours()*60+now.getMinutes();const T=PN.map(p=>[p,String(r.t[p[0]]||'').slice(0,5)]);const tm=T.map(([p,v])=>{const[a,b]=v.split(':').map(Number);return a*60+b});let ni=tm.findIndex(x=>x>mins);if(ni<0)ni=0;let left=(tm[ni]>mins?tm[ni]:tm[ni]+1440)-mins;$('#hNx').textContent=`${pnm(T[ni][0])} ${T[ni][1]} · ${Math.floor(left/60)} sa ${left%60} dk`}
@@ -977,14 +988,15 @@ async function openOkuma(s){hideScr();$('#okuma').classList.remove('hide');
 async function okPage(p){p=Math.min(604,Math.max(1,p));okP=p;LS.set('mihrab.okP',p);
   const [s1,a1]=PG[p-1],[s2,a2]=p<604?PG[p]:[115,1];const B=$('#okB');B.innerHTML=loading();
   $('#okN2').value=p;$('#okS').value=s1;$('#okT').textContent=`${trS('Sayfa')} ${p} · ${trS('Cüz')} ${Math.min(30,p<22?1:Math.floor((p-2)/20)+1)}`;
-  const ed=set.script==='simple'||st.fontFail?'quran-simple':'quran-uthmani',ml=set.okMeal;let h='';
+  const ed=set.script==='simple'||st.fontFail?'quran-simple':'quran-uthmani',ml=set.okMeal;let h='',W={};
+  if(ml){try{const r=await getJSON(`https://api.qurancdn.com/api/qdc/verses/by_page/${p}?words=true&word_translation_language=tr&word_fields=text_uthmani&per_page=60`,12000);r.verses.forEach(v=>W[v.verse_key]=v.words.filter(w=>w.char_type_name==='word'))}catch(e){}}
   try{for(let s=s1;s<=Math.min(s2,114);s++){
       const ay=await okSurah(s,ed),me=ml?await okSurah(s,'tr.yazir').catch(()=>[]):[];
       const from=s===s1?a1:1,to=s===s2?a2-1:ay.length;if(to<from)continue;
       if(from===1){h+=`<div class="sh2 sbox">سُورَةُ ${S_AR[s-1]}</div>`+(s!==1&&s!==9?'<div class="sh2 bsm">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>':'')}
       for(let n=from;n<=to;n++){const a=ay[n-1];
         h+=`<span class="oa" data-s="${s}" data-n="${n}">${esc(stripBasmala(s,n,a.t))}</span> <span class="num">${toAr(n)}</span> `;
-        if(ml&&me[n-1])h+=`<div class="om" dir="ltr"><b>${s}:${n}</b> ${esc(me[n-1].t)}</div>`}}
+        if(ml){const w=W[s+':'+n];h+=w&&w.length?`<div class="ow">${w.map(x=>`<span><b>${esc(x.text_uthmani)}</b><i>${esc(x.translation?.text||'')}</i></span>`).join('')}</div>`:(me[n-1]?`<div class="om" dir="ltr"><b>${s}:${n}</b> ${esc(me[n-1].t)}</div>`:'')}}}
   }catch(e){B.innerHTML=`<div class="note" style="direction:ltr">${MSG.loadErr[LANG]}<br><br>${MSG.offHint[LANG]}</div>`;return}
   B.classList.toggle('ml',!!ml);B.innerHTML=h+`<div class="pgno">${toAr(p)}</div>`;$('.ok-body').scrollTop=0;
   $$('.oa',B).forEach(x=>x.onclick=()=>{hideScr();loadSurah(+x.dataset.s,+x.dataset.n)})}
