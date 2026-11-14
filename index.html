@@ -180,6 +180,8 @@ a{color:var(--accent)}
 .gay .q{font-family:var(--qfont),'Amiri Quran',serif;font-size:22px;line-height:2;direction:rtl}
 .gay .m{font-family:var(--serif);font-size:14px;color:var(--ink2);text-align:left;line-height:1.55}
 .gay .k{font-size:12px;color:var(--gold);font-weight:700;text-align:left}
+.gh .t{font-family:var(--serif);font-size:16px;line-height:1.6;color:var(--ink);text-align:left}
+.gd .gv{font-size:17px}
 .offs{text-align:center;margin:18px 0 6px;font-size:13px}
 .offs a{color:var(--muted)}
 .tile{border:0;border-radius:26px;padding:18px 10px 14px;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-height:132px;box-shadow:0 14px 26px -18px rgba(40,25,5,.9);transition:transform .15s}
@@ -394,7 +396,9 @@ a{color:var(--accent)}
       <div class="gcard" id="gHicri"></div>
       <div class="gcard" id="gKible"></div>
       <div class="gcard gz" id="gZikir"><div class="gk">Zikirmatik</div><select id="zS"><option>Sübhânallah</option><option>Elhamdülillah</option><option>Allâhu ekber</option><option>Lâ ilâhe illallah</option><option>Estağfirullah</option><option>Salavât</option></select><button id="zB" class="zb">0</button><div class="note"><a href="#" id="zR">sıfırla</a> · hedef <select id="zT"><option>33</option><option>99</option><option>100</option><option>1000</option></select></div></div>
+      <div class="gcard" id="gDevam"></div>
       <div class="gcard gay" id="gAyet"></div>
+      <div class="gcard gay gh" id="gHadis"></div>
     </div>
     <div class="offs"><a href="#" id="hOff">⬇ İnternetsiz kullanım için indir</a> <span class="note" id="hOffI"></span></div>
   </div>
@@ -621,6 +625,7 @@ const I18N={
  "Devam et":["متابعة","Continue"],"Ezan vakitleri · Okuma · Ezber · Dil":["المواقيت · القراءة · الحفظ · اللغات","Prayer times · Reading · Hifz · Languages"],"Tefsir · İ'râb · Belâgat · Kıraat":["التفسير · الإعراب · البلاغة · القراءات","Tafsir · I'rab · Balagha · Qira'at"],"Sûre seç":["اختر سورة","Choose surah"],
  "Günlük":["اليوم","Today"],"Hicrî takvim":["التقويم الهجري","Hijri date"],"Kıble yönü":["اتجاه القبلة","Qibla"],"Kuzeyden saat yönünde":["من الشمال باتجاه عقارب الساعة","Clockwise from north"],"Kıble yönü için yukarıdan \"Konumumu kullan\"ı seçin.":["لاتجاه القبلة اختر «استخدم موقعي» في الأعلى.","For the qibla, choose “Use my location” above."],"Zikirmatik":["المسبحة","Tasbih counter"],"sıfırla":["تصفير","reset"],"hedef":["الهدف","target"],"Günün âyeti":["آية اليوم","Verse of the day"],"İnternetsiz kullanım hazır":["جاهز للاستخدام دون إنترنت","Ready for offline use"],"⬇ İnternetsiz kullanım için indir":["⬇ تنزيل للاستخدام دون إنترنت","⬇ Download for offline use"],
  "Almanca":["الألمانية","German"],"Fransızca":["الفرنسية","French"],"İspanyolca":["الإسبانية","Spanish"],
+ "Günün hadisi":["حديث اليوم","Hadith of the day"],"mealen":["بالمعنى","meaning"],"Kaldığınız yer":["موضع التوقف","Where you left off"],"Okumaya devam":["تابع القراءة","Continue reading"],"Mushafta":["في المصحف","In mushaf"],"Kur'an ve meâller cihazınıza kaydedildi":["حُفظ القرآن على جهازك","Qur'an and translations saved to your device"],"güncelle":["تحديث","update"],
  "Geniş okuma":["قراءة موسّعة","Wide reading"],"Âyeti göster":["إظهار الآية","Show verse"],
  "Mushaf yazı tipi yüklenemedi; kolay okunur yazıma geçildi":["تعذّر تحميل خط المصحف؛ تم التحويل إلى الرسم الإملائي","Mushaf font could not load; switched to easy-to-read script"],"Tecvidli metin alınamadı":["تعذّر تحميل نص التجويد","Could not load tajweed text"],
  "Beni hayır dualarınızda unutmayın":["","Do not forget me in your prayers"],
@@ -807,13 +812,13 @@ async function offSurah(s,eds){const r=await Promise.all(eds.map(ed=>locEd(ed,s)
 async function offAyah(ed,s,a){try{return (await locEd(ed,s)).ayahs[a-1]?.text}catch(e){return null}}
 async function offStatus(){return LS.get('mihrab.offdone',0)?['x','x','x','x']:[]}
 async function offDownload(btn,info){
-  const eds=[...new Set([set.script==='simple'?'quran-simple':'quran-uthmani',...set.meals.slice(0,2),TRL])];const jobs=[];
+  const eds=[...new Set(['quran-uthmani','quran-simple',...MEALS.map(m=>m[0]),TRL])];const jobs=['arapca.html','farsca.html','ingilizce.html','almanca.html','fransizca.html','ispanyolca.html','index.html','manifest.webmanifest','icon-192.png','icon-512.png'];
   for(const ed of eds)for(let s=1;s<=114;s++)jobs.push(`${LD}${ed}/${s}.json`);
   let done=0,fail=0;
   const worker=async()=>{while(jobs.length){const u=jobs.shift();try{const r=await fetch(u);if(!r.ok)throw 0;const c=await caches.open('mihrab-data-v1');await c.put(new URL(u,location.href).href,r)}catch(e){fail++}done++;if(info&&done%20===0)info.textContent=Math.round(done/(done+jobs.length)*100)+'%'}};
   await Promise.all([1,2,3,4,5,6].map(worker));
-  if(fail>10){if(info)info.textContent='';if(btn)toast(trS('İndirme tamamlanamadı; internet bağlantınızı kontrol edin'));return}
-  LS.set('mihrab.offdone',1);if(info)info.textContent='✓';if(btn)toast(trS('İnternetsiz kullanım için indirildi ✓'));if(btn)btn.textContent=trS('İndirildi ✓');
+  if(fail>40){if(info)info.textContent='';if(btn)toast(trS('İndirme tamamlanamadı; internet bağlantınızı kontrol edin'));return}
+  LS.set('mihrab.offdone',1);if(info)info.textContent='✓';if(btn)toast(trS('İnternetsiz kullanım için indirildi ✓'));if(btn)btn.textContent='✓ '+trS('Kur\'an ve meâller cihazınıza kaydedildi')+' · '+trS('güncelle');
 }
 async function loadSurah(s,focus,keep){
   if(!keep)hideScr();
@@ -866,7 +871,8 @@ $('#main').addEventListener('click',e=>{
 /* ================= ANA SAYFA · EZAN · OKUMA · EZBER ================= */
 function hideScr(){['home','namaz','okuma','ezber'].forEach(i=>$('#'+i).classList.add('hide'));ezStop()}
 function showHome(){hideScr();closeBox();$('#home').classList.remove('hide');const l=LS.get('beyan2.last',{s:1,a:1});$('#hStudyT').textContent=`${trS('Devam et')} · ${SN()[(l.s||1)-1]} ${l.s||1}:${l.a||1}`;ptNext()}
-function openNamaz(){hideScr();$('#namaz').classList.remove('hide');ptRender();gunluk();if(LS.get('mihrab.offdone',0))$('#hOff').textContent='✓ '+trS('İnternetsiz kullanım hazır')}
+function openNamaz(){hideScr();$('#namaz').classList.remove('hide');ptRender();gunluk();if(LS.get('mihrab.offdone',0)){$('#hOff').textContent='✓ '+trS('Kur\'an ve meâller cihazınıza kaydedildi')+' · '+trS('güncelle')}}
+const HADIS=[["Ameller ancak niyetlere göredir; herkese ancak niyet ettiği şey vardır.", "Buhârî, Bed'ü'l-vahy 1; Müslim, İmâre 155 (1907)"], ["Sizin en hayırlınız Kur'an'ı öğrenen ve öğretendir.", "Buhârî, Fezâilü'l-Kur'ân 21 (5027)"], ["Kolaylaştırın, zorlaştırmayın; müjdeleyin, nefret ettirmeyin.", "Buhârî, İlim 11 (69); Müslim, Cihâd 8 (1734)"], ["Sizden biriniz kendisi için istediğini kardeşi için de istemedikçe (kâmil) iman etmiş olmaz.", "Buhârî, Îmân 7 (13); Müslim, Îmân 71 (45)"], ["Allah'a ve âhiret gününe iman eden kimse ya hayır söylesin ya da sussun.", "Buhârî, Edeb 31 (6018); Müslim, Îmân 74 (47)"], ["Müslüman, Müslümanların elinden ve dilinden emin olduğu kimsedir.", "Buhârî, Îmân 4 (10); Müslim, Îmân 64 (41)"], ["Din nasihattir (samimiyettir).", "Müslim, Îmân 95 (55)"], ["Temizlik imanın yarısıdır.", "Müslim, Tahâret 1 (223)"], ["Kim ilim öğrenmek için bir yola girerse, Allah ona cennete giden yolu kolaylaştırır.", "Müslim, Zikir 38 (2699)"], ["Güçlü kimse güreşte yenen değildir; güçlü kimse öfkelendiğinde kendine hâkim olandır.", "Buhârî, Edeb 76 (6114); Müslim, Birr 107 (2609)"], ["Allah sizin suretlerinize ve mallarınıza bakmaz; kalplerinize ve amellerinize bakar.", "Müslim, Birr 34 (2564)"], ["Merhamet etmeyene merhamet olunmaz.", "Buhârî, Edeb 18 (5997); Müslim, Fezâil 65 (2318)"], ["İki nimet vardır ki insanların çoğu onlarda aldanmıştır: sağlık ve boş vakit.", "Buhârî, Rikâk 1 (6412)"], ["Allah katında amellerin en sevimlisi, az da olsa devamlı olanıdır.", "Buhârî, Rikâk 18 (6464); Müslim, Salâtü'l-müsâfirîn 216 (783)"], ["Dilde hafif, mîzanda ağır, Rahmân'a sevimli iki kelime vardır: Sübhânallâhi ve bihamdihî, sübhânallâhi'l-azîm.", "Buhârî, Deavât 65 (6406); Müslim, Zikir 31 (2694)"], ["Mü'min mü'min için, parçaları birbirini kenetleyen bina gibidir.", "Buhârî, Salât 88 (481); Müslim, Birr 65 (2585)"], ["Kim Allah rızası için bir mescid yaparsa, Allah da ona cennette bir ev yapar.", "Buhârî, Salât 65 (450); Müslim, Mesâcid 24 (533)"], ["Rabbimiz her gece, gecenin son üçte biri kaldığında dünya semâsına iner ve 'Bana dua eden yok mu, duasına icabet edeyim' buyurur.", "Buhârî, Teheccüd 14 (1145); Müslim, Salâtü'l-müsâfirîn 168 (758)"]];
 function gunluk(){
   try{const f=new Intl.DateTimeFormat((LANG==='ar'?'ar':LANG==='en'?'en':'tr')+'-u-ca-islamic-umalqura',{day:'numeric',month:'long',year:'numeric'});
     const fa=new Intl.DateTimeFormat('ar-u-ca-islamic-umalqura-nu-arab',{day:'numeric',month:'long',year:'numeric'});
@@ -881,7 +887,12 @@ function gunluk(){
   const sv=()=>LS.set('mihrab.zk',z);
   $('#zB').onclick=()=>{z.c++;$('#zB').textContent=z.c;if(z.c%z.t===0){try{navigator.vibrate&&navigator.vibrate([60,40,60])}catch(e){}toast(`${z.c} ✓`)}else{try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}}sv()};
   $('#zR').onclick=e=>{e.preventDefault();z.c=0;$('#zB').textContent=0;sv()};$('#zS').onchange=()=>{z.i=$('#zS').selectedIndex;z.c=0;$('#zB').textContent=0;sv()};$('#zT').onchange=()=>{z.t=+$('#zT').value;sv()};
-  const day=Math.floor(Date.now()/864e5),seq=[[2,255],[2,286],[3,190],[3,26],[13,28],[14,7],[17,23],[17,80],[18,10],[20,114],[21,87],[23,1],[24,35],[25,63],[29,45],[31,17],[33,41],[39,53],[40,60],[49,13],[55,13],[57,4],[59,22],[65,3],[67,1],[94,5],[2,152],[2,186],[3,159],[16,90],[7,56]];
+  const dn=new Date(),dayL=Math.floor((Date.UTC(dn.getFullYear(),dn.getMonth(),dn.getDate()))/864e5);
+  const hd=HADIS[dayL%HADIS.length];$('#gHadis').innerHTML=`<div class="gk" style="text-align:left">${trS('Günün hadisi')}</div><div class="t">“${esc(hd[0])}”</div><div class="k">${esc(hd[1])} · <span style="font-weight:400;color:var(--muted)">${trS('mealen')}</span></div>`;
+  const lr=LS.get('beyan2.last',{s:1,a:1}),ok=LS.get('mihrab.okS',1);
+  $('#gDevam').className='gcard gd';$('#gDevam').innerHTML=`<div class="gk">${trS('Kaldığınız yer')}</div><div class="gv">${esc(SN()[(lr.s||1)-1])} ${lr.s||1}:${lr.a||1}</div><button class="pill" id="gDv">${trS('Okumaya devam')} ›</button><div class="gs" style="margin-top:4px">${trS('Mushafta')}: ${esc(SN()[ok-1])}</div>`;
+  $('#gDv').onclick=()=>{hideScr();loadSurah(lr.s||1,lr.a>1?lr.a:null)};
+  const day=dayL,seq=[[2,255],[2,286],[3,190],[3,26],[13,28],[14,7],[17,23],[17,80],[18,10],[20,114],[21,87],[23,1],[24,35],[25,63],[29,45],[31,17],[33,41],[39,53],[40,60],[49,13],[55,13],[57,4],[59,22],[65,3],[67,1],[94,5],[2,152],[2,186],[3,159],[16,90],[7,56]];
   const [s,a]=seq[day%seq.length],mid=set.meals[0]||MEALS[0][0];
   Promise.all([offAyah('quran-uthmani',s,a),offAyah(mid,s,a)]).then(([q,m])=>{if(!q){$('#gAyet').classList.add('hide');return}
     $('#gAyet').innerHTML=`<div class="gk" style="text-align:left">${trS('Günün âyeti')}</div><div class="q">${esc(q)} <span class="num">${toAr(a)}</span></div><div class="m">${esc(m||'')}</div><div class="k"><a href="#" id="gGo">${SN()[s-1]} ${s}:${a} ›</a></div>`;
@@ -1236,7 +1247,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   ['#ezA','#ezB'].forEach(x=>$(x).onchange=()=>{ezStop();ezLoad()});$('#ezR').onchange=()=>ezLoad();
   $('#ezH').onchange=ezShow;$('#ezT').onclick=()=>$('#ezT').classList.toggle('hid');
   window.addEventListener('error',e=>{try{console.warn(e.message)}catch(x){}});window.addEventListener('unhandledrejection',e=>{e.preventDefault()});
-  if(navigator.onLine&&!LS.get('mihrab.offdone',0)&&location.protocol==='https:')setTimeout(()=>{if(navigator.connection&&navigator.connection.saveData)return;offDownload(null,null)},20000);
+  if(navigator.onLine&&!LS.get('mihrab.offdone',0)&&location.protocol==='https:')setTimeout(()=>{if(navigator.connection&&navigator.connection.saveData)return;offDownload(null,null)},6000);
   if(navigator.storage&&navigator.storage.persist)navigator.storage.persist().catch(()=>{});
   const h=location.hash.match(/^#(\d{1,3})(?:-(\d{1,3}))?$/);
   if(h)loadSurah(+h[1],+(h[2]||0)||null);else{const l=LS.get('beyan2.last',{s:1,a:1});loadSurah(l.s||1,l.a>1?l.a:null);showHome()}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr"><head><link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#0e5a43"><meta charset="utf-8">
+<html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Sesli Farsça Ders: 6 Aylık Program (B1–B2) ve Podcast</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700&display=swap" rel="stylesheet">
@@ -87,6 +87,12 @@ ol{padding-left:22px}ol li{margin:6px 0}
 .fct{font-size:22px;margin:4px 0}
 .fcb{display:flex;flex-wrap:wrap;gap:8px}.fcb button{flex:1 1 120px}
 .srcl select{max-width:100%}
+</style><link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#55324a"><style id="mihrabStyle">
+#mihrabHead{background:linear-gradient(135deg,#d8b3c4,#55324a);color:#fff;margin:-22px -16px 16px;padding:calc(18px + env(safe-area-inset-top,0px)) 18px 22px;border-radius:0 0 28px 28px;position:relative}
+#mihrabHead h1{color:#fff!important;margin:6px 0 4px}#mihrabHead p{color:#fff!important;opacity:.92;margin:0}
+#mihrabHead a.mb{color:#fff;text-decoration:none;font:700 14px system-ui,sans-serif}
+#mihrabQ{position:absolute;right:14px;top:calc(14px + env(safe-area-inset-top,0px));width:34px;height:34px;border-radius:50%;border:2px solid #fff;background:rgba(255,255,255,.18);color:#fff;font:700 18px system-ui;display:none;cursor:pointer;padding:0}
+#warnar.mq{display:none!important}#warnar.mq.open{display:block!important;position:fixed;left:12px;right:12px;top:80px;z-index:9999;box-shadow:0 20px 50px -10px rgba(0,0,0,.5);border-radius:14px!important}
 </style></head><body><main>
 <h1>Sesli Farsça Ders <span class="ar">درس‌های صوتی فارسی</span></h1>
 <p class="lead">▶ düğmesine bas, cümleyi dinle. Elifbadan başlayan Temel Farsça (Arapça bilenler için özel ünitelerle), 26 haftalık hikâye programı (ilk 13 hafta B1, son 13 hafta B2), günlük hayat, akademik ve İslami ilimler metinleri, B1, B2, C1 ve C2 seviyelerinde uzun metinler, iki sunuculu Farsça podcast ve kelime tekrarı bir arada. “Okunuşu göster” düğmesi kelimelerin Latin harfli okunuşunu açar.</p>
@@ -1400,5 +1406,9 @@ hb.onclick=function(){st.stl=!st.stl;save();hbSet()};
 render();
 
 </script></body></html>
-<a href="./" id="mihrabBack" style="position:fixed;left:12px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:9999;background:#0e5a43;color:#fff;text-decoration:none;font:600 14px system-ui,sans-serif;padding:10px 16px;border-radius:999px;box-shadow:0 8px 20px -8px rgba(0,0,0,.5)">‹ el-Mihrâb</a>
-<script>if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('sw.js').catch(function(){});</script>
+<script>(function(){function go(){try{var m=document.querySelector("main")||document.body,h=m.querySelector("h1");if(!h||document.getElementById("mihrabHead"))return;var d=document.createElement("div");d.id="mihrabHead";d.innerHTML='<a class="mb" href="./">‹ el-Mihrâb</a><button id="mihrabQ" aria-label="Ses yardımı">?</button>';var nx=h.nextElementSibling;h.parentNode.insertBefore(d,h);d.appendChild(h);if(nx&&nx.tagName==="P")d.appendChild(nx);
+var w=document.getElementById("warnar"),q=document.getElementById("mihrabQ");if(!w)return;w.innerHTML=w.innerHTML.replace(/En kolay çözüm:[\s\S]*?Ya da /,"").replace(/Claude sesi,[\s\S]*?çalışmaz\)\. /,"");w.classList.add("mq");
+var chk=function(){var s=w.style.display;q.style.display=(s&&s!=="none")?"block":"none"};new MutationObserver(chk).observe(w,{attributes:true,attributeFilter:["style"]});chk();
+q.onclick=function(e){e.stopPropagation();w.classList.toggle("open")};document.addEventListener("click",function(e){if(e.target!==q&&!w.contains(e.target))w.classList.remove("open")})}catch(e){}}
+if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",go);else go();
+if("serviceWorker" in navigator&&location.protocol==="https:")navigator.serviceWorker.register("sw.js").catch(function(){})})();</script>
