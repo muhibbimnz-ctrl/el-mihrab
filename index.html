@@ -657,28 +657,27 @@ en:`<p><b>No verse, translation or tafsir text in this book was typed by hand or
 <p><b>The only processing done by the program:</b> some tafsirs are stored page by page at the source. The program finds where the commentary on your verse begins and shows the text from there, without altering it. In that case a <i>show the whole page</i> link appears.</p>
 <p><b>If you see a mistake:</b> compare the text with the source page. If they differ, the fault is ours — please tell us; otherwise it comes from the digital edition at the source. For scholarly citation, refer to the printed edition.</p>
 <p class="note">Surah names, interface texts and the software were prepared for this work.</p>`};
-const IBAN='TR95 0020 3000 0154 1429 0000 01';
-const ACC=(l)=>`<table><tr><td>${l[0]}</td><td>Huzur İlim Eğitim ve Yardımlaşma Derneği</td></tr><tr><td>${l[1]}</td><td>Albaraka Türk — Konya</td></tr><tr><td>IBAN</td><td><span dir="ltr" style="font-weight:700;letter-spacing:.3px;white-space:nowrap">${IBAN}</span> <button class="pill" id="ibanC">${l[2]}</button></td></tr><tr><td>${l[3]}</td><td><a href="https://huzurmedreseleri.com" target="_blank" rel="noopener">huzurmedreseleri.com</a></td></tr></table>`;
+const ACC=(l)=>`<p style="text-align:center;margin:14px 0"><a class="pill" style="display:inline-block;padding:10px 18px;text-decoration:none;font-weight:700" href="https://huzurmedreseleri.com" target="_blank" rel="noopener">${l[0]} ›</a></p>`;
 const ABOUT_PG={
 tr:`<p><b>el-Mihrâb</b>, Kur'ân-ı Kerîm'i meâlleri, tefsirleri, i'râbı, belâgatı, kıraatleri ve tilâvetiyle tek yerde okumak isteyenler için hazırlanmış ücretsiz bir çalışmadır. Reklam göstermez, üyelik istemez.</p>
 <p>Bir âyetin altındaki düğmelerden birine dokunun; seçtiğiniz kitabın o âyetle ilgili metni açılır. Rivâyet ve dirâyet tefsirleri, i'râb ve belâgat kitapları, on kıraatin farkları ve Türkçe, Arapça, İngilizce arayüz bir aradadır. Bütün metinler yayımlanmış kaynaklardan olduğu gibi alınır; ayrıntısı <a href="#" id="hSrc">Kaynaklar ve güvenilirlik</a> sayfasındadır.</p>
 <h4 style="font-family:var(--disp);font-size:21px;color:var(--accent);margin:18px 0 6px">Destek</h4>
-<p>Bu çalışma kendisi için bağış toplamaz. Destek olmak isterseniz hayrınızı, İslâmî ilimleri medresede okuyan öğrencilere ulaşması için aşağıdaki dernek hesabına yapabilirsiniz. Bağışlar doğrudan derneğe gider.</p>
-${ACC(['Hesap sahibi','Banka','Kopyala','Kaynak'])}
-<p class="note">Göndermeden önce hesap bilgisini derneğin kendi sayfasından teyit etmeniz tavsiye edilir. Rabbim yaptığınız yardımları kabul etsin.</p>`,
+<p>Bu çalışma kendisi için bağış toplamaz. Destek olmak isterseniz, İslâmî ilimleri medresede okuyan öğrencilere destek veren Huzur Medreseleri'nin sitesine girip oradan destek verebilirsiniz.</p>
+${ACC(['huzurmedreseleri.com'])}
+<p class="note">Rabbim yaptığınız yardımları kabul etsin.</p>`,
 ar:`<p><b>المحراب</b> عمل مجاني لمن يريد قراءة القرآن الكريم مع تفاسيره وإعرابه وبلاغته وقراءاته وتلاوته في مكان واحد. بلا إعلانات وبلا تسجيل.</p>
 <p>اضغط أحد الأزرار تحت الآية فيُفتح نص الكتاب المختار المتعلق بتلك الآية. يجمع تفاسير الرواية والدراية وكتب الإعراب والبلاغة وفروق القراءات العشر، بواجهة عربية وتركية وإنجليزية. كل النصوص مأخوذة كما هي من مصادر منشورة؛ والتفصيل في صفحة <a href="#" id="hSrc">المصادر والموثوقية</a>.</p>
 <h4 style="font-family:var(--disp);font-size:21px;color:var(--accent);margin:18px 0 6px">الدعم</h4>
-<p>هذا العمل لا يجمع تبرعات لنفسه. من أراد الدعم فليجعل صدقته لطلاب العلوم الشرعية في المدارس عبر حساب الجمعية أدناه. تذهب التبرعات إلى الجمعية مباشرة.</p>
-${ACC(['صاحب الحساب','البنك','نسخ','المصدر'])}
-<p class="note">يُستحسن التأكد من بيانات الحساب من موقع الجمعية قبل التحويل. تقبّل الله منكم.</p>`,
+<p>هذا العمل لا يجمع تبرعات لنفسه. من أراد الدعم فليدخل موقع «مدارس حضور» التي تدعم طلاب العلوم الشرعية ويقدّم دعمه من هناك.</p>
+${ACC(['huzurmedreseleri.com'])}
+<p class="note">تقبّل الله منكم.</p>`,
 en:`<p><b>el-Mihrâb</b> is a free work for anyone who wants to read the Qur'an together with its translations, tafsirs, i'rab, balagha, variant readings and recitation in one place. No ads, no sign-up.</p>
 <p>Tap one of the buttons under a verse and the chosen book's text on that verse opens. It brings together transmitted and analytical tafsirs, i'rab and balagha works and the ten readings, with a Turkish, Arabic and English interface. All texts are taken as they are from published sources; see <a href="#" id="hSrc">Sources & reliability</a>.</p>
 <h4 style="font-family:var(--disp);font-size:21px;color:var(--accent);margin:18px 0 6px">Support</h4>
-<p>This work does not collect donations for itself. If you wish to support, you can give to the association account below, for students of the Islamic sciences in madrasas (Turkey). Donations go directly to the association.</p>
-${ACC(['Account holder','Bank','Copy','Source'])}
-<p class="note">Please confirm the account details on the association's own site before sending. May Allah accept your charity.</p>`};
-function about(){openOv('ovH');$('#ovHB').innerHTML=ABOUT_PG[LANG];$('#hSrc').onclick=e=>{e.preventDefault();openOv('ovK')};$('#ibanC').onclick=()=>navigator.clipboard?.writeText(IBAN.replace(/ /g,'')).then(()=>toast('IBAN ✓'),()=>toast(IBAN))}
+<p>This work does not collect donations for itself. If you wish to support, you can visit the site of Huzur Madrasas, which supports students of the Islamic sciences, and give there.</p>
+${ACC(['huzurmedreseleri.com'])}
+<p class="note">May Allah accept your charity.</p>`};
+function about(){openOv('ovH');$('#ovHB').innerHTML=ABOUT_PG[LANG];$('#hSrc').onclick=e=>{e.preventDefault();openOv('ovK')};}
 const INST_PG={
 ar:`<p><b>آيفون / آيباد (Safari):</b><br>١. اضغط على رمز <b>المشاركة</b>.<br>٢. اختر <b>إضافة إلى الشاشة الرئيسية</b>.<br>٣. اضغط <b>إضافة</b>.</p><p><b>أندرويد (Chrome):</b><br>من قائمة <b>⋮</b> اختر <b>تثبيت التطبيق</b> أو <b>إضافة إلى الشاشة الرئيسية</b>.</p>`,
 en:`<p><b>iPhone / iPad (Safari):</b><br>1. Tap the <b>Share</b> icon.<br>2. Choose <b>Add to Home Screen</b>.<br>3. Tap <b>Add</b>.</p><p><b>Android (Chrome):</b><br>Open the <b>⋮</b> menu and choose <b>Install app</b> or <b>Add to Home screen</b>.</p>`};
@@ -852,7 +851,7 @@ function ptCalc(date,lat,lng){
   let r={Imsak:5,Sunrise:6,Dhuhr:12,Asr:13,Maghrib:18,Isha:18};
   for(let k=0;k<2;k++){const f=v=>v/24;r={Imsak:at(18,f(r.Imsak),true),Sunrise:at(0.833,f(r.Sunrise),true),Dhuhr:noon(f(r.Dhuhr)),Asr:asr(f(r.Asr)),Maghrib:at(0.833,f(r.Maghrib),false),Isha:at(17,f(r.Isha),false)}}
   const tz=-date.getTimezoneOffset()/60,adj={Imsak:0,Sunrise:-7,Dhuhr:5,Asr:4,Maghrib:7,Isha:0},o={};
-  for(const k in r){let v=fix(r[k]+tz-lng/15+adj[k]/60,24),hh=Math.floor(v),mm=Math.round((v-hh)*60);if(mm===60){hh++;mm=0}o[k]=String(hh%24).padStart(2,'0')+':'+String(mm).padStart(2,'0')}
+  for(const k in r){if(!isFinite(r[k])){o[k]='--:--';continue}let v=fix(r[k]+tz-lng/15+adj[k]/60,24),hh=Math.floor(v),mm=Math.round((v-hh)*60);if(mm===60){hh++;mm=0}o[k]=String(hh%24).padStart(2,'0')+':'+String(mm).padStart(2,'0')}
   o.Fajr=o.Imsak;return o;
 }
 async function ptData(force){
@@ -1173,7 +1172,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   $('#hRead').onclick=()=>openOkuma();$('#hHifz').onclick=openEzber;$('#hStudy').onclick=()=>{const l=LS.get('beyan2.last',{s:1,a:1});hideScr();if(l.s===st.s&&st.ay.length){const e=$('#a'+l.a);e&&e.scrollIntoView({block:'center'})}else loadSurah(l.s||1,l.a>1?l.a:null)};
   $('#hList').onclick=e=>{e.preventDefault();hideScr();openOv('ovS');surahList('s')};
   $('#hOff').onclick=e=>offDownload(e.target,$('#hOffI'));
-  $$('[data-dil]').forEach(b=>b.onclick=async()=>{const u=b.dataset.dil+'.html';try{const r=await fetch(u,{method:'HEAD'});if(!r.ok)throw 0;location.href=u}catch(e){toast(trS('Bu ders yakında eklenecek'))}});
+  $$('[data-dil]').forEach(b=>b.onclick=()=>{location.href=b.dataset.dil+'.html'});
   $('#okX').onclick=openNamaz;$('#ezX').onclick=openNamaz;
   $('#okP').onclick=()=>{const s=LS.get('mihrab.okS',1);if(s>1)openOkuma(s-1)};$('#okN').onclick=()=>{const s=LS.get('mihrab.okS',1);if(s<114)openOkuma(s+1)};
   $('#ezPl').onclick=()=>{if(ez.on){ezStop();ezShow()}else{ez.on=true;ez.c=0;$('#ezPl').innerHTML=icon('pa',22);ezPlay()}};
