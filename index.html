@@ -535,6 +535,7 @@ const RECITERS=[
    Numaralar Quranpedia kitap numaralarıdır (api.quranpedia.net). 'qc90' = Quran.com Kurtubî. */
 const BK={
  'qc:169':['Ibn Kathir (Abridged)','Ibn Kathir','774'],'qc:168':["Ma'arif al-Qur'an",'Mufti Muhammad Shafi',''],'qc:817':['Tazkirul Quran','Maulana Wahiduddin Khan',''],
+ 'qt:turkish_saadi':['Sa\'dî — Teysîru\'l-Kerîmi\'r-Rahmân (Türkçe tefsir)','Abdurrahman b. Nâsır es-Sa\'dî','1376'],
  2004:['el-Muhtasar fi\'t-Tefsîr — Türkçe tercümesi','Merkezü Tefsîr',''],
  'aq:tr.yazir':['Elmalılı Hamdi Yazır — Hak Dini Kur\'an Dili meali','Elmalılı M. Hamdi Yazır','1361'],
  'qe:turkish_shaban':['Şaban Piriş — Açıklamalı Türkçe Meal','Şaban Piriş',''],
@@ -566,7 +567,7 @@ const BK={
  2013:['es-Sirâc fî Beyâni Garîbi\'l-Kur\'ân','الخضيري',''],341:['İbn Kuteybe — Garîbü\'l-Kur\'ân','ابن قتيبة','276'],348:['Ebû Ubeyde — Mecâzü\'l-Kur\'ân','أبو عبيدة','209'],
  27761:['İbnü\'l-Cevzî — Tezkiretü\'l-Erîb','ابن الجوزي','597'],27784:['İbnü\'l-Hâim — et-Tibyân fî Tefsîri Garîbi\'l-Kur\'ân','ابن الهائم','815'],27764:['Zeyd b. Ali — Garîbü\'l-Kur\'ân','زيد بن علي','120']
 };
-const VERN=LANG==='tr'?[['Türkçe tefsir ve açıklamalı meâller',[2004,'aq:tr.yazir','qe:turkish_rwwad','qe:turkish_shaban','aq:tr.ates']]]:LANG==='en'?[['English tafsirs',['qc:169','qc:168','qc:817']]]:[];
+const VERN=LANG==='tr'?[['Türkçe tefsirler',['qt:turkish_saadi',2004]],['Türkçe açıklamalı meâller',['aq:tr.yazir','qe:turkish_rwwad','qe:turkish_shaban','aq:tr.ates']]]:LANG==='en'?[['English tafsirs',['qc:169','qc:168','qc:817']]]:[];
 const CATS={
  tefsir:{n:'Tefsir',ar:'تفسير',def:LANG==='en'?'qc:169':184,dyn:'tafsir',groups:[
    ...VERN,
@@ -1090,9 +1091,13 @@ async function boxBook(box,n,c){
   sel.onchange=()=>{set.book[c]=sel.value;save();showBook($('.body',box),n,c,sel.value,extra)};
   showBook($('.body',box),n,c,cur,extra);
 }
-const TRK=new Set(['2004','aq:tr.yazir','qe:turkish_rwwad','qe:turkish_shaban','aq:tr.ates']);
+const TRK=new Set(['qt:turkish_saadi','2004','aq:tr.yazir','qe:turkish_rwwad','qe:turkish_shaban','aq:tr.ates']);
 async function fetchBook(s,a,id){
   if(String(id).startsWith('aq:')){const k=id.slice(3);let t=(await offAyah(k,s,a))||'';if(!t)t=(await getJSON(`${AQ}/ayah/${s}:${a}/${k}`))?.data?.text||'';return{text:t,via:'AlQuran.cloud (Tanzil)',lang:'tr',link:`https://quran.com/${s}:${a}`}}
+  if(String(id).startsWith('qt:')){const k=id.slice(3);const j=await getJSON(`https://quranenc.com/api/v1/tafsir/aya/${k}/${s}/${a}`);const R=Array.isArray(j?.result)?j.result:[];
+    const seg=R.filter(x=>x.type==='المقطع').map(x=>String(x.text||'').trim()),tf=R.filter(x=>x.type!=='المقطع').map(x=>String(x.text||'').trim());
+    let t=tf.join('\n\n');if(seg.length)t=seg.join('\n')+'\n\n'+t;const rg=R[0]&&R[0].from_aya!==R[0].to_aya?` (${R[0].from_aya}–${R[0].to_aya}. âyetler birlikte)`:'';
+    return{text:(rg?'§'+'Tefsir'+rg+'\n':'')+t.trim(),via:'QuranEnc.com',lang:'tr',link:`https://quranenc.com/tr/browse/${k}/${s}/${a}`}}
   if(String(id).startsWith('qe:')){const k=id.slice(3);const j=await getJSON(`https://quranenc.com/api/v1/translation/aya/${k}/${s}/${a}`);const r=j?.result||{};
     let t=String(r.translation||'').trim();const fn=String(r.footnotes||'').trim();if(fn)t+='\n§AÇIKLAMALAR\n'+fn;
     return{text:t,via:'QuranEnc.com',lang:'tr',link:`https://quranenc.com/tr/browse/${k}/${s}/${a}`}}
