@@ -90,7 +90,7 @@ ol{padding-left:22px}ol li{margin:6px 0}
 </style><link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#55324a"><style id="mihrabStyle">
 #mihrabHead{background:linear-gradient(135deg,#d8b3c4,#55324a);color:#fff;margin:-22px -16px 16px;padding:calc(18px + env(safe-area-inset-top,0px)) 18px 22px;border-radius:0 0 28px 28px;position:relative}
 #mihrabHead h1{color:#fff!important;margin:6px 0 4px}#mihrabHead p{color:#fff!important;opacity:.92;margin:0}
-#mihrabHead a.mb{color:#fff;text-decoration:none;font:700 14px system-ui,sans-serif}
+#mihrabHead a.mb{display:inline-block;color:#fff;text-decoration:none;font:700 15px system-ui,sans-serif;background:rgba(255,255,255,.22);padding:8px 14px;border-radius:12px}#mihrabBk{position:fixed;left:12px;top:calc(10px + env(safe-area-inset-top,0px));z-index:50;background:rgba(30,40,60,.82);color:#fff;text-decoration:none;font:700 14px system-ui,sans-serif;padding:9px 14px;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.25);opacity:0;pointer-events:none;transition:opacity .2s}#mihrabBk.on{opacity:1;pointer-events:auto}
 #mihrabQ{position:absolute;right:14px;top:calc(14px + env(safe-area-inset-top,0px));width:34px;height:34px;border-radius:50%;border:2px solid #fff;background:rgba(255,255,255,.18);color:#fff;font:700 18px system-ui;display:none;cursor:pointer;padding:0}
 #warnar.mq{display:none!important}#warnar.mq.open{display:block!important;position:fixed;left:12px;right:12px;top:80px;z-index:9999;box-shadow:0 20px 50px -10px rgba(0,0,0,.5);border-radius:14px!important}
 </style></head><body><main>
@@ -1234,7 +1234,7 @@ function lesson(k,ti){
  L.v.forEach(function(v){var q=addP(v[0]+". "+v[2]);G.voc.push(q);h+=row(q,'<b>'+esc(v[0])+'</b>'+tl(v[4])+' — '+esc(v[1])+'<div class="en ex"><b>'+esc(v[2])+'</b></div><div class="trx">'+esc(v[3])+'</div>',"v")});
  h+='</div><h2>'+({a:"Akademik metin · متن",i:"Metin · متن",c:"Seviye metni · متن",d:"Farsça hikâye · داستان"})[k]+'</h2>'+allBtn("story")+'<div class="card">';
  L.p.forEach(function(par,pi){par.forEach(function(s,si){var q=addP(s[0]);G.story.push(q);h+=row(q,'<div class="en">'+esc(s[0])+'</div><div class="tr">'+esc(s[1])+'</div>',(pi>0&&si===0)?"pstart":"")})});
- h+='</div><h2>Türkçesi</h2><details class="trbox" open><summary>Göster / gizle</summary>'+L.p.map(function(par){return '<p>'+esc(par.map(function(s){return s[1]}).join(" "))+'</p>'}).join("")+'</details>';
+ h+='</div>';
  if(L.q)h+='<h2>Anlama soruları</h2><p class="lead">Metne göre doğru mu, yanlış mı?</p>'+tfHTML(L.q);
  h+='<h2>Uzun diyalog: '+esc(L.dt[0])+'</h2><p class="lead">'+esc(L.dt[1])+'</p>'+allBtn("dia")+'<div class="card">';
  var sm=spk(L.d);L.d.forEach(function(r){var q=addP(r[1]);SPK[q]=sm[r[0]];G.dia.push(q);h+=row(q,'<div class="en"><span class="sp">'+esc(r[0])+':</span> '+esc(r[1])+'</div><div class="trx">'+esc(r[2])+'</div>')});
@@ -1405,7 +1405,7 @@ var hb=document.getElementById("hb");function hbSet(){document.body.classList.to
 hb.onclick=function(){st.stl=!st.stl;save();hbSet()};
 render();
 
-</script></body></html>
+</script><a id="mihrabBk" href="./">‹ el-Mihrâb</a><script>(function(){var b=document.getElementById("mihrabBk");function u(){b.classList.toggle("on",scrollY>160)}addEventListener("scroll",u,{passive:true});u()})();</script></body></html>
 <script>(function(){function go(){try{var m=document.querySelector("main")||document.body,h=m.querySelector("h1");if(!h||document.getElementById("mihrabHead"))return;var d=document.createElement("div");d.id="mihrabHead";d.innerHTML='<a class="mb" href="./">‹ el-Mihrâb</a><button id="mihrabQ" aria-label="Ses yardımı">?</button>';var nx=h.nextElementSibling;h.parentNode.insertBefore(d,h);d.appendChild(h);if(nx&&nx.tagName==="P")d.appendChild(nx);
 var w=document.getElementById("warnar"),q=document.getElementById("mihrabQ");if(!w)return;w.innerHTML=w.innerHTML.replace(/En kolay çözüm:[\s\S]*?Ya da /,"").replace(/Claude sesi,[\s\S]*?çalışmaz\)\. /,"");w.classList.add("mq");
 var chk=function(){var s=w.style.display;q.style.display=(s&&s!=="none")?"block":"none"};new MutationObserver(chk).observe(w,{attributes:true,attributeFilter:["style"]});chk();
