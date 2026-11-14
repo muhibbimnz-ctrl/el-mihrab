@@ -228,6 +228,8 @@ a{color:var(--accent)}
 .okm{border:1px solid var(--gold);background:transparent;color:inherit;border-radius:10px;padding:6px 12px;cursor:pointer;font:inherit}.okm.on{background:var(--gold);color:#fff}
 .mus .sbox{border:1.5px solid var(--gold);border-radius:8px;padding:2px 0;margin:.4em 0 .2em}.mus .bsm{font-family:var(--qfont)!important;color:inherit}
 .mus .om{direction:ltr;text-align:left;text-align-last:auto;font-family:system-ui,sans-serif;font-size:15px;line-height:1.55;color:var(--mut,#6d655a);background:var(--hl);border-radius:8px;padding:6px 10px;margin:4px 0 10px}
+.mus.ml{text-align:right;text-align-last:right}.mus .ww{display:inline}.mus .wd{display:inline-flex;flex-direction:column;align-items:center;vertical-align:top;margin:0 .18em .5em;line-height:1.5}
+.mus .wd b{font-weight:400}.mus .wd i{font-style:normal;font-family:system-ui,sans-serif;font-size:12px;line-height:1.25;color:var(--accent);direction:ltr;text-align:center;max-width:9em;margin-top:-.2em}
 .mus .ow{display:flex;flex-wrap:wrap;direction:rtl;gap:6px;background:var(--hl);border-radius:10px;padding:8px;margin:4px 0 12px;text-align:right;text-align-last:auto}
 .mus .ow span{display:flex;flex-direction:column;align-items:center;background:var(--paper);border:1px solid var(--line2);border-radius:8px;padding:4px 8px;min-width:54px}
 .mus .ow b{font-family:var(--qfont),'Amiri Quran',serif;font-weight:400;font-size:.62em;line-height:1.7}.mus .ow i{font-style:normal;font-family:system-ui,sans-serif;font-size:12.5px;line-height:1.3;color:var(--ink2);direction:ltr;text-align:center;max-width:120px}
@@ -424,7 +426,7 @@ a{color:var(--accent)}
 </section>
 
 <section class="scr hide" id="okuma">
-  <div class="rd-h"><button class="ib" id="okX" title="Ana sayfa"></button><b id="okT"></b><span style="flex:1"></span><button class="okm" id="okM">Kelime meali</button></div>
+  <div class="rd-h"><button class="ib" id="okX" title="Ana sayfa"></button><b id="okT"></b><span style="flex:1"></span><select class="okm" id="okM" title="Kelime meali"><option value="">Kelime meali: kapalı</option><option value="tr">Kelime meali: Türkçe</option><option value="en">Word meaning: English</option></select></div>
   <div class="ok-bar"><button class="okb" id="okNx" title="Sonraki sayfa">‹</button><select id="okS"></select><input id="okN2" type="number" min="1" max="604" inputmode="numeric"><button class="okb" id="okPv" title="Önceki sayfa">›</button></div>
   <div class="ok-body"><div class="mus" id="okB" lang="ar"></div><div class="ok-hint">‹ Kaydırarak sayfa çevirin ›</div></div>
 </section>
@@ -646,7 +648,7 @@ const I18N={
  "Günlük":["اليوم","Today"],"Hicrî takvim":["التقويم الهجري","Hijri date"],"Kıble yönü":["اتجاه القبلة","Qibla"],"Kuzeyden saat yönünde":["من الشمال باتجاه عقارب الساعة","Clockwise from north"],"Kıble yönü için yukarıdan \"Konumumu kullan\"ı seçin.":["لاتجاه القبلة اختر «استخدم موقعي» في الأعلى.","For the qibla, choose “Use my location” above."],"Zikirmatik":["المسبحة","Tasbih counter"],"sıfırla":["تصفير","reset"],"hedef":["الهدف","target"],"Günün âyeti":["آية اليوم","Verse of the day"],"İnternetsiz kullanım hazır":["جاهز للاستخدام دون إنترنت","Ready for offline use"],"⬇ İnternetsiz kullanım için indir":["⬇ تنزيل للاستخدام دون إنترنت","⬇ Download for offline use"],
  "Almanca":["الألمانية","German"],"Fransızca":["الفرنسية","French"],"İspanyolca":["الإسبانية","Spanish"],
  "Günün hadisi":["حديث اليوم","Hadith of the day"],"mealen":["بالمعنى","meaning"],"Kaldığınız yer":["موضع التوقف","Where you left off"],"Okumaya devam":["تابع القراءة","Continue reading"],"Mushafta":["في المصحف","In mushaf"],"Kur'an ve meâller cihazınıza kaydedildi":["حُفظ القرآن على جهازك","Qur'an and translations saved to your device"],"güncelle":["تحديث","update"],
- "Sayfa":["صفحة","Page"],"Cüz":["جزء","Juz"],"Meal":["الترجمة","Translation"],"‹ Kaydırarak sayfa çevirin ›":["‹ اسحب لتقليب الصفحة ›","‹ Swipe to turn the page ›"],"Sonraki sayfa":["الصفحة التالية","Next page"],"Önceki sayfa":["الصفحة السابقة","Previous page"], "Mushaf":["المصحف","Mushaf"],"Tefsirli okuma":["القراءة مع التفسير","Reading with tafsir"],"Kelime meali":["معاني الكلمات","Word by word"], "Geniş okuma":["قراءة موسّعة","Wide reading"],"Âyeti göster":["إظهار الآية","Show verse"],
+ "Sayfa":["صفحة","Page"],"Cüz":["جزء","Juz"],"Meal":["الترجمة","Translation"],"‹ Kaydırarak sayfa çevirin ›":["‹ اسحب لتقليب الصفحة ›","‹ Swipe to turn the page ›"],"Sonraki sayfa":["الصفحة التالية","Next page"],"Önceki sayfa":["الصفحة السابقة","Previous page"], "Mushaf":["المصحف","Mushaf"],"Tefsirli okuma":["القراءة مع التفسير","Reading with tafsir"],"Kelime meali":["معاني الكلمات","Word by word"], "Kelime meali: kapalı":["معاني الكلمات: مغلق","Word meaning: off"],"Kelime meali: Türkçe":["معاني الكلمات: التركية","Word meaning: Turkish"], "Geniş okuma":["قراءة موسّعة","Wide reading"],"Âyeti göster":["إظهار الآية","Show verse"],
  "Mushaf yazı tipi yüklenemedi; kolay okunur yazıma geçildi":["تعذّر تحميل خط المصحف؛ تم التحويل إلى الرسم الإملائي","Mushaf font could not load; switched to easy-to-read script"],"Tecvidli metin alınamadı":["تعذّر تحميل نص التجويد","Could not load tajweed text"],
  "Beni hayır dualarınızda unutmayın":["","Do not forget me in your prayers"],
  "English tafsirs":["تفاسير بالإنجليزية","English tafsirs"],"Dil · Language":["اللغة","Language"]
@@ -826,8 +828,9 @@ function fmt(text){
 
 /* ================= SÛRE ================= */
 /* ---- İnternetsiz kullanım: bütün Kur'an + meâller tek seferde cihaza indirilir ---- */
-const LD='data/q/';
-async function locEd(ed,s){const j=await getJSON(`${LD}${ed}/${s}.json`,15000);return {edition:{identifier:ed},ayahs:j.a.map(x=>({numberInSurah:x.n,number:x.g,juz:x.j,page:x.p,sajda:x.sj,text:x.t}))}}
+/* Yük dağıtımı: GitHub adresinde (Play uygulaması) ağır veri Cloudflare'den (sınırsız trafik) gelir; olmazsa kendi sunucusundan. */
+const CF='https://el-mihrab.pages.dev/data/q/',LD=/github\.io$/.test(location.hostname)?CF:'data/q/';
+async function locEd(ed,s){let j;try{j=await getJSON(`${LD}${ed}/${s}.json`,15000)}catch(e){if(LD===CF)j=await getJSON(`data/q/${ed}/${s}.json`,15000);else throw e}return {edition:{identifier:ed},ayahs:j.a.map(x=>({numberInSurah:x.n,number:x.g,juz:x.j,page:x.p,sajda:x.sj,text:x.t}))}}
 async function offSurah(s,eds){const r=await Promise.all(eds.map(ed=>locEd(ed,s).catch(()=>null)));if(!r[0])throw new Error('local');return r.filter(Boolean)}
 async function offAyah(ed,s,a){try{return (await locEd(ed,s)).ayahs[a-1]?.text}catch(e){return null}}
 async function offStatus(){return LS.get('mihrab.offdone',0)?['x','x','x','x']:[]}
@@ -988,15 +991,17 @@ async function openOkuma(s){hideScr();$('#okuma').classList.remove('hide');
 async function okPage(p){p=Math.min(604,Math.max(1,p));okP=p;LS.set('mihrab.okP',p);
   const [s1,a1]=PG[p-1],[s2,a2]=p<604?PG[p]:[115,1];const B=$('#okB');B.innerHTML=loading();
   $('#okN2').value=p;$('#okS').value=s1;$('#okT').textContent=`${trS('Sayfa')} ${p} · ${trS('Cüz')} ${Math.min(30,p<22?1:Math.floor((p-2)/20)+1)}`;
-  const ed=set.script==='simple'||st.fontFail?'quran-simple':'quran-uthmani',ml=set.okMeal;let h='',W={};
-  if(ml){try{const r=await getJSON(`https://api.qurancdn.com/api/qdc/verses/by_page/${p}?words=true&word_translation_language=tr&word_fields=text_uthmani&per_page=60`,12000);r.verses.forEach(v=>W[v.verse_key]=v.words.filter(w=>w.char_type_name==='word'))}catch(e){}}
+  const ed=set.script==='simple'||st.fontFail?'quran-simple':'quran-uthmani',ml=set.okMeal===true?'tr':(set.okMeal||'');let h='',W={};
+  if(ml){try{const r=await getJSON(`https://api.qurancdn.com/api/qdc/verses/by_page/${p}?words=true&word_translation_language=${ml}&word_fields=text_uthmani&per_page=60`,12000);r.verses.forEach(v=>W[v.verse_key]=v.words.filter(w=>w.char_type_name==='word'))}catch(e){}}
   try{for(let s=s1;s<=Math.min(s2,114);s++){
-      const ay=await okSurah(s,ed),me=ml?await okSurah(s,'tr.yazir').catch(()=>[]):[];
+      const ay=await okSurah(s,ed),me=ml?await okSurah(s,ml==='en'?'en.sahih':'tr.yazir').catch(()=>[]):[];
       const from=s===s1?a1:1,to=s===s2?a2-1:ay.length;if(to<from)continue;
       if(from===1){h+=`<div class="sh2 sbox">سُورَةُ ${S_AR[s-1]}</div>`+(s!==1&&s!==9?'<div class="sh2 bsm">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>':'')}
       for(let n=from;n<=to;n++){const a=ay[n-1];
-        h+=`<span class="oa" data-s="${s}" data-n="${n}">${esc(stripBasmala(s,n,a.t))}</span> <span class="num">${toAr(n)}</span> `;
-        if(ml){const w=W[s+':'+n];h+=w&&w.length?`<div class="ow">${w.map(x=>`<span><b>${esc(x.text_uthmani)}</b><i>${esc(x.translation?.text||'')}</i></span>`).join('')}</div>`:(me[n-1]?`<div class="om" dir="ltr"><b>${s}:${n}</b> ${esc(me[n-1].t)}</div>`:'')}}}
+        const w=ml?W[s+':'+n]:null;
+        if(w&&w.length)h+=`<span class="oa ww" data-s="${s}" data-n="${n}">${w.map(x=>`<span class="wd"><b>${esc(x.text_uthmani)}</b><i>${esc(x.translation?.text||'')}</i></span>`).join('')}</span><span class="num">${toAr(n)}</span> `;
+        else{h+=`<span class="oa" data-s="${s}" data-n="${n}">${esc(stripBasmala(s,n,a.t))}</span> <span class="num">${toAr(n)}</span> `;
+          if(ml&&me[n-1])h+=`<div class="om" dir="ltr"><b>${s}:${n}</b> ${esc(me[n-1].t)}</div>`}}}
   }catch(e){B.innerHTML=`<div class="note" style="direction:ltr">${MSG.loadErr[LANG]}<br><br>${MSG.offHint[LANG]}</div>`;return}
   B.classList.toggle('ml',!!ml);B.innerHTML=h+`<div class="pgno">${toAr(p)}</div>`;$('.ok-body').scrollTop=0;
   $$('.oa',B).forEach(x=>x.onclick=()=>{hideScr();loadSurah(+x.dataset.s,+x.dataset.n)})}
@@ -1284,7 +1289,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   $('#hOff').onclick=e=>{e.preventDefault();offDownload(e.target,$('#hOffI'))};
   $$('[data-dil]').forEach(b=>b.onclick=()=>{location.href=b.dataset.dil+'.html'});
   $('#okX').onclick=openNamaz;$('#ezX').onclick=openNamaz;
-  $('#okNx').onclick=()=>okPage(okP+1);$('#okPv').onclick=()=>okPage(okP-1);$('#okS').onchange=()=>okPage(pageOf(+$('#okS').value,1));$('#okN2').onchange=()=>okPage(+$('#okN2').value||1);$('#okM').onclick=()=>{set.okMeal=!set.okMeal;save();$('#okM').classList.toggle('on',set.okMeal);okPage(okP)};$('#okM').classList.toggle('on',!!set.okMeal);
+  $('#okNx').onclick=()=>okPage(okP+1);$('#okPv').onclick=()=>okPage(okP-1);$('#okS').onchange=()=>okPage(pageOf(+$('#okS').value,1));$('#okN2').onchange=()=>okPage(+$('#okN2').value||1);if(set.okMeal===true)set.okMeal='tr';if(set.okMeal&&set.okMealLang!==LANG){set.okMeal=LANG==='en'?'en':'tr';set.okMealLang=LANG;save()}$('#okM').value=set.okMeal||'';$('#okM').classList.toggle('on',!!set.okMeal);$('#okM').onchange=()=>{set.okMeal=$('#okM').value;set.okMealLang=LANG;save();$('#okM').classList.toggle('on',!!set.okMeal);okPage(okP)};
   $('#ezPl').onclick=()=>{if(ez.on){ezStop();ezShow()}else{ez.on=true;ez.c=0;$('#ezPl').innerHTML=icon('pa',22);ezPlay()}};
   $('#ezPv').onclick=()=>{ez.n=Math.max(+$('#ezA').value,ez.n-1);ez.c=0;ez.on?ezPlay():ezShow()};$('#ezNx').onclick=()=>{ez.n=Math.min(+$('#ezB').value,ez.n+1);ez.c=0;ez.on?ezPlay():ezShow()};
   $('#ezS').onchange=()=>{ezStop();$('#ezA').value=1;$('#ezB').value=Math.min(5,S_CNT[+$('#ezS').value-1]);ezLoad()};
