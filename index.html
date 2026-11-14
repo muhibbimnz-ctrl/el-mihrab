@@ -751,6 +751,9 @@ const toAr=n=>String(n).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);
 const normAr=s=>String(s||'').replace(/[ؐ-ًؚ-ٰٟۖ-ۭـ]/g,'').replace(/[ٱأإآ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').trim();
 const DEF={lang:LANG,reader:true,script:'uthmani',translit:false,theme:'parsomen',font:"'Amiri Quran'",qsize:34,msize:17,tsize:21,meals:[LANG==='tr'?'tr.yazir':LANG==='ar'?'ar.muyassar':'en.sahih'],reciter:'afasy',cont:true,book:{},tajweed:false};
 const set=Object.assign({},DEF,LS.get('beyan2.set',{}));set.book=set.book||{};
+/* Meâller arayüz diliyle aynı dilde olsun (Türkçe ile İngilizce karışmasın) */
+if(set.mealsLang!==LANG){const px=LANG==='tr'?'tr.':LANG==='en'?'en.':'ar.';let m=(set.meals||[]).filter(x=>String(x).startsWith(px)&&x!=='tr.transliteration');
+  if(!m.length)m=[LANG==='tr'?'tr.yazir':LANG==='ar'?'ar.muyassar':'en.sahih'];set.meals=m;set.mealsLang=LANG;try{localStorage.setItem('beyan2.set',JSON.stringify(set))}catch(e){}}
 set.meals=(set.meals||[]).filter(m=>MEAL_N[m]);if(!set.meals.length)set.meals=[MEALS[0][0]];
 const save=()=>LS.set('beyan2.set',set);
 const st={s:1,ay:[],open:null,playA:null,playing:false,tok:0};
@@ -996,7 +999,7 @@ async function okPage(p){p=Math.min(604,Math.max(1,p));okP=p;LS.set('mihrab.okP'
   const [s1,a1]=PG[p-1],[s2,a2]=p<604?PG[p]:[115,1];const B=$('#okB');B.innerHTML=loading();
   $('#okN2').value=p;$('#okS').value=s1;$('#okT').textContent=`${trS('Sayfa')} ${p} · ${trS('Cüz')} ${Math.min(30,p<22?1:Math.floor((p-2)/20)+1)}`;
   const ed=set.script==='simple'||st.fontFail?'quran-simple':'quran-uthmani',ml=set.okMeal===true?'tr':(set.okMeal||'');let h='',W={};
-  if(ml){try{const r=await getJSON(`https://api.qurancdn.com/api/qdc/verses/by_page/${p}?words=true&word_translation_language=${ml}&word_fields=text_uthmani&per_page=60`,12000);r.verses.forEach(v=>W[v.verse_key]=v.words.filter(w=>w.char_type_name==='word'))}catch(e){}}
+  if(ml){try{const r=await getJSON(`https://api.qurancdn.com/api/qdc/verses/by_page/${p}?words=true&word_translation_language=${ml}&word_fields=text_uthmani&per_page=60`,12000);r.verses.forEach(v=>W[v.verse_key]=v.words.filter(w=>w.char_type_name==='word').map(w=>(w.translation&&w.translation.language_name!==(ml==='en'?'english':'turkish')?{...w,translation:{text:''}}:w)))}catch(e){}}
   try{for(let s=s1;s<=Math.min(s2,114);s++){
       const ay=await okSurah(s,ed),me=ml?await okSurah(s,ml==='en'?'en.sahih':'tr.yazir').catch(()=>[]):[];
       const from=s===s1?a1:1,to=s===s2?a2-1:ay.length;if(to<from)continue;
@@ -1307,7 +1310,8 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   if(navigator.onLine&&!LS.get('mihrab.offdone',0)&&location.protocol==='https:')setTimeout(()=>{if(navigator.connection&&navigator.connection.saveData)return;offDownload(null,null)},6000);
   if(navigator.storage&&navigator.storage.persist)navigator.storage.persist().catch(()=>{});
   const h=location.hash.match(/^#(\d{1,3})(?:-(\d{1,3}))?$/);
-  if(h)loadSurah(+h[1],+(h[2]||0)||null);else{const l=LS.get('beyan2.last',{s:1,a:1});loadSurah(l.s||1,l.a>1?l.a:null);let sc='home';try{sc=sessionStorage.getItem('mihrab.scr')||'home'}catch(e){}
+  if(h)loadSurah(+h[1],+(h[2]||0)||null);else{const l=LS.get('beyan2.last',{s:1,a:1});let sc='home';try{sc=sessionStorage.getItem('mihrab.scr')||'home'}catch(e){}
+    loadSurah(l.s||1,l.a>1?l.a:null);
     if(sc==='namaz')openNamaz();else if(sc==='okuma')openOkuma();else if(sc==='ezber')openEzber();else if(sc!=='study')showHome()}
 })();
 </script>
