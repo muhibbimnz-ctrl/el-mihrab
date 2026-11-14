@@ -366,9 +366,10 @@ a{color:var(--accent)}
   .sbtn .ar{display:none}
 }
 .bsel optgroup{color:#fff;background:var(--accent);font-weight:800;font-style:normal;letter-spacing:.3px}.bsel option{color:var(--ink);background:var(--paper);font-weight:400;padding:4px 0}
-.mus.qcf{text-align:center;text-align-last:center}.mus .ql{display:flex;direction:rtl;justify-content:space-between;align-items:flex-end;font-size:min(6.1vw,34px);line-height:1.9;white-space:nowrap}
+.mus.qcf{text-align:center;text-align-last:center}.mus.qcf{overflow:hidden}.mus .ql{display:flex;direction:rtl;justify-content:space-between;align-items:flex-end;font-size:1em;line-height:1.9;white-space:nowrap}
 .mus .ql .qw{font-family:inherit;color:var(--ink)}.mus .ql.qm{flex-wrap:wrap;justify-content:flex-start;gap:2px 8px;white-space:normal;font-size:min(5.6vw,30px)}
 .mus .ql.qm .qw{display:inline-flex;flex-direction:column;align-items:center}.mus .ql.qm .qw b{font-weight:400;font-family:inherit}.mus .ql.qm .qw i{font:normal 12.5px/1.25 system-ui,sans-serif;color:var(--accent);direction:ltr;max-width:9em;text-align:center}
+.ar-t.qf{line-height:2.1;word-spacing:0}.ar-t.qf span{display:inline-block}
 </style>
 </head>
 <body>
@@ -883,6 +884,7 @@ function render(){
   const s=st.s;
   $('#main').innerHTML=head(s)+st.ay.map(ayHTML).join('')+`<div class="nav">${s>1?`<button onclick="loadSurah(${s-1})">‹ ${SN()[s-2]}</button>`:''}${s<114?`<button onclick="loadSurah(${s+1})">${SN()[s]} ›</button>`:''}</div>
    <div class="credit"><a href="#" onclick="openOv('ovK');return false">Kaynaklar ve güvenilirlik</a> · <a href="#" onclick="about();return false">Hakkında ve destek</a></div>`;
+  setTimeout(()=>qcfEnhance(st.s),0);
   if(st.playing&&st.playA)markPlay(st.playA);
 }
 async function loadTajweed(s,tok){
@@ -995,6 +997,19 @@ const okC={};async function okSurah(s,ed){const k=s+ed;if(okC[k])return okC[k];l
 function pageOf(s,a){let p=1;for(let i=0;i<604;i++){const q=PG[i];if(q[0]<s||(q[0]===s&&q[1]<=a))p=i+1;else break}return p}
 /* Medine mushafı birebir: Quran.com QCF v2 sayfa yazı tipleri; olmazsa normal metin */
 const qcfOK={};
+function qcfFit(){const B=$('#okB');if(!B||!B.classList.contains('qcf')||B.classList.contains('ml'))return;const L=$$('.ql',B);if(!L.length)return;
+  B.style.fontSize='30px';const av=B.clientWidth-parseFloat(getComputedStyle(B).paddingLeft)-parseFloat(getComputedStyle(B).paddingRight);let mx=0;
+  L.forEach(l=>{l.style.width='max-content';l.style.justifyContent='flex-start';mx=Math.max(mx,l.scrollWidth);l.style.width='';l.style.justifyContent=''});
+  if(mx>0)B.style.fontSize=Math.min(40,30*av/mx*0.985)+'px'}
+addEventListener('resize',()=>{clearTimeout(window._qf);window._qf=setTimeout(qcfFit,150)});
+/* Dirâset ekranı: âyetler Medine mushafı yazısıyla (hareke kayması olmaz); olmazsa normal yazı */
+const QV={};
+async function qcfEnhance(s){if(set.script==='simple'||!navigator.onLine||!st.ay.length||st.ay[0].tj)return;
+  try{if(!QV[s]){const all=[];let pg=1,tot=1;do{const r=await getJSON(`https://api.qurancdn.com/api/qdc/verses/by_chapter/${s}?words=true&word_fields=code_v2,page_number&per_page=50&page=${pg}&mushaf=1`,12000);all.push(...r.verses);tot=r.pagination?.total_pages||1;pg++}while(pg<=tot);QV[s]=all}
+    if(st.s!==s)return;const V=QV[s],pages=[...new Set(V.flatMap(v=>v.words.map(w=>w.page_number)))];const ok={};await Promise.all(pages.map(async p=>ok[p]=await qcfFont(p)));
+    if(st.s!==s)return;for(const v of V){const n=+v.verse_key.split(':')[1],el=$('#a'+n+' .ar-t');if(!el||!v.words.every(w=>w.code_v2&&ok[w.page_number]))continue;
+      el.innerHTML=v.words.map(w=>`<span style="font-family:qcf${w.page_number}">${w.code_v2}</span>`).join(' ');el.classList.add('qf')}}catch(e){}}
+
 async function qcfFont(p){if(qcfOK[p])return true;const urls=[`https://static.qurancdn.com/fonts/quran/hafs/v2/woff2/p${p}.woff2`,`https://verses.quran.foundation/fonts/quran/hafs/v2/woff2/p${p}.woff2`];
   for(const u of urls){try{const f=new FontFace('qcf'+p,`url(${u}) format('woff2')`,{display:'block'});await Promise.race([f.load(),new Promise((_,j)=>setTimeout(()=>j(0),9000))]);document.fonts.add(f);qcfOK[p]=1;return true}catch(e){}}return false}
 async function qcfPage(p,ml){const [r,f]=await Promise.all([getJSON(`https://api.qurancdn.com/api/qdc/verses/by_page/${p}?words=true&word_fields=code_v2,line_number&word_translation_language=${ml||'tr'}&per_page=60&mushaf=1`,12000),qcfFont(p)]);
@@ -1016,7 +1031,7 @@ async function okPage(p){p=Math.min(604,Math.max(1,p));okP=p;LS.set('mihrab.okP'
   $('#okN2').value=p;$('#okS').value=s1;$('#okT').textContent=`${trS('Sayfa')} ${p} · ${trS('Cüz')} ${Math.min(30,p<22?1:Math.floor((p-2)/20)+1)}`;
   const ed=set.script==='simple'||st.fontFail?'quran-simple':'quran-uthmani',ml=set.okMeal===true?'tr':(set.okMeal||'');let h='',W={};
   if(ml){try{const r=await getJSON(`https://api.qurancdn.com/api/qdc/verses/by_page/${p}?words=true&word_translation_language=${ml}&word_fields=text_uthmani&per_page=60`,12000);r.verses.forEach(v=>W[v.verse_key]=v.words.filter(w=>w.char_type_name==='word').map(w=>(w.translation&&w.translation.language_name!==(ml==='en'?'english':'turkish')?{...w,translation:{text:''}}:w)))}catch(e){}}
-  if(navigator.onLine!==false){try{const r=await qcfPage(p,ml);if(r&&okP===p){B.classList.toggle('ml',!!ml);B.classList.add('qcf');B.innerHTML=r+`<div class="pgno">${toAr(p)}</div>`;$('.ok-body').scrollTop=0;return}}catch(e){}}
+  if(navigator.onLine!==false){try{const r=await qcfPage(p,ml);if(r&&okP===p){B.classList.toggle('ml',!!ml);B.classList.add('qcf');B.innerHTML=r+`<div class="pgno">${toAr(p)}</div>`;qcfFit();$('.ok-body').scrollTop=0;return}}catch(e){}}
   B.classList.remove('qcf');
   try{for(let s=s1;s<=Math.min(s2,114);s++){
       const ay=await okSurah(s,ed),me=ml?await okSurah(s,ml==='en'?'en.sahih':'tr.yazir').catch(()=>[]):[];
