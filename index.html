@@ -365,6 +365,7 @@ a{color:var(--accent)}
   .sets{grid-template-columns:1fr}
   .sbtn .ar{display:none}
 }
+.bsel optgroup{color:#fff;background:var(--accent);font-weight:800;font-style:normal;letter-spacing:.3px}.bsel option{color:var(--ink);background:var(--paper);font-weight:400;padding:4px 0}
 </style>
 </head>
 <body>
@@ -1078,8 +1079,8 @@ async function boxBook(box,n,c){
   const all=C.groups.flatMap(g=>g[1]).map(String).concat(extra.map(b=>String(b.id)));
   let cur=String(set.book[c]??C.def);if(!all.includes(cur))cur=String(C.def);
   const opt=(id,label)=>`<option value="${id}" ${String(id)===cur?'selected':''}>${esc(label)}</option>`;
-  box.innerHTML=`<div class="bh"><select class="bsel">${C.groups.map(g=>`<optgroup label="${esc(g[0])}">${g[1].map(id=>opt(id,bkName(id))).join('')}</optgroup>`).join('')}
-     ${extra.length?`<optgroup label="Diğer kitaplar (${extra.length})">${extra.map(b=>opt(b.id,b.name+(b.author?' — '+b.author:'')+(b.year?' (ö. '+b.year+')':''))).join('')}</optgroup>`:''}</select>
+  box.innerHTML=`<div class="bh"><select class="bsel">${C.groups.map(g=>`<optgroup label="${esc('━━  '+trS(g[0]).toLocaleUpperCase(LANG==='tr'?'tr':undefined)+'  ━━')}">${g[1].map(id=>opt(id,bkName(id))).join('')}</optgroup>`).join('')}
+     ${extra.length?`<optgroup label="━━  ${esc(trS('Diğer kitaplar').toLocaleUpperCase(LANG==='tr'?'tr':undefined))} (${extra.length})  ━━">${extra.map(b=>opt(b.id,b.name+(b.author?' — '+b.author:'')+(b.year?' (ö. '+b.year+')':''))).join('')}</optgroup>`:''}</select>
      <button class="pill fm" title="Yazıyı küçült">A−</button><button class="pill fp" title="Yazıyı büyüt">A+</button><button class="pill cp">Kopyala</button><button class="pill cl" title="Kapat">${icon('x',14)}</button></div>
      <div class="body"></div>${footer(n)}`;
   bindFoot(box,c);
