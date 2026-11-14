@@ -856,20 +856,23 @@ function ptCalc(date,lat,lng){
 }
 async function ptData(force){
   const loc=LS.get('mihrab.loc',null);if(!loc)return null;
-  const d=new Date(),y=d.getFullYear(),m=d.getMonth()+1,key=`${loc.k}|${y}-${m}`;
-  let c=LS.get('mihrab.pt',null);
-  if(!c||c.key!==key||force){
-    const u=loc.lat!=null?`https://api.aladhan.com/v1/calendar/${y}/${m}?latitude=${loc.lat}&longitude=${loc.lng}&method=13`:`https://api.aladhan.com/v1/calendarByCity/${y}/${m}?city=${encodeURIComponent(loc.city)}&country=Turkey&method=13`;
-    try{const j=await fetch(u).then(r=>r.json());if(!Array.isArray(j.data))throw 0;c={key,days:j.data.map(x=>x.timings)};LS.set('mihrab.pt',c);const me=j.data[0]?.meta;if(me&&loc.lat==null){loc.lat=+me.latitude;loc.lng=+me.longitude;LS.set('mihrab.loc',loc)}}catch(e){if(loc.lat!=null)return{loc,t:ptCalc(d,loc.lat,loc.lng),calc:true};if(!c)return null}
+  const d=new Date(),ym=(y,m)=>`${loc.k}|${y}-${m}`;
+  const url=(y,m)=>loc.lat!=null?`https://api.aladhan.com/v1/calendar/${y}/${m}?latitude=${loc.lat}&longitude=${loc.lng}&method=13`:`https://api.aladhan.com/v1/calendarByCity/${y}/${m}?city=${encodeURIComponent(loc.city)}&country=Turkey&method=13`;
+  const y=d.getFullYear(),m=d.getMonth()+1,ny=m===12?y+1:y,nm=m===12?1:m+1,key=ym(y,m);
+  let store=LS.get('mihrab.pt2',{});
+  if(!store[key]||force){
+    try{const get=async(Y,M)=>{const j=await fetch(url(Y,M)).then(r=>r.json());if(!Array.isArray(j.data))throw 0;return j.data.map(x=>x.timings)};
+      const cur=await get(y,m);store={[key]:cur};try{store[ym(ny,nm)]=await get(ny,nm)}catch(e){}LS.set('mihrab.pt2',store)}
+    catch(e){if(!store[key]){if(loc.lat!=null)return{loc,t:ptCalc(d,loc.lat,loc.lng),calc:true};return null}}
   }
-  return {loc,t:c.days[d.getDate()-1]};
+  return {loc,t:store[key][d.getDate()-1]};
 }
 let ptTimer;
 async function ptRender(){
   const el=$('#pt');const loc=LS.get('mihrab.loc',null);
   const locForm=`<div class="loc"><button class="pill" id="ptG">📍 ${trS('Konumumu kullan')}</button><span>${trS('veya')}</span><input id="ptC" placeholder="${trS('Şehir (ör. Konya)')}"><button class="pill" id="ptOk">${trS('Tamam')}</button></div>`;
   const bind=()=>{const g=$('#ptG');if(g)g.onclick=()=>{if(!navigator.geolocation){toast(trS('Konum alınamadı'));return}g.textContent='…';navigator.geolocation.getCurrentPosition(p=>{LS.set('mihrab.loc',{k:'g'+p.coords.latitude.toFixed(2)+','+p.coords.longitude.toFixed(2),lat:+p.coords.latitude.toFixed(4),lng:+p.coords.longitude.toFixed(4),name:trS('Konumunuz')});ptRender()},()=>{toast(trS('Konum izni verilmedi; şehir yazın'));ptRender()},{timeout:15000})};
-    const ok=$('#ptOk');if(ok)ok.onclick=()=>{const v=$('#ptC').value.trim();if(!v)return;LS.set('mihrab.loc',{k:'c'+v,city:v,name:v});ptRender()};const ch=$('#ptCh');if(ch)ch.onclick=()=>{LS.set('mihrab.loc',null);LS.set('mihrab.pt',null);ptRender()}};
+    const ok=$('#ptOk');if(ok)ok.onclick=()=>{const v=$('#ptC').value.trim();if(!v)return;LS.set('mihrab.loc',{k:'c'+v,city:v,name:v});ptRender()};const ch=$('#ptCh');if(ch)ch.onclick=()=>{LS.set('mihrab.loc',null);LS.set('mihrab.pt2',{});ptRender()}};
   if(!loc){el.innerHTML=`<div class="note" style="margin-bottom:8px">${trS('Ezan vakitleri için konumunuzu seçin (Diyanet hesabı).')}</div>`+locForm;bind();return}
   el.innerHTML=loading();
   const r=await ptData();
@@ -882,7 +885,7 @@ async function ptRender(){
     el.innerHTML=`<div class="loc">📍 <b>${esc(loc.name||'')}</b><span style="flex:1"></span><a href="#" id="ptCh">${trS('değiştir')}</a></div>
      <div class="nx"><span>${pnm(T[ni][0])} ${trS('vaktine')}</span><b>${Math.floor(left/60)}:${String(left%60).padStart(2,'0')}</b></div>
      <div class="tm">${T.map(([p,v],i)=>`<div class="${i===cur&&!(mins<tm[0])?'on':''}">${pnm(p)}<b>${v}</b></div>`).join('')}</div>`;
-    $('#ptCh').onclick=e=>{e.preventDefault();LS.set('mihrab.loc',null);LS.set('mihrab.pt',null);ptRender()}};
+    $('#ptCh').onclick=e=>{e.preventDefault();LS.set('mihrab.loc',null);LS.set('mihrab.pt2',{});ptRender()}};
   draw();clearInterval(ptTimer);ptTimer=setInterval(()=>{if(!$('#namaz').classList.contains('hide')&&$('#pt .nx'))draw()},30000);
 }
 /* --- Kur'an okuma (mushaf düzeni) --- */
