@@ -162,7 +162,25 @@ a{color:var(--accent)}
 .nm-in{flex:1;overflow-y:auto;padding:14px 14px 24px;max-width:720px;width:100%;margin:0 auto}
 #namaz{top:0;z-index:45}
 .tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
-.tiles.t3w{grid-template-columns:1fr 1fr 1fr;margin-top:8px}
+.tiles.t3w{grid-template-columns:repeat(auto-fill,minmax(100px,1fr));margin-top:8px}
+.gl{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px}
+.gcard{background:var(--paper);border:1px solid var(--line2);border-radius:18px;padding:12px 12px;text-align:center;min-height:118px;display:flex;flex-direction:column;justify-content:center;gap:4px}
+.gk{font-size:12px;letter-spacing:.6px;text-transform:uppercase;color:var(--muted);font-weight:700}
+.gv{font-family:var(--disp);font-size:19px;color:var(--accent);font-weight:700;line-height:1.15}
+.gs{font-size:13px;color:var(--ink2)}
+.gar{font-family:'Amiri',serif;font-size:18px;color:var(--gold)}
+.kib{width:62px;height:62px;margin:2px auto;border-radius:50%;border:2px solid var(--gold);position:relative;background:var(--card)}
+.kib i{position:absolute;left:50%;top:6px;width:4px;height:25px;margin-left:-2px;background:var(--accent);border-radius:2px;transform-origin:50% 25px}
+.kib b{position:absolute;top:-4px;left:50%;transform:translateX(-50%);font-size:10px;color:var(--muted)}
+.gz select{border:1px solid var(--line2);border-radius:8px;background:var(--card);padding:3px 6px;font-size:13px}
+.zb{width:84px;height:84px;margin:4px auto;border-radius:50%;border:0;background:radial-gradient(circle at 35% 30%,#2d8a66,#0b4a37);color:#fff;font-size:26px;font-weight:700;box-shadow:0 8px 18px -10px #0b4a37}
+.zb:active{transform:scale(.95)}
+.gay{grid-column:1/-1;min-height:0;text-align:right}
+.gay .q{font-family:var(--qfont),'Amiri Quran',serif;font-size:22px;line-height:2;direction:rtl}
+.gay .m{font-family:var(--serif);font-size:14px;color:var(--ink2);text-align:left;line-height:1.55}
+.gay .k{font-size:12px;color:var(--gold);font-weight:700;text-align:left}
+.offs{text-align:center;margin:18px 0 6px;font-size:13px}
+.offs a{color:var(--muted)}
 .tile{border:0;border-radius:26px;padding:18px 10px 14px;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-height:132px;box-shadow:0 14px 26px -18px rgba(40,25,5,.9);transition:transform .15s}
 .tile:active{transform:scale(.97)}
 .tile svg{width:52px;height:40px}
@@ -367,7 +385,14 @@ a{color:var(--accent)}
       <button class="tile t4" data-dil="farsca"><span class="big">ف</span><b>Farsça</b></button>
       <button class="tile t5" data-dil="ingilizce"><span class="big">En</span><b>İngilizce</b></button>
     </div>
-    <div class="hcard hsmall" style="margin-top:16px"><b>İnternetsiz kullanım</b><p class="note">Kur'an metnini ve meâlleri bir kez indirin; uygulama internetsiz de açılır. Okuduğunuz tefsirler de cihazda saklanır.</p><button class="pill" id="hOff">İnternetsiz kullanım için indir</button> <span class="note" id="hOffI"></span></div>
+    <div class="dl-h">Günlük</div>
+    <div class="gl">
+      <div class="gcard" id="gHicri"></div>
+      <div class="gcard" id="gKible"></div>
+      <div class="gcard gz" id="gZikir"><div class="gk">Zikirmatik</div><select id="zS"><option>Sübhânallah</option><option>Elhamdülillah</option><option>Allâhu ekber</option><option>Lâ ilâhe illallah</option><option>Estağfirullah</option><option>Salavât</option></select><button id="zB" class="zb">0</button><div class="note"><a href="#" id="zR">sıfırla</a> · hedef <select id="zT"><option>33</option><option>99</option><option>100</option><option>1000</option></select></div></div>
+      <div class="gcard gay" id="gAyet"></div>
+    </div>
+    <div class="offs"><a href="#" id="hOff">⬇ İnternetsiz kullanım için indir</a> <span class="note" id="hOffI"></span></div>
   </div>
 </section>
 
@@ -590,6 +615,7 @@ const I18N={
  "Aralığı baştan tekrarla":["أعد المقطع من البداية","Loop the range"],"Metni gizle (kendini sına)":["إخفاء النص (اختبر نفسك)","Hide text (test yourself)"],"‹ Önceki":["السابق ›","‹ Previous"],"Sonraki ›":["‹ التالي","Next ›"],
  "Namaz ve Kur'an":["الصلاة والقرآن","Prayer & Qur'an"],"Ezan vakitleri · Kur'ân-ı Kerîm · Ezber · Dil dersleri":["المواقيت · المصحف · الحفظ · اللغات","Prayer times · Qur'an · Memorise · Languages"],"Dil dersleri":["دروس اللغات","Language lessons"],"Arapça":["العربية","Arabic"],"Farsça":["الفارسية","Persian"],"İngilizce":["الإنجليزية","English"],"Sûre seç ›":["اختر سورة ‹","Choose surah ›"],"Bu ders yakında eklenecek":["سيُضاف هذا الدرس قريبًا","This lesson will be added soon"],
  "Devam et":["متابعة","Continue"],"Ezan vakitleri · Okuma · Ezber · Dil":["المواقيت · القراءة · الحفظ · اللغات","Prayer times · Reading · Hifz · Languages"],"Tefsir · İ'râb · Belâgat · Kıraat":["التفسير · الإعراب · البلاغة · القراءات","Tafsir · I'rab · Balagha · Qira'at"],"Sûre seç":["اختر سورة","Choose surah"],
+ "Günlük":["اليوم","Today"],"Hicrî takvim":["التقويم الهجري","Hijri date"],"Kıble yönü":["اتجاه القبلة","Qibla"],"Kuzeyden saat yönünde":["من الشمال باتجاه عقارب الساعة","Clockwise from north"],"Kıble yönü için yukarıdan \"Konumumu kullan\"ı seçin.":["لاتجاه القبلة اختر «استخدم موقعي» في الأعلى.","For the qibla, choose “Use my location” above."],"Zikirmatik":["المسبحة","Tasbih counter"],"sıfırla":["تصفير","reset"],"hedef":["الهدف","target"],"Günün âyeti":["آية اليوم","Verse of the day"],"İnternetsiz kullanım hazır":["جاهز للاستخدام دون إنترنت","Ready for offline use"],"⬇ İnternetsiz kullanım için indir":["⬇ تنزيل للاستخدام دون إنترنت","⬇ Download for offline use"],
  "Geniş okuma":["قراءة موسّعة","Wide reading"],"Âyeti göster":["إظهار الآية","Show verse"],
  "Mushaf yazı tipi yüklenemedi; kolay okunur yazıma geçildi":["تعذّر تحميل خط المصحف؛ تم التحويل إلى الرسم الإملائي","Mushaf font could not load; switched to easy-to-read script"],"Tecvidli metin alınamadı":["تعذّر تحميل نص التجويد","Could not load tajweed text"],
  "Beni hayır dualarınızda unutmayın":["","Do not forget me in your prayers"],
@@ -702,7 +728,8 @@ function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');cl
 const memo=new Map();
 function getJSON(u,ms=25000){
   if(memo.has(u))return memo.get(u);
-  const p=(async()=>{const c=new AbortController(),t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(u,{signal:c.signal});if(!r.ok)throw new Error('HTTP '+r.status);return await r.json()}finally{clearTimeout(t)}})();
+  const one=async()=>{const c=new AbortController(),t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(u,{signal:c.signal});if(!r.ok){const e=new Error('HTTP '+r.status);e.status=r.status;throw e}return await r.json()}finally{clearTimeout(t)}};
+  const p=(async()=>{try{return await one()}catch(e){if(e.status===404||!navigator.onLine)throw e;await new Promise(r=>setTimeout(r,1200));return one()}})();
   memo.set(u,p);p.catch(()=>memo.delete(u));return p;
 }
 function stripBasmala(s,a,t){if(a!==1||s===1||s===9)return t;const w=t.split(' ');return w.length>4&&normAr(w.slice(0,4).join(' '))==='بسم الله الرحمن الرحيم'?w.slice(4).join(' '):t}
@@ -780,8 +807,8 @@ async function offDownload(btn,info){
   let done=0,fail=0;
   const worker=async()=>{while(jobs.length){const u=jobs.shift();try{const r=await fetch(u);if(!r.ok)throw 0;const c=await caches.open('mihrab-data-v1');await c.put(new URL(u,location.href).href,r)}catch(e){fail++}done++;if(info&&done%20===0)info.textContent=Math.round(done/(done+jobs.length)*100)+'%'}};
   await Promise.all([1,2,3,4,5,6].map(worker));
-  if(fail>10){if(info)info.textContent='';toast(trS('İndirme tamamlanamadı; internet bağlantınızı kontrol edin'));return}
-  LS.set('mihrab.offdone',1);if(info)info.textContent='✓';toast(trS('İnternetsiz kullanım için indirildi ✓'));if(btn)btn.textContent=trS('İndirildi ✓');
+  if(fail>10){if(info)info.textContent='';if(btn)toast(trS('İndirme tamamlanamadı; internet bağlantınızı kontrol edin'));return}
+  LS.set('mihrab.offdone',1);if(info)info.textContent='✓';if(btn)toast(trS('İnternetsiz kullanım için indirildi ✓'));if(btn)btn.textContent=trS('İndirildi ✓');
 }
 async function loadSurah(s,focus,keep){
   if(!keep)hideScr();
@@ -834,7 +861,27 @@ $('#main').addEventListener('click',e=>{
 /* ================= ANA SAYFA · EZAN · OKUMA · EZBER ================= */
 function hideScr(){['home','namaz','okuma','ezber'].forEach(i=>$('#'+i).classList.add('hide'));ezStop()}
 function showHome(){hideScr();closeBox();$('#home').classList.remove('hide');const l=LS.get('beyan2.last',{s:1,a:1});$('#hStudyT').textContent=`${trS('Devam et')} · ${SN()[(l.s||1)-1]} ${l.s||1}:${l.a||1}`;ptNext()}
-function openNamaz(){hideScr();$('#namaz').classList.remove('hide');ptRender();if(LS.get('mihrab.offdone',0))$('#hOff').textContent=trS('İndirildi ✓')}
+function openNamaz(){hideScr();$('#namaz').classList.remove('hide');ptRender();gunluk();if(LS.get('mihrab.offdone',0))$('#hOff').textContent='✓ '+trS('İnternetsiz kullanım hazır')}
+function gunluk(){
+  try{const f=new Intl.DateTimeFormat((LANG==='ar'?'ar':LANG==='en'?'en':'tr')+'-u-ca-islamic-umalqura',{day:'numeric',month:'long',year:'numeric'});
+    const fa=new Intl.DateTimeFormat('ar-u-ca-islamic-umalqura-nu-arab',{day:'numeric',month:'long',year:'numeric'});
+    $('#gHicri').innerHTML=`<div class="gk">${trS('Hicrî takvim')}</div><div class="gv">${esc(f.format(new Date()).replace(/ AH| BH/,'').replace(/^Hicri\s*/i,'').replace(/^0/,''))}</div><div class="gar">${esc(fa.format(new Date()))}</div><div class="gs">${esc(new Date().toLocaleDateString(LANG==='ar'?'ar':LANG==='en'?'en':'tr',{weekday:'long',day:'numeric',month:'long'}))}</div>`}catch(e){$('#gHicri').classList.add('hide')}
+  const loc=LS.get('mihrab.loc',null);
+  if(loc&&loc.lat!=null){const D=Math.PI/180,la=loc.lat*D,lo=loc.lng*D,kl=21.4225*D,kn=39.8262*D;
+    const q=(Math.atan2(Math.sin(kn-lo),Math.cos(la)*Math.tan(kl)-Math.sin(la)*Math.cos(kn-lo))/D+360)%360;
+    $('#gKible').innerHTML=`<div class="gk">${trS('Kıble yönü')}</div><div class="kib"><b>K</b><i style="transform:rotate(${q}deg)"></i></div><div class="gv">${Math.round(q)}°</div><div class="gs">${trS('Kuzeyden saat yönünde')}</div>`;
+    const k=$('#gKible .kib i');if(window.DeviceOrientationEvent){const on=e=>{const hd=e.webkitCompassHeading??(e.absolute&&e.alpha!=null?360-e.alpha:null);if(hd!=null&&k)k.style.transform=`rotate(${q-hd}deg)`};addEventListener('deviceorientationabsolute',on);addEventListener('deviceorientation',on)}}
+  else $('#gKible').innerHTML=`<div class="gk">${trS('Kıble yönü')}</div><div class="gs">${trS('Kıble yönü için yukarıdan "Konumumu kullan"ı seçin.')}</div>`;
+  const z=LS.get('mihrab.zk',{i:0,c:0,t:33});$('#zS').selectedIndex=z.i;$('#zT').value=String(z.t);$('#zB').textContent=z.c;
+  const sv=()=>LS.set('mihrab.zk',z);
+  $('#zB').onclick=()=>{z.c++;$('#zB').textContent=z.c;if(z.c%z.t===0){try{navigator.vibrate&&navigator.vibrate([60,40,60])}catch(e){}toast(`${z.c} ✓`)}else{try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}}sv()};
+  $('#zR').onclick=e=>{e.preventDefault();z.c=0;$('#zB').textContent=0;sv()};$('#zS').onchange=()=>{z.i=$('#zS').selectedIndex;z.c=0;$('#zB').textContent=0;sv()};$('#zT').onchange=()=>{z.t=+$('#zT').value;sv()};
+  const day=Math.floor(Date.now()/864e5),seq=[[2,255],[2,286],[3,190],[3,26],[13,28],[14,7],[17,23],[17,80],[18,10],[20,114],[21,87],[23,1],[24,35],[25,63],[29,45],[31,17],[33,41],[39,53],[40,60],[49,13],[55,13],[57,4],[59,22],[65,3],[67,1],[94,5],[2,152],[2,186],[3,159],[16,90],[7,56]];
+  const [s,a]=seq[day%seq.length],mid=set.meals[0]||MEALS[0][0];
+  Promise.all([offAyah('quran-uthmani',s,a),offAyah(mid,s,a)]).then(([q,m])=>{if(!q){$('#gAyet').classList.add('hide');return}
+    $('#gAyet').innerHTML=`<div class="gk" style="text-align:left">${trS('Günün âyeti')}</div><div class="q">${esc(q)} <span class="num">${toAr(a)}</span></div><div class="m">${esc(m||'')}</div><div class="k"><a href="#" id="gGo">${SN()[s-1]} ${s}:${a} ›</a></div>`;
+    $('#gGo').onclick=e=>{e.preventDefault();hideScr();loadSurah(s,a)}});
+}
 async function ptNext(){const r=await ptData().catch(()=>null);if(!r)return;const now=new Date(),mins=now.getHours()*60+now.getMinutes();const T=PN.map(p=>[p,String(r.t[p[0]]||'').slice(0,5)]);const tm=T.map(([p,v])=>{const[a,b]=v.split(':').map(Number);return a*60+b});let ni=tm.findIndex(x=>x>mins);if(ni<0)ni=0;let left=(tm[ni]>mins?tm[ni]:tm[ni]+1440)-mins;$('#hNx').textContent=`${pnm(T[ni][0])} ${T[ni][1]} · ${Math.floor(left/60)} sa ${left%60} dk`}
 const PN=[['Fajr','İmsak','الفجر','Fajr'],['Sunrise','Güneş','الشروق','Sunrise'],['Dhuhr','Öğle','الظهر','Dhuhr'],['Asr','İkindi','العصر','Asr'],['Maghrib','Akşam','المغرب','Maghrib'],['Isha','Yatsı','العشاء','Isha']];
 const pnm=p=>LANG==='ar'?p[2]:LANG==='en'?p[3]:p[1];
@@ -1174,7 +1221,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   $('#hNamaz').onclick=openNamaz;$('#nmX').innerHTML=icon('l');$('#nmX').onclick=showHome;
   $('#hRead').onclick=()=>openOkuma();$('#hHifz').onclick=openEzber;$('#hStudy').onclick=()=>{const l=LS.get('beyan2.last',{s:1,a:1});hideScr();if(l.s===st.s&&st.ay.length){const e=$('#a'+l.a);e&&e.scrollIntoView({block:'center'})}else loadSurah(l.s||1,l.a>1?l.a:null)};
   $('#hList').onclick=e=>{e.preventDefault();hideScr();openOv('ovS');surahList('s')};
-  $('#hOff').onclick=e=>offDownload(e.target,$('#hOffI'));
+  $('#hOff').onclick=e=>{e.preventDefault();offDownload(e.target,$('#hOffI'))};
   $$('[data-dil]').forEach(b=>b.onclick=()=>{location.href=b.dataset.dil+'.html'});
   $('#okX').onclick=openNamaz;$('#ezX').onclick=openNamaz;
   $('#okP').onclick=()=>{const s=LS.get('mihrab.okS',1);if(s>1)openOkuma(s-1)};$('#okN').onclick=()=>{const s=LS.get('mihrab.okS',1);if(s<114)openOkuma(s+1)};
@@ -1183,6 +1230,9 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   $('#ezS').onchange=()=>{ezStop();$('#ezA').value=1;$('#ezB').value=Math.min(5,S_CNT[+$('#ezS').value-1]);ezLoad()};
   ['#ezA','#ezB'].forEach(x=>$(x).onchange=()=>{ezStop();ezLoad()});$('#ezR').onchange=()=>ezLoad();
   $('#ezH').onchange=ezShow;$('#ezT').onclick=()=>$('#ezT').classList.toggle('hid');
+  window.addEventListener('error',e=>{try{console.warn(e.message)}catch(x){}});window.addEventListener('unhandledrejection',e=>{e.preventDefault()});
+  if(navigator.onLine&&!LS.get('mihrab.offdone',0)&&location.protocol==='https:')setTimeout(()=>{if(navigator.connection&&navigator.connection.saveData)return;offDownload(null,null)},20000);
+  if(navigator.storage&&navigator.storage.persist)navigator.storage.persist().catch(()=>{});
   const h=location.hash.match(/^#(\d{1,3})(?:-(\d{1,3}))?$/);
   if(h)loadSurah(+h[1],+(h[2]||0)||null);else{const l=LS.get('beyan2.last',{s:1,a:1});loadSurah(l.s||1,l.a>1?l.a:null);showHome()}
 })();
