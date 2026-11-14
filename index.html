@@ -162,7 +162,8 @@ a{color:var(--accent)}
 .nm-in{flex:1;overflow-y:auto;padding:14px 14px 24px;max-width:720px;width:100%;margin:0 auto}
 #namaz{top:0;z-index:45}
 .tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
-.tiles.t3w{grid-template-columns:repeat(auto-fill,minmax(100px,1fr));margin-top:8px}
+.tiles.t3w{grid-template-columns:repeat(3,1fr);margin-top:8px}
+.t6{background:linear-gradient(135deg,#e2c574,#8a6d2c 55%,#3b3b3b)}.t7{background:linear-gradient(135deg,#b9c9ee,#5470b0 55%,#2b3e74)}.t8{background:linear-gradient(135deg,#f0c27a,#c45a3a 55%,#7d2424)}
 .gl{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px}
 .gcard{background:var(--paper);border:1px solid var(--line2);border-radius:18px;padding:12px 12px;text-align:center;min-height:118px;display:flex;flex-direction:column;justify-content:center;gap:4px}
 .gk{font-size:12px;letter-spacing:.6px;text-transform:uppercase;color:var(--muted);font-weight:700}
@@ -384,6 +385,9 @@ a{color:var(--accent)}
       <button class="tile t3" data-dil="arapca"><span class="big">ع</span><b>Arapça</b></button>
       <button class="tile t4" data-dil="farsca"><span class="big">ف</span><b>Farsça</b></button>
       <button class="tile t5" data-dil="ingilizce"><span class="big">En</span><b>İngilizce</b></button>
+      <button class="tile t6" data-dil="almanca"><span class="big">De</span><b>Almanca</b></button>
+      <button class="tile t7" data-dil="fransizca"><span class="big">Fr</span><b>Fransızca</b></button>
+      <button class="tile t8" data-dil="ispanyolca"><span class="big">Es</span><b>İspanyolca</b></button>
     </div>
     <div class="dl-h">Günlük</div>
     <div class="gl">
@@ -616,6 +620,7 @@ const I18N={
  "Namaz ve Kur'an":["الصلاة والقرآن","Prayer & Qur'an"],"Ezan vakitleri · Kur'ân-ı Kerîm · Ezber · Dil dersleri":["المواقيت · المصحف · الحفظ · اللغات","Prayer times · Qur'an · Memorise · Languages"],"Dil dersleri":["دروس اللغات","Language lessons"],"Arapça":["العربية","Arabic"],"Farsça":["الفارسية","Persian"],"İngilizce":["الإنجليزية","English"],"Sûre seç ›":["اختر سورة ‹","Choose surah ›"],"Bu ders yakında eklenecek":["سيُضاف هذا الدرس قريبًا","This lesson will be added soon"],
  "Devam et":["متابعة","Continue"],"Ezan vakitleri · Okuma · Ezber · Dil":["المواقيت · القراءة · الحفظ · اللغات","Prayer times · Reading · Hifz · Languages"],"Tefsir · İ'râb · Belâgat · Kıraat":["التفسير · الإعراب · البلاغة · القراءات","Tafsir · I'rab · Balagha · Qira'at"],"Sûre seç":["اختر سورة","Choose surah"],
  "Günlük":["اليوم","Today"],"Hicrî takvim":["التقويم الهجري","Hijri date"],"Kıble yönü":["اتجاه القبلة","Qibla"],"Kuzeyden saat yönünde":["من الشمال باتجاه عقارب الساعة","Clockwise from north"],"Kıble yönü için yukarıdan \"Konumumu kullan\"ı seçin.":["لاتجاه القبلة اختر «استخدم موقعي» في الأعلى.","For the qibla, choose “Use my location” above."],"Zikirmatik":["المسبحة","Tasbih counter"],"sıfırla":["تصفير","reset"],"hedef":["الهدف","target"],"Günün âyeti":["آية اليوم","Verse of the day"],"İnternetsiz kullanım hazır":["جاهز للاستخدام دون إنترنت","Ready for offline use"],"⬇ İnternetsiz kullanım için indir":["⬇ تنزيل للاستخدام دون إنترنت","⬇ Download for offline use"],
+ "Almanca":["الألمانية","German"],"Fransızca":["الفرنسية","French"],"İspanyolca":["الإسبانية","Spanish"],
  "Geniş okuma":["قراءة موسّعة","Wide reading"],"Âyeti göster":["إظهار الآية","Show verse"],
  "Mushaf yazı tipi yüklenemedi; kolay okunur yazıma geçildi":["تعذّر تحميل خط المصحف؛ تم التحويل إلى الرسم الإملائي","Mushaf font could not load; switched to easy-to-read script"],"Tecvidli metin alınamadı":["تعذّر تحميل نص التجويد","Could not load tajweed text"],
  "Beni hayır dualarınızda unutmayın":["","Do not forget me in your prayers"],
