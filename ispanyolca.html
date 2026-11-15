@@ -54,4 +54,4 @@ function rev(){lead.textContent='';stop();sub('🔁 Kelime Tekrarı');setBack(ho
 var w=pool[Math.floor(Math.random()*pool.length)];M.innerHTML='<p style="text-align:center;color:#7a7266">Kalan: '+pool.length+' / '+A.length+'</p><div class="card"><div class="f">'+esc(w[0])+'</div><div class="b" id="ans">Dokun: anlamını gör</div></div><div class="bar" style="justify-content:center"><button id="sy">▶ Dinle</button></div><div class="nav"><button id="ag">↻ Tekrar</button><button id="kn">✓ Biliyorum</button></div>';
 M.querySelector('.card').onclick=function(){ans.textContent=w[1]};sy.onclick=function(){say(w[0])};say(w[0]);ag.onclick=rev;kn.onclick=function(){st.kn[w[0]]=1;save();rev()}}
 home();
-</script></body></html>
+</script><!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e3f9665447b64c6f8d89efca8e6de38f"}'></script><!-- End Cloudflare Web Analytics --></body></html>
