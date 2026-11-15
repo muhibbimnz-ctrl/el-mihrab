@@ -32,8 +32,10 @@ const BOOKS = [
     tanitim: { muellif: 'İmam Abdülkâhir el-Cürcânî (ö. 471/1078) — “el-Avâmilü’l-mie” (Avâmil-i atîk). Belâgatta “Delâilü’l-i‘câz” ve “Esrârü’l-belâga”nın da müellifidir.', amac: 'Kelimelerin sonunu değiştiren yüz âmili (91 semâî, 7 kıyâsî, 2 ma‘nevî) on üç çeşit hâlinde, her birini örnekle tanıtmak. Nahvin “bunu ne ref‘ etti, ne nasbetti?” sorusuna buradan başlanır.', yontem: 'Her âmili örneğiyle birlikte ezberleyin. Cümleye dokununca Türkçesi açılır. Bâb sonundaki sorularla pekiştirin; i‘râbı Kur’an i‘râbı modülünde ve İ‘râb oyununda uygulayın.' } },
   { id: 'ajurrumiyye', ad: 'Âcurrûmiyye', ar: 'الآجرومية', yol: 'nahiv', sira: 2, durum: 'hazir',
     tanitim: { muellif: 'İbn Âcurrûm es-Sanhâcî (ö. 723/1323), Fas. “Tuhfetü’s-seniyye” bu matnin şerhidir.', amac: 'Nahvin bütün temel bâblarını (i‘râb, alâmetler, merfûlar, mansûblar, mecrûrlar) en kısa yoldan vermek. Asırlardır nahve başlangıç metni olarak ezberlenir.', yontem: 'Her bâbı önce Arapça okuyun, sonra Türkçesine bakın; tanımları ezberleyin. Bâb sonundaki sorularla pekiştirin ve öğrendiğiniz i‘râbı Kur’an modülünde deneyin. Not: Tuhfetü’s-seniyye şerhi (M. Muhyiddîn Abdülhamîd, ö. 1972) telif kapsamında olduğu için uygulamaya matn ve bizim Türkçe açıklamamız konuldu.' } },
-  { id: 'katr', ad: 'Şerhu Katri’n-nedâ', ar: 'شرح قطر الندى', yol: 'nahiv', sira: 3, durum: 'hazir',
-    tanitim: { muellif: 'İbn Hişâm el-Ensârî (ö. 761/1360).', amac: 'Nahvi orta-ileri seviyede, şâhidleriyle birlikte vermek.', yontem: 'Şâhidleri (âyet, hadis, şiir) i‘râb ederek okuyun.' } },
+  { id: 'katr', ad: 'Katru’n-nedâ', ar: 'قطر الندى', yol: 'nahiv', sira: 3, durum: 'hazir',
+    tanitim: { muellif: 'İbn Hişâm el-Ensârî (ö. 761/1360).', amac: 'Nahvin bütün bâblarını kısa ve yoğun bir matnle, şâhidleriyle vermek. Âcurrûmiyye’den sonra okunur.', yontem: 'Matni bâb bâb okuyun; her bâbın Türkçe özeti başta verilmiştir. Ardından aynı bâbı Şerhu Katri’n-nedâ’da müellifin kendi açıklamasıyla okuyun.' } },
+  { id: 'serhkatr', ad: 'Şerhu Katri’n-nedâ', ar: 'شرح قطر الندى', yol: 'nahiv', sira: 4, durum: 'hazir',
+    tanitim: { muellif: 'İbn Hişâm el-Ensârî (ö. 761/1360) — kendi matni Katru’n-nedâ’yı şerh etmiştir.', amac: 'Matnin her cümlesini (ص) açıp şâhidleriyle (âyet, hadis, şiir) şerh etmek (ش); orta-ileri seviyede nahvin temel şerhidir.', yontem: 'Altın çizgili kısımlar matndir, diğerleri şerh. Önce matn cümlesini, sonra müellifin açıklamasını okuyun; her bâbın sonunda Katru’n-nedâ alıştırmalarını çözün.' } },
   { id: 'kuran', ad: 'Kur’an i‘râbı', ar: 'إعراب القرآن', yol: 'kuran', sira: 1, durum: 'hazir',
     tanitim: { muellif: 'Kelime verisi: Quranic Arabic Corpus (Leeds Üniversitesi, corpus.quran.com, GNU GPL). Türkçe medrese terimleri, i‘râb cümleleri, bâb tespiti ve çekim tabloları bu verinin üzerine kural ile üretilir.', amac: 'Kur’ân-ı Kerîm’in her kelimesine dokununca sarf (kök, bâb, sîga) ve nahiv (i‘râb) çözümlemesini görmek; Emsile ve Avâmil’de öğrenileni Kur’an üzerinde uygulamak.', yontem: 'Bir sûre açın, kelimeye dokunun. Üstteki anahtarla Sarf ve Nahiv arasında geçin.' } },
   { id: 'yds', ad: 'YDS Arapça', ar: 'اختبار اللغة', yol: 'yds', sira: 1, durum: 'hazir',
@@ -509,7 +511,7 @@ if(window.Kelime){ Kelime.cfg.jump = (s, a, w) => go(`/kuran/${s}/${a}/${w}`); K
 /* ======================================================================
    KİTAPLAR (Binâ, Maksûd, İzzî, Avâmil, Âcurrûmiyye, Katru'n-nedâ)
    ====================================================================== */
-const KITAPLAR = ['bina', 'maksud', 'izzi', 'avamil', 'ajurrumiyye', 'katr'];
+const KITAPLAR = ['bina', 'maksud', 'izzi', 'avamil', 'ajurrumiyye', 'katr', 'serhkatr'];
 const KC = {}, KP = {};
 const kitapYukle = id => KP[id] || (KP[id] = fetch(`data/kitap/${id}.json`).then(r => r.json()).then(j => (KC[id] = j)).catch(e => { delete KP[id]; throw e }));
 let YDSB = null, MOD = null;
@@ -564,10 +566,10 @@ async function kitapOku(id, bi){
   const sec = (s, i) => `<section class="sec" id="b-${i}"><h3><span class="kt">${esc(s.tr_b || '')}</span><span lang="ar">${esc(s.b || '')}</span></h3>
     ${s.n ? `<div class="dn">${s.n.map(x => `<p>${x}</p>`).join('')}</div>` : ''}
     ${s.ornek && s.ornek.length ? `<table class="orn">${s.ornek.map(o => `<tr><td lang="ar">${esc(o[0])}</td><td>${esc(o[1] || '')}</td></tr>`).join('')}</table>` : ''}
-    ${(s.p || []).map((p, j) => `<div class="mp ${s.tr && s.tr[j] ? 'tk' : ''} ${trA ? 'ac' : ''}"><p class="mt" lang="ar">${esc(p)}</p>${s.tr && s.tr[j] ? `<p class="mtr">${esc(s.tr[j])}</p>` : ''}</div>`).join('')}
+    ${(s.p || []).map((p, j) => `<div class="mp ${s.tr && s.tr[j] ? 'tk' : ''} ${trA ? 'ac' : ''} ${s.pt && s.pt[j] === 'm' ? 'mtn' : ''}"><p class="mt" lang="ar">${esc(p)}</p>${s.tr && s.tr[j] ? `<p class="mtr">${esc(s.tr[j])}</p>` : ''}</div>`).join('')}
     <div class="sf"><button class="btn sm ${ok[id + '#' + i] ? 'on' : ''}" data-ok="${i}">${ok[id + '#' + i] ? '✓ Okundu' : 'Okudum'}</button>${K.sorular && K.sorular.some(q => q.b === i) ? ` <a class="btn sm" href="#" data-bq="${i}">Bu bâbtan sorular</a>` : ''} <a class="lnk" target="_blank" rel="noopener" href="${bugLink(id + ' bâb ' + (i + 1), s.tr_b || s.b)}">Hata bildir</a></div></section>`;
   V.innerHTML = bar(b ? b.ad : K.baslik, '/kitap/' + id) + `<div class="wrap">
-    <div class="kbaslik"><div lang="ar">${esc(K.baslik)}</div><small>${esc(K.tur === 'ders' ? 'Ders notu — kitabın konuları, el-Mihrâb tarafından hazırlandı (matbu metin değildir)' : 'Matn: ' + K.kaynak)}${K.tr_kaynak ? ' · ' + esc(K.tr_kaynak) : ''}</small></div>
+    <div class="kbaslik"><div lang="ar">${esc(K.baslik)}</div><small>${esc(K.tur === 'serh' ? 'Matn ve şerh: ' + K.kaynak + ' · altın çizgili kısımlar matndir' : K.tur === 'ders' ? 'Ders notu — kitabın konuları, el-Mihrâb tarafından hazırlandı (matbu metin değildir)' : 'Matn: ' + K.kaynak)}${K.tr_kaynak ? ' · ' + esc(K.tr_kaynak) : ''}</small></div>
     ${K.tur !== 'ders' ? `<div class="tools"><span class="lnk">Türkçesi için cümleye dokunun</span> <label><input type="checkbox" id="ktr" ${trA ? 'checked' : ''}> Hepsini göster</label></div>` : ''}
     <div class="toc">${K.bolumler.map((s, i) => `<a href="#" data-to="${i}" class="${ok[id + '#' + i] ? 'done' : ''}">${esc(s.tr_b || s.b)}</a>`).join('')}</div>
     ${K.bolumler.map(sec).join('')}
