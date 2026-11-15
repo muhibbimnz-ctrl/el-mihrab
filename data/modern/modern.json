@@ -859,6 +859,870 @@
 "a": "تسبب الشعور بالخمول والعطش في اليوم التالي."
 }
 ]
+},
+{
+"id": "su-kitligi",
+"baslik": "Ortadoğu’da su kıtlığı",
+"ar_baslik": "شح المياه يهدد مستقبل المنطقة",
+"konu": "Çevre",
+"seviye": "B2",
+"ar": [
+"تعد منطقة الشرق الأوسط من أكثر مناطق العالم معاناة من شح المياه، إذ يعيش فيها نحو ستة في المئة من سكان العالم بينما لا تملك سوى واحد في المئة من مواردها المائية العذبة.",
+"ويعزو الخبراء هذه الأزمة إلى عوامل متعددة، أبرزها النمو السكاني السريع وتغير المناخ وارتفاع درجات الحرارة، فضلا عن سوء إدارة الموارد واستنزاف المياه الجوفية في الزراعة.",
+"ولمواجهة هذا التحدي، لجأت دول عدة إلى تحلية مياه البحر وإعادة استخدام مياه الصرف بعد معالجتها، كما بدأت تشجع المزارعين على اعتماد أساليب الري الحديثة كالري بالتنقيط.",
+"ويؤكد المختصون أن الحلول التقنية وحدها لا تكفي، وأن ترشيد الاستهلاك يجب أن يصبح ثقافة عامة تبدأ من البيت والمدرسة."
+],
+"tr": [
+"Ortadoğu, dünyada su kıtlığından en çok etkilenen bölgelerden biridir; dünya nüfusunun yaklaşık yüzde altısı burada yaşarken tatlı su kaynaklarının yalnızca yüzde birine sahiptir.",
+"Uzmanlar bu krizi birçok etkene bağlıyor; en önemlileri hızlı nüfus artışı, iklim değişikliği ve sıcaklıkların yükselmesidir; buna kaynakların kötü yönetimi ve tarımda yeraltı sularının tüketilmesi de eklenir.",
+"Bu zorlukla başa çıkmak için birçok ülke deniz suyunu arıtmaya ve atık suyu arıttıktan sonra yeniden kullanmaya yöneldi; ayrıca çiftçileri damla sulama gibi modern sulama yöntemlerini benimsemeye teşvik etmeye başladı.",
+"Uzmanlar teknik çözümlerin tek başına yeterli olmadığını, tüketimi akılcı hâle getirmenin evde ve okulda başlayan genel bir kültür olması gerektiğini vurguluyor."
+],
+"sozluk": [
+[
+"شح",
+"kıtlık"
+],
+[
+"موارد",
+"kaynaklar"
+],
+[
+"عذب",
+"tatlı (su)"
+],
+[
+"يعزو إلى",
+"…e bağlamak"
+],
+[
+"استنزاف",
+"tüketme, sömürme"
+],
+[
+"المياه الجوفية",
+"yeraltı suları"
+],
+[
+"تحلية",
+"tuzdan arındırma"
+],
+[
+"الصرف",
+"atık su, kanalizasyon"
+],
+[
+"الري بالتنقيط",
+"damla sulama"
+],
+[
+"ترشيد",
+"akılcı kullanım"
+]
+],
+"sorular": [
+{
+"s": "Metne göre Ortadoğu dünya nüfusunun ne kadarını barındırıyor?",
+"k": [
+"Yüzde bir",
+"Yüzde altı",
+"Yüzde on",
+"Yüzde yirmi"
+],
+"d": 1,
+"a": "نحو ستة في المئة"
+},
+{
+"s": "Aşağıdakilerden hangisi krizin sebepleri arasında sayılmamıştır?",
+"k": [
+"Nüfus artışı",
+"İklim değişikliği",
+"Sanayi kirliliği",
+"Kaynakların kötü yönetimi"
+],
+"d": 2,
+"a": ""
+},
+{
+"s": "Uzmanlara göre son paragrafta vurgulanan çözüm nedir?",
+"k": [
+"Daha çok baraj inşa etmek",
+"Tüketimi akılcı kılmayı genel bir kültür hâline getirmek",
+"Tarımı tamamen bırakmak",
+"Su ithal etmek"
+],
+"d": 1,
+"a": "ترشيد الاستهلاك يجب أن يصبح ثقافة عامة"
+}
+]
+},
+{
+"id": "uzaktan-calisma",
+"baslik": "Uzaktan çalışma",
+"ar_baslik": "العمل عن بعد: حرية أم عزلة؟",
+"konu": "Toplum ve iş hayatı",
+"seviye": "B1",
+"ar": [
+"انتشر العمل عن بعد انتشارا واسعا في السنوات الأخيرة، وأصبح كثير من الموظفين يؤدون مهامهم من منازلهم مستعينين بالحاسوب وشبكة الإنترنت.",
+"ويرى أنصار هذا النمط أنه يوفر الوقت والمال اللذين كانا يضيعان في التنقل اليومي، ويمنح الموظف قدرا أكبر من المرونة في تنظيم يومه والتوفيق بين عمله وأسرته.",
+"في المقابل، يشكو بعض العاملين من الشعور بالعزلة وصعوبة الفصل بين أوقات العمل وأوقات الراحة، مما قد يؤدي إلى الإرهاق. كما تخشى بعض الشركات من تراجع روح الفريق.",
+"لذلك تميل مؤسسات كثيرة اليوم إلى نظام هجين يجمع بين الحضور إلى المكتب بضعة أيام في الأسبوع والعمل من المنزل في الأيام الأخرى."
+],
+"tr": [
+"Uzaktan çalışma son yıllarda geniş çapta yaygınlaştı; birçok çalışan görevlerini bilgisayar ve internet yardımıyla evinden yürütür oldu.",
+"Bu modelin taraftarları, günlük ulaşımda harcanan zaman ve paradan tasarruf sağladığını, çalışana gününü düzenlemede ve işiyle ailesini uzlaştırmada daha fazla esneklik verdiğini düşünüyor.",
+"Buna karşılık bazı çalışanlar yalnızlık hissinden ve iş saatleri ile dinlenme saatlerini ayırmanın zorluğundan yakınıyor; bu da tükenmişliğe yol açabiliyor. Bazı şirketler de takım ruhunun zayıflamasından endişe ediyor.",
+"Bu yüzden bugün birçok kurum, haftada birkaç gün ofise gelmeyi diğer günler evden çalışmayla birleştiren karma (hibrit) bir sisteme yöneliyor."
+],
+"sozluk": [
+[
+"عن بعد",
+"uzaktan"
+],
+[
+"مهام",
+"görevler"
+],
+[
+"أنصار",
+"taraftarlar"
+],
+[
+"التنقل",
+"ulaşım, gidip gelme"
+],
+[
+"المرونة",
+"esneklik"
+],
+[
+"التوفيق بين",
+"…i uzlaştırma"
+],
+[
+"يشكو من",
+"…den yakınmak"
+],
+[
+"العزلة",
+"yalnızlık, tecrit"
+],
+[
+"الإرهاق",
+"yorgunluk, tükenme"
+],
+[
+"هجين",
+"karma, hibrit"
+]
+],
+"sorular": [
+{
+"s": "Uzaktan çalışmanın taraftarlarına göre faydası nedir?",
+"k": [
+"Maaşların artması",
+"Ulaşımda harcanan zaman ve paranın kazanılması",
+"Takım ruhunun güçlenmesi",
+"Daha uzun mesai"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Üçüncü paragrafta hangi olumsuzluktan söz edilmemiştir?",
+"k": [
+"Yalnızlık hissi",
+"İş ile dinlenmeyi ayırma güçlüğü",
+"Tükenmişlik",
+"Düşük internet hızı"
+],
+"d": 3,
+"a": ""
+},
+{
+"s": "“هجين” kelimesinin metindeki anlamı nedir?",
+"k": [
+"Geçici",
+"Karma",
+"Zorunlu",
+"Ücretsiz"
+],
+"d": 1,
+"a": ""
+}
+]
+},
+{
+"id": "saglikli-uyku",
+"baslik": "Uykunun önemi",
+"ar_baslik": "النوم الجيد سر الصحة",
+"konu": "Sağlık",
+"seviye": "B1",
+"ar": [
+"يقضي الإنسان نحو ثلث عمره نائما، ومع ذلك يستهين كثير من الناس بأهمية النوم، فيسهرون أمام الشاشات إلى ساعات متأخرة من الليل.",
+"وتشير الدراسات إلى أن البالغ يحتاج إلى ما بين سبع ساعات وتسع ساعات من النوم كل ليلة، وأن قلة النوم تضعف التركيز والذاكرة وتزيد خطر الإصابة بالسمنة وأمراض القلب.",
+"وينصح الأطباء بالحفاظ على موعد ثابت للنوم والاستيقاظ، وتجنب المنبهات كالقهوة في المساء، وإبعاد الهاتف عن السرير، لأن الضوء الأزرق الصادر عن الشاشات يؤخر إفراز هرمون النوم.",
+"فالنوم ليس وقتا ضائعا كما يظن البعض، بل هو عملية حيوية يستعيد فيها الجسم نشاطه ويرتب فيها الدماغ ما تعلمه خلال النهار."
+],
+"tr": [
+"İnsan ömrünün yaklaşık üçte birini uyuyarak geçirir; buna rağmen pek çok kişi uykunun önemini hafife alır ve gecenin geç saatlerine kadar ekranlar başında uyanık kalır.",
+"Araştırmalar, bir yetişkinin her gece yedi ile dokuz saat arasında uykuya ihtiyaç duyduğunu, uykusuzluğun dikkati ve hafızayı zayıflattığını, obezite ve kalp hastalıklarına yakalanma riskini artırdığını gösteriyor.",
+"Doktorlar sabit bir uyuma ve uyanma saati korumayı, akşamları kahve gibi uyarıcılardan kaçınmayı ve telefonu yataktan uzak tutmayı tavsiye ediyor; çünkü ekranlardan yayılan mavi ışık uyku hormonunun salgılanmasını geciktirir.",
+"Uyku bazılarının sandığı gibi boşa giden bir zaman değil; vücudun canlılığını geri kazandığı ve beynin gün boyunca öğrendiklerini düzenlediği hayati bir süreçtir."
+],
+"sozluk": [
+[
+"يستهين بـ",
+"…i hafife almak"
+],
+[
+"يسهر",
+"geç saate kadar uyanık kalmak"
+],
+[
+"التركيز",
+"dikkat, odaklanma"
+],
+[
+"السمنة",
+"obezite"
+],
+[
+"موعد ثابت",
+"sabit vakit"
+],
+[
+"المنبهات",
+"uyarıcılar"
+],
+[
+"إفراز",
+"salgılanma"
+],
+[
+"حيوي",
+"hayati"
+],
+[
+"يستعيد",
+"geri kazanır"
+],
+[
+"الدماغ",
+"beyin"
+]
+],
+"sorular": [
+{
+"s": "Metne göre bir yetişkin kaç saat uyumalıdır?",
+"k": [
+"5–6",
+"7–9",
+"9–11",
+"10–12"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Doktorlar telefonu yataktan uzak tutmayı neden öneriyor?",
+"k": [
+"Radyasyon yaydığı için",
+"Mavi ışık uyku hormonunu geciktirdiği için",
+"Gürültü yaptığı için",
+"Pil tehlikesi olduğu için"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Son paragrafın ana fikri nedir?",
+"k": [
+"Uyku boşa giden zamandır.",
+"Uyku vücut ve beyin için hayati bir süreçtir.",
+"Az uyumak başarı getirir.",
+"Gündüz uykusu daha faydalıdır."
+],
+"d": 1,
+"a": ""
+}
+]
+},
+{
+"id": "ramazan-dayanisma",
+"baslik": "Ramazan ve dayanışma",
+"ar_baslik": "رمضان شهر التكافل",
+"konu": "Din ve toplum",
+"seviye": "A2",
+"ar": [
+"يستقبل المسلمون في أنحاء العالم شهر رمضان بفرح كبير، فهو شهر الصيام والقرآن والصلاة، وفيه تتغير مواعيد الحياة اليومية في كثير من البلدان.",
+"ومن أجمل مظاهر هذا الشهر موائد الإفطار الجماعية التي تقام في المساجد والساحات، حيث يجلس الغني بجانب الفقير والمقيم بجانب المسافر.",
+"كما تنشط الجمعيات الخيرية في توزيع السلال الغذائية على الأسر المحتاجة، ويحرص كثير من الناس على إخراج زكاتهم وصدقاتهم في هذا الشهر طلبا للأجر.",
+"وهكذا يصبح رمضان مدرسة للصبر والتكافل، يتعلم فيها الصائم أن يشعر بجوع غيره وأن يمد يده إليه."
+],
+"tr": [
+"Dünyanın dört bir yanındaki Müslümanlar Ramazan ayını büyük bir sevinçle karşılar; o oruç, Kur’an ve namaz ayıdır ve birçok ülkede günlük hayatın saatleri bu ayda değişir.",
+"Bu ayın en güzel görüntülerinden biri, camilerde ve meydanlarda kurulan toplu iftar sofralarıdır; orada zengin fakirin, yerleşik yolcunun yanında oturur.",
+"Hayır dernekleri de ihtiyaç sahibi ailelere gıda kolisi dağıtmakta hareketlenir; birçok kişi sevap umarak zekât ve sadakalarını bu ayda vermeye özen gösterir.",
+"Böylece Ramazan, oruçlunun başkasının açlığını hissetmeyi ve ona elini uzatmayı öğrendiği bir sabır ve dayanışma okulu olur."
+],
+"sozluk": [
+[
+"يستقبل",
+"karşılar"
+],
+[
+"مواعيد",
+"vakitler"
+],
+[
+"مظاهر",
+"görüntüler"
+],
+[
+"موائد",
+"sofralar"
+],
+[
+"الساحات",
+"meydanlar"
+],
+[
+"الجمعيات الخيرية",
+"hayır dernekleri"
+],
+[
+"السلال الغذائية",
+"gıda kolileri"
+],
+[
+"يحرص على",
+"…e özen göstermek"
+],
+[
+"التكافل",
+"dayanışma"
+],
+[
+"يمد يده",
+"elini uzatır"
+]
+],
+"sorular": [
+{
+"s": "Toplu iftar sofraları nerelerde kurulur?",
+"k": [
+"Okullarda ve hastanelerde",
+"Camilerde ve meydanlarda",
+"Yalnız evlerde",
+"Lokantalarda"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Metne göre hayır dernekleri ne dağıtır?",
+"k": [
+"Kitap",
+"Elbise",
+"Gıda kolisi",
+"Para"
+],
+"d": 2,
+"a": ""
+},
+{
+"s": "Metnin son cümlesinde Ramazan neye benzetiliyor?",
+"k": [
+"Bir okula",
+"Bir bayrama",
+"Bir yolculuğa",
+"Bir pazara"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "enerji-gunes",
+"baslik": "Güneş enerjisi",
+"ar_baslik": "الطاقة الشمسية: ثروة الصحراء",
+"konu": "Ekonomi ve enerji",
+"seviye": "B2",
+"ar": [
+"تتمتع الدول العربية بموقع جغرافي يجعلها من أغنى مناطق العالم بأشعة الشمس، إذ تسطع الشمس في كثير من أراضيها أكثر من ثلاثة آلاف ساعة في السنة.",
+"وقد أدركت حكومات عدة قيمة هذه الثروة، فأنشأت محطات ضخمة للطاقة الشمسية، بعضها يعد من الأكبر في العالم، بهدف تنويع مصادر الطاقة والحد من الاعتماد على النفط.",
+"ويرى الاقتصاديون أن انخفاض تكلفة الألواح الشمسية خلال العقد الأخير جعل هذا المصدر منافسا حقيقيا للوقود التقليدي، بل أرخص منه في بعض الحالات.",
+"غير أن التحدي الأكبر ما زال يتمثل في تخزين الطاقة لاستخدامها ليلا، وهو ما يدفع الباحثين إلى تطوير بطاريات أكثر كفاءة وأقل كلفة."
+],
+"tr": [
+"Arap ülkeleri, kendilerini dünyanın güneş ışığı bakımından en zengin bölgelerinden biri yapan bir coğrafi konuma sahiptir; topraklarının çoğunda güneş yılda üç bin saatten fazla parlar.",
+"Birçok hükümet bu servetin değerini fark etti ve enerji kaynaklarını çeşitlendirmek ve petrole bağımlılığı azaltmak amacıyla, bazıları dünyanın en büyükleri arasında sayılan dev güneş enerjisi santralleri kurdu.",
+"İktisatçılar, son on yılda güneş panellerinin maliyetinin düşmesinin bu kaynağı geleneksel yakıtlara gerçek bir rakip, hatta bazı durumlarda ondan daha ucuz hâle getirdiğini düşünüyor.",
+"Ne var ki en büyük zorluk hâlâ enerjiyi gece kullanmak üzere depolamaktır; bu da araştırmacıları daha verimli ve daha ucuz bataryalar geliştirmeye sevk ediyor."
+],
+"sozluk": [
+[
+"تتمتع بـ",
+"…e sahip olmak"
+],
+[
+"تسطع",
+"parlar"
+],
+[
+"أدرك",
+"fark etti"
+],
+[
+"محطات",
+"santraller"
+],
+[
+"تنويع",
+"çeşitlendirme"
+],
+[
+"الحد من",
+"…i sınırlama, azaltma"
+],
+[
+"الألواح الشمسية",
+"güneş panelleri"
+],
+[
+"الوقود",
+"yakıt"
+],
+[
+"تخزين",
+"depolama"
+],
+[
+"كفاءة",
+"verimlilik"
+]
+],
+"sorular": [
+{
+"s": "Metne göre hükümetler güneş santrallerini neden kurdu?",
+"k": [
+"Su arıtmak için",
+"Enerji kaynaklarını çeşitlendirmek ve petrole bağımlılığı azaltmak için",
+"Turizmi artırmak için",
+"Elektrik ihraç etmek için"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Güneş enerjisini rekabetçi kılan etken nedir?",
+"k": [
+"Devlet yasakları",
+"Panel maliyetlerinin düşmesi",
+"Petrolün tükenmesi",
+"Nüfus artışı"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Metne göre en büyük zorluk nedir?",
+"k": [
+"Panellerin üretimi",
+"Enerjinin gece için depolanması",
+"Çöl fırtınaları",
+"Uzman eksikliği"
+],
+"d": 1,
+"a": ""
+}
+]
+},
+{
+"id": "kitap-okuma",
+"baslik": "Okuma alışkanlığı",
+"ar_baslik": "هل تراجعت القراءة في عصر الشاشات؟",
+"konu": "Kültür",
+"seviye": "B1",
+"ar": [
+"يتساءل كثيرون اليوم: هل ما زال الناس يقرؤون الكتب في عصر الهواتف الذكية ووسائل التواصل الاجتماعي؟",
+"تشير بعض الإحصاءات إلى تراجع قراءة الكتب الورقية، لكن الصورة ليست قاتمة تماما، فقد ازداد الإقبال على الكتب الإلكترونية والكتب المسموعة، خاصة بين الشباب.",
+"وتلعب معارض الكتاب دورا مهما في تشجيع القراءة، إذ تجذب كل عام مئات الآلاف من الزوار، وتنظم فيها ندوات ولقاءات مع الكتاب.",
+"ويرى التربويون أن حب القراءة يغرس في الطفولة، فالطفل الذي يرى والديه يقرآن ويستمع إلى الحكايات قبل النوم يكبر وهو يعد الكتاب صديقا لا واجبا."
+],
+"tr": [
+"Bugün birçok kişi şunu soruyor: Akıllı telefonlar ve sosyal medya çağında insanlar hâlâ kitap okuyor mu?",
+"Bazı istatistikler basılı kitap okumanın azaldığını gösteriyor; ancak tablo tamamen karanlık değil; özellikle gençler arasında e-kitaplara ve sesli kitaplara rağbet arttı.",
+"Kitap fuarları okumayı teşvik etmede önemli bir rol oynar; her yıl yüz binlerce ziyaretçi çeker ve buralarda yazarlarla seminerler ve buluşmalar düzenlenir.",
+"Eğitimciler okuma sevgisinin çocuklukta aşılandığını düşünüyor; anne babasını okurken gören ve uyumadan önce hikâye dinleyen çocuk, kitabı bir görev değil bir dost sayarak büyür."
+],
+"sozluk": [
+[
+"يتساءل",
+"merak edip sorar"
+],
+[
+"تراجع",
+"gerileme"
+],
+[
+"قاتمة",
+"karanlık, kasvetli"
+],
+[
+"الإقبال على",
+"…e rağbet"
+],
+[
+"الكتب المسموعة",
+"sesli kitaplar"
+],
+[
+"معارض الكتاب",
+"kitap fuarları"
+],
+[
+"ندوات",
+"seminerler"
+],
+[
+"يغرس",
+"aşılanır, dikilir"
+],
+[
+"الحكايات",
+"hikâyeler"
+],
+[
+"واجبا",
+"görev, ödev"
+]
+],
+"sorular": [
+{
+"s": "Metne göre gençler arasında ne artmıştır?",
+"k": [
+"Basılı gazete okuma",
+"E-kitap ve sesli kitaba rağbet",
+"Kütüphane üyeliği",
+"Şiir yazma"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Kitap fuarlarında ne düzenlenir?",
+"k": [
+"Spor müsabakaları",
+"Yazarlarla seminer ve buluşmalar",
+"Film gösterimleri",
+"Yemek yarışmaları"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Eğitimcilere göre okuma sevgisi ne zaman kazanılır?",
+"k": [
+"Üniversitede",
+"İş hayatında",
+"Çocuklukta",
+"Emeklilikte"
+],
+"d": 2,
+"a": ""
+}
+]
+},
+{
+"id": "gida-israf",
+"baslik": "Gıda israfı",
+"ar_baslik": "ثلث الطعام في العالم يذهب هدرا",
+"konu": "Toplum ve çevre",
+"seviye": "B2",
+"ar": [
+"تفيد تقارير المنظمات الدولية بأن نحو ثلث الطعام المنتج في العالم يهدر أو يفقد قبل أن يصل إلى المستهلك أو بعده، في حين يعاني مئات الملايين من الجوع.",
+"ويحدث الهدر في مراحل مختلفة: في الحقول بسبب سوء التخزين، وفي الأسواق بسبب معايير الشكل الصارمة، وفي البيوت والمطاعم بسبب الشراء الزائد عن الحاجة.",
+"ولا تقتصر أضرار هذه الظاهرة على الجانب الأخلاقي والاقتصادي، بل تمتد إلى البيئة، إذ تنتج النفايات الغذائية كميات كبيرة من الغازات الضارة.",
+"ومن الحلول المقترحة التخطيط المسبق للمشتريات، والتبرع بالطعام الفائض لبنوك الطعام، وتوعية الناس بأن الحفاظ على النعمة واجب ديني وإنساني."
+],
+"tr": [
+"Uluslararası kuruluşların raporları, dünyada üretilen gıdanın yaklaşık üçte birinin tüketiciye ulaşmadan önce veya sonra israf edildiğini ya da kaybolduğunu bildiriyor; oysa yüz milyonlarca insan açlık çekiyor.",
+"İsraf farklı aşamalarda olur: tarlalarda kötü depolama yüzünden, pazarlarda katı görünüş standartları yüzünden, evlerde ve lokantalarda ise ihtiyaçtan fazla alışveriş yüzünden.",
+"Bu olgunun zararları ahlâkî ve iktisadî yönle sınırlı kalmaz, çevreye de uzanır; çünkü gıda atıkları büyük miktarda zararlı gaz üretir.",
+"Önerilen çözümler arasında alışverişi önceden planlamak, artan yemeği gıda bankalarına bağışlamak ve nimeti korumanın dinî ve insanî bir görev olduğu konusunda insanları bilinçlendirmek vardır."
+],
+"sozluk": [
+[
+"يهدر",
+"israf edilir"
+],
+[
+"المستهلك",
+"tüketici"
+],
+[
+"مراحل",
+"aşamalar"
+],
+[
+"معايير",
+"standartlar"
+],
+[
+"صارمة",
+"katı, sert"
+],
+[
+"لا تقتصر على",
+"…le sınırlı kalmaz"
+],
+[
+"النفايات",
+"atıklar"
+],
+[
+"المسبق",
+"önceden yapılan"
+],
+[
+"التبرع",
+"bağış"
+],
+[
+"توعية",
+"bilinçlendirme"
+]
+],
+"sorular": [
+{
+"s": "Metne göre dünyada üretilen gıdanın ne kadarı israf edilir?",
+"k": [
+"Onda biri",
+"Dörtte biri",
+"Üçte biri",
+"Yarısı"
+],
+"d": 2,
+"a": ""
+},
+{
+"s": "Pazarlardaki israfın sebebi nedir?",
+"k": [
+"Kötü depolama",
+"Katı görünüş standartları",
+"Fazla alışveriş",
+"Yüksek fiyatlar"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Aşağıdakilerden hangisi önerilen çözümlerden değildir?",
+"k": [
+"Alışverişi planlamak",
+"Gıda bankalarına bağış",
+"Tarımı azaltmak",
+"Bilinçlendirme"
+],
+"d": 2,
+"a": ""
+}
+]
+},
+{
+"id": "arapca-dunya",
+"baslik": "Arapça dünyada",
+"ar_baslik": "اللغة العربية في يومها العالمي",
+"konu": "Dil ve kültür",
+"seviye": "B1",
+"ar": [
+"يحتفل العالم في الثامن عشر من ديسمبر من كل عام باليوم العالمي للغة العربية، وهو اليوم الذي اعتمدت فيه العربية لغة رسمية في الأمم المتحدة سنة ألف وتسعمئة وثلاث وسبعين.",
+"ويتحدث العربية اليوم أكثر من أربعمئة مليون إنسان، وهي لغة القرآن الكريم التي يتعلمها ملايين المسلمين من غير العرب لفهم دينهم.",
+"وتتميز العربية بثراء مفرداتها ودقة نظامها الصرفي القائم على الجذور والأوزان، فمن جذر واحد يمكن اشتقاق عشرات الكلمات المترابطة في المعنى.",
+"ويواجه الحرص على العربية اليوم تحديات، منها انتشار العاميات والكلمات الأجنبية، لكن الإقبال المتزايد على تعلمها في العالم يبعث على التفاؤل."
+],
+"tr": [
+"Dünya her yıl 18 Aralık’ta Dünya Arapça Günü’nü kutlar; bu, Arapçanın 1973’te Birleşmiş Milletler’de resmî dil olarak kabul edildiği gündür.",
+"Bugün dört yüz milyondan fazla insan Arapça konuşur; Arapça, Arap olmayan milyonlarca Müslümanın dinini anlamak için öğrendiği Kur’an-ı Kerîm’in dilidir.",
+"Arapça, kelime hazinesinin zenginliği ve kökler ile vezinlere dayanan sarf sisteminin inceliğiyle öne çıkar; tek bir kökten anlamca birbirine bağlı onlarca kelime türetilebilir.",
+"Arapçayı koruma çabası bugün, lehçelerin ve yabancı kelimelerin yaygınlaşması gibi zorluklarla karşı karşıya; ancak dünyada onu öğrenmeye artan rağbet iyimserlik veriyor."
+],
+"sozluk": [
+[
+"يحتفل بـ",
+"…i kutlamak"
+],
+[
+"اعتمدت",
+"kabul edildi"
+],
+[
+"رسمية",
+"resmî"
+],
+[
+"ثراء",
+"zenginlik"
+],
+[
+"مفردات",
+"kelimeler"
+],
+[
+"الجذور",
+"kökler"
+],
+[
+"الأوزان",
+"vezinler, kalıplar"
+],
+[
+"اشتقاق",
+"türetme"
+],
+[
+"العاميات",
+"yerel lehçeler"
+],
+[
+"التفاؤل",
+"iyimserlik"
+]
+],
+"sorular": [
+{
+"s": "Dünya Arapça Günü hangi tarihte kutlanır?",
+"k": [
+"21 Şubat",
+"18 Aralık",
+"1 Ocak",
+"23 Nisan"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Metne göre Arapçayı kaç kişi konuşur?",
+"k": [
+"100 milyon",
+"200 milyon",
+"400 milyondan fazla",
+"1 milyar"
+],
+"d": 2,
+"a": ""
+},
+{
+"s": "Arapçanın sarf sistemi neye dayanır?",
+"k": [
+"Hecelere",
+"Köklere ve vezinlere",
+"Eklere",
+"Vurgulara"
+],
+"d": 1,
+"a": ""
+}
+]
+},
+{
+"id": "deprem-hazirlik",
+"baslik": "Depreme hazırlık",
+"ar_baslik": "الاستعداد للزلازل ينقذ الأرواح",
+"konu": "Afet ve toplum",
+"seviye": "B2",
+"ar": [
+"لا يمكن للعلم حتى اليوم التنبؤ بموعد الزلازل بدقة، ولذلك يركز الخبراء على الاستعداد لها وتقليل آثارها بدلا من محاولة توقعها.",
+"وأهم خطوة في هذا الاستعداد هي تشييد المباني وفق معايير مقاومة الزلازل، ومراقبة تطبيق هذه المعايير بصرامة، لأن أغلب الضحايا يسقطون بسبب انهيار المباني لا بسبب الهزة نفسها.",
+"كما ينبغي لكل أسرة أن تعد حقيبة طوارئ تحتوي على الماء والطعام والأدوية ومصباح يدوي، وأن تتفق على مكان آمن للالتقاء بعد الكارثة.",
+"وتجري المدارس في الدول المعرضة للزلازل تدريبات دورية يتعلم فيها الطلاب كيف يحتمون تحت الطاولات ويبتعدون عن النوافذ، وهي تدريبات أثبتت فعاليتها في إنقاذ الأرواح."
+],
+"tr": [
+"Bilim bugün bile depremlerin vaktini kesin olarak tahmin edemiyor; bu yüzden uzmanlar onları önceden bilmeye çalışmak yerine onlara hazırlanmaya ve etkilerini azaltmaya odaklanıyor.",
+"Bu hazırlığın en önemli adımı binaları depreme dayanıklılık standartlarına göre inşa etmek ve bu standartların uygulanmasını sıkı biçimde denetlemektir; çünkü kurbanların çoğu sarsıntının kendisi yüzünden değil binaların çökmesi yüzünden hayatını kaybeder.",
+"Ayrıca her aile su, yiyecek, ilaç ve el feneri içeren bir acil durum çantası hazırlamalı ve afetten sonra buluşmak için güvenli bir yer üzerinde anlaşmalıdır.",
+"Depreme maruz ülkelerde okullar, öğrencilerin masaların altına nasıl sığınacaklarını ve pencerelerden nasıl uzak duracaklarını öğrendikleri düzenli tatbikatlar yapar; bu tatbikatların hayat kurtarmada etkili olduğu kanıtlanmıştır."
+],
+"sozluk": [
+[
+"التنبؤ بـ",
+"…i önceden bilmek"
+],
+[
+"الاستعداد",
+"hazırlık"
+],
+[
+"تشييد",
+"inşa"
+],
+[
+"مقاومة",
+"dayanıklılık, direnç"
+],
+[
+"انهيار",
+"çökme"
+],
+[
+"الهزة",
+"sarsıntı"
+],
+[
+"حقيبة طوارئ",
+"acil durum çantası"
+],
+[
+"مصباح يدوي",
+"el feneri"
+],
+[
+"المعرضة لـ",
+"…e maruz"
+],
+[
+"يحتمون",
+"sığınırlar"
+]
+],
+"sorular": [
+{
+"s": "Metne göre deprem kurbanlarının çoğu neden hayatını kaybeder?",
+"k": [
+"Sarsıntının kendisinden",
+"Binaların çökmesinden",
+"Tsunamiden",
+"Yangınlardan"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Acil durum çantasında hangisi sayılmamıştır?",
+"k": [
+"Su",
+"İlaç",
+"El feneri",
+"Battaniye"
+],
+"d": 3,
+"a": ""
+},
+{
+"s": "Birinci paragrafa göre uzmanlar neye odaklanıyor?",
+"k": [
+"Depremi tahmin etmeye",
+"Hazırlığa ve etkileri azaltmaya",
+"Fay hatlarını değiştirmeye",
+"Göçe"
+],
+"d": 1,
+"a": ""
+}
+]
 }
 ],
 "kelime": [
