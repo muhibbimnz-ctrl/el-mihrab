@@ -426,7 +426,7 @@ async function show(){
   ov.querySelectorAll('[data-m]').forEach(b => b.setAttribute('aria-selected', b.dataset.m === mode));
   $q('[data-k="prev"]', ov).disabled = w === 0; $q('[data-k="next"]', ov).disabled = w === A.length - 1;
   const ok = O[`${s}:${a}:${w + 1}`];
-  const badge = ok ? `<div class="kok ok">✓ Onaylı${ok.by ? ' · ' + E(ok.by) : ''}</div>` : `<div class="kok">Otomatik çözümleme · <b>taslak</b> (ehil onayı bekliyor)</div>`;
+  const badge = ok ? `<div class="kok ok">✓ Onaylı${ok.by ? ' · ' + E(ok.by) : ''}</div>` : '';
   let h = '';
   if(mode === 'sarf'){
     const r = sarf(S, B);

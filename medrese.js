@@ -35,7 +35,7 @@ const BOOKS = [
   { id: 'katr', ad: 'Şerhu Katri’n-nedâ', ar: 'شرح قطر الندى', yol: 'nahiv', sira: 3, durum: 'hazir',
     tanitim: { muellif: 'İbn Hişâm el-Ensârî (ö. 761/1360).', amac: 'Nahvi orta-ileri seviyede, şâhidleriyle birlikte vermek.', yontem: 'Şâhidleri (âyet, hadis, şiir) i‘râb ederek okuyun.' } },
   { id: 'kuran', ad: 'Kur’an i‘râbı', ar: 'إعراب القرآن', yol: 'kuran', sira: 1, durum: 'hazir',
-    tanitim: { muellif: 'Kelime verisi: Quranic Arabic Corpus (Leeds Üniversitesi, corpus.quran.com, GNU GPL). Türkçe medrese terimleri, i‘râb cümleleri, bâb tespiti ve çekim tabloları bu verinin üzerine kural ile üretilir.', amac: 'Kur’ân-ı Kerîm’in her kelimesine dokununca sarf (kök, bâb, sîga) ve nahiv (i‘râb) çözümlemesini görmek; Emsile ve Avâmil’de öğrenileni Kur’an üzerinde uygulamak.', yontem: 'Bir sûre açın, kelimeye dokunun. Üstteki anahtarla Sarf ve Nahiv arasında geçin. Otomatik çözümlemeler “taslak”tır; ehil onayı alanlar “Onaylı” damgası taşır.' } },
+    tanitim: { muellif: 'Kelime verisi: Quranic Arabic Corpus (Leeds Üniversitesi, corpus.quran.com, GNU GPL). Türkçe medrese terimleri, i‘râb cümleleri, bâb tespiti ve çekim tabloları bu verinin üzerine kural ile üretilir.', amac: 'Kur’ân-ı Kerîm’in her kelimesine dokununca sarf (kök, bâb, sîga) ve nahiv (i‘râb) çözümlemesini görmek; Emsile ve Avâmil’de öğrenileni Kur’an üzerinde uygulamak.', yontem: 'Bir sûre açın, kelimeye dokunun. Üstteki anahtarla Sarf ve Nahiv arasında geçin.' } },
   { id: 'yds', ad: 'YDS Arapça', ar: 'اختبار اللغة', yol: 'yds', sira: 1, durum: 'hazir',
     tanitim: { muellif: '—', amac: 'Kelime, dilbilgisi, cümle tamamlama, çeviri ve paragraf soruları; deneme sınavı.', yontem: 'Günlük kısa setler ve aralıklı tekrar.' } },
   { id: 'modern', ad: 'Modern Arapça', ar: 'العربية المعاصرة', yol: 'modern', sira: 1, durum: 'hazir',
@@ -266,6 +266,8 @@ function route(){
   if(p0 === 'yanlislar') return YUK.then(yanlislar);
   if(p0 === 'rapor') return YUK.then(rapor);
   if(p0 === 'oyun') return babOyunu(p1 === 'hizli');
+  if(p0 === 'yol') return yolSayfa(p1);
+  if(p0 === 'oyunlar') return oyunlar();
   if(p0 === 'oku') return p2 === 'alistirma' ? kitapAlistirma(p1) : kitapOku(p1, p2);
   if(p0 === 'yds') return yds(p1, p2);
   if(p0 === 'modern') return modern(p1, p2);
@@ -278,31 +280,40 @@ function route(){
 
 /* ---- ana ekran ---- */
 function home(){
-  const due = SRS.due().length, wr = SRS.wrong().length, rozet = LS.get('medrese.rozet', {});
-  const kart = b => `<button class="bk ${b.durum}" onclick="go('/kitap/${b.id}')"><span class="bar" lang="ar">${b.ar}</span><b>${b.ad}</b>${b.durum === 'yakinda' ? '<small>yakında</small>' : rozet[b.id] ? '<small class="rz">✓ bitirildi</small>' : '<small class="ok">açık</small>'}</button>`;
+  const due = SRS.due().length, wr = SRS.wrong().length;
   V.innerHTML = bar('Medrese') + `<div class="wrap">
    <div class="hero"><div class="hero-ar" lang="ar">المَدْرَسَة</div><p>Medrese usûlüyle sarf ve nahiv: <b>oku, anla, unutma.</b></p>
-    <div class="hero-b"><a class="btn pri" href="#/tekrar">Bugünün tekrarı <i>${due}</i></a><a class="btn" href="#/yanlislar">Yanlışlarım <i>${wr}</i></a><a class="btn" href="#/rapor">Zayıf konularım</a></div></div>
-   ${['sarf', 'nahiv'].map(y => `<h2>${YOL[y][0]} <span lang="ar">${YOL[y][1]}</span></h2><div class="path">${BOOKS.filter(b => b.yol === y).sort((a, b) => a.sira - b.sira).map(kart).join('<span class="arr">›</span>')}</div>`).join('')}
-   <h2>Kur’an <span lang="ar">القرآن</span></h2>
-   <button class="kuran-tile" onclick="go('/kitap/kuran')"><span lang="ar">إِعْرَابُ الْقُرْآنِ</span><b>Kur’an i‘râbı</b><small>Her kelimeye dokun: sarf ve nahiv çözümlemesi</small></button>
-   <h2>Sınav ve güncel Arapça</h2>
-   <div class="games"><button onclick="go('/yds')" class="g-yds"><b>YDS Arapça</b><span lang="ar">اختبار</span><small>Deneme sınavı · konu konu · kelime</small></button><button onclick="go('/modern')" class="g-mod"><b>Modern Arapça</b><span lang="ar">المعاصرة</span><small>Okuma metinleri · diyalog · haber dili</small></button></div>
-   <h2>Oyunlar ve günlük</h2>
-   <div class="games"><button onclick="go('/gunluk')"><b>Günün sorusu</b><span>☀</span><small>Herkes aynı soruyu çözer</small></button><button onclick="go('/irab')"><b>İ‘râb oyunu</b><span lang="ar">رفع؟ نصب؟</span><small>Kur’an âyetleriyle</small></button><button onclick="go('/oyun')"><b>Bâb bul</b><span lang="ar">نَصَرَ؟ ضَرَبَ؟</span><small>Kur’an fiillerinden</small></button><button onclick="go('/oyun/hizli')"><b>Hızlı tur</b><span>60 saniye</span><small>En iyi: ${LS.get('medrese.babBest', 0)}</small></button></div>
-   <p style="text-align:center"><a class="btn" href="#/harita">Öğrenme haritam ›</a></p>
-   <p class="foot">Bütün içerik <b>taslaktır</b>; ehil onayından geçenler “Onaylı” damgası taşır. Hata görürseniz her ekrandaki <i>Hata bildir</i> bağlantısını kullanın.<br><a href="#" onclick="$('#src').classList.remove('hide');return false">Kaynaklar ve lisans</a></p></div>`;
+    <div class="hero-b"><a class="btn pri" href="#/tekrar">Bugünün tekrarı <i>${due}</i></a><a class="btn" href="#/yanlislar">Yanlışlarım <i>${wr}</i></a><a class="btn" href="#/rapor">Zayıf konularım</a><a class="btn" href="#/harita">Öğrenme haritam</a></div></div>
+   <div class="boxes">
+    <a class="bigbox b-sarf" href="#/yol/sarf"><span lang="ar">الصَّرْف</span><b>Sarf</b><small>Emsile · Binâ · Maksûd · İzzî</small></a>
+    <a class="bigbox b-nahiv" href="#/yol/nahiv"><span lang="ar">النَّحْو</span><b>Nahiv</b><small>Avâmil · Âcurrûmiyye · Katru’n-nedâ</small></a>
+    <a class="bigbox b-kuran" href="#/kitap/kuran"><span lang="ar">إِعْرَابُ الْقُرْآنِ</span><b>Kur’an i‘râbı</b><small>Her kelimeye dokun: sarf ve nahiv</small></a>
+    <a class="bigbox b-yds" href="#/yds"><span lang="ar">اِخْتِبَار</span><b>YDS Arapça</b><small>Deneme · okuma metinleri · kelime</small></a>
+    <a class="bigbox b-mod" href="#/modern"><span lang="ar">المُعَاصِرَة</span><b>Modern Arapça</b><small>Sesli ders programı · diyaloglar</small></a>
+    <a class="bigbox b-oyun" href="#/oyunlar"><span lang="ar">أَلْعَاب</span><b>Oyunlar</b><small>Günün sorusu · İ‘râb · Bâb bul</small></a>
+   </div>
+   <p class="foot">Hata görürseniz her ekrandaki <i>Hata bildir</i> bağlantısını kullanın.<br><a href="#" onclick="$('#src').classList.remove('hide');return false">Kaynaklar ve lisans</a></p></div>`;
 }
-
+function yolSayfa(y){
+  const rozet = LS.get('medrese.rozet', {}), B = BOOKS.filter(b => b.yol === y).sort((a, b) => a.sira - b.sira);
+  V.innerHTML = bar(YOL[y] ? YOL[y][0] : 'Medrese', '/') + `<div class="wrap"><div class="hero"><div class="hero-ar" lang="ar">${YOL[y][1]}</div><p>Kitaplar medresedeki okunuş sırasıyla.</p></div>
+   <div class="ylist">${B.map((b, i) => `<a class="yk" href="#/kitap/${b.id}"><i>${i + 1}</i><span lang="ar">${b.ar}</span><b>${b.ad}</b><small>${rozet[b.id] ? '✦ bitirildi' : b.durum === 'hazir' ? 'açık' : 'yakında'}</small></a>`).join('')}</div></div>`;
+}
+function oyunlar(){
+  V.innerHTML = bar('Oyunlar', '/') + `<div class="wrap"><div class="games">
+   <button onclick="go('/gunluk')"><b>Günün sorusu</b><span>☀</span><small>Herkes aynı soruyu çözer</small></button>
+   <button onclick="go('/irab')"><b>İ‘râb oyunu</b><span lang="ar">رفع؟ نصب؟</span><small>Kur’an âyetleriyle</small></button>
+   <button onclick="go('/oyun')"><b>Bâb bul</b><span lang="ar">نَصَرَ؟ ضَرَبَ؟</span><small>Kur’an fiillerinden</small></button>
+   <button onclick="go('/oyun/hizli')"><b>Hızlı tur</b><span>60 saniye</span><small>En iyi: ${LS.get('medrese.babBest', 0)}</small></button></div></div>`;
+}
 /* ---- kitap tanıtım ekranı ---- */
 function kitap(id){
   const b = BOOKS.find(x => x.id === id); if(!b) return home();
   const T = b.tanitim, hedef = b.durum !== 'hazir' ? null : id === 'emsile' ? '/emsile' : id === 'kuran' ? '/kuran' : id === 'yds' ? '/yds' : id === 'modern' ? '/modern' : '/oku/' + id;
   const seen = LS.get('medrese.tanitim', {});
-  V.innerHTML = bar(b.ad, '/') + `<div class="wrap"><div class="intro"><div class="intro-ar" lang="ar">${b.ar}</div><h1>${b.ad}</h1><div class="yolt">${YOL[b.yol][0]}</div>
+  V.innerHTML = bar(b.ad, ['sarf','nahiv'].includes(b.yol) ? '/yol/' + b.yol : '/') + `<div class="wrap"><div class="intro"><div class="intro-ar" lang="ar">${b.ar}</div><h1>${b.ad}</h1><div class="yolt">${YOL[b.yol][0]}</div>
     <dl><dt>Müellif ve dönem</dt><dd>${T.muellif}</dd><dt>Bu kitaptan maksat</dt><dd>${T.amac}</dd><dt>Nasıl çalışılır</dt><dd>${T.yontem}</dd></dl>
-    ${hedef ? `<a class="btn pri big" href="#${hedef}">${seen[id] ? 'Devam et' : 'Başla'} ›</a>${id === 'emsile' ? ' <a class="btn big" href="#/emsile/alistirma">Alıştırma</a>' : KITAPLAR.includes(id) ? ` <a class="btn big" href="#/oku/${id}/alistirma">Alıştırma</a>` : ''}` : '<p class="soon">Bu kitap hazırlanıyor. Matn, Türkçe açıklama ve alıştırmalar Emsile ile aynı kalıpta eklenecek.</p>'}
-    <p class="taslak">Tanıtım bilgileri taslaktır; ehil onayı bekliyor.</p></div></div>`;
+    ${hedef ? `<a class="btn pri big" href="#${hedef}">${seen[id] ? 'Devam et' : 'Başla'} ›</a>${id === 'emsile' ? ' <a class="btn big" href="#/emsile/alistirma">Alıştırma</a>' : KITAPLAR.includes(id) ? ` <a class="btn big" href="#/oku/${id}/alistirma">Alıştırma</a>` : ''}` : '<p class="soon">Bu kitap hazırlanıyor. Matn, Türkçe açıklama ve alıştırmalar Emsile ile aynı kalıpta eklenecek.</p>'}</div></div>`;
   seen[id] = 1; LS.set('medrese.tanitim', seen);
 }
 
@@ -321,7 +332,7 @@ function emsileOku(){
      ${'speechSynthesis' in window ? '<button class="btn sm" id="sesli">▶ Sesli oku (muhtelife)</button>' : ''}</div>
    <section class="emh"><h2>Emsile-i muhtelife <span lang="ar">الأمثلة المختلفة</span></h2>
     <div class="mtl ${EM.gizle ? 'gz-' + EM.gizle : ''}">${mh.map((x, i) => `<span class="mw" data-mi="${i}"><b lang="ar">${x.f}</b><i>${x.ad}</i></span>`).join('')}</div>
-    <p class="taslak">Kalıplar kökten kural ile üretildi. Sıralama ve masdarlar matbu Emsile nüshasıyla karşılaştırılıp onaylanacak (taslak).</p></section>
+    </section>
    <h2>Emsile-i muttaride <span lang="ar">الأمثلة المطّردة</span></h2>
    <div class="toc">${sec.map(s => `<a href="#" data-to="${s.key}" class="${okundu[root + s.key] ? 'done' : ''}">${s.tr}</a>`).join('')}</div>
    ${sec.map(s => `<section class="sec ${EM.gizle ? 'gz-' + EM.gizle : ''}" id="s-${s.key}"><h3>${s.tr}<span lang="ar">${s.ar}</span></h3>
@@ -360,7 +371,7 @@ function formKart(root, bab, s, r){
    ${r.t ? `<tr><th>Türkçesi</th><td>${esc(r.t)}</td></tr>` : ''}</table>
    ${s.note ? `<p class="knote">${s.note}</p>` : ''}
    <div class="kwf">${kur ? `<button class="pill" onclick="kuranKok('${root}')">Kur’an’da bu kök (${kur} yer) ›</button>` : ''}<a class="pill" target="_blank" rel="noopener" href="${bugLink('emsile ' + root + ' ' + s.key + ' ' + (r.si || r.lbl), r.f)}">Hata bildir</a></div>
-   <div class="kok">Kural ile üretildi · <b>taslak</b></div></div>`);
+   </div>`);
 }
 function sheet(html){
   let o = $('#sh'); if(!o){ o = document.createElement('div'); o.id = 'sh'; o.className = 'kwov'; o.innerHTML = '<div class="kws"><div class="kwh"><span class="kwref"></span><button class="kwx kwc" aria-label="Kapat">✕</button></div><div class="shb"></div></div>'; document.body.appendChild(o);
@@ -482,7 +493,7 @@ async function kuranSure(s, focus, w){
    <div class="qsh"><div lang="ar">سُورَةُ ${S_AR[s - 1]}</div>${s !== 1 && s !== 9 ? '<div class="qb" lang="ar">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>' : ''}</div>
    ${d.a.map(a => `<div class="ay" id="a${a.n}" data-a="${a.n}"><div class="ar-t" lang="ar">${Kelime.wrap(strip(a.n, a.t))} <span class="num">${toAr(a.n)}</span></div></div>`).join('')}
    <div class="qnav">${s > 1 ? `<a class="btn" href="#/kuran/${s - 1}">‹ ${S_TR[s - 2]}</a>` : '<span></span>'}${s < 114 ? `<a class="btn" href="#/kuran/${s + 1}">${S_TR[s]} ›</a>` : ''}</div>
-   <p class="taslak">Çözümlemeler otomatik ve taslaktır. Veri: Quranic Arabic Corpus (GNU GPL).</p></div>`;
+   <p class="taslak">Veri: Quranic Arabic Corpus (GNU GPL).</p></div>`;
   const setM = () => $$('.qmode [data-m]').forEach(b => b.setAttribute('aria-pressed', b.dataset.m === mode()));
   setM(); $$('.qmode [data-m]').forEach(b => b.onclick = () => { LS.set('mihrab.kwMode', b.dataset.m); setM() });
   if(focus){ const e = $('#a' + focus); if(e) e.scrollIntoView({ block: 'center' }) }
@@ -549,19 +560,20 @@ async function kitapOku(id, bi){
   const b = BOOKS.find(x => x.id === id);
   V.innerHTML = bar(b ? b.ad : 'Kitap', '/kitap/' + id) + '<div class="wrap"><p class="lead">Yükleniyor…</p></div>';
   let K; try{ K = await kitapYukle(id) }catch(e){ V.querySelector('.lead').textContent = 'Kitap yüklenemedi; internet bağlantınızı kontrol edin.'; return }
-  const ok = LS.get('medrese.okundu', {}), trA = LS.get('medrese.ktr', true);
+  const ok = LS.get('medrese.okundu', {}), trA = LS.get('medrese.ktr', false);
   const sec = (s, i) => `<section class="sec" id="b-${i}"><h3><span class="kt">${esc(s.tr_b || '')}</span><span lang="ar">${esc(s.b || '')}</span></h3>
     ${s.n ? `<div class="dn">${s.n.map(x => `<p>${x}</p>`).join('')}</div>` : ''}
     ${s.ornek && s.ornek.length ? `<table class="orn">${s.ornek.map(o => `<tr><td lang="ar">${esc(o[0])}</td><td>${esc(o[1] || '')}</td></tr>`).join('')}</table>` : ''}
-    ${(s.p || []).map((p, j) => `<div class="mp"><p class="mt" lang="ar">${esc(p)}</p>${trA && s.tr && s.tr[j] ? `<p class="mtr">${esc(s.tr[j])}</p>` : ''}</div>`).join('')}
+    ${(s.p || []).map((p, j) => `<div class="mp ${s.tr && s.tr[j] ? 'tk' : ''} ${trA ? 'ac' : ''}"><p class="mt" lang="ar">${esc(p)}</p>${s.tr && s.tr[j] ? `<p class="mtr">${esc(s.tr[j])}</p>` : ''}</div>`).join('')}
     <div class="sf"><button class="btn sm ${ok[id + '#' + i] ? 'on' : ''}" data-ok="${i}">${ok[id + '#' + i] ? '✓ Okundu' : 'Okudum'}</button>${K.sorular && K.sorular.some(q => q.b === i) ? ` <a class="btn sm" href="#" data-bq="${i}">Bu bâbtan sorular</a>` : ''} <a class="lnk" target="_blank" rel="noopener" href="${bugLink(id + ' bâb ' + (i + 1), s.tr_b || s.b)}">Hata bildir</a></div></section>`;
   V.innerHTML = bar(b ? b.ad : K.baslik, '/kitap/' + id) + `<div class="wrap">
     <div class="kbaslik"><div lang="ar">${esc(K.baslik)}</div><small>${esc(K.tur === 'ders' ? 'Ders notu — kitabın konuları, el-Mihrâb tarafından hazırlandı (matbu metin değildir)' : 'Matn: ' + K.kaynak)}${K.tr_kaynak ? ' · ' + esc(K.tr_kaynak) : ''}</small></div>
-    ${K.tur !== 'ders' ? `<div class="tools"><label><input type="checkbox" id="ktr" ${trA ? 'checked' : ''}> Türkçesi (satır altı)</label></div>` : ''}
+    ${K.tur !== 'ders' ? `<div class="tools"><span class="lnk">Türkçesi için cümleye dokunun</span> <label><input type="checkbox" id="ktr" ${trA ? 'checked' : ''}> Hepsini göster</label></div>` : ''}
     <div class="toc">${K.bolumler.map((s, i) => `<a href="#" data-to="${i}" class="${ok[id + '#' + i] ? 'done' : ''}">${esc(s.tr_b || s.b)}</a>`).join('')}</div>
     ${K.bolumler.map(sec).join('')}
     <div class="end">${K.sorular ? `<a class="btn pri big" href="#/oku/${id}/alistirma">Bu kitaptan alıştırma (${K.sorular.length} soru) ›</a>` : ''}</div>
-    <p class="taslak">${K.tur === 'ders' ? 'Ders notu taslaktır; ehil onayı bekliyor. Kitabın matbu metni elinize geçerse gönderin, matn olarak eklensin.' : 'Türkçe tercüme taslaktır; ehil onayı bekliyor.'}</p></div>`;
+    </div>`;
+  $$('.mp.tk').forEach(m => m.onclick = () => m.classList.toggle('ac'));
   const kt = $('#ktr'); if(kt) kt.onchange = e => { LS.set('medrese.ktr', e.target.checked); kitapOku(id) };
   $$('[data-to]').forEach(a => a.onclick = e => { e.preventDefault(); $('#b-' + a.dataset.to).scrollIntoView({ behavior: 'smooth' }) });
   $$('[data-ok]').forEach(x => x.onclick = () => { const o = LS.get('medrese.okundu', {}), k = id + '#' + x.dataset.ok; if(o[k]) delete o[k]; else o[k] = 1; LS.set('medrese.okundu', o); x.classList.toggle('on'); x.textContent = o[k] ? '✓ Okundu' : 'Okudum'; kitapRozet(id) });
@@ -592,14 +604,20 @@ async function yds(p1, p2){
   if(p1 === 'deneme') return ydsDeneme();
   if(p1 === 'kelime') return kartlar((YDSB.kelime || []), 'YDS kelime kartları', '/yds');
   if(p1 === 'rehber') return ydsRehber();
+  if(p1 === 'metin'){ await modYukle(); return modMetin(p2, '/yds') }
+  if(p1 === 'tema'){ await modYukle(); const tm = MOD.kelime[+p2]; return kartlar(tm.liste, tm.tema, '/yds') }
+  if(p1 === 'haber'){ await modYukle(); return modHaber('/yds') }
+  await modYukle().catch(() => null);
   const acc = t => { const ks = Q.filter(q => q.tip === t).map(q => 'yds|' + q.id).filter(k => S[k]); const o = ks.reduce((n, k) => n + S[k].ok, 0), b = ks.reduce((n, k) => n + S[k].bad, 0); return o + b ? `%${Math.round(o / (o + b) * 100)} doğru` : 'başlanmadı' };
   const son = LS.get('medrese.ydsSon', null);
   V.innerHTML = bar('YDS Arapça', '/') + `<div class="wrap">
    <div class="ydsh"><div class="hero-ar" lang="ar">اِخْتِبَارُ اللُّغَةِ</div><p><b>80 soru · 180 dakika · 5 seçenek</b> · Yanlış doğruyu götürmez · Her doğru 1,25 puan</p>
     <div class="hero-b"><a class="btn pri" href="#/yds/deneme">Deneme sınavı (${Q.length} soru)</a><a class="btn" href="#/yds/kelime">Kelime kartları (${(YDSB.kelime || []).length})</a><a class="btn" href="#/yds/rehber">Sınav rehberi</a></div>
     ${son ? `<p class="lead">Son deneme: <b>${son.puan}</b> puan (${son.dogru}/${son.toplam}) · ${new Date(son.t).toLocaleDateString('tr-TR')}</p>` : ''}</div>
+   ${MOD ? `<h2>Okuma metinleri</h2><div class="mlist">${MOD.metinler.map(m => `<a href="#/yds/metin/${m.id}" class="${LS.get('medrese.modOk', {})[m.id] ? 'done' : ''}"><span class="sv">${esc(m.seviye)}</span><b lang="ar">${esc(m.ar_baslik)}</b><span>${esc(m.baslik)}</span><small>${esc(m.konu)} · ${m.ar.join(' ').split(/\s+/).length} kelime</small></a>`).join('')}</div>
+   <h2>Kelime temaları</h2><div class="tiplist">${MOD.kelime.map((k, i) => `<a href="#/yds/tema/${i}"><b>${esc(k.tema)}</b><small lang="ar">${esc(k.liste.slice(0, 3).map(x => x[0]).join('، '))} … (${k.liste.length})</small></a>`).join('')}<a href="#/yds/kelime"><b>YDS sık kelimeleri</b><small>${(YDSB.kelime || []).length} kelime</small></a><a href="#/yds/haber"><b>Haber Arapçası kalıpları</b><small>el-Cezîre okuma rehberi</small></a></div>` : ''}
    <h2>Konu konu çalış</h2><div class="tiplist">${Object.keys(YDS_TIP).map(t => { const n = Q.filter(q => q.tip === t).length; return n ? `<a href="#/yds/tip/${t}"><b>${YDS_TIP[t][0]}</b><small>${n} soru · ${acc(t)}</small></a>` : '' }).join('')}</div>
-   <p class="taslak">Sorular ÖSYM YDS Arapça sınavının yapısına göre bu uygulama için özgün olarak hazırlanmıştır (taslak). Gerçek çıkmış sorular için ÖSYM’nin yayımladığı kitapçıklara bakınız.</p></div>`;
+   <p class="taslak">Sorular ÖSYM YDS Arapça sınavının yapısına göre hazırlanmıştır. Gerçek çıkmış sorular için ÖSYM’nin yayımladığı kitapçıklara bakınız.</p></div>`;
 }
 function ydsRehber(){
   V.innerHTML = bar('YDS rehberi', '/yds') + `<div class="wrap"><div class="rehber">
@@ -673,26 +691,28 @@ async function modern(p1, p2){
   if(p1 === 'kelime'){ const t = MOD.kelime[+p2]; return kartlar(t.liste, t.tema, '/modern') }
   if(p1 === 'diyalog') return modDiyalog(+p2);
   if(p1 === 'haber') return modHaber();
-  const okundu = LS.get('medrese.modOk', {});
+  if(p1 === 'ders') return modDers();
   V.innerHTML = bar('Modern Arapça', '/') + `<div class="wrap">
-   <div class="hero"><div class="hero-ar" lang="ar">العَرَبِيَّةُ المُعَاصِرَةُ</div><p>Haber dili, günlük hayat, akademik metin. Her metinde sözlük, Türkçesi ve sorular.</p>
-    <div class="hero-b"><a class="btn pri" href="#/modern/haber">Haber Arapçası rehberi</a></div></div>
-   <h2>Okuma metinleri</h2><div class="mlist">${MOD.metinler.map(m => `<a href="#/modern/metin/${m.id}" class="${okundu[m.id] ? 'done' : ''}"><span class="sv">${esc(m.seviye)}</span><b lang="ar">${esc(m.ar_baslik)}</b><span>${esc(m.baslik)}</span><small>${esc(m.konu)} · ${m.ar.join(' ').split(/\s+/).length} kelime${okundu[m.id] ? ' · ✓ okundu' : ''}</small></a>`).join('')}</div>
-   <h2>Kelime temaları</h2><div class="tiplist">${MOD.kelime.map((t, i) => `<a href="#/modern/kelime/${i}"><b>${esc(t.tema)}</b><small lang="ar">${esc(t.liste.slice(0, 3).map(x => x[0]).join('، '))} … (${t.liste.length})</small></a>`).join('')}</div>
+   <div class="hero"><div class="hero-ar" lang="ar">العَرَبِيَّةُ المُعَاصِرَةُ</div><p>Sesli ders programı, günlük konuşma ve diyaloglar.</p></div>
+   <a class="bigbox b-mod" href="#/modern/ders"><span lang="ar">دُرُوسٌ صَوْتِيَّةٌ</span><b>Sesli Arapça ders programı</b><small>6 aylık program · B1–B2 ve C1–C2 · alfabe, kelime, cümle, dinleme</small></a>
    <h2>Diyaloglar</h2><div class="tiplist">${MOD.diyalog.map((d, i) => `<a href="#/modern/diyalog/${i}"><b>${esc(d.baslik)}</b><small lang="ar">${esc(d.ar_baslik || '')}</small></a>`).join('')}</div>
-   <p class="taslak">Metinler bu uygulama için haber dilinde özgün olarak yazılmıştır; gerçek haberleri okumak için “Haber Arapçası rehberi”ndeki bağlantıları kullanın.</p></div>`;
+   <p class="lead" style="margin-top:20px">Okuma metinleri ve kelime temaları <a href="#/yds">YDS Arapça</a> bölümünde.</p></div>`;
 }
-function modMetin(id){
-  const m = MOD.metinler.find(x => x.id === id); if(!m) return go('/modern');
+function modDers(){
+  V.innerHTML = bar('Sesli Arapça ders', '/modern') + `<iframe class="dersf" src="arapca.html?medrese=1" title="Sesli Arapça ders programı"></iframe>`;
+}
+function modMetin(id, geri){
+  geri = geri || '/modern';
+  const m = MOD.metinler.find(x => x.id === id); if(!m) return go(geri);
   const trG = LS.get('medrese.modTr', false), soz = new Map(m.sozluk.map(x => [x[0].replace(/[ً-ْ]/g, ''), x]));
   const norm = w => w.replace(/[ً-ْٰ]/g, '').replace(/[،.؛:؟!«»"()]/g, '');
   const kel = w => { const n = norm(w); let hit = soz.get(n) || soz.get(n.replace(/^(و|ف|ب|ل|ك)/, '')) || soz.get(n.replace(/^(و|ف)?(ال)/, '')) || soz.get(n.replace(/^(وال|فال|بال|لل)/, '')); return hit ? `<span class="gl" data-g="${esc(hit[0])}">${esc(w)}</span>` : esc(w) };
-  V.innerHTML = bar(m.baslik, '/modern') + `<div class="wrap"><div class="mbas"><span class="sv">${esc(m.seviye)}</span> <small>${esc(m.konu)}</small><h1 lang="ar" class="mh1">${esc(m.ar_baslik)}</h1></div>
+  V.innerHTML = bar(m.baslik, geri) + `<div class="wrap"><div class="mbas"><span class="sv">${esc(m.seviye)}</span> <small>${esc(m.konu)}</small><h1 lang="ar" class="mh1">${esc(m.ar_baslik)}</h1></div>
    <div class="tools"><label><input type="checkbox" id="mtr" ${trG ? 'checked' : ''}> Türkçesini göster</label>${'speechSynthesis' in window ? '<button class="btn sm" id="msesli">▶ Sesli oku</button>' : ''}<span class="lnk">Altı çizili kelimeye dokunun: anlamı çıkar</span></div>
    <div class="mtext">${m.ar.map((p, i) => `<p lang="ar" class="mpa">${p.split(/(\s+)/).map(w => /\s/.test(w) ? w : kel(w)).join('')}</p>${trG && m.tr[i] ? `<p class="mtr">${esc(m.tr[i])}</p>` : ''}`).join('')}</div>
    <h2>Sözlük</h2><table class="orn">${m.sozluk.map(x => `<tr><td lang="ar">${esc(x[0])}</td><td>${esc(x[1])}</td></tr>`).join('')}</table>
    <div class="end"><button class="btn pri big" id="msor">Sorular (${m.sorular.length}) ›</button></div></div>`;
-  $('#mtr').onchange = e => { LS.set('medrese.modTr', e.target.checked); modMetin(id) };
+  $('#mtr').onchange = e => { LS.set('medrese.modTr', e.target.checked); modMetin(id, geri) };
   $$('.gl').forEach(g => g.onclick = () => { const x = m.sozluk.find(s => s[0] === g.dataset.g); toast(`${x[0]} — ${x[1]}`) });
   const sb = $('#msesli'); if(sb) sb.onclick = () => seslendir(m.ar.join(' '));
   $('#msor').onclick = () => { const o = LS.get('medrese.modOk', {}); o[id] = 1; LS.set('medrese.modOk', o); alistirma({ ids: m.sorular.map((s, i) => `mo|${id}|${i}`), title: m.baslik }) };
@@ -703,8 +723,8 @@ function modDiyalog(i){
    ${d.not ? `<p class="knote">${esc(d.not)}</p>` : ''}</div>`;
   $$('[data-s]').forEach(b => b.onclick = () => seslendir(b.dataset.s));
 }
-function modHaber(){
-  V.innerHTML = bar('Haber Arapçası', '/modern') + `<div class="wrap"><div class="rehber">
+function modHaber(geri){
+  V.innerHTML = bar('Haber Arapçası', geri || '/modern') + `<div class="wrap"><div class="rehber">
   <h2>Nereden okumalı?</h2><p>Gerçek haber metinlerini kaynağında okuyun (telif sebebiyle uygulamaya kopyalanmaz):</p>
   <ul><li><a href="https://www.aljazeera.net/news/" target="_blank" rel="noopener">el-Cezîre — Haberler</a> (أخبار)</li><li><a href="https://www.aljazeera.net/ebusiness/" target="_blank" rel="noopener">el-Cezîre — Ekonomi</a> (اقتصاد)</li><li><a href="https://www.aljazeera.net/science/" target="_blank" rel="noopener">el-Cezîre — Bilim ve teknoloji</a></li><li><a href="https://www.aljazeera.net/culture/" target="_blank" rel="noopener">el-Cezîre — Kültür</a></li><li><a href="https://www.aa.com.tr/ar" target="_blank" rel="noopener">Anadolu Ajansı Arapça</a> · <a href="https://www.trtarabi.com" target="_blank" rel="noopener">TRT Arabi</a> · <a href="https://www.bbc.com/arabic" target="_blank" rel="noopener">BBC Arabic</a></li></ul>
   <h2>Nasıl çalışmalı?</h2><ol><li>Günde bir haber seçin; önce yalnızca başlığı ve ilk paragrafı okuyun (haberin özü oradadır).</li><li>Bilmediğiniz en fazla 10 kelimeyi not alın ve buradaki kelime kartlarına benzer şekilde tekrar edin.</li><li>Haberin kim, ne, nerede, ne zaman sorularını Arapça cevaplayın.</li><li>Haftada bir aynı konudan (ör. ekonomi) üç haber okuyun: kalıp ifadeler kendiliğinden yerleşir.</li></ol>
