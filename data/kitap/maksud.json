@@ -1,0 +1,359 @@
+{
+"id": "maksud",
+"baslik": "المقصود في التصريف",
+"tur": "ders",
+"kaynak": "el-Mihrâb ders notu",
+"bolumler": [
+{
+"b": "مقدمة",
+"tr_b": "Maksûd’a giriş: tasrîf ve masdar",
+"n": [
+"Maksûd, Binâ’dan sonra okunur ve sarfın kurallarını <b>gerekçeleriyle</b> verir. Müellifi olarak İmâm-ı Âzam Ebû Hanîfe gösterilir; bu nisbet tartışmalıdır.",
+"Kitabın ana fikri: kelimelerin aslı <b>masdar</b>dır; mâzî, muzâri, emir, ism-i fâil, ism-i mef‘ûl… hep masdardan türer (Basra mektebinin görüşü). Kûfeliler ise aslın fiil olduğunu söyler.",
+"Sülâsî mücerredin masdarları <b>semâî</b>dir (duyularak öğrenilir): <span lang=\"ar\">نَصْرٌ، ضَرْبٌ، عِلْمٌ، دُخُولٌ، كِتَابَةٌ</span>. Mezîd ve rubâînin masdarları ise <b>kıyâsî</b>dir (kalıba göre yapılır): <span lang=\"ar\">إِكْرَامٌ، تَعْلِيمٌ، مُقَاتَلَةٌ، اِسْتِخْرَاجٌ، دَحْرَجَةٌ</span>."
+],
+"ornek": [
+[
+"ذَهَبَ ذَهَابًا",
+"semâî masdar"
+],
+[
+"جَلَسَ جُلُوسًا",
+"semâî masdar"
+],
+[
+"أَكْرَمَ إِكْرَامًا",
+"kıyâsî masdar"
+],
+[
+"اِنْطَلَقَ اِنْطِلَاقًا",
+"kıyâsî masdar"
+]
+]
+},
+{
+"b": "اشتقاق الأمثلة",
+"tr_b": "Kalıpların türetilme sırası",
+"n": [
+"Medrese usulünde kalıplar şu sırayla türetilir: <b>masdar → mâzî → muzâri → emir ve nehiy → ism-i fâil → ism-i mef‘ûl → ism-i zaman ve mekân → ism-i âlet → ism-i tafdîl</b>.",
+"<b>Muzâri</b>, mâzînin başına muzâri harflerinden (<span lang=\"ar\">أَنَيْتُ</span>) birini getirip fâ’ü’l-fiili sâkin yapmakla kurulur: <span lang=\"ar\">نَصَرَ ← يَنْصُرُ</span>. Muzâri harfi rubâî ve if‘âl, tef‘îl, mufâale bâblarında dammeli (<span lang=\"ar\">يُكْرِمُ، يُعَلِّمُ، يُقَاتِلُ، يُدَحْرِجُ</span>), diğerlerinde fethalıdır.",
+"<b>Emr-i hâzır</b>, muhâtab muzârinin başındaki harf atılıp sonu cezmedilerek yapılır; ilk harf sâkin kalırsa hemze-i vasl getirilir: <span lang=\"ar\">تَنْصُرُ ← نْصُرْ ← اُنْصُرْ</span>. Hemze, ayn’ül-fiil dammeli ise dammeli, değilse kesreli olur (<span lang=\"ar\">اِضْرِبْ، اِفْتَحْ</span>). If‘âl bâbında hemze-i kat‘ geri döner: <span lang=\"ar\">أَكْرِمْ</span>."
+],
+"ornek": [
+[
+"تَضْرِبُ ← اِضْرِبْ",
+"emir yapımı"
+],
+[
+"تَعْلَمُ ← اِعْلَمْ",
+"emir yapımı"
+],
+[
+"تُكْرِمُ ← أَكْرِمْ",
+"if‘âlde hemze-i kat‘"
+]
+]
+},
+{
+"b": "اسم الفاعل والمفعول",
+"tr_b": "İsm-i fâil ve ism-i mef‘ûl",
+"n": [
+"Sülâsî mücerredde ism-i fâil <span lang=\"ar\">فَاعِلٌ</span> (<span lang=\"ar\">نَاصِرٌ</span>), ism-i mef‘ûl <span lang=\"ar\">مَفْعُولٌ</span> (<span lang=\"ar\">مَنْصُورٌ</span>) kalıbındadır.",
+"Mezîd ve rubâîde ikisi de <b>muzârinin harfini mîm-i mazmûme</b> ile değiştirerek yapılır; ism-i fâilde sondan bir önceki harf kesreli, ism-i mef‘ûlde fethalıdır: <span lang=\"ar\">يُكْرِمُ ← مُكْرِمٌ / مُكْرَمٌ</span>, <span lang=\"ar\">يَسْتَخْرِجُ ← مُسْتَخْرِجٌ / مُسْتَخْرَجٌ</span>, <span lang=\"ar\">يُدَحْرِجُ ← مُدَحْرِجٌ / مُدَحْرَجٌ</span>.",
+"Lâzım fiilin ism-i mef‘ûlü ancak harf-i cer ile yapılır: <span lang=\"ar\">مَذْهُوبٌ بِهِ</span>, <span lang=\"ar\">مَغْضُوبٌ عَلَيْهِمْ</span> (Fâtiha)."
+],
+"ornek": [
+[
+"عَالِمٌ / مَعْلُومٌ",
+"sülâsî"
+],
+[
+"مُعَلِّمٌ / مُعَلَّمٌ",
+"tef‘îl"
+],
+[
+"مُجْتَهِدٌ",
+"ifti‘âl ism-i fâil"
+],
+[
+"مُنْطَلَقٌ",
+"infi‘âl — ism-i mekân/masdar-ı mîmî olarak"
+]
+]
+},
+{
+"b": "الزمان والمكان والآلة",
+"tr_b": "İsm-i zaman-mekân, ism-i âlet, masdar-ı mîmî",
+"n": [
+"Sülâsîde ism-i zaman ve mekân, muzârinin ayn’ül-fiili kesreli ise <span lang=\"ar\">مَفْعِلٌ</span> (<span lang=\"ar\">مَجْلِسٌ</span> oturulan yer), fethalı veya dammeli ise <span lang=\"ar\">مَفْعَلٌ</span>dır (<span lang=\"ar\">مَكْتَبٌ، مَذْهَبٌ</span>). Bazı kelimeler kural dışı kesreyle gelir: <span lang=\"ar\">مَسْجِدٌ، مَشْرِقٌ، مَغْرِبٌ</span>.",
+"Mezîdde ism-i zaman-mekân ve masdar-ı mîmî, ism-i mef‘ûl kalıbındadır: <span lang=\"ar\">مُجْتَمَعٌ</span> (toplanma yeri), <span lang=\"ar\">مُنْقَلَبٌ</span> (dönüş yeri).",
+"İsm-i âlet yalnız sülâsîden üç kalıpla yapılır: <span lang=\"ar\">مِفْعَلٌ</span> (<span lang=\"ar\">مِبْرَدٌ</span> eğe), <span lang=\"ar\">مِفْعَلَةٌ</span> (<span lang=\"ar\">مِكْنَسَةٌ</span> süpürge), <span lang=\"ar\">مِفْعَالٌ</span> (<span lang=\"ar\">مِفْتَاحٌ</span> anahtar)."
+],
+"ornek": [
+[
+"مَطْبَخٌ",
+"mutfak — مَفْعَلٌ"
+],
+[
+"مَنْزِلٌ",
+"konak — مَفْعِلٌ"
+],
+[
+"مِنْشَارٌ",
+"testere — مِفْعَالٌ"
+],
+[
+"مُسْتَشْفًى",
+"hastane — istif‘âl ism-i mekânı"
+]
+]
+},
+{
+"b": "الإعلال: الأجوف",
+"tr_b": "İ‘lâl (1): ecvef",
+"n": [
+"İ‘lâl, harf-i illetin (و، ي) değiştirilmesi, düşürülmesi veya sâkin yapılmasıdır. Ecvef fiillerin temel kuralı: <b>harekeli vâv veya yâ, öncesi fethalı ise elife kalbolunur</b>: <span lang=\"ar\">قَوَلَ ← قَالَ</span>, <span lang=\"ar\">بَيَعَ ← بَاعَ</span>, <span lang=\"ar\">خَوِفَ ← خَافَ</span>.",
+"Muzâride illet harfinin harekesi önündeki sâkin sahîh harfe nakledilir: <span lang=\"ar\">يَقْوُلُ ← يَقُولُ</span>, <span lang=\"ar\">يَبْيِعُ ← يَبِيعُ</span>, <span lang=\"ar\">يَخْوَفُ ← يَخَافُ</span>.",
+"Cezm ve emirde iki sâkin bir araya gelince illet harfi düşer: <span lang=\"ar\">لَمْ يَقُلْ، قُلْ، لَمْ يَبِعْ، بِعْ، خَفْ</span>. Mütehharrik zamirle mâzîde de düşer: <span lang=\"ar\">قُلْتُ، بِعْتُ، خِفْتُ</span> (nasara bâbında fâ dammeli, diğerlerinde kesreli)."
+],
+"ornek": [
+[
+"قَالَ يَقُولُ قُلْ",
+"ecvef-i vâvî"
+],
+[
+"بَاعَ يَبِيعُ بِعْ",
+"ecvef-i yâî"
+],
+[
+"نَامَ يَنَامُ نَمْ",
+"ecvef, alime bâbı"
+],
+[
+"قَائِلٌ / مَقُولٌ",
+"ism-i fâil ve mef‘ûl"
+]
+]
+},
+{
+"b": "الإعلال: الناقص والمثال",
+"tr_b": "İ‘lâl (2): nâkıs ve misâl",
+"n": [
+"<b>Nâkıs</b>: Sondaki vâv/yâ öncesi fethalı ise elife döner: <span lang=\"ar\">دَعَوَ ← دَعَا</span>, <span lang=\"ar\">رَمَيَ ← رَمَى</span>. Muzâride merfûda damme ağır geldiği için takdir edilir (<span lang=\"ar\">يَدْعُو، يَرْمِي، يَخْشَى</span>); cezmde illet harfi düşer: <span lang=\"ar\">لَمْ يَدْعُ، لَمْ يَرْمِ، لَمْ يَخْشَ</span>; emirde de: <span lang=\"ar\">اُدْعُ، اِرْمِ، اِخْشَ</span>.",
+"Vâv-ı cemâat gelince illet harfi düşer: <span lang=\"ar\">دَعَوْا، رَمَوْا، خَشُوا</span>; <span lang=\"ar\">يَدْعُونَ، يَرْمُونَ</span>.",
+"<b>Misâl-i vâvî</b>: Muzârinin ayn’ül-fiili kesreli ise vâv muzâride düşer: <span lang=\"ar\">وَعَدَ يَعِدُ عِدْ</span>, <span lang=\"ar\">وَصَلَ يَصِلُ صِلْ</span>; masdarda da düşüp sonuna tâ gelebilir: <span lang=\"ar\">عِدَةٌ، صِلَةٌ</span>. Ayn’ül-fiil fethalı ise genelde kalır: <span lang=\"ar\">وَجِلَ يَوْجَلُ</span>."
+],
+"ornek": [
+[
+"دَعَا يَدْعُو اُدْعُ",
+"nâkıs-ı vâvî"
+],
+[
+"رَمَى يَرْمِي اِرْمِ",
+"nâkıs-ı yâî"
+],
+[
+"وَهَبَ يَهَبُ هَبْ",
+"misâl (ayn fethalı ama halk harfi sebebiyle)"
+],
+[
+"وَقَى يَقِي قِ",
+"lefîf-i mefrûk — emir tek harf!"
+]
+]
+},
+{
+"b": "المهموز والمضاعف",
+"tr_b": "Mehmûz ve muzâafın hükümleri",
+"n": [
+"<b>Mehmûz</b>: İki hemze bir kelimede yan yana gelip ikincisi sâkin olursa, ikinci hemze öncekinin harekesine uygun med harfine döner: <span lang=\"ar\">أَأْمَنَ ← آمَنَ</span>, <span lang=\"ar\">أُؤْمِنُ ← أُومِنُ</span>, <span lang=\"ar\">إِئْمَانٌ ← إِيمَانٌ</span>.",
+"Üç fiilin emrinde hemze ile birlikte hemze-i vasl da düşer: <span lang=\"ar\">أَخَذَ ← خُذْ</span>, <span lang=\"ar\">أَكَلَ ← كُلْ</span>, <span lang=\"ar\">أَمَرَ ← مُرْ</span>. <span lang=\"ar\">سَأَلَ</span> fiilinin emri hem <span lang=\"ar\">اِسْأَلْ</span> hem <span lang=\"ar\">سَلْ</span> olur.",
+"<b>Muzâaf</b>: idgâm kuralları Binâ’daki gibidir; ism-i fâil <span lang=\"ar\">مَادٌّ</span> (aslı <span lang=\"ar\">مَادِدٌ</span>), ism-i mef‘ûl <span lang=\"ar\">مَمْدُودٌ</span> olur."
+],
+"ornek": [
+[
+"آمَنَ يُؤْمِنُ إِيمَانًا",
+"mehmûzü’l-fâ, if‘âl"
+],
+[
+"خُذْ، كُلْ، مُرْ",
+"kısaltılmış emirler"
+],
+[
+"ضَالٌّ",
+"muzâaf ism-i fâil (aslı ضَالِلٌ)"
+]
+]
+}
+],
+"sorular": [
+{
+"b": 0,
+"s": "Basra mektebine göre kelimelerin aslı nedir?",
+"k": [
+"Masdar",
+"Mâzî fiil",
+"Muzâri fiil",
+"Emir"
+],
+"d": 0,
+"a": "Basralılar masdarın asıl olduğunu, fiillerin ondan türediğini söyler."
+},
+{
+"b": 0,
+"s": "Hangi masdar semâîdir?",
+"k": [
+"ذَهَابٌ",
+"إِكْرَامٌ",
+"تَعْلِيمٌ",
+"اِسْتِخْرَاجٌ"
+],
+"d": 0,
+"a": "Sülâsî mücerredin masdarları semâîdir."
+},
+{
+"b": 1,
+"s": "Hangi fiilin muzâri harfi dammelidir?",
+"k": [
+"أَكْرَمَ",
+"نَصَرَ",
+"اِنْطَلَقَ",
+"تَعَلَّمَ"
+],
+"d": 0,
+"a": "Rubâî ve if‘âl, tef‘îl, mufâalede muzâri harfi dammelidir: يُكْرِمُ."
+},
+{
+"b": 1,
+"s": "ضَرَبَ fiilinin emr-i hâzırı nasıldır?",
+"k": [
+"اِضْرِبْ",
+"اُضْرُبْ",
+"أَضْرِبْ",
+"ضَرِّبْ"
+],
+"d": 0,
+"a": "Ayn’ül-fiil kesreli olduğu için hemze-i vasl kesreli."
+},
+{
+"b": 2,
+"s": "اِسْتَخْرَجَ fiilinin ism-i mef‘ûlü hangisidir?",
+"k": [
+"مُسْتَخْرَجٌ",
+"مُسْتَخْرِجٌ",
+"مَسْتَخْرُوجٌ",
+"اِسْتِخْرَاجٌ"
+],
+"d": 0,
+"a": "Mîm-i mazmûme + sondan bir önceki fetha."
+},
+{
+"b": 2,
+"s": "Lâzım fiilden ism-i mef‘ûl nasıl yapılır?",
+"k": [
+"Harf-i cer ile (مَغْضُوبٌ عَلَيْهِمْ)",
+"Yapılamaz",
+"مُفْعَلٌ kalıbıyla",
+"Masdarla"
+],
+"d": 0,
+"a": "غَضِبَ lâzımdır; mef‘ûlü cer harfiyle gelir."
+},
+{
+"b": 3,
+"s": "مِفْتَاحٌ hangi kalıptadır?",
+"k": [
+"İsm-i âlet (مِفْعَالٌ)",
+"İsm-i mekân",
+"İsm-i tafdîl",
+"Masdar-ı mîmî"
+],
+"d": 0,
+"a": "Anahtar: açma âleti."
+},
+{
+"b": 3,
+"s": "جَلَسَ يَجْلِسُ fiilinin ism-i mekânı hangisidir?",
+"k": [
+"مَجْلِسٌ",
+"مَجْلَسٌ",
+"مُجْلَسٌ",
+"مِجْلَسٌ"
+],
+"d": 0,
+"a": "Muzâride ayn kesreli: مَفْعِلٌ."
+},
+{
+"b": 4,
+"s": "قَالَ fiilinin aslı nedir?",
+"k": [
+"قَوَلَ",
+"قَيَلَ",
+"قَالَلَ",
+"قَأَلَ"
+],
+"d": 0,
+"a": "Harekeli vâv, öncesi fethalı → elif."
+},
+{
+"b": 4,
+"s": "خَافَ fiilinin mütekellim mâzîsi (أنا) hangisidir?",
+"k": [
+"خِفْتُ",
+"خُفْتُ",
+"خَافْتُ",
+"خَوِفْتُ"
+],
+"d": 0,
+"a": "Alime bâbından ecvef: fâ kesreli olur."
+},
+{
+"b": 5,
+"s": "لَمْ يَدْعُ ifadesinde vâv neden düşmüştür?",
+"k": [
+"Cezm alâmeti olarak harf-i illet hazfedildi",
+"Vâv-ı cemâat geldiği için",
+"İdgâm sebebiyle",
+"Kural dışı"
+],
+"d": 0,
+"a": "Sonu mu‘tel muzârinin cezmi illet harfinin hazfıyladır."
+},
+{
+"b": 5,
+"s": "وَعَدَ fiilinin emri hangisidir?",
+"k": [
+"عِدْ",
+"اِوْعِدْ",
+"وَعِدْ",
+"اُعْدُ"
+],
+"d": 0,
+"a": "Misâl-i vâvîde vâv muzâride ve emirde düşer."
+},
+{
+"b": 6,
+"s": "أَخَذَ fiilinin emri hangisidir?",
+"k": [
+"خُذْ",
+"اُؤْخُذْ",
+"أُخُذْ",
+"اِيخَذْ"
+],
+"d": 0,
+"a": "خُذْ، كُلْ، مُرْ kısaltılmış emirlerdir."
+},
+{
+"b": 6,
+"s": "إِيمَانٌ kelimesinin aslı nedir?",
+"k": [
+"إِئْمَانٌ",
+"أَيْمَانٌ",
+"إِيمَنٌ",
+"أُؤْمَانٌ"
+],
+"d": 0,
+"a": "İkinci hemze sâkin, öncesi kesreli → yâ."
+}
+]
+}

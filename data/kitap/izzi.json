@@ -1,0 +1,322 @@
+{
+"id": "izzi",
+"baslik": "التصريف العزّي",
+"tur": "ders",
+"kaynak": "el-Mihrâb ders notu",
+"bolumler": [
+{
+"b": "تعريف التصريف",
+"tr_b": "Tasrîf’in tanımı",
+"n": [
+"İzzî, ez-Zencânî’nin (7./13. yy) sarfta asırlarca okutulan özlü metnidir; Maksûd’dan sonra, ileri seviyede okunur.",
+"Müellif kitabına tasrîfin tanımıyla başlar: lügatte tasrîf <b>değiştirmek</b>tir (<span lang=\"ar\">التَّغْيِيرُ</span>); ilim dilinde ise <b>tek bir aslı, ancak onlarla elde edilebilen kastedilmiş mânâlar için farklı kalıplara dönüştürmektir</b>. Mesela masdar olan <span lang=\"ar\">ضَرْبٌ</span> aslından <span lang=\"ar\">ضَرَبَ، يَضْرِبُ، اِضْرِبْ، ضَارِبٌ، مَضْرُوبٌ</span>… gibi kalıplar çıkar; her birinin mânâsı ancak o kalıpla elde edilir."
+],
+"ornek": [
+[
+"ضَرْبٌ ← ضَرَبَ",
+"asıl → mâzî"
+],
+[
+"ضَرْبٌ ← ضَارِبٌ",
+"asıl → ism-i fâil"
+]
+]
+},
+{
+"b": "أبنية الفعل",
+"tr_b": "Fiilin binâları: sülâsî ve rubâî",
+"n": [
+"Fiil ya sülâsîdir ya rubâî; her biri ya mücerred ya mezîd. Sülâsî mücerredin altı bâbı vardır (bkz. Binâ). İzzî, bunların her birinin mâzî ve muzârideki ayn harekesini sayar ve <span lang=\"ar\">فَعُلَ</span> bâbının tabiatlar için olduğunu, <span lang=\"ar\">فَعِلَ يَفْعِلُ</span> bâbının ise az olduğunu belirtir.",
+"Sülâsî mezîd üç kısımdır: bir harf ziyâdeli (<span lang=\"ar\">أَفْعَلَ، فَعَّلَ، فَاعَلَ</span>), iki harf ziyâdeli (<span lang=\"ar\">اِنْفَعَلَ، اِفْتَعَلَ، اِفْعَلَّ، تَفَعَّلَ، تَفَاعَلَ</span>) ve üç harf ziyâdeli (<span lang=\"ar\">اِسْتَفْعَلَ، اِفْعَوْعَلَ، اِفْعَالَّ، اِفْعَوَّلَ</span>). Rubâî mücerredin bir bâbı (<span lang=\"ar\">فَعْلَلَ</span>), rubâî mezîdin üç bâbı vardır (<span lang=\"ar\">تَفَعْلَلَ، اِفْعَنْلَلَ، اِفْعَلَلَّ</span>)."
+],
+"ornek": []
+},
+{
+"b": "الصحيح والمعتل",
+"tr_b": "Sahîh ve gayr-i sahîh fiil",
+"n": [
+"İzzî fiili ikiye ayırır: <b>sahîh</b> (harflerinde illet harfi, hemze ve tad‘îf bulunmayan) ve <b>gayr-i sahîh</b>. Gayr-i sahîh yedi kısma ayrılır: mehmûz, muzâaf, misâl, ecvef, nâkıs, lefîf-i mefrûk, lefîf-i makrûn.",
+"Kitabın büyük kısmı bu yedi kısmın her birinin çekimde uğradığı değişiklikleri (i‘lâl, ibdâl, idgâm, hemzenin tahfîfi) kaide kaide anlatır."
+],
+"ornek": []
+},
+{
+"b": "الأمثلة",
+"tr_b": "Türeyen kalıplar (emsile)",
+"n": [
+"Fiilin mâzî, muzâri, emir ve nehiy kalıplarından sonra İzzî isim kalıplarını sayar: <b>ism-i fâil</b>, <b>ism-i mef‘ûl</b>, <b>ism-i zaman ve mekân</b>, <b>ism-i âlet</b>; ayrıca <b>masdar-ı mîmî</b> (<span lang=\"ar\">مَضْرَبٌ</span> = vurmak) ve <b>ism-i merre</b> (bir kez yapma: <span lang=\"ar\">ضَرْبَةٌ</span>), <b>ism-i hey’et</b> (yapılış tarzı: <span lang=\"ar\">جِلْسَةٌ</span>).",
+"Muzâri harflerinin anlamı: hemze tek konuşan (<span lang=\"ar\">أَضْرِبُ</span>), nûn birden çok konuşan veya kendini tazim eden (<span lang=\"ar\">نَضْرِبُ</span>), tâ muhâtab ve gâibe (<span lang=\"ar\">تَضْرِبُ</span>), yâ gâib içindir (<span lang=\"ar\">يَضْرِبُ</span>)."
+],
+"ornek": [
+[
+"ضَرْبَةٌ",
+"ism-i merre — bir vuruş"
+],
+[
+"جِلْسَةٌ",
+"ism-i hey’et — oturuş tarzı"
+],
+[
+"مَقْتَلٌ",
+"masdar-ı mîmî — öldürme"
+]
+]
+},
+{
+"b": "المهموز",
+"tr_b": "Mehmûz fiil",
+"n": [
+"Hemze, sahîh harf gibidir; ancak ağırlığı sebebiyle bazen hafifletilir. Kelimenin başında iki hemze toplanıp ikincisi sâkin olursa, ikincisi öncekinin harekesine uygun harfe kalbolunur: <span lang=\"ar\">آمَنَ، أُومِنُ، إِيمَانٌ</span>.",
+"Kelime ortasında sâkin hemze, öncesinin harekesine göre hafifletilebilir (<span lang=\"ar\">رَأْسٌ ← رَاسٌ</span>, <span lang=\"ar\">بِئْرٌ ← بِيرٌ</span>). <span lang=\"ar\">رَأَى</span> fiilinin muzârisinde hemze düşer: <span lang=\"ar\">يَرَى</span>; emri <span lang=\"ar\">رَ</span> (vakıfta <span lang=\"ar\">رَهْ</span>) olur."
+],
+"ornek": [
+[
+"سَأَلَ يَسْأَلُ / سَالَ يَسَالُ",
+"hemzenin tahfîfi (lehçe)"
+],
+[
+"رَأَى يَرَى رَ",
+"mehmûzü’l-ayn + nâkıs"
+]
+]
+},
+{
+"b": "المضاعف",
+"tr_b": "Muzâaf fiil",
+"n": [
+"Ayn ve lâm’ı aynı cinsten olan fiil. İki harf harekeli ise idgâm vâcibdir (<span lang=\"ar\">مَدَّ، يَمُدُّ</span>); ikinci harf cezm veya emir sebebiyle sâkinse idgâm câizdir (<span lang=\"ar\">لَمْ يَمُدَّ / لَمْ يَمْدُدْ</span>); mütehharrik zamirle sâkinse mümteni‘dir (<span lang=\"ar\">مَدَدْتُ</span>).",
+"İdgâmlı emirde son harf fetha (en hafifi), kesre (iltikâ-i sâkineynin aslı) veya muzâride damme ise damme ile okunabilir: <span lang=\"ar\">مُدَّ، مُدِّ، مُدُّ</span>."
+],
+"ornek": [
+[
+"فَرَّ يَفِرُّ فِرَّ",
+"muzâaf, daraba bâbı"
+],
+[
+"عَضَّ يَعَضُّ عَضَّ",
+"muzâaf, alime bâbı"
+]
+]
+},
+{
+"b": "المثال",
+"tr_b": "Misâl fiil",
+"n": [
+"Fâ’sı illetli fiil. Misâl-i vâvînin vâvı, ayn’ül-fiili kesreli muzâride “yâ ile kesre arasına düştüğü için” hazfedilir: <span lang=\"ar\">وَعَدَ يَعِدُ</span>; diğer muzâri harfleri de buna uydurulur (<span lang=\"ar\">أَعِدُ، تَعِدُ، نَعِدُ</span>). Emri tek harfe yakın kalır: <span lang=\"ar\">عِدْ</span>.",
+"Misâl-i yâî genellikle sağlam kalır: <span lang=\"ar\">يَسَرَ يَيْسِرُ</span>. Misâl-i vâvî if‘âl bâbına girince vâv korunur (<span lang=\"ar\">أَوْجَبَ</span>), ifti‘âlde tâya kalbolunup idgâm edilir (<span lang=\"ar\">اِتَّعَدَ</span>)."
+],
+"ornek": [
+[
+"وَزَنَ يَزِنُ زِنْ",
+"misâl-i vâvî"
+],
+[
+"وَجِلَ يَوْجَلُ",
+"vâv düşmez (ayn fethalı)"
+],
+[
+"اِتَّقَى",
+"وقي kökünden ifti‘âl"
+]
+]
+},
+{
+"b": "الأجوف",
+"tr_b": "Ecvef fiil",
+"n": [
+"Ayn’ı illetli fiil. Harekeli vâv/yâ, öncesi fethalı olunca elife döner (<span lang=\"ar\">قَالَ، بَاعَ، خَافَ</span>). Muzâride harekesi önündeki sâkine geçer (<span lang=\"ar\">يَقُولُ، يَبِيعُ، يَخَافُ</span>). İki sâkin bir araya gelince düşer (<span lang=\"ar\">قُلْ، بِعْ، خَفْ؛ قُلْتُ، بِعْتُ، خِفْتُ</span>).",
+"İsm-i fâilde illet harfi hemzeye döner (<span lang=\"ar\">قَائِلٌ، بَائِعٌ</span>); ism-i mef‘ûlde bir harf düşer (<span lang=\"ar\">مَقُولٌ، مَبِيعٌ</span>). Meçhulde <span lang=\"ar\">قِيلَ، بِيعَ</span> olur."
+],
+"ornek": [
+[
+"قَامَ يَقُومُ قُمْ قَائِمٌ مَقُومٌ",
+"ecvef-i vâvî tam çekim"
+],
+[
+"سَارَ يَسِيرُ سِرْ سَائِرٌ",
+"ecvef-i yâî"
+]
+]
+},
+{
+"b": "الناقص واللفيف",
+"tr_b": "Nâkıs ve lefîf fiil",
+"n": [
+"<b>Nâkıs</b>: lâm’ı illetli. Mâzîde öncesi fethalı illet harfi elife döner (<span lang=\"ar\">دَعَا، رَمَى</span>); kesreden sonra vâv yâya döner (<span lang=\"ar\">رَضِيَ</span>, aslı <span lang=\"ar\">رَضِوَ</span>). Muzâride merfû hâlde damme takdir edilir, mansûbda fetha görünür (<span lang=\"ar\">لَنْ يَدْعُوَ، لَنْ يَرْمِيَ</span>) ama elifte görünmez (<span lang=\"ar\">لَنْ يَخْشَى</span>); meczûmda illet harfi düşer.",
+"<b>Lefîf-i mefrûk</b> (<span lang=\"ar\">وَقَى يَقِي</span>): fâ’sı misâl gibi, lâm’ı nâkıs gibi muamele görür; emri tek harftir: <span lang=\"ar\">قِ</span> (vakıfta <span lang=\"ar\">قِهْ</span>). <b>Lefîf-i makrûn</b> (<span lang=\"ar\">طَوَى يَطْوِي</span>): ayn’ı sağlam kalır, lâm’ı nâkıs gibidir: <span lang=\"ar\">اِطْوِ</span>."
+],
+"ornek": [
+[
+"دَعَا يَدْعُو اُدْعُ دَاعٍ مَدْعُوٌّ",
+"nâkıs-ı vâvî"
+],
+[
+"وَفَى يَفِي فِ",
+"lefîf-i mefrûk"
+],
+[
+"رَوَى يَرْوِي اِرْوِ",
+"lefîf-i makrûn"
+]
+]
+}
+],
+"sorular": [
+{
+"b": 0,
+"s": "İzzî’ye göre tasrîfin lügat mânâsı nedir?",
+"k": [
+"Değiştirmek (tağyîr)",
+"Çekmek",
+"Kurmak",
+"Ayırmak"
+],
+"d": 0,
+"a": "التصريف في اللغة التغيير."
+},
+{
+"b": 0,
+"s": "İzzî’de tasrîfin ıstılâhî tanımında aslın neye dönüştürüldüğü söylenir?",
+"k": [
+"Ancak onlarla elde edilen mânâlar için farklı kalıplara",
+"Cümleye",
+"Harflere",
+"Başka bir köke"
+],
+"d": 0,
+"a": "تحويل الأصل الواحد إلى أمثلة مختلفة لمعان مقصودة لا تحصل إلا بها."
+},
+{
+"b": 1,
+"s": "Rubâî mezîdin bâbı hangisidir?",
+"k": [
+"تَفَعْلَلَ",
+"تَفَاعَلَ",
+"فَعْلَلَ",
+"اِفْعَالَّ"
+],
+"d": 0,
+"a": "Rubâî mezîd: تَفَعْلَلَ، اِفْعَنْلَلَ، اِفْعَلَلَّ."
+},
+{
+"b": 3,
+"s": "ضَرْبَةٌ kelimesi hangi kalıptır?",
+"k": [
+"İsm-i merre",
+"İsm-i hey’et",
+"Masdar-ı mîmî",
+"İsm-i âlet"
+],
+"d": 0,
+"a": "Bir kez yapmayı bildirir: فَعْلَةٌ."
+},
+{
+"b": 3,
+"s": "Muzâri harfi olan nûn kimi bildirir?",
+"k": [
+"Birden çok konuşanı veya kendini tazim edeni",
+"Gâibi",
+"Muhâtabı",
+"Gâibeyi"
+],
+"d": 0,
+"a": "نَضْرِبُ: biz vururuz."
+},
+{
+"b": 4,
+"s": "رَأَى fiilinin muzâri ma‘lûmu nasıldır?",
+"k": [
+"يَرَى",
+"يَرْأَى",
+"يَرْئِي",
+"يَرُو"
+],
+"d": 0,
+"a": "Muzâride hemze düşer."
+},
+{
+"b": 5,
+"s": "Muzâaf fiilin emrinde son harf hangi harekelerle okunabilir?",
+"k": [
+"Fetha, kesre veya (muzâride dammeli ise) damme",
+"Yalnız sükûn",
+"Yalnız fetha",
+"Yalnız kesre"
+],
+"d": 0,
+"a": "مُدَّ، مُدِّ، مُدُّ."
+},
+{
+"b": 6,
+"s": "وَعَدَ fiilinin muzârisinde vâv neden düşer?",
+"k": [
+"Yâ ile kesre arasına düştüğü için",
+"Ağır olduğu için idgâm edildiği için",
+"Cezm sebebiyle",
+"Hemzeye döndüğü için"
+],
+"d": 0,
+"a": "يَوْعِدُ ← يَعِدُ."
+},
+{
+"b": 6,
+"s": "اِتَّعَدَ kelimesinin kökü ve bâbı nedir?",
+"k": [
+"وعد — ifti‘âl",
+"تعد — tef‘îl",
+"عدد — infi‘âl",
+"وعد — tefâ‘ul"
+],
+"d": 0,
+"a": "Misâl-i vâvînin vâvı ifti‘âlde tâya kalbolunup idgâm edilir."
+},
+{
+"b": 7,
+"s": "قَالَ fiilinin ism-i fâili hangisidir?",
+"k": [
+"قَائِلٌ",
+"قَاوِلٌ",
+"قَالٌ",
+"مَقُولٌ"
+],
+"d": 0,
+"a": "İsm-i fâilde illet harfi hemzeye döner."
+},
+{
+"b": 7,
+"s": "بَاعَ fiilinin meçhul mâzîsi nedir?",
+"k": [
+"بِيعَ",
+"بُوعَ",
+"بُيِعَ",
+"بَيِعَ"
+],
+"d": 0,
+"a": "قِيلَ، بِيعَ."
+},
+{
+"b": 8,
+"s": "وَقَى fiilinin emr-i hâzırı nedir?",
+"k": [
+"قِ",
+"وَقِ",
+"اِقِ",
+"قِي"
+],
+"d": 0,
+"a": "Lefîf-i mefrûk: fâ misâl gibi, lâm nâkıs gibi düşer."
+},
+{
+"b": 8,
+"s": "رَضِيَ fiilinin aslı nedir?",
+"k": [
+"رَضِوَ",
+"رَضَيَ",
+"رَضَوَ",
+"رَاضَ"
+],
+"d": 0,
+"a": "Kesreden sonra vâv yâya döner."
+}
+]
+}

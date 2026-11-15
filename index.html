@@ -847,7 +847,7 @@ async function offSurah(s,eds){const r=await Promise.all(eds.map(ed=>locEd(ed,s)
 async function offAyah(ed,s,a){try{return (await locEd(ed,s)).ayahs[a-1]?.text}catch(e){return null}}
 async function offStatus(){return LS.get('mihrab.offdone',0)?['x','x','x','x']:[]}
 async function offDownload(btn,info){
-  const eds=[...new Set(['quran-uthmani','quran-simple',...MEALS.map(m=>m[0]),TRL])];const jobs=['medrese.html','medrese.js','kelime.js','data/morph/babs.json','data/morph/roots.json','data/morph/onay.json','arapca.html','farsca.html','ingilizce.html','almanca.html','fransizca.html','ispanyolca.html','index.html','manifest.webmanifest','icon-192.png','icon-512.png'];
+  const eds=[...new Set(['quran-uthmani','quran-simple',...MEALS.map(m=>m[0]),TRL])];const jobs=['medrese.html','medrese.js','kelime.js','data/morph/babs.json','data/morph/roots.json','data/morph/onay.json','data/yds/banka.json','data/modern/modern.json',...['bina','maksud','izzi','avamil','ajurrumiyye','katr'].map(k=>`data/kitap/${k}.json`),'arapca.html','farsca.html','ingilizce.html','almanca.html','fransizca.html','ispanyolca.html','index.html','manifest.webmanifest','icon-192.png','icon-512.png'];
   for(const ed of eds)for(let s=1;s<=114;s++)jobs.push(`data/q/${ed}/${s}.json`);
   for(let s=1;s<=114;s++)jobs.push(`data/morph/${s}.json`);
   let done=0,fail=0;
