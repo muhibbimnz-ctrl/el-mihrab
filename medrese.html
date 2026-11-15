@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="tr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Medrese — el-Mihrâb</title>
+<meta name="description" content="Medrese usûlüyle klasik Arapça: Emsile, Binâ, Avâmil ve Kur'an i'râbı">
+<meta name="theme-color" content="#0e5a43">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Noto+Naskh+Arabic:wght@400;600&family=Reem+Kufi:wght@500;700&family=Cormorant+Garamond:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f3ead4;--paper:#fbf6e8;--card:#fffaf0;--ink:#2a2216;--ink2:#4a3f2c;--muted:#857455;
+  --accent:#0e5a43;--accentSoft:#e3efe7;--gold:#b0852f;--goldSoft:#f3e6c4;--line:#e3d4ad;--line2:#d6c391;--hl:#fff1c4;--play:#dcefe3;
+  --qfont:'Amiri Quran';--qsize:34px;--msize:17px;--tsize:21px;
+  --ui:'Source Sans 3',system-ui,sans-serif;--serif:'Source Serif 4',Georgia,serif;--disp:'Cormorant Garamond',Georgia,serif;
+  --pat:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='%23b0852f' stroke-opacity='.15'%3E%3Cpath d='M28 6l6.4 15.6L50 28l-15.6 6.4L28 50l-6.4-15.6L6 28l15.6-6.4z'/%3E%3Cpath d='M12.4 12.4h31.2v31.2H12.4z' transform='rotate(45 28 28)'/%3E%3Ccircle cx='28' cy='28' r='5'/%3E%3C/g%3E%3C/svg%3E");
+}
+[data-theme="gece"]{--bg:#0c1311;--paper:#111a16;--card:#15201b;--ink:#ece3cc;--ink2:#cfc5ab;--muted:#958c75;--accent:#4cc196;--accentSoft:#173328;--gold:#d6ab52;--goldSoft:#2a2414;--line:#24312b;--line2:#34453c;--hl:#2c2a16;--play:#143a2b;
+  --pat:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='%23d6ab52' stroke-opacity='.06'%3E%3Cpath d='M28 6l6.4 15.6L50 28l-15.6 6.4L28 50l-6.4-15.6L6 28l15.6-6.4z'/%3E%3Cpath d='M12.4 12.4h31.2v31.2H12.4z' transform='rotate(45 28 28)'/%3E%3C/g%3E%3C/svg%3E")}
+[data-theme="zumrut"]{--bg:#e6efe9;--paper:#f5faf6;--card:#fbfdfb;--ink:#122219;--ink2:#2c4236;--muted:#5f7a6b;--accent:#0b6a4e;--accentSoft:#d8ebe1;--gold:#9a7429;--goldSoft:#ece2c6;--line:#cfe0d5;--line2:#b4cfbf;--hl:#fdf3cf;--play:#cfeede}
+[data-theme="sade"]{--bg:#f6f6f4;--paper:#fff;--card:#fff;--ink:#1d1d1b;--ink2:#3c3c38;--muted:#77756e;--accent:#1f5f8b;--accentSoft:#e3eef6;--gold:#a4802e;--goldSoft:#f2ead6;--line:#e6e4de;--line2:#d4d1c7;--hl:#fff6cf;--play:#e0f0fa;--pat:none}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg) var(--pat);color:var(--ink);font:16px/1.5 var(--ui);padding-bottom:env(safe-area-inset-bottom,0px)}
+[lang="ar"]{font-family:'Amiri',serif}
+a{color:var(--accent)}
+button{font:inherit;color:inherit;cursor:pointer}
+.hide{display:none!important}
+.mh{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:8px;padding:calc(8px + env(safe-area-inset-top,0px)) 12px 8px;background:var(--paper);border-bottom:1px solid var(--line2)}
+.mh b{font:600 19px var(--serif)}.mh .sp{flex:1}
+.ib{width:38px;height:38px;border-radius:10px;border:1px solid var(--line2);background:var(--card);font-size:24px;line-height:1;color:var(--ink2)}
+.chip{text-decoration:none;font-size:13px;font-weight:600;color:var(--ink2);border:1px solid var(--line2);background:var(--card);border-radius:20px;padding:5px 10px}
+.chip i,.btn i{font-style:normal;background:var(--accent);color:#fff;border-radius:10px;padding:0 7px;margin-inline-start:4px;font-size:12px}
+.wrap{max-width:760px;margin:0 auto;padding:14px 14px 60px}
+h1{font:600 30px var(--serif);margin:4px 0}
+h2{font:600 19px var(--serif);margin:26px 0 10px;color:var(--ink)}h2 span{color:var(--gold);font-size:20px;margin-inline-start:6px}
+.btn{display:inline-flex;align-items:center;gap:4px;text-decoration:none;border:1px solid var(--line2);background:var(--card);color:var(--ink2);border-radius:10px;padding:9px 14px;font-weight:600;font-size:15px;cursor:pointer}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}.btn.pri i{background:#fff;color:var(--accent)}
+.btn.big{padding:12px 22px;font-size:17px}.btn.sm{padding:5px 10px;font-size:13px}.btn.on{background:var(--accentSoft);border-color:var(--accent);color:var(--accent)}
+.lnk{font-size:13px;color:var(--muted)}
+.hero{text-align:center;padding:18px 10px 6px}
+.hero-ar{font-size:44px;color:var(--accent);line-height:1.4}
+.hero p{margin:2px 0 14px;color:var(--ink2)}
+.hero-b{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.path{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.arr{color:var(--gold);font-size:22px}
+.bk{flex:1 1 130px;max-width:180px;border:1px solid var(--line2);background:var(--card);border-radius:16px;padding:12px 10px;display:flex;flex-direction:column;align-items:center;gap:2px;box-shadow:0 8px 18px -16px rgba(40,25,5,.8)}
+.bk .bar{font-size:24px;color:var(--accent);line-height:1.5}.bk b{font-size:15px}
+.bk small{font-size:11.5px;color:var(--muted)}.bk small.ok{color:var(--accent);font-weight:600}.bk small.rz{color:var(--gold);font-weight:700}
+.bk.yakinda{opacity:.62}.bk.hazir{border-color:var(--accent)}
+.kuran-tile{width:100%;border:0;border-radius:22px;padding:18px;color:#fff;background:linear-gradient(150deg,#d9c98f 0%,#6f8a6a 40%,#2f5a4a 78%,#24443a 100%);display:flex;flex-direction:column;align-items:center;gap:2px;box-shadow:0 14px 26px -18px rgba(40,25,5,.9)}
+.kuran-tile span{font-size:28px}.kuran-tile b{font-size:18px}.kuran-tile small{opacity:.9}
+.games{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.games button{border:1px solid var(--line2);background:var(--card);border-radius:16px;padding:14px;display:flex;flex-direction:column;align-items:center;gap:2px}
+.games b{font-size:16px}.games span{font-size:20px;color:var(--accent)}.games small{color:var(--muted);font-size:12px}
+.foot{font-size:13px;color:var(--muted);text-align:center;margin-top:30px;line-height:1.6}
+.intro{background:var(--card);border:1px solid var(--line2);border-radius:20px;padding:22px;text-align:center;margin-top:8px}
+.intro-ar{font-size:40px;color:var(--accent);line-height:1.5}
+.yolt{color:var(--gold);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.intro dl{text-align:start;margin:18px 0}.intro dt{font-weight:700;color:var(--accent);margin-top:12px}.intro dd{margin:2px 0 0;line-height:1.6;color:var(--ink2)}
+.soon{background:var(--goldSoft);border-radius:12px;padding:10px;color:var(--ink2)}
+.taslak{font-size:12.5px;color:var(--muted);text-align:center;margin:12px 0}
+.roots{display:flex;gap:6px;overflow-x:auto;padding:4px 0 8px}
+.roots button{flex:0 0 auto;border:1px solid var(--line2);background:var(--card);border-radius:12px;padding:4px 12px;display:flex;flex-direction:column;align-items:center}
+.roots button span{font-size:22px}.roots button small{font-size:11px;color:var(--muted)}
+.roots button.on{background:var(--accent);border-color:var(--accent);color:#fff}.roots button.on small{color:#e8f3ec}
+.mana{color:var(--ink2);margin:4px 0 8px}
+.tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:14px;margin-bottom:6px}
+.seg{display:inline-flex;border:1px solid var(--line2);border-radius:10px;overflow:hidden;background:var(--card)}
+.seg button{border:0;background:none;padding:6px 10px;font-size:13px;font-weight:600;color:var(--ink2)}
+.seg button.on,.seg button[aria-pressed="true"]{background:var(--accent);color:#fff}.seg button i{font-style:normal}
+.emh{background:var(--card);border:1px solid var(--line2);border-radius:18px;padding:4px 14px 6px;margin-top:10px}
+.mtl{display:flex;flex-wrap:wrap;gap:6px 4px;direction:rtl;justify-content:center;padding:6px 0}
+.mw{display:inline-flex;flex-direction:column;align-items:center;padding:2px 6px;border-radius:10px;cursor:pointer}
+.mw:hover{background:var(--goldSoft)}
+.mw b{font-size:24px;font-weight:400;color:var(--ink);line-height:1.6}.mw i{font-style:normal;font-size:11px;color:var(--muted);direction:ltr}
+.toc{display:flex;flex-wrap:wrap;gap:6px}
+.toc a{font-size:12.5px;text-decoration:none;border:1px solid var(--line2);border-radius:20px;padding:3px 9px;color:var(--ink2);background:var(--card)}
+.toc a.done{border-color:var(--accent);color:var(--accent)}.toc a.done::before{content:"✓ "}
+.sec{background:var(--card);border:1px solid var(--line2);border-radius:18px;margin:14px 0;overflow:hidden;scroll-margin-top:64px}
+.sec h3{margin:0;padding:12px 14px;font:600 16px var(--ui);display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;background:var(--paper);border-bottom:1px solid var(--line)}
+.sec h3 span{font-family:'Amiri',serif;color:var(--accent);font-size:19px;font-weight:400}
+.snote{font-size:13px;color:var(--muted);padding:6px 14px 0;margin:0}
+.er{display:grid;grid-template-columns:1fr auto;grid-template-areas:"l f" "t t";gap:0 12px;padding:8px 14px;border-bottom:1px solid var(--line);cursor:pointer;align-items:center}
+.er:hover{background:var(--goldSoft)}
+.ef{grid-area:f;font-size:27px;line-height:1.55;text-align:right;color:var(--ink)}
+.el{grid-area:l;font-size:12.5px;color:var(--muted)}.el span{font-size:14px}
+.et{grid-area:t;font-size:14.5px;color:var(--accent);text-align:start}
+.gz-ar .ef,.gz-ar .mw b{filter:blur(7px)}.gz-tr .et{filter:blur(5px)}
+.gz-ar .er.show .ef,.gz-ar .mw.show b,.gz-tr .er.show .et{filter:none}
+.sf{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 14px}
+.end{text-align:center;margin:24px 0}
+.prog{height:8px;background:var(--line);border-radius:6px;overflow:hidden;margin:6px 0 14px}.prog i{display:block;height:100%;background:var(--accent)}
+.q{background:var(--card);border:1px solid var(--line2);border-radius:20px;padding:18px}
+.qn{font-size:12.5px;color:var(--muted);font-weight:600}
+.qw{font-family:'Amiri',serif;font-size:42px;text-align:center;color:var(--accent);direction:rtl;margin:8px 0;line-height:1.6}.qw.big{font-size:46px}
+.qs{font-size:17px;text-align:center}.qs small{display:block;color:var(--muted);font-size:12.5px}
+.opts{display:grid;gap:8px}.opts.g6{grid-template-columns:1fr 1fr}
+.opts button{border:1.5px solid var(--line2);background:var(--paper);border-radius:12px;padding:11px 12px;text-align:start;font-size:15px}
+.opts button span{font-family:'Amiri',serif;font-size:18px;color:var(--ink2)}.opts .ar2{font-size:26px!important;display:block;text-align:center}
+.opts button.ok{border-color:#2f8a5b;background:#e2f3e8;color:#174d31}.opts button.bad{border-color:#b3261e;background:#fbe4e1;color:#7a1a14}
+[data-theme="gece"] .opts button.ok{background:#173d2a;color:#bfe9cf}[data-theme="gece"] .opts button.bad{background:#46201c;color:#ffd2cc}
+.qa p{margin:14px 0 6px;line-height:1.55}.okt{color:#1e7a4c}.badt{color:#a3261e}
+.qf{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.empty{text-align:center;background:var(--card);border:1px solid var(--line2);border-radius:20px;padding:28px 18px}
+.score{font:700 54px var(--serif);color:var(--accent)}
+.lead{color:var(--ink2)}
+.wl{padding-inline-start:18px}.wl li{margin:6px 0}.wl b{font-size:21px;font-weight:400;margin-inline-end:6px}.wl small{color:var(--muted)}
+.rr{display:grid;grid-template-columns:minmax(120px,1fr) 2fr auto auto;gap:8px;align-items:center;font-size:14px;padding:4px 0}
+.rb{height:10px;background:var(--line);border-radius:6px;overflow:hidden}.rb i{display:block;height:100%;background:#7aa58a}.rb i.md{background:#d6a645}.rb i.hi{background:#c0503f}
+.rr small{color:var(--muted)}
+.warn{background:#fbe9d6;border:1px solid #e7b98b;border-radius:14px;padding:10px 14px;color:#5a3412}.okbox{background:var(--accentSoft);border-radius:14px;padding:12px;color:var(--accent)}
+[data-theme="gece"] .warn{background:#3a2716;color:#f3d3b0;border-color:#6b4a26}
+.gbar{display:flex;justify-content:space-around;background:var(--card);border:1px solid var(--line2);border-radius:14px;padding:8px;margin-bottom:12px;font-size:14px}
+.srch{width:100%;margin:12px 0;padding:10px 12px;border:1px solid var(--line2);border-radius:10px;background:var(--card);color:var(--ink);font:inherit}
+.slist{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:6px}
+.slist a{display:grid;grid-template-columns:34px 1fr auto;grid-template-areas:"i b s" "i k s";text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px 10px;align-items:center}
+.slist i{grid-area:i;font-style:normal;color:var(--gold);font-weight:700}.slist b{grid-area:b;font-size:15px}.slist span{grid-area:s;font-size:20px;color:var(--accent)}.slist small{grid-area:k;color:var(--muted);font-size:12px}
+.qmode{display:flex;align-items:center;gap:8px;justify-content:center;flex-wrap:wrap;font-size:14px;color:var(--muted);position:sticky;top:58px;z-index:5;background:var(--bg);padding:8px 0}
+.qsh{text-align:center;margin:8px 0 14px}.qsh div:first-child{font-size:30px;color:var(--accent)}.qb{font-family:var(--qfont),'Amiri Quran',serif!important;font-size:26px;margin-top:4px}
+.ay{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin:0 0 12px}
+.ar-t{font-family:var(--qfont),'Amiri Quran',serif;font-size:var(--qsize);line-height:2.3;direction:rtl;text-align:right;word-spacing:2px}
+.num{display:inline-flex;align-items:center;justify-content:center;min-width:1.4em;height:1.4em;border:1.5px solid var(--gold);border-radius:50%;font-family:'Amiri',serif;font-size:.6em;color:var(--accent);vertical-align:middle}
+.qnav{display:flex;justify-content:space-between;margin:20px 0}
+.toast{position:fixed;left:50%;bottom:30px;transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:12px;font-size:14px;opacity:0;transition:opacity .25s;pointer-events:none;z-index:90;max-width:90vw;text-align:center}.toast.show{opacity:1}
+.pill{border:1px solid var(--line2);background:var(--card);border-radius:8px;padding:6px 10px;font-size:13px;font-weight:600;color:var(--ink2)}
+.fkw{font-family:'Amiri',serif;font-size:44px;text-align:center;color:var(--accent);direction:rtl;line-height:1.7}
+.rozet{text-align:center;padding:10px}.rz-i{font-size:60px;color:var(--gold)}
+.ov{position:fixed;inset:0;z-index:80;background:rgba(20,15,5,.45);display:flex;align-items:center;justify-content:center;padding:14px}
+.ov .in{background:var(--paper);border:1px solid var(--line2);border-radius:18px;max-width:640px;max-height:86vh;overflow:auto;padding:18px}
+.ov .in td,.ov .in th{text-align:start;vertical-align:top;padding:6px;border-bottom:1px solid var(--line);font-size:14px}
+.ar-t .kl{cursor:pointer;border-radius:8px;transition:background .15s}
+@media (hover:hover){.ar-t .kl:hover{background:var(--goldSoft)}}
+.ar-t .kl.on{background:var(--hl);box-shadow:0 0 0 2px var(--gold) inset}
+::highlight(kw){background-color:var(--hl)}
+html.kwlock{overflow:hidden}
+.kwov{position:fixed;inset:0;z-index:70;background:rgba(20,15,5,.35);display:flex;align-items:flex-end;justify-content:center}
+.kwov.hide{display:none}
+.kws{background:var(--paper);color:var(--ink);width:min(640px,100%);max-height:82vh;overflow:auto;border:1px solid var(--line2);border-bottom:0;border-radius:20px 20px 0 0;box-shadow:0 -20px 60px -20px rgba(0,0,0,.4);padding:10px 18px calc(18px + env(safe-area-inset-bottom,0px));font-family:var(--ui);animation:kwUp .18s ease-out}
+@keyframes kwUp{from{transform:translateY(30px);opacity:.4}to{transform:none;opacity:1}}
+@media (min-width:760px){.kwov{align-items:center}.kws{border-radius:20px;border-bottom:1px solid var(--line2)}}
+.kwh{display:flex;align-items:center;gap:6px;position:sticky;top:-10px;background:var(--paper);padding:4px 0;z-index:1}
+.kwref{flex:1;text-align:center;font-size:13px;color:var(--muted);font-weight:600;letter-spacing:.02em}
+.kwx{border:1px solid var(--line2);background:var(--card);color:var(--ink2);border-radius:10px;min-width:38px;height:36px;font-size:20px;line-height:1;cursor:pointer}
+.kwx:disabled{opacity:.35;cursor:default}.kwc{font-size:15px;margin-inline-start:6px}
+.kww{font-family:var(--qfont),'Amiri Quran',serif;font-size:calc(var(--qsize) * 1.25);text-align:center;direction:rtl;line-height:1.9;color:var(--accent);margin:2px 0}
+.kwsg{display:flex;justify-content:center;gap:6px;direction:rtl;flex-wrap:wrap;align-items:center;margin-bottom:8px}
+.kwsg span{font-family:var(--qfont),'Amiri Quran',serif;font-size:22px;padding:0 10px;border-radius:8px;border:1px solid var(--line2);background:var(--card)}
+.kwsg span.v{border-color:var(--accent)}.kwsg span.p{border-style:dashed}.kwsg b{color:var(--muted);font-weight:400}
+.kwtab{display:flex;gap:6px;background:var(--card);border:1px solid var(--line2);border-radius:12px;padding:4px;margin:4px 0 10px}
+.kwtab button{flex:1;border:0;background:none;border-radius:9px;padding:8px 6px;font:600 15px var(--ui);color:var(--ink2);cursor:pointer}
+.kwtab button i{font-style:normal;font-family:'Amiri',serif;opacity:.75;margin-inline-start:4px}
+.kwtab button[aria-selected="true"]{background:var(--accent);color:#fff}
+.kwt{width:100%;border-collapse:collapse;font-size:15px}
+.kwt th{text-align:start;color:var(--muted);font-weight:600;padding:6px 10px 6px 0;width:34%;vertical-align:top;border-bottom:1px solid var(--line)}
+.kwt td{padding:6px 0;border-bottom:1px solid var(--line)}
+.kar{font-family:'Amiri',serif;font-size:1.15em;direction:rtl;unicode-bidi:isolate}
+.tah{font-size:11px;background:var(--goldSoft);color:var(--ink2);border-radius:6px;padding:1px 6px;margin-inline-start:4px}
+.kir{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:8px 12px;margin:0 0 8px}
+.kir p{margin:4px 0;font-size:15px;line-height:1.5}
+.kir .ira{font-family:'Amiri',serif;font-size:19px;direction:rtl;text-align:right;color:var(--ink);line-height:1.7}
+.kseg{float:inline-start;font-family:var(--qfont),'Amiri Quran',serif;font-size:22px;color:var(--accent);margin-inline-end:10px;line-height:1.3}
+.knote{font-size:13.5px;color:var(--muted);line-height:1.5}
+.kok{font-size:12.5px;color:var(--muted);text-align:center;margin:10px 0 2px;padding:6px;border-radius:8px;background:var(--goldSoft)}
+.kok.ok{background:var(--accentSoft);color:var(--accent);font-weight:600}
+.kwf{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:10px}.kwf .pill{text-decoration:none;cursor:pointer}
+.kems{margin-top:12px;border:1px solid var(--line2);border-radius:12px;overflow:hidden;background:var(--card)}
+.kemh{font:700 13px var(--ui);letter-spacing:.06em;text-transform:uppercase;color:var(--gold);padding:8px 12px 0}
+.kemm{font-family:'Amiri',serif;font-size:20px;direction:rtl;text-align:center;padding:4px 10px 8px;color:var(--accent)}
+.kemt{width:100%;border-collapse:collapse;font-size:13px}
+.kemt th{text-align:start;font-weight:600;color:var(--ink2);padding:4px 10px;border-top:1px solid var(--line)}
+.kemt th span{font-family:'Amiri',serif;color:var(--muted);font-weight:400}
+.kemt thead th{background:var(--paper);color:var(--muted);font-size:12px}
+.kemt td{font-family:'Amiri',serif;font-size:19px;direction:rtl;text-align:center;padding:2px 8px;border-top:1px solid var(--line)}
+.kemt td.on{background:var(--hl);box-shadow:inset 0 0 0 2px var(--gold);font-weight:700}
+.kems .knote{padding:6px 12px;margin:0}
+.kkd{border-bottom:1px solid var(--line);padding:6px 0}.kkd summary{cursor:pointer;font-size:15px}.kkd summary span{font-family:'Amiri',serif;font-size:20px}
+.kkd small{color:var(--muted);margin-inline-start:6px}
+.kref{display:flex;flex-wrap:wrap;gap:4px;padding:6px 0}.kref button{border:1px solid var(--line2);background:var(--card);border-radius:7px;padding:2px 7px;font:12.5px var(--ui);color:var(--ink2);cursor:pointer}
+
+</style></head><body>
+<main id="v"></main>
+<div class="toast" id="toast" role="status"></div>
+<div class="ov hide" id="src" onclick="if(event.target===this)this.classList.add('hide')"><div class="in"><h2 style="margin-top:0">Kaynaklar ve lisans</h2>
+<table>
+<tr><th>Kur’an metni</th><td>Tanzil projesi (Hafs rivâyeti, Osmânî resm) — AlQuran.cloud üzerinden, uygulamaya gömülü.</td></tr>
+<tr><th>Kelime verisi</th><td><i>Quranic Arabic Corpus</i> morfoloji verisi v0.4 (Kais Dukes, Leeds Üniversitesi; corpus.quran.com), <b>GNU GPL</b> lisanslı; düzeltilmiş çatalı mustafa0x/quran-morphology. Dağıtılan türetilmiş veri: <code>data/morph/</code>.</td></tr>
+<tr><th>Medrese terimleri, i‘râb cümleleri, bâb tespiti, Emsile kalıpları, Türkçe satır altı</th><td>Bu çalışma için kural ile üretilmiştir. <b>Ehil onayından geçene kadar taslaktır.</b> Onaylı i‘râblar <code>data/morph/onay.json</code> dosyasından gelir ve “Onaylı” damgası taşır.</td></tr>
+<tr><th>Kitap tanıtımları</th><td>Taslak; ilmî atıf için kitapların basılı nüshalarına müracaat ediniz.</td></tr>
+</table><p style="text-align:center"><button class="btn" onclick="$('#src').classList.add('hide')">Kapat</button></p></div></div>
+<script>
+const S_TR="Fâtiha|Bakara|Âl-i İmrân|Nisâ|Mâide|En'âm|A'râf|Enfâl|Tevbe|Yûnus|Hûd|Yûsuf|Ra'd|İbrâhîm|Hicr|Nahl|İsrâ|Kehf|Meryem|Tâhâ|Enbiyâ|Hac|Mü'minûn|Nûr|Furkân|Şuarâ|Neml|Kasas|Ankebût|Rûm|Lokmân|Secde|Ahzâb|Sebe'|Fâtır|Yâsîn|Sâffât|Sâd|Zümer|Mü'min (Gâfir)|Fussılet|Şûrâ|Zuhruf|Duhân|Câsiye|Ahkâf|Muhammed|Fetih|Hucurât|Kâf|Zâriyât|Tûr|Necm|Kamer|Rahmân|Vâkıa|Hadîd|Mücâdele|Haşr|Mümtehine|Saf|Cum'a|Münâfikûn|Teğâbün|Talâk|Tahrîm|Mülk|Kalem|Hâkka|Meâric|Nûh|Cin|Müzzemmil|Müddessir|Kıyâme|İnsân|Mürselât|Nebe'|Nâziât|Abese|Tekvîr|İnfitâr|Mutaffifîn|İnşikâk|Bürûc|Târık|A'lâ|Gâşiye|Fecr|Beled|Şems|Leyl|Duhâ|İnşirâh|Tîn|Alak|Kadr|Beyyine|Zilzâl|Âdiyât|Kâria|Tekâsür|Asr|Hümeze|Fîl|Kureyş|Mâûn|Kevser|Kâfirûn|Nasr|Tebbet|İhlâs|Felak|Nâs".split("|");
+const S_AR="الفاتحة|البقرة|آل عمران|النساء|المائدة|الأنعام|الأعراف|الأنفال|التوبة|يونس|هود|يوسف|الرعد|إبراهيم|الحجر|النحل|الإسراء|الكهف|مريم|طه|الأنبياء|الحج|المؤمنون|النور|الفرقان|الشعراء|النمل|القصص|العنكبوت|الروم|لقمان|السجدة|الأحزاب|سبأ|فاطر|يس|الصافات|ص|الزمر|غافر|فصلت|الشورى|الزخرف|الدخان|الجاثية|الأحقاف|محمد|الفتح|الحجرات|ق|الذاريات|الطور|النجم|القمر|الرحمن|الواقعة|الحديد|المجادلة|الحشر|الممتحنة|الصف|الجمعة|المنافقون|التغابن|الطلاق|التحريم|الملك|القلم|الحاقة|المعارج|نوح|الجن|المزمل|المدثر|القيامة|الإنسان|المرسلات|النبأ|النازعات|عبس|التكوير|الانفطار|المطففين|الانشقاق|البروج|الطارق|الأعلى|الغاشية|الفجر|البلد|الشمس|الليل|الضحى|الشرح|التين|العلق|القدر|البينة|الزلزلة|العاديات|القارعة|التكاثر|العصر|الهمزة|الفيل|قريش|الماعون|الكوثر|الكافرون|النصر|المسد|الإخلاص|الفلق|الناس".split("|");
+const S_CNT=[7,286,200,176,120,165,206,75,129,109,123,111,43,52,99,128,111,110,98,135,112,78,118,64,77,227,93,88,69,60,34,30,73,54,45,83,182,88,75,85,54,53,89,59,37,35,38,29,18,45,60,49,62,55,78,96,29,22,24,13,14,11,11,18,12,12,30,52,52,44,28,28,20,56,40,31,50,40,46,42,29,19,36,25,22,17,19,26,30,20,15,21,11,8,8,19,5,8,8,11,11,8,3,9,5,4,7,3,6,3,5,4,5,6];
+</script>
+<script src="kelime.js"></script>
+<script src="medrese.js"></script>
+</body></html>
