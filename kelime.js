@@ -5,6 +5,8 @@
 (function(){
 'use strict';
 const K = window.Kelime = {};
+/* Sayfanın verebileceği kancalar: irab(a) — âyetin tam i'râbını aç; jump(s,a,w) — başka âyete git */
+K.cfg = { irab: null, jump: null };
 const $q = (s, r) => (r || document).querySelector(s);
 const E = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const store = { get(k, d){ try{ const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v) }catch(e){ return d } }, set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)) }catch(e){} } };
@@ -396,7 +398,7 @@ function ensure(){
     const k = b.dataset.k;
     if(k === 'close') K.close();
     else if(k === 'next') step(1); else if(k === 'prev') step(-1);
-    else if(k === 'irab'){ const a = cur.a; K.close(); if(typeof openBox === 'function') openBox(a, 'irab') }
+    else if(k === 'irab'){ const s = cur.s, a = cur.a; K.close(); if(K.cfg.irab) K.cfg.irab(s, a) }
     else if(k === 'kok') kokYerleri();
   });
   document.addEventListener('keydown', e => { if(!cur || ov.classList.contains('hide')) return;
@@ -417,6 +419,7 @@ K.open = async (s, a, w) => {
 async function show(){
   const { s, a, w, A } = cur, S = A[w].map(seg), B = await babs(), O = await onay();
   const mode = MODE();
+  $q('[data-k="irab"]', ov).style.display = K.cfg.irab ? '' : 'none';
   $q('#kwRef', ov).textContent = `${s}:${a} · ${w + 1}. kelime`;
   $q('#kwW', ov).textContent = S.map(x => x.t).join('');
   $q('#kwSg', ov).innerHTML = S.length > 1 ? S.map(x => `<span lang="ar" class="${x.pos === 'V' ? 'v' : x.pos === 'N' ? 'n' : 'p'}">${E(x.t)}</span>`).join('<b>+</b>') : '';
@@ -521,6 +524,7 @@ K.onTap = (e, s) => {
 /* başka bir yere git ve kelimeyi göster */
 K._t = { seg, sarf, ira, failCtx, prevVerbRoot, emsileTable, forms };
 K.jump = async (s, a, w) => {
+  if(K.cfg.jump) return K.cfg.jump(s, a, w);
   if(typeof st !== 'undefined' && st.s === s && document.getElementById('a' + a)){ const e = document.getElementById('a' + a); e.scrollIntoView({ block: 'center', behavior: 'smooth' }) }
   else if(typeof loadSurah === 'function') await loadSurah(s, a);
   setTimeout(() => K.open(s, a, w), 350);

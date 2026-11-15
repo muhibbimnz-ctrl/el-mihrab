@@ -67,54 +67,6 @@ a{color:var(--accent)}
 .ay.open{border-color:var(--gold);box-shadow:0 6px 24px -14px rgba(80,55,10,.45)}
 .ay-in{padding:18px 22px 10px}
 .ar-t{font-family:var(--qfont),'Amiri Quran',serif;font-size:var(--qsize);line-height:2.3;direction:rtl;text-align:right;word-spacing:2px}
-.ar-t .kl{cursor:pointer;border-radius:8px;transition:background .15s}
-@media (hover:hover){.ar-t .kl:hover{background:var(--goldSoft)}}
-.ar-t .kl.on{background:var(--hl);box-shadow:0 0 0 2px var(--gold) inset}
-::highlight(kw){background-color:var(--hl)}
-html.kwlock{overflow:hidden}
-.kwov{position:fixed;inset:0;z-index:70;background:rgba(20,15,5,.35);display:flex;align-items:flex-end;justify-content:center}
-.kwov.hide{display:none}
-.kws{background:var(--paper);color:var(--ink);width:min(640px,100%);max-height:82vh;overflow:auto;border:1px solid var(--line2);border-bottom:0;border-radius:20px 20px 0 0;box-shadow:0 -20px 60px -20px rgba(0,0,0,.4);padding:10px 18px calc(18px + env(safe-area-inset-bottom,0px));font-family:var(--ui);animation:kwUp .18s ease-out}
-@keyframes kwUp{from{transform:translateY(30px);opacity:.4}to{transform:none;opacity:1}}
-@media (min-width:760px){.kwov{align-items:center}.kws{border-radius:20px;border-bottom:1px solid var(--line2)}}
-.kwh{display:flex;align-items:center;gap:6px;position:sticky;top:-10px;background:var(--paper);padding:4px 0;z-index:1}
-.kwref{flex:1;text-align:center;font-size:13px;color:var(--muted);font-weight:600;letter-spacing:.02em}
-.kwx{border:1px solid var(--line2);background:var(--card);color:var(--ink2);border-radius:10px;min-width:38px;height:36px;font-size:20px;line-height:1;cursor:pointer}
-.kwx:disabled{opacity:.35;cursor:default}.kwc{font-size:15px;margin-inline-start:6px}
-.kww{font-family:var(--qfont),'Amiri Quran',serif;font-size:calc(var(--qsize) * 1.25);text-align:center;direction:rtl;line-height:1.9;color:var(--accent);margin:2px 0}
-.kwsg{display:flex;justify-content:center;gap:6px;direction:rtl;flex-wrap:wrap;align-items:center;margin-bottom:8px}
-.kwsg span{font-family:var(--qfont),'Amiri Quran',serif;font-size:22px;padding:0 10px;border-radius:8px;border:1px solid var(--line2);background:var(--card)}
-.kwsg span.v{border-color:var(--accent)}.kwsg span.p{border-style:dashed}.kwsg b{color:var(--muted);font-weight:400}
-.kwtab{display:flex;gap:6px;background:var(--card);border:1px solid var(--line2);border-radius:12px;padding:4px;margin:4px 0 10px}
-.kwtab button{flex:1;border:0;background:none;border-radius:9px;padding:8px 6px;font:600 15px var(--ui);color:var(--ink2);cursor:pointer}
-.kwtab button i{font-style:normal;font-family:'Amiri',serif;opacity:.75;margin-inline-start:4px}
-.kwtab button[aria-selected="true"]{background:var(--accent);color:#fff}
-.kwt{width:100%;border-collapse:collapse;font-size:15px}
-.kwt th{text-align:start;color:var(--muted);font-weight:600;padding:6px 10px 6px 0;width:34%;vertical-align:top;border-bottom:1px solid var(--line)}
-.kwt td{padding:6px 0;border-bottom:1px solid var(--line)}
-.kar{font-family:'Amiri',serif;font-size:1.15em;direction:rtl;unicode-bidi:isolate}
-.tah{font-size:11px;background:var(--goldSoft);color:var(--ink2);border-radius:6px;padding:1px 6px;margin-inline-start:4px}
-.kir{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:8px 12px;margin:0 0 8px}
-.kir p{margin:4px 0;font-size:15px;line-height:1.5}
-.kir .ira{font-family:'Amiri',serif;font-size:19px;direction:rtl;text-align:right;color:var(--ink);line-height:1.7}
-.kseg{float:inline-start;font-family:var(--qfont),'Amiri Quran',serif;font-size:22px;color:var(--accent);margin-inline-end:10px;line-height:1.3}
-.knote{font-size:13.5px;color:var(--muted);line-height:1.5}
-.kok{font-size:12.5px;color:var(--muted);text-align:center;margin:10px 0 2px;padding:6px;border-radius:8px;background:var(--goldSoft)}
-.kok.ok{background:var(--accentSoft);color:var(--accent);font-weight:600}
-.kwf{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:10px}.kwf .pill{text-decoration:none;cursor:pointer}
-.kems{margin-top:12px;border:1px solid var(--line2);border-radius:12px;overflow:hidden;background:var(--card)}
-.kemh{font:700 13px var(--ui);letter-spacing:.06em;text-transform:uppercase;color:var(--gold);padding:8px 12px 0}
-.kemm{font-family:'Amiri',serif;font-size:20px;direction:rtl;text-align:center;padding:4px 10px 8px;color:var(--accent)}
-.kemt{width:100%;border-collapse:collapse;font-size:13px}
-.kemt th{text-align:start;font-weight:600;color:var(--ink2);padding:4px 10px;border-top:1px solid var(--line)}
-.kemt th span{font-family:'Amiri',serif;color:var(--muted);font-weight:400}
-.kemt thead th{background:var(--paper);color:var(--muted);font-size:12px}
-.kemt td{font-family:'Amiri',serif;font-size:19px;direction:rtl;text-align:center;padding:2px 8px;border-top:1px solid var(--line)}
-.kemt td.on{background:var(--hl);box-shadow:inset 0 0 0 2px var(--gold);font-weight:700}
-.kems .knote{padding:6px 12px;margin:0}
-.kkd{border-bottom:1px solid var(--line);padding:6px 0}.kkd summary{cursor:pointer;font-size:15px}.kkd summary span{font-family:'Amiri',serif;font-size:20px}
-.kkd small{color:var(--muted);margin-inline-start:6px}
-.kref{display:flex;flex-wrap:wrap;gap:4px;padding:6px 0}.kref button{border:1px solid var(--line2);background:var(--card);border-radius:7px;padding:2px 7px;font:12.5px var(--ui);color:var(--ink2);cursor:pointer}
 .num{display:inline-flex;align-items:center;justify-content:center;min-width:1.5em;height:1.5em;margin:0 .25em;font-family:'Amiri',serif;font-size:.6em;color:var(--accent);border:1.5px solid var(--gold);border-radius:50%;vertical-align:.15em;background:var(--paper)}
 .meal{font-family:var(--serif);font-size:var(--msize);line-height:1.65;color:var(--ink2);margin:8px 0 2px}
 .meal .k{font-family:var(--ui);font-size:11px;font-weight:700;color:var(--accent);background:var(--accentSoft);border-radius:6px;padding:1px 7px;margin-right:7px;vertical-align:2px;text-transform:uppercase;letter-spacing:.3px}
@@ -200,12 +152,13 @@ html.kwlock{overflow:hidden}
 .hm-logo{text-align:center}
 .hm-ar{font-family:'Amiri',serif;font-size:34px;color:var(--ink);line-height:1.3;margin-top:4px}
 .hm-tr{font-size:12px;letter-spacing:2.4px;color:var(--ink2);font-weight:600}
-.tile.big1,.tile.big2{width:min(260px,72vw);aspect-ratio:1/0.92;border-radius:44px;gap:8px}
-.big1 svg,.big2 svg{width:84px;height:64px}
-.big1 b,.big2 b{font-size:22px}
+.tile.big1,.tile.big2,.tile.big3{width:min(260px,72vw);aspect-ratio:1/0.92;border-radius:44px;gap:8px}
+.big1 svg,.big2 svg,.big3 svg{width:84px;height:64px}
+.big1 b,.big2 b,.big3 b{font-size:22px}
 .hm-sub{font-size:13px;opacity:.9;padding:0 10px;line-height:1.35}
 .big1{background:linear-gradient(150deg,#e3cf8c 0%,#8e9578 38%,#4a5f6a 75%,#3a4a55 100%)}
 .big2{background:linear-gradient(150deg,#e6c98a 0%,#9a7448 40%,#5e4038 80%,#4a3330 100%)}
+.big3{background:linear-gradient(150deg,#d9c98f 0%,#6f8a6a 40%,#2f5a4a 78%,#24443a 100%)}
 .hm-links{font-size:14px;color:var(--muted)}
 .nm-in{flex:1;overflow-y:auto;padding:14px 14px 24px;max-width:720px;width:100%;margin:0 auto}
 #namaz{top:0;z-index:45}
@@ -445,6 +398,7 @@ html.kwlock{overflow:hidden}
     <div class="hm-ar">المِحْرَاب</div><div class="hm-tr">EL-MİHRÂB · KUR'ÂN-I KERÎM VE TEFSÎRİ</div></div>
   <button class="tile big1" id="hNamaz"><svg viewBox="0 0 64 48"><path d="M32 12C24 6 14 5 6 7v32c8-2 18-1 26 5 8-6 18-7 26-5V7c-8-2-18-1-26 5z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M32 12v32" stroke="currentColor" stroke-width="3"/></svg><b>Namaz ve Kur'an</b><span class="hm-sub" id="hNx">Ezan vakitleri · Okuma · Ezber · Dil</span></button>
   <button class="tile big2" id="hStudy"><svg viewBox="0 0 64 48"><path d="M10 44V22C10 12 20 5 32 2c12 3 22 10 22 20v22z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M20 44V25c0-7 6-12 12-15 6 3 12 8 12 15v19" fill="none" stroke="currentColor" stroke-width="2"/></svg><b>el-Mihrâb Dirâset</b><span class="hm-sub" id="hStudyT">Tefsir · İ'râb · Belâgat · Kıraat</span></button>
+  <button class="tile big3" id="hMedrese"><svg viewBox="0 0 64 48"><path d="M8 44h48M12 44V20h40v24M6 20l26-15 26 15" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M26 44V32a6 6 0 0 1 12 0v12" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M18 26v8M46 26v8" stroke="currentColor" stroke-width="2.5"/></svg><b>Medrese</b><span class="hm-sub">Sarf · Nahiv · Kur'an i'râbı</span></button>
   <div class="hm-links"><a href="#" id="hList">Sûre seç</a> · <a href="#" onclick="about();return false">Hakkında ve destek</a></div>
 </div></section>
 
@@ -534,7 +488,6 @@ html.kwlock{overflow:hidden}
     <tr><td>Kıraat farkları ve rivâyet sesleri</td><td>Quranpedia kıraat veritabanı</td></tr>
     <tr><td>Tilâvet sesleri</td><td>EveryAyah.com ve Islamic Network ses arşivi</td></tr>
     <tr><td>Tecvid renkleri, Latin okunuş</td><td>Quran.com; AlQuran.cloud</td></tr>
-    <tr><td>Kelime kartı (sarf ve nahiv)</td><td>Kök, kelime türü, sîga ve i'râb hâli etiketleri: <i>Quranic Arabic Corpus</i> (Kais Dukes, Leeds Üniversitesi; corpus.quran.com) morfoloji verisi v0.4, GNU GPL lisansıyla — düzeltilmiş çatalı: mustafa0x/quran-morphology. Türkçe medrese terimleri, i'râb cümleleri, bâb tespiti ve Emsile çekim tabloları bu verinin üzerine kural ile üretilir; <b>ehil onayından geçmeyenler "taslak" olarak işaretlidir.</b> Âyetin tam i'râbı için <i>İ'râb</i> düğmesindeki basılı eserlere bakınız.</td></tr>
    </table>
    <p><b>Programın yaptığı tek işlem:</b> Bazı tefsirler kaynakta sayfa sayfa durur. Program, okuduğunuz âyetin şerhinin başladığı yeri bulup oradan gösterir; metnin kendisine dokunmaz. Böyle durumlarda kutunun üstünde <i>sayfanın tamamını göster</i> bağlantısı çıkar.</p>
    <p><b>Hata görürseniz:</b> Metni kaynak sayfasıyla karşılaştırın. Fark varsa bizim tarafımızdadır, lütfen bildirin; yoksa kaynaktaki dijital nüshadan gelmektedir. İlmî çalışmalarda atıf için eserin basılı nüshasına müracaat ediniz.</p>
@@ -552,7 +505,6 @@ html.kwlock{overflow:hidden}
 <div class="toast" id="toast"></div>
 <audio id="audio" preload="auto"></audio>
 
-<script src="kelime.js"></script>
 <script>
 'use strict';
 /* ================= SÛRE VERİLERİ ================= */
@@ -895,7 +847,7 @@ async function offSurah(s,eds){const r=await Promise.all(eds.map(ed=>locEd(ed,s)
 async function offAyah(ed,s,a){try{return (await locEd(ed,s)).ayahs[a-1]?.text}catch(e){return null}}
 async function offStatus(){return LS.get('mihrab.offdone',0)?['x','x','x','x']:[]}
 async function offDownload(btn,info){
-  const eds=[...new Set(['quran-uthmani','quran-simple',...MEALS.map(m=>m[0]),TRL])];const jobs=['kelime.js','data/morph/babs.json','data/morph/roots.json','data/morph/onay.json','arapca.html','farsca.html','ingilizce.html','almanca.html','fransizca.html','ispanyolca.html','index.html','manifest.webmanifest','icon-192.png','icon-512.png'];
+  const eds=[...new Set(['quran-uthmani','quran-simple',...MEALS.map(m=>m[0]),TRL])];const jobs=['medrese.html','medrese.js','kelime.js','data/morph/babs.json','data/morph/roots.json','data/morph/onay.json','arapca.html','farsca.html','ingilizce.html','almanca.html','fransizca.html','ispanyolca.html','index.html','manifest.webmanifest','icon-192.png','icon-512.png'];
   for(const ed of eds)for(let s=1;s<=114;s++)jobs.push(`data/q/${ed}/${s}.json`);
   for(let s=1;s<=114;s++)jobs.push(`data/morph/${s}.json`);
   let done=0,fail=0;
@@ -925,7 +877,7 @@ function head(s){return `<div class="sh"><div class="a">سُورَةُ ${S_AR[s-
 const DUA=`<div class="dua"><span class="o">۞</span><span class="da">لَا تَنْسَوْنِي مِنْ صَالِحِ دُعَائِكُمْ</span><span class="dt">Beni hayır dualarınızda unutmayın</span><span class="o">۞</span></div>`;
 function ayHTML(a){
   return `<article class="ay" id="a${a.n}" data-a="${a.n}"><div class="ay-in">
-   <div class="ar-t" lang="ar">${a.tj||(window.Kelime&&set.kelime!==false?Kelime.wrap(a.text):esc(a.text))} <span class="num">${toAr(a.n)}</span></div>
+   <div class="ar-t" lang="ar">${a.tj||esc(a.text)} <span class="num">${toAr(a.n)}</span></div>
    ${set.translit&&a.tr[TRL]?`<div class="translit">${esc(a.tr[TRL])}</div>`:''}
    ${(set.showMeal?set.meals:[]).map(m=>a.tr[m]?`<p class="meal"><span class="k">${esc(MEAL_N[m].split(' ')[0])}</span>${esc(a.tr[m])}</p>`:'').join('')}
    </div><div class="bar"><span class="key">${st.s}:${a.n}${a.sajda?' · ۩ secde':''}</span><button class="tb play" data-c="play" title="Bu âyeti dinle">${icon('p',15)}</button>
@@ -948,7 +900,6 @@ async function loadTajweed(s,tok){
 
 /* ================= KUTU (âyet altı) ================= */
 $('#main').addEventListener('click',e=>{
-  if(window.Kelime&&!e.target.closest('.tb')&&!(getSelection()+'')&&Kelime.onTap(e,st.s))return;
   const b=e.target.closest('.tb');if(!b)return;const n=+b.closest('.ay').dataset.a;const c=b.dataset.c;
   if(c==='play'){playAyah(n);return}
   if(!set.reader&&st.open&&st.open.n===n&&st.open.c===c){closeBox();return}
@@ -1060,7 +1011,7 @@ async function qcfEnhance(s){if(set.script==='simple'||!navigator.onLine||!st.ay
   try{if(!QV[s]){const all=[];let pg=1,tot=1;do{const r=await getJSON(`https://api.qurancdn.com/api/qdc/verses/by_chapter/${s}?words=true&word_fields=code_v2,page_number&per_page=50&page=${pg}&mushaf=1`,12000);all.push(...r.verses);tot=r.pagination?.total_pages||1;pg++}while(pg<=tot);QV[s]=all}
     if(st.s!==s)return;const V=QV[s],pages=[...new Set(V.flatMap(v=>v.words.map(w=>w.page_number)))];const ok={};await Promise.all(pages.map(async p=>ok[p]=await qcfFont(p)));
     if(st.s!==s)return;for(const v of V){const n=+v.verse_key.split(':')[1],el=$('#a'+n+' .ar-t');if(!el||!v.words.every(w=>w.code_v2&&ok[w.page_number]))continue;
-      let ti=-1;el.innerHTML=v.words.map(w=>`<span ${w.char_type_name!=='end'?`class="kl" data-t="${++ti}" `:''}style="font-family:qcf${w.page_number}">${w.code_v2}</span>`).join(' ');el.classList.add('qf')}}catch(e){}}
+      el.innerHTML=v.words.map(w=>`<span style="font-family:qcf${w.page_number}">${w.code_v2}</span>`).join(' ');el.classList.add('qf')}}catch(e){}}
 
 async function qcfFont(p){if(qcfOK[p])return true;const urls=[`https://static.qurancdn.com/fonts/quran/hafs/v2/woff2/p${p}.woff2`,`https://verses.quran.foundation/fonts/quran/hafs/v2/woff2/p${p}.woff2`];
   for(const u of urls){try{const f=new FontFace('qcf'+p,`url(${u}) format('woff2')`,{display:'block'});await Promise.race([f.load(),new Promise((_,j)=>setTimeout(()=>j(0),9000))]);document.fonts.add(f);qcfOK[p]=1;return true}catch(e){}}return false}
@@ -1315,7 +1266,6 @@ function settings(){
    <section style="grid-column:1/-1"><h4>Okuma ve kaynaklar</h4>
     <label class="ck"><input type="checkbox" id="rdC" ${set.reader?'checked':''}> <b>Okuma ekranı:</b> tefsir okurken âyet üstte sabit kalsın</label>
     <p class="note">Kapalıyken tefsir, âyetin hemen altında açılan kutuda gösterilir.</p>
-    <label class="ck"><input type="checkbox" id="kwC" ${set.kelime!==false?'checked':''}> <b>Kelime kartı:</b> âyetteki bir kelimeye dokununca Sarf ve Nahiv (i'râb) çözümlemesi açılsın</label>
     <button class="pill" id="srcB">Kaynaklar ve güvenilirlik ›</button> <button class="pill" id="abtB">Hakkında ve destek ›</button></section>
    <section><h4>Ses</h4><div class="f"><label class="l">Kâri</label><select id="rS">${RECITERS.map(r=>`<option value="${r[0]}" ${r[0]===set.reciter?'selected':''}>${r[1]}</option>`).join('')}</select></div>
     <label class="ck"><input type="checkbox" id="cC" ${set.cont?'checked':''}> Âyet bitince sonrakine geç</label></section></div>`;
@@ -1330,7 +1280,6 @@ function settings(){
   $('#rS').onchange=e=>{set.reciter=e.target.value;$('#recSel').value=set.reciter;save();upd()};
   $$('[data-lg]',B).forEach(x=>x.onclick=()=>{if(x.dataset.lg===LANG)return;set.lang=x.dataset.lg;set.langPicked=1;set.meals=[];save();location.reload()});
   $('#rdC').onchange=e=>{closeBox();set.reader=e.target.checked;save()};
-  $('#kwC').onchange=e=>{set.kelime=e.target.checked;save();render()};
   $('#offB').onclick=e=>offDownload(e.target,$('#offI'));offStatus().then(k=>{if(k.length>3)$('#offB').textContent=trS('İndirildi ✓')});
   $('#srcB').onclick=()=>openOv('ovK');$('#abtB').onclick=about;
   $('#cC').onchange=e=>{set.cont=e.target.checked;save()};
@@ -1382,7 +1331,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('sw.js').catch(()=>{});
   $('#okX').innerHTML=icon('l');$('#ezX').innerHTML=icon('l');$('#ezPl').innerHTML=icon('p',22);
   $('.brand').style.cursor='pointer';$('.brand').onclick=showHome;$('.brand').title=trS('Ana sayfa');
-  $('#hNamaz').onclick=openNamaz;$('#nmX').innerHTML=icon('l');$('#nmX').onclick=showHome;
+  $('#hNamaz').onclick=openNamaz;$('#hMedrese').onclick=()=>{location.href='medrese.html'};$('#nmX').innerHTML=icon('l');$('#nmX').onclick=showHome;
   $('#hRead').onclick=()=>openOkuma();$('#hHifz').onclick=openEzber;$('#hStudy').onclick=()=>{const l=LS.get('beyan2.last',{s:1,a:1});hideScr();if(l.s===st.s&&st.ay.length){const e=$('#a'+l.a);e&&e.scrollIntoView({block:'center'})}else loadSurah(l.s||1,l.a>1?l.a:null)};
   $('#hList').onclick=e=>{e.preventDefault();hideScr();openOv('ovS');surahList('s')};
   $('#hOff').onclick=e=>{e.preventDefault();offDownload(e.target,$('#hOffI'))};
