@@ -1,356 +1,680 @@
 {
 "id": "avamil",
-"baslik": "العوامل",
-"tur": "ders",
-"kaynak": "el-Mihrâb ders notu",
+"baslik": "العوامل المائة — عبد القاهر الجرجاني",
+"kaynak": "Avâmil-i Cürcânî (Mie Âmil); harekeli nüsha",
+"tr_kaynak": "Türkçe tercüme: el-Mihrâb",
 "bolumler": [
 {
-"b": "العامل والمعمول",
-"tr_b": "Âmil, ma‘mûl ve i‘râb",
-"n": [
-"Avâmil, nahve giriş kitabıdır. Temel fikri şudur: kelimenin sonundaki değişiklik (i‘râb) kendiliğinden olmaz; onu bir <b>âmil</b> yapar. Âmilin etkilediği kelimeye <b>ma‘mûl</b>, ortaya çıkan harekeye <b>i‘râb alâmeti</b> denir.",
-"<span lang=\"ar\">فِي الدَّارِ</span> örneğinde <span lang=\"ar\">فِي</span> âmil, <span lang=\"ar\">الدَّارِ</span> ma‘mûl, kesre i‘râb alâmetidir.",
-"Âmiller <b>lafzî</b> (söylenen bir kelime: harf, fiil veya isim) ve <b>ma‘nevî</b> (söylenmeyen, anlamdan doğan) olmak üzere ikiye ayrılır. Lafzî âmillerin bir kısmı <b>semâî</b> (Araplardan duyulduğu gibi ezberlenir), bir kısmı <b>kıyâsî</b>dir (bir kurala bağlıdır).",
-"Bu ders notunda Avâmil geleneğinin (Cürcânî’nin <i>Mie Âmil</i>’i ve İmâm Birgivî’nin <i>Avâmil-i cedîd</i>’i) tasnifi esas alınmıştır; sayılar nüshalara göre küçük farklar gösterir."
+"b": "خُطْبَةُ الْكِتَابِ",
+"tr_b": "Kitabın girişi",
+"p": [
+"الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ، وَالصَّلَاةُ وَالسَّلَامُ عَلَى مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ أَجْمَعِينَ. أَمَّا بَعْدُ:",
+"فَإِنَّ الْعَوَامِلَ فِي النَّحْوِ - عَلَى مَا أَلَّفَهُ الشَّيْخُ الْإِمَامُ عَبْدُ الْقَاهِرِ بْنُ عَبْدِ الرَّحْمَنِ الْجُرْجَانِيُّ رَحْمَةُ اللَّهِ تَعَالَى عَلَيْهِ - مِائَةُ عَامِلٍ.",
+"وَهِيَ تَنْقَسِمُ إِلَى قِسْمَيْنِ: لَفْظِيَّةٍ، وَمَعْنَوِيَّةٍ. فَاللَّفْظِيَّةُ مِنْهَا تَنْقَسِمُ إِلَى قِسْمَيْنِ: سَمَاعِيَّةٍ، وَقِيَاسِيَّةٍ.",
+"فَالسَّمَاعِيَّةُ مِنْهَا أَحَدٌ وَتِسْعُونَ عَامِلًا، وَالْقِيَاسِيَّةُ مِنْهَا سَبْعَةُ عَوَامِلَ، وَالْمَعْنَوِيَّةُ مِنْهَا عَدَدَانِ؛ فَالْجُمْلَةُ مِائَةُ عَامِلٍ.",
+"وَالسَّمَاعِيَّةُ مِنْهَا تَتَنَوَّعُ عَلَى ثَلَاثَةَ عَشَرَ نَوْعًا."
 ],
-"ornek": [
-[
-"فِي الدَّارِ",
-"âmil: فِي — ma‘mûl: الدَّارِ (mecrûr)"
-],
-[
-"لَمْ يَذْهَبْ",
-"âmil: لَمْ — ma‘mûl: يَذْهَبْ (meczûm)"
-]
+"tr": [
+"Hamd âlemlerin Rabbi Allah’a; salât ve selâm Muhammed’e, âline ve bütün ashâbına olsun. Bundan sonra:",
+"Şeyh İmam Abdülkâhir b. Abdirrahman el-Cürcânî’nin (Allah’ın rahmeti üzerine olsun) telif ettiğine göre nahivde âmiller yüz âmildir.",
+"Bunlar iki kısma ayrılır: lafzî ve ma‘nevî. Lafzî olanlar da iki kısma ayrılır: semâî ve kıyâsî.",
+"Semâî olanlar doksan bir âmil, kıyâsî olanlar yedi âmil, ma‘nevî olanlar iki tanedir; toplam yüz âmil eder.",
+"Semâî âmiller on üç çeşide ayrılır."
 ]
 },
 {
-"b": "حروف الجر",
-"tr_b": "Yalnız ismi cerreden harfler (hurûf-ı cârra)",
-"n": [
-"Bu harfler yalnızca isme girer ve onu cerreder: <span lang=\"ar\">بِ، مِنْ، إِلَى، عَنْ، عَلَى، فِي، كَـ، لِـ، رُبَّ، حَتَّى، مُنْذُ، مُذْ، خَلَا، عَدَا، حَاشَا</span> ve yemin harfleri <span lang=\"ar\">وَ، تَـ</span>.",
-"Mânâlarından bazıları: <span lang=\"ar\">مِنْ</span> başlangıç, <span lang=\"ar\">إِلَى</span> son nokta, <span lang=\"ar\">عَنْ</span> uzaklaşma, <span lang=\"ar\">عَلَى</span> üstünlük, <span lang=\"ar\">فِي</span> zarfiyet, <span lang=\"ar\">بِـ</span> ilsâk ve istiâne (vasıta), <span lang=\"ar\">لِـ</span> mülk ve ihtisas, <span lang=\"ar\">كَـ</span> teşbîh."
+"b": "النَّوْعُ الْأَوَّلُ: حُرُوفٌ تَجُرُّ الِاسْمَ فَقَطْ",
+"tr_b": "1. çeşit: Yalnız ismi cerreden harfler",
+"p": [
+"النَّوْعُ الْأَوَّلُ: حُرُوفٌ تَجُرُّ الِاسْمَ فَقَطْ، وَهِيَ سَبْعَةَ عَشَرَ حَرْفًا:",
+"الْأَوَّلُ: الْبَاءُ؛ لِلْإِلْصَاقِ، نَحْوُ: بِهِ دَاءٌ، وَمَرَرْتُ بِزَيْدٍ.",
+"وَلِلتَّعْدِيَةِ، نَحْوُ: ذَهَبْتُ بِزَيْدٍ.",
+"وَلِلِاسْتِعَانَةِ، نَحْوُ: كَتَبْتُ بِالْقَلَمِ.",
+"وَلِلْمُصَاحَبَةِ، نَحْوُ: دَخَلْتُ عَلَيْهِ بِثِيَابِ السَّفَرِ.",
+"وَلِلْمُقَابَلَةِ، نَحْوُ: بِعْتُ هَذَا بِهَذَا.",
+"وَلِلزِّيَادَةِ، نَحْوُ قَوْلِهِ تَعَالَى: ﴿وَلَا تُلْقُوا بِأَيْدِيكُمْ إِلَى التَّهْلُكَةِ﴾، ﴿وَكَفَى بِاللَّهِ شَهِيدًا﴾.",
+"وَلِلظَّرْفِيَّةِ، نَحْوُ: صَلَّيْتُ بِالْمَسْجِدِ.",
+"وَلِلْقَسَمِ، نَحْوُ: بِاللَّهِ لَأَفْعَلَنَّ كَذَا.",
+"وَالثَّانِي: مِنْ؛ لِابْتِدَاءِ الْغَايَةِ، نَحْوُ: سِرْتُ مِنَ الْبَصْرَةِ إِلَى الْكُوفَةِ.",
+"وَلِلتَّبْعِيضِ، نَحْوُ: أَخَذْتُ مِنَ الْمَالِ.",
+"وَلِلتَّبْيِينِ، نَحْوُ قَوْلِهِ تَعَالَى: ﴿فَاجْتَنِبُوا الرِّجْسَ مِنَ الْأَوْثَانِ﴾.",
+"وَلِلزِّيَادَةِ، نَحْوُ: مَا جَاءَنِي مِنْ أَحَدٍ.",
+"وَالثَّالِثُ: إِلَى؛ لِانْتِهَاءِ الْغَايَةِ، نَحْوُ: سِرْتُ مِنَ الْبَصْرَةِ إِلَى الْكُوفَةِ.",
+"وَبِمَعْنَى «مَعَ»، نَحْوُ قَوْلِهِ تَعَالَى: ﴿فَاغْسِلُوا وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى الْمَرَافِقِ﴾.",
+"وَالرَّابِعُ: فِي؛ لِلظَّرْفِيَّةِ، نَحْوُ: الْمَالُ فِي الْكِيسِ، وَنَظَرْتُ فِي الْكِتَابِ.",
+"وَبِمَعْنَى «عَلَى»، نَحْوُ قَوْلِهِ تَعَالَى: ﴿وَلَأُصَلِّبَنَّكُمْ فِي جُذُوعِ النَّخْلِ﴾.",
+"وَالْخَامِسُ: حَتَّى؛ لِانْتِهَاءِ الْغَايَةِ، نَحْوُ: أَكَلْتُ السَّمَكَةَ حَتَّى رَأْسِهَا.",
+"وَالسَّادِسُ: اللَّامُ؛ لِلتَّمْلِيكِ، نَحْوُ: الْمَالُ لِزَيْدٍ.",
+"وَلِلتَّخْصِيصِ، نَحْوُ: الْجُلُّ لِلْفَرَسِ.",
+"وَلِلْقَسَمِ، نَحْوُ: لِلَّهِ لَا يُؤَخَّرُ الْأَجَلُ.",
+"وَلِلزِّيَادَةِ، كَقَوْلِهِ تَعَالَى: ﴿رَدِفَ لَكُمْ بَعْضُ الَّذِي تَسْتَعْجِلُونَ﴾، «وَلَا أَبَا لَكُمْ».",
+"وَالسَّابِعُ: رُبَّ؛ لِلتَّقْلِيلِ، نَحْوُ: رُبَّ رَجُلٍ جَوَادٍ لَقِيتُهُ، وَرُبَّ رَجُلٍ أَبُوهُ عَالِمٌ لَقِيتُهُ، وَرُبَّ رَجُلٍ حَسَنٍ أَبُوهُ لَقِيتُهُ.",
+"وَالثَّامِنُ: عَلَى؛ وَهِيَ لِلِاسْتِعْلَاءِ، نَحْوُ: زَيْدٌ عَلَى السَّطْحِ، وَعَلَيْهِ دَيْنٌ.",
+"وَقَدْ يَكُونُ فِعْلًا، نَحْوُ قَوْلِهِ تَعَالَى: ﴿إِنَّ فِرْعَوْنَ عَلَا فِي الْأَرْضِ﴾.",
+"وَالتَّاسِعُ: عَنْ؛ لِلْبُعْدِ وَالْمُجَاوَزَةِ، نَحْوُ: رَمَيْتُ السَّهْمَ عَنِ الْقَوْسِ.",
+"وَالْعَاشِرُ: الْكَافُ؛ لِلتَّشْبِيهِ، نَحْوُ: زَيْدٌ كَالْأَسَدِ، وَالَّذِي كَزَيْدٍ أَخُوكَ.",
+"وَالْحَادِيَ عَشَرَ: مُذْ، وَالثَّانِيَ عَشَرَ: مُنْذُ؛ وَهُمَا لِابْتِدَاءِ الْغَايَةِ فِي الزَّمَانِ الْمَاضِي، نَحْوُ: مَا رَأَيْتُهُ مُذْ يَوْمِ الْجُمُعَةِ، وَمُنْذُ يَوْمِ السَّبْتِ.",
+"وَالثَّالِثَ عَشَرَ: الْوَاوُ لِلْقَسَمِ، نَحْوُ: وَاللَّهِ لَأَفْعَلَنَّ كَذَا. وَالرَّابِعَ عَشَرَ: التَّاءُ كَذَلِكَ، نَحْوُ: تَاللَّهِ لَأَفْعَلَنَّ كَذَا.",
+"وَالْخَامِسَ عَشَرَ: حَاشَا؛ لِلتَّنْزِيهِ، نَحْوُ: سَاءَ الْقَوْمُ حَاشَا زَيْدٍ.",
+"وَالسَّادِسَ عَشَرَ: عَدَا، وَالسَّابِعَ عَشَرَ: خَلَا؛ وَهُمَا لِلِاسْتِثْنَاءِ، نَحْوُ: جَاءَنِي الْقَوْمُ عَدَا زَيْدٍ، وَخَلَا زَيْدٍ."
 ],
-"ornek": [
-[
-"بِسْمِ اللَّهِ",
-"بِ — istiâne/teberrük"
-],
-[
-"مِنَ الْمَسْجِدِ الْحَرَامِ إِلَى الْمَسْجِدِ الْأَقْصَى",
-"مِنْ başlangıç, إِلَى son"
-],
-[
-"وَاللَّهِ",
-"yemin vâvı"
-]
-]
-},
-{
-"b": "الحروف المشبهة بالفعل",
-"tr_b": "İsmi nasb, haberi ref‘ eden harfler",
-"n": [
-"<span lang=\"ar\">إِنَّ، أَنَّ، كَأَنَّ، لَكِنَّ، لَيْتَ، لَعَلَّ</span>: isim cümlesinin başına girer, mübtedâyı isimleri olarak nasbeder, haberi ref‘ eder. Fiile benzedikleri (fethalı bina, üç ve fazla harf, mânâ) için <b>hurûf-ı müşebbehe bi’l-fiil</b> denir.",
-"Mânâları: إِنَّ ve أَنَّ tekîd, كَأَنَّ teşbîh, لَكِنَّ istidrâk, لَيْتَ temennî, لَعَلَّ tereccî. Başlarına kâffe <span lang=\"ar\">مَا</span> gelince amelden düşerler: <span lang=\"ar\">إِنَّمَا اللَّهُ إِلَهٌ وَاحِدٌ</span>.",
-"Lâ-yı nâfiye li’l-cins (<span lang=\"ar\">لَا إِلَهَ إِلَّا اللَّهُ</span>) de bunlar gibi amel eder."
-],
-"ornek": [
-[
-"إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
-"اللَّهَ: ism-i inne (mansûb), غَفُورٌ: haber (merfû)"
-],
-[
-"لَعَلَّكُمْ تَتَّقُونَ",
-"كُمْ: ismi (mahallen mansûb), cümle: haber"
-]
-]
-},
-{
-"b": "ما ولا المشبهتان بليس",
-"tr_b": "Leyse’ye benzeyen mâ ve lâ",
-"n": [
-"Hicaz lehçesinde nâfiye <span lang=\"ar\">مَا</span> ve (şartlarıyla) <span lang=\"ar\">لَا</span>, leyse gibi ismi ref‘, haberi nasbeder: <span lang=\"ar\">مَا هَذَا بَشَرًا</span> (Yûsuf 31). Haberin önüne <span lang=\"ar\">إِلَّا</span> gelirse veya haber öne geçerse amel bâtıl olur: <span lang=\"ar\">وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ</span>."
-],
-"ornek": [
-[
-"مَا هَذَا بَشَرًا",
-"هَذَا: ismi (mahallen merfû), بَشَرًا: haberi (mansûb)"
-]
-]
-},
-{
-"b": "نواصب المضارع وجوازمه",
-"tr_b": "Muzâriyi nasbeden ve cezmeden harfler",
-"n": [
-"<b>Nevâsıb</b>: <span lang=\"ar\">أَنْ، لَنْ، كَيْ، إِذَنْ</span>. Bunlar muzâriyi nasbeder: <span lang=\"ar\">لَنْ تَنَالُوا الْبِرَّ</span>. Ayrıca أَنْ, lâm-ı ta‘lîl, lâm-ı cuhûd, حَتَّى, أَوْ, sebebiyye fâsı ve maiyye vâvından sonra gizli olarak amel eder.",
-"<b>Tek fiili cezmedenler</b>: <span lang=\"ar\">لَمْ، لَمَّا</span>, emir lâmı (<span lang=\"ar\">لِيُنْفِقْ</span>), nehiy lâsı (<span lang=\"ar\">لَا تَحْزَنْ</span>).",
-"<b>İki fiili cezmedenler (şart edatları)</b>: harf olan <span lang=\"ar\">إِنْ</span> ve isim olanlar <span lang=\"ar\">مَنْ، مَا، مَهْمَا، أَيٌّ، مَتَى، أَيْنَ، أَنَّى، حَيْثُمَا، إِذْمَا</span>: <span lang=\"ar\">إِنْ تَنْصُرُوا اللَّهَ يَنْصُرْكُمْ</span>."
-],
-"ornek": [
-[
-"لَنْ تَنَالُوا الْبِرَّ",
-"لَنْ: nâsıb — nûnun hazfı"
-],
-[
-"لَمْ يَلِدْ وَلَمْ يُولَدْ",
-"لَمْ: câzim — sükûn"
-],
-[
-"مَنْ يَعْمَلْ سُوءًا يُجْزَ بِهِ",
-"مَنْ: iki fiili cezmeder"
-]
+"tr": [
+"Birinci çeşit: Yalnız ismi cerreden harflerdir; on yedi harftir:",
+"Birincisi: bâ. İlsâk (bitiştirme) içindir: “Onda bir hastalık var”, “Zeyd’in yanından geçtim.”",
+"Ta‘diye (geçişli kılma) için: “Zeyd’i götürdüm.”",
+"İstiâne (vasıta) için: “Kalemle yazdım.”",
+"Musâhabe (beraberlik) için: “Yanına yolculuk elbisesiyle girdim.”",
+"Mukâbele (karşılık) için: “Bunu buna karşılık sattım.”",
+"Zâid olarak: “Kendinizi kendi ellerinizle tehlikeye atmayın” ve “Şahit olarak Allah yeter” âyetlerindeki gibi.",
+"Zarfiyet (içinde olma) için: “Mescidde namaz kıldım.”",
+"Yemin için: “Allah’a yemin ederim ki şunu mutlaka yapacağım.”",
+"İkincisi: min. Başlangıç noktası için: “Basra’dan Kûfe’ye yürüdüm.”",
+"Teb‘îz (bir kısmını) için: “Maldan aldım.”",
+"Tebyîn (açıklama) için: “Putlardan ibaret olan pislikten kaçının.”",
+"Zâid olarak: “Bana hiç kimse gelmedi.”",
+"Üçüncüsü: ilâ. Bitiş noktası için: “Basra’dan Kûfe’ye yürüdüm.”",
+"“Me‘a” (ile) mânâsına: “Yüzlerinizi ve dirseklerinizle birlikte ellerinizi yıkayın.”",
+"Dördüncüsü: fî. Zarfiyet için: “Mal keseninin içinde”, “Kitaba baktım.”",
+"“Alâ” (üzerine) mânâsına: “Sizi hurma dallarına asacağım.”",
+"Beşincisi: hattâ. Bitiş noktası için: “Balığı başına kadar yedim.”",
+"Altıncısı: lâm. Temlîk (sahiplik) için: “Mal Zeyd’indir.”",
+"Tahsîs için: “Çul atındır (ata mahsustur).”",
+"Yemin için: “Allah’a yemin olsun, ecel ertelenmez.”",
+"Zâid olarak: “Acele ettiğiniz şeyin bir kısmı arkanıza gelmiş olabilir” âyetinde ve “lâ ebâ leküm” sözünde olduğu gibi.",
+"Yedincisi: rubbe. Taklîl (azlık) içindir: “Nice cömert adama rastladım”, “Babası âlim olan nice adama rastladım”, “Babası güzel nice adama rastladım.”",
+"Sekizincisi: alâ. İsti‘lâ (üstünlük) içindir: “Zeyd damın üstünde”, “Onun üzerinde borç var.”",
+"Bazen fiil olur: “Firavun yeryüzünde büyüklendi.”",
+"Dokuzuncusu: an. Uzaklık ve geçip gitme içindir: “Oku yaydan attım.”",
+"Onuncusu: kâf. Teşbîh içindir: “Zeyd aslan gibidir”, “Zeyd gibi olan senin kardeşindir.”",
+"On birincisi muz, on ikincisi munzü. Bunlar geçmiş zamanda başlangıç içindir: “Onu cuma gününden beri görmedim”, “cumartesi gününden beri.”",
+"On üçüncüsü: yemin vâvı: “Vallahi şunu mutlaka yapacağım.” On dördüncüsü: tâ da öyledir: “Tallahi şunu mutlaka yapacağım.”",
+"On beşincisi: hâşâ. Tenzîh içindir: “Kavim kötü davrandı, Zeyd hariç (onu tenzih ederim).”",
+"On altıncısı adâ, on yedincisi halâ. Bunlar istisnâ içindir: “Kavim bana geldi, Zeyd hariç.”"
 ]
 },
 {
-"b": "حروف النداء والاستثناء",
-"tr_b": "Nidâ harfleri ve istisnâ",
-"n": [
-"Nidâ harfleri (<span lang=\"ar\">يَا، أَيَا، هَيَا، أَيْ، أَ</span>) münâdâyı mahallen veya lafzen nasbeder: muzâf münâdâ mansûb (<span lang=\"ar\">يَا عَبْدَ اللَّهِ</span>), müfred alem damme üzere mebnî (<span lang=\"ar\">يَا مُوسَى، يَا نُوحُ</span>).",
-"Tam ve müsbet sözde <span lang=\"ar\">إِلَّا</span> müstesnâyı nasbeder: <span lang=\"ar\">فَسَجَدُوا إِلَّا إِبْلِيسَ</span>."
+"b": "النَّوْعُ الثَّانِي: الْحُرُوفُ الْمُشَبَّهَةُ بِالْفِعْلِ",
+"tr_b": "2. çeşit: Fiile benzeyen harfler (ismi nasb, haberi ref‘)",
+"p": [
+"النَّوْعُ الثَّانِي: حُرُوفٌ تَنْصِبُ الِاسْمَ وَتَرْفَعُ الْخَبَرَ، وَهِيَ سِتَّةُ أَحْرُفٍ:",
+"إِنَّ وَأَنَّ لِلتَّحْقِيقِ، نَحْوُ: إِنَّ زَيْدًا قَائِمٌ، وَبَلَغَنِي أَنَّكَ عَالِمٌ.",
+"وَكَأَنَّ لِلتَّشْبِيهِ، نَحْوُ: كَأَنَّ زَيْدًا الْأَسَدُ.",
+"وَلَكِنَّ لِلِاسْتِدْرَاكِ، نَحْوُ: جَاءَنِي زَيْدٌ لَكِنَّ عَمْرًا لَمْ يَجِئْ.",
+"وَلَيْتَ لِلتَّمَنِّي، نَحْوُ: لَيْتَ الشَّبَابَ يَعُودُ يَوْمًا فَأُخْبِرَهُ بِمَا فَعَلَ الْمَشِيبُ.",
+"وَلَعَلَّ لِلتَّرَجِّي، نَحْوُ: لَعَلَّ زَيْدًا حَاضِرٌ."
 ],
-"ornek": [
-[
-"يَا أَيُّهَا النَّاسُ",
-"أَيُّ: münâdâ (mebnî)"
-],
-[
-"رَبَّنَا آتِنَا",
-"رَبَّ: muzâf münâdâ, nidâ harfi hazfedilmiş"
-]
-]
-},
-{
-"b": "الأفعال العاملة",
-"tr_b": "Âmil fiiller",
-"n": [
-"<b>Bütün fiiller</b> fâili ref‘ eder; müteaddî fiiller ayrıca mef‘ûlü nasbeder. Bu, kıyâsî bir ameldir.",
-"<b>Ef‘âl-i nâkısa</b> (<span lang=\"ar\">كَانَ، صَارَ، أَصْبَحَ، أَمْسَى، أَضْحَى، ظَلَّ، بَاتَ، لَيْسَ، مَا زَالَ، مَا بَرِحَ، مَا فَتِئَ، مَا انْفَكَّ، مَا دَامَ</span>): ismi ref‘, haberi nasbeder: <span lang=\"ar\">وَكَانَ اللَّهُ غَفُورًا رَحِيمًا</span>.",
-"<b>Ef‘âl-i mukâraba</b> (<span lang=\"ar\">كَادَ، أَوْشَكَ، كَرَبَ</span>), reca (<span lang=\"ar\">عَسَى</span>) ve şürû‘ (<span lang=\"ar\">طَفِقَ، جَعَلَ، أَخَذَ</span>): ismi ref‘ eder, haberi muzâri cümlesidir: <span lang=\"ar\">يَكَادُ الْبَرْقُ يَخْطَفُ أَبْصَارَهُمْ</span>.",
-"<b>Ef‘âl-i medh ve zemm</b> (<span lang=\"ar\">نِعْمَ، بِئْسَ، سَاءَ، حَبَّذَا</span>): fâili ref‘ eder: <span lang=\"ar\">نِعْمَ الْعَبْدُ</span>. <b>Ef‘âl-i kulûb</b> (<span lang=\"ar\">ظَنَّ، حَسِبَ، خَالَ، زَعَمَ، عَلِمَ، رَأَى، وَجَدَ</span>): iki mef‘ûlü nasbeder: <span lang=\"ar\">وَإِنَّا لَنَظُنُّكَ مِنَ الْكَاذِبِينَ</span>."
-],
-"ornek": [
-[
-"كَانَ اللَّهُ عَلِيمًا",
-"اللَّهُ: ism-i kâne, عَلِيمًا: haberi"
-],
-[
-"عَسَى رَبُّكُمْ أَنْ يَرْحَمَكُمْ",
-"عَسَى: reca fiili"
-],
-[
-"بِئْسَ الْمَصِيرُ",
-"الْمَصِيرُ: bi’se’nin fâili"
-]
+"tr": [
+"İkinci çeşit: İsmi nasb, haberi ref‘ eden harflerdir; altı harftir:",
+"İnne ve enne tahkîk (kesinlik) içindir: “Şüphesiz Zeyd ayaktadır”, “Senin âlim olduğun bana ulaştı.”",
+"Keenne teşbîh içindir: “Zeyd sanki aslandır.”",
+"Lâkinne istidrâk içindir: “Zeyd bana geldi, ama Amr gelmedi.”",
+"Leyte temennî içindir: “Keşke gençlik bir gün geri dönse de ona ihtiyarlığın yaptıklarını haber versem.”",
+"Lealle tereccî (umma) içindir: “Umulur ki Zeyd hazırdır.”"
 ]
 },
 {
-"b": "الأسماء العاملة",
-"tr_b": "Âmil isimler",
-"n": [
-"<b>Esmâ-i şart</b> iki fiili cezmeder (bkz. önceki bâb). <b>Esmâ-i ef‘âl</b> (fiil isimleri) fiil gibi amel eder: <span lang=\"ar\">هَيْهَاتَ</span> (uzaklaştı), <span lang=\"ar\">صَهْ</span> (sus), <span lang=\"ar\">رُوَيْدَ زَيْدًا</span> (Zeyd’e mühlet ver), <span lang=\"ar\">عَلَيْكُمْ أَنْفُسَكُمْ</span> (kendinize bakın).",
-"<b>Fiilden türeyen isimler</b> fiilleri gibi amel eder: ism-i fâil (<span lang=\"ar\">بَاسِطٌ ذِرَاعَيْهِ</span>), ism-i mef‘ûl (nâib-i fâili ref‘ eder), sıfat-ı müşebbehe (<span lang=\"ar\">حَسَنٌ وَجْهُهُ</span>), masdar (<span lang=\"ar\">وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ</span>) ve ism-i tafdîl.",
-"<b>Muzâf</b> muzâf ileyhi cerreder (<span lang=\"ar\">كِتَابُ اللَّهِ</span>). <b>Mübhem isimler</b> (sayılar, ölçüler, كَمْ) temyîzi nasbeder: <span lang=\"ar\">أَحَدَ عَشَرَ كَوْكَبًا</span>, <span lang=\"ar\">كَمْ كِتَابًا قَرَأْتَ؟</span>"
+"b": "النَّوْعُ الثَّالِثُ: مَا وَلَا الْمُشَبَّهَتَانِ بِلَيْسَ",
+"tr_b": "3. çeşit: Leyse’ye benzeyen mâ ve lâ",
+"p": [
+"النَّوْعُ الثَّالِثُ: حَرْفَانِ تَرْفَعَانِ الِاسْمَ وَتَنْصِبَانِ الْخَبَرَ، وَهُمَا: مَا وَلَا الْمُشَبَّهَتَانِ بِلَيْسَ.",
+"فَمَا لِنَفْيِ الْحَالِ، نَحْوُ: مَا زَيْدٌ مُنْطَلِقًا.",
+"وَلَا لِنَفْيِ الِاسْتِقْبَالِ، نَحْوُ: لَا رَجُلٌ مُنْطَلِقًا."
 ],
-"ornek": [
-[
-"رَبِّ الْعَالَمِينَ",
-"muzâf: رَبِّ — muzâf ileyh: الْعَالَمِينَ (mecrûr)"
-],
-[
-"أَرْبَعِينَ لَيْلَةً",
-"sayı temyîzi nasbeder (Bakara 51)"
-]
+"tr": [
+"Üçüncü çeşit: İsmi ref‘, haberi nasbeden iki harftir: leyse’ye benzeyen mâ ve lâ.",
+"Mâ, şimdiki zamanı olumsuzlamak içindir: “Zeyd gitmekte değildir.”",
+"Lâ, geleceği olumsuzlamak içindir: “Hiçbir adam gidecek değildir.”"
 ]
 },
 {
-"b": "العوامل المعنوية",
-"tr_b": "Ma‘nevî âmiller",
-"n": [
-"Söylenmeyen, anlamdan doğan iki âmil vardır:",
-"<b>1. İbtidâ</b>: mübtedâyı ref‘ eden âmil, ismin lafzî âmillerden sıyrılarak cümlenin başında bulunmasıdır: <span lang=\"ar\">اللَّهُ الصَّمَدُ</span> — <span lang=\"ar\">اللَّهُ</span> ibtidâ ile merfûdur.",
-"<b>2. Muzârinin ref‘i</b>: muzâri fiili ref‘ eden âmil, nâsıb ve câzimden sıyrılmış olmasıdır (Basra görüşü: isim yerinde bulunması): <span lang=\"ar\">يَعْلَمُ مَا فِي السَّمَاوَاتِ</span>.",
-"Avâmil’i bitiren öğrenci her kelimeye “bunu ne ref‘ etti/nasbetti/cerretti?” diye sorar. Kur’an i‘râbı modülündeki <b>Avâmil notları</b> ve <b>İ‘râb oyunu</b> bu soruyu sordurmak için hazırlandı."
+"b": "النَّوْعُ الرَّابِعُ: حُرُوفٌ تَنْصِبُ الِاسْمَ الْمُفْرَدَ",
+"tr_b": "4. çeşit: Yalnız tek ismi nasbeden harfler",
+"p": [
+"النَّوْعُ الرَّابِعُ: حُرُوفٌ تَنْصِبُ الِاسْمَ فَقَطْ، وَهِيَ سَبْعَةُ أَحْرُفٍ:",
+"الْوَاوُ بِمَعْنَى «مَعَ»، نَحْوُ: اسْتَوَى الْمَاءُ وَالْخَشَبَةَ.",
+"وَإِلَّا لِلِاسْتِثْنَاءِ، نَحْوُ: جَاءَنِي الْقَوْمُ إِلَّا زَيْدًا، وَمَا جَاءَنِي الْقَوْمُ إِلَّا حِمَارًا.",
+"وَيَا، وَأَيَا، وَهَيَا؛ لِنِدَاءِ الْبَعِيدِ، نَحْوُ: يَا عَبْدَ اللَّهِ، وَيَا خَيْرًا مِنْ زَيْدٍ، وَيَا رَجُلًا خُذْ بِيَدِي، وَأَيَا عَبْدَ اللَّهِ، وَهَيَا عَبْدَ اللَّهِ.",
+"وَأَيْ وَالْهَمْزَةُ لِنِدَاءِ الْقَرِيبِ، نَحْوُ: أَيْ عَبْدَ اللَّهِ، وَأَعَبْدَ اللَّهِ؛ لَكِنَّ الْهَمْزَةَ لِنِدَاءِ الْأَقْرَبِ."
 ],
-"ornek": [
-[
-"اللَّهُ الصَّمَدُ",
-"mübtedâ: ibtidâ ile merfû"
-],
-[
-"يَعْلَمُ",
-"muzâri: nâsıb ve câzimden tecerrüd ile merfû"
+"tr": [
+"Dördüncü çeşit: Yalnız ismi nasbeden harflerdir; yedi harftir:",
+"“Me‘a” mânâsındaki vâv: “Su tahta ile beraber yükseldi.”",
+"İllâ istisnâ içindir: “Kavim bana geldi, Zeyd hariç”, “Kavim bana gelmedi, bir eşek hariç.”",
+"Yâ, eyâ ve heyâ uzaktakine nidâ içindir: “Ey Abdullah”, “Ey Zeyd’den hayırlı olan”, “Ey (herhangi bir) adam, elimden tut”, “Eyâ Abdallah”, “Heyâ Abdallah.”",
+"Ey ve hemze yakındakine nidâ içindir: “Ey Abdallah”, “E-Abdallah”; ancak hemze en yakındakine nidâ içindir."
 ]
+},
+{
+"b": "النَّوْعُ الْخَامِسُ: حُرُوفٌ تَنْصِبُ الْفِعْلَ الْمُضَارِعَ",
+"tr_b": "5. çeşit: Muzâriyi nasbeden harfler",
+"p": [
+"النَّوْعُ الْخَامِسُ: حُرُوفٌ تَنْصِبُ الْفِعْلَ الْمُضَارِعَ، وَهِيَ أَرْبَعَةُ أَحْرُفٍ:",
+"أَنْ لِلِاسْتِقْبَالِ، نَحْوُ: أُرِيدُ أَنْ أَخْرُجَ.",
+"وَلَنْ لِتَأْكِيدِ نَفْيِ الِاسْتِقْبَالِ، نَحْوُ قَوْلِهِ تَعَالَى: ﴿فَلَنْ أَبْرَحَ الْأَرْضَ حَتَّى يَأْذَنَ لِي أَبِي﴾.",
+"وَكَيْ لِلتَّعْلِيلِ، نَحْوُ: جِئْتُكَ كَيْ تُعْطِيَنِي حَقِّي.",
+"وَإِذَنْ وَهِيَ جَوَابٌ لِقَوْلِ الْقَائِلِ وَجَزَاءٌ لِفِعْلِ الْفَاعِلِ، نَحْوُ قَوْلِكَ: إِذَنْ أُكْرِمَكَ؛ لِمَنْ قَالَ: أَنَا آتِيكَ."
+],
+"tr": [
+"Beşinci çeşit: Muzâri fiili nasbeden harflerdir; dört harftir:",
+"En, istikbâl içindir: “Çıkmak istiyorum.”",
+"Len, geleceğe dair olumsuzluğu pekiştirmek içindir: “Babam bana izin verinceye kadar bu yerden asla ayrılmayacağım.”",
+"Key, ta‘lîl (sebep) içindir: “Hakkımı vermen için sana geldim.”",
+"İzen; söyleyenin sözüne cevap ve yapanın işine karşılıktır: “Sana geleceğim” diyene “O hâlde sana ikram ederim” demen gibi."
+]
+},
+{
+"b": "النَّوْعُ السَّادِسُ: حُرُوفٌ تَجْزِمُ الْفِعْلَ الْمُضَارِعَ",
+"tr_b": "6. çeşit: Muzâriyi cezmeden harfler",
+"p": [
+"النَّوْعُ السَّادِسُ: حُرُوفٌ تَجْزِمُ الْفِعْلَ الْمُضَارِعَ، وَهِيَ خَمْسَةُ أَحْرُفٍ:",
+"إِنْ لِلشَّرْطِ وَالْجَزَاءِ، نَحْوُ: إِنْ تَأْتِنِي أُكْرِمْكَ.",
+"وَلَمْ لِنَفْيِ الْمَاضِي بَعْدَ نَقْلِهِ مِنَ الْمُسْتَقْبَلِ إِلَى الْمَاضِي، نَحْوُ: لَمْ يَخْرُجْ زَيْدٌ.",
+"وَلَمَّا لِنَفْيِ الْمَاضِي أَيْضًا، وَفِيهِ تَوَقُّعٌ وَانْتِظَارٌ، نَحْوُ: لَمَّا يَخْرُجِ الْأَمِيرُ.",
+"وَلَا لِلنَّهْيِ، نَحْوُ: لَا تَفْعَلْ.",
+"وَاللَّامُ لِلْأَمْرِ، نَحْوُ: لِيَفْعَلْ زَيْدٌ."
+],
+"tr": [
+"Altıncı çeşit: Muzâri fiili cezmeden harflerdir; beş harftir:",
+"İn, şart ve cezâ içindir: “Bana gelirsen sana ikram ederim.”",
+"Lem, muzâriyi gelecekten geçmişe naklettikten sonra geçmişi olumsuzlamak içindir: “Zeyd çıkmadı.”",
+"Lemmâ da geçmişi olumsuzlamak içindir; ancak onda beklenti vardır: “Emîr henüz çıkmadı (ama çıkması bekleniyor).”",
+"Lâ, nehiy içindir: “Yapma.”",
+"Lâm, emir içindir: “Zeyd yapsın.”"
+]
+},
+{
+"b": "النَّوْعُ السَّابِعُ: أَسْمَاءٌ تَجْزِمُ الْأَفْعَالَ",
+"tr_b": "7. çeşit: Fiilleri cezmeden isimler (şart isimleri)",
+"p": [
+"النَّوْعُ السَّابِعُ: أَسْمَاءٌ تَجْزِمُ الْفِعْلَ الْمُضَارِعَ عَلَى مَعْنَى «إِنْ»، وَهِيَ تِسْعَةُ أَسْمَاءٍ:",
+"مَنْ، نَحْوُ: مَنْ تَضْرِبْ أَضْرِبْ.",
+"وَأَيٌّ، نَحْوُ: أَيَّهُمْ تَضْرِبْ أَضْرِبْ.",
+"وَمَا، نَحْوُ: مَا تَصْنَعْ أَصْنَعْ.",
+"وَمَتَى، نَحْوُ: مَتَى تُكْرِمْنِي أُكْرِمْكَ.",
+"وَمَهْمَا، نَحْوُ: مَهْمَا تَفْعَلْ أَفْعَلْ.",
+"وَأَيْنَ، نَحْوُ: أَيْنَ تَكُنْ أَكُنْ.",
+"وَحَيْثُمَا، نَحْوُ: حَيْثُمَا تَجْلِسْ أَجْلِسْ.",
+"وَإِذْمَا، نَحْوُ: إِذْمَا تَفْعَلْ أَفْعَلْ.",
+"وَأَنَّى، نَحْوُ: أَنَّى تَفْعَلْ أَفْعَلْ."
+],
+"tr": [
+"Yedinci çeşit: “İn” mânâsıyla muzâri fiili cezmeden isimlerdir; dokuz isimdir:",
+"Men: “Kime vurursan ona vururum.”",
+"Eyyün: “Onlardan hangisine vurursan ona vururum.”",
+"Mâ: “Ne yaparsan onu yaparım.”",
+"Metâ: “Bana ne zaman ikram edersen sana ikram ederim.”",
+"Mehmâ: “Her ne yaparsan yaparım.”",
+"Eyne: “Nerede olursan olurum.”",
+"Haysümâ: “Nereye oturursan otururum.”",
+"İzmâ: “Ne zaman yaparsan yaparım.”",
+"Ennâ: “Nerede/nasıl yaparsan yaparım.”"
+]
+},
+{
+"b": "النَّوْعُ الثَّامِنُ: أَسْمَاءٌ تَنْصِبُ عَلَى التَّمْيِيزِ",
+"tr_b": "8. çeşit: Temyîz olarak nasbeden isimler",
+"p": [
+"النَّوْعُ الثَّامِنُ: أَسْمَاءٌ تَنْصِبُ أَسْمَاءً نَكِرَاتٍ عَلَى التَّمْيِيزِ، وَهِيَ أَرْبَعَةُ أَسْمَاءٍ:",
+"الْأَوَّلُ: عَشَرَ إِذَا رُكِّبَتْ مَعَ أَحَدٍ إِلَى تِسْعَةٍ، نَحْوُ: عِنْدِي أَحَدَ عَشَرَ رَجُلًا.",
+"وَالثَّانِي: كَمْ لِلِاسْتِفْهَامِ، نَحْوُ: كَمْ رَجُلًا عِنْدَكَ؟",
+"وَالثَّالِثُ: كَأَيِّنْ، نَحْوُ: كَأَيِّنْ رَجُلًا عِنْدِي.",
+"وَالرَّابِعُ: كَذَا، وَهِيَ كِنَايَةٌ عَنِ الْعَدَدِ، نَحْوُ: عِنْدِي كَذَا دِرْهَمًا."
+],
+"tr": [
+"Sekizinci çeşit: Nekre isimleri temyîz olarak nasbeden isimlerdir; dört isimdir:",
+"Birincisi: Bir’den dokuz’a kadar sayılarla birleşik olduğunda “aşera”: “Yanımda on bir adam var.”",
+"İkincisi: soru için kem: “Yanında kaç adam var?”",
+"Üçüncüsü: keeyyin: “Yanımda nice adam var.”",
+"Dördüncüsü: kezâ; sayıdan kinayedir: “Yanımda şu kadar dirhem var.”"
+]
+},
+{
+"b": "النَّوْعُ التَّاسِعُ: أَسْمَاءُ الْأَفْعَالِ",
+"tr_b": "9. çeşit: Fiil isimleri",
+"p": [
+"النَّوْعُ التَّاسِعُ: كَلِمَاتٌ تُسَمَّى أَسْمَاءَ الْأَفْعَالِ، بَعْضُهَا يَرْفَعُ وَبَعْضُهَا يَنْصِبُ، وَهِيَ تِسْعُ كَلِمَاتٍ.",
+"النَّاصِبَةُ مِنْهَا سِتُّ كَلِمَاتٍ: رُوَيْدَ، نَحْوُ: رُوَيْدَ زَيْدًا، أَيْ: أَمْهِلْهُ.",
+"وَبَلْهَ، نَحْوُ: بَلْهَ زَيْدًا، أَيْ: دَعْهُ.",
+"وَدُونَكَ، نَحْوُ: دُونَكَ زَيْدًا، أَيْ: خُذْهُ.",
+"وَعَلَيْكَ، نَحْوُ: عَلَيْكَ زَيْدًا، أَيْ: الْزَمْهُ.",
+"وَهَا، نَحْوُ: هَا زَيْدًا، أَيْ: خُذْهُ.",
+"وَحَيَّهَلَ، نَحْوُ: حَيَّهَلَ الثَّرِيدَ، أَيْ: ائْتِهِ.",
+"وَالرَّافِعَةُ مِنْهَا ثَلَاثُ كَلِمَاتٍ: هَيْهَاتَ، نَحْوُ: هَيْهَاتَ زَيْدٌ، أَيْ: بَعُدَ.",
+"وَسَرْعَانَ، نَحْوُ: سَرْعَانَ ذَا إِهَالَةً، أَيْ: سَرُعَ.",
+"وَشَتَّانَ، نَحْوُ: شَتَّانَ زَيْدٌ وَعَمْرٌو، أَيِ: افْتَرَقَا."
+],
+"tr": [
+"Dokuzuncu çeşit: “Esmâ-i ef‘âl” (fiil isimleri) denilen kelimelerdir; bir kısmı ref‘, bir kısmı nasbeder; dokuz kelimedir.",
+"Nasbedenler altı kelimedir. Ruveyde: “Ruveyde Zeyden” yani ona mühlet ver.",
+"Belhe: “Belhe Zeyden” yani onu bırak.",
+"Dûneke: “Dûneke Zeyden” yani onu al.",
+"Aleyke: “Aleyke Zeyden” yani ona sarıl, ondan ayrılma.",
+"Hâ: “Hâ Zeyden” yani onu al.",
+"Hayyehele: “Hayyehele’s-serîde” yani tirite gel.",
+"Ref‘ edenler üç kelimedir. Heyhâte: “Heyhâte Zeydün” yani uzaklaştı.",
+"Ser‘âne: “Ser‘âne zâ ihâleten” yani çabuk oldu.",
+"Şettâne: “Şettâne Zeydün ve Amrun” yani ikisi birbirinden ayrıldı (arada çok fark var)."
+]
+},
+{
+"b": "النَّوْعُ الْعَاشِرُ: الْأَفْعَالُ النَّاقِصَةُ",
+"tr_b": "10. çeşit: Nâkıs fiiller",
+"p": [
+"النَّوْعُ الْعَاشِرُ: الْأَفْعَالُ النَّاقِصَةُ تَرْفَعُ الِاسْمَ وَتَنْصِبُ الْخَبَرَ، وَهِيَ ثَلَاثَةَ عَشَرَ فِعْلًا:",
+"كَانَ، نَحْوُ: كَانَ زَيْدٌ قَائِمًا. وَتَكُونُ تَامَّةً، نَحْوُ: كَانَ زَيْدٌ، أَيْ: وُجِدَ زَيْدٌ. وَزَائِدَةً، نَحْوُ: إِنَّ مِنْ أَفْضَلِهِمْ كَانَ زَيْدًا. وَمُضْمَرًا فِيهَا ضَمِيرُ الشَّأْنِ، نَحْوُ: كَانَ زَيْدٌ قَائِمٌ.",
+"وَصَارَ لِلِانْتِقَالِ، نَحْوُ: صَارَ زَيْدٌ غَنِيًّا. وَتَكُونُ تَامَّةً، نَحْوُ: صَارَ زَيْدٌ إِلَى عَمْرٍو، أَيْ: ذَهَبَ إِلَيْهِ.",
+"وَأَصْبَحَ، نَحْوُ: أَصْبَحَ زَيْدٌ فَقِيرًا. وَتَكُونُ تَامَّةً، نَحْوُ: أَصْبَحَ زَيْدٌ، أَيْ: دَخَلَ فِي وَقْتِ الصَّبَاحِ. وَبِمَعْنَى صَارَ، نَحْوُ: أَصْبَحَ زَيْدٌ غَنِيًّا.",
+"وَأَمْسَى مِثْلُ أَصْبَحَ أَيْضًا، نَحْوُ: أَمْسَى زَيْدٌ فَقِيرًا.",
+"وَأَضْحَى مِثْلُ أَصْبَحَ، نَحْوُ: أَضْحَى زَيْدٌ آكِلًا.",
+"وَظَلَّ مِثْلُ أَصْبَحَ أَيْضًا، نَحْوُ: ظَلَّ زَيْدٌ قَائِمًا. وَتَكُونُ بِمَعْنَى صَارَ، نَحْوُ: ظَلَّ زَيْدٌ فَقِيرًا.",
+"وَبَاتَ مِثْلُ أَصْبَحَ أَيْضًا، نَحْوُ: بَاتَ زَيْدٌ قَائِمًا. وَتَكُونُ بِمَعْنَى صَارَ، نَحْوُ: بَاتَ زَيْدٌ فَقِيرًا.",
+"وَمَا زَالَ، نَحْوُ: مَا زَالَ زَيْدٌ كَرِيمًا.",
+"وَمَا بَرِحَ، وَمَا فَتِئَ، وَمَا انْفَكَّ؛ بِمَعْنَى مَا زَالَ.",
+"وَمَا دَامَ، نَحْوُ: اجْلِسْ مَا دَامَ زَيْدٌ جَالِسًا.",
+"وَلَيْسَ لِنَفْيِ الْحَالِ، نَحْوُ: لَيْسَ زَيْدٌ قَائِمًا."
+],
+"tr": [
+"Onuncu çeşit: Nâkıs fiiller ismi ref‘, haberi nasbeder; on üç fiildir:",
+"Kâne: “Zeyd ayakta idi.” Tâmme olur: “Kâne Zeydün” yani Zeyd var oldu. Zâide olur: “Onların en faziletlisi Zeyd’dir.” İçinde zamîr-i şe’n gizli olarak da gelir: “Kâne Zeydün kâimun.”",
+"Sâra intikâl (bir hâlden diğerine geçme) içindir: “Zeyd zengin oldu.” Tâmme olur: “Zeyd Amr’a gitti.”",
+"Asbaha: “Zeyd sabahleyin fakirdi.” Tâmme olur: “Asbaha Zeydün” yani sabah vaktine girdi. Sâra mânâsına da gelir: “Zeyd zengin oldu.”",
+"Emsâ da asbaha gibidir: “Zeyd akşamleyin fakirdi.”",
+"Adhâ da asbaha gibidir: “Zeyd kuşluk vakti yiyordu.”",
+"Zalle da asbaha gibidir: “Zeyd gün boyu ayakta kaldı.” Sâra mânâsına da gelir: “Zeyd fakir oldu.”",
+"Bâte da asbaha gibidir: “Zeyd geceyi ayakta geçirdi.” Sâra mânâsına da gelir: “Zeyd fakir oldu.”",
+"Mâ zâle: “Zeyd hâlâ cömerttir.”",
+"Mâ berihe, mâ fetie ve mâ’nfekke de mâ zâle mânâsındadır (hâlâ … devam etti).",
+"Mâ dâme: “Zeyd oturduğu sürece otur.”",
+"Leyse, şimdiki zamanı olumsuzlamak içindir: “Zeyd ayakta değildir.”"
+]
+},
+{
+"b": "النَّوْعُ الْحَادِيَ عَشَرَ: أَفْعَالُ الْمُقَارَبَةِ",
+"tr_b": "11. çeşit: Mukârebe fiilleri",
+"p": [
+"النَّوْعُ الْحَادِيَ عَشَرَ: أَفْعَالٌ تُسَمَّى أَفْعَالَ الْمُقَارَبَةِ، تَرْفَعُ الِاسْمَ وَتَنْصِبُ الْخَبَرَ، وَهِيَ أَرْبَعَةُ أَفْعَالٍ:",
+"عَسَى، نَحْوُ: عَسَى زَيْدٌ أَنْ يَخْرُجَ. وَتَكُونُ تَامَّةً، نَحْوُ: عَسَى أَنْ يَخْرُجَ زَيْدٌ.",
+"وَكَادَ، نَحْوُ: كَادَ زَيْدٌ يَخْرُجُ.",
+"وَكَرَبَ، نَحْوُ: كَرَبَ زَيْدٌ يَخْرُجُ.",
+"وَأَوْشَكَ، نَحْوُ: أَوْشَكَ زَيْدٌ أَنْ يَخْرُجَ، وَأَوْشَكَ أَنْ يَخْرُجَ زَيْدٌ، وَأَوْشَكَ زَيْدٌ يَخْرُجُ."
+],
+"tr": [
+"On birinci çeşit: Ef‘âl-i mukârebe denilen fiillerdir; ismi ref‘, haberi nasbeder; dört fiildir:",
+"Asâ: “Umulur ki Zeyd çıkar.” Tâmme de olur: “Zeyd’in çıkması umulur.”",
+"Kâde: “Zeyd neredeyse çıkacaktı.”",
+"Kerebe: “Zeyd çıkmaya yaklaştı.”",
+"Evşeke: “Zeyd çıkmak üzere”, “Zeyd’in çıkması yakın”, “Zeyd çıkmak üzere.”"
+]
+},
+{
+"b": "النَّوْعُ الثَّانِيَ عَشَرَ: أَفْعَالُ الْمَدْحِ وَالذَّمِّ",
+"tr_b": "12. çeşit: Övme ve yerme fiilleri",
+"p": [
+"النَّوْعُ الثَّانِيَ عَشَرَ: أَفْعَالُ الْمَدْحِ وَالذَّمِّ تَرْفَعُ الِاسْمَ الْجِنْسَ الْمُعَرَّفَ بِاللَّامِ، وَهِيَ أَرْبَعَةُ أَفْعَالٍ:",
+"نِعْمَ، نَحْوُ: نِعْمَ الرَّجُلُ زَيْدٌ.",
+"وَبِئْسَ، نَحْوُ: بِئْسَ الرَّجُلُ زَيْدٌ.",
+"وَحَبَّذَا، نَحْوُ: حَبَّذَا الرَّجُلُ زَيْدٌ.",
+"وَسَاءَ، نَحْوُ: سَاءَ الرَّجُلُ زَيْدٌ."
+],
+"tr": [
+"On ikinci çeşit: Övme ve yerme fiilleri, lâm ile ma‘rife yapılmış cins ismini ref‘ eder; dört fiildir:",
+"Ni‘me: “Zeyd ne güzel adamdır.”",
+"Bi’se: “Zeyd ne kötü adamdır.”",
+"Habbezâ: “Zeyd ne hoş adamdır.”",
+"Sâe: “Zeyd ne kötü adamdır.”"
+]
+},
+{
+"b": "النَّوْعُ الثَّالِثَ عَشَرَ: أَفْعَالُ الشَّكِّ وَالْيَقِينِ",
+"tr_b": "13. çeşit: Şek ve yakîn fiilleri (kalbî fiiller)",
+"p": [
+"النَّوْعُ الثَّالِثَ عَشَرَ: أَفْعَالُ الشَّكِّ وَالْيَقِينِ، تَدْخُلُ عَلَى اسْمَيْنِ ثَانِيهِمَا عِبَارَةٌ عَنِ الْأَوَّلِ وَتَنْصِبُهُمَا جَمِيعًا، وَهِيَ سَبْعَةُ أَفْعَالٍ:",
+"ظَنَنْتُ، نَحْوُ: ظَنَنْتُ زَيْدًا كَرِيمًا. وَإِذَا كَانَ بِمَعْنَى اتَّهَمْتُ لَمْ يَقْتَضِ الْمَفْعُولَ الثَّانِيَ، نَحْوُ: ظَنَنْتُ زَيْدًا، أَيِ: اتَّهَمْتُهُ.",
+"وَحَسِبْتُ، نَحْوُ: حَسِبْتُ أَخَاكَ كَرِيمًا.",
+"وَخِلْتُ، نَحْوُ: خِلْتُ زَيْدًا عَاقِلًا.",
+"وَعَلِمْتُ، نَحْوُ: عَلِمْتُ زَيْدًا فَاضِلًا. وَإِذَا كَانَ بِمَعْنَى عَرَفْتُ لَمْ يَقْتَضِ الْمَفْعُولَ الثَّانِيَ، نَحْوُ: عَلِمْتُ زَيْدًا، أَيْ: عَرَفْتُهُ.",
+"وَرَأَيْتُ، نَحْوُ: رَأَيْتُ زَيْدًا قَائِمًا. وَإِذَا كَانَ بِمَعْنَى أَبْصَرْتُ لَمْ يَقْتَضِ الْمَفْعُولَ الثَّانِيَ، نَحْوُ: رَأَيْتُ زَيْدًا، أَيْ: أَبْصَرْتُهُ.",
+"وَوَجَدْتُ، نَحْوُ: وَجَدْتُ زَيْدًا جَوَادًا. وَإِذَا كَانَ بِمَعْنَى أَصَبْتُ لَمْ يَقْتَضِ الْمَفْعُولَ الثَّانِيَ، نَحْوُ: وَجَدْتُ الضَّالَّةَ، أَيْ: أَصَبْتُهَا.",
+"وَزَعَمْتُ، نَحْوُ: زَعَمْتُ زَيْدًا فَاضِلًا. وَإِذَا كَانَ بِمَعْنَى قُلْتُ لَمْ يَقْتَضِ الْمَفْعُولَ الثَّانِيَ، نَحْوُ قَوْلِهِ تَعَالَى: ﴿زَعَمَ الَّذِينَ كَفَرُوا أَنْ لَنْ يُبْعَثُوا﴾."
+],
+"tr": [
+"On üçüncü çeşit: Şek ve yakîn fiilleri; ikincisi birinciyi anlatan iki isme girer ve ikisini birlikte nasbeder; yedi fiildir:",
+"Zanentü: “Zeyd’i cömert sandım.” “İtham ettim” mânâsına olursa ikinci mef‘ûlü gerektirmez: “Zeyd’den şüphelendim.”",
+"Hasibtü: “Kardeşini cömert sandım.”",
+"Hiltü: “Zeyd’i akıllı sandım.”",
+"Alimtü: “Zeyd’in faziletli olduğunu bildim.” “Tanıdım” mânâsına olursa ikinci mef‘ûlü gerektirmez: “Zeyd’i tanıdım.”",
+"Raeytü: “Zeyd’in ayakta olduğunu gördüm (bildim).” “Gözle gördüm” mânâsına olursa ikinci mef‘ûlü gerektirmez: “Zeyd’i gördüm.”",
+"Vecedtü: “Zeyd’i cömert buldum.” “Ele geçirdim” mânâsına olursa ikinci mef‘ûlü gerektirmez: “Kayıp hayvanı buldum.”",
+"Zeamtü: “Zeyd’i faziletli zannettim.” “Dedim” mânâsına olursa ikinci mef‘ûlü gerektirmez: “Kâfirler asla diriltilmeyeceklerini iddia ettiler.”"
+]
+},
+{
+"b": "الْعَوَامِلُ الْقِيَاسِيَّةُ",
+"tr_b": "Kıyâsî âmiller (7)",
+"p": [
+"وَالْقِيَاسِيَّةُ مِنْهَا سَبْعَةُ عَوَامِلَ:",
+"الْفِعْلُ عَلَى الْإِطْلَاقِ، نَحْوُ: ضَرَبَ زَيْدٌ عَمْرًا.",
+"وَالْمَصْدَرُ، نَحْوُ: أَعْجَبَنِي ضَرْبُ زَيْدٍ عَمْرًا.",
+"وَاسْمُ الْفَاعِلِ، نَحْوُ: زَيْدٌ ضَارِبٌ غُلَامُهُ عَمْرًا.",
+"وَاسْمُ الْمَفْعُولِ، نَحْوُ: زَيْدٌ مُعْطًى غُلَامُهُ دِرْهَمًا.",
+"وَالصِّفَةُ الْمُشَبَّهَةُ، نَحْوُ: جَاءَنِي رَجُلٌ حَسَنٌ وَجْهُهُ.",
+"وَكُلُّ اسْمٍ أُضِيفَ إِلَى اسْمٍ آخَرَ، نَحْوُ: غُلَامُ زَيْدٍ، وَخَاتَمُ فِضَّةٍ.",
+"وَكُلُّ اسْمٍ اسْتَغْنَى عَنِ الْإِضَافَةِ، نَحْوُ: عِنْدِي رَاقُودٌ خَلًّا، وَمَنَوَانِ سَمْنًا، وَعِشْرُونَ دِرْهَمًا، وَمِلْؤُهُ عَسَلًا."
+],
+"tr": [
+"Kıyâsî âmiller yedidir:",
+"1. Mutlak olarak fiil: “Zeyd Amr’ı dövdü.”",
+"2. Masdar: “Zeyd’in Amr’ı dövmesi hoşuma gitti.”",
+"3. İsm-i fâil: “Zeyd’in kölesi Amr’ı dövmektedir.”",
+"4. İsm-i mef‘ûl: “Zeyd’in kölesine bir dirhem verilmektedir.”",
+"5. Sıfat-ı müşebbehe: “Bana yüzü güzel bir adam geldi.”",
+"6. Başka bir isme muzâf olan her isim: “Zeyd’in kölesi”, “gümüş yüzük.”",
+"7. İzâfetten müstağni olan (tamamlanmış) her isim: “Yanımda bir küp sirke, iki batman yağ, yirmi dirhem ve onun dolusu bal var.”"
+]
+},
+{
+"b": "الْعَوَامِلُ الْمَعْنَوِيَّةُ",
+"tr_b": "Ma‘nevî âmiller (2)",
+"p": [
+"وَالْمَعْنَوِيَّةُ مِنْهَا عَدَدَانِ:",
+"الْعَامِلُ فِي الْمُبْتَدَإِ وَالْخَبَرِ، وَهُوَ كَوْنُهُ مُبْتَدَأً وَخَبَرًا، نَحْوُ: زَيْدٌ مُنْطَلِقٌ.",
+"وَالْعَامِلُ فِي الْفِعْلِ الْمُضَارِعِ، وَهُوَ وُقُوعُهُ مَوْقِعَ الِاسْمِ، نَحْوُ: زَيْدٌ يَضْرِبُ؛ وَيَضْرِبُ زَيْدٌ فِي مَوْقِعِ: زَيْدٌ ضَارِبٌ."
+],
+"tr": [
+"Ma‘nevî âmiller ikidir:",
+"1. Mübtedâ ve haberdeki âmil: onların mübtedâ ve haber olmalarıdır (ibtidâ): “Zeyd gitmektedir.”",
+"2. Muzâri fiildeki âmil: onun ismin yerinde bulunmasıdır: “Zeyd döver” — buradaki “yadribu”, “Zeyd dövücüdür” sözündeki isim yerindedir."
 ]
 }
 ],
 "sorular": [
 {
 "b": 0,
-"s": "Kelimenin sonundaki i‘râbı meydana getiren şeye ne denir?",
+"s": "Cürcânî’ye göre âmillerin toplam sayısı kaçtır?",
 "k": [
-"Âmil",
-"Ma‘mûl",
-"Alâmet",
-"Tâbi"
+"Yüz",
+"Altmış",
+"Doksan bir",
+"On üç"
 ],
 "d": 0,
-"a": "Âmil etkiler, ma‘mûl etkilenir, alâmet görünen harekedir."
+"a": "مِائَةُ عَامِلٍ: 91 semâî + 7 kıyâsî + 2 ma‘nevî."
 },
 {
 "b": 0,
-"s": "Âmiller ilk olarak hangi iki kısma ayrılır?",
+"s": "Semâî âmiller kaç çeşide ayrılır?",
 "k": [
-"Lafzî ve ma‘nevî",
-"İsim ve fiil",
-"Harf ve fiil",
-"Mu‘reb ve mebnî"
+"On üç",
+"Yedi",
+"İki",
+"Dokuz"
 ],
 "d": 0,
-"a": "Lafzî: söylenen; ma‘nevî: söylenmeyen."
+"a": "تَتَنَوَّعُ عَلَى ثَلَاثَةَ عَشَرَ نَوْعًا."
 },
 {
 "b": 1,
-"s": "Aşağıdakilerden hangisi yalnız ismi cerreden harflerdendir?",
+"s": "كَتَبْتُ بِالْقَلَمِ cümlesinde bâ hangi mânâdadır?",
 "k": [
-"عَنْ",
-"لَنْ",
-"لَمْ",
-"إِنَّ"
+"İstiâne (vasıta)",
+"İlsâk",
+"Musâhabe",
+"Kasem"
 ],
 "d": 0,
-"a": "عَنْ cer harfidir."
+"a": "وَلِلِاسْتِعَانَةِ، نَحْوُ: كَتَبْتُ بِالْقَلَمِ."
+},
+{
+"b": 1,
+"s": "أَخَذْتُ مِنَ الْمَالِ cümlesinde min hangi mânâdadır?",
+"k": [
+"Teb‘îz",
+"İbtidâ-i gâye",
+"Tebyîn",
+"Zâid"
+],
+"d": 0,
+"a": "وَلِلتَّبْعِيضِ."
+},
+{
+"b": 1,
+"s": "رُبَّ hangi mânâ içindir?",
+"k": [
+"Taklîl",
+"Teşbîh",
+"İsti‘lâ",
+"Tenzîh"
+],
+"d": 0,
+"a": "رُبَّ لِلتَّقْلِيلِ."
+},
+{
+"b": 1,
+"s": "مُذْ ve مُنْذُ ne bildirir?",
+"k": [
+"Geçmiş zamanda başlangıç",
+"Mekânda bitiş",
+"Teşbîh",
+"Yemin"
+],
+"d": 0,
+"a": "لِابْتِدَاءِ الْغَايَةِ فِي الزَّمَانِ الْمَاضِي."
 },
 {
 "b": 2,
-"s": "إِنَّ ve kardeşlerinin ameli nedir?",
+"s": "لَكِنَّ hangi mânâ içindir?",
 "k": [
-"İsmi nasb, haberi ref‘",
-"İsmi ref‘, haberi nasb",
-"İkisini de nasb",
-"Muzâriyi nasb"
+"İstidrâk",
+"Teşbîh",
+"Temennî",
+"Tereccî"
 ],
 "d": 0,
-"a": "Hurûf-ı müşebbehe bi’l-fiil."
-},
-{
-"b": 2,
-"s": "إِنَّمَا ifadesinde إِنَّ niçin amel etmez?",
-"k": [
-"Kâffe mâ bitiştiği için",
-"Haberi öne geçtiği için",
-"Fiile girdiği için",
-"Nekreye girdiği için"
-],
-"d": 0,
-"a": "مَا kâffe, amelden alıkoyar."
+"a": "وَلَكِنَّ لِلِاسْتِدْرَاكِ."
 },
 {
 "b": 3,
-"s": "مَا هَذَا بَشَرًا cümlesinde بَشَرًا niçin mansûbdur?",
+"s": "Leyse’ye benzeyen mâ neyi olumsuzlar?",
 "k": [
-"Leyse gibi amel eden mânın haberi olduğu için",
-"Hâl olduğu için",
-"Mef‘ûlün bih olduğu için",
-"Temyîz olduğu için"
+"Şimdiki zamanı (hâl)",
+"Geleceği",
+"Geçmişi",
+"Emri"
 ],
 "d": 0,
-"a": "Hicaz lehçesinde mâ leyse gibi amel eder."
+"a": "فَمَا لِنَفْيِ الْحَالِ."
 },
 {
 "b": 4,
-"s": "Hangisi muzâriyi NASBEDER?",
+"s": "اسْتَوَى الْمَاءُ وَالْخَشَبَةَ cümlesinde vâv ne mânâdadır?",
 "k": [
-"كَيْ",
-"لَمَّا",
-"لَا (nehiy)",
-"مَهْمَا"
+"“Me‘a” (ile beraber)",
+"Atf",
+"Kasem",
+"Hâl"
 ],
 "d": 0,
-"a": "Nevâsıb: أن، لن، كي، إذن."
+"a": "الْوَاوُ بِمَعْنَى «مَعَ»."
 },
 {
 "b": 4,
-"s": "إِنْ تَنْصُرُوا اللَّهَ يَنْصُرْكُمْ cümlesinde يَنْصُرْكُمْ neden meczûmdur?",
+"s": "Hemze ile nidâ kime yapılır?",
 "k": [
-"Şartın cevabı olduğu için",
-"Nehiy olduğu için",
-"لَمْ geldiği için",
-"Emir olduğu için"
+"En yakındakine",
+"Uzaktakine",
+"Ortadakine",
+"Ölüye"
 ],
 "d": 0,
-"a": "إِنْ iki fiili cezmeder: şart ve cevap."
+"a": "لَكِنَّ الْهَمْزَةَ لِنِدَاءِ الْأَقْرَبِ."
 },
 {
 "b": 5,
-"s": "يَا عَبْدَ اللَّهِ münâdâsı niçin mansûbdur?",
+"s": "لَنْ hangi mânâyı ifade eder?",
 "k": [
-"Muzâf olduğu için",
-"Müfred alem olduğu için",
-"Nekre-i maksûde olduğu için",
-"Mebnî olduğu için"
+"Gelecekteki olumsuzluğun te’kîdi",
+"Geçmişin olumsuzlanması",
+"Nehiy",
+"Şart"
 ],
 "d": 0,
-"a": "Muzâf münâdâ mansûbdur."
+"a": "وَلَنْ لِتَأْكِيدِ نَفْيِ الِاسْتِقْبَالِ."
 },
 {
 "b": 6,
-"s": "كَادَ fiilinin haberi genellikle nedir?",
+"s": "لَمَّا ile لَمْ arasındaki fark nedir?",
 "k": [
-"Muzâri cümlesi",
-"Mansûb müfred isim",
-"Câr-mecrûr",
-"Mâzî fiil"
+"لَمَّا’da beklenti (tevakku‘) vardır",
+"لَمَّا geleceği olumsuzlar",
+"لَمْ nasbeder",
+"Fark yoktur"
 ],
 "d": 0,
-"a": "يَكَادُ الْبَرْقُ يَخْطَفُ أَبْصَارَهُمْ."
-},
-{
-"b": 6,
-"s": "Ef‘âl-i kulûb kaç mef‘ûl nasbeder?",
-"k": [
-"İki",
-"Bir",
-"Üç",
-"Hiç"
-],
-"d": 0,
-"a": "ظننت زيدًا قائمًا."
+"a": "وَفِيهِ تَوَقُّعٌ وَانْتِظَارٌ."
 },
 {
 "b": 7,
-"s": "صَهْ kelimesi nedir?",
+"s": "Fiilleri cezmeden isimler kaç tanedir?",
 "k": [
-"İsm-i fiil (sus)",
-"Harf",
-"Mâzî fiil",
-"Masdar"
+"Dokuz",
+"Beş",
+"Dört",
+"On yedi"
 ],
 "d": 0,
-"a": "Esmâ-i ef‘âl fiil gibi amel eder."
-},
-{
-"b": 7,
-"s": "Muzâf, muzâf ileyhe ne yapar?",
-"k": [
-"Cerreder",
-"Nasbeder",
-"Ref‘ eder",
-"Cezmeder"
-],
-"d": 0,
-"a": "كِتَابُ اللَّهِ."
+"a": "وَهِيَ تِسْعَةُ أَسْمَاءٍ."
 },
 {
 "b": 8,
-"s": "Mübtedâyı ref‘ eden âmil nedir?",
+"s": "كَمْ رَجُلًا عِنْدَكَ cümlesinde رَجُلًا nedir?",
 "k": [
-"İbtidâ (ma‘nevî âmil)",
-"Haber",
-"Fiil",
-"إِنَّ"
+"Temyîz",
+"Hâl",
+"Mef‘ûlün bih",
+"Bedel"
 ],
 "d": 0,
-"a": "Lafzî âmillerden sıyrılma: ibtidâ."
+"a": "أَسْمَاءٌ تَنْصِبُ … عَلَى التَّمْيِيزِ."
+},
+{
+"b": 9,
+"s": "هَيْهَاتَ hangi fiil mânâsındadır?",
+"k": [
+"بَعُدَ (uzaklaştı)",
+"خُذْ (al)",
+"دَعْ (bırak)",
+"اِلْزَمْ (sarıl)"
+],
+"d": 0,
+"a": "هَيْهَاتَ زَيْدٌ، أَيْ: بَعُدَ."
+},
+{
+"b": 9,
+"s": "Aşağıdakilerden hangisi nasbeden fiil isimlerindendir?",
+"k": [
+"رُوَيْدَ",
+"شَتَّانَ",
+"سَرْعَانَ",
+"هَيْهَاتَ"
+],
+"d": 0,
+"a": "Nasbedenler: رويد، بله، دونك، عليك، ها، حيهل."
+},
+{
+"b": 10,
+"s": "كَانَ زَيْدٌ “Zeyd var oldu” mânâsında kâne nasıl kullanılmıştır?",
+"k": [
+"Tâmme",
+"Nâkısa",
+"Zâide",
+"Şe’n zamirli"
+],
+"d": 0,
+"a": "وَتَكُونُ تَامَّةً، نَحْوُ: كَانَ زَيْدٌ، أَيْ: وُجِدَ زَيْدٌ."
+},
+{
+"b": 10,
+"s": "Nâkıs fiiller kaç tanedir?",
+"k": [
+"On üç",
+"Dört",
+"Yedi",
+"Altı"
+],
+"d": 0,
+"a": "وَهِيَ ثَلَاثَةَ عَشَرَ فِعْلًا."
+},
+{
+"b": 11,
+"s": "Aşağıdakilerden hangisi mukârebe fiillerindendir?",
+"k": [
+"كَرَبَ",
+"ظَلَّ",
+"حَبَّذَا",
+"خِلْتُ"
+],
+"d": 0,
+"a": "عَسَى، كَادَ، كَرَبَ، أَوْشَكَ."
+},
+{
+"b": 12,
+"s": "نِعْمَ fiili neyi ref‘ eder?",
+"k": [
+"Lâm ile ma‘rife olmuş cins ismini",
+"Herhangi bir nekreyi",
+"Muzâri fiili",
+"Zamir dışında hiçbir şeyi"
+],
+"d": 0,
+"a": "تَرْفَعُ الِاسْمَ الْجِنْسَ الْمُعَرَّفَ بِاللَّامِ."
+},
+{
+"b": 13,
+"s": "رَأَيْتُ “gözle gördüm” mânâsında ise ne olur?",
+"k": [
+"İkinci mef‘ûlü gerektirmez",
+"Üç mef‘ûl alır",
+"Hiç mef‘ûl almaz",
+"Haberi ref‘ eder"
+],
+"d": 0,
+"a": "وَإِذَا كَانَ بِمَعْنَى أَبْصَرْتُ لَمْ يَقْتَضِ الْمَفْعُولَ الثَّانِيَ."
+},
+{
+"b": 14,
+"s": "Kıyâsî âmiller kaç tanedir?",
+"k": [
+"Yedi",
+"İki",
+"On üç",
+"Dokuz"
+],
+"d": 0,
+"a": "وَالْقِيَاسِيَّةُ مِنْهَا سَبْعَةُ عَوَامِلَ."
+},
+{
+"b": 14,
+"s": "غُلَامُ زَيْدٍ terkibinde âmil hangisidir?",
+"k": [
+"Muzâf olan isim",
+"Ma‘nevî âmil",
+"Gizli bir cer harfi",
+"Fiil"
+],
+"d": 0,
+"a": "وَكُلُّ اسْمٍ أُضِيفَ إِلَى اسْمٍ آخَرَ."
+},
+{
+"b": 15,
+"s": "Muzâri fiili ref‘ eden ma‘nevî âmil nedir?",
+"k": [
+"İsmin yerinde bulunması",
+"Başındaki muzâri harfi",
+"Mübtedâ olması",
+"Gizli إنّ"
+],
+"d": 0,
+"a": "وَهُوَ وُقُوعُهُ مَوْقِعَ الِاسْمِ."
 }
 ]
 }
