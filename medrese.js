@@ -735,13 +735,27 @@ async function modern(p1, p2){
   if(p1 === 'haber') return modHaber();
   if(p1 === 'ders') return modDers();
   if(p1 === 'diyaloglar') return modDiyaloglar();
-  V.innerHTML = `<div class="modsayfa">${bar('Modern Arapça', '/')}<div class="modust"><a href="#/modern/diyaloglar">💬 Diyalog</a><a href="#/yds">📖 Metinler</a><a href="#/yds/kelime">🗂 Kelime</a></div><iframe class="dersf mod" src="arapca.html?medrese=1" title="Modern Arapça"></iframe></div>`;
+  V.innerHTML = bar('Modern Arapça', '/') + `<div class="modust"><a href="#/modern/diyaloglar">💬 Diyalog</a><a href="#/yds">📖 Metinler</a><a href="#/yds/kelime">🗂 Kelime</a></div>
+  <div class="wrap"><details class="ytk" id="ytk"><summary><span>▶ Video ders</span><small>Aç / kapat</small></summary><div class="ytb"></div></details>
+  <a class="dersk" href="arapca.html?medrese=1"><b>🎧 Sesli Arapça dersleri</b><span>Diyaloglu dersler, her cümle seslendirilir; Türkçesi bir dokunuşla açılır.</span><i>Derslere başla ›</i></a></div>`;
+  ytKutu($('#ytk'));
+}
+let VID = null;
+async function ytKutu(el){
+  if(!el) return;
+  const b = el.querySelector('.ytb');
+  try{ VID = VID || await fetch('data/videolar.json').then(r => r.json()) }catch(e){ VID = {} }
+  const a = VID.arapca || {}, L = a.videolar || [];
+  const src = a.liste ? `https://www.youtube-nocookie.com/embed/videoseries?list=${a.liste}&rel=0` : (L[0] ? `https://www.youtube-nocookie.com/embed/${L[0].id}?rel=0` : '');
+  const ac = (s) => { b.innerHTML = s ? `<div class="ytc"><iframe src="${s}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen title="Video ders"></iframe></div>` + (L.length > 1 ? `<div class="ytl">${L.map((v, i) => `<button data-v="${i}" class="${s.includes(v.id) ? 'on' : ''}">${i + 1}. ${esc(v.baslik)}</button>`).join('')}</div>` : '') : '<p class="lead" style="margin:10px 4px">Video dersler yakında burada olacak.</p>';
+    b.querySelectorAll('[data-v]').forEach(x => x.onclick = () => ac(`https://www.youtube-nocookie.com/embed/${L[+x.dataset.v].id}?rel=0&autoplay=1`)) };
+  el.ontoggle = () => { if(el.open) ac(src); else b.innerHTML = '' };
 }
 function modDiyaloglar(){
   V.innerHTML = bar('Diyaloglar', '/modern') + `<div class="wrap"><div class="tiplist">${MOD.diyalog.map((d, i) => `<a href="#/modern/diyalog/${i}"><b>${esc(d.baslik)}</b><small lang="ar">${esc(d.ar_baslik || '')}</small></a>`).join('')}</div></div>`;
 }
 function modDers(){
-  V.innerHTML = bar('Sesli Arapça ders', '/modern') + `<iframe class="dersf" src="arapca.html?medrese=1" title="Sesli Arapça ders programı"></iframe>`;
+  location.href = 'arapca.html?medrese=1';
 }
 function modMetin(id, geri){
   geri = geri || '/modern';

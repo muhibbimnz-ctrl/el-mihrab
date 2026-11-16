@@ -423,9 +423,7 @@ a{color:var(--accent)}
       <button class="tile t6" data-dil="almanca"><span class="big">De</span><b>Almanca</b></button>
       <button class="tile t7" data-dil="fransizca"><span class="big">Fr</span><b>Fransızca</b></button>
       <button class="tile t8" data-dil="ispanyolca"><span class="big">Es</span><b>İspanyolca</b></button>
-      <button class="tile t3" id="dgAr"><span class="big">ع</span><b>Arapça</b></button>
     </div>
-    <p class="note" style="text-align:center;margin-top:10px">Arapça dersleri Medrese › Modern Arapça bölümündedir.</p>
   </div>
 </section>
 <div class="vdov hide" id="vdOv"><div class="vdbx"><div class="vdh"><b id="vdT"></b><button class="ib" id="vdC" aria-label="Kapat">✕</button></div><div class="vdf"><iframe id="vdF" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div></div></div>
@@ -1361,7 +1359,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('sw.js').catch(()=>{});
   $('#okX').innerHTML=icon('l');$('#ezX').innerHTML=icon('l');$('#ezPl').innerHTML=icon('p',22);
   $('.brand').style.cursor='pointer';$('.brand').onclick=showHome;$('.brand').title=trS('Ana sayfa');
-  $('#hNamaz').onclick=openNamaz;$('#hDiger').onclick=openDiger;$('#dgX').innerHTML=icon('l');$('#dgX').onclick=showHome;$('#vdC').onclick=vdKapat;$('#vdOv').onclick=e=>{if(e.target.id==='vdOv')vdKapat()};$('#dgAr').onclick=()=>{location.href='medrese.html#/modern'};$('#hMedrese').onclick=()=>{location.href='medrese.html'};$('#nmX').innerHTML=icon('l');$('#nmX').onclick=showHome;
+  $('#hNamaz').onclick=openNamaz;$('#hDiger').onclick=openDiger;$('#dgX').innerHTML=icon('l');$('#dgX').onclick=showHome;$('#vdC').onclick=vdKapat;$('#vdOv').onclick=e=>{if(e.target.id==='vdOv')vdKapat()};$('#hMedrese').onclick=()=>{location.href='medrese.html'};$('#nmX').innerHTML=icon('l');$('#nmX').onclick=showHome;
   $('#hRead').onclick=()=>openOkuma();$('#hHifz').onclick=openEzber;$('#hStudy').onclick=()=>{const l=LS.get('beyan2.last',{s:1,a:1});hideScr();if(l.s===st.s&&st.ay.length){const e=$('#a'+l.a);e&&e.scrollIntoView({block:'center'})}else loadSurah(l.s||1,l.a>1?l.a:null)};
   $('#hList').onclick=e=>{e.preventDefault();hideScr();openOv('ovS');surahList('s')};
   $('#hOff').onclick=e=>{e.preventDefault();offDownload(e.target,$('#hOffI'))};
