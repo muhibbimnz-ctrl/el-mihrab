@@ -28,9 +28,11 @@ const BOOKS = [
     tanitim: { muellif: 'İmâm-ı Âzam Ebû Hanîfe’ye nisbet edilir; bu nisbet tartışmalıdır.', amac: 'Sarf kurallarını, özellikle mezîd bâbları ve i‘lâl kaidelerini sistemli biçimde vermek.', yontem: 'Tam matn, Mecmûatü’s-sarf nüshasından. Her paragrafa dokununca Türkçesi açılır; masdar–mâzî–muzâri–emir–fâil–mef‘ûl türetimini Emsile çekimleriyle karşılaştırın.' } },
   { id: 'izzi', ad: 'İzzî', ar: 'التصريف العزي', yol: 'sarf', sira: 4, durum: 'hazir',
     tanitim: { muellif: 'İzzeddîn Abdülvehhâb b. İbrâhîm ez-Zencânî (7./13. yy).', amac: 'Tasrîf ilmini (kelimenin kalıptan kalıba çevrilmesi) özlü ve ileri seviyede vermek.', yontem: 'Tam matn, Mecmûatü’s-sarf nüshasından. Her paragrafa dokununca Türkçesi açılır; i‘lâl kaidelerini Kur’an i‘râbı modülündeki kelimelerde uygulayın.' } },
-  { id: 'avamil', ad: 'Avâmil', ar: 'العوامل', yol: 'nahiv', sira: 1, durum: 'hazir',
+  { id: 'avamil', ad: 'Avâmil-i Cürcânî', ar: 'العوامل المائة', yol: 'nahiv', sira: 1, durum: 'hazir',
     tanitim: { muellif: 'İmam Abdülkâhir el-Cürcânî (ö. 471/1078) — “el-Avâmilü’l-mie” (Avâmil-i atîk). Belâgatta “Delâilü’l-i‘câz” ve “Esrârü’l-belâga”nın da müellifidir.', amac: 'Kelimelerin sonunu değiştiren yüz âmili (91 semâî, 7 kıyâsî, 2 ma‘nevî) on üç çeşit hâlinde, her birini örnekle tanıtmak. Nahvin “bunu ne ref‘ etti, ne nasbetti?” sorusuna buradan başlanır.', yontem: 'Her âmili örneğiyle birlikte ezberleyin. Cümleye dokununca Türkçesi açılır. Bâb sonundaki sorularla pekiştirin; i‘râbı Kur’an i‘râbı modülünde ve İ‘râb oyununda uygulayın.' } },
-  { id: 'ajurrumiyye', ad: 'Âcurrûmiyye', ar: 'الآجرومية', yol: 'nahiv', sira: 2, durum: 'hazir',
+  { id: 'birgivi', ad: 'Avâmil (Birgivî)', ar: 'العوامل للبركوي', yol: 'nahiv', sira: 2, durum: 'hazir',
+    tanitim: { muellif: 'İmam Birgivî Mehmed Efendi (ö. 981/1573), Balıkesir/Birgi. Osmanlı medreselerinde “Avâmil-i cedîd” diye okutulmuştur; şerhi aynı müellifin İzhâr’ıdır.', amac: 'İ‘râbı öğrenmek için gereken yüz şeyi —60 âmil, 30 ma‘mûl, 10 i‘râb— üç bâbta, her kuralı ahlâkî örnek cümlelerle vermek.', yontem: 'Harekeli Arapça metni okuyun, Türkçesi için paragrafa dokunun. Her bölümün sonunda o bâbtan sorular var; Emsile ve Binâ’dan sonra, İzhâr’dan önce okunur.' } },
+  { id: 'ajurrumiyye', ad: 'Âcurrûmiyye', ar: 'الآجرومية', yol: 'nahiv', sira: 3, durum: 'hazir',
     tanitim: { muellif: 'İbn Âcurrûm es-Sanhâcî (ö. 723/1323), Fas. “Tuhfetü’s-seniyye” bu matnin şerhidir.', amac: 'Nahvin bütün temel bâblarını (i‘râb, alâmetler, merfûlar, mansûblar, mecrûrlar) en kısa yoldan vermek. Asırlardır nahve başlangıç metni olarak ezberlenir.', yontem: 'Her bâbı önce Arapça okuyun, sonra Türkçesine bakın; tanımları ezberleyin. Bâb sonundaki sorularla pekiştirin ve öğrendiğiniz i‘râbı Kur’an modülünde deneyin. Not: Tuhfetü’s-seniyye şerhi (M. Muhyiddîn Abdülhamîd, ö. 1972) telif kapsamında olduğu için uygulamaya matn ve bizim Türkçe açıklamamız konuldu.' } },
   { id: 'katr', ad: 'Katru’n-nedâ', ar: 'قطر الندى', yol: 'arsiv', sira: 3, durum: 'hazir',
     tanitim: { muellif: 'İbn Hişâm el-Ensârî (ö. 761/1360).', amac: 'Nahvin bütün bâblarını kısa ve yoğun bir matnle, şâhidleriyle vermek. Âcurrûmiyye’den sonra okunur.', yontem: 'Matni bâb bâb okuyun; her bâbın Türkçe özeti başta verilmiştir. Ardından aynı bâbı Şerhu Katri’n-nedâ’da müellifin kendi açıklamasıyla okuyun.' } },
@@ -257,7 +259,7 @@ const bar = (title, back) => `<div class="mh"><button class="ib" onclick="${back
 function go(h){ location.hash = h }
 addEventListener('hashchange', route);
 /* ---- ders videosu (mini oynatıcı) ---- */
-const KLASIK = ['emsile', 'bina', 'maksud', 'izzi', 'avamil', 'ajurrumiyye', 'katr', 'serhkatr'];
+const KLASIK = ['emsile', 'bina', 'maksud', 'izzi', 'avamil', 'birgivi', 'ajurrumiyye', 'katr', 'serhkatr'];
 let VDATA = null, VP = { key: null, open: false, big: false };
 const VIDKEY = h => { if(h[0] === 'emsile') return 'emsile'; if((h[0] === 'kitap' || h[0] === 'oku') && KLASIK.includes(h[1])) return h[1]; return null };
 const DERS_LISTE = { emsile: 'PLUFT_YZ2pHv5pjh2ZMt7BJ-1beuXGKOth', bina: 'PLUFT_YZ2pHv51Rn2jzRzJ1iPMrRcyUl9C', maksud: 'PLUFT_YZ2pHv7TVNi9bD9yrYVqTpBLqkbw', izzi: 'PLUFT_YZ2pHv6MpTMupA0fxtPL0XY8Slgs', avamil: 'PLUFT_YZ2pHv5jiqfMYytJAcKkgSFx_CH5', katr: 'PLUFT_YZ2pHv7MZgzym0gi8qazfVeaEBHA', serhkatr: 'PLUFT_YZ2pHv7MZgzym0gi8qazfVeaEBHA' };
@@ -567,7 +569,7 @@ if(window.Kelime){ Kelime.cfg.jump = (s, a, w) => go(`/kuran/${s}/${a}/${w}`); K
 /* ======================================================================
    KİTAPLAR (Binâ, Maksûd, İzzî, Avâmil, Âcurrûmiyye, Katru'n-nedâ)
    ====================================================================== */
-const KITAPLAR = ['bina', 'maksud', 'izzi', 'avamil', 'ajurrumiyye', 'katr', 'serhkatr'];
+const KITAPLAR = ['bina', 'maksud', 'izzi', 'avamil', 'birgivi', 'ajurrumiyye', 'katr', 'serhkatr'];
 const KC = {}, KP = {};
 const kitapYukle = id => KP[id] || (KP[id] = fetch(`data/kitap/${id}.json`).then(r => r.json()).then(j => (KC[id] = j)).catch(e => { delete KP[id]; throw e }));
 let YDSB = null, MOD = null;
@@ -837,7 +839,7 @@ async function harita(){
   const node = id => { const b = BOOKS.find(x => x.id === id), p = yuzde(id); return `<a class="hn ${rz[id] ? 'rz' : p ? 'go' : ''}" href="#/kitap/${id}"><span class="hc" style="--p:${p}"><i lang="ar">${b.ar.replace(/^(شرح|متن|التصريف) /, '').replace(/ .*/, '')}</i></span><b>${b.ad}</b><small>${rz[id] ? '✦ bitirildi' : '%' + p}</small></a>` };
   V.innerHTML = bar('Öğrenme haritam', '/') + `<div class="wrap"><p class="lead">Medrese yolunda neredesiniz? Her kitap, okunan bâbların oranıyla dolar; kitap bitince rozet alır.</p>
    <h2>Sarf</h2><div class="hyol">${['emsile', 'bina', 'maksud', 'izzi'].map(node).join('<span class="hl"></span>')}</div>
-   <h2>Nahiv</h2><div class="hyol">${['avamil', 'ajurrumiyye', 'serhkatr'].map(node).join('<span class="hl"></span>')}</div>
+   <h2>Nahiv</h2><div class="hyol">${['avamil', 'birgivi', 'ajurrumiyye', 'serhkatr'].map(node).join('<span class="hl"></span>')}</div>
    <h2>Rozetler</h2><p>${Object.keys(rz).length ? Object.keys(rz).map(k => `<span class="rzb">✦ ${(BOOKS.find(b => b.id === k) || { ad: k }).ad}</span>`).join(' ') : 'Henüz rozet yok. Bir kitabın bütün bâblarını okuyup alıştırmalarında başarılı olunca rozet kazanırsınız.'}</p></div>`;
 }
 
