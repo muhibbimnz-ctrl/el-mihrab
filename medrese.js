@@ -276,8 +276,8 @@ function vidKur(h){
 async function vidAc(){
   const box = $('#vp'), b = box.querySelector('.vpb'), d = await vidListe(VP.key);
   VP.open = true; $('#vpBtn').classList.add('on'); $('#vpBtn').innerHTML = '<span>■</span> Kapat'; box.classList.remove('hide');
-  const src = d ? (d.liste ? `https://www.youtube-nocookie.com/embed/videoseries?list=${encodeURIComponent(d.liste)}&rel=0&playsinline=1` : `https://www.youtube-nocookie.com/embed/${encodeURIComponent(d.video)}?rel=0&playsinline=1`) : '';
-  b.innerHTML = src ? `<iframe src="${src}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen loading="lazy" title="Ders videosu"></iframe>` : '<p class="vpe">Bu dersin video listesi yakında eklenecek.</p>';
+  const src = d ? (d.liste ? `https://www.youtube-nocookie.com/embed/videoseries?list=${encodeURIComponent(d.liste)}&rel=0&playsinline=1&origin=${encodeURIComponent(location.origin)}` : `https://www.youtube-nocookie.com/embed/${encodeURIComponent(d.video)}?rel=0&playsinline=1&origin=${encodeURIComponent(location.origin)}`) : '';
+  b.innerHTML = src ? `<iframe src="${src}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" title="Ders videosu"></iframe>` : '<p class="vpe">Bu dersin video listesi yakında eklenecek.</p>';
 }
 function vidKapat(){ const box = $('#vp'); if(!box) return; VP.open = false; box.classList.add('hide'); box.querySelector('.vpb').innerHTML = ''; const b = $('#vpBtn'); b.classList.remove('on'); b.innerHTML = '<span>▶</span> Ders' }
 
