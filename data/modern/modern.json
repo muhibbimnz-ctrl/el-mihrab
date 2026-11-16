@@ -3447,6 +3447,835 @@
 "a": ""
 }
 ]
+},
+{
+"id": "diyabet",
+"alan": "saglik",
+"baslik": "Şeker hastalığı",
+"ar_baslik": "داء السكري: وباء صامت",
+"konu": "Şeker hastalığı",
+"seviye": "B2",
+"ar": [
+"يعد داء السكري من أكثر الأمراض المزمنة انتشارا في العالم، وتسجل بعض الدول العربية نسبا مرتفعة منه بين البالغين.",
+"ويحدث المرض حين يعجز الجسم عن إنتاج الإنسولين أو عن استخدامه استخداما فعالا، فيرتفع مستوى السكر في الدم، ومع الوقت قد يلحق الضرر بالقلب والكلى والعينين والأعصاب.",
+"ومن أهم عوامل الخطر قلة النشاط البدني والسمنة والإفراط في تناول السكريات، إضافة إلى العامل الوراثي.",
+"ويؤكد الأطباء أن الفحص الدوري والكشف المبكر يقللان كثيرا من المضاعفات، وأن تغيير نمط الحياة بالمشي اليومي والغذاء المتوازن قد يمنع الإصابة أو يؤخرها."
+],
+"tr": [
+"Şeker hastalığı dünyada en yaygın kronik hastalıklardan biridir; bazı Arap ülkelerinde yetişkinler arasında yüksek oranlarda görülür.",
+"Hastalık, vücut insülin üretemediğinde veya onu etkili kullanamadığında ortaya çıkar; kan şekeri yükselir ve zamanla kalbe, böbreklere, gözlere ve sinirlere zarar verebilir.",
+"En önemli risk etkenleri arasında fiziksel hareketsizlik, obezite ve aşırı şeker tüketimi ile kalıtsal etken vardır.",
+"Doktorlar düzenli kontrolün ve erken teşhisin komplikasyonları çok azalttığını, günlük yürüyüş ve dengeli beslenmeyle yaşam tarzını değiştirmenin hastalığı önleyebileceğini veya geciktirebileceğini vurguluyor."
+],
+"sozluk": [
+[
+"داء السكري",
+"şeker hastalığı"
+],
+[
+"مزمن",
+"kronik"
+],
+[
+"الإنسولين",
+"insülin"
+],
+[
+"الكلى",
+"böbrekler"
+],
+[
+"الأعصاب",
+"sinirler"
+],
+[
+"عوامل الخطر",
+"risk etkenleri"
+],
+[
+"الوراثي",
+"kalıtsal"
+],
+[
+"الكشف المبكر",
+"erken teşhis"
+],
+[
+"المضاعفات",
+"komplikasyonlar"
+]
+],
+"sorular": [
+{
+"s": "Hastalık ne zaman ortaya çıkar?",
+"k": [
+"Vücut insülini üretemeyince veya etkili kullanamayınca",
+"Çok su içince",
+"Uykusuzlukta",
+"Soğukta"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Risk etkenlerinden biri değildir:",
+"k": [
+"Hareketsizlik",
+"Obezite",
+"Kalıtım",
+"Günlük yürüyüş"
+],
+"d": 3,
+"a": ""
+},
+{
+"s": "“المضاعفات” ne demektir?",
+"k": [
+"Komplikasyonlar",
+"İlaçlar",
+"Belirtiler",
+"Doktorlar"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "sinav-kaygisi",
+"alan": "egitim",
+"baslik": "Sınav kaygısı",
+"ar_baslik": "قلق الامتحانات",
+"konu": "Sınav kaygısı",
+"seviye": "B1",
+"ar": [
+"يعاني كثير من الطلاب من قلق الامتحانات، فتتسارع دقات قلوبهم وينسون ما حفظوه بمجرد أن يمسكوا ورقة الأسئلة.",
+"ويرى علماء النفس أن قدرا يسيرا من القلق مفيد لأنه يدفع الطالب إلى الاستعداد، أما القلق الزائد فيعطل التفكير ويضعف الأداء.",
+"ومن أنجع الوسائل لمواجهته تنظيم وقت المذاكرة على مدى أسابيع بدل الحفظ في الليلة الأخيرة، والنوم الكافي قبل الامتحان، وحل نماذج من الأسئلة السابقة.",
+"كما ينصح المختصون بتمارين التنفس العميق، وبأن يتذكر الطالب أن الامتحان وسيلة لقياس التعلم لا حكما نهائيا على قيمته."
+],
+"tr": [
+"Birçok öğrenci sınav kaygısı yaşar; soru kâğıdını eline alır almaz kalbi hızlanır ve ezberlediklerini unutur.",
+"Psikologlar az miktarda kaygının öğrenciyi hazırlanmaya ittiği için faydalı olduğunu, aşırı kaygının ise düşünmeyi durdurup performansı zayıflattığını düşünüyor.",
+"Onunla başa çıkmanın en etkili yolları arasında son gece ezberlemek yerine çalışma zamanını haftalara yaymak, sınavdan önce yeterli uyumak ve önceki soru örneklerini çözmek var.",
+"Uzmanlar ayrıca derin nefes egzersizlerini ve öğrencinin sınavın öğrenmeyi ölçmenin bir aracı olduğunu, değeri hakkında nihai bir hüküm olmadığını hatırlamasını tavsiye ediyor."
+],
+"sozluk": [
+[
+"قلق",
+"kaygı"
+],
+[
+"تتسارع",
+"hızlanır"
+],
+[
+"يسيرا",
+"az"
+],
+[
+"يعطل",
+"durdurur"
+],
+[
+"أنجع",
+"en etkili"
+],
+[
+"المذاكرة",
+"ders çalışma"
+],
+[
+"نماذج",
+"örnekler"
+],
+[
+"التنفس العميق",
+"derin nefes"
+]
+],
+"sorular": [
+{
+"s": "Psikologlara göre az kaygı nasıldır?",
+"k": [
+"Faydalı",
+"Çok zararlı",
+"Önemsiz",
+"Tehlikeli"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Hangisi tavsiye edilmez?",
+"k": [
+"Son gece ezberlemek",
+"Yeterli uyku",
+"Eski soruları çözmek",
+"Derin nefes"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“أنجع” ne demektir?",
+"k": [
+"En etkili",
+"En kolay",
+"En eski",
+"En pahalı"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "sosyal-medya",
+"alan": "sosyal",
+"baslik": "Sosyal medya ve gençler",
+"ar_baslik": "وسائل التواصل الاجتماعي والشباب",
+"konu": "Sosyal medya ve gençler",
+"seviye": "B2",
+"ar": [
+"أصبحت وسائل التواصل الاجتماعي جزءا لا يتجزأ من حياة الشباب، يقضون فيها ساعات طويلة كل يوم.",
+"ولهذه الوسائل فوائد لا تنكر، فهي تسهل التواصل مع الأهل والأصدقاء، وتتيح التعلم وتبادل الخبرات، وتمنح أصحاب المواهب منبرا للتعريف بأعمالهم.",
+"لكن الدراسات تحذر من آثارها السلبية، كالمقارنة المستمرة بالآخرين التي تولد شعورا بعدم الرضا، وانتشار الأخبار الكاذبة، وضعف التركيز بسبب التنقل السريع بين المحتويات.",
+"ولذلك يدعو التربويون إلى الاستخدام الواعي، بتحديد أوقات معينة للتصفح، والتحقق من مصادر الأخبار قبل نشرها، والحرص على العلاقات الواقعية التي لا تعوضها الشاشات."
+],
+"tr": [
+"Sosyal medya gençlerin hayatının ayrılmaz bir parçası oldu; her gün orada uzun saatler geçiriyorlar.",
+"Bu araçların inkâr edilemez faydaları var: aile ve arkadaşlarla iletişimi kolaylaştırıyor, öğrenmeye ve tecrübe paylaşımına imkân veriyor, yetenekli kişilere eserlerini tanıtacak bir kürsü sunuyor.",
+"Ancak araştırmalar olumsuz etkilerine karşı uyarıyor: hoşnutsuzluk duygusu doğuran başkalarıyla sürekli kıyaslama, yalan haberlerin yayılması ve içerikler arasında hızlı geçiş yüzünden odak kaybı.",
+"Bu yüzden eğitimciler bilinçli kullanıma çağırıyor: gezinme için belirli saatler ayırmak, haberleri paylaşmadan önce kaynaklarını doğrulamak ve ekranların yerini tutamayacağı gerçek ilişkilere özen göstermek."
+],
+"sozluk": [
+[
+"لا يتجزأ",
+"ayrılmaz"
+],
+[
+"تتيح",
+"imkân verir"
+],
+[
+"المواهب",
+"yetenekler"
+],
+[
+"منبرا",
+"kürsü, platform"
+],
+[
+"المقارنة",
+"kıyaslama"
+],
+[
+"عدم الرضا",
+"hoşnutsuzluk"
+],
+[
+"الأخبار الكاذبة",
+"yalan haberler"
+],
+[
+"الاستخدام الواعي",
+"bilinçli kullanım"
+],
+[
+"التحقق",
+"doğrulama"
+]
+],
+"sorular": [
+{
+"s": "Sosyal medyanın faydalarından biri hangisidir?",
+"k": [
+"İletişimi kolaylaştırması",
+"Odak kaybı",
+"Yalan haber",
+"Kıyaslama"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Hoşnutsuzluk duygusunu ne doğurur?",
+"k": [
+"Başkalarıyla sürekli kıyaslama",
+"Kitap okumak",
+"Spor",
+"Uyku"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Eğitimcilerin önerisi hangisidir?",
+"k": [
+"Bilinçli kullanım",
+"Tamamen yasak",
+"Sınırsız kullanım",
+"Sadece gece kullanım"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "nesir-cahiz",
+"alan": "edebiyat",
+"baslik": "Câhız ve Arap nesri",
+"ar_baslik": "الجاحظ إمام النثر العربي",
+"konu": "Câhız ve Arap nesri",
+"seviye": "C1",
+"ar": [
+"يعد أبو عثمان الجاحظ من أعلام النثر العربي في العصر العباسي، وقد عاش في البصرة في القرنين الثاني والثالث للهجرة.",
+"وكان الجاحظ موسوعي الثقافة، كتب في الأدب والكلام والحيوان والبلاغة والاجتماع، ومن أشهر كتبه البيان والتبيين، والحيوان، والبخلاء.",
+"ويتميز أسلوبه بالاستطراد والسخرية اللطيفة والقدرة على تصوير الشخصيات تصويرا حيا، كما في كتاب البخلاء الذي رسم فيه نماذج طريفة من البخلاء في عصره.",
+"وقد أثر الجاحظ في الكتاب من بعده تأثيرا كبيرا، حتى صار أسلوبه مدرسة قائمة بذاتها، وما زالت كتبه مرجعا لدارسي اللغة والأدب والفكر."
+],
+"tr": [
+"Ebû Osmân el-Câhız Abbâsî dönemi Arap nesrinin önde gelenlerindendir; hicrî 2. ve 3. yüzyıllarda Basra’da yaşadı.",
+"Câhız ansiklopedik bir kültüre sahipti; edebiyat, kelâm, hayvanlar, belâgat ve toplum üzerine yazdı; en meşhur kitapları el-Beyân ve’t-tebyîn, el-Hayevân ve el-Buhalâ’dır.",
+"Üslubu konudan konuya geçişleri, ince alayı ve karakterleri canlı tasvir gücüyle öne çıkar; döneminin cimrilerinden ilginç örnekler çizdiği el-Buhalâ’da olduğu gibi.",
+"Câhız kendinden sonraki yazarları büyük ölçüde etkiledi; üslubu başlı başına bir ekol oldu ve kitapları hâlâ dil, edebiyat ve düşünce araştırmacıları için kaynaktır."
+],
+"sozluk": [
+[
+"أعلام",
+"önde gelenler"
+],
+[
+"موسوعي",
+"ansiklopedik"
+],
+[
+"الكلام",
+"kelâm"
+],
+[
+"البخلاء",
+"cimriler"
+],
+[
+"الاستطراد",
+"konudan konuya geçiş"
+],
+[
+"السخرية",
+"alay"
+],
+[
+"طريفة",
+"ilginç, hoş"
+],
+[
+"مدرسة",
+"ekol"
+],
+[
+"مرجعا",
+"kaynak"
+]
+],
+"sorular": [
+{
+"s": "Câhız nerede yaşadı?",
+"k": [
+"Basra",
+"Kahire",
+"Endülüs",
+"Halep"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Cimrileri anlattığı kitabı hangisidir?",
+"k": [
+"el-Buhalâ",
+"el-Hayevân",
+"el-Beyân",
+"Kelîle"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Üslubunun özelliklerinden biri değildir:",
+"k": [
+"İstitrât",
+"İnce alay",
+"Canlı tasvir",
+"Kuru ve kısa ifadeler"
+],
+"d": 3,
+"a": ""
+}
+]
+},
+{
+"id": "yapay-zeka-tip",
+"alan": "bilim",
+"baslik": "Tıpta yapay zekâ",
+"ar_baslik": "الذكاء الاصطناعي في الطب",
+"konu": "Tıpta yapay zekâ",
+"seviye": "B2",
+"ar": [
+"بدأ الذكاء الاصطناعي يدخل مجال الطب بقوة، فأصبحت بعض البرامج قادرة على قراءة صور الأشعة واكتشاف علامات الأمراض بدقة تقارب دقة الأطباء المتخصصين.",
+"كما تساعد هذه التقنيات في تسريع اكتشاف الأدوية، إذ تحلل ملايين المركبات الكيميائية في وقت قصير لتحديد أكثرها فاعلية.",
+"غير أن الخبراء يحذرون من الاعتماد الكامل على الآلة، فالأخطاء ممكنة، والبيانات التي تدرب عليها البرامج قد لا تمثل جميع فئات المرضى.",
+"ويثير استخدامها أيضا أسئلة أخلاقية تتعلق بخصوصية المعلومات الطبية وبتحديد المسؤولية عند وقوع الخطأ، ولذلك يرى كثيرون أن الذكاء الاصطناعي ينبغي أن يكون مساعدا للطبيب لا بديلا عنه."
+],
+"tr": [
+"Yapay zekâ tıp alanına güçlü bir şekilde girmeye başladı; bazı programlar röntgen görüntülerini okuyup hastalık belirtilerini uzman doktorlarınkine yakın bir doğrulukla tespit edebilir hâle geldi.",
+"Bu teknolojiler ilaç keşfini hızlandırmaya da yardım ediyor; en etkilisini belirlemek için milyonlarca kimyasal bileşiği kısa sürede analiz ediyor.",
+"Ancak uzmanlar makineye tamamen güvenmeye karşı uyarıyor; hatalar mümkündür ve programların eğitildiği veriler bütün hasta gruplarını temsil etmeyebilir.",
+"Kullanımı ayrıca tıbbi bilgilerin mahremiyeti ve hata durumunda sorumluluğun belirlenmesiyle ilgili ahlâkî sorular doğuruyor; bu yüzden pek çok kişi yapay zekânın doktorun yerine geçen değil ona yardımcı olan bir araç olması gerektiğini düşünüyor."
+],
+"sozluk": [
+[
+"صور الأشعة",
+"röntgen görüntüleri"
+],
+[
+"بدقة",
+"doğrulukla"
+],
+[
+"تسريع",
+"hızlandırma"
+],
+[
+"المركبات",
+"bileşikler"
+],
+[
+"فاعلية",
+"etkinlik"
+],
+[
+"فئات",
+"gruplar"
+],
+[
+"أخلاقية",
+"ahlâkî"
+],
+[
+"خصوصية",
+"mahremiyet"
+],
+[
+"بديلا",
+"yerine geçen"
+]
+],
+"sorular": [
+{
+"s": "Yapay zekâ tıpta ne yapabiliyor?",
+"k": [
+"Röntgen görüntülerini okuyabiliyor",
+"Ameliyatı tek başına yapıyor",
+"Doktorları atıyor",
+"Hastaneleri yönetiyor"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Uzmanların uyarısı nedir?",
+"k": [
+"Makineye tamamen güvenmemek",
+"Hiç kullanmamak",
+"Sadece ilaçta kullanmak",
+"Verileri silmek"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Metnin sonucu nedir?",
+"k": [
+"Yapay zekâ doktora yardımcı olmalı",
+"Doktorun yerini almalı",
+"Yasaklanmalı",
+"Pahalıdır"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "iklim-tarim",
+"alan": "cevre",
+"baslik": "İklim değişikliği ve tarım",
+"ar_baslik": "تغير المناخ ومستقبل الزراعة",
+"konu": "İklim değişikliği ve tarım",
+"seviye": "B2",
+"ar": [
+"تواجه الزراعة في العالم العربي تحديات متزايدة بسبب تغير المناخ، فارتفاع درجات الحرارة وقلة الأمطار يهددان المحاصيل ومصادر المياه.",
+"وقد شهدت مناطق عدة موجات جفاف متكررة أدت إلى تراجع الإنتاج الزراعي وهجرة بعض المزارعين إلى المدن.",
+"ولمواجهة ذلك يلجأ الباحثون إلى تطوير بذور تتحمل الحرارة والملوحة، ويشجعون على الزراعة المائية التي تستهلك قدرا أقل من الماء.",
+"ويرى الخبراء أن الأمن الغذائي لم يعد شأنا محليا، بل يحتاج إلى تعاون إقليمي في تبادل الخبرات وإدارة الموارد المائية المشتركة."
+],
+"tr": [
+"Arap dünyasında tarım iklim değişikliği yüzünden artan zorluklarla karşı karşıya; sıcaklıkların artması ve yağışların azalması ürünleri ve su kaynaklarını tehdit ediyor.",
+"Birçok bölge tarımsal üretimin düşmesine ve bazı çiftçilerin şehirlere göçüne yol açan tekrarlayan kuraklık dalgaları yaşadı.",
+"Buna karşı araştırmacılar sıcağa ve tuzluluğa dayanıklı tohumlar geliştirmeye yöneliyor, daha az su tüketen topraksız (hidroponik) tarımı teşvik ediyor.",
+"Uzmanlar gıda güvenliğinin artık yerel bir mesele olmadığını, tecrübe paylaşımı ve ortak su kaynaklarının yönetiminde bölgesel iş birliği gerektirdiğini düşünüyor."
+],
+"sozluk": [
+[
+"تغير المناخ",
+"iklim değişikliği"
+],
+[
+"المحاصيل",
+"ürünler, mahsuller"
+],
+[
+"موجات جفاف",
+"kuraklık dalgaları"
+],
+[
+"بذور",
+"tohumlar"
+],
+[
+"تتحمل",
+"dayanır"
+],
+[
+"الملوحة",
+"tuzluluk"
+],
+[
+"الزراعة المائية",
+"hidroponik tarım"
+],
+[
+"الأمن الغذائي",
+"gıda güvenliği"
+],
+[
+"إقليمي",
+"bölgesel"
+]
+],
+"sorular": [
+{
+"s": "Kuraklık dalgalarının sonucu nedir?",
+"k": [
+"Üretimin düşmesi ve çiftçi göçü",
+"Yağışların artması",
+"Ürünlerin bollaşması",
+"Fiyatların düşmesi"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Araştırmacıların çözümlerinden biri hangisidir?",
+"k": [
+"Sıcağa dayanıklı tohumlar",
+"Daha çok su kullanmak",
+"Tarımı bırakmak",
+"Ormanları kesmek"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Gıda güvenliği için ne gerekiyor?",
+"k": [
+"Bölgesel iş birliği",
+"Sadece yerel çözüm",
+"İthalat yasağı",
+"Hiçbir şey"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "para-tarihi",
+"alan": "ekonomi",
+"baslik": "Paranın tarihi",
+"ar_baslik": "من المقايضة إلى العملات الرقمية",
+"konu": "Paranın tarihi",
+"seviye": "B1",
+"ar": [
+"قبل اختراع النقود كان الناس يتبادلون السلع بطريقة المقايضة، فيعطي الفلاح قمحا مقابل ثوب أو أداة.",
+"لكن المقايضة كانت صعبة، لأنها تحتاج إلى أن يرغب كل طرف فيما عند الآخر، فظهرت المعادن الثمينة كالذهب والفضة وسيلة للتبادل.",
+"وفي الحضارة الإسلامية سك الخلفاء الدينار الذهبي والدرهم الفضي، وانتشرت الصكوك التي تشبه الشيكات الحديثة في التجارة بين البلدان.",
+"واليوم تتجه المعاملات بسرعة نحو الدفع الإلكتروني، بل ظهرت العملات الرقمية التي يثير استخدامها جدلا اقتصاديا وفقهيا واسعا."
+],
+"tr": [
+"Para icat edilmeden önce insanlar malları takas yoluyla değiş tokuş ederdi; çiftçi bir elbise veya alet karşılığında buğday verirdi.",
+"Ama takas zordu; çünkü her tarafın diğerinin elindekini istemesi gerekiyordu; böylece altın ve gümüş gibi değerli madenler değişim aracı olarak ortaya çıktı.",
+"İslâm medeniyetinde halifeler altın dinar ve gümüş dirhem bastırdı; ülkeler arası ticarette modern çeklere benzeyen “sak”lar yaygınlaştı.",
+"Bugün işlemler hızla elektronik ödemeye yöneliyor; hatta kullanımı geniş bir iktisadî ve fıkhî tartışma doğuran dijital paralar ortaya çıktı."
+],
+"sozluk": [
+[
+"المقايضة",
+"takas"
+],
+[
+"السلع",
+"mallar"
+],
+[
+"المعادن الثمينة",
+"değerli madenler"
+],
+[
+"سك",
+"bastırdı (para)"
+],
+[
+"الدينار",
+"dinar"
+],
+[
+"الصكوك",
+"senetler, saklar"
+],
+[
+"الدفع الإلكتروني",
+"elektronik ödeme"
+],
+[
+"جدلا",
+"tartışma"
+],
+[
+"فقهيا",
+"fıkhî"
+]
+],
+"sorular": [
+{
+"s": "Takas neden zordu?",
+"k": [
+"Her tarafın diğerinin elindekini istemesi gerektiği için",
+"Altın olmadığı için",
+"Yasak olduğu için",
+"Pahalı olduğu için"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "İslâm medeniyetinde çeke benzeyen belge nedir?",
+"k": [
+"Sak",
+"Dinar",
+"Dirhem",
+"Fels"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Dijital paralar ne doğuruyor?",
+"k": [
+"Geniş bir tartışma",
+"Takasın dönüşü",
+"Altının yasaklanması",
+"Hiçbir şey"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "ibn-battuta",
+"alan": "tarih",
+"baslik": "İbn Battûta",
+"ar_baslik": "ابن بطوطة: رحالة العالم",
+"konu": "İbn Battûta",
+"seviye": "B2",
+"ar": [
+"يعد ابن بطوطة من أشهر الرحالة في التاريخ، وقد خرج من طنجة سنة خمس وعشرين وسبعمئة للهجرة قاصدا الحج وهو في الحادية والعشرين من عمره.",
+"لكن رحلته امتدت نحو ثلاثين عاما، زار خلالها شمال إفريقيا والشام والعراق وفارس والأناضول وآسيا الوسطى والهند والصين وجزر المالديف.",
+"وقد عمل قاضيا في دلهي وفي جزر المالديف، والتقى بالسلاطين والعلماء، ووصف عادات الشعوب وأطعمتها وملابسها وصفا دقيقا.",
+"وبعد عودته أملى رحلته على الكاتب ابن جزي بأمر من سلطان المغرب، فصارت كتابا يعرف باسم تحفة النظار في غرائب الأمصار، وهو اليوم مصدر ثمين لتاريخ القرن الثامن الهجري."
+],
+"tr": [
+"İbn Battûta tarihin en meşhur seyyahlarından sayılır; hicrî 725’te, yirmi bir yaşındayken hac niyetiyle Tanca’dan yola çıktı.",
+"Ancak yolculuğu yaklaşık otuz yıl sürdü; bu sürede Kuzey Afrika’yı, Şam’ı, Irak’ı, İran’ı, Anadolu’yu, Orta Asya’yı, Hindistan’ı, Çin’i ve Maldiv adalarını gezdi.",
+"Delhi’de ve Maldivler’de kadılık yaptı, sultanlar ve âlimlerle görüştü; milletlerin âdetlerini, yemeklerini ve giyimlerini titizlikle anlattı.",
+"Dönüşünden sonra Fas sultanının emriyle seyahatini kâtip İbn Cüzey’e yazdırdı; bu, Tuhfetü’n-nuzzâr fî garâibi’l-emsâr adıyla bilinen bir kitap oldu ve bugün hicrî 8. yüzyıl tarihi için değerli bir kaynaktır."
+],
+"sozluk": [
+[
+"الرحالة",
+"seyyahlar"
+],
+[
+"قاصدا",
+"niyetiyle"
+],
+[
+"امتدت",
+"sürdü, uzadı"
+],
+[
+"قاضيا",
+"kadı"
+],
+[
+"السلاطين",
+"sultanlar"
+],
+[
+"عادات",
+"âdetler"
+],
+[
+"أملى",
+"yazdırdı (dikte etti)"
+],
+[
+"غرائب",
+"acayiplikler"
+],
+[
+"الأمصار",
+"şehirler, ülkeler"
+]
+],
+"sorular": [
+{
+"s": "İbn Battûta yolculuğa ne niyetle çıktı?",
+"k": [
+"Hac",
+"Ticaret",
+"Savaş",
+"Kaçış"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Yolculuğu yaklaşık ne kadar sürdü?",
+"k": [
+"30 yıl",
+"3 yıl",
+"10 yıl",
+"50 yıl"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Seyahatini kime yazdırdı?",
+"k": [
+"İbn Cüzey",
+"İbn Haldun",
+"Câhız",
+"Mes‘ûdî"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "cuma",
+"alan": "din",
+"baslik": "Cuma günü",
+"ar_baslik": "يوم الجمعة في حياة المسلم",
+"konu": "Cuma günü",
+"seviye": "B1",
+"ar": [
+"يوم الجمعة هو أفضل أيام الأسبوع عند المسلمين، وفيه صلاة الجمعة التي يجتمع لها الناس في المساجد الجامعة.",
+"ويستحب للمسلم في هذا اليوم أن يغتسل ويلبس أحسن ثيابه ويبكر إلى المسجد ويكثر من الصلاة على النبي صلى الله عليه وسلم.",
+"وتتضمن صلاة الجمعة خطبة يعظ فيها الخطيب الناس ويذكرهم بأمور دينهم ودنياهم، ولذلك كانت منبرا مهما للتوجيه والإرشاد عبر التاريخ.",
+"وفي كثير من البلدان تتحول الجمعة إلى يوم للقاء العائلي وزيارة الأقارب، فتجمع بين العبادة والتواصل الاجتماعي."
+],
+"tr": [
+"Cuma günü Müslümanlar katında haftanın en faziletli günüdür; o gün insanların ulu camilerde toplandığı cuma namazı kılınır.",
+"Bu günde Müslümanın gusletmesi, en güzel elbisesini giymesi, camiye erken gitmesi ve Peygamber’e (s.a.v.) çokça salavat getirmesi müstehaptır.",
+"Cuma namazı, hatibin insanlara öğüt verdiği, onlara din ve dünya işlerini hatırlattığı bir hutbe içerir; bu yüzden tarih boyunca önemli bir irşad kürsüsü olmuştur.",
+"Birçok ülkede cuma, aile buluşması ve akraba ziyareti gününe dönüşür; ibadet ile sosyal bağı bir araya getirir."
+],
+"sozluk": [
+[
+"المساجد الجامعة",
+"ulu camiler"
+],
+[
+"يستحب",
+"müstehaptır"
+],
+[
+"يغتسل",
+"gusleder"
+],
+[
+"يبكر",
+"erken gider"
+],
+[
+"خطبة",
+"hutbe"
+],
+[
+"يعظ",
+"öğüt verir"
+],
+[
+"الإرشاد",
+"irşad"
+],
+[
+"الأقارب",
+"akrabalar"
+]
+],
+"sorular": [
+{
+"s": "Cuma günü müstehap olanlardan biri değildir:",
+"k": [
+"Gusletmek",
+"Güzel giyinmek",
+"Camiye erken gitmek",
+"Oruç tutmak zorunluluğu"
+],
+"d": 3,
+"a": ""
+},
+{
+"s": "Hutbede hatip ne yapar?",
+"k": [
+"Öğüt verir",
+"Ticaret yapar",
+"Sınav yapar",
+"Şiir yarışması yapar"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“يبكر” ne demektir?",
+"k": [
+"Erken gider",
+"Geç kalır",
+"Uyur",
+"Koşar"
+],
+"d": 0,
+"a": ""
+}
+]
 }
 ],
 "kelime": [
