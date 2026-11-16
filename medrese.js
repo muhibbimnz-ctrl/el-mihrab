@@ -267,10 +267,10 @@ function vidKur(h){
     btn.onclick = () => VP.open ? vidKapat() : vidAc();
     box.querySelector('[data-a=kapat]').onclick = vidKapat;
     box.querySelector('[data-a=buyut]').onclick = () => { VP.big = !VP.big; box.classList.toggle('big', VP.big) }; }
-  document.body.classList.toggle('vpVar', !!k);
+  if(!k) document.body.classList.remove('vpVar');
   if(!k){ btn.classList.add('hide'); vidKapat(); VP.key = null; return }
-  btn.classList.remove('hide');
-  if(VP.key !== k){ vidKapat(); VP.key = k }
+  if(VP.key !== k){ vidKapat(); VP.key = k; btn.classList.add('hide'); document.body.classList.remove('vpVar'); vidListe(k).then(d => { if(VP.key === k && d){ btn.classList.remove('hide'); document.body.classList.add('vpVar') } }) }
+  else if(!btn.dataset.yok) { vidListe(k).then(d => { if(d){ btn.classList.remove('hide'); document.body.classList.add('vpVar') } }) }
 }
 async function vidAc(){
   const box = $('#vp'), b = box.querySelector('.vpb'), d = await vidListe(VP.key);
@@ -318,7 +318,7 @@ function home(){
     <a class="bigbox b-nahiv" href="#/yol/nahiv"><span lang="ar">النَّحْو</span><b>Nahiv</b><small>Avâmil · Âcurrûmiyye · Katru’n-nedâ</small></a>
     <a class="bigbox b-kuran" href="#/kitap/kuran"><span lang="ar">إِعْرَابُ الْقُرْآنِ</span><b>Kur’an i‘râbı</b><small>Her kelimeye dokun: sarf ve nahiv</small></a>
     <a class="bigbox b-yds" href="#/yds"><span lang="ar">اِخْتِبَار</span><b>YDS Arapça</b><small>Deneme · okuma metinleri · kelime</small></a>
-    <a class="bigbox b-mod" href="#/modern"><span lang="ar">المُعَاصِرَة</span><b>Modern Arapça</b><small>Arapça dil dersi (sesli) · diyaloglar</small></a>
+    <a class="bigbox b-mod" href="arapca.html?medrese=1"><span lang="ar">المُعَاصِرَة</span><b>Modern Arapça</b><small>Sesli Arapça dersleri · hikâyeler</small></a>
     <a class="bigbox b-oyun" href="#/oyunlar"><span lang="ar">أَلْعَاب</span><b>Oyunlar</b><small>Günün sorusu · İ‘râb · Bâb bul</small></a>
    </div>
    <p class="foot">Hata görürseniz her ekrandaki <i>Hata bildir</i> bağlantısını kullanın.<br><a href="#" onclick="$('#src').classList.remove('hide');return false">Kaynaklar ve lisans</a></p></div>`;
@@ -760,8 +760,7 @@ async function modern(p1, p2){
   if(p1 === 'haber') return modHaber();
   if(p1 === 'ders') return modDers();
   if(p1 === 'diyaloglar') return modDiyaloglar();
-  V.innerHTML = bar('Modern Arapça', '/') + `<div class="modust"><a href="#/modern/diyaloglar">💬 Diyalog</a><a href="#/yds">📖 Metinler</a><a href="#/yds/kelime">🗂 Kelime</a></div>
-  <div class="wrap" style="padding-top:14px"><a class="dersk" href="arapca.html?medrese=1"><b>🎧 Sesli Arapça dersleri</b><span>Diyaloglu dersler, her cümle seslendirilir; Türkçesi bir dokunuşla açılır.</span><i>Derslere başla ›</i></a></div>`;
+  location.replace('arapca.html?medrese=1');
 }
 function modDiyaloglar(){
   V.innerHTML = bar('Diyaloglar', '/modern') + `<div class="wrap"><div class="tiplist">${MOD.diyalog.map((d, i) => `<a href="#/modern/diyalog/${i}"><b>${esc(d.baslik)}</b><small lang="ar">${esc(d.ar_baslik || '')}</small></a>`).join('')}</div></div>`;
