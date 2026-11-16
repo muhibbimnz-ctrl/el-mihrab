@@ -7514,6 +7514,976 @@
 "a": ""
 }
 ]
+},
+{
+"id": "universite-secimi",
+"alan": "egitim",
+"baslik": "Üniversite ve meslek seçimi",
+"ar_baslik": "اختيار التخصص الجامعي",
+"konu": "Üniversite ve meslek seçimi",
+"seviye": "B1",
+"ar": [
+"يعد اختيار التخصص الجامعي من أهم القرارات التي يتخذها الشاب، لأنه يرسم إلى حد كبير ملامح مستقبله المهني.",
+"ويقع كثير من الطلاب في خطأ اختيار التخصص تبعا لرغبة الأهل أو تقليدا للأصدقاء أو طمعا في المكانة الاجتماعية فقط.",
+"وينصح المرشدون التربويون بأن يبدأ الطالب بمعرفة نفسه: ميوله وقدراته والمواد التي يتفوق فيها ويستمتع بدراستها.",
+"ثم يأتي دور البحث في سوق العمل، فبعض التخصصات تشهد طلبا متزايدا، وبعضها يعاني من فائض في الخريجين.",
+"ومن المفيد أن يزور الطالب أماكن العمل، ويحاور أصحاب المهن، ويجرب التدريب الصيفي قبل أن يحسم قراره.",
+"وليس الخطأ في الاختيار نهاية الطريق، فكثير من الناجحين غيروا تخصصاتهم، لكن التفكير المبكر يوفر الوقت والجهد."
+],
+"tr": [
+"Üniversitede bölüm seçmek gencin aldığı en önemli kararlardandır; çünkü meslek geleceğinin hatlarını büyük ölçüde çizer.",
+"Birçok öğrenci bölümü ailenin isteğine göre, arkadaşları taklit ederek veya yalnızca sosyal statü hevesiyle seçme hatasına düşüyor.",
+"Rehber öğretmenler öğrencinin işe kendini tanımakla başlamasını öneriyor: eğilimleri, yetenekleri, başarılı olduğu ve okumaktan zevk aldığı dersler.",
+"Sonra iş piyasasını araştırma sırası gelir; bazı bölümlere talep artıyor, bazılarında ise mezun fazlası var.",
+"Öğrencinin karar vermeden önce iş yerlerini ziyaret etmesi, meslek sahipleriyle konuşması ve yaz stajını denemesi faydalıdır.",
+"Seçimde hata yolun sonu değildir; birçok başarılı insan bölümünü değiştirmiştir; ama erken düşünmek zaman ve emekten tasarruf sağlar."
+],
+"sozluk": [
+[
+"التخصص",
+"bölüm, uzmanlık alanı"
+],
+[
+"ملامح",
+"hatlar"
+],
+[
+"تقليدا",
+"taklit ederek"
+],
+[
+"المرشدون",
+"rehber öğretmenler"
+],
+[
+"ميوله",
+"eğilimleri"
+],
+[
+"يتفوق",
+"başarılı olur"
+],
+[
+"فائض",
+"fazla"
+],
+[
+"الخريجين",
+"mezunlar"
+],
+[
+"التدريب الصيفي",
+"yaz stajı"
+]
+],
+"sorular": [
+{
+"s": "Öğrenci işe nereden başlamalı?",
+"k": [
+"Kendini tanımaktan",
+"Arkadaşını taklitten",
+"En pahalı okuldan",
+"Rastgele seçimden"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Karar öncesi faydalı olanlardan biri:",
+"k": [
+"Yaz stajı",
+"Hiç araştırmamak",
+"Sadece reklam izlemek",
+"Kura çekmek"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الخريجين” ne demektir?",
+"k": [
+"Mezunlar",
+"Öğretmenler",
+"İşverenler",
+"Öğrenciler"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "iki-dil",
+"alan": "egitim",
+"baslik": "İki dilli çocuklar",
+"ar_baslik": "تعلم اللغات في الصغر",
+"konu": "İki dilli çocuklar",
+"seviye": "B2",
+"ar": [
+"يتساءل كثير من الآباء عن السن المناسبة لتعليم أطفالهم لغة ثانية، ويخشى بعضهم أن يؤدي ذلك إلى خلط بين اللغتين.",
+"غير أن الدراسات الحديثة تشير إلى أن الطفل قادر على اكتساب أكثر من لغة في آن واحد، وأن الخلط الذي يظهر في البداية مرحلة طبيعية تزول مع الوقت.",
+"بل إن للثنائية اللغوية فوائد معرفية، فالأطفال الذين يتحدثون لغتين يظهرون مرونة أكبر في التفكير وقدرة أعلى على التركيز والانتقال بين المهام.",
+"ويكون الاكتساب أيسر في السنوات الأولى، حين يلتقط الطفل الأصوات والنطق الصحيح بسهولة يصعب على الكبار بلوغها.",
+"وينصح المختصون بأن يتعرض الطفل لكل لغة في سياق طبيعي وممتع، عبر القصص والأناشيد واللعب، لا عبر الحفظ الجاف.",
+"وفي البلاد غير العربية يواجه أبناء المسلمين تحدي الحفاظ على العربية لغة للقرآن والهوية، مما يستدعي جهدا مشتركا بين الأسرة والمسجد والمدرسة."
+],
+"tr": [
+"Birçok anne baba çocuklarına ikinci bir dil öğretmenin uygun yaşını soruyor; bazıları bunun iki dil arasında karışıklığa yol açmasından korkuyor.",
+"Ancak yeni araştırmalar çocuğun aynı anda birden fazla dil edinebildiğini, başta görülen karışıklığın zamanla geçen doğal bir evre olduğunu gösteriyor.",
+"Hatta iki dilliliğin bilişsel faydaları vardır: iki dil konuşan çocuklar düşüncede daha fazla esneklik, odaklanmada ve görevler arasında geçişte daha yüksek yetenek gösterir.",
+"Edinim, çocuğun sesleri ve doğru telaffuzu büyüklerin zor ulaştığı bir kolaylıkla yakaladığı ilk yıllarda daha kolaydır.",
+"Uzmanlar çocuğun her dille kuru ezberle değil, hikâyeler, ilahiler ve oyun yoluyla doğal ve zevkli bir bağlamda karşılaşmasını öneriyor.",
+"Arap olmayan ülkelerde Müslüman çocuklar, Arapçayı Kur’an’ın ve kimliğin dili olarak korumak gibi bir zorlukla karşılaşıyor; bu da aile, cami ve okulun ortak çabasını gerektiriyor."
+],
+"sozluk": [
+[
+"خلط",
+"karışıklık"
+],
+[
+"اكتساب",
+"edinme"
+],
+[
+"في آن واحد",
+"aynı anda"
+],
+[
+"الثنائية اللغوية",
+"iki dillilik"
+],
+[
+"مرونة",
+"esneklik"
+],
+[
+"المهام",
+"görevler"
+],
+[
+"النطق",
+"telaffuz"
+],
+[
+"الأناشيد",
+"ilahiler, şarkılar"
+],
+[
+"الهوية",
+"kimlik"
+]
+],
+"sorular": [
+{
+"s": "Başlangıçtaki dil karışıklığı nedir?",
+"k": [
+"Zamanla geçen doğal bir evre",
+"Kalıcı bir sorun",
+"Hastalık",
+"Zekâ eksikliği"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Uzmanlar dil öğretiminde neyi önermiyor?",
+"k": [
+"Kuru ezberi",
+"Hikâyeleri",
+"Oyunu",
+"İlahileri"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الهوية” ne demektir?",
+"k": [
+"Kimlik",
+"Telaffuz",
+"Görev",
+"Oyun"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "ogrenme-yontemi",
+"alan": "egitim",
+"baslik": "Etkili öğrenme yöntemleri",
+"ar_baslik": "كيف نتعلم بفاعلية؟",
+"konu": "Etkili öğrenme yöntemleri",
+"seviye": "B2",
+"ar": [
+"يعتقد كثير من الطلاب أن إعادة قراءة الكتاب مرات عديدة هي أفضل طريقة للمذاكرة، لكن أبحاث علم النفس المعرفي تخالف هذا الاعتقاد.",
+"فمن أنجع الطرق ما يسمى بالاسترجاع، أي أن يغلق الطالب الكتاب ويحاول تذكر ما تعلمه أو يجيب عن أسئلة دون النظر إلى الإجابات.",
+"ومنها التكرار المتباعد، وهو مراجعة المعلومة على فترات تتسع تدريجيا، يوما ثم ثلاثة أيام ثم أسبوعا، بدل حشدها كلها في ليلة واحدة.",
+"ومنها كذلك أن يشرح الطالب الدرس بكلماته لغيره، فمن علم شيئا رسخ في ذهنه، كما يقال إن من علّم تعلّم مرتين.",
+"ويحذر الباحثون من تعدد المهام أثناء الدراسة، فالانتقال المستمر بين الهاتف والكتاب يستنزف الانتباه ويضعف الفهم.",
+"وتذكرنا هذه النتائج بأن التعلم الحقيقي يحتاج إلى جهد ذهني، فالشعور بالسهولة عند القراءة قد يخدع الطالب ويوهمه بأنه قد فهم."
+],
+"tr": [
+"Birçok öğrenci kitabı defalarca yeniden okumanın en iyi çalışma yolu olduğuna inanıyor; ama bilişsel psikoloji araştırmaları bu inanca aykırı.",
+"En etkili yollardan biri hatırlama (geri çağırma) denilen yöntemdir: öğrencinin kitabı kapatıp öğrendiğini hatırlamaya çalışması veya cevaplara bakmadan soruları cevaplaması.",
+"Bir diğeri aralıklı tekrardır: bilgiyi bir gece hepsini yığmak yerine yavaş yavaş genişleyen aralıklarla —bir gün, sonra üç gün, sonra bir hafta— tekrar etmek.",
+"Bir diğeri de öğrencinin dersi kendi kelimeleriyle başkasına anlatmasıdır; bir şeyi öğreten kişinin zihnine o şey yerleşir; denildiği gibi, öğreten iki kez öğrenir.",
+"Araştırmacılar ders çalışırken çoklu görevden sakındırıyor; telefon ile kitap arasında sürekli geçiş dikkati tüketir ve anlamayı zayıflatır.",
+"Bu sonuçlar bize gerçek öğrenmenin zihinsel çaba gerektirdiğini hatırlatıyor; okurken hissedilen kolaylık öğrenciyi aldatıp anladığı vehmini verebilir."
+],
+"sozluk": [
+[
+"المذاكرة",
+"ders çalışma"
+],
+[
+"علم النفس المعرفي",
+"bilişsel psikoloji"
+],
+[
+"الاسترجاع",
+"geri çağırma"
+],
+[
+"التكرار المتباعد",
+"aralıklı tekrar"
+],
+[
+"حشدها",
+"yığmak"
+],
+[
+"رسخ",
+"yerleşti"
+],
+[
+"تعدد المهام",
+"çoklu görev"
+],
+[
+"يستنزف",
+"tüketir"
+],
+[
+"يوهمه",
+"vehmini verir"
+]
+],
+"sorular": [
+{
+"s": "Araştırmalara göre hangisi daha az etkilidir?",
+"k": [
+"Kitabı defalarca yeniden okumak",
+"Geri çağırma",
+"Aralıklı tekrar",
+"Başkasına anlatmak"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Aralıklı tekrar nedir?",
+"k": [
+"Genişleyen aralıklarla tekrar",
+"Bir gecede çalışmak",
+"Hiç tekrar etmemek",
+"Her saat aynı şeyi okumak"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“رسخ” ne demektir?",
+"k": [
+"Yerleşti",
+"Unutuldu",
+"Silindi",
+"Yazıldı"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "okul-siddet",
+"alan": "egitim",
+"baslik": "Okulda zorbalık",
+"ar_baslik": "التنمر في المدارس",
+"konu": "Okulda zorbalık",
+"seviye": "B2",
+"ar": [
+"التنمر سلوك عدواني متكرر يمارسه طالب أو مجموعة ضد طالب آخر أضعف منهم، بالضرب أو السخرية أو الإقصاء.",
+"وقد اتخذ في السنوات الأخيرة صورة جديدة هي التنمر الإلكتروني، حيث تنشر الإهانات والصور المسيئة عبر وسائل التواصل فتلاحق الضحية حتى في بيتها.",
+"وتترك هذه الظاهرة آثارا عميقة على الضحايا، كتراجع التحصيل الدراسي والخوف من الذهاب إلى المدرسة والعزلة وفقدان الثقة بالنفس.",
+"ولا يسلم المتنمر نفسه من العواقب، إذ تشير الدراسات إلى أن كثيرا منهم يواجهون مشكلات سلوكية في مراحل لاحقة من حياتهم.",
+"ولمواجهة التنمر تضع المدارس الناجحة قواعد واضحة، وتدرب المعلمين على ملاحظة العلامات المبكرة، وتشجع الطلاب على الإبلاغ دون خوف.",
+"ويبقى للأسرة دور أساسي، فالحوار اليومي مع الأبناء يكشف ما يتعرضون له، والقدوة الحسنة في البيت تعلمهم الرحمة واحترام الآخرين."
+],
+"tr": [
+"Zorbalık, bir öğrencinin veya grubun kendisinden zayıf başka bir öğrenciye karşı dövme, alay etme veya dışlama yoluyla uyguladığı tekrarlanan saldırgan bir davranıştır.",
+"Son yıllarda yeni bir biçim kazandı: siber zorbalık; hakaretler ve kötü görüntüler sosyal medyada yayılır ve kurbanı evinde bile takip eder.",
+"Bu olgu kurbanlarda derin izler bırakır: ders başarısında düşüş, okula gitmekten korku, yalnızlaşma ve özgüven kaybı gibi.",
+"Zorbanın kendisi de sonuçlardan kurtulamaz; araştırmalar birçoğunun hayatlarının ileriki evrelerinde davranış sorunlarıyla karşılaştığını gösteriyor.",
+"Zorbalıkla mücadelede başarılı okullar açık kurallar koyar, öğretmenleri erken işaretleri fark etmeye karşı eğitir ve öğrencileri korkmadan bildirmeye teşvik eder.",
+"Ailenin temel rolü devam eder: çocuklarla günlük sohbet maruz kaldıklarını ortaya çıkarır; evdeki güzel örnek onlara merhameti ve başkalarına saygıyı öğretir."
+],
+"sozluk": [
+[
+"التنمر",
+"zorbalık"
+],
+[
+"عدواني",
+"saldırgan"
+],
+[
+"السخرية",
+"alay"
+],
+[
+"الإقصاء",
+"dışlama"
+],
+[
+"الضحية",
+"kurban"
+],
+[
+"التحصيل الدراسي",
+"ders başarısı"
+],
+[
+"العواقب",
+"sonuçlar"
+],
+[
+"الإبلاغ",
+"bildirme"
+],
+[
+"القدوة الحسنة",
+"güzel örnek"
+]
+],
+"sorular": [
+{
+"s": "Siber zorbalığın farkı nedir?",
+"k": [
+"Kurbanı evinde bile takip etmesi",
+"Sadece okulda olması",
+"Fiziksel olması",
+"Zararsız olması"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Başarılı okulların yaptıklarından biri değildir:",
+"k": [
+"Bildirmeyi yasaklamak",
+"Açık kurallar koymak",
+"Öğretmenleri eğitmek",
+"Bildirmeyi teşvik etmek"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الإقصاء” ne demektir?",
+"k": [
+"Dışlama",
+"Ödül",
+"Bildirme",
+"Sınav"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "nizamiye",
+"alan": "egitim",
+"baslik": "Nizâmiye medreseleri",
+"ar_baslik": "المدارس النظامية",
+"konu": "Nizâmiye medreseleri",
+"seviye": "C1",
+"ar": [
+"في القرن الخامس الهجري أسس الوزير السلجوقي نظام الملك شبكة من المدارس عرفت باسمه، وكانت أشهرها نظامية بغداد التي افتتحت سنة ٤٥٩ للهجرة.",
+"وكانت هذه المدارس من أوائل المؤسسات التعليمية المنظمة في العالم الإسلامي، لها مبان خاصة ومدرسون معينون ورواتب ثابتة ومساكن للطلاب.",
+"وقد مولتها أوقاف واسعة تضمن استمرارها، فكان الطلاب يتلقون العلم ويأكلون ويسكنون مجانا، فتفرغوا للدراسة.",
+"ودرّس فيها كبار العلماء، ومن أشهرهم أبو حامد الغزالي الذي تولى التدريس في نظامية بغداد وبلغت حلقته مئات الطلاب.",
+"وكان من أهداف نظام الملك إعداد علماء وقضاة وموظفين أكفاء للدولة، ونشر المذهب الشافعي والعقيدة الأشعرية في مواجهة التيارات المخالفة.",
+"وقد انتشر نموذج المدرسة بعد ذلك في الشام ومصر والأناضول، ويرى بعض المؤرخين أن له أثرا في نشأة الكليات في أوروبا."
+],
+"tr": [
+"Hicrî beşinci asırda Selçuklu veziri Nizâmülmülk kendi adıyla bilinen bir medreseler ağı kurdu; en meşhuru hicrî 459’da açılan Bağdat Nizâmiyesi idi.",
+"Bu medreseler İslam dünyasındaki ilk düzenli eğitim kurumlarındandı; özel binaları, atanmış müderrisleri, sabit maaşları ve talebe yurtları vardı.",
+"Devamlılıklarını güvence altına alan geniş vakıflarla finanse edildiler; talebeler ilmi parasız alır, parasız yer ve kalırdı; böylece kendilerini derse verirlerdi.",
+"Orada büyük âlimler ders verdi; en meşhurlarından biri Bağdat Nizâmiyesi’nde müderrislik yapan ve halkası yüzlerce talebeye ulaşan Ebû Hâmid el-Gazzâlî’dir.",
+"Nizâmülmülk’ün amaçlarından biri devlete ehil âlimler, kadılar ve memurlar yetiştirmek, muhalif akımlara karşı Şâfiî mezhebini ve Eş‘arî akîdesini yaymaktı.",
+"Medrese modeli sonra Şam, Mısır ve Anadolu’ya yayıldı; bazı tarihçiler onun Avrupa’daki kolejlerin doğuşunda etkisi olduğunu düşünüyor."
+],
+"sozluk": [
+[
+"الوزير",
+"vezir"
+],
+[
+"شبكة",
+"ağ"
+],
+[
+"معينون",
+"atanmış"
+],
+[
+"رواتب",
+"maaşlar"
+],
+[
+"مولتها",
+"finanse etti"
+],
+[
+"تفرغوا",
+"kendilerini verdiler"
+],
+[
+"أكفاء",
+"ehil, yetkin"
+],
+[
+"التيارات",
+"akımlar"
+],
+[
+"الكليات",
+"kolejler, fakülteler"
+]
+],
+"sorular": [
+{
+"s": "Bağdat Nizâmiyesi hangi yıl açıldı?",
+"k": [
+"Hicrî 459",
+"Hicrî 132",
+"Hicrî 656",
+"Hicrî 1000"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Nizâmiye’de ders veren meşhur âlim:",
+"k": [
+"Gazzâlî",
+"İbn Haldûn",
+"Hârizmî",
+"İbn Battûta"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“رواتب” ne demektir?",
+"k": [
+"Maaşlar",
+"Vakıflar",
+"Kitaplar",
+"Talebeler"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "kucuk-isletme",
+"alan": "ekonomi",
+"baslik": "Küçük işletmeler",
+"ar_baslik": "المشروعات الصغيرة عماد الاقتصاد",
+"konu": "Küçük işletmeler",
+"seviye": "B1",
+"ar": [
+"قد يظن البعض أن اقتصاد الدول تصنعه الشركات العملاقة وحدها، لكن الحقيقة أن المشروعات الصغيرة والمتوسطة تشكل غالبية المنشآت في معظم البلدان.",
+"وتوفر هذه المشروعات نسبة كبيرة من فرص العمل، خصوصا للشباب والنساء في المدن الصغيرة والقرى.",
+"ومن أمثلتها المخابز والورش ومحلات الخياطة والمطاعم الصغيرة والمتاجر الإلكترونية التي يديرها أصحابها من بيوتهم.",
+"غير أنها تواجه صعوبات كثيرة، أبرزها صعوبة الحصول على التمويل، وثقل الإجراءات الإدارية، وقلة الخبرة في التسويق والمحاسبة.",
+"ولذلك تقدم بعض الحكومات قروضا ميسرة وحاضنات أعمال تقدم الاستشارة والتدريب لأصحاب المشروعات الناشئة.",
+"ويرى الاقتصاديون أن دعم المشروعات الصغيرة طريق فعال لمكافحة البطالة وتوزيع الثروة بعدالة أكبر، لأنه يمنح الأفراد فرصة لبناء أرزاقهم بأيديهم."
+],
+"tr": [
+"Bazıları ülkelerin ekonomisini yalnızca dev şirketlerin yaptığını sanabilir; ama gerçek şu ki küçük ve orta ölçekli işletmeler çoğu ülkede işletmelerin büyük kısmını oluşturur.",
+"Bu işletmeler özellikle küçük şehirlerde ve köylerde gençler ve kadınlar için istihdamın büyük bir oranını sağlar.",
+"Örnekleri arasında fırınlar, atölyeler, terziler, küçük lokantalar ve sahiplerinin evlerinden yönettiği internet mağazaları vardır.",
+"Ancak birçok zorlukla karşılaşırlar; en önemlileri finansmana erişim güçlüğü, idari işlemlerin ağırlığı ve pazarlama ile muhasebede tecrübe azlığıdır.",
+"Bu yüzden bazı hükümetler kolay krediler ve yeni kurulan işletmelerin sahiplerine danışmanlık ve eğitim veren iş kuluçka merkezleri sunuyor.",
+"İktisatçılar küçük işletmeleri desteklemenin işsizlikle mücadelede ve serveti daha adil dağıtmada etkili bir yol olduğunu düşünüyor; çünkü bireylere rızıklarını kendi elleriyle kurma fırsatı verir."
+],
+"sozluk": [
+[
+"العملاقة",
+"dev"
+],
+[
+"المنشآت",
+"işletmeler"
+],
+[
+"فرص العمل",
+"istihdam"
+],
+[
+"الورش",
+"atölyeler"
+],
+[
+"التمويل",
+"finansman"
+],
+[
+"التسويق",
+"pazarlama"
+],
+[
+"المحاسبة",
+"muhasebe"
+],
+[
+"قروضا ميسرة",
+"kolay krediler"
+],
+[
+"حاضنات أعمال",
+"iş kuluçka merkezleri"
+]
+],
+"sorular": [
+{
+"s": "Küçük işletmelerin en önemli zorluğu:",
+"k": [
+"Finansmana erişim",
+"Fazla müşteri",
+"Çok kâr",
+"Az rekabet"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "İş kuluçka merkezleri ne sunar?",
+"k": [
+"Danışmanlık ve eğitim",
+"Bedava dükkân",
+"Vergi cezası",
+"Hiçbir şey"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“التسويق” ne demektir?",
+"k": [
+"Pazarlama",
+"Muhasebe",
+"Üretim",
+"Kredi"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "turizm",
+"alan": "ekonomi",
+"baslik": "Turizm ekonomisi",
+"ar_baslik": "السياحة مورد اقتصادي وجسر ثقافي",
+"konu": "Turizm ekonomisi",
+"seviye": "B2",
+"ar": [
+"أصبحت السياحة من أكبر القطاعات الاقتصادية في العالم، إذ يسافر مئات الملايين كل عام بحثا عن الراحة والمعرفة والتجربة الجديدة.",
+"وتملك البلاد العربية والإسلامية ثروة سياحية هائلة، من الآثار التاريخية والمساجد العريقة إلى الشواطئ والصحاري والجبال.",
+"وتدر السياحة على الدول عملات أجنبية، وتوفر فرص عمل في الفنادق والمطاعم والنقل والحرف التقليدية.",
+"لكن الاعتماد الكبير عليها يجعل الاقتصاد هشا أمام الأزمات، كما ظهر جليا حين توقفت حركة السفر في أثناء جائحة كورونا.",
+"كما أن السياحة غير المنظمة قد تضر بالبيئة والآثار، وترفع أسعار المساكن على السكان المحليين في المدن المزدحمة بالزوار.",
+"ولذلك يدعو الخبراء إلى السياحة المستدامة التي تحمي التراث والطبيعة، وتعود بالنفع على المجتمعات المحلية، وتقدم صورة صادقة عن ثقافة البلد."
+],
+"tr": [
+"Turizm dünyanın en büyük ekonomik sektörlerinden biri hâline geldi; her yıl yüz milyonlarca kişi dinlenme, bilgi ve yeni tecrübe arayışıyla seyahat ediyor.",
+"Arap ve İslam ülkeleri tarihî eserlerden köklü camilere, sahillerden çöllere ve dağlara kadar muazzam bir turizm servetine sahip.",
+"Turizm devletlere döviz getirir; otellerde, lokantalarda, ulaşımda ve geleneksel zanaatlarda istihdam sağlar.",
+"Ama ona aşırı bağımlılık ekonomiyi krizler karşısında kırılgan kılar; Korona salgını sırasında seyahat durduğunda bu açıkça görüldü.",
+"Ayrıca düzensiz turizm çevreye ve tarihî eserlere zarar verebilir, ziyaretçilerle dolu şehirlerde yerel halk için konut fiyatlarını yükseltebilir.",
+"Bu yüzden uzmanlar mirası ve doğayı koruyan, yerel topluluklara fayda getiren ve ülkenin kültürüne dair doğru bir tablo sunan sürdürülebilir turizme çağırıyor."
+],
+"sozluk": [
+[
+"القطاعات",
+"sektörler"
+],
+[
+"الآثار",
+"tarihî eserler"
+],
+[
+"تدر",
+"getirir"
+],
+[
+"عملات أجنبية",
+"döviz"
+],
+[
+"الحرف التقليدية",
+"geleneksel zanaatlar"
+],
+[
+"هشا",
+"kırılgan"
+],
+[
+"جائحة",
+"salgın"
+],
+[
+"المستدامة",
+"sürdürülebilir"
+],
+[
+"التراث",
+"miras"
+]
+],
+"sorular": [
+{
+"s": "Turizme aşırı bağımlılığın sakıncası:",
+"k": [
+"Ekonomiyi krizlere karşı kırılgan kılması",
+"Döviz getirmesi",
+"İstihdam sağlaması",
+"Kültür tanıtması"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Sürdürülebilir turizm neyi korur?",
+"k": [
+"Mirası ve doğayı",
+"Sadece otelleri",
+"Yalnız havayollarını",
+"Hiçbir şeyi"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“جائحة” ne demektir?",
+"k": [
+"Salgın",
+"Bayram",
+"Kriz",
+"Sektör"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "dijital-para",
+"alan": "ekonomi",
+"baslik": "Dijital ödeme",
+"ar_baslik": "النقود الرقمية ومستقبل الدفع",
+"konu": "Dijital ödeme",
+"seviye": "B2",
+"ar": [
+"قبل سنوات قليلة كان الدفع النقدي هو الأصل في معظم البلاد العربية، أما اليوم فيدفع كثير من الناس ثمن مشترياتهم بلمسة هاتف.",
+"وقد أسهمت المحافظ الإلكترونية وبطاقات الدفع وأنظمة التحويل الفوري في تسريع المعاملات وتقليل الحاجة إلى حمل النقود.",
+"وتستفيد الحكومات من هذا التحول في محاربة الاقتصاد الخفي وتحصيل الضرائب، كما تستفيد البنوك من تقليل تكاليف التعامل بالنقود الورقية.",
+"وفي المقابل يثير الدفع الرقمي مخاوف تتعلق بالخصوصية، لأن كل عملية شراء تترك أثرا يمكن تتبعه، فضلا عن خطر الاحتيال والاختراق.",
+"كما يخشى بعض الخبراء أن يقصي هذا التحول كبار السن والفقراء الذين لا يملكون هواتف ذكية أو حسابات بنكية.",
+"أما العملات المشفرة فما زالت محل جدل واسع بين الاقتصاديين والفقهاء، بسبب تقلب أسعارها الشديد وغياب جهة ضامنة لها."
+],
+"tr": [
+"Birkaç yıl önce Arap ülkelerinin çoğunda nakit ödeme asıldı; bugün ise birçok insan alışverişinin bedelini telefona dokunarak ödüyor.",
+"Elektronik cüzdanlar, ödeme kartları ve anlık transfer sistemleri işlemleri hızlandırmaya ve para taşıma ihtiyacını azaltmaya katkı sağladı.",
+"Hükümetler bu dönüşümden kayıt dışı ekonomiyle mücadelede ve vergi toplamada yararlanıyor; bankalar da kâğıt parayla işlem maliyetlerini azaltmaktan yararlanıyor.",
+"Buna karşılık dijital ödeme mahremiyetle ilgili endişeler doğuruyor; çünkü her alışveriş izlenebilecek bir iz bırakır; ayrıca dolandırıcılık ve sızma tehlikesi vardır.",
+"Bazı uzmanlar da bu dönüşümün akıllı telefonu veya banka hesabı olmayan yaşlıları ve fakirleri dışlamasından korkuyor.",
+"Kripto paralar ise fiyatlarının şiddetli dalgalanması ve onları güvenceye alan bir merciin yokluğu sebebiyle iktisatçılar ve fakihler arasında hâlâ geniş tartışma konusu."
+],
+"sozluk": [
+[
+"الدفع النقدي",
+"nakit ödeme"
+],
+[
+"المحافظ الإلكترونية",
+"elektronik cüzdanlar"
+],
+[
+"التحويل الفوري",
+"anlık transfer"
+],
+[
+"الاقتصاد الخفي",
+"kayıt dışı ekonomi"
+],
+[
+"الاحتيال",
+"dolandırıcılık"
+],
+[
+"الاختراق",
+"sızma, hack"
+],
+[
+"يقصي",
+"dışlar"
+],
+[
+"العملات المشفرة",
+"kripto paralar"
+],
+[
+"تقلب",
+"dalgalanma"
+]
+],
+"sorular": [
+{
+"s": "Hükümetlerin dijital ödemeden yararı:",
+"k": [
+"Kayıt dışı ekonomiyle mücadele",
+"Mahremiyetin artması",
+"Nakdin artması",
+"Bankaların kapanması"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Kripto paralar neden tartışmalı?",
+"k": [
+"Fiyat dalgalanması ve güvence yokluğu",
+"Çok ucuz oldukları için",
+"Kâğıt oldukları için",
+"Yasak oldukları için"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الاحتيال” ne demektir?",
+"k": [
+"Dolandırıcılık",
+"Vergi",
+"Transfer",
+"Cüzdan"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "gida-guvenligi",
+"alan": "ekonomi",
+"baslik": "Gıda güvenliği",
+"ar_baslik": "الأمن الغذائي في العالم العربي",
+"konu": "Gıda güvenliği",
+"seviye": "B2",
+"ar": [
+"يقصد بالأمن الغذائي أن يحصل جميع الناس في كل وقت على غذاء كاف وآمن ومغذ بأسعار في متناولهم.",
+"وتستورد الدول العربية جزءا كبيرا من حاجتها من القمح والحبوب، مما يجعلها عرضة لتقلبات الأسعار العالمية والأزمات السياسية.",
+"ويرجع ذلك إلى ندرة المياه وقلة الأراضي الصالحة للزراعة، وإلى ضعف الاستثمار في الريف وهجرة الشباب منه إلى المدن.",
+"وقد كشفت الأزمات الأخيرة، كالجائحة والحروب، عن هشاشة سلاسل الإمداد، فارتفعت أسعار الخبز في بلدان عدة ارتفاعا حادا.",
+"ولتعزيز الأمن الغذائي تتجه بعض الدول إلى تقنيات الري الحديثة، والزراعة في البيوت المحمية، وبناء مخزون استراتيجي من الحبوب.",
+"كما يؤكد الخبراء أهمية التكامل الاقتصادي بين الدول العربية، فبعضها يملك الأرض والماء، وبعضها يملك رأس المال والتقنية."
+],
+"tr": [
+"Gıda güvenliğinden kasıt, bütün insanların her zaman alım güçlerine uygun fiyatlarla yeterli, güvenli ve besleyici gıdaya ulaşmasıdır.",
+"Arap ülkeleri buğday ve tahıl ihtiyaçlarının büyük bir kısmını ithal ediyor; bu da onları dünya fiyatlarının dalgalanmalarına ve siyasi krizlere açık hâle getiriyor.",
+"Bunun sebebi su kıtlığı ve tarıma elverişli toprakların azlığı ile kırsala yatırımın zayıflığı ve gençlerin oradan şehirlere göçüdür.",
+"Salgın ve savaşlar gibi son krizler tedarik zincirlerinin kırılganlığını ortaya koydu; birçok ülkede ekmek fiyatları keskin şekilde yükseldi.",
+"Gıda güvenliğini güçlendirmek için bazı ülkeler modern sulama tekniklerine, seralarda tarıma ve stratejik tahıl stoku oluşturmaya yöneliyor.",
+"Uzmanlar Arap ülkeleri arasında ekonomik bütünleşmenin önemini de vurguluyor; bazılarında toprak ve su, bazılarında sermaye ve teknoloji var."
+],
+"sozluk": [
+[
+"الأمن الغذائي",
+"gıda güvenliği"
+],
+[
+"في متناولهم",
+"alım güçlerine uygun"
+],
+[
+"القمح",
+"buğday"
+],
+[
+"عرضة",
+"açık, maruz"
+],
+[
+"الريف",
+"kırsal"
+],
+[
+"سلاسل الإمداد",
+"tedarik zincirleri"
+],
+[
+"الري",
+"sulama"
+],
+[
+"البيوت المحمية",
+"seralar"
+],
+[
+"التكامل",
+"bütünleşme"
+]
+],
+"sorular": [
+{
+"s": "Arap ülkelerini dünya fiyatlarına açık kılan nedir?",
+"k": [
+"Tahılın büyük kısmını ithal etmeleri",
+"Çok ihracat yapmaları",
+"Bol suları",
+"Kalabalık köyleri"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Gıda güvenliği için yöntemlerden biri:",
+"k": [
+"Modern sulama",
+"Tarımı bırakmak",
+"Stokları yok etmek",
+"Kırsaldan göçü artırmak"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الريف” ne demektir?",
+"k": [
+"Kırsal",
+"Şehir",
+"Liman",
+"Fabrika"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "vergi",
+"alan": "ekonomi",
+"baslik": "Vergiler",
+"ar_baslik": "الضرائب ودورها في الدولة الحديثة",
+"konu": "Vergiler",
+"seviye": "B2",
+"ar": [
+"الضرائب مبالغ مالية تفرضها الدولة على الأفراد والشركات لتمويل الخدمات العامة كالتعليم والصحة والطرق والأمن.",
+"وتنقسم إلى ضرائب مباشرة تفرض على الدخل والأرباح، وضرائب غير مباشرة تدخل في أسعار السلع والخدمات كضريبة القيمة المضافة.",
+"ويرى كثير من الاقتصاديين أن النظام الضريبي العادل هو الذي يراعي قدرة كل فرد على الدفع، فيتحمل صاحب الدخل الكبير نصيبا أكبر.",
+"أما التهرب الضريبي فيحرم الدولة من موارد كبيرة، وينقل العبء إلى الملتزمين، ويضعف الثقة بين المواطن والدولة.",
+"وفي التاريخ الإسلامي عرفت الدولة موارد مالية متعددة كالزكاة والخراج والجزية والعشور، وكتب العلماء في تنظيمها كتبا مثل كتاب الخراج لأبي يوسف.",
+"ويبقى نجاح أي نظام ضريبي مرهونا بالشفافية في إنفاق الأموال، فالمواطن يدفع راضيا حين يرى أثر ما دفعه في مدرسته ومستشفاه وطريقه."
+],
+"tr": [
+"Vergiler devletin eğitim, sağlık, yollar ve güvenlik gibi kamu hizmetlerini finanse etmek için bireylere ve şirketlere koyduğu paralardır.",
+"Gelir ve kârlara konan dolaysız vergiler ile katma değer vergisi gibi mal ve hizmet fiyatlarına giren dolaylı vergiler diye ikiye ayrılır.",
+"Birçok iktisatçı adil vergi sisteminin her bireyin ödeme gücünü gözeten, büyük gelirliye daha büyük pay yükleyen sistem olduğunu düşünüyor.",
+"Vergi kaçakçılığı ise devleti büyük kaynaklardan mahrum eder, yükü kurallara uyanlara aktarır ve vatandaş ile devlet arasındaki güveni zayıflatır.",
+"İslam tarihinde devlet zekât, harâc, cizye ve öşür gibi çeşitli mali kaynaklar tanıdı; âlimler bunları düzenlemek için Ebû Yûsuf’un Kitâbü’l-Harâc’ı gibi kitaplar yazdı.",
+"Her vergi sisteminin başarısı paranın harcanmasındaki şeffaflığa bağlıdır; vatandaş ödediğinin etkisini okulunda, hastanesinde ve yolunda görünce gönül hoşluğuyla öder."
+],
+"sozluk": [
+[
+"الضرائب",
+"vergiler"
+],
+[
+"الخدمات العامة",
+"kamu hizmetleri"
+],
+[
+"الدخل",
+"gelir"
+],
+[
+"ضريبة القيمة المضافة",
+"katma değer vergisi"
+],
+[
+"التهرب الضريبي",
+"vergi kaçakçılığı"
+],
+[
+"العبء",
+"yük"
+],
+[
+"الخراج",
+"harâc"
+],
+[
+"الشفافية",
+"şeffaflık"
+],
+[
+"مرهونا",
+"bağlı"
+]
+],
+"sorular": [
+{
+"s": "KDV hangi tür vergidir?",
+"k": [
+"Dolaylı",
+"Dolaysız",
+"Gümrük",
+"Zekât"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Vergi kaçakçılığının sonucu:",
+"k": [
+"Yükün kurallara uyanlara geçmesi",
+"Devlet gelirinin artması",
+"Güvenin artması",
+"Hizmetlerin iyileşmesi"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الشفافية” ne demektir?",
+"k": [
+"Şeffaflık",
+"Kaçakçılık",
+"Yük",
+"Gelir"
+],
+"d": 0,
+"a": ""
+}
+]
 }
 ],
 "kelime": [
