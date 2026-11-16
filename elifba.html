@@ -31,8 +31,8 @@ h1{font-size:24px;margin:8px 0 4px;color:var(--accent)}h2{font-size:19px;margin:
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:10px;direction:rtl}
 .cell{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:0;text-align:center;cursor:pointer;user-select:none;transition:transform .1s,background .2s;display:flex;flex-direction:column;overflow:hidden}
 .cell:active{transform:scale(.96)}.cell.on{background:var(--accentSoft);border-color:var(--accent)}
-.cell .harf{font-size:46px;line-height:2;display:block;padding:6px 4px 4px}.cell .syl{font-size:36px;line-height:2.1;display:block;padding:8px 6px 6px}
-.cell small{display:block;direction:ltr;color:var(--muted);font-size:13px;line-height:1.3;padding:6px 4px 7px;background:var(--paper);border-top:1px solid var(--line);margin-top:auto}.cell small b{color:var(--accent);font-size:15px}
+.cell .arz{flex:1;min-height:112px;display:flex;align-items:center;justify-content:center;padding:18px 6px 20px;overflow:visible}.cell .harf{font-size:44px;line-height:1.9;display:block}.cell .syl{font-size:38px;line-height:2;display:block;white-space:nowrap}
+.cell small{position:relative;z-index:1;display:block;direction:ltr;color:var(--muted);font-size:13px;line-height:1.35;padding:6px 8px;margin:0 8px 10px;background:var(--accentSoft);border-radius:999px}.cell small b{color:var(--accent);font-size:15px}
 .cell.kalin .harf,.cell.kalin .syl{color:#9a3412}@media (prefers-color-scheme:dark){.cell.kalin .harf,.cell.kalin .syl{color:#fb923c}}
 .big{display:flex;flex-direction:column;align-items:center;gap:6px;padding:16px;background:var(--card);border:1px solid var(--line);border-radius:20px;margin:10px 0}
 .big .harf{font-size:96px;line-height:1.9}
@@ -50,7 +50,7 @@ h1{font-size:24px;margin:8px 0 4px;color:var(--accent)}h2{font-size:19px;margin:
 .ayet.on{background:var(--accentSoft);border-radius:10px}
 .ayet .n{font-size:20px;color:var(--gold)}
 .mean{font-size:15px;color:var(--muted);text-align:left;direction:ltr;margin-top:-4px;padding:0 4px 8px}
-.words{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;direction:rtl}
+.words{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;direction:rtl}.grid{gap:12px}
 .pill{display:inline-block;padding:2px 10px;border-radius:999px;background:var(--goldSoft);font-size:13px}
 #toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:#222;color:#fff;padding:10px 16px;border-radius:12px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:50;max-width:90vw}
 #toast.on{opacity:.95}
@@ -66,7 +66,7 @@ body.okGizli .cell{padding-bottom:2px}
 </head><body>
 <div id="top"><a id="geri" href="./">‹ el-Mihrâb</a><b id="ttl">Kur'an Öğren</b><button id="okb" type="button" title="Türkçe okunuşu göster/gizle">Okunuş ✓</button><button id="ana" type="button" hidden>Dersler</button></div>
 <main id="v"></main>
-<div id="toast"></div>
+<div id="toast"></div><p style="text-align:center;color:var(--muted);font-size:12px;margin:24px 0 0">Elif-Bâ · sürüm 2</p>
 <script>
 (function(){
 'use strict';
@@ -173,7 +173,7 @@ function sayfa(d,ic){
   okAyarla();if(d.q)quiz(d,d.q());
   var b=document.getElementById('bitir');if(b)b.onclick=function(){S.ok[d.id]=1;sv(S);b.textContent='✓ Tamamlandı';toast('Aferin! Ders tamamlandı.')};
   scrollTo(0,0)}
-function hucre(ar,alt,kalin,say){return '<div class="cell'+(kalin?' kalin':'')+'" data-say="'+esc(say||ar)+'"><span class="'+(ar.length>2?'syl':'harf')+'">'+esc(ar)+'</span><small>'+alt+'</small></div>'}
+function hucre(ar,alt,kalin,say){return '<div class="cell'+(kalin?' kalin':'')+'" data-say="'+esc(say||ar)+'"><div class="arz"><span class="'+(ar.length>2?'syl':'harf')+'">'+esc(ar)+'</span></div><small>'+alt+'</small></div>'}
 
 function giris(){sayfa(this,
  '<div class="card"><p><b>Arapça sağdan sola yazılır ve okunur.</b> Kur’an harfleri 28 tanedir. Harflerin çoğu kelimede birbirine bitişir; bu yüzden aynı harfin başta, ortada ve sonda biraz farklı görünen şekilleri vardır.</p>'+
@@ -183,7 +183,7 @@ function giris(){sayfa(this,
  '<div class="note">💡 Her harfe ve heceye <b>dokununca</b> sesini dinleyebilirsin. Ses çıkmıyorsa telefonunun “Metin okuma (TTS)” ayarına Arapça dilini ekle. Türkçe okunuşlar yaklaşık karşılıktır; doğru telaffuzu bir hocadan dinleyerek pekiştir.</div>')}
 function harfDers(a,b,d){
   var h='<div class="note">Harfe dokun: büyük hâli, okunuşu ve kelime içindeki şekilleri görünsün. Turuncu harfler <b>kalın</b> okunur.</div><div id="buyuk"></div><div class="grid">';
-  H.slice(a,b).forEach(function(x,i){h+='<div class="cell'+(x[4]==='k'?' kalin':'')+'" data-h="'+(a+i)+'"><span class="harf">'+x[0]+'</span><small><b>'+x[1]+'</b></small></div>'});
+  H.slice(a,b).forEach(function(x,i){h+='<div class="cell'+(x[4]==='k'?' kalin':'')+'" data-h="'+(a+i)+'"><div class="arz"><span class="harf">'+x[0]+'</span></div><small><b>'+x[1]+'</b></small></div>'});
   sayfa(d,h+'</div>');harfGoster(a)}
 function harfGoster(i){
   var x=H[i],f=formlar(x[0]),el=document.getElementById('buyuk');if(!el)return;
