@@ -1,7 +1,7 @@
 /* el-Mihrâb service worker
    - Uygulama kabuğu: önce ağ, yoksa saklanan kopya
    - Kur'an, meal, tefsir, kıraat servisleri ve yazı tipleri: önce ağ, internet yoksa daha önce okunan kopya */
-const V='mihrab-v41', DATA='mihrab-data-v1';
+const V='mihrab-v42', DATA='mihrab-data-v1';
 const SHELL=['./','./index.html','./medrese.html','./medrese.js','./kelime.js','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 const API=['api.alquran.cloud','api.quran.com','api.qurancdn.com','api.quranpedia.net','quranenc.com','api.aladhan.com'];
 const FONT=['fonts.googleapis.com','fonts.gstatic.com','api2.quranpedia.net','static.qurancdn.com','verses.quran.foundation'];
@@ -17,9 +17,9 @@ self.addEventListener('fetch',e=>{
   if(u.origin===location.origin&&u.pathname.includes('/data/')){
     e.respondWith(caches.open(DATA).then(c=>c.match(req).then(r=>{const f=fetch(req).then(n=>{if(n.ok)c.put(req,n.clone());return n}).catch(()=>r);return r||f})));return}
   if(u.origin===location.origin){
-    e.respondWith(timeout(fetch(req),6000).then(r=>{const c=r.clone();caches.open(V).then(x=>x.put(req,c));return r}).catch(()=>caches.match(req,{ignoreSearch:true}).then(r=>r||caches.match('./index.html'))));return}
+    e.respondWith(timeout(fetch(req),3500).then(r=>{const c=r.clone();caches.open(V).then(x=>x.put(req,c));return r}).catch(()=>caches.match(req,{ignoreSearch:true}).then(r=>r||caches.match('./index.html'))));return}
   if(FONT.includes(u.hostname)){
-    e.respondWith(caches.match(req).then(r=>r||fetch(req).then(n=>{if(n.ok||n.type==='opaque'){const c=n.clone();caches.open(DATA).then(x=>x.put(req,c))}return n})));return}
+    e.respondWith(caches.match(req).then(r=>r||timeout(fetch(req),5000).then(n=>{if(n.ok||n.type==='opaque'){const c=n.clone();caches.open(DATA).then(x=>x.put(req,c))}return n})));return}
   if(API.includes(u.hostname)){
     e.respondWith(timeout(fetch(req),9000).then(n=>{if(n.ok){const c=n.clone();caches.open(DATA).then(x=>x.put(req,c))}return n}).catch(err=>caches.match(req).then(r=>{if(r)return r;throw err})));return}
 });

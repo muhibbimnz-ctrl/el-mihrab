@@ -256,12 +256,37 @@ const V = $('#v');
 const bar = (title, back) => `<div class="mh"><button class="ib" onclick="${back ? `go('${back}')` : `location.href='index.html'`}" aria-label="Geri">‹</button><b>${title}</b><span class="sp"></span><a class="chip" href="#/tekrar" title="Bugünün tekrarı">Tekrar <i>${SRS.due().length}</i></a></div>`;
 function go(h){ location.hash = h }
 addEventListener('hashchange', route);
+/* ---- ders videosu (mini oynatıcı) ---- */
+const KLASIK = ['emsile', 'bina', 'maksud', 'izzi', 'avamil', 'ajurrumiyye', 'katr', 'serhkatr'];
+let VDATA = null, VP = { key: null, open: false, big: false };
+const VIDKEY = h => { if(h[0] === 'emsile') return 'emsile'; if((h[0] === 'kitap' || h[0] === 'oku') && KLASIK.includes(h[1])) return h[1]; return null };
+async function vidListe(k){ try{ VDATA = VDATA || await fetch('data/videolar.json').then(r => r.json()) }catch(e){ VDATA = {} } const d = (VDATA.dersler || {})[k]; return d && (d.liste || d.video) ? d : null }
+function vidKur(h){
+  const k = VIDKEY(h); let btn = $('#vpBtn'), box = $('#vp');
+  if(!btn){ document.body.insertAdjacentHTML('beforeend', `<button id="vpBtn" aria-label="Ders videosu"><span>▶</span> Ders</button><div id="vp" class="hide"><div class="vph"><b>Ders videosu</b><button data-a="buyut" aria-label="Büyüt/küçült">⤢</button><button data-a="kapat" aria-label="Kapat">✕</button></div><div class="vpb"></div></div>`); btn = $('#vpBtn'); box = $('#vp');
+    btn.onclick = () => VP.open ? vidKapat() : vidAc();
+    box.querySelector('[data-a=kapat]').onclick = vidKapat;
+    box.querySelector('[data-a=buyut]').onclick = () => { VP.big = !VP.big; box.classList.toggle('big', VP.big) }; }
+  document.body.classList.toggle('vpVar', !!k);
+  if(!k){ btn.classList.add('hide'); vidKapat(); VP.key = null; return }
+  btn.classList.remove('hide');
+  if(VP.key !== k){ vidKapat(); VP.key = k }
+}
+async function vidAc(){
+  const box = $('#vp'), b = box.querySelector('.vpb'), d = await vidListe(VP.key);
+  VP.open = true; $('#vpBtn').classList.add('on'); $('#vpBtn').innerHTML = '<span>■</span> Kapat'; box.classList.remove('hide');
+  const src = d ? (d.liste ? `https://www.youtube-nocookie.com/embed/videoseries?list=${encodeURIComponent(d.liste)}&rel=0&playsinline=1` : `https://www.youtube-nocookie.com/embed/${encodeURIComponent(d.video)}?rel=0&playsinline=1`) : '';
+  b.innerHTML = src ? `<iframe src="${src}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen loading="lazy" title="Ders videosu"></iframe>` : '<p class="vpe">Bu dersin video listesi yakında eklenecek.</p>';
+}
+function vidKapat(){ const box = $('#vp'); if(!box) return; VP.open = false; box.classList.add('hide'); box.querySelector('.vpb').innerHTML = ''; const b = $('#vpBtn'); b.classList.remove('on'); b.innerHTML = '<span>▶</span> Ders' }
+
 function route(){
   sesDur();
   if(window.Kelime) Kelime.close(); const sh = $('#sh'); if(sh) sh.classList.add('hide');
   const h = (location.hash || '#/').slice(2).split('/').map(decodeURIComponent);
   scrollTo(0, 0);
   const [p0, p1, p2, p3, p4] = h;
+  vidKur(h);
   if(!p0) return home();
   if(p0 === 'kitap') return kitap(p1);
   if(p0 === 'emsile') return p1 === 'alistirma' ? alistirma({ scope: 'emsile' }) : emsileOku();
@@ -500,7 +525,7 @@ function babOyunu(hizli){
   };
   const son = () => { clearInterval(tm); const best = LS.get('medrese.babBest', 0); if(puan > best) LS.set('medrese.babBest', puan);
     V.innerHTML = bar('Hızlı tur', '/') + `<div class="wrap"><div class="empty"><div class="score">${puan}</div><p>${sayi} fiil · ${puan > best ? 'Yeni rekor!' : 'En iyi: ' + best}</p><a class="btn pri" href="#" onclick="babOyunu(true);return false">Tekrar oyna</a> <a class="btn" href="#/">Medrese</a></div></div>` };
-  if(hizli) tm = setInterval(() => { const s = $('#sure'); const k = Math.max(0, Math.ceil((bitis - Date.now()) / 1000)); if(s) s.textContent = k; if(k <= 0){ clearInterval(tm); son() } }, 250);
+  if(hizli) tm = setInterval(() => { const s = $('#sure'); if(!s) return clearInterval(tm); const k = Math.max(0, Math.ceil((bitis - Date.now()) / 1000)); if(s) s.textContent = k; if(k <= 0){ clearInterval(tm); son() } }, 250);
   tur();
 }
 function kuranKokAc(root){ if(!ROOTS || !ROOTS[root]) return; sheet('<div></div>'); kuranKok(root) }
@@ -736,20 +761,7 @@ async function modern(p1, p2){
   if(p1 === 'ders') return modDers();
   if(p1 === 'diyaloglar') return modDiyaloglar();
   V.innerHTML = bar('Modern Arapça', '/') + `<div class="modust"><a href="#/modern/diyaloglar">💬 Diyalog</a><a href="#/yds">📖 Metinler</a><a href="#/yds/kelime">🗂 Kelime</a></div>
-  <div class="wrap"><details class="ytk" id="ytk"><summary><span>▶ Video ders</span><small>Aç / kapat</small></summary><div class="ytb"></div></details>
-  <a class="dersk" href="arapca.html?medrese=1"><b>🎧 Sesli Arapça dersleri</b><span>Diyaloglu dersler, her cümle seslendirilir; Türkçesi bir dokunuşla açılır.</span><i>Derslere başla ›</i></a></div>`;
-  ytKutu($('#ytk'));
-}
-let VID = null;
-async function ytKutu(el){
-  if(!el) return;
-  const b = el.querySelector('.ytb');
-  try{ VID = VID || await fetch('data/videolar.json').then(r => r.json()) }catch(e){ VID = {} }
-  const a = VID.arapca || {}, L = a.videolar || [];
-  const src = a.liste ? `https://www.youtube-nocookie.com/embed/videoseries?list=${a.liste}&rel=0` : (L[0] ? `https://www.youtube-nocookie.com/embed/${L[0].id}?rel=0` : '');
-  const ac = (s) => { b.innerHTML = s ? `<div class="ytc"><iframe src="${s}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen title="Video ders"></iframe></div>` + (L.length > 1 ? `<div class="ytl">${L.map((v, i) => `<button data-v="${i}" class="${s.includes(v.id) ? 'on' : ''}">${i + 1}. ${esc(v.baslik)}</button>`).join('')}</div>` : '') : '<p class="lead" style="margin:10px 4px">Video dersler yakında burada olacak.</p>';
-    b.querySelectorAll('[data-v]').forEach(x => x.onclick = () => ac(`https://www.youtube-nocookie.com/embed/${L[+x.dataset.v].id}?rel=0&autoplay=1`)) };
-  el.ontoggle = () => { if(el.open) ac(src); else b.innerHTML = '' };
+  <div class="wrap" style="padding-top:14px"><a class="dersk" href="arapca.html?medrese=1"><b>🎧 Sesli Arapça dersleri</b><span>Diyaloglu dersler, her cümle seslendirilir; Türkçesi bir dokunuşla açılır.</span><i>Derslere başla ›</i></a></div>`;
 }
 function modDiyaloglar(){
   V.innerHTML = bar('Diyaloglar', '/modern') + `<div class="wrap"><div class="tiplist">${MOD.diyalog.map((d, i) => `<a href="#/modern/diyalog/${i}"><b>${esc(d.baslik)}</b><small lang="ar">${esc(d.ar_baslik || '')}</small></a>`).join('')}</div></div>`;
