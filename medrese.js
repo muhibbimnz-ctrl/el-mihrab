@@ -37,7 +37,7 @@ const BOOKS = [
   { id: 'serhkatr', ad: 'Şerhu Katri’n-nedâ', ar: 'شرح قطر الندى', yol: 'nahiv', sira: 4, durum: 'hazir',
     tanitim: { muellif: 'İbn Hişâm el-Ensârî (ö. 761/1360) — kendi matni Katru’n-nedâ’yı şerh etmiştir.', amac: 'Matnin her cümlesini (ص) açıp şâhidleriyle (âyet, hadis, şiir) şerh etmek (ش); orta-ileri seviyede nahvin temel şerhidir.', yontem: 'Altın çizgili kısımlar matndir, diğerleri şerh. Önce matn cümlesini, sonra müellifin açıklamasını okuyun; her bâbın sonunda Katru’n-nedâ alıştırmalarını çözün.' } },
   { id: 'kuran', ad: 'Kur’an i‘râbı', ar: 'إعراب القرآن', yol: 'kuran', sira: 1, durum: 'hazir',
-    tanitim: { muellif: 'Kelime verisi: Quranic Arabic Corpus (Leeds Üniversitesi, corpus.quran.com, GNU GPL). Türkçe medrese terimleri, i‘râb cümleleri, bâb tespiti ve çekim tabloları bu verinin üzerine kural ile üretilir.', amac: 'Kur’ân-ı Kerîm’in her kelimesine dokununca sarf (kök, bâb, sîga) ve nahiv (i‘râb) çözümlemesini görmek; Emsile ve Avâmil’de öğrenileni Kur’an üzerinde uygulamak.', yontem: 'Bir sûre açın, kelimeye dokunun. Üstteki anahtarla Sarf ve Nahiv arasında geçin.' } },
+    tanitim: { muellif: 'Kelime verisi: Quranic Arabic Corpus (Leeds Üniversitesi, corpus.quran.com, GNU GPL).', amac: 'Kur’ân-ı Kerîm’in her kelimesine dokununca sarf (kök, bâb, sîga) ve nahiv (i‘râb) çözümlemesini görmek; Emsile ve Avâmil’de öğrenileni Kur’an üzerinde uygulamak.', yontem: 'Bir sûre açın, kelimeye dokunun. Üstteki anahtarla Sarf ve Nahiv arasında geçin.' } },
   { id: 'yds', ad: 'YDS Arapça', ar: 'اختبار اللغة', yol: 'yds', sira: 1, durum: 'hazir',
     tanitim: { muellif: '—', amac: 'Kelime, dilbilgisi, cümle tamamlama, çeviri ve paragraf soruları; deneme sınavı.', yontem: 'Günlük kısa setler ve aralıklı tekrar.' } },
   { id: 'modern', ad: 'Modern Arapça', ar: 'العربية المعاصرة', yol: 'modern', sira: 1, durum: 'hazir',
@@ -291,7 +291,7 @@ function home(){
     <a class="bigbox b-nahiv" href="#/yol/nahiv"><span lang="ar">النَّحْو</span><b>Nahiv</b><small>Avâmil · Âcurrûmiyye · Katru’n-nedâ</small></a>
     <a class="bigbox b-kuran" href="#/kitap/kuran"><span lang="ar">إِعْرَابُ الْقُرْآنِ</span><b>Kur’an i‘râbı</b><small>Her kelimeye dokun: sarf ve nahiv</small></a>
     <a class="bigbox b-yds" href="#/yds"><span lang="ar">اِخْتِبَار</span><b>YDS Arapça</b><small>Deneme · okuma metinleri · kelime</small></a>
-    <a class="bigbox b-mod" href="#/modern"><span lang="ar">المُعَاصِرَة</span><b>Modern Arapça</b><small>Sesli ders programı · diyaloglar</small></a>
+    <a class="bigbox b-mod" href="#/modern"><span lang="ar">المُعَاصِرَة</span><b>Modern Arapça</b><small>Arapça dil dersi (sesli) · diyaloglar</small></a>
     <a class="bigbox b-oyun" href="#/oyunlar"><span lang="ar">أَلْعَاب</span><b>Oyunlar</b><small>Günün sorusu · İ‘râb · Bâb bul</small></a>
    </div>
    <p class="foot">Hata görürseniz her ekrandaki <i>Hata bildir</i> bağlantısını kullanın.<br><a href="#" onclick="$('#src').classList.remove('hide');return false">Kaynaklar ve lisans</a></p></div>`;
@@ -569,7 +569,7 @@ async function kitapOku(id, bi){
     ${(s.p || []).map((p, j) => `<div class="mp ${s.tr && s.tr[j] ? 'tk' : ''} ${trA ? 'ac' : ''} ${s.pt && s.pt[j] === 'm' ? 'mtn' : ''}"><p class="mt" lang="ar">${esc(p)}</p>${s.tr && s.tr[j] ? `<p class="mtr">${esc(s.tr[j])}</p>` : ''}</div>`).join('')}
     <div class="sf"><button class="btn sm ${ok[id + '#' + i] ? 'on' : ''}" data-ok="${i}">${ok[id + '#' + i] ? '✓ Okundu' : 'Okudum'}</button>${K.sorular && K.sorular.some(q => q.b === i) ? ` <a class="btn sm" href="#" data-bq="${i}">Bu bâbtan sorular</a>` : ''} <a class="lnk" target="_blank" rel="noopener" href="${bugLink(id + ' bâb ' + (i + 1), s.tr_b || s.b)}">Hata bildir</a></div></section>`;
   V.innerHTML = bar(b ? b.ad : K.baslik, '/kitap/' + id) + `<div class="wrap">
-    <div class="kbaslik"><div lang="ar">${esc(K.baslik)}</div><small>${esc(K.tur === 'serh' ? 'Matn ve şerh: ' + K.kaynak + ' · altın çizgili kısımlar matndir' : K.tur === 'ders' ? 'Ders notu — kitabın konuları, el-Mihrâb tarafından hazırlandı (matbu metin değildir)' : 'Matn: ' + K.kaynak)}${K.tr_kaynak ? ' · ' + esc(K.tr_kaynak) : ''}</small></div>
+    <div class="kbaslik"><div lang="ar">${esc(K.baslik)}</div><small>${esc(K.tur === 'serh' ? 'Matn ve şerh: ' + K.kaynak + ' · altın çizgili kısımlar matndir' : K.tur === 'ders' ? 'Ders notu' : 'Matn: ' + K.kaynak)}${K.tr_kaynak ? ' · ' + esc(K.tr_kaynak) : ''}</small></div>
     ${K.tur !== 'ders' ? `<div class="tools"><span class="lnk">Türkçesi için cümleye dokunun</span> <label><input type="checkbox" id="ktr" ${trA ? 'checked' : ''}> Hepsini göster</label></div>` : ''}
     <div class="toc">${K.bolumler.map((s, i) => `<a href="#" data-to="${i}" class="${ok[id + '#' + i] ? 'done' : ''}">${esc(s.tr_b || s.b)}</a>`).join('')}</div>
     ${K.bolumler.map(sec).join('')}
@@ -694,11 +694,11 @@ async function modern(p1, p2){
   if(p1 === 'diyalog') return modDiyalog(+p2);
   if(p1 === 'haber') return modHaber();
   if(p1 === 'ders') return modDers();
-  V.innerHTML = bar('Modern Arapça', '/') + `<div class="wrap">
-   <div class="hero"><div class="hero-ar" lang="ar">العَرَبِيَّةُ المُعَاصِرَةُ</div><p>Sesli ders programı, günlük konuşma ve diyaloglar.</p></div>
-   <a class="bigbox b-mod" href="#/modern/ders"><span lang="ar">دُرُوسٌ صَوْتِيَّةٌ</span><b>Sesli Arapça ders programı</b><small>6 aylık program · B1–B2 ve C1–C2 · alfabe, kelime, cümle, dinleme</small></a>
-   <h2>Diyaloglar</h2><div class="tiplist">${MOD.diyalog.map((d, i) => `<a href="#/modern/diyalog/${i}"><b>${esc(d.baslik)}</b><small lang="ar">${esc(d.ar_baslik || '')}</small></a>`).join('')}</div>
-   <p class="lead" style="margin-top:20px">Okuma metinleri ve kelime temaları <a href="#/yds">YDS Arapça</a> bölümünde.</p></div>`;
+  if(p1 === 'diyaloglar') return modDiyaloglar();
+  V.innerHTML = bar('Modern Arapça', '/') + `<div class="modust"><a href="#/modern/diyaloglar">Diyaloglar</a><a href="#/yds">Okuma metinleri</a><a href="#/yds/kelime">Kelime</a></div><iframe class="dersf mod" src="arapca.html?medrese=1" title="Modern Arapça — Arapça dil dersi"></iframe>`;
+}
+function modDiyaloglar(){
+  V.innerHTML = bar('Diyaloglar', '/modern') + `<div class="wrap"><div class="tiplist">${MOD.diyalog.map((d, i) => `<a href="#/modern/diyalog/${i}"><b>${esc(d.baslik)}</b><small lang="ar">${esc(d.ar_baslik || '')}</small></a>`).join('')}</div></div>`;
 }
 function modDers(){
   V.innerHTML = bar('Sesli Arapça ders', '/modern') + `<iframe class="dersf" src="arapca.html?medrese=1" title="Sesli Arapça ders programı"></iframe>`;
@@ -721,7 +721,7 @@ function modMetin(id, geri){
 }
 function modDiyalog(i){
   const d = MOD.diyalog[i]; if(!d) return go('/modern');
-  V.innerHTML = bar(d.baslik, '/modern') + `<div class="wrap"><h1 lang="ar" class="mh1">${esc(d.ar_baslik || '')}</h1><div class="dyl">${d.satirlar.map(s => `<div class="dy ${s[0] === d.satirlar[0][0] ? 'a' : 'b'}"><b>${esc(s[0])}</b><p lang="ar">${esc(s[1])}</p><small>${esc(s[2])}</small>${'speechSynthesis' in window ? `<button class="btn sm" data-s="${esc(s[1])}">▶</button>` : ''}</div>`).join('')}</div>
+  V.innerHTML = bar(d.baslik, '/modern/diyaloglar') + `<div class="wrap"><h1 lang="ar" class="mh1">${esc(d.ar_baslik || '')}</h1><div class="dyl">${d.satirlar.map(s => `<div class="dy ${s[0] === d.satirlar[0][0] ? 'a' : 'b'}"><b>${esc(s[0])}</b><p lang="ar">${esc(s[1])}</p><small>${esc(s[2])}</small>${'speechSynthesis' in window ? `<button class="btn sm" data-s="${esc(s[1])}">▶</button>` : ''}</div>`).join('')}</div>
    ${d.not ? `<p class="knote">${esc(d.not)}</p>` : ''}</div>`;
   $$('[data-s]').forEach(b => b.onclick = () => seslendir(b.dataset.s));
 }

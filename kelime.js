@@ -214,7 +214,7 @@ function emsileTable(m, vf, B){
   h += `</tbody></table><table class="kemt"><thead><tr><th>Emr-i hâzır</th><th></th></tr></thead><tbody>`;
   const EM = [7, 8, 9, 10, 11, 12];
   EM.forEach((s, i) => { if(i === 4) return; h += `<tr><th>${SIGA[s][0]} <span lang="ar">${SIGA[s][1]}</span></th>${cell(T.emr[i], tense === 'emr' && si === s)}</tr>` });
-  h += `</tbody></table><p class="knote">Kök ve bâbdan kural ile üretildi (ma‘lûm). ${f.PASS ? 'Bu kelime meçhûl olduğu için tabloda işaretlenmedi.' : ''}</p></div>`;
+  h += `</tbody></table><p class="knote">Ma‘lûm çekim. ${f.PASS ? 'Bu kelime meçhûl olduğu için tabloda işaretlenmedi.' : ''}</p></div>`;
   return h;
 }
 

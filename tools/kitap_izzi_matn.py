@@ -98,5 +98,5 @@ ek=[(0,'İzzî’ye göre tasrîfin ıstılahî tarifi nedir?',['Tek aslı, kast
 (4,'“Ard mesbe‘a” ifadesindeki vezin neyi bildirir?',['Bir mekânda bir şeyin çokluğunu','Âleti','Bir defalık işi','Fiilin türünü'],'وإذا كثر الشيء بالمكان قيل فيه مفعلة'),
 (4,'Fiilin türünü (nev‘) bildiren vezin hangisidir?',['فِعْلَة (kesreli)','فَعْلَة (fethalı)','مَفْعَلَة','مِفْعَال'],'والفعلة بالكسر للنوع')]
 for b,s,k,a in ek: sor.append({'b':b,'s':s,'k':k,'d':0,'a':a})
-json.dump({'id':'izzi','baslik':'التصريف العزي','kaynak':'İzzüddîn ez-Zencânî — Mecmûatü’s-sarf (kullanıcının nüshası), matn','tr_kaynak':'Türkçe: el-Mihrâb','bolumler':bol,'sorular':sor},open('data/kitap/izzi.json','w'),ensure_ascii=False,separators=(',',':'))
+json.dump({'id':'izzi','baslik':'التصريف العزي','kaynak':'İzzüddîn ez-Zencânî — Mecmûatü’s-sarf, matn','bolumler':bol,'sorular':sor},open('data/kitap/izzi.json','w'),ensure_ascii=False,separators=(',',':'))
 print(len(bol),len(sor))

@@ -90,5 +90,5 @@ ek=[(0,'Maksûd’a göre sülâsî mücerred kaç bâbdır?',['6','3','12','14'
 (4,'Vakâ’nın emrinin müfred müzekkeri nedir?',['قِهْ','اِوْقِ','قِي','قُوا'],'وتقول في الأمر قه'),
 (4,'Huz, kul, mur emirleri neden kıyas dışıdır?',['Çok kullanıldıkları için hemze hazfedilmiştir','Muzâ‘af oldukları için','Lefîf oldukları için','Meçhul oldukları için'],'لكثرة الاستعمال في كلام العرب')]
 for b,s,k,a in ek: sor.append({'b':b,'s':s,'k':k,'d':0,'a':a})
-json.dump({'id':'maksud','baslik':'كتاب المقصود في الصرف','kaynak':'Mecmûatü’s-sarf (kullanıcının nüshası) — matn','tr_kaynak':'Türkçe: el-Mihrâb','bolumler':bol,'sorular':sor},open('data/kitap/maksud.json','w'),ensure_ascii=False,separators=(',',':'))
+json.dump({'id':'maksud','baslik':'كتاب المقصود في الصرف','kaynak':'Mecmûatü’s-sarf — matn','bolumler':bol,'sorular':sor},open('data/kitap/maksud.json','w'),ensure_ascii=False,separators=(',',':'))
 print(len(bol),len(sor))

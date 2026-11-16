@@ -78,5 +78,5 @@ ek=[('Binâ’ya göre tasrîf bâbları kaç tanedir?',['35','6','12','25'],0,'
 ('Kâtele yukâtilu bâbının asıl binâsı nedir?',['İki kişi arasında müşâreket','Teksîr','Mutâvaat','Talep'],0,'وبناؤه للمشاركة بين الاثنين غالبا')]
 bmap=[0,0,0,1,1,1,2,3,4,1]
 for (s,k,d,a),b in zip(ek,bmap): sor.append({'b':b,'s':s,'k':k,'d':d,'a':a})
-json.dump({'id':'bina','baslik':'كتاب البناء في الصرف','kaynak':'Mecmûatü’s-sarf (kullanıcının nüshası) — matn','tr_kaynak':'Türkçe: el-Mihrâb','bolumler':bol,'sorular':sor},open('data/kitap/bina.json','w'),ensure_ascii=False,separators=(',',':'))
+json.dump({'id':'bina','baslik':'كتاب البناء في الصرف','kaynak':'Mecmûatü’s-sarf — matn','bolumler':bol,'sorular':sor},open('data/kitap/bina.json','w'),ensure_ascii=False,separators=(',',':'))
 print(len(bol),len(sor))

@@ -152,9 +152,12 @@ a{color:var(--accent)}
 .hm-logo{text-align:center}
 .hm-ar{font-family:'Amiri',serif;font-size:34px;color:var(--ink);line-height:1.3;margin-top:4px}
 .hm-tr{font-size:12px;letter-spacing:2.4px;color:var(--ink2);font-weight:600}
-.tile.big1,.tile.big2,.tile.big3{width:min(260px,72vw);aspect-ratio:1/0.92;border-radius:44px;gap:8px}
-.big1 svg,.big2 svg,.big3 svg{width:84px;height:64px}
-.big1 b,.big2 b,.big3 b{font-size:22px}
+.tile.big1,.tile.big2,.tile.big3,.tile.big4{width:min(260px,72vw);aspect-ratio:1/0.92;border-radius:44px;gap:8px}
+.big4{background:linear-gradient(150deg,#d6b8c8 0%,#8a5a78 40%,#5a3550 78%,#3f2638 100%)}
+.vdl{display:grid;gap:10px;margin-top:8px}.vdl a{display:flex;gap:10px;align-items:center;padding:8px;border-radius:16px;background:var(--card,#fff);border:1px solid var(--line,#e6dcc6);text-decoration:none;color:inherit}.vdl img{width:128px;aspect-ratio:16/9;object-fit:cover;border-radius:10px;flex:none;background:#0002}.vdl b{font-size:15px;line-height:1.35}.vdl .vk{display:block;text-align:center;padding:12px;font-weight:700}
+.vdov{position:fixed;inset:0;background:#000d;z-index:90;display:flex;align-items:center;justify-content:center;padding:10px}.vdov.hide{display:none}.vdbx{width:min(960px,100%)}.vdh{display:flex;align-items:center;gap:8px;color:#fff;padding:6px 2px}.vdh b{flex:1;font-size:15px}.vdh .ib{color:#fff;font-size:20px;background:none;border:0}.vdf{position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000}.vdf iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.big1 svg,.big2 svg,.big3 svg,.big4 svg{width:84px;height:64px}
+.big1 b,.big2 b,.big3 b,.big4 b{font-size:22px}
 .hm-sub{font-size:13px;opacity:.9;padding:0 10px;line-height:1.35}
 .big1{background:linear-gradient(150deg,#e3cf8c 0%,#8e9578 38%,#4a5f6a 75%,#3a4a55 100%)}
 .big2{background:linear-gradient(150deg,#e6c98a 0%,#9a7448 40%,#5e4038 80%,#4a3330 100%)}
@@ -376,7 +379,7 @@ a{color:var(--accent)}
 <body>
 <header class="top">
   <div class="brand">
-    <svg width="36" height="36" viewBox="0 0 40 40" aria-hidden="true"><g fill="none" stroke="var(--gold)" stroke-width="1.6"><rect x="8" y="8" width="24" height="24"/><rect x="8" y="8" width="24" height="24" transform="rotate(45 20 20)"/></g><circle cx="20" cy="20" r="7" fill="var(--accent)"/><text x="20" y="24.2" text-anchor="middle" font-family="Amiri" font-size="12" fill="#fff">م</text></svg>
+    <img src="icon-192.png" width="34" height="34" alt="" style="border-radius:9px;display:block">
     <div><b>el-Mihrâb</b><small>Kur'ân-ı Kerîm ve Tefsîri</small></div>
   </div>
   <div class="mid">
@@ -394,14 +397,33 @@ a{color:var(--accent)}
 <main class="wrap" id="main"></main>
 
 <section class="scr hide" id="home"><div class="hm">
-  <div class="hm-logo"><svg viewBox="0 0 120 120" width="118" height="118"><g fill="none" stroke="url(#gg)" stroke-width="5" stroke-linejoin="round"><path d="M60 8l13 16 20-4 4 20 16 13-11 17 4 20-20 4-13 16-13-16-20-4 4-20-11-17 16-13 4-20 20 4z"/><circle cx="60" cy="60" r="24"/></g><defs><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6c56a"/><stop offset="1" stop-color="#a77b2c"/></linearGradient></defs><text x="60" y="71" text-anchor="middle" font-family="Amiri" font-size="30" fill="#0e5a43">م</text></svg>
+  <div class="hm-logo"><svg viewBox="0 0 512 512" width="118" height="118"><defs><linearGradient id="lg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#147252"/><stop offset="1" stop-color="#0b4a37"/></linearGradient></defs><rect width="512" height="512" rx="112" fill="url(#lg1)"/><path d="M256 40l26 68 72 26-72 26-26 68-26-68-72-26 72-26z" fill="none" stroke="#e3bd63" stroke-opacity=".28" stroke-width="5"/><path d="M146 412V250c0-80 50-130 110-160 60 30 110 80 110 160v162" fill="none" stroke="#e3bd63" stroke-width="20" stroke-linejoin="round"/><path d="M183 412V266c0-55 33-92 73-114 40 22 73 59 73 114v146z" fill="#2e6646" stroke="#e3bd63" stroke-width="6"/><path d="M256 154v60" stroke="#e3bd63" stroke-width="6"/><path d="M233 214h46l-8 34h-30z" fill="#e3bd63"/><circle cx="256" cy="262" r="10" fill="#fff4cf"/><rect x="120" y="418" width="272" height="20" rx="5" fill="#e3bd63"/></svg>
     <div class="hm-ar">المِحْرَاب</div><div class="hm-tr">EL-MİHRÂB · KUR'ÂN-I KERÎM VE TEFSÎRİ</div></div>
-  <button class="tile big1" id="hNamaz"><svg viewBox="0 0 64 48"><path d="M32 12C24 6 14 5 6 7v32c8-2 18-1 26 5 8-6 18-7 26-5V7c-8-2-18-1-26 5z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M32 12v32" stroke="currentColor" stroke-width="3"/></svg><b>Namaz ve Kur'an</b><span class="hm-sub" id="hNx">Ezan vakitleri · Okuma · Ezber · Dil</span></button>
+  <button class="tile big1" id="hNamaz"><svg viewBox="0 0 64 48"><path d="M32 12C24 6 14 5 6 7v32c8-2 18-1 26 5 8-6 18-7 26-5V7c-8-2-18-1-26 5z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M32 12v32" stroke="currentColor" stroke-width="3"/></svg><b>Namaz ve Kur'an</b><span class="hm-sub" id="hNx">Ezan vakitleri · Okuma · Ezber</span></button>
   <button class="tile big2" id="hStudy"><svg viewBox="0 0 64 48"><path d="M10 44V22C10 12 20 5 32 2c12 3 22 10 22 20v22z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M20 44V25c0-7 6-12 12-15 6 3 12 8 12 15v19" fill="none" stroke="currentColor" stroke-width="2"/></svg><b>el-Mihrâb Dirâset</b><span class="hm-sub" id="hStudyT">Tefsir · İ'râb · Belâgat · Kıraat</span></button>
-  <button class="tile big3" id="hMedrese"><svg viewBox="0 0 64 48"><path d="M8 44h48M12 44V20h40v24M6 20l26-15 26 15" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M26 44V32a6 6 0 0 1 12 0v12" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M18 26v8M46 26v8" stroke="currentColor" stroke-width="2.5"/></svg><b>Medrese</b><span class="hm-sub">Sarf · Nahiv · Kur'an i'râbı</span></button>
+  <button class="tile big3" id="hMedrese"><svg viewBox="0 0 64 48"><path d="M8 44h48M12 44V20h40v24M6 20l26-15 26 15" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M26 44V32a6 6 0 0 1 12 0v12" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M18 26v8M46 26v8" stroke="currentColor" stroke-width="2.5"/></svg><b>Medrese</b><span class="hm-sub">Sarf · Nahiv · Kur'an i'râbı · Arapça</span></button>
+  <button class="tile big4" id="hDiger"><svg viewBox="0 0 64 48"><rect x="6" y="8" width="52" height="34" rx="9" fill="none" stroke="currentColor" stroke-width="3"/><path d="M27 17v16l13-8z" fill="currentColor"/></svg><b>Diğer</b><span class="hm-sub">Hadis hikâyeleri · Dil dersleri</span></button>
   <div class="hm-links"><a href="#" id="hList">Sûre seç</a> · <a href="#" onclick="about();return false">Hakkında ve destek</a></div>
 </div></section>
 
+<section class="scr hide" id="diger">
+  <div class="rd-h"><button class="ib" id="dgX" title="Ana sayfa"></button><b>Diğer</b><span style="flex:1"></span></div>
+  <div class="nm-in">
+    <div class="dl-h">Hadis hikâyeleri</div>
+    <div id="vdList" class="vdl"></div>
+    <div class="dl-h">Dil dersleri</div>
+    <div class="tiles t3w">
+      <button class="tile t4" data-dil="farsca"><span class="big">ف</span><b>Farsça</b></button>
+      <button class="tile t5" data-dil="ingilizce"><span class="big">En</span><b>İngilizce</b></button>
+      <button class="tile t6" data-dil="almanca"><span class="big">De</span><b>Almanca</b></button>
+      <button class="tile t7" data-dil="fransizca"><span class="big">Fr</span><b>Fransızca</b></button>
+      <button class="tile t8" data-dil="ispanyolca"><span class="big">Es</span><b>İspanyolca</b></button>
+      <button class="tile t3" id="dgAr"><span class="big">ع</span><b>Arapça</b></button>
+    </div>
+    <p class="note" style="text-align:center;margin-top:10px">Arapça dersleri Medrese › Modern Arapça bölümündedir.</p>
+  </div>
+</section>
+<div class="vdov hide" id="vdOv"><div class="vdbx"><div class="vdh"><b id="vdT"></b><button class="ib" id="vdC" aria-label="Kapat">✕</button></div><div class="vdf"><iframe id="vdF" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div></div></div>
 <section class="scr hide" id="namaz">
   <div class="rd-h"><button class="ib" id="nmX" title="Ana sayfa"></button><b>Namaz ve Kur'an</b><span style="flex:1"></span></div>
   <div class="nm-in">
@@ -409,15 +431,6 @@ a{color:var(--accent)}
     <div class="tiles">
       <button class="tile t1" id="hRead"><svg viewBox="0 0 64 48"><path d="M32 12C24 6 14 5 6 7v32c8-2 18-1 26 5 8-6 18-7 26-5V7c-8-2-18-1-26 5z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M32 12v32" stroke="currentColor" stroke-width="3"/></svg><b>Kur'ân-ı Kerîm oku</b><span class="ar">اقرأ</span></button>
       <button class="tile t2" id="hHifz"><svg viewBox="0 0 64 48"><circle cx="32" cy="24" r="17" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 13v11l8 6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><b>Ezber (Hıfz)</b><span class="ar">احفظ</span></button>
-    </div>
-    <div class="dl-h">Dil dersleri</div>
-    <div class="tiles t3w">
-      <button class="tile t3" data-dil="arapca"><span class="big">ع</span><b>Arapça</b></button>
-      <button class="tile t4" data-dil="farsca"><span class="big">ف</span><b>Farsça</b></button>
-      <button class="tile t5" data-dil="ingilizce"><span class="big">En</span><b>İngilizce</b></button>
-      <button class="tile t6" data-dil="almanca"><span class="big">De</span><b>Almanca</b></button>
-      <button class="tile t7" data-dil="fransizca"><span class="big">Fr</span><b>Fransızca</b></button>
-      <button class="tile t8" data-dil="ispanyolca"><span class="big">Es</span><b>İspanyolca</b></button>
     </div>
     <div class="dl-h">Günlük</div>
     <div class="gl">
@@ -907,8 +920,15 @@ $('#main').addEventListener('click',e=>{
 });
 /* ================= ANA SAYFA · EZAN · OKUMA · EZBER ================= */
 const scrSet=v=>{try{sessionStorage.setItem('mihrab.scr',v)}catch(e){}};
-function hideScr(){['home','namaz','okuma','ezber'].forEach(i=>$('#'+i).classList.add('hide'));ezStop();scrSet('study')}
+function hideScr(){$('#vdOv')&&vdKapat();['home','namaz','diger','okuma','ezber'].forEach(i=>$('#'+i).classList.add('hide'));ezStop();scrSet('study')}
 function showHome(){hideScr();scrSet('home');closeBox();$('#home').classList.remove('hide');const l=LS.get('beyan2.last',{s:1,a:1});$('#hStudyT').textContent=`${trS('Devam et')} · ${SN()[(l.s||1)-1]} ${l.s||1}:${l.a||1}`;ptNext()}
+function vdKapat(){$('#vdF').src='about:blank';$('#vdOv').classList.add('hide')}
+function vdAc(id,bas){$('#vdT').textContent=bas||'';$('#vdF').src='https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&playsinline=1&rel=0&modestbranding=1';$('#vdOv').classList.remove('hide')}
+async function openDiger(){hideScr();scrSet('diger');$('#diger').classList.remove('hide');const box=$('#vdList');
+  let d=null;try{d=await (await fetch('data/videolar.json',{cache:'no-cache'})).json()}catch(e){}
+  const V=(d&&d.videolar)||[];
+  box.innerHTML=(V.length?V.map(v=>`<a href="#" data-v="${esc(v.id)}" data-b="${esc(v.baslik||'')}"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg"><b>${esc(v.baslik||'')}</b></a>`).join(''):'<p class="note">Videolar yakında burada olacak.</p>')+(d&&d.kanal?`<a class="vk" href="${esc(d.kanal)}" target="_blank" rel="noopener">YouTube kanalına git ›</a>`:'');
+  $$('[data-v]',box).forEach(a=>a.onclick=e=>{e.preventDefault();vdAc(a.dataset.v,a.dataset.b)})}
 function openNamaz(){hideScr();scrSet('namaz');$('#namaz').classList.remove('hide');ptRender();gunluk();if(LS.get('mihrab.offdone',0)){$('#hOff').textContent='✓ '+trS('Kur\'an ve meâller cihazınıza kaydedildi')+' · '+trS('güncelle')}}
 const HADIS=[["Ameller ancak niyetlere göredir; herkese ancak niyet ettiği şey vardır.", "Buhârî, Bed'ü'l-vahy 1; Müslim, İmâre 155 (1907)"], ["Sizin en hayırlınız Kur'an'ı öğrenen ve öğretendir.", "Buhârî, Fezâilü'l-Kur'ân 21 (5027)"], ["Kolaylaştırın, zorlaştırmayın; müjdeleyin, nefret ettirmeyin.", "Buhârî, İlim 11 (69); Müslim, Cihâd 8 (1734)"], ["Sizden biriniz kendisi için istediğini kardeşi için de istemedikçe (kâmil) iman etmiş olmaz.", "Buhârî, Îmân 7 (13); Müslim, Îmân 71 (45)"], ["Allah'a ve âhiret gününe iman eden kimse ya hayır söylesin ya da sussun.", "Buhârî, Edeb 31 (6018); Müslim, Îmân 74 (47)"], ["Müslüman, Müslümanların elinden ve dilinden emin olduğu kimsedir.", "Buhârî, Îmân 4 (10); Müslim, Îmân 64 (41)"], ["Din nasihattir (samimiyettir).", "Müslim, Îmân 95 (55)"], ["Temizlik imanın yarısıdır.", "Müslim, Tahâret 1 (223)"], ["Kim ilim öğrenmek için bir yola girerse, Allah ona cennete giden yolu kolaylaştırır.", "Müslim, Zikir 38 (2699)"], ["Güçlü kimse güreşte yenen değildir; güçlü kimse öfkelendiğinde kendine hâkim olandır.", "Buhârî, Edeb 76 (6114); Müslim, Birr 107 (2609)"], ["Allah sizin suretlerinize ve mallarınıza bakmaz; kalplerinize ve amellerinize bakar.", "Müslim, Birr 34 (2564)"], ["Merhamet etmeyene merhamet olunmaz.", "Buhârî, Edeb 18 (5997); Müslim, Fezâil 65 (2318)"], ["İki nimet vardır ki insanların çoğu onlarda aldanmıştır: sağlık ve boş vakit.", "Buhârî, Rikâk 1 (6412)"], ["Allah katında amellerin en sevimlisi, az da olsa devamlı olanıdır.", "Buhârî, Rikâk 18 (6464); Müslim, Salâtü'l-müsâfirîn 216 (783)"], ["Dilde hafif, mîzanda ağır, Rahmân'a sevimli iki kelime vardır: Sübhânallâhi ve bihamdihî, sübhânallâhi'l-azîm.", "Buhârî, Deavât 65 (6406); Müslim, Zikir 31 (2694)"], ["Mü'min mü'min için, parçaları birbirini kenetleyen bina gibidir.", "Buhârî, Salât 88 (481); Müslim, Birr 65 (2585)"], ["Kim Allah rızası için bir mescid yaparsa, Allah da ona cennette bir ev yapar.", "Buhârî, Salât 65 (450); Müslim, Mesâcid 24 (533)"], ["Rabbimiz her gece, gecenin son üçte biri kaldığında dünya semâsına iner ve 'Bana dua eden yok mu, duasına icabet edeyim' buyurur.", "Buhârî, Teheccüd 14 (1145); Müslim, Salâtü'l-müsâfirîn 168 (758)"]];
 function gunluk(){
@@ -1331,7 +1351,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('sw.js').catch(()=>{});
   $('#okX').innerHTML=icon('l');$('#ezX').innerHTML=icon('l');$('#ezPl').innerHTML=icon('p',22);
   $('.brand').style.cursor='pointer';$('.brand').onclick=showHome;$('.brand').title=trS('Ana sayfa');
-  $('#hNamaz').onclick=openNamaz;$('#hMedrese').onclick=()=>{location.href='medrese.html'};$('#nmX').innerHTML=icon('l');$('#nmX').onclick=showHome;
+  $('#hNamaz').onclick=openNamaz;$('#hDiger').onclick=openDiger;$('#dgX').innerHTML=icon('l');$('#dgX').onclick=showHome;$('#vdC').onclick=vdKapat;$('#vdOv').onclick=e=>{if(e.target.id==='vdOv')vdKapat()};$('#dgAr').onclick=()=>{location.href='medrese.html#/modern'};$('#hMedrese').onclick=()=>{location.href='medrese.html'};$('#nmX').innerHTML=icon('l');$('#nmX').onclick=showHome;
   $('#hRead').onclick=()=>openOkuma();$('#hHifz').onclick=openEzber;$('#hStudy').onclick=()=>{const l=LS.get('beyan2.last',{s:1,a:1});hideScr();if(l.s===st.s&&st.ay.length){const e=$('#a'+l.a);e&&e.scrollIntoView({block:'center'})}else loadSurah(l.s||1,l.a>1?l.a:null)};
   $('#hList').onclick=e=>{e.preventDefault();hideScr();openOv('ovS');surahList('s')};
   $('#hOff').onclick=e=>{e.preventDefault();offDownload(e.target,$('#hOffI'))};
@@ -1349,7 +1369,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   const h=location.hash.match(/^#(\d{1,3})(?:-(\d{1,3}))?$/);
   if(h)loadSurah(+h[1],+(h[2]||0)||null);else{const l=LS.get('beyan2.last',{s:1,a:1});let sc='home';try{const nv=performance.getEntriesByType('navigation')[0];if(nv&&nv.type==='reload')sc=sessionStorage.getItem('mihrab.scr')||'home'}catch(e){}
     loadSurah(l.s||1,l.a>1?l.a:null);
-    if(sc==='namaz')openNamaz();else if(sc==='okuma')openOkuma();else if(sc==='ezber')openEzber();else if(sc!=='study')showHome()}
+    if(sc==='namaz')openNamaz();else if(sc==='diger')openDiger();else if(sc==='okuma')openOkuma();else if(sc==='ezber')openEzber();else if(sc!=='study')showHome()}
 })();
 </script>
 <style>
