@@ -4,7 +4,7 @@ android {
     compileSdk 35
     defaultConfig {
         applicationId 'app.elmihrab.quran'
-        minSdk 23
+        minSdk 24
         targetSdk 35
         versionCode((System.getenv('VCODE') ?: '1') as int)
         versionName '1.0.' + (System.getenv('VCODE') ?: '0')
