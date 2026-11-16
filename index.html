@@ -155,6 +155,7 @@ a{color:var(--accent)}
 .tile.big1,.tile.big2,.tile.big3,.tile.big4{width:min(260px,72vw);aspect-ratio:1/0.92;border-radius:44px;gap:8px}
 .big4{background:linear-gradient(150deg,#d6b8c8 0%,#8a5a78 40%,#5a3550 78%,#3f2638 100%)}
 .vdl{display:grid;gap:10px;margin-top:8px}.vdl a{display:flex;gap:10px;align-items:center;padding:8px;border-radius:16px;background:var(--card,#fff);border:1px solid var(--line,#e6dcc6);text-decoration:none;color:inherit}.vdl img{width:128px;aspect-ratio:16/9;object-fit:cover;border-radius:10px;flex:none;background:#0002}.vdl b{font-size:15px;line-height:1.35}.vdl .vk{display:block;text-align:center;padding:12px;font-weight:700}
+.tv{margin-top:10px;background:linear-gradient(160deg,#3a3f46,#16191d);border-radius:22px;padding:12px 12px 8px;box-shadow:0 10px 26px #0005, inset 0 1px 0 #ffffff22}.tvekran{position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;box-shadow:inset 0 0 0 2px #000}.tvekran iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.tvalt{display:flex;align-items:center;gap:8px;color:#e9e3d2;padding:8px 4px 2px;font-size:14px}.tvled{width:8px;height:8px;border-radius:50%;background:#e94b4b;box-shadow:0 0 8px #e94b4b}.vdl a.on{outline:2px solid var(--gold,#c9a14a)}
 .vdov{position:fixed;inset:0;background:#000d;z-index:90;display:flex;align-items:center;justify-content:center;padding:10px}.vdov.hide{display:none}.vdbx{width:min(960px,100%)}.vdh{display:flex;align-items:center;gap:8px;color:#fff;padding:6px 2px}.vdh b{flex:1;font-size:15px}.vdh .ib{color:#fff;font-size:20px;background:none;border:0}.vdf{position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000}.vdf iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .big1 svg,.big2 svg,.big3 svg,.big4 svg{width:84px;height:64px}
 .big1 b,.big2 b,.big3 b,.big4 b{font-size:22px}
@@ -410,6 +411,7 @@ a{color:var(--accent)}
   <div class="rd-h"><button class="ib" id="dgX" title="Ana sayfa"></button><b>Diğer</b><span style="flex:1"></span></div>
   <div class="nm-in">
     <div class="dl-h">Hadis hikâyeleri</div>
+    <div class="tv"><div class="tvekran"><iframe id="tvF" title="Hadis hikâyeleri" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div><div class="tvalt"><span class="tvled"></span><b id="tvT">el-Mihrâb TV</b></div></div>
     <div id="vdList" class="vdl"></div>
     <div class="dl-h">Dil dersleri</div>
     <div class="tiles t3w">
@@ -920,15 +922,20 @@ $('#main').addEventListener('click',e=>{
 });
 /* ================= ANA SAYFA · EZAN · OKUMA · EZBER ================= */
 const scrSet=v=>{try{sessionStorage.setItem('mihrab.scr',v)}catch(e){}};
-function hideScr(){$('#vdOv')&&vdKapat();['home','namaz','diger','okuma','ezber'].forEach(i=>$('#'+i).classList.add('hide'));ezStop();scrSet('study')}
+function hideScr(){$('#vdOv')&&vdKapat();if($('#tvF'))$('#tvF').src='about:blank';['home','namaz','diger','okuma','ezber'].forEach(i=>$('#'+i).classList.add('hide'));ezStop();scrSet('study')}
 function showHome(){hideScr();scrSet('home');closeBox();$('#home').classList.remove('hide');const l=LS.get('beyan2.last',{s:1,a:1});$('#hStudyT').textContent=`${trS('Devam et')} · ${SN()[(l.s||1)-1]} ${l.s||1}:${l.a||1}`;ptNext()}
 function vdKapat(){$('#vdF').src='about:blank';$('#vdOv').classList.add('hide')}
 function vdAc(id,bas){$('#vdT').textContent=bas||'';$('#vdF').src='https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&playsinline=1&rel=0&modestbranding=1';$('#vdOv').classList.remove('hide')}
+const YTE=(q)=>'https://www.youtube-nocookie.com/embed/'+q+(q.includes('?')?'&':'?')+'playsinline=1&rel=0&modestbranding=1';
+function tvOyna(id,bas,oto){$('#tvF').src=YTE(id+(oto?'?autoplay=1':''));$('#tvT').textContent=bas||'el-Mihrâb TV';$$('#vdList [data-v]').forEach(a=>a.classList.toggle('on',a.dataset.v===id))}
 async function openDiger(){hideScr();scrSet('diger');$('#diger').classList.remove('hide');const box=$('#vdList');
   let d=null;try{d=await (await fetch('data/videolar.json',{cache:'no-cache'})).json()}catch(e){}
   const V=(d&&d.videolar)||[];
-  box.innerHTML=(V.length?V.map(v=>`<a href="#" data-v="${esc(v.id)}" data-b="${esc(v.baslik||'')}"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg"><b>${esc(v.baslik||'')}</b></a>`).join(''):'<p class="note">Videolar yakında burada olacak.</p>')+(d&&d.kanal?`<a class="vk" href="${esc(d.kanal)}" target="_blank" rel="noopener">YouTube kanalına git ›</a>`:'');
-  $$('[data-v]',box).forEach(a=>a.onclick=e=>{e.preventDefault();vdAc(a.dataset.v,a.dataset.b)})}
+  box.innerHTML=V.map(v=>`<a href="#" data-v="${esc(v.id)}" data-b="${esc(v.baslik||'')}"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg"><b>${esc(v.baslik||'')}</b></a>`).join('')+(d&&d.kanal?`<a class="vk" href="${esc(d.kanal)}" target="_blank" rel="noopener">YouTube kanalına git ›</a>`:'');
+  $$('[data-v]',box).forEach(a=>a.onclick=e=>{e.preventDefault();tvOyna(a.dataset.v,a.dataset.b,1);$('.tv').scrollIntoView({behavior:'smooth',block:'start'})});
+  if(!$('#tvF').src||$('#tvF').src==='about:blank'){
+    if(d&&d.kanal_id&&/^UC/.test(d.kanal_id)){$('#tvF').src=YTE('videoseries?list=UU'+d.kanal_id.slice(2));$('#tvT').textContent='Hadis hikâyeleri · en yeniler'}
+    else if(V[0])tvOyna(V[0].id,V[0].baslik)}}
 function openNamaz(){hideScr();scrSet('namaz');$('#namaz').classList.remove('hide');ptRender();gunluk();if(LS.get('mihrab.offdone',0)){$('#hOff').textContent='✓ '+trS('Kur\'an ve meâller cihazınıza kaydedildi')+' · '+trS('güncelle')}}
 const HADIS=[["Ameller ancak niyetlere göredir; herkese ancak niyet ettiği şey vardır.", "Buhârî, Bed'ü'l-vahy 1; Müslim, İmâre 155 (1907)"], ["Sizin en hayırlınız Kur'an'ı öğrenen ve öğretendir.", "Buhârî, Fezâilü'l-Kur'ân 21 (5027)"], ["Kolaylaştırın, zorlaştırmayın; müjdeleyin, nefret ettirmeyin.", "Buhârî, İlim 11 (69); Müslim, Cihâd 8 (1734)"], ["Sizden biriniz kendisi için istediğini kardeşi için de istemedikçe (kâmil) iman etmiş olmaz.", "Buhârî, Îmân 7 (13); Müslim, Îmân 71 (45)"], ["Allah'a ve âhiret gününe iman eden kimse ya hayır söylesin ya da sussun.", "Buhârî, Edeb 31 (6018); Müslim, Îmân 74 (47)"], ["Müslüman, Müslümanların elinden ve dilinden emin olduğu kimsedir.", "Buhârî, Îmân 4 (10); Müslim, Îmân 64 (41)"], ["Din nasihattir (samimiyettir).", "Müslim, Îmân 95 (55)"], ["Temizlik imanın yarısıdır.", "Müslim, Tahâret 1 (223)"], ["Kim ilim öğrenmek için bir yola girerse, Allah ona cennete giden yolu kolaylaştırır.", "Müslim, Zikir 38 (2699)"], ["Güçlü kimse güreşte yenen değildir; güçlü kimse öfkelendiğinde kendine hâkim olandır.", "Buhârî, Edeb 76 (6114); Müslim, Birr 107 (2609)"], ["Allah sizin suretlerinize ve mallarınıza bakmaz; kalplerinize ve amellerinize bakar.", "Müslim, Birr 34 (2564)"], ["Merhamet etmeyene merhamet olunmaz.", "Buhârî, Edeb 18 (5997); Müslim, Fezâil 65 (2318)"], ["İki nimet vardır ki insanların çoğu onlarda aldanmıştır: sağlık ve boş vakit.", "Buhârî, Rikâk 1 (6412)"], ["Allah katında amellerin en sevimlisi, az da olsa devamlı olanıdır.", "Buhârî, Rikâk 18 (6464); Müslim, Salâtü'l-müsâfirîn 216 (783)"], ["Dilde hafif, mîzanda ağır, Rahmân'a sevimli iki kelime vardır: Sübhânallâhi ve bihamdihî, sübhânallâhi'l-azîm.", "Buhârî, Deavât 65 (6406); Müslim, Zikir 31 (2694)"], ["Mü'min mü'min için, parçaları birbirini kenetleyen bina gibidir.", "Buhârî, Salât 88 (481); Müslim, Birr 65 (2585)"], ["Kim Allah rızası için bir mescid yaparsa, Allah da ona cennette bir ev yapar.", "Buhârî, Salât 65 (450); Müslim, Mesâcid 24 (533)"], ["Rabbimiz her gece, gecenin son üçte biri kaldığında dünya semâsına iner ve 'Bana dua eden yok mu, duasına icabet edeyim' buyurur.", "Buhârî, Teheccüd 14 (1145); Müslim, Salâtü'l-müsâfirîn 168 (758)"]];
 function gunluk(){

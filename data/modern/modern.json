@@ -113,7 +113,8 @@
 "d": 0,
 "a": "وضع قواعد واضحة لاستخدام الذكاء الاصطناعي."
 }
-]
+],
+"alan": "bilim"
 },
 {
 "id": "su-krizi",
@@ -228,7 +229,8 @@
 "d": 3,
 "a": "ترشيد الاستهلاك … يبقى خط الدفاع الأول."
 }
-]
+],
+"alan": "cevre"
 },
 {
 "id": "istanbul",
@@ -341,7 +343,8 @@
 "d": 0,
 "a": "يوما واحدا لا يكفي لاكتشاف هذه المدينة."
 }
-]
+],
+"alan": "tarih"
 },
 {
 "id": "enflasyon",
@@ -443,7 +446,8 @@
 "d": 0,
 "a": "الجزء الأكبر من دخلها يذهب إلى الغذاء والسكن."
 }
-]
+],
+"alan": "ekonomi"
 },
 {
 "id": "endulus",
@@ -541,7 +545,8 @@
 "d": 0,
 "a": "Başlık: جسر العلم بين الشرق والغرب."
 }
-]
+],
+"alan": "tarih"
 },
 {
 "id": "elektrikli-araba",
@@ -645,7 +650,8 @@
 "d": 3,
 "a": "في المقابل: buna karşılık."
 }
-]
+],
+"alan": "bilim"
 },
 {
 "id": "haber-konferans",
@@ -760,7 +766,8 @@
 "d": 2,
 "a": "على أن تخصص لموضوع المياه والزراعة."
 }
-]
+],
+"alan": "sosyal"
 },
 {
 "id": "ramazan",
@@ -858,7 +865,8 @@
 "d": 0,
 "a": "تسبب الشعور بالخمول والعطش في اليوم التالي."
 }
-]
+],
+"alan": "din"
 },
 {
 "id": "su-kitligi",
@@ -954,7 +962,8 @@
 "d": 1,
 "a": "ترشيد الاستهلاك يجب أن يصبح ثقافة عامة"
 }
-]
+],
+"alan": "cevre"
 },
 {
 "id": "uzaktan-calisma",
@@ -1050,7 +1059,8 @@
 "d": 1,
 "a": ""
 }
-]
+],
+"alan": "sosyal"
 },
 {
 "id": "saglikli-uyku",
@@ -1146,7 +1156,8 @@
 "d": 1,
 "a": ""
 }
-]
+],
+"alan": "saglik"
 },
 {
 "id": "ramazan-dayanisma",
@@ -1242,7 +1253,8 @@
 "d": 0,
 "a": ""
 }
-]
+],
+"alan": "din"
 },
 {
 "id": "enerji-gunes",
@@ -1338,7 +1350,8 @@
 "d": 1,
 "a": ""
 }
-]
+],
+"alan": "ekonomi"
 },
 {
 "id": "kitap-okuma",
@@ -1434,7 +1447,8 @@
 "d": 2,
 "a": ""
 }
-]
+],
+"alan": "egitim"
 },
 {
 "id": "gida-israf",
@@ -1530,7 +1544,8 @@
 "d": 2,
 "a": ""
 }
-]
+],
+"alan": "cevre"
 },
 {
 "id": "arapca-dunya",
@@ -1626,7 +1641,8 @@
 "d": 1,
 "a": ""
 }
-]
+],
+"alan": "edebiyat"
 },
 {
 "id": "deprem-hazirlik",
@@ -1718,6 +1734,823 @@
 "Hazırlığa ve etkileri azaltmaya",
 "Fay hatlarını değiştirmeye",
 "Göçe"
+],
+"d": 1,
+"a": ""
+}
+],
+"alan": "cevre"
+},
+{
+"id": "erken-cocukluk",
+"alan": "egitim",
+"baslik": "Erken çocukluk eğitimi",
+"ar_baslik": "التعليم في الطفولة المبكرة: استثمار في المستقبل",
+"konu": "Eğitim",
+"seviye": "B2",
+"ar": [
+"يتفق التربويون وعلماء النفس على أن السنوات الخمس الأولى من عمر الطفل هي أخطر مراحل نموه وأكثرها تأثيرا في مستقبله، إذ يتشكل فيها جزء كبير من قدراته اللغوية والعقلية والاجتماعية.",
+"ففي هذه المرحلة ينمو دماغ الطفل بسرعة مذهلة، وتتكون فيه الروابط العصبية التي يعتمد عليها التعلم لاحقا. ولذلك فإن البيئة التي يعيش فيها الطفل، وما يتلقاه من رعاية وحوار ولعب، تترك أثرا عميقا يصعب تعويضه في المراحل اللاحقة.",
+"وتشير دراسات طويلة الأمد إلى أن الأطفال الذين التحقوا ببرامج جيدة للتعليم المبكر حققوا نتائج دراسية أفضل، وكانوا أقل عرضة للتسرب من المدرسة، بل إن بعضهم حصل في الكبر على دخل أعلى من أقرانهم.",
+"غير أن جودة هذه البرامج شرط أساسي لنجاحها؛ فالمقصود ليس تعليم الطفل القراءة والكتابة قبل أوانه، بل تنمية فضوله وثقته بنفسه وقدرته على التعاون مع غيره من خلال اللعب الموجه والقصص والأنشطة الفنية.",
+"ويؤكد الخبراء أن دور الأسرة لا يقل أهمية عن دور الحضانة أو الروضة؛ فالحديث مع الطفل والقراءة له قبل النوم والإجابة عن أسئلته بصبر كلها وسائل بسيطة لكنها ذات أثر كبير.",
+"ولهذا تنظر دول كثيرة اليوم إلى الإنفاق على التعليم المبكر على أنه استثمار طويل الأمد، لا مجرد خدمة اجتماعية، لأن عائده يظهر في مجتمع أكثر تعليما وإنتاجا."
+],
+"tr": [
+"Eğitimciler ve psikologlar, çocuğun ömrünün ilk beş yılının gelişiminin en kritik ve geleceğini en çok etkileyen dönemi olduğunda hemfikirdir; zira dil, zihin ve sosyal becerilerinin büyük kısmı bu dönemde şekillenir.",
+"Bu dönemde çocuğun beyni şaşırtıcı bir hızla gelişir ve daha sonraki öğrenmenin dayandığı sinirsel bağlantılar oluşur. Bu yüzden çocuğun yaşadığı ortam ve aldığı bakım, konuşma ve oyun, sonraki dönemlerde telafisi zor derin bir iz bırakır.",
+"Uzun süreli araştırmalar, kaliteli erken eğitim programlarına katılan çocukların daha iyi okul sonuçları elde ettiğini, okulu bırakma ihtimallerinin daha düşük olduğunu, hatta bazılarının yetişkinlikte yaşıtlarından daha yüksek gelir elde ettiğini gösteriyor.",
+"Ancak bu programların kalitesi başarının temel şartıdır; amaç çocuğa vakti gelmeden okuma yazma öğretmek değil, yönlendirilmiş oyun, hikâyeler ve sanat etkinlikleriyle merakını, özgüvenini ve başkalarıyla iş birliği yapma becerisini geliştirmektir.",
+"Uzmanlar ailenin rolünün kreş veya anaokulunun rolünden daha az önemli olmadığını vurguluyor; çocukla konuşmak, uyumadan önce ona kitap okumak ve sorularını sabırla cevaplamak basit ama etkisi büyük yollardır.",
+"Bu nedenle bugün birçok ülke erken eğitime yapılan harcamayı sadece bir sosyal hizmet değil, uzun vadeli bir yatırım olarak görüyor; çünkü getirisi daha eğitimli ve üretken bir toplumda ortaya çıkar."
+],
+"sozluk": [
+[
+"التربويون",
+"eğitimciler"
+],
+[
+"أخطر",
+"en kritik"
+],
+[
+"مذهلة",
+"şaşırtıcı"
+],
+[
+"الروابط العصبية",
+"sinir bağlantıları"
+],
+[
+"تعويض",
+"telafi"
+],
+[
+"التسرب من المدرسة",
+"okulu bırakma"
+],
+[
+"أقرانهم",
+"yaşıtları"
+],
+[
+"أوانه",
+"vakti"
+],
+[
+"فضول",
+"merak"
+],
+[
+"الحضانة",
+"kreş"
+],
+[
+"الروضة",
+"anaokulu"
+],
+[
+"عائد",
+"getiri"
+]
+],
+"sorular": [
+{
+"s": "Metne göre çocuk gelişiminin en kritik dönemi hangisidir?",
+"k": [
+"İlk beş yıl",
+"İlkokul yılları",
+"Ergenlik",
+"Üniversite yılları"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Erken eğitimin asıl amacı nedir?",
+"k": [
+"Okuma yazmayı erken öğretmek",
+"Merak, özgüven ve iş birliğini geliştirmek",
+"Sınavlara hazırlamak",
+"Yabancı dil öğretmek"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Son paragrafta erken eğitime yapılan harcama neye benzetiliyor?",
+"k": [
+"Uzun vadeli yatırıma",
+"Lükse",
+"Geçici yardıma",
+"Vergi yüküne"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“أقرانهم” kelimesinin anlamı nedir?",
+"k": [
+"Öğretmenleri",
+"Yaşıtları",
+"Anne babaları",
+"Rakipleri"
+],
+"d": 1,
+"a": ""
+}
+]
+},
+{
+"id": "dijital-ogrenme",
+"alan": "egitim",
+"baslik": "Üniversitede dijital öğrenme",
+"ar_baslik": "الجامعة في العصر الرقمي",
+"konu": "Eğitim",
+"seviye": "C1",
+"ar": [
+"لم تعد الجامعة اليوم ذلك المكان الذي يقتصر فيه التعلم على قاعة المحاضرات والكتاب الورقي؛ فقد أتاحت التقنيات الرقمية للطلاب الوصول إلى مصادر المعرفة في أي وقت ومن أي مكان.",
+"فالمنصات التعليمية المفتوحة تقدم مقررات من أعرق الجامعات مجانا أو بتكلفة زهيدة، والمكتبات الرقمية تضع بين يدي الباحث ملايين الكتب والمقالات المحكمة، كما تسمح أدوات التواصل الحديثة بالتعاون بين طلاب من قارات مختلفة في مشروع واحد.",
+"ويرى المؤيدون أن هذا التحول يجعل التعليم أكثر عدالة، لأنه يفتح أبواب المعرفة أمام من حالت ظروفهم المادية أو الجغرافية دون الالتحاق بالجامعات الكبرى.",
+"لكن المنتقدين يحذرون من أن وفرة المعلومات لا تعني بالضرورة جودة التعلم؛ فكثير من الطلاب يجدون صعوبة في التركيز أمام الشاشات، وتنخفض نسبة من يكملون المقررات الإلكترونية إلى مستويات متدنية.",
+"كما يشير هؤلاء إلى أن الجامعة ليست مجرد مكان لنقل المعلومات، بل هي فضاء للحوار والنقاش وبناء الشخصية، وهي أمور يصعب تحقيقها كاملة عبر الشاشة.",
+"ومن هنا يدعو كثير من الأكاديميين إلى نموذج متوازن يستفيد من مزايا التقنية دون أن يتخلى عن اللقاء الإنساني المباشر بين الأستاذ وطلابه، وعن تنمية مهارات التفكير النقدي التي تحتاج إلى توجيه وتدريب."
+],
+"tr": [
+"Üniversite artık öğrenmenin konferans salonu ve basılı kitapla sınırlı kaldığı yer değil; dijital teknolojiler öğrencilere bilgi kaynaklarına her zaman ve her yerden ulaşma imkânı verdi.",
+"Açık eğitim platformları en köklü üniversitelerin derslerini ücretsiz veya cüzi bir ücretle sunuyor; dijital kütüphaneler araştırmacının önüne milyonlarca kitap ve hakemli makale koyuyor; modern iletişim araçları da farklı kıtalardaki öğrencilerin aynı projede iş birliği yapmasına imkân tanıyor.",
+"Taraftarlar bu dönüşümün eğitimi daha adil kıldığını düşünüyor; çünkü maddi veya coğrafi şartları büyük üniversitelere girmesine engel olanlara bilginin kapılarını açıyor.",
+"Fakat eleştirenler bilgi bolluğunun öğrenme kalitesi anlamına gelmediği konusunda uyarıyor; birçok öğrenci ekran karşısında odaklanmakta zorlanıyor ve çevrim içi dersleri tamamlayanların oranı çok düşük seviyelere iniyor.",
+"Bunlar ayrıca üniversitenin yalnızca bilgi aktarılan bir yer olmadığına, diyalog, tartışma ve kişilik inşası alanı olduğuna; bunların ise ekran üzerinden tam olarak gerçekleştirilmesinin zor olduğuna dikkat çekiyor.",
+"Bu yüzden birçok akademisyen, teknolojinin avantajlarından yararlanan ama hoca ile öğrencileri arasındaki doğrudan insanî buluşmadan ve rehberlik ile eğitim gerektiren eleştirel düşünme becerilerini geliştirmekten vazgeçmeyen dengeli bir modele çağırıyor."
+],
+"sozluk": [
+[
+"يقتصر على",
+"…ile sınırlı kalmak"
+],
+[
+"أتاح",
+"imkân verdi"
+],
+[
+"المنصات",
+"platformlar"
+],
+[
+"زهيدة",
+"cüzi, az"
+],
+[
+"المحكمة",
+"hakemli"
+],
+[
+"التحول",
+"dönüşüm"
+],
+[
+"حالت دون",
+"…e engel oldu"
+],
+[
+"وفرة",
+"bolluk"
+],
+[
+"متدنية",
+"düşük"
+],
+[
+"فضاء",
+"alan, ortam"
+],
+[
+"التفكير النقدي",
+"eleştirel düşünme"
+]
+],
+"sorular": [
+{
+"s": "Taraftarlara göre dijital öğrenme eğitimi nasıl etkiliyor?",
+"k": [
+"Daha pahalı yapıyor",
+"Daha adil yapıyor",
+"Daha zor yapıyor",
+"Daha kısa yapıyor"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Eleştirenlerin dile getirdiği sorunlardan biri hangisidir?",
+"k": [
+"Hakemli makalelerin azlığı",
+"Çevrim içi dersleri tamamlama oranının düşüklüğü",
+"İnternetin pahalı olması",
+"Hocaların yetersizliği"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Metnin sonunda önerilen model nasıldır?",
+"k": [
+"Tamamen çevrim içi",
+"Tamamen yüz yüze",
+"Teknoloji ile yüz yüze buluşmayı dengeleyen",
+"Sadece kütüphane temelli"
+],
+"d": 2,
+"a": ""
+},
+{
+"s": "“حالت دون” ifadesinin anlamı nedir?",
+"k": [
+"Yardım etti",
+"Engel oldu",
+"Teşvik etti",
+"Hızlandırdı"
+],
+"d": 1,
+"a": ""
+}
+]
+},
+{
+"id": "mutenebbi",
+"alan": "edebiyat",
+"baslik": "Mütenebbî: Arap şiirinin zirvesi",
+"ar_baslik": "المتنبي شاعر العربية الأكبر",
+"konu": "Edebiyat",
+"seviye": "C1",
+"ar": [
+"يعد أبو الطيب المتنبي من أعظم شعراء العربية على مر العصور، وقد ولد في الكوفة سنة ثلاث وثلاثمئة للهجرة، ونشأ محبا للعلم واللغة، متنقلا بين البادية والحواضر.",
+"وقد بلغ المتنبي ذروة شهرته في بلاط سيف الدولة الحمداني بحلب، حيث نظم فيه قصائد خالدة يصف فيها معاركه مع الروم، ويمزج المديح بالحكمة والفخر بنفسه.",
+"ويتميز شعره بقوة العبارة وعمق المعنى وكثرة الحكم التي سارت على ألسنة الناس أمثالا، حتى قيل إنه ملأ الدنيا وشغل الناس. ولا تزال أبياته تتردد في الخطب والمقالات إلى يومنا هذا.",
+"غير أن طموحه الكبير واعتزازه الشديد بنفسه جرا عليه خصومات كثيرة، فانتقل من حلب إلى مصر حيث مدح كافورا الإخشيدي، ثم هجاه حين لم ينل ما أمل من الولاية والمكانة.",
+"وقد انتهت حياته نهاية مأساوية سنة أربع وخمسين وثلاثمئة، إذ قتل في طريق عودته إلى العراق، ويروى أن بيته المشهور في الفروسية كان سببا في ثباته في القتال وعدم فراره.",
+"وقد شغل شعر المتنبي الشراح والنقاد قرونا طويلة، فكتبت عليه شروح كثيرة، ودارت حوله معارك نقدية بين أنصاره وخصومه، مما يدل على مكانته الفريدة في تاريخ الأدب العربي."
+],
+"tr": [
+"Ebu’t-Tayyib el-Mütenebbî, bütün çağlar boyunca Arapçanın en büyük şairlerinden sayılır; hicrî 303’te Kûfe’de doğmuş, ilim ve dil sevgisiyle yetişmiş, çöl ile şehirler arasında gidip gelmiştir.",
+"Mütenebbî şöhretinin zirvesine Halep’te Seyfüddevle el-Hamdânî’nin sarayında ulaştı; orada onun Bizanslılarla savaşlarını anlattığı, övgüyü hikmet ve kendini övmeyle harmanladığı ölümsüz kasideler yazdı.",
+"Şiiri ifadesinin gücü, mânâsının derinliği ve halkın dilinde atasözü olarak dolaşan hikmetlerinin çokluğuyla öne çıkar; öyle ki onun için “dünyayı doldurdu, insanları meşgul etti” denmiştir. Beyitleri bugün de hutbelerde ve makalelerde tekrar edilir.",
+"Ancak büyük hırsı ve kendine aşırı güveni ona birçok düşmanlık getirdi; Halep’ten Mısır’a geçti, orada Kâfûr el-İhşîdî’yi övdü, umduğu valilik ve makamı alamayınca da onu hicvetti.",
+"Hayatı hicrî 354’te trajik bir sonla bitti; Irak’a dönüş yolunda öldürüldü. Rivayete göre binicilik ve kahramanlık üzerine meşhur beyti, savaşta sebat edip kaçmamasına sebep olmuştur.",
+"Mütenebbî’nin şiiri şârihleri ve eleştirmenleri asırlarca meşgul etti; üzerine pek çok şerh yazıldı, taraftarları ile karşıtları arasında edebî tartışmalar yaşandı; bu da onun Arap edebiyatı tarihindeki eşsiz yerini gösterir."
+],
+"sozluk": [
+[
+"على مر العصور",
+"çağlar boyunca"
+],
+[
+"الحواضر",
+"şehirler"
+],
+[
+"ذروة",
+"zirve"
+],
+[
+"بلاط",
+"saray"
+],
+[
+"نظم",
+"(şiir) yazdı"
+],
+[
+"خالدة",
+"ölümsüz"
+],
+[
+"الحكم",
+"hikmetler"
+],
+[
+"سارت أمثالا",
+"atasözü olarak dolaştı"
+],
+[
+"اعتزاز",
+"gurur, kendine güven"
+],
+[
+"هجاه",
+"onu hicvetti"
+],
+[
+"مأساوية",
+"trajik"
+],
+[
+"الشراح",
+"şârihler"
+]
+],
+"sorular": [
+{
+"s": "Mütenebbî şöhretinin zirvesine nerede ulaştı?",
+"k": [
+"Kûfe’de",
+"Halep’te Seyfüddevle’nin sarayında",
+"Mısır’da",
+"Bağdat’ta"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Mütenebbî Kâfûr’u neden hicvetti?",
+"k": [
+"Şiirini beğenmediği için",
+"Umduğu valilik ve makamı alamadığı için",
+"Savaşta yenildiği için",
+"Halep’e döndüğü için"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "“ملأ الدنيا وشغل الناس” sözü neyi anlatır?",
+"k": [
+"Şairin büyük etkisini",
+"Şairin zenginliğini",
+"Şairin yolculuklarını",
+"Şairin hastalığını"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Son paragrafa göre Mütenebbî’nin şiiri neye konu oldu?",
+"k": [
+"Sadece müziğe",
+"Pek çok şerh ve edebî tartışmaya",
+"Yasaklara",
+"Tercüme edilmemeye"
+],
+"d": 1,
+"a": ""
+}
+]
+},
+{
+"id": "arap-romani",
+"alan": "edebiyat",
+"baslik": "Modern Arap romanı",
+"ar_baslik": "الرواية العربية من الريادة إلى العالمية",
+"konu": "Edebiyat",
+"seviye": "B2",
+"ar": [
+"ظهرت الرواية العربية الحديثة في أواخر القرن التاسع عشر وأوائل القرن العشرين، متأثرة بالاحتكاك بالأدب الأوروبي وبحركة الترجمة وانتشار الصحافة والطباعة.",
+"وكانت المحاولات الأولى أقرب إلى الحكاية التعليمية أو التاريخية، ثم أخذ الفن الروائي ينضج شيئا فشيئا، فاهتم الكتاب ببناء الشخصيات وتصوير المجتمع وقضاياه.",
+"ويعد الكاتب المصري نجيب محفوظ أبرز من رسخوا هذا الفن، إذ صور في ثلاثيته الشهيرة حياة أسرة قاهرية عبر أجيال متعاقبة، وجعل من أحياء القاهرة القديمة عالما أدبيا نابضا بالحياة.",
+"وفي سنة ألف وتسعمئة وثمان وثمانين نال محفوظ جائزة نوبل للآداب، فكان أول كاتب عربي يحصل عليها، وفتح ذلك الباب أمام ترجمة كثير من الروايات العربية إلى لغات العالم.",
+"ومنذ ذلك الحين تنوعت الرواية العربية تنوعا كبيرا، فظهرت روايات تعالج قضايا الهجرة والهوية والمرأة والحرب، وبرزت أصوات جديدة من المغرب العربي والخليج والمشرق.",
+"وتسهم الجوائز الأدبية ومعارض الكتب اليوم في تعريف القراء بالأعمال الجديدة، وإن كان بعض النقاد يرون أن الكثرة لا تعني دائما الجودة، وأن الرواية تحتاج إلى قارئ ناقد بقدر حاجتها إلى كاتب موهوب."
+],
+"tr": [
+"Modern Arap romanı 19. yüzyılın sonu ile 20. yüzyılın başında, Avrupa edebiyatıyla temastan, tercüme hareketinden ve basın ile matbaanın yaygınlaşmasından etkilenerek ortaya çıktı.",
+"İlk denemeler öğretici veya tarihî hikâyeye daha yakındı; sonra roman sanatı yavaş yavaş olgunlaştı ve yazarlar karakter inşasına, toplumu ve meselelerini tasvir etmeye önem verdi.",
+"Mısırlı yazar Necîb Mahfûz bu sanatı yerleştirenlerin en önde gelenidir; meşhur üçlemesinde Kahireli bir ailenin hayatını birbirini izleyen nesiller boyunca anlattı ve eski Kahire mahallelerini canlı bir edebî dünyaya dönüştürdü.",
+"1988’de Mahfûz Nobel Edebiyat Ödülü’nü aldı ve bu ödülü alan ilk Arap yazar oldu; bu da birçok Arap romanının dünya dillerine çevrilmesinin kapısını açtı.",
+"O zamandan beri Arap romanı büyük ölçüde çeşitlendi; göç, kimlik, kadın ve savaş meselelerini işleyen romanlar ortaya çıktı; Mağrip, Körfez ve Doğu Arap dünyasından yeni sesler belirdi.",
+"Bugün edebî ödüller ve kitap fuarları okurlara yeni eserleri tanıtmaya katkıda bulunuyor; ancak bazı eleştirmenler çokluğun her zaman kalite anlamına gelmediğini, romanın yetenekli bir yazara olduğu kadar eleştirel bir okura da ihtiyaç duyduğunu düşünüyor."
+],
+"sozluk": [
+[
+"الاحتكاك",
+"temas"
+],
+[
+"الطباعة",
+"matbaa"
+],
+[
+"ينضج",
+"olgunlaşır"
+],
+[
+"رسخوا",
+"yerleştirdiler"
+],
+[
+"ثلاثية",
+"üçleme"
+],
+[
+"أجيال متعاقبة",
+"birbirini izleyen nesiller"
+],
+[
+"نابض بالحياة",
+"canlı"
+],
+[
+"نال",
+"elde etti"
+],
+[
+"الهوية",
+"kimlik"
+],
+[
+"موهوب",
+"yetenekli"
+]
+],
+"sorular": [
+{
+"s": "Modern Arap romanının ortaya çıkışında hangisi etkili olmamıştır?",
+"k": [
+"Avrupa edebiyatıyla temas",
+"Tercüme hareketi",
+"Basın ve matbaa",
+"Sinema endüstrisi"
+],
+"d": 3,
+"a": ""
+},
+{
+"s": "Necîb Mahfûz Nobel ödülünü hangi yıl aldı?",
+"k": [
+"1958",
+"1978",
+"1988",
+"1998"
+],
+"d": 2,
+"a": ""
+},
+{
+"s": "Mahfûz’un üçlemesi neyi anlatır?",
+"k": [
+"Bir köyün tarihini",
+"Kahireli bir ailenin nesiller boyu hayatını",
+"Endülüs’ün düşüşünü",
+"Bir savaşı"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Son paragraftaki eleştirmen görüşü nedir?",
+"k": [
+"Ödüller gereksizdir",
+"Çokluk her zaman kalite demek değildir",
+"Roman ölmüştür",
+"Fuarlar zararlıdır"
+],
+"d": 1,
+"a": ""
+}
+]
+},
+{
+"id": "goc-kent",
+"alan": "sosyal",
+"baslik": "Göç ve kentleşme",
+"ar_baslik": "الهجرة من الريف إلى المدينة",
+"konu": "Sosyal bilimler",
+"seviye": "B2",
+"ar": [
+"شهدت معظم البلدان العربية خلال العقود الماضية هجرة واسعة من الريف إلى المدن، حتى أصبح أكثر من نصف السكان يعيشون في المناطق الحضرية.",
+"ويفسر علماء الاجتماع هذه الظاهرة بعوامل طاردة في الريف، كقلة فرص العمل وضعف الخدمات الصحية والتعليمية وتراجع الزراعة بسبب الجفاف، وعوامل جاذبة في المدينة كالأجور الأعلى وتنوع الوظائف والجامعات.",
+"وقد أسهمت هذه الهجرة في نمو اقتصادي ملحوظ، لكنها خلفت في الوقت نفسه مشكلات معقدة، أبرزها اكتظاظ المدن وظهور أحياء عشوائية تفتقر إلى البنية التحتية، وازدحام المواصلات وارتفاع أسعار السكن.",
+"كما يلاحظ الباحثون تغيرات اجتماعية عميقة، إذ تضعف الروابط العائلية الممتدة التي كانت سائدة في القرية، ويحل محلها نمط الأسرة الصغيرة، ويشعر بعض المهاجرين بالغربة في بيئة لا يعرفون فيها جيرانهم.",
+"ولمعالجة هذه الآثار تلجأ بعض الحكومات إلى تنمية المدن المتوسطة والصغيرة، وتحسين الخدمات في القرى، حتى لا يضطر الناس إلى ترك أرضهم بحثا عن حياة كريمة.",
+"ويرى المختصون أن التخطيط العمراني السليم والعدالة في توزيع المشروعات بين المناطق هما المفتاح لتحقيق تنمية متوازنة تحفظ للمدينة حيويتها وللريف مكانته."
+],
+"tr": [
+"Arap ülkelerinin çoğu son on yıllarda köyden şehre geniş bir göçe sahne oldu; öyle ki nüfusun yarısından fazlası şehirlerde yaşar hâle geldi.",
+"Sosyologlar bu olguyu köydeki itici etkenlerle —iş imkânlarının azlığı, sağlık ve eğitim hizmetlerinin zayıflığı, kuraklık yüzünden tarımın gerilemesi— ve şehirdeki çekici etkenlerle —daha yüksek ücretler, iş çeşitliliği ve üniversiteler— açıklıyor.",
+"Bu göç kayda değer bir ekonomik büyümeye katkı sağladı; ama aynı zamanda karmaşık sorunlar bıraktı: en önemlileri şehirlerin aşırı kalabalıklaşması, altyapıdan yoksun gecekondu mahallelerinin ortaya çıkması, ulaşım sıkışıklığı ve konut fiyatlarının yükselmesidir.",
+"Araştırmacılar derin sosyal değişimlere de dikkat çekiyor: köyde hâkim olan geniş aile bağları zayıflıyor, yerini çekirdek aile alıyor; bazı göçmenler komşularını tanımadıkları bir ortamda gurbet hissi yaşıyor.",
+"Bu etkileri gidermek için bazı hükümetler orta ve küçük şehirleri geliştirmeye ve köylerdeki hizmetleri iyileştirmeye başvuruyor; böylece insanlar onurlu bir hayat arayışıyla topraklarını bırakmak zorunda kalmıyor.",
+"Uzmanlar sağlıklı şehir planlamasını ve projelerin bölgeler arasında adil dağıtımını, şehrin canlılığını ve köyün yerini koruyan dengeli bir kalkınmanın anahtarı olarak görüyor."
+],
+"sozluk": [
+[
+"الريف",
+"kırsal, köy"
+],
+[
+"الحضرية",
+"kentsel"
+],
+[
+"عوامل طاردة",
+"itici etkenler"
+],
+[
+"عوامل جاذبة",
+"çekici etkenler"
+],
+[
+"الجفاف",
+"kuraklık"
+],
+[
+"اكتظاظ",
+"aşırı kalabalık"
+],
+[
+"أحياء عشوائية",
+"gecekondu mahalleleri"
+],
+[
+"البنية التحتية",
+"altyapı"
+],
+[
+"الغربة",
+"gurbet, yabancılık"
+],
+[
+"التخطيط العمراني",
+"şehir planlaması"
+]
+],
+"sorular": [
+{
+"s": "Metne göre köydeki itici etkenlerden biri hangisidir?",
+"k": [
+"Yüksek ücretler",
+"Kuraklık yüzünden tarımın gerilemesi",
+"Üniversitelerin çokluğu",
+"İş çeşitliliği"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Göçün şehirlerde yol açtığı sorunlardan biri değildir:",
+"k": [
+"Gecekondu mahalleleri",
+"Ulaşım sıkışıklığı",
+"Konut fiyatlarının artması",
+"Tarım üretiminin artması"
+],
+"d": 3,
+"a": ""
+},
+{
+"s": "Dördüncü paragrafa göre aile yapısı nasıl değişiyor?",
+"k": [
+"Geniş aile güçleniyor",
+"Çekirdek aile yaygınlaşıyor",
+"Aile kurumu yok oluyor",
+"Değişmiyor"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "“عوامل جاذبة” ne demektir?",
+"k": [
+"İtici etkenler",
+"Çekici etkenler",
+"Ekonomik krizler",
+"Doğal afetler"
+],
+"d": 1,
+"a": ""
+}
+]
+},
+{
+"id": "antibiyotik",
+"alan": "saglik",
+"baslik": "Antibiyotik direnci",
+"ar_baslik": "مقاومة المضادات الحيوية: خطر صامت",
+"konu": "Sağlık",
+"seviye": "C1",
+"ar": [
+"منذ اكتشاف البنسلين في القرن الماضي أنقذت المضادات الحيوية حياة ملايين البشر، وأصبحت أمراض كانت قاتلة في الماضي قابلة للعلاج بسهولة.",
+"غير أن منظمات الصحة الدولية تحذر اليوم من خطر متزايد يسمى مقاومة المضادات الحيوية، وهو أن تتكيف البكتيريا مع هذه الأدوية فتفقد الأدوية قدرتها على القضاء عليها.",
+"ومن أهم أسباب هذه الظاهرة الإفراط في استخدام المضادات الحيوية وسوء استخدامها، كتناولها لعلاج نزلات البرد والإنفلونزا التي تسببها الفيروسات لا البكتيريا، أو التوقف عن تناول الدواء قبل إكمال المدة التي حددها الطبيب.",
+"كما يسهم استخدام هذه الأدوية على نطاق واسع في تربية الحيوانات لتسريع نموها في انتشار البكتيريا المقاومة، التي قد تنتقل إلى الإنسان عن طريق الغذاء والبيئة.",
+"ويخشى الخبراء أن يؤدي استمرار هذا الوضع إلى عودة العمليات الجراحية البسيطة والالتهابات الشائعة إلى دائرة الخطر، لأن الأدوية المتوفرة لن تكون فعالة.",
+"ولذلك يدعو الأطباء إلى عدم تناول المضادات الحيوية إلا بوصفة طبية، والالتزام بالجرعة والمدة المحددتين، والعناية بالنظافة واللقاحات للحد من العدوى، في حين تسعى المختبرات إلى تطوير أدوية جديدة."
+],
+"tr": [
+"Geçen yüzyılda penisilinin keşfinden bu yana antibiyotikler milyonlarca insanın hayatını kurtardı; geçmişte öldürücü olan hastalıklar kolayca tedavi edilebilir hâle geldi.",
+"Ancak uluslararası sağlık kuruluşları bugün antibiyotik direnci denen artan bir tehlikeye karşı uyarıyor: bakterilerin bu ilaçlara uyum sağlaması ve ilaçların onları yok etme gücünü kaybetmesi.",
+"Bu olgunun en önemli sebepleri arasında antibiyotiklerin aşırı ve yanlış kullanımı vardır; örneğin bakterilerin değil virüslerin sebep olduğu soğuk algınlığı ve grip için kullanılmaları veya doktorun belirlediği süre tamamlanmadan ilacın bırakılması.",
+"Hayvan yetiştiriciliğinde büyümeyi hızlandırmak için bu ilaçların geniş çapta kullanılması da, gıda ve çevre yoluyla insana geçebilen dirençli bakterilerin yayılmasına katkıda bulunuyor.",
+"Uzmanlar bu durumun sürmesinin basit ameliyatları ve yaygın enfeksiyonları yeniden tehlike alanına sokmasından korkuyor; çünkü mevcut ilaçlar etkili olmayacak.",
+"Bu yüzden doktorlar antibiyotiklerin yalnızca reçeteyle kullanılmasını, belirlenen doz ve süreye uyulmasını, enfeksiyonu azaltmak için temizliğe ve aşılara önem verilmesini istiyor; laboratuvarlar ise yeni ilaçlar geliştirmeye çalışıyor."
+],
+"sozluk": [
+[
+"المضادات الحيوية",
+"antibiyotikler"
+],
+[
+"البنسلين",
+"penisilin"
+],
+[
+"مقاومة",
+"direnç"
+],
+[
+"تتكيف",
+"uyum sağlar"
+],
+[
+"الإفراط",
+"aşırılık"
+],
+[
+"نزلات البرد",
+"soğuk algınlığı"
+],
+[
+"الفيروسات",
+"virüsler"
+],
+[
+"على نطاق واسع",
+"geniş çapta"
+],
+[
+"الالتهابات",
+"enfeksiyonlar"
+],
+[
+"وصفة طبية",
+"reçete"
+],
+[
+"الجرعة",
+"doz"
+],
+[
+"اللقاحات",
+"aşılar"
+]
+],
+"sorular": [
+{
+"s": "Antibiyotik direnci nedir?",
+"k": [
+"İlaçların ucuzlaması",
+"Bakterilerin ilaçlara uyum sağlaması",
+"Virüslerin yok olması",
+"Aşıların etkisizleşmesi"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Metne göre antibiyotik neden grip için uygun değildir?",
+"k": [
+"Grip virüslerden kaynaklandığı için",
+"Grip bakteriden kaynaklandığı için",
+"Grip tedavi edilemediği için",
+"Antibiyotik pahalı olduğu için"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Hayvancılıkta antibiyotik ne amaçla kullanılıyor?",
+"k": [
+"Süt üretimini azaltmak",
+"Büyümeyi hızlandırmak",
+"Hayvanları uyutmak",
+"Eti renklendirmek"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Doktorların tavsiyelerinden biri değildir:",
+"k": [
+"Reçetesiz kullanmamak",
+"Doza ve süreye uymak",
+"Aşılara önem vermek",
+"İyileşince ilacı hemen bırakmak"
+],
+"d": 3,
+"a": ""
+}
+]
+},
+{
+"id": "beytulhikme",
+"alan": "tarih",
+"baslik": "Beytü’l-Hikme",
+"ar_baslik": "بيت الحكمة في بغداد",
+"konu": "Tarih ve medeniyet",
+"seviye": "B2",
+"ar": [
+"كانت بغداد في العصر العباسي عاصمة العلم والثقافة في العالم، ومن أشهر مؤسساتها العلمية بيت الحكمة الذي ازدهر في عهد الخليفة المأمون في أوائل القرن الثالث الهجري.",
+"وقد جمع بيت الحكمة المترجمين والعلماء من ثقافات وأديان مختلفة، فنقلوا إلى العربية كتب الفلسفة والطب والرياضيات والفلك من اليونانية والسريانية والفارسية والهندية.",
+"ولم يكن عمل هؤلاء العلماء مقصورا على الترجمة، بل شرحوا الكتب المترجمة وصححوا ما فيها من أخطاء وأضافوا إليها إضافات أصيلة، فتطورت على أيديهم علوم كالجبر والفلك والبصريات.",
+"ومن أبرز من ارتبط اسمه بهذه الحركة العلمية الخوارزمي الذي ألف في الجبر كتابا صار أساسا لهذا العلم، وحنين بن إسحاق الذي اشتهر بدقة ترجماته الطبية.",
+"وقد ساعد على هذه النهضة انتشار صناعة الورق في بغداد، فسهل نسخ الكتب وتداولها، وظهرت أسواق للوراقين يقصدها طلاب العلم والباحثون.",
+"وتبقى تجربة بيت الحكمة شاهدا على أن الانفتاح على المعارف الإنسانية، مع الاعتزاز بالهوية واللغة، يمكن أن يصنع حضارة تنير للعالم طريقه."
+],
+"tr": [
+"Abbâsîler döneminde Bağdat dünyanın ilim ve kültür başkentiydi; en meşhur ilmî kurumlarından biri, hicrî 3. yüzyılın başında Halife Me’mûn döneminde parlayan Beytü’l-Hikme idi.",
+"Beytü’l-Hikme farklı kültür ve dinlerden mütercim ve âlimleri bir araya getirdi; bunlar felsefe, tıp, matematik ve astronomi kitaplarını Yunanca, Süryânîce, Farsça ve Hintçeden Arapçaya aktardılar.",
+"Bu âlimlerin işi tercümeyle sınırlı değildi; tercüme edilen kitapları şerh ettiler, içindeki hataları düzelttiler ve özgün katkılar eklediler; cebir, astronomi ve optik gibi ilimler onların elinde gelişti.",
+"Bu ilmî hareketle adı en çok anılanlardan biri, cebir üzerine bu ilmin temeli olan bir kitap yazan Hârizmî ve tıbbi tercümelerinin titizliğiyle tanınan Huneyn b. İshak’tır.",
+"Bu yükselişe Bağdat’ta kâğıt sanayisinin yayılması da yardım etti; kitapların istinsahı ve dolaşımı kolaylaştı, ilim talebelerinin ve araştırmacıların uğradığı sahaflar çarşıları ortaya çıktı.",
+"Beytü’l-Hikme tecrübesi, kimlik ve dil bilinciyle birlikte insanlığın bilgilerine açık olmanın dünyaya yol gösteren bir medeniyet kurabileceğinin şahidi olarak kalmaktadır."
+],
+"sozluk": [
+[
+"ازدهر",
+"gelişti, parladı"
+],
+[
+"المترجمين",
+"mütercimler"
+],
+[
+"السريانية",
+"Süryânîce"
+],
+[
+"مقصورا على",
+"…ile sınırlı"
+],
+[
+"أصيلة",
+"özgün"
+],
+[
+"البصريات",
+"optik"
+],
+[
+"الجبر",
+"cebir"
+],
+[
+"صناعة الورق",
+"kâğıt sanayisi"
+],
+[
+"الوراقين",
+"sahaflar, kitapçılar"
+],
+[
+"الانفتاح",
+"açıklık"
+],
+[
+"تنير",
+"aydınlatır"
+]
+],
+"sorular": [
+{
+"s": "Beytü’l-Hikme hangi halife döneminde parladı?",
+"k": [
+"Hârûnürreşîd",
+"Me’mûn",
+"Mansûr",
+"Mu‘tasım"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Hangi dil, tercüme yapılan diller arasında sayılmamıştır?",
+"k": [
+"Yunanca",
+"Süryânîce",
+"Latince",
+"Farsça"
+],
+"d": 2,
+"a": ""
+},
+{
+"s": "Metne göre âlimlerin işi neydi?",
+"k": [
+"Sadece tercüme",
+"Tercüme, şerh, düzeltme ve özgün katkı",
+"Sadece kitap satışı",
+"Sadece öğretmenlik"
+],
+"d": 1,
+"a": ""
+},
+{
+"s": "Bağdat’taki ilmî yükselişe yardım eden etken hangisidir?",
+"k": [
+"Matbaanın icadı",
+"Kâğıt sanayisinin yayılması",
+"Demiryolu",
+"Radyo"
 ],
 "d": 1,
 "a": ""
@@ -2529,6 +3362,53 @@
 [
 "نفى صحة",
 "… doğruluğunu yalanladı"
+]
+],
+"alanlar": [
+[
+"saglik",
+"Sağlık",
+"الصحة"
+],
+[
+"egitim",
+"Eğitim",
+"التعليم"
+],
+[
+"sosyal",
+"Sosyal bilimler",
+"العلوم الاجتماعية"
+],
+[
+"edebiyat",
+"Edebiyat ve dil",
+"الأدب واللغة"
+],
+[
+"bilim",
+"Bilim ve teknoloji",
+"العلوم والتقنية"
+],
+[
+"cevre",
+"Çevre",
+"البيئة"
+],
+[
+"ekonomi",
+"Ekonomi",
+"الاقتصاد"
+],
+[
+"tarih",
+"Tarih ve medeniyet",
+"التاريخ والحضارة"
+],
+[
+"din",
+"Din ve kültür",
+"الدين والثقافة"
 ]
 ]
 }

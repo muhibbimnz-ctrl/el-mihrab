@@ -606,7 +606,10 @@ async function yds(p1, p2){
   if(p1 === 'deneme') return ydsDeneme();
   if(p1 === 'kelime') return kartlar((YDSB.kelime || []), 'YDS kelime kartları', '/yds');
   if(p1 === 'rehber') return ydsRehber();
-  if(p1 === 'metin'){ await modYukle(); return modMetin(p2, '/yds') }
+  if(p1 === 'metin'){ await modYukle(); const mm = MOD.metinler.find(x => x.id === p2); return modMetin(p2, mm && mm.alan ? '/yds/alan/' + mm.alan : '/yds') }
+  if(p1 === 'alan'){ await modYukle(); const a = (MOD.alanlar || []).find(x => x[0] === p2); if(!a) return go('/yds');
+    const L = MOD.metinler.filter(m => m.alan === p2);
+    V.innerHTML = bar(a[1], '/yds') + `<div class="wrap"><h1 lang="ar" class="mh1" style="text-align:center">${esc(a[2])}</h1><div class="mlist">${L.map(m => `<a href="#/yds/metin/${m.id}" class="${LS.get('medrese.modOk', {})[m.id] ? 'done' : ''}"><span class="sv">${esc(m.seviye)}</span><b lang="ar">${esc(m.ar_baslik)}</b><span>${esc(m.baslik)}</span><small>${m.ar.join(' ').split(/\s+/).length} kelime · ${m.sorular.length} soru</small></a>`).join('')}</div></div>`; return }
   if(p1 === 'tema'){ await modYukle(); const tm = MOD.kelime[+p2]; return kartlar(tm.liste, tm.tema, '/yds') }
   if(p1 === 'haber'){ await modYukle(); return modHaber('/yds') }
   await modYukle().catch(() => null);
@@ -616,7 +619,7 @@ async function yds(p1, p2){
    <div class="ydsh"><div class="hero-ar" lang="ar">اِخْتِبَارُ اللُّغَةِ</div><p><b>80 soru · 180 dakika · 5 seçenek</b> · Yanlış doğruyu götürmez · Her doğru 1,25 puan</p>
     <div class="hero-b"><a class="btn pri" href="#/yds/deneme">Deneme sınavı (${Q.length} soru)</a><a class="btn" href="#/yds/kelime">Kelime kartları (${(YDSB.kelime || []).length})</a><a class="btn" href="#/yds/rehber">Sınav rehberi</a></div>
     ${son ? `<p class="lead">Son deneme: <b>${son.puan}</b> puan (${son.dogru}/${son.toplam}) · ${new Date(son.t).toLocaleDateString('tr-TR')}</p>` : ''}</div>
-   ${MOD ? `<h2>Okuma metinleri</h2><div class="mlist">${MOD.metinler.map(m => `<a href="#/yds/metin/${m.id}" class="${LS.get('medrese.modOk', {})[m.id] ? 'done' : ''}"><span class="sv">${esc(m.seviye)}</span><b lang="ar">${esc(m.ar_baslik)}</b><span>${esc(m.baslik)}</span><small>${esc(m.konu)} · ${m.ar.join(' ').split(/\s+/).length} kelime</small></a>`).join('')}</div>
+   ${MOD ? `<h2>Okuma metinleri</h2><div class="alanlar">${(MOD.alanlar || []).map(a => { const n = MOD.metinler.filter(m => m.alan === a[0]).length; return n ? `<a class="alan a-${a[0]}" href="#/yds/alan/${a[0]}"><span lang="ar">${esc(a[2])}</span><b>${esc(a[1])}</b><small>${n} metin</small></a>` : '' }).join('')}</div>
    <h2>Kelime temaları</h2><div class="tiplist">${MOD.kelime.map((k, i) => `<a href="#/yds/tema/${i}"><b>${esc(k.tema)}</b><small lang="ar">${esc(k.liste.slice(0, 3).map(x => x[0]).join('، '))} … (${k.liste.length})</small></a>`).join('')}<a href="#/yds/kelime"><b>YDS sık kelimeleri</b><small>${(YDSB.kelime || []).length} kelime</small></a><a href="#/yds/haber"><b>Haber Arapçası kalıpları</b><small>el-Cezîre okuma rehberi</small></a></div>` : ''}
    <h2>Konu konu çalış</h2><div class="tiplist">${Object.keys(YDS_TIP).map(t => { const n = Q.filter(q => q.tip === t).length; return n ? `<a href="#/yds/tip/${t}"><b>${YDS_TIP[t][0]}</b><small>${n} soru · ${acc(t)}</small></a>` : '' }).join('')}</div>
    <p class="taslak">Sorular ÖSYM YDS Arapça sınavının yapısına göre hazırlanmıştır. Gerçek çıkmış sorular için ÖSYM’nin yayımladığı kitapçıklara bakınız.</p></div>`;
