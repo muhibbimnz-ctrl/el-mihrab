@@ -6560,6 +6560,960 @@
 "a": ""
 }
 ]
+},
+{
+"id": "zekat",
+"alan": "din",
+"baslik": "Zekât",
+"ar_baslik": "الزكاة: عبادة مالية وتكافل اجتماعي",
+"konu": "Zekât",
+"seviye": "B2",
+"ar": [
+"الزكاة ركن من أركان الإسلام الخمسة، وهي حق معلوم في مال الأغنياء يُدفع إلى الفقراء والمستحقين.",
+"وتجب الزكاة إذا بلغ المال النصاب وحال عليه الحول، ومقدارها في النقود وعروض التجارة ربع العشر، أي اثنان ونصف في المئة.",
+"وقد حدد القرآن الكريم مصارفها في ثمانية أصناف، منهم الفقراء والمساكين والغارمون وابن السبيل.",
+"ولا تقتصر حكمة الزكاة على سد حاجة الفقير، بل تطهر نفس الغني من الشح، وتحرك المال في المجتمع بدل أن يكتنز في أيد قليلة.",
+"وفي العصر الحديث أنشأت دول ومؤسسات كثيرة صناديق للزكاة، تجمعها وتوزعها وفق دراسات دقيقة لحاجات الأسر، حتى يصل الحق إلى أهله.",
+"ويرى الاقتصاديون أن تطبيق الزكاة تطبيقا منظما يمكن أن يسهم إسهاما ملموسا في الحد من الفقر وتقوية الروابط بين طبقات المجتمع."
+],
+"tr": [
+"Zekât İslam’ın beş şartından biridir; zenginlerin malında fakirlere ve hak sahiplerine verilen belirli bir haktır.",
+"Mal nisaba ulaşır ve üzerinden bir yıl geçerse zekât farz olur; paralarda ve ticaret mallarında miktarı kırkta birdir, yani yüzde iki buçuk.",
+"Kur’ân-ı Kerîm zekâtın sarf yerlerini sekiz sınıf olarak belirlemiştir; bunlar arasında fakirler, miskinler, borçlular ve yolda kalmışlar vardır.",
+"Zekâtın hikmeti fakirin ihtiyacını gidermekle sınırlı değildir; zenginin nefsini cimrilikten arındırır ve malın az sayıda elde yığılması yerine toplumda dolaşmasını sağlar.",
+"Modern çağda birçok devlet ve kurum, zekâtı toplayıp ailelerin ihtiyaçlarına dair dikkatli çalışmalara göre dağıtan zekât fonları kurdu; böylece hak sahibine ulaşıyor.",
+"İktisatçılar zekâtın düzenli bir şekilde uygulanmasının yoksulluğu azaltmaya ve toplum tabakaları arasındaki bağları güçlendirmeye somut katkı sağlayabileceğini düşünüyor."
+],
+"sozluk": [
+[
+"ركن",
+"şart, rükün"
+],
+[
+"النصاب",
+"nisap"
+],
+[
+"الحول",
+"bir yıl"
+],
+[
+"ربع العشر",
+"kırkta bir"
+],
+[
+"مصارفها",
+"sarf yerleri"
+],
+[
+"الغارمون",
+"borçlular"
+],
+[
+"الشح",
+"cimrilik"
+],
+[
+"يكتنز",
+"yığılır"
+],
+[
+"ملموسا",
+"somut"
+]
+],
+"sorular": [
+{
+"s": "Paralarda zekât miktarı nedir?",
+"k": [
+"Yüzde iki buçuk",
+"Yüzde on",
+"Yüzde yirmi",
+"Yüzde bir"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Zekâtın hikmetlerinden biri:",
+"k": [
+"Zengini cimrilikten arındırmak",
+"Fiyatları artırmak",
+"Ticareti yasaklamak",
+"Vergiyi kaldırmak"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الغارمون” ne demektir?",
+"k": [
+"Borçlular",
+"Yolcular",
+"Âlimler",
+"Tüccarlar"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "kudus",
+"alan": "din",
+"baslik": "Kudüs ve Mescid-i Aksâ",
+"ar_baslik": "القدس والمسجد الأقصى",
+"konu": "Kudüs ve Mescid-i Aksâ",
+"seviye": "B2",
+"ar": [
+"القدس مدينة مقدسة عند المسلمين والمسيحيين واليهود، ولها في الوجدان الإسلامي مكانة خاصة.",
+"ففيها المسجد الأقصى أولى القبلتين وثالث الحرمين الشريفين، وإليه أسري بالنبي صلى الله عليه وسلم من المسجد الحرام ومنه عرج إلى السماء.",
+"وقد فتحها المسلمون في عهد عمر بن الخطاب رضي الله عنه، فكتب لأهلها العهدة العمرية التي أمنتهم على أنفسهم وكنائسهم وأموالهم.",
+"وفي العهد الأموي بُنيت قبة الصخرة، وهي من أقدم المباني الإسلامية القائمة وأجملها، بزخارفها الفسيفسائية وقبتها الذهبية.",
+"وتعاقبت على المدينة عهود كثيرة، فاعتنى بها الأيوبيون والمماليك والعثمانيون، وأقاموا فيها المدارس والأسبلة والأوقاف.",
+"ولا تزال القدس حاضرة في قلوب المسلمين في كل مكان، يرددون اسمها في دعائهم، ويتطلعون إلى أن يعمها الأمن والعدل."
+],
+"tr": [
+"Kudüs Müslümanlar, Hristiyanlar ve Yahudiler katında kutsal bir şehirdir; İslam vicdanında ise özel bir yeri vardır.",
+"Orada iki kıbleden ilki ve üç harem-i şeriften üçüncüsü olan Mescid-i Aksâ vardır; Peygamber ﷺ Mescid-i Harâm’dan oraya isrâ ettirilmiş ve oradan göğe yükseltilmiştir.",
+"Müslümanlar onu Hz. Ömer döneminde fethetti; Ömer, halkına canları, kiliseleri ve malları için güvence veren Ömer Ahdnâmesi’ni yazdı.",
+"Emevîler döneminde, mozaik süslemeleri ve altın kubbesiyle ayakta duran en eski ve en güzel İslami yapılardan biri olan Kubbetü’s-Sahra inşa edildi.",
+"Şehirde birçok dönem birbirini izledi; Eyyûbîler, Memlükler ve Osmanlılar ona özen gösterip medreseler, sebiller ve vakıflar kurdu.",
+"Kudüs hâlâ her yerdeki Müslümanların kalbinde canlıdır; duâlarında adını tekrarlar, güvenlik ve adaletin onu kuşatmasını umarlar."
+],
+"sozluk": [
+[
+"مقدسة",
+"kutsal"
+],
+[
+"الوجدان",
+"vicdan, gönül"
+],
+[
+"أولى القبلتين",
+"iki kıbleden ilki"
+],
+[
+"أسري",
+"isrâ ettirildi"
+],
+[
+"عرج",
+"yükseltildi"
+],
+[
+"العهدة العمرية",
+"Ömer Ahdnâmesi"
+],
+[
+"الفسيفسائية",
+"mozaik"
+],
+[
+"الأسبلة",
+"sebiller"
+],
+[
+"يتطلعون",
+"umarlar"
+]
+],
+"sorular": [
+{
+"s": "Mescid-i Aksâ hakkında hangisi doğrudur?",
+"k": [
+"İki kıbleden ilkidir",
+"Mekke’dedir",
+"Osmanlılar kurmuştur",
+"Kilisedir"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Kubbetü’s-Sahra hangi dönemde yapıldı?",
+"k": [
+"Emevî",
+"Abbasi",
+"Osmanlı",
+"Memlük"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الأسبلة” ne demektir?",
+"k": [
+"Sebiller",
+"Kaleler",
+"Hanlar",
+"Saraylar"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "hadis-ilmi",
+"alan": "din",
+"baslik": "Hadis ilmi",
+"ar_baslik": "علم الحديث وحفظ السنة",
+"konu": "Hadis ilmi",
+"seviye": "C1",
+"ar": [
+"السنة النبوية هي المصدر الثاني للتشريع بعد القرآن الكريم، ولذلك اعتنى المسلمون بحفظها ونقلها عناية فائقة.",
+"وقد نشأ علم الحديث ليميز بين ما صح عن النبي صلى الله عليه وسلم وما لم يصح، فدرس العلماء الإسناد، أي سلسلة الرواة الذين نقلوا الحديث.",
+"ونشأ إلى جانبه علم الجرح والتعديل الذي يبحث في أحوال الرواة من حيث العدالة والضبط، فكتبت فيه موسوعات تترجم لآلاف الرجال.",
+"وصنف العلماء الأحاديث درجات، فمنها الصحيح والحسن والضعيف، ووضعوا لكل درجة شروطا دقيقة.",
+"ومن أشهر كتب الحديث صحيح البخاري وصحيح مسلم، وقد تلقتهما الأمة بالقبول، ثم السنن الأربعة لأبي داود والترمذي والنسائي وابن ماجه.",
+"ويعد منهج المحدثين في نقد الأخبار من أدق المناهج التي عرفها التاريخ في توثيق النصوص، حتى أعجب به باحثون من غير المسلمين."
+],
+"tr": [
+"Sünnet, Kur’ân-ı Kerîm’den sonra teşrîin ikinci kaynağıdır; bu yüzden Müslümanlar onu korumaya ve nakletmeye çok büyük özen gösterdiler.",
+"Hadis ilmi, Peygamber’den ﷺ sahih olarak gelenle gelmeyeni ayırmak için doğdu; âlimler isnadı, yani hadisi nakleden râviler zincirini incelediler.",
+"Yanında, râvilerin adalet ve zabt bakımından durumlarını inceleyen cerh ve ta‘dîl ilmi doğdu; bu alanda binlerce kişinin biyografisini veren ansiklopediler yazıldı.",
+"Âlimler hadisleri derecelere ayırdı: sahih, hasen ve zayıf gibi; her derece için ince şartlar koydular.",
+"En meşhur hadis kitapları arasında ümmetin kabulle karşıladığı Sahîh-i Buhârî ve Sahîh-i Müslim, ardından Ebû Dâvûd, Tirmizî, Nesâî ve İbn Mâce’nin dört sünen kitabı vardır.",
+"Muhaddislerin haberleri tenkit yöntemi, tarihin metinleri belgelemede tanıdığı en titiz yöntemlerden sayılır; öyle ki Müslüman olmayan araştırmacılar bile ona hayran kalmıştır."
+],
+"sozluk": [
+[
+"التشريع",
+"teşrî, hukuk koyma"
+],
+[
+"الإسناد",
+"isnad"
+],
+[
+"الرواة",
+"râviler"
+],
+[
+"الجرح والتعديل",
+"cerh ve ta‘dîl"
+],
+[
+"العدالة",
+"adalet (güvenilirlik)"
+],
+[
+"الضبط",
+"zabt (doğru aktarma)"
+],
+[
+"تلقتهما بالقبول",
+"kabulle karşıladı"
+],
+[
+"توثيق",
+"belgeleme"
+]
+],
+"sorular": [
+{
+"s": "İsnad nedir?",
+"k": [
+"Râviler zinciri",
+"Bir kitap adı",
+"Bir fıkıh hükmü",
+"Bir şehir"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Cerh ve ta‘dîl neyi inceler?",
+"k": [
+"Râvilerin durumunu",
+"Ayetlerin sırasını",
+"Namaz vakitlerini",
+"Arap şiirini"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الضبط” bu bağlamda ne demektir?",
+"k": [
+"Doğru aktarma",
+"Ceza",
+"Zaman",
+"Fetih"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "mescid-medeniyet",
+"alan": "din",
+"baslik": "Caminin toplumdaki yeri",
+"ar_baslik": "المسجد في حياة المسلمين",
+"konu": "Caminin toplumdaki yeri",
+"seviye": "B1",
+"ar": [
+"لم يكن المسجد في تاريخ المسلمين مكانا للصلاة فحسب، بل كان مركزا للحياة كلها.",
+"ففي المسجد النبوي بالمدينة كان النبي صلى الله عليه وسلم يعلم أصحابه، ويستقبل الوفود، ويقضي بين الناس، ويجهز الجيوش.",
+"وعلى هذا النهج صارت المساجد الكبرى جامعات علمية، تعقد فيها حلقات القرآن والحديث والفقه واللغة، ويقصدها الطلاب من بلاد بعيدة.",
+"وكانت تلحق بالمساجد مكتبات ومدارس ومطاعم للفقراء وأماكن لإيواء الغرباء، تمولها الأوقاف التي حبسها المحسنون.",
+"وفي عصرنا تسعى مساجد كثيرة إلى استعادة هذا الدور، فتقيم دروسا للأطفال، ودورات لتعليم اللغة العربية، وأنشطة لخدمة الحي.",
+"فالمسجد الذي يفتح أبوابه للناس ويهتم بشؤونهم يبقى قلب المجتمع النابض، يجمع الناس على الخير ويقوي الألفة بينهم."
+],
+"tr": [
+"Cami Müslümanların tarihinde yalnızca namaz kılınan bir yer değildi; bütün hayatın merkeziydi.",
+"Medine’deki Mescid-i Nebevî’de Peygamber ﷺ ashabına ders verir, heyetleri kabul eder, insanlar arasında hüküm verir ve orduları hazırlardı.",
+"Bu yol üzere büyük camiler, Kur’an, hadis, fıkıh ve dil halkalarının kurulduğu, uzak ülkelerden talebelerin geldiği ilmî üniversitelere dönüştü.",
+"Camilere hayırseverlerin vakfettiği vakıflarla finanse edilen kütüphaneler, medreseler, fakirler için aşevleri ve gariplerin barınacağı yerler eklenirdi.",
+"Çağımızda birçok cami bu rolü yeniden kazanmaya çalışıyor; çocuklar için dersler, Arapça kursları ve mahalleye hizmet faaliyetleri düzenliyor.",
+"Kapılarını insanlara açan ve işleriyle ilgilenen cami, toplumun atan kalbi olarak kalır; insanları hayır üzere toplar ve aralarındaki ülfeti güçlendirir."
+],
+"sozluk": [
+[
+"فحسب",
+"yalnızca"
+],
+[
+"الوفود",
+"heyetler"
+],
+[
+"يقضي",
+"hüküm verir"
+],
+[
+"حلقات",
+"halkalar"
+],
+[
+"إيواء",
+"barındırma"
+],
+[
+"حبسها",
+"vakfetti"
+],
+[
+"الحي",
+"mahalle"
+],
+[
+"الألفة",
+"ülfet, yakınlık"
+]
+],
+"sorular": [
+{
+"s": "Mescid-i Nebevî’de yapılanlardan biri değildir:",
+"k": [
+"Ticaret pazarı kurmak",
+"Ders vermek",
+"Heyet kabul etmek",
+"Hüküm vermek"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Camiye bağlı kurumlar nasıl finanse edilirdi?",
+"k": [
+"Vakıflarla",
+"Vergilerle",
+"Bilet satışıyla",
+"Kira ile"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الحي” ne demektir?",
+"k": [
+"Mahalle",
+"Şehir",
+"Ülke",
+"Ev"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "kuran-hafizlik",
+"alan": "din",
+"baslik": "Hafızlık geleneği",
+"ar_baslik": "حفظ القرآن الكريم عبر الأجيال",
+"konu": "Hafızlık geleneği",
+"seviye": "B1",
+"ar": [
+"حفظ القرآن الكريم في الصدور تقليد عريق بدأ في عهد النبي صلى الله عليه وسلم واستمر جيلا بعد جيل.",
+"وكان الصحابة يتلقون الآيات من النبي مباشرة ويحفظونها ويعلمونها غيرهم، فاجتمع الحفظ في الصدور مع الكتابة في الصحف.",
+"وانتشرت الكتاتيب في القرى والمدن، يتعلم فيها الأطفال القراءة والكتابة ويحفظون القرآن على يد شيخ يراجع معهم كل يوم.",
+"ويقوم الحفظ على التكرار والمراجعة المستمرة، لأن ما يحفظ دون مراجعة سرعان ما يتفلت، كما ورد في الحديث.",
+"ويرى التربويون أن حفظ القرآن ينمي الذاكرة ويقوي اللغة ويعود الطالب على الانضباط والصبر.",
+"واليوم تستعين حلقات التحفيظ بالتطبيقات الحديثة والتسجيلات الصوتية، لكن جوهر الطريقة باق: شيخ وطالب ومصحف ومراجعة لا تنقطع."
+],
+"tr": [
+"Kur’ân-ı Kerîm’i göğüslerde ezberlemek, Peygamber ﷺ döneminde başlayan ve nesilden nesile süren köklü bir gelenektir.",
+"Sahâbe ayetleri doğrudan Peygamber’den alır, ezberler ve başkalarına öğretirdi; böylece göğüslerde hıfz ile sahifelerde yazı bir araya geldi.",
+"Köylerde ve şehirlerde sıbyan mektepleri yayıldı; çocuklar orada okuma yazma öğrenir, her gün onlarla tekrar yapan bir hocanın elinde Kur’an ezberlerdi.",
+"Hıfz tekrara ve sürekli tekrara dayanır; çünkü hadiste geldiği üzere tekrar edilmeden ezberlenen şey çabucak kaçıp gider.",
+"Eğitimciler Kur’an ezberlemenin hafızayı geliştirdiğini, dili güçlendirdiğini ve öğrenciyi disiplin ve sabra alıştırdığını düşünüyor.",
+"Bugün hıfz halkaları modern uygulamalardan ve ses kayıtlarından yardım alıyor; ama yöntemin özü kalıyor: hoca, talebe, mushaf ve kesintisiz tekrar."
+],
+"sozluk": [
+[
+"في الصدور",
+"göğüslerde, ezberde"
+],
+[
+"عريق",
+"köklü"
+],
+[
+"يتلقون",
+"alırlar"
+],
+[
+"الكتاتيب",
+"sıbyan mektepleri"
+],
+[
+"المراجعة",
+"tekrar"
+],
+[
+"يتفلت",
+"kaçıp gider"
+],
+[
+"الانضباط",
+"disiplin"
+],
+[
+"حلقات التحفيظ",
+"hıfz halkaları"
+]
+],
+"sorular": [
+{
+"s": "Hıfz neye dayanır?",
+"k": [
+"Tekrar ve sürekli tekrara",
+"Sadece dinlemeye",
+"Yazmaya",
+"Tercümeye"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Eğitimcilere göre hıfzın faydası:",
+"k": [
+"Hafızayı ve dili güçlendirmesi",
+"Yorgunluk",
+"Unutkanlık",
+"Hiçbiri"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الكتاتيب” ne demektir?",
+"k": [
+"Sıbyan mektepleri",
+"Kütüphaneler",
+"Camiler",
+"Hanlar"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "muallakat",
+"alan": "edebiyat",
+"baslik": "Muallakât",
+"ar_baslik": "المعلقات: عيون الشعر الجاهلي",
+"konu": "Muallakât",
+"seviye": "C1",
+"ar": [
+"المعلقات قصائد طويلة من أجود الشعر العربي في العصر الجاهلي، يختلف الرواة في عددها بين سبع وعشر.",
+"وقيل في سبب تسميتها إنها كتبت بماء الذهب وعلقت على أستار الكعبة، وقيل بل لأنها علقت بالأذهان لجمالها، ويشكك كثير من الباحثين في الرواية الأولى.",
+"ومن أشهر أصحابها امرؤ القيس الذي افتتح معلقته بالوقوف على الأطلال، وطرفة بن العبد، وزهير بن أبي سلمى صاحب الحكمة، وعنترة بن شداد فارس عبس.",
+"وتتبع المعلقة في الغالب بناء متعارفا عليه، فتبدأ بذكر الديار والأحبة، ثم وصف الرحلة والناقة، ثم الغرض الأساسي من فخر أو مدح أو حكمة.",
+"وتعد المعلقات سجلا لحياة العرب قبل الإسلام، بقيمهم في الكرم والشجاعة والوفاء، وبيئتهم الصحراوية بحيوانها ونباتها.",
+"وقد اعتمد علماء اللغة والتفسير على هذا الشعر في فهم ألفاظ القرآن الكريم وأساليبه، فكان ديوان العرب ومستودع لغتهم."
+],
+"tr": [
+"Muallakât, Câhiliye döneminin en seçkin Arap şiirinden uzun kasidelerdir; râviler sayılarında yedi ile on arasında ihtilaf eder.",
+"Adlandırılma sebebi olarak altın suyuyla yazılıp Kâbe’nin örtüsüne asıldıkları söylenmiştir; güzellikleri sebebiyle zihinlere asılı kaldıkları için de denmiştir; birçok araştırmacı birinci rivayetten şüphe eder.",
+"En meşhur sahipleri arasında muallakasını harabeler başında durmakla açan İmruülkays, Tarafe b. el-Abd, hikmet sahibi Züheyr b. Ebî Sülmâ ve Abs’ın süvarisi Antere b. Şeddâd vardır.",
+"Muallaka çoğunlukla bilinen bir yapıyı izler: yurtları ve sevgilileri anmakla başlar, sonra yolculuğu ve deveyi tasvir eder, ardından övünme, methiye veya hikmet gibi asıl amaca geçer.",
+"Muallakât, İslam öncesi Arapların cömertlik, cesaret ve vefa değerleriyle, hayvanı ve bitkisiyle çöl çevreleriyle hayatlarının bir kaydı sayılır.",
+"Dil ve tefsir âlimleri Kur’ân-ı Kerîm’in lafızlarını ve üsluplarını anlamada bu şiire dayanmıştır; o Arapların divanı ve dillerinin hazinesiydi."
+],
+"sozluk": [
+[
+"الجاهلي",
+"Câhiliye dönemine ait"
+],
+[
+"أستار الكعبة",
+"Kâbe örtüsü"
+],
+[
+"الأطلال",
+"harabeler, yurt kalıntıları"
+],
+[
+"الحكمة",
+"hikmet"
+],
+[
+"فارس",
+"süvari"
+],
+[
+"الناقة",
+"dişi deve"
+],
+[
+"الغرض",
+"amaç, tema"
+],
+[
+"ديوان العرب",
+"Arapların divanı"
+],
+[
+"مستودع",
+"hazine, depo"
+]
+],
+"sorular": [
+{
+"s": "Muallakada genellikle ilk ne anılır?",
+"k": [
+"Yurtlar ve sevgililer",
+"Savaş",
+"Halife",
+"Deniz"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Hikmetiyle tanınan şair kimdir?",
+"k": [
+"Züheyr b. Ebî Sülmâ",
+"Antere",
+"İmruülkays",
+"Tarafe"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الأطلال” ne demektir?",
+"k": [
+"Harabeler",
+"Develer",
+"Kasideler",
+"Çadırlar"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "ahmed-sevki",
+"alan": "edebiyat",
+"baslik": "Ahmed Şevkî",
+"ar_baslik": "أحمد شوقي أمير الشعراء",
+"konu": "Ahmed Şevkî",
+"seviye": "B2",
+"ar": [
+"ولد أحمد شوقي في القاهرة سنة ١٨٦٨، ودرس الحقوق في مصر وفرنسا، واتصل بقصر الخديوي فصار شاعره المقرب.",
+"وقد نفاه الإنجليز إلى إسبانيا في أثناء الحرب العالمية الأولى، فعاش في الأندلس سنوات أثرت في شعره، وكتب فيها قصائد يحن فيها إلى وطنه.",
+"وتميز شوقي بقوة السبك وجمال الموسيقى وسعة الأغراض، فكتب في المديح النبوي والوطنية والتاريخ والحكمة، ولقصيدته نهج البردة شهرة واسعة.",
+"وكان من أوائل من كتبوا المسرحية الشعرية بالعربية، ومن أشهر مسرحياته مصرع كليوباترا ومجنون ليلى.",
+"وفي سنة ١٩٢٧ اجتمع شعراء العرب في القاهرة وبايعوه أميرا للشعراء، اعترافا بمكانته في إحياء الشعر العربي.",
+"ولا تزال كثير من أبياته تجري على الألسنة أمثالا، كقوله في الأخلاق إن الأمم تبقى ما بقيت أخلاقها، فإن ذهبت ذهبوا."
+],
+"tr": [
+"Ahmed Şevkî 1868’de Kahire’de doğdu, Mısır’da ve Fransa’da hukuk okudu, Hidiv sarayıyla bağlantı kurup sarayın gözde şairi oldu.",
+"İngilizler onu Birinci Dünya Savaşı sırasında İspanya’ya sürdü; Endülüs’te şiirini etkileyen yıllar geçirdi ve orada vatanına özlem duyduğu kasideler yazdı.",
+"Şevkî sağlam söyleyişi, güzel ahengi ve konularının genişliğiyle öne çıktı; na‘t, vatanseverlik, tarih ve hikmet alanlarında yazdı; Nehcü’l-Bürde kasidesi geniş şöhrete sahiptir.",
+"Arapçada manzum tiyatro yazanların ilklerindendi; en meşhur oyunları arasında Kleopatra’nın Ölümü ve Mecnûn Leylâ vardır.",
+"1927’de Arap şairler Kahire’de toplanıp Arap şiirini canlandırmadaki yerine bir itiraf olarak ona “Şairlerin Emîri” diye biat ettiler.",
+"Beyitlerinin çoğu hâlâ atasözü gibi dillerde dolaşır; ahlak hakkındaki sözü gibi: Milletler ahlakları kaldıkça kalır; ahlak giderse onlar da gider."
+],
+"sozluk": [
+[
+"الحقوق",
+"hukuk"
+],
+[
+"الخديوي",
+"Hidiv"
+],
+[
+"نفاه",
+"sürgün etti"
+],
+[
+"يحن",
+"özlem duyar"
+],
+[
+"السبك",
+"söyleyiş, işçilik"
+],
+[
+"المديح النبوي",
+"na‘t"
+],
+[
+"المسرحية الشعرية",
+"manzum tiyatro"
+],
+[
+"بايعوه",
+"ona biat ettiler"
+],
+[
+"أمثالا",
+"atasözleri"
+]
+],
+"sorular": [
+{
+"s": "Şevkî hangi ülkeye sürüldü?",
+"k": [
+"İspanya",
+"Fransa",
+"İngiltere",
+"Türkiye"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "1927’de ona hangi unvan verildi?",
+"k": [
+"Şairlerin Emîri",
+"Hidiv",
+"Kadı",
+"Vezir"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“نفاه” ne demektir?",
+"k": [
+"Sürgün etti",
+"Övdü",
+"Öğretti",
+"Yazdı"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "necib-mahfuz",
+"alan": "edebiyat",
+"baslik": "Necîb Mahfûz",
+"ar_baslik": "نجيب محفوظ والرواية العربية",
+"konu": "Necîb Mahfûz",
+"seviye": "B2",
+"ar": [
+"يعد نجيب محفوظ أبرز روائي في تاريخ الأدب العربي الحديث، وهو الكاتب العربي الوحيد الذي نال جائزة نوبل للآداب حتى اليوم.",
+"ولد في حي الجمالية بالقاهرة القديمة سنة ١٩١١، وظلت حواري ذلك الحي وأزقته عالما يستمد منه شخصياته وأحداثه.",
+"ومن أشهر أعماله الثلاثية: بين القصرين وقصر الشوق والسكرية، وفيها يرسم حياة أسرة قاهرية عبر ثلاثة أجيال وتحولات المجتمع المصري.",
+"وتطور أسلوبه من الرواية التاريخية في بداياته إلى الواقعية الاجتماعية ثم إلى الرمزية في مراحل لاحقة.",
+"وكان محفوظ منضبطا في حياته وعمله، يكتب في ساعات محددة كل يوم، ويجلس مع أصدقائه في مقاهي القاهرة يتأمل الناس ويحاورهم.",
+"وقد فتح فوزه بنوبل سنة ١٩٨٨ أبواب الترجمة أمام الأدب العربي، فقرأ العالم روايات عربية كثيرة لم يكن يعرفها من قبل."
+],
+"tr": [
+"Necîb Mahfûz modern Arap edebiyatı tarihinin en önde gelen romancısı sayılır; bugüne kadar Nobel Edebiyat Ödülü’nü kazanan tek Arap yazardır.",
+"1911’de eski Kahire’nin Cemâliye mahallesinde doğdu; o mahallenin sokakları ve dar yolları, karakterlerini ve olaylarını çıkardığı bir dünya olarak kaldı.",
+"En meşhur eserleri arasında Üçleme vardır: Beyne’l-Kasreyn, Kasru’ş-Şevk ve es-Sükkeriyye; bunlarda Kahireli bir ailenin üç kuşak boyunca hayatını ve Mısır toplumunun dönüşümlerini çizer.",
+"Üslubu başlangıçtaki tarihî romandan toplumsal gerçekçiliğe, sonraki dönemlerde de sembolizme doğru gelişti.",
+"Mahfûz hayatında ve işinde disiplinliydi; her gün belli saatlerde yazar, Kahire kahvelerinde arkadaşlarıyla oturup insanları gözlemler ve onlarla sohbet ederdi.",
+"1988’de Nobel’i kazanması Arap edebiyatına tercüme kapılarını açtı; dünya daha önce tanımadığı birçok Arap romanını okudu."
+],
+"sozluk": [
+[
+"روائي",
+"romancı"
+],
+[
+"جائزة نوبل",
+"Nobel Ödülü"
+],
+[
+"حواري",
+"sokaklar"
+],
+[
+"أزقته",
+"dar yolları"
+],
+[
+"الثلاثية",
+"üçleme"
+],
+[
+"الواقعية",
+"gerçekçilik"
+],
+[
+"الرمزية",
+"sembolizm"
+],
+[
+"منضبطا",
+"disiplinli"
+],
+[
+"الترجمة",
+"tercüme"
+]
+],
+"sorular": [
+{
+"s": "Necîb Mahfûz Nobel’i hangi yıl aldı?",
+"k": [
+"1988",
+"1911",
+"1927",
+"2000"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Üçleme neyi anlatır?",
+"k": [
+"Kahireli bir ailenin üç kuşağını",
+"Endülüs’ü",
+"Bir savaşı",
+"Bir yolculuğu"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الواقعية” ne demektir?",
+"k": [
+"Gerçekçilik",
+"Sembolizm",
+"Romantizm",
+"Tarih"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "makame",
+"alan": "edebiyat",
+"baslik": "Makame türü",
+"ar_baslik": "فن المقامة",
+"konu": "Makame türü",
+"seviye": "C1",
+"ar": [
+"المقامة فن نثري عربي نشأ في القرن الرابع الهجري، يقوم على حكاية قصيرة مكتوبة بأسلوب مسجوع مزخرف.",
+"ويعد بديع الزمان الهمذاني مبتكر هذا الفن، ثم جاء الحريري فكتب مقاماته الخمسين التي صارت أشهر ما كتب في هذا الباب.",
+"وتدور المقامات غالبا حول بطل أديب محتال، يتنقل بين المدن ويكسب رزقه ببلاغته وحيلته، ويروي أخباره راو ثابت.",
+"وكان الغرض الأكبر من المقامة تعليميا، إذ تحشد فيها الألفاظ الغريبة والأمثال والألغاز اللغوية، فيتعلم منها القارئ ثروة لغوية واسعة.",
+"وقد حفظ طلاب العربية مقامات الحريري قرونا، وشرحها العلماء شروحا كثيرة، وانتقل تأثيرها إلى الأدب العبري والفارسي.",
+"ويرى بعض النقاد أن المقامة من جذور القصة العربية، لما فيها من شخصيات وحوار وحبكة، وإن غلبت عليها الصنعة اللفظية."
+],
+"tr": [
+"Makame, hicrî dördüncü asırda doğan, süslü ve secili bir üslupla yazılmış kısa bir hikâyeye dayanan bir Arap nesir sanatıdır.",
+"Bedîüzzamân el-Hemedânî bu sanatın mucidi sayılır; sonra Harîrî gelip bu alanda yazılanların en meşhuru olan elli makamesini yazdı.",
+"Makameler çoğunlukla şehirden şehre dolaşan, rızkını belagati ve hilesiyle kazanan edip ve hilekâr bir kahraman etrafında döner; haberlerini sabit bir râvi anlatır.",
+"Makamenin en büyük amacı öğreticiydi; içine garip kelimeler, atasözleri ve dil bilmeceleri doldurulur, okuyucu ondan geniş bir dil serveti öğrenirdi.",
+"Arapça talebeleri yüzyıllarca Harîrî’nin makamelerini ezberledi, âlimler onlara pek çok şerh yazdı; etkisi İbrani ve Fars edebiyatına geçti.",
+"Bazı eleştirmenler, içindeki karakterler, diyalog ve olay örgüsü sebebiyle —lafzî sanat ağır bassa da— makameyi Arap hikâyesinin köklerinden sayar."
+],
+"sozluk": [
+[
+"نثري",
+"nesre ait"
+],
+[
+"مسجوع",
+"secili"
+],
+[
+"مزخرف",
+"süslü"
+],
+[
+"مبتكر",
+"mucit"
+],
+[
+"محتال",
+"hilekâr"
+],
+[
+"راو",
+"râvi, anlatıcı"
+],
+[
+"الألغاز",
+"bilmeceler"
+],
+[
+"حبكة",
+"olay örgüsü"
+],
+[
+"الصنعة اللفظية",
+"lafzî sanat"
+]
+],
+"sorular": [
+{
+"s": "Makame sanatının mucidi kimdir?",
+"k": [
+"Bedîüzzamân el-Hemedânî",
+"Harîrî",
+"Câhız",
+"Mütenebbî"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Makamenin en büyük amacı neydi?",
+"k": [
+"Öğretici olmak",
+"Siyasi propaganda",
+"Tarih yazmak",
+"Fıkıh öğretmek"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“مسجوع” ne demektir?",
+"k": [
+"Secili",
+"Manzum",
+"Basit",
+"Tercüme"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "endulus-siiri",
+"alan": "edebiyat",
+"baslik": "Endülüs şiiri",
+"ar_baslik": "الشعر الأندلسي",
+"konu": "Endülüs şiiri",
+"seviye": "B2",
+"ar": [
+"حمل العرب لغتهم وشعرهم إلى الأندلس، فنشأ هناك شعر تأثر بالطبيعة الخلابة من أنهار وحدائق وجبال.",
+"وقد أكثر شعراء الأندلس من وصف الطبيعة حتى صار هذا الغرض من أبرز سماتهم، فوصفوا الزهر والماء والليل وصفا رقيقا.",
+"وابتكر الأندلسيون الموشحات، وهي قصائد متعددة الأوزان والقوافي تناسب الغناء، ثم انتقلت إلى المشرق وانتشرت فيه.",
+"ومن أشهر شعرائهم ابن زيدون صاحب النونية في ولادة بنت المستكفي، وابن خفاجة شاعر الطبيعة، والمعتمد بن عباد الملك الشاعر.",
+"ومع سقوط المدن الأندلسية واحدة بعد أخرى ظهر شعر رثاء المدن، ومن أشهره نونية أبي البقاء الرندي التي يقول في مطلعها: لكل شيء إذا ما تم نقصان.",
+"ولا يزال الشعر الأندلسي شاهدا على حضارة مزجت العربية بالبيئة الأوروبية، وتركت أثرا في شعر التروبادور في جنوب فرنسا."
+],
+"tr": [
+"Araplar dillerini ve şiirlerini Endülüs’e taşıdı; orada nehirleri, bahçeleri ve dağlarıyla büyüleyici doğadan etkilenen bir şiir doğdu.",
+"Endülüs şairleri doğayı o kadar çok tasvir ettiler ki bu konu en belirgin özelliklerinden oldu; çiçeği, suyu ve geceyi ince bir şekilde tasvir ettiler.",
+"Endülüslüler, şarkıya uygun, birden çok vezin ve kafiyeli kasideler olan muvaşşahları icat etti; bunlar sonra Doğu’ya geçip orada yayıldı.",
+"En meşhur şairleri arasında Vellâde bint el-Müstekfî için yazdığı Nûniyye’nin sahibi İbn Zeydûn, doğa şairi İbn Hafâce ve şair hükümdar Mu‘temid b. Abbâd vardır.",
+"Endülüs şehirlerinin birer birer düşmesiyle şehir mersiyeleri ortaya çıktı; en meşhurlarından biri, “Her şey tamamlanınca eksilir” diye başlayan Ebü’l-Bekâ er-Rundî’nin Nûniyye’sidir.",
+"Endülüs şiiri, Arapçayı Avrupa çevresiyle kaynaştıran ve güney Fransa’daki trubadur şiirinde iz bırakan bir medeniyetin şahidi olmaya devam ediyor."
+],
+"sozluk": [
+[
+"الخلابة",
+"büyüleyici"
+],
+[
+"سماتهم",
+"özellikleri"
+],
+[
+"الموشحات",
+"muvaşşahlar"
+],
+[
+"القوافي",
+"kafiyeler"
+],
+[
+"رثاء",
+"mersiye"
+],
+[
+"مطلعها",
+"başlangıcı"
+],
+[
+"نقصان",
+"eksilme"
+],
+[
+"مزجت",
+"kaynaştırdı"
+]
+],
+"sorular": [
+{
+"s": "Endülüslülerin icat ettiği şiir türü:",
+"k": [
+"Muvaşşah",
+"Muallaka",
+"Makame",
+"Kaside"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Şehir mersiyeleri ne zaman ortaya çıktı?",
+"k": [
+"Endülüs şehirleri düşerken",
+"Endülüs fethedilirken",
+"Abbasi döneminde",
+"Modern çağda"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“رثاء” ne demektir?",
+"k": [
+"Mersiye",
+"Övgü",
+"Hiciv",
+"Gazel"
+],
+"d": 0,
+"a": ""
+}
+]
 }
 ],
 "kelime": [
