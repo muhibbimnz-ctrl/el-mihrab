@@ -797,7 +797,7 @@ const loading=m=>`<div class="loading"><div class="spin"></div>${m||'Yükleniyor
 /* Kitap HTML'ini temiz metne çevir, sonra Kur'an alıntılarını ve başlıkları biçimlendir */
 function htmlToText(h){
   h=String(h).replace(/\r/g,'\n').replace(/<br\s*\/?>/gi,'\n').replace(/<\/p>|<p[^>]*>|<\/div>|<div[^>]*>|<\/h\d>|<h\d[^>]*>/gi,'\n');
-  const d=new DOMParser().parseFromString('<body>'+h+'<script>(function(){if(!('serviceWorker' in navigator)||location.protocol!=='https:')return;var had=!!navigator.serviceWorker.controller,done=false;navigator.serviceWorker.addEventListener('controllerchange',function(){if(had&&!done){done=true;location.reload()}});navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(function(r){r.update();document.addEventListener('visibilitychange',function(){if(document.visibilityState==='visible')r.update()})}).catch(function(){})})();</script></body>','text/html');d.querySelectorAll('script,style').forEach(e=>e.remove());
+  const d=new DOMParser().parseFromString('<body>'+h+'</body></body>','text/html');d.querySelectorAll('script,style').forEach(e=>e.remove());
   return d.body.textContent.replace(/[ \t]+\n/g,'\n').replace(/\n{2,}/g,'\n');
 }
 const HEADS=['الإعراب','البلاغة','اللغة','الفوائد','الصرف','المعنى','الفائدة','القراءات','التفسير','المفردات','الإعراب والبلاغة','المناسبة','سبب النزول','التفسير والبيان','فقه الحياة أو الأحكام','ما ترشد إليه الآيات','المعنى العام','الإيضاح','التفسير الإجمالي','اللطائف'];
@@ -1384,5 +1384,5 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
 .tj-ham_wasl,.tj-slnt,.tj-laam_shamsiyah{color:#9b9b9b}.tj-madda_normal{color:#537fff}.tj-madda_permissible{color:#4050ff}.tj-madda_necessary{color:#000ebc}.tj-madda_obligatory{color:#2144c1}
 .tj-qalaqah{color:#dd0008}.tj-ikhafa_shafawi{color:#d500b7}.tj-ikhafa{color:#9400a8}.tj-idgham_shafawi{color:#58b800}.tj-iqlab{color:#26bffd}.tj-idgham_ghunnah{color:#169777}.tj-idgham_wo_ghunnah{color:#169200}.tj-idgham_mutajanisayn,.tj-idgham_mutaqaribayn{color:#a1a1a1}.tj-ghunnah{color:#ff7e1e}
 </style>
-<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e3f9665447b64c6f8d89efca8e6de38f"}'></script><!-- End Cloudflare Web Analytics --></body>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e3f9665447b64c6f8d89efca8e6de38f"}'></script><!-- End Cloudflare Web Analytics --><script>(function(){if(!('serviceWorker' in navigator)||location.protocol!=='https:')return;var had=!!navigator.serviceWorker.controller,done=false;navigator.serviceWorker.addEventListener('controllerchange',function(){if(had&&!done){done=true;location.reload()}});navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(function(r){r.update();document.addEventListener('visibilitychange',function(){if(document.visibilityState==='visible')r.update()})}).catch(function(){})})();</script></body>
 </html>
