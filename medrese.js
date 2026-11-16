@@ -257,6 +257,7 @@ const bar = (title, back) => `<div class="mh"><button class="ib" onclick="${back
 function go(h){ location.hash = h }
 addEventListener('hashchange', route);
 function route(){
+  sesDur();
   if(window.Kelime) Kelime.close(); const sh = $('#sh'); if(sh) sh.classList.add('hide');
   const h = (location.hash || '#/').slice(2).split('/').map(decodeURIComponent);
   scrollTo(0, 0);
@@ -368,9 +369,19 @@ function emsileOku(){
   $$('[data-ex]').forEach(a => a.onclick = e => { e.preventDefault(); alistirma({ scope: 'emsile', root, bab, key: a.dataset.ex }) });
   $$('.er').forEach(el => el.onclick = () => { if(EM.gizle){ el.classList.toggle('show'); return } const s = sec.find(x => x.key === el.dataset.s); formKart(root, bab, s, s.rows[+el.dataset.i]) });
   $$('.mw').forEach(el => el.onclick = () => { if(EM.gizle){ el.classList.toggle('show'); return } const x = mh[+el.dataset.mi], s = sec.find(y => y.key === x.k); if(s) formKart(root, bab, s, s.rows.find(r => r.f === x.f.replace(/^(فَهُوَ|وَذَاكَ) /, '')) || s.rows[0]) });
-  const sb = $('#sesli'); if(sb) sb.onclick = () => seslendir(mh.map(x => x.f).join('، '));
+  const sb = $('#sesli'); if(sb) sb.onclick = () => seslendir(mh.map(x => x.f).join('، '), sb);
 }
-function seslendir(t){ try{ speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(t); u.lang = 'ar-SA'; u.rate = 0.8; const v = speechSynthesis.getVoices().find(v => v.lang && v.lang.startsWith('ar')); if(v) u.voice = v; else toast('Cihazınızda Arapça ses bulunamadı'); speechSynthesis.speak(u) }catch(e){ toast('Sesli okuma desteklenmiyor') } }
+const SES = { btn: null, lbl: '' };
+function sesDur(){ try{ speechSynthesis.cancel() }catch(e){} if(SES.btn){ SES.btn.innerHTML = SES.lbl; SES.btn.classList.remove('caliyor') } SES.btn = null }
+function seslendir(t, btn){
+  if(!('speechSynthesis' in window)){ toast('Sesli okuma desteklenmiyor'); return }
+  if(btn && SES.btn === btn){ sesDur(); return }
+  sesDur();
+  const v = speechSynthesis.getVoices().find(v => v.lang && v.lang.startsWith('ar')); if(!v) toast('Cihazınızda Arapça ses bulunamadı');
+  const parca = []; String(t).split(/(?<=[.؟!،؛:])\s+|\n+/).forEach(s => { s = s.trim(); if(!s) return; while(s.length > 220){ let k = s.lastIndexOf(' ', 220); if(k < 80) k = 220; parca.push(s.slice(0, k)); s = s.slice(k).trim() } if(s) parca.push(s) });
+  if(btn){ SES.btn = btn; SES.lbl = btn.innerHTML; btn.innerHTML = '■ Durdur'; btn.classList.add('caliyor') }
+  parca.forEach((s, i) => { const u = new SpeechSynthesisUtterance(s); u.lang = 'ar-SA'; u.rate = 0.85; if(v) u.voice = v; if(i === parca.length - 1) u.onend = () => { if(SES.btn === btn) sesDur() }; speechSynthesis.speak(u) });
+}
 function kokSor(){
   const r = prompt('Sâlim (harf-i illet, hemze ve tekrarlı harf içermeyen) üç harfli bir kök yazın, örn: كتب', 'كتب'); if(!r) return;
   const k = r.replace(/[^ء-ي]/g, ''); if(k.length !== 3 || /[وياأإآءؤئى]/.test(k) || k[1] === k[2]) return toast('Şimdilik yalnızca sâlim üç harfli kökler çekilebiliyor');
@@ -577,6 +588,11 @@ function extQ(id){
 }
 function kelimeHavuz(){ const out = []; if(MOD) MOD.kelime.forEach(t => t.liste.forEach(x => out.push(x))); if(YDSB && YDSB.kelime) YDSB.kelime.forEach(x => out.push(x)); return out }
 
+function pasaj(p, serh){
+  if(!serh || p.length < 380) return [p];
+  const r = p.split(/\s(?=(?:ولما |فإن قلت|قلت |وأما |فأما |ثم ذكرت|ثم بينت|وقد تبين|والحاصل|ومثال |والدليل|ومن ذلك|وتقرير|الحالة |وذلك كقوله|قال الشاعر|وقال آخر|وقال الله|قال الله))/);
+  const o = []; r.forEach(x => { if(o.length && o[o.length - 1].length < 160) o[o.length - 1] += ' ' + x; else o.push(x) }); return o;
+}
 async function kitapOku(id, bi){
   const b = BOOKS.find(x => x.id === id);
   V.innerHTML = bar(b ? b.ad : 'Kitap', '/kitap/' + id) + '<div class="wrap"><p class="lead">Yükleniyor…</p></div>';
@@ -585,8 +601,8 @@ async function kitapOku(id, bi){
   const sec = (s, i) => `<section class="sec" id="b-${i}"><h3><span class="kt">${esc(s.tr_b || '')}</span><span lang="ar">${esc(s.b || '')}</span></h3>
     ${s.n ? `<div class="dn">${s.n.map(x => `<p>${x}</p>`).join('')}</div>` : ''}
     ${s.ornek && s.ornek.length ? `<table class="orn">${s.ornek.map(o => `<tr><td lang="ar">${esc(o[0])}</td><td>${esc(o[1] || '')}</td></tr>`).join('')}</table>` : ''}
-    ${(s.p || []).map((p, j) => `<div class="mp ${s.tr && s.tr[j] ? 'tk' : ''} ${trA ? 'ac' : ''} ${s.pt && s.pt[j] === 'm' ? 'mtn' : ''}"><p class="mt" lang="ar">${esc(p)}</p>${s.tr && s.tr[j] ? `<p class="mtr">${esc(s.tr[j])}</p>` : ''}</div>`).join('')}
-    <div class="sf"><button class="btn sm ${ok[id + '#' + i] ? 'on' : ''}" data-ok="${i}">${ok[id + '#' + i] ? '✓ Okundu' : 'Okudum'}</button>${K.sorular && K.sorular.some(q => q.b === i) ? ` <a class="btn sm" href="#" data-bq="${i}">Bu bâbtan sorular</a>` : ''} <a class="lnk" target="_blank" rel="noopener" href="${bugLink(id + ' bâb ' + (i + 1), s.tr_b || s.b)}">Hata bildir</a></div></section>`;
+    ${(s.p || []).map((p, j) => `<div class="mp ${s.tr && s.tr[j] ? 'tk' : ''} ${trA ? 'ac' : ''} ${s.pt ? (s.pt[j] === 'm' ? 'mtn' : 'srh') : ''}">${s.pt ? `<span class="etk">${s.pt[j] === 'm' ? 'Matn · متن' : 'Şerh · شرح'}</span>` : ''}<button class="sesb" data-ses="${i}.${j}" aria-label="Sesli oku">🔊</button>${pasaj(p, !!s.pt).map(x => `<p class="mt" lang="ar">${esc(x)}</p>`).join('')}${s.tr && s.tr[j] ? `<p class="mtr">${esc(s.tr[j])}</p>` : ''}</div>`).join('')}
+    <div class="sf">${'speechSynthesis' in window ? `<button class="btn sm" data-sesb="${i}">🔊 Bölümü dinle</button> ` : ''}<button class="btn sm ${ok[id + '#' + i] ? 'on' : ''}" data-ok="${i}">${ok[id + '#' + i] ? '✓ Okundu' : 'Okudum'}</button>${K.sorular && K.sorular.some(q => q.b === i) ? ` <a class="btn sm" href="#" data-bq="${i}">Bu bâbtan sorular</a>` : ''} <a class="lnk" target="_blank" rel="noopener" href="${bugLink(id + ' bâb ' + (i + 1), s.tr_b || s.b)}">Hata bildir</a></div></section>`;
   V.innerHTML = bar(b ? b.ad : K.baslik, '/kitap/' + id) + `<div class="wrap">
     <div class="kbaslik"><div lang="ar">${esc(K.baslik)}</div><small>${esc(K.tur === 'serh' ? 'Matn ve şerh: ' + K.kaynak + ' · altın çizgili kısımlar matndir' : K.tur === 'ders' ? 'Ders notu' : 'Matn: ' + K.kaynak)}${K.tr_kaynak ? ' · ' + esc(K.tr_kaynak) : ''}</small></div>
     ${K.tur !== 'ders' ? `<div class="tools"><span class="lnk">Türkçesi için cümleye dokunun</span> <label><input type="checkbox" id="ktr" ${trA ? 'checked' : ''}> Hepsini göster</label></div>` : ''}
@@ -595,6 +611,8 @@ async function kitapOku(id, bi){
     <div class="end">${K.sorular ? `<a class="btn pri big" href="#/oku/${id}/alistirma">Bu kitaptan alıştırma (${K.sorular.length} soru) ›</a>` : ''}</div>
     </div>`;
   $$('.mp.tk').forEach(m => m.onclick = () => m.classList.toggle('ac'));
+  $$('[data-ses]').forEach(x => x.onclick = e => { e.stopPropagation(); const [a, c] = x.dataset.ses.split('.'); seslendir(K.bolumler[a].p[c], x) });
+  $$('[data-sesb]').forEach(x => x.onclick = () => seslendir(K.bolumler[x.dataset.sesb].p.join('\n'), x));
   const kt = $('#ktr'); if(kt) kt.onchange = e => { LS.set('medrese.ktr', e.target.checked); kitapOku(id) };
   $$('[data-to]').forEach(a => a.onclick = e => { e.preventDefault(); $('#b-' + a.dataset.to).scrollIntoView({ behavior: 'smooth' }) });
   $$('[data-ok]').forEach(x => x.onclick = () => { const o = LS.get('medrese.okundu', {}), k = id + '#' + x.dataset.ok; if(o[k]) delete o[k]; else o[k] = 1; LS.set('medrese.okundu', o); x.classList.toggle('on'); x.textContent = o[k] ? '✓ Okundu' : 'Okudum'; kitapRozet(id) });
@@ -700,7 +718,7 @@ function kartlar(liste, title, back){
     $('#kart').onclick = () => { $('.kw2').classList.remove('hide'); $('.kh').classList.add('hide'); $('.kq').classList.remove('hide') };
     $('#kb').onclick = () => { SRS.grade('mk|' + w[0], false, 'mk'); i++; show() };
     $('#kk').onclick = () => { SRS.grade('mk|' + w[0], true, 'mk'); bil++; i++; show() };
-    const ks = $('#ks'); if(ks) ks.onclick = () => seslendir(w[0]);
+    const ks = $('#ks'); if(ks) ks.onclick = () => seslendir(w[0], ks);
   };
   show();
 }
@@ -738,14 +756,14 @@ function modMetin(id, geri){
    <div class="end"><button class="btn pri big" id="msor">Sorular (${m.sorular.length}) ›</button></div></div>`;
   $('#mtr').onchange = e => { LS.set('medrese.modTr', e.target.checked); modMetin(id, geri) };
   $$('.gl').forEach(g => g.onclick = () => { const x = m.sozluk.find(s => s[0] === g.dataset.g); toast(`${x[0]} — ${x[1]}`) });
-  const sb = $('#msesli'); if(sb) sb.onclick = () => seslendir(m.ar.join(' '));
+  const sb = $('#msesli'); if(sb) sb.onclick = () => seslendir(m.ar.join(' '), sb);
   $('#msor').onclick = () => { const o = LS.get('medrese.modOk', {}); o[id] = 1; LS.set('medrese.modOk', o); alistirma({ ids: m.sorular.map((s, i) => `mo|${id}|${i}`), title: m.baslik }) };
 }
 function modDiyalog(i){
   const d = MOD.diyalog[i]; if(!d) return go('/modern');
   V.innerHTML = bar(d.baslik, '/modern/diyaloglar') + `<div class="wrap"><h1 lang="ar" class="mh1">${esc(d.ar_baslik || '')}</h1><div class="dyl">${d.satirlar.map(s => `<div class="dy ${s[0] === d.satirlar[0][0] ? 'a' : 'b'}"><b>${esc(s[0])}</b><p lang="ar">${esc(s[1])}</p><small>${esc(s[2])}</small>${'speechSynthesis' in window ? `<button class="btn sm" data-s="${esc(s[1])}">▶</button>` : ''}</div>`).join('')}</div>
    ${d.not ? `<p class="knote">${esc(d.not)}</p>` : ''}</div>`;
-  $$('[data-s]').forEach(b => b.onclick = () => seslendir(b.dataset.s));
+  $$('[data-s]').forEach(b => b.onclick = () => seslendir(b.dataset.s, b));
 }
 function modHaber(geri){
   V.innerHTML = bar('Haber Arapçası', geri || '/modern') + `<div class="wrap"><div class="rehber">
