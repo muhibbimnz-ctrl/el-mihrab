@@ -40,7 +40,10 @@ def page_lines(page):
         cs=sorted(L['c'],key=lambda c:-c['x0'])
         s='';prev=None
         for c in cs:
-            if prev is not None and prev['x0']-c['x1']>2.0: s+=' '
+            if prev is not None and prev['x0']-c['x1']>1.0 and not s.endswith(' '): s+=' '
+            if c['text']==' ':
+                if not s.endswith(' '): s+=' '
+                prev=c; continue
             s+=c['text']+''.join(sorted(set(c.get('m',[])),key=lambda k:k!='ّ'))
             prev=c
         def allah(m):
