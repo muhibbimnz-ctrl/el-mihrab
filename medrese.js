@@ -264,7 +264,7 @@ addEventListener('hashchange', route);
 const KLASIK = ['emsile', 'bina', 'maksud', 'izzi', 'avamil', 'birgivi', 'zuruf', 'ajurrumiyye', 'katr', 'serhkatr'];
 let VDATA = null, VP = { key: null, open: false, big: false };
 const VIDKEY = h => { if(h[0] === 'emsile') return 'emsile'; if((h[0] === 'kitap' || h[0] === 'oku') && KLASIK.includes(h[1])) return h[1]; return null };
-const DERS_LISTE = { emsile: 'PLUFT_YZ2pHv5pjh2ZMt7BJ-1beuXGKOth', bina: 'PLUFT_YZ2pHv51Rn2jzRzJ1iPMrRcyUl9C', maksud: 'PLUFT_YZ2pHv7TVNi9bD9yrYVqTpBLqkbw', izzi: 'PLUFT_YZ2pHv6MpTMupA0fxtPL0XY8Slgs', avamil: 'PLUFT_YZ2pHv5jiqfMYytJAcKkgSFx_CH5', katr: 'PLUFT_YZ2pHv7MZgzym0gi8qazfVeaEBHA', serhkatr: 'PLUFT_YZ2pHv7MZgzym0gi8qazfVeaEBHA' };
+const DERS_LISTE = { zuruf: 'PLUFT_YZ2pHv6OSE_5zcdx0q4iDIdrEExP', birgivi: 'PLUFT_YZ2pHv7tvTbDhX8Nzs4jf72z-XaB', emsile: 'PLUFT_YZ2pHv5pjh2ZMt7BJ-1beuXGKOth', bina: 'PLUFT_YZ2pHv51Rn2jzRzJ1iPMrRcyUl9C', maksud: 'PLUFT_YZ2pHv7TVNi9bD9yrYVqTpBLqkbw', izzi: 'PLUFT_YZ2pHv6MpTMupA0fxtPL0XY8Slgs', avamil: 'PLUFT_YZ2pHv5jiqfMYytJAcKkgSFx_CH5', katr: 'PLUFT_YZ2pHv7MZgzym0gi8qazfVeaEBHA', serhkatr: 'PLUFT_YZ2pHv7MZgzym0gi8qazfVeaEBHA' };
 async function vidListe(k){ if(DERS_LISTE[k]) return { liste: DERS_LISTE[k] }; try{ VDATA = VDATA || await fetch('data/videolar.json', { cache: 'no-cache' }).then(r => r.json()) }catch(e){ VDATA = {} } const d = (VDATA.dersler || {})[k]; return d && (d.liste || d.video) ? d : null }
 function vidKur(h){
   const k = VIDKEY(h); let btn = $('#vpBtn'), box = $('#vp');
