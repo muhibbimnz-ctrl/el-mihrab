@@ -576,7 +576,7 @@ function extQ(id){
   }
   if(tip === 'mo'){
     const m = MOD && MOD.metinler.find(x => x.id === a), s = m && m.sorular[+b]; if(!s) return null;
-    return { id, tag: 'mo', soru: `<span class="qsrc">${esc(m.baslik)}</span> ` + (arMi(s.s) ? `<span lang="ar" class="ar2s">${esc(s.s)}</span>` : esc(s.s)), secenek: s.k.map((x, i) => ({ v: i, t: arMi(x) ? `<span lang="ar" class="ar2s">${esc(x)}</span>` : esc(x) })), dogru: s.d, aciklama: esc(s.a || '') };
+    return { id, tag: 'mo', soru: `<span class="qsrc">${esc(m.baslik)}</span> ` + (arMi(s.s) ? `<span lang="ar" class="ar2s">${esc(s.s)}</span>` : esc(s.s)), secenek: shuffle(s.k.map((x, i) => ({ v: i, t: arMi(x) ? `<span lang="ar" class="ar2s">${esc(x)}</span>` : esc(x) }))), dogru: s.d, aciklama: esc(s.a || '') };
   }
   if(tip === 'mk'){
     const all = kelimeHavuz(), w = all.find(x => x[0] === a); if(!w) return null;
