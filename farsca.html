@@ -1145,7 +1145,7 @@ function navBook(){
  var h='<div class="prog"><div style="width:'+Math.round(done/PLAN*100)+'%"></div></div><p class="muted">'+done+' / '+PLAN+' gün tamamlandı · Şu an hazır: '+D.length+' gün · 26 haftalık (6 aylık) program: Hafta 1–13 B1, Hafta 14–26 B2 · <button class="link" data-day="'+firstOpen()+'">Kaldığım yerden devam et →</button></p><div class="wks">';
  for(var k=0;k<nw;k++){var ready=k*7<D.length,all=ready&&k*7+7<=D.length;if(ready)for(i=k*7;i<Math.min(D.length,k*7+7);i++)if(!st.b[i])all=false;
   if(k===0)h+='<span class="mon">B1</span>';if(k===13)h+='<span class="mon">B2</span>';
-  h+='<button class="tab wk" data-wk="'+k+'" aria-pressed="'+(k===w)+'"'+(ready?'':' disabled title="Yakında"')+'>H'+(k+1)+(all?" ✓":(ready?"":" ·"))+'</button> '}
+  h+='<button class="tab wk" data-wk="'+k+'" aria-pressed="'+(k===w)+'"'+(ready?'':' data-soon="1" style="opacity:.5"')+'>H'+(k+1)+(all?" ✓":(ready?"":" ·"))+'</button> '}
  h+='</div><div class="days">';
  for(i=w*7;i<Math.min(D.length,w*7+7);i++)h+='<button class="tab" data-day="'+i+'" aria-pressed="'+(i===cur)+'">Gün '+(i+1)+(D[i].rev?" 🔁":"")+(D[i].txt?" 📚":"")+(st.b[i]?" ✓":"")+'</button> ';
  return h+'</div><p class="muted small">Hafta 1–8: 6 hikâye günü + 1 tekrar · Hafta 9–26: 5 hikâye günü + 📚 metin günü + 🔁 tekrar günü · Soluk haftalar yakında açılacak.</p>'}
@@ -1154,7 +1154,7 @@ function catHas(k,c){return COL[k].arr.some(function(l){return l.c===c})}
 function navCol(k){
  var C=COL[k],S=CS[k],pr=st[C.key],done=Object.keys(pr).filter(function(x){return pr[x]}).length;
  var h='<div class="prog"><div style="width:'+Math.round(done/PLANC[k]*100)+'%"></div></div><p class="muted">'+done+' / '+PLANC[k]+' metin tamamlandı · Şu an hazır: '+C.arr.length+' · '+LVL[k]+'</p><div class="wks">';
- C.cats.forEach(function(c,i){var has=catHas(k,i);h+='<button class="tab" data-cat="'+k+'|'+i+'" aria-pressed="'+(i===S.cat)+'"'+(has?'':' disabled')+'>'+c+(has?'':' (yakında)')+'</button> '});
+ C.cats.forEach(function(c,i){var has=catHas(k,i);h+='<button class="tab" data-cat="'+k+'|'+i+'" aria-pressed="'+(i===S.cat)+'"'+(has?'':' data-soon="1" style="opacity:.55"')+'>'+c+(has?'':' (yakında)')+'</button> '});
  h+='</div><div class="days">';
  C.ORD.forEach(function(ti){if(C.arr[ti].c===S.cat)h+='<button class="tab" data-les="'+k+'|'+ti+'" aria-pressed="'+(ti===S.cur)+'">'+({a:"A",i:"İ",c:"",d:"",p:"🎧"})[k]+C.NUM[ti]+': '+esc(C.arr[ti].en)+(k==="p"&&C.arr[ti].tp?" · "+esc(C.arr[ti].tp):"")+(pr[ti]?" ✓":"")+'</button> '});
  return h+'</div>'}
@@ -1393,10 +1393,10 @@ document.getElementById("out").addEventListener("change",function(e){if(e.target
 document.getElementById("out").addEventListener("keydown",function(e){if(e.key==="Enter"&&e.target.classList.contains("din")){checkDict(+e.target.id.slice(2))}});
 function navClick(e){
  var b=e.target.closest("button");if(!b)return false;var a=b.dataset,x;
- if(a.wk!==undefined){if(+a.wk*7>=D.length)return true;cur=+a.wk*7;render();return true}
+ if(a.wk!==undefined){if(+a.wk*7>=D.length){var nv=document.getElementById("nav"),sn=document.getElementById("soonMsg");if(!sn){sn=document.createElement("p");sn.id="soonMsg";sn.className="muted";nv.appendChild(sn)}sn.textContent="Hafta "+(+a.wk+1)+" henüz hazırlanıyor. Şu an "+D.length+" gün hazır.";return true}cur=+a.wk*7;render();return true}
  if(a.unit!==undefined){ucur=+a.unit;mode="basic";render();window.scrollTo(0,0);return true}
  if(a.day!==undefined){cur=+a.day;mode="book";render();window.scrollTo(0,0);return true}
- if(a.cat!==undefined){x=a.cat.split("|");var k=x[0];if(!catHas(k,+x[1]))return true;CS[k].cat=+x[1];CS[k].cur=COL[k].ORD.filter(function(t){return COL[k].arr[t].c===CS[k].cat})[0];render();return true}
+ if(a.cat!==undefined){x=a.cat.split("|");var k=x[0];if(!catHas(k,+x[1])){var nv=document.getElementById("nav"),sn=document.getElementById("soonMsg");if(!sn){sn=document.createElement("p");sn.id="soonMsg";sn.className="muted";nv.appendChild(sn)}sn.textContent="“"+COL[k].cats[+x[1]]+"” kategorisinin metinleri henüz hazırlanıyor. Şimdilik diğer kategorilerdeki metinleri okuyabilirsin.";return true}CS[k].cat=+x[1];CS[k].cur=COL[k].ORD.filter(function(t){return COL[k].arr[t].c===CS[k].cat})[0];render();return true}
  if(a.les!==undefined||a.gol!==undefined){x=(a.les||a.gol).split("|");var k2=x[0];CS[k2].cur=+x[1];CS[k2].cat=COL[k2].arr[CS[k2].cur].c;mode=({a:"acad",i:"islam",c:"adv",d:"daily",p:"pod"})[k2];render();window.scrollTo(0,0);return true}
  return false}
 document.getElementById("stop").onclick=function(){tok++;if(synth)synth.cancel();ttStop();clearOn()};
