@@ -32,7 +32,7 @@ const BOOKS = [
     tanitim: { muellif: 'İmam Abdülkâhir el-Cürcânî (ö. 471/1078) — “el-Avâmilü’l-mie” (Avâmil-i atîk). Belâgatta “Delâilü’l-i‘câz” ve “Esrârü’l-belâga”nın da müellifidir.', amac: 'Kelimelerin sonunu değiştiren yüz âmili (91 semâî, 7 kıyâsî, 2 ma‘nevî) on üç çeşit hâlinde, her birini örnekle tanıtmak. Nahvin “bunu ne ref‘ etti, ne nasbetti?” sorusuna buradan başlanır.', yontem: 'Her âmili örneğiyle birlikte ezberleyin. Cümleye dokununca Türkçesi açılır. Bâb sonundaki sorularla pekiştirin; i‘râbı Kur’an i‘râbı modülünde ve İ‘râb oyununda uygulayın.' } },
   { id: 'ajurrumiyye', ad: 'Âcurrûmiyye', ar: 'الآجرومية', yol: 'nahiv', sira: 2, durum: 'hazir',
     tanitim: { muellif: 'İbn Âcurrûm es-Sanhâcî (ö. 723/1323), Fas. “Tuhfetü’s-seniyye” bu matnin şerhidir.', amac: 'Nahvin bütün temel bâblarını (i‘râb, alâmetler, merfûlar, mansûblar, mecrûrlar) en kısa yoldan vermek. Asırlardır nahve başlangıç metni olarak ezberlenir.', yontem: 'Her bâbı önce Arapça okuyun, sonra Türkçesine bakın; tanımları ezberleyin. Bâb sonundaki sorularla pekiştirin ve öğrendiğiniz i‘râbı Kur’an modülünde deneyin. Not: Tuhfetü’s-seniyye şerhi (M. Muhyiddîn Abdülhamîd, ö. 1972) telif kapsamında olduğu için uygulamaya matn ve bizim Türkçe açıklamamız konuldu.' } },
-  { id: 'katr', ad: 'Katru’n-nedâ', ar: 'قطر الندى', yol: 'nahiv', sira: 3, durum: 'hazir',
+  { id: 'katr', ad: 'Katru’n-nedâ', ar: 'قطر الندى', yol: 'arsiv', sira: 3, durum: 'hazir',
     tanitim: { muellif: 'İbn Hişâm el-Ensârî (ö. 761/1360).', amac: 'Nahvin bütün bâblarını kısa ve yoğun bir matnle, şâhidleriyle vermek. Âcurrûmiyye’den sonra okunur.', yontem: 'Matni bâb bâb okuyun; her bâbın Türkçe özeti başta verilmiştir. Ardından aynı bâbı Şerhu Katri’n-nedâ’da müellifin kendi açıklamasıyla okuyun.' } },
   { id: 'serhkatr', ad: 'Şerhu Katri’n-nedâ', ar: 'شرح قطر الندى', yol: 'nahiv', sira: 4, durum: 'hazir',
     tanitim: { muellif: 'İbn Hişâm el-Ensârî (ö. 761/1360) — kendi matni Katru’n-nedâ’yı şerh etmiştir.', amac: 'Matnin her cümlesini (ص) açıp şâhidleriyle (âyet, hadis, şiir) şerh etmek (ش); orta-ileri seviyede nahvin temel şerhidir.', yontem: 'Altın çizgili kısımlar matndir, diğerleri şerh. Önce matn cümlesini, sonra müellifin açıklamasını okuyun; her bâbın sonunda Katru’n-nedâ alıştırmalarını çözün.' } },
@@ -260,7 +260,7 @@ addEventListener('hashchange', route);
 const KLASIK = ['emsile', 'bina', 'maksud', 'izzi', 'avamil', 'ajurrumiyye', 'katr', 'serhkatr'];
 let VDATA = null, VP = { key: null, open: false, big: false };
 const VIDKEY = h => { if(h[0] === 'emsile') return 'emsile'; if((h[0] === 'kitap' || h[0] === 'oku') && KLASIK.includes(h[1])) return h[1]; return null };
-const DERS_LISTE = { bina: 'PLUFT_YZ2pHv51Rn2jzRzJ1iPMrRcyUl9C', maksud: 'PLUFT_YZ2pHv7TVNi9bD9yrYVqTpBLqkbw', izzi: 'PLUFT_YZ2pHv6MpTMupA0fxtPL0XY8Slgs', avamil: 'PLUFT_YZ2pHv5jiqfMYytJAcKkgSFx_CH5', katr: 'PLUFT_YZ2pHv7MZgzym0gi8qazfVeaEBHA', serhkatr: 'PLUFT_YZ2pHv7MZgzym0gi8qazfVeaEBHA' };
+const DERS_LISTE = { emsile: 'PLUFT_YZ2pHv5pjh2ZMt7BJ-1beuXGKOth', bina: 'PLUFT_YZ2pHv51Rn2jzRzJ1iPMrRcyUl9C', maksud: 'PLUFT_YZ2pHv7TVNi9bD9yrYVqTpBLqkbw', izzi: 'PLUFT_YZ2pHv6MpTMupA0fxtPL0XY8Slgs', avamil: 'PLUFT_YZ2pHv5jiqfMYytJAcKkgSFx_CH5', katr: 'PLUFT_YZ2pHv7MZgzym0gi8qazfVeaEBHA', serhkatr: 'PLUFT_YZ2pHv7MZgzym0gi8qazfVeaEBHA' };
 async function vidListe(k){ if(DERS_LISTE[k]) return { liste: DERS_LISTE[k] }; try{ VDATA = VDATA || await fetch('data/videolar.json', { cache: 'no-cache' }).then(r => r.json()) }catch(e){ VDATA = {} } const d = (VDATA.dersler || {})[k]; return d && (d.liste || d.video) ? d : null }
 function vidKur(h){
   const k = VIDKEY(h); let btn = $('#vpBtn'), box = $('#vp');
@@ -837,7 +837,7 @@ async function harita(){
   const node = id => { const b = BOOKS.find(x => x.id === id), p = yuzde(id); return `<a class="hn ${rz[id] ? 'rz' : p ? 'go' : ''}" href="#/kitap/${id}"><span class="hc" style="--p:${p}"><i lang="ar">${b.ar.replace(/^(شرح|متن|التصريف) /, '').replace(/ .*/, '')}</i></span><b>${b.ad}</b><small>${rz[id] ? '✦ bitirildi' : '%' + p}</small></a>` };
   V.innerHTML = bar('Öğrenme haritam', '/') + `<div class="wrap"><p class="lead">Medrese yolunda neredesiniz? Her kitap, okunan bâbların oranıyla dolar; kitap bitince rozet alır.</p>
    <h2>Sarf</h2><div class="hyol">${['emsile', 'bina', 'maksud', 'izzi'].map(node).join('<span class="hl"></span>')}</div>
-   <h2>Nahiv</h2><div class="hyol">${['avamil', 'ajurrumiyye', 'katr'].map(node).join('<span class="hl"></span>')}</div>
+   <h2>Nahiv</h2><div class="hyol">${['avamil', 'ajurrumiyye', 'serhkatr'].map(node).join('<span class="hl"></span>')}</div>
    <h2>Rozetler</h2><p>${Object.keys(rz).length ? Object.keys(rz).map(k => `<span class="rzb">✦ ${(BOOKS.find(b => b.id === k) || { ad: k }).ad}</span>`).join(' ') : 'Henüz rozet yok. Bir kitabın bütün bâblarını okuyup alıştırmalarında başarılı olunca rozet kazanırsınız.'}</p></div>`;
 }
 
