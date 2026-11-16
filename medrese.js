@@ -25,7 +25,7 @@ const BOOKS = [
   { id: 'bina', ad: 'Binâ', ar: 'البناء', yol: 'sarf', sira: 2, durum: 'hazir',
     tanitim: { muellif: 'Müellifi kesin olarak bilinmiyor; Emsile’den sonra okutulur.', amac: 'Otuz beş tasrîf bâbını (6 sülâsî mücerred, 12 sülâsî mezîd, rubâî ve mülhakları) alâmeti ve binâsıyla vermek; sonra fiilin sekiz ve yedi kısmını (sahih, misâl, ecvef, nâkıs, lefîf, muzâ‘af, mehmûz) tanıtmak.', yontem: 'Tam matn, Mecmûatü’s-sarf nüshasından. Her paragrafa dokununca Türkçesi açılır; her bâbın vezin ve misalini Emsile’de çekimleyin.' } },
   { id: 'maksud', ad: 'Maksûd', ar: 'المقصود', yol: 'sarf', sira: 3, durum: 'hazir',
-    tanitim: { muellif: 'İmâm-ı Âzam Ebû Hanîfe’ye nisbet edilir; bu nisbet tartışmalıdır.', amac: 'Sarf kurallarını, özellikle mezîd bâbları ve i‘lâl kaidelerini sistemli biçimde vermek.', yontem: 'Her kaideyi önce matnından, sonra örnek kelimelerin çözümlemesiyle okuyun.' } },
+    tanitim: { muellif: 'İmâm-ı Âzam Ebû Hanîfe’ye nisbet edilir; bu nisbet tartışmalıdır.', amac: 'Sarf kurallarını, özellikle mezîd bâbları ve i‘lâl kaidelerini sistemli biçimde vermek.', yontem: 'Tam matn, Mecmûatü’s-sarf nüshasından. Her paragrafa dokununca Türkçesi açılır; masdar–mâzî–muzâri–emir–fâil–mef‘ûl türetimini Emsile çekimleriyle karşılaştırın.' } },
   { id: 'izzi', ad: 'İzzî', ar: 'التصريف العزي', yol: 'sarf', sira: 4, durum: 'hazir',
     tanitim: { muellif: 'İzzeddîn Abdülvehhâb b. İbrâhîm ez-Zencânî (7./13. yy).', amac: 'Tasrîf ilmini (kelimenin kalıptan kalıba çevrilmesi) özlü ve ileri seviyede vermek.', yontem: 'Maksûd’dan sonra okunur; şerhleriyle birlikte, kaide kaide.' } },
   { id: 'avamil', ad: 'Avâmil', ar: 'العوامل', yol: 'nahiv', sira: 1, durum: 'hazir',
