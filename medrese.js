@@ -785,36 +785,18 @@ function kartlar(liste, title, back){
    MODERN ARAPÇA
    ====================================================================== */
 async function modern(p1, p2){
-  if(!p1 || p1 === 'ders'){ location.replace('arapca.html?medrese=1'); return }
-  V.innerHTML = bar('Modern Arapça', '/modern') + '<div class="wrap"><p class="lead">Yükleniyor…</p></div>';
+  V.innerHTML = bar('Modern Arapça', '/') + '<div class="wrap"><p class="lead">Yükleniyor…</p></div>';
   try{ await modYukle() }catch(e){ V.querySelector('.lead').textContent = 'İçerik yüklenemedi.'; return }
-  if(p1 === 'metinler') return modMetinler();
-  if(p1 === 'alan') return modAlan(p2);
-  if(p1 === 'kelimeler') return modKelimeler();
-  if(p1 === 'metin'){ const mm = MOD.metinler.find(x => x.id === p2); return modMetin(p2, mm && mm.alan ? '/modern/alan/' + mm.alan : '/modern/metinler') }
-  if(p1 === 'kelime'){ const t = MOD.kelime[+p2]; return kartlar(t.liste, t.tema, '/modern/kelimeler') }
+  if(p1 === 'metin') return modMetin(p2);
+  if(p1 === 'kelime'){ const t = MOD.kelime[+p2]; return kartlar(t.liste, t.tema, '/modern') }
   if(p1 === 'diyalog') return modDiyalog(+p2);
-  if(p1 === 'haber') return modHaber('/modern/metinler');
+  if(p1 === 'haber') return modHaber();
   if(p1 === 'ders') return modDers();
   if(p1 === 'diyaloglar') return modDiyaloglar();
   location.replace('arapca.html?medrese=1');
 }
-function modMetinler(){
-  const ok = LS.get('medrese.modOk', {}), n = MOD.metinler.length, d = MOD.metinler.filter(m => ok[m.id]).length;
-  V.innerHTML = bar('Okuma metinleri', '/modern') + `<div class="wrap"><p class="lead">${n} makale · ${d} okundu. Her metinde harekeli Arapça, Türkçe çeviri, kelime sözlüğü ve sorular var.</p>
-    <div class="alanlar">${(MOD.alanlar || []).map(a => { const L = MOD.metinler.filter(m => m.alan === a[0]); return L.length ? `<a class="alan a-${esc(a[0])}" href="#/modern/alan/${esc(a[0])}"><span lang="ar">${esc(a[2])}</span><b>${esc(a[1])}</b><small>${L.length} metin · ${L.filter(m => ok[m.id]).length} okundu</small></a>` : '' }).join('')}</div>
-    <div class="tiplist"><a href="#/modern/diyaloglar"><b>Diyaloglar</b><small>${MOD.diyalog.length} günlük konuşma</small></a><a href="#/modern/kelimeler"><b>Kelime temaları</b><small>${MOD.kelime.length} tema</small></a><a href="#/modern/haber"><b>Haber Arapçası kalıpları</b><small>el-Cezîre okuma rehberi</small></a></div></div>`;
-}
-function modAlan(a){
-  const al = (MOD.alanlar || []).find(x => x[0] === a); if(!al) return go('/modern/metinler');
-  const ok = LS.get('medrese.modOk', {}), L = MOD.metinler.filter(m => m.alan === a);
-  V.innerHTML = bar(al[1], '/modern/metinler') + `<div class="wrap"><h1 lang="ar" class="mh1" style="text-align:center">${esc(al[2])}</h1><div class="mlist">${L.map(m => `<a href="#/modern/metin/${esc(m.id)}" class="${ok[m.id] ? 'done' : ''}"><span class="sv">${esc(m.seviye)}</span><b lang="ar">${esc(m.ar_baslik)}</b><span>${esc(m.baslik)}</span><small>${m.ar.join(' ').split(/\s+/).length} kelime · ${m.sorular.length} soru</small></a>`).join('')}</div></div>`;
-}
-function modKelimeler(){
-  V.innerHTML = bar('Kelime temaları', '/modern/metinler') + `<div class="wrap"><div class="tiplist">${MOD.kelime.map((k, i) => `<a href="#/modern/kelime/${i}"><b>${esc(k.tema)}</b><small lang="ar">${esc(k.liste.slice(0, 3).map(x => x[0]).join('، '))} … (${k.liste.length})</small></a>`).join('')}</div></div>`;
-}
 function modDiyaloglar(){
-  V.innerHTML = bar('Diyaloglar', '/modern/metinler') + `<div class="wrap"><div class="tiplist">${MOD.diyalog.map((d, i) => `<a href="#/modern/diyalog/${i}"><b>${esc(d.baslik)}</b><small lang="ar">${esc(d.ar_baslik || '')}</small></a>`).join('')}</div></div>`;
+  V.innerHTML = bar('Diyaloglar', '/modern') + `<div class="wrap"><div class="tiplist">${MOD.diyalog.map((d, i) => `<a href="#/modern/diyalog/${i}"><b>${esc(d.baslik)}</b><small lang="ar">${esc(d.ar_baslik || '')}</small></a>`).join('')}</div></div>`;
 }
 function modDers(){
   location.href = 'arapca.html?medrese=1';
@@ -836,7 +818,7 @@ function modMetin(id, geri){
   $('#msor').onclick = () => { const o = LS.get('medrese.modOk', {}); o[id] = 1; LS.set('medrese.modOk', o); alistirma({ ids: m.sorular.map((s, i) => `mo|${id}|${i}`), title: m.baslik }) };
 }
 function modDiyalog(i){
-  const d = MOD.diyalog[i]; if(!d) return go('/modern/diyaloglar');
+  const d = MOD.diyalog[i]; if(!d) return go('/modern');
   V.innerHTML = bar(d.baslik, '/modern/diyaloglar') + `<div class="wrap"><h1 lang="ar" class="mh1">${esc(d.ar_baslik || '')}</h1><div class="dyl">${d.satirlar.map(s => `<div class="dy ${s[0] === d.satirlar[0][0] ? 'a' : 'b'}"><b>${esc(s[0])}</b><p lang="ar">${esc(s[1])}</p><small>${esc(s[2])}</small>${'speechSynthesis' in window ? `<button class="btn sm" data-s="${esc(s[1])}">▶</button>` : ''}</div>`).join('')}</div>
    ${d.not ? `<p class="knote">${esc(d.not)}</p>` : ''}</div>`;
   $$('[data-s]').forEach(b => b.onclick = () => seslendir(b.dataset.s, b));
