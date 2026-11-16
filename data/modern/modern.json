@@ -4276,6 +4276,770 @@
 "a": ""
 }
 ]
+},
+{
+"id": "kalp-sagligi",
+"alan": "saglik",
+"baslik": "Kalp sağlığı",
+"ar_baslik": "صحة القلب: الوقاية خير من العلاج",
+"konu": "Kalp sağlığı",
+"seviye": "B2",
+"ar": [
+"تعد أمراض القلب والأوعية الدموية السبب الأول للوفاة في العالم، إذ تودي بحياة ملايين الناس كل عام.",
+"ولا ترجع هذه الأمراض إلى سبب واحد، بل تتضافر فيها عوامل متعددة، منها ارتفاع ضغط الدم وارتفاع الكوليسترول والتدخين والسكري وقلة الحركة.",
+"والمقلق أن كثيرا من هذه العوامل لا يصاحبها ألم أو أعراض واضحة، فيعيش المرء سنوات وهو لا يعلم أن شرايينه تضيق شيئا فشيئا.",
+"ولذلك ينصح الأطباء بقياس ضغط الدم وفحص الدهون في الدم بصورة دورية، خاصة بعد سن الأربعين أو عند وجود تاريخ عائلي للمرض.",
+"ويتفق الخبراء على أن الوقاية ممكنة إلى حد بعيد، فالإقلاع عن التدخين، والمشي نصف ساعة يوميا، والتقليل من الملح والدهون المشبعة، والإكثار من الخضراوات، كلها خطوات بسيطة تحمي القلب.",
+"وتبقى الصحة النفسية جزءا من المعادلة، فالضغط النفسي المزمن والغضب المستمر يرهقان القلب كما ترهقه الأطعمة غير الصحية."
+],
+"tr": [
+"Kalp ve damar hastalıkları dünyada ölümün birinci sebebidir; her yıl milyonlarca insanın hayatına mal olur.",
+"Bu hastalıklar tek bir sebebe dayanmaz; yüksek tansiyon, yüksek kolesterol, sigara, şeker hastalığı ve hareketsizlik gibi birçok etken bir araya gelir.",
+"Endişe verici olan, bu etkenlerin çoğuna ağrı veya belirgin bir belirtinin eşlik etmemesidir; insan damarlarının yavaş yavaş daraldığını bilmeden yıllarca yaşar.",
+"Bu yüzden doktorlar, özellikle kırk yaşından sonra veya ailede hastalık geçmişi varsa, tansiyonun ölçülmesini ve kandaki yağların düzenli olarak kontrol edilmesini tavsiye ediyor.",
+"Uzmanlar önlemenin büyük ölçüde mümkün olduğunda birleşiyor: sigarayı bırakmak, günde yarım saat yürümek, tuzu ve doymuş yağları azaltmak, sebzeyi artırmak kalbi koruyan basit adımlardır.",
+"Ruh sağlığı da denklemin bir parçasıdır; kronik stres ve sürekli öfke, sağlıksız yiyecekler gibi kalbi yorar."
+],
+"sozluk": [
+[
+"الأوعية الدموية",
+"kan damarları"
+],
+[
+"تودي بحياة",
+"hayatına mal olur"
+],
+[
+"تتضافر",
+"bir araya gelir"
+],
+[
+"ضغط الدم",
+"tansiyon"
+],
+[
+"الشرايين",
+"atardamarlar"
+],
+[
+"تاريخ عائلي",
+"aile geçmişi"
+],
+[
+"الإقلاع عن",
+"bırakmak"
+],
+[
+"الدهون المشبعة",
+"doymuş yağlar"
+],
+[
+"الضغط النفسي",
+"stres"
+]
+],
+"sorular": [
+{
+"s": "Metne göre kalp hastalıklarının etkenleri hakkında hangisi doğrudur?",
+"k": [
+"Birçok etken bir araya gelir",
+"Tek sebebi sigaradır",
+"Sadece kalıtsaldır",
+"Yalnız yaşlılarda görülür"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Etkenlerin endişe verici yanı nedir?",
+"k": [
+"Çoğunun belirti vermemesi",
+"Çok pahalı olmaları",
+"Bulaşıcı olmaları",
+"Tedavisinin olmaması"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الإقلاع عن التدخين” ne demektir?",
+"k": [
+"Sigarayı bırakmak",
+"Sigaraya başlamak",
+"Sigarayı azaltmak",
+"Sigara satmak"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "ruh-sagligi",
+"alan": "saglik",
+"baslik": "Ruh sağlığı",
+"ar_baslik": "الصحة النفسية لا تقل أهمية عن صحة البدن",
+"konu": "Ruh sağlığı",
+"seviye": "B2",
+"ar": [
+"ظل الحديث عن الصحة النفسية زمنا طويلا محاطا بالصمت والخجل في كثير من المجتمعات، كأن المعاناة النفسية ضعف ينبغي إخفاؤه.",
+"غير أن منظمة الصحة العالمية تؤكد أن الصحة لا تكتمل إلا بسلامة النفس والبدن معا، وأن الاكتئاب والقلق من أكثر الاضطرابات شيوعا في العصر الحديث.",
+"وتتنوع أسباب هذه الاضطرابات بين ضغوط العمل والدراسة، والوحدة، والأزمات الاقتصادية، والصدمات التي يمر بها الإنسان، وقد يكون للعوامل الوراثية دور أيضا.",
+"ومن علامات الإنذار التي ينبغي الانتباه إليها الحزن المستمر، وفقدان الاهتمام بالأشياء المحببة، واضطراب النوم والشهية، والعزلة عن الناس.",
+"ويرى المختصون أن طلب المساعدة من طبيب أو معالج نفسي شجاعة لا ضعف، وأن العلاج المبكر يختصر طريق التعافي كثيرا.",
+"كما تسهم العادات اليومية في حماية النفس، كممارسة الرياضة، والنوم المنتظم، والتواصل مع الأهل والأصدقاء، وتخصيص وقت للراحة والتأمل."
+],
+"tr": [
+"Ruh sağlığından söz etmek birçok toplumda uzun süre sessizlik ve utançla çevrili kaldı; sanki ruhsal sıkıntı gizlenmesi gereken bir zayıflıkmış gibi.",
+"Ancak Dünya Sağlık Örgütü, sağlığın ancak ruhun ve bedenin birlikte esenliğiyle tamamlandığını, depresyon ve kaygının modern çağın en yaygın bozukluklarından olduğunu vurguluyor.",
+"Bu bozuklukların sebepleri iş ve okul baskıları, yalnızlık, ekonomik krizler ve insanın yaşadığı travmalar arasında çeşitlenir; kalıtsal etkenlerin de payı olabilir.",
+"Dikkat edilmesi gereken uyarı işaretleri arasında süregelen hüzün, sevilen şeylere ilginin kaybı, uyku ve iştah bozukluğu ve insanlardan uzaklaşma var.",
+"Uzmanlar bir doktordan veya terapistten yardım istemenin zayıflık değil cesaret olduğunu, erken tedavinin iyileşme yolunu çok kısalttığını düşünüyor.",
+"Günlük alışkanlıklar da ruhu korumaya katkı sağlar: spor yapmak, düzenli uyumak, aile ve arkadaşlarla iletişim kurmak, dinlenme ve tefekkür için vakit ayırmak gibi."
+],
+"sozluk": [
+[
+"الصحة النفسية",
+"ruh sağlığı"
+],
+[
+"الاكتئاب",
+"depresyon"
+],
+[
+"الاضطرابات",
+"bozukluklar"
+],
+[
+"الصدمات",
+"travmalar"
+],
+[
+"علامات الإنذار",
+"uyarı işaretleri"
+],
+[
+"الشهية",
+"iştah"
+],
+[
+"العزلة",
+"yalnızlaşma"
+],
+[
+"التعافي",
+"iyileşme"
+],
+[
+"التأمل",
+"tefekkür"
+]
+],
+"sorular": [
+{
+"s": "Metne göre yardım istemek nedir?",
+"k": [
+"Cesaret",
+"Zayıflık",
+"Gereksiz",
+"Utanç verici"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Uyarı işaretlerinden biri değildir:",
+"k": [
+"Düzenli spor yapmak",
+"Süregelen hüzün",
+"Uyku bozukluğu",
+"İnsanlardan uzaklaşma"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“التعافي” kelimesinin anlamı:",
+"k": [
+"İyileşme",
+"Hastalanma",
+"Yorulma",
+"Uyuma"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "asilar",
+"alan": "saglik",
+"baslik": "Aşılar",
+"ar_baslik": "اللقاحات وحماية المجتمع",
+"konu": "Aşılar",
+"seviye": "B2",
+"ar": [
+"تعد اللقاحات من أعظم إنجازات الطب الحديث، فقد أسهمت في القضاء على مرض الجدري نهائيا وفي تقليص شلل الأطفال إلى حالات نادرة.",
+"وتقوم فكرة اللقاح على تعريف جهاز المناعة بالميكروب أو بجزء منه بعد إضعافه أو تعطيله، فيتعلم الجسم كيف يدافع عن نفسه إذا تعرض للعدوى الحقيقية.",
+"ولا تقتصر فائدة اللقاح على الفرد، فحين تبلغ نسبة الملقحين في المجتمع حدا معينا تتكون ما يسمى بالمناعة الجماعية التي تحمي الرضع وكبار السن والمرضى الذين لا يستطيعون أخذ اللقاح.",
+"وتمر اللقاحات قبل اعتمادها بمراحل طويلة من التجارب على آلاف المتطوعين، وتستمر مراقبة سلامتها بعد طرحها في الأسواق.",
+"ومع ذلك تنتشر بين حين وآخر شائعات تشكك في اللقاحات، فتنخفض نسب التطعيم وتعود أمراض كان يظن أنها انتهت، كالحصبة.",
+"ولهذا يرى خبراء الصحة العامة أن بناء الثقة عبر المعلومات الدقيقة والحوار الهادئ لا يقل أهمية عن إنتاج اللقاح نفسه."
+],
+"tr": [
+"Aşılar modern tıbbın en büyük başarılarındandır; çiçek hastalığının tamamen ortadan kalkmasına ve çocuk felcinin nadir vakalara inmesine katkı sağlamıştır.",
+"Aşının fikri, bağışıklık sistemini mikropla veya onun bir parçasıyla, zayıflatıldıktan ya da etkisiz hâle getirildikten sonra tanıştırmaya dayanır; böylece vücut gerçek enfeksiyonla karşılaşırsa kendini nasıl savunacağını öğrenir.",
+"Aşının faydası bireyle sınırlı değildir; toplumda aşılananların oranı belli bir sınıra ulaşınca, aşı olamayan bebekleri, yaşlıları ve hastaları koruyan sürü bağışıklığı denilen durum oluşur.",
+"Aşılar onaylanmadan önce binlerce gönüllü üzerinde uzun deney aşamalarından geçer; piyasaya çıktıktan sonra da güvenlikleri izlenmeye devam eder.",
+"Buna rağmen zaman zaman aşılardan şüphe ettiren söylentiler yayılır; aşılama oranları düşer ve kızamık gibi bittiği sanılan hastalıklar geri döner.",
+"Bu yüzden halk sağlığı uzmanları, doğru bilgi ve sakin diyalogla güven inşa etmenin aşıyı üretmek kadar önemli olduğunu düşünüyor."
+],
+"sozluk": [
+[
+"اللقاحات",
+"aşılar"
+],
+[
+"الجدري",
+"çiçek hastalığı"
+],
+[
+"شلل الأطفال",
+"çocuk felci"
+],
+[
+"جهاز المناعة",
+"bağışıklık sistemi"
+],
+[
+"العدوى",
+"enfeksiyon"
+],
+[
+"المناعة الجماعية",
+"sürü bağışıklığı"
+],
+[
+"المتطوعين",
+"gönüllüler"
+],
+[
+"شائعات",
+"söylentiler"
+],
+[
+"الحصبة",
+"kızamık"
+]
+],
+"sorular": [
+{
+"s": "Sürü bağışıklığı kimleri korur?",
+"k": [
+"Aşı olamayan bebek, yaşlı ve hastaları",
+"Yalnızca doktorları",
+"Sadece aşı olanları",
+"Hayvanları"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Aşılama oranı düşünce ne olur?",
+"k": [
+"Eski hastalıklar geri döner",
+"Hastalıklar biter",
+"Aşılar ucuzlar",
+"Hiçbir şey değişmez"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“شائعات” ne demektir?",
+"k": [
+"Söylentiler",
+"Deneyler",
+"İlaçlar",
+"Hastaneler"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "aile-yapisi",
+"alan": "sosyal",
+"baslik": "Değişen aile yapısı",
+"ar_baslik": "الأسرة العربية بين الأمس واليوم",
+"konu": "Değişen aile yapısı",
+"seviye": "B2",
+"ar": [
+"كانت الأسرة الممتدة هي النمط الغالب في المجتمعات العربية، حيث يعيش الأجداد والآباء والأحفاد تحت سقف واحد أو في بيوت متجاورة.",
+"وكان لهذا النمط مزايا واضحة، فالكبار يربون الصغار وينقلون إليهم القيم والخبرات، والصغار يرعون الكبار حين يتقدم بهم العمر.",
+"غير أن التحضر والهجرة إلى المدن وخروج المرأة إلى العمل وارتفاع أسعار السكن دفعت كثيرا من الأسر نحو النمط النووي المكون من الزوجين وأبنائهما.",
+"ويرى بعض الباحثين أن الأسرة النووية تمنح أفرادها قدرا أكبر من الاستقلال والخصوصية، بينما يحذر آخرون من ضعف الروابط بين الأجيال وشعور كبار السن بالوحدة.",
+"وقد ظهرت حلول وسط، كأن يسكن الأبناء قريبا من آبائهم، أو تجتمع العائلة الكبيرة أسبوعيا على مائدة واحدة، أو تتواصل يوميا عبر الهاتف.",
+"ويبقى السؤال المطروح: كيف نحافظ على دفء العلاقات الأسرية وقيم التكافل في عالم سريع الإيقاع لا يكاد يترك للناس وقتا؟"
+],
+"tr": [
+"Geniş aile, Arap toplumlarında baskın modeldi; dedeler, babalar ve torunlar tek çatı altında veya bitişik evlerde yaşardı.",
+"Bu modelin açık üstünlükleri vardı: büyükler küçükleri yetiştirir, onlara değerleri ve tecrübeleri aktarır; küçükler de yaşlandıklarında büyüklere bakardı.",
+"Ancak kentleşme, şehirlere göç, kadının çalışma hayatına girmesi ve konut fiyatlarının yükselmesi birçok aileyi eşler ve çocuklarından oluşan çekirdek modele itti.",
+"Bazı araştırmacılar çekirdek ailenin bireylerine daha fazla bağımsızlık ve mahremiyet sağladığını düşünürken, diğerleri kuşaklar arası bağların zayıflamasına ve yaşlıların yalnızlık hissine karşı uyarıyor.",
+"Orta yol çözümler de ortaya çıktı: çocukların anne babalarına yakın oturması, geniş ailenin her hafta aynı sofrada toplanması veya her gün telefonla iletişim kurması gibi.",
+"Sorulan soru şu: İnsanlara neredeyse hiç vakit bırakmayan hızlı ritimli bir dünyada aile ilişkilerinin sıcaklığını ve dayanışma değerlerini nasıl koruyacağız?"
+],
+"sozluk": [
+[
+"الأسرة الممتدة",
+"geniş aile"
+],
+[
+"الأحفاد",
+"torunlar"
+],
+[
+"التحضر",
+"kentleşme"
+],
+[
+"الأسرة النووية",
+"çekirdek aile"
+],
+[
+"الخصوصية",
+"mahremiyet"
+],
+[
+"الأجيال",
+"kuşaklar"
+],
+[
+"التكافل",
+"dayanışma"
+],
+[
+"سريع الإيقاع",
+"hızlı ritimli"
+]
+],
+"sorular": [
+{
+"s": "Çekirdek aileye geçişin sebeplerinden biri değildir:",
+"k": [
+"Köye dönüş",
+"Kentleşme",
+"Konut fiyatları",
+"Kadının çalışması"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Çekirdek aileyi eleştirenler neyden endişe eder?",
+"k": [
+"Kuşaklar arası bağların zayıflamasından",
+"Fazla kalabalıktan",
+"Gelir artışından",
+"Eğitimden"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“التكافل” ne demektir?",
+"k": [
+"Dayanışma",
+"Rekabet",
+"Göç",
+"Miras"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "gonulluluk",
+"alan": "sosyal",
+"baslik": "Gönüllülük",
+"ar_baslik": "العمل التطوعي وبناء المجتمع",
+"konu": "Gönüllülük",
+"seviye": "B1",
+"ar": [
+"العمل التطوعي هو أن يبذل الإنسان من وقته وجهده وخبرته لخدمة غيره دون أن ينتظر مقابلا ماديا.",
+"وتتعدد مجالاته، فمن المتطوعين من يعلم الأطفال القراءة، ومنهم من يزور المرضى، أو يشارك في تنظيف الشواطئ، أو يساعد المنكوبين في الكوارث الطبيعية.",
+"ولا تقتصر فوائد التطوع على المستفيدين منه، بل تعود على المتطوع نفسه، فهو يكسبه مهارات جديدة ويوسع دائرة معارفه ويمنحه شعورا عميقا بالرضا والانتماء.",
+"وقد أثبتت دراسات عدة أن الشباب الذين يشاركون في أعمال تطوعية أكثر ثقة بأنفسهم وأقدر على العمل ضمن فريق، وهي صفات يطلبها أصحاب العمل.",
+"وفي التراث العربي والإسلامي جذور عميقة لهذه القيمة، فقد حث الدين على إغاثة الملهوف وقضاء حوائج الناس، وعدها من أفضل القربات.",
+"ولذلك تسعى مؤسسات كثيرة اليوم إلى تنظيم العمل التطوعي وتدريب المتطوعين حتى يكون جهدهم أكثر أثرا واستمرارا."
+],
+"tr": [
+"Gönüllü çalışma, insanın maddi bir karşılık beklemeden başkalarına hizmet için vaktini, emeğini ve tecrübesini ortaya koymasıdır.",
+"Alanları çeşitlidir: gönüllülerden kimi çocuklara okumayı öğretir, kimi hastaları ziyaret eder, sahilleri temizlemeye katılır veya doğal afetlerde felaketzedelere yardım eder.",
+"Gönüllülüğün faydası yalnız ondan yararlananlarla sınırlı değildir, gönüllünün kendisine de döner: ona yeni beceriler kazandırır, tanıdık çevresini genişletir ve derin bir memnuniyet ve aidiyet duygusu verir.",
+"Birçok araştırma, gönüllü işlere katılan gençlerin kendilerine daha çok güvendiğini ve takım içinde çalışmaya daha yatkın olduğunu göstermiştir; bunlar işverenlerin aradığı niteliklerdir.",
+"Arap ve İslam mirasında bu değerin derin kökleri vardır: din, darda kalana yardım etmeyi ve insanların ihtiyaçlarını gidermeyi teşvik etmiş, bunu en faziletli ibadetlerden saymıştır.",
+"Bu yüzden bugün birçok kurum, emeklerinin daha etkili ve sürekli olması için gönüllü çalışmayı düzenlemeye ve gönüllüleri eğitmeye çalışıyor."
+],
+"sozluk": [
+[
+"العمل التطوعي",
+"gönüllü çalışma"
+],
+[
+"يبذل",
+"ortaya koyar, harcar"
+],
+[
+"مقابلا ماديا",
+"maddi karşılık"
+],
+[
+"المنكوبين",
+"felaketzedeler"
+],
+[
+"الانتماء",
+"aidiyet"
+],
+[
+"أصحاب العمل",
+"işverenler"
+],
+[
+"إغاثة الملهوف",
+"darda kalana yardım"
+],
+[
+"القربات",
+"ibadetler, yakınlaştıran ameller"
+]
+],
+"sorular": [
+{
+"s": "Gönüllü çalışmanın tanımındaki temel unsur nedir?",
+"k": [
+"Maddi karşılık beklememek",
+"Yüksek ücret",
+"Zorunluluk",
+"Yalnızca devlet işi"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Gönüllülük gençlere ne kazandırır?",
+"k": [
+"Özgüven ve takım çalışması",
+"Sadece para",
+"Yalnızlık",
+"Hiçbir şey"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“المنكوبين” ne demektir?",
+"k": [
+"Felaketzedeler",
+"Öğretmenler",
+"Zenginler",
+"Yolcular"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "trafik-guvenligi",
+"alan": "sosyal",
+"baslik": "Trafik güvenliği",
+"ar_baslik": "السلامة المرورية مسؤولية الجميع",
+"konu": "Trafik güvenliği",
+"seviye": "B1",
+"ar": [
+"تحصد حوادث الطرق أرواح أكثر من مليون شخص سنويا في العالم، ويصاب الملايين غيرهم بإصابات قد تلازمهم طوال حياتهم.",
+"وتشير الإحصاءات إلى أن الشباب من أكثر الفئات تعرضا لهذه الحوادث، وأن السرعة الزائدة هي العامل الأول وراء معظمها.",
+"ومن الأسباب الأخرى استخدام الهاتف أثناء القيادة، وعدم ربط حزام الأمان، والقيادة تحت تأثير التعب والنعاس، وإهمال صيانة السيارة.",
+"وقد نجحت دول كثيرة في خفض عدد الضحايا بفضل قوانين صارمة وكاميرات لمراقبة السرعة وحملات توعية مستمرة في المدارس ووسائل الإعلام.",
+"كما يرى المخططون أن تصميم الطرق نفسه يؤدي دورا مهما، كتوفير أرصفة آمنة للمشاة وممرات للدراجات وإشارات واضحة.",
+"لكن القوانين وحدها لا تكفي، فالسلامة المرورية ثقافة تبدأ من البيت، حين يرى الطفل والديه يحترمان النظام ويقدمان الحياة على الاستعجال."
+],
+"tr": [
+"Trafik kazaları dünyada her yıl bir milyondan fazla insanın canını alıyor; milyonlarca kişi de ömür boyu sürebilecek yaralanmalara uğruyor.",
+"İstatistikler gençlerin bu kazalara en çok maruz kalan gruplardan olduğunu ve aşırı hızın çoğunun arkasındaki birinci etken olduğunu gösteriyor.",
+"Diğer sebepler arasında araç kullanırken telefon kullanmak, emniyet kemeri takmamak, yorgunluk ve uyku hâlinde araç kullanmak ve aracın bakımını ihmal etmek var.",
+"Birçok ülke sert kanunlar, hız denetim kameraları ve okullarda ve medyada sürekli bilinçlendirme kampanyaları sayesinde ölü sayısını düşürmeyi başardı.",
+"Planlamacılar yolların tasarımının da önemli bir rol oynadığını düşünüyor: yayalar için güvenli kaldırımlar, bisiklet yolları ve açık işaretler sağlamak gibi.",
+"Ama kanunlar tek başına yetmez; trafik güvenliği evde başlayan bir kültürdür; çocuk anne babasının kurallara uyduğunu ve hayatı aceleye tercih ettiğini gördüğünde başlar."
+],
+"sozluk": [
+[
+"حوادث الطرق",
+"trafik kazaları"
+],
+[
+"تحصد أرواح",
+"can alır"
+],
+[
+"السرعة الزائدة",
+"aşırı hız"
+],
+[
+"حزام الأمان",
+"emniyet kemeri"
+],
+[
+"النعاس",
+"uyku hâli"
+],
+[
+"صارمة",
+"sert"
+],
+[
+"المشاة",
+"yayalar"
+],
+[
+"حملات توعية",
+"bilinçlendirme kampanyaları"
+]
+],
+"sorular": [
+{
+"s": "Kazaların birinci etkeni nedir?",
+"k": [
+"Aşırı hız",
+"Yağmur",
+"Bisiklet",
+"Kaldırım"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Metne göre trafik güvenliği nerede başlar?",
+"k": [
+"Evde",
+"Sadece okulda",
+"Polis merkezinde",
+"Fabrikada"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“المشاة” ne demektir?",
+"k": [
+"Yayalar",
+"Sürücüler",
+"Polisler",
+"Yolcular"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "salahaddin",
+"alan": "tarih",
+"baslik": "Selâhaddîn Eyyûbî",
+"ar_baslik": "صلاح الدين الأيوبي ومعركة حطين",
+"konu": "Selâhaddîn Eyyûbî",
+"seviye": "B2",
+"ar": [
+"ولد صلاح الدين يوسف بن أيوب في تكريت سنة ٥٣٢ للهجرة، ونشأ في بيت عسكري في كنف عمه أسد الدين شيركوه في خدمة نور الدين زنكي.",
+"وحين تولى أمر مصر استطاع أن يوحد مصر والشام تحت قيادة واحدة، وكان يرى أن وحدة المسلمين شرط لاسترداد بيت المقدس من الصليبيين.",
+"وفي سنة ٥٨٣ للهجرة الموافقة ١١٨٧ للميلاد التقى جيشه بالجيوش الصليبية عند قرون حطين قرب بحيرة طبرية، فأحسن اختيار الموقع والتوقيت حتى أنهك العطش والحر خصومه.",
+"وانتهت المعركة بنصر حاسم فتح الطريق إلى القدس، فدخلها صلاح الدين بعد أشهر قليلة صلحا، وأمّن أهلها على أرواحهم وأموالهم.",
+"وقد اشتهر صلاح الدين بالتسامح والوفاء بالعهد حتى أثنى عليه مؤرخون أوروبيون، وكان زاهدا في المال حتى إنه مات ولم يترك في خزانته إلا القليل.",
+"ولا يزال اسمه رمزا للقائد الذي جمع بين الشجاعة والحكمة وحسن الخلق في الذاكرة العربية والإسلامية."
+],
+"tr": [
+"Selâhaddin Yûsuf b. Eyyûb hicrî 532’de Tikrit’te doğdu; Nûreddin Zengî’nin hizmetindeki amcası Esedüddin Şîrkûh’un himayesinde askerî bir evde yetişti.",
+"Mısır’ın idaresini üstlenince Mısır ve Şam’ı tek bir liderlik altında birleştirmeyi başardı; Müslümanların birliğini Kudüs’ü Haçlılardan geri almanın şartı olarak görüyordu.",
+"Hicrî 583, miladî 1187’de ordusu Taberiye Gölü yakınındaki Hıttîn Boynuzları’nda Haçlı ordularıyla karşılaştı; yeri ve zamanı o kadar iyi seçti ki susuzluk ve sıcak hasımlarını tükendirdi.",
+"Savaş, Kudüs’ün yolunu açan kesin bir zaferle sonuçlandı; Selâhaddin birkaç ay sonra şehre barışla girdi ve halkına can ve mal güvencesi verdi.",
+"Selâhaddin hoşgörüsü ve ahde vefasıyla öyle tanındı ki Avrupalı tarihçiler bile onu övdü; mala karşı o kadar zahitti ki hazinesinde pek az şey bırakarak öldü.",
+"Adı, Arap ve İslam hafızasında cesaret, hikmet ve güzel ahlakı bir araya getiren liderin sembolü olmaya devam ediyor."
+],
+"sozluk": [
+[
+"في كنف",
+"himayesinde"
+],
+[
+"يوحد",
+"birleştirir"
+],
+[
+"استرداد",
+"geri alma"
+],
+[
+"الصليبيين",
+"Haçlılar"
+],
+[
+"أنهك",
+"tüketti, yordu"
+],
+[
+"نصر حاسم",
+"kesin zafer"
+],
+[
+"صلحا",
+"barışla"
+],
+[
+"الوفاء بالعهد",
+"ahde vefa"
+],
+[
+"زاهدا",
+"zahit, dünyaya düşkün olmayan"
+]
+],
+"sorular": [
+{
+"s": "Selâhaddin’e göre Kudüs’ü geri almanın şartı neydi?",
+"k": [
+"Müslümanların birliği",
+"Deniz gücü",
+"Yeni vergiler",
+"Bizans’la ittifak"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Hıttîn’de hasımlarını ne tüketti?",
+"k": [
+"Susuzluk ve sıcak",
+"Kar ve soğuk",
+"Salgın",
+"Açlık"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“صلحا” ne demektir?",
+"k": [
+"Barışla",
+"Savaşla",
+"Gizlice",
+"Geceleyin"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "ipek-yolu",
+"alan": "tarih",
+"baslik": "İpek Yolu",
+"ar_baslik": "طريق الحرير: جسر بين الحضارات",
+"konu": "İpek Yolu",
+"seviye": "B2",
+"ar": [
+"طريق الحرير اسم أطلقه المؤرخون المحدثون على شبكة واسعة من الطرق التجارية التي ربطت الصين بآسيا الوسطى والعالم الإسلامي وأوروبا قرونا طويلة.",
+"ولم يكن الحرير وحده ما تنقله القوافل، بل حملت التوابل والورق والخزف والأحجار الكريمة والزجاج، وانتقلت معها المعارف والأفكار والأديان.",
+"وقد ازدهرت على هذا الطريق مدن عظيمة كسمرقند وبخارى وبغداد، فصارت مراكز للتجارة والعلم تلتقي فيها اللغات والثقافات.",
+"ومن أبرز ما انتقل عبر هذه الشبكة صناعة الورق التي عرفها المسلمون من الصينيين في القرن الثاني الهجري، ثم أقاموا لها مصانع في سمرقند وبغداد، ومنهم انتقلت إلى أوروبا.",
+"وكانت الخانات والرباطات المنتشرة على الطريق توفر للمسافرين المأوى والماء والأمان، وهي من معالم العمارة الإسلامية الباقية إلى اليوم.",
+"وفي عصرنا تحاول دول عدة إحياء فكرة طريق الحرير عبر مشاريع للسكك الحديدية والموانئ، مما يدل على أن الجغرافيا ما زالت تصنع التاريخ."
+],
+"tr": [
+"İpek Yolu, modern tarihçilerin Çin’i Orta Asya’ya, İslam dünyasına ve Avrupa’ya uzun yüzyıllar boyunca bağlayan geniş ticaret yolları ağına verdiği addır.",
+"Kervanların taşıdığı yalnız ipek değildi; baharat, kâğıt, porselen, değerli taşlar ve cam taşıdılar; onlarla birlikte bilgiler, fikirler ve dinler de yayıldı.",
+"Bu yol üzerinde Semerkant, Buhara ve Bağdat gibi büyük şehirler gelişti; dillerin ve kültürlerin buluştuğu ticaret ve ilim merkezleri hâline geldi.",
+"Bu ağ üzerinden aktarılan en önemli şeylerden biri, Müslümanların hicrî ikinci asırda Çinlilerden öğrendiği kâğıt yapımıdır; sonra Semerkant ve Bağdat’ta atölyeler kurdular ve kâğıt onlardan Avrupa’ya geçti.",
+"Yol boyunca yayılmış hanlar ve ribâtlar yolculara barınak, su ve güvenlik sağlıyordu; bunlar bugüne kadar kalmış İslam mimarisinin eserlerindendir.",
+"Çağımızda birçok ülke demiryolu ve liman projeleriyle İpek Yolu fikrini canlandırmaya çalışıyor; bu da coğrafyanın hâlâ tarih yaptığını gösteriyor."
+],
+"sozluk": [
+[
+"شبكة",
+"ağ"
+],
+[
+"القوافل",
+"kervanlar"
+],
+[
+"التوابل",
+"baharat"
+],
+[
+"الخزف",
+"porselen"
+],
+[
+"ازدهرت",
+"gelişti"
+],
+[
+"صناعة الورق",
+"kâğıt yapımı"
+],
+[
+"الخانات",
+"hanlar"
+],
+[
+"المأوى",
+"barınak"
+],
+[
+"السكك الحديدية",
+"demiryolları"
+]
+],
+"sorular": [
+{
+"s": "Müslümanlar kâğıt yapımını kimden öğrendi?",
+"k": [
+"Çinlilerden",
+"Romalılardan",
+"Hintlilerden",
+"Mısırlılardan"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Hanlar yolculara ne sağlardı?",
+"k": [
+"Barınak, su ve güvenlik",
+"Vergi",
+"Asker",
+"Gemi"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“التوابل” ne demektir?",
+"k": [
+"Baharat",
+"Kumaş",
+"Silah",
+"Kitap"
+],
+"d": 0,
+"a": ""
+}
+]
 }
 ],
 "kelime": [
