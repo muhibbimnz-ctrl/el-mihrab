@@ -54,10 +54,17 @@ h1{font-size:24px;margin:8px 0 4px;color:var(--accent)}h2{font-size:19px;margin:
 .pill{display:inline-block;padding:2px 10px;border-radius:999px;background:var(--goldSoft);font-size:13px}
 #toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:#222;color:#fff;padding:10px 16px;border-radius:12px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:50;max-width:90vw}
 #toast.on{opacity:.95}
+body.okGizli .cell small,body.okGizli .okn{visibility:hidden}
+body.okGizli .cell{padding-bottom:2px}
+.cell{background:linear-gradient(180deg,var(--card),var(--paper));box-shadow:0 2px 6px rgba(60,40,10,.06)}
+.cell.say{background:var(--accentSoft);border-color:var(--accent);transform:scale(1.04)}
+#okb.kapali{background:rgba(255,255,255,.08);outline:1.5px solid rgba(255,255,255,.5)}
+.ipucu{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--muted);margin:6px 2px 10px}
+.ipucu button{flex:none;border:1.5px solid var(--accent);background:var(--accentSoft);color:var(--accent);border-radius:999px;padding:6px 12px;font:600 13px system-ui;cursor:pointer}
 .nav{display:flex;justify-content:space-between;gap:8px;margin:20px 0}
 </style>
 </head><body>
-<div id="top"><a id="geri" href="./">‹ el-Mihrâb</a><b id="ttl">Kur'an Öğren</b><button id="ana" type="button" hidden>Dersler</button></div>
+<div id="top"><a id="geri" href="./">‹ el-Mihrâb</a><b id="ttl">Kur'an Öğren</b><button id="okb" type="button" title="Türkçe okunuşu göster/gizle">Okunuş ✓</button><button id="ana" type="button" hidden>Dersler</button></div>
 <main id="v"></main>
 <div id="toast"></div>
 <script>
@@ -69,6 +76,9 @@ function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;
 function ld(){try{return JSON.parse(localStorage.getItem(LSK))||{}}catch(e){return{}}}
 function sv(o){try{localStorage.setItem(LSK,JSON.stringify(o))}catch(e){}}
 var S=ld();S.ok=S.ok||{};
+function okAyarla(){document.body.classList.toggle('okGizli',!!S.gizli);var b=document.getElementById('okb');if(b){b.textContent=S.gizli?'Okunuş ✗':'Okunuş ✓';b.classList.toggle('kapali',!!S.gizli)}
+  [].forEach.call(document.querySelectorAll('.ipucu button'),function(x){x.textContent=S.gizli?'👁 Okunuşu göster':'🙈 Okunuşu gizle'})}
+function okDegis(){S.gizli=!S.gizli;sv(S);okAyarla();toast(S.gizli?'Türkçe okunuş gizlendi: önce kendin oku, sonra dokunup dinle.':'Türkçe okunuş gösteriliyor.')}
 function toast(t){var e=document.getElementById('toast');e.textContent=t;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(function(){e.classList.remove('on')},2600)}
 function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
 
@@ -118,7 +128,7 @@ var H=[
 ['ه','He','هَاء','Göğüsten gelen yumuşak H.','i'],
 ['ي','Ye','يَاء','Türkçedeki Y gibi. Altında iki nokta.','i']];
 var BITISMEZ='ادذرزو';
-var LAT={'ا':'','ب':'b','ت':'t','ث':'s̱','ج':'c','ح':'ḥ','خ':'h','د':'d','ذ':'ẕ','ر':'r','ز':'z','س':'s','ش':'ş','ص':'ṣ','ض':'ḍ','ط':'ṭ','ظ':'ẓ','ع':'ʿ','غ':'ğ','ف':'f','ق':'ḳ','ك':'k','ل':'l','م':'m','ن':'n','و':'v','ه':'h','ي':'y'};
+var LAT={'ا':'','ب':'b','ت':'t','ث':'s','ج':'c','ح':'h','خ':'h','د':'d','ذ':'z','ر':'r','ز':'z','س':'s','ش':'ş','ص':'s','ض':'d','ط':'t','ظ':'z','ع':'','غ':'ğ','ف':'f','ق':'k','ك':'k','ل':'l','م':'m','ن':'n','و':'v','ه':'h','ي':'y'};
 function hc(h){return (H.filter(function(x){return x[0]===h})[0]||[])[4]||'i'}
 var UNL={e:['e','i','ü'],i:['e','i','ü'],k:['a','ı','u'],h:['a','i','u']};
 var HAR=['َ','ِ','ُ'],HADI=['Üstün (fetha)','Esre (kesre)','Ötre (damme)'];
@@ -158,9 +168,9 @@ function anaSayfa(){
 function sayfa(d,ic){
   document.getElementById('ttl').textContent=d.no+'. '+d.t;document.getElementById('ana').hidden=false;
   var i=D.indexOf(d),on=D[i-1],ar=D[i+1];
-  V.innerHTML='<h1>'+esc(d.t)+'</h1><p class="lead">'+esc(d.s)+'</p>'+ic+(d.q?'<h2>Kendini dene</h2><div id="quiz" class="card quiz"></div>':'<div class="row"><button class="btn pri" id="bitir">'+(bitirildi(d.id)?'✓ Tamamlandı':'Bu dersi tamamladım')+'</button></div>')+
+  V.innerHTML='<h1>'+esc(d.t)+'</h1><p class="lead">'+esc(d.s)+'</p>'+(/class="cell/.test(ic)?'<div class="ipucu"><span>Kendini sınamak için Türkçe okunuşu gizle; okuyup dokunarak kontrol et.</span><button type="button" data-okd="1"></button></div>':'')+ic+(d.q?'<h2>Kendini dene</h2><div id="quiz" class="card quiz"></div>':'<div class="row"><button class="btn pri" id="bitir">'+(bitirildi(d.id)?'✓ Tamamlandı':'Bu dersi tamamladım')+'</button></div>')+
    '<div class="nav">'+(on?'<a class="btn" href="#'+on.id+'">‹ '+esc(on.t)+'</a>':'<span></span>')+(ar?'<a class="btn" href="#'+ar.id+'">'+esc(ar.t)+' ›</a>':'')+'</div>';
-  if(d.q)quiz(d,d.q());
+  okAyarla();if(d.q)quiz(d,d.q());
   var b=document.getElementById('bitir');if(b)b.onclick=function(){S.ok[d.id]=1;sv(S);b.textContent='✓ Tamamlandı';toast('Aferin! Ders tamamlandı.')};
   scrollTo(0,0)}
 function hucre(ar,alt,kalin,say){return '<div class="cell'+(kalin?' kalin':'')+'" data-say="'+esc(say||ar)+'"><span class="'+(ar.length>2?'syl':'harf')+'">'+esc(ar)+'</span><small>'+alt+'</small></div>'}
@@ -180,7 +190,7 @@ function harfGoster(i){
   [].forEach.call(document.querySelectorAll('[data-h]'),function(c){c.classList.toggle('on',+c.dataset.h===i)});
   el.innerHTML='<div class="big"><span class="harf'+(x[4]==='k'?'" style="color:#9a3412':'')+'">'+x[0]+'</span><b style="font-size:20px">'+x[1]+' <span class="ar" style="font-size:26px">'+x[2]+'</span></b><p style="margin:0;text-align:center">'+esc(x[3])+'</p>'+
    '<div class="forms"><div><span class="ar">'+f[0]+'</span><small>tek</small></div><div><span class="ar">'+f[1]+'</span><small>başta</small></div><div><span class="ar">'+f[2]+'</span><small>ortada</small></div><div><span class="ar">'+f[3]+'</span><small>sonda</small></div></div>'+
-   '<div class="row" style="justify-content:center"><button class="btn" data-say="'+x[2]+'">🔊 Adını dinle</button><button class="btn" data-say="'+x[0]+'َ '+x[0]+'ِ '+x[0]+'ُ">🔊 '+oku(x[0],0)+' · '+oku(x[0],1)+' · '+oku(x[0],2)+'</button></div></div>'}
+   '<div class="row" style="justify-content:center"><button class="btn" data-say="'+x[2]+'">🔊 Adını dinle</button><button class="btn" data-say="'+x[0]+'َ '+x[0]+'ِ '+x[0]+'ُ">🔊 <span class="ar" style="font-size:22px">'+x[0]+'َ '+x[0]+'ِ '+x[0]+'ُ</span> <span class="okn">('+oku(x[0],0)+' · '+oku(x[0],1)+' · '+oku(x[0],2)+')</span></button></div></div>'}
 function bitisik(){
   var h='<div class="card"><p>Harflerin çoğu hem önceki hem sonraki harfe bitişir. Ancak <b>6 harf</b> kendinden <b>sonraki</b> harfe bitişmez: <span class="ar" style="font-size:28px">ا د ذ ر ز و</span>. Bunlardan sonra gelen harf, kelimenin başındaymış gibi yazılır.</p></div><div class="card"><div class="forms" style="grid-template-columns:repeat(5,1fr);font-size:13px"><div><b>Harf</b></div><div><b>Tek</b></div><div><b>Başta</b></div><div><b>Ortada</b></div><div><b>Sonda</b></div>';
   H.forEach(function(x){var f=formlar(x[0]);h+='<div><span class="ar" style="font-size:20px">'+x[1]+'</span></div>'+f.map(function(y){return '<div data-say="'+x[2]+'"><span class="ar">'+y+'</span></div>'}).join('')});
@@ -258,8 +268,8 @@ function quiz(d,Q){
   goster()}
 
 /* ---------- yönlendirme ---------- */
-document.addEventListener('click',function(e){var s=e.target.closest('[data-say]');if(s&&!e.target.closest('[data-o]'))soyle(s.dataset.say);var hh=e.target.closest('[data-h]');if(hh){harfGoster(+hh.dataset.h);soyle(H[+hh.dataset.h][2])}});
-document.getElementById('ana').onclick=function(){location.hash=''};
+document.addEventListener('click',function(e){var s=e.target.closest('[data-say]');if(e.target.closest('[data-okd]')){okDegis();return}if(s&&!e.target.closest('[data-o]')){soyle(s.dataset.say);if(s.classList.contains('cell')){s.classList.add('say');setTimeout(function(){s.classList.remove('say')},700)}}var hh=e.target.closest('[data-h]');if(hh){harfGoster(+hh.dataset.h);soyle(H[+hh.dataset.h][2])}});
+document.getElementById('ana').onclick=function(){location.hash=''};document.getElementById('okb').onclick=okDegis;okAyarla();
 try{if(/medrese=1/.test(location.search)){var g=document.getElementById('geri');g.href='medrese.html';g.textContent='‹ Medrese'}}catch(e){}
 function yol(){try{durdur();var id=(location.hash||'').slice(1),d=D.filter(function(x){return x.id===id})[0];if(d)d.f.call(d);else anaSayfa()}catch(e){V.innerHTML='<div class="card"><p>Bir sorun oluştu. <a href="#" onclick="location.reload()">Yenile</a></p></div>';try{console.warn(e)}catch(x){}}}
 addEventListener('hashchange',yol);yol();
