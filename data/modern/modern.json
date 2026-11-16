@@ -5796,6 +5796,770 @@
 "a": ""
 }
 ]
+},
+{
+"id": "hicaz-demiryolu",
+"alan": "tarih",
+"baslik": "Hicaz Demiryolu",
+"ar_baslik": "سكة حديد الحجاز",
+"konu": "Hicaz Demiryolu",
+"seviye": "B2",
+"ar": [
+"في مطلع القرن العشرين أطلق السلطان العثماني عبد الحميد الثاني مشروع سكة حديد الحجاز لربط دمشق بالمدينة المنورة، تيسيرا لرحلة الحجاج التي كانت تستغرق أسابيع على ظهور الإبل.",
+"وقد مُوّل المشروع في معظمه من تبرعات المسلمين في أنحاء العالم، من الهند إلى المغرب، فكان رمزا للتضامن الإسلامي في عصر اشتدت فيه الأطماع الاستعمارية.",
+"وواجه المهندسون صعوبات هائلة، من حرارة الصحراء وندرة الماء إلى السيول وهجمات بعض القبائل، لكن العمل مضى بسرعة لافتة.",
+"وفي سنة ١٩٠٨ وصل أول قطار إلى المدينة المنورة، فاختصرت الرحلة من دمشق إلى أيام قليلة، وانتعشت المدن والمحطات الواقعة على الخط.",
+"غير أن الخط لم يعمر طويلا، إذ تعرض للتخريب المتكرر في أثناء الحرب العالمية الأولى، ثم تقاسمت الدول التي نشأت بعد الحرب أجزاءه فتوقف عن العمل.",
+"وما زالت محطاته وجسوره الحجرية قائمة في الأردن والسعودية وسوريا، شاهدة على حلم كبير جمع بين التقنية الحديثة وخدمة ضيوف الرحمن."
+],
+"tr": [
+"Yirminci yüzyılın başında Osmanlı Sultanı II. Abdülhamid, deve sırtında haftalar süren hac yolculuğunu kolaylaştırmak için Şam’ı Medine-i Münevvere’ye bağlayan Hicaz Demiryolu projesini başlattı.",
+"Proje büyük ölçüde Hindistan’dan Fas’a kadar dünyanın dört bir yanındaki Müslümanların bağışlarıyla finanse edildi; sömürgeci hırsların arttığı bir çağda İslami dayanışmanın sembolü oldu.",
+"Mühendisler çöl sıcağından su kıtlığına, sellerden bazı kabilelerin saldırılarına kadar büyük zorluklarla karşılaştı; ama çalışma dikkat çekici bir hızla ilerledi.",
+"1908’de ilk tren Medine’ye ulaştı; Şam’dan yolculuk birkaç güne indi, hat üzerindeki şehirler ve istasyonlar canlandı.",
+"Ancak hat uzun ömürlü olmadı; Birinci Dünya Savaşı sırasında tekrar tekrar tahrip edildi, sonra savaştan sonra kurulan devletler parçalarını paylaştı ve hat çalışmaz oldu.",
+"İstasyonları ve taş köprüleri Ürdün, Suudi Arabistan ve Suriye’de hâlâ ayakta; modern teknoloji ile Rahmân’ın misafirlerine hizmeti birleştiren büyük bir hayalin şahidi olarak duruyor."
+],
+"sozluk": [
+[
+"سكة حديد",
+"demiryolu"
+],
+[
+"تيسيرا",
+"kolaylaştırmak için"
+],
+[
+"تبرعات",
+"bağışlar"
+],
+[
+"التضامن",
+"dayanışma"
+],
+[
+"الأطماع الاستعمارية",
+"sömürgeci hırslar"
+],
+[
+"السيول",
+"seller"
+],
+[
+"انتعشت",
+"canlandı"
+],
+[
+"ضيوف الرحمن",
+"Rahmân’ın misafirleri (hacılar)"
+]
+],
+"sorular": [
+{
+"s": "Proje büyük ölçüde nasıl finanse edildi?",
+"k": [
+"Müslümanların bağışlarıyla",
+"Avrupa kredisiyle",
+"Petrol geliriyle",
+"Vergi ile"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "İlk tren Medine’ye ne zaman ulaştı?",
+"k": [
+"1908",
+"1876",
+"1923",
+"1950"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“تبرعات” ne demektir?",
+"k": [
+"Bağışlar",
+"Vergiler",
+"Seller",
+"İstasyonlar"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "ibn-haldun",
+"alan": "tarih",
+"baslik": "İbn Haldûn",
+"ar_baslik": "ابن خلدون ومقدمته",
+"konu": "İbn Haldûn",
+"seviye": "C1",
+"ar": [
+"ولد عبد الرحمن بن خلدون في تونس سنة ٧٣٢ للهجرة، وتنقل بين بلاطات المغرب والأندلس ومصر، فتولى مناصب سياسية وقضائية وشهد تقلبات الدول عن قرب.",
+"وفي عزلة قضاها في قلعة ابن سلامة بالجزائر كتب مقدمة كتابه في التاريخ، فجاءت عملا مستقلا يعد من أعظم ما أنتجه الفكر الإنساني في فهم المجتمع.",
+"وانتقد ابن خلدون المؤرخين الذين ينقلون الأخبار دون تمحيص، ودعا إلى عرضها على طبائع العمران وقوانين الاجتماع، فما خالفها فهو مردود.",
+"ومن أشهر أفكاره نظرية العصبية، أي رابطة التضامن التي تجمع الجماعة وتمكنها من تأسيس الدولة، ثم تضعف هذه الرابطة بالترف حتى تسقط الدولة وتقوم أخرى.",
+"ورأى أن للدولة أعمارا كأعمار الأشخاص، تمر بأطوار النشأة والقوة ثم الترف والضعف، وقدّر عمرها غالبا بثلاثة أجيال.",
+"ولهذا يعده كثير من الباحثين في الشرق والغرب مؤسس علم الاجتماع وأحد رواد فلسفة التاريخ وعلم الاقتصاد."
+],
+"tr": [
+"Abdurrahman İbn Haldûn hicrî 732’de Tunus’ta doğdu; Mağrib, Endülüs ve Mısır sarayları arasında dolaştı, siyasi ve kazâî görevler üstlendi ve devletlerin inişli çıkışlı hâllerine yakından şahit oldu.",
+"Cezayir’deki İbn Selâme Kalesi’nde geçirdiği bir inziva döneminde tarih kitabının Mukaddime’sini yazdı; bu eser, toplumu anlamada insan düşüncesinin ürettiği en büyük çalışmalardan sayılan bağımsız bir eser oldu.",
+"İbn Haldûn haberleri eleştirmeden nakleden tarihçileri tenkit etti; onları umrânın tabiatına ve içtimaî kanunlara arz etmeye çağırdı; bunlara aykırı olan reddedilir.",
+"En meşhur fikirlerinden biri asabiyet teorisidir: topluluğu bir araya getiren ve devlet kurmasını sağlayan dayanışma bağı; bu bağ refahla zayıflar, devlet düşer ve başka bir devlet kurulur.",
+"Devletin de insanlar gibi ömürleri olduğunu, doğuş ve güç, sonra refah ve zayıflık evrelerinden geçtiğini düşündü; ömrünü çoğunlukla üç nesil olarak tahmin etti.",
+"Bu yüzden Doğu’da ve Batı’da birçok araştırmacı onu sosyolojinin kurucusu, tarih felsefesinin ve iktisat ilminin öncülerinden biri sayar."
+],
+"sozluk": [
+[
+"بلاطات",
+"saraylar"
+],
+[
+"تقلبات",
+"iniş çıkışlar"
+],
+[
+"عزلة",
+"inziva"
+],
+[
+"تمحيص",
+"eleştirel inceleme"
+],
+[
+"طبائع العمران",
+"umrânın tabiatı"
+],
+[
+"العصبية",
+"asabiyet"
+],
+[
+"الترف",
+"lüks, refah"
+],
+[
+"أطوار",
+"evreler"
+],
+[
+"رواد",
+"öncüler"
+]
+],
+"sorular": [
+{
+"s": "Asabiyet nedir?",
+"k": [
+"Topluluğu bir araya getiren dayanışma bağı",
+"Bir vergi türü",
+"Bir ordu birliği",
+"Bir kale adı"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "İbn Haldûn’a göre devletin ömrü çoğunlukla ne kadardır?",
+"k": [
+"Üç nesil",
+"On nesil",
+"Bir yıl",
+"Bin yıl"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الترف” ne demektir?",
+"k": [
+"Lüks, refah",
+"Fakirlik",
+"Savaş",
+"İlim"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "ibn-heysem",
+"alan": "bilim",
+"baslik": "İbn Heysem ve optik",
+"ar_baslik": "ابن الهيثم وعلم البصريات",
+"konu": "İbn Heysem ve optik",
+"seviye": "B2",
+"ar": [
+"يعد الحسن بن الهيثم الذي عاش في البصرة والقاهرة في القرن الرابع والخامس للهجرة من أعظم علماء الفيزياء في التاريخ.",
+"وكان العلماء قبله يختلفون في كيفية الإبصار، فمنهم من يرى أن العين ترسل أشعة إلى الأشياء، فجاء ابن الهيثم ليثبت أن الضوء ينعكس عن الأشياء ويدخل العين.",
+"وقد ألف كتابه المناظر الذي درس فيه انعكاس الضوء وانكساره وتشريح العين، وترجم إلى اللاتينية فبقي مرجعا لعلماء أوروبا قرونا طويلة.",
+"وتميز منهجه بالاعتماد على التجربة والقياس، فكان لا يقبل فكرة حتى يختبرها بأدوات صنعها بنفسه، ولهذا يراه بعض المؤرخين من رواد المنهج العلمي التجريبي.",
+"ومن أشهر تجاربه البيت المظلم، وهو غرفة مظلمة في جدارها ثقب صغير تظهر منه صورة مقلوبة للأشياء الخارجية، وهي الفكرة التي قامت عليها آلة التصوير.",
+"وقد احتفلت منظمة اليونسكو بإنجازاته حين أعلنت عام ٢٠١٥ سنة دولية للضوء، تقديرا لمرور ألف عام على كتابه."
+],
+"tr": [
+"Hicrî dördüncü ve beşinci asırda Basra ve Kahire’de yaşayan Hasan İbnü’l-Heysem tarihin en büyük fizikçilerinden sayılır.",
+"Ondan önceki âlimler görmenin nasıl olduğunda ihtilaf ediyordu; bazıları gözün eşyaya ışın gönderdiğini düşünüyordu; İbnü’l-Heysem ışığın eşyadan yansıyıp göze girdiğini ispatladı.",
+"Işığın yansımasını, kırılmasını ve gözün anatomisini incelediği Kitâbü’l-Menâzır’ı yazdı; eser Latinceye çevrildi ve uzun yüzyıllar Avrupa âlimleri için kaynak kaldı.",
+"Yöntemi deney ve ölçüme dayanmasıyla öne çıktı; kendi yaptığı aletlerle test etmeden bir fikri kabul etmezdi; bu yüzden bazı tarihçiler onu deneysel bilimsel yöntemin öncülerinden görür.",
+"En meşhur deneylerinden biri karanlık odadır: duvarında küçük bir delik bulunan karanlık bir oda; delikten dışarıdaki eşyaların ters bir görüntüsü belirir; fotoğraf makinesi bu fikir üzerine kurulmuştur.",
+"UNESCO, kitabının bininci yılını anmak için 2015’i Uluslararası Işık Yılı ilan ederek onun başarılarını kutladı."
+],
+"sozluk": [
+[
+"البصريات",
+"optik"
+],
+[
+"الإبصار",
+"görme"
+],
+[
+"ينعكس",
+"yansır"
+],
+[
+"انكساره",
+"kırılması"
+],
+[
+"تشريح",
+"anatomi"
+],
+[
+"التجربة",
+"deney"
+],
+[
+"ثقب",
+"delik"
+],
+[
+"مقلوبة",
+"ters"
+],
+[
+"آلة التصوير",
+"fotoğraf makinesi"
+]
+],
+"sorular": [
+{
+"s": "İbnü’l-Heysem görme hakkında neyi ispatladı?",
+"k": [
+"Işığın eşyadan yansıyıp göze girdiğini",
+"Gözün ışın gönderdiğini",
+"Görmenin hayal olduğunu",
+"Işığın sesten yavaş olduğunu"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Karanlık oda hangi aletin temelidir?",
+"k": [
+"Fotoğraf makinesi",
+"Teleskop",
+"Pusula",
+"Saat"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“مقلوبة” ne demektir?",
+"k": [
+"Ters",
+"Renkli",
+"Büyük",
+"Net"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "harezmi",
+"alan": "bilim",
+"baslik": "Hârizmî ve cebir",
+"ar_baslik": "الخوارزمي أبو الجبر",
+"konu": "Hârizmî ve cebir",
+"seviye": "B2",
+"ar": [
+"عاش محمد بن موسى الخوارزمي في بغداد في عهد الخليفة المأمون، وعمل في بيت الحكمة حيث ترجم العلماء علوم الأمم السابقة وطوروها.",
+"وألف كتابه المختصر في حساب الجبر والمقابلة، فوضع فيه طرقا منظمة لحل المعادلات، ومن عنوانه انتقلت كلمة الجبر إلى اللغات الأوروبية.",
+"ولم يكتب الخوارزمي كتابه للعلماء وحدهم، بل قصد به حل مسائل الناس العملية في المواريث والوصايا والتجارة ومساحة الأراضي.",
+"كما أسهم في نشر الأرقام الهندية والنظام العشري الذي يعتمد على الصفر، ومنه انتقلت إلى أوروبا عبر الأندلس فيما عرف بالأرقام العربية.",
+"ومن اسمه اشتقت كلمة الخوارزمية التي تعني مجموعة خطوات محددة لحل مسألة، وهي اليوم أساس كل برامج الحاسوب.",
+"وهكذا يحمل عالمنا الرقمي الحديث، دون أن يشعر كثيرون، أثر عالم مسلم عاش قبل أكثر من ألف ومئتي عام."
+],
+"tr": [
+"Muhammed b. Mûsâ el-Hârizmî Halife Me’mûn döneminde Bağdat’ta yaşadı; âlimlerin önceki milletlerin ilimlerini tercüme edip geliştirdiği Beytülhikme’de çalıştı.",
+"el-Muhtasar fî hisâbi’l-cebr ve’l-mukâbele kitabını yazdı; denklemleri çözmek için düzenli yöntemler koydu; “cebir” kelimesi bu kitabın adından Avrupa dillerine geçti.",
+"Hârizmî kitabını yalnız âlimler için yazmadı; miras, vasiyet, ticaret ve arazi ölçümü gibi insanların pratik meselelerini çözmeyi amaçladı.",
+"Ayrıca Hint rakamlarının ve sıfıra dayanan onluk sistemin yayılmasına katkıda bulundu; bunlar ondan Endülüs yoluyla Avrupa’ya “Arap rakamları” adıyla geçti.",
+"Adından, bir meseleyi çözmek için belirli adımlar dizisi anlamına gelen “algoritma” kelimesi türetildi; bu bugün bütün bilgisayar programlarının temelidir.",
+"Böylece modern dijital dünyamız, çoğu kimse farkında olmadan, bin iki yüz yıldan fazla önce yaşamış Müslüman bir âlimin izini taşıyor."
+],
+"sozluk": [
+[
+"الجبر",
+"cebir"
+],
+[
+"المعادلات",
+"denklemler"
+],
+[
+"المواريث",
+"miraslar"
+],
+[
+"الوصايا",
+"vasiyetler"
+],
+[
+"مساحة الأراضي",
+"arazi ölçümü"
+],
+[
+"النظام العشري",
+"onluk sistem"
+],
+[
+"الصفر",
+"sıfır"
+],
+[
+"الخوارزمية",
+"algoritma"
+]
+],
+"sorular": [
+{
+"s": "“Cebir” kelimesi nereden geldi?",
+"k": [
+"Hârizmî’nin kitabının adından",
+"Latince bir kelimeden",
+"Bir şehir adından",
+"Bir halifenin adından"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Hârizmî kitabını kimin için yazdı?",
+"k": [
+"İnsanların pratik meseleleri için de",
+"Yalnız halife için",
+"Sadece öğrenciler için",
+"Askerler için"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الصفر” ne demektir?",
+"k": [
+"Sıfır",
+"Bir",
+"On",
+"Kesir"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "dna",
+"alan": "bilim",
+"baslik": "DNA ve genetik",
+"ar_baslik": "الحمض النووي: كتاب الحياة",
+"konu": "DNA ve genetik",
+"seviye": "B2",
+"ar": [
+"يحمل كل خلية من خلايا جسم الإنسان تقريبا جزيئا عجيبا يسمى الحمض النووي، فيه التعليمات اللازمة لبناء الجسم وتشغيله.",
+"ويتكون هذا الجزيء من سلسلتين ملتفتين على شكل سلم حلزوني، وتتألف درجاته من أربع قواعد كيميائية يشكل ترتيبها ما يشبه الحروف في كتاب طويل.",
+"وفي سنة ٢٠٠٣ أعلن العلماء الانتهاء من قراءة الجينوم البشري كاملا بعد مشروع دولي استمر ثلاثة عشر عاما، فكانت تلك لحظة فارقة في تاريخ الطب.",
+"ومنذ ذلك الحين صار ممكنا الكشف عن كثير من الأمراض الوراثية مبكرا، وتصميم علاجات تناسب التكوين الجيني لكل مريض، فيما يعرف بالطب الشخصي.",
+"كما تستخدم تحاليل الحمض النووي في الطب الشرعي لتحديد هوية الأشخاص، وفي إثبات النسب، وفي دراسة تاريخ الشعوب وهجراتها.",
+"لكن هذه القدرات الهائلة تثير أسئلة أخلاقية دقيقة حول خصوصية المعلومات الجينية وحدود التعديل في الصفات الوراثية، مما يستدعي ضوابط علمية وشرعية واضحة."
+],
+"tr": [
+"İnsan bedeninin hemen her hücresi, DNA denilen ve bedeni kurmak ve çalıştırmak için gerekli talimatları taşıyan şaşırtıcı bir molekül taşır.",
+"Bu molekül sarmal merdiven şeklinde birbirine dolanmış iki zincirden oluşur; basamakları dizilişi uzun bir kitaptaki harflere benzeyen dört kimyasal bazdan meydana gelir.",
+"2003’te bilim insanları on üç yıl süren uluslararası bir projeden sonra insan genomunun tamamının okunduğunu ilan etti; bu, tıp tarihinde bir dönüm noktasıydı.",
+"O zamandan beri birçok kalıtsal hastalığı erken teşhis etmek ve kişiselleştirilmiş tıp denilen yaklaşımla her hastanın genetik yapısına uygun tedaviler tasarlamak mümkün oldu.",
+"DNA tahlilleri adli tıpta kimlik tespiti için, nesep ispatında ve halkların tarihi ile göçlerini incelemede de kullanılıyor.",
+"Ancak bu büyük imkânlar genetik bilgilerin mahremiyeti ve kalıtsal özelliklerde değişikliğin sınırları hakkında hassas ahlaki sorular doğuruyor; bu da açık bilimsel ve şer‘î ölçüler gerektiriyor."
+],
+"sozluk": [
+[
+"الحمض النووي",
+"DNA"
+],
+[
+"جزيئا",
+"molekül"
+],
+[
+"حلزوني",
+"sarmal"
+],
+[
+"القواعد",
+"bazlar"
+],
+[
+"الجينوم",
+"genom"
+],
+[
+"الأمراض الوراثية",
+"kalıtsal hastalıklar"
+],
+[
+"الطب الشرعي",
+"adli tıp"
+],
+[
+"إثبات النسب",
+"nesep ispatı"
+],
+[
+"ضوابط",
+"ölçüler, kurallar"
+]
+],
+"sorular": [
+{
+"s": "İnsan genomunun okunması ne zaman ilan edildi?",
+"k": [
+"2003",
+"1953",
+"1990",
+"2020"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Kişiselleştirilmiş tıp nedir?",
+"k": [
+"Hastanın genetik yapısına uygun tedavi",
+"Evde tedavi",
+"Bitkisel tedavi",
+"Ucuz tedavi"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“الطب الشرعي” ne demektir?",
+"k": [
+"Adli tıp",
+"Halk sağlığı",
+"Diş hekimliği",
+"Eczacılık"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "plastik",
+"alan": "cevre",
+"baslik": "Plastik kirliliği",
+"ar_baslik": "البلاستيك: راحة اليوم وعبء الغد",
+"konu": "Plastik kirliliği",
+"seviye": "B1",
+"ar": [
+"يدخل البلاستيك في كل شيء تقريبا من حولنا، من زجاجات الماء وأكياس التسوق إلى الأجهزة والسيارات.",
+"وتكمن مشكلته في أنه لا يتحلل في الطبيعة إلا بعد مئات السنين، فيتراكم في التربة والأنهار والبحار.",
+"وتقدر الدراسات أن ملايين الأطنان من البلاستيك تصل إلى المحيطات كل عام، فتختنق بها السلاحف والطيور البحرية التي تظنها طعاما.",
+"والأخطر من ذلك أن البلاستيك يتفتت إلى جسيمات دقيقة جدا تسمى اللدائن الدقيقة، وقد عثر عليها العلماء في مياه الشرب والأسماك بل في دم الإنسان.",
+"ولمواجهة المشكلة فرضت دول كثيرة رسوما على الأكياس البلاستيكية أو منعتها، وشجعت على إعادة التدوير واستعمال البدائل القابلة للتحلل.",
+"ويستطيع كل فرد أن يسهم في الحل بخطوات بسيطة، كحمل كيس قماشي عند التسوق، واستخدام قارورة ماء قابلة لإعادة الملء، ورفض الأدوات البلاستيكية التي تستعمل مرة واحدة."
+],
+"tr": [
+"Plastik etrafımızdaki hemen her şeye girer: su şişelerinden ve alışveriş poşetlerinden cihazlara ve arabalara kadar.",
+"Sorunu, doğada ancak yüzlerce yıl sonra çözünmesidir; bu yüzden toprakta, nehirlerde ve denizlerde birikir.",
+"Araştırmalar her yıl milyonlarca ton plastiğin okyanuslara ulaştığını tahmin ediyor; onu yiyecek sanan kaplumbağalar ve deniz kuşları onunla boğuluyor.",
+"Daha da tehlikelisi, plastiğin mikroplastik denilen çok küçük parçacıklara ayrılmasıdır; bilim insanları bunları içme suyunda, balıklarda, hatta insan kanında buldu.",
+"Sorunla mücadele için birçok ülke plastik poşetlere ücret koydu veya onları yasakladı, geri dönüşümü ve çözünebilir alternatiflerin kullanımını teşvik etti.",
+"Her fert basit adımlarla çözüme katkıda bulunabilir: alışverişte bez çanta taşımak, tekrar doldurulabilir su şişesi kullanmak ve tek kullanımlık plastik eşyaları reddetmek gibi."
+],
+"sozluk": [
+[
+"يتحلل",
+"çözünür"
+],
+[
+"يتراكم",
+"birikir"
+],
+[
+"الأطنان",
+"tonlar"
+],
+[
+"السلاحف",
+"kaplumbağalar"
+],
+[
+"يتفتت",
+"parçalanır"
+],
+[
+"اللدائن الدقيقة",
+"mikroplastikler"
+],
+[
+"إعادة التدوير",
+"geri dönüşüm"
+],
+[
+"كيس قماشي",
+"bez çanta"
+]
+],
+"sorular": [
+{
+"s": "Plastiğin temel sorunu nedir?",
+"k": [
+"Doğada çok geç çözünmesi",
+"Çok pahalı olması",
+"Ağır olması",
+"Az bulunması"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Mikroplastikler nerede bulundu?",
+"k": [
+"İçme suyu, balık ve insan kanında",
+"Sadece çölde",
+"Yalnız uzayda",
+"Hiçbir yerde"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“إعادة التدوير” ne demektir?",
+"k": [
+"Geri dönüşüm",
+"Yakma",
+"Gömme",
+"Üretim"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "ormanlar",
+"alan": "cevre",
+"baslik": "Ormanlar",
+"ar_baslik": "الغابات رئة الأرض",
+"konu": "Ormanlar",
+"seviye": "B2",
+"ar": [
+"تغطي الغابات نحو ثلث مساحة اليابسة، وتؤوي أكثر من نصف أنواع الكائنات الحية البرية المعروفة.",
+"وتؤدي الأشجار دورا حيويا في امتصاص ثاني أكسيد الكربون وإطلاق الأكسجين، ولذلك توصف الغابات بأنها رئة الأرض.",
+"كما تحمي الغابات التربة من الانجراف، وتنظم دورة المياه، وتوفر الغذاء والدواء وسبل العيش لملايين البشر.",
+"غير أن العالم يفقد كل عام ملايين الهكتارات من الغابات بسبب قطع الأشجار وتوسع الزراعة والحرائق التي تزداد حدتها مع ارتفاع درجات الحرارة.",
+"وتنعكس هذه الخسارة على المناخ والتنوع الحيوي معا، فحين تحترق الغابة أو تقطع ينطلق الكربون المخزون فيها إلى الجو.",
+"ولذلك تتسع حملات التشجير في دول كثيرة، ويحث المختصون على حماية الغابات القائمة أولا، لأن الشجرة المعمرة لا تعوضها شتلة صغيرة إلا بعد عقود طويلة."
+],
+"tr": [
+"Ormanlar karaların yaklaşık üçte birini kaplar ve bilinen kara canlı türlerinin yarısından fazlasını barındırır.",
+"Ağaçlar karbondioksiti emip oksijen salmada hayati bir rol oynar; bu yüzden ormanlar dünyanın akciğeri olarak nitelenir.",
+"Ormanlar ayrıca toprağı erozyondan korur, su döngüsünü düzenler ve milyonlarca insana gıda, ilaç ve geçim kaynağı sağlar.",
+"Ancak dünya her yıl ağaç kesimi, tarımın genişlemesi ve sıcaklıkların artmasıyla şiddeti artan yangınlar yüzünden milyonlarca hektar orman kaybediyor.",
+"Bu kayıp hem iklime hem biyolojik çeşitliliğe yansır; orman yandığında veya kesildiğinde içinde depolanan karbon atmosfere salınır.",
+"Bu yüzden birçok ülkede ağaçlandırma kampanyaları yaygınlaşıyor; uzmanlar önce mevcut ormanların korunmasını öneriyor, çünkü yaşlı bir ağacın yerini küçük bir fidan ancak uzun on yıllar sonra tutabilir."
+],
+"sozluk": [
+[
+"اليابسة",
+"kara"
+],
+[
+"تؤوي",
+"barındırır"
+],
+[
+"امتصاص",
+"emme"
+],
+[
+"الانجراف",
+"erozyon"
+],
+[
+"سبل العيش",
+"geçim kaynakları"
+],
+[
+"الهكتارات",
+"hektarlar"
+],
+[
+"التنوع الحيوي",
+"biyolojik çeşitlilik"
+],
+[
+"التشجير",
+"ağaçlandırma"
+],
+[
+"شتلة",
+"fidan"
+]
+],
+"sorular": [
+{
+"s": "Ormanlar neden dünyanın akciğeri olarak nitelenir?",
+"k": [
+"Karbondioksit emip oksijen saldıkları için",
+"Çok büyük oldukları için",
+"Yağmur yağdırdıkları için",
+"Hayvan barındırdıkları için"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Uzmanlar önce neyi öneriyor?",
+"k": [
+"Mevcut ormanları korumayı",
+"Yalnız fidan dikmeyi",
+"Ağaç kesmeyi",
+"Tarımı genişletmeyi"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“التشجير” ne demektir?",
+"k": [
+"Ağaçlandırma",
+"Erozyon",
+"Yangın",
+"Kesim"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "geri-donusum",
+"alan": "cevre",
+"baslik": "Atık ve geri dönüşüm",
+"ar_baslik": "من النفايات إلى الموارد",
+"konu": "Atık ve geri dönüşüm",
+"seviye": "B1",
+"ar": [
+"تنتج المدن الحديثة كميات هائلة من النفايات كل يوم، يذهب معظمها إلى مكبات مفتوحة تلوث الهواء والتربة والمياه الجوفية.",
+"ويرى خبراء البيئة أن جزءا كبيرا من هذه النفايات ليس قمامة في الحقيقة، بل موارد يمكن استعادتها، كالورق والزجاج والمعادن وبعض أنواع البلاستيك.",
+"فإعادة تدوير طن واحد من الورق مثلا توفر عددا كبيرا من الأشجار وكميات من الماء والطاقة، وإعادة تدوير الألومنيوم توفر معظم الطاقة اللازمة لإنتاجه من جديد.",
+"أما بقايا الطعام والحدائق فيمكن تحويلها إلى سماد عضوي يغذي التربة بدل أن يتعفن في المكبات وينتج غازات ضارة.",
+"ويبدأ النجاح من البيت، بفرز النفايات في أكياس منفصلة، ثم يأتي دور البلديات في جمعها ونقلها إلى مصانع مخصصة.",
+"وتلخص قاعدة شهيرة هذا النهج في ثلاث كلمات: قلل، وأعد الاستعمال، وأعد التدوير، وأولها أهمها لأن أفضل نفاية هي التي لم تنتج أصلا."
+],
+"tr": [
+"Modern şehirler her gün muazzam miktarda atık üretiyor; çoğu havayı, toprağı ve yeraltı sularını kirleten açık çöplüklere gidiyor.",
+"Çevre uzmanları bu atıkların büyük bir kısmının aslında çöp olmadığını, kâğıt, cam, metal ve bazı plastik türleri gibi geri kazanılabilecek kaynaklar olduğunu düşünüyor.",
+"Mesela bir ton kâğıdın geri dönüştürülmesi çok sayıda ağaçtan, sudan ve enerjiden tasarruf sağlar; alüminyumun geri dönüşümü ise onu yeniden üretmek için gereken enerjinin çoğunu kazandırır.",
+"Yemek ve bahçe artıkları ise çöplüklerde çürüyüp zararlı gazlar üretmek yerine toprağı besleyen organik gübreye dönüştürülebilir.",
+"Başarı evde, atıkları ayrı poşetlerde ayrıştırmakla başlar; sonra onları toplayıp özel tesislere taşımada belediyelerin rolü gelir.",
+"Meşhur bir kural bu yaklaşımı üç kelimede özetler: azalt, yeniden kullan, geri dönüştür; ilki en önemlisidir, çünkü en iyi atık hiç üretilmemiş olandır."
+],
+"sozluk": [
+[
+"النفايات",
+"atıklar"
+],
+[
+"مكبات",
+"çöplükler"
+],
+[
+"المياه الجوفية",
+"yeraltı suları"
+],
+[
+"استعادتها",
+"geri kazanılması"
+],
+[
+"الألومنيوم",
+"alüminyum"
+],
+[
+"سماد عضوي",
+"organik gübre"
+],
+[
+"يتعفن",
+"çürür"
+],
+[
+"فرز",
+"ayrıştırma"
+],
+[
+"البلديات",
+"belediyeler"
+]
+],
+"sorular": [
+{
+"s": "Kuralın en önemli adımı hangisidir?",
+"k": [
+"Azaltmak",
+"Geri dönüştürmek",
+"Yakmak",
+"Gömmek"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Yemek artıkları neye dönüştürülebilir?",
+"k": [
+"Organik gübreye",
+"Plastiğe",
+"Cama",
+"Kâğıda"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“فرز” ne demektir?",
+"k": [
+"Ayrıştırma",
+"Yakma",
+"Satma",
+"Taşıma"
+],
+"d": 0,
+"a": ""
+}
+]
 }
 ],
 "kelime": [
