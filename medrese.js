@@ -267,6 +267,7 @@ function route(){
   if(p0 === 'tekrar') return YUK.then(() => alistirma({ scope: 'tekrar' }));
   if(p0 === 'yanlislar') return YUK.then(yanlislar);
   if(p0 === 'rapor') return YUK.then(rapor);
+  if(p0 === 'oyun' && p1 === 'vezin') return vezinOyunu();
   if(p0 === 'oyun') return babOyunu(p1 === 'hizli');
   if(p0 === 'yol') return yolSayfa(p1);
   if(p0 === 'oyunlar') return oyunlar();
@@ -306,7 +307,25 @@ function oyunlar(){
    <button onclick="go('/gunluk')"><b>Günün sorusu</b><span>☀</span><small>Herkes aynı soruyu çözer</small></button>
    <button onclick="go('/irab')"><b>İ‘râb oyunu</b><span lang="ar">رفع؟ نصب؟</span><small>Kur’an âyetleriyle</small></button>
    <button onclick="go('/oyun')"><b>Bâb bul</b><span lang="ar">نَصَرَ؟ ضَرَبَ؟</span><small>Kur’an fiillerinden</small></button>
+   <button onclick="go('/oyun/vezin')"><b>Vezin bul</b><span lang="ar">فَاعِل؟ مَفْعُول؟</span><small>En iyi: ${LS.get('medrese.vezinBest', 0)}/10</small></button>
    <button onclick="go('/oyun/hizli')"><b>Hızlı tur</b><span>60 saniye</span><small>En iyi: ${LS.get('medrese.babBest', 0)}</small></button></div></div>`;
+}
+/* ---- Vezin bul oyunu ---- */
+const VEZIN = 'كاتِب فاعِل|شاكِر فاعِل|مَكْتُوب مَفْعُول|مَنْصُور مَفْعُول|رَحِيم فَعِيل|عَلِيم فَعِيل|غَفّار فَعّال|صَبّار فَعّال|مِفْتاح مِفْعال|مِحْراب مِفْعال|مَسْجِد مَفْعِل|مَنْزِل مَفْعِل|مَذْهَب مَفْعَل|مَكْتَب مَفْعَل|مِنْبَر مِفْعَل|أَكْبَر أَفْعَل|أَعْلَم أَفْعَل|كُبْرَى فُعْلَى|حُسْنَى فُعْلَى|رَحْمان فَعْلان|عَطْشان فَعْلان|إِسْلام إِفْعال|إِكْرام إِفْعال|تَعْلِيم تَفْعِيل|تَسْبِيح تَفْعِيل|مُجاهَدَة مُفاعَلَة|مُشاوَرَة مُفاعَلَة|اِنْقِلاب اِنْفِعال|اِنْكِسار اِنْفِعال|اِجْتِماع اِفْتِعال|اِخْتِلاف اِفْتِعال|تَكَبُّر تَفَعُّل|تَعَلُّم تَفَعُّل|تَعاوُن تَفاعُل|تَباعُد تَفاعُل|اِسْتِغْفار اِسْتِفْعال|اِسْتِخْراج اِسْتِفْعال|مُؤْمِن مُفْعِل|مُرْسِل مُفْعِل|مُعَلِّم مُفَعِّل|مُسَبِّح مُفَعِّل|مُسْتَغْفِر مُسْتَفْعِل|مُسْتَخْرِج مُسْتَفْعِل|مُجْتَهِد مُفْتَعِل|مُخْتَلِف مُفْتَعِل|كِتابَة فِعالَة|تِجارَة فِعالَة|مَساجِد مَفاعِل|مَنازِل مَفاعِل|عُلَماء فُعَلاء|شُعَراء فُعَلاء|مُكْرَم مُفْعَل|مُنْزَل مُفْعَل|مُكَرَّم مُفَعَّل|مُعَلَّم مُفَعَّل|مُقاتِل مُفاعِل|مُجاهِد مُفاعِل|مُتَكَلِّم مُتَفَعِّل|مُتَعَلِّم مُتَفَعِّل'.split('|').map(s => s.split(' '));
+function vezinOyunu(){
+  const tum = [...new Set(VEZIN.map(x => x[1]))];
+  const sorular = shuffle(VEZIN).slice(0, 10); let i = 0, dogru = 0;
+  const ciz = () => {
+    if(i >= sorular.length){ const best = Math.max(LS.get('medrese.vezinBest', 0), dogru); LS.set('medrese.vezinBest', best);
+      V.innerHTML = bar('Vezin bul', '/oyunlar') + `<div class="wrap" style="text-align:center"><h1>${dogru} / ${sorular.length}</h1><p class="lead">En iyi skorun: ${best}/10</p><p><button class="btn pri big" onclick="go('/oyun/vezin');route()">Yeniden oyna</button> <a class="btn big" href="#/oyunlar">Oyunlar</a></p></div>`; return }
+    const [k, v] = sorular[i]; const sec = shuffle([v, ...shuffle(tum.filter(x => x !== v)).slice(0, 3)]);
+    V.innerHTML = bar('Vezin bul', '/oyunlar') + `<div class="wrap" style="text-align:center"><p class="lead">${i + 1} / ${sorular.length} · Doğru: ${dogru}</p><p class="lead">Bu kelime hangi vezindedir?</p><div lang="ar" style="font-size:52px;margin:18px 0">${k}</div><div class="vzs" style="display:grid;grid-template-columns:1fr 1fr;gap:10px">${sec.map(s => `<button class="btn big" lang="ar" style="font-size:26px" data-s="${s}">${s}</button>`).join('')}</div><p id="vzm" class="lead" style="min-height:2em"></p></div>`;
+    V.querySelectorAll('[data-s]').forEach(b => b.onclick = () => { const ok = b.dataset.s === v; if(ok) dogru++;
+      V.querySelectorAll('[data-s]').forEach(x => { x.disabled = true; if(x.dataset.s === v) x.classList.add('pri') });
+      V.querySelector('#vzm').innerHTML = ok ? '✓ Doğru' : `✗ Doğrusu: <span lang="ar">${v}</span>`;
+      setTimeout(() => { i++; ciz() }, ok ? 700 : 1500) });
+  };
+  ciz();
 }
 /* ---- kitap tanıtım ekranı ---- */
 function kitap(id){
@@ -698,7 +717,7 @@ async function modern(p1, p2){
   if(p1 === 'haber') return modHaber();
   if(p1 === 'ders') return modDers();
   if(p1 === 'diyaloglar') return modDiyaloglar();
-  V.innerHTML = bar('Modern Arapça', '/') + `<div class="modust"><a href="#/modern/diyaloglar">Diyaloglar</a><a href="#/yds">Okuma metinleri</a><a href="#/yds/kelime">Kelime</a></div><iframe class="dersf mod" src="arapca.html?medrese=1" title="Modern Arapça — Arapça dil dersi"></iframe>`;
+  V.innerHTML = `<div class="modsayfa">${bar('Modern Arapça', '/')}<div class="modust"><a href="#/modern/diyaloglar">💬 Diyalog</a><a href="#/yds">📖 Metinler</a><a href="#/yds/kelime">🗂 Kelime</a></div><iframe class="dersf mod" src="arapca.html?medrese=1" title="Modern Arapça"></iframe></div>`;
 }
 function modDiyaloglar(){
   V.innerHTML = bar('Diyaloglar', '/modern') + `<div class="wrap"><div class="tiplist">${MOD.diyalog.map((d, i) => `<a href="#/modern/diyalog/${i}"><b>${esc(d.baslik)}</b><small lang="ar">${esc(d.ar_baslik || '')}</small></a>`).join('')}</div></div>`;
