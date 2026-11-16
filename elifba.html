@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="tr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kur'an Öğren · Elif-Bâ · el-Mihrâb</title>
+<meta name="theme-color" content="#0e5a43">
+<link rel="icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&display=swap" media="print" onload="this.media='all'">
+<style>
+:root{--bg:#f3ead4;--paper:#fbf6e8;--card:#fffaf0;--ink:#2a2216;--muted:#857455;--accent:#0e5a43;--accentSoft:#e3efe7;--gold:#b0852f;--goldSoft:#f3e6c4;--line:#e3d4ad;--ok:#059669;--okS:#d1fae5;--bad:#dc2626;--badS:#fee2e2}
+@media (prefers-color-scheme:dark){:root{--bg:#0c1311;--paper:#111a16;--card:#15201b;--ink:#ece3cc;--muted:#958c75;--accent:#4cc196;--accentSoft:#173328;--gold:#d6ab52;--goldSoft:#2a2414;--line:#24312b;--okS:#0f3b2c;--badS:#3b1515}}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-top:calc(56px + env(safe-area-inset-top,0px));padding-bottom:40px}
+.ar,.harf,.syl,.ayet{font-family:"Amiri Quran","Amiri","Noto Naskh Arabic","Scheherazade New","Traditional Arabic",serif;direction:rtl}
+#top{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;align-items:center;gap:10px;padding:calc(8px + env(safe-area-inset-top,0px)) 12px 8px;background:var(--accent);color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.2)}
+#top a,#top button{color:#fff;text-decoration:none;background:rgba(255,255,255,.2);border:0;border-radius:12px;padding:7px 12px;font:600 15px system-ui,sans-serif;cursor:pointer}
+#top b{flex:1;font-size:17px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+main{max-width:760px;margin:0 auto;padding:12px 14px}
+h1{font-size:24px;margin:8px 0 4px;color:var(--accent)}h2{font-size:19px;margin:22px 0 8px}
+.lead{color:var(--muted);margin:0 0 12px}
+.prog{height:10px;background:var(--line);border-radius:6px;overflow:hidden;margin:6px 0 4px}.prog i{display:block;height:100%;background:var(--accent)}
+.list{display:grid;gap:10px}
+.les{display:flex;align-items:center;gap:12px;padding:12px 14px;background:var(--card);border:1px solid var(--line);border-radius:16px;text-decoration:none;color:inherit;cursor:pointer;text-align:left;font:inherit;width:100%}
+.les .no{flex:none;width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--accentSoft);color:var(--accent);font-weight:800}
+.les.done .no{background:var(--accent);color:#fff}
+.les .tx{flex:1;min-width:0}.les .tx b{display:block}.les .tx small{color:var(--muted)}
+.les .ic{font-size:28px;color:var(--accent)}
+.unit{font:700 13px system-ui;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);margin:18px 2px 6px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin:10px 0}
+.note{background:var(--goldSoft);border-radius:12px;padding:10px 14px;margin:10px 0;font-size:15px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:10px;direction:rtl}
+.cell{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:8px 4px 6px;text-align:center;cursor:pointer;user-select:none;transition:transform .1s,background .2s}
+.cell:active{transform:scale(.96)}.cell.on{background:var(--accentSoft);border-color:var(--accent)}
+.cell .harf{font-size:52px;line-height:1.35;display:block}.cell .syl{font-size:44px;line-height:1.5;display:block}
+.cell small{display:block;direction:ltr;color:var(--muted);font-size:13px;line-height:1.25}.cell small b{color:var(--ink);font-size:14px}
+.cell.kalin .harf,.cell.kalin .syl{color:#9a3412}@media (prefers-color-scheme:dark){.cell.kalin .harf,.cell.kalin .syl{color:#fb923c}}
+.big{display:flex;flex-direction:column;align-items:center;gap:6px;padding:16px;background:var(--card);border:1px solid var(--line);border-radius:20px;margin:10px 0}
+.big .harf{font-size:110px;line-height:1.4}
+.forms{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;direction:rtl;width:100%}
+.forms div{text-align:center;background:var(--paper);border-radius:12px;padding:6px 2px}.forms .ar{font-size:42px;line-height:1.5;display:block}.forms small{color:var(--muted);font-size:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:12px;padding:10px 16px;font:600 15px system-ui,sans-serif;cursor:pointer;text-decoration:none}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.quiz .q{font-size:17px;margin:4px 0 10px}.quiz .qs{font-size:80px;line-height:1.5;text-align:center}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:8px}.opts button{padding:14px 8px;font-size:18px}
+.opts button.ar{font-size:36px;padding:4px 8px}
+.opts button.ok{background:var(--okS);border-color:var(--ok)}.opts button.bad{background:var(--badS);border-color:var(--bad)}
+.score{font-size:46px;font-weight:800;color:var(--accent);text-align:center}
+.ayet{font-size:30px;line-height:2.1;text-align:right;padding:10px 4px;border-bottom:1px solid var(--line);cursor:pointer}
+.ayet.on{background:var(--accentSoft);border-radius:10px}
+.ayet .n{font-size:20px;color:var(--gold)}
+.mean{font-size:15px;color:var(--muted);text-align:left;direction:ltr;margin-top:-4px;padding:0 4px 8px}
+.words{display:flex;flex-wrap:wrap;gap:10px;direction:rtl}.words .cell{min-width:120px;flex:1}
+.pill{display:inline-block;padding:2px 10px;border-radius:999px;background:var(--goldSoft);font-size:13px}
+#toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:#222;color:#fff;padding:10px 16px;border-radius:12px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:50;max-width:90vw}
+#toast.on{opacity:.95}
+.nav{display:flex;justify-content:space-between;gap:8px;margin:20px 0}
+</style>
+</head><body>
+<div id="top"><a id="geri" href="./">‹ el-Mihrâb</a><b id="ttl">Kur'an Öğren</b><button id="ana" type="button" hidden>Dersler</button></div>
+<main id="v"></main>
+<div id="toast"></div>
+<script>
+(function(){
+'use strict';
+/* ---------- yardımcılar ---------- */
+var V=document.getElementById('v'),LSK='mihrab.elifba';
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function ld(){try{return JSON.parse(localStorage.getItem(LSK))||{}}catch(e){return{}}}
+function sv(o){try{localStorage.setItem(LSK,JSON.stringify(o))}catch(e){}}
+var S=ld();S.ok=S.ok||{};
+function toast(t){var e=document.getElementById('toast');e.textContent=t;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(function(){e.classList.remove('on')},2600)}
+function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
+
+/* ---------- ses ---------- */
+var synth=window.speechSynthesis,arV=null,uyarildi=false;
+function sesBul(){try{var vs=synth?synth.getVoices():[];arV=vs.filter(function(v){return /^ar/i.test(v.lang)})[0]||null}catch(e){}}
+if(synth){sesBul();try{synth.onvoiceschanged=sesBul}catch(e){}}
+function soyle(t){
+  durdur();
+  if(!synth){return toast('Bu cihazda sesli okuma yok.')}
+  if(!arV)sesBul();
+  if(!arV&&!uyarildi){uyarildi=true;toast('Cihazınızda Arapça ses yok; ayarlardan “Metin okuma”ya Arapça ekleyebilirsiniz.')}
+  try{var u=new SpeechSynthesisUtterance(t);u.lang='ar-SA';if(arV)u.voice=arV;u.rate=.7;synth.speak(u)}catch(e){}
+}
+var au=null;
+function durdur(){try{if(synth)synth.cancel()}catch(e){}if(au){try{au.pause()}catch(e){}}}
+
+/* ---------- harfler ---------- */
+// [harf, ad, ad(ar), okunuş ipucu, sınıf]  sınıf: i=ince, k=kalın, h=ح/ع/ر (a-i-u), e=elif
+var H=[
+['ا','Elif','أَلِف','Tek başına ses vermez; harekeyle e, i, ü okunur. Hemze (ء) aynı sesi verir.','e'],
+['ب','Be','بَاء','Türkçedeki B gibi. Altında bir nokta.','i'],
+['ت','Te','تَاء','Türkçedeki T gibi, yumuşak. Üstünde iki nokta.','i'],
+['ث','Se','ثَاء','Dil ucu dişlerin arasına konarak peltek S. Üstünde üç nokta.','i'],
+['ج','Cim','جِيم','Türkçedeki C gibi. İçinde bir nokta.','i'],
+['ح','Ha','حَاء','Boğazın ortasından, hırıltısız, sıcak nefes gibi bir H.','h'],
+['خ','Hı','خَاء','Boğazın üstünden hırıltılı H (Almanca “Bach”taki ch). Kalın okunur.','k'],
+['د','Dal','دَال','Türkçedeki D gibi. Kendinden sonrakine bitişmez.','i'],
+['ذ','Zel','ذَال','Dil ucu dişlerin arasında peltek Z. Kendinden sonrakine bitişmez.','i'],
+['ر','Ra','رَاء','Türkçedeki R gibi; üstün ve ötreyle kalın okunur. Bitişmez.','h'],
+['ز','Ze','زَاي','Türkçedeki Z gibi. Bitişmez.','i'],
+['س','Sin','سِين','Türkçedeki S gibi, ince.','i'],
+['ش','Şın','شِين','Türkçedeki Ş gibi. Üstünde üç nokta.','i'],
+['ص','Sad','صَاد','Ağız dolgun, dil geride: kalın S.','k'],
+['ض','Dad','ضَاد','Dilin yanı azı dişlere değerek kalın D.','k'],
+['ط','Tı','طَاء','Dil damağa yaslanarak kalın T.','k'],
+['ظ','Zı','ظَاء','Dil ucu dişlerin arasında kalın, peltek Z.','k'],
+['ع','Ayn','عَيْن','Boğazın ortasından sıkıştırılarak çıkan, Türkçede olmayan bir ses.','h'],
+['غ','Gayn','غَيْن','Boğazın üstünden, gargara yapar gibi Ğ. Kalın okunur.','k'],
+['ف','Fe','فَاء','Türkçedeki F gibi. Üstünde bir nokta.','i'],
+['ق','Kaf','قَاف','Dilin en arkası küçük dile değerek kalın K.','k'],
+['ك','Kef','كَاف','Türkçedeki ince K gibi.','i'],
+['ل','Lam','لَام','Türkçedeki ince L gibi (Allah lafzında kalınlaşabilir).','i'],
+['م','Mim','مِيم','Türkçedeki M gibi.','i'],
+['ن','Nun','نُون','Türkçedeki N gibi. Üstünde bir nokta.','i'],
+['و','Vav','وَاو','Dudaklar yuvarlanarak V/W. Bitişmez.','i'],
+['ه','He','هَاء','Göğüsten gelen yumuşak H.','i'],
+['ي','Ye','يَاء','Türkçedeki Y gibi. Altında iki nokta.','i']];
+var BITISMEZ='ادذرزو';
+var LAT={'ا':'','ب':'b','ت':'t','ث':'s̱','ج':'c','ح':'ḥ','خ':'h','د':'d','ذ':'ẕ','ر':'r','ز':'z','س':'s','ش':'ş','ص':'ṣ','ض':'ḍ','ط':'ṭ','ظ':'ẓ','ع':'ʿ','غ':'ğ','ف':'f','ق':'ḳ','ك':'k','ل':'l','م':'m','ن':'n','و':'v','ه':'h','ي':'y'};
+function hc(h){return (H.filter(function(x){return x[0]===h})[0]||[])[4]||'i'}
+var UNL={e:['e','i','ü'],i:['e','i','ü'],k:['a','ı','u'],h:['a','i','u']};
+var HAR=['َ','ِ','ُ'],HADI=['Üstün (fetha)','Esre (kesre)','Ötre (damme)'];
+function oku(h,hi,uzun){var u=UNL[hc(h)][hi];if(uzun)u=u==='ü'?'û':u==='u'?'û':u==='i'||u==='ı'?'î':'â';return (h==='ا'?'':LAT[h])+u}
+function formlar(h){var b=BITISMEZ.indexOf(h)>=0,Z='‍';return [h,b?h:h+Z,b?Z+h:Z+h+Z,Z+h]}
+var KALIN='خصضطظغق';
+
+/* ---------- dersler ---------- */
+var D=[];
+function ders(o){o.no=D.length+1;D.push(o)}
+ders({u:'Başlangıç',id:'giris',t:'Arap harflerine giriş',s:'Yazı sağdan sola · 28 harf · harekeler',ic:'أ ب ت',f:giris});
+[[0,7],[7,14],[14,21],[21,28]].forEach(function(r,i){ders({u:'Harfler',id:'h'+(i+1),t:'Harfler '+(r[0]+1)+'–'+r[1],s:H.slice(r[0],r[1]).map(function(x){return x[1]}).join(', '),ic:H[r[0]][0],f:function(){harfDers(r[0],r[1],this)},q:function(){return harfQuiz(H.slice(r[0],r[1]))}})});
+ders({u:'Harfler',id:'yaz',t:'Harflerin bitişik yazılışı',s:'Başta, ortada, sonda · bitişmeyen 6 harf',ic:'ـبـ',f:bitisik,q:function(){return formQuiz()}});
+ders({u:'Harekeler',id:'ustun',t:'Üstün (fetha)',s:'Harfin üstünde kısa çizgi: e / a',ic:'بَ',f:function(){hareke(0,this)},q:function(){return heceQuiz([0])}});
+ders({u:'Harekeler',id:'esre',t:'Esre (kesre)',s:'Harfin altında kısa çizgi: i / ı',ic:'بِ',f:function(){hareke(1,this)},q:function(){return heceQuiz([1])}});
+ders({u:'Harekeler',id:'otre',t:'Ötre (damme)',s:'Harfin üstünde küçük vav: ü / u',ic:'بُ',f:function(){hareke(2,this)},q:function(){return heceQuiz([2])}});
+ders({u:'Harekeler',id:'karisik',t:'Üç hareke birlikte',s:'Karışık hece okuma alıştırması',ic:'بَبِبُ',f:karisik,q:function(){return heceQuiz([0,1,2])}});
+ders({u:'Okuma kuralları',id:'cezm',t:'Cezm (sükûn)',s:'Harfi harekesiz, önceki heceye bağlayarak okumak',ic:'اَبْ',f:cezm,q:function(){return listeQuiz(CEZM)}});
+ders({u:'Okuma kuralları',id:'tenvin',t:'Tenvin (iki hareke)',s:'Kelime sonunda “-n” sesi: en, in, ün',ic:'بٌ',f:tenvin,q:function(){return listeQuiz(TENV)}});
+ders({u:'Okuma kuralları',id:'sedde',t:'Şedde',s:'Harfi iki kez okumak',ic:'رَبِّ',f:sedde,q:function(){return listeQuiz(SEDD)}});
+ders({u:'Okuma kuralları',id:'med',t:'Med (uzatma)',s:'Elif, vav, ye ile sesi uzatmak',ic:'بَا',f:med,q:function(){return listeQuiz(MED)}});
+ders({u:'Okuma kuralları',id:'kalin',t:'Kalın ve ince harfler',s:'7 kalın harf · Allah lafzı · Ra',ic:'ق',f:kalin,q:function(){return kalinQuiz()}});
+ders({u:'Okuma kuralları',id:'kelime',t:'Kur’an kelimeleri okuma',s:'Öğrendiklerinle sık geçen kelimeler',ic:'كِتَابٌ',f:kelimeler,q:function(){return listeQuiz(KEL)}});
+var SURELER=[[1,'Fâtiha'],[112,'İhlâs'],[113,'Felak'],[114,'Nâs'],[108,'Kevser'],[103,'Asr'],[110,'Nasr'],[111,'Tebbet'],[109,'Kâfirûn'],[107,'Mâûn'],[106,'Kureyş'],[105,'Fîl']];
+SURELER.forEach(function(s){ders({u:'Kısa sûreler',id:'s'+s[0],t:s[1]+' sûresi',s:'Âyet âyet dinle, tekrar et, oku',ic:'۝',f:function(){sure(s[0],s[1],this)}})});
+
+/* ---------- ekranlar ---------- */
+function bitirildi(id){return !!S.ok[id]}
+function anaSayfa(){
+  durdur();document.getElementById('ttl').textContent="Kur'an Öğren";document.getElementById('ana').hidden=true;
+  var n=D.filter(function(d){return bitirildi(d.id)}).length,h='<h1>Kur’an Öğrenme (Elif-Bâ)</h1><p class="lead">Harflerden başlayıp kısa sûreleri okumaya kadar, adım adım. Her harfe ve heceye dokununca sesini duyarsın; her dersin sonunda kısa bir sınav var.</p><div class="prog"><i style="width:'+Math.round(n/D.length*100)+'%"></i></div><p class="lead" style="font-size:14px">'+n+' / '+D.length+' ders tamamlandı</p>';
+  var son=D.filter(function(d){return !bitirildi(d.id)})[0];
+  if(son)h+='<div class="row"><a class="btn pri" href="#'+son.id+'">'+(n?'Kaldığım yerden devam: ':'Başla: ')+esc(son.t)+' →</a></div>';
+  var u='';D.forEach(function(d){if(d.u!==u){u=d.u;h+='<div class="unit">'+esc(u)+'</div>'}
+    h+='<a class="les'+(bitirildi(d.id)?' done':'')+'" href="#'+d.id+'"><span class="no">'+(bitirildi(d.id)?'✓':d.no)+'</span><span class="tx"><b>'+esc(d.t)+'</b><small>'+esc(d.s)+'</small></span><span class="ic ar">'+esc(d.ic)+'</span></a>'});
+  V.innerHTML='<div class="list">'+h+'</div>';scrollTo(0,0)}
+function sayfa(d,ic){
+  document.getElementById('ttl').textContent=d.no+'. '+d.t;document.getElementById('ana').hidden=false;
+  var i=D.indexOf(d),on=D[i-1],ar=D[i+1];
+  V.innerHTML='<h1>'+esc(d.t)+'</h1><p class="lead">'+esc(d.s)+'</p>'+ic+(d.q?'<h2>Kendini dene</h2><div id="quiz" class="card quiz"></div>':'<div class="row"><button class="btn pri" id="bitir">'+(bitirildi(d.id)?'✓ Tamamlandı':'Bu dersi tamamladım')+'</button></div>')+
+   '<div class="nav">'+(on?'<a class="btn" href="#'+on.id+'">‹ '+esc(on.t)+'</a>':'<span></span>')+(ar?'<a class="btn" href="#'+ar.id+'">'+esc(ar.t)+' ›</a>':'')+'</div>';
+  if(d.q)quiz(d,d.q());
+  var b=document.getElementById('bitir');if(b)b.onclick=function(){S.ok[d.id]=1;sv(S);b.textContent='✓ Tamamlandı';toast('Aferin! Ders tamamlandı.')};
+  scrollTo(0,0)}
+function hucre(ar,alt,kalin,say){return '<div class="cell'+(kalin?' kalin':'')+'" data-say="'+esc(say||ar)+'"><span class="'+(ar.length>2?'syl':'harf')+'">'+esc(ar)+'</span><small>'+alt+'</small></div>'}
+
+function giris(){sayfa(this,
+ '<div class="card"><p><b>Arapça sağdan sola yazılır ve okunur.</b> Kur’an harfleri 28 tanedir. Harflerin çoğu kelimede birbirine bitişir; bu yüzden aynı harfin başta, ortada ve sonda biraz farklı görünen şekilleri vardır.</p>'+
+ '<p>Arap yazısında kısa sesliler (a, e, i, u…) harf olarak yazılmaz; harfin üstüne veya altına konan küçük işaretlerle gösterilir. Bu işaretlere <b>hareke</b> denir:</p>'+
+ '<div class="grid" style="direction:rtl">'+hucre('بَ','<b>be</b> · üstün')+hucre('بِ','<b>bi</b> · esre')+hucre('بُ','<b>bü</b> · ötre')+'</div>'+
+ '<p style="margin-top:12px">Bu derslerde sırasıyla: harfleri tanıyacak, harekelerle hece okuyacak, cezm, tenvin, şedde ve med kurallarını öğrenecek, sonunda kısa sûreleri âyet âyet okuyacaksın.</p></div>'+
+ '<div class="note">💡 Her harfe ve heceye <b>dokununca</b> sesini dinleyebilirsin. Ses çıkmıyorsa telefonunun “Metin okuma (TTS)” ayarına Arapça dilini ekle. Türkçe okunuşlar yaklaşık karşılıktır; doğru telaffuzu bir hocadan dinleyerek pekiştir.</div>')}
+function harfDers(a,b,d){
+  var h='<div class="note">Harfe dokun: büyük hâli, okunuşu ve kelime içindeki şekilleri görünsün. Turuncu harfler <b>kalın</b> okunur.</div><div id="buyuk"></div><div class="grid">';
+  H.slice(a,b).forEach(function(x,i){h+='<div class="cell'+(x[4]==='k'?' kalin':'')+'" data-h="'+(a+i)+'"><span class="harf">'+x[0]+'</span><small><b>'+x[1]+'</b></small></div>'});
+  sayfa(d,h+'</div>');harfGoster(a)}
+function harfGoster(i){
+  var x=H[i],f=formlar(x[0]),el=document.getElementById('buyuk');if(!el)return;
+  [].forEach.call(document.querySelectorAll('[data-h]'),function(c){c.classList.toggle('on',+c.dataset.h===i)});
+  el.innerHTML='<div class="big"><span class="harf'+(x[4]==='k'?'" style="color:#9a3412':'')+'">'+x[0]+'</span><b style="font-size:20px">'+x[1]+' <span class="ar" style="font-size:26px">'+x[2]+'</span></b><p style="margin:0;text-align:center">'+esc(x[3])+'</p>'+
+   '<div class="forms"><div><span class="ar">'+f[0]+'</span><small>tek</small></div><div><span class="ar">'+f[1]+'</span><small>başta</small></div><div><span class="ar">'+f[2]+'</span><small>ortada</small></div><div><span class="ar">'+f[3]+'</span><small>sonda</small></div></div>'+
+   '<div class="row" style="justify-content:center"><button class="btn" data-say="'+x[2]+'">🔊 Adını dinle</button><button class="btn" data-say="'+x[0]+'َ '+x[0]+'ِ '+x[0]+'ُ">🔊 '+oku(x[0],0)+' · '+oku(x[0],1)+' · '+oku(x[0],2)+'</button></div></div>'}
+function bitisik(){
+  var h='<div class="card"><p>Harflerin çoğu hem önceki hem sonraki harfe bitişir. Ancak <b>6 harf</b> kendinden <b>sonraki</b> harfe bitişmez: <span class="ar" style="font-size:28px">ا د ذ ر ز و</span>. Bunlardan sonra gelen harf, kelimenin başındaymış gibi yazılır.</p></div><div class="card"><div class="forms" style="grid-template-columns:repeat(5,1fr);font-size:13px"><div><b>Harf</b></div><div><b>Tek</b></div><div><b>Başta</b></div><div><b>Ortada</b></div><div><b>Sonda</b></div>';
+  H.forEach(function(x){var f=formlar(x[0]);h+='<div><span class="ar" style="font-size:20px">'+x[1]+'</span></div>'+f.map(function(y){return '<div data-say="'+x[2]+'"><span class="ar">'+y+'</span></div>'}).join('')});
+  h+='</div></div><h2>Örnek kelimeler</h2><div class="words">'+[['كَتَبَ','ke-te-be','yazdı'],['دَرَسَ','de-ra-se','ders çalıştı'],['وَلَدٌ','ve-le-dün','çocuk'],['نُورٌ','nû-run','nur'],['قَلَمٌ','ka-le-mün','kalem'],['بَيْتٌ','bey-tün','ev']].map(function(w){return hucre(w[0],'<b>'+w[1]+'</b> · '+w[2])}).join('')+'</div>';
+  sayfa(this,h)}
+function hareke(hi,d){
+  var h='<div class="card"><p>'+[
+   '<b>Üstün</b>, harfin üstüne konan eğik kısa çizgidir. İnce harflerde <b>“e”</b>, kalın harflerde (ve ح، ع، ر harflerinde) <b>“a”</b> sesi verir.',
+   '<b>Esre</b>, harfin altına konan eğik kısa çizgidir. İnce harflerde <b>“i”</b>, kalın harflerde <b>“ı”</b> sesi verir.',
+   '<b>Ötre</b>, harfin üstüne konan küçük bir vavdır. İnce harflerde <b>“ü”</b>, kalın harflerde (ve ح، ع، ر harflerinde) <b>“u”</b> sesi verir.'][hi]+'</p></div><div class="grid">';
+  H.forEach(function(x){h+=hucre(x[0]+HAR[hi],'<b>'+oku(x[0],hi)+'</b>',KALIN.indexOf(x[0])>=0)});
+  sayfa(d,h+'</div><div class="note">Satır satır, sağdan sola sesli oku. Takıldığın heceye dokunup dinle, sonra tekrar et.</div>')}
+function karisik(){
+  var h='<div class="card"><p>Şimdi üç harekeyi birlikte okuyalım. Her satırı sağdan sola, hece hece oku: önce üstün, sonra esre, sonra ötre.</p></div><div class="grid">';
+  H.forEach(function(x){h+=hucre(x[0]+HAR[0]+' '+x[0]+HAR[1]+' '+x[0]+HAR[2],'<b>'+oku(x[0],0)+' '+oku(x[0],1)+' '+oku(x[0],2)+'</b>',KALIN.indexOf(x[0])>=0)});
+  h+='</div><h2>İki heceli okuma</h2><div class="words">'+[['بَدَ','be-de'],['كَتَ','ke-te'],['سَمِعَ','se-mi-a'],['خُلِقَ','hu-li-ka'],['فَعَلَ','fe-a-le'],['ذَهَبَ','ze-he-be'],['صَدَقَ','sa-de-ka'],['حَسِبَ','ha-si-be'],['جَعَلَ','ce-a-le'],['رُزِقَ','ru-zi-ka']].map(function(w){return hucre(w[0],'<b>'+w[1]+'</b>')}).join('')+'</div>';
+  sayfa(this,h)}
+var CEZM=[['اَبْ','eb'],['اِبْ','ib'],['اُبْ','üb'],['مِنْ','min'],['لَمْ','lem'],['قُلْ','kul'],['هَلْ','hel'],['عَنْ','an'],['قَدْ','kad'],['بَلْ','bel'],['كُنْ','kün'],['لَنْ','len'],['يَوْمْ','yevm'],['اَنْتَ','en-te'],['يَعْلَمُ','ya‘-le-mü'],['اَكْبَرُ','ek-be-rü']];
+function cezm(){sayfa(this,'<div class="card"><p><b>Cezm (sükûn)</b>, harfin üstüne konan küçük bir yuvarlaktır <span class="ar" style="font-size:26px">ْ</span>. Cezmli harf <b>kendi başına okunmaz</b>; önceki harekeli harfle birleşerek tek hece olur: <span class="ar" style="font-size:26px">اَبْ</span> “eb”.</p></div><div class="words">'+CEZM.map(function(w){return hucre(w[0],'<b>'+w[1]+'</b>')}).join('')+'</div>')}
+var TENV=[['بً','ben'],['بٍ','bin'],['بٌ','bün'],['كِتَابًا','ki-tâ-ben'],['كِتَابٍ','ki-tâ-bin'],['كِتَابٌ','ki-tâ-bün'],['نُورٌ','nû-run'],['رَحِيمٌ','ra-hî-mün'],['عَلِيمًا','a-lî-men'],['اَحَدٌ','e-ha-dün'],['يَوْمَئِذٍ','yev-me-i-zin'],['سَلَامٌ','se-lâ-mün']];
+function tenvin(){sayfa(this,'<div class="card"><p><b>Tenvin</b>, harekenin iki kez yazılmasıdır ve kelimenin sonuna gizli bir <b>“n”</b> sesi ekler:</p><div class="grid">'+hucre('بً','<b>ben</b> · iki üstün')+hucre('بٍ','<b>bin</b> · iki esre')+hucre('بٌ','<b>bün</b> · iki ötre')+'</div><p style="margin-top:10px">İki üstünün yanında çoğunlukla bir elif yazılır (<span class="ar" style="font-size:22px">كِتَابًا</span>); bu elif okunmaz. Durakta (vakfta) iki üstün “â” gibi uzatılır, iki esre ve iki ötre ise sükûnla okunur.</p></div><div class="words">'+TENV.map(function(w){return hucre(w[0],'<b>'+w[1]+'</b>')}).join('')+'</div>')}
+var SEDD=[['رَبِّ','rab-bi'],['اِنَّ','in-ne'],['ثُمَّ','süm-me'],['اَلْحَقُّ','el-hak-ku'],['مُحَمَّدٌ','mu-ham-me-dün'],['كُلُّ','kül-lü'],['اُمِّ','üm-mi'],['حَقٌّ','hak-kun'],['اَللّٰهُ','al-lâ-hü'],['اَلنَّاسُ','en-nâ-sü'],['اَلشَّمْسُ','eş-şem-sü'],['فَصَلِّ','fe-sal-li']];
+function sedde(){sayfa(this,'<div class="card"><p><b>Şedde</b> <span class="ar" style="font-size:26px">ّ</span> harfin üstüne konan küçük bir “w” biçimidir ve harfin <b>iki kez</b> okunacağını gösterir: ilki cezmli olarak önceki heceye bağlanır, ikincisi kendi harekesiyle okunur.</p><p><span class="ar" style="font-size:26px">رَبِّ</span> = <span class="ar" style="font-size:26px">رَبْ + بِ</span> → “rab-bi”.</p><p>Harf-i tarifin (اَلْ) lâmından sonra gelen bazı harfler (ت ث د ذ ر ز س ش ص ض ط ظ ل ن) şeddeli okunur ve lâm okunmaz: <span class="ar" style="font-size:24px">اَلشَّمْسُ</span> “eş-şemsü”. Bunlara <b>şemsî harfler</b> denir.</p></div><div class="words">'+SEDD.map(function(w){return hucre(w[0],'<b>'+w[1]+'</b>')}).join('')+'</div>')}
+var MED=[['بَا','bâ'],['بِي','bî'],['بُو','bû'],['قَالَ','kâ-le'],['قِيلَ','kî-le'],['يَقُولُ','ya-kû-lü'],['نُوحٌ','nû-hun'],['دِينٌ','dî-nün'],['مَالِكِ','mâ-li-ki'],['اَلرَّحِيمِ','er-ra-hî-mi'],['يُؤْمِنُونَ','yü’-mi-nû-ne'],['جَاءَ','câ-e']];
+function med(){sayfa(this,'<div class="card"><p>Bazı harekeli harflerin ardından gelen harekesiz <b>elif, vav ve ye</b> sesi uzatır. Bunlara <b>med harfleri</b> denir:</p><div class="grid">'+hucre('بَا','<b>bâ</b> · üstün + elif')+hucre('بِي','<b>bî</b> · esre + ye')+hucre('بُو','<b>bû</b> · ötre + vav')+'</div><p style="margin-top:10px">Uzatma en az <b>iki hareke</b> (iki kısa hece) süresidir; “bâ”yı “ba”nın iki katı uzunlukta söyle. Kur’an’da bazı yerlerde med harfinin üstünde dalgalı bir <b>med işareti</b> <span class="ar" style="font-size:24px">ٓ</span> bulunur (<span class="ar" style="font-size:24px">جَآءَ</span>); orada ses biraz daha uzun tutulur.</p></div><div class="words">'+MED.map(function(w){return hucre(w[0],'<b>'+w[1]+'</b>')}).join('')+'</div>')}
+function kalin(){var h='<div class="card"><p>Ağız dolgun, dilin arkası damağa kalkık olarak okunan <b>7 kalın harf</b> vardır: <span class="ar" style="font-size:28px">خ ص ض غ ط ق ظ</span> (bir arada “<span class="ar" style="font-size:24px">خُصَّ ضَغْطٍ قِظْ</span>”). Bu harfler her harekede kalın okunur.</p><p><b>Ra</b> harfi üstün ve ötreyle kalın, esreyle ince okunur: <span class="ar" style="font-size:24px">رَ</span> ra, <span class="ar" style="font-size:24px">رِ</span> ri, <span class="ar" style="font-size:24px">رُ</span> ru.</p><p><b>Allah lafzı:</b> Önündeki harf üstün veya ötreli ise kalın okunur (<span class="ar" style="font-size:24px">قَالَ اللّٰهُ</span> “kâla-llâhu”); esreli ise ince okunur (<span class="ar" style="font-size:24px">بِسْمِ اللّٰهِ</span> “bismi-llâhi”).</p></div><h2>Karşılaştır</h2><div class="grid">';
+  [['سَ','se','صَ','sa'],['تَ','te','طَ','ta'],['ذَ','ze','ظَ','za'],['كَ','ke','قَ','ka'],['هَ','he','حَ','ha'],['دَ','de','ضَ','da']].forEach(function(p){h+=hucre(p[0],'<b>'+p[1]+'</b> · ince')+hucre(p[2],'<b>'+p[3]+'</b> · kalın',true)});
+  sayfa(this,h+'</div>')}
+var KEL=[['اَللّٰهُ','Allâhu','Allah'],['رَبٌّ','rabbün','Rab'],['كِتَابٌ','kitâbün','kitap'],['اَلْحَمْدُ','el-hamdü','hamd'],['رَحْمَةٌ','rahmetün','rahmet'],['نُورٌ','nûrun','nur'],['صَلَاةٌ','salâtün','namaz'],['اَلْقُرْاٰنُ','el-kur’ânü','Kur’an'],['يَوْمٌ','yevmün','gün'],['قَلْبٌ','kalbün','kalp'],['عِلْمٌ','ilmün','ilim'],['اَلْجَنَّةُ','el-cennetü','cennet'],['سَمَاءٌ','semâün','gök'],['اَرْضٌ','ardun','yer'],['نَاسٌ','nâsün','insanlar'],['هُدًى','hüden','hidayet']];
+function kelimeler(){sayfa(this,'<div class="card"><p>Öğrendiğin bütün kurallarla Kur’an’da çok geçen kelimeleri oku. Önce kendin oku, sonra dokunup dinleyerek kontrol et.</p></div><div class="words">'+KEL.map(function(w){return hucre(w[0],'<b>'+w[1]+'</b> · '+w[2])}).join('')+'</div>')}
+
+/* ---------- sûreler ---------- */
+function pad(n){return ('00'+n).slice(-3)}
+function sure(n,ad,d){
+  sayfa(d,'<div class="note">Âyete dokun: Mişârî Râşid el-Afâsî’nin sesinden dinle. “Hepsini dinle” ile sûreyi baştan sona dinleyebilir, “Tekrar” ile her âyeti üç kez dinleyerek ezberleyebilirsin.</div><div class="row"><button class="btn pri" id="hep">▶ Hepsini dinle</button><button class="btn" id="tek">🔁 Tekrar: kapalı</button><button class="btn" id="dur">■ Durdur</button></div><div class="card" id="ayetler"><p class="lead">Yükleniyor…</p></div>');
+  var kutu=document.getElementById('ayetler'),tekrar=false,sira=-1,say=0,A=[];
+  document.getElementById('tek').onclick=function(){tekrar=!tekrar;this.textContent='🔁 Tekrar: '+(tekrar?'3 kez':'kapalı')};
+  document.getElementById('dur').onclick=function(){sira=-1;durdur();isaret(-1)};
+  document.getElementById('hep').onclick=function(){cal(0,true)};
+  function isaret(i){[].forEach.call(kutu.querySelectorAll('.ayet'),function(e,j){e.classList.toggle('on',j===i)})}
+  var zincir=false;
+  function cal(i,z){if(!A[i])return;durdur();zincir=z;sira=i;say=0;isaret(i);
+    if(!au){au=new Audio();au.addEventListener('ended',function(){if(sira<0)return;say++;if(tekrar&&say<3){au.currentTime=0;au.play().catch(function(){});return}if(zincir&&A[sira+1]){cal(sira+1,true)}else{isaret(-1);sira=-1}});au.addEventListener('error',function(){toast('Ses yüklenemedi; internet bağlantınızı kontrol edin.');sira=-1;isaret(-1)})}
+    au.src='https://everyayah.com/data/Alafasy_128kbps/'+pad(n)+pad(A[i].n)+'.mp3';au.play().catch(function(){toast('Ses başlatılamadı.')});
+    var e=kutu.querySelectorAll('.ayet')[i];if(e)try{e.scrollIntoView({block:'center',behavior:'smooth'})}catch(x){}}
+  fetch('data/q/quran-uthmani/'+n+'.json').then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){
+    A=j.a||[];var h='';
+    A.forEach(function(a,i){var t=String(a.t).replace(/\uFEFF/g,'');if(n!==1&&i===0&&/^بِسْمِ/.test(t)){var w=t.split(/\s+/);if(w.length>4)t=w.slice(4).join(' ')}
+      if(n!==1&&i===0&&n!==9)h+='<div class="ayet" style="text-align:center;cursor:default">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>';
+      h+='<div class="ayet" data-i="'+i+'">'+esc(t)+' <span class="n">﴿'+(a.n).toLocaleString('ar-EG')+'﴾</span></div>'});
+    kutu.innerHTML=h+'<div class="row"><button class="btn pri" id="bitir">'+(bitirildi(d.id)?'✓ Okudum':'Bu sûreyi okudum')+'</button></div>';
+    kutu.onclick=function(e){var a=e.target.closest('.ayet[data-i]');if(a)cal(+a.dataset.i,false)};
+    var b=document.getElementById('bitir');b.onclick=function(){S.ok[d.id]=1;sv(S);b.textContent='✓ Okudum';toast('Mâşallah! '+ad+' sûresi tamamlandı.')};
+  }).catch(function(){kutu.innerHTML='<p>Sûre metni yüklenemedi. İnternet bağlantınızı kontrol edip sayfayı yenileyin.</p>'})}
+
+/* ---------- sınavlar ---------- */
+function harfQuiz(set){return shuffle(set).map(function(x){var yan=shuffle(H.filter(function(y){return y!==x})).slice(0,3);return {s:x[0],q:'Bu harfin adı ne?',d:x[1],k:shuffle([x[1]].concat(yan.map(function(y){return y[1]})))}})}
+function formQuiz(){return shuffle(H).slice(0,8).map(function(x){var f=formlar(x[0]),yan=shuffle(H.filter(function(y){return y!==x})).slice(0,3);return {s:f[2],q:'Kelimenin ortasındaki bu harf hangisi?',d:x[1],k:shuffle([x[1]].concat(yan.map(function(y){return y[1]})))}})}
+function heceQuiz(hs){var out=[];shuffle(H).slice(0,10).forEach(function(x){var hi=hs[Math.floor(Math.random()*hs.length)],d=oku(x[0],hi),pool={};pool[d]=1;
+  var adaylar=shuffle([[x[0],(hi+1)%3],[x[0],(hi+2)%3]].concat(shuffle(H).slice(0,6).map(function(y){return [y[0],hi]})));var k=[d];
+  adaylar.forEach(function(c){var o=oku(c[0],c[1]);if(k.length<4&&!pool[o]){pool[o]=1;k.push(o)}});out.push({s:x[0]+HAR[hi],q:'Bu hece nasıl okunur?',d:d,k:shuffle(k)})});return out}
+function listeQuiz(L){return shuffle(L).slice(0,8).map(function(w){var yan=shuffle(L.filter(function(y){return y!==w})).slice(0,3);return {s:w[0],q:'Bu nasıl okunur?',d:w[1],k:shuffle([w[1]].concat(yan.map(function(y){return y[1]})))}})}
+function kalinQuiz(){return shuffle(H).slice(0,10).map(function(x){var k=KALIN.indexOf(x[0])>=0;return {s:x[0],q:'Bu harf kalın mı okunur, ince mi?',d:k?'Kalın':'İnce',k:['Kalın','İnce']}})}
+function quiz(d,Q){
+  var el=document.getElementById('quiz'),i=0,dg=0;
+  function goster(){
+    if(i>=Q.length){var y=Math.round(dg/Q.length*100);el.innerHTML='<div class="score">'+dg+' / '+Q.length+'</div><p style="text-align:center">'+(y>=80?'Çok güzel! Bu dersi tamamladın.':'Biraz daha tekrar edip yeniden dene; %80 ve üstü dersi tamamlar.')+'</p><div class="row" style="justify-content:center"><button class="btn" id="yeni">Yeniden dene</button>'+(D[D.indexOf(d)+1]?'<a class="btn pri" href="#'+D[D.indexOf(d)+1].id+'">Sonraki ders ›</a>':'')+'</div>';
+      if(y>=80){S.ok[d.id]=1;sv(S)}document.getElementById('yeni').onclick=function(){quiz(d,d.q())};return}
+    var q=Q[i],arKey=/[؀-ۿ]/.test(q.k[0]);
+    el.innerHTML='<p class="q">'+(i+1)+'/'+Q.length+' · '+esc(q.q)+'</p><div class="qs ar" data-say="'+esc(q.s)+'">'+esc(q.s)+'</div><div class="opts">'+q.k.map(function(o){return '<button class="btn'+(arKey?' ar':'')+'" data-o="'+esc(o)+'">'+esc(o)+'</button>'}).join('')+'</div>';
+    [].forEach.call(el.querySelectorAll('[data-o]'),function(b){b.onclick=function(){
+      if(el.dataset.kilit)return;el.dataset.kilit=1;var ok=b.dataset.o===q.d;if(ok)dg++;
+      [].forEach.call(el.querySelectorAll('[data-o]'),function(x){if(x.dataset.o===q.d)x.classList.add('ok')});if(!ok)b.classList.add('bad');
+      setTimeout(function(){delete el.dataset.kilit;i++;goster()},ok?650:1300)}})}
+  goster()}
+
+/* ---------- yönlendirme ---------- */
+document.addEventListener('click',function(e){var s=e.target.closest('[data-say]');if(s&&!e.target.closest('[data-o]'))soyle(s.dataset.say);var hh=e.target.closest('[data-h]');if(hh){harfGoster(+hh.dataset.h);soyle(H[+hh.dataset.h][2])}});
+document.getElementById('ana').onclick=function(){location.hash=''};
+try{if(/medrese=1/.test(location.search)){var g=document.getElementById('geri');g.href='medrese.html';g.textContent='‹ Medrese'}}catch(e){}
+function yol(){try{durdur();var id=(location.hash||'').slice(1),d=D.filter(function(x){return x.id===id})[0];if(d)d.f.call(d);else anaSayfa()}catch(e){V.innerHTML='<div class="card"><p>Bir sorun oluştu. <a href="#" onclick="location.reload()">Yenile</a></p></div>';try{console.warn(e)}catch(x){}}}
+addEventListener('hashchange',yol);yol();
+})();
+</script>
+<script>(function(){if(!('serviceWorker' in navigator)||location.protocol!=='https:')return;navigator.serviceWorker.register('sw.js').catch(function(){})})();</script>
+</body></html>

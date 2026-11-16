@@ -1,8 +1,8 @@
 /* el-Mihrâb service worker
    - Uygulama kabuğu: önce ağ, yoksa saklanan kopya
    - Kur'an, meal, tefsir, kıraat servisleri ve yazı tipleri: önce ağ, internet yoksa daha önce okunan kopya */
-const V='mihrab-v57', DATA='mihrab-data-v1';
-const SHELL=['./','./index.html','./medrese.html','./medrese.js','./kelime.js','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
+const V='mihrab-v58', DATA='mihrab-data-v1';
+const SHELL=['./','./index.html','./medrese.html','./elifba.html','./medrese.js','./kelime.js','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 const API=['api.alquran.cloud','api.quran.com','api.qurancdn.com','api.quranpedia.net','quranenc.com','api.aladhan.com'];
 const FONT=['fonts.googleapis.com','fonts.gstatic.com','api2.quranpedia.net','static.qurancdn.com','verses.quran.foundation'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()))});
