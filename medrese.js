@@ -23,7 +23,7 @@ const BOOKS = [
       yontem: 'Önce “Emsile-i muhtelife” sesli ve ritmik tekrarla ezberlenir. Sonra “Emsile-i muttaride” bölüm bölüm, her sîga Türkçesiyle okunur. Her bölümden sonra kökü değiştirip (ضرب، فتح، علم…) aynı kalıbı kendiniz çekin; alıştırmalar ve aralıklı tekrar unutmayı önler.'
     } },
   { id: 'bina', ad: 'Binâ', ar: 'البناء', yol: 'sarf', sira: 2, durum: 'hazir',
-    tanitim: { muellif: 'Müellifi kesin olarak bilinmiyor; Emsile’den sonra okutulur.', amac: 'Fiilin yapısını (binâsını) öğretmek: sülâsî-rubâî, mücerred-mezîd, sahîh-mu‘tel; bâbların ve kalıpların nasıl türediği; i‘lâle giriş.', yontem: 'Emsile’deki her kalıbın kuralını Binâ’da arayın; her kuralı bir Kur’an örneğiyle eşleyin.' } },
+    tanitim: { muellif: 'Müellifi kesin olarak bilinmiyor; Emsile’den sonra okutulur.', amac: 'Otuz beş tasrîf bâbını (6 sülâsî mücerred, 12 sülâsî mezîd, rubâî ve mülhakları) alâmeti ve binâsıyla vermek; sonra fiilin sekiz ve yedi kısmını (sahih, misâl, ecvef, nâkıs, lefîf, muzâ‘af, mehmûz) tanıtmak.', yontem: 'Tam matn, Mecmûatü’s-sarf nüshasından. Her paragrafa dokununca Türkçesi açılır; her bâbın vezin ve misalini Emsile’de çekimleyin.' } },
   { id: 'maksud', ad: 'Maksûd', ar: 'المقصود', yol: 'sarf', sira: 3, durum: 'hazir',
     tanitim: { muellif: 'İmâm-ı Âzam Ebû Hanîfe’ye nisbet edilir; bu nisbet tartışmalıdır.', amac: 'Sarf kurallarını, özellikle mezîd bâbları ve i‘lâl kaidelerini sistemli biçimde vermek.', yontem: 'Her kaideyi önce matnından, sonra örnek kelimelerin çözümlemesiyle okuyun.' } },
   { id: 'izzi', ad: 'İzzî', ar: 'التصريف العزي', yol: 'sarf', sira: 4, durum: 'hazir',
