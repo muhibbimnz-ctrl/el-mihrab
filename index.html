@@ -376,6 +376,7 @@ a{color:var(--accent)}
 .mus .ql .qw{font-family:inherit;color:var(--ink)}.mus .ql.qm{flex-wrap:wrap;justify-content:flex-start;gap:2px 8px;white-space:normal;font-size:min(5.6vw,30px)}
 .mus .ql.qm .qw{display:inline-flex;flex-direction:column;align-items:center}.mus .ql.qm .qw b{font-weight:400;font-family:inherit}.mus .ql.qm .qw i{font:normal 12.5px/1.25 system-ui,sans-serif;color:var(--accent);direction:ltr;max-width:9em;text-align:center}
 .ar-t.qf{line-height:2.1;word-spacing:0}.ar-t.qf span{display:inline-block}
+#main .ay{content-visibility:auto;contain-intrinsic-size:auto 340px}
 </style>
 </head>
 <body>
@@ -1037,10 +1038,16 @@ addEventListener('resize',()=>{clearTimeout(window._qf);window._qf=setTimeout(qc
 /* Dirâset ekranı: âyetler Medine mushafı yazısıyla (hareke kayması olmaz); olmazsa normal yazı */
 const QV={};
 async function qcfEnhance(s){if(set.script==='simple'||!navigator.onLine||!st.ay.length||st.ay[0].tj)return;
+  /* Yalnız ekrana yaklaşan âyetler işlenir; yazı tipi de sadece o sayfa için iner (donmayı önler) */
   try{if(!QV[s]){const all=[];let pg=1,tot=1;do{const r=await getJSON(`https://api.qurancdn.com/api/qdc/verses/by_chapter/${s}?words=true&word_fields=code_v2,page_number&per_page=50&page=${pg}&mushaf=1`,12000);all.push(...r.verses);tot=r.pagination?.total_pages||1;pg++}while(pg<=tot);QV[s]=all}
-    if(st.s!==s)return;const V=QV[s],pages=[...new Set(V.flatMap(v=>v.words.map(w=>w.page_number)))];const ok={};await Promise.all(pages.map(async p=>ok[p]=await qcfFont(p)));
-    if(st.s!==s)return;for(const v of V){const n=+v.verse_key.split(':')[1],el=$('#a'+n+' .ar-t');if(!el||!v.words.every(w=>w.code_v2&&ok[w.page_number]))continue;
-      el.innerHTML=v.words.map(w=>`<span style="font-family:qcf${w.page_number}">${w.code_v2}</span>`).join(' ');el.classList.add('qf')}}catch(e){}}
+    if(st.s!==s)return;const V={};QV[s].forEach(v=>V[+v.verse_key.split(':')[1]]=v);
+    if(window._qio)window._qio.disconnect();
+    const io=window._qio=new IntersectionObserver(es=>{es.forEach(e=>{if(!e.isIntersecting)return;const box=e.target;io.unobserve(box);
+      const n=+box.id.slice(1),v=V[n],el=box.querySelector('.ar-t');if(!v||!el||el.classList.contains('qf'))return;
+      const ps=[...new Set(v.words.map(w=>w.page_number))];
+      Promise.all(ps.map(p=>qcfFont(p))).then(ok=>{if(st.s!==s||!ok.every(Boolean)||!v.words.every(w=>w.code_v2))return;
+        requestAnimationFrame(()=>{el.innerHTML=v.words.map(w=>`<span style="font-family:qcf${w.page_number}">${w.code_v2}</span>`).join(' ');el.classList.add('qf')})})})},{rootMargin:'600px 0px'});
+    $$('#main .ay').forEach(b=>io.observe(b))}catch(e){}}
 
 async function qcfFont(p){if(qcfOK[p])return true;const urls=[`https://static.qurancdn.com/fonts/quran/hafs/v2/woff2/p${p}.woff2`,`https://verses.quran.foundation/fonts/quran/hafs/v2/woff2/p${p}.woff2`];
   for(const u of urls){try{const f=new FontFace('qcf'+p,`url(${u}) format('woff2')`,{display:'block'});await Promise.race([f.load(),new Promise((_,j)=>setTimeout(()=>j(0),9000))]);document.fonts.add(f);qcfOK[p]=1;return true}catch(e){}}return false}
