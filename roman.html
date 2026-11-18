@@ -39,27 +39,30 @@ function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;
 var H=/[ً-ْٰـ]/g;
 function norm(w,d){if(d==='en'){w=w.toLowerCase().replace(/^['".,!?;:]+|['".,!?;:]+$/g,'');return /'s$/.test(w)?w.slice(0,-2):w}return w.replace(/[«»،.؟!:؛()\-"]/g,'').replace(H,'')}
 function J(u){return fetch(u).then(function(r){if(!r.ok)throw 0;return r.json()})}
-function bk(t,f){var b=document.getElementById('bk');b.textContent=t;if(f){b.href='#';b.onclick=function(e){e.preventDefault();f()}}else{b.href=DIL?BACK[DIL]:'./';b.onclick=null}}
+function bk(t,f){var b=document.getElementById('bk');b.textContent=t;b.href='#';b.onclick=function(e){e.preventDefault();if(f)return f();if(document.referrer.indexOf(location.origin)===0&&history.length>1)history.back();else location.href=DIL?BACK[DIL]:'./'}}
+function git(h){if(location.hash!==h)location.hash=h;else rota()}
+function rota(){var h=location.hash.slice(1),p=new URLSearchParams(h);pop.classList.remove('on');if(h==='defter')return defter();var id=p.get('k');if(!id)return liste();var b=p.get('b');var go=function(){b!==null?bolum(+b):kitap()};if(K&&K.id===id)go();else J('data/roman/'+id+'.json').then(function(k){K=k;go()}).catch(function(){M.innerHTML='<p class="note">Kitap yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'})}
+addEventListener('hashchange',rota);
 function liste(){CUR=null;ttl.textContent=DIL?AD[DIL]+' romanlar':'Roman okuma';bk(DIL?'‹ '+AD[DIL]:'‹ el-Mihrâb');
  var L=LIST.filter(function(k){return !DIL||k.dil===DIL}),h='';
  L.forEach(function(k){var d=0;for(var i=0;i<k.bolum;i++)if(st.ok[k.id+'#'+i])d++;h+='<div class="bk" data-id="'+k.id+'"><span class="lv '+k.seviye+'">'+k.seviye+'</span><span class="t"><b class="ttl '+k.dil+'">'+esc(k.baslik)+'</b><b>'+esc(k.tr_baslik)+'</b><small>'+AD[k.dil]+' · '+d+'/'+k.bolum+' bölüm</small></span><span>›</span></div>'});
  if(DIL)h+='<p style="text-align:center"><a href="roman.html" style="color:#6a4c93;font-size:14px">Bütün dillerdeki romanlar</a></p>';
- M.innerHTML=h;M.querySelectorAll('.bk').forEach(function(e){e.onclick=function(){ac(e.dataset.id)}});scrollTo(0,0)}
+ M.innerHTML=h;M.querySelectorAll('.bk').forEach(function(e){e.onclick=function(){git('#k='+e.dataset.id)}});scrollTo(0,0)}
 function ac(id){J('data/roman/'+id+'.json').then(function(k){K=k;kitap()}).catch(function(){M.innerHTML='<p class="note">Kitap yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'})}
-function kitap(){CUR=null;ttl.textContent=K.tr_baslik;bk('‹ Kitaplar',liste);
+function kitap(){CUR=null;ttl.textContent=K.tr_baslik;bk('‹ Kitaplar',function(){history.back()});
  var h='<div class="note"><b class="'+K.dil+'" style="font-size:24px;display:block">'+esc(K.baslik)+'</b>'+esc(K.yazar)+' · Seviye '+K.seviye+'</div><h2>Bölümler</h2>';
  K.bolumler.forEach(function(b,i){h+='<div class="ch" data-i="'+i+'"><span><b class="'+K.dil+'" style="font-size:19px">'+esc(b.b)+'</b> · '+esc(b.tr_b)+'</span><span class="ok">'+(st.ok[K.id+'#'+i]?'✓':'›')+'</span></div>'});
- M.innerHTML=h;M.querySelectorAll('.ch').forEach(function(e){e.onclick=function(){bolum(+e.dataset.i)}});scrollTo(0,0)}
+ M.innerHTML=h;M.querySelectorAll('.ch').forEach(function(e){e.onclick=function(){git('#k='+K.id+'&b='+e.dataset.i)}});scrollTo(0,0)}
 function tok(s,d){if(d==='en')return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p))return p;var m=p.match(/^([^A-Za-z']*)([A-Za-z']+)(.*)$/);if(!m)return esc(p);var n=norm(m[2],d);return esc(m[1])+'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(m[2])+'</span>'+esc(m[3])}).join('');
  return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p)||!p)return p;var n=norm(p,d);return n?'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(p)+'</span>':esc(p)}).join('')}
-function bolum(i){CUR=i;var b=K.bolumler[i],d=K.dil;ttl.textContent=(i+1)+'. '+b.tr_b;bk('‹ Bölümler',kitap);
+function bolum(i){CUR=i;var b=K.bolumler[i],d=K.dil;ttl.textContent=(i+1)+'. '+b.tr_b;bk('‹ Bölümler',function(){history.back()});
  var h='<div class="bar"><button id="tumtr">Bütün Türkçeyi aç/kapat</button></div><div class="txt">'+'<h2 class="'+d+'" style="text-align:center;font-size:24px;margin:0 0 10px">'+esc(b.b)+'</h2>';
  b.c.forEach(function(c){h+='<div class="cm '+d+'" lang="'+d+'"><div class="s '+d+'">'+tok(c[0],d)+'</div><button class="trb">Türkçesi ▾</button><div class="tr">'+esc(c[1])+'</div></div>'});
  h+='</div><div class="nav"><button id="pv"'+(i?'':' style="visibility:hidden"')+'>‹ Önceki</button><button id="bt">'+(st.ok[K.id+'#'+i]?'✓ Okundu':'Bölümü bitirdim ✓')+'</button><button id="nx"'+(i<K.bolumler.length-1?'':' style="visibility:hidden"')+'>Sonraki ›</button></div>';
  M.innerHTML=h;scrollTo(0,0);
  M.querySelectorAll('.trb').forEach(function(x){x.onclick=function(){x.parentNode.classList.toggle('op')}});
  tumtr.onclick=function(){var a=M.querySelectorAll('.cm'),o=!a[0].classList.contains('op');a.forEach(function(x){x.classList.toggle('op',o)})};
- pv.onclick=function(){bolum(i-1)};nx.onclick=function(){bolum(i+1)};bt.onclick=function(){st.ok[K.id+'#'+i]=1;sv();bt.textContent='✓ Okundu'}}
+ pv.onclick=function(){location.replace('#k='+K.id+'&b='+(i-1))};nx.onclick=function(){location.replace('#k='+K.id+'&b='+(i+1))};bt.onclick=function(){st.ok[K.id+'#'+i]=1;sv();bt.textContent='✓ Okundu'}}
 var SEL=null;
 M.addEventListener('click',function(e){var w=e.target.closest('.w');if(!w||!K)return;M.querySelectorAll('.w.on').forEach(function(x){x.classList.remove('on')});w.classList.add('on');
  var n=w.dataset.n,m=K.sozluk[n]||'—';SEL={k:K.dil+'|'+n,w:w.textContent,m:m,d:K.dil};pk.className='k '+K.dil;pk.textContent=w.textContent;pm.textContent=m;
@@ -67,12 +70,12 @@ M.addEventListener('click',function(e){var w=e.target.closest('.w');if(!w||!K)re
 pcl.onclick=function(){pop.classList.remove('on');M.querySelectorAll('.w.on').forEach(function(x){x.classList.remove('on')})};
 padd.onclick=function(){if(!SEL)return;if(st.d[SEL.k])delete st.d[SEL.k];else st.d[SEL.k]=[SEL.w,SEL.m,K.tr_baslik];sv();padd.textContent=st.d[SEL.k]?'✓ Defterde':'＋ Defterime ekle';
  M.querySelectorAll('.w').forEach(function(x){x.classList.toggle('kn',!!st.d[K.dil+'|'+x.dataset.n])})};
-dfb.onclick=function(){pop.classList.remove('on');ttl.textContent='Kelime defterim';var back=K&&CUR!==null?function(){bolum(CUR)}:K?kitap:liste;bk('‹ Geri',back);
+dfb.onclick=function(){git('#defter')};function defter(){ttl.textContent='Kelime defterim';bk('‹ Geri',function(){history.back()});
  var ks=Object.keys(st.d),h='<p class="note">Okurken eklediğiniz kelimeler. Öğrendiğinizi silebilirsiniz.</p>';
  if(!ks.length)h+='<p class="note">Defteriniz boş. Okurken bir kelimeye dokunup «Defterime ekle»ye basın.</p>';
  ks.forEach(function(k){var v=st.d[k],d=k.split('|')[0];h+='<div class="dft"><span><span class="k '+d+'">'+esc(v[0])+'</span> — '+esc(v[1])+'<br><small style="color:#7a7266">'+AD[d]+' · '+esc(v[2]||'')+'</small></span><button data-k="'+esc(k)+'">Öğrendim ✓</button></div>'});
- M.innerHTML=h;M.querySelectorAll('.dft button').forEach(function(b){b.onclick=function(){delete st.d[b.dataset.k];sv();dfb.onclick()}});scrollTo(0,0)};
-sv();J('data/roman/liste.json').then(function(l){LIST=l;var id=Q.get('id');if(id)ac(id);else liste()}).catch(function(){M.innerHTML='<p class="note">Liste yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'});
+ M.innerHTML=h;M.querySelectorAll('.dft button').forEach(function(b){b.onclick=function(){delete st.d[b.dataset.k];sv();defter()}});scrollTo(0,0)};
+sv();J('data/roman/liste.json').then(function(l){LIST=l;var id=Q.get('id');if(id&&!location.hash)location.replace('#k='+id);else rota()}).catch(function(){M.innerHTML='<p class="note">Liste yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'});
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e3f9665447b64c6f8d89efca8e6de38f"}'></script><!-- End Cloudflare Web Analytics -->
 </body></html>
