@@ -29,6 +29,7 @@ main{max-width:760px;margin:0 auto;padding:14px 14px 90px}
 .dft{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#fff;border-radius:12px;padding:10px 12px;margin:6px 0}.dft .k{font-size:21px}.dft button{border:0;background:#f0e6d2;border-radius:10px;padding:6px 10px;cursor:pointer}
 h2{font-size:17px;margin:16px 4px 6px}
 @media(prefers-color-scheme:dark){body{background:#16131c;color:#ece4d3}.bk,.ch,.note,.dft,.bar button{background:#231e2c;color:#ece4d3}.txt{background:#1d1924}.w:hover{background:#3a3048}.w.on{background:#6b5a24}.cm .tr{color:#b9ae9a}.bk small,.note{color:#b2a892}.dft button{background:#3a3048;color:#ece4d3}}
+.chap{content-visibility:auto;contain-intrinsic-size:auto 1400px}.chs{text-align:center;color:#888;margin:0 0 12px;font-size:14px}
 </style></head><body>
 <div id="hd"><div class="top"><a href="./" id="bk">‹ el-Mihrâb</a><h1 id="ttl">Roman okuma</h1><button id="dfb" title="Kelime defterim">📒 <span id="dfn">0</span></button></div></div>
 <main id="m"></main>
@@ -44,7 +45,7 @@ function norm(w,d){if(d==='en'){w=w.toLowerCase().replace(/^['".,!?;:]+|['".,!?;
 function J(u){return fetch(u).then(function(r){if(!r.ok)throw 0;return r.json()})}
 function bk(t,f){var b=document.getElementById('bk');b.textContent=t;b.href='#';b.onclick=function(e){e.preventDefault();if(f)return f();if(document.referrer.indexOf(location.origin)===0&&history.length>1)history.back();else location.href=DIL?BACK[DIL]:'./'}}
 function git(h){if(location.hash!==h)location.hash=h;else rota()}
-function rota(){var h=location.hash.slice(1),p=new URLSearchParams(h);pop.classList.remove('on');if(h==='defter')return defter();var id=p.get('k');if(!id)return liste();var b=p.get('b');var go=function(){b!==null?bolum(+b):kitap()};if(K&&K.id===id)go();else J('data/roman/'+id+'.json').then(function(k){K=k;go()}).catch(function(){M.innerHTML='<p class="note">Kitap yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'})}
+function rota(){if(AK)AK.disconnect();if(AKS)AKS.disconnect();AK=AKS=null;var h=location.hash.slice(1),p=new URLSearchParams(h);pop.classList.remove('on');if(h==='defter')return defter();var id=p.get('k');if(!id)return liste();var b=p.get('b');var go=function(){b!==null?bolum(+b):kitap()};if(K&&K.id===id)go();else J('data/roman/'+id+'.json').then(function(k){K=k;go()}).catch(function(){M.innerHTML='<p class="note">Kitap yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'})}
 addEventListener('hashchange',rota);
 function liste(){CUR=null;ttl.textContent=DIL?AD[DIL]+' romanlar':'Roman okuma';bk(DIL?'‹ '+AD[DIL]:'‹ el-Mihrâb');
  var L=LIST.filter(function(k){return !DIL||k.dil===DIL}),h='';
@@ -58,14 +59,23 @@ function kitap(){CUR=null;ttl.textContent=K.tr_baslik;bk('‹ Kitaplar',function
  M.innerHTML=h;M.querySelectorAll('.ch').forEach(function(e){e.onclick=function(){git('#k='+K.id+'&b='+e.dataset.i)}});scrollTo(0,0)}
 function tok(s,d){if(d==='en')return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p))return p;var m=p.match(/^([^A-Za-z']*)([A-Za-z']+)(.*)$/);if(!m)return esc(p);var n=norm(m[2],d);return esc(m[1])+'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(m[2])+'</span>'+esc(m[3])}).join('');
  return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p)||!p)return p;var n=norm(p,d);return n?'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(p)+'</span>':esc(p)}).join('')}
-function bolum(i){CUR=i;var b=K.bolumler[i],d=K.dil;ttl.textContent=(i+1)+'. '+b.tr_b;bk('‹ Bölümler',function(){history.back()});
- var h='<div class="bar"><button id="tumtr">Bütün Türkçeyi aç/kapat</button></div><div class="txt">'+'<h2 class="'+d+'" style="text-align:center;font-size:24px;margin:0 0 10px">'+esc(b.b)+'</h2>';
+function bolumH(i){var b=K.bolumler[i],d=K.dil,h='<section class="chap" data-i="'+i+'"><h2 class="'+d+'" style="text-align:center;font-size:24px;margin:22px 0 4px">'+esc(b.b)+'</h2><p class="chs">'+(i+1)+'. '+esc(b.tr_b)+'</p>';
  b.c.forEach(function(c){h+='<div class="cm '+d+'" lang="'+d+'"><div class="s '+d+'">'+tok(c[0],d)+'</div><button class="trb">Türkçesi ▾</button><div class="tr">'+esc(c[1])+'</div></div>'});
- h+='</div><div class="nav"><button id="pv"'+(i?'':' style="visibility:hidden"')+'>‹ Önceki</button><button id="bt">'+(st.ok[K.id+'#'+i]?'✓ Okundu':'Bölümü bitirdim ✓')+'</button><button id="nx"'+(i<K.bolumler.length-1?'':' style="visibility:hidden"')+'>Sonraki ›</button></div>';
- M.innerHTML=h;scrollTo(0,0);
- M.querySelectorAll('.trb').forEach(function(x){x.onclick=function(){x.parentNode.classList.toggle('op')}});
- tumtr.onclick=function(){var a=M.querySelectorAll('.cm'),o=!a[0].classList.contains('op');a.forEach(function(x){x.classList.toggle('op',o)})};
- pv.onclick=function(){location.replace('#k='+K.id+'&b='+(i-1))};nx.onclick=function(){location.replace('#k='+K.id+'&b='+(i+1))};bt.onclick=function(){st.ok[K.id+'#'+i]=1;sv();bt.textContent='✓ Okundu'}}
+ return h+'</section>'}
+/* Bölümler alt alta akar: aşağı kaydırdıkça sıradaki bölüm kendiliğinden eklenir */
+var AK=null,AKS=null,NX=0;
+function bolum(i){CUR=i;var d=K.dil;ttl.textContent=(i+1)+'. '+K.bolumler[i].tr_b;bk('‹ Bölümler',function(){history.back()});
+ if(AK)AK.disconnect();if(AKS)AKS.disconnect();
+ M.innerHTML='<div class="bar"><button id="tumtr">Bütün Türkçeyi aç/kapat</button></div><div class="txt" id="akis"></div><div id="son" style="height:40px"></div>';
+ var akis=document.getElementById('akis'),son=document.getElementById('son');NX=i;
+ function ekle(){if(NX>=K.bolumler.length){son.innerHTML='<p class="note" style="text-align:center">Kitap bitti ✓</p>';if(AK)AK.disconnect();return}
+  akis.insertAdjacentHTML('beforeend',bolumH(NX));var sec=akis.lastElementChild;if(AKS)AKS.observe(sec);NX++}
+ AKS=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting||!e.target.isConnected||!K)return;var n=+e.target.dataset.i;
+  if(n!==CUR){for(var k=CUR;k<n;k++)st.ok[K.id+'#'+k]=1;sv();CUR=n;ttl.textContent=(n+1)+'. '+K.bolumler[n].tr_b;try{history.replaceState(null,'','#k='+K.id+'&b='+n)}catch(x){}}})},{rootMargin:'-45% 0px -50% 0px'});
+ ekle();scrollTo(0,0);
+ AK=new IntersectionObserver(function(es){if(es[0].isIntersecting){ekle();if(NX>=K.bolumler.length){var l=K.bolumler.length-1;st.ok[K.id+'#'+l]=1;sv()}}},{rootMargin:'0px 0px 900px 0px'});AK.observe(son);
+ tumtr.onclick=function(){var a=M.querySelectorAll('.cm');if(!a.length)return;var o=!a[0].classList.contains('op');a.forEach(function(x){x.classList.toggle('op',o)})}}
+M.addEventListener('click',function(e){var x=e.target.closest('.trb');if(x)x.parentNode.classList.toggle('op')});
 var SEL=null;
 M.addEventListener('click',function(e){var w=e.target.closest('.w');if(!w||!K)return;M.querySelectorAll('.w.on').forEach(function(x){x.classList.remove('on')});w.classList.add('on');
  var n=w.dataset.n,m=K.sozluk[n]||'—';SEL={k:K.dil+'|'+n,w:w.textContent,m:m,d:K.dil};pk.className='k '+K.dil;pk.textContent=w.textContent;pm.textContent=m;
