@@ -1,27 +1,8 @@
-# Binbir Gece — Sindbad'ın ilk yolculuğu. el-Mihrâb için A2 uyarlama (özgün metin değildir)
-KITAP={'id':'sindbad','dil':'ar','seviye':'A2','baslik':'رِحْلَةُ السِّنْدِبَادِ','tr_baslik':'Sindbad’ın yolculuğu',
+# Binbir Gece — Sindbad'ın yedi yolculuğu. el-Mihrâb için A1–A2 uyarlama (özgün metin değildir). Bölümler sindbad_*.py dosyalarından toplanır.
+import importlib.util,glob,os
+KITAP={'id':'sindbad','dil':'ar','seviye':'A2','baslik':'رِحْلَاتُ السِّنْدِبَادِ السَّبْعُ','tr_baslik':'Sindbad’ın Yedi Yolculuğu',
 'yazar':'Binbir Gece Masalları — uyarlama',
-'not':'Binbir Gece’deki Sindbad’ın ilk yolculuğunun el-Mihrâb için A2 seviyesinde yeniden anlatımıdır; özgün metin değildir.'}
-B=[
-('السِّنْدِبَادُ التَّاجِرُ','Tüccar Sindbad',[
-('كَانَ السِّنْدِبَادُ تَاجِرًا شَابًّا فِي بَغْدَادَ.','Sindbad Bağdat’ta genç bir tüccardı.'),
-('وَكَانَ يُحِبُّ الْبَحْرَ وَالسَّفَرَ كَثِيرًا.','Denizi ve yolculuğu çok severdi.'),
-('فِي يَوْمٍ مِنَ الْأَيَّامِ اشْتَرَى بِضَاعَةً، وَرَكِبَ سَفِينَةً كَبِيرَةً مَعَ تُجَّارٍ آخَرِينَ.','Bir gün mal satın aldı ve başka tüccarlarla büyük bir gemiye bindi.'),
-('سَافَرَتِ السَّفِينَةُ أَيَّامًا وَلَيَالِيَ فِي الْبَحْرِ.','Gemi denizde günlerce, gecelerce yol aldı.')]),
-('الْجَزِيرَةُ الْعَجِيبَةُ','Tuhaf ada',[
-('وَفِي يَوْمٍ رَأَى الْبَحَّارَةُ جَزِيرَةً صَغِيرَةً خَضْرَاءَ.','Bir gün denizciler küçük, yeşil bir ada gördü.'),
-('نَزَلَ التُّجَّارُ عَلَى الْجَزِيرَةِ، وَأَشْعَلُوا نَارًا لِيَطْبُخُوا الطَّعَامَ.','Tüccarlar adaya indi ve yemek pişirmek için ateş yaktılar.'),
-('فَجْأَةً تَحَرَّكَتِ الْجَزِيرَةُ!','Birden ada hareket etti!'),
-('صَاحَ الْقُبْطَانُ: «هَذِهِ لَيْسَتْ جَزِيرَةً، هَذَا حُوتٌ كَبِيرٌ!»','Kaptan bağırdı: “Bu bir ada değil, bu büyük bir balina!”'),
-('رَجَعَ النَّاسُ إِلَى السَّفِينَةِ بِسُرْعَةٍ، لَكِنَّ السِّنْدِبَادَ سَقَطَ فِي الْمَاءِ.','İnsanlar hızla gemiye döndü, ama Sindbad suya düştü.')]),
-('وَحْدَهُ فِي الْبَحْرِ','Denizde yapayalnız',[
-('أَمْسَكَ السِّنْدِبَادُ قِطْعَةَ خَشَبٍ، وَبَقِيَ فِي الْبَحْرِ يَوْمًا وَلَيْلَةً.','Sindbad bir tahta parçasına tutundu ve bir gün bir gece denizde kaldı.'),
-('ثُمَّ حَمَلَتْهُ الْأَمْوَاجُ إِلَى جَزِيرَةٍ حَقِيقِيَّةٍ.','Sonra dalgalar onu gerçek bir adaya taşıdı.'),
-('كَانَ جَائِعًا وَتَعْبَانَ، فَأَكَلَ مِنَ الْفَوَاكِهِ وَشَرِبَ مِنْ عَيْنِ مَاءٍ.','Aç ve yorgundu; meyvelerden yedi ve bir pınardan su içti.'),
-('وَفِي الصَّبَاحِ وَجَدَ رِجَالًا يَعْمَلُونَ عِنْدَ مَلِكِ الْجَزِيرَةِ.','Sabah adanın kralının yanında çalışan adamlar buldu.')]),
-('الْعَوْدَةُ إِلَى بَغْدَادَ','Bağdat’a dönüş',[
-('أَكْرَمَهُ الْمَلِكُ، وَبَقِيَ عِنْدَهُ أَيَّامًا كَثِيرَةً.','Kral ona ikram etti; Sindbad uzun günler onun yanında kaldı.'),
-('وَفِي يَوْمٍ وَصَلَتْ إِلَى الْمِينَاءِ سَفِينَةٌ، فَعَرَفَ فِيهَا بِضَاعَتَهُ!','Bir gün limana bir gemi geldi; Sindbad onda kendi mallarını tanıdı!'),
-('كَانَتْ هِيَ السَّفِينَةَ نَفْسَهَا، وَفَرِحَ الْقُبْطَانُ كَثِيرًا لَمَّا رَآهُ حَيًّا.','Bu aynı gemiydi; kaptan onu sağ görünce çok sevindi.'),
-('رَجَعَ السِّنْدِبَادُ إِلَى بَغْدَادَ غَنِيًّا، وَقَالَ: «الْحَمْدُ لِلَّهِ عَلَى السَّلَامَةِ.»','Sindbad Bağdat’a zengin olarak döndü ve “Selamete kavuştuğum için Allah’a hamd olsun” dedi.')]),
-]
+'not':''}
+B=[]
+for p in sorted(glob.glob(os.path.join(os.path.dirname(__file__),'sindbad_[0-9]*.py'))):
+    sp=importlib.util.spec_from_file_location('p',p);m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m);B+=m.B
