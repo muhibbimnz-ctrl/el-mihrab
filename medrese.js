@@ -647,7 +647,7 @@ async function kitapOku(id, bi){
   V.innerHTML = bar(b ? b.ad : K.baslik, '/kitap/' + id) + `<div class="wrap">
     <div class="kbaslik"><div lang="ar">${esc(K.baslik)}</div><details class="kkay"><summary>Kaynak hakkında</summary><small>${esc(K.tur === 'serh' ? K.kaynak + ' · Altın çerçeveli kısımlar matn, altındakiler şerhtir' : K.tur === 'ders' ? 'Ders notu' : 'Matn: ' + K.kaynak)}${K.tr_kaynak ? ' · ' + esc(K.tr_kaynak) : ''}</small></details></div>
     ${K.tur !== 'ders' ? `<div class="tools"><span class="lnk">Türkçesi için cümleye dokunun</span> <label><input type="checkbox" id="ktr" ${trA ? 'checked' : ''}> Hepsini göster</label></div>` : ''}
-    ${K.bolumler.length > 14 ? `<details class="tocd"><summary>📑 İçindekiler (${K.bolumler.length} bölüm)</summary><ol class="tocl">${K.bolumler.map((s, i) => `<li><a href="#" data-to="${i}" class="${ok[id + '#' + i] ? 'done' : ''}">${esc(s.tr_b || s.b)}</a></li>`).join('')}</ol></details>` : `<div class="toc">${K.bolumler.map((s, i) => `<a href="#" data-to="${i}" class="${ok[id + '#' + i] ? 'done' : ''}">${esc(s.tr_b || s.b)}</a>`).join('')}</div>`}
+    ${K.bolumler.length > 0 ? `<details class="tocd"><summary>📑 İçindekiler (${K.bolumler.length} bölüm)</summary><ol class="tocl">${K.bolumler.map((s, i) => `<li><a href="#" data-to="${i}" class="${ok[id + '#' + i] ? 'done' : ''}">${esc(s.tr_b || s.b)}</a></li>`).join('')}</ol></details>` : `<div class="toc">${K.bolumler.map((s, i) => `<a href="#" data-to="${i}" class="${ok[id + '#' + i] ? 'done' : ''}">${esc(s.tr_b || s.b)}</a>`).join('')}</div>`}
     ${K.bolumler.map(sec).join('')}
     <div class="end">${K.sorular ? `<a class="btn pri big" href="#/oku/${id}/alistirma">Bu kitaptan alıştırma (${K.sorular.length} soru) ›</a>` : ''}</div>
     </div>`;

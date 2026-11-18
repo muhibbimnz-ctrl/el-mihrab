@@ -41,13 +41,13 @@ function norm(w,d){if(d==='en'){w=w.toLowerCase().replace(/^['".,!?;:]+|['".,!?;
 function J(u){return fetch(u).then(function(r){if(!r.ok)throw 0;return r.json()})}
 function bk(t,f){var b=document.getElementById('bk');b.textContent=t;if(f){b.href='#';b.onclick=function(e){e.preventDefault();f()}}else{b.href=DIL?BACK[DIL]:'./';b.onclick=null}}
 function liste(){CUR=null;ttl.textContent=DIL?AD[DIL]+' romanlar':'Roman okuma';bk(DIL?'‹ '+AD[DIL]:'‹ el-Mihrâb');
- var L=LIST.filter(function(k){return !DIL||k.dil===DIL}),h='<p class="note">Seviyesine göre uyarlanmış klasik eserler. Okurken bilmediğiniz kelimeye dokunun: Türkçesi çıkar, isterseniz <b>Kelime defterim</b>e eklersiniz. Cümlenin altındaki «Türkçesi» ile çevirisini açabilirsiniz.</p>';
- L.forEach(function(k){var d=0;for(var i=0;i<k.bolum;i++)if(st.ok[k.id+'#'+i])d++;h+='<div class="bk" data-id="'+k.id+'"><span class="lv '+k.seviye+'">'+k.seviye+'</span><span class="t"><b class="ttl '+k.dil+'">'+esc(k.baslik)+'</b><b>'+esc(k.tr_baslik)+'</b><small>'+AD[k.dil]+' · '+esc(k.yazar)+' · '+d+'/'+k.bolum+' bölüm</small></span><span>›</span></div>'});
+ var L=LIST.filter(function(k){return !DIL||k.dil===DIL}),h='';
+ L.forEach(function(k){var d=0;for(var i=0;i<k.bolum;i++)if(st.ok[k.id+'#'+i])d++;h+='<div class="bk" data-id="'+k.id+'"><span class="lv '+k.seviye+'">'+k.seviye+'</span><span class="t"><b class="ttl '+k.dil+'">'+esc(k.baslik)+'</b><b>'+esc(k.tr_baslik)+'</b><small>'+AD[k.dil]+' · '+d+'/'+k.bolum+' bölüm</small></span><span>›</span></div>'});
  if(DIL)h+='<p style="text-align:center"><a href="roman.html" style="color:#6a4c93;font-size:14px">Bütün dillerdeki romanlar</a></p>';
  M.innerHTML=h;M.querySelectorAll('.bk').forEach(function(e){e.onclick=function(){ac(e.dataset.id)}});scrollTo(0,0)}
 function ac(id){J('data/roman/'+id+'.json').then(function(k){K=k;kitap()}).catch(function(){M.innerHTML='<p class="note">Kitap yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'})}
 function kitap(){CUR=null;ttl.textContent=K.tr_baslik;bk('‹ Kitaplar',liste);
- var h='<div class="note"><b class="'+K.dil+'" style="font-size:24px;display:block">'+esc(K.baslik)+'</b>'+esc(K.yazar)+' · Seviye '+K.seviye+'<br>'+esc(K.not)+'</div><h2>Bölümler</h2>';
+ var h='<div class="note"><b class="'+K.dil+'" style="font-size:24px;display:block">'+esc(K.baslik)+'</b>'+esc(K.yazar)+' · Seviye '+K.seviye+'</div><h2>Bölümler</h2>';
  K.bolumler.forEach(function(b,i){h+='<div class="ch" data-i="'+i+'"><span><b class="'+K.dil+'" style="font-size:19px">'+esc(b.b)+'</b> · '+esc(b.tr_b)+'</span><span class="ok">'+(st.ok[K.id+'#'+i]?'✓':'›')+'</span></div>'});
  M.innerHTML=h;M.querySelectorAll('.ch').forEach(function(e){e.onclick=function(){bolum(+e.dataset.i)}});scrollTo(0,0)}
 function tok(s,d){if(d==='en')return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p))return p;var m=p.match(/^([^A-Za-z']*)([A-Za-z']+)(.*)$/);if(!m)return esc(p);var n=norm(m[2],d);return esc(m[1])+'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(m[2])+'</span>'+esc(m[3])}).join('');
