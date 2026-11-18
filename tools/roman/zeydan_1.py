@@ -1,0 +1,40 @@
+B=[
+('الْقَاهِرَةُ','Kahire',[
+('فِي سَنَةِ خَمْسِمِائَةٍ وَأَرْبَعٍ وَسِتِّينَ لِلْهِجْرَةِ، كَانَتِ الْقَاهِرَةُ مَدِينَةً عَظِيمَةً كَثِيرَةَ الْقُصُورِ وَالْأَسْوَاقِ.','Hicrî 564 yılında Kahire, sarayları ve çarşıları çok olan büyük bir şehirdi.'),
+('وَكَانَ الْخَلِيفَةُ الْفَاطِمِيُّ الْعَاضِدُ شَابًّا ضَعِيفًا، لَا يَمْلِكُ مِنَ الْأَمْرِ شَيْئًا.','Fâtımî halifesi el-Âdıd zayıf bir gençti; işlerden hiçbirine hükmetmiyordu.'),
+('وَكَانَ الْوُزَرَاءُ يَتَقَاتَلُونَ عَلَى السُّلْطَةِ، وَالصَّلِيبِيُّونَ يَطْمَعُونَ فِي مِصْرَ.','Vezirler iktidar için birbirleriyle savaşıyor, Haçlılar da Mısır’a göz dikiyordu.'),
+('فَأَرْسَلَ نُورُ الدِّينِ مَحْمُودٌ، سُلْطَانُ الشَّامِ، جَيْشًا لِحِمَايَةِ مِصْرَ.','Şam sultanı Nûreddin Mahmûd, Mısır’ı korumak için bir ordu gönderdi.'),
+('وَكَانَ فِي الْجَيْشِ شَابٌّ هَادِئٌ قَلِيلُ الْكَلَامِ، اسْمُهُ يُوسُفُ بْنُ أَيُّوبَ.','Orduda Yûsuf b. Eyyûb adında sakin, az konuşan bir genç vardı.'),
+('وَهُوَ الَّذِي سَيَعْرِفُهُ التَّارِيخُ بِاسْمِ صَلَاحِ الدِّينِ.','Tarihin onu Selâhaddin adıyla tanıyacağı kişi oydu.')]),
+('الْوَزِيرُ الشَّابُّ','Genç vezir',[
+('مَاتَ عَمُّهُ أَسَدُ الدِّينِ شِيرْكُوهُ بَعْدَ شَهْرَيْنِ مِنْ وِزَارَتِهِ.','Amcası Esedüddin Şîrkûh vezirliğinden iki ay sonra öldü.'),
+('فَاخْتَارَ الْخَلِيفَةُ صَلَاحَ الدِّينِ وَزِيرًا، وَظَنَّ أَنَّهُ شَابٌّ يَسْهُلُ التَّحَكُّمُ فِيهِ.','Halife Selâhaddin’i vezir seçti; onun kolayca yönlendirilebilecek bir genç olduğunu sandı.'),
+('لَكِنَّ صَلَاحَ الدِّينِ تَغَيَّرَ تَغَيُّرًا عَظِيمًا.','Ama Selâhaddin büyük bir değişim geçirdi.'),
+('تَرَكَ اللَّهْوَ، وَلَبِسَ ثِيَابًا بَسِيطَةً، وَأَقْبَلَ عَلَى الْعَدْلِ وَالْعِلْمِ.','Eğlenceyi bıraktı, sade elbiseler giydi ve kendini adalete ve ilme verdi.'),
+('وَكَانَ يَقُولُ: «لَمَّا أَعْطَانِي اللَّهُ مِصْرَ، عَلِمْتُ أَنَّهُ يُرِيدُ مِنِّي أَمْرًا أَكْبَرَ.»','Derdi ki: “Allah bana Mısır’ı verince, benden daha büyük bir iş istediğini anladım.”'),
+('فَأَحَبَّهُ النَّاسُ، وَخَافَهُ الطَّامِعُونَ فِي الْحُكْمِ.','Halk onu sevdi, iktidara göz dikenler de ondan korktu.')]),
+('الْمُؤَامَرَةُ','Komplo',[
+('وَكَانَ فِي الْقَصْرِ رِجَالٌ يَكْرَهُونَ صَلَاحَ الدِّينِ، وَيُرِيدُونَ أَنْ يَرْجِعَ الْحُكْمُ إِلَيْهِمْ.','Sarayda Selâhaddin’den nefret eden ve iktidarın kendilerine dönmesini isteyen adamlar vardı.'),
+('فَكَتَبُوا سِرًّا إِلَى الصَّلِيبِيِّينَ: «تَعَالَوْا إِلَى مِصْرَ، وَنَحْنُ نُسَاعِدُكُمْ مِنَ الدَّاخِلِ.»','Haçlılara gizlice yazdılar: “Mısır’a gelin, biz size içeriden yardım ederiz.”'),
+('وَأَخْفَوُا الرِّسَالَةَ فِي نَعْلِ رَجُلٍ فَقِيرٍ يَبْدُو كَالْمُسَافِرِ.','Mektubu yolcuya benzeyen fakir bir adamın ayakkabısına gizlediler.'),
+('فَلَاحَظَ أَحَدُ رِجَالِ صَلَاحِ الدِّينِ أَنَّ نَعْلَ الرَّجُلِ جَدِيدَةٌ وَثِيَابَهُ قَدِيمَةٌ.','Selâhaddin’in adamlarından biri adamın ayakkabısının yeni, elbisesinin eski olduğunu fark etti.'),
+('فَفَتَّشُوهَا، فَوَجَدُوا الرِّسَالَةَ.','Ayakkabıyı aradılar ve mektubu buldular.'),
+('فَعَاقَبَ صَلَاحُ الدِّينِ الْخَائِنِينَ، وَحَفِظَ مِصْرَ مِنَ الْفِتْنَةِ.','Selâhaddin hainleri cezalandırdı ve Mısır’ı fitneden korudu.'),
+('وَقَالَ لِأَصْحَابِهِ: «الْخِيَانَةُ تَكْشِفُ نَفْسَهَا، وَلَوْ لَبِسَتْ أَحْسَنَ الثِّيَابِ.»','Arkadaşlarına dedi ki: “İhanet en güzel elbiseyi giyse de kendini ele verir.”')]),
+('الْحَشَّاشُونَ','Haşhaşîler',[
+('وَكَانَ فِي جِبَالِ الشَّامِ جَمَاعَةٌ يُقَالُ لَهَا الْحَشَّاشُونَ، يَقْتُلُونَ الْأُمَرَاءَ بِالْخَنَاجِرِ.','Şam dağlarında emirleri hançerlerle öldüren, Haşhaşîler denen bir topluluk vardı.'),
+('وَكَانَ زَعِيمُهُمْ يُسَمَّى شَيْخَ الْجَبَلِ، وَأَتْبَاعُهُ يُطِيعُونَهُ طَاعَةً عَمْيَاءَ.','Liderlerine Dağın Şeyhi denirdi ve taraftarları ona körü körüne itaat ederdi.'),
+('فَأَرْسَلَ رِجَالًا لِيَقْتُلُوا صَلَاحَ الدِّينِ وَهُوَ فِي خَيْمَتِهِ.','Selâhaddin’i çadırındayken öldürmek için adamlar gönderdi.'),
+('فَدَخَلَ أَحَدُهُمْ، وَضَرَبَهُ بِخِنْجَرٍ عَلَى رَأْسِهِ.','Biri içeri girdi ve hançerle başına vurdu.'),
+('لَكِنَّ صَلَاحَ الدِّينِ كَانَ يَلْبَسُ تَحْتَ عِمَامَتِهِ قَلَنْسُوَةً مِنْ حَدِيدٍ، فَنَجَا.','Ama Selâhaddin sarığının altına demirden bir başlık giyiyordu ve kurtuldu.'),
+('وَفِي صَبَاحٍ آخَرَ وَجَدَ عِنْدَ رَأْسِهِ خِنْجَرًا وَرِسَالَةً تَقُولُ: «لَوْ شِئْنَا لَقَتَلْنَاكَ.»','Başka bir sabah başucunda bir hançer ve “İsteseydik seni öldürürdük” diyen bir mektup buldu.'),
+('فَلَمْ يَخَفْ، وَقَالَ: «الْأَعْمَارُ بِيَدِ اللَّهِ، وَلَنْ أَتْرُكَ طَرِيقِي.»','Korkmadı ve dedi ki: “Ömürler Allah’ın elindedir; yolumu bırakmayacağım.”')]),
+('حِطِّينُ','Hıttîn',[
+('مَرَّتِ السِّنُونَ، وَجَمَعَ صَلَاحُ الدِّينِ مِصْرَ وَالشَّامَ تَحْتَ رَايَةٍ وَاحِدَةٍ.','Yıllar geçti; Selâhaddin Mısır’ı ve Şam’ı tek bir sancak altında topladı.'),
+('وَفِي صَيْفِ سَنَةِ خَمْسِمِائَةٍ وَثَلَاثٍ وَثَمَانِينَ الْتَقَى الْجَيْشَانِ قُرْبَ بُحَيْرَةِ طَبَرِيَّةَ.','583 yılının yazında iki ordu Taberiye gölü yakınında karşılaştı.'),
+('كَانَ الْحَرُّ شَدِيدًا، وَالصَّلِيبِيُّونَ بَعِيدِينَ عَنِ الْمَاءِ.','Sıcak şiddetliydi ve Haçlılar sudan uzaktı.'),
+('فَحَاصَرَهُمْ صَلَاحُ الدِّينِ عَلَى تَلَّيْنِ يُسَمَّيَانِ قَرْنَيْ حِطِّينَ.','Selâhaddin onları Hıttîn Boynuzları denen iki tepenin üzerinde kuşattı.'),
+('فَعَطِشُوا وَتَعِبُوا، وَانْهَزَمُوا هَزِيمَةً عَظِيمَةً، وَأُسِرَ مَلِكُهُمْ.','Susadılar, yoruldular ve büyük bir yenilgiye uğradılar; kralları esir alındı.'),
+('فَأَكْرَمَ صَلَاحُ الدِّينِ الْمَلِكَ الْأَسِيرَ، وَقَدَّمَ لَهُ مَاءً بَارِدًا.','Selâhaddin esir krala ikram etti ve ona soğuk su sundu.'),
+('وَقَالَ: «إِنَّ الْمُلُوكَ لَا يَقْتُلُونَ الْمُلُوكَ.»','Dedi ki: “Krallar kralları öldürmez.”')]),
+]
