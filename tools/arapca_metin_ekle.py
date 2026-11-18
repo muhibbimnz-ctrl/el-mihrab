@@ -6,10 +6,14 @@ H=re.compile(r'[ً-ْٰـ]')
 # alan -> (program, kategori)
 ALAN={'bilim':('A',0),'tarih':('A',1),'edebiyat':('A',2),'egitim':('A',3),'medya':('A',4),'cevre':('A',5),'saglik':('A',6),'ekonomi':('A',7),'hukuk':('A',7),'sanat':('T',7)}
 OZEL={'Uzaktan çalışma':('T',6),'Trafik güvenliği':('T',5),'Sosyal medya ve gençler':('T',8),'Dijital bağımlılık':('T',8),'Değişen aile yapısı':('T',11),'Yaşlılar ve yalnızlık':('T',11),'Gönüllülük':('T',11),'Göç ve kentleşme':('T',7),'Tüketim kültürü':('T',2),'Bir haber metni: uluslararası konferans':('T',10),
- 'Ramazan’da sağlıklı beslenme':('I',2),'Ramazan ve dayanışma':('I',2),'Zekât':('I',2),'Cuma günü':('I',2),'Hac yolculuğu':('I',2),'Vakıf medeniyeti':('I',5),'Kudüs ve Mescid-i Aksâ':('I',5),'Caminin toplumdaki yeri':('I',5),'Hadis ilmi':('I',1),'Hafızlık geleneği':('I',0)}
+ 'Ramazan’da sağlıklı beslenme':('I',2),'Ramazan ve dayanışma':('I',2),'Zekât':('I',2),'Cuma günü':('I',2),'Hac yolculuğu':('I',2),'Vakıf medeniyeti':('I',5),'Kudüs ve Mescid-i Aksâ':('I',5),'Caminin toplumdaki yeri':('I',5),'Hadis ilmi':('I',1),'Hafızlık geleneği':('I',0),
+ 'Gıda israfı':('T',3),'Çocuk beslenmesi':('T',3),'Su içmenin önemi':('T',4),'Uykunun önemi':('T',4),'Arılar ve hayat':('T',9),'Ormanlar':('T',9),
+ 'Akıl ve iman':('I',3),'Hicret':('I',4),'Komşuluk hakkı':('I',6),'Muallakât':('I',7),'Makame türü':('I',7),'Kur’an’ın cem edilmesi':('I',0),'İslam tarihinde kadın âlimler':('I',5),
+ 'Câhız ve Arap nesri':('C2',1),'Tavku’l-Hamâme':('C2',1),'Modern Arap romanı':('C2',2),'Necîb Mahfûz':('C2',2),'Arapça dünyada':('C2',3),'Yapay zekânın sınırları':('C2',4),'İbn Haldûn':('C2',4),
+ 'Basın özgürlüğü':('C2',5),'Yalan haberle mücadele':('C2',5),'Vakıf medeniyeti':('C2',6),'Makam müziği':('C2',6),'Yargı bağımsızlığı':('C2',7),'Anayasa nedir?':('C2',7)}
 def bol(s,isar):
     p=re.split(r'(?<=[.!?؟])\s+',s.strip()); return [x for x in p if x.strip()]
-out={'T':[],'A':[],'I':[]}
+out={'T':[],'A':[],'I':[],'C2':[]}
 for x in m['metinler']:
     hedef=OZEL.get(x['baslik']) or ALAN.get(x['alan'])
     if not hedef: continue

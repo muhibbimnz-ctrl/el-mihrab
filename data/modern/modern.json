@@ -13146,6 +13146,176 @@
 "a": ""
 }
 ]
+},
+{
+"id": "hicret",
+"alan": "din",
+"baslik": "Hicret",
+"ar_baslik": "الهجرة النبوية",
+"konu": "Hicret",
+"seviye": "B1",
+"ar": [
+"لما اشتد أذى قريش على المسلمين في مكة، أذن الله لهم بالهجرة إلى المدينة.",
+"فخرج النبي صلى الله عليه وسلم مع صاحبه أبي بكر، واختبآ في غار ثور ثلاث ليال.",
+"وكان عبد الله بن أبي بكر يأتيهما بالأخبار، وأسماء بنت أبي بكر تحمل إليهما الطعام.",
+"ثم سلكا طريقا غير معروف نحو المدينة، بدليل اسمه عبد الله بن أريقط.",
+"واستقبل أهل المدينة النبي بفرح عظيم، وبنى فيها المسجد، وآخى بين المهاجرين والأنصار.",
+"وجعل عمر بن الخطاب الهجرة بداية للتاريخ الإسلامي، لأنها كانت فاصلا بين عهدين."
+],
+"tr": [
+"Kureyş’in Mekke’deki Müslümanlara eziyeti şiddetlenince Allah onlara Medine’ye hicret izni verdi.",
+"Peygamber (s.a.v.) arkadaşı Ebû Bekir ile çıktı; ikisi Sevr mağarasında üç gece saklandı.",
+"Ebû Bekir’in oğlu Abdullah onlara haber getirir, kızı Esmâ yiyecek taşırdı.",
+"Sonra Abdullah b. Uraykıt adlı bir kılavuzla Medine’ye bilinmeyen bir yoldan gittiler.",
+"Medine halkı Peygamber’i büyük bir sevinçle karşıladı; orada mescidi inşa etti ve muhâcirlerle ensârı kardeş yaptı.",
+"Ömer b. Hattâb hicreti İslam tarihinin başlangıcı yaptı; çünkü o iki dönem arasında bir sınırdı."
+],
+"sozluk": [
+[
+"أذى",
+"eziyet"
+],
+[
+"اختبآ",
+"ikisi saklandı"
+],
+[
+"غار",
+"mağara"
+],
+[
+"دليل",
+"kılavuz"
+],
+[
+"آخى",
+"kardeş yaptı"
+],
+[
+"فاصلا",
+"sınır, ayırıcı"
+]
+],
+"sorular": [
+{
+"s": "Mağarada yiyecek kim taşırdı?",
+"k": [
+"Esmâ bint Ebî Bekir",
+"Âişe",
+"Hz. Fâtıma",
+"Ümmü Seleme"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Hicreti takvimin başlangıcı yapan:",
+"k": [
+"Ömer b. Hattâb",
+"Ebû Bekir",
+"Osman",
+"Ali"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "“آخى” ne demektir?",
+"k": [
+"Kardeş yaptı",
+"Savaştı",
+"Göç etti",
+"Sakladı"
+],
+"d": 0,
+"a": ""
+}
+]
+},
+{
+"id": "akl-iman",
+"alan": "din",
+"baslik": "Akıl ve iman",
+"ar_baslik": "العقل والإيمان",
+"konu": "Akıl ve iman",
+"seviye": "B2",
+"ar": [
+"يرى علماء الكلام أن العقل والنقل لا يتعارضان، لأن مصدرهما واحد.",
+"فالقرآن يدعو إلى التفكر في خلق السماوات والأرض، ويعيب على الذين لا يعقلون.",
+"وقد استدل المتكلمون بحدوث العالم على وجود محدث له، وهو الله تعالى.",
+"وقرر الإمام الماتريدي أن معرفة الله واجبة بالعقل قبل ورود الشرع.",
+"غير أن العقل له حدود، فهو يدرك وجود الخالق ولا يحيط بكنه ذاته.",
+"ولذلك كان الوحي هاديا للعقل، والعقل أداة لفهم الوحي."
+],
+"tr": [
+"Kelâm âlimleri akıl ile naklin çelişmediğini düşünür, çünkü ikisinin kaynağı birdir.",
+"Kur’an göklerin ve yerin yaratılışı üzerinde düşünmeye çağırır ve akletmeyenleri kınar.",
+"Kelâmcılar âlemin sonradan olmasından onu var eden birinin, yani Allah Teâlâ’nın varlığına delil getirmiştir.",
+"İmam Mâtürîdî, Allah’ı tanımanın şeriat gelmeden önce de akılla vâcip olduğunu belirtmiştir.",
+"Ancak aklın sınırları vardır; Yaratıcının varlığını idrak eder ama zâtının künhünü kuşatamaz.",
+"Bu yüzden vahiy akla yol gösterici, akıl da vahyi anlamanın aracıdır."
+],
+"sozluk": [
+[
+"العقل",
+"akıl"
+],
+[
+"النقل",
+"nakil (vahiy)"
+],
+[
+"يتعارضان",
+"çelişirler"
+],
+[
+"حدوث",
+"sonradan olma"
+],
+[
+"محدث",
+"var eden"
+],
+[
+"كنه",
+"öz, künh"
+]
+],
+"sorular": [
+{
+"s": "Kelâmcılara göre akıl ve nakil:",
+"k": [
+"Çelişmez",
+"Daima çelişir",
+"İlgisizdir",
+"Aynı şeydir"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Allah’ı tanımanın akılla vâcip olduğunu belirten:",
+"k": [
+"Mâtürîdî",
+"İbn Sînâ",
+"Câhız",
+"Zemahşerî"
+],
+"d": 0,
+"a": ""
+},
+{
+"s": "Aklın sınırı nedir?",
+"k": [
+"Zâtın künhünü kuşatamaz",
+"Hiçbir şeyi bilemez",
+"Her şeyi bilir",
+"Sadece sayı sayar"
+],
+"d": 0,
+"a": ""
+}
+]
 }
 ],
 "kelime": [

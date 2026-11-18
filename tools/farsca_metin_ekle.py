@@ -1,0 +1,21 @@
+# tools/fa_metinler*.py içindeki Farsça okuma metinlerini farsca.html'deki Günlük Hayat (T) / Akademik (A) / İslami İlimler (I)
+# programlarına ders olarak ekler. Tekrar çalıştırılabilir.
+import json,re,glob,importlib.util,random
+F=[]
+for p in sorted(glob.glob('tools/fa_metinler*.py')):
+    sp=importlib.util.spec_from_file_location('m',p);m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m);F+=m.M
+out={'T':[],'A':[],'I':[]}
+for x in F:
+    prog,cat,fa_b,tr_b,sv,P,V,Qs=x
+    allfa=[s for par in P for s,_ in par]
+    VV=[[w,t,next((s for s in allfa if w in s),''),''] for w,t in V]
+    mq=[]
+    for i,(s,k,a) in enumerate(Qs):
+        R=random.Random(fa_b+str(i));kk=k[1:];R.shuffle(kk);d=R.randrange(len(k));kk.insert(d,k[0]);mq.append([s,kk,d,a])
+    out[prog].append({'c':cat,'en':fa_b,'tr':tr_b,'v':VV,'p':[[[s,t] for s,t in par] for par in P],'mq':mq,'sv':sv})
+js='/*FA-METIN*/'+''.join(f'{k}.push.apply({k},{json.dumps(v,ensure_ascii=False,separators=(",",":"))});' for k,v in out.items())+'/*/FA-METIN*/\n'
+f='farsca.html';s=open(f,encoding='utf-8').read()
+s=re.sub(r'/\*FA-METIN\*/.*?/\*/FA-METIN\*/\n','',s,flags=re.S)
+assert s.count('\nvar COL={')==1;s=s.replace('\nvar COL={','\n'+js+'var COL={',1)
+open(f,'w',encoding='utf-8').write(s)
+print({k:len(v) for k,v in out.items()})
