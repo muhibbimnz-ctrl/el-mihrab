@@ -30,8 +30,7 @@ for x in m['metinler']:
     L={'c':hedef[1],'en':x['ar_baslik'],'tr':x['baslik'],'v':V,'p':P,'mq':[[q['s'],q['k'],q['d'],q.get('a','')] for q in x['sorular']],'sv':x.get('seviye','')}
     out[hedef[0]].append(L)
 js='/*YDS-METIN*/'+''.join(f'{k}.push.apply({k},{json.dumps(v,ensure_ascii=False,separators=(",",":"))});' for k,v in out.items())+'/*/YDS-METIN*/\n'
-f='arapca.html'; s=open(f,encoding='utf-8').read()
-s=re.sub(r'/\*YDS-METIN\*/.*?/\*/YDS-METIN\*/\n','',s,flags=re.S)
-assert s.count('\nvar COL={')==1; s=s.replace('\nvar COL={','\n'+js+'var COL={',1)
-open(f,'w',encoding='utf-8').write(s)
+import sys,os;sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+from dil_veri import blok_yaz
+blok_yaz('arapca','YDS-METIN',js)
 print({k:len(v) for k,v in out.items()})

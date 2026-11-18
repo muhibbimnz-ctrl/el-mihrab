@@ -14,8 +14,7 @@ for x in F:
         R=random.Random(fa_b+str(i));kk=k[1:];R.shuffle(kk);d=R.randrange(len(k));kk.insert(d,k[0]);mq.append([s,kk,d,a])
     out[prog].append({'c':cat,'en':fa_b,'tr':tr_b,'v':VV,'p':[[[s,t] for s,t in par] for par in P],'mq':mq,'sv':sv})
 js='/*FA-METIN*/'+''.join(f'{k}.push.apply({k},{json.dumps(v,ensure_ascii=False,separators=(",",":"))});' for k,v in out.items())+'/*/FA-METIN*/\n'
-f='farsca.html';s=open(f,encoding='utf-8').read()
-s=re.sub(r'/\*FA-METIN\*/.*?/\*/FA-METIN\*/\n','',s,flags=re.S)
-assert s.count('\nvar COL={')==1;s=s.replace('\nvar COL={','\n'+js+'var COL={',1)
-open(f,'w',encoding='utf-8').write(s)
+import sys,os;sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+from dil_veri import blok_yaz
+blok_yaz('farsca','FA-METIN',js)
 print({k:len(v) for k,v in out.items()})
