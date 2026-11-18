@@ -1,0 +1,43 @@
+B=[
+('الْقِرْدُ وَالْغَيْلَمُ','Maymun ve kaplumbağa',[
+('زَعَمُوا أَنَّ قِرْدًا كَانَ مَلِكَ الْقِرَدَةِ، فَكَبِرَ وَهَرِمَ، فَأَخْرَجَهُ قِرْدٌ شَابٌّ مِنْ مُلْكِهِ.','Derler ki bir maymun maymunların kralıydı; yaşlanıp ihtiyarlayınca genç bir maymun onu mülkünden çıkardı.'),
+('فَهَرَبَ إِلَى السَّاحِلِ، وَسَكَنَ شَجَرَةَ تِينٍ عَلَى الْمَاءِ.','Kıyıya kaçtı ve suyun üstündeki bir incir ağacına yerleşti.'),
+('فَكَانَ يَأْكُلُ التِّينَ، فَسَقَطَتْ تِينَةٌ فِي الْمَاءِ، فَأَكَلَهَا غَيْلَمٌ.','İncir yiyordu; bir incir suya düştü ve onu bir su kaplumbağası yedi.'),
+('فَرَمَى الْقِرْدُ تِينَةً أُخْرَى، فَأَكَلَهَا الْغَيْلَمُ أَيْضًا، فَصَارَا صَدِيقَيْنِ.','Maymun bir incir daha attı; kaplumbağa onu da yedi ve ikisi dost oldular.'),
+('وَطَالَ غِيَابُ الْغَيْلَمِ عَنْ زَوْجَتِهِ، فَحَزِنَتْ، وَقَالَتْ لِجَارَتِهَا: «زَوْجِي يُحِبُّ قِرْدًا.»','Kaplumbağanın eşinden uzak kalışı uzadı; eşi üzüldü ve komşusuna dedi ki: “Kocam bir maymunu seviyor.”'),
+('فَقَالَتِ الْجَارَةُ: «تَمَارَضِي، وَقُولِي: دَوَائِي قَلْبُ قِرْدٍ.»','Komşu dedi ki: “Hasta numarası yap ve de ki: İlacım bir maymunun kalbidir.”'),
+('فَلَمَّا رَجَعَ الْغَيْلَمُ، وَجَدَ زَوْجَتَهُ مَرِيضَةً، فَقَالُوا لَهُ: «لَا دَوَاءَ لَهَا إِلَّا قَلْبُ قِرْدٍ.»','Kaplumbağa döndüğünde eşini hasta buldu; ona dediler ki: “Onun maymun kalbinden başka ilacı yok.”')]),
+('الْقَلْبُ فِي الشَّجَرَةِ','Ağaçtaki kalp',[
+('فَرَجَعَ الْغَيْلَمُ إِلَى الْقِرْدِ، وَقَالَ: «يَا أَخِي، أُرِيدُ أَنْ تَزُورَنِي فِي بَيْتِي، فَإِنَّ عِنْدِي ثِمَارًا كَثِيرَةً.»','Kaplumbağa maymuna döndü ve dedi ki: “Kardeşim, evimde beni ziyaret etmeni istiyorum; bende çok meyve var.”'),
+('فَرَكِبَ الْقِرْدُ عَلَى ظَهْرِهِ، وَسَبَحَ بِهِ الْغَيْلَمُ فِي الْمَاءِ.','Maymun onun sırtına bindi; kaplumbağa onunla suda yüzdü.'),
+('فَلَمَّا كَانَ فِي وَسَطِ الْبَحْرِ وَقَفَ، وَفَكَّرَ فِي الْغَدْرِ، وَظَهَرَ عَلَيْهِ الْحُزْنُ.','Denizin ortasına gelince durdu; ihaneti düşündü ve üzerinde hüzün belirdi.'),
+('قَالَ الْقِرْدُ: «مَا لَكَ؟» قَالَ: «زَوْجَتِي مَرِيضَةٌ، وَلَا دَوَاءَ لَهَا إِلَّا قَلْبُ قِرْدٍ.»','Maymun dedi ki: “Neyin var?” Dedi ki: “Eşim hasta ve onun maymun kalbinden başka ilacı yok.”'),
+('فَخَافَ الْقِرْدُ، وَلَكِنَّهُ فَكَّرَ بِسُرْعَةٍ وَقَالَ: «لِمَاذَا لَمْ تُخْبِرْنِي قَبْلَ أَنْ نَخْرُجَ؟»','Maymun korktu ama hızla düşündü ve dedi ki: “Çıkmadan önce neden bana söylemedin?”'),
+('«إِنَّ مِنْ عَادَتِنَا مَعْشَرَ الْقِرَدَةِ أَنْ نَتْرُكَ قُلُوبَنَا فِي الشَّجَرِ إِذَا خَرَجْنَا لِزِيَارَةٍ.»','“Biz maymunların âdetidir; ziyarete çıktığımızda kalplerimizi ağaçta bırakırız.”'),
+('«فَارْجِعْ بِي إِلَى الشَّجَرَةِ حَتَّى آتِيَكَ بِهِ.»','“Beni ağaca geri götür de onu sana getireyim.”'),
+('فَرَجَعَ بِهِ الْغَيْلَمُ، فَوَثَبَ الْقِرْدُ إِلَى الشَّجَرَةِ وَقَالَ: «يَا غَادِرُ، مَنْ يَتْرُكُ قَلْبَهُ؟ لَنْ أَرْجِعَ إِلَيْكَ أَبَدًا.»','Kaplumbağa onu geri götürdü; maymun ağaca sıçradı ve dedi ki: “Ey hain, kim kalbini bırakır? Sana asla dönmeyeceğim.”')]),
+('النَّاسِكُ وَابْنُ عِرْسٍ','Zâhid ve gelincik',[
+('زَعَمُوا أَنَّ نَاسِكًا كَانَ لَهُ ابْنٌ صَغِيرٌ، وَكَانَ عِنْدَهُ ابْنُ عِرْسٍ يُرَبِّيهِ.','Derler ki bir zâhidin küçük bir oğlu vardı; bir de beslediği bir gelinciği vardı.'),
+('فَذَهَبَتْ أُمُّ الصَّبِيِّ إِلَى السُّوقِ، وَتَرَكَتْهُ مَعَ أَبِيهِ.','Çocuğun annesi çarşıya gitti ve onu babasıyla bıraktı.'),
+('ثُمَّ دُعِيَ النَّاسِكُ إِلَى الْمَلِكِ، فَخَرَجَ وَتَرَكَ الصَّبِيَّ مَعَ ابْنِ عِرْسٍ.','Sonra zâhid krala çağrıldı; çıktı ve çocuğu gelincikle bıraktı.'),
+('فَجَاءَتْ حَيَّةٌ سَوْدَاءُ تُرِيدُ الصَّبِيَّ، فَقَاتَلَهَا ابْنُ عِرْسٍ حَتَّى قَتَلَهَا.','Çocuğa saldırmak isteyen kara bir yılan geldi; gelincik onunla dövüşüp onu öldürdü.'),
+('فَلَمَّا رَجَعَ النَّاسِكُ، اسْتَقْبَلَهُ ابْنُ عِرْسٍ وَفَمُهُ مُلَطَّخٌ بِالدَّمِ.','Zâhid döndüğünde gelincik onu ağzı kana bulanmış hâlde karşıladı.'),
+('فَظَنَّ النَّاسِكُ أَنَّهُ قَتَلَ ابْنَهُ، فَضَرَبَهُ بِعَصَاهُ فَقَتَلَهُ قَبْلَ أَنْ يَنْظُرَ.','Zâhid onun oğlunu öldürdüğünü sandı; bakmadan önce ona değneğiyle vurup onu öldürdü.'),
+('ثُمَّ دَخَلَ، فَوَجَدَ الصَّبِيَّ سَالِمًا، وَعِنْدَهُ الْحَيَّةُ مَقْتُولَةً.','Sonra içeri girdi ve çocuğu sağ salim, yanında da yılanı ölü buldu.'),
+('فَبَكَى بُكَاءً شَدِيدًا، وَقَالَ: «لَيْتَنِي لَمْ أَعْجَلْ!» وَهَذَا مَثَلُ مَنْ يَعْمَلُ قَبْلَ أَنْ يَتَبَيَّنَ.','Çok şiddetli ağladı ve dedi ki: “Keşke acele etmeseydim!” Bu, iyice anlamadan iş yapanın misalidir.')]),
+('الْحَمَامَةُ وَالثَّعْلَبُ وَمَالِكُ الْحَزِينِ','Güvercin, tilki ve balıkçıl',[
+('زَعَمُوا أَنَّ حَمَامَةً كَانَتْ تَبِيضُ فِي رَأْسِ نَخْلَةٍ طَوِيلَةٍ.','Derler ki bir güvercin uzun bir hurma ağacının tepesinde yumurtlardı.'),
+('فَكُلَّمَا كَبِرَ فِرَاخُهَا جَاءَ ثَعْلَبٌ، فَوَقَفَ تَحْتَ النَّخْلَةِ وَقَالَ: «أَلْقِي إِلَيَّ فِرَاخَكِ، وَإِلَّا صَعِدْتُ فَأَكَلْتُكِ مَعَهُمْ.»','Yavruları ne zaman büyüse bir tilki gelir, ağacın altında durup derdi ki: “Yavrularını bana at; yoksa çıkar seni de onlarla birlikte yerim.”'),
+('فَكَانَتْ تُلْقِي إِلَيْهِ فِرَاخَهَا خَوْفًا.','O da korkudan yavrularını ona atardı.'),
+('فَمَرَّ بِهَا طَائِرٌ يُقَالُ لَهُ مَالِكُ الْحَزِينِ، فَرَآهَا حَزِينَةً، فَسَأَلَهَا، فَأَخْبَرَتْهُ.','Yanından balıkçıl denen bir kuş geçti; onu üzgün gördü, sordu, o da anlattı.'),
+('فَقَالَ: «إِذَا جَاءَكِ فَقُولِي لَهُ: لَا أُلْقِي إِلَيْكَ فِرَاخِي، فَاصْعَدْ إِنْ قَدَرْتَ.»','Dedi ki: “Sana geldiğinde ona de ki: Yavrularımı sana atmam; gücün yetiyorsa çık.”'),
+('فَلَمَّا جَاءَ الثَّعْلَبُ قَالَتْ ذَلِكَ، فَعَلِمَ أَنَّ أَحَدًا عَلَّمَهَا.','Tilki gelince güvercin bunu söyledi; tilki birinin ona öğrettiğini anladı.'),
+('فَذَهَبَ إِلَى مَالِكِ الْحَزِينِ وَقَالَ: «إِذَا جَاءَتْكَ الرِّيحُ عَنْ يَمِينِكَ، أَيْنَ تَجْعَلُ رَأْسَكَ؟» قَالَ: «تَحْتَ جَنَاحِي.»','Balıkçıla gitti ve dedi ki: “Rüzgâr sağından gelince başını nereye koyarsın?” Dedi ki: “Kanadımın altına.”'),
+('فَقَالَ: «أَرِنِي كَيْفَ تَفْعَلُ.» فَلَمَّا أَدْخَلَ رَأْسَهُ تَحْتَ جَنَاحِهِ وَثَبَ عَلَيْهِ الثَّعْلَبُ فَأَكَلَهُ، وَقَالَ: «تُعَلِّمُ غَيْرَكَ الْحِيلَةَ وَتَعْجِزُ عَنْهَا لِنَفْسِكَ!»','Dedi ki: “Göster bakayım nasıl yapıyorsun.” Başını kanadının altına sokunca tilki üstüne atladı, onu yedi ve dedi ki: “Başkasına hile öğretiyorsun da kendin için ondan acizsin!”')]),
+('خَاتِمَةٌ','Son söz',[
+('قَالَ الْمَلِكُ لِلْفَيْلَسُوفِ: «مَا أَجْمَعُ هَذِهِ الْأَمْثَالِ لِلْحِكْمَةِ!»','Kral filozofa dedi ki: “Bu misaller hikmeti ne güzel topluyor!”'),
+('قَالَ بَيْدَبَا: «أَيُّهَا الْمَلِكُ، الْعَاقِلُ يَنْظُرُ فِي الْأَمْثَالِ كَمَا يَنْظُرُ فِي الْمِرْآةِ.»','Beydebâ dedi ki: “Ey kral, akıllı kişi misallere aynaya bakar gibi bakar.”'),
+('«فَيَرَى فِيهَا عُيُوبَ نَفْسِهِ قَبْلَ عُيُوبِ غَيْرِهِ.»','“Onlarda başkasının kusurlarından önce kendi kusurlarını görür.”'),
+('«وَمَنْ قَرَأَ هَذَا الْكِتَابَ وَلَمْ يَعْمَلْ بِهِ، كَانَ كَمَنْ حَمَلَ كَنْزًا وَلَمْ يَنْتَفِعْ بِهِ.»','“Bu kitabı okuyup onunla amel etmeyen, bir hazine taşıyıp ondan faydalanmayan gibidir.”'),
+('فَأَمَرَ الْمَلِكُ أَنْ يُكْتَبَ الْكِتَابُ بِمَاءِ الذَّهَبِ، وَأَنْ يُحْفَظَ فِي خِزَانَتِهِ.','Kral kitabın altın suyuyla yazılmasını ve hazinesinde saklanmasını emretti.')]),
+]

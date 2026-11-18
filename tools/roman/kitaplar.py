@@ -1,5 +1,5 @@
 # Romanların sırası (okuma ekranındaki liste bu sırayla çıkar). Yeni kitap: buraya id ekle.
-SIRA=['sindbad','cuha','hamama','hayy','tuti','gulistan','sohrab','mantik','prince','aesop','crusoe','carol']
+SIRA=['sindbad','cuha','hamama','kalila','hayy','tuti','gulistan','sohrab','leyla','mantik','prince','aesop','crusoe','gulliver','carol']
 import importlib.util,os
 def dil(id):
     sp=importlib.util.spec_from_file_location('k',os.path.join(os.path.dirname(os.path.abspath(__file__)),id+'.py'));m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m);return m.KITAP['dil']

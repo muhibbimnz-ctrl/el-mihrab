@@ -1,0 +1,30 @@
+B=[
+('الْأَسَدُ وَالْأَرْنَبُ','Aslan ve tavşan',[
+('زَعَمُوا أَنَّ أَسَدًا كَانَ فِي أَرْضٍ كَثِيرَةِ الْمِيَاهِ وَالْعُشْبِ، وَفِيهَا وُحُوشٌ كَثِيرَةٌ.','Derler ki bir aslan suyu ve otu bol bir yerdeydi; orada pek çok vahşi hayvan vardı.'),
+('وَكَانَ الْأَسَدُ يَخْرُجُ كُلَّ يَوْمٍ فَيَصِيدُ مِنْهَا، فَخَافَتِ الْوُحُوشُ خَوْفًا شَدِيدًا.','Aslan her gün çıkıp onlardan avlıyordu; hayvanlar çok korktu.'),
+('فَاجْتَمَعَتْ وَقَالَتْ لِلْأَسَدِ: «إِنَّكَ تَتْعَبُ فِي طَلَبِنَا، وَنَحْنُ نَخَافُ كُلَّ يَوْمٍ.»','Toplandılar ve aslana dediler ki: “Bizi aramakla yoruluyorsun, biz de her gün korkuyoruz.”'),
+('«فَنَحْنُ نُرْسِلُ إِلَيْكَ كُلَّ يَوْمٍ وَاحِدًا مِنَّا، فَتَأْكُلُهُ وَتَتْرُكُنَا آمِنِينَ.»','“Her gün sana içimizden birini gönderelim; onu ye ve bizi güvende bırak.”'),
+('فَرَضِيَ الْأَسَدُ بِذَلِكَ.','Aslan buna razı oldu.'),
+('ثُمَّ إِنَّ الْقُرْعَةَ وَقَعَتْ يَوْمًا عَلَى أَرْنَبٍ صَغِيرٍ.','Sonra bir gün kura küçük bir tavşana düştü.'),
+('فَقَالَ الْأَرْنَبُ لِلْوُحُوشِ: «إِنْ أَطَعْتُمُونِي أَرَحْتُكُمْ مِنَ الْأَسَدِ.»','Tavşan hayvanlara dedi ki: “Bana itaat ederseniz sizi aslandan kurtarırım.”'),
+('قَالُوا: «وَمَا تُرِيدُ؟» قَالَ: «لَا تُسْرِعُوا بِي إِلَيْهِ، بَلِ اتْرُكُونِي أَتَأَخَّرُ قَلِيلًا.»','Dediler ki: “Ne istiyorsun?” Dedi ki: “Beni ona hemen götürmeyin; bırakın biraz gecikeyim.”')]),
+('الْبِئْرُ','Kuyu',[
+('فَأَبْطَأَ الْأَرْنَبُ حَتَّى جَاوَزَ وَقْتَ غَدَاءِ الْأَسَدِ، ثُمَّ مَشَى إِلَيْهِ رُوَيْدًا.','Tavşan aslanın öğle yemeği vaktini geçirene kadar oyalandı, sonra ona yavaşça yürüdü.'),
+('وَكَانَ الْأَسَدُ قَدْ جَاعَ وَغَضِبَ، فَقَالَ: «مِنْ أَيْنَ أَقْبَلْتَ؟ وَلِمَاذَا تَأَخَّرْتَ؟»','Aslan acıkmış ve öfkelenmişti; dedi ki: “Nereden geliyorsun? Neden geciktin?”'),
+('قَالَ الْأَرْنَبُ: «أَرْسَلَنِي الْوُحُوشُ إِلَيْكَ وَمَعِي أَرْنَبٌ آخَرُ سَمِينٌ.»','Tavşan dedi ki: “Hayvanlar beni sana gönderdi; yanımda semiz bir tavşan daha vardı.”'),
+('«فَلَقِيَنِي أَسَدٌ فِي الطَّرِيقِ فَأَخَذَهُ، وَقَالَ: أَنَا أَوْلَى بِهَذِهِ الْأَرْضِ وَمَا فِيهَا.»','“Yolda bir aslan karşıma çıktı ve onu aldı; dedi ki: Bu toprağa ve içindekilere ben daha layığım.”'),
+('غَضِبَ الْأَسَدُ وَقَالَ: «انْطَلِقْ مَعِي، فَأَرِنِي مَوْضِعَ هَذَا الْأَسَدِ.»','Aslan öfkelendi ve dedi ki: “Benimle gel ve bana bu aslanın yerini göster.”'),
+('فَانْطَلَقَ بِهِ الْأَرْنَبُ إِلَى بِئْرٍ فِيهَا مَاءٌ صَافٍ، وَقَالَ: «هُوَ فِي هَذِهِ الْبِئْرِ.»','Tavşan onu içinde berrak su olan bir kuyuya götürdü ve dedi ki: “O bu kuyuda.”'),
+('فَنَظَرَ الْأَسَدُ فِي الْمَاءِ، فَرَأَى صُورَتَهُ وَصُورَةَ الْأَرْنَبِ.','Aslan suya baktı ve kendi suretini ve tavşanın suretini gördü.'),
+('فَظَنَّ أَنَّهُ الْأَسَدُ الْآخَرُ، فَوَثَبَ عَلَيْهِ لِيُقَاتِلَهُ، فَغَرِقَ فِي الْبِئْرِ.','Onu öteki aslan sandı; onunla dövüşmek için üstüne atladı ve kuyuda boğuldu.'),
+('فَرَجَعَ الْأَرْنَبُ إِلَى الْوُحُوشِ، فَأَخْبَرَهَا، فَفَرِحَتْ بِهِ فَرَحًا عَظِيمًا.','Tavşan hayvanlara döndü ve onlara haber verdi; onunla çok büyük bir sevinç duydular.')]),
+('السُّلَحْفَاةُ وَالْبَطَّتَانِ','Kaplumbağa ve iki ördek',[
+('زَعَمُوا أَنَّ غَدِيرًا كَانَ عِنْدَهُ عُشْبٌ، وَفِيهِ بَطَّتَانِ وَسُلَحْفَاةٌ، وَكَانَتْ بَيْنَهُنَّ مَوَدَّةٌ.','Derler ki çevresinde ot bulunan bir gölcük vardı; içinde iki ördek ve bir kaplumbağa yaşıyordu ve aralarında sevgi vardı.'),
+('فَقَلَّ مَاءُ الْغَدِيرِ، فَقَالَتِ الْبَطَّتَانِ: «يَجِبُ أَنْ نَذْهَبَ إِلَى مَكَانٍ فِيهِ مَاءٌ.»','Gölcüğün suyu azaldı; iki ördek dedi ki: “Suyu olan bir yere gitmeliyiz.”'),
+('فَقَالَتِ السُّلَحْفَاةُ: «أَنْتُمَا تَطِيرَانِ، وَأَنَا لَا أَعِيشُ إِلَّا بِالْمَاءِ؛ فَخُذَانِي مَعَكُمَا.»','Kaplumbağa dedi ki: “Siz uçuyorsunuz, ben ise ancak suyla yaşarım; beni de yanınıza alın.”'),
+('قَالَتَا: «نَأْخُذُكِ، عَلَى شَرْطِ أَلَّا تَتَكَلَّمِي إِذَا رَآكِ النَّاسُ.»','İkisi dedi ki: “Seni alırız, ama insanlar seni görünce konuşmamak şartıyla.”'),
+('فَأَخَذَتَا عُودًا، وَعَضَّتِ السُّلَحْفَاةُ وَسَطَهُ، وَأَمْسَكَتْ كُلُّ بَطَّةٍ بِطَرَفٍ، وَطَارَتَا بِهَا.','Bir çubuk aldılar; kaplumbağa onun ortasını ısırdı, her ördek bir ucundan tuttu ve onunla uçtular.'),
+('فَلَمَّا مَرَّتَا بِقَرْيَةٍ رَآهُمُ النَّاسُ، فَقَالُوا: «انْظُرُوا! سُلَحْفَاةٌ بَيْنَ بَطَّتَيْنِ!»','Bir köyün üzerinden geçtiklerinde insanlar onları gördü ve dediler ki: “Bakın! İki ördeğin arasında bir kaplumbağa!”'),
+('فَقَالَتِ السُّلَحْفَاةُ: «فَقَأَ اللَّهُ أَعْيُنَكُمْ!» فَلَمَّا فَتَحَتْ فَمَهَا سَقَطَتْ عَلَى الْأَرْضِ فَمَاتَتْ.','Kaplumbağa dedi ki: “Allah gözlerinizi kör etsin!” Ağzını açınca yere düştü ve öldü.'),
+('قَالَ الْفَيْلَسُوفُ: «وَهَذَا مَثَلُ مَنْ لَا يَحْفَظُ لِسَانَهُ.»','Filozof dedi ki: “Bu, dilini tutmayanın misalidir.”')]),
+]
