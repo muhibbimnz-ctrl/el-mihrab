@@ -39,4 +39,8 @@ for id in [i for l in [kitaplar.SIRA] for i in l if any(i in v for v in DIL.valu
     json.dump(K,open(f'data/roman/{id}.json','w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
     liste.append({k:K[k] for k in ['id','dil','seviye','baslik','tr_baslik','yazar']}|{'bolum':len(m.B)})
     print(id,len(m.B),'bölüm',len(G),'kelime')
+import uzun as _U
+for _i in getattr(kitaplar,'UZUN',[]):
+    _e=_U.kur(_i)
+    if _e:liste.insert(0,_e)
 json.dump(liste,open('data/roman/liste.json','w',encoding='utf-8'),ensure_ascii=False)

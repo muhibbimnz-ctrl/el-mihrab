@@ -30,6 +30,7 @@ main{max-width:760px;margin:0 auto;padding:14px 14px 90px}
 h2{font-size:17px;margin:16px 4px 6px}
 @media(prefers-color-scheme:dark){body{background:#16131c;color:#ece4d3}.bk,.ch,.note,.dft,.bar button{background:#231e2c;color:#ece4d3}.txt{background:#1d1924}.w:hover{background:#3a3048}.w.on{background:#6b5a24}.cm .tr{color:#b9ae9a}.bk small,.note{color:#b2a892}.dft button{background:#3a3048;color:#ece4d3}}
 .chap{content-visibility:auto;contain-intrinsic-size:auto 1400px}.chs{text-align:center;color:#888;margin:0 0 12px;font-size:14px}
+.pr{font-size:23px;line-height:2.05;margin:0 0 16px;text-align:start}.pr.en{font-size:19px;line-height:1.75;text-align:left}.pr.fa{font-size:21px}.w.zor{border-bottom:1.5px dotted #9a7b3c}
 </style></head><body>
 <div id="hd"><div class="top"><a href="./" id="bk">‹ el-Mihrâb</a><h1 id="ttl">Roman okuma</h1><button id="dfb" title="Kelime defterim">📒 <span id="dfn">0</span></button></div></div>
 <main id="m"></main>
@@ -57,16 +58,19 @@ function kitap(){CUR=null;ttl.textContent=K.tr_baslik;bk('‹ Kitaplar',function
  var h='<div class="note"><b class="'+K.dil+'" style="font-size:24px;display:block">'+esc(K.baslik)+'</b>'+esc(K.yazar)+' · Seviye '+K.seviye+'</div><h2>Bölümler</h2>';
  K.bolumler.forEach(function(b,i){h+='<div class="ch" data-i="'+i+'"><span><b class="'+K.dil+'" style="font-size:19px">'+esc(b.b)+'</b> · '+esc(b.tr_b)+'</span><span class="ok">'+(st.ok[K.id+'#'+i]?'✓':'›')+'</span></div>'});
  M.innerHTML=h;M.querySelectorAll('.ch').forEach(function(e){e.onclick=function(){git('#k='+K.id+'&b='+e.dataset.i)}});scrollTo(0,0)}
-function tok(s,d){if(d==='en')return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p))return p;var m=p.match(/^([^A-Za-z']*)([A-Za-z']+)(.*)$/);if(!m)return esc(p);var n=norm(m[2],d);return esc(m[1])+'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(m[2])+'</span>'+esc(m[3])}).join('');
+function tok(s,d){if(K&&K.uzun)return tokU(s,d);if(d==='en')return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p))return p;var m=p.match(/^([^A-Za-z']*)([A-Za-z']+)(.*)$/);if(!m)return esc(p);var n=norm(m[2],d);return esc(m[1])+'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(m[2])+'</span>'+esc(m[3])}).join('');
  return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p)||!p)return p;var n=norm(p,d);return n?'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(p)+'</span>':esc(p)}).join('')}
+function tokU(s,d){return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p)||!p)return p;
+ if(d==='en'){var m=p.match(/^([^A-Za-z']*)([A-Za-z']+)(.*)$/);if(!m)return esc(p);var n=norm(m[2],d);return K.sozluk[n]?esc(m[1])+'<span class="w zor'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(m[2])+'</span>'+esc(m[3]):esc(p)}
+ var n=norm(p,d);return n&&K.sozluk[n]?'<span class="w zor'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(p)+'</span>':esc(p)}).join('')}
 function bolumH(i){var b=K.bolumler[i],d=K.dil,h='<section class="chap" data-i="'+i+'"><h2 class="'+d+'" style="text-align:center;font-size:24px;margin:22px 0 4px">'+esc(b.b)+'</h2><p class="chs">'+(i+1)+'. '+esc(b.tr_b)+'</p>';
- b.c.forEach(function(c){h+='<div class="cm '+d+'" lang="'+d+'"><div class="s '+d+'">'+tok(c[0],d)+'</div><button class="trb">Türkçesi ▾</button><div class="tr">'+esc(c[1])+'</div></div>'});
+ b.c.forEach(function(c){h+=c[1]?'<div class="cm '+d+'" lang="'+d+'"><div class="s '+d+'">'+tok(c[0],d)+'</div><button class="trb">Türkçesi ▾</button><div class="tr">'+esc(c[1])+'</div></div>':'<p class="pr '+d+'" lang="'+d+'">'+tok(c[0],d)+'</p>'});
  return h+'</section>'}
 /* Bölümler alt alta akar: aşağı kaydırdıkça sıradaki bölüm kendiliğinden eklenir */
 var AK=null,AKS=null,NX=0;
 function bolum(i){CUR=i;var d=K.dil;ttl.textContent=(i+1)+'. '+K.bolumler[i].tr_b;bk('‹ Bölümler',function(){history.back()});
  if(AK)AK.disconnect();if(AKS)AKS.disconnect();
- M.innerHTML='<div class="bar"><button id="tumtr">Bütün Türkçeyi aç/kapat</button></div><div class="txt" id="akis"></div><div id="son" style="height:40px"></div>';
+ M.innerHTML=(K.uzun?'<div class="bar" style="display:none"><button id="tumtr"></button></div>':'<div class="bar"><button id="tumtr">Bütün Türkçeyi aç/kapat</button></div>')+'<div class="txt" id="akis"></div><div id="son" style="height:40px"></div>';
  var akis=document.getElementById('akis'),son=document.getElementById('son');NX=i;
  function ekle(){if(NX>=K.bolumler.length){son.innerHTML='<p class="note" style="text-align:center">Kitap bitti ✓</p>';if(AK)AK.disconnect();return}
   akis.insertAdjacentHTML('beforeend',bolumH(NX));var sec=akis.lastElementChild;if(AKS)AKS.observe(sec);NX++}
