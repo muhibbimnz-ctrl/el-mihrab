@@ -6,7 +6,7 @@ def norm(w,dil):
         w=w.lower().strip("'\".,!?;:");return w[:-2] if w.endswith("'s") else w
     return H.sub('',re.sub(r'[«»،.؟!:؛()\-"]','',w))
 liste=[]
-for id in ['hayy','sohrab','prince']:
+for id in ['sindbad','hamama','hayy','tuti','sohrab','mantik','prince','crusoe','carol']:
     sp=importlib.util.spec_from_file_location('m',f'tools/roman/{id}.py');m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m)
     K=dict(m.KITAP);dil=K['dil']
     G={}
