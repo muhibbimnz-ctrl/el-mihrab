@@ -11,7 +11,7 @@ KURAL=["الْكَلَامُ هُوَ اللَّفْظُ الْمُفِيدُ ف
 tag=lambda s:re.sub(r'<[^>]+>','',s)
 B=[];Q=[]
 for i,l in enumerate(L):
-    p=[KURAL[i]];tr=[' '.join(tag(x) for x in l['x'])]
+    p=[l.get('k') or KURAL[i]];tr=[' '.join(tag(x) for x in l['x'])]
     for e in l['e']:
         p.append(e['s']+'. — '+' ؛ '.join(w[0]+': '+w[1] for w in e['w'])+'.')
         tr.append('“'+e['tr']+'” — '+' '.join('«'+w[0]+'»: '+w[2] for w in e['w']))
@@ -20,6 +20,6 @@ for i,l in enumerate(L):
         w=re.search(r'<i>(.*?)</i>',q['s']).group(1);ay=tag(q['s'])
         k=[q['o'][q['a']]]+[o for j,o in enumerate(q['o']) if j!=q['a']]
         Q.append({'b':i,'w':w,'s':'“'+ay+'” ('+q['ref']+') — «'+w+'» kelimesinin i‘râbı nedir?','k':k,'d':0,'a':tag(q['x'])})
-out={'id':'tatbik','baslik':'et-Tatbîku’n-Nahvî','kaynak':'Dr. Abduh er-Râcihî (1937–2010), et-Tatbîku’n-Nahvî. Kitabın konu sırası ve yöntemi izlenmiştir; kitabın metni telifli olduğu için alınmamıştır. Arapça kural cümleleri, örnekler, tam i‘râblar, Türkçe açıklamalar ve Kur’an alıştırmaları el-Mihrâb için hazırlanmıştır. Şimdilik ilk 6 konu; diğerleri eklenecektir.','bolumler':B,'sorular':Q}
+out={'id':'tatbik','baslik':'et-Tatbîku’n-Nahvî','kaynak':'Dr. Abduh er-Râcihî (1937–2010), et-Tatbîku’n-Nahvî. Kitabın konu sırası ve yöntemi izlenmiştir; kitabın metni telifli olduğu için alınmamıştır. Arapça kural cümleleri, örnekler, tam i‘râblar, Türkçe açıklamalar ve Kur’an alıştırmaları el-Mihrâb için hazırlanmıştır. Toplam 21 bâb.','bolumler':B,'sorular':Q}
 json.dump(out,open('data/kitap/tatbik.json','w'),ensure_ascii=False)
 print(len(B),sum(len(b['p']) for b in B),len(Q))
