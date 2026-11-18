@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Roman okuma — el-Mihrâb</title><meta name="theme-color" content="#3b2a5a">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Vazirmatn:wght@400;600&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f7f2e8;color:#2a2620}
+#hd{background:linear-gradient(135deg,#6a4c93,#2b1d45);color:#fff;padding:12px 14px 14px;border-radius:0 0 20px 20px;position:sticky;top:0;z-index:5;box-shadow:0 4px 14px rgba(0,0,0,.15)}
+#hd .top{display:flex;align-items:center;gap:10px}#hd a,#hd button{color:#fff;text-decoration:none;background:rgba(255,255,255,.2);border:0;border-radius:12px;padding:8px 12px;font:600 14.5px system-ui,sans-serif;cursor:pointer;white-space:nowrap}
+#hd h1{margin:0;font-size:18px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+main{max-width:760px;margin:0 auto;padding:14px 14px 90px}
+.bk{display:flex;gap:12px;align-items:center;background:#fff;border-radius:16px;padding:14px;margin:10px 0;cursor:pointer;box-shadow:0 1px 6px rgba(0,0,0,.06)}
+.bk .lv{flex:none;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;font:700 17px system-ui;color:#fff}
+.lv.A2{background:#3a9d6a}.lv.B1{background:#d08a2e}.lv.C1{background:#b23a48}
+.bk b{display:block;font-size:17px}.bk small{color:#7a7266}.bk .t{flex:1}.bk .ttl{font-size:21px}
+.ar,.fa{direction:rtl}.ar{font-family:Amiri,serif}.fa{font-family:Vazirmatn,Tahoma,sans-serif}.en{font-family:Lora,Georgia,serif}
+.ch{display:flex;justify-content:space-between;align-items:center;background:#fff;border-radius:14px;padding:13px 14px;margin:8px 0;cursor:pointer}.ch .ok{color:#2e7d32;font-size:13px}
+.note{font-size:13px;color:#7a7266;line-height:1.5;background:#fff;border-radius:14px;padding:12px 14px}
+.txt{background:#fffdf8;border-radius:16px;padding:16px 16px 8px;box-shadow:0 1px 6px rgba(0,0,0,.06)}
+.cm{margin:0 0 14px}.cm .s{font-size:24px;line-height:2}.cm.en .s,.cm .s.en{font-size:19px;line-height:1.75}.cm.fa .s{font-size:21px;line-height:2}
+.w{cursor:pointer;border-radius:6px;padding:0 1px;transition:background .15s}.w:hover{background:#efe3c7}.w.on{background:#f3d98b}.w.kn{border-bottom:2px dotted #b23a48}
+.trb{font-size:13.5px;color:#7a7266;border:0;background:none;cursor:pointer;padding:2px 0;font-family:system-ui}
+.cm .tr{display:none;color:#5b5348;font-size:15px;line-height:1.5;margin-top:2px;direction:ltr;text-align:left;font-family:system-ui}.cm.op .tr{display:block}
+#pop{position:fixed;left:50%;bottom:16px;transform:translateX(-50%) translateY(140%);width:min(560px,calc(100% - 24px));background:#2b1d45;color:#fff;border-radius:18px;padding:14px 16px;box-shadow:0 12px 30px rgba(0,0,0,.3);transition:transform .2s;z-index:20}
+#pop.on{transform:translateX(-50%) translateY(0)}#pop .k{font-size:26px}#pop .m{font-size:17px;margin:4px 0 10px}#pop .b{display:flex;gap:8px}
+#pop button{border:0;border-radius:11px;padding:9px 12px;font:600 14px system-ui;cursor:pointer}#pop .add{background:#f3d98b;color:#2b1d45}#pop .cl{background:rgba(255,255,255,.18);color:#fff}
+.nav{display:flex;justify-content:space-between;gap:8px;margin:16px 0}.nav button{border:0;border-radius:12px;padding:11px 15px;background:#4a3470;color:#fff;font:600 14.5px system-ui;cursor:pointer}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px}.bar button{border:0;border-radius:11px;padding:8px 12px;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.08);font:600 13.5px system-ui;cursor:pointer;color:inherit}.bar button.on{background:#4a3470;color:#fff}
+.dft{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#fff;border-radius:12px;padding:10px 12px;margin:6px 0}.dft .k{font-size:21px}.dft button{border:0;background:#f0e6d2;border-radius:10px;padding:6px 10px;cursor:pointer}
+h2{font-size:17px;margin:16px 4px 6px}
+@media(prefers-color-scheme:dark){body{background:#16131c;color:#ece4d3}.bk,.ch,.note,.dft,.bar button{background:#231e2c;color:#ece4d3}.txt{background:#1d1924}.w:hover{background:#3a3048}.w.on{background:#6b5a24}.cm .tr{color:#b9ae9a}.bk small,.note{color:#b2a892}.dft button{background:#3a3048;color:#ece4d3}}
+</style></head><body>
+<div id="hd"><div class="top"><a href="./" id="bk">‹ el-Mihrâb</a><h1 id="ttl">Roman okuma</h1><button id="dfb" title="Kelime defterim">📒 <span id="dfn">0</span></button></div></div>
+<main id="m"></main>
+<div id="pop"><div class="k" id="pk"></div><div class="m" id="pm"></div><div class="b"><button class="add" id="padd">＋ Defterime ekle</button><button class="cl" id="pcl">Kapat</button></div></div>
+<script>
+var M=document.getElementById('m'),Q=new URLSearchParams(location.search),DIL=Q.get('dil')||'',LIST=[],K=null,CUR=null;
+var AD={ar:'Arapça',fa:'Farsça',en:'İngilizce'},BACK={ar:'arapca.html',fa:'farsca.html',en:'ingilizce.html'};
+var st={};try{st=JSON.parse(localStorage.getItem('mihrab.roman'))||{}}catch(e){}st.d=st.d||{};st.ok=st.ok||{};
+function sv(){try{localStorage.setItem('mihrab.roman',JSON.stringify(st))}catch(e){}dfn.textContent=Object.keys(st.d).length}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+var H=/[ً-ْٰـ]/g;
+function norm(w,d){if(d==='en'){w=w.toLowerCase().replace(/^['".,!?;:]+|['".,!?;:]+$/g,'');return /'s$/.test(w)?w.slice(0,-2):w}return w.replace(/[«»،.؟!:؛()\-"]/g,'').replace(H,'')}
+function J(u){return fetch(u).then(function(r){if(!r.ok)throw 0;return r.json()})}
+function bk(t,f){var b=document.getElementById('bk');b.textContent=t;if(f){b.href='#';b.onclick=function(e){e.preventDefault();f()}}else{b.href=DIL?BACK[DIL]:'./';b.onclick=null}}
+function liste(){CUR=null;ttl.textContent=DIL?AD[DIL]+' romanlar':'Roman okuma';bk(DIL?'‹ '+AD[DIL]:'‹ el-Mihrâb');
+ var L=LIST.filter(function(k){return !DIL||k.dil===DIL}),h='<p class="note">Seviyesine göre uyarlanmış klasik eserler. Okurken bilmediğiniz kelimeye dokunun: Türkçesi çıkar, isterseniz <b>Kelime defterim</b>e eklersiniz. Cümlenin altındaki «Türkçesi» ile çevirisini açabilirsiniz.</p>';
+ L.forEach(function(k){var d=0;for(var i=0;i<k.bolum;i++)if(st.ok[k.id+'#'+i])d++;h+='<div class="bk" data-id="'+k.id+'"><span class="lv '+k.seviye+'">'+k.seviye+'</span><span class="t"><b class="ttl '+k.dil+'">'+esc(k.baslik)+'</b><b>'+esc(k.tr_baslik)+'</b><small>'+AD[k.dil]+' · '+esc(k.yazar)+' · '+d+'/'+k.bolum+' bölüm</small></span><span>›</span></div>'});
+ if(DIL)h+='<p style="text-align:center"><a href="roman.html" style="color:#6a4c93;font-size:14px">Bütün dillerdeki romanlar</a></p>';
+ M.innerHTML=h;M.querySelectorAll('.bk').forEach(function(e){e.onclick=function(){ac(e.dataset.id)}});scrollTo(0,0)}
+function ac(id){J('data/roman/'+id+'.json').then(function(k){K=k;kitap()}).catch(function(){M.innerHTML='<p class="note">Kitap yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'})}
+function kitap(){CUR=null;ttl.textContent=K.tr_baslik;bk('‹ Kitaplar',liste);
+ var h='<div class="note"><b class="'+K.dil+'" style="font-size:24px;display:block">'+esc(K.baslik)+'</b>'+esc(K.yazar)+' · Seviye '+K.seviye+'<br>'+esc(K.not)+'</div><h2>Bölümler</h2>';
+ K.bolumler.forEach(function(b,i){h+='<div class="ch" data-i="'+i+'"><span><b class="'+K.dil+'" style="font-size:19px">'+esc(b.b)+'</b> · '+esc(b.tr_b)+'</span><span class="ok">'+(st.ok[K.id+'#'+i]?'✓':'›')+'</span></div>'});
+ M.innerHTML=h;M.querySelectorAll('.ch').forEach(function(e){e.onclick=function(){bolum(+e.dataset.i)}});scrollTo(0,0)}
+function tok(s,d){if(d==='en')return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p))return p;var m=p.match(/^([^A-Za-z']*)([A-Za-z']+)(.*)$/);if(!m)return esc(p);var n=norm(m[2],d);return esc(m[1])+'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(m[2])+'</span>'+esc(m[3])}).join('');
+ return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p)||!p)return p;var n=norm(p,d);return n?'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(p)+'</span>':esc(p)}).join('')}
+function bolum(i){CUR=i;var b=K.bolumler[i],d=K.dil;ttl.textContent=(i+1)+'. '+b.tr_b;bk('‹ Bölümler',kitap);
+ var h='<div class="bar"><button id="tumtr">Bütün Türkçeyi aç/kapat</button></div><div class="txt">'+'<h2 class="'+d+'" style="text-align:center;font-size:24px;margin:0 0 10px">'+esc(b.b)+'</h2>';
+ b.c.forEach(function(c){h+='<div class="cm '+d+'" lang="'+d+'"><div class="s '+d+'">'+tok(c[0],d)+'</div><button class="trb">Türkçesi ▾</button><div class="tr">'+esc(c[1])+'</div></div>'});
+ h+='</div><div class="nav"><button id="pv"'+(i?'':' style="visibility:hidden"')+'>‹ Önceki</button><button id="bt">'+(st.ok[K.id+'#'+i]?'✓ Okundu':'Bölümü bitirdim ✓')+'</button><button id="nx"'+(i<K.bolumler.length-1?'':' style="visibility:hidden"')+'>Sonraki ›</button></div>';
+ M.innerHTML=h;scrollTo(0,0);
+ M.querySelectorAll('.trb').forEach(function(x){x.onclick=function(){x.parentNode.classList.toggle('op')}});
+ tumtr.onclick=function(){var a=M.querySelectorAll('.cm'),o=!a[0].classList.contains('op');a.forEach(function(x){x.classList.toggle('op',o)})};
+ pv.onclick=function(){bolum(i-1)};nx.onclick=function(){bolum(i+1)};bt.onclick=function(){st.ok[K.id+'#'+i]=1;sv();bt.textContent='✓ Okundu'}}
+var SEL=null;
+M.addEventListener('click',function(e){var w=e.target.closest('.w');if(!w||!K)return;M.querySelectorAll('.w.on').forEach(function(x){x.classList.remove('on')});w.classList.add('on');
+ var n=w.dataset.n,m=K.sozluk[n]||'—';SEL={k:K.dil+'|'+n,w:w.textContent,m:m,d:K.dil};pk.className='k '+K.dil;pk.textContent=w.textContent;pm.textContent=m;
+ padd.textContent=st.d[SEL.k]?'✓ Defterde':'＋ Defterime ekle';pop.classList.add('on')});
+pcl.onclick=function(){pop.classList.remove('on');M.querySelectorAll('.w.on').forEach(function(x){x.classList.remove('on')})};
+padd.onclick=function(){if(!SEL)return;if(st.d[SEL.k])delete st.d[SEL.k];else st.d[SEL.k]=[SEL.w,SEL.m,K.tr_baslik];sv();padd.textContent=st.d[SEL.k]?'✓ Defterde':'＋ Defterime ekle';
+ M.querySelectorAll('.w').forEach(function(x){x.classList.toggle('kn',!!st.d[K.dil+'|'+x.dataset.n])})};
+dfb.onclick=function(){pop.classList.remove('on');ttl.textContent='Kelime defterim';var back=K&&CUR!==null?function(){bolum(CUR)}:K?kitap:liste;bk('‹ Geri',back);
+ var ks=Object.keys(st.d),h='<p class="note">Okurken eklediğiniz kelimeler. Öğrendiğinizi silebilirsiniz.</p>';
+ if(!ks.length)h+='<p class="note">Defteriniz boş. Okurken bir kelimeye dokunup «Defterime ekle»ye basın.</p>';
+ ks.forEach(function(k){var v=st.d[k],d=k.split('|')[0];h+='<div class="dft"><span><span class="k '+d+'">'+esc(v[0])+'</span> — '+esc(v[1])+'<br><small style="color:#7a7266">'+AD[d]+' · '+esc(v[2]||'')+'</small></span><button data-k="'+esc(k)+'">Öğrendim ✓</button></div>'});
+ M.innerHTML=h;M.querySelectorAll('.dft button').forEach(function(b){b.onclick=function(){delete st.d[b.dataset.k];sv();dfb.onclick()}});scrollTo(0,0)};
+sv();J('data/roman/liste.json').then(function(l){LIST=l;var id=Q.get('id');if(id)ac(id);else liste()}).catch(function(){M.innerHTML='<p class="note">Liste yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'});
+</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e3f9665447b64c6f8d89efca8e6de38f"}'></script><!-- End Cloudflare Web Analytics -->
+</body></html>
