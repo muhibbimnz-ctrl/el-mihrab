@@ -6,12 +6,26 @@ def norm(w,dil):
         w=w.lower().strip("'\".,!?;:");return w[:-2] if w.endswith("'s") else w
     return H.sub('',re.sub(r'[«»،.؟!:؛()\-"]','',w))
 liste=[]
+DIL={'ar':['sindbad','hamama','hayy'],'fa':['tuti','sohrab','mantik'],'en':['prince','crusoe','carol']}
 for id in ['sindbad','hamama','hayy','tuti','sohrab','mantik','prince','crusoe','carol']:
     sp=importlib.util.spec_from_file_location('m',f'tools/roman/{id}.py');m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m)
+    import glob,os
+    _p=sorted(glob.glob(f'tools/roman/{id}_[0-9]*.py'),key=lambda x:int(re.findall(r'_(\d+)\.py$',x)[0]))
+    if _p and id!='sindbad':
+        m.B=[]
+        for f in _p:
+            sp=importlib.util.spec_from_file_location('p',f);q=importlib.util.module_from_spec(sp);sp.loader.exec_module(q);m.B+=q.B
     K=dict(m.KITAP);dil=K['dil']
     G={}
+    # aynı dildeki diğer romanların sözlükleri ortak yedek olarak kullanılır; kitabın kendi sözlüğü önceliklidir
+    for _id in DIL[dil]:
+        if _id==id:continue
+        for ln in open(f'tools/roman/{_id}_sozluk.txt',encoding='utf-8'):
+            if '=' in ln:k,v=ln.rstrip('\n').split('=',1);G.setdefault(k.strip(),v.strip())
+    _O={}
     for ln in open(f'tools/roman/{id}_sozluk.txt',encoding='utf-8'):
-        if '=' in ln:k,v=ln.rstrip('\n').split('=',1);G[k.strip()]=v.strip()
+        if '=' in ln:k,v=ln.rstrip('\n').split('=',1);_O[k.strip()]=v.strip()
+    G.update(_O)
     eks=[]
     for _,_,ss in m.B:
         for a,_ in ss:
