@@ -6,8 +6,9 @@ def norm(w,dil):
         w=w.lower().strip("'\".,!?;:");return w[:-2] if w.endswith("'s") else w
     return H.sub('',re.sub(r'[«»،.؟!:؛()\-"]','',w))
 liste=[]
-DIL={'ar':['sindbad','hamama','hayy'],'fa':['tuti','sohrab','mantik'],'en':['prince','crusoe','carol']}
-for id in ['sindbad','hamama','hayy','tuti','sohrab','mantik','prince','crusoe','carol']:
+sys.path.insert(0,'tools/roman');import kitaplar
+DIL=kitaplar.DIL()
+for id in [i for l in [kitaplar.SIRA] for i in l if any(i in v for v in DIL.values())]:
     sp=importlib.util.spec_from_file_location('m',f'tools/roman/{id}.py');m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m)
     import glob,os
     _p=sorted(glob.glob(f'tools/roman/{id}_[0-9]*.py'),key=lambda x:int(re.findall(r'_(\d+)\.py$',x)[0]))
@@ -19,6 +20,7 @@ for id in ['sindbad','hamama','hayy','tuti','sohrab','mantik','prince','crusoe',
     G={}
     # aynı dildeki diğer romanların sözlükleri ortak yedek olarak kullanılır; kitabın kendi sözlüğü önceliklidir
     for _id in DIL[dil]:
+        if not __import__('os').path.exists(f'tools/roman/{_id}_sozluk.txt'):continue
         if _id==id:continue
         for ln in open(f'tools/roman/{_id}_sozluk.txt',encoding='utf-8'):
             if '=' in ln:k,v=ln.rstrip('\n').split('=',1);G.setdefault(k.strip(),v.strip())

@@ -1,0 +1,47 @@
+B=[
+('سعدی و گلستان','Sa‘dî ve Gülistan',[
+('سعدی شاعری بزرگ از شهر شیراز بود.','Sa‘dî Şiraz şehrinden büyük bir şairdi.'),
+('او سال‌های زیادی در جهان سفر کرد.','O, uzun yıllar dünyada yolculuk etti.'),
+('مردم بسیاری را دید و داستان‌های زیادی شنید.','Pek çok insan gördü ve birçok hikâye duydu.'),
+('وقتی به شیراز برگشت، این داستان‌ها را در کتابی نوشت.','Şiraz’a döndüğünde bu hikâyeleri bir kitaba yazdı.'),
+('نام آن کتاب را گلستان گذاشت.','O kitabın adını Gülistan koydu.'),
+('گفت: «گل باغ چند روز می‌ماند، اما این گلستان همیشه تازه است.»','Dedi ki: “Bahçenin gülü birkaç gün kalır, ama bu gülistan her zaman tazedir.”')]),
+('پادشاه و اسیر','Padişah ve esir',[
+('پادشاهی دستور داد که اسیری را بکشند.','Bir padişah bir esirin öldürülmesini emretti.'),
+('اسیر ناامید شد و به زبان خودش پادشاه را دشنام داد.','Esir ümitsizleşti ve kendi dilinde padişaha sövdü.'),
+('پادشاه پرسید: «او چه می‌گوید؟»','Padişah sordu: “O ne diyor?”'),
+('وزیری مهربان گفت: «می‌گوید: خدا کسانی را که خشم خود را فرو می‌خورند و مردم را می‌بخشند، دوست دارد.»','İyi kalpli bir vezir dedi ki: “Diyor ki: Allah öfkesini yutan ve insanları affedenleri sever.”'),
+('پادشاه دلش نرم شد و اسیر را بخشید.','Padişahın kalbi yumuşadı ve esiri affetti.'),
+('وزیر دیگری گفت: «او دروغ گفت! اسیر به شما دشنام داد.»','Başka bir vezir dedi ki: “O yalan söyledi! Esir size sövdü.”'),
+('پادشاه گفت: «آن دروغ که مصلحت در آن بود، از این راست که فتنه می‌آورد، بهتر است.»','Padişah dedi ki: “İçinde maslahat olan o yalan, fitne getiren bu doğrudan daha iyidir.”')]),
+('درویش و پادشاه','Derviş ve padişah',[
+('درویشی در گوشه‌ای نشسته بود و عبادت می‌کرد.','Bir derviş bir köşede oturmuş ibadet ediyordu.'),
+('پادشاهی از کنار او گذشت.','Bir padişah onun yanından geçti.'),
+('درویش سرش را بلند نکرد و به پادشاه احترام نگذاشت.','Derviş başını kaldırmadı ve padişaha saygı göstermedi.'),
+('پادشاه ناراحت شد و گفت: «این مردم مثل حیوان‌اند؛ ادب ندارند.»','Padişah kızdı ve dedi ki: “Bu insanlar hayvan gibidir; edepleri yok.”'),
+('وزیر نزد درویش رفت و گفت: «چرا به پادشاه احترام نگذاشتی؟»','Vezir dervişin yanına gitti ve dedi ki: “Neden padişaha saygı göstermedin?”'),
+('درویش گفت: «به پادشاه بگو: پادشاه برای نگهبانی مردم است، نه مردم برای خدمت پادشاه.»','Derviş dedi ki: “Padişaha söyle: Padişah halkı korumak içindir, halk padişaha hizmet için değil.”'),
+('پادشاه این سخن را شنید و به درویش گفت: «از من چیزی بخواه.»','Padişah bu sözü duydu ve dervişe dedi ki: “Benden bir şey iste.”'),
+('درویش گفت: «می‌خواهم که دیگر مرا آزار ندهی.»','Derviş dedi ki: “Bir daha beni rahatsız etmemeni istiyorum.”')]),
+('مرد بی‌کفش','Ayakkabısız adam',[
+('سعدی می‌گوید: «روزی پا‌برهنه بودم و پول نداشتم کفش بخرم.»','Sa‘dî der ki: “Bir gün yalınayaktım ve ayakkabı alacak param yoktu.”'),
+('«دلم گرفته بود و از روزگار شکایت می‌کردم.»','“İçim daralmıştı ve zamaneden şikâyet ediyordum.”'),
+('«به مسجد کوفه رفتم و مردی را دیدم که پا نداشت.»','“Kûfe mescidine gittim ve ayağı olmayan bir adam gördüm.”'),
+('«خدا را شکر کردم و بر بی‌کفشی صبر کردم.»','“Allah’a şükrettim ve ayakkabısızlığa sabrettim.”'),
+('«از آن روز فهمیدم که همیشه کسی هست که حالش از من بدتر است.»','“O günden sonra her zaman durumu benden daha kötü olan birinin bulunduğunu anladım.”'),
+('«پس به آنچه داری نگاه کن، نه به آنچه نداری.»','“Öyleyse sahip olduğuna bak, sahip olmadığına değil.”')]),
+('بازرگان و آرزوها','Tüccar ve hayaller',[
+('سعدی شبی در جزیره‌ای مهمان بازرگانی بود.','Sa‘dî bir gece bir adada bir tüccarın misafiriydi.'),
+('بازرگان صد و پنجاه شتر بار و چهل خدمتکار داشت.','Tüccarın yüz elli deve yükü ve kırk hizmetçisi vardı.'),
+('همه‌ی شب حرف زد: «می‌خواهم به چین بروم و از آنجا چینی به روم ببرم.»','Bütün gece konuştu: “Çin’e gitmek ve oradan Rum’a porselen götürmek istiyorum.”'),
+('«بعد دیبای رومی به هند می‌برم و فولاد هندی به حلب.»','“Sonra Rum ipeklisini Hindistan’a, Hint çeliğini Halep’e götürürüm.”'),
+('«بعد از آن، در دکانی می‌نشینم و دیگر سفر نمی‌کنم.»','“Ondan sonra bir dükkânda otururum ve bir daha yolculuk etmem.”'),
+('آن قدر گفت که خسته شد و از سعدی پرسید: «تو هم چیزی بگو.»','O kadar konuştu ki yoruldu ve Sa‘dî’ye sordu: “Sen de bir şey söyle.”'),
+('سعدی گفت: «چشم تنگ دنیادار را یا قناعت پر می‌کند یا خاک گور.»','Sa‘dî dedi ki: “Dünyaya düşkünün dar gözünü ya kanaat doldurur ya mezar toprağı.”')]),
+('دو برادر','İki kardeş',[
+('دو برادر بودند؛ یکی در خدمت پادشاه کار می‌کرد و دیگری با زحمت دست خود نان می‌خورد.','İki kardeş vardı; biri padişahın hizmetinde çalışıyor, öbürü kendi elinin emeğiyle geçiniyordu.'),
+('برادر ثروتمند گفت: «چرا تو هم به خدمت پادشاه نمی‌آیی تا از سختی کار راحت شوی؟»','Zengin kardeş dedi ki: “Neden sen de padişahın hizmetine gelmiyorsun ki ağır işten kurtulasın?”'),
+('برادر دیگر گفت: «چرا تو کار نمی‌کنی تا از خواری خدمت راحت شوی؟»','Öbür kardeş dedi ki: “Neden sen çalışmıyorsun ki hizmetin zilletinden kurtulasın?”'),
+('«دانایان گفته‌اند: نان خود را خوردن و آزاد نشستن، بهتر از کمر بستن پیش دیگران است.»','“Bilgeler demişlerdir: Kendi ekmeğini yiyip hür oturmak, başkalarının önünde el pençe divan durmaktan iyidir.”'),
+('«دست من سخت است، اما دلم آزاد است.»','“Elim yorgun ama gönlüm özgür.”')]),
+]

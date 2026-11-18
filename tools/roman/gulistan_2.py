@@ -1,0 +1,46 @@
+B=[
+('پسر و پدر','Oğul ve baba',[
+('سعدی می‌گوید: «در کودکی با پدرم شب‌ها بیدار می‌ماندم و نماز می‌خواندم.»','Sa‘dî der ki: “Çocukken babamla geceleri uyanık kalır ve namaz kılardım.”'),
+('«شبی دیدم که دیگران همه خوابیده‌اند.»','“Bir gece gördüm ki diğerlerinin hepsi uyumuş.”'),
+('«به پدرم گفتم: هیچ کدام از اینها سر بلند نمی‌کنند تا نماز بخوانند.»','“Babama dedim ki: Bunlardan hiçbiri namaz kılmak için başını kaldırmıyor.”'),
+('«پدرم گفت: ای پسرم، اگر تو هم می‌خوابیدی بهتر بود از اینکه از مردم بد بگویی.»','“Babam dedi ki: Oğlum, sen de uyusaydın, insanlar hakkında kötü konuşmandan daha iyi olurdu.”'),
+('«از آن روز یاد گرفتم که عبادت با غرور ارزشی ندارد.»','“O günden sonra gururla yapılan ibadetin değeri olmadığını öğrendim.”')]),
+('معلم و شاگرد','Öğretmen ve öğrenci',[
+('معلمی بود که با شاگردانش بسیار سخت‌گیر بود.','Öğrencilerine karşı çok sert bir öğretmen vardı.'),
+('کودکان از او می‌ترسیدند و درس را خوب یاد نمی‌گرفتند.','Çocuklar ondan korkuyor ve dersi iyi öğrenemiyorlardı.'),
+('پدر و مادرها او را برداشتند و معلمی مهربان آوردند.','Anne babalar onu görevden aldılar ve iyi kalpli bir öğretmen getirdiler.'),
+('معلم تازه آن قدر نرم بود که کودکان همه‌ی روز بازی می‌کردند.','Yeni öğretmen o kadar yumuşaktı ki çocuklar bütün gün oyun oynuyordu.'),
+('و باز هم درس یاد نگرفتند.','Ve yine ders öğrenmediler.'),
+('سعدی می‌گوید: «درشتی و نرمی با هم بهتر است.»','Sa‘dî der ki: “Sertlik ve yumuşaklık bir arada daha iyidir.”'),
+('«مانند رگ‌زنی که هم زخم می‌زند و هم مرهم می‌نهد.»','“Hem kesip hem merhem süren hacamatçı gibi.”')]),
+('دوستی','Dostluk',[
+('مردی دوستی داشت که سال‌ها او را ندیده بود.','Bir adamın yıllardır görmediği bir dostu vardı.'),
+('روزی او را دید و گفت: «کجا بودی؟ دلم برایت تنگ شده بود.»','Bir gün onu gördü ve dedi ki: “Neredeydin? Seni özlemiştim.”'),
+('دوستش گفت: «دلتنگی بهتر از ملال است.»','Dostu dedi ki: “Özlem, bıkkınlıktan iyidir.”'),
+('«اگر هر روز همدیگر را ببینیم، شاید از هم خسته شویم.»','“Her gün birbirimizi görürsek belki birbirimizden bıkarız.”'),
+('«کم دیدن، دوستی را تازه نگه می‌دارد.»','“Az görüşmek dostluğu taze tutar.”'),
+('سعدی می‌گوید: «دوست آن باشد که گیرد دست دوست، در پریشان‌حالی و درماندگی.»','Sa‘dî der ki: “Dost odur ki darlıkta ve çaresizlikte dostunun elinden tutar.”')]),
+('شاه و غلام در کشتی','Şah ve köle gemide',[
+('پادشاهی با غلامی در کشتی نشسته بود.','Bir padişah bir köleyle gemide oturuyordu.'),
+('غلام هرگز دریا ندیده بود و از ترس گریه و زاری می‌کرد.','Köle hiç deniz görmemişti ve korkudan ağlayıp sızlıyordu.'),
+('همه از گریه‌ی او ناراحت بودند.','Herkes onun ağlamasından rahatsızdı.'),
+('حکیمی گفت: «اگر اجازه بدهید، من او را آرام می‌کنم.»','Bir hakîm dedi ki: “İzin verirseniz onu ben sakinleştiririm.”'),
+('دستور داد غلام را به دریا انداختند، و چند بار زیر آب رفت.','Kölenin denize atılmasını emretti; köle birkaç kez suyun altına battı.'),
+('بعد او را بیرون آوردند، و غلام در گوشه‌ای آرام نشست.','Sonra onu çıkardılar ve köle bir köşede sakince oturdu.'),
+('پادشاه پرسید: «این چه حکمتی بود؟»','Padişah sordu: “Bu ne hikmetti?”'),
+('حکیم گفت: «او قدر سلامتی کشتی را نمی‌دانست، تا وقتی که سختی دریا را چشید.»','Hakîm dedi ki: “Denizin zorluğunu tadana kadar geminin selametinin kıymetini bilmiyordu.”')]),
+('روباه و شتر','Tilki ve deve',[
+('روباهی را دیدند که با ترس می‌دوید.','Korkuyla koşan bir tilki gördüler.'),
+('پرسیدند: «چه شده؟ چرا این قدر می‌ترسی؟»','Sordular: “Ne oldu? Neden bu kadar korkuyorsun?”'),
+('گفت: «شنیده‌ام که شتر را به بیگاری می‌گیرند.»','Dedi ki: “Deveyi angaryaya götürdüklerini duydum.”'),
+('گفتند: «ای نادان! تو چه شباهتی به شتر داری؟»','Dediler ki: “Ey cahil! Senin deveye ne benzerliğin var?”'),
+('روباه گفت: «خاموش باشید! اگر حسودی بگوید این شتر است، چه کسی تحقیق می‌کند تا من آزاد شوم؟»','Tilki dedi ki: “Susun! Kıskanç biri bu devedir derse, ben kurtulana kadar kim araştırır?”'),
+('«تا تریاک از عراق آورده شود، مارگزیده مرده باشد.»','“Panzehir Irak’tan getirilene kadar yılan sokan ölmüş olur.”')]),
+('پند پایانی','Son öğüt',[
+('سعدی در پایان گلستان می‌گوید:','Sa‘dî Gülistan’ın sonunda der ki:'),
+('«سخن را با پند و شوخی آمیختم تا خواننده خسته نشود.»','“Sözü öğütle ve şakayla karıştırdım ki okuyan yorulmasın.”'),
+('«مانند پزشکی که داروی تلخ را با عسل می‌دهد.»','“Acı ilacı balla veren bir hekim gibi.”'),
+('«این کتاب برای همه است: برای پادشاه و درویش، برای پیر و جوان.»','“Bu kitap herkes içindir: padişah ve derviş için, yaşlı ve genç için.”'),
+('«اگر از آن پندی گرفتی، برای من هم دعا کن.»','“Ondan bir öğüt aldıysan benim için de dua et.”'),
+('و از آن روز، گلستان سعدی در خانه‌های مردم، از ایران تا هند و آناتولی، خوانده می‌شود.','O günden beri Sa‘dî’nin Gülistan’ı İran’dan Hindistan’a ve Anadolu’ya kadar insanların evlerinde okunur.')]),
+]

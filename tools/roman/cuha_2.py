@@ -1,0 +1,48 @@
+B=[
+('جُحَا وَالشَّجَرَةُ','Cuhâ ve ağaç',[
+('صَعِدَ جُحَا شَجَرَةً، وَجَلَسَ عَلَى غُصْنٍ، وَأَخَذَ يَقْطَعُهُ.','Cuhâ bir ağaca çıktı, bir dalın üstüne oturdu ve onu kesmeye başladı.'),
+('فَمَرَّ بِهِ رَجُلٌ وَقَالَ: «يَا جُحَا، سَتَسْقُطُ!»','Yanından bir adam geçti ve dedi ki: “Ey Cuhâ, düşeceksin!”'),
+('فَلَمْ يَسْمَعْ جُحَا كَلَامَهُ، وَبَقِيَ يَقْطَعُ.','Cuhâ onun sözünü dinlemedi ve kesmeye devam etti.'),
+('فَانْكَسَرَ الْغُصْنُ، وَسَقَطَ جُحَا عَلَى الْأَرْضِ.','Dal kırıldı ve Cuhâ yere düştü.'),
+('فَقَامَ وَجَرَى وَرَاءَ الرَّجُلِ وَقَالَ: «أَنْتَ عَرَفْتَ أَنِّي سَأَسْقُطُ!»','Kalktı, adamın peşinden koştu ve dedi ki: “Sen benim düşeceğimi bildin!”'),
+('«إِذَنْ أَنْتَ تَعْرِفُ الْغَيْبَ؛ قُلْ لِي: مَتَى أَمُوتُ؟»','“O hâlde sen gaybı biliyorsun; söyle bana: ne zaman öleceğim?”'),
+('فَضَحِكَ الرَّجُلُ وَقَالَ: «يَا جُحَا، هَذَا لَيْسَ غَيْبًا، هَذَا عَقْلٌ!»','Adam güldü ve dedi ki: “Ey Cuhâ, bu gayb değil, bu akıl!”')]),
+('الْحِمَارُ الضَّائِعُ','Kayıp eşek',[
+('ضَاعَ حِمَارُ جُحَا، فَأَخَذَ يَبْحَثُ عَنْهُ وَهُوَ يَقُولُ: «الْحَمْدُ لِلَّهِ! الْحَمْدُ لِلَّهِ!»','Cuhâ’nın eşeği kayboldu; onu ararken “Elhamdülillah! Elhamdülillah!” diyordu.'),
+('فَتَعَجَّبَ النَّاسُ وَقَالُوا: «ضَاعَ حِمَارُكَ وَتَحْمَدُ اللَّهَ؟»','İnsanlar şaştı ve dediler ki: “Eşeğin kayboldu ve Allah’a hamd mi ediyorsun?”'),
+('قَالَ: «أَحْمَدُ اللَّهَ أَنِّي لَمْ أَكُنْ رَاكِبًا عَلَيْهِ.»','Dedi ki: “Üstünde olmadığım için Allah’a hamd ediyorum.”'),
+('«وَلَوْ كُنْتُ عَلَيْهِ لَضِعْتُ مَعَهُ!»','“Üstünde olsaydım onunla birlikte ben de kaybolurdum!”'),
+('ثُمَّ وَجَدَهُ عِنْدَ النَّهْرِ يَأْكُلُ الْعُشْبَ.','Sonra onu ırmağın yanında ot yerken buldu.'),
+('فَقَالَ لَهُ: «يَا صَدِيقِي، كُنْتَ تَعْرِفُ الطَّرِيقَ إِلَى الْأَكْلِ، فَلِمَاذَا نَسِيتَ الطَّرِيقَ إِلَى الْبَيْتِ؟»','Ona dedi ki: “Dostum, yemeğe giden yolu biliyordun da eve giden yolu neden unuttun?”')]),
+('الضَّيْفُ وَالْأَرْنَبُ','Misafir ve tavşan',[
+('جَاءَ رَجُلٌ مِنْ قَرْيَةٍ بَعِيدَةٍ إِلَى جُحَا بِأَرْنَبٍ هَدِيَّةً.','Uzak bir köyden bir adam Cuhâ’ya hediye olarak bir tavşan getirdi.'),
+('فَأَكْرَمَهُ جُحَا، وَطَبَخَ الْأَرْنَبَ، وَأَكَلَا مَعًا.','Cuhâ ona ikram etti, tavşanı pişirdi ve birlikte yediler.'),
+('وَبَعْدَ أُسْبُوعٍ جَاءَ رَجُلٌ آخَرُ وَقَالَ: «أَنَا جَارُ صَاحِبِ الْأَرْنَبِ.»','Bir hafta sonra başka bir adam geldi ve dedi ki: “Ben tavşan sahibinin komşusuyum.”'),
+('فَأَكْرَمَهُ جُحَا أَيْضًا.','Cuhâ ona da ikram etti.'),
+('ثُمَّ جَاءَ ثَالِثٌ وَقَالَ: «أَنَا جَارُ جَارِ صَاحِبِ الْأَرْنَبِ.»','Sonra üçüncüsü geldi ve dedi ki: “Ben tavşan sahibinin komşusunun komşusuyum.”'),
+('فَقَدَّمَ لَهُ جُحَا وِعَاءً فِيهِ مَاءٌ حَارٌّ.','Cuhâ ona içinde sıcak su olan bir kap sundu.'),
+('قَالَ الرَّجُلُ: «مَا هَذَا؟» قَالَ جُحَا: «هَذَا مَرَقُ مَرَقِ مَرَقِ الْأَرْنَبِ!»','Adam dedi ki: “Bu ne?” Cuhâ dedi ki: “Bu, tavşanın suyunun suyunun suyu!”')]),
+('الْمِفْتَاحُ الضَّائِعُ','Kayıp anahtar',[
+('رَأَى النَّاسُ جُحَا يَبْحَثُ فِي الشَّارِعِ تَحْتَ الْمِصْبَاحِ.','İnsanlar Cuhâ’yı sokakta lambanın altında bir şey ararken gördüler.'),
+('قَالُوا: «عَنْ مَاذَا تَبْحَثُ؟» قَالَ: «عَنْ مِفْتَاحِ بَيْتِي.»','Dediler ki: “Ne arıyorsun?” Dedi ki: “Evimin anahtarını.”'),
+('فَبَحَثُوا مَعَهُ طَوِيلًا، فَلَمْ يَجِدُوا شَيْئًا.','Uzun süre onunla birlikte aradılar ama hiçbir şey bulamadılar.'),
+('قَالُوا: «أَيْنَ سَقَطَ مِنْكَ؟» قَالَ: «فِي الْبَيْتِ.»','Dediler ki: “Nerede düşürdün?” Dedi ki: “Evde.”'),
+('قَالُوا: «فَلِمَاذَا تَبْحَثُ هُنَا؟»','Dediler ki: “Peki neden burada arıyorsun?”'),
+('قَالَ: «لِأَنَّ الْبَيْتَ مُظْلِمٌ، وَهُنَا نُورٌ!»','Dedi ki: “Çünkü ev karanlık, burada ise ışık var!”'),
+('فَضَحِكُوا، وَلَكِنَّ بَعْضَهُمْ قَالَ: «كَمْ مِنَّا يَبْحَثُ عَنِ الشَّيْءِ فِي غَيْرِ مَكَانِهِ!»','Güldüler ama bazıları dedi ki: “Kaçımız bir şeyi yeri olmayan yerde arıyor!”')]),
+('جُحَا وَالْمَلِكُ','Cuhâ ve kral',[
+('سَمِعَ الْمَلِكُ بِذَكَاءِ جُحَا، فَدَعَاهُ إِلَى قَصْرِهِ.','Kral Cuhâ’nın zekâsını duydu ve onu sarayına davet etti.'),
+('قَالَ الْمَلِكُ: «يَا جُحَا، كَمْ أُسَاوِي؟»','Kral dedi ki: “Ey Cuhâ, ben kaç para ederim?”'),
+('فَكَّرَ جُحَا قَلِيلًا ثُمَّ قَالَ: «مِائَةَ دِينَارٍ.»','Cuhâ biraz düşündü sonra dedi ki: “Yüz dinar.”'),
+('غَضِبَ الْمَلِكُ وَقَالَ: «ثَوْبِي وَحْدَهُ ثَمَنُهُ مِائَةُ دِينَارٍ!»','Kral kızdı ve dedi ki: “Yalnız elbisemin fiyatı yüz dinar!”'),
+('قَالَ جُحَا: «نَعَمْ يَا مَوْلَايَ، وَأَنَا قُلْتُ ثَمَنَ الثَّوْبِ.»','Cuhâ dedi ki: “Evet efendim, ben de elbisenin fiyatını söyledim.”'),
+('«أَمَّا الْإِنْسَانُ فَقِيمَتُهُ فِي عَمَلِهِ وَعَدْلِهِ، لَا فِي ثَوْبِهِ.»','“İnsana gelince, onun değeri elbisesinde değil, işinde ve adaletindedir.”'),
+('فَسَكَتَ الْمَلِكُ، ثُمَّ ضَحِكَ، وَأَعْطَى جُحَا هَدِيَّةً.','Kral sustu, sonra güldü ve Cuhâ’ya bir hediye verdi.')]),
+('آخِرُ النَّوَادِرِ','Son fıkra',[
+('كَبِرَ جُحَا، وَجَلَسَ يَوْمًا مَعَ أَوْلَادِ الْقَرْيَةِ.','Cuhâ yaşlandı ve bir gün köyün çocuklarıyla oturdu.'),
+('قَالُوا: «يَا جُحَا، عَلِّمْنَا شَيْئًا قَبْلَ أَنْ تَذْهَبَ.»','Dediler ki: “Ey Cuhâ, gitmeden önce bize bir şey öğret.”'),
+('قَالَ: «تَعَلَّمْتُ أَنَّ الضَّحِكَ يَفْتَحُ الْقُلُوبَ.»','Dedi ki: “Gülmenin kalpleri açtığını öğrendim.”'),
+('«وَأَنَّ الْكَلِمَةَ الصَّغِيرَةَ قَدْ تُعَلِّمُ مَا لَا يُعَلِّمُهُ كِتَابٌ كَبِيرٌ.»','“Ve küçük bir sözün büyük bir kitabın öğretemediğini öğretebileceğini.”'),
+('«فَاضْحَكُوا، وَلَكِنْ لَا تَضْحَكُوا عَلَى النَّاسِ، بَلِ اضْحَكُوا مَعَهُمْ.»','“Gülün ama insanlara gülmeyin, onlarla birlikte gülün.”'),
+('فَبَقِيَتْ نَوَادِرُهُ تُحْكَى فِي كُلِّ بَيْتٍ إِلَى الْيَوْمِ.','Fıkraları bugüne kadar her evde anlatılıyor.')]),
+]

@@ -14,8 +14,9 @@ if ps:
     for f in ps:
         sp=importlib.util.spec_from_file_location('p',f);q=importlib.util.module_from_spec(sp);sp.loader.exec_module(q);B+=q.B
 else:B=m.B
-DIL={'ar':['sindbad','hamama','hayy'],'fa':['tuti','sohrab','mantik'],'en':['prince','crusoe','carol']}
-G={l.split('=',1)[0].strip() for x in DIL[dil] for l in open(f'tools/roman/{x}_sozluk.txt',encoding='utf-8') if '=' in l}
+sys.path.insert(0,'tools/roman');import kitaplar,os
+DIL=kitaplar.DIL()
+G={l.split('=',1)[0].strip() for x in DIL[dil] if os.path.exists(f'tools/roman/{x}_sozluk.txt') for l in open(f'tools/roman/{x}_sozluk.txt',encoding='utf-8') if '=' in l}
 eks=[]
 for _,_,ss in B:
     for a,_ in ss:
