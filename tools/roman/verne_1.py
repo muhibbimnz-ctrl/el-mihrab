@@ -1,0 +1,42 @@
+B=[
+('Mr Phileas Fogg','Bay Phileas Fogg',[
+('In the year 1872, the house at number seven Savile Row in London was occupied by Mr Phileas Fogg, one of the most peculiar members of the Reform Club.','1872 yılında Londra’da Savile Row yedi numaradaki evde, Reform Kulübü’nün en tuhaf üyelerinden biri olan Bay Phileas Fogg oturuyordu.'),
+('He was a gentleman of perfect manners, always calm, who did everything with the precision of a well-made clock.','Kusursuz tavırlı, her zaman sakin, her şeyi iyi yapılmış bir saatin kesinliğiyle yapan bir beyefendiydi.'),
+('Nobody knew where his fortune came from, and he spoke as little as possible.','Servetinin nereden geldiğini kimse bilmiyordu ve olabildiğince az konuşurdu.'),
+('Every day he left his house at exactly half past eleven, took exactly five hundred and seventy-five steps to the club, and returned at midnight.','Her gün tam on bir buçukta evinden çıkar, kulübe tam beş yüz yetmiş beş adım atar ve gece yarısı dönerdi.'),
+('On the morning of the second of October he dismissed his servant because the water for his shaving was two degrees too cold.','Ekim ayının ikinci günü sabahı, tıraş suyu iki derece fazla soğuk olduğu için uşağını kovdu.'),
+('His new servant was a lively Frenchman named Passepartout, who had been an acrobat, a fireman and a singer.','Yeni uşağı, akrobat, itfaiyeci ve şarkıcı olmuş Passepartout adında canlı bir Fransızdı.'),
+('Passepartout was delighted: at last, he thought, he had found a quiet master with a regular life.','Passepartout çok sevindi: sonunda, diye düşündü, düzenli bir hayatı olan sakin bir efendi bulmuştu.')]),
+('The wager','İddia',[
+('That evening at the club, the gentlemen were discussing a daring robbery at the Bank of England.','O akşam kulüpte beyefendiler İngiltere Bankası’ndaki cüretkâr bir soygunu konuşuyorlardı.'),
+('“The thief will escape,” said one. “The world is so large.”','“Hırsız kaçacak,” dedi biri. “Dünya çok büyük.”'),
+('“It was once,” replied Fogg calmly. “Now it is possible to travel around it in eighty days.”','“Bir zamanlar öyleydi,” diye sakince cevap verdi Fogg. “Şimdi onu seksen günde dolaşmak mümkün.”'),
+('His friends laughed. “On paper, perhaps, but not in reality, with storms, delays and accidents.”','Arkadaşları güldü. “Kâğıt üzerinde belki, ama gerçekte değil; fırtınalar, gecikmeler ve kazalarla.”'),
+('“I will bet twenty thousand pounds that I can do it,” said Fogg, “and I will leave tonight.”','“Bunu yapabileceğime yirmi bin sterline iddiaya girerim,” dedi Fogg, “ve bu gece yola çıkacağım.”'),
+('Twenty thousand pounds was half of his entire fortune; the other half he would need for the journey.','Yirmi bin sterlin bütün servetinin yarısıydı; öbür yarısı yolculuk için gerekecekti.'),
+('“I shall be back in this room on Saturday, the twenty-first of December, at a quarter to nine in the evening.”','“Cumartesi, yirmi bir Aralık, akşam dokuza çeyrek kala bu odada olacağım.”'),
+('Poor Passepartout, who had hoped for a quiet life, found himself packing a bag for a journey around the globe.','Sakin bir hayat ümit eden zavallı Passepartout kendini dünya çevresinde bir yolculuk için çanta hazırlarken buldu.')]),
+('Detective Fix','Dedektif Fix',[
+('At the same time a detective named Fix was waiting at the port of Suez, watching every passenger who came off the ships.','Aynı sırada Fix adlı bir dedektif Süveyş limanında bekliyor, gemilerden inen her yolcuyu izliyordu.'),
+('He had a description of the bank robber: a tall, well-dressed, calm English gentleman.','Elinde banka soyguncusunun eşkâli vardı: uzun boylu, şık giyimli, sakin bir İngiliz beyefendisi.'),
+('When Fogg arrived, Fix was certain that he had found his man.','Fogg gelince Fix aradığı adamı bulduğundan emin oldu.'),
+('“A man who travels around the world in a hurry with a bag full of banknotes,” he thought. “Who else could it be?”','“Bir çanta dolusu banknotla aceleyle dünyayı dolaşan bir adam,” diye düşündü. “Başka kim olabilir?”'),
+('But he needed an arrest warrant from London, and Fogg would not stay long anywhere.','Ama Londra’dan bir tutuklama emrine ihtiyacı vardı ve Fogg hiçbir yerde uzun kalmayacaktı.'),
+('So Fix decided to follow him, from port to port, until the warrant reached him.','Bu yüzden Fix, emir eline ulaşana kadar onu limandan limana takip etmeye karar verdi.'),
+('He became friendly with Passepartout, hoping to learn his master’s secrets.','Efendisinin sırlarını öğrenmeyi umarak Passepartout’yla dost oldu.')]),
+('The elephant','Fil',[
+('In India the travellers took the new railway from Bombay to Calcutta.','Hindistan’da yolcular Bombay’dan Kalküta’ya giden yeni demiryoluna bindiler.'),
+('But in the middle of the forest the train suddenly stopped: the line had not been finished, despite what the newspapers had said.','Ama ormanın ortasında tren birden durdu; gazetelerin yazdıklarına rağmen hat bitirilmemişti.'),
+('There were fifty miles of jungle before the line began again.','Hattın yeniden başlamasına kadar elli millik bir orman vardı.'),
+('Fogg did not lose his calm. He bought an elephant for two thousand pounds and hired a young guide.','Fogg sakinliğini kaybetmedi. İki bin sterline bir fil satın aldı ve genç bir rehber tuttu.'),
+('The elephant carried them through the forest, while Passepartout bounced on its back like a ball.','Fil onları ormanın içinden taşıdı; bu sırada Passepartout onun sırtında top gibi zıplıyordu.'),
+('That night they heard drums and singing in the trees, and saw a strange procession approaching.','O gece ağaçların arasında davul ve şarkı sesleri duydular ve tuhaf bir alayın yaklaştığını gördüler.')]),
+('Aouda','Aouda',[
+('The guide explained in a low voice that a young widow was going to be burned with the body of her old husband, according to a cruel custom.','Rehber alçak bir sesle, genç bir dul kadının zalim bir âdete göre yaşlı kocasının cesediyle birlikte yakılacağını anlattı.'),
+('Her name was Aouda, and she had been forced to marry the old prince against her will.','Adı Aouda’ydı ve iradesi dışında yaşlı prensle evlenmeye zorlanmıştı.'),
+('“I have twelve hours to spare,” said Fogg. “I can give them to save her.”','“On iki saat fazlam var,” dedi Fogg. “Onu kurtarmak için bunları verebilirim.”'),
+('Passepartout was astonished: his cold master had a warm heart after all.','Passepartout şaşkına döndü: soğuk efendisinin aslında sıcak bir kalbi vardı.'),
+('At dawn, when the fire was lit, Passepartout, hidden among the dark smoke, lifted the young woman in his arms.','Şafakta ateş yakılınca, kara dumanın arasına gizlenmiş Passepartout genç kadını kollarına aldı.'),
+('The crowd fell to the ground in terror, believing the dead prince had risen.','Kalabalık, ölü prensin dirildiğini sanarak dehşet içinde yere kapandı.'),
+('In the confusion the travellers escaped on the elephant with Aouda and reached the railway in time.','Bu karmaşada yolcular Aouda’yla birlikte fille kaçtılar ve demiryoluna vaktinde ulaştılar.')]),
+]

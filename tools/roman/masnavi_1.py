@@ -1,0 +1,43 @@
+B=[
+('نی‌نامه','Ney’in hikâyesi',[
+('مثنوی با شکایت نی آغاز می‌شود.','Mesnevî neyin şikâyetiyle başlar.'),
+('نی می‌گوید: «از آن روز که مرا از نیستان بریده‌اند، ناله‌ی من مرد و زن را به گریه انداخته است.»','Ney der ki: “Beni sazlıktan kestikleri günden beri iniltim erkeği ve kadını ağlatmıştır.”'),
+('«سینه‌ای می‌خواهم شرحه شرحه از فراق، تا شرح درد اشتیاق را بگویم.»','“Ayrılıktan parça parça olmuş bir gönül isterim ki özlem derdini anlatayım.”'),
+('«هر کس که از اصل خویش دور ماند، روزگار وصل خویش را باز می‌جوید.»','“Aslından uzak kalan herkes, kavuşma zamanını yeniden arar.”'),
+('مولانا می‌گوید که آن نی، جان انسان است که از اصل الهی خود جدا افتاده است.','Mevlânâ der ki o ney, ilâhî aslından ayrı düşmüş insanın ruhudur.'),
+('و ناله‌ی آن، آتش عشق است، نه باد.','Onun iniltisi de rüzgâr değil, aşk ateşidir.')]),
+('پیل در تاریکی','Karanlıktaki fil',[
+('گروهی از مردم هند پیلی را به شهری آوردند که مردمش هرگز پیل ندیده بودند.','Hintlilerden bir grup, halkı hiç fil görmemiş bir şehre bir fil getirdi.'),
+('پیل را در خانه‌ای تاریک گذاشتند.','Fili karanlık bir eve koydular.'),
+('مردم یکی یکی به درون رفتند و در تاریکی با دست به پیل دست زدند.','İnsanlar birer birer içeri girdi ve karanlıkta eliyle file dokundu.'),
+('یکی به خرطوم دست زد و گفت: «پیل مانند ناودان است.»','Biri hortuma dokundu ve dedi ki: “Fil oluk gibidir.”'),
+('دیگری گوشش را گرفت و گفت: «نه، مانند بادبزن است.»','Bir diğeri kulağını tuttu ve dedi ki: “Hayır, yelpaze gibidir.”'),
+('سومی پایش را لمس کرد و گفت: «پیل مانند ستون است.»','Üçüncüsü ayağına dokundu ve dedi ki: “Fil sütun gibidir.”'),
+('و چهارمی پشتش را لمس کرد و گفت: «مانند تخت است.»','Dördüncüsü sırtına dokundu ve dedi ki: “Taht gibidir.”'),
+('مولانا می‌گوید: «اگر در دست هر کس شمعی بود، اختلاف از گفتارشان بیرون می‌رفت.»','Mevlânâ der ki: “Her birinin elinde bir mum olsaydı, sözlerindeki ayrılık ortadan kalkardı.”')]),
+('موسی و شبان','Mûsâ ve çoban',[
+('موسی در راه شبانی را دید که با خدا سخن می‌گفت.','Mûsâ yolda Allah’la konuşan bir çoban gördü.'),
+('شبان می‌گفت: «خدایا، کجایی تا من چاکرت شوم، کفشت را بدوزم، و موهایت را شانه کنم؟»','Çoban diyordu ki: “Allah’ım, neredesin ki sana kul olayım, ayakkabını dikeyim, saçını tarayayım?”'),
+('«دستت را ببوسم، پایت را بمالم، و شیر برایت بیاورم.»','“Elini öpeyim, ayağını ovayım ve sana süt getireyim.”'),
+('موسی خشمگین شد و گفت: «ای نادان، این چه سخن است؟ خدا نیازی به کفش و شیر ندارد!»','Mûsâ öfkelendi ve dedi ki: “Ey cahil, bu ne söz? Allah’ın ayakkabıya ve süte ihtiyacı yoktur!”'),
+('شبان شرمنده شد، جامه‌اش را درید، و آهی کشید و به بیابان رفت.','Çoban utandı, elbisesini yırttı, bir ah çekti ve çöle gitti.'),
+('آنگاه وحی آمد: «ای موسی، بنده‌ی ما را از ما جدا کردی!»','O zaman vahiy geldi: “Ey Mûsâ, kulumuzu bizden ayırdın!”'),
+('«تو برای پیوند کردن آمدی، نه برای جدا کردن.»','“Sen birleştirmek için geldin, ayırmak için değil.”'),
+('«ما به زبان و سخن نمی‌نگریم، به دل و حال می‌نگریم.»','“Biz dile ve söze bakmayız, gönle ve hâle bakarız.”')]),
+('بازگشت موسی','Mûsâ’nın dönüşü',[
+('موسی در بیابان به دنبال شبان دوید.','Mûsâ çölde çobanın peşinden koştu.'),
+('سرانجام او را یافت و گفت: «مژده بده! اجازه آمد.»','Sonunda onu buldu ve dedi ki: “Müjde! İzin geldi.”'),
+('«هیچ ادب و ترتیبی مجوی؛ هر چه دل تنگت می‌خواهد، بگو.»','“Hiçbir edep ve düzen arama; dar gönlün ne istiyorsa söyle.”'),
+('شبان گفت: «ای موسی، من از آن حال گذشته‌ام.»','Çoban dedi ki: “Ey Mûsâ, ben o hâli geçtim.”'),
+('«تو تازیانه‌ای زدی، و اسب من از آسمان هم گذشت.»','“Sen bir kamçı vurdun, benim atım gökleri de aştı.”'),
+('«اکنون حال من در گفتن نمی‌گنجد.»','“Şimdi benim hâlim söze sığmaz.”')]),
+('بقال و طوطی','Bakkal ve papağan',[
+('بقالی طوطی سبز خوش‌آوازی داشت که در دکان با مشتریان سخن می‌گفت.','Bir bakkalın, dükkânda müşterilerle konuşan, sesi güzel yeşil bir papağanı vardı.'),
+('روزی طوطی از ترس گربه پرید و شیشه‌های روغن را بر زمین ریخت.','Bir gün papağan kediden korkup havalandı ve yağ şişelerini yere döktü.'),
+('بقال خشمگین شد و چنان بر سر طوطی زد که پرهای سرش ریخت.','Bakkal öfkelendi ve papağanın başına öyle vurdu ki başının tüyleri döküldü.'),
+('طوطی از غم دیگر سخن نگفت.','Papağan kederden bir daha konuşmadı.'),
+('بقال پشیمان شد و روزها به مردم صدقه داد تا طوطی دوباره سخن بگوید.','Bakkal pişman oldu ve papağan yeniden konuşsun diye günlerce insanlara sadaka verdi.'),
+('روزی درویشی با سر طاس از کنار دکان گذشت.','Bir gün kel başlı bir derviş dükkânın yanından geçti.'),
+('طوطی ناگهان فریاد زد: «ای کچل! تو هم مگر شیشه‌ی روغن ریختی؟»','Papağan birden bağırdı: “Ey kel! Yoksa sen de yağ şişesi mi döktün?”'),
+('مردم خندیدند، و مولانا گفت: «کار پاکان را قیاس از خود مگیر.»','İnsanlar güldü; Mevlânâ dedi ki: “Temiz kişilerin işini kendinle kıyaslama.”')]),
+]
