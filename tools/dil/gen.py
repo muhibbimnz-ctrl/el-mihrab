@@ -1,0 +1,78 @@
+import json, sys
+sys.path.insert(0,'.')
+from content import DE,FR,ES
+T='''<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>__TITLE__ — el-Mihrâb</title><meta name="theme-color" content="#0e5a43"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png">
+<style>
+:root{--bg:#f3ead4;--paper:#fbf6e8;--card:#fffaf0;--ink:#2a2216;--ink2:#4a3f2c;--muted:#857455;--accent:#0e5a43;--gold:#b0852f;--line:#e3d4ad;--hl:#fff1c4;--g1:__G1__;--g2:__G2__}
+@media(prefers-color-scheme:dark){:root{--bg:#0c1311;--paper:#111a16;--card:#15201b;--ink:#ece3cc;--ink2:#cfc5ab;--muted:#958c75;--accent:#4cc196;--gold:#d6ab52;--line:#24312b;--hl:#2c2a16}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-bottom:80px}
+header{background:linear-gradient(135deg,var(--g1),var(--g2));color:#fff;padding:calc(18px + env(safe-area-inset-top,0px)) 18px 22px;border-radius:0 0 28px 28px}
+header h1{margin:6px 0 2px;font-size:26px}header p{margin:0;opacity:.9;font-size:14px}
+.back{color:#fff;text-decoration:none;font-weight:700;font-size:14px;opacity:.9}
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--line)}
+button,select{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:7px 11px;cursor:pointer}
+.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+main{max-width:760px;margin:0 auto;padding:6px 14px}
+.units{display:flex;gap:8px;overflow-x:auto;padding:12px 0;scrollbar-width:none}.units::-webkit-scrollbar{display:none}
+.units button{flex:none;border-radius:999px;font-size:14px}
+h2{font-size:20px;margin:14px 0 8px;color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:4px 14px;margin-bottom:12px}
+.row{display:grid;grid-template-columns:40px 1fr;gap:10px;padding:10px 0;border-top:1px solid var(--line);align-items:start}.row:first-child{border-top:0}
+.row.play{background:var(--hl);margin:0 -14px;padding:10px 14px}
+.pl{width:36px;height:36px;padding:0;border-radius:50%;background:var(--accent);color:#fff;border:0;font-size:14px}
+.t{font-size:18px}.tr{color:var(--muted);font-size:15px}body.hidetr .tr{visibility:hidden}
+.fc{background:linear-gradient(135deg,var(--g1),var(--g2));color:#fff;border-radius:22px;padding:26px 16px;text-align:center;min-height:150px;display:flex;flex-direction:column;justify-content:center;gap:6px;cursor:pointer}
+.fc .w{font-size:28px;font-weight:700}.fc .m{font-size:17px;opacity:.95}.fc .h{font-size:12px;opacity:.75}
+.fcb{display:flex;gap:8px;justify-content:center;margin:10px 0 18px}
+.warn{display:none;background:var(--hl);border-radius:12px;padding:10px 14px;margin:10px 0;font-size:14px;line-height:1.5}
+.tip{font-size:14px;color:var(--ink2);background:var(--paper);border-left:4px solid var(--gold);border-radius:8px;padding:10px 12px;margin:8px 0 14px}
+</style></head><body>
+<header><a class="back" href="./">‹ el-Mihrâb</a><h1>__TITLE__</h1><p>__SUB__</p></header>
+<div class="bar"><button id="all">▶ Hepsini dinle</button><button id="stop">■ Durdur</button>
+<label>Hız <select id="rate"><option value="0.7">Yavaş</option><option value="0.85" selected>Normal</option><option value="1">Hızlı</option></select></label>
+<button id="trb">Türkçeyi gizle</button></div>
+<main><div class="warn" id="warn"></div><div class="units" id="units"></div><div id="out"></div></main>
+<script>
+"use strict";
+var D=__DATA__,LANGC="__LC__",KEY="mihrab.dil.__LC__";
+var st={u:0,fc:0,q:[],on:false,voice:null};
+try{var sv=JSON.parse(localStorage.getItem(KEY)||"{}");if(sv.u>=0&&sv.u<D.length)st.u=sv.u}catch(e){}
+function $(s){return document.querySelector(s)}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+var syn=window.speechSynthesis;
+function pickVoice(){if(!syn)return;var v=syn.getVoices()||[],b=LANGC.slice(0,2);st.voice=v.filter(function(x){return x.lang&&x.lang.replace("_","-").toLowerCase().indexOf(b)===0}).sort(function(a,c){return(c.localService?1:0)-(a.localService?1:0)})[0]||null;
+ var w=$("#warn");if(v.length&&!st.voice){w.style.display="block";w.innerHTML="<b>Bu dilin sesi telefonunuzda yüklü değil.</b> Android: Ayarlar › Metin okuma çıkışı › Google › Dil verilerini yükle. iPhone: Ayarlar › Erişilebilirlik › Seslendirilen İçerik › Sesler. Sonra sayfayı yenileyin."}else w.style.display="none"}
+if(syn){pickVoice();syn.onvoiceschanged=pickVoice}else{$("#warn").style.display="block";$("#warn").textContent="Bu tarayıcı sesli okumayı desteklemiyor."}
+function say(t,done){if(!syn){done&&done();return}try{syn.cancel();var u=new SpeechSynthesisUtterance(t);u.lang=LANGC;if(st.voice)u.voice=st.voice;u.rate=+$("#rate").value;u.onend=function(){done&&done()};u.onerror=function(){done&&done()};syn.speak(u)}catch(e){done&&done()}}
+function stop(){st.on=false;try{syn&&syn.cancel()}catch(e){}document.querySelectorAll(".row.play").forEach(function(r){r.classList.remove("play")})}
+function mark(el){document.querySelectorAll(".row.play").forEach(function(r){r.classList.remove("play")});if(el){el.classList.add("play");el.scrollIntoView({block:"center",behavior:"smooth"})}}
+function render(){var u=D[st.u];try{localStorage.setItem(KEY,JSON.stringify({u:st.u}))}catch(e){}
+ $("#units").innerHTML=D.map(function(x,i){return'<button data-u="'+i+'" class="'+(i===st.u?"on":"")+'">'+(i+1)+". "+esc(x[0])+"</button>"}).join("");
+ var h='<h2>'+(st.u+1)+". "+esc(u[0])+'</h2><div class="tip">Önce cümleyi dinleyin, sonra yüksek sesle tekrar edin. İkinci turda Türkçeyi gizleyip anlamaya çalışın.</div><div class="card">';
+ u[1].forEach(function(r,i){h+='<div class="row" data-i="'+i+'"><button class="pl" data-s="'+i+'">▶</button><div><div class="t">'+esc(r[0])+'</div><div class="tr">'+esc(r[1])+"</div></div></div>"});
+ h+='</div><h2>Kelimeler</h2><div class="card">';
+ u[2].forEach(function(r,i){h+='<div class="row"><button class="pl" data-w="'+i+'">▶</button><div><div class="t">'+esc(r[0])+'</div><div class="tr">'+esc(r[1])+"</div></div></div>"});
+ h+='</div><h2>Kelime kartları</h2><div class="fc" id="fc"></div><div class="fcb"><button id="fp">‹</button><button id="fs">▶ Dinle</button><button id="fn">›</button></div>';
+ h+='<div class="fcb">'+(st.u>0?'<button id="pu">‹ Önceki ders</button>':"")+(st.u<D.length-1?'<button class="on" id="nu">Sonraki ders ›</button>':"")+"</div>";
+ $("#out").innerHTML=h;st.fc=0;card(false);
+ document.querySelectorAll("[data-u]").forEach(function(b){b.onclick=function(){stop();st.u=+b.dataset.u;render();scrollTo(0,0)}});
+ document.querySelectorAll("[data-s]").forEach(function(b){b.onclick=function(){stop();var i=+b.dataset.s;mark(b.parentNode);say(u[1][i][0],function(){mark(null)})}});
+ document.querySelectorAll("[data-w]").forEach(function(b){b.onclick=function(){stop();say(u[2][+b.dataset.w][0])}});
+ $("#fp").onclick=function(){st.fc=(st.fc-1+u[2].length)%u[2].length;card(false)};$("#fn").onclick=function(){st.fc=(st.fc+1)%u[2].length;card(false)};
+ $("#fs").onclick=function(){say(u[2][st.fc][0])};$("#fc").onclick=function(){card(true)};
+ var pu=$("#pu"),nu=$("#nu");if(pu)pu.onclick=function(){stop();st.u--;render();scrollTo(0,0)};if(nu)nu.onclick=function(){stop();st.u++;render();scrollTo(0,0)}}
+function card(show){var w=D[st.u][2][st.fc];$("#fc").innerHTML='<div class="w">'+esc(w[0])+'</div><div class="m">'+(show?esc(w[1]):"?")+'</div><div class="h">'+(show?(st.fc+1)+" / "+D[st.u][2].length:"Anlamı için dokunun")+"</div>"}
+$("#all").onclick=function(){stop();st.on=true;var u=D[st.u],i=0,rows=document.querySelectorAll(".row[data-i]");(function nx(){if(!st.on||i>=u[1].length){mark(null);st.on=false;return}mark(rows[i]);say(u[1][i][0],function(){i++;setTimeout(nx,500)})})()};
+$("#stop").onclick=stop;
+$("#trb").onclick=function(){document.body.classList.toggle("hidetr");this.textContent=document.body.classList.contains("hidetr")?"Türkçeyi göster":"Türkçeyi gizle"};
+window.addEventListener("pagehide",stop);
+render();
+if("serviceWorker" in navigator&&location.protocol==="https:")navigator.serviceWorker.register("sw.js").catch(function(){});
+</script></body></html>'''
+for fn,title,sub,lc,g1,g2,D in [("almanca.html","Almanca Ders","Sesten başlayan temel Almanca: tanışma, aile, günlük hayat, alışveriş ve yol sorma.","de-DE","#c9a14a","#3b3b3b",DE),
+  ("fransizca.html","Fransızca Ders","Sesten başlayan temel Fransızca: tanışma, aile, günlük hayat, alışveriş ve yol sorma.","fr-FR","#7f9bd6","#2b3e74",FR),
+  ("ispanyolca.html","İspanyolca Ders","Sesten başlayan temel İspanyolca: tanışma, aile, günlük hayat, alışveriş ve yol sorma.","es-ES","#e6a04a","#9b2d2d",ES)]:
+    h=T.replace("__TITLE__",title).replace("__SUB__",sub).replace("__LC__",lc).replace("__G1__",g1).replace("__G2__",g2).replace("__DATA__",json.dumps(D,ensure_ascii=False))
+    open('/home/claude/el-mihrab/'+fn,'w',encoding='utf-8').write(h)
+    print(fn,len(h))

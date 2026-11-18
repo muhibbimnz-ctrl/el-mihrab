@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="tr"><head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>%TR% — el-Mihrâb</title><meta name="theme-color" content="%C2%">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f6f1e7;color:#2a2620}
+#hd{background:linear-gradient(135deg,%C1%,%C2%);color:#fff;padding:14px 16px 18px;border-radius:0 0 22px 22px;box-shadow:0 4px 14px rgba(0,0,0,.15);position:sticky;top:0;z-index:5}
+#hd .top{display:flex;align-items:center;gap:10px}#hd a,#hd button{color:#fff;text-decoration:none;background:rgba(255,255,255,.18);border:0;border-radius:12px;padding:7px 12px;font-size:15px;cursor:pointer}
+#hd h1{margin:0;font-size:20px;flex:1}#hd small{display:block;opacity:.85;font-size:13px;margin-top:4px}
+main{max-width:760px;margin:0 auto;padding:16px}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px}.tile{background:#fff;border-radius:18px;padding:18px 14px;box-shadow:0 2px 8px rgba(0,0,0,.07);cursor:pointer;border:2px solid transparent;text-align:left;font:inherit;color:inherit}
+.tile:hover{border-color:%C1%}.tile b{display:block;font-size:17px;margin-top:6px}.tile span{font-size:30px}.tile i{display:block;font-style:normal;font-size:13px;color:#7a7266;margin-top:3px}.tile.wide{grid-column:1/-1}
+.list .it{display:flex;justify-content:space-between;align-items:center;background:#fff;border-radius:14px;padding:14px;margin:8px 0;cursor:pointer;box-shadow:0 1px 5px rgba(0,0,0,.06)}.it .ok{color:#2e7d32;font-size:13px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.bar button{border:0;border-radius:12px;padding:8px 12px;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.08);font:inherit;font-size:14px;cursor:pointer}.bar button.on{background:%C2%;color:#fff}
+.row{background:#fff;border-radius:14px;padding:12px 12px 12px 54px;margin:8px 0;position:relative;box-shadow:0 1px 5px rgba(0,0,0,.06)}.row .p{position:absolute;left:10px;top:10px;width:36px;height:36px;border-radius:50%;border:0;background:%C1%;color:#fff;font-size:15px;cursor:pointer}
+.row .s{font-size:18px;line-height:1.5}.row .t{color:#6d655a;font-size:14px;margin-top:3px}.row .sp{font-size:12px;font-weight:700;color:%C2%;text-transform:uppercase;letter-spacing:.5px}.row.now{outline:2px solid %C1%}
+.hideTr .t{filter:blur(5px)}.hideTr .t:active{filter:none}
+h2{font-size:18px;margin:18px 0 6px}.words{display:grid;grid-template-columns:1fr 1fr;gap:8px}.w{background:#fff;border-radius:12px;padding:10px;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.06)}.w small{display:block;color:#7a7266}
+.nav{display:flex;justify-content:space-between;margin:16px 0}.nav button,.big{border:0;border-radius:14px;padding:12px 16px;background:%C2%;color:#fff;font:inherit;cursor:pointer}
+.card{background:#fff;border-radius:20px;padding:34px 18px;text-align:center;box-shadow:0 3px 12px rgba(0,0,0,.09);margin:14px 0}.card .f{font-size:30px;font-weight:600}.card .b{font-size:18px;color:#6d655a;margin-top:14px;min-height:26px}
+.warn{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:20;align-items:center;justify-content:center;padding:20px}.warn.open{display:flex}.warn div{background:#fff;border-radius:18px;padding:20px;max-width:420px;line-height:1.55}
+@media(prefers-color-scheme:dark){body{background:#17150f;color:#eee6d6}.tile,.row,.w,.card,.list .it,.bar button,.warn div{background:#24211a;color:#eee6d6}.row .t,.tile i,.w small,.card .b{color:#b5ab98}}
+</style></head><body>
+<div id="hd"><div class="top"><a href="./" id="back">← el-Mihrâb</a><h1>%TR% <span style="opacity:.8;font-weight:400">· %NAT%</span></h1><button id="qb" aria-label="Yardım">?</button></div><small id="sub"></small></div>
+<div class="warn" id="warn"><div><b>Sesli okuma hakkında</b><p>Cümleler cihazınızın kendi okuma sesiyle (metin-konuşma) seslendirilir. Ses çıkmazsa: telefon ayarlarından <i>Metin okuma / Text-to-speech</i> bölümüne girip %TR% dilini indirin; Chrome veya Safari kullanın. İnternet olmadan da çoğu cihazda çalışır.</p><button class="big" onclick="W.classList.remove('open')">Tamam</button></div></div>
+<main id="m"></main><p id="lead" style="max-width:760px;margin:-6px auto 0;padding:0 18px 20px;color:#7a7266;font-size:14px"></p>
+<script>
+var D=%DATA%,LC='%LC%',KEY='mihrab.dil.%KEY%',W=document.getElementById('warn'),M=document.getElementById('m');
+var st={};try{st=JSON.parse(localStorage.getItem(KEY))||{}}catch(e){}st.done=st.done||{};st.kn=st.kn||{};st.rate=st.rate||.9;
+function save(){try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){}}
+document.getElementById('qb').onclick=function(){W.classList.add('open')};
+var SEC=[['temel','🔤','Temel','Ses, selamlaşma, sayılar, aile…'],['hikaye','📖','Hikâye (A1→B1)','Yusuf\'un gurbet yılı · 10 bölüm'],['gunluk','🗣️','Günlük Hayat','Restoran, doktor, banka, ev, iş…'],['islami','🕌','İslami Metinler','İman, namaz, oruç, zekât, hac, siyer…'],['okuma','📚','Okuma Metinleri (B1)','Kurtuba, İbn Sînâ, Mimar Sinan…'],['tekrar','🔁','Kelime Tekrarı','Kartlarla tekrar et']];
+var vs=null;function voice(){if(vs)return vs;var v=(speechSynthesis.getVoices()||[]).filter(function(x){return x.lang&&x.lang.replace('_','-').indexOf(LC.slice(0,2))==0});vs=v.filter(function(x){return x.lang.replace('_','-')==LC})[0]||v[0]||null;return vs}
+try{speechSynthesis.onvoiceschanged=function(){vs=null}}catch(e){}
+var q=[],qi=0;function say(t,cb){try{speechSynthesis.cancel();var u=new SpeechSynthesisUtterance(t);u.lang=LC;u.rate=st.rate;var v=voice();if(v)u.voice=v;u.onend=cb||null;u.onerror=cb||null;speechSynthesis.speak(u)}catch(e){W.classList.add('open')}}
+function stop(){q=[];try{speechSynthesis.cancel()}catch(e){}document.querySelectorAll('.row.now').forEach(function(r){r.classList.remove('now')})}
+function playAll(rows){stop();q=rows;qi=0;(function n(){document.querySelectorAll('.row.now').forEach(function(r){r.classList.remove('now')});if(qi>=q.length){q=[];return}var r=q[qi++];r.classList.add('now');r.scrollIntoView({block:'center',behavior:'smooth'});say(r.dataset.s,function(){if(q.length)setTimeout(n,500)})})()}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function home(){stop();sub('');setBack('./');var h='<div class="tiles">';SEC.forEach(function(s,i){var n=s[0]=='tekrar'?allW().length+' kelime':D[s[0]].length+' ders · '+D[s[0]].filter(function(_,j){return st.done[s[0]+j]}).length+' bitti';h+='<button class="tile'+''+'" data-s="'+s[0]+'"><span>'+s[1]+'</span><b>'+s[2]+'</b><i>'+s[3]+'</i><i>'+n+'</i></button>'});M.innerHTML=h+'</div>';M.querySelectorAll('.tile').forEach(function(b){b.onclick=function(){go(b.dataset.s)}});history.replaceState(null,'','#');}
+function setBack(h){var b=document.getElementById('back');b.textContent=h=='./'?'← el-Mihrâb':'← Geri';b.onclick=h=='./'?null:function(e){e.preventDefault();h()}}
+function sub(t){document.getElementById('sub').textContent=t}
+function go(s){lead.textContent='';if(s=='tekrar')return rev();stop();var S=SEC.filter(function(x){return x[0]==s})[0];sub(S[1]+' '+S[2]);setBack(home);var h='<div class="list">';D[s].forEach(function(u,i){h+='<div class="it" data-i="'+i+'"><span>'+esc(u.t)+'</span><span class="ok">'+(st.done[s+i]?'✓ bitti':'›')+'</span></div>'});M.innerHTML=h+'</div>';M.querySelectorAll('.it').forEach(function(e){e.onclick=function(){unit(s,+e.dataset.i)}});scrollTo(0,0)}
+function unit(s,i){lead.textContent='';stop();var u=D[s][i];sub(u.t);setBack(function(){go(s)});
+var h='<div class="bar"><button id="pa">▶ Hepsini dinle</button><button id="st">■ Dur</button><button id="ht">Türkçe gizle</button><button id="rt">Hız: '+st.rate+'</button></div><div id="rows">';
+u.r.forEach(function(r){h+='<div class="row" data-s="'+esc(r[0])+'"><button class="p">▶</button>'+(r[2]?'<div class="sp">'+esc(r[2])+'</div>':'')+'<div class="s">'+esc(r[0])+'</div><div class="t">'+esc(r[1])+'</div></div>'});h+='</div>';
+if(u.w){h+='<h2>Kelimeler</h2><div class="words">';u.w.forEach(function(w){h+='<div class="w" data-s="'+esc(w[0])+'"><b>'+esc(w[0])+'</b><small>'+esc(w[1])+'</small></div>'});h+='</div>'}
+h+='<div class="nav"><button id="pv"'+(i?'':' style="visibility:hidden"')+'>‹ Önceki</button><button id="dn">'+(st.done[s+i]?'✓ Bitti':'Bitirdim ✓')+'</button><button id="nx"'+(i<D[s].length-1?'':' style="visibility:hidden"')+'>Sonraki ›</button></div>';
+M.innerHTML=h;scrollTo(0,0);var rows=[].slice.call(M.querySelectorAll('.row'));
+rows.forEach(function(r){r.querySelector('.p').onclick=function(){stop();r.classList.add('now');say(r.dataset.s,function(){r.classList.remove('now')})}});
+M.querySelectorAll('.w').forEach(function(w){w.onclick=function(){say(w.dataset.s)}});
+pa.onclick=function(){playAll(rows)};document.getElementById('st').onclick=stop;
+ht.onclick=function(){document.getElementById('rows').classList.toggle('hideTr');ht.classList.toggle('on')};
+rt.onclick=function(){var a=[.6,.75,.9,1,1.15];st.rate=a[(a.indexOf(st.rate)+1)%a.length];rt.textContent='Hız: '+st.rate;save()};
+pv.onclick=function(){unit(s,i-1)};nx.onclick=function(){unit(s,i+1)};dn.onclick=function(){st.done[s+i]=1;save();dn.textContent='✓ Bitti'}}
+function allW(){var a=[];D.temel.forEach(function(u){(u.w||[]).forEach(function(w){a.push(w)})});['hikaye','gunluk','islami','okuma'].forEach(function(s){D[s].forEach(function(u){u.r.forEach(function(r){if(r[0].split(' ').length<=4)a.push([r[0],r[1]])})})});return a}
+function rev(){lead.textContent='';stop();sub('🔁 Kelime Tekrarı');setBack(home);var A=allW(),pool=A.filter(function(w){return !st.kn[w[0]]});if(!pool.length){M.innerHTML='<div class="card"><div class="f">🎉</div><div class="b">Hepsini biliyorsun! ('+A.length+')</div></div><div class="nav"><button id="rs">Baştan başla</button></div>';rs.onclick=function(){st.kn={};save();rev()};return}
+var w=pool[Math.floor(Math.random()*pool.length)];M.innerHTML='<p style="text-align:center;color:#7a7266">Kalan: '+pool.length+' / '+A.length+'</p><div class="card"><div class="f">'+esc(w[0])+'</div><div class="b" id="ans">Dokun: anlamını gör</div></div><div class="bar" style="justify-content:center"><button id="sy">▶ Dinle</button></div><div class="nav"><button id="ag">↻ Tekrar</button><button id="kn">✓ Biliyorum</button></div>';
+M.querySelector('.card').onclick=function(){ans.textContent=w[1]};sy.onclick=function(){say(w[0])};say(w[0]);ag.onclick=rev;kn.onclick=function(){st.kn[w[0]]=1;save();rev()}}
+home();
+</script><!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e3f9665447b64c6f8d89efca8e6de38f"}'></script><!-- End Cloudflare Web Analytics --></body></html>
