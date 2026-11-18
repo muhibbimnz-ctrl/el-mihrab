@@ -38,6 +38,8 @@ const BOOKS = [
     tanitim: { muellif: 'İmam Birgivî Mehmed Efendi (ö. 981/1573) — “İzhâru’l-esrâr fi’n-nahv”, kendi Avâmil’inin şerhi gibidir; Osmanlı medreselerinde Avâmil’den sonra okutulmuştur.', amac: 'Âmil, ma‘mûl ve i‘râbı Avâmil’den daha ayrıntılı, şartları ve istisnâlarıyla vermek: cer harfleri, nevâsih, kıyâsî âmiller, merfûât, mansûbât, tâbiler, takdîrî/mahallî i‘râb ve mebnîler.', yontem: '49 derse bölündü. Harekeli metni okuyun, Türkçe açıklama için paragrafa dokunun; her dersin sonunda o dersin sorusu var. Birgivî Avâmil’inden sonra okuyun.' } },
   { id: 'kavaid', ad: 'Kavâidü’l-i‘râb', ar: 'قواعد الإعراب', yol: 'nahiv', sira: 3.5, durum: 'hazir',
     tanitim: { muellif: 'İbn Hişâm el-Ensârî (ö. 761/1360) — “el-İ‘râb ‘an Kavâ‘idi’l-i‘râb”; Muğni’l-lebîb’in özü sayılan küçük bir risâle. Medreselerde İzhâr’dan sonra okutulmuştur.', amac: 'Cümlenin i‘râbını öğretmek: hangi cümlenin mahalli vardır, hangisinin yoktur; câr-mecrûrun müteallakı; i‘râb yaparken sık geçen edatlar ve dikkat edilecek ifadeler.', yontem: 'Şimdilik Mukaddime ve 1. Bâb (cümle ve hükümleri, dört mesele) hazır; diğer bâblar eklenecek. Harekeli metni okuyun, Türkçe açıklama için paragrafa dokunun; sonunda sorular var.' } },
+  { id: 'tatbik', ad: 'et-Tatbîku’n-Nahvî', ar: 'التطبيق النحوي', yol: 'nahiv', sira: 5, durum: 'hazir',
+    tanitim: { muellif: 'Dr. Abduh er-Râcihî (1937–2010), Mısır. Arap dünyasında üniversitelerde okutulan çağdaş, uygulamalı nahiv kitabı.', amac: 'Nahiv bâblarını klasik terimlerle, her örneğin tam i‘râbını yaparak öğretmek; her bâbı Kur’ân-ı Kerîm’den alıştırmalarla pekiştirmek.', yontem: 'Kitabın metni telifli olduğu için alınmadı; konu sırası ve yöntemi izlendi. Her bâbda önce Arapça kural, sonra tam i‘râblı örnekler gelir; paragrafa dokununca Türkçe açıklama açılır. Sonda Kur’an’dan i‘râb soruları var. Şimdilik ilk 6 konu.' } },
   { id: 'zuruf', ad: 'Zurûf', ar: 'الظروف', yol: 'nahiv', sira: 3, durum: 'hazir',
     tanitim: { muellif: 'Molla Yûnus el-Erkutînî’nin risâlesi; Arapçaya Muhammed Şîrîn el-Bitlîsî aktarmış ve faydalar ekleyerek şerh gibi genişletmiştir. Doğu medreselerinde Avâmil’den sonra okutulur.', amac: 'Zarfın kısımlarını (hakikî–mecâzî, zaman–mekân, mübhem–muayyen), taallukunu, lağv ve müstekarr zarfı; sonunda nahvin tarifini ve i‘râbın kısımlarını vermek.', yontem: 'Harekeli metni okuyun, Türkçesi için paragrafa dokunun; bölüm sonlarındaki sorularla pekiştirin.' } },
   { id: 'ajurrumiyye', ad: 'Âcurrûmiyye', ar: 'الآجرومية', yol: 'nahiv', sira: 4, durum: 'hazir',
@@ -270,7 +272,7 @@ function guvenliRoute(){ try{ const r = route(); if(r && typeof r.catch === 'fun
 addEventListener('hashchange', guvenliRoute);
 addEventListener('unhandledrejection', e => { try{ e.preventDefault(); console.warn(e.reason) }catch(x){} });
 /* ---- ders videosu (mini oynatıcı) ---- */
-const KLASIK = ['emsile', 'bina', 'maksud', 'izzi', 'avamil', 'birgivi', 'izhar', 'zuruf', 'kavaid', 'ajurrumiyye', 'katr', 'serhkatr'];
+const KLASIK = ['emsile', 'bina', 'maksud', 'izzi', 'avamil', 'birgivi', 'izhar', 'zuruf', 'kavaid', 'ajurrumiyye', 'katr', 'serhkatr', 'tatbik'];
 let VDATA = null, VP = { key: null, open: false, big: false };
 const VIDKEY = h => { if(h[0] === 'emsile') return 'emsile'; if((h[0] === 'kitap' || h[0] === 'oku') && KLASIK.includes(h[1])) return h[1]; return null };
 const DERS_LISTE = { izhar: 'PLUFT_YZ2pHv71kszU0PdBBsNcE9HrTj7P', zuruf: 'PLUFT_YZ2pHv6OSE_5zcdx0q4iDIdrEExP', birgivi: 'PLUFT_YZ2pHv7tvTbDhX8Nzs4jf72z-XaB', emsile: 'PLUFT_YZ2pHv5pjh2ZMt7BJ-1beuXGKOth', bina: 'PLUFT_YZ2pHv51Rn2jzRzJ1iPMrRcyUl9C', maksud: 'PLUFT_YZ2pHv7TVNi9bD9yrYVqTpBLqkbw', izzi: 'PLUFT_YZ2pHv6MpTMupA0fxtPL0XY8Slgs', avamil: 'PLUFT_YZ2pHv5jiqfMYytJAcKkgSFx_CH5', katr: 'PLUFT_YZ2pHv7MZgzym0gi8qazfVeaEBHA', serhkatr: 'PLUFT_YZ2pHv7MZgzym0gi8qazfVeaEBHA' };
@@ -473,7 +475,7 @@ function alistirma(opt){
   const next = () => {
     if(i >= ids.length){ V.innerHTML = bar(title, '/') + `<div class="wrap"><div class="empty"><div class="score">${dogru} / ${ids.length}</div><p>${dogru === ids.length ? 'Mükemmel.' : 'Yanlışlar “Yanlışlarım” listesine ve tekrar takvimine eklendi.'}</p><a class="btn pri" href="#/emsile/alistirma" onclick="setTimeout(route)">Yeni set</a> <a class="btn" href="#/">Medrese</a></div></div>`; rozetKontrol(); return }
     const q = makeQ(ids[i]); if(!q){ i++; return next() }
-    V.innerHTML = bar(title, '/') + `<div class="wrap"><div class="prog"><i style="width:${i / ids.length * 100}%"></i></div><div class="q"><div class="qn">${i + 1} / ${ids.length} · ${TAGS[q.tag]}</div>
+    V.innerHTML = bar(title, '/') + `<div class="wrap"><div class="prog"><i style="width:${i / ids.length * 100}%"></i></div><div class="q"><div class="qn">${i + 1} / ${ids.length} · ${TAGS[q.tag] || (String(q.tag).startsWith('kitap:') ? ((BOOKS.find(b => b.id === q.tag.slice(6)) || {}).ad || '') : '')}</div>
       ${q.kelime ? `<div class="qw" lang="ar">${q.kelime}</div>` : ''}<div class="qs">${q.soru}</div>
       <div class="opts">${q.secenek.map((o, k) => `<button data-k="${k}">${o.t}</button>`).join('')}</div><div class="qa"></div></div></div>`;
     $$('.opts button').forEach(b => b.onclick = () => {
@@ -490,7 +492,7 @@ function alistirma(opt){
 function yanlislar(){
   const w = SRS.wrong();
   V.innerHTML = bar('Yanlışlarım', '/') + `<div class="wrap">${w.length ? `<p class="lead">${w.length} soruyu en son yanlış cevapladınız. Doğru cevapladıkça listeden çıkar.</p><a class="btn pri" href="#" id="yb">Yanlışlarımı çöz ›</a>
-    <ul class="wl">${w.map(id => { const q = makeQ(id); return q ? `<li><b lang="ar">${q.kelime || ''}</b> ${q.soru.replace(/<[^>]+>/g, '')} <small>${TAGS[q.tag]}</small></li>` : '' }).join('')}</ul>` : '<div class="empty"><b>Yanlışınız yok.</b><p>Alıştırma çözdükçe yanlış cevapladıklarınız burada toplanır.</p></div>'}</div>`;
+    <ul class="wl">${w.map(id => { const q = makeQ(id); return q ? `<li><b lang="ar">${q.kelime || ''}</b> ${q.soru.replace(/<[^>]+>/g, '')} <small>${TAGS[q.tag] || (String(q.tag).startsWith('kitap:') ? ((BOOKS.find(b => b.id === q.tag.slice(6)) || {}).ad || '') : '')}</small></li>` : '' }).join('')}</ul>` : '<div class="empty"><b>Yanlışınız yok.</b><p>Alıştırma çözdükçe yanlış cevapladıklarınız burada toplanır.</p></div>'}</div>`;
   const yb = $('#yb'); if(yb) yb.onclick = e => { e.preventDefault(); alistirma({ scope: 'yanlis' }) };
 }
 function rapor(){
@@ -580,7 +582,7 @@ if(window.Kelime){ Kelime.cfg.jump = (s, a, w) => go(`/kuran/${s}/${a}/${w}`); K
 /* ======================================================================
    KİTAPLAR (Binâ, Maksûd, İzzî, Avâmil, Âcurrûmiyye, Katru'n-nedâ)
    ====================================================================== */
-const KITAPLAR = ['bina', 'maksud', 'izzi', 'avamil', 'birgivi', 'izhar', 'zuruf', 'kavaid', 'ajurrumiyye', 'katr', 'serhkatr'];
+const KITAPLAR = ['bina', 'maksud', 'izzi', 'avamil', 'birgivi', 'izhar', 'zuruf', 'kavaid', 'ajurrumiyye', 'katr', 'serhkatr', 'tatbik'];
 const KC = {}, KP = {};
 const kitapYukle = id => KP[id] || (KP[id] = getJSON(`data/kitap/${id}.json`, j => Array.isArray(j.bolumler)).then(j => (KC[id] = j)).catch(e => { delete KP[id]; throw e }));
 let YDSB = null, MOD = null;
@@ -869,7 +871,7 @@ async function harita(){
   const node = id => { const b = BOOKS.find(x => x.id === id), p = yuzde(id); return `<a class="hn ${rz[id] ? 'rz' : p ? 'go' : ''}" href="#/kitap/${id}"><span class="hc" style="--p:${p}"><i lang="ar">${b.ar.replace(/^(شرح|متن|التصريف) /, '').replace(/ .*/, '')}</i></span><b>${b.ad}</b><small>${rz[id] ? '✦ bitirildi' : '%' + p}</small></a>` };
   V.innerHTML = bar('Öğrenme haritam', '/') + `<div class="wrap"><p class="lead">Medrese yolunda neredesiniz? Her kitap, okunan bâbların oranıyla dolar; kitap bitince rozet alır.</p>
    <h2>Sarf</h2><div class="hyol">${['emsile', 'bina', 'maksud', 'izzi'].map(node).join('<span class="hl"></span>')}</div>
-   <h2>Nahiv</h2><div class="hyol">${['avamil', 'birgivi', 'izhar', 'zuruf', 'kavaid', 'ajurrumiyye', 'serhkatr'].map(node).join('<span class="hl"></span>')}</div>
+   <h2>Nahiv</h2><div class="hyol">${['avamil', 'birgivi', 'izhar', 'zuruf', 'kavaid', 'ajurrumiyye', 'serhkatr', 'tatbik'].map(node).join('<span class="hl"></span>')}</div>
    <h2>Rozetler</h2><p>${Object.keys(rz).length ? Object.keys(rz).map(k => `<span class="rzb">✦ ${(BOOKS.find(b => b.id === k) || { ad: k }).ad}</span>`).join(' ') : 'Henüz rozet yok. Bir kitabın bütün bâblarını okuyup alıştırmalarında başarılı olunca rozet kazanırsınız.'}</p></div>`;
 }
 
