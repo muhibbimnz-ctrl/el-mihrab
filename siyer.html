@@ -44,17 +44,17 @@ table.ir{width:100%;border-collapse:collapse}table.ir td{border-bottom:1px solid
 .mtn{color:#bfe3d3}.meal{color:#cfd8d2}.zn .rv{background:#1f2823;border-color:#34413a}#pop .x{background:#2a352f;color:#e2e8e2}}
 .sek a,.sek button{font-size:13.5px;padding:9px 4px}</style></head><body>
 <div id="hd"><div class="top"><a class="bk" href="./">‹ el-Mihrâb</a><h1 id="ttl">Siyer Dirâsesi</h1><span style="width:70px"></span></div>
-<div class="sek"><a href="./?dirase=kuran">Kur'an</a><a href="fikih.html">Fıkıh</a><button id="sB" class="on">Kitap</button><button id="sH">Harita</button></div></div>
+<div class="sek"><a href="./?dirase=kuran">Kur'an</a><a href="fikih.html">Fıkıh</a><button id="sB" class="on">Kitap</button><button id="sH">Harita</button><button id="sS">Sahâbe</button></div></div>
 <main id="m"><p class="not">Yükleniyor…</p></main>
 <script>setTimeout(function(){if(!window.SIYER_HAZIR){var m=document.getElementById("m");if(m)m.innerHTML='<p class="not">Sayfa açılamadı. <button onclick="location.reload()" style="border:0;border-radius:10px;padding:6px 12px;font:600 14px system-ui;background:#2f5d4e;color:#fff">Yenile</button> <a href="./?onar">Uygulamayı onar</a></p>'}},9000)</script>
 <div id="pop"><button class="x" id="px">Kapat</button><div id="pc"></div></div>
 <script>window.SIYER_HAZIR=1;
-var M=document.getElementById('m'),OL=[],YR={},acik='',HV='8';
+var M=document.getElementById('m'),OL=[],YR={},acik='',HV='9';
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
 function getJ(u){return fetch(u+'?v='+HV,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()})}
 function pop(h){document.getElementById('pc').innerHTML=h;document.getElementById('pop').classList.add('on')}
 document.getElementById('px').onclick=function(){document.getElementById('pop').classList.remove('on')};
-function sek(w){document.getElementById('sB').classList.toggle('on',w==='B');document.getElementById('sH').classList.toggle('on',w==='H')}
+function sek(w){document.getElementById('sB').classList.toggle('on',w==='B');document.getElementById('sH').classList.toggle('on',w==='H');document.getElementById('sS').classList.toggle('on',w==='S')}
 var OK='mihrab.siyerOkundu';function okunan(){try{return JSON.parse(localStorage.getItem(OK)||'[]')}catch(e){return []}}
 function okDegis(id){var L=okunan(),i=L.indexOf(id);if(i>=0)L.splice(i,1);else L.push(id);try{localStorage.setItem(OK,JSON.stringify(L))}catch(e){}return i<0}
 function gl(p){return esc(p).replace(/\{([^|{}]+)\|([^{}]+)\}/g,function(_,w,a){return '<span class="gl" data-m="'+a+'" style="border-bottom:1.5px dotted #8a6a2c;cursor:pointer">'+w+'</span>'})}
@@ -136,10 +136,34 @@ function oku(t,bt){if(!('speechSynthesis' in window)){pop('<p>Bu cihazda sesli o
   var parca=t.match(/[^.!?…]+[.!?…]*/g)||[t],j=0;okuyan=bt;bt.textContent='Durdur';
   (function sira(){if(okuyan!==bt||j>=parca.length){if(okuyan===bt){okuyan=null;bt.textContent='Dinle'}return}var u=new SpeechSynthesisUtterance(parca[j++]);u.lang='tr-TR';u.rate=.95;if(e)u.voice=e;else if(V[0]){u.voice=V[0];u.pitch=.8}u.onend=sira;u.onerror=sira;ss.speak(u)})()}
 window.addEventListener('error',function(){try{if(!document.getElementById('hataBar')){var d=document.createElement('div');d.id='hataBar';d.style.cssText='position:fixed;left:10px;right:10px;top:10px;z-index:30;background:#7a1f2b;color:#fff;border-radius:14px;padding:10px 12px;font:14px system-ui';d.innerHTML='Bir şey ters gitti. <button onclick="location.reload()" style="border:0;border-radius:10px;padding:5px 10px;margin-left:6px">Yenile</button> <button onclick="this.parentNode.remove()" style="border:0;border-radius:10px;padding:5px 10px">Kapat</button>';document.body.appendChild(d)}}catch(x){}});
-document.getElementById('sB').onclick=function(){liste()};document.getElementById('sH').onclick=function(){harita()};
+
+/* ===== Sahâbe kartları ve şecere ===== */
+var SH=null;function shYukle(f){if(SH)return f();M.innerHTML='<p class="not">Yükleniyor…</p>';getJ('data/siyer/sahabe.json').then(function(d){SH=d;f()}).catch(function(){M.innerHTML='<p class="not">Sahâbe verisi yüklenemedi.</p>'})}
+function sahabe(){sek('S');shYukle(function(){document.getElementById('ttl').textContent='Sahâbe';var g='',h='<div class="not" style="margin-bottom:8px"><b>'+SH.sahabe.length+' sahâbî</b> · Her kartta nesep, hayatı, kitaptaki bölümleri ve hadis bağlantıları.<br><button id="scB" style="margin-top:8px;border:0;border-radius:12px;padding:8px 14px;font:600 14px system-ui;background:#1f5b6e;color:#fff">Kureyş şeceresi</button></div>';
+  SH.sahabe.forEach(function(x,i){if(x.grup!==g){g=x.grup;h+='<h3 style="margin:16px 4px 6px;font:600 15px system-ui;color:#1f5b6e">'+esc(g)+'</h3>'}h+='<div class="lst" data-s="'+i+'"><div class="no">'+esc(x.ad.charAt(0))+'</div><div class="t"><b>'+esc(x.ad)+'</b><small>'+esc(x.lakap||x.hayat)+'</small></div><div class="a ar">'+esc(x.ar)+'</div></div>'});
+  M.innerHTML=h;document.getElementById('scB').onclick=secere;[].forEach.call(M.querySelectorAll('[data-s]'),function(d){d.onclick=function(){sKart(+d.getAttribute('data-s'))}});history.replaceState(null,'','#s');scrollTo(0,0)})}
+function sKart(i){sek('S');shYukle(function(){var x=SH.sahabe[i];if(!x)return sahabe();document.getElementById('ttl').textContent=x.ad;
+  var h='<div class="kart"><small style="color:#8a6a2c;font-weight:600">'+esc(x.grup)+'</small><h2 style="margin:2px 0;font:600 22px system-ui">'+esc(x.ad)+'</h2><div class="ar" style="font-size:28px;color:#1f5b6e">'+esc(x.ar)+'</div>'+(x.lakap?'<p style="margin:2px 0 6px;color:#6d7a72"><b>Lakabı:</b> '+esc(x.lakap)+'</p>':'')+
+  '<div class="pnl"><p><b>Nesebi:</b> '+esc(x.nesep)+'</p><p style="margin:0"><b>Hayatı:</b> '+esc(x.hayat)+'</p></div>'+
+  x.ozet.map(function(p){return '<p style="font-family:Lora,Georgia,serif;font-size:17px;line-height:1.75">'+esc(p)+'</p>'}).join('')+
+  '<div class="pnl"><h3>Siyer kitabında</h3>'+x.bolum.map(function(b){return '<a href="#b='+(b[0]<10?'0':'')+b[0]+'" class="sbB" style="display:block;padding:6px 0;color:#1f5b6e;text-decoration:none">Bölüm '+b[0]+' · '+esc(b[1])+' ›</a>'}).join('')+'</div>'+
+  '<div class="pnl"><h3>Hadislerde</h3>'+x.hadis.map(function(a){return '<a href="'+a[1]+'" style="display:block;padding:6px 0;color:#8a6a2c;text-decoration:none">'+esc(a[0])+' › Arapça metni aç</a>'}).join('')+'</div>'+
+  '<div class="btns" style="margin-top:12px"><button id="sDn">Dinle</button><button id="sSc">Şecerede gör</button>'+(i>0?'<button id="sOn">‹ '+esc(SH.sahabe[i-1].ad)+'</button>':'')+'<button id="sLs">Liste</button>'+(i<SH.sahabe.length-1?'<button id="sSn">'+esc(SH.sahabe[i+1].ad)+' ›</button>':'')+'</div></div>';
+  M.innerHTML=h;scrollTo(0,0);history.replaceState(null,'','#s='+x.id);
+  [].forEach.call(M.querySelectorAll('.sbB'),function(a){a.onclick=function(e){e.preventDefault();var n=a.getAttribute('href').slice(3);for(var j=0;j<KT.bolum.length;j++)if(KT.bolum[j].n===n)return bolum(j)}});
+  document.getElementById('sDn').onclick=function(){oku(x.ad+'. '+x.ozet.join(' '),this)};document.getElementById('sSc').onclick=function(){secere(x.id)};document.getElementById('sLs').onclick=sahabe;
+  if(document.getElementById('sOn'))document.getElementById('sOn').onclick=function(){sKart(i-1)};if(document.getElementById('sSn'))document.getElementById('sSn').onclick=function(){sKart(i+1)}})}
+function secere(vurgu){sek('S');shYukle(function(){document.getElementById('ttl').textContent='Kureyş şeceresi';var ix={};SH.sahabe.forEach(function(x,i){ix[x.id]=i});
+  function dal(d,der){var v=d[2]&&d[2]===vurgu,c=d[2]?'#1f5b6e':(/Muhammed/.test(d[0])?'#8a6a2c':'#33403a');
+    var h='<div style="margin-left:'+(der?9:0)+'px;border-left:'+(der?'2px solid #c9d8dc':'0')+';padding-left:'+(der?8:0)+'px"><div'+(d[2]?' data-s="'+ix[d[2]]+'"':'')+' style="padding:5px 8px;margin:3px 0;border-radius:10px;display:inline-block;'+(v?'background:#1f5b6e;color:#fff':'background:'+(d[2]?'#ecf5f8':'transparent')+';color:'+c)+';font-weight:'+(d[2]||/Muhammed/.test(d[0])?600:400)+';cursor:'+(d[2]?'pointer':'default')+'"'+(v?' id="sVr"':'')+'>'+esc(d[0])+(d[1]?' <small style="opacity:.75;font-weight:400">· '+esc(d[1])+'</small>':'')+'</div>';
+    d[3].forEach(function(c){h+=dal(c,1)});return h+'</div>'}
+  M.innerHTML='<div class="not" style="margin-bottom:8px">Peygamber ve önde gelen sahâbîlerin Kureyş içindeki yerleri. Mavi isimlere dokununca sahâbî kartı açılır. Ara kuşaklar kısaltılmıştır.</div><div class="kart" style="overflow-x:auto;font-size:15px;line-height:1.4">'+dal(SH.secere,0)+'</div><div class="btns"><button id="sLs">Sahâbe listesi</button></div>';
+  [].forEach.call(M.querySelectorAll('[data-s]'),function(d){d.onclick=function(){sKart(+d.getAttribute('data-s'))}});document.getElementById('sLs').onclick=sahabe;history.replaceState(null,'','#secere');
+  var e=document.getElementById('sVr');if(e)setTimeout(function(){e.scrollIntoView({block:'center'})},50);else scrollTo(0,0)})}
+document.getElementById('sB').onclick=function(){liste()};document.getElementById('sS').onclick=function(){sahabe()};document.getElementById('sH').onclick=function(){harita()};
 var FK={};
 Promise.all([getJ('data/siyer/kitap.json'),getJ('data/siyer/olaylar.json'),getJ('data/siyer/yerler.json'),getJ('data/fikih/meseleler.json').catch(function(){return []})]).then(function(a){KT=a[0];OL=a[1];YR=a[2];OL.forEach(function(o){OI[o.id]=o});a[3].forEach(function(x){FK[x.id]=x.baslik});var hs=location.hash,m,i;
   if((m=/^#b=(\w+)/.exec(hs))){for(i=0;i<KT.bolum.length;i++)if(KT.bolum[i].n===m[1])return bolum(i)}
   if((m=/^#o=([a-z]+)/.exec(hs))){for(i=0;i<KT.bolum.length;i++)if(KT.bolum[i].olay===m[1])return bolum(i);liste();return}
-  if((m=/^#h(?:=([a-z]+))?/.exec(hs)))return harita(m[1]);liste()}).catch(function(){M.innerHTML='<p class="not">Veri yüklenemedi. İnternet bağlantınızı kontrol edip sayfayı yenileyin.</p>'});
+  if((m=/^#h(?:=([a-z]+))?/.exec(hs)))return harita(m[1]);if(hs==='#secere')return secere();if((m=/^#s(?:=([a-z]+))?$/.exec(hs))){if(m[1]){var ii=-1;return shYukle(function(){SH.sahabe.forEach(function(x,j){if(x.id===m[1])ii=j});ii>=0?sKart(ii):sahabe()})}return sahabe()}liste()}).catch(function(){M.innerHTML='<p class="not">Veri yüklenemedi. İnternet bağlantınızı kontrol edip sayfayı yenileyin.</p>'});
 </script></body></html>
