@@ -1,13 +1,16 @@
 /* el-Mihrâb service worker
-   - Uygulama kabuğu: önce ağ, yoksa saklanan kopya
-   - Kur'an, meal, tefsir, kıraat servisleri ve yazı tipleri: önce ağ, internet yoksa daha önce okunan kopya */
-const V='mihrab-v112', DATA='mihrab-data-v1';
+   - Uygulama kabuğu: önce telefondaki kopya (hemen açılır), arkada yenisi indirilir
+   - Kur'an, meal, tefsir, kıraat servisleri: önce ağ (8 sn), olmazsa daha önce okunan kopya, o da yoksa bir kez daha dener */
+const V='mihrab-v113', DATA='mihrab-data-v1';
 const SHELL=['./','./index.html','./medrese.html','./elifba.html','./medrese.js','./kelime.js','./kalkan.js','./hadis.html','./hadis-arama.js','./fikih.html','./siyer.html','./ahlak.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 const API=['api.alquran.cloud','api.quran.com','api.qurancdn.com','api.quranpedia.net','quranenc.com','api.aladhan.com'];
 const FONT=['fonts.googleapis.com','fonts.gstatic.com','api2.quranpedia.net','static.qurancdn.com','verses.quran.foundation'];
-self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()))});
+/* Kurulum: tek bir dosya inmezse bütün kurulum bozulmasın diye dosyalar tek tek saklanır */
+self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>Promise.all(SHELL.map(x=>c.add(new Request(x,{cache:'no-cache'})).catch(()=>{})))).then(()=>self.skipWaiting()))});
+/* Önbellek şişmesin: servis cevapları en çok 1500, yazı tipleri en çok 300 kayıt (en eskiler silinir) */
 async function budama(){try{const c=await caches.open(DATA),ks=await c.keys();const api=ks.filter(k=>API.includes(new URL(k.url).hostname));
-  if(api.length>1500)await Promise.all(api.slice(0,api.length-1200).map(k=>c.delete(k)))}catch(e){}}
+  if(api.length>1500)await Promise.all(api.slice(0,api.length-1200).map(k=>c.delete(k)));
+  const fo=ks.filter(k=>FONT.includes(new URL(k.url).hostname));if(fo.length>300)await Promise.all(fo.slice(0,fo.length-250).map(k=>c.delete(k)))}catch(e){}}
 self.addEventListener('activate',e=>{budama();e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x.startsWith('mihrab-v')&&x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
 function timeout(p,ms){return Promise.race([p,new Promise((_,r)=>setTimeout(()=>r(new Error('timeout')),ms))])}
 self.addEventListener('fetch',e=>{
@@ -26,10 +29,29 @@ self.addEventListener('fetch',e=>{
     e.respondWith(timeout(fetch(req,{cache:'no-cache'}),3500).then(n=>{if(n.ok){const c=n.clone();caches.open(DATA).then(x=>x.put(req,c).catch(()=>{}))}return n}).catch(()=>caches.match(req)));return}
   if(u.origin===location.origin&&u.pathname.includes('/data/')){
     e.respondWith(caches.open(DATA).then(c=>c.match(req).then(r=>{const f=fetch(req).then(n=>{if(n.ok)c.put(req,n.clone()).catch(()=>{});return n}).catch(()=>r);return r||f})));return}
+  /* Uygulama kabuğu (sayfalar, betikler): telefonda kopyası varsa hemen o açılır, yenisi arkada indirilir (bir sonraki açılışta görünür).
+     Kopya yoksa ağ beklenir; yavaş ağda başka sayfa (index.html) verilmez. index.html yedeği yalnız sayfa açılışında ve ağ tamamen yoksa. */
   if(u.origin===location.origin){
-    e.respondWith(timeout(fetch(req,{cache:'no-cache'}),3500).then(r=>{const c=r.clone();caches.open(V).then(x=>x.put(req,c).catch(()=>{}));return r}).catch(()=>caches.match(req,{ignoreSearch:true}).then(r=>r||caches.match('./index.html'))));return}
+    e.respondWith(kabuk(e,req));return}
   if(FONT.includes(u.hostname)){
-    e.respondWith(caches.match(req).then(r=>r||timeout(fetch(req),5000).then(n=>{if(n.ok||n.type==='opaque'){const c=n.clone();caches.open(DATA).then(x=>x.put(req,c).catch(()=>{}))}return n})));return}
+    e.respondWith(caches.match(req).then(r=>r||timeout(fetch(req),20000).then(n=>{if(n.ok||n.type==='opaque'){const c=n.clone();caches.open(DATA).then(x=>x.put(req,c).catch(()=>{}))}return n})));return}
+  /* Dış servisler: 8 sn içinde cevap yoksa ya da sunucu hatası verirse telefondaki kopya; kopya yoksa bir kez daha denenir */
   if(API.includes(u.hostname)){
-    e.respondWith(timeout(fetch(req),9000).then(n=>{if(n.ok){const c=n.clone();caches.open(DATA).then(x=>x.put(req,c).catch(()=>{}))}return n}).catch(err=>caches.match(req).then(r=>{if(r)return r;throw err})));return}
+    e.respondWith(api(req));return}
 });
+async function kabuk(e,req){
+  const c=await caches.open(V),gez=req.mode==='navigate';
+  const r=await c.match(req)||(gez?await c.match(req,{ignoreSearch:true}):null);
+  const f=timeout(fetch(req,{cache:'no-cache'}),r?30000:45000).then(n=>{if(n.ok)c.put(req,n.clone()).catch(()=>{});return n});
+  if(r){e.waitUntil(f.catch(()=>{}));return r}
+  try{return await f}catch(err){
+    const y=await caches.match(req,{ignoreSearch:true})||(gez?await c.match('./index.html'):null);
+    if(y)return y;throw err}
+}
+async function api(req){
+  const c=await caches.open(DATA),kaydet=n=>{if(n.ok)c.put(req,n.clone()).catch(()=>{});return n};
+  const dene=ms=>timeout(fetch(req),ms).then(n=>{if(n.status>=500)throw new Error('sunucu '+n.status);return kaydet(n)});
+  try{return await dene(8000)}catch(e){}
+  const r=await c.match(req);if(r)return r;
+  return dene(12000);
+}

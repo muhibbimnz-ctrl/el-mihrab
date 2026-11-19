@@ -82,4 +82,7 @@
     navigator.storage.persisted().then(function(p){if(p)return true;return navigator.storage.persist()})
       .then(function(){try{W.localStorage.setItem('mihrab.persist','1')}catch(e){}},function(){});
   }}catch(e){}
+
+  /* 6) Sayfadan çıkınca sesli okuma durur (Android'de başka sayfaya geçince ses devam edebiliyordu) */
+  try{W.addEventListener('pagehide',function(){try{if(W.speechSynthesis)W.speechSynthesis.cancel()}catch(e){}})}catch(e){}
 })();

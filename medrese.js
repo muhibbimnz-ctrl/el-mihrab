@@ -434,7 +434,8 @@ function kokSor(){
 /* ---- Emsile kelime kartı ---- */
 function formKart(root, bab, s, r){
   const M = MODEL[root], mood = s.isim ? '' : (s.mood === 'merfû' && (r.si === 6 || r.si === 12)) ? 'mebnî ale’s-sükûn (nûn-ı nisve)' : s.mood === 'merfû' && [2,3,5,8,9,10,11].includes(r.si) ? 'merfû — alâmeti nûnun sübûtu (ef‘âl-i hamse)' : (s.mood === 'mansûb' || s.mood === 'meczûm') && [2,3,5,8,9,10,11].includes(r.si) ? `${s.mood} — alâmeti nûnun hazfı (ef‘âl-i hamse)` : s.key.startsWith('tek') || s.key === 'emrT' ? 'mebnî ale’l-feth (nûn-ı tekîd)' : s.mood === 'mebnî' && s.key.startsWith('mazi') ? 'mebnî' : s.mood;
-  const kur = BABS_READY && ROOTS ? (ROOTS[root] ? Object.values(ROOTS[root]).reduce((n, v) => n + v.length, 0) : 0) : null;
+  const kur = ROOTS ? kokSay(root) : null;
+  if(kur === null) kokYukle().then(() => { const el = document.getElementById('kokYer'); if(el) el.outerHTML = kokBtn(root, kokSay(root)) }).catch(() => {});
   sheet(`<div class="fk"><div class="fkw" lang="ar">${r.f}</div>
    <table class="kwt"><tr><th>Kip</th><td>${s.tr} <span class="kar" lang="ar">${s.ar}</span></td></tr>
    ${r.si ? `<tr><th>Sîga</th><td>${SIGA[r.si][0]} <span class="kar" lang="ar">(${SIGA[r.si][1]})</span></td></tr>` : `<tr><th>Şekil</th><td>${r.lbl}</td></tr>`}
@@ -443,7 +444,7 @@ function formKart(root, bab, s, r){
    ${mood ? `<tr><th>İ‘râb / binâ</th><td>${mood}</td></tr>` : ''}
    ${r.t ? `<tr><th>Türkçesi</th><td>${esc(r.t)}</td></tr>` : ''}</table>
    ${s.note ? `<p class="knote">${s.note}</p>` : ''}
-   <div class="kwf">${kur ? `<button class="pill" onclick="kuranKok('${root}')">Kur’an’da bu kök (${kur} yer) ›</button>` : ''}<a class="pill" target="_blank" rel="noopener" href="${bugLink('emsile ' + root + ' ' + s.key + ' ' + (r.si || r.lbl), r.f)}">Hata bildir</a></div>
+   <div class="kwf">${kur === null ? '<span id="kokYer"></span>' : kokBtn(root, kur)}<a class="pill" target="_blank" rel="noopener" href="${bugLink('emsile ' + root + ' ' + s.key + ' ' + (r.si || r.lbl), r.f)}">Hata bildir</a></div>
    </div>`);
 }
 function sheet(html){
@@ -516,11 +517,15 @@ function rapor(){
 }
 
 /* ---- Bâb bul oyunu (Kur'an'dan sâlim fiiller) ---- */
-let BABS = {}, BABS_READY = false, ROOTS = null;
+let BABS = {}, BABS_READY = false, ROOTS = null, ROOTS_P = null;
 fetch('data/morph/babs.json').then(r => r.json()).then(j => { BABS = j; BABS_READY = true }).catch(() => {});
-fetch('data/morph/roots.json').then(r => r.json()).then(j => { ROOTS = j }).catch(() => {});
+/* Kök sözlüğü (≈600 KB) açılışta değil, ilk gerektiğinde indirilir */
+function kokYukle(){ return ROOTS ? Promise.resolve(ROOTS) : (ROOTS_P || (ROOTS_P = fetch('data/morph/roots.json').then(r => { if(!r.ok) throw new Error(r.status); return r.json() }).then(j => (ROOTS = j)).catch(e => { ROOTS_P = null; throw e }))) }
+function kokSay(root){ return ROOTS && ROOTS[root] ? Object.values(ROOTS[root]).reduce((n, v) => n + v.length, 0) : 0 }
+function kokBtn(root, n){ return n ? `<button class="pill" onclick="kuranKok('${root}')">Kur’an’da bu kök (${n} yer) ›</button>` : '' }
 function babHavuz(){ return Object.keys(BABS).filter(k => BABS[k][1] && k.length === 3 && !/[ويأإآءؤئى]/.test(k) && k[1] !== k[2]) }
 function babOyunu(hizli){
+  kokYukle().catch(() => {});
   if(!BABS_READY){ V.innerHTML = bar('Bâb bul', '/') + '<div class="wrap"><p class="lead">Yükleniyor…</p></div>'; setTimeout(() => babOyunu(hizli), 400); return }
   const havuz = babHavuz(); let puan = 0, seri = 0, sayi = 0, bitis = hizli ? Date.now() + 60000 : 0, tm;
   const tur = () => {
@@ -544,7 +549,7 @@ function babOyunu(hizli){
   if(hizli) tm = setInterval(() => { const s = $('#sure'); if(!s) return clearInterval(tm); const k = Math.max(0, Math.ceil((bitis - Date.now()) / 1000)); if(s) s.textContent = k; if(k <= 0){ clearInterval(tm); son() } }, 250);
   tur();
 }
-function kuranKokAc(root){ if(!ROOTS || !ROOTS[root]) return; sheet('<div></div>'); kuranKok(root) }
+function kuranKokAc(root){ kokYukle().then(() => { if(!ROOTS[root]) return; sheet('<div></div>'); kuranKok(root) }).catch(() => {}) }
 
 /* ---- Kur'an i'râb modülü ---- */
 const QCACHE = {};
@@ -588,7 +593,9 @@ const kitapYukle = id => KP[id] || (KP[id] = getJSON(`data/kitap/${id}.json`, j 
 let YDSB = null, MOD = null;
 const ydsYukle = () => YDSB ? Promise.resolve(YDSB) : getJSON('data/yds/banka.json', j => Array.isArray(j.sorular) && j.pasajlar).then(j => (YDSB = j));
 const modYukle = () => MOD ? Promise.resolve(MOD) : getJSON('data/modern/modern.json', j => Array.isArray(j.metinler)).then(j => (MOD = j));
-const YUK = Promise.all([...KITAPLAR.map(id => kitapYukle(id).catch(() => null)), ydsYukle().catch(() => null), modYukle().catch(() => null)]);
+/* Bütün kitaplar + YDS + modern metinler (≈1 MB) açılışta değil, ilk gerektiğinde (tekrar, rapor, harita, günlük soru) indirilir */
+let YUK_P = null;
+const YUK = { then: (a, b) => (YUK_P || (YUK_P = Promise.all([...KITAPLAR.map(id => kitapYukle(id).catch(() => null)), ydsYukle().catch(() => null), modYukle().catch(() => null)]))).then(a, b) };
 const YDS_TIP = {
   kelime: ['Kelime bilgisi', 'Cümlede boş bırakılan yere uygun sözcüğü bulunuz.'],
   gramer: ['Dilbilgisi', 'Cümlede boş bırakılan yere uygun sözcük veya ifadeyi bulunuz.'],
