@@ -15,7 +15,7 @@ for x in TUM:
     x['yol']=[x['yol'][0],YENI.get(x['yol'][1],x['yol'][1])]
     if x['id']=='sirkat': x['yol']=['Cinâyât ve hadler','Kısas ve hadler']
 ALT=[('Tahâret',['Abdest','Abdesti bozan şeyler','Mest üzerine mesh','Gusül ve hayız','Sular ve necasetler','Teyemmüm']),
-('Namaz',['Vakitler ve şartlar','Namazın kılınışı','Vitir, cemaat ve secdeler','Yolcu, cuma ve bayram','Kaza ve hasta namazı','Cenaze']),
+('Namaz',['Vakitler ve şartlar','Ezan ve kamet','Namazın kılınışı','Vitir, cemaat ve secdeler','Yolcu, cuma ve bayram','Kaza ve hasta namazı','İstiskâ ve küsûf','Cenaze']),
 ('Oruç',['Oruç']),('Zekât',['Zekât ve fıtır']),('Hac',['Hac']),('Kurban ve av',['Kurban','Yiyecekler']),
 ('Nikâh ve talâk',['Nikâh','Talâk, iddet ve rada‘']),('Muâmelât',['Alışveriş ve akitler','Selem ve istisnâ','Şirket ve mudârebe','Kira, rehin ve hibe','Borç ve para']),
 ('Cinâyât ve hadler',['Kısas ve hadler']),('Yeminler',['Yemin']),('Ferâiz',['Miras'])]
