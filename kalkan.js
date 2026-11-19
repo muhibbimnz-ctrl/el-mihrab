@@ -83,6 +83,9 @@
       .then(function(){try{W.localStorage.setItem('mihrab.persist','1')}catch(e){}},function(){});
   }}catch(e){}
 
+  /* 7) Uygulamanın bir bölümünü açan kişi, ana sayfaya dönünce tanıtım sayfasına yönlendirilmez */
+  try{if(!/\/(index(\.html)?)?$/.test(location.pathname)&&!/tanitim/.test(location.pathname))W.localStorage.setItem('mihrab.tanitim','1')}catch(e){}
+
   /* 6) Sayfadan çıkınca sesli okuma durur (Android'de başka sayfaya geçince ses devam edebiliyordu) */
   try{W.addEventListener('pagehide',function(){try{if(W.speechSynthesis)W.speechSynthesis.cancel()}catch(e){}})}catch(e){}
 })();

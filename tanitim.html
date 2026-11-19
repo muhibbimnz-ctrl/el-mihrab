@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>el-Mihrâb — Kur'ân-ı Kerîm, Tefsîr ve Medrese</title>
+<meta name="description" content="el-Mihrâb: Kur'ân-ı Kerîm, meâller ve tefsir, namaz vakitleri, medrese usûlüyle sarf ve nahiv, hadis, siyer, fıkıh ve dil dersleri tek uygulamada. Telefonda ve bilgisayarda, internet olmadan da çalışır.">
+<meta name="theme-color" content="#1f5f4f">
+<meta property="og:title" content="el-Mihrâb — Kur'ân-ı Kerîm, Tefsîr ve Medrese">
+<meta property="og:description" content="Kur'an, tefsir, namaz vakitleri, sarf-nahiv, hadis, siyer, fıkıh ve dil dersleri tek uygulamada.">
+<meta property="og:image" content="https://el-mihrab.com/play/one-cikan-gorsel-1024x500.png">
+<meta property="og:url" content="https://el-mihrab.com/tanitim">
+<link rel="canonical" href="https://el-mihrab.com/tanitim">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<script src="kalkan.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f1e3;--kart:#fffaf0;--yazi:#2b2418;--soluk:#6d6250;--yesil:#1f5f4f;--yesil2:#2f7a63;--altin:#a8823a;--cizgi:#e6dcc5}
+@media (prefers-color-scheme:dark){:root{--bg:#15130f;--kart:#1f1c16;--yazi:#efe7d6;--soluk:#a99f8b;--yesil:#3f9c80;--yesil2:#55b394;--altin:#d0a95a;--cizgi:#332e25}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--yazi);font:17px/1.6 "Source Sans 3",system-ui,sans-serif;-webkit-text-size-adjust:100%}
+a{color:inherit}
+.kap{max-width:1080px;margin:0 auto;padding:0 16px}
+header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--cizgi)}
+header .kap{display:flex;align-items:center;gap:10px;height:60px}
+header img{width:36px;height:36px;border-radius:10px}
+header b{font:700 21px/1 "Amiri",serif;color:var(--yesil)}
+header .bos{flex:1}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:14px;padding:12px 20px;font-weight:700;text-decoration:none;border:0;cursor:pointer;font-size:16px}
+.btn.ana{background:var(--yesil);color:#fff}
+.btn.ana:hover{background:var(--yesil2)}
+.btn.ikinci{background:transparent;border:1.5px solid var(--yesil);color:var(--yesil)}
+header .btn{padding:8px 14px;font-size:15px}
+.hero{text-align:center;padding:48px 0 24px}
+.hero .ar{font:700 64px/1.2 "Amiri",serif;color:var(--yesil);margin:0 auto}
+.hero h1{font-size:clamp(26px,5vw,40px);line-height:1.2;margin:8px 0 12px}
+.hero p{color:var(--soluk);max-width:640px;margin:0 auto 24px;font-size:18px}
+.dugmeler{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.notlar{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:18px;color:var(--soluk);font-size:15px}
+h2{font-size:clamp(22px,4vw,30px);text-align:center;margin:56px 0 8px}
+.alt{color:var(--soluk);text-align:center;margin:0 auto 26px;max-width:600px}
+.ozellik{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.oz{background:var(--kart);border:1px solid var(--cizgi);border-radius:20px;padding:20px;text-decoration:none;transition:transform .15s,box-shadow .15s}
+.oz:hover{transform:translateY(-2px);box-shadow:0 10px 24px -16px rgba(0,0,0,.45)}
+.oz .ik{font-size:28px}
+.oz h3{margin:6px 0 4px;font-size:19px;color:var(--yesil)}
+.oz p{margin:0;color:var(--soluk);font-size:15px;line-height:1.5}
+.ekran{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 4px 16px;scrollbar-width:thin}
+.ekran figure{flex:0 0 auto;width:min(240px,62vw);margin:0;scroll-snap-align:center;text-align:center}
+.ekran img{width:100%;height:auto;aspect-ratio:390/780;object-fit:cover;object-position:top;border-radius:22px;border:6px solid #1d1a14;background:#ddd;box-shadow:0 14px 30px -18px rgba(0,0,0,.6)}
+.ekran figcaption{font-size:14px;color:var(--soluk);margin-top:6px}
+@media (min-width:1000px){.ekran{justify-content:center;overflow:visible;flex-wrap:wrap}.ekran figure{width:160px}}
+.son{background:var(--yesil);color:#fff;border-radius:26px;padding:36px 20px;text-align:center;margin:56px 0 24px}
+.son h2{margin:0 0 8px;color:#fff}
+.son p{margin:0 0 20px;opacity:.9}
+.son .btn.ana{background:#fff;color:var(--yesil)}
+.son .btn.ikinci{border-color:#fff;color:#fff}
+footer{text-align:center;color:var(--soluk);font-size:14px;padding:16px 0 40px}
+footer .dua{font:22px/1.6 "Amiri",serif;color:var(--yesil);margin:0}
+footer a{color:var(--soluk)}
+</style>
+</head>
+<body>
+<header><div class="kap">
+  <img src="icon-192.png" alt="" width="36" height="36"><b>el-Mihrâb</b><span class="bos"></span>
+  <a class="btn ana" href="./?uygulama" data-ac>Uygulamayı aç</a>
+</div></header>
+
+<main class="kap">
+  <section class="hero">
+    <p class="ar" lang="ar">المِحْرَاب</p>
+    <h1>Kur'ân-ı Kerîm, tefsîr ve medrese ilimleri tek yerde</h1>
+    <p>Kur'an'ı meâl ve tefsiriyle oku, dinle; namaz vakitlerini takip et; sarf ve nahvi medrese usûlüyle öğren; hadis, siyer, fıkıh ve yabancı dil derslerine aynı uygulamadan ulaş.</p>
+    <div class="dugmeler">
+      <a class="btn ana" href="./?uygulama" data-ac>Tarayıcıda hemen aç</a>
+      <a class="btn ikinci" href="https://play.google.com/store/apps/details?id=app.elmihrab.quran" rel="noopener">Google Play'den indir</a>
+    </div>
+    <div class="notlar"><span>✓ Kayıt gerekmez</span><span>✓ Telefonda ve bilgisayarda</span><span>✓ Açtığın bölümler internetsiz de çalışır</span></div>
+  </section>
+
+  <h2>Neler var?</h2>
+  <p class="alt">Her bölüm doğrudan açılır; birine dokun, uygulama o bölümle başlasın.</p>
+  <div class="ozellik">
+    <a class="oz" href="./?uygulama" data-ac><div class="ik">📖</div><h3>Kur'an ve Tefsir</h3><p>Mushaf, meâller, tefsir, i'râb, belâgat, kıraat ve nüzûl; sesli dinleme ve ezber.</p></a>
+    <a class="oz" href="./?uygulama" data-ac><div class="ik">🕌</div><h3>Namaz vakitleri</h3><p>Bulunduğun yere göre ezan vakitleri ve günlük okuma.</p></a>
+    <a class="oz" href="medrese.html"><div class="ik">🏛️</div><h3>Medrese</h3><p>Emsile, Binâ, Maksûd, İzzî, Avâmil, Ecurrûmiyye, Katru'n-nedâ; Kur'an i'râbı, YDS Arapça ve oyunlar.</p></a>
+    <a class="oz" href="hadis.html"><div class="ik">📜</div><h3>Hadis</h3><p>Kütüb-i Sitte ve diğer kaynaklarda arama, Erbaîn ve hadis hikâyeleri.</p></a>
+    <a class="oz" href="siyer.html"><div class="ik">🌙</div><h3>Siyer-i Nebî</h3><p>72 bölümlük siyer kitabı, harita, sahâbe kartları ve günlük ders planı.</p></a>
+    <a class="oz" href="fikih.html"><div class="ik">⚖️</div><h3>Fıkıh</h3><p>Kudûrî ibareleriyle yüzlerce mesele, bab bab düzenli.</p></a>
+    <a class="oz" href="ahlak.html"><div class="ik">🤲</div><h3>Ahlak</h3><p>Riyâzü's-Sâlihîn düzeninde konular ve günlük muhasebe.</p></a>
+    <a class="oz" href="arapca.html"><div class="ik">🗣️</div><h3>Dil dersleri</h3><p>Arapça, Farsça, İngilizce, Almanca, Fransızca, İspanyolca; sesli ve Türkçe açıklamalı.</p></a>
+  </div>
+
+  <h2>Ekran görüntüleri</h2>
+  <p class="alt">Telefonda böyle görünür; bilgisayarda da aynı içerik geniş ekrana yerleşir.</p>
+  <div class="ekran">
+    <figure><img src="img/tanitim/ana.jpg" alt="Ana sayfa" loading="lazy" width="390" height="780"><figcaption>Ana sayfa</figcaption></figure>
+    <figure><img src="img/tanitim/medrese.jpg" alt="Medrese" loading="lazy" width="390" height="780"><figcaption>Medrese</figcaption></figure>
+    <figure><img src="img/tanitim/siyer.jpg" alt="Siyer-i Nebî" loading="lazy" width="390" height="780"><figcaption>Siyer-i Nebî</figcaption></figure>
+    <figure><img src="img/tanitim/hadis.jpg" alt="Hadis" loading="lazy" width="390" height="780"><figcaption>Hadis</figcaption></figure>
+    <figure><img src="img/tanitim/fikih.jpg" alt="Fıkıh" loading="lazy" width="390" height="780"><figcaption>Fıkıh</figcaption></figure>
+    <figure><img src="img/tanitim/diller.jpg" alt="Dil dersleri" loading="lazy" width="390" height="780"><figcaption>Dil dersleri</figcaption></figure>
+  </div>
+
+  <section class="son">
+    <h2>Hemen başla</h2>
+    <p>Tarayıcıda aç ya da telefonuna yükle. Chrome menüsünden “Ana ekrana ekle” dersen uygulama gibi açılır.</p>
+    <div class="dugmeler">
+      <a class="btn ana" href="./?uygulama" data-ac>Uygulamayı aç</a>
+      <a class="btn ikinci" href="https://play.google.com/store/apps/details?id=app.elmihrab.quran" rel="noopener">Google Play</a>
+    </div>
+  </section>
+</main>
+
+<footer class="kap">
+  <p class="dua" lang="ar">لَا تَنْسَوْنِي مِنْ صَالِحِ دُعَائِكُمْ</p>
+  <p>Beni hayır dualarınızda unutmayın.</p>
+  <p><a href="gizlilik.html">Gizlilik</a> · <a href="./?uygulama" data-ac>Uygulama</a></p>
+</footer>
+<script>
+/* Uygulamaya geçen kişi bir daha tanıtım sayfasına yönlendirilmez */
+document.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('mihrab.tanitim','1')}catch(e){}})});
+</script>
+</body>
+</html>
