@@ -2,6 +2,8 @@
 SIRA=['sindbad','cuha','hamama','kalila','zghassan','zarmanusa','zquraysh','zhajjaj','zandalus','zabbasa','zamin','zeydan','zshajara','hayy','battuta','tuti','gulistan','sohrab','leyla','shams','mantik','masnavi','prince','aesop','crusoe','gulliver','holmes','carol','verne']
 # Uzun romanlar (tools/roman/uzun/<id>/); 150 sayfayı geçince listeye kendiliğinden girer
 UZUN=['selahaddin']
+# Listede gösterilmeyen (sözlüğü ortak havuzda kalan) kitaplar: uzun hâli olanların kısa sürümleri
+GIZLI=['zeydan']
 import importlib.util,os
 def dil(id):
     sp=importlib.util.spec_from_file_location('k',os.path.join(os.path.dirname(os.path.abspath(__file__)),id+'.py'));m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m);return m.KITAP['dil']

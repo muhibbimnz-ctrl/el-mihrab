@@ -37,7 +37,8 @@ for id in [i for l in [kitaplar.SIRA] for i in l if any(i in v for v in DIL.valu
     assert not eks,(id,eks)
     K['bolumler']=[{'b':b,'tr_b':tb,'c':[[a,t] for a,t in ss]} for b,tb,ss in m.B];K['sozluk']=G
     json.dump(K,open(f'data/roman/{id}.json','w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
-    liste.append({k:K[k] for k in ['id','dil','seviye','baslik','tr_baslik','yazar']}|{'bolum':len(m.B)})
+    if id not in getattr(kitaplar,'GIZLI',[]):
+        liste.append({k:K[k] for k in ['id','dil','seviye','baslik','tr_baslik','yazar']}|{'bolum':len(m.B)})
     print(id,len(m.B),'bölüm',len(G),'kelime')
 import uzun as _U
 for _i in getattr(kitaplar,'UZUN',[]):
