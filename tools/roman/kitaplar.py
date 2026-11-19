@@ -1,7 +1,7 @@
 # Romanların sırası (okuma ekranındaki liste bu sırayla çıkar). Yeni kitap: buraya id ekle.
 SIRA=['sindbad','cuha','hamama','kalila','zghassan','zarmanusa','zquraysh','zhajjaj','zandalus','zabbasa','zamin','zeydan','zshajara','hayy','battuta','tuti','gulistan','sohrab','leyla','shams','mantik','masnavi','prince','aesop','crusoe','gulliver','holmes','carol','verne']
 # Uzun romanlar (tools/roman/uzun/<id>/); 150 sayfayı geçince listeye kendiliğinden girer
-UZUN=['selahaddin']
+UZUN=['selahaddin','sharl']
 # Listede gösterilmeyen (sözlüğü ortak havuzda kalan) kitaplar: uzun hâli olanların kısa sürümleri
 GIZLI=['zeydan']
 import importlib.util,os
