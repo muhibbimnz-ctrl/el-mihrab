@@ -1,7 +1,7 @@
-/* el-Mihrâb service worker
+﻿/* el-Mihrâb service worker
    - Uygulama kabuğu: önce telefondaki kopya (hemen açılır), arkada yenisi indirilir
    - Kur'an, meal, tefsir, kıraat servisleri: önce ağ (8 sn), olmazsa daha önce okunan kopya, o da yoksa bir kez daha dener */
-const V='mihrab-v113', DATA='mihrab-data-v1';
+const V='mihrab-v114', DATA='mihrab-data-v1';
 const SHELL=['./','./index.html','./medrese.html','./elifba.html','./medrese.js','./kelime.js','./kalkan.js','./hadis.html','./hadis-arama.js','./fikih.html','./siyer.html','./ahlak.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 const API=['api.alquran.cloud','api.quran.com','api.qurancdn.com','api.quranpedia.net','quranenc.com','api.aladhan.com'];
 const FONT=['fonts.googleapis.com','fonts.gstatic.com','api2.quranpedia.net','static.qurancdn.com','verses.quran.foundation'];

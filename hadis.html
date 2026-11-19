@@ -268,6 +268,11 @@ function araDur(){try{if(ISCI){ISCI.postMessage({tur:'dur'});ISCI.terminate()}}c
 function ara(q,kap){q=(q||'').trim();if(q.length<2){pop('<p>En az iki harf yazın.</p>');return}
   var arap=/[؀-ۿ]/.test(q),W=(arap?anrm(q):tnrm(q)).split(' ').filter(function(w){return w.length>1||arap});if(!W.length)return;
   araDur();var L=araKitaplar(kap).map(kitapBul).filter(Boolean);if(!arap)L=L.filter(function(b){return b.tr});
+  /* Bütün kitaplarda arama ilk seferde ≈24 MB indirir (sonra telefonda kalır): önceden sor */
+  if(L.length>9){var tm=false;try{tm=localStorage.getItem('mihrab.hadisTum')==='1'}catch(e){}
+    if(!tm){var cn=navigator.connection,mob=cn&&(cn.saveData||/cellular|2g|3g/.test((cn.type||'')+(cn.effectiveType||'')));
+      if(!confirm('Bütün kitaplarda ilk arama yaklaşık 24 MB veri indirir (bir kez; sonra internetsiz de çalışır).'+(mob?' Mobil veri kullanıyorsunuz; Wi-Fi önerilir.':'')+' Devam edilsin mi?\n\nVazgeçerseniz yalnız Kütüb-i Sitte\'de arayabilirsiniz.'))return;
+      try{localStorage.setItem('mihrab.hadisTum','1')}catch(e){}}}
   var bulunan=[],gos=0;sek('H');document.getElementById('ttl').textContent='Arama';history.replaceState(null,'','#');
   M.innerHTML='<p class="not">“'+esc(q)+'” aranıyor… <span id="ad"></span><br><button id="adur" style="margin-top:6px;border:0;border-radius:10px;padding:6px 12px;background:#e3eae2;font:600 13px system-ui;cursor:pointer">Durdur</button></p><div id="ar"></div><div class="nav"><button id="akut">‹ Kütüphane</button><button id="am" style="display:none">Daha fazla</button></div>';
   var AR=document.getElementById('ar'),AD=document.getElementById('ad');
