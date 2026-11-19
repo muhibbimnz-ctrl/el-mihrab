@@ -107,11 +107,11 @@ function kitapBul(k){for(var i=0;i<KT.length;i++)if(KT[i].k===k){if(!KT[i].src)K
 function kutuphane(){sek('H');document.getElementById('ttl').textContent='Hadis Dirâsesi';
   var h='<div class="lst" data-k="erbain"><div class="no" style="border-color:#2f5d4e;color:#2f5d4e">٤٠</div><div class="t"><b>Kırk Hadis — İmam Nevevî</b><small>el-Mihrâb dirâsesi: şerh, sened, tahrîc, fıkıh, usûl</small></div></div>';
   var kay=kayitlar();if(kay.length)h+='<div class="lst" data-k="_kayit"><div class="no" style="border-color:#b23a48;color:#b23a48">♥</div><div class="t"><b>Kaydettiklerim</b><small>'+kay.length+' hadis</small></div></div>';
-  var GS=['Kütüb-i sitte','Kütüb-i tis‘a','Diğer','Derlemeler','Ahlak ve şemâil','Kırk hadis'],SR=KT.slice().sort(function(a,b){return GS.indexOf(a.grup)-GS.indexOf(b.grup)});
+  var GS=['Kütüb-i sitte','Kütüb-i tis‘a','Diğer','Sahihler','Sünenler','Müsnedler','Musannefler','Mu‘cemler','Derlemeler','Ahlak ve şemâil','Kırk hadis'],SR=KT.slice().sort(function(a,b){return GS.indexOf(a.grup)-GS.indexOf(b.grup)});
   var gr='';SR.forEach(function(b){if(b.grup!==gr){gr=b.grup;h+='<h2 style="font-size:15px;margin:16px 4px 4px;color:#6d7a72">'+esc(gr)+'</h2>'}
-    h+='<div class="lst" data-k="'+b.k+'"><div class="no">'+b.b.length+'</div><div class="t"><b>'+esc(b.ad)+'</b><small>'+esc(b.muellif)+' · '+b.adet+' hadis'+(b.tr?' · Türkçe':' · Arapça + İngilizce')+'</small></div><div class="a ar">'+esc(b.ar)+'</div></div>'});
-  h+='<p class="not">Kitaplar açık kaynaklı hadis veri tabanlarından (hadith-api, hadith-json) anında yüklenir. Bölüm açıldıkça indirilir.</p>';
-  M.innerHTML=h;[].forEach.call(M.querySelectorAll('.lst'),function(d){d.onclick=function(){var k=d.getAttribute('data-k');if(k==='erbain')liste();else if(k==='_kayit')kayitListe();else kitap(k)}});
+    h+='<div class="lst" data-k="'+b.k+'"><div class="no">'+b.b.length+'</div><div class="t"><b>'+esc(b.ad)+'</b><small>'+esc(b.muellif)+' · '+b.adet+' hadis'+(b.tr?' · Türkçe':b.src==='yerel'?' · Arapça':' · Arapça + İngilizce')+'</small></div><div class="a ar">'+esc(b.ar)+'</div></div>'});
+  h+='<div class="lst" data-k="_ses"><div class="no">♪</div><div class="t"><b>Okuyucu sesi</b><small>Dinle kutucuğu için erkek ses seçimi</small></div></div>';h+='<p class="not">Kitaplar açık kaynaklı hadis veri tabanlarından (hadith-api, hadith-json, Open-Hadith-Data, OpenITI) anında yüklenir. Bölüm açıldıkça indirilir.</p>';
+  M.innerHTML=h;[].forEach.call(M.querySelectorAll('.lst'),function(d){d.onclick=function(){var k=d.getAttribute('data-k');if(k==='erbain')liste();else if(k==='_kayit')kayitListe();else if(k==='_ses')sesAyar();else kitap(k)}});
   history.replaceState(null,'','#');scrollTo(0,0)}
 function kitap(k){var b=kitapBul(k);if(!b)return kutuphane();document.getElementById('ttl').textContent=b.ad;
   var h='<p class="not"><b>'+esc(b.ad)+'</b> <span class="ar" style="font-size:18px">'+esc(b.ar)+'</span><br>'+esc(b.muellif)+' · '+b.adet+' hadis</p>'+
@@ -133,7 +133,7 @@ function trTemiz(t){t=(t||'').replace(/[A-ZÇĞİÖŞÜ0-9’'\-,\.\(\) ]*BURAYA
     if(p.k==='serh')o.serh+=(o.serh?'\n\n':'')+'**'+p.b.charAt(0)+p.b.slice(1).toLocaleLowerCase('tr')+':** '+par;else if(p.k==='fikh')o.fikh+=(o.fikh?'\n\n':'')+par;else o.tah+=(o.tah?' ':'')+par});
   return o}
 function hrk(w){return w.split('').join('[\\u064B-\\u0652\\u0670\\u0640]*')}
-var RXS=new RegExp('('+['صلى الله عليه وسلم','النبي','رسول الله'].map(hrk).join('|')+')'),RXB=new RegExp('\\s*(?:'+['حدثنا','حدثني','أخبرنا','أخبرني','أنبأنا','حدثه','سمعت','سمع','عن','أن','أنه','قال','قالت','يقول','يعني','و'].map(function(w){return hrk(w)+'[\\u064B-\\u0652\\u0670\\u0640]*(?=\\s)'}).join('|')+')\\s*','g');
+var RXS=new RegExp('('+['صلى الله عليه وسلم','النبي','رسول الله'].map(hrk).join('|')+')'),RXB=new RegExp('\\s*(?:'+['حدثنا','حدثني','أخبرنا','أخبرني','أنبأنا','ثنا','نا','أنا','أنبا','ح','حدثه','سمعت','سمع','عن','أن','أنه','قال','قالت','يقول','يعني','و'].map(function(w){return hrk(w)+'[\\u064B-\\u0652\\u0670\\u0640]*(?=\\s)'}).join('|')+')\\s*','g');
 function senedCikar(ar){var m=RXS.exec(ar);if(!m)return null;var isn=ar.slice(0,m.index).replace(/[،,:"«»\.]/g,' ');
   var RZ=new RegExp('\\s'+hrk('رضي')+'.*$');var ps=isn.split(RXB).map(function(x){return (x||'').replace(RZ,'').trim()}).filter(function(x){var y=x.replace(/[\u064B-\u0652\u0670\u0640\s]/g,'');return y.length>2&&!/^رضي/.test(y)&&!/^(الله|عنه|عنها|عنهما)$/.test(y)});
   var u=[];ps.forEach(function(p){if(u[u.length-1]!==p)u.push(p)});return u.length?u:null}
@@ -162,13 +162,13 @@ function apiBagla(kap,b,a,info){var kart=kap.querySelector('#hk'+a.hadithnumber)
     [].forEach.call(kart.querySelectorAll('.btns button'),function(z){z.classList.remove('on')});bt.classList.add('on');acikK=k;var x='';
     if(k==='serh')x='<h3>Şerh</h3>'+info.tr.serh.split('\n\n').map(function(p){return '<p>'+zen(p)+'</p>'}).join('')+'<p style="font-size:13px;color:#6d7a72">Kaynak: açık hadis veri tabanındaki Türkçe şerhli baskı.</p>';
     if(k==='fikh')x='<h3>Fıkhu’l-hadîs</h3>'+info.tr.fikh.split('\n\n').map(function(p){return '<p>'+zen(p)+'</p>'}).join('');
-    if(k==='sened'){var S=senedCikar(info.ar);x=S?'<h3>Sened</h3><div class="zn">'+S.map(function(r,j){return '<div class="h"><i>'+(j?'↓':'•')+'</i><div class="rv" style="cursor:default"><span class="ar">'+esc(r)+'</span></div></div>'}).join('')+'<div class="h"><i>↓</i><div class="rv" style="cursor:default"><span class="ar">رسول الله ﷺ</span></div></div></div><p style="font-size:13px;color:#6d7a72;margin-top:8px">Sened, Arapça metinden otomatik çıkarılmıştır; bazı kelimeler râvî adı sanılabilir.</p>':'<p>Bu rivayette sened yer almıyor (musannif senetsiz nakletmiş).</p>'}
+    if(k==='sened'){var S=senedCikar(info.ar);x=S?'<h3>Sened</h3><div class="zn">'+S.map(function(r,j){return '<div class="h"><i>'+(j?'↓':'•')+'</i><div class="rv" data-tk="'+esc(r)+'"><span class="ar">'+esc(r)+'</span><small>Dokun: Takrîbü’t-Tehzîb’de ara</small></div></div>'}).join('')+'<div class="h"><i>↓</i><div class="rv" style="cursor:default"><span class="ar">رسول الله ﷺ</span></div></div></div><p style="font-size:13px;color:#6d7a72;margin-top:8px">Sened, Arapça metinden otomatik çıkarılmıştır; bazı kelimeler râvî adı sanılabilir.</p>':'<p>Bu rivayette sened yer almıyor (musannif senetsiz nakletmiş).</p>'}
     if(k==='meal'&&b.src!=='fa'){x='<h3>Meâl</h3><p>'+esc(info.tr.m||'—')+'</p>'+(b.tr?'':'<p style="font-size:14px;color:#6d7a72">Bu kitabın Türkçe tercümesi açık kaynaklarda henüz yok; İngilizce verilmiştir.</p>')}
     else if(k==='meal'){pn.innerHTML='<div class="pnl"><h3>Meâl</h3><p>'+esc(info.tr.m||'—')+'</p><h3>English</h3><p class="en">Yükleniyor…</p></div>';
       apiJ('eng-'+b.k+'/'+a.hadithnumber+'.min.json').then(function(r){var e=pn.querySelector('.en');if(e)e.textContent=(r.hadiths&&r.hadiths[0]&&r.hadiths[0].text)||'—'}).catch(function(){var e=pn.querySelector('.en');if(e)e.textContent='Yüklenemedi.'});return}
     if(k==='tahric'&&b.src!=='fa'){x='<h3>Kaynak</h3><p>'+esc(info.etiket)+'</p>'+(b.kaynak?'<p style="font-size:13px;color:#6d7a72">Veri: '+esc(b.kaynak)+'</p>':'<p style="font-size:14px;color:#6d7a72">Arapça metnin sonundaki tahrîc ve hüküm ibareleri (أخرجه، صححه…) musannifin kendi notlarıdır.</p>')}
     else if(k==='tahric'){x='<h3>Kaynak</h3><p>'+esc(b.ad)+', hadis no '+a.hadithnumber+(a.arabicnumber&&a.arabicnumber!==a.hadithnumber?' (Arapça baskı no '+a.arabicnumber+')':'')+(a.reference?' · '+a.reference.book+'. kitap, '+a.reference.hadith+'. hadis':'')+'</p>'+(info.tr.tah?'<h3>Tekrar ve diğer tahrîc</h3><p>'+esc(info.tr.tah)+'</p>':'<p style="color:#6d7a72">Bu kaynakta ek tahrîc notu yok.</p>')}
-    pn.innerHTML='<div class="pnl">'+x+'</div>'}})}
+    pn.innerHTML='<div class="pnl">'+x+'</div>';[].forEach.call(pn.querySelectorAll('[data-tk]'),function(d){d.onclick=function(){takribAra(d.getAttribute('data-tk'))}})}})}
 function bolum(k,s){var b=kitapBul(k),sec=null;b.b.forEach(function(z){if(z[0]===s)sec=z});if(!sec)return kitap(k);if(b.src==='hj')return hjBolum(b,sec);if(b.src==='yerel')return yerelBolum(b,sec,0);
   document.getElementById('ttl').textContent=sec[1];M.innerHTML='<p class="not">'+esc(b.ad)+' · '+esc(sec[1])+' yükleniyor…</p>';history.replaceState(null,'','#k='+k+'&b='+s);scrollTo(0,0);
   Promise.all([apiJ('ara-'+k+'/sections/'+s+'.min.json'),apiJ((b.tr?'tur-':'eng-')+k+'/sections/'+s+'.min.json').catch(function(){return {hadiths:[]}})]).then(function(r){
@@ -203,10 +203,10 @@ function hjBolum(b,sec){document.getElementById('ttl').textContent=sec[1];M.inne
   }).catch(function(){M.innerHTML='<p class="not">Bölüm yüklenemedi. İnternet bağlantınızı kontrol edin.</p><div class="nav"><button onclick="kitap(\''+b.k+'\')">‹ Bölümler</button></div>'})}
 
 function yerelBolum(b,sec,hedef){document.getElementById('ttl').textContent=b.ad;M.innerHTML='<p class="not">Yükleniyor…</p>';history.replaceState(null,'','#k='+b.k+'&b='+sec[0]);scrollTo(0,0);
-  getJ('data/hadis/'+b.k+'/'+sec[0]+'.json').then(function(A){var bas=0,kac=12;if(hedef){A.forEach(function(x,i){if(x[0]===hedef)bas=i})}
+  getJ('data/hadis/'+b.k+'/'+sec[0]+'.json').then(function(D){var C=D.c||[],A=D.h||D,bas=0,kac=12;if(hedef){A.forEach(function(x,i){if(x[0]===hedef)bas=i})}
     M.innerHTML='<p class="not"><b>'+esc(b.ad)+'</b> · '+esc(sec[1])+'<br><small>Veri: '+esc(b.kaynak||'')+'</small></p><div id="ak"></div><div class="nav"><button id="ub">‹ Bölümler</button><button id="dm">Daha fazla</button></div>';
     var ak=document.getElementById('ak');
-    function ekle(){var son=Math.min(A.length,bas+kac),parca='',ls=[];for(var i=bas;i<son;i++){var a={hadithnumber:A[i][0],text:A[i][1],grades:[]},o=apiKart(b,a,null,sec[1]);o.link='#k='+b.k+'&b='+sec[0];parca+=kartHtml(o);ls.push([a,o])}
+    function ekle(){var son=Math.min(A.length,bas+kac),parca='',ls=[];for(var i=bas;i<son;i++){var a={hadithnumber:A[i][0],text:A[i][1],grades:[]},o=apiKart(b,a,null,A[i].length>2&&C[A[i][2]]?C[A[i][2]].slice(0,70):sec[1]);o.link='#k='+b.k+'&b='+sec[0];parca+=kartHtml(o);ls.push([a,o])}
       ak.insertAdjacentHTML('beforeend',parca);ls.forEach(function(z){apiBagla(ak,b,z[0],z[1])});bas=son;document.getElementById('dm').style.display=bas<A.length?'':'none'}
     ekle();document.getElementById('dm').onclick=ekle;document.getElementById('ub').onclick=function(){kitap(b.k)}}).catch(function(){M.innerHTML='<p class="not">Yüklenemedi.</p>'})}
 var KK='mihrab.hadisKayit';
@@ -225,6 +225,31 @@ function oku(t,bt){if(!('speechSynthesis' in window)){pop('<p>Bu cihazda sesli o
   if(okuyan===bt){ss.cancel();okuyan=null;bt.textContent='Dinle';return}ss.cancel();if(okuyan)okuyan.textContent='Dinle';
   var u=new SpeechSynthesisUtterance(t.replace(/[‏‎]/g,''));u.lang='ar-SA';u.rate=.85;var v=ss.getVoices().filter(function(x){return /^ar/i.test(x.lang)})[0];if(v)u.voice=v;else{pop('<p>Cihazınızda Arapça ses bulunamadı; varsayılan sesle okunacak.</p>')}
   u.onend=function(){if(okuyan===bt){okuyan=null;bt.textContent='Dinle'}};okuyan=bt;bt.textContent='Durdur';ss.speak(u)}
+
+/* ===== Takrîbü't-Tehzîb (İbn Hacer) ile râvî arama ===== */
+var TK=null;
+function nrm(t){return (t||'').replace(/[ً-ْٰـ]/g,'').replace(/[أإآ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/[^ء-ي\s]/g,' ').replace(/\s+/g,' ').trim()}
+function takribAra(ad){pop('<p>Takrîbü’t-Tehzîb’de aranıyor…</p>');
+  (TK?Promise.resolve(TK):getJ('data/hadis/takrib.json').then(function(d){TK=d.map(function(x){return [x[0],x[1],' '+nrm(x[1]).split(' ').slice(0,14).join(' ')+' ']});return TK})).then(function(T){
+    var tk=nrm(ad).split(' ').filter(function(w){return w&&['بن','ابن','بنت','ابو','ابي','ابا','ام'].indexOf(w)<0}).map(function(w){return w.replace(/^ال/,'')}).filter(function(w){return w.length>1});
+    if(!tk.length){pop('<p>Bu ad için arama yapılamadı.</p>');return}
+    var R=[];T.forEach(function(x){var sk=0,ok=true;tk.forEach(function(w){var i=x[2].indexOf(w);if(i<0)ok=false;else sk+=i});if(ok)R.push([sk,x])});
+    R.sort(function(a,b){return a[0]-b[0]});R=R.slice(0,5);
+    pop('<h3>Râvî: <span class="ar">'+esc(ad)+'</span></h3>'+(R.length?R.map(function(r){return '<div class="nev" style="margin:8px 0"><div class="ar" style="font-size:19px;line-height:1.8">'+esc(r[1][1])+'</div><small style="color:#6d7a72">Takrîb no '+r[1][0]+'</small></div>'}).join('')+'<p style="font-size:13px;color:#6d7a72">Aynı adı taşıyan farklı râvîler olabilir; tabaka ve vefat yılına göre doğru olanı seçin. Kaynak: İbn Hacer, Takrîbü’t-Tehzîb (OpenITI).</p>':'<p>Takrîb’de bu adla eşleşen kayıt bulunamadı (sahâbî ya da musannif olabilir).</p>'))
+  }).catch(function(){pop('<p>Takrîb yüklenemedi.</p>')})}
+/* ===== Sesli okuma: erkek ses tercihi ===== */
+var SESK='mihrab.hadisSes';
+function arSesler(){return ('speechSynthesis' in window)?speechSynthesis.getVoices().filter(function(v){return /^ar/i.test(v.lang)}):[]}
+function erkekMi(v){return /male(?!.*female)|erkek|hamed|naayf|maged|tarik|shakir|fahed|omar|hamdan|bassel|moaz|taim|zayd|ali\b|ard|are\b|-ard-|-are-/i.test(v.name+' '+v.voiceURI)&&!/female|zariyah|salma|hoda|amina|laila|mariam|layla|fatima|noura|amal|sana|shakira|rana|iman/i.test(v.name)}
+function sesSec(){var L=arSesler(),k='';try{k=localStorage.getItem(SESK)||''}catch(e){}var v=L.filter(function(x){return x.voiceURI===k})[0];if(v)return v;return L.filter(erkekMi)[0]||null}
+function sesAyar(){var L=arSesler(),k='';try{k=localStorage.getItem(SESK)||''}catch(e){}var oto=sesSec();
+  pop('<h3>Okuyucu sesi</h3>'+(L.length?'<p>Cihazınızdaki Arapça sesler:</p>'+L.map(function(v){return '<label style="display:block;padding:6px 0"><input type="radio" name="ss" value="'+esc(v.voiceURI)+'"'+((k?v.voiceURI===k:oto&&v.voiceURI===oto.voiceURI)?' checked':'')+'> '+esc(v.name)+(erkekMi(v)?' · erkek':'')+'</label>'}).join('')+'<p style="font-size:13px;color:#6d7a72">Erkek ses listede yoksa telefonun Ayarlar › Metin okuma çıkışı › Google › Arapça bölümünden erkek sesi (ör. “Ses II/IV”) indirip burada seçebilirsiniz. Erkek ses bulunamazsa ses tonu kalınlaştırılarak okunur.</p>':'<p>Cihazınızda Arapça ses yok. Ayarlar › Metin okuma çıkışı bölümünden Arapça ses indirin.</p>'));
+  [].forEach.call(document.querySelectorAll('#pc input[name=ss]'),function(r){r.onchange=function(){try{localStorage.setItem(SESK,r.value)}catch(e){}}})}
+if('speechSynthesis' in window)speechSynthesis.onvoiceschanged=function(){};
+oku=function(t,bt){if(!('speechSynthesis' in window)){pop('<p>Bu cihazda sesli okuma yok.</p>');return}var ss=speechSynthesis;
+  if(okuyan===bt){ss.cancel();okuyan=null;bt.textContent='Dinle';return}ss.cancel();if(okuyan)okuyan.textContent='Dinle';
+  var u=new SpeechSynthesisUtterance(t.replace(/[‏‎]/g,''));u.lang='ar-SA';u.rate=.82;var v=sesSec(),el='';try{el=localStorage.getItem(SESK)||''}catch(e){}if(v){u.voice=v;u.pitch=(el||erkekMi(v))?1:.7}else u.pitch=.7;
+  u.onend=function(){if(okuyan===bt){okuyan=null;bt.textContent='Dinle'}};okuyan=bt;bt.textContent='Durdur';ss.speak(u)};
 document.getElementById('sH').onclick=function(){kutuphane()};document.getElementById('sU').onclick=function(){usul(0)};
 Promise.all([getJ('data/hadis/erbain.json'),getJ('data/hadis/bais.json'),getJ('data/hadis/kutub.json')]).then(function(a){E=a[0];B=a[1];KT=a[2];
   var hs=location.hash,m;if((m=/^#h=(\d+)/.exec(hs))){var n=+m[1];for(var i=0;i<E.h.length;i++)if(E.h[i].n===n){hadis(i);return}}
