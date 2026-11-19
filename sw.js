@@ -1,4 +1,4 @@
-﻿/* el-Mihrâb service worker
+/* el-Mihrâb service worker
    - Uygulama kabuğu: önce telefondaki kopya (hemen açılır), arkada yenisi indirilir
    - Kur'an, meal, tefsir, kıraat servisleri: önce ağ (8 sn), olmazsa daha önce okunan kopya, o da yoksa bir kez daha dener */
 const V='mihrab-v114', DATA='mihrab-data-v1';
