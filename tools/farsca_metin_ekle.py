@@ -2,8 +2,13 @@
 # programlarına ders olarak ekler. Tekrar çalıştırılabilir.
 import json,re,glob,importlib.util,random
 F=[]
+def _z(x):
+    # '+' yarım boşluk (ZWNJ) yazımı
+    if isinstance(x,str): return x.replace('+','\u200c')
+    if isinstance(x,(list,tuple)): return type(x)(_z(i) for i in x)
+    return x
 for p in sorted(glob.glob('tools/fa_metinler*.py')):
-    sp=importlib.util.spec_from_file_location('m',p);m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m);F+=m.M
+    sp=importlib.util.spec_from_file_location('m',p);m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m);F+=_z(m.M)
 out={'T':[],'A':[],'I':[]}
 for x in F:
     prog,cat,fa_b,tr_b,sv,P,V,Qs=x
