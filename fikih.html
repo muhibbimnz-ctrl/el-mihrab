@@ -53,7 +53,7 @@ var M=document.getElementById('m'),MS=[],KL=[],KC={},acik='';
 var MZ=[['maliki','Mâlikî'],['safii','Şâfiî'],['hanbeli','Hanbelî']];
 var KAD={kuduri:'Kudûrî',hidaye:'Hidâye',ihtiyar:'el-İhtiyâr',kenz:'Kenz',bidaye:'Bidâyetü’l-Müctehid',risale:'er-Risâle',minhac:'Minhâc',umde:'Umde'};
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
-var HV='4';function getJ(u){return fetch(u+'?v='+HV,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()})}
+var HV='5';function getJ(u){return fetch(u+'?v='+HV,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()})}
 function pop(h){document.getElementById('pc').innerHTML=h;document.getElementById('pop').classList.add('on')}
 document.getElementById('px').onclick=function(){document.getElementById('pop').classList.remove('on')};
 function anrm(t){return (t||'').replace(/[\u064B-\u065F\u0670\u0640]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه')}
@@ -77,6 +77,14 @@ function meseleListe(f){sek('M');document.getElementById('ttl').textContent='Fı
   [].forEach.call(M.querySelectorAll('.blb'),function(d){d.onclick=function(){var v=d.getAttribute('data-b');BL=v==='Tümü'?'':v;meseleListe(document.getElementById('mf').value)}});
   var mf=document.getElementById('mf'),t;mf.oninput=function(){clearTimeout(t);t=setTimeout(function(){meseleListe(mf.value);var e=document.getElementById('mf');e.focus();e.setSelectionRange(e.value.length,e.value.length)},300)};
   if(!f){history.replaceState(null,'','#');scrollTo(0,0)}}
+function ayetListe(k){var p=k.split('-'),L=[];MS.forEach(function(x,i){x.delil.forEach(function(d){if(d[0]==='ayet'&&d[2]==='./#'+k&&L.indexOf(i)<0)L.push(i)})});
+  sek('M');document.getElementById('ttl').textContent='Âyetü’l-ahkâm';
+  var et='';MS.some(function(x){return x.delil.some(function(d){if(d[0]==='ayet'&&d[2]==='./#'+k){et=d[1];return true}})});
+  var h='<div class="kart"><div class="bas"><span>Âyetü’l-ahkâm</span><span>'+L.length+' mesele</span></div><div style="font:600 20px system-ui;margin:2px 0 6px">'+esc(et||('Kur’an '+p[0]+':'+p[1]))+'</div><p style="font-size:15px;line-height:1.6;margin:0 0 10px">Bu âyet aşağıdaki fıkıh meselelerinde delil olarak kullanılmıştır.</p><a href="./#'+esc(k)+'" style="display:inline-block;border:1px solid #c9d3c6;border-radius:12px;padding:6px 12px;text-decoration:none;color:#2f5d4e;font:600 14px system-ui">‹ Âyete dön</a></div>';
+  L.forEach(function(i){var x=MS[i];h+='<div class="lst" data-i="'+i+'"><div class="no">'+(i+1)+'</div><div class="t"><b>'+esc(x.baslik)+'</b><small>'+esc(x.yol.join(' › '))+'</small></div><div class="a ar">'+esc(x.ar)+'</div></div>'});
+  h+='<div class="nav"><button id="ls">Bütün meseleler</button></div>';M.innerHTML=h;
+  [].forEach.call(M.querySelectorAll('.lst'),function(d){d.onclick=function(){mesele(+d.getAttribute('data-i'))}});document.getElementById('ls').onclick=function(){meseleListe()};
+  history.replaceState(null,'','#ay='+k);scrollTo(0,0)}
 function mIdx(id){for(var i=0;i<MS.length;i++)if(MS[i].id===id)return i;return -1}
 function adim(i){var a=AD[i];sek('M');document.getElementById('ttl').textContent='Adım adım';
   var h='<div class="kart"><div class="bas"><span>Adım adım · Hanefî</span><span>'+(i+1)+' / '+AD.length+'</span></div><div style="font:600 21px system-ui;margin:2px 0">'+esc(a.baslik)+'</div><div class="ar" style="font-size:22px;color:#6d7a72;margin-bottom:8px">'+esc(a.ar)+'</div><p style="font-size:15px;line-height:1.6;margin:0 0 10px">'+esc(a.giris)+'</p>'+
@@ -148,6 +156,7 @@ function oku(t,bt){if(!('speechSynthesis' in window)){pop('<p>Bu cihazda sesli o
 window.addEventListener('error',function(){try{if(!document.getElementById('hataBar')){var d=document.createElement('div');d.id='hataBar';d.style.cssText='position:fixed;left:10px;right:10px;top:10px;z-index:30;background:#7a1f2b;color:#fff;border-radius:14px;padding:10px 12px;font:14px system-ui';d.innerHTML='Bir şey ters gitti. <button onclick="location.reload()" style="border:0;border-radius:10px;padding:5px 10px;margin-left:6px">Yenile</button> <button onclick="this.parentNode.remove()" style="border:0;border-radius:10px;padding:5px 10px">Kapat</button>';document.body.appendChild(d)}}catch(x){}});
 document.getElementById('sM').onclick=function(){meseleListe()};document.getElementById('sK').onclick=function(){kutuphane()};
 Promise.all([getJ('data/fikih/meseleler.json'),getJ('data/fikih/liste.json'),getJ('data/fikih/adim.json').catch(function(){return []})]).then(function(a){MS=a[0];KL=a[1];AD=a[2];var hs=location.hash,m;
+  if((m=/^#ay=(\d+-\d+)/.exec(hs)))return ayetListe(m[1]);
   if((m=/^#a=([a-z]+)/.exec(hs))){for(var j=0;j<AD.length;j++)if(AD[j].id===m[1])return adim(j)}
   if((m=/^#m=([a-z]+)/.exec(hs))){for(var i=0;i<MS.length;i++)if(MS[i].id===m[1])return mesele(i)}
   if((m=/^#kt=([a-z]+)(?:&s=(\d+))?/.exec(hs))){return m[2]!=null?kitapBolum(m[1],+m[2]):kitap(m[1])}

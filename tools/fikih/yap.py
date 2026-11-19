@@ -1,18 +1,29 @@
 # data/fikih/meseleler.json: mesele kartları + Arapça metin bağlantıları (kitap bölüm indeksi)
 import json,os,re,importlib.util
 D=os.path.dirname(os.path.abspath(__file__))
-sp=importlib.util.spec_from_file_location('m',os.path.join(D,'meseleler.py'));m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m)
-sp2=importlib.util.spec_from_file_location('m2',os.path.join(D,'meseleler2.py'));m2=importlib.util.module_from_spec(sp2);sp2.loader.exec_module(m2)
-sp3=importlib.util.spec_from_file_location('m3',os.path.join(D,'meseleler3.py'));m3=importlib.util.module_from_spec(sp3);sp3.loader.exec_module(m3)
-sp4=importlib.util.spec_from_file_location('m4',os.path.join(D,'meseleler4.py'));m4=importlib.util.module_from_spec(sp4);sp4.loader.exec_module(m4)
+import glob
+TUM=[]
+for f in sorted(glob.glob(os.path.join(D,'meseleler*.py')),key=lambda f:(len(f),f)):
+    sp=importlib.util.spec_from_file_location(os.path.basename(f)[:-3],f);mm=importlib.util.module_from_spec(sp);sp.loader.exec_module(mm);TUM+=mm.M
 HR=re.compile(r'[ً-ٰٟـ]')
 def an(t):return re.sub('[أإآ]','ا',HR.sub('',t)).replace('ى','ي').replace('ة','ه')
 K={}
 out=[]
-TUM=m.M+m2.M+m3.M+m4.M
 assert len({x['id'] for x in TUM})==len(TUM),'yinelenen id'
-SIRA=['Tahâret','Namaz','Oruç','Zekât','Hac','Kurban ve av','Nikâh ve talâk','Muâmelât','Cinâyât ve hadler','Yeminler','Ferâiz']
-TUM=sorted(TUM,key=lambda x:SIRA.index(x['yol'][0]))
+YENI={'Talâk ve rada‘':'Talâk, iddet ve rada‘','Talâk ve iddet':'Talâk, iddet ve rada‘','Alışveriş ve cezalar':'Alışveriş ve akitler'}
+for x in TUM:
+    x['yol']=[x['yol'][0],YENI.get(x['yol'][1],x['yol'][1])]
+    if x['id']=='sirkat': x['yol']=['Cinâyât ve hadler','Kısas ve hadler']
+ALT=[('Tahâret',['Abdest','Abdesti bozan şeyler','Mest üzerine mesh','Gusül ve hayız','Sular ve necasetler','Teyemmüm']),
+('Namaz',['Vakitler ve şartlar','Namazın kılınışı','Vitir, cemaat ve secdeler','Yolcu, cuma ve bayram','Kaza ve hasta namazı','Cenaze']),
+('Oruç',['Oruç']),('Zekât',['Zekât ve fıtır']),('Hac',['Hac']),('Kurban ve av',['Kurban','Yiyecekler']),
+('Nikâh ve talâk',['Nikâh','Talâk, iddet ve rada‘']),('Muâmelât',['Alışveriş ve akitler','Selem ve istisnâ','Şirket ve mudârebe','Kira, rehin ve hibe','Borç ve para']),
+('Cinâyât ve hadler',['Kısas ve hadler']),('Yeminler',['Yemin']),('Ferâiz',['Miras'])]
+SB=[a for a,_ in ALT];SA={a:l for a,l in ALT}
+for x in TUM:
+    assert x['yol'][1] in SA[x['yol'][0]],x['yol']
+TUM=sorted(enumerate(TUM),key=lambda p:(SB.index(p[1]['yol'][0]),SA[p[1]['yol'][0]].index(p[1]['yol'][1]),p[0]))
+TUM=[x for _,x in TUM]
 for x in TUM:
     mt=[]
     for k,ifade in x['metin']:
@@ -48,4 +59,11 @@ for x in TUM:
         if not tam: print('yaklaşık',x['id'],k,ifade,'->',S[bul][0][:40])
     y=dict(x);y['metin']=mt;out.append(y)
 json.dump(out,open('data/fikih/meseleler.json','w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
-print(len(out),'mesele')
+AY={}
+for x in out:
+    for d in x['delil']:
+        if d[0]=='ayet':
+            k=d[2].split('#')[1]
+            if [x['id'],x['baslik']] not in AY.setdefault(k,[]): AY[k].append([x['id'],x['baslik']])
+json.dump(AY,open('data/fikih/ayet.json','w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
+print(len(out),'mesele,',len(AY),'âyet')
