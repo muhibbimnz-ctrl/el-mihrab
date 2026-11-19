@@ -49,7 +49,7 @@ table.ir{width:100%;border-collapse:collapse}table.ir td{border-bottom:1px solid
 <script>setTimeout(function(){if(!window.SIYER_HAZIR){var m=document.getElementById("m");if(m)m.innerHTML='<p class="not">Sayfa açılamadı. <button onclick="location.reload()" style="border:0;border-radius:10px;padding:6px 12px;font:600 14px system-ui;background:#2f5d4e;color:#fff">Yenile</button> <a href="./?onar">Uygulamayı onar</a></p>'}},9000)</script>
 <div id="pop"><button class="x" id="px">Kapat</button><div id="pc"></div></div>
 <script>window.SIYER_HAZIR=1;
-var M=document.getElementById('m'),OL=[],YR={},acik='',HV='5';
+var M=document.getElementById('m'),OL=[],YR={},acik='',HV='6';
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
 function getJ(u){return fetch(u+'?v='+HV,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()})}
 function pop(h){document.getElementById('pc').innerHTML=h;document.getElementById('pop').classList.add('on')}
