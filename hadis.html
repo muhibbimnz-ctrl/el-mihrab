@@ -61,7 +61,7 @@ function terimAc(k){var n=nevBul(k);if(!n){pop('<p>Bu terim için açıklama haz
 function raviAc(id){var r=E.rical[id];if(!r){pop('<p>Bilgi yok.</p>');return}
   pop('<h3>'+esc(r.ad)+'</h3><div class="ar">'+esc(r.ar)+'</div><p style="color:#6d7a72;margin:2px 0 8px">'+esc(r.v||'')+'</p><p>'+zen(r.not||'')+'</p>')}
 document.addEventListener('click',function(e){var t=e.target.closest('[data-t]');if(t){terimAc(t.getAttribute('data-t'));return}var r=e.target.closest('[data-r]');if(r){raviAc(r.getAttribute('data-r'));return}});
-var PN=[['serh','Şerh'],['meal','Meâller'],['vurud','Vürûd sebebi'],['tahric','Tahrîc'],['sened','Sened'],['fikh','Fıkhu’l-hadîs'],['usul','Usûl'],['dinle','Dinle'],['kaydet','Kaydet'],['kopya','Kopyala']];
+var PN=[['serh','Şerh'],['meal','Meâller'],['vurud','Vürûd sebebi'],['tahric','Tahrîc'],['sened','Sened'],['fikh','Fıkhu’l-hadîs'],['dinle','Dinle'],['kaydet','Kaydet'],['kopya','Kopyala']];
 function liste(){document.getElementById('ttl').textContent='Kırk Hadis';acik='';
   var h='<p class="not"><b>'+esc(E.kitap)+'</b> — '+esc(E.aciklama)+'</p>';
   E.h.forEach(function(x,i){h+='<div class="lst" data-i="'+i+'"><div class="no">'+x.n+'</div><div class="t"><b>'+esc(x.baslik)+'</b><small>'+esc(x.kaynak||'')+'</small></div><div class="a ar">'+esc(x.kisa||'')+'</div></div>'});
@@ -134,7 +134,7 @@ function apiKart(b,a,t,secAd){var tr=trTemiz(t?t.text:''),gr=a.grades&&a.grades.
     '<div class="ar" style="font-size:23px;line-height:2;color:#173a2e;margin:4px 0 8px">'+esc(a.text)+'</div>'+
     (tr.m?'<div class="meal" style="font-style:normal;font-family:system-ui;font-size:16px"><span class="tm">'+esc(uzun?tr.m.slice(0,600)+'…':tr.m)+'</span>'+(uzun?' <button class="dv" style="border:0;background:none;color:#2f5d4e;font:600 14px system-ui;cursor:pointer">devamı</button>':'')+'</div>':'')+
     '<div class="roz">'+Object.keys(roz).map(function(k){return '<span class="'+(k==='sahih'?'d1':k==='hasen'?'d2':'d3')+'" data-t="'+k+'">'+esc(roz[k])+'</span>'}).join('')+'</div>'+
-    '<div class="btns"><button data-k="meal">Meâller</button><button data-k="tahric">Tahrîc</button><button data-k="derece">Derece</button><button data-k="usul">Usûl</button><button data-k="dinle">Dinle</button><button data-k="kaydet">'+(kayitVar(b.k,a.hadithnumber)?'Kaydedildi ♥':'Kaydet')+'</button><button data-k="kopya">Kopyala</button><button data-k="pay">Paylaş</button></div><div class="pn"></div></div>';
+    '<div class="btns"><button data-k="meal">Meâller</button><button data-k="tahric">Tahrîc</button><button data-k="dinle">Dinle</button><button data-k="kaydet">'+(kayitVar(b.k,a.hadithnumber)?'Kaydedildi ♥':'Kaydet')+'</button><button data-k="kopya">Kopyala</button><button data-k="pay">Paylaş</button></div><div class="pn"></div></div>';
   return {h:h,tr:tr,gr:gr,ar:a.text,etiket:b.ad+' '+a.hadithnumber+(secAd?' · '+secAd:''),link:'#k='+b.k+'&n='+a.hadithnumber}}
 function apiBagla(kap,b,a,info){var kart=kap.querySelector('#hk'+a.hadithnumber);if(!kart)return;var pn=kart.querySelector('.pn'),acikK='';
   var dv=kart.querySelector('.dv');if(dv)dv.onclick=function(){kart.querySelector('.tm').textContent=info.tr.m;dv.remove()};
@@ -181,7 +181,7 @@ function hjBolum(b,sec){document.getElementById('ttl').textContent=sec[1];M.inne
     var ak=document.getElementById('ak');
     function ekle(){var son=Math.min(A.length,bas+kac),parca='',ls=[];for(var i=bas;i<son;i++){var x=A[i],no=x.idInBook||x.id||i+1,en=x.english?((x.english.narrator||'')+' '+(x.english.text||'')).trim():'';
         var a={hadithnumber:no,text:x.arabic||'',grades:[]},o=apiKart(b,a,null,sec[1]);o.tr={m:en,tah:''};o.link='#k='+b.k+'&b='+sec[0];
-        o.h=o.h.replace('<div class="roz"></div>',en?'<div class="meal" style="font-style:normal;font-family:system-ui;font-size:16px;direction:ltr">'+esc(en.length>600?en.slice(0,600)+'…':en)+'</div><div class="roz"></div>':'<div class="roz"></div>').replace('<button data-k="derece">Derece</button>','');
+        o.h=o.h.replace('<div class="roz"></div>',en?'<div class="meal" style="font-style:normal;font-family:system-ui;font-size:16px;direction:ltr">'+esc(en.length>600?en.slice(0,600)+'…':en)+'</div><div class="roz"></div>':'<div class="roz"></div>');
         parca+=o.h;ls.push([a,o])}
       ak.insertAdjacentHTML('beforeend',parca);ls.forEach(function(z){apiBagla(ak,b,z[0],z[1])});bas=son;document.getElementById('dm').style.display=bas<A.length?'':'none'}
     ekle();document.getElementById('dm').onclick=ekle;document.getElementById('ub').onclick=function(){kitap(b.k)};
