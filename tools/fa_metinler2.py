@@ -8,7 +8,7 @@ M=[
 ('A',2,'فردوسی و شاهنامه','Firdevsî ve Şehnâme','B2',
 [[('ابوالقاسم فردوسی در قرن چهارم هجری در توس به دنیا آمد.','Ebü’l-Kâsım Firdevsî hicrî dördüncü asırda Tûs’ta doğdu.'),('او حدود سی سال از عمر خود را صرف سرودن شاهنامه کرد.','Ömrünün yaklaşık otuz yılını Şehnâme’yi yazmaya harcadı.')],
 [('شاهنامه داستان پادشاهان و پهلوانان ایران از آغاز تا پایان دورهٔ ساسانی است.','Şehnâme, İran’ın hükümdarlarının ve kahramanlarının başlangıçtan Sâsânî döneminin sonuna kadarki destanıdır.'),('فردوسی در این اثر بزرگ واژه‌های عربی را کمتر به کار برد و به زنده ماندن زبان فارسی کمک کرد.','Firdevsî bu büyük eserde Arapça kelimeleri az kullandı ve Farsçanın yaşamasına katkı sağladı.')]],
-[('به دنیا آمد','doğdu'),('صرف کرد','harcadı'),('سرودن','şiir yazmak'),('پهلوانان','kahramanlar'),('واژه‌ها','kelimeler')],
+[('به دنیا آمد','doğdu'),('صرف','harcama (ṣarf)'),('سرودن','şiir yazmak'),('پهلوانان','kahramanlar'),('واژه‌ها','kelimeler')],
 [('Firdevsî Şehnâme’ye ne kadar zaman harcadı?',['Yaklaşık otuz yıl','Beş yıl','Yüz yıl','Bir yıl'],''),('Şehnâme neyi anlatır?',['İran hükümdarları ve kahramanlarını','Hindistan tarihini','Bir aşk hikâyesini','Fıkıh kurallarını'],'')]),
 ('A',3,'انگیزه در یادگیری','Öğrenmede motivasyon','B2',
 [[('روان‌شناسان دو نوع انگیزه را از هم جدا می‌کنند: درونی و بیرونی.','Psikologlar iki tür motivasyonu birbirinden ayırır: içsel ve dışsal.'),('انگیزهٔ بیرونی از پاداش یا ترس از تنبیه می‌آید.','Dışsal motivasyon ödülden veya cezadan korkudan gelir.')],
