@@ -44,12 +44,12 @@ table.ir{width:100%;border-collapse:collapse}table.ir td{border-bottom:1px solid
 .mtn{color:#bfe3d3}.meal{color:#cfd8d2}.zn .rv{background:#1f2823;border-color:#34413a}#pop .x{background:#2a352f;color:#e2e8e2}}
 .sek a,.sek button{font-size:13.5px;padding:9px 4px}</style></head><body>
 <div id="hd"><div class="top"><a class="bk" href="./">‹ el-Mihrâb</a><h1 id="ttl">Siyer Dirâsesi</h1><span style="width:70px"></span></div>
-<div class="sek"><a href="./?dirase=kuran">Kur'an</a><a href="fikih.html">Fıkıh</a><button id="sB" class="on">Bölümler</button><button id="sH">Harita</button></div></div>
+<div class="sek"><a href="./?dirase=kuran">Kur'an</a><a href="fikih.html">Fıkıh</a><button id="sB" class="on">Kitap</button><button id="sH">Harita</button></div></div>
 <main id="m"><p class="not">Yükleniyor…</p></main>
 <script>setTimeout(function(){if(!window.SIYER_HAZIR){var m=document.getElementById("m");if(m)m.innerHTML='<p class="not">Sayfa açılamadı. <button onclick="location.reload()" style="border:0;border-radius:10px;padding:6px 12px;font:600 14px system-ui;background:#2f5d4e;color:#fff">Yenile</button> <a href="./?onar">Uygulamayı onar</a></p>'}},9000)</script>
 <div id="pop"><button class="x" id="px">Kapat</button><div id="pc"></div></div>
 <script>window.SIYER_HAZIR=1;
-var M=document.getElementById('m'),OL=[],YR={},acik='',HV='1';
+var M=document.getElementById('m'),OL=[],YR={},acik='',HV='2';
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
 function getJ(u){return fetch(u+'?v='+HV,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()})}
 function pop(h){document.getElementById('pc').innerHTML=h;document.getElementById('pop').classList.add('on')}
@@ -59,38 +59,54 @@ var OK='mihrab.siyerOkundu';function okunan(){try{return JSON.parse(localStorage
 function okDegis(id){var L=okunan(),i=L.indexOf(id);if(i>=0)L.splice(i,1);else L.push(id);try{localStorage.setItem(OK,JSON.stringify(L))}catch(e){}return i<0}
 function gl(p){return esc(p).replace(/\{([^|{}]+)\|([^{}]+)\}/g,function(_,w,a){return '<span class="gl" data-m="'+a+'" style="border-bottom:1.5px dotted #8a6a2c;cursor:pointer">'+w+'</span>'})}
 function duz(p){return p.replace(/\{([^|{}]+)\|[^{}]+\}/g,'$1')}
-/* ===== Bölümler ===== */
-function liste(){sek('B');document.getElementById('ttl').textContent='Siyer Dirâsesi';var ok=okunan(),don='';
-  var h='<p class="not"><b>Siyer Dirâsesi</b> · '+OL.length+' bölüm<br>Peygamberimizin hayatı sahne sahne. Her bölümün sonunda o olayla ilgili âyetler, hadisler ve fıkıh meseleleri var. Altı noktalı kelimelere dokununca anlamı açılır.</p>'+
-    '<div style="display:flex;align-items:center;gap:10px;margin:6px 4px 2px"><div style="flex:1;height:8px;border-radius:4px;background:#e3eae2;overflow:hidden"><div style="height:100%;width:'+Math.round(100*ok.length/OL.length)+'%;background:#2f5d4e"></div></div><span style="font:600 13px system-ui;color:#2f5d4e">'+ok.length+' / '+OL.length+' okundu</span></div>';
-  OL.forEach(function(x,i){if(x.donem!==don){don=x.donem;h+='<h2 style="font-size:15px;margin:16px 4px 4px;color:'+(don.indexOf('Mekke')===0?'#8a6a2c':'#2f5d4e')+'">'+esc(don)+'</h2>'}
-    var o=ok.indexOf(x.id)>=0;h+='<div class="lst" data-i="'+i+'"><div class="no" style="'+(o?'background:#2f5d4e;color:#fff':'')+'">'+(o?'✓':(i+1))+'</div><div class="t"><b>'+esc(x.baslik)+'</b><small>'+esc(x.tarih)+' · '+esc((YR[x.yer]||[''])[0])+'</small></div><div class="a ar">'+esc(x.ar)+'</div></div>'});
-  M.innerHTML=h;[].forEach.call(M.querySelectorAll('.lst'),function(d){d.onclick=function(){bolum(+d.getAttribute('data-i'))}});history.replaceState(null,'','#');scrollTo(0,0)}
-function bolum(i){var x=OL[i];sek('B');document.getElementById('ttl').textContent=x.baslik;acik='';var ok=okunan().indexOf(x.id)>=0;
-  var h='<div class="kart"><div class="bas"><span>'+esc(x.donem)+'</span><span>'+(i+1)+' / '+OL.length+'</span></div>'+
-    '<div style="font:600 22px system-ui;margin:2px 0">'+esc(x.baslik)+'</div><div class="ar" style="font-size:24px;color:#6d7a72;margin-bottom:6px">'+esc(x.ar)+'</div>'+
-    '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px"><span style="font:600 12.5px system-ui;background:#f3ead6;color:#6b4f12;border-radius:10px;padding:4px 9px">'+esc(x.tarih)+'</span><button id="yer" style="border:0;font:600 12.5px system-ui;background:#e1f2e4;color:#1d5531;border-radius:10px;padding:4px 9px;cursor:pointer">⌖ '+esc((YR[x.yer]||[''])[0])+'</button></div>'+
-    x.metin.map(function(p){return '<p style="font-size:17px;line-height:1.75;margin:0 0 12px">'+gl(p)+'</p>'}).join('')+
-    '<div class="btns"><button data-k="dinle">Dinle</button><button data-k="ayet">Âyetler ('+x.ayet.length+')</button><button data-k="hadis">Hadisler ('+x.hadis.length+')</button>'+(x.fikih.length?'<button data-k="fikih">Fıkıh ('+x.fikih.length+')</button>':'')+'<button data-k="kisi">Kişiler</button><button data-k="ders">Dersler</button><button data-k="ok">'+(ok?'Okundu ✓':'Okudum')+'</button><button data-k="pay">Paylaş</button></div><div id="pn"></div></div>'+
-    '<div class="nav"><button id="ön">‹ Önceki</button><button id="ls">Bölümler</button><button id="sn">Sonraki ›</button></div>';
+/* ===== Kitap ===== */
+var KT={bolum:[],plan:[]},OI={};
+var KY='mihrab.siyerKaldim',YZ='mihrab.siyerYazi';
+function kaldim(){try{return localStorage.getItem(KY)||''}catch(e){return ''}}
+function yazi(){try{return +(localStorage.getItem(YZ)||17)}catch(e){return 17}}
+function liste(){sek('B');document.getElementById('ttl').textContent='Siyer-i Nebî';var ok=okunan(),don='',kl=kaldim(),ki=-1;
+  KT.bolum.forEach(function(b,i){if(b.n===kl)ki=i});
+  var yaz=KT.plan.filter(function(p){return p[3]}).length;
+  var h='<div class="kart" style="padding-bottom:12px"><div style="font:600 22px system-ui">Siyer-i Nebî</div><div class="ar" style="font-size:22px;color:#6d7a72">السيرة النبوية</div><p style="font-size:15px;line-height:1.6;margin:6px 0 8px">Peygamberimizin hayatı, doğumundan vefatına ve şemâiline kadar bölüm bölüm. Altı noktalı kelimelere dokununca anlamı açılır; her bölüm sesli dinlenebilir.</p>'+
+    '<div style="font:600 13px system-ui;color:#6d7a72">'+KT.bolum.length+' bölüm yayında · yaklaşık '+KT.sayfa+' sayfa · plan: '+KT.plan.length+' bölüm</div>'+
+    '<div style="display:flex;align-items:center;gap:10px;margin-top:8px"><div style="flex:1;height:8px;border-radius:4px;background:#e3eae2;overflow:hidden"><div style="height:100%;width:'+Math.round(100*ok.length/Math.max(1,KT.bolum.length))+'%;background:#2f5d4e"></div></div><span style="font:600 13px system-ui;color:#2f5d4e">'+ok.length+' okundu</span></div>'+
+    (ki>=0?'<button id="devam" style="margin-top:10px;width:100%;border:0;border-radius:14px;padding:12px;font:600 15px system-ui;background:#2f5d4e;color:#fff;cursor:pointer">Kaldığın yerden devam et: '+esc(KT.bolum[ki].baslik)+' ›</button>':'<button id="devam" style="margin-top:10px;width:100%;border:0;border-radius:14px;padding:12px;font:600 15px system-ui;background:#2f5d4e;color:#fff;cursor:pointer">Okumaya başla ›</button>')+'</div>';
+  KT.plan.forEach(function(p){if(p[2]!==don){don=p[2];h+='<h2 style="font-size:15px;margin:16px 4px 4px;color:'+(don.indexOf('Mekke')===0?'#8a6a2c':don.indexOf('Medine')===0?'#2f5d4e':'#1f5b6e')+'">'+esc(don)+'</h2>'}
+    var bi=-1;KT.bolum.forEach(function(b,i){if(+b.n===p[0])bi=i});
+    if(bi<0){h+='<div class="lst" style="opacity:.45;cursor:default"><div class="no">'+p[0]+'</div><div class="t"><b>'+esc(p[1])+'</b><small>Yazılıyor</small></div></div>';return}
+    var b=KT.bolum[bi],o=ok.indexOf('k'+b.n)>=0;
+    h+='<div class="lst" data-i="'+bi+'"><div class="no" style="'+(o?'background:#2f5d4e;color:#fff':'')+'">'+(o?'✓':p[0])+'</div><div class="t"><b>'+esc(b.baslik)+'</b><small>'+esc(b.tarih)+' · '+Math.max(1,Math.round(b.kelime/250))+' sayfa</small></div><div class="a">›</div></div>'});
+  M.innerHTML=h;[].forEach.call(M.querySelectorAll('.lst[data-i]'),function(d){d.onclick=function(){bolum(+d.getAttribute('data-i'))}});
+  document.getElementById('devam').onclick=function(){bolum(ki>=0?ki:0)};history.replaceState(null,'','#');scrollTo(0,0)}
+function bolum(i){var x=KT.bolum[i],ol=x.olay?OI[x.olay]:null;sek('B');document.getElementById('ttl').textContent=x.baslik;acik='';var ok=okunan().indexOf('k'+x.n)>=0;
+  try{localStorage.setItem(KY,x.n)}catch(e){}
+  var fs=yazi();
+  var h='<div class="kart"><div class="bas"><span>Bölüm '+(+x.n)+'</span><span>'+Math.max(1,Math.round(x.kelime/250))+' sayfa</span></div>'+
+    '<div style="font:600 22px system-ui;margin:2px 0 6px">'+esc(x.baslik)+'</div>'+
+    '<div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-bottom:10px"><span style="font:600 12.5px system-ui;background:#f3ead6;color:#6b4f12;border-radius:10px;padding:4px 9px">'+esc(x.tarih)+'</span><button id="yer" style="border:0;font:600 12.5px system-ui;background:#e1f2e4;color:#1d5531;border-radius:10px;padding:4px 9px;cursor:pointer">⌖ '+esc((YR[x.yer]||[''])[0])+'</button><span style="flex:1"></span><button id="ak" style="border:1px solid #c9d3c6;background:#fff;border-radius:10px;padding:3px 9px;font:600 13px system-ui">A−</button><button id="ab" style="border:1px solid #c9d3c6;background:#fff;border-radius:10px;padding:3px 9px;font:600 15px system-ui">A+</button></div>'+
+    '<div id="mt" style="font-size:'+fs+'px">'+x.metin.map(function(p){return '<p style="font-size:inherit;line-height:1.8;margin:0 0 14px">'+gl(p)+'</p>'}).join('')+'</div>'+
+    '<div class="btns"><button data-k="dinle">Dinle</button>'+(ol?'<button data-k="ayet">Âyetler ('+ol.ayet.length+')</button><button data-k="hadis">Hadisler ('+ol.hadis.length+')</button>'+(ol.fikih.length?'<button data-k="fikih">Fıkıh ('+ol.fikih.length+')</button>':'')+'<button data-k="kisi">Kişiler</button><button data-k="ders">Dersler</button>':'')+'<button data-k="ok">'+(ok?'Okundu ✓':'Okudum')+'</button><button data-k="pay">Paylaş</button></div><div id="pn"></div></div>'+
+    '<div class="nav"><button id="ön">‹ Önceki</button><button id="ls">İçindekiler</button><button id="sn">Sonraki ›</button></div>';
   M.innerHTML=h;var pn=document.getElementById('pn');
-  [].forEach.call(M.querySelectorAll('.gl'),function(s){s.onclick=function(){pop('<h3>'+esc(s.textContent)+'</h3><p>'+esc(s.getAttribute('data-m'))+'</p>')}});
+  function glb(){[].forEach.call(M.querySelectorAll('.gl'),function(s){s.onclick=function(){pop('<h3>'+esc(s.textContent)+'</h3><p>'+esc(s.getAttribute('data-m'))+'</p>')}})}glb();
+  function boy(d){var v=Math.min(26,Math.max(14,yazi()+d));try{localStorage.setItem(YZ,v)}catch(e){}document.getElementById('mt').style.fontSize=v+'px'}
+  document.getElementById('ak').onclick=function(){boy(-1)};document.getElementById('ab').onclick=function(){boy(1)};
   document.getElementById('yer').onclick=function(){harita(x.yer)};
   [].forEach.call(M.querySelectorAll('.btns button'),function(b){b.onclick=function(){var k=b.getAttribute('data-k');
     if(k==='dinle'){oku(x.baslik+'. '+x.metin.map(duz).join(' '),b);return}
-    if(k==='ok'){b.textContent=okDegis(x.id)?'Okundu ✓':'Okudum';return}
-    if(k==='pay'){var u=location.origin+location.pathname+'#o='+x.id;if(navigator.share)navigator.share({title:x.baslik,url:u}).catch(function(){});else{try{navigator.clipboard.writeText(u)}catch(e){}pop('<p>Bağlantı kopyalandı.</p>')}return}
+    if(k==='ok'){b.textContent=okDegis('k'+x.n)?'Okundu ✓':'Okudum';return}
+    if(k==='pay'){var u=location.origin+location.pathname+'#b='+x.n;if(navigator.share)navigator.share({title:x.baslik,url:u}).catch(function(){});else{try{navigator.clipboard.writeText(u)}catch(e){}pop('<p>Bağlantı kopyalandı.</p>')}return}
     if(acik===k){acik='';pn.innerHTML='';b.classList.remove('on');return}
     [].forEach.call(M.querySelectorAll('.btns button'),function(z){z.classList.remove('on')});b.classList.add('on');acik=k;var y='';
     function link(u,et,ac,bt){return '<div style="margin-bottom:10px"><b>'+esc(et)+'</b>'+(ac?'<p style="margin:3px 0">'+esc(ac)+'</p>':'')+'<a href="'+u+'" style="display:inline-block;border:1px solid #c9d3c6;border-radius:12px;padding:5px 11px;text-decoration:none;color:#2f5d4e;font:600 13.5px system-ui">'+bt+' ›</a></div>'}
-    if(k==='ayet')y=x.ayet.map(function(a){return link(a[1],a[0],a[2],'Kur’an’da aç')}).join('');
-    if(k==='hadis')y=x.hadis.map(function(a){return link(a[1],a[0],a[2],'Hadis Dirâsesi’nde ara')}).join('');
-    if(k==='fikih')y='<p>Bu olayla ilgili fıkıh meseleleri:</p>'+x.fikih.map(function(f){var b=(FK[f]||f);return '<a class="lst" href="fikih.html#m='+f+'" style="text-decoration:none;color:inherit;padding:10px 12px"><div class="t"><b>'+esc(b)+'</b><small>Fıkıh Dirâsesi</small></div><div class="a">›</div></a>'}).join('');
-    if(k==='kisi')y=x.kisi.map(function(p){return '<div style="margin-bottom:8px"><b>'+esc(p[0])+'</b> — '+esc(p[1])+'</div>'}).join('');
-    if(k==='ders')y='<h3>Bu sahneden dersler</h3><ul style="margin:0;padding-left:20px;line-height:1.7">'+x.ders.map(function(d){return '<li>'+esc(d)+'</li>'}).join('')+'</ul>';
+    if(k==='ayet')y=ol.ayet.map(function(a){return link(a[1],a[0],a[2],'Kur’an’da aç')}).join('');
+    if(k==='hadis')y=ol.hadis.map(function(a){return link(a[1],a[0],a[2],'Hadis Dirâsesi’nde ara')}).join('');
+    if(k==='fikih')y='<p>Bu olayla ilgili fıkıh meseleleri:</p>'+ol.fikih.map(function(f){return '<a class="lst" href="fikih.html#m='+f+'" style="text-decoration:none;color:inherit;padding:10px 12px"><div class="t"><b>'+esc(FK[f]||f)+'</b><small>Fıkıh Dirâsesi</small></div><div class="a">›</div></a>'}).join('');
+    if(k==='kisi')y=ol.kisi.map(function(p){return '<div style="margin-bottom:8px"><b>'+esc(p[0])+'</b> — '+esc(p[1])+'</div>'}).join('');
+    if(k==='ders')y='<h3>Bu bölümden dersler</h3><ul style="margin:0;padding-left:20px;line-height:1.7">'+ol.ders.map(function(d){return '<li>'+esc(d)+'</li>'}).join('')+'</ul>';
     pn.innerHTML='<div class="pnl">'+y+'</div>'}});
-  document.getElementById('ön').onclick=function(){if(i>0)bolum(i-1)};document.getElementById('sn').onclick=function(){if(i<OL.length-1)bolum(i+1)};document.getElementById('ls').onclick=function(){liste()};
-  history.replaceState(null,'','#o='+x.id);scrollTo(0,0)}
+  document.getElementById('ön').onclick=function(){if(i>0)bolum(i-1)};document.getElementById('sn').onclick=function(){if(i<KT.bolum.length-1)bolum(i+1);else pop('<p>Sonraki bölümler yazılıyor.</p>')};document.getElementById('ls').onclick=function(){liste()};
+  history.replaceState(null,'','#b='+x.n);scrollTo(0,0)}
 /* ===== Harita ===== */
 function harita(sec){sek('H');document.getElementById('ttl').textContent='Siyer haritası';
   var L0=35.4,L1=41.6,B0=20.4,B1=29,W=360,Hh=Math.round(W*(B1-B0)/(L1-L0));
@@ -100,7 +116,7 @@ function harita(sec){sek('H');document.getElementById('ttl').textContent='Siyer 
   var s='<svg viewBox="0 0 '+W+' '+Hh+'" style="width:100%;height:auto;background:#f3efe4;border-radius:16px;display:block"><polygon points="'+deniz+'" fill="#cfe3ea"/>'+
     '<text x="'+P(24.3,36.4)[0]+'" y="'+P(24.3,36.4)[1]+'" font-size="12" fill="#5d8796" font-style="italic" transform="rotate(-50 '+P(24.3,36.4).join(' ')+')">Kızıldeniz</text>'+
     '<text x="'+P(27.3,38.6)[0]+'" y="'+P(27.3,38.6)[1]+'" font-size="13" fill="#b49a62" font-style="italic">Hicaz</text><text x="'+P(23.2,40.6)[0]+'" y="'+P(23.2,40.6)[1]+'" font-size="13" fill="#b49a62" font-style="italic">Necid</text>';
-  var say={};OL.forEach(function(o){say[o.yer]=(say[o.yer]||0)+1});
+  var say={};KT.bolum.forEach(function(o){say[o.yer]=(say[o.yer]||0)+1});
   var LB={hudeybiye:[-10,4,'end'],mekke:[-8,20,'end'],arafat:[0,38,'middle'],taif:[10,6,'start'],huneyn:[10,-6,'start'],uhud:[-9,-4,'end'],medine:[10,2,'start'],hendek:[10,14,'start'],bedir:[-10,4,'end'],tebuk:[-10,4,'end'],hayber:[10,4,'start']};
   Object.keys(YR).forEach(function(k){var y=YR[k],on=k===sec;
     if(k==='habesistan'){var q=P(20.9,36.1);s+='<g class="yn" data-y="'+k+'" style="cursor:pointer"><rect x="'+(q[0]-14)+'" y="'+(q[1]-14)+'" width="150" height="28" rx="14" fill="'+(on?'#8a6a2c':'#fff')+'" stroke="#2f5d4e"/><text x="'+(+q[0]+61)+'" y="'+(+q[1]+4.5)+'" font-size="12.5" font-weight="600" fill="'+(on?'#fff':'#26352e')+'" text-anchor="middle">↙ Habeşistan'+(say[k]?' ('+say[k]+')':'')+'</text></g>';return}
@@ -110,7 +126,7 @@ function harita(sec){sek('H');document.getElementById('ttl').textContent='Siyer 
   M.innerHTML='<p class="not">Bir yere dokunun; orada yaşanan olaylar aşağıda listelenir. Harita yaklaşık konumları gösterir.</p>'+s+'<div id="hl"></div>';
   [].forEach.call(M.querySelectorAll('.yn'),function(g){g.onclick=function(){harita(g.getAttribute('data-y'))}});
   var hl=document.getElementById('hl');
-  if(sec&&YR[sec]){var L=[];OL.forEach(function(o,i){if(o.yer===sec)L.push(i)});hl.innerHTML='<h2 style="font-size:16px;margin:14px 4px 6px">'+esc(YR[sec][0])+'</h2>'+(L.length?L.map(function(i){var x=OL[i];return '<div class="lst" data-i="'+i+'"><div class="no">'+(i+1)+'</div><div class="t"><b>'+esc(x.baslik)+'</b><small>'+esc(x.tarih)+'</small></div><div class="a">›</div></div>'}).join(''):'<p class="not">Bu yerle ilgili bölüm henüz yok.</p>');
+  if(sec&&YR[sec]){var L=[];KT.bolum.forEach(function(o,i){if(o.yer===sec)L.push(i)});hl.innerHTML='<h2 style="font-size:16px;margin:14px 4px 6px">'+esc(YR[sec][0])+'</h2>'+(L.length?L.map(function(i){var x=KT.bolum[i];return '<div class="lst" data-i="'+i+'"><div class="no">'+(+x.n)+'</div><div class="t"><b>'+esc(x.baslik)+'</b><small>'+esc(x.tarih)+'</small></div><div class="a">›</div></div>'}).join(''):'<p class="not">Bu yerle ilgili bölüm yakında.</p>');
     [].forEach.call(hl.querySelectorAll('.lst'),function(d){d.onclick=function(){bolum(+d.getAttribute('data-i'))}});setTimeout(function(){hl.scrollIntoView({block:'start',behavior:'smooth'})},60)}
   history.replaceState(null,'','#h'+(sec?'='+sec:''));if(!sec)scrollTo(0,0)}
 /* ===== Sesli okuma (Türkçe, erkek sesi tercihli) ===== */
@@ -122,7 +138,8 @@ function oku(t,bt){if(!('speechSynthesis' in window)){pop('<p>Bu cihazda sesli o
 window.addEventListener('error',function(){try{if(!document.getElementById('hataBar')){var d=document.createElement('div');d.id='hataBar';d.style.cssText='position:fixed;left:10px;right:10px;top:10px;z-index:30;background:#7a1f2b;color:#fff;border-radius:14px;padding:10px 12px;font:14px system-ui';d.innerHTML='Bir şey ters gitti. <button onclick="location.reload()" style="border:0;border-radius:10px;padding:5px 10px;margin-left:6px">Yenile</button> <button onclick="this.parentNode.remove()" style="border:0;border-radius:10px;padding:5px 10px">Kapat</button>';document.body.appendChild(d)}}catch(x){}});
 document.getElementById('sB').onclick=function(){liste()};document.getElementById('sH').onclick=function(){harita()};
 var FK={};
-Promise.all([getJ('data/siyer/olaylar.json'),getJ('data/siyer/yerler.json'),getJ('data/fikih/meseleler.json').catch(function(){return []})]).then(function(a){OL=a[0];YR=a[1];a[2].forEach(function(x){FK[x.id]=x.baslik});var hs=location.hash,m;
-  if((m=/^#o=([a-z]+)/.exec(hs))){for(var i=0;i<OL.length;i++)if(OL[i].id===m[1])return bolum(i)}
+Promise.all([getJ('data/siyer/kitap.json'),getJ('data/siyer/olaylar.json'),getJ('data/siyer/yerler.json'),getJ('data/fikih/meseleler.json').catch(function(){return []})]).then(function(a){KT=a[0];OL=a[1];YR=a[2];OL.forEach(function(o){OI[o.id]=o});a[3].forEach(function(x){FK[x.id]=x.baslik});var hs=location.hash,m,i;
+  if((m=/^#b=(\w+)/.exec(hs))){for(i=0;i<KT.bolum.length;i++)if(KT.bolum[i].n===m[1])return bolum(i)}
+  if((m=/^#o=([a-z]+)/.exec(hs))){for(i=0;i<KT.bolum.length;i++)if(KT.bolum[i].olay===m[1])return bolum(i);liste();return}
   if((m=/^#h(?:=([a-z]+))?/.exec(hs)))return harita(m[1]);liste()}).catch(function(){M.innerHTML='<p class="not">Veri yüklenemedi. İnternet bağlantınızı kontrol edip sayfayı yenileyin.</p>'});
 </script></body></html>
