@@ -83,6 +83,36 @@
       .then(function(){try{W.localStorage.setItem('mihrab.persist','1')}catch(e){}},function(){});
   }}catch(e){}
 
+  /* 8) Bilgisayar ekranı: telefona göre 760 px'lik dar sütunla yazılmış sayfalar geniş ekranda genişler, kartlar çoğalır */
+  try{
+    var gs=document.createElement('style');
+    gs.textContent='@media (min-width:1100px){html.genis main{max-width:1060px!important}'+
+      'html.genis body.mdLanding #modes{grid-template-columns:repeat(4,1fr)!important}'+
+      'html.genis .tiles{grid-template-columns:repeat(3,1fr)!important}}';
+    (document.head||document.documentElement).appendChild(gs);
+    var gk=function(){try{var m=document.querySelector('main');if(m&&getComputedStyle(m).maxWidth==='760px')document.documentElement.classList.add('genis')}catch(e){}};
+    if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',gk);else gk();
+  }catch(e){}
+
+  /* 9) Geri tuşu (adresi değişmeden ekran değiştiren sayfalar): ekran değişince geçmişe bir adım yazılır;
+        telefonun geri tuşuna basılınca sayfanın kendi "‹ … / ← Geri" düğmesine basılır, sayfadan çıkılmaz */
+  try{if(/\/(almanca|fransizca|ispanyolca|siyer|fikih|hadis)(\.html)?$/.test(location.pathname)){
+    var derin=0,ici=false;
+    var ozet=function(){var m=document.querySelector('main')||document.body;return m?(m.innerText||'').slice(0,300):''};
+    var yer=function(){return location.pathname+location.search};
+    var gorunur=function(x){var r=x.getBoundingClientRect();return r.width>0&&r.height>0&&getComputedStyle(x).visibility!=='hidden'};
+    var geriBul=function(){var L=[].slice.call(document.querySelectorAll('button,a,[role=button]')).filter(gorunur),i,t;
+      for(i=0;i<L.length;i++){t=(L[i].innerText||'').trim();if(/^(‹|←)/.test(t)&&!/Önceki|el-Mihr/i.test(t))return L[i]}
+      for(i=0;i<L.length;i++){if(L[i].matches('[aria-pressed="true"],[aria-selected="true"],.on,.sec,.aktif')&&L[i].closest('nav,header,.sekme,.tabs,.sek,[role=tablist]'))return L[i]}
+      return null};
+    document.addEventListener('click',function(e){try{if(ici)return;var a=e.target.closest&&e.target.closest('a');
+      if(a&&a.getAttribute('href')&&!/^#/.test(a.getAttribute('href')))return;if(e.target.closest&&e.target.closest('input,select,textarea'))return;
+      var once=ozet(),y=yer();setTimeout(function(){try{if(yer()!==y||ozet()===once)return;derin++;history.pushState({mhg:derin},'',location.href)}catch(x){}},400)}catch(x){}},true);
+    W.addEventListener('popstate',function(){try{if(derin<=0)return;derin--;var b=geriBul();if(!b)return;
+      if(b.tagName==='A'&&!b.onclick&&b.getAttribute('href')&&!/^#/.test(b.getAttribute('href')))return;
+      ici=true;b.click();setTimeout(function(){ici=false},600)}catch(x){ici=false}});
+  }}catch(e){}
+
   /* 7) Uygulamanın bir bölümünü açan kişi, ana sayfaya dönünce tanıtım sayfasına yönlendirilmez */
   try{if(!/\/(index(\.html)?)?$/.test(location.pathname)&&!/tanitim/.test(location.pathname))W.localStorage.setItem('mihrab.tanitim','1')}catch(e){}
 

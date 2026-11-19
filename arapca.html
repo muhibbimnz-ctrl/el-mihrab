@@ -138,7 +138,7 @@ function liste(){var d=document.querySelector('#nav .days');if(!d)return;var bs=
 var nav=document.getElementById('nav');if(nav){new MutationObserver(liste).observe(nav,{childList:true});liste()}
 /* geri tuşu: program içinden kartlara dön */
 document.querySelectorAll('#modes .mode').forEach(function(b){if(b.tagName==='BUTTON')b.addEventListener('click',function(){try{history.pushState({p:1},'','#p')}catch(e){}})});
-addEventListener('popstate',function(){if(mb&&!document.body.classList.contains('mdLanding')){document.body.classList.add('mdLanding');document.body.classList.remove('ayarAcik');scrollTo(0,0)}});
+addEventListener('popstate',function(e){if(e&&e.state&&e.state.ders)return;if(mb&&!document.body.classList.contains('mdLanding')){document.body.classList.add('mdLanding');document.body.classList.remove('ayarAcik');scrollTo(0,0)}});
 if(location.hash==='#p')try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}
 })();</script><!--/MIHRAB-SADE-->
 <!--VERI-SONDA--><script src="veri/arapca.js?v=d189f14781"></script>
@@ -560,6 +560,16 @@ var hb=document.getElementById("hb");function hbSet(){hb.setAttribute("aria-pres
 hb.onclick=function(){st.noh=!st.noh;save();hbSet();var y=window.scrollY;render();window.scrollTo(0,y)};
 /* İlk ders çizimi veriyle aynı anda değil, kartlar göründükten sonra boşta yapılır (zayıf telefonda donmayı önler) */
 (function(){var f=function(){var o=document.getElementById("out");if(o&&!o.querySelector(".card,h2"))render()};if(window.requestIdleCallback)requestIdleCallback(f,{timeout:1500});else setTimeout(f,60)})();
+/* Geri tuşu: program içinde gün/ders/ünite değiştikçe tarayıcı geçmişine yazılır; geri basınca bir önceki derse dönülür */
+(function(){if(typeof render!=="function")return;
+ function snap(){var s={m:mode};try{s.c=cur}catch(e){}try{s.u=ucur}catch(e){}try{s.cs=JSON.parse(JSON.stringify(CS))}catch(e){}return s}
+ var son=JSON.stringify(snap()),geri=false,r0=render;
+ render=function(){r0.apply(this,arguments);if(geri)return;var s=snap(),k=JSON.stringify(s),hs=history.state;if(!document.body.classList.contains("mdLanding")&&hs&&hs.p===1&&!hs.ders){try{history.replaceState({p:1,ders:s},"","#p")}catch(e){}son=k;return}
+  if(k!==son&&!document.body.classList.contains("mdLanding")){try{history.pushState({ders:s},"","#p")}catch(e){}}son=k};
+ addEventListener("popstate",function(e){var s=e.state&&e.state.ders;if(!s)return;geri=true;
+  try{mode=s.m;if("c" in s)cur=s.c;if("u" in s)ucur=s.u;if(s.cs)CS=s.cs;document.body.classList.remove("mdLanding");render();window.scrollTo(0,0)}catch(x){}finally{geri=false}son=JSON.stringify(snap())});
+})();
+
 
 </script>
 </body></html>

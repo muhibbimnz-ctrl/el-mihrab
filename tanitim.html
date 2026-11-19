@@ -54,6 +54,19 @@ h2{font-size:clamp(22px,4vw,30px);text-align:center;margin:56px 0 8px}
 .ekran img{width:100%;height:auto;aspect-ratio:390/780;object-fit:cover;object-position:top;border-radius:22px;border:6px solid #1d1a14;background:#ddd;box-shadow:0 14px 30px -18px rgba(0,0,0,.6)}
 .ekran figcaption{font-size:14px;color:var(--soluk);margin-top:6px}
 @media (min-width:1000px){.ekran{justify-content:center;overflow:visible;flex-wrap:wrap}.ekran figure{width:160px}}
+.dir{display:grid;grid-template-columns:1fr;gap:24px;align-items:center;background:linear-gradient(140deg,#7a5a2a,#3d2c18);color:#fff;border-radius:28px;padding:28px 20px;margin:24px 0 8px}
+.dir h2{color:#fff;text-align:left;margin:8px 0 4px}
+.rozet{display:inline-block;background:rgba(255,255,255,.18);border-radius:999px;padding:4px 12px;font-size:13px;font-weight:700;letter-spacing:.04em}
+.dir-alt{margin:0 0 14px;opacity:.9;font-size:18px}
+.kapilar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.kapilar span{border:1.5px solid rgba(255,255,255,.55);border-radius:12px;padding:5px 12px;font-weight:700;font-size:15px}
+.dir ul{margin:0 0 20px;padding-left:20px;line-height:1.55}
+.dir li{margin:6px 0}
+.dir .btn.ana{background:#fff;color:#5a3f1a}
+.dir-gorsel{display:flex;gap:14px;justify-content:center}
+.dir-gorsel img{width:min(46%,230px);height:auto;aspect-ratio:390/780;object-fit:cover;object-position:top;border-radius:22px;border:6px solid #1d1a14;box-shadow:0 16px 34px -16px rgba(0,0,0,.7)}
+.dir-gorsel img+img{margin-top:36px}
+@media (min-width:900px){.dir{grid-template-columns:1.1fr 1fr;padding:40px}}
 .son{background:var(--yesil);color:#fff;border-radius:26px;padding:36px 20px;text-align:center;margin:56px 0 24px}
 .son h2{margin:0 0 8px;color:#fff}
 .son p{margin:0 0 20px;opacity:.9}
@@ -81,6 +94,27 @@ footer a{color:var(--soluk)}
     <div class="notlar"><span>✓ Kayıt gerekmez</span><span>✓ Telefonda ve bilgisayarda</span><span>✓ Açtığın bölümler internetsiz de çalışır</span></div>
   </section>
 
+  <section class="dir">
+    <div class="dir-yazi">
+      <span class="rozet">Öne çıkan</span>
+      <h2>el-Mihrâb Dirâset</h2>
+      <p class="dir-alt">Her âyetin altında yedi kapı: dokun, o ilim açılsın.</p>
+      <div class="kapilar"><span>Tefsir</span><span>İ'râb</span><span>Belâgat</span><span>Kıraat</span><span>Meâller</span><span>Nüzûl</span><span>Garîb</span></div>
+      <ul>
+        <li><b>Kur'an Dirâsesi</b> — âyet âyet tefsir, i'râb, belâgat ve kıraat; sesli dinleme.</li>
+        <li><b>Hadis Dirâsesi</b> — 32 hadis kitabı, Kırk Hadis ve usûl.</li>
+        <li><b>Fıkıh Dirâsesi</b> — 260 mesele, Kudûrî ibareleriyle; rehberler ve Arapça kitaplar.</li>
+        <li><b>Siyer Dirâsesi</b> — 72 bölümlük siyer kitabı, günlük ders ve 145 soru, 27 sahâbe kartı, şecere.</li>
+        <li><b>Ahlak Dirâsesi</b> — Riyâzü's-Sâlihîn düzeninde 32 konu, günlük nefis muhasebesi.</li>
+      </ul>
+      <a class="btn ana" href="./?uygulama" data-ac>Dirâsete başla</a>
+    </div>
+    <div class="dir-gorsel">
+      <img src="img/tanitim/diraset.jpg" alt="Kur'an Dirâsesi ekranı: âyet ve altında Tefsir, İ'râb, Belâgat, Kıraat düğmeleri" width="390" height="780">
+      <img src="img/tanitim/diraset-secim.jpg" alt="Dirâset seçim menüsü" width="390" height="780" loading="lazy">
+    </div>
+  </section>
+
   <h2>Neler var?</h2>
   <p class="alt">Her bölüm doğrudan açılır; birine dokun, uygulama o bölümle başlasın.</p>
   <div class="ozellik">
@@ -98,6 +132,7 @@ footer a{color:var(--soluk)}
   <p class="alt">Telefonda böyle görünür; bilgisayarda da aynı içerik geniş ekrana yerleşir.</p>
   <div class="ekran">
     <figure><img src="img/tanitim/ana.jpg" alt="Ana sayfa" loading="lazy" width="390" height="780"><figcaption>Ana sayfa</figcaption></figure>
+    <figure><img src="img/tanitim/diraset.jpg" alt="Kur'an Dirâsesi" loading="lazy" width="390" height="780"><figcaption>Kur'an Dirâsesi</figcaption></figure>
     <figure><img src="img/tanitim/medrese.jpg" alt="Medrese" loading="lazy" width="390" height="780"><figcaption>Medrese</figcaption></figure>
     <figure><img src="img/tanitim/siyer.jpg" alt="Siyer-i Nebî" loading="lazy" width="390" height="780"><figcaption>Siyer-i Nebî</figcaption></figure>
     <figure><img src="img/tanitim/hadis.jpg" alt="Hadis" loading="lazy" width="390" height="780"><figcaption>Hadis</figcaption></figure>
