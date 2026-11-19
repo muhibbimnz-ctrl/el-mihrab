@@ -4,11 +4,16 @@ D=os.path.dirname(os.path.abspath(__file__))
 sp=importlib.util.spec_from_file_location('m',os.path.join(D,'meseleler.py'));m=importlib.util.module_from_spec(sp);sp.loader.exec_module(m)
 sp2=importlib.util.spec_from_file_location('m2',os.path.join(D,'meseleler2.py'));m2=importlib.util.module_from_spec(sp2);sp2.loader.exec_module(m2)
 sp3=importlib.util.spec_from_file_location('m3',os.path.join(D,'meseleler3.py'));m3=importlib.util.module_from_spec(sp3);sp3.loader.exec_module(m3)
+sp4=importlib.util.spec_from_file_location('m4',os.path.join(D,'meseleler4.py'));m4=importlib.util.module_from_spec(sp4);sp4.loader.exec_module(m4)
 HR=re.compile(r'[ً-ٰٟـ]')
 def an(t):return re.sub('[أإآ]','ا',HR.sub('',t)).replace('ى','ي').replace('ة','ه')
 K={}
 out=[]
-for x in m.M+m2.M+m3.M:
+TUM=m.M+m2.M+m3.M+m4.M
+assert len({x['id'] for x in TUM})==len(TUM),'yinelenen id'
+SIRA=['Tahâret','Namaz','Oruç','Zekât','Hac','Kurban ve av','Nikâh ve talâk','Muâmelât','Cinâyât ve hadler','Yeminler','Ferâiz']
+TUM=sorted(TUM,key=lambda x:SIRA.index(x['yol'][0]))
+for x in TUM:
     mt=[]
     for k,ifade in x['metin']:
         if isinstance(ifade,int):

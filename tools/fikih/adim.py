@@ -114,6 +114,33 @@ dict(id='bayram',baslik='Bayram namazı nasıl kılınır?',ar='صفة صلاة 
 ['Dördüncü tekbirle rükûya gitmek ve namazı tamamlamak','farz','',''],
 ['Namazdan sonra imamın iki hutbe okuması','sünnet','','Kurban bayramında teşrik tekbirleri ve kurban hükümleri anlatılır.'],
 ]),
+dict(id='umre',baslik='Umre nasıl yapılır?',ar='صفة العمرة',giris='Umre Hanefîlere göre ömürde bir defa sünnet-i müekkededir. Farzları ihram ve tavaftır; sa‘y ve tıraş vâciptir.',adim=[
+['Mîkâta varmadan gusledip ihram örtülerine bürünmek (erkek dikişli elbise ve başı örten şey giymez)','sünnet','','Dikişli giymemek ihram yasaklarındandır.'],
+['İki rekât ihram namazı kılmak','sünnet','',''],
+['Umreye niyet edip telbiye getirmek: “Lebbeyk Allâhümme lebbeyk…”','farz','ihram','Niyet ve telbiye ile ihrama girilir; ihram umrenin şartıdır.'],
+['Mescid-i Harâm’a girince Hacerü’l-esved’in hizasından başlayarak Kâbe’yi yedi şavt tavaf etmek','farz','tavafabdest','Tavafın en az dört şavtı rükündür; abdestli olmak vâciptir.'],
+['Erkeğin ilk üç şavtta remel yapması (çalımlı yürümek) ve ızdıbâ‘ (sağ omzu açmak)','sünnet','',''],
+['Makâm-ı İbrâhim’in arkasında iki rekât tavaf namazı kılmak','vâcip','',''],
+['Safâ’dan başlayıp Merve’de bitirerek yedi defa sa‘y yapmak','vâcip','say','Yeşil ışıklar arasında erkekler hızlı yürür (sünnet).'],
+['Saçları tıraş etmek veya en az dörtte birini parmak ucu kadar kısaltmak','vâcip','hactertip','Tıraşla ihramdan çıkılır.'],
+]),
+dict(id='hac',baslik='Hac nasıl yapılır?',ar='صفة الحج',giris='Hanefîlere göre haccın farzı üçtür: ihram (şart), Arafat vakfesi ve ziyaret tavafı (rükün). Diğer menâsik vâcip veya sünnettir. Aşağıda temettu‘ haccının sırası esas alınmıştır; ifrâd ve kırânda fark olan yerler belirtilmiştir.',adim=[
+['Mîkâtta niyet edip telbiye ile ihrama girmek','farz','ihram','Temettu‘da önce umre için ihrama girilir, umreden sonra ihramdan çıkılır; hac için 8 Zilhicce’de Mekke’de tekrar ihrama girilir.'],
+['Mekke’ye varınca kudûm tavafı yapmak','sünnet','','İfrâd ve kırân haccı yapan âfâkî için sünnettir; temettu‘ yapanın umre tavafı yerine geçer.'],
+['Terviye günü (8 Zilhicce) Mina’ya çıkıp geceyi orada geçirmek','sünnet','',''],
+['Arefe günü (9 Zilhicce) zevalden sonra Arafat’ta vakfe yapmak','farz','','Zevalden bayram sabahına kadar bir an bile Arafat’ta bulunmak farzdır. “Hac Arafat’tır.”'],
+['Arafat’ta öğle ile ikindiyi öğle vaktinde birleştirmek (cem‘-i takdîm)','sünnet','cem','Hanefîlere göre imamla cemaat hâlinde kılınması şartıyla.'],
+['Güneş batınca Müzdelife’ye gidip akşam ile yatsıyı yatsı vaktinde birleştirmek','vâcip','cem',''],
+['Bayram sabahı fecirden sonra Müzdelife’de vakfe yapmak','vâcip','',''],
+['Bayram günü (10 Zilhicce) Akabe cemresine yedi taş atmak','vâcip','hactertip','İlk taşla telbiye kesilir.'],
+['Şükür kurbanı kesmek','vâcip','hactertip','Temettu‘ ve kırân yapana vâcip, ifrâd yapana müstehaptır.'],
+['Tıraş olmak veya saçı kısaltmak','vâcip','hactertip','Ebû Hanîfe’ye göre taş, kurban, tıraş sırası vâciptir. Tıraştan sonra eşle ilgili yasaklar dışında ihram yasakları kalkar.'],
+['Bayram günlerinde ziyaret (ifâda) tavafını yapmak','farz','tavafabdest','Haccın ikinci rüknüdür; bayram günlerinden sonraya bırakmak dem gerektirir.'],
+['Ziyaret tavafından sonra sa‘y yapmak','vâcip','say','Kudûm tavafından sonra sa‘y yapmış olan (ifrâd/kırân) tekrar yapmaz.'],
+['Teşrik günleri (11 ve 12 Zilhicce) Mina’da kalıp zevalden sonra üç cemreye yedişer taş atmak','vâcip','','13. gün de kalan o günün taşlarını da atar.'],
+['Mekke’den ayrılmadan önce vedâ tavafı yapmak','vâcip','','Âfâkî için vâciptir; hayızlı kadından düşer.'],
+]),
+
 ]
 json.dump(A,open('data/fikih/adim.json','w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
 print(len(A),'rehber')
