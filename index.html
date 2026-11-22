@@ -132,11 +132,25 @@ a{color:var(--accent)}
 .rd-f .pill{padding:9px 14px;font-size:14px}
 .rd-meal{display:none}
 .rd.wide .rd-ay{display:none}
-@media(min-width:1000px){
-  .rd{display:grid;grid-template-columns:minmax(0,1fr) minmax(340px,31%);grid-template-rows:52px auto minmax(0,1fr) auto}
+.rd-h .lb{margin-inline-start:4px}.rd-h .pill{white-space:nowrap}
+#rdT{display:none}
+.rd.focus{bottom:0;z-index:55}
+.rd.focus .rd-tabs,.rd.focus .rd-body .bh{display:none}
+.rd.focus.tabsOn .rd-tabs{display:flex}.rd.focus.tabsOn .rd-body .bh{display:flex}
+.rd.focus #rdT{display:inline-flex}
+.rd.focus #rdF{background:var(--accent);color:#fff;border-color:var(--accent)}
+.rd.focus .rd-f{padding:4px 10px}.rd.focus .rd-f .pill{padding:6px 12px;font-size:13px}
+.rd.focus .rd-body .box{max-width:none;border:0;border-radius:0;box-shadow:none}
+.rd.focus .rd-body .txt{padding:12px 16px 30px}
+@media(max-width:560px){.rd-h .lb{display:none}.rd-h{gap:4px;padding:0 6px}.rd-h b{font-size:18px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}}
+@media(min-width:700px){
+  .rd{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,24%);grid-template-rows:52px auto minmax(0,1fr) auto}
+  .rd.focus{grid-template-columns:minmax(0,1fr) minmax(200px,20%)}
+  .rd.focus .rd-ay,.rd.focus .rd-ay.min{font-size:calc(var(--qsize)*.82);line-height:2.1;padding:16px 18px}
+  .rd.focus .rd-body .txt{padding:18px 40px 40px}
   .rd.wide{grid-template-columns:minmax(0,1fr)}
   .rd-h{grid-column:1/-1;grid-row:1}
-  .rd-ay,.rd-ay.min{grid-column:2;grid-row:2/-1;max-height:none;white-space:normal;overflow-y:auto;font-size:var(--qsize);line-height:2.3;padding:22px 26px;border-bottom:0;border-inline-start:2px solid var(--gold);cursor:default}
+  .rd-ay,.rd-ay.min{grid-column:2;grid-row:2/-1;max-height:none;white-space:normal;overflow-y:auto;font-size:calc(var(--qsize)*.9);line-height:2.2;padding:18px 20px;border-bottom:0;border-inline-start:2px solid var(--gold);cursor:default}
   .rd-tabs{grid-column:1;grid-row:2}
   .rd-body{grid-column:1;grid-row:3}
   .rd-f{grid-column:1;grid-row:4}
@@ -497,7 +511,7 @@ a{color:var(--accent)}
   <div class="hd"><h2>Ayarlar</h2><button class="ib x"></button></div>
   <div class="bd" id="ovAB"></div></div></div>
 <div class="rd hide" id="rd">
-  <div class="rd-h"><button class="ib" id="rdX" title="Sûreye dön"></button><b id="rdKey"></b><span style="flex:1"></span><button class="pill" id="rdW" title="Âyeti gizle, tefsiri tam ekran oku"></button><button class="ib" id="rdPlay" title="Bu âyeti dinle"></button></div>
+  <div class="rd-h"><button class="ib" id="rdX" title="Sûreye dön"></button><b id="rdKey"></b><span style="flex:1"></span><button class="ib" id="rdT" title="Sekmeleri ve kitap seçimini göster/gizle">☰</button><button class="pill" id="rdF" title="Okuma modu: sekmeler ve alt çubuk gizlenir, kitap bütün ekranı kaplar">📖<span class="lb">Okuma modu</span></button><button class="pill" id="rdW" title="Âyeti gizle, tefsiri tam ekran oku"></button><button class="ib" id="rdPlay" title="Bu âyeti dinle"></button></div>
   <div class="rd-ay" id="rdAy" lang="ar" title="Daraltmak / genişletmek için dokunun"></div>
   <div class="rd-tabs" id="rdTabs"></div>
   <div class="rd-body"><div class="box" id="rdBox"></div></div>
@@ -1123,6 +1137,9 @@ ez.au.onended=()=>{if(!ez.on)return;const R=+$('#ezR').value,A=+$('#ezA').value,
   if(ez.c<R)return ezPlay();ez.c=0;if(ez.n<B){ez.n++;return ezPlay()}if($('#ezL').checked){ez.n=A;return ezPlay()}ezStop();ezShow()};
 function openEzber(){hideScr();scrSet('ezber');stopAudio();$('#ezber').classList.remove('hide');const c=LS.get('mihrab.ez',{s:st.s||1,a:1,b:5,r:'5'});
   $('#ezS').innerHTML=SN().map((n,i)=>`<option value="${i+1}">${i+1}. ${esc(n)}</option>`).join('');$('#ezS').value=c.s;$('#ezA').value=c.a;$('#ezB').value=c.b;$('#ezR').value=c.r;ez.s=0;ez.n=c.a;ez.c=0;ezLoad()}
+function rdModu(){const r=$('#rd');r.classList.toggle('wide',!!set.rdWide);r.classList.toggle('focus',!!set.rdFocus);
+  $('#rdW').innerHTML=set.rdWide?'۝<span class="lb">Âyeti göster</span>':'⤢<span class="lb">Geniş okuma</span>';
+  $('#rdF').innerHTML=set.rdFocus?'✕<span class="lb">Okuma modundan çık</span>':'📖<span class="lb">Okuma modu</span>'}
 function rdOpen(){return !$('#rd').classList.contains('hide')}
 function closeReader(fromPop){
   if(!rdOpen())return;const n=st.open?.n;$('#rd').classList.add('hide');document.body.style.overflow='';st.open=null;clip.pause();
@@ -1136,7 +1153,7 @@ function openReader(n,c){
   $('#rdKey').textContent=`${SN()[st.s-1]} ${st.s}:${n}`;$('#rdPos').textContent=`${n} / ${st.ay.length}`;
   if(!same){$('#rdAy').innerHTML=`${a.tj||esc(a.text)} <span class="num">${toAr(n)}</span><div class="rd-meal"></div>`;$('#rdAy').scrollTop=0;
     const mid=set.meals[0]||MEALS[0][0];offAyah(mid,st.s,n).then(t=>t||getJSON(`${AQ}/ayah/${st.s}:${n}/${mid}`).then(j=>j?.data?.text)).then(t=>{const m=$('#rdAy .rd-meal');if(m&&t&&st.open&&st.open.n===n)m.innerHTML=`<b>${esc(MEAL_N[mid]||'Meal')}</b>${esc(t)}`}).catch(()=>{})}
-  $('#rd').classList.toggle('wide',!!set.rdWide);$('#rdW').textContent=set.rdWide?'Âyeti göster':'Geniş okuma';
+  rdModu();
   $('#rdTabs').innerHTML=ORDER.map(k=>`<button class="tb ${k===c?'on':''}" data-c="${k}">${CATS[k].n} <i>${CATS[k].ar}</i></button>`).join('');
   $('#rdPrev').disabled=n<=1;$('#rdNext').disabled=n>=st.ay.length;
   const box=$('#rdBox');box.innerHTML=loading();$('.rd-body').scrollTop=0;
@@ -1367,7 +1384,9 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   $('#rdX').innerHTML=icon(RT?'r':'l');$('#rdPlay').innerHTML=icon('p',18);
   $('#rdX').onclick=()=>closeReader();$('#rdPlay').onclick=()=>st.open&&playAyah(st.open.n);
   $('#rdAy').onclick=()=>$('#rdAy').classList.toggle('min');
-  $('#rdW').onclick=()=>{set.rdWide=!set.rdWide;save();$('#rd').classList.toggle('wide',set.rdWide);$('#rdW').textContent=set.rdWide?'Âyeti göster':'Geniş okuma'};
+  $('#rdW').onclick=()=>{set.rdWide=!set.rdWide;save();rdModu()};
+  $('#rdF').onclick=()=>{set.rdFocus=!set.rdFocus;save();$('#rd').classList.remove('tabsOn');if(set.rdFocus&&innerWidth<700)$('#rdAy').classList.add('min');rdModu()};
+  $('#rdT').onclick=()=>$('#rd').classList.toggle('tabsOn');
   $('#rdTabs').onclick=e=>{const b=e.target.closest('.tb');if(b&&st.open)openReader(st.open.n,b.dataset.c)};
   $('#rdPrev').onclick=()=>st.open&&openReader(st.open.n-1,st.open.c);$('#rdNext').onclick=()=>st.open&&openReader(st.open.n+1,st.open.c);
   addEventListener('popstate',()=>closeReader(true));
