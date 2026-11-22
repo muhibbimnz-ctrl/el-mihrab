@@ -5,6 +5,7 @@ from dersler import DERSLER
 from hikayeler import HIKAYELER
 from buyukler import BUYUKLER
 from siyer import SIYER
+from kissalar import KISSALAR
 from namaz import ABDEST, NAMAZ, VAKIT, SURELER, DUALAR, DOGRU_YANLIS, HAFIZA
 
 SIYER_SORU = [
@@ -33,10 +34,13 @@ def quiz_pool():
     for i, b in enumerate(BUYUKLER):
         yan = [ads[(i + j) % len(ads)] for j in (3, 7, 11)]
         out.append(dict(q=f'“{b["lakap"]}” kimdir?', d=b['ad'], y=yan, k='buyuk'))
+    kads = [k['ad'] for k in KISSALAR]
+    for i, k in enumerate(KISSALAR):
+        out.append(dict(q=f'“{k["ozet"]}” hangi peygamberin kıssasıdır?', d=k['ad'], y=[kads[(i + j) % len(kads)] for j in (2, 5, 7)], k='kissa'))
     return out
 
 def kontrol():
-    for grup in (DERSLER, HIKAYELER, BUYUKLER, SIYER):
+    for grup in (DERSLER, HIKAYELER, BUYUKLER, SIYER, KISSALAR):
         ids = [d['id'] for d in grup]
         assert len(ids) == len(set(ids)), ids
     did = {d['id'] for d in DUALAR}
@@ -49,7 +53,7 @@ def kontrol():
 kontrol()
 V = dict(
     surum=1,
-    dersler=DERSLER, hikayeler=HIKAYELER, buyukler=BUYUKLER, siyer=SIYER,
+    dersler=DERSLER, hikayeler=HIKAYELER, kissalar=KISSALAR, buyukler=BUYUKLER, siyer=SIYER,
     abdest=[dict(i=a, b=b, a=c) for a, b, c in ABDEST], namaz=NAMAZ,
     vakit=[dict(i=a, b=b, r=c) for a, b, c in VAKIT],
     sureler=[dict(n=a, ad=b, a=c) for a, b, c in SURELER], dualar=DUALAR,
@@ -57,5 +61,5 @@ V = dict(
 )
 os.makedirs('data/cocuk', exist_ok=True)
 json.dump(V, open('data/cocuk/icerik.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
-kel = sum(len(' '.join(x['p']).split()) for x in DERSLER + HIKAYELER + BUYUKLER + SIYER)
-print('ok', os.path.getsize('data/cocuk/icerik.json') // 1024, 'KB;', len(DERSLER), 'ders,', len(HIKAYELER), 'hikâye,', len(BUYUKLER), 'büyük,', len(SIYER), 'siyer,', len(DUALAR), 'dua,', len(V['oyun']['bilgi']), 'soru;', kel, 'kelime')
+kel = sum(len(' '.join(x['p']).split()) for x in DERSLER + HIKAYELER + BUYUKLER + SIYER + [b for k in KISSALAR for b in k['bolumler']])
+print('ok', os.path.getsize('data/cocuk/icerik.json') // 1024, 'KB;', len(DERSLER), 'ders,', len(HIKAYELER), 'hikâye,', len(BUYUKLER), 'büyük,', len(SIYER), 'siyer,', len(KISSALAR), 'kıssa,', len(DUALAR), 'dua,', len(V['oyun']['bilgi']), 'soru;', kel, 'kelime')
