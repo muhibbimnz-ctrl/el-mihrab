@@ -45,7 +45,13 @@ def metin(pdf_url):
     ps = [re.sub(r'\s*\n\s*', ' ', p).strip() for p in re.split(r'\n\s*\n', t)]
     if len(ps) < 3:  # PDF boş satır vermezse cümle sonlarından böl
         ps = [re.sub(r'\s+', ' ', p).strip() for p in re.split(r'(?<=[.!?:”"])\s*\n', t)]
-    return [p for p in ps if len(p) > 2][:80]
+    def arapca(p):
+        return len(re.findall(r'[\u0600-\u06FF]', p)) > 0.3 * max(1, len(p))
+    ps = [p for p in ps if len(p) > 2 and not arapca(p)]
+    # PDF'teki Arapça kısımlar düzgün çıkmaz (harekeler kayar); onlar için PDF bağlantısı verilir
+    ps = [re.sub(r'^Tarih:\s*\d{1,2}\.\d{1,2}\.\d{4}\s*', '', p) for p in ps]
+    ps = [p for p in ps if p and p.strip() != 'Din Hizmetleri Genel Müdürlüğü']
+    return ps[:80]
 
 def main():
     eski = {}
@@ -58,10 +64,10 @@ def main():
         print('Liste okunamadı; dosyaya dokunulmadı.'); return 1
     for i, h in enumerate(S[:20]):
         e = eski.get(h['tarih'])
-        if e and e.get('metin') and e.get('baslik') == h['baslik']:
-            h['metin'] = e['metin']
+        if e and e.get('metin') and e.get('baslik') == h['baslik'] and e.get('v') == 2:
+            h['metin'] = e['metin']; h['v'] = 2
         elif i < 6 and h['pdf']:
-            h['metin'] = metin(h['pdf'])
+            h['metin'] = metin(h['pdf']); h['v'] = 2
     yeni = dict(kaynak='Diyanet İşleri Başkanlığı, Din Hizmetleri Genel Müdürlüğü', sayfa=LISTE,
                 guncel=datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%MZ'), hutbeler=S[:20])
     eskiS = json.dumps({k: v for k, v in (json.load(open(CIKTI, encoding='utf-8')) if os.path.exists(CIKTI) else {}).items() if k != 'guncel'}, ensure_ascii=False, sort_keys=True) if os.path.exists(CIKTI) else ''
