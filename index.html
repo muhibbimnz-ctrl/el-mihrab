@@ -438,32 +438,15 @@ a{color:var(--accent)}
   <div class="hm-logo"><img src="icon-512.png" width="118" height="118" alt="el-Mihrâb" style="border-radius:26px;box-shadow:0 8px 22px #0003">
     <div class="hm-ar">المِحْرَاب</div><div class="hm-tr">EL-MİHRÂB · KUR'ÂN-I KERÎM VE TEFSÎRİ</div></div>
   <div class="hmgrid">
-  <button class="tile big1" id="hNamaz"><svg viewBox="0 0 64 48"><path d="M32 12C24 6 14 5 6 7v32c8-2 18-1 26 5 8-6 18-7 26-5V7c-8-2-18-1-26 5z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M32 12v32" stroke="currentColor" stroke-width="3"/></svg><b>Namaz ve Kur'an</b><span class="hm-sub" id="hNx">Ezan vakitleri · Okuma · Ezber</span></button>
+  <button class="tile big1" id="hNamaz"><svg viewBox="0 0 64 48"><path d="M32 12C24 6 14 5 6 7v32c8-2 18-1 26 5 8-6 18-7 26-5V7c-8-2-18-1-26 5z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M32 12v32" stroke="currentColor" stroke-width="3"/></svg><b>Namaz ve Kur'an</b><span class="hm-sub" id="hNx">Ezan vakitleri · Okuma · Canlı yayın · Dil</span></button>
   <button class="tile big2" id="hStudy"><svg viewBox="0 0 64 48"><path d="M10 44V22C10 12 20 5 32 2c12 3 22 10 22 20v22z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M20 44V25c0-7 6-12 12-15 6 3 12 8 12 15v19" fill="none" stroke="currentColor" stroke-width="2"/></svg><b>el-Mihrâb Dirâset</b><span class="hm-sub" id="hStudyT">Kur'an · Hadis · Usûl</span></button>
   <button class="tile big3" id="hMedrese"><svg viewBox="0 0 64 48"><path d="M8 44h48M12 44V20h40v24M6 20l26-15 26 15" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M26 44V32a6 6 0 0 1 12 0v12" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M18 26v8M46 26v8" stroke="currentColor" stroke-width="2.5"/></svg><b>Medrese</b><span class="hm-sub">Sarf · Nahiv · Kur'an i'râbı · Arapça</span></button>
-  <button class="tile big4" id="hDiger"><svg viewBox="0 0 64 48"><rect x="6" y="8" width="52" height="34" rx="9" fill="none" stroke="currentColor" stroke-width="3"/><path d="M27 17v16l13-8z" fill="currentColor"/></svg><b>Diğer</b><span class="hm-sub">Hadis hikâyeleri · Dil dersleri</span></button>
+  <button class="tile big4" id="hIhtisas"><svg viewBox="0 0 64 48"><path d="M10 40V14l22-8 22 8v26" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M18 40V20M26 40V20M38 40V20M46 40V20M6 42h52" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><b>İhtisas</b><span class="hm-sub">Belâgat · Tefsir · Hadis · Fıkıh</span></button>
   </div>
   <div class="hm-links"><a href="#" id="hList">Sûre seç</a> · <a href="#" onclick="about();return false">Hakkında ve destek</a></div>
 </div></section>
 
-<section class="scr hide" id="diger">
-  <div class="rd-h"><button class="ib" id="dgX" title="Ana sayfa"></button><b>Diğer</b><span style="flex:1"></span></div>
-  <div class="nm-in">
-    <div class="dl-h">Canlı yayın</div>
-    <div class="cny" id="cny"></div>
-    <div class="dl-h">Hadis hikâyeleri</div>
-    <div class="tv"><div class="tvekran"><iframe id="tvF" title="Hadis hikâyeleri" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div><div class="tvalt"><span class="tvled"></span><b id="tvT">el-Mihrâb TV</b></div></div>
-    <div id="vdList" class="vdl"></div>
-    <div class="dl-h">Dil dersleri</div>
-    <div class="tiles t3w">
-      <button class="tile t4" data-dil="farsca"><span class="big">ف</span><b>Farsça</b></button>
-      <button class="tile t5" data-dil="ingilizce"><span class="big">En</span><b>İngilizce</b></button>
-      <button class="tile t6" data-dil="almanca"><span class="big">De</span><b>Almanca</b></button>
-      <button class="tile t7" data-dil="fransizca"><span class="big">Fr</span><b>Fransızca</b></button>
-      <button class="tile t8" data-dil="ispanyolca"><span class="big">Es</span><b>İspanyolca</b></button>
-    </div>
-  </div>
-</section>
+
 <div class="vdov hide" id="vdOv"><div class="vdbx"><div class="vdh"><b id="vdT"></b><button class="ib" id="vdC" aria-label="Kapat">✕</button></div><div class="vdf"><iframe id="vdF" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div></div></div>
 <section class="scr hide" id="namaz">
   <div class="rd-h"><button class="ib" id="nmX" title="Ana sayfa"></button><b>Namaz ve Kur'an</b><span style="flex:1"></span></div>
@@ -478,11 +461,19 @@ a{color:var(--accent)}
     <div class="dl-h">Günlük</div>
     <div class="gl">
       <div class="gcard" id="gDevam"></div>
-      <div class="gcard" id="gHicri"></div>
-      <div class="gcard" id="gKible"></div>
-      <div class="gcard gz" id="gZikir"><div class="gk">Zikirmatik</div><select id="zS"><option>Sübhânallah</option><option>Elhamdülillah</option><option>Allâhu ekber</option><option>Lâ ilâhe illallah</option><option>Estağfirullah</option><option>Salavât</option></select><button id="zB" class="zb">0</button><div class="note"><a href="#" id="zR">sıfırla</a> · hedef <select id="zT"><option>33</option><option>99</option><option>100</option><option>1000</option></select></div></div>
       <div class="gcard gay" id="gAyet"></div>
       <div class="gcard gay gh" id="gHadis"></div>
+    </div>
+    <div class="dl-h">Canlı yayın</div>
+    <div class="cny" id="cny"></div>
+    <div class="dl-h">Hadis hikâyeleri</div>
+    <div class="tv"><div class="tvekran"><iframe id="tvF" title="Hadis hikâyeleri" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div><div class="tvalt"><span class="tvled"></span><b id="tvT">el-Mihrâb TV</b></div></div>
+    <div id="vdList" class="vdl"></div>
+    <div class="dl-h">Dil dersleri</div>
+    <div class="tiles t3w">
+      <button class="tile t3" data-dil="arapca"><span class="big">ع</span><b>Arapça</b></button>
+      <button class="tile t4" data-dil="farsca"><span class="big">ف</span><b>Farsça</b></button>
+      <button class="tile t5" data-dil="ingilizce"><span class="big">En</span><b>İngilizce</b></button>
     </div>
     <div class="offs"><a href="#" id="hOff">⬇ İnternetsiz kullanım için indir</a> <span class="note" id="hOffI"></span></div>
   </div>
@@ -708,7 +699,7 @@ const I18N={
  "değiştir":["تغيير","change"],"vaktine":["بعد","in"],"Ana sayfa":["الرئيسية","Home"],"Sûre":["السورة","Surah"],"Tekrar":["التكرار","Repeat"],
  "Aralığı baştan tekrarla":["أعد المقطع من البداية","Loop the range"],"Metni gizle (kendini sına)":["إخفاء النص (اختبر نفسك)","Hide text (test yourself)"],"‹ Önceki":["السابق ›","‹ Previous"],"Sonraki ›":["‹ التالي","Next ›"],
  "Namaz ve Kur'an":["الصلاة والقرآن","Prayer & Qur'an"],"Ezan vakitleri · Kur'ân-ı Kerîm · Ezber · Dil dersleri":["المواقيت · المصحف · الحفظ · اللغات","Prayer times · Qur'an · Memorise · Languages"],"Dil dersleri":["دروس اللغات","Language lessons"],"Arapça":["العربية","Arabic"],"Farsça":["الفارسية","Persian"],"İngilizce":["الإنجليزية","English"],"Sûre seç ›":["اختر سورة ‹","Choose surah ›"],"Bu ders yakında eklenecek":["سيُضاف هذا الدرس قريبًا","This lesson will be added soon"],
- "Devam et":["متابعة","Continue"],"Ezan vakitleri · Okuma · Ezber · Dil":["المواقيت · القراءة · الحفظ · اللغات","Prayer times · Reading · Hifz · Languages"],"Tefsir · İ'râb · Belâgat · Kıraat":["التفسير · الإعراب · البلاغة · القراءات","Tafsir · I'rab · Balagha · Qira'at"],"Sûre seç":["اختر سورة","Choose surah"],
+ "Devam et":["متابعة","Continue"],"Ezan vakitleri · Okuma · Canlı yayın · Dil · Dil":["المواقيت · القراءة · الحفظ · اللغات","Prayer times · Reading · Hifz · Languages"],"Tefsir · İ'râb · Belâgat · Kıraat":["التفسير · الإعراب · البلاغة · القراءات","Tafsir · I'rab · Balagha · Qira'at"],"Sûre seç":["اختر سورة","Choose surah"],
  "Günlük":["اليوم","Today"],"Hicrî takvim":["التقويم الهجري","Hijri date"],"Kıble yönü":["اتجاه القبلة","Qibla"],"Kuzeyden saat yönünde":["من الشمال باتجاه عقارب الساعة","Clockwise from north"],"Kıble yönü için yukarıdan \"Konumumu kullan\"ı seçin.":["لاتجاه القبلة اختر «استخدم موقعي» في الأعلى.","For the qibla, choose “Use my location” above."],"Zikirmatik":["المسبحة","Tasbih counter"],"sıfırla":["تصفير","reset"],"hedef":["الهدف","target"],"Günün âyeti":["آية اليوم","Verse of the day"],"İnternetsiz kullanım hazır":["جاهز للاستخدام دون إنترنت","Ready for offline use"],"⬇ İnternetsiz kullanım için indir":["⬇ تنزيل للاستخدام دون إنترنت","⬇ Download for offline use"],
  "Almanca":["الألمانية","German"],"Fransızca":["الفرنسية","French"],"İspanyolca":["الإسبانية","Spanish"],
  "Günün hadisi":["حديث اليوم","Hadith of the day"],"mealen":["بالمعنى","meaning"],"Kaldığınız yer":["موضع التوقف","Where you left off"],"Okumaya devam":["تابع القراءة","Continue reading"],"Mushafta":["في المصحف","In mushaf"],"Kur'an ve meâller cihazınıza kaydedildi":["حُفظ القرآن على جهازك","Qur'an and translations saved to your device"],"güncelle":["تحديث","update"],
@@ -903,7 +894,7 @@ async function offSurah(s,eds){const r=await Promise.all(eds.map(ed=>locEd(ed,s)
 async function offAyah(ed,s,a){try{return (await locEd(ed,s)).ayahs[a-1]?.text}catch(e){return null}}
 async function offStatus(){return LS.get('mihrab.offdone',0)?['x','x','x','x']:[]}
 async function offDownload(btn,info){
-  const eds=[...new Set(['quran-uthmani','quran-simple',...MEALS.map(m=>m[0]),TRL])];const jobs=['data/canli.json','cocuk.html','data/cocuk/icerik.json?v=2','medrese.html','medrese.js','kelime.js','data/morph/babs.json','data/morph/roots.json','data/morph/onay.json','data/yds/banka.json','data/modern/modern.json',...['bina','maksud','izzi','avamil','birgivi','izhar','zuruf','kavaid','ajurrumiyye','katr','serhkatr','tatbik'].map(k=>`data/kitap/${k}.json`),'arapca.html','farsca.html','ingilizce.html','almanca.html','fransizca.html','ispanyolca.html','hadis.html','fikih.html','data/fikih/meseleler.json','data/fikih/liste.json','data/fikih/adim.json','data/fikih/ayet.json?v=10','siyer.html','data/siyer/olaylar.json?v=10','data/siyer/kitap.json?v=10','data/siyer/sahabe.json?v=10','data/siyer/sorular.json?v=10','data/siyer/yerler.json?v=10','data/siyer/ayet.json?v=1','ahlak.html','data/ahlak/konular.json?v=1','data/ahlak/ayet.json?v=1','data/hadis/erbain.json','data/hadis/bais.json','data/hadis/kutub.json','roman.html','data/roman/liste.json','data/roman/selahaddin.json','data/roman/sharl.json','data/roman/sindbad.json','data/roman/cuha.json','data/roman/hamama.json','data/roman/kalila.json','data/roman/hayy.json','data/roman/battuta.json','data/roman/gulistan.json','data/roman/sohrab.json','data/roman/masnavi.json','data/roman/prince.json','data/roman/aesop.json','data/roman/crusoe.json','data/roman/gulliver.json','data/roman/holmes.json','data/roman/carol.json','data/roman/verne.json','index.html','manifest.webmanifest','icon-192.png','icon-512.png'];
+  const eds=[...new Set(['quran-uthmani','quran-simple',...MEALS.map(m=>m[0]),TRL])];const jobs=['ihtisas.html','ihtisas/belagat/index.html',...['library','persons','terms','timeline','works','databases','keywords','route','primary','books','novels','adab','edebiyat'].map(k=>`ihtisas/belagat/data/${k}.json`),'data/canli.json','cocuk.html','data/cocuk/icerik.json?v=2','medrese.html','medrese.js','kelime.js','data/morph/babs.json','data/morph/roots.json','data/morph/onay.json','data/yds/banka.json','data/modern/modern.json',...['bina','maksud','izzi','avamil','birgivi','izhar','zuruf','kavaid','ajurrumiyye','katr','serhkatr','tatbik'].map(k=>`data/kitap/${k}.json`),'arapca.html','farsca.html','ingilizce.html','hadis.html','fikih.html','data/fikih/meseleler.json','data/fikih/liste.json','data/fikih/adim.json','data/fikih/ayet.json?v=10','siyer.html','data/siyer/olaylar.json?v=10','data/siyer/kitap.json?v=10','data/siyer/sahabe.json?v=10','data/siyer/sorular.json?v=10','data/siyer/yerler.json?v=10','data/siyer/ayet.json?v=1','ahlak.html','data/ahlak/konular.json?v=1','data/ahlak/ayet.json?v=1','data/hadis/erbain.json','data/hadis/bais.json','data/hadis/kutub.json','roman.html','data/roman/liste.json','data/roman/selahaddin.json','data/roman/sharl.json','data/roman/sindbad.json','data/roman/cuha.json','data/roman/hamama.json','data/roman/kalila.json','data/roman/hayy.json','data/roman/battuta.json','data/roman/gulistan.json','data/roman/sohrab.json','data/roman/masnavi.json','data/roman/prince.json','data/roman/aesop.json','data/roman/crusoe.json','data/roman/gulliver.json','data/roman/holmes.json','data/roman/carol.json','data/roman/verne.json','index.html','manifest.webmanifest','icon-192.png','icon-512.png'];
   for(const ed of eds)for(let s=1;s<=114;s++)jobs.push(`data/q/${ed}/${s}.json`);
   for(let s=1;s<=114;s++)jobs.push(`data/morph/${s}.json`);
   let done=0,fail=0;
@@ -969,7 +960,7 @@ $('#main').addEventListener('click',e=>{
 });
 /* ================= ANA SAYFA · EZAN · OKUMA · EZBER ================= */
 const scrSet=v=>{try{sessionStorage.setItem('mihrab.scr',v)}catch(e){}};
-function hideScr(){$('#vdOv')&&vdKapat();if($('#tvF'))$('#tvF').src='about:blank';try{canliDurdur()}catch(e){}['home','namaz','diger','okuma','ezber'].forEach(i=>$('#'+i).classList.add('hide'));ezStop();scrSet('study')}
+function hideScr(){$('#vdOv')&&vdKapat();if($('#tvF'))$('#tvF').src='about:blank';try{canliDurdur()}catch(e){}['home','namaz','okuma','ezber'].forEach(i=>{const e=$('#'+i);e&&e.classList.add('hide')});ezStop();scrSet('study')}
 function showHome(){hideScr();scrSet('home');closeBox();$('#home').classList.remove('hide');const l=LS.get('beyan2.last',{s:1,a:1});$('#hStudyT').textContent=`${trS('Devam et')} · ${SN()[(l.s||1)-1]} ${l.s||1}:${l.a||1}`;ptNext()}
 function vdKapat(){$('#vdF').src='about:blank';$('#vdOv').classList.add('hide')}
 function vdAc(id,bas){$('#vdT').textContent=bas||'';$('#vdF').src='https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&playsinline=1&rel=0&modestbranding=1';$('#vdOv').classList.remove('hide')}
@@ -984,7 +975,7 @@ async function canliKur(){const k=$('#cny');if(!k||k.dataset.ok)return;let d=CAN
     const ac=()=>{$('.ek',c).innerHTML=`<iframe title="${esc(y.ad)} canlı yayın" src="${YTE((y.kaynaklar[j].video?encodeURIComponent(y.kaynaklar[j].video)+'?':'live_stream?channel='+encodeURIComponent(y.kaynaklar[j].kanal)+'&')+'autoplay=1&mute=1')}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;$('.al b',c).textContent=y.ad+' · '+y.kaynaklar[j].ad;a.href=url()};
     $('.ps',c).onclick=ac;$('.yk',c).onclick=()=>{j=(j+1)%y.kaynaklar.length;ac();toast(y.ad+': '+y.kaynaklar[j].ad)}})}
 function canliDurdur(){const k=$('#cny');if(k){delete k.dataset.ok;k.innerHTML=''}}
-async function openDiger(){hideScr();scrSet('diger');$('#diger').classList.remove('hide');canliKur();const box=$('#vdList');
+async function openDiger(){if($('#namaz').classList.contains('hide'))return openNamaz();canliKur();const box=$('#vdList');
   let d=null;try{d=await (await fetch('data/videolar.json',{cache:'no-cache'})).json()}catch(e){}
   const V=(d&&d.videolar)||[];
   box.innerHTML=V.map(v=>`<a href="#" data-v="${esc(v.id)}" data-b="${esc(v.baslik||'')}"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg"><b>${esc(v.baslik||'')}</b></a>`).join('')+(d&&d.kanal?`<a class="vk" href="${esc(d.kanal)}" target="_blank" rel="noopener">YouTube kanalına git ›</a>`:'');
@@ -992,22 +983,22 @@ async function openDiger(){hideScr();scrSet('diger');$('#diger').classList.remov
   if(!$('#tvF').src||$('#tvF').src==='about:blank'){
     if(d&&d.kanal_id&&/^UC/.test(d.kanal_id)){$('#tvF').src=YTE('videoseries?list=UU'+d.kanal_id.slice(2));$('#tvT').textContent='Hadis hikâyeleri · en yeniler'}
     else if(V[0])tvOyna(V[0].id,V[0].baslik)}}
-function openNamaz(){hideScr();scrSet('namaz');$('#namaz').classList.remove('hide');ptRender();gunluk();if(LS.get('mihrab.offdone',0)){$('#hOff').textContent='✓ '+trS('Kur\'an ve meâller cihazınıza kaydedildi')+' · '+trS('güncelle')}}
+function openNamaz(){hideScr();scrSet('namaz');$('#namaz').classList.remove('hide');ptRender();gunluk();openDiger();if(LS.get('mihrab.offdone',0)){$('#hOff').textContent='✓ '+trS('Kur\'an ve meâller cihazınıza kaydedildi')+' · '+trS('güncelle')}}
 const HADIS=[["Ameller ancak niyetlere göredir; herkese ancak niyet ettiği şey vardır.", "Buhârî, Bed'ü'l-vahy 1; Müslim, İmâre 155 (1907)"], ["Sizin en hayırlınız Kur'an'ı öğrenen ve öğretendir.", "Buhârî, Fezâilü'l-Kur'ân 21 (5027)"], ["Kolaylaştırın, zorlaştırmayın; müjdeleyin, nefret ettirmeyin.", "Buhârî, İlim 11 (69); Müslim, Cihâd 8 (1734)"], ["Sizden biriniz kendisi için istediğini kardeşi için de istemedikçe (kâmil) iman etmiş olmaz.", "Buhârî, Îmân 7 (13); Müslim, Îmân 71 (45)"], ["Allah'a ve âhiret gününe iman eden kimse ya hayır söylesin ya da sussun.", "Buhârî, Edeb 31 (6018); Müslim, Îmân 74 (47)"], ["Müslüman, Müslümanların elinden ve dilinden emin olduğu kimsedir.", "Buhârî, Îmân 4 (10); Müslim, Îmân 64 (41)"], ["Din nasihattir (samimiyettir).", "Müslim, Îmân 95 (55)"], ["Temizlik imanın yarısıdır.", "Müslim, Tahâret 1 (223)"], ["Kim ilim öğrenmek için bir yola girerse, Allah ona cennete giden yolu kolaylaştırır.", "Müslim, Zikir 38 (2699)"], ["Güçlü kimse güreşte yenen değildir; güçlü kimse öfkelendiğinde kendine hâkim olandır.", "Buhârî, Edeb 76 (6114); Müslim, Birr 107 (2609)"], ["Allah sizin suretlerinize ve mallarınıza bakmaz; kalplerinize ve amellerinize bakar.", "Müslim, Birr 34 (2564)"], ["Merhamet etmeyene merhamet olunmaz.", "Buhârî, Edeb 18 (5997); Müslim, Fezâil 65 (2318)"], ["İki nimet vardır ki insanların çoğu onlarda aldanmıştır: sağlık ve boş vakit.", "Buhârî, Rikâk 1 (6412)"], ["Allah katında amellerin en sevimlisi, az da olsa devamlı olanıdır.", "Buhârî, Rikâk 18 (6464); Müslim, Salâtü'l-müsâfirîn 216 (783)"], ["Dilde hafif, mîzanda ağır, Rahmân'a sevimli iki kelime vardır: Sübhânallâhi ve bihamdihî, sübhânallâhi'l-azîm.", "Buhârî, Deavât 65 (6406); Müslim, Zikir 31 (2694)"], ["Mü'min mü'min için, parçaları birbirini kenetleyen bina gibidir.", "Buhârî, Salât 88 (481); Müslim, Birr 65 (2585)"], ["Kim Allah rızası için bir mescid yaparsa, Allah da ona cennette bir ev yapar.", "Buhârî, Salât 65 (450); Müslim, Mesâcid 24 (533)"], ["Rabbimiz her gece, gecenin son üçte biri kaldığında dünya semâsına iner ve 'Bana dua eden yok mu, duasına icabet edeyim' buyurur.", "Buhârî, Teheccüd 14 (1145); Müslim, Salâtü'l-müsâfirîn 168 (758)"]];
 function gunluk(){
   try{const f=new Intl.DateTimeFormat((LANG==='ar'?'ar':LANG==='en'?'en':'tr')+'-u-ca-islamic-umalqura',{day:'numeric',month:'long',year:'numeric'});
     const fa=new Intl.DateTimeFormat('ar-u-ca-islamic-umalqura-nu-arab',{day:'numeric',month:'long',year:'numeric'});
-    $('#gHicri').innerHTML=`<div class="gk">${trS('Hicrî takvim')}</div><div class="gv">${esc(f.format(new Date()).replace(/ AH| BH/,'').replace(/^Hicri\s*/i,'').replace(/^0/,''))}</div><div class="gar">${esc(fa.format(new Date()))}</div><div class="gs">${esc(new Date().toLocaleDateString(LANG==='ar'?'ar':LANG==='en'?'en':'tr',{weekday:'long',day:'numeric',month:'long'}))}</div>`}catch(e){$('#gHicri').classList.add('hide')}
+    if($('#gHicri'))$('#gHicri').innerHTML=`<div class="gk">${trS('Hicrî takvim')}</div><div class="gv">${esc(f.format(new Date()).replace(/ AH| BH/,'').replace(/^Hicri\s*/i,'').replace(/^0/,''))}</div><div class="gar">${esc(fa.format(new Date()))}</div><div class="gs">${esc(new Date().toLocaleDateString(LANG==='ar'?'ar':LANG==='en'?'en':'tr',{weekday:'long',day:'numeric',month:'long'}))}</div>`}catch(e){$('#gHicri').classList.add('hide')}
   const loc=LS.get('mihrab.loc',null);
-  if(loc&&loc.lat!=null){const D=Math.PI/180,la=loc.lat*D,lo=loc.lng*D,kl=21.4225*D,kn=39.8262*D;
+  if(!$('#gKible')){}else if(loc&&loc.lat!=null){const D=Math.PI/180,la=loc.lat*D,lo=loc.lng*D,kl=21.4225*D,kn=39.8262*D;
     const q=(Math.atan2(Math.sin(kn-lo),Math.cos(la)*Math.tan(kl)-Math.sin(la)*Math.cos(kn-lo))/D+360)%360;
     $('#gKible').innerHTML=`<div class="gk">${trS('Kıble yönü')}</div><div class="kib"><b>K</b><i style="transform:rotate(${q}deg)"></i></div><div class="gv">${Math.round(q)}°</div><div class="gs">${trS('Kuzeyden saat yönünde')}</div>`;
     const k=$('#gKible .kib i');if(window.DeviceOrientationEvent){const on=e=>{const hd=e.webkitCompassHeading??(e.absolute&&e.alpha!=null?360-e.alpha:null);if(hd!=null&&k)k.style.transform=`rotate(${q-hd}deg)`};addEventListener('deviceorientationabsolute',on);addEventListener('deviceorientation',on)}}
   else $('#gKible').innerHTML=`<div class="gk">${trS('Kıble yönü')}</div><div class="gs">${trS('Kıble yönü için yukarıdan "Konumumu kullan"ı seçin.')}</div>`;
-  const z=LS.get('mihrab.zk',{i:0,c:0,t:33});$('#zS').selectedIndex=z.i;$('#zT').value=String(z.t);$('#zB').textContent=z.c;
+  if($('#zB')){const z=LS.get('mihrab.zk',{i:0,c:0,t:33});$('#zS').selectedIndex=z.i;$('#zT').value=String(z.t);$('#zB').textContent=z.c;
   const sv=()=>LS.set('mihrab.zk',z);
   $('#zB').onclick=()=>{z.c++;$('#zB').textContent=z.c;if(z.c%z.t===0){try{navigator.vibrate&&navigator.vibrate([60,40,60])}catch(e){}toast(`${z.c} ✓`)}else{try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}}sv()};
-  $('#zR').onclick=e=>{e.preventDefault();z.c=0;$('#zB').textContent=0;sv()};$('#zS').onchange=()=>{z.i=$('#zS').selectedIndex;z.c=0;$('#zB').textContent=0;sv()};$('#zT').onchange=()=>{z.t=+$('#zT').value;sv()};
+  $('#zR').onclick=e=>{e.preventDefault();z.c=0;$('#zB').textContent=0;sv()};$('#zS').onchange=()=>{z.i=$('#zS').selectedIndex;z.c=0;$('#zB').textContent=0;sv()};$('#zT').onchange=()=>{z.t=+$('#zT').value;sv()}}
   const dn=new Date(),dayL=Math.floor((Date.UTC(dn.getFullYear(),dn.getMonth(),dn.getDate()))/864e5);
   const hd=HADIS[dayL%HADIS.length];$('#gHadis').innerHTML=`<div class="gk" style="text-align:left">${trS('Günün hadisi')}</div><div class="t">“${esc(hd[0])}”</div><div class="k">${esc(hd[1])} · <span style="font-weight:400;color:var(--muted)">${trS('mealen')}</span></div>`;
   const lr=LS.get('beyan2.last',{s:1,a:1}),okp=LS.get('mihrab.okP',1),oks=PG[okp-1][0],pc=Math.round(okp/604*100);
@@ -1425,7 +1416,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('sw.js').catch(()=>{});
   $('#okX').innerHTML=icon('l');$('#ezX').innerHTML=icon('l');$('#ezPl').innerHTML=icon('p',22);
   $('.brand').style.cursor='pointer';$('.brand').onclick=showHome;$('.brand').title=trS('Ana sayfa');
-  $('#hNamaz').onclick=openNamaz;$('#hElifba').onclick=()=>{location.href='elifba.html'};{const c=$('#hCocuk');if(c)c.onclick=()=>{location.href='cocuk.html'}}$('#hDiger').onclick=openDiger;$('#dgX').innerHTML=icon('l');$('#dgX').onclick=showHome;$('#vdC').onclick=vdKapat;$('#vdOv').onclick=e=>{if(e.target.id==='vdOv')vdKapat()};$('#hMedrese').onclick=()=>{location.href='medrese.html'};$('#nmX').innerHTML=icon('l');$('#nmX').onclick=showHome;
+  $('#hNamaz').onclick=openNamaz;{const ih=$('#hIhtisas');if(ih)ih.onclick=()=>{location.href='ihtisas.html'}}$('#hElifba').onclick=()=>{location.href='elifba.html'};{const c=$('#hCocuk');if(c)c.onclick=()=>{location.href='cocuk.html'}}$('#vdC').onclick=vdKapat;$('#vdOv').onclick=e=>{if(e.target.id==='vdOv')vdKapat()};$('#hMedrese').onclick=()=>{location.href='medrese.html'};$('#nmX').innerHTML=icon('l');$('#nmX').onclick=showHome;
   $('#hRead').onclick=()=>openOkuma();$('#hHifz').onclick=openEzber;const kuranDirase=()=>{const l=LS.get('beyan2.last',{s:1,a:1});hideScr();if(l.s===st.s&&st.ay.length){const e=$('#a'+l.a);e&&e.scrollIntoView({block:'center'})}else loadSurah(l.s||1,l.a>1?l.a:null)};$('#hStudy').onclick=()=>{let o=$('#dsSec');if(!o){o=document.createElement('div');o.id='dsSec';o.style.cssText='position:fixed;inset:0;z-index:60;background:rgba(20,30,25,.45);display:flex;align-items:flex-end;justify-content:center';o.innerHTML=`<div style="background:var(--card,#fff);color:inherit;width:min(520px,100%);border-radius:26px 26px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:10px"><b style="font-size:18px;text-align:center">el-Mihrâb Dirâset</b><button id="dsK" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#2f5d4e;color:#fff;cursor:pointer">Kur'an Dirâsesi<br><small style="font-weight:400;opacity:.85">Tefsir · İ'râb · Belâgat · Kıraat</small></button><button id="dsH" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#8a6a2c;color:#fff;cursor:pointer">Hadis Dirâsesi<br><small style="font-weight:400;opacity:.85">32 hadis kitabı · Kırk Hadis · Usûl</small></button><button id="dsF" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#5b4a7a;color:#fff;cursor:pointer">Fıkıh Dirâsesi<br><small style="font-weight:400;opacity:.85">260 mesele · Kudûrî ibareleriyle · 12 rehber · 8 Arapça kitap</small></button><button id="dsY" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#1f5b6e;color:#fff;cursor:pointer">Siyer Dirâsesi<br><small style="font-weight:400;opacity:.85">Siyer kitabı (72 bölüm) · Günlük ders ve 145 soru · 27 sahâbe kartı · Şecere</small></button><button id="dsA" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#7a3b4e;color:#fff;cursor:pointer">Ahlak Dirâsesi<br><small style="font-weight:400;opacity:.85">Riyâzü’s-Sâlihîn düzeninde 32 konu · Günlük nefis muhasebesi</small></button></div>`;o.onclick=e=>{if(e.target===o)o.remove()};document.body.appendChild(o);$('#dsK').onclick=()=>{o.remove();kuranDirase()};$('#dsH').onclick=()=>{location.href='hadis.html'};$('#dsF').onclick=()=>{location.href='fikih.html'};$('#dsY').onclick=()=>{location.href='siyer.html'};$('#dsA').onclick=()=>{location.href='ahlak.html'}}};if(new URLSearchParams(location.search).get('dirase')==='kuran'){history.replaceState(null,'',location.pathname);setTimeout(kuranDirase,50)};
   $('#hList').onclick=e=>{e.preventDefault();hideScr();openOv('ovS');surahList('s')};
   $('#hOff').onclick=e=>{e.preventDefault();offDownload(e.target,$('#hOffI'))};
@@ -1443,7 +1434,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   const h=location.hash.match(/^#(\d{1,3})(?:-(\d{1,3}))?$/);
   if(h)loadSurah(+h[1],+(h[2]||0)||null);else{const l=LS.get('beyan2.last',{s:1,a:1});let sc='home';try{const nv=performance.getEntriesByType('navigation')[0];if(nv&&nv.type==='reload')sc=sessionStorage.getItem('mihrab.scr')||'home'}catch(e){}
     loadSurah(l.s||1,l.a>1?l.a:null);
-    if(sc==='namaz')openNamaz();else if(sc==='diger')openDiger();else if(sc==='okuma')openOkuma();else if(sc==='ezber')openEzber();else if(sc!=='study')showHome()}
+    if(sc==='namaz')openNamaz();else if(sc==='diger')openNamaz();else if(sc==='okuma')openOkuma();else if(sc==='ezber')openEzber();else if(sc!=='study')showHome()}
 })();
 </script>
 <style>

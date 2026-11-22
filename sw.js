@@ -1,7 +1,7 @@
 /* el-Mihrâb service worker
    - Uygulama kabuğu: önce telefondaki kopya (hemen açılır), arkada yenisi indirilir
    - Kur'an, meal, tefsir, kıraat servisleri: önce ağ (8 sn), olmazsa daha önce okunan kopya, o da yoksa bir kez daha dener */
-const V='mihrab-v125', DATA='mihrab-data-v1';
+const V='mihrab-v126', DATA='mihrab-data-v1';
 /* Cloudflare Pages "x.html" adresini "x"e yönlendirir. Yönlendirilmiş cevap telefona olduğu gibi saklanırsa
    internetsiz açılışta tarayıcı onu reddeder; bu yüzden temiz bir kopyası saklanır ve iki adres de denenir. */
 function temiz(r){return r&&r.redirected?new Response(r.body,{status:r.status,statusText:r.statusText,headers:r.headers}):r}
@@ -10,7 +10,7 @@ function esler(url){const u=new URL(url),p=u.pathname,o=u.origin;
   if(p.endsWith('.html'))return[o+p.slice(0,-5)];if(!/\.[a-z0-9]+$/i.test(p))return[o+p+'.html'];return[]}
 async function sakla(c,key,r){const t=temiz(r);const ks=[key];if(r.redirected&&r.url)ks.push(r.url);
   await Promise.all(ks.map(k=>c.put(k,t.clone()).catch(()=>{})))}
-const SHELL=['./','./index.html','./medrese.html','./elifba.html','./cocuk.html','./data/cocuk/icerik.json?v=2','./medrese.js','./kelime.js','./kalkan.js','./hadis.html','./hadis-arama.js','./fikih.html','./siyer.html','./ahlak.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
+const SHELL=['./','./index.html','./medrese.html','./elifba.html','./ihtisas.html','./cocuk.html','./data/cocuk/icerik.json?v=2','./medrese.js','./kelime.js','./kalkan.js','./hadis.html','./hadis-arama.js','./fikih.html','./siyer.html','./ahlak.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 const API=['api.alquran.cloud','api.quran.com','api.qurancdn.com','api.quranpedia.net','quranenc.com','api.aladhan.com'];
 const FONT=['fonts.googleapis.com','fonts.gstatic.com','api2.quranpedia.net','static.qurancdn.com','verses.quran.foundation'];
 /* Kurulum: tek bir dosya inmezse bütün kurulum bozulmasın diye dosyalar tek tek saklanır */

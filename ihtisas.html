@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr"><head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script src="kalkan.js"></script><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>İhtisas · el-Mihrâb</title>
+<meta name="theme-color" content="#3d2a5c">
+<link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" media="print" onload="this.media='all'">
+<style>
+:root{--bg:#f4f0e8;--card:#fffdf8;--ink:#2a2620;--muted:#6f665a;--line:#e3d9c6;--acc:#3d2a5c}
+@media (prefers-color-scheme:dark){:root{--bg:#15131a;--card:#1f1c26;--ink:#ece6f2;--muted:#a59db0;--line:#332e3d;--acc:#b69ce0}}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-top:calc(58px + env(safe-area-inset-top,0px));padding-bottom:40px}
+#top{position:fixed;top:0;left:0;right:0;z-index:5;display:flex;align-items:center;gap:10px;padding:calc(8px + env(safe-area-inset-top,0px)) 12px 8px;background:#3d2a5c;color:#fff}
+#top a{color:#fff;text-decoration:none;background:rgba(255,255,255,.18);border-radius:12px;padding:7px 12px;font-weight:700}
+#top b{flex:1;font-size:18px}
+main{max-width:760px;margin:0 auto;padding:12px 14px}
+h1{font-size:24px;margin:6px 0 4px}.lead{color:var(--muted);margin:0 0 14px}
+.yol{display:flex;gap:6px;align-items:center;flex-wrap:wrap;font-size:13px;color:var(--muted);margin:0 0 14px}.yol span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:3px 10px}.yol span.on{background:#3d2a5c;color:#fff;border-color:#3d2a5c}
+.list{display:grid;gap:12px}
+.alan{display:flex;gap:14px;align-items:center;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:14px 16px;position:relative}
+.alan .ar{flex:none;width:68px;height:68px;border-radius:18px;display:grid;place-items:center;color:#fff;font:700 26px Amiri,serif}
+.alan b{display:block;font-size:18px}.alan small{color:var(--muted);display:block;line-height:1.45}
+.alan .dur{position:absolute;top:10px;right:12px;font-size:11px;font-weight:700;border-radius:999px;padding:2px 8px;background:#e7f3e8;color:#226b33}
+.alan.yakin{opacity:.72}.alan.yakin .dur{background:var(--line);color:var(--muted)}
+.not{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px;font-size:14px;color:var(--muted);margin-top:18px}
+#toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:#222;color:#fff;padding:10px 16px;border-radius:12px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none}#toast.on{opacity:.95}
+</style></head><body>
+<div id="top"><a href="index.html">←</a><b>İhtisas</b></div>
+<main>
+<h1>İhtisas</h1>
+<p class="lead">Bir ilmi kendi içinden tanımak için: tarihi, ekolleri, terimleri, şahsiyetleri, klasik eserleri ve medresedeki okuma sırası. Her ilim aynı düzende.</p>
+<div class="yol"><span>Medrese</span>→<span>Dirâset</span>→<span class="on">İhtisas</span></div>
+<div class="list">
+ <a class="alan" href="ihtisas/belagat/index.html"><span class="ar" style="background:#8a3b12">بلاغة</span><span><b>Belâgat ve Arap Edebiyatı</b><small>11 modüllük okuma rotası, meânî-beyân-bedî‘ terimleri, şahsiyetler, eser ağacı, klasik eserler; edebiyat kanadı ve Nahiv-Sarf</small></span><span class="dur">hazır</span></a>
+ <a class="alan yakin" href="#" data-y="Nahiv ve Sarf"><span class="ar" style="background:#2f5d4e">نحو</span><span><b>Nahiv ve Sarf</b><small>Sîbeveyh’ten İbn Hişâm’a; Basra-Kûfe ekolleri, medrese ders zinciri</small></span><span class="dur">hazırlanıyor</span></a>
+ <a class="alan yakin" href="#" data-y="Tefsir ve Kur’an İlimleri"><span class="ar" style="background:#1f5b6e">تفسير</span><span><b>Tefsir ve Kur’an İlimleri</b><small>Rivâyet ve dirâyet tefsiri, ulûmü’l-Kur’ân, tefsir tarihi ve okuma sırası</small></span><span class="dur">hazırlanıyor</span></a>
+ <a class="alan yakin" href="#" data-y="Hadis ve Usûl"><span class="ar" style="background:#8a6a2c">حديث</span><span><b>Hadis ve Hadis Usûlü</b><small>Rivâyet ve dirâyet, musannefât, ricâl ilmi, usûl kitapları</small></span><span class="dur">hazırlanıyor</span></a>
+ <a class="alan yakin" href="#" data-y="Fıkıh ve Usûl"><span class="ar" style="background:#5b4a7a">فقه</span><span><b>Fıkıh ve Fıkıh Usûlü</b><small>Mezhepler, Hanefî ders geleneği (Kudûrî → Hidâye; Menâr → Tavzîh)</small></span><span class="dur">hazırlanıyor</span></a>
+ <a class="alan yakin" href="#" data-y="Akaid ve Kelâm"><span class="ar" style="background:#3d2a5c">عقيدة</span><span><b>Akaid ve Kelâm</b><small>Ekoller (Mâtürîdî, Eş‘arî, Selefî) tarafsızca; temel metinler: Tahâviyye, Nesefî Akaidi, Fıkh-ı Ekber</small></span><span class="dur">hazırlanıyor</span></a>
+</div>
+<div class="not">Makale ve tezler bu bölümde yer almaz; yalnız klasik eserler, temel kitaplar ve okuma yolları vardır. Künyeler Şâmile ve archive.org bağlantılarıyla kontrol edilebilir.</div>
+</main>
+<div id="toast"></div>
+<script>
+[].forEach.call(document.querySelectorAll('[data-y]'),function(a){a.onclick=function(e){e.preventDefault();var t=document.getElementById('toast');t.textContent=a.dataset.y+' ihtisası hazırlanıyor.';t.classList.add('on');setTimeout(function(){t.classList.remove('on')},2200)}});
+</script>
+</body></html>

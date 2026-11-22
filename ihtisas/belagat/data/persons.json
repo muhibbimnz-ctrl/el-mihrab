@@ -1,0 +1,859 @@
+{
+ "eras": {
+  "kuruluş": "Kuruluş (II–III./VIII–IX. yy)",
+  "teşekkül": "Teşekkül (IV–V./X–XI. yy)",
+  "olgunlaşma": "Olgunlaşma (VI./XII. yy)",
+  "sistemleşme": "Sistemleşme (VII–VIII./XIII–XIV. yy)",
+  "şerh-hâşiye": "Şerh–hâşiye dönemi (VIII–XIII./XIV–XIX. yy)",
+  "modern": "Modern dönem (XIX. yy–)"
+ },
+ "persons": [
+  {
+   "id": "halil",
+   "tr": "Halîl b. Ahmed",
+   "ar": "الخليل بن أحمد الفراهيدي",
+   "dH": "175",
+   "dM": "791",
+   "era": "kuruluş",
+   "field": "nahiv-lügat-aruz",
+   "school": "Basra",
+   "works": "Kitâbü’l-‘Ayn (ilk sözlük); aruz ilminin kurucusu",
+   "note": "Ses ve mahreç sınıflaması (‘Ayn’ın mukaddimesi) sonraki tenâfür tartışmalarının ses bilgisi zeminidir; Sîbeveyh’in hocası.",
+   "bio": "Umman'da doğdu, Basra'da yaşadı ve orada vefat etti. Ebû Amr b. el-Alâ'dan okudu, zühd hayatı ve sade yaşayışıyla tanındı. Arap dilinin ses yapısını sistemli biçimde inceleyen ilk âlimdir; aruz ilmini kurdu ve ilk Arapça sözlüğü tasarladı. Sîbeveyh başta olmak üzere Basra nahiv ekolünün ilk büyük neslini yetiştirdi.",
+   "eserler": [
+    "Kitâbü'l-Ayn (mahreç sırasına göre ilk sözlük)",
+    "Aruz ilmine dair çalışmalar (15 bahir)",
+    "Harekelerin bugünkü şekillerinin geliştirilmesi"
+   ],
+   "keys": [
+    "Halîl b. Ahmed",
+    "Ferâhîdî",
+    "الفراهيدي",
+    "الخليل بن أحمد"
+   ]
+  },
+  {
+   "id": "sibeveyh",
+   "tr": "Sîbeveyh",
+   "ar": "سيبويه",
+   "dH": "180",
+   "dM": "796",
+   "era": "kuruluş",
+   "field": "nahiv-sarf",
+   "school": "Basra",
+   "works": "el-Kitâb",
+   "note": "Arap gramerinin ilk kapsamlı eseri; takdim-tehir, hazf gibi sonradan meânîye geçecek konuları nahiv içinde ilk kez işler.",
+   "bio": "Asıl adı Amr b. Osman b. Kanber'dir; Şîraz yakınlarında doğdu, gençliğinde Basra'ya geldi. Önce hadis ve fıkıh okudu, sonra Halîl b. Ahmed'in en seçkin talebesi oldu. Bağdat'ta Kisâî ile yaptığı meşhur 'zenbûriyye' tartışmasından sonra İran'a döndü ve genç yaşta vefat etti. Tek eseri olan el-Kitâb, 'nahvin Kur'ân'ı' diye anılır.",
+   "eserler": [
+    "el-Kitâb (Arap gramerinin ilk kapsamlı eseri)"
+   ]
+  },
+  {
+   "id": "ebuubeyde",
+   "tr": "Ebû Ubeyde Ma‘mer b. el-Müsennâ",
+   "ar": "أبو عبيدة معمر بن المثنى",
+   "dH": "210",
+   "dM": "825",
+   "era": "kuruluş",
+   "field": "dil-tefsir",
+   "school": "Basra",
+   "works": "Mecâzü’l-Kur’ân",
+   "note": "“Mecâz”ı ifadenin geçtiği yol / açıklama anlamında kullanır; Kur’an üslûbunu Arap kullanımıyla açıklayan ilk eserlerden.",
+   "bio": "Basra'da doğdu; dil, ahbâr ve ensâb âlimidir. Yûnus b. Habîb ve Ebû Amr b. el-Alâ'dan okudu. Kur'ân'daki ifade yollarını Arap kelamının kullanımlarıyla açıklayan eseri, 'mecâz' kelimesini erken bir terim olarak kullanmasıyla belâgat tarihinde önemlidir.",
+   "eserler": [
+    "Mecâzü'l-Kur'ân",
+    "Nekâizu Cerîr ve'l-Ferezdak",
+    "Eyyâmü'l-Arab (kayıp)"
+   ]
+  },
+  {
+   "id": "ferra",
+   "tr": "Ferrâ",
+   "ar": "الفراء",
+   "dH": "207",
+   "dM": "822",
+   "era": "kuruluş",
+   "field": "nahiv-tefsir",
+   "school": "Kûfe",
+   "works": "Meâni’l-Kur’ân",
+   "note": "Kûfe nahvinin büyük ismi; îcâz, ıtnâb, istifhâm, istiâre gibi konulara Kur’an üzerinden değinir.",
+   "bio": "Kûfe'de doğdu, Kisâî'nin talebesi ve Kûfe nahiv ekolünün önde gelen temsilcisidir. Halife Me'mûn'un oğullarına hocalık yaptı. Kur'ân âyetlerinin nahiv ve anlam yönünü ele alan eseri, hem nahiv hem tefsir hem de belâgat için temel kaynaktır.",
+   "eserler": [
+    "Meâni'l-Kur'ân",
+    "el-Hudûd (nahiv terimleri)",
+    "el-Müzekker ve'l-müennes"
+   ],
+   "keys": [
+    "Ferrâ",
+    "الفراء"
+   ]
+  },
+  {
+   "id": "cahiz",
+   "tr": "Câhiz",
+   "ar": "الجاحظ",
+   "dH": "255",
+   "dM": "869",
+   "era": "kuruluş",
+   "field": "edebiyat-belâgat-kelâm",
+   "school": "Mu‘tezile (Basra)",
+   "works": "el-Beyân ve’t-tebyîn; Kitâbü’l-Hayevân; Nazmü’l-Kur’ân (kayıp)",
+   "note": "Beyânı her türlü anlatma ve anlaşılma olarak tanımlar (lafız, işaret, akd, hat, nisbe); belâgatın kurucusu sayılır. Telaffuz kolaylığı ve harflerin bir arada gelmesi üzerine gözlemleri fesâhat tarihinin başlangıcıdır.",
+   "bio": "Basra'da doğdu; Nazzâm'ın öğrencisi ve Mu'tezilî bir edip ve düşünürdür. Bağdat ve Samerra'da devlet büyüklerinin himayesinde yazdı, yaşlılığında felç geçirerek Basra'da vefat etti. Edebî nesrin en büyük ustası sayılır; 'beyân' kavramını geniş bir iletişim kuramı olarak ilk işleyen odur.",
+   "eserler": [
+    "el-Beyân ve't-tebyîn",
+    "Kitâbü'l-Hayevân",
+    "el-Buhalâ",
+    "Resâil (Fezâilü'l-Etrâk, et-Tarbî' ve't-tedvîr vb.)",
+    "Nazmü'l-Kur'ân (kayıp)"
+   ]
+  },
+  {
+   "id": "ibnkuteybe",
+   "tr": "İbn Kuteybe",
+   "ar": "ابن قتيبة",
+   "dH": "276",
+   "dM": "889",
+   "era": "kuruluş",
+   "field": "edebiyat-tefsir",
+   "school": "Bağdat / Ehl-i sünnet",
+   "works": "Te’vîlü müşkili’l-Kur’ân; eş-Şi‘r ve’ş-şu‘arâ; Edebü’l-kâtib",
+   "note": "Mecâzı geniş anlamda kullanır, Kur’an’a yöneltilen dil itirazlarını cevaplar; şiir eleştirisinde lafız-mana dörtlü tasnifi.",
+   "bio": "Kûfe'de doğdu, Bağdat'ta yaşadı; bir süre Dînever kadılığı yaptı. Ehl-i sünnet çizgisinde dil, edebiyat ve hadis âlimidir. Kur'ân'ın zor ifadelerini mecaz, istiare, hazf gibi üsluplarla açıklaması ve şiir eleştirisine getirdiği ölçülerle belâgat tarihinde yer alır.",
+   "eserler": [
+    "Te'vîlü müşkili'l-Kur'ân",
+    "eş-Şi'r ve'ş-şu'arâ",
+    "Edebü'l-kâtib",
+    "Uyûnü'l-ahbâr",
+    "Te'vîlü muhtelifi'l-hadîs"
+   ]
+  },
+  {
+   "id": "muberred",
+   "tr": "Müberred",
+   "ar": "المبرد",
+   "dH": "285",
+   "dM": "898",
+   "era": "kuruluş",
+   "field": "nahiv-edebiyat",
+   "school": "Basra",
+   "works": "el-Kâmil; el-Muktedab",
+   "note": "el-Kâmil, İbn Haldûn’un saydığı dört edebiyat temel kitabından biri; teşbih üzerine bölümler.",
+   "bio": "Basra'da doğdu, Bağdat'ta vefat etti. Mâzinî ve Cermî'den okudu; Basra nahiv ekolünün son büyük temsilcisi, Kûfeli Sa'leb'in rakibidir. el-Kâmil'de şiir, hutbe ve haberleri dil ve edebiyat açıklamalarıyla sunar.",
+   "eserler": [
+    "el-Kâmil fi'l-luga ve'l-edeb",
+    "el-Muktedab",
+    "el-Fâzıl"
+   ]
+  },
+  {
+   "id": "ibnulmutez",
+   "tr": "İbnü’l-Mu‘tez",
+   "ar": "ابن المعتز",
+   "dH": "296",
+   "dM": "908",
+   "era": "teşekkül",
+   "field": "bedî‘-şiir",
+   "school": "Abbâsî sarayı",
+   "works": "Kitâbü’l-Bedî‘",
+   "note": "Bedî‘i müstakil bir kitapla ilk sistemleştiren isim: istiâre, tecnîs, mutâbaka, reddü’l-acüz ale’s-sadr, mezheb-i kelâmî + “mehâsinü’l-kelâm”.",
+   "bio": "Abbâsî halifesi Mu'tez'in oğludur, Samerra'da doğdu. Şair ve edip olarak yetişti; 908'de bir günlüğüne halife ilan edildi, ardından yakalanıp öldürüldü. Kitâbü'l-Bedî' ile bedî' sanatlarını ilk kez bir kitap olarak topladı; 'muhdes' şairlerin icat ettiği sanatların eski şiirde ve Kur'ân'da da bulunduğunu gösterdi.",
+   "eserler": [
+    "Kitâbü'l-Bedî'",
+    "Tabakâtü'ş-şu'arâ",
+    "Dîvân"
+   ]
+  },
+  {
+   "id": "kudame",
+   "tr": "Kudâme b. Ca‘fer",
+   "ar": "قدامة بن جعفر",
+   "dH": "337",
+   "dM": "948",
+   "era": "teşekkül",
+   "field": "nakd-şiir",
+   "school": "Bağdat (mantık etkisi)",
+   "works": "Nakdü’ş-şi‘r",
+   "note": "Şiiri tanımlayıp (vezinli, kafiyeli, anlam ifade eden söz) unsurlarını mantıki tasnifle inceler; Aristo etkisi tartışmalarının merkezinde.",
+   "bio": "Hıristiyan iken Halife Müktefî döneminde Müslüman oldu; Bağdat'ta divan kâtibi olarak çalıştı. Mantık ve Yunan felsefesinden etkilenen eseriyle şiiri lafız, mana, vezin ve kafiye unsurlarıyla tanımlayıp ölçülü bir eleştiri sistemi kurmaya çalıştı.",
+   "eserler": [
+    "Nakdü'ş-şi'r",
+    "el-Harâc ve sınâ'atü'l-kitâbe"
+   ]
+  },
+  {
+   "id": "amidi",
+   "tr": "Âmidî",
+   "ar": "الآمدي",
+   "dH": "370",
+   "dM": "981",
+   "era": "teşekkül",
+   "field": "nakd",
+   "school": "—",
+   "works": "el-Muvâzene beyne Ebî Temmâm ve’l-Buhturî",
+   "note": "Matbû‘ ve masnû‘ şiir tartışmasının klasik eseri.",
+   "bio": "Basra'da doğdu, Bağdat'ta yetişti ve kâtiplik yaptı. Ebû Temmâm ile Buhturî'yi karşılaştırdığı eseri, Arap eleştirisinde 'muvâzene' (karşılaştırma) yönteminin en başarılı örneği sayılır; eski üslup taraftarıdır.",
+   "eserler": [
+    "el-Muvâzene beyne Ebî Temmâm ve'l-Buhturî",
+    "el-Mü'telif ve'l-muhtelif"
+   ]
+  },
+  {
+   "id": "kadicurcani",
+   "tr": "Kādî el-Cürcânî",
+   "ar": "القاضي علي بن عبد العزيز الجرجاني",
+   "dH": "392",
+   "dM": "1002",
+   "era": "teşekkül",
+   "field": "nakd",
+   "school": "—",
+   "works": "el-Vesâta beyne’l-Mütenebbî ve husûmih",
+   "note": "Mütenebbî tartışmasında hakemlik; sirkat ve şiir değerlendirme ölçütleri. (Abdülkâhir ile karıştırma.)",
+   "bio": "Cürcân'da doğdu, Nîşâbur ve Rey'de kadılık yaptı, Sâhib b. Abbâd'ın meclisinde bulundu. Mütenebbî'ye yöneltilen eleştirileri dengeli bir dille tartıştığı eseri, şiir eleştirisinde insaflı ve ölçülü yaklaşımın örneğidir.",
+   "eserler": [
+    "el-Vesâta beyne'l-Mütenebbî ve husûmih",
+    "Dîvân (şiirleri)"
+   ]
+  },
+  {
+   "id": "rummani",
+   "tr": "Rummânî",
+   "ar": "الرماني",
+   "dH": "384",
+   "dM": "994",
+   "era": "teşekkül",
+   "field": "i‘câz-nahiv-kelâm",
+   "school": "Mu‘tezile",
+   "works": "en-Nüket fî i‘câzi’l-Kur’ân",
+   "note": "Belâgatı üç tabakaya ayırır, on belâgat başlığı sayar; telâüm (harf uyumu) kavramı tenâfürün karşıtı olarak burada belirginleşir.",
+   "bio": "Bağdat'ta yaşamış Mu'tezilî kelamcı ve nahivcidir; nahvi mantıkla karıştırmasıyla bilinir. Kur'ân'ın i'câzını yedi yönden açıkladığı risalesinde belâgati on kısma ayırır ve teşbih, istiare gibi kavramları tanımlar.",
+   "eserler": [
+    "en-Nüket fî i'câzi'l-Kur'ân",
+    "Şerhu Kitâbi Sîbeveyh",
+    "el-Hudûd fi'n-nahv"
+   ]
+  },
+  {
+   "id": "hattabi",
+   "tr": "Hattâbî",
+   "ar": "الخطابي",
+   "dH": "388",
+   "dM": "998",
+   "era": "teşekkül",
+   "field": "i‘câz-hadis",
+   "school": "Ehl-i sünnet",
+   "works": "Beyânü i‘câzi’l-Kur’ân",
+   "note": "i‘câzı lafız, mana ve nazmın birlikteliğinde görür; her lafzı yerli yerine koyma ilkesi.",
+   "bio": "Büst'te (bugünkü Afganistan) doğdu; hadis, fıkıh ve dil âlimidir. Kur'ân'ın i'câzını lafız, mana ve bunları bağlayan 'nazm' bütünlüğünde gördüğü risalesiyle Abdülkâhir'in nazım teorisine zemin hazırlayanlardan biridir.",
+   "eserler": [
+    "Beyânü i'câzi'l-Kur'ân",
+    "Meâlimü's-sünen",
+    "Ğarîbü'l-hadîs"
+   ]
+  },
+  {
+   "id": "askeri",
+   "tr": "Ebû Hilâl el-Askerî",
+   "ar": "أبو هلال العسكري",
+   "dH": "395",
+   "dM": "1005",
+   "era": "teşekkül",
+   "field": "belâgat-nakd",
+   "school": "—",
+   "works": "Kitâbü’s-Sınâ‘ateyn (el-kitâbe ve’ş-şi‘r); el-Furûk fi’l-luga",
+   "note": "Belâgat bilgisini nazım ve nesir için öğretici bir düzende toplar; belâgatı manayı kalbe ulaştırmak, fesâhati beyân aletinin tamamlanması olarak tanımlar.",
+   "bio": "Askerü Mükrem'de yaşamış dil ve edebiyat âlimidir; hocası ve dayısı Ebû Ahmed el-Askerî'dir. Sınâ'ateyn'de nesir ve şiir sanatını birlikte ele alır, belâgat bilgisini öğretilebilir kurallar hâline getirmeye çalışır.",
+   "eserler": [
+    "Kitâbü's-Sınâ'ateyn",
+    "el-Furûk fi'l-luga",
+    "Dîvânü'l-meânî",
+    "Cemheretü'l-emsâl"
+   ]
+  },
+  {
+   "id": "bakillani",
+   "tr": "Bâkıllânî",
+   "ar": "الباقلاني",
+   "dH": "403",
+   "dM": "1013",
+   "era": "teşekkül",
+   "field": "i‘câz-kelâm",
+   "school": "Eş‘arî-Mâlikî",
+   "works": "İ‘câzü’l-Kur’ân; et-Takrîb ve’l-irşâd",
+   "note": "Bedî‘ sanatlarının i‘câzı tek başına açıklamadığını savunur; i‘câzı nazmın bütününde görür.",
+   "bio": "Basra'da doğdu, Bağdat'ta yaşadı; Eş'arî kelamının en önemli isimlerinden ve Mâlikî fakihtir. Bizans'a elçi olarak gönderildi. İ'câzü'l-Kur'ân'da Kur'ân'ın üslubunu dönemin şiir ve hitabet örnekleriyle karşılaştırarak aşılamazlığını savunur.",
+   "eserler": [
+    "İ'câzü'l-Kur'ân",
+    "et-Temhîd",
+    "et-Takrîb ve'l-irşâd",
+    "el-İntisâr li'l-Kur'ân"
+   ]
+  },
+  {
+   "id": "abdulcebbar",
+   "tr": "Kādî Abdülcebbâr",
+   "ar": "القاضي عبد الجبار",
+   "dH": "415",
+   "dM": "1025",
+   "era": "teşekkül",
+   "field": "kelâm-i‘câz",
+   "school": "Mu‘tezile",
+   "works": "el-Muğnî (XVI. cilt: i‘câz)",
+   "note": "Fesâhati kelimelerin belirli bir biçimde birleşmesine ve i‘râba bağlar; Cürcânî’nin nazm teorisine zemin hazırlayan isim.",
+   "bio": "Esedâbâd'da doğdu, Rey'de kadılkudatlık yaptı; Mu'tezile'nin son büyük sistemcisidir. el-Muğnî'nin i'câza ayrılan cildinde fesahatin tek tek kelimelerde değil, kelimelerin terkip içindeki dizilişinde ortaya çıktığını savunarak Abdülkâhir'e öncülük eder.",
+   "eserler": [
+    "el-Muğnî fî ebvâbi't-tevhîd ve'l-adl (XVI. cilt i'câz)",
+    "Şerhu'l-Usûli'l-hamse",
+    "Tenzîhü'l-Kur'ân ani'l-metâin"
+   ]
+  },
+  {
+   "id": "hafaci",
+   "tr": "İbn Sinân el-Hafâcî",
+   "ar": "ابن سنان الخفاجي",
+   "dH": "466",
+   "dM": "1073",
+   "era": "teşekkül",
+   "field": "fesâhat-nakd",
+   "school": "Şiî eğilimli, Halep",
+   "works": "Sirrü’l-fesâha (454/1062)",
+   "note": "Fesâhatin ilk müstakil kitabı; kelime fesâhati için sekiz şart (mahreç uzaklığı, garâbetten uzaklık, âmmîce olmama, harf sayısının fazla olmaması vb.). İ‘câzı sarfe ile açıklar.",
+   "bio": "Halep yakınlarında doğdu, Hamdânîlerin son dönemlerinde yaşadı; şair ve edip olarak tanındı. Bir siyasi anlaşmazlık sonucu zehirlenerek öldürüldüğü rivayet edilir. Sirrü'l-fesâha, fesâhatin şartlarını ses ve kelime düzeyinde ayrıntılı biçimde inceleyen ilk eserlerdendir.",
+   "eserler": [
+    "Sirrü'l-fesâha",
+    "Dîvân"
+   ]
+  },
+  {
+   "id": "abdulkahir",
+   "tr": "Abdülkâhir el-Cürcânî",
+   "ar": "عبد القاهر الجرجاني",
+   "dH": "471",
+   "dM": "1078",
+   "era": "teşekkül",
+   "field": "belâgat-nahiv",
+   "school": "Eş‘arî-Şâfiî",
+   "works": "Delâilü’l-i‘câz; Esrârü’l-belâga; er-Risâletü’ş-şâfiye; el-‘Avâmilü’l-mie",
+   "note": "Nazm teorisi: sözün üstünlüğü lafızda ya da manada değil, nahvin anlamlarına (meâni’n-nahv) göre kurulan dizimdedir. Delâil meânînin, Esrâr beyânın temelidir; fesâhati lafzın değil nazmın niteliği sayar.",
+   "bio": "Cürcân'da doğdu, ömrü boyunca şehrinden ayrılmadı. Nahvi Ebü'l-Hüseyin el-Fârisî'den okudu, Şâfiî ve Eş'arî idi. Nazım teorisiyle anlamın kelimelerin nahiv kurallarına göre dizilişinden doğduğunu gösterdi; meânî ve beyân ilimlerinin gerçek kurucusu kabul edilir.",
+   "eserler": [
+    "Delâilü'l-i'câz",
+    "Esrârü'l-belâga",
+    "er-Risâletü'ş-şâfiye",
+    "el-Avâmilü'l-mie",
+    "el-Muktesid fî şerhi'l-Îzâh"
+   ]
+  },
+  {
+   "id": "zemahseri",
+   "tr": "Zemahşerî",
+   "ar": "الزمخشري",
+   "dH": "538",
+   "dM": "1144",
+   "era": "olgunlaşma",
+   "field": "tefsir-nahiv-belâgat",
+   "school": "Mu‘tezile, Hârizm",
+   "works": "el-Keşşâf; Esâsü’l-belâga; el-Mufassal",
+   "note": "Cürcânî’nin teorisini Kur’an tefsirine uygulayan en etkili isim; tefsir için meânî ve beyânı şart koşar. Esâs, hakiki ve mecazi anlamları ayıran sözlüktür.",
+   "bio": "Harezm'de Zemahşer köyünde doğdu; uzun süre Mekke'de mücavir kaldığı için 'Cârullah' lakabıyla anıldı. Mu'tezilî ve Hanefî idi. el-Keşşâf'ta Abdülkâhir'in teorisini Kur'ân'ın tamamına uygulayarak belâgat tefsirinin zirvesine ulaştı.",
+   "eserler": [
+    "el-Keşşâf an hakâiki't-tenzîl",
+    "Esâsü'l-belâga",
+    "el-Mufassal",
+    "el-Fâik fî ğarîbi'l-hadîs",
+    "Mukaddimetü'l-edeb",
+    "Rebîu'l-ebrâr"
+   ]
+  },
+  {
+   "id": "vatvat",
+   "tr": "Reşîdüddîn Vatvât",
+   "ar": "رشيد الدين الوطواط",
+   "dH": "573",
+   "dM": "1177",
+   "era": "olgunlaşma",
+   "field": "bedî‘ (Farsça)",
+   "school": "Hârizm",
+   "works": "Hadâiku’s-sihr fî dekâiki’ş-şi‘r",
+   "note": "Farsça bedî‘ geleneğinin temel eseri; Arap ve Fars bedî‘inin buluştuğu yer.",
+   "bio": "Belh'te doğdu, Harezmşahlar sarayında münşî olarak çalıştı; Arapça ve Farsça yazan bir şair ve kâtiptir. Farsça bedî' kitabı İran ve Türk edebiyatlarında sanatların tanımlanmasında uzun süre örnek alındı.",
+   "eserler": [
+    "Hadâiku's-sihr fî dekâiki'ş-şi'r",
+    "Dîvân",
+    "Arapça ve Farsça münşeât"
+   ]
+  },
+  {
+   "id": "razi",
+   "tr": "Fahreddîn er-Râzî",
+   "ar": "فخر الدين الرازي",
+   "dH": "606",
+   "dM": "1210",
+   "era": "olgunlaşma",
+   "field": "kelâm-tefsir-belâgat",
+   "school": "Eş‘arî",
+   "works": "Nihâyetü’l-îcâz fî dirâyeti’l-i‘câz; Mefâtîhu’l-gayb",
+   "note": "Cürcânî’nin iki kitabını mantıki bir düzenle özetler; belâgatın sistemleşmesinde Sekkâkî’ye köprü.",
+   "bio": "Rey'de doğdu, Herat'ta vefat etti. Eş'arî kelamcı, filozof ve müfessirdir. Nihâyetü'l-îcâz'da Abdülkâhir'in iki kitabını özetleyip tasnif ederek belâgati kuralları belirli bir ilme dönüştürme yolunu açtı; bu çizgi Sekkâkî ile tamamlandı.",
+   "eserler": [
+    "Nihâyetü'l-îcâz fî dirâyeti'l-i'câz",
+    "Mefâtîhu'l-gayb (et-Tefsîrü'l-kebîr)",
+    "el-Mahsûl",
+    "el-Metâlibü'l-âliye"
+   ]
+  },
+  {
+   "id": "sekkaki",
+   "tr": "Sekkâkî",
+   "ar": "السكاكي",
+   "dH": "626",
+   "dM": "1229",
+   "era": "sistemleşme",
+   "field": "belâgat-sarf-nahiv-mantık",
+   "school": "Hanefî, Hârizm",
+   "works": "Miftâhu’l-‘ulûm",
+   "note": "Miftâh’ın III. kısmında belâgatı meânî ve beyân olarak sistemleştirir, bedî‘i “muhassinât” olarak ekler; sonraki bütün ders geleneğinin kaynağı. Değerlendirmesi tartışmalı: “duraklamanın başlangıcı” mı, “edebiyat ilmi projesi” mi?",
+   "bio": "Harezm'de doğdu; ailesinin demircilik mesleği nedeniyle 'Sekkâkî' diye anılır. Rivayete göre otuz yaşından sonra ilme yöneldi. Miftâhu'l-ulûm'un üçüncü bölümünde belâgati meânî, beyân ve (ek olarak) bedî' şeklinde tasnif etti; sonraki bütün medrese geleneği bu esere dayanır.",
+   "eserler": [
+    "Miftâhu'l-ulûm (sarf, nahiv, meânî-beyân, istidlâl, aruz)"
+   ]
+  },
+  {
+   "id": "ibnulesir",
+   "tr": "Ziyâüddîn İbnü’l-Esîr",
+   "ar": "ضياء الدين ابن الأثير",
+   "dH": "637",
+   "dM": "1239",
+   "era": "sistemleşme",
+   "field": "belâgat-kitâbet",
+   "school": "—",
+   "works": "el-Meselü’s-sâir fî edebi’l-kâtib ve’ş-şâir",
+   "note": "Kâtip ve şair için uygulamalı belâgat; fesâhati lafza, belâgatı lafız ve manaya bağlar; tenâfürde işitmeyi ölçüt yapar, Hafâcî’nin mahreç ölçütünü eleştirir.",
+   "bio": "Cezîre-i İbn Ömer'de (Cizre) doğdu; tarihçi İzzeddîn İbnü'l-Esîr'in kardeşidir. Selâhaddîn ve oğlu el-Melikü'l-Efdal'ın hizmetinde vezirlik ve kâtiplik yaptı. el-Meselü's-sâir'de kâtip ve şair için uygulamalı bir belâgat sunar, özgün ve tartışmacı yorumlarıyla öne çıkar.",
+   "eserler": [
+    "el-Meselü's-sâir fî edebi'l-kâtib ve'ş-şâir",
+    "el-Câmiu'l-kebîr",
+    "el-Veşyü'l-merkûm"
+   ]
+  },
+  {
+   "id": "ibnebilisba",
+   "tr": "İbn Ebi’l-İsba‘ el-Mısrî",
+   "ar": "ابن أبي الإصبع المصري",
+   "dH": "654",
+   "dM": "1256",
+   "era": "sistemleşme",
+   "field": "bedî‘",
+   "school": "Mısır",
+   "works": "Tahrîrü’t-tahbîr; Bedî‘u’l-Kur’ân",
+   "note": "Bedî‘ sanatlarının sayısını büyük ölçüde artıran ve Kur’an örnekleriyle işleyen eserler.",
+   "bio": "Mısır'da yaşamış şair ve edebiyatçıdır. Tahrîrü't-tahbîr'de bedî' sanatlarını geniş bir listede toplayarak tanımlar ve örneklendirir; bu eser sonraki bedîiyye geleneğine kaynaklık etti.",
+   "eserler": [
+    "Tahrîrü't-tahbîr",
+    "Bedî'u'l-Kur'ân",
+    "Hüsnü't-tevessül"
+   ]
+  },
+  {
+   "id": "hazim",
+   "tr": "Hâzim el-Kartâcennî",
+   "ar": "حازم القرطاجني",
+   "dH": "684",
+   "dM": "1285",
+   "era": "sistemleşme",
+   "field": "şiir-nakd",
+   "school": "Endülüs-Mağrib",
+   "works": "Minhâcü’l-büleğâ ve sirâcü’l-üdebâ",
+   "note": "Aristo poetikasıyla (İbn Sînâ, Fârâbî aracılığıyla) Arap belâgatını birleştiren özgün kuram.",
+   "bio": "Endülüs'te Kartaca'da (Cartagena) doğdu, Hıristiyan ilerleyişi üzerine Tunus'a göç etti ve Hafsî sarayında yaşadı. Aristoteles'in Poetika'sını İbn Sînâ ve Fârâbî şerhleri üzerinden Arap şiir eleştirisiyle birleştirerek 'tahyîl' merkezli bir şiir kuramı geliştirdi.",
+   "eserler": [
+    "Minhâcü'l-büleğâ ve sirâcü'l-üdebâ",
+    "el-Maksûre (kaside)"
+   ]
+  },
+  {
+   "id": "kazvini",
+   "tr": "Hatîb el-Kazvînî",
+   "ar": "الخطيب القزويني",
+   "dH": "739",
+   "dM": "1338",
+   "era": "sistemleşme",
+   "field": "belâgat",
+   "school": "Şâfiî, Dımaşk-Kahire",
+   "works": "Telhîsü’l-Miftâh; el-Îzâh fî ‘ulûmi’l-belâga",
+   "note": "Belâgatı meânî, beyân, bedî‘ diye üçe ayıran ders kalıbını kurar; fesâhati kelime, kelâm ve mütekellim için tanımlar (tenâfür, garâbet, muhâlefetü’l-kıyâs; za‘f-ı te’lîf, tenâfür-i kelimât, ta‘kîd).",
+   "bio": "Musul'da doğdu; Şam'da hatiplik ve Dımaşk ile Kahire'de kadılkudatlık yaptı, 'Hatîb' lakabı buradan gelir. Miftâh'ın belâgat bölümünü özetlediği Telhîs ve onu açıkladığı el-Îzâh, medreselerde asırlarca okutulan temel ders kitapları oldu.",
+   "eserler": [
+    "Telhîsü'l-Miftâh",
+    "el-Îzâh fî ulûmi'l-belâga"
+   ]
+  },
+  {
+   "id": "alevi",
+   "tr": "Yahyâ b. Hamza el-Alevî",
+   "ar": "يحيى بن حمزة العلوي",
+   "dH": "749",
+   "dM": "1348",
+   "era": "sistemleşme",
+   "field": "belâgat-i‘câz",
+   "school": "Zeydî, Yemen",
+   "works": "et-Tırâz el-mütezammin li-esrâri’l-belâga",
+   "note": "Tenâfürde zevki (ذوق) nihai ölçüt sayar; Cürcânî ve İbnü’l-Esîr çizgisini birleştiren hacimli eser.",
+   "bio": "Yemen'de Zeydî imamlardan biridir; San'a'da doğdu. et-Tırâz'da belâgati hem kelam hem de edebî örneklerle ele alan, Miftâh geleneğinden biraz bağımsız geniş bir eser yazdı.",
+   "eserler": [
+    "et-Tırâz el-mütezammin li-esrâri'l-belâga",
+    "el-İntisâr (fıkıh)"
+   ]
+  },
+  {
+   "id": "subki",
+   "tr": "Bahâüddîn es-Sübkî",
+   "ar": "بهاء الدين السبكي",
+   "dH": "773",
+   "dM": "1372",
+   "era": "şerh-hâşiye",
+   "field": "belâgat",
+   "school": "Şâfiî",
+   "works": "‘Arûsü’l-efrâh fî şerhi Telhîsi’l-Miftâh",
+   "note": "Telhîs’in en önemli şerhlerinden; Şürûhu’t-Telhîs derlemesinde yer alır.",
+   "bio": "Kahire'de doğdu; Takıyyüddîn es-Sübkî'nin oğlu, Tâceddîn es-Sübkî'nin kardeşidir. Şam ve Mısır'da müderrislik ve kadılık yaptı, Mekke'de vefat etti. Telhîs şerhi Arûsü'l-efrâh, gelenek içindeki farklı görüşleri derleyen kapsamlı bir şerhtir.",
+   "eserler": [
+    "Arûsü'l-efrâh fî şerhi Telhîsi'l-Miftâh"
+   ]
+  },
+  {
+   "id": "teftazani",
+   "tr": "Sa‘düddîn et-Teftâzânî",
+   "ar": "سعد الدين التفتازاني",
+   "dH": "792",
+   "dM": "1390",
+   "era": "şerh-hâşiye",
+   "field": "belâgat-kelâm-mantık",
+   "school": "Hanefî/Şâfiî (tartışmalı), Horasan",
+   "works": "el-Mutavvel; el-Muhtasar (Muhtasarü’l-me‘ânî); Şerhu’l-Miftâh; Şerhu’l-‘İzzî",
+   "note": "Medrese belâgat eğitiminin omurgası: Mutavvel ileri, Muhtasar orta seviye ders kitabı. Tenâfürde zevk ölçütünü savunur.",
+   "bio": "Horasan'da Teftâzân'da doğdu, Semerkant'ta vefat etti; Timur'un sarayında bulundu. Mantık, kelam, fıkıh usulü ve belâgatta yazdığı şerhler Osmanlı medreselerinin ders müfredatının belkemiğini oluşturdu. Telhîs'e yazdığı büyük (Mutavvel) ve küçük (Muhtasar) şerhler belâgat öğretiminin standart kitaplarıdır.",
+   "eserler": [
+    "el-Mutavvel",
+    "el-Muhtasar (Muhtasarü'l-meânî)",
+    "Şerhu'l-Miftâh",
+    "Şerhu'l-Akâid",
+    "Şerhu'l-Makâsıd",
+    "et-Telvîh",
+    "Şerhu Tasrîfi'l-İzzî"
+   ]
+  },
+  {
+   "id": "seyyidserif",
+   "tr": "Seyyid Şerîf el-Cürcânî",
+   "ar": "السيد الشريف الجرجاني",
+   "dH": "816",
+   "dM": "1413",
+   "era": "şerh-hâşiye",
+   "field": "belâgat-mantık-kelâm",
+   "school": "Hanefî",
+   "works": "el-Misbâh fî şerhi’l-Miftâh; Hâşiye ‘ale’l-Mutavvel; et-Ta‘rîfât",
+   "note": "Teftâzânî ile tartışmalarıyla meşhur; Miftâh şerhi ve Mutavvel hâşiyesi Osmanlı medresesinde okutulur.",
+   "bio": "Cürcân yakınlarında doğdu, Şîraz'da vefat etti; Teftâzânî ile Timur'un huzurunda yaptığı tartışmalarla tanınır. Mutavvel'e yazdığı hâşiye ve Miftâh şerhi Osmanlı belâgat geleneğinde Teftâzânî ile birlikte en çok okunan metinler arasındadır.",
+   "eserler": [
+    "el-Misbâh fî şerhi'l-Miftâh",
+    "Hâşiye ale'l-Mutavvel",
+    "et-Ta'rîfât",
+    "Şerhu'l-Mevâkıf",
+    "Hâşiye ale'l-Keşşâf"
+   ]
+  },
+  {
+   "id": "mollahusrev",
+   "tr": "Molla Hüsrev",
+   "ar": "ملا خسرو",
+   "dH": "885",
+   "dM": "1480",
+   "era": "şerh-hâşiye",
+   "field": "fıkıh-belâgat",
+   "school": "Osmanlı",
+   "works": "Hâşiye ‘ale’l-Mutavvel",
+   "note": "Osmanlı belâgat hâşiye geleneğinin erken örneği.",
+   "bio": "Sivas yöresinde doğdu, İstanbul'da vefat etti. Fatih Sultan Mehmed döneminde kazaskerlik, İstanbul kadılığı ve şeyhülislamlık yaptı. Fıkıh usulü eserleriyle tanınır; Mutavvel'e yazdığı hâşiye Osmanlı belâgat çalışmalarının örneklerindendir.",
+   "eserler": [
+    "Dürerü'l-hükkâm fî şerhi Ğureri'l-ahkâm",
+    "Mir'âtü'l-usûl",
+    "Hâşiye ale'l-Mutavvel"
+   ]
+  },
+  {
+   "id": "hasancelebi",
+   "tr": "Hasan Çelebi (Fenârî)",
+   "ar": "حسن چلبي الفناري",
+   "dH": "886",
+   "dM": "1481",
+   "era": "şerh-hâşiye",
+   "field": "belâgat-kelâm",
+   "school": "Osmanlı",
+   "works": "Hâşiye ‘ale’l-Mutavvel",
+   "note": "Mutavvel hâşiyesi en çok okunan Osmanlı hâşiyelerinden.",
+   "bio": "Molla Fenârî'nin torunudur, babası Muhammed Şah Çelebi'dir; Bursa'da medreselerde müderrislik yaptı. Mutavvel ve Şerhu'l-Mevâkıf'a yazdığı hâşiyelerle Osmanlı ilim geleneğinde hâşiye yazımının seçkin örneklerini verdi.",
+   "eserler": [
+    "Hâşiye ale'l-Mutavvel",
+    "Hâşiye alâ Şerhi'l-Mevâkıf",
+    "Hâşiye ale't-Telvîh"
+   ]
+  },
+  {
+   "id": "semerkandi",
+   "tr": "Ebü’l-Kâsım es-Semerkandî",
+   "ar": "أبو القاسم الليثي السمرقندي",
+   "dH": "888 sonrası",
+   "dM": "1483 sonrası",
+   "era": "şerh-hâşiye",
+   "field": "beyân (istiâre)",
+   "school": "—",
+   "works": "er-Risâletü’s-Semerkandiyye (Risâletü’l-istiârât)",
+   "note": "İstiâre üzerine kısa metin; İsâmüddîn’in şerhi ve hâşiyeleriyle Osmanlı medresesinde okutulmuştur.",
+   "bio": "Ebü'l-Kâsım b. Ebî Bekr el-Leysî es-Semerkandî, 15. yüzyılda yaşamış bir âlimdir. İstiareyi kısa ve sistemli biçimde anlattığı risalesi Osmanlı medreselerinde ayrı bir ders metni oldu ve İsâmüddîn, Kara Halil gibi âlimlerce şerh ve hâşiyelerle genişletildi.",
+   "eserler": [
+    "er-Risâletü's-Semerkandiyye fi'l-istiârât"
+   ]
+  },
+  {
+   "id": "suyuti",
+   "tr": "Celâleddîn es-Suyûtî",
+   "ar": "جلال الدين السيوطي",
+   "dH": "911",
+   "dM": "1505",
+   "era": "şerh-hâşiye",
+   "field": "çok yönlü",
+   "school": "Şâfiî, Mısır",
+   "works": "el-Müzhir; el-İtkân; Mu‘terekü’l-akrân; ‘Ukûdü’l-cümân (Telhîs nazmı)",
+   "note": "el-Müzhir’de fesâhat bahsini Kazvînî’den aktarır; i‘câz ve Kur’an ilimleri derlemeleri.",
+   "bio": "Kahire'de doğdu ve orada vefat etti; Memlük döneminin en velûd âlimidir, eser sayısı yüzlercedir. Kırk yaşından sonra halktan uzaklaşıp yazmaya yöneldi. Dil, Kur'ân ilimleri, nahiv ve belâgat alanlarında eski bilgileri toplayan ansiklopedik eserler bıraktı.",
+   "eserler": [
+    "el-Müzhir fî ulûmi'l-luga",
+    "el-İtkân fî ulûmi'l-Kur'ân",
+    "Mu'terekü'l-akrân",
+    "Ukûdü'l-cümân (Telhîs'in nazmı) ve şerhi",
+    "el-Eşbâh ve'n-nezâir fi'n-nahv",
+    "Hem'u'l-hevâmi'"
+   ]
+  },
+  {
+   "id": "isam",
+   "tr": "İsâmüddîn el-İsferâyînî",
+   "ar": "عصام الدين الإسفراييني",
+   "dH": "945",
+   "dM": "1538",
+   "era": "şerh-hâşiye",
+   "field": "belâgat-mantık",
+   "school": "—",
+   "works": "el-Atvel (Telhîs şerhi); Şerhu’r-Risâleti’s-Semerkandiyye",
+   "note": "Mutavvel’den daha ayrıntılı Telhîs şerhi (Atvel); Semerkandiyye şerhi medreselerde okutulmuştur.",
+   "bio": "Horasan'da İsferâyin'de doğdu, Semerkant'ta vefat etti; Câmî'nin talebelerindendir. Kâfiye şerhi Molla Câmî'ye ve belâgatta Telhîs'e yazdığı geniş şerh el-Atvel ile tanınır; Osmanlı medreselerinde eserleri çok okundu.",
+   "eserler": [
+    "el-Atvel (Telhîs şerhi)",
+    "Şerhu'r-Risâleti's-Semerkandiyye",
+    "Hâşiye alâ Şerhi'l-Câmî (İsâm)",
+    "Mîzânü'l-edeb"
+   ]
+  },
+  {
+   "id": "kemalpasazade",
+   "tr": "Kemalpaşazâde",
+   "ar": "كمال باشا زاده",
+   "dH": "940",
+   "dM": "1534",
+   "era": "şerh-hâşiye",
+   "field": "çok yönlü",
+   "school": "Osmanlı",
+   "works": "Belâgat risaleleri; Felâh şerhu’l-Merâh (sarf)",
+   "note": "Osmanlı’da belâgat ve sarf üzerine çok sayıda risale.",
+   "bio": "Tokat'ta (bazı kaynaklara göre Amasya'da) doğdu, İstanbul'da vefat etti. Askerlikten ilme geçti; Edirne ve İstanbul'da müderrislik, Anadolu kazaskerliği ve 1526'dan ölümüne kadar şeyhülislamlık yaptı. Arapça, Farsça ve Türkçe yüzlerce risale yazdı; belâgat ve dil risaleleri Osmanlı dil düşüncesinin önemli halkalarıdır.",
+   "eserler": [
+    "Esrâru'n-nahv",
+    "Felâh şerhu'l-Merâh",
+    "Belâgata dair risaleler",
+    "Tevârîh-i Âl-i Osmân",
+    "Yûsuf u Zeliha"
+   ]
+  },
+  {
+   "id": "desuki",
+   "tr": "Muhammed ed-Desûkî",
+   "ar": "محمد الدسوقي",
+   "dH": "1230",
+   "dM": "1815",
+   "era": "şerh-hâşiye",
+   "field": "belâgat",
+   "school": "Mâlikî, Ezher",
+   "works": "Hâşiye ‘alâ Muhtasari’s-Sa‘d",
+   "note": "Muhtasar hâşiyesi; Şürûhu’t-Telhîs içinde.",
+   "bio": "Mısır'da Desûk'ta doğdu, Ezher'de okudu ve ders verdi; Mâlikî fakihtir. Teftâzânî'nin Muhtasar'ına yazdığı hâşiye, Ezher'de belâgat öğretiminin temel kitaplarından oldu.",
+   "eserler": [
+    "Hâşiye alâ Muhtasari's-Sa'd",
+    "Hâşiye ale'ş-Şerhi'l-kebîr (Mâlikî fıkhı)",
+    "Hâşiye alâ Muğni'l-lebîb"
+   ]
+  },
+  {
+   "id": "cevdetpasa",
+   "tr": "Ahmed Cevdet Paşa",
+   "ar": "أحمد جودت باشا",
+   "dH": "1312",
+   "dM": "1895",
+   "era": "modern",
+   "field": "Türkçe belâgat",
+   "school": "Osmanlı",
+   "works": "Belâgat-ı Osmâniyye (1299/1882)",
+   "note": "Klasik belâgatı Türkçe örneklerle sunan ilk yaygın ders kitaplarından; Ahmed Hamdî’nin daha önceki Belâgat-ı Lisân-ı Osmânî’si ile mukayesesi literatürde tartışılır.",
+   "bio": "Lofça'da doğdu, İstanbul'da medrese eğitimi aldı. Vakanüvislik, Adliye ve Maarif nazırlığı yaptı; Mecelle'yi hazırlayan heyete başkanlık etti. Fuad Paşa ile birlikte Osmanlıca gramer yazdı; Belâgat-ı Osmâniyye, Arap belâgatini Osmanlı Türkçesine uygulayan ilk derli toplu kitaptır.",
+   "eserler": [
+    "Belâgat-ı Osmâniyye",
+    "Kavâid-i Osmâniyye (Fuad Paşa ile)",
+    "Târîh-i Cevdet",
+    "Kısas-ı Enbiyâ",
+    "Mecelle"
+   ]
+  },
+  {
+   "id": "hasimi",
+   "tr": "Ahmed el-Hâşimî",
+   "ar": "أحمد الهاشمي",
+   "dH": "1362",
+   "dM": "1943",
+   "era": "modern",
+   "field": "belâgat (ders kitabı)",
+   "school": "Mısır",
+   "works": "Cevâhirü’l-belâga fi’l-me‘ânî ve’l-beyân ve’l-bedî‘",
+   "note": "Kazvînî düzenini modern okura aktaran en yaygın ders kitabı.",
+   "bio": "Kahire'de yaşamış Mısırlı edip ve öğretmendir. Cevâhirü'l-belâga, meânî, beyân ve bedî' bilgilerini çok sayıda örnekle sade bir dille sunduğu için bugün de en yaygın okunan belâgat ders kitaplarındandır.",
+   "eserler": [
+    "Cevâhirü'l-belâga",
+    "el-Kavâidü'l-esâsiyye li'l-lugati'l-Arabiyye",
+    "Cevâhirü'l-edeb",
+    "Mîzânü'z-zeheb (aruz)"
+   ]
+  },
+  {
+   "id": "maragi",
+   "tr": "Ahmed Mustafa el-Merâgî",
+   "ar": "أحمد مصطفى المراغي",
+   "dH": "1371",
+   "dM": "1952",
+   "era": "modern",
+   "field": "belâgat-tefsir",
+   "school": "Mısır",
+   "works": "‘Ulûmü’l-belâga; Târîhu ‘ulûmi’l-belâga",
+   "note": "Belâgat tarihini Sekkâkî sonrası duraklama anlatısıyla yazan isimlerden; tenâfürde zevk-i selîm yaklaşımı.",
+   "bio": "Mısır'da Merâğa'da doğdu, Ezher ve Dârülulûm'da okudu ve ders verdi; Şeyhülezher Muhammed Mustafa el-Merâgî'nin kardeşidir. Herkesin anlayacağı dille yazdığı tefsiri ve belâgat kitaplarıyla tanınır.",
+   "eserler": [
+    "Ulûmü'l-belâga",
+    "Târîhu ulûmi'l-belâga",
+    "Tefsîrü'l-Merâgî"
+   ]
+  },
+  {
+   "id": "carim",
+   "tr": "Ali el-Cârim & Mustafa Emîn",
+   "ar": "علي الجارم ومصطفى أمين",
+   "dH": "1368",
+   "dM": "1949",
+   "era": "modern",
+   "field": "ders kitabı",
+   "school": "Mısır",
+   "works": "el-Belâgatü’l-vâzıha",
+   "note": "Lise düzeyi, örnek ve alıştırma ağırlıklı ders kitabı; Türkiye’de de yaygın.",
+   "bio": "Ali el-Cârim Mısırlı şair ve dilci, Mustafa Emîn ise eğitimcidir; birlikte Mısır okulları için ders kitabı hazırladılar. el-Belâgatü'l-vâzıha, kural, örnek ve alıştırma düzeniyle bugün de başlangıç seviyesinin en sevilen kitabıdır.",
+   "eserler": [
+    "el-Belâgatü'l-vâzıha",
+    "en-Nahvü'l-vâzıh"
+   ],
+   "keys": [
+    "البلاغة الواضحة",
+    "Belâgatü'l-vâzıha"
+   ]
+  },
+  {
+   "id": "emin_huli",
+   "tr": "Emîn el-Hûlî",
+   "ar": "أمين الخولي",
+   "dH": "1385",
+   "dM": "1966",
+   "era": "modern",
+   "field": "edebî tefsir-belâgat yenilenmesi",
+   "school": "Mısır",
+   "works": "Menâhicu tecdîd fi’n-nahv ve’l-belâga ve’t-tefsîr ve’l-edeb",
+   "note": "Belâgatı edebî zevk ve üslûpbilim yönünde yenileme çağrısı; Sekkâkî eleştirisi.",
+   "bio": "Mısır'da doğdu; Kahire Üniversitesi Edebiyat Fakültesi'nde ders verdi. Kur'ân'ın edebî tefsiri yöntemini geliştirdi ve belâgatin yeniden düşünülmesini savundu; Bintü'ş-Şâti' ve Muhammed Ahmed Halefullah onun öğrencileridir.",
+   "eserler": [
+    "Menâhicu tecdîd fi'n-nahv ve'l-belâga ve't-tefsîr ve'l-edeb",
+    "Fenn'ul-kavl"
+   ]
+  },
+  {
+   "id": "sevkidayf",
+   "tr": "Şevkî Dayf",
+   "ar": "شوقي ضيف",
+   "dH": "1426",
+   "dM": "2005",
+   "era": "modern",
+   "field": "edebiyat tarihi-belâgat",
+   "school": "Mısır",
+   "works": "el-Belâga: tatavvur ve târîh (1965)",
+   "note": "Belâgat tarihinin standart modern anlatısı; Sekkâkî’ye eleştirel.",
+   "bio": "Mısır'da Dimyat'ta doğdu; Kahire Üniversitesi'nde hocalık ve Arap Dili Kurumu başkanlığı yaptı. Çok ciltlik Arap edebiyatı tarihi ve belâgat tarihine dair kitabı, alanda başvuru eserleridir.",
+   "eserler": [
+    "el-Belâga: tatavvur ve târîh",
+    "Târîhu'l-edebi'l-Arabî (10 cilt)",
+    "el-Medârisü'n-nahviyye",
+    "Tecdîdü'n-nahv"
+   ]
+  },
+  {
+   "id": "ebumusa",
+   "tr": "Muhammed Muhammed Ebû Mûsâ",
+   "ar": "محمد محمد أبو موسى",
+   "dH": "—",
+   "dM": "—",
+   "era": "modern",
+   "field": "belâgat",
+   "school": "Ezher",
+   "works": "el-Belâgatü’l-Kur’âniyye fî tefsîri’z-Zemahşerî; el-İ‘câzü’l-belâgî; Delâlâtü’t-terâkîb",
+   "note": "Ezher belâgat geleneğinin çağdaş temsilcisi; Türkçe literatürde çokça tartışılır (bkz. İsmail Araz’ın değerlendirmeleri).",
+   "bio": "Mısırlı belâgat âlimidir; Ezher Üniversitesi'nde uzun yıllar ders verdi. Zemahşerî ve Abdülkâhir'in metinleri üzerine yaptığı ayrıntılı okumalarla klasik belâgati çağdaş öğrenciye taşıyan en önemli isimlerdendir.",
+   "eserler": [
+    "el-Belâgatü'l-Kur'âniyye fî tefsîri'z-Zemahşerî",
+    "Delâlâtü't-terâkîb",
+    "Hasâisü't-terâkîb",
+    "el-İ'câzü'l-belâgî"
+   ],
+   "keys": [
+    "محمد محمد أبو موسى",
+    "Muhammed Ebû Mûsâ"
+   ]
+  },
+  {
+   "id": "ebudib",
+   "tr": "Kemal Ebû Dîb (Kamal Abu-Deeb)",
+   "ar": "كمال أبو ديب",
+   "dH": "—",
+   "dM": "—",
+   "era": "modern",
+   "field": "poetika (İngilizce/Arapça)",
+   "school": "Batı akademisi",
+   "works": "Al-Jurjānī’s Theory of Poetic Imagery (1979)",
+   "note": "Cürcânî’nin imge kuramını modern edebiyat kuramıyla okuyan klasik İngilizce çalışma.",
+   "bio": "Suriyeli eleştirmen ve akademisyendir; Oxford'da doktora yaptı, Londra Üniversitesi (SOAS) başta olmak üzere çeşitli üniversitelerde hocalık yaptı. Abdülkâhir el-Cürcânî'nin imge kuramı üzerine kitabı Batı dillerinde bu alanın temel çalışmasıdır.",
+   "eserler": [
+    "Al-Jurjānī's Theory of Poetic Imagery",
+    "Fi'l-bunyeti'l-îkâ'iyye li'ş-şi'ri'l-Arabî",
+    "Cedeliyyetü'l-hafâ ve't-tecellî"
+   ],
+   "keys": [
+    "Abu-Deeb",
+    "Abu Deeb",
+    "كمال أبو ديب",
+    "Ebû Dîb"
+   ]
+  }
+ ],
+ "note": "Vefat tarihleri hicrî/milâdî; ansiklopedik genel bilgi. Ayrıntı ve kaynak için TDV İslâm Ansiklopedisi’nin ilgili maddesine bak."
+}

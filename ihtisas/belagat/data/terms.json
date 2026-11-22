@@ -1,0 +1,773 @@
+{
+"groups": [
+{
+"name": "1. Temel kavramlar",
+"items": [
+{
+"ar": "البلاغة",
+"tr": "belâgat",
+"en": "eloquence / balāgha",
+"d": "Fasih sözün muktezâ-yı hâle (durumun gereğine) uygun olması; meânî, beyân ve bedî‘i kapsayan ilim.",
+"ex": ""
+},
+{
+"ar": "الفصاحة",
+"tr": "fesâhat",
+"en": "clarity / purity of diction",
+"d": "Sözün ve kelimenin kusurlardan arınmış, açık ve akıcı olması; belâgatın ön şartı.",
+"ex": ""
+},
+{
+"ar": "البيان",
+"tr": "beyân",
+"en": "clear expression",
+"d": "Câhiz’de her türlü anlatma ve anlaşılma; sonraki sistemde mecâz, teşbih ve kinâyeyi inceleyen ilim.",
+"ex": ""
+},
+{
+"ar": "مقتضى الحال",
+"tr": "muktezâ-yı hâl",
+"en": "requirement of the situation",
+"d": "Durumun ve muhatabın hâlinin gerektirdiği söyleyiş biçimi; belâgatın ölçütü.",
+"ex": ""
+},
+{
+"ar": "المقام",
+"tr": "makam",
+"en": "context of situation",
+"d": "Sözün söylendiği durum; “her makamın bir sözü vardır” (لكل مقام مقال).",
+"ex": ""
+},
+{
+"ar": "النظم",
+"tr": "nazm",
+"en": "syntactic composition",
+"d": "Cürcânî’de kelimelerin nahvin anlamlarına göre birbirine bağlanması; sözün üstünlüğünün kaynağı.",
+"ex": ""
+},
+{
+"ar": "معاني النحو",
+"tr": "meâni’n-nahv",
+"en": "meanings of syntax",
+"d": "Nahiv yapılarının taşıdığı anlam ilişkileri (takdim, hazf, ta‘rîf vb.).",
+"ex": ""
+},
+{
+"ar": "اللفظ والمعنى",
+"tr": "lafız ve mana",
+"en": "form and meaning",
+"d": "Sözün üstünlüğünün lafızda mı manada mı olduğu tartışması.",
+"ex": ""
+},
+{
+"ar": "الإعجاز",
+"tr": "i‘câz",
+"en": "inimitability",
+"d": "Kur’an’ın benzerinin getirilemezliği; belâgat ilminin doğuş sebeplerinden.",
+"ex": ""
+},
+{
+"ar": "التحدّي",
+"tr": "tehaddî",
+"en": "challenge",
+"d": "Kur’an’ın benzerini getirmeye meydan okuması (İsrâ 17/88; Hûd 11/13).",
+"ex": ""
+},
+{
+"ar": "الصرفة",
+"tr": "sarfe",
+"en": "divine prevention",
+"d": "Arapların Kur’an’ın benzerini getirmekten Allah tarafından alıkonduğu görüşü (Nazzâm’a nispet edilir; Hafâcî de benimser).",
+"ex": ""
+},
+{
+"ar": "الشاهد",
+"tr": "şâhid",
+"en": "attestation / proof-text",
+"d": "Bir kuralı ispat ya da örnek için getirilen âyet, hadis, şiir veya söz.",
+"ex": ""
+},
+{
+"ar": "عصر الاحتجاج",
+"tr": "ihticâc dönemi",
+"en": "period of linguistic authority",
+"d": "Sözü dil kuralına delil kabul edilen dönem (genelde II./VIII. yy ortasına kadar).",
+"ex": ""
+},
+{
+"ar": "الذوق",
+"tr": "zevk",
+"en": "linguistic taste",
+"d": "Fesâhat ve belâgat hükmünde son hakem sayılan sağlam dil sezgisi.",
+"ex": ""
+}
+]
+},
+{
+"name": "2. Fesâhat ve kusurları",
+"items": [
+{
+"ar": "فصاحة المفرد",
+"tr": "kelimenin fesâhati",
+"en": "word-level fasāḥa",
+"d": "Kelimenin tenâfür, garâbet ve kıyasa aykırılıktan arınmış olması (Kazvînî).",
+"ex": ""
+},
+{
+"ar": "تنافر الحروف",
+"tr": "tenâfür-i hurûf",
+"en": "phonetic dissonance",
+"d": "Harflerin bir araya gelişinin telaffuzu ağırlaştırması.",
+"ex": "الهُعْخُع (en ağır); مُسْتَشْزِرات (daha hafif)"
+},
+{
+"ar": "الغرابة",
+"tr": "garâbet",
+"en": "obscurity",
+"d": "Anlamı açık olmayan, kullanımda bilinmeyen kelime.",
+"ex": "تكأكأتم، افرنقعوا"
+},
+{
+"ar": "مخالفة القياس",
+"tr": "muhâlefetü’l-kıyâs",
+"en": "morphological irregularity",
+"d": "Kelimenin sarf kurallarına aykırı olması.",
+"ex": "الأجلل (الأجلّ yerine)"
+},
+{
+"ar": "الكراهة في السمع",
+"tr": "kerâhet fi’s-sem‘",
+"en": "harshness to the ear",
+"d": "Kelimenin kulağa çirkin gelmesi; bazı belâgatçılarda ayrı kusur, Kazvînî’de reddedilir.",
+"ex": ""
+},
+{
+"ar": "فصاحة الكلام",
+"tr": "kelâmın fesâhati",
+"en": "utterance-level fasāḥa",
+"d": "Kelimeler fasih olmakla birlikte sözün za‘f-ı te’lîf, tenâfür-i kelimât ve ta‘kîdden arınmış olması.",
+"ex": ""
+},
+{
+"ar": "ضعف التأليف",
+"tr": "za‘f-ı te’lîf",
+"en": "weak construction",
+"d": "Sözün meşhur nahiv kurallarına aykırı dizilmesi.",
+"ex": "ضرب غلامُه زيدًا (zamirin lafzen ve rütbeten sonra gelen isme dönmesi)"
+},
+{
+"ar": "تنافر الكلمات",
+"tr": "tenâfür-i kelimât",
+"en": "dissonance of words",
+"d": "Kelimeler tek tek fasih olsa da art arda gelince dile ağır gelmesi.",
+"ex": "وليس قربَ قبرِ حربٍ قبرُ"
+},
+{
+"ar": "التعقيد اللفظي",
+"tr": "ta‘kîd-i lafzî",
+"en": "verbal complexity",
+"d": "Takdim-tehir, fasıla ve benzeri dizim bozuklukları yüzünden anlamın kapanması (Ferezdak’ın meşhur beyti).",
+"ex": ""
+},
+{
+"ar": "التعقيد المعنوي",
+"tr": "ta‘kîd-i ma‘nevî",
+"en": "semantic complexity",
+"d": "Kastedilen anlama geçişin kapalı olması (uzak lâzımlar, alışılmadık kinâyeler).",
+"ex": ""
+},
+{
+"ar": "فصاحة المتكلم",
+"tr": "mütekellimin fesâhati",
+"en": "speaker’s fasāḥa",
+"d": "Maksadı fasih sözle ifade edebilme melekesi.",
+"ex": ""
+},
+{
+"ar": "التلاؤم",
+"tr": "telâüm",
+"en": "phonetic harmony",
+"d": "Harflerin uyumu; Rummânî’de üç derecesi vardır, tenâfürün karşıtıdır.",
+"ex": ""
+},
+{
+"ar": "المخرج",
+"tr": "mahreç",
+"en": "place of articulation",
+"d": "Harfin çıktığı yer; Hafâcî’ye göre mahreçlerin uzaklığı fesâhatin şartıdır.",
+"ex": ""
+}
+]
+},
+{
+"name": "3. Meânî",
+"items": [
+{
+"ar": "علم المعاني",
+"tr": "ilm-i meânî",
+"en": "semantics-pragmatics of syntax",
+"d": "Sözün muktezâ-yı hâle uygunluğunu sağlayan halleri inceleyen ilim.",
+"ex": ""
+},
+{
+"ar": "الخبر",
+"tr": "haber",
+"en": "declarative",
+"d": "Doğru ya da yanlış olma ihtimali taşıyan söz.",
+"ex": ""
+},
+{
+"ar": "الإنشاء",
+"tr": "inşâ",
+"en": "performative / non-declarative",
+"d": "Doğruluk-yanlışlık ihtimali taşımayan söz (emir, nehiy, soru, temenni, nidâ...).",
+"ex": ""
+},
+{
+"ar": "فائدة الخبر / لازم الفائدة",
+"tr": "fâidetü’l-haber / lâzımü’l-fâide",
+"en": "informative purpose",
+"d": "Haberle muhataba bilgi vermek ya da konuşanın o bilgiyi bildiğini bildirmek.",
+"ex": ""
+},
+{
+"ar": "أضرب الخبر",
+"tr": "haberin kısımları",
+"en": "degrees of assertion",
+"d": "İbtidâî (te’kîdsiz), talebî (bir te’kîd), inkârî (birden çok te’kîd).",
+"ex": "إنّ زيدًا لقائمٌ (inkârî)"
+},
+{
+"ar": "الإنشاء الطلبي",
+"tr": "inşâ-i talebî",
+"en": "requestive",
+"d": "Emir, nehiy, istifhâm, temennî, nidâ.",
+"ex": ""
+},
+{
+"ar": "الإسناد",
+"tr": "isnad",
+"en": "predication",
+"d": "Bir hükmü bir şeye nispet etme; hakiki ve mecazi (aklî) olur.",
+"ex": ""
+},
+{
+"ar": "المسند إليه / المسند",
+"tr": "müsnedün ileyh / müsned",
+"en": "subject / predicate",
+"d": "Hüküm verilen ve verilen hüküm; zikir-hazf, ta‘rîf-tenkîr, takdim-tehir halleri meânînin konusu.",
+"ex": ""
+},
+{
+"ar": "التقديم والتأخير",
+"tr": "takdim ve tehir",
+"en": "fronting and postponement",
+"d": "Öğelerin olağan sırasının bir amaçla değiştirilmesi.",
+"ex": "إيّاك نعبد (Fâtiha 1/5)"
+},
+{
+"ar": "الذكر والحذف",
+"tr": "zikir ve hazf",
+"en": "mention and ellipsis",
+"d": "Bir öğeyi söylemek ya da karineye güvenerek söylememek.",
+"ex": ""
+},
+{
+"ar": "التعريف والتنكير",
+"tr": "ta‘rîf ve tenkîr",
+"en": "definiteness",
+"d": "Belirlilik ve belirsizliğin anlam amaçları (tazim, tahkir, teksir...).",
+"ex": ""
+},
+{
+"ar": "القصر",
+"tr": "kasr",
+"en": "restriction",
+"d": "Bir hükmü belirli bir şeye özgülemek; yolları: nefy+illâ, innemâ, atıf, takdim.",
+"ex": "وما محمدٌ إلا رسولٌ (Âl-i İmrân 3/144)"
+},
+{
+"ar": "الفصل والوصل",
+"tr": "fasl ve vasl",
+"en": "asyndeton and syndeton",
+"d": "Cümleleri “ve” ile bağlamak ya da bağlamamak; kemâl-i ittisâl, kemâl-i inkıtâ vb. halleri.",
+"ex": ""
+},
+{
+"ar": "الإيجاز",
+"tr": "îcâz",
+"en": "concision",
+"d": "Anlamı az sözle tam ifade etmek; îcâz-ı kasr ve îcâz-ı hazf.",
+"ex": "ولكم في القصاص حياةٌ (Bakara 2/179)"
+},
+{
+"ar": "الإطناب",
+"tr": "ıtnâb",
+"en": "amplification",
+"d": "Bir fayda için anlamdan fazla söz: ibhâmdan sonra îzâh, tekrir, i‘tirâz, tezyîl...",
+"ex": ""
+},
+{
+"ar": "المساواة",
+"tr": "müsâvât",
+"en": "equivalence",
+"d": "Sözün anlama tam denk olması.",
+"ex": ""
+},
+{
+"ar": "الالتفات",
+"tr": "iltifât",
+"en": "grammatical shift",
+"d": "Konuşmada birinci, ikinci ve üçüncü şahıs arasında geçiş.",
+"ex": "الحمد لله... إياك نعبد (gaibden muhataba)"
+},
+{
+"ar": "خلاف مقتضى الظاهر",
+"tr": "zâhirin gereğinin dışı",
+"en": "departure from the expected",
+"d": "Sözü bilerek dış görünüşün gerektirdiğinden farklı söylemek (iltifât, üslûb-i hakîm, taglîb...).",
+"ex": ""
+},
+{
+"ar": "الأسلوب الحكيم",
+"tr": "üslûb-i hakîm",
+"en": "wise redirection",
+"d": "Soruya, sorulandan daha önemli olana yönelerek cevap vermek.",
+"ex": "يسألونك عن الأهلة قل هي مواقيت للناس (Bakara 2/189)"
+}
+]
+},
+{
+"name": "4. Beyân",
+"items": [
+{
+"ar": "علم البيان",
+"tr": "ilm-i beyân",
+"en": "science of figurative expression",
+"d": "Bir anlamı açıklık derecesi farklı yollarla ifade etmeyi inceleyen ilim.",
+"ex": ""
+},
+{
+"ar": "التشبيه",
+"tr": "teşbih",
+"en": "simile",
+"d": "İki şeyin ortak bir nitelikte birleştirilmesi; rükünleri: müşebbeh, müşebbehün bih, vech-i şebeh, edat.",
+"ex": "زيدٌ كالأسد في الشجاعة"
+},
+{
+"ar": "وجه الشبه",
+"tr": "vech-i şebeh",
+"en": "ground of similarity",
+"d": "Benzetmenin dayandığı ortak nitelik.",
+"ex": ""
+},
+{
+"ar": "التشبيه البليغ",
+"tr": "teşbîh-i belîğ",
+"en": "eloquent (copular) simile",
+"d": "Edat ve vech-i şebeh söylenmeyen teşbih.",
+"ex": "زيدٌ أسدٌ"
+},
+{
+"ar": "التشبيه التمثيلي",
+"tr": "teşbîh-i temsîlî",
+"en": "analogical simile",
+"d": "Vech-i şebehin birden çok unsurdan oluşan bir tablo olduğu teşbih.",
+"ex": ""
+},
+{
+"ar": "التشبيه الضمني",
+"tr": "teşbîh-i zımnî",
+"en": "implicit simile",
+"d": "Benzetmenin açıkça kurulmayıp anlamdan sezildiği teşbih.",
+"ex": ""
+},
+{
+"ar": "الحقيقة",
+"tr": "hakikat",
+"en": "literal usage",
+"d": "Kelimenin konulduğu anlamda kullanılması.",
+"ex": ""
+},
+{
+"ar": "المجاز",
+"tr": "mecâz",
+"en": "figurative usage",
+"d": "Kelimenin bir alâka ve karine ile konulduğu anlam dışında kullanılması.",
+"ex": ""
+},
+{
+"ar": "القرينة",
+"tr": "karîne",
+"en": "contextual indicator",
+"d": "Hakiki anlamın kastedilmediğini gösteren işaret.",
+"ex": ""
+},
+{
+"ar": "العلاقة",
+"tr": "alâka",
+"en": "relation",
+"d": "Hakiki ve mecazi anlam arasındaki bağ (benzerlik ya da başka ilgiler).",
+"ex": ""
+},
+{
+"ar": "المجاز المرسل",
+"tr": "mecâz-ı mürsel",
+"en": "metonymy/synecdoche",
+"d": "Alâkası benzerlik dışında olan mecâz: sebebiyye, müsebbebiyye, külliyye, cüz’iyye, mahalliyye, hâliyye, i‘tibâru mâ kâne / mâ yekûn.",
+"ex": "رعينا الغيثَ (sebebiyye)"
+},
+{
+"ar": "المجاز العقلي",
+"tr": "mecâz-ı aklî",
+"en": "cognitive (predicative) trope",
+"d": "Fiilin ya da fiil anlamındakinin gerçek failinden başkasına isnadı.",
+"ex": "أنبت الربيعُ البقلَ"
+},
+{
+"ar": "الاستعارة",
+"tr": "istiâre",
+"en": "metaphor",
+"d": "Alâkası benzerlik olan mecâz; tarafları: müsteâr minh, müsteâr leh, müsteâr, câmi‘.",
+"ex": ""
+},
+{
+"ar": "الاستعارة التصريحية",
+"tr": "istiâre-i tasrîhiyye",
+"en": "explicit metaphor",
+"d": "Müşebbehün bihin açıkça söylendiği istiâre.",
+"ex": "رأيتُ أسدًا يرمي"
+},
+{
+"ar": "الاستعارة المكنية",
+"tr": "istiâre-i mekniyye",
+"en": "implicit metaphor",
+"d": "Müşebbehün bihin söylenmeyip bir lâzımıyla ima edildiği istiâre.",
+"ex": "وإذا المنيّةُ أنشبتْ أظفارَها"
+},
+{
+"ar": "الاستعارة الأصلية / التبعية",
+"tr": "asliyye / tebe‘iyye",
+"en": "primary / derivative metaphor",
+"d": "Câmid isimde yapılan ve fiil, türemiş isim, harfte yapılan istiâre.",
+"ex": ""
+},
+{
+"ar": "الترشيح / التجريد / الإطلاق",
+"tr": "tereşşuh / tecrîd / ıtlâk",
+"en": "nominated / stripped / absolute metaphor",
+"d": "İstiâreye müşebbehün bihe ya da müşebbehe uygun bir unsur eklenip eklenmemesine göre türler.",
+"ex": ""
+},
+{
+"ar": "الاستعارة التمثيلية",
+"tr": "istiâre-i temsîliyye",
+"en": "allegorical metaphor",
+"d": "Bir hâl tablosunun benzeri başka bir tabloya aktarıldığı istiâre; atasözlerinin çoğu.",
+"ex": "أراك تقدّم رِجلًا وتؤخّر أخرى"
+},
+{
+"ar": "الكناية",
+"tr": "kinâye",
+"en": "kināya (metonymic allusion)",
+"d": "Lâzımını söyleyip melzûmunu kastetmek; hakiki anlamın kastı da caizdir. Türleri: sıfattan, mevsûftan, nispetten.",
+"ex": "فلانٌ كثيرُ الرماد (cömert)"
+},
+{
+"ar": "التعريض",
+"tr": "ta‘rîz",
+"en": "innuendo",
+"d": "Sözü bir yöne söyleyip başka bir yönü kastetmek.",
+"ex": ""
+}
+]
+},
+{
+"name": "5. Bedî‘: ma‘nevî sanatlar",
+"items": [
+{
+"ar": "علم البديع",
+"tr": "ilm-i bedî‘",
+"en": "embellishment",
+"d": "Uygunluk ve açıklık sağlandıktan sonra sözü güzelleştiren yönler.",
+"ex": ""
+},
+{
+"ar": "الطباق",
+"tr": "tıbâk (mutâbaka)",
+"en": "antithesis",
+"d": "İki zıt anlamı bir arada kullanmak.",
+"ex": "يُحيي ويُميت"
+},
+{
+"ar": "المقابلة",
+"tr": "mukâbele",
+"en": "parallel antithesis",
+"d": "İki ya da daha çok anlamı sonra karşıtlarıyla sırayla getirmek.",
+"ex": "فليضحكوا قليلًا وليبكوا كثيرًا (Tevbe 9/82)"
+},
+{
+"ar": "التورية",
+"tr": "tevriye",
+"en": "double entendre",
+"d": "Yakın ve uzak iki anlamı olan kelimeyi uzak anlamı kastederek kullanmak.",
+"ex": ""
+},
+{
+"ar": "الاستخدام",
+"tr": "istihdâm",
+"en": "double reference",
+"d": "Bir kelimeyi bir anlamda, ona dönen zamiri başka anlamda kullanmak.",
+"ex": ""
+},
+{
+"ar": "اللف والنشر",
+"tr": "leff ü neşr",
+"en": "convolution-unfolding",
+"d": "Birkaç şeyi anıp sonra her birine ait olanı, eşleştirmeyi dinleyiciye bırakarak getirmek.",
+"ex": "ومن رحمته جعل لكم الليل والنهار لتسكنوا فيه ولتبتغوا من فضله (Kasas 28/73)"
+},
+{
+"ar": "الجمع والتفريق والتقسيم",
+"tr": "cem‘, tefrîk, taksîm",
+"en": "combination, separation, division",
+"d": "Birkaç şeyi bir hükümde toplamak, bir türün iki ferdini ayırmak, bölümlere ayırmak.",
+"ex": ""
+},
+{
+"ar": "المبالغة",
+"tr": "mübalağa",
+"en": "hyperbole",
+"d": "Bir niteliği imkânsız ya da uzak dereceye ulaştırmak (teblîğ, iğrâk, guluv).",
+"ex": ""
+},
+{
+"ar": "حسن التعليل",
+"tr": "hüsn-i ta‘lîl",
+"en": "fanciful aetiology",
+"d": "Bir duruma gerçek olmayan ama hoş bir sebep göstermek.",
+"ex": ""
+},
+{
+"ar": "تأكيد المدح بما يشبه الذم",
+"tr": "te’kîdü’l-medh bimâ yüşbihü’z-zemm",
+"en": "praise in the guise of blame",
+"d": "Kusur sayılacak gibi görünen bir ifadeyle övgüyü pekiştirmek.",
+"ex": ""
+},
+{
+"ar": "تجاهل العارف",
+"tr": "tecâhül-i ârif",
+"en": "feigned ignorance",
+"d": "Bildiği bir şeyi bir nükte için bilmiyormuş gibi sormak.",
+"ex": ""
+},
+{
+"ar": "المشاكلة",
+"tr": "müşâkele",
+"en": "verbal assimilation",
+"d": "Bir şeyi başka bir şeyin lafzıyla, ona eşlik ettiği için anmak.",
+"ex": "تعلمُ ما في نفسي ولا أعلمُ ما في نفسك (Mâide 5/116)"
+},
+{
+"ar": "المذهب الكلامي",
+"tr": "mezheb-i kelâmî",
+"en": "dialectical argument",
+"d": "Sözde kelâm usulünde bir delil getirmek.",
+"ex": ""
+},
+{
+"ar": "حسن الابتداء والتخلص والانتهاء",
+"tr": "hüsn-i ibtidâ / tahallüs / intihâ",
+"en": "good opening / transition / ending",
+"d": "Söze güzel başlamak, konudan konuya güzel geçmek ve güzel bitirmek.",
+"ex": ""
+}
+]
+},
+{
+"name": "6. Bedî‘: lafzî sanatlar",
+"items": [
+{
+"ar": "الجناس",
+"tr": "cinas (tecnîs)",
+"en": "paronomasia",
+"d": "Telaffuzu benzer, anlamı farklı iki kelime; tam ve nâkıs türleri.",
+"ex": "ويومَ تقومُ الساعةُ يُقسِمُ المجرمون ما لبثوا غيرَ ساعةٍ (Rûm 30/55)"
+},
+{
+"ar": "السجع",
+"tr": "seci",
+"en": "rhymed prose",
+"d": "Nesirde fâsılaların son harfte uyumu (mutarraf, mütevâzî, murassa‘).",
+"ex": ""
+},
+{
+"ar": "رد العجز على الصدر",
+"tr": "reddü’l-acüz ale’s-sadr",
+"en": "epanadiplosis",
+"d": "Beytin ya da cümlenin sonunda baştaki kelimeyi tekrar etmek.",
+"ex": ""
+},
+{
+"ar": "القلب",
+"tr": "kalb (aks)",
+"en": "palindrome",
+"d": "Tersinden okunduğunda da aynı olan söz.",
+"ex": "كلٌّ في فلكٍ (Yâsîn 36/40)"
+},
+{
+"ar": "الترصيع",
+"tr": "tarsî‘",
+"en": "full parallelism",
+"d": "İki fıkranın kelimelerinin vezin ve kafiyede karşılıklı denk gelmesi.",
+"ex": ""
+},
+{
+"ar": "الاقتباس والتضمين",
+"tr": "iktibâs ve tazmîn",
+"en": "quotation",
+"d": "Söze âyet/hadis ya da başka bir şairin dizesini katmak.",
+"ex": ""
+},
+{
+"ar": "لزوم ما لا يلزم",
+"tr": "lüzûmu mâ lâ yelzem",
+"en": "unnecessary constraint",
+"d": "Kafiyede gerekmeyen bir harfi de bağlı kalınan unsur yapmak (Ebü’l-Alâ el-Maarrî’nin Lüzûmiyyât’ı).",
+"ex": ""
+}
+]
+},
+{
+"name": "7. Edebî tenkit ve şiir",
+"items": [
+{
+"ar": "النقد",
+"tr": "nakd",
+"en": "literary criticism",
+"d": "Şiir ve söz eleştirisi; erken dönemde belâgatla iç içe.",
+"ex": ""
+},
+{
+"ar": "المطبوع والمصنوع",
+"tr": "matbû‘ ve masnû‘",
+"en": "natural vs. crafted",
+"d": "Doğal yetenekle ve sanat emeğiyle söylenmiş söz.",
+"ex": ""
+},
+{
+"ar": "عمود الشعر",
+"tr": "amûdü’ş-şi‘r",
+"en": "the pillar of poetry",
+"d": "Klasik Arap şiirinin ölçütleri (Merzûkî’nin sayımıyla yedi madde).",
+"ex": ""
+},
+{
+"ar": "السرقات الشعرية",
+"tr": "serikât-ı şi‘riyye",
+"en": "poetic borrowing",
+"d": "Şairler arası anlam ve lafız alışverişi; ahz, nesh, selh, mesh türleri.",
+"ex": ""
+},
+{
+"ar": "الموازنة",
+"tr": "muvâzene",
+"en": "comparative criticism",
+"d": "İki şairi karşılaştırmalı değerlendirme (Âmidî).",
+"ex": ""
+}
+]
+},
+{
+"name": "8. Nahiv ve sarf (temel)",
+"items": [
+{
+"ar": "النحو",
+"tr": "nahiv",
+"en": "syntax",
+"d": "Kelimelerin cümledeki görevlerini ve i‘râbını inceleyen ilim.",
+"ex": ""
+},
+{
+"ar": "الصرف / التصريف",
+"tr": "sarf / tasrîf",
+"en": "morphology",
+"d": "Kelimenin yapısını, kalıplarını ve değişimlerini inceleyen ilim.",
+"ex": ""
+},
+{
+"ar": "الإعراب والبناء",
+"tr": "i‘râb ve binâ",
+"en": "inflection and invariability",
+"d": "Kelime sonunun âmile göre değişmesi ve değişmemesi.",
+"ex": ""
+},
+{
+"ar": "العامل",
+"tr": "âmil",
+"en": "governor",
+"d": "İ‘râbı belirleyen öğe; âmil teorisi Arap nahvinin omurgası.",
+"ex": ""
+},
+{
+"ar": "المرفوعات / المنصوبات / المجرورات",
+"tr": "merfûât / mansûbât / mecrûrât",
+"en": "nominative / accusative / genitive",
+"d": "Nahiv kitaplarının ana bölümleri.",
+"ex": ""
+},
+{
+"ar": "الميزان الصرفي",
+"tr": "mîzân-ı sarfî",
+"en": "morphological scale",
+"d": "ف ع ل kalıbıyla kelime vezni.",
+"ex": ""
+},
+{
+"ar": "المجرد والمزيد",
+"tr": "mücerred ve mezîd",
+"en": "bare and augmented",
+"d": "Kök harflerinden oluşan ve ilave harf alan fiil/isim.",
+"ex": ""
+},
+{
+"ar": "الصحيح والمعتل",
+"tr": "sahîh ve mu‘tel",
+"en": "sound and weak",
+"d": "Kökünde illet harfi bulunmayan ve bulunan kelime.",
+"ex": ""
+},
+{
+"ar": "الإعلال والإبدال والإدغام",
+"tr": "i‘lâl, ibdâl, idgâm",
+"en": "weak-letter change, substitution, assimilation",
+"d": "Sarfın ses değişimi bahisleri; tenâfür tartışmasıyla doğrudan ilişkili.",
+"ex": ""
+},
+{
+"ar": "الاشتقاق",
+"tr": "iştikak",
+"en": "derivation",
+"d": "Kelimelerin birbirinden türetilmesi (sağîr, kebîr, ekber).",
+"ex": ""
+},
+{
+"ar": "السماع والقياس",
+"tr": "semâ‘ ve kıyas",
+"en": "attestation and analogy",
+"d": "Nahiv usulünün iki temel delili.",
+"ex": ""
+},
+{
+"ar": "العلة",
+"tr": "illet",
+"en": "grammatical cause",
+"d": "Bir kuralın gerekçesi (ta‘lîmî, kıyâsî, cedelî – Zeccâcî).",
+"ex": ""
+}
+]
+}
+],
+"note": "Tanımlar klasik ders düzeninin (Telhîs çizgisi) özetidir; örnekler belâgat kitaplarının yerleşik şâhidleridir."
+}
