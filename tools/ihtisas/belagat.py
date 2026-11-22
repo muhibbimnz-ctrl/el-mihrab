@@ -3,8 +3,8 @@
 K = lambda ad, ar, mu, v, tur, neden, zincir=(), app=None: dict(ad=ad, ar=ar, mu=mu, v=v, tur=tur, neden=neden, zincir=list(zincir), app=app)
 MED = lambda k, e: ('medrese.html#/kitap/' + k, 'Medrese’de oku: ' + e)
 ALAN = dict(
- id='belagat', ad='Belâgat, Nahiv ve Sarf', ar='عِلْمُ الْبَلَاغَة', renk='#8a3b12',
- kisa='Sözü yerinde, gereği kadar ve etkili söyleme ilmi: meânî, beyân, bedî‘.',
+ id='belagat', ad='Arap Dili, Belâgat ve Edebiyat', ar='عِلْمُ الْبَلَاغَة', renk='#8a3b12',
+ kisa='Sarf ve nahivden belâgata, oradan Arap edebiyatına: sözü doğru, yerinde ve etkili söylemenin ilmi.',
  giris=[
   'Belâgat, Arapçanın üç “âlet ilmi”nin taçıdır: Sarf kelimenin yapısını, nahiv cümlenin dizilişini öğretir; belâgat ise o cümlenin neden öyle kurulduğunu ve muhataba nasıl tesir ettiğini sorar. Bu yüzden Kur’an’ın i‘câzını anlamanın da anahtarıdır.',
   'Klasik belâgat üç ilme ayrılır: Meânî (sözün duruma uygunluğu: takdim-tehir, hasr, fasl-vasl, îcâz-ıtnâb), Beyân (bir anlamı farklı açıklık dereceleriyle anlatma: teşbih, mecaz, istiâre, kinâye) ve Bedî‘ (sözü güzelleştiren sanatlar: cinas, tıbâk, mukabele, tevriye).',

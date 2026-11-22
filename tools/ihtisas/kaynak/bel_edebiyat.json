@@ -1,0 +1,916 @@
+{
+ "periods": [
+  {
+   "key": "cahiliye",
+   "name": "Câhiliye",
+   "range": "~500–610",
+   "desc": "Şiir sözlü kültürün arşividir: kaside (atlâl–rahîl–garaz), muallakalar, panayır (Ukâz) şiiri, sa‘lûk şairler. Nesirde hitabe, mesel ve kâhin secisi."
+  },
+  {
+   "key": "islam",
+   "name": "Sadr-ı İslâm ve Emevî",
+   "range": "610–750",
+   "desc": "Kur’an’ın dil ve üslup üzerindeki etkisi; davet şiiri (Hassân), nekāiz (Cerîr–Ferezdak), Hicaz gazeli ve Uzrî aşk şiiri; ilk divan kâtipliği."
+  },
+  {
+   "key": "abbasi",
+   "name": "Abbasî",
+   "range": "750–1258",
+   "desc": "Tercüme hareketi ve edeb kültürü; muhdes şairler, bedî‘ tartışması, Câhiz ve İbn Kuteybe’nin nesri, Mütenebbî, makâme türünün doğuşu."
+  },
+  {
+   "key": "endulus",
+   "name": "Endülüs",
+   "range": "711–1492",
+   "desc": "Doğu’yu taklitten özgün türlere: muvaşşah ve zecel, tabiat şiiri, İbn Zeydûn ve İbn Hazm; Gırnata’nın düşüşüyle biten parlak dönem."
+  },
+  {
+   "key": "memluk",
+   "name": "Memlük ve Osmanlı",
+   "range": "1258–1798",
+   "desc": "Ansiklopedik eserler (Nüveyrî, Kalkaşendî), bedî‘iyyeler ve na‘t; uzun süre ‘inhitat’ denen bu dönem bugün yeniden değerlendiriliyor."
+  },
+  {
+   "key": "nahda",
+   "name": "Nahda (Uyanış)",
+   "range": "1798–1914",
+   "desc": "Matbaa, gazete ve tercüme; neoklasik şiir (Bârûdî, Şevkī), tarihî roman (Zeydân), makâmeden romana geçiş (Müveylihî), Mehcer edebiyatı."
+  },
+  {
+   "key": "modern",
+   "name": "Modern dönem",
+   "range": "1914–bugün",
+   "desc": "Roman ve tiyatronun yerleşmesi (Heykel, Hakîm, Mahfûz), serbest şiir (1947), direniş edebiyatı, Mağrib romanı ve çağdaş ödüllü romanlar."
+  }
+ ],
+ "persons": [
+  {
+   "per": "cahiliye",
+   "tr": "İmruülkays",
+   "ar": "امرؤ القيس",
+   "d": "ö. 540 dolayı",
+   "field": "şair",
+   "works": "Muallaka ‘Kıfâ nebki’",
+   "note": "Kasidenin atlâl girişinin sembolü; ‘şairlerin önderi’ sayılır.",
+   "bio": "Kinde kabilesinin hükümdar ailesinden gelir; babası Hucr'un öldürülmesinden sonra intikam ve tahtı geri almak için kabileler arasında dolaştı, Bizans'tan yardım istemeye gitti ve dönüşte Ankara civarında öldüğü rivayet edilir. Câhiliye şiirinin en büyüğü sayılır; 'Kıfâ nebki' diye başlayan muallakası atlâl girişinin ve tasvir sanatının örneğidir.",
+   "eserler": [
+    "Muallaka (Kıfâ nebki min zikrâ habîbin ve menzili)",
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "cahiliye",
+   "tr": "Tarafe b. el-Abd",
+   "ar": "طرفة بن العبد",
+   "d": "ö. 564 dolayı",
+   "field": "şair",
+   "works": "Muallaka",
+   "note": "Genç yaşta ölen muallaka şairi; deve tasviri.",
+   "bio": "Bahreyn bölgesinde Bekir b. Vâil kabilesinden doğdu; gençliğinde ailesinden uzak düşüp savruk bir hayat sürdü. Hîre hükümdarı Amr b. Hind'i hicvettiği için genç yaşta öldürüldüğü rivayet edilir. Muallakası özellikle deve tasviri ve hayata dair hikmetli beyitleriyle bilinir.",
+   "eserler": [
+    "Muallaka",
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "cahiliye",
+   "tr": "Züheyr b. Ebî Sülmâ",
+   "ar": "زهير بن أبي سلمى",
+   "d": "ö. 609 dolayı",
+   "field": "şair",
+   "works": "Muallaka",
+   "note": "Hikmetli beyitleriyle tanınır; ‘havliyyât’ ekolü.",
+   "bio": "Müzeyne kabilesinden, uzun ömürlü ve hikmetli sözleriyle tanınan Câhiliye şairidir. Abs ile Zübyân arasındaki Dâhis ve Ğabrâ savaşına son veren iki reisi övdüğü muallakası barış ve hikmet şiiridir. Şiirlerini uzun süre işleyip düzelttiği için 'havliyyât' şairlerinden sayılır; oğlu Ka'b da şairdir.",
+   "eserler": [
+    "Muallaka",
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "cahiliye",
+   "tr": "Nâbiga ez-Zübyânî",
+   "ar": "النابغة الذبياني",
+   "d": "ö. 604 dolayı",
+   "field": "şair",
+   "works": "Dîvân; i‘tizâriyyât",
+   "note": "Ukâz’da hakemlik ettiği rivayet edilir.",
+   "bio": "Zübyân kabilesindendir; Ukâz panayırında şairlerin hakemliğini yaptığı rivayet edilir. Hîre hükümdarı Nu'mân b. Münzir'in sarayında bulundu, gözden düşünce ondan özür dilediği şiirleriyle (i'tizâriyyât) ünlendi.",
+   "eserler": [
+    "Dîvân",
+    "İ'tizâriyyât"
+   ]
+  },
+  {
+   "per": "cahiliye",
+   "tr": "Antere b. Şeddâd",
+   "ar": "عنترة بن شداد",
+   "d": "ö. 608 dolayı",
+   "field": "şair",
+   "works": "Muallaka",
+   "note": "Kahramanlık şiiri; halk destanının konusu.",
+   "bio": "Abs kabilesinden bir babayla Habeşli bir cariyenin oğludur; köle olarak doğdu, savaştaki kahramanlığıyla hürriyetini kazandı. Amcasının kızı Able'ye olan aşkı ve şövalyelik şiirleriyle tanındı; hayatı daha sonra halk arasında büyük bir destana (Sîret-i Antere) dönüştü.",
+   "eserler": [
+    "Muallaka",
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "cahiliye",
+   "tr": "Lebîd b. Rebîa",
+   "ar": "لبيد بن ربيعة",
+   "d": "ö. 41/661",
+   "field": "muhadram şair",
+   "works": "Muallaka",
+   "note": "Müslüman olan tek muallaka şairi.",
+   "bio": "Âmir b. Sa'saa kabilesinden muallaka şairidir; ileri yaşta Müslüman oldu ve Kûfe'ye yerleşti. Müslüman olduktan sonra şiiri bıraktığı rivayet edilir. Muallakası çöl hayatının ve kabile değerlerinin canlı tasviridir.",
+   "eserler": [
+    "Muallaka",
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "cahiliye",
+   "tr": "Şenfera",
+   "ar": "الشنفرى",
+   "d": "ö. 525 dolayı",
+   "field": "sa‘lûk şair",
+   "works": "Lâmiyyetü’l-Arab",
+   "note": "Sa‘âlîk şiirinin en ünlü örneği.",
+   "bio": "Ezd kabilesinden 'sa'lûk' (kabilesinden kopmuş, yalnız yaşayan) şairdir. Çölde vahşi hayvanlarla yaşayan kişinin gururunu ve dayanıklılığını anlatan Lâmiyyetü'l-Arab, Arap şiirinin en meşhur kasidelerindendir.",
+   "eserler": [
+    "Lâmiyyetü'l-Arab",
+    "Dîvân (dağınık şiirler)"
+   ]
+  },
+  {
+   "per": "islam",
+   "tr": "Hassân b. Sâbit",
+   "ar": "حسان بن ثابت",
+   "d": "ö. 54/674",
+   "field": "şair",
+   "works": "Dîvân",
+   "note": "Hz. Peygamber’in şairi.",
+   "bio": "Medine'de Hazrec kabilesinden doğdu; Câhiliye döneminde Gassânî ve Hîre saraylarında methiyeler söyledi. Müslüman olduktan sonra Hz. Peygamber'i ve İslâm'ı müşrik şairlere karşı savunduğu için 'Şâirü'r-Resûl' diye anıldı. Uzun bir ömür sürdü ve Muâviye döneminde Medine'de vefat etti.",
+   "eserler": [
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "islam",
+   "tr": "Ka‘b b. Züheyr",
+   "ar": "كعب بن زهير",
+   "d": "ö. 26/646 dolayı",
+   "field": "şair",
+   "works": "Bânet Su‘âd (Kasîdetü’l-Bürde)",
+   "note": "Hz. Peygamber’e sunduğu kaside.",
+   "bio": "Züheyr b. Ebî Sülmâ'nın oğludur. Önce Hz. Peygamber'i hicvetti; sonra Medine'ye gelip Müslüman oldu ve 'Bânet Su'âd' kasidesini okudu. Hz. Peygamber'in hırkasını hediye ettiği rivayeti nedeniyle kasideye 'Kasîdetü'l-Bürde' de denir; asırlar boyunca pek çok şerh ve tahmise konu oldu.",
+   "eserler": [
+    "Bânet Su'âd (Kasîdetü'l-Bürde)",
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "islam",
+   "tr": "Cerîr",
+   "ar": "جرير",
+   "d": "ö. 110/728",
+   "field": "şair",
+   "works": "Nekāiz",
+   "note": "Ferezdak ile hiciv atışmaları (nekāiz).",
+   "bio": "Yemâme'de Temîm kabilesinin Kuleyb koluna mensup yoksul bir ailede doğdu. Emevî döneminin üç büyük şairinden biridir; Ferezdak ve Ahtal ile kırk yıl süren hiciv atışmaları (nekâiz) Basra'da Mirbed çarşısında halka okunurdu. Hiciv yanında gazel ve mersiyede de güçlüdür.",
+   "eserler": [
+    "Nekâizu Cerîr ve'l-Ferezdak",
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "islam",
+   "tr": "Ferezdak",
+   "ar": "الفرزدق",
+   "d": "ö. 110/728",
+   "field": "şair",
+   "works": "Nekāiz",
+   "note": "Emevî üçlüsünden.",
+   "bio": "Basra'da Temîm kabilesinin soylu bir ailesinden doğdu. Emevî döneminde Cerîr'in büyük rakibidir; övünme (fahr) şiirlerinde kabilesinin şerefini anlatır. Dilinin ağırlığı ve garip kelimeleri nedeniyle nahivciler onun şiirini çok kullanmıştır.",
+   "eserler": [
+    "Nekâiz",
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "islam",
+   "tr": "Ahtal",
+   "ar": "الأخطل",
+   "d": "ö. 92/710",
+   "field": "şair",
+   "works": "Dîvân",
+   "note": "Emevî saray şairi.",
+   "bio": "Tağlib kabilesinden Hıristiyan bir şairdir; Emevî halifeleri, özellikle Abdülmelik b. Mervân'ın sarayında resmî şair konumuna yükseldi. Cerîr'e karşı Ferezdak'ı destekledi. Şarap tasvirleri ve methiyeleriyle tanınır.",
+   "eserler": [
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "islam",
+   "tr": "Ömer b. Ebî Rebîa",
+   "ar": "عمر بن أبي ربيعة",
+   "d": "ö. 93/712 dolayı",
+   "field": "şair",
+   "works": "Gazel",
+   "note": "Hicaz şehir gazelinin öncüsü.",
+   "bio": "Mekke'de Kureyş'in zengin bir ailesinde doğdu. Hac mevsiminde gelen kadınları konu alan, diyaloglu ve hikâyeli gazelleriyle Hicaz'daki 'şehirli' (hazarî) gazel akımının öncüsüdür.",
+   "eserler": [
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "abbasi",
+   "tr": "Beşşâr b. Bürd",
+   "ar": "بشار بن برد",
+   "d": "ö. 167/784",
+   "field": "şair",
+   "works": "Dîvân",
+   "note": "Muhdes şairlerin öncüsü.",
+   "bio": "Basra'da İranlı bir aileden doğdu, doğuştan âmâ idi. Emevî ve Abbâsî dönemlerini gördü; yeni (muhdes) şiirin ilk büyük temsilcisi sayılır. Hiciv ve zındıklık suçlamasıyla Halife Mehdî döneminde öldürüldü.",
+   "eserler": [
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "abbasi",
+   "tr": "Ebû Nüvâs",
+   "ar": "أبو نواس",
+   "d": "ö. 198/813 dolayı",
+   "field": "şair",
+   "works": "Hamriyyât, zühdiyyât",
+   "note": "Yenilikçi şiirin sembolü.",
+   "bio": "Ahvaz'da doğdu, Basra'da yetişti, sonra Bağdat'a gitti; Hârûnürreşîd ve Emîn'in sarayında bulundu. Eski kasidenin atlâl girişiyle alay eden şarap şiirleriyle yeni şiirin sembolü oldu; ömrünün sonlarında zühd şiirleri yazdı.",
+   "eserler": [
+    "Dîvân (hamriyyât, gazeliyyât, zühdiyyât, tardiyyât)"
+   ]
+  },
+  {
+   "per": "abbasi",
+   "tr": "İbnü’l-Mukaffa‘",
+   "ar": "ابن المقفع",
+   "d": "ö. 142/759",
+   "field": "nesir",
+   "works": "Kelîle ve Dimne, el-Edebü’l-kebîr",
+   "note": "Arap edebî nesrinin öncüsü.",
+   "bio": "Fars asıllıdır, Basra'da yetişti; önce Zerdüştî iken Müslüman oldu. Emevî ve Abbâsî valilerinin kâtipliğini yaptı, genç yaşta Basra valisi tarafından öldürüldü. Kelîle ve Dimne'yi Pehlevîceden Arapçaya çevirerek Arap edebî nesrinin kurucularından biri oldu.",
+   "eserler": [
+    "Kelîle ve Dimne (tercüme)",
+    "el-Edebü'l-kebîr",
+    "el-Edebü's-sağîr",
+    "Risâletü's-sahâbe"
+   ]
+  },
+  {
+   "per": "abbasi",
+   "tr": "Câhiz",
+   "ar": "الجاحظ",
+   "d": "ö. 255/869",
+   "field": "nesir",
+   "works": "el-Hayevân, el-Buhalâ, el-Beyân ve’t-tebyîn",
+   "note": "Arap nesrinin zirvesi; mizah ve gözlem.",
+   "bio": "Basra'da doğdu; Nazzâm'ın talebesi Mu'tezilî bir edip ve düşünürdür. Bağdat ve Samerra'da devlet adamlarının himayesinde yazdı, yaşlılığında felç geçirerek Basra'da vefat etti. Mizah, gözlem ve tartışmayı birleştiren nesri Arap nesrinin zirvesidir.",
+   "eserler": [
+    "el-Beyân ve't-tebyîn",
+    "Kitâbü'l-Hayevân",
+    "el-Buhalâ",
+    "Resâil",
+    "et-Tarbî' ve't-tedvîr"
+   ]
+  },
+  {
+   "per": "abbasi",
+   "tr": "Ebû Temmâm",
+   "ar": "أبو تمام",
+   "d": "ö. 231/846",
+   "field": "şair",
+   "works": "Dîvân, el-Hamâse",
+   "note": "Bedî‘ şiirinin ustası.",
+   "bio": "Suriye'de Câsim'de doğdu, Mısır'da yetişti, Bağdat'ta Halife Mu'tasım'ı övdü; Musul'da vefat etti. Bedî' sanatlarını yoğun ve zihinsel bir biçimde kullanması 'eski-yeni' tartışmasını alevlendirdi. Derlediği el-Hamâse, seçilmiş şiir antolojilerinin en ünlüsüdür.",
+   "eserler": [
+    "Dîvân",
+    "el-Hamâse (Dîvânü'l-Hamâse)",
+    "Fetih kasidesi (Amûriye)"
+   ]
+  },
+  {
+   "per": "abbasi",
+   "tr": "Buhturî",
+   "ar": "البحتري",
+   "d": "ö. 284/897",
+   "field": "şair",
+   "works": "Dîvân",
+   "note": "Ebû Temmâm’ın öğrencisi; tabiî üslup.",
+   "bio": "Menbic'de doğdu; Ebû Temmâm'ın öğrencisi sayılır. Abbâsî halifeleri, özellikle Mütevekkil'in sarayında methiyeler söyledi. Akıcı ve müzikal dili 'eski üslup'a yakın bulunur; Âmidî'nin Muvâzene'si onu hocasıyla karşılaştırır.",
+   "eserler": [
+    "Dîvân",
+    "el-Hamâse"
+   ]
+  },
+  {
+   "per": "abbasi",
+   "tr": "İbnü’r-Rûmî",
+   "ar": "ابن الرومي",
+   "d": "ö. 283/896",
+   "field": "şair",
+   "works": "Dîvân",
+   "note": "Tasvir ve hiciv.",
+   "bio": "Bağdat'ta Bizans asıllı bir aileden doğdu. Kötümser mizacı, ince tasvirleri ve acı hicivleriyle bilinir; uzun kasidelerinde konuyu ayrıntılarıyla işler. Bir vezirin kendisini zehirlettiği rivayet edilir.",
+   "eserler": [
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "abbasi",
+   "tr": "İbn Kuteybe",
+   "ar": "ابن قتيبة",
+   "d": "ö. 276/889",
+   "field": "edip–eleştirmen",
+   "works": "eş-Şi‘r ve’ş-şu‘arâ, Uyûnü’l-ahbâr",
+   "note": "Edeb kültürünün sistemleştiricisi.",
+   "bio": "Kûfe'de doğdu, Bağdat'ta yaşadı, bir süre Dînever kadılığı yaptı. Ehl-i sünnet çizgisinde dil, edebiyat ve hadis âlimidir. Şiir eleştirisinde şairleri 'eski-yeni' diye değil, şiirin değeriyle ölçmeyi savunması önemlidir.",
+   "eserler": [
+    "eş-Şi'r ve'ş-şu'arâ",
+    "Uyûnü'l-ahbâr",
+    "Edebü'l-kâtib",
+    "Te'vîlü müşkili'l-Kur'ân"
+   ]
+  },
+  {
+   "per": "abbasi",
+   "tr": "Mütenebbî",
+   "ar": "المتنبي",
+   "d": "ö. 354/965",
+   "field": "şair",
+   "works": "Dîvân",
+   "note": "Arap şiirinin en çok tartışılan ve şerh edilen şairi.",
+   "bio": "Kûfe'de doğdu; gençliğinde peygamberlik iddiası nedeniyle hapsedildiği, 'Mütenebbî' lakabını buradan aldığı rivayet edilir. Halep'te Seyfüddevle'nin, Mısır'da Kâfûr'un, sonra Büveyhîlerin yanında bulundu; dönüş yolunda Bağdat yakınlarında öldürüldü. Hikmetli beyitleri ve gururlu üslubuyla Arap şiirinin en çok okunan ve şerh edilen şairidir.",
+   "eserler": [
+    "Dîvân (Seyfiyyât, Kâfûriyyât)"
+   ]
+  },
+  {
+   "per": "abbasi",
+   "tr": "Ebû Firâs el-Hamdânî",
+   "ar": "أبو فراس الحمداني",
+   "d": "ö. 357/968",
+   "field": "şair",
+   "works": "Rûmiyyât",
+   "note": "Esaret şiirleri.",
+   "bio": "Hamdânî hanedanından, Seyfüddevle'nin amcasının oğludur; şövalye-şair olarak tanınır. Bizanslılara esir düşüp yıllarca İstanbul'da tutuldu; esaretteki özlem şiirleri 'Rûmiyyât' adıyla bilinir. Hamdânî iç çekişmelerinde öldürüldü.",
+   "eserler": [
+    "Rûmiyyât",
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "abbasi",
+   "tr": "Ebü’l-Ferec el-İsfahânî",
+   "ar": "أبو الفرج الأصفهاني",
+   "d": "ö. 356/967",
+   "field": "edip",
+   "works": "el-Egānî",
+   "note": "Edebiyat tarihinin ana kaynağı.",
+   "bio": "İsfahan'da doğdu, Bağdat'ta yetişti; Emevî soyundandır. Elli yıl üzerinde çalıştığı rivayet edilen el-Egânî'de şarkı olarak bestelenmiş şiirleri ve şairlerin haberlerini topladı; eser, Arap edebiyatı tarihinin en zengin kaynağıdır.",
+   "eserler": [
+    "el-Egânî",
+    "Mekâtilü't-tâlibiyyîn"
+   ]
+  },
+  {
+   "per": "abbasi",
+   "tr": "Bedîüzzamân el-Hemedânî",
+   "ar": "بديع الزمان الهمذاني",
+   "d": "ö. 398/1008",
+   "field": "nesir",
+   "works": "Makāmât",
+   "note": "Makâme türünün kurucusu.",
+   "bio": "Hemedan'da doğdu, Nişabur'da Ebû Bekir el-Hârizmî ile girdiği tartışmayla ünlendi, Herat'ta genç yaşta vefat etti. Kahramanı Îsâ b. Hişâm ve Ebü'l-Feth el-İskenderî olan makâmeleriyle makâme türünün kurucusu kabul edilir.",
+   "eserler": [
+    "Makâmât",
+    "Resâil",
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "abbasi",
+   "tr": "Ebû Hayyân et-Tevhîdî",
+   "ar": "أبو حيان التوحيدي",
+   "d": "ö. 414/1023",
+   "field": "nesir",
+   "works": "el-İmtâ‘ ve’l-muânese",
+   "note": "‘Edîbü’l-felâsife’.",
+   "bio": "Bağdat'ta doğduğu kabul edilir; vezirlerin yanında kâtiplik yaptı ama hak ettiği değeri görmediği için acı bir hayat sürdü. Ömrünün sonunda kitaplarını yaktığı rivayet edilir. Felsefe ve edebiyatı birleştiren sohbet kitaplarıyla Arap nesrinin büyük ustalarındandır.",
+   "eserler": [
+    "el-İmtâ' ve'l-muânese",
+    "el-Mukâbesât",
+    "el-Besâir ve'z-zehâir",
+    "Ahlâku'l-vezîreyn"
+   ]
+  },
+  {
+   "per": "abbasi",
+   "tr": "Ebü’l-Alâ el-Maarrî",
+   "ar": "أبو العلاء المعري",
+   "d": "ö. 449/1057",
+   "field": "şair–nesir",
+   "works": "Lüzûmiyyât, Risâletü’l-gufrân",
+   "note": "Kör filozof şair.",
+   "bio": "Ma'arretü'n-Nu'mân'da doğdu, küçük yaşta çiçek hastalığından gözlerini kaybetti. Bağdat'ta bir süre kaldıktan sonra memleketine döndü ve yaklaşık elli yıl evinden çıkmadı; bu yüzden 'Rehînü'l-mahbeseyn' (iki zindanın esiri) diye anıldı. Felsefî şiirleri ve öteki dünyada geçen hayalî yolculuğu anlatan risalesiyle bilinir.",
+   "eserler": [
+    "Lüzûmü mâ lâ yelzem (Lüzûmiyyât)",
+    "Sıktu'z-zend",
+    "Risâletü'l-gufrân",
+    "Risâletü's-sâhil ve'ş-şâhic"
+   ]
+  },
+  {
+   "per": "abbasi",
+   "tr": "Harîrî",
+   "ar": "الحريري",
+   "d": "ö. 516/1122",
+   "field": "nesir",
+   "works": "Makāmât",
+   "note": "Makâmenin klasik biçimi.",
+   "bio": "Basra yakınlarında doğdu ve Basra'da yaşadı; dil âlimi ve kâtiptir. Ebû Zeyd es-Serûcî'nin maceralarını anlatan elli makâmesi, söz sanatları ve garip kelimelerle örülü dili nedeniyle asırlarca dil öğretiminde okutuldu.",
+   "eserler": [
+    "Makâmât",
+    "Dürretü'l-gavvâs fî evhâmi'l-havâs",
+    "Mülhatü'l-i'râb"
+   ]
+  },
+  {
+   "per": "endulus",
+   "tr": "İbn Abdirabbih",
+   "ar": "ابن عبد ربه",
+   "d": "ö. 328/940",
+   "field": "edip",
+   "works": "el-İkdü’l-ferîd",
+   "note": "Endülüs edeb ansiklopedisi.",
+   "bio": "Kurtuba'da doğdu, Emevî hükümdarlarının sarayında bulundu. Şiir, haber, hikmet ve ahlak bölümlerinden oluşan el-İkdü'l-ferîd, Doğu ile Batı İslâm dünyasının edebî kültürünü bir araya getiren büyük bir edeb ansiklopedisidir.",
+   "eserler": [
+    "el-İkdü'l-ferîd",
+    "Dîvân (dağınık)"
+   ]
+  },
+  {
+   "per": "endulus",
+   "tr": "İbn Zeydûn",
+   "ar": "ابن زيدون",
+   "d": "ö. 463/1071",
+   "field": "şair",
+   "works": "Nûniyye",
+   "note": "Velâde ile aşkı; Endülüs’ün en ünlü şairi.",
+   "bio": "Kurtuba'da soylu bir ailede doğdu; Emevî prensesi Velâde ile aşkı ünlüdür. Siyasi entrikalar yüzünden hapse atıldı, kaçarak İşbîliye'ye gitti ve orada Abbâdîlerin veziri oldu. Velâde'ye yazdığı Nûniyye, Endülüs şiirinin en tanınmış kasidesidir.",
+   "eserler": [
+    "Nûniyye",
+    "Risâle hezliyye",
+    "Risâle ciddiyye",
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "endulus",
+   "tr": "İbn Hazm",
+   "ar": "ابن حزم",
+   "d": "ö. 456/1064",
+   "field": "edip–âlim",
+   "works": "Tavku’l-hamâme",
+   "note": "Aşk ve ahlak.",
+   "bio": "Kurtuba'da bir vezir ailesinde doğdu; siyasi hayattan çekildikten sonra Zâhirî mezhebinin en büyük temsilcisi oldu. Fıkıh, hadis ve dinler tarihindeki eserlerinin yanında aşkı inceleyen Tavku'l-hamâme ile edebiyatta da iz bıraktı.",
+   "eserler": [
+    "Tavku'l-hamâme",
+    "el-Fasl fi'l-milel",
+    "el-Muhallâ",
+    "el-Ahlâk ve's-siyer"
+   ]
+  },
+  {
+   "per": "endulus",
+   "tr": "İbn Tufeyl",
+   "ar": "ابن طفيل",
+   "d": "ö. 581/1185",
+   "field": "filozof–edip",
+   "works": "Hay b. Yakzân",
+   "note": "Felsefî hikâye.",
+   "bio": "Gırnata yakınlarında doğdu; Muvahhidler sarayında hekim ve vezirlik yaptı, İbn Rüşd'ü saraya tanıttı. Issız bir adada kendi kendine yetişen bir insanın akılla hakikate ulaşmasını anlatan felsefî hikâyesiyle tanınır.",
+   "eserler": [
+    "Hay b. Yakzân"
+   ]
+  },
+  {
+   "per": "endulus",
+   "tr": "Lisânüddîn İbnü’l-Hatîb",
+   "ar": "لسان الدين ابن الخطيب",
+   "d": "ö. 776/1374",
+   "field": "şair–vezir",
+   "works": "Muvaşşahlar, el-İhâta",
+   "note": "Gırnata’nın büyük edibi.",
+   "bio": "Gırnata'da Nasrîler döneminde yetişti ve 'Zü'l-vizâreteyn' unvanıyla vezirlik yaptı. Siyasi düşmanları tarafından suçlandı, Fas'a kaçtı ve Fas'ta hapiste öldürüldü. Muvaşşahları, risaleleri ve Gırnata tarihiyle Endülüs'ün son büyük edibidir.",
+   "eserler": [
+    "el-İhâta fî ahbâri Ğırnâta",
+    "Muvaşşahlar (Cadeke'l-ğays)",
+    "Ravzatü't-ta'rîf",
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "memluk",
+   "tr": "Bûsîrî",
+   "ar": "البوصيري",
+   "d": "ö. 696/1296",
+   "field": "şair",
+   "works": "Kasîdetü’l-Bürde",
+   "note": "Na‘t geleneğinin zirvesi.",
+   "bio": "Mısır'da doğdu; Berberî asıllıdır. Felç olduğu bir dönemde yazdığı ve rüyasında Hz. Peygamber'in kendisine hırkasını örttüğünü anlattığı Kasîdetü'l-Bürde, İslâm dünyasının en çok okunan ve şerh edilen methiyesidir.",
+   "eserler": [
+    "Kasîdetü'l-Bürde (el-Kevâkibü'd-dürriyye)",
+    "Hemziyye",
+    "Dîvân"
+   ]
+  },
+  {
+   "per": "memluk",
+   "tr": "Safiyyüddîn el-Hillî",
+   "ar": "صفي الدين الحلي",
+   "d": "ö. 750/1349",
+   "field": "şair",
+   "works": "Bedî‘iyye",
+   "note": "Bedî‘iyye türünün öncüsü.",
+   "bio": "Irak'ta Hille'de doğdu; Mardin'deki Artuklu sarayında ve Mısır'da bulundu. Her beyitte bir bedî' sanatını işlediği Hz. Peygamber methiyesi, 'bedîiyye' türünün en meşhur örneğidir.",
+   "eserler": [
+    "el-Kâfiyetü'l-bedîiyye ve şerhi",
+    "Dîvân",
+    "el-Âtılü'l-hâlî"
+   ]
+  },
+  {
+   "per": "nahda",
+   "tr": "Rifâa et-Tahtâvî",
+   "ar": "رفاعة الطهطاوي",
+   "d": "ö. 1873",
+   "field": "nesir–mütercim",
+   "works": "Tahlîsü’l-ibrîz",
+   "note": "Nahda’nın öncülerinden.",
+   "bio": "Mısır'da Tahta'da doğdu, Ezher'de okudu. Mehmed Ali Paşa'nın Paris'e gönderdiği öğrenci heyetinin imamı oldu, dönüşte Mısır'da tercüme okulunun (Medresetü'l-elsun) başına geçti. Paris gözlemlerini anlattığı eseri Nahda döneminin ilk metinlerindendir.",
+   "eserler": [
+    "Tahlîsü'l-ibrîz fî telhîsi Bârîz",
+    "el-Mürşidü'l-emîn",
+    "Menâhicü'l-elbâbi'l-Mısriyye"
+   ]
+  },
+  {
+   "per": "nahda",
+   "tr": "Ahmed Fâris eş-Şidyâk",
+   "ar": "أحمد فارس الشدياق",
+   "d": "ö. 1887",
+   "field": "nesir",
+   "works": "es-Sâk ale’s-sâk",
+   "note": "Modern nesrin ilk denemesi; İstanbul’da el-Cevâib gazetesi.",
+   "bio": "Lübnan'da Maruni bir ailede doğdu; Kahire, Malta, Londra ve Paris'te yaşadı, sonra Müslüman olup İstanbul'a yerleşti ve el-Cevâib gazetesini çıkardı. Otobiyografik ve hicivli eseri es-Sâk ale's-sâk, modern Arap nesrinin öncü metnidir.",
+   "eserler": [
+    "es-Sâk ale's-sâk",
+    "el-Cevâib (gazete)",
+    "Sirrü'l-leyâl",
+    "Kenzü'r-reğâib"
+   ]
+  },
+  {
+   "per": "nahda",
+   "tr": "Mahmûd Sâmî el-Bârûdî",
+   "ar": "محمود سامي البارودي",
+   "d": "ö. 1904",
+   "field": "şair",
+   "works": "Dîvân",
+   "note": "Neoklasik şiirin (ihyâ) öncüsü.",
+   "bio": "Kahire'de Çerkez asıllı bir ailede doğdu; askerî eğitim aldı, Urâbî hareketinde başbakanlık yaptı. Hareketin yenilgisinden sonra Seylan'a sürgün edildi. Abbâsî şiirinin dilini yeniden canlandırarak modern Arap şiirinde 'İhyâ' (diriliş) akımının öncüsü oldu.",
+   "eserler": [
+    "Dîvân",
+    "Muhtârâtü'l-Bârûdî (antoloji)"
+   ]
+  },
+  {
+   "per": "nahda",
+   "tr": "Corcî Zeydân",
+   "ar": "جرجي زيدان",
+   "d": "ö. 1914",
+   "field": "romancı–tarihçi",
+   "works": "Rivâyâtu târîhi’l-İslâm, Târîhu âdâbi’l-luga",
+   "note": "Arap tarihî romanının öncüsü; el-Hilâl dergisinin kurucusu.",
+   "bio": "Beyrut'ta yoksul bir Ortodoks ailede doğdu; tıp okumaya başladıysa da yarım bıraktı ve Kahire'ye yerleşti. 1892'de el-Hilâl dergisini kurdu. İslâm tarihini konu alan romanlarıyla tarihî romanı Arap okuruna sevdirdi; Arap edebiyatı ve İslâm medeniyeti tarihine dair ansiklopedik eserler yazdı.",
+   "eserler": [
+    "Rivâyâtu târîhi'l-İslâm (22 roman)",
+    "Târîhu âdâbi'l-lugati'l-Arabiyye",
+    "Târîhu't-temeddüni'l-İslâmî",
+    "el-Hilâl (dergi)"
+   ]
+  },
+  {
+   "per": "nahda",
+   "tr": "Mustafa Lutfî el-Menfelûtî",
+   "ar": "مصطفى لطفي المنفلوطي",
+   "d": "ö. 1924",
+   "field": "nesir",
+   "works": "en-Nazarât, el-Aberât",
+   "note": "Duygusal ve öğretici nesir.",
+   "bio": "Mısır'da Menfelût'ta doğdu, Ezher'de okudu ve Muhammed Abduh'un çevresinde bulundu. Duygusal, akıcı ve süslü nesriyle bir kuşağın en çok okunan yazarı oldu. Fransızca bilmediği hâlde Fransız romanlarını, başkalarının çevirdiği metinleri yeniden yazarak Arapçaya kazandırdı.",
+   "eserler": [
+    "en-Nazarât",
+    "el-Aberât",
+    "Mâcdûlîn (Sous les tilleuls uyarlaması)",
+    "el-Fazîle (Paul et Virginie uyarlaması)"
+   ]
+  },
+  {
+   "per": "nahda",
+   "tr": "Ahmed Şevkī",
+   "ar": "أحمد شوقي",
+   "d": "ö. 1932",
+   "field": "şair",
+   "works": "eş-Şevkıyyât, şiirli tiyatrolar",
+   "note": "‘Emîrü’ş-şu‘arâ’.",
+   "bio": "Kahire'de Türk, Kürt, Rum ve Arap karışık bir aileden doğdu; Hidiv sarayında yetişti ve Fransa'da hukuk okudu. Birinci Dünya Savaşı'nda İspanya'ya sürgün edildi. 1927'de 'Emîrü'ş-şuarâ' (şairlerin emîri) unvanı verildi; şiirli tiyatroyu Arap edebiyatına o getirdi.",
+   "eserler": [
+    "eş-Şevkıyyât",
+    "Masra'u Kilyûbatra",
+    "Mecnûnu Leylâ",
+    "Antere",
+    "Nehcü'l-Bürde"
+   ]
+  },
+  {
+   "per": "nahda",
+   "tr": "Hâfız İbrâhîm",
+   "ar": "حافظ إبراهيم",
+   "d": "ö. 1932",
+   "field": "şair",
+   "works": "Dîvân",
+   "note": "‘Nil şairi’.",
+   "bio": "Mısır'da Nil'de bir gemide doğduğu rivayet edilir; yetim büyüdü, askerî okulu bitirip Sudan'da görev yaptı. Halkın derdini dile getiren millî ve sosyal şiirleri nedeniyle 'Şâirü'n-Nîl' (Nil şairi) diye anıldı.",
+   "eserler": [
+    "Dîvân",
+    "Leyâlî Satîh",
+    "el-Bueesâ (Les Misérables tercümesi)"
+   ]
+  },
+  {
+   "per": "nahda",
+   "tr": "Cibrân Halîl Cibrân",
+   "ar": "جبران خليل جبران",
+   "d": "ö. 1931",
+   "field": "şair–yazar",
+   "works": "el-Ecnihatü’l-mütekessira, Ermiş",
+   "note": "Mehcer edebiyatının önderi; er-Râbıtatü’l-kalemiyye.",
+   "bio": "Lübnan'da Bişerri'de doğdu, çocukken ailesiyle Boston'a göç etti; sonra New York'a yerleşti. Ressam ve yazar olarak Mehcer edebiyatının kurucusu ve er-Râbıtatü'l-kalemiyye cemiyetinin başkanıdır. İngilizce yazdığı Ermiş (The Prophet) dünyada en çok okunan kitaplardan biridir.",
+   "eserler": [
+    "el-Ecnihatü'l-mütekessira",
+    "Dem'a ve ibtisâme",
+    "el-Arvâhu'l-mütemerride",
+    "el-Mevâkib",
+    "The Prophet (Ermiş)"
+   ]
+  },
+  {
+   "per": "nahda",
+   "tr": "Mîhâîl Nuayme",
+   "ar": "ميخائيل نعيمة",
+   "d": "ö. 1988",
+   "field": "yazar–eleştirmen",
+   "works": "el-Ğurbâl",
+   "note": "Mehcer’in eleştirmeni.",
+   "bio": "Lübnan'da Biskinta'da doğdu; Nasıra'da Rus okulunda ve Ukrayna'da Poltava'da okudu, sonra ABD'de hukuk eğitimi aldı. Cibrân ile birlikte er-Râbıtatü'l-kalemiyye'yi kurdu; Lübnan'a döndükten sonra 'Sinnîn münzevisi' diye anıldı. el-Gırbâl, modern Arap eleştirisinin kurucu metinlerindendir.",
+   "eserler": [
+    "el-Gırbâl",
+    "Kitâbu Mirdâd",
+    "Sebûn (otobiyografi)",
+    "Cibrân Halîl Cibrân (biyografi)"
+   ]
+  },
+  {
+   "per": "nahda",
+   "tr": "Mustafa Sâdık er-Râfi‘î",
+   "ar": "مصطفى صادق الرافعي",
+   "d": "ö. 1937",
+   "field": "nesir",
+   "works": "Vahyü’l-kalem, Târîhu âdâbi’l-Arab",
+   "note": "Klasik üslubun savunucusu.",
+   "bio": "Trablusşam asıllı bir ailenin çocuğu olarak Mısır'da Kalyûbiye'deki Bahtîm'de doğdu, Tanta'da yaşadı; gençken işitme duyusunu kaybetti ve mahkeme kâtipliği yaptı. Kur'ân'ın i'câzını ve klasik Arapçayı savunan eserleriyle Tâhâ Hüseyin ve Akkād'a karşı tartışmalara girdi.",
+   "eserler": [
+    "Vahyü'l-kalem",
+    "Târîhu âdâbi'l-Arab",
+    "İ'câzü'l-Kur'ân ve'l-belâgatü'n-nebeviyye",
+    "Tahte râyeti'l-Kur'ân"
+   ]
+  },
+  {
+   "per": "modern",
+   "tr": "Tâhâ Hüseyin",
+   "ar": "طه حسين",
+   "d": "ö. 1973",
+   "field": "yazar–eleştirmen",
+   "works": "el-Eyyâm, Fi’ş-şi‘ri’l-câhilî",
+   "note": "‘Arap edebiyatının dekanı’.",
+   "bio": "Mısır'da İzbet el-Kîlo'da doğdu, küçük yaşta gözlerini kaybetti. Ezher'den sonra Kahire Üniversitesi'nde doktora yaptı, Paris'te okudu. Câhiliye şiirinin sahihliğini sorgulayan kitabı büyük tartışmalara yol açtı; Maarif bakanlığı yaptı ve 'Arap edebiyatının dekanı' diye anıldı.",
+   "eserler": [
+    "el-Eyyâm (3 cilt)",
+    "Fi'ş-şi'ri'l-câhilî",
+    "Duâü'l-kerevân",
+    "Hadîsü'l-erbiâ",
+    "Mustakbelü's-sekâfe fî Mısr"
+   ]
+  },
+  {
+   "per": "modern",
+   "tr": "Abbâs Mahmûd el-Akkād",
+   "ar": "عباس محمود العقاد",
+   "d": "ö. 1964",
+   "field": "yazar–eleştirmen",
+   "works": "Abkariyyât, ed-Dîvân",
+   "note": "Dîvân ekolünün kurucularından.",
+   "bio": "Asvan'da doğdu, ilkokuldan sonra kendini yetiştirdi. Şair, eleştirmen ve düşünürdür; Mâzinî ve Şükrî ile birlikte 'Dîvân' ekolünü kurdu ve Şevkî'yi eleştirdi. İslâm büyüklerini anlattığı 'Abkariyyât' dizisiyle geniş kitlelere ulaştı.",
+   "eserler": [
+    "Abkariyyât (Abkariyyetü Muhammed vb.)",
+    "ed-Dîvân (Mâzinî ile)",
+    "Sâre (roman)",
+    "Dîvânlar"
+   ]
+  },
+  {
+   "per": "modern",
+   "tr": "Tevfîk el-Hakîm",
+   "ar": "توفيق الحكيم",
+   "d": "ö. 1987",
+   "field": "oyun–romancı",
+   "works": "Ehlü’l-kehf, Yevmiyyâtu nâib",
+   "note": "Arap tiyatrosunun kurucusu.",
+   "bio": "İskenderiye'de doğdu, Paris'te hukuk okurken tiyatroyla tanıştı; Mısır'da savcılık yaptı. Arap tiyatrosunu edebî bir tür hâline getiren yazardır; Ashâb-ı Kehf kıssasından yola çıkan oyunu bu türün ilk büyük başarısıdır.",
+   "eserler": [
+    "Ehlü'l-kehf",
+    "Şehrazâd",
+    "Avdetü'r-rûh",
+    "Yevmiyyâtu nâib fi'l-eryâf",
+    "Usfûrun mine'ş-şark"
+   ]
+  },
+  {
+   "per": "modern",
+   "tr": "Necîb Mahfûz",
+   "ar": "نجيب محفوظ",
+   "d": "ö. 2006",
+   "field": "romancı",
+   "works": "Üçleme, Evlâdu hâratinâ",
+   "note": "1988 Nobel Edebiyat Ödülü.",
+   "bio": "Kahire'nin eski mahallelerinden el-Cemâliyye'de doğdu, felsefe okudu ve uzun yıllar devlet memurluğu yaptı. Kahire'nin mahalle hayatını anlatan gerçekçi romanlarıyla Arap romanını olgunluğa ulaştırdı; 1988'de Nobel Edebiyat Ödülü'nü alan ilk Arap yazar oldu.",
+   "eserler": [
+    "Kahire Üçlemesi (Beyne'l-kasreyn, Kasru'ş-şevk, es-Sükkeriyye)",
+    "Zukâku'l-Midakk",
+    "Evlâdu hâratinâ",
+    "el-Lıss ve'l-kilâb",
+    "el-Harâfîş"
+   ]
+  },
+  {
+   "per": "modern",
+   "tr": "Bedr Şâkir es-Seyyâb",
+   "ar": "بدر شاكر السياب",
+   "d": "ö. 1964",
+   "field": "şair",
+   "works": "Unşûdetü’l-matar",
+   "note": "Serbest şiirin öncüsü.",
+   "bio": "Irak'ta Basra yakınlarında Ceykûr köyünde doğdu, Bağdat'ta öğretmen okulunda okudu. Nâzik el-Melâike ile birlikte serbest şiirin (şi'ru't-taf'île) öncüsüdür. Hastalıkla geçen kısa bir hayattan sonra Kuveyt'te vefat etti.",
+   "eserler": [
+    "Unşûdetü'l-matar",
+    "Ezhâr zâbile",
+    "el-Ma'bed el-garîk",
+    "Menzilü'l-akınân"
+   ]
+  },
+  {
+   "per": "modern",
+   "tr": "Nâzik el-Melâike",
+   "ar": "نازك الملائكة",
+   "d": "ö. 2007",
+   "field": "şair–eleştirmen",
+   "works": "el-Kolera, Kadâyâ’ş-şi‘ri’l-muâsır",
+   "note": "Serbest şiir hareketinin kurucularından.",
+   "bio": "Bağdat'ta edebiyatçı bir ailede doğdu; ABD'de karşılaştırmalı edebiyat okudu. 1947'de yazdığı 'el-Kolera' şiiriyle serbest şiirin ilk örneklerinden birini verdi ve bu türün kurallarını kitaplaştırdı. Hayatının son yıllarını Kahire'de geçirdi.",
+   "eserler": [
+    "Kadâyâ'ş-şi'ri'l-muâsır",
+    "Âşıkatü'l-leyl",
+    "Şazâyâ ve ramâd",
+    "Karâratü'l-mevce"
+   ]
+  },
+  {
+   "per": "modern",
+   "tr": "Nizâr Kabbânî",
+   "ar": "نزار قباني",
+   "d": "ö. 1998",
+   "field": "şair",
+   "works": "Dîvânlar",
+   "note": "Aşk ve siyasî şiir.",
+   "bio": "Şam'da doğdu, hukuk okudu ve uzun yıllar Suriye dışişlerinde diplomat olarak çalıştı. Kadın ve aşk şiirleriyle en çok okunan modern Arap şairlerinden biri oldu; 1967 yenilgisinden sonra siyasi şiire yöneldi. Hayatının son yıllarını Londra'da geçirdi.",
+   "eserler": [
+    "Kâlet liye's-semrâ",
+    "Hevâmiş alâ defteri'n-neksa",
+    "Kasâid",
+    "Belkîs"
+   ]
+  },
+  {
+   "per": "modern",
+   "tr": "Mahmûd Dervîş",
+   "ar": "محمود درويش",
+   "d": "ö. 2008",
+   "field": "şair",
+   "works": "Dîvânlar",
+   "note": "Filistin direniş şiirinin sembolü.",
+   "bio": "Filistin'de el-Birve köyünde doğdu; köyü 1948'de yıkılınca ailesiyle Lübnan'a kaçtı, sonra geri döndü. Hayfa'da gazetecilik yaptı, 1970'ten sonra sürgünde yaşadı. Filistin'in millî şairi sayılır; ABD'de bir ameliyat sonrası vefat etti.",
+   "eserler": [
+    "Evrâku'z-zeytûn",
+    "Âşık min Filistîn",
+    "Limâzâ terekte'l-hisâne vahîden",
+    "Cidâriyye",
+    "Zâkiratun li'n-nisyân"
+   ]
+  },
+  {
+   "per": "modern",
+   "tr": "Adonis (Ali Ahmed Saîd)",
+   "ar": "أدونيس",
+   "d": "d. 1930",
+   "field": "şair–eleştirmen",
+   "works": "es-Sâbit ve’l-mütehavvil",
+   "note": "Modernist şiir ve poetika.",
+   "bio": "Suriye'nin Lazkiye bölgesinde Kassâbîn köyünde doğdu. Şiir dergisinin kurucularındandır, Lübnan'da ve sonra Paris'te yaşadı. Arap kültüründe değişmeyen (sâbit) ile değişen (mütehavvil) arasındaki gerilimi inceleyen eseri ve deneysel şiiriyle tanınır.",
+   "eserler": [
+    "es-Sâbit ve'l-mütehavvil",
+    "Ağânî Mihyâr ed-Dımaşkî",
+    "Mukaddime li'ş-şi'ri'l-Arabî",
+    "el-Kitâb"
+   ]
+  },
+  {
+   "per": "modern",
+   "tr": "Gassân Kenefânî",
+   "ar": "غسان كنفاني",
+   "d": "ö. 1972",
+   "field": "romancı",
+   "works": "Ricâl fi’ş-şems",
+   "note": "Filistin romanı.",
+   "bio": "Akkâ'da doğdu, 1948'de ailesiyle Lübnan'a ve sonra Şam'a göç etti; Kuveyt'te öğretmenlik yaptı, Beyrut'ta gazeteci oldu. Filistin Halk Kurtuluş Cephesi'nin sözcüsüydü; Beyrut'ta bombalı bir saldırıda öldürüldü. Romanları Filistin direniş edebiyatının temel metinleridir.",
+   "eserler": [
+    "Ricâl fi'ş-şems",
+    "Âid ilâ Hayfâ",
+    "Ümmü Sa'd",
+    "Mâ tebakkâ lekum"
+   ]
+  },
+  {
+   "per": "modern",
+   "tr": "Tayyib Sâlih",
+   "ar": "الطيب صالح",
+   "d": "ö. 2009",
+   "field": "romancı",
+   "works": "Mevsimü’l-hicre ile’ş-şimâl",
+   "note": "Sudan; sömürgecilik sonrası roman.",
+   "bio": "Sudan'da doğdu, Hartum'da ve Londra'da okudu; BBC Arapça servisinde ve UNESCO'da çalıştı. Doğu-Batı karşılaşmasını sömürge sonrası bakışla anlatan Kuzeye Göç Mevsimi, Arap romanının en önemli eserlerinden sayılır.",
+   "eserler": [
+    "Mevsimü'l-hicre ile'ş-şimâl",
+    "Urs ez-Zeyn",
+    "Bender Şâh"
+   ]
+  },
+  {
+   "per": "modern",
+   "tr": "Abdurrahman Münîf",
+   "ar": "عبد الرحمن منيف",
+   "d": "ö. 2004",
+   "field": "romancı",
+   "works": "Müdünü’l-milh, Şarku’l-Mutavassıt",
+   "note": "Petrol ve baskı romanları.",
+   "bio": "Ürdün'de Suudi bir baba ve Iraklı bir anneden doğdu; Bağdat, Kahire ve Belgrad'da okudu, petrol ekonomisi alanında doktora yaptı. Suudi vatandaşlığından çıkarıldı ve sürgünde yaşadı. Petrolün Arap toplumlarını nasıl dönüştürdüğünü anlatan beş ciltlik Tuz Şehirleri ve cezaevi romanı Akdeniz'in Doğusu ile tanınır.",
+   "eserler": [
+    "Müdünü'l-milh (5 cilt)",
+    "Şarku'l-Mutavassıt",
+    "el-Eşcâr ve ığtiyâlü Merzûk",
+    "Ard es-Sevâd"
+   ]
+  }
+ ],
+ "path": [
+  "Bir edebiyat tarihiyle başla: Şevkī Dayf’ın ilgili cildi ya da Zeyyât; Türkçe için Nihad M. Çetin ve Kenan Demirayak.",
+  "Muallakâtı Zevzenî şerhiyle oku; Tülücü’nün bibliyografyasından çalışmaları tara.",
+  "Abbasî şiiri: Ebû Temmâm, Buhturî ve Mütenebbî’den seçmeler; Âmidî ve Kadı Cürcânî’nin eleştirileriyle karşılaştır.",
+  "Nesir: Kelîle ve Dimne, Câhiz’in el-Buhalâ’sı ve Hemedânî ile Harîrî’nin makâmeleri.",
+  "Nahda: Zeydân’ın bir tarihî romanı (Hindâvî’de ücretsiz), Menfelûtî ve Cibrân.",
+  "Modern roman: Mahfûz’un Midak Sokağı ve Hırsız ve Köpekler’i, Tayyib Sâlih’in Kuzeye Göç Mevsimi.",
+  "Modern şiir: es-Seyyâb’ın Unşûdetü’l-matar’ı ve Dervîş’ten seçmeler.",
+  "Tez konusu ararken Adnan Arslan’ın ve Zor–Arslan’ın ‘modern Arap romanı’ öneri makalelerini oku."
+ ],
+ "note": "Vefat tarihleri genel bilgiden; ‘dolayı’ ibaresi kaynaklarda ihtilaf olduğunu gösterir."
+}

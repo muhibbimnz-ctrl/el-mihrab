@@ -1,0 +1,62 @@
+{
+"title": "Miftâh geleneği: metin → telhîs → şerh → hâşiye",
+"tree": {
+"name": "Sekkâkî, Miftâhu’l-‘ulûm (III. kısım: meânî-beyân)",
+"children": [
+{
+"name": "Şerhler: Seyyid Şerîf, el-Misbâh; Teftâzânî, Şerhu’l-Miftâh"
+},
+{
+"name": "Kazvînî, Telhîsü’l-Miftâh (metin)",
+"children": [
+{
+"name": "Kazvînî, el-Îzâh (müellifin kendi şerhi)"
+},
+{
+"name": "Teftâzânî, el-Mutavvel (geniş şerh)",
+"children": [
+{
+"name": "Hâşiyeler: Seyyid Şerîf; Molla Hüsrev; Hasan Çelebi; Abdülhakîm es-Siyâlkûtî"
+}
+]
+},
+{
+"name": "Teftâzânî, el-Muhtasar (orta şerh)",
+"children": [
+{
+"name": "Hâşiyeler: Desûkî; ez-Zebîdî vd."
+}
+]
+},
+{
+"name": "İbn Ya‘kûb el-Mağribî, Mevâhibü’l-fettâh; Bahâüddîn es-Sübkî, ‘Arûsü’l-efrâh (Şürûhu’t-Telhîs derlemesinde)"
+},
+{
+"name": "İsâmüddîn el-İsferâyînî, el-Atvel"
+},
+{
+"name": "Suyûtî, ‘Ukûdü’l-cümân (Telhîs’in nazmı)"
+}
+]
+}
+]
+},
+"other": [
+{
+"name": "Semerkandî, Risâletü’l-istiârât (Semerkandiyye)",
+"note": "İsâmüddîn şerhi + Osmanlı hâşiyeleri; medresede beyân dersi."
+},
+{
+"name": "Hafâcî, Sirrü’l-fesâha",
+"note": "Fesâhatin kaynak kitabı; İbnü’l-Esîr ve Kazvînî’yi etkiler."
+},
+{
+"name": "Cürcânî, Delâilü’l-i‘câz ve Esrârü’l-belâga",
+"note": "Râzî’nin Nihâyetü’l-îcâz’ı ile özetlenip Sekkâkî’ye aktarılır."
+},
+{
+"name": "Medrese seviyelendirmesi",
+"note": "İktisar: Telhîs → iktisad: Muhtasar → istiksa: Mutavvel/Îzâh."
+}
+]
+}

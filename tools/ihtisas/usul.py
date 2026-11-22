@@ -1,0 +1,78 @@
+# İhtisas — Fıkıh Usûlü (ayrı alan). Hanefî (fukahâ) ve mütekellimîn yolları birlikte.
+K = lambda ad, ar, mu, v, tur, neden, zincir=(), app=None: dict(ad=ad, ar=ar, mu=mu, v=v, tur=tur, neden=neden, zincir=list(zincir), app=app)
+ALAN = dict(
+ id='usul', ad='Fıkıh Usûlü', ar='أُصُولُ الْفِقْه', renk='#2e5a87',
+ kisa='Şer‘î hükümlerin delillerden nasıl çıkarıldığını inceleyen yöntem ilmi.',
+ giris=[
+  'Fıkıh usûlü; delillerin (Kitap, Sünnet, icmâ, kıyas ve tâli deliller), bu delillerden hüküm çıkarma yollarının (lafızların delâleti, âm-hâs, emir-nehiy, nesh, ta‘lîl) ve müctehidin şartlarının ilmidir. Fıkıh “ne hüküm?” sorusunu, usûl “bu hükme nasıl ulaşıldı?” sorusunu cevaplar.',
+  'Usûl tarihinde iki yol vardır. Fukahâ (Hanefî) yolu kuralları imamların verdiği hükümlerden çıkarır; Pezdevî, Serahsî ve Menâr bu yoldadır. Mütekellimîn (Şâfiî-kelâmcı) yolu kuralları önce teorik olarak kurar; Cüveynî’nin Burhân’ı, Gazzâlî’nin Mustasfâ’sı ve Râzî’nin Mahsûl’ü bu yoldadır. Sadrüşşerîa’nın Tavzîh’i ve İbnü’l-Hümâm’ın Tahrîr’i iki yolu birleştirir.',
+  'Bu alan Fıkıh ihtisasıyla paralel yürür: Kudûrî okunurken Menâr’a, Hidâye okunurken Tavzîh-Telvîh’e başlanması medrese geleneğinin tavsiyesidir.'],
+ basamaklar=[
+  dict(ad='Usûle giriş', alt='Başlangıç', ac='Usûlün temel kavramlarını sade bir dille ve bir bütün olarak görmek.',
+   kitaplar=[
+    K('İlmü usûli’l-fıkh', 'علم أصول الفقه', 'Abdülvehhâb Hallâf', '1375/1956', 'modern giriş', 'Kısa, açık ve mezhepler üstü; Arapça usûle en kolay giriş.'),
+    K('Usûlü’l-fıkh', 'أصول الفقه', 'Muhammed Ebû Zehra', '1394/1974', 'modern giriş', 'Hanefî bakışı da gözeten, mezhep görüşlerini karşılaştıran ders kitabı.'),
+    K('İslâm Hukuk İlminin Esasları', '—', 'Zekiyyüddîn Şa‘bân (çev. İbrahim Kâfi Dönmez)', '—', 'Türkçe ders kitabı', 'Türkiye’de ilahiyat fakültelerinde en çok okutulan usûl kitabı.'),
+    K('Usûlü’ş-Şâşî', 'أصول الشاشي', 'Nizâmeddîn eş-Şâşî', 'IV/X. yy (kesin değil)', 'metin', 'Hanefî usûlünün kısa klasik metni; müellifin kimliği ve vefatı ihtilaflıdır.')]),
+  dict(ad='Hanefî medrese metinleri', alt='Orta', ac='Fukahâ yolunun klasik ders metinleri; ezber ve şerhle okunur.',
+   kitaplar=[
+    K('Menârü’l-envâr', 'منار الأنوار', 'Ebü’l-Berekât en-Nesefî', '710/1310', 'metin', 'Pezdevî usûlünün özeti; Osmanlı medresesinin usûl metni.', ['Nesefî, Keşfü’l-esrâr (kendi şerhi)', 'İbn Melek, Şerhu’l-Menâr', 'İbn Nüceym, Fethu’l-gaffâr', 'Azmîzâde, Hâşiye alâ Şerhi İbn Melek']),
+    K('Mirkātü’l-vusûl ve Mir’âtü’l-usûl', 'مرقاة الوصول ومرآة الأصول', 'Molla Hüsrev', '885/1480', 'metin ve şerh', 'Osmanlı’da yazılmış, Hanefî ve mütekellimîn görüşlerini birlikte veren ders kitabı.', ['İzmirî, Hâşiye alâ Mir’âti’l-usûl']),
+    K('et-Tavzîh fî halli ğavâmidi’t-Tenkīh', 'التوضيح في حل غوامض التنقيح', 'Sadrüşşerîa Ubeydullah b. Mes‘ûd', '747/1346', 'metin ve şerh', 'Pezdevî’nin, Râzî ve İbnü’l-Hâcib’in usûlünü birleştiren eser.', ['Teftâzânî, et-Telvîh', 'Molla Hüsrev, Hâşiye ale’t-Telvîh', 'Fenârî, Hâşiye ale’t-Telvîh'])]),
+  dict(ad='Fukahâ yolunun büyük eserleri', alt='İleri', ac='Hanefî usûlünü ilk kaynaklarından okumak.',
+   kitaplar=[
+    K('Usûlü’l-Kerhî ve Te’sîsü’n-nazar', 'أصول الكرخي وتأسيس النظر', 'Ebü’l-Hasen el-Kerhî / Debûsî', '340/952 · 430/1039', 'kurucu metin', 'Hanefî fıkhının dayandığı külli kaideleri ve ihtilafların sebeplerini toplayan ilk metinler.'),
+    K('Usûlü’l-Cessâs (el-Fusûl fi’l-usûl)', 'الفصول في الأصول', 'Ebû Bekir el-Cessâs', '370/981', 'kurucu eser', 'Günümüze ulaşan en eski kapsamlı Hanefî usûl kitabı.'),
+    K('Usûlü’l-Pezdevî (Kenzü’l-vüsûl)', 'كنز الوصول إلى معرفة الأصول', 'Fahrülislâm el-Pezdevî', '482/1089', 'metin', 'Hanefî usûlünün en etkili metni; sonraki bütün Hanefî usûl kitapları buna dayanır.', ['Abdülazîz el-Buhârî, Keşfü’l-esrâr', 'Nesefî, Menâr (özeti)']),
+    K('Usûlü’s-Serahsî', 'أصول السرخسي', 'Şemsü’l-eimme es-Serahsî', '483/1090', 'sistematik eser', 'Örnekleri bol, akıcı üsluplu Hanefî usûlü; Mebsût’un yöntemini gösterir.'),
+    K('et-Tahrîr', 'التحرير في أصول الفقه', 'Kemâleddîn İbnü’l-Hümâm', '861/1457', 'metin', 'İki yolu birleştiren son büyük metin; yoğun ve zordur.', ['İbn Emîru Hâc, et-Takrîr ve’t-tahbîr', 'Emîr Pâdişâh, Teysîrü’t-Tahrîr'])]),
+  dict(ad='Mütekellimîn yolu', alt='İleri', ac='Şâfiî ve kelâmcı usûlcülerin kuruluş eserleri; mukayese için şarttır.',
+   kitaplar=[
+    K('er-Risâle', 'الرسالة', 'İmam Şâfiî', '204/820', 'kurucu eser', 'Fıkıh usûlü üzerine yazılan ilk kitap; beyân, sünnetin delilliği, icmâ ve kıyas.'),
+    K('el-Mu‘temed', 'المعتمد في أصول الفقه', 'Ebü’l-Hüseyn el-Basrî', '436/1044', 'kurucu eser', 'Mu‘tezilî bir usûlcünün eseri; mütekellimîn yolunun dört temel kaynağından biri.'),
+    K('el-Burhân', 'البرهان في أصول الفقه', 'İmâmü’l-Harameyn el-Cüveynî', '478/1085', 'kurucu eser', 'Eş‘arî usûlünün temel eseri; çok yoğun bir dille yazılmıştır.'),
+    K('el-Mustasfâ', 'المستصفى من علم الأصول', 'Gazzâlî', '505/1111', 'sistematik eser', 'Mantık mukaddimesiyle başlayan, en düzenli ve en çok okunan mütekellimîn usûlü.'),
+    K('el-Mahsûl', 'المحصول في علم أصول الفقه', 'Fahreddîn er-Râzî', '606/1210', 'sistematik eser', 'Dört temel kaynağın (Ahd, Mu‘temed, Burhân, Mustasfâ) özeti ve tenkidi.'),
+    K('el-İhkâm fî usûli’l-ahkâm', 'الإحكام في أصول الأحكام', 'Seyfeddîn el-Âmidî', '631/1233', 'sistematik eser', 'Görüşleri delilleriyle karşılaştırarak veren derin eser.', ['İbnü’l-Hâcib, Muhtasarü’l-Müntehâ (özeti)', 'Adudüddîn el-Îcî, Şerhu Muhtasari’l-Müntehâ']),
+    K('Minhâcü’l-vüsûl', 'منهاج الوصول إلى علم الأصول', 'Kādî Beyzâvî', '685/1286', 'metin', 'Şâfiî medreselerinin usûl metni.', ['İsnevî, Nihâyetü’s-sûl', 'Sübkî (baba-oğul), el-İbhâc']),
+    K('Cem‘u’l-cevâmi‘', 'جمع الجوامع', 'Tâceddîn es-Sübkî', '771/1370', 'metin', 'Şâfiî usûlünün son büyük derlemesi.', ['Celâleddîn el-Mahallî, el-Bedru’t-tâli‘'])]),
+  dict(ad='Makâsıd ve kavâid', alt='Mütehassıs', ac='Hükümlerin amaçları ve külli fıkıh kaideleri.',
+   kitaplar=[
+    K('el-Furûk', 'أنوار البروق في أنواء الفروق', 'Şihâbüddîn el-Karâfî', '684/1285', 'kavâid', 'Birbirine benzeyen kaideler arasındaki farkları gösteren Mâlikî eser.'),
+    K('el-Muvâfakât', 'الموافقات', 'Ebû İshâk eş-Şâtıbî', '790/1388', 'makâsıd', 'Şerîatın amaçlarını (zarûriyyât, hâciyyât, tahsîniyyât) sistemleştiren eser.', ['Abdullah Dıraz, Ta‘lîkāt']),
+    K('el-Eşbâh ve’n-nezâir', 'الأشباه والنظائر', 'Zeynüddîn İbn Nüceym', '970/1563', 'kavâid', 'Hanefî fıkıh kaidelerinin temel kitabı.', ['Hamevî, Gamzü uyûni’l-besâir']),
+    K('Mecelle-i Ahkâm-ı Adliyye (ilk 99 madde)', '—', 'Ahmed Cevdet Paşa başkanlığında heyet', '1293/1876', 'kanunnâme', 'Hanefî külli kaidelerini madde madde veren Osmanlı medenî kanunu.', ['Ali Haydar Efendi, Dürerü’l-hükkâm şerhu Mecelleti’l-ahkâm'])]),
+ ],
+ sahsiyetler=[
+  dict(ad='İmam Şâfiî', ar='الشافعي', v='204/820', k='er-Risâle ile usûlün ilk kitabını yazdı.'),
+  dict(ad='Ebü’l-Hasen el-Kerhî', ar='أبو الحسن الكرخي', v='340/952', k='Hanefî külli kaidelerini derledi.'),
+  dict(ad='Cessâs', ar='الجصاص', v='370/981', k='el-Fusûl fi’l-usûl ve Ahkâmü’l-Kur’ân.'),
+  dict(ad='Kādî Ebû Bekir el-Bâkıllânî', ar='الباقلاني', v='403/1013', k='et-Takrîb ve’l-irşâd; mütekellimîn yolunun öncüsü.'),
+  dict(ad='Debûsî', ar='الدبوسي', v='430/1039', k='Te’sîsü’n-nazar ve Takvîmü’l-edille.'),
+  dict(ad='Pezdevî', ar='البزدوي', v='482/1089', k='Hanefî usûlünün temel metni Kenzü’l-vüsûl.'),
+  dict(ad='Cüveynî', ar='الجويني', v='478/1085', k='el-Burhân.'),
+  dict(ad='Gazzâlî', ar='الغزالي', v='505/1111', k='el-Mustasfâ ve el-Menhûl.'),
+  dict(ad='Fahreddîn er-Râzî', ar='الرازي', v='606/1210', k='el-Mahsûl.'),
+  dict(ad='Sadrüşşerîa', ar='صدر الشريعة', v='747/1346', k='Tenkīh ve Tavzîh.'),
+  dict(ad='Şâtıbî', ar='الشاطبي', v='790/1388', k='el-Muvâfakât ve el-İ‘tisâm.'),
+  dict(ad='İbnü’l-Hümâm', ar='ابن الهمام', v='861/1457', k='et-Tahrîr.')],
+ terimler=[
+  dict(ar='الأدلة الشرعية', tr='Edille-i şer‘iyye', d='Kitap, Sünnet, icmâ, kıyas; ayrıca istihsân, maslahat, örf, istishâb gibi tâli deliller.'),
+  dict(ar='العام والخاص', tr='Âm ve hâs', d='Kapsamına girenlerin hepsini içine alan lafız ile belirli bir şeyi gösteren lafız.'),
+  dict(ar='المطلق والمقيد', tr='Mutlak ve mukayyed', d='Kayıtsız lafız ile bir vasıfla sınırlanmış lafız.'),
+  dict(ar='الأمر والنهي', tr='Emir ve nehiy', d='Bir fiilin yapılmasını veya yapılmamasını talep eden sîgalar.'),
+  dict(ar='النسخ', tr='Nesh', d='Önceki bir hükmün sonraki bir delille kaldırılması.'),
+  dict(ar='العلة', tr='İllet', d='Hükmün bağlandığı, kıyasta asıl ile fer‘i birleştiren vasıf.'),
+  dict(ar='عبارة النص وإشارته', tr='İbâre ve işâretü’n-nas', d='Hanefîlerde lafzın doğrudan ve dolaylı delâlet yolları.'),
+  dict(ar='مفهوم المخالفة', tr='Mefhûm-ı muhâlefet', d='Sözün, söylenmeyen durum için zıt hükmü göstermesi; Hanefîler çoğunlukla delil saymaz.'),
+  dict(ar='الاستصحاب', tr='İstishâb', d='Aksine delil bulunana kadar önceki durumun devam ettiğini kabul etmek.'),
+  dict(ar='المصلحة المرسلة', tr='Maslahat-ı mürsele', d='Hakkında özel delil bulunmayan, şerîatın amaçlarına uygun fayda.'),
+  dict(ar='سد الذرائع', tr='Sedd-i zerâi‘', d='Harama götüren meşru yolları kapatmak.'),
+  dict(ar='الاجتهاد والتقليد', tr='İctihad ve taklid', d='Hükmü delilden bizzat çıkarmak ile delilini bilmeden bir müctehide uymak.')],
+ nasil=[
+  'Önce Hallâf veya Zekiyyüddîn Şa‘bân ile usûlün bütün haritasını gör.',
+  'Menâr’ı bir şerhle (İbn Melek) oku; her kuralın örneğini Kudûrî ve Hidâye’de ara.',
+  'Hanefî yolu öğrendikten sonra Mustasfâ ile mütekellimîn yolunu tanı; iki yolun farkını bir tabloya dök.',
+  'Mantık bilmeden ileri usûl kitaplarına girme; en azından Îsâgūcî seviyesinde mantık oku.',
+  'Makâsıd ve kavâid kitaplarını en sona bırak; kuralları bilmeden amaçları okumak yanlış genellemelere götürür.'],
+)

@@ -2,12 +2,12 @@
 K = lambda ad, ar, mu, v, tur, neden, zincir=(), app=None: dict(ad=ad, ar=ar, mu=mu, v=v, tur=tur, neden=neden, zincir=list(zincir), app=app)
 FK = ('fikih.html', 'Fıkıh Dirâsesi’nde Kudûrî ibareleriyle')
 ALAN = dict(
- id='fikih', ad='Fıkıh ve Fıkıh Usûlü', ar='عِلْمُ الْفِقْه', renk='#5b4a7a',
+ id='fikih', ad='Fıkıh', ar='عِلْمُ الْفِقْه', renk='#5b4a7a',
  kisa='Amelî hükümleri tafsilî delilleriyle bilme ilmi ve bu hükümlerin çıkarılma yöntemi.',
  giris=[
   'Fıkıh, mükellefin fiillerine dair şer‘î hükümleri, Kur’an, Sünnet, icmâ ve kıyas gibi delillerden çıkararak bilme ilmidir. Fıkıh usûlü ise bu hükümlerin hangi yöntemle çıkarıldığını inceler: emir ve nehyin delâleti, âm-hâs, nesh, kıyasın şartları gibi.',
   'Türkiye’deki medrese geleneği Hanefî mezhebine dayanır. Bu yüzden aşağıdaki yol Hanefî ders zincirini esas alır: ilmihal ve muhtasarlarla başlayıp Kudûrî, Mülteka, Hidâye ve büyük şerhlere uzanır. Diğer üç mezhebin temel metinleri ayrı bir basamakta tanıtılır.',
-  'Usûl kitapları furû‘ (hükümler) ile paralel okunmalıdır: Menâr ile başlanır, Tavzîh-Telvîh ve Mir’ât ile derinleşilir.'],
+  'Fıkıh usûlü ayrı bir ihtisas alanı olarak verilmiştir; ancak furû‘ (hükümler) ile paralel okunmalıdır: Kudûrî’yi okurken Menâr’a başlamak en iyisidir.'],
  basamaklar=[
   dict(ad='İlmihal ve ilk metinler', alt='Başlangıç', ac='İbadetlerin ve günlük hayatın hükümlerini sade bir dille öğrenmek.',
    kitaplar=[
@@ -29,14 +29,6 @@ ALAN = dict(
     K('el-Mebsût', 'المبسوط', 'Şemsü’l-eimme es-Serahsî', '483/1090', 'şerh', 'İmam Muhammed’in kitaplarına dayanan, hükümleri gerekçeleriyle tartışan büyük eser.'),
     K('Bedâiu’s-sanâi‘', 'بدائع الصنائع في ترتيب الشرائع', 'Alâeddîn el-Kâsânî', '587/1191', 'sistematik eser', 'Fıkhı mantıklı bir tertiple ve gerekçeleriyle sunan eşsiz kitap.'),
     K('Bidâyetü’l-müctehid', 'بداية المجتهد ونهاية المقتصد', 'İbn Rüşd (el-Hafîd)', '595/1198', 'mukayeseli fıkıh', 'Mezhepler arası ihtilafların sebeplerini gösterir; ihtilaf ilmine giriş.')]),
-  dict(ad='Fıkıh usûlü', alt='Paralel okuma', ac='Hükümlerin delillerden nasıl çıkarıldığı. Furû‘ ile birlikte okunur.',
-   kitaplar=[
-    K('Usûlü’ş-Şâşî', 'أصول الشاشي', 'Nizâmeddîn eş-Şâşî', '344/955 (kesin değil)', 'metin', 'Hanefî usûlüne kısa giriş.'),
-    K('Menârü’l-envâr', 'منار الأنوار', 'Ebü’l-Berekât en-Nesefî', '710/1310', 'metin', 'Hanefî usûlünün medrese metni.', ['İbn Melek, Şerhu’l-Menâr', 'İbn Nüceym, Fethu’l-gaffâr']),
-    K('et-Tavzîh ve et-Telvîh', 'التوضيح والتلويح', 'Sadrüşşerîa / Teftâzânî', '747/1346 · 792/1390', 'metin, şerh ve hâşiye', 'Hanefî ve kelâmcı (mütekellimîn) usûlünü birleştiren ileri metin.'),
-    K('Mir’âtü’l-usûl', 'مرآة الأصول شرح مرقاة الوصول', 'Molla Hüsrev', '885/1480', 'metin ve şerh', 'Osmanlı medresesinde okunan usûl kitabı.'),
-    K('er-Risâle', 'الرسالة', 'İmam Şâfiî', '204/820', 'kurucu eser', 'Fıkıh usûlü üzerine yazılmış ilk kitap.'),
-    K('el-Muvâfakât', 'الموافقات', 'Ebû İshâk eş-Şâtıbî', '790/1388', 'makâsıd', 'Şerîatın amaçları (makâsıd) üzerine temel eser.')]),
   dict(ad='Diğer mezheplerin temel metinleri', alt='Mukayese', ac='Diğer mezhepleri kendi kaynaklarından tanımak için birer temel metin.',
    kitaplar=[
     K('Minhâcü’t-tâlibîn (Şâfiî)', 'منهاج الطالبين', 'İmam Nevevî', '676/1277', 'metin', 'Şâfiî mezhebinin en muteber metni.', ['Remlî, Nihâyetü’l-muhtâc', 'İbn Hacer el-Heytemî, Tuhfetü’l-muhtâc']),
@@ -71,7 +63,7 @@ ALAN = dict(
  nasil=[
   'İbadetleri önce ilmihalden öğren; Arapça metne Nûru’l-îzâh ile geç.',
   'Kudûrî’yi baştan sona bir kez oku; her bâbın ana kavramlarını bir deftere çıkar.',
-  'Furû‘ okurken paralelinde usûl oku: Menâr’da öğrendiğin kuralın Kudûrî’de nasıl işlediğini gör.',
+  'Furû‘ okurken paralelinde usûl oku (Fıkıh Usûlü alanına bak): Menâr’da öğrendiğin kuralın Kudûrî’de nasıl işlediğini gör.',
   'Hidâye’yi okurken Nasbü’r-râye ile hadislerin kaynağına bak.',
   'Fetvâ vermek ayrı bir uzmanlıktır; kitaptan okuduğun hükmü günlük bir meseleye uygulamadan önce bir âlime danış.'],
 )
