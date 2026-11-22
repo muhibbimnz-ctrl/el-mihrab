@@ -1,0 +1,10 @@
+{"not":"Canlı yayın kaynakları. Bir yayın kapanırsa sıradaki kanal 'Yedek yayın' düğmesiyle açılır. kanal: YouTube kanal kimliği (UC...).",
+ "yayinlar":[
+  {"id":"mekke","ad":"Mekke","ar":"مكة المكرمة","alt":"Mescid-i Harâm · canlı","kaynaklar":[
+    {"ad":"Suudi Kur'an TV (resmî)","kanal":"UCos52azQNBgW63_9uDJoPDA"},
+    {"ad":"Kaaba TV","kanal":"UCRvK_gXx5rC3lu8de1QuGDw"}]},
+  {"id":"medine","ad":"Medine","ar":"المدينة المنورة","alt":"Mescid-i Nebevî · canlı","kaynaklar":[
+    {"ad":"Suudi Sünnet TV (resmî)","kanal":"UCROKYPep-UuODNwyipe6JMw"},
+    {"ad":"Noor Al-Haram","kanal":"UC621I7zuw1-oYj_KmFkWX8w"},
+    {"ad":"Ar Rahman","kanal":"UCWainKMJPyXikjekccFf3NA"}]}
+ ]}
