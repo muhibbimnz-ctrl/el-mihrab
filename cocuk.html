@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="tr"><head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script src="kalkan.js"></script><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Çocuk Köşesi · el-Mihrâb</title>
+<meta name="theme-color" content="#1f8a70">
+<link rel="icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Noto+Naskh+Arabic:wght@400;600&family=Amiri:wght@400;700&display=swap" media="print" onload="this.media='all'">
+<style>
+:root{--bg:#fff7e8;--card:#ffffff;--ink:#2b2a33;--muted:#6f6a7a;--line:#f0e2c6;--pri:#1f8a70;--priS:#dff3ec;--sun:#ffb703;--sunS:#fff1c7;--sky:#3a86ff;--rose:#ef476f;--ok:#16a34a;--okS:#dcfce7;--bad:#dc2626;--badS:#fee2e2}
+@media (prefers-color-scheme:dark){:root{--bg:#141821;--card:#1d2230;--ink:#f1efe8;--muted:#a6a2b0;--line:#2c3344;--pri:#4fd1a5;--priS:#173a31;--sun:#ffc94a;--sunS:#3a3014;--okS:#12351f;--badS:#3b1515}}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 "Baloo 2",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-top:calc(60px + env(safe-area-inset-top,0px));padding-bottom:calc(40px + env(safe-area-inset-bottom,0px))}
+.ar{font-family:"Noto Naskh Arabic","Amiri",serif;direction:rtl}.ayet{font-family:"Amiri","Noto Naskh Arabic",serif;direction:rtl}
+#top{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;align-items:center;gap:10px;padding:calc(8px + env(safe-area-inset-top,0px)) 12px 8px;background:var(--pri);color:#fff;box-shadow:0 2px 12px rgba(0,0,0,.18)}
+#top a,#top button{color:#fff;text-decoration:none;background:rgba(255,255,255,.22);border:0;border-radius:14px;padding:7px 13px;font:700 16px "Baloo 2",system-ui,sans-serif;cursor:pointer}
+#top b{flex:1;font-size:19px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#top .yz{background:rgba(255,255,255,.22);border-radius:14px;padding:5px 10px;font-weight:800}
+main{max-width:760px;margin:0 auto;padding:12px 14px}
+h1{font-size:28px;line-height:1.2;margin:6px 0 2px;color:var(--pri)}h2{font-size:21px;margin:20px 0 8px}
+.lead{color:var(--muted);margin:0 0 14px}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tile{border:0;border-radius:24px;padding:16px 12px 14px;min-height:128px;color:#fff;cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;gap:2px;text-align:left;font:inherit;box-shadow:0 6px 0 rgba(0,0,0,.12);position:relative;overflow:hidden;transition:transform .1s}
+.tile:active{transform:translateY(3px);box-shadow:0 3px 0 rgba(0,0,0,.12)}
+.tile .e{font-size:42px;line-height:1;position:absolute;top:12px;right:12px;filter:drop-shadow(0 2px 2px rgba(0,0,0,.2))}
+.tile b{font-size:19px;line-height:1.2}.tile small{opacity:.92;font-size:14px;line-height:1.3}
+.tile.wide{grid-column:1/-1;min-height:104px}
+.list{display:grid;gap:10px}
+.it{display:flex;align-items:center;gap:12px;padding:12px 14px;background:var(--card);border:2px solid var(--line);border-radius:20px;cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%}
+.it:active{transform:scale(.99)}
+.it .e{flex:none;width:52px;height:52px;border-radius:16px;display:grid;place-items:center;font-size:28px;background:var(--sunS)}
+.it .tx{flex:1;min-width:0}.it .tx b{display:block;font-size:18px;line-height:1.25}.it .tx small{color:var(--muted);font-size:14px}
+.it .ok{flex:none;font-size:22px}
+.grp{font-weight:800;color:var(--muted);margin:16px 4px 4px;font-size:15px;letter-spacing:.03em}
+.card{background:var(--card);border:2px solid var(--line);border-radius:22px;padding:16px;margin:12px 0}
+.card p{margin:0 0 12px;font-size:18px;line-height:1.75}.card p:last-child{margin-bottom:0}
+.card p.on{background:var(--sunS);border-radius:10px;box-shadow:0 0 0 6px var(--sunS)}
+.akil{background:var(--priS);border-radius:20px;padding:14px 16px;margin:12px 0}.akil b{color:var(--pri)}.akil ul{margin:6px 0 0;padding-left:22px}
+.hadis{background:var(--sunS);border-radius:20px;padding:14px 16px;margin:12px 0;font-size:17px}.hadis i{display:block;color:var(--muted);font-size:14px;font-style:normal;margin-top:4px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:2px solid var(--line);background:var(--card);color:var(--ink);border-radius:16px;padding:10px 16px;font:700 16px "Baloo 2",system-ui,sans-serif;cursor:pointer;text-decoration:none}
+.btn.pri{background:var(--pri);border-color:var(--pri);color:#fff}.btn.sun{background:var(--sun);border-color:var(--sun);color:#3a2a00}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0;align-items:center}
+.ses{position:sticky;top:calc(64px + env(safe-area-inset-top,0px));z-index:5;display:flex;gap:8px;align-items:center;background:var(--bg);padding:6px 0}
+.ses .btn{flex:1}
+.pic{background:linear-gradient(#bfe6ff,#e9f7ff);border-radius:22px;overflow:hidden;border:2px solid var(--line);margin:8px 0}
+.pic svg{display:block;width:100%;height:auto}
+.step{display:flex;gap:12px;align-items:flex-start}.step .n{flex:none;width:34px;height:34px;border-radius:50%;background:var(--pri);color:#fff;display:grid;place-items:center;font-weight:800}
+.dots{display:flex;gap:6px;justify-content:center;margin:10px 0;flex-wrap:wrap}.dots i{width:10px;height:10px;border-radius:50%;background:var(--line)}.dots i.on{background:var(--pri);width:24px;border-radius:6px}
+.mini{display:inline-flex;align-items:center;gap:6px;background:var(--priS);color:var(--pri);border:0;border-radius:999px;padding:5px 12px;font:700 15px "Baloo 2",system-ui;cursor:pointer;margin:3px 4px 3px 0}
+.dua .ar{font-size:30px;line-height:2.1;text-align:right;margin:4px 0;border-radius:12px}.dua .ar.on,.okn.on{background:var(--sunS)}.dua .okn{font-size:17px;color:var(--pri);font-weight:600}.dua .anl{font-size:16px;color:var(--muted);margin-top:6px}
+.ayet{font-size:30px;line-height:2.1;text-align:right;padding:8px 6px;border-bottom:2px dashed var(--line);cursor:pointer}
+.ayet.on{background:var(--sunS);border-radius:12px}.ayet .n{font-size:20px;color:var(--sun)}
+.ayet+.okn,.okn{font-size:16px;color:var(--pri);direction:ltr;text-align:left;padding:2px 6px}.anl{font-size:15px;color:var(--muted);padding:0 6px 10px}
+.vk{display:grid;grid-template-columns:44px 1fr;gap:4px 10px;align-items:center}.vk .e{font-size:30px}
+.q{font-size:21px;font-weight:700;line-height:1.35;margin:6px 0 14px}
+.opts{display:grid;gap:10px}.opts button{padding:14px 12px;font-size:18px;text-align:left}
+.opts button.ok{background:var(--okS);border-color:var(--ok)}.opts button.bad{background:var(--badS);border-color:var(--bad)}
+.dy{display:grid;grid-template-columns:1fr 1fr;gap:12px}.dy button{font-size:40px;padding:14px}
+.score{font-size:54px;font-weight:800;color:var(--pri);text-align:center;line-height:1.1}
+.stars{font-size:40px;text-align:center;letter-spacing:4px}
+.mem{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.mem button{aspect-ratio:3/4;border-radius:16px;border:0;background:var(--pri);color:#fff;font:800 15px "Baloo 2",system-ui;cursor:pointer;display:grid;place-items:center;padding:4px;transition:transform .2s,background .2s}
+.mem button.a{background:var(--card);color:var(--ink);border:2px solid var(--pri)}.mem button.a .e{font-size:34px}
+.mem button.m{background:var(--okS);color:var(--ok);border:2px solid var(--ok)}
+.ord{display:grid;gap:8px}.ord button{text-align:left;font-size:17px}.ord button.done{background:var(--okS);border-color:var(--ok);opacity:.7}
+.ord button.bad{animation:sallan .3s}@keyframes sallan{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#222;color:#fff;padding:10px 16px;border-radius:14px;font-size:15px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:50;max-width:90vw;text-align:center}
+#toast.on{opacity:.95}
+.konfeti{position:fixed;inset:0;pointer-events:none;z-index:40;overflow:hidden}.konfeti i{position:absolute;top:-20px;font-style:normal;font-size:26px;animation:dus 1.8s linear forwards}
+@keyframes dus{to{transform:translateY(110vh) rotate(360deg)}}
+footer{color:var(--muted);text-align:center;font-size:13px;margin:30px 0 10px}
+</style></head>
+<body>
+<div id="top"><a id="geri" href="index.html">←</a><b id="baslik">Çocuk Köşesi</b><span class="yz" id="yz">⭐ 0</span></div>
+<main id="m"><p>Yükleniyor…</p></main>
+<div id="toast"></div>
+<script>
+'use strict';
+var V=null,$=function(s){return document.querySelector(s)};
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function toast(t){var e=$('#toast');e.textContent=t;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(function(){e.classList.remove('on')},2600)}
+function gun(){try{return new Date().toISOString().slice(0,10)}catch(e){return '0'}}
+function karis(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
+/* ilerleme: hafıza dolarsa ya da kapalıysa sayfa çökmez */
+var S={ok:{},y:0};try{var _s=JSON.parse(localStorage.getItem('cocuk.v1')||'null');if(_s&&typeof _s==='object'){S.ok=_s.ok||{};S.y=+_s.y||0}}catch(e){}
+function kaydet(){try{localStorage.setItem('cocuk.v1',JSON.stringify(S))}catch(e){}$('#yz').textContent='⭐ '+S.y}
+function bitti(k,n){if(!S.ok[k]){S.ok[k]=1;S.y+=n||1;kaydet();konfeti();return true}return false}
+function konfeti(){var d=document.createElement('div');d.className='konfeti';var e=['⭐','🌟','✨','🌙','💚'];for(var i=0;i<22;i++){var x=document.createElement('i');x.textContent=e[i%e.length];x.style.left=Math.random()*100+'%';x.style.animationDelay=Math.random()*.6+'s';d.appendChild(x)}document.body.appendChild(d);setTimeout(function(){d.remove()},2600)}
+
+/* ---------- ses: cihazın sesli okuması (Türkçe) ve Afâsî âyet kayıtları ---------- */
+var SY=window.speechSynthesis||null,sesler=[],au=null,okuma=0;
+function sesYukle(){if(SY)try{sesler=SY.getVoices()||[]}catch(e){}}
+if(SY){sesYukle();try{SY.onvoiceschanged=sesYukle}catch(e){}}
+function ses(dil){var l=dil.toLowerCase();for(var i=0;i<sesler.length;i++)if((sesler[i].lang||'').toLowerCase().replace('_','-').indexOf(l)===0)return sesler[i];return null}
+function durdur(){okuma++;try{SY&&SY.cancel()}catch(e){}if(au){try{au.pause()}catch(e){}}
+  [].forEach.call(document.querySelectorAll('.on[data-p],.ayet.on'),function(e){e.classList.remove('on')});var b=$('#oku');if(b)b.textContent='🔊 Sesli dinle'}
+/* parcalar: [{t:metin, el:vurgulanacak öğe, dil:'tr'|'ar'}] */
+function seslendir(parcalar,bitince){durdur();if(!SY||!window.SpeechSynthesisUtterance){toast('Bu cihazda sesli okuma yok. Ayarlardan “Metin okuma” motorunu açabilirsin.');return false}
+  var my=++okuma,i=0;sesYukle();
+  function sonraki(){if(my!==okuma)return;[].forEach.call(document.querySelectorAll('.on[data-p]'),function(e){e.classList.remove('on')});
+    if(i>=parcalar.length){var b=$('#oku');if(b)b.textContent='🔊 Sesli dinle';bitince&&bitince();return}
+    var p=parcalar[i++];if(p.el){p.el.classList.add('on');try{p.el.scrollIntoView({block:'center',behavior:'smooth'})}catch(e){}}
+    var u=new SpeechSynthesisUtterance(p.t),v=ses(p.dil==='ar'?'ar':'tr');u.lang=p.dil==='ar'?'ar-SA':'tr-TR';if(v)u.voice=v;u.rate=p.dil==='ar'?.8:.92;u.pitch=1.05;
+    var bekci=setTimeout(sonraki,Math.max(4000,p.t.length*140));u.onend=u.onerror=function(){clearTimeout(bekci);setTimeout(sonraki,250)};
+    try{SY.speak(u)}catch(e){clearTimeout(bekci);toast('Sesli okuma başlatılamadı.')}}
+  sonraki();return true}
+function pad(n){return ('00'+n).slice(-3)}
+function ayetCal(liste,onAdim,bitince){/* liste: [[sure,ayet],...] */durdur();var my=okuma,i=0;if(!au)au=new Audio();
+  function c(){if(my!==okuma)return;if(i>=liste.length){onAdim&&onAdim(-1);bitince&&bitince();return}onAdim&&onAdim(i);
+    au.onended=function(){i++;c()};au.onerror=function(){toast('Ses yüklenemedi; internet bağlantını kontrol et.');onAdim&&onAdim(-1)};
+    au.src='https://everyayah.com/data/Alafasy_128kbps/'+pad(liste[i][0])+pad(liste[i][1])+'.mp3';au.play().catch(function(){toast('Ses başlatılamadı.')})}
+  c()}
+function okuDugme(fn){var b=$('#oku');if(!b)return;b.onclick=function(){if(b.textContent.indexOf('Durdur')>=0){durdur();return}if(fn()!==false)b.textContent='⏸ Durdur'}}
+function parcala(kutu){return [].map.call(kutu.querySelectorAll('[data-p]'),function(e){return {t:e.textContent,el:e}})}
+
+/* ---------- çizimler (insan yüzü yok; peygamber ve sahabe asla çizilmez) ---------- */
+var REN={ten:'#f2c29b',ust:'#3a86ff',kol:'#1f5fc4',alt:'#1d3557',takke:'#ffffff',hali:'#c1121f',hali2:'#ffb703'};
+function uzuv(pts,w,c){return '<polyline points="'+pts.map(function(p){return p.join(',')}).join(' ')+'" fill="none" stroke="'+c+'" stroke-width="'+w+'" stroke-linecap="round" stroke-linejoin="round"/>'}
+function bas(x,y,yon){/* yon: göz tarafı */return '<circle cx="'+x+'" cy="'+y+'" r="15" fill="'+REN.ten+'"/><path d="M'+(x-15)+' '+(y-3)+'a15 15 0 0 1 30 0z" fill="'+REN.takke+'" stroke="#ddd"/>'+(yon?'<circle cx="'+(x+yon*8)+'" cy="'+(y+3)+'" r="2.2" fill="#333"/>':'')}
+function hali(){return '<rect x="20" y="170" width="200" height="12" rx="4" fill="'+REN.hali+'"/><rect x="26" y="173" width="188" height="6" rx="3" fill="none" stroke="'+REN.hali2+'" stroke-width="1.5" stroke-dasharray="6 4"/>'}
+function kible(){return '<g transform="translate(228 136)"><rect width="30" height="30" fill="#111"/><rect y="6" width="30" height="4" fill="#d4af37"/><text x="15" y="46" font-size="11" text-anchor="middle" fill="#555" font-family="system-ui">Kıble</text></g>'}
+function figur(poz){var s='';var T=REN.ten,U=REN.ust,A=REN.alt,K=REN.kol;
+  if(poz==='kiyam0'||poz==='kavme'||poz==='tekbir'||poz==='kiyam'){
+    s+=uzuv([[112,112],[110,168]],15,A)+uzuv([[120,112],[124,168]],15,A)+uzuv([[116,62],[116,116]],26,U);
+    if(poz==='tekbir')s+=uzuv([[116,72],[130,80],[126,52]],10,K)+'<circle cx="126" cy="50" r="6" fill="'+T+'"/>';
+    else if(poz==='kiyam')s+=uzuv([[116,72],[124,92],[132,98]],10,K)+'<circle cx="133" cy="98" r="6" fill="'+T+'"/>';
+    else s+=uzuv([[118,72],[126,110]],10,K)+'<circle cx="127" cy="113" r="6" fill="'+T+'"/>';
+    s+=bas(116,44,1)}
+  else if(poz==='ruku'){s+=uzuv([[100,118],[100,168]],15,A)+uzuv([[108,118],[110,168]],15,A)+uzuv([[100,112],[156,112]],26,U)+uzuv([[150,118],[124,142]],10,K)+'<circle cx="120" cy="143" r="6" fill="'+T+'"/>'+bas(174,116,1)}
+  else if(poz==='secde'){s+=uzuv([[52,166],[92,166]],14,A)+uzuv([[92,164],[80,128]],15,A)+uzuv([[82,126],[140,150]],26,U)+uzuv([[136,152],[150,164]],10,K)+'<circle cx="152" cy="165" r="6" fill="'+T+'"/>'+bas(162,152,1)}
+  else{/* celse, kade, selam */s+=uzuv([[72,165],[132,165]],14,A)+uzuv([[80,150],[130,158]],15,A)+uzuv([[84,148],[88,96]],26,U)+uzuv([[88,108],[110,132],[124,152]],10,K)+'<circle cx="125" cy="153" r="6" fill="'+T+'"/>'+bas(90,76,poz==='selam1'?0:poz==='selam2'?0:1);
+    if(poz==='selam1')s+='<path d="M74 50 q18 -16 36 0" fill="none" stroke="#1f8a70" stroke-width="4" marker-end="url(#ok)"/><text x="92" y="34" font-size="13" text-anchor="middle" fill="#1f8a70" font-family="system-ui" font-weight="700">sağ omza</text>';
+    if(poz==='selam2')s+='<path d="M110 50 q-18 -16 -36 0" fill="none" stroke="#1f8a70" stroke-width="4" marker-end="url(#ok)"/><text x="92" y="34" font-size="13" text-anchor="middle" fill="#1f8a70" font-family="system-ui" font-weight="700">sol omza</text>'}
+  return '<svg viewBox="0 0 270 190" role="img" aria-label="Namaz duruşu"><defs><marker id="ok" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#1f8a70"/></marker></defs><rect width="270" height="190" fill="#eaf6ff"/><rect y="176" width="270" height="14" fill="#e9dcc3"/>'+hali()+kible()+s+'</svg>'}
+
+function sahne(k){var g='',sky='#8ecae6',sky2='#e0f4ff',sand='#f4d58d',sand2='#e9c46a',dag='#b08968',dag2='#9c6644';
+  var gece=(k==='gece'||k==='hicret');if(gece){sky='#14213d';sky2='#2b3a67'}
+  if(k==='arafat'){sky='#ffd6a5';sky2='#fff1d6'}
+  g+='<defs><linearGradient id="gk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="'+sky+'"/><stop offset="1" stop-color="'+sky2+'"/></linearGradient></defs><rect width="400" height="220" fill="url(#gk)"/>';
+  if(gece){for(var i=0;i<26;i++)g+='<circle cx="'+((i*73)%400)+'" cy="'+((i*41)%110+8)+'" r="'+(i%3?1.2:2)+'" fill="#fff" opacity=".85"/>';g+='<path d="M330 40a24 24 0 1 0 18 36a19 19 0 1 1 -18 -36z" fill="#ffe8a3"/>'}
+  else g+='<circle cx="340" cy="46" r="24" fill="#ffd166"/>';
+  function kabe(x,y,s){return '<g transform="translate('+x+' '+y+') scale('+s+')"><rect x="0" y="0" width="60" height="58" fill="#111"/><rect x="0" y="12" width="60" height="7" fill="#d4af37"/><rect x="38" y="30" width="12" height="28" fill="#d4af37" opacity=".9"/></g>'}
+  function evler(x,y,n){var s='';for(var i=0;i<n;i++){var w=26+(i*7)%14,h=20+(i*11)%18;s+='<rect x="'+(x+i*30)+'" y="'+(y-h)+'" width="'+w+'" height="'+h+'" fill="'+(i%2?'#e9d8a6':'#dcc48e')+'"/><rect x="'+(x+i*30+8)+'" y="'+(y-h+6)+'" width="6" height="7" fill="#7a5c2e" opacity=".6"/>'}return s}
+  function hurma(x,y,s){return '<g transform="translate('+x+' '+y+') scale('+s+')"><path d="M0 0 q4 -40 -2 -80" stroke="#8d5524" stroke-width="7" fill="none"/><g fill="#2d6a4f"><path d="M-2 -80 q-30 -6 -44 14 q22 -12 44 -14z"/><path d="M-2 -80 q30 -8 46 12 q-24 -10 -46 -12z"/><path d="M-2 -80 q-20 -22 -40 -20 q20 2 40 20z"/><path d="M-2 -80 q18 -24 40 -24 q-22 6 -40 24z"/></g></g>'}
+  function dagEkle(pts,c){return '<path d="M'+pts+'" fill="'+c+'"/>'}
+  if(k==='mekke'){g+=dagEkle('0 150 L60 70 L120 140 L180 60 L250 150 L320 80 L400 150 L400 220 L0 220z',dag)+'<rect y="160" width="400" height="60" fill="'+sand+'"/>'+evler(20,170,4)+evler(270,170,4)+kabe(170,112,1)}
+  else if(k==='kabe'){g+='<rect y="150" width="400" height="70" fill="#e6e6e6"/>'+[0,1,2,3,4,5,6].map(function(i){return '<path d="M'+(i*60)+' 150 v-50 a30 30 0 0 1 60 0 v50" fill="none" stroke="#c9b48a" stroke-width="6"/>'}).join('')+kabe(150,80,1.6)+'<ellipse cx="198" cy="182" rx="120" ry="16" fill="none" stroke="#bbb" stroke-dasharray="4 6"/>'}
+  else if(k==='col'){g+='<path d="M0 160 q80 -40 160 0 t160 0 t160 0 v60 h-480z" fill="'+sand2+'"/><path d="M0 185 q100 -30 200 0 t200 0 v35 h-400z" fill="'+sand+'"/>'+hurma(60,170,.9)+hurma(330,175,.75)}
+  else if(k==='ev'){g+='<rect y="165" width="400" height="55" fill="'+sand+'"/><rect x="120" y="95" width="160" height="72" fill="#e9d8a6"/><rect x="185" y="125" width="30" height="42" rx="15" fill="#7a5c2e"/><rect x="140" y="110" width="22" height="18" fill="#7a5c2e" opacity=".6"/><rect x="238" y="110" width="22" height="18" fill="#7a5c2e" opacity=".6"/><rect x="112" y="88" width="176" height="10" fill="#d2b77e"/>'+hurma(70,170,1)+hurma(330,170,.85)}
+  else if(k==='hira'){g+=dagEkle('0 220 L0 150 L120 40 L200 70 L300 30 L400 140 L400 220z',dag2)+'<path d="M230 110 q22 -26 44 0 v20 h-44z" fill="#2b1d12"/><path d="M252 104 l-30 -60 M252 104 l0 -70 M252 104 l30 -60" stroke="#ffe8a3" stroke-width="3" opacity=".8"/><text x="252" y="148" font-size="13" text-anchor="middle" fill="#fff" font-family="system-ui" font-weight="700">Hira</text>'}
+  else if(k==='bahce'){g+='<rect y="150" width="400" height="70" fill="#95d5b2"/>'+[40,110,180,250,320].map(function(x,i){return '<rect x="'+(x+18)+'" y="120" width="6" height="40" fill="#8d5524"/><circle cx="'+(x+21)+'" cy="112" r="26" fill="'+(i%2?'#52b788':'#40916c')+'"/>'+(i%2?'<circle cx="'+(x+12)+'" cy="118" r="4" fill="#7b2cbf"/><circle cx="'+(x+30)+'" cy="106" r="4" fill="#7b2cbf"/>':'')}).join('')}
+  else if(k==='hicret'){g+='<path d="M0 170 q100 -30 200 0 t200 0 v50 h-400z" fill="#3d405b"/>'+[90,170].map(function(x){return '<g transform="translate('+x+' 150)" fill="#1b1b2f"><path d="M0 0 q10 -26 30 -18 q10 -22 26 -4 q8 -14 16 -6 l-6 8 q-8 2 -8 20 v24 h-6 v-22 h-30 v22 h-6 v-24 q-14 4 -16 0z"/></g>'}).join('')+'<text x="200" y="208" font-size="13" text-anchor="middle" fill="#cbd5e1" font-family="system-ui">Mekke → Medine</text>'}
+  else if(k==='mescid'){g+='<rect y="160" width="400" height="60" fill="#e9e3d4"/><rect x="110" y="100" width="180" height="62" fill="#f8f4ea"/><path d="M170 100 a30 30 0 0 1 60 0z" fill="#2a9d8f"/><rect x="198" y="58" width="4" height="14" fill="#d4af37"/><rect x="300" y="50" width="16" height="112" fill="#f8f4ea"/><path d="M296 50 l12 -24 l12 24z" fill="#2a9d8f"/>'+[0,1,2,3,4].map(function(i){return '<path d="M'+(122+i*34)+' 162 v-30 a10 10 0 0 1 20 0 v30" fill="#d8cfb8"/>'}).join('')+hurma(60,170,.9)+hurma(360,172,.7)}
+  else if(k==='uhud'){g+=dagEkle('0 160 L90 60 L170 120 L260 40 L400 150 L400 220 L0 220z','#a44a3f')+'<rect y="196" width="400" height="24" fill="'+sand+'"/><path d="M30 198 q40 -34 80 0z" fill="#d4a373"/><text x="70" y="214" font-size="12" text-anchor="middle" fill="#5c3d2e" font-family="system-ui" font-weight="700">Okçular tepesi</text><text x="260" y="120" font-size="14" text-anchor="middle" fill="#fff" font-family="system-ui" font-weight="700">Uhud</text>'}
+  else if(k==='hendek'){g+='<rect y="150" width="400" height="70" fill="'+sand+'"/><path d="M0 172 h400 v14 h-400z" fill="#6b4f3a"/>'+evler(150,150,5)+hurma(60,152,.7)+'<text x="200" y="210" font-size="12" text-anchor="middle" fill="#5c3d2e" font-family="system-ui">Hendek</text>'}
+  else if(k==='arafat'){g+=dagEkle('140 170 L200 90 L260 170z','#c08552')+'<rect x="196" y="76" width="8" height="18" fill="#fff"/><rect y="168" width="400" height="52" fill="'+sand+'"/>'+[20,60,100,280,320,360].map(function(x){return '<path d="M'+x+' 190 l18 -22 l18 22z" fill="#fff" stroke="#ddd"/>'}).join('')+'<text x="200" y="210" font-size="12" text-anchor="middle" fill="#7a4a1f" font-family="system-ui">Arafat · Rahmet dağı</text>'}
+  else if(k==='gece'){g+='<rect y="170" width="400" height="50" fill="#1b263b"/><path d="M160 170 v-40 a40 40 0 0 1 80 0 v40z" fill="#415a77"/><rect x="250" y="90" width="12" height="80" fill="#415a77"/><path d="M247 90 l9 -20 l9 20z" fill="#778da9"/>'}
+  return '<svg viewBox="0 0 400 220" role="img" aria-label="Siyer sahnesi">'+g+'</svg>'}
+
+/* ---------- sayfalar ---------- */
+function sayfa(baslik,html,geri){durdur();$('#baslik').textContent=baslik;$('#geri').setAttribute('href',geri||'#');$('#m').innerHTML=html;window.scrollTo(0,0)}
+var BOL=[
+ {k:'dersler',e:'🌙',b:'Dinimi Tanıyorum',s:'Allah, iman, İslam, ibadetler',c:'#1f8a70'},
+ {k:'hikayeler',e:'📖',b:'Sesli Edep Hikâyeleri',s:'Doğruluk, saygı, paylaşma…',c:'#ef476f'},
+ {k:'namaz',e:'🧎',b:'Namaz Öğreniyorum',s:'Resimli abdest ve namaz',c:'#3a86ff'},
+ {k:'sureler',e:'🎧',b:'Sûreler ve Dualar',s:'Dinle, oku, ezberle',c:'#8338ec'},
+ {k:'siyer',e:'🐪',b:'Peygamberimizin Hayatı',s:'Resimli ve sesli siyer',c:'#e76f51'},
+ {k:'buyukler',e:'🌟',b:'İslam Büyükleri',s:'Peygamberler, sahabeler, âlimler',c:'#2a9d8f'},
+ {k:'oyunlar',e:'🎮',b:'Oyunlar',s:'Bilgi yarışması, hafıza, sıralama',c:'#fb8500',w:1}
+];
+function ana(){var ok=Object.keys(S.ok).length;
+  sayfa('Çocuk Köşesi','<h1>Merhaba küçük dostum! 👋</h1><p class="lead">Dinlemek, okumak ve oynamak istediğin bölüme dokun. Her bitirdiğin ders için bir yıldız kazanırsın.</p><div class="tiles">'+BOL.map(function(b){return '<button class="tile'+(b.w?' wide':'')+'" style="background:'+b.c+'" data-g="'+b.k+'"><span class="e">'+b.e+'</span><b>'+b.b+'</b><small>'+b.s+'</small></button>'}).join('')+'</div>'+
+  (ok?'<p class="lead" style="margin-top:16px;text-align:center">Şimdiye kadar <b>'+ok+'</b> bölüm bitirdin, <b>'+S.y+'</b> yıldız topladın. Mâşallah!</p>':'')+
+  '<footer>Anne-babalar için: Sesli okuma telefonun kendi okuma motoruyla yapılır; sûreler Mişârî Râşid el-Afâsî’nin sesindendir. Peygamberlerin ve sahabenin yüzleri çizilmez.</footer>','index.html');
+  [].forEach.call(document.querySelectorAll('[data-g]'),function(b){b.onclick=function(){location.hash=b.dataset.g}})}
+function liste(baslik,lead,dizi,yol,anah,grupla){var h='<h1>'+baslik+'</h1><p class="lead">'+lead+'</p><div class="list">',son='';
+  dizi.forEach(function(x){if(grupla&&x.g!==son){h+='<div class="grp">'+esc(x.g)+'</div>';son=x.g}
+    h+='<button class="it" data-h="'+yol+'/'+x.id+'"><span class="e">'+(x.ikon||'📘')+'</span><span class="tx"><b>'+esc(x.baslik||x.ad)+'</b><small>'+esc(x.konu||x.lakap||x.yil||'')+'</small></span><span class="ok">'+(S.ok[anah+x.id]?'⭐':'')+'</span></button>'});
+  return h+'</div>'}
+function baglaH(){[].forEach.call(document.querySelectorAll('[data-h]'),function(b){b.onclick=function(){location.hash=b.dataset.h}})}
+
+function dersler(){sayfa('Dinimi Tanıyorum',liste('Dinimi Tanıyorum','Her dersi oku ya da dinle, sonra soruları cevapla.',V.dersler,'ders','d:'),'#');baglaH()}
+function ders(id){var d=V.dersler.find(function(x){return x.id===id});if(!d)return dersler();
+  sayfa(d.baslik,'<div class="ses"><button class="btn pri" id="oku">🔊 Sesli dinle</button></div><h1>'+d.ikon+' '+esc(d.baslik)+'</h1><div class="card" id="metin">'+d.p.map(function(p){return '<p data-p>'+esc(p)+'</p>'}).join('')+'</div><div class="akil"><b>Aklında kalsın</b><ul>'+d.akil.map(function(a){return '<li>'+esc(a)+'</li>'}).join('')+'</ul></div><h2>Haydi cevapla!</h2><div id="qz"></div>','#dersler');
+  okuDugme(function(){return seslendir(parcala($('#metin')))});
+  quiz($('#qz'),karis(d.s).map(function(s){return {q:s[0],d:s[1],y:s[2]}}),function(n,t){if(n===t&&bitti('d:'+d.id,1))toast('Tebrikler! Bir yıldız kazandın ⭐')})}
+
+function hikayeler(){sayfa('Edep Hikâyeleri',liste('Sesli Edep Hikâyeleri','“Sesli dinle”ye dokun; hikâye okunurken cümleler sarı renkle gösterilir.',V.hikayeler,'hikaye','h:'),'#');baglaH()}
+function hikaye(id){var d=V.hikayeler.find(function(x){return x.id===id});if(!d)return hikayeler();
+  sayfa(d.konu,'<div class="ses"><button class="btn pri" id="oku">🔊 Sesli dinle</button></div><div style="background:'+d.renk+';color:#fff;border-radius:24px;padding:18px 16px;margin:6px 0"><div style="font-size:48px;line-height:1">'+d.ikon+'</div><h1 style="color:#fff;margin:6px 0 0">'+esc(d.baslik)+'</h1><small style="opacity:.9">'+esc(d.konu)+'</small></div><div class="card" id="metin">'+d.p.map(function(p){return '<p data-p>'+esc(p)+'</p>'}).join('')+'</div><div class="hadis" data-p>📜 '+esc(d.hadis[0])+'<i>'+esc(d.hadis[1])+'</i></div><div class="akil"><b>Bu hikâyeden öğrendim:</b><br><span data-p>'+esc(d.ders)+'</span></div><div class="row"><button class="btn sun" id="bit">⭐ Hikâyeyi bitirdim</button></div>','#hikayeler');
+  okuDugme(function(){return seslendir([{t:d.baslik}].concat(parcala(document.getElementById('m'))))});
+  $('#bit').onclick=function(){if(bitti('h:'+d.id,1))toast('Aferin! Bir yıldız kazandın ⭐');else toast('Bu hikâyeyi zaten bitirmiştin.')}}
+
+function buyukler(){sayfa('İslam Büyükleri',liste('İslam Büyükleri','Peygamberler, Peygamberimizin ailesi, dört halife, sahabeler ve âlimler.',V.buyukler,'buyuk','b:',1),'#');baglaH()}
+function buyuk(id){var d=V.buyukler.find(function(x){return x.id===id});if(!d)return buyukler();
+  sayfa(d.ad,'<div class="ses"><button class="btn pri" id="oku">🔊 Sesli dinle</button></div><div class="card" style="text-align:center"><div style="font-size:64px;line-height:1.1">'+d.ikon+'</div><h1>'+esc(d.ad)+'</h1><p class="lead" style="margin:0">'+esc(d.lakap)+'</p></div><div class="card" id="metin">'+d.p.map(function(p){return '<p data-p>'+esc(p)+'</p>'}).join('')+'</div><div class="akil"><b>Ondan öğreniyorum:</b><br><span data-p>'+esc(d.ders)+'</span></div><div class="row"><button class="btn sun" id="bit">⭐ Okudum</button></div>','#buyukler');
+  okuDugme(function(){return seslendir([{t:d.ad+'. '+d.lakap}].concat(parcala(document.getElementById('m'))))});
+  $('#bit').onclick=function(){if(bitti('b:'+d.id,1))toast('Mâşallah! Bir yıldız kazandın ⭐');else toast('Bunu zaten okumuştun.')}}
+
+function siyerListe(){sayfa('Peygamberimizin Hayatı','<h1>Peygamberimizin Hayatı</h1><p class="lead">Mekke’den Medine’ye, doğumundan vefatına kadar 20 bölüm. Resimlerde Peygamberimiz ve sahabeler çizilmez; yalnızca yaşadıkları yerler gösterilir.</p><div class="list">'+V.siyer.map(function(x,i){return '<button class="it" data-h="siyer/'+x.id+'"><span class="e" style="background:var(--priS);font-weight:800;color:var(--pri)">'+(i+1)+'</span><span class="tx"><b>'+esc(x.baslik)+'</b><small>'+esc(x.yil)+'</small></span><span class="ok">'+(S.ok['s:'+x.id]?'⭐':'')+'</span></button>'}).join('')+'</div>','#');baglaH()}
+function siyer(id){var i=V.siyer.findIndex(function(x){return x.id===id});if(i<0)return siyerListe();var d=V.siyer[i],on=V.siyer[i-1],so=V.siyer[i+1];
+  sayfa((i+1)+'. '+d.baslik,'<div class="ses"><button class="btn pri" id="oku">🔊 Sesli dinle</button></div><div class="pic">'+sahne(d.sahne)+'</div><h1>'+esc(d.baslik)+'</h1><p class="lead">'+esc(d.yil)+'</p><div class="card" id="metin">'+d.p.map(function(p){return '<p data-p>'+esc(p)+'</p>'}).join('')+'</div><div class="dots">'+V.siyer.map(function(x,j){return '<i class="'+(j===i?'on':'')+'"></i>'}).join('')+'</div><div class="row">'+(on?'<a class="btn" href="#siyer/'+on.id+'">← Önceki</a>':'')+'<span style="flex:1"></span>'+(so?'<a class="btn pri" href="#siyer/'+so.id+'" id="sonra">Sonraki →</a>':'<button class="btn sun" id="sonra">⭐ Siyeri bitirdim</button>')+'</div>','#siyer');
+  okuDugme(function(){return seslendir([{t:d.baslik}].concat(parcala($('#metin'))),function(){bitti('s:'+d.id,1)})});
+  var sb=$('#sonra');if(sb)sb.addEventListener('click',function(){if(bitti('s:'+d.id,1))toast('Bir yıldız kazandın ⭐')})}
+
+function namaz(sek){sek=sek||'abdest';
+  var sekme='<div class="row">'+[['abdest','💧 Abdest'],['adim','🧎 Namaz'],['vakit','🕰️ Vakitler']].map(function(t){return '<a class="btn'+(t[0]===sek?' pri':'')+'" href="#namaz/'+t[0]+'">'+t[1]+'</a>'}).join('')+'</div>',h='';
+  if(sek==='abdest'){h='<h1>Abdest Nasıl Alınır?</h1><p class="lead">Adımları sırayla takip et. “Sesli dinle” ile hepsini dinleyebilirsin.</p><div class="ses"><button class="btn pri" id="oku">🔊 Sesli dinle</button></div><div class="list">'+V.abdest.map(function(a,i){return '<div class="card step" style="margin:0"><span class="n">'+(i+1)+'</span><div><b style="font-size:19px">'+a.i+' '+esc(a.b)+'</b><p data-p style="margin:4px 0 0;font-size:17px">'+esc(a.a)+'</p></div></div>'}).join('')+'</div><div class="row"><a class="btn sun" href="#oyun/sira-abdest">🎮 Abdest sırası oyunu</a></div>'}
+  else if(sek==='vakit'){h='<h1>Beş Vakit Namaz</h1><p class="lead">Her vaktin kaç rekât olduğunu öğrenelim. Farzlar Allah’ın emri, sünnetler Peygamberimizin kıldıklarıdır. Yatsıdan sonra kılınan vitir namazı vaciptir.</p><div class="card vk">'+V.vakit.map(function(v){return '<span class="e">'+v.i+'</span><div><b>'+v.b+'</b><br><span style="color:var(--muted)">'+v.r+'</span></div>'}).join('')+'</div><div class="akil"><b>Bilgi</b><br>Cuma günü öğle vaktinde camide cemaatle Cuma namazı kılınır. Bayram sabahları bayram namazı kılınır.</div>'}
+  else{h='<h1>Namaz Nasıl Kılınır?</h1><p class="lead">İki rekâtlık sabah namazının sünneti örneğiyle, resimli adım adım. Resimdeki çocuk kıbleye (sağa) dönük.</p><div id="adim"></div>'}
+  sayfa('Namaz Öğreniyorum',sekme+h,'#');
+  if(sek==='abdest')okuDugme(function(){return seslendir(parcala($('#m')))});
+  if(sek==='adim')adim(0)}
+function duaBul(id){return V.dualar.find(function(d){return d.id===id})}
+function adim(i){var A=V.namaz,a=A[i],k=$('#adim');durdur();
+  k.innerHTML='<div class="dots">'+A.map(function(x,j){return '<i class="'+(j===i?'on':'')+'"></i>'}).join('')+'</div><div class="pic" style="background:#eaf6ff">'+figur(a.poz)+'</div><div class="card"><b style="font-size:21px;color:var(--pri)">'+(i+1)+'. '+esc(a.b)+'</b><p data-p style="margin-top:6px">'+esc(a.a)+'</p>'+(a.o.length?'<div><b style="font-size:15px;color:var(--muted)">Okunanlar:</b><br>'+a.o.map(function(o){if(o[0]==='s'&&/^\d+$/.test(o.slice(1))){var s=V.sureler.find(function(x){return x.n===+o.slice(1)});return '<a class="mini" href="#sure/'+o.slice(1)+'">🎧 '+(s?s.ad:'Sûre')+'</a>'}var d=duaBul(o);return d?'<a class="mini" href="#dua/'+o+'">🎧 '+esc(d.ad)+'</a>':''}).join('')+'</div>':'')+'</div><div class="row"><button class="btn" id="dn"'+(i?'':' disabled')+'>← Önceki</button><button class="btn" id="ds">🔊 Dinle</button><span style="flex:1"></span>'+(i<A.length-1?'<button class="btn pri" id="dsn">Sonraki →</button>':'<button class="btn sun" id="dsn">⭐ Bitirdim</button>')+'</div>';
+  $('#dn').onclick=function(){if(i)adim(i-1)};$('#ds').onclick=function(){seslendir([{t:a.b+'. '+a.a,el:k.querySelector('[data-p]')}])};
+  $('#dsn').onclick=function(){if(i<A.length-1){adim(i+1);window.scrollTo(0,0)}else{if(bitti('n:namaz',3))toast('Harika! Namazı öğrendin, 3 yıldız ⭐⭐⭐');else toast('Mâşallah!');location.hash='oyun/sira-namaz'}}}
+
+function sureler(){sayfa('Sûreler ve Dualar','<h1>Sûreler ve Dualar</h1><p class="lead">Namazda okunan kısa sûreler ve günlük dualar. Sûreleri Mişârî Râşid el-Afâsî okuyor.</p><h2>🎧 Kısa Sûreler</h2><div class="list">'+V.sureler.map(function(s){return '<button class="it" data-h="sure/'+s.n+'"><span class="e" style="background:#efe6ff">📗</span><span class="tx"><b>'+esc(s.ad)+' Sûresi</b><small>'+esc(s.a)+'</small></span><span class="ok">'+(S.ok['k:'+s.n]?'⭐':'')+'</span></button>'}).join('')+'</div><h2>🤲 Dualar</h2><div class="list">'+V.dualar.map(function(d){return '<button class="it" data-h="dua/'+d.id+'"><span class="e" style="background:var(--priS)">🤲</span><span class="tx"><b>'+esc(d.ad)+'</b><small>'+esc(d.tr.slice(0,70))+(d.tr.length>70?'…':'')+'</small></span><span class="ok">'+(S.ok['u:'+d.id]?'⭐':'')+'</span></button>'}).join('')+'</div>','#');baglaH()}
+function sure(n){var s=V.sureler.find(function(x){return x.n===n});if(!s)return sureler();
+  sayfa(s.ad+' Sûresi','<div class="ses"><button class="btn pri" id="oku">▶ Hepsini dinle</button><button class="btn" id="tek">🔁 Tekrar: kapalı</button></div><h1>'+esc(s.ad)+' Sûresi</h1><p class="lead">'+esc(s.a)+' Bir âyete dokunursan yalnız onu dinlersin.</p><div class="card" id="ay"><p>Yükleniyor…</p></div><div class="row"><button class="btn sun" id="bit">⭐ Bu sûreyi öğrendim</button></div>','#sureler');
+  var A=[],tekrar=false;$('#tek').onclick=function(){tekrar=!tekrar;this.textContent='🔁 Tekrar: '+(tekrar?'3 kez':'kapalı')};
+  function isaret(i){[].forEach.call(document.querySelectorAll('#ay .ayet'),function(e,j){e.classList.toggle('on',+e.dataset.i===i);if(+e.dataset.i===i)try{e.scrollIntoView({block:'center',behavior:'smooth'})}catch(x){}})}
+  function cal(bas,tek){var l=[];for(var i=bas;i<(tek?bas+1:A.length);i++)for(var r=0;r<(tekrar?3:1);r++)l.push([n,A[i].n]);var harita=l.map(function(x){return x[1]-1});
+    ayetCal(l,function(j){isaret(j<0?-1:harita[j]);var b=$('#oku');if(b)b.textContent=j<0?'▶ Hepsini dinle':'⏸ Durdur'})}
+  $('#oku').onclick=function(){if(this.textContent.indexOf('Durdur')>=0){durdur();this.textContent='▶ Hepsini dinle';return}cal(0,false)};
+  $('#bit').onclick=function(){if(bitti('k:'+n,2))toast('Mâşallah! 2 yıldız kazandın ⭐⭐');else toast('Bu sûreyi zaten öğrenmiştin.')};
+  Promise.all(['quran-uthmani','tr.transliteration','tr.ates'].map(function(e){return fetch('data/q/'+e+'/'+n+'.json').then(function(r){if(!r.ok)throw 0;return r.json()})})).then(function(j){
+    A=j[0].a||[];var T=j[1].a||[],M=j[2].a||[],h='';
+    if(n!==1)h+='<div class="ayet" style="text-align:center;cursor:default;border:0">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>';
+    A.forEach(function(a,i){var t=String(a.t).replace(/﻿/g,'');if(n!==1&&i===0&&/^بِسْمِ/.test(t)){var w=t.split(/\s+/);if(w.length>4)t=w.slice(4).join(' ')}
+      h+='<div class="ayet" data-i="'+i+'">'+esc(t)+' <span class="n">﴿'+a.n.toLocaleString('ar-EG')+'﴾</span></div><div class="okn">'+esc(T[i]?T[i].t:'')+'</div><div class="anl">'+esc(M[i]?M[i].t:'')+'</div>'});
+    $('#ay').innerHTML=h;$('#ay').onclick=function(e){var a=e.target.closest('.ayet[data-i]');if(a)cal(+a.dataset.i,true)}
+  }).catch(function(){$('#ay').innerHTML='<p>Sûre yüklenemedi. İnternet bağlantını kontrol edip sayfayı yenile.</p>'})}
+function dua(id){var d=duaBul(id);if(!d)return sureler();
+  sayfa(d.ad,'<div class="ses"><button class="btn pri" id="oku">🔊 Dinle</button><button class="btn" id="okT">🗣️ Okunuşu dinle</button></div><h1>🤲 '+esc(d.ad)+'</h1><div class="card dua">'+(d.ar?'<div class="ar" id="dar">'+esc(d.ar)+'</div>':'<p class="lead">Âyetü’l-Kürsî, Bakara sûresinin 255. âyetidir. Arapçasını dinleyerek takip et.</p>')+'<div class="okn" id="dok" data-p>'+esc(d.ok)+'</div><div class="anl"><b>Anlamı:</b> '+esc(d.tr)+'</div></div><div class="row"><button class="btn sun" id="bit">⭐ Bu duayı ezberledim</button></div>'+(d.ay?'<p class="lead" style="font-size:14px">Ses: Mişârî Râşid el-Afâsî.</p>':'<p class="lead" style="font-size:14px">Bu dua Kur’an âyeti olmadığı için telefonun sesli okumasıyla dinletilir. Telefonda Arapça ses yoksa Türkçe okunuş okunur.</p>'),'#sureler');
+  var b=$('#oku');b.onclick=function(){if(b.textContent.indexOf('Durdur')>=0){durdur();b.textContent='🔊 Dinle';return}
+    if(d.ay){var l=[];for(var a=d.ay[1];a<=d.ay[2];a++)l.push([d.ay[0],a]);ayetCal(l,function(j){b.textContent=j<0?'🔊 Dinle':'⏸ Durdur';var e=$('#dar');if(e)e.classList.toggle('on',j>=0)});return}
+    sesYukle();if(d.ar&&ses('ar')){if(seslendir([{t:d.ar,dil:'ar',el:$('#dar')}],function(){b.textContent='🔊 Dinle'}))b.textContent='⏸ Durdur'}
+    else{if(seslendir([{t:d.ok,el:$('#dok')}],function(){b.textContent='🔊 Dinle'}))b.textContent='⏸ Durdur'}};
+  $('#okT').onclick=function(){seslendir([{t:d.ok,el:$('#dok')},{t:'Anlamı: '+d.tr}])};
+  $('#bit').onclick=function(){if(bitti('u:'+d.id,2))toast('Mâşallah! 2 yıldız kazandın ⭐⭐');else toast('Bu duayı zaten ezberlemiştin.')}}
+
+/* ---------- oyunlar ---------- */
+function quiz(kutu,sorular,bitince){var i=0,dogru=0;
+  function goster(){if(i>=sorular.length){var y=dogru===sorular.length?3:dogru>=sorular.length*.6?2:dogru?1:0;
+      kutu.innerHTML='<div class="card" style="text-align:center"><div class="score">'+dogru+' / '+sorular.length+'</div><div class="stars">'+'⭐'.repeat(y)+'☆'.repeat(3-y)+'</div><p>'+(y===3?'Mükemmel! Hepsini bildin.':y===2?'Çok güzel! Biraz daha tekrar et.':'Tekrar okuyup yeniden dene, yaparsın!')+'</p><button class="btn pri" id="tekrar">🔁 Yeniden oyna</button></div>';
+      $('#tekrar').onclick=function(){i=0;dogru=0;sorular=karis(sorular);goster()};bitince&&bitince(dogru,sorular.length);return}
+    var s=sorular[i],secenek=karis([s.d].concat(s.y));
+    kutu.innerHTML='<div class="card"><small style="color:var(--muted)">Soru '+(i+1)+' / '+sorular.length+'</small><div class="q">'+esc(s.q)+'</div><div class="opts">'+secenek.map(function(o){return '<button class="btn" data-o="'+esc(o)+'">'+esc(o)+'</button>'}).join('')+'</div></div>';
+    [].forEach.call(kutu.querySelectorAll('[data-o]'),function(b){b.onclick=function(){if(kutu.dataset.kilit)return;kutu.dataset.kilit=1;var ok=b.dataset.o===s.d;if(ok)dogru++;b.classList.add(ok?'ok':'bad');
+      if(!ok)[].forEach.call(kutu.querySelectorAll('[data-o]'),function(x){if(x.dataset.o===s.d)x.classList.add('ok')});
+      setTimeout(function(){delete kutu.dataset.kilit;i++;goster()},ok?700:1500)}})}
+  goster()}
+function oyunlar(){sayfa('Oyunlar','<h1>🎮 Oyunlar</h1><p class="lead">Oyna, öğren, yıldız kazan!</p><div class="tiles">'+[
+  ['bilgi','🧠','Bilgi Yarışması','10 soru','#3a86ff'],['dy','👍','Doğru mu, Yanlış mı?','Edep ve ahlak','#ef476f'],['hafiza','🃏','Hafıza Kartları','Eşini bul','#8338ec'],['sira-namaz','🧎','Namaz Sırası','Adımları sırala','#1f8a70'],['sira-abdest','💧','Abdest Sırası','Adımları sırala','#2a9d8f'],['harf','🔤','Kim Bu?','İslam büyüklerini tanı','#e76f51']
+  ].map(function(o){return '<button class="tile" style="background:'+o[4]+'" data-g="oyun/'+o[0]+'"><span class="e">'+o[1]+'</span><b>'+o[2]+'</b><small>'+o[3]+'</small></button>'}).join('')+'</div>','#');
+  [].forEach.call(document.querySelectorAll('[data-g]'),function(b){b.onclick=function(){location.hash=b.dataset.g}})}
+function oyun(k){
+  if(k==='bilgi'||k==='harf'){var havuz=V.oyun.bilgi.filter(function(q){return k==='harf'?q.k==='buyuk':q.k!=='buyuk'});
+    sayfa(k==='harf'?'Kim Bu?':'Bilgi Yarışması','<h1>'+(k==='harf'?'🌟 Kim Bu?':'🧠 Bilgi Yarışması')+'</h1><div id="qz"></div>','#oyunlar');
+    quiz($('#qz'),karis(havuz).slice(0,10),function(n,t){if(n===t)bitti('o:'+k+':'+gun(),2)})}
+  else if(k==='dy'){var L=karis(V.oyun.dy).slice(0,10),i=0,d=0;sayfa('Doğru mu, Yanlış mı?','<h1>👍 Doğru mu, Yanlış mı?</h1><div id="dyk"></div>','#oyunlar');
+    (function g(){var kt=$('#dyk');if(!kt)return;if(i>=L.length){var y=d===L.length?3:d>=7?2:d?1:0;kt.innerHTML='<div class="card" style="text-align:center"><div class="score">'+d+' / '+L.length+'</div><div class="stars">'+'⭐'.repeat(y)+'☆'.repeat(3-y)+'</div><button class="btn pri" id="tk">🔁 Yeniden oyna</button></div>';$('#tk').onclick=function(){oyun('dy')};if(y===3)bitti('o:dy:'+gun(),2);return}
+      var s=L[i];kt.innerHTML='<div class="card"><small style="color:var(--muted)">'+(i+1)+' / '+L.length+'</small><div class="q" style="font-size:23px">'+esc(s.c)+'</div><div class="dy"><button class="btn" data-v="1">👍<br><small style="font-size:16px">Doğru</small></button><button class="btn" data-v="0">👎<br><small style="font-size:16px">Yanlış</small></button></div></div>';
+      [].forEach.call(kt.querySelectorAll('[data-v]'),function(b){b.onclick=function(){var ok=+b.dataset.v===s.d;if(ok)d++;b.classList.add(ok?'ok':'bad');b.style.background=ok?'var(--okS)':'var(--badS)';toast(ok?'Doğru cevap! 🎉':(s.d?'Bu doğru bir davranış.':'Bu yanlış bir davranış.'));setTimeout(function(){i++;g()},1100)}})})()}
+  else if(k==='hafiza'){var P=karis(V.oyun.hafiza).slice(0,6),K=karis(P.map(function(p,j){return {j:j,e:p.i}}).concat(P.map(function(p,j){return {j:j,t:p.t}}))),acik=[],bulunan=0,hamle=0,kilit=false;
+    sayfa('Hafıza Kartları','<h1>🃏 Hafıza Kartları</h1><p class="lead">Resmi ve adını eşleştir. Kartlara dokunarak çevir.</p><div class="mem" id="mem">'+K.map(function(c,x){return '<button data-x="'+x+'">❓</button>'}).join('')+'</div><p class="lead" id="hm" style="text-align:center;margin-top:12px">Hamle: 0</p>','#oyunlar');
+    [].forEach.call(document.querySelectorAll('#mem button'),function(b){b.onclick=function(){if(kilit||b.classList.contains('a')||b.classList.contains('m'))return;var c=K[+b.dataset.x];b.classList.add('a');b.innerHTML=c.e?'<span class="e">'+c.e+'</span>':esc(c.t);acik.push(b);
+      if(acik.length===2){hamle++;$('#hm').textContent='Hamle: '+hamle;var a=K[+acik[0].dataset.x],bb=K[+acik[1].dataset.x];
+        if(a.j===bb.j&&!!a.e!==!!bb.e){acik.forEach(function(x){x.classList.remove('a');x.classList.add('m')});acik=[];bulunan++;if(bulunan===P.length){toast('Hepsini buldun! '+hamle+' hamlede 🎉');konfeti();if(hamle<=10)bitti('o:hafiza:'+gun(),2)}}
+        else{kilit=true;setTimeout(function(){acik.forEach(function(x){x.classList.remove('a');x.textContent='❓'});acik=[];kilit=false},900)}}}})}
+  else if(k==='sira-namaz'||k==='sira-abdest'){var adimlar=k==='sira-namaz'?['Niyet','İftitah tekbiri','Kıyam: Sübhâneke ve Fâtiha','Rükû','Doğrulma (kavme)','Secde','Celse','İkinci secde','Ka‘de: Ettehiyyâtü','Selam']:V.abdest.map(function(a){return a.b}),sira=0,hata=0;
+    sayfa(k==='sira-namaz'?'Namaz Sırası':'Abdest Sırası','<h1>'+(k==='sira-namaz'?'🧎 Namaz Sırası':'💧 Abdest Sırası')+'</h1><p class="lead">Adımlara doğru sırayla dokun. Sıradaki adım: <b id="sr">1</b></p><div class="ord" id="ord">'+karis(adimlar.map(function(a,j){return {a:a,j:j}})).map(function(o){return '<button class="btn" data-j="'+o.j+'">'+esc(o.a)+'</button>'}).join('')+'</div>','#oyunlar');
+    [].forEach.call(document.querySelectorAll('#ord button'),function(b){b.onclick=function(){if(b.classList.contains('done'))return;if(+b.dataset.j===sira){b.classList.add('done');b.textContent=(sira+1)+'. '+b.textContent;sira++;$('#sr').textContent=sira+1;
+      if(sira===adimlar.length){$('#sr').textContent='bitti';toast(hata?'Bitti! '+hata+' hatayla.':'Hiç hatasız! 🎉');konfeti();if(!hata)bitti('o:'+k,2)}}else{hata++;b.classList.remove('bad');void b.offsetWidth;b.classList.add('bad');toast('Bu adım şimdi değil, tekrar düşün.')}}})}
+  else oyunlar()}
+
+/* ---------- yönlendirme ---------- */
+function yonlen(){var h=decodeURIComponent(location.hash.slice(1)),p=h.split('/');try{
+  if(!V)return;
+  if(p[0]==='dersler')dersler();else if(p[0]==='ders')ders(p[1]);
+  else if(p[0]==='hikayeler')hikayeler();else if(p[0]==='hikaye')hikaye(p[1]);
+  else if(p[0]==='buyukler')buyukler();else if(p[0]==='buyuk')buyuk(p[1]);
+  else if(p[0]==='siyer')p[1]?siyer(p[1]):siyerListe();
+  else if(p[0]==='namaz')namaz(p[1]);
+  else if(p[0]==='sureler')sureler();else if(p[0]==='sure')sure(+p[1]);else if(p[0]==='dua')dua(p[1]);
+  else if(p[0]==='oyunlar')oyunlar();else if(p[0]==='oyun')oyun(p[1]);
+  else ana()}catch(e){console.error(e);ana()}}
+window.addEventListener('hashchange',yonlen);
+window.addEventListener('pagehide',durdur);
+document.addEventListener('visibilitychange',function(){if(document.hidden)durdur()});
+kaydet();
+fetch('data/cocuk/icerik.json?v=1').then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){V=j;yonlen()}).catch(function(){$('#m').innerHTML='<div class="card"><p>Çocuk Köşesi yüklenemedi. İnternet bağlantını kontrol edip sayfayı yenile.</p><button class="btn pri" onclick="location.reload()">Yenile</button></div>'});
+</script>
+</body></html>
