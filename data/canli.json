@@ -1,10 +1,11 @@
-{"not":"Canlı yayın kaynakları. Bir yayın kapanırsa sıradaki kanal 'Yedek yayın' düğmesiyle açılır. kanal: YouTube kanal kimliği (UC...).",
+{"not":"Canlı yayın kaynakları. video: şu anki canlı yayının YouTube video kimliği (uygulama bunu gömer). kanal: YouTube'da açmak için kanal kimliği. Bir yayın kapanırsa 'Yedek' düğmesi sıradakine geçer. Yayın değişirse yalnız bu dosyayı güncellemek yeter.",
  "yayinlar":[
   {"id":"mekke","ad":"Mekke","ar":"مكة المكرمة","alt":"Mescid-i Harâm · canlı","kaynaklar":[
-    {"ad":"Suudi Kur'an TV (resmî)","kanal":"UCos52azQNBgW63_9uDJoPDA"},
-    {"ad":"Kaaba TV","kanal":"UCRvK_gXx5rC3lu8de1QuGDw"}]},
+    {"ad":"Suudi Kur'an TV (resmî)","video":"IsJTAdC3-Jw","kanal":"UCos52azQNBgW63_9uDJoPDA"},
+    {"ad":"Kaaba TV","video":"eiaf8Jf-Jm4","kanal":"UCRvK_gXx5rC3lu8de1QuGDw"}]},
   {"id":"medine","ad":"Medine","ar":"المدينة المنورة","alt":"Mescid-i Nebevî · canlı","kaynaklar":[
-    {"ad":"Suudi Sünnet TV (resmî)","kanal":"UCROKYPep-UuODNwyipe6JMw"},
-    {"ad":"Noor Al-Haram","kanal":"UC621I7zuw1-oYj_KmFkWX8w"},
-    {"ad":"Ar Rahman","kanal":"UCWainKMJPyXikjekccFf3NA"}]}
+    {"ad":"Noor Al-Haram","video":"pHQLWBQPBCE","kanal":"UC621I7zuw1-oYj_KmFkWX8w"},
+    {"ad":"Ar Rahman","video":"OY3B8kQmpX4","kanal":"UCWainKMJPyXikjekccFf3NA"},
+    {"ad":"Saut Al-Haqq","video":"3OAz4y78eaU","kanal":"UCI5CykrVQznqWHaLvjSCZgw"},
+    {"ad":"Suudi Sünnet TV (resmî)","kanal":"UCROKYPep-UuODNwyipe6JMw"}]}
  ]}
