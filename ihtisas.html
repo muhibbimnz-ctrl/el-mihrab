@@ -9,42 +9,148 @@
 <link rel="icon" href="icon-192.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" media="print" onload="this.media='all'">
 <style>
-:root{--bg:#f4f0e8;--card:#fffdf8;--ink:#2a2620;--muted:#6f665a;--line:#e3d9c6;--acc:#3d2a5c}
-@media (prefers-color-scheme:dark){:root{--bg:#15131a;--card:#1f1c26;--ink:#ece6f2;--muted:#a59db0;--line:#332e3d;--acc:#b69ce0}}
+:root{--bg:#f4f0e8;--card:#fffdf8;--ink:#2a2620;--muted:#6f665a;--line:#e3d9c6;--acc:#3d2a5c;--soft:#efe7f7}
+@media (prefers-color-scheme:dark){:root{--bg:#15131a;--card:#1f1c26;--ink:#ece6f2;--muted:#a59db0;--line:#332e3d;--soft:#2a2433}}
 *{box-sizing:border-box}html,body{margin:0}
-body{background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-top:calc(58px + env(safe-area-inset-top,0px));padding-bottom:40px}
-#top{position:fixed;top:0;left:0;right:0;z-index:5;display:flex;align-items:center;gap:10px;padding:calc(8px + env(safe-area-inset-top,0px)) 12px 8px;background:#3d2a5c;color:#fff}
-#top a{color:#fff;text-decoration:none;background:rgba(255,255,255,.18);border-radius:12px;padding:7px 12px;font-weight:700}
-#top b{flex:1;font-size:18px}
-main{max-width:760px;margin:0 auto;padding:12px 14px}
-h1{font-size:24px;margin:6px 0 4px}.lead{color:var(--muted);margin:0 0 14px}
-.yol{display:flex;gap:6px;align-items:center;flex-wrap:wrap;font-size:13px;color:var(--muted);margin:0 0 14px}.yol span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:3px 10px}.yol span.on{background:#3d2a5c;color:#fff;border-color:#3d2a5c}
-.list{display:grid;gap:12px}
-.alan{display:flex;gap:14px;align-items:center;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:14px 16px;position:relative}
-.alan .ar{flex:none;width:68px;height:68px;border-radius:18px;display:grid;place-items:center;color:#fff;font:700 26px Amiri,serif}
-.alan b{display:block;font-size:18px}.alan small{color:var(--muted);display:block;line-height:1.45}
-.alan .dur{position:absolute;top:10px;right:12px;font-size:11px;font-weight:700;border-radius:999px;padding:2px 8px;background:#e7f3e8;color:#226b33}
-.alan.yakin{opacity:.72}.alan.yakin .dur{background:var(--line);color:var(--muted)}
-.not{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px;font-size:14px;color:var(--muted);margin-top:18px}
-#toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:#222;color:#fff;padding:10px 16px;border-radius:12px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none}#toast.on{opacity:.95}
-</style></head><body>
-<div id="top"><a href="index.html">←</a><b>İhtisas</b></div>
-<main>
-<h1>İhtisas</h1>
-<p class="lead">Bir ilmi kendi içinden tanımak için: tarihi, ekolleri, terimleri, şahsiyetleri, klasik eserleri ve medresedeki okuma sırası. Her ilim aynı düzende.</p>
-<div class="yol"><span>Medrese</span>→<span>Dirâset</span>→<span class="on">İhtisas</span></div>
-<div class="list">
- <a class="alan" href="ihtisas/belagat/index.html"><span class="ar" style="background:#8a3b12">بلاغة</span><span><b>Belâgat ve Arap Edebiyatı</b><small>11 modüllük okuma rotası, meânî-beyân-bedî‘ terimleri, şahsiyetler, eser ağacı, klasik eserler; edebiyat kanadı ve Nahiv-Sarf</small></span><span class="dur">hazır</span></a>
- <a class="alan yakin" href="#" data-y="Nahiv ve Sarf"><span class="ar" style="background:#2f5d4e">نحو</span><span><b>Nahiv ve Sarf</b><small>Sîbeveyh’ten İbn Hişâm’a; Basra-Kûfe ekolleri, medrese ders zinciri</small></span><span class="dur">hazırlanıyor</span></a>
- <a class="alan yakin" href="#" data-y="Tefsir ve Kur’an İlimleri"><span class="ar" style="background:#1f5b6e">تفسير</span><span><b>Tefsir ve Kur’an İlimleri</b><small>Rivâyet ve dirâyet tefsiri, ulûmü’l-Kur’ân, tefsir tarihi ve okuma sırası</small></span><span class="dur">hazırlanıyor</span></a>
- <a class="alan yakin" href="#" data-y="Hadis ve Usûl"><span class="ar" style="background:#8a6a2c">حديث</span><span><b>Hadis ve Hadis Usûlü</b><small>Rivâyet ve dirâyet, musannefât, ricâl ilmi, usûl kitapları</small></span><span class="dur">hazırlanıyor</span></a>
- <a class="alan yakin" href="#" data-y="Fıkıh ve Usûl"><span class="ar" style="background:#5b4a7a">فقه</span><span><b>Fıkıh ve Fıkıh Usûlü</b><small>Mezhepler, Hanefî ders geleneği (Kudûrî → Hidâye; Menâr → Tavzîh)</small></span><span class="dur">hazırlanıyor</span></a>
- <a class="alan yakin" href="#" data-y="Akaid ve Kelâm"><span class="ar" style="background:#3d2a5c">عقيدة</span><span><b>Akaid ve Kelâm</b><small>Ekoller (Mâtürîdî, Eş‘arî, Selefî) tarafsızca; temel metinler: Tahâviyye, Nesefî Akaidi, Fıkh-ı Ekber</small></span><span class="dur">hazırlanıyor</span></a>
-</div>
-<div class="not">Makale ve tezler bu bölümde yer almaz; yalnız klasik eserler, temel kitaplar ve okuma yolları vardır. Künyeler Şâmile ve archive.org bağlantılarıyla kontrol edilebilir.</div>
-</main>
+body{background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-top:calc(56px + env(safe-area-inset-top,0px));padding-bottom:48px}
+#top{position:fixed;top:0;left:0;right:0;z-index:9;display:flex;align-items:center;gap:10px;padding:calc(8px + env(safe-area-inset-top,0px)) 12px 8px;background:var(--acc);color:#fff;transition:background .3s}
+#top a{color:#fff;text-decoration:none;background:rgba(255,255,255,.18);border-radius:12px;padding:7px 12px;font-weight:700;cursor:pointer}
+#top b{flex:1;font-size:17px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+main{max-width:820px;margin:0 auto;padding:12px 14px}
+.ar{font-family:Amiri,"Noto Naskh Arabic",serif;direction:rtl}
+h1{font-size:25px;margin:6px 0 4px}
+.lead{color:var(--muted);margin:0 0 14px}
+.yol{display:flex;gap:6px;align-items:center;flex-wrap:wrap;color:var(--muted);font-size:13px;margin-bottom:16px}
+.yol span{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:3px 10px}.yol .on{background:#3d2a5c;color:#fff;border-color:#3d2a5c}
+.alanlar{display:grid;gap:12px}
+@media(min-width:700px){.alanlar{grid-template-columns:1fr 1fr}}
+.alan{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.04);transition:transform .15s}
+.alan:active{transform:scale(.98)}
+.alan .bas{padding:14px 16px 52px;color:#fff;position:relative}
+.alan .bas .ar{position:absolute;left:14px;bottom:4px;font-size:28px;opacity:.9;line-height:1.2}
+.alan .bas b{display:block;font-size:18px;text-align:right}
+.alan .bas small{display:block;text-align:right;opacity:.85;font-size:12.5px}
+.alan .alt{padding:10px 16px 14px;font-size:14px;color:var(--muted)}
+.bar{height:6px;background:var(--line);border-radius:6px;overflow:hidden;margin-top:8px}.bar i{display:block;height:100%;background:var(--acc);border-radius:6px;transition:width .3s}
+.not{margin-top:18px;font-size:13px;color:var(--muted);background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:10px 12px}
+/* alan sayfası */
+.hero{border-radius:24px;color:#fff;padding:22px 18px 18px;margin-bottom:12px;position:relative;overflow:hidden}
+.hero .ar{font-size:34px;line-height:1.3;display:block;text-align:right}
+.hero h2{margin:6px 0 4px;font-size:22px}.hero p{margin:0;opacity:.9;font-size:14.5px}
+.hero .ilr{display:flex;align-items:center;gap:10px;margin-top:14px;font-size:13px}
+.hero .bar{flex:1;background:rgba(255,255,255,.25);margin:0}.hero .bar i{background:#fff}
+.tabs{display:flex;gap:6px;overflow-x:auto;position:sticky;top:calc(56px + env(safe-area-inset-top,0px));z-index:5;background:var(--bg);padding:8px 0;margin-bottom:6px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs button{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:20px;padding:8px 14px;font:600 14px system-ui;cursor:pointer}
+.tabs button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.bsm{position:relative;padding-left:30px;margin:4px 0 18px}
+.bsm:before{content:"";position:absolute;left:11px;top:30px;bottom:-18px;width:2px;background:var(--line)}
+.bsm:last-child:before{display:none}
+.bsm .nk{position:absolute;left:0;top:2px;width:24px;height:24px;border-radius:50%;background:var(--acc);color:#fff;font:700 13px system-ui;display:flex;align-items:center;justify-content:center}
+.bsm h3{margin:0;font-size:17.5px}.bsm .st{font-size:12px;color:var(--acc);font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+.bsm .ac{color:var(--muted);font-size:14px;margin:2px 0 8px}
+.kt{background:var(--card);border:1px solid var(--line);border-radius:16px;margin:8px 0;overflow:hidden}
+.kt.ok{border-color:var(--acc)}
+.kt .ust{display:flex;gap:10px;align-items:flex-start;padding:12px;cursor:pointer}
+.kt .ck{flex:none;width:26px;height:26px;border-radius:8px;border:2px solid var(--line);background:none;cursor:pointer;color:#fff;font-weight:900;font-size:15px;line-height:1;padding:0}
+.kt.ok .ck{background:var(--acc);border-color:var(--acc)}
+.kt .bl{flex:1;min-width:0}
+.kt .ad{font-weight:700;font-size:15.5px}.kt.ok .ad{opacity:.75}
+.kt .mu{font-size:13px;color:var(--muted)}
+.kt .kar{font-size:19px;color:var(--acc);text-align:right;line-height:1.5}
+.kt .tur{display:inline-block;font-size:11px;background:var(--soft);color:var(--acc);border-radius:10px;padding:1px 8px;margin-top:3px;font-weight:700}
+.kt .dty{display:none;padding:0 12px 12px 48px;font-size:14.5px}
+.kt.acik .dty{display:block}
+.kt .dty .zn{margin:8px 0 0;padding:0;list-style:none}
+.kt .dty .zn li{position:relative;padding:2px 0 2px 18px;color:var(--muted);font-size:13.5px}
+.kt .dty .zn li:before{content:"↳";position:absolute;left:0;color:var(--acc)}
+.kt .dty a.app{display:inline-block;margin-top:10px;background:var(--acc);color:#fff;text-decoration:none;border-radius:12px;padding:7px 12px;font-weight:700;font-size:13.5px}
+.kt .dty .lnk{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.kt .dty .lnk a{font-size:12.5px;color:var(--acc)}
+.ok-tag{font-size:12px;color:var(--muted);margin-left:auto}
+.sh{display:grid;gap:8px}@media(min-width:700px){.sh{grid-template-columns:1fr 1fr}}
+.sh div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px}
+.sh b{display:block}.sh .ar{font-size:17px;color:var(--acc)}.sh small{color:var(--muted);font-size:13px;display:block}
+.ara{width:100%;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:14px;padding:10px 12px;font:15px system-ui;margin-bottom:10px}
+.tg h4{margin:14px 0 6px;color:var(--acc)}
+.tm{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 12px;margin:6px 0;display:grid;grid-template-columns:1fr auto;gap:2px 10px}
+.tm b{font-size:15px}.tm .ar{font-size:19px;color:var(--acc);grid-row:span 2;align-self:center}.tm small{color:var(--muted);font-size:13.5px}
+.gr p{margin:0 0 10px}
+.ns{counter-reset:n;list-style:none;padding:0}
+.ns li{counter-increment:n;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px 10px 44px;margin:8px 0;position:relative}
+.ns li:before{content:counter(n);position:absolute;left:12px;top:10px;width:22px;height:22px;border-radius:50%;background:var(--acc);color:#fff;font:700 12px system-ui;display:flex;align-items:center;justify-content:center}
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(80px);background:#222;color:#fff;padding:9px 16px;border-radius:20px;font-size:14px;transition:transform .25s;z-index:20}
+#toast.on{transform:translateX(-50%) translateY(0)}
+.yuk{padding:40px;text-align:center;color:var(--muted)}
+</style></head>
+<body>
+<div id="top"><a id="geri">‹</a><b id="bas">İhtisas</b></div>
+<main id="m"><div class="yuk">Yükleniyor…</div></main>
 <div id="toast"></div>
 <script>
-[].forEach.call(document.querySelectorAll('[data-y]'),function(a){a.onclick=function(e){e.preventDefault();var t=document.getElementById('toast');t.textContent=a.dataset.y+' ihtisası hazırlanıyor.';t.classList.add('on');setTimeout(function(){t.classList.remove('on')},2200)}});
+(function(){
+var $=function(s){return document.querySelector(s)},M=$('#m'),C={},LK='ihtisas.okudum.v1';
+function oku(){try{return JSON.parse(localStorage.getItem(LK))||{}}catch(e){return{}}}
+function yaz(o){try{localStorage.setItem(LK,JSON.stringify(o))}catch(e){}}
+function e(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function nz(s){return String(s||'').normalize('NFD').replace(/[\u0300-\u036f\u064b-\u0652\u0670’‘']/g,'').toLocaleLowerCase('tr').replace(/ı/g,'i')}
+function toast(t){var x=$('#toast');x.textContent=t;x.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(function(){x.classList.remove('on')},2000)}
+function al(u){if(C[u])return Promise.resolve(C[u]);return fetch(u).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){return C[u]=j})}
+function renk(c){document.documentElement.style.setProperty('--acc',c);$('#top').style.background=c;var m=document.querySelector('meta[name=theme-color]');m&&m.setAttribute('content',c)}
+function sayi(id,n){var o=oku(),k=0;for(var x in o)if(o[x]&&x.indexOf(id)===0&&/^\D+\d+$/.test(x)&&x.replace(/\d+$/,'')===id)k++;return k}
+
+function liste(){
+ renk('#3d2a5c');$('#bas').textContent='İhtisas';$('#geri').onclick=function(){location.href='index.html'};document.title='İhtisas · el-Mihrâb';
+ al('data/ihtisas/liste.json').then(function(L){
+  var h='<h1>İhtisas</h1><p class="lead">Her ilimde baştan sona hangi kitaplar, hangi sırayla okunur? Medrese geleneğindeki okuma yolu; her kitabın müellifi, neden okunduğu ve şerh zinciriyle.</p>'+
+  '<div class="yol"><span>Medrese</span>→<span>Dirâset</span>→<span class="on">İhtisas</span></div><div class="alanlar">';
+  L.forEach(function(a){var k=sayi(a.id),p=Math.round(100*k/a.n);
+   h+='<a class="alan" href="#'+a.id+'"><div class="bas" style="background:'+a.renk+'"><span class="ar">'+e(a.ar)+'</span><b>'+e(a.ad)+'</b><small>'+a.b+' basamak · '+a.n+' kitap</small></div><div class="alt">'+e(a.kisa)+'<div class="bar" style="--acc:'+a.renk+'"><i style="width:'+p+'%;background:'+a.renk+'"></i></div><small>'+(k?k+' / '+a.n+' kitap okundu':'Henüz başlanmadı')+'</small></div></a>'});
+  h+='</div><div class="not">Bu bölümde makale ve tez yoktur; yalnız klasik eserler ve temel kitaplar vardır. Vefat tarihleri hicrî/milâdî verilmiştir. Okuduğun kitapları işaretlersen ilerlemen bu cihazda saklanır.</div>';
+  M.innerHTML=h;scrollTo(0,0)
+ }).catch(function(){M.innerHTML='<div class="yuk">Liste yüklenemedi. İnternet bağlantını kontrol et.</div>'})
+}
+
+var SEK=[['yol','Okuma yolu'],['sah','Şahsiyetler'],['ter','Terimler'],['nas','Nasıl çalışılır']];
+function alan(id,sek){
+ al('data/ihtisas/'+id+'.json').then(function(A){
+  renk(A.renk);$('#bas').textContent=A.ad;document.title=A.ad+' · İhtisas';$('#geri').onclick=function(){location.hash=''};
+  sek=sek||'yol';
+  var o=oku(),k=0;A.basamaklar.forEach(function(s){s.kitaplar.forEach(function(b){if(o[b.id])k++})});
+  var p=Math.round(100*k/A.kitapSayisi);
+  var h='<div class="hero" style="background:linear-gradient(135deg,'+A.renk+','+A.renk+'cc)"><span class="ar">'+e(A.ar)+'</span><h2>'+e(A.ad)+'</h2><p>'+e(A.kisa)+'</p><div class="ilr"><div class="bar"><i style="width:'+p+'%"></i></div><span>'+k+' / '+A.kitapSayisi+'</span></div></div>';
+  h+='<div class="tabs">'+SEK.map(function(s){return'<button data-s="'+s[0]+'"'+(s[0]===sek?' class="on"':'')+'>'+s[1]+'</button>'}).join('')+'</div><div id="ic"></div>';
+  M.innerHTML=h;
+  [].forEach.call(M.querySelectorAll('.tabs button'),function(b){b.onclick=function(){history.replaceState(null,'','#'+id+'/'+b.dataset.s);alan(id,b.dataset.s)}});
+  var ic=$('#ic');
+  if(sek==='yol')ic.innerHTML=yol(A,o),baglaYol(A);
+  else if(sek==='sah')ic.innerHTML='<div class="sh">'+A.sahsiyetler.map(function(s){return'<div><span class="ar">'+e(s.ar)+'</span><b>'+e(s.ad)+(s.v?' <small style="display:inline">(ö. '+e(s.v)+')</small>':'')+'</b><small>'+e(s.k)+'</small></div>'}).join('')+'</div>';
+  else if(sek==='ter'){ic.innerHTML='<input class="ara" placeholder="Terim ara (Arapça veya Türkçe)…" id="ta"><div class="tg" id="tl"></div>';var f=function(q){q=nz(q);$('#tl').innerHTML=A.terimler.map(function(g){var it=g.items.filter(function(t){return!q||nz(t.tr+' '+t.ar+' '+t.d).indexOf(q)>-1});return it.length?'<h4>'+e(g.g)+'</h4>'+it.map(function(t){return'<div class="tm"><b>'+e(t.tr)+'</b><span class="ar">'+e(t.ar)+'</span><small>'+e(t.d)+'</small></div>'}).join(''):''}).join('')||'<p class="lead">Sonuç yok.</p>'};f();$('#ta').oninput=function(){f(this.value)}}
+  else ic.innerHTML='<div class="gr">'+A.giris.map(function(x){return'<p>'+e(x)+'</p>'}).join('')+'</div><h3>Nasıl çalışılır?</h3><ol class="ns">'+A.nasil.map(function(x){return'<li>'+e(x)+'</li>'}).join('')+'</ol>';
+  scrollTo(0,0)
+ }).catch(function(){M.innerHTML='<div class="yuk">Bu alan yüklenemedi.</div>'})
+}
+function yol(A,o){
+ return A.basamaklar.map(function(s,i){
+  return'<div class="bsm"><span class="nk">'+(i+1)+'</span><div class="st">'+e(s.alt)+'</div><h3>'+e(s.ad)+'</h3><div class="ac">'+e(s.ac)+'</div>'+
+  s.kitaplar.map(function(b){
+   var q=encodeURIComponent(b.ar&&b.ar!=='—'?b.ar:b.ad);
+   return'<div class="kt'+(o[b.id]?' ok':'')+'" data-id="'+b.id+'"><div class="ust"><button class="ck" aria-label="Okudum">'+(o[b.id]?'✓':'')+'</button><div class="bl"><div class="ad">'+e(b.ad)+'</div><div class="mu">'+e(b.mu)+(b.v&&b.v!=='—'?' · ö. '+e(b.v):'')+'</div><span class="tur">'+e(b.tur)+'</span></div>'+(b.ar&&b.ar!=='—'?'<div class="kar ar">'+e(b.ar)+'</div>':'')+'</div>'+
+   '<div class="dty"><div>'+e(b.neden)+'</div>'+(b.zincir.length?'<ul class="zn">'+b.zincir.map(function(z){return'<li>'+e(z)+'</li>'}).join('')+'</ul>':'')+
+   (b.app?'<a class="app" href="'+e(b.app.u)+'">'+e(b.app.t)+' ›</a>':'')+
+   (b.ar&&b.ar!=='—'?'<div class="lnk"><a href="https://www.google.com/search?q=site%3Ashamela.ws+'+q+'" target="_blank" rel="noopener">Şâmile’de ara</a><a href="https://archive.org/search?query='+q+'" target="_blank" rel="noopener">archive.org’da ara</a></div>':'')+'</div></div>'}).join('')+'</div>'}).join('')
+}
+function baglaYol(A){
+ [].forEach.call(M.querySelectorAll('.kt'),function(k){
+  k.querySelector('.ust').onclick=function(ev){
+   if(ev.target.classList.contains('ck')){var o=oku(),id=k.dataset.id;if(o[id])delete o[id];else o[id]=1;yaz(o);k.classList.toggle('ok',!!o[id]);ev.target.textContent=o[id]?'✓':'';
+    var n=0;A.basamaklar.forEach(function(s){s.kitaplar.forEach(function(b){if(o[b.id])n++})});
+    M.querySelector('.hero .bar i').style.width=Math.round(100*n/A.kitapSayisi)+'%';M.querySelector('.hero .ilr span').textContent=n+' / '+A.kitapSayisi;
+    if(o[id])toast('Okundu olarak işaretlendi');return}
+   k.classList.toggle('acik')}})
+}
+function yonlen(){var h=location.hash.slice(1).split('/');if(h[0])alan(h[0],h[1]);else liste()}
+addEventListener('hashchange',yonlen);yonlen();
+})();
 </script>
 </body></html>
