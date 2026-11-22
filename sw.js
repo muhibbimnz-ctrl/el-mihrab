@@ -1,7 +1,7 @@
 /* el-Mihrâb service worker
    - Uygulama kabuğu: önce telefondaki kopya (hemen açılır), arkada yenisi indirilir
    - Kur'an, meal, tefsir, kıraat servisleri: önce ağ (8 sn), olmazsa daha önce okunan kopya, o da yoksa bir kez daha dener */
-const V='mihrab-v129', DATA='mihrab-data-v1';
+const V='mihrab-v130', DATA='mihrab-data-v1';
 /* Cloudflare Pages "x.html" adresini "x"e yönlendirir. Yönlendirilmiş cevap telefona olduğu gibi saklanırsa
    internetsiz açılışta tarayıcı onu reddeder; bu yüzden temiz bir kopyası saklanır ve iki adres de denenir. */
 function temiz(r){return r&&r.redirected?new Response(r.body,{status:r.status,statusText:r.statusText,headers:r.headers}):r}
@@ -33,6 +33,9 @@ self.addEventListener('fetch',e=>{
   /* Hadis ve usûl verisi (büyük, nadiren değişen dosyalar): önce telefondaki kopya, arkada tekrar indirme yok; ?v= değişince yenisi alınır */
   if(u.origin===location.origin&&/\/data\/(hadis|usul|fikih|siyer|ahlak)\//.test(u.pathname)){
     e.respondWith(caches.open(DATA).then(c=>c.match(req).then(r=>r||fetch(req).then(n=>{if(n.ok){c.put(req,n.clone()).catch(()=>{});c.keys().then(ks=>ks.forEach(k=>{const x=new URL(k.url);if(x.pathname===u.pathname&&x.search!==u.search)c.delete(k)}))}return n}).catch(()=>caches.match(req,{ignoreSearch:true}).then(r=>{if(r)return r;throw new Error('offline')})))));return}
+  /* Sık güncellenen küçük veriler (ihtisas, hutbe, vaaz, canlı yayın): önce ağ (5 sn), olmazsa telefondaki kopya */
+  if(u.origin===location.origin&&(/\/data\/ihtisas\//.test(u.pathname)||/\/data\/(hutbe|vaaz|canli)\.json$/.test(u.pathname))){
+    e.respondWith(timeout(fetch(req,{cache:'no-cache'}),5000).then(n=>{if(n.ok){const c=n.clone();caches.open(DATA).then(x=>x.put(req,c).catch(()=>{}))}return n}).catch(()=>caches.match(req,{ignoreSearch:true}).then(r=>{if(r)return r;throw new Error('offline')})));return}
   if(u.origin===location.origin&&u.pathname.endsWith('/data/videolar.json')){
     e.respondWith(timeout(fetch(req,{cache:'no-cache'}),3500).then(n=>{if(n.ok){const c=n.clone();caches.open(DATA).then(x=>x.put(req,c).catch(()=>{}))}return n}).catch(()=>caches.match(req)));return}
   if(u.origin===location.origin&&u.pathname.includes('/data/')){
