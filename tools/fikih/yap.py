@@ -9,7 +9,7 @@ HR=re.compile(r'[ً-ٰٟـ]')
 def an(t):return re.sub('[أإآ]','ا',HR.sub('',t)).replace('ى','ي').replace('ة','ه')
 K={}
 ARALIK={'kuduri':{'Tahâret':(1,6),'Namaz':(6,26),'Zekât':(26,37),'Oruç':(37,39),'Hac':(39,46),'Muâmelât':(46,80),'Nikâh ve talâk':(80,90),'Cinâyât ve hadler':(95,104),'Kurban ve av':(104,106),'Yeminler':(106,107),'Ferâiz':(116,119),'Dava ve şahitlik':(107,111),'Siyer ve cihad':(113,115)},
- 'bidaye':{'Tahâret':(0,31),'Namaz':(31,101),'Zekât':(101,121),'Oruç':(121,134),'Hac':(134,167),'Yeminler':(167,179),'Kurban ve av':(179,197),'Nikâh ve talâk':(197,270),'Muâmelât':(270,375),'Ferâiz':(375,394),'Cinâyât ve hadler':(401,422)},
+ 'bidaye':{'Tahâret':(0,31),'Namaz':(31,101),'Zekât':(101,121),'Oruç':(121,134),'Hac':(134,167),'Yeminler':(167,179),'Kurban ve av':(179,197),'Nikâh ve talâk':(197,270),'Muâmelât':(270,375),'Ferâiz':(375,394),'Cinâyât ve hadler':(401,422),'Dava ve şahitlik':(422,432),'Siyer ve cihad':(150,167)},
  'ihtiyar':{'Tahâret':(4,139),'Namaz':(4,139),'Zekât':(139,172),'Oruç':(172,189),'Hac':(189,298),'Muâmelât':(298,550),'Nikâh ve talâk':(550,695),'Cinâyât ve hadler':(771,815),'Kurban ve av':(897,919),'Ferâiz':(994,1069)}}
 DUR=set('في من على الى إلى عن ما به او أو و ثم لا ان أن هل حكم وقت قدر'.split())
 def kok(w):
