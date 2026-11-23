@@ -14,9 +14,16 @@ OZEL={'Uzaktan çalışma':('T',6),'Trafik güvenliği':('T',5),'Sosyal medya ve
 def bol(s,isar):
     p=re.split(r'(?<=[.!?؟])\s+',s.strip()); return [x for x in p if x.strip()]
 out={'T':[],'A':[],'I':[],'C2':[]}
+ALAN.setdefault('sosyal',('A',7));ALAN.setdefault('din',('I',5))
+# C1–C2 programı yalnız C1/C2 seviyesindeki metinleri tutar; B1/B2 metinler Akademik'e gider.
+C2ALAN={'edebiyat':1,'tarih':6,'egitim':7,'saglik':4,'bilim':4,'cevre':4,'sosyal':4,'ekonomi':7,'hukuk':7,'medya':5,'sanat':6,'din':6}
+C2OZEL={'Halîl b. Ahmed ve aruz':3,'Sîbeveyh ve el-Kitâb':3,'Şeriatın amaçları (makâsıd)':4,'İbn Haldûn':4,'Yapay zekânın sınırları':4}
+C2DEN_A={1:2,2:2,3:2,4:3,5:4,6:1,7:7}
 for x in m['metinler']:
     hedef=OZEL.get(x['baslik']) or ALAN.get(x['alan'])
     if not hedef: continue
+    if x.get('seviye') in ('C1','C2'): hedef=('C2',x.get('c2kat',C2OZEL.get(x['baslik'],C2ALAN.get(x['alan'],4))))
+    elif hedef[0]=='C2': hedef=('A',C2DEN_A.get(hedef[1],2))
     P=[]
     for a,t in zip(x['ar'],x['tr']):
         sa,st=bol(a,1),bol(t,0)

@@ -23,9 +23,13 @@ for x in X:
 if hata:
     sys.exit('\n'.join(hata))
 
+# Hepsi C1 seviyesinde: C1–C2 programına, şu kategorilere girer (0 Belâgat, 1 Klasik Nesir, 3 Fıkhu'l-Luga, 4 Düşünce, 6 Tarih ve Medeniyet)
+C2KAT = {'İbn Haldûn ve Mukaddime’si': 4, 'Arap dilinin tedvini: Halîl ve Sîbeveyh': 3, 'Câhiz: Aklın ve ironinin edibi': 1,
+         'Muallakalar: rivayet ile eleştiri arasında': 1, 'İmam Ebû Mansûr el-Mâtürîdî': 4}
 gr = {}
 for x in X:
-    k = x['kol']; y = {a: b for a, b in x.items() if a != 'kol'}
+    k = 'C2'; y = {a: b for a, b in x.items() if a != 'kol'}
+    if x['kol'] != 'C2': y['c'] = C2KAT.get(x['tr'], 6)
     gr.setdefault(k, []).append(y)
 js = '/*AR-C1-METIN*/' + ''.join('%s.push.apply(%s,%s);' % (k, k, json.dumps(v, ensure_ascii=False, separators=(',', ':'))) for k, v in gr.items()) + '/*/AR-C1-METIN*/\n'
 oz = blok_yaz('arapca', 'AR-C1-METIN', js)

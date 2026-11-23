@@ -16,6 +16,13 @@ for id in [i for l in [kitaplar.SIRA] for i in l if any(i in v for v in DIL.valu
         m.B=[]
         for f in _p:
             sp=importlib.util.spec_from_file_location('p',f);q=importlib.util.module_from_spec(sp);sp.loader.exec_module(q);m.B+=q.B
+    if id in('gulistan','masnavi'):  # bâb / defter sırasına diz (ek dosyalar sona yazılsa da yerine otursun)
+        _S=['اول','دوم','سوم','چهارم','پنجم','ششم','هفتم','هشتم']
+        def _k(t):
+            if t[0].strip()=='پایان':return 99
+            mm=re.match(r'(?:باب|دفتر)\s+(\S+?)[:\s—]',t[0])
+            return _S.index(mm.group(1))+1 if mm and mm.group(1) in _S else 0
+        m.B=sorted(m.B,key=_k)
     K=dict(m.KITAP);dil=K['dil']
     G={}
     # aynı dildeki diğer romanların sözlükleri ortak yedek olarak kullanılır; kitabın kendi sözlüğü önceliklidir

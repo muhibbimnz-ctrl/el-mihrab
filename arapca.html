@@ -107,9 +107,9 @@ ol{padding-left:22px}ol li{margin:6px 0}
 <button class="mode" data-m="book">📖 Hikâye Programı B1–B2 (182 gün)</button>
 <button class="mode" data-m="pod">🎧 Podcast A1→C2 (60 bölüm)</button>
 <button class="mode" data-m="daily">🗣️ Günlük Hayat (60)</button>
-<button class="mode" data-m="acad">🎓 Akademik Metinler (40)</button>
+<button class="mode" data-m="acad">🎓 Akademik Metinler (160)</button>
 <button class="mode" data-m="islam">🕌 İslami İlimler (40)</button>
-<button class="mode" data-m="adv">🏛️ C1–C2 Metinler (40)</button>
+<button class="mode" data-m="adv">🏛️ C1–C2 Metinler (47)</button>
 <button class="mode" data-m="prac">🔁 Kelime Tekrarı</button><a class="mode" href="roman.html?dil=ar" style="text-decoration:none;text-align:center;color:inherit;display:flex;align-items:center;justify-content:center"><span class="mi">📚</span>Roman okuma<small>A2 · B1 · C1</small></a>
 </div>
 <div class="bar">
@@ -141,7 +141,7 @@ document.querySelectorAll('#modes .mode').forEach(function(b){if(b.tagName==='BU
 addEventListener('popstate',function(e){if(e&&e.state&&e.state.ders)return;if(mb&&!document.body.classList.contains('mdLanding')){document.body.classList.add('mdLanding');document.body.classList.remove('ayarAcik');scrollTo(0,0)}});
 if(location.hash==='#p')try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}
 })();</script><!--/MIHRAB-SADE-->
-<!--VERI-SONDA--><script src="veri/arapca.js?v=2d9040758a"></script>
+<!--VERI-SONDA--><script src="veri/arapca.js?v=482f5fa145"></script>
 <script>
 if(typeof D==="undefined"){(function(){var o=document.getElementById("out");if(o)o.innerHTML='<div class="card" style="padding:18px;text-align:center"><p>Ders verisi indirilemedi. İnternet bağlantınızı kontrol edin.</p><button onclick="location.reload()">Tekrar dene</button></div>'})();throw new Error("ders verisi yok")}
 /* ===== Durum ===== */
@@ -149,7 +149,7 @@ var KEY="sesli-ar-v1",st={};
 try{st=JSON.parse(localStorage.getItem(KEY)||"{}")||{}}catch(e){st={}}
 st.b=st.b||{};st.t=st.t||{};st.a=st.a||{};st.i=st.i||{};st.c=st.c||{};st.p=st.p||{};st.u=st.u||{};st.box=st.box||{};var ucur=+st.ucur||0;if(!BU[ucur])ucur=0;
 function save(){try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){}}
-var mode=st.mode||"book",cur=+st.cur||0;if(cur>=D.length)cur=D.length-1;var PLAN=182,PLANC={d:60,a:40,i:40,c:40,p:60};
+var mode=st.mode||"book",cur=+st.cur||0;if(cur>=D.length)cur=D.length-1;var PLAN=182,PLANC={d:60,a:160,i:40,c:47,p:60};
 
 /* Koleksiyonlar: günlük hayat (d) ve akademik (a) */
 function mkCol(arr,cats,key,name,label){
