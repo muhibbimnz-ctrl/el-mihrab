@@ -43,7 +43,7 @@ function kokler(n,d){var c=[n];if(d==='ar'){['وال','بال','فال','كال'
   var t=n.replace(/^(وال|بال|فال|ال|و|ف|ب)/,'');['هما','هم','هن','ها','كم','نا','ني','ه','ك','ي','ون','ين','ات','ان','ة'].forEach(function(s){if(t.length-s.length>=3&&t.slice(-s.length)===s)c.push(t.slice(0,-s.length),'ال'+t.slice(0,-s.length))})}
  else if(d==='fa'){var P=/^(نمی‌|نمی|می‌|می|ب|ن)/,S=/‌?(هایی|های|ها|ترین|تر|گان|ان|ای|اش|ام|ات|یم|ید|ند|ی|ش|م)$/;c.push(n.replace(P,''),n.replace(S,''),n.replace(P,'').replace(S,''),n.replace(/‌/g,''));if(/گان$/.test(n))c.push(n.slice(0,-3)+'ه')}
  else c.push(n.replace(/ies$/,'y'),n.replace(/ied$/,'y'),n.replace(/(ing|ed|es|s|ly|er|est)$/,''),n.replace(/ing$/,'e'),n.replace(/ed$/,'e'),n.replace(/([b-df-hj-np-tv-z])\1(ing|ed|er|est)$/,'$1'),n.replace(/ily$/,'y'),n.replace(/(ness|ment|ful|less)$/,''));return c}
-function yukle(d){if(KEYS[d])return Promise.resolve();return fetch('data/roman/sozluk_'+d+'.json?v=2').then(function(r){return r.json()}).then(function(g){
+function yukle(d){if(KEYS[d])return Promise.resolve();return fetch('data/roman/sozluk_'+d+'.json?v=3').then(function(r){return r.json()}).then(function(g){
  var o={};for(var k in g){var n=norm(k,d);if(!(n in o))o[n]=[k,g[k]]}G[d]=o;KEYS[d]=Object.keys(o).sort()})}
 function satir(k,m,d){var id=d+'|'+norm(k,d),on=!!st.d[id];return '<div class="r"><div class="k '+d+'" lang="'+d+'">'+esc(k)+'</div><div class="m">'+esc(m)+'</div><button data-k="'+esc(id)+'" data-w="'+esc(k)+'" data-m="'+esc(m)+'" class="'+(on?'on':'')+'" title="Defterime ekle">'+(on?'✓':'＋')+'</button></div>'}
 function ara(){var q=Q.value.trim(),d=D,h='';try{history.replaceState(null,'','?dil='+d+(q?'&q='+encodeURIComponent(q):''))}catch(e){}

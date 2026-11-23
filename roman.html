@@ -50,13 +50,13 @@ function rota(){if(AK)AK.disconnect();if(AKS)AKS.disconnect();AK=AKS=null;var h=
 addEventListener('hashchange',rota);
 function liste(){CUR=null;ttl.textContent=DIL?AD[DIL]+' romanlar':'Roman okuma';bk(DIL?'‹ '+AD[DIL]:'‹ el-Mihrâb');
  var L=LIST.filter(function(k){return !DIL||k.dil===DIL}),h='';
- L.forEach(function(k){var d=0;for(var i=0;i<k.bolum;i++)if(st.ok[k.id+'#'+i])d++;h+='<div class="bk" data-id="'+k.id+'"><span class="lv '+k.seviye+'">'+k.seviye+'</span><span class="t"><b class="ttl '+k.dil+'">'+esc(k.baslik)+'</b><b>'+esc(k.tr_baslik)+'</b><small>'+AD[k.dil]+' · '+d+'/'+k.bolum+' bölüm</small></span><span>›</span></div>'});
+ var GR='';L.sort(function(a,b){return (a.grup?1:0)-(b.grup?1:0)});L.forEach(function(k){var g=k.grup||'Uyarlama romanlar ve hikâyeler';if(g!==GR){GR=g;h+='<h2>'+esc(g)+'</h2>'}var d=0;for(var i=0;i<k.bolum;i++)if(st.ok[k.id+'#'+i])d++;h+='<div class="bk" data-id="'+k.id+'"><span class="lv '+k.seviye+'">'+k.seviye+'</span><span class="t"><b class="ttl '+k.dil+'">'+esc(k.baslik)+'</b><b>'+esc(k.tr_baslik)+'</b><small>'+AD[k.dil]+' · '+d+'/'+k.bolum+' bölüm</small></span><span>›</span></div>'});
  if(DIL)h+='<p style="text-align:center"><a href="roman.html" style="color:#6a4c93;font-size:14px">Bütün dillerdeki romanlar</a></p>';
  M.innerHTML=h;M.querySelectorAll('.bk').forEach(function(e){e.onclick=function(){git('#k='+e.dataset.id)}});scrollTo(0,0)}
 function ac(id){J('data/roman/'+id+'.json').then(function(k){K=k;kitap()}).catch(function(){M.innerHTML='<p class="note">Kitap yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'})}
 function kitap(){CUR=null;ttl.textContent=K.tr_baslik;bk('‹ Kitaplar',function(){history.back()});
- var h='<div class="note"><b class="'+K.dil+'" style="font-size:24px;display:block">'+esc(K.baslik)+'</b>'+esc(K.yazar)+' · Seviye '+K.seviye+'</div><h2>Bölümler</h2>';
- K.bolumler.forEach(function(b,i){h+='<div class="ch" data-i="'+i+'"><span><b class="'+K.dil+'" style="font-size:19px">'+esc(b.b)+'</b> · '+esc(b.tr_b)+'</span><span class="ok">'+(st.ok[K.id+'#'+i]?'✓':'›')+'</span></div>'});
+ var h='<div class="note"><b class="'+K.dil+'" style="font-size:24px;display:block">'+esc(K.baslik)+'</b>'+esc(K.yazar)+' · Seviye '+K.seviye+(K.not?'<br><small>'+esc(K.not)+'</small>':'')+'</div><h2>Bölümler</h2>';
+ K.bolumler.forEach(function(b,i){h+='<div class="ch" data-i="'+i+'"><span><b class="'+K.dil+'" style="font-size:19px">'+esc(b.b)+'</b>'+(b.tr_b?' · '+esc(b.tr_b):'')+'</span><span class="ok">'+(st.ok[K.id+'#'+i]?'✓':'›')+'</span></div>'});
  M.innerHTML=h;M.querySelectorAll('.ch').forEach(function(e){e.onclick=function(){git('#k='+K.id+'&b='+e.dataset.i)}});scrollTo(0,0)}
 function tok(s,d){if(K&&K.uzun)return tokU(s,d);if(d==='en')return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p))return p;var m=p.match(/^([^A-Za-z']*)([A-Za-z']+)(.*)$/);if(!m)return esc(p);var n=norm(m[2],d);return esc(m[1])+'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(m[2])+'</span>'+esc(m[3])}).join('');
  return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p)||!p)return p;var n=norm(p,d);return n?'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(p)+'</span>':esc(p)}).join('')}
@@ -64,13 +64,16 @@ function tokU(s,d){return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p)||!
  if(d==='en'){var m=p.match(/^([^A-Za-z']*)([A-Za-z']+)(.*)$/);if(!m)return esc(p);var n=norm(m[2],d);return esc(m[1])+'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(m[2])+'</span>'+esc(m[3])}
  var n=norm(p,d);return n?'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(p)+'</span>':esc(p)}).join('')}
 /* Ortak sözlük: aynı dildeki bütün kitapların sözlükleri (data/roman/sozluk_<dil>.json); kitapta yoksa buradan, önek/sonek ayıklanarak bakılır */
-var OS={};function ortak(d){if(OS[d])return Promise.resolve(OS[d]);return J('data/roman/sozluk_'+d+'.json').then(function(g){return OS[d]=g}).catch(function(){return OS[d]={}})}
+function hz(w){return w.replace(/[إأآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ي/g,'ی').replace(/ك/g,'ک')}
+var OS={};function ortak(d){if(OS[d])return Promise.resolve(OS[d]);return J('data/roman/sozluk_'+d+'.json?v=3').then(function(g){if(d!=='en'){var o={};for(var k in g){var n=norm(k,d);if(!o[n])o[n]=g[k];var z=hz(n);if(!o['~'+z])o['~'+z]=g[k]}for(var k2 in o)g[k2]=g[k2]||o[k2]}return OS[d]=g}).catch(function(){return OS[d]={}})}
 function bul(n,d,G){if(G[n])return G[n];var c=[];
  if(d==='ar'){['وال','بال','فال','كال','لل','ال','و','ف','ب','ل','ك','وب','ول','فب','وك','س'].forEach(function(pr){if(n.indexOf(pr)===0&&n.length-pr.length>=3){var r=n.slice(pr.length);c.push(r,'ال'+r);if(r.indexOf('ال')===0)c.push(r.slice(2))}});
   ['ها','هم','هما','هن','كم','كما','نا','ني','ه','ك','ي','ون','ين','ات','ة'].forEach(function(sf){var t=n.replace(/^(وال|بال|فال|ال|و|ف|ب)/,'');if(t.length-sf.length>=3&&t.slice(-sf.length)===sf){c.push(t.slice(0,-sf.length),'ال'+t.slice(0,-sf.length))}})}
  else if(d==='fa'){var t=n.replace(/\u200c/g,'');[n.replace(/^(و|ب|می|نمی|ن)/,''),n.replace(/(ها|های|هایی|ای|اش|ام|ات|یم|ید|ند|ی|ش|م)$/,''),n.replace(/\u200c?(ها|های|هایی|ای|اش|ام|ات)$/,'')].forEach(function(x){if(x&&x.length>=2)c.push(x)});c.push(t)}
  else{[n.replace(/(ing|ed|es|s|ly)$/,''),n.replace(/ies$/,'y'),n.replace(/ied$/,'y'),n.replace(/ing$/,'e'),n.replace(/ed$/,'e')].forEach(function(x){if(x.length>=2)c.push(x)})}
- for(var i=0;i<c.length;i++)if(c[i]&&c[i]!==n&&G[c[i]])return G[c[i]];return ''}
+ if(d==='ar'&&n.length>=4&&/[اى]$/.test(n)){var u=n.slice(0,-1);c.push(u,'ال'+u)}
+ for(var i=0;i<c.length;i++)if(c[i]&&c[i]!==n&&G[c[i]])return G[c[i]];
+ if(d!=='en'){c.unshift(n);for(var j=0;j<c.length;j++){var z='~'+hz(c[j]||'');if(c[j]&&G[z])return G[z]}}return ''}
 function bolumH(i){var b=K.bolumler[i],d=K.dil,h='<section class="chap" data-i="'+i+'"><h2 class="'+d+'" style="text-align:center;font-size:24px;margin:22px 0 4px">'+esc(b.b)+'</h2><p class="chs">'+(i+1)+'. '+esc(b.tr_b)+'</p>';
  b.c.forEach(function(c){h+=c[1]?'<div class="cm '+d+'" lang="'+d+'"><div class="s '+d+'">'+tok(c[0],d)+'</div><button class="trb">Türkçesi ▾</button><div class="tr">'+esc(c[1])+'</div></div>':'<p class="pr '+d+'" lang="'+d+'">'+tok(c[0],d)+'</p>'});
  return h+'</section>'}
