@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="tr"><head>
 <meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Sabah-Akşam Zikirleri — el-Mihrâb</title><meta name="theme-color" content="#0e5a43">
+<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Zikirler ve Dualar (Hısnü’l-Müslim) — el-Mihrâb</title><meta name="theme-color" content="#0e5a43">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f4efe3;color:#24302b}
@@ -21,11 +21,12 @@ main{max-width:760px;margin:0 auto;padding:12px 12px 80px}
 .c{display:flex;align-items:center;gap:10px;margin-top:8px}
 .c button.say{flex:1;border:0;border-radius:14px;padding:12px;background:#0e5a43;color:#fff;font:700 17px system-ui;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .z.ok .c button.say{background:#7aa08e}.c button.rs{border:0;background:#e9e3d4;border-radius:12px;padding:10px 12px;cursor:pointer;font-size:15px}
+.kt{font-size:15px;color:#0e5a43;margin:16px 4px 8px;font-weight:700}.bl{display:flex;justify-content:space-between;align-items:center;gap:8px;width:100%;text-align:left;border:0;background:#fffdf8;border-radius:14px;padding:12px 14px;margin:0 0 7px;font:600 15px system-ui;color:inherit;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.05)}.bl small{color:#8a8578;font-weight:400;white-space:nowrap}.ara{width:100%;border:0;border-radius:14px;padding:12px 14px;font-size:16px;margin:0 0 6px;box-shadow:0 1px 4px rgba(0,0,0,.06)}.geri{border:0;background:#e9e3d4;border-radius:12px;padding:9px 13px;font:600 14px system-ui;cursor:pointer;margin:0 0 10px}@media(prefers-color-scheme:dark){.bl,.ara{background:#1b231f;color:#e4ece7}.geri{background:#2a3530;color:#e4ece7}.kt{color:#8fd0b2}}
 .note{font-size:12.5px;color:#7a7266;line-height:1.5;padding:4px 6px}
 @media(prefers-color-scheme:dark){body{background:#121815;color:#e4ece7}.z{background:#1b231f}.tr{color:#b7c4bc}.f{background:#22302a;color:#cfe2d6}.c button.rs{background:#2a3530;color:#e4ece7}.z h3{color:#8fd0b2}}
 </style></head><body>
-<div id="hd"><div class="top"><a href="./" id="bk">‹ Geri</a><h1>Zikirler · Hısnü’l-Müslim</h1></div>
-<div class="tabs"><button data-t="sabah">☀️ Sabah</button><button data-t="aksam">🌙 Akşam</button><button data-t="namaz">🕌 Namazdan sonra</button></div>
+<div id="hd"><div class="top"><a href="./" id="bk">‹ Geri</a><h1>Zikir ve Dualar · Hısnü’l-Müslim</h1></div>
+<div class="tabs"><button data-t="sabah">☀️ Sabah</button><button data-t="aksam">🌙 Akşam</button><button data-t="namaz">🕌 Namaz sonrası</button><button data-t="hepsi">📚 Bütün dualar</button></div>
 <div class="pg"><div id="pg"></div></div>
 <div class="ops"><button id="ttr">Meâli gizle</button><button id="rst">↺ Sıfırla</button></div></div>
 <main id="m"></main>
@@ -36,25 +37,34 @@ function gun(){var d=new Date();return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+
 var st={};try{st=JSON.parse(localStorage.getItem('mihrab.zikir'))||{}}catch(e){}
 if(st.g!==gun())st={g:gun(),c:{},htr:st.htr};
 function sv(){try{localStorage.setItem('mihrab.zikir',JSON.stringify(st))}catch(e){}}
-function liste(t){return D[t].map(function(x){if(!x.ref)return x;var p=x.ref.split(':'),b=D[p[0]][+p[1]],o={};for(var k in b)o[k]=b[k];for(k in x)if(k!=='ref')o[k]=x[k];return o})}
-function kalan(t,i,x){var c=st.c[t+i];return c==null?x.n:c}
-function pg(){var L=liste(T),top=0,yap=0;L.forEach(function(x,i){top+=x.n;yap+=x.n-kalan(T,i,x)});document.getElementById('pg').style.width=(top?yap/top*100:0)+'%'}
-function ciz(t){T=t;document.querySelectorAll('.tabs button').forEach(function(b){b.classList.toggle('on',b.dataset.t===t)});
- var h='';liste(t).forEach(function(x,i){var r=kalan(t,i,x);
-  h+='<div class="z'+(r?'':' ok')+'" data-i="'+i+'"><h3><span>'+(i+1)+'. '+esc(x.b)+'</span><span>'+x.n+' kez</span></h3><div class="ar" lang="ar">'+esc(x.s)+'</div><p class="tr">'+esc(x.t)+'</p>'+(x.f?'<p class="f">✦ '+esc(x.f)+'</p>':'')+'<div class="k">Kaynak: '+esc(x.k)+'</div>'+
-  '<div class="c"><button class="say">'+(r?r+' kaldı · dokun':'✓ Tamam')+'</button><button class="rs" title="Bu zikri baştan say">↺</button></div></div>'});
+var CH=null;/* Bütün dualar: seçili bölüm [kategori,bölüm] */
+function liste(t){if(t==='hepsi')return CH?D.bolumler[CH[0]].b[CH[1]].z:[];return D[t].map(function(x){if(!x.ref)return x;var p=x.ref.split(':'),b=D[p[0]][+p[1]],o={};for(var k in b)o[k]=b[k];for(k in x)if(k!=='ref')o[k]=x[k];return o})}
+function pre(t){return t==='hepsi'?'h'+CH[0]+'_'+CH[1]+'_':t}
+function kalan(t,i,x){var c=st.c[pre(t)+i];return c==null?x.n:c}
+function pg(){if(T==='hepsi'&&!CH){document.getElementById('pg').style.width='0';return}var L=liste(T),top=0,yap=0;L.forEach(function(x,i){top+=x.n;yap+=x.n-kalan(T,i,x)});document.getElementById('pg').style.width=(top?yap/top*100:0)+'%'}
+function kart(x,i,t){var r=kalan(t,i,x);return '<div class="z'+(r?'':' ok')+'" data-i="'+i+'"><h3><span>'+(t==='hepsi'?'':(i+1)+'. ')+esc(x.b||'')+'</span><span>'+x.n+' kez</span></h3><div class="ar" lang="ar">'+esc(x.s)+'</div><p class="tr">'+esc(x.t)+'</p>'+(x.f?'<p class="f">✦ '+esc(x.f)+'</p>':'')+'<div class="k">Kaynak: '+esc(x.k)+'</div>'+
+  '<div class="c"><button class="say">'+(r?r+' kaldı · dokun':'✓ Tamam')+'</button><button class="rs" title="Bu zikri baştan say">↺</button></div></div>'}
+function fihrist(q){var h='<input class="ara" id="ara" type="search" placeholder="Bölüm ara: yolculuk, elbise, yağmur…" value="'+esc(q||'')+'">',qq=(q||'').toLocaleLowerCase('tr');
+ D.bolumler.forEach(function(c,ci){var x='';c.b.forEach(function(b,bi){if(qq&&b.b.toLocaleLowerCase('tr').indexOf(qq)<0&&c.k.toLocaleLowerCase('tr').indexOf(qq)<0)return;x+='<button class="bl" data-ch="'+ci+'_'+bi+'"><span>'+esc(b.b)+'</span><small>'+b.z.length+' dua</small></button>'});if(x)h+='<div class="kt">'+esc(c.k)+'</div>'+x});
+ return h}
+function ciz(t,q){T=t;document.querySelectorAll('.tabs button').forEach(function(b){b.classList.toggle('on',b.dataset.t===t)});var h='';
+ if(t==='hepsi'&&!CH){M.innerHTML=fihrist(q)+'<p class="note">'+esc(D.kaynak)+'</p>';var a=document.getElementById('ara');a.oninput=function(){var v=a.value,p=a.selectionStart;ciz('hepsi',v);var n=document.getElementById('ara');n.focus();try{n.setSelectionRange(p,p)}catch(_){}};pg();return}
+ if(t==='hepsi'){var c=D.bolumler[CH[0]],b=c.b[CH[1]];h='<button class="geri" id="geri">‹ Bütün bölümler</button><div class="kt">'+esc(c.k)+' · '+esc(b.b)+'</div>'}
+ liste(t).forEach(function(x,i){h+=kart(x,i,t)});
  h+='<p class="note">'+esc(D.kaynak)+' Sayaçlar her gün kendiliğinden sıfırlanır.</p>';
- M.innerHTML=h;pg();scrollTo(0,0)}
-M.addEventListener('click',function(e){var z=e.target.closest('.z');if(!z)return;var i=+z.dataset.i,x=liste(T)[i],b=z.querySelector('.say');
- if(e.target.closest('.rs')){delete st.c[T+i];sv();z.classList.remove('ok');b.textContent=x.n+' kaldı · dokun';pg();return}
- if(!e.target.closest('.say'))return;var r=kalan(T,i,x);if(!r)return;r--;st.c[T+i]=r;sv();if(navigator.vibrate)try{navigator.vibrate(r?15:[40,60,40])}catch(_){}
+ M.innerHTML=h;var g=document.getElementById('geri');if(g)g.onclick=function(){history.back()};pg();scrollTo(0,0)}
+M.addEventListener('click',function(e){var bl=e.target.closest('.bl');if(bl){CH=bl.dataset.ch.split('_').map(Number);try{history.pushState({ch:CH},'','#hepsi-'+bl.dataset.ch)}catch(_){}ciz('hepsi');return}
+ var z=e.target.closest('.z');if(!z)return;var i=+z.dataset.i,x=liste(T)[i],b=z.querySelector('.say');
+ if(e.target.closest('.rs')){delete st.c[pre(T)+i];sv();z.classList.remove('ok');b.textContent=x.n+' kaldı · dokun';pg();return}
+ if(!e.target.closest('.say'))return;var r=kalan(T,i,x);if(!r)return;r--;st.c[pre(T)+i]=r;sv();if(navigator.vibrate)try{navigator.vibrate(r?15:[40,60,40])}catch(_){}
  b.textContent=r?r+' kaldı · dokun':'✓ Tamam';if(!r){z.classList.add('ok');var n=z.nextElementSibling;if(n&&n.classList.contains('z'))setTimeout(function(){n.scrollIntoView({behavior:'smooth',block:'start'})},250)}pg()});
-document.querySelector('.tabs').onclick=function(e){var b=e.target.closest('button');if(b){ciz(b.dataset.t);try{history.replaceState(null,'','#'+b.dataset.t)}catch(_){}}};
+addEventListener('popstate',function(){var m=location.hash.match(/^#hepsi-(\d+)_(\d+)$/);CH=m?[+m[1],+m[2]]:null;if(D)ciz(m||location.hash==='#hepsi'?'hepsi':(D[location.hash.slice(1)]?location.hash.slice(1):T))});
+document.querySelector('.tabs').onclick=function(e){var b=e.target.closest('button');if(b){CH=null;ciz(b.dataset.t);try{history.replaceState(null,'','#'+b.dataset.t)}catch(_){}}};
 var ttr=document.getElementById('ttr');function trs(){document.body.classList.toggle('hidetr',!!st.htr);ttr.textContent=st.htr?'Meâli göster':'Meâli gizle'}
 ttr.onclick=function(){st.htr=!st.htr;sv();trs()};
-document.getElementById('rst').onclick=function(){Object.keys(st.c).forEach(function(k){if(k.indexOf(T)===0)delete st.c[k]});sv();ciz(T)};
+document.getElementById('rst').onclick=function(){if(T==='hepsi'&&!CH)return;var p=pre(T);Object.keys(st.c).forEach(function(k){if(k.indexOf(p)===0)delete st.c[k]});sv();ciz(T)};
 document.getElementById('bk').onclick=function(e){if(document.referrer.indexOf(location.origin)===0&&history.length>1){e.preventDefault();history.back()}};
 trs();
-fetch('data/zikir.json').then(function(r){return r.json()}).then(function(d){D=d;var h=location.hash.slice(1);ciz(D[h]?h:(new Date().getHours()<15?'sabah':'aksam'))}).catch(function(){M.innerHTML='<p class="note">Zikirler yüklenemedi; internet bağlantınızı kontrol edin.</p>'});
+fetch('data/zikir.json').then(function(r){return r.json()}).then(function(d){D=d;var h=location.hash.slice(1),m=h.match(/^hepsi-(\d+)_(\d+)$/);if(m){CH=[+m[1],+m[2]];ciz('hepsi')}else ciz(D[h]||h==='hepsi'?h:(new Date().getHours()<15?'sabah':'aksam'))}).catch(function(){M.innerHTML='<p class="note">Zikirler yüklenemedi; internet bağlantınızı kontrol edin.</p>'});
 </script>
 </body></html>

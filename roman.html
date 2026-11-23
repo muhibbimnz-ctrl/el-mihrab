@@ -34,7 +34,7 @@ h2{font-size:17px;margin:16px 4px 6px}
 </style></head><body>
 <div id="hd"><div class="top"><a href="./" id="bk">‹ el-Mihrâb</a><h1 id="ttl">Roman okuma</h1><button id="dfb" title="Kelime defterim">📒 <span id="dfn">0</span></button></div></div>
 <main id="m"></main>
-<div id="pop"><div class="k" id="pk"></div><div class="m" id="pm"></div><div class="b"><button class="add" id="padd">＋ Defterime ekle</button><a class="cl" id="pdis" target="_blank" rel="noopener" style="text-decoration:none;border-radius:11px;padding:9px 12px;font:600 14px system-ui">🔎 Sözlükte ara</a><button class="cl" id="pcl">Kapat</button></div></div>
+<div id="pop"><div class="k" id="pk"></div><div class="m" id="pm"></div><div class="b"><button class="add" id="padd">＋ Defterime ekle</button><a class="cl" id="pdis" style="text-decoration:none;border-radius:11px;padding:9px 12px;font:600 14px system-ui">🔎 Sözlükte ara</a><button class="cl" id="pcl">Kapat</button></div></div>
 <script>
 var M=document.getElementById('m'),Q=new URLSearchParams(location.search),DIL=Q.get('dil')||'',LIST=[],K=null,CUR=null;
 var AD={ar:'Arapça',fa:'Farsça',en:'İngilizce'},BACK={ar:'arapca.html',fa:'farsca.html',en:'ingilizce.html'};
@@ -71,7 +71,6 @@ function bul(n,d,G){if(G[n])return G[n];var c=[];
  else if(d==='fa'){var t=n.replace(/\u200c/g,'');[n.replace(/^(و|ب|می|نمی|ن)/,''),n.replace(/(ها|های|هایی|ای|اش|ام|ات|یم|ید|ند|ی|ش|م)$/,''),n.replace(/\u200c?(ها|های|هایی|ای|اش|ام|ات)$/,'')].forEach(function(x){if(x&&x.length>=2)c.push(x)});c.push(t)}
  else{[n.replace(/(ing|ed|es|s|ly)$/,''),n.replace(/ies$/,'y'),n.replace(/ied$/,'y'),n.replace(/ing$/,'e'),n.replace(/ed$/,'e')].forEach(function(x){if(x.length>=2)c.push(x)})}
  for(var i=0;i<c.length;i++)if(c[i]&&c[i]!==n&&G[c[i]])return G[c[i]];return ''}
-var DIS={ar:function(w){return 'https://www.almaany.com/tr/dict/ar-tr/'+encodeURIComponent(w)+'/'},fa:function(w){return 'https://translate.google.com/?sl=fa&tl=tr&op=translate&text='+encodeURIComponent(w)},en:function(w){return 'https://dictionary.cambridge.org/dictionary/english-turkish/'+encodeURIComponent(w)}};
 function bolumH(i){var b=K.bolumler[i],d=K.dil,h='<section class="chap" data-i="'+i+'"><h2 class="'+d+'" style="text-align:center;font-size:24px;margin:22px 0 4px">'+esc(b.b)+'</h2><p class="chs">'+(i+1)+'. '+esc(b.tr_b)+'</p>';
  b.c.forEach(function(c){h+=c[1]?'<div class="cm '+d+'" lang="'+d+'"><div class="s '+d+'">'+tok(c[0],d)+'</div><button class="trb">Türkçesi ▾</button><div class="tr">'+esc(c[1])+'</div></div>':'<p class="pr '+d+'" lang="'+d+'">'+tok(c[0],d)+'</p>'});
  return h+'</section>'}
@@ -91,8 +90,8 @@ function bolum(i){CUR=i;var d=K.dil;ttl.textContent=(i+1)+'. '+K.bolumler[i].tr_
 M.addEventListener('click',function(e){var x=e.target.closest('.trb');if(x)x.parentNode.classList.toggle('op')});
 var SEL=null;
 M.addEventListener('click',function(e){var w=e.target.closest('.w');if(!w||!K)return;M.querySelectorAll('.w.on').forEach(function(x){x.classList.remove('on')});w.classList.add('on');
- var n=w.dataset.n,d=K.dil,yal=w.textContent.replace(/[«»،.؟!:؛()\-"]/g,'').replace(/[,.;:!?'"]+$/,'');pk.className='k '+d;pk.textContent=yal;pdis.href=DIS[d](d==='en'?n:yal.replace(H,''));
- var m=bul(n,d,K.sozluk);function goster(m){SEL={k:d+'|'+n,w:yal,m:m||'—',d:d};pm.textContent=m||'Bu kelime kitap sözlüğünde yok — aşağıdaki “Sözlükte ara” ile bakabilirsin.';
+ var n=w.dataset.n,d=K.dil,yal=w.textContent.replace(/[«»،.؟!:؛()\-"]/g,'').replace(/[,.;:!?'"]+$/,'');pk.className='k '+d;pk.textContent=yal;pdis.href='sozluk.html?dil='+d+'&q='+encodeURIComponent(d==='en'?n:yal.replace(H,''));
+ var m=bul(n,d,K.sozluk);function goster(m){SEL={k:d+'|'+n,w:yal,m:m||'—',d:d};pm.textContent=m||'Bu biçim kitap sözlüğünde yok — “Sözlükte ara” ile geniş sözlükte bak.';
   padd.style.display=m?'':'none';padd.textContent=st.d[SEL.k]?'✓ Defterde':'＋ Defterime ekle';pop.classList.add('on')}
  if(m)goster(m);else{pm.textContent='…';pop.classList.add('on');ortak(d).then(function(G){if(SEL&&SEL.k!==d+'|'+n&&pop.classList.contains('on')&&pk.textContent!==yal)return;goster(bul(n,d,G))})}});
 pcl.onclick=function(){pop.classList.remove('on');M.querySelectorAll('.w.on').forEach(function(x){x.classList.remove('on')})};
