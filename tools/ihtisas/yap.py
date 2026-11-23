@@ -2,13 +2,29 @@
 import json, os, sys, importlib, re
 B = os.path.dirname(os.path.abspath(__file__)); K = os.path.join(B, '..', '..')
 sys.path.insert(0, B)
-SIRA = ['tefsir', 'fikih', 'hadis', 'akaid', 'belagat']  # usul → fıkıh içinde Usûl-i Fıkıh
+SIRA = ['tefsir', 'fikih', 'hadis', 'akaid', 'belagat']
+KUTU = [x for x in ['islamtarihi', 'dinler', 'mezhepler'] if os.path.exists(os.path.join(B, 't_' + x + '.py'))]  # Tarih · Dinler · Mezhepler kutusu  # usul → fıkıh içinde Usûl-i Fıkıh
 from ek import TARIH, EK, NISPET
 from z_program import PROGRAM, ALISTIRMA
 J = lambda n: json.load(open(os.path.join(B, 'kaynak', 'bel_' + n + '.json')))
 TEZ = re.compile(r"[^.;]*(?:(?<![’'‘ʿ\w-])(?:tez|tezin|tezinde|tezi|tezler)\b|makale|DergiPark|doktora)[^.;]*[.;]?\s*", re.I)
 temiz = lambda t: TEZ.sub('', t or '').strip()
 liste = []
+yil = lambda o: int((re.match(r'\D*(\d+)', o['t']) or [0, 0])[1])
+for ad in KUTU:
+    A = dict(importlib.import_module('t_' + ad).ALAN)
+    A['tarih'] = dict(A['tarih'], olaylar=sorted(A['tarih']['olaylar'], key=yil))
+    n = 0; KT = []
+    for s in A['basamaklar']:
+        for k in s['kitaplar']:
+            n += 1; k['id'] = f"{ad}{n}"
+            if k['app'] and isinstance(k['app'], (tuple, list)): k['app'] = dict(u=k['app'][0], t=k['app'][1])
+            KT.append(dict(c=s['ad'], tr=k['ad'], ar=k['ar'], mu=k['mu'], v=k['v'], d=k['neden']))
+    g = set(); A['kutuphane'] = [b for b in KT + A['kutuphane'] if not (b['tr'] + b['mu'] in g or g.add(b['tr'] + b['mu']))]
+    A['kitapSayisi'] = n
+    json.dump(A, open(os.path.join(K, 'data', 'ihtisas', ad + '.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
+    liste.append(dict(id=ad, ad=A['ad'], ar=A['ar'], renk=A['renk'], kisa=A['kisa'], n=n, b=len(A['basamaklar']), on=[ad], u='', grup='kutu'))
+    print(ad, n, 'kitap', len(A['sahsiyetler']), 'şahsiyet', len(A['kutuphane']), 'kütüphane')
 for ad in SIRA:
     A = dict(importlib.import_module(ad).ALAN)
     if ad == 'belagat':
@@ -37,7 +53,6 @@ for ad in SIRA:
         if os.path.exists(os.path.join(B, 'z_tas_' + ad + '.py')):
             TS = importlib.import_module('z_tas_' + ad)
             A['tasnif'] = TS.TASNIF; A['terimler'] += TS.TERIM; A['metinler'] = A['metinler'] + TS.METIN
-            yil = lambda o: int((re.match(r'\D*(\d+)', o['t']) or [0, 0])[1])
             vr = {o['t'] + o['ne'][:20] for o in A['tarih']['olaylar']}
             A['tarih'] = dict(A['tarih'], olaylar=sorted(A['tarih']['olaylar'] + [o for o in TS.OLAY if o['t'] + o['ne'][:20] not in vr], key=yil))
         kut = lambda bs: [dict(c=x['ad'], tr=k['ad'], ar=k['ar'], mu=k['mu'], v=k['v'], d=k['neden']) for x in bs for k in x['kitaplar']]

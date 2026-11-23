@@ -22,7 +22,7 @@ h1{font-size:25px;margin:6px 0 4px}
 .lead{color:var(--muted);margin:0 0 14px}
 .yol{display:flex;gap:6px;align-items:center;flex-wrap:wrap;color:var(--muted);font-size:13px;margin-bottom:16px}
 .yol span{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:3px 10px}.yol .on{background:#3d2a5c;color:#fff;border-color:#3d2a5c}
-.alanlar{display:grid;gap:12px}
+.alanlar{display:grid;gap:12px}.kutu{margin-top:18px;border:1.5px dashed var(--line);border-radius:18px;padding:12px;background:var(--soft)}.kutu .kh{margin:0 2px 10px}.kutu .kh b{display:block;font-size:17px}.kutu .kh small{color:var(--muted)}
 @media(min-width:700px){.alanlar{grid-template-columns:1fr 1fr}}
 .alan{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.04);transition:transform .15s}
 .alan:active{transform:scale(.98)}
@@ -127,8 +127,11 @@ function liste(){
  al('data/ihtisas/liste.json').then(function(L){
   var h='<h1>İhtisas</h1><p class="lead">Bir talebenin bir ilimde ihtiyaç duyduğu her şey: baştan sona okunacak kitaplar ve şerh zincirleri, ilmin tarihi, şahsiyetleri, kütüphanesi, terimleri ve çalışma rehberi.</p>'+
   '<div class="yol"><span>Medrese</span>→<span>Dirâset</span>→<span class="on">İhtisas</span></div><div class="alanlar">';
-  L.forEach(function(a){var k=sayi(a.on||[a.id]),p=Math.round(100*k/a.n);
-   h+='<a class="alan" href="#'+a.id+'"><div class="bas" style="background:'+a.renk+'"><span class="ar">'+e(a.ar)+'</span><b>'+e(a.ad)+'</b><small>'+a.b+' basamak · '+a.n+' kitap'+(a.u?' · + '+e(a.u):'')+'</small></div><div class="alt">'+e(a.kisa)+'<div class="bar" style="--acc:'+a.renk+'"><i style="width:'+p+'%;background:'+a.renk+'"></i></div><small>'+(k?k+' / '+a.n+' kitap okundu':'Henüz başlanmadı')+'</small></div></a>'});
+  var kart=function(a){var k=sayi(a.on||[a.id]),p=Math.round(100*k/a.n);
+   h+='<a class="alan" href="#'+a.id+'"><div class="bas" style="background:'+a.renk+'"><span class="ar">'+e(a.ar)+'</span><b>'+e(a.ad)+'</b><small>'+a.b+' basamak · '+a.n+' kitap'+(a.u?' · + '+e(a.u):'')+'</small></div><div class="alt">'+e(a.kisa)+'<div class="bar" style="--acc:'+a.renk+'"><i style="width:'+p+'%;background:'+a.renk+'"></i></div><small>'+(k?k+' / '+a.n+' kitap okundu':'Henüz başlanmadı')+'</small></div></a>'};
+  L.filter(function(a){return!a.grup}).forEach(kart);
+  var KU=L.filter(function(a){return a.grup==='kutu'});
+  if(KU.length){h+='</div><div class="kutu"><div class="kh"><b>Tarih · Dinler · Mezhepler</b><small>İslâm tarihi, dinler tarihi ve mezhepler tarihi</small></div><div class="alanlar">';KU.forEach(kart);h+='</div>'}
   h+='</div><div class="not">Bu bölümde makale ve tez yoktur; yalnız klasik eserler ve temel kitaplar vardır. Vefat tarihleri hicrî/milâdî verilmiştir. Okuduğun kitapları işaretlersen ilerlemen bu cihazda saklanır.</div>';
   M.innerHTML=h;scrollTo(0,0)
  }).catch(function(){M.innerHTML='<div class="yuk">Liste yüklenemedi. İnternet bağlantını kontrol et.</div>'})
