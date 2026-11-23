@@ -4,6 +4,7 @@ B = os.path.dirname(os.path.abspath(__file__)); K = os.path.join(B, '..', '..')
 sys.path.insert(0, B)
 SIRA = ['tefsir', 'fikih', 'hadis', 'akaid', 'belagat']  # usul → fıkıh içinde Usûl-i Fıkıh
 from ek import TARIH, EK, NISPET
+from z_program import PROGRAM, ALISTIRMA
 J = lambda n: json.load(open(os.path.join(B, 'kaynak', 'bel_' + n + '.json')))
 TEZ = re.compile(r"[^.;]*(?:(?<![’'‘ʿ\w-])(?:tez|tezin|tezinde|tezi|tezler)\b|makale|DergiPark|doktora)[^.;]*[.;]?\s*", re.I)
 temiz = lambda t: TEZ.sub('', t or '').strip()
@@ -70,6 +71,7 @@ for ad in SIRA:
             assert k['ad'] and k['mu'] and k['neden'], k
             if k['ad'] in NISPET: k['nispet'] = NISPET[k['ad']]
             if k['app'] and isinstance(k['app'], (tuple, list)): k['app'] = dict(u=k['app'][0], t=k['app'][1])
+    A['program'] = PROGRAM[ad]; A['alistirma'] = ALISTIRMA[ad]
     A['kitapSayisi'] = n
     json.dump(A, open(os.path.join(K, 'data', 'ihtisas', ad + '.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
     liste.append(dict(id=ad, ad=A['ad'], ar=A['ar'], renk=A['renk'], kisa=A['kisa'], n=n, b=len(tum), on=on, u=A['usul']['ad'] if 'usul' in A else ('Edebiyat' if ad == 'belagat' else '')))
