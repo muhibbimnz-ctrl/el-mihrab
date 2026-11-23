@@ -84,11 +84,14 @@ for ad in SIRA:
         U['terimler'] = [dict(g='Terimler', items=U['terimler'])]
         A['usul'] = U
         g = set(); A['kutuphane'] = [b for b in KT if not (b['tr'] + b['mu'] in g or g.add(b['tr'] + b['mu']))]
+    if os.path.exists(os.path.join(B, 'i_' + ad + '.py')):  # araştırmaya dayalı yenileme katmanı
+        import i_ortak; i_ortak.uygula(A, importlib.import_module('i_' + ad))
     tum = A['basamaklar'] + (A['usul']['basamaklar'] if 'usul' in A else [])
     n = 0
     for s in tum:
         for k in s['kitaplar']:
             n += 1
+            if 'id' not in k: k['id'] = f"{ad}y{n}"
             assert k['ad'] and k['mu'] and k['neden'], k
             if k['ad'] in NISPET: k['nispet'] = NISPET[k['ad']]
             if k['app'] and isinstance(k['app'], (tuple, list)): k['app'] = dict(u=k['app'][0], t=k['app'][1])
