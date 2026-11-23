@@ -112,22 +112,22 @@ function nz(s){return String(s||'').normalize('NFD').replace(/[\u0300-\u036f\u06
 function toast(t){var x=$('#toast');x.textContent=t;x.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(function(){x.classList.remove('on')},2000)}
 function al(u){if(C[u])return Promise.resolve(C[u]);return fetch(u,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){return C[u]=j})}
 function renk(c){document.documentElement.style.setProperty('--acc',c);$('#top').style.background=c;var m=document.querySelector('meta[name=theme-color]');m&&m.setAttribute('content',c)}
-function sayi(id,n){var o=oku(),k=0;for(var x in o)if(o[x]&&x.indexOf(id)===0&&/^\D+\d+$/.test(x)&&x.replace(/\d+$/,'')===id)k++;return k}
+function sayi(on){var o=oku(),k=0;for(var x in o)if(o[x]&&/^\D+\d+$/.test(x)&&on.indexOf(x.replace(/\d+$/,''))>-1)k++;return k}
 
 function liste(){
  renk('#3d2a5c');$('#bas').textContent='İhtisas';$('#geri').onclick=function(){location.href='index.html'};document.title='İhtisas · el-Mihrâb';
  al('data/ihtisas/liste.json').then(function(L){
   var h='<h1>İhtisas</h1><p class="lead">Bir talebenin bir ilimde ihtiyaç duyduğu her şey: baştan sona okunacak kitaplar ve şerh zincirleri, ilmin tarihi, şahsiyetleri, kütüphanesi, terimleri ve çalışma rehberi.</p>'+
   '<div class="yol"><span>Medrese</span>→<span>Dirâset</span>→<span class="on">İhtisas</span></div><div class="alanlar">';
-  L.forEach(function(a){var k=sayi(a.id),p=Math.round(100*k/a.n);
-   h+='<a class="alan" href="#'+a.id+'"><div class="bas" style="background:'+a.renk+'"><span class="ar">'+e(a.ar)+'</span><b>'+e(a.ad)+'</b><small>'+a.b+' basamak · '+a.n+' kitap</small></div><div class="alt">'+e(a.kisa)+'<div class="bar" style="--acc:'+a.renk+'"><i style="width:'+p+'%;background:'+a.renk+'"></i></div><small>'+(k?k+' / '+a.n+' kitap okundu':'Henüz başlanmadı')+'</small></div></a>'});
+  L.forEach(function(a){var k=sayi(a.on||[a.id]),p=Math.round(100*k/a.n);
+   h+='<a class="alan" href="#'+a.id+'"><div class="bas" style="background:'+a.renk+'"><span class="ar">'+e(a.ar)+'</span><b>'+e(a.ad)+'</b><small>'+a.b+' basamak · '+a.n+' kitap'+(a.u?' · + '+e(a.u):'')+'</small></div><div class="alt">'+e(a.kisa)+'<div class="bar" style="--acc:'+a.renk+'"><i style="width:'+p+'%;background:'+a.renk+'"></i></div><small>'+(k?k+' / '+a.n+' kitap okundu':'Henüz başlanmadı')+'</small></div></a>'});
   h+='</div><div class="not">Bu bölümde makale ve tez yoktur; yalnız klasik eserler ve temel kitaplar vardır. Vefat tarihleri hicrî/milâdî verilmiştir. Okuduğun kitapları işaretlersen ilerlemen bu cihazda saklanır.</div>';
   M.innerHTML=h;scrollTo(0,0)
  }).catch(function(){M.innerHTML='<div class="yuk">Liste yüklenemedi. İnternet bağlantını kontrol et.</div>'})
 }
 
-var SEK=[['yol','Okuma yolu'],['tar','Tarih'],['sah','Şahsiyetler'],['kut','Kütüphane'],['met','Metinler'],['edb','Edebiyat'],['ter','Terimler'],['nas','Rehber']];
-var VAR={yol:'basamaklar',tar:'tarih',sah:'sahsiyetler',kut:'kutuphane',met:'metinler',edb:'edebiyat',ter:'terimler',nas:'nasil'};
+var SEK=[['yol','Okuma yolu'],['usl','Usûl'],['tar','Tarih'],['sah','Şahsiyetler'],['kut','Kütüphane'],['met','Metinler'],['edb','Edebiyat'],['ter','Terimler'],['nas','Rehber']];
+var VAR={usl:'usul',yol:'basamaklar',tar:'tarih',sah:'sahsiyetler',kut:'kutuphane',met:'metinler',edb:'edebiyat',ter:'terimler',nas:'nasil'};
 function chips(L,on,at){return'<div class="cps">'+L.map(function(x){return'<button data-'+at+'="'+e(x[0])+'"'+(x[0]===on?' class="on"':'')+'>'+e(x[1])+'</button>'}).join('')+'</div>'}
 function kisi(s){var ex=s.bio||(s.eserler&&s.eserler.length)||s.notu;return'<div class="ks'+(ex?' ac':'')+'"><div class="ku"><span class="ar">'+e(s.ar)+'</span><b>'+e(s.ad)+(s.v?' <small>(ö. '+e(s.v)+')</small>':'')+'</b><small>'+e([s.alan,s.ekol].filter(Boolean).join(' · '))+'</small><small>'+e(s.k)+'</small></div>'+(ex?'<div class="kd">'+(s.bio?'<p>'+e(s.bio)+'</p>':'')+(s.eserler&&s.eserler.length?'<b>Eserleri</b><ul>'+s.eserler.map(function(x){return'<li>'+e(x)+'</li>'}).join('')+'</ul>':'')+(s.notu?'<p class="nt">'+e(s.notu)+'</p>':'')+'</div>':'')+'</div>'}
 function bagKisi(r){[].forEach.call(r.querySelectorAll('.ks.ac .ku'),function(k){k.onclick=function(){k.parentNode.classList.toggle('acik')}})}
@@ -150,9 +150,9 @@ function edb(ic,E,alt){alt=alt||'don';
 function alan(id,sek){
  al('data/ihtisas/'+id+'.json').then(function(A){
   renk(A.renk);$('#bas').textContent=A.ad;document.title=A.ad+' · İhtisas';$('#geri').onclick=function(){location.hash=''};
-  var S=SEK.filter(function(s){var v=A[VAR[s[0]]];return v&&(v.length||v.olaylar||v.donemler)});
+  var S=SEK.filter(function(s){var v=A[VAR[s[0]]];return v&&(v.length||v.olaylar||v.donemler||v.basamaklar)}).map(function(s){return s[0]==='usl'?['usl',A.usul.ad]:s});
   if(!S.some(function(s){return s[0]===sek}))sek='yol';
-  var o=oku(),k=0;A.basamaklar.forEach(function(s){s.kitaplar.forEach(function(b){if(o[b.id])k++})});
+  var o=oku(),k=tumK(A).filter(function(b){return o[b.id]}).length;
   var p=Math.round(100*k/A.kitapSayisi);
   var h='<div class="hero" style="background:linear-gradient(135deg,'+A.renk+','+A.renk+'cc)"><span class="ar">'+e(A.ar)+'</span><h2>'+e(A.ad)+'</h2><p>'+e(A.kisa)+'</p><div class="ilr"><div class="bar"><i style="width:'+p+'%"></i></div><span>'+k+' / '+A.kitapSayisi+'</span></div></div>';
   h+='<div class="tabs">'+S.map(function(s){return'<button data-s="'+s[0]+'"'+(s[0]===sek?' class="on"':'')+'>'+s[1]+'</button>'}).join('')+'</div><div id="ic"></div>';
@@ -166,11 +166,24 @@ function alan(id,sek){
   else if(sek==='kut'){ic.innerHTML=(A.agac?'<details class="agc"><summary>'+e(A.agac.b)+'</summary><ul class="tr">'+agac(A.agac.kok)+'</ul>'+(A.agac.diger||[]).map(function(d){return'<p><b>'+e(d.name)+':</b> '+e(d.note)+'</p>'}).join('')+'</details>':'')+'<div id="kl"></div>';liste2($('#kl'),A.kutuphane,'Kitap veya müellif ara…','c',kitapL)}
   else if(sek==='met')ic.innerHTML=A.metinler.map(function(m){return'<div class="mt"><b>'+e(m.b)+'</b><p>'+e(m.ne)+'</p>'+(m.ar?'<div class="ar mta">'+e(m.ar)+'</div><small class="ar">'+e(m.ref)+'</small>':'')+'</div>'}).join('');
   else if(sek==='edb')edb(ic,A.edebiyat);
-  else if(sek==='ter'){ic.innerHTML='<input class="ara" placeholder="Terim ara (Arapça veya Türkçe)…" id="ta"><div class="tg" id="tl"></div>';var f=function(q){q=nz(q);$('#tl').innerHTML=A.terimler.map(function(g){var it=g.items.filter(function(t){return!q||nz(t.tr+' '+t.ar+' '+t.d).indexOf(q)>-1});return it.length?'<h4>'+e(g.g)+'</h4>'+it.map(function(t){return'<div class="tm"><b>'+e(t.tr)+'</b><span class="ar">'+e(t.ar)+'</span><small>'+e(t.d)+(t.ex?'<br><span class="ar">'+e(t.ex)+'</span>':'')+'</small></div>'}).join(''):''}).join('')||'<p class="lead">Sonuç yok.</p>'};f();$('#ta').oninput=function(){f(this.value)}}
+  else if(sek==='usl')usl(ic,A);
+  else if(sek==='ter')terimR(ic,A.terimler);
   else ic.innerHTML='<div class="gr">'+A.giris.map(function(x){return'<p>'+e(x)+'</p>'}).join('')+'</div><h3>Nasıl çalışılır?</h3><ol class="ns">'+A.nasil.map(function(x){return'<li>'+e(x)+'</li>'}).join('')+'</ol>';
   scrollTo(0,0)
  }).catch(function(er){console.error(er);M.innerHTML='<div class="yuk">Bu alan yüklenemedi.</div>'})
 }
+function terimR(ic,G){ic.innerHTML='<input class="ara" placeholder="Terim ara (Arapça veya Türkçe)…"><div class="tg"></div>';var tl=ic.querySelector('.tg');var f=function(q){q=nz(q);tl.innerHTML=G.map(function(g){var it=g.items.filter(function(t){return!q||nz(t.tr+' '+t.ar+' '+t.d).indexOf(q)>-1});return it.length?'<h4>'+e(g.g)+'</h4>'+it.map(function(t){return'<div class="tm"><b>'+e(t.tr)+'</b><span class="ar">'+e(t.ar)+'</span><small>'+e(t.d)+(t.ex?'<br><span class="ar">'+e(t.ex)+'</span>':'')+'</small></div>'}).join(''):''}).join('')||'<p class="lead">Sonuç yok.</p>'};f();ic.querySelector('.ara').oninput=function(){f(this.value)}}
+function tumK(A){var r=[];A.basamaklar.concat(A.usul?A.usul.basamaklar:[]).forEach(function(s){r=r.concat(s.kitaplar)});return r}
+function usl(ic,A,alt){var U=A.usul;alt=alt||'yol';
+ var L=[['yol','Okuma yolu'],['kon','Konular'],['sah','Şahsiyetler'],['ter','Terimler']];if(U.tarih)L.push(['tar','Tarih']);L.push(['reh','Rehber']);
+ ic.innerHTML='<div class="gr" style="margin:2px 0 8px"><b class="ar" style="font-size:22px;color:var(--acc);display:block;text-align:right">'+e(U.ar)+'</b><p class="lead" style="margin:2px 0 8px">'+e(U.kisa)+'</p></div>'+chips(L,alt,'u')+'<div id="ui"></div>';var ui=ic.querySelector('#ui');
+ [].forEach.call(ic.querySelectorAll('[data-u]'),function(b){b.onclick=function(){usl(ic,A,b.dataset.u)}});
+ if(alt==='yol'){ui.innerHTML=yol(U,oku());baglaYol(A)}
+ else if(alt==='kon')ui.innerHTML=U.konular.map(function(g){return'<div class="edd"><div class="eh"><b>'+e(g.g)+'</b></div>'+g.items.map(function(x){return'<div class="kb"><div class="kbu"><b>'+e(x.b)+'</b><span class="ar">'+e(x.ar)+'</span></div><div>'+e(x.d)+'</div></div>'}).join('')+'</div>'}).join('');
+ else if(alt==='sah'){ui.innerHTML='<div class="sh2">'+U.sahsiyetler.map(kisi).join('')+'</div>';bagKisi(ui)}
+ else if(alt==='ter')terimR(ui,U.terimler);
+ else if(alt==='tar')ui.innerHTML=tarih(U.tarih);
+ else ui.innerHTML='<div class="gr">'+U.giris.map(function(x){return'<p>'+e(x)+'</p>'}).join('')+'</div>'+(U.nasil?'<h3>Nasıl çalışılır?</h3><ol class="ns">'+U.nasil.map(function(x){return'<li>'+e(x)+'</li>'}).join('')+'</ol>':'')}
 function yol(A,o){
  return A.basamaklar.map(function(s,i){
   return'<div class="bsm"><span class="nk">'+(i+1)+'</span><div class="st">'+e(s.alt)+'</div><h3>'+e(s.ad)+'</h3><div class="ac">'+e(s.ac)+'</div>'+
@@ -185,7 +198,7 @@ function baglaYol(A){
  [].forEach.call(M.querySelectorAll('.kt'),function(k){
   k.querySelector('.ust').onclick=function(ev){
    if(ev.target.classList.contains('ck')){var o=oku(),id=k.dataset.id;if(o[id])delete o[id];else o[id]=1;yaz(o);k.classList.toggle('ok',!!o[id]);ev.target.textContent=o[id]?'✓':'';
-    var n=0;A.basamaklar.forEach(function(s){s.kitaplar.forEach(function(b){if(o[b.id])n++})});
+    var n=tumK(A).filter(function(b){return o[b.id]}).length;
     M.querySelector('.hero .bar i').style.width=Math.round(100*n/A.kitapSayisi)+'%';M.querySelector('.hero .ilr span').textContent=n+' / '+A.kitapSayisi;
     if(o[id])toast('Okundu olarak işaretlendi');return}
    k.classList.toggle('acik')}})
