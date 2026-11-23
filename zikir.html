@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="tr"><head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Sabah-Akşam Zikirleri — el-Mihrâb</title><meta name="theme-color" content="#0e5a43">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f4efe3;color:#24302b}
+#hd{background:linear-gradient(135deg,#0e5a43,#0b4031);color:#fff;padding:calc(10px + env(safe-area-inset-top,0px)) 14px 12px;border-radius:0 0 20px 20px;position:sticky;top:0;z-index:5;box-shadow:0 4px 14px rgba(0,0,0,.15)}
+#hd .top{display:flex;align-items:center;gap:10px}#hd a{color:#fff;text-decoration:none;background:rgba(255,255,255,.2);border-radius:12px;padding:8px 12px;font:600 14.5px system-ui;white-space:nowrap}
+#hd h1{margin:0;font-size:18px;flex:1}
+.tabs{display:flex;gap:6px;margin-top:10px}.tabs button{flex:1;border:0;border-radius:12px;padding:9px 4px;background:rgba(255,255,255,.16);color:#fff;font:600 14px system-ui;cursor:pointer}.tabs button.on{background:#f2dca4;color:#4a3a10}
+.pg{height:5px;background:rgba(255,255,255,.2);border-radius:4px;margin-top:10px;overflow:hidden}.pg div{height:100%;background:#f2dca4;width:0;transition:width .3s}
+.ops{display:flex;gap:8px;justify-content:flex-end;margin-top:8px;font-size:13px}.ops button{border:0;background:none;color:#d7e9df;font:600 13px system-ui;cursor:pointer;padding:2px 4px}
+main{max-width:760px;margin:0 auto;padding:12px 12px 80px}
+.z{background:#fffdf8;border-radius:18px;padding:14px 14px 12px;margin:0 0 12px;box-shadow:0 1px 6px rgba(0,0,0,.06);transition:opacity .3s}
+.z.ok{opacity:.55}.z h3{margin:0 0 6px;font-size:14.5px;color:#0e5a43;display:flex;justify-content:space-between;gap:8px}
+.ar{font-family:Amiri,serif;direction:rtl;font-size:25px;line-height:2.05;text-align:right;margin:4px 0 6px}
+.tr{font-size:15px;line-height:1.55;color:#4b5650;margin:0 0 8px}.hidetr .tr{display:none}
+.f{font-size:13.5px;line-height:1.5;background:#eef5f0;border-radius:12px;padding:8px 10px;color:#2f4a3d;margin:0 0 6px}
+.k{font-size:12px;color:#8a8578}
+.c{display:flex;align-items:center;gap:10px;margin-top:8px}
+.c button.say{flex:1;border:0;border-radius:14px;padding:12px;background:#0e5a43;color:#fff;font:700 17px system-ui;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.z.ok .c button.say{background:#7aa08e}.c button.rs{border:0;background:#e9e3d4;border-radius:12px;padding:10px 12px;cursor:pointer;font-size:15px}
+.note{font-size:12.5px;color:#7a7266;line-height:1.5;padding:4px 6px}
+@media(prefers-color-scheme:dark){body{background:#121815;color:#e4ece7}.z{background:#1b231f}.tr{color:#b7c4bc}.f{background:#22302a;color:#cfe2d6}.c button.rs{background:#2a3530;color:#e4ece7}.z h3{color:#8fd0b2}}
+</style></head><body>
+<div id="hd"><div class="top"><a href="./" id="bk">‹ Geri</a><h1>Zikirler · Hısnü’l-Müslim</h1></div>
+<div class="tabs"><button data-t="sabah">☀️ Sabah</button><button data-t="aksam">🌙 Akşam</button><button data-t="namaz">🕌 Namazdan sonra</button></div>
+<div class="pg"><div id="pg"></div></div>
+<div class="ops"><button id="ttr">Meâli gizle</button><button id="rst">↺ Sıfırla</button></div></div>
+<main id="m"></main>
+<script>
+var M=document.getElementById('m'),D=null,T=null;
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function gun(){var d=new Date();return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate()}
+var st={};try{st=JSON.parse(localStorage.getItem('mihrab.zikir'))||{}}catch(e){}
+if(st.g!==gun())st={g:gun(),c:{},htr:st.htr};
+function sv(){try{localStorage.setItem('mihrab.zikir',JSON.stringify(st))}catch(e){}}
+function liste(t){return D[t].map(function(x){if(!x.ref)return x;var p=x.ref.split(':'),b=D[p[0]][+p[1]],o={};for(var k in b)o[k]=b[k];for(k in x)if(k!=='ref')o[k]=x[k];return o})}
+function kalan(t,i,x){var c=st.c[t+i];return c==null?x.n:c}
+function pg(){var L=liste(T),top=0,yap=0;L.forEach(function(x,i){top+=x.n;yap+=x.n-kalan(T,i,x)});document.getElementById('pg').style.width=(top?yap/top*100:0)+'%'}
+function ciz(t){T=t;document.querySelectorAll('.tabs button').forEach(function(b){b.classList.toggle('on',b.dataset.t===t)});
+ var h='';liste(t).forEach(function(x,i){var r=kalan(t,i,x);
+  h+='<div class="z'+(r?'':' ok')+'" data-i="'+i+'"><h3><span>'+(i+1)+'. '+esc(x.b)+'</span><span>'+x.n+' kez</span></h3><div class="ar" lang="ar">'+esc(x.s)+'</div><p class="tr">'+esc(x.t)+'</p>'+(x.f?'<p class="f">✦ '+esc(x.f)+'</p>':'')+'<div class="k">Kaynak: '+esc(x.k)+'</div>'+
+  '<div class="c"><button class="say">'+(r?r+' kaldı · dokun':'✓ Tamam')+'</button><button class="rs" title="Bu zikri baştan say">↺</button></div></div>'});
+ h+='<p class="note">'+esc(D.kaynak)+' Sayaçlar her gün kendiliğinden sıfırlanır.</p>';
+ M.innerHTML=h;pg();scrollTo(0,0)}
+M.addEventListener('click',function(e){var z=e.target.closest('.z');if(!z)return;var i=+z.dataset.i,x=liste(T)[i],b=z.querySelector('.say');
+ if(e.target.closest('.rs')){delete st.c[T+i];sv();z.classList.remove('ok');b.textContent=x.n+' kaldı · dokun';pg();return}
+ if(!e.target.closest('.say'))return;var r=kalan(T,i,x);if(!r)return;r--;st.c[T+i]=r;sv();if(navigator.vibrate)try{navigator.vibrate(r?15:[40,60,40])}catch(_){}
+ b.textContent=r?r+' kaldı · dokun':'✓ Tamam';if(!r){z.classList.add('ok');var n=z.nextElementSibling;if(n&&n.classList.contains('z'))setTimeout(function(){n.scrollIntoView({behavior:'smooth',block:'start'})},250)}pg()});
+document.querySelector('.tabs').onclick=function(e){var b=e.target.closest('button');if(b){ciz(b.dataset.t);try{history.replaceState(null,'','#'+b.dataset.t)}catch(_){}}};
+var ttr=document.getElementById('ttr');function trs(){document.body.classList.toggle('hidetr',!!st.htr);ttr.textContent=st.htr?'Meâli göster':'Meâli gizle'}
+ttr.onclick=function(){st.htr=!st.htr;sv();trs()};
+document.getElementById('rst').onclick=function(){Object.keys(st.c).forEach(function(k){if(k.indexOf(T)===0)delete st.c[k]});sv();ciz(T)};
+document.getElementById('bk').onclick=function(e){if(document.referrer.indexOf(location.origin)===0&&history.length>1){e.preventDefault();history.back()}};
+trs();
+fetch('data/zikir.json').then(function(r){return r.json()}).then(function(d){D=d;var h=location.hash.slice(1);ciz(D[h]?h:(new Date().getHours()<15?'sabah':'aksam'))}).catch(function(){M.innerHTML='<p class="note">Zikirler yüklenemedi; internet bağlantınızı kontrol edin.</p>'});
+</script>
+</body></html>
