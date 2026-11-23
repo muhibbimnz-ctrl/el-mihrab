@@ -30,6 +30,7 @@ def _kisiler(X, M, varsayilan_donem):
                 p['k'] = '; '.join(p['eserler'][:3])
     adlar = {p['ad'] for p in L}
     L += [p for p in (g('KISILER', []) or []) if p['ad'] not in adlar]
+    D = D or X.get('sahsiyetDonem')
     if D:
         sira = list(D.keys())
         L.sort(key=lambda p: (sira.index(p['donem']) if p['donem'] in sira else 99, yil(p.get('v'))))

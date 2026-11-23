@@ -28,3 +28,9 @@ ALAN = dict(
 )
 ```
 Bitince: `cd tools/ihtisas && python3 -c "import t_<id>"` hatasız olmalı.
+
+## Yenileme katmanı (Tefsir, Fıkıh, Hadis, Akaid)
+Dört ana alan eski hattan (tefsir.py + z_*.py + z_tas_*.py) üretildikten sonra `i_<alan>.py` modülü `i_ortak.uygula()` ile üzerine uygulanır (yap.py içinde otomatik).
+Tanımlanabilen adlar: `DONEM, DONEM_ATA, EKOL_ATA, EK, KISILER, TASNIF(tesekkul/tasnif/ekoller/tabakat=[...]/agac=[...]), TERIM, DONEMLER, OLAY, METIN, KUT` ve aynı anahtarlarla `USUL` (+ `AD, KISA, KONU`).
+`tabakat` ve `agac` artık liste olabilir; ihtisas.html birden çok sıralama ve eser ağacını gösterir. Usûl sekmesi tasnif, metinler, kütüphane ve dönemli şahsiyetleri destekler.
+Belâgat bu katmana dahil değildir (dokunulmaz). Duman testi: `python3 tools/ihtisas/test_ui.py` (sunucusuz).
