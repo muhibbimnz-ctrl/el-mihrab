@@ -34,6 +34,12 @@ for ad in SIRA:
         A['terimler'] = [dict(g='Temel terimler', items=A['terimler'])]
         A['tarih'] = TARIH[ad]
         A['sahsiyetDonem'] = Z.DONEM; A['sahsiyetler'] = Z.KISILER; A['metinler'] = Z.METINLER
+        if os.path.exists(os.path.join(B, 'z_tas_' + ad + '.py')):
+            TS = importlib.import_module('z_tas_' + ad)
+            A['tasnif'] = TS.TASNIF; A['terimler'] += TS.TERIM; A['metinler'] = A['metinler'] + TS.METIN
+            yil = lambda o: int((re.match(r'\D*(\d+)', o['t']) or [0, 0])[1])
+            vr = {o['t'] + o['ne'][:20] for o in A['tarih']['olaylar']}
+            A['tarih'] = dict(A['tarih'], olaylar=sorted(A['tarih']['olaylar'] + [o for o in TS.OLAY if o['t'] + o['ne'][:20] not in vr], key=yil))
         kut = lambda bs: [dict(c=x['ad'], tr=k['ad'], ar=k['ar'], mu=k['mu'], v=k['v'], d=k['neden']) for x in bs for k in x['kitaplar']]
         KT = kut(A['basamaklar']) + EK[ad] + Z.KUT
     n = 0
