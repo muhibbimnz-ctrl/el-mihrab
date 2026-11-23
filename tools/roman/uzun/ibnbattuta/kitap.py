@@ -1,0 +1,1 @@
+KITAP={'id':'ibnbattuta','dil':'ar','seviye':'C1','baslik':'رحلة ابن بطوطة','tr_baslik':'İbn Battûta Seyahatnamesi — uzun','yazar':'İbn Battûta’nın Rihle’sinden (Tuhfetü’n-nüzzâr) serbest uyarlama','not':'','devam':0}
