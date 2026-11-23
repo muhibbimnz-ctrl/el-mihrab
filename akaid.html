@@ -44,7 +44,7 @@ input#ara{width:100%;border:1px solid #c9d6de;border-radius:14px;padding:11px 14
 <main id="m"><p class="not">Yükleniyor…</p></main>
 <script>setTimeout(function(){if(!window.AKAID_HAZIR){var m=document.getElementById("m");if(m)m.innerHTML='<p class="not">Sayfa açılamadı. <button onclick="location.reload()">Yenile</button> <a href="./?onar">Uygulamayı onar</a></p>'}},9000)</script>
 <script>window.AKAID_HAZIR=1;
-const HV='1';let D=null;const $=s=>document.querySelector(s),M=$('#m');
+const HV='2';const KYN='<p class="not" style="margin-top:14px;font-size:13.5px;color:#5f6f78">📜 Arapça metin: <a href="https://github.com/OpenITI/0325AH/tree/master/data/0321Tahawi/0321Tahawi.MatnCaqida" target="_blank" rel="noopener">OpenITI dijital külliyatı — Tahâvî, <i>Matnu’l-ʿAkîde</i> (JK000126)</a> ile karşılaştırılmıştır. Türkçe çeviri, açıklamalar ve sorular el-Mihrâb için hazırlanmıştır.</p>';let D=null;const $=s=>document.querySelector(s),M=$('#m');
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c]);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 function sek(id){['sK','sS','sH'].forEach(x=>$('#'+x).classList.toggle('on',x===id))}
@@ -55,7 +55,7 @@ function liste(f){sek('sK');$('#bs').textContent='Akaid Dirâsesi';const O=ok(),
  D.bolumler.forEach(b=>{const L=MD.filter(x=>x.no>=b.maddeler[0]&&x.no<=b.maddeler[1]&&(!f||(x.tr+' '+x.ar+' '+(x.serh||[]).join(' ')+' '+b.baslik).toLocaleLowerCase('tr').includes(f)));if(!L.length)return;
   h+=`<h2 class="gr">${esc(b.baslik)} <span class="ar" style="font-weight:400">${esc(b.ar||'')}</span></h2>`;
   L.forEach(x=>{h+=`<div class="lst" data-n="${x.no}"><div class="no${O[x.no]?' ok':''}">${O[x.no]?'✓':x.no}</div><div class="t"><b>${esc(x.tr.length>90?x.tr.slice(0,88)+'…':x.tr)}</b></div></div>`})});
- M.innerHTML=h;M.querySelectorAll('.lst').forEach(e=>e.onclick=()=>{location.hash='m='+e.dataset.n});if($('#dv'))$('#dv').onclick=()=>{location.hash='m='+son};
+ h+=KYN;M.innerHTML=h;M.querySelectorAll('.lst').forEach(e=>e.onclick=()=>{location.hash='m='+e.dataset.n});if($('#dv'))$('#dv').onclick=()=>{location.hash='m='+son};
  const a=$('#ara');a.oninput=()=>{const v=a.value,p=a.selectionStart;liste(v);const b=$('#ara');b.focus();b.setSelectionRange(p,p)};if(f)a.focus()}
 function madde(no){sek('sK');const MD=D.maddeler,i=MD.findIndex(x=>x.no===no),x=MD[i];if(!x)return liste();const b=bolumu(no);$('#bs').textContent='Madde '+no;LS.set('mihrab.akaidKaldim',no);const yz=LS.get('mihrab.akaidYazi',17.5),ez=LS.get('mihrab.akaidEzber',0);
  let h=`<div class="kart mad${ez?' gz':''}" style="--yz:${yz}px"><small style="color:#8a6a2c;font-weight:600">${esc(b?b.baslik:'')} · ${no}/${MD[MD.length-1].no}</small><div class="arm">${esc(x.ar)}</div><p class="trm">${esc(x.tr)}</p>`;
@@ -65,7 +65,7 @@ function madde(no){sek('sK');const MD=D.maddeler,i=MD.findIndex(x=>x.no===no),x=
  if(x.hadis&&x.hadis.length)h+=`<div class="pnl"><h3>Hadisler</h3>${x.hadis.map(a=>`<a class="ay" href="${esc(a[1])}"><b>${esc(a[2]||'')} › Arapça metni aç</b><span>${esc(a[0])}</span></a>`).join('')}</div>`;
  if(x.terim&&x.terim.length)h+=`<div class="pnl"><h3>Terimler</h3>${x.terim.map(t=>`<div class="tm"><div style="flex:1"><b>${esc(t[0])}</b> <span class="ar">${esc(t[1])}</span><br><small>${esc(t[2])}</small></div></div>`).join('')}</div>`;
  const o=ok()[no];h+=`<div class="btns"><button id="okb" class="${o?'on':''}">${o?'✓ Okundu':'Okudum'}</button><button id="ezb" class="${ez?'on':''}">Ezber modu</button><button id="dn">Dinle</button><button id="km">A−</button><button id="bu">A+</button><button id="kp">Kopyala</button></div>`;
- h+=`<div class="btns">${i>0?`<button id="on">‹ Madde ${MD[i-1].no}</button>`:''}<button id="ls">Liste</button>${i<MD.length-1?`<button id="sn">Madde ${MD[i+1].no} ›</button>`:''}</div></div>`;
+ h+=`<div class="btns">${i>0?`<button id="on">‹ Madde ${MD[i-1].no}</button>`:''}<button id="ls">Liste</button>${i<MD.length-1?`<button id="sn">Madde ${MD[i+1].no} ›</button>`:''}</div></div>`+KYN;
  M.innerHTML=h;scrollTo(0,0);
  M.querySelectorAll('.gz .arm,.gz .trm').forEach(e=>e.onclick=()=>e.classList.toggle('ac'));
  $('#okb').onclick=()=>{const O=ok();if(O[no])delete O[no];else O[no]=1;LS.set('mihrab.akaidOkundu',O);const bb=$('#okb');bb.classList.toggle('on',!!O[no]);bb.textContent=O[no]?'✓ Okundu':'Okudum'};
