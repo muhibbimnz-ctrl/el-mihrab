@@ -135,7 +135,7 @@ function liste(){
  }).catch(function(){M.innerHTML='<div class="yuk">Liste yüklenemedi. İnternet bağlantını kontrol et.</div>'})
 }
 
-var SEK=[['prg','Program'],['yol','Kitap rehberi'],['tas','Teşekkül ve Tasnif'],['usl','Usûl'],['als','Alıştırmalar'],['tar','Tarih'],['sah','Şahsiyetler'],['kut','Kütüphane'],['met','Metinler'],['edb','Edebiyat'],['ter','Terimler'],['oku','Okuma alanı'],['def','Okuma defteri'],['nas','Rehber']];
+var SEK=[['prg','Program'],['yol','Kitap rehberi'],['tas','Teşekkül ve Tasnif'],['usl','Usûl'],['tar','Tarih'],['sah','Şahsiyetler'],['kut','Kütüphane'],['edb','Edebiyat'],['ter','Terimler'],['oku','Okuma alanı'],['def','Okuma defteri'],['nas','Rehber']];
 var VAR={oku:'nasil',tas:'tasnif',prg:'program',als:'alistirma',def:'basamaklar',usl:'usul',yol:'basamaklar',tar:'tarih',sah:'sahsiyetler',kut:'kutuphane',met:'metinler',edb:'edebiyat',ter:'terimler',nas:'nasil'};
 function chips(L,on,at){return'<div class="cps">'+L.map(function(x){return'<button data-'+at+'="'+e(x[0])+'"'+(x[0]===on?' class="on"':'')+'>'+e(x[1])+'</button>'}).join('')+'</div>'}
 function kisi(s){var ex=s.bio||(s.eserler&&s.eserler.length)||s.notu;return'<div class="ks'+(ex?' ac':'')+'"><div class="ku"><span class="ar">'+e(s.ar)+'</span><b>'+e(s.ad)+(s.v?' <small>(ö. '+e(s.v)+')</small>':'')+'</b><small>'+e([s.alan,s.ekol].filter(Boolean).join(' · '))+'</small><small>'+e(s.k)+'</small></div>'+(ex?'<div class="kd">'+(s.bio?'<p>'+e(s.bio)+'</p>':'')+(s.eserler&&s.eserler.length?'<b>Eserleri</b><ul>'+s.eserler.map(function(x){return'<li>'+e(x)+'</li>'}).join('')+'</ul>':'')+(s.notu?'<p class="nt">'+e(s.notu)+'</p>':'')+'</div>':'')+'</div>'}
@@ -222,7 +222,7 @@ function defter(ic,A){var D=lsA(DK),L=(D[A.id]||[]),bg=new Date().toISOString().
  [].forEach.call(ic.querySelectorAll('[data-d]'),function(b){b.onclick=function(){var D=lsA(DK);D[A.id].splice(+b.dataset.d,1);lsY(DK,D);defter(ic,A)}})}
 function tumK(A){var r=[];A.basamaklar.concat(A.usul?A.usul.basamaklar:[]).forEach(function(s){r=r.concat(s.kitaplar)});return r}
 function usl(ic,A,alt){var U=A.usul;alt=alt||'yol';
- var L=[['yol','Okuma yolu'],['kon','Konular']];if(U.tasnif)L.push(['tas','Teşekkül ve Tasnif']);L.push(['sah','Şahsiyetler'],['ter','Terimler']);if(U.tarih)L.push(['tar','Tarih']);if(U.metinler&&U.metinler.length)L.push(['met','Metinler']);if(U.kutuphane&&U.kutuphane.length)L.push(['kut','Kütüphane']);L.push(['reh','Rehber']);
+ var L=[['yol','Okuma yolu'],['kon','Konular']];if(U.tasnif)L.push(['tas','Teşekkül ve Tasnif']);L.push(['sah','Şahsiyetler'],['ter','Terimler']);if(U.tarih)L.push(['tar','Tarih']);if(U.kutuphane&&U.kutuphane.length)L.push(['kut','Kütüphane']);L.push(['reh','Rehber']);
  ic.innerHTML='<div class="gr" style="margin:2px 0 8px"><b class="ar" style="font-size:22px;color:var(--acc);display:block;text-align:right">'+e(U.ar)+'</b><p class="lead" style="margin:2px 0 8px">'+e(U.kisa)+'</p></div>'+chips(L,alt,'u')+'<div id="ui"></div>';var ui=ic.querySelector('#ui');
  [].forEach.call(ic.querySelectorAll('[data-u]'),function(b){b.onclick=function(){usl(ic,A,b.dataset.u)}});
  if(alt==='yol'){ui.innerHTML=yol(U,oku());baglaYol(A)}
