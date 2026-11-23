@@ -17,8 +17,8 @@ function notKoy(n){return is(NT,'readwrite',function(s){return s.put(n)})}
 function boyut(b){return b>1048576?(b/1048576).toFixed(1)+' MB':Math.max(1,Math.round(b/1024))+' KB'}
 function tost(t){var x=document.getElementById('toast');if(!x){x=document.createElement('div');x.id='toast';document.body.appendChild(x)}x.textContent=t;x.classList.add('on');x.style.zIndex=99;clearTimeout(tost.t);tost.t=setTimeout(function(){x.classList.remove('on')},2400)}
 var pdfjsP=null;
-function pdfjs(){if(!pdfjsP)pdfjsP=import('./'+PDFJS+'pdf.min.js').then(function(m){m.GlobalWorkerOptions.workerSrc=PDFJS+'pdf.worker.min.js';return m}).catch(function(x){pdfjsP=null;throw new Error('PDF okuyucu yüklenemedi (internet bağlantısını kontrol edip bir kez daha dene)')});return pdfjsP}
-function ayar(){return{cMapUrl:PDFJS+'cmaps/',cMapPacked:true,standardFontDataUrl:PDFJS+'standard_fonts/',wasmUrl:PDFJS+'wasm/',iccUrl:PDFJS+'iccs/',isEvalSupported:false,stopAtErrors:false}}
+function pdfjs(){if(!pdfjsP)pdfjsP=import('./'+PDFJS+'pdf.min.js').then(function(m){m.GlobalWorkerOptions.workerSrc=new URL(PDFJS+'pdf.worker.min.js',location.href).href;return m}).catch(function(x){pdfjsP=null;throw new Error('PDF okuyucu yüklenemedi (internet bağlantısını kontrol edip bir kez daha dene)')});return pdfjsP}
+function ayar(){var K=new URL(PDFJS,location.href).href;return{cMapUrl:K+'cmaps/',cMapPacked:true,standardFontDataUrl:K+'standard_fonts/',wasmUrl:K+'wasm/',iccUrl:K+'iccs/',useWasm:true,isEvalSupported:false,stopAtErrors:false}}
 function veriBlob(k){return k.blob||k.veri}
 /* PDF açıcı: dosyayı parça parça okur (büyük kitaplar belleği doldurmaz); olmazsa tümünü okur. Şifreli PDF'te şifre sorar. */
 function belgeAc(P,blob,sifreSor){
