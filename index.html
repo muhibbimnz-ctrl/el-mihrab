@@ -468,7 +468,7 @@ a{color:var(--accent)}
     <div class="nmg">
       <button class="tile t1" id="hRead"><svg viewBox="0 0 64 48"><path d="M32 12C24 6 14 5 6 7v32c8-2 18-1 26 5 8-6 18-7 26-5V7c-8-2-18-1-26 5z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M32 12v32" stroke="currentColor" stroke-width="3"/></svg><b>Kur'ân-ı Kerîm oku</b></button>
       <button class="tile t3" id="hElifba"><span class="ar" style="font-size:30px;line-height:1;opacity:1">اَلِفْ بَا</span><b>Kur'an Öğren</b></button>
-      <button class="tile" id="hIzle" style="background:linear-gradient(135deg,#0b3d2e,#1d6b52 55%,#b08a3e)"><span style="font-size:30px;line-height:1">▶</span><b>İzle · Dinle</b><small>Hutbe · Vaaz · Canlı</small></button>
+      <button class="tile" id="hIzle" style="background:linear-gradient(135deg,#0b3d2e,#1d6b52 55%,#b08a3e)"><span style="font-size:30px;line-height:1">▶</span><b>İzle · Dinle</b><small>Hutbe · Canlı · Hikâyeler</small></button>
       <button class="tile" id="hCocuk" style="background:linear-gradient(135deg,#1f8a70,#fb8500)"><span style="font-size:30px;line-height:1">🧒</span><b>Çocuk Köşesi</b></button>
       <button class="tile t4" data-dil="farsca"><span class="big">ف</span><b>Farsça</b></button>
       <button class="tile t5" data-dil="ingilizce"><span class="big">En</span><b>İngilizce</b></button>
@@ -480,10 +480,9 @@ a{color:var(--accent)}
 <section class="izp hide" id="izle">
   <div class="rd-h"><button class="ib" id="izX" title="Kapat"></button><b>İzle · Dinle</b><span style="flex:1"></span></div>
   <div class="nm-in">
-    <div class="dl-h">Cuma hutbesi ve vaaz</div>
+    <div class="dl-h">Cuma hutbesi</div>
     <div class="gl">
       <div class="gcard hv" id="gHutbe"></div>
-      <div class="gcard hv" id="gVaaz"></div>
     </div>
     <div class="dl-h">Canlı yayın · Mekke ve Medine</div>
     <div class="cny" id="cny"></div>
@@ -1007,7 +1006,7 @@ async function hutbeVaaz(){const H=$('#gHutbe'),Vz=$('#gVaaz');if(!H||H.dataset.
     const o=$('[data-o]',H);if(o)o.onclick=()=>ac(h.baslik,'Cuma hutbesi · '+tr,h.metin.map(p=>`<p>${esc(p)}</p>`).join('')+`<p class="gs">Kaynak: Diyanet İşleri Başkanlığı, Din Hizmetleri Genel Müdürlüğü</p>`);
     const sb=$('[data-s]',H);if(sb){let au=null;sb.onclick=()=>{if(au&&!au.paused){au.pause();sb.textContent='▶ Dinle';return}au=au||new Audio(h.ses);au.play().then(()=>sb.textContent='⏸ Durdur').catch(()=>toast('Ses açılamadı'));au.onended=()=>sb.textContent='▶ Dinle'}}
     $('[data-g]',H).onclick=()=>ac('Önceki hutbeler','Diyanet İşleri Başkanlığı',(d.hutbeler||[]).map(x=>`<p style="font-size:15px;margin:0 0 8px"><b>${esc(new Date(x.tarih+'T12:00').toLocaleDateString('tr-TR'))}</b> · ${esc(x.baslik)} ${x.pdf?`· <a href="${esc(x.pdf)}" target="_blank" rel="noopener">PDF</a>`:''} ${x.ses?`· <a href="${esc(x.ses)}" target="_blank" rel="noopener">ses</a>`:''}</p>`).join(''))}}catch(e){H.remove()}
-  try{const d=await (await fetch('data/vaaz.json',{cache:'no-cache'})).json();const L=d.vaazlar||[];if(L.length){const t=new Date(),j=new Date(Date.UTC(t.getFullYear(),0,1)),hf=Math.floor((t-j)/6048e5);const v=L[hf%L.length];
+  if(Vz)try{const d=await (await fetch('data/vaaz.json',{cache:'no-cache'})).json();const L=d.vaazlar||[];if(L.length){const t=new Date(),j=new Date(Date.UTC(t.getFullYear(),0,1)),hf=Math.floor((t-j)/6048e5);const v=L[hf%L.length];
     Vz.innerHTML=`<div class="gk">Haftanın vaazı</div><b class="t">${esc(v.b)}</b><div class="gs">${esc(v.p[0].slice(0,110))}…</div><div class="row"><button data-v="1">Oku</button></div>`;
     $('[data-v]',Vz).onclick=()=>ac(v.b,'Haftanın vaazı',`<div class="ay">📖 ${esc(v.ayet[0])} <b>(${esc(v.ayet[1])})</b></div>`+v.p.map(p=>`<p>${esc(p)}</p>`).join('')+`<div class="ay">📜 ${esc(v.hadis[0])} <b>(${esc(v.hadis[1])})</b></div>`)}else Vz.remove()}catch(e){Vz.remove()}}
 function gunluk(){hutbeVaaz();
