@@ -51,9 +51,9 @@ table.ir{width:100%;border-collapse:collapse}table.ir td{border-bottom:1px solid
 <script>window.FIKIH_HAZIR=1;
 var M=document.getElementById('m'),MS=[],KL=[],KC={},acik='';
 var MZ=[['maliki','Mâlikî'],['safii','Şâfiî'],['hanbeli','Hanbelî']];
-var KAD={kuduri:'Kudûrî',hidaye:'Hidâye',ihtiyar:'el-İhtiyâr',kenz:'Kenz',bidaye:'Bidâyetü’l-Müctehid',risale:'er-Risâle',minhac:'Minhâc',umde:'Umde'};
+var KAD={nurizah:'Nûru’l-Îzâh',meraki:'Merâki’l-Felâh',lubab:'el-Lübâb',bedai:'Bedâi‘',mebsut:'Mebsût',reddulmuhtar:'İbn Âbidîn',kuduri:'Kudûrî',hidaye:'Hidâye',ihtiyar:'el-İhtiyâr',kenz:'Kenz',bidaye:'Bidâyetü’l-Müctehid',risale:'er-Risâle',minhac:'Minhâc',umde:'Umde'};
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
-var HV='10';function getJ(u){return fetch(u+'?v='+HV,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()})}
+var HV='11';function getJ(u){return fetch(u+'?v='+HV,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()})}
 function pop(h){document.getElementById('pc').innerHTML=h;document.getElementById('pop').classList.add('on')}
 document.getElementById('px').onclick=function(){document.getElementById('pop').classList.remove('on')};
 function anrm(t){return (t||'').replace(/[\u064B-\u065F\u0670\u0640]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه')}
@@ -126,7 +126,7 @@ function mesele(i){var x=MS[i];document.getElementById('ttl').textContent=x.basl
   history.replaceState(null,'','#m='+x.id);scrollTo(0,0)}
 /* ===== Kütüphane ===== */
 function kutuphane(){sek('K');document.getElementById('ttl').textContent='Fıkıh kütüphanesi';
-  var h='',gr={};KL.forEach(function(b){var m=(b.muellif.split('·')[1]||'').trim();(gr[m]=gr[m]||[]).push(b)});
+  var h='<p class="not"><b>Fıkıh kütüphanesi</b> · '+KL.length+' kitap · Ebû Hanîfe’nin risâleleri, Hanefî metin-şerh zinciri, dört mezhebin temel metinleri, usûl-i fıkıh (fukahâ ve mütekellimîn yolu), kavâid ve makâsıd.</p>',gr={};KL.forEach(function(b){var m=(b.muellif.split('·')[1]||'').trim();(gr[m]=gr[m]||[]).push(b)});
   Object.keys(gr).forEach(function(g){h+='<h2 style="font-size:15px;margin:16px 4px 4px;color:#6d7a72">'+esc(g)+'</h2>';gr[g].forEach(function(b){h+='<div class="lst" data-k="'+b.k+'"><div class="no">'+b.bolum+'</div><div class="t"><b>'+esc(b.ad)+'</b><small>'+esc(b.muellif.split('·')[0])+'</small></div><div class="a ar">'+esc(b.ar)+'</div></div>'})});
   h+='<p class="not">Arapça metinler OpenITI külliyatından alınmıştır (CC BY-NC-SA 4.0).</p>';M.innerHTML=h;
   [].forEach.call(M.querySelectorAll('[data-k]'),function(d){d.onclick=function(){kitap(d.getAttribute('data-k'))}});history.replaceState(null,'','#kt');scrollTo(0,0)}
@@ -139,8 +139,10 @@ function kitap(k){var b=KL.filter(function(x){return x.k===k})[0]||{ad:k,ar:'',m
       UL.innerHTML=(x||'<p class="not">Bulunamadı.</p>')+(faz?'<div class="nav"><button id="udf">Daha fazla</button></div>':'');if(faz)document.getElementById('udf').onclick=function(){ciz(f,lim+500)};
       [].forEach.call(UL.querySelectorAll('[data-i]'),function(d){d.onclick=function(){kitapBolum(k,+d.getAttribute('data-i'),g?f:'')}})}
     ciz('');var t;document.getElementById('uf').oninput=function(e){clearTimeout(t);t=setTimeout(function(){ciz(e.target.value)},300)};history.replaceState(null,'','#kt='+k);scrollTo(0,0)}).catch(function(){M.innerHTML='<p class="not">Yüklenemedi.</p>'})}
+var PC={};function parcaDoldur(k,S,i){var s=S[i];if(!s||s[1]||s[2]==null)return Promise.resolve(S);var c=s[2],key=k+'/'+c;
+  return (PC[key]?Promise.resolve(PC[key]):getJ('data/fikih/'+k+'/'+c+'.json').then(function(d){PC[key]=d.t;return d.t})).then(function(T){S.forEach(function(x){if(x[2]===c&&!x[1])x[1]=T[x[3]]||''});return S})}
 function kitapBolum(k,i,vurgu,donus){var b=KL.filter(function(x){return x.k===k})[0]||{ad:k};M.innerHTML='<p class="not">Yükleniyor…</p>';
-  kitapAl(k).then(function(S){var s=S[i];document.getElementById('ttl').textContent=b.ad;
+  kitapAl(k).then(function(S){return parcaDoldur(k,S,i)}).then(function(S){var s=S[i];document.getElementById('ttl').textContent=b.ad;
     var v=vurgu?anrm(vurgu):'';
     function isle(p){var e=esc(p).replace(/\*\*([^*]+)\*\*/g,'<b style="color:#8a6a2c">$1</b>');if(!v)return e;var n=anrm(e);if(n.length!==e.length)return e;var o='',j=0,q;while((q=n.indexOf(v,j))>=0){o+=e.slice(j,q)+'<mark style="background:#f3d98b;color:inherit">'+e.slice(q,q+v.length)+'</mark>';j=q+v.length}return o+e.slice(j)}
     M.innerHTML=(donus!=null?'<div class="nav" style="margin-top:0"><button id="geri">‹ Meseleye dön</button></div>':'')+'<div class="kart"><div class="bas"><span>'+esc(b.ad)+'</span><span>'+(i+1)+' / '+S.length+'</span></div><h3 class="ar" style="font-size:24px;color:#2f5d4e;margin:4px 0 10px">'+esc(s[0])+'</h3>'+s[1].split('\n\n').map(function(p){return '<p class="ar" style="font-size:21px;line-height:2;margin:0 0 12px;text-align:justify">'+isle(p)+'</p>'}).join('')+'<div class="btns"><button id="ud">Dinle</button><button id="uc">Kopyala</button></div></div>'+
