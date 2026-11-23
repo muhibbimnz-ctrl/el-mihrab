@@ -1,7 +1,7 @@
 # Romanların sırası (okuma ekranındaki liste bu sırayla çıkar). Yeni kitap: buraya id ekle.
 SIRA=['sindbad','cuha','hamama','kalila','hayy','battuta','gulistan','sohrab','masnavi','prince','aesop','crusoe','gulliver','holmes','carol','verne']
 # Uzun romanlar (tools/roman/uzun/<id>/); 150 sayfayı geçince listeye kendiliğinden girer
-UZUN=['selahaddin','sharl']
+UZUN=['arslan','secere','selahaddin','sharl']
 # Listede gösterilmeyen (sözlüğü ortak havuzda kalan) kitaplar: uzun hâli olanların kısa sürümleri
 GIZLI=[]  # Farsça: Gülistan, Mesnevî (Tûtî içinde) ve Rüstem ve Sührâb; silinenlerin sözlüğü fa_havuz_sozluk.txt'de
 import importlib.util,os
