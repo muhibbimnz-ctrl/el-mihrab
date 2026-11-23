@@ -70,7 +70,7 @@ var CSS=
 '.kt-ic{list-style:none;margin:0;padding:0}.kt-ic ul{list-style:none;margin:0;padding-left:16px}.kt-ic li>div{display:flex;justify-content:space-between;gap:8px;padding:8px 4px;border-bottom:1px solid #e6d9c2;cursor:pointer}.kt-ic li>div small{color:#8a6243}'+
 '.kt-tm{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px}.kt-tm button{border:2px solid transparent;border-radius:12px;height:64px;font-weight:700}.kt-tm button.on{border-color:#5b3d2a}'+
 '.kt-zm{display:flex;gap:8px;align-items:center;margin-bottom:12px}.kt-zm button{flex:1;border:0;background:#ece1cd;color:#2a221c;border-radius:12px;height:44px;font-weight:700;font-size:16px}.kt-zm span{min-width:60px;text-align:center;font-weight:700}'+
-'body:has(#kt-o) #toast{bottom:150px!important;z-index:99}.kt-sc{display:flex;align-items:center;justify-content:space-between;padding:8px 2px;border-top:1px solid #e6d9c2}.kt-bos2{color:#8a7a66;text-align:center;padding:18px}';
+'body:has(#kt-o) #toast{bottom:150px!important;z-index:99}body:has(#kt-o) #toast:not(.on){opacity:0;pointer-events:none}.kt-sc{display:flex;align-items:center;justify-content:space-between;padding:8px 2px;border-top:1px solid #e6d9c2}.kt-bos2{color:#8a7a66;text-align:center;padding:18px}';
 function stil(){if(document.getElementById('kt-css'))return;var s=document.createElement('style');s.id='kt-css';s.textContent=CSS;document.head.appendChild(s)}
 
 /* ---------- Yedekleme: kitaplar + notlar + okuma defteri tek dosyada ---------- */
