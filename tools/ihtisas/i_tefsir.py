@@ -247,7 +247,7 @@ DONEMLER = [dict(ad=t['ad'], aralik=t['aralik'], d=t['d']) for t in TASNIF['tese
 OLAY = [
  dict(t='12/633', kim='Hz. Ebû Bekir – Zeyd b. Sâbit', ne='Yemâme savaşından sonra Kur’an iki kapak arasında toplandı.', neden='Hâfızların şehit olması metnin kaybolma endişesini doğurdu.'),
  dict(t='25/646 civarı', kim='Hz. Osman', ne='Mushaflar çoğaltılıp merkezlere gönderildi.', neden='Fetih bölgelerinde okuyuş farkları tartışma çıkarmıştı.'),
- dict(t='II/VIII. yy başı', kim='Mücâhid', ne='Mekke mektebinin tefsiri yazıya geçirildi.', neden='Tâbiîn tefsirinin ilk yazılı nüshalarından biridir.'),
+ dict(t='100/718 civarı', kim='Mücâhid', ne='Mekke mektebinin tefsiri yazıya geçirildi.', neden='Tâbiîn tefsirinin ilk yazılı nüshalarından biridir.'),
  dict(t='150/767', kim='Mukātil b. Süleyman', ne='Günümüze ulaşan ilk tam tefsir.', neden='Tefsir hadisten bağımsız, baştan sona bir eser hâline geldi.'),
  dict(t='207/822', kim='Ferrâ', ne='Meâni’l-Kur’ân yazıldı.', neden='Nahiv ve i‘râb tefsirin ayrılmaz parçası oldu.'),
  dict(t='310/923', kim='Taberî', ne='Câmiu’l-beyân tamamlandı.', neden='Rivayet ve dirâyeti birleştiren yöntem kurucu metin oldu.'),
