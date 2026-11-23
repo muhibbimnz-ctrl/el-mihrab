@@ -408,3 +408,5 @@ USUL = dict(
   B('Modern Türkçe', 'Hadis Istılahlarının Doğuşu ve Gelişimi', 'نشأة مصطلح الحديث', 'Ahmet Yücel', 'XXI. yy', 'İlk üç asırda terimlerin gelişimi.')],
 )
 USUL['DONEMLER'] = [dict(ad=t['ad'], aralik=t['aralik'], d=t['d']) for t in USUL['TASNIF']['tesekkul']]
+
+KAYNAK = 'TDV İslâm Ansiklopedisi (Hadis, Hadis Usûlü, er-Risâletü’l-müstetrafe, Tabakat maddeleri); Kettânî, er-Risâletü’l-müstatrafe; İbnü’s-Salâh, Ulûmü’l-hadîs; İbn Hacer, Nuhbetü’l-fiker ve Takrîbü’t-Tehzîb mukaddimesi; Dihlevî, Huccetullâhi’l-bâliğa; Talat Koçyiğit ve Ahmet Yücel’in Hadis Usûlü kitapları.'

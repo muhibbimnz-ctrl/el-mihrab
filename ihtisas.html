@@ -129,10 +129,8 @@ function liste(){
   '<div class="yol"><span>Medrese</span>→<span>Dirâset</span>→<span class="on">İhtisas</span></div><div class="alanlar">';
   var kart=function(a){var k=sayi(a.on||[a.id]),p=Math.round(100*k/a.n);
    h+='<a class="alan" href="#'+a.id+'"><div class="bas" style="background:'+a.renk+'"><span class="ar">'+e(a.ar)+'</span><b>'+e(a.ad)+'</b><small>'+a.b+' basamak · '+a.n+' kitap'+(a.u?' · + '+e(a.u):'')+'</small></div><div class="alt">'+e(a.kisa)+'<div class="bar" style="--acc:'+a.renk+'"><i style="width:'+p+'%;background:'+a.renk+'"></i></div><small>'+(k?k+' / '+a.n+' kitap okundu':'Henüz başlanmadı')+'</small></div></a>'};
-  L.filter(function(a){return!a.grup}).forEach(kart);
-  var KU=L.filter(function(a){return a.grup==='kutu'});
-  if(KU.length){h+='</div><div class="kutu"><div class="kh"><b>Tarih · Dinler · Mezhepler</b><small>İslâm tarihi, dinler tarihi ve mezhepler tarihi</small></div><div class="alanlar">';KU.forEach(kart);h+='</div>'}
-  h+='</div><div class="not">Bu bölümde makale ve tez yoktur; yalnız klasik eserler ve temel kitaplar vardır. Vefat tarihleri hicrî/milâdî verilmiştir. Okuduğun kitapları işaretlersen ilerlemen bu cihazda saklanır.</div>';
+  L.filter(function(a){return!a.grup}).concat(L.filter(function(a){return a.grup})).forEach(kart);
+  h+='</div><div class="not"><b>Kaynaklar:</b> Bu bölümdeki bilgiler başta TDV İslâm Ansiklopedisi olmak üzere her ilmin klasik kaynaklarından (Süyûtî’nin el-İtkân’ı, Zehebî’nin et-Tefsîr ve’l-müfessirûn’u, Kettânî’nin er-Risâletü’l-müstatrafe’si, İbn Haldun’un Mukaddime’si, İbn Hacer, İbnü’s-Salâh, İbn Âbidîn, Şehristânî gibi), İslâm Düşünce Atlası’ndan ve Türkçe temel ders kitaplarından derlenmiş; kaynak cümleleri kopyalanmadan özetlenerek yazılmıştır. Her ilmin sayfasının sonunda o ilimde yararlanılan kaynaklar ayrıca yazılıdır.<br><br>Bu bölümde makale ve tez listesi yoktur; yalnız klasik eserler ve temel kitaplar vardır. Vefat tarihleri hicrî/milâdî verilmiştir. Okuduğun kitapları işaretlersen ilerlemen bu cihazda saklanır.</div>';
   M.innerHTML=h;scrollTo(0,0)
  }).catch(function(){M.innerHTML='<div class="yuk">Liste yüklenemedi. İnternet bağlantını kontrol et.</div>'})
 }
@@ -177,7 +175,9 @@ function alan(id,sek){
   var o=oku(),k=tumK(A).filter(function(b){return o[b.id]}).length;
   var p=Math.round(100*k/A.kitapSayisi);
   var h='<div class="hero" style="background:linear-gradient(135deg,'+A.renk+','+A.renk+'cc)"><span class="ar">'+e(A.ar)+'</span><h2>'+e(A.ad)+'</h2><p>'+e(A.kisa)+'</p><div class="ilr"><div class="bar"><i style="width:'+p+'%"></i></div><span>'+k+' / '+A.kitapSayisi+'</span></div></div>';
-  h+='<div class="tabs">'+S.map(function(s){return'<button data-s="'+s[0]+'"'+(s[0]===sek?' class="on"':'')+'>'+s[1]+'</button>'}).join('')+'</div><div id="ic"></div>';
+  var KY={islamtarihi:'TDV İslâm Ansiklopedisi (ilgili tarih maddeleri); İbn Sa‘d, et-Tabakāt; Taberî, Târîhu’r-rusül ve’l-mülûk; İbnü’l-Esîr, el-Kâmil; İbn Haldun, Mukaddime; Türkçe İslâm tarihi ders kitapları.',dinler:'TDV İslâm Ansiklopedisi (dinler tarihi maddeleri); Şehristânî, el-Milel ve’n-nihal; Bîrûnî, Tahkîk mâ li’l-Hind; İbn Hazm, el-Fasl; Türkçe dinler tarihi ders kitapları.',mezhepler:'TDV İslâm Ansiklopedisi (fırka ve mezhep maddeleri); Eş‘arî, Makālâtü’l-İslâmiyyîn; Bağdâdî, el-Fark beyne’l-fırak; Şehristânî, el-Milel ve’n-nihal; Türkçe mezhepler tarihi ders kitapları.',belagat:'TDV İslâm Ansiklopedisi (belâgat maddeleri); Cürcânî, Delâilü’l-i‘câz ve Esrârü’l-belâga; Sekkâkî, Miftâhu’l-ulûm; Kazvînî, Telhîs ve şerhleri; Türkçe belâgat kitapları.'};
+  var kyn=A.kaynak||KY[id]||'TDV İslâm Ansiklopedisi ve alanın klasik kaynakları.';
+  h+='<div class="tabs">'+S.map(function(s){return'<button data-s="'+s[0]+'"'+(s[0]===sek?' class="on"':'')+'>'+s[1]+'</button>'}).join('')+'</div><div id="ic"></div><div class="not"><b>Kaynaklar:</b> '+e(kyn)+' Bilgiler kopyalanmadan özetlenerek yazılmıştır; bu bölümde makale ve tez yoktur.</div>';
   M.innerHTML=h;
   [].forEach.call(M.querySelectorAll('.tabs button'),function(b){b.onclick=function(){history.replaceState(null,'','#'+id+'/'+b.dataset.s);alan(id,b.dataset.s)}});
   var t=M.querySelector('.tabs .on');t&&t.scrollIntoView&&t.scrollIntoView({inline:'center',block:'nearest'});

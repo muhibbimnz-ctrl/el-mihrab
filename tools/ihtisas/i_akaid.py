@@ -324,3 +324,5 @@ USUL = dict(
 )
 USUL['DONEMLER'] = [dict(ad=t['ad'], aralik=t['aralik'], d=t['d']) for t in USUL['TASNIF']['tesekkul']]
 del DONEMLER
+
+KAYNAK = 'TDV İslâm Ansiklopedisi (Kelâm, Akaid, Mâtürîdiyye, Eş‘ariyye ve ilgili maddeler); İbn Haldun, Mukaddime; Nesefî, el-Akāid; Îcî, el-Mevâkıf; Teftâzânî, Şerhu’l-Akāid; Taşköprizâde, Miftâhu’s-saâde; Saçaklızâde, Tertîbü’l-ulûm; Bekir Topaloğlu, Kelâm İlmi: Giriş; İslâm Düşünce Atlası.'

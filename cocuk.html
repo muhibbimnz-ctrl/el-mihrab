@@ -77,6 +77,7 @@ footer{color:var(--muted);text-align:center;font-size:13px;margin:30px 0 10px}
 <div id="top"><a id="geri" href="index.html">←</a><b id="baslik">Çocuk Köşesi</b><span class="yz" id="yz">⭐ 0</span></div>
 <main id="m"><p>Yükleniyor…</p></main>
 <div id="toast"></div>
+<script src="cocuk-oyun.js"></script>
 <script>
 'use strict';
 var V=null,$=function(s){return document.querySelector(s)};
@@ -273,11 +274,12 @@ function quiz(kutu,sorular,bitince){var i=0,dogru=0;
       if(!ok)[].forEach.call(kutu.querySelectorAll('[data-o]'),function(x){if(x.dataset.o===s.d)x.classList.add('ok')});
       setTimeout(function(){delete kutu.dataset.kilit;i++;goster()},ok?700:1500)}})}
   goster()}
-function oyunlar(){sayfa('Oyunlar','<h1>🎮 Oyunlar</h1><p class="lead">Oyna, öğren, yıldız kazan!</p><div class="tiles">'+[
+function oyunlar(){var BO=window.BUYUK_OYUN;sayfa('Oyunlar','<h1>🎮 Oyunlar</h1><p class="lead">Oyna, öğren, yıldız kazan!</p>'+(BO?'<div class="bgh">⭐ Büyük oyunlar</div><div class="tiles" style="margin-bottom:16px">'+BO.tiles.map(function(o){return '<button class="tile wide" style="background:'+o[4]+'" data-g="oyun/'+o[0]+'"><span class="yas">'+o[5]+'</span><span class="e">'+o[1]+'</span><b>'+o[2]+'</b><small>'+o[3]+'</small></button>'}).join('')+'</div><div class="bgh">Küçük oyunlar</div>':'')+'<div class="tiles">'+[
   ['bilgi','🧠','Bilgi Yarışması','10 soru','#3a86ff'],['dy','👍','Doğru mu, Yanlış mı?','Edep ve ahlak','#ef476f'],['hafiza','🃏','Hafıza Kartları','Eşini bul','#8338ec'],['sira-namaz','🧎','Namaz Sırası','Adımları sırala','#1f8a70'],['sira-abdest','💧','Abdest Sırası','Adımları sırala','#2a9d8f'],['harf','🔤','Kim Bu?','İslam büyüklerini tanı','#e76f51']
   ].map(function(o){return '<button class="tile" style="background:'+o[4]+'" data-g="oyun/'+o[0]+'"><span class="e">'+o[1]+'</span><b>'+o[2]+'</b><small>'+o[3]+'</small></button>'}).join('')+'</div>','#');
   [].forEach.call(document.querySelectorAll('[data-g]'),function(b){b.onclick=function(){location.hash=b.dataset.g}})}
 function oyun(k){
+  var BO=window.BUYUK_OYUN;if(BO&&BO.ac(k))return;
   if(k==='bilgi'||k==='harf'){var havuz=V.oyun.bilgi.filter(function(q){return k==='harf'?(q.k==='buyuk'||q.k==='kissa'):q.k!=='buyuk'});
     sayfa(k==='harf'?'Kim Bu?':'Bilgi Yarışması','<h1>'+(k==='harf'?'🌟 Kim Bu?':'🧠 Bilgi Yarışması')+'</h1><div id="qz"></div>','#oyunlar');
     quiz($('#qz'),karis(havuz).slice(0,10),function(n,t){if(n===t)bitti('o:'+k+':'+gun(),2)})}

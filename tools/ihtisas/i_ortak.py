@@ -70,6 +70,7 @@ def _ortak(X, M):
         K = X.get('kutuphane') or []
         s = {b['tr'] + b['mu'] for b in K}
         X['kutuphane'] = K + [b for b in g('KUT') if not (b['tr'] + b['mu'] in s or s.add(b['tr'] + b['mu']))]
+    if g('KAYNAK'): X['kaynak'] = g('KAYNAK')
     if g('KONU'): X['konular'] = (X.get('konular') or []) + g('KONU')
     for k in ('ad', 'kisa'):
         if g(k.upper()): X[k] = g(k.upper())

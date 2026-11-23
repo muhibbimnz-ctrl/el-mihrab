@@ -466,3 +466,5 @@ USUL = dict(
   B('Modern Türkçe', 'Fıkıh Usûlü El Kitabı', 'أصول الفقه', 'Talip Türcan', '2019', 'Güncel akademik ders kitabı.')],
 )
 USUL['DONEMLER'] = [dict(ad=t['ad'], aralik=t['aralik'], d=t['d']) for t in USUL['TASNIF']['tesekkul']]
+
+KAYNAK = 'TDV İslâm Ansiklopedisi (Fıkıh, Fıkıh Usûlü, Mezhep, Tabakat, Mecelle maddeleri); Hudarî, Târîhu’t-teşrî‘i’l-İslâmî; Kâmil Miras, Târîh-i İlm-i Fıkh; İbn Âbidîn, Reddü’l-muhtâr mukaddimesi ve Ukūdü resmi’l-müftî; İbn Kemal, Tabakātü’l-fukahâ; İbnü’s-Salâh, Edebü’l-müftî; Gazzâlî, el-Müstasfâ; İbn Haldun, Mukaddime; Hayreddin Karaman, İslâm Hukuk Tarihi.'
