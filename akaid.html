@@ -1,0 +1,92 @@
+<!DOCTYPE html><html lang="tr"><head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Akaid Dirâsesi — el-Mihrâb</title><meta name="theme-color" content="#24506a">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#eef1f3;color:#1f2a30}
+#hd{background:#f6f8f9;border-bottom:1px solid #d6dee3;padding:10px 12px;position:sticky;top:0;z-index:5}
+#hd .top{display:flex;align-items:center;gap:8px}#hd a.bk{color:#24506a;text-decoration:none;font:600 15px system-ui;padding:8px 10px;border-radius:12px;background:#e1eaef;white-space:nowrap}
+#hd h1{margin:0;font:600 17px system-ui;flex:1;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sek{display:flex;gap:6px;margin-top:10px}.sek button{flex:1;border:1px solid #c9d6de;background:#fff;border-radius:14px;padding:9px 6px;font:600 14px system-ui;color:#33454f;cursor:pointer}
+.sek .on{background:#24506a;color:#fff;border-color:#24506a}
+main{max-width:760px;margin:0 auto;padding:12px 12px 90px}
+.ar{direction:rtl;font-family:Amiri,serif}
+h2.gr{font:600 15px system-ui;color:#24506a;margin:18px 4px 6px;letter-spacing:.3px}
+.lst{display:flex;gap:12px;align-items:center;background:#fff;border-radius:18px;padding:12px 14px;margin:8px 0;cursor:pointer;border:1px solid #dde5ea}
+.lst .no{flex:none;width:38px;height:38px;border-radius:50%;border:2px solid #b8975a;color:#8a6a2c;display:flex;align-items:center;justify-content:center;font:600 14px system-ui}
+.lst .no.ok{background:#24506a;border-color:#24506a;color:#fff}
+.lst .t{flex:1;min-width:0}.lst b{display:block;font-size:16px}.lst small{color:#5f6f78}.lst .a{font-size:20px;color:#24506a;white-space:nowrap;max-width:38%;overflow:hidden;text-overflow:ellipsis}
+.kart{background:#fff;border-radius:24px;padding:16px;margin:12px 0;border:1px solid #dde5ea;box-shadow:0 2px 10px rgba(20,40,60,.06)}
+.kart h2{margin:0;font:600 22px system-ui}.kart .bar{font-size:30px;color:#24506a;margin:4px 0}.kart .oz{color:#55656e;font-style:italic;font-family:Lora,Georgia,serif;margin:0 0 8px}
+.mt p{font-family:Lora,Georgia,serif;font-size:var(--yz,17.5px);line-height:1.75;margin:0 0 12px}
+.pnl{margin-top:12px;background:#f3f7f9;border-radius:16px;padding:12px 14px;font-size:16px;line-height:1.65}
+.pnl h3{margin:0 0 8px;font-size:15px;color:#24506a}.pnl p{margin:0 0 8px}
+.ay{display:block;padding:8px 0;border-bottom:1px dashed #d5e0e6;color:inherit;text-decoration:none}.ay:last-child{border:0}.ay b{color:#24506a;font-size:14px}.ay span{display:block;font-family:Lora,Georgia,serif;font-style:italic}
+.am{display:flex;gap:10px;align-items:flex-start;padding:6px 0;cursor:pointer}.am i{flex:none;width:22px;height:22px;border-radius:7px;border:2px solid #b07a88;font-style:normal;display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px}.am.ok i{background:#24506a;border-color:#24506a}.am.ok span{color:#8b7a80;text-decoration:line-through}
+.mh{background:#24506a;color:#fff;border-radius:16px;padding:12px 14px;margin-top:12px;font-family:Lora,Georgia,serif;font-size:17px}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.btns button,.btns a{border:1px solid #c9d6de;background:#fff;border-radius:16px;padding:9px 14px;font:600 14.5px system-ui;color:#2a3a43;cursor:pointer;text-decoration:none}
+.btns .on{background:#24506a;color:#fff;border-color:#24506a}
+.not{background:#fff;border-radius:16px;padding:14px;line-height:1.6}
+.ilr{height:8px;background:#dde5ea;border-radius:6px;overflow:hidden;margin:6px 0 2px}.ilr div{height:100%;background:#24506a}
+.gun{background:#fff;border-radius:20px;padding:14px;border:1px solid #dde5ea;margin:10px 0}.gun h3{margin:0 0 6px;font-size:16px}
+.gun .q{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px dashed #dde5ea}.gun .q:last-child{border:0}
+.gun .q span{flex:1}.gun .q button{border:1px solid #c9d6de;background:#fff;border-radius:12px;padding:5px 10px;font:600 13px system-ui;cursor:pointer}.gun .q button.e{background:#2f5d4e;color:#fff;border-color:#2f5d4e}.gun .q button.h{background:#7a1f2b;color:#fff;border-color:#7a1f2b}
+input#ara{width:100%;border:1px solid #c9d6de;border-radius:14px;padding:11px 14px;font:16px system-ui;margin:4px 0 6px}
+.mad{font-size:var(--yz,17.5px)}.mad .arm{font:400 calc(var(--yz,17.5px) + 7px)/2.05 Amiri,serif;direction:rtl;text-align:justify;background:#f7f4ec;border:1px solid #e6dcc4;border-radius:16px;padding:12px 14px;margin:10px 0;color:#1d1a14}
+.mad .trm{font-family:Lora,Georgia,serif;line-height:1.7;margin:0 0 10px}.mez{background:#fff7e6;border:1px solid #f0d9a6;border-radius:14px;padding:10px 12px;margin-top:12px;font-size:15.5px;line-height:1.6}.mez b{color:#8a5a00}
+.tm{display:flex;gap:8px;padding:6px 0;border-bottom:1px dashed #d5e0e6}.tm:last-child{border:0}.tm span.ar{font-size:19px;color:#24506a}.gz .arm,.gz .trm{filter:blur(6px);cursor:pointer;transition:filter .2s}.gz .arm.ac,.gz .trm.ac{filter:none}
+.soru{background:#fff;border-radius:18px;padding:14px;border:1px solid #dde5ea;margin:10px 0}.soru b{display:block;margin-bottom:8px;font-size:16.5px}.soru button{display:block;width:100%;text-align:left;border:1px solid #c9d6de;background:#f7fafb;border-radius:12px;padding:10px 12px;margin:6px 0;font:15.5px system-ui;color:#1f2a30;cursor:pointer}.soru button.d{background:#dff3e6;border-color:#58a777}.soru button.y{background:#fbe3e1;border-color:#d06a5f}.soru small{color:#5f6f78}
+.lst .a.no2{font:600 13px system-ui;color:#24506a}
+</style></head><body>
+<div id="hd"><div class="top"><a class="bk" href="./?dirase=kuran">‹ Kur'an</a><h1 id="bs">Akaid Dirâsesi</h1><a class="bk" href="ihtisas.html#akaid">İhtisas</a></div>
+<div class="sek"><button id="sK">Metin</button><button id="sS">Sorular</button><button id="sH">Hakkında</button></div></div>
+<main id="m"><p class="not">Yükleniyor…</p></main>
+<script>setTimeout(function(){if(!window.AKAID_HAZIR){var m=document.getElementById("m");if(m)m.innerHTML='<p class="not">Sayfa açılamadı. <button onclick="location.reload()">Yenile</button> <a href="./?onar">Uygulamayı onar</a></p>'}},9000)</script>
+<script>window.AKAID_HAZIR=1;
+const HV='1';let D=null;const $=s=>document.querySelector(s),M=$('#m');
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c]);
+const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+function sek(id){['sK','sS','sH'].forEach(x=>$('#'+x).classList.toggle('on',x===id))}
+const ok=()=>LS.get('mihrab.akaidOkundu',{});
+function bolumu(no){return D.bolumler.find(b=>no>=b.maddeler[0]&&no<=b.maddeler[1])}
+function liste(f){sek('sK');$('#bs').textContent='Akaid Dirâsesi';const O=ok(),MD=D.maddeler,n=MD.filter(x=>O[x.no]).length,son=LS.get('mihrab.akaidKaldim',0);f=(f||'').toLocaleLowerCase('tr');
+ let h=`<div class="not" style="margin-bottom:6px"><b>${esc(D.bilgi.baslik)}</b> <span class="ar" style="font-size:20px">${esc(D.bilgi.ar)}</span><br><small>${esc(D.bilgi.musannif)} · ${MD.length} madde · ${n} okundu</small><div class="ilr"><div style="width:${MD.length?n*100/MD.length:0}%"></div></div>${son?`<button id="dv" style="margin-top:6px;border:0;background:#24506a;color:#fff;border-radius:12px;padding:8px 12px;font:600 14px system-ui">Kaldığın yerden: madde ${son} ›</button>`:''}</div><input id="ara" placeholder="Ara (kader, şefaat, rü’yet, الكلام…)" value="${esc(f)}">`;
+ D.bolumler.forEach(b=>{const L=MD.filter(x=>x.no>=b.maddeler[0]&&x.no<=b.maddeler[1]&&(!f||(x.tr+' '+x.ar+' '+(x.serh||[]).join(' ')+' '+b.baslik).toLocaleLowerCase('tr').includes(f)));if(!L.length)return;
+  h+=`<h2 class="gr">${esc(b.baslik)} <span class="ar" style="font-weight:400">${esc(b.ar||'')}</span></h2>`;
+  L.forEach(x=>{h+=`<div class="lst" data-n="${x.no}"><div class="no${O[x.no]?' ok':''}">${O[x.no]?'✓':x.no}</div><div class="t"><b>${esc(x.tr.length>90?x.tr.slice(0,88)+'…':x.tr)}</b></div></div>`})});
+ M.innerHTML=h;M.querySelectorAll('.lst').forEach(e=>e.onclick=()=>{location.hash='m='+e.dataset.n});if($('#dv'))$('#dv').onclick=()=>{location.hash='m='+son};
+ const a=$('#ara');a.oninput=()=>{const v=a.value,p=a.selectionStart;liste(v);const b=$('#ara');b.focus();b.setSelectionRange(p,p)};if(f)a.focus()}
+function madde(no){sek('sK');const MD=D.maddeler,i=MD.findIndex(x=>x.no===no),x=MD[i];if(!x)return liste();const b=bolumu(no);$('#bs').textContent='Madde '+no;LS.set('mihrab.akaidKaldim',no);const yz=LS.get('mihrab.akaidYazi',17.5),ez=LS.get('mihrab.akaidEzber',0);
+ let h=`<div class="kart mad${ez?' gz':''}" style="--yz:${yz}px"><small style="color:#8a6a2c;font-weight:600">${esc(b?b.baslik:'')} · ${no}/${MD[MD.length-1].no}</small><div class="arm">${esc(x.ar)}</div><p class="trm">${esc(x.tr)}</p>`;
+ if(x.serh&&x.serh.length)h+=`<div class="pnl"><h3>Açıklama</h3>${x.serh.map(p=>`<p>${esc(p)}</p>`).join('')}</div>`;
+ if(x.mezhep)h+=`<div class="mez"><b>Mâtürîdî – Eş‘arî:</b> ${esc(x.mezhep)}</div>`;
+ if(x.ayet&&x.ayet.length)h+=`<div class="pnl"><h3>Âyetler</h3>${x.ayet.map(a=>`<a class="ay" href="${esc(a[1])}"><b>${esc(a[0])} ›</b><span>${esc(a[2])}</span></a>`).join('')}</div>`;
+ if(x.hadis&&x.hadis.length)h+=`<div class="pnl"><h3>Hadisler</h3>${x.hadis.map(a=>`<a class="ay" href="${esc(a[1])}"><b>${esc(a[2]||'')} › Arapça metni aç</b><span>${esc(a[0])}</span></a>`).join('')}</div>`;
+ if(x.terim&&x.terim.length)h+=`<div class="pnl"><h3>Terimler</h3>${x.terim.map(t=>`<div class="tm"><div style="flex:1"><b>${esc(t[0])}</b> <span class="ar">${esc(t[1])}</span><br><small>${esc(t[2])}</small></div></div>`).join('')}</div>`;
+ const o=ok()[no];h+=`<div class="btns"><button id="okb" class="${o?'on':''}">${o?'✓ Okundu':'Okudum'}</button><button id="ezb" class="${ez?'on':''}">Ezber modu</button><button id="dn">Dinle</button><button id="km">A−</button><button id="bu">A+</button><button id="kp">Kopyala</button></div>`;
+ h+=`<div class="btns">${i>0?`<button id="on">‹ Madde ${MD[i-1].no}</button>`:''}<button id="ls">Liste</button>${i<MD.length-1?`<button id="sn">Madde ${MD[i+1].no} ›</button>`:''}</div></div>`;
+ M.innerHTML=h;scrollTo(0,0);
+ M.querySelectorAll('.gz .arm,.gz .trm').forEach(e=>e.onclick=()=>e.classList.toggle('ac'));
+ $('#okb').onclick=()=>{const O=ok();if(O[no])delete O[no];else O[no]=1;LS.set('mihrab.akaidOkundu',O);const bb=$('#okb');bb.classList.toggle('on',!!O[no]);bb.textContent=O[no]?'✓ Okundu':'Okudum'};
+ $('#ezb').onclick=()=>{LS.set('mihrab.akaidEzber',ez?0:1);madde(no)};
+ const yaz=d=>{const v=Math.max(14,Math.min(28,LS.get('mihrab.akaidYazi',17.5)+d));LS.set('mihrab.akaidYazi',v);M.querySelector('.kart').style.setProperty('--yz',v+'px')};$('#km').onclick=()=>yaz(-1.5);$('#bu').onclick=()=>yaz(1.5);
+ $('#dn').onclick=e=>oku(x.ar,'ar-SA',e.target);
+ $('#kp').onclick=()=>{const t='Tahâviyye, madde '+no+'\n\n'+x.ar+'\n\n'+x.tr+'\n\n'+(x.serh||[]).join('\n\n')+'\n\n— el-Mihrâb Akaid Dirâsesi';(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>{$('#kp').textContent='Kopyalandı'}).catch(()=>{})};
+ $('#ls').onclick=()=>{location.hash=''};if($('#on'))$('#on').onclick=()=>{location.hash='m='+MD[i-1].no};if($('#sn'))$('#sn').onclick=()=>{location.hash='m='+MD[i+1].no}}
+function sorular(bid){sek('sS');$('#bs').textContent='Sorular';const S=D.sorular||[],Y=LS.get('mihrab.akaidSoru',{});
+ let h=`<div class="not"><b>Kendini dene</b><br><small>Önce yanlış yaptığın ve hiç çözmediğin sorular gelir. Her sorudan sonra ilgili maddeye gidebilirsin.</small><div class="btns" id="bl"><button data-b="" class="${!bid?'on':''}">Hepsi</button>${D.bolumler.map(b=>`<button data-b="${b.id}" class="${bid===b.id?'on':''}">${esc(b.baslik)}</button>`).join('')}</div></div>`;
+ let L=S.map((q,i)=>({q,i})).filter(o=>{if(!bid)return true;const b=bolumu(o.q.no);return b&&b.id===bid});
+ L.sort((a,b)=>{const p=v=>v===undefined?1:v===0?0:2;return p(Y[a.i])-p(Y[b.i])});L=L.slice(0,10);
+ const dogru=Object.values(Y).filter(v=>v===1).length;h+=`<p class="not" style="margin-top:8px"><small>Toplam ${S.length} soru · doğru bildiğin: ${dogru}</small></p>`;
+ L.forEach(o=>{h+=`<div class="soru" data-i="${o.i}"><b>${esc(o.q.s)}</b>${o.q.c.map((c,j)=>`<button data-j="${j}">${esc(c)}</button>`).join('')}<small class="ac" style="display:none"></small></div>`});
+ M.innerHTML=h;M.querySelectorAll('#bl button').forEach(e=>e.onclick=()=>sorular(e.dataset.b));
+ M.querySelectorAll('.soru').forEach(k=>{const i=+k.dataset.i,q=S[i];k.querySelectorAll('button').forEach(bt=>bt.onclick=()=>{if(k.dataset.c)return;k.dataset.c=1;const j=+bt.dataset.j,d=j===q.d;bt.classList.add(d?'d':'y');k.querySelectorAll('button')[q.d].classList.add('d');const Y=LS.get('mihrab.akaidSoru',{});Y[i]=d?1:0;LS.set('mihrab.akaidSoru',Y);const a=k.querySelector('.ac');a.style.display='block';a.innerHTML=(d?'✓ Doğru. ':'✗ ')+esc(q.a||'')+` <a href="#m=${q.no}">Madde ${q.no} ›</a>`})})}
+function hakkinda(){sek('sH');$('#bs').textContent='Hakkında';M.innerHTML=`<div class="not">${D.bilgi.giris.map(p=>`<p>${esc(p)}</p>`).join('')}<p><small>Arapça metin kaynağı: <a href="${esc(D.bilgi.kaynak)}" target="_blank" rel="noopener">${esc(D.bilgi.kaynak)}</a>. Türkçe çeviri, açıklamalar ve sorular el-Mihrâb için hazırlanmıştır. İnanç konularını bir hocaya danışarak okumanı tavsiye ederiz. Okuma ve soru kayıtların yalnız bu cihazda tutulur.</small></p></div>`}
+let okuyan=null;function oku(t,dil,bt){if(!('speechSynthesis' in window))return;const ss=speechSynthesis;if(okuyan===bt){ss.cancel();okuyan=null;bt.textContent='Dinle';return}ss.cancel();const u=new SpeechSynthesisUtterance(t);u.lang=dil;u.rate=.9;const v=ss.getVoices().filter(x=>x.lang&&x.lang.slice(0,2)===dil.slice(0,2))[0];if(v)u.voice=v;u.onend=()=>{okuyan=null;bt.textContent='Dinle'};okuyan=bt;bt.textContent='Durdur';ss.speak(u)}
+function yol(){const h=decodeURIComponent(location.hash.slice(1));if(window.speechSynthesis)speechSynthesis.cancel();okuyan=null;
+ if(h.startsWith('m='))return madde(+h.slice(2));if(h==='s')return sorular();if(h==='h')return hakkinda();liste()}
+$('#sK').onclick=()=>{location.hash=''};$('#sS').onclick=()=>{location.hash='s'};$('#sH').onclick=()=>{location.hash='h'};
+addEventListener('hashchange',yol);
+fetch('data/akaid/tahavi.json?v='+HV).then(r=>r.json()).then(d=>{D=d;yol()}).catch(()=>{M.innerHTML='<p class="not">Veri yüklenemedi. İnternet bağlantını kontrol edip <button onclick="location.reload()">Yenile</button></p>'});
+</script></body></html>
