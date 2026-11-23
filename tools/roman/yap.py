@@ -24,6 +24,10 @@ for id in [i for l in [kitaplar.SIRA] for i in l if any(i in v for v in DIL.valu
         if _id==id:continue
         for ln in open(f'tools/roman/{_id}_sozluk.txt',encoding='utf-8'):
             if '=' in ln:k,v=ln.rstrip('\n').split('=',1);G.setdefault(k.strip(),v.strip())
+    import os as _os
+    if _os.path.exists(f'tools/roman/{dil}_havuz_sozluk.txt'):
+        for ln in open(f'tools/roman/{dil}_havuz_sozluk.txt',encoding='utf-8'):
+            if '=' in ln:k,v=ln.rstrip('\n').split('=',1);G.setdefault(k.strip(),v.strip())
     _O={}
     for ln in open(f'tools/roman/{id}_sozluk.txt',encoding='utf-8'):
         if '=' in ln:k,v=ln.rstrip('\n').split('=',1);_O[k.strip()]=v.strip()
@@ -34,7 +38,7 @@ for id in [i for l in [kitaplar.SIRA] for i in l if any(i in v for v in DIL.valu
             for w in (re.findall(r"[A-Za-z']+",a) if dil=='en' else a.split()):
                 n=norm(w,dil)
                 if n and n not in G and n not in eks:eks.append(n)
-    assert not eks,(id,eks)
+    if not K.pop('serbest',0):assert not eks,(id,eks)  # serbest: sözlükte yalnız zor kelimeler
     K['bolumler']=[{'b':b,'tr_b':tb,'c':[[a,t] for a,t in ss]} for b,tb,ss in m.B];K['sozluk']=G
     json.dump(K,open(f'data/roman/{id}.json','w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
     if id not in getattr(kitaplar,'GIZLI',[]):

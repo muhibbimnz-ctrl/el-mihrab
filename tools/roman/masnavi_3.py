@@ -34,11 +34,4 @@ B=[
 ('مردان گفتند: «این کیست که در کار خدا دخالت کرد؟» و ناپدید شدند.','Adamlar dedi ki: “Allah’ın işine karışan bu kim?” ve gözden kayboldular.'),
 ('دقوقی سال‌ها در پی آنها گشت، اما دیگر آنها را ندید.','Dakûkî yıllarca onları aradı ama bir daha göremedi.'),
 ('مولانا می‌گوید: «دیدار اولیا را هر کسی نمی‌بیند؛ چشم دیگر باید.»','Mevlânâ der ki: “Velîlerin yüzünü herkes görmez; başka bir göz gerekir.”')]),
-('پایان','Son',[
-('مولانا مثنوی را شش دفتر نوشت و آن را ناتمام گذاشت.','Mevlânâ Mesnevî’yi altı cilt olarak yazdı ve onu tamamlanmamış bıraktı.'),
-('او می‌گفت: «این سخن را پایانی نیست، چون دریا را پایانی نیست.»','Derdi ki: “Bu sözün sonu yoktur, çünkü denizin sonu yoktur.”'),
-('مثنوی را «قرآن پارسی» نیز نامیده‌اند، زیرا بسیاری از معانی قرآن را به زبان داستان گفته است.','Mesnevî’ye “Farsça Kur’an” da denmiştir; çünkü Kur’an’ın pek çok anlamını hikâye diliyle anlatmıştır.'),
-('خواننده‌ی مثنوی، در هر داستان خود را می‌بیند.','Mesnevî’yi okuyan her hikâyede kendini görür.'),
-('گاهی شیر است و گاهی خرگوش، گاهی شبان است و گاهی موسی.','Bazen aslandır bazen tavşan, bazen çobandır bazen Mûsâ.'),
-('و در پایان، مانند نی، به اصل خویش بازمی‌گردد.','Ve sonunda ney gibi aslına döner.')]),
 ]
