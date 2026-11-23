@@ -33,8 +33,8 @@ function norm(w,d){if(d==='en'){w=w.toLowerCase().trim().replace(/^['".,!?;:]+|[
 function tr(s){return s.toLocaleLowerCase('tr').replace(/[âàá]/g,'a').replace(/[îí]/g,'i').replace(/[ûú]/g,'u').replace(/[’'‘`]/g,'')}
 function kokler(n,d){var c=[n];if(d==='ar'){['وال','بال','فال','كال','لل','ال','و','ف','ب','ل','ك','س'].forEach(function(p){if(n.indexOf(p)===0&&n.length-p.length>=3){var r=n.slice(p.length);c.push(r,'ال'+r)}});
   var t=n.replace(/^(وال|بال|فال|ال|و|ف|ب)/,'');['هما','هم','هن','ها','كم','نا','ني','ه','ك','ي','ون','ين','ات','ان','ة'].forEach(function(s){if(t.length-s.length>=3&&t.slice(-s.length)===s)c.push(t.slice(0,-s.length),'ال'+t.slice(0,-s.length))})}
- else if(d==='fa'){c.push(n.replace(/^(می‌|می|نمی‌|نمی|ب|ن)/,''),n.replace(/‌?(هایی|های|ها|ای|اش|ام|ات|یم|ید|ند|ی|ش|م)$/,''),n.replace(/‌/g,''))}
- else c.push(n.replace(/ies$/,'y'),n.replace(/(ing|ed|es|s|ly)$/,''),n.replace(/ing$/,'e'),n.replace(/ed$/,'e'));return c}
+ else if(d==='fa'){var P=/^(نمی‌|نمی|می‌|می|ب|ن)/,S=/‌?(هایی|های|ها|ترین|تر|گان|ان|ای|اش|ام|ات|یم|ید|ند|ی|ش|م)$/;c.push(n.replace(P,''),n.replace(S,''),n.replace(P,'').replace(S,''),n.replace(/‌/g,''));if(/گان$/.test(n))c.push(n.slice(0,-3)+'ه')}
+ else c.push(n.replace(/ies$/,'y'),n.replace(/ied$/,'y'),n.replace(/(ing|ed|es|s|ly|er|est)$/,''),n.replace(/ing$/,'e'),n.replace(/ed$/,'e'),n.replace(/([b-df-hj-np-tv-z])\1(ing|ed|er|est)$/,'$1'),n.replace(/ily$/,'y'),n.replace(/(ness|ment|ful|less)$/,''));return c}
 function yukle(d){if(KEYS[d])return Promise.resolve();return fetch('data/roman/sozluk_'+d+'.json').then(function(r){return r.json()}).then(function(g){
  var o={};for(var k in g){var n=norm(k,d);if(!(n in o))o[n]=[k,g[k]]}G[d]=o;KEYS[d]=Object.keys(o).sort()})}
 function satir(k,m,d){var id=d+'|'+norm(k,d),on=!!st.d[id];return '<div class="r"><div class="k '+d+'" lang="'+d+'">'+esc(k)+'</div><div class="m">'+esc(m)+'</div><button data-k="'+esc(id)+'" data-w="'+esc(k)+'" data-m="'+esc(m)+'" class="'+(on?'on':'')+'" title="Defterime ekle">'+(on?'✓':'＋')+'</button></div>'}
