@@ -2,7 +2,7 @@
 var BY=(function(){
  var D=null,P=null,HR=/[ً-ٰٟـ]/g;
  function nr(w){return (w||'').replace(/[«»،.؟!:؛()\-"\[\]]/g,'').replace(HR,'').replace(/[إأآٱ]/g,'ا').replace(/ى/g,'ي').trim()}
- function yukle(){if(D)return Promise.resolve(D);if(P)return P;P=fetch('data/roman/beyit_ar.json?v=3').then(function(r){return r.json()}).then(function(d){return D=d}).catch(function(){P=null;return null});return P}
+ function yukle(){if(D)return Promise.resolve(D);if(P)return P;P=fetch('data/roman/beyit_ar.json?v=4').then(function(r){return r.json()}).then(function(d){return D=d}).catch(function(){P=null;return null});return P}
  function adaylar(n){var c=[n];['وال','بال','فال','كال','لل','ال','و','ف','ب','ل','ك','س'].forEach(function(p){if(n.indexOf(p)===0&&n.length-p.length>=3){var r=n.slice(p.length);c.push(r,'ال'+r)}});
   var t=n.replace(/^(وال|بال|فال|ال|و|ف|ب)/,'');['هما','هم','هن','ها','كم','نا','ني','ه','ك','ي','ون','ين','ات','ان','ة','ا'].forEach(function(s){if(t.length-s.length>=3&&t.slice(-s.length)===s)c.push(t.slice(0,-s.length),'ال'+t.slice(0,-s.length))});return c}
  function bul(w){if(!D)return null;var c=adaylar(nr(w));for(var i=0;i<c.length;i++){var x=D.w[c[i]];if(x!=null)return D.b[x]}return null}
