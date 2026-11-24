@@ -45,20 +45,14 @@
     "soru": 7,
     "uniteler": [
      {
-      "ad": "Kelama giriş: konusu, mesâil-vesâil, bilgi kaynakları, akıl-nakil ilişkisi",
-      "oncelik": 3
+      "ad": "Kelama Giriş, Allah’ın Varlığı ve Sıfatları, Nübüvvet, Kader ve İman",
+      "oncelik": 3,
+      "konu": "kelam-1"
      },
      {
-      "ad": "Allah’ın varlığı delilleri (hudûs, imkân, nizam) ve sıfatları",
-      "oncelik": 3
-     },
-     {
-      "ad": "Nübüvvet, ahiret, kader, iman meseleleri",
-      "oncelik": 2
-     },
-     {
-      "ad": "Kelam ekolleri ve ilk tartışmalar: Hâricîler, Mürcie, Mu’tezile, Eş’arîlik, Mâtürîdîlik, Selefîlik",
-      "oncelik": 3
+      "ad": "Kelam Ekolleri ve İlk Tartışmalar",
+      "oncelik": 3,
+      "konu": "kelam-2"
      }
     ]
    },
@@ -203,6 +197,12 @@
   },
   {
    "ref": "tefsir-2"
+  },
+  {
+   "ref": "kelam-1"
+  },
+  {
+   "ref": "kelam-2"
   },
   {
    "ref": "fikih-1"
