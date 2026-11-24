@@ -58,7 +58,7 @@ def kokbul(w0):
         if r[0] not in w and r[0] not in 'اويء': continue
         sc=eslestir(r,w)
         if sc is None: continue
-        sc=(sc-(0.5 if w!=w0 and w0.startswith('ال') is False else 0),sum(c not in 'اويء' for c in r),len(KB[r]))
+        sc=(sc-(0.5 if len(r)>=3 and r[-1]==r[-2] else 0)-(0.5 if w!=w0 and w0.startswith('ال') is False else 0),sum(c not in 'اويء' for c in r),len(KB[r]))
         if best is None or sc>best[0]: best=(sc,r)
     return best[1] if best else None
 S=json.load(open('data/roman/sozluk_ar.json'))
@@ -81,7 +81,7 @@ ES={};kul=collections.Counter()
 for k in S:
     w=sk(k)
     if ' ' in w or len(w)<3: continue
-    c=[b for b in I.get(w,[]) if uyar(B[b][1],w)]
+    c=[b for b in I.get(w,[]) if uyar(B[b][1],w)] or I.get(w,[])[:60]
     if not c:  # aynı kökten türemiş bir kelime geçen beyit
         r=kokbul(w)
         if r: c=[b for b in KB.get(r,[]) if any(uyar(r,t) for t in re.findall(r'[\u0621-\u064A]+',n(B[b][0])))]
