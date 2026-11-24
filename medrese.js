@@ -336,6 +336,7 @@ function home(){
     <a class="bigbox b-yds" href="#/yds"><span lang="ar">اِخْتِبَار</span><b>YDS Arapça</b><small>Deneme · okuma metinleri · kelime</small></a>
     <a class="bigbox b-mod" href="arapca.html?medrese=1"><span lang="ar">المُعَاصِرَة</span><b>Modern Arapça</b><small>Sesli Arapça dersleri · hikâyeler</small></a>
     <a class="bigbox b-oyun" href="#/oyunlar"><span lang="ar">أَلْعَاب</span><b>Oyunlar</b><small>Günün sorusu · İ‘râb · Bâb bul</small></a>
+    <a class="bigbox b-lugat" href="sozluk.html?dil=ar"><span lang="ar">المُعْجَم</span><b>el-Lügat</b><small>Arapça–Türkçe sözlük · şâhid beyitler · kök</small></a>
    </div>
    <p class="foot">Hata görürseniz her ekrandaki <i>Hata bildir</i> bağlantısını kullanın.<br><a href="#" onclick="$('#src').classList.remove('hide');return false">Kaynaklar ve lisans</a></p></div>`;
 }

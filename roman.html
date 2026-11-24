@@ -65,8 +65,8 @@ function tokU(s,d){return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p)||!
  var n=norm(p,d);return n?'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(p)+'</span>':esc(p)}).join('')}
 /* Ortak sözlük: aynı dildeki bütün kitapların sözlükleri (data/roman/sozluk_<dil>.json); kitapta yoksa buradan, önek/sonek ayıklanarak bakılır */
 function hz(w){return w.replace(/[إأآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ي/g,'ی').replace(/ك/g,'ک')}
-var OS={};function ortak(d){if(OS[d])return Promise.resolve(OS[d]);return J('data/roman/sozluk_'+d+'.json?v=3').then(function(g){if(d!=='en'){var o={};for(var k in g){var n=norm(k,d);if(!o[n])o[n]=g[k];var z=hz(n);if(!o['~'+z])o['~'+z]=g[k]}for(var k2 in o)g[k2]=g[k2]||o[k2]}return OS[d]=g}).catch(function(){return OS[d]={}})}
-function bul(n,d,G){if(G[n])return G[n];var c=[];
+var OS={};function ortak(d){if(OS[d])return Promise.resolve(OS[d]);return J('data/roman/sozluk_'+d+'.json?v=5').then(function(g){if(d!=='en'){var o={};for(var k in g){var n=norm(k,d);if(!o[n])o[n]=g[k];var z=hz(n);if(!o['~'+z])o['~'+z]=g[k]}for(var k2 in o)g[k2]=g[k2]||o[k2]}return OS[d]=g}).catch(function(){return OS[d]={}})}
+function bul(n,d,G){if(G[n])return G[n];if(d==='ar'&&window.arAday){var A=arAday(n);for(var a=0;a<A.length;a++)if(G[A[a]])return G[A[a]];for(var a2=0;a2<A.length;a2++){var z2='~'+hz(A[a2]);if(G[z2])return G[z2]}if(G['~'+hz(n)])return G['~'+hz(n)];return ''}var c=[];
  if(d==='ar'){['وال','بال','فال','كال','لل','ال','و','ف','ب','ل','ك','وب','ول','فب','وك','س'].forEach(function(pr){if(n.indexOf(pr)===0&&n.length-pr.length>=3){var r=n.slice(pr.length);c.push(r,'ال'+r);if(r.indexOf('ال')===0)c.push(r.slice(2))}});
   ['ها','هم','هما','هن','كم','كما','نا','ني','ه','ك','ي','ون','ين','ات','ة'].forEach(function(sf){var t=n.replace(/^(وال|بال|فال|ال|و|ف|ب)/,'');if(t.length-sf.length>=3&&t.slice(-sf.length)===sf){c.push(t.slice(0,-sf.length),'ال'+t.slice(0,-sf.length))}})}
  else if(d==='fa'){var t=n.replace(/\u200c/g,'');[n.replace(/^(و|ب|می|نمی|ن)/,''),n.replace(/(ها|های|هایی|ای|اش|ام|ات|یم|ید|ند|ی|ش|م)$/,''),n.replace(/\u200c?(ها|های|هایی|ای|اش|ام|ات)$/,'')].forEach(function(x){if(x&&x.length>=2)c.push(x)});c.push(t)}
@@ -109,5 +109,5 @@ dfb.onclick=function(){git('#defter')};function defter(){ttl.textContent='Kelime
 sv();J('data/roman/liste.json').then(function(l){LIST=l;var id=Q.get('id');if(id&&!location.hash)location.replace('#k='+id);else rota()}).catch(function(){M.innerHTML='<p class="note">Liste yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'});
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e3f9665447b64c6f8d89efca8e6de38f"}'></script><!-- End Cloudflare Web Analytics -->
-<script src="beyit.js?v=6"></script>
+<script src="arkok.js?v=1"></script><script src="beyit.js?v=6"></script>
 </body></html>
