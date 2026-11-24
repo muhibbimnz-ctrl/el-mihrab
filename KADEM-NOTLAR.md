@@ -126,5 +126,5 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 1. **MBSTS’yi derinleştirmek:** Her derse ikinci tur soru (özellikle Fıkıh 125 → 200, küçük derslerde 8 → 20+), ve konu testlerinde olmayan ayrı **deneme havuzu** (şu an deneme soruları konu testlerinden seçiliyor; fixed 5 tam deneme eklenebilir: `denemeler` alanı tasarlanabilir).
 2. **DHBT:** `data/kadem/dhbt.json` aç; ortak konuları `ref` ile bağla; DHBT-1’e özgü İslam ahlakı ve din hizmetleri/hitabet konularını yaz; deneme `{"soru":40,"dakika":60,"yanlisGoturur":true}`. ÖSYM ders başına soru sayısı yayımlamadığı için harita çıkmış DHBT sorularından (Rauf Şara, Muhkem, 5 deneme kitapları) çıkarılmalı.
 3. **Mevzuat** (kariyer basamakları, ilçe müftülüğü, müftü yardımcılığı için): 633 sayılı Kanun, 657 DMK, Diyanet yönetmelikleri; madde numaralarıyla, mevzuat.gov.tr’den güncel metin kontrol edilerek.
-4. main dalına birleştirirken `sw.js` sürümünü artır.
+4. Kadem 24 Kasım 2026’da main’e birleştirildi ve yayında (sw v169). Bundan sonra kadem dalında yapılan her iş main’e gönderilince ve sw.js sürümü artırılınca uygulamada görünür.
 5. Açık konu: bölüm bir süre ücretsiz; ödeme sistemi yok.
