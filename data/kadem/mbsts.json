@@ -138,20 +138,14 @@
     "soru": 7,
     "uniteler": [
      {
-      "ad": "İslam öncesi Arabistan ve Mekke dönemi",
-      "oncelik": 3
+      "ad": "İslam Öncesi Arabistan ve Hz. Peygamber’in Hayatı (Mekke ve Medine)",
+      "oncelik": 3,
+      "konu": "siyer-1"
      },
      {
-      "ad": "Medine dönemi: kurumlar, gazveler ve seriyyeler",
-      "oncelik": 3
-     },
-     {
-      "ad": "Hulefâ-yi Râşidîn dönemi",
-      "oncelik": 2
-     },
-     {
-      "ad": "Emevîler, Abbâsîler ve diğer İslam devletleri",
-      "oncelik": 2
+      "ad": "Hulefâ-yi Râşidîn, Emevîler, Abbâsîler ve Diğer İslam Devletleri",
+      "oncelik": 3,
+      "konu": "siyer-2"
      }
     ]
    },
@@ -160,12 +154,9 @@
     "soru": 3,
     "uniteler": [
      {
-      "ad": "İtikadi-siyasi mezhepler: Şîa kolları (İmâmiyye, Zeydiyye, İsmâiliyye), Dürzîlik, Nusayrîlik",
-      "oncelik": 3
-     },
-     {
-      "ad": "Modern dönem akımları: Kadıyânîlik, Bahâîlik, Vehhâbîlik, selefî hareketler",
-      "oncelik": 2
+      "ad": "Şîa ve Kolları, Bâtınî Gruplar ve Modern Dönem Akımları",
+      "oncelik": 3,
+      "konu": "mezhep-1"
      }
     ]
    },
@@ -174,12 +165,9 @@
     "soru": 2,
     "uniteler": [
      {
-      "ad": "Yahudilik ve Hristiyanlık (mezhepleri, kutsal metinleri, sakramentler)",
-      "oncelik": 3
-     },
-     {
-      "ad": "Hint ve Uzak Doğu dinleri, Sâbiîlik, Zerdüştlük ve diğerleri",
-      "oncelik": 2
+      "ad": "Dinler Tarihi: Yahudilik, Hristiyanlık, Hint ve Uzak Doğu Dinleri, Sâbiîlik",
+      "oncelik": 3,
+      "konu": "dinler-1"
      }
     ]
    }
@@ -242,6 +230,18 @@
   },
   {
    "ref": "hadis-3"
+  },
+  {
+   "ref": "siyer-1"
+  },
+  {
+   "ref": "siyer-2"
+  },
+  {
+   "ref": "mezhep-1"
+  },
+  {
+   "ref": "dinler-1"
   }
  ]
 }

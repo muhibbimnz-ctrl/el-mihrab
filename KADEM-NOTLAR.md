@@ -98,9 +98,32 @@ Tür: KA = konu anlatımı, SB = soru bankası, D = deneme, ÇS = çıkmış sor
 
 Kullanım ilkesi: kitaplardan yalnızca bilgi alınır; metin ve sorular kendi cümlelerimizle yazılır. Çıkmış sorular konu ağırlığını ve soru tarzını belirlemek için kullanılır, aynen kopyalanmaz. Taranmış kitaplar Tesseract (tur) ile okunuyor.
 
+### 4. oturum — 24 Kasım 2026 (MBSTS içeriği tamamlandı)
+- Kullanıcı onay beklenmeden bütün MBSTS’nin hazırlanmasını istedi. Hadis ünitesindeki üç ⚑ kontrol notu araştırılıp kapatıldı (muksirûn sayıları not olarak kaldı; maklûb rivayeti Müslim, Zekât, 91 / no. 1031 olarak doğrulandı; Hz. Ebû Bekir’in 500 hadis rivayeti zayıf olarak işaretlendi). Şu anda içerikte açık ⚑ yok.
+- MBSTS’nin 8 dersi de hazır: **23 konu, 297 soru**, her konuda anlatım (tablolar, ayet/hadis kutuları), özet, tekrar kartları ve kolaydan zora açıklamalı test.
+- 60 soruluk, 90 dakikalık tam deneme artık resmî dağılımla (7-7-7-20-7-7-3-2) kendiliğinden oluşuyor; Chrome’da baştan sona denendi.
+- Doğru şıkların A–E arasında dengeli dağılması için `dengele.py` mantığı kullanıldı (sıralı şıklı sorulara dokunulmaz).
+
+## İçerik durumu (MBSTS)
+| Ders (resmî soru) | Konu dosyaları | Soru |
+|---|---|---|
+| Kur’an Bilgisi (7) | kuran-1 (vahiy, Kur’an tarihi, yapı, kıssalar, kıraatler), kuran-2 (tecvid) | 24 |
+| Tefsir (7) | tefsir-1 (ulûmü’l-Kur’ân, usul), tefsir-2 (tefsir tarihi, ekoller, eserler) | 24 |
+| Akaid ve Kelam (7) | kelam-1 (giriş, deliller, sıfatlar, nübüvvet, kader, iman), kelam-2 (ekoller, ilk tartışmalar, filozoflar) | 24 |
+| Fıkıh ve İlmihal (20) | fikih-1 usul: hüküm-ehliyet · fikih-2 usul: deliller-lafız-mezhepler-eserler · fikih-3 taharet · fikih-4 namaz · fikih-5 oruç-itikâf · fikih-6 zekât-fitre · fikih-7 hac-umre-kurban · fikih-8 adak-yemin-keffâret-yiyecek-kesim · fikih-9 aile-miras · fikih-10 muamelat-ceza-yargılama | 125 |
+| Hadis (7) | hadis-1, hadis-2, hadis-3 | 59 |
+| Siyer ve İslam Tarihi (7) | siyer-1 (İslam öncesi, Mekke, Medine), siyer-2 (dört halife, Emevî, Abbâsî, diğer devletler) | 25 |
+| Mezhepler Tarihi (3) | mezhep-1 (Şîa kolları, gulât, modern akımlar) | 8 |
+| Dinler Tarihi (2) | dinler-1 | 8 |
+
+Fıkıh hükümleri Hanefî mezhebine göredir; mezhep farkları ayrıca belirtilmiştir.
+
+## Araçlar (sohbet ortamında yazıldı, depoda değil)
+Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık açıklaması (`ac`) olmalı, `d` 0-4, `z` 1-3, `id` benzersiz; doğru şıklar A–E arasında dengeli; yeni konu `mbsts.json` → `konular` listesine `{"ref":"…"}` olarak ve haritadaki ilgili derse `"konu":"…"` ile eklenmeli; konunun `ders` adı haritadaki adla birebir aynı olmalı.
+
 ## Sıradaki iş
-1. Kullanıcı konu haritasını ve Hadis ünitesini onaylayacak (ve ⚑ işaretli yerleri kontrol edecek).
-2. Onaydan sonra aynı kalıpla sırasıyla: Fıkıh (20 soru, 14 ünite) → Kur’an Bilgisi → Tefsir → Akaid-Kelam → Siyer-İT → Mezhepler → Dinler.
-3. Her ders bitince denemeler büyür; bütün dersler hazır olunca 60 soruluk tam deneme kendiliğinden oluşur. Sonra ayrı deneme havuzu (konu testlerinde olmayan sorular) eklenebilir.
-4. DHBT: `dhbt.json` açılıp ortak konular `ref` ile bağlanacak; DHBT-1’e özgü İslam ahlakı ve hitabet üniteleri yazılacak; deneme 40 soru/60 dk, yanlisGoturur: true.
+1. **MBSTS’yi derinleştirmek:** Her derse ikinci tur soru (özellikle Fıkıh 125 → 200, küçük derslerde 8 → 20+), ve konu testlerinde olmayan ayrı **deneme havuzu** (şu an deneme soruları konu testlerinden seçiliyor; fixed 5 tam deneme eklenebilir: `denemeler` alanı tasarlanabilir).
+2. **DHBT:** `data/kadem/dhbt.json` aç; ortak konuları `ref` ile bağla; DHBT-1’e özgü İslam ahlakı ve din hizmetleri/hitabet konularını yaz; deneme `{"soru":40,"dakika":60,"yanlisGoturur":true}`. ÖSYM ders başına soru sayısı yayımlamadığı için harita çıkmış DHBT sorularından (Rauf Şara, Muhkem, 5 deneme kitapları) çıkarılmalı.
+3. **Mevzuat** (kariyer basamakları, ilçe müftülüğü, müftü yardımcılığı için): 633 sayılı Kanun, 657 DMK, Diyanet yönetmelikleri; madde numaralarıyla, mevzuat.gov.tr’den güncel metin kontrol edilerek.
+4. main dalına birleştirirken `sw.js` sürümünü artır.
 5. Açık konu: bölüm bir süre ücretsiz; ödeme sistemi yok.
