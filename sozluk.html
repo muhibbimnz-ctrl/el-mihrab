@@ -109,7 +109,7 @@ body.t-en .hrf button{font:700 17px Lora,serif}
 <div class="sr"><input id="q" type="search" autocomplete="off" autocapitalize="off" spellcheck="false"><button id="git">Ara</button></div></div>
 <main id="m"></main>
 <footer id="kay"></footer>
-<script src="arkok.js?v=1"></script><script src="beyit.js?v=6"></script>
+<script src="arkok.js?v=2"></script><script src="beyit.js?v=6"></script>
 <script>
 var M=document.getElementById('m'),Q=document.getElementById('q'),P=new URLSearchParams(location.search),D=P.get('dil')||'ar',G={},KEYS={},ORN={},HZ={},KOK=null;
 var T={
@@ -147,7 +147,8 @@ function kokler(n,d){var c=[n];if(d==='ar'&&window.arAday)return c.concat(arAday
  else c.push(n.replace(/ies$/,'y'),n.replace(/ied$/,'y'),n.replace(/(ing|ed|es|s|ly|er|est)$/,''),n.replace(/ing$/,'e'),n.replace(/ed$/,'e'),n.replace(/([b-df-hj-np-tv-z])\1(ing|ed|er|est)$/,'$1'),n.replace(/ily$/,'y'),n.replace(/(ness|ment|ful|less)$/,''));return c}
 function hz(w){return w.replace(/[ءؤئ]/g,'ا').replace(/ة/g,'ه').replace(/ي/g,'ی').replace(/ى/g,'ی')}
 function J(u){return fetch(u).then(function(r){if(!r.ok)throw 0;return r.json()})}
-function yukle(d){if(KEYS[d])return Promise.resolve();return J('data/roman/sozluk_'+d+'.json?v=5').then(function(g){
+var HR={};function hw(k){return HR[k]||k}
+function yukle(d){if(KEYS[d])return Promise.resolve();if(d==='ar')J('data/roman/hareke_ar.json?v=1').then(function(h){HR=h;if(M.querySelector('[data-hw]'))[].forEach.call(M.querySelectorAll('[data-hw]'),function(e){e.textContent=hw(e.dataset.hw)})}).catch(function(){});return J('data/roman/sozluk_'+d+'.json?v=6').then(function(g){
  var o={};for(var k in g){var n=norm(k,d);if(!(n in o))o[n]=[k,g[k]]}G[d]=o;KEYS[d]=Object.keys(o).sort();HZ[d]={};for(var n2 in o){var z=hz(n2);if(!HZ[d][z])HZ[d][z]=n2}})}
 function ornAl(){if(ORN[D])return Promise.resolve(ORN[D]);return J('data/roman/ornek_'+D+'.json?v=1').then(function(x){return ORN[D]=x}).catch(function(){return ORN[D]={k:[],s:[],w:{}}})}
 function kokAl(){if(KOK)return Promise.resolve(KOK);return J('data/roman/kok_ar.json?v=2').then(function(k){return KOK=k}).catch(function(){return KOK={}})}
@@ -156,15 +157,15 @@ function kokBul(w){if(!KOK)return null;w=w.replace(/^(وال|بال|فال|كا�
   if(i<R.length&&!(i===R.length-1&&R[i]===R[i-1]))continue;var pre=w.slice(0,pos[0]),suf=w.slice(pos[pos.length-1]+1),ic=pos[pos.length-1]-pos[0]+1-pos.length;
   if(pre.length>3||!/^[امتنيسء]*$/.test(pre)||ic>2||suf.length>4||!/^[اتهنويمكة]*$/.test(suf))continue;var sc=-(pre.length+ic+suf.length)*10+KOK[r].length/100;if(!best||sc>best[0])best=[sc,r]}return best&&best[1]}
 /* Telaffuz */
-var SES=window.speechSynthesis;function soyle(w){try{if(!SES)return;SES.cancel();var u=new SpeechSynthesisUtterance(w);u.lang=C.ses;u.rate=.85;var v=SES.getVoices().filter(function(x){return x.lang&&x.lang.toLowerCase().indexOf(C.ses.slice(0,2))===0})[0];if(v)u.voice=v;SES.speak(u)}catch(e){}}
+var SES=window.speechSynthesis;function soyle(w){try{if(!SES)return;SES.cancel();var u=new SpeechSynthesisUtterance(D==='ar'?hw(w):w);u.lang=C.ses;u.rate=.85;var v=SES.getVoices().filter(function(x){return x.lang&&x.lang.toLowerCase().indexOf(C.ses.slice(0,2))===0})[0];if(v)u.voice=v;SES.speak(u)}catch(e){}}
 /* Örnek cümle */
 function ornHtml(w){var O=ORN[D];if(!O)return '';var c=kokler(onorm(w,D),D).map(function(x){return onorm(x,D)}),i=null;for(var j=0;j<c.length&&i==null;j++)if(O.w[c[j]]!=null)i=O.w[c[j]];if(i==null)return '';var s=O.s[i];if(!s)return '';
  var n=onorm(w,D),V=kokler(n,D).map(function(x){return onorm(x,D)});
  var o=esc(s[0]).replace(D==='en'?/[A-Za-z']+/g:/[\u0600-\u06FF\u200c\u064B-\u0652]+/g,function(t){var u=onorm(t,D);return (V.indexOf(u)>=0||kokler(u,D).some(function(x){return onorm(x,D)===n}))?'<b>'+t+'</b>':t});
  return '<div class="bl">'+(D==='en'?'In context':'Metinden örnek')+'</div><div class="orn"><div class="o '+D+'" dir="'+(D==='en'?'ltr':'rtl')+'">'+o+'</div><div class="t">'+esc(s[1])+'</div><div class="k">📖 '+esc(O.k[s[2]]||'')+'</div></div>'}
 function defBtn(k,m,kucuk){var id=D+'|'+norm(k,D),on=!!st.d[id];return '<button class="ikon'+(on?' on':'')+'" data-k="'+esc(id)+'" data-w="'+esc(k)+'" data-m="'+esc(m)+'" title="Defterime ekle">'+(on?'✓':'＋')+'</button>'}
-function madde(x,ilk){var k=x[0],m=x[1],h='<div class="madde" data-mw="'+esc(k)+'"><div class="ust"><div class="kel" lang="'+D+'">'+esc(k)+'</div><button class="ikon" data-ses="'+esc(k)+'" title="Dinle">🔊</button>'+defBtn(k,m)+'</div><div class="ana">'+esc(m)+'</div><div class="etiket" data-et></div><div data-ek></div></div>';return h}
-function satir(k,m){return '<div class="r" data-q="'+esc(k)+'"><div class="k '+D+'" lang="'+D+'">'+esc(k)+'</div><div class="m">'+esc(m)+'</div>'+defBtn(k,m)+'</div>'}
+function madde(x,ilk){var k=x[0],m=x[1],h='<div class="madde" data-mw="'+esc(k)+'"><div class="ust"><div class="kel" lang="'+D+'" data-hw="'+esc(k)+'">'+esc(hw(k))+'</div><button class="ikon" data-ses="'+esc(k)+'" title="Dinle">🔊</button>'+defBtn(k,m)+'</div><div class="ana">'+esc(m)+'</div><div class="etiket" data-et></div><div data-ek></div></div>';return h}
+function satir(k,m){return '<div class="r" data-q="'+esc(k)+'"><div class="k '+D+'" lang="'+D+'" data-hw="'+esc(k)+'">'+esc(hw(k))+'</div><div class="m">'+esc(m)+'</div>'+defBtn(k,m)+'</div>'}
 /* Madde kartlarına şâhid beyit, örnek cümle ve kök bilgisi ekle */
 function zenginlestir(){var kartlar=M.querySelectorAll('.madde');if(!kartlar.length)return;
  var isler=[ornAl()];if(D!=='en')isler.push(BY.yukle(D));if(D==='ar')isler.push(kokAl());
@@ -186,7 +187,7 @@ function ara(){var q=Q.value.trim(),d=D,h='';try{history.replaceState(null,'','?
  M.innerHTML=h;zenginlestir();if(d==='ar'&&!lat)kokEk(q,gor)}
 function kokEk(q,gor){if(D!=='ar')return;kokAl().then(function(){var r=kokBul(norm(q,'ar'));if(!r||!KOK[r]||Q.value.trim()!==q)return;kokListe(r,gor,true)})}
 function kokListe(r,gor,ekle){var o=G.ar,L=KOK[r].map(function(k){return o[norm(k,'ar')]}).filter(function(x){return x&&!(gor||{})[norm(x[0],'ar')]});if(!L.length)return;
- var h='<h2 id="kokb">Aynı kökten · <span class="ar" style="font-size:18px;letter-spacing:0">'+esc(r)+'</span> · '+L.length+'</h2><div class="kokler">'+L.slice(0,60).map(function(x){return '<div data-q="'+esc(x[0])+'"><b>'+esc(x[0])+'</b><small>'+esc(x[1])+'</small></div>'}).join('')+'</div>';
+ var h='<h2 id="kokb">Aynı kökten · <span class="ar" style="font-size:18px;letter-spacing:0">'+esc(r)+'</span> · '+L.length+'</h2><div class="kokler">'+L.slice(0,60).map(function(x){return '<div data-q="'+esc(x[0])+'"><b data-hw="'+esc(x[0])+'">'+esc(hw(x[0]))+'</b><small>'+esc(x[1])+'</small></div>'}).join('')+'</div>';
  var p=M.querySelector('#kokb');if(p){p.nextSibling&&p.nextSibling.remove();p.remove()}
  var n=M.querySelector('.note');if(n&&!M.querySelector('.madde,.r'))n.remove();M.insertAdjacentHTML('beforeend',h)}
 var HRF={ar:'ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي',fa:'ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی',en:'a b c d e f g h i j k l m n o p q r s t u v w x y z'};
@@ -198,7 +199,7 @@ function ev(){var d=D,K=KEYS[d],o=G[d],n=Object.keys(st.d).filter(function(k){re
   '<p style="margin-top:0">'+C.dil+' yazarsan anlamını, Türkçe yazarsan karşılıklarını bulur. Çekimli ve ekli biçimler ('+(d==='ar'?'و، ال، ها، يـ…ون':d==='fa'?'می، ها، ان…':'-s, -ed, -ing…')+') kendiliğinden ayıklanır.</p><div class="ss"><a href="roman.html#defter">📒 Defterim: '+n+'</a><a href="roman.html?dil='+d+'">📚 Romanlar</a></div></div>';
  h+='<div id="gunb"></div>';
  var son=(sonAl()[d]||[]);if(son.length)h+='<h2>Son aramaların</h2><div class="son">'+son.map(function(x){return '<button data-q="'+esc(x)+'" class="'+d+'">'+esc(x)+'</button>'}).join('')+'</div>';
- h+='<h2>Günün kelimeleri</h2><div class="gk">';for(var i=0;i<6;i++){var x=o[K[(sd*7919+i*104729)%K.length]];h+='<div data-q="'+esc(x[0])+'"><span class="w">'+esc(x[0])+'</span><small>'+esc(x[1])+'</small></div>'}h+='</div>';
+ h+='<h2>Günün kelimeleri</h2><div class="gk">';for(var i=0;i<6;i++){var x=o[K[(sd*7919+i*104729)%K.length]];h+='<div data-q="'+esc(x[0])+'"><span class="w" data-hw="'+esc(x[0])+'">'+esc(hw(x[0]))+'</span><small>'+esc(x[1])+'</small></div>'}h+='</div>';
  h+='<h2>Harf harf göz at</h2><div class="hrf">'+HRF[d].split(' ').map(function(c){return '<button data-h="'+c+'">'+c+'</button>'}).join('')+'</div>';M.innerHTML=h;
  
  if(d==='en'){ornAl().then(function(O){var A=Object.keys(O.w).filter(function(w){return o[w]&&w.length>4});if(!A.length)return;var w=A[sd%A.length],x=o[w],g=document.getElementById('gunb');if(!g)return;g.innerHTML='<div class="gun"><div class="gb">Word of the day</div>'+madde(x)+'</div>';var mc=g.querySelector('.madde');mc.style.boxShadow='none';mc.style.border='0';mc.style.padding='6px 0 0';mc.style.margin='0';zenginlestir()})}

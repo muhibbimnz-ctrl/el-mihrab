@@ -4,6 +4,7 @@
 <script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Roman okuma — el-Mihrâb</title><meta name="theme-color" content="#3b2a5a">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Vazirmatn:wght@400;600&family=Lora:wght@400;600&display=swap" rel="stylesheet">
 <style>
+.hk{font-size:.62em;opacity:.75;margin-inline-start:6px;font-weight:400}
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f7f2e8;color:#2a2620}
 #hd{background:linear-gradient(135deg,#6a4c93,#2b1d45);color:#fff;padding:12px 14px 14px;border-radius:0 0 20px 20px;position:sticky;top:0;z-index:5;box-shadow:0 4px 14px rgba(0,0,0,.15)}
 #hd .top{display:flex;align-items:center;gap:10px}#hd a,#hd button{color:#fff;text-decoration:none;background:rgba(255,255,255,.2);border:0;border-radius:12px;padding:8px 12px;font:600 14.5px system-ui,sans-serif;cursor:pointer;white-space:nowrap}
@@ -65,8 +66,9 @@ function tokU(s,d){return s.split(/(\s+)/).map(function(p){if(/^\s+$/.test(p)||!
  var n=norm(p,d);return n?'<span class="w'+(st.d[d+'|'+n]?' kn':'')+'" data-n="'+esc(n)+'">'+esc(p)+'</span>':esc(p)}).join('')}
 /* Ortak sözlük: aynı dildeki bütün kitapların sözlükleri (data/roman/sozluk_<dil>.json); kitapta yoksa buradan, önek/sonek ayıklanarak bakılır */
 function hz(w){return w.replace(/[إأآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ي/g,'ی').replace(/ك/g,'ک')}
-var OS={};function ortak(d){if(OS[d])return Promise.resolve(OS[d]);return J('data/roman/sozluk_'+d+'.json?v=5').then(function(g){if(d!=='en'){var o={};for(var k in g){var n=norm(k,d);if(!o[n])o[n]=g[k];var z=hz(n);if(!o['~'+z])o['~'+z]=g[k]}for(var k2 in o)g[k2]=g[k2]||o[k2]}return OS[d]=g}).catch(function(){return OS[d]={}})}
-function bul(n,d,G){if(G[n])return G[n];if(d==='ar'&&window.arAday){var A=arAday(n);for(var a=0;a<A.length;a++)if(G[A[a]])return G[A[a]];for(var a2=0;a2<A.length;a2++){var z2='~'+hz(A[a2]);if(G[z2])return G[z2]}if(G['~'+hz(n)])return G['~'+hz(n)];return ''}var c=[];
+var OS={};function ortak(d){if(OS[d])return Promise.resolve(OS[d]);return J('data/roman/sozluk_'+d+'.json?v=6').then(function(g){if(d!=='en'){var o={};for(var k in g){var n=norm(k,d);if(!o[n])o[n]=g[k];var z=hz(n);if(!o['~'+z])o['~'+z]=g[k]}for(var k2 in o)g[k2]=g[k2]||o[k2]}return OS[d]=g}).catch(function(){return OS[d]={}})}
+var BULK='',HRA=null;function hrAl(){if(HRA)return Promise.resolve(HRA);return J('data/roman/hareke_ar.json?v=1').then(function(h){var o={};for(var k in h){var n=norm(k,'ar');o[n]=h[k];o['~'+hz(n)]=o['~'+hz(n)]||h[k]}return HRA=o}).catch(function(){return HRA={}})}
+function bul(n,d,G){BULK=n;if(G[n])return G[n];if(d==='ar'&&window.arAday){var A=arAday(n);for(var a=0;a<A.length;a++)if(G[A[a]]){BULK=A[a];return G[A[a]]}for(var a2=0;a2<A.length;a2++){var z2='~'+hz(A[a2]);if(G[z2]){BULK=z2;return G[z2]}}if(G['~'+hz(n)]){BULK='~'+hz(n);return G['~'+hz(n)]}return ''}var c=[];
  if(d==='ar'){['وال','بال','فال','كال','لل','ال','و','ف','ب','ل','ك','وب','ول','فب','وك','س'].forEach(function(pr){if(n.indexOf(pr)===0&&n.length-pr.length>=3){var r=n.slice(pr.length);c.push(r,'ال'+r);if(r.indexOf('ال')===0)c.push(r.slice(2))}});
   ['ها','هم','هما','هن','كم','كما','نا','ني','ه','ك','ي','ون','ين','ات','ة'].forEach(function(sf){var t=n.replace(/^(وال|بال|فال|ال|و|ف|ب)/,'');if(t.length-sf.length>=3&&t.slice(-sf.length)===sf){c.push(t.slice(0,-sf.length),'ال'+t.slice(0,-sf.length))}})}
  else if(d==='fa'){var t=n.replace(/\u200c/g,'');[n.replace(/^(و|ب|می|نمی|ن)/,''),n.replace(/(ها|های|هایی|ای|اش|ام|ات|یم|ید|ند|ی|ش|م)$/,''),n.replace(/\u200c?(ها|های|هایی|ای|اش|ام|ات)$/,'')].forEach(function(x){if(x&&x.length>=2)c.push(x)});c.push(t)}
@@ -94,10 +96,11 @@ M.addEventListener('click',function(e){var x=e.target.closest('.trb');if(x)x.par
 var SEL=null;
 M.addEventListener('click',function(e){var w=e.target.closest('.w');if(!w||!K)return;M.querySelectorAll('.w.on').forEach(function(x){x.classList.remove('on')});w.classList.add('on');
  var n=w.dataset.n,d=K.dil,yal=w.textContent.replace(/[«»،.؟!:؛()\-"]/g,'').replace(/[,.;:!?'"]+$/,'');pk.className='k '+d;pk.textContent=yal;pdis.href='sozluk.html?dil='+d+'&q='+encodeURIComponent(d==='en'?n:yal.replace(H,''));
- var m=bul(n,d,K.sozluk);function goster(m){SEL={k:d+'|'+n,w:yal,m:m||'—',d:d};pm.textContent=m||'Bu biçim kitap sözlüğünde yok — “Sözlükte ara” ile geniş sözlükte bak.';
+ var m=bul(n,d,K.sozluk),bk0=BULK;function goster(m,bk){bk=bk||bk0;SEL={k:d+'|'+n,w:yal,m:m||'—',d:d};
+  if(d==='ar'&&m){var sk0=SEL.k;hrAl().then(function(H){if(!SEL||SEL.k!==sk0)return;var v=H[bk]||H['~'+hz(bk.replace(/^~/,''))];if(v&&v.replace(/[\u064B-\u0652\u0670]/g,'')!==yal)pk.innerHTML=esc(yal)+' <small class="hk">'+esc(v)+'</small>';else if(v)pk.textContent=v})}pm.textContent=m||'Bu biçim kitap sözlüğünde yok — “Sözlükte ara” ile geniş sözlükte bak.';
   padd.style.display=m?'':'none';padd.textContent=st.d[SEL.k]?'✓ Defterde':'＋ Defterime ekle';pop.classList.add('on');pb.innerHTML='';
   if((d==='ar'||d==='fa')&&window.BY){var sk=SEL.k;BY.yukle(d).then(function(){if(!SEL||SEL.k!==sk)return;pb.innerHTML=BY.html(BY.bul(yal,d),yal,1,d)})}}
- if(m)goster(m);else{pm.textContent='…';pop.classList.add('on');ortak(d).then(function(G){if(SEL&&SEL.k!==d+'|'+n&&pop.classList.contains('on')&&pk.textContent!==yal)return;goster(bul(n,d,G))})}});
+ if(m)goster(m);else{pm.textContent='…';pop.classList.add('on');ortak(d).then(function(G){if(SEL&&SEL.k!==d+'|'+n&&pop.classList.contains('on')&&pk.textContent!==yal)return;var mm=bul(n,d,G);goster(mm,BULK)})}});
 pcl.onclick=function(){pop.classList.remove('on');M.querySelectorAll('.w.on').forEach(function(x){x.classList.remove('on')})};
 padd.onclick=function(){if(!SEL)return;if(st.d[SEL.k])delete st.d[SEL.k];else st.d[SEL.k]=[SEL.w,SEL.m,K.tr_baslik];sv();padd.textContent=st.d[SEL.k]?'✓ Defterde':'＋ Defterime ekle';
  M.querySelectorAll('.w').forEach(function(x){x.classList.toggle('kn',!!st.d[K.dil+'|'+x.dataset.n])})};
@@ -109,5 +112,5 @@ dfb.onclick=function(){git('#defter')};function defter(){ttl.textContent='Kelime
 sv();J('data/roman/liste.json').then(function(l){LIST=l;var id=Q.get('id');if(id&&!location.hash)location.replace('#k='+id);else rota()}).catch(function(){M.innerHTML='<p class="note">Liste yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'});
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e3f9665447b64c6f8d89efca8e6de38f"}'></script><!-- End Cloudflare Web Analytics -->
-<script src="arkok.js?v=1"></script><script src="beyit.js?v=6"></script>
+<script src="arkok.js?v=2"></script><script src="beyit.js?v=6"></script>
 </body></html>

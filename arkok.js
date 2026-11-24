@@ -11,7 +11,7 @@ window.arAday=function(n){var out=[],seen={};function add(x){if(x&&x.length>=2&&
  bases.forEach(function(b){add(b);if(!sw(b,'ال'))add('ال'+b)});
  var stems=[];bases.forEach(function(b){var t=sw(b,'ال')&&b.length>4?b.slice(2):b;stems.push(t);var lv=[t];
   for(var k=0;k<2;k++){var nx=[];lv.forEach(function(u){SF.forEach(function(s){if(ew(u,s)&&u.length-s.length>=2){var st=u.slice(0,u.length-s.length);nx.push(st);
-    if(ew(st,'ت'))stems.push(st.slice(0,-1)+'ة');var z=st.slice(-1);if(z==='ئ'||z==='ؤ')stems.push(st.slice(0,-1)+'ء');if(ew(st,'ا')&&st.length>=3)stems.push(st.slice(0,-1)+'ى')}})});
+    if(ew(st,'ت'))stems.push(st.slice(0,-1)+'ة');var z=st.slice(-1);if(z==='ئ'||z==='ؤ')stems.push(st.slice(0,-1)+'ء');if(z==='و'&&st.length>=4)stems.push(st.slice(0,-1));if(ew(st,'ا')&&st.length>=3)stems.push(st.slice(0,-1)+'ى')}})});
    stems=stems.concat(nx);lv=nx}});
  var v=[];stems.forEach(function(s){v.push(s);
   if(s.length>=4&&'يتناأإ'.indexOf(s[0])>=0){v.push(s.slice(1));if(sw(s.slice(1),'ست')&&s.length>=6)v.push('ا'+s.slice(1))}
