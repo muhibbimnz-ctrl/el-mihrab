@@ -1,0 +1,54 @@
+{
+"surum":"2026-11-24",
+"deneme":{"soru":60,"dakika":90,"yanlisGoturur":false},
+"harita":{
+ "kaynak":"Soru sayıları: ÖSYM DİB-MBSTS başvuru kılavuzu (2024) ve 29 Mart 2026 sınavının soru dağılımı. Sık çıkan konular: 2017-2020 ve 2026 sınavlarındaki sorular incelenerek belirlendi.",
+ "dersler":[
+  {"ad":"Kur’an Bilgisi","soru":7,"uniteler":[
+   {"ad":"Vahiy ve Kur’an tarihi: nüzul, cem’, istinsah, mushafın yazımı ve harekelenmesi","oncelik":2},
+   {"ad":"Kur’an’ın yapısı: sure ve ayet bilgisi, sure adları, kıssalar, meseller, helak edilen kavimler","oncelik":3},
+   {"ad":"Tecvid 1: harfler, sıfatlar, medler","oncelik":3},
+   {"ad":"Tecvid 2: sakin nun ve tenvin, sakin mim, idgamlar, ra ve lam, vakıf (revm, işmam), kıraatler","oncelik":3}]},
+  {"ad":"Tefsir","soru":7,"uniteler":[
+   {"ad":"Ulûmü’l-Kur’an: mekkî-medenî, nüzul sebepleri, nesh, muhkem-müteşabih, garîb, mübhem, siyak-sibak","oncelik":3},
+   {"ad":"Tefsir tarihi: sahabe ve tâbiûn müfessirleri, tefsir merkezleri","oncelik":3},
+   {"ad":"Tefsir çeşitleri ve eserleri: rivayet, dirayet, işârî, mezhebî, fıkhî, ilmî, çağdaş tefsir","oncelik":3},
+   {"ad":"Tefsir usulü, meal ve tercüme","oncelik":2}]},
+  {"ad":"Akaid ve Kelam","soru":7,"uniteler":[
+   {"ad":"Kelama giriş: konusu, mesâil-vesâil, bilgi kaynakları, akıl-nakil ilişkisi","oncelik":3},
+   {"ad":"Allah’ın varlığı delilleri (hudûs, imkân, nizam) ve sıfatları","oncelik":3},
+   {"ad":"Nübüvvet, ahiret, kader, iman meseleleri","oncelik":2},
+   {"ad":"Kelam ekolleri ve ilk tartışmalar: Hâricîler, Mürcie, Mu’tezile, Eş’arîlik, Mâtürîdîlik, Selefîlik","oncelik":3}]},
+  {"ad":"Fıkıh ve İlmihal","soru":20,"uniteler":[
+   {"ad":"Fıkıh usulü 1: teklifî ve vaz’î hüküm, farz-vacip-sünnet-müstehap-mübah, vacip türleri, ehliyet","oncelik":3},
+   {"ad":"Fıkıh usulü 2: deliller (icmâ, kıyas, istihsan, istıslah, örf, istishab, sedd-i zerâi), lafız (âm-hâs, mutlak-mukayyed)","oncelik":3},
+   {"ad":"Fıkıh tarihi, mezhepler, temel eserler ve fıkhın alt dalları","oncelik":2},
+   {"ad":"Taharet: sular, necaset, abdest, gusül, teyemmüm, mesh","oncelik":3},
+   {"ad":"Namaz 1: vakitler, farzlar, vacipler, sünnetler","oncelik":2},
+   {"ad":"Namaz 2: sehiv secdesi, cemaat, cuma, bayram, yolculuk, cenaze","oncelik":3},
+   {"ad":"Oruç ve itikâf","oncelik":2},
+   {"ad":"Zekât ve fıtır sadakası","oncelik":3},
+   {"ad":"Hac ve umre","oncelik":3},
+   {"ad":"Kurban, adak, yemin ve kefaretler","oncelik":3},
+   {"ad":"Aile hukuku: nikâh, talak, iddet, nafaka","oncelik":2},
+   {"ad":"Miras ve vasiyet","oncelik":2},
+   {"ad":"Muamelat: akitler, alım-satım türleri, rehin, kefalet, irtifak hakları, vakıf","oncelik":3},
+   {"ad":"Yiyecek-içecek, helal-haram, yargılama ve ispat yolları, günümüz fıkıh meseleleri","oncelik":2}]},
+  {"ad":"Hadis","soru":7,"uniteler":[
+   {"ad":"Hadis ve sünnet: temel kavramlar, râvi, cerh-ta’dil, tahammül yolları","oncelik":3,"konu":"hadis-1"},
+   {"ad":"Hadis çeşitleri: râvi sayısı, kaynak, sıhhat, zayıf hadis türleri, muhtelif hadisler","oncelik":3,"konu":"hadis-2"},
+   {"ad":"Hadis tarihi ve hadis edebiyatı","oncelik":3,"konu":"hadis-3"}]},
+  {"ad":"Siyer ve İslam Tarihi","soru":7,"uniteler":[
+   {"ad":"İslam öncesi Arabistan ve Mekke dönemi","oncelik":3},
+   {"ad":"Medine dönemi: kurumlar, gazveler ve seriyyeler","oncelik":3},
+   {"ad":"Hulefâ-yi Râşidîn dönemi","oncelik":2},
+   {"ad":"Emevîler, Abbâsîler ve diğer İslam devletleri","oncelik":2}]},
+  {"ad":"Mezhepler Tarihi","soru":3,"uniteler":[
+   {"ad":"İtikadi-siyasi mezhepler: Şîa kolları (İmâmiyye, Zeydiyye, İsmâiliyye), Dürzîlik, Nusayrîlik","oncelik":3},
+   {"ad":"Modern dönem akımları: Kadıyânîlik, Bahâîlik, Vehhâbîlik, selefî hareketler","oncelik":2}]},
+  {"ad":"Dinler Tarihi","soru":2,"uniteler":[
+   {"ad":"Yahudilik ve Hristiyanlık (mezhepleri, kutsal metinleri, sakramentler)","oncelik":3},
+   {"ad":"Hint ve Uzak Doğu dinleri, Sâbiîlik, Zerdüştlük ve diğerleri","oncelik":2}]}
+ ]},
+"konular":[{"ref":"hadis-1"},{"ref":"hadis-2"},{"ref":"hadis-3"}]
+}
