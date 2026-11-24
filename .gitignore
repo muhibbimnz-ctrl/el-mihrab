@@ -3,3 +3,7 @@ android/app/build
 android/build
 tools/__pycache__/
 __pycache__/
+
+# Kadem: düz içerik yayına gitmez, yalnız şifreli .enc dosyaları gider (tools/kadem/sifre.py)
+data/kadem/**/*.json
+!data/kadem/anahtar.json
