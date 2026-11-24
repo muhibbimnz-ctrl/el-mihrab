@@ -79,60 +79,54 @@
     "soru": 20,
     "uniteler": [
      {
-      "ad": "Fıkıh usulü 1: teklifî ve vaz’î hüküm, farz-vacip-sünnet-müstehap-mübah, vacip türleri, ehliyet",
-      "oncelik": 3
+      "ad": "Fıkıh Usulü 1: Hüküm, Hükmün Çeşitleri ve Ehliyet",
+      "oncelik": 3,
+      "konu": "fikih-1"
      },
      {
-      "ad": "Fıkıh usulü 2: deliller (icmâ, kıyas, istihsan, istıslah, örf, istishab, sedd-i zerâi), lafız (âm-hâs, mutlak-mukayyed)",
-      "oncelik": 3
+      "ad": "Fıkıh Usulü 2: Deliller, Lafızlar, Mezhepler ve Fıkıh Literatürü",
+      "oncelik": 3,
+      "konu": "fikih-2"
      },
      {
-      "ad": "Fıkıh tarihi, mezhepler, temel eserler ve fıkhın alt dalları",
-      "oncelik": 2
+      "ad": "Taharet: Sular, Necaset, Abdest, Gusül, Teyemmüm ve Mesh",
+      "oncelik": 3,
+      "konu": "fikih-3"
      },
      {
-      "ad": "Taharet: sular, necaset, abdest, gusül, teyemmüm, mesh",
-      "oncelik": 3
+      "ad": "Namaz: Farzlar, Vacipler, Sehiv, Cemaat, Cuma, Yolculuk ve Cenaze",
+      "oncelik": 3,
+      "konu": "fikih-4"
      },
      {
-      "ad": "Namaz 1: vakitler, farzlar, vacipler, sünnetler",
-      "oncelik": 2
+      "ad": "Oruç ve İtikâf",
+      "oncelik": 2,
+      "konu": "fikih-5"
      },
      {
-      "ad": "Namaz 2: sehiv secdesi, cemaat, cuma, bayram, yolculuk, cenaze",
-      "oncelik": 3
+      "ad": "Zekât, Öşür ve Fıtır Sadakası",
+      "oncelik": 3,
+      "konu": "fikih-6"
      },
      {
-      "ad": "Oruç ve itikâf",
-      "oncelik": 2
+      "ad": "Hac, Umre ve Kurban",
+      "oncelik": 3,
+      "konu": "fikih-7"
      },
      {
-      "ad": "Zekât ve fıtır sadakası",
-      "oncelik": 3
+      "ad": "Adak, Yemin, Keffâretler; Yiyecek, İçecek ve Kesim",
+      "oncelik": 3,
+      "konu": "fikih-8"
      },
      {
-      "ad": "Hac ve umre",
-      "oncelik": 3
+      "ad": "Aile Hukuku ve Miras",
+      "oncelik": 2,
+      "konu": "fikih-9"
      },
      {
-      "ad": "Kurban, adak, yemin ve kefaretler",
-      "oncelik": 3
-     },
-     {
-      "ad": "Aile hukuku: nikâh, talak, iddet, nafaka",
-      "oncelik": 2
-     },
-     {
-      "ad": "Miras ve vasiyet",
-      "oncelik": 2
-     },
-     {
-      "ad": "Muamelat: akitler, alım-satım türleri, rehin, kefalet, irtifak hakları, vakıf",
-      "oncelik": 3
-     },
-     {
-      "ad": "Yiyecek-içecek, helal-haram, yargılama ve ispat yolları, günümüz fıkıh meseleleri",
-      "oncelik": 2
+      "ad": "Muamelat, Ceza ve Yargılama",
+      "oncelik": 3,
+      "konu": "fikih-10"
      }
     ]
    },
@@ -141,17 +135,17 @@
     "soru": 7,
     "uniteler": [
      {
-      "ad": "Hadis ve sünnet: temel kavramlar, râvi, cerh-ta’dil, tahammül yolları",
+      "ad": "Hadis ve Sünnet: Temel Kavramlar, Râvi ve Rivayet",
       "oncelik": 3,
       "konu": "hadis-1"
      },
      {
-      "ad": "Hadis çeşitleri: râvi sayısı, kaynak, sıhhat, zayıf hadis türleri, muhtelif hadisler",
+      "ad": "Hadis Çeşitleri: Râvi Sayısı, Kaynak ve Sıhhat",
       "oncelik": 3,
       "konu": "hadis-2"
      },
      {
-      "ad": "Hadis tarihi ve hadis edebiyatı",
+      "ad": "Hadis Tarihi ve Hadis Edebiyatı",
       "oncelik": 3,
       "konu": "hadis-3"
      }
@@ -227,6 +221,18 @@
   },
   {
    "ref": "fikih-6"
+  },
+  {
+   "ref": "fikih-7"
+  },
+  {
+   "ref": "fikih-8"
+  },
+  {
+   "ref": "fikih-9"
+  },
+  {
+   "ref": "fikih-10"
   },
   {
    "ref": "hadis-1"

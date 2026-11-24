@@ -1,0 +1,588 @@
+{
+ "id": "fikih-7",
+ "ad": "Hac, Umre ve Kurban",
+ "ders": "Fıkıh ve İlmihal",
+ "sinavlar": [
+  "mbsts",
+  "dhbt"
+ ],
+ "anlatim": [
+  "Hac, gücü yeten Müslümanın ömründe bir kez belirli vakitte Arafat’ta bulunması ve Kâbe’yi tavaf etmesidir. Hicretin dokuzuncu yılında farz kılınmış, Hz. Peygamber haccını onuncu yılda (Veda Haccı) yapmıştır. Hükümler Hanefî mezhebine göredir.",
+  {
+   "ayet": "Yoluna gücü yetenlerin Beyt’i haccetmesi, Allah’ın insanlar üzerinde bir hakkıdır.",
+   "kay": "Âl-i İmrân, 3/97"
+  },
+  {
+   "b": "1. Haccın farzları ve vacipleri"
+  },
+  {
+   "tablo": [
+    [
+     "Farzlar",
+     "Vacipler"
+    ],
+    [
+     "İhram (şart)",
+     "Müzdelife vakfesi"
+    ],
+    [
+     "Arafat vakfesi (rükün): 9 Zilhicce öğleden sonradan bayram sabahı fecre kadar bir an bile bulunmak",
+     "Safâ ile Merve arasında sa’y"
+    ],
+    [
+     "Ziyaret (ifâda) tavafı (rükün): en az dört şavtı farz",
+     "Şeytan taşlamak (cemreler)"
+    ],
+    [
+     "",
+     "Tıraş olmak (halk veya taksir)"
+    ],
+    [
+     "",
+     "Veda tavafı (Mekke dışından gelenler için)"
+    ],
+    [
+     "",
+     "Temettu ve kıran haccında kurban (hedy)"
+    ],
+    [
+     "",
+     "İhrama mîkatta girmek"
+    ]
+   ]
+  },
+  {
+   "not": "Farz terk edilirse hac olmaz; vacip terk edilirse ceza (dem: bir koyun) gerekir, hac geçerlidir. Arafat vakfesini kaçıran haccı kaçırmış olur."
+  },
+  {
+   "b": "2. Hac çeşitleri"
+  },
+  {
+   "tablo": [
+    [
+     "Çeşit",
+     "Nasıl yapılır?",
+     "Kurban"
+    ],
+    [
+     "İfrad",
+     "Yalnız hac için ihrama girilir",
+     "Gerekmez"
+    ],
+    [
+     "Temettu",
+     "Hac aylarında önce umre yapılıp ihramdan çıkılır, sonra aynı yıl hac için yeniden ihrama girilir",
+     "Vacip (şükür kurbanı)"
+    ],
+    [
+     "Kıran",
+     "Umre ve hac için birlikte ihrama girilir, ikisi tek ihramla yapılır",
+     "Vacip (şükür kurbanı)"
+    ]
+   ]
+  },
+  "Mekke ve Harem bölgesinde oturanlar (Hanefîlere göre) temettu ve kıran yapamaz; ifrad haccı yapar.",
+  {
+   "b": "3. Mîkat yerleri"
+  },
+  {
+   "tablo": [
+    [
+     "Mîkat",
+     "Kimler için"
+    ],
+    [
+     "Zülhuleyfe",
+     "Medine yönünden gelenler"
+    ],
+    [
+     "Cuhfe (bugün Râbiğ)",
+     "Şam, Mısır ve Türkiye yönünden gelenler"
+    ],
+    [
+     "Karnü’l-menâzil",
+     "Necid yönünden gelenler"
+    ],
+    [
+     "Yelemlem",
+     "Yemen yönünden gelenler"
+    ],
+    [
+     "Zâtüırk",
+     "Irak yönünden gelenler"
+    ]
+   ]
+  },
+  {
+   "b": "4. Tavaflar"
+  },
+  {
+   "tablo": [
+    [
+     "Tavaf",
+     "Hüküm"
+    ],
+    [
+     "Kudüm tavafı",
+     "Mekke dışından gelip ifrad veya kıran yapanlara sünnet"
+    ],
+    [
+     "Ziyaret (ifâda) tavafı",
+     "Farz (rükün); bayram günlerinde yapılır"
+    ],
+    [
+     "Veda (sader) tavafı",
+     "Mekke dışından gelenlere vacip; hayızlı kadından düşer"
+    ],
+    [
+     "Umre tavafı",
+     "Umrenin rüknü"
+    ],
+    [
+     "Nafile tavaf",
+     "Her zaman yapılabilir"
+    ]
+   ]
+  },
+  {
+   "b": "5. Tahallül (ihramdan çıkış)"
+  },
+  "İhram yasakları iki aşamada kalkar. İfrad yapan, bayramın ilk günü Akabe cemresine taş attıktan sonra; temettu ve kıran yapan ise kurbanını kestikten sonra tıraş olarak ilk tahallülü yapar. Bu aşamada cinsel ilişki dışındaki bütün yasaklar kalkar (dikişli elbise, koku, tırnak kesmek serbest olur). Ziyaret tavafı yapılınca ikinci (büyük) tahallül gerçekleşir ve cinsel ilişki de serbest olur.",
+  {
+   "b": "6. Cezalar"
+  },
+  {
+   "tablo": [
+    [
+     "Ceza",
+     "Ne zaman?"
+    ],
+    [
+     "Haccın bozulması",
+     "Arafat vakfesinden önce cinsel ilişki: hac bozulur, ertesi yıl kaza edilir, ayrıca dem gerekir"
+    ],
+    [
+     "Bedene (sığır veya deve)",
+     "Vakfeden sonra ilk tahallülden önce cinsel ilişki; ziyaret tavafını cünüpken veya hayızlıyken yapmak"
+    ],
+    [
+     "Dem (koyun veya keçi)",
+     "Bir vacibi terk etmek; bir uzvun tamamına koku sürmek; dikişli elbiseyi bir gün giymek"
+    ],
+    [
+     "Sadaka (fitre miktarı)",
+     "Yasaklardan birini daha az miktarda işlemek (bir günden az dikişli giymek, bir tırnak kesmek)"
+    ]
+   ]
+  },
+  "Teşrik tekbirleri arefe günü sabah namazından bayramın dördüncü günü ikindi namazına kadar 23 vakit farz namazların arkasından getirilir; vaciptir.",
+  {
+   "b": "7. Umre"
+  },
+  "Umre Hanefîlere göre ömürde bir kez sünnet-i müekkededir. Farzları ihram ve tavaf, vacipleri sa’y ve tıraştır. Yılın her zamanı yapılabilir; arefe günü ve bayramın dört gününde yapılması tahrimen mekruhtur.",
+  {
+   "b": "8. Kurban"
+  },
+  {
+   "ayet": "Rabbin için namaz kıl ve kurban kes.",
+   "kay": "Kevser, 108/2"
+  },
+  "Kurban; Müslüman, akıllı, bâliğ, mukim ve fitre nisabı kadar malı olan kişiye vaciptir. Kurban Bayramı’nın birinci günü (şehirde bayram namazından sonra) başlar, üçüncü günün akşamına kadar kesilir.",
+  {
+   "tablo": [
+    [
+     "Hayvan",
+     "Yaş",
+     "Ortaklık"
+    ],
+    [
+     "Koyun, keçi",
+     "1 yaşını doldurmuş (6 ayını doldurmuş, bir yaşındaki gibi gösterişli kuzu da olur)",
+     "Tek kişi"
+    ],
+    [
+     "Sığır, manda",
+     "2 yaşını doldurmuş",
+     "7 kişiye kadar"
+    ],
+    [
+     "Deve",
+     "5 yaşını doldurmuş",
+     "7 kişiye kadar"
+    ]
+   ]
+  },
+  "Kesilmesine engel kusurlar: bir veya iki gözü kör olmak, kesim yerine yürüyemeyecek kadar topal olmak, kulağının veya kuyruğunun yarıdan fazlası kesik olmak, çok zayıf (iliksiz) olmak, dişlerinin çoğu dökük olmak.",
+  {
+   "tablo": [
+    [
+     "Kurban türü",
+     "Hüküm",
+     "Etinden kesen yiyebilir mi?"
+    ],
+    [
+     "Udhiyye (bayram kurbanı)",
+     "Vacip",
+     "Evet; üçte birini dağıtmak müstehap"
+    ],
+    [
+     "Adak kurbanı",
+     "Vacip",
+     "Hayır; adayan ve bakmakla yükümlü olduğu kişiler yiyemez, tamamı fakirlere"
+    ],
+    [
+     "Temettu ve kıran hedyi (şükür)",
+     "Vacip",
+     "Evet"
+    ],
+    [
+     "Ceza kurbanı (dem)",
+     "Vacip",
+     "Hayır"
+    ],
+    [
+     "Akîka (doğum şükrü)",
+     "Hanefîlere göre mübah (bazı Hanefîlere göre müstehap); diğer mezheplerde sünnet",
+     "Evet"
+    ]
+   ]
+  }
+ ],
+ "ozet": [
+  "Haccın farzları: ihram (şart), Arafat vakfesi ve ziyaret tavafı (rükün).",
+  "Vacipler: Müzdelife, sa’y, şeytan taşlama, tıraş, veda tavafı, temettu-kıran kurbanı, ihrama mîkatta girmek. Terki dem gerektirir.",
+  "İfrad (yalnız hac, kurban yok), temettu (önce umre, ihramdan çık, sonra hac; kurban vacip), kıran (tek ihram; kurban vacip). Mekkeliler ifrad yapar.",
+  "Mîkatlar: Zülhuleyfe (Medine), Cuhfe/Râbiğ (Şam-Mısır-Türkiye), Karnü’l-menâzil (Necid), Yelemlem (Yemen), Zâtüırk (Irak).",
+  "Tavaflar: kudüm sünnet, ziyaret farz, veda vacip.",
+  "İlk tahallül (tıraş) → cinsel ilişki hariç yasaklar kalkar; ziyaret tavafı → hepsi kalkar.",
+  "Vakfeden önce ilişki haccı bozar; sonra ve tahallülden önce bedene. Vacip terki dem; az ihlal sadaka.",
+  "Teşrik tekbirleri: arefe sabahı – bayramın 4. günü ikindi, 23 vakit, vacip.",
+  "Umre: sünnet-i müekkede; farzı ihram ve tavaf; vacibi sa’y ve tıraş; arefe ve bayram günlerinde mekruh.",
+  "Kurban vacip; bayramın 1. günü namazdan sonra – 3. gün akşamı. Koyun 1, sığır 2, deve 5 yaş; sığır ve deve 7 ortak.",
+  "Hedy vacip (eti yenir), adak vacip (eti yenmez), akîka mübah."
+ ],
+ "kartlar": [
+  {
+   "o": "Haccın rükünleri",
+   "a": "Arafat vakfesi ve ziyaret tavafı (ihram şart)"
+  },
+  {
+   "o": "Arafat vakfesinin vakti",
+   "a": "9 Zilhicce öğleden sonra – bayram sabahı fecir"
+  },
+  {
+   "o": "Temettu haccı",
+   "a": "Önce umre, ihramdan çıkış, sonra hac; kurban vacip"
+  },
+  {
+   "o": "Kıran haccı",
+   "a": "Umre ve hac tek ihramla; kurban vacip"
+  },
+  {
+   "o": "Türkiye’den gidenlerin mîkatı",
+   "a": "Cuhfe (Râbiğ)"
+  },
+  {
+   "o": "Veda tavafı",
+   "a": "Mekke dışından gelenlere vacip; hayızlıdan düşer"
+  },
+  {
+   "o": "İlk tahallül",
+   "a": "Tıraşla; cinsel ilişki dışındaki yasaklar kalkar"
+  },
+  {
+   "o": "Dem",
+   "a": "Koyun veya keçi kesmek; vacip terkinin cezası"
+  },
+  {
+   "o": "Bedene",
+   "a": "Sığır veya deve; ağır ihlallerin cezası"
+  },
+  {
+   "o": "Teşrik tekbirleri",
+   "a": "Arefe sabahından bayramın 4. günü ikindisine, 23 vakit"
+  },
+  {
+   "o": "Kurban kesim süresi",
+   "a": "Bayramın ilk üç günü"
+  },
+  {
+   "o": "Sığırın kurban yaşı",
+   "a": "2 yaş; 7 kişiye kadar ortak"
+  },
+  {
+   "o": "Adak kurbanının eti",
+   "a": "Adayan ve bakmakla yükümlü olduğu kimseler yiyemez"
+  },
+  {
+   "o": "Akîka (Hanefî)",
+   "a": "Mübah"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "f7-01",
+   "z": 1,
+   "s": "Hanefî mezhebine göre aşağıdakilerden hangisi haccın rükünlerinden biridir?",
+   "c": [
+    "Müzdelife vakfesi",
+    "Sa’y",
+    "Veda tavafı",
+    "Şeytan taşlamak",
+    "Arafat vakfesi"
+   ],
+   "d": 4,
+   "a": "Haccın rükünleri Arafat vakfesi ve ziyaret tavafıdır; ihram ise şarttır.",
+   "ac": [
+    "Vaciptir.",
+    "Vaciptir.",
+    "Vaciptir.",
+    "Vaciptir.",
+    "Doğru."
+   ],
+   "kay": "Tirmizî, Hac, 57 (“Hac Arafat’tır.”)"
+  },
+  {
+   "id": "f7-02",
+   "z": 1,
+   "s": "Umre ve hac için aynı anda ihrama girip ikisini tek ihramla yapan kişinin haccına ne ad verilir?",
+   "c": [
+    "Kıran",
+    "Temettu",
+    "İfrad",
+    "Bedel",
+    "Nafile"
+   ],
+   "d": 0,
+   "a": "Umre ile haccın tek ihramla birleştirilmesi kıran haccıdır.",
+   "ac": [
+    "Doğru.",
+    "Temettude umreden sonra ihramdan çıkılır.",
+    "İfrad yalnız haçtır.",
+    "Bedel hac başkası adına yapılan hacdır.",
+    "Nafile bir hac türü değildir."
+   ],
+   "kay": "Hanefî ilmihali: hac çeşitleri"
+  },
+  {
+   "id": "f7-03",
+   "z": 1,
+   "s": "Türkiye’den uçakla Cidde’ye giden bir hacı adayı hangi mîkat hizasında ihrama girer?",
+   "c": [
+    "Zülhuleyfe",
+    "Karnü’l-menâzil",
+    "Yelemlem",
+    "Cuhfe (Râbiğ)",
+    "Zâtüırk"
+   ],
+   "d": 3,
+   "a": "Şam, Mısır ve Türkiye yönünden gelenlerin mîkatı Cuhfe’dir; bugün Râbiğ hizasında ihrama girilir.",
+   "ac": [
+    "Medine yönünden gelenlerin mîkatıdır.",
+    "Necid yönünden gelenlerin mîkatıdır.",
+    "Yemen yönünden gelenlerin mîkatıdır.",
+    "Doğru.",
+    "Irak yönünden gelenlerin mîkatıdır."
+   ],
+   "kay": "Buhârî, Hac, 7"
+  },
+  {
+   "id": "f7-04",
+   "z": 2,
+   "s": "Hanefî mezhebine göre haccın vaciplerinden birini terk eden kişinin durumu hangisidir?",
+   "c": [
+    "Haccı bozulur, ertesi yıl kaza eder.",
+    "Haccı geçerlidir, hiçbir şey gerekmez.",
+    "Haccı geçerlidir, ceza olarak dem (koyun veya keçi) keser.",
+    "Bedene (sığır veya deve) keser, hac bozulur.",
+    "Yalnızca tövbe eder."
+   ],
+   "d": 2,
+   "a": "Vacip terki haccı bozmaz; ceza olarak dem gerekir. Rüknün terki haccı geçersiz kılar.",
+   "ac": [
+    "Bu rüknün terkiyle olur.",
+    "Ceza gerekir.",
+    "Doğru.",
+    "Hac bozulmaz; bedene daha ağır ihlallerde gerekir.",
+    "Ceza gerekir."
+   ],
+   "kay": "Hanefî ilmihali: hac cezaları"
+  },
+  {
+   "id": "f7-05",
+   "z": 2,
+   "s": "Hanefî mezhebine göre ilk tahallül ile ikinci (büyük) tahallül arasında aşağıdaki ihram yasaklarından hangisi devam eder?",
+   "c": [
+    "Erkeklerin dikişli elbise giymesi",
+    "Tırnak kesmek",
+    "Koku kullanmak",
+    "Cinsel ilişki",
+    "Saç ve sakal kesmek"
+   ],
+   "d": 3,
+   "a": "İlk tahallülle cinsel ilişki dışındaki yasaklar kalkar; cinsel ilişki ancak ziyaret tavafından sonra serbest olur.",
+   "ac": [
+    "İlk tahallülle serbest olur.",
+    "İlk tahallülle serbest olur.",
+    "İlk tahallülle serbest olur.",
+    "Doğru.",
+    "Tıraş ilk tahallülün kendisidir."
+   ],
+   "kay": "Kâsânî, Bedâi’: tahallül"
+  },
+  {
+   "id": "f7-06",
+   "z": 2,
+   "s": "Hanefî mezhebine göre\nI. temettu ve kıran haccı yapanların kestiği hedy kurbanı,\nII. bir adağın yerine getirilmesi için kesilen adak kurbanı,\nIII. çocuğun doğumu sebebiyle kesilen akîka\nkurbanlarının hükümleri aşağıdakilerin hangisinde doğru sıralanmıştır?",
+   "c": [
+    "Sünnet – mübah – vacip",
+    "Vacip – vacip – mübah",
+    "Mübah – vacip – vacip",
+    "Vacip – sünnet – mübah",
+    "Sünnet – vacip – vacip"
+   ],
+   "d": 1,
+   "a": "Temettu ve kıran hedyi vacip, adak kurbanı vacip, akîka Hanefîlere göre mübahtır.",
+   "ac": [
+    "Hedy sünnet değildir.",
+    "Doğru.",
+    "Hedy vaciptir, akîka vacip değildir.",
+    "Adak kurbanı vaciptir.",
+    "Hedy vaciptir, akîka vacip değildir."
+   ],
+   "kay": "Hanefî ilmihali: kurban çeşitleri"
+  },
+  {
+   "id": "f7-07",
+   "z": 2,
+   "s": "Kurbanlık sığır için aranan yaş ve en fazla kaç kişinin ortak olabileceği hangisinde doğru verilmiştir?",
+   "c": [
+    "1 yaş – 5 kişi",
+    "2 yaş – 7 kişi",
+    "3 yaş – 7 kişi",
+    "5 yaş – 7 kişi",
+    "2 yaş – 10 kişi"
+   ],
+   "d": 1,
+   "a": "Sığır ve manda iki yaşını doldurmuş olmalıdır; sığır ve deveye yedi kişiye kadar ortak olunabilir.",
+   "ac": [
+    "Yaş ve sayı yanlış.",
+    "Doğru.",
+    "Yaş yanlış.",
+    "5 yaş devenin yaşıdır.",
+    "Sayı yanlış."
+   ],
+   "kay": "Müslim, Hac, 350 (yedi kişilik ortaklık)"
+  },
+  {
+   "id": "f7-08",
+   "z": 2,
+   "s": "Teşrik tekbirleri ile ilgili hangisi doğrudur?",
+   "c": [
+    "Bayram namazından sonra başlar.",
+    "Bayramın üçüncü günü akşamına kadar devam eder.",
+    "Yalnız hacılar için vaciptir.",
+    "Sünnet namazların arkasından getirilir.",
+    "Arefe günü sabah namazından bayramın dördüncü günü ikindi namazına kadar farzların arkasından getirilir."
+   ],
+   "d": 4,
+   "a": "Teşrik tekbirleri arefe sabahından bayramın dördüncü günü ikindisine kadar 23 vakit farzların ardından getirilir ve vaciptir.",
+   "ac": [
+    "Arefe sabahı başlar.",
+    "Dördüncü günün ikindisine kadardır.",
+    "Herkese vaciptir.",
+    "Farzlardan sonra getirilir.",
+    "Doğru."
+   ],
+   "kay": "Hanefî ilmihali: teşrik tekbirleri"
+  },
+  {
+   "id": "f7-09",
+   "z": 3,
+   "s": "Arafat vakfesinden önce eşiyle cinsel ilişkide bulunan bir hacının durumu hangisidir?",
+   "c": [
+    "Haccı bozulur; haccın kalan işlerini tamamlar, ertesi yıl kaza eder ve ayrıca dem keser.",
+    "Haccı geçerlidir, bedene keser.",
+    "Haccı geçerlidir, sadaka verir.",
+    "Haccı bozulur, hiçbir ceza gerekmez.",
+    "Yalnız tövbe ve istiğfar yeterlidir."
+   ],
+   "d": 0,
+   "a": "Vakfeden önce cinsel ilişki haccı bozar. Kişi haccın menasikini yine de tamamlar, ertesi yıl kaza eder ve bir dem keser.",
+   "ac": [
+    "Doğru.",
+    "Bedene vakfeden sonraki ilişkide gerekir.",
+    "Hac bozulur.",
+    "Dem gerekir.",
+    "Hac bozulmuştur; kaza gerekir."
+   ],
+   "kay": "Kâsânî, Bedâi’: ihram cinayetleri"
+  },
+  {
+   "id": "f7-10",
+   "z": 3,
+   "s": "Aşağıdakilerden hangisi kurban olarak kesilmeye engel bir kusur değildir?",
+   "c": [
+    "Bir gözünün kör olması",
+    "Kesim yerine yürüyemeyecek kadar topal olması",
+    "Boynuzunun doğuştan olmaması",
+    "Kulağının yarıdan fazlasının kesik olması",
+    "Dişlerinin çoğunun dökülmüş olması"
+   ],
+   "d": 2,
+   "a": "Boynuzsuz (doğuştan) hayvan kurban edilebilir; boynuzun kökünden kırık olması ise engel sayılır.",
+   "ac": [
+    "Engeldir.",
+    "Engeldir.",
+    "Doğru: kurban edilebilir.",
+    "Engeldir.",
+    "Engeldir."
+   ],
+   "kay": "Tirmizî, Edâhî, 5"
+  },
+  {
+   "id": "f7-11",
+   "z": 3,
+   "s": "Umre ile ilgili hangisi Hanefî mezhebine göre yanlıştır?",
+   "c": [
+    "Ömürde bir kez yapılması sünnet-i müekkededir.",
+    "Arafat vakfesi umrenin rüknüdür.",
+    "Sa’y ve tıraş vaciptir.",
+    "Arefe günü ve bayramın dört gününde yapılması mekruhtur.",
+    "Farzları ihram ve tavaftır."
+   ],
+   "d": 1,
+   "a": "Umrede Arafat vakfesi yoktur; vakfe yalnız haccın rüknüdür.",
+   "ac": [
+    "Doğru bilgi.",
+    "Yanlış: umrede vakfe yoktur.",
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Doğru bilgi."
+   ],
+   "kay": "Hanefî ilmihali: umre"
+  },
+  {
+   "id": "f7-12",
+   "z": 3,
+   "s": "Hayızlı olan bir kadın hacı, kafilesi dönüş için yola çıkmadan önce temizlenememiştir.\n\nBu kadının veda tavafıyla ilgili hükmü hangisidir?",
+   "c": [
+    "Haccı geçersiz olur.",
+    "Hayızlı olarak veda tavafı yapar ve bedene keser.",
+    "Temizlenene kadar Mekke’de kalmak zorundadır.",
+    "Veda tavafını terk ettiği için dem keser.",
+    "Veda tavafı ondan düşer, ceza gerekmez."
+   ],
+   "d": 4,
+   "a": "Hayızlı kadından veda tavafı düşer, ceza gerekmez. Ziyaret tavafı ise düşmez; onu temizlendikten sonra yapması gerekir.",
+   "ac": [
+    "Haccı geçerlidir.",
+    "Hayızlıyken tavaf yapılmaz.",
+    "Veda tavafı için kalması gerekmez.",
+    "Ceza gerekmez.",
+    "Doğru."
+   ],
+   "kay": "Buhârî, Hac, 145"
+  }
+ ]
+}
