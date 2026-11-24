@@ -20,12 +20,12 @@ def kokler(t):
 R=json.load(open('/tmp/lisan_beyit.json'))
 B=[];I=collections.defaultdict(list)
 for kok,vs in R:
-    for v in vs:
-        bid=len(B);B.append([v,kok])
+    for v,sa in vs:
+        bid=len(B);B.append([v,kok,sa])
         for tok in set(re.findall(r'[ء-ي]+',n(v))):
             for t in kokler(tok): I[t].append(bid)
 KB=collections.defaultdict(list)
-for i,(v,k) in enumerate(B): KB[n(k)].append(i)
+for i,x in enumerate(B): KB[n(x[1])].append(i)
 ON='امتنيسء';ICI='اويتن'
 SONL={'','ه','ات','ان','ون','ين','ا','ي','ت','وا','نا','ها','هم','هن','ك','كم','يه','يات','تم','تن','اء','ى','وه','اه','ته','تها','ني','ان','يين','اني','انه','ونه'}
 def eslestir(r,w):
@@ -76,7 +76,7 @@ TRH=set()
 if os.path.exists('tools/dil/beyit_tr.txt'):
     for ln in open('tools/dil/beyit_tr.txt',encoding='utf-8'):
         if '=' in ln and not ln.startswith('#'): TRH.add(ln.split('=',1)[0].strip())
-TRB={i for i,(v,k) in enumerate(B) if hashlib.md5(v.encode()).hexdigest()[:8] in TRH}
+TRB={i for i,x in enumerate(B) if hashlib.md5(x[0].encode()).hexdigest()[:8] in TRH}
 ES={};kul=collections.Counter()
 for k in S:
     w=sk(k)
@@ -86,9 +86,15 @@ for k in S:
         r=kokbul(w)
         if r: c=[b for b in KB.get(r,[]) if any(uyar(r,t) for t in re.findall(r'[\u0621-\u064A]+',n(B[b][0])))]
     if not c: continue
-    c.sort(key=lambda b:((0 if b in TRB else kul[b]*40)+abs(len(B[b][0])-60)*0.5+70*zor(b)-(300 if b in TRB else 0)))
-    ES[w]=c[0];kul[c[0]]+=1
-print(len(S),'kelime,',len(ES),'beyitli,',len(set(ES.values())),'farklı beyit')
+    c=list(dict.fromkeys(c))
+    c.sort(key=lambda b:((0 if b in TRB else kul[b]*40)+abs(len(B[b][0])-60)*0.5+70*zor(b)-(300 if b in TRB else 0)-(25 if B[b][2] else 0)))
+    sec=[c[0]]
+    for b in c[1:]:
+        if len(sec)>=2: break
+        if B[b][0]!=B[sec[0]][0] and (b in TRB or B[b][2] or zor(b)<0.5): sec.append(b)
+    ES[w]=sec
+    for b in sec: kul[b]+=1
+print(len(S),'kelime,',len(ES),'beyitli,',len({b for v in ES.values() for b in v}),'farklı beyit')
 json.dump(ES,open('/tmp/beyit_es.json','w'),ensure_ascii=False)
 import hashlib
 def hid(v):return hashlib.md5(v.encode()).hexdigest()[:8]
@@ -102,9 +108,12 @@ OB=[];OI={};W={}
 for k in S:
     w=sk(k)
     if w not in ES: continue
-    b=ES[w];v,kok=B[b]
-    if b not in OI: OI[b]=len(OB);OB.append([v,kok,TR.get(hid(v),'')])
-    W[jsnorm(k)]=OI[b]
+    L=[]
+    for b in ES[w]:
+        v,kok,sa=B[b]
+        if b not in OI: OI[b]=len(OB);OB.append([v,kok,TR.get(hid(v),''),sa] if sa else [v,kok,TR.get(hid(v),'')])
+        L.append(OI[b])
+    W[jsnorm(k)]=L[0] if len(L)==1 else L
 json.dump({'b':OB,'w':W},open('data/roman/beyit_ar.json','w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
-print('çıktı',len(OB),'beyit,',sum(1 for x in OB if x[2]),'tercümeli')
+print('çıktı',len(OB),'beyit,',sum(1 for x in OB if x[2]),'tercümeli,',sum(1 for x in OB if len(x)>3),'şâirli; Türkçeli kelime:',sum(1 for v in W.values() if any(OB[i][2] for i in ([v] if isinstance(v,int) else v))))
 json.dump(B,open('/tmp/beyitler.json','w'),ensure_ascii=False)

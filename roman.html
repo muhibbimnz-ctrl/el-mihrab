@@ -96,7 +96,7 @@ M.addEventListener('click',function(e){var w=e.target.closest('.w');if(!w||!K)re
  var n=w.dataset.n,d=K.dil,yal=w.textContent.replace(/[«»،.؟!:؛()\-"]/g,'').replace(/[,.;:!?'"]+$/,'');pk.className='k '+d;pk.textContent=yal;pdis.href='sozluk.html?dil='+d+'&q='+encodeURIComponent(d==='en'?n:yal.replace(H,''));
  var m=bul(n,d,K.sozluk);function goster(m){SEL={k:d+'|'+n,w:yal,m:m||'—',d:d};pm.textContent=m||'Bu biçim kitap sözlüğünde yok — “Sözlükte ara” ile geniş sözlükte bak.';
   padd.style.display=m?'':'none';padd.textContent=st.d[SEL.k]?'✓ Defterde':'＋ Defterime ekle';pop.classList.add('on');pb.innerHTML='';
-  if(d==='ar'&&window.BY){var sk=SEL.k;BY.yukle().then(function(){if(!SEL||SEL.k!==sk)return;pb.innerHTML=BY.html(BY.bul(yal),yal,1)})}}
+  if((d==='ar'||d==='fa')&&window.BY){var sk=SEL.k;BY.yukle(d).then(function(){if(!SEL||SEL.k!==sk)return;pb.innerHTML=BY.html(BY.bul(yal,d),yal,1,d)})}}
  if(m)goster(m);else{pm.textContent='…';pop.classList.add('on');ortak(d).then(function(G){if(SEL&&SEL.k!==d+'|'+n&&pop.classList.contains('on')&&pk.textContent!==yal)return;goster(bul(n,d,G))})}});
 pcl.onclick=function(){pop.classList.remove('on');M.querySelectorAll('.w.on').forEach(function(x){x.classList.remove('on')})};
 padd.onclick=function(){if(!SEL)return;if(st.d[SEL.k])delete st.d[SEL.k];else st.d[SEL.k]=[SEL.w,SEL.m,K.tr_baslik];sv();padd.textContent=st.d[SEL.k]?'✓ Defterde':'＋ Defterime ekle';
@@ -109,5 +109,5 @@ dfb.onclick=function(){git('#defter')};function defter(){ttl.textContent='Kelime
 sv();J('data/roman/liste.json').then(function(l){LIST=l;var id=Q.get('id');if(id&&!location.hash)location.replace('#k='+id);else rota()}).catch(function(){M.innerHTML='<p class="note">Liste yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'});
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e3f9665447b64c6f8d89efca8e6de38f"}'></script><!-- End Cloudflare Web Analytics -->
-<script src="beyit.js?v=3"></script>
+<script src="beyit.js?v=5"></script>
 </body></html>

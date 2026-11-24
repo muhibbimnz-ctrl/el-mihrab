@@ -1,92 +1,215 @@
 <!DOCTYPE html><html lang="tr"><head>
 <meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Sözlük — el-Mihrâb</title><meta name="theme-color" content="#3b2a5a">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Vazirmatn:wght@400;600&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Sözlük — el-Mihrâb</title><meta name="theme-color" content="#0d3b2e">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Vazirmatn:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
-*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#ece3d1;color:#221d16}
-#hd{background:linear-gradient(135deg,#6a4c93,#2b1d45);color:#fff;padding:calc(10px + env(safe-area-inset-top,0px)) 14px 12px;border-radius:0 0 20px 20px;position:sticky;top:0;z-index:5;box-shadow:0 4px 14px rgba(0,0,0,.15)}
-#hd .top{display:flex;align-items:center;gap:10px}#hd a{color:#fff;text-decoration:none;background:rgba(255,255,255,.2);border-radius:12px;padding:8px 12px;font:600 14.5px system-ui;white-space:nowrap}#hd h1{margin:0;font-size:18px;flex:1}
-.tabs{display:flex;gap:6px;margin-top:10px}.tabs button{flex:1;border:0;border-radius:12px;padding:9px 4px;background:rgba(255,255,255,.16);color:#fff;font:600 14.5px system-ui;cursor:pointer}.tabs button.on{background:#f3d98b;color:#2b1d45}
-.sr{display:flex;gap:8px;margin-top:10px}.sr input{flex:1;border:0;border-radius:14px;padding:12px 14px;font-size:18px;outline:none;min-width:0}.sr button{border:0;border-radius:14px;padding:0 14px;background:#f3d98b;color:#2b1d45;font:700 15px system-ui;cursor:pointer}
-main{max-width:760px;margin:0 auto;padding:12px 12px 80px}
-.r{display:flex;align-items:center;gap:12px;background:#fffdf8;border-radius:14px;padding:12px 13px;margin:0 0 8px;box-shadow:0 2px 8px rgba(43,29,69,.10);border:1px solid #dccdb0;border-inline-start:5px solid #6a4c93}
-.r .k{flex:none;min-width:30%;font-size:25px;color:#3b2366;font-weight:700}.r .k.en{font-size:19px;font-family:Lora,Georgia,serif}.r .m{flex:1;font-size:16px;line-height:1.45;color:#2f2a22}
-.r button{flex:none;border:0;background:#f0e6d2;border-radius:10px;padding:7px 10px;cursor:pointer;font-size:15px}.r button.on{background:#4a3470;color:#fff}
-.ar{font-family:Amiri,serif;direction:rtl}.fa{font-family:Vazirmatn,Tahoma,sans-serif;direction:rtl}
-.note{font-size:14px;color:#4f473b;border:1px solid #dccdb0;line-height:1.55;background:#fff;border-radius:14px;padding:12px 14px;margin:0 0 10px}
-h2{font-size:15px;color:#4a3470;margin:16px 4px 8px;font-weight:800}
-.ist{background:linear-gradient(135deg,#7b5aa8,#3b2366);color:#fff;border-radius:18px;padding:16px;margin:0 0 12px;box-shadow:0 6px 18px rgba(59,35,102,.25)}
-.ist b{font-size:30px;display:block;line-height:1.1}.ist span{opacity:.9;font-size:14px;line-height:1.5}
-.ist .ss{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}.ist .ss a{background:rgba(255,255,255,.18);color:#fff;text-decoration:none;border-radius:12px;padding:8px 12px;font:600 14px system-ui}
-.hrf{display:grid;grid-template-columns:repeat(auto-fill,minmax(48px,1fr));gap:7px;margin:0 0 6px}.hrf button{border:0;border-radius:12px;padding:10px 0;background:#4a3470;color:#fff;font-size:22px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.12)}
-.hrf button.en{font:700 17px system-ui}
-.gk{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}.gk div{background:#f3d98b;color:#2b1d45;border-radius:14px;padding:12px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.10)}
-.gk div .w{font-size:24px;font-weight:700;display:block}.gk div small{font-size:13.5px;line-height:1.35;display:block;margin-top:4px}
-.son{display:flex;flex-wrap:wrap;gap:6px}.son button{border:1px solid #c9b48a;background:#fffdf8;border-radius:12px;padding:7px 11px;font-size:16px;cursor:pointer;color:#3b2366}
-@media(prefers-color-scheme:dark){body{background:#16131c;color:#ece4d3}.r,.note{background:#231e2c;color:#ece4d3}.r .m{color:#cfc5b2}.r button{background:#3a3048;color:#ece4d3}.r{border-color:#3a3048}.r .k{color:#d9c6ff}.r .m{color:#e3dacb}h2{color:#cdb8f0}.son button{background:#231e2c;color:#e3dacb;border-color:#4a3e5c}}
+/* Üç ayrı sözlük, üç ayrı karakter: el-Lügat (Arapça), Ferheng (Farsça), Dictionary (İngilizce) */
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--zemin);color:var(--yazi);-webkit-tap-highlight-color:transparent}
+body.t-ar{--k1:#0b3326;--k2:#14563f;--alt:#c9a44c;--alt2:#f1dc9c;--zemin:#f3ecdb;--kart:#fffdf6;--yazi:#1f2a24;--soluk:#6a6352;--cizgi:#e2d4b0;--vurgu:#0f4a37;--bas:Amiri,"Noto Naskh Arabic",serif}
+body.t-fa{--k1:#10284d;--k2:#1c5a7a;--alt:#e2b13c;--alt2:#a8e0da;--zemin:#eef2f1;--kart:#fff;--yazi:#16233a;--soluk:#5b6878;--cizgi:#cfdcdf;--vurgu:#1c5a7a;--bas:Vazirmatn,Tahoma,sans-serif}
+body.t-en{--k1:#16203a;--k2:#2c3a5e;--alt:#9e2a2b;--alt2:#e9d8b4;--zemin:#f6f2ea;--kart:#fffefb;--yazi:#1d1d24;--soluk:#5e5a55;--cizgi:#e0d8c8;--vurgu:#9e2a2b;--bas:Lora,Georgia,serif}
+#hd{position:sticky;top:0;z-index:5;color:#fff;padding:calc(10px + env(safe-area-inset-top,0px)) 14px 14px;background:linear-gradient(160deg,var(--k1),var(--k2));box-shadow:0 6px 18px rgba(0,0,0,.18);overflow:hidden}
+#hd:before{content:"";position:absolute;inset:0;opacity:.13;pointer-events:none;background-size:56px 56px;background-image:var(--desen)}
+body.t-ar #hd:before{--desen:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='%23f1dc9c' stroke-width='1.2'%3E%3Crect x='14' y='14' width='28' height='28'/%3E%3Crect x='14' y='14' width='28' height='28' transform='rotate(45 28 28)'/%3E%3Ccircle cx='28' cy='28' r='6'/%3E%3C/g%3E%3C/svg%3E")}
+body.t-fa #hd:before{--desen:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='%23a8e0da' stroke-width='1.2'%3E%3Cpath d='M28 4 C40 16 40 40 28 52 C16 40 16 16 28 4Z'/%3E%3Cpath d='M4 28 C16 16 40 16 52 28 C40 40 16 40 4 28Z'/%3E%3C/g%3E%3C/svg%3E")}
+body.t-en #hd:before{--desen:repeating-linear-gradient(0deg,transparent 0 27px,rgba(233,216,180,.5) 27px 28px)}
+#hd>*{position:relative}
+#hd .top{display:flex;align-items:center;gap:10px}
+#hd .top a{color:#fff;text-decoration:none;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.22);border-radius:12px;padding:7px 11px;font:600 14px system-ui;white-space:nowrap}
+#hd .bas{flex:1;min-width:0;line-height:1.1}
+#hd .bas b{display:block;font:700 21px var(--bas);letter-spacing:.2px}
+#hd .bas small{display:block;font:500 12.5px system-ui;opacity:.82;margin-top:2px}
+#hd .hat{font:700 30px var(--bas);color:var(--alt2);line-height:1;white-space:nowrap}
+body.t-fa #hd .hat{font-family:"Noto Nastaliq Urdu",Vazirmatn,serif;font-size:24px;line-height:1.6}
+body.t-en #hd .hat{font-style:italic;font-size:26px}
+.sr{display:flex;gap:8px;margin-top:12px}
+.sr input{flex:1;min-width:0;border:2px solid var(--alt2);border-radius:14px;padding:12px 14px;font-size:19px;outline:none;background:#fffef9;color:#1d1d1d}
+body.t-ar .sr input,body.t-fa .sr input{font-family:var(--bas)}
+.sr button{border:0;border-radius:14px;padding:0 16px;background:var(--alt);color:#fff;font:700 15px system-ui;cursor:pointer}
+body.t-ar .sr button{background:var(--alt);color:#1b2a22}
+main{max-width:760px;margin:0 auto;padding:14px 12px 30px}
+.ar{font-family:Amiri,serif;direction:rtl}.fa{font-family:Vazirmatn,Tahoma,sans-serif;direction:rtl}.en{font-family:Lora,Georgia,serif}
+/* Madde kartı */
+.madde{background:var(--kart);border-radius:18px;padding:14px 16px 12px;margin:0 0 14px;border:1px solid var(--cizgi);box-shadow:0 4px 14px rgba(0,0,0,.06);position:relative}
+.madde:before{content:"";position:absolute;inset-inline-start:0;top:16px;bottom:16px;width:4px;border-radius:4px;background:var(--alt)}
+.madde .ust{display:flex;align-items:flex-start;gap:8px}
+.madde .kel{flex:1;min-width:0;font:700 34px/1.25 var(--bas);color:var(--vurgu);word-break:break-word}
+body.t-ar .madde .kel,body.t-fa .madde .kel{direction:rtl;text-align:right}
+body.t-en .madde .kel{font-size:30px}
+.madde .ana{font-size:17.5px;line-height:1.5;margin:6px 0 2px;color:var(--yazi)}
+.ikon{flex:none;width:40px;height:40px;border-radius:12px;border:1px solid var(--cizgi);background:var(--zemin);color:var(--vurgu);font-size:18px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
+.ikon.on{background:var(--vurgu);color:#fff;border-color:var(--vurgu)}
+.etiket{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0}
+.etiket span,.etiket button{font:600 12.5px system-ui;border-radius:999px;padding:4px 10px;background:var(--zemin);color:var(--soluk);border:1px solid var(--cizgi)}
+.etiket button{cursor:pointer;color:var(--vurgu)}
+.etiket .ar{font:700 15px Amiri,serif}
+.bl{font:800 11.5px system-ui;letter-spacing:1.4px;text-transform:uppercase;color:var(--alt);margin:14px 0 2px;display:flex;align-items:center;gap:8px}
+body.t-ar .bl{color:#9a7a26}
+.bl:after{content:"";flex:1;height:1px;background:var(--cizgi)}
+.orn{background:var(--zemin);border-radius:12px;padding:10px 12px;margin-top:6px}
+.orn .o{font-size:18px;line-height:1.7}.orn .o.ar{font-size:20px}.orn .o.fa{font-size:17px;line-height:1.9}.orn .o.en{font-size:16.5px;line-height:1.5}
+.orn .o b{color:var(--vurgu);background:linear-gradient(transparent 62%,rgba(201,164,76,.35) 62%)}
+.orn .t{font-size:14.5px;color:var(--soluk);line-height:1.5;margin-top:4px}
+.orn .k{font:600 11.5px system-ui;color:var(--soluk);opacity:.85;margin-top:4px}
+/* Liste satırları */
+h2{font:800 13px system-ui;letter-spacing:1.2px;text-transform:uppercase;color:var(--soluk);margin:18px 4px 8px}
+.r{display:flex;align-items:center;gap:10px;background:var(--kart);border-radius:14px;padding:10px 12px;margin:0 0 7px;border:1px solid var(--cizgi);cursor:pointer}
+.r .k{flex:none;max-width:48%;font:700 23px var(--bas);color:var(--vurgu)}
+body.t-en .r .k{font-size:18px}
+.r .m{flex:1;font-size:15.5px;line-height:1.4;color:var(--yazi)}
+.r .ikon{width:34px;height:34px;font-size:15px}
+.kokler{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:7px}
+.kokler div{background:var(--kart);border:1px solid var(--cizgi);border-radius:12px;padding:8px 10px;cursor:pointer}
+.kokler b{display:block;font:700 21px Amiri,serif;color:var(--vurgu);direction:rtl;text-align:right}
+.kokler small{display:block;font-size:13px;line-height:1.3;color:var(--soluk)}
+.note{font-size:14.5px;color:var(--soluk);line-height:1.55;background:var(--kart);border:1px solid var(--cizgi);border-radius:14px;padding:12px 14px;margin:0 0 10px}
+/* Ana ekran */
+.hero{border-radius:20px;padding:16px;margin:0 0 14px;color:#fff;background:linear-gradient(150deg,var(--k2),var(--k1));box-shadow:0 8px 20px rgba(0,0,0,.15)}
+.hero .say{display:flex;gap:16px;flex-wrap:wrap}.hero .say div b{display:block;font:800 24px system-ui}.hero .say div span{font-size:12.5px;opacity:.85}
+.hero p{margin:10px 0 0;font-size:14px;line-height:1.5;opacity:.92}
+.hero .ss{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}.hero .ss a{background:rgba(255,255,255,.16);color:#fff;text-decoration:none;border-radius:12px;padding:8px 12px;font:600 14px system-ui;border:1px solid rgba(255,255,255,.2)}
+.gun{background:var(--kart);border:1px solid var(--cizgi);border-radius:18px;padding:14px 16px;margin:0 0 6px}
+.gun .gb{font:800 11.5px system-ui;letter-spacing:1.4px;text-transform:uppercase;color:var(--alt)}
+body.t-ar .gun .gb{color:#9a7a26}
+.gk{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.gk div{background:var(--kart);border:1px solid var(--cizgi);border-radius:14px;padding:11px 12px;cursor:pointer}
+.gk .w{font:700 23px var(--bas);display:block;color:var(--vurgu)}body.t-en .gk .w{font-size:18px}
+body.t-ar .gk .w,body.t-fa .gk .w{direction:rtl;text-align:right}
+.gk small{font-size:13.5px;line-height:1.35;display:block;margin-top:3px;color:var(--soluk)}
+.son{display:flex;flex-wrap:wrap;gap:6px}.son button{border:1px solid var(--cizgi);background:var(--kart);border-radius:12px;padding:7px 11px;font-size:16px;cursor:pointer;color:var(--vurgu)}
+.hrf{display:grid;grid-template-columns:repeat(auto-fill,minmax(46px,1fr));gap:7px}
+.hrf button{border:0;border-radius:12px;padding:9px 0;background:var(--k2);color:var(--alt2);font:700 22px var(--bas);cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.12)}
+body.t-en .hrf button{font:700 17px Lora,serif}
+.dahafazla{display:block;margin:10px auto;border:0;border-radius:12px;padding:11px 18px;background:var(--k2);color:#fff;font:600 15px system-ui}
+/* Kaynakça */
+#kay{max-width:760px;margin:0 auto;padding:0 14px calc(40px + env(safe-area-inset-bottom,0px))}
+#kay details{border-top:2px solid var(--cizgi);padding-top:10px}
+#kay summary{font:800 12px system-ui;letter-spacing:1.4px;text-transform:uppercase;color:var(--soluk);cursor:pointer;list-style:none}
+#kay summary::-webkit-details-marker{display:none}
+#kay ol{margin:8px 0 0;padding-inline-start:20px;font-size:13.5px;line-height:1.55;color:var(--soluk)}#kay li{margin-bottom:6px}#kay i{font-style:italic}
+@media(prefers-color-scheme:dark){
+ body.t-ar{--zemin:#121a16;--kart:#1b241f;--yazi:#ebe5d6;--soluk:#a9a28f;--cizgi:#2f3b33;--vurgu:#e3c46d}
+ body.t-fa{--zemin:#0f151d;--kart:#18212c;--yazi:#e6edf3;--soluk:#9aa9b8;--cizgi:#2a3744;--vurgu:#8fd3cb}
+ body.t-en{--zemin:#14151a;--kart:#1d1f26;--yazi:#ece8e1;--soluk:#a8a29a;--cizgi:#30323b;--vurgu:#e58b7d}
+ .orn .o b{background:none}
+}
 </style></head><body>
-<div id="hd"><div class="top"><a href="./" id="bk">‹ Geri</a><h1>Sözlük</h1><a href="roman.html#defter" title="Kelime defterim">📒</a></div>
-<div class="tabs"><button data-d="ar">Arapça</button><button data-d="fa">Farsça</button><button data-d="en">İngilizce</button></div>
-<div class="sr"><input id="q" type="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Kelime ya da Türkçe anlam yaz…"><button id="git">Ara</button></div></div>
+<div id="hd"><div class="top"><a href="./" id="bk">‹</a><div class="bas"><b id="ad">Sözlük</b><small id="altad"></small></div><span class="hat" id="hat"></span><a href="roman.html#defter" title="Kelime defterim">📒</a></div>
+<div class="sr"><input id="q" type="search" autocomplete="off" autocapitalize="off" spellcheck="false"><button id="git">Ara</button></div></div>
 <main id="m"></main>
+<footer id="kay"></footer>
+<script src="beyit.js?v=5"></script>
 <script>
-var M=document.getElementById('m'),Q=document.getElementById('q'),P=new URLSearchParams(location.search),D=P.get('dil')||'ar',G={},KEYS={};
-var AD={ar:'Arapça',fa:'Farsça',en:'İngilizce'},H=/[ً-ْٰـ]/g;
+var M=document.getElementById('m'),Q=document.getElementById('q'),P=new URLSearchParams(location.search),D=P.get('dil')||'ar',G={},KEYS={},ORN={},HZ={},KOK=null;
+var T={
+ ar:{ad:'el-Lügat',alt:'Arapça – Türkçe Sözlük',hat:'المُعجَم',dil:'Arapça',ses:'ar-SA',geri:'arapca.html',renk:'#0d3b2e',ph:'Kelime yaz: كتب، مكتبة… ya da Türkçe',
+  kay:['<b>Kelime anlamları:</b> el-Mihrâb Arapça–Türkçe sözlüğü; uygulamadaki ders, roman ve Kur’ân kelimelerinden derlenip genişletildi.',
+   '<b>Şâhid beyitler:</b> İbn Manzûr (ö. 711/1311), <i>Lisânü’l-Arab</i>. Dijital metin: OpenITI külliyatı (0711IbnManzurIfriqi.LisanCarab, Şâmile nüshası). Beytin altındaki şâir adı, Lisân’da beytin kime nispet edildiğine göredir; adı geçmeyen beyitler “şâir” ya da “râcez” diye anılanlardır.',
+   '<b>Beyitlerin Türkçesi:</b> el-Mihrâb çevirisi. Anlamından emin olunamayan kapalı beyitler çevrilmeden bırakıldı.',
+   '<b>Kök bilgisi ve “Aynı kökten”:</b> Lisânü’l-Arab madde başlıklarına göre.',
+   '<b>Örnek cümleler:</b> uygulamadaki Arapça kitaplar (kitabın adı cümlenin altında).']},
+ fa:{ad:'Ferheng',alt:'Farsça – Türkçe Sözlük',hat:'فرهنگ',dil:'Farsça',ses:'fa-IR',geri:'farsca.html',renk:'#10284d',ph:'Kelime yaz: دل، روزگار… ya da Türkçe',
+  kay:['<b>Kelime anlamları:</b> el-Mihrâb Farsça–Türkçe sözlüğü; uygulamadaki ders ve kitap sözlüklerinden derlendi.',
+   '<b>Şâhid beyitler:</b> Hâfız (<i>Dîvân</i>), Sa‘dî (<i>Bostân, Gülistân, Gazeliyyât</i>), Mevlânâ (<i>Mesnevî, Dîvân-ı Kebîr</i>), Firdevsî (<i>Şâhnâme</i>), Attâr, Senâî, Câmî, Rûdekî, Hayyâm. Dijital metin: Gencûr (ganjoor.net) metinlerinden derlenen <i>Persian Poems Corpus</i> (GitHub: amnghd/Persian_poems_corpus).',
+   '<b>Beyitlerin Türkçesi:</b> el-Mihrâb çevirisi; çevrilmemiş beyitler şimdilik yalnız Farsça.',
+   '<b>Örnek cümleler:</b> uygulamadaki Farsça kitaplar (Gülistan, Mesnevî, Rüstemnâme…).']},
+ en:{ad:'Dictionary',alt:'İngilizce – Türkçe Sözlük',hat:'Aa',dil:'İngilizce',ses:'en-GB',geri:'ingilizce.html',renk:'#16203a',ph:'Type a word… ya da Türkçe yaz',
+  kay:['<b>Kelime anlamları:</b> el-Mihrâb İngilizce–Türkçe sözlüğü; uygulamadaki ders ve roman sözlüklerinden derlendi.',
+   '<b>Örnek cümleler (In context):</b> uygulamadaki sadeleştirilmiş İngilizce romanlar — Baskervillerin Köpeği, Küçük Prens, Robinson Crusoe, Bir Noel Şarkısı, Gulliver, Verne, Ezop.',
+   '<b>Telaffuz (🔊):</b> cihazınızın ses motoru.']}};
+if(!T[D])D='ar';var C=T[D],H=/[ً-ْٰـ]/g;
+document.body.className='t-'+D;document.title=C.ad+' — '+C.alt;document.getElementById('ad').textContent=C.ad;document.getElementById('altad').textContent=C.alt;document.getElementById('hat').textContent=C.hat;
+try{document.querySelector('meta[name=theme-color]').content=C.renk}catch(e){}
+Q.placeholder=C.ph;Q.dir=D==='en'?'ltr':'auto';
+document.getElementById('kay').innerHTML='<details><summary>Kaynakça ▾</summary><ol>'+C.kay.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ol></details>';
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
 var st={};try{st=JSON.parse(localStorage.getItem('mihrab.roman'))||{}}catch(e){}st.d=st.d||{};st.ok=st.ok||{};
 function sv(){try{localStorage.setItem('mihrab.roman',JSON.stringify(st))}catch(e){}}
 function norm(w,d){if(d==='en'){w=w.toLowerCase().trim().replace(/^['".,!?;:]+|['".,!?;:]+$/g,'');return /'s$/.test(w)?w.slice(0,-2):w}
  w=w.replace(/[«»،.؟!:؛()\-"]/g,'').replace(H,'').trim();if(d==='ar')w=w.replace(/[إأآٱ]/g,'ا').replace(/ى/g,'ي');if(d==='fa')w=w.replace(/ي/g,'ی').replace(/ك/g,'ک');return w}
+function onorm(w,d){return d==='fa'?norm(w,d).replace(/\u200c/g,''):norm(w,d)}
 function tr(s){return s.toLocaleLowerCase('tr').replace(/[âàá]/g,'a').replace(/[îí]/g,'i').replace(/[ûú]/g,'u').replace(/[’'‘`]/g,'')}
 function kokler(n,d){var c=[n];if(d==='ar'){['وال','بال','فال','كال','لل','ال','و','ف','ب','ل','ك','س'].forEach(function(p){if(n.indexOf(p)===0&&n.length-p.length>=3){var r=n.slice(p.length);c.push(r,'ال'+r)}});
   var t=n.replace(/^(وال|بال|فال|ال|و|ف|ب)/,'');['هما','هم','هن','ها','كم','نا','ني','ه','ك','ي','ون','ين','ات','ان','ة','ا','وا','تم','تن','ت'].forEach(function(s){if(t.length-s.length>=3&&t.slice(-s.length)===s)c.push(t.slice(0,-s.length),'ال'+t.slice(0,-s.length))});
-  var f=t.replace(/(وا|ون|ين|ن|ت|تم|نا)$/,'');if(/^[يتنا]/.test(f)&&f.length>=4)c.push(f.slice(1),f.slice(1).replace(/^(.)(.)(.)$/,'$1$2$3'));if(n.length>=4&&/ا$/.test(n))c.push(n.slice(0,-1))}
- else if(d==='fa'){var P=/^(نمی‌|نمی|می‌|می|ب|ن)/,S=/‌?(هایی|های|ها|ترین|تر|گان|ان|ای|اش|ام|ات|یم|ید|ند|ی|ش|م)$/;c.push(n.replace(P,''),n.replace(S,''),n.replace(P,'').replace(S,''),n.replace(/‌/g,''));if(/گان$/.test(n))c.push(n.slice(0,-3)+'ه')}
+  var f=t.replace(/(وا|ون|ين|ن|ت|تم|نا)$/,'');if(/^[يتنا]/.test(f)&&f.length>=4)c.push(f.slice(1));if(n.length>=4&&/ا$/.test(n))c.push(n.slice(0,-1));if(/ة$/.test(t))c.push(t.slice(0,-1)+'ه')}
+ else if(d==='fa'){var Pp=/^(نمی‌|نمی|می‌|می|ب|ن)/,S=/‌?(هایی|های|ها|ترین|تر|گان|ان|ای|اش|ام|ات|یم|ید|ند|ی|ش|م)$/;c.push(n.replace(Pp,''),n.replace(S,''),n.replace(Pp,'').replace(S,''),n.replace(/‌/g,''));if(/گان$/.test(n))c.push(n.slice(0,-3)+'ه')}
  else c.push(n.replace(/ies$/,'y'),n.replace(/ied$/,'y'),n.replace(/(ing|ed|es|s|ly|er|est)$/,''),n.replace(/ing$/,'e'),n.replace(/ed$/,'e'),n.replace(/([b-df-hj-np-tv-z])\1(ing|ed|er|est)$/,'$1'),n.replace(/ily$/,'y'),n.replace(/(ness|ment|ful|less)$/,''));return c}
-function yukle(d){if(KEYS[d])return Promise.resolve();return fetch('data/roman/sozluk_'+d+'.json?v=3').then(function(r){return r.json()}).then(function(g){
+function hz(w){return w.replace(/[ءؤئ]/g,'ا').replace(/ة/g,'ه').replace(/ي/g,'ی').replace(/ى/g,'ی')}
+function J(u){return fetch(u).then(function(r){if(!r.ok)throw 0;return r.json()})}
+function yukle(d){if(KEYS[d])return Promise.resolve();return J('data/roman/sozluk_'+d+'.json?v=4').then(function(g){
  var o={};for(var k in g){var n=norm(k,d);if(!(n in o))o[n]=[k,g[k]]}G[d]=o;KEYS[d]=Object.keys(o).sort();HZ[d]={};for(var n2 in o){var z=hz(n2);if(!HZ[d][z])HZ[d][z]=n2}})}
-var HZ={},KOK=null;function hz(w){return w.replace(/[ءؤئ]/g,'ا').replace(/ة/g,'ه').replace(/ي/g,'ی').replace(/ى/g,'ی')}
-function kokAl(){if(KOK)return Promise.resolve(KOK);return fetch('data/roman/kok_ar.json?v=1').then(function(r){return r.json()}).then(function(k){return KOK=k}).catch(function(){return KOK={}})}
+function ornAl(){if(ORN[D])return Promise.resolve(ORN[D]);return J('data/roman/ornek_'+D+'.json?v=1').then(function(x){return ORN[D]=x}).catch(function(){return ORN[D]={k:[],s:[],w:{}}})}
+function kokAl(){if(KOK)return Promise.resolve(KOK);return J('data/roman/kok_ar.json?v=2').then(function(k){return KOK=k}).catch(function(){return KOK={}})}
 function kokBul(w){if(!KOK)return null;w=w.replace(/^(وال|بال|فال|كال|لل|ال)/,'');var best=null;
  for(var r in KOK){var i=0,j=0,pos=[],R=r.replace(/[أإآ]/g,'ا');for(j=0;j<w.length&&i<R.length;j++){if(w[j]===R[i]||(/[اويءأؤئ]/.test(R[i])&&/[اويءأؤئ]/.test(w[j]))){pos.push(j);i++}else if(i>0&&R[i]===R[i-1]){i++;j--}}
   if(i<R.length&&!(i===R.length-1&&R[i]===R[i-1]))continue;var pre=w.slice(0,pos[0]),suf=w.slice(pos[pos.length-1]+1),ic=pos[pos.length-1]-pos[0]+1-pos.length;
   if(pre.length>3||!/^[امتنيسء]*$/.test(pre)||ic>2||suf.length>4||!/^[اتهنويمكة]*$/.test(suf))continue;var sc=-(pre.length+ic+suf.length)*10+KOK[r].length/100;if(!best||sc>best[0])best=[sc,r]}return best&&best[1]}
-function satir(k,m,d){var id=d+'|'+norm(k,d),on=!!st.d[id];return '<div class="r"><div class="k '+d+'" lang="'+d+'">'+esc(k)+'</div><div class="m">'+esc(m)+'</div><button data-k="'+esc(id)+'" data-w="'+esc(k)+'" data-m="'+esc(m)+'" class="'+(on?'on':'')+'" title="Defterime ekle">'+(on?'✓':'＋')+'</button></div>'}
+/* Telaffuz */
+var SES=window.speechSynthesis;function soyle(w){try{if(!SES)return;SES.cancel();var u=new SpeechSynthesisUtterance(w);u.lang=C.ses;u.rate=.85;var v=SES.getVoices().filter(function(x){return x.lang&&x.lang.toLowerCase().indexOf(C.ses.slice(0,2))===0})[0];if(v)u.voice=v;SES.speak(u)}catch(e){}}
+/* Örnek cümle */
+function ornHtml(w){var O=ORN[D];if(!O)return '';var c=kokler(onorm(w,D),D).map(function(x){return onorm(x,D)}),i=null;for(var j=0;j<c.length&&i==null;j++)if(O.w[c[j]]!=null)i=O.w[c[j]];if(i==null)return '';var s=O.s[i];if(!s)return '';
+ var n=onorm(w,D),V=kokler(n,D).map(function(x){return onorm(x,D)});
+ var o=esc(s[0]).replace(D==='en'?/[A-Za-z']+/g:/[\u0600-\u06FF\u200c\u064B-\u0652]+/g,function(t){var u=onorm(t,D);return (V.indexOf(u)>=0||kokler(u,D).some(function(x){return onorm(x,D)===n}))?'<b>'+t+'</b>':t});
+ return '<div class="bl">'+(D==='en'?'In context':'Metinden örnek')+'</div><div class="orn"><div class="o '+D+'" dir="'+(D==='en'?'ltr':'rtl')+'">'+o+'</div><div class="t">'+esc(s[1])+'</div><div class="k">📖 '+esc(O.k[s[2]]||'')+'</div></div>'}
+function defBtn(k,m,kucuk){var id=D+'|'+norm(k,D),on=!!st.d[id];return '<button class="ikon'+(on?' on':'')+'" data-k="'+esc(id)+'" data-w="'+esc(k)+'" data-m="'+esc(m)+'" title="Defterime ekle">'+(on?'✓':'＋')+'</button>'}
+function madde(x,ilk){var k=x[0],m=x[1],h='<div class="madde" data-mw="'+esc(k)+'"><div class="ust"><div class="kel" lang="'+D+'">'+esc(k)+'</div><button class="ikon" data-ses="'+esc(k)+'" title="Dinle">🔊</button>'+defBtn(k,m)+'</div><div class="ana">'+esc(m)+'</div><div class="etiket" data-et></div><div data-ek></div></div>';return h}
+function satir(k,m){return '<div class="r" data-q="'+esc(k)+'"><div class="k '+D+'" lang="'+D+'">'+esc(k)+'</div><div class="m">'+esc(m)+'</div>'+defBtn(k,m)+'</div>'}
+/* Madde kartlarına şâhid beyit, örnek cümle ve kök bilgisi ekle */
+function zenginlestir(){var kartlar=M.querySelectorAll('.madde');if(!kartlar.length)return;
+ var isler=[ornAl()];if(D!=='en')isler.push(BY.yukle(D));if(D==='ar')isler.push(kokAl());
+ Promise.all(isler).then(function(){[].forEach.call(kartlar,function(c,ci){if(c.dataset.ok)return;c.dataset.ok=1;var w=c.dataset.mw,h='';
+  if(D!=='en'){var L=BY.hepsi(w,D);if(L.length){h+='<div class="bl">Şâhid'+(L.length>1?'ler':'')+'</div>';L.forEach(function(b){h+=BY.html(b,w,0,D)})}}
+  h+=ornHtml(w);c.querySelector('[data-ek]').innerHTML=h;
+  if(D==='ar'){var r=kokBul(norm(w,'ar'));if(r&&KOK[r]){c.querySelector('[data-et]').innerHTML='<span>kök <b class="ar">'+esc(r.split('').join(' '))+'</b></span><button data-kok="'+esc(r)+'">Aynı kökten '+KOK[r].length+' kelime ›</button>'}}
+ })})}
 function ara(){var q=Q.value.trim(),d=D,h='';try{history.replaceState(null,'','?dil='+d+(q?'&q='+encodeURIComponent(q):''))}catch(e){}
- if(!q){ev(d);return}sonEkle(q,d);
- var o=G[d],bul=[],gor={},lat=/^[A-Za-zÇĞİÖŞÜçğıöşüâîû'’ \-]+$/.test(q),n=norm(q,d);
+ if(!q){ev();return}sonEkle(q);
+ var o=G[d],bul=[],gor={},lat=d!=='en'&&/^[A-Za-zÇĞİÖŞÜçğıöşüâîû'’ \-]+$/.test(q),n=norm(q,d);
  function at(k){if(!o[k]&&d!=='en'&&HZ[d]){var z=HZ[d][hz(k)];if(z)k=z}if(!gor[k]&&o[k]){gor[k]=1;bul.push(o[k])}}
- if(!lat||d==='en'){kokler(n,d).forEach(at);var i=bs(KEYS[d],n);for(var j=i;j<KEYS[d].length&&bul.length<80&&KEYS[d][j].indexOf(n)===0;j++)at(KEYS[d][j])}
+ var tam1=0;if(!lat){kokler(n,d).forEach(at);tam1=bul.length;var i=bs(KEYS[d],n);for(var j=i;j<KEYS[d].length&&bul.length<60&&KEYS[d][j].indexOf(n)===0;j++)at(KEYS[d][j])}
  var tam=bul.length;
- if(lat&&q.length>=2){var t=tr(q),re=new RegExp('(^|[\\s,;(])'+t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));var b2=[];for(var k in o){if(gor[k])continue;var m=tr(o[k][1]);if(re.test(m)){b2.push([m.indexOf(t)===0?0:1,o[k][1].length,k]);if(b2.length>800)break}}
-  b2.sort(function(a,b){return a[0]-b[0]||a[1]-b[1]}).slice(0,80).forEach(function(x){at(x[2])})}
- function kokEk(){if(d!=='ar'||lat)return;kokAl().then(function(){var r=kokBul(n);if(!r||!KOK[r]||Q.value.trim()!==q)return;var L=KOK[r].map(function(k){return o[norm(k,d)]}).filter(function(x){return x&&!gor[norm(x[0],d)]});if(!L.length)return;
-  var h2='<h2>Aynı kökten ('+esc(r)+') · '+L.length+' kelime</h2>';L.slice(0,40).forEach(function(x){h2+=satir(x[0],x[1],d)});var p=M.querySelector('.note');if(p&&!bul.length)p.remove();M.insertAdjacentHTML('beforeend',h2)})}
- if(!bul.length){M.innerHTML='<p class="note">“'+esc(q)+'” sözlükte bire bir yok. Aynı kökten kelimelere bakılıyor…</p>';kokEk();return}
- bul.forEach(function(x,i){if(i===0&&tam)h+='<h2>'+AD[d]+' kelime</h2>';if(i===tam&&i>0)h+='<h2>Türkçe anlamda geçenler</h2>';else if(i===0&&!tam)h+='<h2>Türkçe anlamda geçenler</h2>';h+=satir(x[0],x[1],d)});M.innerHTML=h
- kokEk();
- if(d==='ar'&&tam)BY.yukle().then(function(){var R=M.querySelectorAll('.r'),say=0;for(var i=0;i<R.length&&i<tam&&say<6;i++){var b=R[i].querySelector('button[data-w]'),y=BY.bul(b.dataset.w);if(y){R[i].insertAdjacentHTML('afterend',BY.html(y,b.dataset.w));say++}}})}
+ if((lat||d==='en')&&q.length>=2){var t=tr(q),re=new RegExp('(^|[\\s,;(])'+t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));var b2=[];for(var k in o){if(gor[k])continue;var mm=tr(o[k][1]);if(re.test(mm)){b2.push([mm.indexOf(t)===0?0:1,o[k][1].length,k]);if(b2.length>800)break}}
+  b2.sort(function(a,b){return a[0]-b[0]||a[1]-b[1]}).slice(0,60).forEach(function(x){at(x[2])})}
+ if(!bul.length){M.innerHTML='<p class="note">“'+esc(q)+'” sözlükte birebir yok.'+(d==='ar'?' Aynı kökten kelimelere bakılıyor…':' Yazımı kontrol edip yeniden deneyin.')+'</p>';kokEk(q,{});return}
+ var mk=Math.min(Math.max(tam1,1),2,tam);bul.forEach(function(x,i){if(i<mk&&!lat)h+=madde(x,i===0);else{if(i===mk&&!lat&&i<tam)h+='<h2>Benzer biçimler</h2>';if((i===tam&&!lat)||(lat&&i===0))h+='<h2>Türkçe anlamda geçenler</h2>';h+=satir(x[0],x[1])}});
+ M.innerHTML=h;zenginlestir();if(d==='ar'&&!lat)kokEk(q,gor)}
+function kokEk(q,gor){if(D!=='ar')return;kokAl().then(function(){var r=kokBul(norm(q,'ar'));if(!r||!KOK[r]||Q.value.trim()!==q)return;kokListe(r,gor,true)})}
+function kokListe(r,gor,ekle){var o=G.ar,L=KOK[r].map(function(k){return o[norm(k,'ar')]}).filter(function(x){return x&&!(gor||{})[norm(x[0],'ar')]});if(!L.length)return;
+ var h='<h2 id="kokb">Aynı kökten · <span class="ar" style="font-size:18px;letter-spacing:0">'+esc(r)+'</span> · '+L.length+'</h2><div class="kokler">'+L.slice(0,60).map(function(x){return '<div data-q="'+esc(x[0])+'"><b>'+esc(x[0])+'</b><small>'+esc(x[1])+'</small></div>'}).join('')+'</div>';
+ var p=M.querySelector('#kokb');if(p){p.nextSibling&&p.nextSibling.remove();p.remove()}
+ var n=M.querySelector('.note');if(n&&!M.querySelector('.madde,.r'))n.remove();M.insertAdjacentHTML('beforeend',h)}
 var HRF={ar:'ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي',fa:'ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی',en:'a b c d e f g h i j k l m n o p q r s t u v w x y z'};
 function sonAl(){try{return JSON.parse(localStorage.getItem('mihrab.sozlukSon'))||{}}catch(e){return {}}}
-function sonEkle(q,d){var o=sonAl(),L=(o[d]||[]).filter(function(x){return x!==q});L.unshift(q);o[d]=L.slice(0,12);try{localStorage.setItem('mihrab.sozlukSon',JSON.stringify(o))}catch(e){}}
-function ev(d){var K=KEYS[d],o=G[d],n=Object.keys(st.d).filter(function(k){return k.indexOf(d+'|')===0}).length,t=new Date(),sd=t.getFullYear()*372+t.getMonth()*31+t.getDate(),h='';
- h+='<div class="ist"><b>'+K.length.toLocaleString('tr')+'</b><span>'+AD[d]+' – Türkçe kelime. '+AD[d]+' yazarsan anlamını, Türkçe yazarsan karşılıklarını bulur; ekli biçimler (و، ال، ها، می…) kendiliğinden ayıklanır.</span><div class="ss"><a href="roman.html#defter">📒 Defterim: '+n+'</a><a href="roman.html">📚 Romanlar</a></div></div>';
+function sonEkle(q){var o=sonAl(),L=(o[D]||[]).filter(function(x){return x!==q});L.unshift(q);o[D]=L.slice(0,12);try{localStorage.setItem('mihrab.sozlukSon',JSON.stringify(o))}catch(e){}}
+function gunSayi(){var t=new Date();return t.getFullYear()*372+t.getMonth()*31+t.getDate()}
+function ev(){var d=D,K=KEYS[d],o=G[d],n=Object.keys(st.d).filter(function(k){return k.indexOf(d+'|')===0}).length,sd=gunSayi(),h='';
+ h+='<div class="hero"><div class="say"><div><b>'+K.length.toLocaleString('tr')+'</b><span>kelime</span></div>'+(d!=='en'?'<div><b id="sbs">…</b><span>şâhid beyitli</span></div>':'')+'<div><b id="ors">…</b><span>örnek cümleli</span></div></div>'+
+  '<p>'+C.dil+' yazarsan anlamını, Türkçe yazarsan karşılıklarını bulur. Çekimli ve ekli biçimler ('+(d==='ar'?'و، ال، ها، يـ…ون':d==='fa'?'می، ها، ان…':'-s, -ed, -ing…')+') kendiliğinden ayıklanır.</p><div class="ss"><a href="roman.html#defter">📒 Defterim: '+n+'</a><a href="roman.html?dil='+d+'">📚 Romanlar</a></div></div>';
+ h+='<div id="gunb"></div>';
  var son=(sonAl()[d]||[]);if(son.length)h+='<h2>Son aramaların</h2><div class="son">'+son.map(function(x){return '<button data-q="'+esc(x)+'" class="'+d+'">'+esc(x)+'</button>'}).join('')+'</div>';
- h+='<h2>Günün kelimeleri</h2><div class="gk">';for(var i=0;i<6;i++){var x=o[K[(sd*7919+i*104729)%K.length]];h+='<div data-q="'+esc(x[0])+'"><span class="w '+d+'">'+esc(x[0])+'</span><small>'+esc(x[1])+'</small></div>'}h+='</div>';
- h+='<h2>Harf harf göz at</h2><div class="hrf">'+HRF[d].split(' ').map(function(c){return '<button data-h="'+c+'" class="'+(d==='en'?'en':d)+'">'+c+'</button>'}).join('')+'</div>';M.innerHTML=h}
+ h+='<h2>Günün kelimeleri</h2><div class="gk">';for(var i=0;i<6;i++){var x=o[K[(sd*7919+i*104729)%K.length]];h+='<div data-q="'+esc(x[0])+'"><span class="w">'+esc(x[0])+'</span><small>'+esc(x[1])+'</small></div>'}h+='</div>';
+ h+='<h2>Harf harf göz at</h2><div class="hrf">'+HRF[d].split(' ').map(function(c){return '<button data-h="'+c+'">'+c+'</button>'}).join('')+'</div>';M.innerHTML=h;
+ ornAl().then(function(O){var e=document.getElementById('ors');if(e)e.textContent=Object.keys(O.w).length.toLocaleString('tr')});
+ if(d==='en'){ornAl().then(function(O){var A=Object.keys(O.w).filter(function(w){return o[w]&&w.length>4});if(!A.length)return;var w=A[sd%A.length],x=o[w],g=document.getElementById('gunb');if(!g)return;g.innerHTML='<div class="gun"><div class="gb">Word of the day</div>'+madde(x)+'</div>';var mc=g.querySelector('.madde');mc.style.boxShadow='none';mc.style.border='0';mc.style.padding='6px 0 0';mc.style.margin='0';zenginlestir()})}
+ else BY.yukle(d).then(function(X){if(!X)return;var e=document.getElementById('sbs');if(e)e.textContent=Object.keys(X.w).length.toLocaleString('tr');
+  var Tb=[];X.b.forEach(function(b,i){if(b[2])Tb.push(i)});if(!Tb.length)Tb=[sd%X.b.length];var bi=Tb[sd%Tb.length],b=X.b[bi],w='';for(var k in X.w){var v=X.w[k];if(v===bi||(v.indexOf&&v.indexOf(bi)>=0)){w=k;break}}
+  var g=document.getElementById('gunb');if(!g)return;var x=o[w]||(G[d][norm(w,d)]);g.innerHTML='<div class="gun"><div class="gb">Günün beyti</div>'+BY.html(b,w,0,d)+(x?'<div class="etiket"><button data-q="'+esc(x[0])+'">'+esc(x[0])+' — '+esc(x[1])+' ›</button></div>':'')+'</div>'})}
 function harf(c,lim){var d=D,K=KEYS[d],i=bs(K,c),h='<h2>“'+esc(c)+'” ile başlayanlar</h2>',say=0;lim=lim||150;
- for(var j=i;j<K.length&&K[j].indexOf(c)===0;j++){if(say++>=lim)break;h+=satir(G[d][K[j]][0],G[d][K[j]][1],d)}
- if(say>lim||(j<K.length&&K[j].indexOf(c)===0))h+='<p style="text-align:center"><button data-h="'+c+'" data-l="'+(lim+300)+'" style="border:0;border-radius:12px;padding:11px 18px;background:#4a3470;color:#fff;font:600 15px system-ui">Daha fazla</button></p>';
+ for(var j=i;j<K.length&&K[j].indexOf(c)===0;j++){if(say++>=lim)break;h+=satir(G[d][K[j]][0],G[d][K[j]][1])}
+ if(say>lim||(j<K.length&&K[j].indexOf(c)===0))h+='<button class="dahafazla" data-h="'+c+'" data-l="'+(lim+300)+'">Daha fazla</button>';
  if(!say)h+='<p class="note">Bu harfle başlayan kelime yok.</p>';M.innerHTML=h;if(lim===150)scrollTo(0,0)}
 function bs(a,x){var lo=0,hi=a.length;while(lo<hi){var mid=(lo+hi)>>1;if(a[mid]<x)lo=mid+1;else hi=mid}return lo}
-function dil(d){D=AD[d]?d:'ar';document.querySelectorAll('.tabs button').forEach(function(b){b.classList.toggle('on',b.dataset.d===D)});Q.dir=D==='en'?'ltr':'auto';
- M.innerHTML='<p class="note">Sözlük yükleniyor…</p>';yukle(D).then(ara).catch(function(){M.innerHTML='<p class="note">Sözlük yüklenemedi; internet bağlantınızı kontrol edin.</p>'})}
-document.querySelector('.tabs').onclick=function(e){var b=e.target.closest('button');if(b){Q.value='';dil(b.dataset.d)}};
-var zt;Q.oninput=function(){clearTimeout(zt);zt=setTimeout(function(){if(KEYS[D])ara()},180)};document.getElementById('git').onclick=ara;Q.onkeydown=function(e){if(e.key==='Enter'){Q.blur();ara()}};
-M.addEventListener('click',function(e){var hb=e.target.closest('[data-h]');if(hb){harf(hb.dataset.h,+(hb.dataset.l||0)||150);return}var qb=e.target.closest('[data-q]');if(qb){Q.value=qb.dataset.q;ara();scrollTo(0,0);return}var b=e.target.closest('button[data-k]');if(!b)return;var k=b.dataset.k;if(st.d[k])delete st.d[k];else st.d[k]=[b.dataset.w,b.dataset.m,'Sözlük'];sv();b.classList.toggle('on',!!st.d[k]);b.textContent=st.d[k]?'✓':'＋'});
-document.getElementById('bk').onclick=function(e){if(document.referrer.indexOf(location.origin)===0&&history.length>1){e.preventDefault();history.back()}};
-Q.value=P.get('q')||'';dil(D);
+var zt;Q.oninput=function(){clearTimeout(zt);zt=setTimeout(function(){if(KEYS[D])ara()},220)};document.getElementById('git').onclick=ara;Q.onkeydown=function(e){if(e.key==='Enter'){Q.blur();ara()}};
+document.body.addEventListener('click',function(e){
+ var sb=e.target.closest('[data-ses]');if(sb){soyle(sb.dataset.ses);return}
+ var b=e.target.closest('button[data-k]');if(b){var k=b.dataset.k;if(st.d[k])delete st.d[k];else st.d[k]=[b.dataset.w,b.dataset.m,'Sözlük'];sv();b.classList.toggle('on',!!st.d[k]);b.textContent=st.d[k]?'✓':'＋';return}
+ var kb=e.target.closest('[data-kok]');if(kb){kokAl().then(function(){kokListe(kb.dataset.kok,{},true);var t=document.getElementById('kokb');if(t)t.scrollIntoView({behavior:'smooth',block:'start'})});return}
+ var hb=e.target.closest('[data-h]');if(hb){harf(hb.dataset.h,+(hb.dataset.l||0)||150);return}
+ var qb=e.target.closest('[data-q]');if(qb){Q.value=qb.dataset.q;ara();scrollTo(0,0);return}});
+var bk=document.getElementById('bk');bk.href=C.geri;bk.textContent='‹ '+C.dil;bk.onclick=function(e){if(document.referrer.indexOf(location.origin)===0&&history.length>1){e.preventDefault();history.back()}};
+Q.value=P.get('q')||'';M.innerHTML='<p class="note">Sözlük yükleniyor…</p>';
+yukle(D).then(ara).catch(function(){M.innerHTML='<p class="note">Sözlük yüklenemedi; internet bağlantınızı kontrol edin.</p>'});
 </script>
-<script src="beyit.js?v=3"></script>
 </body></html>
