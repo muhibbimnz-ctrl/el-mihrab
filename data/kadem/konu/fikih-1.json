@@ -1,0 +1,621 @@
+{
+ "id": "fikih-1",
+ "ad": "Fıkıh Usulü 1: Hüküm, Hükmün Çeşitleri ve Ehliyet",
+ "ders": "Fıkıh ve İlmihal",
+ "sinavlar": [
+  "mbsts",
+  "dhbt"
+ ],
+ "anlatim": [
+  "Fıkıh usulü, fıkhî hükümlerin delillerden nasıl çıkarılacağını inceleyen ilimdir. Şer’î hüküm, Allah’ın mükelleflerin fiilleriyle ilgili hitabıdır. Bu hitap ya bir şeyin yapılmasını veya terk edilmesini ister ya da serbest bırakır (teklifî hüküm); ya da bir şeyi başka bir şey için sebep, şart veya engel kılar (vaz’î hüküm). Sınavda bu ayrım her yıl sorulur.",
+  {
+   "b": "1. Teklifî hüküm (Hanefî ayrımı)"
+  },
+  {
+   "tablo": [
+    [
+     "Hüküm",
+     "Tanım",
+     "Yapanın / yapmayanın durumu",
+     "Örnek"
+    ],
+    [
+     "Farz",
+     "Kesin (kat’î) delille kesin olarak istenen",
+     "Yapan sevap kazanır; terk eden günahkâr olur; inkâr eden dinden çıkar",
+     "Beş vakit namaz, Ramazan orucu"
+    ],
+    [
+     "Vacip",
+     "Zannî delille kesin olarak istenen",
+     "Terk eden günahkâr olur; inkâr eden dinden çıkmaz",
+     "Vitir, bayram namazı, fıtır sadakası, kurban"
+    ],
+    [
+     "Sünnet (müekked)",
+     "Hz. Peygamber’in devamlı yaptığı, nadiren terk ettiği",
+     "Terk etmek kınamayı gerektirir",
+     "Sabahın sünneti, ezan"
+    ],
+    [
+     "Sünnet (gayr-i müekked) / mendup",
+     "Bazen yapıp bazen terk ettiği",
+     "Yapan sevap kazanır, terk eden kınanmaz",
+     "İkindi ve yatsının ilk sünnetleri"
+    ],
+    [
+     "Müstehap (âdâb)",
+     "Hz. Peygamber’in ve salihlerin sevdiği güzel davranışlar",
+     "Yapana sevap umulur; terkine ceza yok",
+     "Sabah namazını ortalık ağarınca kılmak, akşamı acele kılmak"
+    ],
+    [
+     "Mübah",
+     "Yapıp yapmamakta serbest bırakılan",
+     "Sevap da günah da yok",
+     "Helal yiyeceklerden dilediğini yemek"
+    ],
+    [
+     "Mekruh (tenzîhen)",
+     "Terki yapılmasından daha iyi olan",
+     "Yapan kınanır ama cezayı hak etmez",
+     "Abdestte suyu israf etmek"
+    ],
+    [
+     "Mekruh (tahrîmen)",
+     "Zannî delille kesin yasaklanan",
+     "Yapan günahkâr olur",
+     "Cuma ezanı okunurken alışveriş"
+    ],
+    [
+     "Haram",
+     "Kesin delille kesin yasaklanan",
+     "Yapan günahkâr; helal sayan dinden çıkar",
+     "Faiz, içki, kumar"
+    ]
+   ]
+  },
+  {
+   "not": "Ezber anahtarı: Delil kesin + istek kesin = farz; delil zannî + istek kesin = vacip. Aynı mantık yasakta: kesin delil = haram; zannî delil = tahrimen mekruh. Cumhur (Şâfiî, Mâlikî, Hanbelî) farz ile vacibi eş anlamlı kabul eder."
+  },
+  {
+   "b": "2. Vacibin (istenen fiilin) çeşitleri"
+  },
+  "Usul kitaplarında “vacip” geniş anlamda “yapılması kesin istenen” (farz da dâhil) anlamında kullanılır ve farklı açılardan bölümlenir:",
+  {
+   "tablo": [
+    [
+     "Açı",
+     "Çeşitler",
+     "Örnek"
+    ],
+    [
+     "Yapılacak şeyin belirliliği",
+     "Muayyen: tek bir şey istenir · Muhayyer: birkaç şeyden biri istenir",
+     "Namaz muayyen; yemin kefareti (doyurma, giydirme veya köle azadı) muhayyer"
+    ],
+    [
+     "Miktarın belirliliği",
+     "Muhadded: miktarı belli · Gayr-i muhadded: miktarı belli değil",
+     "Zekât muhadded; Allah yolunda infak gayr-i muhadded"
+    ],
+    [
+     "Yükümlüler",
+     "Farz-ı ayn: herkese · Farz-ı kifâye: bir kısmının yapmasıyla diğerlerinden düşer",
+     "Namaz farz-ı ayn; cenaze namazı, ezan, ilim öğrenip öğretmek farz-ı kifâye"
+    ],
+    [
+     "Vakit",
+     "Mutlak: vakitle sınırlı değil · Muvakkat: belli vakitte; vakti genişse muvassa’, dar ise mudayyak, iki yönlü ise zû şebeheyn",
+     "Kaza orucu mutlak; namaz vakti muvassa’; Ramazan orucu mudayyak; hac zû şebeheyn"
+    ]
+   ]
+  },
+  {
+   "b": "3. Vaz’î hüküm"
+  },
+  "Vaz’î hüküm, Şâri’in bir şeyi başka bir şeyin sebebi, rüknü, şartı veya engeli (mâni’) kılmasıdır. Ayrıca bir işlemin sahih, fâsit veya bâtıl olması ile azimet ve ruhsat da vaz’î hükme dâhildir.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Anlamı",
+     "Örnek"
+    ],
+    [
+     "Sebep",
+     "Varlığı hükmün varlığına bağlanan durum",
+     "Vaktin girmesi namazın, Ramazan ayının görülmesi orucun sebebidir"
+    ],
+    [
+     "Rükün",
+     "Bir şeyin parçası olan ve onsuz o şeyin oluşmadığı unsur",
+     "Namazda rükû ve secde"
+    ],
+    [
+     "Şart",
+     "Bir şeyin dışında olup onsuz o şeyin geçerli olmadığı unsur",
+     "Namaz için abdest: “Allah temizlik olmadan namazı kabul etmez.”"
+    ],
+    [
+     "Mâni’",
+     "Varlığı hükmü engelleyen durum",
+     "“Katil mirasçı olamaz.”"
+    ],
+    [
+     "Sıhhat / fesat / butlan",
+     "Rükün ve şartları tam / aslen meşru vasfen gayrimeşru (Hanefî) / aslen gayrimeşru",
+     "Vadesi belirsiz satış fâsit; içki satışı bâtıl"
+    ],
+    [
+     "Azimet / ruhsat",
+     "Aslî hüküm / mazeret sebebiyle tanınan kolaylık",
+     "Yolculukta oruç tutmamak ve dört rekâtlıları iki kılmak ruhsattır"
+    ]
+   ]
+  },
+  {
+   "not": "Ayırt etme yolu: Metin doğrudan “yapın / yapmayın” diyorsa teklifî hüküm; “şu olunca bu olur, şu olmadan bu geçerli olmaz, şu varsa bu düşer” diyorsa vaz’î hüküm vardır. Örneğin “Kat kat artırılmış faiz yemeyin.” (Âl-i İmrân, 3/130) doğrudan bir yasaktır, yani teklifîdir."
+  },
+  {
+   "ayet": "Ey iman edenler! Kat kat artırılmış olarak faiz yemeyin.",
+   "kay": "Âl-i İmrân, 3/130"
+  },
+  {
+   "hadis": "Allah, temizlik olmaksızın namazı kabul etmez.",
+   "kay": "Müslim, Tahâret, 1"
+  },
+  {
+   "b": "4. Fâsit ve bâtıl (Hanefî)"
+  },
+  "Cumhura göre fâsit ile bâtıl aynıdır. Hanefîler ise ikisini ayırır: Temel unsurları (rükün ve kuruluş şartları) tam olduğu hâlde bir niteliği (vasfı) kusurlu olan akit fâsittir; kusur giderilirse sahih hâle gelir. Temel unsurlarında kusur olan akit ise bâtıldır, hiçbir sonuç doğurmaz.",
+  {
+   "tablo": [
+    [
+     "Fâsit akit örnekleri",
+     "Bâtıl akit örnekleri"
+    ],
+    [
+     "Süresi belirlenmeden yapılan kira",
+     "İçki, domuz, leş gibi mal sayılmayan şeylerin satışı"
+    ],
+    [
+     "Bedeli veya vadesi belirsiz satış",
+     "Akıl hastası veya mümeyyiz olmayan çocuğun yaptığı satış"
+    ],
+    [
+     "Faiz şartı içeren satış",
+     "Var olmayan bir şeyin satışı (selem ve istisnâ’ hariç)"
+    ]
+   ]
+  },
+  {
+   "b": "5. Mükellef ve ehliyet"
+  },
+  "Hükümlerle sorumlu tutulan kişiye mükellef denir. Mükellefiyetin iki temel şartı akıl ve bulûğdur. Bulûğ alametleri görülmezse Hanefî mezhebinde fetva Ebû Yûsuf ve İmam Muhammed’in görüşüyle 15 yaş tamamlanınca bulûğa erilmiş sayılır.",
+  {
+   "tablo": [
+    [
+     "Ehliyet",
+     "Anlamı",
+     "Dönem"
+    ],
+    [
+     "Vücûb ehliyeti (nâkıs)",
+     "Yalnız hak sahibi olabilme",
+     "Anne karnındaki cenin (mirasçı olabilir)"
+    ],
+    [
+     "Vücûb ehliyeti (tam)",
+     "Hak sahibi olabilme ve borç altına girebilme",
+     "Doğumdan ölüme"
+    ],
+    [
+     "Edâ ehliyeti (nâkıs)",
+     "Bazı işlemleri geçerli olarak yapabilme",
+     "Mümeyyiz çocuk (yaklaşık 7 yaştan bulûğa kadar)"
+    ],
+    [
+     "Edâ ehliyeti (tam)",
+     "Bütün dinî ve hukuki işlemlerden sorumlu olma",
+     "Akıllı ve bulûğa ermiş kişi (âkil-bâliğ)"
+    ]
+   ]
+  },
+  "Ehliyeti ortadan kaldıran veya daraltan durumlara ehliyet arızaları denir. Kişinin iradesi dışında olanlara semâvî, kendi davranışıyla ortaya çıkanlara müktesep arızalar denir.",
+  {
+   "tablo": [
+    [
+     "Semâvî arızalar (irade dışı)",
+     "Müktesep arızalar (kişinin kendisinden)"
+    ],
+    [
+     "Küçüklük, cünun (akıl hastalığı), ateh (bunama), unutma, uyku, baygınlık, ölüm hastalığı (maraz-ı mevt), hayız ve nifas, ölüm",
+     "Sarhoşluk, sefeh (malını saçıp savurma), cehalet, hata, hezl (şaka), ikrah (zorlama), sefer (yolculuk)"
+    ]
+   ]
+  },
+  {
+   "not": "Sınavda sık çeldirici: sefeh ve sarhoşluk kişinin kendi tutumundan doğar, müktesep arızadır; uyku, unutma, cünun ve ateh semâvîdir."
+  }
+ ],
+ "ozet": [
+  "Şer’î hüküm: teklifî (iste, yasakla, serbest bırak) ve vaz’î (sebep, rükün, şart, mâni’, sıhhat-fesat-butlan, azimet-ruhsat).",
+  "Hanefî: farz = kesin delil + kesin istek; vacip = zannî delil + kesin istek (vitir, bayram namazı, fitre, kurban). Haram = kesin delil + kesin yasak; tahrimen mekruh = zannî delil + kesin yasak.",
+  "Sünnet: müekked (devamlı) ve gayr-i müekked; müstehap: sevilen güzel davranış; mübah: serbest.",
+  "Vacip çeşitleri: muayyen/muhayyer (yemin kefareti muhayyer), muhadded/gayr-i muhadded, ayn/kifâye (cenaze namazı kifâye), mutlak/muvakkat (muvassa’: namaz; mudayyak: Ramazan; zû şebeheyn: hac).",
+  "Sebep: vakit → namaz. Şart: abdest → namaz. Mâni’: katillik → miras. Rükün: rükû, secde.",
+  "“Faiz yemeyin” (Âl-i İmrân 3/130) teklifî hükümdür, vaz’î değil.",
+  "Hanefî’de fâsit (vasfen kusurlu, düzeltilebilir: süresiz kira) ≠ bâtıl (aslen kusurlu: içki satışı). Cumhurda ikisi aynı.",
+  "Ehliyet: vücûb (nâkıs: cenin; tam: doğumla) ve edâ (nâkıs: mümeyyiz; tam: âkil-bâliğ). Mükellefiyet şartı: akıl + bulûğ.",
+  "Semâvî arızalar: küçüklük, cünun, ateh, unutma, uyku, baygınlık, hastalık, hayız-nifas, ölüm. Müktesep: sarhoşluk, sefeh, cehalet, hata, hezl, ikrah, sefer."
+ ],
+ "kartlar": [
+  {
+   "o": "Farz – Vacip farkı (Hanefî)",
+   "a": "Farz kesin delille, vacip zannî delille sabit; ikisi de kesin istenir"
+  },
+  {
+   "o": "Tahrimen mekruh",
+   "a": "Zannî delille kesin yasaklanan fiil (cuma ezanında alışveriş)"
+  },
+  {
+   "o": "Muhayyer vacip",
+   "a": "Birkaç şeyden birinin istendiği vacip: yemin kefareti"
+  },
+  {
+   "o": "Farz-ı kifâye",
+   "a": "Bazılarının yapmasıyla diğerlerinden düşen farz: cenaze namazı"
+  },
+  {
+   "o": "Muvassa’ – Mudayyak",
+   "a": "Vakti geniş (namaz) – vakti başka ibadete yer bırakmayan (Ramazan orucu)"
+  },
+  {
+   "o": "Zû şebeheyn",
+   "a": "Hem geniş hem dar yönü olan vakit: hac"
+  },
+  {
+   "o": "Vaz’î hüküm",
+   "a": "Bir şeyi başka bir şeyin sebebi, şartı, rüknü veya mânii kılmak"
+  },
+  {
+   "o": "Mâni’ örneği",
+   "a": "Katilin mirastan mahrum olması"
+  },
+  {
+   "o": "Fâsit akit (Hanefî)",
+   "a": "Aslen meşru, vasfen gayrimeşru; kusur giderilirse sahih olur"
+  },
+  {
+   "o": "Bâtıl akit",
+   "a": "Temel unsurunda kusur olan, hiç sonuç doğurmayan akit"
+  },
+  {
+   "o": "Nâkıs vücûb ehliyeti",
+   "a": "Cenin: yalnız hak sahibi olabilir"
+  },
+  {
+   "o": "Nâkıs edâ ehliyeti",
+   "a": "Mümeyyiz çocuk"
+  },
+  {
+   "o": "Sefeh",
+   "a": "Malını saçıp savurma; müktesep ehliyet arızası"
+  },
+  {
+   "o": "Ateh",
+   "a": "Bunama; semâvî ehliyet arızası"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "f1-01",
+   "z": 1,
+   "s": "Hanefî mezhebine göre zannî bir delille sabit olan ve yapılması kesin olarak istenen fiillere ne ad verilir?",
+   "c": [
+    "Farz",
+    "Sünnet",
+    "Vacip",
+    "Müstehap",
+    "Mübah"
+   ],
+   "d": 2,
+   "a": "Hanefîlere göre kesin delille sabit olan farz, zannî delille sabit olan ama yine kesin istenen fiil vaciptir.",
+   "ac": [
+    "Farz kesin (kat’î) delille sabittir.",
+    "Sünnette istek kesin değildir.",
+    "Doğru: zannî delil + kesin istek = vacip.",
+    "Müstehap yapılması güzel görülen davranıştır.",
+    "Mübahta istek yoktur."
+   ],
+   "kay": "Hanefî usulü: teklifî hüküm"
+  },
+  {
+   "id": "f1-02",
+   "z": 1,
+   "s": "Aşağıdakilerden hangisi farz-ı kifâyeye örnektir?",
+   "c": [
+    "Beş vakit namaz",
+    "Cenaze namazı",
+    "Ramazan orucu",
+    "Zekât",
+    "Hac"
+   ],
+   "d": 1,
+   "a": "Bir kısım Müslümanın yerine getirmesiyle diğerlerinden sorumluluğun düştüğü farz, farz-ı kifâyedir; cenaze namazı bunun en bilinen örneğidir.",
+   "ac": [
+    "Namaz her mükellefe farzdır (ayn).",
+    "Doğru: bir kısmının kılmasıyla diğerlerinden düşer.",
+    "Oruç her mükellefe farzdır.",
+    "Zekât şartlarını taşıyan herkese farzdır.",
+    "Hac gücü yeten herkese farzdır."
+   ],
+   "kay": "Fıkıh usulü: vacibin çeşitleri"
+  },
+  {
+   "id": "f1-03",
+   "z": 1,
+   "s": "Hanefî mezhebine göre aşağıdakilerden hangisi vacip değildir?",
+   "c": [
+    "Vitir namazı",
+    "Bayram namazı",
+    "Fıtır sadakası",
+    "Kurban kesmek",
+    "Ramazan orucu"
+   ],
+   "d": 4,
+   "a": "Ramazan orucu kesin delille sabit bir farzdır. Diğerleri Hanefîlere göre vaciptir.",
+   "ac": [
+    "Vitir Hanefîlerde vaciptir.",
+    "Bayram namazı Hanefîlerde vaciptir.",
+    "Fıtır sadakası vaciptir.",
+    "Kurban, şartlarını taşıyana vaciptir.",
+    "Doğru: Ramazan orucu farzdır."
+   ],
+   "kay": "Bakara, 2/183-185"
+  },
+  {
+   "id": "f1-04",
+   "z": 2,
+   "s": "Yemin kefareti olarak on fakiri doyurmak, on fakiri giydirmek veya bir köle azat etmekten biri istenmiş, mükellef bunlar arasında serbest bırakılmıştır.\n\nYemin kefareti, vacibin hangi çeşidine örnektir?",
+   "c": [
+    "Muayyen",
+    "Mudayyak",
+    "Kifâî",
+    "Muhayyer",
+    "Muvassa’"
+   ],
+   "d": 3,
+   "a": "Birkaç seçenekten birinin yapılmasının istendiği vacibe muhayyer vacip denir. Bunlara gücü yetmeyen üç gün oruç tutar (Mâide, 5/89).",
+   "ac": [
+    "Muayyende tek bir şey istenir.",
+    "Mudayyak vakitle ilgilidir.",
+    "Kifâî yükümlülerle ilgilidir.",
+    "Doğru: seçenekli istek muhayyerdir.",
+    "Muvassa’ vaktin genişliğiyle ilgilidir."
+   ],
+   "kay": "Mâide, 5/89"
+  },
+  {
+   "id": "f1-05",
+   "z": 2,
+   "s": "I. Vaktin girmesi namazın farz olmasına yol açar.\nII. Abdest olmadan kılınan namaz geçerli olmaz.\nIII. Mirasçısını öldüren kişi ondan mirasçı olamaz.\n\nYukarıdaki hükümlerde sırasıyla hangi vaz’î hüküm türleri vardır?",
+   "c": [
+    "Sebep – Şart – Mâni’",
+    "Şart – Sebep – Rükün",
+    "Rükün – Şart – Mâni’",
+    "Sebep – Rükün – Şart",
+    "Mâni’ – Şart – Sebep"
+   ],
+   "d": 0,
+   "a": "Vakit namazın sebebi, abdest namazın şartı, öldürme ise mirasın engelidir (mâni’).",
+   "ac": [
+    "Doğru sıralama.",
+    "I sebep, II şarttır; sıra ters.",
+    "Vakit namazın parçası (rükün) değildir.",
+    "Abdest namazın dışındadır; rükün değil şarttır.",
+    "Sıra baştan sona ters."
+   ],
+   "kay": "Fıkıh usulü: vaz’î hüküm"
+  },
+  {
+   "id": "f1-06",
+   "z": 2,
+   "s": "Aşağıdaki ayet ve hadislerden hangisi vaz’î bir hüküm içermez?",
+   "c": [
+    "“Allah, temizlik olmaksızın namazı kabul etmez.”",
+    "“Katil mirasçı olamaz.”",
+    "“Üzerinden bir yıl geçmeyen malda zekât yoktur.”",
+    "“Güneşin batıya kaymasından gecenin karanlığına kadar namaz kıl.” (İsrâ, 17/78)",
+    "“Ey iman edenler, kat kat artırılmış faiz yemeyin.” (Âl-i İmrân, 3/130)"
+   ],
+   "d": 4,
+   "a": "Faiz yasağı doğrudan bir yasaktır, yani teklifî hükümdür. Diğerleri şart, mâni’ ve sebep bildirir.",
+   "ac": [
+    "Temizlik namazın şartıdır (vaz’î).",
+    "Öldürme mirasa engeldir (vaz’î).",
+    "Bir yıl geçmesi zekâtın şartıdır (vaz’î).",
+    "Vakit namazın sebebidir (vaz’î).",
+    "Doğru: doğrudan yasak, teklifî hüküm."
+   ],
+   "kay": "Âl-i İmrân, 3/130; Müslim, Tahâret, 1"
+  },
+  {
+   "id": "f1-07",
+   "z": 2,
+   "s": "Ehliyet arızalarından hangisi kişinin kendi tutum ve davranışından kaynaklanan (müktesep) arızalardandır?",
+   "c": [
+    "Uyku",
+    "Sefeh",
+    "Ateh",
+    "Unutma",
+    "Cünun"
+   ],
+   "d": 1,
+   "a": "Malını saçıp savurmak anlamındaki sefeh kişinin kendi tutumundan doğar; müktesep arızadır. Diğerleri irade dışı (semâvî) arızalardır.",
+   "ac": [
+    "Uyku semâvîdir.",
+    "Doğru: sefeh müktesep arızadır.",
+    "Ateh (bunama) semâvîdir.",
+    "Unutma semâvîdir.",
+    "Cünun semâvîdir."
+   ],
+   "kay": "Fıkıh usulü: ehliyet arızaları"
+  },
+  {
+   "id": "f1-08",
+   "z": 2,
+   "s": "Anne karnındaki ceninin mirasçı olabilmesi, onun hangi ehliyete sahip olmasından kaynaklanır?",
+   "c": [
+    "Tam edâ ehliyeti",
+    "Nâkıs edâ ehliyeti",
+    "Nâkıs vücûb ehliyeti",
+    "Tam vücûb ehliyeti",
+    "Velayet ehliyeti"
+   ],
+   "d": 2,
+   "a": "Cenin hak sahibi olabilir ama borç altına giremez; bu nâkıs vücûb ehliyetidir. Tam vücûb ehliyeti doğumla başlar.",
+   "ac": [
+    "Tam edâ ehliyeti âkil-bâliğ içindir.",
+    "Nâkıs edâ ehliyeti mümeyyiz çocuk içindir.",
+    "Doğru: yalnız hak sahibi olabilme.",
+    "Tam vücûb ehliyeti doğumla başlar.",
+    "Böyle bir ehliyet türü sayılmaz."
+   ],
+   "kay": "Fıkıh usulü: ehliyet"
+  },
+  {
+   "id": "f1-09",
+   "z": 2,
+   "s": "Hz. Peygamber’in yolculukta dört rekâtlı farzları iki rekât kılması ve yolcunun Ramazan’da oruç tutmayıp sonra kaza edebilmesi hangi kavramla açıklanır?",
+   "c": [
+    "Azimet",
+    "Mâni’",
+    "Sebep",
+    "Ruhsat",
+    "Butlan"
+   ],
+   "d": 3,
+   "a": "Bir mazeret sebebiyle aslî hükmün yerine tanınan kolaylığa ruhsat, aslî hükme azimet denir.",
+   "ac": [
+    "Azimet aslî hükümdür; burada kolaylık var.",
+    "Mâni’ hükmü engeller; burada hüküm hafifletilmiştir.",
+    "Yolculuk ruhsatın sebebidir ama sorulan kavram kolaylığın adıdır.",
+    "Doğru: mazerete bağlı kolaylık ruhsattır.",
+    "Butlan geçersizliktir."
+   ],
+   "kay": "Bakara, 2/184; Nisâ, 4/101"
+  },
+  {
+   "id": "f1-10",
+   "z": 3,
+   "s": "Hanefî mezhebinde aslen meşru olup vasfen gayrimeşru olan akitler fâsit sayılır; eksiklik giderilince akit sahih hâle gelir.\n\nAşağıdakilerden hangisi fâsit akde örnektir?",
+   "c": [
+    "Süresi belirlenmeden yapılan kira akdi",
+    "Akıl hastasının yaptığı satış",
+    "İçki satışı",
+    "Henüz var olmayan bir malın satışı (selem dışında)",
+    "Leş satışı"
+   ],
+   "d": 0,
+   "a": "Süresi belirsiz kira akdinin temel unsurları tamdır, yalnız bir niteliği kusurludur; süre belirlenince sahih olur. Diğerleri temel unsurunda kusur bulunan bâtıl akitlerdir.",
+   "ac": [
+    "Doğru: vasıftaki kusur düzeltilebilir.",
+    "Ehliyetsizin işlemi bâtıldır.",
+    "Mal sayılmayan şeyin satışı bâtıldır.",
+    "Satılanın yokluğu temel unsurda kusurdur; bâtıldır.",
+    "Leş mal sayılmaz; satışı bâtıldır."
+   ],
+   "kay": "Kâsânî, Bedâi’; Hanefî usulü: fesat ve butlan"
+  },
+  {
+   "id": "f1-11",
+   "z": 3,
+   "s": "Hac ibadetinin vakti, yılda bir kez yapılabilmesi bakımından dar; bu vakitte haccın yanında nafile ve diğer ibadetlere de yer bulunması bakımından geniştir.\n\nHaccın vakti bu yönüyle hangi kavramla ifade edilir?",
+   "c": [
+    "Muvassa’",
+    "Zû şebeheyn",
+    "Mudayyak",
+    "Mutlak",
+    "Gayr-i muhadded"
+   ],
+   "d": 1,
+   "a": "Hem geniş hem dar vakte benzeyen vakte zû şebeheyn (iki benzerliği olan) denir; haccın vakti bunun örneğidir.",
+   "ac": [
+    "Muvassa’ namaz vakti gibi geniş vakittir.",
+    "Doğru: iki yöne de benzer.",
+    "Mudayyak Ramazan gibi başka ibadete yer bırakmayan vakittir.",
+    "Mutlak vakitle sınırlı olmayan vaciptir.",
+    "Gayr-i muhadded miktarla ilgilidir."
+   ],
+   "kay": "Fıkıh usulü: muvakkat vacip"
+  },
+  {
+   "id": "f1-12",
+   "z": 3,
+   "s": "Cuma namazı için ezan okunurken alışveriş yapmak, ayetten anlaşılan yasağın delâleti zannî kabul edildiği için Hanefîlerce hangi hükümde değerlendirilir?",
+   "c": [
+    "Tahrimen mekruh",
+    "Haram",
+    "Tenzîhen mekruh",
+    "Mübah",
+    "Bâtıl"
+   ],
+   "d": 0,
+   "a": "Zannî delille kesin olarak yasaklanan fiil Hanefîlerde tahrimen mekruhtur; yapan günahkâr olur ama akit geçerlidir.",
+   "ac": [
+    "Doğru: zannî delille kesin yasak.",
+    "Haram kesin delille sabit yasaktır.",
+    "Tenzîhen mekruhta yapan günahkâr olmaz.",
+    "Mübah değil, yasaktır.",
+    "Akit geçerlidir; bâtıl değildir."
+   ],
+   "kay": "Cuma, 62/9"
+  },
+  {
+   "id": "f1-13",
+   "z": 3,
+   "s": "Aşağıdakilerin hangisinde bir ehliyet arızası ile türü yanlış eşleştirilmiştir?",
+   "c": [
+    "Baygınlık – semâvî",
+    "Ölüm hastalığı – semâvî",
+    "Unutma – müktesep",
+    "İkrah – müktesep",
+    "Sarhoşluk – müktesep"
+   ],
+   "d": 2,
+   "a": "Unutma kişinin iradesi dışında oluştuğu için semâvî arızadır.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Yanlış: unutma semâvîdir.",
+    "Klasik usulde ikrah müktesep arızalar arasında sayılır.",
+    "Doğru eşleştirme."
+   ],
+   "kay": "Fıkıh usulü: ehliyet arızaları"
+  },
+  {
+   "id": "f1-14",
+   "z": 3,
+   "s": "Hz. Peygamber’in ve salih Müslümanların dinî zorunluluk görmeden, güzel bir davranış olarak yaptıkları; yapılmadığında kınama gerektirmeyen ama yapıldığında sevap umulan davranışlara ne ad verilir? Sabah namazını ortalık ağarınca kılmak buna örnektir.",
+   "c": [
+    "Farz-ı ayn",
+    "Vacip",
+    "Sünnet-i müekkede",
+    "Mekruh",
+    "Müstehap"
+   ],
+   "d": 4,
+   "a": "Bu tür âdâb davranışları müstehap olarak adlandırılır.",
+   "ac": [
+    "Farz-ı ayn herkese kesin istenendir.",
+    "Vacibi terk günah gerektirir.",
+    "Müekked sünneti terk kınama gerektirir.",
+    "Mekruh terki istenen fiildir.",
+    "Doğru: güzel görülen, terkine kınama olmayan davranış."
+   ],
+   "kay": "Fıkıh usulü: teklifî hüküm"
+  }
+ ]
+}

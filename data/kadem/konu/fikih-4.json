@@ -1,0 +1,557 @@
+{
+ "id": "fikih-4",
+ "ad": "Namaz: Farzlar, Vacipler, Sehiv, Cemaat, Cuma, Yolculuk ve Cenaze",
+ "ders": "Fıkıh ve İlmihal",
+ "sinavlar": [
+  "mbsts",
+  "dhbt"
+ ],
+ "anlatim": [
+  "Namaz, imandan sonra İslam’ın en önemli rüknüdür; akıllı ve bulûğa ermiş her Müslümana günde beş vakit farzdır. Hükümler Hanefî mezhebine göre verilmiştir.",
+  {
+   "ayet": "…Namaz, müminlere belirli vakitlere bağlı olarak farz kılınmıştır.",
+   "kay": "Nisâ, 4/103"
+  },
+  {
+   "b": "1. Namazın farzları (12)"
+  },
+  {
+   "tablo": [
+    [
+     "Dışındaki farzlar (şartlar)",
+     "İçindeki farzlar (rükünler)"
+    ],
+    [
+     "Hadesten taharet (abdest, gusül)",
+     "İftitah tekbiri"
+    ],
+    [
+     "Necasetten taharet (beden, elbise, yer)",
+     "Kıyam (ayakta durmak)"
+    ],
+    [
+     "Setr-i avret (örtünmek)",
+     "Kıraat (Kur’an okumak)"
+    ],
+    [
+     "İstikbâl-i kıble (kıbleye yönelmek)",
+     "Rükû"
+    ],
+    [
+     "Vakit",
+     "Secde"
+    ],
+    [
+     "Niyet",
+     "Ka’de-i ahîre (son oturuş, teşehhüd miktarı)"
+    ]
+   ]
+  },
+  {
+   "b": "2. Vacipler ve sünnetler"
+  },
+  "Namazın başlıca vacipleri: her rekâtta Fâtiha okumak; farzların ilk iki rekâtında, vitir ve nafilelerin her rekâtında Fâtiha’dan sonra sure veya ayet okumak (zamm-ı sûre); farzlarda kıraati ilk iki rekâtta yapmak; ta’dîl-i erkân (rükû ve secdelerde organların yatışması); üç ve dört rekâtlılarda ilk oturuş; oturuşlarda Tahiyyât okumak; namazı selamla bitirmek; vitirde kunut okumak; bayram namazında zevâid tekbirleri; imamın sesli ve sessiz okunacak yerlere uyması.",
+  "Vacibin unutularak terk edilmesi veya bir farzın ya da vacibin geciktirilmesi sehiv secdesini gerektirir. Vacip kasten terk edilirse namazın iadesi gerekir. Farz terk edilirse namaz bozulur; sehiv secdesiyle telafi edilmez.",
+  {
+   "b": "3. Sehiv secdesi"
+  },
+  "Son oturuşta Tahiyyât okunduktan sonra yalnız sağa selam verilir, iki secde yapılır, tekrar oturularak Tahiyyât, Salli-Bârik ve Rabbenâ duaları okunup selam verilir.",
+  {
+   "tablo": [
+    [
+     "Durum",
+     "Hüküm"
+    ],
+    [
+     "İmamın yanılması",
+     "İmam da cemaat de sehiv secdesi yapar"
+    ],
+    [
+     "İmama uyan kişinin kendi hatası",
+     "Sehiv secdesi gerekmez"
+    ],
+    [
+     "Mesbûk (sonradan yetişen)",
+     "İmamla birlikte secde eder, sonra kalan rekâtlarını tamamlar"
+    ],
+    [
+     "Cuma ve bayram namazlarında kalabalık cemaat",
+     "Karışıklık çıkmaması için imam sehiv secdesini terk edebilir"
+    ],
+    [
+     "Birden çok hata",
+     "Bir sehiv secdesi yeterlidir"
+    ]
+   ]
+  },
+  {
+   "b": "4. Kerahat vakitleri"
+  },
+  "Güneş doğarken (doğuştan yaklaşık 45-50 dakika sonrasına kadar), güneş tam tepedeyken (istivâ) ve batarken hiçbir namaz kılınmaz; yalnız o günün ikindisi güneş batarken kılınabilir. Sabah namazından güneş doğana kadar ve ikindi namazından sonra akşama kadar nafile namaz kılınmaz; kaza namazı ve cenaze namazı kılınabilir.",
+  {
+   "b": "5. Cemaat ve cuma"
+  },
+  "Beş vakit namazı cemaatle kılmak erkekler için sünnet-i müekkededir. Cuma namazı farz, bayram namazları vaciptir.",
+  {
+   "tablo": [
+    [
+     "Cumanın farz olmasının (vücûb) şartları",
+     "Cumanın sahih olmasının (edâ) şartları"
+    ],
+    [
+     "Erkek olmak, hür olmak, mukim olmak, sağlıklı olmak, akıllı ve bâliğ olmak, gözleri görmek ve yürüyebilmek",
+     "Şehir veya şehir hükmünde yer, devlet başkanının izni, öğle vakti, vakit içinde ve namazdan önce hutbe, imamdan başka en az üç erkekten oluşan cemaat, herkese açık olması (izn-i âm)"
+    ]
+   ]
+  },
+  {
+   "ayet": "Ey iman edenler! Cuma günü namaz için çağrı yapıldığında hemen Allah’ı anmaya koşun ve alışverişi bırakın.",
+   "kay": "Cuma, 62/9"
+  },
+  "Bayram namazı iki rekâttır; her rekâtta üçer zevâid tekbiri alınır. Hutbe namazdan sonra okunur ve sünnettir. Vitir namazı üç rekât ve vaciptir; kunut üçüncü rekâtta rükûdan önce okunur.",
+  {
+   "b": "6. Yolculuk (seferîlik)"
+  },
+  "Hanefîlere göre yaklaşık 90 km (üç günlük yol) uzaklığa gitmek niyetiyle yerleşim yerinden çıkan kişi seferî olur. Gittiği yerde 15 günden az kalmaya niyet ederse seferîlik devam eder; 15 gün veya daha fazla kalmaya niyet ederse mukim olur.",
+  {
+   "tablo": [
+    [
+     "Durum",
+     "Hüküm"
+    ],
+    [
+     "Dört rekâtlı farzlar",
+     "İki rekât kılınır (vacip olarak); sabah, akşam ve vitir değişmez"
+    ],
+    [
+     "Seferî imam, mukimlere kıldırırsa",
+     "İki rekâtta selam verir; mukimler kalan iki rekâtı kendileri tamamlar"
+    ],
+    [
+     "Seferî, mukim imama uyarsa",
+     "Dört rekât kılar"
+    ],
+    [
+     "Seferîyken kazaya kalan namaz",
+     "Mukimken de iki rekât kaza edilir"
+    ]
+   ]
+  },
+  "Vatan çeşitleri: doğup büyüdüğü veya evlenip yerleştiği yer vatan-ı aslî; 15 gün veya daha fazla kalmaya niyet ettiği yer vatan-ı ikâmet; 15 günden az kalacağı yer vatan-ı süknâdır.",
+  {
+   "b": "7. Secde-i tilâvet"
+  },
+  "Kur’an’da Hanefîlere göre 14 secde ayeti vardır. Bu ayetleri okuyan ve dinleyene tilâvet secdesi vaciptir. Secde ayeti bulunan sureler: A’râf, Ra’d, Nahl, İsrâ, Meryem, Hac, Furkân, Neml, Secde, Sâd, Fussilet, Necm, İnşikâk, Alak.",
+  {
+   "b": "8. Cenaze"
+  },
+  "Cenaze namazı farz-ı kifâyedir. Rükünleri dört tekbir ve kıyamdır; rükû ve secde yoktur. Birinci tekbirden sonra Sübhâneke, ikinciden sonra Salli-Bârik, üçüncüden sonra cenaze duası okunur, dördüncüden sonra selam verilir. Savaşta şehit olan kişi yıkanmaz, elbisesiyle defnedilir; Hanefîlere göre namazı kılınır.",
+  {
+   "tablo": [
+    [
+     "Kefen",
+     "Erkek",
+     "Kadın"
+    ],
+    [
+     "Kefen-i sünnet",
+     "3 parça: izar, kamîs, lifâfe",
+     "5 parça: izar, kamîs, lifâfe, başörtüsü (himar), göğüs bezi"
+    ],
+    [
+     "Kefen-i kifâye",
+     "2 parça: izar, lifâfe",
+     "3 parça: izar, lifâfe, başörtüsü"
+    ],
+    [
+     "Kefen-i zarûret",
+     "Bulunabilen kadarı",
+     "Bulunabilen kadarı"
+    ]
+   ]
+  },
+  "Ölüm döşeğindekine kelime-i şehadetin hatırlatılmasına telkin denir. Bir ay veya daha fazla süre camide ibadet niyetiyle kalmak anlamındaki itikâf ise oruç konusunda işlenir."
+ ],
+ "ozet": [
+  "12 farz: 6 şart (hadesten ve necasetten taharet, setr-i avret, kıble, vakit, niyet) + 6 rükün (iftitah tekbiri, kıyam, kıraat, rükû, secde, son oturuş).",
+  "Vacipler: Fâtiha, zamm-ı sûre, ta’dîl-i erkân, ilk oturuş, Tahiyyât, selam, kunut, bayram tekbirleri.",
+  "Vacibin unutularak terki veya farz/vacibin geciktirilmesi → sehiv secdesi. Farzın terki → namaz bozulur.",
+  "Sehiv: Tahiyyât sonrası sağa selam, iki secde, sonra Tahiyyât + Salli-Bârik + dualar ve selam.",
+  "İmama uyanın kendi hatası için secde yok; cuma ve bayramda imam kalabalıkta sehvi terk edebilir.",
+  "Kerahat: doğuş, istivâ, batış (o günün ikindisi hariç); sabah ve ikindiden sonra nafile kılınmaz.",
+  "Cuma: vücûb şartları (erkek, hür, mukim, sağlıklı…) ve edâ şartları (şehir, izin, vakit, hutbe, cemaat: imam + 3, izn-i âm).",
+  "Bayram namazı vacip, 2 rekât, 3+3 zevâid tekbiri, hutbe sonra. Vitir vacip, kunut 3. rekâtta rükûdan önce.",
+  "Seferîlik: ≈90 km, 15 günden az kalma niyeti; dört rekâtlılar iki. Seferî imamın arkasındaki mukim tamamlar; mukim imama uyan seferî dört kılar.",
+  "Vatan-ı aslî, ikâmet (15+ gün), süknâ (15 günden az).",
+  "14 secde ayeti (Hanefî); tilâvet secdesi vacip.",
+  "Cenaze: farz-ı kifâye; rükünleri 4 tekbir ve kıyam. Kefen-i sünnet erkek 3, kadın 5; kifâye erkek 2, kadın 3."
+ ],
+ "kartlar": [
+  {
+   "o": "Namazın dışındaki farzlar",
+   "a": "Hadesten taharet, necasetten taharet, setr-i avret, istikbâl-i kıble, vakit, niyet"
+  },
+  {
+   "o": "Namazın içindeki farzlar",
+   "a": "İftitah tekbiri, kıyam, kıraat, rükû, secde, ka’de-i ahîre"
+  },
+  {
+   "o": "Ta’dîl-i erkân",
+   "a": "Rükû ve secdelerde organların yatışması; vacip"
+  },
+  {
+   "o": "Sehiv secdesi sebebi",
+   "a": "Vacibin unutularak terki veya farz/vacibin geciktirilmesi"
+  },
+  {
+   "o": "İmama uyanın kendi hatası",
+   "a": "Sehiv secdesi gerekmez"
+  },
+  {
+   "o": "Cuma cemaati en az",
+   "a": "İmamdan başka üç erkek (Ebû Hanîfe ve İmam Muhammed)"
+  },
+  {
+   "o": "Bayram namazı zevâid tekbirleri",
+   "a": "Her rekâtta üçer"
+  },
+  {
+   "o": "Vitirde kunut",
+   "a": "Üçüncü rekâtta, rükûdan önce"
+  },
+  {
+   "o": "Seferîlik mesafesi ve süresi",
+   "a": "≈90 km; 15 günden az kalma niyeti"
+  },
+  {
+   "o": "Vatan-ı süknâ",
+   "a": "15 günden az kalınacak yer"
+  },
+  {
+   "o": "Secde ayeti sayısı (Hanefî)",
+   "a": "14"
+  },
+  {
+   "o": "Cenaze namazının rükünleri",
+   "a": "Dört tekbir ve kıyam"
+  },
+  {
+   "o": "Kefen-i sünnet",
+   "a": "Erkek 3 parça, kadın 5 parça"
+  },
+  {
+   "o": "Kerahat vakitleri",
+   "a": "Güneş doğarken, tam tepedeyken, batarken"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "f4-01",
+   "z": 1,
+   "s": "Aşağıdakilerden hangisi namazın dışındaki farzlarından (şartlarından) biridir?",
+   "c": [
+    "Kıyam",
+    "Rükû",
+    "Kıraat",
+    "Secde",
+    "Setr-i avret"
+   ],
+   "d": 4,
+   "a": "Setr-i avret (örtünmek) namazın dışındaki farzlarındandır; diğerleri namazın içindeki rükünlerdir.",
+   "ac": [
+    "Rükündür.",
+    "Rükündür.",
+    "Rükündür.",
+    "Rükündür.",
+    "Doğru."
+   ],
+   "kay": "Hanefî ilmihali: namazın farzları"
+  },
+  {
+   "id": "f4-02",
+   "z": 1,
+   "s": "Hanefî mezhebine göre vitir namazının hükmü nedir?",
+   "c": [
+    "Vacip",
+    "Farz",
+    "Sünnet-i müekkede",
+    "Müstehap",
+    "Mübah"
+   ],
+   "d": 0,
+   "a": "Hanefîlere göre vitir namazı vaciptir; diğer üç mezhebe göre sünnettir.",
+   "ac": [
+    "Doğru.",
+    "Farz değildir.",
+    "Diğer mezheplerin görüşüdür.",
+    "Müstehap değildir.",
+    "Mübah değildir."
+   ],
+   "kay": "Ebû Dâvûd, Vitir, 2"
+  },
+  {
+   "id": "f4-03",
+   "z": 1,
+   "s": "Cenaze namazının rükünleri aşağıdakilerin hangisinde verilmiştir?",
+   "c": [
+    "İftitah tekbiri ve Fâtiha",
+    "Niyet ve selam",
+    "Rükû ve secde",
+    "Sübhâneke ve dua",
+    "Dört tekbir ve kıyam"
+   ],
+   "d": 4,
+   "a": "Cenaze namazının rükünleri dört tekbir ve kıyamdır; rükû ve secde yoktur.",
+   "ac": [
+    "Fâtiha okunmaz (Hanefî).",
+    "Niyet şart, selam vaciptir.",
+    "Cenaze namazında rükû ve secde yoktur.",
+    "Bunlar sünnettir.",
+    "Doğru."
+   ],
+   "kay": "Hanefî ilmihali: cenaze"
+  },
+  {
+   "id": "f4-04",
+   "z": 2,
+   "s": "Hanefî mezhebine göre sehiv secdesi ile ilgili\nI. İmama uyan kişi, kendi hatası varsa imam selam verdikten sonra sehiv secdesi yapar.\nII. Cuma ve bayram namazlarında karışıklığa sebep olacağı için imam sehiv secdesini terk edebilir.\nIII. Sehiv secdesinden sonra Tahiyyât okunmadan Salli-Bârik duaları okunup selam verilir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "İmama uyanın kendi hatası için sehiv secdesi gerekmez; secdeden sonra Tahiyyât yeniden okunur. Kalabalık cemaatte imamın sehvi terk edebilmesi doğrudur.",
+   "ac": [
+    "I yanlıştır.",
+    "Doğru.",
+    "I yanlıştır.",
+    "III yanlıştır.",
+    "I ve III yanlıştır."
+   ],
+   "kay": "Hanefî ilmihali: sehiv secdesi"
+  },
+  {
+   "id": "f4-05",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi namazda sehiv secdesini gerektirir?",
+   "c": [
+    "Rükûyu tamamen terk etmek",
+    "Son oturuşu hiç yapmamak",
+    "İftitah tekbirini almamak",
+    "Fâtiha’yı okumayı unutmak",
+    "Abdestsiz namaza durmak"
+   ],
+   "d": 3,
+   "a": "Fâtiha okumak vaciptir; unutularak terk edilmesi sehiv secdesiyle telafi edilir. Diğerleri farz olduğu için namazı bozar.",
+   "ac": [
+    "Rükû farzdır; terki namazı bozar.",
+    "Son oturuş farzdır.",
+    "İftitah tekbiri farzdır.",
+    "Doğru.",
+    "Abdest şarttır; namaz geçersizdir."
+   ],
+   "kay": "Hanefî ilmihali: vacipler"
+  },
+  {
+   "id": "f4-06",
+   "z": 2,
+   "s": "Ankara’dan 450 km uzaklıktaki bir şehre gidip orada 10 gün kalmaya niyet eden ve öğle namazını mukim bir imama uyarak kılan Ahmet Bey öğle namazını kaç rekât kılmalıdır?",
+   "c": [
+    "4",
+    "3",
+    "2",
+    "Önce 2, sonra 2 rekât kaza",
+    "Dilerse 2 dilerse 4"
+   ],
+   "d": 0,
+   "a": "Ahmet Bey seferîdir; ancak mukim imama uyan seferî, imama tabi olarak dört rekât kılar.",
+   "ac": [
+    "Doğru.",
+    "Böyle bir sayı yoktur.",
+    "Tek başına kılsaydı iki kılardı.",
+    "Böyle bir uygulama yoktur.",
+    "Hanefîlerde seferîlik kasrı ruhsat değil azimettir; seçim yoktur."
+   ],
+   "kay": "Hanefî ilmihali: seferîlik"
+  },
+  {
+   "id": "f4-07",
+   "z": 2,
+   "s": "Hanefî mezhebine göre cuma namazının sahih olmasının (edâ) şartlarından biri değildir?",
+   "c": [
+    "Öğle vaktinde kılınması",
+    "Namazı kılanın mukim olması",
+    "İmamdan başka en az üç kişilik cemaat",
+    "Kılınan yerin herkese açık olması",
+    "Namazdan önce hutbe okunması"
+   ],
+   "d": 1,
+   "a": "Mukim olmak cumanın farz olmasının (vücûb) şartıdır. Seferî kişi cumaya katılırsa namazı geçerlidir.",
+   "ac": [
+    "Edâ şartıdır.",
+    "Doğru: vücûb şartıdır.",
+    "Edâ şartıdır.",
+    "İzn-i âm edâ şartıdır.",
+    "Edâ şartıdır."
+   ],
+   "kay": "Kâsânî, Bedâi’: cuma"
+  },
+  {
+   "id": "f4-08",
+   "z": 2,
+   "s": "Aşağıdaki surelerden hangisinde secde ayeti yoktur?",
+   "c": [
+    "A’râf",
+    "Meryem",
+    "Yâsîn",
+    "Necm",
+    "Alak"
+   ],
+   "d": 2,
+   "a": "Yâsîn Suresi’nde secde ayeti yoktur. Diğerleri 14 secde ayeti bulunan sureler arasındadır.",
+   "ac": [
+    "Secde ayeti vardır.",
+    "Secde ayeti vardır.",
+    "Doğru.",
+    "Secde ayeti vardır.",
+    "Secde ayeti vardır."
+   ],
+   "kay": "Hanefî ilmihali: secde-i tilâvet"
+  },
+  {
+   "id": "f4-09",
+   "z": 2,
+   "s": "Hanefî mezhebine göre bayram namazı ile ilgili hangisi yanlıştır?",
+   "c": [
+    "Vaciptir.",
+    "Hutbe namazdan önce okunur.",
+    "Her rekâtta üçer zevâid tekbiri alınır.",
+    "İki rekâttır.",
+    "Ezan ve kamet okunmaz."
+   ],
+   "d": 1,
+   "a": "Bayram namazında hutbe namazdan sonra okunur ve sünnettir. Hutbenin namazdan önce okunması cumaya özgüdür.",
+   "ac": [
+    "Doğru bilgi.",
+    "Yanlış: hutbe namazdan sonradır.",
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Doğru bilgi."
+   ],
+   "kay": "Buhârî, Îdeyn, 8"
+  },
+  {
+   "id": "f4-10",
+   "z": 2,
+   "s": "Hanefî mezhebine göre erkek için sünnet olan kefen kaç parçadır?",
+   "c": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "d": 2,
+   "a": "Erkek için kefen-i sünnet izar, kamîs ve lifâfeden oluşan üç parçadır; kadın için beş parçadır.",
+   "ac": [
+    "Kefen-i zarûret olabilir.",
+    "Erkeğin kefen-i kifâyesidir.",
+    "Doğru.",
+    "Böyle bir ölçü yoktur.",
+    "Kadının kefen-i sünnetidir."
+   ],
+   "kay": "Hanefî ilmihali: kefen"
+  },
+  {
+   "id": "f4-11",
+   "z": 3,
+   "s": "Güneşin doğduğu, tam tepede bulunduğu ve battığı vakitlerde farz namaz kılınmaz. Bu kuralın istisnası olarak güneş batarken kılınabilen namaz aşağıdakilerden hangisidir?",
+   "c": [
+    "O günün sabah namazı",
+    "Kazaya kalmış bir öğle namazı",
+    "Önceki günün ikindi namazının kazası",
+    "O günün öğle namazı (vakti geçmişse)",
+    "O günün ikindi namazı"
+   ],
+   "d": 4,
+   "a": "Güneş batarken yalnız o günün ikindi namazı kerahetle de olsa kılınabilir; diğer farzlar ve kazalar bu vakitlerde kılınmaz.",
+   "ac": [
+    "Güneş doğarken sabah namazı bozulur (Hanefî).",
+    "Kaza namazları bu üç vakitte kılınmaz.",
+    "Kaza olduğu için bu vakitte kılınmaz.",
+    "Vakti çıkmış namaz kazadır; bu vakitte kılınmaz.",
+    "Doğru: kerahetle de olsa kılınabilir."
+   ],
+   "kay": "Müslim, Salâtü’l-müsâfirîn, 293"
+  },
+  {
+   "id": "f4-12",
+   "z": 3,
+   "s": "Seferî bir imam, mukim bir cemaate öğle namazını kıldırmıştır.\n\nBu durumla ilgili hangisi doğrudur?",
+   "c": [
+    "İmam dört rekât kılmak zorundadır.",
+    "Cemaat de iki rekâtta selam verir.",
+    "İmam iki rekâtta selam verir, cemaat kalan iki rekâtı tamamlar.",
+    "Mukimin seferîye uyması caiz değildir.",
+    "Cemaatin namazı bozulur, iade gerekir."
+   ],
+   "d": 2,
+   "a": "Seferî imam iki rekâtta selam verir; mukimler kalkıp iki rekâtı kıraatsiz olarak tamamlar. İmamın seferî olduğunu cemaate bildirmesi sünnettir.",
+   "ac": [
+    "Seferî imam iki kılar.",
+    "Mukimler dört kılmak zorundadır.",
+    "Doğru.",
+    "Caizdir.",
+    "Namaz bozulmaz."
+   ],
+   "kay": "Hanefî ilmihali: seferîlik"
+  },
+  {
+   "id": "f4-13",
+   "z": 3,
+   "s": "Bir kişi doğduğu Konya’dan Ankara’ya taşınmış ve orada evlenip yerleşmiştir. Tatilde 10 gün kalmak üzere Antalya’ya gitmiştir.\n\nKonya, Ankara ve Antalya bu kişi için sırasıyla hangi vatan çeşididir?",
+   "c": [
+    "Vatan-ı aslî – vatan-ı aslî – vatan-ı süknâ",
+    "Vatan-ı aslî – vatan-ı ikâmet – vatan-ı süknâ",
+    "Vatan-ı ikâmet – vatan-ı aslî – vatan-ı süknâ",
+    "Vatan değil – vatan-ı aslî – vatan-ı süknâ",
+    "Vatan-ı aslî – vatan-ı aslî – vatan-ı ikâmet"
+   ],
+   "d": 3,
+   "a": "Vatan-ı aslî, başka bir vatan-ı aslî edinilince bozulur. Kişi ailesini Konya’dan tamamen taşıdıysa Konya artık vatan-ı aslî değildir; Ankara vatan-ı aslîdir; 15 günden az kalınacak Antalya vatan-ı süknâdır.",
+   "ac": [
+    "Vatan-ı aslî yenisiyle bozulur; Konya’da ailesi ve evi kalmadıysa vatan değildir.",
+    "Ankara’da evlenip yerleştiği için orası vatan-ı aslîdir.",
+    "Konya vatan-ı ikâmet değildir.",
+    "Doğru.",
+    "Antalya’da 15 günden az kalacağı için vatan-ı süknâdır."
+   ],
+   "kay": "Kâsânî, Bedâi’: vatan çeşitleri"
+  },
+  {
+   "id": "f4-14",
+   "z": 3,
+   "s": "Vitir namazıyla ilgili hangisi Hanefî mezhebine göre yanlıştır?",
+   "c": [
+    "Üç rekâttır.",
+    "Her rekâtında Fâtiha’dan sonra sure okunur.",
+    "Kunut duası üçüncü rekâtta rükûdan önce okunur.",
+    "İkinci rekâttan sonra oturulmaz, üç rekât tek oturuşla kılınır.",
+    "Kunut okumak vaciptir."
+   ],
+   "d": 3,
+   "a": "Vitir namazı akşam namazı gibi ikinci rekâtta oturularak kılınır; ilk oturuş vaciptir.",
+   "ac": [
+    "Doğru bilgi.",
+    "Doğru bilgi: vitirde zamm-ı sûre her rekâtta vaciptir.",
+    "Doğru bilgi.",
+    "Yanlış: ikinci rekâtta oturulur.",
+    "Doğru bilgi."
+   ],
+   "kay": "Hanefî ilmihali: vitir"
+  }
+ ]
+}

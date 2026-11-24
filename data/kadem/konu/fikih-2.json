@@ -1,0 +1,654 @@
+{
+ "id": "fikih-2",
+ "ad": "Fıkıh Usulü 2: Deliller, Lafızlar, Mezhepler ve Fıkıh Literatürü",
+ "ders": "Fıkıh ve İlmihal",
+ "sinavlar": [
+  "mbsts",
+  "dhbt"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Fıkhın delilleri"
+  },
+  "Üzerinde ittifak edilen dört temel delil Kitap, Sünnet, İcmâ ve Kıyastır. Bunların yanında mezheplere göre değeri değişen tâli deliller vardır.",
+  {
+   "ayet": "Ey iman edenler! Allah’a itaat edin, Peygamber’e ve sizden olan emir sahiplerine itaat edin. Bir konuda anlaşmazlığa düşerseniz onu Allah’a ve Resûl’e götürün.",
+   "kay": "Nisâ, 4/59"
+  },
+  {
+   "tablo": [
+    [
+     "Delil",
+     "Tanım",
+     "Örnek / not"
+    ],
+    [
+     "İcmâ",
+     "Hz. Peygamber’den sonra bir dönemdeki müctehidlerin şer’î bir hükümde ittifakı",
+     "Kur’an’ın mushafta toplanması. Sükûtî icmâ: bazılarının açıkça, diğerlerinin susarak katılması (Hanefîler delil sayar). Bazı usulcüler icmânın kesinleşmesi için o nesildeki müctehidlerin hepsinin vefatını şart koşar: inkırâzü’l-asr"
+    ],
+    [
+     "Kıyas",
+     "Hakkında nas bulunmayan bir meselenin, ortak illet sebebiyle nas bulunan meselenin hükmüne bağlanması",
+     "Rükünleri: asıl, fer’, illet, hüküm. Şaraptaki sarhoş etme illeti diğer sarhoşluk verici maddelere taşınır"
+    ],
+    [
+     "İstihsan (Hanefî)",
+     "Güçlü bir sebeple açık kıyası bırakıp gizli kıyasa, nassa, icmâya, örfe veya zarurete göre hüküm vermek",
+     "Yırtıcı kuşların artığının temiz sayılması (gaga kemiktir, salya karışmaz); selem ve istisnâ’ akitlerinin caizliği"
+    ],
+    [
+     "İstıslâh / mesâlih-i mürsele (Mâlikî)",
+     "Hakkında nas bulunmayan, dinin amaçlarına uygun genel faydaya göre hüküm",
+     "Divan teşkilatı, hapishane, salgın riski taşıyan hayvanların itlafı"
+    ],
+    [
+     "Örf ve âdet",
+     "Toplumda yerleşmiş, nassa aykırı olmayan uygulama",
+     "“Âdet hakemdir.” (Mecelle, md. 36)"
+    ],
+    [
+     "İstishâb (Şâfiî)",
+     "Aksi ispatlanıncaya kadar önceki durumun devam ettiğini kabul etmek",
+     "Abdestli olduğunu bilen, abdestinin bozulduğundan şüphe ederse abdestli sayılır; “Yakîn şekle zail olmaz.”"
+    ],
+    [
+     "Sedd-i zerâi (Mâlikî, Hanbelî)",
+     "Harama götüren mübah yolların kapatılması",
+     "Fitneye yol açacak satışların yasaklanması"
+    ],
+    [
+     "Şer’u men kablenâ",
+     "Önceki ümmetlerin şeriatı, Kur’an ve sünnette nesh edilmeden aktarılmışsa",
+     "Kısas hükmü (Mâide, 5/45)"
+    ],
+    [
+     "Sahabe kavli",
+     "Sahabinin içtihadı",
+     "Hanefîler, kıyasa öncelemiştir"
+    ]
+   ]
+  },
+  {
+   "not": "Ezber: istihsan → Hanefî, istıslâh → Mâlikî, istishâb → Şâfiî, sedd-i zerâi → Mâlikî ve Hanbelî. Sınavda bu dört kavram verilen örnek olaydan bulunur."
+  },
+  {
+   "b": "2. Lafızlar ve anlamları"
+  },
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Anlamı",
+     "Örnek"
+    ],
+    [
+     "Âm – Hâs",
+     "Sınırsız fertleri kapsayan lafız – belirli bir anlam için konmuş lafız",
+     "“Kim Ramazan’a ulaşırsa oruç tutsun” âmdır"
+    ],
+    [
+     "Tahsis",
+     "Âm lafzın kapsamını daraltmak",
+     "Akıl hastası ve çocuğun bu ayetin kapsamı dışında kalması"
+    ],
+    [
+     "Mutlak – Mukayyed",
+     "Kayıtsız lafız – bir nitelikle sınırlanmış lafız",
+     "Zıhar kefaretinde “bir köle” mutlak; öldürme kefaretinde “mümin köle” mukayyed"
+    ],
+    [
+     "Emir – Nehiy",
+     "İstek kalıbı (aslen vücûb bildirir) – yasak kalıbı (aslen tahrim bildirir)",
+     "“Namazı kılın” – “Zinaya yaklaşmayın”"
+    ],
+    [
+     "Hakikat – Mecaz",
+     "Konulduğu anlamda kullanım – ilişki sebebiyle başka anlamda kullanım",
+     "“Aslan” kelimesinin cesur insan için kullanılması mecazdır"
+    ]
+   ]
+  },
+  "Hanefîler lafızları açıklık derecesine göre zâhir, nas, müfesser, muhkem; kapalılık derecesine göre hafî, müşkil, mücmel, müteşâbih olarak sıralar. Mücmel, ancak Şâri’in açıklamasıyla anlaşılır: namaz, zekât, ribâ kelimeleri sünnetle açıklanmıştır.",
+  "Lafzın hükme delâleti Hanefîlerde dört yolladır: ibâretü’n-nas (sözün asıl kastı), işâretü’n-nas (sözün kastı olmadan işaret ettiği), delâletü’n-nas (sözün ruhundan anlaşılan; “Anne babaya öf deme” ayetinden onları dövmenin haram olduğunun anlaşılması) ve iktizâü’n-nas (sözün doğru olması için takdir edilmesi gereken).",
+  {
+   "b": "3. İçtihat ve mezhepler"
+  },
+  {
+   "tablo": [
+    [
+     "Mezhep",
+     "İmam (vefat)",
+     "Öne çıkan özellik / temel eser"
+    ],
+    [
+     "Hanefî",
+     "Ebû Hanîfe (150)",
+     "Re’y ve istihsan; öğrencileri Ebû Yûsuf ve İmam Muhammed. Zâhirü’r-rivâye: İmam Muhammed’in el-Asl, el-Câmiu’s-sağîr, el-Câmiu’l-kebîr, es-Siyerü’s-sağîr, es-Siyerü’l-kebîr, ez-Ziyâdât"
+    ],
+    [
+     "Mâlikî",
+     "Mâlik b. Enes (179)",
+     "Medine ehlinin ameli, istıslâh; el-Muvatta’, Sahnûn’un el-Müdevvene’si"
+    ],
+    [
+     "Şâfiî",
+     "Muhammed b. İdrîs eş-Şâfiî (204)",
+     "Usulün kurucusu: er-Risâle; el-Ümm. Irak’taki görüşleri kavl-i kadîm, Mısır’dakiler kavl-i cedîd"
+    ],
+    [
+     "Hanbelî",
+     "Ahmed b. Hanbel (241)",
+     "Hadise sıkı bağlılık; İbn Kudâme’nin el-Muğnî’si"
+    ],
+    [
+     "Zâhirî (günümüzde yok)",
+     "Dâvûd ez-Zâhirî (270)",
+     "Kıyası reddeder; İbn Hazm sistemleştirdi: el-Muhallâ"
+    ]
+   ]
+  },
+  {
+   "b": "4. Hanefî ve diğer mezheplerin temel kaynakları"
+  },
+  {
+   "tablo": [
+    [
+     "Eser",
+     "Müellif",
+     "Mezhep"
+    ],
+    [
+     "el-Muhtasar",
+     "Kudûrî (428)",
+     "Hanefî"
+    ],
+    [
+     "el-Mebsût",
+     "Serahsî (483)",
+     "Hanefî"
+    ],
+    [
+     "Bedâiu’s-sanâi’",
+     "Kâsânî (587)",
+     "Hanefî"
+    ],
+    [
+     "el-Hidâye",
+     "Merğînânî (593)",
+     "Hanefî"
+    ],
+    [
+     "el-İhtiyâr",
+     "Mevsılî (683)",
+     "Hanefî"
+    ],
+    [
+     "Mültekâ’l-ebhur",
+     "İbrâhim el-Halebî (956)",
+     "Hanefî (Osmanlı’da ders kitabı)"
+    ],
+    [
+     "Reddü’l-muhtâr",
+     "İbn Âbidîn (1252)",
+     "Hanefî"
+    ],
+    [
+     "Minhâcü’t-tâlibîn; el-Mecmû’",
+     "Nevevî (676)",
+     "Şâfiî"
+    ],
+    [
+     "el-Müdevvenetü’l-kübrâ",
+     "Sahnûn (240)",
+     "Mâlikî"
+    ],
+    [
+     "el-Muğnî",
+     "İbn Kudâme (620)",
+     "Hanbelî"
+    ]
+   ]
+  },
+  {
+   "b": "5. Fıkhın alt dalları"
+  },
+  {
+   "tablo": [
+    [
+     "Alt dal",
+     "Konusu",
+     "Örnek eser"
+    ],
+    [
+     "Kavâid-i külliye",
+     "Birçok meseleyi kapsayan genel kurallar",
+     "Mecelle’nin ilk 99 maddesi"
+    ],
+    [
+     "Furûk",
+     "Birbirine benzeyen meseleler arasındaki farklar",
+     "Karâfî, el-Furûk"
+    ],
+    [
+     "Eşbâh ve nezâir",
+     "Benzer meseleler ve kurallar",
+     "İbn Nüceym, el-Eşbâh ve’n-nezâir"
+    ],
+    [
+     "Edebü’l-kâdî",
+     "Yargılama usulü ve hâkimin âdâbı",
+     "Hassâf, Edebü’l-kâdî"
+    ],
+    [
+     "el-Ahkâmü’s-sultâniyye",
+     "Kamu yönetimi ve hukuku",
+     "Mâverdî ve Ebû Ya’lâ el-Ferrâ"
+    ],
+    [
+     "Kitâbü’l-harâc / emvâl",
+     "Kamu maliyesi",
+     "Ebû Yûsuf, Kitâbü’l-Harâc; Ebû Ubeyd, Kitâbü’l-Emvâl"
+    ],
+    [
+     "Siyer",
+     "Devletler hukuku, savaş ve barış",
+     "İmam Muhammed, es-Siyerü’l-kebîr"
+    ],
+    [
+     "Ferâiz",
+     "Miras hukuku",
+     "Secâvendî, es-Sirâciyye"
+    ]
+   ]
+  },
+  "1869-1876 yılları arasında Ahmed Cevdet Paşa başkanlığında hazırlanan Mecelle, Hanefî fıkhına dayanan ilk resmî medeni kanun çalışmasıdır."
+ ],
+ "ozet": [
+  "Dört ana delil: Kitap, Sünnet, İcmâ, Kıyas (Nisâ 4/59).",
+  "İcmâ: bir dönemin müctehidlerinin ittifakı; sükûtî icmâ Hanefîlerde delil. İnkırâzü’l-asr: icmâya katılanların hepsinin vefatı şartı (bazı usulcüler).",
+  "Kıyasın rükünleri: asıl, fer’, illet, hüküm.",
+  "İstihsan Hanefî (yırtıcı kuş artığı, selem, istisnâ’); istıslâh Mâlikî (divan, hasta hayvanın itlafı); istishâb Şâfiî (yakîn şekle zail olmaz); sedd-i zerâi Mâlikî-Hanbelî.",
+  "Âm-hâs, tahsis; mutlak-mukayyed; emir aslen vücûb, nehiy aslen tahrim.",
+  "Delâlet: ibâre, işâret, delâlet (öf deme → dövme haram), iktizâ.",
+  "İmamlar: Ebû Hanîfe 150, Mâlik 179, Şâfiî 204 (Risâle, kavl-i kadîm/cedîd), Ahmed b. Hanbel 241. Zâhirî: Dâvûd; İbn Hazm, el-Muhallâ.",
+  "Eserler: Kudûrî Muhtasar, Serahsî Mebsût, Kâsânî Bedâi’, Merğînânî Hidâye, Mevsılî İhtiyâr, Halebî Mültekâ, İbn Âbidîn Reddü’l-muhtâr (Hanefî); Nevevî Minhâc (Şâfiî); Sahnûn Müdevvene (Mâlikî); İbn Kudâme Muğnî (Hanbelî).",
+  "Alt dallar: furûk (benzer meseleler arası fark), edebü’l-kâdî (muhakeme), ahkâmü’s-sultâniyye (kamu yönetimi), harâc (kamu maliyesi), siyer (devletler hukuku), kavâid (külli kurallar)."
+ ],
+ "kartlar": [
+  {
+   "o": "İnkırâzü’l-asr",
+   "a": "İcmânın kesinleşmesi için ona katılan müctehidlerin hepsinin vefatı şartı"
+  },
+  {
+   "o": "Kıyasın rükünleri",
+   "a": "Asıl, fer’, illet, hüküm"
+  },
+  {
+   "o": "İstihsan örneği",
+   "a": "Yırtıcı kuşların artığının temiz sayılması"
+  },
+  {
+   "o": "Mesâlih-i mürsele",
+   "a": "Nas bulunmayan konuda genel faydaya göre hüküm (Mâlikî)"
+  },
+  {
+   "o": "İstishâb",
+   "a": "Aksi ispatlanana kadar önceki durumun sürdüğünü kabul (Şâfiî)"
+  },
+  {
+   "o": "Sedd-i zerâi",
+   "a": "Harama götüren mübah yolları kapatmak"
+  },
+  {
+   "o": "Tahsis",
+   "a": "Âm lafzın kapsamını daraltmak"
+  },
+  {
+   "o": "Delâletü’n-nas",
+   "a": "Sözün ruhundan anlaşılan hüküm: “öf deme” → dövme haram"
+  },
+  {
+   "o": "er-Risâle",
+   "a": "Şâfiî; fıkıh usulünün ilk sistematik eseri"
+  },
+  {
+   "o": "el-Müdevvene",
+   "a": "Sahnûn; Mâlikî"
+  },
+  {
+   "o": "el-Muğnî",
+   "a": "İbn Kudâme; Hanbelî"
+  },
+  {
+   "o": "el-Mebsût",
+   "a": "Serahsî; Hanefî"
+  },
+  {
+   "o": "Edebü’l-kâdî",
+   "a": "Yargılama (muhakeme) hukuku"
+  },
+  {
+   "o": "el-Ahkâmü’s-sultâniyye",
+   "a": "Kamu yönetimi ve hukuku (Mâverdî)"
+  },
+  {
+   "o": "Kitâbü’l-Harâc",
+   "a": "Ebû Yûsuf; kamu maliyesi"
+  },
+  {
+   "o": "Furûk",
+   "a": "Benzer meseleler arasındaki farkları inceleyen dal"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "f2-01",
+   "z": 1,
+   "s": "Üzerinde ittifak edilen dört temel fıkıh delili aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Kitap, Sünnet, İcmâ, Kıyas",
+    "Kitap, Sünnet, İstihsan, Örf",
+    "Kitap, İcmâ, İstishâb, Kıyas",
+    "Sünnet, İcmâ, Maslahat, Örf",
+    "Kitap, Sünnet, Sahabe kavli, İstihsan"
+   ],
+   "d": 0,
+   "a": "Dört ana delil Kitap, Sünnet, İcmâ ve Kıyastır; diğerleri mezheplere göre değişen tâli delillerdir.",
+   "ac": [
+    "Doğru.",
+    "İstihsan ve örf tâli delildir.",
+    "İstishâb tâli delildir.",
+    "Maslahat ve örf tâli delildir.",
+    "Sahabe kavli ve istihsan tâli delildir."
+   ],
+   "kay": "Nisâ, 4/59"
+  },
+  {
+   "id": "f2-02",
+   "z": 1,
+   "s": "Fıkıh usulünü ilk defa sistematik bir eserde ele alan er-Risâle adlı kitabın müellifi kimdir?",
+   "c": [
+    "Ebû Hanîfe",
+    "Mâlik b. Enes",
+    "Ahmed b. Hanbel",
+    "İmam Şâfiî",
+    "Ebû Yûsuf"
+   ],
+   "d": 3,
+   "a": "er-Risâle İmam Şâfiî’nindir ve fıkıh usulünün ilk sistematik eseri kabul edilir.",
+   "ac": [
+    "Ebû Hanîfe’nin usule dair müstakil bir eseri yoktur.",
+    "Mâlik’in eseri Muvatta’dır.",
+    "Ahmed b. Hanbel’in eseri Müsned’dir.",
+    "Doğru.",
+    "Ebû Yûsuf’un meşhur eseri Kitâbü’l-Harâc’dır."
+   ],
+   "kay": "Şâfiî, er-Risâle"
+  },
+  {
+   "id": "f2-03",
+   "z": 1,
+   "s": "Kıyasın rükünleri arasında aşağıdakilerden hangisi yer almaz?",
+   "c": [
+    "Asıl",
+    "Fer’",
+    "İllet",
+    "Hüküm",
+    "İcmâ"
+   ],
+   "d": 4,
+   "a": "Kıyasın rükünleri asıl, fer’, illet ve hükümdür.",
+   "ac": [
+    "Hükmü nasla belli mesele asıldır.",
+    "Hükmü aranan mesele fer’dir.",
+    "Ortak sebep illettir.",
+    "Asıldaki hüküm fer’e taşınır.",
+    "Doğru: icmâ ayrı bir delildir."
+   ],
+   "kay": "Fıkıh usulü: kıyas"
+  },
+  {
+   "id": "f2-04",
+   "z": 2,
+   "s": "Fıkıhta kural olarak yırtıcı hayvanların artıkları, salyaları karıştığı için temiz sayılmaz. Ancak yırtıcı kuşlar suyu kemikten oluşan gagalarıyla içtiklerinden artıklarına salya karışmaz; bu yüzden onların artığı temiz kabul edilmiştir.\n\nBu hükme hangi delille ulaşılmıştır?",
+   "c": [
+    "Örf",
+    "İstihsan",
+    "İstishâb",
+    "Sedd-i zerâi",
+    "Mesâlih-i mürsele"
+   ],
+   "d": 1,
+   "a": "Açık kıyas yırtıcı kuş artığını da necis sayardı; daha güçlü bir gerekçeyle (gizli kıyas) bu kıyasın bırakılması istihsandır.",
+   "ac": [
+    "Örf toplum uygulamasıdır.",
+    "Doğru: açık kıyas bırakılmış, gizli kıyas tercih edilmiştir.",
+    "İstishâb önceki durumun sürmesidir.",
+    "Sedd-i zerâi harama giden yolu kapatır.",
+    "Mesâlih-i mürsele genel faydaya dayanır."
+   ],
+   "kay": "Serahsî, el-Mebsût (Tahâret)"
+  },
+  {
+   "id": "f2-05",
+   "z": 2,
+   "s": "Abdestli olduğunu kesin olarak bilen bir kişi, sonradan abdestinin bozulup bozulmadığından şüphe etmiştir. Âlimler, bu kişinin abdestli sayılacağını söylemiştir.\n\nBu hükmün dayandığı delil hangisidir?",
+   "c": [
+    "Kıyas",
+    "İstihsan",
+    "Örf",
+    "İstishâb",
+    "Sedd-i zerâi"
+   ],
+   "d": 3,
+   "a": "Aksi kesin olarak bilinene kadar önceki durumun devam ettiğini kabul etmek istishâbtır: “Yakîn şekle zail olmaz.”",
+   "ac": [
+    "Burada iki mesele arasında illet bağı kurulmuyor.",
+    "İstihsan kıyası bırakmaktır.",
+    "Örf toplum uygulamasıdır.",
+    "Doğru.",
+    "Sedd-i zerâi harama giden yolu kapatmaktır."
+   ],
+   "kay": "Mecelle, md. 4"
+  },
+  {
+   "id": "f2-06",
+   "z": 2,
+   "s": "Salgın bir hastalık taşıyan ve insanlara bulaştırma riski yüksek olan hayvanların itlaf edilmesini, hakkında açık nas bulunmamasına rağmen toplumun genel yararı gerekçesiyle caiz gören âlimlerin dayandığı delil aşağıdakilerden hangisidir?",
+   "c": [
+    "Mesâlih-i mürsele",
+    "İstishâb",
+    "Şer’u men kablenâ",
+    "Sahabe kavli",
+    "Örf"
+   ],
+   "d": 0,
+   "a": "Nas bulunmayan bir konuda dinin amaçlarına uygun genel faydaya göre hüküm vermek istıslâh (mesâlih-i mürsele) ile olur.",
+   "ac": [
+    "Doğru.",
+    "İstishâb önceki durumu sürdürmektir.",
+    "Önceki ümmetlerin şeriatı söz konusu değil.",
+    "Bir sahabinin içtihadı aktarılmıyor.",
+    "Toplum uygulaması değil, fayda gerekçesi var."
+   ],
+   "kay": "Fıkıh usulü: istıslâh"
+  },
+  {
+   "id": "f2-07",
+   "z": 2,
+   "s": "“…Sizden kim Ramazan ayına ulaşırsa onda oruç tutsun.” (Bakara, 2/185) ayeti genel bir ifadedir. Ancak çocuklar ve akıl hastaları mükellef olmadıkları için bu hükmün kapsamı dışında kalır.\n\nBu durum fıkıh usulünde hangi kavramla ifade edilir?",
+   "c": [
+    "Takyid",
+    "Nesh",
+    "Tahsis",
+    "Tevil",
+    "İctihad"
+   ],
+   "d": 2,
+   "a": "Âm (genel) bir lafzın kapsamının daraltılması tahsistir.",
+   "ac": [
+    "Takyid mutlak lafzı bir nitelikle sınırlamaktır.",
+    "Nesh hükmün tamamen kaldırılmasıdır.",
+    "Doğru.",
+    "Tevil lafzı zahirinden başka bir anlama çevirmektir.",
+    "İçtihat genel bir faaliyettir."
+   ],
+   "kay": "Bakara, 2/185"
+  },
+  {
+   "id": "f2-08",
+   "z": 2,
+   "s": "“Anne babaya ‘öf’ bile deme…” (İsrâ, 17/23) ayetinden, onları dövmenin ve onlara hakaret etmenin evleviyetle haram olduğu anlaşılır.\n\nHanefî usulüne göre bu çıkarım hangi delâlet türüdür?",
+   "c": [
+    "İbâretü’n-nas",
+    "İşâretü’n-nas",
+    "Mefhûm-ı muhâlefet",
+    "İktizâü’n-nas",
+    "Delâletü’n-nas"
+   ],
+   "d": 4,
+   "a": "Lafzın ruhundan ve gerekçesinden, sözle anlatılandan daha güçlü bir durumun hükmünün anlaşılması delâletü’n-nastır.",
+   "ac": [
+    "İbâre sözün doğrudan kastıdır: “öf” demek yasağı.",
+    "İşâret, sözün kastı olmayan bir yan anlamdır.",
+    "Mefhûm-ı muhâlefet tersinden anlam çıkarmaktır; burada aynı yönde, daha güçlü bir anlam var.",
+    "İktizâ, sözün doğru olması için bir şeyin takdirini gerektirir.",
+    "Doğru."
+   ],
+   "kay": "İsrâ, 17/23"
+  },
+  {
+   "id": "f2-09",
+   "z": 2,
+   "s": "İcmânın gerçekleşmesiyle ilgili bazı usulcüler, icmânın kesinleşmesi için ona katılan bütün müctehidlerin ölmüş olmasını şart koşmuştur; gerekçeleri, bir müctehidin görüşünden dönmesiyle icmânın bozulabileceğidir.\n\nBu şart hangi kavramla ifade edilir?",
+   "c": [
+    "İnkıtâ’",
+    "İstihsan",
+    "Sükûtî icmâ",
+    "Tevakkuf",
+    "İnkırâzü’l-asr"
+   ],
+   "d": 4,
+   "a": "İcmâya katılan neslin tamamen vefat etmesi şartına inkırâzü’l-asr denir.",
+   "ac": [
+    "İnkıtâ’ senetteki kopukluktur.",
+    "İstihsan ayrı bir delildir.",
+    "Sükûtî icmâ susarak katılımdır.",
+    "Tevakkuf hüküm vermeyi ertelemektir.",
+    "Doğru."
+   ],
+   "kay": "Fıkıh usulü: icmâ"
+  },
+  {
+   "id": "f2-10",
+   "z": 2,
+   "s": "Aşağıdaki eser – müellif eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "el-Muğnî – Nevevî",
+    "Bedâiu’s-sanâi’ – Kâsânî",
+    "el-Hidâye – Merğînânî",
+    "el-Müdevvene – Sahnûn",
+    "el-Mebsût – Serahsî"
+   ],
+   "d": 0,
+   "a": "el-Muğnî Hanbelî âlimi İbn Kudâme’nin eseridir. Nevevî’nin fıkıh eserleri el-Minhâc ve el-Mecmû’dur.",
+   "ac": [
+    "Yanlış: el-Muğnî İbn Kudâme’nindir.",
+    "Doğru.",
+    "Doğru.",
+    "Doğru.",
+    "Doğru."
+   ],
+   "kay": "Fıkıh literatürü"
+  },
+  {
+   "id": "f2-11",
+   "z": 3,
+   "s": "İslam hukuku dersinde Hanefî ve Şâfiî mezheplerinin hükümlerini karşılaştıran bir ödev hazırlayan öğrencinin aşağıdaki eser çiftlerinden hangisine başvurması beklenir?",
+   "c": [
+    "el-Müdevvene – el-Muğnî",
+    "el-Ahkâmü’s-sultâniyye – el-Muvatta’",
+    "Kitâbü’l-Harâc – el-Muhallâ",
+    "el-İhtiyâr – Minhâcü’t-tâlibîn",
+    "el-Furûk – el-Müdevvene"
+   ],
+   "d": 3,
+   "a": "Mevsılî’nin el-İhtiyâr’ı Hanefî, Nevevî’nin Minhâcü’t-tâlibîn’i Şâfiî fıkhının temel eserlerindendir.",
+   "ac": [
+    "Biri Mâlikî, biri Hanbelî.",
+    "Biri kamu yönetimi, biri hadis-fıkıh eseri; mezhep karşılaştırması için uygun değil.",
+    "Biri kamu maliyesi, biri Zâhirî eseri.",
+    "Doğru: Hanefî ve Şâfiî.",
+    "Furûk benzer meseleler arası farkları inceler; Müdevvene Mâlikîdir."
+   ],
+   "kay": "Fıkıh literatürü"
+  },
+  {
+   "id": "f2-12",
+   "z": 3,
+   "s": "Fıkhın alt dalları ve konuları eşleştirilmiştir:\nI. Edebü’l-kâdî – Muhakeme (yargılama) hukuku\nII. el-Ahkâmü’s-sultâniyye – Kamu maliyesi\nIII. Kitâbü’l-harâc – Kamu yönetimi\nIV. Furûk – Benzer meseleler arasındaki farklar\n\nHangi eşleştirmelerin yeri değiştirilirse tablo doğru olur?",
+   "c": [
+    "I ve II",
+    "I ve IV",
+    "II ve III",
+    "II ve IV",
+    "III ve IV"
+   ],
+   "d": 2,
+   "a": "el-Ahkâmü’s-sultâniyye kamu yönetimini, Kitâbü’l-harâc kamu maliyesini inceler; II ve III’ün konuları yer değiştirmelidir.",
+   "ac": [
+    "I doğrudur.",
+    "I ve IV doğrudur.",
+    "Doğru.",
+    "IV doğrudur.",
+    "IV doğrudur."
+   ],
+   "kay": "Fıkıh literatürü"
+  },
+  {
+   "id": "f2-13",
+   "z": 3,
+   "s": "Hanefî mezhebinde “zâhirü’r-rivâye” adıyla anılan ve mezhebin en güvenilir rivayetlerini içeren eserlerin müellifi kimdir?",
+   "c": [
+    "Ebû Yûsuf",
+    "İmam Muhammed eş-Şeybânî",
+    "Züfer b. Hüzeyl",
+    "Kudûrî",
+    "Tahâvî"
+   ],
+   "d": 1,
+   "a": "el-Asl, el-Câmiu’s-sağîr, el-Câmiu’l-kebîr, es-Siyerü’s-sağîr, es-Siyerü’l-kebîr ve ez-Ziyâdât İmam Muhammed’in eserleridir.",
+   "ac": [
+    "Ebû Yûsuf’un meşhur eseri Kitâbü’l-Harâc’dır.",
+    "Doğru.",
+    "Züfer, Ebû Hanîfe’nin talebesidir; zâhirü’r-rivâye onun değildir.",
+    "Kudûrî’nin eseri el-Muhtasar’dır.",
+    "Tahâvî’nin de bir Muhtasar’ı vardır; zâhirü’r-rivâye değildir."
+   ],
+   "kay": "Hanefî mezhebi tarihi"
+  },
+  {
+   "id": "f2-14",
+   "z": 3,
+   "s": "Bir ayette hükmün kapsamındaki kişi “bir köle azat etmek” şeklinde kayıtsız, başka bir ayette ise “mümin bir köle azat etmek” şeklinde kayıtlı olarak geçmektedir.\n\nBu iki ifade fıkıh usulünde sırasıyla nasıl adlandırılır?",
+   "c": [
+    "Âm – Hâs",
+    "Mutlak – Mukayyed",
+    "Zâhir – Nas",
+    "Hakikat – Mecaz",
+    "Mücmel – Müfesser"
+   ],
+   "d": 1,
+   "a": "Herhangi bir nitelikle sınırlanmamış lafız mutlak, bir nitelikle sınırlanmış lafız mukayyeddir.",
+   "ac": [
+    "Âm fertlerin hepsini kapsar; “bir köle” tek bir ferdi ifade eder.",
+    "Doğru.",
+    "Bu açıklık dereceleriyle ilgilidir.",
+    "Mecaz kullanım yok.",
+    "Mücmel kapalı lafızdır; “köle” kapalı değildir."
+   ],
+   "kay": "Mücâdele, 58/3; Nisâ, 4/92"
+  }
+ ]
+}
