@@ -1,0 +1,514 @@
+{
+ "id": "mevzuat-3",
+ "ad": "Diyanet Yönetmelikleri: Kariyer Basamakları, Sınavlar, MBSTS ve Yurt Dışı Görevi",
+ "ders": "Mevzuat",
+ "sinavlar": [
+  "mevzuat",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "gys",
+  "kurumici",
+  "yurtdisi",
+  "murakip"
+ ],
+ "oncelik": 3,
+ "anlatim": [
+  "Diyanet personelinin sınav, atama ve yükselme işleri 633 ve 657 sayılı kanunlara dayanan yönetmeliklerle düzenlenir. En çok başvurulanlar şunlardır: Vaizlik, Kur’an Kursu Öğreticiliği, İmam-Hatiplik ve Müezzin-Kayyımlık Kadrolarına Atama ve Bu Kadroların Kariyer Basamaklarında Yükselme Yönetmeliği; Diyanet İşleri Başkanlığı Sınav Yönetmeliği; Atama ve Yer Değiştirme Yönetmeliği; Görevde Yükselme ve Unvan Değişikliği Yönetmeliği; Yurt Dışı Teşkilatına Sürekli Görevle Atanacak Personel Hakkında Yönetmelik. Bilgiler yürürlükteki metinlere göre özetlenmiştir; sınav duyurusunda farklı bir hüküm varsa duyuru esas alınır.",
+  {
+   "b": "1. Kariyer basamakları"
+  },
+  {
+   "tablo": [
+    [
+     "Unvan",
+     "Kariyer basamakları"
+    ],
+    [
+     "Vaiz",
+     "Vaiz → Uzman vaiz → Başvaiz"
+    ],
+    [
+     "Kur’an kursu öğreticisi",
+     "Öğretici → Uzman öğretici → Başöğretici"
+    ],
+    [
+     "İmam-hatip",
+     "İmam-hatip → Uzman imam-hatip → Başimam-hatip"
+    ],
+    [
+     "Müezzin-kayyım",
+     "Müezzin-kayyım → Başmüezzin"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Basamak",
+     "Özel şartlar (özet)"
+    ],
+    [
+     "Uzman vaiz",
+     "Vaiz olarak 6 yıl"
+    ],
+    [
+     "Başvaiz",
+     "Uzman vaiz olarak 4 yıl ve ilahiyat alanında yüksek lisans"
+    ],
+    [
+     "Uzman öğretici",
+     "Adaylık dâhil 6 yıl öğreticilik; hafızlık ya da aşere/takrib/tayyibe kursu"
+    ],
+    [
+     "Başöğretici",
+     "Uzman öğretici olarak 4 yıl; hafızlık ve aşere/takrib/tayyibe kursu"
+    ],
+    [
+     "Uzman imam-hatip",
+     "Adaylık dâhil 6 yıl imam-hatiplik; hafızlık ya da aşere/takrib/tayyibe kursu ya da ilahiyat yüksek lisansı"
+    ],
+    [
+     "Başimam-hatip",
+     "Uzman imam-hatip olarak 4 yıl; hafızlık ve aşere/takrib/tayyibe kursu ya da ilahiyat yüksek lisansı"
+    ],
+    [
+     "Başmüezzin",
+     "Adaylık dâhil 8 yıl müezzin-kayyımlık; hafızlık ve aşere/takrib/tayyibe kursu"
+    ],
+    [
+     "Hepsinde ortak",
+     "MBSTS puanına sahip olmak; son 3 yılda uyarma ve kınama dışında disiplin cezası almamış olmak"
+    ]
+   ]
+  },
+  {
+   "b": "2. Sınavlar ve puanlama"
+  },
+  {
+   "tablo": [
+    [
+     "Sınav",
+     "Esaslar"
+    ],
+    [
+     "MBSTS (Mesleki Bilgiler Seviye Tespit Sınavı)",
+     "ÖSYM uygular; mesleki bilgi düzeyini ölçer. Puanı kurum içi giriş sınavlarında, kariyer basamaklarında yükselmede, cami görevlilerinin yer değiştirmesinde ve yurt dışı din görevlisi seçiminde kullanılır"
+    ],
+    [
+     "KBYS (Kariyer Basamaklarında Yükselme Sınavı)",
+     "Sözlü yapılır; MBSTS puan sırasına göre ilan edilen kadronun 3 katına kadar aday çağrılır"
+    ],
+    [
+     "Açıktan giriş",
+     "KPSS puan sırasına göre kadronun 3 katına kadar aday sözlü sınava çağrılır"
+    ],
+    [
+     "Kurum içi giriş",
+     "MBSTS puan sırasına göre çağrılır; adaylığı tamamlamış olmak gerekir"
+    ],
+    [
+     "Başarı puanı",
+     "Yazılı ve sözlü sınavın her aşamasında 100 üzerinden en az 70"
+    ],
+    [
+     "Puanın hesabı",
+     "Sözlü puan, komisyon üyelerinin verdiği puanların ortalamasıdır; yazılı ve sözlü varsa başarı puanı ikisinin ortalamasıdır"
+    ],
+    [
+     "İtiraz",
+     "Sonuçların ilanından itibaren 7 gün içinde; 15 gün içinde karara bağlanır"
+    ],
+    [
+     "Duyuru",
+     "Giriş sınavları en az 15 gün, kariyer basamakları sınavı en az 30 gün önce ilan edilir"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Sözlü sınav (unvana göre)",
+     "Konular ve puanlar"
+    ],
+    [
+     "Vaizlik ve vaizlik kariyer basamakları",
+     "Kur’an-ı Kerim (kıraat, anlam, tefsir) 30 · Arapça 30 · dini bilgiler (hadis, fıkıh, kelam, İslam tarihi, ahlak) ve hitabet 30 · mevzuat 10"
+    ],
+    [
+     "İmam-hatip ve Kur’an kursu öğreticisi",
+     "Kur’an-ı Kerim 70 · dini bilgiler (itikat, ibadet, siyer, ahlak) 20 · hitabet 10"
+    ],
+    [
+     "Müezzin-kayyım",
+     "Kur’an-ı Kerim 70 · dini bilgiler 20 · ezan ve kamet 10"
+    ]
+   ]
+  },
+  {
+   "not": "Vaizlik giriş sınavının yazılı konuları: Kur’an-ı Kerim, Arapça, tefsir, hadis, kelam, fıkıh, İslam tarihi ve ahlakı, dini ve mesleki genel kültür ile Başkanlık ve personel mevzuatı. İlçe müftülüğü ve il müftü yardımcılığı sınavlarının yazılı konuları da aynı ailedendir."
+  },
+  {
+   "b": "3. Sınav komisyonu ve atama"
+  },
+  "Sözlü sınav komisyonu başkan dâhil üç ila beş üyeden oluşur; en az bir yedek üye belirlenir. Komisyon üyeleri eşlerinin ve ikinci dereceye kadar (bu derece dâhil) kan ve kayın hısımlarının sınavına katılamaz. Atamalar Başkanlıkça yapılır; kazanan aday belirtilen süre içinde göreve başlamazsa yedek adaylar atanabilir. Gerçeğe aykırı beyanda bulunduğu anlaşılanların sınavı geçersiz sayılır, atanmışlarsa ataması iptal edilir.",
+  {
+   "b": "4. Yurt dışı teşkilatına sürekli görevle atama"
+  },
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Hüküm"
+    ],
+    [
+     "Yurt dışı teşkilatı",
+     "Müşavirlik, ataşelik ve din hizmetleri koordinatörlükleri"
+    ],
+    [
+     "Sürekli görev süresi",
+     "3 yıl; hizmet gereği 1 yıl uzatılabilir (633, md. 18/A)"
+    ],
+    [
+     "Hizmet bölgeleri",
+     "Özelliklerine göre üç gruba ayrılır"
+    ],
+    [
+     "Seçim",
+     "Din görevlisi seçiminde son üç yılın en yüksek MBSTS puanı esas alınır; ardından mesleki yeterlik ve temsil yeteneği değerlendirilir"
+    ],
+    [
+     "Temsil ve yeterlik mülakatı",
+     "100 puan üzerinden; Başkanlık mevzuatı ve Başkanlık hizmet alanı bilgisi gibi konulardan (her biri 15 puan) oluşur"
+    ]
+   ]
+  },
+  {
+   "b": "5. Görevde yükselme ve unvan değişikliği"
+  },
+  "Şef, şube müdürü, müftü yardımcısı gibi yönetim kadrolarına geçiş, Görevde Yükselme ve Unvan Değişikliği Yönetmeliği’ne göre yazılı ve sözlü sınavla olur. Bu sınavların ortak konuları arasında Anayasa’nın genel esasları, Atatürk ilkeleri ve inkılap tarihi, 633 ve 657 sayılı kanunlar, resmî yazışma kuralları, halkla ilişkiler ve etik davranış ilkeleri bulunur; alan konuları kadroya göre değişir."
+ ],
+ "ozet": [
+  "Kariyer basamakları: vaiz → uzman vaiz → başvaiz; öğretici → uzman öğretici → başöğretici; imam-hatip → uzman imam-hatip → başimam-hatip; müezzin-kayyım → başmüezzin.",
+  "Uzman basamağı için 6 yıl, baş basamağı için 4 yıl; başmüezzinlik için 8 yıl müezzin-kayyımlık.",
+  "Başvaizlik: ilahiyat yüksek lisansı. Başöğretici ve başmüezzin: hafızlık ve aşere/takrib/tayyibe.",
+  "Bütün yükselmelerde MBSTS puanı ve son 3 yılda uyarma-kınama dışında disiplin cezası almamış olmak şart.",
+  "KBYS sözlü; kadronun 3 katı aday MBSTS sırasıyla çağrılır. Başarı puanı 70. İtiraz 7 gün, karar 15 gün.",
+  "Sözlü puanlar: vaiz 30-30-30-10 (Kur’an, Arapça, dini bilgiler-hitabet, mevzuat); imam-hatip ve KKÖ 70-20-10; müezzin-kayyım 70-20-10 (ezan-kamet).",
+  "Duyuru: giriş sınavı en az 15 gün, kariyer sınavı en az 30 gün önce.",
+  "Yurt dışı: son 3 yılın en yüksek MBSTS puanı; görev 3 yıl + 1."
+ ],
+ "kartlar": [
+  {
+   "o": "Uzman vaizlik için hizmet şartı",
+   "a": "6 yıl vaizlik"
+  },
+  {
+   "o": "Başvaizlik için",
+   "a": "4 yıl uzman vaizlik + ilahiyat yüksek lisansı"
+  },
+  {
+   "o": "Başmüezzinlik için",
+   "a": "Adaylık dâhil 8 yıl müezzin-kayyımlık; hafızlık ve aşere/takrib/tayyibe"
+  },
+  {
+   "o": "Müezzin-kayyımın kariyer basamağı",
+   "a": "Tek basamak: başmüezzin"
+  },
+  {
+   "o": "KBYS’ye kaç kat aday çağrılır?",
+   "a": "Kadronun 3 katı, MBSTS puan sırasıyla"
+  },
+  {
+   "o": "Diyanet sınavlarında başarı puanı",
+   "a": "100 üzerinden en az 70"
+  },
+  {
+   "o": "Vaizlik sözlü sınavı puan dağılımı",
+   "a": "Kur’an 30, Arapça 30, dini bilgiler ve hitabet 30, mevzuat 10"
+  },
+  {
+   "o": "İmam-hatip sözlü sınavı puan dağılımı",
+   "a": "Kur’an 70, dini bilgiler 20, hitabet 10"
+  },
+  {
+   "o": "Sınav sonucuna itiraz",
+   "a": "7 gün içinde; 15 günde karar"
+  },
+  {
+   "o": "Kariyer basamakları sınavı duyuru süresi",
+   "a": "En az 30 gün önce"
+  },
+  {
+   "o": "Yurt dışı din görevlisi seçiminde MBSTS",
+   "a": "Son üç yılın en yüksek puanı"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "mv3-01",
+   "z": 1,
+   "s": "İmam-hatiplik kariyer basamakları hangi seçenekte doğru sırayla verilmiştir?",
+   "c": [
+    "İmam-hatip → uzman imam-hatip → başimam-hatip",
+    "İmam-hatip → başimam-hatip → uzman imam-hatip",
+    "İmam-hatip → vaiz → başvaiz",
+    "İmam-hatip → müezzin-kayyım → başimam-hatip",
+    "İmam-hatip → başmüezzin"
+   ],
+   "d": 0,
+   "a": "Uzman basamağı önce, baş basamağı sonra gelir.",
+   "ac": [
+    "Doğru sıradır.",
+    "Sıra yanlıştır.",
+    "Bunlar farklı unvanlardır.",
+    "Sıra yanlıştır.",
+    "Başmüezzinlik müezzin-kayyımların basamağıdır."
+   ],
+   "kay": "Kariyer Basamakları Yönetmeliği, md. 5"
+  },
+  {
+   "id": "mv3-02",
+   "z": 1,
+   "s": "Müezzin-kayyımların kariyer basamağı hangisidir?",
+   "c": [
+    "Uzman müezzin",
+    "Kayyımbaşı",
+    "Uzman müezzin ve başmüezzin",
+    "Başmüezzin",
+    "Uzman imam-hatip"
+   ],
+   "d": 3,
+   "a": "Müezzin-kayyım → başmüezzin.",
+   "ac": [
+    "Böyle bir basamak yoktur.",
+    "Böyle bir unvan yoktur.",
+    "Uzman müezzin basamağı yoktur.",
+    "Müezzin-kayyımların tek kariyer basamağıdır.",
+    "İmam-hatiplerin basamağıdır."
+   ],
+   "kay": "Kariyer Basamakları Yönetmeliği, md. 5"
+  },
+  {
+   "id": "mv3-03",
+   "z": 2,
+   "s": "Başvaizlik kariyer basamağına başvuracaklarda aşağıdakilerden hangisi aranır?",
+   "c": [
+    "6 yıl vaizlik",
+    "10 yıl vaizlik",
+    "Doktora",
+    "Hafızlık ve aşere belgesi",
+    "Uzman vaiz olarak 4 yıl çalışmış olmak ve ilahiyat alanında yüksek lisans"
+   ],
+   "d": 4,
+   "a": "Uzman vaizlik için 6 yıl vaizlik; başvaizlik için 4 yıl uzman vaizlik ve yüksek lisans.",
+   "ac": [
+    "Bu uzman vaizlik şartıdır.",
+    "Böyle bir şart yoktur.",
+    "Doktora şartı yoktur.",
+    "Başöğretici ve başmüezzinlikte aranır.",
+    "Başvaizlik şartlarıdır."
+   ],
+   "kay": "Kariyer Basamakları Yönetmeliği, md. 8"
+  },
+  {
+   "id": "mv3-04",
+   "z": 2,
+   "s": "Başmüezzinlik için müezzin-kayyım olarak adaylık dâhil kaç yıl çalışmış olmak gerekir?",
+   "c": [
+    "4",
+    "6",
+    "8",
+    "10",
+    "12"
+   ],
+   "d": 2,
+   "a": "Ayrıca hafızlık ve aşere/takrib/tayyibe kursu belgesi aranır.",
+   "ac": [
+    "Yanlıştır.",
+    "Uzman imam-hatip ve uzman öğreticilikteki süredir.",
+    "Başmüezzinlik için 8 yıl.",
+    "Yanlıştır.",
+    "Yanlıştır."
+   ],
+   "kay": "Kariyer Basamakları Yönetmeliği, md. 14"
+  },
+  {
+   "id": "mv3-05",
+   "z": 2,
+   "s": "Vaizlik kariyer basamaklarında yükselme sözlü sınavında konuların puan dağılımı hangisidir?",
+   "c": [
+    "Kur’an 70, dini bilgiler 20, hitabet 10",
+    "Kur’an 40, tefsir 40, mevzuat 20",
+    "Kur’an 50, Arapça 25, mevzuat 25",
+    "Kur’an 30, Arapça 30, dini bilgiler ve hitabet 30, mevzuat 10",
+    "Kur’an 70, dini bilgiler 20, ezan-kamet 10"
+   ],
+   "d": 3,
+   "a": "Vaizlikte Arapça ve mevzuat da puanlanır.",
+   "ac": [
+    "Bu imam-hatip ve öğretici sınavının dağılımıdır.",
+    "Yanlıştır.",
+    "Yanlıştır.",
+    "Vaizlik sözlü sınavının dağılımıdır.",
+    "Müezzin-kayyım sınavının dağılımıdır."
+   ],
+   "kay": "Kariyer Basamakları Yönetmeliği, md. 18"
+  },
+  {
+   "id": "mv3-06",
+   "z": 1,
+   "s": "Diyanet İşleri Başkanlığının yazılı ve sözlü sınavlarında başarılı sayılmak için 100 tam puan üzerinden en az kaç puan alınmalıdır?",
+   "c": [
+    "50",
+    "60",
+    "70",
+    "75",
+    "80"
+   ],
+   "d": 2,
+   "a": "Yazılı ve sözlü varsa başarı puanı ikisinin ortalamasıdır.",
+   "ac": [
+    "Yanlıştır.",
+    "Yanlıştır.",
+    "Her aşamada en az 70.",
+    "Yanlıştır.",
+    "Yanlıştır."
+   ],
+   "kay": "Kariyer Basamakları Yönetmeliği, md. 20"
+  },
+  {
+   "id": "mv3-07",
+   "z": 2,
+   "s": "Kariyer basamaklarında yükselme sınavına adaylar hangi ölçüye göre çağrılır?",
+   "c": [
+    "KPSS puan sırasına göre, kadronun iki katı",
+    "MBSTS puan sırasına göre, kadronun üç katına kadar",
+    "Hizmet süresine göre, kadronun üç katı",
+    "Kura ile",
+    "Sicil notuna göre, kadronun beş katı"
+   ],
+   "d": 1,
+   "a": "Sınav sözlü olarak yapılır.",
+   "ac": [
+    "Ölçü ve oran yanlıştır.",
+    "Kariyer basamaklarında MBSTS esas alınır.",
+    "Ölçü yanlıştır.",
+    "Yanlıştır.",
+    "Yanlıştır."
+   ],
+   "kay": "Kariyer Basamakları Yönetmeliği, md. 15-16"
+  },
+  {
+   "id": "mv3-08",
+   "z": 2,
+   "s": "Kariyer basamaklarında yükselmek isteyen bütün personelde ortak olarak aranan şartlardan biri hangisidir?",
+   "c": [
+    "Doktora yapmış olmak",
+    "Yabancı dil belgesi",
+    "Yurt dışında görev yapmış olmak",
+    "40 yaşını doldurmamış olmak",
+    "Son 3 yılda uyarma ve kınama dışında disiplin cezası almamış olmak"
+   ],
+   "d": 4,
+   "a": "MBSTS puanına sahip olmak da ortak şarttır.",
+   "ac": [
+    "Ortak şart değildir.",
+    "Ortak şart değildir.",
+    "Böyle bir şart yoktur.",
+    "Yaş şartı yoktur.",
+    "Bütün yükselmelerde aranır."
+   ],
+   "kay": "Kariyer Basamakları Yönetmeliği, md. 7-14"
+  },
+  {
+   "id": "mv3-09",
+   "z": 2,
+   "s": "Kariyer basamakları ve giriş sınavı sonuçlarına itiraz süresi ve itirazın karara bağlanma süresi hangisidir?",
+   "c": [
+    "3 gün – 7 gün",
+    "7 gün – 15 gün",
+    "15 gün – 30 gün",
+    "7 gün – 30 gün",
+    "10 gün – 10 gün"
+   ],
+   "d": 1,
+   "a": "Sınav sonuçlarına itiraz 7 gün içinde yapılır, 15 gün içinde karara bağlanır.",
+   "ac": [
+    "Yanlıştır.",
+    "Yönetmelik hükmüdür.",
+    "Yanlıştır.",
+    "Bu, 657’de disiplin cezalarına itirazın süreleridir.",
+    "Yanlıştır."
+   ],
+   "kay": "Kariyer Basamakları Yönetmeliği, md. 21"
+  },
+  {
+   "id": "mv3-10",
+   "z": 3,
+   "s": "Yurt dışı din görevlisi seçiminde MBSTS puanı nasıl kullanılır?",
+   "c": [
+    "Son üç yılda alınan MBSTS puanlarının en yükseği esas alınır.",
+    "Yalnız son sınavın puanı esas alınır.",
+    "Son üç yılın ortalaması alınır.",
+    "MBSTS puanı kullanılmaz.",
+    "Yalnız KPSS puanı kullanılır."
+   ],
+   "d": 0,
+   "a": "Ardından mesleki yeterlik ve temsil yeteneği mülakatı yapılır.",
+   "ac": [
+    "Seçimde son üç yılın en yüksek puanı kullanılır.",
+    "Son üç yıla bakılır.",
+    "Ortalama değil en yüksek puan esastır.",
+    "Kullanılır.",
+    "KPSS kullanılmaz."
+   ],
+   "kay": "Yurt Dışı Teşkilatı Yönetmeliği"
+  },
+  {
+   "id": "mv3-11",
+   "z": 2,
+   "s": "İmam-hatip ve Kur’an kursu öğreticisi sözlü sınavlarında en yüksek puan payına sahip konu hangisidir?",
+   "c": [
+    "Hitabet",
+    "Dini bilgiler",
+    "Mevzuat",
+    "Arapça",
+    "Kur’an-ı Kerim"
+   ],
+   "d": 4,
+   "a": "Kur’an 70, dini bilgiler 20, hitabet 10.",
+   "ac": [
+    "10 puandır.",
+    "20 puandır.",
+    "Bu sınavlarda ayrı bir mevzuat bölümü yoktur.",
+    "Bu sınavlarda ayrı bir Arapça bölümü yoktur.",
+    "70 puandır."
+   ],
+   "kay": "Kariyer Basamakları Yönetmeliği, md. 18"
+  },
+  {
+   "id": "mv3-12",
+   "z": 1,
+   "s": "Kariyer basamaklarında yükselme sınavı en az kaç gün önceden duyurulur?",
+   "c": [
+    "7",
+    "15",
+    "30",
+    "45",
+    "60"
+   ],
+   "d": 2,
+   "a": "Giriş sınavı 15 gün, kariyer sınavı 30 gün önceden duyurulur.",
+   "ac": [
+    "Yanlıştır.",
+    "Giriş sınavları için en az 15 gündür.",
+    "Kariyer basamakları sınavı için en az 30 gün.",
+    "Yanlıştır.",
+    "Yanlıştır."
+   ],
+   "kay": "Kariyer Basamakları Yönetmeliği, md. 17"
+  }
+ ]
+}
