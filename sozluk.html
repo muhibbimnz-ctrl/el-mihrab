@@ -55,7 +55,8 @@ function ara(){var q=Q.value.trim(),d=D,h='';try{history.replaceState(null,'','?
  if(lat&&q.length>=2){var t=tr(q),re=new RegExp('(^|[\\s,;(])'+t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));var b2=[];for(var k in o){if(gor[k])continue;var m=tr(o[k][1]);if(re.test(m)){b2.push([m.indexOf(t)===0?0:1,o[k][1].length,k]);if(b2.length>800)break}}
   b2.sort(function(a,b){return a[0]-b[0]||a[1]-b[1]}).slice(0,80).forEach(function(x){at(x[2])})}
  if(!bul.length){M.innerHTML='<p class="note">“'+esc(q)+'” bulunamadı. Harekesiz ya da daha kısa yazmayı dene.</p>';return}
- bul.forEach(function(x,i){if(i===0&&tam)h+='<h2>'+AD[d]+' kelime</h2>';if(i===tam&&i>0)h+='<h2>Türkçe anlamda geçenler</h2>';else if(i===0&&!tam)h+='<h2>Türkçe anlamda geçenler</h2>';h+=satir(x[0],x[1],d)});M.innerHTML=h}
+ bul.forEach(function(x,i){if(i===0&&tam)h+='<h2>'+AD[d]+' kelime</h2>';if(i===tam&&i>0)h+='<h2>Türkçe anlamda geçenler</h2>';else if(i===0&&!tam)h+='<h2>Türkçe anlamda geçenler</h2>';h+=satir(x[0],x[1],d)});M.innerHTML=h
+ if(d==='ar'&&tam)BY.yukle().then(function(){var R=M.querySelectorAll('.r'),say=0;for(var i=0;i<R.length&&i<tam&&say<6;i++){var b=R[i].querySelector('button[data-w]'),y=BY.bul(b.dataset.w);if(y){R[i].insertAdjacentHTML('afterend',BY.html(y,b.dataset.w));say++}}})}
 var HRF={ar:'ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي',fa:'ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی',en:'a b c d e f g h i j k l m n o p q r s t u v w x y z'};
 function sonAl(){try{return JSON.parse(localStorage.getItem('mihrab.sozlukSon'))||{}}catch(e){return {}}}
 function sonEkle(q,d){var o=sonAl(),L=(o[d]||[]).filter(function(x){return x!==q});L.unshift(q);o[d]=L.slice(0,12);try{localStorage.setItem('mihrab.sozlukSon',JSON.stringify(o))}catch(e){}}
@@ -77,4 +78,5 @@ M.addEventListener('click',function(e){var hb=e.target.closest('[data-h]');if(hb
 document.getElementById('bk').onclick=function(e){if(document.referrer.indexOf(location.origin)===0&&history.length>1){e.preventDefault();history.back()}};
 Q.value=P.get('q')||'';dil(D);
 </script>
+<script src="beyit.js?v=1"></script>
 </body></html>

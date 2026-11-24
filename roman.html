@@ -22,7 +22,7 @@ main{max-width:760px;margin:0 auto;padding:14px 14px 90px}
 .trb{font-size:13.5px;color:#7a7266;border:0;background:none;cursor:pointer;padding:2px 0;font-family:system-ui}
 .cm .tr{display:none;color:#5b5348;font-size:15px;line-height:1.5;margin-top:2px;direction:ltr;text-align:left;font-family:system-ui}.cm.op .tr{display:block}
 #pop{position:fixed;left:50%;bottom:16px;transform:translateX(-50%) translateY(140%);width:min(560px,calc(100% - 24px));background:#2b1d45;color:#fff;border-radius:18px;padding:14px 16px;box-shadow:0 12px 30px rgba(0,0,0,.3);transition:transform .2s;z-index:20}
-#pop{visibility:hidden}#pop.on{transform:translateX(-50%) translateY(0);visibility:visible}#pop .k{font-size:26px}#pop .m{font-size:17px;margin:4px 0 10px}#pop .b{display:flex;gap:8px}
+#pop{visibility:hidden;max-height:82vh;overflow:auto}#pb .sahid{margin:0 0 10px}#pop.on{transform:translateX(-50%) translateY(0);visibility:visible}#pop .k{font-size:26px}#pop .m{font-size:17px;margin:4px 0 10px}#pop .b{display:flex;gap:8px}
 #pop button{border:0;border-radius:11px;padding:9px 12px;font:600 14px system-ui;cursor:pointer}#pop .add{background:#f3d98b;color:#2b1d45}#pop .cl{background:rgba(255,255,255,.18);color:#fff}
 .nav{display:flex;justify-content:space-between;gap:8px;margin:16px 0}.nav button{border:0;border-radius:12px;padding:11px 15px;background:#4a3470;color:#fff;font:600 14.5px system-ui;cursor:pointer}
 .bar{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 10px}.bar button{border:0;border-radius:11px;padding:8px 12px;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.08);font:600 13.5px system-ui;cursor:pointer;color:inherit}.bar button.on{background:#4a3470;color:#fff}
@@ -34,7 +34,7 @@ h2{font-size:17px;margin:16px 4px 6px}
 </style></head><body>
 <div id="hd"><div class="top"><a href="./" id="bk">‹ el-Mihrâb</a><h1 id="ttl">Roman okuma</h1><button id="dfb" title="Kelime defterim">📒 <span id="dfn">0</span></button></div></div>
 <main id="m"></main>
-<div id="pop"><div class="k" id="pk"></div><div class="m" id="pm"></div><div class="b"><button class="add" id="padd">＋ Defterime ekle</button><a class="cl" id="pdis" style="text-decoration:none;border-radius:11px;padding:9px 12px;font:600 14px system-ui">🔎 Sözlükte ara</a><button class="cl" id="pcl">Kapat</button></div></div>
+<div id="pop"><div class="k" id="pk"></div><div class="m" id="pm"></div><div id="pb"></div><div class="b"><button class="add" id="padd">＋ Defterime ekle</button><a class="cl" id="pdis" style="text-decoration:none;border-radius:11px;padding:9px 12px;font:600 14px system-ui">🔎 Sözlükte ara</a><button class="cl" id="pcl">Kapat</button></div></div>
 <script>
 var M=document.getElementById('m'),Q=new URLSearchParams(location.search),DIL=Q.get('dil')||'',LIST=[],K=null,CUR=null;
 var AD={ar:'Arapça',fa:'Farsça',en:'İngilizce'},BACK={ar:'arapca.html',fa:'farsca.html',en:'ingilizce.html'};
@@ -95,7 +95,8 @@ var SEL=null;
 M.addEventListener('click',function(e){var w=e.target.closest('.w');if(!w||!K)return;M.querySelectorAll('.w.on').forEach(function(x){x.classList.remove('on')});w.classList.add('on');
  var n=w.dataset.n,d=K.dil,yal=w.textContent.replace(/[«»،.؟!:؛()\-"]/g,'').replace(/[,.;:!?'"]+$/,'');pk.className='k '+d;pk.textContent=yal;pdis.href='sozluk.html?dil='+d+'&q='+encodeURIComponent(d==='en'?n:yal.replace(H,''));
  var m=bul(n,d,K.sozluk);function goster(m){SEL={k:d+'|'+n,w:yal,m:m||'—',d:d};pm.textContent=m||'Bu biçim kitap sözlüğünde yok — “Sözlükte ara” ile geniş sözlükte bak.';
-  padd.style.display=m?'':'none';padd.textContent=st.d[SEL.k]?'✓ Defterde':'＋ Defterime ekle';pop.classList.add('on')}
+  padd.style.display=m?'':'none';padd.textContent=st.d[SEL.k]?'✓ Defterde':'＋ Defterime ekle';pop.classList.add('on');pb.innerHTML='';
+  if(d==='ar'&&window.BY){var sk=SEL.k;BY.yukle().then(function(){if(!SEL||SEL.k!==sk)return;pb.innerHTML=BY.html(BY.bul(yal),yal,1)})}}
  if(m)goster(m);else{pm.textContent='…';pop.classList.add('on');ortak(d).then(function(G){if(SEL&&SEL.k!==d+'|'+n&&pop.classList.contains('on')&&pk.textContent!==yal)return;goster(bul(n,d,G))})}});
 pcl.onclick=function(){pop.classList.remove('on');M.querySelectorAll('.w.on').forEach(function(x){x.classList.remove('on')})};
 padd.onclick=function(){if(!SEL)return;if(st.d[SEL.k])delete st.d[SEL.k];else st.d[SEL.k]=[SEL.w,SEL.m,K.tr_baslik];sv();padd.textContent=st.d[SEL.k]?'✓ Defterde':'＋ Defterime ekle';
@@ -108,4 +109,5 @@ dfb.onclick=function(){git('#defter')};function defter(){ttl.textContent='Kelime
 sv();J('data/roman/liste.json').then(function(l){LIST=l;var id=Q.get('id');if(id&&!location.hash)location.replace('#k='+id);else rota()}).catch(function(){M.innerHTML='<p class="note">Liste yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'});
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e3f9665447b64c6f8d89efca8e6de38f"}'></script><!-- End Cloudflare Web Analytics -->
+<script src="beyit.js?v=1"></script>
 </body></html>
