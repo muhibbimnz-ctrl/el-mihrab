@@ -118,7 +118,8 @@ Kullanım ilkesi: kitaplardan yalnızca bilgi alınır; metin ve sorular kendi c
 
 Fıkıh hükümleri Hanefî mezhebine göredir; mezhep farkları ayrıca belirtilmiştir.
 
-## Araçlar (sohbet ortamında yazıldı, depoda değil)
+## Araçlar (`tools/kadem/`)
+- `kontrol.py`: bütün konu dosyalarını doğrular ve `mbsts.json` konular listesini yeniden kurar · `dengele.py [dosya…]`: doğru şıkları A–E arasında dengeler · `harita.py`: haritadaki ünite listelerini hazır konulardan günceller (sırayla çalıştır: dengele → kontrol → harita).
 Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık açıklaması (`ac`) olmalı, `d` 0-4, `z` 1-3, `id` benzersiz; doğru şıklar A–E arasında dengeli; yeni konu `mbsts.json` → `konular` listesine `{"ref":"…"}` olarak ve haritadaki ilgili derse `"konu":"…"` ile eklenmeli; konunun `ders` adı haritadaki adla birebir aynı olmalı.
 
 ## Sıradaki iş
