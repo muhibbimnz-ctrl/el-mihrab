@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="tr"><head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script src="kalkan.js"></script><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kadem · el-Mihrâb</title>
+<meta name="theme-color" content="#1d5c4a">
+<link rel="icon" href="icon-192.png">
+<style>
+:root{--bg:#f4f0e8;--card:#fffdf8;--ink:#2a2620;--muted:#6f665a;--line:#e3d9c6;--acc:#1d5c4a;--soft:#e9f1ec;--ok:#2f7d4f;--no:#b23a3a}
+@media (prefers-color-scheme:dark){:root{--bg:#15131a;--card:#1f1c26;--ink:#ece6f2;--muted:#a59db0;--line:#332e3d;--soft:#22302b}}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-top:calc(56px + env(safe-area-inset-top,0px));padding-bottom:48px}
+#top{position:fixed;top:0;left:0;right:0;z-index:9;display:flex;align-items:center;gap:10px;padding:calc(8px + env(safe-area-inset-top,0px)) 12px 8px;background:var(--acc);color:#fff;transition:background .3s}
+#top a{color:#fff;text-decoration:none;background:rgba(255,255,255,.18);border-radius:12px;padding:7px 12px;font-weight:700;cursor:pointer}
+#top b{flex:1;font-size:17px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+main{max-width:820px;margin:0 auto;padding:12px 14px}
+h1{font-size:25px;margin:6px 0 4px}h2{font-size:19px;margin:18px 0 8px}
+.lead{color:var(--muted);margin:0 0 14px}
+.izgara{display:grid;gap:12px}@media(min-width:700px){.izgara{grid-template-columns:1fr 1fr}}
+.kart{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden}
+.kart:before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:var(--r,var(--acc))}
+.kart b{display:block;font-size:18px}.kart small{display:block;color:var(--muted)}
+.etk{display:inline-block;margin-top:8px;font-size:12px;font-weight:700;border-radius:20px;padding:2px 10px;background:var(--soft);color:var(--acc)}
+.etk.bos{background:transparent;border:1px dashed var(--line);color:var(--muted)}
+.satir{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:11px 14px;margin-bottom:8px;cursor:pointer;text-decoration:none;color:inherit}
+.satir .no{width:30px;height:30px;flex:none;border-radius:50%;display:grid;place-items:center;background:var(--soft);font-weight:700;font-size:14px}
+.satir span{flex:1}.satir small{color:var(--muted)}
+.dugmeler{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 14px}
+.btn{border:0;border-radius:14px;padding:10px 16px;font:inherit;font-weight:700;background:var(--acc);color:#fff;cursor:pointer}
+.btn.ik{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.btn[disabled]{opacity:.45;cursor:default}
+.metin{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:6px 18px 12px}
+.metin p{margin:10px 0}.metin h3{margin:16px 0 4px;font-size:17px}
+.metin .not{background:var(--soft);border-radius:12px;padding:8px 12px}
+.bos-kutu{border:1.5px dashed var(--line);border-radius:18px;padding:22px 16px;text-align:center;color:var(--muted)}
+.soru{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 16px}
+.soru .ust{display:flex;justify-content:space-between;color:var(--muted);font-size:13px;margin-bottom:6px}
+.soru .kok{font-weight:600;margin-bottom:12px;white-space:pre-line}
+.sik{display:flex;gap:10px;width:100%;text-align:left;border:1.5px solid var(--line);background:transparent;color:inherit;border-radius:14px;padding:10px 12px;margin-bottom:8px;font:inherit;cursor:pointer}
+.sik i{font-style:normal;font-weight:700;width:20px;flex:none}
+.sik.dogru{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,transparent)}
+.sik.yanlis{border-color:var(--no);background:color-mix(in srgb,var(--no) 12%,transparent)}
+.aciklama{margin-top:6px;background:var(--soft);border-radius:12px;padding:10px 12px;font-size:15px}
+.sonuc{text-align:center;padding:10px 0}.sonuc .buyuk{font-size:44px;font-weight:800;color:var(--acc)}
+.yuk{color:var(--muted);text-align:center;padding:40px 0}
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(80px);background:#222;color:#fff;border-radius:14px;padding:9px 16px;transition:transform .25s;z-index:20}
+#toast.on{transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+<div id="top"><a id="geri">‹</a><b id="bas">Kadem</b></div>
+<main id="m"><div class="yuk">Yükleniyor…</div></main>
+<div id="toast"></div>
+<script>
+/* Kadem — Diyanet personeli için sınav hazırlık bölümü.
+   Veri: data/kadem/sinavlar.json (sınav listesi) ve data/kadem/<id>.json (her sınavın konuları).
+   <id>.json biçimi:
+   {"konular":[{"id":"k1","ad":"Konu adı","ders":"Fıkıh",
+                "anlatim":["paragraf", {"b":"Ara başlık"}, {"not":"Önemli not"}],
+                "sorular":[{"s":"Soru kökü","c":["A","B","C","D","E"],"d":0,"a":"Açıklama","kay":"Kaynak"}]}]}
+   Adresler: #s=mbsts · #s=mbsts&k=k1 · #s=mbsts&t=k1 · #s=mbsts&t=deneme · #s=mbsts&t=yanlis */
+(function(){
+var $=function(s){return document.querySelector(s)},M=$('#m'),C={},LK='kadem.v1',HARF='ABCDE';
+function oku(){try{return JSON.parse(localStorage.getItem(LK))||{}}catch(e){return{}}}
+function yaz(o){try{localStorage.setItem(LK,JSON.stringify(o))}catch(e){}}
+function e(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function toast(t){var x=$('#toast');x.textContent=t;x.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(function(){x.classList.remove('on')},2000)}
+function al(u){if(C[u])return Promise.resolve(C[u]);return fetch(u,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){return C[u]=j})}
+function sinav(id){return al('data/kadem/'+id+'.json').catch(function(){return{konular:[]}})}
+function renk(c){document.documentElement.style.setProperty('--acc',c);$('#top').style.background=c;var m=document.querySelector('meta[name=theme-color]');m&&m.setAttribute('content',c)}
+function hash(){var o={};location.hash.replace(/^#/,'').split('&').forEach(function(p){var a=p.split('=');if(a[0])o[a[0]]=decodeURIComponent(a[1]||'')});return o}
+function git(h){location.hash=h}
+function karistir(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
+function hata(){M.innerHTML='<div class="bos-kutu">İçerik yüklenemedi. İnternet bağlantını kontrol edip tekrar dene.</div>'}
+
+function liste(){
+ renk('#1d5c4a');$('#bas').textContent='Kadem';document.title='Kadem · el-Mihrâb';$('#geri').onclick=function(){location.href='index.html'};
+ al('data/kadem/sinavlar.json').then(function(L){
+  var h='<h1>Kadem</h1><p class="lead">Diyanet personeli için sınav hazırlığı: konu anlatımı, konu testleri, deneme sınavı ve yanlışlarını tekrar.</p><div class="izgara">';
+  return Promise.all(L.sinavlar.map(function(s){return sinav(s.id)})).then(function(V){
+   L.sinavlar.forEach(function(s,i){var k=V[i].konular||[],n=0;k.forEach(function(x){n+=(x.sorular||[]).length});
+    h+='<a class="kart" style="--r:'+e(s.renk)+'" href="#s='+e(s.id)+'"><b>'+e(s.ad)+'</b><small>'+e(s.tam)+'</small><small>'+e(s.bicim)+'</small>'+
+     (k.length?'<span class="etk">'+k.length+' konu · '+n+' soru</span>':'<span class="etk bos">Hazırlanıyor</span>')+'</a>'});
+   M.innerHTML=h+'</div>';scrollTo(0,0)})
+ }).catch(hata)}
+
+function sinavSayfa(S,V){
+ var o=oku(),k=V.konular||[],yan=(o['y.'+S.id]||[]).length,top=0;k.forEach(function(x){top+=(x.sorular||[]).length});
+ var h='<h1>'+e(S.ad)+'</h1><p class="lead">'+e(S.tam)+'<br>'+e(S.kim)+' · '+e(S.bicim)+'</p>';
+ if(!k.length){M.innerHTML=h+'<div class="bos-kutu">Bu sınavın içeriği hazırlanıyor.</div>';return}
+ h+='<div class="dugmeler"><button class="btn" id="dene"'+(top?'':' disabled')+'>Deneme sınavı</button><button class="btn ik" id="yan"'+(yan?'':' disabled')+'>Yanlışlarım ('+yan+')</button></div><h2>Konular</h2>';
+ k.forEach(function(x,i){var p=o['p.'+S.id+'.'+x.id];
+  h+='<a class="satir" href="#s='+e(S.id)+'&k='+e(x.id)+'"><span class="no">'+(i+1)+'</span><span>'+e(x.ad)+(x.ders?'<br><small>'+e(x.ders)+'</small>':'')+'</span><small>'+((x.sorular||[]).length?(x.sorular.length+' soru'+(p!=null?' · %'+p:'')):'')+'</small></a>'});
+ M.innerHTML=h;
+ $('#dene').onclick=function(){git('s='+S.id+'&t=deneme')};$('#yan').onclick=function(){git('s='+S.id+'&t=yanlis')}}
+
+function konuSayfa(S,x){
+ var h='<h1>'+e(x.ad)+'</h1>'+(x.ders?'<p class="lead">'+e(x.ders)+'</p>':'');
+ h+='<div class="dugmeler"><button class="btn" id="coz"'+((x.sorular||[]).length?'':' disabled')+'>Test çöz ('+(x.sorular||[]).length+')</button></div>';
+ if((x.anlatim||[]).length){h+='<div class="metin">';x.anlatim.forEach(function(p){
+   if(typeof p==='string')h+='<p>'+e(p)+'</p>';else if(p.b)h+='<h3>'+e(p.b)+'</h3>';else if(p.not)h+='<p class="not">'+e(p.not)+'</p>'});h+='</div>'}
+ else h+='<div class="bos-kutu">Konu anlatımı hazırlanıyor.</div>';
+ M.innerHTML=h;$('#coz').onclick=function(){git('s='+S.id+'&t='+x.id)}}
+
+function test(S,baslik,sorular,kayit){
+ var i=0,dogru=0,o=oku(),yk='y.'+S.id,Y=o[yk]||[];
+ if(!sorular.length){M.innerHTML='<div class="bos-kutu">Burada çözülecek soru yok.</div>';return}
+ function goster(){var q=sorular[i],h='<div class="soru"><div class="ust"><span>'+e(baslik)+'</span><span>'+(i+1)+' / '+sorular.length+'</span></div><div class="kok">'+e(q.s)+'</div>';
+  q.c.forEach(function(c,j){h+='<button class="sik" data-j="'+j+'"><i>'+HARF[j]+')</i><span>'+e(c)+'</span></button>'});
+  M.innerHTML=h+'<div id="arka"></div></div>';scrollTo(0,0);
+  [].forEach.call(M.querySelectorAll('.sik'),function(b){b.onclick=function(){sec(+b.dataset.j)}})}
+ function sec(j){var q=sorular[i],bs=M.querySelectorAll('.sik');if(bs[0].disabled)return;
+  [].forEach.call(bs,function(b){b.disabled=true});bs[q.d].classList.add('dogru');
+  var key=q._k;if(j===q.d){dogru++;Y=Y.filter(function(y){return y!==key})}else{bs[j].classList.add('yanlis');if(Y.indexOf(key)<0)Y.push(key)}
+  o=oku();o[yk]=Y;yaz(o);
+  $('#arka').innerHTML=(q.a?'<div class="aciklama">'+e(q.a)+(q.kay?'<br><small>Kaynak: '+e(q.kay)+'</small>':'')+'</div>':'')+
+   '<div class="dugmeler"><button class="btn" id="ileri">'+(i+1<sorular.length?'Sonraki soru':'Sonucu gör')+'</button></div>';
+  $('#ileri').onclick=function(){i++;i<sorular.length?goster():bitir()}}
+ function bitir(){var p=Math.round(100*dogru/sorular.length);if(kayit){o=oku();o[kayit]=p;yaz(o)}
+  M.innerHTML='<div class="soru sonuc"><div class="buyuk">%'+p+'</div><p>'+sorular.length+' sorudan '+dogru+' doğru</p><div class="dugmeler" style="justify-content:center"><button class="btn" id="tekrar">Tekrar çöz</button><button class="btn ik" id="don">Sınava dön</button></div></div>';
+  $('#tekrar').onclick=function(){test(S,baslik,karistir(sorular),kayit)};$('#don').onclick=function(){git('s='+S.id)}}
+ goster()}
+
+function ac(){var H=hash();if(!H.s)return liste();
+ al('data/kadem/sinavlar.json').then(function(L){var S=L.sinavlar.filter(function(s){return s.id===H.s})[0];if(!S)return liste();
+  renk(S.renk);$('#bas').textContent=S.ad;document.title=S.ad+' · Kadem';
+  return sinav(S.id).then(function(V){var K=V.konular||[];
+   K.forEach(function(x){(x.sorular||[]).forEach(function(q,n){q._k=x.id+'.'+n})});
+   var hepsi=[];K.forEach(function(x){hepsi=hepsi.concat(x.sorular||[])});
+   function bul(id){return K.filter(function(x){return x.id===id})[0]}
+   if(H.t){$('#geri').onclick=function(){git('s='+S.id)};
+    if(H.t==='deneme')return test(S,'Deneme sınavı',karistir(hepsi).slice(0,60),null);
+    if(H.t==='yanlis'){var Y=oku()['y.'+S.id]||[];return test(S,'Yanlışlarım',hepsi.filter(function(q){return Y.indexOf(q._k)>-1}),null)}
+    var x=bul(H.t);if(x)return test(S,x.ad,karistir(x.sorular||[]),'p.'+S.id+'.'+x.id)}
+   if(H.k){var y=bul(H.k);if(y){$('#geri').onclick=function(){git('s='+S.id)};scrollTo(0,0);return konuSayfa(S,y)}}
+   $('#geri').onclick=function(){git('')};scrollTo(0,0);sinavSayfa(S,V)})
+ }).catch(hata)}
+addEventListener('hashchange',ac);ac();
+})();
+</script>
+</body></html>

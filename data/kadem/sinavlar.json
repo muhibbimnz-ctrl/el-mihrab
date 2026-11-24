@@ -1,0 +1,10 @@
+{
+ "sinavlar": [
+  {"id":"mbsts","ad":"DİB-MBSTS","tam":"Mesleki Bilgiler Seviye Tespit Sınavı","kim":"İmam-hatip, müezzin-kayyım, Kur'an kursu öğreticisi, vaiz","bicim":"60 soru · 90 dakika · ÖSYM","renk":"#1d5c4a"},
+  {"id":"dhbt","ad":"DHBT","tam":"Din Hizmetleri Alan Bilgisi Testi","kim":"Diyanet'e ilk kez girecek adaylar","bicim":"ÖSYM","renk":"#6b4a1d"},
+  {"id":"muftu","ad":"Müftü Yardımcılığı","tam":"İl müftü yardımcılığı ve ilçe müftülüğü sınavı","kim":"Kurum içi yükselmek isteyen personel","bicim":"Yazılı + sözlü · Diyanet","renk":"#3d2a5c"},
+  {"id":"uzman","ad":"Din İşleri Uzmanlığı","tam":"Din işleri uzmanlığı ve uzman yardımcılığı sınavları","kim":"Kurum içi ve dışından adaylar","bicim":"Yazılı + sözlü · Diyanet","renk":"#2e3b5c"},
+  {"id":"gys","ad":"Görevde Yükselme","tam":"Görevde Yükselme ve Unvan Değişikliği Sınavı","kim":"Şef, VHKİ ve diğer idari kadrolar","bicim":"Yazılı · Diyanet","renk":"#5a3550"},
+  {"id":"mevzuat","ad":"Mevzuat","tam":"Bütün sınavlar için ortak mevzuat","kim":"Herkes","bicim":"Kanun, yönetmelik, yönerge","renk":"#4a5f6a"}
+ ]
+}
