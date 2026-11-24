@@ -78,22 +78,29 @@ function hata(){M.innerHTML='<div class="bos-kutu">İçerik yüklenemedi. İnter
 function liste(){
  renk('#1d5c4a');$('#bas').textContent='Kadem';document.title='Kadem · el-Mihrâb';$('#geri').onclick=function(){location.href='index.html'};
  al('data/kadem/sinavlar.json').then(function(L){
-  var h='<h1>Kadem</h1><p class="lead">Diyanet personeli için sınav hazırlığı: konu anlatımı, konu testleri, deneme sınavı ve yanlışlarını tekrar.</p><div class="izgara">';
+  var h='<h1>Kadem</h1><p class="lead">Diyanet personeli için sınav hazırlığı: girişten müftülüğe, vaizlikten yurt dışı görevine kadar bütün sınavlar. Konu anlatımı, konu testleri, deneme sınavı ve yanlışlarını tekrar.</p>';
   return Promise.all(L.sinavlar.map(function(s){return sinav(s.id)})).then(function(V){
-   L.sinavlar.forEach(function(s,i){var k=V[i].konular||[],n=0;k.forEach(function(x){n+=(x.sorular||[]).length});
-    h+='<a class="kart" style="--r:'+e(s.renk)+'" href="#s='+e(s.id)+'"><b>'+e(s.ad)+'</b><small>'+e(s.tam)+'</small><small>'+e(s.bicim)+'</small>'+
-     (k.length?'<span class="etk">'+k.length+' konu · '+n+' soru</span>':'<span class="etk bos">Hazırlanıyor</span>')+'</a>'});
-   M.innerHTML=h+'</div>';scrollTo(0,0)})
+   (L.gruplar||[{id:void 0,ad:''}]).forEach(function(g){var S=L.sinavlar.filter(function(s){return s.grup===g.id});if(!S.length)return;
+    h+=(g.ad?'<h2>'+e(g.ad)+'</h2>':'')+'<div class="izgara">';
+    S.forEach(function(s){var k=V[L.sinavlar.indexOf(s)].konular||[],n=0;k.forEach(function(x){n+=(x.sorular||[]).length});
+     h+='<a class="kart" style="--r:'+e(s.renk)+'" href="#s='+e(s.id)+'"><b>'+e(s.ad)+'</b><small>'+e(s.tam)+'</small><small>'+e(s.bicim)+'</small>'+
+      (k.length?'<span class="etk">'+k.length+' konu · '+n+' soru</span>':'<span class="etk bos">Hazırlanıyor</span>')+'</a>'});
+    h+='</div>'});
+   if(L.guncel)h+='<p class="lead" style="margin-top:18px;font-size:13px">Sınav bilgileri '+e(L.guncel)+' itibarıyla resmî duyurulardan derlenmiştir. Başvurmadan önce güncel duyuruyu kontrol et.</p>';
+   M.innerHTML=h;scrollTo(0,0)})
  }).catch(hata)}
 
+function bilgi(S){if(!(S.yapi||[]).length)return'';
+ return'<h2>Sınav hakkında</h2><div class="metin"><ul style="padding-left:20px">'+S.yapi.map(function(y){return'<li style="margin:6px 0">'+e(y)+'</li>'}).join('')+'</ul>'+
+  (S.kaynak&&/^https:\/\//.test(S.kaynak)?'<p style="font-size:13px"><a href="'+e(encodeURI(decodeURI(S.kaynak)))+'" target="_blank" rel="noopener" style="color:var(--acc)">Resmî duyuru / kaynak ›</a></p>':'')+'</div>'}
 function sinavSayfa(S,V){
  var o=oku(),k=V.konular||[],yan=(o['y.'+S.id]||[]).length,top=0;k.forEach(function(x){top+=(x.sorular||[]).length});
  var h='<h1>'+e(S.ad)+'</h1><p class="lead">'+e(S.tam)+'<br>'+e(S.kim)+' · '+e(S.bicim)+'</p>';
- if(!k.length){M.innerHTML=h+'<div class="bos-kutu">Bu sınavın içeriği hazırlanıyor.</div>';return}
+ if(!k.length){M.innerHTML=h+'<div class="bos-kutu">Konu anlatımı ve sorular hazırlanıyor.</div>'+bilgi(S);return}
  h+='<div class="dugmeler"><button class="btn" id="dene"'+(top?'':' disabled')+'>Deneme sınavı</button><button class="btn ik" id="yan"'+(yan?'':' disabled')+'>Yanlışlarım ('+yan+')</button></div><h2>Konular</h2>';
  k.forEach(function(x,i){var p=o['p.'+S.id+'.'+x.id];
   h+='<a class="satir" href="#s='+e(S.id)+'&k='+e(x.id)+'"><span class="no">'+(i+1)+'</span><span>'+e(x.ad)+(x.ders?'<br><small>'+e(x.ders)+'</small>':'')+'</span><small>'+((x.sorular||[]).length?(x.sorular.length+' soru'+(p!=null?' · %'+p:'')):'')+'</small></a>'});
- M.innerHTML=h;
+ M.innerHTML=h+bilgi(S);
  $('#dene').onclick=function(){git('s='+S.id+'&t=deneme')};$('#yan').onclick=function(){git('s='+S.id+'&t=yanlis')}}
 
 function konuSayfa(S,x){

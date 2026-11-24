@@ -6,7 +6,8 @@ Yeni bir sohbete başlarken: "el-mihrab deposundaki KADEM-NOTLAR.md dosyasını 
 ## Yapı
 - Sayfa: `kadem.html` (ana sayfadaki "Kadem" kutucuğu buraya açılır)
 - Sınav listesi: `data/kadem/sinavlar.json`
-- Her sınavın içeriği: `data/kadem/<id>.json` (id: mbsts, dhbt, muftu, uzman, gys, mevzuat)
+- Her sınavın içeriği: `data/kadem/<id>.json` — id'ler `sinavlar.json` içinde (dhbt, aday, mbsts, kbys, kurumici, ihtisas, vaizlik, ilcemuftu, muftuyrd, egitimgorevlisi, gys, murakip, diyk, diu, mufettis, yurtdisi, musavir, mevzuat, arapca)
+- `sinavlar.json`'da her sınavın `grup`, `yapi` (resmî biçim/konu maddeleri) ve `kaynak` (resmî duyuru linki) alanları var; sınav sayfasında "Sınav hakkında" olarak görünür
 - Çevrimdışı: `sw.js` içinde kabuğa eklendi; `data/kadem/` önce ağdan, yoksa telefondaki kopyadan gelir
 
 ### `data/kadem/<id>.json` biçimi
@@ -31,8 +32,15 @@ Yeni bir sohbete başlarken: "el-mihrab deposundaki KADEM-NOTLAR.md dosyasını 
 - İskelet kuruldu: kutucuk, `kadem.html`, sınav listesi, test motoru. Henüz konu ve soru yok.
 - Sınavlar: DİB-MBSTS (60 soru · 90 dk · ÖSYM), DHBT, Müftü Yardımcılığı, Din İşleri Uzmanlığı, Görevde Yükselme, Mevzuat.
 
+### 2. oturum — 24 Kasım 2026
+- Diyanet'teki sınavlar resmî kaynaklardan (ÖSYM, Diyanet İK, Dış İlişkiler, Diyanet Akademisi, mevzuat.gov.tr) tarandı.
+- 19 sınav/ders, 7 grupta listelendi: Giriş (DHBT, aday din görevlisi sözlüsü) · Kariyer (MBSTS, kariyer basamakları, kurum içi unvan geçişi) · İhtisas ve vaizlik (yüksek ihtisas kursiyer seçimi, vaizliğe giriş) · Müftülük ve yönetim (ilçe müftülüğü, il müftü yardımcılığı, eğitim görevliliği, görevde yükselme, murakıplık) · Merkez (DİYK uzman yrd., Diyanet işleri uzman yrd., müfettiş yrd.) · Yurt dışı (uzun süreli din görevlisi, müşavirlik/ataşelik) · Ortak (mevzuat, Arapça).
+- Her sınava resmî biçim, konu/puan dağılımı ve kaynak linki eklendi.
+- İl müftülüğü sınavla değil, atama ile gelinen bir görev; ayrı sınavı yok.
+- Bilgiler Kasım 2026 itibarıyla; her içerik yazımından önce o sınavın en güncel duyurusu yeniden kontrol edilmeli.
+
 ### Sıradaki iş
-- Kullanıcı kitaplarını yükleyecek; hangi sınavla başlanacağını seçecek.
+- Kullanıcı kitaplarını yükleyecek; hangi sınavla başlanacağını seçecek. Öneri: önce MBSTS (en geniş kitle, puanı kariyer ve yurt dışında da kullanılıyor), sonra ilçe müftülüğü / müftü yardımcılığı / kariyer basamakları (konuları ortak), ardından DHBT.
 - O sınavın güncel konu dağılımı resmî kaynaktan (ÖSYM kılavuzu / Diyanet duyurusu) doğrulanacak.
 - Konu konu anlatım ve sorular `data/kadem/<id>.json` dosyasına yazılacak.
 - Açık konu: bölüm ücretli mi olacak? Uygulamada şu an ödeme sistemi yok.
