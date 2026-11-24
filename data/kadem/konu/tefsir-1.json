@@ -1,0 +1,471 @@
+{
+ "id": "tefsir-1",
+ "ad": "Ulûmü’l-Kur’ân ve Tefsir Usulü",
+ "ders": "Tefsir",
+ "sinavlar": [
+  "mbsts",
+  "dhbt"
+ ],
+ "oncelik": 3,
+ "anlatim": [
+  "Ulûmü’l-Kur’ân, Kur’an’ın doğru anlaşılması için gerekli bilgileri inceleyen ilimlerin genel adıdır: nüzul sebepleri, mekkî-medenî, nâsih-mensûh, muhkem-müteşâbih, garîb kelimeler, kıraatler, i’câz ve benzerleri. Tefsir, Kur’an ayetlerinin anlamını insan gücü ölçüsünde açıklamak; te’vil ise lafzı, muhtemel anlamlarından delille birine yöneltmektir.",
+  {
+   "b": "1. Mekkî ve medenî"
+  },
+  "En yaygın ölçüte göre hicretten önce inen ayetler mekkî, sonra inenler medenîdir (zaman ölçütü). Mekân ölçütüne göre Mekke’de inen mekkî, Medine’de inen medenîdir. Hitap ölçütünde “Ey insanlar!” hitabı daha çok mekkî, “Ey iman edenler!” hitabı medenî ayetlerde görülür.",
+  {
+   "tablo": [
+    [
+     "Mekkî ayetlerin özellikleri",
+     "Medenî ayetlerin özellikleri"
+    ],
+    [
+     "Kısa ve vurgulu ayetler",
+     "Uzun ayetler"
+    ],
+    [
+     "Tevhid, ahiret, nübüvvet, ahlak",
+     "İbadet, muamelat, aile ve ceza hükümleri"
+    ],
+    [
+     "Önceki peygamberlerin kıssaları",
+     "Münafıklar ve ehl-i kitapla ilişkiler"
+    ],
+    [
+     "“Kellâ” kelimesi, secde ayetlerinin çoğu, hurûf-ı mukattaa ile başlayan surelerin çoğu",
+     "Cihat ve savaş izni"
+    ]
+   ]
+  },
+  "Ayetler iniş zaman ve yerine göre de adlandırılmıştır: hadarî (Hz. Peygamber yerleşikken) – seferî (yolculukta), nehârî (gündüz) – leylî (gece), sayfî (yazın) – şitâî (kışın), firâşî (Hz. Peygamber yatağındayken; ör. Mâide 5/67), arzî (yeryüzünde) – semâî (gökte).",
+  {
+   "b": "2. Nüzul sebebi (esbâb-ı nüzûl)"
+  },
+  "Bir ayetin inmesine vesile olan olay veya soruya nüzul sebebi denir. Nüzul sebebini bilmek ayetin anlamını ve kapsamını doğru anlamaya yardım eder. Temel kural: “Hüküm, sebebin özel oluşuna göre değil, lafzın genel oluşuna göre alınır.” Alanın klasik eseri Vâhidî’nin Esbâbü’n-nüzûl’üdür.",
+  {
+   "b": "3. Nâsih ve mensûh"
+  },
+  "Bir şer’î hükmün, sonradan gelen başka bir şer’î delille kaldırılmasına nesih denir. Kaldıran nâsih, kaldırılan mensûhtur. Neshin varlığı ve kapsamı âlimler arasında tartışmalıdır; Ebû Müslim el-İsfahânî Kur’an’da neshi kabul etmemiştir. İçki yasağının aşamalı gelmesi (Bakara 2/219 → Nisâ 4/43 → Mâide 5/90) tedrîcin bilinen örneğidir.",
+  {
+   "b": "4. Muhkem ve müteşâbih"
+  },
+  {
+   "ayet": "Sana Kitab’ı indiren O’dur. Onun bazı ayetleri muhkemdir; bunlar Kitab’ın anasıdır. Diğerleri de müteşâbihtir.",
+   "kay": "Âl-i İmrân, 3/7"
+  },
+  "Anlamı açık, tek anlama gelen ayetler muhkem; birden çok anlama ihtimali olan veya anlamı insan bilgisinin sınırlarını aşan ayetler müteşâbihtir. Hurûf-ı mukattaa ve Allah’ın sıfatlarıyla ilgili bazı ifadeler (yed, istivâ) müteşâbih örnekleridir. Selef bu ayetleri tevil etmeden olduğu gibi kabul etmiş (tefvîz), halef ise dile ve akla uygun biçimde tevil etmiştir.",
+  {
+   "b": "5. Kelime ve ifade ilimleri"
+  },
+  {
+   "tablo": [
+    [
+     "İlim",
+     "Konusu",
+     "Örnek / eser"
+    ],
+    [
+     "Garîbü’l-Kur’ân",
+     "Az kullanılan, anlaşılması güç kelimeler",
+     "Râğıb el-İsfahânî, el-Müfredât"
+    ],
+    [
+     "Mübhemâtü’l-Kur’ân",
+     "Kur’an’da adı verilmeyen kişi, yer ve zaman",
+     "Hz. Mûsâ’nın yol arkadaşı genç ve bilge kul (Hızır) rivayetlerle belirlenmiştir"
+    ],
+    [
+     "Müşkilü’l-Kur’ân",
+     "Birbiriyle çelişkili görünen ayetler",
+     "Mûsâ’ya verilen sürenin 30 ve 40 gece olarak geçmesi"
+    ],
+    [
+     "Vücûh ve nezâir",
+     "Bir kelimenin farklı yerlerdeki farklı anlamları",
+     "“Hüdâ” kelimesinin beyan, din, iman anlamları"
+    ],
+    [
+     "Muarrab",
+     "Arapçaya başka dillerden geçmiş kelimeler",
+     "Sînîn (Tûr), istebrak, sicill"
+    ],
+    [
+     "Emsâlü’l-Kur’ân",
+     "Benzetmeler ve meseller",
+     "Bakara 2/264"
+    ],
+    [
+     "Aksâmü’l-Kur’ân",
+     "Kur’an’daki yeminler",
+     "Şems, Tîn surelerinin başları"
+    ],
+    [
+     "İ’câzü’l-Kur’ân",
+     "Kur’an’ın benzerinin getirilemeyişi",
+     "Bâkıllânî, İ’câzü’l-Kur’ân; Abdülkāhir el-Cürcânî, Delâilü’l-i’câz. Nazzâm’ın sarfe görüşü"
+    ]
+   ]
+  },
+  "Siyak ve sibak, bir ifadenin anlamını önceki ve sonraki ifadelerden (bağlamdan) hareketle belirlemektir. Örneğin Yûsuf 12/31’de geçen “müttekeen” kelimesini Mücâhid, ayetin devamında bıçaktan söz edilmesinden hareketle bıçakla kesilen bir meyve (turunç) olarak yorumlamıştır.",
+  {
+   "b": "6. Tefsirde kaynak sırası ve tercüme"
+  },
+  "Kur’an’ı en iyi açıklayan yine Kur’an’dır; ardından Hz. Peygamber’in sünneti, sahabe ve tâbiûnun açıklamaları ve Arap dili gelir. Kur’an’ın kendi bilgisinden hareketle yapılan tefsire tefsîr bi’r-rivâye (me’sûr), ilmî donanıma dayalı akıl yürütmeyle yapılan tefsire tefsîr bi’r-re’y (dirâye) denir. Re’y tefsirinin ilmî şartlara uyanı mahmûd (övülen), uymayanı mezmûm (yerilen) kabul edilir.",
+  "Kur’an’ın başka bir dile aktarılmasına tercüme denir. Kelimesi kelimesine yapılan lafzî (harfî) tercüme Kur’an için mümkün görülmez; anlamın aktarıldığı tefsîrî tercümeye meal denir.",
+  {
+   "b": "7. Ulûmü’l-Kur’ân’ın temel eserleri"
+  },
+  {
+   "tablo": [
+    [
+     "Eser",
+     "Müellif"
+    ],
+    [
+     "el-Burhân fî ulûmi’l-Kur’ân",
+     "Zerkeşî (794)"
+    ],
+    [
+     "el-İtkân fî ulûmi’l-Kur’ân",
+     "Süyûtî (911)"
+    ],
+    [
+     "Menâhilü’l-irfân",
+     "Zürkânî (1948)"
+    ],
+    [
+     "Esbâbü’n-nüzûl",
+     "Vâhidî (468)"
+    ]
+   ]
+  }
+ ],
+ "ozet": [
+  "Mekkî-medenî: zaman ölçütü en yaygın (hicret öncesi/sonrası). Mekkî: kısa ayet, tevhid, ahiret, kıssa, “kellâ”. Medenî: ahkâm, münafık, ehl-i kitap, cihat.",
+  "Nüzul zamanı-mekânı terimleri: hadarî/seferî, nehârî/leylî, sayfî/şitâî, firâşî (yatakta), arzî/semâî.",
+  "Esbâb-ı nüzûl: “Hüküm lafzın umumuna göredir, sebebin hususuna göre değil.” Vâhidî.",
+  "Nesih: sonraki delille hükmün kaldırılması; Ebû Müslim el-İsfahânî karşı çıktı. İçki yasağında tedrîc.",
+  "Muhkem (açık) – müteşâbih (çok anlamlı veya bilgi sınırını aşan) (Âl-i İmrân 3/7). Selef tefvîz, halef tevil.",
+  "Garîb: Râğıb el-İsfahânî. Mübhem: adı verilmeyen kişi ve yer. Müşkil: çelişkili görünen. Muarrab: yabancı kökenli. Vücûh-nezâir: çok anlamlılık.",
+  "Siyak-sibak: bağlamdan anlam (Mücâhid, “müttekeen”).",
+  "İ’câz: Bâkıllânî, Cürcânî (Delâilü’l-i’câz); sarfe: Nazzâm.",
+  "Kaynak sırası: Kur’an → sünnet → sahabe → tâbiûn → dil. Rivayet ve dirayet tefsiri; mahmûd ve mezmûm re’y.",
+  "Meal = tefsîrî tercüme. Eserler: Zerkeşî Burhân, Süyûtî İtkân, Zürkânî Menâhil."
+ ],
+ "kartlar": [
+  {
+   "o": "Mekkî-medenîde en yaygın ölçüt",
+   "a": "Zaman: hicretten önce mekkî, sonra medenî"
+  },
+  {
+   "o": "Firâşî ayet",
+   "a": "Hz. Peygamber yatağındayken inen ayet"
+  },
+  {
+   "o": "Esbâb-ı nüzûl kuralı",
+   "a": "Hüküm lafzın umumuna göre alınır, sebebin hususuna göre değil"
+  },
+  {
+   "o": "Neshi reddeden müfessir",
+   "a": "Ebû Müslim el-İsfahânî"
+  },
+  {
+   "o": "Muhkem ve müteşâbih ayeti",
+   "a": "Âl-i İmrân, 3/7"
+  },
+  {
+   "o": "el-Müfredât",
+   "a": "Râğıb el-İsfahânî; garîbü’l-Kur’ân"
+  },
+  {
+   "o": "Mübhemâtü’l-Kur’ân",
+   "a": "Kur’an’da adı verilmeyen kişi ve yerler"
+  },
+  {
+   "o": "Müşkilü’l-Kur’ân",
+   "a": "Birbiriyle çelişkili görünen ayetler"
+  },
+  {
+   "o": "Siyak ve sibak",
+   "a": "Bağlamdan hareketle anlam belirleme"
+  },
+  {
+   "o": "Sarfe",
+   "a": "Nazzâm’ın i’câz görüşü: Allah insanları benzerini getirmekten alıkoydu"
+  },
+  {
+   "o": "el-İtkân",
+   "a": "Süyûtî; ulûmü’l-Kur’ân"
+  },
+  {
+   "o": "Meal",
+   "a": "Tefsîrî tercüme"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "t1-01",
+   "z": 1,
+   "s": "Hicretten önce inen ayetlere mekkî, sonra inenlere medenî denmesi hangi ölçüte dayanır?",
+   "c": [
+    "Mekân",
+    "Hitap",
+    "Zaman",
+    "Konu",
+    "Uzunluk"
+   ],
+   "d": 2,
+   "a": "En yaygın ölçüt zamandır: hicret öncesi mekkî, sonrası medenîdir.",
+   "ac": [
+    "Mekân ölçütünde yer esas alınır.",
+    "Hitap ölçütünde “Ey insanlar / Ey iman edenler” esas alınır.",
+    "Doğru.",
+    "Konu bir ölçüt değil, özelliktir.",
+    "Uzunluk bir ölçüt değildir."
+   ],
+   "kay": "Süyûtî, el-İtkân"
+  },
+  {
+   "id": "t1-02",
+   "z": 1,
+   "s": "Hz. Peygamber yatağında iken nazil olan ayetleri adlandırmak için kullanılan kavram hangisidir?",
+   "c": [
+    "Şitâî",
+    "Firâşî",
+    "Hadarî",
+    "Semâî",
+    "Nehârî"
+   ],
+   "d": 1,
+   "a": "Yatakta iken inen ayetlere firâşî denir; Mâide 5/67 örnek gösterilir.",
+   "ac": [
+    "Kışın inen ayettir.",
+    "Doğru.",
+    "Yerleşik iken inen ayettir.",
+    "Gökte inen ayettir.",
+    "Gündüz inen ayettir."
+   ],
+   "kay": "Süyûtî, el-İtkân"
+  },
+  {
+   "id": "t1-03",
+   "z": 1,
+   "s": "Kur’an’daki anlaşılması güç ve az kullanılan kelimeleri açıklayan Râğıb el-İsfahânî’nin el-Müfredât adlı eseri hangi ilim dalına aittir?",
+   "c": [
+    "Garîbü’l-Kur’ân",
+    "Nâsih-mensûh",
+    "Esbâb-ı nüzûl",
+    "Aksâmü’l-Kur’ân",
+    "Kıraat"
+   ],
+   "d": 0,
+   "a": "el-Müfredât, garîbü’l-Kur’ân alanının en bilinen eseridir.",
+   "ac": [
+    "Doğru.",
+    "İlgisizdir.",
+    "Vâhidî’nin alanıdır.",
+    "Yeminleri inceler.",
+    "İlgisizdir."
+   ],
+   "kay": "Râğıb el-İsfahânî, el-Müfredât"
+  },
+  {
+   "id": "t1-04",
+   "z": 2,
+   "s": "Yûsuf Suresi 31. ayette geçen “müttekeen” kelimesi yaslanılacak minder anlamına gelir. Ancak Mücâhid, ayetin devamında bıçaktan söz edilmesinden hareketle bu kelimeye bıçakla kesilmesi gereken bir meyve (turunç) anlamı vermiştir.\n\nMücâhid’in bu yorumunda kullandığı yöntem hangisidir?",
+   "c": [
+    "Nüzul sebebi",
+    "Dil bilgisi kuralları",
+    "Mübhemâtü’l-Kur’ân",
+    "Nâsih ve mensûh",
+    "Siyak ve sibak"
+   ],
+   "d": 4,
+   "a": "Mücâhid, kelimenin anlamını ayetin bağlamından (siyak-sibak) hareketle belirlemiştir.",
+   "ac": [
+    "Bir olay veya soru söz konusu değil.",
+    "Dil bilgisi kuralına dayanmıyor.",
+    "Adı verilmeyen kişi veya yer yok.",
+    "Hüküm kaldırılması yok.",
+    "Doğru."
+   ],
+   "kay": "Yûsuf, 12/31"
+  },
+  {
+   "id": "t1-05",
+   "z": 2,
+   "s": "Bir ayetin belirli bir olay üzerine inmesi, hükmünün yalnız o olayla sınırlı olduğu anlamına gelmez. Bu durum tefsir usulündeki hangi kuralla ifade edilir?",
+   "c": [
+    "Kur’an’ı Kur’an’la tefsir etmek gerekir.",
+    "Müteşâbih ayetler muhkemlere göre yorumlanır.",
+    "Mekkî ayetler medenîlerden önce gelir.",
+    "Hüküm, sebebin özel oluşuna göre değil, lafzın genel oluşuna göre alınır.",
+    "Sonraki ayet öncekinin hükmünü kaldırır."
+   ],
+   "d": 3,
+   "a": "Esbâb-ı nüzûlün temel kuralı: lafzın umumu esastır, sebebin hususu değil.",
+   "ac": [
+    "Doğru bir ilkedir ama sorulan konuyla ilgili değildir.",
+    "Muhkem-müteşâbih ilişkisidir.",
+    "İlgisizdir.",
+    "Doğru.",
+    "Nesihle ilgilidir."
+   ],
+   "kay": "Süyûtî, el-İtkân: esbâbü’n-nüzûl"
+  },
+  {
+   "id": "t1-06",
+   "z": 2,
+   "s": "Kur’an’da adı verilmeyen kişi, yer ve zamanları belirlemeye çalışan ilim dalı hangisidir? Hz. Mûsâ’nın yolculuğunda karşılaştığı bilge kulun Hızır olduğunun rivayetlerle belirlenmesi bu alana örnektir.",
+   "c": [
+    "Garîbü’l-Kur’ân",
+    "Müşkilü’l-Kur’ân",
+    "Mübhemâtü’l-Kur’ân",
+    "Vücûh ve nezâir",
+    "Emsâlü’l-Kur’ân"
+   ],
+   "d": 2,
+   "a": "Kur’an’da ismi açıkça geçmeyenleri belirlemeye mübhemâtü’l-Kur’ân denir.",
+   "ac": [
+    "Kelime anlamlarıyla ilgilidir.",
+    "Çelişkili görünen ayetlerle ilgilidir.",
+    "Doğru.",
+    "Kelimenin farklı anlamlarıyla ilgilidir.",
+    "Benzetmelerle ilgilidir."
+   ],
+   "kay": "Kehf, 18/60-82"
+  },
+  {
+   "id": "t1-07",
+   "z": 2,
+   "s": "Âl-i İmrân Suresi 7. ayette Kur’an ayetlerinin iki türe ayrıldığı bildirilir. Bunlardan anlamı açık olup “Kitab’ın anası” diye nitelenen ayetlere ne ad verilir?",
+   "c": [
+    "Müteşâbih",
+    "Mücmel",
+    "Mensûh",
+    "Muhkem",
+    "Mübhem"
+   ],
+   "d": 3,
+   "a": "Anlamı açık, tek anlamlı ve Kitab’ın anası olarak nitelenen ayetler muhkemdir.",
+   "ac": [
+    "Diğer türdür.",
+    "Açıklamaya muhtaç kapalı lafızdır.",
+    "Hükmü kaldırılmış ayettir.",
+    "Doğru.",
+    "Adı verilmeyen kişi veya yerdir."
+   ],
+   "kay": "Âl-i İmrân, 3/7"
+  },
+  {
+   "id": "t1-08",
+   "z": 2,
+   "s": "Kur’an’ın benzerinin getirilememesinin sebebini, Allah’ın insanları buna karşı koymaktan alıkoymasına (sarfe) bağlayan âlim kimdir?",
+   "c": [
+    "Bâkıllânî",
+    "Abdülkāhir el-Cürcânî",
+    "Süyûtî",
+    "Zerkeşî",
+    "Nazzâm"
+   ],
+   "d": 4,
+   "a": "Sarfe görüşü Mu’tezile âlimi Nazzâm’a nispet edilir. Âlimlerin çoğu i’câzı Kur’an’ın kendi dil ve muhteva üstünlüğünde görmüştür.",
+   "ac": [
+    "İ’câzü’l-Kur’ân yazarıdır; sarfeyi savunmaz.",
+    "Nazım teorisini savunur.",
+    "el-İtkân yazarıdır.",
+    "el-Burhân yazarıdır.",
+    "Doğru."
+   ],
+   "kay": "İ’câzü’l-Kur’ân literatürü"
+  },
+  {
+   "id": "t1-09",
+   "z": 3,
+   "s": "Kur’an’da Allah’ın Hz. Mûsâ ile sözleşmesi bir ayette 40 gece, başka bir ayette 30 gece ve buna eklenen 10 gece olarak anlatılır. Hz. Mûsâ’nın yol arkadaşı gencin ve bilge kulun adları Kur’an’da verilmemiş, rivayetlerle belirlenmiştir. Tûr Dağı için kullanılan “Sînîn” kelimesinin aslının Arapça olmadığı söylenmiştir. Mûsâ ile Firavun arasındaki mücadele de Kur’an’da uzun uzun anlatılır.\n\nBu metinde aşağıdaki kavramlardan hangisine örnek verilmemiştir?",
+   "c": [
+    "Mecaz",
+    "Mübhem",
+    "Muarrab",
+    "Müşkil",
+    "Kıssa"
+   ],
+   "d": 0,
+   "a": "30 ve 40 gece meselesi müşkil, adı verilmeyen kişiler mübhem, “Sînîn” muarrab, Mûsâ-Firavun mücadelesi kıssadır. Mecaza örnek yoktur.",
+   "ac": [
+    "Doğru: mecaz örneği yoktur.",
+    "Adı verilmeyen kişiler mübhemdir.",
+    "Yabancı kökenli kelime muarrabdır.",
+    "Çelişki gibi görünen süre müşkildir.",
+    "Mûsâ-Firavun anlatısı kıssadır."
+   ],
+   "kay": "Bakara, 2/51; A’râf, 7/142; Tîn, 95/2"
+  },
+  {
+   "id": "t1-10",
+   "z": 3,
+   "s": "Mekkî ve medenî ayetlerin özellikleriyle ilgili hangisi yanlıştır?",
+   "c": [
+    "Mekkî ayetlerde tevhid ve ahiret konuları ağırlıktadır.",
+    "Miras, nikâh ve ceza hükümleri çoğunlukla mekkî ayetlerde yer alır.",
+    "“Kellâ” kelimesinin geçtiği ayetler mekkîdir.",
+    "Mekkî ayetler genellikle kısa ve vurguludur.",
+    "Münafıklardan söz eden ayetler genellikle medenîdir."
+   ],
+   "d": 1,
+   "a": "Ayrıntılı ahkâm medenî ayetlerde yer alır; mekkî ayetler daha çok iman esaslarını işler.",
+   "ac": [
+    "Doğru bilgi.",
+    "Yanlış: bu hükümler medenîdir.",
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Doğru bilgi."
+   ],
+   "kay": "Süyûtî, el-İtkân"
+  },
+  {
+   "id": "t1-11",
+   "z": 3,
+   "s": "Emzirmeyle ilgili Bakara 2/233’ü yalnızca rivayet tefsirlerinden araştıran bir öğrencinin bu kaynaklarda öncelikle aşağıdaki sorulardan hangisinin cevabını bulması beklenmez?",
+   "c": [
+    "Annenin bakım masraflarının babaya ait olması değişen örfe göre yeniden değerlendirilebilir mi?",
+    "Kur’an’da bu konuda benzer içerikli ayetler var mıdır?",
+    "Bu ayet bir olay üzerine mi inmiştir?",
+    "Hz. Peygamber’in emzirme süresiyle ilgili bir hadisi var mıdır?",
+    "Bu ayetle ilgili sahabe ve tâbiûn ne söylemiştir?"
+   ],
+   "d": 0,
+   "a": "Rivayet tefsirleri nüzul sebeplerini, Kur’an’ın ve sünnetin açıklamalarını, sahabe ve tâbiûn görüşlerini aktarır. Hükmün değişen şartlara göre yeniden yorumlanması dirayet ve içtihat konusudur.",
+   "ac": [
+    "Doğru: bu, güncel bir içtihat sorusudur.",
+    "Kur’an’ı Kur’an’la tefsir rivayet tefsirinin ilk adımıdır.",
+    "Nüzul sebebi rivayet tefsirinde bulunur.",
+    "Hadisler rivayet tefsirinin kaynağıdır.",
+    "Sahabe ve tâbiûn görüşleri rivayet tefsirinin kaynağıdır."
+   ],
+   "kay": "Bakara, 2/233"
+  },
+  {
+   "id": "t1-12",
+   "z": 3,
+   "s": "Aşağıdaki eser – müellif eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "el-Burhân fî ulûmi’l-Kur’ân – Zerkeşî",
+    "el-İtkân fî ulûmi’l-Kur’ân – Süyûtî",
+    "Esbâbü’n-nüzûl – Vâhidî",
+    "Delâilü’l-i’câz – Abdülkāhir el-Cürcânî",
+    "el-Müfredât – Zemahşerî"
+   ],
+   "d": 4,
+   "a": "el-Müfredât Râğıb el-İsfahânî’nindir; Zemahşerî’nin meşhur tefsiri el-Keşşâf’tır.",
+   "ac": [
+    "Doğru.",
+    "Doğru.",
+    "Doğru.",
+    "Doğru.",
+    "Yanlış."
+   ],
+   "kay": "Ulûmü’l-Kur’ân literatürü"
+  }
+ ]
+}

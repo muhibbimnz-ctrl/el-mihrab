@@ -13,20 +13,14 @@
     "soru": 7,
     "uniteler": [
      {
-      "ad": "Vahiy ve Kur’an tarihi: nüzul, cem’, istinsah, mushafın yazımı ve harekelenmesi",
-      "oncelik": 2
+      "ad": "Vahiy, Kur’an Tarihi ve Kur’an’ın Yapısı",
+      "oncelik": 3,
+      "konu": "kuran-1"
      },
      {
-      "ad": "Kur’an’ın yapısı: sure ve ayet bilgisi, sure adları, kıssalar, meseller, helak edilen kavimler",
-      "oncelik": 3
-     },
-     {
-      "ad": "Tecvid 1: harfler, sıfatlar, medler",
-      "oncelik": 3
-     },
-     {
-      "ad": "Tecvid 2: sakin nun ve tenvin, sakin mim, idgamlar, ra ve lam, vakıf (revm, işmam), kıraatler",
-      "oncelik": 3
+      "ad": "Tecvid",
+      "oncelik": 3,
+      "konu": "kuran-2"
      }
     ]
    },
@@ -35,20 +29,14 @@
     "soru": 7,
     "uniteler": [
      {
-      "ad": "Ulûmü’l-Kur’an: mekkî-medenî, nüzul sebepleri, nesh, muhkem-müteşabih, garîb, mübhem, siyak-sibak",
-      "oncelik": 3
+      "ad": "Ulûmü’l-Kur’ân ve Tefsir Usulü",
+      "oncelik": 3,
+      "konu": "tefsir-1"
      },
      {
-      "ad": "Tefsir tarihi: sahabe ve tâbiûn müfessirleri, tefsir merkezleri",
-      "oncelik": 3
-     },
-     {
-      "ad": "Tefsir çeşitleri ve eserleri: rivayet, dirayet, işârî, mezhebî, fıkhî, ilmî, çağdaş tefsir",
-      "oncelik": 3
-     },
-     {
-      "ad": "Tefsir usulü, meal ve tercüme",
-      "oncelik": 2
+      "ad": "Tefsir Tarihi, Tefsir Ekolleri ve Eserleri",
+      "oncelik": 3,
+      "konu": "tefsir-2"
      }
     ]
    },
@@ -204,6 +192,18 @@
   ]
  },
  "konular": [
+  {
+   "ref": "kuran-1"
+  },
+  {
+   "ref": "kuran-2"
+  },
+  {
+   "ref": "tefsir-1"
+  },
+  {
+   "ref": "tefsir-2"
+  },
   {
    "ref": "fikih-1"
   },
