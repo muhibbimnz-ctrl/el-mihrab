@@ -144,7 +144,34 @@
   {
    "b": "7. Özür sahibi (mâzur)"
   },
-  "Bir namaz vakti boyunca abdest alıp o vaktin farzını kılacak kadar bir süre özrü (idrar kaçırma, sürekli kanama, yel) kesilmeyen kişiye özür sahibi denir. Her vakit için abdest alır ve o abdestle vakit içinde dilediği kadar namaz kılar. Vaktin çıkmasıyla abdesti bozulur. Özrü, sonraki vakitlerde bir kez bile görülse özürlülük devam eder."
+  "Bir namaz vakti boyunca abdest alıp o vaktin farzını kılacak kadar bir süre özrü (idrar kaçırma, sürekli kanama, yel) kesilmeyen kişiye özür sahibi denir. Her vakit için abdest alır ve o abdestle vakit içinde dilediği kadar namaz kılar. Vaktin çıkmasıyla abdesti bozulur. Özrü, sonraki vakitlerde bir kez bile görülse özürlülük devam eder.",
+  {
+   "b": "Sık sorulan ek bilgiler"
+  },
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Bilgi"
+    ],
+    [
+     "Mestin meshi",
+     "Her ayağın üstüne, elin küçük üç parmağı kadar; mestin altı meshedilmez"
+    ],
+    [
+     "Nifas",
+     "En uzun 40 gün; en az süre için sınır yok"
+    ],
+    [
+     "Teyemmümün farzları (Hanefî)",
+     "Niyet ve iki darp: biriyle yüz, diğeriyle dirseklerle birlikte kollar"
+    ],
+    [
+     "Gusül gerektirmeyenler",
+     "Ölü yıkamak, cuma ve bayram için yıkanmak (bunlar sünnet ya da müstehap guslü)"
+    ]
+   ]
+  }
  ],
  "ozet": [
   "Mutlak su tâhir ve mutahhir; mukayyed su temiz ama temizleyici değil; müstamel su (fetva) temiz ama temizleyici değil.",
@@ -220,17 +247,17 @@
    "c": [
     "Yüzü yıkamak",
     "Elleri dirseklerle birlikte yıkamak",
-    "Başın dörtte birini meshetmek",
     "Ağza ve buruna su vermek",
+    "Başın dörtte birini meshetmek",
     "Ayakları topuklarla birlikte yıkamak"
    ],
-   "d": 3,
+   "d": 2,
    "a": "Ağza ve buruna su vermek abdestte sünnettir; gusülde ise farzdır.",
    "ac": [
     "Farzdır.",
     "Farzdır.",
-    "Farzdır.",
     "Doğru: abdestte sünnettir.",
+    "Farzdır.",
     "Farzdır."
    ],
    "kay": "Mâide, 5/6"
@@ -242,18 +269,18 @@
    "c": [
     "Niyet ve bütün bedeni yıkamak",
     "Niyet, tertip, bütün bedeni yıkamak",
-    "Ağza su vermek, buruna su vermek, bütün bedeni yıkamak",
+    "Ağza su vermek ve başı meshetmek",
     "Besmele, abdest almak, bütün bedeni yıkamak",
-    "Ağza su vermek ve başı meshetmek"
+    "Ağza su vermek, buruna su vermek, bütün bedeni yıkamak"
    ],
-   "d": 2,
+   "d": 4,
    "a": "Hanefîlerde guslün üç farzı mazmaza, istinşak ve bütün bedenin yıkanmasıdır. Niyet ve bedeni yıkamak Şâfiî görüşüdür.",
    "ac": [
     "Şâfiî görüşüdür.",
     "Tertip guslün farzı değildir.",
-    "Doğru.",
+    "Eksik ve yanlıştır.",
     "Besmele ve abdest sünnettir.",
-    "Eksik ve yanlıştır."
+    "Doğru."
    ],
    "kay": "Hanefî ilmihali: gusül"
   },
@@ -262,20 +289,20 @@
    "z": 1,
    "s": "Gül suyu, karpuz suyu gibi bir şeye nispet edilerek anılan sularla ilgili hangisi doğrudur?",
    "c": [
-    "Hem temiz hem temizleyicidir",
+    "Temizdir ama abdest ve gusülde kullanılmaz",
     "Yalnızca gusülde kullanılabilir",
     "Necistir",
     "Az miktarı abdestte kullanılabilir",
-    "Temizdir ama abdest ve gusülde kullanılmaz"
+    "Hem temiz hem temizleyicidir"
    ],
-   "d": 4,
+   "d": 0,
    "a": "Mukayyed sular temizdir ama hadesi gidermez; bunlarla abdest alınmaz.",
    "ac": [
-    "Bu mutlak suyun özelliğidir.",
+    "Doğru.",
     "Gusülde de kullanılmaz.",
     "Necis değildir.",
     "Miktarı fark etmez.",
-    "Doğru."
+    "Bu mutlak suyun özelliğidir."
    ],
    "kay": "Hanefî ilmihali: sular"
   },
@@ -284,20 +311,20 @@
    "z": 2,
    "s": "Hanefî mezhebine göre aşağıdakilerden hangisi abdesti bozmaz?",
    "c": [
-    "Eşine şehvetsiz dokunmak",
+    "Bayılmak",
     "Ağız dolusu kusmak",
     "Yan yatarak uyumak",
     "Burundan kan gelip akması",
-    "Bayılmak"
+    "Eşine şehvetsiz dokunmak"
    ],
-   "d": 0,
+   "d": 4,
    "a": "Hanefîlere göre kadına dokunmak abdesti bozmaz; Şâfiîlere göre bozar.",
    "ac": [
-    "Doğru.",
+    "Bayılmak bozar.",
     "Ağız dolusu kusmak bozar.",
     "Yaslanarak veya yatarak uyumak bozar.",
     "Akan kan abdesti bozar.",
-    "Bayılmak bozar."
+    "Doğru."
    ],
    "kay": "Hanefî ilmihali: abdesti bozanlar"
   },
@@ -308,18 +335,18 @@
    "c": [
     "Galiza – bir dirhemden az",
     "Galiza – dörtte birden az",
-    "Necaset sayılmaz",
+    "Hafife – dörtte birden az",
     "Hafife – bir dirhemden az",
-    "Hafife – dörtte birden az"
+    "Necaset sayılmaz"
    ],
-   "d": 4,
+   "d": 2,
    "a": "Eti yenen hayvanların idrarı hafif necasettir; bulaştığı elbise parçasının dörtte birinden azı affedilir.",
    "ac": [
     "Galiza değildir.",
     "Hafif necasettir; miktar doğru ama tür yanlış.",
-    "Necasettir.",
+    "Doğru.",
     "Dirhem ölçüsü galiza için kullanılır.",
-    "Doğru."
+    "Necasettir."
    ],
    "kay": "Hanefî ilmihali: necaset"
   },
@@ -330,17 +357,17 @@
    "c": [
     "Ertesi gün 07.00",
     "Aynı gün 24.00",
-    "Ertesi gün 12.00",
     "Üç gün sonra 12.00",
+    "Ertesi gün 12.00",
     "Mestleri çıkarana kadar"
    ],
-   "d": 2,
+   "d": 3,
    "a": "Mesh süresi mest giyildikten sonra abdestin ilk bozulduğu andan başlar; mukim için 24 saattir.",
    "ac": [
     "Süre giyme anından değil, abdestin bozulmasından başlar.",
     "Süre 24 saattir.",
-    "Doğru.",
     "Üç gün yolcu içindir.",
+    "Doğru.",
     "Süre sınırlıdır."
    ],
    "kay": "Müslim, Tahâret, 85"
@@ -350,17 +377,17 @@
    "z": 2,
    "s": "Hanefî mezhebine göre teyemmümle ilgili hangisi yanlıştır?",
    "c": [
-    "Teyemmümde ayaklar da meshedilir.",
     "Taş ve kum gibi toprak cinsinden şeylerle yapılabilir.",
+    "Teyemmümde ayaklar da meshedilir.",
     "Kullanılabilecek su bulunması teyemmümü bozar.",
     "Abdesti bozan durumlar teyemmümü de bozar.",
     "Farzları niyet ve iki darptır."
    ],
-   "d": 0,
+   "d": 1,
    "a": "Teyemmümde yalnız yüz ve dirseklerle birlikte eller meshedilir; ayaklar meshedilmez.",
    "ac": [
-    "Yanlış: ayaklar meshedilmez.",
     "Doğru bilgi.",
+    "Yanlış: ayaklar meshedilmez.",
     "Doğru bilgi.",
     "Doğru bilgi.",
     "Doğru bilgi."
@@ -372,17 +399,17 @@
    "z": 2,
    "s": "Hanefî mezhebine göre hayız süresi ile ilgili hangisi doğrudur?",
    "c": [
-    "En az 1, en çok 15 gündür.",
     "En az 3, en çok 10 gündür.",
+    "En az 1, en çok 15 gündür.",
     "En az süresi yoktur, en çok 40 gündür.",
     "En az 5, en çok 15 gündür.",
     "Süre sınırı yoktur."
    ],
-   "d": 1,
+   "d": 0,
    "a": "Hanefîlerde hayız en az üç, en çok on gündür. En çok 40 gün nifas içindir.",
    "ac": [
-    "Bu Şâfiî görüşüne yakındır (en az 1 gün 1 gece, en çok 15 gün).",
     "Doğru.",
+    "Bu Şâfiî görüşüne yakındır (en az 1 gün 1 gece, en çok 15 gün).",
     "Bu nifasın süresidir.",
     "Böyle bir görüş yoktur.",
     "Süre sınırı vardır."
@@ -416,19 +443,19 @@
    "z": 3,
    "s": "Sürekli idrar damlatma rahatsızlığı olan bir kişi, öğle vakti boyunca abdest alıp farzı kılacak kadar bir süre bile bu durumu kesilmemiştir.\n\nHanefî mezhebine göre bu kişinin durumuyla ilgili hangisi yanlıştır?",
    "c": [
-    "Özür sahibi sayılır.",
+    "Aldığı abdest bir sonraki güne kadar geçerlidir.",
     "Her namaz vakti için abdest alır.",
     "Aldığı abdestle o vakit içinde farz, vacip ve nafile namazlar kılabilir.",
-    "Aldığı abdest bir sonraki güne kadar geçerlidir.",
+    "Özür sahibi sayılır.",
     "Öğle vakti çıkınca abdesti bozulur."
    ],
-   "d": 3,
+   "d": 0,
    "a": "Özür sahibinin abdesti vaktin çıkmasıyla bozulur; her vakit için yeniden abdest alır.",
    "ac": [
-    "Doğru bilgi.",
-    "Doğru bilgi.",
-    "Doğru bilgi.",
     "Yanlış: abdest vakitle sınırlıdır.",
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Doğru bilgi.",
     "Doğru bilgi."
    ],
    "kay": "Hanefî ilmihali: özür sahibi"
@@ -438,18 +465,18 @@
    "z": 3,
    "s": "Hanefî ve Şâfiî mezhepleri karşılaştırıldığında aşağıdakilerden hangisi Şâfiî mezhebine göre abdestin farzlarından olup Hanefîlerde sünnettir?",
    "c": [
-    "Tertip",
-    "Yüzü yıkamak",
     "Başı meshetmek",
+    "Yüzü yıkamak",
+    "Tertip",
     "Ayakları yıkamak",
     "Elleri dirseklerle yıkamak"
    ],
-   "d": 0,
+   "d": 2,
    "a": "Şâfiîlerde niyet ve tertip abdestin farzlarındandır; Hanefîlerde sünnettir.",
    "ac": [
-    "Doğru.",
-    "İki mezhepte de farzdır.",
     "İki mezhepte de farzdır (miktarı farklıdır).",
+    "İki mezhepte de farzdır.",
+    "Doğru.",
     "İki mezhepte de farzdır.",
     "İki mezhepte de farzdır."
    ],
@@ -461,19 +488,19 @@
    "s": "Hanefî mezhebine göre aşağıdaki durumların hangisinde teyemmüm etmek caiz olmaz?",
    "c": [
     "Suya yaklaşık 3 km uzaklıkta bulunmak",
-    "Su bulunduğu hâlde namaz vaktinin çıkmasına uzun süre bulunması",
+    "Suyu kullanmanın hastalığı artıracağını doktorun söylemesi",
     "Su başında saldırgan bir hayvanın bulunması",
     "Mevcut suyun yalnızca içmeye yetecek kadar olması",
-    "Suyu kullanmanın hastalığı artıracağını doktorun söylemesi"
+    "Su bulunduğu hâlde namaz vaktinin çıkmasına uzun süre bulunması"
    ],
-   "d": 1,
+   "d": 4,
    "a": "Su bulunuyor ve kullanmaya engel yoksa, vaktin genişliği teyemmümü mubah kılmaz.",
    "ac": [
     "Suya yaklaşık 2 km’den uzak olmak teyemmüme izin verir.",
-    "Doğru: mazeret yoktur.",
+    "Hastalık mazerettir.",
     "Can tehlikesi mazerettir.",
     "İçme ihtiyacı suyu yok hükmüne sokar.",
-    "Hastalık mazerettir."
+    "Doğru: mazeret yoktur."
    ],
    "kay": "Mâide, 5/6"
   },
@@ -483,21 +510,197 @@
    "s": "Abdest veya gusülde kullanılmış su için Hanefî mezhebindeki fetvaya esas görüş hangisidir?",
    "c": [
     "Necistir",
-    "Temizdir ve temizleyicidir",
-    "Çoksa temizleyici, azsa necistir",
     "Temizdir ama temizleyici değildir",
+    "Çoksa temizleyici, azsa necistir",
+    "Temizdir ve temizleyicidir",
     "Kullanılması mekruhtur ama abdest geçerlidir"
    ],
-   "d": 3,
+   "d": 1,
    "a": "Müstamel su, fetvaya göre temizdir; ancak hadesi gidermediği için onunla abdest alınmaz.",
    "ac": [
     "Necis olduğu görüşü zayıf rivayettir.",
-    "Mutlak suyun özelliğidir.",
-    "Böyle bir ayrım yoktur.",
     "Doğru.",
+    "Böyle bir ayrım yoktur.",
+    "Mutlak suyun özelliğidir.",
     "Müstamel suyla abdest geçerli olmaz."
    ],
    "kay": "Hanefî ilmihali: müstamel su"
+  },
+  {
+   "id": "f3-14",
+   "z": 1,
+   "s": "Hanefî mezhebine göre başın meshinde farz olan miktar nedir?",
+   "c": [
+    "Başın tamamı",
+    "Birkaç kıl",
+    "Başın yarısı",
+    "Başın dörtte biri",
+    "Alın üstündeki saçlar"
+   ],
+   "d": 3,
+   "a": "Başın tamamını meshetmek ise Hanefîlerde sünnettir.",
+   "ac": [
+    "Mâlikîlerin görüşüdür.",
+    "Şâfiîlerin görüşüdür.",
+    "Yanlıştır.",
+    "Hanefî görüşüdür.",
+    "Belirleyici değildir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f3-15",
+   "z": 2,
+   "s": "Hanefî mezhebine göre aşağıdakilerden hangisi abdesti bozar?",
+   "c": [
+    "Ağza dolmayacak kadar kusmak",
+    "Yüzü kızaran kişinin teninin terlemesi",
+    "Rükûlu ve secdeli bir namazda yanındakilerin duyacağı kadar gülmek (kahkaha)",
+    "Kadına dokunmak",
+    "Cinsel organa elle dokunmak"
+   ],
+   "d": 2,
+   "a": "Kahkaha cenaze namazında ve namaz dışında abdesti bozmaz; yalnız rükûlu-secdeli namazda bozar.",
+   "ac": [
+    "Ağız dolusu kusmak bozar.",
+    "Bozmaz.",
+    "Hem namazı hem abdesti bozar.",
+    "Hanefîlerde bozmaz.",
+    "Hanefîlerde bozmaz."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f3-16",
+   "z": 2,
+   "s": "Mest üzerine meshin farz miktarı Hanefî mezhebine göre nedir?",
+   "c": [
+    "Mestin altını ve üstünü meshetmek",
+    "Bir parmakla tek dokunuş",
+    "Ayağın tamamını meshetmek",
+    "Yalnız ökçeyi meshetmek",
+    "Her ayağın üstüne, elin küçük üç parmağı kadar meshetmek"
+   ],
+   "d": 4,
+   "a": "Mesh ayak parmaklarının ucundan bileğe doğru, üstten yapılır.",
+   "ac": [
+    "Altını meshetmek farz değildir.",
+    "Yeterli değildir.",
+    "Yanlıştır.",
+    "Yanlıştır.",
+    "Farz miktar budur."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f3-17",
+   "z": 2,
+   "s": "Hanefî mezhebine göre necâset-i galîzadan elbiseye bulaşan katı bir pislikle namaz kılmaya engel olmayan (affedilen) miktar nedir?",
+   "c": [
+    "Elbisenin dörtte biri",
+    "Bir karış",
+    "Hiçbir miktar affedilmez",
+    "Ağırlık olarak bir dirhem (yaklaşık 3 gram) kadarı",
+    "Elbisenin yarısı"
+   ],
+   "d": 3,
+   "a": "Affedilen miktarla namaz sahihtir ama temizlemek gerekir (bulunan miktar tahrîmen mekruhtur).",
+   "ac": [
+    "Bu necâset-i hafîfe ölçüsüdür.",
+    "Yanlıştır.",
+    "Dirhem ölçüsü affedilir.",
+    "Sıvılarda avuç içi genişliği esas alınır.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f3-18",
+   "z": 1,
+   "s": "Hanefî mezhebine göre lohusalığın (nifas) en uzun süresi kaç gündür?",
+   "c": [
+    "10",
+    "15",
+    "30",
+    "40",
+    "60"
+   ],
+   "d": 3,
+   "a": "Nifasın en az süresi için sınır yoktur.",
+   "ac": [
+    "Hayzın en uzun süresidir.",
+    "İki hayız arasındaki en az temizlik süresidir.",
+    "Yanlıştır.",
+    "Nifasın en uzun süresidir.",
+    "Şâfiîlerde en uzun süredir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f3-19",
+   "z": 2,
+   "s": "Hanefî mezhebine göre aşağıdaki durumlardan hangisi guslü gerektirmez?",
+   "c": [
+    "Ölü yıkamak",
+    "Hayzın sona ermesi",
+    "Nifasın sona ermesi",
+    "Uyanınca yatağında meni izi görmek",
+    "Cünüplük"
+   ],
+   "d": 0,
+   "a": "Guslü gerektiren durumlar: cünüplük, hayız ve nifasın sona ermesi.",
+   "ac": [
+    "Ölü yıkayan kişinin gusletmesi müstehaptır, farz değildir.",
+    "Gerektirir.",
+    "Gerektirir.",
+    "Gerektirir.",
+    "Gerektirir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f3-20",
+   "z": 2,
+   "s": "Hanefî mezhebine göre teyemmümün farzları hangi seçenekte doğru verilmiştir?",
+   "c": [
+    "Niyet, tek vuruşla yüz ve elleri meshetmek",
+    "Niyet; iki darp: biriyle yüzü, diğeriyle dirseklerle birlikte kolları meshetmek",
+    "Yüzü, başı ve ayakları meshetmek",
+    "Niyet ve toprağı yüze sürmek",
+    "Yalnız kolları meshetmek"
+   ],
+   "d": 1,
+   "a": "Teyemmüm, yüz ve kollarla sınırlı bir temizliktir.",
+   "ac": [
+    "Hanefîlerde iki vuruş vardır.",
+    "Hanefî görüşüdür.",
+    "Teyemmümde baş ve ayak yoktur.",
+    "Kollar da farzdır.",
+    "Eksiktir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f3-21",
+   "z": 1,
+   "s": "Aşağıdakilerden hangisi abdestin sünnetlerinden değildir?",
+   "c": [
+    "Yüzü yıkamak",
+    "Misvak kullanmak",
+    "Ağza ve burna su vermek",
+    "Kulakları meshetmek",
+    "Besmele ile başlamak"
+   ],
+   "d": 0,
+   "a": "Abdestin farzları: yüzü yıkamak, kolları dirseklerle yıkamak, başın dörtte birini meshetmek, ayakları topuklarla yıkamak.",
+   "ac": [
+    "Farzdır.",
+    "Sünnettir.",
+    "Hanefîlerde sünnettir.",
+    "Sünnettir.",
+    "Sünnettir."
+   ],
+   "kay": "Hanefî ilmihal"
   }
  ]
 }

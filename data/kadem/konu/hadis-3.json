@@ -353,17 +353,17 @@
    "s": "Hadislerin resmî olarak toplanması için valilere ve âlimlere yazılı emir gönderen Emevî halifesi aşağıdakilerden hangisidir?",
    "c": [
     "Muâviye b. Ebû Süfyân",
-    "Abdülmelik b. Mervân",
     "Ömer b. Abdülazîz",
+    "Abdülmelik b. Mervân",
     "Hişâm b. Abdülmelik",
     "Velîd b. Abdülmelik"
    ],
-   "d": 2,
+   "d": 1,
    "a": "Ömer b. Abdülazîz (h. 99-101) hadislerin kaybolmasından endişe ederek resmî tedvini başlatmıştır.",
    "ac": [
     "Muâviye Emevî devletinin kurucusudur; tedvin emri ona ait değildir.",
-    "Abdülmelik dönemi idari ve para reformlarıyla bilinir.",
     "Doğru: resmî tedvin emri Ömer b. Abdülazîz’e aittir.",
+    "Abdülmelik dönemi idari ve para reformlarıyla bilinir.",
     "Hişâm dönemi tedvin emrinden sonradır.",
     "Velîd dönemi fetihlerle bilinir."
    ],
@@ -374,19 +374,19 @@
    "z": 1,
    "s": "Aşağıdaki eserlerden hangisi Kütüb-i Sitte arasında yer almaz?",
    "c": [
-    "Buhârî’nin el-Câmiu’s-Sahîh’i",
+    "Ahmed b. Hanbel’in el-Müsned’i",
     "Müslim’in el-Câmiu’s-Sahîh’i",
     "Ebû Dâvûd’un es-Sünen’i",
-    "Ahmed b. Hanbel’in el-Müsned’i",
+    "Buhârî’nin el-Câmiu’s-Sahîh’i",
     "Nesâî’nin es-Sünen’i"
    ],
-   "d": 3,
+   "d": 0,
    "a": "Kütüb-i Sitte; Buhârî, Müslim, Ebû Dâvûd, Tirmizî, Nesâî ve İbn Mâce’nin eserlerinden oluşur. Ahmed b. Hanbel’in Müsned’i büyük bir eser olmakla birlikte bu altı kitaba dâhil değildir.",
    "ac": [
-    "Buhârî’nin Sahîh’i Kütüb-i Sitte’nin ilkidir.",
+    "Doğru: Müsned Kütüb-i Sitte’ye dâhil değildir.",
     "Müslim’in Sahîh’i Sahîhayn’dan biridir.",
     "Ebû Dâvûd’un Sünen’i Sünen-i Erbaa’dandır.",
-    "Doğru: Müsned Kütüb-i Sitte’ye dâhil değildir.",
+    "Buhârî’nin Sahîh’i Kütüb-i Sitte’nin ilkidir.",
     "Nesâî’nin Sünen’i Sünen-i Erbaa’dandır."
    ],
    "kay": "Hadis tarihi: Kütüb-i Sitte"
@@ -397,19 +397,19 @@
    "s": "Hadislerin, onları rivayet eden sahabilerin adları altında bir araya getirildiği; örneğin Hz. Ebû Bekir’in rivayetlerinin bir bölümde, Hz. Ömer’in rivayetlerinin başka bir bölümde toplandığı hadis kitaplarına ne ad verilir?",
    "c": [
     "Sünen",
-    "Müsned",
+    "Erbaîn",
     "Musannef",
     "Câmi’",
-    "Erbaîn"
+    "Müsned"
    ],
-   "d": 1,
+   "d": 4,
    "a": "Hadisleri sahabe râvilere göre düzenleyen eserlere müsned denir. En meşhuru Ahmed b. Hanbel’in el-Müsned’idir.",
    "ac": [
     "Sünen fıkıh bablarına göre düzenlenir.",
-    "Doğru: sahabeye göre düzenleme müsneddir.",
+    "Erbaîn kırk hadisten oluşur.",
     "Musannef konulara göre düzenlenir.",
     "Câmi’ sekiz ana konuya göre düzenlenir.",
-    "Erbaîn kırk hadisten oluşur."
+    "Doğru: sahabeye göre düzenleme müsneddir."
    ],
    "kay": "Hadis edebiyatı: müsned"
   },
@@ -440,20 +440,20 @@
    "z": 2,
    "s": "Hz. Peygamber’in sağlığında yazdığı hadisleri bir sahifede toplayan ve bu sahifeye es-Sahîfetü’s-Sâdıka adını veren sahabi aşağıdakilerden hangisidir?",
    "c": [
-    "Abdullah b. Amr b. el-Âs",
+    "Abdullah b. Mes’ûd",
     "Ebû Hüreyre",
     "Enes b. Mâlik",
     "Zeyd b. Sâbit",
-    "Abdullah b. Mes’ûd"
+    "Abdullah b. Amr b. el-Âs"
    ],
-   "d": 0,
+   "d": 4,
    "a": "es-Sahîfetü’s-Sâdıka, Hz. Peygamber’in izniyle hadis yazan Abdullah b. Amr b. el-Âs’a aittir.",
    "ac": [
-    "Doğru: Sâdıka sahifesi Abdullah b. Amr’ındır.",
+    "İbn Mes’ûd Kûfe’de ders veren büyük sahabidir; Sâdıka onun değildir.",
     "Ebû Hüreyre kendisinin yazmadığını söylemiştir (Buhârî, İlim, 39).",
     "Enes b. Mâlik muksirûndandır ama Sâdıka onun değildir.",
     "Zeyd b. Sâbit vahiy kâtibi ve Kur’an’ın cem’inde görevlidir.",
-    "İbn Mes’ûd Kûfe’de ders veren büyük sahabidir; Sâdıka onun değildir."
+    "Doğru: Sâdıka sahifesi Abdullah b. Amr’ındır."
    ],
    "kay": "Ebû Dâvûd, İlim, 3; Buhârî, İlim, 39"
   },
@@ -485,17 +485,17 @@
    "s": "Bir hadis kitabının içindekiler sayfasında şu bölümler yer almaktadır: İman, Namaz, Zekât, Tefsir, Meğâzî, Zühd ve Rikâk, Edeb, Fiten ve Kıyamet Alametleri, Sahabenin Faziletleri.\n\nBu kitap aşağıdaki türlerden hangisine aittir?",
    "c": [
     "Sünen",
-    "Müsned",
     "Câmi’",
+    "Müsned",
     "Zevâid",
     "Etrâf"
    ],
-   "d": 2,
+   "d": 1,
    "a": "Akaid, ahkâm, tefsir, siyer, rikâk, âdâb, fiten ve menâkıb konularının hepsini içeren eserlere câmi’ denir. Yalnız fıkıh bablarını içerseydi sünen olurdu.",
    "ac": [
     "Sünen ağırlıkla fıkıh bablarını içerir; tefsir, fiten, menâkıb gibi bölümler esas değildir.",
-    "Müsned konuya göre değil sahabeye göre düzenlenir.",
     "Doğru: sekiz konuyu kapsayan eser câmi’dir.",
+    "Müsned konuya göre değil sahabeye göre düzenlenir.",
     "Zevâid başka eserlerle karşılaştırmaya dayanır.",
     "Etrâf hadislerin baş kısımlarına göre düzenlenir."
    ],
@@ -506,19 +506,19 @@
    "z": 2,
    "s": "Hâkim en-Nîsâbûrî, Buhârî ve Müslim’in sahihlik şartlarına uyduğu hâlde bu iki âlimin eserlerine almadığı hadisleri tespit ederek bir eserde toplamıştır.\n\nHâkim’in bu eseri hangi türdendir?",
    "c": [
-    "Müstahrec",
+    "Müstedrek",
     "Zevâid",
     "Musannef",
-    "Müstedrek",
+    "Müstahrec",
     "Mu’cem"
    ],
-   "d": 3,
+   "d": 0,
    "a": "Bir müellifin şartlarına uyduğu hâlde eserine almadığı hadisleri toplayan esere müstedrek denir. Hâkim’in el-Müstedrek ale’s-Sahîhayn’ı türün adını taşıyan en meşhur eserdir.",
    "ac": [
-    "Müstahrec, var olan hadisleri başka senedle rivayet eder.",
+    "Doğru: şarta uyan ama alınmayan hadisler müstedrektir.",
     "Zevâid, bir eserde olup diğerinde olmayan hadisleri toplar; şart ölçütü yoktur.",
     "Musannef konulara göre düzenlenen genel bir eserdir.",
-    "Doğru: şarta uyan ama alınmayan hadisler müstedrektir.",
+    "Müstahrec, var olan hadisleri başka senedle rivayet eder.",
     "Mu’cem harf sırasına göre düzenlenir."
    ],
    "kay": "Hâkim, el-Müstedrek ale’s-Sahîhayn"
@@ -528,19 +528,19 @@
    "z": 2,
    "s": "Bir araştırmacı, İbn Mâce’nin Sünen’inde bulunup Kütüb-i Sitte’nin diğer beş kitabında yer almayan hadisleri tespit ederek ayrı bir kitapta toplamıştır.\n\nBu çalışma hadis edebiyatında hangi türe girer?",
    "c": [
-    "Zevâid",
+    "Etrâf",
     "Müstedrek",
     "Müstahrec",
-    "Etrâf",
+    "Zevâid",
     "Câmi’"
    ],
-   "d": 0,
+   "d": 3,
    "a": "Bir eserin başka eserlere göre fazla olan hadislerini toplayan çalışmalar zevâiddir. Bûsîrî’nin Misbâhu’z-zücâce adlı eseri tam olarak bu işi yapar.",
    "ac": [
-    "Doğru: fazla hadisleri toplamak zevâiddir.",
+    "Etrâf hadis başlarından yolları gösterir.",
     "Müstedrek, bir müellifin şartına uyan hadisleri toplar.",
     "Müstahrec, aynı hadisleri başka senedle rivayet eder.",
-    "Etrâf hadis başlarından yolları gösterir.",
+    "Doğru: fazla hadisleri toplamak zevâiddir.",
     "Câmi’ sekiz konuyu kapsayan eserdir."
    ],
    "kay": "Bûsîrî, Misbâhu’z-zücâce fî zevâidi İbn Mâce"
@@ -572,19 +572,19 @@
    "z": 2,
    "s": "Taberânî’nin, hocalarının isimlerini harf sırasına göre dizip her hocanın adı altında ondan aldığı rivayetleri topladığı eseri hangi türdendir?",
    "c": [
-    "Mu’cem",
+    "Müstahrec",
     "Musannef",
     "Sünen",
-    "Müstahrec",
+    "Mu’cem",
     "Şerh"
    ],
-   "d": 0,
+   "d": 3,
    "a": "Râvilerin veya şehirlerin adlarının harf sırasına göre dizildiği eserlere mu’cem denir. Taberânî’nin el-Mu’cemü’l-kebîr, el-evsat ve es-sağîr adlı üç eseri bu türdendir.",
    "ac": [
-    "Doğru: harf sırasıyla düzenleme mu’cemin özelliğidir.",
+    "Müstahrec başka bir eseri esas alır.",
     "Musannef konuya göre düzenlenir.",
     "Sünen fıkıh bablarına göre düzenlenir.",
-    "Müstahrec başka bir eseri esas alır.",
+    "Doğru: harf sırasıyla düzenleme mu’cemin özelliğidir.",
     "Şerh başka bir kitabı açıklar."
    ],
    "kay": "Taberânî, el-Mu’cemü’l-evsat"
@@ -594,19 +594,19 @@
    "z": 2,
    "s": "Fethu’l-bârî ve Umdetü’l-kârî adlı eserler aşağıdaki hadis kitaplarından hangisinin şerhidir?",
    "c": [
-    "Müslim’in Sahîh’i",
+    "Buhârî’nin Sahîh’i",
     "Mâlik’in Muvatta’ı",
     "Tirmizî’nin Sünen’i",
-    "Buhârî’nin Sahîh’i",
+    "Müslim’in Sahîh’i",
     "Ahmed b. Hanbel’in Müsned’i"
    ],
-   "d": 3,
+   "d": 0,
    "a": "Fethu’l-bârî İbn Hacer el-Askalânî’nin, Umdetü’l-kârî Bedreddin el-Aynî’nin Buhârî şerhleridir.",
    "ac": [
-    "Müslim’in en meşhur şerhi Nevevî’nin el-Minhâc’ıdır.",
+    "Doğru: iki eser de Buhârî şerhidir.",
     "Muvatta’ın meşhur şerhleri arasında İbn Abdilber’in et-Temhîd’i vardır.",
     "Tirmizî şerhlerinden biri Mübârekfûrî’nin Tuhfetü’l-ahvezî’sidir.",
-    "Doğru: iki eser de Buhârî şerhidir.",
+    "Müslim’in en meşhur şerhi Nevevî’nin el-Minhâc’ıdır.",
     "Müsned’in şerhinden çok tertip çalışmaları bilinir."
    ],
    "kay": "İbn Hacer, Fethu’l-bârî; Aynî, Umdetü’l-kârî"
@@ -618,18 +618,18 @@
    "c": [
     "Medine Vesikası",
     "Hudeybiye Antlaşması",
-    "Komşu hükümdarlara gönderilen davet mektupları",
+    "Mâlik b. Enes’in el-Muvatta’ı",
     "es-Sahîfetü’s-Sâdıka",
-    "Mâlik b. Enes’in el-Muvatta’ı"
+    "Komşu hükümdarlara gönderilen davet mektupları"
    ],
-   "d": 4,
+   "d": 2,
    "a": "el-Muvatta’, hicrî II. yüzyılda Mâlik b. Enes tarafından yazılmıştır. Diğerleri Hz. Peygamber döneminde yazılmış belgelerdir.",
    "ac": [
     "Medine Vesikası hicretten sonra yazılmıştır.",
     "Hudeybiye Antlaşması h. 6’da yazıya geçirilmiştir.",
-    "Davet mektupları Hz. Peygamber’in emriyle yazılmıştır.",
+    "Doğru: Muvatta’ çok sonraki bir dönemin eseridir.",
     "Abdullah b. Amr onun sağlığında yazmıştır.",
-    "Doğru: Muvatta’ çok sonraki bir dönemin eseridir."
+    "Davet mektupları Hz. Peygamber’in emriyle yazılmıştır."
    ],
    "kay": "Hadis tarihi: Hz. Peygamber dönemi"
   },
@@ -683,19 +683,19 @@
    "s": "Aşağıdaki hadis usulü eseri – müellif eşleştirmelerinden hangisi yanlıştır?",
    "c": [
     "Ma’rifetü ulûmi’l-hadîs – Hâkim en-Nîsâbûrî",
-    "el-Kifâye fî ilmi’r-rivâye – Hatîb el-Bağdâdî",
+    "Tedrîbü’r-râvî – Buhârî",
     "Ulûmü’l-hadîs (Mukaddime) – İbnü’s-Salâh",
     "Nuhbetü’l-fiker – İbn Hacer el-Askalânî",
-    "Tedrîbü’r-râvî – Buhârî"
+    "el-Kifâye fî ilmi’r-rivâye – Hatîb el-Bağdâdî"
    ],
-   "d": 4,
+   "d": 1,
    "a": "Tedrîbü’r-râvî Celâleddîn es-Süyûtî’nin eseridir. Diğer eşleştirmeler doğrudur.",
    "ac": [
     "Doğru eşleştirme.",
+    "Yanlış: Tedrîbü’r-râvî Süyûtî’nindir.",
     "Doğru eşleştirme.",
     "Doğru eşleştirme.",
-    "Doğru eşleştirme.",
-    "Yanlış: Tedrîbü’r-râvî Süyûtî’nindir."
+    "Doğru eşleştirme."
    ],
    "kay": "Hadis usulü literatürü"
   },
@@ -704,20 +704,20 @@
    "z": 3,
    "s": "Hicrî II. yüzyılda hadisleri konularına göre ilk tasnif edenlerle ilgili aşağıdaki şehir – âlim eşleştirmelerinden hangisi yanlıştır?",
    "c": [
-    "Mekke – İbn Cüreyc",
+    "Mısır – Süfyân es-Sevrî",
     "Medine – Mâlik b. Enes",
     "Yemen – Ma’mer b. Râşid",
     "Şam – Evzâî",
-    "Mısır – Süfyân es-Sevrî"
+    "Mekke – İbn Cüreyc"
    ],
-   "d": 4,
+   "d": 0,
    "a": "Süfyân es-Sevrî Kûfe’nin âlimidir. Diğer eşleştirmeler doğrudur.",
    "ac": [
+    "Yanlış: Süfyân es-Sevrî Kûfelidir.",
     "Doğru eşleştirme.",
     "Doğru eşleştirme.",
     "Doğru eşleştirme.",
-    "Doğru eşleştirme.",
-    "Yanlış: Süfyân es-Sevrî Kûfelidir."
+    "Doğru eşleştirme."
    ],
    "kay": "Hadis tarihi: tasnif dönemi"
   },
@@ -727,19 +727,19 @@
    "s": "Hadislerin uzun süre yazılmayıp sözlü aktarıldığını, isnadların ise sonraki dönemde geriye doğru uzatılarak sahabeye ve Hz. Peygamber’e bağlandığını (isnadların “geriye doğru büyümesi”) ileri süren oryantalist aşağıdakilerden hangisidir?",
    "c": [
     "Ignaz Goldziher",
-    "Joseph Schacht",
+    "Muhammed Hamîdullah",
     "A. J. Wensinck",
     "Fuat Sezgin",
-    "Muhammed Hamîdullah"
+    "Joseph Schacht"
    ],
-   "d": 1,
+   "d": 4,
    "a": "İsnadların geriye doğru büyüdüğü iddiası Joseph Schacht’a aittir. Goldziher daha çok hadislerin sonraki dönem tartışmalarını yansıttığını ve Zührî’nin Emevîler adına hadis uydurduğunu iddia etmiştir.",
    "ac": [
     "Goldziher’in bilinen iddiası Zührî ve siyasi uydurma üzerinedir.",
-    "Doğru: “backward growth of isnads” Schacht’ın tezidir.",
+    "Hamîdullah, Hemmâm b. Münebbih sahifesini yayımlamıştır.",
     "Wensinck, el-Mu’cemü’l-müfehres’i hazırlayan heyetin başındadır.",
     "Fuat Sezgin bu iddialara cevap veren âlimlerdendir.",
-    "Hamîdullah, Hemmâm b. Münebbih sahifesini yayımlamıştır."
+    "Doğru: “backward growth of isnads” Schacht’ın tezidir."
    ],
    "kay": "Hadis tarihi: oryantalistler"
   },
@@ -771,18 +771,18 @@
    "s": "Musannef türü eserler ile sünen türü eserler arasındaki farkı anlatan bir öğretmen, aşağıdakilerden hangisini söylerse doğru bir ayrım yapmış olur?",
    "c": [
     "Musanneflerde hadisler sahabeye göre, sünenlerde konulara göre dizilir.",
-    "Musanneflerde merfû hadislerin yanında sahabe ve tâbiûn sözlerine de geniş yer verilir; sünenlerde ağırlık merfû ahkâm hadislerindedir.",
-    "Sünenler hadislerin baş kısımlarından senedleri gösterir; musanneflerin böyle bir amacı yoktur.",
     "Musanneflerde yalnızca sahih hadisler bulunur; sünenlerde uydurma hadisler de vardır.",
+    "Sünenler hadislerin baş kısımlarından senedleri gösterir; musanneflerin böyle bir amacı yoktur.",
+    "Musanneflerde merfû hadislerin yanında sahabe ve tâbiûn sözlerine de geniş yer verilir; sünenlerde ağırlık merfû ahkâm hadislerindedir.",
     "Sünenler harf sırasına göre, musanneflerde ise râvi adlarına göre düzenlenir."
    ],
-   "d": 1,
+   "d": 3,
    "a": "Her iki tür de konulara (bablara) göre düzenlenir. Musanneflerde merfû hadislerle birlikte mevkûf ve maktû’ rivayetler de bolca yer alır; sünenler ise ağırlıkla merfû ahkâm hadislerini toplar.",
    "ac": [
     "Her iki tür de konulara göre dizilir; sahabeye göre dizilen müsneddir.",
-    "Doğru: temel fark mevkûf ve maktû’ rivayetlere yer verilip verilmemesidir.",
-    "Bu, etrâf türünün özelliğidir.",
     "Musanneflerde yalnız sahih hadis bulunması şartı yoktur; bu ayrım yanlıştır.",
+    "Bu, etrâf türünün özelliğidir.",
+    "Doğru: temel fark mevkûf ve maktû’ rivayetlere yer verilip verilmemesidir.",
     "Harf sırası mu’cemin, râvi adı müsnedin ölçütüdür."
    ],
    "kay": "Hadis edebiyatı: musannef ve sünen"

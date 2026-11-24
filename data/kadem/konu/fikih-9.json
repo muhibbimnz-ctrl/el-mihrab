@@ -174,7 +174,38 @@
    "ayet": "Allah size çocuklarınız hakkında erkeğe iki kızın payı kadar vermenizi emreder.",
    "kay": "Nisâ, 4/11"
   },
-  "Payları Kur’an’da belirlenmiş mirasçılara ashâbü’l-ferâiz denir; erkeklerden dört (koca, baba, dede, ana bir erkek kardeş), kadınlardan sekiz (karı, anne, nine, kız, oğlun kızı, öz kız kardeş, baba bir kız kardeş, ana bir kız kardeş) kişidir. Pay sahipleri paylarını aldıktan sonra kalanı alan yakınlara asabe denir (oğul, oğlun oğlu, baba, dede, erkek kardeşler, amcalar). Baba, ölenin yalnız kız çocuğu varsa hem pay sahibi (1/6) hem asabe olarak miras alır."
+  "Payları Kur’an’da belirlenmiş mirasçılara ashâbü’l-ferâiz denir; erkeklerden dört (koca, baba, dede, ana bir erkek kardeş), kadınlardan sekiz (karı, anne, nine, kız, oğlun kızı, öz kız kardeş, baba bir kız kardeş, ana bir kız kardeş) kişidir. Pay sahipleri paylarını aldıktan sonra kalanı alan yakınlara asabe denir (oğul, oğlun oğlu, baba, dede, erkek kardeşler, amcalar). Baba, ölenin yalnız kız çocuğu varsa hem pay sahibi (1/6) hem asabe olarak miras alır.",
+  {
+   "b": "Sık sorulan ek bilgiler"
+  },
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Bilgi"
+    ],
+    [
+     "Nikâh şahitleri (Hanefî)",
+     "İki erkek ya da bir erkek iki kadın; akıllı, ergin, hür ve Müslüman olmalı"
+    ],
+    [
+     "Mehir",
+     "Hanefîlerde en az on dirhem gümüş; üst sınırı yok. Mehr-i müsemmâ (belirlenen), mehr-i misil (denginin mehri); muaccel (peşin), müeccel (ertelenmiş)"
+    ],
+    [
+     "Talak çeşitleri",
+     "Ric‘î: iddet içinde nikâhsız dönülür. Bâin-i suğrâ: yeni nikâh ve mehirle dönülür. Bâin-i kübrâ (üç talak): kadın başkasıyla evlenip ayrılmadıkça dönülemez"
+    ],
+    [
+     "Eşlerin miras payı",
+     "Koca: çocuk yoksa 1/2, varsa 1/4. Karı: çocuk yoksa 1/4, varsa 1/8"
+    ],
+    [
+     "Süt emme süresi",
+     "Ebû Hanîfe’ye göre 30 ay; İmameyn ve diğer mezheplere göre 2 yıl (fetva iki yıl)"
+    ]
+   ]
+  }
  ],
  "ozet": [
   "Nikâh: icap-kabul; iki şahit (2 erkek veya 1 erkek + 2 kadın); Hanefî’de âkil-bâliğ kadın velisiz evlenebilir (denklik yoksa veli itiraz eder).",
@@ -479,6 +510,182 @@
     "Borç önce ödenir; mirasçılığı engellemez."
    ],
    "kay": "Tirmizî, Ferâiz, 17"
+  },
+  {
+   "id": "f9-12",
+   "z": 1,
+   "s": "Hanefî mezhebine göre nikâh akdinde bulunması gereken şahitlerle ilgili hangisi doğrudur?",
+   "c": [
+    "Şahit şart değildir.",
+    "Bir erkek şahit yeterlidir.",
+    "Dört erkek şahit gerekir.",
+    "İki erkek ya da bir erkek ve iki kadın şahit gerekir.",
+    "Yalnız kadın şahitler yeterlidir."
+   ],
+   "d": 3,
+   "a": "Şahitler akıllı, ergin, hür ve Müslüman (eş Müslümansa) olmalıdır.",
+   "ac": [
+    "Şahitler şarttır.",
+    "Yeterli değildir.",
+    "Bu zina ispatıyla ilgilidir.",
+    "Hanefî görüşüdür.",
+    "Yeterli değildir."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f9-13",
+   "z": 2,
+   "s": "Ebû Hanîfe’ye göre akıllı ve ergin bir kadının velisinin izni olmadan kendi nikâhını kıymasının hükmü nedir?",
+   "c": [
+    "Bâtıldır.",
+    "Mekruh ama geçerlidir ve hiçbir itiraz hakkı yoktur.",
+    "Sahihtir; ancak denk olmayan biriyle evlenirse veli itiraz edebilir.",
+    "Yalnız velinin huzurunda kıyılırsa geçerlidir.",
+    "Yalnız mahkeme kararıyla geçerli olur."
+   ],
+   "d": 2,
+   "a": "Bu görüş Hanefî mezhebinin kadının akit ehliyetine verdiği öneme örnektir.",
+   "ac": [
+    "Diğer üç mezhebin görüşüne yakındır.",
+    "Denklik (kefâet) şartı vardır.",
+    "Ebû Hanîfe’nin görüşüdür.",
+    "Ebû Hanîfe’ye göre velinin bulunması geçerlilik şartı değildir.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f9-14",
+   "z": 2,
+   "s": "Hanefî mezhebine göre mehrin en az miktarı ne kadardır?",
+   "c": [
+    "Bir dirhem",
+    "Üç dirhem",
+    "Bir sınırı yoktur.",
+    "Yüz dirhem",
+    "On dirhem"
+   ],
+   "d": 4,
+   "a": "Mehrin en çok miktarı için sınır yoktur.",
+   "ac": [
+    "Yanlıştır.",
+    "Mâlikî görüşüne yakındır.",
+    "Şâfiî ve Hanbelî görüşüdür.",
+    "Yanlıştır.",
+    "Hanefîlerde en az mehir on dirhem gümüştür."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f9-15",
+   "z": 2,
+   "s": "Boşanmış ve hayız gören, hamile olmayan bir kadının Hanefî mezhebine göre iddeti nedir?",
+   "c": [
+    "Üç ay",
+    "Üç hayız (üç kur’)",
+    "Dört ay on gün",
+    "Bir hayız",
+    "Doğuma kadar"
+   ],
+   "d": 1,
+   "a": "Şâfiîler kur’ kelimesini temizlik dönemi (tuhr) olarak anlar.",
+   "ac": [
+    "Hayız görmeyen kadının iddetidir.",
+    "Hanefîlerde kur’ hayız anlamındadır.",
+    "Kocası ölen kadının iddetidir.",
+    "Bu istibrâ süresidir.",
+    "Hamile kadının iddetidir."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f9-16",
+   "z": 2,
+   "s": "Kocanın boşamasından sonra iddet içinde yeni bir nikâh ve mehre gerek olmaksızın evliliğe dönebildiği boşama türü hangisidir?",
+   "c": [
+    "Li‘ân",
+    "Bâin talak (beynûnet-i suğrâ)",
+    "Bâin talak (beynûnet-i kübrâ)",
+    "Hul‘",
+    "Ric‘î talak"
+   ],
+   "d": 4,
+   "a": "Bir veya iki açık sözle yapılan boşama ric‘îdir.",
+   "ac": [
+    "Ebedî ayrılık doğurur (Hanefîlerde tartışmalıdır).",
+    "Yeni nikâh ve mehir gerekir.",
+    "Hülle olmadan dönülemez.",
+    "Bâin talak hükmündedir.",
+    "İddet içinde ric‘at (dönüş) mümkündür."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f9-17",
+   "z": 2,
+   "s": "Çocuğu bulunmayan bir kadın vefat ettiğinde, eşinin (kocasının) miras payı nedir?",
+   "c": [
+    "Yarım",
+    "Dörtte bir",
+    "Sekizde bir",
+    "Üçte bir",
+    "Altıda bir"
+   ],
+   "d": 0,
+   "a": "Koca: çocuk yoksa 1/2, varsa 1/4. Karı: çocuk yoksa 1/4, varsa 1/8.",
+   "ac": [
+    "Çocuk yoksa koca yarım alır.",
+    "Çocuk varsa kocanın payıdır.",
+    "Çocuk varsa kadının payıdır.",
+    "Annenin payıdır.",
+    "Yanlıştır."
+   ],
+   "kay": "Nisâ, 4/11-12"
+  },
+  {
+   "id": "f9-18",
+   "z": 2,
+   "s": "Vasiyetle ilgili hangisi yanlıştır?",
+   "c": [
+    "Mirasın üçte birini aşan kısım mirasçıların onayına bağlıdır.",
+    "Mirasçıya yapılan vasiyet, diğer mirasçılar onaylamadıkça geçersizdir.",
+    "Vasiyet, terekenin tamamı üzerinde, mirasçıların onayı olmadan geçerlidir.",
+    "Vasiyet edilen kişinin vasiyetçiyi kasten öldürmesi vasiyete engeldir.",
+    "Vasiyet, borçlar ödendikten sonra yerine getirilir."
+   ],
+   "d": 2,
+   "a": "“Üçte bir de çoktur” (Buhârî, Vesâyâ, 2).",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Üçte bir sınırı vardır.",
+    "Doğrudur.",
+    "Doğrudur."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f9-19",
+   "z": 3,
+   "s": "Ebû Hanîfe’ye göre evlenme engeli doğuran süt emzirmenin (radâ‘) süresi nedir?",
+   "c": [
+    "Bir yıl",
+    "Otuz ay",
+    "İki yıl",
+    "Üç yıl",
+    "Süre sınırı yoktur."
+   ],
+   "d": 1,
+   "a": "Hanefî mezhebinde fetva, iki yıl görüşündedir; Ebû Hanîfe’nin görüşü sınavlarda ayrıca sorulur.",
+   "ac": [
+    "Yanlıştır.",
+    "Ebû Hanîfe’nin görüşüdür.",
+    "İmameyn ve diğer mezheplerin görüşüdür.",
+    "Yanlıştır.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî fıkhı"
   }
  ]
 }

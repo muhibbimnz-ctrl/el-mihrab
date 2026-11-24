@@ -114,7 +114,22 @@
   {
    "b": "6. İtikâf"
   },
-  "İtikâf, ibadet niyetiyle belirli bir süre mescitte kalmaktır. Adak itikâfı vaciptir; Ramazan’ın son on gününde itikâf sünnet-i müekkede alâ’l-kifâyedir; diğer zamanlarda müstehaptır. Erkekler cemaatle namaz kılınan bir mescitte, kadınlar evlerinde namaz için ayırdıkları yerde itikâfa girer. Vacip itikâfta oruç şarttır. İtikâftaki kişi zorunlu ihtiyaçlar ve cuma namazı dışında mescitten çıkmaz."
+  "İtikâf, ibadet niyetiyle belirli bir süre mescitte kalmaktır. Adak itikâfı vaciptir; Ramazan’ın son on gününde itikâf sünnet-i müekkede alâ’l-kifâyedir; diğer zamanlarda müstehaptır. Erkekler cemaatle namaz kılınan bir mescitte, kadınlar evlerinde namaz için ayırdıkları yerde itikâfa girer. Vacip itikâfta oruç şarttır. İtikâftaki kişi zorunlu ihtiyaçlar ve cuma namazı dışında mescitten çıkmaz.",
+  {
+   "b": "Sık sorulan ek bilgiler"
+  },
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Bilgi"
+    ],
+    [
+     "Hamile ve emziren",
+     "Kendisine ya da çocuğuna zarar endişesiyle tutmadığı oruçları sonra kaza eder; Hanefîlerde fidye gerekmez"
+    ]
+   ]
+  }
  ],
  "ozet": [
   "Farz: Ramazan, kazası, keffâret orucu. Vacip: adak, bozulan nafilenin kazası. Haram: Ramazan Bayramı 1. gün, Kurban Bayramı 4 gün.",
@@ -432,6 +447,182 @@
     "Doğru bilgi."
    ],
    "kay": "Buhârî, İ’tikâf, 1"
+  },
+  {
+   "id": "f5-13",
+   "z": 1,
+   "s": "Hanefî mezhebine göre başlanmış bir nafile orucun mazeretsiz bozulmasının hükmü nedir?",
+   "c": [
+    "Hiçbir şey gerekmez.",
+    "Yalnız fidye gerekir.",
+    "Kaza ve keffâret gerekir.",
+    "Kazası gerekir.",
+    "Kurban kesmek gerekir."
+   ],
+   "d": 3,
+   "a": "Hanefîlere göre başlanan nafile namaz ve oruç bozulursa kaza edilir.",
+   "ac": [
+    "Şâfiî görüşüdür.",
+    "Yanlıştır.",
+    "Keffâret yalnız Ramazan orucunda söz konusudur.",
+    "Başlanan nafile ibadet tamamlanması gereken bir yükümlülük olur.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f5-14",
+   "z": 2,
+   "s": "Hamile ya da emziren bir kadının kendisi veya çocuğu için zarar endişesiyle tutamadığı Ramazan oruçlarıyla ilgili hükmü nedir?",
+   "c": [
+    "Fidye vermesi yeterlidir.",
+    "Hem kaza hem fidye gerekir.",
+    "Kaza ve keffâret gerekir.",
+    "Hiçbir şey gerekmez.",
+    "Daha sonra kaza eder; fidye gerekmez."
+   ],
+   "d": 4,
+   "a": "Mazeret ortadan kalkınca kaza edilir.",
+   "ac": [
+    "Fidye iyileşme ümidi olmayanlar içindir.",
+    "Şâfiî mezhebinde çocuk için endişe durumunda böyle denmiştir; Hanefîlerde yalnız kaza.",
+    "Keffâret gerekmez.",
+    "Kaza gerekir.",
+    "Hanefî görüşüdür."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f5-15",
+   "z": 1,
+   "s": "Aşağıdakilerden hangisi orucu bozmaz?",
+   "c": [
+    "Kasten ağız dolusu kusmak",
+    "Göze sürme çekmek",
+    "Burna ilaç damlatmak",
+    "Sigara içmek",
+    "Bilerek su yutmak"
+   ],
+   "d": 1,
+   "a": "Göz, deri gibi yollarla bedene geçen şeyler orucu bozmaz.",
+   "ac": [
+    "Bozar, kaza gerekir.",
+    "Bozmaz.",
+    "Bozar.",
+    "Bozar.",
+    "Bozar."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f5-16",
+   "z": 2,
+   "s": "Ramazan orucunu mazeretsiz ve kasten yiyerek bozan kişinin keffâret orucunun özelliği hangisidir?",
+   "c": [
+    "On gün, ara verilebilir",
+    "Otuz gün, ara verilebilir",
+    "Altmış gün, ara vermeden peş peşe",
+    "Üç gün peş peşe",
+    "Kırk gün"
+   ],
+   "d": 2,
+   "a": "Ara verilirse baştan başlanır; kadın için hayız günleri kesinti sayılmaz.",
+   "ac": [
+    "Süre yanlıştır.",
+    "Süre yanlıştır.",
+    "Keffâret orucu kesintisiz altmış gündür.",
+    "Bu yemin keffâreti orucudur.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f5-17",
+   "z": 2,
+   "s": "Ramazan bayramından sonra Şevval ayında tutulan altı günlük orucun hükmü nedir?",
+   "c": [
+    "Farz",
+    "Vacip",
+    "Mekruh",
+    "Müstehap (nafile)",
+    "Haram"
+   ],
+   "d": 3,
+   "a": "Ramazan’ı tutup Şevval’den altı gün tutmak bütün yılı oruçla geçirmiş gibi sevap kazandırır (Müslim, Sıyâm, 204).",
+   "ac": [
+    "Yanlıştır.",
+    "Yanlıştır.",
+    "Bayram günü dışında tutulması mekruh değildir.",
+    "Hz. Peygamber’in teşvik ettiği nafile oruçtur.",
+    "Yalnız bayram günleri oruç haramdır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f5-18",
+   "z": 2,
+   "s": "Ramazan’ın son on gününde yapılan itikâfın Hanefî mezhebine göre hükmü nedir?",
+   "c": [
+    "Farz",
+    "Vacip",
+    "Bid‘at",
+    "Mekruh",
+    "Sünnet-i kifâye (müekkede)"
+   ],
+   "d": 4,
+   "a": "İtikâfın vacip, sünnet ve müstehap türleri vardır.",
+   "ac": [
+    "Yanlıştır.",
+    "Adanan itikâf vaciptir.",
+    "Hz. Peygamber’in sünnetidir.",
+    "Yanlıştır.",
+    "Ramazan’ın son on gününde yapılır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f5-19",
+   "z": 3,
+   "s": "Hanefî mezhebine göre aşağıdakilerden hangisi orucu bozar ve hem kaza hem keffâreti gerektirir?",
+   "c": [
+    "Unutarak yemek",
+    "Gündüz oruçlu olduğunu bilerek ve mazeretsiz su içmek",
+    "İmsak vaktinin geçtiğini bilmeden sahur yemek",
+    "Zorlanarak yemek",
+    "Kasten ağız dolusu kusmak"
+   ],
+   "d": 1,
+   "a": "Keffâret için Ramazan orucunun niyetle başlanmış olması ve kasten, mazeretsiz, gıda ya da ilaç niteliğinde bir şeyle bozulması gerekir.",
+   "ac": [
+    "Orucu bozmaz.",
+    "Ramazan orucunda kaza ve keffâret gerekir.",
+    "Yalnız kaza gerekir.",
+    "Yalnız kaza gerekir.",
+    "Yalnız kaza gerekir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f5-20",
+   "z": 1,
+   "s": "Aşağıdaki günlerin hangisinde oruç tutmak sünnettir?",
+   "c": [
+    "Muharrem’in 9 ve 10. günleri (Âşûrâ)",
+    "Kurban bayramının ikinci günü",
+    "Ramazan bayramının birinci günü",
+    "Yalnız cuma günü",
+    "Şüpheli gün (Şaban’ın 30’u)"
+   ],
+   "d": 0,
+   "a": "Âşûrâ orucunu bir gün önce ya da sonrayla birlikte tutmak müstehaptır.",
+   "ac": [
+    "Sünnettir.",
+    "Tahrîmen mekruhtur.",
+    "Tahrîmen mekruhtur.",
+    "Tek başına cuma tenzîhen mekruhtur.",
+    "Ramazan niyetiyle tutmak mekruhtur."
+   ],
+   "kay": "Hanefî ilmihal"
   }
  ]
 }

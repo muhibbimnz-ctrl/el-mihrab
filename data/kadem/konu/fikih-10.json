@@ -223,6 +223,37 @@
   "Had cezaları miktarı Kur’an ve sünnette belirlenmiş cezalardır: zina, zina iftirası (kazf), hırsızlık (sirkat), içki içme ve yol kesme (hirâbe). Kısas, kasten öldürme ve yaralamada misliyle karşılık vermektir; maktulün yakınları affederse diyete dönüşebilir. Diyet, öldürme veya yaralamada ödenen maddi tazminattır. Miktarı belirlenmemiş, hâkimin takdirine bırakılmış cezalara ta’zîr denir.",
   {
    "not": "Bu bölüm sınav için kavramsal bilgi verir. Günümüz Türk hukukunda yargılama ve cezalar ilgili kanunlarla düzenlenir."
+  },
+  {
+   "b": "Sık sorulan ek bilgiler"
+  },
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Bilgi"
+    ],
+    [
+     "İstisnâ‘ (sipariş)",
+     "Malzemesi üreticiye ait olmak üzere bir şeyin yapılmasını sipariş etmek; Hanefîlerce istihsanla caiz"
+    ],
+    [
+     "Muzâraa ve musâkât",
+     "Muzâraa: toprak-emek ortaklığıyla ekim; musâkât: ağaç bakımı karşılığında meyve ortaklığı. Ebû Hanîfe caiz görmemiş, imameyn caiz görmüş; fetva imameyne göre"
+    ],
+    [
+     "Kazf",
+     "Zina iftirası; ispat edilemezse 80 değnek ve şahitliğin reddi (Nûr 24/4)"
+    ],
+    [
+     "Ta‘zîr",
+     "Miktarı belirlenmemiş, yetkili makamın takdirine bırakılan cezalar"
+    ],
+    [
+     "İkrar",
+     "Kişinin kendi aleyhine bir hakkı kabul etmesi; en güçlü ispat vasıtasıdır, yalnız ikrar edeni bağlar"
+    ]
+   ]
   }
  ],
  "ozet": [
@@ -552,6 +583,182 @@
     "Doğru."
    ],
    "kay": "Buhârî, Şuf’a, 1"
+  },
+  {
+   "id": "f10-13",
+   "z": 1,
+   "s": "Hanefî mezhebine göre akdin tek rüknü nedir?",
+   "c": [
+    "Akdin tarafları",
+    "İcap ve kabul (sîga)",
+    "Akdin konusu",
+    "Şahitler",
+    "Yazılı belge"
+   ],
+   "d": 1,
+   "a": "Taraflar ve konu Hanefîlerde akdin unsuru (tarafları ve mahalli) olarak ele alınır.",
+   "ac": [
+    "Diğer mezheplerde rükün sayılır.",
+    "Hanefîlerde rükün yalnız icap ve kabuldür.",
+    "Diğer mezheplerde rükün sayılır.",
+    "Akitlerin rüknü değildir.",
+    "Rükün değildir."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f10-14",
+   "z": 2,
+   "s": "Alıcının, satın aldığı maldaki satıştan önce mevcut olan ve kendisinin bilmediği bir kusur sebebiyle akdi bozma hakkına ne ad verilir?",
+   "c": [
+    "Şart muhayyerliği",
+    "Vasıf muhayyerliği",
+    "Görme muhayyerliği",
+    "Ayıp muhayyerliği",
+    "Tayin muhayyerliği"
+   ],
+   "d": 3,
+   "a": "Ayıp muhayyerliği taraflar şart koşmasa da kendiliğinden doğar.",
+   "ac": [
+    "Taraflarca belirlenen süre içinde dönme hakkıdır.",
+    "Vaat edilen vasfın bulunmamasıyla ilgilidir.",
+    "Görmeden alınan malı görünce dönme hakkıdır.",
+    "Kusurdan doğan dönme hakkıdır.",
+    "Belirli mallardan birini seçme hakkıdır."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f10-15",
+   "z": 2,
+   "s": "Bir ürünün, malzemesi üreticiye ait olmak üzere belirli özelliklerle sipariş edilmesini konu alan ve Hanefîlerin istihsanla caiz gördüğü akit hangisidir?",
+   "c": [
+    "Selem",
+    "Murâbaha",
+    "İstisnâ‘",
+    "Îne",
+    "İcâre"
+   ],
+   "d": 2,
+   "a": "İstisnâ‘ kıyasa göre olmayan malın satışı sayılırken örf ve ihtiyaç sebebiyle caiz görülmüştür.",
+   "ac": [
+    "Bedel peşin, mal vadelidir; mal genellikle üretim gerektirmez.",
+    "Maliyet artı kârla satıştır.",
+    "Sipariş akdidir.",
+    "Vadeli satıp peşin geri alma hilesidir.",
+    "Kira akdidir."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f10-16",
+   "z": 2,
+   "s": "Bir kimsenin bir malı kendisine mal olan bedelini açıklayarak üzerine belirli bir kâr ekleyip satmasına ne ad verilir?",
+   "c": [
+    "Tevliye",
+    "Murâbaha",
+    "Vazîa",
+    "Müsâveme",
+    "Sarf"
+   ],
+   "d": 1,
+   "a": "Emanet satışları maliyetin dürüstçe açıklanmasına dayanır.",
+   "ac": [
+    "Maliyet bedeliyle, kârsız satıştır.",
+    "Maliyet artı kârla satıştır.",
+    "Maliyetin altında satıştır.",
+    "Maliyet açıklanmadan pazarlıkla satıştır.",
+    "Paranın parayla değişimidir."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f10-17",
+   "z": 2,
+   "s": "Namuslu bir kadına zina iftirasında bulunup bunu dört şahitle ispat edemeyen kişiye verilecek had cezası nedir?",
+   "c": [
+    "Kırk değnek",
+    "Yüz değnek",
+    "Seksen değnek",
+    "Recm",
+    "Hapis"
+   ],
+   "d": 2,
+   "a": "Ayrıca bu kişilerin şahitliği artık kabul edilmez (Nûr 24/4).",
+   "ac": [
+    "Yanlıştır.",
+    "Zina cezasıdır.",
+    "Kazf cezasıdır.",
+    "Yanlıştır.",
+    "Had değil ta‘zîr türüdür."
+   ],
+   "kay": "Nûr, 24/4"
+  },
+  {
+   "id": "f10-18",
+   "z": 2,
+   "s": "Had ve kısas dışında kalan, miktarı ve türü belirlenmemiş olup yetkili makamın takdirine bırakılan cezalara ne ad verilir?",
+   "c": [
+    "Ta‘zîr",
+    "Keffâret",
+    "Diyet",
+    "Kazf",
+    "Hırâbe"
+   ],
+   "d": 0,
+   "a": "Ta‘zîr suçun ve suçlunun durumuna göre ölçülendirilir.",
+   "ac": [
+    "Takdirî cezalardır.",
+    "Bazı günahlar için dinî yaptırımdır.",
+    "Can ve beden zararının mali bedelidir.",
+    "Zina iftirasıdır.",
+    "Yol kesmedir."
+   ],
+   "kay": "Fıkıh (ceza hukuku)"
+  },
+  {
+   "id": "f10-19",
+   "z": 2,
+   "s": "Fıkıhta kişinin kendi aleyhine bir hakkı kabul etmesi olan ve “delillerin en kuvvetlisi” sayılan ispat vasıtası hangisidir?",
+   "c": [
+    "Beyyine",
+    "Yemin",
+    "Karîne",
+    "Kasâme",
+    "İkrar"
+   ],
+   "d": 4,
+   "a": "İkrar yalnız ikrar edeni bağlar; başkası aleyhine delil olmaz.",
+   "ac": [
+    "Şahitlik ve delillerdir.",
+    "İnkâr edene teklif edilir.",
+    "Yardımcı delildir.",
+    "Faili belli olmayan öldürmede yemindir.",
+    "Kişinin kendi aleyhine beyanıdır."
+   ],
+   "kay": "Mecelle, md. 1579"
+  },
+  {
+   "id": "f10-20",
+   "z": 3,
+   "s": "Bir tarla sahibinin arazisini, ürün belli oranda paylaşılmak üzere başkasına ekip biçmesi için vermesine ne ad verilir?",
+   "c": [
+    "Musâkât",
+    "İcâre",
+    "Mudârebe",
+    "Muzâraa",
+    "İnân"
+   ],
+   "d": 3,
+   "a": "Ebû Hanîfe muzâraayı caiz görmemiş, imameyn caiz görmüş ve fetva imameynin görüşüyle verilmiştir.",
+   "ac": [
+    "Meyve ağaçlarının bakımı karşılığında ürün ortaklığıdır.",
+    "Belirli bir kira bedeliyle kiralamadır.",
+    "Sermaye-emek ortaklığıdır.",
+    "Toprak sahibi ile işçi arasında ürün ortaklığıdır.",
+    "Sermaye ortaklığıdır."
+   ],
+   "kay": "Hanefî fıkhı"
   }
  ]
 }

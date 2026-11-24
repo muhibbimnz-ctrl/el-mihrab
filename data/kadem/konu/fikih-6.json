@@ -185,6 +185,21 @@
   },
   {
    "not": "Hanefîlerde fitre ve kurban için aranan zenginlik ölçüsü aynıdır: temel ihtiyaç ve borç dışında nisap miktarı mal; yıl ve artıcılık şartı yoktur."
+  },
+  {
+   "b": "Sık sorulan ek bilgiler"
+  },
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Bilgi"
+    ],
+    [
+     "Fitrenin vacip olduğu vakit",
+     "Hanefîlere göre Ramazan bayramının ilk günü fecrin doğuşu; Şâfiîlere göre Ramazan’ın son günü gün batımı. Bayram namazından önce verilmesi müstehaptır, Ramazan içinde önceden vermek caizdir"
+    ]
+   ]
   }
  ],
  "ozet": [
@@ -299,17 +314,17 @@
    "z": 1,
    "s": "Hanefî mezhebine göre fıtır sadakasının hükmü nedir?",
    "c": [
-    "Farz",
     "Vacip",
+    "Farz",
     "Sünnet",
     "Müstehap",
     "Mübah"
    ],
-   "d": 1,
+   "d": 0,
    "a": "Hanefîlere göre fıtır sadakası vaciptir.",
    "ac": [
-    "Zekât farzdır; fitre vaciptir.",
     "Doğru.",
+    "Zekât farzdır; fitre vaciptir.",
     "Sünnet değildir.",
     "Müstehap değildir.",
     "Mübah değildir."
@@ -410,17 +425,17 @@
    "s": "Hanefî mezhebine göre fıtır sadakası ile ilgili hangisi yanlıştır?",
    "c": [
     "Bayramın birinci günü fecrin doğuşuyla vacip olur.",
-    "Bu sadakanın vacip olması için malın üzerinden bir yıl geçmiş olması gerekir.",
     "Kişi kendisi ve küçük çocukları için verir.",
+    "Bu sadakanın vacip olması için malın üzerinden bir yıl geçmiş olması gerekir.",
     "Ramazan içinde önceden verilebilir.",
     "Buğdaydan yarım sâ’ veya değeri verilebilir."
    ],
-   "d": 1,
+   "d": 2,
    "a": "Fitre için yıl şartı ve malın artıcı olması şartı aranmaz; temel ihtiyaçlar dışında nisap miktarı mal yeterlidir.",
    "ac": [
     "Doğru bilgi.",
-    "Yanlış: yıl şartı yoktur.",
     "Doğru bilgi.",
+    "Yanlış: yıl şartı yoktur.",
     "Doğru bilgi.",
     "Doğru bilgi."
    ],
@@ -455,18 +470,18 @@
    "c": [
     "Üzerinden bir yıl geçince 1/40 zekât verilir.",
     "Nisaba ulaşırsa 1/10 verilir.",
-    "Yıl şartı aranmadan beşte biri (humus) verilir.",
+    "Masrafla çıkarılırsa 1/20 verilir.",
     "Madenden zekât verilmez.",
-    "Masrafla çıkarılırsa 1/20 verilir."
+    "Yıl şartı aranmadan beşte biri (humus) verilir."
    ],
-   "d": 2,
+   "d": 4,
    "a": "Hanefîlere göre maden ve definede yıl ve nisap şartı aranmadan beşte bir (humus) alınır.",
    "ac": [
     "Yıl şartı yoktur, oran da farklıdır.",
     "Bu öşür oranıdır.",
-    "Doğru.",
+    "Bu masrafla sulanan ürünün oranıdır.",
     "Humus gerekir.",
-    "Bu masrafla sulanan ürünün oranıdır."
+    "Doğru."
    ],
    "kay": "Buhârî, Zekât, 66"
   },
@@ -476,19 +491,19 @@
    "s": "Hanefî mezhebine göre aşağıdakilerden hangisine zekât verilmesi caiz değildir?",
    "c": [
     "Borcunu ödeyemeyen komşuya",
-    "Fakir amcaya",
+    "Zengin bir kişinin küçük çocuğuna",
     "Fakir bir Müslüman öğrenciye",
     "Memleketinde malı olan ama yolda parasız kalan yolcuya",
-    "Zengin bir kişinin küçük çocuğuna"
+    "Fakir amcaya"
    ],
-   "d": 4,
+   "d": 1,
    "a": "Zenginin küçük çocuğu babasının zenginliğiyle zengin sayılır; ona zekât verilmez.",
    "ac": [
     "Gârimîn sınıfına girer.",
-    "Amca usûl ve fürûdan değildir.",
+    "Doğru.",
     "Fî sebîlillâh veya fakir sınıfına girer.",
     "İbnü’s-sebîl sınıfına girer.",
-    "Doğru."
+    "Amca usûl ve fürûdan değildir."
    ],
    "kay": "Hanefî ilmihali: zekât verilemeyenler"
   },
@@ -498,21 +513,197 @@
    "s": "Hanefî mezhebine göre koyun ve keçilerde zekâtla ilgili hangisi doğrudur?",
    "c": [
     "Nisap 5 baştır.",
-    "Nisap 40 baştır ve yılın çoğunu merada geçiren (sâime) hayvanlardan verilir.",
-    "Yıl şartı aranmaz.",
     "Ev ihtiyacı için beslenen hayvanlar da zekâta tabidir.",
+    "Yıl şartı aranmaz.",
+    "Nisap 40 baştır ve yılın çoğunu merada geçiren (sâime) hayvanlardan verilir.",
     "Zekât 1/10 oranında verilir."
    ],
-   "d": 1,
+   "d": 3,
    "a": "Koyun-keçide nisap 40 baştır; yılın yarısından fazlasını merada otlayarak geçiren hayvanlarda 40’ta 1 koyun verilir.",
    "ac": [
     "5 baş devenin nisabıdır.",
-    "Doğru.",
-    "Yıl şartı aranır.",
     "Temel ihtiyaç için beslenen (ölçülü) hayvanlar zekâta tabi değildir; ticaret için ise ticaret malıdır.",
+    "Yıl şartı aranır.",
+    "Doğru.",
     "Oran 40’ta 1’dir."
    ],
    "kay": "Buhârî, Zekât, 38"
+  },
+  {
+   "id": "f6-13",
+   "z": 1,
+   "s": "Hanefî mezhebine göre koyun ve keçide zekâtın nisabı kaç hayvandır?",
+   "c": [
+    "5",
+    "30",
+    "40",
+    "20",
+    "100"
+   ],
+   "d": 2,
+   "a": "40-120 koyuna bir koyun zekât verilir.",
+   "ac": [
+    "Devenin nisabıdır.",
+    "Sığırın nisabıdır.",
+    "Koyun ve keçinin nisabıdır.",
+    "Yanlıştır.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f6-14",
+   "z": 2,
+   "s": "Zekâtın farz olmasının şartları arasında aşağıdakilerden hangisi yoktur?",
+   "c": [
+    "Malın mutlaka nakit para olması",
+    "Akıl ve bulûğ",
+    "Malın nisaba ulaşması",
+    "Malın üzerinden bir yıl geçmesi (havelân-ı havl)",
+    "Müslüman olmak"
+   ],
+   "d": 0,
+   "a": "Ayrıca mal temel ihtiyaçlardan (havâic-i asliyye) ve borçtan fazla olmalı, artıcı (nâmî) olmalıdır.",
+   "ac": [
+    "Ticaret malı ve hayvan gibi mallar da zekâta tabidir.",
+    "Hanefîlerde şarttır.",
+    "Şarttır.",
+    "Şarttır.",
+    "Şarttır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f6-15",
+   "z": 2,
+   "s": "Hanefî mezhebine göre bir kişinin zekâtını aşağıdakilerden hangisine vermesi caizdir?",
+   "c": [
+    "Kendi annesine",
+    "Kendi oğluna",
+    "Fakir olan kardeşine",
+    "Eşine",
+    "Zengin bir akrabasına"
+   ],
+   "d": 2,
+   "a": "Nafakası kişiye ait olan usul, füru ve eşe zekât verilmez.",
+   "ac": [
+    "Usul (anne-baba, dede-nine) zekât alamaz.",
+    "Füru (çocuk-torun) zekât alamaz.",
+    "Kardeşe zekât verilebilir.",
+    "Eşler birbirine zekât veremez.",
+    "Zengine zekât verilmez."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f6-16",
+   "z": 2,
+   "s": "Fıtır sadakasının vacip olduğu vakit Hanefî mezhebine göre ne zamandır?",
+   "c": [
+    "Ramazan’ın ilk günü",
+    "Kadir gecesi",
+    "Bayram namazından sonra",
+    "Ramazan’ın son günü güneşin batışı",
+    "Ramazan bayramının birinci günü fecrin doğuşu"
+   ],
+   "d": 4,
+   "a": "Bu vakitte nisaba malik olan kişi kendisi ve küçük çocukları için fitre verir.",
+   "ac": [
+    "Önceden vermek caizdir; ama vücûb vakti değildir.",
+    "Yanlıştır.",
+    "Bayram namazından önce verilmesi müstehaptır.",
+    "Şâfiî görüşüdür.",
+    "Hanefî görüşüdür."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f6-17",
+   "z": 1,
+   "s": "Hanefî mezhebine göre altının zekât nisabı nedir?",
+   "c": [
+    "10 miskal",
+    "20 miskal (yaklaşık 80 gram)",
+    "200 dirhem",
+    "40 miskal",
+    "5 vesk"
+   ],
+   "d": 1,
+   "a": "Altın ve gümüşte zekât oranı kırkta birdir.",
+   "ac": [
+    "Yanlıştır.",
+    "Altının nisabıdır.",
+    "Gümüşün nisabıdır.",
+    "Yanlıştır.",
+    "Ürün nisabıyla ilgili bir ölçüdür."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f6-18",
+   "z": 3,
+   "s": "Zekâtın verileceği yerlerden “müellefe-i kulûb” hissesinin Hz. Ömer döneminde verilmemesinin gerekçesi nedir?",
+   "c": [
+    "Ayetin nesh edildiği düşünülmüştür.",
+    "İslam güçlendiği için kalplerini İslam’a ısındırma ihtiyacının kalmadığı düşünülmüştür.",
+    "Bu hisse yalnız Hz. Peygamber’e özgüdür.",
+    "Hissenin miktarı belirsizdir.",
+    "Bu hisse yalnız gayrimüslimlere verilir."
+   ],
+   "d": 1,
+   "a": "Bu uygulama, hükmün illetiyle birlikte değerlendirilmesine örnek gösterilir.",
+   "ac": [
+    "Ayet mensuh değildir.",
+    "Hükmün illeti ortadan kalkmıştır.",
+    "Yanlıştır.",
+    "Belirleyici değildir.",
+    "Gerekçe bu değildir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f6-19",
+   "z": 2,
+   "s": "Hanefî mezhebine göre fıtır sadakası buğdaydan verilirse miktarı nedir?",
+   "c": [
+    "Bir sâ‘",
+    "İki sâ‘",
+    "Bir müd",
+    "Yarım sâ‘",
+    "Bir dirhem"
+   ],
+   "d": 3,
+   "a": "Hanefîler fitrenin değerinin para olarak verilmesini de caiz görür.",
+   "ac": [
+    "Arpa, hurma ve kuru üzüm için ölçüdür.",
+    "Yanlıştır.",
+    "Yanlıştır.",
+    "Buğdayda yarım sâ‘dır.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f6-20",
+   "z": 2,
+   "s": "Hanefî mezhebine göre büyükbaş hayvanlarda (sığır) zekâtın nisabı kaç hayvandır?",
+   "c": [
+    "5",
+    "30",
+    "40",
+    "20",
+    "50"
+   ],
+   "d": 1,
+   "a": "30 sığıra bir yaşını doldurmuş bir dana (tebî‘) verilir.",
+   "ac": [
+    "Devede nisaptır.",
+    "Sığırda nisaptır.",
+    "Koyunda nisaptır.",
+    "Yanlıştır.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî ilmihal"
   }
  ]
 }

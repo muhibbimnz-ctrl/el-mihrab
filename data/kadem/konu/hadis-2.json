@@ -358,18 +358,18 @@
    "z": 1,
    "s": "Hz. Peygamber’in “Allah Teâlâ şöyle buyurdu…” diyerek Allah’a nispet ettiği, ancak Kur’an’dan olmayan sözlere ne ad verilir?",
    "c": [
-    "Merfû hadis",
-    "Mevkûf hadis",
     "Kudsî hadis",
+    "Mevkûf hadis",
+    "Merfû hadis",
     "Maktû’ hadis",
     "Mütevatir hadis"
    ],
-   "d": 2,
+   "d": 0,
    "a": "Manası Allah’a, lafzı Hz. Peygamber’e ait olan bu sözlere kudsî hadis denir. Kur’an hükmünde değildir; namazda okunmaz.",
    "ac": [
-    "Merfû, Hz. Peygamber’e nispet edilen her söz ve fiildir; Allah’a nispet özelliği yoktur.",
-    "Mevkûf sahabeye aittir.",
     "Doğru: Allah’a nispet edilen, ayet olmayan söz kudsî hadistir.",
+    "Mevkûf sahabeye aittir.",
+    "Merfû, Hz. Peygamber’e nispet edilen her söz ve fiildir; Allah’a nispet özelliği yoktur.",
     "Maktû’ tâbiûna aittir.",
     "Mütevatir, râvi sayısıyla ilgili bir sınıflamadır."
    ],
@@ -380,18 +380,18 @@
    "z": 1,
    "s": "Bir rivayet, Hz. Peygamber’e değil, sahabiden Abdullah b. Mes’ûd’a ait bir söz olarak nakledilmiştir.\n\nBu rivayet kaynağı bakımından hangi türe girer?",
    "c": [
-    "Mevkûf",
-    "Merfû",
     "Maktû’",
+    "Merfû",
+    "Mevkûf",
     "Mürsel",
     "Kudsî"
    ],
-   "d": 0,
+   "d": 2,
    "a": "Sahabeye ait söz, fiil ve takrîrler mevkûf hadis olarak adlandırılır.",
    "ac": [
-    "Doğru: sened sahabide durmuştur.",
-    "Merfû, Hz. Peygamber’e nispet edilen rivayettir.",
     "Maktû’ tâbiûna aittir.",
+    "Merfû, Hz. Peygamber’e nispet edilen rivayettir.",
+    "Doğru: sened sahabide durmuştur.",
     "Mürsel, tâbiînin sahabeyi atlayarak Hz. Peygamber’den nakletmesidir.",
     "Kudsî hadis Allah’a nispet edilir."
    ],
@@ -427,17 +427,17 @@
     "Garîb",
     "Azîz",
     "Manen mütevatir",
-    "Meşhur",
-    "Lafzen mütevatir"
+    "Lafzen mütevatir",
+    "Meşhur"
    ],
-   "d": 4,
+   "d": 3,
    "a": "Her tabakada tevatür sayısına ulaşan ve lafızları aynı olan rivayet lafzen mütevatirdir; bu hadis bunun en bilinen örneğidir.",
    "ac": [
     "Garîb, bir tabakada tek râvi olan hadistir.",
     "Azîz, her tabakada en az iki râvisi olan hadistir.",
     "Manen mütevatirde lafızlar farklı, ortak anlam tevatür derecesindedir.",
-    "Meşhur tevatür sayısına ulaşmaz.",
-    "Doğru: lafzı aynı, râvileri tevatür sayısında."
+    "Doğru: lafzı aynı, râvileri tevatür sayısında.",
+    "Meşhur tevatür sayısına ulaşmaz."
    ],
    "kay": "Buhârî, İlim, 38; Müslim, Mukaddime, 2"
   },
@@ -469,18 +469,18 @@
    "s": "Hz. Peygamber’in yağmur duası, sefer dönüşü ve çeşitli toplantılar gibi birbirinden farklı olaylarda dua ederken ellerini kaldırdığını anlatan çok sayıda rivayet vardır. Bu rivayetlerin lafızları birbirinden farklıdır; ancak hepsi Hz. Peygamber’in duada ellerini kaldırdığı noktasında birleşir.\n\nRivayetlerin birleştiği bu ortak bilgi nasıl nitelendirilir?",
    "c": [
     "Haber-i vâhid",
-    "Meşhur",
-    "Lafzen mütevatir",
     "Manen mütevatir",
+    "Lafzen mütevatir",
+    "Meşhur",
     "Azîz"
    ],
-   "d": 3,
+   "d": 1,
    "a": "Lafızları ve olayları farklı olsa da ortak bir noktada buluşan ve bu ortak noktası tevatür derecesine ulaşan rivayetlere manen mütevatir denir.",
    "ac": [
     "Haber-i vâhid, tevatür derecesine ulaşmayan haberdir.",
-    "Meşhur tevatür sayısına ulaşmaz.",
-    "Lafzen mütevatirde lafızlar aynı olmalıdır.",
     "Doğru: lafızlar farklı, ortak anlam tevatür derecesinde.",
+    "Lafzen mütevatirde lafızlar aynı olmalıdır.",
+    "Meşhur tevatür sayısına ulaşmaz.",
     "Azîz, her tabakada iki râvisi olan âhâd haberdir."
    ],
    "kay": "Hadis usulü: mütevatir çeşitleri"
@@ -491,17 +491,17 @@
    "s": "Bir tâbiî, hadisi kimden duyduğunu belirtmeden doğrudan “Resûlullah şöyle buyurdu” diyerek nakletmiştir.\n\nSenedinde bu tür bir eksiklik bulunan hadis aşağıdakilerden hangisidir?",
    "c": [
     "Muallak",
-    "Mürsel",
     "Mu’dal",
+    "Mürsel",
     "Munkatı’",
     "Müdelles"
    ],
-   "d": 1,
+   "d": 2,
    "a": "Tâbiînin aradaki sahabiyi atlayarak hadisi doğrudan Hz. Peygamber’e nispet etmesine irsâl, bu hadise mürsel denir. Hanefî ve Mâlikîler güvenilir tâbiînin mürselini delil kabul etmiştir.",
    "ac": [
     "Muallakta kopukluk senedin başındadır (müellif tarafı).",
-    "Doğru: senedin sonundan sahabi düşmüştür.",
     "Mu’dalda ortadan art arda iki veya daha fazla râvi düşer.",
+    "Doğru: senedin sonundan sahabi düşmüştür.",
     "Munkatı’da ortadan bir râvi düşer.",
     "Müdelleste kopukluk gizlenir; burada gizleme yoktur."
    ],
@@ -512,20 +512,20 @@
    "z": 2,
    "s": "Bir hadis müellifi, kendi hocalarını ve onların hocalarını atlayarak hadisi doğrudan bir sahabiden “… şöyle dedi” diye nakletmiştir.\n\nBu şekilde senedinin baş tarafı hazfedilmiş hadise ne ad verilir?",
    "c": [
-    "Muallak",
+    "Müdrec",
     "Mürsel",
     "Mu’dal",
     "Maktû’",
-    "Müdrec"
+    "Muallak"
    ],
-   "d": 0,
+   "d": 4,
    "a": "Senedin müellif tarafından (başından) bir veya daha fazla râvinin düşürülmesiyle oluşan hadise muallak denir. Buhârî’nin Sahîh’indeki bab başlıklarında bunun örnekleri vardır.",
    "ac": [
-    "Doğru: senedin başı hazfedilmiştir.",
+    "Müdrec, râvinin sözünün hadise karışmasıdır.",
     "Mürselde kopukluk senedin sonundadır.",
     "Mu’dalda kopukluk ortadadır.",
     "Maktû’ tâbiûna ait sözdür.",
-    "Müdrec, râvinin sözünün hadise karışmasıdır."
+    "Doğru: senedin başı hazfedilmiştir."
    ],
    "kay": "Hadis usulü: muallak"
   },
@@ -556,19 +556,19 @@
    "z": 2,
    "s": "Zayıf bir râvinin, güvenilir râvilerin rivayetine aykırı olarak naklettiği hadis ile buna karşılık güvenilir râvilerin naklettiği tercih edilen hadis aşağıdaki kavram çiftlerinden hangisiyle ifade edilir?",
    "c": [
-    "Şâz – Mahfûz",
+    "Münker – Ma’rûf",
     "Muhkem – Muhtelif",
     "Mütâbi’ – Şâhid",
-    "Münker – Ma’rûf",
+    "Şâz – Mahfûz",
     "Nâsih – Mensûh"
    ],
-   "d": 3,
+   "d": 0,
    "a": "Zayıf râvinin güvenilirlere aykırı rivayeti münker, karşısındaki tercih edilen rivayet ma’rûftur. Aykırı rivayet eden güvenilir bir râvi olsaydı şâz – mahfûz çifti söz konusu olurdu.",
    "ac": [
-    "Şâz’da aykırı rivayet eden râvi güvenilirdir; burada zayıftır.",
+    "Doğru: zayıf → münker, tercih edilen → ma’rûf.",
     "Muhkem – muhtelif, çelişki bulunup bulunmamasıyla ilgilidir.",
     "Mütâbi’ – şâhid destekleyici rivayetlerdir.",
-    "Doğru: zayıf → münker, tercih edilen → ma’rûf.",
+    "Şâz’da aykırı rivayet eden râvi güvenilirdir; burada zayıftır.",
     "Nâsih – mensûh hükmün kaldırılmasıyla ilgilidir."
    ],
    "kay": "İbn Hacer, Nuhbetü’l-fiker"
@@ -580,17 +580,17 @@
    "c": [
     "Maklûb",
     "Muztarib",
-    "Müdrec",
     "Musahhaf",
+    "Müdrec",
     "Muallel"
    ],
-   "d": 2,
+   "d": 3,
    "a": "Râvinin kendi sözünü hadisin içine katmasına idrâc, bu hadise müdrec denir.",
    "ac": [
     "Maklûbda kelime veya isimlerin yeri değişir.",
     "Muztaribde denk farklı rivayetler tercih edilemez.",
-    "Doğru: râvinin sözü hadise karışmıştır.",
     "Musahhafta noktalar değişir.",
+    "Doğru: râvinin sözü hadise karışmıştır.",
     "Muallelde gizli bir illet vardır; idrâc bunun özel bir adıdır."
    ],
    "kay": "Hadis usulü: müdrec"
@@ -623,19 +623,19 @@
    "s": "Bir hadis, birbirine denk güçte birkaç farklı şekilde rivayet edilmiştir. Rivayetler arasındaki farklılık anlamı etkileyecek düzeydedir; âlimler hiçbirini diğerine tercih edecek bir sebep bulamamış, rivayetleri uzlaştıramamıştır.\n\nBu durumdaki hadise ne ad verilir?",
    "c": [
     "Şâz",
-    "Muztarib",
+    "Münker",
     "Maklûb",
     "Muallel",
-    "Münker"
+    "Muztarib"
    ],
-   "d": 1,
+   "d": 4,
    "a": "Denk güçteki farklı rivayetlerden hiçbirinin tercih edilemediği ve uzlaştırılamadığı hadise muztarib denir. Biri tercih edilebilseydi tercih edilen mahfûz veya ma’rûf, diğeri şâz veya münker olurdu.",
    "ac": [
     "Şâzda güçlü olan rivayet tercih edilir; burada tercih yapılamıyor.",
-    "Doğru: tercih edilemeyen denk farklılık ıztıraptır.",
+    "Münkerde zayıf râvi güvenilirlere aykırıdır; denklik yoktur.",
     "Maklûbda belirli bir takdim-tehir hatası tespit edilir.",
     "Muallelde gizli bir kusur bulunur; burada sorun açık bir farklılıktır.",
-    "Münkerde zayıf râvi güvenilirlere aykırıdır; denklik yoktur."
+    "Doğru: tercih edilemeyen denk farklılık ıztıraptır."
    ],
    "kay": "Hadis usulü: muztarib"
   },
@@ -645,19 +645,19 @@
    "s": "Hadis kitaplarını karşılaştıran bir araştırmacı, aynı hadisin bir nüshasında bir kelimenin noktalarının farklı konulmasıyla bambaşka bir kelimeye dönüştüğünü tespit etmiştir.\n\nBu hata türünü taşıyan hadise ne ad verilir?",
    "c": [
     "Muharref",
-    "Müdrec",
+    "Musahhaf",
     "Maktû’",
     "Mu’dal",
-    "Musahhaf"
+    "Müdrec"
    ],
-   "d": 4,
+   "d": 1,
    "a": "Kelimenin noktalarının değiştirilmesi tashîf, bu hadis musahhaftır. Harekelerin veya şeklin değiştirilmesi ise tahrîf (muharref) olarak adlandırılır.",
    "ac": [
     "Muharrefte değişen harekelerdir.",
-    "Müdrecte metne râvinin sözü karışır.",
+    "Doğru: nokta değişikliği tashîftir.",
     "Maktû’ tâbiûna ait sözdür.",
     "Mu’dal senetteki kopukluktur.",
-    "Doğru: nokta değişikliği tashîftir."
+    "Müdrecte metne râvinin sözü karışır."
    ],
    "kay": "Hadis usulü: musahhaf ve muharref"
   },
@@ -668,17 +668,17 @@
    "c": [
     "Cem’ ve te’lîf",
     "Tevakkuf",
-    "Tercih",
     "Nesh",
+    "Tercih",
     "İ’tibâr"
    ],
-   "d": 3,
+   "d": 2,
    "a": "Muhtelif hadislerde önce cem’ denenir. Uzlaştırma mümkün değilse ve hangisinin sonra geldiği biliniyorsa sonraki öncekinin hükmünü kaldırır (nesh). Tarih bilinmiyorsa tercihe, o da olmuyorsa tevakkufa gidilir.",
    "ac": [
     "Cem’ denenmiş, sonuç vermemiştir.",
     "Tevakkuf son çaredir; burada tarih bilindiği için gerek yoktur.",
-    "Tercih, tarih bilinmediğinde yapılır.",
     "Doğru: tarih bilindiği için nesh uygulanır.",
+    "Tercih, tarih bilinmediğinde yapılır.",
     "İ’tibâr, bir hadisin başka yollarını araştırmaktır; çelişki çözme yolu değildir."
    ],
    "kay": "Şâfiî, İhtilâfü’l-hadîs; İbn Kuteybe, Te’vîlü muhtelifi’l-hadîs"
@@ -691,17 +691,17 @@
     "Mütâbi’",
     "Mahfûz",
     "Ma’rûf",
-    "Müsned",
-    "Şâhid"
+    "Şâhid",
+    "Müsned"
    ],
-   "d": 4,
+   "d": 3,
    "a": "Aynı sahabiden başka bir yolla gelen destekleyici rivayet mütâbi’, farklı bir sahabiden gelen ve aynı anlamı taşıyan rivayet şâhiddir.",
    "ac": [
     "Mütâbi’de sahabi aynıdır; yalnız alt tabakalar farklıdır.",
     "Mahfûz, şâzın karşısındaki tercih edilen rivayettir.",
     "Ma’rûf, münkerin karşısındaki tercih edilen rivayettir.",
-    "Müsned, senedi Hz. Peygamber’e kadar bağlantılı hadis veya bir eser türüdür.",
-    "Doğru: farklı sahabiden gelen aynı anlamlı rivayet şâhiddir."
+    "Doğru: farklı sahabiden gelen aynı anlamlı rivayet şâhiddir.",
+    "Müsned, senedi Hz. Peygamber’e kadar bağlantılı hadis veya bir eser türüdür."
    ],
    "kay": "Hadis usulü: i’tibâr, mütâbi’, şâhid"
   },

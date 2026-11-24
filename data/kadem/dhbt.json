@@ -172,6 +172,11 @@
       "ad": "Şîa ve Kolları, Bâtınî Gruplar ve Modern Dönem Akımları",
       "oncelik": 3,
       "konu": "mezhep-1"
+     },
+     {
+      "ad": "Mezhepler Tarihine Giriş, Hâricîler, Mürcie, Cebriyye-Kaderiyye, Ehl-i Sünnet ve Tasavvufî Yapılar",
+      "oncelik": 3,
+      "konu": "mezhep-2"
      }
     ]
    },
@@ -183,6 +188,11 @@
       "ad": "Dinler Tarihi: Yahudilik, Hristiyanlık, Hint ve Uzak Doğu Dinleri, Sâbiîlik",
       "oncelik": 3,
       "konu": "dinler-1"
+     },
+     {
+      "ad": "Dinler Tarihine Giriş, Din Teorileri, Eski Türk, Çin-Japon Dinleri ve Yeni Dinî Hareketler",
+      "oncelik": 2,
+      "konu": "dinler-2"
      }
     ]
    },
@@ -270,7 +280,13 @@
    "ref": "mezhep-1"
   },
   {
+   "ref": "mezhep-2"
+  },
+  {
    "ref": "dinler-1"
+  },
+  {
+   "ref": "dinler-2"
   },
   {
    "ref": "hitabet-1"

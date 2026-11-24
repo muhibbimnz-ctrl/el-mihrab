@@ -135,7 +135,22 @@
   {
    "b": "5. Kesim (zebh) ve av"
   },
-  "Kesimde besmele çekilir ve hayvanın yemek borusu, nefes borusu ve iki şah damarından en az üçü kesilir (Ebû Hanîfe). Besmeleyi kasten terk ederek kesilen hayvan Hanefîlere göre yenmez; unutarak terk edilmişse yenir. Ehl-i kitabın kestiği hayvanlar helaldir (Mâide, 5/5). Eğitilmiş köpek veya doğanla besmele çekilerek avlanan av, avcı yetişmeden ölmüşse yenir."
+  "Kesimde besmele çekilir ve hayvanın yemek borusu, nefes borusu ve iki şah damarından en az üçü kesilir (Ebû Hanîfe). Besmeleyi kasten terk ederek kesilen hayvan Hanefîlere göre yenmez; unutarak terk edilmişse yenir. Ehl-i kitabın kestiği hayvanlar helaldir (Mâide, 5/5). Eğitilmiş köpek veya doğanla besmele çekilerek avlanan av, avcı yetişmeden ölmüşse yenir.",
+  {
+   "b": "Sık sorulan ek bilgiler"
+  },
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Bilgi"
+    ],
+    [
+     "Mün‘akide yemin",
+     "Gelecekte bir şeyi yapma ya da yapmama üzerine bilerek edilen yemin; bozulursa keffâret gerekir. Gamûs: geçmiş hakkında bile bile yalan yemin, keffâreti yok, tövbe gerekir. Lağv: kasıtsız ya da doğru sanılarak edilen yemin"
+    ]
+   ]
+  }
  ],
  "ozet": [
   "Adak vacip; mutlak veya şarta bağlı (muallak) olur.",
@@ -437,6 +452,160 @@
     "Yemin geçerlidir."
    ],
    "kay": "Mâide, 5/89; Müslim, Eymân, 11"
+  },
+  {
+   "id": "f8-12",
+   "z": 1,
+   "s": "Allah adına gelecekte bir şeyi yapacağına ya da yapmayacağına dair edilen ve bozulduğunda keffâret gerektiren yemin hangisidir?",
+   "c": [
+    "Gamûs",
+    "Lağv",
+    "Ta‘lîk",
+    "Mün‘akide",
+    "İstisnâlı yemin"
+   ],
+   "d": 3,
+   "a": "Mün‘akide yemini bozan keffâret öder (Mâide 5/89).",
+   "ac": [
+    "Geçmiş hakkında bile bile yalan yemindir; keffâreti yoktur, tövbe gerekir.",
+    "Düşünmeden ağızdan çıkan ya da doğru sanılarak edilen yemindir.",
+    "Bir şarta bağlı yemindir; ayrıca değerlendirilir.",
+    "Gelecekle ilgili bağlayıcı yemindir.",
+    "“İnşallah” denen yemin bağlayıcı olmaz."
+   ],
+   "kay": "Mâide, 5/89"
+  },
+  {
+   "id": "f8-13",
+   "z": 2,
+   "s": "Hanefî mezhebine göre yemin keffâreti olarak tutulacak oruçla ilgili hangisi doğrudur?",
+   "c": [
+    "On gün, ara verilebilir.",
+    "Altmış gün, peş peşe.",
+    "Bir ay.",
+    "Üç gün, ara verilebilir.",
+    "Üç gün, peş peşe."
+   ],
+   "d": 4,
+   "a": "Oruca ancak doyurma, giydirme ve köle azat etmeye gücü yetmeyen geçebilir.",
+   "ac": [
+    "Sayı yanlıştır.",
+    "Bu oruç ve zıhâr keffâretidir.",
+    "Yanlıştır.",
+    "Hanefîlerde peş peşe olmalıdır.",
+    "Hanefîlere göre üç gün ardı ardına tutulur."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f8-14",
+   "z": 2,
+   "s": "Hanefî mezhebine göre adağın geçerli olması için aranan şartlardan biri hangisidir?",
+   "c": [
+    "Adanan şeyin cinsinden farz ya da vacip bir ibadet bulunması",
+    "Adanan şeyin bir günah olması",
+    "Adağın mutlaka camide yapılması",
+    "Adağın bir hastanın iyileşmesine bağlanması",
+    "Adanan şeyin zaten farz olan bir ibadet olması"
+   ],
+   "d": 0,
+   "a": "Ayrıca adanan şey bir ibadet olmalı ve mülkiyette bulunan ya da yapılabilecek bir şey olmalıdır.",
+   "ac": [
+    "Adağın şartlarındandır.",
+    "Günah adanamaz.",
+    "Böyle bir şart yoktur.",
+    "Şarta bağlanabilir ama zorunlu değildir.",
+    "Farz olan şey adanmaz."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f8-15",
+   "z": 2,
+   "s": "Hanefî mezhebine göre kesim esnasında besmeleyi unutarak terk etmenin hükmü nedir?",
+   "c": [
+    "Hayvan leş hükmündedir.",
+    "Hayvanın eti yenir.",
+    "Hayvan ancak fakirlere verilir.",
+    "Eti mekruhtur.",
+    "Kesim yeniden yapılır."
+   ],
+   "d": 1,
+   "a": "Besmeleyi kasten terk etmek ise Hanefîlere göre eti haram kılar.",
+   "ac": [
+    "Kasten terkte böyledir.",
+    "Unutarak terk etmek etin yenmesine engel değildir.",
+    "Yanlıştır.",
+    "Yanlıştır.",
+    "Mümkün değildir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f8-16",
+   "z": 2,
+   "s": "Hanefî mezhebine göre kesimde kesilmesi gereken dört organdan (yemek borusu, hava borusu ve iki şah damarı) en az kaçının kesilmesi yeterlidir?",
+   "c": [
+    "Biri",
+    "İkisi",
+    "Dördü de mutlaka",
+    "Üçü",
+    "Yalnız şah damarları"
+   ],
+   "d": 3,
+   "a": "Kesimin amacı kanın tamamen akıtılmasıdır.",
+   "ac": [
+    "Yetmez.",
+    "Yetmez.",
+    "Tamamı müstehaptır, şart değildir.",
+    "Ebû Hanîfe’ye göre dördünden herhangi üçü yeterlidir.",
+    "Yetmez."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f8-17",
+   "z": 2,
+   "s": "Hanefî mezhebine göre aşağıdaki hayvanlardan hangisinin eti yenmez?",
+   "c": [
+    "Pençeli yırtıcı kuşlar (kartal, şahin)",
+    "Geyik",
+    "Tavşan",
+    "Bıldırcın",
+    "Çekirge"
+   ],
+   "d": 0,
+   "a": "Azı dişiyle avlanan yırtıcı hayvanlar ve pençeli yırtıcı kuşlar haramdır (Müslim, Sayd, 16).",
+   "ac": [
+    "Pençesiyle avlanan kuşlar haramdır.",
+    "Yenir.",
+    "Yenir.",
+    "Yenir.",
+    "Kesilmeden yenir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f8-18",
+   "z": 1,
+   "s": "Mâide suresi 3. ayette haram kılınanlar arasında aşağıdakilerden hangisi sayılmaz?",
+   "c": [
+    "Leş",
+    "Akıtılmış kan",
+    "Deniz avı",
+    "Allah’tan başkası adına kesilen",
+    "Domuz eti"
+   ],
+   "d": 2,
+   "a": "Ayette boğulmuş, vurularak, yüksekten düşerek ölmüş, boynuzlanmış ve yırtıcının yediği hayvanlar da sayılır.",
+   "ac": [
+    "Sayılmıştır.",
+    "Sayılmıştır.",
+    "Deniz avı helal kılınmıştır (Mâide 5/96).",
+    "Sayılmıştır.",
+    "Sayılmıştır."
+   ],
+   "kay": "Mâide, 5/3"
   }
  ]
 }

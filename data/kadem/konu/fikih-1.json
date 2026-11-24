@@ -243,6 +243,25 @@
   },
   {
    "not": "Sınavda sık çeldirici: sefeh ve sarhoşluk kişinin kendi tutumundan doğar, müktesep arızadır; uyku, unutma, cünun ve ateh semâvîdir."
+  },
+  {
+   "b": "Sık sorulan ek bilgiler"
+  },
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Bilgi"
+    ],
+    [
+     "Mekruh tahrîmî",
+     "Zannî delille sabit kesin yasak; vacibin karşılığı, harama yakın. Mekruh tenzîhî ise helale yakındır"
+    ],
+    [
+     "Muvessa’ / mudayyak vakit",
+     "Namaz vakti geniştir (muvessa’): vakit içinde başka namaz da kılınabilir. Ramazan ayı oruç için dardır (mudayyak). Hac vakti iki yönlüdür (müşkil)"
+    ]
+   ]
   }
  ],
  "ozet": [
@@ -622,6 +641,160 @@
     "Doğru: güzel görülen, terkine kınama olmayan davranış."
    ],
    "kay": "Fıkıh usulü: teklifî hüküm"
+  },
+  {
+   "id": "f1-15",
+   "z": 1,
+   "s": "Aşağıdakilerden hangisi farz-ı ayna örnektir?",
+   "c": [
+    "Cenaze namazı",
+    "Selam almak",
+    "Ezan okumak",
+    "Beş vakit namaz",
+    "İlim öğrenmenin uzmanlık düzeyi"
+   ],
+   "d": 3,
+   "a": "Farz-ı ayn her mükellefin şahsen yapması gerekendir; kifâyede bazılarının yapmasıyla diğerlerinden sorumluluk düşer.",
+   "ac": [
+    "Farz-ı kifâyedir.",
+    "Topluluğa verilen selamı almak kifâyedir.",
+    "Sünnet-i müekkede / şiar.",
+    "Her mükellefin bizzat yapması gereken farzdır.",
+    "Toplum adına kifâyedir; temel bilgiler ise aynîdir."
+   ],
+   "kay": "Fıkıh usulü (Hanefî)"
+  },
+  {
+   "id": "f1-16",
+   "z": 2,
+   "s": "Hanefî mezhebine göre zannî bir delille yasaklandığı sabit olan ve harama yakın kabul edilen hükme ne ad verilir?",
+   "c": [
+    "Mekruh tenzîhî",
+    "Mendup",
+    "Mubah",
+    "Haram li-aynihi",
+    "Mekruh tahrîmî"
+   ],
+   "d": 4,
+   "a": "Hanefîlerde kat’î delille sabit yasak haram, zannî delille sabit kesin yasak mekruh tahrîmîdir; vacibin karşılığıdır.",
+   "ac": [
+    "Helale yakındır.",
+    "Yapılması istenen fiildir.",
+    "Yapılıp yapılmaması serbesttir.",
+    "Kat’î delille sabittir.",
+    "Zannî delille sabit kesin yasaktır; harama yakındır."
+   ],
+   "kay": "Fıkıh usulü (Hanefî)"
+  },
+  {
+   "id": "f1-17",
+   "z": 2,
+   "s": "Yolculukta Ramazan orucunu tutmayıp daha sonra kaza etmek aşağıdakilerden hangisine örnektir?",
+   "c": [
+    "Ruhsat",
+    "Azimet",
+    "Fâsit",
+    "Bâtıl",
+    "Mâni"
+   ],
+   "d": 0,
+   "a": "Ruhsat, özür sebebiyle asıl hükümden ayrılmaya verilen izindir.",
+   "ac": [
+    "Bir özür sebebiyle tanınan kolaylıktır.",
+    "Azimet asıl hükümdür; yolculukta oruç tutmak azimettir.",
+    "Akitlerle ilgili bir kavramdır.",
+    "Hükümsüz işlemdir.",
+    "Hükmün doğmasını engelleyen vaz’î hükümdür."
+   ],
+   "kay": "Fıkıh usulü"
+  },
+  {
+   "id": "f1-18",
+   "z": 2,
+   "s": "Kasten murisini öldüren kişinin mirastan mahrum kalması vaz’î hükümlerden hangisine örnektir?",
+   "c": [
+    "Sebep",
+    "Şart",
+    "Ruhsat",
+    "Mâni",
+    "Azimet"
+   ],
+   "d": 3,
+   "a": "Mâni, varlığı hükmün yokluğunu gerektiren durumdur.",
+   "ac": [
+    "Akrabalık ve evlilik mirasın sebebidir.",
+    "Murisin ölümü ve mirasçının hayatta olması şarttır.",
+    "Kolaylık hükmüdür.",
+    "Öldürme, sebep bulunduğu hâlde mirası engeller.",
+    "Asıl hükümdür."
+   ],
+   "kay": "Fıkıh usulü"
+  },
+  {
+   "id": "f1-19",
+   "z": 2,
+   "s": "Temyiz çağındaki (yaklaşık yedi yaş) bir çocuğun kendisine yarar sağlayan bir hediyeyi kabul etmesinin geçerli olması onun hangi ehliyetiyle ilgilidir?",
+   "c": [
+    "Tam vücûb ehliyeti",
+    "Tam edâ ehliyeti",
+    "Eksik (nâkıs) edâ ehliyeti",
+    "Nâkıs vücûb ehliyeti",
+    "Ehliyetsizlik"
+   ],
+   "d": 2,
+   "a": "Mümeyyiz çocuğun tamamen yararına işlemleri geçerli, zararına olanlar geçersiz, yarar-zarar arasında olanlar velinin iznine bağlıdır.",
+   "ac": [
+    "Vücûb ehliyeti doğumla tamdır; ama burada söz konusu olan işlem yapma ehliyetidir.",
+    "Akıl ve bulûğ ile kazanılır.",
+    "Mümeyyiz çocuğun yararına işlemleri geçerlidir.",
+    "Ceninin ehliyetidir.",
+    "Mümeyyiz çocuğun sınırlı ehliyeti vardır."
+   ],
+   "kay": "Fıkıh usulü"
+  },
+  {
+   "id": "f1-20",
+   "z": 1,
+   "s": "Hanefî mezhebine göre abdestsiz kılınan namazın hükmü nedir?",
+   "c": [
+    "Mekruh",
+    "Bâtıl",
+    "Sahih ama eksik",
+    "Fâsit ama sevaplı",
+    "Mendup"
+   ],
+   "d": 1,
+   "a": "Hanefîler fâsit-bâtıl ayrımını yalnız muamelatta yapar; ibadette ikisi aynıdır.",
+   "ac": [
+    "Namaz geçersizdir.",
+    "İbadetlerde fâsit ile bâtıl aynı anlamdadır; namaz geçersizdir.",
+    "Şart eksik olduğu için sahih değildir.",
+    "Böyle bir ayrım yoktur.",
+    "Hüküm değil fiil nitelemesidir."
+   ],
+   "kay": "Fıkıh usulü (Hanefî)"
+  },
+  {
+   "id": "f1-21",
+   "z": 3,
+   "s": "Namaz vaktinin, o vaktin farzı kılındıktan sonra aynı türden başka namazların da kılınabileceği kadar geniş olması nedeniyle “muvessa’ vakit” olarak adlandırılması, vacibin hangi taksimiyle ilgilidir?",
+   "c": [
+    "Muayyen – gayrimuayyen",
+    "Vakitle sınırlı (mukayyed) vacipte vaktin genişliği",
+    "Muhayyer – muayyen",
+    "Aynî – kifâî",
+    "Muhaddet – gayrimuhaddet"
+   ],
+   "d": 1,
+   "a": "Namaz vakti muvessa’, Ramazan ayı oruç için mudayyak, hac vakti ise iki yönlü (müşkil) kabul edilir.",
+   "ac": [
+    "Mükellefin yapacağı şeyin belirli olup olmamasıyla ilgilidir.",
+    "Muvessa’ ve mudayyak vakit ayrımıdır.",
+    "Seçenekli vacip ile ilgilidir.",
+    "Mükellefle ilgili ayrımdır.",
+    "Miktarı belirli olup olmamasıyla ilgilidir."
+   ],
+   "kay": "Fıkıh usulü (Hanefî)"
   }
  ]
 }

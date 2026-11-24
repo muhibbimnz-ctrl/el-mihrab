@@ -254,6 +254,21 @@
      "Evet"
     ]
    ]
+  },
+  {
+   "b": "Sık sorulan ek bilgiler"
+  },
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Bilgi"
+    ],
+    [
+     "Hac ayları",
+     "Şevval, Zilkade ve Zilhicce’nin ilk on günü (Bakara 2/197)"
+    ]
+   ]
   }
  ],
  "ozet": [
@@ -591,6 +606,182 @@
     "Doğru."
    ],
    "kay": "Buhârî, Hac, 145"
+  },
+  {
+   "id": "f7-13",
+   "z": 1,
+   "s": "Haccın yapıldığı aylar (eşhür-i hac) hangileridir?",
+   "c": [
+    "Muharrem, Safer, Rebîülevvel",
+    "Recep, Şaban, Ramazan",
+    "Şevval, Zilkade ve Zilhicce’nin ilk on günü",
+    "Yalnız Zilhicce",
+    "Zilkade ve Muharrem"
+   ],
+   "d": 2,
+   "a": "“Hac bilinen aylardadır” (Bakara 2/197).",
+   "ac": [
+    "Yanlıştır.",
+    "Yanlıştır.",
+    "Hac ayları bunlardır.",
+    "Hac ihramı Şevval’den itibaren giyilebilir.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f7-14",
+   "z": 2,
+   "s": "Hanefî mezhebine göre aşağıdaki tavaflardan hangisi vaciptir?",
+   "c": [
+    "Veda (sader) tavafı",
+    "Ziyaret (ifâda) tavafı",
+    "Kudûm tavafı",
+    "Nafile tavaf",
+    "Umre tavafı"
+   ],
+   "d": 0,
+   "a": "Hayızlı kadından veda tavafı düşer.",
+   "ac": [
+    "Mîkat dışından gelenler için vaciptir.",
+    "Haccın rüknüdür (farzdır).",
+    "Sünnettir.",
+    "Nafiledir.",
+    "Umrenin rüknüdür."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f7-15",
+   "z": 2,
+   "s": "Hanefî mezhebine göre kurban kesmenin vacip olması için aranan şartlar arasında hangisi yoktur?",
+   "c": [
+    "Müslüman olmak",
+    "Mukim olmak",
+    "Fıtır sadakası nisabına sahip olmak",
+    "Hacca gitmiş olmak",
+    "Hür olmak"
+   ],
+   "d": 3,
+   "a": "Kurban Hanefîlere göre vacip, diğer üç mezhebe göre sünnet-i müekkededir.",
+   "ac": [
+    "Şarttır.",
+    "Yolcuya kurban vacip değildir.",
+    "Şarttır.",
+    "Böyle bir şart yoktur.",
+    "Şarttır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f7-16",
+   "z": 1,
+   "s": "Bayram günlerinde kurban kesme vakti ne zaman sona erer?",
+   "c": [
+    "Bayramın birinci günü akşamı",
+    "Bayramın üçüncü günü güneş batmadan önce",
+    "Bayramın ikinci günü akşamı",
+    "Bayramın dördüncü günü güneş batmadan önce",
+    "Zilhicce ayının sonu"
+   ],
+   "d": 1,
+   "a": "Şehirlerde kurban bayram namazından sonra kesilir.",
+   "ac": [
+    "Yanlıştır.",
+    "Hanefîlerde kurban üç gün kesilir.",
+    "Yanlıştır.",
+    "Şâfiîlerde dördüncü gün de vakittir.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f7-17",
+   "z": 2,
+   "s": "Haccın vaciplerinden olan ve bayram gecesi yapılan vakfe hangisidir?",
+   "c": [
+    "Arafat vakfesi",
+    "Zemzem içmek",
+    "Mina’da gecelemek",
+    "Kudûm tavafı",
+    "Müzdelife vakfesi"
+   ],
+   "d": 4,
+   "a": "Müzdelife vakfesinin vakti bayram sabahı fecirden güneş doğuncaya kadardır.",
+   "ac": [
+    "Haccın rüknüdür.",
+    "Müstehaptır.",
+    "Sünnettir.",
+    "Sünnettir.",
+    "Hanefîlerde vaciptir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f7-18",
+   "z": 2,
+   "s": "Mîkat yerlerinden biri olan Zülhuleyfe hangi yönden gelenlerin ihrama girdiği yerdir?",
+   "c": [
+    "Şam ve Mısır",
+    "Necid",
+    "Medine",
+    "Yemen",
+    "Irak"
+   ],
+   "d": 2,
+   "a": "Zülhuleyfe (Ebyâr Ali) Mekke’ye en uzak mîkattır.",
+   "ac": [
+    "Onların mîkatı Cuhfe’dir.",
+    "Karnü’l-menâzil’dir.",
+    "Medine yönünden gelenlerin mîkatıdır.",
+    "Yelemlem’dir.",
+    "Zâtüırk’tır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f7-19",
+   "z": 3,
+   "s": "İhramlı bir kişinin kokulu bir şeyi bir uzvunun tamamına sürmesi hâlinde Hanefî mezhebine göre ne gerekir?",
+   "c": [
+    "Dem (koyun ya da keçi kesmek) gerekir.",
+    "Hiçbir şey gerekmez.",
+    "Bedene (deve veya sığır) gerekir.",
+    "Haccı bozulur.",
+    "Yalnız tövbe yeter."
+   ],
+   "d": 0,
+   "a": "Bir uzvun tamamından az bir yere koku sürmek ise sadaka gerektirir.",
+   "ac": [
+    "Tam bir uzva koku sürmek dem gerektirir.",
+    "İhram yasağı çiğnenmiştir.",
+    "Bedene ağır cinayetlerde gerekir.",
+    "Koku haccı bozmaz.",
+    "Ceza gerekir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f7-20",
+   "z": 2,
+   "s": "Kurban olarak kesilecek koyun için Hanefî mezhebine göre aranan yaş nedir?",
+   "c": [
+    "İki yaş",
+    "Beş yaş",
+    "Üç ay",
+    "Bir yaş; altı ayı geçmiş olup bir yaşındaki gibi gösterişli olanı da caizdir",
+    "Yaş şartı yoktur."
+   ],
+   "d": 3,
+   "a": "Keçi bir yaşını doldurmalıdır; altı aylık istisnası yalnız koyun için geçerlidir.",
+   "ac": [
+    "Sığırda aranan yaştır.",
+    "Devede aranan yaştır.",
+    "Yetmez.",
+    "Hanefî görüşüdür.",
+    "Yaş şartı vardır."
+   ],
+   "kay": "Hanefî ilmihal"
   }
  ]
 }

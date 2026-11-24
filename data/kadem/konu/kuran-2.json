@@ -614,6 +614,72 @@
     "Önceki harf ötrelidir; kalın."
    ],
    "kay": "Tecvid: lafzatullah"
+  },
+  {
+   "id": "k2-13",
+   "z": 1,
+   "s": "Sakin nun ya da tenvinden sonra boğaz harflerinden biri gelirse nun nasıl okunur?",
+   "c": [
+    "İklâb yapılır.",
+    "İhfâ edilir.",
+    "İdgam edilir.",
+    "İzhar edilir.",
+    "Kalkale yapılır."
+   ],
+   "d": 3,
+   "a": "İzhar harfleri: ء ه ع ح غ خ.",
+   "ac": [
+    "“ب”den önce olur.",
+    "İhfâ harflerinde olur.",
+    "“Yermelûn” harflerinde olur.",
+    "Boğaz harflerinden önce nun açıkça okunur.",
+    "Kalkale harflerine özgüdür."
+   ],
+   "kay": "Tecvid"
+  },
+  {
+   "id": "k2-14",
+   "z": 2,
+   "s": "Med harfinden sonra aynı kelimede şeddeli bir harf gelmesiyle oluşan ve dört-beş elif miktarı uzatılan med hangisidir?",
+   "c": [
+    "Medd-i muttasıl",
+    "Medd-i munfasıl",
+    "Medd-i tabiî",
+    "Medd-i ârız",
+    "Medd-i lâzım"
+   ],
+   "d": 4,
+   "a": "Örnek: الضَّٓالّ۪ينَ ve الْحَٓاقَّةُ.",
+   "ac": [
+    "Hemzeyle oluşur.",
+    "Hemze sonraki kelimededir.",
+    "Bir elif uzatılır.",
+    "Durma sebebiyle oluşur.",
+    "Sükûn ya da şedde sebebiyle oluşan medlerdir."
+   ],
+   "kay": "Tecvid"
+  },
+  {
+   "id": "k2-15",
+   "z": 2,
+   "s": "Ra harfiyle ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Üstün ya da ötreli ra kalın okunur.",
+    "Esreli ra ince okunur.",
+    "Ra harfi her durumda ince okunur.",
+    "Sakin ra’dan önceki harf esreli ise ra ince okunur (şartlarıyla).",
+    "Sakin ra’dan önce üstün varsa kalın okunur."
+   ],
+   "d": 2,
+   "a": "Ra’nın kalınlık-incelik hükmü önündeki harekeye göre değişir.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Ra hareke ve konumuna göre kalın ya da ince okunur.",
+    "Doğrudur.",
+    "Doğrudur."
+   ],
+   "kay": "Tecvid"
   }
  ]
 }

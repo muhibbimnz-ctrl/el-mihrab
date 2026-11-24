@@ -436,18 +436,18 @@
    "c": [
     "Kavlî sünnet",
     "Fiilî sünnet",
-    "Takrîrî sünnet",
+    "Mütevatir sünnet",
     "Vasfî sünnet",
-    "Mütevatir sünnet"
+    "Takrîrî sünnet"
    ],
-   "d": 2,
+   "d": 4,
    "a": "Hz. Peygamber’in huzurunda yapılan bir işi görüp sessiz kalması zımnî takrîrdir; takrîrî sünnet kapsamına girer.",
    "ac": [
     "Kavlî sünnet Hz. Peygamber’in kendi sözüdür; burada söz yok.",
     "Fiilî sünnet Hz. Peygamber’in bizzat yaptığı davranıştır; davranışı yapan sahabidir.",
-    "Doğru: görüp ses çıkarmamak zımnî takrîrdir.",
+    "Mütevatir bir çeşit değil, râvi sayısıyla ilgili bir sınıflamadır.",
     "Vasfî sünnet onun yaratılış ve ahlâk nitelikleridir.",
-    "Mütevatir bir çeşit değil, râvi sayısıyla ilgili bir sınıflamadır."
+    "Doğru: görüp ses çıkarmamak zımnî takrîrdir."
    ],
    "kay": "Hadis usulü: sünnetin çeşitleri"
   },
@@ -457,18 +457,18 @@
    "s": "Bir hadisin, onu birbirinden alarak Hz. Peygamber’e kadar ulaştıran kişilerin isimlerinden oluşan bölümüne ne ad verilir?",
    "c": [
     "Metin",
-    "Sened",
-    "Muhaddis",
     "Rihle",
+    "Muhaddis",
+    "Sened",
     "Müsnid"
    ],
-   "d": 1,
+   "d": 3,
    "a": "Hadisi taşıyan râviler zinciri senettir. Senedin ardından gelen söz, fiil veya takrîr ise metindir.",
    "ac": [
     "Metin, senedin ulaştırdığı sözün kendisidir.",
-    "Doğru: râviler zinciri senettir.",
-    "Muhaddis, hadisle uğraşan âlimdir.",
     "Rihle, hadis için yapılan yolculuktur.",
+    "Muhaddis, hadisle uğraşan âlimdir.",
+    "Doğru: râviler zinciri senettir.",
     "Müsnid, hadisi senediyle rivayet eden kişidir; zincirin adı değildir."
    ],
    "kay": "Hadis usulü: hadisin yapısı"
@@ -480,17 +480,17 @@
    "c": [
     "Adalet",
     "Mürûet",
-    "Tedlîs",
     "Zabt",
+    "Tedlîs",
     "İcâzet"
    ],
-   "d": 3,
+   "d": 2,
    "a": "Duyduğunu doğru biçimde koruyup aktarabilme yeteneği zabttır. Adalet ise râvinin dinî ve ahlâkî güvenilirliğidir.",
    "ac": [
     "Adalet, râvinin dinî ve ahlâkî durumuyla ilgilidir; hafızayla değil.",
     "Mürûet, adaletin bir parçasıdır; toplumca saygın davranışlara uymaktır.",
-    "Tedlîs, senetteki bir kusuru gizlemektir.",
     "Doğru: işittiğini koruyup aynen aktarmak zabttır.",
+    "Tedlîs, senetteki bir kusuru gizlemektir.",
     "İcâzet, hocanın rivayet izni vermesidir."
    ],
    "kay": "Hadis usulü: râvinin şartları"
@@ -501,19 +501,19 @@
    "s": "Bir hadis hocası, başka bir şehirde yaşayan talebesinin isteği üzerine bazı hadislerini kendi eliyle yazıp ona göndermiştir.\n\nTalebenin bu hadisleri alma yolu aşağıdakilerden hangisidir?",
    "c": [
     "Semâ’",
-    "Kıraat",
+    "Kitâbet",
     "Vicâde",
     "İ’lâm",
-    "Kitâbet"
+    "Kıraat"
    ],
-   "d": 4,
+   "d": 1,
    "a": "Hocanın hadis yazıp yanındaki veya uzaktaki talebesine göndermesi kitâbet (mükâtebe) yoludur.",
    "ac": [
     "Semâ’da talebe hocayı bizzat dinler.",
-    "Kıraatte talebe hocaya okur.",
+    "Doğru: yazıp göndermek kitâbettir.",
     "Vicâdede hocayla bağlantı yoktur; yazı bulunur.",
     "İ’lâmda hoca yalnızca “bu benim rivayetimdir” diye bildirir.",
-    "Doğru: yazıp göndermek kitâbettir."
+    "Kıraatte talebe hocaya okur."
    ],
    "kay": "Hadis usulü: tahammül yolları"
   },
@@ -544,19 +544,19 @@
    "z": 2,
    "s": "Hadis rivayet etmek için hocalarını kuşaklar boyunca daha az aracıyla Hz. Peygamber’e ulaşan bir senetle hadis almak isteyen hadisçiler, bu amaçla uzak şehirlere yolculuklar yapmıştır.\n\nBu hadisçilerin elde etmek istedikleri isnad türü aşağıdakilerden hangisidir?",
    "c": [
-    "Nâzil isnad",
+    "Âlî isnad",
     "Mürsel isnad",
     "Munkatı isnad",
-    "Âlî isnad",
+    "Nâzil isnad",
     "Müselsel isnad"
    ],
-   "d": 3,
+   "d": 0,
    "a": "Az sayıda râviyle Hz. Peygamber’e ulaşan senede âlî isnad denir. Aracı azaldıkça hata ihtimali düştüğü için âlî isnad değerli görülmüş ve rihlenin önemli sebeplerinden biri olmuştur.",
    "ac": [
-    "Nâzil isnad, aracısı çok olan senettir; istenenin tersidir.",
+    "Doğru: az aracılı sened âlî isnaddır.",
     "Mürsel bir kopukluk türüdür; istenen bir şey değildir.",
     "Munkatı, senette kopukluk olmasıdır; kusurdur.",
-    "Doğru: az aracılı sened âlî isnaddır.",
+    "Nâzil isnad, aracısı çok olan senettir; istenenin tersidir.",
     "Müselsel, râvilerin aynı tavır veya ifadeyi tekrarladığı senettir."
    ],
    "kay": "Hadis usulü: isnad türleri; rihle"
@@ -590,17 +590,17 @@
    "c": [
     "Kizb",
     "Fısk",
-    "Bid’at",
     "Vehim",
+    "Bid’at",
     "Cehâlet"
    ],
-   "d": 3,
+   "d": 2,
    "a": "Vehim, râvinin yanılarak hata yapmasıdır ve zabtla ilgilidir. Kizb, fısk, bid’at ve cehâlet adaletle ilgili kusurlardır.",
    "ac": [
     "Kizb (hadiste yalan) adaleti doğrudan zedeler.",
     "Fısk (dinin emir ve yasaklarına aykırı yaşamak) adaletle ilgilidir.",
-    "Bid’at, inanç bakımından bir kusurdur; adalet grubundadır.",
     "Doğru: vehim hafıza ve dikkatle ilgilidir, yani zabt kusurudur.",
+    "Bid’at, inanç bakımından bir kusurdur; adalet grubundadır.",
     "Cehâlet, râvinin kim olduğunun bilinmemesidir; adalet grubunda sayılır."
    ],
    "kay": "İbn Hacer, Nuhbetü’l-fiker (metâin-i aşere)"
@@ -610,19 +610,19 @@
    "z": 2,
    "s": "Bir hadisin senedinde “… bize bir adam haber verdi ki …” ifadesi geçmektedir.\n\nSenette bu şekilde adı verilmeden anılan râviye ne ad verilir?",
    "c": [
-    "Mübhem",
+    "Müdellis",
     "Mestur",
     "Mechulü’l-ayn",
-    "Müdellis",
+    "Mübhem",
     "Metruk"
    ],
-   "d": 0,
+   "d": 3,
    "a": "Senette ismi zikredilmeyen râviye mübhem denir. Kimliği bilinmediği için güvenilirliği de tespit edilemez.",
    "ac": [
-    "Doğru: adı verilmeyen râvi mübhemdir.",
+    "Müdellis, senetteki bir kusuru gizleyen râvidir.",
     "Mestur, adı bilinen ama güvenilirliği tespit edilemeyen râvidir.",
     "Mechulü’l-ayn, adı bilinen ama kendisinden yalnızca bir kişinin rivayet ettiği râvidir.",
-    "Müdellis, senetteki bir kusuru gizleyen râvidir.",
+    "Doğru: adı verilmeyen râvi mübhemdir.",
     "Metruk, yalancılıkla itham edilen râvinin rivayetidir."
    ],
    "kay": "Hadis usulü: cehâletü’r-râvi"
@@ -655,19 +655,19 @@
    "s": "Râvinin, işittiği hadisleri doğru şekilde yazması ve kitabını değişikliğe karşı koruyarak ondan rivayet etmesi hadis usulünde nasıl adlandırılır?",
    "c": [
     "Zabt-ı sadr",
-    "Adalet",
+    "Zabt-ı kitâb",
     "İcâzet",
     "Mürûet",
-    "Zabt-ı kitâb"
+    "Adalet"
    ],
-   "d": 4,
+   "d": 1,
    "a": "Zabt ikiye ayrılır: ezberine güvenen râvinin zabtı zabt-ı sadr, yazdığı kitabı doğru tutan râvinin zabtı zabt-ı kitâbdır.",
    "ac": [
     "Zabt-ı sadr ezberle ilgilidir.",
-    "Adalet, dinî ve ahlâkî güvenilirliktir.",
+    "Doğru: yazıya dayalı zabt, zabt-ı kitâbdır.",
     "İcâzet bir tahammül yoludur.",
     "Mürûet adaletin parçasıdır.",
-    "Doğru: yazıya dayalı zabt, zabt-ı kitâbdır."
+    "Adalet, dinî ve ahlâkî güvenilirliktir."
    ],
    "kay": "Hadis usulü: zabt"
   },
@@ -676,20 +676,20 @@
    "z": 2,
    "s": "Aşağıdaki ifadelerden hangisi hadisçilerin bir râviyi güvenilir bulduklarını gösteren bir ta’dil lafzıdır?",
    "c": [
-    "Kezzâb",
+    "Sikatün sebt",
     "Metrûkü’l-hadîs",
     "Vaddâ’",
     "Münkerü’l-hadîs",
-    "Sikatün sebt"
+    "Kezzâb"
    ],
-   "d": 4,
+   "d": 0,
    "a": "“Sika” ve “sebt” en üst ta’dil lafızlarındandır. Diğer seçenekler râviyi ağır biçimde yaralayan cerh lafızlarıdır.",
    "ac": [
-    "Kezzâb “çok yalancı” demektir; ağır bir cerhtir.",
+    "Doğru: “güvenilir ve sağlam” anlamında ta’dil lafzıdır.",
     "Metrûkü’l-hadîs, hadisi terk edilmiş râvi için kullanılır.",
     "Vaddâ’ “hadis uyduran” demektir; en ağır cerhlerdendir.",
     "Münkerü’l-hadîs, münker rivayetleri çok olan râvi içindir.",
-    "Doğru: “güvenilir ve sağlam” anlamında ta’dil lafzıdır."
+    "Kezzâb “çok yalancı” demektir; ağır bir cerhtir."
    ],
    "kay": "Hadis usulü: cerh ve ta’dil lafızları"
   },
@@ -698,20 +698,20 @@
    "z": 2,
    "s": "Aşağıdaki ayetlerden hangisi Hz. Peygamber’in Kur’an’ı açıklama (tebyin) görevini en açık biçimde dile getirir?",
    "c": [
-    "“İnsanlara, kendilerine indirileni açıklayasın diye sana da Zikr’i indirdik.” (Nahl, 16/44)",
+    "“O, kendi arzusuyla konuşmaz.” (Necm, 53/3)",
     "“Allah’ın Resûlünde sizin için güzel bir örnek vardır.” (Ahzâb, 33/21)",
     "“Peygamber size ne verdiyse onu alın.” (Haşr, 59/7)",
     "“Kim Peygamber’e itaat ederse Allah’a itaat etmiş olur.” (Nisâ, 4/80)",
-    "“O, kendi arzusuyla konuşmaz.” (Necm, 53/3)"
+    "“İnsanlara, kendilerine indirileni açıklayasın diye sana da Zikr’i indirdik.” (Nahl, 16/44)"
    ],
-   "d": 0,
+   "d": 4,
    "a": "Nahl 16/44, Hz. Peygamber’in görevinin indirileni insanlara açıklamak olduğunu doğrudan ifade eder. Diğer ayetler örnekliği, itaati ve sözlerinin vahiyle ilişkisini vurgular.",
    "ac": [
-    "Doğru: “açıklayasın” ifadesi tebyin görevini doğrudan bildirir.",
+    "Bu ayet onun sözlerinin kişisel arzudan kaynaklanmadığını bildirir.",
     "Bu ayet onun örnek oluşunu (üsve-i hasene) anlatır.",
     "Bu ayet onun emir ve yasaklarına uymayı emreder.",
     "Bu ayet ona itaatin Allah’a itaat olduğunu bildirir.",
-    "Bu ayet onun sözlerinin kişisel arzudan kaynaklanmadığını bildirir."
+    "Doğru: “açıklayasın” ifadesi tebyin görevini doğrudan bildirir."
    ],
    "kay": "Nahl, 16/44; Ahzâb, 33/21; Haşr, 59/7; Nisâ, 4/80; Necm, 53/3"
   },
@@ -722,17 +722,17 @@
    "c": [
     "Mevzu",
     "Metruk",
-    "Muallel",
     "Münker",
+    "Muallel",
     "Maklûb"
    ],
-   "d": 3,
+   "d": 2,
    "a": "Fuhş-ı galat (çok hata), kesret-i gaflet ve fısk kusurlarından birini taşıyan râvinin rivayeti münker olarak adlandırılır.",
    "ac": [
     "Mevzu, hadiste yalan söylediği sabit olan râvinin rivayetidir.",
     "Metruk, yalancılıkla itham edilen râvinin rivayetidir.",
-    "Muallel, vehim sonucu gizli kusur taşıyan hadistir.",
     "Doğru: çok hata yapan râvinin tek kaldığı rivayet münkerdir.",
+    "Muallel, vehim sonucu gizli kusur taşıyan hadistir.",
     "Maklûb, senette veya metinde takdim-tehir yapılmış hadistir."
    ],
    "kay": "İbn Hacer, Nuhbetü’l-fiker"
@@ -743,18 +743,18 @@
    "s": "Aşağıdaki hükümlerden hangisi Kur’an’da yer almayıp doğrudan sünnetle konmuş bir hükme örnektir?",
    "c": [
     "Namazların rekât sayılarının belirlenmesi",
-    "Bir kadının halası veya teyzesiyle aynı kişinin nikâhı altında birleştirilmemesi",
-    "En’âm Suresi 82. ayetteki “zulüm” kelimesinin şirk olarak açıklanması",
     "Katil olan kişinin maktulün mirasından pay alamaması",
+    "En’âm Suresi 82. ayetteki “zulüm” kelimesinin şirk olarak açıklanması",
+    "Bir kadının halası veya teyzesiyle aynı kişinin nikâhı altında birleştirilmemesi",
     "Vasiyetin malın üçte biriyle sınırlandırılması"
    ],
-   "d": 1,
+   "d": 3,
    "a": "Kur’an, iki kız kardeşin bir nikâh altında birleştirilmesini yasaklar (Nisâ 4/23); hala ve teyze ile yeğenin birleştirilmesi yasağı ise sünnetle gelmiştir. Diğer seçenekler Kur’an’daki bir hükmü açıklama türleridir.",
    "ac": [
     "Namaz Kur’an’da emredilmiş; rekâtların belirlenmesi mücmeli tafsildir.",
-    "Doğru: bu yasak Kur’an’da yoktur, sünnetle konmuştur.",
-    "Bu, kapalı bir ifadenin açıklanmasıdır (müphemi tebyin).",
     "Kur’an’daki genel miras hükmünün daraltılmasıdır (âmmı tahsis).",
+    "Bu, kapalı bir ifadenin açıklanmasıdır (müphemi tebyin).",
+    "Doğru: bu yasak Kur’an’da yoktur, sünnetle konmuştur.",
     "Kur’an’daki vasiyetin sınırlandırılmasıdır (mutlakı takyid)."
    ],
    "kay": "Buhârî, Nikâh, 27; Müslim, Nikâh, 33; Nisâ, 4/23"
@@ -765,17 +765,17 @@
    "s": "Bir öğretmen, sünnetin Kur’an’daki hükümleri açıklama işlevini anlatırken öğrencilerine bir liste vermiş ve listede yanlışlıkla Kur’an’da açıkça yer alan bir hükmü de yazmıştır.\n\nÖğretmenin yanlışlıkla listeye aldığı hüküm aşağıdakilerden hangisidir?",
    "c": [
     "Zekâta tabi malların nisap miktarları",
-    "Haccın yapılış sırası ve menasiki",
     "Hamile kadının iddetinin doğumla sona ermesi",
+    "Haccın yapılış sırası ve menasiki",
     "Namaz vakitlerinin başlangıç ve bitişleri",
     "Kasten oruç bozan kişinin kefaretinin şekli"
    ],
-   "d": 2,
+   "d": 1,
    "a": "Hamile kadının iddetinin doğumla biteceği Talâk Suresi 4. ayette açıkça bildirilmiştir. Diğer konuların ayrıntıları sünnetle belirlenmiştir.",
    "ac": [
     "Zekâtın nisap ve oranları sünnetle belirlenmiştir.",
-    "Haccın uygulaması Hz. Peygamber’in Veda Haccı’ndaki uygulamasıyla öğrenilmiştir.",
     "Doğru: bu hüküm Kur’an’da açıkça geçer (Talâk 65/4).",
+    "Haccın uygulaması Hz. Peygamber’in Veda Haccı’ndaki uygulamasıyla öğrenilmiştir.",
     "Namaz vakitlerinin sınırları sünnetle ayrıntılanmıştır.",
     "Kasten oruç bozmanın kefareti hadislerle bildirilmiştir."
    ],
@@ -786,19 +786,19 @@
    "z": 3,
    "s": "Aşağıdaki ilimlerden hangisi öncelikle hadisin metniyle değil, senediyle ilgilenir?",
    "c": [
-    "Ricâlü’l-hadîs",
+    "Nâsihu’l-hadîs ve mensûhu",
     "Muhtelifü’l-hadîs",
     "Garîbü’l-hadîs",
-    "Nâsihu’l-hadîs ve mensûhu",
+    "Ricâlü’l-hadîs",
     "Esbâbü vürûdi’l-hadîs"
    ],
-   "d": 0,
+   "d": 3,
    "a": "Rical ilmi senetteki râvilerin hayatını, hocalarını ve talebelerini inceler. Diğerleri metnin anlamı, çelişkisi, hükmü ve söylenme sebebiyle ilgilenir.",
    "ac": [
-    "Doğru: rical ilmi doğrudan senetteki kişileri inceler.",
+    "Nâsih-mensûh, metindeki hükmün yürürlükte olup olmadığını inceler.",
     "Muhtelifü’l-hadîs, metinler arasındaki görünürdeki çelişkiyi inceler.",
     "Garîbü’l-hadîs, metindeki anlaşılması zor kelimeleri inceler.",
-    "Nâsih-mensûh, metindeki hükmün yürürlükte olup olmadığını inceler.",
+    "Doğru: rical ilmi doğrudan senetteki kişileri inceler.",
     "Esbâbü vürûd, metnin söylenme sebebini inceler."
    ],
    "kay": "Hadis usulü: ulûmü’l-hadîs"
@@ -808,20 +808,20 @@
    "z": 3,
    "s": "Bir hadis kitabında râvinin, hadisi aldığı yolu “haddesenâ fulân” (Bize falanca anlattı) ifadesiyle bildirdiği görülmektedir.\n\nBu ifade, râvinin hadisi daha çok hangi yolla aldığını gösterir?",
    "c": [
-    "Vicâde",
+    "Semâ’",
     "Mükâtebe",
     "İ’lâm",
     "Vasiyet",
-    "Semâ’"
+    "Vicâde"
    ],
-   "d": 4,
+   "d": 0,
    "a": "“Haddesenâ” ve “semi’tu” ifadeleri hadisin hocanın ağzından bizzat dinlendiğini, yani semâ’ yolunu gösterir. Kıraat için daha çok “ahberanâ” kullanılmıştır.",
    "ac": [
-    "Vicâdede râvi hocayı duymamıştır; “vecedtu” der.",
+    "Doğru: “bize anlattı” ifadesi dinlemeyi, yani semâ’yı gösterir.",
     "Mükâtebede hadis yazılı gelir; “kebete ileyye” denir.",
     "İ’lâmda yalnız bildirim vardır.",
     "Vasiyette kitap bırakılır; “evsâ ileyye” denir.",
-    "Doğru: “bize anlattı” ifadesi dinlemeyi, yani semâ’yı gösterir."
+    "Vicâdede râvi hocayı duymamıştır; “vecedtu” der."
    ],
    "kay": "Hadis usulü: edâ sîgaları"
   },
@@ -832,18 +832,18 @@
    "c": [
     "Yalnız birinci",
     "Yalnız ikinci",
-    "Yalnız üçüncü",
+    "İkinci ve üçüncü",
     "Birinci ve ikinci",
-    "İkinci ve üçüncü"
+    "Yalnız üçüncü"
    ],
-   "d": 2,
+   "d": 4,
    "a": "Hz. Ebû Bekir ve Hz. Ömer, Hz. Peygamber’e en yakın sahabilerden olsalar da erken vefat ve devlet işleri gibi sebeplerle az hadis rivayet etmiştir; muksirûn arasında değildir. İlk iki bilgi doğrudur (birincisi muhadramı anlatır).",
    "ac": [
     "Birinci not muhadramı doğru tanımlar.",
     "İkinci not sahabe tanımıdır; doğrudur.",
-    "Doğru: üçüncü not yanlıştır; muksirûn rivayet sayısına göre belirlenir.",
+    "İkinci not doğrudur.",
     "Birinci ve ikinci notlar doğrudur.",
-    "İkinci not doğrudur."
+    "Doğru: üçüncü not yanlıştır; muksirûn rivayet sayısına göre belirlenir."
    ],
    "kay": "Hadis usulü: sahabe, muhadram, muksirûn"
   }

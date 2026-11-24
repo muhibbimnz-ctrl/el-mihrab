@@ -232,17 +232,17 @@
     "Ebü’l-Abbâs es-Seffâh",
     "Me’mûn",
     "Hârûnürreşîd",
-    "Ebû Ca’fer el-Mansûr",
-    "Mu’tasım"
+    "Mu’tasım",
+    "Ebû Ca’fer el-Mansûr"
    ],
-   "d": 3,
+   "d": 4,
    "a": "Bağdat, Ebû Ca’fer el-Mansûr tarafından 762’de kurulmuştur.",
    "ac": [
     "Kurucu halifedir.",
     "Beytü’l-hikme ile bilinir.",
     "Altın çağ halifesidir.",
-    "Doğru.",
-    "Sâmerrâ’yı merkez yapmıştır."
+    "Sâmerrâ’yı merkez yapmıştır.",
+    "Doğru."
    ],
    "kay": "İslam tarihi"
   },
@@ -253,17 +253,17 @@
    "c": [
     "Yermük",
     "Ecnâdeyn",
-    "Kādisiye",
     "Yemâme",
+    "Kādisiye",
     "Zâtü’s-savârî"
    ],
-   "d": 2,
+   "d": 3,
    "a": "Kādisiye Savaşı Sâsânîlere karşı Sa’d b. Ebû Vakkās komutasında kazanılmıştır.",
    "ac": [
     "Bizans’a karşıdır.",
     "Bizans’a karşı, Ebû Bekir dönemindedir.",
-    "Doğru.",
     "Müseylime’ye karşıdır.",
+    "Doğru.",
     "Bizans’a karşı deniz savaşıdır."
    ],
    "kay": "İslam tarihi"
@@ -273,20 +273,20 @@
    "z": 1,
    "s": "İlk Müslüman Türk devleti kabul edilen devlet hangisidir?",
    "c": [
-    "Gazneliler",
+    "Karahanlılar",
     "Harizmşahlar",
     "Büyük Selçuklular",
     "Tolunoğulları",
-    "Karahanlılar"
+    "Gazneliler"
    ],
-   "d": 4,
+   "d": 0,
    "a": "Satuk Buğra Han’ın Müslüman olmasıyla Karahanlılar ilk Müslüman Türk devleti olmuştur.",
    "ac": [
-    "Sonradan kurulmuştur.",
+    "Doğru.",
     "Sonradan kurulmuştur.",
     "Sonradan kurulmuştur.",
     "Mısır’da kurulan bir Türk hanedanıdır; ilk kabul edilmez.",
-    "Doğru."
+    "Sonradan kurulmuştur."
    ],
    "kay": "Türk-İslam tarihi"
   },
@@ -318,17 +318,17 @@
    "s": "Aşağıdakilerden hangisi Emevîler döneminde meydana gelen olaylardan biri değildir?",
    "c": [
     "Kerbelâ Olayı",
-    "Zenc İsyanı",
     "Zeyd b. Ali isyanı",
+    "Zenc İsyanı",
     "Harre Vakası",
     "Abdullah b. Zübeyr’in hilafeti"
    ],
-   "d": 1,
+   "d": 2,
    "a": "Zenc İsyanı (869-883) Abbâsîler döneminde Güney Irak’ta olmuştur.",
    "ac": [
     "Emevî dönemidir (680).",
-    "Doğru.",
     "Emevî dönemidir (740).",
+    "Doğru.",
     "Emevî dönemidir (683).",
     "Emevî dönemidir."
    ],
@@ -361,17 +361,17 @@
    "z": 2,
    "s": "Hicrî takvimin başlatılması, divan teşkilatının kurulması ve Basra, Kûfe, Fustat gibi şehirlerin kurulması hangi halife dönemindedir?",
    "c": [
-    "Hz. Ömer",
     "Hz. Ebû Bekir",
+    "Hz. Ömer",
     "Hz. Osman",
     "Hz. Ali",
     "Muâviye"
    ],
-   "d": 0,
+   "d": 1,
    "a": "Bu düzenlemeler Hz. Ömer dönemine aittir.",
    "ac": [
-    "Doğru.",
     "Ridde savaşları ve Kur’an’ın cem’i onun dönemindedir.",
+    "Doğru.",
     "Kur’an’ın çoğaltılması onun dönemindedir.",
     "Cemel ve Sıffîn onun dönemindedir.",
     "Emevî devletinin kurucusudur."
@@ -429,18 +429,18 @@
    "c": [
     "Dârünnedve",
     "Nizamiye Medresesi",
-    "Beytü’l-hikme",
+    "Dârü’l-hadis",
     "Ezher",
-    "Dârü’l-hadis"
+    "Beytü’l-hikme"
    ],
-   "d": 2,
+   "d": 4,
    "a": "Beytü’l-hikme Hârûnürreşîd ve Me’mûn döneminde gelişen ilim ve tercüme merkezidir.",
    "ac": [
     "Cahiliye Mekke’sinin meclisidir.",
     "Selçuklu kurumudur.",
-    "Doğru.",
+    "Zengî ve Eyyûbî dönemlerinde yaygınlaşan hadis okuludur.",
     "Fâtımî kurumudur.",
-    "Zengî ve Eyyûbî dönemlerinde yaygınlaşan hadis okuludur."
+    "Doğru."
    ],
    "kay": "İslam tarihi"
   },
@@ -450,19 +450,19 @@
    "s": "Hz. Osman dönemiyle ilgili hangisi yanlıştır?",
    "c": [
     "Kur’an çoğaltılarak merkezlere gönderilmiştir.",
-    "Muâviye komutasında Kıbrıs’a sefer düzenlenmiştir.",
+    "Kudüs teslim alınmıştır.",
     "Bizans’a karşı Zâtü’s-savârî deniz savaşı kazanılmıştır.",
     "Halife fitne sonucunda şehit edilmiştir.",
-    "Kudüs teslim alınmıştır."
+    "Muâviye komutasında Kıbrıs’a sefer düzenlenmiştir."
    ],
-   "d": 4,
+   "d": 1,
    "a": "Kudüs Hz. Ömer döneminde (638) teslim alınmıştır.",
    "ac": [
     "Doğru bilgi.",
+    "Yanlış.",
     "Doğru bilgi.",
     "Doğru bilgi.",
-    "Doğru bilgi.",
-    "Yanlış."
+    "Doğru bilgi."
    ],
    "kay": "İslam tarihi"
   },
@@ -471,20 +471,108 @@
    "z": 3,
    "s": "Mısır’da kurulup 969’da Kahire’yi inşa eden, İsmâilî Şîî inancını benimseyen ve Ezher’i kuran devlet hangisidir?",
    "c": [
-    "Eyyûbîler",
     "Fâtımîler",
+    "Eyyûbîler",
     "Memlükler",
     "İhşîdîler",
     "Tolunoğulları"
    ],
-   "d": 1,
+   "d": 0,
    "a": "Fâtımîler 909’da Tunus’ta kurulmuş, 969’da Mısır’ı alarak Kahire’yi inşa etmiştir.",
    "ac": [
-    "Sünnî’dir; Fâtımîlere son vermiştir.",
     "Doğru.",
+    "Sünnî’dir; Fâtımîlere son vermiştir.",
     "Sünnî’dir.",
     "Fâtımîlerden önce Mısır’dadır.",
     "Fâtımîlerden önce Mısır’dadır."
+   ],
+   "kay": "İslam tarihi"
+  },
+  {
+   "id": "s2-14",
+   "z": 1,
+   "s": "Emevî Devleti’nin kurucusu kimdir?",
+   "c": [
+    "Abdülmelik b. Mervân",
+    "Yezîd b. Muâviye",
+    "Muâviye b. Ebû Süfyân",
+    "Ömer b. Abdülazîz",
+    "Mervân b. Hakem"
+   ],
+   "d": 2,
+   "a": "Başkent Şam’dır.",
+   "ac": [
+    "Devleti güçlendiren halifedir.",
+    "İkinci halifedir.",
+    "661’de kurucudur.",
+    "Adaletiyle bilinen halifedir.",
+    "Mervânîler kolunu başlatmıştır."
+   ],
+   "kay": "İslam tarihi"
+  },
+  {
+   "id": "s2-15",
+   "z": 2,
+   "s": "Emevîler döneminde paranın Arapçalaştırılması, divanların Arapça tutulması ve Kubbetü’s-sahre’nin inşası hangi halife döneminde gerçekleşmiştir?",
+   "c": [
+    "Muâviye",
+    "Hişâm b. Abdülmelik",
+    "Velîd b. Abdülmelik",
+    "Abdülmelik b. Mervân",
+    "Mervân b. Muhammed"
+   ],
+   "d": 3,
+   "a": "Abdülmelik dönemi Emevî devlet teşkilatının oturduğu dönemdir.",
+   "ac": [
+    "Bu yenilikler ondan sonradır.",
+    "Sonraki bir halifedir.",
+    "Emevî Camii (Şam) onun dönemindedir.",
+    "Bu düzenlemeler onun dönemindedir.",
+    "Son Emevî halifesidir."
+   ],
+   "kay": "İslam tarihi"
+  },
+  {
+   "id": "s2-16",
+   "z": 2,
+   "s": "Abbâsîler ile Çinliler arasında 751’de yapılan ve kâğıdın İslam dünyasına geçmesinde etkili olduğu kabul edilen savaş hangisidir?",
+   "c": [
+    "Zap Savaşı",
+    "Kadisiye Savaşı",
+    "Malazgirt Savaşı",
+    "Dandanakan Savaşı",
+    "Talas Savaşı"
+   ],
+   "d": 4,
+   "a": "Talas, Türklerin İslam’a girişini de hızlandırmıştır.",
+   "ac": [
+    "Emevîlerin yıkılışına yol açmıştır (750).",
+    "Sâsânîlerle yapılmıştır.",
+    "1071’de Selçuklularla Bizans arasındadır.",
+    "1040’ta Selçuklularla Gazneliler arasındadır.",
+    "751’de Çinlilerle yapılmıştır."
+   ],
+   "kay": "İslam tarihi"
+  },
+  {
+   "id": "s2-17",
+   "z": 3,
+   "s": "Abbâsî halifeliğinin Moğollar tarafından sona erdirildiği tarih ve komutan hangisidir?",
+   "c": [
+    "1071 – Alparslan",
+    "1099 – Haçlılar",
+    "1258 – Hülâgû",
+    "1453 – Fatih",
+    "1517 – Yavuz Sultan Selim"
+   ],
+   "d": 2,
+   "a": "Abbâsî halifeliği Kahire’de Memlükler himayesinde 1517’ye kadar sembolik olarak sürmüştür.",
+   "ac": [
+    "Malazgirt’tir.",
+    "Kudüs’ün işgalidir.",
+    "Bağdat’ı yıkmıştır.",
+    "İstanbul’un fethidir.",
+    "Hilafetin Osmanlılara geçişidir."
    ],
    "kay": "İslam tarihi"
   }
