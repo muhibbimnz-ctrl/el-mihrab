@@ -132,6 +132,11 @@ a{color:var(--accent)}
 .rd-f .pill{padding:9px 14px;font-size:14px}
 .rd-meal{display:none}
 .rd.wide .rd-ay{display:none}
+.rd-an{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:2px 0 6px;font:600 13px system-ui;color:var(--muted);direction:ltr}
+.rd-an .pill{padding:6px 12px;font-size:13px}.rd-an .pill[disabled]{opacity:.4}
+.rd-git{display:block;margin:0 0 8px auto;font-size:12.5px;padding:6px 12px;direction:ltr}
+.rd-ay.min .rd-an,.rd-ay.min .rd-git{display:none}
+.rd:not(.wide) .rd-f .pill{visibility:hidden}
 .rd-h .lb{margin-inline-start:4px}.rd-h .pill{white-space:nowrap}
 #rdT{display:none}
 .rd.focus{bottom:0;z-index:55}
@@ -1181,8 +1186,7 @@ function openReader(n,c){
   if(!rdOpen()){$('#rd').classList.remove('hide');document.body.style.overflow='hidden';try{history.pushState({rd:1},'');st.rdHist=true}catch(e){}}
   const same=st.open&&st.open.n===n;st.open={n,c};LS.set('beyan2.last',{s:st.s,a:n});
   $('#rdKey').textContent=`${SN()[st.s-1]} ${st.s}:${n}`;$('#rdPos').textContent=`${n} / ${st.ay.length}`;
-  if(!same){$('#rdAy').innerHTML=`${a.tj||esc(a.text)} <span class="num">${toAr(n)}</span><div class="rd-meal"></div>`;$('#rdAy').scrollTop=0;
-    const mid=set.meals[0]||MEALS[0][0];offAyah(mid,st.s,n).then(t=>t||getJSON(`${AQ}/ayah/${st.s}:${n}/${mid}`).then(j=>j?.data?.text)).then(t=>{const m=$('#rdAy .rd-meal');if(m&&t&&st.open&&st.open.n===n)m.innerHTML=`<b>${esc(MEAL_N[mid]||'Meal')}</b>${esc(t)}`}).catch(()=>{})}
+  if(!same||st.rdV!==n)rdAyGoster(n);
   rdModu();
   $('#rdTabs').innerHTML=ORDER.map(k=>`<button class="tb ${k===c?'on':''}" data-c="${k}">${CATS[k].n} <i>${CATS[k].ar}</i></button>`).join('');
   $('#rdPrev').disabled=n<=1;$('#rdNext').disabled=n>=st.ay.length;
@@ -1191,6 +1195,10 @@ function openReader(n,c){
   if(c==='kiraat')return boxKiraat(box,n);
   boxBook(box,n,c);
 }
+/* Âyet panelinde gezinme: yalnız âyet ve meal değişir, okunan tefsir sayfası yerinde kalır */
+function rdAyGoster(v){const a=st.ay[v-1];if(!a||!st.open)return;st.rdV=v;const t=st.open.n,bas=v!==t;
+  $('#rdAy').innerHTML=`<div class="rd-an" dir="ltr"><button class="pill" data-av="-1" ${v<=1?'disabled':''}>‹ Önceki âyet</button><span>${st.s}:${v}</span><button class="pill" data-av="1" ${v>=st.ay.length?'disabled':''}>Sonraki âyet ›</button></div>${bas?`<button class="pill rd-git" dir="ltr">Okuduğun yer ${st.s}:${t} · bu âyetin tefsirine geç ›</button>`:''}${a.tj||esc(a.text)} <span class="num">${toAr(v)}</span><div class="rd-meal"></div>`;$('#rdAy').scrollTop=0;
+  const mid=set.meals[0]||MEALS[0][0];offAyah(mid,st.s,v).then(x=>x||getJSON(`${AQ}/ayah/${st.s}:${v}/${mid}`).then(j=>j?.data?.text)).then(x=>{const m=$('#rdAy .rd-meal');if(m&&x&&st.open&&st.rdV===v)m.innerHTML=`<b>${esc(MEAL_N[mid]||'Meal')}</b>${esc(x)}`}).catch(()=>{})}
 function closeBox(){if(rdOpen())return closeReader();if(!st.open)return;const el=$('#a'+st.open.n);if(el){el.classList.remove('open');$('.boxw',el).innerHTML='';$$('.tb.on',el).forEach(x=>x.classList.remove('on'))}st.open=null}
 function openBox(n,c,keep){
   if(set.reader)return openReader(n,c);
@@ -1413,7 +1421,8 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   addEventListener('keydown',e=>{if(e.key==='Escape'){if($$('.ov:not(.hide)').length)closeOv();else closeReader()}});
   $('#rdX').innerHTML=icon(RT?'r':'l');$('#rdPlay').innerHTML=icon('p',18);
   $('#rdX').onclick=()=>closeReader();$('#rdPlay').onclick=()=>st.open&&playAyah(st.open.n);
-  $('#rdAy').onclick=()=>$('#rdAy').classList.toggle('min');
+  $('#rdAy').onclick=e=>{const b=e.target.closest('[data-av]');if(b){e.stopPropagation();if(st.open)rdAyGoster((st.rdV||st.open.n)+(+b.dataset.av));return}
+    if(e.target.closest('.rd-git')){e.stopPropagation();if(st.open)openReader(st.rdV,st.open.c);return}$('#rdAy').classList.toggle('min')};
   $('#rdW').onclick=()=>{set.rdWide=!set.rdWide;save();rdModu()};
   $('#rdF').onclick=()=>{set.rdFocus=!set.rdFocus;save();$('#rd').classList.remove('tabsOn');if(set.rdFocus&&innerWidth<700)$('#rdAy').classList.add('min');rdModu()};
   $('#rdT').onclick=()=>$('#rd').classList.toggle('tabsOn');
