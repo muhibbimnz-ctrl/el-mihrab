@@ -1,0 +1,1387 @@
+{
+ "id": "mbsts-2",
+ "ad": "2. Deneme",
+ "aciklama": "",
+ "sorular": [
+  {
+   "id": "md2-01",
+   "ders": "Kur’an Bilgisi",
+   "z": 1,
+   "s": "Kur’an’ın sure ve ayet sayısıyla ilgili hangisi doğrudur?",
+   "c": [
+    "112 sure, 6666 ayet",
+    "114 sure; Kûfe sayımına göre 6236 ayet",
+    "114 sure, 6000 ayet",
+    "110 sure, 6236 ayet",
+    "120 sure, 6348 ayet"
+   ],
+   "d": 1,
+   "a": "Ayet sayısındaki farklar ayetlerin bölünüşündeki farklılıktan kaynaklanır.",
+   "ac": [
+    "6666 sayısı halk arasında yaygın ama yanlıştır.",
+    "Türkiye’de esas alınan sayımdır.",
+    "Yanlıştır.",
+    "Sure sayısı yanlıştır.",
+    "Yanlıştır."
+   ],
+   "kay": "Ulûmü’l-Kur’ân"
+  },
+  {
+   "id": "md2-02",
+   "ders": "Kur’an Bilgisi",
+   "z": 2,
+   "s": "Kur’an’ın Levh-i Mahfûz’dan dünya semasına (Beytü’l-izze) bir defada indirilmesini ifade eden kavram hangisidir?",
+   "c": [
+    "Tenzîl",
+    "İnzâl",
+    "Tencîm",
+    "Vahy-i metlüv",
+    "Fetret"
+   ],
+   "d": 1,
+   "a": "Kur’an Kadir gecesinde indirilmeye başlanmıştır (Kadr 97/1).",
+   "ac": [
+    "Parça parça indirmeyi ifade eder.",
+    "Toptan indirmeyi ifade eder.",
+    "Parça parça indirmedir.",
+    "Okunan vahiy demektir.",
+    "Vahyin kesilmesidir."
+   ],
+   "kay": "Ulûmü’l-Kur’ân"
+  },
+  {
+   "id": "md2-03",
+   "ders": "Kur’an Bilgisi",
+   "z": 2,
+   "s": "Kur’an’ın parça parça indirilmesinin hikmetleri arasında aşağıdakilerden hangisi sayılamaz?",
+   "c": [
+    "Hz. Peygamber’in kalbini pekiştirmek",
+    "Ezberlenmesini ve anlaşılmasını kolaylaştırmak",
+    "Hükümleri tedricen yerleştirmek",
+    "Olaylara ve sorulara cevap vermek",
+    "Müşriklerin bir defada indirilme talebini karşılamak"
+   ],
+   "d": 4,
+   "a": "“Kur’an bir defada indirilseydi ya!” itirazına Furkân 25/32’de cevap verilmiştir.",
+   "ac": [
+    "Furkân 25/32’de bildirilmiştir.",
+    "Hikmetlerindendir.",
+    "Hikmetlerindendir.",
+    "Hikmetlerindendir.",
+    "Müşriklerin bu talebi reddedilmiştir."
+   ],
+   "kay": "Ulûmü’l-Kur’ân"
+  },
+  {
+   "id": "md2-04",
+   "ders": "Kur’an Bilgisi",
+   "z": 1,
+   "s": "Kalkale harfleri hangi seçenekte doğru verilmiştir?",
+   "c": [
+    "ق ط ب ج د",
+    "ء ه ع ح غ خ",
+    "ي ر م ل و ن",
+    "خ ص ض غ ط ق ظ",
+    "ا و ي"
+   ],
+   "d": 0,
+   "a": "Kalkale sakin hâldeki bu harflerin titretilerek okunmasıdır.",
+   "ac": [
+    "“Kutbu cedd” kalıbıyla ezberlenir.",
+    "Boğaz (izhar) harfleridir.",
+    "İdgam harfleridir.",
+    "Kalın (müsta‘liye) harflerdir.",
+    "Med harfleridir."
+   ],
+   "kay": "Tecvid"
+  },
+  {
+   "id": "md2-05",
+   "ders": "Kur’an Bilgisi",
+   "z": 2,
+   "s": "Sakin mimden sonra ب harfi gelirse mim nasıl okunur?",
+   "c": [
+    "İzhar-ı şefevî",
+    "İdgam-ı misleyn",
+    "İhfâ-ı şefevî",
+    "İklâb",
+    "Kalkale"
+   ],
+   "d": 2,
+   "a": "Sakin mimden sonra و ve ف gelince izharı ayrıca dikkat ister.",
+   "ac": [
+    "Diğer harflerden önce yapılır.",
+    "Sakin mimden sonra م gelirse olur.",
+    "Sakin mim ب’den önce gizlenir.",
+    "Sakin nun ve tenvinle ilgilidir.",
+    "Mim kalkale harfi değildir."
+   ],
+   "kay": "Tecvid"
+  },
+  {
+   "id": "md2-06",
+   "ders": "Kur’an Bilgisi",
+   "z": 2,
+   "s": "Hz. Peygamber’in sağlığında Kur’an’ın tamamını ezberleyip ona arz eden sahabiler arasında hangisi yoktur?",
+   "c": [
+    "Übey b. Kâ‘b",
+    "Zeyd b. Sâbit",
+    "Muâz b. Cebel",
+    "Ebû Zeyd el-Ensârî",
+    "Ebû Süfyân b. Harb"
+   ],
+   "d": 4,
+   "a": "Enes b. Mâlik’in rivayetinde (Buhârî, Fezâilü’l-Kur’ân, 8) dört Ensarlı hafız anılır.",
+   "ac": [
+    "Hafız sahabilerdendir.",
+    "Hafız sahabilerdendir.",
+    "Hafız sahabilerdendir.",
+    "Enes’in rivayetinde sayılır.",
+    "Mekke’nin fethinde Müslüman olmuştur; hafızlar arasında sayılmaz."
+   ],
+   "kay": "Ulûmü’l-Kur’ân"
+  },
+  {
+   "id": "md2-07",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "Türkiye’de okunan kıraat ile ilgili hangisi doğrudur?",
+   "c": [
+    "Nâfi‘ kıraatinin Verş rivayetidir.",
+    "Âsım kıraatinin Hafs rivayetidir.",
+    "İbn Kesîr kıraatinin Bezzî rivayetidir.",
+    "Ebû Amr kıraatinin Dûrî rivayetidir.",
+    "Hamza kıraatinin Halef rivayetidir."
+   ],
+   "d": 1,
+   "a": "Âsım b. Ebü’n-Necûd Kûfe kıraat imamıdır.",
+   "ac": [
+    "Kuzey Afrika’da yaygındır.",
+    "İslam dünyasında en yaygın okuyuştur.",
+    "Yaygın değildir.",
+    "Sudan’da kısmen okunur.",
+    "Yaygın değildir."
+   ],
+   "kay": "Kıraat"
+  },
+  {
+   "id": "md2-08",
+   "ders": "Tefsir",
+   "z": 1,
+   "s": "Tefsir ile te’vil arasındaki farkla ilgili yaygın görüşe göre hangisi doğrudur?",
+   "c": [
+    "Tefsir yoruma, te’vil rivayete dayanır.",
+    "Tefsir daha çok rivayete ve lafzın açık anlamına, te’vil ise dirayete ve muhtemel anlamlardan birini delille tercihe dayanır.",
+    "İkisi arasında hiçbir fark yoktur.",
+    "Te’vil yalnız fıkhî ayetlerde yapılır.",
+    "Tefsir yalnız Hz. Peygamber’e aittir."
+   ],
+   "d": 1,
+   "a": "Mâtürîdî’nin tefsirinin adı Te’vîlâtü’l-Kur’ân’dır.",
+   "ac": [
+    "Tersidir.",
+    "Yaygın ayrım budur.",
+    "İlk dönemde eş anlamlı kullanılmıştır; sonra ayrılmıştır.",
+    "Yanlıştır.",
+    "Yanlıştır."
+   ],
+   "kay": "Tefsir usulü"
+  },
+  {
+   "id": "md2-09",
+   "ders": "Tefsir",
+   "z": 2,
+   "s": "Kur’an’daki bir ayetin hükmünün, sonra inen bir ayetle kaldırılmasına ne ad verilir?",
+   "c": [
+    "Tahsis",
+    "Takyid",
+    "Nesih",
+    "Tefsir",
+    "Tedrîc"
+   ],
+   "d": 2,
+   "a": "Nesih yalnız Hz. Peygamber döneminde olabilir.",
+   "ac": [
+    "Genel hükmün kapsamını daraltmadır.",
+    "Mutlak lafzı kayıtlamadır.",
+    "Önceki hükmün kaldırılmasıdır.",
+    "Açıklamadır.",
+    "Aşamalı hükümdür; nesihle karıştırılmamalıdır."
+   ],
+   "kay": "Tefsir usulü"
+  },
+  {
+   "id": "md2-10",
+   "ders": "Tefsir",
+   "z": 2,
+   "s": "Zemahşerî’nin el-Keşşâf’ındaki Mu‘tezilî görüşleri ayıklayarak özetleyen ve medreselerde çok okutulan tefsir hangisidir?",
+   "c": [
+    "Envârü’t-tenzîl (Beyzâvî)",
+    "Câmi‘u’l-beyân (Taberî)",
+    "Rûhu’l-meânî (Âlûsî)",
+    "Tefsîrü’l-Celâleyn",
+    "el-Muharrerü’l-vecîz (İbn Atıyye)"
+   ],
+   "d": 0,
+   "a": "Beyzâvî tefsiri üzerine Osmanlı’da çok sayıda hâşiye yazılmıştır.",
+   "ac": [
+    "Keşşâf’ın Ehl-i sünnet açısından özeti sayılır.",
+    "Rivayet tefsiridir.",
+    "Daha sonraki ve işârî yönü de olan tefsirdir.",
+    "Kısa bir tefsirdir; Keşşâf özeti değildir.",
+    "Endülüs tefsiridir."
+   ],
+   "kay": "Tefsir tarihi"
+  },
+  {
+   "id": "md2-11",
+   "ders": "Tefsir",
+   "z": 2,
+   "s": "Kur’an’da bir ayetin anlamının başka bir ayetle açıklanmasına örnek hangisidir?",
+   "c": [
+    "Fâtiha 1/7’deki “nimet verilenler”in Nisâ 4/69’da peygamberler, sıddıklar, şehitler ve salihler olarak açıklanması",
+    "Bir sahabinin ayetin iniş sebebini anlatması",
+    "Bir kelimenin Arap şiirinden açıklanması",
+    "İsrâiliyattan bilgi aktarılması",
+    "Bir ayetin bilimsel bir bulguya göre yorumlanması"
+   ],
+   "d": 0,
+   "a": "Kur’an’ın Kur’an’la tefsiri en güvenilir tefsir yoludur.",
+   "ac": [
+    "Kur’an’ın Kur’an’la tefsiridir.",
+    "Sahabe tefsiridir.",
+    "Dil yoluyla tefsirdir.",
+    "Güvenilir değildir.",
+    "İlmî tefsirdir."
+   ],
+   "kay": "Tefsir usulü"
+  },
+  {
+   "id": "md2-12",
+   "ders": "Tefsir",
+   "z": 3,
+   "s": "Hz. Peygamber’in Kur’an’ı açıklama görevini bildiren ayet hangisidir?",
+   "c": [
+    "“Rabbinin yoluna hikmetle çağır.” (Nahl 16/125)",
+    "“Sana da Zikr’i indirdik ki insanlara kendilerine indirileni açıklayasın.” (Nahl 16/44)",
+    "“Dinde zorlama yoktur.” (Bakara 2/256)",
+    "“Bugün dininizi kemale erdirdim.” (Mâide 5/3)",
+    "“O’nun benzeri hiçbir şey yoktur.” (Şûrâ 42/11)"
+   ],
+   "d": 1,
+   "a": "Sünnetin Kur’an karşısındaki görevi bu ayete dayanır.",
+   "ac": [
+    "Davet ayetidir.",
+    "Beyan görevini bildirir.",
+    "Din özgürlüğüyle ilgilidir.",
+    "Dinin tamamlanmasıyla ilgilidir.",
+    "Tenzih ayetidir."
+   ],
+   "kay": "Tefsir usulü"
+  },
+  {
+   "id": "md2-13",
+   "ders": "Tefsir",
+   "z": 2,
+   "s": "Ebû Mansûr el-Mâtürîdî’nin tefsiriyle ilgili hangisi doğrudur?",
+   "c": [
+    "Adı Câmi‘u’l-beyân’dır.",
+    "Adı Te’vîlâtü’l-Kur’ân’dır; Ehl-i sünnet kelamcısının yazdığı ilk tam dirayet tefsirlerindendir.",
+    "Mu‘tezile görüşlerini savunur.",
+    "İşârî bir tefsirdir.",
+    "Yalnız ahkâm ayetlerini tefsir eder."
+   ],
+   "d": 1,
+   "a": "Mâtürîdî Semerkant’ta yaşamış Hanefî kelamcıdır.",
+   "ac": [
+    "Taberî’nin tefsiridir.",
+    "Doğrudur.",
+    "Mu‘tezile’yi eleştirir.",
+    "Değildir.",
+    "Tamamını tefsir eder."
+   ],
+   "kay": "Tefsir tarihi"
+  },
+  {
+   "id": "md2-14",
+   "ders": "Tefsir",
+   "z": 2,
+   "s": "Kur’an’ın Arapça dışındaki bir dile tercümesiyle ilgili İslam âlimlerinin genel görüşü hangisidir?",
+   "c": [
+    "Tercüme Kur’an’ın yerini tutar.",
+    "Tercüme anlamın aktarılmasıdır; Kur’an’ın aslının yerini tutmaz ve namazda okunmaz.",
+    "Tercüme kesinlikle yasaktır.",
+    "Tercümeyle namaz kılmak her durumda farzdır.",
+    "Yalnız Farsçaya tercüme caizdir."
+   ],
+   "d": 1,
+   "a": "Bu yüzden tercümelere “meal” denir.",
+   "ac": [
+    "Tutmaz.",
+    "Genel kabul budur.",
+    "Anlamın aktarılması gerekli görülmüştür.",
+    "Yanlıştır.",
+    "Böyle bir sınırlama yoktur."
+   ],
+   "kay": "Tefsir usulü"
+  },
+  {
+   "id": "md2-15",
+   "ders": "Akaid ve Kelam",
+   "z": 1,
+   "s": "Ehl-i sünnete göre bilginin kaynakları hangi seçenekte doğru verilmiştir?",
+   "c": [
+    "Sağlam duyular, keşf, ilham",
+    "Sağlam duyular, doğru haber, akıl",
+    "Akıl, rüya, ilham",
+    "Doğru haber, keşf, sezgi",
+    "Yalnız akıl"
+   ],
+   "d": 1,
+   "a": "Doğru haber mütevâtir haber ve peygamber haberidir.",
+   "ac": [
+    "Keşf ve ilham genel bilgi kaynağı değildir.",
+    "Nesefî akaidindeki sınıflamadır.",
+    "Rüya ve ilham bağlayıcı değildir.",
+    "Yanlıştır.",
+    "Yanlıştır."
+   ],
+   "kay": "Kelam"
+  },
+  {
+   "id": "md2-16",
+   "ders": "Akaid ve Kelam",
+   "z": 2,
+   "s": "“Bir şeyin varlığı ya zorunludur ya da mümkündür; mümkün varlıklar var olmak için zorunlu bir varlığa muhtaçtır.” görüşü Allah’ın varlığının hangi delilidir?",
+   "c": [
+    "Hudûs",
+    "İmkân",
+    "Gâye ve nizam",
+    "Ahlak",
+    "Kabul-i âmme"
+   ],
+   "d": 1,
+   "a": "Kelamcılar daha çok hudûs, filozoflar imkân delilini kullanmıştır.",
+   "ac": [
+    "Âlemin sonradan oluşuna dayanır.",
+    "Varlığın zorunlu-mümkün ayrımına dayanır; İbn Sînâ’yla bilinir.",
+    "Düzene dayanır.",
+    "Ahlak yasasına dayanır.",
+    "Genel kabule dayanır."
+   ],
+   "kay": "Kelam"
+  },
+  {
+   "id": "md2-17",
+   "ders": "Akaid ve Kelam",
+   "z": 2,
+   "s": "Ehl-i sünnete göre büyük günah işleyen müminin durumu nedir?",
+   "c": [
+    "Kâfir olur.",
+    "İki yer arasında bir yerdedir.",
+    "Mümindir; fâsık olur; tövbe etmeden ölürse Allah dilerse affeder, dilerse cezalandırır.",
+    "Günahı imanına hiç zarar vermez.",
+    "Ebedî cehennemliktir."
+   ],
+   "d": 2,
+   "a": "Ehl-i sünnet şefaati de kabul eder.",
+   "ac": [
+    "Hâricî görüşüdür.",
+    "Mu‘tezile görüşüdür.",
+    "Ehl-i sünnet görüşüdür.",
+    "Aşırı Mürcie görüşüne yakındır.",
+    "Mu‘tezile ve Hâricî görüşüdür."
+   ],
+   "kay": "Kelam"
+  },
+  {
+   "id": "md2-18",
+   "ders": "Akaid ve Kelam",
+   "z": 2,
+   "s": "Mu‘tezile’nin beş temel ilkesi arasında yer almayan hangisidir?",
+   "c": [
+    "Tevhid",
+    "Adl",
+    "el-Va‘d ve’l-va‘îd",
+    "el-Menzile beyne’l-menzileteyn",
+    "İmamet"
+   ],
+   "d": 4,
+   "a": "Beşinci ilke emr bi’l-ma‘rûf nehy ani’l-münkerdir.",
+   "ac": [
+    "İlkedir.",
+    "İlkedir.",
+    "İlkedir.",
+    "İlkedir.",
+    "Şîa’nın inanç esasıdır."
+   ],
+   "kay": "Kelam"
+  },
+  {
+   "id": "md2-19",
+   "ders": "Akaid ve Kelam",
+   "z": 2,
+   "s": "Kur’an’da “Allah’ın eli onların ellerinin üstündedir.” (Fetih 48/10) gibi ayetlerde geçen el, yüz, istivâ gibi ifadelere ne ad verilir ve Selef bu ifadelere nasıl yaklaşır?",
+   "c": [
+    "Selbî sıfatlar – reddeder",
+    "Haberî sıfatlar – te’vil etmeden, keyfiyetini sormadan ve teşbih yapmadan kabul eder",
+    "Zâtî sıfatlar – organ olarak anlar",
+    "Fiilî sıfatlar – mecaz kabul eder",
+    "Subûtî sıfatlar – inkâr eder"
+   ],
+   "d": 1,
+   "a": "Halef (sonraki kelamcılar) bu ifadeleri Allah’a yakışan anlamlarla te’vil etmiştir.",
+   "ac": [
+    "Yanlıştır.",
+    "Selefin yaklaşımıdır.",
+    "Teşbihtir; Selef reddeder.",
+    "Te’vil Halef’in yöntemidir.",
+    "Yanlıştır."
+   ],
+   "kay": "Kelam"
+  },
+  {
+   "id": "md2-20",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "Ehl-i sünnete göre aşağıdakilerden hangisi ahiret hayatıyla ilgili inançlardan değildir?",
+   "c": [
+    "Kabir hayatı",
+    "Mîzân",
+    "Sırat",
+    "Şefaat",
+    "Ruhun başka bedenlerde yeniden doğması (tenasüh)"
+   ],
+   "d": 4,
+   "a": "Tenasüh Hint dinlerinde yer alan bir inançtır.",
+   "ac": [
+    "İnanılır.",
+    "İnanılır.",
+    "İnanılır.",
+    "İnanılır.",
+    "İslam’a göre reddedilir."
+   ],
+   "kay": "Kelam"
+  },
+  {
+   "id": "md2-21",
+   "ders": "Akaid ve Kelam",
+   "z": 2,
+   "s": "İman esaslarının bütününe toptan inanmaya ne ad verilir?",
+   "c": [
+    "Tafsîlî iman",
+    "İcmâlî iman",
+    "Tahkîkî iman",
+    "Taklîdî iman",
+    "Yakînî iman"
+   ],
+   "d": 1,
+   "a": "Âmentü tafsîlî imanın özetidir.",
+   "ac": [
+    "Ayrıntılı imandır.",
+    "Toptan imandır.",
+    "Delile dayalı imandır.",
+    "Taklide dayalı imandır.",
+    "Kesinlik derecesiyle ilgilidir."
+   ],
+   "kay": "Kelam"
+  },
+  {
+   "id": "md2-22",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 1,
+   "s": "Fıkıh usulünde Allah’ın mükelleflerin fiillerine ilişkin hitabına ne ad verilir?",
+   "c": [
+    "Hüküm",
+    "Mahkûmün fîh",
+    "Mahkûmün aleyh",
+    "Hâkim",
+    "Delil"
+   ],
+   "d": 0,
+   "a": "Hüküm teklifî ve vaz‘î olarak ikiye ayrılır.",
+   "ac": [
+    "Şer‘î hükmün tanımıdır.",
+    "Hükmün konusu olan fiildir.",
+    "Mükelleftir.",
+    "Hükmü koyan Allah’tır.",
+    "Hükme ulaştıran şeydir."
+   ],
+   "kay": "Fıkıh usulü"
+  },
+  {
+   "id": "md2-23",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi vaz‘î hüküm çeşitlerinden biri değildir?",
+   "c": [
+    "Sebep",
+    "Şart",
+    "Mâni",
+    "Sıhhat ve butlan",
+    "Mendup"
+   ],
+   "d": 4,
+   "a": "Ruhsat ve azimet de vaz‘î hükümler arasında sayılır.",
+   "ac": [
+    "Vaz‘î hükümdür.",
+    "Vaz‘î hükümdür.",
+    "Vaz‘î hükümdür.",
+    "Vaz‘î hükümdür.",
+    "Teklifî hükümdür."
+   ],
+   "kay": "Fıkıh usulü"
+  },
+  {
+   "id": "md2-24",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Şâfiî’nin fıkıh usulüne dair ilk sistemli eseri hangisidir?",
+   "c": [
+    "el-Ümm",
+    "er-Risâle",
+    "el-Muvatta’",
+    "el-Mebsût",
+    "el-Müstasfâ"
+   ],
+   "d": 1,
+   "a": "er-Risâle’de beyan, nesih, haber-i vâhid, icmâ ve kıyas işlenir.",
+   "ac": [
+    "Furû fıkhı eseridir.",
+    "Usulün ilk sistemli eseridir.",
+    "İmam Mâlik’indir.",
+    "Serahsî’nindir.",
+    "Gazzâlî’nin usul eseridir."
+   ],
+   "kay": "Fıkıh usulü"
+  },
+  {
+   "id": "md2-25",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 1,
+   "s": "Aşağıdaki sulardan hangisiyle abdest alınamaz?",
+   "c": [
+    "Yağmur suyu",
+    "Deniz suyu",
+    "Kar suyu",
+    "Kuyu suyu",
+    "Meyve suyu"
+   ],
+   "d": 4,
+   "a": "Abdest ve gusül mutlak su ile alınır.",
+   "ac": [
+    "Mutlak sudur.",
+    "Mutlak sudur.",
+    "Mutlak sudur.",
+    "Mutlak sudur.",
+    "Mukayyed sudur; temizleyici değildir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "md2-26",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Hanefî mezhebine göre mest üzerine mesh süresi nereden başlar?",
+   "c": [
+    "Mestin giyildiği andan",
+    "Mestler giyildikten sonra abdestin ilk bozulduğu andan",
+    "Sabah namazından itibaren",
+    "İlk meshin yapıldığı andan",
+    "Abdestin alındığı andan"
+   ],
+   "d": 1,
+   "a": "Mukim 24 saat, misafir 72 saat mesh edebilir.",
+   "ac": [
+    "Yanlıştır.",
+    "Hanefî görüşüdür.",
+    "Yanlıştır.",
+    "Hanbelîlerin bir görüşüdür.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "md2-27",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Hanefî mezhebine göre namaz kılarken Fâtiha okunduktan sonra zamm-ı sure okunması hangi rekâtlarda vaciptir?",
+   "c": [
+    "Bütün farz namazların bütün rekâtlarında",
+    "Farzların ilk iki rekâtında, vitir ve nafilelerin bütün rekâtlarında",
+    "Yalnız sabah namazında",
+    "Yalnız cemaatle kılınan namazlarda",
+    "Hiçbir rekâtta vacip değildir."
+   ],
+   "d": 1,
+   "a": "Farzların üçüncü ve dördüncü rekâtlarında yalnız Fâtiha okunur.",
+   "ac": [
+    "Farzların son rekâtlarında sünnet değildir.",
+    "Hanefî görüşüdür.",
+    "Yanlıştır.",
+    "Yanlıştır.",
+    "Vaciptir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "md2-28",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Hanefî mezhebine göre vitir namazının vakti ne zamandır?",
+   "c": [
+    "Öğle ile ikindi arası",
+    "Akşam namazından önce",
+    "Yatsı namazından sonra, fecrin doğuşuna kadar",
+    "Sabah namazıyla birlikte",
+    "Güneş doğduktan sonra"
+   ],
+   "d": 2,
+   "a": "Vitir vaciptir; kaçırılırsa kaza edilir.",
+   "ac": [
+    "Yanlıştır.",
+    "Yanlıştır.",
+    "Vitir yatsının vaktinde, yatsıdan sonra kılınır.",
+    "Yanlıştır.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "md2-29",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Hanefî mezhebine göre kerahat vakitlerinde kılınması tahrîmen mekruh olan namazlar arasında hangisi yoktur?",
+   "c": [
+    "Nafile namaz",
+    "Kaza namazı (güneş doğarken)",
+    "Önceden hazır olan cenazenin namazı",
+    "O günün ikindi namazını güneş batarken kılmak",
+    "Tilâvet secdesi (önceden okunmuş ayet için)"
+   ],
+   "d": 3,
+   "a": "O günün ikindisi bu vakitte kılınabilir; ancak bu vakte kadar geciktirmek mekruhtur.",
+   "ac": [
+    "Mekruhtur.",
+    "Kılınmaz.",
+    "Mekruhtur.",
+    "Kerahatle birlikte geçerlidir; ertelemek günahtır.",
+    "Mekruhtur."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "md2-30",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 1,
+   "s": "Ramazan orucunun farz kılındığı ayet hangi surededir?",
+   "c": [
+    "Âl-i İmrân",
+    "Bakara",
+    "Nisâ",
+    "Mâide",
+    "Tevbe"
+   ],
+   "d": 1,
+   "a": "Oruç hicretin ikinci yılında farz kılınmıştır.",
+   "ac": [
+    "Değildir.",
+    "Bakara 2/183-185.",
+    "Değildir.",
+    "Değildir.",
+    "Değildir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "md2-31",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi zekâtın verilebileceği yerlerden (Tevbe 9/60) değildir?",
+   "c": [
+    "Fakirler",
+    "Miskinler",
+    "Borçlular",
+    "Yolda kalmışlar",
+    "Cami inşaatı"
+   ],
+   "d": 4,
+   "a": "Sekiz sınıf: fakir, miskin, âmil, müellefe-i kulûb, rikāb, gârim, fî sebîlillâh, ibnü’s-sebîl.",
+   "ac": [
+    "Sayılmıştır.",
+    "Sayılmıştır.",
+    "Sayılmıştır.",
+    "Sayılmıştır.",
+    "Hanefîlere göre zekâtta temlik şarttır; cami inşaatına zekât verilmez."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "md2-32",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Önce umre için ihrama girip umresini yaptıktan sonra ihramdan çıkan, aynı yılın hac aylarında hac için yeniden ihrama giren kişinin haccı hangisidir?",
+   "c": [
+    "İfrad",
+    "Kıran",
+    "Temettu‘",
+    "Bedel haccı",
+    "Nafile hac"
+   ],
+   "d": 2,
+   "a": "Temettu‘ ve kıranda şükür kurbanı (hedy) vaciptir.",
+   "ac": [
+    "Yalnız hacca niyet edilir.",
+    "Hac ve umre tek ihramla yapılır.",
+    "Umre ile hac ayrı ihramlarla yapılır.",
+    "Başkası adına yapılan hacdır.",
+    "Farzdan sonraki haclardır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "md2-33",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hanefî mezhebine göre ihram yasaklarından hangisi değildir?",
+   "c": [
+    "Erkeklerin dikişli elbise giymesi",
+    "Koku sürünmek",
+    "Saç ve tırnak kesmek",
+    "Kara hayvanlarını avlamak",
+    "Yıkanmak"
+   ],
+   "d": 4,
+   "a": "Ayrıca erkeklerin başını, kadınların yüzünü örtmesi yasaktır.",
+   "ac": [
+    "Yasaktır.",
+    "Yasaktır.",
+    "Yasaktır.",
+    "Yasaktır.",
+    "Yıkanmak yasak değildir; kokulu sabun kullanılmaz."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "md2-34",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Hanefî mezhebine göre adak kurbanı ile ilgili hangisi doğrudur?",
+   "c": [
+    "Sahibi etinden yiyebilir.",
+    "Etinin tamamı fakirlere dağıtılır.",
+    "Etin üçte biri sahibine aittir.",
+    "Zengin akrabalara da verilebilir.",
+    "Kesilmeden parası verilebilir."
+   ],
+   "d": 1,
+   "a": "Sahibinin bakmakla yükümlü olduğu kişiler de yiyemez.",
+   "ac": [
+    "Adak kurbanının etinden sahibi yiyemez.",
+    "Adak kurbanı sadakadır.",
+    "Yanlıştır.",
+    "Zenginlere verilmez.",
+    "Kesilmesi gerekir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "md2-35",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Hanefî mezhebine göre bir erkeğin Müslüman olmayan bir kadınla evlenmesiyle ilgili hangisi doğrudur?",
+   "c": [
+    "Hiçbir şekilde caiz değildir.",
+    "Ehl-i kitaptan (Yahudi ya da Hristiyan) bir kadınla evlenmesi caizdir.",
+    "Müşrik kadınla evlenmesi caizdir.",
+    "Müslüman kadın ehl-i kitap erkekle evlenebilir.",
+    "Ehl-i kitap kadınla evlilik yalnız yurt dışında caizdir."
+   ],
+   "d": 1,
+   "a": "Ehl-i kitap kadınla evliliği bazı âlimler mekruh görmüştür.",
+   "ac": [
+    "Ehl-i kitap kadın istisnadır.",
+    "Mâide 5/5’e dayanır.",
+    "Bakara 2/221 yasaklar.",
+    "Caiz değildir.",
+    "Böyle bir sınır yoktur."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "md2-36",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Kocası tarafından ric‘î talakla boşanan kadının iddet içindeki durumuyla ilgili hangisi yanlıştır?",
+   "c": [
+    "Nafakası kocasına aittir.",
+    "Koca iddet içinde nikâhsız dönebilir.",
+    "İddet içinde biri ölürse diğeri mirasçı olur.",
+    "Kadın iddetini kocasının evinde geçirir.",
+    "Kadın iddet içinde başka biriyle evlenebilir."
+   ],
+   "d": 4,
+   "a": "Ric‘î talakta evlilik bağı iddet bitene kadar tamamen kopmaz.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "İddet bitmeden evlenemez."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "md2-37",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Kiralama (icâre) akdiyle ilgili hangisi yanlıştır?",
+   "c": [
+    "Bir malın kullanım hakkının bedel karşılığında satılmasıdır.",
+    "Kira bedeli ve süresi belirli olmalıdır.",
+    "İşçi kiralamak da icâre kapsamındadır.",
+    "Kiracı, kusuru olmadan malın helakinden sorumlu değildir.",
+    "Kiralanan malın mülkiyeti kiracıya geçer."
+   ],
+   "d": 4,
+   "a": "Hanefîlere göre taraflardan birinin ölümüyle icâre sona erer.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Yalnız kullanım hakkı geçer."
+   ],
+   "kay": "Fıkıh (muamelat)"
+  },
+  {
+   "id": "md2-38",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Bir borçlunun borcunu, kendisine borçlu olan üçüncü bir kişiye, alacaklının kabulüyle aktarmasına ne ad verilir?",
+   "c": [
+    "Kefâlet",
+    "Havâle",
+    "Rehin",
+    "Sulh",
+    "İbra"
+   ],
+   "d": 1,
+   "a": "Havâle ile borç, havâle edilen kişiye geçer.",
+   "ac": [
+    "Borca ek sorumluluktur; borç asıl borçluda kalır.",
+    "Borcun başka birine aktarılmasıdır.",
+    "Teminattır.",
+    "Uzlaşmadır.",
+    "Borçtan kurtarmadır."
+   ],
+   "kay": "Fıkıh (muamelat)"
+  },
+  {
+   "id": "md2-39",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "İslam ceza hukukunda kasten öldürmenin aslî cezası nedir?",
+   "c": [
+    "Diyet",
+    "Kısas",
+    "Ta‘zîr",
+    "Recm",
+    "Sürgün"
+   ],
+   "d": 1,
+   "a": "Maktulün velileri affedebilir ya da diyete razı olabilir (Bakara 2/178).",
+   "ac": [
+    "Hata ile öldürmenin cezasıdır.",
+    "Kasten öldürmenin aslî cezasıdır.",
+    "Takdirî cezadır.",
+    "Evli zaniye uygulanan haddir.",
+    "Bazı suçlarda tamamlayıcı cezadır."
+   ],
+   "kay": "Fıkıh (ceza)"
+  },
+  {
+   "id": "md2-40",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Hanefî mezhebine göre mali haklarla ilgili davalarda kabul edilen şahitlik nisabı nedir?",
+   "c": [
+    "Bir erkek",
+    "İki erkek ya da bir erkek ve iki kadın",
+    "Dört erkek",
+    "Üç kadın",
+    "Bir kadın"
+   ],
+   "d": 1,
+   "a": "Zina için dört erkek şahit gerekir.",
+   "ac": [
+    "Yeterli değildir.",
+    "Bakara 2/282.",
+    "Zina davalarındadır.",
+    "Yeterli değildir.",
+    "Yalnız kadınların bilebileceği konularda kabul edilir."
+   ],
+   "kay": "Fıkıh (yargılama)"
+  },
+  {
+   "id": "md2-41",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Osmanlı Devleti’nde 1917’de aile hukuku alanında hazırlanan ve dört mezhebin görüşlerinden yararlanan düzenleme hangisidir?",
+   "c": [
+    "Mecelle",
+    "Hukûk-ı Âile Kararnâmesi",
+    "Kânûnnâme-i Âl-i Osmân",
+    "Tanzimat Fermanı",
+    "Kanûn-ı Esâsî"
+   ],
+   "d": 1,
+   "a": "Kararnâme kadınlara bazı durumlarda boşanma hakkı tanımak için Mâlikî görüşlerinden de yararlanmıştır.",
+   "ac": [
+    "Muamelat alanındadır (1876).",
+    "1917’de çıkarılmıştır.",
+    "Fatih dönemi teşkilat kanunudur.",
+    "Siyasi bir belgedir.",
+    "Anayasadır."
+   ],
+   "kay": "Fıkıh tarihi"
+  },
+  {
+   "id": "md2-42",
+   "ders": "Hadis",
+   "z": 1,
+   "s": "Hz. Peygamber’in söz, fiil ve takrirlerinden herhangi biri olarak nakledilen rivayete ne ad verilir?",
+   "c": [
+    "Mevkûf",
+    "Maktû‘",
+    "Merfû‘",
+    "Mürsel",
+    "Kudsî"
+   ],
+   "d": 2,
+   "a": "Merfû‘ hadis kavlî, fiilî ve takrîrî olabilir.",
+   "ac": [
+    "Sahabeye ait sözdür.",
+    "Tâbiîye ait sözdür.",
+    "Hz. Peygamber’e ait rivayettir.",
+    "Senet türüdür.",
+    "Manası Allah’a ait olan hadistir."
+   ],
+   "kay": "Hadis usulü"
+  },
+  {
+   "id": "md2-43",
+   "ders": "Hadis",
+   "z": 2,
+   "s": "Manası Allah’a, lafzı Hz. Peygamber’e ait olan hadise ne ad verilir?",
+   "c": [
+    "Merfû‘",
+    "Hadîs-i kudsî",
+    "Mütevâtir",
+    "Mevzû‘",
+    "Muttasıl"
+   ],
+   "d": 1,
+   "a": "Kudsî hadis namazda okunmaz ve Kur’an hükmünde değildir.",
+   "ac": [
+    "Genel bir kavramdır.",
+    "Mana Allah’a, lafız Peygamber’e aittir.",
+    "Râvi sayısıyla ilgilidir.",
+    "Uydurmadır.",
+    "Senedin kesintisizliğidir."
+   ],
+   "kay": "Hadis usulü"
+  },
+  {
+   "id": "md2-44",
+   "ders": "Hadis",
+   "z": 2,
+   "s": "Hocanın kitabından ya da ezberinden okuyup öğrencinin dinlemesiyle gerçekleşen hadis öğrenme yolu hangisidir?",
+   "c": [
+    "Semâ‘",
+    "Kırâat (arz)",
+    "İcâzet",
+    "Münâvele",
+    "Vicâde"
+   ],
+   "d": 0,
+   "a": "Semâ‘da “haddesenâ, semi‘tü” ifadeleri kullanılır.",
+   "ac": [
+    "Hocadan dinlemektir; en güçlü yol sayılır.",
+    "Öğrenci okur, hoca dinler.",
+    "Rivayet izni vermektir.",
+    "Kitabı vermektir.",
+    "Bulunan yazıdan rivayettir."
+   ],
+   "kay": "Hadis usulü"
+  },
+  {
+   "id": "md2-45",
+   "ders": "Hadis",
+   "z": 2,
+   "s": "Abdullah b. Amr b. Âs’ın Hz. Peygamber’den izin alarak yazdığı hadis sahifesinin adı nedir?",
+   "c": [
+    "Sahîfe-i Hemmâm",
+    "es-Sahîfetü’s-Sâdıka",
+    "Sahîfe-i Ali",
+    "Sahîfe-i Câbir",
+    "Kitâbü’s-sadaka"
+   ],
+   "d": 1,
+   "a": "Sahife, Hz. Peygamber döneminde hadis yazıldığının delillerindendir.",
+   "ac": [
+    "Hemmâm b. Münebbih’indir.",
+    "Abdullah b. Amr’ındır.",
+    "Hz. Ali’ye nispet edilen sahifedir.",
+    "Câbir b. Abdullah’ındır.",
+    "Zekât hükümlerine dair yazıdır."
+   ],
+   "kay": "Hadis tarihi"
+  },
+  {
+   "id": "md2-46",
+   "ders": "Hadis",
+   "z": 2,
+   "s": "Hadisleri ravisi olan sahabilerin adlarına göre sıralayan eser türüne ne ad verilir?",
+   "c": [
+    "Sünen",
+    "Câmi‘",
+    "Müsned",
+    "Mu‘cem",
+    "Erbaîn"
+   ],
+   "d": 2,
+   "a": "En tanınmış müsned Ahmed b. Hanbel’in el-Müsned’idir.",
+   "ac": [
+    "Ahkâm hadislerini fıkıh bablarına göre sıralar.",
+    "Sekiz ana konuyu içeren eserlerdir.",
+    "Sahabi adlarına göre düzenlenir.",
+    "Hocalara, sahabilere ya da şehirlere göre alfabetik düzenlenir.",
+    "Kırk hadis derlemesidir."
+   ],
+   "kay": "Hadis edebiyatı"
+  },
+  {
+   "id": "md2-47",
+   "ders": "Hadis",
+   "z": 2,
+   "s": "Senedinde yalancılıkla itham edilmiş bir râvi bulunan rivayete ne ad verilir?",
+   "c": [
+    "Şâz",
+    "Metrûk",
+    "Mürsel",
+    "Hasen",
+    "Mudtarib"
+   ],
+   "d": 1,
+   "a": "Râvisi bizzat yalancı olarak bilinenin rivayeti ise mevzû‘ sayılır.",
+   "ac": [
+    "Sika râvinin daha sikaya aykırılığıdır.",
+    "Yalancılıkla itham edilen râvinin hadisidir.",
+    "Senet türüdür.",
+    "Makbul hadis türüdür.",
+    "Eşit güçteki rivayetlerin çelişmesidir."
+   ],
+   "kay": "Hadis usulü"
+  },
+  {
+   "id": "md2-48",
+   "ders": "Hadis",
+   "z": 3,
+   "s": "Hicrî III. asırda yazılan Sahîh-i Müslim’le ilgili hangisi yanlıştır?",
+   "c": [
+    "Müellifi Müslim b. Haccâc’tır.",
+    "Bir hadisin farklı rivayetlerini aynı yerde toplar.",
+    "Kütüb-i Sitte’dendir.",
+    "Girişinde (mukaddime) hadis usulüne dair değerli bilgiler vardır.",
+    "Bablarına başlık koymak suretiyle fıkhî görüşlerini yansıtmıştır."
+   ],
+   "d": 4,
+   "a": "“Buhârî’nin fıkhı bab başlıklarındadır” sözü meşhurdur.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Bu Buhârî’nin özelliğidir; Müslim’in bab başlıklarını sonradan Nevevî koymuştur."
+   ],
+   "kay": "Hadis tarihi"
+  },
+  {
+   "id": "md2-49",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 1,
+   "s": "Hz. Peygamber’in 40 yaşından önce katıldığı, haksızlığa uğrayanları korumak için kurulan cemiyet hangisidir?",
+   "c": [
+    "Dârü’n-nedve",
+    "Hılfu’l-fudûl",
+    "Ficâr Savaşı",
+    "Ukâz panayırı",
+    "Mele’"
+   ],
+   "d": 1,
+   "a": "Hz. Peygamber “Bugün bile böyle bir antlaşmaya çağrılsam katılırım” buyurmuştur.",
+   "ac": [
+    "Mekke’nin meclisidir.",
+    "Erdemliler antlaşmasıdır.",
+    "Haram aylarda yapılan savaştır.",
+    "Ticaret ve şiir fuarıdır.",
+    "Mekke’nin ileri gelenleridir."
+   ],
+   "kay": "Siyer"
+  },
+  {
+   "id": "md2-50",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 2,
+   "s": "Bedir Savaşı ile ilgili hangisi yanlıştır?",
+   "c": [
+    "Hicretin ikinci yılında Ramazan ayında olmuştur.",
+    "Müslümanların ilk büyük zaferidir.",
+    "Ebû Cehil bu savaşta öldürülmüştür.",
+    "Esirlerden okuma-yazma bilenler fidye yerine Müslüman çocuklara okuma öğretmiştir.",
+    "Müslümanların sayısı müşriklerden fazladır."
+   ],
+   "d": 4,
+   "a": "Bedir zaferi Enfâl suresinde anlatılır.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Müslümanlar 300 civarında, müşrikler yaklaşık 1000 kişidir."
+   ],
+   "kay": "Siyer"
+  },
+  {
+   "id": "md2-51",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 2,
+   "s": "Hz. Peygamber’in hicretin dokuzuncu yılında Bizans’a karşı düzenlediği ve çetin şartlar sebebiyle “Ceyşü’l-usre” (zorluk ordusu) adı verilen sefer hangisidir?",
+   "c": [
+    "Mûte",
+    "Huneyn",
+    "Tebük",
+    "Hayber",
+    "Benî Kurayza"
+   ],
+   "d": 2,
+   "a": "Tebük seferine katılmayan üç sahabinin tövbesi Tevbe suresinde anlatılır.",
+   "ac": [
+    "Hicretin 8. yılında Bizans’a karşıdır; Hz. Peygamber katılmamıştır.",
+    "Hevâzinlilere karşıdır.",
+    "Hicretin 9. yılındaki seferdir.",
+    "Yahudilere karşıdır.",
+    "Yahudilere karşıdır."
+   ],
+   "kay": "Siyer"
+  },
+  {
+   "id": "md2-52",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 2,
+   "s": "Hz. Ebû Bekir döneminde peygamberlik iddiasında bulunanlar ve zekât vermeyi reddedenlerle yapılan savaşlara genel olarak ne ad verilir?",
+   "c": [
+    "Fütûhat",
+    "Ridde savaşları",
+    "Fitne savaşları",
+    "Gazveler",
+    "Seriyyeler"
+   ],
+   "d": 1,
+   "a": "Yemâme Savaşı ridde savaşlarının en çetinidir.",
+   "ac": [
+    "Fetih hareketleridir.",
+    "Dinden dönmeye karşı yapılan savaşlardır.",
+    "Hz. Ali dönemindeki iç savaşlardır.",
+    "Hz. Peygamber’in katıldığı savaşlardır.",
+    "Hz. Peygamber’in katılmadığı askerî birliklerdir."
+   ],
+   "kay": "İslam tarihi"
+  },
+  {
+   "id": "md2-53",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 2,
+   "s": "Hz. Osman döneminde Bizans donanmasına karşı kazanılan ve Müslümanların ilk büyük deniz zaferi sayılan savaş hangisidir?",
+   "c": [
+    "Yermük",
+    "Zâtü’s-savârî",
+    "Nihâvend",
+    "Kıbrıs’ın fethi",
+    "Kadisiye"
+   ],
+   "d": 1,
+   "a": "Donanmanın kurulmasında Muâviye’nin Şam valiliği etkili olmuştur.",
+   "ac": [
+    "Kara savaşıdır (Hz. Ömer dönemi).",
+    "655’te kazanılmıştır.",
+    "Sâsânîlere karşı kara savaşıdır.",
+    "Bir sefer olup ilk büyük deniz savaşı Zâtü’s-savârî’dir.",
+    "Sâsânîlere karşıdır."
+   ],
+   "kay": "İslam tarihi"
+  },
+  {
+   "id": "md2-54",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "Abbâsîler dönemiyle ilgili hangisi yanlıştır?",
+   "c": [
+    "Başkent Bağdat’tır.",
+    "Beytülhikme’de tercüme faaliyetleri yürütülmüştür.",
+    "Türkler orduda ve yönetimde etkili olmuştur.",
+    "Sâmerrâ bir süre başkent olmuştur.",
+    "Devletin kurucusu Muâviye b. Ebû Süfyân’dır."
+   ],
+   "d": 4,
+   "a": "Abbâsî ihtilalinde Ebû Müslim el-Horasânî önemli rol oynamıştır.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Muâviye Emevîlerin kurucusudur; Abbâsîlerin ilk halifesi Ebü’l-Abbâs es-Seffâh’tır."
+   ],
+   "kay": "İslam tarihi"
+  },
+  {
+   "id": "md2-55",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 2,
+   "s": "Endülüs’ün 711’de fethine komutanlık eden ve adı bir boğaza verilen komutan kimdir?",
+   "c": [
+    "Kuteybe b. Müslim",
+    "Muhammed b. Kâsım",
+    "Târık b. Ziyâd",
+    "Ukbe b. Nâfi‘",
+    "Amr b. Âs"
+   ],
+   "d": 2,
+   "a": "Endülüs fethi Velîd b. Abdülmelik döneminde gerçekleşmiştir.",
+   "ac": [
+    "Mâverâünnehir fatihidir.",
+    "Sind fatihidir.",
+    "Cebelitârık adı ona izafe edilir.",
+    "Kuzey Afrika’da Kayrevan’ı kurmuştur.",
+    "Mısır fatihidir."
+   ],
+   "kay": "İslam tarihi"
+  },
+  {
+   "id": "md2-56",
+   "ders": "Mezhepler Tarihi",
+   "z": 1,
+   "s": "Zeydiyye mezhebiyle ilgili hangisi doğrudur?",
+   "c": [
+    "İmamların masum olduğuna inanır.",
+    "Faziletli kişi varken daha az faziletlinin (mefdûl) imametini caiz görür.",
+    "On iki imama inanır.",
+    "Yedi imam inancı vardır.",
+    "Bugün en çok İran’da yaşar."
+   ],
+   "d": 1,
+   "a": "Zeydiyye itikatta Mu‘tezile’ye, fıkıhta Hanefîliğe yakındır.",
+   "ac": [
+    "İmâmiyye görüşüdür.",
+    "Bu yüzden Hz. Ebû Bekir ve Ömer’in hilafetini kabul eder.",
+    "İmâmiyye görüşüdür.",
+    "İsmâiliyye görüşüdür.",
+    "Daha çok Yemen’de yaşar."
+   ],
+   "kay": "Mezhepler tarihi"
+  },
+  {
+   "id": "md2-57",
+   "ders": "Mezhepler Tarihi",
+   "z": 2,
+   "s": "Hz. Ali’yi ilahlaştıran ve Muhammed b. Nusayr’a nispet edilen grup hangisidir?",
+   "c": [
+    "Dürzîler",
+    "Nusayrîler",
+    "Keysâniyye",
+    "Zeydiyye",
+    "Mürcie"
+   ],
+   "d": 1,
+   "a": "Nusayrîler bugün Suriye ve Türkiye’nin güneyinde yaşar.",
+   "ac": [
+    "Fâtımî halifesi Hâkim’i ilahlaştırır.",
+    "Muhammed b. Nusayr’a nispet edilir.",
+    "Muhammed b. Hanefiyye’ye bağlanır.",
+    "Ilımlı Şîî koldur.",
+    "Şîî değildir."
+   ],
+   "kay": "Mezhepler tarihi"
+  },
+  {
+   "id": "md2-58",
+   "ders": "Mezhepler Tarihi",
+   "z": 2,
+   "s": "Büyük günah işleyenin dünyada mümin olarak kabul edilip ahiretteki durumunun Allah’a bırakılması görüşü hangi fırkayla özdeşleşmiştir?",
+   "c": [
+    "Hâricîler",
+    "Mu‘tezile",
+    "Mürcie",
+    "Cebriyye",
+    "Kaderiyye"
+   ],
+   "d": 2,
+   "a": "Ehl-i sünnet bu konuda Mürcie’ye yakın, fakat ameli önemsizleştirmeyen bir yol tutmuştur.",
+   "ac": [
+    "Kâfir sayar.",
+    "İki yer arası der.",
+    "İrca görüşüdür.",
+    "İnsan iradesiyle ilgilidir.",
+    "Kaderle ilgilidir."
+   ],
+   "kay": "Mezhepler tarihi"
+  },
+  {
+   "id": "md2-59",
+   "ders": "Dinler Tarihi",
+   "z": 1,
+   "s": "Hristiyanlıkta Tanrı’nın Baba, Oğul ve Kutsal Ruh olarak üç unsurda birliğine inanılmasına ne ad verilir?",
+   "c": [
+    "Enkarnasyon",
+    "Teslis (Trinite)",
+    "Kefaret",
+    "Vaftiz",
+    "Paruzi"
+   ],
+   "d": 1,
+   "a": "Kur’an teslis inancını reddeder (Nisâ 4/171; Mâide 5/73).",
+   "ac": [
+    "Tanrı’nın İsa’da beden almasıdır.",
+    "Üçleme inancıdır.",
+    "İsa’nın çarmıhta günahlara bedel olduğu inancıdır.",
+    "Sakramenttir.",
+    "İsa’nın ikinci gelişidir."
+   ],
+   "kay": "Dinler tarihi"
+  },
+  {
+   "id": "md2-60",
+   "ders": "Dinler Tarihi",
+   "z": 2,
+   "s": "Budizm’in kurucusu Siddhartha Gautama ile ilgili hangisi yanlıştır?",
+   "c": [
+    "Hindistan’da (bugünkü Nepal sınırında) doğmuştur.",
+    "Aydınlanmadan sonra “Buda” unvanını almıştır.",
+    "Dört yüce gerçeği öğretmiştir.",
+    "Kast sistemini reddetmiştir.",
+    "Vedaların kutsallığını ve Brahmanların otoritesini savunmuştur."
+   ],
+   "d": 4,
+   "a": "Budizm Hinduizm’e tepki olarak doğmuştur.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Budizm Vedaların otoritesini reddeder."
+   ],
+   "kay": "Dinler tarihi"
+  }
+ ]
+}
