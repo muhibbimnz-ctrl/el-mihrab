@@ -104,7 +104,8 @@ h2 em{font-style:normal;color:var(--acc)}
 /* Soru */
 .soru{background:var(--kagit);border:1px solid var(--line);border-radius:4px;padding:16px 18px}
 .soru .ust{display:flex;justify-content:space-between;gap:8px;color:var(--muted);font-size:13px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--line)}
-.soru .ust b{color:var(--ink);font:600 15px var(--serif)}
+.soru .ust b{color:var(--ink);font:600 15px var(--serif);flex:1;min-width:0}
+.soru .ust>span:last-child{white-space:nowrap;flex:none}
 .soru .kok{font:17px/1.6 var(--serif);margin-bottom:14px;white-space:pre-line}
 .zor{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:2px;padding:0 5px;margin-right:4px}
 .sik{display:flex;align-items:flex-start;gap:12px;width:100%;text-align:left;border:1px solid transparent;background:transparent;color:inherit;border-radius:3px;padding:8px 8px;margin-bottom:4px;font:16px/1.5 var(--sans);cursor:pointer}
@@ -486,7 +487,7 @@ function programSayfa(S,V,H){
  var h='<div class="ust-etiket">'+e(S.ad)+'</div><h1>Çalışma programı</h1>';
  if(!P||H.yeni){h+='<p class="lead">Kaç haftan var? Konular, ders ağırlığına ve sık çıkma derecesine göre günlere dağıtılır: haftada beş gün konu (anlatım, özet, test), bir gün deneme, bir gün dinlenme. Sık çıkan konular programın sonunda ikinci kez tekrar edilir.</p><div class="secim">'+
    [4,6,8,12].map(function(n){return'<button data-h="'+n+'">'+n+' hafta</button>'}).join('')+'</div>';
-  M.innerHTML=h;[].forEach.call(M.querySelectorAll('[data-h]'),function(b){b.onclick=function(){var t=new Date();t.setHours(0,0,0,0);guncelle(function(o){o['pl.'+S.id]={bas:+t,hafta:+b.dataset.h}});git('s='+S.id+'&t=program')}});return}
+  M.innerHTML=h;[].forEach.call(M.querySelectorAll('[data-h]'),function(b){b.onclick=function(){var t=new Date();t.setHours(0,0,0,0);guncelle(function(o){o['pl.'+S.id]={bas:+t,hafta:+b.dataset.h}});if(H.yeni)git('s='+S.id+'&t=program');else programSayfa(S,V,{})}});return}
  var G=programKur(S,V,P.hafta),bugun=Math.floor((Date.now()-P.bas)/GUN),DN=o['dn.'+S.id]||[];
  function yapildi(x){if(x.tur==='konu'||x.tur==='tekrar')return o['p.'+S.id+'.'+x.x.id]!=null&&x.tur==='konu';if(x.tur==='deneme')return DN.some(function(r){return r.ref===x.d.id});return false}
  var bitenK=G.filter(function(x){return x.tur==='konu'&&yapildi(x)}).length,topK=G.filter(function(x){return x.tur==='konu'}).length;

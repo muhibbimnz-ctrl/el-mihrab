@@ -25,16 +25,22 @@ Yeni bir sohbete başlarken: "el-mihrab deposundaki KADEM-NOTLAR.md dosyasını 
  "ozet":["madde"],"kartlar":[{"o":"ön yüz","a":"arka yüz"}],
  "sorular":[{"id":"h1-01","z":1,"s":"kök","c":["A","B","C","D","E"],"d":2,"a":"genel açıklama","ac":["A neden…","B neden…","…"],"kay":"kaynak"}]}
 ```
+- Sabit tam denemeler (5. oturum): `data/kadem/deneme/<sınav>-<n>.json` → `{"id":"mbsts-1","ad":"1. Deneme","aciklama":"…","sorular":[{"id":"md1-01","ders":"Tefsir",…}]}`. Sorular konu testlerinde yoktur; her sorunun `ders` alanı haritadaki ders adıyla aynı olmalı. `kontrol.py` dosya adının önekine (`mbsts-`) bakarak sınavın `denemeler` listesini kendisi kurar ve dağılım haritadan farklıysa uyarır.
+- Konu dosyasındaki `sinavlar` listesi, konunun hangi sınavlarda görüneceğini belirler; `kontrol.py` her sınav dosyasının `konular` listesini buna göre yeniden kurar (elle düzenlemeye gerek yok).
+- Anlatımda yeni öğe: `{"madde":"metin","kay":"633 sayılı Kanun, md. 1"}` (mevzuat maddesi kutusu).
 - `d` doğru şık (0 = A), `z` zorluk (1 kolay, 2 orta, 3 zor), `ac` her şıkkın neden doğru/yanlış olduğu, `id` kalıcı soru anahtarı (yanlış defteri buna bağlı; değiştirme).
 - Konunun `ders` adı haritadaki ders adıyla birebir aynı olmalı (deneme, soruları ders ağırlığına göre bu adla seçer). Kesme işareti olarak ’ kullanılıyor: “Kur’an Bilgisi”.
 - Dosyası olmayan sınav "Hazırlanıyor" olarak görünür.
 
 ### Sayfanın yaptıkları
-- Sınav sayfası: deneme, bugünkü tekrar, yanlış defteri, konu haritası, derslere göre konular
+- Görünüm (5. oturumda yenilendi): kâğıt rengi zemin, serif başlıklar, ince çizgiler, künye tablosu, optik form gibi yuvarlak şıklar; her sınavın kendi rengi yalnız vurgu rengi olarak kullanılıyor. Karanlık tema var.
+- Sınav sayfası: künye (kimler girer, biçim, puanlama, hazır içerik, ilerleme), Denemeler, bugünkü tekrar, yanlış defteri, çalışma programı, konu haritası, derslere göre konular
+- Denemeler sayfası: sabit tam denemeler (son sonuçla), her seferinde yeni karma deneme (konu havuzundan resmî ağırlıkla), ders denemeleri (tek dersten 20 soru, süreli), deneme geçmişi. Aynı anda tek yarım deneme tutulur; yenisine başlarken sorulur.
+- Çalışma programı (`pl.<sınav>`): 4/6/8/12 hafta seçilir; konular dersler iç içe geçecek şekilde günlere dağılır, haftada 5 konu günü + 1 deneme günü (sırayla sabit denemeler, sonra karma) + 1 dinlenme; sık çıkan (★★★) konular sonda tekrar edilir; bugünkü gün işaretlenir, testi çözülen konu üstü çizili görünür.
 - Konu: sekmeler Anlatım · Özet · Kartlar · Test. Ayet/hadis kutuları kaynağıyla, tablolar, ⚑ "Kontrol bekliyor" kutuları
 - Konu testi kolaydan zora sıralı; her cevaptan sonra doğru cevap, seçilen şıkkın neden yanlış olduğu, bütün şıkların açıklaması ve kaynak
 - Deneme (ÖSYM biçimi): süre sayacı, soru haritası, işaretleme, cevap değiştirme/silme, süre dolunca otomatik bitiş, sayfa kapansa da kaldığı yerden devam. Sorular haritadaki ders ağırlıklarıyla seçilir; hazır ders azsa deneme kısalır, süre orantılı (1,5 dk/soru)
-- Sonuç: doğru/yanlış/boş, ham puan veya net (yanlisGoturur), ders ders başarı çubukları, soruları açıklamalı inceleme, son 20 deneme geçmişi
+- Sonuç: doğru/yanlış/boş, ham puan veya net (yanlisGoturur), aynı denemenin önceki sonucu, ders ders başarı çubukları, zayıf derslere öneri, soruları açıklamalı inceleme; geçmişteki her deneme `&t=sonuc&r=<zaman>` ile açılır (son 30 deneme saklanır)
 - Yanlış defteri + aralıklı tekrar: yanlış soru 1-3-7-15-30 gün arayla sorulur; beşinde de doğruysa defterden düşer, yanlışsa baştan başlar
 - Telefonda saklananlar (`localStorage` "kadem.v1"): `p.<sınav>.<konu>` yüzde, `d.<sınav>` defter, `dn.<sınav>` deneme geçmişi, `a.<sınav>` yarım deneme. Eski `y.<sınav>` listesi otomatik taşınır
 
@@ -104,27 +110,51 @@ Kullanım ilkesi: kitaplardan yalnızca bilgi alınır; metin ve sorular kendi c
 - 60 soruluk, 90 dakikalık tam deneme artık resmî dağılımla (7-7-7-20-7-7-3-2) kendiliğinden oluşuyor; Chrome’da baştan sona denendi.
 - Doğru şıkların A–E arasında dengeli dağılması için `dengele.py` mantığı kullanıldı (sıralı şıklı sorulara dokunulmaz).
 
-## İçerik durumu (MBSTS)
-| Ders (resmî soru) | Konu dosyaları | Soru |
+### 5. oturum — 24-25 Kasım 2026 (görünüm, denemeler, DHBT, mevzuat)
+- **Görünüm yenilendi** (kullanıcı “şablon hoş durmadı, yapay zekâ yapmış gibi durmasın” dedi): renkli yuvarlak kartlar yerine kâğıt zemin, serif başlıklar, ince çizgili tablolar, optik form şıkları; üst çubuk sade.
+- **Deneme sistemi genişletildi:** sabit tam denemeler, karma deneme, ders denemeleri, deneme geçmişi, sonuç karşılaştırma; çalışma programı sayfası eklendi.
+- **MBSTS derinleştirildi:** Fıkıh 125 → 202, Mezhepler 8 → 22 (mezhep-2), Dinler 8 → 22 (dinler-2), diğer derslere 3-5’er soru; **5 tam deneme (300 soru)** yazıldı.
+- **DHBT:** `dhbt.json` açıldı (40 soru, 60 dk, 4 yanlış 1 doğru). ÖSYM ders başına sayı vermediği için ağırlıklar kullanıcının klasöründeki yayınevi denemelerinden (Yönerge 5 Deneme – OCR, Mûtenâ Akademi 1. ve 2. deneme) soru sırası sayılarak çıkarıldı: DHBT-1 ≈ inanç 3, ibadet 5, Kur’an-tecvid 6, siyer 4, ahlak 2; DHBT-2 ≈ tefsir 3, fıkıh-usul 4, hadis 3, kelam 3, İslam tarihi 2, mezhepler 1, dinler 2, din hizmetleri-hitabet 1-2. Harita lisans düzeyine göredir. Yeni konular: ahlak-1 (İslam Ahlakı), hitabet-1 (Din Hizmetleri ve Hitabet).
+- **Mevzuat ünitesi:** mevzuat-1 (633 sayılı Kanun; 04.06.2025 konsolide metne göre: Başkan 5 yıl/2 dönem, en fazla 5 başkan yardımcısı, DİYK 16 üye/5 yıl, Mushaf Kurulu başkan+12, yurt dışı 3+1 yıl, 40 müşavir/40 Başkanlık müftüsü, md. 10/A, 25, 34, 35), mevzuat-2 (657 DMK: ilkeler, ödevler, haklar, yasaklar, adaylık, izinler, disiplin, görevden uzaklaştırma), mevzuat-3 (Kariyer Basamakları Yönetmeliği: basamaklar, 6/4/8 yıl şartları, sözlü puanlar 30-30-30-10 ve 70-20-10, başarı 70, itiraz 7/15 gün, duyuru 15/30 gün; yurt dışı seçimde son 3 yılın en yüksek MBSTS’si).
+- Doğrulama: Chrome (headless) ile sabit deneme başlat-cevapla-bitir-incele, karma DHBT denemesi, çalışma programı, konu testi, karanlık tema denendi; konsol hatası yok.
+
+### Hoca kontrolü bekleyenler (5. oturum)
+- mevzuat-1: DİYK üyelerinin seçim usulü (12 üyenin Aday Tespit Kurulunun belirlediği adaylar arasından seçilmesi) — 633/5 ve 20’nin güncel metniyle bir kez daha karşılaştırılmalı.
+- mevzuat-2: 657 md. 102 (iznin devri), md. 104 (mazeret izni ayrıntıları) — güncel metinle kontrol.
+- mevzuat-3: yurt dışı mülakat puan kalemleri (yalnız ikisi doğrulandı: mevzuat 15, hizmet alanı bilgisi 15).
+- Deneme 3, soru md3-35 (Hukûk-ı Âile Kararnâmesi – gaip kocanın durumu) ve md4-40 (Hanefî’de fetva sıralaması) — ifade ayrıntıları.
+
+## İçerik durumu (25 Kasım 2026, 5. oturum sonu)
+Toplam: **32 konu, 521 konu sorusu + 300 deneme sorusu = 821 açıklamalı soru.**
+
+| Ders (MBSTS / DHBT soru) | Konu dosyaları | Soru |
 |---|---|---|
-| Kur’an Bilgisi (7) | kuran-1 (vahiy, Kur’an tarihi, yapı, kıssalar, kıraatler), kuran-2 (tecvid) | 24 |
-| Tefsir (7) | tefsir-1 (ulûmü’l-Kur’ân, usul), tefsir-2 (tefsir tarihi, ekoller, eserler) | 24 |
-| Akaid ve Kelam (7) | kelam-1 (giriş, deliller, sıfatlar, nübüvvet, kader, iman), kelam-2 (ekoller, ilk tartışmalar, filozoflar) | 24 |
-| Fıkıh ve İlmihal (20) | fikih-1 usul: hüküm-ehliyet · fikih-2 usul: deliller-lafız-mezhepler-eserler · fikih-3 taharet · fikih-4 namaz · fikih-5 oruç-itikâf · fikih-6 zekât-fitre · fikih-7 hac-umre-kurban · fikih-8 adak-yemin-keffâret-yiyecek-kesim · fikih-9 aile-miras · fikih-10 muamelat-ceza-yargılama | 125 |
-| Hadis (7) | hadis-1, hadis-2, hadis-3 | 59 |
-| Siyer ve İslam Tarihi (7) | siyer-1 (İslam öncesi, Mekke, Medine), siyer-2 (dört halife, Emevî, Abbâsî, diğer devletler) | 25 |
-| Mezhepler Tarihi (3) | mezhep-1 (Şîa kolları, gulât, modern akımlar) | 8 |
-| Dinler Tarihi (2) | dinler-1 | 8 |
+| Kur’an Bilgisi (7 / 6) | kuran-1, kuran-2 (tecvid) | 32 |
+| Tefsir (7 / 3) | tefsir-1, tefsir-2 | 33 |
+| Akaid ve Kelam (7 / 6) | kelam-1, kelam-2 | 33 |
+| Fıkıh ve İlmihal (20 / 9) | fikih-1 … fikih-10 (her birinde “Sık sorulan ek bilgiler” tablosu) | 202 |
+| Hadis (7 / 3) | hadis-1, hadis-2, hadis-3 | 59 |
+| Siyer ve İslam Tarihi (7 / 6) | siyer-1, siyer-2 | 34 |
+| Mezhepler Tarihi (3 / 1) | mezhep-1 (Şîa, gulât, modern), mezhep-2 (milel-nihal, Hâricîler, Mürcie, Cebriyye-Kaderiyye, Ehl-i sünnet, tarikatlar) | 22 |
+| Dinler Tarihi (2 / 2) | dinler-1 (büyük dinler), dinler-2 (din bilimleri, teoriler, eski Türk, Çin-Japon, Yahudi-Hristiyan ibadeti, yeni hareketler) | 22 |
+| İslam Ahlakı (– / 2) | ahlak-1 | 20 |
+| Din Hizmetleri ve Hitabet (– / 2) | hitabet-1 | 18 |
+| Mevzuat | mevzuat-1 (633), mevzuat-2 (657), mevzuat-3 (Diyanet yönetmelikleri) | 46 |
+
+**Denemeler:** MBSTS’de 5 sabit tam deneme (`data/kadem/deneme/mbsts-1…5.json`, her biri 60 soru, 7-7-7-20-7-7-3-2) + sınırsız karma deneme + her ders için ders denemesi. DHBT ve Mevzuat’ta karma ve ders denemeleri var; sabit deneme henüz yok.
+
+**Sınavlara bağlanan konular:** mbsts 25 konu · dhbt 27 · kbys, ilcemuftu, muftuyrd, egitimgorevlisi 28 (bütün dinî konular + mevzuat) · ihtisas, vaizlik 25 · aday 11, kurumici 14 (temel ilmihal, siyer, tecvid, ahlak, hitabet) · gys, murakip, yurtdisi 4 (mevzuat + hitabet) · mevzuat 3. Bu sınavların denemesi yok (sözlü ya da biçimi belirsiz); yalnız konu çalışması ve testler.
 
 Fıkıh hükümleri Hanefî mezhebine göredir; mezhep farkları ayrıca belirtilmiştir.
 
 ## Araçlar (`tools/kadem/`)
-- `kontrol.py`: bütün konu dosyalarını doğrular ve `mbsts.json` konular listesini yeniden kurar · `dengele.py [dosya…]`: doğru şıkları A–E arasında dengeler · `harita.py`: haritadaki ünite listelerini hazır konulardan günceller (sırayla çalıştır: dengele → kontrol → harita).
+- `kontrol.py`: bütün konu ve deneme dosyalarını doğrular; her sınav dosyasının `konular` (konu dosyasındaki `sinavlar` alanına göre) ve `denemeler` (dosya adı önekine göre) listesini yeniden kurar · `dengele.py [dosya…]`: doğru şıkları A–E arasında dengeler (deneme dosyaları için yolu açıkça ver: `dengele.py data/kadem/deneme/*.json`) · `harita.py`: haritası olan her sınavda ünite listelerini hazır konulardan günceller (sırayla çalıştır: dengele → kontrol → harita).
 Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık açıklaması (`ac`) olmalı, `d` 0-4, `z` 1-3, `id` benzersiz; doğru şıklar A–E arasında dengeli; yeni konu `mbsts.json` → `konular` listesine `{"ref":"…"}` olarak ve haritadaki ilgili derse `"konu":"…"` ile eklenmeli; konunun `ders` adı haritadaki adla birebir aynı olmalı.
 
 ## Sıradaki iş
-1. **MBSTS’yi derinleştirmek:** Her derse ikinci tur soru (özellikle Fıkıh 125 → 200, küçük derslerde 8 → 20+), ve konu testlerinde olmayan ayrı **deneme havuzu** (şu an deneme soruları konu testlerinden seçiliyor; fixed 5 tam deneme eklenebilir: `denemeler` alanı tasarlanabilir).
-2. **DHBT:** `data/kadem/dhbt.json` aç; ortak konuları `ref` ile bağla; DHBT-1’e özgü İslam ahlakı ve din hizmetleri/hitabet konularını yaz; deneme `{"soru":40,"dakika":60,"yanlisGoturur":true}`. ÖSYM ders başına soru sayısı yayımlamadığı için harita çıkmış DHBT sorularından (Rauf Şara, Muhkem, 5 deneme kitapları) çıkarılmalı.
-3. **Mevzuat** (kariyer basamakları, ilçe müftülüğü, müftü yardımcılığı için): 633 sayılı Kanun, 657 DMK, Diyanet yönetmelikleri; madde numaralarıyla, mevzuat.gov.tr’den güncel metin kontrol edilerek.
-4. Kadem 24 Kasım 2026’da main’e birleştirildi ve yayında (sw v169). Bundan sonra kadem dalında yapılan her iş main’e gönderilince ve sw.js sürümü artırılınca uygulamada görünür.
-5. Açık konu: bölüm bir süre ücretsiz; ödeme sistemi yok.
+1. **DHBT sabit denemeleri:** `data/kadem/deneme/dhbt-1…5.json` (40 soru; DHBT-1 20 + DHBT-2 20, haritadaki dağılım). DHBT-1’e özgü kolay-orta ilmihal soruları ağırlıkta olmalı. Ön lisans ve ortaöğretim için ayrı harita düşünülebilir.
+2. **Mevzuat:** sabit deneme (30 soru); “Hoca kontrolü bekleyenler” maddelerinin güncel metinle kontrolü; Atama ve Yer Değiştirme Yönetmeliği (hizmet bölgeleri, ortak nitelik), Görevde Yükselme Yönetmeliği, Din Hizmetleri Yönetmeliği/Cami Hizmetleri ve Kur’an Kursları yönetmelikleri için mevzuat-4.
+3. **Kariyer / müftülük sınavları:** konular bağlandı; Arapça (sözlüde 30 puan) için ayrı ünite ve sözlü sınav hazırlık kartları (Kur’an kıraat-anlam-tefsir sorusu örnekleri).
+4. **MBSTS:** Hadis dışındaki derslerde konu sorusu 32-34; her derse bir tur daha (hedef 50) ve 6-10. denemeler.
+5. Yayın: kadem dalındaki iş main’e birleştirilince `sw.js` sürümü artırılmalı (kadem.html kabukta). Deneme klasörü `data/kadem/` altında olduğu için önbellek kuralı değişmeden çalışır.
+6. Açık konu: bölüm bir süre ücretsiz; ödeme sistemi yok.
