@@ -1,7 +1,7 @@
 /* el-Mihrâb service worker
    - Uygulama kabuğu: önce telefondaki kopya (hemen açılır), arkada yenisi indirilir
    - Kur'an, meal, tefsir, kıraat servisleri: önce ağ (8 sn), olmazsa daha önce okunan kopya, o da yoksa bir kez daha dener */
-const V='mihrab-v221', DATA='mihrab-data-v1';
+const V='mihrab-v222', DATA='mihrab-data-v1';
 /* Cloudflare Pages "x.html" adresini "x"e yönlendirir. Yönlendirilmiş cevap telefona olduğu gibi saklanırsa
    internetsiz açılışta tarayıcı onu reddeder; bu yüzden temiz bir kopyası saklanır ve iki adres de denenir. */
 function temiz(r){return r&&r.redirected?new Response(r.body,{status:r.status,statusText:r.statusText,headers:r.headers}):r}
@@ -19,7 +19,7 @@ self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>Promise.a
 async function budama(){try{const c=await caches.open(DATA),ks=await c.keys();const api=ks.filter(k=>API.includes(new URL(k.url).hostname));
   if(api.length>1500)await Promise.all(api.slice(0,api.length-1200).map(k=>c.delete(k)));
   const fo=ks.filter(k=>FONT.includes(new URL(k.url).hostname));if(fo.length>300)await Promise.all(fo.slice(0,fo.length-250).map(k=>c.delete(k)))}catch(e){}}
-self.addEventListener('activate',e=>{budama();e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x.startsWith('mihrab-v221')&&x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
+self.addEventListener('activate',e=>{budama();e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x.startsWith('mihrab-v222')&&x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
 function timeout(p,ms){return Promise.race([p,new Promise((_,r)=>setTimeout(()=>r(new Error('timeout')),ms))])}
 self.addEventListener('fetch',e=>{
   const req=e.request;if(req.method!=='GET')return;
