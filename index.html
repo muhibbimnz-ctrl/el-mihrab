@@ -1133,11 +1133,13 @@ const NI={
  haber:'<path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M7.5 8.5h6M7.5 12h6M7.5 15.5h4"/>',
  cocuk:'<circle cx="12" cy="12" r="8.5"/><path d="M8.6 14.2a4 4 0 0 0 6.8 0M9.2 9.6h.01M14.8 9.6h.01"/>',
  farsca:'<path d="M4 4.5h16v12H10l-4.5 3.5v-3.5H4z"/><text x="12" y="13.6" text-anchor="middle" font-family="Amiri,serif" font-size="10" stroke="none" fill="currentColor">ف</text>',
+ encocuk:'<circle cx="12" cy="12" r="8.5"/><text x="12" y="15" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="5.8" stroke="none" fill="currentColor">ABC</text>',
+ arcocuk:'<circle cx="12" cy="12" r="8.5"/><text x="12" y="15.6" text-anchor="middle" font-family="Amiri,serif" font-size="10" stroke="none" fill="currentColor">أ ب</text>',
  ingilizce:'<path d="M4 4.5h16v12H10l-4.5 3.5v-3.5H4z"/><text x="12" y="13.4" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="600" font-size="7.4" stroke="none" fill="currentColor">En</text>'};
 const NMG=[["Kur'an",[['kuran',"Kur'ân-ı Kerîm",'mushaf oku okuma sayfa'],['tefsir','Tefsirli Okuma','meal tefsir dirâset'],['dinle',"Kur'an Dinle",'tilavet kâri hafız ses'],['ogren',"Kur'an Öğren",'elifba harf tecvid'],['ezber','Ezber','hıfz hafızlık tekrar'],['hatim','Hatim Takibi','hatim cüz grup']]],
  ['Namaz',[['vakit','Ezan Vakti','namaz vakitleri imsak iftar sahur hicri takvim'],['kible','Kıble Pusulası','kıble yön pusula'],['kaza','Kaza Namazı','kaza borç takip'],['cami','Cami Bul','cami mescit harita yakın'],['zikir','Tesbihat','zikir dua sabah akşam hısnül müslim'],['delail','Delâil-i Hayrât','salavat delail'],['ozel','Özel Haller','kadın hayız âdet regl lohusa nifas istihaze takvim'],['hac','Hac ve Umre','hac umre ihram tavaf sa‘y arafat kâbe mekke medine']]],
  ['İzle · Dinle',[['canli','Canlı Yayın','mekke medine kabe canlı'],['hutbe','Cuma Hutbesi','hutbe diyanet cuma'],['hikaye','Hadis Hikâyeleri','video çizgi film hikâye']]],
- ['İlim · Haber',[['soru','Fetva Sor','fetva soru cevap asistan sor yapay zekâ'],['fikih','İlmihal','ilmihal fıkıh mesele abdest gusül namaz oruç zekât hac kurban'],['haber','Haberler','haber gündem ümmet dünya müslüman'],['cocuk','Çocuk Köşesi','çocuk oyun'],['farsca','Farsça','dil fars'],['ingilizce','İngilizce','dil english']]]];
+ ['İlim · Haber',[['soru','Fetva Sor','fetva soru cevap asistan sor yapay zekâ'],['fikih','İlmihal','ilmihal fıkıh mesele abdest gusül namaz oruç zekât hac kurban'],['haber','Haberler','haber gündem ümmet dünya müslüman'],['cocuk','Çocuk Köşesi','çocuk oyun'],['farsca','Farsça','dil fars'],['ingilizce','İngilizce','dil english'],['encocuk','İngilizce (Çocuk)','çocuk english kids ingilizce 5-12 yaş'],['arcocuk','Arapça (Çocuk)','çocuk arapça elif ba harf 5-12 yaş']]]];
 let kDinle=0;
 function izAc(p){const iz=$('#izle');$$('.izb',iz).forEach(b=>b.classList.toggle('hide',b.dataset.p!==p));$('#izT').textContent={hutbe:'Cuma Hutbesi',canli:'Canlı Yayın',hikaye:'Hadis Hikâyeleri'}[p];iz.classList.remove('hide');document.body.classList.add('izOn');iz.scrollTop=0;ovPush();if(p==='hutbe')hutbeVaaz();else openDiger()}
 function ovPush(){try{history.pushState({ov:1},'')}catch(e){}}
@@ -1147,7 +1149,7 @@ function openVakit(){$('#vakit').classList.remove('hide');document.body.classLis
 function kuranAc(){if(set.okBicim==='mushaf')return openOkuma();const l=LS.get('beyan2.last',{s:1,a:1});hideScr();loadSurah(l.s||1,l.a>1?l.a:null)}
 const NA={kuran:kuranAc,tefsir:()=>{if(window.kuranDirase)window.kuranDirase();else kuranAc()},dinle:()=>{kDinle=1;hideScr();openOv('ovS');surahList('s')},ogren:'elifba',ezber:()=>openEzber(),hatim:'hatim',
  vakit:openVakit,kible:'kible',kaza:'kaza',cami:'cami',zikir:'zikir',delail:'delail',ozel:'ozel',hac:'hac',canli:()=>izAc('canli'),hutbe:()=>izAc('hutbe'),hikaye:()=>izAc('hikaye'),
- soru:'soru',fikih:()=>{location.href='fikih.html?ilmihal'},haber:'haber',cocuk:'cocuk',farsca:'farsca',ingilizce:'ingilizce'};
+ soru:'soru',fikih:()=>{location.href='fikih.html?ilmihal'},haber:'haber',cocuk:'cocuk',farsca:'farsca',ingilizce:'ingilizce',encocuk:()=>{location.href='cocuk.html#en'},arcocuk:()=>{location.href='cocuk.html#ar'}};
 function nmMenu(){const G=$('#nmG');if(G.dataset.ok)return;G.dataset.ok=1;
   G.innerHTML=NMG.map(([g,L])=>`<div class="nmm-gb">${esc(trS(g))}</div><div class="nmm-g">${L.map(([k,ad,an])=>`<button class="ni" data-k="${k}" data-a="${esc((ad+' '+an).toLocaleLowerCase('tr'))}"><svg viewBox="0 0 24 24">${NI[k]}</svg><span>${esc(trS(ad))}</span></button>`).join('')}</div>`).join('')+'<div class="nmm-yok hide" id="nmYok">Sonuç yok</div>';
   $$('.ni',G).forEach(b=>b.onclick=()=>{const a=NA[b.dataset.k];if(typeof a==='function')a();else location.href=a+'.html'});
