@@ -124,6 +124,16 @@ Kullanım ilkesi: kitaplardan yalnızca bilgi alınır; metin ve sorular kendi c
 - mevzuat-3: yurt dışı mülakat puan kalemleri (yalnız ikisi doğrulandı: mevzuat 15, hizmet alanı bilgisi 15).
 - Deneme 3, soru md3-35 (Hukûk-ı Âile Kararnâmesi – gaip kocanın durumu) ve md4-40 (Hanefî’de fetva sıralaması) — ifade ayrıntıları.
 
+### 6. oturum — 25 Kasım 2026 (yayın, şifre, sade ana sayfa, 6-10. denemeler)
+- **Yayın:** kadem dalı main’e alındı (sw v170). Bundan sonra her iş hem `kadem` hem `main`’e gönderiliyor.
+- **ŞİFRE (önemli):** Kadem içeriği şifreli. `data/kadem/**/*.json` artık git’e girmez (.gitignore); yayına yalnız `*.enc` dosyaları gider. Şifre depoda YOK; kullanıcıda. Çalışmaya başlarken:
+  `KADEM_SIFRE='…' python3 tools/kadem/sifre.py ac` → düz .json dosyaları oluşur; iş bitince sırayla dengele → kontrol → harita → `KADEM_SIFRE='…' python3 tools/kadem/sifre.py kapat` → commit.
+  Biçim: AES-256-GCM, anahtar PBKDF2-SHA256 (250.000 tur, tuz `data/kadem/anahtar.json`). Tarayıcı şifreyi bir kez sorar, türetilen anahtarı cihazda `kadem.anahtar` olarak saklar. Şifre değişirse `anahtar.json` silinip yeni şifreyle `kapat` çalıştırılır; eski cihazlar otomatik olarak giriş ekranına döner.
+  Not: Şifreden önceki commit’lerde içerik düz metin olarak git geçmişinde duruyor (depo herkese açık).
+- **Sınav ana sayfası sadeleşti:** konu listesi yerine “Bugünün işi” kartı (programdan ya da sıradaki çalışılmamış konu), 4 karo (Denemeler, Tekrar, Yanlış defteri, Program), ders kartları (sınavdaki soru sayısı, konu/soru sayısı, ilerleme), zayıf konular (yanlış defterinden), çalışma araçları. Konular ders sayfasında (`&ds=<ders>`): ders denemesi, dersin özeti, dersin kartları. Yeni: **Son tekrar kitapçığı** (`&t=ozet[&ds=]`, bütün özetler, yazdırılabilir), **Karışık kartlar** (`&t=kartlar[&ds=]`). Sınav bilgisi katlanır kutuda.
+- **MBSTS 6-10. denemeler (300 soru):** son yılların ÖSYM tarzında (uzun paragraf kökü, olay senaryosu, I-II-III öncüllü, eşleştirme, “bu parçada sözü edilen…”). Kullanıcının klasöründeki “2026 MBTS.pdf” (60 soruluk görüntü PDF) OCR ile yalnız tarz ve konu dağılımı için incelendi; ilk taslakta birebir benzeyen sorular çıkınca tamamı farklı örnek ve öncüllerle yeniden yazıldı. Kural aynı: çıkmış soru alınmaz, tarz alınır.
+- Toplam: 32 konu, 521 konu sorusu + 600 deneme sorusu = **1121 soru**; MBSTS’de 10 tam deneme.
+
 ## İçerik durumu (25 Kasım 2026, 5. oturum sonu)
 Toplam: **32 konu, 521 konu sorusu + 300 deneme sorusu = 821 açıklamalı soru.**
 
@@ -152,9 +162,10 @@ Fıkıh hükümleri Hanefî mezhebine göredir; mezhep farkları ayrıca belirti
 Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık açıklaması (`ac`) olmalı, `d` 0-4, `z` 1-3, `id` benzersiz; doğru şıklar A–E arasında dengeli; yeni konu `mbsts.json` → `konular` listesine `{"ref":"…"}` olarak ve haritadaki ilgili derse `"konu":"…"` ile eklenmeli; konunun `ders` adı haritadaki adla birebir aynı olmalı.
 
 ## Sıradaki iş
+0. Şifreli düzenle ilgili yukarıdaki iş akışına uy (önce `sifre.py ac`).
 1. **DHBT sabit denemeleri:** `data/kadem/deneme/dhbt-1…5.json` (40 soru; DHBT-1 20 + DHBT-2 20, haritadaki dağılım). DHBT-1’e özgü kolay-orta ilmihal soruları ağırlıkta olmalı. Ön lisans ve ortaöğretim için ayrı harita düşünülebilir.
 2. **Mevzuat:** sabit deneme (30 soru); “Hoca kontrolü bekleyenler” maddelerinin güncel metinle kontrolü; Atama ve Yer Değiştirme Yönetmeliği (hizmet bölgeleri, ortak nitelik), Görevde Yükselme Yönetmeliği, Din Hizmetleri Yönetmeliği/Cami Hizmetleri ve Kur’an Kursları yönetmelikleri için mevzuat-4.
 3. **Kariyer / müftülük sınavları:** konular bağlandı; Arapça (sözlüde 30 puan) için ayrı ünite ve sözlü sınav hazırlık kartları (Kur’an kıraat-anlam-tefsir sorusu örnekleri).
-4. **MBSTS:** Hadis dışındaki derslerde konu sorusu 32-34; her derse bir tur daha (hedef 50) ve 6-10. denemeler.
+4. **MBSTS:** Hadis dışındaki derslerde konu sorusu 32-34; her derse bir tur daha (hedef 50). Anlatımları ders kitabı düzeyine çıkarmak (özellikle Tefsir, Kelam, Siyer).
 5. Yayın: kadem dalındaki iş main’e birleştirilince `sw.js` sürümü artırılmalı (kadem.html kabukta). Deneme klasörü `data/kadem/` altında olduğu için önbellek kuralı değişmeden çalışır.
 6. Açık konu: bölüm bir süre ücretsiz; ödeme sistemi yok.
