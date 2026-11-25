@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="tr"><head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Kıble Pusulası — el-Mihrâb</title><meta name="theme-color" content="#efe7d6">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="arac.css?v=1"><script src="arac.js?v=1"></script>
+<style>
+.pus{position:relative;width:min(84vw,340px);aspect-ratio:1;margin:18px auto 8px}
+.pus svg{width:100%;height:100%;display:block}
+#kadran{transition:transform .25s linear;transform-origin:50% 50%}
+.ok{position:absolute;left:50%;top:-4px;transform:translateX(-50%);width:0;height:0;border-left:11px solid transparent;border-right:11px solid transparent;border-top:18px solid var(--ink)}
+.pus.tam .ok{border-top-color:var(--acc)}
+.dr{text-align:center;margin:6px 0 2px}.dr b{font-family:var(--disp);font-size:42px;color:var(--acc);font-variant-numeric:tabular-nums}.dr span{display:block;color:var(--muted);font-size:14px}
+.pus.tam+.dr span{color:var(--acc);font-weight:700}
+.bil{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line);margin-top:16px}
+.bil div{padding:12px 2px;border-bottom:1px solid var(--line)}.bil div:nth-child(odd){border-right:1px solid var(--line);padding-right:10px}.bil div:nth-child(even){padding-left:12px}
+.bil small{display:block;color:var(--muted);font-size:12.5px}.bil b{font-size:18px;font-weight:600}
+</style></head><body>
+<div class="ust"><a class="geri"></a></div>
+<main>
+<h1>Kıble Pusulası</h1>
+<p class="alt" id="yer">Konum bekleniyor…</p>
+<div class="pus" id="pus"><div class="ok"></div>
+<svg viewBox="0 0 200 200"><g id="kadran"></g></svg></div>
+<div class="dr"><b id="der">–</b><span id="drm">Pusulayı başlatın</span></div>
+<div class="satirlar" style="justify-content:center"><button class="dg" id="bas">Pusulayı başlat</button><button class="dg ince" id="kon">Konumumu yenile</button></div>
+<div class="bil">
+ <div><small>Kıble açısı</small><b id="aci">–</b></div>
+ <div><small>Kâbe’ye uzaklık</small><b id="uz">–</b></div>
+ <div><small>Kıble saati (güneş önünüzde)</small><b id="gs1">–</b></div>
+ <div><small>Güneş tam arkanızda</small><b id="gs2">–</b></div>
+</div>
+<p class="not">Kıble saatinde güneşe doğru durursanız yüzünüz kıbleye döner; pusulası olmayan telefonlarda en güvenilir yol budur.</p>
+<p class="kucuk">Telefonu düz tutun. Sapma olursa telefonu havada birkaç kez “8” çizerek döndürün; demir, mıknatıs ve hoparlörden uzak durun. Açı, kuzeyden saat yönünde ölçülür.</p>
+</main>
+<script>
+var KL=21.4225,KN=39.8262,Q=null,yon=null,son=0,titr=0;
+function kibleAci(la,lo){var D=Math.PI/180;return (Math.atan2(Math.sin((KN-lo)*D),Math.cos(la*D)*Math.tan(KL*D)-Math.sin(la*D)*Math.cos((KN-lo)*D))/D+360)%360}
+function uzak(la,lo){var D=Math.PI/180,a=Math.sin((KL-la)*D/2),b=Math.sin((KN-lo)*D/2),h=a*a+Math.cos(la*D)*Math.cos(KL*D)*b*b;return 2*6371*Math.asin(Math.sqrt(h))}
+function gunes(d,lat,lng){var r=Math.PI/180,n=d.getTime()/864e5+2440587.5-2451545,L=(280.46+.9856474*n)%360,g=((357.528+.9856003*n)%360)*r,l=(L+1.915*Math.sin(g)+.02*Math.sin(2*g))*r,e=(23.439-4e-7*n)*r,
+  ra=Math.atan2(Math.cos(e)*Math.sin(l),Math.cos(l)),de=Math.asin(Math.sin(e)*Math.sin(l)),gm=(18.697374558+24.06570982441908*n)%24,H=(gm*15+lng)*r-ra,f=lat*r;
+  return{alt:Math.asin(Math.sin(f)*Math.sin(de)+Math.cos(f)*Math.cos(de)*Math.cos(H))/r,az:(Math.atan2(-Math.sin(H),Math.tan(de)*Math.cos(f)-Math.sin(f)*Math.cos(H))/r+360)%360}}
+function fark(a,b){var x=((a-b)%360+540)%360-180;return x}
+function kibleSaati(lat,lng,hedef){var d=new Date();d.setHours(0,0,0,0);var en=null,ef=9;
+  for(var m=0;m<1440;m++){var t=new Date(d.getTime()+m*6e4),s=gunes(t,lat,lng);if(s.alt<4)continue;var f=Math.abs(fark(s.az,hedef));if(f<ef){ef=f;en=t}}
+  return ef<1.5?en.toLocaleTimeString('tr-TR',{hour:'2-digit',minute:'2-digit'}):'Bugün yok'}
+function kadran(){var h='<circle cx="100" cy="100" r="92" fill="none" stroke="var(--line2)" stroke-width="1.2"/>';
+  for(var i=0;i<72;i++){var a=i*5,u=i%6===0?10:4,R=Math.PI/180*a;h+='<line x1="'+(100+92*Math.sin(R))+'" y1="'+(100-92*Math.cos(R))+'" x2="'+(100+(92-u)*Math.sin(R))+'" y2="'+(100-(92-u)*Math.cos(R))+'" stroke="var(--muted)" stroke-width="'+(i%18===0?1.8:1)+'"/>'}
+  [['K',0],['D',90],['G',180],['B',270]].forEach(function(k){var R=Math.PI/180*k[1];h+='<text x="'+(100+70*Math.sin(R))+'" y="'+(100-70*Math.cos(R)+6)+'" text-anchor="middle" font-size="17" font-weight="700" fill="'+(k[0]==='K'?'var(--red)':'var(--ink2)')+'" transform="rotate('+k[1]+' '+(100+70*Math.sin(R))+' '+(100-70*Math.cos(R))+')">'+k[0]+'</text>'});
+  if(Q!=null){var R=Math.PI/180*Q,x=100+48*Math.sin(R),y=100-48*Math.cos(R);
+    h+='<line x1="100" y1="100" x2="'+(100+80*Math.sin(R))+'" y2="'+(100-80*Math.cos(R))+'" stroke="var(--acc)" stroke-width="3" stroke-linecap="round"/>';
+    h+='<g transform="translate('+x+' '+y+') rotate('+Q+')"><rect x="-11" y="-11" width="22" height="22" rx="2" fill="var(--ink)"/><rect x="-11" y="-5" width="22" height="3.5" fill="var(--gold)"/></g>'}
+  h+='<circle cx="100" cy="100" r="4" fill="var(--ink2)"/>';$('#kadran').innerHTML=h}
+function ciz(){if(yon==null||Q==null)return;$('#kadran').style.transform='rotate('+(-yon)+'deg)';var f=fark(Q,yon),tam=Math.abs(f)<4;
+  $('#pus').classList.toggle('tam',tam);$('#der').textContent=Math.round(Math.abs(f))+'°';
+  $('#drm').textContent=tam?'Kıbleye dönüksünüz':(f>0?'Sağa dönün':'Sola dönün');
+  if(tam&&!titr){titr=1;try{navigator.vibrate&&navigator.vibrate(80)}catch(e){}}if(!tam&&Math.abs(f)>8)titr=0}
+function olay(e){var h=null;if(e.webkitCompassHeading!=null)h=e.webkitCompassHeading;else if(e.absolute&&e.alpha!=null)h=360-e.alpha;else if(e.type==='deviceorientationabsolute'&&e.alpha!=null)h=360-e.alpha;
+  if(h==null)return;var so=(screen.orientation&&screen.orientation.angle)||window.orientation||0;h=(h+so+360)%360;
+  yon=yon==null?h:(yon+fark(h,yon)*.35+360)%360;son=Date.now();ciz()}
+function baslat(){var b=$('#bas');b.disabled=true;var ekle=function(){addEventListener('deviceorientationabsolute',olay);addEventListener('deviceorientation',olay);
+    setTimeout(function(){if(!son){$('#drm').textContent='Telefonda pusula algılayıcısı bulunamadı. Kıble saatini kullanın.';b.disabled=false}},3500);$('#drm').textContent='Pusula ayarlanıyor…'};
+  if(window.DeviceOrientationEvent&&typeof DeviceOrientationEvent.requestPermission==='function'){DeviceOrientationEvent.requestPermission().then(function(r){if(r==='granted'){ekle();b.classList.add('hide')}else{$('#drm').textContent='Pusula izni verilmedi';b.disabled=false}}).catch(function(){b.disabled=false})}
+  else{ekle();b.classList.add('hide')}}
+function kur(l){Q=kibleAci(l.lat,l.lng);kadran();$('#aci').textContent=Q.toFixed(1)+'°';$('#uz').textContent=Math.round(uzak(l.lat,l.lng)).toLocaleString('tr-TR')+' km';
+  $('#yer').textContent=(l.name&&l.name!=='Konumunuz'?l.name+' · ':'')+l.lat.toFixed(3)+', '+l.lng.toFixed(3);
+  $('#gs1').textContent=kibleSaati(l.lat,l.lng,Q);$('#gs2').textContent=kibleSaati(l.lat,l.lng,(Q+180)%360);
+  if(yon==null){$('#der').textContent=Math.round(Q)+'°';$('#drm').textContent='Kuzeyden saat yönünde'}else ciz()}
+function konum(){$('#yer').textContent='Konum alınıyor…';konumAl(kur,function(){var l=LS.get('mihrab.loc',null);if(l&&l.lat!=null)kur(l);else $('#yer').textContent='Konum alınamadı. Telefonun konum iznini açıp “Konumumu yenile”ye dokunun.'})}
+kadran();var L0=LS.get('mihrab.loc',null);if(L0&&L0.lat!=null)kur(L0);konum();
+$('#bas').onclick=baslat;$('#kon').onclick=konum;
+if(window.DeviceOrientationEvent&&typeof DeviceOrientationEvent.requestPermission!=='function'){baslat()}
+</script></body></html>

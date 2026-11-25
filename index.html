@@ -212,12 +212,42 @@ a{color:var(--accent)}
 .big3{background:linear-gradient(150deg,#d9c98f 0%,#6f8a6a 40%,#2f5a4a 78%,#24443a 100%)}
 .hm-links{font-size:14px;color:var(--muted)}
 .nm-in{flex:1;overflow-y:auto;padding:14px 14px 24px;max-width:720px;width:100%;margin:0 auto}
-#namaz{top:0;z-index:45}
+#namaz{top:0;z-index:45;background:var(--bg)}
+.nmm{padding:6px 16px 28px}
+.nmm-h{display:flex;align-items:center;gap:6px;margin:4px 0 12px}.nmm-h .ib{margin-left:-8px}
+.nmm-h h1{margin:0;font-family:var(--disp);font-weight:700;font-size:34px;line-height:1.1;color:var(--ink);letter-spacing:-.2px}
+.nmm-ara{display:flex;align-items:center;gap:10px;background:color-mix(in srgb,var(--line) 70%,transparent);border-radius:999px;padding:11px 18px;color:var(--muted);margin-bottom:10px}
+.nmm-ara input{flex:1;border:0;background:transparent;font:inherit;font-size:17px;color:var(--ink);outline:0;min-width:0}.nmm-ara input::-webkit-search-cancel-button{display:none}
+.nmm-vk{display:flex;align-items:baseline;gap:8px;width:100%;border:0;border-bottom:1px solid var(--line);background:none;padding:10px 2px;font:inherit;color:var(--ink2);text-align:left;cursor:pointer}
+.nmm-vk b{font-family:var(--disp);font-size:22px;color:var(--accent)}.nmm-vk span{font-size:13.5px;color:var(--muted)}.nmm-vk i{margin-left:auto;font-style:normal;color:var(--muted)}
+.nmm-gb{font-size:11.5px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:var(--muted);margin:22px 2px 4px}
+.nmm-g{display:grid;grid-template-columns:repeat(4,1fr);gap:6px 2px}
+.ni{border:0;background:none;padding:12px 2px 8px;display:flex;flex-direction:column;align-items:center;gap:9px;color:var(--ink2);font:inherit;cursor:pointer;border-radius:16px;-webkit-tap-highlight-color:transparent}
+.ni:active{background:color-mix(in srgb,var(--accent) 9%,transparent)}
+.ni svg{width:34px;height:34px;color:var(--accent);fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.ni span{font-size:14px;line-height:1.2;text-align:center;color:var(--ink2)}
+.ni.hide,.nmm-gb.hide{display:none}
+.nmm-yok{color:var(--muted);text-align:center;padding:26px 0}
+@media(min-width:560px){.nmm-g{grid-template-columns:repeat(5,1fr)}}
+.vk-in{padding:10px 16px 30px}
+#vakit .pt{background:none;border:0;padding:0}
+#vakit .pt .nx{margin:10px 0 14px}#vakit .pt .nx b{font-size:44px}
+#vakit .pt .tm{grid-template-columns:1fr;gap:0}
+#vakit .pt .tm div{display:flex;justify-content:space-between;border-bottom:1px solid var(--line);border-radius:0;padding:11px 4px;font-size:16px;color:var(--ink2)}
+#vakit .pt .tm div b{display:inline;font-size:18px}
+#vakit .pt .tm div.on{color:var(--accent);font-weight:700}#vakit .pt .tm div.on b{color:var(--accent)}
+.vk-in .pt .tm div.on{background:none}
+.vk-hc{text-align:center;margin:18px 0 6px;color:var(--ink2)}.vk-hc .gar{display:block}
+.vk-ay{width:100%;border-collapse:collapse;font-size:13px;margin-top:14px;font-variant-numeric:tabular-nums}
+.vk-ay th{font-size:11px;color:var(--muted);font-weight:700;text-align:center;padding:6px 2px;border-bottom:1px solid var(--line2)}
+.vk-ay td{text-align:center;padding:6px 2px;border-bottom:1px solid var(--line)}.vk-ay tr.bu td{color:var(--accent);font-weight:700}
+.vk-not{font-size:12.5px;color:var(--muted);line-height:1.5;margin-top:14px}
+.izb.hide{display:none}
 .nm1{display:flex;flex-direction:column;gap:10px;padding-bottom:12px}
 .nm1 .pt .nx{margin:4px 0}.nm1 .pt .nx b{font-size:26px}
 .nmg{flex:1;min-height:300px;display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:1fr;gap:10px}
 .nmg .tile{min-height:0;padding:10px 8px;border-radius:22px;color:#fff}.nmg .tile small{font-size:11.5px;opacity:.9}
-.nmdv{display:grid;grid-template-columns:1fr 1fr;gap:8px}.nmdv .dv{padding:8px 10px;gap:8px}.nmdv .dv .di{font-size:20px}.nmdv .dv .dt b{font-size:13.5px}.nmdv .dv .dt small{font-size:11.5px}
+.nmdv{display:flex;flex-direction:column}.nmdv .dv{background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:10px 2px;gap:12px}.nmdv .dv .di{font-size:0;width:22px;height:22px;color:var(--accent)}.nmdv .dv .di svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.nmdv .dv .dt{flex-direction:row;align-items:baseline;gap:8px;flex-wrap:wrap}.nmdv .dv .dt b{font-size:15px;font-weight:600}.nmdv .dv .dt small{font-size:13px}.nmdv .dv .dt i{flex-basis:100%;height:3px}.nmdv .dv:after{content:"›";color:var(--muted);font-size:20px}
 .nm1 .offs{margin:0}
 .tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
 .tiles.t3w{grid-template-columns:repeat(3,1fr);margin-top:8px}
@@ -312,13 +342,6 @@ a{color:var(--accent)}
 .ez-m{font-family:var(--serif);color:var(--ink2);max-width:760px;line-height:1.6;margin-top:8px}
 .ez-c{margin-top:14px;font-size:14px;color:var(--muted)}
 @media(max-width:760px){.home-in{grid-template-columns:1fr;padding:14px 10px}.pt .tm div b{font-size:13px}.mus{padding:18px 14px;margin:8px}}
-#namaz .pt{background:linear-gradient(135deg,#0e5a43,#0b4031);color:#e9f1ec;border:0}
-#namaz .pt .loc{color:#bcd6c8}.pt .loc b{color:#fff}.pt .loc a{color:#f2dca4}
-#namaz .pt .nx b{color:#f2dca4}.pt .nx span{color:#bcd6c8}
-#namaz .pt .tm div{color:#bcd6c8}.pt .tm div b{color:#fff}
-#namaz .pt .tm div.on{background:#f2dca4;color:#5b4512}.pt .tm div.on b{color:#2a1f05}
-#namaz .pt .note{color:#d7e6dd}
-#namaz .pt .pill{background:#ffffff1a;border-color:#ffffff40;color:#fff}
 .src{line-height:1.65;font-size:15px}
 [dir=rtl]{--ui:'Noto Naskh Arabic','Source Sans 3',sans-serif;--disp:'Reem Kufi','Amiri',serif;--serif:'Amiri',serif}
 [dir=rtl] .tb i,[dir=rtl] .sbtn .ar,[dir=rtl] .dua .dt,[dir=rtl] .sc .a,[dir=rtl] .sh .t{display:none}
@@ -467,38 +490,40 @@ a{color:var(--accent)}
 
 <div class="vdov hide" id="vdOv"><div class="vdbx"><div class="vdh"><b id="vdT"></b><button class="ib" id="vdC" aria-label="Kapat">✕</button></div><div class="vdf"><iframe id="vdF" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div></div></div>
 <section class="scr hide" id="namaz">
-  <div class="rd-h"><button class="ib" id="nmX" title="Ana sayfa"></button><b>Namaz ve Kur'an</b><span style="flex:1"></span></div>
-  <div class="nm-in nm1">
-    <div id="pt" class="pt"></div>
+  <div class="nm-in nmm">
+    <div class="nmm-h"><button class="ib" id="nmX" title="Ana sayfa"></button><h1>Namaz ve Kur'an</h1></div>
+    <label class="nmm-ara"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><input id="nmAra" type="search" placeholder="Ara" autocomplete="off"></label>
+    <button class="nmm-vk" id="nmVk"></button>
     <div id="gDevam" class="nmdv"></div>
-    <div class="nmg">
-      <button class="tile t1" id="hRead"><svg viewBox="0 0 64 48"><path d="M32 12C24 6 14 5 6 7v32c8-2 18-1 26 5 8-6 18-7 26-5V7c-8-2-18-1-26 5z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M32 12v32" stroke="currentColor" stroke-width="3"/></svg><b>Kur'ân-ı Kerîm oku</b></button>
-      <button class="tile t3" id="hElifba"><span class="ar" style="font-size:30px;line-height:1;opacity:1">اَلِفْ بَا</span><b>Kur'an Öğren</b></button>
-      <button class="tile" id="hIzle" style="background:linear-gradient(135deg,#0b3d2e,#1d6b52 55%,#b08a3e)"><span style="font-size:30px;line-height:1">▶</span><b>İzle · Dinle</b><small>Hutbe · Canlı · Hikâyeler</small></button>
-      <button class="tile" id="hCocuk" style="background:linear-gradient(135deg,#1f8a70,#fb8500)"><span style="font-size:30px;line-height:1">🧒</span><b>Çocuk Köşesi</b></button>
-      <button class="tile t4" data-dil="farsca"><span class="big">ف</span><b>Farsça</b></button>
-      <button class="tile t5" data-dil="ingilizce"><span class="big">En</span><b>İngilizce</b></button>
-      <button class="tile" id="hZikir" style="grid-column:1/-1;aspect-ratio:auto!important;background:linear-gradient(135deg,#7a5a14,#b08a3e 55%,#0e5a43)"><span class="ar" style="font-size:28px;line-height:1">أَذْكَار</span><b>Sabah-Akşam Zikirleri</b><small>Hısnü’l-Müslim · namaz sonrası tesbihat</small></button>
-      <button class="tile" id="hDelail" style="grid-column:1/-1;aspect-ratio:auto!important;background:linear-gradient(135deg,#0b4031,#0e5a43 50%,#b08a3e)"><span class="ar" style="font-size:28px;line-height:1">دَلَائِلُ الْخَيْرَات</span><b>Delâilü’l-Hayrât</b><small>Haftalık 8 hizb · salavât-ı şerîfe</small></button>
-    </div>
+    <div id="nmG"></div>
     <div class="offs"><a href="#" id="hOff">⬇ İnternetsiz kullanım için indir</a> <span class="note" id="hOffI"></span></div>
   </div>
 </section>
 
+<section class="izp hide" id="vakit">
+  <div class="rd-h"><button class="ib" id="vkX" title="Geri"></button><b>Ezan Vakti</b><span style="flex:1"></span></div>
+  <div class="nm-in vk-in">
+    <div id="pt" class="pt"></div>
+    <div id="vkHicri" class="vk-hc"></div>
+    <div id="vkAy"></div>
+    <p class="vk-not">Vakitler Diyanet hesabına göredir (imsak 18°, yatsı 17°, temkinli). İnternet yokken konumdan hesaplanır.</p>
+  </div>
+</section>
+
 <section class="izp hide" id="izle">
-  <div class="rd-h"><button class="ib" id="izX" title="Kapat"></button><b>İzle · Dinle</b><span style="flex:1"></span></div>
+  <div class="rd-h"><button class="ib" id="izX" title="Kapat"></button><b id="izT">İzle · Dinle</b><span style="flex:1"></span></div>
   <div class="nm-in">
-    <div class="dl-h">Cuma hutbesi</div>
+    <div class="izb" data-p="hutbe"><div class="dl-h">Cuma hutbesi</div>
     <div class="gl">
       <div class="gcard hv" id="gHutbe"></div>
     </div>
-    <div class="dl-h">Canlı yayın · Mekke ve Medine</div>
-    <div class="cny" id="cny"></div>
+    </div><div class="izb" data-p="canli"><div class="dl-h">Canlı yayın · Mekke ve Medine</div>
+    <div class="cny" id="cny"></div></div><div class="izb" data-p="hikaye">
     <div class="dl-h">Hadis hikâyeleri</div>
     <div class="hdk">
     <div class="tv tvk"><div class="tvekran"><iframe id="tvF" title="Hadis hikâyeleri" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div><div class="tvalt"><span class="tvled"></span><b id="tvT">el-Mihrâb TV</b></div></div>
     <div id="vdList" class="vdl vdk"></div>
-    </div>
+    </div></div>
   </div>
 </section>
 
@@ -998,7 +1023,7 @@ async function canliKur(){const k=$('#cny');if(!k||k.dataset.ok)return;let d=CAN
     const ac=()=>{$('.ek',c).innerHTML=`<iframe title="${esc(y.ad)} canlı yayın" src="${YTE((y.kaynaklar[j].video?encodeURIComponent(y.kaynaklar[j].video)+'?':'live_stream?channel='+encodeURIComponent(y.kaynaklar[j].kanal)+'&')+'autoplay=1&mute=1')}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;$('.al b',c).textContent=y.ad+' · '+y.kaynaklar[j].ad;a.href=url()};
     $('.ps',c).onclick=ac;$('.yk',c).onclick=()=>{j=(j+1)%y.kaynaklar.length;ac();toast(y.ad+': '+y.kaynaklar[j].ad)}})}
 function canliDurdur(){const k=$('#cny');if(k){delete k.dataset.ok;k.innerHTML=''}}
-async function openDiger(){if($('#namaz').classList.contains('hide'))return openNamaz();canliKur();const box=$('#vdList');
+async function openDiger(){canliKur();const box=$('#vdList');
   let d=null;try{d=await (await fetch('data/videolar.json',{cache:'no-cache'})).json()}catch(e){}
   const V=(d&&d.videolar)||[];
   box.innerHTML=V.map(v=>`<a href="#" data-v="${esc(v.id)}" data-b="${esc(v.baslik||'')}"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg"><b>${esc(v.baslik||'')}</b></a>`).join('')+(d&&d.kanal?`<a class="vk" href="${esc(d.kanal)}" target="_blank" rel="noopener">YouTube kanalına git ›</a>`:'');
@@ -1006,7 +1031,56 @@ async function openDiger(){if($('#namaz').classList.contains('hide'))return open
   if(!$('#tvF').src||$('#tvF').src==='about:blank'){
     if(d&&d.kanal_id&&/^UC/.test(d.kanal_id)){$('#tvF').src=YTE('videoseries?list=UU'+d.kanal_id.slice(2));$('#tvT').textContent='Hadis hikâyeleri · en yeniler'}
     else if(V[0])tvOyna(V[0].id,V[0].baslik)}}
-function openNamaz(){hideScr();scrSet('namaz');$('#namaz').classList.remove('hide');ptRender();gunluk();if(LS.get('mihrab.offdone',0)){$('#hOff').textContent='✓ '+trS('Kur\'an ve meâller cihazınıza kaydedildi')+' · '+trS('güncelle')}}
+/* Namaz ve Kur'an menüsü: kutusuz simge ızgarası */
+const NI={
+ kuran:'<path d="M12 6.2C10 4.6 7 4.2 4 4.6v14c3-.4 6 0 8 1.6 2-1.6 5-2 8-1.6v-14c-3-.4-6 0-8 1.6z"/><path d="M12 6.2v14"/>',
+ tefsir:'<path d="M5 4.5h11a3 3 0 0 1 3 3V20H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h11M9 8h6M9 10.8h4"/>',
+ dinle:'<path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3.5" y="14" width="4" height="6.5" rx="1.6"/><rect x="16.5" y="14" width="4" height="6.5" rx="1.6"/>',
+ ogren:'<path d="M4 20h16"/><path d="M14.5 4.5l3 3L9 16l-4 1 1-4z"/>',
+ ezber:'<path d="M17 3l3 3-3 3"/><path d="M4 12v-2a4 4 0 0 1 4-4h12"/><path d="M7 21l-3-3 3-3"/><path d="M20 12v2a4 4 0 0 1-4 4H4"/>',
+ hatim:'<circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 4.9-5.3"/>',
+ vakit:'<path d="M3 21h18"/><path d="M6 21v-7a6 6 0 0 1 12 0v7"/><path d="M12 8V4.5M11 4.5h2"/><path d="M10 21v-3.5a2 2 0 0 1 4 0V21"/>',
+ kible:'<circle cx="12" cy="12" r="9"/><path d="M15.6 8.4l-2.1 5.1-5.1 2.1 2.1-5.1z"/>',
+ kaza:'<path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1"/><path d="M3.5 4v4.2h4.2"/><path d="M12 7.5V12l3 2"/>',
+ cami:'<path d="M12 21.5s-7-6.1-7-11.6a7 7 0 0 1 14 0c0 5.5-7 11.6-7 11.6z"/><path d="M9.4 12.5v-1.8a2.6 2.6 0 0 1 5.2 0v1.8zM12 8.1V6.6"/>',
+ zikir:'<circle cx="12" cy="10.5" r="6.5" stroke-dasharray=".1 3.4" stroke-width="2.7"/><path d="M12 17v4M10.5 21h3"/>',
+ delail:'<circle cx="12" cy="12" r="2.4"/><path d="M12 9.6C9.8 6.2 12 3 12 3s2.2 3.2 0 6.6M14.4 12C17.8 9.8 21 12 21 12s-3.2 2.2-6.6 0M12 14.4C14.2 17.8 12 21 12 21s-2.2-3.2 0-6.6M9.6 12C6.2 14.2 3 12 3 12s3.2-2.2 6.6 0"/>',
+ ozel:'<rect x="3.5" y="5" width="17" height="15.5" rx="2.2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><path d="M12 12c1.4 1.7 2.1 2.7 2.1 3.6a2.1 2.1 0 0 1-4.2 0c0-.9.7-1.9 2.1-3.6z"/>',
+ canli:'<circle cx="12" cy="12" r="2"/><path d="M8 8a5.7 5.7 0 0 0 0 8M16 8a5.7 5.7 0 0 1 0 8M5.2 5.2a9.6 9.6 0 0 0 0 13.6M18.8 5.2a9.6 9.6 0 0 1 0 13.6"/>',
+ hutbe:'<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M9 21h6"/>',
+ hikaye:'<rect x="3" y="5" width="18" height="14" rx="2.6"/><path d="M10 9.2v5.6l4.8-2.8z"/>',
+ soru:'<path d="M4 5h16v11.5H9.5L4 20.5z"/><path d="M10 9.2a2 2 0 1 1 2.8 1.8c-.5.3-.8.7-.8 1.3"/><path d="M12 14.3h.01"/>',
+ fikih:'<path d="M12 4v16M8 20h8M5 7h14"/><path d="M5 7l-2.6 6a2.6 2.6 0 0 0 5.2 0zM19 7l-2.6 6a2.6 2.6 0 0 0 5.2 0z"/>',
+ haber:'<path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M7.5 8.5h6M7.5 12h6M7.5 15.5h4"/>',
+ cocuk:'<circle cx="12" cy="12" r="8.5"/><path d="M8.6 14.2a4 4 0 0 0 6.8 0M9.2 9.6h.01M14.8 9.6h.01"/>',
+ farsca:'<path d="M4 4.5h16v12H10l-4.5 3.5v-3.5H4z"/><text x="12" y="13.6" text-anchor="middle" font-family="Amiri,serif" font-size="10" stroke="none" fill="currentColor">ف</text>',
+ ingilizce:'<path d="M4 4.5h16v12H10l-4.5 3.5v-3.5H4z"/><text x="12" y="13.4" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="600" font-size="7.4" stroke="none" fill="currentColor">En</text>'};
+const NMG=[["Kur'an",[['kuran',"Kur'ân-ı Kerîm",'mushaf oku okuma sayfa'],['tefsir','Tefsirli Okuma','meal tefsir dirâset'],['dinle',"Kur'an Dinle",'tilavet kâri hafız ses'],['ogren',"Kur'an Öğren",'elifba harf tecvid'],['ezber','Ezber','hıfz hafızlık tekrar'],['hatim','Hatim Takibi','hatim cüz grup']]],
+ ['Namaz',[['vakit','Ezan Vakti','namaz vakitleri imsak iftar sahur hicri takvim'],['kible','Kıble Pusulası','kıble yön pusula'],['kaza','Kaza Namazı','kaza borç takip'],['cami','Cami Bul','cami mescit harita yakın'],['zikir','Tesbihat','zikir dua sabah akşam hısnül müslim'],['delail','Delâil-i Hayrât','salavat delail'],['ozel','Özel Haller','kadın hayız âdet regl lohusa nifas istihaze takvim']]],
+ ['İzle · Dinle',[['canli','Canlı Yayın','mekke medine kabe canlı'],['hutbe','Cuma Hutbesi','hutbe diyanet cuma'],['hikaye','Hadis Hikâyeleri','video çizgi film hikâye']]],
+ ['İlim · Haber',[['soru','Soru-Cevap','soru cevap fetva asistan sor'],['fikih','Fıkıh Meseleleri','fıkıh mesele mezhep hanefi'],['haber','Haberler','haber gündem ümmet dünya müslüman'],['cocuk','Çocuk Köşesi','çocuk oyun'],['farsca','Farsça','dil fars'],['ingilizce','İngilizce','dil english']]]];
+let kDinle=0;
+function izAc(p){const iz=$('#izle');$$('.izb',iz).forEach(b=>b.classList.toggle('hide',b.dataset.p!==p));$('#izT').textContent={hutbe:'Cuma Hutbesi',canli:'Canlı Yayın',hikaye:'Hadis Hikâyeleri'}[p];iz.classList.remove('hide');document.body.classList.add('izOn');iz.scrollTop=0;ovPush();if(p==='hutbe')hutbeVaaz();else openDiger()}
+function ovPush(){try{history.pushState({ov:1},'')}catch(e){}}
+function ovKapat(geri){const iz=$('#izle'),vk=$('#vakit');let k=false;if(!iz.classList.contains('hide')){iz.classList.add('hide');canliDurdur();const f=$('#tvF');if(f)f.src='about:blank';k=true}if(!vk.classList.contains('hide')){vk.classList.add('hide');k=true}document.body.classList.remove('izOn');if(geri&&history.state&&history.state.ov)try{ovSus=true;history.back()}catch(e){}return k}
+let ovSus=false;addEventListener('popstate',e=>{if(ovSus){ovSus=false;e.stopImmediatePropagation();return}if(ovKapat(false))e.stopImmediatePropagation()});
+function openVakit(){$('#vakit').classList.remove('hide');document.body.classList.add('izOn');ovPush();ptRender()}
+const NA={kuran:()=>openOkuma(),tefsir:()=>{const l=LS.get('beyan2.last',{s:1,a:1});hideScr();loadSurah(l.s||1,l.a>1?l.a:null)},dinle:()=>{kDinle=1;hideScr();openOv('ovS');surahList('s')},ogren:'elifba',ezber:()=>openEzber(),hatim:'hatim',
+ vakit:openVakit,kible:'kible',kaza:'kaza',cami:'cami',zikir:'zikir',delail:'delail',ozel:'ozel',canli:()=>izAc('canli'),hutbe:()=>izAc('hutbe'),hikaye:()=>izAc('hikaye'),
+ soru:'soru',fikih:'fikih',haber:'haber',cocuk:'cocuk',farsca:'farsca',ingilizce:'ingilizce'};
+function nmMenu(){const G=$('#nmG');if(G.dataset.ok)return;G.dataset.ok=1;
+  G.innerHTML=NMG.map(([g,L])=>`<div class="nmm-gb">${esc(trS(g))}</div><div class="nmm-g">${L.map(([k,ad,an])=>`<button class="ni" data-k="${k}" data-a="${esc((ad+' '+an).toLocaleLowerCase('tr'))}"><svg viewBox="0 0 24 24">${NI[k]}</svg><span>${esc(trS(ad))}</span></button>`).join('')}</div>`).join('')+'<div class="nmm-yok hide" id="nmYok">Sonuç yok</div>';
+  $$('.ni',G).forEach(b=>b.onclick=()=>{const a=NA[b.dataset.k];if(typeof a==='function')a();else location.href=a+'.html'});
+  const A=$('#nmAra');A.oninput=()=>{const q=A.value.trim().toLocaleLowerCase('tr');let top=0;
+    $$('.nmm-g',G).forEach(g=>{let n=0;$$('.ni',g).forEach(b=>{const v=!q||b.dataset.a.split(' ').some(w=>w.startsWith(q))||b.dataset.a.includes(q);b.classList.toggle('hide',!v);if(v)n++});g.previousElementSibling.classList.toggle('hide',!n);top+=n});
+    $('#nmYok').classList.toggle('hide',top>0)}}
+async function nmVakit(){const b=$('#nmVk');if(!b)return;b.onclick=openVakit;const loc=LS.get('mihrab.loc',null);
+  if(!loc){b.innerHTML=`<b>Ezan vakti</b><span>Konumunu seç</span><i>›</i>`;return}
+  const r=await ptData().catch(()=>null);if(!r){b.innerHTML=`<b>Ezan vakti</b><span>${esc(loc.name||'')}</span><i>›</i>`;return}
+  const now=new Date(),mins=now.getHours()*60+now.getMinutes(),T=PN.map(p=>[p,String(r.t[p[0]]||'').slice(0,5)]),tm=T.map(([p,v])=>{const[a,c]=v.split(':').map(Number);return a*60+c});
+  let ni=tm.findIndex(x=>x>mins);const yarin=ni<0;if(yarin)ni=0;const left=(yarin?tm[0]+1440:tm[ni])-mins;
+  b.innerHTML=`<b>${Math.floor(left/60)}:${String(left%60).padStart(2,'0')}</b><span>${pnm(T[ni][0])} ${trS('vaktine')} · ${T[ni][1]} · ${esc(loc.name||'')}</span><i>›</i>`}
+function openNamaz(){hideScr();scrSet('namaz');$('#namaz').classList.remove('hide');nmMenu();nmVakit();gunluk();if(LS.get('mihrab.offdone',0)){$('#hOff').textContent='✓ '+trS('Kur\'an ve meâller cihazınıza kaydedildi')+' · '+trS('güncelle')}}
 async function hutbeVaaz(){const H=$('#gHutbe'),Vz=$('#gVaaz');if(!H||H.dataset.ok)return;H.dataset.ok=1;
   const ac=(bas,alt,html)=>{const o=document.createElement('div');o.className='hvov';o.innerHTML=`<div class="bx"><button class="x" aria-label="Kapat">×</button><div class="gk" style="text-align:left">${esc(alt)}</div><h3>${esc(bas)}</h3>${html}</div>`;o.onclick=e=>{if(e.target===o||e.target.classList.contains('x'))o.remove()};document.body.appendChild(o)};
   try{const d=await (await fetch('data/hutbe.json',{cache:'no-cache'})).json();const h=(d.hutbeler||[])[0];if(h){const tr=new Date(h.tarih+'T12:00').toLocaleDateString('tr-TR',{day:'numeric',month:'long',year:'numeric'});
@@ -1032,8 +1106,8 @@ function gunluk(){hutbeVaaz();
   $('#zB').onclick=()=>{z.c++;$('#zB').textContent=z.c;if(z.c%z.t===0){try{navigator.vibrate&&navigator.vibrate([60,40,60])}catch(e){}toast(`${z.c} ✓`)}else{try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}}sv()};
   $('#zR').onclick=e=>{e.preventDefault();z.c=0;$('#zB').textContent=0;sv()};$('#zS').onchange=()=>{z.i=$('#zS').selectedIndex;z.c=0;$('#zB').textContent=0;sv()};$('#zT').onchange=()=>{z.t=+$('#zT').value;sv()}}
     const lr=LS.get('beyan2.last',{s:1,a:1}),okp=LS.get('mihrab.okP',1),oks=PG[okp-1][0],pc=Math.round(okp/604*100);
-  $('#gDevam').innerHTML=`<button class="dv" id="gDm"><span class="di">📖</span><span class="dt"><b>${trS('Mushaf')} · ${okp}</b><small>${esc(SN()[oks-1])} · %${pc}</small><i style="--p:${pc}%"></i></span></button>
-   <button class="dv" id="gDv"><span class="di">📚</span><span class="dt"><b>${trS('Tefsirli okuma')}</b><small>${esc(SN()[(lr.s||1)-1])} ${lr.s||1}:${lr.a||1}</small></span></button>`;
+  $('#gDevam').innerHTML=`<button class="dv" id="gDm"><span class="di"><svg viewBox="0 0 24 24">${NI.kuran}</svg></span><span class="dt"><b>${trS('Mushaf')} · ${okp}</b><small>${esc(SN()[oks-1])} · %${pc}</small><i style="--p:${pc}%"></i></span></button>
+   <button class="dv" id="gDv"><span class="di"><svg viewBox="0 0 24 24">${NI.tefsir}</svg></span><span class="dt"><b>${trS('Tefsirli okuma')}</b><small>${esc(SN()[(lr.s||1)-1])} ${lr.s||1}:${lr.a||1}</small></span></button>`;
   $('#gDm').onclick=()=>openOkuma();$('#gDv').onclick=()=>{hideScr();loadSurah(lr.s||1,lr.a>1?lr.a:null)};
 }
 async function ptNext(){const r=await ptData().catch(()=>null);if(!r)return;const now=new Date(),mins=now.getHours()*60+now.getMinutes();const T=PN.map(p=>[p,String(r.t[p[0]]||'').slice(0,5)]);const tm=T.map(([p,v])=>{const[a,b]=v.split(':').map(Number);return a*60+b});let ni=tm.findIndex(x=>x>mins);if(ni<0)ni=0;let left=(tm[ni]>mins?tm[ni]:tm[ni]+1440)-mins;$('#hNx').textContent=`${pnm(T[ni][0])} ${T[ni][1]} · ${Math.floor(left/60)} sa ${left%60} dk`}
@@ -1087,8 +1161,13 @@ async function ptRender(){
      <div class="nx"><span>${pnm(T[ni][0])} ${trS('vaktine')}</span><b>${Math.floor(left/60)}:${String(left%60).padStart(2,'0')}</b></div>
      <div class="tm">${T.map(([p,v],i)=>`<div class="${i===cur&&!(mins<tm[0])?'on':''}">${pnm(p)}<b>${v}</b></div>`).join('')}</div>`;
     $('#ptCh').onclick=e=>{e.preventDefault();LS.set('mihrab.loc',null);LS.set('mihrab.pt2',{});ptRender()}};
-  draw();clearInterval(ptTimer);ptTimer=setInterval(()=>{if(!$('#namaz').classList.contains('hide')&&$('#pt .nx'))draw()},30000);
+  draw();clearInterval(ptTimer);ptTimer=setInterval(()=>{if(!$('#vakit').classList.contains('hide')&&$('#pt .nx'))draw();if(!$('#namaz').classList.contains('hide'))nmVakit()},30000);vkAy(r);
 }
+function vkAy(r){const A=$('#vkAy');if(!A)return;const d=new Date(),st2=LS.get('mihrab.pt2',{}),L=st2[`${r.loc.k}|${d.getFullYear()}-${d.getMonth()+1}`];
+  try{const f=new Intl.DateTimeFormat('tr-u-ca-islamic-umalqura',{day:'numeric',month:'long',year:'numeric'}),fa=new Intl.DateTimeFormat('ar-u-ca-islamic-umalqura-nu-arab',{day:'numeric',month:'long',year:'numeric'});$('#vkHicri').innerHTML=`<div class="gs">${esc(d.toLocaleDateString('tr',{weekday:'long',day:'numeric',month:'long',year:'numeric'}))}</div><div class="gv">${esc(f.format(d).replace(/ AH| BH/,'').replace(/^0/,''))}</div><span class="gar">${esc(fa.format(d))}</span>`}catch(e){}
+  if(!Array.isArray(L)){A.innerHTML='';return}const ay=d.toLocaleDateString('tr',{month:'long'});
+  A.innerHTML=`<div class="nmm-gb">${esc(ay)} ayı vakitleri</div><table class="vk-ay"><tr><th>Gün</th>${PN.map(p=>`<th>${pnm(p)}</th>`).join('')}</tr>${L.map((t,i)=>`<tr class="${i+1===d.getDate()?'bu':''}"><td>${i+1}</td>${PN.map(p=>`<td>${esc(String(t[p[0]]||'').slice(0,5))}</td>`).join('')}</tr>`).join('')}</table>`;
+  const bu=$('.vk-ay tr.bu',A);if(bu&&A.dataset.k!==String(d.getDate())){A.dataset.k=d.getDate()}}
 const PG=[[1,1],[2,1],[2,6],[2,17],[2,25],[2,30],[2,38],[2,49],[2,58],[2,62],[2,70],[2,77],[2,84],[2,89],[2,94],[2,102],[2,106],[2,113],[2,120],[2,127],[2,135],[2,142],[2,146],[2,154],[2,164],[2,170],[2,177],[2,182],[2,187],[2,191],[2,197],[2,203],[2,211],[2,216],[2,220],[2,225],[2,231],[2,234],[2,238],[2,246],[2,249],[2,253],[2,257],[2,260],[2,265],[2,270],[2,275],[2,282],[2,283],[3,1],[3,10],[3,16],[3,23],[3,30],[3,38],[3,46],[3,53],[3,62],[3,71],[3,78],[3,84],[3,92],[3,101],[3,109],[3,116],[3,122],[3,133],[3,141],[3,149],[3,154],[3,158],[3,166],[3,174],[3,181],[3,187],[3,195],[4,1],[4,7],[4,12],[4,15],[4,20],[4,24],[4,27],[4,34],[4,38],[4,45],[4,52],[4,60],[4,66],[4,75],[4,80],[4,87],[4,92],[4,95],[4,102],[4,106],[4,114],[4,122],[4,128],[4,135],[4,141],[4,148],[4,155],[4,163],[4,171],[4,176],[5,3],[5,6],[5,10],[5,14],[5,18],[5,24],[5,32],[5,37],[5,42],[5,46],[5,51],[5,58],[5,65],[5,71],[5,77],[5,83],[5,90],[5,96],[5,104],[5,109],[5,114],[6,1],[6,9],[6,19],[6,28],[6,36],[6,45],[6,53],[6,60],[6,69],[6,74],[6,82],[6,91],[6,95],[6,102],[6,111],[6,119],[6,125],[6,132],[6,138],[6,143],[6,147],[6,152],[6,158],[7,1],[7,12],[7,23],[7,31],[7,38],[7,44],[7,52],[7,58],[7,68],[7,74],[7,82],[7,88],[7,96],[7,105],[7,121],[7,131],[7,138],[7,144],[7,150],[7,156],[7,160],[7,164],[7,171],[7,179],[7,188],[7,196],[8,1],[8,9],[8,17],[8,26],[8,34],[8,41],[8,46],[8,53],[8,62],[8,70],[9,1],[9,7],[9,14],[9,21],[9,27],[9,32],[9,37],[9,41],[9,48],[9,55],[9,62],[9,69],[9,73],[9,80],[9,87],[9,94],[9,100],[9,107],[9,112],[9,118],[9,123],[10,1],[10,7],[10,15],[10,21],[10,26],[10,34],[10,43],[10,54],[10,62],[10,71],[10,79],[10,89],[10,98],[10,107],[11,6],[11,13],[11,20],[11,29],[11,38],[11,46],[11,54],[11,63],[11,72],[11,82],[11,89],[11,98],[11,109],[11,118],[12,5],[12,15],[12,23],[12,31],[12,38],[12,44],[12,53],[12,64],[12,70],[12,79],[12,87],[12,96],[12,104],[13,1],[13,6],[13,14],[13,19],[13,29],[13,35],[13,43],[14,6],[14,11],[14,19],[14,25],[14,34],[14,43],[15,1],[15,16],[15,32],[15,52],[15,71],[15,91],[16,7],[16,15],[16,27],[16,35],[16,43],[16,55],[16,65],[16,73],[16,80],[16,88],[16,94],[16,103],[16,111],[16,119],[17,1],[17,8],[17,18],[17,28],[17,39],[17,50],[17,59],[17,67],[17,76],[17,87],[17,97],[17,105],[18,5],[18,16],[18,21],[18,28],[18,35],[18,46],[18,54],[18,62],[18,75],[18,84],[18,98],[19,1],[19,12],[19,26],[19,39],[19,52],[19,65],[19,77],[19,96],[20,13],[20,38],[20,52],[20,65],[20,77],[20,88],[20,99],[20,114],[20,126],[21,1],[21,11],[21,25],[21,36],[21,45],[21,58],[21,73],[21,82],[21,91],[21,102],[22,1],[22,6],[22,16],[22,24],[22,31],[22,39],[22,47],[22,56],[22,65],[22,73],[23,1],[23,18],[23,28],[23,43],[23,60],[23,75],[23,90],[23,105],[24,1],[24,11],[24,21],[24,28],[24,32],[24,37],[24,44],[24,54],[24,59],[24,62],[25,3],[25,12],[25,21],[25,33],[25,44],[25,56],[25,68],[26,1],[26,20],[26,40],[26,61],[26,84],[26,112],[26,137],[26,160],[26,184],[26,207],[27,1],[27,14],[27,23],[27,36],[27,45],[27,56],[27,64],[27,77],[27,89],[28,6],[28,14],[28,22],[28,29],[28,36],[28,44],[28,51],[28,60],[28,71],[28,78],[28,85],[29,7],[29,15],[29,24],[29,31],[29,39],[29,46],[29,53],[29,64],[30,6],[30,16],[30,25],[30,33],[30,42],[30,51],[31,1],[31,12],[31,20],[31,29],[32,1],[32,12],[32,21],[33,1],[33,7],[33,16],[33,23],[33,31],[33,36],[33,44],[33,51],[33,55],[33,63],[34,1],[34,8],[34,15],[34,23],[34,32],[34,40],[34,49],[35,4],[35,12],[35,19],[35,31],[35,39],[35,45],[36,13],[36,28],[36,41],[36,55],[36,71],[37,1],[37,25],[37,52],[37,77],[37,103],[37,127],[37,154],[38,1],[38,17],[38,27],[38,43],[38,62],[38,84],[39,6],[39,11],[39,22],[39,32],[39,41],[39,48],[39,57],[39,68],[39,75],[40,8],[40,17],[40,26],[40,34],[40,41],[40,50],[40,59],[40,67],[40,78],[41,1],[41,12],[41,21],[41,30],[41,39],[41,47],[42,1],[42,11],[42,16],[42,23],[42,32],[42,45],[42,52],[43,11],[43,23],[43,34],[43,48],[43,61],[43,74],[44,1],[44,19],[44,40],[45,1],[45,14],[45,23],[45,33],[46,6],[46,15],[46,21],[46,29],[47,1],[47,12],[47,20],[47,30],[48,1],[48,10],[48,16],[48,24],[48,29],[49,5],[49,12],[50,1],[50,16],[50,36],[51,7],[51,31],[51,52],[52,15],[52,32],[53,1],[53,27],[53,45],[54,7],[54,28],[54,50],[55,17],[55,41],[55,68],[56,17],[56,51],[56,77],[57,4],[57,12],[57,19],[57,25],[58,1],[58,7],[58,12],[58,22],[59,4],[59,10],[59,17],[60,1],[60,6],[60,12],[61,6],[62,1],[62,9],[63,5],[64,1],[64,10],[65,1],[65,6],[66,1],[66,8],[67,1],[67,13],[67,27],[68,16],[68,43],[69,9],[69,35],[70,11],[70,40],[71,11],[72,1],[72,14],[73,1],[73,20],[74,18],[74,48],[75,20],[76,6],[76,26],[77,20],[78,1],[78,31],[79,16],[80,1],[81,1],[82,1],[83,7],[83,35],[85,1],[86,1],[87,16],[89,1],[89,24],[91,1],[92,15],[95,1],[97,1],[98,8],[100,10],[103,1],[106,1],[109,1],[112,1]];
 /* --- Kur'an okuma (sayfa sayfa mushaf) --- */
 const okC={};async function okSurah(s,ed){const k=s+ed;if(okC[k])return okC[k];let r;
@@ -1343,7 +1422,7 @@ function surahList(t){
   $$('#segS button').forEach(b=>b.classList.toggle('on',b.dataset.t===t));const B=$('#ovSB');
   if(t==='j'){B.innerHTML=`<div class="grid">${JUZ.map((j,i)=>`<button class="sc" data-s="${j[0]}" data-a="${j[1]}"><span class="n">${i+1}</span><span class="m"><b>${i+1}. Cüz</b><small>${SN()[j[0]-1]} ${j[0]}:${j[1]}</small></span></button>`).join('')}</div>`;$$('.sc',B).forEach(x=>x.onclick=()=>goto(+x.dataset.s,+x.dataset.a));return}
   B.innerHTML=`<input class="inp" id="sq" placeholder="Sûre adı veya numarası…"><div class="grid" id="sg"></div>`;
-  const draw=q=>{q=(q||'').toLocaleLowerCase('tr');$('#sg').innerHTML=SN().map((n,i)=>!q||n.toLocaleLowerCase('tr').includes(q)||String(i+1)===q||S_AR[i].includes(q)?`<button class="sc ${i+1===st.s?'cur':''}" data-s="${i+1}"><span class="n">${i+1}</span><span class="m"><b>${n}</b><small>${MEDENI.has(i+1)?'Medenî':'Mekkî'} · ${S_CNT[i]} âyet</small></span><span class="a">${S_AR[i]}</span></button>`:'').join('');$$('#sg .sc').forEach(x=>x.onclick=()=>{closeOv();loadSurah(+x.dataset.s)})};
+  const draw=q=>{q=(q||'').toLocaleLowerCase('tr');$('#sg').innerHTML=SN().map((n,i)=>!q||n.toLocaleLowerCase('tr').includes(q)||String(i+1)===q||S_AR[i].includes(q)?`<button class="sc ${i+1===st.s?'cur':''}" data-s="${i+1}"><span class="n">${i+1}</span><span class="m"><b>${n}</b><small>${MEDENI.has(i+1)?'Medenî':'Mekkî'} · ${S_CNT[i]} âyet</small></span><span class="a">${S_AR[i]}</span></button>`:'').join('');$$('#sg .sc').forEach(x=>x.onclick=()=>{closeOv();const d=kDinle;kDinle=0;Promise.resolve(loadSurah(+x.dataset.s)).then(()=>{if(d)playAyah(1)})})};
   draw();$('#sq').oninput=e=>draw(e.target.value);setTimeout(()=>$('#sq').focus(),40);
 }
 let fT;
@@ -1449,12 +1528,11 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('sw.js').catch(()=>{});
   $('#okX').innerHTML=icon('l');$('#ezX').innerHTML=icon('l');$('#ezPl').innerHTML=icon('p',22);
   $('.brand').style.cursor='pointer';$('.brand').onclick=showHome;$('.brand').title=trS('Ana sayfa');
-  $('#hNamaz').onclick=openNamaz;{const ih=$('#hIhtisas');if(ih)ih.onclick=()=>{location.href='ihtisas.html'}}{const kd=$('#hKadem');if(kd)kd.onclick=()=>{location.href='kadem.html'}}$('#hElifba').onclick=()=>{location.href='elifba.html'};{const c=$('#hCocuk');if(c)c.onclick=()=>{location.href='cocuk.html'}}{const z=$('#hZikir');if(z)z.onclick=()=>{location.href='zikir.html'}}{const dl=$('#hDelail');if(dl)dl.onclick=()=>{location.href='delail.html'}}$('#vdC').onclick=vdKapat;$('#vdOv').onclick=e=>{if(e.target.id==='vdOv')vdKapat()};$('#hMedrese').onclick=()=>{location.href='medrese.html'};$('#nmX').innerHTML=icon('l');$('#nmX').onclick=showHome;
-  $('#hRead').onclick=()=>openOkuma();const kuranDirase=()=>{const l=LS.get('beyan2.last',{s:1,a:1});hideScr();const r=LS.get('mihrab.rdSon',null),hd=r&&r.acik?r.n:l.a,hs=r&&r.acik?r.s:l.s;if(hs===st.s&&st.ay.length){if(!rdDevam()){const e=$('#a'+hd);e&&e.scrollIntoView({block:'center'})}}else loadSurah(hs||1,hd>1?hd:null).then(()=>rdDevam())};$('#hStudy').onclick=()=>{let o=$('#dsSec');if(!o){o=document.createElement('div');o.id='dsSec';o.style.cssText='position:fixed;inset:0;z-index:60;background:rgba(20,30,25,.45);display:flex;align-items:flex-end;justify-content:center';o.innerHTML=`<div style="background:var(--card,#fff);color:inherit;width:min(520px,100%);border-radius:26px 26px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:10px"><b style="font-size:18px;text-align:center">el-Mihrâb Dirâset</b><button id="dsK" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#2f5d4e;color:#fff;cursor:pointer">Kur'an Dirâsesi<br><small style="font-weight:400;opacity:.85">Tefsir · İ'râb · Belâgat · Kıraat</small></button><button id="dsH" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#8a6a2c;color:#fff;cursor:pointer">Hadis Dirâsesi<br><small style="font-weight:400;opacity:.85">32 hadis kitabı · Kırk Hadis · Usûl</small></button><button id="dsF" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#5b4a7a;color:#fff;cursor:pointer">Fıkıh Dirâsesi<br><small style="font-weight:400;opacity:.85">260 mesele · Kudûrî ibareleriyle · 12 rehber · 8 Arapça kitap</small></button><button id="dsY" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#1f5b6e;color:#fff;cursor:pointer">Siyer Dirâsesi<br><small style="font-weight:400;opacity:.85">Siyer kitabı (72 bölüm) · Günlük ders ve 145 soru · 27 sahâbe kartı · Şecere</small></button><button id="dsA" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#7a3b4e;color:#fff;cursor:pointer">Ahlak Dirâsesi<br><small style="font-weight:400;opacity:.85">Riyâzü’s-Sâlihîn düzeninde 32 konu · Günlük nefis muhasebesi</small></button><button id="dsAk" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#24506a;color:#fff;cursor:pointer">Akaid Dirâsesi<br><small style="font-weight:400;opacity:.85">Akîdetü’t-Tahâviyye: Arapça metin, çeviri, açıklama · Mâtürîdî–Eş‘arî notları · Sorular</small></button></div>`;o.onclick=e=>{if(e.target===o)o.remove()};document.body.appendChild(o);$('#dsK').onclick=()=>{o.remove();kuranDirase()};$('#dsH').onclick=()=>{location.href='hadis.html'};$('#dsF').onclick=()=>{location.href='fikih.html'};$('#dsY').onclick=()=>{location.href='siyer.html'};$('#dsA').onclick=()=>{location.href='ahlak.html'};$('#dsAk').onclick=()=>{location.href='akaid.html'}}};if(new URLSearchParams(location.search).get('dirase')==='kuran'){history.replaceState(null,'',location.pathname);setTimeout(kuranDirase,50)};
+  $('#hNamaz').onclick=openNamaz;{const ih=$('#hIhtisas');if(ih)ih.onclick=()=>{location.href='ihtisas.html'}}{const kd=$('#hKadem');if(kd)kd.onclick=()=>{location.href='kadem.html'}}$('#vdC').onclick=vdKapat;$('#vdOv').onclick=e=>{if(e.target.id==='vdOv')vdKapat()};$('#hMedrese').onclick=()=>{location.href='medrese.html'};$('#nmX').innerHTML=icon('l');$('#nmX').onclick=showHome;
+  const kuranDirase=()=>{const l=LS.get('beyan2.last',{s:1,a:1});hideScr();const r=LS.get('mihrab.rdSon',null),hd=r&&r.acik?r.n:l.a,hs=r&&r.acik?r.s:l.s;if(hs===st.s&&st.ay.length){if(!rdDevam()){const e=$('#a'+hd);e&&e.scrollIntoView({block:'center'})}}else loadSurah(hs||1,hd>1?hd:null).then(()=>rdDevam())};$('#hStudy').onclick=()=>{let o=$('#dsSec');if(!o){o=document.createElement('div');o.id='dsSec';o.style.cssText='position:fixed;inset:0;z-index:60;background:rgba(20,30,25,.45);display:flex;align-items:flex-end;justify-content:center';o.innerHTML=`<div style="background:var(--card,#fff);color:inherit;width:min(520px,100%);border-radius:26px 26px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:10px"><b style="font-size:18px;text-align:center">el-Mihrâb Dirâset</b><button id="dsK" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#2f5d4e;color:#fff;cursor:pointer">Kur'an Dirâsesi<br><small style="font-weight:400;opacity:.85">Tefsir · İ'râb · Belâgat · Kıraat</small></button><button id="dsH" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#8a6a2c;color:#fff;cursor:pointer">Hadis Dirâsesi<br><small style="font-weight:400;opacity:.85">32 hadis kitabı · Kırk Hadis · Usûl</small></button><button id="dsF" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#5b4a7a;color:#fff;cursor:pointer">Fıkıh Dirâsesi<br><small style="font-weight:400;opacity:.85">260 mesele · Kudûrî ibareleriyle · 12 rehber · 8 Arapça kitap</small></button><button id="dsY" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#1f5b6e;color:#fff;cursor:pointer">Siyer Dirâsesi<br><small style="font-weight:400;opacity:.85">Siyer kitabı (72 bölüm) · Günlük ders ve 145 soru · 27 sahâbe kartı · Şecere</small></button><button id="dsA" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#7a3b4e;color:#fff;cursor:pointer">Ahlak Dirâsesi<br><small style="font-weight:400;opacity:.85">Riyâzü’s-Sâlihîn düzeninde 32 konu · Günlük nefis muhasebesi</small></button><button id="dsAk" style="border:0;border-radius:18px;padding:16px;font:600 17px system-ui;background:#24506a;color:#fff;cursor:pointer">Akaid Dirâsesi<br><small style="font-weight:400;opacity:.85">Akîdetü’t-Tahâviyye: Arapça metin, çeviri, açıklama · Mâtürîdî–Eş‘arî notları · Sorular</small></button></div>`;o.onclick=e=>{if(e.target===o)o.remove()};document.body.appendChild(o);$('#dsK').onclick=()=>{o.remove();kuranDirase()};$('#dsH').onclick=()=>{location.href='hadis.html'};$('#dsF').onclick=()=>{location.href='fikih.html'};$('#dsY').onclick=()=>{location.href='siyer.html'};$('#dsA').onclick=()=>{location.href='ahlak.html'};$('#dsAk').onclick=()=>{location.href='akaid.html'}}};if(new URLSearchParams(location.search).get('dirase')==='kuran'){history.replaceState(null,'',location.pathname);setTimeout(kuranDirase,50)};
   $('#hList').onclick=e=>{e.preventDefault();hideScr();openOv('ovS');surahList('s')};
   $('#hOff').onclick=e=>{e.preventDefault();offDownload(e.target,$('#hOffI'))};
-  {const iz=$('#izle'),kap=()=>{iz.classList.add('hide');document.body.classList.remove('izOn');canliDurdur();const f=$('#tvF');if(f)f.src='about:blank'};$('#hIzle').onclick=()=>{iz.classList.remove('hide');document.body.classList.add('izOn');iz.scrollTop=0;openDiger()};$('#izX').onclick=kap;$('#izX').innerHTML=icon('l')}
-  $$('[data-dil]').forEach(b=>b.onclick=()=>{location.href=b.dataset.dil+'.html'});
+  $('#izX').onclick=()=>ovKapat(true);$('#izX').innerHTML=icon('l');$('#vkX').onclick=()=>ovKapat(true);$('#vkX').innerHTML=icon('l');
   $('#okX').onclick=openNamaz;$('#ezX').onclick=openNamaz;
   $('#okNx').onclick=()=>okPage(okP+1);$('#okPv').onclick=()=>okPage(okP-1);$('#okS').onchange=()=>okPage(pageOf(+$('#okS').value,1));$('#okN2').onchange=()=>okPage(+$('#okN2').value||1);if(set.okMeal===true)set.okMeal='tr';if(set.okMeal&&set.okMealLang!==LANG){set.okMeal=LANG==='en'?'en':'tr';set.okMealLang=LANG;save()}$('#okM').value=set.okMeal||'';$('#okM').classList.toggle('on',!!set.okMeal);$('#okM').onchange=()=>{set.okMeal=$('#okM').value;set.okMealLang=LANG;save();$('#okM').classList.toggle('on',!!set.okMeal);okPage(okP)};
   $('#ezPl').onclick=()=>{if(ez.on){ezStop();ezShow()}else{ez.on=true;ez.c=0;$('#ezPl').innerHTML=icon('pa',22);ezPlay()}};
@@ -1466,7 +1544,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   if(navigator.onLine&&!LS.get('mihrab.offdone',0)&&location.protocol==='https:')setTimeout(()=>{if(navigator.connection&&navigator.connection.saveData)return;offDownload(null,null)},6000);
   if(navigator.storage&&navigator.storage.persist)navigator.storage.persist().catch(()=>{});
   const h=location.hash.match(/^#(\d{1,3})(?:-(\d{1,3}))?$/);
-  if(h)loadSurah(+h[1],+(h[2]||0)||null);else{const l=LS.get('beyan2.last',{s:1,a:1});let sc='home';try{const nv=performance.getEntriesByType('navigation')[0];if(nv&&nv.type==='reload')sc=sessionStorage.getItem('mihrab.scr')||'home'}catch(e){}
+  if(h)loadSurah(+h[1],+(h[2]||0)||null);else if(location.hash==='#okuma'){try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}openOkuma()}else if(location.hash==='#namaz'){try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}const l=LS.get('beyan2.last',{s:1,a:1});loadSurah(l.s||1,l.a>1?l.a:null);openNamaz()}else{const l=LS.get('beyan2.last',{s:1,a:1});let sc='home';try{const nv=performance.getEntriesByType('navigation')[0];if(nv&&nv.type==='reload')sc=sessionStorage.getItem('mihrab.scr')||'home'}catch(e){}
     loadSurah(l.s||1,l.a>1?l.a:null).then(()=>{if(sc==='study')rdDevam()});
     if(sc==='namaz')openNamaz();else if(sc==='diger')openNamaz();else if(sc==='okuma')openOkuma();else if(sc==='ezber')openEzber();else if(sc!=='study')showHome()}
 })();
@@ -1480,5 +1558,5 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
 new MutationObserver(function(){var g=h.classList.contains('hide');if(g===gizli)return;gizli=g;
  try{if(g){if(!(history.state&&history.state.scr))history.pushState({scr:1},'')}else if(history.state&&history.state.scr){sus=true;history.back()}}catch(e){}}).observe(h,{attributes:true,attributeFilter:['class']});
 var hs=document.getElementById('hStudy');if(hs)hs.addEventListener('click',function(){setTimeout(function(){var d=document.getElementById('dsSec');try{if(d&&getComputedStyle(d).display!=='none'&&!(history.state&&history.state.scr))history.pushState({scr:1},'')}catch(x){}},150)});
-addEventListener('popstate',function(e){var d=document.getElementById('dsSec');if(d&&getComputedStyle(d).display!=='none'){d.remove();if(!(e.state&&e.state.scr))return}if(sus){sus=false;return}if(e.state&&(e.state.scr||e.state.rd))return;var rd=document.getElementById('rd');if(rd&&!rd.classList.contains('hide'))return;if(h.classList.contains('hide'))showHome()})}catch(e){}})();</script><script src="hesap-ayar.js?v=1"></script><script src="hesap.js?v=1" defer></script></body>
+addEventListener('popstate',function(e){var d=document.getElementById('dsSec');if(d&&getComputedStyle(d).display!=='none'){d.remove();if(!(e.state&&e.state.scr))return}if(sus){sus=false;return}if(e.state&&(e.state.scr||e.state.rd))return;var rd=document.getElementById('rd');if(rd&&!rd.classList.contains('hide'))return;if(h.classList.contains('hide'))showHome()})}catch(e){}})();</script><script src="hesap-ayar.js?v=1"></script><script src="hesap.js?v=2" defer></script></body>
 </html>

@@ -1,0 +1,30 @@
+{
+  "aciklama": "Haberler bölümü. En yeni haber en üste yazılır. Alanlar: tarih (YYYY-AA-GG), etiket (kısa bölüm adı: Türkiye, Dünya, Filistin, Takvim…), baslik, ozet (kendi cümlelerimizle 1-3 cümle), kaynak (yayın adı), link (haberin adresi). gorsel isteğe bağlıdır.",
+  "guncelleme": "2026-11-25",
+  "haberler": [
+    {
+      "tarih": "2026-11-17",
+      "etiket": "Takvim",
+      "baslik": "Üç aylar 10 Aralık’ta başlıyor",
+      "ozet": "Diyanet’in dinî günler takvimine göre Recep ayı ve Regaip Kandili 10 Aralık 2026 Perşembe’ye denk geliyor. Miraç Kandili 4 Ocak 2027, Berat Kandili 22 Ocak 2027; Ramazan’ın ilk orucu 8 Şubat 2027’de tutulacak.",
+      "kaynak": "Milli Gazete",
+      "link": "https://www.milligazete.com.tr/2027-kandil-tarihleri-tam-listesi-mirac-kandili-ne-zaman-berat-kandili-hangi-gun-kadir-gecesi-kac-martta"
+    },
+    {
+      "tarih": "2026-11-12",
+      "etiket": "Türkiye",
+      "baslik": "Cuma hutbesi: Dijital mecrada ahlak",
+      "ozet": "Diyanet’in 13 Kasım hutbesi, internette ve sosyal medyada da doğru, dürüst ve sorumlu davranmanın Müslümanın ahlakının parçası olduğunu hatırlattı.",
+      "kaynak": "Yeni Asır",
+      "link": "https://www.yeniasir.com.tr/yasam/2026/11/12/cuma-hutbesi-konusu-13-kasim-bu-hafta-cuma-hutbesinin-konusu-ne"
+    },
+    {
+      "tarih": "2026-11-04",
+      "etiket": "Dünya",
+      "baslik": "ABD Kongresi’ne sekiz Müslüman seçildi",
+      "ozet": "ABD ara seçimlerinde yedi Müslüman Temsilciler Meclisi’ne girdi; Michigan’dan Abdul El-Sayed ülkenin ilk Müslüman senatörü oldu. Eyalet meclisleri ve yerel yönetimlerle birlikte en az 37 Müslüman aday kazandı.",
+      "kaynak": "Sabah",
+      "link": "https://www.sabah.com.tr/dunya/abddeki-ara-secimlerde-en-az-37-musluman-aday-kazandi-7695137"
+    }
+  ]
+}

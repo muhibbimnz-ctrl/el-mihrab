@@ -3,7 +3,7 @@
    - İlk giriş = kayıt: kullanicilar/{uid} belgesi oluşturulur (ad, e-posta, kayıt tarihi).
    - Eşitleme: tarayıcıda (localStorage) tutulan ilerleme (Kadem, Medrese, sözlük, zikir, okuma yeri…) anahtar anahtar,
      son değişen kazanır kuralıyla hesaba yazılır ve başka cihazda geri yüklenir.
-   - Hesaba GİTMEYENLER: Kadem şifre anahtarı (kadem.anahtar), hata kayıtları, Firebase'in kendi kayıtları.
+   - Hesaba GİTMEYENLER: Kadem şifre anahtarı (kadem.anahtar), özel hâller kaydı (mihrab.ozel), hata kayıtları, Firebase'in kendi kayıtları.
    Sayfaya eklemek: <script src="hesap-ayar.js"></script><script src="hesap.js" defer></script>
    Düğme: ana sayfada üst çubukta kendiliğinden çıkar; başka sayfada <span data-hesap></span> konan yere yerleşir. */
 (function(){
@@ -11,7 +11,7 @@
 var A = window.HESAP_AYAR;
 if (!A || !A.apiKey || !A.projectId) return;            // kurulum yapılmadıysa sessiz kal
 var CDN = 'https://www.gstatic.com/firebasejs/10.12.2/';
-var HARIC = /^(kadem\.anahtar|hesap\.|firebase:|mihrab\.sonhata|mihrab\.persist|__)/;
+var HARIC = /^(kadem\.anahtar|hesap\.|firebase:|mihrab\.sonhata|mihrab\.persist|mihrab\.ozel|__)/;     // mihrab.ozel: kadın özel hâller kaydı yalnız telefonda kalır
 var SINIR = 900000;                                      // Firestore belge sınırı 1 MB; pay bırakılır
 var LS; try { LS = window.localStorage; LS.getItem('x') } catch (e) { return }
 function J(k, d) { try { var v = LS.getItem(k); return v ? JSON.parse(v) : d } catch (e) { return d } }

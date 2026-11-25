@@ -1,0 +1,80 @@
+<!DOCTYPE html><html lang="tr"><head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Cami Bul — el-Mihrâb</title><meta name="theme-color" content="#efe7d6">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="arac.css?v=1"><script src="arac.js?v=1"></script>
+<style>
+.harita{position:relative;height:48vh;min-height:280px;margin:6px -18px 0;overflow:hidden;background:#e8e1d0;touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none}
+[data-theme="gece"] .harita{background:#1c2420}[data-theme="gece"] .harita .kt img{filter:brightness(.72) contrast(1.1) saturate(.6)}
+.harita .kt{position:absolute;inset:0}.harita .kt img{position:absolute;width:256px;height:256px;pointer-events:none;-webkit-user-drag:none}
+.pin{position:absolute;transform:translate(-50%,-100%);border:0;background:none;padding:0;cursor:pointer}
+.pin svg{width:30px;height:38px;display:block;filter:drop-shadow(0 2px 2px #0004)}
+.pin.on svg{width:38px;height:48px}
+.ben{position:absolute;width:16px;height:16px;border-radius:50%;background:#2f6fd8;border:3px solid #fff;box-shadow:0 0 0 6px #2f6fd833;transform:translate(-50%,-50%)}
+.hk{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:6px;z-index:3}
+.hk button{width:40px;height:40px;border-radius:10px;border:0;background:var(--paper);color:var(--ink);font-size:22px;box-shadow:0 1px 4px #0003;cursor:pointer}
+.atf{position:absolute;right:4px;bottom:2px;font-size:10.5px;background:#fffc;color:#333;padding:1px 5px;border-radius:4px;z-index:3}.atf a{color:#333}
+.kart{position:absolute;left:10px;right:10px;bottom:20px;background:var(--paper);border-radius:14px;padding:10px 14px;z-index:4;box-shadow:0 4px 14px #0003;display:flex;gap:10px;align-items:center}
+.kart .ad{flex:1;min-width:0}.kart b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.kart small{color:var(--muted)}
+.cm .sat{cursor:pointer}.cm .sat.on{background:var(--accS)}
+.yt{font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.ar{display:flex;gap:16px;margin:12px 0 2px;font-size:14px}.ar button{border:0;background:none;color:var(--muted);font-weight:600;padding:4px 0;cursor:pointer;border-bottom:2px solid transparent}.ar button.on{color:var(--acc);border-bottom-color:var(--acc)}
+</style></head><body>
+<div class="ust"><a class="geri"></a><div class="sag"><button id="yen">Konumumu yenile</button></div></div>
+<main>
+<h1>Cami Bul</h1>
+<p class="alt" id="dr">Konum alınıyor…</p>
+<div class="harita" id="h"><div class="kt" id="kt"></div><div class="hk"><button id="zp" aria-label="Yakınlaştır">+</button><button id="zm" aria-label="Uzaklaştır">−</button><button id="mk" aria-label="Konumuma dön" style="font-size:17px">◎</button></div><div class="atf">© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> katkıcıları</div><div class="kart hide" id="kr"></div></div>
+<div class="ar" id="ar"><button data-r="1000">1 km</button><button data-r="3000" class="on">3 km</button><button data-r="10000">10 km</button></div>
+<div class="cm" id="cl"></div>
+<p class="kucuk" style="margin-top:16px">Cami bilgileri OpenStreetMap’ten gelir; eksik ya da isimsiz kayıtlar olabilir. Yol tarifi Google Haritalar’da açılır.</p>
+</main>
+<script>
+var Z=15,C=null,BEN=null,CM=[],SEC=null,R=3000,T=256;
+function px(la,lo,z){var s=T*Math.pow(2,z),x=(lo+180)/360*s,sn=Math.sin(la*Math.PI/180);return{x:x,y:(.5-Math.log((1+sn)/(1-sn))/(4*Math.PI))*s}}
+function ll(x,y,z){var s=T*Math.pow(2,z),lo=x/s*360-180,n=Math.PI-2*Math.PI*y/s;return{la:180/Math.PI*Math.atan(.5*(Math.exp(n)-Math.exp(-n))),lo:lo}}
+function mesafe(a,b,c,d){var r=Math.PI/180,x=Math.sin((c-a)*r/2),y=Math.sin((d-b)*r/2),h=x*x+Math.cos(a*r)*Math.cos(c*r)*y*y;return 2*6371000*Math.asin(Math.sqrt(h))}
+function mt(m){return m<1000?Math.round(m/10)*10+' m':(m/1000).toFixed(m<10000?1:0).replace('.',',')+' km'}
+var IMG={},PIN='<svg viewBox="0 0 30 38"><path d="M15 37s13-11.5 13-22A13 13 0 0 0 2 15c0 10.5 13 22 13 22z" fill="var(--acc)" stroke="#fff" stroke-width="1.6"/><path d="M9.5 20v-3.2a5.5 5.5 0 0 1 11 0V20zM15 11.3V8.5M8.5 20.5h13" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/></svg>';
+function ciz(){var H=$('#h'),w=H.clientWidth,h=H.clientHeight,c=px(C.la,C.lo,Z),x0=c.x-w/2,y0=c.y-h/2,n=Math.pow(2,Z),K=$('#kt'),gor={};
+  for(var tx=Math.floor(x0/T);tx<=Math.floor((x0+w)/T);tx++)for(var ty=Math.floor(y0/T);ty<=Math.floor((y0+h)/T);ty++){if(ty<0||ty>=n)continue;var wx=((tx%n)+n)%n,k=Z+'/'+wx+'/'+ty;gor[k]=1;var im=IMG[k];
+    if(!im){im=IMG[k]=new Image();im.alt='';im.src='https://tile.openstreetmap.org/'+k+'.png';K.appendChild(im)}im.style.left=(tx*T-x0)+'px';im.style.top=(ty*T-y0)+'px'}
+  for(var q in IMG)if(!gor[q]){IMG[q].remove();delete IMG[q]}
+  $$('.pin,.ben',K).forEach(function(e){e.remove()});
+  if(BEN){var b=px(BEN.la,BEN.lo,Z),d=document.createElement('div');d.className='ben';d.style.left=(b.x-x0)+'px';d.style.top=(b.y-y0)+'px';K.appendChild(d)}
+  CM.forEach(function(m,i){var p=px(m.la,m.lo,Z),X=p.x-x0,Y=p.y-y0;if(X<-30||Y<-40||X>w+30||Y>h+40)return;var e=document.createElement('button');e.className='pin'+(SEC===i?' on':'');e.innerHTML=PIN;e.style.left=X+'px';e.style.top=Y+'px';e.setAttribute('aria-label',m.ad);
+    e.onpointerdown=function(ev){ev.stopPropagation()};e.onclick=function(){sec(i,false)};K.appendChild(e)})}
+function yon(m){return 'https://www.google.com/maps/dir/?api=1&destination='+m.la+','+m.lo+'&travelmode=walking'}
+function sec(i,tasi){SEC=i;var m=CM[i];if(tasi){C={la:m.la,lo:m.lo};if(Z<16)Z=16}ciz();
+  $('#kr').innerHTML='<div class="ad"><b>'+esc(m.ad)+'</b><small>'+mt(m.d)+(m.adr?' · '+esc(m.adr):'')+'</small></div><a class="yt" href="'+yon(m)+'" target="_blank" rel="noopener">Yol tarifi ›</a>';$('#kr').classList.remove('hide');
+  $$('#cl .sat').forEach(function(s){s.classList.toggle('on',+s.dataset.i===i)})}
+function liste(){$('#cl').innerHTML=CM.length?CM.map(function(m,i){return '<div class="sat" data-i="'+i+'"><div class="ad"><b>'+esc(m.ad)+'</b><small>'+mt(m.d)+(m.adr?' · '+esc(m.adr):'')+'</small></div><a class="yt" href="'+yon(m)+'" target="_blank" rel="noopener">Yol tarifi ›</a></div>'}).join(''):'<p class="bos">Bu çevrede kayıtlı cami bulunamadı. Arama alanını genişletin.</p>';
+  $$('#cl .sat').forEach(function(s){s.onclick=function(e){if(e.target.closest('a'))return;sec(+s.dataset.i,true);$('#h').scrollIntoView({behavior:'smooth',block:'center'})}})}
+var UC=['https://overpass-api.de/api/interpreter','https://overpass.kumi.systems/api/interpreter'];
+function getir(){if(!BEN)return;$('#cl').innerHTML='<p class="bos">Camiler aranıyor…</p>';$('#kr').classList.add('hide');SEC=null;
+  var q='[out:json][timeout:25];(nwr["amenity"="place_of_worship"]["religion"="muslim"](around:'+R+','+BEN.la+','+BEN.lo+'););out center 150;';
+  var dene=function(j){return fetch(UC[j],{method:'POST',body:'data='+encodeURIComponent(q),headers:{'Content-Type':'application/x-www-form-urlencoded'}}).then(function(r){if(!r.ok)throw 0;return r.json()}).catch(function(e){if(j+1<UC.length)return dene(j+1);throw e})};
+  dene(0).then(function(d){CM=(d.elements||[]).map(function(e){var la=e.lat!=null?e.lat:e.center&&e.center.lat,lo=e.lon!=null?e.lon:e.center&&e.center.lon,t=e.tags||{};if(la==null)return null;
+      var tur=/mescit|mescid|masjid|musalla/i.test(t.name||'')?'Mescit':'Cami';return{la:la,lo:lo,ad:t['name:tr']||t.name||('İsimsiz '+tur.toLocaleLowerCase('tr')),adr:[t['addr:street'],t['addr:housenumber']].filter(Boolean).join(' ')||t['addr:district']||'',d:mesafe(BEN.la,BEN.lo,la,lo)}}).filter(Boolean).sort(function(a,b){return a.d-b.d});
+    $('#dr').textContent=CM.length?R/1000+' km içinde '+CM.length+' cami ve mescit · en yakını '+mt(CM[0].d):'Yakında kayıtlı cami yok';liste();ciz()})
+  .catch(function(){$('#cl').innerHTML='<p class="bos">Cami bilgisi alınamadı. İnternet bağlantınızı kontrol edin ya da <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/cami/@'+BEN.la+','+BEN.lo+',15z">Google Haritalar’da arayın ›</a></p>'})}
+function konum(){$('#dr').textContent='Konum alınıyor…';konumAl(function(l){BEN={la:l.lat,lo:l.lng};C={la:BEN.la,lo:BEN.lo};Z=R>3000?13:15;ciz();getir()},function(){var l=LS.get('mihrab.loc',null);
+  if(l&&l.lat!=null){BEN={la:l.lat,lo:l.lng};C={la:BEN.la,lo:BEN.lo};ciz();getir();$('#dr').textContent='Kayıtlı konumunuz kullanılıyor'}else $('#dr').textContent='Konum alınamadı. Telefonun konum iznini açıp “Konumumu yenile”ye dokunun.'})}
+/* sürükleme ve yakınlaştırma */
+(function(){var H=$('#h'),P={},bas=null;
+  function zoom(dz,cx,cy){var nz=Math.max(3,Math.min(19,Z+dz));if(nz===Z||!C)return;var w=H.clientWidth,h=H.clientHeight;cx=cx==null?w/2:cx;cy=cy==null?h/2:cy;
+    var c=px(C.la,C.lo,Z),wx=c.x-w/2+cx,wy=c.y-h/2+cy,f=Math.pow(2,nz-Z),n=ll(wx*f-cx+w/2,wy*f-cy+h/2,nz);Z=nz;C={la:n.la,lo:n.lo};ciz()}
+  H.addEventListener('pointerdown',function(e){if(!C)return;P[e.pointerId]={x:e.clientX,y:e.clientY};H.setPointerCapture(e.pointerId);var k=Object.keys(P);if(k.length===1)bas={c:px(C.la,C.lo,Z),x:e.clientX,y:e.clientY};else bas={d:Math.hypot(P[k[0]].x-P[k[1]].x,P[k[0]].y-P[k[1]].y)}});
+  H.addEventListener('pointermove',function(e){if(!P[e.pointerId]||!bas)return;P[e.pointerId]={x:e.clientX,y:e.clientY};var k=Object.keys(P);
+    if(k.length===1&&bas.c){var n=ll(bas.c.x-(e.clientX-bas.x),bas.c.y-(e.clientY-bas.y),Z);C={la:n.la,lo:n.lo};ciz()}
+    else if(k.length===2&&bas.d){var d=Math.hypot(P[k[0]].x-P[k[1]].x,P[k[0]].y-P[k[1]].y);if(d/bas.d>1.5){zoom(1);bas.d=d}else if(d/bas.d<.66){zoom(-1);bas.d=d}}});
+  var bit=function(e){delete P[e.pointerId];var k=Object.keys(P);bas=k.length===1&&C?{c:px(C.la,C.lo,Z),x:P[k[0]].x,y:P[k[0]].y}:null};H.addEventListener('pointerup',bit);H.addEventListener('pointercancel',bit);
+  H.addEventListener('wheel',function(e){e.preventDefault();var r=H.getBoundingClientRect();zoom(e.deltaY<0?1:-1,e.clientX-r.left,e.clientY-r.top)},{passive:false});
+  H.addEventListener('dblclick',function(e){var r=H.getBoundingClientRect();zoom(1,e.clientX-r.left,e.clientY-r.top)});
+  $('#zp').onclick=function(){zoom(1)};$('#zm').onclick=function(){zoom(-1)};$('#mk').onclick=function(){if(BEN){C={la:BEN.la,lo:BEN.lo};ciz()}};
+  $$('.hk button').forEach(function(b){b.onpointerdown=function(e){e.stopPropagation()}});$('#kr').onpointerdown=function(e){e.stopPropagation()};
+  addEventListener('resize',function(){if(C)ciz()})})();
+$$('#ar button').forEach(function(b){b.onclick=function(){$$('#ar button').forEach(function(x){x.classList.toggle('on',x===b)});R=+b.dataset.r;if(BEN){Z=R>3000?13:R<2000?16:15;C={la:BEN.la,lo:BEN.lo};ciz();getir()}}});
+$('#yen').onclick=konum;konum();
+</script></body></html>

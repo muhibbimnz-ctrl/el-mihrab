@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="tr"><head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Hatim Takibi — el-Mihrâb</title><meta name="theme-color" content="#efe7d6">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="arac.css?v=1"><script src="arac.js?v=1"></script>
+<style>
+.cz{display:grid;grid-template-columns:repeat(6,1fr);gap:10px 4px;margin:14px 0 6px}
+.cz button{aspect-ratio:1;border:1.5px solid var(--line2);background:none;border-radius:50%;font-weight:600;font-size:15px;color:var(--ink2);cursor:pointer;font-variant-numeric:tabular-nums;width:100%;max-width:52px;justify-self:center}
+.cz button.ok{background:var(--acc);border-color:var(--acc);color:#fff}
+[data-theme="gece"] .cz button.ok{color:#0f1513}
+.ust2{display:flex;align-items:baseline;gap:10px}.ust2 b{font-family:var(--disp);font-size:44px;color:var(--acc);line-height:1}.ust2 span{color:var(--muted)}
+.gr .sat .ad small b{color:var(--acc)}
+.gc{display:flex;align-items:center;gap:10px;padding:9px 2px;border-bottom:1px solid var(--line)}
+.gc .n{width:34px;font-weight:700;color:var(--muted);font-variant-numeric:tabular-nums}.gc .k{flex:1}.gc input[type=checkbox]{width:22px;height:22px;accent-color:var(--acc)}
+.gc input.gir{padding:4px 2px;font-size:15px}
+textarea.gir{resize:vertical;min-height:110px;font-family:inherit;line-height:1.5}
+</style></head><body>
+<div class="ust"><a class="geri"></a></div>
+<main>
+<h1>Hatim Takibi</h1>
+<div class="sekme"><button data-s="ben" class="on">Hatmim</button><button data-s="grup">Grup hatmi</button><button data-s="gecmis">Tamamlananlar</button></div>
+<section id="s-ben"></section>
+<section id="s-grup" class="hide"></section>
+<section id="s-gecmis" class="hide"></section>
+</main>
+<script>
+var H=LS.get('mihrab.hatim',null)||{ak:null,biten:[],gruplar:[]};
+function kay(){LS.set('mihrab.hatim',H)}
+function cuzOf(p){return p<22?1:Math.min(30,Math.floor((p-2)/20)+1)}
+function yeni(){return{bas:bugun(),hedef:'',c:[]}}
+function ben(){var A=H.ak,S=$('#s-ben');if(!A){S.innerHTML='<p class="alt" style="margin-top:14px">Yeni bir hatme başlayın; okuduğunuz cüzleri işaretledikçe ne kadar kaldığı ve günde kaç sayfa okumanız gerektiği görünür.</p><div class="satirlar"><button class="dg" id="basla">Hatme başla</button></div>';$('#basla').onclick=function(){H.ak=yeni();kay();ben()};return}
+  var n=A.c.length,kalan=30-n,gun=null;if(A.hedef){gun=Math.ceil((new Date(A.hedef+'T23:59')-new Date())/864e5)}
+  var okp=LS.get('mihrab.okP',null);
+  S.innerHTML='<div class="ust2" style="margin-top:14px"><b>'+n+'/30</b><span>cüz · '+trTarih(A.bas)+' başlandı</span></div><div class="cubuk"><i style="width:'+Math.round(n/30*100)+'%"></i></div>'+
+   '<p class="kucuk">'+(kalan?(gun!=null?(gun>0?'Hedefe '+gun+' gün kaldı: günde yaklaşık <b>'+Math.ceil(kalan*20/gun)+' sayfa</b> okumalısınız.':'Hedef tarih geçti.'):'Günde bir cüz okursanız '+kalan+' günde biter.'):'Bütün cüzler okundu. Hatmi tamamlayabilirsiniz.')+'</p>'+
+   '<div class="cz">'+Array.from({length:30},function(_,i){return '<button data-c="'+(i+1)+'" class="'+(A.c.indexOf(i+1)>=0?'ok':'')+'">'+(i+1)+'</button>'}).join('')+'</div>'+
+   (okp?'<div class="sat"><div class="ad"><b>Mushafta kaldığınız yer</b><small>Sayfa '+okp+' · '+cuzOf(okp)+'. cüz</small></div><button class="dg ince" id="esle">Öncekileri işaretle</button></div>':'')+
+   '<div class="sat"><div class="ad"><b>Okumaya devam et</b><small>Mushaf sayfa sayfa açılır</small></div><a class="dg ince" href="./#okuma" style="text-decoration:none">Aç</a></div>'+
+   '<label class="etk">Hedef bitiş tarihi (isteğe bağlı)</label><input class="gir" type="date" id="hd" value="'+esc(A.hedef)+'">'+
+   '<div class="satirlar"><button class="dg" id="tm"'+(n<30?' disabled':'')+'>Hatmi tamamla</button><button class="dg ince" id="bt">Baştan başla</button></div>';
+  $$('.cz button',S).forEach(function(b){b.onclick=function(){var c=+b.dataset.c,i=A.c.indexOf(c);if(i>=0)A.c.splice(i,1);else A.c.push(c);kay();ben();if(A.c.length===30)toast('Hatim tamamlandı, Allah kabul etsin')}});
+  var e=$('#esle');if(e)e.onclick=function(){var k=cuzOf(okp);for(var c=1;c<k;c++)if(A.c.indexOf(c)<0)A.c.push(c);kay();ben();toast((k-1)+'. cüze kadar işaretlendi')};
+  $('#hd').onchange=function(){A.hedef=this.value;kay();ben()};
+  $('#tm').onclick=function(){H.biten.unshift({bas:A.bas,bit:bugun()});H.ak=null;kay();ben();gecmis();toast('Hatminiz kabul olsun')};
+  $('#bt').onclick=function(){if(n&&!confirm('İşaretler silinip yeni hatme başlansın mı?'))return;H.ak=yeni();kay();ben()}}
+function gecmis(){var S=$('#s-gecmis');S.innerHTML=H.biten.length?'<p class="alt" style="margin-top:14px">'+H.biten.length+' hatim tamamlandı.</p>'+H.biten.map(function(b,i){var g=Math.max(1,Math.round((new Date(b.bit)-new Date(b.bas))/864e5)+1);return '<div class="sat"><div class="ad"><b>'+(H.biten.length-i)+'. hatim</b><small>'+trTarih(b.bas)+' – '+trTarih(b.bit)+' · '+g+' gün</small></div></div>'}).join(''):'<p class="bos">Tamamlanan hatim henüz yok.</p>'}
+/* Grup hatmi */
+var acikG=null;
+function grup(){var S=$('#s-grup');if(acikG!=null&&H.gruplar[acikG])return grupAc(acikG);
+  S.innerHTML='<p class="alt" style="margin-top:14px">Bir niyet için cüzleri kişilere dağıtın, okunanları işaretleyin ve listeyi WhatsApp’tan paylaşın.</p>'+
+   H.gruplar.map(function(g,i){var n=g.c.filter(function(x){return x.ok}).length;return '<div class="sat" data-g="'+i+'" style="cursor:pointer"><div class="ad"><b>'+esc(g.ad)+'</b><small>'+n+'/30 cüz okundu · '+trTarih(g.bas)+'</small><div class="cubuk"><i style="width:'+Math.round(n/30*100)+'%"></i></div></div><span style="color:var(--muted);font-size:20px">›</span></div>'}).join('')+
+   '<div class="bb">Yeni grup hatmi</div><label class="etk">Niyet / ad</label><input class="gir" id="gAd" placeholder="Ör. Annemizin ruhu için">'+
+   '<label class="etk">Katılanlar (her satıra bir kişi)</label><textarea class="gir" id="gKs" placeholder="Ahmet&#10;Fatma&#10;Yusuf"></textarea>'+
+   '<p class="kucuk">30 cüz kişilere sırayla ve eşit dağıtılır; sonra her cüzün kime düştüğünü değiştirebilirsiniz.</p><div class="satirlar"><button class="dg" id="gOl">Oluştur</button></div>';
+  $$('[data-g]',S).forEach(function(d){d.onclick=function(){grupAc(+d.dataset.g)}});
+  $('#gOl').onclick=function(){var ad=$('#gAd').value.trim(),ks=$('#gKs').value.split('\n').map(function(x){return x.trim()}).filter(Boolean);if(!ad){toast('Bir ad yazın');return}if(!ks.length)ks=['—'];
+    var c=[];for(var i=0;i<30;i++)c.push({k:ks[Math.floor(i*ks.length/30)],ok:false});H.gruplar.unshift({ad:ad,bas:bugun(),c:c});kay();grupAc(0)}}
+function grupAc(i){acikG=i;var g=H.gruplar[i],S=$('#s-grup'),n=g.c.filter(function(x){return x.ok}).length;
+  S.innerHTML='<p style="margin:14px 0 2px"><a href="#" id="gGeri">‹ Grup hatimleri</a></p><h2 style="font-family:var(--disp);font-size:26px;margin:6px 0 2px">'+esc(g.ad)+'</h2><p class="kucuk">'+n+'/30 cüz okundu</p><div class="cubuk"><i style="width:'+Math.round(n/30*100)+'%"></i></div>'+
+   '<div class="satirlar"><button class="dg" id="gPay">Listeyi paylaş</button><button class="dg ince" id="gSil">Sil</button></div>'+
+   g.c.map(function(x,j){return '<div class="gc"><span class="n">'+(j+1)+'.</span><span class="k"><input class="gir" data-k="'+j+'" value="'+esc(x.k)+'"></span><input type="checkbox" data-o="'+j+'"'+(x.ok?' checked':'')+' aria-label="'+(j+1)+'. cüz okundu"></div>'}).join('');
+  $('#gGeri').onclick=function(e){e.preventDefault();acikG=null;grup()};
+  $$('[data-k]',S).forEach(function(x){x.onchange=function(){g.c[+x.dataset.k].k=x.value.trim();kay()}});
+  $$('[data-o]',S).forEach(function(x){x.onchange=function(){g.c[+x.dataset.o].ok=x.checked;kay();grupAc(i)}});
+  $('#gSil').onclick=function(){if(!confirm('“'+g.ad+'” silinsin mi?'))return;H.gruplar.splice(i,1);acikG=null;kay();grup()};
+  $('#gPay').onclick=function(){var t='📖 '+g.ad+' — hatim ('+n+'/30)\n'+g.c.map(function(x,j){return (j+1)+'. cüz: '+x.k+(x.ok?' ✅':'')}).join('\n')+'\n\nel-Mihrâb ile hazırlandı';
+    if(navigator.share)navigator.share({text:t}).catch(function(){});else{try{navigator.clipboard.writeText(t);toast('Liste kopyalandı')}catch(e){}}}}
+$$('.sekme button').forEach(function(b){b.onclick=function(){$$('.sekme button').forEach(function(x){x.classList.toggle('on',x===b)});['ben','grup','gecmis'].forEach(function(s){$('#s-'+s).classList.toggle('hide',s!==b.dataset.s)})}});
+ben();grup();gecmis();
+</script><script src="hesap-ayar.js?v=1"></script><script src="hesap.js?v=2" defer></script></body></html>

@@ -236,4 +236,4 @@ var bk=document.getElementById('bk');bk.href=C.geri;bk.textContent='‹ '+C.dil;
 Q.value=P.get('q')||'';M.innerHTML='<p class="note">Sözlük yükleniyor…</p>';
 yukle(D).then(function(){ara();sayilar().then(function(L){var e=document.getElementById('ozet');if(e)e.innerHTML='<b>'+esc(C.ad)+'</b> · '+L.map(function(x){return fmt(x[0])+' '+esc(x[1])}).join(' · ')})}).catch(function(){M.innerHTML='<p class="note">Sözlük yüklenemedi; internet bağlantınızı kontrol edin.</p>'});
 </script>
-<script src="hesap-ayar.js?v=1"></script><script src="hesap.js?v=1" defer></script></body></html>
+<script src="hesap-ayar.js?v=1"></script><script src="hesap.js?v=2" defer></script></body></html>

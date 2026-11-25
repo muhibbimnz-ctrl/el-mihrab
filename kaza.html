@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="tr"><head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Kaza Namazı Takibi — el-Mihrâb</title><meta name="theme-color" content="#efe7d6">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="arac.css?v=1"><script src="arac.js?v=1"></script>
+<style>
+.ozet{display:flex;align-items:baseline;gap:10px;margin:6px 0 2px}.ozet b{font-family:var(--disp);font-size:48px;color:var(--acc);line-height:1;font-variant-numeric:tabular-nums}.ozet span{color:var(--muted)}
+.sat .sayi{font-size:26px}
+.sat .ad b{font-size:17px}
+.gun{display:flex;justify-content:space-between;padding:8px 2px;border-bottom:1px solid var(--line);font-size:14.5px}.gun span{color:var(--muted)}
+.iki{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+</style></head><body>
+<div class="ust"><a class="geri"></a><div class="sag"><button id="hesB">Hesapla</button></div></div>
+<main>
+<h1>Kaza Namazı</h1>
+<div class="ozet"><b id="top">0</b><span id="topY">vakit kaldı</span></div>
+<div class="cubuk"><i id="cb" style="width:0"></i></div>
+<p class="kucuk" id="ilk"></p>
+<div class="satirlar"><button class="dg" id="gunB">Bir günlük kaza kıldım</button><button class="dg ince" id="gerB">Geri al</button></div>
+
+<div class="bb">Namazlar</div>
+<div id="nl"></div>
+<div class="bb">Oruç</div>
+<div id="ol"></div>
+
+<div class="bb">Son günler</div>
+<div id="gl"></div>
+
+<div class="bb">Bilmen gerekenler</div>
+<p class="not"><b>Sıra (tertip):</b> Kazası altı vakitten az olan kimse önce kazayı, sonra vakit namazını kılar. Kaza altı vakit ve üzeri olunca bu sıra düşer. <a href="fikih.html#m=kazatertip">Meseleyi aç ›</a></p>
+<p class="not"><b>Vakit:</b> Güneş doğarken, tam tepedeyken ve batarken kaza kılınmaz; sabah ve ikindi namazından sonra kılınabilir. <a href="fikih.html#m=kerahet">Meseleyi aç ›</a></p>
+<p class="not"><b>Niyet:</b> Çok kazası olan “üzerimdeki ilk (ya da son) sabah namazının kazasını kılmaya” diye niyet eder. Vitir vâcip olduğu için kazası kılınır. <a href="fikih.html#m=vitir">Vitir ›</a></p>
+<p class="not"><b>Hayız ve lohusalık:</b> Bu günlerin namazı kaza edilmez, orucu kaza edilir. <a href="ozel.html">Özel Haller takibi ›</a></p>
+</main>
+
+<div id="hes" class="hide" style="position:fixed;inset:0;z-index:40;background:var(--bg);overflow:auto">
+<div class="ust"><a href="#" id="hesX" style="color:var(--acc);font-weight:600;text-decoration:none;padding:8px 0">‹ Vazgeç</a></div>
+<main>
+<h1>Kazayı hesapla</h1>
+<p class="alt">Ergenlikten, namaza düzenli başladığın güne kadar geçen günler sayılır. Sonuç, şimdiki sayıların yerine yazılır.</p>
+<label class="etk">Doğum tarihin</label><input class="gir" type="date" id="hD">
+<div class="iki">
+<div><label class="etk">Ergenlik yaşın</label><input class="gir" type="number" id="hE" min="9" max="15" value="12" inputmode="numeric"></div>
+<div><label class="etk">Cinsiyet</label><select class="gir" id="hC"><option value="e">Erkek</option><option value="k">Kadın</option></select></div>
+</div>
+<p class="kucuk">Ergenlik belirtisi görülmemişse Hanefî mezhebinde on beş yaş kabul edilir.</p>
+<label class="etk">Namaza düzenli başladığın tarih</label><input class="gir" type="date" id="hB">
+<div id="hK" class="hide"><div class="iki">
+<div><label class="etk">Aylık ortalama âdet günü</label><input class="gir" type="number" id="hA" min="3" max="10" value="6" inputmode="numeric"></div>
+<div><label class="etk">Doğum sayısı</label><input class="gir" type="number" id="hL" min="0" max="20" value="0" inputmode="numeric"></div>
+</div>
+<label class="etk">Doğum başına ortalama lohusalık günü</label><input class="gir" type="number" id="hN" min="0" max="40" value="40" inputmode="numeric">
+</div>
+<label class="etk">Bu arada kıldığın günler (yaklaşık)</label><input class="gir" type="number" id="hY" min="0" value="0" inputmode="numeric">
+<p class="not" id="hS">Tarihleri girin.</p>
+<div class="satirlar"><button class="dg" id="hOk" disabled>Bu sayıları kaydet</button></div>
+</main></div>
+
+<script>
+var NV=[['sabah','Sabah','2 rekât farz'],['ogle','Öğle','4 rekât farz'],['ikindi','İkindi','4 rekât farz'],['aksam','Akşam','3 rekât farz'],['yatsi','Yatsı','4 rekât farz'],['vitir','Vitir','3 rekât vâcip']];
+var K=LS.get('mihrab.kaza',null)||{s:{sabah:0,ogle:0,ikindi:0,aksam:0,yatsi:0,vitir:0,oruc:0},kilinan:0,g:{},son:[]};
+function kay(){LS.set('mihrab.kaza',K)}
+function toplam(){return NV.reduce(function(a,v){return a+(K.s[v[0]]||0)},0)}
+function islem(k,d){var e=K.s[k]||0;if(d<0&&e<=0){toast('Bu vakitte kaza kalmadı');return false}K.s[k]=e+d;
+  if(d<0){K.kilinan++;var b=bugun();K.g[b]=(K.g[b]||0)+1}K.son.push([k,d,bugun()]);if(K.son.length>200)K.son.shift();return true}
+function ciz(){var t=toplam();$('#top').textContent=t.toLocaleString('tr-TR');$('#topY').textContent=t?'vakit kaldı':'kaza borcu yok';
+  var hep=t+(K.kilinan||0);$('#cb').style.width=(hep?Math.round(K.kilinan/hep*100):0)+'%';
+  var gun=Math.max.apply(null,NV.map(function(v){return K.s[v[0]]||0}));
+  $('#ilk').textContent=(K.kilinan?K.kilinan.toLocaleString('tr-TR')+' vakit kıldın · ':'')+(gun?'Günde bir günlük kaza ile yaklaşık '+gun.toLocaleString('tr-TR')+' günde biter':'Rabbim kabul etsin');
+  $('#nl').innerHTML=NV.map(function(v){return '<div class="sat"><div class="ad"><b>'+v[1]+'</b><small>'+v[2]+'</small></div><button class="yb" data-k="'+v[0]+'" data-d="1" aria-label="'+v[1]+' borcu ekle">+</button><span class="sayi">'+(K.s[v[0]]||0)+'</span><button class="yb" data-k="'+v[0]+'" data-d="-1" aria-label="'+v[1]+' kıldım">✓</button></div>'}).join('');
+  $('#ol').innerHTML='<div class="sat"><div class="ad"><b>Kaza orucu</b><small>Ramazan’dan kalan günler</small></div><button class="yb" data-k="oruc" data-d="1">+</button><span class="sayi">'+(K.s.oruc||0)+'</span><button class="yb" data-k="oruc" data-d="-1">✓</button></div>';
+  $$('.yb').forEach(function(b){b.onclick=function(){if(islem(b.dataset.k,+b.dataset.d)){kay();ciz();if(+b.dataset.d<0)toast('Kabul olsun')}}});
+  var G=Object.keys(K.g).sort().reverse().slice(0,7);$('#gl').innerHTML=G.length?G.map(function(g){return '<div class="gun"><b>'+trTarih(g,{weekday:'long',day:'numeric',month:'long'})+'</b><span>'+K.g[g]+' vakit</span></div>'}).join(''):'<p class="kucuk">Kıldığın kazalar burada görünür. “✓” kıldım, “+” borç ekle demektir.</p>'}
+$('#gunB').onclick=function(){var n=0;NV.forEach(function(v){if((K.s[v[0]]||0)>0&&islem(v[0],-1))n++});if(!n){toast('Kaza kalmadı');return}kay();ciz();toast(n+' vakit kaydedildi')};
+$('#gerB').onclick=function(){var x=K.son.pop();if(!x){toast('Geri alınacak işlem yok');return}K.s[x[0]]=(K.s[x[0]]||0)-x[1];if(x[1]<0){K.kilinan=Math.max(0,K.kilinan-1);if(K.g[x[2]]){K.g[x[2]]--;if(!K.g[x[2]])delete K.g[x[2]]}}kay();ciz();toast('Geri alındı')};
+/* Hesaplayıcı */
+var hs=null;
+function hesap(){var d=$('#hD').value,b=$('#hB').value,e=+$('#hE').value||12;hs=null;$('#hOk').disabled=true;$('#hK').classList.toggle('hide',$('#hC').value!=='k');
+  if(!d||!b){$('#hS').textContent='Doğum tarihini ve namaza başladığın tarihi girin.';return}
+  var bl=new Date(d+'T12:00');bl.setFullYear(bl.getFullYear()+Math.min(15,Math.max(9,e)));var bs=new Date(b+'T12:00');
+  var g=Math.round((bs-bl)/864e5);if(g<=0){$('#hS').textContent='Namaza ergenlikten önce başlamışsın; kaza borcun görünmüyor.';return}
+  var c=0;if($('#hC').value==='k'){var ay=g/30.44;c=Math.round(ay*(+$('#hA').value||0)+(+$('#hL').value||0)*(+$('#hN').value||0))}
+  var y=+$('#hY').value||0,n=Math.max(0,g-c-y);hs=n;
+  $('#hS').innerHTML='Ergenlik: <b>'+trTarih(bl)+'</b> · geçen <b>'+g.toLocaleString('tr-TR')+'</b> gün'+(c?' − özel hâller <b>'+c.toLocaleString('tr-TR')+'</b> gün':'')+(y?' − kılınan <b>'+y.toLocaleString('tr-TR')+'</b> gün':'')+'<br>Her vakitten <b>'+n.toLocaleString('tr-TR')+'</b> kaza: toplam <b>'+(n*6).toLocaleString('tr-TR')+'</b> vakit (vitir dâhil).';
+  $('#hOk').disabled=!n}
+['hD','hE','hC','hB','hA','hL','hN','hY'].forEach(function(i){$('#'+i).oninput=hesap;$('#'+i).onchange=hesap});
+$('#hesB').onclick=function(){var h=K.hes||{};['hD','hE','hC','hB','hA','hL','hN','hY'].forEach(function(i){if(h[i]!=null)$('#'+i).value=h[i]});hesap();$('#hes').classList.remove('hide')};
+$('#hesX').onclick=function(e){e.preventDefault();$('#hes').classList.add('hide')};
+$('#hOk').onclick=function(){if(hs==null)return;if(toplam()&&!confirm('Şimdiki sayılar silinip her vakit için '+hs.toLocaleString('tr-TR')+' yazılacak. Devam edilsin mi?'))return;
+  NV.forEach(function(v){K.s[v[0]]=hs});K.son=[];K.hes={};['hD','hE','hC','hB','hA','hL','hN','hY'].forEach(function(i){K.hes[i]=$('#'+i).value});kay();ciz();$('#hes').classList.add('hide');toast('Kaydedildi')};
+ciz();if(!toplam()&&!K.kilinan)$('#ilk').textContent='Kaza borcunu bilmiyorsan sağ üstteki “Hesapla” ile bul; biliyorsan “+” ile ekle.';
+</script><script src="hesap-ayar.js?v=1"></script><script src="hesap.js?v=2" defer></script></body></html>

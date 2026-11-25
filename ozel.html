@@ -1,0 +1,126 @@
+<!DOCTYPE html><html lang="tr"><head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Özel Haller Takibi — el-Mihrâb</title><meta name="theme-color" content="#efe7d6">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="arac.css?v=1"><script src="arac.js?v=1"></script>
+<style>
+.durum{margin:8px 0 4px}.durum b{display:block;font-family:var(--disp);font-size:30px;line-height:1.15;color:var(--acc)}.durum span{color:var(--ink2);font-size:15px;line-height:1.5}
+.durum.h b{color:var(--red)}
+.kayit{padding:12px 2px;border-bottom:1px solid var(--line)}
+.kayit .u{display:flex;justify-content:space-between;gap:8px;align-items:baseline}.kayit .u b{font-weight:600}.kayit .u small{color:var(--muted);white-space:nowrap}
+.kayit .h{font-size:14px;color:var(--ink2);margin-top:4px;line-height:1.5}
+.etiket{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;padding:1px 0;margin-right:8px}
+.e-hayiz{color:var(--red)}.e-nifas{color:var(--gold)}.e-istihaze{color:var(--acc)}
+.kayit .is{display:flex;gap:14px;margin-top:6px}.kayit .is button{border:0;background:none;color:var(--acc);font-weight:600;font-size:13.5px;padding:2px 0;cursor:pointer}
+.kayit .is button.sil{color:var(--muted)}
+.cizgi{display:flex;gap:2px;margin:14px 0 2px;height:10px}.cizgi i{flex:1;border-radius:2px;background:var(--line)}.cizgi i.h{background:var(--red)}.cizgi i.n{background:var(--gold)}.cizgi i.s{background:color-mix(in srgb,var(--acc) 45%,transparent)}.cizgi i.bu{outline:2px solid var(--ink);outline-offset:1px}
+.lej{display:flex;gap:14px;font-size:12px;color:var(--muted);flex-wrap:wrap}.lej span:before{content:"";display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:-1px;background:var(--c)}
+#frm{position:fixed;inset:0;z-index:40;background:var(--bg);overflow:auto}
+</style></head><body>
+<div class="ust"><a class="geri"></a><div class="sag"><button id="ayB">Âdetim</button></div></div>
+<main>
+<h1>Özel Haller</h1>
+<p class="alt">Hayız (âdet), lohusalık (nifâs) ve istihâze günlerini Hanefî ölçülerine göre ayırır; kılınmayan namazın ve tutulmayan orucun kazasını hesaplar.</p>
+<div class="durum" id="dr"></div>
+<div class="satirlar" id="btn"></div>
+<div class="cizgi" id="cz"></div>
+<div class="lej"><span style="--c:var(--red)">Hayız</span><span style="--c:var(--gold)">Nifâs</span><span style="--c:color-mix(in srgb,var(--acc) 45%,transparent)">İstihâze</span><span style="--c:var(--line)">Temizlik</span><span>son 60 gün</span></div>
+
+<div class="bb">Kayıtlar</div>
+<div id="kl"></div>
+
+<div class="bb">Ölçüler (Hanefî)</div>
+<p class="not"><b>Hayız</b> en az 3 gün (72 saat), en çok 10 gündür. Üç günden az veya on günü aşan kan istihâzedir. İki hayız arasındaki temizlik en az 15 gündür. <a href="fikih.html#m=hayiz">Meseleyi aç ›</a></p>
+<p class="not"><b>Nifâs</b>ın en azı için sınır yoktur, en çoğu 40 gündür. <a href="fikih.html#m=nifas">Meseleyi aç ›</a></p>
+<p class="not"><b>Kaza:</b> Hayız ve nifâs günlerinin namazı kaza edilmez, orucu kaza edilir. İstihâze günlerinde namaz kılınır; kılınmadıysa kaza edilir. <a href="fikih.html#m=hayizkaza">Meseleyi aç ›</a></p>
+<p class="not"><b>İstihâzede abdest:</b> Her vakit için abdest alınır; o abdestle vakit içinde istenen kadar namaz kılınır. <a href="fikih.html#m=istihaze">Meseleyi aç ›</a></p>
+<p class="kucuk">Bu kayıtlar yalnız bu telefonda durur; hesabınıza da gönderilmez. Kanın rengi, ara vermesi ve âdetin kayması gibi ayrıntılı durumlarda bir hocaya danışın; burada ana ölçüler uygulanır.</p>
+<div class="satirlar"><button class="dg ince" id="silB">Bütün kayıtları sil</button></div>
+</main>
+
+<div id="frm" class="hide"><div class="ust"><a href="#" id="frmX" style="color:var(--acc);font-weight:600;text-decoration:none;padding:8px 0">‹ Vazgeç</a></div><main>
+<h1 id="frmT">Kayıt</h1>
+<label class="etk">Tür</label><select class="gir" id="fT"><option value="hayiz">Âdet kanı</option><option value="nifas">Doğum sonrası (lohusalık)</option></select>
+<label class="etk">Başladığı an</label><input class="gir" type="datetime-local" id="fB">
+<label class="etk">Kesildiği an (devam ediyorsa boş bırakın)</label><input class="gir" type="datetime-local" id="fK">
+<div class="satirlar"><button class="dg" id="fOk">Kaydet</button></div>
+</main></div>
+
+<div id="ayr" class="hide" style="position:fixed;inset:0;z-index:40;background:var(--bg);overflow:auto"><div class="ust"><a href="#" id="ayX" style="color:var(--acc);font-weight:600;text-decoration:none;padding:8px 0">‹ Tamam</a></div><main>
+<h1>Âdetim</h1>
+<p class="alt">Âdet, son geçerli hayız ve temizlik sürelerinden kendiliğinden çıkarılır. Biliyorsanız elle de yazabilirsiniz; boş bırakılırsa kayıtlardan hesaplanır.</p>
+<label class="etk">Hayız âdeti (gün)</label><input class="gir" type="number" id="aH" min="3" max="10" step="0.5" inputmode="decimal">
+<label class="etk">Temizlik âdeti (gün)</label><input class="gir" type="number" id="aT" min="15" max="90" inputmode="numeric">
+<label class="etk">Lohusalık âdeti (gün)</label><input class="gir" type="number" id="aN" min="1" max="40" inputmode="numeric">
+<p class="not" id="aS"></p>
+</main></div>
+
+<script>
+var S=3600e3,G=864e5,O=LS.get('mihrab.ozel',null)||{k:[],a:{}};O.k=O.k||[];O.a=O.a||{};
+function kay(){LS.set('mihrab.ozel',O)}
+function dt(t){return new Date(t).toLocaleString('tr-TR',{day:'numeric',month:'long',hour:'2-digit',minute:'2-digit'})}
+function sure(ms){var g=Math.floor(ms/G),s=Math.round((ms-g*G)/S);if(s===24){g++;s=0}return (g?g+' gün ':'')+(s||!g?s+' saat':'').trim()}
+function loc(v){var d=new Date(v);return new Date(d.getTime()-d.getTimezoneOffset()*6e4).toISOString().slice(0,16)}
+var ramF=null;try{ramF=new Intl.DateTimeFormat('en-u-ca-islamic-umalqura',{month:'numeric'})}catch(e){}
+function ramazanGun(b,e){if(!ramF)return 0;var n=0,d=new Date(b);d.setHours(12,0,0,0);var son=new Date(e);while(d<=son){if(+ramF.format(d)===9)n++;d=new Date(d.getTime()+G)}return n}
+/* Hanefî sınıflandırma: her kayıt için hayız/nifâs ve istihâze parçaları */
+function hesapla(){var K=O.k.slice().sort(function(a,b){return a.b-b.b}),sonH=null,adH=null,adT=null,adN=null,sonHb=null,simdi=Date.now();
+  K.forEach(function(r){var e=r.e||simdi,P=[];r.dev=!r.e;
+    if(r.t==='nifas'){var ust=40*G,an=O.a.n?O.a.n*G:adN;var d=e-r.b;
+      if(d<=ust){P.push(['nifas',r.b,e]);if(r.e)adN=d}else{var n=an||ust;P.push(['nifas',r.b,r.b+n]);P.push(['istihaze',r.b+n,e])}
+      sonH=P[0][2]}
+    else{var bas=r.b;if(sonH!=null&&bas-sonH<15*G){bas=sonH+15*G}
+      if(bas>=e){P.push(['istihaze',r.b,e])}
+      else{if(bas>r.b)P.push(['istihaze',r.b,bas]);var d2=e-bas,ah=O.a.h?O.a.h*G:adH;
+        if(d2<3*G){if(r.e)P.push(['istihaze',bas,e]);else P.push(['bekle',bas,e])}
+        else if(d2<=10*G){P.push(['hayiz',bas,e]);if(r.e){if(sonHb!=null)adT=bas-sonH;adH=d2}sonH=e;sonHb=bas}
+        else{var h=ah||10*G;P.push(['hayiz',bas,bas+h]);P.push(['istihaze',bas+h,e]);if(sonHb!=null)adT=bas-sonH;sonH=bas+h;sonHb=bas}}}
+    var M=[];P.forEach(function(x){var l=M[M.length-1];if(l&&l[0]===x[0]&&l[2]===x[1])l[2]=x[2];else M.push(x.slice())});r.P=M});
+  return{K:K,adH:O.a.h?O.a.h*G:adH,adT:O.a.t?O.a.t*G:adT,adN:O.a.n?O.a.n*G:adN,sonH:sonH,sonHb:sonHb}}
+var AD={hayiz:'Hayız',nifas:'Nifâs',istihaze:'İstihâze',bekle:'Belirsiz (3 gün dolmadı)'};
+function ciz(){var R=hesapla(),K=R.K,simdi=Date.now(),ac=K.filter(function(r){return !r.e})[0],dr=$('#dr');
+  if(ac){var p=ac.P[ac.P.length-1],gec=simdi-ac.b;
+    if(p[0]==='bekle')dr.innerHTML='<b>Kan devam ediyor · '+sure(gec)+'</b><span>Namaz ve oruç bırakılır. Kan 72 saat dolmadan kesilirse bu günler istihâze sayılır; kılınmayan namazlar kaza edilir.</span>';
+    else if(p[0]==='hayiz')dr.innerHTML='<b>Hayız · '+(Math.floor((simdi-p[1])/G)+1)+'. gün</b><span>Namaz kılınmaz ve kaza edilmez; oruç tutulmaz, sonra kaza edilir. En geç '+dt(p[1]+10*G)+' itibarıyla hayız biter.</span>';
+    else if(p[0]==='nifas')dr.innerHTML='<b>Lohusalık · '+(Math.floor((simdi-p[1])/G)+1)+'. gün</b><span>Kan kesilince gusledilip namaza başlanır. En geç '+dt(p[1]+40*G)+' itibarıyla nifâs biter.</span>';
+    else dr.innerHTML='<b>İstihâze</b><span>Hayız/nifâs süresi doldu. Gusledip namaza başlanır; her vakit için abdest alınır.</span>';
+    dr.className='durum h'}
+  else{var son=R.sonH;if(son){var g=Math.floor((simdi-son)/G);var tah=R.sonHb&&R.adH&&R.adT?R.sonHb+R.adH+R.adT:null;
+      dr.innerHTML='<b>Temizlik · '+(g+1)+'. gün</b><span>'+(g<15?'Temizlik 15 günü doldurmadan gelen kan istihâzedir ('+dt(son+15*G)+' tarihine kadar).':'Bir sonraki kan hayız olabilir.')+(tah?' Âdetinize göre beklenen başlangıç: <b>'+trTarih(new Date(tah))+'</b>.':'')+'</span>'}
+    else dr.innerHTML='<b>Kayıt yok</b><span>Kan başladığında aşağıdaki düğmeye dokunun.</span>';dr.className='durum'}
+  $('#btn').innerHTML=ac?'<button class="dg" id="kesB">Kan kesildi</button><button class="dg ince" id="dzB">Düzelt</button>':'<button class="dg" id="basB">Kan başladı</button><button class="dg ince" id="lhB">Doğum yaptım</button><button class="dg ince" id="ekB">Geçmiş kayıt ekle</button>';
+  var b;if((b=$('#basB')))b.onclick=function(){O.k.push({id:Date.now(),t:'hayiz',b:Date.now()});kay();ciz();toast('Kaydedildi')};
+  if((b=$('#lhB')))b.onclick=function(){O.k.push({id:Date.now(),t:'nifas',b:Date.now()});kay();ciz();toast('Hayırlı olsun')};
+  if((b=$('#ekB')))b.onclick=function(){form(null)};if((b=$('#dzB')))b.onclick=function(){form(ac)};
+  if((b=$('#kesB')))b.onclick=function(){ac.e=Date.now();kay();ciz();var p=hesapla().K.filter(function(r){return r.id===ac.id})[0].P;
+    toast(p.some(function(x){return x[0]==='istihaze'})?'Kesildi. İstihâze günleri için kaza bilgisine bakın.':'Kesildi. Gusül alıp namaza başlayabilirsiniz.')};
+  /* son 60 gün çizgisi */
+  var cz='',bas=new Date();bas.setHours(0,0,0,0);bas=bas.getTime()-59*G;
+  for(var i=0;i<60;i++){var g0=bas+i*G,g1=g0+G,c='';K.forEach(function(r){r.P.forEach(function(p){if(p[1]<g1&&p[2]>g0){var x=p[0]==='hayiz'||p[0]==='bekle'?'h':p[0]==='nifas'?'n':'s';if(!c||x==='h')c=x}})});cz+='<i class="'+c+(i===59?' bu':'')+'"></i>'}
+  $('#cz').innerHTML=cz;
+  /* kayıt listesi */
+  $('#kl').innerHTML=K.length?K.slice().reverse().map(function(r){var e=r.e||simdi,ist=r.P.filter(function(p){return p[0]==='istihaze'}),istMs=ist.reduce(function(a,p){return a+p[2]-p[1]},0),
+      hz=r.P.filter(function(p){return p[0]==='hayiz'||p[0]==='nifas'}),rg=hz.reduce(function(a,p){return a+ramazanGun(p[1],p[2])},0),kg=Math.round(istMs/G);
+    return '<div class="kayit"><div class="u"><b>'+dt(r.b)+(r.e?' – '+dt(r.e):' – devam ediyor')+'</b><small>'+sure(e-r.b)+'</small></div><div class="h">'+
+      r.P.map(function(p){return '<span class="etiket e-'+(p[0]==='bekle'?'hayiz':p[0])+'">'+AD[p[0]]+'</span>'+sure(p[2]-p[1])}).join(' · ')+
+      (r.e&&kg?'<br>İstihâze günlerinde kılınmadıysa <b>'+kg+' günlük</b> namaz kaza edilir.':'')+(rg?'<br>Ramazan’a denk gelen <b>'+rg+' gün</b> oruç kaza edilir.':'')+'</div>'+
+      '<div class="is">'+(r.e&&kg&&!r.kn?'<button data-kn="'+r.id+'" data-n="'+kg+'">Kaza namazına ekle</button>':'')+(r.e&&rg&&!r.ko?'<button data-ko="'+r.id+'" data-n="'+rg+'">Kaza orucuna ekle</button>':'')+(r.kn||r.ko?'<span class="kucuk">Kaza takibine eklendi</span>':'')+'<button data-dz="'+r.id+'">Düzelt</button><button class="sil" data-sl="'+r.id+'">Sil</button></div></div>'}).join(''):'<p class="kucuk">Henüz kayıt yok.</p>';
+  var bul=function(id){return O.k.filter(function(r){return r.id===+id})[0]},KZ=function(f){var k=LS.get('mihrab.kaza',null)||{s:{sabah:0,ogle:0,ikindi:0,aksam:0,yatsi:0,vitir:0,oruc:0},kilinan:0,g:{},son:[]};f(k);LS.set('mihrab.kaza',k)};
+  $$('[data-kn]').forEach(function(x){x.onclick=function(){var n=+x.dataset.n;KZ(function(k){['sabah','ogle','ikindi','aksam','yatsi','vitir'].forEach(function(v){k.s[v]=(k.s[v]||0)+n})});bul(x.dataset.kn).kn=1;kay();ciz();toast('Her vakte '+n+' kaza eklendi')}});
+  $$('[data-ko]').forEach(function(x){x.onclick=function(){var n=+x.dataset.n;KZ(function(k){k.s.oruc=(k.s.oruc||0)+n});bul(x.dataset.ko).ko=1;kay();ciz();toast(n+' gün kaza orucu eklendi')}});
+  $$('[data-dz]').forEach(function(x){x.onclick=function(){form(bul(x.dataset.dz))}});
+  $$('[data-sl]').forEach(function(x){x.onclick=function(){if(!confirm('Bu kayıt silinsin mi?'))return;O.k=O.k.filter(function(r){return r.id!==+x.dataset.sl});kay();ciz()}});
+  var ah=R.adH,at=R.adT,an=R.adN;$('#aS').innerHTML='Kayıtlardan çıkan âdet: hayız <b>'+(ah?sure(ah):'—')+'</b>, temizlik <b>'+(at?sure(at):'—')+'</b>, lohusalık <b>'+(an?sure(an):'—')+'</b>.'}
+var dz=null;
+function form(r){dz=r;$('#frmT').textContent=r?'Kaydı düzelt':'Geçmiş kayıt';$('#fT').value=r?r.t:'hayiz';$('#fB').value=r?loc(r.b):'';$('#fK').value=r&&r.e?loc(r.e):'';$('#frm').classList.remove('hide')}
+$('#frmX').onclick=function(e){e.preventDefault();$('#frm').classList.add('hide')};
+$('#fOk').onclick=function(){var b=$('#fB').value,k=$('#fK').value;if(!b){toast('Başlangıç anını girin');return}var bt=new Date(b).getTime(),kt=k?new Date(k).getTime():null;
+  if(kt&&kt<=bt){toast('Kesilme anı başlangıçtan sonra olmalı');return}if(bt>Date.now()){toast('İleri bir tarih girilemez');return}
+  if(!kt&&O.k.some(function(r){return !r.e&&r!==dz})){toast('Devam eden bir kayıt zaten var');return}
+  if(dz){dz.t=$('#fT').value;dz.b=bt;dz.e=kt;delete dz.kn;delete dz.ko}else O.k.push({id:Date.now(),t:$('#fT').value,b:bt,e:kt});kay();$('#frm').classList.add('hide');ciz();toast('Kaydedildi')};
+$('#ayB').onclick=function(){$('#aH').value=O.a.h||'';$('#aT').value=O.a.t||'';$('#aN').value=O.a.n||'';$('#ayr').classList.remove('hide')};
+$('#ayX').onclick=function(e){e.preventDefault();var h=+$('#aH').value,t=+$('#aT').value,n=+$('#aN').value;O.a={};if(h>=3&&h<=10)O.a.h=h;if(t>=15)O.a.t=t;if(n>0&&n<=40)O.a.n=n;kay();$('#ayr').classList.add('hide');ciz()};
+$('#silB').onclick=function(){if(!confirm('Bütün özel hâl kayıtları bu telefondan silinsin mi? Bu geri alınamaz.'))return;O={k:[],a:{}};kay();ciz()};
+ciz();setInterval(ciz,60000);
+</script></body></html>

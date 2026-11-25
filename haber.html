@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="tr"><head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Haberler — el-Mihrâb</title><meta name="theme-color" content="#efe7d6">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="arac.css?v=1"><script src="arac.js?v=1"></script>
+<style>
+.hb{padding:16px 2px;border-bottom:1px solid var(--line)}
+.hb .m{font-size:12px;color:var(--muted);letter-spacing:.3px;display:flex;gap:10px}.hb .m b{color:var(--gold);text-transform:uppercase;letter-spacing:1px;font-size:11.5px}
+.hb h2{font-family:var(--disp);font-size:24px;line-height:1.2;margin:4px 0 6px;font-weight:700}
+.hb p{margin:0 0 8px;font-size:15.5px;line-height:1.6;color:var(--ink2)}
+.hb img{width:100%;border-radius:10px;margin:6px 0 8px;display:block}
+.hb a.k{font-size:13.5px;font-weight:600;text-decoration:none}
+</style></head><body>
+<div class="ust"><a class="geri"></a><div class="sag"><button id="yen">Yenile</button></div></div>
+<main>
+<h1>Haberler</h1>
+<p class="alt" id="gn">Müslümanları ilgilendiren gelişmeler</p>
+<div class="sekme" id="et"></div>
+<div id="hl"><p class="bos">Yükleniyor…</p></div>
+</main>
+<script>
+var D=null,E='';
+function gecen(t){var g=Math.round((new Date(bugun()+'T12:00')-new Date(t+'T12:00'))/864e5);return g<=0?'Bugün':g===1?'Dün':g<7?g+' gün önce':trTarih(t)}
+function ciz(){var L=(D.haberler||[]).slice().sort(function(a,b){return a.tarih<b.tarih?1:-1}),et=[];L.forEach(function(h){if(h.etiket&&et.indexOf(h.etiket)<0)et.push(h.etiket)});
+  $('#et').innerHTML=['Tümü'].concat(et).map(function(x){return '<button data-e="'+esc(x==='Tümü'?'':x)+'" class="'+((x==='Tümü'?'':x)===E?'on':'')+'">'+esc(x)+'</button>'}).join('');$('#et').classList.toggle('hide',et.length<2);
+  $$('#et button').forEach(function(b){b.onclick=function(){E=b.dataset.e;ciz()}});
+  var F=L.filter(function(h){return !E||h.etiket===E});
+  $('#hl').innerHTML=F.length?F.map(function(h){return '<article class="hb"><div class="m">'+(h.etiket?'<b>'+esc(h.etiket)+'</b>':'')+'<span>'+esc(gecen(h.tarih))+'</span></div><h2>'+esc(h.baslik)+'</h2>'+(h.gorsel?'<img loading="lazy" alt="" src="'+esc(h.gorsel)+'">':'')+'<p>'+esc(h.ozet)+'</p>'+(h.link?'<a class="k" href="'+esc(h.link)+'" target="_blank" rel="noopener">'+esc(h.kaynak||'Kaynak')+' ›</a>':(h.kaynak?'<span class="kucuk">'+esc(h.kaynak)+'</span>':''))+'</article>'}).join(''):'<p class="bos">Henüz haber yok.</p>';
+  if(D.guncelleme)$('#gn').textContent='Son güncelleme: '+trTarih(D.guncelleme)}
+function yukle(){fetch('data/haber.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(d){D=d;LS.set('mihrab.haberSon',(d.haberler||[]).length);ciz()}).catch(function(){if(!D)$('#hl').innerHTML='<p class="bos">Haberler yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'})}
+$('#yen').onclick=yukle;yukle();
+</script></body></html>
