@@ -16,8 +16,8 @@
  var css='.mh-ust{background:linear-gradient(160deg,#2B3D6E,#3D5494);color:#fff;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:22px 20px 30px;border-radius:0 0 28px 28px}'+
   '.mh-ust.b{background:linear-gradient(135deg,#2CC4B4,#38B2F0)}.mh-ust .mh-in{max-width:760px;margin:0 auto}'+
   '.mh-ust .mh-sel{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#FFB547}.mh-ust.b .mh-sel{color:#fff;opacity:.9}'+
-  '.mh-ust .mh-arb{float:right;font-family:Amiri,serif;font-size:28px;line-height:1.2;opacity:.9;margin-top:-4px}'+
-  '.mh-ust .mh-ad{display:block;color:#fff;text-decoration:none;font-size:30px;font-weight:800;letter-spacing:-.02em;margin:4px 0 4px}'+
+  '.mh-ust .mh-arb{float:right;font-family:"Reem Kufi","Aref Ruqaa",Amiri,serif;font-weight:700;font-size:38px;line-height:1;color:#F5C76B;text-shadow:0 2px 10px rgba(0,0,0,.25);margin-top:-2px;letter-spacing:1px}.mh-ust.b .mh-arb{color:#FFF6D6}'+
+  '.mh-ust .mh-ad{display:block;color:#fff;text-decoration:none;font-size:30px;font-weight:800;letter-spacing:-.02em;margin:4px 0 20px}'+
   '.mh-ust .mh-alt{font-size:14px;opacity:.85;margin-bottom:18px}'+
   '.mh-ust .mh-oz{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}'+
   '.mh-ust .mh-oz a{display:block;background:rgba(255,255,255,.14);border-radius:16px;padding:12px 6px;color:#fff;text-decoration:none;text-align:center;min-width:0}.mh-ust.b .mh-oz a{background:rgba(255,255,255,.24)}'+
@@ -31,7 +31,7 @@
  function ciz(el){var h=new Date().getHours(),v=vakit(),l=g('beyan2.last')||{s:1,a:1},s=Math.min(114,Math.max(1,+l.s||1)),a=+l.a||1;
   el.className='mh-ust'+(tema()==='b'?' b':'');
   el.innerHTML='<div class="mh-in"><span class="mh-arb" lang="ar">المِحْرَاب</span><div class="mh-sel">'+(h<5?'Hayırlı geceler':h<11?'Hayırlı sabahlar':h<17?'Hayırlı günler':h<22?'Hayırlı akşamlar':'Hayırlı geceler')+'</div>'+
-   '<a class="mh-ad" href="index.html">el-Mihrâb</a><div class="mh-alt">Kur’ân-ı Kerîm, tefsir, medrese ve sınav hazırlığı</div><div class="mh-oz">'+
+   '<a class="mh-ad" href="index.html">El-Mihrâb</a><div class="mh-oz">'+
    '<a href="index.html#namaz"><b>'+(v?v.s:'—')+'</b><small>'+(v?v.ad+' · '+sure(v.kal):'Ezan vakti')+'</small></a>'+
    '<a href="index.html#'+s+'-'+a+'"><b>'+s+':'+a+'</b><small>'+SN[s-1]+'</small></a>'+
    '<a href="kadem.html"><b>'+kadem()+'</b><small>Kadem konusu</small></a></div></div>'}
