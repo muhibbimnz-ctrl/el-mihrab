@@ -181,6 +181,7 @@ Kullanıcının konu listesindeki her satır ayrı dosya olacak. Bir ders yazıl
 - DHBT 1. deneme yazıldı (`data/kadem/deneme/dhbt-1`). Sıradaki: DHBT 2–5, mevzuat denemeleri (30 soru).
 - ahlak-1, hitabet-1, mevzuat-1…3 yeni ölçütlere taşındı (`tools/kadem/konu_ek.py` ile kutu/özet/kart/soru eklenir). Artık bütün konular `kontrol_konu.py`’den geçiyor.
 - Arayüz “adım adım yol” olarak yenilendi: her konu 4 adım (Oku → Özet → Kartlar → Test). Anlatım başlıklara göre bölüm bölüm gösterilir (`&g=oku&b=N`, `b=hepsi` tek sayfa). Adım ilerlemesi `ad.<sınav>.<konu>` anahtarında, son okunan bölüm `bl.<sınav>.<konu>`’da. Sınav sayfası: genel ilerleme çubuğu, “Sıradaki adım” kartı, yol haritası (4 nokta), 3 ana araç + “Diğer araçlar”. Test bitince “Sıradaki konu” düğmesi.
+- İki görünüm (tema) eklendi: `a` Gece Mavisi (varsayılan), `b` Sabah Ferahlığı. `localStorage['kadem.tema']`, `html[data-tema]` CSS’i; seçici giriş ve sınav sayfasının altında (“Görünüm”). Temalarda: hero (ilerleme halkası, seri, haftalık şerit), renkli ders simgeleri/halkaları, alt menü (#altnav), sabit alt düğme çubuğu. Çalışma günleri `gn.<sınav>` anahtarında.
 
 ### KALDIĞIM YER (7. oturum sonu — artık geçerli değil, 8. oturuma bak)
 - **Sıradaki ders: TEFSİR** (tefsir-1 … tefsir-9). Önce mtsb.pdf Tefsir bölümü (sf. 51-116), Köklü “Tefsir Tarihi ve Usulü” (çıkmış sorular) ve GENCO tefsir kısmı okunacak. Eski tefsir-1 ve tefsir-2 sorularının id’leri korunacak; çıkmış soruya çok benzeyenler aynı id ile yeniden yazılacak.
