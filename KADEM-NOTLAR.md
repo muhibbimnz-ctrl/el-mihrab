@@ -219,14 +219,16 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 - **Ortak tema dosyaları:** `tema.css` + `tema.js` (Gece Mavisi a / Sabah Ferahlığı b / klasik 0; anahtar `mihrab.tema`, `kadem.tema` ile eşitlenir). ŞU AN YALNIZ KADEM KULLANIYOR. Kullanıcı kararı: **yeni şablon yalnız Kadem’de; uygulamanın diğer sayfalarına uygulanmayacak.**
 - **Ana sayfa (index.html):** yalnız ev ekranının üstüne `ust.js` ile koyu-mavi alan eklendi (selam, el-Mihrâb, المِحْرَاب amblemi, sıradaki vakit, kaldığın âyet, Kadem konusu; büyük logo gizli, üst çubuk aynı renk). Vakitleri ana sayfanın sakladığı `mihrab.loc`/`mihrab.pt2`’den, âyeti `beyan2.last`’ten okur. Diğer sayfalarda yok (kullanıcı istemedi).
 - **Kadem ekranları:** denemeler sayfası kart listesi; ders, özet, kartlar, harita, program, defter, deneme başlangıç ve sonuç sayfalarına `sayfaBas()` üst alanı (başlık + 3 özet sayı); deneme çözerken ilerleme çubuğu ve sabit alt Önceki/Sonraki çubuğu; program süre seçimi kartları.
-- **DHBT 2. ve 3. tam denemeler** yazıldı (40’ar soru, zor ağırlıklı).
+- **DHBT 2–5. tam denemeler** yazıldı (40’ar soru, zor ağırlıklı); DHBT’de artık 5 sabit deneme var.
+- **Mevzuat 1. tam deneme** (30 soru; 633, 657, kariyer yönetmeliği). Mevzuat deneme id öneki `mvd` (eski `mz` mezhep soru id’leriyle çakışıyordu; `deneme_yaz.py` düzeltildi).
+- Ana sayfa üst alanı son hâli: başlık “El-Mihrâb”, alt yazı yok, المِحْرَاب Reem Kufi hattıyla altın renkte (`ust.js?v=3`).
 - Ekran görüntüsü: yerel sunucu açmak engellendi; `/home/claude/shot.py` Playwright isteklerini doğrudan depodan karşılıyor (https://site.test, şifre ekranı için güvenli bağlam gerekli).
 
 ## Sıradaki iş (26 Kasım 2026 itibarıyla güncel)
 
 ### A. Kadem içerik
 1. (bitti) DHBT tam denemeleri 1–5 ( 40’ar soru; dağılım dhbt.json haritasından: Akaid 6, Fıkıh 9, Kur’an Bilgisi 6, Tefsir 3, Hadis 3, Siyer 6, Ahlak 2, Mezhepler 1, Dinler 2, Hitabet 2). Araç: `python3 tools/kadem/deneme_yaz.py kaynak.txt N "açıklama" dhbt` → yayın: `KADEM_SIFRE=… /home/claude/yay.sh "mesaj" data/kadem/deneme/dhbt-N.json`.
-2. Mevzuat denemeleri (30 soru, mevzuat-1…3 konularından; `… N "açıklama" mevzuat`).
+2. Mevzuat: 1. deneme bitti; istenirse 2. deneme (`… 2 "açıklama" mevzuat`).
 3. Diğer sınavlar (vaizlik, ilçe müftülüğü, müftü yrd., eğitim görevlisi, kbys, ihtisas…) şu an karma deneme kullanıyor; gerekirse sabit deneme eklenebilir. Sınavların özel konuları (ör. Arapça, hitabet ayrıntısı) eksikse yazılmalı.
 4. (bitti) Denemeler kart listesi ve Kadem ekranlarının şablona uyarlanması.
 
