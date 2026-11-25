@@ -60,8 +60,17 @@ details.diger>summary::-webkit-details-marker{display:none}
 details.diger>summary:before{content:"+ ";color:var(--acc)}details.diger[open]>summary:before{content:"− "}
 .grup-ad{font:600 13px var(--sans);color:var(--muted);margin:16px 0 6px}
 /* Sınav sayfası: sade çalışma listesi */
-.araclar{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0 4px}
-.araclar a{text-decoration:none;color:var(--ink);border:1px solid var(--line);background:var(--kagit);border-radius:3px;padding:6px 11px;font-size:14px}
+.araclar{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:6px;margin:18px 0 4px}
+.araclar a{display:flex;align-items:center;justify-content:center;min-height:42px;text-align:center;text-decoration:none;color:var(--ink);border:1px solid var(--line);background:var(--kagit);border-radius:4px;padding:6px 8px;font-size:14px;line-height:1.2}
+.dersgrup{border-top:1px solid var(--line)}
+.dersgrup:first-child{border-top:0}
+.dersgrup>summary{list-style:none;border-top:0}
+.dersgrup>summary::-webkit-details-marker{display:none}
+.dersgrup>summary .ok{flex:none;color:var(--muted);font-size:13px;transition:transform .15s}
+.dersgrup[open]>summary .ok{transform:rotate(90deg)}
+.dersgrup .ic{border-top:1px solid var(--line);background:var(--bg)}
+.dersgrup .ic .satir{padding-left:24px}
+.dersgrup .ic .satir.alt small{color:var(--acc)}
 .araclar a.vurgu{border-color:var(--yaldiz);color:var(--yaldiz);font-weight:600}
 .satir span small{white-space:normal}
 /* Sınav ana sayfası */
@@ -85,7 +94,8 @@ details.ders>summary{color:var(--ink)}
 .kunye td{padding:8px 12px;border-bottom:1px solid var(--line)}
 .kunye tr:last-child th,.kunye tr:last-child td{border-bottom:0}
 /* Düğmeler */
-.dugmeler{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 14px}
+.dugmeler{display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:8px;margin:12px 0 14px}
+.dugmeler .btn{text-align:center;padding:9px 6px;font-size:14px;white-space:nowrap}
 .btn{display:inline-block;border:1px solid var(--acc);border-radius:3px;padding:9px 16px;font:600 15px var(--sans);background:var(--acc);color:#fff;cursor:pointer;text-decoration:none}
 .btn.ik{background:var(--kagit);color:var(--ink);border-color:var(--rule)}
 .btn.kucuk{padding:6px 11px;font-size:14px}
@@ -338,12 +348,17 @@ function sinavSayfa(S,V){
  var biten=k.filter(function(x){return o['p.'+S.id+'.'+x.id]!=null}).length,B=bugunIs(S,V),Z=zayiflar(S,V);
  if(A)h+='<a class="bugunkart" href="'+ad+'&t=deneme&devam=1"><span class="ust-etiket">Yarım kalan deneme</span><b>'+e(A.ad||'Deneme')+'</b><small>'+Object.keys(A.c).length+' / '+A.s.length+' cevaplı · kaldığın yerden devam et</small></a>';
  else h+='<a class="bugunkart" href="'+e(B.a)+'"><span class="ust-etiket">Bugünün işi</span><b>'+e(B.t)+'</b><small>'+e(B.m)+'</small></a>';
- h+='<h2>Dersler <em>'+biten+' / '+k.length+' konu</em></h2><div class="konular">';
+ var son=o['son.'+S.id],sk=son&&k.filter(function(x){return x.id===son})[0],acik=sk?sk.ders:null;
+ if(!acik){var ilk=k.filter(function(x){return o['p.'+S.id+'.'+x.id]==null})[0];acik=ilk?ilk.ders:null}
+ h+='<h2>Konular <em>'+biten+' / '+k.length+' çalışıldı</em></h2><div class="konular">';
  dersler(V).forEach(function(adi,i){var I=dersBilgi(S,V,adi);if(!I.KK.length)return;var yuzde=Math.round(100*I.biten/I.KK.length);
-  h+='<a class="satir" href="'+ad+'&ds='+encodeURIComponent(adi)+'"><span class="no">'+(i+1)+'</span><span>'+e(adi)+'<br><small>'+(I.soru?'sınavda '+I.soru+' soru · ':'')+I.KK.length+' konu'+(I.ort!=null?' · test ort. %'+I.ort:'')+'</small></span>'+
-   '<small>'+I.biten+'/'+I.KK.length+'</small><i class="ilerle" style="width:'+yuzde+'%"></i></a>'});
+  h+='<details class="dersgrup"'+(adi===acik?' open':'')+'><summary class="satir"><span class="no">'+(i+1)+'</span><span>'+e(adi)+'<br><small>'+(I.soru?'sınavda '+I.soru+' soru · ':'')+I.KK.length+' konu'+(I.ort!=null?' · test ort. %'+I.ort:'')+'</small></span>'+
+   '<small>'+I.biten+'/'+I.KK.length+'</small><span class="ok">›</span><i class="ilerle" style="width:'+yuzde+'%"></i></summary><div class="ic">';
+  I.KK.forEach(function(x,j){var p=o['p.'+S.id+'.'+x.id];
+   h+='<a class="satir'+(p!=null?' bitti':'')+'" href="'+ad+'&k='+e(x.id)+'"><span class="no">'+(j+1)+'</span><span>'+e(x.ad)+'</span><small>'+(p!=null?'%'+p:(x.sorular||[]).length+' soru')+'</small>'+(p!=null?'<i class="ilerle" style="width:'+p+'%"></i>':'')+'</a>'});
+  h+='<a class="satir alt" href="'+ad+'&ds='+encodeURIComponent(adi)+'"><span class="no"></span><span><small>Ders denemesi · ders özeti · kartlar</small></span><small>›</small></a></div></details>'});
  h+='</div>';
- h+='<div class="araclar">'+(D?'<a href="'+ad+'&t=denemeler">Denemeler'+(V.denemeler.length?' · '+V.denemeler.length:'')+'</a>':'')+
+ h+='<div class="araclar">'+(D?'<a href="'+ad+'&t=denemeler">Denemeler'+(V.denemeler.length?'&nbsp;('+V.denemeler.length+')':'')+'</a>':'')+
   '<a'+(bug?' class="vurgu"':'')+' href="'+ad+'&t=tekrar">Tekrar'+(bug?' · '+bug:'')+'</a>'+
   '<a href="'+ad+'&t=defter">Yanlış defteri'+(yan?' · '+yan:'')+'</a>'+
   '<a href="'+ad+'&t=program">Program</a><a href="'+ad+'&t=ozet">Özet kitapçığı</a><a href="'+ad+'&t=kartlar">Kartlar</a>'+
