@@ -1,0 +1,106 @@
+# Çocuk Köşesi · Arapça ve İngilizce (5-12 yaş) içeriği → data/cocuk/dil.json
+# Her kelime: [emoji, yabancı kelime, Türkçesi, okunuş]. Seviye: 1 = 5-7 yaş, 2 = 8-10, 3 = 11-12.
+import json, os
+AR_HARF = [
+ ("ا","أَلِف","elif","أَسَد","esed","aslan","🦁"),("ب","بَاء","be","بَاب","bâb","kapı","🚪"),
+ ("ت","تَاء","te","تُفَّاحَة","tuffâha","elma","🍎"),("ث","ثَاء","se","ثَعْلَب","sa‘leb","tilki","🦊"),
+ ("ج","جِيم","cim","جَمَل","cemel","deve","🐪"),("ح","حَاء","ha","حِصَان","hısân","at","🐴"),
+ ("خ","خَاء","hı","خُبْز","hubz","ekmek","🍞"),("د","دَال","dal","دُبّ","dubb","ayı","🐻"),
+ ("ذ","ذَال","zel","ذَهَب","zeheb","altın","🪙"),("ر","رَاء","ra","رُمَّان","rummân","nar","🔴"),
+ ("ز","زَاي","ze","زَيْتُون","zeytûn","zeytin","🫒"),("س","سِين","sin","سَمَكَة","semeke","balık","🐟"),
+ ("ش","شِين","şın","شَمْس","şems","güneş","☀️"),("ص","صَاد","sad","صَقْر","sakr","şahin","🦅"),
+ ("ض","ضَاد","dad","ضِفْدَع","dıfda‘","kurbağa","🐸"),("ط","طَاء","tı","طَائِر","tâir","kuş","🐦"),
+ ("ظ","ظَاء","zı","ظَرْف","zarf","zarf","✉️"),("ع","عَيْن","ayn","عَيْن","ayn","göz","👁️"),
+ ("غ","غَيْن","gayn","غَزَال","gazâl","ceylan","🦌"),("ف","فَاء","fe","فِيل","fîl","fil","🐘"),
+ ("ق","قَاف","kaf","قَمَر","kamer","ay","🌙"),("ك","كَاف","kef","كِتَاب","kitâb","kitap","📕"),
+ ("ل","لَام","lam","لَيْمُون","leymûn","limon","🍋"),("م","مِيم","mim","مَوْز","mevz","muz","🍌"),
+ ("ن","نُون","nun","نَجْم","necm","yıldız","⭐"),("و","وَاو","vav","وَرْدَة","verde","gül","🌹"),
+ ("ه","هَاء","he","هِلَال","hilâl","hilal","🌙"),("ي","يَاء","ye","يَد","yed","el","✋")]
+EN_HARF = [("A","Apple","eppıl","elma","🍎"),("B","Ball","bol","top","⚽"),("C","Cat","ket","kedi","🐱"),("D","Dog","dog","köpek","🐶"),
+ ("E","Egg","eg","yumurta","🥚"),("F","Fish","fiş","balık","🐟"),("G","Goat","gout","keçi","🐐"),("H","Hat","het","şapka","🎩"),
+ ("I","Ice cream","ays krim","dondurma","🍦"),("J","Juice","cus","meyve suyu","🧃"),("K","Kite","kayt","uçurtma","🪁"),("L","Lion","layın","aslan","🦁"),
+ ("M","Moon","mun","ay","🌙"),("N","Nest","nest","kuş yuvası","🪺"),("O","Orange","orınç","portakal","🍊"),("P","Pen","pen","tükenmez kalem","🖊️"),
+ ("Q","Queen","kuin","kraliçe","👑"),("R","Rabbit","rebit","tavşan","🐰"),("S","Sun","san","güneş","☀️"),("T","Tree","tri","ağaç","🌳"),
+ ("U","Umbrella","ambrela","şemsiye","☂️"),("V","Van","ven","minibüs","🚐"),("W","Water","votır","su","💧"),("X","Fox","foks","tilki (sonda x)","🦊"),
+ ("Y","Yo-yo","yoyo","yoyo","🪀"),("Z","Zebra","zibra","zebra","🦓")]
+AR = [
+ ("sayi",1,"Sayılar","🔢",[("1️⃣","وَاحِد","bir","vâhid"),("2️⃣","اِثْنَان","iki","isnân"),("3️⃣","ثَلَاثَة","üç","selâse"),("4️⃣","أَرْبَعَة","dört","erbea"),("5️⃣","خَمْسَة","beş","hamse"),
+   ("6️⃣","سِتَّة","altı","sitte"),("7️⃣","سَبْعَة","yedi","seb‘a"),("8️⃣","ثَمَانِيَة","sekiz","semâniye"),("9️⃣","تِسْعَة","dokuz","tis‘a"),("🔟","عَشَرَة","on","aşera")]),
+ ("renk",1,"Renkler","🎨",[("🔴","أَحْمَر","kırmızı","ahmer"),("🔵","أَزْرَق","mavi","ezrak"),("🟢","أَخْضَر","yeşil","ahdar"),("🟡","أَصْفَر","sarı","asfar"),("⚪","أَبْيَض","beyaz","ebyad"),
+   ("⚫","أَسْوَد","siyah","esved"),("🟠","بُرْتُقَالِيّ","turuncu","burtukâlî"),("🟣","بَنَفْسَجِيّ","mor","benefsecî"),("🟤","بُنِّيّ","kahverengi","bunnî"),("🩷","وَرْدِيّ","pembe","verdî")]),
+ ("hayvan",1,"Hayvanlar","🐾",[("🐱","قِطَّة","kedi","kıtta"),("🐶","كَلْب","köpek","kelb"),("🦁","أَسَد","aslan","esed"),("🐘","فِيل","fil","fîl"),("🐪","جَمَل","deve","cemel"),
+   ("🐴","حِصَان","at","hısân"),("🐄","بَقَرَة","inek","bakara"),("🐟","سَمَكَة","balık","semeke"),("🐦","طَائِر","kuş","tâir"),("🐰","أَرْنَب","tavşan","erneb"),("🐝","نَحْلَة","arı","nahle"),("🐜","نَمْلَة","karınca","nemle")]),
+ ("meyve",1,"Meyveler","🍎",[("🍎","تُفَّاحَة","elma","tuffâha"),("🍌","مَوْزَة","muz","mevze"),("🍇","عِنَب","üzüm","ineb"),("🍊","بُرْتُقَالَة","portakal","burtukâle"),("🍉","بِطِّيخ","karpuz","bittîh"),
+   ("🍓","فَرَاوْلَة","çilek","ferâvle"),("🍋","لَيْمُون","limon","leymûn"),("🫒","زَيْتُون","zeytin","zeytûn"),("🌴","تَمْر","hurma","temr")]),
+ ("aile",1,"Ailem","👨‍👩‍👧",[("👨","أَب","baba","eb"),("👩","أُمّ","anne","ümm"),("👦","أَخ","erkek kardeş","ah"),("👧","أُخْت","kız kardeş","uht"),("👴","جَدّ","dede","cedd"),
+   ("👵","جَدَّة","nine","cedde"),("👶","طِفْل","bebek, çocuk","tıfl"),("👨‍👩‍👧‍👦","عَائِلَة","aile","âile")]),
+ ("selam",2,"Selamlaşma","👋",[("🤝","السَّلَامُ عَلَيْكُمْ","Selâm sana / size","es-selâmu aleykum"),("😊","وَعَلَيْكُمُ السَّلَامُ","Size de selâm","ve aleykumu’s-selâm"),
+   ("☀️","صَبَاحَ الْخَيْرِ","Günaydın","sabâha’l-hayr"),("🌙","مَسَاءَ الْخَيْرِ","İyi akşamlar","mesâe’l-hayr"),("🙏","شُكْرًا","Teşekkürler","şukran"),("🙂","عَفْوًا","Rica ederim","afven"),
+   ("👋","مَعَ السَّلَامَةِ","Güle güle","mea’s-selâme"),("✅","نَعَمْ","Evet","ne‘am"),("❌","لَا","Hayır","lâ"),("❓","كَيْفَ حَالُكَ؟","Nasılsın?","keyfe hâluke"),("👍","أَنَا بِخَيْرٍ","İyiyim","enâ bi-hayr")]),
+ ("vucut",2,"Vücudumuz","🧍",[("🗣️","رَأْس","baş","re’s"),("👁️","عَيْن","göz","ayn"),("👂","أُذُن","kulak","uzun"),("👃","أَنْف","burun","enf"),("👄","فَم","ağız","fem"),
+   ("✋","يَد","el","yed"),("🦶","رِجْل","ayak","ricl"),("🦷","سِنّ","diş","sinn"),("❤️","قَلْب","kalp","kalb"),("💇","شَعْر","saç","şa‘r")]),
+ ("okul",2,"Okulum","🏫",[("📕","كِتَاب","kitap","kitâb"),("✏️","قَلَم","kalem","kalem"),("📓","دَفْتَر","defter","defter"),("🏫","مَدْرَسَة","okul","medrese"),("🧑‍🏫","مُعَلِّم","öğretmen","muallim"),
+   ("🧑‍🎓","طَالِب","öğrenci","tâlib"),("🎒","حَقِيبَة","çanta","hakîbe"),("📏","مِسْطَرَة","cetvel","mistara"),("🪑","كُرْسِيّ","sandalye","kursiyy"),("🚪","بَاب","kapı","bâb")]),
+ ("yemek",2,"Yiyecek ve İçecekler","🍞",[("🍞","خُبْز","ekmek","hubz"),("💧","مَاء","su","mâ’"),("🥛","حَلِيب","süt","halîb"),("🥚","بَيْض","yumurta","beyd"),("🧀","جُبْن","peynir","cubn"),
+   ("🍚","أَرُزّ","pirinç","eruzz"),("🍯","عَسَل","bal","asel"),("🍖","لَحْم","et","lahm"),("🍵","شَاي","çay","şây"),("🍬","حَلْوَى","tatlı, şeker","halvâ")]),
+ ("gun",2,"Günler","📅",[("1️⃣","الْأَحَد","Pazar","el-ehad"),("2️⃣","الْاِثْنَيْن","Pazartesi","el-isneyn"),("3️⃣","الثُّلَاثَاء","Salı","es-sülâsâ"),("4️⃣","الْأَرْبِعَاء","Çarşamba","el-erbiâ"),
+   ("5️⃣","الْخَمِيس","Perşembe","el-hamîs"),("🕌","الْجُمُعَة","Cuma","el-cum‘a"),("7️⃣","السَّبْت","Cumartesi","es-sebt")]),
+ ("doga",2,"Doğa ve Hava","🌳",[("🏠","بَيْت","ev","beyt"),("☀️","شَمْس","güneş","şems"),("🌙","قَمَر","ay","kamer"),("⭐","نَجْم","yıldız","necm"),("🌳","شَجَرَة","ağaç","şecere"),
+   ("🌹","وَرْدَة","gül","verde"),("🌊","بَحْر","deniz","bahr"),("⛰️","جَبَل","dağ","cebel"),("🌧️","مَطَر","yağmur","matar"),("☁️","سَحَاب","bulut","sehâb")]),
+ ("duygu",2,"Duygular","😊",[("😊","سَعِيد","mutlu","seîd"),("😢","حَزِين","üzgün","hazîn"),("😠","غَضْبَان","kızgın","gadbân"),("😋","جَائِع","aç","câi‘"),("🥤","عَطْشَان","susamış","atşân"),
+   ("😴","تَعْبَان","yorgun","ta‘bân"),("😨","خَائِف","korkmuş","hâif"),("🤒","مَرِيض","hasta","marîd")]),
+ ("zamir",3,"Ben, Sen, O","🙋",[("🙋","أَنَا","ben","enâ"),("👉👦","أَنْتَ","sen (erkek)","ente"),("👉👧","أَنْتِ","sen (kız)","enti"),("👦","هُوَ","o (erkek)","huve"),("👧","هِيَ","o (kız)","hiye"),
+   ("👨‍👩‍👧","نَحْنُ","biz","nahnu"),("👥","هُمْ","onlar","hum")]),
+ ("fiil",3,"Fiiller","🏃",[("🍽️","أَكَلَ","yedi","ekele"),("🥤","شَرِبَ","içti","şeribe"),("✍️","كَتَبَ","yazdı","ketebe"),("📖","قَرَأَ","okudu","karae"),("🚶","ذَهَبَ","gitti","zehebe"),
+   ("🪑","جَلَسَ","oturdu","celese"),("🚪","فَتَحَ","açtı","fetaha"),("➡️","دَخَلَ","girdi","dahale"),("⬅️","خَرَجَ","çıktı","harace"),("😴","نَامَ","uyudu","nâme")]),
+ ("cumle",3,"İlk Cümlelerim","💬",[("📕","هٰذَا كِتَابٌ","Bu bir kitaptır.","hâzâ kitâbun"),("🌳","هٰذِهِ شَجَرَةٌ","Bu bir ağaçtır.","hâzihî şeceratun"),("🧑‍🎓","أَنَا طَالِبٌ","Ben öğrenciyim.","enâ tâlibun"),
+   ("❓","مَا اسْمُكَ؟","Adın ne?","me’smuke"),("🙋","اِسْمِي أَحْمَدُ","Benim adım Ahmed.","ismî Ahmedu"),("🔍","أَيْنَ الْكِتَابُ؟","Kitap nerede?","eyne’l-kitâbu"),
+   ("📚","الْكِتَابُ عَلَى الْمَكْتَبِ","Kitap masanın üstünde.","el-kitâbu ale’l-mektebi"),("❤️","أُحِبُّ أُمِّي","Annemi seviyorum.","uhibbu ümmî"),("🕌","أَنَا مُسْلِمٌ","Ben Müslümanım.","enâ müslimun"),("🌤️","الْجَوُّ جَمِيلٌ","Hava güzel.","el-cevvu cemîlun")]),
+]
+EN = [
+ ("sayi",1,"Numbers · Sayılar","🔢",[("1️⃣","one","bir","van"),("2️⃣","two","iki","tu"),("3️⃣","three","üç","tri"),("4️⃣","four","dört","for"),("5️⃣","five","beş","fayv"),
+   ("6️⃣","six","altı","siks"),("7️⃣","seven","yedi","sevın"),("8️⃣","eight","sekiz","eyt"),("9️⃣","nine","dokuz","nayn"),("🔟","ten","on","ten")]),
+ ("renk",1,"Colours · Renkler","🎨",[("🔴","red","kırmızı","red"),("🔵","blue","mavi","blu"),("🟢","green","yeşil","grin"),("🟡","yellow","sarı","yelou"),("⚪","white","beyaz","vayt"),
+   ("⚫","black","siyah","blek"),("🟠","orange","turuncu","orınç"),("🟣","purple","mor","pörpıl"),("🟤","brown","kahverengi","braun"),("🩷","pink","pembe","pink")]),
+ ("hayvan",1,"Animals · Hayvanlar","🐾",[("🐱","cat","kedi","ket"),("🐶","dog","köpek","dog"),("🦁","lion","aslan","layın"),("🐘","elephant","fil","elifınt"),("🐪","camel","deve","kemıl"),
+   ("🐴","horse","at","hors"),("🐄","cow","inek","kau"),("🐟","fish","balık","fiş"),("🐦","bird","kuş","börd"),("🐰","rabbit","tavşan","rebit"),("🐝","bee","arı","bi"),("🐜","ant","karınca","ent")]),
+ ("meyve",1,"Fruits · Meyveler","🍎",[("🍎","apple","elma","eppıl"),("🍌","banana","muz","bınana"),("🍇","grapes","üzüm","greyps"),("🍊","orange","portakal","orınç"),("🍉","watermelon","karpuz","votırmelın"),
+   ("🍓","strawberry","çilek","strobıri"),("🍋","lemon","limon","lemın"),("🍒","cherry","kiraz","çeri"),("🍐","pear","armut","peır")]),
+ ("aile",1,"My Family · Ailem","👨‍👩‍👧",[("👨","father","baba","fadır"),("👩","mother","anne","madır"),("👦","brother","erkek kardeş","bradır"),("👧","sister","kız kardeş","sistır"),
+   ("👴","grandfather","dede","grendfadır"),("👵","grandmother","nine","grendmadır"),("👶","baby","bebek","beybi"),("👨‍👩‍👧‍👦","family","aile","femıli")]),
+ ("selam",2,"Greetings · Selamlaşma","👋",[("👋","Hello!","Merhaba!","helou"),("☀️","Good morning!","Günaydın!","gud morning"),("🌙","Good night!","İyi geceler!","gud nayt"),
+   ("🙏","Thank you!","Teşekkür ederim!","tenk yu"),("🙂","You're welcome!","Rica ederim!","yor velkım"),("👋","Goodbye!","Hoşça kal!","gudbay"),("✅","Yes","Evet","yes"),("❌","No","Hayır","nou"),
+   ("❓","How are you?","Nasılsın?","hau ar yu"),("👍","I'm fine.","İyiyim.","aym fayn"),("🙋","My name is Ali.","Benim adım Ali.","may neym iz Ali")]),
+ ("vucut",2,"My Body · Vücudumuz","🧍",[("🗣️","head","baş","hed"),("👁️","eye","göz","ay"),("👂","ear","kulak","iır"),("👃","nose","burun","nouz"),("👄","mouth","ağız","mauf"),
+   ("✋","hand","el","hend"),("🦶","foot","ayak","fut"),("🦷","tooth","diş","tuf"),("❤️","heart","kalp","hart"),("💇","hair","saç","heır")]),
+ ("okul",2,"School · Okulum","🏫",[("📕","book","kitap","buk"),("✏️","pencil","kurşun kalem","pensıl"),("📓","notebook","defter","noutbuk"),("🏫","school","okul","skul"),("🧑‍🏫","teacher","öğretmen","tiçır"),
+   ("🧑‍🎓","student","öğrenci","studınt"),("🎒","bag","çanta","beg"),("📏","ruler","cetvel","rulır"),("🪑","chair","sandalye","çeır"),("🚪","door","kapı","dor")]),
+ ("yemek",2,"Food · Yiyecekler","🍞",[("🍞","bread","ekmek","bred"),("💧","water","su","votır"),("🥛","milk","süt","milk"),("🥚","egg","yumurta","eg"),("🧀","cheese","peynir","çiz"),
+   ("🍚","rice","pirinç","rays"),("🍯","honey","bal","hani"),("🍖","meat","et","mit"),("🍵","tea","çay","ti"),("🍰","cake","pasta","keyk")]),
+ ("gun",2,"Days · Günler","📅",[("1️⃣","Monday","Pazartesi","mandey"),("2️⃣","Tuesday","Salı","tyuzdey"),("3️⃣","Wednesday","Çarşamba","venzdey"),("4️⃣","Thursday","Perşembe","törzdey"),
+   ("🕌","Friday","Cuma","fraydey"),("6️⃣","Saturday","Cumartesi","setırdey"),("7️⃣","Sunday","Pazar","sandey")]),
+ ("doga",2,"Nature & Weather · Doğa ve Hava","🌳",[("🏠","house","ev","haus"),("☀️","sunny","güneşli","sani"),("🌧️","rainy","yağmurlu","reyni"),("☁️","cloudy","bulutlu","klaudi"),("❄️","snowy","karlı","snoui"),
+   ("🌙","moon","ay","mun"),("⭐","star","yıldız","star"),("🌳","tree","ağaç","tri"),("🌊","sea","deniz","si"),("⛰️","mountain","dağ","mauntın")]),
+ ("duygu",2,"Feelings · Duygular","😊",[("😊","happy","mutlu","hepi"),("😢","sad","üzgün","sed"),("😠","angry","kızgın","engri"),("😋","hungry","aç","hangri"),("🥤","thirsty","susamış","törsti"),
+   ("😴","tired","yorgun","tayırd"),("😨","scared","korkmuş","skeırd"),("🤒","ill","hasta","il")]),
+ ("zamir",3,"I, You, He · Ben, Sen, O","🙋",[("🙋","I","ben","ay"),("👉","you","sen / siz","yu"),("👦","he","o (erkek)","hi"),("👧","she","o (kız)","şi"),("📦","it","o (eşya, hayvan)","it"),
+   ("👨‍👩‍👧","we","biz","vi"),("👥","they","onlar","dey")]),
+ ("fiil",3,"Actions · Fiiller","🏃",[("🍽️","eat","yemek","it"),("🥤","drink","içmek","drink"),("✍️","write","yazmak","rayt"),("📖","read","okumak","rid"),("🚶","go","gitmek","gou"),
+   ("🪑","sit","oturmak","sit"),("🏃","run","koşmak","ran"),("😴","sleep","uyumak","slip"),("⚽","play","oynamak","pley"),("🏊","swim","yüzmek","svim")]),
+ ("cumle",3,"First Sentences · İlk Cümlelerim","💬",[("📕","This is a book.","Bu bir kitap.","dis iz ı buk"),("🧑‍🎓","I am a student.","Ben bir öğrenciyim.","ay em ı studınt"),
+   ("❓","What is your name?","Adın ne?","vat iz yor neym"),("🙋","My name is Zeynep.","Benim adım Zeynep.","may neym iz Zeynep"),("🔍","Where is the cat?","Kedi nerede?","ver iz dı ket"),
+   ("🐱","The cat is under the table.","Kedi masanın altında.","dı ket iz andır dı teybıl"),("🍎","I like apples.","Elmaları severim.","ay layk eppılz"),("🏊","I can swim.","Yüzebilirim.","ay ken svim"),
+   ("☀️","It is sunny today.","Bugün hava güneşli.","it iz sani tudey"),("👦","I have two brothers.","İki erkek kardeşim var.","ay hev tu bradırz")]),
+]
+def unite(L):
+    return [{"id":i,"sev":s,"ad":a,"e":e,"k":[list(x) for x in K]} for i,s,a,e,K in L]
+ar_harf={"id":"harf","sev":1,"ad":"Harfler (Elif-Bâ)","e":"ا","harf":1,"k":[[em,h,f"{tr} — {ad} gibi",f"{okn}: {kel}",ad_ar,kel_ar] for h,ad_ar,okn,kel_ar,kel,tr,em in [(x[0],x[1],x[2],x[3],x[4],x[5],x[6]) for x in AR_HARF] for ad in [x[4] for x in AR_HARF if x[0]==h]]}
+# kart biçimi: [emoji, harf, açıklama, okunuş, harf adı (sesli), örnek kelime (sesli)]
+ar_harf["k"]=[[x[6],x[0],f"{x[2].capitalize()} harfi · {x[5]}",f"{x[2]} — {x[4]}",x[1],x[3]] for x in AR_HARF]
+en_harf={"id":"harf","sev":1,"ad":"Alphabet · Alfabe","e":"🔤","harf":1,"k":[[x[4],x[0],x[3],x[2],x[0],x[1]] for x in EN_HARF]}
+V={"surum":1,
+ "ar":{"ad":"Arapça Öğreniyorum","dil":"ar-SA","yon":"rtl","uniteler":[ar_harf]+unite(AR)},
+ "en":{"ad":"İngilizce Öğreniyorum","dil":"en-US","yon":"ltr","uniteler":[en_harf]+unite(EN)}}
+R=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','data','cocuk','dil.json')
+json.dump(V,open(R,'w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
+for d in ('ar','en'):print(d,len(V[d]['uniteler']),'ünite',sum(len(u['k']) for u in V[d]['uniteler']),'kart')
