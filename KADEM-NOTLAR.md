@@ -225,7 +225,7 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 ## Sıradaki iş (26 Kasım 2026 itibarıyla güncel)
 
 ### A. Kadem içerik
-1. DHBT tam denemeleri 4–5 (2 ve 3 bitti; 40’ar soru; dağılım dhbt.json haritasından: Akaid 6, Fıkıh 9, Kur’an Bilgisi 6, Tefsir 3, Hadis 3, Siyer 6, Ahlak 2, Mezhepler 1, Dinler 2, Hitabet 2). Araç: `python3 tools/kadem/deneme_yaz.py kaynak.txt N "açıklama" dhbt` → yayın: `KADEM_SIFRE=… /home/claude/yay.sh "mesaj" data/kadem/deneme/dhbt-N.json`.
+1. (bitti) DHBT tam denemeleri 1–5 ( 40’ar soru; dağılım dhbt.json haritasından: Akaid 6, Fıkıh 9, Kur’an Bilgisi 6, Tefsir 3, Hadis 3, Siyer 6, Ahlak 2, Mezhepler 1, Dinler 2, Hitabet 2). Araç: `python3 tools/kadem/deneme_yaz.py kaynak.txt N "açıklama" dhbt` → yayın: `KADEM_SIFRE=… /home/claude/yay.sh "mesaj" data/kadem/deneme/dhbt-N.json`.
 2. Mevzuat denemeleri (30 soru, mevzuat-1…3 konularından; `… N "açıklama" mevzuat`).
 3. Diğer sınavlar (vaizlik, ilçe müftülüğü, müftü yrd., eğitim görevlisi, kbys, ihtisas…) şu an karma deneme kullanıyor; gerekirse sabit deneme eklenebilir. Sınavların özel konuları (ör. Arapça, hitabet ayrıntısı) eksikse yazılmalı.
 4. (bitti) Denemeler kart listesi ve Kadem ekranlarının şablona uyarlanması.
