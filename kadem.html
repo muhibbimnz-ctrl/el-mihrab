@@ -333,27 +333,26 @@ function bugunIs(S,V){var o=oku(),P=o['pl.'+S.id];
  return{t:'Bütün konuların testi çözüldü',m:'Şimdi denemeler ve son tekrar zamanı',a:'#s='+S.id+'&t=denemeler'}}
 function sinavSayfa(S,V){
  var o=oku(),k=V.konular,d=defter(S),yan=Object.keys(d).filter(function(x){return soruBul(V,x)}).length,bug=bugunku(S,V).length,G=o['dn.'+S.id]||[],A=o['a.'+S.id],D=V.deneme,ad='#s='+e(S.id);
- var h='<div class="ust-etiket">'+e(S.id)+'</div><h1>'+e(S.ad)+'</h1>';
- if(!k.length){M.innerHTML=h+'<p class="lead">'+e(S.tam)+'</p><div class="bos-kutu">Konu anlatımı ve sorular hazırlanıyor.</div>'+bilgi(S);return}
- var biten=k.filter(function(x){return o['p.'+S.id+'.'+x.id]!=null}).length,son=o['son.'+S.id],sx=son&&k.filter(function(x){return x.id===son})[0];
- h+='<p class="lead">'+k.length+' konu · '+V.havuz.length+' soru'+(V.denemeler.length?' · '+V.denemeler.length+' deneme':'')+' · çalışılan '+biten+'</p>';
- h+='<div class="araclar">'+(D?'<a class="vurgu" href="'+ad+'&t=denemeler">Denemeler'+(V.denemeler.length?' · '+V.denemeler.length:'')+'</a>':'')+
+ var h='<div class="ust-etiket">'+e(S.id)+'</div><h1>'+e(S.ad)+'</h1><p class="lead">'+e(S.tam)+'</p>';
+ if(!k.length){M.innerHTML=h+'<div class="bos-kutu">Konu anlatımı ve sorular hazırlanıyor.</div>'+bilgi(S);return}
+ var biten=k.filter(function(x){return o['p.'+S.id+'.'+x.id]!=null}).length,B=bugunIs(S,V),Z=zayiflar(S,V);
+ if(A)h+='<a class="bugunkart" href="'+ad+'&t=deneme&devam=1"><span class="ust-etiket">Yarım kalan deneme</span><b>'+e(A.ad||'Deneme')+'</b><small>'+Object.keys(A.c).length+' / '+A.s.length+' cevaplı · kaldığın yerden devam et</small></a>';
+ else h+='<a class="bugunkart" href="'+e(B.a)+'"><span class="ust-etiket">Bugünün işi</span><b>'+e(B.t)+'</b><small>'+e(B.m)+'</small></a>';
+ h+='<h2>Dersler <em>'+biten+' / '+k.length+' konu</em></h2><div class="konular">';
+ dersler(V).forEach(function(adi,i){var I=dersBilgi(S,V,adi);if(!I.KK.length)return;var yuzde=Math.round(100*I.biten/I.KK.length);
+  h+='<a class="satir" href="'+ad+'&ds='+encodeURIComponent(adi)+'"><span class="no">'+(i+1)+'</span><span>'+e(adi)+'<br><small>'+(I.soru?'sınavda '+I.soru+' soru · ':'')+I.KK.length+' konu'+(I.ort!=null?' · test ort. %'+I.ort:'')+'</small></span>'+
+   '<small>'+I.biten+'/'+I.KK.length+'</small><i class="ilerle" style="width:'+yuzde+'%"></i></a>'});
+ h+='</div>';
+ h+='<div class="araclar">'+(D?'<a href="'+ad+'&t=denemeler">Denemeler'+(V.denemeler.length?' · '+V.denemeler.length:'')+'</a>':'')+
   '<a'+(bug?' class="vurgu"':'')+' href="'+ad+'&t=tekrar">Tekrar'+(bug?' · '+bug:'')+'</a>'+
   '<a href="'+ad+'&t=defter">Yanlış defteri'+(yan?' · '+yan:'')+'</a>'+
-  '<a href="'+ad+'&t=ozet">Özet</a><a href="'+ad+'&t=kartlar">Kartlar</a></div>';
- if(A)h+='<p class="kucukyazi"><a style="color:var(--acc)" href="'+ad+'&t=deneme&devam=1">Yarım kalan deneme: '+e(A.ad||'Deneme')+' ('+Object.keys(A.c).length+'/'+A.s.length+') — devam et ›</a></p>';
- else if(sx)h+='<p class="kucukyazi"><a style="color:var(--acc)" href="'+ad+'&k='+e(sx.id)+'">Kaldığın yer: '+e(sx.ad)+' ›</a></p>';
- dersler(V).forEach(function(adi){var I=dersBilgi(S,V,adi);if(!I.KK.length)return;
-  var L=I.KK.filter(function(x){return!/^eski-/.test(x.id)}).concat(I.KK.filter(function(x){return/^eski-/.test(x.id)}));
-  h+='<details class="ders" open><summary><b>'+e(adi)+'</b> <small class="kucukyazi">'+(I.soru?I.soru+' soru · ':'')+I.biten+'/'+I.KK.length+' konu</small></summary><div class="konular" style="margin:8px 0 14px">';
-  L.forEach(function(x,i){var p=o['p.'+S.id+'.'+x.id],ek=/^eski-/.test(x.id);
-   h+='<a class="satir" href="'+ad+'&k='+e(x.id)+'"'+(ek?' style="opacity:.6"':'')+'><span class="no">'+(ek?'·':i+1)+'</span><span>'+e(x.ad)+'</span><small>'+(p!=null?'%'+p:(x.sorular||[]).length+' soru')+'</small>'+(p!=null?'<i class="ilerle" style="width:'+p+'%"></i>':'')+'</a>'});
-  h+='<a class="satir" href="'+ad+'&t=deneme&ders='+encodeURIComponent(adi)+'"><span class="no">✎</span><span><small>'+e(adi)+' ders denemesi</small></span></a></div></details>'});
- if(G.length){var g=G[G.length-1];h+='<p class="kucukyazi">Son deneme ('+e(g.ad||'Karma deneme')+', '+gun(g.t)+'): <b>'+yuvarla(net(g))+'</b> '+(g.yg?'net':'doğru')+' / '+g.n+' · <a href="'+ad+'&t=sonuc&r='+g.t+'" style="color:var(--acc)">sonucu gör</a></p>'}
- h+='<p class="kucukyazi" style="margin-top:14px"><a style="color:var(--acc)" href="'+ad+'&t=program">Çalışma programı</a>'+(V.harita?' · <a style="color:var(--acc)" href="'+ad+'&t=harita">Konu haritası</a>':'')+'</p>';
- h+='<details class="ders" style="margin-top:10px"><summary>Sınav bilgisi</summary><table class="kunye" style="margin-top:10px"><tr><th>Kimler girer</th><td>'+e(S.kim)+'</td></tr><tr><th>Biçim</th><td>'+e(S.bicim)+'</td></tr>'+
+  '<a href="'+ad+'&t=program">Program</a><a href="'+ad+'&t=ozet">Özet kitapçığı</a><a href="'+ad+'&t=kartlar">Kartlar</a>'+
+  (V.harita?'<a href="'+ad+'&t=harita">Konu haritası</a>':'')+'</div>';
+ if(Z.length)h+='<h2>Zayıf konuların</h2><div class="konular">'+Z.map(function(z){return'<a class="satir" href="'+ad+'&k='+e(z.x.id)+'&g=ozet"><span>'+e(z.x.ad)+'</span><small>'+z.n+' yanlış</small></a>'}).join('')+'</div>';
+ if(G.length){var g=G[G.length-1];h+='<p class="kucukyazi" style="margin-top:14px">Son deneme ('+e(g.ad||'Karma deneme')+', '+gun(g.t)+'): <b>'+yuvarla(net(g))+'</b> '+(g.yg?'net':'doğru')+' / '+g.n+' · <a href="'+ad+'&t=sonuc&r='+g.t+'" style="color:var(--acc)">sonucu gör</a></p>'}
+ h+='<details class="ders" style="margin-top:22px"><summary>Sınav bilgisi</summary><table class="kunye" style="margin-top:10px"><tr><th>Kimler girer</th><td>'+e(S.kim)+'</td></tr><tr><th>Biçim</th><td>'+e(S.bicim)+'</td></tr>'+
   (D?'<tr><th>Puanlama</th><td>'+(D.yanlisGoturur?'Dört yanlış bir doğruyu götürür (net hesabı).':'Yanlışlar doğruları götürmez; ham puan doğru sayısıdır.')+'</td></tr>':'')+
-  '</table>'+bilgi(S).replace('<h2>Sınav hakkında</h2>','')+'</details>';
+  '<tr><th>Hazır içerik</th><td>'+k.length+' konu · '+V.havuz.length+' konu sorusu'+(V.denemeler.length?' · '+V.denemeler.length+' tam deneme':'')+'</td></tr></table>'+bilgi(S).replace('<h2>Sınav hakkında</h2>','')+'</details>';
  M.innerHTML=h}
 
 function dersSayfa(S,V,adi){var o=oku(),I=dersBilgi(S,V,adi),ad='#s='+e(S.id),q=encodeURIComponent(adi);
