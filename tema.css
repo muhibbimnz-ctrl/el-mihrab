@@ -1,0 +1,58 @@
+/* el-Mihrâb ortak görünüm (tema.js ile birlikte). İki tema: a = Gece Mavisi, b = Sabah Ferahlığı.
+   Seçim localStorage "mihrab.tema" ('a' | 'b' | '0' = klasik); <html data-tema="a|b"> olarak uygulanır.
+   Sayfaların kendi değişken adları (index/medrese: --accent,--paper…; arac.css: --acc,--accS…; Kadem: --kagit,--rule,--vurgu…)
+   burada aynı renklere bağlanır; html[data-tema] seçicisi :root ve [data-theme] kurallarından güçlüdür. */
+html[data-tema]{
+  --ui:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--sans:var(--ui);--serif:var(--ui);--disp:var(--ui);
+  --pat:none;--r-kart:18px;--r-dugme:16px;--t-golge:0 2px 12px rgba(30,42,74,.07);--t-golge2:0 10px 28px -12px rgba(30,42,74,.28)}
+html[data-tema=a]{
+  --bg:#F4F6FB;--paper:#fff;--card:#fff;--kagit:#fff;--ink:#1E2A4A;--ink2:#3A4668;--muted:#7A84A0;
+  --line:#E3E7F2;--line2:#C9D0E2;--rule:#C9D0E2;--accent:#2E3F73;--acc:#2E3F73;--accentSoft:#E8ECF8;--accS:#E8ECF8;
+  --gold:#F2994A;--goldSoft:#FFF1E3;--vurgu:#F2994A;--ok:#27AE60;--okS:#E8F7EF;--no:#D9534F;--bad:#D9534F;--red:#D9534F;
+  --hl:#FFF1D6;--mark:#FFE3C2;--play:#E8ECF8;--yaldiz:#E67E22;--uyaribg:#FFF4E6;--uyari:#B9650F;--koyu:#1E2A4A;
+  --t-hero:linear-gradient(160deg,#1E2A4A,#2E3F73);--t-hero-ink:#fff;--t-btn:linear-gradient(90deg,#F2994A,#F5B041);--t-btn-ink:#fff;
+  --t-btn-golge:0 8px 18px -6px rgba(242,153,74,.55);--t-ilerleme:linear-gradient(90deg,#27AE60,#6FCF97);--t-alt-bg:#fff;--t-alt-ink:#7A84A0;--t-alt-on:#2E3F73;
+  color-scheme:light}
+html[data-tema=b]{
+  --bg:#F6FAF9;--paper:#fff;--card:#fff;--kagit:#fff;--ink:#0F172A;--ink2:#334155;--muted:#64748B;
+  --line:#E2E8F0;--line2:#CBD5E1;--rule:#CBD5E1;--accent:#0F766E;--acc:#0F766E;--accentSoft:#CCFBF1;--accS:#CCFBF1;
+  --gold:#D97706;--goldSoft:#FEF3C7;--vurgu:#14B8A6;--ok:#14B8A6;--okS:#CCFBF1;--no:#E11D48;--bad:#E11D48;--red:#E11D48;
+  --hl:#FDE68A;--mark:#FDE68A;--play:#E0F2FE;--yaldiz:#D97706;--uyaribg:#FEF3C7;--uyari:#92400E;--koyu:#0F172A;
+  --t-hero:linear-gradient(135deg,#14B8A6,#0EA5E9);--t-hero-ink:#fff;--t-btn:#0F172A;--t-btn-ink:#fff;
+  --t-btn-golge:0 8px 18px -8px rgba(15,23,42,.45);--t-ilerleme:linear-gradient(90deg,#14B8A6,#0EA5E9);--t-alt-bg:#0F172A;--t-alt-ink:#94A3B8;--t-alt-on:#5EEAD4;
+  color-scheme:light}
+html[data-tema] body{font-family:var(--ui);-webkit-font-smoothing:antialiased}
+
+/* ——— Ortak parçalar ——— */
+.t-hero{background:var(--t-hero);color:var(--t-hero-ink);border-radius:0 0 28px 28px;padding:20px 20px 26px;margin:0 0 16px}
+.t-hero h1,.t-hero h2{margin:4px 0 2px;font-weight:800;letter-spacing:-.02em;color:inherit}
+.t-hero small,.t-hero .t-alt-yazi{opacity:.85}
+.t-etiket{font-size:11.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--vurgu)}
+.t-hero .t-etiket{color:#FFB547}html[data-tema=b] .t-hero .t-etiket{color:#fff;opacity:.9}
+.t-kart{background:var(--card);border-radius:var(--r-kart);box-shadow:var(--t-golge);border:1px solid var(--line);padding:14px 16px}
+html[data-tema=b] .t-kart{border-color:transparent}
+.t-btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;border:0;border-radius:var(--r-dugme);padding:15px 18px;
+  background:var(--t-btn);color:var(--t-btn-ink);font:800 16px var(--ui);box-shadow:var(--t-btn-golge);cursor:pointer;text-decoration:none}
+.t-btn:active{transform:scale(.98)}
+.t-btn.ik{background:var(--card);color:var(--ink);box-shadow:none;border:1.5px solid var(--line)}
+.t-ozet{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}
+.t-ozet>div{background:rgba(255,255,255,.12);border-radius:14px;padding:10px 8px;text-align:center}
+.t-ozet b{display:block;font-size:19px;font-weight:800}.t-ozet small{font-size:11.5px;opacity:.85}
+html[data-tema=b] .t-ozet>div{background:rgba(255,255,255,.2)}
+.t-ilerleme{height:8px;border-radius:6px;background:rgba(127,140,170,.22);overflow:hidden}
+.t-ilerleme>i{display:block;height:100%;border-radius:6px;background:var(--t-ilerleme)}
+.t-temasec{display:flex;gap:10px;margin:8px 0}
+.t-temasec button{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:12px 8px;border-radius:14px;border:2px solid var(--line,#ddd);background:var(--card,#fff);color:var(--ink,#222);font:700 13.5px var(--ui,system-ui);cursor:pointer}
+.t-temasec button.on{border-color:var(--vurgu,#0e5a43)}
+.t-temasec i{width:46px;height:30px;border-radius:9px;display:block}
+
+/* Alt sabit menü (Tema.altMenu ile eklenir) */
+.t-alt{display:none}
+html[data-tema] .t-alt{display:flex;position:fixed;z-index:60;justify-content:space-around;align-items:stretch}
+html[data-tema=a] .t-alt{left:0;right:0;bottom:0;background:var(--t-alt-bg);border-top:1px solid var(--line);padding:6px 0 calc(6px + env(safe-area-inset-bottom,0px));box-shadow:0 -6px 18px -12px rgba(30,42,74,.3)}
+html[data-tema=b] .t-alt{left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));background:var(--t-alt-bg);border-radius:22px;padding:7px 4px;box-shadow:0 12px 30px -10px rgba(15,23,42,.5)}
+.t-alt a,.t-alt button{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;border:0;background:none;color:var(--t-alt-ink);text-decoration:none;font:700 11px var(--ui);padding:4px 0;cursor:pointer}
+.t-alt i{font-style:normal;font-size:18px;line-height:24px;width:40px;height:26px;border-radius:13px;display:flex;align-items:center;justify-content:center}
+.t-alt .on{color:var(--t-alt-on)}
+html[data-tema=a] .t-alt .on i{background:#E8ECF8}html[data-tema=b] .t-alt .on i{background:#134E4A}
+html[data-tema] body.t-altli{padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}

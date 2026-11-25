@@ -7,6 +7,7 @@
 <title>Kadem · el-Mihrâb</title>
 <meta name="theme-color" content="#f3efe6">
 <link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="tema.css?v=1"><script src="tema.js?v=1"></script>
 <style>
 :root{--bg:#f3efe6;--kagit:#fffdf9;--ink:#1d1b17;--muted:#6d665a;--line:#dcd3c1;--rule:#b9ad94;--acc:#1d5c4a;--yaldiz:#8c6d2c;--ok:#2d6a3e;--no:#9a2f2a;--uyari:#8a5d10;--uyaribg:#f6ecd5;
  --serif:"Iowan Old Style","Palatino Linotype","Book Antiqua",Palatino,"Noto Serif",Georgia,serif;--sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--mono:ui-monospace,"SF Mono","Cascadia Mono",Consolas,monospace}
@@ -226,9 +227,7 @@ details summary{cursor:pointer;font-weight:600;margin-top:8px;font-size:14.5px;c
 #toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(90px);background:var(--ink);color:var(--kagit);border-radius:3px;padding:9px 16px;transition:transform .25s;z-index:20;font-size:15px}
 #toast.on{transform:translateX(-50%) translateY(0)}
 /* ===== TEMALAR: a = Gece Mavisi, b = Sabah Ferahlığı ===== */
-html[data-tema]{--serif:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-html[data-tema=a]{--bg:#F4F6FB;--kagit:#fff;--ink:#1E2A4A;--muted:#7A84A0;--line:#E3E7F2;--rule:#C9D0E2;--acc:#2E3F73;--vurgu:#F2994A;--ok:#27AE60;--no:#D9534F;--yaldiz:#E67E22;--uyaribg:#FFF4E6;--uyari:#B9650F;--koyu:#1E2A4A;color-scheme:light}
-html[data-tema=b]{--bg:#F6FAF9;--kagit:#fff;--ink:#0F172A;--muted:#64748B;--line:#E2E8F0;--rule:#CBD5E1;--acc:#0F766E;--vurgu:#14B8A6;--ok:#14B8A6;--no:#E11D48;--yaldiz:#D97706;--uyaribg:#FEF3C7;--uyari:#92400E;--koyu:#0F172A;color-scheme:light}
+/* Tema renkleri ortak tema.css dosyasından gelir (Gece Mavisi a, Sabah Ferahlığı b). */
 html[data-tema] body{padding-bottom:96px}
 html[data-tema] h1{font-weight:800;letter-spacing:-.02em;font-size:26px}
 html[data-tema] h2{letter-spacing:.06em;text-transform:none;font-size:15px;color:var(--ink);font-weight:800}
@@ -407,10 +406,11 @@ function giris(ne){saatGizle();renk('#1d5c4a');
      try{localStorage.setItem(AK,b64e(bits))}catch(x){}KEY=k;C={};if(hash().giris)git('');else ac()})})})
   .catch(function(){$('#sm').textContent='Şifre yanlış.';$('#sf').select()})}}
 function renk(c){if(TEMA())return;document.documentElement.style.setProperty('--acc',c||'#1d5c4a')}
-function TEMA(){var t=null;try{t=localStorage.getItem('kadem.tema')}catch(x){}return t==null?'a':t}
-function temaUygula(){var t=TEMA(),h=document.documentElement;if(t){h.dataset.tema=t;h.style.removeProperty('--acc')}else delete h.dataset.tema}
-function temaSecici(){var t=TEMA();return'<h2>Görünüm</h2><div class="temasec"><button data-tema-sec="a"'+(t==='a'?' class="on"':'')+'><i style="background:linear-gradient(160deg,#1E2A4A,#F2994A)"></i>Gece Mavisi</button><button data-tema-sec="b"'+(t==='b'?' class="on"':'')+'><i style="background:linear-gradient(135deg,#14B8A6,#0EA5E9)"></i>Sabah Ferahlığı</button></div>'}
-function temaBagla(){[].forEach.call(M.querySelectorAll('[data-tema-sec]'),function(b){b.onclick=function(){try{localStorage.setItem('kadem.tema',b.dataset.temaSec)}catch(x){}temaUygula();ac()}})}
+function TEMA(){var t=window.Tema?Tema.al():'a';return t==='0'?'':t}
+function temaUygula(){if(window.Tema)Tema.uygula();if(TEMA())document.documentElement.style.removeProperty('--acc')}
+function temaSecici(){return'<h2>Görünüm</h2>'+(window.Tema?Tema.secici():'')}
+function temaBagla(){if(window.Tema)Tema.bagla(M)}
+addEventListener('tema',function(){temaUygula();ac()});
 function gunAnahtar(t){var d=new Date(t);return d.getFullYear()*10000+(d.getMonth()+1)*100+d.getDate()}
 function gunKaydet(S){var g=gunAnahtar(Date.now());guncelle(function(o){var L=o['gn.'+S.id]||[];if(L[L.length-1]!==g){L.push(g);if(L.length>400)L=L.slice(-400)}o['gn.'+S.id]=L})}
 function seri(S){var L=oku()['gn.'+S.id]||[],n=0,t=Date.now();if(L.indexOf(gunAnahtar(t))<0)t-=GUN;while(L.indexOf(gunAnahtar(t))>=0){n++;t-=GUN}return n}
