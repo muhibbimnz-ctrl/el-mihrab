@@ -76,7 +76,10 @@ TUM=sorted(enumerate(TUM),key=lambda p:(SB.index(p[1]['yol'][0]),SA[p[1]['yol'][
 TUM=[x for _,x in TUM]
 for x in TUM:
     mt=[]
-    for k,ifade in x['metin']:
+    for _mt in x['metin']:
+        if len(_mt)==3:  # meseleler13: çözülmüş [kitap, bölüm, ifade] olduğu gibi korunur
+            K.setdefault(_mt[0],json.load(open(f'data/fikih/{_mt[0]}.json',encoding='utf-8'))['s']);mt.append(list(_mt));continue
+        k,ifade=_mt
         if isinstance(ifade,int):
             if k not in K: K[k]=json.load(open(f'data/fikih/{k}.json',encoding='utf-8'))['s']
             mt.append([k,ifade,'']);continue
@@ -113,6 +116,7 @@ for x in TUM:
         rng=range(*ARALIK[k][x['yol'][0]]) if k in ARALIK and x['yol'][0] in ARALIK[k] else range(len(S))
         yeni.append([k,i,q])
     y=dict(x);y['metin']=yeni
+    if '_ibare' in y: y['ibare']=y.pop('_ibare')  # meseleler13: hazır ibare korunur
     ph=IBX.get(x['id'])
     if ph:
         S=K.setdefault('kuduri',json.load(open('data/fikih/kuduri.json',encoding='utf-8'))['s'])
