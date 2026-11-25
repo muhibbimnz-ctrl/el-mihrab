@@ -1,0 +1,27 @@
+# Her sabah 07:00'de (Türkiye) Haberler bölümünü günceller. Elle çalıştırmak için: GitHub > Actions > "Haberleri güncelle" > Run workflow
+name: Haberleri güncelle
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  haber:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Haberleri çek
+        run: python3 tools/haber_guncelle.py
+      - name: Değişiklik varsa gönder
+        run: |
+          if git diff --quiet -- data/haber.json; then echo "Değişiklik yok"; exit 0; fi
+          git config user.name "el-Mihrab haber botu"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/haber.json
+          git commit -m "Haberler: $(TZ=Europe/Istanbul date +%Y-%m-%d) otomatik güncelleme"
+          git push origin HEAD:main
+          git push origin HEAD:kadem || echo "kadem dalına gönderilemedi (main güncellendi)"
