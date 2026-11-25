@@ -79,7 +79,7 @@ function meseleListe(f){sek('M');document.getElementById('ttl').textContent=IL?'
   [].forEach.call(M.querySelectorAll('.blb'),function(d){d.onclick=function(){var v=d.getAttribute('data-b');BL=v==='Tümü'?'':v;meseleListe(document.getElementById('mf').value)}});
   var mf=document.getElementById('mf'),t;mf.oninput=function(){clearTimeout(t);t=setTimeout(function(){meseleListe(mf.value);var e=document.getElementById('mf');e.focus();e.setSelectionRange(e.value.length,e.value.length)},300)};
   if(!f){history.replaceState(null,'','#');scrollTo(0,0)}}
-function ilmihal(){var M=document.getElementById('M');document.getElementById('ttl').textContent='İlmihal';
+function ilmihal(){document.getElementById('ttl').textContent='İlmihal';
   var say={};MS.forEach(function(x){if(ILB.indexOf(x.yol[0])>=0)say[x.yol[0]]=(say[x.yol[0]]||0)+1});
   var IK={'Tahâret':'💧','Namaz':'🕌','Oruç':'🌙','Zekât':'🤲','Hac':'🕋','Kurban ve av':'🐑'};
   var h='<p class="not"><b>İlmihal</b> · Bir Müslümanın her gün ihtiyaç duyduğu ibadet bilgileri, Hanefî mezhebine göre. Önce adım adım uygulamalar, sonra konu konu meseleler.</p>'+
