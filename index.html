@@ -131,6 +131,11 @@ a{color:var(--accent)}
 .rd-f{flex:none;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 12px;background:var(--paper);border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
 .rd-f .pill{padding:9px 14px;font-size:14px}
 .rd-meal{display:none}
+.rd-ml{margin:12px 14px 4px;padding:12px 14px;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:12px;font-family:var(--serif);font-size:var(--msize);line-height:1.7;color:var(--ink)}
+.rd-ml .m+.m{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line2)}
+.rd-ml b{display:block;font-family:var(--ui);font-size:11px;letter-spacing:.5px;text-transform:uppercase;color:var(--accent);margin-bottom:2px}
+.rd-ml .ml-d{margin-top:8px;border:0;background:none;padding:0;color:var(--accent);font:600 13px var(--ui);cursor:pointer}
+.rd-ml.hide{display:none}
 .rd.wide .rd-ay{display:none}
 .rd-an{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:2px 0 6px;font:600 13px system-ui;color:var(--muted);direction:ltr}
 .rd-an .pill{padding:6px 12px;font-size:13px}.rd-an .pill[disabled]{opacity:.4}
@@ -328,11 +333,14 @@ a{color:var(--accent)}
 #okuma .mh .ib{color:#fff;background:transparent;border:0}#okuma .mh .ib svg{width:26px;height:26px}
 #okuma .ok-body{padding-bottom:110px;background:var(--mzZ,#fffdf8)}
 #okuma #okB{background:var(--mzZ,#fffdf8);border:0;box-shadow:none;max-width:760px;margin:0 auto;color:var(--mzY,#1d1d1d)}
-#okB:not(.qcf){line-height:var(--mzLh,2.3)!important;padding:18px 16px 30px!important;word-spacing:normal!important;font-size:var(--mzSz,var(--qsize))}
+#okB:not(.qcf){line-height:var(--mzLh,2.3)!important;padding:18px 16px 30px!important;word-spacing:normal!important;text-align:right!important;text-align-last:right!important;text-align:right!important;text-align-last:right!important;font-size:var(--mzSz,var(--qsize))}
 #okuma #okB:before{display:none}
+#okuma.yasla #okB:not(.qcf){text-align:justify!important}
+#okB .num{margin:0 .15em!important}
 #okB .oa{cursor:pointer;border-radius:4px;transition:background .15s;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 #okB .oa.sec{background:rgba(120,120,120,.2)}
 #okB .lf{color:#c2187a}
+#okuma.yasla #okB:not(.qcf){text-align:justify!important;text-align-last:right!important}
 #okB .num{border:0;background:radial-gradient(circle,#efe3bf 58%,#c9a85a 60%,#c9a85a 72%,transparent 74%);color:#5a4413;min-width:1.65em;height:1.65em;font-weight:700}
 #okuma.tam .mh,#okuma.tam .mb,#okuma.tam .okfab{display:none}#okuma.tam .ok-body{padding-bottom:30px}
 .mb{position:absolute;left:0;right:0;bottom:0;z-index:5;display:flex;align-items:flex-end;justify-content:space-around;background:var(--accent);color:#fff;padding:6px 4px calc(6px + env(safe-area-inset-bottom,0px));height:calc(66px + env(safe-area-inset-bottom,0px))}
@@ -629,7 +637,7 @@ a{color:var(--accent)}
   <div class="rd-h"><button class="ib" id="rdX" title="Sûreye dön"></button><b id="rdKey"></b><span style="flex:1"></span><button class="ib" id="rdT" title="Sekmeleri ve kitap seçimini göster/gizle">☰</button><button class="pill" id="rdF" title="Okuma modu: sekmeler ve alt çubuk gizlenir, kitap bütün ekranı kaplar">📖<span class="lb">Okuma modu</span></button><button class="pill" id="rdW" title="Âyeti gizle, tefsiri tam ekran oku"></button><button class="ib" id="rdPlay" title="Bu âyeti dinle"></button></div>
   <div class="rd-ay" id="rdAy" lang="ar" title="Daraltmak / genişletmek için dokunun"></div>
   <div class="rd-tabs" id="rdTabs"></div>
-  <div class="rd-body"><div class="box" id="rdBox"></div></div>
+  <div class="rd-body"><div class="rd-ml hide" id="rdMl"></div><div class="box" id="rdBox"></div></div>
   <div class="rd-f"><button class="pill" id="rdPrev">‹ Önceki âyet</button><span id="rdPos"></span><button class="pill" id="rdNext">Sonraki âyet ›</button></div>
 </div>
 <div class="ov hide" id="ovK"><div class="in" style="max-width:760px">
@@ -1323,8 +1331,8 @@ function okSec(e){$$('#okB .oa.sec').forEach(x=>x.classList.remove('sec'));if(!e
 function okHiz(){okHizI=(okHizI+1)%OKHIZ.length;$('#okHizT').textContent=okHizI?`Hız ${okHizI}`:'Hız';cancelAnimationFrame(okHizRaf);okHizBir=0;
   if(!okHizI)return;const K=$('.ok-body');let son=performance.now();
   const ad=t=>{if($('#okuma').classList.contains('hide')||!okHizI)return;okHizBir+=OKHIZ[okHizI]*(t-son)/16.7;son=t;if(okHizBir>=1){const d=Math.floor(okHizBir);K.scrollTop+=d;okHizBir-=d}okHizRaf=requestAnimationFrame(ad)};okHizRaf=requestAnimationFrame(ad)}
-function okZemin(){const Z={beyaz:['#fffdf8','#1d1d1d'],sepya:['#f4ecd8','#3b2f1e'],gece:['#121614','#e8e2d0']}[set.okZemin||'beyaz']||['#fffdf8','#1d1d1d'],O=$('#okuma');
-  O.style.setProperty('--mzZ',Z[0]);O.style.setProperty('--mzY',Z[1]);O.style.setProperty('--mzLh',set.okLh||2.3);O.style.setProperty('--mzSz',(set.okSz||Math.min(30,Math.max(26,set.qsize-6)))+'px')}
+function okZemin(){$('#okuma').classList.toggle('yasla',!!set.okYasla);const Z={beyaz:['#fffdf8','#1d1d1d'],sepya:['#f4ecd8','#3b2f1e'],gece:['#121614','#e8e2d0']}[set.okZemin||'beyaz']||['#fffdf8','#1d1d1d'],O=$('#okuma');
+  O.classList.toggle('yasla',!!set.okYasla);O.style.setProperty('--mzZ',Z[0]);O.style.setProperty('--mzY',Z[1]);O.style.setProperty('--mzLh',set.okLh||2.3);O.style.setProperty('--mzSz',(set.okSz||Math.min(30,Math.max(26,set.qsize-6)))+'px')}
 function okPanel(h){$('#okPanI').innerHTML=h;$('#okPan').classList.remove('hide')}
 function okPanelKapat(){$('#okPan').classList.add('hide')}
 function okAyet(){const e=okSecili;if(e)return[+e.dataset.s,+e.dataset.n];okAyetBaslik();return[okBaslik.s||1,okBaslik.n||1]}
@@ -1343,12 +1351,14 @@ function okAyarPanel(){const sz=set.okSz||Math.min(30,Math.max(26,set.qsize-6)),
   <label>Zemin</label><div class="seg">${[['beyaz','Beyaz'],['sepya','Sepya'],['gece','Gece']].map(([k,a])=>`<button data-z="${k}" class="${z===k?'on':''}">${a}</button>`).join('')}</div>
   <label>Hat</label><select id="aF">${FONTS.map(([f,a])=>`<option value="${esc(f)}"${set.font===f?' selected':''}>${esc(a)}</option>`).join('')}</select>
   <label>Kelime meâli</label><select id="aM"><option value="">Kapalı</option><option value="tr"${set.okMeal==='tr'?' selected':''}>Türkçe</option><option value="en"${set.okMeal==='en'?' selected':''}>English</option></select>
+  <label style="display:flex;gap:8px;align-items:center;color:var(--ink)"><input type="checkbox" id="aJ"${set.okYasla?' checked':''}> Satırları iki yana yasla (kelimeler arası açılabilir)</label>
+  <label style="display:flex;gap:8px;align-items:center;color:var(--ink)"><input type="checkbox" id="aJ"${set.okYasla?' checked':''}> Satırları iki yana yasla (kelimeler arası açılabilir)</label>
   <label style="display:flex;gap:8px;align-items:center;color:var(--ink)"><input type="checkbox" id="aQ"${set.okMedine?' checked':''}> Medine baskısının birebir sayfa hattı</label>
   <button class="git" id="aOk">Tamam</button>`);
   $('#aSz').oninput=e=>{set.okSz=+e.target.value;$('#aSzT').textContent=set.okSz+'px';okZemin();save()};
   $('#aLh').oninput=e=>{set.okLh=+e.target.value;$('#aLhT').textContent=set.okLh;okZemin();save()};
   $$('#okPanI [data-z]').forEach(b=>b.onclick=()=>{set.okZemin=b.dataset.z;save();okZemin();$$('#okPanI [data-z]').forEach(x=>x.classList.toggle('on',x===b))});
-  let yeni=false;$('#aF').onchange=e=>{set.font=e.target.value;save();applyVars()};$('#aM').onchange=e=>{set.okMeal=e.target.value;set.okMealLang=LANG;save();yeni=true};$('#aQ').onchange=e=>{set.okMedine=e.target.checked;save();yeni=true};
+  let yeni=false;$('#aF').onchange=e=>{set.font=e.target.value;save();applyVars()};$('#aM').onchange=e=>{set.okMeal=e.target.value;set.okMealLang=LANG;save();yeni=true};$('#aQ').onchange=e=>{set.okMedine=e.target.checked;save();yeni=true};$('#aJ').onchange=e=>{set.okYasla=e.target.checked;save();okZemin()};$('#aJ').onchange=e=>{set.okYasla=e.target.checked;save();okZemin()};
   $('#aOk').onclick=()=>{okPanelKapat();if(yeni)okPage(okP)}}
 async function okSayfaKur(p,once){const B=$('#okB'),n=okNesil,d=document.createElement('section');d.className='okp';d.dataset.p=p;d.innerHTML=loading();
   if(once)B.insertBefore(d,B.querySelector('.okp'));else B.insertBefore(d,$('#okSon'));
@@ -1409,11 +1419,17 @@ function openReader(n,c){
   rdModu();
   $('#rdTabs').innerHTML=ORDER.map(k=>`<button class="tb ${k===c?'on':''}" data-c="${k}">${CATS[k].n} <i>${CATS[k].ar}</i></button>`).join('');
   $('#rdPrev').disabled=n<=1;$('#rdNext').disabled=n>=st.ay.length;
-  const box=$('#rdBox');box.innerHTML=loading();$('.rd-body').scrollTop=0;setTimeout(rdKaydet,0);
+  const box=$('#rdBox');box.innerHTML=loading();$('.rd-body').scrollTop=0;setTimeout(rdKaydet,0);rdMeal(n,c);
   if(c==='meal')return boxMeal(box,n);
   if(c==='kiraat')return boxKiraat(box,n);
   boxBook(box,n,c);
 }
+/* Tefsir ekranının başında âyetin meâli */
+function rdMeal(n,c){const M=$('#rdMl');if(!M)return;if(c==='meal'){M.classList.add('hide');return}
+  const L=(set.meals&&set.meals.length?set.meals:[MEALS[0][0]]).slice(0,2),s0=st.s;M.classList.remove('hide');
+  M.innerHTML=L.map(id=>`<div class="m" data-id="${id}"><b>${esc(MEAL_N[id]||'Meâl')}</b><span>…</span></div>`).join('')+`<button class="ml-d" id="rdMlD">Bütün meâller ›</button>`;
+  $('#rdMlD').onclick=()=>openReader(n,'meal');
+  L.forEach(id=>offAyah(id,s0,n).then(x=>x||getJSON(`${AQ}/ayah/${s0}:${n}/${id}`).then(j=>j?.data?.text)).then(x=>{if(!st.open||st.open.n!==n||st.s!==s0)return;const e=$(`#rdMl .m[data-id="${id}"] span`);if(e)e.textContent=x||'Meâl yüklenemedi.'}).catch(()=>{const e=$(`#rdMl .m[data-id="${id}"] span`);if(e)e.textContent='Meâl yüklenemedi (internet gerekli).'}))}
 /* Âyet panelinde gezinme: yalnız âyet ve meal değişir, okunan tefsir sayfası yerinde kalır */
 function rdAyGoster(v){const a=st.ay[v-1];if(!a||!st.open)return;st.rdV=v;const t=st.open.n,bas=v!==t;
   $('#rdAy').innerHTML=`<div class="rd-an" dir="ltr"><button class="pill" data-av="-1" ${v<=1?'disabled':''}>‹ Önceki âyet</button><span>${st.s}:${v}</span><button class="pill" data-av="1" ${v>=st.ay.length?'disabled':''}>Sonraki âyet ›</button></div>${bas?`<button class="pill rd-git" dir="ltr">Okuduğun yer ${st.s}:${t} · bu âyetin tefsirine geç ›</button>`:''}${a.tj||esc(a.text)} <span class="num">${toAr(v)}</span><div class="rd-meal"></div>`;$('#rdAy').scrollTop=0;
