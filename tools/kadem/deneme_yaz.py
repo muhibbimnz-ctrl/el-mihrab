@@ -34,3 +34,4 @@ for q in out:
     if any(re.search(r'\b[A-E]\s*(şıkkı|seçeneği|\))',a) for a in q['ac']+[q['a']]):m.append(q['id']+' harf')
 json.dump(d,open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','data','kadem','deneme',f'mbsts-{n}.json'),'w',encoding='utf-8'),ensure_ascii=False,indent=1)
 print(f'mbsts-{n}:',len(out),'soru',dict(z),'; '.join(m) or '✓')
+sys.exit(1 if m else 0)
