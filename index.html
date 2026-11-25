@@ -237,6 +237,19 @@ a{color:var(--accent)}
 #vakit .pt .tm div b{display:inline;font-size:18px}
 #vakit .pt .tm div.on{color:var(--accent);font-weight:700}#vakit .pt .tm div.on b{color:var(--accent)}
 .vk-in .pt .tm div.on{background:none}
+.vk-hero{text-align:center;margin:4px 0 6px}.vk-yay{width:100%;max-width:340px;display:block;margin:0 auto -8px}
+.vk-sm{font-size:14px;color:var(--muted)}.vk-sm b{color:var(--ink);font-weight:700}
+.vk-say{font-family:var(--disp);font-weight:700;font-size:52px;line-height:1.05;color:var(--accent);font-variant-numeric:tabular-nums;letter-spacing:1px;margin:2px 0}
+.vk-al{font-size:15px;color:var(--ink2)}.vk-al b{color:var(--ink)}
+.vk-uy{margin:10px 0 4px;border-left:3px solid var(--gold);padding:6px 0 6px 12px;font-size:13.5px;line-height:1.5;color:var(--ink2)}
+.vk-l{margin-top:12px;border-top:1px solid var(--line)}
+.vk-r{display:flex;align-items:center;gap:14px;padding:12px 4px;border-bottom:1px solid var(--line)}
+.vk-r svg{width:24px;height:24px;flex:none;fill:none;stroke:var(--muted);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.vk-r .n{font-size:17px;color:var(--ink2)}.vk-r .d{flex:1;text-align:right;font-size:12.5px;color:var(--muted)}.vk-r b{font-size:20px;font-variant-numeric:tabular-nums;color:var(--ink);min-width:58px;text-align:right}
+.vk-r.gec{opacity:.5}.vk-r.sim{background:color-mix(in srgb,var(--accent) 9%,transparent);border-radius:12px;border-bottom-color:transparent}.vk-r.sim svg{stroke:var(--accent)}.vk-r.sim .n,.vk-r.sim b{color:var(--accent);font-weight:700}.vk-r.sim .d{color:var(--accent);font-weight:600}
+.vk-r.sir .d{color:var(--gold);font-weight:600}
+.vk-dg{display:flex;align-items:center;gap:10px;padding:10px 2px;border-bottom:1px solid var(--line)}.vk-dg span{flex:1}.vk-dg b{display:block;font-weight:600;font-size:15px}.vk-dg small{color:var(--muted);font-size:12.5px}.vk-dg i{font-style:normal;color:var(--accent);font-weight:700;font-size:14px;white-space:nowrap}
+#vakit .pt .loc{font-size:14px}
 .vk-hc{text-align:center;margin:18px 0 6px;color:var(--ink2)}.vk-hc .gar{display:block}
 .vk-ay{width:100%;border-collapse:collapse;font-size:13px;margin-top:14px;font-variant-numeric:tabular-nums}
 .vk-ay th{font-size:11px;color:var(--muted);font-weight:700;text-align:center;padding:6px 2px;border-bottom:1px solid var(--line2)}
@@ -323,6 +336,14 @@ a{color:var(--accent)}
 .mus .ow b{font-family:var(--qfont),'Amiri Quran',serif;font-weight:400;font-size:.62em;line-height:1.7}.mus .ow i{font-style:normal;font-family:system-ui,sans-serif;font-size:12.5px;line-height:1.3;color:var(--ink2);direction:ltr;text-align:center;max-width:120px}
 .mus .om b{color:var(--accent);margin-right:4px}.mus .pgno{text-align:center;font-size:.7em;color:var(--accent);margin-top:.6em;text-align-last:center}
 .mus{transition:transform .25s,opacity .25s;min-height:70vh}.mus.tl{transform:translateX(40px);opacity:.3}.mus.tr{transform:translateX(-40px);opacity:.3}
+.okp{position:relative}.okp+.okp{margin-top:1.1em;padding-top:.9em;border-top:1px dashed var(--line2)}
+.okpb{display:flex;justify-content:space-between;direction:ltr;font-family:var(--ui,system-ui),sans-serif;font-size:12px;letter-spacing:.4px;color:var(--muted);text-align-last:auto;margin:0 0 .5em;line-height:1.4}
+#okB:not(.qcf){line-height:2.75;word-spacing:.12em;padding:22px 20px;text-align:justify;text-align-last:right}
+#okB:not(.qcf) .num{margin:0 .3em}
+#okB .sbox{margin:.8em 0 .4em}
+.okon{display:block;margin:0 auto 14px;border:1px solid var(--line2);background:var(--card);color:var(--accent);border-radius:999px;padding:6px 14px;font:600 13px var(--ui,system-ui),sans-serif;direction:ltr}
+.okson{text-align:center;font-size:.8em;color:var(--accent);padding:.6em 0 1em;text-align-last:center}
+@media(max-width:520px){#okB:not(.qcf){padding:16px 14px;border-left:0;border-right:0;border-radius:0;margin:8px 0}}
 .ok-hint{text-align:center;font-size:12px;opacity:.55;margin:0 0 18px}
 
 .mus{max-width:900px;margin:16px auto;background:var(--paper);border:1px solid var(--line2);border-radius:6px;padding:26px 30px;font-family:var(--qfont),'Amiri Quran',serif;font-size:var(--qsize);line-height:2.35;direction:rtl;text-align:justify;text-align-last:center;position:relative}
@@ -505,6 +526,7 @@ a{color:var(--accent)}
   <div class="nm-in vk-in">
     <div id="pt" class="pt"></div>
     <div id="vkHicri" class="vk-hc"></div>
+    <div id="vkDg"></div>
     <div id="vkAy"></div>
     <p class="vk-not">Vakitler Diyanet hesabına göredir (imsak 18°, yatsı 17°, temkinli). İnternet yokken konumdan hesaplanır.</p>
   </div>
@@ -530,7 +552,7 @@ a{color:var(--accent)}
 <section class="scr hide" id="okuma">
   <div class="rd-h"><button class="ib" id="okX" title="Ana sayfa"></button><b id="okT"></b><span style="flex:1"></span><select class="okm" id="okM" title="Kelime meali"><option value="">Kelime meali: kapalı</option><option value="tr">Kelime meali: Türkçe</option><option value="en">Word meaning: English</option></select></div>
   <div class="ok-bar"><button class="okb" id="okNx" title="Sonraki sayfa">‹</button><select id="okS"></select><input id="okN2" type="number" min="1" max="604" inputmode="numeric"><button class="okb" id="okPv" title="Önceki sayfa">›</button></div>
-  <div class="ok-body"><div class="mus" id="okB" lang="ar"></div><div class="ok-hint">‹ Kaydırarak sayfa çevirin ›</div></div>
+  <div class="ok-body"><div class="mus" id="okB" lang="ar"></div><div class="ok-hint">Aşağı kaydırdıkça sayfalar devam eder</div></div>
 </section>
 
 <section class="scr hide" id="ezber">
@@ -850,7 +872,7 @@ const LS={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const toAr=n=>String(n).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);
 const normAr=s=>String(s||'').replace(/[ؐ-ًؚ-ٰٟۖ-ۭـ]/g,'').replace(/[ٱأإآ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').trim();
-const DEF={lang:LANG,reader:true,script:'uthmani',translit:false,theme:'parsomen',font:"'Amiri Quran'",qsize:34,msize:17,tsize:21,meals:[LANG==='tr'?'tr.yazir':LANG==='ar'?'ar.muyassar':'en.sahih'],reciter:'afasy',cont:true,book:{},tajweed:false,okBicim:'dirase',okHat:false};
+const DEF={lang:LANG,reader:true,script:'uthmani',translit:false,theme:'parsomen',font:"'Amiri Quran'",qsize:34,msize:17,tsize:21,meals:[LANG==='tr'?'tr.yazir':LANG==='ar'?'ar.muyassar':'en.sahih'],reciter:'afasy',cont:true,book:{},tajweed:false,okBicim:'dirase',okMedine:false};
 const set=Object.assign({},DEF,LS.get('beyan2.set',{}));set.book=set.book||{};
 /* Meâller arayüz diliyle aynı dilde olsun (Türkçe ile İngilizce karışmasın) */
 if(set.mealsLang!==LANG){const px=LANG==='tr'?'tr.':LANG==='en'?'en.':'ar.';let m=(set.meals||[]).filter(x=>String(x).startsWith(px)&&x!=='tr.transliteration');
@@ -1148,23 +1170,42 @@ let ptTimer;
 async function ptRender(){
   const el=$('#pt');const loc=LS.get('mihrab.loc',null);
   const locForm=`<div class="loc"><button class="pill" id="ptG">📍 ${trS('Konumumu kullan')}</button><span>${trS('veya')}</span><input id="ptC" placeholder="${trS('Şehir (ör. Konya)')}"><button class="pill" id="ptOk">${trS('Tamam')}</button></div>`;
-  const bind=()=>{const g=$('#ptG');if(g)g.onclick=()=>{if(!navigator.geolocation){toast(trS('Konum alınamadı'));return}g.textContent='…';navigator.geolocation.getCurrentPosition(p=>{LS.set('mihrab.loc',{k:'g'+p.coords.latitude.toFixed(2)+','+p.coords.longitude.toFixed(2),lat:+p.coords.latitude.toFixed(4),lng:+p.coords.longitude.toFixed(4),name:trS('Konumunuz')});ptRender()},()=>{toast(trS('Konum izni verilmedi; şehir yazın'));ptRender()},{timeout:15000})};
+  const bind=()=>{const g=$('#ptG');if(g)g.onclick=()=>{if(!navigator.geolocation){toast(trS('Konum alınamadı'));return}g.textContent='…';navigator.geolocation.getCurrentPosition(p=>{LS.set('mihrab.loc',{k:'g'+p.coords.latitude.toFixed(2)+','+p.coords.longitude.toFixed(2),lat:+p.coords.latitude.toFixed(4),lng:+p.coords.longitude.toFixed(4),name:trS('Konumunuz')});ptRender();yerAdi(p.coords.latitude,p.coords.longitude)},()=>{toast(trS('Konum izni verilmedi; şehir yazın'));ptRender()},{timeout:15000})};
     const ok=$('#ptOk');if(ok)ok.onclick=()=>{const v=$('#ptC').value.trim();if(!v)return;LS.set('mihrab.loc',{k:'c'+v,city:v,name:v});ptRender()};const ch=$('#ptCh');if(ch)ch.onclick=()=>{LS.set('mihrab.loc',null);LS.set('mihrab.pt2',{});ptRender()}};
   if(!loc){el.innerHTML=`<div class="note" style="margin-bottom:8px">${trS('Ezan vakitleri için konumunuzu seçin (Diyanet hesabı).')}</div>`+locForm;bind();return}
   el.innerHTML=loading();
   const r=await ptData();
   if(!r){el.innerHTML=`<div class="note">${trS('Vakitler alınamadı. İnternet bağlantınızı kontrol edin.')}</div>`+locForm;bind();return}
   const T=PN.map(p=>[p,String(r.t[p[0]]||'').slice(0,5)]);
-  const draw=()=>{const now=new Date(),mins=now.getHours()*60+now.getMinutes();
-    const tm=T.map(([p,v])=>{const[a,b]=v.split(':').map(Number);return a*60+b});
-    let ni=tm.findIndex(x=>x>mins);const tomorrow=ni<0;if(tomorrow)ni=0;
-    let left=(tomorrow?tm[0]+1440:tm[ni])-mins;const cur=tomorrow?5:(ni-1+6)%6;
+  const dk=v=>{const[a,b]=String(v).split(':').map(Number);return a*60+b};
+  const draw=()=>{const now=new Date(),mins=now.getHours()*60+now.getMinutes()+now.getSeconds()/60,tm=T.map(([p,v])=>dk(v));
+    let ni=tm.findIndex(x=>x>mins);const yarin=ni<0;if(yarin)ni=0;const cur=yarin||mins>=tm[5]?5:mins<tm[0]?5:ni-1;
+    let ram=false;try{ram=+new Intl.DateTimeFormat('en-u-ca-islamic-umalqura',{month:'numeric'}).format(now)===9}catch(e){}
+    const hedef=PN[ni][0],ad=ram&&hedef==='Maghrib'?'İftara':ram&&hedef==='Fajr'?'İmsağa (sahur sonu)':pnm(PN[ni])+' '+trS('vaktine');
+    /* gün yayı: güneşin doğuştan batışa konumu */
+    const gd=tm[1],gb=tm[4],gunduz=mins>=gd&&mins<=gb,t=gunduz?(mins-gd)/(gb-gd):0,A=Math.PI*(1-t),sx=150+122*Math.cos(A),sy=140-122*Math.sin(A);
+    const isaret=k=>{const q=(tm[k]-gd)/(gb-gd),a=Math.PI*(1-q);return `<circle cx="${150+122*Math.cos(a)}" cy="${140-122*Math.sin(a)}" r="3.5" fill="var(--paper)" stroke="var(--gold)" stroke-width="1.5"/>`};
+    let ker='';if(mins>=tm[1]&&mins<tm[1]+45)ker='Kerahat vakti: güneş doğduktan sonra yaklaşık 45 dakika namaz kılınmaz; kaza da kılınmaz.';
+    else if(mins>=tm[4]-45&&mins<tm[4])ker='Kerahat vakti: güneş batmadan önceki yaklaşık 45 dakikada yalnız o günün ikindisi kılınabilir.';
+    else if(mins>=tm[2]-6&&mins<tm[2])ker='Güneş tam tepede (zeval): öğle ezanına kadar namaz kılınmaz.';
+    const IK={Fajr:'<path d="M15.5 4.5A7.5 7.5 0 1 0 19.5 16 6 6 0 0 1 15.5 4.5z"/><path d="M19 3.5v3M17.5 5h3"/>',Sunrise:'<path d="M3 18h18M6.5 18a5.5 5.5 0 0 1 11 0M12 6.5V9M5.5 10.5l1.6 1.6M18.5 10.5l-1.6 1.6"/>',Dhuhr:'<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/>',Asr:'<circle cx="10" cy="13" r="4"/><path d="M10 4.5V6M3.5 13H5M15 13h1.5M5.4 8.4l1 1M14.6 8.4l-1 1M3 20h18"/>',Maghrib:'<path d="M3 18h18M7 18a5 5 0 0 1 10 0M12 4v6M9.5 7.5 12 10l2.5-2.5"/>',Isha:'<path d="M14.5 4A8 8 0 1 0 20 15.5 6.5 6.5 0 0 1 14.5 4z"/>'};
     el.innerHTML=`<div class="loc">📍 <b>${esc(loc.name||'')}</b><span style="flex:1"></span><a href="#" id="ptCh">${trS('değiştir')}</a></div>
-     <div class="nx"><span>${pnm(T[ni][0])} ${trS('vaktine')}</span><b>${Math.floor(left/60)}:${String(left%60).padStart(2,'0')}</b></div>
-     <div class="tm">${T.map(([p,v],i)=>`<div class="${i===cur&&!(mins<tm[0])?'on':''}">${pnm(p)}<b>${v}</b></div>`).join('')}</div>`;
-    $('#ptCh').onclick=e=>{e.preventDefault();LS.set('mihrab.loc',null);LS.set('mihrab.pt2',{});ptRender()}};
-  draw();clearInterval(ptTimer);ptTimer=setInterval(()=>{if(!$('#vakit').classList.contains('hide')&&$('#pt .nx'))draw();if(!$('#namaz').classList.contains('hide'))nmVakit()},30000);vkAy(r);
+     <div class="vk-hero"><svg viewBox="0 0 300 160" class="vk-yay"><path d="M28 140A122 122 0 0 1 272 140" fill="none" stroke="var(--line2)" stroke-width="2" stroke-dasharray="2 5" stroke-linecap="round"/>${gunduz?`<path d="M28 140A122 122 0 0 1 ${sx} ${sy}" fill="none" stroke="var(--gold)" stroke-width="3" stroke-linecap="round"/>`:''}${isaret(2)}${isaret(3)}<line x1="14" y1="140" x2="286" y2="140" stroke="var(--line2)"/>${gunduz?`<circle cx="${sx}" cy="${sy}" r="11" fill="var(--gold)"/><circle cx="${sx}" cy="${sy}" r="17" fill="var(--gold)" opacity=".18"/>`:`<path transform="translate(138 52) scale(1.1)" d="M14.5 4A8 8 0 1 0 20 15.5 6.5 6.5 0 0 1 14.5 4z" fill="var(--gold)"/>`}<text x="28" y="156" font-size="11" fill="var(--muted)" text-anchor="middle">☀ ${T[1][1]}</text><text x="272" y="156" font-size="11" fill="var(--muted)" text-anchor="middle">${T[4][1]} ☾</text></svg>
+      <div class="vk-sm">${trS('Şu an')} <b>${pnm(PN[cur])}</b> ${cur===1?'':trS('vakti')}</div>
+      <div class="vk-say" id="vkSay"></div><div class="vk-al">${ad} · <b>${T[ni][1]}</b></div></div>
+     ${ker?`<div class="vk-uy">${ker}</div>`:''}
+     <div class="vk-l">${T.map(([p,v],i)=>{const gec=!yarin&&tm[i]<=mins&&i!==cur,sim=i===cur,sir=i===ni;let k=Math.round(((yarin&&i===0?tm[0]+1440:tm[i])-mins));return `<div class="vk-r${gec?' gec':''}${sim?' sim':''}${sir?' sir':''}"><svg viewBox="0 0 24 24">${IK[p[0]]}</svg><span class="n">${pnm(p)}</span><span class="d">${sim?trS('şimdi'):sir?(k>=60?Math.floor(k/60)+' sa '+(k%60)+' dk':k+' dk')+' '+trS('sonra'):''}</span><b>${v}</b></div>`}).join('')}</div>`;
+    $('#ptCh').onclick=e=>{e.preventDefault();LS.set('mihrab.loc',null);LS.set('mihrab.pt2',{});ptRender()};
+    el.dataset.hedef=(yarin?tm[0]+1440:tm[ni]);sayac()};
+  const sayac=()=>{const s=$('#vkSay');if(!s)return;const now=new Date(),sn=now.getHours()*3600+now.getMinutes()*60+now.getSeconds(),k=Math.max(0,+el.dataset.hedef*60-sn);
+    s.textContent=[Math.floor(k/3600),Math.floor(k%3600/60),k%60].map(x=>String(x).padStart(2,'0')).join(':');if(k===0)setTimeout(draw,1500)};
+  draw();clearInterval(ptTimer);ptTimer=setInterval(()=>{if(!$('#vakit').classList.contains('hide')){sayac();if(new Date().getSeconds()===0)draw()}if(new Date().getSeconds()===0&&!$('#namaz').classList.contains('hide'))nmVakit()},1000);vkAy(r);dinGun();
 }
+async function yerAdi(la,lo){try{const j=await (await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&zoom=10&accept-language=tr&lat=${la}&lon=${lo}`)).json(),a=j.address||{},ad=[a.town||a.city_district||a.county||a.suburb,a.province||a.city||a.state].filter(Boolean).filter((x,i,A)=>A.indexOf(x)===i).join(', ');if(!ad)return;const l=LS.get('mihrab.loc',null);if(l&&l.lat!=null){l.name=ad;LS.set('mihrab.loc',l);if(!$('#vakit').classList.contains('hide'))ptRender();nmVakit()}}catch(e){}}
+async function dinGun(){const D=$('#vkDg');if(!D)return;let d=null;try{d=await (await fetch('data/dinigunler.json',{cache:'no-cache'})).json()}catch(e){}if(!d){D.innerHTML='';return}
+  const bg=bugunTR(),L=(d.gunler||[]).filter(g=>g[0]>=bg).slice(0,5);if(!L.length){D.innerHTML='';return}
+  D.innerHTML=`<div class="nmm-gb">Yaklaşan dinî günler</div>`+L.map(g=>{const n=Math.round((new Date(g[0]+'T12:00')-new Date(bg+'T12:00'))/864e5);return `<div class="vk-dg"><span><b>${esc(g[1])}</b><small>${esc(new Date(g[0]+'T12:00').toLocaleDateString('tr-TR',{day:'numeric',month:'long',year:'numeric',weekday:'long'}))}</small></span><i>${n===0?'Bugün':n===1?'Yarın':n+' gün'}</i></div>`}).join('')+`<p class="vk-not">Kaynak: Diyanet İşleri Başkanlığı dinî günler takvimi. Kandiller, belirtilen günün akşamı idrak edilir.</p>`}
+function bugunTR(){const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
 function vkAy(r){const A=$('#vkAy');if(!A)return;const d=new Date(),st2=LS.get('mihrab.pt2',{}),L=st2[`${r.loc.k}|${d.getFullYear()}-${d.getMonth()+1}`];
   try{const f=new Intl.DateTimeFormat('tr-u-ca-islamic-umalqura',{day:'numeric',month:'long',year:'numeric'}),fa=new Intl.DateTimeFormat('ar-u-ca-islamic-umalqura-nu-arab',{day:'numeric',month:'long',year:'numeric'});$('#vkHicri').innerHTML=`<div class="gs">${esc(d.toLocaleDateString('tr',{weekday:'long',day:'numeric',month:'long',year:'numeric'}))}</div><div class="gv">${esc(f.format(d).replace(/ AH| BH/,'').replace(/^0/,''))}</div><span class="gar">${esc(fa.format(d))}</span>`}catch(e){}
   if(!Array.isArray(L)){A.innerHTML='';return}const ay=d.toLocaleDateString('tr',{month:'long'});
@@ -1213,13 +1254,11 @@ async function openOkuma(s){hideScr();scrSet('okuma');$('#okuma').classList.remo
   const p=s?pageOf(s,1):LS.get('mihrab.okP',1);
   if(!$('#okS').options.length)$('#okS').innerHTML=SN().map((n,i)=>`<option value="${i+1}">${i+1}. ${esc(n)}</option>`).join('');
   okPage(p)}
-async function okPage(p){p=Math.min(604,Math.max(1,p));okP=p;LS.set('mihrab.okP',p);
-  const [s1,a1]=PG[p-1],[s2,a2]=p<604?PG[p]:[115,1];const B=$('#okB');B.innerHTML=loading();
-  $('#okN2').value=p;$('#okS').value=s1;$('#okT').textContent=`${trS('Sayfa')} ${p} · ${trS('Cüz')} ${Math.min(30,p<22?1:Math.floor((p-2)/20)+1)}`;
-  const ed=set.script==='simple'||st.fontFail?'quran-simple':'quran-uthmani',ml=set.okMeal===true?'tr':(set.okMeal||'');let h='',W={};
+/* Mushaf: sayfalar alt alta eklenir, aşağı kaydırdıkça sonraki sayfa yüklenir (sürekli okuma) */
+const okCuz=p=>Math.min(30,p<22?1:Math.floor((p-2)/20)+1);
+async function okSayfa(p){const [s1,a1]=PG[p-1],[s2,a2]=p<604?PG[p]:[115,1];const ed=set.script==='simple'||st.fontFail?'quran-simple':'quran-uthmani',ml=set.okMeal===true?'tr':(set.okMeal||'');let h='',W={};
   if(ml){try{const r=await getJSON(`https://api.qurancdn.com/api/qdc/verses/by_page/${p}?words=true&word_translation_language=${ml}&word_fields=text_uthmani&per_page=60`,12000);r.verses.forEach(v=>W[v.verse_key]=v.words.filter(w=>w.char_type_name==='word').map(w=>(w.translation&&w.translation.language_name!==(ml==='en'?'english':'turkish')?{...w,translation:{text:''}}:w)))}catch(e){}}
-  if(navigator.onLine!==false&&!set.okHat){try{const r=await qcfPage(p,ml);if(r&&okP===p){B.classList.toggle('ml',!!ml);B.classList.add('qcf');B.innerHTML=r+`<div class="pgno">${toAr(p)}</div>`;qcfFit();$('.ok-body').scrollTop=0;return}}catch(e){}}
-  B.classList.remove('qcf');
+  if(navigator.onLine!==false&&set.okMedine){try{const r=await qcfPage(p,ml);if(r)return{h:r,qcf:1,ml}}catch(e){}}
   try{for(let s=s1;s<=Math.min(s2,114);s++){
       const ay=await okSurah(s,ed),me=ml?await okSurah(s,ml==='en'?'en.sahih':'tr.yazir').catch(()=>[]):[];
       const from=s===s1?a1:1,to=s===s2?a2-1:ay.length;if(to<from)continue;
@@ -1230,12 +1269,26 @@ async function okPage(p){p=Math.min(604,Math.max(1,p));okP=p;LS.set('mihrab.okP'
         if(w&&w.length&&ok>=w.length*0.6)h+=`<span class="oa ww" data-s="${s}" data-n="${n}">${w.map(x=>`<span class="wd"><b>${esc(x.text_uthmani)}</b><i>${x.translation&&x.translation.language_name===WL?esc(x.translation.text||''):'&nbsp;'}</i></span>`).join('')}</span><span class="num">${toAr(n)}</span> `;
         else{h+=`<span class="oa" data-s="${s}" data-n="${n}">${esc(stripBasmala(s,n,a.t))}</span> <span class="num">${toAr(n)}</span> `;
           if(ml&&me[n-1])h+=`<div class="om" dir="ltr"><b>${s}:${n}</b> ${esc(me[n-1].t)}</div>`}}}
-  }catch(e){B.innerHTML=`<div class="note" style="direction:ltr">${MSG.loadErr[LANG]}<br><br>${MSG.offHint[LANG]}</div>`;return}
-  B.classList.toggle('ml',!!ml);B.innerHTML=h+`<div class="pgno">${toAr(p)}</div>`;$('.ok-body').scrollTop=0;
-}
-(function(){let x0=null,y0=0;const b=()=>$('.ok-body');document.addEventListener('touchstart',e=>{if(!$('#okuma').classList.contains('hide')){x0=e.touches[0].clientX;y0=e.touches[0].clientY}},{passive:true});
-  document.addEventListener('touchend',e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0,dy=e.changedTouches[0].clientY-y0;x0=null;
-    if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)*1.5){const B=$('#okB');B.classList.add(dx>0?'tl':'tr');setTimeout(()=>B.classList.remove('tl','tr'),250);okPage(okP+(dx>0?1:-1))}},{passive:true});
+  }catch(e){return{h:`<div class="note" style="direction:ltr">${MSG.loadErr[LANG]}<br><br>${MSG.offHint[LANG]}</div>`,hata:1}}
+  return{h,ml}}
+let okIlk=1,okSon=0,okYuk=0,okNesil=0;
+function okBaslik(p){$('#okN2').value=p;$('#okS').value=PG[p-1][0];$('#okT').textContent=`${trS('Sayfa')} ${p} · ${trS('Cüz')} ${okCuz(p)}`}
+async function okSayfaKur(p,once){const B=$('#okB'),n=okNesil,d=document.createElement('section');d.className='okp';d.dataset.p=p;d.innerHTML=loading();
+  if(once)B.insertBefore(d,B.querySelector('.okp'));else B.insertBefore(d,$('#okSon'));
+  const r=await okSayfa(p);if(n!==okNesil)return;if(r.hata){d.innerHTML=r.h+'<p style="text-align:center"><button class="okon" onclick="okPage('+p+')">'+trS('Tekrar dene')+'</button></p>';return 'hata'}B.classList.toggle('ml',!!r.ml);B.classList.toggle('qcf',!!r.qcf);
+  d.innerHTML=`<div class="okpb"><span>${trS('Sayfa')} ${p}</span><span>${esc(SN()[PG[p-1][0]-1])}</span><span>${trS('Cüz')} ${okCuz(p)}</span></div>`+r.h;if(r.qcf)qcfFit()}
+let okHata=0;
+async function okEkle(){if(okYuk||okSon>=604||okHata)return;okYuk=1;const n=okNesil,p=okSon+1;try{if(await okSayfaKur(p)==='hata')okHata=1}finally{if(n===okNesil){okSon=p;okYuk=0;$('#okSon').textContent=okSon>=604?'صَدَقَ ٱللَّهُ ٱلْعَظِيمُ':''}}}
+async function okOnceki(){if(okYuk||okIlk<=1)return;okYuk=1;const K=$('.ok-body'),h0=K.scrollHeight,p=okIlk-1;try{await okSayfaKur(p,1)}finally{okIlk=p;okYuk=0;K.scrollTop+=K.scrollHeight-h0;$('#okOn').classList.toggle('hide',okIlk<=1)}}
+async function okPage(p){p=Math.min(604,Math.max(1,p||1));okP=p;LS.set('mihrab.okP',p);okNesil++;okYuk=0;okHata=0;okIlk=p;okSon=p-1;okBaslik(p);
+  const B=$('#okB');B.innerHTML=`<button class="okon${p<=1?' hide':''}" id="okOn">▲ ${trS('Önceki sayfa')}</button><div class="okson" id="okSon"></div>`;$('#okOn').onclick=okOnceki;
+  $('.ok-body').scrollTop=0;await okDoldur()}
+async function okDoldur(){const K=$('.ok-body'),n=okNesil;for(let i=0;i<8&&n===okNesil&&okSon<604&&K.scrollTop+K.clientHeight>K.scrollHeight-1600;i++)await okEkle()}
+(function(){let t=0;const K=$('.ok-body');if(!K)return;K.addEventListener('scroll',()=>{if(t)return;t=setTimeout(()=>{t=0;
+    if(K.scrollTop+K.clientHeight>K.scrollHeight-1600)okDoldur();
+    const top=K.getBoundingClientRect().top+90;let cur=null;$$('#okB .okp').forEach(x=>{if(x.getBoundingClientRect().top<=top)cur=x});
+    if(cur){const p=+cur.dataset.p;if(p!==okP){okP=p;LS.set('mihrab.okP',p);okBaslik(p)}}},120)},{passive:true});
+  addEventListener('resize',()=>{if(!$('#okuma').classList.contains('hide'))qcfFit()});
   document.addEventListener('keydown',e=>{if($('#okuma').classList.contains('hide'))return;if(e.key==='ArrowLeft')okPage(okP+1);if(e.key==='ArrowRight')okPage(okP-1)})})();
 /* --- Ezber --- */
 const ez={on:false,n:1,c:0,au:new Audio(),ay:[],s:0};
@@ -1459,8 +1512,8 @@ function settings(){
     <p class="note">Arapça yazı telefonunuzda düzgün görünmüyorsa <b>Kolay okunur</b> yazımı ya da <b>Noto Naskh</b> hattını seçin.</p></section>
    <section><h4>Namaz ve Kur'an bölümünde Kur'an</h4>
     <div class="seg"><button data-ob="dirase" class="${set.okBicim!=='mushaf'?'on':''}">Dirâset ile aynı (sûre sûre)</button><button data-ob="mushaf" class="${set.okBicim==='mushaf'?'on':''}">Mushaf sayfası</button></div>
-    <label class="ck"><input type="checkbox" id="ohC" ${set.okHat?'checked':''}> Mushaf sayfasında da yukarıda seçtiğim hattı ve yazı boyutunu kullan</label>
-    <p class="note"><b>Dirâset ile aynı</b> seçiliyken hat, yazı boyutu, tecvid renkleri, okunuş ve meâl ayarları Namaz ve Kur'an bölümündeki Kur'an'a da uygulanır. Alttaki kutu işaretli değilse mushaf sayfası Medine baskısının birebir hattıyla açılır.</p></section>
+    <label class="ck"><input type="checkbox" id="ohC" ${set.okMedine?'checked':''}> Mushafta Medine baskısının birebir sayfa hattını kullan (satırlar sık olur)</label>
+    <p class="note"><b>Dirâset ile aynı</b> seçiliyken hat, yazı boyutu, tecvid renkleri, okunuş ve meâl ayarları Namaz ve Kur'an bölümündeki Kur'an'a da uygulanır. Mushaf da bu hat ve boyutla, ferah satırlarla ve aşağı doğru kesintisiz akar.</p></section>
    <section><h4>Meâller</h4><label class="ck"><input type="checkbox" id="smC" ${set.showMeal?'checked':''}> <b>Seçili meâli âyetin altında hep göster</b></label><p class="note">Kapalıyken meal, diğer kutular gibi <b>Meâller</b> düğmesine basınca açılır. Sıralama ve vurgulama için seçin:</p>${MEALS.map(m=>`<label class="ck"><input type="checkbox" data-m="${m[0]}" ${set.meals.includes(m[0])?'checked':''}> ${m[1]}</label>`).join('')}</section>
    <section style="grid-column:1/-1"><h4>İnternetsiz kullanım</h4><p class="note">Kur'an metnini ve meâlleri bir kez indirin; uygulama internetsiz de açılır. Okuduğunuz tefsirler de cihazda saklanır.</p><button class="pill" id="offB">İnternetsiz kullanım için indir</button> <span class="note" id="offI"></span></section>
    <section style="grid-column:1/-1"><h4>Okuma ve kaynaklar</h4>
@@ -1484,7 +1537,7 @@ function settings(){
   $('#srcB').onclick=()=>openOv('ovK');$('#abtB').onclick=about;
   $('#cC').onchange=e=>{set.cont=e.target.checked;save()};
   $$('[data-ob]',B).forEach(x=>x.onclick=()=>{set.okBicim=x.dataset.ob;save();settings();const G=$('#gDevam');if(G&&!$('#namaz').classList.contains('hide'))gunluk()});
-  $('#ohC').onchange=e=>{set.okHat=e.target.checked;save();if(!$('#okuma').classList.contains('hide'))okPage(okP)};
+  $('#ohC').onchange=e=>{set.okMedine=e.target.checked;save();if(!$('#okuma').classList.contains('hide'))okPage(okP)};
 }
 function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;R.style.setProperty('--qfont',set.font);R.style.setProperty('--qsize',set.qsize+'px');R.style.setProperty('--msize',set.msize+'px');R.style.setProperty('--tsize',set.tsize+'px')}
 
