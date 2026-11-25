@@ -11,7 +11,8 @@ for a in adlar:
     d=json.load(open(f'{R}/{a}.json'));S=d['sorular'];A=d['anlatim'];m=[]
     n=len(json.dumps(A,ensure_ascii=False))
     say=lambda k:sum(1 for b in A if isinstance(b,dict) and k in b)
-    if n<9000:m.append(f'anlatım {n} karakter')
+    alt=7000 if d.get('ders') in ('Mezhepler Tarihi','Dinler Tarihi') else 9000  # az soru gelen derslerde daha kısa anlatım yeterli
+    if n<alt:m.append(f'anlatım {n} karakter')
     for k,en in (('merak',2),('sinav',2),('tablo',2),('akil',2),('b',3)):
         if say(k)<en:m.append(f'{k} {say(k)}<{en}')
     if len(d.get('ozet',[]))<10:m.append('özet az')
