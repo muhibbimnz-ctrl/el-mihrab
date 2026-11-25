@@ -224,6 +224,11 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 - Ana sayfa üst alanı son hâli: başlık “El-Mihrâb”, alt yazı yok, المِحْرَاب Reem Kufi hattıyla altın renkte (`ust.js?v=3`).
 - Ekran görüntüsü: yerel sunucu açmak engellendi; `/home/claude/shot.py` Playwright isteklerini doğrudan depodan karşılıyor (https://site.test, şifre ekranı için güvenli bağlam gerekli).
 
+### 12. oturum — 26 Kasım 2026
+- Kullanıcı şablonu beğendi, Kadem’de kalıyor.
+- **Donma önlemleri (kadem.html):** ana liste artık konu dosyalarını indirmiyor (`hafifOzet`: konu adları haritadan, ilerleme cihazdan); sınav sayfasında dosyalar `sirali(L,6,…)` ile en fazla 6’şar yükleniyor; `getir()` her isteğe 20 sn zaman aşımı koyuyor. Kullanıcıya donmanın hangi ekranda olduğu soruldu; cevap gelirse oraya bakılacak.
+- **Çocuk Köşesi Arapça ve İngilizce (5–12 yaş):** `cocuk-dil.js` + `data/cocuk/dil.json` (üretici `tools/cocuk/dil_veri.py`). İki dilde 16’şar ünite (harfler/alfabe, sayılar, renkler, hayvanlar, meyveler, aile · selamlaşma, vücut, okul, yiyecek, günler, doğa-hava, duygular · zamirler, fiiller, ilk cümleler). Yaş seçimi (5–7 / 8–10 / 11–12, `cocuk.dilSev`). Etkinlikler: kartlar (sesli, yavaş dinle), dinle-bul, eşleştir (hafıza), yazma (İngilizce eksik harf, Arapça doğru yazılış). %75 başarıda yıldız (`S.ok['dil.<ar|en>.<ünite>.<etkinlik>']`). Ses: telefonun metin okuma motoru (ar-SA / en-US); ses yoksa uyarı verir.
+
 ## Sıradaki iş (26 Kasım 2026 itibarıyla güncel)
 
 ### A. Kadem içerik
