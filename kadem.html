@@ -434,8 +434,15 @@ function coz(txt,k){var u=b64(txt.trim());return(k?Promise.resolve(k):anahtar())
  .then(function(b){return JSON.parse(new TextDecoder().decode(b))},function(x){if(x==='yok')throw x;throw'sifre'})}
 function acik(u){return/^data\/kadem\/[^\/]+\.json$/.test(u)||/^data\/kadem\/konu\/[^\/]+-1\.json$/.test(u)}
 function anahtarVar(){try{return!!localStorage.getItem(AK)}catch(x){return false}}
+/* Çok sayıda dosyayı aynı anda değil, en fazla n tanesi birlikte olacak şekilde yükler (telefonda donmayı önler). */
+function sirali(L,n,f){return new Promise(function(ok){var R=new Array(L.length),i=0,bitti=0;if(!L.length)return ok(R);
+ function bir(){if(i>=L.length)return;var j=i++;Promise.resolve().then(function(){return f(L[j])}).then(function(x){R[j]=x},function(){R[j]=null}).then(function(){bitti++;if(bitti===L.length)ok(R);else bir()})}
+ for(var k=0;k<Math.min(n,L.length);k++)bir()})}
+/* İstek 20 saniyede cevap vermezse vazgeçer; ağ takılınca sayfa sonsuza dek beklemez. */
+function getir(u){var c=window.AbortController?new AbortController():null,t=setTimeout(function(){try{c&&c.abort()}catch(x){}},20000);
+ return fetch(u,{cache:'no-cache',signal:c?c.signal:void 0}).then(function(r){clearTimeout(t);return r},function(x){clearTimeout(t);throw x})}
 function al(u){if(C[u])return Promise.resolve(C[u]);var sif=/^data\/kadem\//.test(u)&&!acik(u);
- return fetch(sif?u.replace(/\.json$/,'.enc'):u,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return sif?r.text().then(function(x){return coz(x)}):r.json()}).then(function(j){return C[u]=j})}
+ return getir(sif?u.replace(/\.json$/,'.enc'):u).then(function(r){if(!r.ok)throw 0;return sif?r.text().then(function(x){return coz(x)}):r.json()}).then(function(j){return C[u]=j})}
 function giris(ne){saatGizle();renk('#1d5c4a');
  if(!ne){$('#bas').textContent='Kadem';$('#geri').textContent='el-Mihrâb';$('#geri').onclick=function(){location.href='index.html'}}
  M.innerHTML='<form class="giris" id="gf"><div class="kilit-ikon">🔒</div><div class="ust-etiket">'+(ne?e(ne.ust||'Kadem'):'el-Mihrâb')+'</div><h1>'+(ne?e(ne.ad):'Kadem')+'</h1><p class="lead" style="margin:0 auto">'+(ne?'Her dersin ilk ünitesi herkese açık. Bu bölümü açmak için şifreyi gir; bir kez girmen yeterli, bu cihaz hatırlar.':'Bu bölüm şifreyle korunuyor. Şifreyi bir kez girmen yeterli; bu cihaz hatırlar.')+'</p>'+
@@ -476,14 +483,14 @@ function yuvarla(x){return Math.round(x*100)/100}
 function sinav(id){
  return al('data/kadem/'+id+'.json').catch(function(x){if(x==='sifre')throw x;return{konular:[]}}).then(function(V){
   if(V._hazir)return V;
-  var yukle=function(liste,klasor){return Promise.all((liste||[]).map(function(k){
+  var yukle=function(liste,klasor){return sirali((liste||[]),6,function(k){
    return k.ref?al('data/kadem/'+klasor+'/'+k.ref+'.json').catch(function(x){
     if(x==='sifre'){try{localStorage.removeItem(AK)}catch(y){}KEY=null}
     if(x!=='sifre'&&x!=='yok')return null;V._kilitli=1;
     if(klasor==='deneme')return{id:k.ref,ad:(k.ref.split('-').pop())+'. Deneme',_kilit:1,sorular:[]};
     var st={id:k.ref,ad:k.ref,ders:'',_kilit:1,sorular:[],ozet:[],kartlar:[],anlatim:[]};
     ((V.harita||{}).dersler||[]).forEach(function(d){d.uniteler.forEach(function(u){if(u.konu===k.ref){st.ad=u.ad;st.ders=d.ad}})});
-    return st}):Promise.resolve(k)}))};
+    return st}):Promise.resolve(k)})};
   return Promise.all([yukle(V.konular,'konu'),yukle(V.denemeler,'deneme')]).then(function(R){
    V.konular=R[0].filter(Boolean);V.denemeler=R[1].filter(Boolean);V.hepsi=[];V.havuz=[];
    V.konular.forEach(function(x){(x.sorular||[]).forEach(function(q,n){q._k=q.id||x.id+'.'+n;q._konu=x;V.hepsi.push(q);V.havuz.push(q)})});
@@ -505,15 +512,19 @@ function dersler(V){var L=[];if(V.harita)V.harita.dersler.forEach(function(d){L.
  (V.konular||[]).forEach(function(x){if(L.indexOf(x.ders)<0)L.push(x.ders)});return L}
 
 /* ——— Ana liste ——— */
+/* Ana liste için sınavın konularını indirmeden özet: konu adları haritadan, ilerleme cihazdaki kayıttan. */
+function hafifOzet(V){if(V._tam)return V;var ad={};((V.harita||{}).dersler||[]).forEach(function(d){d.uniteler.forEach(function(u){if(u.konu)ad[u.konu]=u.ad})});
+ var K=(V.konular||[]).map(function(k){var id=k.ref||k.id;return{id:id,ad:k.ref?(ad[id]||id):k.ad}});
+ return{konular:K,bugun:function(S){var d=defter(S),n=Date.now();return Object.keys(d).filter(function(k){return d[k].t<=n}).length}}}
 function liste(){
  renk('#1d5c4a');saatGizle();$('#bas').textContent='Kadem';document.title='Kadem · el-Mihrâb';$('#geri').textContent='el-Mihrâb';$('#geri').onclick=function(){location.href='index.html'};
  al('data/kadem/sinavlar.json').then(function(L){
   var ANA=L.sinavlar.filter(function(s){return ANA_ID.indexOf(s.id)>=0}).sort(function(a,b){return ANA_ID.indexOf(a.id)-ANA_ID.indexOf(b.id)}),
    DIG=L.sinavlar.filter(function(s){return ANA_ID.indexOf(s.id)<0});
-  return Promise.all(ANA.map(function(s){return sinav(s.id)})).then(function(V){
+  return Promise.all(ANA.map(function(s){return al('data/kadem/'+s.id+'.json').catch(function(){return{konular:[]}}).then(hafifOzet)})).then(function(V){
    var o=oku(),h='<div class="ust-etiket">el-Mihrâb · Sınav hazırlığı</div><h1>Kadem</h1><p class="lead">Konu anlatımı, özet, kart, açıklamalı test ve gerçek biçimde deneme. Bir sınav seç, kaldığın yerden devam et.</p>'+
     (anahtarVar()?'':'<a class="kilit-serit" href="#giris=1"><span>🔒 Her dersin ilk ünitesi açık. Bütün konular ve tam denemeler için şifreni gir.</span><em>Giriş ›</em></a>');
-   ANA.forEach(function(s,i){var v=V[i],k=v.konular,biten=k.filter(function(x){return o['p.'+s.id+'.'+x.id]!=null}).length,b=bugunku(s,v).length,
+   ANA.forEach(function(s,i){var v=V[i],k=v.konular,biten=k.filter(function(x){return o['p.'+s.id+'.'+x.id]!=null}).length,b=v.bugun(s),
      son=o['son.'+s.id],sx=son&&k.filter(function(x){return x.id===son})[0],yz=k.length?Math.round(100*biten/k.length):0;
     h+='<a class="anakart" style="--r:'+e(s.renk)+'" href="#s='+e(s.id)+'"><span class="kod">'+e(s.bicim)+'</span><b>'+e(s.ad)+'</b><small>'+e(s.tam)+'</small>';
     if(k.length)h+='<div class="cubuk" style="margin-top:12px"><i style="width:'+yz+'%;background:var(--r)"></i></div>'+
