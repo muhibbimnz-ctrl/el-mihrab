@@ -1,0 +1,993 @@
+{
+ "id": "hitabet-1",
+ "ad": "Din Hizmetleri, Din Görevlisi ve Hitabet: Vaaz, Hutbe ve İrşad",
+ "ders": "Din Hizmetleri ve Hitabet",
+ "sinavlar": [
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "gys",
+  "yurtdisi",
+  "murakip"
+ ],
+ "oncelik": 2,
+ "anlatim": [
+  "DHBT-2’nin son sorusu çoğunlukla din hizmetleri ve hitabetten gelir: din görevlisinin nitelikleri, vaaz ile hutbe arasındaki farklar, Kur’an’ın davet ilkeleri ve Hz. Peygamber’in hitap yöntemleri. Aynı bilgiler aday din görevlisi sözlüsünün “hitabet” bölümünde ve kariyer basamakları sözlüsünde de sorulur.",
+  {
+   "b": "1. Din hizmetleri ve Diyanet İşleri Başkanlığı"
+  },
+  "Din hizmeti, toplumu din konusunda doğru bilgilendirmek, ibadetlerin yerine getirilmesine imkân hazırlamak ve insanların manevi ihtiyaçlarına cevap vermek için yürütülen hizmetlerin bütünüdür. Türkiye’de bu hizmetleri Anayasa’nın 136. maddesine göre genel idare içinde yer alan Diyanet İşleri Başkanlığı yürütür.",
+  {
+   "tablo": [
+    [
+     "Tarih",
+     "Olay"
+    ],
+    [
+     "3 Mart 1924",
+     "429 sayılı Kanun’la Şer’iyye ve Evkaf Vekâleti kaldırıldı, Diyanet İşleri Reisliği kuruldu. İlk reis Mehmet Rifat Börekçi"
+    ],
+    [
+     "1950",
+     "Kurumun adı Diyanet İşleri Başkanlığı oldu"
+    ],
+    [
+     "22 Haziran 1965",
+     "633 sayılı Diyanet İşleri Başkanlığı Kuruluş ve Görevleri Hakkında Kanun kabul edildi"
+    ],
+    [
+     "1982 Anayasası, md. 136",
+     "Başkanlığın laiklik ilkesi doğrultusunda, siyasi görüş ve düşüncelerin dışında kalarak, milletçe dayanışma ve bütünleşmeyi amaç edinerek görev yapacağı hükme bağlandı"
+    ]
+   ]
+  },
+  "633 sayılı Kanun’un 1. maddesine göre Başkanlığın görevi İslam dininin inançları, ibadet ve ahlak esasları ile ilgili işleri yürütmek, din konusunda toplumu aydınlatmak ve ibadet yerlerini yönetmektir. Kuruluşun ayrıntıları Mevzuat ünitesinde işlenmiştir.",
+  {
+   "tablo": [
+    [
+     "Hizmet alanı",
+     "Örnekler"
+    ],
+    [
+     "Cami hizmetleri",
+     "Beş vakit namaz, Cuma ve bayram namazları, ezan, vaaz, hutbe, mukabele, teravih"
+    ],
+    [
+     "Din eğitimi",
+     "Kur’an kursları, hafızlık, yaz Kur’an kursları, cami ve çevresinde sohbetler"
+    ],
+    [
+     "Rehberlik",
+     "Müftülüklerdeki aile ve dini rehberlik büroları; hastane, cezaevi, huzurevi ve gençlik merkezlerinde manevi danışmanlık"
+    ],
+    [
+     "Dini bilgilendirme",
+     "Din İşleri Yüksek Kurulu kararları ve fetvalar, yayınlar, Diyanet İletişim Merkezi (ALO 190)"
+    ],
+    [
+     "Hac ve umre",
+     "Hac ve umre organizasyonu, hac öncesi eğitim"
+    ],
+    [
+     "Yurt dışı",
+     "Müşavirlik, ataşelik ve yurt dışında görevlendirilen din görevlileri"
+    ]
+   ]
+  },
+  {
+   "merak": "Hz. Peygamber’in hutbeleri genellikle kısa olurdu. Câbir b. Semüre, onun namazının da hutbesinin de orta uzunlukta olduğunu söyler. Ammâr b. Yâsir’den gelen rivayette “Namazın uzun, hutbenin kısa olması kişinin fakihliğine alamettir” denir."
+  },
+  {
+   "b": "2. Din görevlisinin nitelikleri"
+  },
+  "Din görevlisi bildiğini yaşayan, cemaate örnek olan kişidir. Kur’an söz ile davranış arasındaki çelişkiyi şiddetle kınar: “Ey iman edenler! Yapmayacağınız şeyi niçin söylüyorsunuz? Yapmayacağınız şeyi söylemeniz Allah katında büyük öfkeye sebep olur.” (Saf 61/2-3).",
+  {
+   "tablo": [
+    [
+     "Nitelik",
+     "Açıklama"
+    ],
+    [
+     "İhlas",
+     "Hizmetini Allah rızası için yapmak; övgü ve menfaat beklememek"
+    ],
+    [
+     "İlim",
+     "Kur’an’ı doğru okumak, dinin temel bilgilerine ve kaynaklarına hâkim olmak; bilmediği konuda “bilmiyorum” diyebilmek"
+    ],
+    [
+     "Örnek davranış (temsil)",
+     "Söz ile hâlin uyumu; cemaat dinlediğinden çok gördüğünden etkilenir"
+    ],
+    [
+     "Muhatabı tanımak",
+     "Dinleyicinin yaşına, bilgisine ve ihtiyacına uygun konuşmak"
+    ],
+    [
+     "Güzel üslup",
+     "Yumuşak, kolaylaştırıcı, müjdeleyici dil; kırıcı ve nefret ettirici dilden kaçınmak"
+    ],
+    [
+     "Tarafsızlık",
+     "Siyasi, mezhebî ve grup tartışmalarının dışında, birleştirici olmak"
+    ]
+   ]
+  },
+  {
+   "hadis": "Kolaylaştırınız, zorlaştırmayınız; müjdeleyiniz, nefret ettirmeyiniz.",
+   "kay": "Buhârî, İlim, 11; Müslim, Cihâd, 6"
+  },
+  "Hz. Ali’nin sözü de muhatabı gözetmenin ölçüsü olarak anılır: “İnsanlara anlayabilecekleri şekilde konuşun. Allah ve Resûlü’nün yalanlanmasını ister misiniz?” (Buhârî, İlim, 49).",
+  {
+   "merak": "Abdullah b. Mes’ûd her perşembe vaaz ederdi; daha sık yapmasını isteyenlere Hz. Peygamber’in de bıkkınlık vermemek için öğüdü aralıklı yaptığını söylemiştir. Bu rivayet, vaazın sıklığı ve dozu konusunda temel ölçü kabul edilir."
+  },
+  {
+   "b": "3. Kur’an’da davet ve tebliğin ilkeleri"
+  },
+  {
+   "ayet": "Rabbinin yoluna hikmetle ve güzel öğütle çağır; onlarla en güzel şekilde tartış.",
+   "kay": "Nahl, 16/125"
+  },
+  {
+   "tablo": [
+    [
+     "İlke",
+     "Anlamı",
+     "Dayanak"
+    ],
+    [
+     "Hikmet",
+     "Sağlam bilgiye dayanan, yerinde ve zamanında söylenen, akla hitap eden söz",
+     "Nahl 16/125"
+    ],
+    [
+     "Mev’iza-i hasene",
+     "Gönle hitap eden, yumuşak ve içten öğüt",
+     "Nahl 16/125"
+    ],
+    [
+     "Mücadele bi’lletî hiye ahsen",
+     "Karşı görüşle en güzel biçimde, saygıyı koruyarak tartışmak",
+     "Nahl 16/125; Ankebût 29/46"
+    ],
+    [
+     "Yumuşak söz (kavl-i leyyin)",
+     "Firavun’a bile yumuşak söz söylenmesi emredilmiştir",
+     "Tâhâ 20/43-44"
+    ],
+    [
+     "Merhamet ve yumuşaklık",
+     "Kaba ve katı kalpli olsaydın etrafından dağılırlardı",
+     "Âl-i İmrân 3/159"
+    ],
+    [
+     "Dinde zorlama yoktur",
+     "Tebliğ eden yalnız bildirmekle sorumludur",
+     "Bakara 2/256; Gâşiye 88/21-22"
+    ],
+    [
+     "Açık ve anlaşılır söz (kavl-i belîğ, kavl-i sedîd)",
+     "Etkili, doğru ve yerinde söz",
+     "Nisâ 4/63; Ahzâb 33/70"
+    ]
+   ]
+  },
+  {
+   "sinav": "Hutbe – vaaz farkı sık sorulur: Cuma hutbesi namazın sıhhat şartıdır, vakitten önce ve Arapça okunması mezheplerde farklı değerlendirilir; vaaz ise herhangi bir zamanda ve dilde yapılabilen öğüttür. Bayram hutbesi namazdan sonra okunur ve sünnettir."
+  },
+  {
+   "b": "4. Hitabet"
+  },
+  "Hitabet, bir topluluğa bir konuyu anlatmak, onları ikna etmek ve harekete geçirmek amacıyla yapılan etkili konuşma sanatıdır. Aristoteles “Retorik” adlı eserinde hitabeti, her konuda ikna edici olanı görebilme yeteneği olarak tanımlar. Hitabetin dört unsuru hatip, konu (mesaj), dinleyici ve ortamdır.",
+  {
+   "tablo": [
+    [
+     "Aşama",
+     "Yapılacaklar"
+    ],
+    [
+     "Hazırlık",
+     "Konuyu dinleyiciye göre seçmek; ayet ve hadisleri sahih kaynağından, doğru mealiyle hazırlamak; zayıf ve uydurma rivayetlerden kaçınmak; plan çıkarmak"
+    ],
+    [
+     "Giriş",
+     "Dikkati toplamak: soru, kısa bir olay, ayet ya da hadisle konuya girmek; konuyu ve amacı belirtmek"
+    ],
+    [
+     "Gelişme",
+     "Ana fikri delillerle, örneklerle ve gerekirse tekrarla açmak; bir konuşmada az sayıda ana fikir işlemek"
+    ],
+    [
+     "Sonuç",
+     "Ana fikri toparlamak, uygulanabilir bir öneri ve dua ile bitirmek; süreyi aşmamak"
+    ],
+    [
+     "Sunuş",
+     "Açık diksiyon, yerinde vurgu ve tonlama, uygun hız; göz teması, ölçülü beden dili; metne bağımlı kalmamak"
+    ]
+   ]
+  },
+  {
+   "sinav": "Davet üslubu ayetleri: Nahl 125 (hikmet, güzel öğüt, en güzel şekilde mücadele), Tâhâ 44 (yumuşak söz), Âl-i İmrân 159 (yumuşak davranma ve istişare), Saf 2-3 (yapmadığınız şeyi söylemeyin). Ayet – ilke eşleştirmesi klasik soru tipidir."
+  },
+  {
+   "b": "5. Hz. Peygamber’in hitap yöntemleri"
+  },
+  {
+   "tablo": [
+    [
+     "Yöntem",
+     "Örnek"
+    ],
+    [
+     "Soru sorarak dikkat çekmek",
+     "“Müflis kimdir, biliyor musunuz?” (Müslim, Birr, 59)"
+    ],
+    [
+     "Önemli sözü üç kez tekrarlamak",
+     "Bir söz söylediğinde anlaşılsın diye üç kez tekrarlardı (Buhârî, İlim, 30)"
+    ],
+    [
+     "Örnek ve benzetme",
+     "Beş vakit namazı kapının önünden akan nehirde günde beş kez yıkanmaya benzetmesi (Buhârî, Mevâkît, 6)"
+    ],
+    [
+     "Az sözle çok anlam (cevâmiu’l-kelim)",
+     "Kısa, özlü ve akılda kalan ifadeler"
+    ],
+    [
+     "Usandırmamak",
+     "Sıkılmasınlar diye öğüdü günlere yayardı; İbn Mes’ûd da bu yüzden haftada bir vaaz ederdi (Buhârî, İlim, 11-12)"
+    ],
+    [
+     "Muhataba göre cevap",
+     "Aynı soruya (“En faziletli amel hangisidir?”) soran kişiye göre farklı cevaplar vermesi"
+    ],
+    [
+     "Görsel anlatım",
+     "Yere çizgiler çizerek doğru yolu ve sapmaları göstermesi (Ahmed b. Hanbel, Müsned, I, 435)"
+    ]
+   ]
+  },
+  {
+   "akil": "Hitabetin unsurları: hatip, konu (mesaj), dinleyici, ortam ve dil-üslup. Hazırlık: konunun seçimi, kaynak taraması, plan (giriş-gelişme-sonuç), dinleyicinin seviyesine uygunluk, zaman ayarı."
+  },
+  {
+   "b": "6. Vaaz, hutbe ve irşad"
+  },
+  {
+   "tablo": [
+    [
+     "",
+     "Vaaz",
+     "Hutbe"
+    ],
+    [
+     "Hükmü",
+     "Dinî bir hizmettir; belli bir ibadetin parçası değildir",
+     "Cuma hutbesi Cuma namazının şartıdır (farz); bayram hutbesi sünnettir"
+    ],
+    [
+     "Zamanı",
+     "Genellikle namazlardan önce ya da sonra, serbest",
+     "Cuma’da öğle vaktinde ve namazdan önce; bayramda namazdan sonra"
+    ],
+    [
+     "Süre ve biçim",
+     "Daha uzun ve serbest; soru-cevap, sohbet şeklinde olabilir",
+     "Kısa tutulması sünnettir; belli rükünleri vardır (hamd, şehadet, salavat, ayet, öğüt, dua)"
+    ],
+    [
+     "Dinleyici",
+     "Konuşma sırasında gelip gidebilir",
+     "Hutbe dinlemek vaciptir; konuşmak ve namaz kılmak mekruhtur"
+    ],
+    [
+     "Yer",
+     "Minber dışında, kürsüde",
+     "Minberde, ayakta; iki hutbe arasında kısa oturulur"
+    ]
+   ]
+  },
+  {
+   "hadis": "Kişinin namazını uzun, hutbesini kısa tutması, onun dinî anlayışının derinliğine işarettir.",
+   "kay": "Müslim, Cum’a, 47"
+  },
+  "Hanefî mezhebine göre hutbenin farz olan kısmı, Allah’ı anmak niyetiyle söylenen kısa bir zikirdir (Ebû Hanîfe’ye göre bir tahmid ya da tesbih yeter). Hutbenin ayakta, abdestli okunması, iki hutbe olması ve aralarında oturulması, kısa tutulması sünnettir. Hutbe okunurken cemaat sessizce dinler.",
+  "İrşad, insanlara doğru yolu göstermek ve onları iyiliğe yöneltmektir. Sohbet, konferans, aile ve gençlere yönelik rehberlik, hastane ve cezaevlerindeki manevi danışmanlık irşadın çağdaş biçimleridir. Manevi danışmanlıkta din görevlisi önce dinler, yargılamaz, sırrı korur ve kişinin ihtiyacına göre konuşur.",
+  {
+   "akil": "Hutbe: Cuma’da farzdan önce ve şart; bayramda namazdan sonra ve sünnet. Hutbenin farzı Hanefîlere göre Allah’ı anmaktır; sünnetleri: hamd, şehadet, salavat, takva tavsiyesi, ayet okuma, iki hutbe arasında oturma."
+  },
+  {
+   "b": "7. İmamlık ve cemaat"
+  },
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Hanefî mezhebine göre"
+    ],
+    [
+     "İmamlığa en lâyık olan",
+     "Önce namazla ilgili dinî hükümleri en iyi bilen (a’lem), sonra Kur’an’ı en güzel okuyan (akra’), sonra takvada önde olan, sonra yaşça büyük olan"
+    ],
+    [
+     "İmamın yükümlülüğü",
+     "Cemaatin durumunu gözetip namazı uzatmamak: “İçinizde hasta, yaşlı ve iş sahibi vardır” (Buhârî, Ezân, 62)"
+    ],
+    [
+     "Görevli imam",
+     "Camiye resmî olarak atanmış imam, imamete başkasından daha lâyıktır"
+    ]
+   ]
+  }
+ ],
+ "ozet": [
+  "Diyanet: 3 Mart 1924, 429 sayılı Kanun (Diyanet İşleri Reisliği); ilk reis Rifat Börekçi; 1950’de Başkanlık; 633 sayılı Kanun 22.06.1965; Anayasa md. 136.",
+  "633/1: inanç, ibadet ve ahlak esaslarıyla ilgili işleri yürütmek, toplumu aydınlatmak, ibadet yerlerini yönetmek.",
+  "Din görevlisi: ihlas, ilim, örnek olmak (Saf 61/2-3), muhatabı tanımak, güzel üslup, tarafsızlık.",
+  "Nahl 16/125: hikmet, mev’iza-i hasene, en güzel şekilde mücadele. Tâhâ 20/44 yumuşak söz; Âl-i İmrân 3/159 merhamet.",
+  "“Kolaylaştırın, zorlaştırmayın; müjdeleyin, nefret ettirmeyin” (Buhârî, İlim, 11).",
+  "Hz. Peygamber: soru, üç kez tekrar, örnek-benzetme, cevâmiu’l-kelim, usandırmamak, muhataba göre cevap, çizerek anlatım.",
+  "Hitabet unsurları: hatip, konu, dinleyici, ortam. Plan: giriş, gelişme, sonuç.",
+  "Cuma hutbesi: namazın şartı, namazdan önce; bayram hutbesi sünnet, namazdan sonra. Hutbe kısa, namaz uzun (Müslim, Cum’a, 47).",
+  "İmamete lâyık: a’lem, akra’, evra’, esenn; görevli imam önceliklidir.",
+  "Hutbe kısa, namaz uzun tutulur (fakihlik alameti); İbn Mes’ûd vaazı haftada bir yapmıştır."
+ ],
+ "kartlar": [
+  {
+   "o": "Nahl 16/125’teki üç davet ilkesi",
+   "a": "Hikmet, güzel öğüt (mev’iza-i hasene), en güzel şekilde tartışma"
+  },
+  {
+   "o": "Kavl-i leyyin",
+   "a": "Yumuşak söz; Hz. Mûsâ ve Hârûn’a Firavun için emredildi (Tâhâ 20/44)"
+  },
+  {
+   "o": "Saf 61/2-3",
+   "a": "Yapmayacağınız şeyi niçin söylüyorsunuz? Söz-davranış uyumu"
+  },
+  {
+   "o": "Cuma hutbesinin hükmü",
+   "a": "Cuma namazının şartı (farz); namazdan önce okunur"
+  },
+  {
+   "o": "Bayram hutbesinin hükmü",
+   "a": "Sünnet; namazdan sonra okunur"
+  },
+  {
+   "o": "“Müflis kimdir biliyor musunuz?”",
+   "a": "Soru sorarak öğretme yöntemi (Müslim, Birr, 59)"
+  },
+  {
+   "o": "Cevâmiu’l-kelim",
+   "a": "Az sözle çok anlam ifade etme"
+  },
+  {
+   "o": "429 sayılı Kanun",
+   "a": "3 Mart 1924; Diyanet İşleri Reisliği kuruldu"
+  },
+  {
+   "o": "633 sayılı Kanun",
+   "a": "22 Haziran 1965; Diyanet’in kuruluş ve görevleri"
+  },
+  {
+   "o": "Anayasa md. 136",
+   "a": "Diyanet genel idare içinde, laiklik ilkesi doğrultusunda, siyasi görüşlerin dışında"
+  },
+  {
+   "o": "Hitabetin unsurları",
+   "a": "Hatip, konu (mesaj), dinleyici, ortam"
+  },
+  {
+   "o": "İmamete en lâyık (Hanefî)",
+   "a": "Namaz hükümlerini en iyi bilen; sonra Kur’an’ı en güzel okuyan"
+  },
+  {
+   "o": "Bayram hutbesinin hükmü ve zamanı",
+   "a": "Sünnettir; namazdan sonra okunur"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "hb-01",
+   "z": 1,
+   "s": "“Rabbinin yoluna hikmetle ve güzel öğütle çağır; onlarla en güzel şekilde tartış.” ayetinde aşağıdaki davet ilkelerinden hangisi yer almaz?",
+   "c": [
+    "Hikmet",
+    "Mev’iza-i hasene",
+    "En güzel şekilde mücadele",
+    "Zorlayarak kabul ettirme",
+    "Muhataba uygun konuşma"
+   ],
+   "d": 3,
+   "a": "Nahl 16/125 davetin üç temel ilkesini verir: hikmet, güzel öğüt ve en güzel şekilde mücadele.",
+   "ac": [
+    "Ayette açıkça geçer.",
+    "“Güzel öğüt” olarak geçer.",
+    "“En güzel şekilde tartış” ifadesidir.",
+    "Ayette yoktur; Kur’an dinde zorlamayı reddeder (Bakara 2/256).",
+    "Hikmet ilkesinin içindedir."
+   ],
+   "kay": "Nahl, 16/125"
+  },
+  {
+   "id": "hb-02",
+   "z": 2,
+   "s": "Hz. Mûsâ ile Hz. Hârûn’a Firavun’a gitmeleri emredilirken ona “yumuşak söz” söylemeleri istenmiştir.\nBu emir din hizmetinde öncelikle hangi ilkeyi öğretir?",
+   "c": [
+    "Tebliğin yalnız yöneticilere yapılacağını",
+    "Muhatap kim olursa olsun tebliğden vazgeçmeyi",
+    "Muhatap en katı biri olsa bile üslubun yumuşak olması gerektiğini",
+    "Tartışmadan kaçınmak gerektiğini",
+    "Tebliğin iki kişiyle yapılması gerektiğini"
+   ],
+   "d": 2,
+   "a": "Firavun gibi azgın bir muhataba bile yumuşak söz emredildiyse, din görevlisinin cemaatine karşı üslubu evleviyetle yumuşak olmalıdır.",
+   "ac": [
+    "Ayette böyle bir sınırlama yoktur.",
+    "Emir tebliği sürdürmeyi değil, üslubu öne çıkarır.",
+    "Kavl-i leyyin ilkesidir.",
+    "Ayet tartışmayı değil, sözün yumuşaklığını konu edinir.",
+    "Kıssadaki ayrıntıdan genel bir kural çıkmaz."
+   ],
+   "kay": "Tâhâ, 20/43-44"
+  },
+  {
+   "id": "hb-03",
+   "z": 2,
+   "s": "Din görevlisinin söylediğini önce kendisinin yaşaması gerektiğini en açık biçimde ifade eden ayet hangisidir?",
+   "c": [
+    "“Yapmayacağınız şeyi niçin söylüyorsunuz?”",
+    "“Dinde zorlama yoktur.”",
+    "“Sen ancak bir öğüt vericisin.”",
+    "“Oku, yaratan Rabbinin adıyla.”",
+    "“Kolaylaştırınız, zorlaştırmayınız.”"
+   ],
+   "d": 0,
+   "a": "Temsil (örnek olma) din görevlisinin en etkili tebliğ aracıdır.",
+   "ac": [
+    "Saf 61/2-3 söz ile davranış arasındaki çelişkiyi kınar.",
+    "Zorlama yasağıdır.",
+    "Tebliğ edenin görevini sınırlar.",
+    "İlk vahiydir.",
+    "Bu bir hadistir, ayet değildir."
+   ],
+   "kay": "Saf, 61/2-3"
+  },
+  {
+   "id": "hb-04",
+   "z": 2,
+   "s": "“Kolaylaştırınız, zorlaştırmayınız; müjdeleyiniz, nefret ettirmeyiniz.” hadisine göre aşağıdaki davranışlardan hangisi uygun değildir?",
+   "c": [
+    "Vaazlarda yalnız korkutucu anlatımlar seçip ümitsizlik aşılamak",
+    "Tövbe edenlere Allah’ın rahmetini hatırlatmak",
+    "Yeni Müslüman olana önce temel ibadetleri öğretmek",
+    "Cemaate dinin kolaylık yönlerini de anlatmak",
+    "Ruhsatları yerinde hatırlatmak"
+   ],
+   "d": 0,
+   "a": "Hadis, dinî tebliğde dengenin müjde ve kolaylıktan yana kurulmasını ister.",
+   "ac": [
+    "Nefret ettirme ve zorlaştırmadır.",
+    "Müjdelemedir.",
+    "Kolaylaştırmadır.",
+    "Hadise uygundur.",
+    "Kolaylaştırmadır."
+   ],
+   "kay": "Buhârî, İlim, 11"
+  },
+  {
+   "id": "hb-05",
+   "z": 3,
+   "s": "Vaaz ile Cuma hutbesi arasındaki farklarla ilgili hangisi yanlıştır?",
+   "c": [
+    "Cuma hutbesi Cuma namazının şartıdır; vaaz değildir.",
+    "Cuma hutbesi namazdan önce okunur.",
+    "Hutbenin kısa tutulması sünnettir.",
+    "Vaaz, belli bir ibadetin parçası değildir.",
+    "Cuma hutbesi okunurken cemaatin nafile namaz kılması sünnettir."
+   ],
+   "d": 4,
+   "a": "Hutbe ibadetin parçasıdır; dinlemek vaciptir.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur (Müslim, Cum’a, 47).",
+    "Doğrudur.",
+    "Hutbe sırasında namaz kılmak ve konuşmak mekruhtur; hutbe dinlenir."
+   ],
+   "kay": "Müslim, Cum’a, 47; Hanefî fıkıh kaynakları"
+  },
+  {
+   "id": "hb-06",
+   "z": 2,
+   "s": "Bayram hutbesiyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Vaciptir ve namazdan önce okunur.",
+    "Bayram namazının şartıdır ve namazdan önce okunur.",
+    "Sünnettir ve namazdan sonra okunur.",
+    "Farzdır ve iki rekâtın arasında okunur.",
+    "Yalnız Kurban Bayramı’nda okunur."
+   ],
+   "d": 2,
+   "a": "Cuma hutbesi şart ve önce; bayram hutbesi sünnet ve sonra.",
+   "ac": [
+    "Hükmü ve yeri yanlıştır.",
+    "Bu Cuma hutbesinin özelliğidir.",
+    "Bayram hutbesi sünnettir; namazdan sonradır.",
+    "Böyle bir uygulama yoktur.",
+    "Her iki bayramda da okunur."
+   ],
+   "kay": "Hanefî fıkıh kaynakları"
+  },
+  {
+   "id": "hb-07",
+   "z": 2,
+   "s": "Diyanet İşleri Reisliği hangi tarihte ve hangi kanunla kurulmuştur?",
+   "c": [
+    "29 Ekim 1923, 364 sayılı Kanun",
+    "3 Mart 1924, 429 sayılı Kanun",
+    "22 Haziran 1965, 633 sayılı Kanun",
+    "1950, 5634 sayılı Kanun",
+    "1982, Anayasa md. 136"
+   ],
+   "d": 1,
+   "a": "3 Mart 1924’te aynı gün Tevhîd-i Tedrîsât Kanunu ve hilafetin kaldırılmasına dair kanun da kabul edilmiştir.",
+   "ac": [
+    "Cumhuriyet’in ilanıyla ilgili tarihtir.",
+    "Şer’iyye ve Evkaf Vekâleti kaldırılarak Diyanet İşleri Reisliği kuruldu.",
+    "Bu kanun kuruluş ve görevleri yeniden düzenlemiştir; kuruluş tarihi değildir.",
+    "Kurumun adı Başkanlık olmuştur; kuruluş değildir.",
+    "Anayasal statüdür."
+   ],
+   "kay": "Diyanet tarihi"
+  },
+  {
+   "id": "hb-08",
+   "z": 2,
+   "s": "Anayasanın 136. maddesine göre Diyanet İşleri Başkanlığının görevini yaparken uyacağı ilkeler arasında hangisi yoktur?",
+   "c": [
+    "Genel idare içinde yer alması",
+    "Laiklik ilkesi doğrultusunda görev yapması",
+    "Milletçe dayanışma ve bütünleşmeyi amaç edinmesi",
+    "Yalnız Hanefî mezhebine göre hizmet vermesi",
+    "Bütün siyasi görüş ve düşüncelerin dışında kalması"
+   ],
+   "d": 3,
+   "a": "Anayasa md. 136 Başkanlığın statüsünü ve görev ilkelerini belirler.",
+   "ac": [
+    "Maddede vardır.",
+    "Maddede vardır.",
+    "Maddede vardır.",
+    "Anayasada mezhep belirtilmez.",
+    "Maddede vardır."
+   ],
+   "kay": "Anayasa, md. 136"
+  },
+  {
+   "id": "hb-09",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi hitabetin temel unsurlarından biri değildir?",
+   "c": [
+    "Hatip",
+    "Konu (mesaj)",
+    "Kürsü",
+    "Dinleyici",
+    "Ortam"
+   ],
+   "d": 2,
+   "a": "Hitabetin dört unsuru hatip, konu, dinleyici ve ortamdır.",
+   "ac": [
+    "Konuşmayı yapan kişidir.",
+    "Anlatılan içeriktir.",
+    "Kürsü bir araçtır; hitabetin unsuru değildir.",
+    "Hitabın muhatabıdır.",
+    "Konuşmanın yapıldığı yer, zaman ve şartlardır."
+   ],
+   "kay": "Aristoteles, Retorik"
+  },
+  {
+   "id": "hb-10",
+   "z": 2,
+   "s": "Hz. Peygamber’in “Müflis kimdir, biliyor musunuz?” diye başlayan hadisinde kullandığı öğretim yöntemi hangisidir?",
+   "c": [
+    "Tekrar",
+    "Kıssa anlatma",
+    "Çizim",
+    "Soru sorarak dikkat çekme",
+    "Benzetme"
+   ],
+   "d": 3,
+   "a": "Soru, dinleyicinin zihnini hazırlar ve verilecek cevabı daha kalıcı kılar.",
+   "ac": [
+    "Hadiste tekrar yoktur.",
+    "Bir geçmiş olayı anlatmamaktadır.",
+    "Çizimle anlatım başka bir rivayettedir.",
+    "Konuya soru ile girmiştir.",
+    "Hadisin girişi soru şeklindedir."
+   ],
+   "kay": "Müslim, Birr, 59"
+  },
+  {
+   "id": "hb-11",
+   "z": 2,
+   "s": "Abdullah b. Mes’ûd’un cemaate her gün değil haftada bir vaaz etmesi ve bunu Hz. Peygamber’in uygulamasına dayandırması din hizmetinde hangi ilkeyle ilgilidir?",
+   "c": [
+    "Vaazın yalnız Perşembe günleri yapılması gerektiği",
+    "Vaazın yalnız sahabeye yapılabileceği",
+    "Vaaz yerine yazılı tebliğin tercih edilmesi",
+    "Vaazın uzun olması gerektiği",
+    "Dinleyiciyi usandırmamak ve öğüdü zamana yaymak"
+   ],
+   "d": 4,
+   "a": "Etkili öğüt, dinleyicinin ilgisini ve isteğini koruyacak ölçüde ve aralıklarla verilir.",
+   "ac": [
+    "Gün bir uygulamadır, bağlayıcı kural değildir.",
+    "Böyle bir anlam yoktur.",
+    "Rivayette yazıdan söz edilmez.",
+    "Tam tersi bir anlam taşır.",
+    "Hz. Peygamber de onları usandırmamak için öğüdü aralıklı yapardı."
+   ],
+   "kay": "Buhârî, İlim, 11-12"
+  },
+  {
+   "id": "hb-12",
+   "z": 2,
+   "s": "“İnsanlara anlayabilecekleri şekilde konuşun. Allah ve Resûlü’nün yalanlanmasını ister misiniz?” sözü kime aittir ve hangi ilkeyi ifade eder?",
+   "c": [
+    "Hz. Ali – muhatabın anlayış seviyesini gözetmek",
+    "Hz. Ömer – ihlas",
+    "Hz. Peygamber – kısa konuşmak",
+    "Abdullah b. Mes’ûd – usandırmamak",
+    "Hz. Âişe – tekrar etmek"
+   ],
+   "d": 0,
+   "a": "Muhatabın anlayamayacağı bilgiler, onun dinî gerçekleri inkârına yol açabilir.",
+   "ac": [
+    "Buhârî, İlim, 49’da Hz. Ali’nin sözü olarak geçer.",
+    "Söz Hz. Ali’ye aittir.",
+    "Merfû hadis olarak değil, Hz. Ali’nin sözü olarak gelmiştir.",
+    "İbn Mes’ûd’un sözü başkadır.",
+    "Bu söz Hz. Âişe’ye ait değildir."
+   ],
+   "kay": "Buhârî, İlim, 49"
+  },
+  {
+   "id": "hb-13",
+   "z": 1,
+   "s": "“Allah’ın rahmeti sayesinde onlara yumuşak davrandın. Eğer kaba ve katı kalpli olsaydın, etrafından dağılıp giderlerdi…” ayeti din görevlisi için öncelikle hangi niteliğin önemini vurgular?",
+   "c": [
+    "İlim",
+    "Merhamet ve yumuşak huyluluk",
+    "Hitabet tekniği",
+    "Kıraat",
+    "Cesaret"
+   ],
+   "d": 1,
+   "a": "Kabalık insanları dinden uzaklaştırır; yumuşaklık onları bir arada tutar.",
+   "ac": [
+    "Ayetin vurgusu bilgi değildir.",
+    "Ayetin konusu yumuşaklıktır.",
+    "Ayet bir teknikten değil, tavırdan söz eder.",
+    "İlgisi yoktur.",
+    "Ayette cesaret vurgulanmaz."
+   ],
+   "kay": "Âl-i İmrân, 3/159"
+  },
+  {
+   "id": "hb-14",
+   "z": 2,
+   "s": "Hanefî mezhebine göre, aralarında görevli imam bulunmayan bir toplulukta imamete en lâyık olan kişi kimdir?",
+   "c": [
+    "Namazla ilgili dinî hükümleri en iyi bilen",
+    "Yaşça en büyük olan",
+    "Soyca en şerefli olan",
+    "Kur’an’ı en güzel okuyan",
+    "Cemaatin en zengini"
+   ],
+   "d": 0,
+   "a": "Namazda karşılaşılabilecek bir duruma çözüm bulmak fıkıh bilgisine bağlı olduğu için Hanefîler a’lemi öne alır.",
+   "ac": [
+    "Hanefîlere göre önce a’lem gelir.",
+    "Daha sonraki sıradadır.",
+    "Sıralamanın sonlarındadır.",
+    "Hanefîlerde ikinci sıradadır.",
+    "Böyle bir ölçü yoktur."
+   ],
+   "kay": "Hanefî fıkıh kaynakları"
+  },
+  {
+   "id": "hb-15",
+   "z": 2,
+   "s": "“Sizden biriniz insanlara namaz kıldırdığında hafif tutsun; çünkü içlerinde zayıf, hasta ve yaşlı vardır.” hadisi din görevlisine aşağıdakilerden hangisini öğütler?",
+   "c": [
+    "Cemaatin sayısına bakmadan uzun kıraat etmeyi",
+    "Namazı cemaatin durumunu gözeterek kıldırmayı",
+    "Farzları kısaltıp sünnetleri uzatmayı",
+    "Yaşlıların cemaate gelmemesini",
+    "Namazı yalnız kıldırmayı"
+   ],
+   "d": 1,
+   "a": "Tek başına kılarken dilediği kadar uzatabilir; imam ise cemaatin hâlini gözetir.",
+   "ac": [
+    "Hadis bunun tersini söyler.",
+    "Hadisin özü budur.",
+    "Böyle bir ayrım yoktur.",
+    "Hadis onları gözetmeyi ister.",
+    "Hadis cemaatle namazla ilgilidir."
+   ],
+   "kay": "Buhârî, Ezân, 62"
+  },
+  {
+   "id": "hb-16",
+   "z": 3,
+   "s": "Bir vaazın hazırlık aşamasında aşağıdakilerden hangisi yapılmamalıdır?",
+   "c": [
+    "Konuyu dinleyici kitlesinin ihtiyacına göre seçmek",
+    "Ayetlerin mealini güvenilir bir mealden kontrol etmek",
+    "Etkileyici olduğu için kaynağı belirsiz rivayetleri hadis diye aktarmak",
+    "Süreyi önceden belirlemek",
+    "Konuşmayı giriş, gelişme ve sonuç olarak planlamak"
+   ],
+   "d": 2,
+   "a": "“Kim bilerek bana yalan isnat ederse cehennemdeki yerine hazırlansın” (Buhârî, İlim, 38) hadisi bu konuda kesin uyarıdır.",
+   "ac": [
+    "Yapılmalıdır.",
+    "Yapılmalıdır.",
+    "Kaynağı belirsiz rivayeti hadis diye aktarmak uydurma hadis yayma tehlikesi taşır.",
+    "Yapılmalıdır.",
+    "Yapılmalıdır."
+   ],
+   "kay": "Hitabet kaynakları"
+  },
+  {
+   "id": "hb-17",
+   "z": 3,
+   "s": "633 sayılı Kanun’un 1. maddesinde Diyanet İşleri Başkanlığının görevleri arasında sayılmayan hangisidir?",
+   "c": [
+    "İslam dininin inançları ile ilgili işleri yürütmek",
+    "İbadet ve ahlak esasları ile ilgili işleri yürütmek",
+    "Din konusunda toplumu aydınlatmak",
+    "İbadet yerlerini yönetmek",
+    "Vakıf mallarını yönetmek"
+   ],
+   "d": 4,
+   "a": "1924’te Şer’iyye ve Evkaf Vekâleti kaldırılırken vakıf işleri ayrı bir kuruma verilmiş, Diyanet’e din hizmetleri bırakılmıştır.",
+   "ac": [
+    "Maddede vardır.",
+    "Maddede vardır.",
+    "Maddede vardır.",
+    "Maddede vardır.",
+    "Vakıflar Vakıflar Genel Müdürlüğünün görevidir."
+   ],
+   "kay": "633 sayılı Kanun, md. 1"
+  },
+  {
+   "id": "hb-18",
+   "z": 3,
+   "s": "Hastanede manevi danışmanlık yapan bir din görevlisinin tutumlarından hangisi yanlıştır?",
+   "c": [
+    "Hastanın isteği doğrultusunda dua etmek",
+    "Hastanın mahremiyetini ve sırrını korumak",
+    "Önce hastayı dinlemek ve ihtiyacını anlamaya çalışmak",
+    "Hastalığı hastanın günahlarına bağlayarak onu tövbeye zorlamak",
+    "Sağlık personelinin kurallarına uymak"
+   ],
+   "d": 3,
+   "a": "Manevi danışman yargılamaz, dinler, teselli eder ve umut verir.",
+   "ac": [
+    "Doğru tutumdur.",
+    "Doğru tutumdur.",
+    "Doğru tutumdur.",
+    "Yargılayıcı ve suçlayıcı tutum manevi danışmanlığa aykırıdır.",
+    "Doğru tutumdur."
+   ],
+   "kay": "Hitabet ve manevi danışmanlık kaynakları"
+  },
+  {
+   "id": "hb-19",
+   "z": 3,
+   "s": "I. Nahl 125 – hikmet ve güzel öğütle davet\nII. Tâhâ 44 – yumuşak söz\nIII. Saf 2-3 – söylenip yapılmayan söz\nIV. Âl-i İmrân 159 – yumuşak davranma ve istişare\nYukarıdaki ayet – ilke eşleştirmelerinden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II, III ve IV",
+    "I ve IV",
+    "I, II, III ve IV"
+   ],
+   "ac": [
+    "Üçüncü ve dördüncü eşleştirme de doğrudur.",
+    "Dördüncü eşleştirme de doğrudur.",
+    "Birinci eşleştirme de doğrudur.",
+    "İkinci ve üçüncü eşleştirme de doğrudur.",
+    "Doğru; dört eşleştirme de doğrudur."
+   ],
+   "d": 4,
+   "a": "Bu ayetler din hizmetinin üslup ilkelerini oluşturur.",
+   "kay": "İlgili ayetler"
+  },
+  {
+   "id": "hb-20",
+   "z": 3,
+   "s": "Hanefî mezhebine göre Cuma hutbesiyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Hutbe Cuma namazının sıhhat şartıdır ve vakit girdikten sonra okunur.",
+    "Hutbe namazdan sonra okunur.",
+    "Hutbe sünnettir, okunmasa da namaz sahihtir.",
+    "Hutbe bayram namazında olduğu gibi namazdan sonra okunur.",
+    "Hutbede Allah’ı anmak gerekli değildir."
+   ],
+   "ac": [
+    "Doğru.",
+    "Cuma hutbesi namazdan önce okunur.",
+    "Cuma hutbesi şarttır.",
+    "Cuma’da namazdan öncedir.",
+    "Ebû Hanîfe’ye göre Allah’ı anmak hutbe için yeterli farzdır."
+   ],
+   "d": 0,
+   "a": "Hutbe vakitten önce okunursa Cuma namazı sahih olmaz.",
+   "kay": "Fıkıh kitapları; Cuma bahsi"
+  },
+  {
+   "id": "hb-21",
+   "z": 3,
+   "s": "Bir vaiz, vaazında konuyu çok uzatarak cemaati bıktırmış, ağır terimler kullanarak dinleyicilerin anlamadığı bir dil kullanmıştır.\nBu vaizin ihmal ettiği ilkeler aşağıdakilerden hangisinde birlikte verilmiştir?",
+   "c": [
+    "Hutbenin Arapça okunması ve kıraat",
+    "Dinleyicinin seviyesine uygunluk ve ölçülü süre",
+    "Hutbenin namazdan önce okunması",
+    "Ezanın sünnete uygun okunması",
+    "İmametin şartları"
+   ],
+   "ac": [
+    "Vaaz Arapça olma şartına bağlı değildir.",
+    "Doğru; Hz. Ali’nin “İnsanlara anlayacakları şekilde konuşun” sözü ve İbn Mes’ûd rivayeti bu ilkeleri gösterir.",
+    "Bu vaazla ilgili değildir.",
+    "Konuyla ilgisi yoktur.",
+    "Konuyla ilgisi yoktur."
+   ],
+   "d": 1,
+   "a": "Etkili vaazda kısa, anlaşılır ve dinleyiciye uygun anlatım esastır.",
+   "kay": "Buhârî, İlim, 12, 49"
+  },
+  {
+   "id": "hb-22",
+   "z": 3,
+   "s": "I. Konunun seçimi ve sınırlandırılması\nII. Güvenilir kaynaklardan bilgi toplanması\nIII. Giriş, gelişme ve sonuçtan oluşan bir plan yapılması\nIV. Uydurma hadislerle konunun etkileyici hâle getirilmesi\nBir vaazın hazırlık aşamasında yukarıdakilerden hangileri yapılmalıdır?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "ac": [
+    "Plan yapmak da gereklidir.",
+    "Doğru; uydurma hadis kullanmak caiz değildir.",
+    "Uydurma hadis kullanılamaz.",
+    "Uydurma hadis kullanılamaz.",
+    "Uydurma hadis kullanmak büyük günahtır."
+   ],
+   "d": 1,
+   "a": "“Kim bilerek bana yalan isnat ederse cehennemdeki yerine hazırlansın.” (Buhârî)",
+   "kay": "Buhârî, İlim, 38"
+  },
+  {
+   "id": "hb-23",
+   "z": 3,
+   "s": "Bir din görevlisi, cenaze evinde taziye ziyaretinde bulunurken aşağıdaki tutumlardan hangisini sergilemesi uygun olmaz?",
+   "c": [
+    "Ölünün yakınlarına sabır tavsiye etmek",
+    "Vefat edenin iyiliklerini hatırlatmak",
+    "Ölünün günahlarını sayarak ailesini suçlamak",
+    "Yakınlara yemek hazırlanmasını önermek",
+    "Kısa ve teselli edici dualar yapmak"
+   ],
+   "ac": [
+    "Uygun bir tutumdur.",
+    "Uygun bir tutumdur.",
+    "Doğru; bu tutum teselli amacına aykırıdır ve kınanır.",
+    "Hz. Peygamber Ca’fer’in ailesine yemek hazırlanmasını istemiştir.",
+    "Uygun bir tutumdur."
+   ],
+   "d": 2,
+   "a": "“Ölülerinizin iyiliklerini anın.” (Tirmizî)",
+   "kay": "Tirmizî, Cenâiz, 34"
+  },
+  {
+   "id": "hb-24",
+   "z": 3,
+   "s": "Anayasa’nın 136. maddesine göre Diyanet İşleri Başkanlığının görevini yerine getirirken gözeteceği ilkeler aşağıdakilerden hangisinde doğru verilmiştir?",
+   "c": [
+    "Bakanlar Kurulu’nun talimatıyla ve yalnız ibadet alanında",
+    "Yalnızca Hanefî mezhebinin görüşleri doğrultusunda",
+    "Siyasi partilerin görüşleri doğrultusunda",
+    "Yalnız yurt dışındaki vatandaşlara hizmet ederek",
+    "Laiklik ilkesi doğrultusunda, bütün siyasi görüş ve düşüncelerin dışında kalarak ve milletçe dayanışma ve bütünleşmeyi amaç edinerek"
+   ],
+   "ac": [
+    "Anayasa’daki ilkeler bu şekilde değildir.",
+    "Anayasa böyle bir hüküm içermez.",
+    "Siyasi görüşlerin dışında kalmak esastır.",
+    "Görev alanı yurt içini de kapsar.",
+    "Doğru."
+   ],
+   "d": 4,
+   "a": "Başkanlığın görevi özel kanunla (633) düzenlenir.",
+   "kay": "T.C. Anayasası, md. 136"
+  },
+  {
+   "id": "hb-25",
+   "z": 3,
+   "s": "Hastane, cezaevi veya huzurevinde manevi danışmanlık yapan bir din görevlisinin uyması gereken ilkeler arasında aşağıdakilerden hangisi yer almaz?",
+   "c": [
+    "Kişinin inancına ve mahremiyetine saygı göstermek",
+    "Dinleyen ve empati kuran bir tutum takınmak",
+    "Kişinin isteği doğrultusunda manevi destek sunmak",
+    "Kişiyi kendi görüşünü kabul etmeye zorlamak",
+    "Kurumun kurallarına uymak"
+   ],
+   "ac": [
+    "İlkelerdendir.",
+    "İlkelerdendir.",
+    "İlkelerdendir.",
+    "Doğru; zorlama manevi danışmanlık ilkelerine aykırıdır.",
+    "İlkelerdendir."
+   ],
+   "d": 3,
+   "a": "Manevi danışmanlık gönüllülük ve saygı esasına dayanır.",
+   "kay": "Diyanet manevi danışmanlık hizmetleri"
+  },
+  {
+   "id": "hb-26",
+   "z": 3,
+   "s": "“Sizden biriniz insanlara namaz kıldırdığında hafif tutsun” hadisinin imamet ve hitabet açısından ortak mesajı aşağıdakilerden hangisidir?",
+   "c": [
+    "Yalnız yaşlılara namaz kıldırmak",
+    "Namazı hiç uzatmamak, hep en kısa sureleri okumak",
+    "Hutbeyi namazdan uzun tutmak",
+    "Cemaatle namazı terk etmek",
+    "Cemaatin durumunu gözetmek ve onları bıktırmamak"
+   ],
+   "ac": [
+    "Hadis bütün cemaati kapsar.",
+    "Hadis ölçülülüğü öğütler; yalnız kısa sure okumayı emretmez.",
+    "Hutbenin kısa tutulması tavsiye edilir.",
+    "Hadis cemaatle namazı teşvik eder.",
+    "Doğru."
+   ],
+   "d": 4,
+   "a": "Hadisin devamında içlerinde zayıf, hasta ve yaşlıların bulunduğu belirtilir.",
+   "kay": "Buhârî, Ezân, 62"
+  },
+  {
+   "id": "hb-27",
+   "z": 3,
+   "s": "Bir din görevlisinin vaazında hadis kullanımıyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Yalnız mevzû hadisler kullanılabilir.",
+    "Etkileyici olduğu sürece hadisin kaynağı önemli değildir.",
+    "Hadisin kaynağını bilmek, sahih veya hasen hadisleri tercih etmek ve uydurma hadislerden kaçınmak gerekir.",
+    "Hadisler hiç kullanılmamalıdır.",
+    "Zayıf hadis ahkâm konularında esas alınmalıdır."
+   ],
+   "ac": [
+    "Mevzû hadis kullanılamaz.",
+    "Kaynak ve sıhhat çok önemlidir.",
+    "Doğru.",
+    "Hadisler vaazın temel kaynaklarındandır.",
+    "Ahkâmda zayıf hadise dayanılmaz."
+   ],
+   "d": 2,
+   "a": "Diyanet’in Hadislerle İslam gibi eserleri vaazlarda kaynak olarak kullanılabilir.",
+   "kay": "Hadis usulü; vaaz usulü"
+  }
+ ]
+}

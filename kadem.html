@@ -86,7 +86,8 @@ details.diger>summary:before{content:"+ ";color:var(--acc)}details.diger[open]>s
 details.ders>summary{color:var(--ink)}
 @media print{#top{display:none}body{padding:0;background:#fff}.ozet{border:0}}
 /* Giriş */
-.giris{max-width:380px;margin:40px auto;text-align:center}
+.giris{max-width:380px;margin:40px auto;text-align:center}.kilit-ikon{font-size:34px;margin-bottom:6px}.kilit{font-size:.85em;opacity:.75}
+.kilit-serit{display:flex;gap:10px;align-items:center;justify-content:space-between;margin:14px 0;padding:12px 14px;border:1px dashed var(--rule);border-radius:12px;color:inherit;text-decoration:none;font-size:14px}.kilit-serit em{font-style:normal;font-weight:700;color:var(--acc);white-space:nowrap}
 .giris input{width:100%;font:17px var(--sans);padding:11px 12px;border:1px solid var(--rule);border-radius:3px;background:var(--kagit);color:var(--ink);margin:14px 0 10px;text-align:center}
 /* Künye tablosu */
 .kunye{width:100%;border-collapse:collapse;background:var(--kagit);border:1px solid var(--line);font-size:15px;margin:6px 0 4px}
@@ -377,20 +378,23 @@ function yaz(o){try{localStorage.setItem(LK,JSON.stringify(o))}catch(e){}}
 function guncelle(f){var o=oku();f(o);yaz(o)}
 function e(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
 function toast(t){var x=$('#toast');x.textContent=t;x.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(function(){x.classList.remove('on')},2400)}
-/* Şifreleme: data/kadem altındaki bütün içerik AES-GCM ile şifreli (.enc). Anahtar şifreden PBKDF2 ile türetilir
+/* Şifreleme: sınav listesi, sınav dosyaları ve her dersin ilk ünitesi (konu/*-1.json) açık; geri kalan içerik AES-GCM ile şifreli (.enc). Anahtar şifreden PBKDF2 ile türetilir
    (data/kadem/anahtar.json: tuz ve tur sayısı) ve bu cihazda localStorage "kadem.anahtar" içinde saklanır. */
 var KEY=null,AK='kadem.anahtar';
 function b64(s){var b=atob(s),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u}
 function b64e(u){var s='';u=new Uint8Array(u);for(var i=0;i<u.length;i++)s+=String.fromCharCode(u[i]);return btoa(s)}
 function anahtar(){if(KEY)return Promise.resolve(KEY);var r=null;try{r=localStorage.getItem(AK)}catch(x){}
- if(!r||!window.crypto||!crypto.subtle)return Promise.reject('sifre');
+ if(!r||!window.crypto||!crypto.subtle)return Promise.reject('yok');
  return crypto.subtle.importKey('raw',b64(r),'AES-GCM',false,['decrypt']).then(function(k){return KEY=k})}
 function coz(txt,k){var u=b64(txt.trim());return(k?Promise.resolve(k):anahtar()).then(function(k){return crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12))})
- .then(function(b){return JSON.parse(new TextDecoder().decode(b))},function(x){if(x==='sifre')throw x;throw'sifre'})}
-function al(u){if(C[u])return Promise.resolve(C[u]);var sif=/^data\/kadem\//.test(u)&&!/anahtar\.json$/.test(u);
+ .then(function(b){return JSON.parse(new TextDecoder().decode(b))},function(x){if(x==='yok')throw x;throw'sifre'})}
+function acik(u){return/^data\/kadem\/[^\/]+\.json$/.test(u)||/^data\/kadem\/konu\/[^\/]+-1\.json$/.test(u)}
+function anahtarVar(){try{return!!localStorage.getItem(AK)}catch(x){return false}}
+function al(u){if(C[u])return Promise.resolve(C[u]);var sif=/^data\/kadem\//.test(u)&&!acik(u);
  return fetch(sif?u.replace(/\.json$/,'.enc'):u,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return sif?r.text().then(function(x){return coz(x)}):r.json()}).then(function(j){return C[u]=j})}
-function giris(){saatGizle();renk('#1d5c4a');$('#bas').textContent='Kadem';$('#geri').textContent='el-Mihrâb';$('#geri').onclick=function(){location.href='index.html'};
- M.innerHTML='<form class="giris" id="gf"><div class="ust-etiket">el-Mihrâb</div><h1>Kadem</h1><p class="lead" style="margin:0 auto">Bu bölüm şifreyle korunuyor. Şifreyi bir kez girmen yeterli; bu cihaz hatırlar.</p>'+
+function giris(ne){saatGizle();renk('#1d5c4a');
+ if(!ne){$('#bas').textContent='Kadem';$('#geri').textContent='el-Mihrâb';$('#geri').onclick=function(){location.href='index.html'}}
+ M.innerHTML='<form class="giris" id="gf"><div class="kilit-ikon">🔒</div><div class="ust-etiket">'+(ne?e(ne.ust||'Kadem'):'el-Mihrâb')+'</div><h1>'+(ne?e(ne.ad):'Kadem')+'</h1><p class="lead" style="margin:0 auto">'+(ne?'Her dersin ilk ünitesi herkese açık. Bu bölümü açmak için şifreyi gir; bir kez girmen yeterli, bu cihaz hatırlar.':'Bu bölüm şifreyle korunuyor. Şifreyi bir kez girmen yeterli; bu cihaz hatırlar.')+'</p>'+
   '<input type="password" id="sf" autocomplete="current-password" placeholder="Şifre" required><button class="btn" style="width:100%">Giriş</button><p class="kucukyazi" id="sm" style="min-height:20px"></p></form>';
  $('#sf').focus();
  $('#gf').onsubmit=function(ev){ev.preventDefault();var pw=$('#sf').value;$('#sm').textContent='Kontrol ediliyor…';
@@ -399,8 +403,8 @@ function giris(){saatGizle();renk('#1d5c4a');$('#bas').textContent='Kadem';$('#g
    return crypto.subtle.importKey('raw',new TextEncoder().encode(pw),'PBKDF2',false,['deriveBits']).then(function(k){
     return crypto.subtle.deriveBits({name:'PBKDF2',salt:b64(A.tuz),iterations:A.tur,hash:'SHA-256'},k,256)})})
   .then(function(bits){return crypto.subtle.importKey('raw',bits,'AES-GCM',false,['decrypt']).then(function(k){
-    return fetch('data/kadem/sinavlar.enc',{cache:'no-cache'}).then(function(r){return r.text()}).then(function(x){return coz(x,k)}).then(function(){
-     try{localStorage.setItem(AK,b64e(bits))}catch(x){}KEY=k;C={};ac()})})})
+    return fetch('data/kadem/konu/kuran-2.enc',{cache:'no-cache'}).then(function(r){return r.text()}).then(function(x){return coz(x,k)}).then(function(){
+     try{localStorage.setItem(AK,b64e(bits))}catch(x){}KEY=k;C={};if(hash().giris)git('');else ac()})})})
   .catch(function(){$('#sm').textContent='Şifre yanlış.';$('#sf').select()})}}
 function renk(c){if(TEMA())return;document.documentElement.style.setProperty('--acc',c||'#1d5c4a')}
 function TEMA(){var t=null;try{t=localStorage.getItem('kadem.tema')}catch(x){}return t==null?'a':t}
@@ -414,7 +418,7 @@ temaUygula();
 function hash(){var o={};location.hash.replace(/^#/,'').split('&').forEach(function(p){var a=p.split('=');if(a[0])o[a[0]]=decodeURIComponent(a[1]||'')});return o}
 function git(h){location.hash=h}
 function karistir(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
-function hata(x){if(x==='sifre'){try{localStorage.removeItem(AK)}catch(y){}KEY=null;return giris()}M.innerHTML='<div class="bos-kutu">İçerik yüklenemedi. İnternet bağlantını kontrol edip tekrar dene.</div>'}
+function hata(x){if(x==='sifre'||x==='yok'){try{localStorage.removeItem(AK)}catch(y){}KEY=null;return giris()}M.innerHTML='<div class="bos-kutu">İçerik yüklenemedi. İnternet bağlantını kontrol edip tekrar dene.</div>'}
 function saatYaz(sn){sn=Math.max(0,Math.round(sn));var d=Math.floor(sn/60),s=sn%60;return d+':'+(s<10?'0':'')+s}
 function tarih(t){var g=Math.round((t-Date.now())/GUN);return g<=0?'bugün':g===1?'yarın':g+' gün sonra'}
 function gun(t){return new Date(t).toLocaleDateString('tr-TR',{day:'numeric',month:'long'})}
@@ -428,7 +432,13 @@ function sinav(id){
  return al('data/kadem/'+id+'.json').catch(function(x){if(x==='sifre')throw x;return{konular:[]}}).then(function(V){
   if(V._hazir)return V;
   var yukle=function(liste,klasor){return Promise.all((liste||[]).map(function(k){
-   return k.ref?al('data/kadem/'+klasor+'/'+k.ref+'.json').catch(function(){return null}):Promise.resolve(k)}))};
+   return k.ref?al('data/kadem/'+klasor+'/'+k.ref+'.json').catch(function(x){
+    if(x==='sifre'){try{localStorage.removeItem(AK)}catch(y){}KEY=null}
+    if(x!=='sifre'&&x!=='yok')return null;V._kilitli=1;
+    if(klasor==='deneme')return{id:k.ref,ad:(k.ref.split('-').pop())+'. Deneme',_kilit:1,sorular:[]};
+    var st={id:k.ref,ad:k.ref,ders:'',_kilit:1,sorular:[],ozet:[],kartlar:[],anlatim:[]};
+    ((V.harita||{}).dersler||[]).forEach(function(d){d.uniteler.forEach(function(u){if(u.konu===k.ref){st.ad=u.ad;st.ders=d.ad}})});
+    return st}):Promise.resolve(k)}))};
   return Promise.all([yukle(V.konular,'konu'),yukle(V.denemeler,'deneme')]).then(function(R){
    V.konular=R[0].filter(Boolean);V.denemeler=R[1].filter(Boolean);V.hepsi=[];V.havuz=[];
    V.konular.forEach(function(x){(x.sorular||[]).forEach(function(q,n){q._k=q.id||x.id+'.'+n;q._konu=x;V.hepsi.push(q);V.havuz.push(q)})});
@@ -456,7 +466,8 @@ function liste(){
   var ANA=L.sinavlar.filter(function(s){return ANA_ID.indexOf(s.id)>=0}).sort(function(a,b){return ANA_ID.indexOf(a.id)-ANA_ID.indexOf(b.id)}),
    DIG=L.sinavlar.filter(function(s){return ANA_ID.indexOf(s.id)<0});
   return Promise.all(ANA.map(function(s){return sinav(s.id)})).then(function(V){
-   var o=oku(),h='<div class="ust-etiket">el-Mihrâb · Sınav hazırlığı</div><h1>Kadem</h1><p class="lead">Konu anlatımı, özet, kart, açıklamalı test ve gerçek biçimde deneme. Bir sınav seç, kaldığın yerden devam et.</p>';
+   var o=oku(),h='<div class="ust-etiket">el-Mihrâb · Sınav hazırlığı</div><h1>Kadem</h1><p class="lead">Konu anlatımı, özet, kart, açıklamalı test ve gerçek biçimde deneme. Bir sınav seç, kaldığın yerden devam et.</p>'+
+    (anahtarVar()?'':'<a class="kilit-serit" href="#giris=1"><span>🔒 Her dersin ilk ünitesi açık. Bütün konular ve tam denemeler için şifreni gir.</span><em>Giriş ›</em></a>');
    ANA.forEach(function(s,i){var v=V[i],k=v.konular,biten=k.filter(function(x){return o['p.'+s.id+'.'+x.id]!=null}).length,b=bugunku(s,v).length,
      son=o['son.'+s.id],sx=son&&k.filter(function(x){return x.id===son})[0],yz=k.length?Math.round(100*biten/k.length):0;
     h+='<a class="anakart" style="--r:'+e(s.renk)+'" href="#s='+e(s.id)+'"><span class="kod">'+e(s.bicim)+'</span><b>'+e(s.ad)+'</b><small>'+e(s.tam)+'</small>';
@@ -524,7 +535,7 @@ function sinavSayfa(S,V){
   h+='<details class="dersgrup"'+(adi===acik?' open':'')+'><summary class="satir"><span class="no">'+(i+1)+'</span><i class="harf" style="background:color-mix(in srgb,'+RK+' 13%,transparent);color:'+RK+'">'+e(adi.charAt(0))+'</i><svg class="halkacik" width="40" height="40"><circle cx="20" cy="20" r="16" stroke="#E2E8F0" stroke-width="5" fill="none"/><circle cx="20" cy="20" r="16" stroke="'+RK+'" stroke-width="5" fill="none" stroke-linecap="round" stroke-dasharray="'+CC.toFixed(1)+'" stroke-dashoffset="'+(CC*(1-Math.max(yuzde,2)/100)).toFixed(1)+'" transform="rotate(-90 20 20)"/></svg><span>'+e(adi)+'<br><small>'+(I.soru?'sınavda '+I.soru+' soru · ':'')+I.KK.length+' konu'+(I.ort!=null?' · test ort. %'+I.ort:'')+'</small></span>'+
    '<small>'+I.biten+'/'+I.KK.length+'</small><span class="ok">›</span><i class="ilerle" style="width:'+yuzde+'%"></i></summary><div class="ic">';
   I.KK.forEach(function(x,j){var p=o['p.'+S.id+'.'+x.id],n=adimDurum(S,x);
-   h+='<a class="satir'+(p!=null?' bitti':'')+(sk&&sk.id===x.id?' bugun':'')+'" href="'+(n>=4?ad+'&k='+e(x.id)+'&g=oku':adimLink(S,x,n))+'"><span class="no">'+(j+1)+'</span><span>'+e(x.ad)+(p!=null?'<br><small>test %'+p+'</small>':'')+'</span>'+noktalar(n)+'</a>'});
+   h+='<a class="satir'+(p!=null?' bitti':'')+(sk&&sk.id===x.id?' bugun':'')+'" href="'+(n>=4?ad+'&k='+e(x.id)+'&g=oku':adimLink(S,x,n))+'"><span class="no">'+(j+1)+'</span><span>'+e(x.ad)+(x._kilit?' <span class="kilit">🔒</span>':'')+(p!=null?'<br><small>test %'+p+'</small>':'')+'</span>'+noktalar(n)+'</a>'});
   h+='<a class="satir alt" href="'+ad+'&ds='+encodeURIComponent(adi)+'"><span class="no"></span><span><small>Ders denemesi · ders özeti · kartlar</small></span><small>›</small></a></div></details>'});
  h+='</div>';
  h+='<div class="anaarac">'+(D?'<a href="'+ad+'&t=denemeler">Denemeler<small>'+(V.denemeler.length?V.denemeler.length+' tam deneme':'karma')+'</small></a>':'')+
@@ -548,7 +559,7 @@ function dersSayfa(S,V,adi){var o=oku(),I=dersBilgi(S,V,adi),ad='#s='+e(S.id),q=
   '<div class="dugmeler"><a class="btn" href="'+ad+'&t=deneme&ders='+q+'">Ders denemesi</a><a class="btn ik" href="'+ad+'&t=ozet&ds='+q+'">Dersin özeti</a><a class="btn ik" href="'+ad+'&t=kartlar&ds='+q+'">Kartlar</a></div>'+
   '<h2>Konular</h2><div class="konular">';
  I.KK.forEach(function(x,i){var p=o['p.'+S.id+'.'+x.id],n=(x.sorular||[]).length;
-  h+='<a class="satir" href="'+ad+'&k='+e(x.id)+'"><span class="no">'+(i+1)+'</span><span>'+e(x.ad)+(yan[x.id]?'<br><small style="color:var(--no)">'+yan[x.id]+' yanlış defterde</small>':'')+'</span><small>'+n+' soru'+(p!=null?' · %'+p:'')+'</small>'+(p!=null?'<i class="ilerle" style="width:'+p+'%"></i>':'')+'</a>'});
+  h+='<a class="satir" href="'+ad+'&k='+e(x.id)+'"><span class="no">'+(i+1)+'</span><span>'+e(x.ad)+(x._kilit?' <span class="kilit">🔒</span>':'')+(yan[x.id]?'<br><small style="color:var(--no)">'+yan[x.id]+' yanlış defterde</small>':'')+'</span><small>'+n+' soru'+(p!=null?' · %'+p:'')+'</small>'+(p!=null?'<i class="ilerle" style="width:'+p+'%"></i>':'')+'</a>'});
  M.innerHTML=h+'</div><p class="kucukyazi" style="margin-top:12px">Önerilen sıra: anlatımı oku → özete bak → kartları çevir → testi çöz. Yanlışların yanlış defterine düşer ve aralıklarla yeniden sorulur.</p>'}
 
 function ozetSayfa(S,V,adi){var L=adi?[adi]:dersler(V),h='<div class="ust-etiket">'+e(S.ad)+'</div><h1>'+(adi?e(adi)+' özeti':'Son tekrar kitapçığı')+'</h1><p class="lead">Konuların en çok sorulan bilgileri, dersler sırasıyla. Sınavdan önceki son günlerde baştan sona okuman için hazırlandı.</p>';
@@ -673,7 +684,7 @@ function denemelerSayfa(S,V){
  if(A)h+='<div class="dugmeler"><button class="btn" id="yarim">Yarım kalan denemeye dön · '+e(A.ad||'')+'</button></div>';
  if(V.denemeler.length){h+='<h2>Tam denemeler</h2><table class="cizelge"><tr><th>Deneme</th><th>Soru</th><th>Son sonuç</th><th></th></tr>';
   V.denemeler.forEach(function(x){var g=son(function(r){return r.ref===x.id});
-   h+='<tr><td class="ad">'+e(x.ad)+(x.aciklama?'<div class="kucukyazi" style="font-family:var(--sans);font-weight:400">'+e(x.aciklama)+'</div>':'')+'</td><td>'+x.sorular.length+'</td><td>'+(g?'<a href="#s='+e(S.id)+'&t=sonuc&r='+g.t+'" style="color:var(--acc)">'+yuvarla(net(g))+' '+(g.yg?'net':'doğru')+'</a>':'—')+'</td>'+
+   h+='<tr><td class="ad">'+e(x.ad)+(x.aciklama?'<div class="kucukyazi" style="font-family:var(--sans);font-weight:400">'+e(x.aciklama)+'</div>':'')+'</td><td>'+(x._kilit?'🔒':x.sorular.length)+'</td><td>'+(g?'<a href="#s='+e(S.id)+'&t=sonuc&r='+g.t+'" style="color:var(--acc)">'+yuvarla(net(g))+' '+(g.yg?'net':'doğru')+'</a>':'—')+'</td>'+
     '<td class="sag"><button class="btn kucuk'+(g?' ik':'')+'" data-d="'+e(x.id)+'">'+(g?'Yeniden':'Başla')+'</button></td></tr>'});
   h+='</table><p class="kucukyazi">Tam denemelerin soruları konu testlerinde yoktur; her biri resmî ders dağılımına göre ayrı yazılmıştır.</p>'}
  var kar=0;if(V.harita)V.harita.dersler.forEach(function(d){kar+=Math.min(d.soru,V.havuz.filter(function(q){return q._konu.ders===d.ad}).length)});else kar=Math.min(D.soru,V.havuz.length);
@@ -825,7 +836,8 @@ function altnav(S,V,aktif){var N=$('#altnav');if(!S){N.className='';N.innerHTML=
  var ad='#s='+e(S.id),bug=bugunku(S,V).length,d=defter(S),yan=Object.keys(d).filter(function(x){return soruBul(V,x)}).length;
  N.innerHTML=[['yol',ad,'Yol','◆'],['tekrar',ad+'&t=tekrar','Tekrar','↻',bug],['deneme',ad+'&t=denemeler','Deneme','✎'],['defter',ad+'&t=defter','Yanlışlar','✕',yan]].map(function(x){
   return'<a href="'+x[1]+'"'+(x[0]===aktif?' class="on"':'')+'><i>'+x[3]+'</i>'+x[2]+(x[4]?'<b>'+x[4]+'</b>':'')+'</a>'}).join('');N.className='on'}
-function ac(){var H=hash();saatGizle();altnav(null);var r=null;try{r=localStorage.getItem(AK)}catch(x){}if(!r)return giris();if(!H.s)return liste();
+function kilitSayfa(S,x){giris({ust:S.ad+(x.ders?' · '+x.ders:''),ad:x.ad})}
+function ac(){var H=hash();saatGizle();altnav(null);if(H.giris)return giris();if(!H.s)return liste();
  al('data/kadem/sinavlar.json').then(function(L){var S=L.sinavlar.filter(function(s){return s.id===H.s})[0];if(!S)return liste();
   renk(S.renk);$('#bas').textContent=S.ad;document.title=S.ad+' · Kadem';
   return sinav(S.id).then(function(V){var K=V.konular;
@@ -835,7 +847,7 @@ function ac(){var H=hash();saatGizle();altnav(null);var r=null;try{r=localStorag
    var an=!H.t&&!H.k&&!H.ds?'yol':H.t==='tekrar'?'tekrar':H.t==='denemeler'||H.t==='sonuc'?'deneme':H.t==='defter'?'defter':H.ds||H.t==='program'||H.t==='ozet'||H.t==='kartlar'||H.t==='harita'?'yol':null;
    if(an)altnav(S,V,an);
    if(H.t){geri('s='+S.id,S.ad);
-    if(H.t==='deneme'){if(H.ders)geri('s='+S.id+'&ds='+encodeURIComponent(H.ders),H.ders);else geri('s='+S.id+'&t=denemeler','Denemeler');return deneme(S,V,H)}
+    if(H.t==='deneme'){if(H.d){var dx=V.denemeler.filter(function(y){return y.id===H.d})[0];if(dx&&dx._kilit){geri('s='+S.id+'&t=denemeler','Denemeler');return kilitSayfa(S,{ad:dx.ad,ders:'Tam deneme'})}}if(H.ders)geri('s='+S.id+'&ds='+encodeURIComponent(H.ders),H.ders);else geri('s='+S.id+'&t=denemeler','Denemeler');return deneme(S,V,H)}
     if(H.t==='denemeler')return denemelerSayfa(S,V);
     if(H.t==='sonuc'){geri('s='+S.id+'&t=denemeler','Denemeler');return sonuc(S,V,H)}
     if(H.t==='harita'&&V.harita)return haritaSayfa(S,V);
@@ -844,10 +856,10 @@ function ac(){var H=hash();saatGizle();altnav(null);var r=null;try{r=localStorag
     if(H.t==='ozet'){if(H.ds)geri('s='+S.id+'&ds='+encodeURIComponent(H.ds),H.ds);return ozetSayfa(S,V,H.ds)}
     if(H.t==='kartlar'){if(H.ds)geri('s='+S.id+'&ds='+encodeURIComponent(H.ds),H.ds);return kartSayfa(S,V,H.ds)}
     if(H.t==='tekrar')return test(S,'Bugünkü tekrar',karistir(bugunku(S,V).map(function(k){return soruBul(V,k)})),null);
-    var x=bul(H.t);if(x){geri('s='+S.id+'&k='+x.id,'Konu');var SL=siraliKonular(V),ix=SL.indexOf(x),nx=SL.slice(ix+1).filter(function(y){return adimDurum(S,y)<4})[0];
+    var x=bul(H.t);if(x&&x._kilit){geri('s='+S.id,S.ad);return kilitSayfa(S,x)}if(x){geri('s='+S.id+'&k='+x.id,'Konu');var SL=siraliKonular(V),ix=SL.indexOf(x),nx=SL.slice(ix+1).filter(function(y){return adimDurum(S,y)<4})[0];
      return test(S,x.ad,kolaydanZora(x.sorular||[]),'p.'+S.id+'.'+x.id,'s='+S.id+'&k='+x.id,{ust:'<div class="kbas"><div class="ust-etiket">'+e(x.ders||'')+'</div>'+adimCubuk(S,x,3)+'</div>',sonraki:nx?{ad:nx.ad,h:adimLink(S,nx,adimDurum(S,nx))}:null})}}
    if(H.ds){geri('s='+S.id,S.ad);return dersSayfa(S,V,H.ds)}
-   if(H.k){var y=bul(H.k);if(y){geri('s='+S.id+'&ds='+encodeURIComponent(y.ders),y.ders);return konuSayfa(S,y,H.g,H.b)}}
+   if(H.k){var y=bul(H.k);if(y){geri('s='+S.id+'&ds='+encodeURIComponent(y.ders),y.ders);return y._kilit?kilitSayfa(S,y):konuSayfa(S,y,H.g,H.b)}}
    geri('','Kadem');sinavSayfa(S,V)})
  }).catch(hata)}
 addEventListener('hashchange',ac);ac();

@@ -1,0 +1,1008 @@
+{
+ "id": "kelam-1",
+ "ad": "Kelamın Tanımı, Adları, Konusu, Doğuşu ve Gelişimi; Bilgi Teorisi (Duyular, Akıl, Haber-i Sâdık)",
+ "ders": "Akaid ve Kelam",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Kelam nedir? Tanımlar, konu, gaye ve hüküm"
+  },
+  {
+   "merak": "Bir vatandaş caminin imamına sorar: “Hocam, Allah’a inanıyorum ama birisi bana ‘Allah var olduğunu nereden biliyorsun?’ deyince cevap veremedim.” İmamın vereceği cevabın bilimi, işte kelamdır: inancı bilmek, temellendirmek ve savunmak."
+  },
+  "Kelam, İslam inanç esaslarını Kur’an ve sünnetten hareketle belirleyen, bunları aklî ve naklî delillerle temellendiren, inanca yöneltilen şüphe ve itirazları cevaplayan ilimdir. Fıkıh “ne yapmalıyım?” sorusuna, kelam ise “neye ve niçin inanıyorum?” sorusuna cevap arar. Bu yüzden kelamın hükümlerine “ahkâm-ı asliyye / itikādiyye” (inançla ilgili temel hükümler), fıkhın hükümlerine “ahkâm-ı fer’iyye / ameliyye” denir.",
+  "Kelam âlimleri bu ilmi farklı yönlerini öne çıkararak tanımlamıştır. Bazı tanımlar konuyu, bazıları gayeyi, bazıları da yöntemi vurgular. Sınavda tanımın sahibini bilmek kadar, tanımın neyi öne çıkardığını görmek de istenir.",
+  {
+   "tablo": [
+    [
+     "Âlim",
+     "Eser",
+     "Tanımın özü",
+     "Neyi öne çıkarır?"
+    ],
+    [
+     "Fârâbî (ö. 339/950)",
+     "İhsâü’l-ulûm",
+     "Dinin koyucusunun açıkça belirttiği görüş ve fiilleri savunan, bunlara aykırı olanları sözle çürüten bir meleke (sanat)",
+     "Savunma gayesi"
+    ],
+    [
+     "Teftâzânî (ö. 792/1390)",
+     "Şerhu’l-Akāid",
+     "Kesin delillere dayanan dinî inanç esaslarının bilgisi",
+     "Konu ve delil"
+    ],
+    [
+     "Adudüddin el-Îcî (ö. 756/1355)",
+     "el-Mevâkıf",
+     "Delil getirip şüpheleri gidererek dinî inançları ispat etme gücü kazandıran ilim",
+     "Gaye ve yöntem"
+    ],
+    [
+     "İbn Haldun (ö. 808/1406)",
+     "Mukaddime",
+     "İmanla ilgili inançları aklî delillerle savunan, inançta selefin yolundan sapan bid’atçıları reddeden ilim",
+     "Savunma ve reddiye"
+    ],
+    [
+     "Seyyid Şerif Cürcânî (ö. 816/1413)",
+     "et-Ta’rîfât",
+     "Allah’ın zât ve sıfatlarından, varlıkların başlangıç (mebde) ve sonundan (meâd) İslam kanunu üzere bahseden ilim",
+     "Konu"
+    ]
+   ]
+  },
+  "■ Kelamın konusu: Usûl-i selâse",
+  "Kelamın konusu en genel ifadeyle “Allah’ın zâtı, sıfatları ve fiilleri” ile bunlara bağlı olarak “mümkin varlıklar”dır. Klasik eserler konuları üç ana başlıkta toplar; buna “usûl-i selâse” (üç esas) denir:",
+  {
+   "tablo": [
+    [
+     "Başlık",
+     "Kapsamı",
+     "Örnek konular"
+    ],
+    [
+     "İlâhiyyât (Ulûhiyyet)",
+     "Allah’ın varlığı, birliği, isim ve sıfatları, fiilleri",
+     "Hudûs delili, sübûtî sıfatlar, kader"
+    ],
+    [
+     "Nübüvvât",
+     "Peygamberlik, vahiy, mûcize, kitaplar",
+     "Nübüvvetin gerekliliği, ismet, Hz. Muhammed’in peygamberliğinin ispatı"
+    ],
+    [
+     "Sem’iyyât (Gaybiyyât)",
+     "Yalnızca vahiyle (sem’ yoluyla) bilinebilen konular",
+     "Melek, cin, kabir, kıyamet, ahiret, imamet (Sünnîlerde)"
+    ]
+   ]
+  },
+  "Kelam konuları ayrıca “mesâil” ve “vesâil” diye de ikiye ayrılır. Mesâil (asıl meseleler), inanılması gereken esaslardır: ulûhiyyet, nübüvvet, meâd (ahiret). Vesâil (araçlar, vasıtalar) ise bu esasları ispat etmek için kullanılan felsefî-mantıkî araçlardır: bilgi teorisi, cevher-araz teorisi, varlık ve hükümleri (vâcib-mümkin-mümteni), sebr ve taksîm, kıyâsü’l-gāib ale’ş-şâhid gibi yöntemler.",
+  {
+   "tablo": [
+    [
+     "Mesâil (amaç konular)",
+     "Vesâil (araç konular)"
+    ],
+    [
+     "Allah’ın varlığı, birliği, sıfatları",
+     "Bilgi teorisi (bilginin tanımı ve kaynakları)"
+    ],
+    [
+     "Nübüvvet ve vahiy",
+     "Cevher-araz, cisim, hareket, zaman"
+    ],
+    [
+     "Ahiret (meâd)",
+     "Varlığın kısımları: vâcib, mümkin, mümteni"
+    ],
+    [
+     "Kader, iman, imamet",
+     "Akıl yürütme yolları: sebr ve taksîm, ilzâm, kıyâsü’l-gāib ale’ş-şâhid"
+    ]
+   ]
+  },
+  "■ Kelamın gayesi ve hükmü",
+  "Kelamın gayesi; taklidî imanı tahkikî imana yükseltmek, doğru yolu arayanlara delil göstermek, inkârcı ve sapkın görüşleri çürütmek, şer’î ilimlere sağlam bir zemin hazırlamak ve sonuçta dünya ve ahiret mutluluğuna ulaşmaktır. Kelam, şer’î ilimlerin “temeli” sayılır; çünkü Allah’ın varlığı ve peygamberin doğruluğu ispat edilmeden tefsir, hadis ve fıkıh ayakta duramaz. Bu yüzden Teftâzânî ve Îcî kelamı “ilimlerin en şereflisi” olarak niteler.",
+  "Hükmüne gelince: Her mükellefin inanç esaslarını icmâlî olarak bilmesi farz-ı ayndır. Fakat inanç esaslarını delilleriyle derinlemesine öğrenip şüpheleri cevaplayacak düzeyde kelam ilmini bilmek farz-ı kifâyedir; toplumda bunu yapan âlimler bulunursa diğerlerinden sorumluluk düşer.",
+  {
+   "sinav": "Tuzak: “Her Müslümanın kelamda derinleşmesi farz-ı ayndır” ifadesi yanlıştır; derinleşme farz-ı kifâyedir. Tanım sorularında Cürcânî’nin tanımı “mebde ve meâd, İslam kanunu üzere” ifadeleriyle tanınır; İbn Haldun’unki “bid’atçıları reddetme”, Îcî’ninki “ispat gücü kazandıran” ifadeleriyle. Mesâil-vesâil sorusunda cevher-araz, bilgi teorisi ve sebr-taksîm daima vesâildir."
+  },
+  {
+   "akil": "Kelam = inanç esaslarının aklî ve naklî delillerle ispatı ve savunulması. Konu üçlüsü: ilâhiyyât, nübüvvât, sem’iyyât. Mesâil asıl esaslar, vesâil bunları ispat eden araçlardır. Derinleşmek farz-ı kifâyedir."
+  },
+  {
+   "b": "2. Kelamın adları: Bir ilme neden altı isim verilmiş?"
+  },
+  {
+   "merak": "Ebû Hanîfe’nin inanç konularındaki risalesinin adı “el-Fıkhu’l-ekber”, yani “en büyük fıkıh”tır. Namaz ve oruç hükümleri “fıkıh” iken, Allah’a imanı konu edinen bilgiye neden “en büyük fıkıh” denmiştir?"
+  },
+  "Ebû Hanîfe’ye (ö. 150/767) göre fıkıh, “kişinin lehine ve aleyhine olanı bilmesi”dir. Bu genel anlamda fıkıh hem inancı hem ameli kapsar. İnanç bilgisi amelden önce geldiği ve ondan daha önemli olduğu için “el-fıkhu’l-ekber” adını almıştır. Kelam ilmi, tarih içinde farklı yönleri öne çıkarılarak çeşitli isimlerle anılmıştır:",
+  {
+   "tablo": [
+    [
+     "İsim",
+     "Anlamı",
+     "Neden bu isim?"
+    ],
+    [
+     "el-Fıkhu’l-ekber",
+     "En büyük fıkıh",
+     "Ebû Hanîfe’nin aynı adlı risalesine nispetle; inanç bilgisi amelî bilgiden üstündür"
+    ],
+    [
+     "İlmü’t-tevhîd ve’s-sıfât",
+     "Tevhid ve sıfatlar ilmi",
+     "En önemli ve en şerefli konusu Allah’ın birliği ve sıfatları olduğu için"
+    ],
+    [
+     "Usûlü’d-dîn",
+     "Dinin esasları ilmi",
+     "Dinin temel (asıl) hükümlerini konu edindiği, fıkıh ise füruu konu edindiği için"
+    ],
+    [
+     "İlmü’l-akāid",
+     "İnançlar ilmi",
+     "Kalple bağlanılan, gönülden inanılan esasları konu edindiği için (akd: bağlamak)"
+    ],
+    [
+     "İlmü’n-nazar ve’l-istidlâl",
+     "Akıl yürütme ve delil getirme ilmi",
+     "Yönteminin akıl yürütmeye (nazar) ve delil getirmeye (istidlâl) dayandığı için"
+    ],
+    [
+     "İlmü’l-kelâm",
+     "Söz, konuşma ilmi",
+     "En yaygın ve kalıcı isim (sebepleri aşağıda)"
+    ]
+   ]
+  },
+  "Teftâzânî ve başka âlimlere göre bu ilme “kelam” denmesinin başlıca sebepleri şunlardır:",
+  "• İlk dönemde en çok tartışılan mesele Allah’ın kelâm sıfatı ve Kur’an’ın yaratılmış olup olmadığı (halku’l-Kur’ân) meselesiydi; ilim, en meşhur konusunun adını aldı.",
+  "• Klasik eserlerde konu başlıkları “el-Kelâm fî…” (… hakkında söz) diye başlıyordu.",
+  "• Bu ilim, dinî konularda konuşma, tartışma ve karşı tarafı susturma gücü (kelâm) kazandırır.",
+  "• Mantığın felsefeye kazandırdığı gücü, kelam şer’î ilimlere kazandırır; yani kelam “şer’î ilimlerin mantığı” gibidir.",
+  "• Kur’an’ın Allah’ın kelamı olduğu gerçeği ve bu ilmin delillerinin en kuvvetlisinin vahiy olması da sebep olarak zikredilir.",
+  {
+   "not": "“Akāid” kelimesi çoğunlukla bu ilmin öğretilen sonuçlarını (Nesefî’nin el-Akāid’i gibi özlü metinler), “kelam” ise delil ve tartışma boyutunu çağrıştırır. Bugün Türkiye’deki ders programlarında “Akaid ve Kelam” birlikte kullanılır."
+  },
+  {
+   "sinav": "Eşleştirme sorularında isim-gerekçe karıştırılır: “Usûlü’d-dîn” fıkhın füruuna karşılık dinin esaslarını; “nazar ve istidlâl” yöntemi; “tevhid ve sıfât” en önemli konuyu; “fıkh-ı ekber” Ebû Hanîfe’yi çağrıştırır. “Kelam” adının sebebi olarak “yalnızca vahyi esas alıp aklı dışlaması” gibi bir seçenek daima yanlıştır."
+  },
+  {
+   "akil": "Altı isim: fıkh-ı ekber (Ebû Hanîfe), ilmü’t-tevhîd ve’s-sıfât (konu), usûlü’d-dîn (esaslar), akāid (inançlar), nazar ve istidlâl (yöntem), kelam (en çok tartışılan kelâm sıfatı, tartışma gücü)."
+  },
+  {
+   "b": "3. Kelamın doğuşu: İlk ihtilaflardan ilk ekollere"
+  },
+  {
+   "merak": "Hz. Peygamber hayattayken sorulan her inanç sorusu ona götürülür, mesele kapanırdı. Peki vefatından sonra ilk soru neydi ve bir tartışma nasıl oldu da bir ilmin doğmasına yol açtı?"
+  },
+  "Hz. Peygamber döneminde inanç konularında ayrılık yoktu; ortaya çıkan sorular vahiy ve Resûlullah’ın açıklamalarıyla çözülüyordu. Müteşâbih ayetler hakkında derin tartışmaya girilmemesi tavsiye edilirdi. Vefatından sonra ise önce siyasi, ardından itikadi tartışmalar başladı. Bu tartışmaların ilk kıvılcımları şunlardır:",
+  {
+   "tablo": [
+    [
+     "Olay",
+     "Doğurduğu tartışma",
+     "Ortaya çıkan grup / görüş"
+    ],
+    [
+     "Halife seçimi (11/632) ve Kırtâs hadisesi",
+     "İmamet nass ile mi, seçimle mi?",
+     "Şia’nın düşünsel temeli"
+    ],
+    [
+     "Hz. Osman’ın şehadeti (35/656)",
+     "Katillerin ve katledilenin durumu",
+     "Siyasi bölünme"
+    ],
+    [
+     "Cemel (36/656) ve Sıffîn (37/657) savaşları, tahkim",
+     "Hakem tayini caiz mi? Savaşanlar mümin mi?",
+     "Hâricîler (tahkimi reddeden); Şia’nın siyasi yapılanması"
+    ],
+    [
+     "Büyük günah meselesi",
+     "Büyük günah işleyen mümin mi, kâfir mi?",
+     "Hâricîler (kâfir), Mürcie (mümin, durumu Allah’a kalmış), Mu’tezile (iki yer arası)"
+    ],
+    [
+     "Kader ve insan hürriyeti",
+     "İnsan fiilinin yaratıcısı kim?",
+     "Kaderiyye (Ma’bed el-Cühenî, Gaylân ed-Dımaşkī), Cebriyye (Cehm b. Safvân)"
+    ],
+    [
+     "Sıfatlar ve halku’l-Kur’ân",
+     "Allah’ın zâtından ayrı sıfatları var mı? Kur’an mahluk mu?",
+     "Cehmiyye, Mu’tezile; mihne olayı"
+    ]
+   ]
+  },
+  "Büyük günah tartışması kelamın doğuşunda kilit rol oynar. Rivayete göre Hasan-ı Basrî’nin (ö. 110/728) Basra’daki ders halkasında büyük günah işleyenin durumu sorulmuş, öğrencisi Vâsıl b. Atâ (ö. 131/748) hocasının cevabını beklemeden “O ne mümindir ne kâfir; iki yer arasındadır (el-menzile beyne’l-menzileteyn)” demiş ve mescidin başka bir köşesine çekilmiştir. Hasan-ı Basrî’nin “Bizden ayrıldı (i’tezele anna)” sözünden Mu’tezile adının geldiği nakledilir.",
+  "Bu dönemde iç etkenlerin yanında dış etkenler de rol oynadı. Fetihlerle İslam coğrafyası Hristiyan, Yahudi, Mecûsî, Maniheist (Mâniyye), Sâbiî ve Hint (Sümeniyye, Berâhime) inançlarıyla temas etti. Bu inançların mensupları İslam’a itirazlar yöneltiyor, yeni Müslüman olanlar eski kültürlerinden bazı kavramları taşıyordu. Emevîlerin sonunda başlayan, Abbâsîler döneminde Halife Me’mûn’un kurduğu Beytü’l-hikme ile zirveye ulaşan tercüme hareketi Yunan mantığını ve felsefesini İslam dünyasına taşıdı. Bu itirazlara aynı silahla, yani akıl ve mantıkla cevap verme ihtiyacı, kelamı sistemli bir ilim hâline getirdi.",
+  {
+   "tablo": [
+    [
+     "İç etkenler",
+     "Dış etkenler"
+    ],
+    [
+     "Hilafet tartışması, Cemel ve Sıffîn",
+     "Fethedilen bölgelerdeki din ve kültürlerle karşılaşma"
+    ],
+    [
+     "Büyük günah ve iman-amel ilişkisi",
+     "Hristiyan, Yahudi, Maniheist ve Hint düşünürlerinin itirazları"
+    ],
+    [
+     "Kader ve insan hürriyeti tartışmaları",
+     "Tercüme hareketi ile Yunan felsefe ve mantığının gelmesi"
+    ],
+    [
+     "Müteşâbih ayetlerin farklı yorumlanması",
+     "İslam’ı akılla savunma ihtiyacı"
+    ]
+   ]
+  },
+  "Ehl-i sünnet çizgisinde bu tartışmalara ilk sistemli cevapları verenlerden biri Ebû Hanîfe’dir. el-Fıkhu’l-ekber, el-Fıkhu’l-ebsat, el-Âlim ve’l-müteallim, er-Risâle ve el-Vasiyye ona nispet edilen inanç risaleleridir. Ebû Hanîfe, Mâtürîdîliğin fikrî temelini oluşturur.",
+  "■ Mihne: Kur’an mahluk mu?",
+  "Abbâsî Halifesi Me’mûn, Mu’tezile’nin “Kur’an mahluktur” görüşünü resmî görüş ilan etti ve 218/833’te kadı ve âlimleri bu görüşü kabul etmeye zorlayan sorgulamayı başlattı. Bu olaya “mihne” (imtihan, sıkıntı) denir. Mu’tasım ve Vâsik dönemlerinde de süren mihnede en çok direnen ve işkence gören âlim Ahmed b. Hanbel’dir. Mütevekkil döneminde (234/848 civarı) mihneye son verildi. Mihne, Mu’tezile’nin halk nezdinde itibarını kaybetmesine, Ehl-i hadisin güçlenmesine yol açtı.",
+  {
+   "kontrol": "Mihnenin sona eriş yılı kaynaklarda 232-237 arasında farklı verilir; yaygın kabul Mütevekkil’in ilk yılları (234/848 civarı) şeklindedir."
+  },
+  {
+   "sinav": "ÖSYM, doğuş sebeplerini iç-dış etken ayrımıyla sorar: tercüme hareketi ve başka din mensuplarıyla tartışmalar dış etkendir; Sıffîn, büyük günah, hilafet iç etkendir. Vâsıl b. Atâ – Hasan-ı Basrî – “el-menzile beyne’l-menzileteyn” üçlüsü ve mihne – Me’mûn – Ahmed b. Hanbel üçlüsü sık sorulur."
+  },
+  {
+   "akil": "Kelamın doğuşu: siyasetten itikada. Sıffîn ve tahkim → Hâricîler; büyük günah → Mürcie ve Mu’tezile; kader → Kaderiyye-Cebriyye; dış etken → tercüme hareketi ve başka dinlerle tartışma. Ebû Hanîfe Ehl-i sünnet kelamının öncüsüdür."
+  },
+  {
+   "b": "4. Gelişim: Mütekaddimîn, müteahhirîn ve yeni ilm-i kelam"
+  },
+  {
+   "merak": "İbn Haldun, Gazzâlî’den sonraki kelam kitaplarını okuyan birinin, bunların kelam mı felsefe mi olduğunu ayırt etmekte zorlanacağını söyler. Kelam bu noktaya nasıl geldi?"
+  },
+  "Hicrî 3. asırda İbn Küllâb (ö. 240/854 civarı) ve Hâris el-Muhâsibî (ö. 243/857) gibi âlimler, Ehl-i sünnet inancını aklî yöntemlerle savunmaya başladı. Hicrî 4. asırda Ehl-i sünnet kelamı iki büyük imam tarafından sistemleştirildi:",
+  "• Ebû Mansûr el-Mâtürîdî (ö. 333/944), Semerkant’ta Ebû Hanîfe’nin görüşlerini sistemleştirdi. Günümüze ulaşan eserleri Kitâbü’t-Tevhîd ve Te’vîlâtü’l-Kur’ân’dır. Akla Eş’arîlerden daha geniş yer verir.",
+  "• Ebü’l-Hasan el-Eş’arî (ö. 324/935-36), kırk yaşına kadar Mu’tezilî (hocası Ebû Ali el-Cübbâî) iken Mu’tezile’den ayrıldı ve Ehl-i sünnet akidesini savundu. Eserleri: el-İbâne an usûli’d-diyâne, el-Luma’, Makālâtü’l-İslâmiyyîn.",
+  {
+   "tablo": [
+    [
+     "Dönem",
+     "Özellik",
+     "Önemli isimler ve eserler"
+    ],
+    [
+     "Mütekaddimîn (4.-5. asır, Gazzâlî’ye kadar)",
+     "Cevher-araz teorisine dayanır; felsefeye mesafelidir; “delilin bâtıl olması, medlûlün (ispat edilenin) bâtıl olmasını gerektirir” ilkesini benimser",
+     "Eş’arî çizgisinde: Bâkıllânî (et-Temhîd), İbn Fûrek, Cüveynî (el-İrşâd, eş-Şâmil); Mâtürîdî çizgisinde: Hakîm es-Semerkandî, Ebü’l-Yüsr el-Pezdevî (Usûlü’d-dîn), Ebü’l-Muîn en-Nesefî (Tebsıratü’l-edille)"
+    ],
+    [
+     "Geçiş: Gazzâlî (ö. 505/1111)",
+     "Filozofları eleştirirken onların mantığını kelama taşıdı; mantığı ilimlerin ölçüsü saydı",
+     "Tehâfütü’l-felâsife, el-İktisâd fi’l-i’tikād, İlcâmü’l-avâm an ilmi’l-kelâm, el-Munkız mine’d-dalâl"
+    ],
+    [
+     "Müteahhirîn (Gazzâlî sonrası)",
+     "Felsefî konular ve kavramlar kelama girdi; eserler mukaddime-umûr-ı âmme bölümleriyle başlar; delilin bâtıllığı medlûlün bâtıllığını gerektirmez",
+     "Fahreddin er-Râzî (el-Muhassal, el-Metâlibü’l-âliye), Âmidî (Ebkârü’l-efkâr), Beyzâvî (Tavâliu’l-envâr), Îcî (el-Mevâkıf), Teftâzânî (el-Makāsıd, Şerhu’l-Akāid), Cürcânî (Şerhu’l-Mevâkıf)"
+    ],
+    [
+     "Şerh-hâşiye dönemi",
+     "Muteber metinler üzerine şerh ve hâşiyeler",
+     "Osmanlı âlimleri: Hayâlî, Kastallânî vb. Nesefî Akāidi hâşiyeleri"
+    ],
+    [
+     "Yeni ilm-i kelam (19.-20. yy)",
+     "Pozitivizm, materyalizm, Darwinizm gibi yeni akımlara cevap; yöntem ve konuların yenilenmesi çağrısı",
+     "Şiblî Nu’mânî (terimi ilk kullanan; İlm-i Kelâm-ı Cedîd), Seyyid Ahmed Han, Muhammed Abduh (Risâletü’t-Tevhîd), İzmirli İsmail Hakkı (Yeni İlm-i Kelâm), Filibeli Ahmed Hilmi"
+    ]
+   ]
+  },
+  "Mâtürîdî ekolünün ekolleşmesinde en büyük pay Ebü’l-Muîn en-Nesefî’nin (ö. 508/1115) Tebsıratü’l-edille’sidir. Necmeddin Ömer en-Nesefî’nin (ö. 537/1142) kısa metni el-Akāid ve Teftâzânî’nin buna yazdığı Şerhu’l-Akāid ise medreselerde yüzyıllarca okutulmuştur. Nûreddin es-Sâbûnî’nin el-Bidâye’si de Mâtürîdî kelamının özlü kaynaklarındandır.",
+  "■ Kelama yöneltilen eleştiriler",
+  "Kelam her dönemde eleştirildi. Ehl-i hadis (Ahmed b. Hanbel ve takipçileri) kelamı bid’at sayarak inançta yalnız nassa bağlı kalmayı savundu; Herevî Zemmü’l-kelâm adlı eser yazdı. Gazzâlî, İlcâmü’l-avâm’da kelamı halk için zararlı, ilaç gibi ancak gerektiğinde kullanılacak bir ilim olarak niteledi. Filozof İbn Rüşd (ö. 595/1198), Faslü’l-makāl ve el-Keşf an menâhici’l-edille’de kelamcıların delillerinin ne halkı ne de filozofları tatmin ettiğini söyleyerek kelama en sistemli eleştiriyi yöneltti; Gazzâlî’nin Tehâfüt’üne de Tehâfütü’t-Tehâfüt ile cevap verdi. İbn Teymiyye (ö. 728/1328) ise Der’ü teâruzi’l-akl ve’n-nakl’de akıl ile naklin çatışmadığını savunarak kelamcıların yöntemini eleştirdi.",
+  "■ Kelamın yöntemleri",
+  "Kelamcılar akıl ile nakli birlikte kullanır. Gaybî konularda vahiy esastır; ancak vahyin doğruluğunu (Allah’ın varlığı ve peygamberin doğruluğu) ispatta akıl öncelik taşır; çünkü akılla ispat edilmeden nakle dayanmak kısır döngü olur. Başlıca akıl yürütme yolları:",
+  {
+   "tablo": [
+    [
+     "Yöntem",
+     "Açıklama"
+    ],
+    [
+     "Kıyâsü’l-gāib ale’ş-şâhid",
+     "Görünenden (şâhid) görünmeyene (gāib) akıl yürütme: “Eser, müessirsiz olmaz; âlem bir eserdir, öyleyse müessiri vardır.”"
+    ],
+    [
+     "Sebr ve taksîm",
+     "Bir meselenin bütün ihtimallerini sayıp (taksîm) tek tek sınayarak (sebr) bâtıl olanları eleyip doğruyu bırakma"
+    ],
+    [
+     "İlzâm",
+     "Karşı tarafı kendi kabul ettiği öncüllerle çelişkiye düşürme"
+    ],
+    [
+     "Cedel",
+     "Karşı tarafın kabul ettiği öncüllerle tartışma (münâzara)"
+    ],
+    [
+     "Delil-i temânu’ ve burhân-ı tatbîk",
+     "Tevhidi ve sonsuz silsilenin imkânsızlığını ispat eden özel deliller"
+    ]
+   ]
+  },
+  {
+   "not": "Kelam ile felsefe her ikisi de varlık, bilgi ve değer konularını aklî yöntemle ele alır. Fark şudur: Kelam vahyi kesin bilgi kaynağı kabul eder ve inancı savunma amacı taşır; felsefe vahye bağlı olmadan her şeyi sorgular, sonucu baştan belirlemez. Gazzâlî ve Fahreddin er-Râzî hem kelam hem felsefe alanında eser veren önemli isimlerdir."
+  },
+  {
+   "sinav": "Mütekaddimîn-müteahhirîn ayrımı ÖSYM’nin sevdiği bir konudur: “delilin butlanı medlûlün butlanını gerektirir” ilkesi mütekaddimîne aittir; felsefî konuların kelama girmesi müteahhirîne. Gazzâlî iki dönemin sınırıdır. Eser-müellif eşleştirmelerinde Tebsıratü’l-edille (Ebü’l-Muîn en-Nesefî) ile el-Akāid’i (Necmeddin Ömer en-Nesefî) karıştırma. Tehâfütü’t-Tehâfüt İbn Rüşd’ündür."
+  },
+  {
+   "akil": "4. asır: Mâtürîdî ve Eş’arî sistemi kurdu. Gazzâlî’ye kadar mütekaddimîn, sonrası müteahhirîn (felsefeli kelam). Yeni ilm-i kelam terimini ilk Şiblî Nu’mânî kullandı. En sistemli eleştiri İbn Rüşd’den."
+  },
+  {
+   "b": "5. Bilgi teorisi: Eşyanın hakikati vardır"
+  },
+  {
+   "merak": "Necmeddin en-Nesefî’nin medreselerde ezberletilen el-Akāid’i ilginç bir cümleyle başlar: “Ehl-i hakka göre eşyanın hakikatleri sabittir ve onları bilmek gerçekleşebilir; Sofistlere muhalif olarak.” Allah’tan, peygamberden önce neden “eşyanın gerçekliği” konusu açılır?"
+  },
+  "Cevap basittir: Bilginin imkânı kabul edilmeden hiçbir şey ispat edilemez. “Hiçbir şey bilinemez” diyen birine Allah’ın varlığını ispat etmeye çalışmak boşunadır. Bu yüzden klasik kelam eserleri bilgi teorisiyle başlar. Mâtürîdî’nin Kitâbü’t-Tevhîd’i, bilgi yollarını ele alarak başlayan ilk sistemli kelam eserlerindendir.",
+  "Kelamcılara göre ilim (bilgi), “bilinen şeyi olduğu gibi kavramak”tır. Teftâzânî’nin aktardığı tanıma göre ilim, kendisiyle nitelenen kişiye bir şeyin açıkça belirmesini (tecellî) sağlayan sıfattır. Sofistler (Sûfestâiyye) ise eşyanın gerçekliğini ya da bilinebilirliğini inkâr eder. Kelamcılar onları üç gruba ayırır:",
+  {
+   "tablo": [
+    [
+     "Sofist grubu",
+     "Görüşü",
+     "Kelamcıların cevabı"
+    ],
+    [
+     "İnâdiyye",
+     "Eşyanın hakikatini tamamen inkâr eder; her şey hayaldir",
+     "Bu iddianın kendisi de bir hakikat iddiasıdır; inatçıyla tartışılmaz"
+    ],
+    [
+     "İndiyye",
+     "Eşyanın hakikati kişinin inancına göre değişir; sana göre doğru olan bana göre yanlış olabilir",
+     "Bir şey aynı anda hem var hem yok olamaz; görecelik iddiası kendini çürütür"
+    ],
+    [
+     "Lâedriyye",
+     "Eşyanın varlığı hakkında şüphedeyiz; bilmiyoruz",
+     "Şüphe ettiğini bilmek de bir bilgidir"
+    ]
+   ]
+  },
+  "■ Bilginin çeşitleri",
+  "Bilgi önce sahibine göre ikiye ayrılır: Allah’ın ilmi “kadîm” (ezelî) ilimdir; zorunlu da kesbî de değildir, bir sebebe dayanmaz. İnsanın ilmi ise “hâdis” ilimdir ve iki türlüdür:",
+  {
+   "tablo": [
+    [
+     "Bilgi türü",
+     "Tanım",
+     "Örnek"
+    ],
+    [
+     "Zarûrî (bedîhî)",
+     "Düşünme ve delil gerektirmeden kendiliğinden elde edilen bilgi",
+     "“Bütün, parçasından büyüktür”; “İki zıt bir arada bulunmaz”; kişinin kendi varlığını bilmesi"
+    ],
+    [
+     "Kesbî / nazarî (istidlâlî)",
+     "Akıl yürütme ve delil sonucunda elde edilen bilgi",
+     "Âlemin bir yaratıcısı olduğu; dumandan ateşin varlığına ulaşmak"
+    ],
+    [
+     "Yakînî",
+     "Şüphe taşımayan kesin bilgi; aklî olanına “burhânî” de denir",
+     "Mütevâtir habere dayalı bilgi"
+    ],
+    [
+     "Zannî",
+     "Doğru olma ihtimali ağır basan ama kesinlik taşımayan bilgi",
+     "Âhâd habere dayalı bilgi"
+    ],
+    [
+     "Şek",
+     "İki ihtimalin eşit olması",
+     ""
+    ],
+    [
+     "Vehim",
+     "Zayıf ihtimal",
+     ""
+    ],
+    [
+     "Cehl-i mürekkeb",
+     "Yanlışı doğru sanmak; bilmediğini de bilmemek",
+     ""
+    ]
+   ]
+  },
+  "■ Bilginin kaynakları (esbâbü’l-ilm)",
+  "Nesefî’nin formülüne göre Ehl-i sünnette bilginin sebepleri üçtür: sağlam duyular (havâss-ı selîme), doğru haber (haber-i sâdık) ve akıl. Mâtürîdî aynı üçlüyü “iyân” (gözlem, duyular), “haber” ve “nazar” (akıl yürütme) terimleriyle verir.",
+  "1. Sağlam duyular: İşitme, görme, koklama, tatma ve dokunma. Her duyu kendine ait alanı bilir; göz renk, kulak ses algılar. Duyunun “selim” (sağlam) olması şarttır; hastalıklı ya da yanıltıcı şartlardaki algı bilgi değildir. Duyular, şehadet âleminin bilgisini verir; gayb âlemi hakkında bilgi vermez.",
+  "2. Haber-i sâdık (doğru haber): Gerçeğe uygun olan haberdir. İki türlüdür:",
+  {
+   "tablo": [
+    [
+     "Haber türü",
+     "Tanımı",
+     "Verdiği bilgi"
+    ],
+    [
+     "Mütevâtir haber",
+     "Yalan üzerinde birleşmeleri aklen düşünülemeyecek kalabalık bir topluluğun, duyuya dayanan bir olayı yine aynı nitelikteki topluluğa aktarması",
+     "Zarûrî (kesin, kendiliğinden) bilgi: Görmediğimiz uzak ülkelerin, geçmişteki hükümdarların varlığını bilmemiz gibi"
+    ],
+    [
+     "Resulün haberi",
+     "Mûcize ile doğruluğu desteklenmiş peygamberin bildirdiği haber",
+     "İstidlâlî bilgi: Doğruluğu, mûcizeye dayanan bir akıl yürütmeyle bilinir; kesinliği bakımından zarûrî bilgi gibidir"
+    ]
+   ]
+  },
+  "Mütevâtir haberde haber verenlerin Müslüman olması, sayılarının belli bir rakam olması şart değildir; şart olan, sayılarının ve hâllerinin yalan üzerinde birleşmeyi imkânsız kılması, haberin gözlem veya işitme gibi bir duyuya dayanması ve bu niteliğin her nakil tabakasında bulunmasıdır. Kur’an’ın bize ulaşması mütevâtirdir. Âhâd haber (tevâtür derecesine ulaşmayan haber) ise zannî bilgi ifade eder; çoğunluğa göre amelde delildir, fakat kesin bilgi gerektiren temel inanç esaslarında tek başına delil olmaz. Bununla birlikte kabir sorgusu gibi ayrıntılar âhâd haberlerle de desteklenir.",
+  "3. Akıl: Kalbe yerleştirilmiş, eşyanın iyisini kötüsünü ayırt etmeye yarayan bir güç (nur) olarak tanımlanır. Akıl iki yolla bilgi verir: Bedîhî (zarûrî) bilgiler ki ayrıca delil istemez; istidlâlî bilgiler ki duyu ve haberden gelen veriler üzerinde akıl yürütülerek elde edilir. Allah’ın varlığı, peygamberin doğruluğu gibi konular akılla bilinir.",
+  "■ İlham ve keşf bilgi kaynağı mıdır?",
+  "İlham, bir bilginin delil ve araştırma olmaksızın kalbe doğmasıdır. Nesefî’ye göre ilham, Ehl-i hak yanında bir şeyin doğruluğunu bilmek için sebep değildir. Yani ilham, sahibi için bir kanaat oluşturabilir; ama başkası için bağlayıcı bir delil olamaz ve dinî hüküm koyamaz. Mutasavvıfların “keşf” dediği manevî bilgi de aynı şekilde değerlendirilir: Kitap ve sünnete uygunsa kişisel bir lütuftur; değilse reddedilir. Rüya da bağlayıcı bilgi kaynağı değildir; peygamberlerin rüyası ise vahiydir.",
+  {
+   "sinav": "En çok sorulan bilgi: Ehl-i sünnete göre bilginin kaynakları duyular, haber-i sâdık (mütevâtir haber + resulün haberi) ve akıldır; ilham başkası için bağlayıcı değildir. Mütevâtir haber zarûrî, resulün haberi istidlâlî bilgi verir; âhâd haber zannîdir. Mâtürîdî’nin terimleri iyân-haber-nazar. Sofist grupları: inâdiyye (inkâr), indiyye (görecelik), lâedriyye (şüphe)."
+  },
+  {
+   "akil": "Eşyanın hakikati sabittir ve bilinebilir. Bilgi yolları: selim duyular, haber-i sâdık, akıl. Mütevâtir → zarûrî bilgi; resulün haberi → istidlâlî bilgi; âhâd → zan. İlham ve rüya başkasını bağlamaz."
+  },
+  {
+   "b": "6. Akıl ve vahiy: Mâtürîdî, Eş’arî ve Mu’tezile nerede ayrılır?"
+  },
+  {
+   "merak": "Hiçbir peygamberin tebliğinin ulaşmadığı ıssız bir dağ başında büyüyen akıllı bir insan düşünün (klasik kitaplarda “şâhikulcebel” örneği). Allah’a inanmadan ölürse sorumlu olur mu?"
+  },
+  "Bu soru, akıl-vahiy ilişkisinin turnusol kâğıdıdır. Ebû Hanîfe’nin şu sözü Mâtürîdî çizgisini özetler: “Allah hiçbir peygamber göndermeseydi bile, akıl sahiplerinin akıllarıyla O’nu bilmeleri gerekirdi.” Mâtürîdîlere göre Allah’ın varlığını bilmek (ma’rifetullah) akılla vaciptir; dağ başındaki insan akıl yürütme imkânı bulup buna rağmen inanmazsa sorumludur. Ancak ibadetler ve şer’î hükümler vahiyle gelir; bunlardan vahiy ulaşmadan sorumlu tutulmaz.",
+  "Eş’arîlere göre hiçbir yükümlülük vahiy gelmeden doğmaz. Akıl Allah’ı bilebilir; fakat bilmenin vacip olması aklın değil, şer’in hükmüdür: “Biz bir peygamber göndermedikçe azap edici değiliz” (İsrâ, 17/15). Bu yüzden tebliğ ulaşmamış kişi sorumlu değildir. Mu’tezile ise Mâtürîdîlerden de ileri giderek aklın yalnız Allah’ın varlığını değil, iyi ve kötünün hükmünü de belirlediğini; vahyin aklın bildiğini teyit ettiğini söyler.",
+  {
+   "ayet": "Kim doğru yola gelirse kendi iyiliği için gelir; kim saparsa kendi aleyhine sapar. Hiçbir günahkâr başkasının günahını yüklenmez. Biz bir peygamber göndermedikçe azap edici değiliz.",
+   "kay": "İsrâ, 17/15"
+  },
+  {
+   "tablo": [
+    [
+     "Mesele",
+     "Mâtürîdîler",
+     "Eş’arîler",
+     "Mu’tezile"
+    ],
+    [
+     "Allah’ı bilmenin vacip oluşu",
+     "Akılla vaciptir (vahiy gelmese de)",
+     "Şer’ ile vaciptir",
+     "Akılla vaciptir; mükellefin ilk vazifesi nazardır"
+    ],
+    [
+     "Tebliğ ulaşmayan akıllı kişi",
+     "İman etmekten sorumludur; ibadetlerden sorumlu değildir",
+     "Hiçbir şeyden sorumlu değildir",
+     "Hem iman hem aklın bildiği iyiliklerden sorumludur"
+    ],
+    [
+     "Hüsün ve kubuh (iyi-kötü)",
+     "Eşyada zâtî iyilik-kötülük vardır, akıl bunların bir kısmını idrak eder; ama hükmü (sevap-ceza) koyan Allah’tır",
+     "İyi ve kötü eşyada zâtî değildir; Allah’ın emrettiği iyi, yasakladığı kötüdür (şer’î)",
+     "İyilik-kötülük eşyada zâtîdir; akıl bilir ve hükmeder, vahiy teyit eder"
+    ],
+    [
+     "Akıl-nakil ilişkisi",
+     "Orta yol: Akıl naklin anlaşılmasında temel araçtır",
+     "Naklin önceliği; akıl yardımcı",
+     "Aklın önceliği; nakil aklın bildiğini doğrular"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Bazı ders kitaplarında (MTSB tablosu gibi) Mu’tezile için de “iyi ve kötü akılla bilinir ama belirlenemez” denmektedir. Klasik kaynaklara göre bu ifade Mâtürîdîlere uyar; Mu’tezile ise aklı hükmün belirleyicisi sayar. Sınavda “akıl iyiyi kötüyü bilir ama hükmü koyan Allah’tır” görüşü için Mâtürîdîliği seçin."
+  },
+  {
+   "sinav": "Senaryo soruları: “Peygamber tebliği ulaşmamış kişi” ifadesi gördüğünüzde Mâtürîdî-Eş’arî ayrımını düşünün: Mâtürîdî imandan sorumlu tutar, Eş’arî tutmaz. “İyi ve kötüyü belirleyen yalnızca Allah’ın emir ve yasağıdır” → Eş’arî. “Akıl iyiyi kötüyü idrak eder, fakat yükümlülük vahiyle gelir” → Mâtürîdî."
+  },
+  {
+   "akil": "Mâtürîdî: Allah’ı bilmek akılla vacip, şer’î hükümler vahiyle. Eş’arî: Her vecibe şer’le; tebliğ yoksa sorumluluk yok. Mu’tezile: Akıl hem bilir hem hükmeder. Hüsün-kubuh: Mu’tezile ve Mâtürîdî aklî (farklı derecede), Eş’arî şer’î."
+  }
+ ],
+ "ozet": [
+  "Kelam: İslam inanç esaslarını aklî ve naklî delillerle ispat eden, şüpheleri gideren ilim; kelamda derinleşmek farz-ı kifâyedir.",
+  "Usûl-i selâse: ilâhiyyât, nübüvvât, sem’iyyât. Mesâil = asıl esaslar; vesâil = bilgi teorisi, cevher-araz, sebr-taksîm gibi araçlar.",
+  "Tanımlar: Cürcânî (zât-sıfat, mebde-meâd, İslam kanunu üzere), Îcî (ispat gücü kazandıran), İbn Haldun (bid’atçıları reddetme), Fârâbî (savunma sanatı).",
+  "Adları: el-Fıkhu’l-ekber (Ebû Hanîfe), ilmü’t-tevhîd ve’s-sıfât, usûlü’d-dîn, akāid, nazar ve istidlâl, kelam.",
+  "“Kelam” adının sebebi: en çok tartışılan kelâm sıfatı/halku’l-Kur’ân; “el-kelâm fî” başlıkları; tartışma gücü kazandırması.",
+  "Doğuş: iç etkenler (hilafet, Sıffîn-tahkim, büyük günah, kader) + dış etkenler (başka dinlerle tartışma, tercüme hareketi).",
+  "Vâsıl b. Atâ, Hasan-ı Basrî’nin meclisinden ayrıldı: el-menzile beyne’l-menzileteyn → Mu’tezile.",
+  "Mihne: 218/833 Me’mûn başlattı, Ahmed b. Hanbel direndi, Mütevekkil bitirdi.",
+  "Mâtürîdî (ö. 333/944): Kitâbü’t-Tevhîd, Te’vîlât. Eş’arî (ö. 324/935): el-İbâne, el-Luma’, Makālât.",
+  "Mütekaddimîn: Gazzâlî’ye kadar; “delilin butlanı medlûlün butlanını gerektirir”. Müteahhirîn: Râzî, Îcî, Teftâzânî, Cürcânî; felsefeli kelam.",
+  "Kelama eleştiri: Ehl-i hadis, Gazzâlî (İlcâmü’l-avâm), İbn Rüşd (Menâhicü’l-edille, Fasl; en sistemli), İbn Teymiyye (Der’ü teâruz).",
+  "Yeni ilm-i kelam terimini ilk kullanan Şiblî Nu’mânî; Türkiye’de İzmirli İsmail Hakkı.",
+  "Nesefî: Eşyanın hakikatleri sabittir, bilinebilir; Sofistler: inâdiyye, indiyye, lâedriyye.",
+  "Bilgi kaynakları: selim duyular, haber-i sâdık, akıl (Mâtürîdî: iyân, haber, nazar).",
+  "Mütevâtir haber zarûrî; resulün haberi istidlâlî bilgi verir. Âhâd haber zannîdir. İlham başkası için bağlayıcı değildir.",
+  "Allah’ı bilmek: Mâtürîdî’ye göre akılla, Eş’arî’ye göre şer’le vacip. Hüsün-kubuh: Eş’arî şer’î; Mâtürîdî aklî ama hükmü Allah koyar; Mu’tezile tamamen aklî."
+ ],
+ "kartlar": [
+  {
+   "o": "Usûl-i selâse nedir?",
+   "a": "Kelamın üç ana konusu: ilâhiyyât (Allah), nübüvvât (peygamberlik), sem’iyyât (yalnız vahiyle bilinen gaybî konular)."
+  },
+  {
+   "o": "Mesâil ve vesâil farkı",
+   "a": "Mesâil: ulûhiyyet, nübüvvet, meâd gibi asıl inanç konuları. Vesâil: bilgi teorisi, cevher-araz, sebr-taksîm gibi ispat araçları."
+  },
+  {
+   "o": "Cürcânî’nin kelam tanımı",
+   "a": "Allah’ın zât ve sıfatlarından, varlıkların mebde ve meâdından İslam kanunu üzere bahseden ilim (et-Ta’rîfât)."
+  },
+  {
+   "o": "Kelamda derinleşmenin hükmü",
+   "a": "Farz-ı kifâye. İnanç esaslarını icmâlen bilmek ise herkese farz-ı ayndır."
+  },
+  {
+   "o": "el-Fıkhu’l-ekber adı neden verilmiş?",
+   "a": "Ebû Hanîfe’ye göre inanç bilgisi, amelî fıkıhtan daha önemli olduğu için “en büyük fıkıh”tır."
+  },
+  {
+   "o": "“Kelam” adının en önemli sebebi",
+   "a": "İlk dönemde en çok tartışılan meselenin Allah’ın kelâm sıfatı ve halku’l-Kur’ân olması."
+  },
+  {
+   "o": "el-menzile beyne’l-menzileteyn",
+   "a": "Vâsıl b. Atâ’nın görüşü: Büyük günah işleyen ne mümin ne kâfirdir, ikisi arasındadır. Mu’tezile’nin beş esasından biri."
+  },
+  {
+   "o": "Mihne",
+   "a": "218/833’te Me’mûn’un başlattığı, “Kur’an mahluktur” görüşünü dayatan sorgulama; Ahmed b. Hanbel direndi, Mütevekkil sona erdirdi."
+  },
+  {
+   "o": "Mütekaddimîn ilkesi",
+   "a": "“Delilin bâtıl olması, medlûlün bâtıl olmasını gerektirir.” Müteahhirîn bu ilkeyi bıraktı."
+  },
+  {
+   "o": "Tebsıratü’l-edille kimin?",
+   "a": "Ebü’l-Muîn en-Nesefî (ö. 508/1115). el-Akāid ise Necmeddin Ömer en-Nesefî’nindir; şerhi Teftâzânî’nin."
+  },
+  {
+   "o": "Kelama en sistemli eleştiri",
+   "a": "İbn Rüşd: Faslü’l-makāl, el-Keşf an menâhici’l-edille, Tehâfütü’t-Tehâfüt."
+  },
+  {
+   "o": "Sofistlerin üç grubu",
+   "a": "İnâdiyye (hakikati inkâr), indiyye (kişiye göre değişir), lâedriyye (bilmiyoruz, şüphe)."
+  },
+  {
+   "o": "Ehl-i sünnete göre bilginin kaynakları",
+   "a": "Selim duyular, haber-i sâdık (mütevâtir haber ve resulün haberi), akıl."
+  },
+  {
+   "o": "Mütevâtir haber ile resulün haberi hangi bilgiyi verir?",
+   "a": "Mütevâtir: zarûrî bilgi. Resulün haberi: istidlâlî bilgi (mûcizeye dayalı akıl yürütmeyle)."
+  },
+  {
+   "o": "Mâtürîdî’nin bilgi yolları",
+   "a": "İyân (duyularla gözlem), haber, nazar (akıl yürütme)."
+  },
+  {
+   "o": "Şâhikulcebel meselesi",
+   "a": "Tebliğ ulaşmamış akıllı kişi: Mâtürîdî’ye göre Allah’a imandan sorumlu, Eş’arî’ye göre sorumlu değil."
+  },
+  {
+   "o": "Karıştırma: hüsün-kubuh",
+   "a": "Eş’arî: iyi-kötü şer’le belirlenir. Mâtürîdî: akıl idrak eder, hüküm vahyindir. Mu’tezile: akıl bilir ve hükmeder."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "c1-01",
+   "z": 1,
+   "s": "Ehl-i sünnet kelamcılarına göre aşağıdakilerden hangisi, başkaları için de bağlayıcı olan bir bilgi kaynağı değildir?",
+   "c": [
+    "Selim duyular",
+    "Bir velînin kalbine doğan ilham",
+    "Mütevâtir haber",
+    "Akıl",
+    "Mûcizeyle desteklenen peygamberin haberi"
+   ],
+   "d": 1,
+   "a": "Ehl-i sünnete göre bilginin sebepleri selim duyular, haber-i sâdık ve akıldır. İlham sahibine kanaat verebilir, ama başkası için bağlayıcı bilgi kaynağı ve delil değildir.",
+   "ac": [
+    "Havâss-ı selîme bilginin ilk kaynağıdır.",
+    "Doğru: Nesefî’ye göre ilham, Ehl-i hak yanında bir şeyin doğruluğunu bilme sebebi değildir.",
+    "Mütevâtir haber haber-i sâdıkın bir türüdür ve zarûrî bilgi verir.",
+    "Akıl bedîhî ve istidlâlî bilgilerin kaynağıdır.",
+    "Resulün haberi haber-i sâdıkın ikinci türüdür ve istidlâlî bilgi verir."
+   ],
+   "kay": "Necmeddin en-Nesefî, el-Akāid"
+  },
+  {
+   "id": "c1-04",
+   "z": 2,
+   "s": "Kelam ilminin konuları, asıl inanç esaslarını ifade eden “mesâil” ve bunları ispat etmeye yarayan “vesâil” olarak ikiye ayrılır.\n\nI. Cevher ve araz\nII. Sebr ve taksîm\nIII. Nübüvvet\nIV. Meâd\n\nkonularından hangileri vesâil kapsamındadır?",
+   "c": [
+    "I ve II",
+    "I ve IV",
+    "II ve III",
+    "II ve IV",
+    "III ve IV"
+   ],
+   "d": 0,
+   "a": "Cevher-araz teorisi ve sebr-taksîm yöntemi asıl inanç esaslarını ispat etmeye yarayan araçlardır (vesâil). Nübüvvet ve meâd ise inanılması gereken asıl konulardır (mesâil).",
+   "ac": [
+    "Doğru: Biri varlık teorisi, diğeri akıl yürütme yöntemidir; ikisi de araçtır.",
+    "Meâd (ahiret) mesâildendir.",
+    "Nübüvvet mesâildendir.",
+    "Meâd mesâildendir.",
+    "Nübüvvet ve meâd usûl-i selâsenin parçasıdır; mesâildir."
+   ],
+   "kay": "Konu: Kelamın konuları (mesâil-vesâil)"
+  },
+  {
+   "id": "c1-09",
+   "z": 3,
+   "s": "Kelam ilmi tarihsel süreçte şu şekillerde tanımlanmıştır:\n• Allah’ın zât ve sıfatlarından, varlıkların başlangıç ve sonundan İslam kanunu üzere bahseden ilim\n• Delil getirip şüpheleri gidererek dinî inançları ispat etme gücü kazandıran ilim\n• İmanla ilgili inançları aklî delillerle savunan ve inançta selefin yolundan sapan bid’atçıları reddeden ilim\n\nBu tanımlardan hareketle kelam hakkında aşağıdakilerden hangisi söylenemez?",
+   "c": [
+    "Naklin yanında akla da önem verdiği",
+    "Bazı tanımlarda konusunun, bazılarında gayesinin öne çıkarıldığı",
+    "Her Müslümanın bu ilimde derinleşmesinin farz-ı ayn olduğu",
+    "İslam’a aykırı inanç ve düşünceleri çürütmeyi amaçladığı",
+    "Delile dayalı, tahkikî bir imanın oluşmasına katkı sağladığı"
+   ],
+   "d": 2,
+   "a": "Tanımlar kelamın konusunu (zât, sıfat, mebde, meâd), gayesini (ispat ve savunma) ve aklî yöntemini öne çıkarır. Kelamda derinleşmenin farz-ı ayn olduğu tanımlardan çıkmaz; ayrıca bu bilgi yanlıştır, hükmü farz-ı kifâyedir.",
+   "ac": [
+    "İkinci ve üçüncü tanımda aklî delillerden söz edilir.",
+    "İlk tanım (Cürcânî) konuyu, diğerleri (Îcî, İbn Haldun) gayeyi öne çıkarır.",
+    "Doğru: Tanımlarda böyle bir ifade yoktur ve kelamda derinleşmek farz-ı kifâyedir.",
+    "Üçüncü tanım bid’atçıları reddetmekten söz eder.",
+    "Delil getirme ve şüpheleri giderme, tahkikî imanın temelidir."
+   ],
+   "kay": "Cürcânî, et-Ta’rîfât; Îcî, el-Mevâkıf; İbn Haldun, Mukaddime"
+  },
+  {
+   "id": "kl1-01",
+   "z": 3,
+   "s": "Bir felsefe öğrencisi şöyle diyor: “Bir şeyin doğru ya da gerçek olması, ona inanan kişiye bağlıdır. Senin için var olan bir şey, benim için yok olabilir. Herkesin hakikati kendinedir.”\n\nKelam kitaplarında bilgi teorisi bahsinde ele alınan Sofist gruplarından hangisinin görüşü bu öğrencinin sözlerine en yakındır?",
+   "c": [
+    "Lâedriyye",
+    "İnâdiyye",
+    "Sümeniyye",
+    "Berâhime",
+    "İndiyye"
+   ],
+   "d": 4,
+   "a": "Eşyanın hakikatinin kişinin inancına göre değiştiğini, yani hakikatin göreceli olduğunu savunan Sofist grubu indiyyedir (“kişinin yanında, ona göre” anlamındaki “ind” kelimesinden).",
+   "ac": [
+    "Lâedriyye eşyanın varlığı hakkında şüphe eder, “bilmiyoruz” der; göreceliği değil şüpheyi savunur.",
+    "İnâdiyye eşyanın hakikatini tamamen inkâr eder; her şeyin hayal olduğunu söyler.",
+    "Sümeniyye bilgi kaynağı olarak yalnızca duyuları kabul eden bir Hint fırkasıdır, Sofist grubu değildir.",
+    "Berâhime nübüvveti inkâr eden Hint düşünürleridir.",
+    "Doğru: Hakikatin kişiye göre değiştiğini savunan grup indiyyedir."
+   ],
+   "kay": "Necmeddin en-Nesefî, el-Akāid; Teftâzânî, Şerhu’l-Akāid"
+  },
+  {
+   "id": "kl1-02",
+   "z": 3,
+   "s": "Haber-i sâdık ile ilgili olarak;\n\nI. Mütevâtir haber, kendiliğinden ve kesin olan zarûrî bilgi ifade eder.\nII. Peygamberin haberi, doğruluğu mûcizeye dayanan bir akıl yürütmeyle bilindiği için istidlâlî bilgi ifade eder.\nIII. Âhâd haber, inanç esaslarının ispatında tek başına kesin delil kabul edilir.\nIV. Mütevâtir haberde haber verenlerin Müslüman olması şarttır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I ve III",
+    "II ve IV",
+    "I, II ve III",
+    "I, III ve IV"
+   ],
+   "d": 0,
+   "a": "Mütevâtir haber zarûrî, resulün haberi istidlâlî bilgi verir. Âhâd haber zannî bilgi ifade eder; temel inanç esaslarında tek başına kesin delil olmaz. Mütevâtirde haber verenlerin Müslüman olması değil, yalan üzerinde birleşmelerinin aklen imkânsız olması şarttır.",
+   "ac": [
+    "Doğru: I ve II klasik kelamın bilgi teorisini doğru yansıtır.",
+    "Âhâd haber zan ifade eder; itikadın temelinde kesin delil sayılmaz.",
+    "Mütevâtirde din şartı yoktur.",
+    "Üçüncü öncül yanlıştır.",
+    "Üçüncü ve dördüncü öncül yanlıştır."
+   ],
+   "kay": "Teftâzânî, Şerhu’l-Akāid"
+  },
+  {
+   "id": "kl1-03",
+   "z": 2,
+   "s": "Kelam ilminin isimleri ile bu isimlerin verilme gerekçeleri eşleştirilmiştir.\n\nBu eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "el-Fıkhu’l-ekber – İnanç bilgisinin amelî hükümlerden daha önemli görülmesi ve Ebû Hanîfe’nin risalesi",
+    "İlmü’t-tevhîd ve’s-sıfât – En şerefli konusunun Allah’ın birliği ve sıfatları olması",
+    "İlmü’l-akāid – İbadet ve muamelatla ilgili amelî hükümleri delilleriyle ortaya koyması",
+    "İlmü’n-nazar ve’l-istidlâl – Akıl yürütme ve delil getirmeye dayanan yöntemi",
+    "Usûlü’d-dîn – Fıkhın konusu olan füruya karşılık dinin temel esaslarını incelemesi"
+   ],
+   "d": 2,
+   "a": "Akāid, “akd” (bağlamak) kökünden gelir ve kalben bağlanılan inanç esaslarını ifade eder. İbadet ve muamelatla ilgili amelî hükümler fıkhın konusudur.",
+   "ac": [
+    "Doğru eşleştirme: Ebû Hanîfe inanç bilgisini “en büyük fıkıh” saymıştır.",
+    "Doğru eşleştirme: İsim en önemli konudan alınmıştır.",
+    "Yanlış eşleştirme: Amelî hükümler fıkhın (ahkâm-ı fer’iyye) konusudur, akāidin değil.",
+    "Doğru eşleştirme: İsim yöntemden alınmıştır.",
+    "Doğru eşleştirme: Usûl-füru karşıtlığı esastır."
+   ],
+   "kay": "Konu: Kelamın adları"
+  },
+  {
+   "id": "kl1-04",
+   "z": 2,
+   "s": "Ünlü bir tarihçi ve sosyolog, ilimleri tanıttığı meşhur eserinde kelamı “İmanla ilgili inançları aklî delillerle savunan, inançta selefin ve Ehl-i sünnetin yolundan sapan bid’atçıları reddeden bir ilim” diye tanımlar. Aynı müellif, Gazzâlî’den sonraki dönemde kelam ile felsefenin birbirine karıştığını da belirtir.\n\nBu tanımın sahibi aşağıdakilerden hangisidir?",
+   "c": [
+    "Fârâbî",
+    "İbn Haldun",
+    "Teftâzânî",
+    "Adudüddin el-Îcî",
+    "Seyyid Şerif Cürcânî"
+   ],
+   "d": 1,
+   "a": "Bu tanım ve Gazzâlî sonrası kelam-felsefe karışması tespiti İbn Haldun’un Mukaddime’sine aittir. Mütekaddimîn-müteahhirîn ayrımı da onun değerlendirmeleriyle meşhurdur.",
+   "ac": [
+    "Fârâbî, İhsâü’l-ulûm’da kelamı dinin görüşlerini savunan bir sanat olarak tanımlar; tarihçi-sosyolog değildir.",
+    "Doğru: Mukaddime’nin müellifi İbn Haldun’dur.",
+    "Teftâzânî kelamı “kesin delillere dayanan dinî akaid bilgisi” diye tanımlar.",
+    "Îcî’nin tanımı “dinî inançları ispat gücü kazandıran ilim” şeklindedir.",
+    "Cürcânî’nin tanımı “zât, sıfat, mebde ve meâd, İslam kanunu üzere” ifadeleriyle bilinir."
+   ],
+   "kay": "İbn Haldun, Mukaddime"
+  },
+  {
+   "id": "kl1-05",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi, bu ilme “kelam” adının verilmesinin sebepleri arasında gösterilemez?",
+   "c": [
+    "İlk dönemde en çok tartışılan meselenin Allah’ın kelâm sıfatı ve Kur’an’ın yaratılmışlığı olması",
+    "Klasik eserlerde konu başlıklarının “el-Kelâm fî…” ifadesiyle başlaması",
+    "Dinî konularda konuşma ve tartışma gücü kazandırması",
+    "Akla hiç yer vermeyip yalnızca nakli aktarmakla yetinmesi",
+    "Mantığın felsefeye sağladığı gücü şer’î ilimlere sağlaması"
+   ],
+   "d": 3,
+   "a": "Kelam, adını en çok tartışılan kelâm sıfatından, “el-kelâm fî” başlıklarından ve kazandırdığı tartışma gücünden alır. Kelam akla geniş yer veren bir ilimdir; aklı dışladığı iddiası hem yanlıştır hem de isimle ilgisizdir.",
+   "ac": [
+    "Teftâzânî’nin saydığı sebeplerdendir.",
+    "Sayılan sebeplerdendir.",
+    "Sayılan sebeplerdendir.",
+    "Doğru: Kelam akıl ve nakli birlikte kullanır; bu ifade kelamı tanımlamaz.",
+    "Kelamın şer’î ilimler için mantık gibi olduğu söylenir."
+   ],
+   "kay": "Teftâzânî, Şerhu’l-Akāid"
+  },
+  {
+   "id": "kl1-06",
+   "z": 3,
+   "s": "I. Vâsıl b. Atâ’nın Hasan-ı Basrî’nin ders halkasından ayrılması\nII. Halife Me’mûn’un mihneyi başlatması\nIII. Ebü’l-Hasan el-Eş’arî’nin Mu’tezile’den ayrılması\nIV. Gazzâlî’nin Tehâfütü’l-felâsife’yi yazması\nV. Fahreddin er-Râzî’nin el-Muhassal’ı yazması\n\nYukarıdaki olayların kronolojik sıralaması aşağıdakilerden hangisidir?",
+   "c": [
+    "I – II – III – IV – V",
+    "II – I – III – IV – V",
+    "I – III – II – IV – V",
+    "I – II – IV – III – V",
+    "II – III – I – V – IV"
+   ],
+   "d": 0,
+   "a": "Vâsıl b. Atâ’nın ayrılışı hicrî 2. asrın başındadır (Hasan-ı Basrî ö. 110/728). Mihne 218/833’te başladı. Eş’arî Mu’tezile’den 300/912 civarında ayrıldı. Gazzâlî Tehâfüt’ü 5. asrın sonunda (488/1095 civarı), Râzî el-Muhassal’ı 6. asrın sonunda yazdı (ö. 606/1210).",
+   "ac": [
+    "Doğru sıralama.",
+    "Mihne, Vâsıl b. Atâ’dan yaklaşık bir asır sonradır.",
+    "Eş’arî mihneden sonra doğmuştur (260/873).",
+    "Eş’arî, Gazzâlî’den yaklaşık iki asır öncedir.",
+    "Hem ilk sıra hem son sıra yanlıştır; Râzî Gazzâlî’den sonradır."
+   ],
+   "kay": "Konu: Kelamın doğuşu ve gelişimi"
+  },
+  {
+   "id": "kl1-07",
+   "z": 3,
+   "s": "Kelam tarihinde bir dönemin özellikleri şöyle sıralanmıştır:\n• Felsefî konu ve kavramlar kelam eserlerine yoğun biçimde girmiştir.\n• Eserler, varlık ve bilgi gibi genel konuları işleyen uzun mukaddime bölümleriyle başlar.\n• Bir delilin çürütülmesinin, o delille ispat edilen inancın da yanlış olduğunu göstermeyeceği kabul edilmiştir.\n\nBu özellikler aşağıdaki âlimlerden hangisinin temsil ettiği döneme uymaz?",
+   "c": [
+    "Fahreddin er-Râzî",
+    "Adudüddin el-Îcî",
+    "Sa’deddin et-Teftâzânî",
+    "Ebû Bekir el-Bâkıllânî",
+    "Seyyid Şerif Cürcânî"
+   ],
+   "d": 3,
+   "a": "Sayılan özellikler Gazzâlî sonrası müteahhirîn dönemine aittir. Bâkıllânî (ö. 403/1013) ise mütekaddimîn döneminin önde gelen Eş’arî kelamcısıdır ve “delilin butlanı medlûlün butlanını gerektirir” ilkesiyle bilinir.",
+   "ac": [
+    "Râzî müteahhirîn döneminin kurucu isimlerindendir.",
+    "Îcî el-Mevâkıf ile müteahhirîn kelamının temel eserini yazmıştır.",
+    "Teftâzânî el-Makāsıd ve Şerhu’l-Akāid ile müteahhirîndendir.",
+    "Doğru: Bâkıllânî mütekaddimîndendir.",
+    "Cürcânî Şerhu’l-Mevâkıf ile müteahhirîndendir."
+   ],
+   "kay": "İbn Haldun, Mukaddime; Konu: Kelamın gelişim dönemleri"
+  },
+  {
+   "id": "kl1-08",
+   "z": 3,
+   "s": "Bir ilahiyat öğrencisi hocasına şunu sorar: “Hiçbir peygamberin daveti ulaşmamış, ıssız bir dağ başında yetişmiş akıllı bir insan, kâinat üzerinde düşünme imkânı bulduğu hâlde Allah’ın varlığına inanmadan ölse sorumlu olur mu?”\n\nBu soruya Mâtürîdî ve Eş’arî kelamcılarının vereceği cevaplar dikkate alındığında aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Her iki ekole göre de kişi Allah’a imandan ve ibadetlerden sorumludur.",
+    "Her iki ekole göre de akıl Allah’ı bilemeyeceği için kişi sorumlu değildir.",
+    "Eş’arîlere göre imandan sorumludur; Mâtürîdîlere göre sorumlu değildir.",
+    "Mâtürîdîlere göre Allah’a imandan sorumludur; Eş’arîlere göre tebliğ ulaşmadığı için sorumlu değildir.",
+    "Mâtürîdîlere göre hem imandan hem namaz, oruç gibi ibadetlerden sorumludur."
+   ],
+   "d": 3,
+   "a": "Mâtürîdîler, Ebû Hanîfe’nin “Allah peygamber göndermeseydi de akıllıların O’nu bilmesi gerekirdi” sözüne dayanarak Allah’ı bilmeyi akılla vacip sayar; ibadetler ise vahiyle gelir. Eş’arîler “Biz peygamber göndermedikçe azap etmeyiz” (İsrâ, 17/15) ayetine dayanarak tebliğ ulaşmamış kişiyi sorumlu tutmaz.",
+   "ac": [
+    "Mâtürîdîlere göre de ibadetlerden sorumluluk vahiyle doğar; Eş’arîler ise hiç sorumlu tutmaz.",
+    "İki ekol de aklın Allah’ı bilebileceğini kabul eder; ayrılık, bilmenin vacip oluşunun kaynağındadır.",
+    "Görüşler ters çevrilmiştir.",
+    "Doğru: İki ekol arasındaki temel ayrılık budur.",
+    "Mâtürîdîler şer’î hükümlerden sorumluluğu vahye bağlar."
+   ],
+   "kay": "Ebû Hanîfe, el-Fıkhu’l-ekber; İsrâ, 17/15"
+  },
+  {
+   "id": "kl1-09",
+   "z": 3,
+   "s": "İyilik ve kötülüğün (hüsün ve kubuh) bilinmesi konusunda;\n\nI. Mu’tezile’ye göre iyilik ve kötülük eşyanın kendisinde vardır; akıl bunları bilir ve hükmün belirleyicisidir.\nII. Eş’arîlere göre bir şeyi iyi ya da kötü kılan, Allah’ın onu emretmesi ya da yasaklamasıdır.\nIII. Mâtürîdîlere göre akıl bazı şeylerin iyi ya da kötü olduğunu idrak eder; ancak sevap ve cezayı gerektiren yükümlülük Allah’ın hükmüyle doğar.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Üç öncül de üç ekolün görüşünü doğru yansıtır: Mu’tezile’de hüsün-kubuh aklî ve belirleyici; Eş’arîlerde şer’î; Mâtürîdîlerde akıl idrak eder, ama hükmü koyan Allah’tır.",
+   "ac": [
+    "İkinci ve üçüncü öncül de doğrudur.",
+    "Birinci ve üçüncü öncül de doğrudur.",
+    "İkinci öncül de doğrudur; Eş’arîlerin bilinen görüşüdür.",
+    "Birinci öncül de doğrudur.",
+    "Doğru: Üç ifade de doğrudur."
+   ],
+   "kay": "Konu: Akıl-vahiy ilişkisi; hüsün-kubuh"
+  },
+  {
+   "id": "kl1-10",
+   "z": 2,
+   "s": "“Bütün, parçasından büyüktür.” ve “Bir şey aynı anda hem var hem yok olamaz.” önermelerinin doğruluğu, herhangi bir deney, gözlem ya da akıl yürütmeye ihtiyaç duyulmadan kabul edilir.\n\nKelamcılar bu tür bilgiyi aşağıdakilerden hangisiyle adlandırır?",
+   "c": [
+    "İstidlâlî bilgi",
+    "Hissî bilgi",
+    "Mütevâtir habere dayalı bilgi",
+    "Zannî bilgi",
+    "Bedîhî (zarûrî) aklî bilgi"
+   ],
+   "d": 4,
+   "a": "Delil ve düşünme gerektirmeden akıl tarafından kendiliğinden kabul edilen bilgiye bedîhî ya da zarûrî bilgi denir.",
+   "ac": [
+    "İstidlâlî bilgi akıl yürütme ve delil sonucunda elde edilir.",
+    "Hissî bilgi duyularla elde edilir; bu önermeler duyuya dayanmaz.",
+    "Mütevâtir haber de zarûrî bilgi verir, ama bu önermeler habere dayanmaz.",
+    "Zannî bilgi kesinlik taşımaz; bu önermeler kesindir.",
+    "Doğru: Bu önermeler aklın ilk ilkeleridir."
+   ],
+   "kay": "Konu: Bilginin çeşitleri"
+  },
+  {
+   "id": "kl1-11",
+   "z": 2,
+   "s": "Kelam ile felsefe karşılaştırıldığında aşağıdakilerden hangisi söylenemez?",
+   "c": [
+    "Her ikisi de varlık, bilgi ve değer konularıyla ilgilenir.",
+    "Felsefe vahyi temel öncül kabul edip ondan hareket ettiği için kelamdan daha nakilci bir yöntem izler.",
+    "Kelam vahyi kesin bilgi kaynağı kabul ederken felsefe vahye bağlı olmadan araştırır.",
+    "Kelam inanç esaslarını savunma amacı taşırken felsefe sonucu baştan belirlemeden sorgular.",
+    "Her ikisi de aklî yöntemlere başvurur."
+   ],
+   "d": 1,
+   "a": "Kelam vahyi kesin bilgi kaynağı olarak kabul eder; felsefe ise vahye dayanmadan akılla araştırır. Felsefenin vahyi temel öncül aldığı söylenemez.",
+   "ac": [
+    "Ortak noktadır.",
+    "Doğru: İfade gerçeği tersine çevirir; vahyi öncül alan kelamdır.",
+    "Temel farklardandır.",
+    "Temel farklardandır.",
+    "Ortak noktadır."
+   ],
+   "kay": "Konu: Kelam ve felsefe"
+  },
+  {
+   "id": "kl1-12",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi kelam ilminin doğuşunu hazırlayan iç etkenlerden biri değildir?",
+   "c": [
+    "Sıffîn Savaşı ve ardından yaşanan tahkim olayı",
+    "Büyük günah işleyenin durumu hakkındaki tartışmalar",
+    "Abbâsîler döneminde Yunan felsefe ve mantık eserlerinin Arapçaya çevrilmesi",
+    "Halifenin nasıl belirleneceği meselesi",
+    "Kader ve insan hürriyeti hakkındaki tartışmalar"
+   ],
+   "d": 2,
+   "a": "Tercüme hareketi, İslam toplumunun dışından gelen bir düşünce birikiminin etkisidir; bu yüzden dış etkenler arasında sayılır. Diğerleri Müslümanların kendi iç tartışmalarıdır.",
+   "ac": [
+    "Hâricîliği doğuran bir iç etkendir.",
+    "Mürcie ve Mu’tezile’yi doğuran bir iç etkendir.",
+    "Doğru: Tercüme hareketi dış etkendir.",
+    "Şia’nın düşünsel temelini oluşturan bir iç etkendir.",
+    "Kaderiyye ve Cebriyye’yi doğuran bir iç etkendir."
+   ],
+   "kay": "Konu: Kelamın doğuşu"
+  },
+  {
+   "id": "kl1-13",
+   "z": 3,
+   "s": "Mütevâtir haberin kesin bilgi ifade edebilmesi için kelamcıların aradığı şartlarla ilgili aşağıdakilerden hangisi doğru değildir?",
+   "c": [
+    "Haber verenlerin Müslüman ve adalet sahibi kişiler olması",
+    "Haberin gözlem ya da işitme gibi bir duyuya dayanması",
+    "Bu kalabalık niteliğin rivayetin başından sonuna her tabakada bulunması",
+    "Haber verenlerin, yalan üzerinde birleşmeleri aklen düşünülemeyecek sayıda olması",
+    "Haberin, aklın imkânsız gördüğü bir şeyi içermemesi"
+   ],
+   "d": 0,
+   "a": "Mütevâtirde belirleyici olan, sayı ve hâl bakımından yalan üzerinde birleşmenin imkânsız olmasıdır. Uzak bir ülkenin varlığını Müslüman olmayan kalabalıkların haberiyle de kesin olarak biliriz; bu yüzden din ve adalet şartı aranmaz.",
+   "ac": [
+    "Doğru: Müslüman ve âdil olma şartı mütevâtirde aranmaz; bu şart âhâd haberin kabulünde önemlidir.",
+    "Akıl yürütmeye değil duyuya dayanmalıdır.",
+    "Her tabakada tevâtür bulunmalıdır.",
+    "Mütevâtirin temel şartıdır.",
+    "Aklen imkânsız olanın haberi tevâtürle sabit olmaz."
+   ],
+   "kay": "Teftâzânî, Şerhu’l-Akāid"
+  },
+  {
+   "id": "kl1-14",
+   "z": 3,
+   "s": "Kelama yöneltilen eleştiriler bağlamında âlim ile eseri eşleştirilmiştir.\n\nBu eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "İbn Rüşd – el-Keşf an menâhici’l-edille",
+    "Gazzâlî – İlcâmü’l-avâm an ilmi’l-kelâm",
+    "İbn Teymiyye – Der’ü teâruzi’l-akl ve’n-nakl",
+    "Teftâzânî – Tehâfütü’t-Tehâfüt",
+    "Herevî – Zemmü’l-kelâm"
+   ],
+   "d": 3,
+   "a": "Tehâfütü’t-Tehâfüt, İbn Rüşd’ün Gazzâlî’nin Tehâfütü’l-felâsife’sine yazdığı cevaptır. Teftâzânî ise kelamın savunucusudur; el-Makāsıd ve Şerhu’l-Akāid’in müellifidir.",
+   "ac": [
+    "Doğru eşleştirme: İbn Rüşd bu eserde kelamcıların delillerini eleştirir.",
+    "Doğru eşleştirme: Gazzâlî halkın kelamla meşgul olmasını uygun görmez.",
+    "Doğru eşleştirme: İbn Teymiyye akıl-nakil çatışması iddiasını reddeder.",
+    "Yanlış eşleştirme: Eser İbn Rüşd’ündür.",
+    "Doğru eşleştirme: Ehl-i hadis çizgisinden bir kelam eleştirisidir."
+   ],
+   "kay": "Konu: Kelama yöneltilen eleştiriler"
+  },
+  {
+   "id": "kl1-15",
+   "z": 3,
+   "s": "Ebû Mansûr el-Mâtürîdî, Kitâbü’t-Tevhîd’in başında insanın bilgi edinme yollarını üç terimle açıklar. Bu terimlerden biri, beş duyu ile doğrudan gözlem ve algıya karşılık gelir.\n\nMâtürîdî’nin bu anlamda kullandığı terim aşağıdakilerden hangisidir?",
+   "c": [
+    "Nazar",
+    "İyân",
+    "Haber",
+    "İlham",
+    "Keşf"
+   ],
+   "d": 1,
+   "a": "Mâtürîdî bilgi yollarını iyân (duyularla doğrudan gözlem), haber ve nazar (akıl yürütme) olarak sayar. Duyulara karşılık gelen terim iyândır.",
+   "ac": [
+    "Nazar akıl yürütmedir; üçüncü bilgi yoludur.",
+    "Doğru: İyân, gözle görme ve duyularla algılama demektir.",
+    "Haber, mütevâtir haber ve resulün haberini kapsayan ikinci bilgi yoludur.",
+    "İlham Ehl-i sünnette bağlayıcı bilgi kaynağı sayılmaz.",
+    "Keşf mutasavvıfların manevî bilgi yoludur; Mâtürîdî’nin üçlüsünde yer almaz."
+   ],
+   "kay": "Mâtürîdî, Kitâbü’t-Tevhîd"
+  }
+ ]
+}
