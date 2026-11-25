@@ -1,0 +1,89 @@
+<!DOCTYPE html><html lang="tr"><head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Delâilü’l-Hayrât — el-Mihrâb</title><meta name="theme-color" content="#0e5a43">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f4efe3;color:#24302b;--fs:26px}
+#hd{background:linear-gradient(135deg,#0e5a43,#0b4031);color:#fff;padding:calc(10px + env(safe-area-inset-top,0px)) 14px 12px;border-radius:0 0 20px 20px;position:sticky;top:0;z-index:5;box-shadow:0 4px 14px rgba(0,0,0,.15)}
+#hd .top{display:flex;align-items:center;gap:10px}#hd a{color:#fff;text-decoration:none;background:rgba(255,255,255,.2);border-radius:12px;padding:8px 12px;font:600 14.5px system-ui;white-space:nowrap}
+#hd h1{margin:0;font-size:18px;flex:1}
+.tabs{display:flex;gap:6px;margin-top:10px}.tabs button{flex:1;border:0;border-radius:12px;padding:9px 4px;background:rgba(255,255,255,.16);color:#fff;font:600 14px system-ui;cursor:pointer}.tabs button.on{background:#f2dca4;color:#4a3a10}
+.ops{display:flex;gap:8px;justify-content:flex-end;margin-top:8px}.ops button{border:0;background:rgba(255,255,255,.14);border-radius:10px;color:#fff;font:700 13px system-ui;cursor:pointer;padding:5px 10px}
+main{max-width:760px;margin:0 auto;padding:12px 12px 90px}
+.kt{font-size:15px;color:#0e5a43;margin:16px 4px 8px;font-weight:700}
+.bl{display:flex;justify-content:space-between;align-items:center;gap:8px;width:100%;text-align:left;border:0;background:#fffdf8;border-radius:14px;padding:12px 14px;margin:0 0 7px;font:600 15px system-ui;color:inherit;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+.bl .ar2{font-family:Amiri,serif;font-size:19px;font-weight:400;direction:rtl;color:#7a5a14}.bl small{color:#8a8578;font-weight:400}.bl.ok{opacity:.6}.bl.bugun{outline:2px solid #b08a3e}
+.hf{display:grid;grid-template-columns:repeat(8,1fr);gap:5px;margin:6px 0 4px}.hf span{text-align:center;border-radius:10px;padding:7px 0;background:#e9e3d4;font:700 13px system-ui;color:#6b6456}.hf span.ok{background:#0e5a43;color:#fff}.hf span.bg{outline:2px solid #b08a3e}
+.bas{font-family:Amiri,serif;font-size:21px;color:#7a5a14;text-align:center;margin:6px 0 2px}
+.p{background:#fffdf8;border-radius:16px;padding:10px 14px;margin:0 0 9px;box-shadow:0 1px 5px rgba(0,0,0,.05);cursor:pointer;-webkit-tap-highlight-color:transparent}
+.p.im{outline:2px solid #b08a3e;background:#fff8e6}
+.ar{font-family:Amiri,serif;direction:rtl;font-size:var(--fs);line-height:2.1;text-align:justify;margin:0;white-space:pre-line}
+.isim{display:flex;flex-wrap:wrap;direction:rtl;gap:6px 8px;background:#fffdf8;border-radius:16px;padding:12px 14px;margin:0 0 9px;box-shadow:0 1px 5px rgba(0,0,0,.05)}
+.isim span{font-family:Amiri,serif;font-size:calc(var(--fs) - 2px);line-height:1.8;background:#f4efe3;border-radius:10px;padding:0 9px}.isim span i{font-style:normal;color:#b08a3e;margin-right:4px}
+.yo{font-family:Amiri,serif;direction:rtl;font-size:calc(var(--fs) - 5px);color:#7a5a14;text-align:center;margin:10px 0 8px}
+.band{font-family:Amiri,serif;direction:rtl;text-align:center;font-size:calc(var(--fs) - 3px);color:#fff;background:linear-gradient(135deg,#7a5a14,#b08a3e);border-radius:12px;padding:3px 10px;margin:14px 0 9px}
+.son{display:flex;gap:8px;margin:14px 0}.son button{flex:1;border:0;border-radius:14px;padding:13px;font:700 16px system-ui;cursor:pointer}.son .tm{background:#0e5a43;color:#fff}.son .tm.ok{background:#7aa08e}.son .sn{background:#e9e3d4;color:#24302b}
+.geri{border:0;background:#e9e3d4;border-radius:12px;padding:9px 13px;font:600 14px system-ui;cursor:pointer;margin:0 0 6px}
+.note{font-size:12.5px;color:#7a7266;line-height:1.5;padding:4px 6px}
+.ipucu{font-size:13px;color:#5f6b64;background:#eef5f0;border-radius:12px;padding:8px 10px;margin:0 0 10px;line-height:1.5}
+@media(prefers-color-scheme:dark){body{background:#121815;color:#e4ece7}.bl,.p,.isim{background:#1b231f;color:#e4ece7}.isim span{background:#24302a}.p.im{background:#2b2817}.geri,.son .sn,.hf span{background:#2a3530;color:#e4ece7}.kt{color:#8fd0b2}.ipucu{background:#22302a;color:#cfe2d6}.bl .ar2,.yo,.bas{color:#e2c27a}}
+</style></head><body>
+<div id="hd"><div class="top"><a href="./" id="bk">‹ Geri</a><h1>Delâilü’l-Hayrât</h1></div>
+<div class="tabs"><button data-t="bugun">📅 Bugünün hizbi</button><button data-t="hepsi">📚 Bütün bölümler</button></div>
+<div class="ops"><button id="kk" title="Yazıyı küçült">A−</button><button id="kb" title="Yazıyı büyüt">A+</button></div></div>
+<main id="m"></main>
+<script>
+var M=document.getElementById('m'),D=null,T='bugun',B=null;
+var GUN=['Pazar','Pazartesi','Salı','Çarşamba','Perşembe','Cuma','Cumartesi'];
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+/* Hafta pazartesi başlar; okunan hizbler her hafta sıfırlanır */
+function hafta(){var d=new Date();d.setHours(0,0,0,0);d.setDate(d.getDate()-((d.getDay()+6)%7));return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate()}
+var st={};try{st=JSON.parse(localStorage.getItem('mihrab.delail'))||{}}catch(e){}
+st.im=st.im||{};if(st.h!==hafta()){st.h=hafta();st.ok={}}
+function sv(){try{localStorage.setItem('mihrab.delail',JSON.stringify(st))}catch(e){}}
+function fs(){document.body.style.setProperty('--fs',(st.fs||26)+'px')}
+function bul(id){for(var i=0;i<D.bolumler.length;i++)if(D.bolumler[i].id===id)return i;return -1}
+function hizbler(){return D.bolumler.filter(function(b){return /Hizb/.test(b.ad)})}
+function bugunku(){var g=new Date().getDay();for(var i=0;i<D.bolumler.length;i++)if(D.bolumler[i].gun===g)return i;return -1}
+function satir(b,i){var x=D.bolumler[i],ok=st.ok[x.id];return '<button class="bl'+(ok?' ok':'')+(i===b?' bugun':'')+'" data-b="'+i+'"><span>'+(ok?'✓ ':'')+esc(x.ad)+(st.im[x.id]!=null&&!ok?' <small>· kaldığın yer var</small>':'')+'</span><span class="ar2">'+esc(x.ar)+'</span></button>'}
+function ilerleme(){var hz=hizbler(),bg=bugunku(),h='<div class="hf">';hz.forEach(function(x,k){h+='<span class="'+(st.ok[x.id]?'ok':'')+(D.bolumler[bg]===x?' bg':'')+'">'+(k+1)+'</span>'});return h+'</div>'}
+function listele(){var bg=bugunku(),h='';
+ if(T==='bugun'){var x=D.bolumler[bg];
+  h+='<div class="kt">Bugün '+GUN[new Date().getDay()]+' · bu haftanın hizbleri</div>'+ilerleme()+
+   '<p class="ipucu">Delâil, pazartesiden başlayarak sekiz hizb hâlinde bir haftada okunur; 8. hizb hatim günü olan pazartesi okunur. Hizbe başlamadan önce başlangıç duası, Esmâ-i Hüsnâ ve Esmâ-i Nebî okunması âdettir.</p>';
+  ['the-opening-dua','the-names-of-allah','the-names-of-the-prophet'].forEach(function(id){h+=satir(bg,bul(id))});
+  h+=satir(bg,bg);if(new Date().getDay()===1)h+=satir(bg,bul('monday-part-2'))+satir(bg,bul('the-dua-of-completion'))}
+ else{h+='<div class="kt">Açılış</div>';D.bolumler.forEach(function(x,i){if(i===5)h+='<div class="kt">Hizbler</div>';if(x.id==='the-dua-of-completion')h+='<div class="kt">Hatim</div>';h+=satir(bg,i)})}
+ h+='<p class="note">'+esc(D.kaynak)+' Harekeler kaynaktaki gibidir.</p>';return h}
+function oku(i){var x=D.bolumler[i],h='<button class="geri" id="geri">‹ Bölümler</button><div class="kt">'+esc(x.ad)+'</div><div class="bas">'+esc(x.ar)+'</div>'+
+ '<p class="ipucu">Bir paragrafa dokunursan kaldığın yer olarak işaretlenir; sayfayı yeniden açınca oradan devam edersin.</p>',isim=[];
+ function bosalt(){if(isim.length){h+='<div class="isim">'+isim.join('')+'</div>';isim=[]}}
+ x.m.forEach(function(p,k){var kisa=p.a.length<40&&!p.y&&(p.s||x.id==='the-names-of-allah')&&!/^بِسْمِ/.test(p.a);
+  if(p.b){bosalt();h+='<div class="band">'+esc(p.b)+'</div>'}
+  if(kisa){isim.push('<span>'+esc(p.a)+(p.s?'<i>'+esc(p.s)+'</i>':'')+'</span>');return}
+  bosalt();if(p.y){h+='<div class="yo">'+esc(p.a)+'</div>';return}
+  h+='<div class="p'+(st.im[x.id]===k?' im':'')+'" data-k="'+k+'"><p class="ar" lang="ar">'+esc(p.a)+(p.s?' '+esc(p.s):'')+'</p></div>'});
+ bosalt();var ok=st.ok[x.id],sn=i+1<D.bolumler.length?D.bolumler[i+1]:null;
+ h+='<div class="son"><button class="tm'+(ok?' ok':'')+'" id="tm">'+(ok?'✓ Bu hafta okundu':'✓ Okudum')+'</button>'+(sn?'<button class="sn" id="sn">'+esc(sn.ad)+' ›</button>':'')+'</div>';
+ return h}
+function ciz(){document.querySelectorAll('.tabs button').forEach(function(b){b.classList.toggle('on',B==null&&b.dataset.t===T)});
+ if(B==null){M.innerHTML=listele();scrollTo(0,0);return}
+ M.innerHTML=oku(B);var x=D.bolumler[B];document.getElementById('geri').onclick=function(){history.length>1?history.back():git(null)};
+ document.getElementById('tm').onclick=function(){if(st.ok[x.id])delete st.ok[x.id];else{st.ok[x.id]=1;delete st.im[x.id]}sv();ciz()};
+ var s=document.getElementById('sn');if(s)s.onclick=function(){git(B+1,true)};
+ var im=M.querySelector('.p.im');if(im)setTimeout(function(){im.scrollIntoView({block:'center'})},50);else scrollTo(0,0)}
+function git(i,yerine){B=i;try{var u=i==null?'#'+T:'#b-'+D.bolumler[i].id;yerine||i==null?history.replaceState(null,'',u):history.pushState(null,'',u)}catch(_){}ciz()}
+M.addEventListener('click',function(e){var bl=e.target.closest('.bl');if(bl){git(+bl.dataset.b);return}
+ var p=e.target.closest('.p');if(p&&B!=null){var id=D.bolumler[B].id,k=+p.dataset.k;M.querySelectorAll('.p.im').forEach(function(q){q.classList.remove('im')});
+  if(st.im[id]===k)delete st.im[id];else{st.im[id]=k;p.classList.add('im')}sv()}});
+document.querySelector('.tabs').onclick=function(e){var b=e.target.closest('button');if(b){T=b.dataset.t;git(null)}};
+document.getElementById('kk').onclick=function(){st.fs=Math.max(18,(st.fs||26)-2);sv();fs()};
+document.getElementById('kb').onclick=function(){st.fs=Math.min(40,(st.fs||26)+2);sv();fs()};
+function hash(){var h=location.hash.slice(1),m=h.match(/^b-(.+)$/);if(m){var i=bul(m[1]);B=i<0?null:i}else{B=null;if(h==='hepsi'||h==='bugun')T=h}ciz()}
+addEventListener('popstate',function(){if(D)hash()});
+document.getElementById('bk').onclick=function(e){if(document.referrer.indexOf(location.origin)===0&&history.length>1){e.preventDefault();history.back()}};
+fs();
+fetch('data/delail.json?v=1').then(function(r){return r.json()}).then(function(d){D=d;hash()}).catch(function(){M.innerHTML='<p class="note">Metin yüklenemedi; internet bağlantınızı kontrol edin.</p>'});
+</script>
+<script src="hesap-ayar.js?v=1"></script><script src="hesap.js?v=1" defer></script></body></html>
