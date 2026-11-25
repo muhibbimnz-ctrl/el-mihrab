@@ -1,0 +1,13 @@
+rules_version = '2';
+// el-Mihrâb: her kullanıcı yalnız kendi belgesini okuyup yazabilir. Başka hiçbir şeye erişim yok.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /kullanicilar/{uid} {
+      allow read, delete: if request.auth != null && request.auth.uid == uid;
+      allow create, update: if request.auth != null && request.auth.uid == uid
+                            && request.resource.data.veri is string
+                            && request.resource.data.veri.size() < 1000000;
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}
