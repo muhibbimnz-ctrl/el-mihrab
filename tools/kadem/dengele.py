@@ -20,5 +20,5 @@ for f in sys.argv[1:] or sorted(glob.glob(R+'/*.json')):
             for k in ('c','ac'): q[k][s],q[k][t]=q[k][t],q[k][s]
             q['d']=t
         cnt[t]+=1
-    json.dump(d,open(f,'w'),ensure_ascii=False,indent=1)
+    json.dump(d,open(f,'w',newline='\n'),ensure_ascii=False,indent=1)
     print(f.split('/')[-1],dict(sorted(collections.Counter('ABCDE'[q['d']] for q in Q).items())))

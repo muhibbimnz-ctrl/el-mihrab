@@ -38,6 +38,6 @@ for f in sorted(glob.glob(R+'/*.json')):
             for ders in c: assert not dersler or ders in dersler,(k,'harita dışı ders',ders)
             if dersler and c!=collections.Counter(dersler): print('  UYARI',k,'dağılım haritadan farklı',dict(c))
     elif 'denemeler' in m: del m['denemeler']
-    json.dump(m,open(f,'w'),ensure_ascii=False,indent=1)
+    json.dump(m,open(f,'w',newline='\n'),ensure_ascii=False,indent=1)
     print(sid,'konu',len(K),'deneme',len(Dn))
 print('toplam soru',toplam)

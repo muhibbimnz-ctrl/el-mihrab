@@ -134,12 +134,38 @@ Kullanım ilkesi: kitaplardan yalnızca bilgi alınır; metin ve sorular kendi c
 - **MBSTS 6-10. denemeler (300 soru):** son yılların ÖSYM tarzında (uzun paragraf kökü, olay senaryosu, I-II-III öncüllü, eşleştirme, “bu parçada sözü edilen…”). Kullanıcının klasöründeki “2026 MBTS.pdf” (60 soruluk görüntü PDF) OCR ile yalnız tarz ve konu dağılımı için incelendi; ilk taslakta birebir benzeyen sorular çıkınca tamamı farklı örnek ve öncüllerle yeniden yazıldı. Kural aynı: çıkmış soru alınmaz, tarz alınır.
 - Toplam: 32 konu, 521 konu sorusu + 600 deneme sorusu = **1121 soru**; MBSTS’de 10 tam deneme.
 
+### 7. oturum — 25 Kasım 2026 (MBSTS’yi konu listesine göre yeniden kurma: Kur’an Bilgisi bitti)
+- **Kullanıcının yeni hedefi:** MBSTS’den en az 80 alınabilecek, başka kaynak gerektirmeyen içerik. Her ders, kullanıcının verdiği konu listesine göre (aşağıda “Yeniden yapılanma planı”) **her konu ayrı dosya**, ders kitabı derinliğinde. Şimdilik yalnız MBSTS; DHBT bekliyor. Sıra: Kur’an Bilgisi → Tefsir → Kelam → Siyer-İT → Hadis → Mezhepler → Dinler → Fıkıh.
+- **Her konu dosyasında olması gerekenler:** her alt başlık bir merak sorusu (`{"merak":…}`) ya da olayla açılır; bilgi sebep-sonuç içinde anlatılır, listeler tabloyla özetlenir; karıştırılan kavramlar karşılaştırma tablosuyla verilir; ayet/hadis kaynaklı; `{"sinav":…}` (“Sınavda nasıl sorulur?”, ÖSYM tuzakları) ve `{"akil":…}` (“Aklında kalsın”) kutuları; özet 10-20 madde; en az 12 kart; en az 12 soru (paragraf, senaryo, I-II-III, eşleştirme; her şıkka ayrı açıklama, şık açıklamalarında harf geçmez çünkü dengele şıkları karıştırır). Emin olunmayan bilgi `{"kontrol":…}`. Fıkıh Hanefî. Çıkmış soru birebir alınmaz.
+- **Kur’an Bilgisi tamamlandı: 13 konu (kuran-1 … kuran-13), 196 soru, 196 kart.** Eski kuran-1 (vahiy-tarih-yapı) ve kuran-2 (tecvid) bölündü; eski 32 sorunun id’leri korunarak yeni konulara taşındı (k1-xx → kuran-1,3,4,5,6,7,8; k2-xx → kuran-11,12,13). 2026 sınavına neredeyse birebir benzeyen 6 soru (k1-04, k1-05, k1-06, k1-08, k2-04, k2-05) aynı id ile farklı örneklerle yeniden yazıldı. Yeni soru id’leri `kb<konu>-<n>`.
+- Kaynak: mtsb.pdf Kur’an Bilgisi bölümü (sf. 9-50; metin katmanında “a/d” harfleri düşüyor ama okunuyor), GENCO, Köklü Tecvit (2018-2024 çıkmış tecvid soruları), 2026 MBTS ve Tüm Yıllar MBSTS (OCR). mtsb Kur’an bölümünde “Kur’an’ı anlama ve meal bilgisi” de var → kuran-5 (sure kimlikleri) ve kuran-6 (kısa surelerde kelime anlamları, sure içerikleri) içine alındı.
+- **Görünüm:** Kadem ana sayfası sadeleşti: üstte iki büyük kart (MBSTS, DHBT; ilerleme çubuğu, “Kaldığın yer” – son açılan konu `son.<sınav>` ile hatırlanır), diğer 17 sınav katlanır “Diğer sınavlar” listesinde (yalnız ad + biçim; açılışta yüklenmez, ana sayfa hızlandı). Sınav sayfasında karolar ve kart ızgarası kaldırıldı: Bugünün işi → numaralı ders listesi (ilerleme çizgili) → tek satır araç bağlantıları (Denemeler, Tekrar, Yanlış defteri, Program, Özet kitapçığı, Kartlar, Konu haritası). Konu anlatımına yeni bloklar: `merak`, `sinav`, `akil`.
+- **Windows’ta çalışma (bu oturumda bilgisayarda yapıldı):** Python 3.12 (`%LOCALAPPDATA%\Programs\Python\Python312\python.exe`, `pip install cryptography pymupdf`), Tesseract 5.4 (`C:\Program Files\Tesseract-OCR`, Türkçe model `%USERPROFILE%\tessdata\tur.traineddata` → `--tessdata-dir`). Araçları **`PYTHONUTF8=1`** ile çalıştır (yoksa Türkçe JSON cp1254 ile okunur). Araçlar artık JSON’u LF ile yazıyor ve `sifre.py` iv’yi `/` ayraçlı yolla hesaplıyor; böylece değişmeyen dosyaların .enc’i Windows’ta da değişmez.
+- Tarayıcı denemesi (uygulama içi tarayıcı; Chrome eklentisi bağlı değildi): giriş, ana sayfa, MBSTS sayfası, Kur’an Bilgisi ders sayfası (13 konu), kuran-8 anlatımı (merak/sınav/aklında kalsın kutuları, tablolar), kuran-11 testi (yanlış cevap açıklaması, şık açıklamaları) — sorun yok.
+
+### Yeniden yapılanma planı (mevcut dosya → yeni konular)
+Kullanıcının konu listesindeki her satır ayrı dosya olacak. Bir ders yazılırken eski dosyaların soruları id’leri korunarak ilgili yeni konuya taşınır, eski dosya yeni numarayla üzerine yazılır.
+| Ders | Hedef | Eski dosyalar → yeni konular |
+|---|---|---|
+| Kur’an Bilgisi | 13 | ✅ bitti |
+| Tefsir | 9 | tefsir-1 (ulûm, usul) → tefsir-1…4; tefsir-2 (tarih, ekoller) → tefsir-5…8; tefsir-9 (seçme sure ve ayetler) yeni |
+| Akaid ve Kelam | 12 | kelam-1 → kelam-1…10; kelam-2 (ekoller) → kelam-11; kelam-12 (felsefe, yeni ilm-i kelam, deizm-ateizm) yeni |
+| Siyer ve İslam Tarihi | 16 | siyer-1 → siyer-1…7; siyer-2 → siyer-8…16 (Endülüs-Mısır, Türk-İslam, Haçlı-Moğol, Osmanlı kurumları, medeniyet büyük ölçüde yeni) |
+| Hadis | 10 | hadis-1 → hadis-1, 2, 6; hadis-2 → hadis-3, 4, 5; hadis-3 → hadis-7, 8, 9; hadis-10 (yorum ilkeleri, seçme hadisler) yeni |
+| Mezhepler Tarihi | 10 | mezhep-2 → mezhep-1, 2, 4, 6, 8; mezhep-1 → mezhep-3, 10; mezhep-5 (Mu’tezile), 7 (fıkhî mezhepler), 9 (Alevîlik-Bektaşîlik) yeni |
+| Dinler Tarihi | 10 | dinler-2 → dinler-1, 2, 6, 10; dinler-1 → dinler-3, 4, 5, 7, 8, 9 |
+| Fıkıh ve İlmihal | 22 | fikih-1 → 1; fikih-2 → 2, 3, 4; fikih-3 → 6, 7; fikih-4 → 8, 9, 10; fikih-5 → 11; fikih-6 → 12; fikih-7 → 13, 14; fikih-8 → 14, 15; fikih-9 → 16, 17, 18; fikih-10 → 19, 20, 21, 22; fikih-5 (kaideler-makāsıd) yeni. **Dikkat:** fikih-N numaraları anlam değiştiriyor; Fıkıh tek seferde yazılmalı (önce bütün eski soruları bir yere dök). |
+
+### KALDIĞIM YER (sonraki oturum buradan başlar)
+- **Sıradaki ders: TEFSİR** (tefsir-1 … tefsir-9). Önce mtsb.pdf Tefsir bölümü (sf. 51-116), Köklü “Tefsir Tarihi ve Usulü” (çıkmış sorular) ve GENCO tefsir kısmı okunacak. Eski tefsir-1 ve tefsir-2 sorularının id’leri korunacak; çıkmış soruya çok benzeyenler aynı id ile yeniden yazılacak.
+- Kur’an Bilgisi’nde açık ⚑ kontrol kutuları: kuran-1 (fetret süresi), kuran-2 (Mekkî-Medenî sayıları; leylî-firâşî örnekleri), kuran-3 (Kureyş okuryazar sayısı), kuran-4 (Osman nüshaları sayısı/kâriler, Topkapı-Taşkent mushafları, basma mushaf tarihleri), kuran-5 (diğer ayet sayımları; mufassal sınırları; Türkiye’de hizb), kuran-9 (TİEM 73 tarihi; Diyanet meal heyetleri; Batı tercümelerinin yılları), kuran-11 (gunne süresi), kuran-12 (uzatma miktarları).
+
 ## İçerik durumu (25 Kasım 2026, 5. oturum sonu)
 Toplam: **32 konu, 521 konu sorusu + 300 deneme sorusu = 821 açıklamalı soru.**
 
 | Ders (MBSTS / DHBT soru) | Konu dosyaları | Soru |
 |---|---|---|
-| Kur’an Bilgisi (7 / 6) | kuran-1, kuran-2 (tecvid) | 32 |
+| Kur’an Bilgisi (7 / 6) | kuran-1 … kuran-13 (7. oturumda yeniden kuruldu) | 196 |
 | Tefsir (7 / 3) | tefsir-1, tefsir-2 | 33 |
 | Akaid ve Kelam (7 / 6) | kelam-1, kelam-2 | 33 |
 | Fıkıh ve İlmihal (20 / 9) | fikih-1 … fikih-10 (her birinde “Sık sorulan ek bilgiler” tablosu) | 202 |

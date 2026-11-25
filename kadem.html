@@ -46,6 +46,24 @@ h2 em{font-style:normal;color:var(--acc)}
 .serit b{display:block;font:600 24px/1.1 var(--serif);font-variant-numeric:tabular-nums}
 .serit span{font-size:12px;color:var(--muted);letter-spacing:.04em}
 @media(max-width:520px){.serit{grid-template-columns:1fr 1fr}.serit div:nth-child(3){border-left:0}.serit div:nth-child(n+3){border-top:1px solid var(--line)}}
+/* Ana sayfa: iki ana sınav + diğerleri */
+.anakart{display:block;text-decoration:none;color:inherit;background:var(--kagit);border:1px solid var(--line);border-top:3px solid var(--r,var(--acc));border-radius:4px;padding:16px 18px 14px;margin-bottom:12px}
+.anakart .kod{font:700 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.anakart b{display:block;font:600 24px/1.25 var(--serif);margin:4px 0 2px}
+.anakart small{display:block;color:var(--muted);font-size:14px}
+.anakart .devam{margin-top:12px;padding-top:10px;border-top:1px dashed var(--line);font-size:14.5px;display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.anakart .devam span{color:var(--muted)}.anakart .devam strong{font-weight:600;color:var(--ink)}
+.anakart .devam em{font-style:normal;color:var(--r,var(--acc));font-weight:700;white-space:nowrap}
+details.diger{margin-top:26px;border-top:1px solid var(--line);padding-top:6px}
+details.diger>summary{font:700 12.5px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding:10px 0;list-style:none}
+details.diger>summary::-webkit-details-marker{display:none}
+details.diger>summary:before{content:"+ ";color:var(--acc)}details.diger[open]>summary:before{content:"− "}
+.grup-ad{font:600 13px var(--sans);color:var(--muted);margin:16px 0 6px}
+/* Sınav sayfası: sade çalışma listesi */
+.araclar{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0 4px}
+.araclar a{text-decoration:none;color:var(--ink);border:1px solid var(--line);background:var(--kagit);border-radius:3px;padding:6px 11px;font-size:14px}
+.araclar a.vurgu{border-color:var(--yaldiz);color:var(--yaldiz);font-weight:600}
+.satir span small{white-space:normal}
 /* Sınav ana sayfası */
 .bugunkart{display:block;text-decoration:none;color:inherit;background:var(--kagit);border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:4px;padding:13px 16px;margin:16px 0 10px}
 .bugunkart b{display:block;font:600 20px/1.3 var(--serif);margin:3px 0 2px}
@@ -99,6 +117,12 @@ details.ders>summary{color:var(--ink)}
 .metin h3{font:600 19px/1.3 var(--serif);margin:24px 0 6px;padding-bottom:4px;border-bottom:1px solid var(--line)}
 .metin .not{border-left:3px solid var(--yaldiz);padding:6px 12px;background:color-mix(in srgb,var(--yaldiz) 8%,transparent);font-size:15.5px}
 .metin .not:before{content:"Not";display:block;font:700 11px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--yaldiz);margin-bottom:2px}
+.metin .merak{font:italic 17px/1.55 var(--serif);color:var(--ink);margin:4px 0 12px;padding-left:12px;border-left:2px solid var(--acc)}
+.metin .sinav,.metin .akil{padding:8px 12px;font-size:15.5px;border-radius:3px}
+.metin .sinav{border:1px dashed var(--no);background:color-mix(in srgb,var(--no) 5%,transparent)}
+.metin .sinav:before{content:"Sınavda nasıl sorulur?";display:block;font:700 11px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--no);margin-bottom:2px}
+.metin .akil{border:1px solid color-mix(in srgb,var(--acc) 40%,transparent);background:color-mix(in srgb,var(--acc) 6%,transparent)}
+.metin .akil:before{content:"Aklında kalsın";display:block;font:700 11px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--acc);margin-bottom:2px}
 .metin .kontrol{background:var(--uyaribg);border-left:3px solid var(--uyari);padding:8px 12px;font-size:15px}
 .metin .kontrol b{color:var(--uyari)}
 .alinti{margin:14px 0;padding:10px 16px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-family:var(--serif);font-size:17px}
@@ -190,7 +214,7 @@ details summary{cursor:pointer;font-weight:600;margin-top:8px;font-size:14.5px;c
              &t=sonuc[&r=<zaman>] · &t=tekrar · &t=defter · &t=harita · &t=program */
 (function(){
 var $=function(s){return document.querySelector(s)},M=$('#m'),C={},LK='kadem.v1',HARF='ABCDE',GUN=864e5,
- ARALIK=[1,3,7,15,30],ZOR=['','Kolay','Orta','Zor'];
+ ARALIK=[1,3,7,15,30],ZOR=['','Kolay','Orta','Zor'],ANA_ID=['mbsts','dhbt'];
 function oku(){try{return JSON.parse(localStorage.getItem(LK))||{}}catch(e){return{}}}
 function yaz(o){try{localStorage.setItem(LK,JSON.stringify(o))}catch(e){}}
 function guncelle(f){var o=oku();f(o);yaz(o)}
@@ -264,17 +288,22 @@ function dersler(V){var L=[];if(V.harita)V.harita.dersler.forEach(function(d){L.
 function liste(){
  renk('#1d5c4a');saatGizle();$('#bas').textContent='Kadem';document.title='Kadem · el-Mihrâb';$('#geri').textContent='el-Mihrâb';$('#geri').onclick=function(){location.href='index.html'};
  al('data/kadem/sinavlar.json').then(function(L){
-  return Promise.all(L.sinavlar.map(function(s){return sinav(s.id)})).then(function(V){
-   var tk=0,ts=0,td=0,tt=0;V.forEach(function(v,i){tk+=v.konular.length;ts+=v.havuz.length;td+=v.denemeler.length;tt+=bugunku(L.sinavlar[i],v).length});
-   var ss={};V.forEach(function(v){v.konular.forEach(function(k){ss[k.id]=(k.sorular||[]).length})});var tekil=0;for(var x in ss)tekil+=ss[x];
-   var h='<div class="ust-etiket">el-Mihrâb · Sınav hazırlığı</div><h1>Kadem</h1><p class="lead">Diyanet İşleri Başkanlığı personeli ve adayları için: girişten müftülüğe, vaizlikten yurt dışı görevine kadar sınavların konu anlatımı, özeti, tekrar kartları, açıklamalı soruları ve gerçek sınav biçiminde denemeleri.</p>'+
-    '<div class="serit"><div><b>'+Object.keys(ss).length+'</b><span>konu</span></div><div><b>'+tekil+'</b><span>konu sorusu</span></div><div><b>'+td+'</b><span>tam deneme</span></div><div><b>'+tt+'</b><span>bugünkü tekrar</span></div></div>';
-   (L.gruplar||[{id:void 0,ad:''}]).forEach(function(g){var S=L.sinavlar.filter(function(s){return s.grup===g.id});if(!S.length)return;
-    h+=(g.ad?'<h2>'+e(g.ad)+'</h2>':'')+'<div class="izgara">';
-    S.forEach(function(s){var v=V[L.sinavlar.indexOf(s)],k=v.konular,n=v.havuz.length,b=bugunku(s,v).length,dn=v.denemeler.length;
-     h+='<a class="kart'+(k.length?'':' bos')+'" style="--r:'+e(s.renk)+'" href="#s='+e(s.id)+'"><span class="kod"><i></i>'+e(s.id)+'</span><b>'+e(s.ad)+'</b><small>'+e(s.tam)+'</small>'+
-      '<div class="alt"><span>'+e(s.bicim)+'</span><span>'+(k.length?'<strong>'+k.length+'</strong> konu · <strong>'+n+'</strong> soru'+(dn?' · <strong>'+dn+'</strong> deneme':''):'Hazırlanıyor')+(b?' · <strong style="color:var(--yaldiz)">'+b+' tekrar</strong>':'')+'</span></div></a>'});
-    h+='</div>'});
+  var ANA=L.sinavlar.filter(function(s){return ANA_ID.indexOf(s.id)>=0}).sort(function(a,b){return ANA_ID.indexOf(a.id)-ANA_ID.indexOf(b.id)}),
+   DIG=L.sinavlar.filter(function(s){return ANA_ID.indexOf(s.id)<0});
+  return Promise.all(ANA.map(function(s){return sinav(s.id)})).then(function(V){
+   var o=oku(),h='<div class="ust-etiket">el-Mihrâb · Sınav hazırlığı</div><h1>Kadem</h1><p class="lead">Konu anlatımı, özet, kart, açıklamalı test ve gerçek biçimde deneme. Bir sınav seç, kaldığın yerden devam et.</p>';
+   ANA.forEach(function(s,i){var v=V[i],k=v.konular,biten=k.filter(function(x){return o['p.'+s.id+'.'+x.id]!=null}).length,b=bugunku(s,v).length,
+     son=o['son.'+s.id],sx=son&&k.filter(function(x){return x.id===son})[0],yz=k.length?Math.round(100*biten/k.length):0;
+    h+='<a class="anakart" style="--r:'+e(s.renk)+'" href="#s='+e(s.id)+(sx?'&k='+e(sx.id):'')+'"><span class="kod">'+e(s.bicim)+'</span><b>'+e(s.ad)+'</b><small>'+e(s.tam)+'</small>';
+    if(k.length)h+='<div class="cubuk" style="margin-top:12px"><i style="width:'+yz+'%;background:var(--r)"></i></div>'+
+     '<div class="devam"><span>'+(sx?'Kaldığın yer: <strong>'+e(sx.ad)+'</strong>':'<strong>'+biten+' / '+k.length+'</strong> konu çalışıldı'+(b?' · '+b+' tekrar bekliyor':''))+'</span><em>'+(sx?'Devam et ›':'Başla ›')+'</em></div>';
+    else h+='<div class="devam"><span>İçerik hazırlanıyor</span><em>Aç ›</em></div>';
+    h+='</a>'});
+   h+='<details class="diger"><summary>Diğer sınavlar · '+DIG.length+'</summary>';
+   (L.gruplar||[{id:void 0,ad:''}]).forEach(function(g){var S=DIG.filter(function(s){return s.grup===g.id});if(!S.length)return;
+    h+='<div class="grup-ad">'+e(g.ad)+'</div><div class="konular">'+S.map(function(s){
+     return'<a class="satir" href="#s='+e(s.id)+'"><span>'+e(s.ad)+'</span><small>'+e(s.bicim)+'</small></a>'}).join('')+'</div>'});
+   h+='</details>';
    if(L.guncel)h+='<p class="dipnot">Sınav bilgileri '+e(L.guncel)+' itibarıyla resmî duyurulardan derlenmiştir. Başvurmadan önce güncel duyuruyu kontrol edin. Konu anlatımları ve sorular Kadem için özgün olarak yazılmıştır; fıkhî hükümler Hanefî mezhebine göredir.</p>';
    M.innerHTML=h;scrollTo(0,0)})
  }).catch(hata)}
@@ -309,21 +338,17 @@ function sinavSayfa(S,V){
  var biten=k.filter(function(x){return o['p.'+S.id+'.'+x.id]!=null}).length,B=bugunIs(S,V),Z=zayiflar(S,V);
  if(A)h+='<a class="bugunkart" href="'+ad+'&t=deneme&devam=1"><span class="ust-etiket">Yarım kalan deneme</span><b>'+e(A.ad||'Deneme')+'</b><small>'+Object.keys(A.c).length+' / '+A.s.length+' cevaplı · kaldığın yerden devam et</small></a>';
  else h+='<a class="bugunkart" href="'+e(B.a)+'"><span class="ust-etiket">Bugünün işi</span><b>'+e(B.t)+'</b><small>'+e(B.m)+'</small></a>';
- h+='<div class="karolar">'+
-  (D?'<a class="karo" href="'+ad+'&t=denemeler"><b>Denemeler</b><span>'+(V.denemeler.length?V.denemeler.length+' tam deneme + karma':'karma ve ders denemeleri')+'</span></a>':'')+
-  '<a class="karo'+(bug?' vurgu':'')+'" href="'+ad+'&t=tekrar"><b>Tekrar'+(bug?' · '+bug:'')+'</b><span>'+(bug?'bugün sorulacak':'bugün tekrar yok')+'</span></a>'+
-  '<a class="karo" href="'+ad+'&t=defter"><b>Yanlış defteri</b><span>'+yan+' soru</span></a>'+
-  '<a class="karo" href="'+ad+'&t=program"><b>Program</b><span>'+(o['pl.'+S.id]?o['pl.'+S.id].hafta+' haftalık':'kendine göre kur')+'</span></a></div>';
- h+='<h2>Dersler <em>'+biten+' / '+k.length+' konu</em></h2><div class="izgara">';
- dersler(V).forEach(function(adi){var I=dersBilgi(S,V,adi);if(!I.KK.length)return;var yuzde=Math.round(100*I.biten/I.KK.length);
-  h+='<a class="kart ders-kart" href="'+ad+'&ds='+encodeURIComponent(adi)+'"><span class="kod">'+(I.soru?'Sınavda '+I.soru+' soru':'Ders')+'</span><b>'+e(adi)+'</b>'+
-   '<small>'+I.KK.length+' konu · '+I.n+' soru'+(I.ort!=null?' · test ortalaması %'+I.ort:'')+'</small><div class="cubuk"><i style="width:'+yuzde+'%"></i></div></a>'});
+ h+='<h2>Dersler <em>'+biten+' / '+k.length+' konu</em></h2><div class="konular">';
+ dersler(V).forEach(function(adi,i){var I=dersBilgi(S,V,adi);if(!I.KK.length)return;var yuzde=Math.round(100*I.biten/I.KK.length);
+  h+='<a class="satir" href="'+ad+'&ds='+encodeURIComponent(adi)+'"><span class="no">'+(i+1)+'</span><span>'+e(adi)+'<br><small>'+(I.soru?'sınavda '+I.soru+' soru · ':'')+I.KK.length+' konu'+(I.ort!=null?' · test ort. %'+I.ort:'')+'</small></span>'+
+   '<small>'+I.biten+'/'+I.KK.length+'</small><i class="ilerle" style="width:'+yuzde+'%"></i></a>'});
  h+='</div>';
+ h+='<div class="araclar">'+(D?'<a href="'+ad+'&t=denemeler">Denemeler'+(V.denemeler.length?' · '+V.denemeler.length:'')+'</a>':'')+
+  '<a'+(bug?' class="vurgu"':'')+' href="'+ad+'&t=tekrar">Tekrar'+(bug?' · '+bug:'')+'</a>'+
+  '<a href="'+ad+'&t=defter">Yanlış defteri'+(yan?' · '+yan:'')+'</a>'+
+  '<a href="'+ad+'&t=program">Program</a><a href="'+ad+'&t=ozet">Özet kitapçığı</a><a href="'+ad+'&t=kartlar">Kartlar</a>'+
+  (V.harita?'<a href="'+ad+'&t=harita">Konu haritası</a>':'')+'</div>';
  if(Z.length)h+='<h2>Zayıf konuların</h2><div class="konular">'+Z.map(function(z){return'<a class="satir" href="'+ad+'&k='+e(z.x.id)+'&g=ozet"><span>'+e(z.x.ad)+'</span><small>'+z.n+' yanlış</small></a>'}).join('')+'</div>';
- h+='<h2>Çalışma araçları</h2><div class="konular">'+
-  '<a class="satir" href="'+ad+'&t=ozet"><span>Son tekrar kitapçığı<br><small style="white-space:normal">Bütün konuların özetleri tek sayfada; sınav öncesi okuma için</small></span></a>'+
-  '<a class="satir" href="'+ad+'&t=kartlar"><span>Karışık kartlar<br><small style="white-space:normal">Bütün derslerden kavram ve bilgi kartları</small></span></a>'+
-  (V.harita?'<a class="satir" href="'+ad+'&t=harita"><span>Konu haritası<br><small style="white-space:normal">Hangi dersten kaç soru gelir, hangi ünite sık çıkar</small></span></a>':'')+'</div>';
  if(G.length){var g=G[G.length-1];h+='<p class="kucukyazi" style="margin-top:14px">Son deneme ('+e(g.ad||'Karma deneme')+', '+gun(g.t)+'): <b>'+yuvarla(net(g))+'</b> '+(g.yg?'net':'doğru')+' / '+g.n+' · <a href="'+ad+'&t=sonuc&r='+g.t+'" style="color:var(--acc)">sonucu gör</a></p>'}
  h+='<details class="ders" style="margin-top:22px"><summary>Sınav bilgisi</summary><table class="kunye" style="margin-top:10px"><tr><th>Kimler girer</th><td>'+e(S.kim)+'</td></tr><tr><th>Biçim</th><td>'+e(S.bicim)+'</td></tr>'+
   (D?'<tr><th>Puanlama</th><td>'+(D.yanlisGoturur?'Dört yanlış bir doğruyu götürür (net hesabı).':'Yanlışlar doğruları götürmez; ham puan doğru sayısıdır.')+'</td></tr>':'')+
@@ -364,6 +389,9 @@ function blok(p){
  if(typeof p==='string')return'<p>'+e(p)+'</p>';
  if(p.b)return'<h3>'+e(p.b)+'</h3>';
  if(p.not)return'<p class="not">'+e(p.not)+'</p>';
+ if(p.merak)return'<p class="merak">'+e(p.merak)+'</p>';
+ if(p.sinav)return'<p class="sinav">'+e(p.sinav)+'</p>';
+ if(p.akil)return'<p class="akil">'+e(p.akil)+'</p>';
  if(p.kontrol)return'<p class="kontrol"><b>⚑ Kontrol bekliyor:</b> '+e(p.kontrol)+'</p>';
  if(p.ayet)return'<div class="alinti"><span class="tur">Ayet</span>“'+e(p.ayet)+'”<em>'+e(p.kay)+'</em></div>';
  if(p.hadis)return'<div class="alinti"><span class="tur">Hadis</span>“'+e(p.hadis)+'”<em>'+e(p.kay)+'</em></div>';
@@ -372,7 +400,7 @@ function blok(p){
   p.tablo.slice(1).map(function(r){return'<tr>'+r.map(function(c){return'<td>'+e(c)+'</td>'}).join('')+'</tr>'}).join('')+'</table></div>';
  return''}
 function konuSayfa(S,x,g){
- var n=(x.sorular||[]).length,adr='#s='+e(S.id)+'&k='+e(x.id);g=g||'anlatim';
+ var n=(x.sorular||[]).length,adr='#s='+e(S.id)+'&k='+e(x.id);g=g||'anlatim';guncelle(function(o){o['son.'+S.id]=x.id});
  var h='<div class="ust-etiket">'+e(x.ders||'')+'</div><h1>'+e(x.ad)+'</h1>'+
   '<div class="sekmeler"><a href="'+adr+'"'+(g==='anlatim'?' class="on"':'')+'>Anlatım</a>'+
   ((x.ozet||[]).length?'<a href="'+adr+'&g=ozet"'+(g==='ozet'?' class="on"':'')+'>Özet</a>':'')+

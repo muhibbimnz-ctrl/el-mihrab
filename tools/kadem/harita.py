@@ -13,5 +13,5 @@ for f in sorted(glob.glob(R+'/*.json')):
         if ders['ad'] in K:
             eski={u.get('konu'):u.get('oncelik',2) for u in ders['uniteler']}
             ders['uniteler']=[{'ad':d['ad'],'oncelik':d.get('oncelik',eski.get(d['id'],3)),'konu':d['id']} for d in K[ders['ad']]]
-    json.dump(m,open(f,'w'),ensure_ascii=False,indent=1)
+    json.dump(m,open(f,'w',newline='\n'),ensure_ascii=False,indent=1)
     print(os.path.basename(f),{k:len(v) for k,v in K.items()})

@@ -18,7 +18,7 @@ if mod=='kapat':
     for f in glob.glob(R+'/**/*.json',recursive=True):
         if f.endswith('anahtar.json'): continue
         veri=open(f,'rb').read(); json.loads(veri)
-        iv=hmac.new(key,os.path.relpath(f,R).encode()+veri,'sha256').digest()[:12]
+        iv=hmac.new(key,os.path.relpath(f,R).replace(os.sep,'/').encode()+veri,'sha256').digest()[:12]
         open(f[:-5]+'.enc','w').write(base64.b64encode(iv+G.encrypt(iv,veri,None)).decode()); n+=1
     for f in glob.glob(R+'/**/*.enc',recursive=True):
         if not os.path.exists(f[:-4]+'.json'): os.remove(f); print('silindi',f)
