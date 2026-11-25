@@ -136,6 +136,9 @@ a{color:var(--accent)}
 .rd-ml b{display:block;font-family:var(--ui);font-size:11px;letter-spacing:.5px;text-transform:uppercase;color:var(--accent);margin-bottom:2px}
 .rd-ml .ml-d{margin-top:8px;border:0;background:none;padding:0;color:var(--accent);font:600 13px var(--ui);cursor:pointer}
 .rd-ml.hide{display:none}
+.rd-ml .isk{display:block;height:4.8em;border-radius:8px;background:linear-gradient(90deg,var(--line) 0,var(--paper) 50%,var(--line) 100%);background-size:200% 100%;animation:iskA 1.2s linear infinite;opacity:.6}
+@keyframes iskA{to{background-position:-200% 0}}
+.rd-body{overflow-anchor:auto;overscroll-behavior:contain}
 .rd.wide .rd-ay{display:none}
 .rd-an{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:2px 0 6px;font:600 13px system-ui;color:var(--muted);direction:ltr}
 .rd-an .pill{padding:6px 12px;font-size:13px}.rd-an .pill[disabled]{opacity:.4}
@@ -331,7 +334,10 @@ a{color:var(--accent)}
 #okuma .mh{flex:none;display:flex;align-items:center;gap:6px;background:var(--accent);color:#fff;padding:calc(6px + env(safe-area-inset-top,0px)) 8px 8px;min-height:58px}
 #okuma .mh b{flex:1;text-align:center;font:600 21px var(--ui,system-ui),sans-serif;letter-spacing:.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 #okuma .mh .ib{color:#fff;background:transparent;border:0}#okuma .mh .ib svg{width:26px;height:26px}
-#okuma .ok-body{padding-bottom:110px;background:var(--mzZ,#fffdf8)}
+#okuma .ok-body{padding-bottom:110px;background:var(--mzZ,#fffdf8);overflow-x:hidden;overscroll-behavior:contain;touch-action:pan-y;overflow-anchor:auto;-webkit-overflow-scrolling:touch}
+#okuma #okB{overflow-wrap:break-word;contain:layout}
+#okB .om{overflow-wrap:anywhere;word-break:break-word;max-width:100%;box-sizing:border-box}
+#okB .wd{max-width:46%}#okB .wd i{white-space:normal;overflow-wrap:anywhere;text-align:center}
 #okuma #okB{background:var(--mzZ,#fffdf8);border:0;box-shadow:none;max-width:760px;margin:0 auto;color:var(--mzY,#1d1d1d)}
 #okB:not(.qcf){line-height:var(--mzLh,2.3)!important;padding:18px 16px 30px!important;word-spacing:normal!important;text-align:right!important;text-align-last:right!important;text-align:right!important;text-align-last:right!important;font-size:var(--mzSz,var(--qsize))}
 #okuma #okB:before{display:none}
@@ -1330,6 +1336,7 @@ function okAyetBaslik(){const K=$('.ok-body');if(!K)return;const top=K.getBoundi
 let okSecili=null,okHizI=0,okHizRaf=0,okHizBir=0;const OKHIZ=[0,.35,.7,1.15,1.8];
 function okSec(e){$$('#okB .oa.sec').forEach(x=>x.classList.remove('sec'));if(!e||okSecili===e){okSecili=null;$('#okSe').classList.add('hide');return}
   okSecili=e;e.classList.add('sec');$('#okSeT').textContent=`${SN()[e.dataset.s-1]} ${e.dataset.s}:${e.dataset.n}`;$('#okSe').classList.remove('hide')}
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&okHizI){okHizI=OKHIZ.length-1;okHiz()}});
 function okHiz(){okHizI=(okHizI+1)%OKHIZ.length;$('#okHizT').textContent=okHizI?`Hız ${okHizI}`:'Hız';cancelAnimationFrame(okHizRaf);okHizBir=0;
   if(!okHizI)return;const K=$('.ok-body');let son=performance.now();
   const ad=t=>{if($('#okuma').classList.contains('hide')||!okHizI)return;okHizBir+=OKHIZ[okHizI]*(t-son)/16.7;son=t;if(okHizBir>=1){const d=Math.floor(okHizBir);K.scrollTop+=d;okHizBir-=d}okHizRaf=requestAnimationFrame(ad)};okHizRaf=requestAnimationFrame(ad)}
@@ -1338,7 +1345,7 @@ function okZemin(){$('#okuma').classList.toggle('yasla',!!set.okYasla);const Z={
 function okPanel(h){$('#okPanI').innerHTML=h;$('#okPan').classList.remove('hide')}
 function okPanelKapat(){$('#okPan').classList.add('hide')}
 function okAyet(){const e=okSecili;if(e)return[+e.dataset.s,+e.dataset.n];okAyetBaslik();return[okBaslik.s||1,okBaslik.n||1]}
-async function okDinle(){const[sv,n]=okAyet();try{await loadSurah(sv,null,true);playAyah(n);$('#okDin').classList.add('on')}catch(e){toast(MSG.loadErr[LANG])}}
+async function okDinle(){if(okDinle.k)return;okDinle.k=1;const[sv,n]=okAyet();try{await loadSurah(sv,null,true);playAyah(n);$('#okDin').classList.add('on')}catch(e){toast(MSG.loadErr[LANG])}finally{okDinle.k=0}}
 const OKML=[['','Kapalı','Yalnız Arapça metin'],['ayet','Âyet meâli','Her âyetin altında Türkçe meâl (Elmalılı)'],['tr','Kelime kelime Türkçe','Her kelimenin altında Türkçe anlamı'],['en','Kelime kelime İngilizce','Word-by-word English meaning']];
 function okMealEt(){const k=set.okMeal===true?'tr':(set.okMeal||''),T=$('#okMlT');if(T)T.textContent=k==='tr'?'Kelime TR':k==='en'?'Kelime EN':k==='ayet'?'Meâl açık':'Meâl';const B=$('#okMl');if(B)B.classList.toggle('on',!!k)}
 function okMealPanel(){const k=set.okMeal===true?'tr':(set.okMeal||'');
@@ -1373,10 +1380,12 @@ async function okSayfaKur(p,once){const B=$('#okB'),n=okNesil,d=document.createE
 let okHata=0;
 async function okEkle(){if(okYuk||okSon>=604||okHata)return;okYuk=1;const n=okNesil,p=okSon+1;try{if(await okSayfaKur(p)==='hata')okHata=1}finally{if(n===okNesil){okSon=p;okYuk=0;$('#okSon').textContent=okSon>=604?'صَدَقَ ٱللَّهُ ٱلْعَظِيمُ':''}}}
 async function okOnceki(){if(okYuk||okIlk<=1)return;okYuk=1;const K=$('.ok-body'),h0=K.scrollHeight,p=okIlk-1;try{await okSayfaKur(p,1)}finally{okIlk=p;okYuk=0;K.scrollTop+=K.scrollHeight-h0;$('#okOn').classList.toggle('hide',okIlk<=1)}}
-async function okPage(p){p=Math.min(604,Math.max(1,p||1));okP=p;LS.set('mihrab.okP',p);okNesil++;okYuk=0;okHata=0;okIlk=p;okSon=p-1;okBaslik(p);
+async function okFont(){try{if(!document.fonts||okFont.ok)return;await Promise.race([document.fonts.load(`30px ${set.font}`),new Promise(r=>setTimeout(r,2500))]);okFont.ok=true}catch(e){}}
+async function okPage(p){p=Math.min(604,Math.max(1,p||1));await okFont();okP=p;LS.set('mihrab.okP',p);okNesil++;okYuk=0;okHata=0;okIlk=p;okSon=p-1;okBaslik(p);
   const B=$('#okB');B.innerHTML=`<button class="okon${p<=1?' hide':''}" id="okOn">▲ ${trS('Önceki sayfa')}</button><div class="okson" id="okSon"></div>`;$('#okOn').onclick=okOnceki;
   $('.ok-body').scrollTop=0;await okDoldur()}
-async function okDoldur(){const K=$('.ok-body'),n=okNesil;for(let i=0;i<8&&n===okNesil&&okSon<604&&K.scrollTop+K.clientHeight>K.scrollHeight-1600;i++)await okEkle()}
+function okDoldur(){if(okDoldur.c){okDoldur.tekrar=1;return okDoldur.c}okDoldur.c=(async()=>{try{do{okDoldur.tekrar=0;await okDoldur2()}while(okDoldur.tekrar)}catch(e){}finally{okDoldur.c=null}})();return okDoldur.c}
+async function okDoldur2(){const K=$('.ok-body'),n=okNesil;for(let i=0;i<8&&n===okNesil&&okSon<604&&K.scrollTop+K.clientHeight>K.scrollHeight-1600;i++)await okEkle()}
 (function(){let t=0;const K=$('.ok-body');if(!K)return;K.addEventListener('scroll',()=>{if(t)return;t=setTimeout(()=>{t=0;
     if(K.scrollTop+K.clientHeight>K.scrollHeight-1600)okDoldur();
     const top=K.getBoundingClientRect().top+90;let cur=null;$$('#okB .okp').forEach(x=>{if(x.getBoundingClientRect().top<=top)cur=x});
@@ -1432,10 +1441,17 @@ function openReader(n,c){
 }
 /* Tefsir ekranının başında âyetin meâli */
 function rdMeal(n,c){const M=$('#rdMl');if(!M)return;if(c==='meal'){M.classList.add('hide');return}
-  const L=(set.meals&&set.meals.length?set.meals:[MEALS[0][0]]).slice(0,2),s0=st.s;M.classList.remove('hide');
-  M.innerHTML=L.map(id=>`<div class="m" data-id="${id}"><b>${esc(MEAL_N[id]||'Meâl')}</b><span>…</span></div>`).join('')+`<button class="ml-d" id="rdMlD">Bütün meâller ›</button>`;
+  const L=(set.meals&&set.meals.length?set.meals:[MEALS[0][0]]).slice(0,2),s0=st.s,tok=(rdMeal.t=(rdMeal.t||0)+1);
+  M.classList.remove('hide');M.style.minHeight=(rdMeal.h||Math.round(parseFloat(getComputedStyle(M).fontSize||17)*1.7*4+40))+'px';
+  M.innerHTML=L.map(id=>`<div class="m" data-id="${id}"><b>${esc(MEAL_N[id]||'Meâl')}</b><span class="isk"></span></div>`).join('')+`<button class="ml-d" id="rdMlD">Bütün meâller ›</button>`;
   $('#rdMlD').onclick=()=>openReader(n,'meal');
-  L.forEach(id=>offAyah(id,s0,n).then(x=>x||getJSON(`${AQ}/ayah/${s0}:${n}/${id}`).then(j=>j?.data?.text)).then(x=>{if(!st.open||st.open.n!==n||st.s!==s0)return;const e=$(`#rdMl .m[data-id="${id}"] span`);if(e)e.textContent=x||'Meâl yüklenemedi.'}).catch(()=>{const e=$(`#rdMl .m[data-id="${id}"] span`);if(e)e.textContent='Meâl yüklenemedi (internet gerekli).'}))}
+  /* metin gelince: kutunun boyu değişirse okunan yer sabit kalsın (elle kaydırma çapası) */
+  const yaz=(id,t)=>{if(tok!==rdMeal.t||!st.open||st.open.n!==n||st.s!==s0)return;const e=$(`#rdMl .m[data-id="${id}"] span`);if(!e)return;
+    const B=$('.rd-body'),h0=M.offsetHeight,y0=B?B.scrollTop:0;e.classList.remove('isk');e.textContent=t;M.style.minHeight='';const h1=M.offsetHeight;
+    if(B&&y0>0&&h1!==h0)B.scrollTop=y0+(h1-h0);if(!$$('#rdMl .isk').length)rdMeal.h=h1};
+  L.forEach(id=>{let bitti=false;const zm=setTimeout(()=>{if(!bitti){bitti=true;yaz(id,'Meâl yüklenemedi (internet gerekli).')}},12000);
+    Promise.resolve().then(()=>offAyah(id,s0,n)).then(x=>x||getJSON(`${AQ}/ayah/${s0}:${n}/${id}`,10000).then(j=>j&&j.data&&j.data.text)).then(x=>{if(bitti)return;bitti=true;clearTimeout(zm);yaz(id,x||'Meâl bulunamadı.')})
+     .catch(()=>{if(bitti)return;bitti=true;clearTimeout(zm);yaz(id,'Meâl yüklenemedi (internet gerekli).')})})}
 /* Âyet panelinde gezinme: yalnız âyet ve meal değişir, okunan tefsir sayfası yerinde kalır */
 function rdAyGoster(v){const a=st.ay[v-1];if(!a||!st.open)return;st.rdV=v;const t=st.open.n,bas=v!==t;
   $('#rdAy').innerHTML=`<div class="rd-an" dir="ltr"><button class="pill" data-av="-1" ${v<=1?'disabled':''}>‹ Önceki âyet</button><span>${st.s}:${v}</span><button class="pill" data-av="1" ${v>=st.ay.length?'disabled':''}>Sonraki âyet ›</button></div>${bas?`<button class="pill rd-git" dir="ltr">Okuduğun yer ${st.s}:${t} · bu âyetin tefsirine geç ›</button>`:''}${a.tj||esc(a.text)} <span class="num">${toAr(v)}</span><div class="rd-meal"></div>`;$('#rdAy').scrollTop=0;
