@@ -359,6 +359,8 @@ a{color:var(--accent)}
 .okp-ic select,.okp-ic input[type=number]{width:100%;padding:10px;border-radius:12px;border:1px solid var(--line2);background:var(--paper);color:inherit;font:inherit;font-size:16px}
 .okp-ic input[type=range]{width:100%}.okp-ic .sr{display:flex;gap:8px}.okp-ic .sr>*{flex:1}
 .okp-ic .seg{display:flex;gap:6px}.okp-ic .seg button{flex:1;padding:10px;border-radius:12px;border:1px solid var(--line2);background:var(--paper);color:inherit;font:inherit;cursor:pointer}.okp-ic .seg button.on{border-color:var(--accent);color:var(--accent);font-weight:700}
+.okp-ic .okml{display:block;width:100%;text-align:left;border:1px solid var(--line2);background:var(--paper);color:var(--ink);border-radius:14px;padding:11px 14px;margin:0 0 8px;cursor:pointer;font:inherit}.okp-ic .okml b{display:block;font-size:16px}.okp-ic .okml small{color:var(--muted);font-size:13px}.okp-ic .okml.on{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}.okp-ic .okml.on b{color:var(--accent)}
+.mb button.on span{color:#ffe08a}
 .okp-ic .git{width:100%;margin-top:14px;padding:12px;border:0;border-radius:14px;background:var(--accent);color:#fff;font:600 16px inherit;cursor:pointer}
 .okp-ic .ml{font-size:16px;line-height:1.7;color:var(--ink)}.okp-ic .ml .a{font-family:var(--qfont),'Amiri Quran',serif;font-size:26px;line-height:2;direction:rtl;text-align:right;margin-bottom:8px}
 .ok-bar{display:flex;gap:8px;align-items:center;justify-content:center;padding:6px 10px;border-bottom:1px solid var(--line2)}
@@ -595,7 +597,7 @@ a{color:var(--accent)}
   <button class="okfab" id="okDin" title="Dinle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h12M3 11h12M3 16h7"/><path d="M15 14v7l6-3.5z" fill="currentColor"/></svg></button>
   <nav class="mb">
     <button id="okHiz"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 6l6 6-6 6M12 6l6 6-6 6"/></svg><span id="okHizT">Hız</span></button>
-    <button id="okTef"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h3l-2 16H5zM13 4h6v4h-6zM13 10h6v4h-6zM13 16h6v4h-6z"/></svg><span>Tefsir</span></button>
+    <button id="okMl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h9M8.5 3v2M6 5c.5 3 3 5.5 6 6.5M11 5c-.5 3-3 6-6.5 7"/><path d="M13 21l3.5-8 3.5 8M14.2 18.5h4.6"/></svg><span id="okMlT">Meâl</span></button>
     <button class="mb-s" id="okSy" title="Sayfa"><svg viewBox="0 0 64 52"><path d="M4 8q14-6 28 2v38q-14-8-28-2z" fill="var(--mbS)" stroke="var(--gold)" stroke-width="3"/><path d="M60 8q-14-6-28 2v38q14-8 28-2z" fill="var(--mbS)" stroke="var(--gold)" stroke-width="3"/><path d="M14 22q6-6 13-2M50 22q-6-6-13-2" fill="none" stroke="#fff" stroke-width="2.4"/><path d="M12 19l2 3.4 3.6-1.6M52 19l-2 3.4-3.6-1.6" fill="none" stroke="#fff" stroke-width="2.4"/></svg><b id="okPn">1</b></button>
     <button id="okGit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg><span>Git</span></button>
     <button id="okAy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg><span>Ayarlar</span></button>
@@ -1304,11 +1306,11 @@ async function openOkuma(s){hideScr();scrSet('okuma');$('#okuma').classList.remo
   okZemin();okPage(p)}
 /* Mushaf: sayfalar alt alta eklenir, aşağı kaydırdıkça sonraki sayfa yüklenir (sürekli okuma) */
 const okCuz=p=>Math.min(30,p<22?1:Math.floor((p-2)/20)+1);
-async function okSayfa(p){const [s1,a1]=PG[p-1],[s2,a2]=p<604?PG[p]:[115,1];const ed=set.script==='simple'||st.fontFail?'quran-simple':'quran-uthmani',ml=set.okMeal===true?'tr':(set.okMeal||'');let h='',W={};
+async function okSayfa(p){const [s1,a1]=PG[p-1],[s2,a2]=p<604?PG[p]:[115,1];const ed=set.script==='simple'||st.fontFail?'quran-simple':'quran-uthmani',mk=set.okMeal===true?'tr':(set.okMeal||''),ml=mk==='ayet'?'':mk,ma=mk==='ayet'?(LANG==='en'?'en':'tr'):ml;let h='',W={};
   if(ml){try{const r=await getJSON(`https://api.qurancdn.com/api/qdc/verses/by_page/${p}?words=true&word_translation_language=${ml}&word_fields=text_uthmani&per_page=60`,12000);r.verses.forEach(v=>W[v.verse_key]=v.words.filter(w=>w.char_type_name==='word').map(w=>(w.translation&&w.translation.language_name!==(ml==='en'?'english':'turkish')?{...w,translation:{text:''}}:w)))}catch(e){}}
   if(navigator.onLine!==false&&set.okMedine){try{const r=await qcfPage(p,ml);if(r)return{h:r,qcf:1,ml}}catch(e){}}
   try{for(let s=s1;s<=Math.min(s2,114);s++){
-      const ay=await okSurah(s,ed),me=ml?await okSurah(s,ml==='en'?'en.sahih':'tr.yazir').catch(()=>[]):[];
+      const ay=await okSurah(s,ed),me=ma?await okSurah(s,ma==='en'?'en.sahih':'tr.yazir').catch(()=>[]):[];
       const from=s===s1?a1:1,to=s===s2?a2-1:ay.length;if(to<from)continue;
       if(from===1){h+=`<div class="sh2 sbox">سُورَةُ ${S_AR[s-1]}</div>`+(s!==1&&s!==9?'<div class="sh2 bsm">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>':'')}
       for(let n=from;n<=to;n++){const a=ay[n-1];
@@ -1316,9 +1318,9 @@ async function okSayfa(p){const [s1,a1]=PG[p-1],[s2,a2]=p<604?PG[p]:[115,1];cons
         const WL=ml==='en'?'english':'turkish',ok=w?w.filter(x=>x.translation&&x.translation.language_name===WL).length:0;
         if(w&&w.length&&ok>=w.length*0.6)h+=`<span class="oa ww" data-s="${s}" data-n="${n}">${w.map(x=>`<span class="wd"><b>${esc(x.text_uthmani)}</b><i>${x.translation&&x.translation.language_name===WL?esc(x.translation.text||''):'&nbsp;'}</i></span>`).join('')}</span><span class="num">${toAr(n)}</span> `;
         else{h+=`<span class="oa" data-s="${s}" data-n="${n}">${lafz(esc(stripBasmala(s,n,a.t)))}</span> <span class="num">${toAr(n)}</span> `;
-          if(ml&&me[n-1])h+=`<div class="om" dir="ltr"><b>${s}:${n}</b> ${esc(me[n-1].t)}</div>`}}}
+          if(ma&&me[n-1])h+=`<div class="om" dir="ltr"><b>${s}:${n}</b> ${esc(me[n-1].t)}</div>`}}}
   }catch(e){return{h:`<div class="note" style="direction:ltr">${MSG.loadErr[LANG]}<br><br>${MSG.offHint[LANG]}</div>`,hata:1}}
-  return{h,ml}}
+  return{h,ml:ma}}
 let okIlk=1,okSon=0,okYuk=0,okNesil=0;
 /* Allah lafzını renklendir */
 function lafz(t){return t.split(' ').map(w=>{const n=w.replace(/[ً-ٰٟـۖ-ۭ]/g,'').replace(/[ٱأإآ]/g,'ا');return /^[وفا]?[بتل]?(?:ال|ل)لهم?$/.test(n)?`<span class="lf">${w}</span>`:w}).join(' ')}
@@ -1337,6 +1339,11 @@ function okPanel(h){$('#okPanI').innerHTML=h;$('#okPan').classList.remove('hide'
 function okPanelKapat(){$('#okPan').classList.add('hide')}
 function okAyet(){const e=okSecili;if(e)return[+e.dataset.s,+e.dataset.n];okAyetBaslik();return[okBaslik.s||1,okBaslik.n||1]}
 async function okDinle(){const[sv,n]=okAyet();try{await loadSurah(sv,null,true);playAyah(n);$('#okDin').classList.add('on')}catch(e){toast(MSG.loadErr[LANG])}}
+const OKML=[['','Kapalı','Yalnız Arapça metin'],['ayet','Âyet meâli','Her âyetin altında Türkçe meâl (Elmalılı)'],['tr','Kelime kelime Türkçe','Her kelimenin altında Türkçe anlamı'],['en','Kelime kelime İngilizce','Word-by-word English meaning']];
+function okMealEt(){const k=set.okMeal===true?'tr':(set.okMeal||''),T=$('#okMlT');if(T)T.textContent=k==='tr'?'Kelime TR':k==='en'?'Kelime EN':k==='ayet'?'Meâl açık':'Meâl';const B=$('#okMl');if(B)B.classList.toggle('on',!!k)}
+function okMealPanel(){const k=set.okMeal===true?'tr':(set.okMeal||'');
+  okPanel(`<h3>Meâl</h3>${OKML.map(([v,a,d])=>`<button class="okml${k===v?' on':''}" data-v="${v}"><b>${a}</b><small>${d}</small></button>`).join('')}<p style="font-size:12.5px;color:var(--muted);margin:10px 0 0">Kelime meâli internet ister. Bir âyete dokunup “Meâl” ile tek âyetin meâlini, “Tefsir” ile tefsirini de açabilirsiniz.</p>`);
+  $$('#okPanI .okml').forEach(b=>b.onclick=()=>{set.okMeal=b.dataset.v;set.okMealLang=LANG;save();okPanelKapat();okMealEt();okAyetBaslik();const sv=okBaslik.s,n=okBaslik.n;okGitAyet(sv,n).then(()=>okSec(null))})}
 async function okTefsir(){const[sv,n]=okAyet();okSec(null);await loadSurah(sv,n,false);setTimeout(()=>openReader(n,'tefsir'),250)}
 async function okMeal(){const[sv,n]=okAyet();okPanel(`<h3>${esc(SN()[sv-1])} ${sv}:${n}</h3><div class="ml">${loading()}</div>`);
   try{const ar=await okSurah(sv,'quran-uthmani'),tr=await okSurah(sv,LANG==='en'?'en.sahih':'tr.yazir');$('#okPanI .ml').innerHTML=`<div class="a">${esc(stripBasmala(sv,n,ar[n-1].t))}</div>${esc(tr[n-1].t)}<button class="git" id="okMlK">Kapat</button>`;$('#okMlK').onclick=okPanelKapat}catch(e){$('#okPanI .ml').textContent=MSG.loadErr[LANG]}}
@@ -1350,7 +1357,6 @@ function okAyarPanel(){const sz=set.okSz||Math.min(30,Math.max(26,set.qsize-6)),
   <label>Satır aralığı: <b id="aLhT">${lh}</b></label><input type="range" id="aLh" min="1.9" max="3.6" step="0.1" value="${lh}">
   <label>Zemin</label><div class="seg">${[['beyaz','Beyaz'],['sepya','Sepya'],['gece','Gece']].map(([k,a])=>`<button data-z="${k}" class="${z===k?'on':''}">${a}</button>`).join('')}</div>
   <label>Hat</label><select id="aF">${FONTS.map(([f,a])=>`<option value="${esc(f)}"${set.font===f?' selected':''}>${esc(a)}</option>`).join('')}</select>
-  <label>Kelime meâli</label><select id="aM"><option value="">Kapalı</option><option value="tr"${set.okMeal==='tr'?' selected':''}>Türkçe</option><option value="en"${set.okMeal==='en'?' selected':''}>English</option></select>
   <label style="display:flex;gap:8px;align-items:center;color:var(--ink)"><input type="checkbox" id="aJ"${set.okYasla?' checked':''}> Satırları iki yana yasla (kelimeler arası açılabilir)</label>
   <label style="display:flex;gap:8px;align-items:center;color:var(--ink)"><input type="checkbox" id="aJ"${set.okYasla?' checked':''}> Satırları iki yana yasla (kelimeler arası açılabilir)</label>
   <label style="display:flex;gap:8px;align-items:center;color:var(--ink)"><input type="checkbox" id="aQ"${set.okMedine?' checked':''}> Medine baskısının birebir sayfa hattı</label>
@@ -1358,7 +1364,7 @@ function okAyarPanel(){const sz=set.okSz||Math.min(30,Math.max(26,set.qsize-6)),
   $('#aSz').oninput=e=>{set.okSz=+e.target.value;$('#aSzT').textContent=set.okSz+'px';okZemin();save()};
   $('#aLh').oninput=e=>{set.okLh=+e.target.value;$('#aLhT').textContent=set.okLh;okZemin();save()};
   $$('#okPanI [data-z]').forEach(b=>b.onclick=()=>{set.okZemin=b.dataset.z;save();okZemin();$$('#okPanI [data-z]').forEach(x=>x.classList.toggle('on',x===b))});
-  let yeni=false;$('#aF').onchange=e=>{set.font=e.target.value;save();applyVars()};$('#aM').onchange=e=>{set.okMeal=e.target.value;set.okMealLang=LANG;save();yeni=true};$('#aQ').onchange=e=>{set.okMedine=e.target.checked;save();yeni=true};$('#aJ').onchange=e=>{set.okYasla=e.target.checked;save();okZemin()};$('#aJ').onchange=e=>{set.okYasla=e.target.checked;save();okZemin()};
+  let yeni=false;$('#aF').onchange=e=>{set.font=e.target.value;save();applyVars()};$('#aQ').onchange=e=>{set.okMedine=e.target.checked;save();yeni=true};$('#aJ').onchange=e=>{set.okYasla=e.target.checked;save();okZemin()};$('#aJ').onchange=e=>{set.okYasla=e.target.checked;save();okZemin()};
   $('#aOk').onclick=()=>{okPanelKapat();if(yeni)okPage(okP)}}
 async function okSayfaKur(p,once){const B=$('#okB'),n=okNesil,d=document.createElement('section');d.className='okp';d.dataset.p=p;d.innerHTML=loading();
   if(once)B.insertBefore(d,B.querySelector('.okp'));else B.insertBefore(d,$('#okSon'));
@@ -1690,7 +1696,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   $('#okX').onclick=openNamaz;$('#ezX').onclick=openNamaz;
   if(set.okMeal===true)set.okMeal='tr';
   $('#okB').addEventListener('click',e=>{const a=e.target.closest('.oa');if(a)okSec(a)});
-  $('#okHiz').onclick=okHiz;$('#okTef').onclick=okTefsir;$('#okGit').onclick=okGitPanel;$('#okAy').onclick=okAyarPanel;$('#okSy').onclick=okGitPanel;
+  $('#okHiz').onclick=okHiz;$('#okMl').onclick=okMealPanel;okMealEt();$('#okGit').onclick=okGitPanel;$('#okAy').onclick=okAyarPanel;$('#okSy').onclick=okGitPanel;
   $('#okDin').onclick=()=>{if(st.playing&&$('#okDin').classList.contains('on')){stopAudio();$('#okDin').classList.remove('on')}else okDinle()};
   $('#okTam').onclick=()=>{$('#okuma').classList.toggle('tam');toast($('#okuma').classList.contains('tam')?'Çıkmak için sayfaya iki kez dokunun':'')};$('#okB').addEventListener('dblclick',()=>$('#okuma').classList.remove('tam'));
   $('#okPan').onclick=e=>{if(e.target.id==='okPan')okPanelKapat()};
