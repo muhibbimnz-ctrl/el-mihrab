@@ -175,6 +175,13 @@ Kullanıcının konu listesindeki her satır ayrı dosya olacak. Bir ders yazıl
 - Denetim: yerelde `python3 -m http.server` + Playwright/Chrome ile telefon boyutunda ekran görüntüsü alındı.
 - DHBT’ye özgü ahlak-1, hitabet-1 ve mevzuat-1…3 eski biçimde (yeni ölçütleri karşılamıyor).
 
+
+### 10. oturum — 25 Kasım 2026 (gece)
+- MBSTS zor denemeleri 11–20 yazıldı (her biri 60 soru, ≥24 zor). Araç: `tools/kadem/deneme_yaz.py kaynak.txt N "açıklama" [sınav]` — ders dağılımını sınavın haritasından okur; DHBT için `dhbt` (40 soru).
+- DHBT 1. deneme yazıldı (`data/kadem/deneme/dhbt-1`). Sıradaki: DHBT 2–5, mevzuat denemeleri (30 soru).
+- ahlak-1, hitabet-1, mevzuat-1…3 yeni ölçütlere taşındı (`tools/kadem/konu_ek.py` ile kutu/özet/kart/soru eklenir). Artık bütün konular `kontrol_konu.py`’den geçiyor.
+- Arayüz “adım adım yol” olarak yenilendi: her konu 4 adım (Oku → Özet → Kartlar → Test). Anlatım başlıklara göre bölüm bölüm gösterilir (`&g=oku&b=N`, `b=hepsi` tek sayfa). Adım ilerlemesi `ad.<sınav>.<konu>` anahtarında, son okunan bölüm `bl.<sınav>.<konu>`’da. Sınav sayfası: genel ilerleme çubuğu, “Sıradaki adım” kartı, yol haritası (4 nokta), 3 ana araç + “Diğer araçlar”. Test bitince “Sıradaki konu” düğmesi.
+
 ### KALDIĞIM YER (7. oturum sonu — artık geçerli değil, 8. oturuma bak)
 - **Sıradaki ders: TEFSİR** (tefsir-1 … tefsir-9). Önce mtsb.pdf Tefsir bölümü (sf. 51-116), Köklü “Tefsir Tarihi ve Usulü” (çıkmış sorular) ve GENCO tefsir kısmı okunacak. Eski tefsir-1 ve tefsir-2 sorularının id’leri korunacak; çıkmış soruya çok benzeyenler aynı id ile yeniden yazılacak.
 - Kur’an Bilgisi’nde açık ⚑ kontrol kutuları: kuran-1 (fetret süresi), kuran-2 (Mekkî-Medenî sayıları; leylî-firâşî örnekleri), kuran-3 (Kureyş okuryazar sayısı), kuran-4 (Osman nüshaları sayısı/kâriler, Topkapı-Taşkent mushafları, basma mushaf tarihleri), kuran-5 (diğer ayet sayımları; mufassal sınırları; Türkiye’de hizb), kuran-9 (TİEM 73 tarihi; Diyanet meal heyetleri; Batı tercümelerinin yılları), kuran-11 (gunne süresi), kuran-12 (uzatma miktarları).
