@@ -19,7 +19,7 @@
   '.dk-yaz{font-size:46px;font-weight:800;letter-spacing:6px;margin:14px 0;text-align:center}.dk-yaz u{color:var(--pri);text-decoration:none;border-bottom:4px solid var(--pri);padding:0 6px}';
  function stil(){if(document.getElementById('dk-stil'))return;var s=document.createElement('style');s.id='dk-stil';s.textContent=css;document.head.appendChild(s)}
  function yukle(){if(D)return Promise.resolve(D);if(yuk)return yuk;
-  yuk=fetch('data/cocuk/dil.json?v=1').then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){D=j;return j}).catch(function(e){yuk=null;throw e});return yuk}
+  yuk=fetch('data/cocuk/dil.json?v=2').then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){D=j;return j}).catch(function(e){yuk=null;throw e});return yuk}
  /* ——— Ses: telefonun okuma motoru; dil sesi yoksa uyarır, kilitlenmeye karşı bekçi süresi var ——— */
  var uyardi={};
  function sesBul(dil){var l=dil.slice(0,2),V=[];try{V=speechSynthesis.getVoices()||[]}catch(e){}
@@ -45,7 +45,7 @@
  /* ——— Ünite listesi ——— */
  function liste(L){var X=D[L],s=sev(),h='<h1>'+(L==='ar'?'🕌 ':'🌍 ')+esc(X.ad)+'</h1><p class="lead">Yaşını seç; sana uygun dersler önce gelsin. Her derste kartları dinle, sonra oyunlarla yıldız topla.</p>'+
    '<div class="dk-sev">'+SEV.map(function(x){return'<button data-sev="'+x[0]+'"'+(s===x[0]?' class="on"':'')+'>'+x[3]+' '+x[1]+'</button>'}).join('')+'</div><div class="list">';
-  var U=X.uniteler.slice();if(s)U.sort(function(a,b){return(a.sev===s?0:1)-(b.sev===s?0:1)||a.sev-b.sev});var son=null;
+  var U=X.uniteler.map(function(u,i){u._i=i;return u});U.sort(function(a,b){return(s?(a.sev===s?0:1)-(b.sev===s?0:1):0)||a.sev-b.sev||a._i-b._i});var son=null;
   U.forEach(function(u){var g=SEV[u.sev-1];if(g[0]!==son){h+='<div class="grp">'+g[3]+' '+g[2]+' · '+g[1]+'</div>';son=g[0]}
    var y=['ogren','dinle','eslestir','yaz'].filter(function(a){return S.ok['dil.'+L+'.'+u.id+'.'+a]}).length;
    h+='<button class="it" data-h="'+L+'/'+u.id+'"><span class="e"'+(L==='ar'&&u.harf?' style="font-family:Amiri,serif;font-size:34px"':'')+'>'+esc(u.e)+'</span><span class="tx"><b>'+esc(u.ad)+'</b><small>'+u.k.length+' kelime</small></span><span class="ok">'+(y?'⭐'.repeat(Math.min(y,3)):'')+'</span></button>'});
