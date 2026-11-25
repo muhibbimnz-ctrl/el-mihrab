@@ -521,42 +521,6 @@ a{color:var(--accent)}
 .ar-t.qf{line-height:2.1;word-spacing:0}.ar-t.qf span{display:inline-block}
 #main .ay{content-visibility:auto;contain-intrinsic-size:auto 340px}
 </style>
-<link rel="stylesheet" href="tema.css?v=1"><script src="tema.js?v=1"></script>
-<style>
-/* ——— Yeni şablon (tema.css: Gece Mavisi / Sabah Ferahlığı). Klasik görünümde bu kuralların hiçbiri çalışmaz. ——— */
-.hm-hero,.hm-devam{display:none}
-html[data-tema] .hm-logo{display:none}
-html[data-tema] #home .hm{max-width:520px;padding:0 16px 24px;gap:14px;align-items:stretch}
-html[data-tema] .hm-hero{display:block;margin:0 -16px;padding:22px 20px 70px}
-html[data-tema] .hm-hero h1{font-size:28px}
-html[data-tema] .hm-hero .hm-ar2{font-family:'Amiri',serif;font-size:22px;opacity:.85;float:right;margin-top:-4px}
-html[data-tema] .hm-devam{display:block;margin:-58px 0 0;position:relative;padding:16px}
-html[data-tema] .hm-devam .t-etiket{display:block;margin-bottom:4px}
-html[data-tema] .hm-devam b{display:block;font-size:18px;font-weight:800;color:var(--ink);margin-bottom:12px}
-html[data-tema] .hmgrid{width:auto;gap:12px;margin:0}
-html[data-tema] .hmgrid .tile{background:var(--card)!important;color:var(--ink)!important;border:1px solid var(--line);box-shadow:var(--t-golge);border-radius:20px!important;align-items:flex-start;text-align:left;padding:14px!important;aspect-ratio:auto!important;min-height:150px;height:auto!important;justify-content:flex-start;overflow:visible}
-html[data-tema=b] .hmgrid .tile{border-color:transparent}
-html[data-tema] .hmgrid .tile svg{width:56px!important;height:48px!important;padding:9px 10px;border-radius:15px;color:var(--ti,#2E3F73);background:color-mix(in srgb,var(--ti,#2E3F73) 12%,transparent);margin-bottom:6px}
-html[data-tema] .hmgrid .tile b{font-size:16.5px!important;font-weight:800;color:var(--ink);text-align:left}
-html[data-tema] .hmgrid .tile .hm-sub,html[data-tema] .hmgrid .tile span{color:var(--muted);opacity:1;padding:0;text-align:left;font-size:12.5px}
-html[data-tema] #hNamaz{--ti:#2E6FD9}html[data-tema] #hStudy{--ti:#E67E22}html[data-tema] #hMedrese{--ti:#27AE60}html[data-tema] #hIhtisas{--ti:#8E44AD}
-html[data-tema] #hKadem{--ti:#F2994A;min-height:0;display:grid;grid-template-columns:auto 1fr;column-gap:12px;align-items:center}
-html[data-tema] #hKadem svg{margin:0;grid-row:1/3}html[data-tema] #hKadem b{align-self:end}html[data-tema] #hKadem .hm-sub{align-self:start}
-html[data-tema] #home .hm{padding-bottom:110px}
-html[data-tema=b] #hNamaz{--ti:#0EA5E9}html[data-tema=b] #hStudy{--ti:#D97706}html[data-tema=b] #hMedrese{--ti:#14B8A6}html[data-tema=b] #hIhtisas{--ti:#7C3AED}html[data-tema=b] #hKadem{--ti:#0F766E}
-html[data-tema] .hm-links{text-align:center}
-html[data-tema=a] .top{background:#1E2A4A;border-bottom:0;box-shadow:none}
-html[data-tema=a] .top .ib,html[data-tema=a] .top .brand b{color:#fff}html[data-tema=a] .top .brand small{color:#AEB7D3}
-html[data-tema=a] .top .sbtn,html[data-tema=a] .top .jump{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.22);color:#fff}
-html[data-tema=a] .top .sbtn .ar{color:#FFB547}
-html[data-tema=b] .top{background:rgba(255,255,255,.94);backdrop-filter:blur(8px);box-shadow:none}
-html[data-tema] .sbtn,html[data-tema] .pill,html[data-tema] .jump{border-radius:14px}
-html[data-tema] .pb.main{background:var(--t-btn);border:0;box-shadow:var(--t-btn-golge)}
-html[data-tema] .player{border-top:1px solid var(--line);box-shadow:0 -6px 18px -14px rgba(30,42,74,.4)}
-html[data-tema] body:has(#home:not(.hide)) .player{display:none}
-html[data-tema] body:not(:has(#home:not(.hide))) .t-alt{display:none}
-html[data-tema] .ov .in,html[data-tema] .box,html[data-tema] .gcard{border-radius:18px}
-</style>
 </head>
 <body>
 <header class="top">
@@ -579,9 +543,6 @@ html[data-tema] .ov .in,html[data-tema] .box,html[data-tema] .gcard{border-radiu
 <main class="wrap" id="main"></main>
 
 <section class="scr hide" id="home"><div class="hm">
-  <div class="t-hero hm-hero"><span class="hm-ar2">المِحْرَاب</span><div class="t-etiket" id="tSelam">Esselâmü aleyküm</div><h1>el-Mihrâb</h1><small>Kur'ân-ı Kerîm, tefsir, medrese ve sınav hazırlığı</small>
-   <div class="t-ozet"><div><b id="tOz1">—</b><small>Sıradaki vakit</small></div><div><b id="tOz2">—</b><small>Kaldığın âyet</small></div><div><b id="tOz3">0</b><small>Kadem konusu</small></div></div></div>
-  <div class="t-kart hm-devam"><span class="t-etiket">Kaldığın yer</span><b id="tDevT">Fâtiha 1:1</b><button class="t-btn" id="tDev">Okumaya devam et ›</button></div>
   <div class="hm-logo"><img src="icon-512.png" width="118" height="118" alt="el-Mihrâb" style="border-radius:26px;box-shadow:0 8px 22px #0003">
     <div class="hm-ar">المِحْرَاب</div><div class="hm-tr">EL-MİHRÂB · KUR'ÂN-I KERÎM VE TEFSÎRİ</div></div>
   <div class="hmgrid">
@@ -1126,14 +1087,7 @@ $('#main').addEventListener('click',e=>{
 /* ================= ANA SAYFA · EZAN · OKUMA · EZBER ================= */
 const scrSet=v=>{try{sessionStorage.setItem('mihrab.scr',v)}catch(e){}};
 function hideScr(){$('#vdOv')&&vdKapat();if($('#tvF'))$('#tvF').src='about:blank';try{canliDurdur()}catch(e){}['home','namaz','okuma','ezber'].forEach(i=>{const e=$('#'+i);e&&e.classList.add('hide')});ezStop();scrSet('study')}
-function showHome(){hideScr();scrSet('home');closeBox();$('#home').classList.remove('hide');const l=LS.get('beyan2.last',{s:1,a:1});$('#hStudyT').textContent=`${trS('Devam et')} · ${SN()[(l.s||1)-1]} ${l.s||1}:${l.a||1}`;ptNext();try{temaHero(l)}catch(e){}}
-function temaHero(l){const ad=`${SN()[(l.s||1)-1]} ${l.s||1}:${l.a||1}`;$('#tDevT').textContent=ad;$('#tOz2').textContent=`${l.s||1}:${l.a||1}`;
- let k=0;try{const o=JSON.parse(localStorage.getItem('kadem.v1')||'{}');k=Object.keys(o).filter(x=>/^p\./.test(x)).length}catch(e){}$('#tOz3').textContent=k;
- const h=new Date().getHours();$('#tSelam').textContent=h<11?'Hayırlı sabahlar':h<17?'Hayırlı günler':'Hayırlı akşamlar';
- const nx=$('#hNx'),f=()=>{const m=(nx&&nx.textContent||'').trim().match(/^(\S+)\s+(\d\d?:\d\d)/);$('#tOz1').textContent=m?m[2]:'—';$('#tOz1').nextElementSibling.textContent=m?m[1]:'Sıradaki vakit'};f();
- if(nx&&!nx._tg){nx._tg=1;new MutationObserver(f).observe(nx,{childList:true,characterData:true,subtree:true})}
- if(!$('#tDev')._b){$('#tDev')._b=1;$('#tDev').onclick=()=>$('#hStudy').click()}
- if(window.Tema)Tema.altMenu('ana')}
+function showHome(){hideScr();scrSet('home');closeBox();$('#home').classList.remove('hide');const l=LS.get('beyan2.last',{s:1,a:1});$('#hStudyT').textContent=`${trS('Devam et')} · ${SN()[(l.s||1)-1]} ${l.s||1}:${l.a||1}`;ptNext()}
 function vdKapat(){$('#vdF').src='about:blank';$('#vdOv').classList.add('hide')}
 function vdAc(id,bas){$('#vdT').textContent=bas||'';$('#vdF').src='https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&playsinline=1&rel=0&modestbranding=1';$('#vdOv').classList.remove('hide')}
 const YTE=(q)=>'https://www.youtube-nocookie.com/embed/'+q+(q.includes('?')?'&':'?')+'playsinline=1&rel=0&modestbranding=1';
@@ -1661,8 +1615,7 @@ function settings(){
   B.innerHTML=`<div class="sets">
    <section style="grid-column:1/-1"><h4 data-nt>Dil · اللغة · Language</h4><div class="seg" data-nt>${Object.entries(LANGS).map(([k,v])=>`<button data-lg="${k}" class="${LANG===k?'on':''}">${v}</button>`).join('')}</div></section>
    <section><h4>Görünüm</h4>
-    <div class="f"><label class="l">Site görünümü</label>${window.Tema?Tema.secici():''}</div>
-    <div class="f"><label class="l">Klasik görünümde tema</label><div class="themes">${[['parsomen','Parşömen','#f3ead4','#0e5a43'],['zumrut','Zümrüt','#e6efe9','#0b6a4e'],['gece','Gece','#0c1311','#d6ab52'],['sade','Sade','#fff','#1f5f8b']].map(t=>`<button data-th="${t[0]}" class="${set.theme===t[0]?'on':''}" style="background:${t[2]};color:${t[3]}">${t[1]}</button>`).join('')}</div></div>
+    <div class="f"><label class="l">Tema</label><div class="themes">${[['parsomen','Parşömen','#f3ead4','#0e5a43'],['zumrut','Zümrüt','#e6efe9','#0b6a4e'],['gece','Gece','#0c1311','#d6ab52'],['sade','Sade','#fff','#1f5f8b']].map(t=>`<button data-th="${t[0]}" class="${set.theme===t[0]?'on':''}" style="background:${t[2]};color:${t[3]}">${t[1]}</button>`).join('')}</div></div>
     <div class="f"><label class="l">Meal yazı boyutu <span>${set.msize}px</span></label><input type="range" min="13" max="24" value="${set.msize}" data-r="msize"></div>
     <div class="f"><label class="l">Tefsir yazı boyutu <span>${set.tsize}px</span></label><input type="range" min="15" max="36" value="${set.tsize}" data-r="tsize"></div></section>
    <section><h4>Hat</h4>
@@ -1684,7 +1637,7 @@ function settings(){
     <button class="pill" id="srcB">Kaynaklar ve güvenilirlik ›</button> <button class="pill" id="abtB">Hakkında ve destek ›</button></section>
    <section><h4>Ses</h4><div class="f"><label class="l">Kâri</label><select id="rS">${RECITERS.map(r=>`<option value="${r[0]}" ${r[0]===set.reciter?'selected':''}>${r[1]}</option>`).join('')}</select></div>
     <label class="ck"><input type="checkbox" id="cC" ${set.cont?'checked':''}> Âyet bitince sonrakine geç</label></section></div>`;
-  $$('[data-th]',B).forEach(x=>x.onclick=()=>{set.theme=x.dataset.th;save();applyVars();settings()});window.Tema&&Tema.bagla(B);
+  $$('[data-th]',B).forEach(x=>x.onclick=()=>{set.theme=x.dataset.th;save();applyVars();settings()});
   $$('[data-r]',B).forEach(x=>x.oninput=()=>{set[x.dataset.r]=+x.value;x.previousElementSibling.querySelector('span').textContent=x.value+'px';applyVars();save()});
   $('#fS').onchange=e=>{set.font=e.target.value;$('#fP').style.fontFamily=set.font+",'Amiri Quran'";applyVars();save()};
   $$('[data-sc]',B).forEach(x=>x.onclick=()=>{set.script=x.dataset.sc;save();settings();loadSurah(st.s,null,1)});

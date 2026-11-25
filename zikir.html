@@ -3,7 +3,6 @@
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Zikirler ve Dualar (Hısnü’l-Müslim) — el-Mihrâb</title><meta name="theme-color" content="#0e5a43">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="tema.css?v=1"><script src="tema.js?v=1"></script>
 <style>
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f4efe3;color:#24302b}
 #hd{background:linear-gradient(135deg,#0e5a43,#0b4031);color:#fff;padding:calc(10px + env(safe-area-inset-top,0px)) 14px 12px;border-radius:0 0 20px 20px;position:sticky;top:0;z-index:5;box-shadow:0 4px 14px rgba(0,0,0,.15)}
@@ -25,34 +24,10 @@ main{max-width:760px;margin:0 auto;padding:12px 12px 80px}
 .kt{font-size:15px;color:#0e5a43;margin:16px 4px 8px;font-weight:700}.bl{display:flex;justify-content:space-between;align-items:center;gap:8px;width:100%;text-align:left;border:0;background:#fffdf8;border-radius:14px;padding:12px 14px;margin:0 0 7px;font:600 15px system-ui;color:inherit;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.05)}.bl small{color:#8a8578;font-weight:400;white-space:nowrap}.ara{width:100%;border:0;border-radius:14px;padding:12px 14px;font-size:16px;margin:0 0 6px;box-shadow:0 1px 4px rgba(0,0,0,.06)}.geri{border:0;background:#e9e3d4;border-radius:12px;padding:9px 13px;font:600 14px system-ui;cursor:pointer;margin:0 0 10px}@media(prefers-color-scheme:dark){.bl,.ara{background:#1b231f;color:#e4ece7}.geri{background:#2a3530;color:#e4ece7}.kt{color:#8fd0b2}}
 .note{font-size:12.5px;color:#7a7266;line-height:1.5;padding:4px 6px}
 @media(prefers-color-scheme:dark){body{background:#121815;color:#e4ece7}.z{background:#1b231f}.tr{color:#b7c4bc}.f{background:#22302a;color:#cfe2d6}.c button.rs{background:#2a3530;color:#e4ece7}.z h3{color:#8fd0b2}}
-/* Yeni şablon (tema.css) */
-.pgy{display:none}
-html[data-tema] body{background:var(--bg);color:var(--ink)}
-html[data-tema] #hd{background:var(--t-hero);border-radius:0 0 26px 26px;padding-bottom:16px;box-shadow:0 10px 24px -16px rgba(30,42,74,.6)}
-html[data-tema] #hd h1{font-weight:800;font-size:18px;letter-spacing:-.01em}
-html[data-tema] #hd a{background:rgba(255,255,255,.16);border-radius:12px}
-html[data-tema] .tabs button{border-radius:14px;font-weight:700}
-html[data-tema=a] .tabs button.on{background:#F2994A;color:#fff}html[data-tema=b] .tabs button.on{background:#fff;color:#0F766E}
-html[data-tema] .pgy{display:flex;justify-content:space-between;font:700 12.5px var(--ui);color:rgba(255,255,255,.9);margin-top:12px}
-html[data-tema] .pg{height:8px;margin-top:6px;background:rgba(255,255,255,.22)}html[data-tema] .pg div{background:var(--t-ilerleme);border-radius:4px}
-html[data-tema=b] .pg div{background:#FDE68A}
-html[data-tema] .ops button{color:rgba(255,255,255,.9)}
-html[data-tema] .z{background:var(--card);border-radius:20px;box-shadow:var(--t-golge);border:1px solid var(--line);padding:16px}
-html[data-tema=b] .z{border-color:transparent}
-html[data-tema] .z h3{color:var(--accent);font-weight:800}html[data-tema] .z h3 span:last-child{background:var(--accentSoft);border-radius:10px;padding:2px 8px;font-size:12.5px;white-space:nowrap}
-html[data-tema] .tr{color:var(--ink2)}html[data-tema] .k,html[data-tema] .note{color:var(--muted)}
-html[data-tema] .f{background:var(--hl);color:var(--ink2);border-radius:12px}
-html[data-tema] .c button.say{background:var(--t-btn);box-shadow:var(--t-btn-golge);border-radius:16px;padding:15px;font-weight:800}
-html[data-tema] .z.ok{opacity:.7}html[data-tema] .z.ok .c button.say{background:var(--ok);box-shadow:none}
-html[data-tema] .c button.rs{background:var(--accentSoft);color:var(--accent);border-radius:14px;padding:13px 14px}
-html[data-tema] .kt{color:var(--accent);font-weight:800}
-html[data-tema] .bl{background:var(--card);border-radius:16px;box-shadow:var(--t-golge);color:var(--ink)}
-html[data-tema] .ara{border-radius:14px}
-@media(prefers-color-scheme:dark){html[data-tema] body{background:var(--bg);color:var(--ink)}html[data-tema] .z{background:var(--card)}html[data-tema] .tr{color:var(--ink2)}html[data-tema] .f{background:var(--hl);color:var(--ink2)}html[data-tema] .z h3{color:var(--accent)}html[data-tema] .c button.rs{background:var(--accentSoft);color:var(--accent)}}
 </style></head><body>
 <div id="hd"><div class="top"><a href="./" id="bk">‹ Geri</a><h1>Zikir ve Dualar · Hısnü’l-Müslim</h1></div>
 <div class="tabs"><button data-t="sabah">☀️ Sabah</button><button data-t="aksam">🌙 Akşam</button><button data-t="namaz">🕌 Namaz sonrası</button><button data-t="hepsi">📚 Bütün dualar</button></div>
-<div class="pgy"><span>Bugünkü ilerleme</span><span id="pgy">%0</span></div><div class="pg"><div id="pg"></div></div>
+<div class="pg"><div id="pg"></div></div>
 <div class="ops"><button id="ttr">Meâli gizle</button><button id="rst">↺ Sıfırla</button></div></div>
 <main id="m"></main>
 <script>
@@ -66,7 +41,7 @@ var CH=null;/* Bütün dualar: seçili bölüm [kategori,bölüm] */
 function liste(t){if(t==='hepsi')return CH?D.bolumler[CH[0]].b[CH[1]].z:[];return D[t].map(function(x){if(!x.ref)return x;var p=x.ref.split(':'),b=D[p[0]][+p[1]],o={};for(var k in b)o[k]=b[k];for(k in x)if(k!=='ref')o[k]=x[k];return o})}
 function pre(t){return t==='hepsi'?'h'+CH[0]+'_'+CH[1]+'_':t}
 function kalan(t,i,x){var c=st.c[pre(t)+i];return c==null?x.n:c}
-function pg(){if(T==='hepsi'&&!CH){document.getElementById('pg').style.width='0';return}var L=liste(T),top=0,yap=0;L.forEach(function(x,i){top+=x.n;yap+=x.n-kalan(T,i,x)});document.getElementById('pg').style.width=(top?yap/top*100:0)+'%';document.getElementById('pgy').textContent='%'+Math.round(top?yap/top*100:0)+' · '+yap+' / '+top}
+function pg(){if(T==='hepsi'&&!CH){document.getElementById('pg').style.width='0';return}var L=liste(T),top=0,yap=0;L.forEach(function(x,i){top+=x.n;yap+=x.n-kalan(T,i,x)});document.getElementById('pg').style.width=(top?yap/top*100:0)+'%'}
 function kart(x,i,t){var r=kalan(t,i,x);return '<div class="z'+(r?'':' ok')+'" data-i="'+i+'"><h3><span>'+(t==='hepsi'?'':(i+1)+'. ')+esc(x.b||'')+'</span><span>'+x.n+' kez</span></h3><div class="ar" lang="ar">'+esc(x.s)+'</div><p class="tr">'+esc(x.t)+'</p>'+(x.f?'<p class="f">✦ '+esc(x.f)+'</p>':'')+'<div class="k">Kaynak: '+esc(x.k)+'</div>'+
   '<div class="c"><button class="say">'+(r?r+' kaldı · dokun':'✓ Tamam')+'</button><button class="rs" title="Bu zikri baştan say">↺</button></div></div>'}
 function fihrist(q){var h='<input class="ara" id="ara" type="search" placeholder="Bölüm ara: yolculuk, elbise, yağmur…" value="'+esc(q||'')+'">',qq=(q||'').toLocaleLowerCase('tr');
@@ -89,7 +64,7 @@ var ttr=document.getElementById('ttr');function trs(){document.body.classList.to
 ttr.onclick=function(){st.htr=!st.htr;sv();trs()};
 document.getElementById('rst').onclick=function(){if(T==='hepsi'&&!CH)return;var p=pre(T);Object.keys(st.c).forEach(function(k){if(k.indexOf(p)===0)delete st.c[k]});sv();ciz(T)};
 document.getElementById('bk').onclick=function(e){if(document.referrer.indexOf(location.origin)===0&&history.length>1){e.preventDefault();history.back()}};
-trs();if(window.Tema)Tema.altMenu('');
+trs();
 fetch('data/zikir.json').then(function(r){return r.json()}).then(function(d){D=d;var h=location.hash.slice(1),m=h.match(/^hepsi-(\d+)_(\d+)$/);if(m){CH=[+m[1],+m[2]];ciz('hepsi')}else ciz(D[h]||h==='hepsi'?h:(new Date().getHours()<15?'sabah':'aksam'))}).catch(function(){M.innerHTML='<p class="note">Zikirler yüklenemedi; internet bağlantınızı kontrol edin.</p>'});
 </script>
 <script src="hesap-ayar.js?v=1"></script><script src="hesap.js?v=2" defer></script></body></html>

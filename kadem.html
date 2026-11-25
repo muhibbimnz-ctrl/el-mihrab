@@ -227,6 +227,15 @@ details summary{cursor:pointer;font-weight:600;margin-top:8px;font-size:14.5px;c
 #toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(90px);background:var(--ink);color:var(--kagit);border-radius:3px;padding:9px 16px;transition:transform .25s;z-index:20;font-size:15px}
 #toast.on{transform:translateX(-50%) translateY(0)}
 /* ===== TEMALAR: a = Gece Mavisi, b = Sabah Ferahlığı ===== */
+/* Deneme kartları */
+.dkartlar{display:flex;flex-direction:column;gap:10px;margin:8px 0}
+.dkart{display:flex;align-items:center;gap:12px;background:var(--kagit);border:1px solid var(--line);border-radius:10px;padding:12px 12px 12px 10px}
+.dkart .dno{flex:none;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font:800 15px var(--sans);background:color-mix(in srgb,var(--acc) 10%,transparent);color:var(--acc)}
+.dkart.cozuldu .dno{background:var(--ok);color:#fff}
+.dkart .dbilgi{flex:1;min-width:0}.dkart b{display:block;font:800 16px var(--sans)}.dkart small{display:block;color:var(--muted);font-size:12.5px;line-height:1.4;margin-top:2px}
+.dkart .dsonuc{margin-top:6px;font-size:13px}.dkart .dsonuc a{color:var(--acc);font-weight:700;text-decoration:none}.dkart .dsonuc .cubuk{margin-top:4px;height:5px}
+.dkart .btn{flex:none;min-width:84px}.dkart.kilitli{opacity:.75}
+html[data-tema] .dkart{border-radius:16px;box-shadow:var(--t-golge)}html[data-tema=b] .dkart{border-color:transparent}
 /* Tema renkleri ortak tema.css dosyasından gelir (Gece Mavisi a, Sabah Ferahlığı b). */
 html[data-tema] body{padding-bottom:96px}
 html[data-tema] h1{font-weight:800;letter-spacing:-.02em;font-size:26px}
@@ -682,20 +691,24 @@ function denemelerSayfa(S,V){
  function son(f){for(var i=G.length-1;i>=0;i--)if(f(G[i]))return G[i]}
  var h='<div class="ust-etiket">'+e(S.ad)+'</div><h1>Denemeler</h1><p class="lead">Gerçek sınav biçiminde: '+D.soru+' soru, '+D.dakika+' dakika. '+(D.yanlisGoturur?'Dört yanlış bir doğruyu götürür.':'Yanlışlar doğruları götürmez.')+' Süre sayacı, soru haritası, işaretleme ve cevap değiştirme var; sayfa kapansa da deneme kaldığı yerden sürer.</p>';
  if(A)h+='<div class="dugmeler"><button class="btn" id="yarim">Yarım kalan denemeye dön · '+e(A.ad||'')+'</button></div>';
- if(V.denemeler.length){h+='<h2>Tam denemeler</h2><table class="cizelge"><tr><th>Deneme</th><th>Soru</th><th>Son sonuç</th><th></th></tr>';
-  V.denemeler.forEach(function(x){var g=son(function(r){return r.ref===x.id});
-   h+='<tr><td class="ad">'+e(x.ad)+(x.aciklama?'<div class="kucukyazi" style="font-family:var(--sans);font-weight:400">'+e(x.aciklama)+'</div>':'')+'</td><td>'+(x._kilit?'🔒':x.sorular.length)+'</td><td>'+(g?'<a href="#s='+e(S.id)+'&t=sonuc&r='+g.t+'" style="color:var(--acc)">'+yuvarla(net(g))+' '+(g.yg?'net':'doğru')+'</a>':'—')+'</td>'+
-    '<td class="sag"><button class="btn kucuk'+(g?' ik':'')+'" data-d="'+e(x.id)+'">'+(g?'Yeniden':'Başla')+'</button></td></tr>'});
-  h+='</table><p class="kucukyazi">Tam denemelerin soruları konu testlerinde yoktur; her biri resmî ders dağılımına göre ayrı yazılmıştır.</p>'}
+ if(V.denemeler.length){var biten=V.denemeler.filter(function(x){return son(function(r){return r.ref===x.id})}).length;
+  h+='<h2>Tam denemeler <em>'+biten+' / '+V.denemeler.length+' çözüldü</em></h2><div class="dkartlar">';
+  V.denemeler.forEach(function(x,i){var g=son(function(r){return r.ref===x.id}),yz=g?Math.round(100*net(g)/(g.n||x.sorular.length||1)):0,
+    ac=(x.aciklama||'').split(' · ').filter(function(t){return!/^\d+ soru$/.test(t)});
+   h+='<div class="dkart'+(g?' cozuldu':'')+(x._kilit?' kilitli':'')+'"><span class="dno">'+(i+1)+'</span><div class="dbilgi"><b>'+e(x.ad)+'</b>'+
+    '<small>'+(x._kilit?'🔒 Şifreyle açılır':e(ac.join(' · ')))+'</small>'+
+    (g?'<div class="dsonuc"><a href="#s='+e(S.id)+'&t=sonuc&r='+g.t+'">Son: '+yuvarla(net(g))+' '+(g.yg?'net':'doğru')+' / '+g.n+'</a><div class="cubuk"><i style="width:'+Math.max(0,yz)+'%"></i></div></div>':'')+
+    '</div><button class="btn kucuk'+(g?' ik':'')+'" data-d="'+e(x.id)+'">'+(x._kilit?'🔒':g?'Yeniden':'Başla')+'</button></div>'});
+  h+='</div><p class="kucukyazi">Tam denemelerin soruları konu testlerinde yoktur; her biri resmî ders dağılımına göre ayrı yazılmıştır.</p>'}
  var kar=0;if(V.harita)V.harita.dersler.forEach(function(d){kar+=Math.min(d.soru,V.havuz.filter(function(q){return q._konu.ders===d.ad}).length)});else kar=Math.min(D.soru,V.havuz.length);
  h+='<h2>Karma deneme</h2><div class="ders"><div class="bas"><span>Her seferinde yeni bir deneme</span><span>'+kar+' soru</span></div><p class="kucukyazi" style="margin:6px 0 8px">Konu testlerindeki '+V.havuz.length+' sorudan resmî ders ağırlığıyla rastgele seçilir. İstediğin kadar çözebilirsin.</p><button class="btn kucuk" id="karma"'+(kar?'':' disabled')+'>Karma deneme başlat</button></div>';
  h+='<h2>Ders denemeleri</h2><p class="kucukyazi">Tek dersin sorularından süreli mini deneme (soru başına '+yuvarla(D.dakika/D.soru)+' dk).</p><div class="konular">';
  dersler(V).forEach(function(ad){var n=V.havuz.filter(function(q){return q._konu.ders===ad}).length;if(!n)return;var m=Math.min(n,20),g=son(function(r){return r.tur==='ders'&&r.ad===ad+' denemesi'});
   h+='<a class="satir" data-ders="'+e(ad)+'"><span>'+e(ad)+'</span><small>'+m+' soru · '+Math.max(3,Math.round(D.dakika*m/D.soru))+' dk'+(g?' · son: '+g.dogru+'/'+g.n:'')+'</small></a>'});
  h+='</div>';
- if(G.length){h+='<h2>Geçmiş</h2><table class="cizelge"><tr><th>Tarih</th><th>Deneme</th><th class="sag">Sonuç</th></tr>';
-  G.slice().reverse().forEach(function(g){h+='<tr><td>'+gun(g.t)+'</td><td>'+e(g.ad||'Karma deneme')+'</td><td class="sag"><a href="#s='+e(S.id)+'&t=sonuc&r='+g.t+'" style="color:var(--acc)">'+yuvarla(net(g))+' / '+g.n+'</a></td></tr>'});
-  h+='</table>'}
+ if(G.length){h+='<h2>Geçmiş</h2><div class="konular">';
+  G.slice().reverse().forEach(function(g){h+='<a class="satir" href="#s='+e(S.id)+'&t=sonuc&r='+g.t+'"><span>'+e(g.ad||'Karma deneme')+'<br><small>'+gun(g.t)+'</small></span><small><strong>'+yuvarla(net(g))+'</strong> / '+g.n+' ›</small></a>'});
+  h+='</div>'}
  M.innerHTML=h;scrollTo(0,0);
  if(A)$('#yarim').onclick=function(){git('s='+S.id+'&t=deneme&devam=1')};
  [].forEach.call(M.querySelectorAll('[data-d]'),function(b){b.onclick=function(){git('s='+S.id+'&t=deneme&d='+encodeURIComponent(b.dataset.d))}});
