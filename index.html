@@ -322,6 +322,37 @@ a{color:var(--accent)}
 .pt .tm div.on{background:var(--accent);color:#dfeee6}.pt .tm div.on b{color:#fff}
 .pt input{padding:6px 9px;border:1px solid var(--line2);border-radius:9px;background:var(--paper);width:140px}
 .ok-body{flex:1;overflow-y:auto}
+#okuma{--mbS:#5b3a6e;top:0;bottom:0;z-index:46;display:flex;flex-direction:column;background:var(--mzZ,#fffdf8)}
+#okuma .mh{flex:none;display:flex;align-items:center;gap:6px;background:var(--accent);color:#fff;padding:calc(6px + env(safe-area-inset-top,0px)) 8px 8px;min-height:58px}
+#okuma .mh b{flex:1;text-align:center;font:600 21px var(--ui,system-ui),sans-serif;letter-spacing:.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#okuma .mh .ib{color:#fff;background:transparent;border:0}#okuma .mh .ib svg{width:26px;height:26px}
+#okuma .ok-body{padding-bottom:110px;background:var(--mzZ,#fffdf8)}
+#okuma #okB{background:var(--mzZ,#fffdf8);border:0;box-shadow:none;max-width:760px;margin:0 auto;color:var(--mzY,#1d1d1d)}
+#okB:not(.qcf){line-height:var(--mzLh,2.3)!important;padding:18px 16px 30px!important;word-spacing:normal!important;font-size:var(--mzSz,var(--qsize))}
+#okuma #okB:before{display:none}
+#okB .oa{cursor:pointer;border-radius:4px;transition:background .15s;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+#okB .oa.sec{background:rgba(120,120,120,.2)}
+#okB .lf{color:#c2187a}
+#okB .num{border:0;background:radial-gradient(circle,#efe3bf 58%,#c9a85a 60%,#c9a85a 72%,transparent 74%);color:#5a4413;min-width:1.65em;height:1.65em;font-weight:700}
+#okuma.tam .mh,#okuma.tam .mb,#okuma.tam .okfab{display:none}#okuma.tam .ok-body{padding-bottom:30px}
+.mb{position:absolute;left:0;right:0;bottom:0;z-index:5;display:flex;align-items:flex-end;justify-content:space-around;background:var(--accent);color:#fff;padding:6px 4px calc(6px + env(safe-area-inset-bottom,0px));height:calc(66px + env(safe-area-inset-bottom,0px))}
+.mb button{flex:1;border:0;background:none;color:#fff;display:flex;flex-direction:column;align-items:center;gap:3px;font:500 14px var(--ui,system-ui),sans-serif;cursor:pointer;padding:4px 0}
+.mb button svg{width:28px;height:28px}
+.mb .mb-s{position:relative;flex:0 0 96px;margin-top:-30px}.mb .mb-s svg{width:92px;height:76px;filter:drop-shadow(0 3px 4px rgba(0,0,0,.3))}
+.mb .mb-s b{position:absolute;left:0;right:0;bottom:12px;font:800 19px var(--ui,system-ui),sans-serif;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.4)}
+.okfab{position:absolute;left:16px;bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:6;width:64px;height:64px;border-radius:50%;border:0;background:var(--accent);color:#fff;box-shadow:0 4px 12px rgba(0,0,0,.3);display:grid;place-items:center;cursor:pointer}
+.okfab svg{width:30px;height:30px}.okfab.on{background:var(--gold)}
+.okse{position:absolute;left:10px;right:10px;bottom:calc(80px + env(safe-area-inset-bottom,0px));z-index:7;display:flex;align-items:center;gap:2px;background:var(--card);border:1px solid var(--line2);border-radius:16px;box-shadow:0 6px 18px rgba(0,0,0,.18);padding:6px 8px;overflow-x:auto}
+.okse b{font:600 13px var(--ui,system-ui),sans-serif;color:var(--muted);padding:0 6px;white-space:nowrap}
+.okse button{flex:1;border:0;background:none;color:var(--accent);display:flex;flex-direction:column;align-items:center;gap:2px;font:600 12px var(--ui,system-ui),sans-serif;padding:4px 6px;cursor:pointer;white-space:nowrap}.okse button svg{width:22px;height:22px}
+.okp-ar{position:absolute;inset:0;z-index:20;background:rgba(0,0,0,.35);display:flex;align-items:flex-end}
+.okp-ic{width:100%;max-height:80%;overflow:auto;background:var(--card);border-radius:20px 20px 0 0;padding:18px 18px calc(20px + env(safe-area-inset-bottom,0px));font-family:var(--ui,system-ui),sans-serif}
+.okp-ic h3{margin:0 0 12px;font-size:18px}.okp-ic label{display:block;font-size:13px;color:var(--muted);margin:12px 0 4px}
+.okp-ic select,.okp-ic input[type=number]{width:100%;padding:10px;border-radius:12px;border:1px solid var(--line2);background:var(--paper);color:inherit;font:inherit;font-size:16px}
+.okp-ic input[type=range]{width:100%}.okp-ic .sr{display:flex;gap:8px}.okp-ic .sr>*{flex:1}
+.okp-ic .seg{display:flex;gap:6px}.okp-ic .seg button{flex:1;padding:10px;border-radius:12px;border:1px solid var(--line2);background:var(--paper);color:inherit;font:inherit;cursor:pointer}.okp-ic .seg button.on{border-color:var(--accent);color:var(--accent);font-weight:700}
+.okp-ic .git{width:100%;margin-top:14px;padding:12px;border:0;border-radius:14px;background:var(--accent);color:#fff;font:600 16px inherit;cursor:pointer}
+.okp-ic .ml{font-size:16px;line-height:1.7;color:var(--ink)}.okp-ic .ml .a{font-family:var(--qfont),'Amiri Quran',serif;font-size:26px;line-height:2;direction:rtl;text-align:right;margin-bottom:8px}
 .ok-bar{display:flex;gap:8px;align-items:center;justify-content:center;padding:6px 10px;border-bottom:1px solid var(--line2)}
 .ok-bar select{max-width:190px;padding:6px;border-radius:10px;border:1px solid var(--line2);background:var(--paper);color:inherit}
 .ok-bar input{width:64px;padding:6px;border-radius:10px;border:1px solid var(--line2);text-align:center;background:var(--paper);color:inherit}
@@ -550,9 +581,18 @@ a{color:var(--accent)}
 </section>
 
 <section class="scr hide" id="okuma">
-  <div class="rd-h"><button class="ib" id="okX" title="Ana sayfa"></button><b id="okT"></b><span style="flex:1"></span><select class="okm" id="okM" title="Kelime meali"><option value="">Kelime meali: kapalı</option><option value="tr">Kelime meali: Türkçe</option><option value="en">Word meaning: English</option></select></div>
-  <div class="ok-bar"><button class="okb" id="okNx" title="Sonraki sayfa">‹</button><select id="okS"></select><input id="okN2" type="number" min="1" max="604" inputmode="numeric"><button class="okb" id="okPv" title="Önceki sayfa">›</button></div>
-  <div class="ok-body"><div class="mus" id="okB" lang="ar"></div><div class="ok-hint">Aşağı kaydırdıkça sayfalar devam eder</div></div>
+  <div class="mh"><button class="ib" id="okX" title="Geri"></button><b id="okT"></b><button class="ib" id="okTam" title="Tam ekran"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button></div>
+  <div class="ok-body"><div class="mus" id="okB" lang="ar"></div></div>
+  <div class="okse hide" id="okSe"><b id="okSeT"></b><button data-a="dinle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7 5v14l11-7z"/></svg>Dinle</button><button data-a="tefsir"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4.5h11a3 3 0 0 1 3 3V20H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h11"/></svg>Tefsir</button><button data-a="meal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Meâl</button><button data-a="kopya"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></svg>Kopyala</button></div>
+  <button class="okfab" id="okDin" title="Dinle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h12M3 11h12M3 16h7"/><path d="M15 14v7l6-3.5z" fill="currentColor"/></svg></button>
+  <nav class="mb">
+    <button id="okHiz"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 6l6 6-6 6M12 6l6 6-6 6"/></svg><span id="okHizT">Hız</span></button>
+    <button id="okTef"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h3l-2 16H5zM13 4h6v4h-6zM13 10h6v4h-6zM13 16h6v4h-6z"/></svg><span>Tefsir</span></button>
+    <button class="mb-s" id="okSy" title="Sayfa"><svg viewBox="0 0 64 52"><path d="M4 8q14-6 28 2v38q-14-8-28-2z" fill="var(--mbS)" stroke="var(--gold)" stroke-width="3"/><path d="M60 8q-14-6-28 2v38q14-8 28-2z" fill="var(--mbS)" stroke="var(--gold)" stroke-width="3"/><path d="M14 22q6-6 13-2M50 22q-6-6-13-2" fill="none" stroke="#fff" stroke-width="2.4"/><path d="M12 19l2 3.4 3.6-1.6M52 19l-2 3.4-3.6-1.6" fill="none" stroke="#fff" stroke-width="2.4"/></svg><b id="okPn">1</b></button>
+    <button id="okGit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg><span>Git</span></button>
+    <button id="okAy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg><span>Ayarlar</span></button>
+  </nav>
+  <div class="okp-ar hide" id="okPan"><div class="okp-ic" id="okPanI"></div></div>
 </section>
 
 <section class="scr hide" id="ezber">
@@ -1061,6 +1101,7 @@ const NI={
  ogren:'<path d="M4 20h16"/><path d="M14.5 4.5l3 3L9 16l-4 1 1-4z"/>',
  ezber:'<path d="M17 3l3 3-3 3"/><path d="M4 12v-2a4 4 0 0 1 4-4h12"/><path d="M7 21l-3-3 3-3"/><path d="M20 12v2a4 4 0 0 1-4 4H4"/>',
  hatim:'<circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 4.9-5.3"/>',
+ hac:'<path d="M4.5 7.5 12 4l7.5 3.5v9.5L12 20.5 4.5 17z"/><path d="M4.5 7.5 12 11l7.5-3.5M12 11v9.5M4.5 10.5 12 14l7.5-3.5"/>',
  vakit:'<path d="M3 21h18"/><path d="M6 21v-7a6 6 0 0 1 12 0v7"/><path d="M12 8V4.5M11 4.5h2"/><path d="M10 21v-3.5a2 2 0 0 1 4 0V21"/>',
  kible:'<circle cx="12" cy="12" r="9"/><path d="M15.6 8.4l-2.1 5.1-5.1 2.1 2.1-5.1z"/>',
  kaza:'<path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1"/><path d="M3.5 4v4.2h4.2"/><path d="M12 7.5V12l3 2"/>',
@@ -1078,9 +1119,9 @@ const NI={
  farsca:'<path d="M4 4.5h16v12H10l-4.5 3.5v-3.5H4z"/><text x="12" y="13.6" text-anchor="middle" font-family="Amiri,serif" font-size="10" stroke="none" fill="currentColor">ف</text>',
  ingilizce:'<path d="M4 4.5h16v12H10l-4.5 3.5v-3.5H4z"/><text x="12" y="13.4" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="600" font-size="7.4" stroke="none" fill="currentColor">En</text>'};
 const NMG=[["Kur'an",[['kuran',"Kur'ân-ı Kerîm",'mushaf oku okuma sayfa'],['tefsir','Tefsirli Okuma','meal tefsir dirâset'],['dinle',"Kur'an Dinle",'tilavet kâri hafız ses'],['ogren',"Kur'an Öğren",'elifba harf tecvid'],['ezber','Ezber','hıfz hafızlık tekrar'],['hatim','Hatim Takibi','hatim cüz grup']]],
- ['Namaz',[['vakit','Ezan Vakti','namaz vakitleri imsak iftar sahur hicri takvim'],['kible','Kıble Pusulası','kıble yön pusula'],['kaza','Kaza Namazı','kaza borç takip'],['cami','Cami Bul','cami mescit harita yakın'],['zikir','Tesbihat','zikir dua sabah akşam hısnül müslim'],['delail','Delâil-i Hayrât','salavat delail'],['ozel','Özel Haller','kadın hayız âdet regl lohusa nifas istihaze takvim']]],
+ ['Namaz',[['vakit','Ezan Vakti','namaz vakitleri imsak iftar sahur hicri takvim'],['kible','Kıble Pusulası','kıble yön pusula'],['kaza','Kaza Namazı','kaza borç takip'],['cami','Cami Bul','cami mescit harita yakın'],['zikir','Tesbihat','zikir dua sabah akşam hısnül müslim'],['delail','Delâil-i Hayrât','salavat delail'],['ozel','Özel Haller','kadın hayız âdet regl lohusa nifas istihaze takvim'],['hac','Hac ve Umre','hac umre ihram tavaf sa‘y arafat kâbe mekke medine']]],
  ['İzle · Dinle',[['canli','Canlı Yayın','mekke medine kabe canlı'],['hutbe','Cuma Hutbesi','hutbe diyanet cuma'],['hikaye','Hadis Hikâyeleri','video çizgi film hikâye']]],
- ['İlim · Haber',[['soru','Soru-Cevap','soru cevap fetva asistan sor'],['fikih','Fıkıh Meseleleri','fıkıh mesele mezhep hanefi'],['haber','Haberler','haber gündem ümmet dünya müslüman'],['cocuk','Çocuk Köşesi','çocuk oyun'],['farsca','Farsça','dil fars'],['ingilizce','İngilizce','dil english']]]];
+ ['İlim · Haber',[['soru','Fetva Sor','fetva soru cevap asistan sor yapay zekâ'],['fikih','İlmihal','ilmihal fıkıh mesele abdest gusül namaz oruç zekât hac kurban'],['haber','Haberler','haber gündem ümmet dünya müslüman'],['cocuk','Çocuk Köşesi','çocuk oyun'],['farsca','Farsça','dil fars'],['ingilizce','İngilizce','dil english']]]];
 let kDinle=0;
 function izAc(p){const iz=$('#izle');$$('.izb',iz).forEach(b=>b.classList.toggle('hide',b.dataset.p!==p));$('#izT').textContent={hutbe:'Cuma Hutbesi',canli:'Canlı Yayın',hikaye:'Hadis Hikâyeleri'}[p];iz.classList.remove('hide');document.body.classList.add('izOn');iz.scrollTop=0;ovPush();if(p==='hutbe')hutbeVaaz();else openDiger()}
 function ovPush(){try{history.pushState({ov:1},'')}catch(e){}}
@@ -1089,8 +1130,8 @@ let ovSus=false;addEventListener('popstate',e=>{if(ovSus){ovSus=false;e.stopImme
 function openVakit(){$('#vakit').classList.remove('hide');document.body.classList.add('izOn');ovPush();ptRender()}
 function kuranAc(){if(set.okBicim==='mushaf')return openOkuma();const l=LS.get('beyan2.last',{s:1,a:1});hideScr();loadSurah(l.s||1,l.a>1?l.a:null)}
 const NA={kuran:kuranAc,tefsir:()=>{if(window.kuranDirase)window.kuranDirase();else kuranAc()},dinle:()=>{kDinle=1;hideScr();openOv('ovS');surahList('s')},ogren:'elifba',ezber:()=>openEzber(),hatim:'hatim',
- vakit:openVakit,kible:'kible',kaza:'kaza',cami:'cami',zikir:'zikir',delail:'delail',ozel:'ozel',canli:()=>izAc('canli'),hutbe:()=>izAc('hutbe'),hikaye:()=>izAc('hikaye'),
- soru:'soru',fikih:'fikih',haber:'haber',cocuk:'cocuk',farsca:'farsca',ingilizce:'ingilizce'};
+ vakit:openVakit,kible:'kible',kaza:'kaza',cami:'cami',zikir:'zikir',delail:'delail',ozel:'ozel',hac:'hac',canli:()=>izAc('canli'),hutbe:()=>izAc('hutbe'),hikaye:()=>izAc('hikaye'),
+ soru:'soru',fikih:()=>{location.href='fikih.html?ilmihal'},haber:'haber',cocuk:'cocuk',farsca:'farsca',ingilizce:'ingilizce'};
 function nmMenu(){const G=$('#nmG');if(G.dataset.ok)return;G.dataset.ok=1;
   G.innerHTML=NMG.map(([g,L])=>`<div class="nmm-gb">${esc(trS(g))}</div><div class="nmm-g">${L.map(([k,ad,an])=>`<button class="ni" data-k="${k}" data-a="${esc((ad+' '+an).toLocaleLowerCase('tr'))}"><svg viewBox="0 0 24 24">${NI[k]}</svg><span>${esc(trS(ad))}</span></button>`).join('')}</div>`).join('')+'<div class="nmm-yok hide" id="nmYok">Sonuç yok</div>';
   $$('.ni',G).forEach(b=>b.onclick=()=>{const a=NA[b.dataset.k];if(typeof a==='function')a();else location.href=a+'.html'});
@@ -1252,8 +1293,7 @@ async function qcfPage(p,ml){const [r,f]=await Promise.all([getJSON(`https://api
 let okP=1;
 async function openOkuma(s){hideScr();scrSet('okuma');$('#okuma').classList.remove('hide');
   const p=s?pageOf(s,1):LS.get('mihrab.okP',1);
-  if(!$('#okS').options.length)$('#okS').innerHTML=SN().map((n,i)=>`<option value="${i+1}">${i+1}. ${esc(n)}</option>`).join('');
-  okPage(p)}
+  okZemin();okPage(p)}
 /* Mushaf: sayfalar alt alta eklenir, aşağı kaydırdıkça sonraki sayfa yüklenir (sürekli okuma) */
 const okCuz=p=>Math.min(30,p<22?1:Math.floor((p-2)/20)+1);
 async function okSayfa(p){const [s1,a1]=PG[p-1],[s2,a2]=p<604?PG[p]:[115,1];const ed=set.script==='simple'||st.fontFail?'quran-simple':'quran-uthmani',ml=set.okMeal===true?'tr':(set.okMeal||'');let h='',W={};
@@ -1267,12 +1307,49 @@ async function okSayfa(p){const [s1,a1]=PG[p-1],[s2,a2]=p<604?PG[p]:[115,1];cons
         const w=ml?W[s+':'+n]:null;
         const WL=ml==='en'?'english':'turkish',ok=w?w.filter(x=>x.translation&&x.translation.language_name===WL).length:0;
         if(w&&w.length&&ok>=w.length*0.6)h+=`<span class="oa ww" data-s="${s}" data-n="${n}">${w.map(x=>`<span class="wd"><b>${esc(x.text_uthmani)}</b><i>${x.translation&&x.translation.language_name===WL?esc(x.translation.text||''):'&nbsp;'}</i></span>`).join('')}</span><span class="num">${toAr(n)}</span> `;
-        else{h+=`<span class="oa" data-s="${s}" data-n="${n}">${esc(stripBasmala(s,n,a.t))}</span> <span class="num">${toAr(n)}</span> `;
+        else{h+=`<span class="oa" data-s="${s}" data-n="${n}">${lafz(esc(stripBasmala(s,n,a.t)))}</span> <span class="num">${toAr(n)}</span> `;
           if(ml&&me[n-1])h+=`<div class="om" dir="ltr"><b>${s}:${n}</b> ${esc(me[n-1].t)}</div>`}}}
   }catch(e){return{h:`<div class="note" style="direction:ltr">${MSG.loadErr[LANG]}<br><br>${MSG.offHint[LANG]}</div>`,hata:1}}
   return{h,ml}}
 let okIlk=1,okSon=0,okYuk=0,okNesil=0;
-function okBaslik(p){$('#okN2').value=p;$('#okS').value=PG[p-1][0];$('#okT').textContent=`${trS('Sayfa')} ${p} · ${trS('Cüz')} ${okCuz(p)}`}
+/* Allah lafzını renklendir */
+function lafz(t){return t.split(' ').map(w=>{const n=w.replace(/[ً-ٰٟـۖ-ۭ]/g,'').replace(/[ٱأإآ]/g,'ا');return /^[وفا]?[بتل]?(?:ال|ل)لهم?$/.test(n)?`<span class="lf">${w}</span>`:w}).join(' ')}
+function okBaslik(p){const P=$('#okPn');if(P)P.textContent=p;okAyetBaslik()}
+function okAyetBaslik(){const K=$('.ok-body');if(!K)return;const top=K.getBoundingClientRect().top+20;let e=null;for(const x of $$('#okB .oa')){if(x.getBoundingClientRect().bottom>top){e=x;break}}
+  const s=e?+e.dataset.s:PG[okP-1][0],n=e?+e.dataset.n:PG[okP-1][1];$('#okT').textContent=`${SN()[s-1]} (${n})`;okBaslik.s=s;okBaslik.n=n}
+let okSecili=null,okHizI=0,okHizRaf=0,okHizBir=0;const OKHIZ=[0,.35,.7,1.15,1.8];
+function okSec(e){$$('#okB .oa.sec').forEach(x=>x.classList.remove('sec'));if(!e||okSecili===e){okSecili=null;$('#okSe').classList.add('hide');return}
+  okSecili=e;e.classList.add('sec');$('#okSeT').textContent=`${SN()[e.dataset.s-1]} ${e.dataset.s}:${e.dataset.n}`;$('#okSe').classList.remove('hide')}
+function okHiz(){okHizI=(okHizI+1)%OKHIZ.length;$('#okHizT').textContent=okHizI?`Hız ${okHizI}`:'Hız';cancelAnimationFrame(okHizRaf);okHizBir=0;
+  if(!okHizI)return;const K=$('.ok-body');let son=performance.now();
+  const ad=t=>{if($('#okuma').classList.contains('hide')||!okHizI)return;okHizBir+=OKHIZ[okHizI]*(t-son)/16.7;son=t;if(okHizBir>=1){const d=Math.floor(okHizBir);K.scrollTop+=d;okHizBir-=d}okHizRaf=requestAnimationFrame(ad)};okHizRaf=requestAnimationFrame(ad)}
+function okZemin(){const Z={beyaz:['#fffdf8','#1d1d1d'],sepya:['#f4ecd8','#3b2f1e'],gece:['#121614','#e8e2d0']}[set.okZemin||'beyaz']||['#fffdf8','#1d1d1d'],O=$('#okuma');
+  O.style.setProperty('--mzZ',Z[0]);O.style.setProperty('--mzY',Z[1]);O.style.setProperty('--mzLh',set.okLh||2.3);O.style.setProperty('--mzSz',(set.okSz||Math.min(30,Math.max(26,set.qsize-6)))+'px')}
+function okPanel(h){$('#okPanI').innerHTML=h;$('#okPan').classList.remove('hide')}
+function okPanelKapat(){$('#okPan').classList.add('hide')}
+function okAyet(){const e=okSecili;if(e)return[+e.dataset.s,+e.dataset.n];okAyetBaslik();return[okBaslik.s||1,okBaslik.n||1]}
+async function okDinle(){const[sv,n]=okAyet();try{await loadSurah(sv,null,true);playAyah(n);$('#okDin').classList.add('on')}catch(e){toast(MSG.loadErr[LANG])}}
+async function okTefsir(){const[sv,n]=okAyet();okSec(null);await loadSurah(sv,n,false);setTimeout(()=>openReader(n,'tefsir'),250)}
+async function okMeal(){const[sv,n]=okAyet();okPanel(`<h3>${esc(SN()[sv-1])} ${sv}:${n}</h3><div class="ml">${loading()}</div>`);
+  try{const ar=await okSurah(sv,'quran-uthmani'),tr=await okSurah(sv,LANG==='en'?'en.sahih':'tr.yazir');$('#okPanI .ml').innerHTML=`<div class="a">${esc(stripBasmala(sv,n,ar[n-1].t))}</div>${esc(tr[n-1].t)}<button class="git" id="okMlK">Kapat</button>`;$('#okMlK').onclick=okPanelKapat}catch(e){$('#okPanI .ml').textContent=MSG.loadErr[LANG]}}
+function okGitPanel(){const[sv]=okAyet();okPanel(`<h3>Git</h3><label>Sûre</label><select id="gS">${SN().map((n,i)=>`<option value="${i+1}"${i+1===sv?' selected':''}>${i+1}. ${esc(n)}</option>`).join('')}</select>
+  <div class="sr"><div><label>Âyet</label><input type="number" id="gA" min="1" value="1" inputmode="numeric"></div><div><label>Sayfa</label><input type="number" id="gP" min="1" max="604" placeholder="${okP}" inputmode="numeric"></div><div><label>Cüz</label><input type="number" id="gC" min="1" max="30" placeholder="${okCuz(okP)}" inputmode="numeric"></div></div>
+  <button class="git" id="gOk">Git</button>`);
+  $('#gOk').onclick=()=>{const P=+$('#gP').value,C=+$('#gC').value;okPanelKapat();if(P)return okPage(P);if(C)return okPage(C===1?1:Math.min(604,(C-1)*20+2));const sv=+$('#gS').value,a=Math.max(1,+$('#gA').value||1);okGitAyet(sv,a)}}
+async function okGitAyet(sv,a){await okPage(pageOf(sv,a));const e=$(`#okB .oa[data-s="${sv}"][data-n="${a}"]`);if(e){e.scrollIntoView({block:'center'});okSec(e)}}
+function okAyarPanel(){const sz=set.okSz||Math.min(30,Math.max(26,set.qsize-6)),lh=set.okLh||2.3,z=set.okZemin||'beyaz';
+  okPanel(`<h3>Mushaf ayarları</h3><label>Yazı boyutu: <b id="aSzT">${sz}px</b></label><input type="range" id="aSz" min="22" max="60" value="${sz}">
+  <label>Satır aralığı: <b id="aLhT">${lh}</b></label><input type="range" id="aLh" min="1.9" max="3.6" step="0.1" value="${lh}">
+  <label>Zemin</label><div class="seg">${[['beyaz','Beyaz'],['sepya','Sepya'],['gece','Gece']].map(([k,a])=>`<button data-z="${k}" class="${z===k?'on':''}">${a}</button>`).join('')}</div>
+  <label>Hat</label><select id="aF">${FONTS.map(([f,a])=>`<option value="${esc(f)}"${set.font===f?' selected':''}>${esc(a)}</option>`).join('')}</select>
+  <label>Kelime meâli</label><select id="aM"><option value="">Kapalı</option><option value="tr"${set.okMeal==='tr'?' selected':''}>Türkçe</option><option value="en"${set.okMeal==='en'?' selected':''}>English</option></select>
+  <label style="display:flex;gap:8px;align-items:center;color:var(--ink)"><input type="checkbox" id="aQ"${set.okMedine?' checked':''}> Medine baskısının birebir sayfa hattı</label>
+  <button class="git" id="aOk">Tamam</button>`);
+  $('#aSz').oninput=e=>{set.okSz=+e.target.value;$('#aSzT').textContent=set.okSz+'px';okZemin();save()};
+  $('#aLh').oninput=e=>{set.okLh=+e.target.value;$('#aLhT').textContent=set.okLh;okZemin();save()};
+  $$('#okPanI [data-z]').forEach(b=>b.onclick=()=>{set.okZemin=b.dataset.z;save();okZemin();$$('#okPanI [data-z]').forEach(x=>x.classList.toggle('on',x===b))});
+  let yeni=false;$('#aF').onchange=e=>{set.font=e.target.value;save();applyVars()};$('#aM').onchange=e=>{set.okMeal=e.target.value;set.okMealLang=LANG;save();yeni=true};$('#aQ').onchange=e=>{set.okMedine=e.target.checked;save();yeni=true};
+  $('#aOk').onclick=()=>{okPanelKapat();if(yeni)okPage(okP)}}
 async function okSayfaKur(p,once){const B=$('#okB'),n=okNesil,d=document.createElement('section');d.className='okp';d.dataset.p=p;d.innerHTML=loading();
   if(once)B.insertBefore(d,B.querySelector('.okp'));else B.insertBefore(d,$('#okSon'));
   const r=await okSayfa(p);if(n!==okNesil)return;if(r.hata){d.innerHTML=r.h+'<p style="text-align:center"><button class="okon" onclick="okPage('+p+')">'+trS('Tekrar dene')+'</button></p>';return 'hata'}B.classList.toggle('ml',!!r.ml);B.classList.toggle('qcf',!!r.qcf);
@@ -1287,7 +1364,7 @@ async function okDoldur(){const K=$('.ok-body'),n=okNesil;for(let i=0;i<8&&n===o
 (function(){let t=0;const K=$('.ok-body');if(!K)return;K.addEventListener('scroll',()=>{if(t)return;t=setTimeout(()=>{t=0;
     if(K.scrollTop+K.clientHeight>K.scrollHeight-1600)okDoldur();
     const top=K.getBoundingClientRect().top+90;let cur=null;$$('#okB .okp').forEach(x=>{if(x.getBoundingClientRect().top<=top)cur=x});
-    if(cur){const p=+cur.dataset.p;if(p!==okP){okP=p;LS.set('mihrab.okP',p);okBaslik(p)}}},120)},{passive:true});
+    if(cur){const p=+cur.dataset.p;if(p!==okP){okP=p;LS.set('mihrab.okP',p);okBaslik(p)}}okAyetBaslik()},120)},{passive:true});
   addEventListener('resize',()=>{if(!$('#okuma').classList.contains('hide'))qcfFit()});
   document.addEventListener('keydown',e=>{if($('#okuma').classList.contains('hide'))return;if(e.key==='ArrowLeft')okPage(okP+1);if(e.key==='ArrowRight')okPage(okP-1)})})();
 /* --- Ezber --- */
@@ -1463,9 +1540,9 @@ function aurl(a,alt){const r=rec();return alt&&r[3]?`https://cdn.islamic.network
 function playAyah(n){const a=st.ay[n-1];if(!a)return;clip.pause();
   if(rec()[4]){st.whole=true;st.playA=n;st.playing=true;audio._alt=true;const u=`https://cdn.islamic.network/quran/audio-surah/128/${rec()[4]}/${st.s}.mp3`;if(audio.src!==u)audio.src=u;audio.play().catch(()=>{});$$('.ay.playing').forEach(e=>e.classList.remove('playing'));upd();return}
   st.whole=false;st.playA=n;st.playing=true;audio._alt=false;audio.src=aurl(a);audio.play().catch(()=>{});markPlay(n);upd()}
-function markPlay(n){$$('.ay.playing').forEach(e=>e.classList.remove('playing'));const e=$('#a'+n);if(e){e.classList.add('playing');const r=e.getBoundingClientRect();if(!st.open&&(r.top<70||r.bottom>innerHeight-70))e.scrollIntoView({block:'center',behavior:'smooth'})}}
+function markPlay(n){$$('.ay.playing,#okB .oa.playing').forEach(e=>e.classList.remove('playing'));if(!$('#okuma').classList.contains('hide')){const o=$(`#okB .oa[data-s="${st.s}"][data-n="${n}"]`);if(o){o.classList.add('playing');const r=o.getBoundingClientRect();if(r.top<80||r.bottom>innerHeight-140)o.scrollIntoView({block:'center',behavior:'smooth'})}else okGitAyet(st.s,n)}const e=$('#a'+n);if(e){e.classList.add('playing');const r=e.getBoundingClientRect();if(!st.open&&(r.top<70||r.bottom>innerHeight-70))e.scrollIntoView({block:'center',behavior:'smooth'})}}
 function stopAudio(){audio.pause();st.playing=false;$$('.ay.playing').forEach(e=>e.classList.remove('playing'));upd()}
-audio.onended=()=>{if(!st.whole&&set.cont&&st.playA<st.ay.length)playAyah(st.playA+1);else{st.playing=false;upd()}};
+audio.onended=()=>{if(!st.whole&&set.cont&&st.playA<st.ay.length)playAyah(st.playA+1);else if(!st.whole&&set.cont&&st.s<114&&!$('#okuma').classList.contains('hide')&&$('#okDin').classList.contains('on'))loadSurah(st.s+1,null,true).then(()=>playAyah(1));else{st.playing=false;upd();const d=$('#okDin');if(d)d.classList.remove('on')}};
 audio.onerror=()=>{if(!st.playing)return;const a=st.ay[st.playA-1];if(a&&!audio._alt&&rec()[3]){audio._alt=true;audio.src=aurl(a,true);audio.play().catch(()=>{});return}st.playing=false;upd();toast('Ses alınamadı; başka kâri seçin')};
 function upd(){$('#aPlay').innerHTML=icon(st.playing?'pa':'p',22);$('#pA').textContent=st.playA&&!st.whole?`${SN()[st.s-1]} ${st.s}:${st.playA}`:`${SN()[st.s-1]} Sûresi`;$('#pB').textContent=rec()[1]}
 
@@ -1595,7 +1672,13 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   $('#hOff').onclick=e=>{e.preventDefault();offDownload(e.target,$('#hOffI'))};
   $('#izX').onclick=()=>ovKapat(true);$('#izX').innerHTML=icon('l');$('#vkX').onclick=()=>ovKapat(true);$('#vkX').innerHTML=icon('l');
   $('#okX').onclick=openNamaz;$('#ezX').onclick=openNamaz;
-  $('#okNx').onclick=()=>okPage(okP+1);$('#okPv').onclick=()=>okPage(okP-1);$('#okS').onchange=()=>okPage(pageOf(+$('#okS').value,1));$('#okN2').onchange=()=>okPage(+$('#okN2').value||1);if(set.okMeal===true)set.okMeal='tr';if(set.okMeal&&set.okMealLang!==LANG){set.okMeal=LANG==='en'?'en':'tr';set.okMealLang=LANG;save()}$('#okM').value=set.okMeal||'';$('#okM').classList.toggle('on',!!set.okMeal);$('#okM').onchange=()=>{set.okMeal=$('#okM').value;set.okMealLang=LANG;save();$('#okM').classList.toggle('on',!!set.okMeal);okPage(okP)};
+  if(set.okMeal===true)set.okMeal='tr';
+  $('#okB').addEventListener('click',e=>{const a=e.target.closest('.oa');if(a)okSec(a)});
+  $('#okHiz').onclick=okHiz;$('#okTef').onclick=okTefsir;$('#okGit').onclick=okGitPanel;$('#okAy').onclick=okAyarPanel;$('#okSy').onclick=okGitPanel;
+  $('#okDin').onclick=()=>{if(st.playing&&$('#okDin').classList.contains('on')){stopAudio();$('#okDin').classList.remove('on')}else okDinle()};
+  $('#okTam').onclick=()=>{$('#okuma').classList.toggle('tam');toast($('#okuma').classList.contains('tam')?'Çıkmak için sayfaya iki kez dokunun':'')};$('#okB').addEventListener('dblclick',()=>$('#okuma').classList.remove('tam'));
+  $('#okPan').onclick=e=>{if(e.target.id==='okPan')okPanelKapat()};
+  $$('#okSe [data-a]').forEach(b=>b.onclick=()=>{const a=b.dataset.a;if(a==='dinle')okDinle();else if(a==='tefsir')okTefsir();else if(a==='meal')okMeal();else{const e=okSecili;if(e){try{navigator.clipboard.writeText(e.textContent+' ('+SN()[e.dataset.s-1]+' '+e.dataset.s+':'+e.dataset.n+')');toast('Kopyalandı')}catch(x){}}}});
   $('#ezPl').onclick=()=>{if(ez.on){ezStop();ezShow()}else{ez.on=true;ez.c=0;$('#ezPl').innerHTML=icon('pa',22);ezPlay()}};
   $('#ezPv').onclick=()=>{ez.n=Math.max(+$('#ezA').value,ez.n-1);ez.c=0;ez.on?ezPlay():ezShow()};$('#ezNx').onclick=()=>{ez.n=Math.min(+$('#ezB').value,ez.n+1);ez.c=0;ez.on?ezPlay():ezShow()};
   $('#ezS').onchange=()=>{ezStop();$('#ezA').value=1;$('#ezB').value=Math.min(5,S_CNT[+$('#ezS').value-1]);ezLoad()};

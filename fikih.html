@@ -59,16 +59,18 @@ document.getElementById('px').onclick=function(){document.getElementById('pop').
 function anrm(t){return (t||'').replace(/[\u064B-\u065F\u0670\u0640]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه')}
 function sek(w){document.getElementById('sM').classList.toggle('on',w==='M');document.getElementById('sK').classList.toggle('on',w==='K')}
 /* ===== Meseleler ===== */
-var BL='',AD=[];
+var BL='',AD=[],IL=/ilmihal/.test(location.search),ILB=['Tahâret','Namaz','Oruç','Zekât','Hac','Kurban ve av'];
+if(IL){var _bb=new URLSearchParams(location.search).get('bab');if(_bb)BL=_bb;var _sk=document.querySelector('#hd .sek');if(_sk)_sk.style.display='none';var _bk=document.querySelector('#hd .bk');if(_bk){_bk.href='./#namaz';_bk.textContent='‹ Geri'}document.title='İlmihal — el-Mihrâb'}
 var HK={farz:['#7a1f2b','#fbe9ea'],'vâcip':['#8a5a12','#fbf0dc'],'sünnet':['#1d5531','#e1f2e4'],edep:['#3b4f8a','#e6ebf8'],mekruh:['#555','#eee']};
-function meseleListe(f){sek('M');document.getElementById('ttl').textContent='Fıkıh Dirâsesi';
-  var bl=[];MS.forEach(function(x){if(bl.indexOf(x.yol[0])<0)bl.push(x.yol[0])});
+function meseleListe(f){sek('M');document.getElementById('ttl').textContent=IL?'İlmihal':'Fıkıh Dirâsesi';
+  if(IL&&!f&&!BL)return ilmihal();
+  var bl=[];MS.forEach(function(x){if(bl.indexOf(x.yol[0])<0&&(!IL||ILB.indexOf(x.yol[0])>=0))bl.push(x.yol[0])});
   var h='<p class="not"><b>Fıkıh Dirâsesi</b> · '+MS.length+' mesele<br>Merkez mezhep Hanefî; diğer üç mezhep yan yana. Delillere dokununca Kur’an ve Hadis Dirâsesi’nde ilgili yer açılır.</p>'+
     '<h2 style="font-size:15px;margin:12px 4px 6px;color:#6d7a72">Adım adım (ilmihal)</h2><div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:4px">'+AD.map(function(a,i){return '<button class="adb" data-a="'+i+'" style="flex:0 0 auto;border:1px solid #c9d3c6;background:#fff;border-radius:14px;padding:10px 12px;font:600 14px system-ui;color:#2f5d4e;cursor:pointer">'+esc(a.baslik.replace(' nasıl alınır?','').replace(' nasıl yapılır?','').replace(' nasıl kılınır?',''))+'</button>'}).join('')+'</div>'+
     '<h2 style="font-size:15px;margin:14px 4px 6px;color:#6d7a72">Meseleler</h2><div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px">'+['Tümü'].concat(bl).map(function(x){var on=(x==='Tümü'?!BL:BL===x);return '<button class="blb" data-b="'+esc(x)+'" style="border:0;border-radius:12px;padding:7px 11px;font:600 13px system-ui;cursor:pointer;background:'+(on?'#2f5d4e':'#e3eae2')+';color:'+(on?'#fff':'#2f5d4e')+'">'+esc(x)+'</button>'}).join('')+'</div>'+
     '<input id="mf" type="search" placeholder="Meselelerde ara: niyet, kurban, faiz…" value="'+esc(f||'')+'" style="width:100%;border:1px solid #c9d3c6;border-radius:14px;padding:11px 12px;font:16px system-ui;margin:4px 0 6px">';
   var g=(f||'').toLocaleLowerCase('tr'),yol='',say=0;
-  MS.forEach(function(x,i){if(BL&&x.yol[0]!==BL)return;if(g&&(x.baslik+' '+x.hanefi+' '+x.yol.join(' ')+' '+x.ar).toLocaleLowerCase('tr').indexOf(g)<0)return;say++;var y=x.yol.join(' › ');
+  MS.forEach(function(x,i){if(BL&&x.yol[0]!==BL)return;if(IL&&ILB.indexOf(x.yol[0])<0)return;if(g&&(x.baslik+' '+x.hanefi+' '+x.yol.join(' ')+' '+x.ar).toLocaleLowerCase('tr').indexOf(g)<0)return;say++;var y=x.yol.join(' › ');
     if(y!==yol){yol=y;h+='<h2 style="font-size:14px;margin:14px 4px 4px;color:#8a6a2c">'+esc(y)+'</h2>'}
     h+='<div class="lst" data-i="'+i+'"><div class="no">'+(i+1)+'</div><div class="t"><b>'+esc(x.baslik)+'</b><small>Hanefî: '+esc(x.hanefi.slice(0,70))+(x.hanefi.length>70?'…':'')+'</small></div><div class="a ar">'+esc(x.ar)+'</div></div>'});
   if(!say)h+='<p class="not">Bulunamadı.</p>';
@@ -77,6 +79,16 @@ function meseleListe(f){sek('M');document.getElementById('ttl').textContent='Fı
   [].forEach.call(M.querySelectorAll('.blb'),function(d){d.onclick=function(){var v=d.getAttribute('data-b');BL=v==='Tümü'?'':v;meseleListe(document.getElementById('mf').value)}});
   var mf=document.getElementById('mf'),t;mf.oninput=function(){clearTimeout(t);t=setTimeout(function(){meseleListe(mf.value);var e=document.getElementById('mf');e.focus();e.setSelectionRange(e.value.length,e.value.length)},300)};
   if(!f){history.replaceState(null,'','#');scrollTo(0,0)}}
+function ilmihal(){var M=document.getElementById('M');document.getElementById('ttl').textContent='İlmihal';
+  var say={};MS.forEach(function(x){if(ILB.indexOf(x.yol[0])>=0)say[x.yol[0]]=(say[x.yol[0]]||0)+1});
+  var IK={'Tahâret':'💧','Namaz':'🕌','Oruç':'🌙','Zekât':'🤲','Hac':'🕋','Kurban ve av':'🐑'};
+  var h='<p class="not"><b>İlmihal</b> · Bir Müslümanın her gün ihtiyaç duyduğu ibadet bilgileri, Hanefî mezhebine göre. Önce adım adım uygulamalar, sonra konu konu meseleler.</p>'+
+   '<h2 style="font-size:15px;margin:14px 4px 6px;color:#6d7a72">Adım adım</h2>'+AD.map(function(a,i){return '<div class="lst adb" data-a="'+i+'"><div class="no">'+(i+1)+'</div><div class="t"><b>'+esc(a.baslik)+'</b><small>'+esc(a.giris.slice(0,80))+(a.giris.length>80?'…':'')+'</small></div><div class="a ar">'+esc(a.ar)+'</div></div>'}).join('')+
+   '<h2 style="font-size:15px;margin:18px 4px 6px;color:#6d7a72">Konular</h2>'+ILB.filter(function(b){return say[b]}).map(function(b){return '<div class="lst ilb" data-b="'+esc(b)+'"><div class="no" style="font-size:18px">'+IK[b]+'</div><div class="t"><b>'+esc(b)+'</b><small>'+say[b]+' mesele</small></div><div class="a" style="color:#8a6a2c;font-size:20px">›</div></div>'}).join('')+
+   '<p class="not" style="margin-top:16px">Bir sorun mu var? <a href="soru.html">Fetva asistanına sorun ›</a></p>';
+  M.innerHTML=h;[].forEach.call(M.querySelectorAll('.adb'),function(d){d.onclick=function(){adim(+d.getAttribute('data-a'))}});
+  [].forEach.call(M.querySelectorAll('.ilb'),function(d){d.onclick=function(){BL=d.getAttribute('data-b');meseleListe()}});
+  history.replaceState(null,'',location.pathname+location.search);scrollTo(0,0)}
 function ayetListe(k){var p=k.split('-'),L=[];MS.forEach(function(x,i){x.delil.forEach(function(d){if(d[0]==='ayet'&&d[2]==='./#'+k&&L.indexOf(i)<0)L.push(i)})});
   sek('M');document.getElementById('ttl').textContent='Âyetü’l-ahkâm';
   var et='';MS.some(function(x){return x.delil.some(function(d){if(d[0]==='ayet'&&d[2]==='./#'+k){et=d[1];return true}})});

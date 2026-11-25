@@ -1,0 +1,91 @@
+<!DOCTYPE html><html lang="tr"><head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Hac ve Umre — el-Mihrâb</title><meta name="theme-color" content="#efe7d6">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="arac.css?v=1"><script src="arac.js?v=1"></script>
+<style>
+.kap{position:relative;margin:4px -18px 10px;height:210px;background:linear-gradient(135deg,#1f3d33,#6b5a2c);overflow:hidden}
+.kap img{width:100%;height:100%;object-fit:cover;display:block}
+.kap:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 40%,rgba(0,0,0,.65))}
+.kap .yz{position:absolute;left:18px;right:18px;bottom:14px;z-index:1;color:#fff}.kap .yz h1{color:#fff;margin:0;font-size:36px}.kap .yz span{font-size:14px;opacity:.9}
+.ad{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+.ad .n{flex:none;width:32px;height:32px;border-radius:50%;background:var(--acc);color:#fff;display:grid;place-items:center;font-weight:700;font-size:15px}
+[data-theme="gece"] .ad .n{color:#0f1513}
+.ad .g{flex:1;min-width:0}.ad h3{margin:3px 0 4px;font-size:18px;font-family:var(--disp);font-size:22px}.ad p{margin:0 0 6px;line-height:1.6;color:var(--ink2);font-size:15.5px}
+.ad .gun{font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--gold)}
+.hk{display:inline-block;font-size:11.5px;font-weight:700;border-radius:999px;padding:2px 9px;margin:0 6px 6px 0}
+.hk.farz{background:#fbe9ea;color:#7a1f2b}.hk.vacip{background:#fbf0dc;color:#8a5a12}.hk.sunnet{background:#e1f2e4;color:#1d5531}
+[data-theme="gece"] .hk{background:var(--accS);color:var(--acc)}
+figure{margin:10px 0 6px}figure img{width:100%;max-height:260px;object-fit:cover;border-radius:14px;display:block;background:var(--line)}
+figure figcaption{font-size:11.5px;color:var(--muted);margin-top:4px}figure figcaption a{color:var(--muted)}
+figure.yok{display:none}
+.dua{padding:16px 0;border-bottom:1px solid var(--line)}.dua h3{margin:0 0 6px;font-size:17px}
+.dua .ar{font-family:'Amiri',serif;font-size:26px;line-height:2;direction:rtl;text-align:right;color:var(--ink)}
+.dua .ok{font-style:italic;color:var(--ink2);margin:4px 0;line-height:1.55}.dua .ml{color:var(--muted);font-size:14.5px;line-height:1.55}
+ul.y{padding-left:20px;line-height:1.7;color:var(--ink2);margin:6px 0}
+</style></head><body>
+<div class="ust"><a class="geri"></a></div>
+<main>
+<div class="kap"><img id="kapI" alt="" src="https://commons.wikimedia.org/wiki/Special:FilePath/The_Kaaba_during_Hajj_-_edited.jpg?width=1000" onerror="this.remove()"><div class="yz"><h1>Hac ve Umre</h1><span>Adım adım rehber · Hanefî mezhebine göre</span></div></div>
+<div class="sekme" id="sk"><button data-s="umre" class="on">Umre</button><button data-s="hac">Hac</button><button data-s="ihram">İhram</button><button data-s="medine">Medine</button><button data-s="dua">Dualar</button></div>
+<section id="s-umre"></section><section id="s-hac" class="hide"></section><section id="s-ihram" class="hide"></section><section id="s-medine" class="hide"></section><section id="s-dua" class="hide"></section>
+<p class="kucuk" style="margin-top:20px">Fotoğraflar Wikimedia Commons’tan, serbest lisanslıdır; her fotoğrafın altındaki bağlantıda yazar ve lisans bilgisi vardır. Hükümler el-Mihrâb Fıkıh Dirâsesi’ndeki Hanefî ölçülerine göredir. <a href="fikih.html?ilmihal&bab=Hac">Hac meseleleri ›</a> · <a href="soru.html">Fetva sor ›</a></p>
+</main>
+<script>
+var F=function(dosya,yazar){return{src:'https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(dosya)+'?width=900',sayfa:'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(dosya),yazar:yazar}};
+var RES={
+ kabe:F('Mosquée_Masjid_el_Haram_à_la_Mecque.jpg','Tab59'),
+ tavaf:F('The_Kaaba_during_Hajj_-_edited.jpg','Adli Wahid'),
+ safa:F('Mount_Safa_Mecca.jpg',''),
+ mesa:F("Mas'aa1.jpg",''),
+ arafat:F('Mount_Arafat.jpg',''),
+ arafat2:F("Pilgrims_cover_Arafat's_roads,_plains_and_mountain_-_Flickr_-_Al_Jazeera_English.jpg",'Al Jazeera English'),
+ mina:F('Some_perspective_on_Mina_-_Flickr_-_Al_Jazeera_English.jpg','Al Jazeera English'),
+ nebevi:F('Al-Masjid_an_Nabawi.jpg','Meshari Alawfi'),
+ kubbe:F('The_Green_Dome,_Masjid_Nabawi,_Madina.jpg','Muhammad Mahdi Karim')
+};
+function res(k,alt){var r=RES[k];if(!r)return '';return '<figure><img loading="lazy" alt="'+esc(alt)+'" src="'+r.src+'" onerror="this.parentNode.classList.add(\'yok\')"><figcaption>'+esc(alt)+' · <a href="'+r.sayfa+'" target="_blank" rel="noopener">'+(r.yazar?esc(r.yazar)+', ':'')+'Wikimedia Commons</a></figcaption></figure>'}
+function hk(h){return h?'<span class="hk '+h.replace('â','a').replace('ü','u')+'">'+h+'</span>':''}
+function adimlar(L){return L.map(function(a,i){return '<div class="ad"><span class="n">'+(i+1)+'</span><div class="g">'+(a.gun?'<div class="gun">'+a.gun+'</div>':'')+'<h3>'+a.t+'</h3>'+(a.h||[]).map(hk).join('')+a.p.map(function(p){return '<p>'+p+'</p>'}).join('')+(a.r?res(a.r,a.ra):'')+'</div></div>'}).join('')}
+var UMRE=[
+ {t:'Mîkatta ihrama girmek',h:['farz'],p:['Gusül ya da abdest alınır, tırnak ve vücut temizliği yapılır. Erkekler dikişsiz iki parça ihram örtüsüne (izâr ve ridâ) bürünür; kadınlar her zamanki tesettürlü elbiseleriyle kalır.','Kerahat vakti değilse iki rekât ihram namazı kılınır. “Allahım! Senin rızan için umre yapmak istiyorum, onu bana kolaylaştır ve kabul eyle” diye niyet edilip telbiye getirilir. Niyet ve telbiye ile ihrama girilmiş olur.','Türkiye’den uçakla gidenler mîkat hizasını uçakta geçtikleri için ihrama genellikle havalimanında ya da uçakta girerler.']},
+ {t:'Tavaf',h:['farz'],r:'tavaf',ra:'Kâbe’nin etrafında tavaf',p:['Mescid-i Harâm’a girince telbiye kesilir. Hacerülesved hizasından başlanır; Kâbe sol tarafta kalacak şekilde yedi şavt dönülür. Her şavtın başında Hacerülesved’e el kaldırılarak selam verilir (istilâm).','Tavafı abdestli yapmak vâciptir. Erkekler ilk üç şavtta çalımlı ve kısa adımlarla yürür (remel) ve sağ omuzlarını açarlar (ıztıbâ).']},
+ {t:'Tavaf namazı ve Zemzem',h:['vâcip'],r:'kabe',ra:'Mescid-i Harâm ve Kâbe',p:['Tavaf bitince mümkünse Makâm-ı İbrâhîm’in arkasında, değilse mescidin uygun bir yerinde iki rekât tavaf namazı kılınır.','Ardından Zemzem suyu kıbleye dönülerek, ayakta ve doya doya içilir; dua edilir.']},
+ {t:'Sa‘y',h:['vâcip'],r:'mesa',ra:'Safâ ile Merve arasındaki Mes‘â',p:['Safâ tepesine çıkılıp Kâbe’ye dönülerek tekbir ve dua edilir. Safâ’dan Merve’ye yürümek bir şavt, Merve’den Safâ’ya dönmek ikinci şavttır; yedinci şavt Merve’de biter.','Erkekler iki yeşil ışık arasında hafifçe koşar (hervele). Sa‘y için abdest şart değildir ama abdestli olmak efdaldir.']},
+ {t:'Tıraş olup ihramdan çıkmak',h:['vâcip'],p:['Erkekler saçlarını kazıtır (efdal olan budur) ya da kısaltır. Kadınlar saçlarının ucundan bir parmak boğumu kadar keser.','Tıraşla ihramdan çıkılır ve umre tamamlanmış olur. Allah kabul etsin!']}
+];
+var HAC=[
+ {gun:'8 Zilhicce · Terviye',t:'Hac için ihram ve Mina',h:['sünnet'],r:'mina',ra:'Mina’daki çadırlar',p:['Temettu haccı yapanlar umreden sonra ihramdan çıkmıştır; bu gün Mekke’de hac için yeniden ihrama girerler. Hacılar öğle vaktinden önce Mina’ya gidip geceyi orada geçirir.']},
+ {gun:'9 Zilhicce · Arefe',t:'Arafat vakfesi',h:['farz'],r:'arafat2',ra:'Arefe günü Arafat',p:['Haccın en önemli rüknüdür: “Hac Arafat’tır.” Arefe günü öğle vaktinden bayram sabahı fecre kadar Arafat sınırları içinde bir an bile bulunmak vakfe için yeterlidir.','Öğle ve ikindi namazları imamla birlikte öğle vaktinde cem edilerek kılınır. Gün dua, tövbe, telbiye ve zikirle geçirilir. Güneş battıktan sonra Müzdelife’ye hareket edilir.']},
+ {gun:'Arefe gecesi',t:'Müzdelife',h:['vâcip'],p:['Akşam ve yatsı namazları Müzdelife’de, yatsı vaktinde birlikte kılınır. Gece orada geçirilir; şeytan taşlamak için nohut büyüklüğünde 49 ya da 70 taş toplanır.','Bayram sabahı fecirden sonra güneş doğmadan kısa bir süre vakfe yapmak vâciptir. Kadınlar, hastalar ve yaşlılar izdiham yüzünden gece ayrılabilir.']},
+ {gun:'10 Zilhicce · Bayramın 1. günü',t:'Akabe cemresi, kurban, tıraş',h:['vâcip'],p:['Mina’da yalnız büyük şeytana (Cemretü’l-Akabe) yedi taş atılır; ilk taşla telbiye kesilir.','Temettu ve kıran haccı yapanlar şükür kurbanı (hedy) keser; bu onlar için vâciptir. Sonra tıraş olunur ve eşle yakınlaşma dışında ihram yasakları kalkar.']},
+ {gun:'Bayram günleri',t:'Ziyaret tavafı ve sa‘y',h:['farz'],r:'kabe',ra:'Mescid-i Harâm',p:['Haccın ikinci rüknü olan ziyaret (ifâda) tavafı, bayramın ilk üç günü içinde yapılır. Temettu yapanlar ardından haccın sa‘yini yapar. Bu tavaftan sonra ihramın bütün yasakları kalkar.']},
+ {gun:'11–12 (13) Zilhicce',t:'Üç cemreye taş atmak',h:['vâcip'],p:['Teşrik günlerinde zevalden sonra sırasıyla küçük, orta ve büyük cemreye yedişer taş atılır. 12. gün güneş batmadan Mina’dan ayrılan hacı 13. günün taşlarını atmaz; Mina’da kalan atar.']},
+ {gun:'Mekke’den ayrılırken',t:'Veda tavafı',h:['vâcip'],p:['Mekke dışından gelen hacılar memleketlerine dönmeden önce veda tavafı yapar. Âdet hâlindeki kadından veda tavafı düşer.']}
+];
+function umre(){$('#s-umre').innerHTML='<p class="alt" style="margin-top:14px">Umre, belirli günlere bağlı olmayan, Kâbe’yi tavaf ve Safâ ile Merve arasında sa‘yden ibaret bir ibadettir. Hanefîlere göre ömürde bir kez yapmak müekked sünnettir. Farzları <b>ihram</b> ve <b>tavaf</b>; vâcipleri <b>sa‘y</b> ve <b>tıraş</b>tır.</p>'+adimlar(UMRE)}
+function hac(){$('#s-hac').innerHTML='<p class="alt" style="margin-top:14px">Hac, gücü yeten her Müslümana ömründe bir kez farzdır. Farzları: <b>ihram</b> (şart), <b>Arafat vakfesi</b> ve <b>ziyaret tavafı</b>.</p>'+
+ '<div class="bb">Hac çeşitleri</div><ul class="y"><li><b>İfrad:</b> Yalnız hac için ihrama girilir; kurban gerekmez.</li><li><b>Temettu:</b> Önce umre yapılıp ihramdan çıkılır, hac günlerinde yeniden ihrama girilir. Türkiye’den gidenlerin çoğu bunu yapar; şükür kurbanı vâciptir.</li><li><b>Kıran:</b> Hac ve umre için aynı ihramla niyet edilir; şükür kurbanı vâciptir.</li></ul>'+
+ '<div class="bb">Gün gün hac</div>'+adimlar(HAC)}
+function ihram(){$('#s-ihram').innerHTML='<p class="alt" style="margin-top:14px">İhram, hac ya da umreye niyet edip telbiye getirerek bazı helal şeyleri kendine yasaklamaktır.</p>'+
+ '<div class="bb">Erkeklere yasak olanlar</div><ul class="y"><li>Dikişli elbise, gömlek, pantolon, iç çamaşırı giymek</li><li>Başı ve yüzü örtmek</li><li>Topukları ve ayağın üstünü örten ayakkabı giymek</li></ul>'+
+ '<div class="bb">Kadınlara yasak olanlar</div><ul class="y"><li>Yüzü bir şeyle örtüp yüze değdirmek (peçe)</li><li>Eldiven giymek</li></ul><p class="kucuk">Kadınlar dikişli elbiselerini ve başörtülerini giyer, ayakkabı ve çorap da giyebilir.</p>'+
+ '<div class="bb">Herkese yasak olanlar</div><ul class="y"><li>Koku sürünmek, kokulu sabun ve krem kullanmak</li><li>Saç, sakal ve vücut kılı kesmek ya da koparmak; tırnak kesmek</li><li>Eşle yakınlaşmak ve bunu çağrıştıran söz ve davranışlar</li><li>Kara hayvanı avlamak, Harem bölgesinde ağaç ve bitki kesmek</li><li>Kavga, tartışma ve kötü söz</li></ul>'+
+ '<p class="not">Yasaklardan birini işleyen, durumuna göre kurban (dem) ya da sadaka cezası öder. Unutarak veya bilmeyerek yapılması cezayı düşürmez. Ayrıntı için <a href="fikih.html?ilmihal&bab=Hac">hac meselelerine</a> bakın.</p>'}
+function medine(){$('#s-medine').innerHTML='<p class="alt" style="margin-top:14px">Medine ziyareti haccın bir parçası değildir; fakat Peygamberimizi (s.a.s.) ziyaret etmek, Mescid-i Nebevî’de namaz kılmak büyük fazilettir.</p>'+res('nebevi','Mescid-i Nebevî')+
+ adimlar([{t:'Mescid-i Nebevî',p:['Mescide edeple girilir, iki rekât tahiyyetü’l-mescid kılınır. Bu mescitte kılınan namaz, Mescid-i Harâm dışındaki mescitlerde kılınan bin namazdan hayırlıdır.']},
+  {t:'Ravza ve selam',r:'kubbe',ra:'Yeşil Kubbe',p:['Minber ile Hücre-i Saâdet arasındaki Ravza’da namaz ve dua edilir. Kabr-i Saâdet’in karşısında sesi yükseltmeden Peygamberimize, sonra Hz. Ebû Bekir ve Hz. Ömer’e selam verilir.']},
+  {t:'Kuba, Bakî ve Uhud',p:['Abdest alıp Kuba Mescidi’nde iki rekât namaz kılmak umre sevabı gibidir. Cennetü’l-Bakî kabristanı ile Uhud şehitliği ziyaret edilip dua edilir.']}])}
+var DUA=[
+ ['Telbiye','لَبَّيْكَ اللّٰهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ','Lebbeyk, Allâhümme lebbeyk. Lebbeyke lâ şerîke leke lebbeyk. İnne’l-hamde ve’n-ni‘mete leke ve’l-mülk. Lâ şerîke lek.','Buyur Allahım, buyur! Buyur, senin hiçbir ortağın yoktur, buyur! Hamd de nimet de mülk de senindir. Senin hiçbir ortağın yoktur.'],
+ ['Rükn-i Yemânî ile Hacerülesved arasında','رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ','Rabbenâ âtinâ fi’d-dünyâ haseneten ve fi’l-âhirati haseneten ve kınâ azâbe’n-nâr.','Rabbimiz! Bize dünyada da iyilik ver, ahirette de iyilik ver; bizi ateş azabından koru. (Bakara, 201)'],
+ ['Safâ’ya çıkarken','إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ شَعَائِرِ اللّٰهِ','İnne’s-Safâ ve’l-Mervete min şeâirillâh.','Şüphesiz Safâ ile Merve Allah’ın nişanelerindendir. (Bakara, 158)'],
+ ['Arefe günü','لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ','Lâ ilâhe illallâhü vahdehû lâ şerîke leh, lehü’l-mülkü ve lehü’l-hamd, ve hüve alâ külli şey’in kadîr.','Allah’tan başka ilah yoktur; O tektir, ortağı yoktur. Mülk O’nundur, hamd O’nadır ve O her şeye gücü yetendir. (Duaların en hayırlısı Arefe günü yapılanıdır; Tirmizî)'],
+ ['Teşrik tekbiri','اللّٰهُ أَكْبَرُ اللّٰهُ أَكْبَرُ، لَا إِلٰهَ إِلَّا اللّٰهُ وَاللّٰهُ أَكْبَرُ، اللّٰهُ أَكْبَرُ وَلِلّٰهِ الْحَمْدُ','Allâhü ekber Allâhü ekber, lâ ilâhe illallâhü vallâhü ekber, Allâhü ekber ve lillâhi’l-hamd.','Arefe günü sabah namazından bayramın dördüncü günü ikindi namazına kadar her farz namazdan sonra okunur (vâcip).']
+];
+function dua(){$('#s-dua').innerHTML=DUA.map(function(d){return '<div class="dua"><h3>'+d[0]+'</h3><div class="ar">'+d[1]+'</div><div class="ok">'+d[2]+'</div><div class="ml">'+d[3]+'</div></div>'}).join('')}
+umre();hac();ihram();medine();dua();
+$$('#sk button').forEach(function(b){b.onclick=function(){$$('#sk button').forEach(function(x){x.classList.toggle('on',x===b)});['umre','hac','ihram','medine','dua'].forEach(function(s){$('#s-'+s).classList.toggle('hide',s!==b.dataset.s)});var y=$('#sk').getBoundingClientRect().top+scrollY-60;if(scrollY>y)scrollTo(0,y)}});
+var h=location.hash.slice(1);if(h){var b=$('#sk [data-s="'+h+'"]');if(b)b.click()}
+</script></body></html>

@@ -1,43 +1,52 @@
 <!DOCTYPE html><html lang="tr"><head>
 <meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Dinî Soru-Cevap — el-Mihrâb</title><meta name="theme-color" content="#efe7d6">
+<script src="kalkan.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Fetva Sor — el-Mihrâb</title><meta name="theme-color" content="#efe7d6">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="arac.css?v=1"><script src="arac.js?v=1"></script>
 <style>
-body{padding-bottom:90px}
-.sr{margin:18px 0 0;padding-bottom:16px;border-bottom:1px solid var(--line)}
-.sr .q{font-family:var(--disp);font-size:24px;font-weight:700;line-height:1.2;margin:0 0 10px}
-.sr .c{font-size:16px;line-height:1.65;color:var(--ink2)}
-.sr .c .hk{display:block;font-size:11.5px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--acc);margin-bottom:2px}
-.sr .c p{margin:0 0 10px}
-.sr .mz{font-size:14px;color:var(--ink2);margin:6px 0 10px;padding-left:12px;border-left:2px solid var(--line2)}.sr .mz div{margin:3px 0}
-.sr .dl{font-size:14px;color:var(--muted);font-style:italic;margin:0 0 10px}
-.sr .lk{display:flex;gap:16px;flex-wrap:wrap;font-size:14px;font-weight:600}.sr .lk a{text-decoration:none}
-.sr .bz{margin-top:12px;font-size:14px}.sr .bz b{display:block;font-size:11.5px;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
-.sr .bz button{display:block;border:0;background:none;padding:6px 0;color:var(--acc);text-align:left;cursor:pointer;font-size:14.5px}
-.oneri button{display:block;width:100%;text-align:left;border:0;border-bottom:1px solid var(--line);background:none;padding:12px 2px;font-size:15.5px;color:var(--ink2);cursor:pointer}
-.oneri button:after{content:" ›";color:var(--muted)}
-.giris{position:fixed;left:0;right:0;bottom:0;background:var(--bg);padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line);z-index:10}
-.giris form{max-width:680px;margin:0 auto;display:flex;gap:8px;align-items:center}
-.giris input{flex:1;border:0;border-radius:999px;background:color-mix(in srgb,var(--line) 70%,transparent);padding:13px 18px;font-size:16px;outline:0;color:var(--ink);min-width:0}
-.giris button{border:0;background:var(--acc);color:#fff;border-radius:50%;width:46px;height:46px;flex:none;cursor:pointer;display:flex;align-items:center;justify-content:center}
+html,body{height:100%}
+body{display:flex;flex-direction:column;overflow:hidden}
+.ust{flex:none;border-bottom:1px solid var(--line)}
+.kim{display:flex;align-items:center;gap:10px;flex:1;min-width:0}
+.av{width:40px;height:40px;border-radius:50%;background:var(--acc);display:grid;place-items:center;flex:none}
+.av svg{width:22px;height:22px;stroke:#fff;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+[data-theme="gece"] .av svg{stroke:#0f1513}
+.kim b{display:block;font-size:17px}.kim small{display:flex;align-items:center;gap:5px;color:var(--muted);font-size:12.5px}
+.kim small i{width:7px;height:7px;border-radius:50%;background:var(--gold)}.kim small i.on{background:#2fae6a}
+#akis{flex:1;overflow-y:auto;padding:14px 14px 20px;-webkit-overflow-scrolling:touch}
+.ms{display:flex;gap:8px;margin:0 0 14px;max-width:680px;margin-left:auto;margin-right:auto}
+.ms .bl{padding:11px 14px;border-radius:20px;font-size:16px;line-height:1.6;max-width:86%;word-wrap:break-word}
+.ms.k{justify-content:flex-end}.ms.k .bl{background:var(--acc);color:#fff;border-bottom-right-radius:6px}
+[data-theme="gece"] .ms.k .bl{color:#0f1513}
+.ms.a .av{width:30px;height:30px;margin-top:2px}.ms.a .av svg{width:17px;height:17px}
+.ms.a .bl{background:var(--paper);border:1px solid var(--line);border-bottom-left-radius:6px;color:var(--ink)}
+.ms.a .bl p{margin:0 0 9px}.ms.a .bl p:last-child{margin:0}
+.ms.a .bl b{color:var(--acc)}
+.kay{margin-top:10px;padding-top:8px;border-top:1px dashed var(--line2);font-size:13px;color:var(--muted)}
+.kay a{display:inline-block;margin:4px 6px 0 0;padding:4px 10px;border-radius:999px;background:var(--accS);color:var(--acc);text-decoration:none;font-weight:600;font-size:13px}
+.ara{display:flex;gap:14px;margin-top:8px;font-size:13px}.ara button{border:0;background:none;color:var(--muted);padding:0;cursor:pointer;font-weight:600}
+.yz{display:inline-flex;gap:4px;padding:4px 2px}.yz i{width:7px;height:7px;border-radius:50%;background:var(--muted);animation:yz 1.2s infinite}.yz i:nth-child(2){animation-delay:.15s}.yz i:nth-child(3){animation-delay:.3s}
+@keyframes yz{0%,60%,100%{opacity:.3;transform:none}30%{opacity:1;transform:translateY(-3px)}}
+.oneri{display:flex;flex-wrap:wrap;gap:8px;max-width:680px;margin:0 auto 14px;padding-left:38px}
+.oneri button{border:1px solid var(--line2);background:none;border-radius:999px;padding:8px 13px;font-size:14px;color:var(--ink2);cursor:pointer;text-align:left}
+.giris{flex:none;background:var(--bg);padding:8px 12px calc(8px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line)}
+.giris form{max-width:680px;margin:0 auto;display:flex;gap:8px;align-items:flex-end}
+.giris textarea{flex:1;border:1px solid var(--line2);border-radius:22px;background:var(--paper);padding:11px 16px;font-size:16px;outline:0;color:var(--ink);resize:none;max-height:130px;line-height:1.4;font-family:inherit}
+.giris textarea:focus{border-color:var(--acc)}
+.giris button{border:0;background:var(--acc);color:#fff;border-radius:50%;width:46px;height:46px;flex:none;cursor:pointer;display:grid;place-items:center}
+.giris button:disabled{opacity:.4}
 [data-theme="gece"] .giris button{color:#0f1513}
+.alt2{max-width:680px;margin:2px auto 0;font-size:11.5px;color:var(--muted);text-align:center}
 </style></head><body>
-<div class="ust"><a class="geri"></a><div class="sag"><button id="tem">Temizle</button></div></div>
-<main>
-<h1>Soru-Cevap</h1>
-<p class="alt">Sorunu yaz; cevap, el-Mihrâb Fıkıh Dirâsesi’ndeki meselelerden Hanefî mezhebine göre verilir, diğer üç mezhep ve delil de gösterilir.</p>
-<div id="ak"></div>
-<div id="on"><div class="bb">Örnek sorular</div><div class="oneri" id="or"></div></div>
-<p class="kucuk" style="margin-top:22px">Cevaplar yalnızca meselelerimizden alınır; meselelerde olmayan konuda tahmin yürütülmez. Kişiye özel durumlar için müftülüğe veya Diyanet’in ALO 190 hattına danışın.</p>
-</main>
-<div class="giris"><form id="fr"><input id="q" placeholder="Ör. Kan aldırmak orucu bozar mı?" autocomplete="off" enterkeyhint="send"><button aria-label="Sor"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></form></div>
+<div class="ust"><a class="geri"></a><div class="kim"><span class="av"><svg viewBox="0 0 24 24"><path d="M5 21V11a7 7 0 0 1 14 0v10"/><path d="M9 21v-5a3 3 0 0 1 6 0v5M12 4V2.5M3 21h18"/></svg></span><span><b>Fetva Asistanı</b><small><i id="dot"></i><span id="dur">Hanefî ilmihal ve fıkıh meselelerine dayanır</span></small></span></div><div class="sag"><button id="yeni" aria-label="Yeni sohbet">Yeni</button></div></div>
+<div id="akis"></div>
+<div class="giris"><form id="fr"><textarea id="q" rows="1" placeholder="Fetva sorun… (ör. Kan aldırmak orucu bozar mı?)" enterkeyhint="send"></textarea><button id="gn" aria-label="Gönder" disabled><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button></form>
+<div class="alt2">Cevaplar el-Mihrâb meselelerine dayanır; kişisel durumunuz için müftülüğe veya ALO 190’a danışın.</div></div>
 <script>
 var MS=null,AD=[],IX=[],MZ=[['maliki','Mâlikî'],['safii','Şâfiî'],['hanbeli','Hanbelî']];
-var ORN=['Kan aldırmak orucu bozar mı?','Yolculukta namaz nasıl kısaltılır?','Çorap üzerine mesh olur mu?','Âdetli kadın Kur’an okuyabilir mi?','Takılan altına zekât düşer mi?','Teravih kaç rekât?','Abdest nasıl alınır?','Kurban kaç gün kesilir?'];
 function nz(s){return String(s||'').toLocaleLowerCase('tr').replace(/[âàá]/g,'a').replace(/[îì]/g,'i').replace(/[ûù]/g,'u').replace(/ç/g,'c').replace(/ş/g,'s').replace(/ğ/g,'g').replace(/ı/g,'i').replace(/ö/g,'o').replace(/ü/g,'u').replace(/[’'‘`ʿʾ]/g,'').replace(/[^a-z0-9]+/g,' ').trim()}
-var DUR=nz('mi mı mu mü midir mıdır mudur müdür ne nedir neler nasıl niye neden hangi hangisi kaç bir ve veya ile için icin olur olurmu olarak hükmü hukmu var yok ben benim bana beni biz bu şu o de da ki gibi kadar ise ama acaba lazım gerekir gerekiyor yapılır yapmak etmek eder edilir mıdır caiz mi sence hocam diye olan olanın kişi kimse vardır yoktur durumunda zaman ne zaman').split(' ');
+var DUR=nz('mi mı mu mü midir mıdır mudur müdür ne nedir neler nasıl niye neden hangi hangisi kaç bir ve veya ile için icin olur olurmu olarak hükmü hukmu var yok ben benim bana beni biz bu şu o de da ki gibi kadar ise ama acaba lazım gerekir gerekiyor yapılır yapmak etmek eder edilir mıdır caiz mi sence hocam diye olan olanın kişi kimse vardır yoktur durumunda zaman ne zaman peki ya eğer şayet iyi tamam hocam efendim lütfen merhaba selam sence bana söyler misin söyle açıkla anlat bilgi istiyorum öğrenmek').split(' ');
 var ES=[['adet','regl','aybasi','period','hayiz','hayz','hayizli'],['lohusa','lohusalik','nifas','dogum'],['istihaze','ozur','akinti'],['yolcu','yolculuk','seyahat','sefer','seferi','misafir'],['kisalt','kasr','kisaltma'],['gusul','boy','cunup','yikanma'],['mesh','meshetmek'],['oruc','oruclu','savm'],['zekat','zekati'],['fitre','fitir','fitra'],['bosanma','bosamak','talak','bosanmak'],['nikah','evlilik','evlenmek','evlenme'],['faiz','riba'],['kurban','kurbanlik','udhiye'],['sehiv','yanilma','unutma','unutarak','unutursa'],['abdest','vudu'],['bozar','bozulur','bozar','bozan','bozmak'],['teravih','terav'],['cenaze','olu','olum','meyyit'],['kaza','kazasi','telafi'],['altin','ziynet','taki','bilezik'],['kuran','mushaf','kurani'],['hasta','hastalik'],['kadin','kadinin','bayan'],['imam','imamlik','imamet'],['namaz','salat','namazi'],['kiraat','okumak','okuma','okuyabilir'],['kan','kanama'],['hamile','gebe'],['emzik','emzikli','emzirme','emziren'],['kahkaha','gulmek'],['necaset','pislik','necis','kirli'],['kopek','kopegin'],['kedi'],['et','eti'],['kesim','kesmek','kesilir','kesilen'],['gun','gunu','gunler','sure','suresi'],['hac','hacca'],['umre'],['ihram','ihramli'],['tavaf'],['kible'],['ezan'],['kamet'],['cuma'],['bayram'],['vitir'],['kunut'],['secde'],['fatiha'],['rukat','rekat','rekati']];
 var EM={};ES.forEach(function(g,i){g.forEach(function(w){EM[nz(w)]=i})});
 function kok(w){return w.length>5?w.slice(0,5):w}
@@ -52,28 +61,58 @@ function ara(q){var K=kavram(q);if(!K.length)return[];var R=[];
   IX.forEach(function(x,i){var p=0,tb=0,hit=0;K.forEach(function(v){var s=0;if(var_(x.t,v)){s=4;tb++}else if(var_(x.y,v))s=2;else if(var_(x.h,v))s=1.4;else if(var_(x.d,v))s=.5;if(s)hit++;p+=s});
     if(p>0){var nasil=/nasil/.test(nz(q))&&x.a;R.push({i:i,s:p+(tb===K.length?3:0)+(nasil?3:0),c:tb/K.length,h:hit===K.length})}});
   R.sort(function(a,b){return b.s-a.s});return R.slice(0,6).map(function(r){r.k=K.length;return r})}
-function cevap(q){var R=ara(q),h='<div class="sr"><div class="q">'+esc(q)+'</div>';
-  var en=R[0],yeter=en&&((en.h&&en.c>=.5)||en.c>=.75);
-  if(!yeter){h+='<div class="c"><p>Bu soruya meselelerimiz arasında doğrudan bir cevap bulamadım. Soruyu başka kelimelerle sormayı deneyin (ör. “oruç”, “abdest”, “zekât” gibi ana kelimeyle).</p></div>'+(R.length?'<div class="bz"><b>Yakın meseleler</b>'+R.slice(0,4).map(bzB).join('')+'</div>':'')+'</div>';return h}
+var AV='<span class="av"><svg viewBox="0 0 24 24"><path d="M5 21V11a7 7 0 0 1 14 0v10"/><path d="M9 21v-5a3 3 0 0 1 6 0v5M12 4V2.5M3 21h18"/></svg></span>';
+var ORN=['Kan aldırmak orucu bozar mı?','Yolculukta namaz nasıl kısaltılır?','Çorap üzerine mesh olur mu?','Âdetli kadın Kur’an okuyabilir mi?','Takılan altına zekât düşer mi?','Abdest nasıl alınır?'];
+var SH=LS.get('mihrab.fetva',[]),AI=null,mesgul=false; /* AI: null bilinmiyor, true açık, false kapalı */
+function kaydet(){if(SH.length>40)SH=SH.slice(-40);LS.set('mihrab.fetva',SH)}
+function md(t){return esc(t).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/^#+\s*/gm,'').split(/\n{2,}/).map(function(p){return '<p>'+p.replace(/\n/g,'<br>')+'</p>'}).join('')}
+function asagi(){var a=$('#akis');a.scrollTop=a.scrollHeight}
+function durum(){$('#dot').className=AI?'on':'';$('#dur').textContent=AI?'Yapay zekâ açık · meselelere dayanır':AI===false?'Meselelerden cevaplar':'Hanefî ilmihal ve fıkıh meselelerine dayanır'}
+function kaynakHTML(ids,yakin){var L=ids.map(function(id){var m=MS.filter(function(x){return x.id===id})[0];if(m)return '<a href="fikih.html#m='+esc(id)+'">'+esc(m.baslik)+'</a>';var a=AD.filter(function(x){return x.id===id})[0];return a?'<a href="fikih.html#a='+esc(id)+'">'+esc(a.baslik)+'</a>':''}).filter(Boolean);
+  return L.length?'<div class="kay">'+(yakin?'Yakın meseleler':'Dayandığı meseleler')+'<br>'+L.join('')+'</div>':''}
+function balon(m,anim){var d=document.createElement('div');d.className='ms '+(m.r==='k'?'k':'a');
+  if(m.r==='k'){d.innerHTML='<div class="bl">'+esc(m.t)+'</div>'}
+  else{d.innerHTML=AV+'<div class="bl"><div class="tx"></div>'+(m.ids?kaynakHTML(m.ids,m.yk):'')+'<div class="ara"><button data-k="1">Kopyala</button><button data-p="1">Paylaş</button></div></div>';
+    var tx=d.querySelector('.tx'),h=md(m.t);
+    if(anim){var ham=m.t,i=0,adim=Math.max(3,Math.round(ham.length/90));(function yaz(){i=Math.min(ham.length,i+adim);tx.innerHTML=md(ham.slice(0,i));asagi();if(i<ham.length)setTimeout(yaz,16);else tx.innerHTML=h})()}else tx.innerHTML=h;
+    d.querySelector('[data-k]').onclick=function(){try{navigator.clipboard.writeText(m.t);toast('Kopyalandı')}catch(e){}};
+    d.querySelector('[data-p]').onclick=function(){var t=m.t+'\n\n— el-Mihrâb Fetva Asistanı';if(navigator.share)navigator.share({text:t}).catch(function(){});else{try{navigator.clipboard.writeText(t);toast('Kopyalandı')}catch(e){}}}}
+  $('#akis').appendChild(d);asagi();return d}
+function karsila(){$('#akis').innerHTML='';balon({r:'a',t:'Selâmün aleyküm! Ben el-Mihrâb’ın fetva asistanıyım.\n\nAbdest, namaz, oruç, zekât, hac, kurban, nikâh, alışveriş… aklınıza takılan dinî soruyu yazın. Cevabı **Hanefî mezhebine** göre, diğer mezheplerin görüşü ve delilleriyle birlikte veririm.'});
+  var o=document.createElement('div');o.className='oneri';o.id='orn';o.innerHTML=ORN.map(function(x){return '<button>'+esc(x)+'</button>'}).join('');$('#akis').appendChild(o);
+  $$('#orn button').forEach(function(b){b.onclick=function(){sor(b.textContent)}})}
+/* İnternetsiz/yapay zekâsız cevap: meselelerden konuşur gibi kurulur */
+function kur(q,R){var en=R[0],yeter=en&&((en.h&&en.c>=.5)||en.c>=.75);
+  if(!yeter)return{t:'Bu soruya meselelerimiz arasında doğrudan bir cevap bulamadım.'+(R.length?'\n\nŞu meseleler yakın olabilir; açıp bakabilirsiniz. Soruyu “oruç”, “abdest”, “zekât” gibi ana kelimeyle tekrar sorarsanız daha iyi bulurum.':'\n\nSoruyu ana kelimeyle (ör. “oruç”, “abdest”, “zekât”) tekrar sorabilirsiniz.')+'\n\nKişisel durumunuz için müftülüğe ya da Diyanet’in **ALO 190** hattına danışmanızı tavsiye ederim.',ids:R.slice(0,3).map(function(r){return IX[r.i].a?IX[r.i].a.id:MS[r.i].id}),yk:1};
   var x=IX[en.i];
-  if(x.a){var a=x.a;h+='<div class="c"><span class="hk">Adım adım · Hanefî</span><p>'+esc(a.giris)+'</p><ol style="padding-left:20px;margin:0 0 10px">'+a.adim.map(function(s){return '<li style="margin:3px 0">'+esc(s[0])+(s[1]?' <span class="kucuk">('+esc(s[1])+')</span>':'')+'</li>'}).join('')+'</ol></div><div class="lk"><a href="fikih.html#a='+esc(a.id)+'">Açıklamalı aç ›</a></div>'}
-  else{var m=MS[en.i];h+='<div class="c"><span class="hk">'+esc(m.baslik)+' · Hanefî</span><p>'+esc(m.hanefi)+'</p></div>'+
-    '<div class="mz">'+MZ.map(function(z){var v=m.mez[z[0]];return '<div><b>'+z[1]+':</b> '+esc(v[0])+(v[1]&&v[1].length<140?' — '+esc(v[1]):'')+'</div>'}).join('')+'</div>'+
-    (m.delil&&m.delil[0]?'<p class="dl">'+esc(String(m.delil[0][3]).slice(0,260))+' ('+esc(m.delil[0][1])+')</p>':'')+
-    '<div class="lk"><a href="fikih.html#m='+esc(m.id)+'">Meseleyi aç ›</a>'+(m.delil&&m.delil[0]?'<a href="'+esc(m.delil[0][2])+'">'+(m.delil[0][0]==='ayet'?'Âyet ›':'Hadis ›')+'</a>':'')+'</div>'}
-  var bz=R.slice(1,4).filter(function(r){return r.s>=3});if(bz.length)h+='<div class="bz"><b>Benzer meseleler</b>'+bz.map(bzB).join('')+'</div>';
-  return h+'</div>'}
-function bzB(r){var x=IX[r.i],t=x.a?x.a.baslik:MS[r.i].baslik;return '<button data-s="'+esc(t)+'">'+esc(t)+'</button>'}
-var GE=LS.get('mihrab.soru',[]);
-function sor(q){q=q.trim();if(!q)return;if(!MS){toast('Meseleler yükleniyor…');return}
-  var d=document.createElement('div');d.innerHTML=cevap(q);var el=d.firstChild;$('#ak').appendChild(el);$('#on').classList.add('hide');bagla(el);
-  el.scrollIntoView({behavior:'smooth',block:'start'});GE.push(q);if(GE.length>30)GE=GE.slice(-30);LS.set('mihrab.soru',GE)}
-function bagla(el){$$('[data-s]',el).forEach(function(b){b.onclick=function(){sor(b.dataset.s)}})}
-$('#fr').onsubmit=function(e){e.preventDefault();var v=$('#q').value;$('#q').value='';$('#q').blur();sor(v)};
-$('#or').innerHTML=ORN.map(function(o){return '<button data-s="'+esc(o)+'">'+esc(o)+'</button>'}).join('');bagla($('#or'));
-$('#tem').onclick=function(){$('#ak').innerHTML='';GE=[];LS.set('mihrab.soru',GE);$('#on').classList.remove('hide')};
+  if(x.a){var a=x.a;return{t:'**'+a.baslik+'** (Hanefî) şöyle yapılır:\n\n'+a.giris+'\n\n'+a.adim.map(function(s,i){return (i+1)+'. '+s[0]+(s[1]?' ('+s[1]+')':'')}).join('\n'),ids:[a.id]}}
+  var m=MS[en.i],t='Bu, “'+m.baslik+'” meselesidir.\n\n**Hanefî mezhebine göre:** '+m.hanefi+(m.sebep?'\n\n'+m.sebep:'');
+  var fark=MZ.filter(function(z){return m.mez[z[0]][0]&&m.mez[z[0]][0]!==m.hanefi});
+  if(fark.length)t+='\n\nDiğer mezheplerde: '+MZ.map(function(z){return z[1]+' — '+m.mez[z[0]][0]}).join('; ')+'.';
+  if(m.delil&&m.delil[0])t+='\n\nDelil: '+String(m.delil[0][3]).slice(0,240)+' ('+m.delil[0][1]+')';
+  var bz=R.slice(1,3).filter(function(r){return r.s>=4}).map(function(r){return IX[r.i].a?IX[r.i].a.id:MS[r.i].id});
+  return{t:t,ids:[m.id].concat(bz)}}
+function sor(q){q=String(q||'').trim();if(!q||mesgul)return;if(!MS){toast('Meseleler yükleniyor…');return}
+  var o=$('#orn');if(o)o.remove();var k={r:'k',t:q};SH.push(k);balon(k);kaydet();
+  /* takip sorularında önceki soruyu da arama için kullan */
+  var R=ara(q),onceki=SH.filter(function(x){return x.r==='k'}).slice(-2)[0];
+  if(onceki&&onceki!==k&&(!R[0]||R[0].c<.5)){var R2=ara(onceki.t+' '+q);if(R2[0]&&(!R[0]||R2[0].s>R[0].s))R=R2}
+  var ids=R.filter(function(r){return r.s>=2}).slice(0,4).map(function(r){return IX[r.i].a?IX[r.i].a.id:MS[r.i].id});
+  mesgul=true;$('#gn').disabled=true;var y=document.createElement('div');y.className='ms a';y.innerHTML=AV+'<div class="bl"><span class="yz"><i></i><i></i><i></i></span></div>';$('#akis').appendChild(y);asagi();
+  var bitir=function(c){y.remove();var m={r:'a',t:c.t,ids:c.ids,yk:c.yk};SH.push(m);kaydet();balon(m,true);mesgul=false;$('#gn').disabled=!$('#q').value.trim()};
+  var yerel=function(){setTimeout(function(){bitir(kur(q,R))},550)};
+  if(AI===false||navigator.onLine===false)return yerel();
+  var ctl=new AbortController(),zm=setTimeout(function(){ctl.abort()},25000);
+  fetch('/api/fetva',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({soru:q,ids:ids,gecmis:SH.slice(-6,-1).map(function(x){return{r:x.r,t:x.t}})}),signal:ctl.signal})
+   .then(function(r){clearTimeout(zm);if(r.status===503||r.status===404||r.status===405){AI=false;durum();throw 0}if(!r.ok)throw 0;return r.json()})
+   .then(function(j){if(!j||!j.cevap)throw 0;AI=true;durum();bitir({t:j.cevap,ids:ids})})
+   .catch(function(){clearTimeout(zm);yerel()})}
+var T=$('#q');T.oninput=function(){T.style.height='auto';T.style.height=Math.min(130,T.scrollHeight)+'px';$('#gn').disabled=mesgul||!T.value.trim()};
+T.onkeydown=function(e){if(e.key==='Enter'&&!e.shiftKey&&!('ontouchstart' in window)){e.preventDefault();$('#fr').onsubmit(e)}};
+$('#fr').onsubmit=function(e){e.preventDefault();var v=T.value;T.value='';T.oninput();sor(v)};
+$('#yeni').onclick=function(){SH=[];kaydet();karsila()};
 function getJ(u){return fetch(u+'?v=16',{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()})}
 Promise.all([getJ('data/fikih/meseleler.json'),getJ('data/fikih/adim.json').catch(function(){return[]})]).then(function(a){MS=a[0];AD=a[1]||[];idx();
-  GE.slice(-5).forEach(function(q){var d=document.createElement('div');d.innerHTML=cevap(q);var el=d.firstChild;$('#ak').appendChild(el);bagla(el)});if(GE.length)$('#on').classList.add('hide');
-  var u=new URLSearchParams(location.search).get('q');if(u)sor(u)}).catch(function(){$('#ak').innerHTML='<p class="bos">Meseleler yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'});
+  if(SH.length){SH.forEach(function(m){balon(m)})}else karsila();durum();
+  var u=new URLSearchParams(location.search).get('q');if(u)sor(u)}).catch(function(){$('#akis').innerHTML='<p class="bos">Meseleler yüklenemedi. İnternet bağlantınızı kontrol edin.</p>'});
 </script></body></html>
