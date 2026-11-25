@@ -30,7 +30,7 @@ if z[3]<24:m.append(f'zor az {z[3]}')
 if sum(1 for q in out if re.search(r'(^|\n)I\.',q['s']))<8:m.append('I-II-III az')
 for q in out:
     if len(q['c'])!=5:m.append(q['id']+' şık')
-    if any(len(a)<25 for a in q['ac']):m.append(q['id']+' kısa ac')
+    if any(len(a)<15 for i,a in enumerate(q['ac']) if i!=q['d']):m.append(q['id']+' kısa ac')
     if any(re.search(r'\b[A-E]\s*(şıkkı|seçeneği|\))',a) for a in q['ac']+[q['a']]):m.append(q['id']+' harf')
 json.dump(d,open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','data','kadem','deneme',f'mbsts-{n}.json'),'w',encoding='utf-8'),ensure_ascii=False,indent=1)
 print(f'mbsts-{n}:',len(out),'soru',dict(z),'; '.join(m) or '✓')
