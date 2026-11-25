@@ -165,6 +165,16 @@ Kullanıcının konu listesindeki her satır ayrı dosya olacak. Bir ders yazıl
 - **Sonraki iş:** (1) kalan konuları yaz (yukarıdaki liste; aynı talimat), köprüleri kaldır; (2) kullanıcının isteği: MBSTS’ye **10 yeni tam deneme (mbsts-11…20)**, zor ağırlıklı, ÖSYM tarzı; talimat `DENEME-BRIEF.md`, denetim `kontrol_deneme.js` (60 soru resmî sıra 7-7-7-20-7-7-3-2, id md<N>-01…60, en fazla 6 kolay, en az 24 zor, ≥8 I-II-III, ≥25 uzun kök, doğru şıklar dengeli, her şık açıklaması ≥25 karakter); (3) sonra DHBT (İslam Ahlakı, Din Hizmetleri-Hitabet genişletme, DHBT denemeleri). Öncelik MBSTS.
 - Müfredat kontrolü: ÖSYM MBSTS kılavuzunda bu 8 ders dışında ders yok; 2026 sınavı aynı dağılımla yapıldı.
 
+
+### 9. oturum — 25 Kasım 2026 (claude.ai sohbetinden; MBSTS konuları bitti)
+- Kullanıcı Claude Code yerine sohbetten çalışmayı istedi (sınır tasarrufu): alt ajan yok, ders ders yazıp her dersten sonra commit.
+- **MBSTS’nin 102 konusunun hepsi yazıldı**: tefsir-5…9, kelam-5, 6, 12, siyer-5, 6, 7, 14, 15, 16, hadis-7…10 (hadis-6 tamamlandı), mezhep-7…10, dinler-8…10, fikih-5…11, 16…22; kuran-13 zorlaştırma bitti. **Bütün eski-* köprü dosyaları silindi**; eski soruların hepsi id’leri korunarak yeni konulara taşındı (`tools/kadem/tasi.py`).
+- Yeni konuların anlatımı 6.500–12.000 karakter (önceki 15.000 hedefinden kısa); her konuda ≥14 soru, ≥%40 zor, ≥2 I-II-III, ≥12 kart, ≥10 özet. Yeni soru id’leri: tefsir tf5-…, kelam kl5-/kl6-/kl12-, siyer sy5-…, hadis hd7-…, mezhep mz7-…, dinler dn8-…, fıkıh fq5-… .
+- Yeni araçlar: `tools/kadem/kontrol_konu.py` (konu ölçütleri; Mezhepler/Dinler için anlatım alt sınırı 7000, diğerleri 6500), `tools/kadem/tasi.py` (köprü sorularını taşır, boşalan köprüyü siler).
+- Görünüm: sınav sayfasında her ders açılır kutu (details); konular doğrudan dersin altında listelenir, son çalışılan ders açık gelir. Araç düğmeleri ve ders sayfası düğmeleri eşit ızgara.
+- Denetim: yerelde `python3 -m http.server` + Playwright/Chrome ile telefon boyutunda ekran görüntüsü alındı.
+- DHBT’ye özgü ahlak-1, hitabet-1 ve mevzuat-1…3 eski biçimde (yeni ölçütleri karşılamıyor).
+
 ### KALDIĞIM YER (7. oturum sonu — artık geçerli değil, 8. oturuma bak)
 - **Sıradaki ders: TEFSİR** (tefsir-1 … tefsir-9). Önce mtsb.pdf Tefsir bölümü (sf. 51-116), Köklü “Tefsir Tarihi ve Usulü” (çıkmış sorular) ve GENCO tefsir kısmı okunacak. Eski tefsir-1 ve tefsir-2 sorularının id’leri korunacak; çıkmış soruya çok benzeyenler aynı id ile yeniden yazılacak.
 - Kur’an Bilgisi’nde açık ⚑ kontrol kutuları: kuran-1 (fetret süresi), kuran-2 (Mekkî-Medenî sayıları; leylî-firâşî örnekleri), kuran-3 (Kureyş okuryazar sayısı), kuran-4 (Osman nüshaları sayısı/kâriler, Topkapı-Taşkent mushafları, basma mushaf tarihleri), kuran-5 (diğer ayet sayımları; mufassal sınırları; Türkiye’de hizb), kuran-9 (TİEM 73 tarihi; Diyanet meal heyetleri; Batı tercümelerinin yılları), kuran-11 (gunne süresi), kuran-12 (uzatma miktarları).
