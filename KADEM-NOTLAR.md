@@ -214,21 +214,24 @@ Fıkıh hükümleri Hanefî mezhebine göredir; mezhep farkları ayrıca belirti
 - `kontrol.py`: bütün konu ve deneme dosyalarını doğrular; her sınav dosyasının `konular` (konu dosyasındaki `sinavlar` alanına göre) ve `denemeler` (dosya adı önekine göre) listesini yeniden kurar · `dengele.py [dosya…]`: doğru şıkları A–E arasında dengeler (deneme dosyaları için yolu açıkça ver: `dengele.py data/kadem/deneme/*.json`) · `harita.py`: haritası olan her sınavda ünite listelerini hazır konulardan günceller (sırayla çalıştır: dengele → kontrol → harita).
 Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık açıklaması (`ac`) olmalı, `d` 0-4, `z` 1-3, `id` benzersiz; doğru şıklar A–E arasında dengeli; yeni konu `mbsts.json` → `konular` listesine `{"ref":"…"}` olarak ve haritadaki ilgili derse `"konu":"…"` ile eklenmeli; konunun `ders` adı haritadaki adla birebir aynı olmalı.
 
+### 11. oturum — 26 Kasım 2026 (gece)
+- **Şifre düzeni değişti:** sınav listesi, sınav dosyaları (`data/kadem/*.json`) ve her dersin ilk ünitesi (`konu/*-1.json`) artık AÇIK (düz json, git’e girer); diğer konular ve bütün tam denemeler şifreli (.enc). Kural `sifre.py` içindeki `acik()` ile `kadem.html` içindeki `acik()` aynı olmalı. Şifresiz kullanıcı ana sayfada “Giriş” şeridini görür; kilitli konu/deneme 🔒 ile gösterilir, tıklanınca şifre ekranı açılır (`#giris=1` ya da kilitli konunun kendisi). Şifre kontrolü artık `konu/kuran-2.enc` ile yapılıyor.
+- **Ortak tema dosyaları:** `tema.css` + `tema.js` (Gece Mavisi a / Sabah Ferahlığı b / klasik 0; anahtar `mihrab.tema`, `kadem.tema` ile eşitlenir). ŞU AN YALNIZ KADEM KULLANIYOR. Kullanıcı kararı: **yeni şablon yalnız Kadem’de; uygulamanın diğer sayfalarına uygulanmayacak.**
+- **Ana sayfa (index.html):** yalnız ev ekranının üstüne `ust.js` ile koyu-mavi alan eklendi (selam, el-Mihrâb, المِحْرَاب amblemi, sıradaki vakit, kaldığın âyet, Kadem konusu; büyük logo gizli, üst çubuk aynı renk). Vakitleri ana sayfanın sakladığı `mihrab.loc`/`mihrab.pt2`’den, âyeti `beyan2.last`’ten okur. Diğer sayfalarda yok (kullanıcı istemedi).
+- **Kadem ekranları:** denemeler sayfası kart listesi; ders, özet, kartlar, harita, program, defter, deneme başlangıç ve sonuç sayfalarına `sayfaBas()` üst alanı (başlık + 3 özet sayı); deneme çözerken ilerleme çubuğu ve sabit alt Önceki/Sonraki çubuğu; program süre seçimi kartları.
+- **DHBT 2. ve 3. tam denemeler** yazıldı (40’ar soru, zor ağırlıklı).
+- Ekran görüntüsü: yerel sunucu açmak engellendi; `/home/claude/shot.py` Playwright isteklerini doğrudan depodan karşılıyor (https://site.test, şifre ekranı için güvenli bağlam gerekli).
+
 ## Sıradaki iş (26 Kasım 2026 itibarıyla güncel)
 
 ### A. Kadem içerik
-1. DHBT tam denemeleri 2–5 (40’ar soru; dağılım dhbt.json haritasından: Akaid 6, Fıkıh 9, Kur’an Bilgisi 6, Tefsir 3, Hadis 3, Siyer 6, Ahlak 2, Mezhepler 1, Dinler 2, Hitabet 2). Araç: `python3 tools/kadem/deneme_yaz.py kaynak.txt N "açıklama" dhbt` → yayın: `KADEM_SIFRE=… /home/claude/yay.sh "mesaj" data/kadem/deneme/dhbt-N.json`.
+1. DHBT tam denemeleri 4–5 (2 ve 3 bitti; 40’ar soru; dağılım dhbt.json haritasından: Akaid 6, Fıkıh 9, Kur’an Bilgisi 6, Tefsir 3, Hadis 3, Siyer 6, Ahlak 2, Mezhepler 1, Dinler 2, Hitabet 2). Araç: `python3 tools/kadem/deneme_yaz.py kaynak.txt N "açıklama" dhbt` → yayın: `KADEM_SIFRE=… /home/claude/yay.sh "mesaj" data/kadem/deneme/dhbt-N.json`.
 2. Mevzuat denemeleri (30 soru, mevzuat-1…3 konularından; `… N "açıklama" mevzuat`).
 3. Diğer sınavlar (vaizlik, ilçe müftülüğü, müftü yrd., eğitim görevlisi, kbys, ihtisas…) şu an karma deneme kullanıyor; gerekirse sabit deneme eklenebilir. Sınavların özel konuları (ör. Arapça, hitabet ayrıntısı) eksikse yazılmalı.
-4. Denemeler sayfasında tablo dar ekranda sıkışıyor: temalı görünümde tabloyu kart listesine çevir.
-5. Ders sayfası (`&ds=`), özet kitapçığı, program, yanlış defteri, sonuç ve deneme ekranları henüz temaya özel düzenlenmedi (yalnız genel renk/köşe alıyor) — yeni şablona tam uyarlanmalı.
+4. (bitti) Denemeler kart listesi ve Kadem ekranlarının şablona uyarlanması.
 
-### B. Bütün site için şablon birliği
-Kullanıcı, el-Mihrâb’ın bütün sayfalarının (index.html ve ~28 alt sayfa: akaid, fikih, hadis, siyer, ahlak, cami, hatim, kible, zikir, sozluk, arapca, medrese, cocuk vb.) Kadem’deki yeni şablonla uyumlu olmasını istiyor:
-- İki tema: **Gece Mavisi** (lacivert #1E2A4A/#2E3F73, turuncu eylem #F2994A, yeşil başarı #27AE60) ve **Sabah Ferahlığı** (beyaz/#F6FAF9, turkuaz #14B8A6, mavi #0EA5E9, koyu düğme #0F172A, sarı vurgu #FDE68A). Seçim `localStorage['kadem.tema']` (site geneli için ortak anahtar yapılabilir, ör. `mihrab.tema`, Kadem bunu okumaya devam etmeli).
-- Ortak yapı: sans-serif (Inter/system), 14–20px yuvarlak köşeler, yumuşak gölgeli kartlar, büyük ana eylem düğmesi, alt sabit menü, üstte “hero” alanı.
-- Öneri: temayı `tema.css` + `tema.js` ortak dosyalarına çıkar (Kadem’deki `html[data-tema]` kuralları ve `temaUygula/temaSecici` buradan gelsin), her sayfaya ekle; önce index.html, sonra sayfalar tek tek. Her adımda Playwright ile telefon ekran görüntüsü alıp kontrol et (`/home/claude/shot.py`, sunucu: `python3 -m http.server 8765`).
-- Önce kullanıcıya 1–2 sayfanın önizlemesini göster, onay alınca hepsine uygula.
+### B. Site geneli
+- İPTAL: kullanıcı yeni şablonun yalnız Kadem’de kalmasını istedi. Ana sayfada yalnız üst alan (ust.js) var.
 
 ### Hatırlatma
 - Şifre hiçbir dosyaya, commit’e yazılmaz; kullanıcı yeni oturumda yeniden verir.
