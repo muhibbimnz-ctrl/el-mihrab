@@ -214,11 +214,22 @@ Fıkıh hükümleri Hanefî mezhebine göredir; mezhep farkları ayrıca belirti
 - `kontrol.py`: bütün konu ve deneme dosyalarını doğrular; her sınav dosyasının `konular` (konu dosyasındaki `sinavlar` alanına göre) ve `denemeler` (dosya adı önekine göre) listesini yeniden kurar · `dengele.py [dosya…]`: doğru şıkları A–E arasında dengeler (deneme dosyaları için yolu açıkça ver: `dengele.py data/kadem/deneme/*.json`) · `harita.py`: haritası olan her sınavda ünite listelerini hazır konulardan günceller (sırayla çalıştır: dengele → kontrol → harita).
 Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık açıklaması (`ac`) olmalı, `d` 0-4, `z` 1-3, `id` benzersiz; doğru şıklar A–E arasında dengeli; yeni konu `mbsts.json` → `konular` listesine `{"ref":"…"}` olarak ve haritadaki ilgili derse `"konu":"…"` ile eklenmeli; konunun `ders` adı haritadaki adla birebir aynı olmalı.
 
-## Sıradaki iş
-0. Şifreli düzenle ilgili yukarıdaki iş akışına uy (önce `sifre.py ac`).
-1. **DHBT sabit denemeleri:** `data/kadem/deneme/dhbt-1…5.json` (40 soru; DHBT-1 20 + DHBT-2 20, haritadaki dağılım). DHBT-1’e özgü kolay-orta ilmihal soruları ağırlıkta olmalı. Ön lisans ve ortaöğretim için ayrı harita düşünülebilir.
-2. **Mevzuat:** sabit deneme (30 soru); “Hoca kontrolü bekleyenler” maddelerinin güncel metinle kontrolü; Atama ve Yer Değiştirme Yönetmeliği (hizmet bölgeleri, ortak nitelik), Görevde Yükselme Yönetmeliği, Din Hizmetleri Yönetmeliği/Cami Hizmetleri ve Kur’an Kursları yönetmelikleri için mevzuat-4.
-3. **Kariyer / müftülük sınavları:** konular bağlandı; Arapça (sözlüde 30 puan) için ayrı ünite ve sözlü sınav hazırlık kartları (Kur’an kıraat-anlam-tefsir sorusu örnekleri).
-4. **MBSTS:** Hadis dışındaki derslerde konu sorusu 32-34; her derse bir tur daha (hedef 50). Anlatımları ders kitabı düzeyine çıkarmak (özellikle Tefsir, Kelam, Siyer).
-5. Yayın: kadem dalındaki iş main’e birleştirilince `sw.js` sürümü artırılmalı (kadem.html kabukta). Deneme klasörü `data/kadem/` altında olduğu için önbellek kuralı değişmeden çalışır.
-6. Açık konu: bölüm bir süre ücretsiz; ödeme sistemi yok.
+## Sıradaki iş (26 Kasım 2026 itibarıyla güncel)
+
+### A. Kadem içerik
+1. DHBT tam denemeleri 2–5 (40’ar soru; dağılım dhbt.json haritasından: Akaid 6, Fıkıh 9, Kur’an Bilgisi 6, Tefsir 3, Hadis 3, Siyer 6, Ahlak 2, Mezhepler 1, Dinler 2, Hitabet 2). Araç: `python3 tools/kadem/deneme_yaz.py kaynak.txt N "açıklama" dhbt` → yayın: `KADEM_SIFRE=… /home/claude/yay.sh "mesaj" data/kadem/deneme/dhbt-N.json`.
+2. Mevzuat denemeleri (30 soru, mevzuat-1…3 konularından; `… N "açıklama" mevzuat`).
+3. Diğer sınavlar (vaizlik, ilçe müftülüğü, müftü yrd., eğitim görevlisi, kbys, ihtisas…) şu an karma deneme kullanıyor; gerekirse sabit deneme eklenebilir. Sınavların özel konuları (ör. Arapça, hitabet ayrıntısı) eksikse yazılmalı.
+4. Denemeler sayfasında tablo dar ekranda sıkışıyor: temalı görünümde tabloyu kart listesine çevir.
+5. Ders sayfası (`&ds=`), özet kitapçığı, program, yanlış defteri, sonuç ve deneme ekranları henüz temaya özel düzenlenmedi (yalnız genel renk/köşe alıyor) — yeni şablona tam uyarlanmalı.
+
+### B. Bütün site için şablon birliği
+Kullanıcı, el-Mihrâb’ın bütün sayfalarının (index.html ve ~28 alt sayfa: akaid, fikih, hadis, siyer, ahlak, cami, hatim, kible, zikir, sozluk, arapca, medrese, cocuk vb.) Kadem’deki yeni şablonla uyumlu olmasını istiyor:
+- İki tema: **Gece Mavisi** (lacivert #1E2A4A/#2E3F73, turuncu eylem #F2994A, yeşil başarı #27AE60) ve **Sabah Ferahlığı** (beyaz/#F6FAF9, turkuaz #14B8A6, mavi #0EA5E9, koyu düğme #0F172A, sarı vurgu #FDE68A). Seçim `localStorage['kadem.tema']` (site geneli için ortak anahtar yapılabilir, ör. `mihrab.tema`, Kadem bunu okumaya devam etmeli).
+- Ortak yapı: sans-serif (Inter/system), 14–20px yuvarlak köşeler, yumuşak gölgeli kartlar, büyük ana eylem düğmesi, alt sabit menü, üstte “hero” alanı.
+- Öneri: temayı `tema.css` + `tema.js` ortak dosyalarına çıkar (Kadem’deki `html[data-tema]` kuralları ve `temaUygula/temaSecici` buradan gelsin), her sayfaya ekle; önce index.html, sonra sayfalar tek tek. Her adımda Playwright ile telefon ekran görüntüsü alıp kontrol et (`/home/claude/shot.py`, sunucu: `python3 -m http.server 8765`).
+- Önce kullanıcıya 1–2 sayfanın önizlemesini göster, onay alınca hepsine uygula.
+
+### Hatırlatma
+- Şifre hiçbir dosyaya, commit’e yazılmaz; kullanıcı yeni oturumda yeniden verir.
+- Her yayında sw.js sürümü artırılır (yay.sh yapar), kadem ve main dallarına birlikte itilir.
