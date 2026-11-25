@@ -53,7 +53,7 @@ var M=document.getElementById('m'),MS=[],KL=[],KC={},acik='';
 var MZ=[['maliki','Mâlikî'],['safii','Şâfiî'],['hanbeli','Hanbelî']];
 var KAD={nurizah:'Nûru’l-Îzâh',meraki:'Merâki’l-Felâh',lubab:'el-Lübâb',bedai:'Bedâi‘',mebsut:'Mebsût',reddulmuhtar:'İbn Âbidîn',kuduri:'Kudûrî',hidaye:'Hidâye',ihtiyar:'el-İhtiyâr',kenz:'Kenz',bidaye:'Bidâyetü’l-Müctehid',risale:'er-Risâle',minhac:'Minhâc',umde:'Umde'};
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
-var HV='15';function getJ(u){return fetch(u+'?v='+HV,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()})}
+var HV='16';function getJ(u){return fetch(u+'?v='+HV,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()})}
 function pop(h){document.getElementById('pc').innerHTML=h;document.getElementById('pop').classList.add('on')}
 document.getElementById('px').onclick=function(){document.getElementById('pop').classList.remove('on')};
 function anrm(t){return (t||'').replace(/[\u064B-\u065F\u0670\u0640]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه')}
