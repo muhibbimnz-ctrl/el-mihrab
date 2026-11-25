@@ -912,8 +912,8 @@ const LS={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const toAr=n=>String(n).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);
 const normAr=s=>String(s||'').replace(/[ؐ-ًؚ-ٰٟۖ-ۭـ]/g,'').replace(/[ٱأإآ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').trim();
-const DEF={lang:LANG,reader:true,script:'uthmani',translit:false,theme:'parsomen',font:"'Amiri Quran'",qsize:34,msize:17,tsize:21,meals:[LANG==='tr'?'tr.yazir':LANG==='ar'?'ar.muyassar':'en.sahih'],reciter:'afasy',cont:true,book:{},tajweed:false,okBicim:'dirase',okMedine:false};
-const set=Object.assign({},DEF,LS.get('beyan2.set',{}));set.book=set.book||{};
+const DEF={lang:LANG,reader:true,script:'uthmani',translit:false,theme:'parsomen',font:"'Amiri Quran'",qsize:34,msize:17,tsize:21,meals:[LANG==='tr'?'tr.yazir':LANG==='ar'?'ar.muyassar':'en.sahih'],reciter:'afasy',cont:true,book:{},tajweed:false,okBicim:'mushaf',okMedine:false};
+const set=Object.assign({},DEF,LS.get('beyan2.set',{}));set.book=set.book||{};if(!set.okV2){set.okBicim='mushaf';set.okV2=1;try{LS.set('beyan2.set',set)}catch(e){}}
 /* Meâller arayüz diliyle aynı dilde olsun (Türkçe ile İngilizce karışmasın) */
 if(set.mealsLang!==LANG){const px=LANG==='tr'?'tr.':LANG==='en'?'en.':'ar.';let m=(set.meals||[]).filter(x=>String(x).startsWith(px)&&x!=='tr.transliteration');
   if(!m.length)m=[LANG==='tr'?'tr.yazir':LANG==='ar'?'ar.muyassar':'en.sahih'];set.meals=m;set.mealsLang=LANG;try{localStorage.setItem('beyan2.set',JSON.stringify(set))}catch(e){}}
@@ -1588,9 +1588,9 @@ function settings(){
     <label class="ck"><input type="checkbox" id="trC" ${set.translit?'checked':''}> Latin harfleriyle okunuşu göster</label>
     <p class="note">Arapça yazı telefonunuzda düzgün görünmüyorsa <b>Kolay okunur</b> yazımı ya da <b>Noto Naskh</b> hattını seçin.</p></section>
    <section><h4>Namaz ve Kur'an bölümünde Kur'an</h4>
-    <div class="seg"><button data-ob="dirase" class="${set.okBicim!=='mushaf'?'on':''}">Dirâset ile aynı (sûre sûre)</button><button data-ob="mushaf" class="${set.okBicim==='mushaf'?'on':''}">Mushaf sayfası</button></div>
+    <div class="seg"><button data-ob="mushaf" class="${set.okBicim==='mushaf'?'on':''}">Mushaf (sayfa sayfa)</button><button data-ob="dirase" class="${set.okBicim!=='mushaf'?'on':''}">Dirâset gibi (sûre sûre)</button></div>
     <label class="ck"><input type="checkbox" id="ohC" ${set.okMedine?'checked':''}> Mushafta Medine baskısının birebir sayfa hattını kullan (satırlar sık olur)</label>
-    <p class="note"><b>Dirâset ile aynı</b> seçiliyken hat, yazı boyutu, tecvid renkleri, okunuş ve meâl ayarları Namaz ve Kur'an bölümündeki Kur'an'a da uygulanır. Mushaf da bu hat ve boyutla, ferah satırlarla ve aşağı doğru kesintisiz akar.</p></section>
+    <p class="note"><b>Mushaf</b>: Kur'an sayfa sayfa, aşağı doğru kesintisiz akar; alttaki çubukta Hız, Tefsir, sayfa, Git ve Ayarlar vardır. Yazı boyutu, satır aralığı ve zemin mushafın kendi Ayarlar düğmesinden değişir. Tefsirli okuma için menüdeki <b>Tefsirli Okuma</b>yı kullanın.</p></section>
    <section><h4>Meâller</h4><label class="ck"><input type="checkbox" id="smC" ${set.showMeal?'checked':''}> <b>Seçili meâli âyetin altında hep göster</b></label><p class="note">Kapalıyken meal, diğer kutular gibi <b>Meâller</b> düğmesine basınca açılır. Sıralama ve vurgulama için seçin:</p>${MEALS.map(m=>`<label class="ck"><input type="checkbox" data-m="${m[0]}" ${set.meals.includes(m[0])?'checked':''}> ${m[1]}</label>`).join('')}</section>
    <section style="grid-column:1/-1"><h4>İnternetsiz kullanım</h4><p class="note">Kur'an metnini ve meâlleri bir kez indirin; uygulama internetsiz de açılır. Okuduğunuz tefsirler de cihazda saklanır.</p><button class="pill" id="offB">İnternetsiz kullanım için indir</button> <span class="note" id="offI"></span></section>
    <section style="grid-column:1/-1"><h4>Okuma ve kaynaklar</h4>
