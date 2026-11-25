@@ -227,6 +227,42 @@ details summary{cursor:pointer;font-weight:600;margin-top:8px;font-size:14.5px;c
 #toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(90px);background:var(--ink);color:var(--kagit);border-radius:3px;padding:9px 16px;transition:transform .25s;z-index:20;font-size:15px}
 #toast.on{transform:translateX(-50%) translateY(0)}
 /* ===== TEMALAR: a = Gece Mavisi, b = Sabah Ferahlığı ===== */
+/* Sayfa başı, özet sayıları, program seçimi */
+.sbas{margin-bottom:6px}.sozet{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0 4px}
+.sozet>div{border:1px solid var(--line);border-radius:8px;padding:8px 6px;text-align:center}.sozet b{display:block;font:800 18px var(--sans)}.sozet small{font-size:11.5px;color:var(--muted)}
+.secim.hafta{display:grid;grid-template-columns:1fr 1fr;gap:10px}.secim.hafta button{display:flex;flex-direction:column;align-items:flex-start;gap:2px;padding:14px;text-align:left}
+.secim.hafta b{font:800 18px var(--sans)}.secim.hafta span{font-weight:700;color:var(--acc)}.secim.hafta small{color:var(--muted)}
+html[data-tema] .sbas{margin:-14px -16px 14px;padding:18px 20px 20px;border-radius:0 0 26px 26px;background:var(--t-hero);color:#fff}
+html[data-tema] .sbas h1{color:#fff;margin:4px 0}html[data-tema] .sbas .lead{color:rgba(255,255,255,.85);font-size:15px;margin:4px 0 0}
+html[data-tema=a] .sbas .ust-etiket{color:#FFB547}html[data-tema=b] .sbas .ust-etiket{color:#fff;opacity:.9}
+html[data-tema] .sozet>div{border:0;border-radius:14px;background:rgba(255,255,255,.13)}html[data-tema=b] .sozet>div{background:rgba(255,255,255,.22)}
+html[data-tema] .sozet small{color:rgba(255,255,255,.85)}
+html[data-tema] .dugmeler.uc{display:grid;grid-template-columns:1fr 1fr;gap:8px}html[data-tema] .dugmeler.uc>:first-child{grid-column:1/-1}
+html[data-tema] .dugmeler.uc .btn{margin:0;text-align:center}
+html[data-tema] .secim.hafta button{border:0;border-radius:16px;background:var(--kagit);box-shadow:var(--t-golge)}
+html[data-tema] .secim.hafta button:active{transform:scale(.98)}
+html[data-tema] .soru.sonuc{border-radius:18px;box-shadow:var(--t-golge)}
+html[data-tema] .ozet-bas{font-family:var(--sans);font-weight:800}
+@media print{.sbas{background:none!important;color:#000!important;margin:0!important}.sbas *{color:#000!important}#altnav,.dugmeler{display:none!important}}
+html[data-tema] .sbas{margin-top:-18px;padding-top:22px}
+.dncubuk{margin:6px 0 10px;height:6px}
+.denealt{display:flex;gap:8px}.denealt .btn{flex:1}
+html[data-tema] .denealt{position:fixed;left:0;right:0;bottom:0;z-index:8;margin:0;padding:10px 16px calc(12px + env(safe-area-inset-bottom,0px));background:var(--kagit);border-top:1px solid var(--line);box-shadow:0 -8px 20px -14px rgba(30,42,74,.4)}
+html[data-tema] .denealt .btn.ik{flex:0 0 38%}
+html[data-tema] .kitapcik{border:0;font-weight:700}
+html[data-tema] .harita button{border-radius:10px}
+html[data-tema] #saat{border:0;border-radius:10px;font-weight:800;padding:5px 10px}
+html[data-tema=a] #saat{background:rgba(255,255,255,.14);color:#fff}html[data-tema=b] #saat{background:#0F172A;color:#fff}
+html[data-tema] #saat.az{background:var(--no);color:#fff}
+html[data-tema] .sik.secili{border-color:var(--acc);background:color-mix(in srgb,var(--acc) 8%,var(--kagit))}
+html[data-tema] .sik.secili i{background:var(--acc)!important;border-color:var(--acc)!important;color:#fff!important}
+html[data-tema] .harita{padding-bottom:84px}
+html[data-tema] .sonuc .buyuk{font:800 60px/1 var(--sans);color:var(--acc)}
+html[data-tema] .sayilar{border:0;gap:8px}html[data-tema] .sayilar div{border:0;border-radius:14px;padding:10px 6px}
+html[data-tema] .sayilar b{font:800 24px var(--sans)}
+html[data-tema] .sayilar div:nth-child(1){background:color-mix(in srgb,var(--ok) 14%,transparent);color:var(--ok)}
+html[data-tema] .sayilar div:nth-child(2){background:color-mix(in srgb,var(--no) 12%,transparent);color:var(--no)}
+html[data-tema] .sayilar div:nth-child(3){background:color-mix(in srgb,var(--muted) 14%,transparent);color:var(--muted)}
 /* Deneme kartları */
 .dkartlar{display:flex;flex-direction:column;gap:10px;margin:8px 0}
 .dkart{display:flex;align-items:center;gap:12px;background:var(--kagit);border:1px solid var(--line);border-radius:10px;padding:12px 12px 12px 10px}
@@ -564,25 +600,31 @@ function sinavSayfa(S,V){
 function dersSayfa(S,V,adi){var o=oku(),I=dersBilgi(S,V,adi),ad='#s='+e(S.id),q=encodeURIComponent(adi);
  var kartN=I.KK.reduce(function(a,x){return a+(x.kartlar||[]).length},0),d=defter(S),yan={};
  Object.keys(d).forEach(function(k){var s=soruBul(V,k);if(s&&!s._deneme)yan[s._konu.id]=(yan[s._konu.id]||0)+1});
- var h='<div class="ust-etiket">'+e(S.ad)+'</div><h1>'+e(adi)+'</h1><p class="lead">'+(I.soru?'Sınavda bu dersten '+I.soru+' soru gelir. ':'')+I.KK.length+' konu, '+I.n+' açıklamalı soru, '+kartN+' kart.</p>'+
-  '<div class="dugmeler"><a class="btn" href="'+ad+'&t=deneme&ders='+q+'">Ders denemesi</a><a class="btn ik" href="'+ad+'&t=ozet&ds='+q+'">Dersin özeti</a><a class="btn ik" href="'+ad+'&t=kartlar&ds='+q+'">Kartlar</a></div>'+
+ var bit=I.KK.filter(function(x){return o['p.'+S.id+'.'+x.id]!=null}).length;
+ var h=sayfaBas(S.ad,e(adi),(I.soru?'Sınavda bu dersten '+I.soru+' soru gelir. ':'')+I.KK.length+' konu, '+I.n+' açıklamalı soru, '+kartN+' kart.',[[bit+'/'+I.KK.length,'konu bitti'],[I.n,'soru'],[Object.keys(yan).reduce(function(a,k){return a+yan[k]},0),'yanlış defterde']])+
+  '<div class="dugmeler uc"><a class="btn" href="'+ad+'&t=deneme&ders='+q+'">Ders denemesi</a><a class="btn ik" href="'+ad+'&t=ozet&ds='+q+'">Dersin özeti</a><a class="btn ik" href="'+ad+'&t=kartlar&ds='+q+'">Kartlar</a></div>'+
   '<h2>Konular</h2><div class="konular">';
  I.KK.forEach(function(x,i){var p=o['p.'+S.id+'.'+x.id],n=(x.sorular||[]).length;
-  h+='<a class="satir" href="'+ad+'&k='+e(x.id)+'"><span class="no">'+(i+1)+'</span><span>'+e(x.ad)+(x._kilit?' <span class="kilit">🔒</span>':'')+(yan[x.id]?'<br><small style="color:var(--no)">'+yan[x.id]+' yanlış defterde</small>':'')+'</span><small>'+n+' soru'+(p!=null?' · %'+p:'')+'</small>'+(p!=null?'<i class="ilerle" style="width:'+p+'%"></i>':'')+'</a>'});
+  h+='<a class="satir" href="'+ad+'&k='+e(x.id)+'"><span class="no">'+(i+1)+'</span><span>'+e(x.ad)+(x._kilit?' <span class="kilit">🔒</span>':'')+(yan[x.id]?'<br><small style="color:var(--no)">'+yan[x.id]+' yanlış defterde</small>':'')+'</span><small>'+n+' soru'+(p!=null?' · %'+p:'')+'<br>'+noktalar(adimDurum(S,x))+'</small>'+(p!=null?'<i class="ilerle" style="width:'+p+'%"></i>':'')+'</a>'});
  M.innerHTML=h+'</div><p class="kucukyazi" style="margin-top:12px">Önerilen sıra: anlatımı oku → özete bak → kartları çevir → testi çöz. Yanlışların yanlış defterine düşer ve aralıklarla yeniden sorulur.</p>'}
 
-function ozetSayfa(S,V,adi){var L=adi?[adi]:dersler(V),h='<div class="ust-etiket">'+e(S.ad)+'</div><h1>'+(adi?e(adi)+' özeti':'Son tekrar kitapçığı')+'</h1><p class="lead">Konuların en çok sorulan bilgileri, dersler sırasıyla. Sınavdan önceki son günlerde baştan sona okuman için hazırlandı.</p>';
+/* Yeni şablonda sayfa başı: üstte koyu/renkli alan, başlık ve özet sayıları (klasik görünümde sade başlık) */
+function sayfaBas(et,bas,lead,oz){return'<div class="sbas"><div class="ust-etiket">'+e(et)+'</div><h1>'+bas+'</h1>'+(lead?'<p class="lead">'+lead+'</p>':'')+
+ (oz&&oz.length?'<div class="sozet">'+oz.map(function(x){return'<div><b>'+x[0]+'</b><small>'+e(x[1])+'</small></div>'}).join('')+'</div>':'')+'</div>'}
+function ozetSayfa(S,V,adi){var L=adi?[adi]:dersler(V),KN=V.konular.filter(function(x){return(!adi||x.ders===adi)&&(x.ozet||[]).length}),
+  h=sayfaBas(S.ad,adi?e(adi)+' özeti':'Son tekrar kitapçığı','Konuların en çok sorulan bilgileri, dersler sırasıyla. Sınavdan önceki son günlerde baştan sona okuman için hazırlandı.',
+   [[KN.length,'konu'],[KN.reduce(function(a,x){return a+x.ozet.length},0),'madde'],[adi?1:L.length,'ders']])+'<div class="dugmeler"><button class="btn ik kucuk" onclick="print()">Yazdır / PDF</button></div>';
  L.forEach(function(d){var KK=V.konular.filter(function(x){return x.ders===d&&(x.ozet||[]).length});if(!KK.length)return;
   if(!adi)h+='<h2>'+e(d)+'</h2>';
   KK.forEach(function(x){h+='<h3 class="ozet-bas"><a href="#s='+e(S.id)+'&k='+e(x.id)+'">'+e(x.ad)+'</a></h3><ol class="ozet">'+x.ozet.map(function(s){return'<li>'+e(s)+'</li>'}).join('')+'</ol>'})});
  M.innerHTML=h;scrollTo(0,0)}
 function kartSayfa(S,V,adi){var K=[];V.konular.forEach(function(x){if(!adi||x.ders===adi)(x.kartlar||[]).forEach(function(c){K.push(c)})});
- M.innerHTML='<div class="ust-etiket">'+e(S.ad)+'</div><h1>'+(adi?e(adi)+' kartları':'Karışık kartlar')+'</h1><p class="lead">'+K.length+' kart. Bilmediğin kart destenin sonuna eklenir.</p><div id="kart"></div>';
+ M.innerHTML=sayfaBas(S.ad,adi?e(adi)+' kartları':'Karışık kartlar',K.length+' kart. Bilmediğin kart destenin sonuna eklenir.')+'<div id="kart"></div>';
  if(K.length)kartlar(K);else $('#kart').innerHTML='<div class="bos-kutu">Kart yok.</div>'}
 
 function haritaSayfa(S,V){
  var H=V.harita,K={};V.konular.forEach(function(x){K[x.id]=x});
- var h='<div class="ust-etiket">'+e(S.ad)+'</div><h1>Konu haritası</h1><p class="lead">'+e(H.kaynak)+'</p><p class="kucukyazi"><span class="yildiz">★★★</span> sık soru gelen, <span class="yildiz">★★</span> düzenli gelen, <span class="yildiz">★</span> ara sıra gelen ünite.</p>';
+ var h=sayfaBas(S.ad,'Konu haritası',e(H.kaynak))+'<p class="kucukyazi"><span class="yildiz">★★★</span> sık soru gelen, <span class="yildiz">★★</span> düzenli gelen, <span class="yildiz">★</span> ara sıra gelen ünite.</p>';
  var top=0,enb=0;H.dersler.forEach(function(d){top+=d.soru;enb=Math.max(enb,d.soru)});
  H.dersler.forEach(function(d){h+='<div class="ders"><div class="bas"><span>'+e(d.ad)+'</span><span>'+d.soru+' soru · %'+Math.round(100*d.soru/top)+'</span></div><div class="cubuk"><i style="width:'+(100*d.soru/enb)+'%"></i></div><ul>';
   d.uniteler.forEach(function(u){var x=u.konu&&K[u.konu];
@@ -689,7 +731,8 @@ function kolaydanZora(L){var g={};karistir(L).forEach(function(q){(g[q.z||2]=g[q
 function denemelerSayfa(S,V){
  var D=V.deneme||{soru:60,dakika:90},G=oku()['dn.'+S.id]||[],A=oku()['a.'+S.id];
  function son(f){for(var i=G.length-1;i>=0;i--)if(f(G[i]))return G[i]}
- var h='<div class="ust-etiket">'+e(S.ad)+'</div><h1>Denemeler</h1><p class="lead">Gerçek sınav biçiminde: '+D.soru+' soru, '+D.dakika+' dakika. '+(D.yanlisGoturur?'Dört yanlış bir doğruyu götürür.':'Yanlışlar doğruları götürmez.')+' Süre sayacı, soru haritası, işaretleme ve cevap değiştirme var; sayfa kapansa da deneme kaldığı yerden sürer.</p>';
+ var ort=G.length?yuvarla(G.slice(-5).reduce(function(a,g){return a+net(g)},0)/Math.min(5,G.length)):'—';
+ var h=sayfaBas(S.ad,'Denemeler','Gerçek sınav biçiminde: '+D.soru+' soru, '+D.dakika+' dakika. '+(D.yanlisGoturur?'Dört yanlış bir doğruyu götürür.':'Yanlışlar doğruları götürmez.')+' Sayfa kapansa da deneme kaldığı yerden sürer.',[[V.denemeler.length,'tam deneme'],[G.length,'çözülen'],[ort,'son 5 ortalama']]);
  if(A)h+='<div class="dugmeler"><button class="btn" id="yarim">Yarım kalan denemeye dön · '+e(A.ad||'')+'</button></div>';
  if(V.denemeler.length){var biten=V.denemeler.filter(function(x){return son(function(r){return r.ref===x.id})}).length;
   h+='<h2>Tam denemeler <em>'+biten+' / '+V.denemeler.length+' çözüldü</em></h2><div class="dkartlar">';
@@ -733,9 +776,11 @@ function deneme(S,V,H){
   $('#birak').onclick=function(){guncelle(function(o){delete o['a.'+S.id]});H.basladi=1;deneme(S,V,H)};return}
  if(!A){var N=denemeKur(S,V,H);
   if(!N){M.innerHTML='<div class="bos-kutu">Bu deneme hazır değil.</div>';return}
-  M.innerHTML='<div class="ust-etiket">'+e(S.ad)+'</div><h1>'+e(N.ad)+'</h1><table class="kunye"><tr><th>Soru</th><td>'+N.s.length+'</td></tr><tr><th>Süre</th><td>'+N.dk+' dakika</td></tr><tr><th>Puanlama</th><td>'+(D.yanlisGoturur?'Dört yanlış bir doğruyu götürür.':'Yanlışlar doğruları götürmez; boş bırakmanın avantajı yok.')+'</td></tr></table>'+
+  var dd={};N.s.forEach(function(k){var q=soruBul(V,k),a=q&&q._konu.ders||'';dd[a]=(dd[a]||0)+1});
+  M.innerHTML=sayfaBas(S.ad,e(N.ad),D.yanlisGoturur?'Dört yanlış bir doğruyu götürür.':'Yanlışlar doğruları götürmez; boş bırakmanın avantajı yok.',[[N.s.length,'soru'],[N.dk,'dakika'],[Object.keys(dd).length,'ders']])+
+   '<h2>Ders dağılımı</h2><div class="konular">'+Object.keys(dd).map(function(a){return'<div class="satir"><span>'+e(a)+'</span><small>'+dd[a]+' soru</small></div>'}).join('')+'</div>'+
    '<p class="lead" style="margin-top:12px">Sorular arasında serbestçe geçebilir, cevabını değiştirebilir, emin olmadığın soruları işaretleyebilirsin. Süre bitince sınav kendiliğinden biter.</p>'+
-   '<div class="dugmeler"><button class="btn" id="basla">Sınavı başlat</button></div>';
+   '<div class="dugmeler adimdugme"><button class="btn" id="basla">Sınavı başlat ›</button></div>';
   $('#basla').onclick=function(){guncelle(function(o){o['a.'+S.id]=N});git('s='+S.id+'&t=deneme&devam=1')};return}
  var Q=A.s.map(function(k){return soruBul(V,k)}).filter(Boolean),i=A.n||0;
  if(!Q.length){guncelle(function(o){delete o['a.'+S.id]});return git('s='+S.id+'&t=denemeler')}
@@ -744,10 +789,11 @@ function deneme(S,V,H){
  var sa=$('#saat');sa.style.display='inline-block';clearInterval(saatGizle.i);
  function tik(){var k=(A.bit-Date.now())/1000;sa.textContent=saatYaz(k);sa.className=k<300?'az':'';if(k<=0){clearInterval(saatGizle.i);bitir(true)}}
  tik();saatGizle.i=setInterval(tik,1000);
- function ciz(){var q=Q[i],k=q._k,h='<div class="kitapcik"><span>'+e(A.ad)+'</span><span>'+Object.keys(A.c).length+' / '+Q.length+' cevaplı</span></div><div class="soru"><div class="ust"><span>'+e(q._konu.ders||'')+'</span><b>'+(i+1)+'. soru</b></div><div class="kok">'+e(q.s)+'</div>';
+ function ciz(){var q=Q[i],k=q._k,cv=Object.keys(A.c).length,h='<div class="kitapcik"><span>'+e(A.ad)+'</span><span>'+cv+' / '+Q.length+' cevaplı</span></div><div class="cubuk dncubuk"><i style="width:'+Math.round(100*cv/Q.length)+'%"></i></div><div class="soru"><div class="ust"><span>'+e(q._konu.ders||'')+'</span><b>'+(i+1)+'. soru</b></div><div class="kok">'+e(q.s)+'</div>';
   q.c.forEach(function(c,j){h+='<button class="sik'+(A.c[k]===j?' secili':'')+'" data-j="'+j+'"><i>'+HARF[j]+'</i><span>'+e(c)+'</span></button>'});
-  h+='<div class="dugmeler" style="margin-bottom:0"><button class="btn ik kucuk" id="onc"'+(i?'':' disabled')+'>‹ Önceki</button><button class="btn ik kucuk" id="isa">'+(A.i[k]?'İşareti kaldır':'İşaretle')+'</button>'+
-   (A.c[k]!=null?'<button class="btn ik kucuk" id="sil">Cevabı sil</button>':'')+'<button class="btn kucuk" id="son" style="margin-left:auto">'+(i+1<Q.length?'Sonraki ›':'Bitir')+'</button></div></div>';
+  h+='<div class="dugmeler" style="margin-bottom:0"><button class="btn ik kucuk" id="isa">'+(A.i[k]?'⚑ İşareti kaldır':'⚑ İşaretle')+'</button>'+
+   (A.c[k]!=null?'<button class="btn ik kucuk" id="sil">Cevabı sil</button>':'')+'</div></div>'+
+   '<div class="dugmeler denealt"><button class="btn ik" id="onc"'+(i?'':' disabled')+'>‹ Önceki</button><button class="btn" id="son">'+(i+1<Q.length?'Sonraki ›':'Bitir')+'</button></div>';
   h+='<div class="harita">'+Q.map(function(x,n){return'<button data-n="'+n+'" class="'+(A.c[x._k]!=null?'cevap ':'')+(A.i[x._k]?'isaret ':'')+(n===i?'simdi':'')+'">'+(n+1)+'</button>'}).join('')+'</div>'+
    '<div class="dugmeler"><button class="btn ik" id="bitir">Sınavı bitir</button></div>';
   M.innerHTML=h;
@@ -773,7 +819,7 @@ function sonuc(S,V,H){
  saatGizle();var G=oku()['dn.'+S.id]||[],R=G.filter(function(g){return String(g.t)===H.r})[0]||G[G.length-1];
  if(!R){M.innerHTML='<div class="bos-kutu">Henüz deneme çözmedin.</div>';return}
  var once=G.filter(function(g){return g.t<R.t&&(R.ref?g.ref===R.ref:g.tur===R.tur&&g.ad===R.ad)}).pop();
- var h='<div class="ust-etiket">'+e(S.ad)+' · '+gun(R.t)+'</div><h1>'+e(R.ad||'Deneme sonucu')+'</h1><div class="soru sonuc"><div class="buyuk">'+yuvarla(net(R))+'</div><p class="kucukyazi">'+(R.yg?'net (dört yanlış bir doğruyu götürür)':'ham puan = doğru sayısı')+(once?' · önceki: '+yuvarla(net(once)):'')+'</p>'+
+ var h='<div class="sbas"><div class="ust-etiket">'+e(S.ad)+' · '+gun(R.t)+'</div><h1>'+e(R.ad||'Deneme sonucu')+'</h1></div><div class="soru sonuc"><div class="buyuk">'+yuvarla(net(R))+'</div><p class="kucukyazi">'+(R.yg?'net (dört yanlış bir doğruyu götürür)':'ham puan = doğru sayısı')+(once?' · önceki: '+yuvarla(net(once)):'')+'</p>'+
   '<div class="sayilar"><div><b>'+R.dogru+'</b>doğru</div><div><b>'+R.yanlis+'</b>yanlış</div><div><b>'+R.bos+'</b>boş</div></div>'+
   '<p class="kucukyazi">'+R.n+' soru · süre '+saatYaz(R.sure)+' / '+R.dk+':00</p></div><h2>Ders ders</h2>';
  Object.keys(R.ders).forEach(function(d){var x=R.ders[d],p=Math.round(100*x[0]/x[1]);
@@ -792,7 +838,8 @@ function sonuc(S,V,H){
 function defterSayfa(S,V){
  var d=defter(S),K=Object.keys(d).filter(function(k){return soruBul(V,k)}),n=Date.now();
  K.sort(function(a,b){return d[a].t-d[b].t});
- var h='<div class="ust-etiket">'+e(S.ad)+'</div><h1>Yanlış defteri</h1><p class="lead">Yanlış yaptığın her soru buraya gelir ve 1, 3, 7, 15 ve 30 gün arayla yeniden sorulur. Beş tekrarda da doğru yaparsan defterden düşer; bir tekrarda yanlış yaparsan baştan başlar.</p>';
+ var bg0=K.filter(function(k){return d[k].t<=n}).length,h=sayfaBas(S.ad,'Yanlış defteri','Yanlış yaptığın her soru buraya gelir ve 1, 3, 7, 15 ve 30 gün arayla yeniden sorulur. Beş tekrarda da doğru yaparsan defterden düşer; bir tekrarda yanlış yaparsan baştan başlar.',
+  [[K.length,'soru defterde'],[bg0,'bugün tekrar'],[K.filter(function(k){return d[k].k>=2}).length,'ilerleyen']]);
  if(!K.length){M.innerHTML=h+'<div class="bos-kutu">Defterin boş. Test ve denemelerde yanlış yaptığın sorular burada birikecek.</div>';return}
  var bug=K.filter(function(k){return d[k].t<=n}).length;
  h+='<div class="dugmeler"><button class="btn" id="tek"'+(bug?'':' disabled')+'>Bugünküleri çöz<span class="say">'+bug+'</span></button><button class="btn ik" id="hep">Hepsini şimdi çöz<span class="say">'+K.length+'</span></button></div>';
@@ -825,14 +872,14 @@ function programKur(S,V,hafta){
  return gunler}
 function programSayfa(S,V,H){
  var o=oku(),P=o['pl.'+S.id];
- var h='<div class="ust-etiket">'+e(S.ad)+'</div><h1>Çalışma programı</h1>';
- if(!P||H.yeni){h+='<p class="lead">Kaç haftan var? Konular, ders ağırlığına ve sık çıkma derecesine göre günlere dağıtılır: haftada beş gün konu (anlatım, özet, test), bir gün deneme, bir gün dinlenme. Sık çıkan konular programın sonunda ikinci kez tekrar edilir.</p><div class="secim">'+
-   [4,6,8,12].map(function(n){return'<button data-h="'+n+'">'+n+' hafta</button>'}).join('')+'</div>';
+  var h='';
+ if(!P||H.yeni){h+=sayfaBas(S.ad,'Çalışma programı','Kaç haftan var? Konular, ders ağırlığına ve sık çıkma derecesine göre günlere dağıtılır: haftada beş gün konu (anlatım, özet, test), bir gün deneme, bir gün dinlenme. Sık çıkan konular programın sonunda ikinci kez tekrar edilir.')+'<h2>Süre seç</h2><div class="secim hafta">'+
+   [[4,'Yoğun','günde 3-4 konu'],[6,'Hızlı','günde 2-3 konu'],[8,'Dengeli','günde 2 konu'],[12,'Rahat','günde 1-2 konu']].map(function(n){return'<button data-h="'+n[0]+'"><b>'+n[0]+' hafta</b><span>'+n[1]+'</span><small>'+n[2]+'</small></button>'}).join('')+'</div>';
   M.innerHTML=h;[].forEach.call(M.querySelectorAll('[data-h]'),function(b){b.onclick=function(){var t=new Date();t.setHours(0,0,0,0);guncelle(function(o){o['pl.'+S.id]={bas:+t,hafta:+b.dataset.h}});if(H.yeni)git('s='+S.id+'&t=program');else programSayfa(S,V,{})}});return}
  var G=programKur(S,V,P.hafta),bugun=Math.floor((Date.now()-P.bas)/GUN),DN=o['dn.'+S.id]||[];
  function yapildi(x){if(x.tur==='konu'||x.tur==='tekrar')return o['p.'+S.id+'.'+x.x.id]!=null&&x.tur==='konu';if(x.tur==='deneme')return DN.some(function(r){return r.ref===x.d.id});return false}
  var bitenK=G.filter(function(x){return x.tur==='konu'&&yapildi(x)}).length,topK=G.filter(function(x){return x.tur==='konu'}).length;
- h+='<p class="lead">'+P.hafta+' haftalık program, '+gun(P.bas)+' başladı. Bugün '+(bugun+1)+'. gün. Konu testlerinden '+bitenK+' / '+topK+' tamam.</p><div class="dugmeler"><a class="btn ik kucuk" href="#s='+e(S.id)+'&t=program&yeni=1">Programı değiştir</a></div>';
+ h+=sayfaBas(S.ad,'Çalışma programı',P.hafta+' haftalık program, '+gun(P.bas)+' başladı.',[[(bugun+1)+'/'+G.length,'gün'],[bitenK+'/'+topK,'konu testi'],['%'+(topK?Math.round(100*bitenK/topK):0),'tamam']])+'<div class="dugmeler"><a class="btn ik kucuk" href="#s='+e(S.id)+'&t=program&yeni=1">Programı değiştir</a></div>';
  for(var w=0;w*7<G.length;w++){h+='<h2>'+(w+1)+'. hafta</h2><div class="konular">';
   for(var g=w*7;g<Math.min(G.length,w*7+7);g++){var x=G[g],cl=(g===bugun?' bugun':'')+(yapildi(x)?' bitti':''),t,a='',m='';
    if(x.tur==='konu'){t=x.x.ad;m=x.x.ders;a='#s='+S.id+'&k='+x.x.id}
