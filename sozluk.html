@@ -109,7 +109,7 @@ body.t-en .hrf button{font:700 17px Lora,serif}
 <div class="sr"><input id="q" type="search" autocomplete="off" autocapitalize="off" spellcheck="false"><button id="git">Ara</button></div></div>
 <main id="m"></main>
 <footer id="kay"></footer>
-<script src="arkok.js?v=2"></script><script src="beyit.js?v=11"></script>
+<script src="arkok.js?v=2"></script><script src="beyit.js?v=12"></script>
 <script>
 var M=document.getElementById('m'),Q=document.getElementById('q'),P=new URLSearchParams(location.search),D=P.get('dil')||'ar',G={},KEYS={},ORN={},HZ={},KOK=null;
 var T={
@@ -148,7 +148,7 @@ function kokler(n,d){var c=[n];if(d==='ar'&&window.arAday)return c.concat(arAday
 function hz(w){return w.replace(/[ءؤئ]/g,'ا').replace(/ة/g,'ه').replace(/ي/g,'ی').replace(/ى/g,'ی')}
 function J(u){return fetch(u).then(function(r){if(!r.ok)throw 0;return r.json()})}
 var HR={};function hw(k){return HR[k]||k}
-function yukle(d){if(KEYS[d])return Promise.resolve();if(d==='ar')J('data/roman/hareke_ar.json?v=1').then(function(h){HR=h;if(M.querySelector('[data-hw]'))[].forEach.call(M.querySelectorAll('[data-hw]'),function(e){e.textContent=hw(e.dataset.hw)})}).catch(function(){});return J('data/roman/sozluk_'+d+'.json?v=10').then(function(g){
+function yukle(d){if(KEYS[d])return Promise.resolve();if(d==='ar')J('data/roman/hareke_ar.json?v=1').then(function(h){HR=h;if(M.querySelector('[data-hw]'))[].forEach.call(M.querySelectorAll('[data-hw]'),function(e){e.textContent=hw(e.dataset.hw)})}).catch(function(){});return J('data/roman/sozluk_'+d+'.json?v=11').then(function(g){
  var o={};for(var k in g){var n=norm(k,d);if(!(n in o))o[n]=[k,g[k]]}G[d]=o;KEYS[d]=Object.keys(o).sort();HZ[d]={};for(var n2 in o){var z=hz(n2);if(!HZ[d][z])HZ[d][z]=n2}})}
 function ornAl(){if(ORN[D])return Promise.resolve(ORN[D]);return J('data/roman/ornek_'+D+'.json?v=1').then(function(x){return ORN[D]=x}).catch(function(){return ORN[D]={k:[],s:[],w:{}}})}
 function kokAl(){if(KOK)return Promise.resolve(KOK);return J('data/roman/kok_ar.json?v=2').then(function(k){return KOK=k}).catch(function(){return KOK={}})}

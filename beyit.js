@@ -5,7 +5,7 @@ var BY=(function(){
  function nr(w){return (w||'').replace(/[«»،.؟!:؛()\-"\[\]]/g,'').replace(HR,'').replace(/[إأآٱ]/g,'ا').replace(/ى/g,'ي').trim()}
  function nf(w){return (w||'').replace(/[«»،.؟!:؛()\-"\[\]]/g,'').replace(HR,'').replace(/ي/g,'ی').replace(/ك/g,'ک').replace(/‌/g,'').trim()}
  function yukle(d){d=d||'ar';if(D[d])return Promise.resolve(D[d]);if(P[d])return P[d];
-  P[d]=fetch('data/roman/beyit_'+d+'.json?v=11').then(function(r){return r.json()}).then(function(x){return D[d]=x}).catch(function(){P[d]=null;return null});return P[d]}
+  P[d]=fetch('data/roman/beyit_'+d+'.json?v=12').then(function(r){return r.json()}).then(function(x){return D[d]=x}).catch(function(){P[d]=null;return null});return P[d]}
  function adaylar(n,d){var c=[n];if(d==='fa'){[/(هایی|های|ها|ان|ی)$/,/^(نمی|می|ب)/].forEach(function(re){var r=n.replace(re,'');if(r!==n&&r.length>=2)c.push(r)});return c}
   ['وال','بال','فال','كال','لل','ال','و','ف','ب','ل','ك','س'].forEach(function(p){if(n.indexOf(p)===0&&n.length-p.length>=3){var r=n.slice(p.length);c.push(r,'ال'+r)}});
   var t=n.replace(/^(وال|بال|فال|ال|و|ف|ب)/,'');['هما','هم','هن','ها','كم','نا','ني','ه','ك','ي','ون','ين','ات','ان','ة','ا'].forEach(function(s){if(t.length-s.length>=3&&t.slice(-s.length)===s)c.push(t.slice(0,-s.length),'ال'+t.slice(0,-s.length))});return c}
