@@ -3,7 +3,7 @@
 # Bir konu, "sinavlar" alanında adı geçen her sınava bağlanır. Sıralama: haritadaki ders sırası, sonra dosya numarası.
 import json,glob,os,collections,re
 R=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','data','kadem')
-SIRA=['Kur’an Bilgisi','Tefsir','Akaid ve Kelam','Fıkıh ve İlmihal','Hadis','Siyer ve İslam Tarihi','İslam Ahlakı','Mezhepler Tarihi','Dinler Tarihi','Din Hizmetleri ve Hitabet','Mevzuat']
+SIRA=['Arapça','Kur’an Bilgisi','Tefsir','Akaid ve Kelam','Fıkıh ve İlmihal','Hadis','Siyer ve İslam Tarihi','İslam Ahlakı','Mezhepler Tarihi','Dinler Tarihi','Din Hizmetleri ve Hitabet','Yurt Dışı Din Hizmetleri','Mevzuat','Türkçe','Genel Kültür']
 ids=set();toplam=0;KONU={}
 def soru_kontrol(f,q):
     global toplam

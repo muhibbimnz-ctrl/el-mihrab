@@ -1,0 +1,61 @@
+{
+ "surum": "2026-11-26",
+ "deneme": {
+  "soru": 30,
+  "dakika": 45,
+  "yanlisGoturur": false
+ },
+ "harita": {
+  "kaynak": "Arapça; yüksek ihtisas (80 sorunun 24’ü), ilçe müftülüğü ve il müftü yardımcılığı sözlüsü (30 puan), müfettiş yardımcılığı yazılısı ve vaizlik sınavlarının ortak dersidir. Deneme 30 soru, 45 dakika olarak kurgulanmıştır.",
+  "dersler": [
+   {
+    "ad": "Arapça",
+    "soru": 30,
+    "uniteler": [
+     {
+      "ad": "Sarf I: Kelime Türleri, Kök ve Vezin, Sülâsî Mücerred ve Mezîd Bâbları",
+      "oncelik": 3,
+      "konu": "arapca-1"
+     },
+     {
+      "ad": "Sarf II: Aksâm-ı Seb‘a, Fiil Çekimleri, Malûm–Meçhul ve İ‘lâl",
+      "oncelik": 3,
+      "konu": "arapca-2"
+     },
+     {
+      "ad": "Sarf III: İsimler – Mastar, Müştak İsimler, Maksûr–Mankûs–Memdûd, Tesniye ve Cemi, Gayr-i Munsarif",
+      "oncelik": 3,
+      "konu": "arapca-3"
+     },
+     {
+      "ad": "Nahiv I: Cümle, İ‘rab, Mübteda–Haber, Fâil–Nâib-i Fâil, Kâne ve İnne Grupları",
+      "oncelik": 3,
+      "konu": "arapca-4"
+     },
+     {
+      "ad": "Nahiv II: Mansûbât (Mef‘ûller, Hâl, Temyiz, İstisna, Münâdâ), İzafet, Tâbiler ve Edatlar (mâ, lâ, lev)",
+      "oncelik": 3,
+      "konu": "arapca-5"
+     }
+    ]
+   }
+  ]
+ },
+ "konular": [
+  {
+   "ref": "arapca-1"
+  },
+  {
+   "ref": "arapca-2"
+  },
+  {
+   "ref": "arapca-3"
+  },
+  {
+   "ref": "arapca-4"
+  },
+  {
+   "ref": "arapca-5"
+  }
+ ]
+}

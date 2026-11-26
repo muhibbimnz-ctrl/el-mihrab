@@ -9,7 +9,7 @@ RK=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','data','kad
 H=json.load(open(f'{RK}/{sid}.json'))
 hedef=[(x['ad'],x['soru']) for x in H['harita']['dersler']]
 if sid=='mbsts':hedef=[('Kur’an Bilgisi',7),('Tefsir',7),('Akaid ve Kelam',7),('Fıkıh ve İlmihal',20),('Hadis',7),('Siyer ve İslam Tarihi',7),('Mezhepler Tarihi',3),('Dinler Tarihi',2)]
-N=sum(k for _,k in hedef);on={'mbsts':'md','dhbt':'dh','mevzuat':'mvd'}.get(sid,sid[:2])
+N=sum(k for _,k in hedef);on={'mbsts':'md','dhbt':'dh','mevzuat':'mvd','ihtisas':'ihd','murakip':'mrd','yurtdisi':'ydd','mufettis':'mfd','arapca':'ard'}.get(sid,sid[:3]+'d')
 S=[];ders=None;q=None
 for ln in open(src,encoding='utf-8'):
     ln=ln.rstrip('\n')

@@ -2,6 +2,21 @@
  "surum": "2026-11-25",
  "konular": [
   {
+   "ref": "arapca-1"
+  },
+  {
+   "ref": "arapca-2"
+  },
+  {
+   "ref": "arapca-3"
+  },
+  {
+   "ref": "arapca-4"
+  },
+  {
+   "ref": "arapca-5"
+  },
+  {
    "ref": "kuran-1"
   },
   {
@@ -66,42 +81,6 @@
   },
   {
    "ref": "tefsir-9"
-  },
-  {
-   "ref": "kelam-1"
-  },
-  {
-   "ref": "kelam-2"
-  },
-  {
-   "ref": "kelam-3"
-  },
-  {
-   "ref": "kelam-4"
-  },
-  {
-   "ref": "kelam-5"
-  },
-  {
-   "ref": "kelam-6"
-  },
-  {
-   "ref": "kelam-7"
-  },
-  {
-   "ref": "kelam-8"
-  },
-  {
-   "ref": "kelam-9"
-  },
-  {
-   "ref": "kelam-10"
-  },
-  {
-   "ref": "kelam-11"
-  },
-  {
-   "ref": "kelam-12"
   },
   {
    "ref": "fikih-1"
@@ -200,6 +179,42 @@
    "ref": "hadis-10"
   },
   {
+   "ref": "kelam-1"
+  },
+  {
+   "ref": "kelam-2"
+  },
+  {
+   "ref": "kelam-3"
+  },
+  {
+   "ref": "kelam-4"
+  },
+  {
+   "ref": "kelam-5"
+  },
+  {
+   "ref": "kelam-6"
+  },
+  {
+   "ref": "kelam-7"
+  },
+  {
+   "ref": "kelam-8"
+  },
+  {
+   "ref": "kelam-9"
+  },
+  {
+   "ref": "kelam-10"
+  },
+  {
+   "ref": "kelam-11"
+  },
+  {
+   "ref": "kelam-12"
+  },
+  {
    "ref": "siyer-1"
   },
   {
@@ -248,39 +263,6 @@
    "ref": "siyer-16"
   },
   {
-   "ref": "ahlak-1"
-  },
-  {
-   "ref": "mezhep-1"
-  },
-  {
-   "ref": "mezhep-2"
-  },
-  {
-   "ref": "mezhep-3"
-  },
-  {
-   "ref": "mezhep-4"
-  },
-  {
-   "ref": "mezhep-5"
-  },
-  {
-   "ref": "mezhep-6"
-  },
-  {
-   "ref": "mezhep-7"
-  },
-  {
-   "ref": "mezhep-8"
-  },
-  {
-   "ref": "mezhep-9"
-  },
-  {
-   "ref": "mezhep-10"
-  },
-  {
    "ref": "dinler-1"
   },
   {
@@ -311,7 +293,597 @@
    "ref": "dinler-10"
   },
   {
+   "ref": "mevzuat-1"
+  },
+  {
+   "ref": "ahlak-1"
+  },
+  {
    "ref": "hitabet-1"
+  },
+  {
+   "ref": "mezhep-1"
+  },
+  {
+   "ref": "mezhep-2"
+  },
+  {
+   "ref": "mezhep-3"
+  },
+  {
+   "ref": "mezhep-4"
+  },
+  {
+   "ref": "mezhep-5"
+  },
+  {
+   "ref": "mezhep-6"
+  },
+  {
+   "ref": "mezhep-7"
+  },
+  {
+   "ref": "mezhep-8"
+  },
+  {
+   "ref": "mezhep-9"
+  },
+  {
+   "ref": "mezhep-10"
   }
- ]
+ ],
+ "deneme": {
+  "soru": 80,
+  "dakika": 120,
+  "yanlisGoturur": false
+ },
+ "harita": {
+  "kaynak": "Diyanet Akademisi Yüksek İhtisas Eğitimi Kursiyer Seçim Sınavı 2026 (A kitapçığı): 80 soru, 120 dakika, yanlış doğruyu götürmez. Soru sırası: Arapça (sarf-nahiv) 1-24, Fıkıh 25-42, Kur’an ilimleri ve tefsir 43-53, Hadis 54-65, Kelam ve tasavvuf 66-74, İslam tarihi 75-77, Dinler 78, genel kültür 79, mevzuat 80. Haritadaki sayılar bu dağılıma göredir.",
+  "dersler": [
+   {
+    "ad": "Arapça",
+    "soru": 24,
+    "uniteler": [
+     {
+      "ad": "Sarf I: Kelime Türleri, Kök ve Vezin, Sülâsî Mücerred ve Mezîd Bâbları",
+      "oncelik": 3,
+      "konu": "arapca-1"
+     },
+     {
+      "ad": "Sarf II: Aksâm-ı Seb‘a, Fiil Çekimleri, Malûm–Meçhul ve İ‘lâl",
+      "oncelik": 3,
+      "konu": "arapca-2"
+     },
+     {
+      "ad": "Sarf III: İsimler – Mastar, Müştak İsimler, Maksûr–Mankûs–Memdûd, Tesniye ve Cemi, Gayr-i Munsarif",
+      "oncelik": 3,
+      "konu": "arapca-3"
+     },
+     {
+      "ad": "Nahiv I: Cümle, İ‘rab, Mübteda–Haber, Fâil–Nâib-i Fâil, Kâne ve İnne Grupları",
+      "oncelik": 3,
+      "konu": "arapca-4"
+     },
+     {
+      "ad": "Nahiv II: Mansûbât (Mef‘ûller, Hâl, Temyiz, İstisna, Münâdâ), İzafet, Tâbiler ve Edatlar (mâ, lâ, lev)",
+      "oncelik": 3,
+      "konu": "arapca-5"
+     }
+    ]
+   },
+   {
+    "ad": "Kur’an Bilgisi",
+    "soru": 4,
+    "uniteler": [
+     {
+      "ad": "Vahiy: Anlamı, Çeşitleri, Geliş Şekilleri, İlk ve Son Vahiy, Fetret",
+      "oncelik": 3,
+      "konu": "kuran-1"
+     },
+     {
+      "ad": "Nüzul: İnzâl-Tenzîl, Tedricî Nüzul, Mekkî-Medenî, Nüzul Zamanı ve Yeri",
+      "oncelik": 3,
+      "konu": "kuran-2"
+     },
+     {
+      "ad": "Kur’an’ın Yazılması: Vahiy Kâtipleri ve Hz. Peygamber Dönemi",
+      "oncelik": 2,
+      "konu": "kuran-3"
+     },
+     {
+      "ad": "Cem‘ ve İstinsah: Hz. Ebû Bekir ve Hz. Osman Dönemleri, Resm-i Osmânî, Nokta ve Hareke",
+      "oncelik": 3,
+      "konu": "kuran-4"
+     },
+     {
+      "ad": "Kur’an’ın Yapısı: Sure, Ayet, Cüz, Hizb; Sure Adları ve Grupları; Tertip; Fevâsıl; Sayılar",
+      "oncelik": 3,
+      "konu": "kuran-5"
+     },
+     {
+      "ad": "Kur’an’ın İsimleri ve Sıfatları; Ana Konuları, Temel Kavramları ve Meal Bilgisi",
+      "oncelik": 3,
+      "konu": "kuran-6"
+     },
+     {
+      "ad": "Kıraat İlmi: Yedi Harf, Kıraat İmamları ve Râvileri, Sahih Kıraatin Şartları, Kıraat Eserleri",
+      "oncelik": 3,
+      "konu": "kuran-7"
+     },
+     {
+      "ad": "İ’câz ve Tehaddî; Kur’an’ın Üslubu: Kasas, Emsâl, Aksâm, Cedel, Tekrar, İcmâl-Tafsîl",
+      "oncelik": 3,
+      "konu": "kuran-8"
+     },
+     {
+      "ad": "Kur’an Tercümeleri ve Meal Tarihi",
+      "oncelik": 2,
+      "konu": "kuran-9"
+     },
+     {
+      "ad": "Tecvid 1: Tecvidin Tanımı ve Hükmü, Lahn, Okuyuş Mertebeleri, Mahreçler, Harflerin Sıfatları, Kalın ve İnce Harfler",
+      "oncelik": 3,
+      "konu": "kuran-10"
+     },
+     {
+      "ad": "Tecvid 2: Sakin Nun ve Tenvin, Sakin Mim, İdgam Çeşitleri, Gunne",
+      "oncelik": 3,
+      "konu": "kuran-11"
+     },
+     {
+      "ad": "Tecvid 3: Medler (Bütün Çeşitleri)",
+      "oncelik": 3,
+      "konu": "kuran-12"
+     },
+     {
+      "ad": "Tecvid 4: Ra, Lafzatullah, Kalkale, Vakıf ve İbtidâ, Sekte, Revm-İşmâm, Secde Ayetleri, Hafs’ın Farklı Okuyuşları",
+      "oncelik": 3,
+      "konu": "kuran-13"
+     }
+    ]
+   },
+   {
+    "ad": "Tefsir",
+    "soru": 7,
+    "uniteler": [
+     {
+      "ad": "Tefsir ve Te’vil; Tefsir Usulünün Temel Kavramları, Müfessirin Şartları ve Tefsirin Kaynakları",
+      "oncelik": 3,
+      "konu": "tefsir-1"
+     },
+     {
+      "ad": "Esbâb-ı Nüzûl; Nâsih ve Mensûh",
+      "oncelik": 3,
+      "konu": "tefsir-2"
+     },
+     {
+      "ad": "Muhkem ve Müteşâbih, Müşkilü’l-Kur’ân, Mübhemât, Garîbü’l-Kur’ân, Vücûh ve Nezâir",
+      "oncelik": 3,
+      "konu": "tefsir-3"
+     },
+     {
+      "ad": "Lafız Bahisleri: Âm-Hâs, Mutlak-Mukayyed, Hakikat-Mecaz, Emir-Nehiy, Müşterek, Mücmel-Mübeyyen ve Delalet Yolları",
+      "oncelik": 2,
+      "konu": "tefsir-4"
+     },
+     {
+      "ad": "Tefsirin Doğuşu: Hz. Peygamber, Sahabe ve Tâbiûn Dönemlerinde Tefsir; Mekke, Medine ve Irak Ekolleri",
+      "oncelik": 3,
+      "konu": "tefsir-5"
+     },
+     {
+      "ad": "Tedvin Dönemi ve Tefsirin Kitaplaşması; Rivayet (Me’sûr) ve Dirayet (Re’y) Tefsiri; Temel Eserler",
+      "oncelik": 3,
+      "konu": "tefsir-6"
+     },
+     {
+      "ad": "Yönelimlerine Göre Tefsirler: Kelamî (Mezhebî), Fıkhî, İşârî ve Bâtınî Tefsirler; İsrâiliyat",
+      "oncelik": 3,
+      "konu": "tefsir-7"
+     },
+     {
+      "ad": "Modern Dönemde Tefsir (İçtimaî, İlmî, Edebî, Konulu Tefsir, Nüzul Sırasına Göre Tefsir, Tarihselcilik); Osmanlı ve Türkiye’de Tefsir",
+      "oncelik": 3,
+      "konu": "tefsir-8"
+     },
+     {
+      "ad": "Seçme Sure ve Ayetlerin Tefsiri: Fâtiha, Âyetü’l-kürsî, Âmener-rasûlü, İsrâ 23-39, Lokmân’ın Öğütleri, Mü’minûn, Furkân, Hucurât ve Kısa Sureler",
+      "oncelik": 2,
+      "konu": "tefsir-9"
+     }
+    ]
+   },
+   {
+    "ad": "Fıkıh ve İlmihal",
+    "soru": 18,
+    "uniteler": [
+     {
+      "ad": "Fıkıh Usulü 1: Şer’î Hüküm (Teklifî ve Vaz’î), Hâkim, Mahkûmün Fîh ve Ehliyet",
+      "oncelik": 3,
+      "konu": "fikih-1"
+     },
+     {
+      "ad": "Fıkıh Usulü 2: Şer’î Deliller (Kitap, Sünnet, İcmâ, Kıyas, İstihsan, Maslahat, Örf, İstishâb, Sedd-i Zerâi’, Şer’u Men Kablenâ, Kavl-i Sahâbî, Medine Ameli)",
+      "oncelik": 3,
+      "konu": "fikih-2"
+     },
+     {
+      "ad": "Fıkıh Usulü 3: Lafız Bahisleri (Hâs, Âm, Müşterek, Müevvel; Açıklık ve Kapalılık Dereceleri; Delâlet Türleri; Mefhûm-ı Muhâlefet), İçtihat ve Taklit, Teâruz ve Tercih, Nesih",
+      "oncelik": 3,
+      "konu": "fikih-3"
+     },
+     {
+      "ad": "Fıkıh Tarihi, Mezhepler ve Fıkıh Literatürü (Dönemler; Hanefî Zâhirü’r-Rivâye Kitapları, Mebsût, Bedâi’, Hidâye, Kudûrî, Mecelle; Tabakat ve Fetva Usulü)",
+      "oncelik": 3,
+      "konu": "fikih-4"
+     },
+     {
+      "ad": "Fıkıh Kaideleri (Kavâid-i Külliyye) ve Şer’î Hükümlerin Amaçları (Makâsıdü’ş-Şerîa): Beş Büyük Kaide, Mecelle Kaideleri, Zarûriyyât-Hâciyyât-Tahsîniyyât",
+      "oncelik": 2,
+      "konu": "fikih-5"
+     },
+     {
+      "ad": "Taharet 1: Sular ve Hükümleri, Artıklar, Necâset (Galîza-Hafîfe) ve Temizleme Yolları, İstincâ; Hayız, Nifas, İstihâze ve Özür Hâli",
+      "oncelik": 3,
+      "konu": "fikih-6"
+     },
+     {
+      "ad": "Taharet 2: Abdest (Farzları, Sünnetleri, Bozan Şeyler), Gusül, Teyemmüm, Mest ve Sargı Üzerine Mesh; Mezhepler Arası Farklar",
+      "oncelik": 3,
+      "konu": "fikih-7"
+     },
+     {
+      "ad": "Namaz 1: Farziyeti ve Vakitleri, Kerahat Vakitleri, Ezan ve Kamet; Namazın Şartları ve Rükünleri, Vacipleri, Sünnetleri, Mekruhları ve Namazı Bozan Şeyler",
+      "oncelik": 3,
+      "konu": "fikih-8"
+     },
+     {
+      "ad": "Namaz 2: Sehiv, Tilâvet ve Şükür Secdeleri; Kaza Namazları ve Tertip; Cemaat ve İmamet (Mesbûk, Lâhik); Vitir, Teravih ve Nafile Namazlar",
+      "oncelik": 3,
+      "konu": "fikih-9"
+     },
+     {
+      "ad": "Namaz 3: Cuma ve Bayram Namazları, Teşrik Tekbirleri; Yolculuk (Seferîlik) ve Vatan Çeşitleri; Hasta ve Korku Namazı; Cenaze İşlemleri ve Namazı",
+      "oncelik": 3,
+      "konu": "fikih-10"
+     },
+     {
+      "ad": "Oruç ve İtikâf: Orucun Farziyeti ve Çeşitleri, Niyet Vakitleri, Orucu Bozan ve Bozmayan Durumlar (Kaza ve Keffâret), Ruhsatlar ve Fidye, Sahur-İftar, İtikâf ve Kadir Gecesi",
+      "oncelik": 3,
+      "konu": "fikih-11"
+     },
+     {
+      "ad": "Zekât: Şartlar, Mal Türleri ve Nisaplar, Verilecek ve Verilmeyecek Yerler; Öşür, Fıtır Sadakası ve Sadakalar",
+      "oncelik": 3,
+      "konu": "fikih-12"
+     },
+     {
+      "ad": "Hac ve Umre: Çeşitleri, Farzları, Vacipleri ve Sünnetleri; İhram Yasakları ve Cezaları, Mîkatlar",
+      "oncelik": 3,
+      "konu": "fikih-13"
+     },
+     {
+      "ad": "Kurban, Adak, Yemin ve Keffâretler (Yemin Türleri; Yemin, Oruç, Zıhar ve Katl Keffâretleri)",
+      "oncelik": 3,
+      "konu": "fikih-14"
+     },
+     {
+      "ad": "Helal ve Haram: Yiyecek ve İçecekler, Kesim (Zekât) ve Av; Giyim, Kılık ve Süslenme",
+      "oncelik": 2,
+      "konu": "fikih-15"
+     },
+     {
+      "ad": "Aile Hukuku 1: Nikâh (Hükmü, Rüknü ve Şartları, Şahitler, Velâyet ve Kefâet), Mehir, Evlenme Engelleri (Sürekli ve Geçici), Nikâh Çeşitleri",
+      "oncelik": 3,
+      "konu": "fikih-16"
+     },
+     {
+      "ad": "Aile Hukuku 2: Talak (Ric’î, Bâin), Hul’ ve Tefvîz, Tefrik (Lian, İlâ, Zıhar), İddet, Nafaka, Nesep ve Hidâne (Çocuğun Bakımı)",
+      "oncelik": 3,
+      "konu": "fikih-17"
+     },
+     {
+      "ad": "Miras Hukuku (Ferâiz) ve Vasiyet: Terekeden Önce Ödenenler, Mirasçılık Sebepleri ve Engelleri, Ashâbü’l-Ferâiz ve Asabe, Hacb, Avl ve Redd, Zevi’l-Erhâm; Vasiyetin Hükümleri",
+      "oncelik": 3,
+      "konu": "fikih-18"
+     },
+     {
+      "ad": "Muamelat 1: Mal ve Mülkiyet, Akit Teorisi (Rükün, Unsurlar, Sahih-Fâsit-Bâtıl, Muhayyerlikler), Alım-Satım Çeşitleri (Murâbaha, Selem, İstisnâ), Ribâ (Faiz) ve Garar",
+      "oncelik": 3,
+      "konu": "fikih-19"
+     },
+     {
+      "ad": "Muamelat 2: İcâre (Kira), Şirketler (İnân, Mufâvaza, Mudârebe, Müzâraa), Karz, Âriyet, Vedîa, Hibe, Rehin, Kefalet, Havale, Vekâlet, Şuf’a, Vakıf; Gasp ve İtlaf",
+      "oncelik": 2,
+      "konu": "fikih-20"
+     },
+     {
+      "ad": "İslam Ceza Hukuku: Suç ve Ceza Ehliyeti; Had Cezaları (Zina, Kazf, Hırsızlık, Şarap, Hırâbe); Kısas ve Diyet (Kasıt, Şibh-i Amd, Hata; Âkıle); Ta’zir; Şüphe ile Haddin Düşmesi",
+      "oncelik": 2,
+      "konu": "fikih-21"
+     },
+     {
+      "ad": "Yargılama Hukuku ve İspat Vasıtaları (İkrar, Şahitlik, Yemin, Karine); Kadı ve Müftü; Devlet (İmamet, Şûrâ, Biat); Milletlerarası Hukuk (Siyer): Dârü’l-İslâm-Dârü’l-Harb, Eman, Zimmet ve Antlaşmalar",
+      "oncelik": 2,
+      "konu": "fikih-22"
+     }
+    ]
+   },
+   {
+    "ad": "Hadis",
+    "soru": 12,
+    "uniteler": [
+     {
+      "ad": "Hadis ve Sünnet Kavramları (Haber, Eser, Sünnetin Türleri); Sünnetin Dindeki Yeri ve Bağlayıcılığı",
+      "oncelik": 3,
+      "konu": "hadis-1"
+     },
+     {
+      "ad": "Hadis Usulüne Giriş: Temel Terimler (İsnad, Sened, Metin, Râvi, Muhaddis, Hâfız, Hüccet, Emîrü’l-Mü’minîn fi’l-Hadîs)",
+      "oncelik": 3,
+      "konu": "hadis-2"
+     },
+     {
+      "ad": "Hadis Çeşitleri 1: Râvi Sayısına Göre (Mütevâtir Lafzî-Manevî; Âhâd: Meşhur, Azîz, Garîb/Ferd)",
+      "oncelik": 3,
+      "konu": "hadis-3"
+     },
+     {
+      "ad": "Hadis Çeşitleri 2: Kabul ve Ret Bakımından (Sahih, Hasen, Zayıf ve Türleri: Muallel, Şâz, Münker, Muzdarib, Maklûb, Müdrec, Müdelles, Metrûk; Mevzû)",
+      "oncelik": 3,
+      "konu": "hadis-4"
+     },
+     {
+      "ad": "Hadis Çeşitleri 3: Kaynağına ve Senedine Göre (Merfû, Mevkûf, Maktû, Kudsî; Mürsel, Munkatı, Mu’dal, Muallak; Müsned, Muttasıl, Âlî-Nâzil)",
+      "oncelik": 3,
+      "konu": "hadis-5"
+     },
+     {
+      "ad": "Cerh ve Ta’dil, Ricâl İlmi (Adalet, Zabt, Sahabenin Adaleti, Mertebeler); Hadis Öğrenme ve Aktarma Yolları (Semâ’, Kıraat, İcâze, Münâvele, Mükâtebe, İ’lâm, Vasiyye, Vicâde)",
+      "oncelik": 3,
+      "konu": "hadis-6"
+     },
+     {
+      "ad": "Hadis Tarihi 1: Hz. Peygamber ve Sahabe Döneminde Hadis (Yazım Yasağı ve İzni, Sahifeler, Rivayette Titizlik, Rıhle); Uydurma Hadisler: Sebepleri, Alametleri ve Mevzûât Kitapları",
+      "oncelik": 3,
+      "konu": "hadis-7"
+     },
+     {
+      "ad": "Hadis Tarihi 2: Tedvin ve Tasnif (Ömer b. Abdülazîz, Zührî, İlk Musannifler); Eser Türleri (Musannef, Muvatta’, Müsned, Câmi‘, Sünen, Sahîh); Kütüb-i Sitte",
+      "oncelik": 3,
+      "konu": "hadis-8"
+     },
+     {
+      "ad": "Hadis Edebiyatı: Şerh, Erbaîn, Zevâid, Etrâf, Cem‘, Müstedrek, Müstahrec, Mu’cem, Garîbü’l-hadîs, Tahrîc, Ahkâm ve Tergîb Kitapları; Osmanlı’da ve Türkiye’de Hadis Çalışmaları",
+      "oncelik": 2,
+      "konu": "hadis-9"
+     },
+     {
+      "ad": "Hadisleri Anlama ve Yorumlama İlkeleri (Kur’an ve Sünnet Bütünlüğü, Sebeb-i Vürûd, Bağlam, Hz. Peygamber’in Konumları, Muhtelifü’l-hadîs ve Nâsih-Mensûh); Seçme Hadisler",
+      "oncelik": 3,
+      "konu": "hadis-10"
+     }
+    ]
+   },
+   {
+    "ad": "Akaid ve Kelam",
+    "soru": 9,
+    "uniteler": [
+     {
+      "ad": "Kelamın Tanımı, Adları, Konusu, Doğuşu ve Gelişimi; Bilgi Teorisi (Duyular, Akıl, Haber-i Sâdık)",
+      "oncelik": 3,
+      "konu": "kelam-1"
+     },
+     {
+      "ad": "Allah’ın Varlığının ve Birliğinin Delilleri",
+      "oncelik": 3,
+      "konu": "kelam-2"
+     },
+     {
+      "ad": "Allah’ın İsimleri ve Sıfatları (Zâtî, Sübûtî, Haberî, Fiilî); Tenzih ve Teşbih",
+      "oncelik": 3,
+      "konu": "kelam-3"
+     },
+     {
+      "ad": "Nübüvvet: Peygamberliğin Gerekliliği, Peygamberlerin Sıfatları, Mûcize ve Diğer Olağanüstü Hâller, Kur’an’da Adı Geçen Peygamberler",
+      "oncelik": 3,
+      "konu": "kelam-4"
+     },
+     {
+      "ad": "Meleklere İman; Cin ve Şeytan: Gaybî Varlıkların Mahiyeti, Özellikleri ve Görevleri",
+      "oncelik": 2,
+      "konu": "kelam-5"
+     },
+     {
+      "ad": "Kitaplara İman: Vahiy ve İlahî Kitaplar (Suhuf, Tevrat, Zebur, İncil, Kur’an), Tahrif, Kur’an’ın Konumu; Kelâm Sıfatı ve Halku’l-Kur’ân Tartışması",
+      "oncelik": 2,
+      "konu": "kelam-6"
+     },
+     {
+      "ad": "Ahiret 1: Ölüm, Berzah (Kabir Hayatı), Kıyamet ve Alametleri",
+      "oncelik": 3,
+      "konu": "kelam-7"
+     },
+     {
+      "ad": "Ahiret 2: Ba’s, Haşr, Hesap, Mîzân, Sırat, Şefaat, Havz, A’râf, Cennet ve Cehennem, Rü’yetullah",
+      "oncelik": 3,
+      "konu": "kelam-8"
+     },
+     {
+      "ad": "Kader ve Kaza; İnsan Fiilleri, İrade (Cüz’î-Küllî), Kesb; Hayır-Şer; Ecel, Rızık, Tevekkül, Hidayet-Dalalet",
+      "oncelik": 3,
+      "konu": "kelam-9"
+     },
+     {
+      "ad": "İman ve İslam; İman-Amel İlişkisi; Büyük Günah ve Tekfir; İmanın Artıp Eksilmesi; Taklidî-Tahkikî İman, İmanda İstisna",
+      "oncelik": 3,
+      "konu": "kelam-10"
+     },
+     {
+      "ad": "Kelam Ekolleri ve Görüş Farkları: Mu’tezile, Eş’arîlik, Mâtürîdîlik, Selefiyye",
+      "oncelik": 3,
+      "konu": "kelam-11"
+     },
+     {
+      "ad": "Kelam ve Felsefe: İslam Filozofları, Gazzâlî’nin Eleştirisi, Müteahhirîn Kelamı; Yeni İlm-i Kelam ve Çağdaş İnanç Problemleri (Deizm, Ateizm, Agnostisizm, Kötülük Problemi)",
+      "oncelik": 2,
+      "konu": "kelam-12"
+     }
+    ]
+   },
+   {
+    "ad": "Siyer ve İslam Tarihi",
+    "soru": 4,
+    "uniteler": [
+     {
+      "ad": "İslam Öncesi Arabistan ve Dünya: Siyasi, Dinî, Sosyal ve Ekonomik Durum",
+      "oncelik": 3,
+      "konu": "siyer-1"
+     },
+     {
+      "ad": "Hz. Peygamber’in Doğumundan Peygamberliğe",
+      "oncelik": 3,
+      "konu": "siyer-2"
+     },
+     {
+      "ad": "Mekke Dönemi: Davet, Baskılar, Habeşistan Hicreti, Boykot, Hüzün Yılı, Tâif, İsrâ-Mi’rac ve Akabe Biatları",
+      "oncelik": 3,
+      "konu": "siyer-3"
+     },
+     {
+      "ad": "Hicret ve Medine’nin İnşası: Mescid-i Nebevî, Muâhât, Medine Vesikası, Suffe, Ezan ve Kıble Değişimi",
+      "oncelik": 3,
+      "konu": "siyer-4"
+     },
+     {
+      "ad": "Medine Dönemi 1: Seriyyeler, Bedir, Kaynukā, Uhud, Recî ve Bi’r-i Maûne, Nadîroğulları, Hendek ve Kurayza (H. 1-5)",
+      "oncelik": 3,
+      "konu": "siyer-5"
+     },
+     {
+      "ad": "Medine Dönemi 2: Hudeybiye, Elçiler ve Mektuplar, Hayber, Mûte, Mekke’nin Fethi, Huneyn ve Tâif, Tebük, Heyetler Yılı, Veda Haccı ve Vefat (H. 6-11)",
+      "oncelik": 3,
+      "konu": "siyer-6"
+     },
+     {
+      "ad": "Hz. Peygamber’in Aile Hayatı (Eşleri, Çocukları), Şahsiyeti ve Ahlakı; Örnek İnsan, Eğitimci, Devlet Başkanı ve Komutan Olarak Hz. Peygamber",
+      "oncelik": 2,
+      "konu": "siyer-7"
+     },
+     {
+      "ad": "Hz. Ebû Bekir ve Hz. Ömer Dönemleri",
+      "oncelik": 3,
+      "konu": "siyer-8"
+     },
+     {
+      "ad": "Hz. Osman ve Hz. Ali Dönemleri; Fitne (Cemel, Sıffîn, Tahkim, Nehrevan)",
+      "oncelik": 3,
+      "konu": "siyer-9"
+     },
+     {
+      "ad": "Emevîler",
+      "oncelik": 3,
+      "konu": "siyer-10"
+     },
+     {
+      "ad": "Abbâsîler",
+      "oncelik": 3,
+      "konu": "siyer-11"
+     },
+     {
+      "ad": "Endülüs, Kuzey Afrika ve Mısır’da Kurulan İslam Devletleri",
+      "oncelik": 2,
+      "konu": "siyer-12"
+     },
+     {
+      "ad": "Türklerin İslamlaşması ve Türk-İslam Devletleri",
+      "oncelik": 3,
+      "konu": "siyer-13"
+     },
+     {
+      "ad": "Haçlı Seferleri ve Moğol İstilası: Sebepler, Seferler, Zengîler-Eyyûbîler-Memlüklerin Mücadelesi, Bağdat’ın Düşüşü ve Aynicâlût",
+      "oncelik": 2,
+      "konu": "siyer-14"
+     },
+     {
+      "ad": "Osmanlı Devleti: Kuruluş ve Yükseliş, Hilafetin Osmanlılara Geçişi; İlmiye Teşkilatı (Şeyhülislamlık, Kazaskerlik, Medreseler), Vakıflar ve Tekkeler; Son Dönem (Mecelle, Hilafetin Kaldırılması, Diyanet)",
+      "oncelik": 2,
+      "konu": "siyer-15"
+     },
+     {
+      "ad": "İslam Medeniyeti: İlim ve Eğitim Kurumları (Mescit, Küttâb, Beytülhikme, Nizâmiye Medreseleri), Bilim Tarihi, Devlet Kurumları (Divan, Hisbe, Berîd, Kadılık), Şehir, Vakıf ve Sanat",
+      "oncelik": 2,
+      "konu": "siyer-16"
+     }
+    ]
+   },
+   {
+    "ad": "Dinler Tarihi",
+    "soru": 1,
+    "uniteler": [
+     {
+      "ad": "Dinler Tarihine Giriş: Din Bilimleri, Dinlerin Sınıflandırılması ve Dinin Kökeni Teorileri",
+      "oncelik": 2,
+      "konu": "dinler-1"
+     },
+     {
+      "ad": "İlkel ve Eski Dinler (Mısır, Mezopotamya, Yunan-Roma); Eski Türk Dini ve Şamanizm",
+      "oncelik": 2,
+      "konu": "dinler-2"
+     },
+     {
+      "ad": "Hinduizm",
+      "oncelik": 2,
+      "konu": "dinler-3"
+     },
+     {
+      "ad": "Budizm",
+      "oncelik": 2,
+      "konu": "dinler-4"
+     },
+     {
+      "ad": "Caynizm ve Sihizm",
+      "oncelik": 2,
+      "konu": "dinler-5"
+     },
+     {
+      "ad": "Çin ve Japon Dinleri: Konfüçyüsçülük, Taoizm, Şinto",
+      "oncelik": 2,
+      "konu": "dinler-6"
+     },
+     {
+      "ad": "Zerdüştlük ve İran Dinleri (Maniheizm, Mazdekizm); Sâbiîlik (Mandenizm, Harran Sâbiîleri)",
+      "oncelik": 2,
+      "konu": "dinler-7"
+     },
+     {
+      "ad": "Yahudilik: Tarihi, Kutsal Metinleri (Tanah, Talmud), İnanç Esasları, İbadetler ve Bayramlar, Mezhepleri ve Siyonizm",
+      "oncelik": 3,
+      "konu": "dinler-8"
+     },
+     {
+      "ad": "Hristiyanlık: Hz. İsa ve Pavlus, Kutsal Kitap (Yeni Ahit), Teslis ve Konsiller, Sakramentler ve Bayramlar, Mezhepler (Katolik, Ortodoks, Protestan, Doğu Kiliseleri)",
+      "oncelik": 3,
+      "konu": "dinler-9"
+     },
+     {
+      "ad": "Yeni Dinî Hareketler: Hristiyan Kökenli (Mormonlar, Yehova Şahitleri, Adventistler, Hristiyan Bilimi), Doğu Kökenli (Hare Krişna, Transandantal Meditasyon, Falun Gong), Senkretik ve Diğerleri (Bahâîlik, Moon Tarikatı, Scientology, Rastafaryanizm, New Age, Satanizm)",
+      "oncelik": 2,
+      "konu": "dinler-10"
+     }
+    ]
+   },
+   {
+    "ad": "Mevzuat",
+    "soru": 1,
+    "uniteler": [
+     {
+      "ad": "633 Sayılı Kanun: Diyanet İşleri Başkanlığının Kuruluşu ve Görevleri",
+      "oncelik": 3,
+      "konu": "mevzuat-1"
+     }
+    ]
+   }
+  ]
+ }
 }
