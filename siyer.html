@@ -101,7 +101,7 @@ function bolum(i){var x=KT.bolum[i],ol=x.olay?OI[x.olay]:null;sek('B');document.
     function link(u,et,ac,bt){return '<div style="margin-bottom:10px"><b>'+esc(et)+'</b>'+(ac?'<p style="margin:3px 0">'+esc(ac)+'</p>':'')+'<a href="'+u+'" style="display:inline-block;border:1px solid #c9d3c6;border-radius:12px;padding:5px 11px;text-decoration:none;color:#2f5d4e;font:600 13.5px system-ui">'+bt+' ›</a></div>'}
     if(k==='ayet')y=ol.ayet.map(function(a){return link(a[1],a[0],a[2],'Kur’an’da aç')}).join('');
     if(k==='hadis')y=ol.hadis.map(function(a){return link(a[1],a[0],a[2],'Hadis Dirâsesi’nde ara')}).join('');
-    if(k==='fikih')y='<p>Bu olayla ilgili fıkıh meseleleri:</p>'+ol.fikih.map(function(f){return '<a class="lst" href="fikih.html#m='+f+'" style="text-decoration:none;color:inherit;padding:10px 12px"><div class="t"><b>'+esc(FK[f]||f)+'</b><small>Fıkıh Dirâsesi</small></div><div class="a">›</div></a>'}).join('');
+    if(k==='fikih')y='<p>Bu olayla ilgili fıkıh meseleleri:</p>'+ol.fikih.map(function(f){return '<a class="lst" href="fikih.html#m='+f+'" style="text-decoration:none;color:inherit;padding:10px 12px"><div class="t"><b data-fk="'+esc(f)+'">'+esc(FK[f]||f)+'</b><small>Fıkıh Dirâsesi</small></div><div class="a">›</div></a>'}).join('');
     if(k==='kisi')y=ol.kisi.map(function(p){return '<div style="margin-bottom:8px"><b>'+esc(p[0])+'</b> — '+esc(p[1])+'</div>'}).join('');
     if(k==='ders')y='<h3>Bu bölümden dersler</h3><ul style="margin:0;padding-left:20px;line-height:1.7">'+ol.ders.map(function(d){return '<li>'+esc(d)+'</li>'}).join('')+'</ul>';
     pn.innerHTML='<div class="pnl">'+y+'</div>'}});
@@ -186,7 +186,7 @@ function secere(vurgu){sek('S');shYukle(function(){document.getElementById('ttl'
   var e=document.getElementById('sVr');if(e)setTimeout(function(){e.scrollIntoView({block:'center'})},50);else scrollTo(0,0)})}
 document.getElementById('sB').onclick=function(){liste()};document.getElementById('sS').onclick=function(){sahabe()};document.getElementById('sH').onclick=function(){harita()};
 var FK={};
-Promise.all([getJ('data/siyer/kitap.json'),getJ('data/siyer/olaylar.json'),getJ('data/siyer/yerler.json'),getJ('data/fikih/meseleler.json').catch(function(){return []})]).then(function(a){KT=a[0];OL=a[1];YR=a[2];OL.forEach(function(o){OI[o.id]=o});a[3].forEach(function(x){FK[x.id]=x.baslik});var hs=location.hash,m,i;
+Promise.all([getJ('data/siyer/kitap.json'),getJ('data/siyer/olaylar.json'),getJ('data/siyer/yerler.json')]).then(function(a){KT=a[0];OL=a[1];YR=a[2];OL.forEach(function(o){OI[o.id]=o});setTimeout(function(){getJ('data/fikih/meseleler.json').then(function(L){L.forEach(function(x){FK[x.id]=x.baslik});[].forEach.call(document.querySelectorAll('[data-fk]'),function(e){var t=FK[e.getAttribute('data-fk')];if(t)e.textContent=t})}).catch(function(){})},1200);var hs=location.hash,m,i;
   if((m=/^#b=(\w+)/.exec(hs))){for(i=0;i<KT.bolum.length;i++)if(KT.bolum[i].n===m[1])return bolum(i)}
   if((m=/^#o=([a-z]+)/.exec(hs))){for(i=0;i<KT.bolum.length;i++)if(KT.bolum[i].olay===m[1])return bolum(i);liste();return}
   if((m=/^#h(?:=([a-z]+))?/.exec(hs)))return harita(m[1]);if(hs==='#secere')return secere();if((m=/^#s(?:=([a-z]+))?$/.exec(hs))){if(m[1]){var ii=-1;return shYukle(function(){SH.sahabe.forEach(function(x,j){if(x.id===m[1])ii=j});ii>=0?sKart(ii):sahabe()})}return sahabe()}liste()}).catch(function(){M.innerHTML='<p class="not">Veri yüklenemedi. İnternet bağlantınızı kontrol edip sayfayı yenileyin.</p>'});
