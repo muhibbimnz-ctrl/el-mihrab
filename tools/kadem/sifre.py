@@ -3,7 +3,7 @@
 #   KADEM_SIFRE='…' python3 tools/kadem/sifre.py ac      → *.enc  →  *.json  (düzenlemek için; .json dosyaları git'e girmez)
 # Biçim: base64( iv[12] + AES-256-GCM şifreli metin + etiket ). Anahtar = PBKDF2-SHA256(şifre, tuz, tur) — tuz ve tur data/kadem/anahtar.json'da.
 # AÇIK dosyalar (şifrelenmez, düz .json olarak yayına gider): sınav listesi ve sınav dosyaları (data/kadem/*.json)
-# ile her dersin ilk ünitesi (data/kadem/konu/*-1.json). kadem.html'deki acik() kuralıyla aynı olmalı.
+# ile örnek olarak ilk dersin ilk konusu (konu/kuran-1.json) ve 1. MBSTS denemesi (deneme/mbsts-1.json). kadem.html'deki acik() kuralıyla aynı olmalı.
 # iv içerikten türetilir (HMAC), böylece içerik değişmeyen dosyanın .enc'i de değişmez.
 import os,sys,json,glob,base64,hmac,hashlib
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
@@ -14,7 +14,8 @@ if not os.path.exists(A):
     json.dump({'tuz':base64.b64encode(os.urandom(16)).decode(),'tur':250000},open(A,'w'))
 a=json.load(open(A))
 key=hashlib.pbkdf2_hmac('sha256',pw.encode(),base64.b64decode(a['tuz']),a['tur'],32)
-def acik(rel): return '/' not in rel or (rel.startswith('konu/') and rel.endswith('-1.json'))
+ACIK={'konu/kuran-1.json','deneme/mbsts-1.json'}  # örnek olarak açık bırakılanlar: ilk dersin ilk konusu ve bir tam deneme
+def acik(rel): return '/' not in rel or rel in ACIK
 G=AESGCM(key);mod=sys.argv[1] if len(sys.argv)>1 else ''
 if mod=='kapat':
     n=0

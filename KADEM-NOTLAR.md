@@ -243,3 +243,7 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 ### Hatırlatma
 - Şifre hiçbir dosyaya, commit’e yazılmaz; kullanıcı yeni oturumda yeniden verir.
 - Her yayında sw.js sürümü artırılır (yay.sh yapar), kadem ve main dallarına birlikte itilir.
+
+### 7. oturum — 26 Kasım 2026 (açık örnek, X bağlantısı)
+- Açık (şifresiz) olanlar artık yalnız: sınav dosyaları (`data/kadem/*.json`), **ilk dersin ilk konusu** `konu/kuran-1.json` ve **1. MBSTS denemesi** `deneme/mbsts-1.json`. Diğer bütün konular (öbür derslerin ilk üniteleri dâhil) ve denemeler şifreli. Kural iki yerde aynı: `tools/kadem/sifre.py` (`ACIK`) ve `kadem.html` (`acik()`); `.gitignore` istisnaları da bu iki dosya.
+- Kilit ekranında ve sınav sayfasındaki kilit şeridinin altında X kutusu: “Devamı için bize yazın” → https://x.com/hohrzade340 (`XADR`, `xKutu()` kadem.html’de).

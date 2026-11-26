@@ -87,7 +87,9 @@ details.diger>summary:before{content:"+ ";color:var(--acc)}details.diger[open]>s
 details.ders>summary{color:var(--ink)}
 @media print{#top{display:none}body{padding:0;background:#fff}.ozet{border:0}}
 /* Giriş */
-.giris{max-width:380px;margin:40px auto;text-align:center}.kilit-ikon{font-size:34px;margin-bottom:6px}.kilit{font-size:.85em;opacity:.75}
+.giris{max-width:380px;margin:40px auto;text-align:center}
+.x-kutu{display:flex;gap:12px;align-items:center;text-align:left;margin:14px 0;padding:12px 14px;border-radius:14px;background:#0f1419;color:#fff;text-decoration:none}.x-kutu .x-ik{font-size:24px;font-weight:700;width:38px;height:38px;border-radius:50%;background:#fff;color:#0f1419;display:grid;place-items:center;flex:none}.x-kutu b{display:block;font-size:15px}.x-kutu small{display:block;font-size:12.5px;opacity:.8;line-height:1.45;margin-top:2px}.x-kutu em{font-style:normal;font-size:22px;opacity:.7}
+.giris .x-kutu{margin:16px 0 14px}.kilit-ikon{font-size:34px;margin-bottom:6px}.kilit{font-size:.85em;opacity:.75}
 .kilit-serit{display:flex;gap:10px;align-items:center;justify-content:space-between;margin:14px 0;padding:12px 14px;border:1px dashed var(--rule);border-radius:12px;color:inherit;text-decoration:none;font-size:14px}.kilit-serit em{font-style:normal;font-weight:700;color:var(--acc);white-space:nowrap}
 .giris input{width:100%;font:17px var(--sans);padding:11px 12px;border:1px solid var(--rule);border-radius:3px;background:var(--kagit);color:var(--ink);margin:14px 0 10px;text-align:center}
 /* Künye tablosu */
@@ -432,7 +434,9 @@ function anahtar(){if(KEY)return Promise.resolve(KEY);var r=null;try{r=localStor
  return crypto.subtle.importKey('raw',b64(r),'AES-GCM',false,['decrypt']).then(function(k){return KEY=k})}
 function coz(txt,k){var u=b64(txt.trim());return(k?Promise.resolve(k):anahtar()).then(function(k){return crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12))})
  .then(function(b){return JSON.parse(new TextDecoder().decode(b))},function(x){if(x==='yok')throw x;throw'sifre'})}
-function acik(u){return/^data\/kadem\/[^\/]+\.json$/.test(u)||/^data\/kadem\/konu\/[^\/]+-1\.json$/.test(u)}
+function acik(u){return/^data\/kadem\/[^\/]+\.json$/.test(u)||u==='data/kadem/konu/kuran-1.json'||u==='data/kadem/deneme/mbsts-1.json'}
+var XADR='https://x.com/hohrzade340',XAD='@hohrzade340';
+function xKutu(){return '<a class="x-kutu" href="'+XADR+'" target="_blank" rel="noopener"><span class="x-ik">𝕏</span><span><b>Devamı için bize yazın</b><small>Bütün konulara ve denemelere erişmek isterseniz X (Twitter) hesabımızdan ulaşabilirsiniz: '+XAD+'</small></span><em>›</em></a>'}
 function anahtarVar(){try{return!!localStorage.getItem(AK)}catch(x){return false}}
 /* Çok sayıda dosyayı aynı anda değil, en fazla n tanesi birlikte olacak şekilde yükler (telefonda donmayı önler). */
 function sirali(L,n,f){return new Promise(function(ok){var R=new Array(L.length),i=0,bitti=0;if(!L.length)return ok(R);
@@ -445,8 +449,8 @@ function al(u){if(C[u])return Promise.resolve(C[u]);var sif=/^data\/kadem\//.tes
  return getir(sif?u.replace(/\.json$/,'.enc'):u).then(function(r){if(!r.ok)throw 0;return sif?r.text().then(function(x){return coz(x)}):r.json()}).then(function(j){return C[u]=j})}
 function giris(ne){saatGizle();renk('#1d5c4a');
  if(!ne){$('#bas').textContent='Kadem';$('#geri').textContent='el-Mihrâb';$('#geri').onclick=function(){location.href='index.html'}}
- M.innerHTML='<form class="giris" id="gf"><div class="kilit-ikon">🔒</div><div class="ust-etiket">'+(ne?e(ne.ust||'Kadem'):'el-Mihrâb')+'</div><h1>'+(ne?e(ne.ad):'Kadem')+'</h1><p class="lead" style="margin:0 auto">'+(ne?'Her dersin ilk ünitesi herkese açık. Bu bölümü açmak için şifreyi gir; bir kez girmen yeterli, bu cihaz hatırlar.':'Bu bölüm şifreyle korunuyor. Şifreyi bir kez girmen yeterli; bu cihaz hatırlar.')+'</p>'+
-  '<input type="password" id="sf" autocomplete="current-password" placeholder="Şifre" required><button class="btn" style="width:100%">Giriş</button><p class="kucukyazi" id="sm" style="min-height:20px"></p></form>';
+ M.innerHTML='<form class="giris" id="gf"><div class="kilit-ikon">🔒</div><div class="ust-etiket">'+(ne?e(ne.ust||'Kadem'):'el-Mihrâb')+'</div><h1>'+(ne?e(ne.ad):'Kadem')+'</h1><p class="lead" style="margin:0 auto">'+(ne?'Bu bölüm şifreyle açılır. Kur’an Bilgisi’nin ilk konusu ve 1. Deneme herkese açık; şifren varsa bir kez girmen yeterli, bu cihaz hatırlar.':'Bu bölüm şifreyle korunuyor. Şifreyi bir kez girmen yeterli; bu cihaz hatırlar.')+'</p>'+
+  xKutu()+'<input type="password" id="sf" autocomplete="current-password" placeholder="Şifre" required><button class="btn" style="width:100%">Giriş</button><p class="kucukyazi" id="sm" style="min-height:20px"></p></form>';
  $('#sf').focus();
  $('#gf').onsubmit=function(ev){ev.preventDefault();var pw=$('#sf').value;$('#sm').textContent='Kontrol ediliyor…';
   if(!window.crypto||!crypto.subtle){$('#sm').textContent='Bu tarayıcı şifreli içeriği açamıyor.';return}
@@ -523,7 +527,7 @@ function liste(){
    DIG=L.sinavlar.filter(function(s){return ANA_ID.indexOf(s.id)<0});
   return Promise.all(ANA.map(function(s){return al('data/kadem/'+s.id+'.json').catch(function(){return{konular:[]}}).then(hafifOzet)})).then(function(V){
    var o=oku(),h='<div class="ust-etiket">el-Mihrâb · Sınav hazırlığı</div><h1>Kadem</h1><p class="lead">Konu anlatımı, özet, kart, açıklamalı test ve gerçek biçimde deneme. Bir sınav seç, kaldığın yerden devam et.</p>'+
-    (anahtarVar()?'':'<a class="kilit-serit" href="#giris=1"><span>🔒 Her dersin ilk ünitesi açık. Bütün konular ve tam denemeler için şifreni gir.</span><em>Giriş ›</em></a>');
+    (anahtarVar()?'':'<a class="kilit-serit" href="#giris=1"><span>🔒 Kur’an Bilgisi’nin ilk konusu ve 1. Deneme açık. Bütün konular ve denemeler için şifreni gir.</span><em>Giriş ›</em></a>'+xKutu());
    ANA.forEach(function(s,i){var v=V[i],k=v.konular,biten=k.filter(function(x){return o['p.'+s.id+'.'+x.id]!=null}).length,b=v.bugun(s),
      son=o['son.'+s.id],sx=son&&k.filter(function(x){return x.id===son})[0],yz=k.length?Math.round(100*biten/k.length):0;
     h+='<a class="anakart" style="--r:'+e(s.renk)+'" href="#s='+e(s.id)+'"><span class="kod">'+e(s.bicim)+'</span><b>'+e(s.ad)+'</b><small>'+e(s.tam)+'</small>';
