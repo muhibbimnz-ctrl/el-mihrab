@@ -2,14 +2,16 @@
    Kurulum: HESAP-KURULUM.md. Değerler girilene kadar giriş düğmesi görünmez ve site eskisi gibi çalışır. */
 window.HESAP_AYAR = {
   apiKey: "AIzaSyAGotRPSKBlgUZOB4YoNDZ6Aio9c3YdlBo",
-  authDomain: "el-mihrab.firebaseapp.com",
+  /* el-mihrab.com’da giriş kendi alan adımızdan geçer (functions/__/auth); diğer adreslerde Firebase’in alan adı kullanılır. */
+  authDomain: /^(www\.)?el-mihrab\.com$/.test(location.hostname) ? location.hostname : "el-mihrab.firebaseapp.com",
   projectId: "el-mihrab",
   appId: "1:917596621684:web:f0f24afdb1816df01afa21"
 };
 /* Örnek:
 window.HESAP_AYAR = {
   apiKey: "AIza…",
-  authDomain: "el-mihrab.firebaseapp.com",
+  /* el-mihrab.com’da giriş kendi alan adımızdan geçer (functions/__/auth); diğer adreslerde Firebase’in alan adı kullanılır. */
+  authDomain: /^(www\.)?el-mihrab\.com$/.test(location.hostname) ? location.hostname : "el-mihrab.firebaseapp.com",
   projectId: "el-mihrab",
   appId: "1:…:web:…"
 };

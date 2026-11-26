@@ -190,4 +190,4 @@ Promise.all([getJ('data/siyer/kitap.json'),getJ('data/siyer/olaylar.json'),getJ(
   if((m=/^#b=(\w+)/.exec(hs))){for(i=0;i<KT.bolum.length;i++)if(KT.bolum[i].n===m[1])return bolum(i)}
   if((m=/^#o=([a-z]+)/.exec(hs))){for(i=0;i<KT.bolum.length;i++)if(KT.bolum[i].olay===m[1])return bolum(i);liste();return}
   if((m=/^#h(?:=([a-z]+))?/.exec(hs)))return harita(m[1]);if(hs==='#secere')return secere();if((m=/^#s(?:=([a-z]+))?$/.exec(hs))){if(m[1]){var ii=-1;return shYukle(function(){SH.sahabe.forEach(function(x,j){if(x.id===m[1])ii=j});ii>=0?sKart(ii):sahabe()})}return sahabe()}liste()}).catch(function(){M.innerHTML='<p class="not">Veri yüklenemedi. İnternet bağlantınızı kontrol edip sayfayı yenileyin.</p>'});
-</script><script src="hesap-ayar.js?v=3"></script><script src="hesap.js?v=5" defer></script><script src="nasil.js?v=2" data-b="siyer"></script></body></html>
+</script><script src="hesap-ayar.js?v=4"></script><script src="hesap.js?v=5" defer></script><script src="nasil.js?v=2" data-b="siyer"></script></body></html>
