@@ -521,10 +521,10 @@ a{color:var(--accent)}
 .ar-t.qf{line-height:2.1;word-spacing:0}.ar-t.qf span{display:inline-block}
 #main .ay{content-visibility:auto;contain-intrinsic-size:auto 340px}
 </style>
-<script src="ust.js?v=4" defer></script><style>html.evde,html.evde body{overflow:hidden!important;overscroll-behavior:none}html.evde main{visibility:hidden}#home{overscroll-behavior:contain}html.yukl main{visibility:hidden}
+<style>#home .hm-logo{display:none!important}html.evde{background:#2B3D6E}#home .hm{visibility:hidden}#home.hz .hm{visibility:visible}html.evde .top{background:#2B3D6E!important;border-bottom:0!important;box-shadow:none!important}html.evde .top .ib,html.evde .top .brand b{color:#fff!important}html.evde .top .sbtn,html.evde .top .jump{background:rgba(255,255,255,.12)!important;border-color:rgba(255,255,255,.25)!important;color:#fff!important}html.evde body{background:#2B3D6E}html.evde,html.evde body{overflow:hidden!important;overscroll-behavior:none}html.evde main{visibility:hidden}#home{overscroll-behavior:contain}html.yukl main{visibility:hidden}
 /* Uzun sûrelerde ekranda olmayan âyetler ve mushaf sayfaları çizilmez: kaydırma akıcı kalır */
 #ayList>.ay,main .ay{content-visibility:auto;contain-intrinsic-size:auto 260px}#okB .okp{content-visibility:auto;contain-intrinsic-size:auto 1400px}
-</style><script>document.documentElement.classList.add('yukl');setTimeout(function(){document.documentElement.classList.remove('yukl')},1800)</script>
+</style><script>if(!location.hash)document.documentElement.classList.add('evde');setTimeout(function(){var h=document.getElementById('home');if(h)h.classList.add('hz')},1500);document.documentElement.classList.add('yukl');setTimeout(function(){document.documentElement.classList.remove('yukl')},1800)</script>
 </head>
 <body>
 <header class="top">
@@ -557,7 +557,63 @@ a{color:var(--accent)}
   <button class="tile" id="hKadem" style="grid-column:1/-1;aspect-ratio:auto!important;min-height:0;padding:14px 10px!important;background:linear-gradient(135deg,#0e3d31,#1d5c4a 55%,#b08a3e)"><svg viewBox="0 0 64 48"><path d="M6 42h14V32h12V22h12V12h14" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 6l8 6-8 6" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></svg><b>Kadem</b><span class="hm-sub">Diyanet sınavları · MBSTS · DHBT · Müftü yardımcılığı</span></button>
   </div>
   <div class="hm-links"><a href="#" id="hList">Sûre seç</a> · <a href="#" onclick="about();return false">Hakkında</a></div>
-</div></section><script>(function(){var h=document.getElementById('home'),d=document.documentElement;function g(){d.classList.toggle('evde',!h.classList.contains('hide'));if(!h.classList.contains('hide'))d.classList.remove('yukl')}g();var mm=document.querySelector('main');if(mm)try{new MutationObserver(function(){if(mm.childElementCount)setTimeout(function(){d.classList.remove('yukl')},60)}).observe(mm,{childList:true,subtree:true})}catch(e){}try{new MutationObserver(g).observe(h,{attributes:true,attributeFilter:['class']})}catch(e){}})();</script>
+</div></section><script>(function(){try{if(location.hash)return;var nv=performance.getEntriesByType("navigation")[0],sc=null;if(nv&&nv.type==="reload"){try{sc=sessionStorage.getItem("mihrab.scr")}catch(e){}if(sc&&sc!=="home")return}document.getElementById("home").classList.remove("hide")}catch(e){}})();</script><script>(function(){var h=document.getElementById('home'),d=document.documentElement;var tc=document.querySelector('meta[name=theme-color]'),tc0=tc&&tc.content;function g(){var ev=!h.classList.contains('hide');d.classList.toggle('evde',ev);if(tc)tc.content=ev?'#2B3D6E':tc0;if(!h.classList.contains('hide'))d.classList.remove('yukl')}g();var mm=document.querySelector('main');if(mm)try{new MutationObserver(function(){if(mm.childElementCount)setTimeout(function(){d.classList.remove('yukl')},60)}).observe(mm,{childList:true,subtree:true})}catch(e){}try{new MutationObserver(g).observe(h,{attributes:true,attributeFilter:['class']})}catch(e){}})();</script><script>/* ust.js gömülü: ana sayfanın üst alanı ilk boyamada hazır olsun */
+/* el-Mihrâb ortak üst alan: selam, sıradaki namaz vakti, kaldığın âyet. Kadem dışındaki sayfalara eklenir.
+   Vakitler ana sayfanın kaydettiği verilerden okunur (localStorage mihrab.loc, mihrab.pt2); kaldığın âyet beyan2.last.
+   Renk: Sabah Ferahlığı seçiliyse turkuaz, diğer durumlarda Gece Mavisi. */
+(function(){
+ if(window.__mhUst)return;window.__mhUst=1;
+ var SN="Fâtiha|Bakara|Âl-i İmrân|Nisâ|Mâide|En'âm|A'râf|Enfâl|Tevbe|Yûnus|Hûd|Yûsuf|Ra'd|İbrâhîm|Hicr|Nahl|İsrâ|Kehf|Meryem|Tâhâ|Enbiyâ|Hac|Mü'minûn|Nûr|Furkân|Şuarâ|Neml|Kasas|Ankebût|Rûm|Lokmân|Secde|Ahzâb|Sebe'|Fâtır|Yâsîn|Sâffât|Sâd|Zümer|Mü'min (Gâfir)|Fussılet|Şûrâ|Zuhruf|Duhân|Câsiye|Ahkâf|Muhammed|Fetih|Hucurât|Kâf|Zâriyât|Tûr|Necm|Kamer|Rahmân|Vâkıa|Hadîd|Mücâdele|Haşr|Mümtehine|Saf|Cum'a|Münâfikûn|Teğâbün|Talâk|Tahrîm|Mülk|Kalem|Hâkka|Meâric|Nûh|Cin|Müzzemmil|Müddessir|Kıyâme|İnsân|Mürselât|Nebe'|Nâziât|Abese|Tekvîr|İnfitâr|Mutaffifîn|İnşikâk|Bürûc|Târık|A'lâ|Gâşiye|Fecr|Beled|Şems|Leyl|Duhâ|İnşirâh|Tîn|Alak|Kadr|Beyyine|Zilzâl|Âdiyât|Kâria|Tekâsür|Asr|Hümeze|Fîl|Kureyş|Mâûn|Kevser|Kâfirûn|Nasr|Tebbet|İhlâs|Felak|Nâs".split('|'),PN=[['Fajr','İmsak'],['Sunrise','Güneş'],['Dhuhr','Öğle'],['Asr','İkindi'],['Maghrib','Akşam'],['Isha','Yatsı']];
+ function g(k){try{var v=localStorage.getItem(k);return v?JSON.parse(v):null}catch(e){return null}}
+ function tema(){var t=null;try{t=localStorage.getItem('mihrab.tema')||localStorage.getItem('kadem.tema')}catch(e){}return t}
+ function dk(v){var a=String(v||'').slice(0,5).split(':');return a.length<2?NaN:+a[0]*60+(+a[1])}
+ function vakit(){var loc=g('mihrab.loc'),st=g('mihrab.pt2');if(!loc||!st)return null;
+  var d=new Date(),gun=function(x){var A=st[loc.k+'|'+x.getFullYear()+'-'+(x.getMonth()+1)];return A&&A[x.getDate()-1]},t=gun(d);if(!t)return null;
+  var simdi=d.getHours()*60+d.getMinutes();
+  for(var i=0;i<PN.length;i++){var m=dk(t[PN[i][0]]);if(m>simdi)return{ad:PN[i][1],s:String(t[PN[i][0]]).slice(0,5),kal:m-simdi}}
+  var y=new Date(d.getTime()+864e5),ty=gun(y)||t,m0=dk(ty.Fajr);return{ad:'İmsak',s:String(ty.Fajr).slice(0,5),kal:1440-simdi+m0}}
+ function sure(n){var s=Math.floor(n/60),d=n%60;return(s?s+' sa ':'')+d+' dk'}
+ var css='.mh-ust{background:linear-gradient(160deg,#2B3D6E,#3D5494);color:#fff;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:14px 18px 16px;border-radius:0 0 26px 26px}'+
+  '.mh-ust.b{background:linear-gradient(135deg,#2CC4B4,#38B2F0)}.mh-ust .mh-in{max-width:760px;margin:0 auto}'+
+  '.mh-ust .mh-sel{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#FFB547}.mh-ust.b .mh-sel{color:#fff;opacity:.9}'+
+  '.mh-ust .mh-arb{float:right;font-family:"Reem Kufi","Aref Ruqaa",Amiri,serif;font-weight:700;font-size:38px;line-height:1;color:#F5C76B;text-shadow:0 2px 10px rgba(0,0,0,.25);margin-top:-2px;letter-spacing:1px}.mh-ust.b .mh-arb{color:#FFF6D6}'+
+  '.mh-ust .mh-ad{display:block;color:#fff;text-decoration:none;font-size:30px;font-weight:800;letter-spacing:-.02em;margin:2px 0 12px;font-size:28px}'+
+  '.mh-ust .mh-ad{display:flex!important;align-items:center;gap:10px}.mh-ust .mh-lg{width:34px;height:34px;border-radius:9px;box-shadow:0 2px 8px rgba(0,0,0,.25);flex:none}'+
+  '.mh-ust .mh-alt{font-size:14px;opacity:.85;margin-bottom:18px}'+
+  '.mh-ust .mh-oz{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}'+
+  '.mh-ust .mh-oz a{display:block;background:rgba(255,255,255,.14);border-radius:16px;padding:9px 6px;color:#fff;text-decoration:none;text-align:center;min-width:0}.mh-ust.b .mh-oz a{background:rgba(255,255,255,.24)}'+
+  '.mh-ust .mh-oz b{display:block;font-size:18px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.mh-ust .mh-oz small{display:block;font-size:11.5px;opacity:.85;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}'+
+  '#home .hm-logo{display:none}'+
+  '#home{overflow:hidden!important;display:flex!important;flex-direction:column}#home.hide{display:none!important}'+
+  '#home .hm{flex:1;min-height:0;width:100%;max-width:520px;margin:0 auto;padding:0 14px 10px;gap:10px;align-items:stretch;box-sizing:border-box}'+
+  '#home .hmgrid{flex:1;min-height:0;width:auto;margin:0;gap:10px;grid-template-rows:1fr 1fr auto}'+
+  '#home .hmgrid .tile{aspect-ratio:auto!important;min-height:0!important;height:auto!important;padding:8px 6px!important}'+
+  '#home .hmgrid .tile svg{width:46px!important;height:36px!important}#home .hmgrid .tile b{font-size:16px!important}#home .hm-sub{font-size:11.5px}'+
+  '#home #hKadem{padding:10px!important;flex-direction:row;gap:10px!important}#home #hKadem svg{flex:none}'+
+  '#home .hm-links{flex:none;text-align:center;font-size:13px;margin:0}'+
+  '@media(max-height:620px){#home{overflow-y:auto!important}#home .hmgrid{grid-template-rows:auto}#home .hmgrid .tile{min-height:120px!important}}'+
+  'body:has(#home:not(.hide)) .top{background:#2B3D6E;border-bottom:0;box-shadow:none}'+
+  'body:has(#home:not(.hide)) .top .ib,body:has(#home:not(.hide)) .top .brand b{color:#fff}body:has(#home:not(.hide)) .top .brand small{color:#C9D2EC}'+
+  'body:has(#home:not(.hide)) .top .sbtn,body:has(#home:not(.hide)) .top .jump{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.25);color:#fff}'+
+  'body:has(#home:not(.hide)) .top .sbtn .ar{color:#FFB547}';
+ function kadem(){var k=0;try{var o=JSON.parse(localStorage.getItem('kadem.v1')||'{}');for(var x in o)if(/^p\./.test(x))k++}catch(e){}return k}
+ function ciz(el){var h=new Date().getHours(),v=vakit(),l=g('beyan2.last')||{s:1,a:1},s=Math.min(114,Math.max(1,+l.s||1)),a=+l.a||1;
+  el.className='mh-ust'+(tema()==='b'?' b':'');
+  el.innerHTML='<div class="mh-in"><span class="mh-arb" lang="ar">المِحْرَاب</span><div class="mh-sel">'+(h<5?'Hayırlı geceler':h<11?'Hayırlı sabahlar':h<17?'Hayırlı günler':h<22?'Hayırlı akşamlar':'Hayırlı geceler')+'</div>'+
+   '<a class="mh-ad" href="index.html"><img class="mh-lg" src="icon-192.png" alt="" width="34" height="34">El-Mihrâb</a><div class="mh-oz">'+
+   '<a href="index.html#namaz"><b>'+(v?v.s:'—')+'</b><small>'+(v?v.ad+' · '+sure(v.kal):'Ezan vakti')+'</small></a>'+
+   '<a href="index.html#'+s+'-'+a+'"><b>'+s+':'+a+'</b><small>'+SN[s-1]+'</small></a>'+
+   '<a href="kadem.html"><b>'+kadem()+'</b><small>Kadem konusu</small></a></div></div>'}
+ function kur(){if(document.querySelector('.mh-ust'))return;
+  var st=document.createElement('style');st.textContent=css;document.head.appendChild(st);
+  var el=document.createElement('header'),yer=document.querySelector('#home .hm');
+  if(yer){el.style.margin='0 -14px';el.style.alignSelf='stretch';el.style.flex='none';yer.insertBefore(el,yer.firstChild)}else document.body.insertBefore(el,document.body.firstChild);
+  ciz(el);setInterval(function(){ciz(el)},30000);
+  addEventListener('storage',function(){ciz(el)});addEventListener('focus',function(){ciz(el)})}
+ if(document.readyState!=='loading'||document.querySelector('#home .hm'))kur();else document.addEventListener('DOMContentLoaded',kur);
+})();
+
+;try{document.getElementById('home').classList.add('hz')}catch(e){}</script>
 
 
 <div class="vdov hide" id="vdOv"><div class="vdbx"><div class="vdh"><b id="vdT"></b><button class="ib" id="vdC" aria-label="Kapat">✕</button></div><div class="vdf"><iframe id="vdF" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div></div></div>
@@ -1677,7 +1733,7 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
   applyVars();
   // Mushaf yazı tipi yüklenemezse (bazı telefonlar / kısıtlı ağlar) özel işaretler kutucuk görünür: kolay okunur metne geç
   if(document.fonts&&set.script!=='simple'){
-    const fail=()=>{if(st.fontFail)return;st.fontFail=true;toast('Mushaf yazı tipi yüklenemedi; kolay okunur yazıma geçildi');loadSurah(st.s,st.open?.n,1)};
+    const fail=()=>{if(st.fontFail)return;st.fontFail=true;if(!document.documentElement.classList.contains('evde'))toast('Mushaf yazı tipi yüklenemedi; kolay okunur yazıma geçildi');loadSurah(st.s,st.open?.n,1)};
     const t=setTimeout(fail,9000);
     document.fonts.load("30px 'Amiri Quran'","بِسْمِ ٱللَّهِ").then(l=>{clearTimeout(t);if(!l||!l.length)fail()}).catch(()=>{clearTimeout(t);fail()});
   }
