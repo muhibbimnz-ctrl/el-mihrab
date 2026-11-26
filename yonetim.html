@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr" data-hesap><head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Kadem üyelikleri · el-Mihrâb</title>
+<link rel="icon" href="icon-192.png">
+<style>
+:root{--bg:#f3efe6;--kagit:#fffdf9;--ink:#1d1b17;--muted:#6d665a;--line:#dcd3c1;--acc:#1d5c4a;--no:#9a2f2a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 -apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:24px 16px 60px}h1{font-size:22px;margin:0 0 4px}h2{font-size:17px;margin:28px 0 10px}
+.kutu{background:var(--kagit);border:1px solid var(--line);border-radius:12px;padding:16px}
+label{display:block;font-size:13px;color:var(--muted);margin:10px 0 4px}input,select{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font:inherit;background:#fff}
+button{padding:10px 16px;border:0;border-radius:8px;background:var(--acc);color:#fff;font:inherit;font-weight:600;cursor:pointer}button.ince{background:transparent;color:var(--acc);border:1px solid var(--acc);padding:6px 10px;font-size:13px}button.sil{color:var(--no);border-color:var(--no)}
+.satir{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--line)}.satir:last-child{border:0}
+.satir small{display:block;color:var(--muted)}.bitmis{opacity:.55}.ust{display:flex;justify-content:space-between;align-items:center;gap:10px}
+#msg{min-height:22px;color:var(--muted);font-size:14px;margin-top:8px}.ara{display:flex;gap:8px}.ara input{flex:1}
+</style></head><body><main>
+<div class="ust"><div><h1>Kadem üyelikleri</h1><div style="color:var(--muted);font-size:14px">Yalnız yöneticiler içindir.</div></div><a href="kadem.html" style="color:var(--acc)">Kadem ›</a></div>
+<div id="kok" class="kutu" style="margin-top:18px">Yükleniyor…</div>
+<p id="msg"></p>
+</main>
+<script src="hesap-ayar.js?v=2"></script><script src="hesap.js?v=3"></script>
+<script>
+/* Üye ekleme, uzatma ve kaldırma; Kadem anahtarının Firestore'a konması. Yetki firestore.rules ile sınırlıdır:
+   yalnız "yoneticiler/{eposta}" belgesi bulunan hesaplar yazabilir. */
+(function(){
+var K=document.getElementById('kok'),MS=document.getElementById('msg'),F=null,U=null;
+function $(s){return document.querySelector(s)}
+function e(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function msg(s){MS.textContent=s||''}
+function b64(s){var b=atob(s),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u}
+function b64e(u){var s='';u=new Uint8Array(u);for(var i=0;i<u.length;i++)s+=String.fromCharCode(u[i]);return btoa(s)}
+function tarih(ts){var d=ts.toDate();return d.toLocaleDateString('tr-TR',{day:'numeric',month:'long',year:'numeric'})}
+if(!window.Hesap||!Hesap.hazir()){K.textContent='Firebase ayarı girilmemiş (hesap-ayar.js). HESAP-KURULUM.md dosyasına bak.';return}
+Hesap.dinle(function(u){U=u;ciz()});
+setTimeout(function(){if(!U)ciz()},1500);
+function ciz(){
+ if(!U){K.innerHTML='<p>Devam etmek için yönetici Gmail hesabınla giriş yap.</p><button id="gg">Google ile giriş yap</button>';$('#gg').onclick=function(){Hesap.ac()};return}
+ Hesap.firebase().then(function(f){F=f;return f.fs.getDoc(f.fs.doc(f.db,'yoneticiler',U.email.toLowerCase()))}).then(function(s){
+  if(!s.exists()){K.innerHTML='<p><b>'+e(U.email)+'</b> yönetici değil.</p><p style="color:var(--muted);font-size:14px">Firebase konsolunda Firestore → <i>yoneticiler</i> koleksiyonuna belge kimliği bu e-posta olan bir belge ekle.</p>';return}
+  panel()},function(x){K.textContent='Bağlantı hatası: '+(x&&x.message||x)})}
+function panel(){
+ K.innerHTML='<div class="ust"><b>'+e(U.email)+'</b></div>'+
+ '<h2>Üye ekle ya da uzat</h2><label>Ödeme yapanın Gmail adresi</label><input id="ep" type="email" placeholder="ornek@gmail.com" autocomplete="off">'+
+ '<label>Süre</label><select id="sr"><option value="12">1 yıl</option><option value="6">6 ay</option><option value="1">1 ay</option><option value="1200">Süresiz</option></select>'+
+ '<label>Not (iyzico işlem no, ad…)</label><input id="nt" autocomplete="off"><div style="margin-top:12px"><button id="ek">Üyeliği aç</button></div>'+
+ '<h2>Üyeler</h2><div class="ara"><input id="ar" placeholder="E-postada ara"></div><div id="ls" style="margin-top:8px">Yükleniyor…</div>'+
+ '<h2>Kadem anahtarı</h2><p style="font-size:14px;color:var(--muted)">Üyelerin içeriği açabilmesi için Kadem şifresini bir kez gir. Şifrenin kendisi kaydedilmez; ondan türetilen anahtar yalnız üyelere açık bir belgeye yazılır. Şifre değişince burayı yenile.</p>'+
+ '<input id="pw" type="password" placeholder="Kadem şifresi" autocomplete="off"><div style="margin-top:10px"><button id="ak">Anahtarı kaydet</button> <span id="ad" style="font-size:14px;color:var(--muted)"></span></div>';
+ $('#ek').onclick=ekle;$('#ak').onclick=anahtar;$('#ar').oninput=liste;
+ F.fs.getDoc(F.fs.doc(F.db,'kadem','anahtar')).then(function(s){$('#ad').textContent=s.exists()?'Anahtar kayıtlı.':'Anahtar henüz kaydedilmedi.'});
+ yukle()}
+var UY=[];
+function yukle(){F.fs.getDocs(F.fs.collection(F.db,'uyeler')).then(function(q){UY=[];q.forEach(function(d){UY.push({id:d.id,v:d.data()})});
+ UY.sort(function(a,b){return b.v.bitis.toMillis()-a.v.bitis.toMillis()});liste()},function(x){$('#ls').textContent='Liste okunamadı: '+x.message})}
+function liste(){var q=($('#ar').value||'').toLowerCase(),n=Date.now(),L=UY.filter(function(x){return x.id.indexOf(q)>=0});
+ $('#ls').innerHTML=L.length?L.map(function(x){var bit=x.v.bitis.toMillis()<n;return '<div class="satir'+(bit?' bitmis':'')+'"><div><b>'+e(x.id)+'</b><small>'+(bit?'Süresi doldu: ':'Bitiş: ')+tarih(x.v.bitis)+(x.v.not?' · '+e(x.v.not):'')+'</small></div><div><button class="ince" data-u="'+e(x.id)+'">+1 yıl</button> <button class="ince sil" data-s="'+e(x.id)+'">Kaldır</button></div></div>'}).join(''):'<p style="color:var(--muted)">Kayıt yok.</p>';
+ Array.prototype.forEach.call(document.querySelectorAll('[data-u]'),function(b){b.onclick=function(){uzat(b.getAttribute('data-u'),12)}});
+ Array.prototype.forEach.call(document.querySelectorAll('[data-s]'),function(b){b.onclick=function(){sil(b.getAttribute('data-s'))}})}
+function ayEkle(d,ay){var x=new Date(d);x.setMonth(x.getMonth()+ay);return x}
+function yazUye(ep,ay,not){var eski=UY.filter(function(x){return x.id===ep})[0],bas=eski&&eski.v.bitis.toMillis()>Date.now()?eski.v.bitis.toDate():new Date();
+ var veri={bitis:F.fs.Timestamp.fromDate(ayEkle(bas,ay)),guncelleme:F.fs.serverTimestamp(),ekleyen:U.email};if(not)veri.not=not;if(!eski)veri.eklendi=F.fs.serverTimestamp();
+ return F.fs.setDoc(F.fs.doc(F.db,'uyeler',ep),veri,{merge:true})}
+function ekle(){var ep=($('#ep').value||'').trim().toLowerCase();if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(ep)){msg('Geçerli bir e-posta yaz.');return}
+ msg('Kaydediliyor…');yazUye(ep,+$('#sr').value,($('#nt').value||'').trim()).then(function(){msg(ep+' için üyelik açıldı.');$('#ep').value='';$('#nt').value='';yukle()},function(x){msg('Kaydedilemedi: '+x.message)})}
+function uzat(ep,ay){msg('Uzatılıyor…');yazUye(ep,ay,'').then(function(){msg(ep+' bir yıl uzatıldı.');yukle()},function(x){msg('Uzatılamadı: '+x.message)})}
+function sil(ep){if(!confirm(ep+' üyeliği kaldırılsın mı?'))return;F.fs.deleteDoc(F.fs.doc(F.db,'uyeler',ep)).then(function(){msg(ep+' kaldırıldı.');yukle()},function(x){msg('Kaldırılamadı: '+x.message)})}
+function anahtar(){var pw=$('#pw').value;if(!pw){msg('Şifreyi yaz.');return}msg('Şifre doğrulanıyor…');var bits;
+ fetch('data/kadem/anahtar.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(A){
+  return crypto.subtle.importKey('raw',new TextEncoder().encode(pw),'PBKDF2',false,['deriveBits']).then(function(k){return crypto.subtle.deriveBits({name:'PBKDF2',salt:b64(A.tuz),iterations:A.tur,hash:'SHA-256'},k,256)})})
+ .then(function(b){bits=b;return crypto.subtle.importKey('raw',b,'AES-GCM',false,['decrypt'])}).then(function(k){
+  return fetch('data/kadem/konu/kuran-2.enc',{cache:'no-cache'}).then(function(r){return r.text()}).then(function(t){var u=b64(t.trim());return crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12))})})
+ .then(function(){return F.fs.setDoc(F.fs.doc(F.db,'kadem','anahtar'),{anahtar:b64e(bits),guncelleme:F.fs.serverTimestamp()})})
+ .then(function(){$('#pw').value='';$('#ad').textContent='Anahtar kayıtlı.';msg('Anahtar kaydedildi. Üyeler artık içeriği açabilir.')},function(x){msg(x&&x.name==='OperationError'?'Şifre yanlış.':'Kaydedilemedi: '+(x&&x.message||x))})}
+})();
+</script></body></html>

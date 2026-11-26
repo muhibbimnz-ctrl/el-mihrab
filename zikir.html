@@ -67,4 +67,4 @@ document.getElementById('bk').onclick=function(e){if(document.referrer.indexOf(l
 trs();
 fetch('data/zikir.json').then(function(r){return r.json()}).then(function(d){D=d;var h=location.hash.slice(1),m=h.match(/^hepsi-(\d+)_(\d+)$/);if(m){CH=[+m[1],+m[2]];ciz('hepsi')}else ciz(D[h]||h==='hepsi'?h:(new Date().getHours()<15?'sabah':'aksam'))}).catch(function(){M.innerHTML='<p class="note">Zikirler yüklenemedi; internet bağlantınızı kontrol edin.</p>'});
 </script>
-<script src="hesap-ayar.js?v=1"></script><script src="hesap.js?v=2" defer></script></body></html>
+<script src="hesap-ayar.js?v=2"></script><script src="hesap.js?v=3" defer></script></body></html>

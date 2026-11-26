@@ -1,12 +1,34 @@
 rules_version = '2';
-// el-Mihrâb: her kullanıcı yalnız kendi belgesini okuyup yazabilir. Başka hiçbir şeye erişim yok.
+// el-Mihrâb: her kullanıcı yalnız kendi belgesini okuyup yazabilir.
+// Kadem üyeliği: ödeme yapan Gmail adresleri "uyeler/{eposta}" belgesinde durur; Kadem anahtarı ("kadem/anahtar")
+// yalnız süresi dolmamış üyelere açılır. Üyeleri ve anahtarı yalnız "yoneticiler/{eposta}" listesindekiler yazar.
 service cloud.firestore {
   match /databases/{database}/documents {
+    function eposta() { return request.auth.token.email.lower() }
+    function girisli() { return request.auth != null && request.auth.token.email_verified == true }
+    function yonetici() { return girisli() && exists(/databases/$(database)/documents/yoneticiler/$(eposta())) }
+    function uye() {
+      return girisli() && exists(/databases/$(database)/documents/uyeler/$(eposta()))
+        && get(/databases/$(database)/documents/uyeler/$(eposta())).data.bitis > request.time
+    }
+
     match /kullanicilar/{uid} {
       allow read, delete: if request.auth != null && request.auth.uid == uid;
       allow create, update: if request.auth != null && request.auth.uid == uid
                             && request.resource.data.veri is string
                             && request.resource.data.veri.size() < 1000000;
+    }
+    match /uyeler/{e} {
+      allow read: if (girisli() && eposta() == e) || yonetici();
+      allow write: if yonetici();
+    }
+    match /kadem/anahtar {
+      allow read: if uye() || yonetici();
+      allow write: if yonetici();
+    }
+    match /yoneticiler/{e} {
+      allow read: if girisli() && eposta() == e;
+      allow write: if false;
     }
     match /{document=**} { allow read, write: if false; }
   }

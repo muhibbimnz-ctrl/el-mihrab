@@ -9,3 +9,13 @@ window.HESAP_AYAR = {
   appId: "1:…:web:…"
 };
 */
+
+/* Kadem satışı. odemeLinki: iyzico panelinde oluşturulan 250 TL'lik "Linkle Ödeme" adresi.
+   Boş kaldıkça satın alma düğmesi görünmez; Google ile giriş ve eski şifreyle giriş çalışmaya devam eder.
+   Satın alma düğmesi Android uygulamasında (Google Play) gösterilmez: Play, dijital içeriği yalnız kendi ödeme sistemiyle sattırır. */
+window.KADEM_SATIS = {
+  fiyat: '250 TL',
+  sure: '1 yıl',
+  odemeLinki: '',
+  iletisim: ''
+};

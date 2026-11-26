@@ -171,7 +171,7 @@ function kur() {
   ciz();
   var giris_yapilmis = !!J('hesap.uid', null);
   /* Firebase yalnız düğmesi olan sayfada ya da daha önce giriş yapılmışsa yüklenir (sayfa hızı için) */
-  if (!dugmeler.length && !giris_yapilmis) return;
+  if (!dugmeler.length && !giris_yapilmis && !document.documentElement.hasAttribute('data-hesap')) return;
   var ilk = true;
   yukle().then(function (f) {
     f.au.getRedirectResult(f.auth).catch(function () {});
@@ -179,13 +179,18 @@ function kur() {
       var onceki = U; U = u || null;
       if (U) { Y('hesap.uid', U.uid); esitle(ilk ? 'acilis' : 'giris').then(function () { if (!onceki && !ilk) bildir('Hoş geldin, ' + (U.displayName || U.email)) }) }
       else try { LS.removeItem('hesap.uid') } catch (e) {}
-      ilk = false; ciz();
+      ilk = false; ciz(); bildirOturum();
     });
   }).catch(function (x) { console.warn('Hesap yüklenemedi', x) });
   /* Değişiklik olunca: sayfadan çıkarken ve en geç 2 dakikada bir eşitle */
   document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'hidden' && U) esitle('cikis-sayfa') });
   setInterval(function () { if (U && document.visibilityState === 'visible') { var L = yerel(), d = false; for (var k in L.z) if ((L.z[k] || 0) > sonEsit) { d = true; break } if (d) esitle('aralik') } }, 120000);
 }
-window.Hesap = { ac: function () { pencere() }, esitle: function () { return esitle('el') }, kullanici: function () { return U } };
+/* Kadem üyeliği için: Firebase'e erişim ve oturum değişikliği bildirimi (kadem.html, yonetim.html) */
+var dinleyen = [];
+function bildirOturum() { dinleyen.forEach(function (f) { try { f(U) } catch (e) {} }) }
+window.Hesap = { ac: function () { pencere() }, esitle: function () { return esitle('el') }, kullanici: function () { return U },
+  hazir: function () { return !!A }, firebase: function () { return A ? yukle() : Promise.reject('ayar') },
+  dinle: function (f) { dinleyen.push(f); if (U) f(U) } };
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', kur); else kur();
 })();
