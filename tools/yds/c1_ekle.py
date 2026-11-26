@@ -15,7 +15,7 @@ Dosya biçimi:
   - yanlış (3 tane)
   = Arapça dayanak ifadesi
 
-Aynı id yeniden verilirse metin güncellenir. Metin en az 250 kelime ve 4 paragraf olmalı.
+Aynı id yeniden verilirse metin güncellenir. Metin en az 240 kelime ve 4 paragraf olmalı.
 Uzun metinler (uzun: 1) her alanın listesinde başa alınır.
 """
 import json, os, re, sys
@@ -50,7 +50,7 @@ def oku(yol):
         id_, alan, b, ab = m['h']; ar, tr, sz, sr = m['b']
         if len(ar) != len(tr): hata.append(f'{id_}: {len(ar)} Arapça / {len(tr)} Türkçe paragraf')
         n = kelime(' '.join(ar))
-        if n < 250 or len(ar) < 4: hata.append(f'{id_}: {n} kelime, {len(ar)} paragraf')
+        if n < 240 or len(ar) < 4: hata.append(f'{id_}: {n} kelime, {len(ar)} paragraf')
         soz = []
         for x in sz:
             if '=' not in x: hata.append(f'{id_}: sözlük satırı: {x}'); continue

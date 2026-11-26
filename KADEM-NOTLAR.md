@@ -286,3 +286,8 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 - MBSTS 28. deneme yayımlandı (60 soru).
 - MBSTS 29. deneme yayımlandı (60 soru).
 - MBSTS 30. deneme yayımlandı (60 soru).
+
+## 16. oturum — 27 Kasım 2026 (YDS: 14. deneme, uzun C1 metinler, sözlük/hareke/süre)
+- **YDS 14. deneme** (80 soru; 6 uzun parça elle harekeli: Cezerî, mercan resifleri, plasebo, doğrulama yanlılığı, hareke-noktanın tarihi, Osmanlı İstanbul’unun suyu). Üretici artık depoda: `tools/yds/deneme_yaz.py kaynak.txt [--yeniden]` (biçim dosyanın başında; id/pasaj çakışması, dağılım, 4+4+3+3+3+3, ≥230 kelime denetimi, doğru şıklar 16’şar). Kaynak metin depo dışında: /home/claude/src/yds14.txt. banka.json’da yeni anahtar `sozluk` {pasaj id → [[kelime, anlam]]}.
+- **Arayüz (medrese.js):** okuma parçalarında ve modern metinlerde her kelime dokunulabilir (`.w`), alttaki `#kpop` kartında anlam: metnin sözlüğü → YDS/modern sözlükleri → data/roman/sozluk_ar.json (arkok.js `arAday` ile kök/ek ayıklama). **Harekele** düğmesi yalnız elle harekeli metinlerde çıkar (kullanıcı otomatik harekeyi istemedi; kaldırıldı). Deneme başında **Süreli (180 dk) / Süresiz** seçimi (`medrese.ydsD.sur`).
+- **Uzun C1 metinler:** kullanıcı isteği: eski metinler kalsın, her alana 5 uzun (≥250 kelime) C1 metin + 4 yeni alan (her birine 5). Uzunlar alan listesinde başta. Araç: `tools/yds/c1_ekle.py tools/yds/c1/*.txt` (kaynaklar depoda, `uzun:1` alanı). Çok kısa eski metinler aynı alandaki yakın konulu kısa metinlerle birleştirilecek.
