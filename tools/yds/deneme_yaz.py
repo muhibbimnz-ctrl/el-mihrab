@@ -5,7 +5,7 @@ Kaynak metin (depo dışında tutulur; banka.json şifreli gider):
 
   #dn 14
   @pasaj c1            → d14_c1  (cloze: (1) ---- … (5) ----)
-  @pasaj p1            → okuma parçası (çok paragraflı, ≥230 kelime; elle harekeli yazılabilir)
+  @pasaj p1            → okuma parçası (YDS boyu: tek paragraf, 110–200 kelime; elle harekeli yazılabilir)
   @pasaj b1            → parçada boşluk (tek ----)
   @pasaj z1            → anlamı bozan ((I) … (V))
   @sozluk p1           → satır satır  كلمة = anlam  (dokununca önce bu sözlük aranır)
@@ -15,7 +15,7 @@ Kaynak metin (depo dışında tutulur; banka.json şifreli gider):
   - yanlış şık  (4 tane)
   > Türkçe açıklama (şık harfine/sırasına atıf yapılmaz; şıklar yeniden dizilir)
 
-Denetler: tip dağılımı, 5 farklı şık, pasaj varlığı, cloze boşluk sayısı, okuma parçası uzunluğu ve
+Denetler: tip dağılımı, 5 farklı şık, pasaj varlığı, cloze boşluk sayısı, okuma parçası uzunluğu (YDS boyu) ve
 4+4+3+3+3+3 dağılımı, id/pasaj çakışması, bankada aynı soru kökü. Doğru şıkları her harfte 16 olacak
 biçimde dizer (anlamı bozan sorularının cevabı sabittir, öbürleri ona göre dengelenir).
 """
@@ -130,8 +130,7 @@ def main():
         elif k.startswith('p'):
             n, pr = kelime_say(v), v.count('\n') + 1
             okuma.append((k, n, pr, len(pq.get(k, []))))
-            if n < 230: hata.append(f'{k}: {n} kelime (en az 230)')
-            if pr < 3: hata.append(f'{k}: {pr} paragraf (en az 3)')
+            if not 110 <= n <= 200: hata.append(f'{k}: {n} kelime (YDS boyu 110–200)')
         elif k.startswith('b'):
             if v.count('----') != 1: hata.append(f'{k}: tek ---- olmalı')
         elif k.startswith('z'):
