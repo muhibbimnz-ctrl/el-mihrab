@@ -1,7 +1,7 @@
 /* el-Mihrâb service worker
    - Uygulama kabuğu: önce telefondaki kopya (hemen açılır), arkada yenisi indirilir
    - Kur'an, meal, tefsir, kıraat servisleri: önce ağ (8 sn), olmazsa daha önce okunan kopya, o da yoksa bir kez daha dener */
-const V='mihrab-v261', DATA='mihrab-data-v1';
+const V='mihrab-v262', DATA='mihrab-data-v1';
 /* Cloudflare Pages "x.html" adresini "x"e yönlendirir. Yönlendirilmiş cevap telefona olduğu gibi saklanırsa
    internetsiz açılışta tarayıcı onu reddeder; bu yüzden temiz bir kopyası saklanır ve iki adres de denenir. */
 function temiz(r){return r&&r.redirected?new Response(r.body,{status:r.status,statusText:r.statusText,headers:r.headers}):r}
