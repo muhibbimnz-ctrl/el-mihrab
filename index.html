@@ -556,7 +556,7 @@ a{color:var(--accent)}
   <button class="tile big4" id="hIhtisas"><svg viewBox="0 0 64 48"><path d="M10 40V14l22-8 22 8v26" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M18 40V20M26 40V20M38 40V20M46 40V20M6 42h52" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><b>İhtisas</b><span class="hm-sub">Belâgat · Tefsir · Hadis · Fıkıh</span></button>
   <button class="tile" id="hKadem" style="grid-column:1/-1;aspect-ratio:auto!important;min-height:0;padding:14px 10px!important;background:linear-gradient(135deg,#0e3d31,#1d5c4a 55%,#b08a3e)"><svg viewBox="0 0 64 48"><path d="M6 42h14V32h12V22h12V12h14" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 6l8 6-8 6" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></svg><b>Kadem</b><span class="hm-sub">Diyanet sınavları · MBSTS · DHBT · Müftü yardımcılığı</span></button>
   </div>
-  <div class="hm-links"><a href="#" id="hList">Sûre seç</a> · <a href="#" onclick="about();return false">Hakkında ve destek</a></div>
+  <div class="hm-links"><a href="#" id="hList">Sûre seç</a> · <a href="#" onclick="about();return false">Hakkında</a></div>
 </div></section><script>(function(){var h=document.getElementById('home'),d=document.documentElement;function g(){d.classList.toggle('evde',!h.classList.contains('hide'));if(!h.classList.contains('hide'))d.classList.remove('yukl')}g();var mm=document.querySelector('main');if(mm)try{new MutationObserver(function(){if(mm.childElementCount)setTimeout(function(){d.classList.remove('yukl')},60)}).observe(mm,{childList:true,subtree:true})}catch(e){}try{new MutationObserver(g).observe(h,{attributes:true,attributeFilter:['class']})}catch(e){}})();</script>
 
 
@@ -671,7 +671,7 @@ a{color:var(--accent)}
    <p class="note">Sûre adları, arayüz yazıları ve yazılım bu çalışma için hazırlanmıştır.</p>
   </div></div></div>
 <div class="ov hide" id="ovH"><div class="in" style="max-width:680px">
-  <div class="hd"><h2>Hakkında ve destek</h2><button class="ib x"></button></div>
+  <div class="hd"><h2>Hakkında</h2><button class="ib x"></button></div>
   <div class="bd src" id="ovHB" data-nt></div></div></div>
 <div class="ov hide" id="ovI"><div class="in" style="max-width:460px">
   <div class="hd"><h2>Uygulama olarak kur</h2><button class="ib x"></button></div>
@@ -813,7 +813,7 @@ const I18N={
  "Okuma ve kaynaklar":["القراءة والمصادر","Reading & sources"],"Okuma ekranı:":["شاشة القراءة:","Reading view:"],"tefsir okurken âyet üstte sabit kalsın":["تبقى الآية ثابتة أثناء قراءة التفسير","keep the verse fixed while reading tafsir"],
  "Kapalıyken tefsir, âyetin hemen altında açılan kutuda gösterilir.":["عند الإيقاف يُعرض التفسير تحت الآية مباشرة.","When off, tafsir opens in a box right under the verse."],
  "Ses":["الصوت","Audio"],"Âyet bitince sonrakine geç":["الانتقال إلى الآية التالية تلقائيًا","Continue to the next verse automatically"],
- "Hakkında ve destek":["عن العمل والدعم","About & support"],"Hakkında ve destek ›":["عن العمل والدعم ‹","About & support ›"],
+ "Hakkında":["عن العمل","About"],"Hakkında ›":["عن العمل ‹","About ›"],
  "Kur'an ve Namaz":["القرآن والصلاة","Qur'an & Prayer"],"Ezan vakitleri · Kur'ân-ı Kerîm · Ezber":["مواقيت الصلاة · المصحف · الحفظ","Prayer times · Qur'an · Memorise"],
  "Kur'ân-ı Kerîm oku":["قراءة المصحف","Read the Qur'an"],"Ezber (Hıfz)":["الحفظ","Memorise (Hifz)"],"el-Mihrâb Dirâset":["دراسة المحراب","el-Mihrâb Study"],
  "Tefsir · İ'râb · Belâgat · Kıraat · Meâller":["التفسير · الإعراب · البلاغة · القراءات","Tafsir · I'rab · Balagha · Qira'at"],
@@ -900,26 +900,29 @@ en:`<p>Every text is fetched as it is, at the moment you read it, from the publi
 <p><b>The only processing done by the program:</b> some tafsirs are stored page by page at the source. The program finds where the commentary on your verse begins and shows the text from there, without altering it. In that case a <i>show the whole page</i> link appears.</p>
 <p><b>If you see a mistake:</b> compare the text with the source page. If they differ, the fault is ours — please tell us; otherwise it comes from the digital edition at the source. For scholarly citation, refer to the printed edition.</p>
 <p class="note">Surah names, interface texts and the software were prepared for this work.</p>`};
-const ACC=(l)=>`<p style="text-align:center;margin:14px 0"><a class="pill" style="display:inline-block;padding:10px 18px;text-decoration:none;font-weight:700" href="https://huzurmedreseleri.com" target="_blank" rel="noopener">${l[0]} ›</a></p>`;
+const ACC=(l)=>`<p style="text-align:center;margin:14px 0"><a class="pill" style="display:inline-block;padding:10px 18px;text-decoration:none;font-weight:700" href="https://x.com/hohrzade340" target="_blank" rel="noopener">${l[0]} ›</a></p>`;
 const ABOUT_PG={
 tr:`<p><b>el-Mihrâb</b>, Kur'ân-ı Kerîm'i meâlleri, tefsirleri, i'râbı, belâgatı, kıraatleri ve tilâvetiyle tek yerde okumak isteyenler için hazırlanmış ücretsiz bir çalışmadır. Reklam göstermez, üyelik istemez.</p>
 <p>Bir âyetin altındaki düğmelerden birine dokunun; seçtiğiniz kitabın o âyetle ilgili metni açılır. Rivâyet ve dirâyet tefsirleri, i'râb ve belâgat kitapları, on kıraatin farkları ve Türkçe, Arapça, İngilizce arayüz bir aradadır. Bütün metinler yayımlanmış kaynaklardan olduğu gibi alınır; ayrıntısı <a href="#" id="hSrc">Kaynaklar ve güvenilirlik</a> sayfasındadır.</p>
-<h4 style="font-family:var(--disp);font-size:21px;color:var(--accent);margin:18px 0 6px">Destek</h4>
-<p>Bu çalışma kendisi için bağış toplamaz. Destek olmak isterseniz, İslâmî ilimleri medresede okuyan öğrencilere destek veren Huzur Medreseleri'nin sitesine girip oradan destek verebilirsiniz.</p>
-${ACC(['huzurmedreseleri.com'])}
-<p class="note">Rabbim yaptığınız yardımları kabul etsin.</p>`,
+<h4 style="font-family:var(--disp);font-size:21px;color:var(--accent);margin:18px 0 6px">Bağış</h4>
+<p>el-Mihrâb hiçbir şekilde bağış, yardım ya da maddî destek kabul etmez. Bu çalışma adına para isteyen biri olursa itibar etmeyin.</p>
+<h4 style="font-family:var(--disp);font-size:21px;color:var(--accent);margin:18px 0 6px">İletişim</h4>
+<p>Görüş, öneri ve hata bildirimleri için X (Twitter) hesabımızdan yazabilirsiniz.</p>
+${ACC(['X · @hohrzade340'])}`,
 ar:`<p><b>المحراب</b> عمل مجاني لمن يريد قراءة القرآن الكريم مع تفاسيره وإعرابه وبلاغته وقراءاته وتلاوته في مكان واحد. بلا إعلانات وبلا تسجيل.</p>
 <p>اضغط أحد الأزرار تحت الآية فيُفتح نص الكتاب المختار المتعلق بتلك الآية. يجمع تفاسير الرواية والدراية وكتب الإعراب والبلاغة وفروق القراءات العشر، بواجهة عربية وتركية وإنجليزية. كل النصوص مأخوذة كما هي من مصادر منشورة؛ والتفصيل في صفحة <a href="#" id="hSrc">المصادر والموثوقية</a>.</p>
-<h4 style="font-family:var(--disp);font-size:21px;color:var(--accent);margin:18px 0 6px">الدعم</h4>
-<p>هذا العمل لا يجمع تبرعات لنفسه. من أراد الدعم فليدخل موقع «مدارس حضور» التي تدعم طلاب العلوم الشرعية ويقدّم دعمه من هناك.</p>
-${ACC(['huzurmedreseleri.com'])}
-<p class="note">تقبّل الله منكم.</p>`,
+<h4 style="font-family:var(--disp);font-size:21px;color:var(--accent);margin:18px 0 6px">التبرعات</h4>
+<p>«المحراب» لا يقبل أي تبرع أو مساعدة مالية بأي شكل من الأشكال. إن طلب أحدٌ مالًا باسم هذا العمل فلا تلتفتوا إليه.</p>
+<h4 style="font-family:var(--disp);font-size:21px;color:var(--accent);margin:18px 0 6px">التواصل</h4>
+<p>للملاحظات والاقتراحات والإبلاغ عن الأخطاء يمكنكم مراسلتنا على حسابنا في X (تويتر).</p>
+${ACC(['X · @hohrzade340'])}`,
 en:`<p><b>el-Mihrâb</b> is a free work for anyone who wants to read the Qur'an together with its translations, tafsirs, i'rab, balagha, variant readings and recitation in one place. No ads, no sign-up.</p>
 <p>Tap one of the buttons under a verse and the chosen book's text on that verse opens. It brings together transmitted and analytical tafsirs, i'rab and balagha works and the ten readings, with a Turkish, Arabic and English interface. All texts are taken as they are from published sources; see <a href="#" id="hSrc">Sources & reliability</a>.</p>
-<h4 style="font-family:var(--disp);font-size:21px;color:var(--accent);margin:18px 0 6px">Support</h4>
-<p>This work does not collect donations for itself. If you wish to support, you can visit the site of Huzur Madrasas, which supports students of the Islamic sciences, and give there.</p>
-${ACC(['huzurmedreseleri.com'])}
-<p class="note">May Allah accept your charity.</p>`};
+<h4 style="font-family:var(--disp);font-size:21px;color:var(--accent);margin:18px 0 6px">Donations</h4>
+<p>el-Mihrâb does not accept donations, aid or financial support of any kind. If anyone asks for money in the name of this work, please disregard it.</p>
+<h4 style="font-family:var(--disp);font-size:21px;color:var(--accent);margin:18px 0 6px">Contact</h4>
+<p>For feedback, suggestions and error reports, you can write to us on X (Twitter).</p>
+${ACC(['X · @hohrzade340'])}`};
 function about(){openOv('ovH');$('#ovHB').innerHTML=ABOUT_PG[LANG];$('#hSrc').onclick=e=>{e.preventDefault();openOv('ovK')};}
 const INST_PG={
 ar:`<p><b>آيفون / آيباد (Safari):</b><br>١. اضغط على رمز <b>المشاركة</b>.<br>٢. اختر <b>إضافة إلى الشاشة الرئيسية</b>.<br>٣. اضغط <b>إضافة</b>.</p><p><b>أندرويد (Chrome):</b><br>من قائمة <b>⋮</b> اختر <b>تثبيت التطبيق</b> أو <b>إضافة إلى الشاشة الرئيسية</b>.</p>`,
@@ -1070,7 +1073,7 @@ function ayHTML(a){
 function render(){
   const s=st.s;ahkYukle();
   $('#main').innerHTML=head(s)+st.ay.map(ayHTML).join('')+`<div class="nav">${s>1?`<button onclick="loadSurah(${s-1})">‹ ${SN()[s-2]}</button>`:''}${s<114?`<button onclick="loadSurah(${s+1})">${SN()[s]} ›</button>`:''}</div>
-   <div class="credit"><a href="#" onclick="openOv('ovK');return false">Kaynaklar ve güvenilirlik</a> · <a href="#" onclick="about();return false">Hakkında ve destek</a></div>`;
+   <div class="credit"><a href="#" onclick="openOv('ovK');return false">Kaynaklar ve güvenilirlik</a> · <a href="#" onclick="about();return false">Hakkında</a></div>`;
   setTimeout(()=>qcfEnhance(st.s),0);
   if(st.playing&&st.playA)markPlay(st.playA);
 }
@@ -1642,7 +1645,7 @@ function settings(){
    <section style="grid-column:1/-1"><h4>Okuma ve kaynaklar</h4>
     <label class="ck"><input type="checkbox" id="rdC" ${set.reader?'checked':''}> <b>Okuma ekranı:</b> tefsir okurken âyet üstte sabit kalsın</label>
     <p class="note">Kapalıyken tefsir, âyetin hemen altında açılan kutuda gösterilir.</p>
-    <button class="pill" id="srcB">Kaynaklar ve güvenilirlik ›</button> <button class="pill" id="abtB">Hakkında ve destek ›</button></section>
+    <button class="pill" id="srcB">Kaynaklar ve güvenilirlik ›</button> <button class="pill" id="abtB">Hakkında ›</button></section>
    <section><h4>Ses</h4><div class="f"><label class="l">Kâri</label><select id="rS">${RECITERS.map(r=>`<option value="${r[0]}" ${r[0]===set.reciter?'selected':''}>${r[1]}</option>`).join('')}</select></div>
     <label class="ck"><input type="checkbox" id="cC" ${set.cont?'checked':''}> Âyet bitince sonrakine geç</label></section></div>`;
   $$('[data-th]',B).forEach(x=>x.onclick=()=>{set.theme=x.dataset.th;save();applyVars();settings()});
