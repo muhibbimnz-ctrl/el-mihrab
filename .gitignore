@@ -10,3 +10,5 @@ data/kadem/konu/*.json
 data/kadem/deneme/*.json
 !data/kadem/konu/kuran-1.json
 !data/kadem/deneme/mbsts-1.json
+# YDS Arapça bankası şifreli gider (banka.enc); açık örnek ornek.json
+data/yds/banka.json

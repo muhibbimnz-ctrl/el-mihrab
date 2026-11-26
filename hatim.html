@@ -68,4 +68,4 @@ function grupAc(i){acikG=i;var g=H.gruplar[i],S=$('#s-grup'),n=g.c.filter(functi
     if(navigator.share)navigator.share({text:t}).catch(function(){});else{try{navigator.clipboard.writeText(t);toast('Liste kopyalandı')}catch(e){}}}}
 $$('.sekme button').forEach(function(b){b.onclick=function(){$$('.sekme button').forEach(function(x){x.classList.toggle('on',x===b)});['ben','grup','gecmis'].forEach(function(s){$('#s-'+s).classList.toggle('hide',s!==b.dataset.s)})}});
 ben();grup();gecmis();
-</script><script src="hesap-ayar.js?v=7"></script><script src="hesap.js?v=5" defer></script></body></html>
+</script><script src="hesap-ayar.js?v=8"></script><script src="hesap.js?v=5" defer></script></body></html>

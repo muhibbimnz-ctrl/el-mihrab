@@ -7,7 +7,7 @@
 <title>Kadem · el-Mihrâb</title>
 <meta name="theme-color" content="#f3efe6">
 <link rel="icon" href="icon-192.png">
-<link rel="stylesheet" href="tema.css?v=1"><script src="tema.js?v=1"></script>
+<link rel="stylesheet" href="tema.css?v=1"><script src="tema.js?v=1"></script><script src="kilit.js?v=1"></script>
 <style>
 :root{--bg:#f3efe6;--kagit:#fffdf9;--ink:#1d1b17;--muted:#6d665a;--line:#dcd3c1;--rule:#b9ad94;--acc:#1d5c4a;--yaldiz:#8c6d2c;--ok:#2d6a3e;--no:#9a2f2a;--uyari:#8a5d10;--uyaribg:#f6ecd5;
  --serif:"Iowan Old Style","Palatino Linotype","Book Antiqua",Palatino,"Noto Serif",Georgia,serif;--sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--mono:ui-monospace,"SF Mono","Cascadia Mono",Consolas,monospace}
@@ -90,7 +90,7 @@ details.ders>summary{color:var(--ink)}
 /* Giriş */
 .giris{max-width:380px;margin:40px auto;text-align:center}
 .x-kutu{display:flex;gap:12px;align-items:center;text-align:left;margin:14px 0;padding:12px 14px;border-radius:14px;background:#0f1419;color:#fff;text-decoration:none}.x-kutu .x-ik{font-size:24px;font-weight:700;width:38px;height:38px;border-radius:50%;background:#fff;color:#0f1419;display:grid;place-items:center;flex:none}.x-kutu b{display:block;font-size:15px}.x-kutu small{display:block;font-size:12.5px;opacity:.8;line-height:1.45;margin-top:2px}.x-kutu em{font-style:normal;font-size:22px;opacity:.7}
-.giris .x-kutu{margin:16px 0 14px}.kilit-ikon{font-size:34px;margin-bottom:6px}.kilit{font-size:.85em;opacity:.75}
+.giris .x-kutu{margin:16px 0 14px}.paketler{display:grid;gap:8px;margin-top:6px}.paket{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:11px 13px;border:1px solid var(--rule);border-radius:12px;text-decoration:none;color:inherit;background:var(--kagit)}.paket b{font-size:15px}.paket small{grid-column:1;color:var(--muted,#667);font-size:12.5px;line-height:1.35}.paket span{grid-column:2;grid-row:1/3;align-self:center;font-size:13px;color:var(--acc);font-weight:600;white-space:nowrap}.kilit-ikon{font-size:34px;margin-bottom:6px}.kilit{font-size:.85em;opacity:.75}
 .uyelik{margin:18px 0 8px;display:grid;gap:10px;text-align:left}.uyelik .fiyat{display:flex;align-items:baseline;gap:10px;justify-content:center}.uyelik .fiyat b{font-size:28px}.uyelik .fiyat span{color:var(--muted,#667);font-size:14px}.btn.ikinci{display:block;text-align:center;text-decoration:none;background:transparent;color:var(--acc);border:1.5px solid var(--acc)}details.sifrem{margin-top:14px;text-align:left}details.sifrem summary{cursor:pointer;color:var(--muted,#667);font-size:14px}details.sifrem form{display:grid;gap:8px;margin-top:8px}.kilit-serit{display:flex;gap:10px;align-items:center;justify-content:space-between;margin:14px 0;padding:12px 14px;border:1px dashed var(--rule);border-radius:12px;color:inherit;text-decoration:none;font-size:14px}.kilit-serit em{font-style:normal;font-weight:700;color:var(--acc);white-space:nowrap}
 .giris input{width:100%;font:17px var(--sans);padding:11px 12px;border:1px solid var(--rule);border-radius:3px;background:var(--kagit);color:var(--ink);margin:14px 0 10px;text-align:center}
 /* Künye tablosu */
@@ -427,18 +427,14 @@ function e(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'
 function toast(t){var x=$('#toast');x.textContent=t;x.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(function(){x.classList.remove('on')},2400)}
 /* Şifreleme: sınav listesi, sınav dosyaları ve her dersin ilk ünitesi (konu/*-1.json) açık; geri kalan içerik AES-GCM ile şifreli (.enc). Anahtar şifreden PBKDF2 ile türetilir
    (data/kadem/anahtar.json: tuz ve tur sayısı) ve bu cihazda localStorage "kadem.anahtar" içinde saklanır. */
-var KEY=null,AK='kadem.anahtar';
-function b64(s){var b=atob(s),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u}
-function b64e(u){var s='';u=new Uint8Array(u);for(var i=0;i<u.length;i++)s+=String.fromCharCode(u[i]);return btoa(s)}
-function anahtar(){if(KEY)return Promise.resolve(KEY);var r=null;try{r=localStorage.getItem(AK)}catch(x){}
- if(!r||!window.crypto||!crypto.subtle)return Promise.reject('yok');
- return crypto.subtle.importKey('raw',b64(r),'AES-GCM',false,['decrypt']).then(function(k){return KEY=k})}
-function coz(txt,k){var u=b64(txt.trim());return(k?Promise.resolve(k):anahtar()).then(function(k){return crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12))})
- .then(function(b){return JSON.parse(new TextDecoder().decode(b))},function(x){if(x==='yok')throw x;throw'sifre'})}
+/* Anahtarlar kilit.js'de: ana anahtar (Max ya da şifre) ve paket anahtarları (Pro MBSTS, Pro YDS). */
+function b64(s){return Kilit.b64(s)}
+function coz(txt,k){return Kilit.coz(txt,k)}
 function acik(u){return/^data\/kadem\/[^\/]+\.json$/.test(u)||u==='data/kadem/konu/kuran-1.json'||u==='data/kadem/deneme/mbsts-1.json'}
 var XADR='https://x.com/hohrzade340',XAD='@hohrzade340';
 function xKutu(){return '<a class="x-kutu" href="'+XADR+'" target="_blank" rel="noopener"><span class="x-ik">𝕏</span><span><b>Devamı için bize yazın</b><small>Bütün konulara ve denemelere erişmek isterseniz X (Twitter) hesabımızdan ulaşabilirsiniz: '+XAD+'</small></span><em>›</em></a>'}
-function anahtarVar(){try{return!!localStorage.getItem(AK)}catch(x){return false}}
+function anahtarVar(){return Kilit.var()}
+function tamVar(){try{return!!localStorage.getItem('kadem.anahtar')}catch(x){return false}}
 /* Çok sayıda dosyayı aynı anda değil, en fazla n tanesi birlikte olacak şekilde yükler (telefonda donmayı önler). */
 function sirali(L,n,f){return new Promise(function(ok){var R=new Array(L.length),i=0,bitti=0;if(!L.length)return ok(R);
  function bir(){if(i>=L.length)return;var j=i++;Promise.resolve().then(function(){return f(L[j])}).then(function(x){R[j]=x},function(){R[j]=null}).then(function(){bitti++;if(bitti===L.length)ok(R);else bir()})}
@@ -451,25 +447,30 @@ function al(u){if(C[u])return Promise.resolve(C[u]);var sif=/^data\/kadem\//.tes
 /* Giriş: Google hesabıyla üyelik (ödeme iyzico ile, web sitesinde) ya da eski şifre. Üyelikte anahtar Firestore'daki
    "kadem/anahtar" belgesinden gelir; kurallar onu yalnız süresi dolmamış üyelere açar (firestore.rules). */
 function UYG(){try{return sessionStorage.getItem('mihrab.uyg')==='1'||matchMedia('(display-mode: standalone)').matches||document.referrer.indexOf('android-app://')===0}catch(x){return false}}
-function anahtarKur(bits,kaynak){return crypto.subtle.importKey('raw',bits,'AES-GCM',false,['decrypt']).then(function(k){
- return fetch('data/kadem/konu/kuran-2.enc',{cache:'no-cache'}).then(function(r){return r.text()}).then(function(x){return coz(x,k)}).then(function(){
-  try{localStorage.setItem(AK,b64e(bits));localStorage.setItem('kadem.kaynak',kaynak)}catch(x){}KEY=k;C={}})})}
+function anahtarKur(bits,kaynak){return Kilit.alt(bits,'mbsts').then(Kilit.aes).then(function(k){
+ return fetch('data/kadem/deneme/mbsts-2.enc',{cache:'no-cache'}).then(function(r){return r.text()}).then(function(x){return coz(x,k)})}).then(function(){
+  Kilit.kaydet(bits);try{localStorage.setItem('kadem.kaynak',kaynak)}catch(x){}C={}})}
+/* Üyelik: Max → kadem/anahtar (ana); Pro → kadem/anahtar-mbsts ya da kadem/anahtar-yds. Kurallar her belgeyi yalnız o paketin üyesine açar. */
 function uyeKontrol(sessiz){var H=window.Hesap;if(!H||!H.hazir||!H.hazir()||!H.kullanici())return Promise.resolve(false);
- return H.firebase().then(function(f){return f.fs.getDoc(f.fs.doc(f.db,'kadem','anahtar'))}).then(function(s){
-  if(!s.exists())throw'yok';return anahtarKur(b64(s.data().anahtar),'uye')}).then(function(){if(!sessiz||hash().giris)git('');else ac();return true},
-  function(){if(!sessiz){var m=$('#sm');if(m)m.textContent='Bu hesapta etkin bir Kadem üyeliği bulunamadı. Ödeme yaptıysan onaylanması birkaç saat sürebilir.'}return false})}
+ return H.firebase().then(function(f){var g=function(d){return f.fs.getDoc(f.fs.doc(f.db,'kadem',d)).then(function(s){return s.exists()?s.data().anahtar:null},function(){return null})};
+  return Promise.all([g('anahtar'),g('anahtar-mbsts'),g('anahtar-yds')])}).then(function(A){
+  if(A[0])return anahtarKur(b64(A[0]),'uye');
+  var P={};if(A[1])P.mbsts=A[1];if(A[2])P.yds=A[2];if(!P.mbsts&&!P.yds)throw'yok';
+  Kilit.kaydet(null,P);try{localStorage.setItem('kadem.kaynak','uye')}catch(x){}C={}}).then(function(){if(!sessiz||hash().giris)git('');else ac();return true},
+  function(){if(!sessiz){var m=$('#sm');if(m)m.textContent='Bu hesapta etkin bir üyelik bulunamadı. Ödeme yaptıysan onaylanması birkaç saat sürebilir.'}return false})}
 /* Üyelikle açılmış cihazda üyelik bitmişse anahtar silinir (eski şifreyle girenlere dokunulmaz). */
 function uyeSure(u){var H=window.Hesap;try{if(localStorage.getItem('kadem.kaynak')!=='uye')return}catch(x){return}
  if(!u){return}H.firebase().then(function(f){return f.fs.getDoc(f.fs.doc(f.db,'uyeler',(u.email||'').toLowerCase()))}).then(function(s){
-  var b=s.exists()&&s.data().bitis;if(!b||b.toMillis()<Date.now()){try{localStorage.removeItem(AK);localStorage.removeItem('kadem.kaynak')}catch(x){}KEY=null;C={};ac()}},function(){})}
+  var b=s.exists()&&s.data().bitis;if(!b||b.toMillis()<Date.now()){Kilit.sil();C={};ac()}},function(){})}
 addEventListener('DOMContentLoaded',function(){var H=window.Hesap;if(H&&H.dinle&&H.hazir&&H.hazir())H.dinle(function(u){if(u&&!anahtarVar())uyeKontrol(1).then(function(ok){if(!ok&&$('#gf'))giris()});else uyeSure(u)})});
 function giris(ne){saatGizle();renk('#1d5c4a');
  if(!ne){$('#bas').textContent='Kadem';$('#geri').textContent='el-Mihrâb';$('#geri').onclick=function(){location.href='index.html'}}
- var S=window.KADEM_SATIS||{},H=window.Hesap,hz=!!(H&&H.hazir&&H.hazir()),u=hz&&H.kullanici(),sat=hz&&S.odemeLinki&&!UYG();
+ var S=window.KADEM_SATIS||{},H=window.Hesap,hz=!!(H&&H.hazir&&H.hazir()),u=hz&&H.kullanici(),PK=(S.paketler||[]).filter(function(p){return p.link}),sat=hz&&PK.length&&!UYG();
  M.innerHTML='<div class="giris"><div class="kilit-ikon">🔒</div><div class="ust-etiket">'+(ne?e(ne.ust||'Kadem'):'el-Mihrâb')+'</div><h1>'+(ne?e(ne.ad):'Kadem')+'</h1><p class="lead" style="margin:0 auto">Kur’an Bilgisi’nin ilk konusu ve 1. Deneme herkese açık. Bütün konular, tam denemeler ve sınav haritaları üyelikle açılır.</p>'+
-  (hz?'<div class="uyelik">'+(sat?'<div class="fiyat"><b>'+e(S.fiyat||'')+'</b><span>'+e(S.sure?S.sure+' erişim · bütün sınavlar':'bütün sınavlar')+'</span></div>':'')+
+  (hz?'<div class="uyelik">'+
    (u?'<p class="kucukyazi">Giriş yapılan hesap: <b>'+e(u.email||'')+'</b></p><button class="btn" id="uk" style="width:100%">Üyeliğimi kontrol et</button>':'<button class="btn" id="gg" style="width:100%">Google ile giriş yap</button>')+
-   (sat?'<a class="btn ikinci" id="sa" href="'+e(S.odemeLinki)+'" target="_blank" rel="noopener" style="width:100%">Kartla satın al · '+e(S.fiyat||'')+'</a><p class="kucukyazi">Ödeme iyzico güvenli ödeme sayfasında yapılır. Formdaki e-posta alanına <b>Google ile giriş yaptığın Gmail adresini</b> yaz; üyeliğin o adrese açılır. Onay genellikle aynı gün içinde verilir'+(S.iletisim?'; sorun olursa: '+e(S.iletisim):'')+'.</p>':'')+'</div>':'')+
+   (sat?'<div class="paketler">'+PK.map(function(p){return'<a class="paket" href="'+e(p.link)+'" target="_blank" rel="noopener"><b>'+e(p.ad)+'</b><small>'+e(p.kapsam||'')+'</small><span>'+e(p.fiyat||'')+(S.sure?' · '+e(S.sure):'')+' ›</span></a>'}).join('')+'</div>'+
+    '<p class="kucukyazi">Ödeme iyzico güvenli ödeme sayfasında kartla yapılır. Formdaki e-posta alanına <b>Google ile giriş yaptığın Gmail adresini</b> yaz; üyeliğin o adrese açılır. Onay genellikle aynı gün içinde verilir'+(S.iletisim?'; sorun olursa: '+e(S.iletisim):'')+'. <a href="kadem-uyelik.html">Paketlerin ayrıntısı</a></p>':'')+'</div>':'')+
   '<details class="sifrem"'+(sat?'':' open')+'><summary>Şifrem var</summary><form id="gf"><input type="password" id="sf" autocomplete="current-password" placeholder="Şifre" required><button class="btn" style="width:100%">Şifreyle giriş</button></form></details><p class="kucukyazi" id="sm" style="min-height:20px"></p></div>';
  if($('#gg'))$('#gg').onclick=function(){H.ac()};
  if($('#uk'))$('#uk').onclick=function(){$('#sm').textContent='Kontrol ediliyor…';uyeKontrol(0)};
@@ -494,7 +495,7 @@ temaUygula();
 function hash(){var o={};location.hash.replace(/^#/,'').split('&').forEach(function(p){var a=p.split('=');if(a[0])o[a[0]]=decodeURIComponent(a[1]||'')});return o}
 function git(h){location.hash=h}
 function karistir(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
-function hata(x){if(x==='sifre'||x==='yok'){try{localStorage.removeItem(AK)}catch(y){}KEY=null;return giris()}M.innerHTML='<div class="bos-kutu">İçerik yüklenemedi. İnternet bağlantını kontrol edip tekrar dene.</div>'}
+function hata(x){if(x==='sifre')Kilit.sil();if(x==='sifre'||x==='yok'||x==='kilit')return giris();M.innerHTML='<div class="bos-kutu">İçerik yüklenemedi. İnternet bağlantını kontrol edip tekrar dene.</div>'}
 function saatYaz(sn){sn=Math.max(0,Math.round(sn));var d=Math.floor(sn/60),s=sn%60;return d+':'+(s<10?'0':'')+s}
 function tarih(t){var g=Math.round((t-Date.now())/GUN);return g<=0?'bugün':g===1?'yarın':g+' gün sonra'}
 function gun(t){return new Date(t).toLocaleDateString('tr-TR',{day:'numeric',month:'long'})}
@@ -509,8 +510,8 @@ function sinav(id){
   if(V._hazir)return V;
   var yukle=function(liste,klasor){return sirali((liste||[]),6,function(k){
    return k.ref?al('data/kadem/'+klasor+'/'+k.ref+'.json').catch(function(x){
-    if(x==='sifre'){try{localStorage.removeItem(AK)}catch(y){}KEY=null}
-    if(x!=='sifre'&&x!=='yok')return null;V._kilitli=1;
+    if(x==='sifre')Kilit.sil();
+    if(x!=='sifre'&&x!=='yok'&&x!=='kilit')return null;V._kilitli=1;
     if(klasor==='deneme')return{id:k.ref,ad:(k.ref.split('-').pop())+'. Deneme',_kilit:1,sorular:[]};
     var st={id:k.ref,ad:k.ref,ders:'',_kilit:1,sorular:[],ozet:[],kartlar:[],anlatim:[]};
     ((V.harita||{}).dersler||[]).forEach(function(d){d.uniteler.forEach(function(u){if(u.konu===k.ref){st.ad=u.ad;st.ders=d.ad}})});
@@ -547,7 +548,7 @@ function liste(){
    DIG=L.sinavlar.filter(function(s){return ANA_ID.indexOf(s.id)<0});
   return Promise.all(ANA.map(function(s){return al('data/kadem/'+s.id+'.json').catch(function(){return{konular:[]}}).then(hafifOzet)})).then(function(V){
    var o=oku(),h='<div class="ust-etiket">el-Mihrâb · Sınav hazırlığı</div><h1>Kadem</h1><p class="lead">Konu anlatımı, özet, kart, açıklamalı test ve gerçek biçimde deneme. Bir sınav seç, kaldığın yerden devam et.</p>'+
-    (anahtarVar()?'':'<a class="kilit-serit" href="#giris=1"><span>🔒 Kur’an Bilgisi’nin ilk konusu ve 1. Deneme açık. Bütün konular ve denemeler üyelikle açılır.</span><em>Üyelik ›</em></a>');
+    (tamVar()?'':anahtarVar()?'<a class="kilit-serit" href="#giris=1"><span>Pro paketin etkin. Diğer sınavların konuları ve denemeleri Max ile açılır.</span><em>Paketler ›</em></a>':'<a class="kilit-serit" href="#giris=1"><span>🔒 Kur’an Bilgisi’nin ilk konusu ve 1. Deneme açık. Bütün konular ve denemeler üyelikle açılır.</span><em>Üyelik ›</em></a>');
    ANA.forEach(function(s,i){var v=V[i],k=v.konular,biten=k.filter(function(x){return o['p.'+s.id+'.'+x.id]!=null}).length,b=v.bugun(s),
      son=o['son.'+s.id],sx=son&&k.filter(function(x){return x.id===son})[0],yz=k.length?Math.round(100*biten/k.length):0;
     h+='<a class="anakart" style="--r:'+e(s.renk)+'" href="#s='+e(s.id)+'"><span class="kod">'+e(s.bicim)+'</span><b>'+e(s.ad)+'</b><small>'+e(s.tam)+'</small>';
@@ -960,4 +961,4 @@ function ac(){var H=hash();saatGizle();altnav(null);if(H.giris)return giris();if
 addEventListener('hashchange',ac);ac();
 })();
 </script>
-<script src="hesap-ayar.js?v=7"></script><script src="hesap.js?v=5" defer></script><script src="nasil.js?v=2" data-b="kadem"></script></body></html>
+<script src="hesap-ayar.js?v=8"></script><script src="hesap.js?v=5" defer></script><script src="nasil.js?v=2" data-b="kadem"></script></body></html>

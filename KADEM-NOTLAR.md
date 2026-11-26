@@ -266,3 +266,9 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 ### 7. oturum — 26 Kasım 2026 (açık örnek, X bağlantısı)
 - Açık (şifresiz) olanlar artık yalnız: sınav dosyaları (`data/kadem/*.json`), **ilk dersin ilk konusu** `konu/kuran-1.json` ve **1. MBSTS denemesi** `deneme/mbsts-1.json`. Diğer bütün konular (öbür derslerin ilk üniteleri dâhil) ve denemeler şifreli. Kural iki yerde aynı: `tools/kadem/sifre.py` (`ACIK`) ve `kadem.html` (`acik()`); `.gitignore` istisnaları da bu iki dosya.
 - Kilit ekranında ve sınav sayfasındaki kilit şeridinin altında X kutusu: “Devamı için bize yazın” → https://x.com/hohrzade340 (`XADR`, `xKutu()` kadem.html’de).
+
+## 14. oturum — paketler
+- Üç paket (hesap-ayar.js KADEM_SATIS.paketler): **Pro · MBSTS 300 TL**, **Pro · YDS Arapça 300 TL**, **Max 500 TL** (bütün Kadem sınavları + YDS Arapça). Süre 1 yıl.
+- Şifreleme (sifre.py, kilit.js): ana anahtar + alt(p)=HMAC(ana,'kadem:'+p). mbsts.json'daki konu/deneme ref'leri `mbsts` alt anahtarıyla, geri kalan Kadem içeriği ana anahtarla, YDS bankası (data/yds/banka.json → banka.enc, git'e girmez) `yds` alt anahtarıyla şifrelenir. Açık örnek: data/yds/ornek.json (1. deneme).
+- Firestore: uyeler/{eposta}.paketler ["mbsts"|"yds"|"max"]; kadem/anahtar (Max), kadem/anahtar-mbsts, kadem/anahtar-yds. yonetim.html üçünü şifreden türetip yazar.
+- YDS Arapça'da açık: 1. deneme, ilk alanın ilk okuma metni, sınav rehberi. Okuma metinleri modern.json'dan gelir ve Medrese › Modern Arapça'da ayrıca açıktır.

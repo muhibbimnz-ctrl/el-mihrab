@@ -84,4 +84,4 @@ $('#sK').onclick=()=>{location.hash=''};$('#sM').onclick=()=>{location.hash='m'}
 addEventListener('hashchange',yol);
 fetch('data/ahlak/konular.json?v='+HV).then(r=>r.json()).then(d=>{KN=d;yol()}).catch(()=>{M.innerHTML='<p class="not">Veri yüklenemedi. İnternet bağlantını kontrol edip <button onclick="location.reload()">Yenile</button></p>'});
 window.addEventListener('error',function(){try{if(!document.getElementById('hataBar')){var d=document.createElement('div');d.id='hataBar';d.style.cssText='position:fixed;left:10px;right:10px;top:10px;z-index:30;background:#7a1f2b;color:#fff;border-radius:14px;padding:10px 12px;font:14px system-ui';d.innerHTML='Bir şey ters gitti. <button onclick="location.reload()">Yenile</button> <button onclick="this.parentNode.remove()">Kapat</button>';document.body.appendChild(d)}}catch(x){}});
-</script><script src="hesap-ayar.js?v=7"></script><script src="hesap.js?v=5" defer></script><script src="nasil.js?v=2" data-b="ahlak"></script></body></html>
+</script><script src="hesap-ayar.js?v=8"></script><script src="hesap.js?v=5" defer></script><script src="nasil.js?v=2" data-b="ahlak"></script></body></html>

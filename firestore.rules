@@ -1,7 +1,8 @@
 rules_version = '2';
 // el-Mihrâb: her kullanıcı yalnız kendi belgesini okuyup yazabilir.
-// Kadem üyeliği: ödeme yapan Gmail adresleri "uyeler/{eposta}" belgesinde durur; Kadem anahtarı ("kadem/anahtar")
-// yalnız süresi dolmamış üyelere açılır. Üyeleri ve anahtarı yalnız "yoneticiler/{eposta}" listesindekiler yazar.
+// Üyelik: ödeme yapan Gmail adresleri "uyeler/{eposta}" belgesinde durur: bitis (Timestamp) ve paketler (["mbsts"|"yds"|"max"]).
+// Anahtarlar: kadem/anahtar → Max · kadem/anahtar-mbsts → Pro MBSTS ya da Max · kadem/anahtar-yds → Pro YDS ya da Max.
+// Her biri yalnız süresi dolmamış ve o paketi almış üyeye açılır. Üyeleri ve anahtarları yalnız "yoneticiler/{eposta}" yazar.
 service cloud.firestore {
   match /databases/{database}/documents {
     function eposta() { return request.auth.token.email.lower() }
@@ -10,6 +11,11 @@ service cloud.firestore {
     function uye() {
       return girisli() && exists(/databases/$(database)/documents/uyeler/$(eposta()))
         && get(/databases/$(database)/documents/uyeler/$(eposta())).data.bitis > request.time
+    }
+    // paketler alanı olmayan eski kayıtlar Max sayılır
+    function paket(p) {
+      let d = get(/databases/$(database)/documents/uyeler/$(eposta())).data;
+      return uye() && (!('paketler' in d) || d.paketler.hasAny([p, 'max']));
     }
 
     match /kullanicilar/{uid} {
@@ -23,7 +29,15 @@ service cloud.firestore {
       allow write: if yonetici();
     }
     match /kadem/anahtar {
-      allow read: if uye() || yonetici();
+      allow read: if paket('max') || yonetici();
+      allow write: if yonetici();
+    }
+    match /kadem/anahtar-mbsts {
+      allow read: if paket('mbsts') || yonetici();
+      allow write: if yonetici();
+    }
+    match /kadem/anahtar-yds {
+      allow read: if paket('yds') || yonetici();
       allow write: if yonetici();
     }
     match /yoneticiler/{e} {
