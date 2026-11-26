@@ -300,3 +300,4 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 ## 17. oturum — 27 Kasım 2026
 - **Kural değişti (kullanıcı):** Denemelerdeki okuma parçaları uzun olmayacak, ÖSYM YDS kalıbında: tek paragraf, 110–200 kelime (deneme_yaz.py bunu denetliyor). 13. ve 14. denemenin 6’şar parçası bu boya indirildi; sorular aynı, cevaplar metinde. Uzun (240+) metinler yalnız Okuma metinleri (modern.json, C1) bölümünde.
 - Önbellek: sw.js’de data/yds ve data/modern artık önce ağdan alınıyor (yeni içerik hemen görünür). YDS denemeleri ve okuma metinlerinin çoğu üyelikle açılır; kullanıcı kendi hesabıyla giriş yapmadan 14. deneme kilitli görünür.
+- **Kısa metinler birleştirildi:** `tools/yds/birlestir.py` (bir kez çalıştı) 42 grupta 45 kısa metni yakın konulu kardeşine kattı; modern.json 279 metin. İlk id korunur; ek parçalar “§ başlık” paragrafıyla ayrılır, modMetin bunları ara başlık (`.mara`) olarak gösterir.

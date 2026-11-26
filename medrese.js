@@ -894,7 +894,7 @@ function modMetin(id, geri){
   geri = geri || '/modern';
   const m = MOD.metinler.find(x => x.id === id); if(!m) return go(geri);
   const trG = LS.get('medrese.modTr', false), gls = new Set(m.sozluk.map(x => arNorm(x[0])));
-  const metin = m.ar.map((p, i) => `<p lang="ar" class="mpa">${arMetin(p)}</p>${trG && m.tr[i] ? `<p class="mtr">${esc(m.tr[i])}</p>` : ''}`).join('');
+  const metin = m.ar.map((p, i) => p.startsWith('§ ') ? `<h3 class="mara" lang="ar">${esc(p.slice(2))}</h3>${trG && m.tr[i] ? `<p class="mtrh">${esc(String(m.tr[i]).replace(/^§ /, ''))}</p>` : ''}` : `<p lang="ar" class="mpa">${arMetin(p)}</p>${trG && m.tr[i] ? `<p class="mtr">${esc(m.tr[i])}</p>` : ''}`).join('');
   V.innerHTML = bar(m.baslik, geri) + `<div class="wrap"><div class="mbas"><span class="sv">${esc(m.seviye)}</span> <small>${esc(m.konu)}</small><h1 lang="ar" class="mh1">${esc(m.ar_baslik)}</h1></div>
    <div class="tools"><label><input type="checkbox" id="mtr" ${trG ? 'checked' : ''}> Türkçesini göster</label>${hrkDugme(m.ar.join(' '))}${'speechSynthesis' in window ? '<button class="btn sm" id="msesli">▶ Sesli oku</button>' : ''}<span class="lnk">Bir kelimeye dokunun: anlamı çıkar</span></div>
    <div class="mtext" data-m="${esc(id)}">${metin}</div>
@@ -903,7 +903,7 @@ function modMetin(id, geri){
   $$('.mtext .w').forEach(w => { const n = arNorm(w.textContent); if(gls.has(n) || gls.has(n.replace(/^(و|ف|ب|ل|ك)/, '')) || gls.has(n.replace(/^(و|ف)?(ب|ل|ك)?ال/, '')) || gls.has(n.replace(/^(وال|فال|بال|لل)/, ''))) w.classList.add('gl') });
   $('#mtr').onchange = e => { LS.set('medrese.modTr', e.target.checked); modMetin(id, geri) };
   hrkBagla(() => modMetin(id, geri));
-  const sb = $('#msesli'); if(sb) sb.onclick = () => seslendir(m.ar.join(' '), sb);
+  const sb = $('#msesli'); if(sb) sb.onclick = () => seslendir(m.ar.map(p => p.replace(/^§ /, '')).join(' '), sb);
   $('#msor').onclick = () => { const o = LS.get('medrese.modOk', {}); o[id] = 1; LS.set('medrese.modOk', o); alistirma({ ids: m.sorular.map((s, i) => `mo|${id}|${i}`), title: m.baslik }) };
 }
 function modDiyalog(i){
