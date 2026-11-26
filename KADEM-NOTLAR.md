@@ -279,3 +279,4 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 - Kullanıcının klasörlerinde YDS Arapça çıkmış sorusu bulunamadı (Masaüstü ve İndirilenler tarandı); YDS denemesi ÖSYM YDS kalıbına göre yazıldı. Çıkmış YDS kitapçığı gelirse sonraki denemeler ona göre ayarlanmalı.
 - MBSTS 22. deneme yayımlandı (60 soru).
 - MBSTS 23. deneme yayımlandı (60 soru).
+- MBSTS 24. deneme yayımlandı (60 soru).
