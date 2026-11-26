@@ -42,7 +42,8 @@ table.ir{width:100%;border-collapse:collapse}table.ir td{border-bottom:1px solid
 @media(prefers-color-scheme:dark){body{background:#121815;color:#e2e8e2}#hd{background:#18201c;border-color:#2a352f}#hd a.bk{background:#24302a;color:#9fd1bd}
 .lst,.kart,.nev,.not,.sek button,.sek a,#pop{background:#1b231f;color:#e2e8e2;border-color:#2a352f}.pnl,.nev .tn{background:#222c27}.btns button{background:#1f2823;color:#e2e8e2;border-color:#34413a}
 .mtn{color:#bfe3d3}.meal{color:#cfd8d2}.zn .rv{background:#1f2823;border-color:#34413a}#pop .x{background:#2a352f;color:#e2e8e2}}
-.sek a,.sek button{font-size:13.5px;padding:9px 4px}</style></head><body>
+.sek a,.sek button{font-size:13.5px;padding:9px 4px}.kyn{border-top:1px solid #e3dccb;margin:4px 0 10px;padding-top:8px;font-size:13px;line-height:1.6;color:#5d564a}.kyn b{display:block;font-size:11.5px;letter-spacing:.8px;text-transform:uppercase;color:#8a6a2c;margin-bottom:2px}.kyn span{color:#8a8172}.kyn-a{font-size:12px;color:#8a8172;margin-top:3px}
+</style></head><body>
 <div id="hd"><div class="top"><a class="bk" href="./">‹ el-Mihrâb</a><h1 id="ttl">Fıkıh Dirâsesi</h1><span style="width:70px"></span></div>
 <div class="sek"><a href="./?dirase=kuran">Kur'an</a><a href="hadis.html">Hadis</a><button id="sM" class="on">Meseleler</button><button id="sK">Kütüphane</button></div></div>
 <main id="m"><p class="not">Yükleniyor…</p></main>
@@ -110,6 +111,12 @@ function adim(i){var a=AD[i];sek('M');document.getElementById('ttl').textContent
 var KK='mihrab.fikihKayit';function kayitlar(){try{return JSON.parse(localStorage.getItem(KK)||'[]')}catch(e){return []}}
 function kayitDegis(id){var L=kayitlar(),i=L.indexOf(id);if(i>=0)L.splice(i,1);else L.unshift(id);try{localStorage.setItem(KK,JSON.stringify(L))}catch(e){}return i<0}
 function ibIsle(p,ph){var e=esc(p),g=anrm(ph),n=anrm(e);if(n.length!==e.length)return e;var j=n.indexOf(g);if(j<0)return e;return e.slice(0,j)+'<mark style="background:#f3d98b;color:inherit;border-radius:4px">'+e.slice(j,j+g.length)+'</mark>'+e.slice(j+g.length)}
+/* Meselenin dayandığı kaynaklar: klasik metinler (metin alanındaki kitaplar) ve deliller */
+var KAYNAK_TAM={kuduri:'Kudûrî, el-Muhtasar',hidaye:'Merğînânî, el-Hidâye',ihtiyar:'Mevsılî, el-İhtiyâr li-ta‘lîli’l-Muhtâr',kenz:'Nesefî, Kenzü’d-dekâik',bidaye:'İbn Rüşd, Bidâyetü’l-müctehid',umde:'İbn Kudâme, el-Umde',nurizah:'Şürünbülâlî, Nûru’l-îzâh',meraki:'Şürünbülâlî, Merâki’l-felâh',bedai:'Kâsânî, Bedâi‘u’s-sanâi‘',mebsut:'Serahsî, el-Mebsût',reddulmuhtar:'İbn Âbidîn, Reddü’l-muhtâr',risale:'İbn Ebî Zeyd, er-Risâle',minhac:'Nevevî, Minhâcü’t-tâlibîn',lubab:'Meydânî, el-Lübâb'};
+function kaynakHTML(x){var kit=[];(x.metin||[]).forEach(function(m){var n=KAYNAK_TAM[m[0]]||m[0];if(kit.indexOf(n)<0)kit.push(n)});if(x.ibare){var k2=KAYNAK_TAM[x.ibare[0]];if(k2&&kit.indexOf(k2)<0)kit.unshift(k2)}
+  var del=(x.delil||[]).map(function(d){return (d[0]==='ayet'?'Kur’ân-ı Kerîm, ':'')+String(d[1]).replace(/\s+—.*$/,'')});
+  if(!kit.length&&!del.length)return '';
+  return '<div class="kyn"><b>Kaynak</b>'+(kit.length?'<div><span>Klasik metinler:</span> '+kit.map(esc).join('; ')+'.</div>':'')+(del.length?'<div><span>Deliller:</span> '+del.map(esc).join('; ')+'.</div>':'')+'<div class="kyn-a">Hanefî hüküm Hanefî fıkıh metinlerine, diğer mezheplerin görüşleri kendi mezheplerinin ve mukayeseli fıkıh eserlerine göre özetlenmiştir.</div></div>'}
 function mesele(i){var x=MS[i];document.getElementById('ttl').textContent=x.baslik;acik='';
   var h='<div class="kart"><div class="bas"><span>'+esc(x.yol.join(' › '))+'</span><span>'+(i+1)+' / '+MS.length+'</span></div>'+
     '<div style="font:600 21px system-ui;margin:2px 0">'+esc(x.baslik)+'</div><div class="ar" style="font-size:24px;color:#6d7a72;margin-bottom:10px">'+esc(x.ar)+'</div>'+
@@ -117,6 +124,7 @@ function mesele(i){var x=MS[i];document.getElementById('ttl').textContent=x.basl
     '<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:10px">'+MZ.map(function(z){var v=x.mez[z[0]];return '<div class="mz" data-z="'+z[0]+'" style="border:1px solid #d9e1d5;border-radius:12px;padding:8px 10px;cursor:pointer"><b style="font-size:14px">'+z[1]+'</b><br><span style="font-size:14px;color:#33403a">'+esc(v[0])+'</span></div>'}).join('')+
     '<div style="border:1px solid #d9e1d5;border-radius:12px;padding:8px 10px;background:#f6f8f3"><b style="font-size:14px">İhtilaf sebebi</b><br><span style="font-size:13px;color:#33403a">'+esc(x.sebep.slice(0,90))+'…</span></div></div>'+
     '<div style="font-size:14.5px;line-height:1.8;margin-bottom:8px"><span style="color:#6d7a72">Delil:</span> '+x.delil.map(function(d,j){return '<a class="trm" href="'+d[2]+'" style="text-decoration:none">'+esc(d[1])+'</a>'}).join(' · ')+'</div>'+
+    kaynakHTML(x)+
     '<div class="btns"><button data-k="mez">Mezhepler</button><button data-k="sebep">İhtilaf sebebi</button><button data-k="delil">Delil</button><button data-k="usul">Usûl</button>'+((x.metin||[]).length?'<button data-k="metin">Metin</button>':'')+'<button data-k="kaydet">'+(kayitlar().indexOf(x.id)>=0?'Kaydedildi ♥':'Kaydet')+'</button><button data-k="kopya">Kopyala</button><button data-k="pay">Paylaş</button></div><div id="pn"></div></div>'+
     '<div class="nav"><button id="ön">‹ Önceki</button><button id="ls">Meseleler</button><button id="sn">Sonraki ›</button></div>';
   M.innerHTML=h;var pn=document.getElementById('pn');var ia=document.getElementById('ibAc');if(ia)ia.onclick=function(){kitapBolum('kuduri',x.ibare[1],x.ibare[3],i)};
