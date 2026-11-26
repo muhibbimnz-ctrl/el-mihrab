@@ -29,15 +29,15 @@ service cloud.firestore {
       allow write: if yonetici();
     }
     match /kadem/anahtar {
-      allow read: if paket('max') || yonetici();
+      allow read: if yonetici() || paket('max');
       allow write: if yonetici();
     }
     match /kadem/anahtar-mbsts {
-      allow read: if paket('mbsts') || yonetici();
+      allow read: if yonetici() || paket('mbsts');
       allow write: if yonetici();
     }
     match /kadem/anahtar-yds {
-      allow read: if paket('yds') || yonetici();
+      allow read: if yonetici() || paket('yds');
       allow write: if yonetici();
     }
     match /yoneticiler/{e} {
