@@ -1,0 +1,265 @@
+=== c1-yapay-zeka-sorumluluk | hukuk | Yapay zekâ ve hukuki sorumluluk | الذَّكَاءُ الاصْطِنَاعِيُّ وَالمَسْؤُولِيَّةُ القَانُونِيَّةُ: مَنْ يُحَاسَبُ حِينَ تُخْطِئُ الآلَةُ؟
+لِنَتَخَيَّلْ سَيَّارَةً ذَاتِيَّةَ القِيَادَةِ تَصْدِمُ أَحَدَ المَارَّةِ، أَوْ بَرْنَامَجًا طِبِّيًّا ذَكِيًّا يُخْطِئُ فِي تَشْخِيصِ مَرِيضٍ فَيَتَأَخَّرُ عِلَاجُهُ. مَنِ المَسْؤُولُ فِي هَذِهِ الحَالَاتِ؟ أَهُوَ المُصَنِّعُ، أَمِ المُبَرْمِجُ، أَمِ المُسْتَخْدِمُ، أَمِ الجِهَةُ الَّتِي زَوَّدَتِ النِّظَامَ بِالبَيَانَاتِ؟ لَقَدْ بُنِيَتْ قَوَاعِدُ المَسْؤُولِيَّةِ التَّقْلِيدِيَّةُ عَلَى افْتِرَاضِ أَنَّ وَرَاءَ كُلِّ فِعْلٍ ضَارٍّ إِنْسَانًا يُمْكِنُ أَنْ يُنْسَبَ إِلَيْهِ الخَطَأُ، وَهَذَا الافْتِرَاضُ يَهْتَزُّ أَمَامَ أَنْظِمَةٍ تَتَعَلَّمُ وَتَتَّخِذُ قَرَارَاتِهَا بِطُرُقٍ لَا يَسْتَطِيعُ صَانِعُوهَا أَنْفُسُهُمْ تَفْسِيرَهَا تَفْسِيرًا كَامِلًا.
+وَتُعْرَفُ هَذِهِ المُشْكِلَةُ بِـ«الصُّنْدُوقِ الأَسْوَدِ»؛ فَكَثِيرٌ مِنْ نَمَاذِجِ التَّعَلُّمِ الآلِيِّ تُنْتِجُ نَتَائِجَ دَقِيقَةً دُونَ أَنْ تُبَيِّنَ الطَّرِيقَ الَّذِي سَلَكَتْهُ إِلَيْهَا. وَإِذَا كَانَ المُتَضَرِّرُ لَا يَسْتَطِيعُ أَنْ يَعْرِفَ لِمَاذَا رُفِضَ طَلَبُ قَرْضِهِ أَوْ لِمَاذَا صُنِّفَ «خَطِرًا»، فَكَيْفَ يُثْبِتُ الخَطَأَ أَمَامَ القَضَاءِ؟
+وَتَتَنَوَّعُ الحُلُولُ المُقْتَرَحَةُ؛ فَمِنْهُمْ مَنْ يَدْعُو إِلَى «المَسْؤُولِيَّةِ المَوْضُوعِيَّةِ» الَّتِي تُلْزِمُ المُصَنِّعَ بِالتَّعْوِيضِ مَتَى وَقَعَ الضَّرَرُ، دُونَ حَاجَةٍ إِلَى إِثْبَاتِ تَقْصِيرِهِ، كَمَا هُوَ الحَالُ فِي بَعْضِ المُنْتَجَاتِ الخَطِرَةِ. وَمِنْهُمْ مَنْ يَقْتَرِحُ تَأْمِينًا إِجْبَارِيًّا عَلَى الأَنْظِمَةِ الذَّكِيَّةِ. بَلْ ذَهَبَ بَعْضُهُمْ إِلَى اقْتِرَاحِ مَنْحِ الأَنْظِمَةِ المُتَقَدِّمَةِ «شَخْصِيَّةً إِلِكْتِرُونِيَّةً» تَتَحَمَّلُ بِهَا الالْتِزَامَاتِ، وَهُوَ اقْتِرَاحٌ رَفَضَهُ كَثِيرُونَ لِأَنَّهُ قَدْ يُتِيحُ لِلشَّرِكَاتِ التَّهَرُّبَ مِنْ مَسْؤُولِيَّتِهَا.
+وَقَدِ اتَّجَهَ الاتِّحَادُ الأُورُوبِّيُّ إِلَى تَصْنِيفِ تَطْبِيقَاتِ الذَّكَاءِ الاصْطِنَاعِيِّ بِحَسَبِ دَرَجَةِ خُطُورَتِهَا، فَحَظَرَ بَعْضَهَا، كَأَنْظِمَةِ «التَّقْيِيمِ الاجْتِمَاعِيِّ» لِلْمُوَاطِنِينَ، وَفَرَضَ عَلَى الأَنْظِمَةِ العَالِيَةِ الخُطُورَةِ، كَتِلْكَ المُسْتَعْمَلَةِ فِي التَّوْظِيفِ وَالقَضَاءِ وَالرِّعَايَةِ الصِّحِّيَّةِ، شُرُوطًا صَارِمَةً مِنَ الشَّفَافِيَةِ وَالرَّقَابَةِ البَشَرِيَّةِ.
+وَتَزْدَادُ المَسْأَلَةُ تَعْقِيدًا فِي المَجَالِ الجِنَائِيِّ؛ إِذْ تَقُومُ المَسْؤُولِيَّةُ الجِنَائِيَّةُ عَلَى القَصْدِ وَالإِرَادَةِ، وَهُمَا مِمَّا لَا يُنْسَبُ إِلَى الآلَةِ.
+وَيَرَى كَثِيرٌ مِنْ فُقَهَاءِ القَانُونِ أَنَّ المَبْدَأَ الَّذِي يَنْبَغِي التَّمَسُّكُ بِهِ هُوَ أَنْ يَبْقَى الإِنْسَانُ فِي نِهَايَةِ السِّلْسِلَةِ مَسْؤُولًا؛ فَالآلَةُ مَهْمَا بَلَغَتْ مِنَ الذَّكَاءِ لَا تَمْلِكُ ذِمَّةً تُحَاسَبُ بِهَا، وَلَا ضَمِيرًا تُؤَنَّبُ بِهِ.
+---
+Sürücüsüz bir aracın bir yayaya çarptığını ya da akıllı bir tıbbi programın bir hastayı yanlış teşhis edip tedavisinin geciktiğini düşünelim. Bu durumlarda sorumlu kimdir? Üretici mi, programcı mı, kullanıcı mı, yoksa sisteme veriyi sağlayan kurum mu? Geleneksel sorumluluk kuralları her zarar verici fiilin arkasında kusurun nispet edilebileceği bir insan bulunduğu varsayımına dayanır; bu varsayım, öğrenen ve kararlarını yapımcılarının bile tam olarak açıklayamadığı yollarla veren sistemler karşısında sarsılır.
+Bu sorun “kara kutu” olarak bilinir: Pek çok makine öğrenmesi modeli, oraya hangi yoldan ulaştığını göstermeden isabetli sonuçlar üretir. Zarar gören kişi kredi başvurusunun neden reddedildiğini ya da neden “riskli” sınıfına konduğunu bilemiyorsa, kusuru yargı önünde nasıl ispat edecektir?
+Önerilen çözümler çeşitlidir: Kimileri, bazı tehlikeli ürünlerde olduğu gibi, üreticiyi kusurunu ispata gerek kalmadan zarar oluştuğunda tazminata mecbur tutan “kusursuz sorumluluk” çağrısı yapar. Kimileri akıllı sistemler için zorunlu sigorta önerir. Hatta bazıları gelişmiş sistemlere yükümlülük taşıyabilecekleri bir “elektronik kişilik” verilmesini önerdi; birçokları bu öneriyi şirketlerin sorumluluktan kaçmasına imkân verebileceği için reddetti.
+Avrupa Birliği yapay zekâ uygulamalarını risk derecelerine göre sınıflandırma yoluna gitti; vatandaşlar için “sosyal puanlama” sistemleri gibi bazılarını yasakladı, işe alım, yargı ve sağlık hizmetinde kullanılanlar gibi yüksek riskli sistemlere sıkı şeffaflık ve insan denetimi şartları getirdi.
+Mesele ceza alanında daha da karmaşıklaşır; çünkü cezai sorumluluk kast ve iradeye dayanır; bunlar ise makineye nispet edilemez.
+Birçok hukukçu, sarılmak gereken ilkenin zincirin sonunda insanın sorumlu kalması olduğunu düşünür; çünkü makine ne kadar akıllı olursa olsun hesap vereceği bir zimmete ve kınanacağı bir vicdana sahip değildir.
+---
+ذاتية القيادة = sürücüsüz
+المارة = yayalar
+يهتز = sarsılır
+الصندوق الأسود = kara kutu
+التعلم الآلي = makine öğrenmesi
+المتضرر = zarar gören
+المسؤولية الموضوعية = kusursuz sorumluluk
+التعويض = tazminat
+تقصيره = kusuru, ihmali
+التهرب = kaçma
+الشفافية = şeffaflık
+ذمة = zimmet (hukuki kişilik)
+تؤنب = kınanır
+---
+? Geleneksel sorumluluk kurallarının dayandığı varsayım nedir?
+* Her zarar verici fiilin arkasında kusurlu bir insan bulunduğu
+- Makinelerin asla hata yapmadığı
+- Üreticinin her zaman sorumlu olduğu
+- Zararın sigortayla karşılanacağı
+= وراء كل فعل ضار إنسانا يمكن أن ينسب إليه الخطأ
+? “Kara kutu” sorunu zarar göreni nasıl etkiler?
+* Kararın gerekçesini bilemediği için kusuru ispat etmesini zorlaştırır
+- Tazminatı otomatik olarak almasını sağlar
+- Sistemi kendisinin düzeltmesine imkân verir
+- Kredi başvurusunu kolaylaştırır
+= فكيف يثبت الخطأ أمام القضاء؟
+? “Elektronik kişilik” önerisi neden reddedilmiştir?
+* Şirketlerin sorumluluktan kaçmasına imkân verebileceği için
+- Çok pahalı olduğu için
+- Makineleri cezalandırmak istendiği için
+- Avrupa Birliği’nce zorunlu tutulduğu için
+= قد يتيح للشركات التهرب من مسؤوليتها
+? Hukukçuların savunduğu temel ilke nedir?
+* Zincirin sonunda sorumluluğun insanda kalması
+- Makinelerin hukuki kişilik kazanması
+- Yapay zekânın yasaklanması
+- Sorumluluğun kullanıcıya yüklenmesi
+= أن يبقى الإنسان في نهاية السلسلة مسؤولا
+
+=== c1-uluslararasi-ceza | hukuk | Uluslararası Ceza Mahkemesi | المَحْكَمَةُ الجِنَائِيَّةُ الدَّوْلِيَّةُ: عَدَالَةٌ بِلَا حُدُودٍ؟
+ظَلَّ القَانُونُ الدَّوْلِيُّ زَمَنًا طَوِيلًا يُخَاطِبُ الدُّوَلَ لَا الأَفْرَادَ، وَكَانَ كِبَارُ المَسْؤُولِينَ الَّذِينَ يَرْتَكِبُونَ الفَظَائِعَ يَحْتَمُونَ بِسِيَادَةِ دُوَلِهِمْ وَحَصَانَةِ مَنَاصِبِهِمْ. ثُمَّ جَاءَتْ مُحَاكَمَاتُ نُورِنْبِرْغْ بَعْدَ الحَرْبِ العَالَمِيَّةِ الثَّانِيَةِ فَأَرْسَتْ مَبْدَأً جَدِيدًا: أَنَّ الأَفْرَادَ، وَلَوْ كَانُوا قَادَةً، يُسْأَلُونَ شَخْصِيًّا عَنِ الجَرَائِمِ الكُبْرَى، وَأَنَّ «تَنْفِيذَ الأَوَامِرِ» لَا يُعْفِي مِنَ العِقَابِ.
+وَبَعْدَ عُقُودٍ أُنْشِئَتْ مَحَاكِمُ خَاصَّةٌ مُؤَقَّتَةٌ لِيُوغُوسْلَافْيَا السَّابِقَةِ وَرُوَانْدَا، ثُمَّ اتَّفَقَتِ الدُّوَلُ عَلَى إِنْشَاءِ مَحْكَمَةٍ دَائِمَةٍ، فَوُقِّعَ «نِظَامُ رُومَا الأَسَاسِيُّ» سَنَةَ ١٩٩٨م، وَبَدَأَتِ المَحْكَمَةُ الجِنَائِيَّةُ الدَّوْلِيَّةُ عَمَلَهَا فِي لَاهَايْ سَنَةَ ٢٠٠٢م. وَيَشْمَلُ اخْتِصَاصُهَا أَرْبَعَ جَرَائِمَ: الإِبَادَةَ الجَمَاعِيَّةَ، وَالجَرَائِمَ ضِدَّ الإِنْسَانِيَّةِ، وَجَرَائِمَ الحَرْبِ، وَجَرِيمَةَ العُدْوَانِ.
+وَيَجِبُ التَّفْرِيقُ بَيْنَ هَذِهِ المَحْكَمَةِ وَمَحْكَمَةِ العَدْلِ الدَّوْلِيَّةِ؛ فَالأُولَى تُحَاكِمُ أَفْرَادًا مُتَّهَمِينَ بِجَرَائِمَ، وَالثَّانِيَةُ تَفْصِلُ فِي النِّزَاعَاتِ بَيْنَ الدُّوَلِ. كَمَا أَنَّ المَحْكَمَةَ الجِنَائِيَّةَ تَقُومُ عَلَى مَبْدَأِ «التَّكَامُلِ»، أَيْ أَنَّهَا لَا تَتَدَخَّلُ إِلَّا إِذَا كَانَتِ الدَّوْلَةُ المَعْنِيَّةُ غَيْرَ رَاغِبَةٍ فِي مُحَاكَمَةِ المُتَّهَمِ أَوْ غَيْرَ قَادِرَةٍ عَلَى ذَلِكَ حَقًّا؛ فَهِيَ مُكَمِّلَةٌ لِلْقَضَاءِ الوَطَنِيِّ لَا بَدِيلٌ عَنْهُ.
+غَيْرَ أَنَّ المَحْكَمَةَ تُوَاجِهُ تَحَدِّيَاتٍ كَبِيرَةً؛ فَهِيَ لَا تَمْلِكُ شُرْطَةً خَاصَّةً بِهَا، وَتَعْتَمِدُ فِي القَبْضِ عَلَى المُتَّهَمِينَ عَلَى تَعَاوُنِ الدُّوَلِ، وَكَثِيرًا مَا يَظَلُّ المَطْلُوبُونَ طُلَقَاءَ سَنَوَاتٍ طَوِيلَةً. وَقَدْ رَفَضَتْ دُوَلٌ كُبْرَى الانْضِمَامَ إِلَيْهَا، مِمَّا يَحِدُّ مِنْ نِطَاقِ عَمَلِهَا.
+وَوُجِّهَتْ إِلَيْهَا انْتِقَادَاتٌ بِأَنَّهَا رَكَّزَتْ فِي سَنَوَاتِهَا الأُولَى عَلَى قَضَايَا مِنْ إِفْرِيقْيَا، فَرَأَى فِيهَا بَعْضُهُمْ أَدَاةً بِيَدِ الأَقْوِيَاءِ. وَيَرُدُّ المُدَافِعُونَ عَنْهَا بِأَنَّ عَدَدًا مِنْ تِلْكَ القَضَايَا أَحَالَتْهُ الدُّوَلُ الإِفْرِيقِيَّةُ نَفْسُهَا، وَبِأَنَّ المَحْكَمَةَ وَسَّعَتْ تَحْقِيقَاتِهَا لَاحِقًا إِلَى مَنَاطِقَ أُخْرَى.
+وَمَهْمَا تَكُنْ عُيُوبُهَا، فَإِنَّ وُجُودَهَا يَبْعَثُ بِرِسَالَةٍ إِلَى كُلِّ مَنْ يُفَكِّرُ فِي ارْتِكَابِ الفَظَائِعِ: أَنَّ الإِفْلَاتَ مِنَ العِقَابِ لَمْ يَعُدْ مَضْمُونًا كَمَا كَانَ.
+---
+Uluslararası hukuk uzun süre fertlere değil devletlere hitap etti; vahşet işleyen üst düzey yetkililer devletlerinin egemenliğine ve makamlarının dokunulmazlığına sığınırdı. Sonra İkinci Dünya Savaşı’ndan sonraki Nürnberg yargılamaları yeni bir ilke yerleştirdi: Fertler, lider olsalar bile, büyük suçlardan şahsen sorumludur ve “emirleri yerine getirmek” cezadan kurtarmaz.
+On yıllar sonra eski Yugoslavya ve Ruanda için geçici özel mahkemeler kuruldu; sonra devletler daimî bir mahkeme kurmakta anlaştı; 1998’de “Roma Statüsü” imzalandı ve Uluslararası Ceza Mahkemesi 2002’de Lahey’de çalışmaya başladı. Yetkisi dört suçu kapsar: soykırım, insanlığa karşı suçlar, savaş suçları ve saldırı suçu.
+Bu mahkemeyi Uluslararası Adalet Divanı’ndan ayırmak gerekir: Birincisi suçla itham edilen fertleri yargılar, ikincisi devletler arasındaki uyuşmazlıkları karara bağlar. Ayrıca Ceza Mahkemesi “tamamlayıcılık” ilkesine dayanır: Ancak ilgili devlet sanığı yargılamak istemiyorsa ya da gerçekten yargılayamıyorsa devreye girer; millî yargının yerini almaz, onu tamamlar.
+Ancak mahkeme büyük zorluklarla karşı karşıya: Kendine ait bir polisi yoktur, sanıkların yakalanmasında devletlerin iş birliğine dayanır; aranan kişiler çoğu zaman uzun yıllar serbest kalır. Büyük devletlerin bazıları ona katılmayı reddetti; bu da faaliyet alanını sınırlıyor.
+İlk yıllarında Afrika’dan davalara yoğunlaştığı yönünde eleştirilere maruz kaldı; bazıları onda güçlülerin elinde bir araç gördü. Savunucuları ise bu davaların bir kısmını bizzat Afrika devletlerinin havale ettiğini ve mahkemenin soruşturmalarını sonradan başka bölgelere genişlettiğini söyler.
+Kusurları ne olursa olsun varlığı, vahşet işlemeyi düşünen herkese bir mesaj gönderir: Cezasız kalmak artık eskisi gibi garanti değildir.
+---
+الفظائع = vahşet, korkunç suçlar
+يحتمون بـ = …e sığınırlar
+السيادة = egemenlik
+الحصانة = dokunulmazlık
+أرست = yerleştirdi
+يعفي من = …den muaf kılar
+الإبادة الجماعية = soykırım
+العدوان = saldırı
+التكامل = tamamlayıcılık
+طلقاء = serbest
+أحالته = havale etti
+الإفلات من العقاب = cezasız kalma
+---
+? Nürnberg yargılamalarının getirdiği yeni ilke nedir?
+* Liderlerin de büyük suçlardan şahsen sorumlu tutulması
+- Devletlerin fertler yerine yargılanması
+- Emir uygulayanların cezadan muaf olması
+- Savaşın tamamen yasaklanması
+= الأفراد، ولو كانوا قادة، يسألون شخصيا عن الجرائم الكبرى
+? Ceza Mahkemesi ile Adalet Divanı arasındaki fark nedir?
+* Birincisi fertleri, ikincisi devletler arası uyuşmazlıkları ele alır
+- Birincisi Roma’da, ikincisi Lahey’dedir
+- İkisi de yalnız devletleri yargılar
+- Birincisi geçici, ikincisi daimîdir
+= فالأولى تحاكم أفرادا … والثانية تفصل في النزاعات بين الدول
+? “Tamamlayıcılık” ilkesi ne demektir?
+* Mahkemenin ancak devlet yargılamak istemez ya da yargılayamazsa devreye girmesi
+- Mahkemenin bütün davalara bakması
+- Devletlerin mahkemeye asker vermesi
+- Kararların millî mahkemelerce onaylanması
+= لا تتدخل إلا إذا كانت الدولة المعنية غير راغبة … أو غير قادرة
+? Mahkemenin pratik bir zaafı nedir?
+* Kendi polisi olmadığından sanıkların yakalanmasında devletlere bağımlı olması
+- Hâkimlerinin az olması
+- Yalnız Avrupalıları yargılaması
+- Kararlarının gizli olması
+= لا تملك شرطة خاصة بها، وتعتمد … على تعاون الدول
+
+=== c1-mecelle | hukuk | Mecelle: fıkhın kanunlaştırılması | «مَجَلَّةُ الأَحْكَامِ العَدْلِيَّةِ»: حِينَ صَارَ الفِقْهُ قَانُونًا
+فِي القَرْنِ التَّاسِعَ عَشَرَ وَاجَهَتِ الدَّوْلَةُ العُثْمَانِيَّةُ مُعْضِلَةً قَضَائِيَّةً حَقِيقِيَّةً؛ فَقَدْ أَنْشَأَتْ مَحَاكِمَ نِظَامِيَّةً جَدِيدَةً يَعْمَلُ فِيهَا قُضَاةٌ لَمْ يَتَلَقَّوْا تَكْوِينًا فِقْهِيًّا عَمِيقًا، وَكَانَتْ أَحْكَامُ المُعَامَلَاتِ مَبْثُوثَةً فِي مِئَاتِ الكُتُبِ الفِقْهِيَّةِ، وَفِيهَا لِكُلِّ مَسْأَلَةٍ أَقْوَالٌ مُتَعَدِّدَةٌ. فَكَيْفَ يَعْرِفُ القَاضِي القَوْلَ المُعْتَمَدَ؟ وَكَيْفَ يَطْمَئِنُّ التُّجَّارُ، وَمِنْهُمْ أَجَانِبُ، إِلَى أَحْكَامٍ يَصْعُبُ التَّنَبُّؤُ بِهَا؟
+وَقَدْ دَارَ نِقَاشٌ وَاسِعٌ بَيْنَ رِجَالِ الدَّوْلَةِ؛ فَدَعَا فَرِيقٌ إِلَى تَرْجَمَةِ القَانُونِ المَدَنِيِّ الفَرَنْسِيِّ وَتَطْبِيقِهِ كَمَا فَعَلَتْ مِصْرُ لَاحِقًا، وَدَعَا فَرِيقٌ آخَرُ، كَانَ عَلَى رَأْسِهِ المُؤَرِّخُ وَالفَقِيهُ أَحْمَدُ جَوْدَتْ بَاشَا، إِلَى تَدْوِينِ الفِقْهِ الإِسْلَامِيِّ نَفْسِهِ فِي صُورَةِ مَوَادَّ قَانُونِيَّةٍ مُرَقَّمَةٍ. وَقَدِ انْتَصَرَ الرَّأْيُ الثَّانِي.
+فَتَشَكَّلَتْ لَجْنَةٌ مِنَ العُلَمَاءِ بِرِئَاسَةِ جَوْدَتْ بَاشَا، وَعَمِلَتْ بَيْنَ سَنَتَيْ ١٨٦٩م وَ١٨٧٦م، فَأَخْرَجَتْ «مَجَلَّةَ الأَحْكَامِ العَدْلِيَّةِ» فِي سِتَّةَ عَشَرَ كِتَابًا وَأَلْفٍ وَثَمَانِمِئَةٍ وَإِحْدَى وَخَمْسِينَ مَادَّةً، تَتَنَاوَلُ البُيُوعَ وَالإِجَارَةَ وَالكَفَالَةَ وَالشَّرِكَةَ وَالوَكَالَةَ وَالدَّعْوَى وَالبَيِّنَاتِ وَغَيْرَهَا. وَقَدِ اعْتَمَدَتِ المَذْهَبَ الحَنَفِيَّ، لَكِنَّهَا لَمْ تَلْتَزِمْ دَائِمًا بِالقَوْلِ الرَّاجِحِ فِيهِ، بَلِ اخْتَارَتْ أَحْيَانًا أَقْوَالًا أَيْسَرَ تُنَاسِبُ حَاجَاتِ العَصْرِ.
+وَمِنْ أَبْرَزِ مَا يُمَيِّزُ المَجَلَّةَ مُقَدِّمَتُهَا الَّتِي جَمَعَتْ تِسْعًا وَتِسْعِينَ قَاعِدَةً فِقْهِيَّةً كُلِّيَّةً، مِثْلَ: «الأُمُورُ بِمَقَاصِدِهَا»، وَ«اليَقِينُ لَا يَزُولُ بِالشَّكِّ»، وَ«الضَّرَرُ يُزَالُ»، وَ«المَشَقَّةُ تَجْلِبُ التَّيْسِيرَ». وَقَدْ صَارَتْ هَذِهِ القَوَاعِدُ مَرْجِعًا تَعْلِيمِيًّا يَحْفَظُهُ طُلَّابُ الحُقُوقِ وَالشَّرِيعَةِ إِلَى اليَوْمِ.
+وَلَمْ يَقْتَصِرْ أَثَرُ المَجَلَّةِ عَلَى الدَّوْلَةِ العُثْمَانِيَّةِ؛ فَقَدْ ظَلَّتْ سَارِيَةً بَعْدَ زَوَالِهَا عُقُودًا فِي عَدَدٍ مِنَ البِلَادِ الَّتِي كَانَتْ تَابِعَةً لَهَا، كَالأُرْدُنِّ وَفِلَسْطِينَ وَالعِرَاقِ وَقُبْرُصَ، وَتَأَثَّرَتْ بِهَا قَوَانِينُ مَدَنِيَّةٌ عَرَبِيَّةٌ عِدَّةٌ.
+وَتُمَثِّلُ المَجَلَّةُ تَجْرِبَةً رَائِدَةً فِي الجَمْعِ بَيْنَ أَصَالَةِ المَضْمُونِ وَحَدَاثَةِ الشَّكْلِ، وَتَطْرَحُ سُؤَالًا لَا يَزَالُ قَائِمًا: كَيْفَ يُصَاغُ التُّرَاثُ الفِقْهِيُّ صِيَاغَةً تُلَائِمُ دَوْلَةَ القَانُونِ الحَدِيثَةَ؟
+---
+On dokuzuncu yüzyılda Osmanlı devleti gerçek bir yargı açmazıyla karşılaştı: Derin bir fıkıh eğitimi almamış hâkimlerin çalıştığı yeni nizamiye mahkemeleri kurmuştu; muamelat hükümleri ise yüzlerce fıkıh kitabına dağılmıştı ve her meselede birden çok görüş vardı. Hâkim muteber görüşü nasıl bilecekti? Aralarında yabancıların da bulunduğu tüccarlar öngörülmesi güç hükümlere nasıl güvenecekti?
+Devlet adamları arasında geniş bir tartışma yaşandı: Bir kesim, Mısır’ın sonradan yaptığı gibi Fransız Medeni Kanunu’nun tercüme edilip uygulanmasını istedi; başını tarihçi ve fakih Ahmed Cevdet Paşa’nın çektiği diğer kesim ise bizzat İslam fıkhının numaralı kanun maddeleri hâlinde tedvin edilmesini savundu. İkinci görüş galip geldi.
+Cevdet Paşa başkanlığında âlimlerden bir komisyon kuruldu; 1869-1876 arasında çalışarak alım-satım, icâre, kefalet, şirket, vekâlet, dava ve deliller gibi konuları ele alan, on altı kitap ve bin sekiz yüz elli bir maddeden oluşan “Mecelle-i Ahkâm-ı Adliyye”yi ortaya koydu. Hanefî mezhebini esas aldı, ama her zaman mezhepteki râcih görüşe bağlı kalmadı; bazen çağın ihtiyaçlarına uyan daha kolay görüşleri seçti.
+Mecelle’nin en belirgin özelliklerinden biri, “İşler maksatlarına göredir”, “Yakîn şekle zail olmaz”, “Zarar izale olunur”, “Meşakkat teysiri celbeder” gibi doksan dokuz küllî fıkıh kaidesini toplayan mukaddimesidir. Bu kaideler bugün de hukuk ve ilahiyat öğrencilerinin ezberlediği bir öğretim kaynağı oldu.
+Mecelle’nin etkisi Osmanlı devletiyle sınırlı kalmadı: Devletin yıkılışından sonra da ona bağlı olmuş Ürdün, Filistin, Irak ve Kıbrıs gibi birçok ülkede on yıllarca yürürlükte kaldı; birçok Arap medeni kanunu ondan etkilendi.
+Mecelle, içeriğin asaletini biçimin modernliğiyle birleştirmede öncü bir tecrübedir ve hâlâ geçerli bir soruyu gündeme getirir: Fıkıh mirası modern hukuk devletine uygun biçimde nasıl ifade edilir?
+---
+معضلة = açmaz
+تكوينا = eğitim, yetişme
+مبثوثة = dağılmış
+القول المعتمد = muteber görüş
+تدوين = tedvin, kayda geçirme
+البيوع = alım-satımlar
+الكفالة = kefalet
+البينات = deliller
+الراجح = râcih, tercih edilen
+المشقة تجلب التيسير = meşakkat kolaylık getirir
+سارية = yürürlükte
+أصالة = asalet, özgünlük
+---
+? Mecelle’ye ihtiyaç doğuran sorun neydi?
+* Hükümlerin pek çok kitaba dağılması ve hâkimlerin muteber görüşü bilmekte zorlanması
+- Fıkıh kitaplarının hiç bulunmaması
+- Tüccarların mahkemeye gitmemesi
+- Fransız kanunlarının yasaklanması
+= أحكام المعاملات مبثوثة في مئات الكتب … فكيف يعرف القاضي القول المعتمد؟
+? Tartışmada hangi görüş galip geldi?
+* Fıkhın numaralı kanun maddeleri hâlinde tedvin edilmesi
+- Fransız Medeni Kanunu’nun tercümesi
+- Nizamiye mahkemelerinin kapatılması
+- Her hâkimin dilediği görüşle hükmetmesi
+= تدوين الفقه الإسلامي نفسه في صورة مواد قانونية مرقمة
+? Mecelle Hanefî mezhebine nasıl bağlı kalmıştır?
+* Mezhebi esas almış ama bazen çağa uygun daha kolay görüşleri seçmiştir
+- Mezhepteki râcih görüşten hiç ayrılmamıştır
+- Dört mezhebi eşit olarak kullanmıştır
+- Mezhebi tamamen terk etmiştir
+= لم تلتزم دائما بالقول الراجح فيه
+? Mecelle’nin etkisi hakkında metinde ne söylenir?
+* Osmanlı’dan sonra da bazı ülkelerde uzun süre yürürlükte kalmıştır
+- Yalnız İstanbul’da uygulanmıştır
+- Hiçbir Arap kanununu etkilememiştir
+- Yürürlüğe hiç girmemiştir
+= ظلت سارية بعد زوالها عقودا
+
+=== c1-anayasa-yargisi | hukuk | Anayasa yargısı | القَضَاءُ الدُّسْتُورِيُّ: مَنْ يَحْرُسُ الدُّسْتُورَ؟
+يُوصَفُ الدُّسْتُورُ بِأَنَّهُ «القَانُونُ الأَسْمَى» فِي الدَّوْلَةِ، أَيْ أَنَّ كُلَّ القَوَانِينِ الأُخْرَى يَجِبُ أَنْ تَتَّفِقَ مَعَهُ. لَكِنَّ هَذَا السُّمُوَّ يَبْقَى حِبْرًا عَلَى وَرَقٍ إِذَا لَمْ تُوجَدْ جِهَةٌ تَمْلِكُ سُلْطَةَ إِبْطَالِ القَانُونِ المُخَالِفِ. فَمَاذَا لَوْ أَصْدَرَ البَرْلَمَانُ، بِأَغْلَبِيَّتِهِ المُنْتَخَبَةِ، قَانُونًا يَنْتَهِكُ حُرِّيَّةً كَفَلَهَا الدُّسْتُورُ؟ مِنْ هُنَا نَشَأَتْ فِكْرَةُ «الرَّقَابَةِ عَلَى دُسْتُورِيَّةِ القَوَانِينِ».
+وَقَدْ ظَهَرَتْ هَذِهِ الرَّقَابَةُ فِي صُورَتَيْنِ رَئِيسَتَيْنِ. الأُولَى أَمْرِيكِيَّةٌ، نَشَأَتْ مِنْ حُكْمٍ شَهِيرٍ لِلْمَحْكَمَةِ العُلْيَا سَنَةَ ١٨٠٣م، قَرَّرَتْ فِيهِ أَنَّ مِنْ حَقِّ القُضَاةِ أَنْ يَمْتَنِعُوا عَنْ تَطْبِيقِ القَانُونِ المُخَالِفِ لِلدُّسْتُورِ؛ فَالرَّقَابَةُ هُنَا «لَامَرْكَزِيَّةٌ» يُمَارِسُهَا القُضَاةُ فِي القَضَايَا المَعْرُوضَةِ عَلَيْهِمْ. وَالثَّانِيَةُ أُورُوبِّيَّةٌ، صَاغَهَا الفَقِيهُ النِّمْسَاوِيُّ هَانْسْ كِلْسِنْ، وَتَقُومُ عَلَى إِنْشَاءِ مَحْكَمَةٍ دُسْتُورِيَّةٍ خَاصَّةٍ تَنْفَرِدُ بِهَذِهِ السُّلْطَةِ.
+وَقَدْ أَخَذَتْ تُرْكِيَا بِالنَّمُوذَجِ الثَّانِي، فَأَنْشَأَتْ مَحْكَمَتَهَا الدُّسْتُورِيَّةَ بِمُوجِبِ دُسْتُورِ ١٩٦١م. وَتَنْظُرُ المَحْكَمَةُ فِي دَعَاوَى الإِلْغَاءِ الَّتِي يَرْفَعُهَا رَئِيسُ الجُمْهُورِيَّةِ أَوْ مَجْمُوعَاتٌ نِيَابِيَّةٌ، وَفِي الدَّفْعِ بِعَدَمِ الدُّسْتُورِيَّةِ الَّذِي تُحِيلُهُ المَحَاكِمُ إِلَيْهَا، ثُمَّ أُضِيفَ إِلَيْهَا مُنْذُ سَنَةِ ٢٠١٢م حَقُّ الأَفْرَادِ فِي التَّقَدُّمِ بِشَكَاوَى فَرْدِيَّةٍ إِذَا انْتُهِكَتْ حُقُوقُهُمُ الأَسَاسِيَّةُ.
+وَيُثِيرُ القَضَاءُ الدُّسْتُورِيُّ جَدَلًا فِكْرِيًّا عَمِيقًا يُعْرَفُ بِـ«المُعْضِلَةِ المُضَادَّةِ لِلْأَغْلَبِيَّةِ»: كَيْفَ يَجُوزُ لِقُضَاةٍ غَيْرِ مُنْتَخَبِينَ أَنْ يُبْطِلُوا قَرَارَ نُوَّابٍ انْتَخَبَهُمُ الشَّعْبُ؟ وَيُجِيبُ المُدَافِعُونَ بِأَنَّ الدِّيمُقْرَاطِيَّةَ لَيْسَتْ حُكْمَ الأَغْلَبِيَّةِ المُطْلَقَ، بَلْ هِيَ أَيْضًا حِمَايَةُ الأَقَلِّيَّاتِ وَالحُقُوقِ الَّتِي لَا يَجُوزُ لِأَيِّ أَغْلَبِيَّةٍ أَنْ تَمَسَّهَا.
+وَفِي المُقَابِلِ يُحَذِّرُ آخَرُونَ مِنْ أَنْ تَتَحَوَّلَ المَحَاكِمُ الدُّسْتُورِيَّةُ إِلَى مُشَرِّعٍ ثَالِثٍ يَفْرِضُ آرَاءَهُ السِّيَاسِيَّةَ تَحْتَ غِطَاءِ التَّفْسِيرِ. وَلِذَلِكَ تَحْرِصُ الأَنْظِمَةُ عَلَى تَنْظِيمِ طُرُقِ اخْتِيَارِ القُضَاةِ وَمُدَدِ وِلَايَتِهِمْ بِمَا يَضْمَنُ اسْتِقْلَالَهُمْ وَتَوَازُنَ المَحْكَمَةِ.
+وَيَبْقَى التَّوَازُنُ بَيْنَ احْتِرَامِ إِرَادَةِ الأَغْلَبِيَّةِ وَحِمَايَةِ الحُقُوقِ الأَسَاسِيَّةِ مِنْ أَدَقِّ مَهَامِّ دَوْلَةِ القَانُونِ.
+---
+Anayasa devletteki “en üstün kanun” olarak nitelenir; yani bütün diğer kanunların ona uygun olması gerekir. Ama aykırı kanunu iptal etme yetkisine sahip bir merci yoksa bu üstünlük kâğıt üzerinde kalır. Ya parlamento seçilmiş çoğunluğuyla anayasanın güvence altına aldığı bir özgürlüğü çiğneyen bir kanun çıkarırsa? “Kanunların anayasaya uygunluk denetimi” fikri buradan doğdu.
+Bu denetim iki temel biçimde ortaya çıktı. Birincisi Amerikan modelidir; Yüksek Mahkeme’nin 1803’teki meşhur bir kararından doğmuştur; mahkeme o kararda hâkimlerin anayasaya aykırı kanunu uygulamaktan kaçınma hakkı olduğunu belirlemiştir; burada denetim, hâkimlerin önlerindeki davalarda yaptığı “yaygın” bir denetimdir. İkincisi Avusturyalı hukukçu Hans Kelsen’in şekillendirdiği Avrupa modelidir ve bu yetkiyi tek başına kullanan özel bir anayasa mahkemesi kurulmasına dayanır.
+Türkiye ikinci modeli benimsedi ve anayasa mahkemesini 1961 Anayasası ile kurdu. Mahkeme cumhurbaşkanının ya da meclis gruplarının açtığı iptal davalarına ve mahkemelerin kendisine gönderdiği itiraz yoluna bakar; 2012’den itibaren temel hakları çiğnenen fertlerin bireysel başvuru hakkı da eklendi.
+Anayasa yargısı “çoğunluk karşıtı açmaz” diye bilinen derin bir fikrî tartışmaya yol açar: Seçilmemiş hâkimlerin halkın seçtiği vekillerin kararını iptal etmesi nasıl caiz olabilir? Savunucular demokrasinin çoğunluğun mutlak yönetimi olmadığını, aynı zamanda azınlıkların ve hiçbir çoğunluğun dokunamayacağı hakların korunması olduğunu söyler.
+Buna karşılık başkaları anayasa mahkemelerinin yorum kılıfı altında siyasi görüşlerini dayatan üçüncü bir yasa koyucuya dönüşmesine karşı uyarır. Bu yüzden sistemler, bağımsızlıklarını ve mahkemenin dengesini güvence altına alacak şekilde hâkimlerin seçilme yollarını ve görev sürelerini düzenlemeye özen gösterir.
+Çoğunluğun iradesine saygı ile temel hakların korunması arasındaki denge, hukuk devletinin en hassas görevlerinden biri olmaya devam ediyor.
+---
+القانون الأسمى = en üstün kanun
+حبرا على ورق = kâğıt üzerinde
+إبطال = iptal
+ينتهك = çiğner
+كفلها = güvence altına aldı
+الرقابة على دستورية القوانين = anayasaya uygunluk denetimi
+لامركزية = yaygın, merkezî olmayan
+تنفرد بـ = …i tek başına kullanır
+دعاوى الإلغاء = iptal davaları
+الدفع بعدم الدستورية = itiraz yolu
+شكاوى فردية = bireysel başvurular
+مدد ولايتهم = görev süreleri
+---
+? Metne göre anayasanın üstünlüğü ne zaman “kâğıt üzerinde” kalır?
+* Aykırı kanunu iptal edecek bir merci bulunmadığında
+- Parlamento kanun çıkarmadığında
+- Halk anayasayı okumadığında
+- Hâkimler seçimle geldiğinde
+= إذا لم توجد جهة تملك سلطة إبطال القانون المخالف
+? Amerikan modelinin özelliği nedir?
+* Denetimin hâkimlerce önlerindeki davalarda yaygın biçimde yapılması
+- Denetimi özel bir anayasa mahkemesinin tek başına yapması
+- Parlamentonun kendi kanunlarını denetlemesi
+- Denetimin hiç olmaması
+= لامركزية يمارسها القضاة في القضايا المعروضة عليهم
+? 2012’den itibaren Türk Anayasa Mahkemesi’ne eklenen yetki nedir?
+* Bireysel başvuruları incelemek
+- Cumhurbaşkanını seçmek
+- Kanun teklifi vermek
+- Meclisi feshetmek
+= حق الأفراد في التقدم بشكاوى فردية
+? Savunucular “çoğunluk karşıtı açmaz”a nasıl cevap verir?
+* Demokrasinin azınlıkların ve temel hakların korunmasını da içerdiğini söyleyerek
+- Hâkimlerin de seçilmesi gerektiğini söyleyerek
+- Çoğunluğun her zaman haklı olduğunu söyleyerek
+- Anayasa mahkemelerinin kaldırılmasını önererek
+= ليست حكم الأغلبية المطلق، بل هي أيضا حماية الأقليات
+
+=== c1-deniz-hukuku | hukuk | Denizlerin hukuku | قَانُونُ البِحَارِ: مَنْ يَمْلِكُ المُحِيطَ؟
+فِي أَوَائِلِ القَرْنِ السَّابِعَ عَشَرَ كَتَبَ الفَقِيهُ الهُولَنْدِيُّ هُوغُو غْرُوتِيُوسْ رِسَالَةً بِعُنْوَانِ «البَحْرُ الحُرُّ»، دَافَعَ فِيهَا عَنْ حَقِّ جَمِيعِ الأُمَمِ فِي المِلَاحَةِ وَالتِّجَارَةِ فِي أَعَالِي البِحَارِ، رَدًّا عَلَى دَعَاوَى بَعْضِ الدُّوَلِ الأُورُوبِّيَّةِ بِامْتِلَاكِ مُحِيطَاتٍ بِأَكْمَلِهَا. وَقَدْ صَارَتْ فِكْرَةُ «حُرِّيَّةِ البِحَارِ» أَصْلًا مِنْ أُصُولِ القَانُونِ الدَّوْلِيِّ، لَكِنَّهَا ظَلَّتْ تَتَنَازَعُهَا رَغْبَةُ الدُّوَلِ السَّاحِلِيَّةِ فِي بَسْطِ سُلْطَانِهَا عَلَى المِيَاهِ القَرِيبَةِ مِنْ شَوَاطِئِهَا.
+وَبَعْدَ مُفَاوَضَاتٍ طَوِيلَةٍ اسْتَمَرَّتْ قُرَابَةَ عَشْرِ سَنَوَاتٍ، اعْتُمِدَتْ سَنَةَ ١٩٨٢م «اتِّفَاقِيَّةُ الأُمَمِ المُتَّحِدَةِ لِقَانُونِ البِحَارِ»، الَّتِي تُوصَفُ أَحْيَانًا بِأَنَّهَا «دُسْتُورُ المُحِيطَاتِ». وَقَدْ قَسَّمَتِ البَحْرَ إِلَى مَنَاطِقَ تَتَدَرَّجُ فِيهَا سُلْطَةُ الدَّوْلَةِ السَّاحِلِيَّةِ: البَحْرِ الإِقْلِيمِيِّ الَّذِي يَمْتَدُّ اثْنَيْ عَشَرَ مِيلًا بَحْرِيًّا، وَتَكُونُ فِيهِ لِلدَّوْلَةِ سِيَادَةٌ شِبْهُ كَامِلَةٍ مَعَ حَقِّ السُّفُنِ الأَجْنَبِيَّةِ فِي «المُرُورِ البَرِيءِ»، ثُمَّ المِنْطَقَةِ الاقْتِصَادِيَّةِ الخَالِصَةِ الَّتِي تَمْتَدُّ إِلَى مِئَتَيْ مِيلٍ، وَلِلدَّوْلَةِ فِيهَا حُقُوقٌ حَصْرِيَّةٌ فِي الصَّيْدِ وَاسْتِغْلَالِ الثَّرَوَاتِ، دُونَ أَنْ تَمْنَعَ المِلَاحَةَ.
+أَمَّا مَا وَرَاءَ ذَلِكَ فَهُوَ «أَعَالِي البِحَارِ»، المَفْتُوحَةُ لِلْجَمِيعِ. وَقَدْ أَعْلَنَتِ الاتِّفَاقِيَّةُ أَنَّ قِيعَانَ المُحِيطَاتِ العَمِيقَةَ وَمَا فِيهَا مِنْ مَعَادِنَ «تُرَاثٌ مُشْتَرَكٌ لِلْإِنْسَانِيَّةِ»، تُدِيرُهُ هَيْئَةٌ دَوْلِيَّةٌ، وَلَا يَجُوزُ لِدَوْلَةٍ أَنْ تَدَّعِيَ مِلْكِيَّتَهُ.
+غَيْرَ أَنَّ تَطْبِيقَ هَذِهِ القَوَاعِدِ يَصْطَدِمُ بِنِزَاعَاتٍ كَثِيرَةٍ، خَاصَّةً فِي البِحَارِ الضَّيِّقَةِ وَشِبْهِ المُغْلَقَةِ الَّتِي تَتَدَاخَلُ فِيهَا المَنَاطِقُ، كَشَرْقِ البَحْرِ المُتَوَسِّطِ وَبَحْرِ إِيجَه وَبَحْرِ الصِّينِ الجَنُوبِيِّ. وَتَزْدَادُ هَذِهِ النِّزَاعَاتُ حِدَّةً حِينَ تُكْتَشَفُ فِي القَاعِ ثَرَوَاتٌ مِنَ النِّفْطِ وَالغَازِ، أَوْ حِينَ يُثَارُ السُّؤَالُ: هَلْ تَمْلِكُ الجُزُرُ الصَّغِيرَةُ مَنَاطِقَ بَحْرِيَّةً كَامِلَةً كَمَا يَمْلِكُ البَرُّ الرَّئِيسُ؟
+وَتَجْدُرُ الإِشَارَةُ إِلَى أَنَّ بَعْضَ الدُّوَلِ لَمْ تَنْضَمَّ إِلَى الاتِّفَاقِيَّةِ أَوْ تَحَفَّظَتْ عَلَى بَعْضِ أَحْكَامِهَا، مُعْتَبِرَةً أَنَّ تَطْبِيقَهَا الحَرْفِيَّ فِي ظُرُوفٍ جُغْرَافِيَّةٍ خَاصَّةٍ يُؤَدِّي إِلَى نَتَائِجَ غَيْرِ مُنْصِفَةٍ، وَتَدْعُو إِلَى حَلِّ النِّزَاعَاتِ وَفْقَ مَبْدَأِ الإِنْصَافِ.
+وَيُضَافُ إِلَى ذَلِكَ تَحَدٍّ جَدِيدٌ: فَارْتِفَاعُ مُسْتَوَى البَحْرِ قَدْ يُغْرِقُ بَعْضَ الجُزُرِ وَالسَّوَاحِلِ، فَهَلْ تَتَقَلَّصُ حُدُودُ الدَّوْلَةِ البَحْرِيَّةُ بِتَرَاجُعِ شَاطِئِهَا؟ سُؤَالٌ لَمْ يَتَصَوَّرْهُ وَاضِعُو الاتِّفَاقِيَّةِ.
+---
+On yedinci yüzyılın başlarında Hollandalı hukukçu Hugo Grotius “Açık Deniz” başlıklı bir risale yazdı; bazı Avrupa devletlerinin okyanusların tamamına sahip olma iddialarına karşı bütün milletlerin açık denizlerde seyrüsefer ve ticaret hakkını savundu. “Denizlerin serbestliği” fikri uluslararası hukukun esaslarından biri oldu; ama kıyı devletlerinin kıyılarına yakın sular üzerinde hâkimiyet kurma isteğiyle hep çekişti.
+Yaklaşık on yıl süren uzun müzakerelerin ardından 1982’de, bazen “okyanusların anayasası” olarak nitelenen “Birleşmiş Milletler Deniz Hukuku Sözleşmesi” kabul edildi. Sözleşme denizi, kıyı devletinin yetkisinin kademelendiği alanlara ayırdı: On iki deniz mili uzanan, devletin yabancı gemilerin “zararsız geçiş” hakkı saklı kalmak üzere neredeyse tam egemenliğe sahip olduğu karasuları; sonra iki yüz mile kadar uzanan ve devletin seyrüseferi engellemeksizin balıkçılık ve kaynakların işletilmesinde münhasır haklara sahip olduğu münhasır ekonomik bölge.
+Bunun ötesi herkese açık olan “açık deniz”dir. Sözleşme derin okyanus tabanlarını ve içerdikleri madenleri uluslararası bir kurumun yönettiği ve hiçbir devletin mülkiyet iddia edemeyeceği “insanlığın ortak mirası” ilan etti.
+Ancak bu kuralların uygulanması, özellikle bölgelerin iç içe geçtiği Doğu Akdeniz, Ege ve Güney Çin Denizi gibi dar ve yarı kapalı denizlerde pek çok uyuşmazlıkla karşılaşıyor. Bu uyuşmazlıklar tabanda petrol ve gaz zenginlikleri keşfedildiğinde ya da “Küçük adalar da ana kara gibi tam deniz alanlarına sahip midir?” sorusu gündeme geldiğinde daha da keskinleşir.
+Bazı devletlerin sözleşmeye katılmadığını ya da bazı hükümlerine çekince koyduğunu belirtmek gerekir; bunlar özel coğrafi şartlarda sözleşmenin lafzî uygulamasının hakkaniyete aykırı sonuçlara yol açtığını düşünür ve uyuşmazlıkların hakkaniyet ilkesine göre çözülmesini ister.
+Buna yeni bir zorluk eklenir: Deniz seviyesinin yükselmesi bazı adaları ve kıyıları sular altında bırakabilir; peki kıyısı geriledikçe devletin deniz sınırları da daralır mı? Sözleşmeyi hazırlayanların hiç tasavvur etmediği bir soru.
+---
+الملاحة = seyrüsefer
+أعالي البحار = açık deniz
+بسط سلطانها = hâkimiyetini yaymak
+البحر الإقليمي = karasuları
+ميلا بحريا = deniz mili
+المرور البريء = zararsız geçiş
+المنطقة الاقتصادية الخالصة = münhasır ekonomik bölge
+حصرية = münhasır
+تراث مشترك للإنسانية = insanlığın ortak mirası
+شبه المغلقة = yarı kapalı
+تحفظت على = …e çekince koydu
+الإنصاف = hakkaniyet
+---
+? Grotius’un “Açık Deniz” risalesi neye karşı yazılmıştır?
+* Bazı devletlerin okyanusların tamamına sahip olma iddialarına
+- Korsanlığa
+- Kıyı devletlerinin balıkçılığına
+- Birleşmiş Milletler’e
+= ردا على دعاوى بعض الدول الأوروبية بامتلاك محيطات بأكملها
+? Münhasır ekonomik bölgede kıyı devletinin hakkı nedir?
+* Seyrüseferi engellemeden balıkçılık ve kaynak işletmede münhasır hak
+- Tam egemenlik ve yabancı gemileri yasaklama
+- Hiçbir özel hak
+- Yalnız askerî tatbikat yapma hakkı
+= حقوق حصرية في الصيد واستغلال الثروات، دون أن تمنع الملاحة
+? Derin okyanus tabanları sözleşmeye göre nasıl nitelenir?
+* İnsanlığın ortak mirası
+- En yakın kıyı devletinin malı
+- Keşfeden devletin malı
+- Hiçbir kurala tabi olmayan alan
+= تراث مشترك للإنسانية
+? Metinde sözleşmeyi hazırlayanların öngörmediği sorun nedir?
+* Deniz seviyesinin yükselmesiyle deniz sınırlarının ne olacağı
+- Petrol keşifleri
+- Ada sayısının artması
+- Gemilerin hızlanması
+= لم يتصوره واضعو الاتفاقية
