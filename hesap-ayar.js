@@ -1,6 +1,11 @@
 /* el-Mihrâb · Hesap ayarı (Firebase). Bu bilgiler gizli değildir; güvenlik Firestore kurallarıyla sağlanır (firestore.rules).
    Kurulum: HESAP-KURULUM.md. Değerler girilene kadar giriş düğmesi görünmez ve site eskisi gibi çalışır. */
-window.HESAP_AYAR = null;
+window.HESAP_AYAR = {
+  apiKey: "AIzaSyAGotRPSKBlgUZOB4YoNDZ6Aio9c3YdlBo",
+  authDomain: "el-mihrab.firebaseapp.com",
+  projectId: "el-mihrab",
+  appId: "1:917596621684:web:f0f24afdb1816df01afa21"
+};
 /* Örnek:
 window.HESAP_AYAR = {
   apiKey: "AIza…",

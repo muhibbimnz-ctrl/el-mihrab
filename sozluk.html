@@ -241,4 +241,4 @@ function sonra(f){var go=function(){(window.requestIdleCallback||function(c){set
 function gorunce(id,f){var e=document.getElementById(id);if(!e||!('IntersectionObserver' in window))return sonra(f);var o=new IntersectionObserver(function(L){if(L.some(function(x){return x.isIntersecting})){o.disconnect();sonra(f)}},{rootMargin:'300px'});o.observe(e)}
 yukle(D).then(function(){ara();var e=document.getElementById('ozet');if(e&&KEYS[D])e.innerHTML='<b>'+esc(C.ad)+'</b> · '+fmt(KEYS[D].length)+' kelime · <a href="#" id="ozA">ayrıntı</a>';var oa=document.getElementById('ozA');if(oa)oa.onclick=function(ev){ev.preventDefault();bilgiAc()}}).catch(function(){M.innerHTML='<p class="note">Sözlük yüklenemedi; internet bağlantınızı kontrol edin.</p>'});
 </script>
-<script src="hesap-ayar.js?v=2"></script><script src="hesap.js?v=3" defer></script></body></html>
+<script src="hesap-ayar.js?v=3"></script><script src="hesap.js?v=4" defer></script></body></html>

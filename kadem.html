@@ -469,11 +469,11 @@ function giris(ne){saatGizle();renk('#1d5c4a');
  M.innerHTML='<div class="giris"><div class="kilit-ikon">🔒</div><div class="ust-etiket">'+(ne?e(ne.ust||'Kadem'):'el-Mihrâb')+'</div><h1>'+(ne?e(ne.ad):'Kadem')+'</h1><p class="lead" style="margin:0 auto">Kur’an Bilgisi’nin ilk konusu ve 1. Deneme herkese açık. Bütün konular, tam denemeler ve sınav haritaları üyelikle açılır.</p>'+
   (hz?'<div class="uyelik">'+(sat?'<div class="fiyat"><b>'+e(S.fiyat||'')+'</b><span>'+e(S.sure?S.sure+' erişim · bütün sınavlar':'bütün sınavlar')+'</span></div>':'')+
    (u?'<p class="kucukyazi">Giriş yapılan hesap: <b>'+e(u.email||'')+'</b></p><button class="btn" id="uk" style="width:100%">Üyeliğimi kontrol et</button>':'<button class="btn" id="gg" style="width:100%">Google ile giriş yap</button>')+
-   (sat?'<a class="btn ikinci" id="sa" href="'+e(S.odemeLinki)+'" target="_blank" rel="noopener" style="width:100%">Kartla satın al · '+e(S.fiyat||'')+'</a><p class="kucukyazi">Ödeme iyzico güvenli ödeme sayfasında yapılır. Formdaki e-posta alanına <b>Google ile giriş yaptığın Gmail adresini</b> yaz; üyeliğin o adrese açılır. Onay genellikle aynı gün içinde verilir'+(S.iletisim?'; sorun olursa: '+e(S.iletisim):'')+'.</p>':'')+'</div>':xKutu())+
-  '<details class="sifrem"'+(hz?'':' open')+'><summary>Şifrem var</summary><form id="gf"><input type="password" id="sf" autocomplete="current-password" placeholder="Şifre" required><button class="btn" style="width:100%">Şifreyle giriş</button></form></details><p class="kucukyazi" id="sm" style="min-height:20px"></p></div>';
+   (sat?'<a class="btn ikinci" id="sa" href="'+e(S.odemeLinki)+'" target="_blank" rel="noopener" style="width:100%">Kartla satın al · '+e(S.fiyat||'')+'</a><p class="kucukyazi">Ödeme iyzico güvenli ödeme sayfasında yapılır. Formdaki e-posta alanına <b>Google ile giriş yaptığın Gmail adresini</b> yaz; üyeliğin o adrese açılır. Onay genellikle aynı gün içinde verilir'+(S.iletisim?'; sorun olursa: '+e(S.iletisim):'')+'.</p>':'')+'</div>'+(sat?'':xKutu()):xKutu())+
+  '<details class="sifrem"'+(sat?'':' open')+'><summary>Şifrem var</summary><form id="gf"><input type="password" id="sf" autocomplete="current-password" placeholder="Şifre" required><button class="btn" style="width:100%">Şifreyle giriş</button></form></details><p class="kucukyazi" id="sm" style="min-height:20px"></p></div>';
  if($('#gg'))$('#gg').onclick=function(){H.ac()};
  if($('#uk'))$('#uk').onclick=function(){$('#sm').textContent='Kontrol ediliyor…';uyeKontrol(0)};
- if(!hz)$('#sf').focus();
+ if(!sat)$('#sf').focus();
  $('#gf').onsubmit=function(ev){ev.preventDefault();var pw=$('#sf').value;$('#sm').textContent='Kontrol ediliyor…';
   if(!window.crypto||!crypto.subtle){$('#sm').textContent='Bu tarayıcı şifreli içeriği açamıyor.';return}
   fetch('data/kadem/anahtar.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(A){
@@ -960,4 +960,4 @@ function ac(){var H=hash();saatGizle();altnav(null);if(H.giris)return giris();if
 addEventListener('hashchange',ac);ac();
 })();
 </script>
-<script src="hesap-ayar.js?v=2"></script><script src="hesap.js?v=3" defer></script><script src="nasil.js?v=2" data-b="kadem"></script></body></html>
+<script src="hesap-ayar.js?v=3"></script><script src="hesap.js?v=4" defer></script><script src="nasil.js?v=2" data-b="kadem"></script></body></html>

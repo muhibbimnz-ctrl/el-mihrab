@@ -42,7 +42,7 @@ Firebase ayarı (yukarıdaki 1-6) yapılmadan hiçbiri görünmez; Kadem eskisi 
 ## Bir kez yapılacaklar
 1. Firebase kurulumu (yukarıdaki 1-6).
 2. Firestore → **Kurallar**: güncel `firestore.rules` içeriğini yapıştır → Yayınla.
-3. Firestore → **Veri** → koleksiyon başlat: `yoneticiler` → belge kimliği: kendi Gmail adresin (küçük harfle) → bir alan ekle (ör. `ad`: adın) → Kaydet.
+3. (Yapıldı, 26 Kasım 2026: proje el-mihrab, eur3, Google girişi, 4 alan adı, kurallar, yönetici muhibbi.mnz@gmail.com) Firestore → **Veri** → koleksiyon başlat: `yoneticiler` → belge kimliği: kendi Gmail adresin (küçük harfle) → bir alan ekle (ör. `ad`: adın) → Kaydet.
 4. Siteden `yonetim.html` sayfasını aç → Google ile gir → **Kadem anahtarı** bölümüne Kadem şifresini bir kez yaz → Anahtarı kaydet.
 5. iyzico → **Linkle Ödeme Al** (bireysel) başvurusu → onaydan sonra 250 TL’lik bir ürün linki oluştur (ürün adı: “el-Mihrâb Kadem – 1 yıllık erişim”; açıklamaya “Ödeme formuna Google ile giriş yaptığınız Gmail adresinizi yazın” notunu ekle).
 6. `hesap-ayar.js` → `KADEM_SATIS.odemeLinki` alanına linki, `iletisim` alanına (isteğe bağlı) bir iletişim adresi yaz; sürümleri artır, kontrol, commit, push.
