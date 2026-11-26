@@ -1,7 +1,7 @@
 /* el-Mihrâb service worker
    - Uygulama kabuğu: önce telefondaki kopya (hemen açılır), arkada yenisi indirilir
    - Kur'an, meal, tefsir, kıraat servisleri: önce ağ (8 sn), olmazsa daha önce okunan kopya, o da yoksa bir kez daha dener */
-const V='mihrab-v318', DATA='mihrab-data-v1';
+const V='mihrab-v319', DATA='mihrab-data-v1';
 /* Cloudflare Pages "x.html" adresini "x"e yönlendirir. Yönlendirilmiş cevap telefona olduğu gibi saklanırsa
    internetsiz açılışta tarayıcı onu reddeder; bu yüzden temiz bir kopyası saklanır ve iki adres de denenir. */
 function temiz(r){return r&&r.redirected?new Response(r.body,{status:r.status,statusText:r.statusText,headers:r.headers}):r}
@@ -41,6 +41,9 @@ self.addEventListener('fetch',e=>{
     e.respondWith(caches.open(DATA).then(c=>c.match(req).then(r=>{const f=timeout(fetch(req,{cache:'no-cache'}),20000).then(n=>{if(n.ok)c.put(req,n.clone()).catch(()=>{});return n});if(r){e.waitUntil(f.catch(()=>{}));return r}return f.catch(()=>caches.match(req,{ignoreSearch:true}).then(y=>{if(y)return y;throw new Error('offline')}))})));return}
   if(u.origin===location.origin&&/\/data\/(hutbe|vaaz|canli|haber)\.json$/.test(u.pathname)){
     e.respondWith(timeout(fetch(req,{cache:'no-cache'}),5000).then(n=>{if(n.ok){const c=n.clone();caches.open(DATA).then(x=>x.put(req,c).catch(()=>{}))}return n}).catch(()=>caches.match(req,{ignoreSearch:true}).then(r=>{if(r)return r;throw new Error('offline')})));return}
+  /* YDS bankası ve okuma metinleri sık güncellenir: önce ağ (8 sn), olmazsa telefondaki kopya */
+  if(u.origin===location.origin&&/\/data\/(yds|modern)\//.test(u.pathname)){
+    e.respondWith(timeout(fetch(req,{cache:'no-cache'}),8000).then(n=>{if(n.ok){const c=n.clone();caches.open(DATA).then(x=>x.put(req,c).catch(()=>{}))}return n}).catch(()=>caches.match(req,{ignoreSearch:true}).then(r=>{if(r)return r;throw new Error('offline')})));return}
   if(u.origin===location.origin&&u.pathname.endsWith('/data/videolar.json')){
     e.respondWith(timeout(fetch(req,{cache:'no-cache'}),3500).then(n=>{if(n.ok){const c=n.clone();caches.open(DATA).then(x=>x.put(req,c).catch(()=>{}))}return n}).catch(()=>caches.match(req)));return}
   if(u.origin===location.origin&&u.pathname.includes('/data/')){
