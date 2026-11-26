@@ -6,13 +6,13 @@
 (function () {
 'use strict';
 var N = {
- app: { ad: 'el-Mihrâb’a hoş geldin', renk: '#0e5a43', s: [
+ app: { ad: 'el-Mihrâb', renk: '#0e5a43', s: [
   ['🕌', 'Kur’an ve tefsir bir arada', 'Mushafı sayfa sayfa oku, âyete dokunup tefsirini, i‘râbını ve meâlini aç; dilediğin kâriden dinle.'],
   ['📿', 'Namaz ve Kur’an menüsü', 'Ezan vakti, kıble, kaza takibi, hatim, tesbihat, ilmihal ve fetva asistanı tek yerde.'],
   ['📚', 'Dirâseler', 'Hadis, Fıkıh, Akaid, Ahlak ve Siyer dirâseleri: her biri kendi planıyla, adım adım.'],
   ['🗣️', 'Diller', 'Arapça, Farsça ve İngilizce: 6 aylık sesli programlar, romanlar ve sözlükler.'],
   ['🎯', 'Kadem', 'Diyanet sınavlarına hazırlık: konu anlatımı, açıklamalı sorular ve ÖSYM biçiminde denemeler.'],
-  ['✨', 'Her bölümde bir rehber', 'Bir bölüme ilk girdiğinde nasıl çalışılacağını gösteririz. Tekrar izlemek için üstteki “Nasıl?” düğmesine dokun.']] },
+  ['', 'Her bölümde kısa bir rehber', 'Bir bölüme ilk girdiğinde nasıl çalışılacağı bir kez gösterilir. Yeniden bakmak için sayfanın üstündeki “Nasıl çalışılır” düğmesini kullan.']] },
  kuran: { ad: 'Kur’an Dirâsesi', renk: '#0e5a43', s: [
   ['📖', 'Sûreni seç', 'Sûre listesinden ya da kaldığın yerden başla. Âyetler Arapçası ve seçtiğin meâllerle alt alta gelir.'],
   ['👆', 'Âyete dokun', 'Tefsir, i‘râb, belâgat, kıraat, nüzul ve meâller sekmelerinde o âyetin bütün ilmine ulaş.'],
@@ -62,7 +62,7 @@ var N = {
   ['🏛️', 'Medrese usûlü', 'Emsile, Binâ ve Avâmil sırasıyla okunur; biri bitmeden ötekine geçilmez.'],
   ['🧠', 'Ezberle', 'Emsile çekimlerini ve kuralları yüksek sesle tekrar ederek ezberle.'],
   ['🔍', 'Kur’an i‘râbı', 'Öğrendiğin kuralları Kur’an âyetlerinin i‘râbında uygula.'],
-  ['⏱️', 'Az ve düzenli', 'Her gün kısa bir ders, ertesi gün dünkünün tekrarı: medrese usûlünün sırrı budur.']] },
+  ['⏱️', 'Az ve düzenli', 'Her gün kısa bir ders, ertesi gün dünkünün tekrarı. Medrese usûlünde esas, az ve düzenli ilerlemektir.']] },
  elifba: { ad: 'Kur’an Öğren', renk: '#0e5a43', s: [
   ['🔤', 'Dersler sırayla', 'Harflerden başla, dersleri sırayla bitir.'],
   ['🔊', 'Dinle', 'Harfin adını ve okunuşunu dinle; “Hepsini dinle” ile dersin tamamını çal.'],
@@ -72,11 +72,7 @@ var N = {
   ['📕', 'Seviyene göre seç', 'Romanlar seviyeye göre sıralı; zorlanmadan okuyabileceğin bir romanla başla.'],
   ['📖', 'Paragraf paragraf', 'Önce kendin oku, sonra “Türkçesi”ni açıp karşılaştır.'],
   ['📒', 'Kelime defteri', 'Bilmediğin kelimeyi defterine ekle; öğrenince “Öğrendim” de.'],
-  ['⏱️', 'Her gün bir bölüm', 'Kısa ama düzenli okumak dili en hızlı geliştiren yoldur.']] },
- sozluk: { ad: 'Sözlük', renk: '#1d4e6e', s: [
-  ['🔎', 'Ara', 'Kelimeyi yaz; Arapça, Farsça veya İngilizce karşılıkları ve örnekleri gelir.'],
-  ['➕', 'Defterine ekle', 'Öğrenmek istediğin kelimeyi “＋” ile ekle.'],
-  ['❓', 'Sözlük hakkında', 'Üstteki “?” düğmesi sözlükte neler olduğunu anlatır.']] },
+  ['⏱️', 'Her gün bir bölüm', 'Kısa ama düzenli okumak, dili en kalıcı geliştiren yoldur.']] },
  ihtisas: { ad: 'İhtisas', renk: '#6b5a2c', s: [
   ['🎓', 'Alanını seç', 'Tefsir, hadis, fıkıh ve diğer alanlarda okunacak kitaplar sıralı.'],
   ['📚', 'Kitap kitap', 'Listedeki kitapları sırayla oku; bitirdiğini işaretle.'],
@@ -91,18 +87,28 @@ var N = {
 var ME = document.currentScript, B = ME && ME.getAttribute('data-b');
 var css = document.createElement('style');
 css.textContent = [
- '.nsl-k{position:fixed;inset:0;z-index:99999;color:#fff;display:flex;flex-direction:column;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--nr,#0e5a43);background:radial-gradient(900px 700px at 85% -10%,rgba(255,255,255,.18),transparent 60%),radial-gradient(800px 700px at -10% 110%,rgba(0,0,0,.35),transparent 60%),var(--nr,#0e5a43);animation:nslA .25s ease;user-select:none;-webkit-user-select:none}',
- '@keyframes nslA{from{opacity:0}to{opacity:1}}',
- '.nsl-c{display:flex;gap:4px;padding:calc(env(safe-area-inset-top,0px) + 12px) 12px 0}.nsl-c i{flex:1;height:3px;border-radius:2px;background:rgba(255,255,255,.3);overflow:hidden}.nsl-c i b{display:block;height:100%;width:0;background:#fff}',
- '.nsl-u{display:flex;align-items:center;justify-content:space-between;padding:12px 16px 0;font-size:14px;font-weight:700;opacity:.92}.nsl-u button{border:0;background:rgba(255,255,255,.16);color:#fff;border-radius:999px;padding:7px 14px;font:600 14px inherit;cursor:pointer}',
- '.nsl-g{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px 30px;position:relative}',
- '.nsl-g .ik{font-size:84px;line-height:1;margin-bottom:22px;animation:nslZ .35s ease}@keyframes nslZ{from{transform:scale(.7);opacity:0}to{transform:none;opacity:1}}',
- '.nsl-g h2{font-size:30px;line-height:1.15;margin:0 0 14px;font-weight:800;max-width:520px}.nsl-g p{font-size:18px;line-height:1.55;margin:0;max-width:480px;opacity:.92}',
- '.nsl-g video{width:min(78vw,340px);max-height:62vh;border-radius:22px;box-shadow:0 20px 50px rgba(0,0,0,.45);background:#000}',
- '.nsl-a{padding:0 20px calc(env(safe-area-inset-bottom,0px) + 22px);display:flex;justify-content:center;gap:10px}.nsl-a button{border:0;border-radius:999px;padding:14px 28px;font:700 17px inherit;cursor:pointer;background:#fff;color:#1b1b1b;min-width:200px}.nsl-a .nsl-n{font-size:13px;opacity:.7;align-self:center}',
- '.nsl-dk{position:absolute;top:0;bottom:0;width:32%;z-index:1}.nsl-dk.s{left:0}.nsl-dk.r{right:0}',
- '.nsl-b{display:inline-flex;align-items:center;gap:5px;border:1px solid currentColor;background:transparent;color:inherit;border-radius:999px;padding:4px 10px;font:600 12.5px system-ui,sans-serif;cursor:pointer;opacity:.85;white-space:nowrap;line-height:1.2}',
- '.nsl-y{position:fixed;top:calc(env(safe-area-inset-top,0px) + 8px);right:8px;z-index:9990;background:rgba(0,0,0,.55);color:#fff;border-color:transparent;backdrop-filter:blur(4px)}'
+ '.nsl-k{position:fixed;inset:0;z-index:99999;display:flex;flex-direction:column;background:#f7f3ea;color:#1f1c17;font-family:"Source Sans 3",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;opacity:0;transition:opacity .2s ease}',
+ '.nsl-k.on{opacity:1}',
+ '.nsl-u{display:flex;align-items:center;justify-content:space-between;padding:calc(env(safe-area-inset-top,0px) + 14px) 22px 0;font-size:12.5px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:var(--nr,#0e5a43)}',
+ '.nsl-u button{border:0;background:none;color:#6f665a;font:600 14px inherit;letter-spacing:0;text-transform:none;padding:8px 0 8px 12px;cursor:pointer}',
+ '.nsl-c{display:flex;gap:6px;padding:12px 22px 0}.nsl-c i{flex:1;height:2px;background:#ddd3c1}.nsl-c i.on{background:var(--nr,#0e5a43)}',
+ '.nsl-g{flex:1;display:flex;flex-direction:column;justify-content:center;padding:24px 30px 10px;max-width:560px;width:100%;margin:0 auto;box-sizing:border-box;transition:opacity .18s ease}',
+ '.nsl-g.gec{opacity:0}',
+ '.nsl-g .no{font-family:Georgia,"Times New Roman",serif;font-size:15px;color:#8a7f6e;margin-bottom:14px;font-variant-numeric:tabular-nums}',
+ '.nsl-g .no b{color:var(--nr,#0e5a43);font-size:15px}',
+ '.nsl-g h2{font-family:Georgia,"Times New Roman",serif;font-weight:700;font-size:30px;line-height:1.2;margin:0 0 14px;color:#1f1c17}',
+ '.nsl-g p{font-size:18px;line-height:1.6;margin:0;color:#4a4237}',
+ '.nsl-g .cz{width:44px;height:3px;background:var(--nr,#0e5a43);margin:0 0 22px}',
+ '.nsl-g video{width:min(80vw,330px);max-height:60vh;border-radius:14px;background:#000;align-self:center}',
+ '.nsl-a{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 22px calc(env(safe-area-inset-bottom,0px) + 22px);max-width:560px;width:100%;margin:0 auto;box-sizing:border-box}',
+ '.nsl-a button{border:0;cursor:pointer;font:600 16px inherit;border-radius:12px;padding:14px 22px}',
+ '.nsl-a .ger{background:none;color:#6f665a;padding-left:0}.nsl-a .ger[disabled]{visibility:hidden}',
+ '.nsl-a .ile{background:var(--nr,#0e5a43);color:#fff;min-width:150px}',
+ '@media (prefers-color-scheme:dark){.nsl-k{background:#141816;color:#ece6d8}.nsl-g h2{color:#ece6d8}.nsl-g p{color:#c8c0ae}.nsl-c i{background:#2c3430}.nsl-u button,.nsl-a .ger{color:#a59c8a}}',
+ '.nsl-b{display:inline-flex;align-items:center;gap:6px;border:1px solid currentColor;background:transparent;color:inherit;border-radius:8px;padding:4px 10px;font:600 12.5px system-ui,sans-serif;cursor:pointer;opacity:.8;white-space:nowrap;line-height:1.2}',
+ '.nsl-b svg{width:13px;height:13px}',
+ '.nsl-b.nsl-i{flex:none!important;width:30px!important;height:30px!important;min-width:30px!important;padding:0!important;justify-content:center;border-radius:50%!important;margin:0 2px 0 6px!important;opacity:.8;font-size:0!important;line-height:0!important}.nsl-b.nsl-i svg{width:17px!important;height:17px!important;flex:none}',
+ '.nsl-y{position:fixed;top:calc(env(safe-area-inset-top,0px) + 70px);right:10px;z-index:9990;background:#fff;color:#2a2a2a;border-color:#d9d2c4;opacity:.95;box-shadow:0 1px 3px rgba(0,0,0,.12)}'
 ].join('\n');
 document.head.appendChild(css);
 function gorulduMu(b) { try { return !!localStorage.getItem('mihrab.nasil.' + b); } catch (e) { return true; } }
@@ -110,43 +116,51 @@ function gorulduYap(b) { try { localStorage.setItem('mihrab.nasil.' + b, '1'); }
 var acik = null;
 function ac(b, bitince) {
   var D = N[b]; if (!D || acik) return; gorulduYap(b);
-  var S = D.s.slice(); if (D.video) S.unshift(['video', D.ad, 'Kısa tanıtım']);
+  var S = D.s.slice(); if (D.video) S.unshift(['video', D.ad, '']);
   var k = document.createElement('div'); k.className = 'nsl-k'; k.style.setProperty('--nr', D.renk); k.setAttribute('role', 'dialog'); k.setAttribute('aria-label', 'Nasıl çalışılır: ' + D.ad);
-  k.innerHTML = '<div class="nsl-c">' + S.map(function () { return '<i><b></b></i>'; }).join('') + '</div><div class="nsl-u"><span>' + D.ad + ' · Nasıl çalışılır?</span><button data-x>Geç</button></div><div class="nsl-g"></div><div class="nsl-a"></div>';
+  k.innerHTML = '<div class="nsl-u"><span>' + D.ad + ' · Nasıl çalışılır</span><button data-x>Kapat</button></div><div class="nsl-c">' + S.map(function () { return '<i></i>'; }).join('') + '</div><div class="nsl-g"></div><div class="nsl-a"><button class="ger" data-g="-1">‹ Geri</button><button class="ile" data-g="1"></button></div>';
   document.body.appendChild(k); acik = k; var ovf = document.documentElement.style.overflow; document.documentElement.style.overflow = 'hidden';
-  var i = 0, t0 = 0, raf = 0, dur = false, SURE = 5200, G = k.querySelector('.nsl-g'), A = k.querySelector('.nsl-a'), C = k.querySelectorAll('.nsl-c b');
-  function kapat() { cancelAnimationFrame(raf); document.removeEventListener('keydown', tus); try { k.remove(); } catch (e) {} acik = null; document.documentElement.style.overflow = ovf; if (bitince) try { bitince(); } catch (e) {} }
-  function goster(j) {
-    i = Math.max(0, Math.min(S.length - 1, j)); var s = S[i]; t0 = performance.now(); dur = false;
-    for (var x = 0; x < C.length; x++) C[x].style.width = x < i ? '100%' : '0';
-    if (s[0] === 'video') {
-      G.innerHTML = '<video src="' + D.video + '" autoplay muted playsinline preload="auto"></video>';
-      var v = G.querySelector('video'); v.onended = function () { goster(i + 1); }; v.onerror = function () { goster(i + 1); };
-      v.ontimeupdate = function () { if (v.duration) C[i].style.width = (v.currentTime / v.duration * 100) + '%'; };
-      try { var pr = v.play(); if (pr && pr.catch) pr.catch(function () {}); } catch (e) {}
-    } else G.innerHTML = '<div class="ik">' + s[0] + '</div><h2>' + s[1] + '</h2><p>' + s[2] + '</p>';
-    G.insertAdjacentHTML('beforeend', '<div class="nsl-dk s" data-g="-1"></div><div class="nsl-dk r" data-g="1"></div>');
-    A.innerHTML = i === S.length - 1 ? '<button data-x>Başla</button>' : '<span class="nsl-n">Dokun: ileri · sol kenar: geri</span>';
-  }
-  function dongu(t) { var s = S[i]; if (s[0] !== 'video' && !dur) { var o = (t - t0) / SURE; C[i].style.width = Math.min(100, o * 100) + '%'; if (o >= 1) { if (i < S.length - 1) goster(i + 1); else dur = true; } } raf = requestAnimationFrame(dongu); }
-  function tus(e) { if (e.key === 'Escape') kapat(); else if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') goster(i + (e.key === 'ArrowRight' ? 1 : -1)); }
-  k.addEventListener('click', function (e) { var x = e.target.closest('[data-x]'); if (x) return kapat(); var g = e.target.closest('[data-g]');
-    if (g) { var n = i + (+g.getAttribute('data-g')); if (n >= S.length) return; goster(n); } });
+  requestAnimationFrame(function () { k.classList.add('on'); });
+  var i = -1, G = k.querySelector('.nsl-g'), C = k.querySelectorAll('.nsl-c i'), GER = k.querySelector('.ger'), ILE = k.querySelector('.ile'), ger = 0;
+  function kapat() { document.removeEventListener('keydown', tus); var v = G.querySelector('video'); if (v) try { v.pause(); } catch (e) {} k.classList.remove('on'); setTimeout(function () { try { k.remove(); } catch (e) {} }, 200); acik = null; document.documentElement.style.overflow = ovf; if (bitince) try { bitince(); } catch (e) {} }
+  function ciz() { var s = S[i];
+    for (var x = 0; x < C.length; x++) C[x].className = x <= i ? 'on' : '';
+    if (s[0] === 'video') G.innerHTML = '<video src="' + D.video + '" autoplay muted playsinline controls preload="metadata"></video>';
+    else G.innerHTML = '<div class="no"><b>' + (i + 1) + '</b> / ' + S.length + '</div><div class="cz"></div><h2>' + s[1] + '</h2><p>' + s[2] + '</p>';
+    var v = G.querySelector('video'); if (v) { v.onerror = function () { if (S[i] && S[i][0] === 'video') git(1); }; try { var pr = v.play(); if (pr && pr.catch) pr.catch(function () {}); } catch (e) {} }
+    GER.disabled = i === 0; ILE.textContent = i === S.length - 1 ? 'Başla' : 'İleri';
+    G.classList.remove('gec'); }
+  function git(d) { var n = i + d; if (n >= S.length) return kapat(); if (n < 0) return; var v = G.querySelector('video'); if (v) try { v.pause(); } catch (e) {}
+    i = n; if (ger) clearTimeout(ger); G.classList.add('gec'); ger = setTimeout(ciz, i === 0 && !G.innerHTML ? 0 : 160); }
+  function tus(e) { if (e.key === 'Escape') kapat(); else if (e.key === 'ArrowRight' || e.key === 'Enter') git(1); else if (e.key === 'ArrowLeft') git(-1); }
+  k.addEventListener('click', function (e) { if (e.target.closest('[data-x]')) return kapat(); var g = e.target.closest('[data-g]'); if (g) git(+g.getAttribute('data-g')); });
   document.addEventListener('keydown', tus);
-  goster(0); raf = requestAnimationFrame(dongu);
+  i = 0; ciz();
 }
 function dugme(b) {
-  var btn = document.createElement('button'); btn.type = 'button'; btn.className = 'nsl-b'; btn.innerHTML = '▶ Nasıl?'; btn.title = 'Nasıl çalışılır?';
+  var SV = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6.5"/><path d="M6.3 6.2a1.8 1.8 0 1 1 2.5 1.7c-.5.2-.8.6-.8 1.1M8 11.2v.1" stroke-linecap="round"/></svg>';
+  var btn = document.createElement('button'); btn.type = 'button'; btn.className = 'nsl-b'; btn.title = 'Nasıl çalışılır'; btn.setAttribute('aria-label', 'Nasıl çalışılır');
   btn.onclick = function (e) { e.preventDefault(); e.stopPropagation(); ac(b); };
   var ust = document.querySelector('#hd .top');
-  if (ust) { var son = ust.lastElementChild; if (son && son.tagName === 'SPAN' && !son.textContent.trim()) { son.replaceWith(btn); btn.style.marginLeft = 'auto'; }
-    else { var h = ust.querySelector('h1'); if (h && h.nextSibling) ust.insertBefore(btn, h.nextSibling); else ust.appendChild(btn); btn.style.margin = '0 6px'; } }
+  if (ust) { btn.innerHTML = SV + 'Nasıl çalışılır'; var son = ust.lastElementChild;
+    if (son && son.tagName === 'SPAN' && !son.textContent.trim()) { son.replaceWith(btn); btn.style.marginLeft = 'auto'; }
+    else { var h = ust.querySelector('h1'); if (h && h.nextSibling) ust.insertBefore(btn, h.nextSibling); else ust.appendChild(btn); btn.style.margin = '0 6px'; }
+    return btn; }
+  /* Diğer sayfalar: üst çubuğun içine yalnız küçük bir “?” simgesi (yazı ve düğmelerin üstüne binmez) */
+  btn.innerHTML = SV; btn.classList.add('nsl-i');
+  var bar = null, A = document.querySelectorAll('#top, header, .top, .bar, .ust, nav');
+  for (var x = 0; x < A.length; x++) { var r = A[x].getBoundingClientRect(), st = getComputedStyle(A[x]);
+    if (r.top < 12 && r.height > 30 && r.height < 130 && r.width > innerWidth * .8 && (st.position === 'fixed' || st.position === 'sticky' || r.top >= 0) && st.display !== 'none') { bar = A[x]; break; } }
+  if (bar) { var sag = bar.querySelector('.sag'); if (sag) sag.insertBefore(btn, sag.firstChild); else { bar.appendChild(btn); } }
   else { btn.classList.add('nsl-y'); document.body.appendChild(btn); }
   return btn;
 }
-window.Nasil = { ac: ac, gorulduMu: gorulduMu, N: N };
+/* Sayfa tamamen yüklenip boşa çıkınca aç; açılış sırasında takılma olmasın */
+function bosta(f) { var go = function () { (window.requestIdleCallback || function (c) { setTimeout(c, 300); })(function () { setTimeout(f, 250); }, { timeout: 1500 }); };
+  if (document.readyState === 'complete') go(); else addEventListener('load', go, { once: true }); }
+window.Nasil = { ac: ac, gorulduMu: gorulduMu, gorulduYap: gorulduYap, bosta: bosta, N: N };
 if (B && N[B]) {
-  var bas = function () { try { dugme(B); if (!gorulduMu(B)) setTimeout(function () { ac(B); }, 450); } catch (e) {} };
+  var bas = function () { bosta(function () { try { if (!document.querySelector('.nsl-b')) dugme(B); } catch (e) {} if (!gorulduMu(B)) ac(B); }); };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', bas); else bas();
 }
 })();

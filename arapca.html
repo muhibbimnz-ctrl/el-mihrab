@@ -572,7 +572,7 @@ hb.onclick=function(){st.noh=!st.noh;save();hbSet();var y=window.scrollY;render(
 
 
 </script>
-<script src="hesap-ayar.js?v=1"></script><script src="hesap.js?v=2" defer></script><script src="nasil.js?v=1" data-b="arapca"></script></body></html>
+<script src="hesap-ayar.js?v=1"></script><script src="hesap.js?v=2" defer></script><script src="nasil.js?v=2" data-b="arapca"></script></body></html>
 <script>(function(){function go(){try{var m=document.querySelector("main")||document.body,h=m.querySelector("h1");if(!h||document.getElementById("mihrabHead"))return;var d=document.createElement("div");d.id="mihrabHead";d.innerHTML='<a class="mb" href="./">‹ el-Mihrâb</a><button id="mihrabQ" aria-label="Ses yardımı">?</button>';var nx=h.nextElementSibling;h.parentNode.insertBefore(d,h);d.appendChild(h);if(nx&&nx.tagName==="P")d.appendChild(nx);
 var w=document.getElementById("warnar"),q=document.getElementById("mihrabQ");if(!w)return;w.innerHTML=w.innerHTML.replace(/En kolay çözüm:[\s\S]*?Ya da /,"").replace(/Claude sesi,[\s\S]*?çalışmaz\)\. /,"");w.classList.add("mq");
 var chk=function(){var s=w.style.display;q.style.display=(s&&s!=="none")?"block":"none"};new MutationObserver(chk).observe(w,{attributes:true,attributeFilter:["style"]});chk();

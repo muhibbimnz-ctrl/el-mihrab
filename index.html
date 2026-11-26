@@ -1030,7 +1030,7 @@ async function offDownload(btn,info){
   LS.set('mihrab.offdone',1);if(info)info.textContent='✓';if(btn)toast(trS('İnternetsiz kullanım için indirildi ✓'));if(btn)btn.textContent='✓ '+trS('Kur\'an ve meâller cihazınıza kaydedildi')+' · '+trS('güncelle');
 }
 function nasilKuran(){try{if(window.Nasil&&$('#okuma').classList.contains('hide')&&!Nasil.gorulduMu('kuran')&&Nasil.gorulduMu('app'))setTimeout(()=>{if($('#okuma').classList.contains('hide')&&!document.querySelector('.nsl-k'))Nasil.ac('kuran')},900)}catch(e){}}
-async function loadSurah(s,focus,keep){setTimeout(nasilKuran,0);
+async function loadSurah(s,focus,keep){
   if(!keep)hideScr();
   s=Math.max(1,Math.min(114,s|0));const tok=++st.tok;st.s=s;st.open=null;stopAudio();
   $('#sName').textContent=`${s}. ${SN()[s-1]}`;$('#sAr').textContent=S_AR[s-1];document.title=SN()[s-1]+' — el-Mihrâb';
@@ -1745,5 +1745,5 @@ function applyVars(){const R=document.documentElement;R.dataset.theme=set.theme;
 new MutationObserver(function(){var g=h.classList.contains('hide');if(g===gizli)return;gizli=g;
  try{if(g){if(!(history.state&&history.state.scr))history.pushState({scr:1},'')}else if(history.state&&history.state.scr){sus=true;history.back()}}catch(e){}}).observe(h,{attributes:true,attributeFilter:['class']});
 var hs=document.getElementById('hStudy');if(hs)hs.addEventListener('click',function(){setTimeout(function(){var d=document.getElementById('dsSec');try{if(d&&getComputedStyle(d).display!=='none'&&!(history.state&&history.state.scr))history.pushState({scr:1},'')}catch(x){}},150)});
-addEventListener('popstate',function(e){var d=document.getElementById('dsSec');if(d&&getComputedStyle(d).display!=='none'){d.remove();if(!(e.state&&e.state.scr))return}if(sus){sus=false;return}if(e.state&&(e.state.scr||e.state.rd))return;var rd=document.getElementById('rd');if(rd&&!rd.classList.contains('hide'))return;if(h.classList.contains('hide'))showHome()})}catch(e){}})();</script><script src="hesap-ayar.js?v=1"></script><script src="hesap.js?v=2" defer></script><script src="nasil.js?v=1"></script><script>addEventListener('load',function(){try{if(window.Nasil&&!Nasil.gorulduMu('app'))setTimeout(function(){Nasil.ac('app')},700)}catch(e){}})</script></body>
+addEventListener('popstate',function(e){var d=document.getElementById('dsSec');if(d&&getComputedStyle(d).display!=='none'){d.remove();if(!(e.state&&e.state.scr))return}if(sus){sus=false;return}if(e.state&&(e.state.scr||e.state.rd))return;var rd=document.getElementById('rd');if(rd&&!rd.classList.contains('hide'))return;if(h.classList.contains('hide'))showHome()})}catch(e){}})();</script><script src="hesap-ayar.js?v=1"></script><script src="hesap.js?v=2" defer></script><script src="nasil.js?v=2"></script><script>try{if(window.Nasil&&!Nasil.gorulduMu('app')){if(localStorage.getItem('mihrab.tanitim'))Nasil.gorulduYap('app');else Nasil.bosta(function(){if(!Nasil.gorulduMu('app'))Nasil.ac('app')})}}catch(e){}</script></body>
 </html>

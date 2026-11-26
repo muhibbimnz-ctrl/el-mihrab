@@ -203,9 +203,9 @@ function ev(){var d=D,K=KEYS[d],o=G[d],n=Object.keys(st.d).filter(function(k){re
  h+='<h2>Harf harf göz at</h2><div class="hrf">'+HRF[d].split(' ').map(function(c){return '<button data-h="'+c+'">'+c+'</button>'}).join('')+'</div>';M.innerHTML=h;
  
  if(d==='en'){ornAl().then(function(O){var A=Object.keys(O.w).filter(function(w){return o[w]&&w.length>4});if(!A.length)return;var w=A[sd%A.length],x=o[w],g=document.getElementById('gunb');if(!g)return;g.innerHTML='<div class="gun"><div class="gb">Word of the day</div>'+madde(x)+'</div>';var mc=g.querySelector('.madde');mc.style.boxShadow='none';mc.style.border='0';mc.style.padding='6px 0 0';mc.style.margin='0';zenginlestir()})}
- else BY.yukle(d).then(function(X){if(!X)return;
+ else sonra(function(){BY.yukle(d).then(function(X){if(!X)return;
   var Tb=[];X.b.forEach(function(b,i){if(b[2])Tb.push(i)});if(!Tb.length)Tb=[sd%X.b.length];var bi=Tb[sd%Tb.length],b=X.b[bi],w='';for(var k in X.w){var v=X.w[k];if(v===bi||(v.indexOf&&v.indexOf(bi)>=0)){w=k;break}}
-  var g=document.getElementById('gunb');if(!g)return;var x=o[w]||(G[d][norm(w,d)]);g.innerHTML='<div class="gun"><div class="gb">Günün beyti</div>'+BY.html(b,w,0,d)+(x?'<div class="etiket"><button data-q="'+esc(x[0])+'">'+esc(x[0])+' — '+esc(x[1])+' ›</button></div>':'')+'</div>'})}
+  var g=document.getElementById('gunb');if(!g)return;var x=o[w]||(G[d][norm(w,d)]);g.innerHTML='<div class="gun"><div class="gb">Günün beyti</div>'+BY.html(b,w,0,d)+(x?'<div class="etiket"><button data-q="'+esc(x[0])+'">'+esc(x[0])+' — '+esc(x[1])+' ›</button></div>':'')+'</div>'})})}
 /* Sözlükte neler var: sayılar üstte değil, ? düğmesinde ve sayfanın altında */
 function sayilar(){var d=D,isler=[ornAl()];if(d!=='en')isler.push(BY.yukle(d));if(d==='ar')isler.push(kokAl());
  return Promise.all(isler).then(function(r){var O=r[0],X=d!=='en'?r[1]:null,L=[[KEYS[d].length,'kelime']];
@@ -234,6 +234,7 @@ document.body.addEventListener('click',function(e){
  var qb=e.target.closest('[data-q]');if(qb){Q.value=qb.dataset.q;ara();scrollTo(0,0);return}});
 var bk=document.getElementById('bk');bk.href=C.geri;bk.textContent='‹ '+C.dil;bk.onclick=function(e){if(document.referrer.indexOf(location.origin)===0&&history.length>1){e.preventDefault();history.back()}};
 Q.value=P.get('q')||'';M.innerHTML='<p class="note">Sözlük yükleniyor…</p>';
-yukle(D).then(function(){ara();sayilar().then(function(L){var e=document.getElementById('ozet');if(e)e.innerHTML='<b>'+esc(C.ad)+'</b> · '+L.map(function(x){return fmt(x[0])+' '+esc(x[1])}).join(' · ')})}).catch(function(){M.innerHTML='<p class="note">Sözlük yüklenemedi; internet bağlantınızı kontrol edin.</p>'});
+function sonra(f){var go=function(){(window.requestIdleCallback||function(c){setTimeout(c,400)})(function(){setTimeout(f,0)},{timeout:2500})};if(document.readyState==='complete')setTimeout(go,900);else addEventListener('load',function(){setTimeout(go,900)},{once:true})}
+yukle(D).then(function(){ara();sonra(function(){sayilar().then(function(L){var e=document.getElementById('ozet');if(e)e.innerHTML='<b>'+esc(C.ad)+'</b> · '+L.map(function(x){return fmt(x[0])+' '+esc(x[1])}).join(' · ')})})}).catch(function(){M.innerHTML='<p class="note">Sözlük yüklenemedi; internet bağlantınızı kontrol edin.</p>'});
 </script>
-<script src="hesap-ayar.js?v=1"></script><script src="hesap.js?v=2" defer></script><script src="nasil.js?v=1" data-b="sozluk"></script></body></html>
+<script src="hesap-ayar.js?v=1"></script><script src="hesap.js?v=2" defer></script></body></html>
