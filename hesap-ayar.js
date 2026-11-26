@@ -3,7 +3,9 @@
 window.HESAP_AYAR = {
   apiKey: "AIzaSyAGotRPSKBlgUZOB4YoNDZ6Aio9c3YdlBo",
   /* el-mihrab.com’da giriş kendi alan adımızdan geçer (functions/__/auth); diğer adreslerde Firebase’in alan adı kullanılır. */
-  authDomain: /^(www\.)?el-mihrab\.com$/.test(location.hostname) ? location.hostname : "el-mihrab.firebaseapp.com",
+  /* Google Cloud’da el-mihrab.com/__/auth/handler yönlendirme adresi kaydedilince şu satırla değiştir:
+     authDomain: /^(www\.)?el-mihrab\.com$/.test(location.hostname) ? location.hostname : "el-mihrab.firebaseapp.com", */
+  authDomain: "el-mihrab.firebaseapp.com",
   projectId: "el-mihrab",
   appId: "1:917596621684:web:f0f24afdb1816df01afa21"
 };

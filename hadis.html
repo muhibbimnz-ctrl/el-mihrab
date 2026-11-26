@@ -340,4 +340,4 @@ Promise.all([getJ('data/hadis/erbain.json'),getJ('data/hadis/bais.json'),getJ('d
   if((m=/^#ara=([^&]+)(?:&kap=([a-z:_]+))?/.exec(hs))){kutuphane();var q=decodeURIComponent(m[1]);setTimeout(function(){ara(q,m[2]||'sitte')},30);return}
   if((m=/^#k=([a-z_]+)(?:&b=([0-9a-z]+))?(?:&n=(\d+))?/.exec(hs))){if(m[1]==='erbain')return liste();if(m[3])return tekHadis(m[1],+m[3]);if(m[2]){var bb=kitapBul(m[1]);return bolum(m[1],bb&&bb.src!=='fa'?m[2]:+m[2])}return kitap(m[1])}
   kutuphane()}).catch(function(){M.innerHTML='<p class="not">Veri yüklenemedi. İnternet bağlantınızı kontrol edip sayfayı yenileyin.</p>'});
-</script><script src="hesap-ayar.js?v=4"></script><script src="hesap.js?v=5" defer></script><script src="nasil.js?v=2" data-b="hadis"></script></body></html>
+</script><script src="hesap-ayar.js?v=5"></script><script src="hesap.js?v=5" defer></script><script src="nasil.js?v=2" data-b="hadis"></script></body></html>
