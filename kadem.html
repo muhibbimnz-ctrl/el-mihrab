@@ -469,7 +469,7 @@ function giris(ne){saatGizle();renk('#1d5c4a');
  M.innerHTML='<div class="giris"><div class="kilit-ikon">🔒</div><div class="ust-etiket">'+(ne?e(ne.ust||'Kadem'):'el-Mihrâb')+'</div><h1>'+(ne?e(ne.ad):'Kadem')+'</h1><p class="lead" style="margin:0 auto">Kur’an Bilgisi’nin ilk konusu ve 1. Deneme herkese açık. Bütün konular, tam denemeler ve sınav haritaları üyelikle açılır.</p>'+
   (hz?'<div class="uyelik">'+(sat?'<div class="fiyat"><b>'+e(S.fiyat||'')+'</b><span>'+e(S.sure?S.sure+' erişim · bütün sınavlar':'bütün sınavlar')+'</span></div>':'')+
    (u?'<p class="kucukyazi">Giriş yapılan hesap: <b>'+e(u.email||'')+'</b></p><button class="btn" id="uk" style="width:100%">Üyeliğimi kontrol et</button>':'<button class="btn" id="gg" style="width:100%">Google ile giriş yap</button>')+
-   (sat?'<a class="btn ikinci" id="sa" href="'+e(S.odemeLinki)+'" target="_blank" rel="noopener" style="width:100%">Kartla satın al · '+e(S.fiyat||'')+'</a><p class="kucukyazi">Ödeme iyzico güvenli ödeme sayfasında yapılır. Formdaki e-posta alanına <b>Google ile giriş yaptığın Gmail adresini</b> yaz; üyeliğin o adrese açılır. Onay genellikle aynı gün içinde verilir'+(S.iletisim?'; sorun olursa: '+e(S.iletisim):'')+'.</p>':'')+'</div>'+(sat?'':xKutu()):xKutu())+
+   (sat?'<a class="btn ikinci" id="sa" href="'+e(S.odemeLinki)+'" target="_blank" rel="noopener" style="width:100%">Kartla satın al · '+e(S.fiyat||'')+'</a><p class="kucukyazi">Ödeme iyzico güvenli ödeme sayfasında yapılır. Formdaki e-posta alanına <b>Google ile giriş yaptığın Gmail adresini</b> yaz; üyeliğin o adrese açılır. Onay genellikle aynı gün içinde verilir'+(S.iletisim?'; sorun olursa: '+e(S.iletisim):'')+'.</p>':'')+'</div>':'')+
   '<details class="sifrem"'+(sat?'':' open')+'><summary>Şifrem var</summary><form id="gf"><input type="password" id="sf" autocomplete="current-password" placeholder="Şifre" required><button class="btn" style="width:100%">Şifreyle giriş</button></form></details><p class="kucukyazi" id="sm" style="min-height:20px"></p></div>';
  if($('#gg'))$('#gg').onclick=function(){H.ac()};
  if($('#uk'))$('#uk').onclick=function(){$('#sm').textContent='Kontrol ediliyor…';uyeKontrol(0)};
@@ -547,7 +547,7 @@ function liste(){
    DIG=L.sinavlar.filter(function(s){return ANA_ID.indexOf(s.id)<0});
   return Promise.all(ANA.map(function(s){return al('data/kadem/'+s.id+'.json').catch(function(){return{konular:[]}}).then(hafifOzet)})).then(function(V){
    var o=oku(),h='<div class="ust-etiket">el-Mihrâb · Sınav hazırlığı</div><h1>Kadem</h1><p class="lead">Konu anlatımı, özet, kart, açıklamalı test ve gerçek biçimde deneme. Bir sınav seç, kaldığın yerden devam et.</p>'+
-    (anahtarVar()?'':'<a class="kilit-serit" href="#giris=1"><span>🔒 Kur’an Bilgisi’nin ilk konusu ve 1. Deneme açık. Bütün konular ve denemeler üyelikle açılır.</span><em>Üyelik ›</em></a>'+xKutu());
+    (anahtarVar()?'':'<a class="kilit-serit" href="#giris=1"><span>🔒 Kur’an Bilgisi’nin ilk konusu ve 1. Deneme açık. Bütün konular ve denemeler üyelikle açılır.</span><em>Üyelik ›</em></a>');
    ANA.forEach(function(s,i){var v=V[i],k=v.konular,biten=k.filter(function(x){return o['p.'+s.id+'.'+x.id]!=null}).length,b=v.bugun(s),
      son=o['son.'+s.id],sx=son&&k.filter(function(x){return x.id===son})[0],yz=k.length?Math.round(100*biten/k.length):0;
     h+='<a class="anakart" style="--r:'+e(s.renk)+'" href="#s='+e(s.id)+'"><span class="kod">'+e(s.bicim)+'</span><b>'+e(s.ad)+'</b><small>'+e(s.tam)+'</small>';
@@ -960,4 +960,4 @@ function ac(){var H=hash();saatGizle();altnav(null);if(H.giris)return giris();if
 addEventListener('hashchange',ac);ac();
 })();
 </script>
-<script src="hesap-ayar.js?v=3"></script><script src="hesap.js?v=4" defer></script><script src="nasil.js?v=2" data-b="kadem"></script></body></html>
+<script src="hesap-ayar.js?v=3"></script><script src="hesap.js?v=5" defer></script><script src="nasil.js?v=2" data-b="kadem"></script></body></html>
