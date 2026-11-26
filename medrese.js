@@ -688,16 +688,84 @@ function kitapRozet(id){
 }
 
 /* ======================================================================
+   OKUMA METİNLERİ: kelimeye dokununca anlam · harekeleme
+   Anlam sırası: metnin kendi sözlüğü → YDS ve modern metin sözlükleri → genel Arapça sözlük (data/roman/sozluk_ar.json).
+   Hareke: metin elle harekelenmişse olduğu gibi gösterilir (kapalıyken harekeler silinir);
+   harekesiz metinlerde kelime kelime data/roman/hareke_ar.json'dan doldurulur ve bu durum ekranda belirtilir.
+   ====================================================================== */
+const HRK_RE = /[ً-ْٰ]/g;
+const harSil = s => String(s == null ? '' : s).replace(HRK_RE, '');
+const harVar = s => (String(s).match(HRK_RE) || []).length * 6 > harSil(s).replace(/[^ء-ي]/g, '').length;
+const arNorm = w => harSil(w).replace(/[^ء-ي]/g, '').replace(/[إأآٱ]/g, 'ا').replace(/ى/g, 'ي');
+const hareOn = () => !!LS.get('medrese.hareke', false);
+let HRK = null, HRKP = null, SZ = null, SZP = null;
+const hrkYukle = () => HRK ? Promise.resolve(HRK) : HRKP || (HRKP = getJSON('data/roman/hareke_ar.json').then(j => { const o = {}; for(const k in j){ o[harSil(k)] = j[k]; const n = arNorm(k); if(!(('~' + n) in o)) o['~' + n] = j[k] } return (HRK = o) }).catch(e => { HRKP = null; throw e }));
+function hrkKelime(w){
+  if(!HRK) return w; const s = harSil(w), n = arNorm(w);
+  if(HRK[s]) return HRK[s]; if(HRK['~' + n]) return HRK['~' + n];
+  const m = s.match(/^([وف])(.{2,})$/); if(m){ const r = HRK[m[2]] || HRK['~' + arNorm(m[2])]; if(r) return (m[1] === 'و' ? 'وَ' : 'فَ') + r }
+  return w;
+}
+let hrkOto = false;
+/* Arapça metni kelime kelime sarar (dokunulabilir) ve hareke ayarına göre gösterir */
+function arMetin(t, sabit){
+  t = String(t == null ? '' : t); const on = hareOn() && !sabit, elle = harVar(t); if(on && !elle) hrkOto = true;
+  const par = tok => { const m = tok.match(/^([^ء-ي]*)([ء-ي][ء-ْٰـ]*)(.*)$/); if(!m) return esc(tok);
+    const c = m[2], g = sabit ? c : on ? (elle ? c : hrkKelime(c)) : elle ? harSil(c) : c;
+    return esc(m[1]) + `<span class="w">${esc(g)}</span>` + (m[3] ? par(m[3]) : '') };
+  return t.split(/(\s+)/).map(tok => !tok || /^\s+$/.test(tok) ? tok : par(tok)).join('');
+}
+const hrkDugme = () => `<button class="btn sm hrk${hareOn() ? ' on' : ''}" id="hrk" aria-pressed="${hareOn()}">${hareOn() ? 'Harekeyi kaldır' : 'Harekele'}</button>`;
+const hrkNot = () => hareOn() && hrkOto ? '<span class="hrknot">Bu metnin harekesi otomatik konuldu; yer yer hatalı olabilir.</span>' : '';
+function hrkBagla(yenile){ const b = $('#hrk'); if(!b) return; b.onclick = async () => { const on = !hareOn(); if(on){ b.disabled = true; try{ await hrkYukle() }catch(e){ b.disabled = false; return toast('Hareke verisi yüklenemedi.') } } LS.set('medrese.hareke', on); hrkOto = false; yenile() } }
+const szYukle = () => SZ ? Promise.resolve(SZ) : SZP || (SZP = getJSON('data/roman/sozluk_ar.json').then(g => {
+  const o = new Map(), ekle = (k, v) => { const n = arNorm(k); if(n && v && !o.has(n)) o.set(n, [k, v]) };
+  if(YDSB){ Object.values(YDSB.sozluk || {}).forEach(L => L.forEach(x => ekle(x[0], x[1]))); (YDSB.kelime || []).forEach(x => ekle(x[0], x[1])) }
+  if(MOD){ MOD.metinler.forEach(m => (m.sozluk || []).forEach(x => ekle(x[0], x[1]))); (MOD.kelime || []).forEach(t => t.liste.forEach(x => ekle(x[0], x[1]))) }
+  for(const k in g) ekle(k, g[k]); return (SZ = o);
+}).catch(e => { SZP = null; throw e }));
+function kelAra(w, yerel){
+  const n = arNorm(w); if(!n) return null;
+  const aday = [n].concat(window.arAday ? arAday(n) : []).map(arNorm);
+  const L = new Map(); (yerel || []).forEach(x => { const k = arNorm(x[0]); if(k && !L.has(k)) L.set(k, x) });
+  for(const c of aday) if(L.has(c)) return L.get(c);
+  if(SZ) for(const c of aday) if(SZ.has(c)) return SZ.get(c);
+  return null;
+}
+function kelPop(el){
+  $$('.w.wsel').forEach(x => x.classList.remove('wsel')); el.classList.add('wsel');
+  const w = el.textContent, pas = el.closest('[data-p]'), mt = el.closest('[data-m]');
+  const yerel = pas && YDSB && YDSB.sozluk ? YDSB.sozluk[pas.dataset.p] : mt && MOD ? ((MOD.metinler.find(x => x.id === mt.dataset.m) || {}).sozluk) : null;
+  let p = $('#kpop'); if(!p){ p = document.createElement('div'); p.id = 'kpop'; p.className = 'kpop'; p.setAttribute('role', 'dialog'); document.body.appendChild(p) }
+  const yaz = h => { const z = kelAra(w, yerel), b = harSil(w);
+    p.innerHTML = `<div class="kp-ust"><span class="kp-ar" lang="ar">${esc(z && harSil(z[0]) === b ? z[0] : w)}</span><button class="kp-x" aria-label="Kapat">✕</button></div>
+      ${z ? `<div class="kp-m">${esc(z[1])}</div>${arNorm(z[0]) !== arNorm(w) ? `<div class="kp-k">Sözlükteki biçim: <span lang="ar">${esc(z[0])}</span></div>` : ''}` : `<div class="kp-m kp-yok">${h ? 'Sözlük yükleniyor…' : 'Bu biçim sözlükte bulunamadı.'}</div>`}
+      <div class="kp-alt"><a href="sozluk.html?dil=ar&q=${encodeURIComponent(arNorm(w))}">Sözlükte aç ›</a></div>`;
+    p.querySelector('.kp-x').onclick = kelKapat; p.classList.add('show');
+    return z };
+  if(SZ || kelAra(w, yerel)) return yaz(false);
+  yaz(true); szYukle().then(() => { if(el.classList.contains('wsel')) yaz(false) }).catch(() => { if(el.classList.contains('wsel')) yaz(false) });
+}
+function kelKapat(){ const p = $('#kpop'); if(p) p.classList.remove('show'); $$('.w.wsel').forEach(x => x.classList.remove('wsel')) }
+document.addEventListener('click', e => {
+  const w = e.target.closest && e.target.closest('.w');
+  if(w && w.closest('.pas, .mtext, .qar')) return kelPop(w);
+  if(!(e.target.closest && e.target.closest('#kpop'))) kelKapat();
+});
+window.addEventListener('hashchange', kelKapat);
+
+/* ======================================================================
    YDS ARAPÇA
    ====================================================================== */
 function ydsSoruHTML(q){
-  const P = q.p && YDSB.pasajlar[q.p];
-  const pas = P ? `<div class="pas" lang="${arMi(P) ? 'ar' : 'tr'}">${esc(P).replace(/\((\d+)\)/g, '<b class="pn">($1)</b>').replace(/\n/g, '<br>')}</div>` : '';
-  return `<div class="ydst">${esc(YDS_TIP[q.tip][1])}</div>${pas}<div class="${arMi(q.q) ? 'qar' : 'qtr'}" ${arMi(q.q) ? 'lang="ar"' : ''}>${esc(q.q).replace(/----/g, '<span class="bos">-----</span>').replace(/\n/g, '<br>')}</div>`;
+  const P = q.p && YDSB.pasajlar[q.p], ar = P && arMi(P), qa = arMi(q.q);
+  const pas = P ? `<div class="pas" lang="${ar ? 'ar' : 'tr'}"${ar ? ` data-p="${esc(q.p)}"` : ''}>${(ar ? arMetin(P) : esc(P)).replace(/\((\d+)\)/g, '<b class="pn">($1)</b>').replace(/\n/g, '<br>')}</div>` : '';
+  return `<div class="ydst">${esc(YDS_TIP[q.tip][1])}</div>${pas}<div class="${qa ? 'qar' : 'qtr'}" ${qa ? 'lang="ar"' : ''}>${(qa ? arMetin(q.q, true) : esc(q.q)).replace(/----/g, '<span class="bos">-----</span>').replace(/\n/g, '<br>')}</div>`;
 }
 async function yds(p1, p2){
   V.innerHTML = bar('YDS Arapça', '/') + '<div class="wrap"><p class="lead">Yükleniyor…</p></div>';
   try{ await ydsYukle() }catch(e){ V.querySelector('.lead').textContent = 'Soru bankası yüklenemedi.'; return }
+  if(hareOn()) await hrkYukle().catch(() => null);
   const Q = YDSB.sorular, S = SRS.all(), ORN = !!YDSB.ornek;
   if(ORN){ if(p1 === 'kilit' || p1 === 'tip' || p1 === 'kelime' || p1 === 'tema' || p1 === 'haber' || (p1 === 'deneme' && p2 && +p2 !== 1)) return ydsKilit();
     if(p1 === 'metin'){ await modYukle().catch(() => null); if(p2 !== ydsAcikMetin()) return ydsKilit('Okuma metni') } }
@@ -746,42 +814,52 @@ const ydsDn = () => [...new Set(YDSB.sorular.map(q => q.dn || 1))].sort((a, b) =
 const ydsDQ = n => YDSB.sorular.filter(q => (q.dn || 1) === n).map((q, k) => [q, k]).sort((x, y) => (YDS_SIRA.indexOf(x[0].tip) - YDS_SIRA.indexOf(y[0].tip)) || (x[1] - y[1])).map(x => x[0]);
 function ydsDenemeler(){
   const sn = LS.get('medrese.ydsSonlar', {}), yar = LS.get('medrese.ydsD', null);
-  V.innerHTML = bar('Deneme sınavları', '/yds') + `<div class="wrap"><p class="lead">Her deneme gerçek sınav düzenindedir: 180 dakika, yanlış doğruyu götürmez. Sınav yarıda kalırsa kaldığınız yerden devam edersiniz.</p>
+  V.innerHTML = bar('Deneme sınavları', '/yds') + `<div class="wrap"><p class="lead">Her deneme gerçek sınav düzenindedir: 80 soru, yanlış doğruyu götürmez. Başlarken süreli (180 dakika) ya da süresiz çözmeyi seçersiniz. Sınav yarıda kalırsa kaldığınız yerden devam edersiniz.</p>
     ${yar && yar.n ? `<p><a class="btn pri" href="#/yds/deneme/${+yar.n}">Yarıda kalan ${+yar.n}. denemeye devam et</a></p>` : ''}
-    <div class="dnl">${ydsDn().map(n => { const r = sn[n], k = ydsDQ(n).length; return `<a href="#/yds/deneme/${n}" class="${r ? 'done' : ''}"><b>${n}. Deneme</b><small>${k} soru</small><span>${r ? `${esc(String(r.puan))} puan · ${+r.dogru}/${+r.toplam}` : 'Henüz çözülmedi'}</span></a>` }).join('')}${YDSB.ornek ? Array.from({ length: Math.max(0, ((YDSB.toplam || {}).deneme || 1) - 1) }, (_, i) => `<a href="#/yds/deneme/${i + 2}" class="kilitli"><b>${i + 2}. Deneme</b><small>80 soru</small><span>🔒 Üyelikle açılır</span></a>`).join('') : ''}</div></div>`;
+    <div class="dnl">${ydsDn().map(n => { const r = sn[n], k = ydsDQ(n).length; return `<a href="#/yds/deneme/${n}" class="${r ? 'done' : ''}"><b>${n}. Deneme</b><small>${k} soru</small><span>${r ? `${esc(String(r.puan))} puan · ${+r.dogru}/${+r.toplam}${r.sur === false ? ' · süresiz' : ''}` : 'Henüz çözülmedi'}</span></a>` }).join('')}${YDSB.ornek ? Array.from({ length: Math.max(0, ((YDSB.toplam || {}).deneme || 1) - 1) }, (_, i) => `<a href="#/yds/deneme/${i + 2}" class="kilitli"><b>${i + 2}. Deneme</b><small>80 soru</small><span>🔒 Üyelikle açılır</span></a>`).join('') : ''}</div></div>`;
 }
-function ydsDeneme(n){
+function ydsDeneme(n, secim){
   n = +n; const Q = ydsDQ(n); if(!n || !Q.length) return ydsDenemeler();
-  const SURE = 180 * 60e3, KEY = 'medrese.ydsD'; let cev = {}, bas = Date.now(), i = 0, tm, bitti = false;
+  const SURE = 180 * 60e3, KEY = 'medrese.ydsD'; let cev = {}, bas = Date.now(), i = 0, tm, bitti = false, sur = secim !== 'suresiz';
   const esk = LS.get(KEY, null);
-  if(esk && esk.n === n && esk.cev && typeof esk.cev === 'object' && Date.now() - esk.bas < SURE && esk.bas <= Date.now()){
+  if(esk && esk.n === n && esk.cev && typeof esk.cev === 'object' && esk.bas <= Date.now() && (esk.sur === false || Date.now() - esk.bas < SURE)){
     const ids = new Set(Q.map(q => q.id)); Object.keys(esk.cev).forEach(k => { const v = esk.cev[k]; if(ids.has(k) && Number.isInteger(v) && v >= 0 && v < 5) cev[k] = v });
-    bas = esk.bas; i = Math.min(Math.max(0, esk.i | 0), Q.length - 1);
+    bas = esk.bas; i = Math.min(Math.max(0, esk.i | 0), Q.length - 1); sur = esk.sur !== false;
+  } else if(!secim){
+    const say = {}; Q.forEach(q => say[q.tip] = (say[q.tip] || 0) + 1);
+    V.innerHTML = bar(n + '. deneme sınavı', '/yds/deneme') + `<div class="wrap"><div class="dbas"><h2>${n}. Deneme</h2><p>${Q.length} soru · yanlış doğruyu götürmez · her doğru 1,25 puan</p>
+      <ul class="dbas-l">${YDS_SIRA.filter(t => say[t]).map(t => `<li><span>${YDS_TIP[t][0]}</span><b>${say[t]}</b></li>`).join('')}</ul>
+      <div class="dbas-s"><button class="btn pri" id="dsS"><b>Süreli</b><small>180 dakika, süre bitince sınav kapanır</small></button><button class="btn" id="dsZ"><b>Süresiz</b><small>Geçen süre gösterilir, acele yok</small></button></div>
+      <p class="dbas-n">Parçalardaki bir kelimeye dokunduğunuzda anlamı çıkar; “Harekele” düğmesi metni harekeli gösterir.</p></div></div>`;
+    $('#dsS').onclick = () => ydsDeneme(n, 'sureli'); $('#dsZ').onclick = () => ydsDeneme(n, 'suresiz'); return;
   }
-  const kaydet = () => { if(!bitti) LS.set(KEY, { n, cev, bas, i }) };
+  const kaydet = () => { if(!bitti) LS.set(KEY, { n, cev, bas, i, sur }) };
   const sureYaz = k => `${Math.floor(k / 6e4)}:${String(Math.floor(k / 1e3) % 60).padStart(2, '0')}`;
+  const sureMetin = () => sureYaz(sur ? Math.max(0, SURE - (Date.now() - bas)) : Date.now() - bas);
   const show = () => {
-    const q = Q[i], kalan = Math.max(0, SURE - (Date.now() - bas)); kaydet();
-    V.innerHTML = bar(n + '. deneme sınavı', '/yds/deneme') + `<div class="wrap"><div class="gbar"><span>Soru <b>${i + 1}</b>/${Q.length}</span><span>Cevaplanan <b>${Object.keys(cev).length}</b></span><span>Süre <b id="dsure">${sureYaz(kalan)}</b></span></div>
-      <div class="q">${ydsSoruHTML(q)}<div class="opts">${q.k.map((x, k) => `<button data-k="${k}" class="${cev[q.id] === k ? 'sel' : ''}"><b class="sk">${HARF5[k]})</b> ${arMi(x) ? `<span lang="ar" class="ar2s">${esc(x)}</span>` : esc(x)}</button>`).join('')}</div>
+    const q = Q[i]; kaydet(); hrkOto = false; const govde = ydsSoruHTML(q);
+    V.innerHTML = bar(n + '. deneme sınavı', '/yds/deneme') + `<div class="wrap"><div class="gbar"><span>Soru <b>${i + 1}</b>/${Q.length}</span><span>Cevaplanan <b>${Object.keys(cev).length}</b></span><span>${sur ? 'Kalan' : 'Geçen'} <b id="dsure">${sureMetin()}</b></span></div>
+      <div class="dtl">${hrkDugme()}${hrkNot()}</div>
+      <div class="q">${govde}<div class="opts">${q.k.map((x, k) => `<button data-k="${k}" class="${cev[q.id] === k ? 'sel' : ''}"><b class="sk">${HARF5[k]})</b> ${arMi(x) ? `<span lang="ar" class="ar2s">${esc(x)}</span>` : esc(x)}</button>`).join('')}</div>
       <div class="qf dnav"><button class="btn" id="dp" ${i ? '' : 'disabled'}>‹ Önceki</button><button class="btn" id="dn">${i < Q.length - 1 ? 'Sonraki ›' : 'Bitir'}</button><button class="btn pri" id="db">Sınavı bitir</button></div>
       <div class="dmap">${Q.map((x, k) => `<button data-g="${k}" class="${cev[x.id] != null ? 'c' : ''} ${k === i ? 'cur' : ''}">${k + 1}</button>`).join('')}</div></div></div>`;
     $$('.opts button').forEach(b => b.onclick = () => { const k = +b.dataset.k; if(cev[q.id] === k) delete cev[q.id]; else cev[q.id] = k; if(cev[q.id] != null && i < Q.length - 1) i++; show() });
     $('#dp').onclick = () => { if(i > 0) i--; show() }; $('#dn').onclick = () => { if(i < Q.length - 1){ i++; show() } else if(confirm('Sınavı bitirmek istiyor musunuz?')) bitir() };
     $('#db').onclick = () => { const bos = Q.length - Object.keys(cev).length; if(confirm((bos ? bos + ' soru boş. ' : '') + 'Sınavı bitirmek istiyor musunuz?')) bitir() };
     $$('[data-g]').forEach(b => b.onclick = () => { i = +b.dataset.g; show() });
+    hrkBagla(show);
   };
   const bitir = () => {
     if(bitti) return; bitti = true; clearInterval(tm); LS.del(KEY); let d = 0; const by = {};
     Q.forEach(q => { const ok = cev[q.id] === q.d; if(ok) d++; by[q.tip] = by[q.tip] || [0, 0]; by[q.tip][ok ? 0 : 1]++; if(cev[q.id] != null) SRS.grade('yds|' + q.id, ok, 'yds:' + q.tip) });
-    const puan = Math.round(d / Q.length * 100 * 100) / 100, kayit = { puan, dogru: d, toplam: Q.length, t: Date.now(), n };
+    const puan = Math.round(d / Q.length * 100 * 100) / 100, kayit = { puan, dogru: d, toplam: Q.length, t: Date.now(), n, sur, dk: Math.round((Date.now() - bas) / 6e4) };
     LS.set('medrese.ydsSon', kayit); const sn = LS.get('medrese.ydsSonlar', {}); sn[n] = kayit; LS.set('medrese.ydsSonlar', sn);
-    V.innerHTML = bar(n + '. deneme sonucu', '/yds/deneme') + `<div class="wrap"><div class="empty"><div class="score">${puan}</div><p>${d} doğru / ${Q.length} soru · 100 üzerinden</p></div>
+    V.innerHTML = bar(n + '. deneme sonucu', '/yds/deneme') + `<div class="wrap"><div class="empty"><div class="score">${puan}</div><p>${d} doğru / ${Q.length} soru · 100 üzerinden</p><p class="dsonsure">${sur ? 'Süreli' : 'Süresiz'} · ${kayit.dk} dakika</p></div>
       <h2>Soru türüne göre</h2>${Object.entries(by).map(([t, [o, b]]) => `<div class="rr"><span>${YDS_TIP[t][0]}</span><span class="rb"><i style="width:${Math.round(b / (o + b) * 100)}%" class="${b / (o + b) >= .4 ? 'hi' : b / (o + b) >= .2 ? 'md' : ''}"></i></span><b>${o}/${o + b}</b><small><a href="#/yds/tip/${t}">çalış</a></small></div>`).join('')}
       <h2>Cevap anahtarı ve açıklamalar</h2>${Q.map((q, k) => `<details class="ck ${cev[q.id] === q.d ? 'ok' : 'bad'}"><summary>${k + 1}. ${YDS_TIP[q.tip][0]} — ${cev[q.id] == null ? 'boş' : cev[q.id] === q.d ? 'doğru' : 'yanlış (' + HARF5[cev[q.id]] + ')'} · doğru cevap ${HARF5[q.d]}</summary><div class="q">${ydsSoruHTML(q)}<ol type="A" class="ckk">${q.k.map((x, j) => `<li class="${j === q.d ? 'dc' : ''}" ${arMi(x) ? 'lang="ar"' : ''}>${esc(x)}</li>`).join('')}</ol><p>${esc(q.a || '')}</p></div></details>`).join('')}</div>`;
     scrollTo(0, 0);
   };
-  tm = setInterval(() => { const e = $('#dsure'); if(!e) return clearInterval(tm); const k = SURE - (Date.now() - bas); if(k <= 0) return bitir(); e.textContent = sureYaz(k) }, 1000);
+  tm = setInterval(() => { const e = $('#dsure'); if(!e) return clearInterval(tm); if(sur && SURE - (Date.now() - bas) <= 0) return bitir(); e.textContent = sureMetin() }, 1000);
   show();
 }
 
@@ -810,6 +888,7 @@ function kartlar(liste, title, back){
 async function modern(p1, p2){
   V.innerHTML = bar('Modern Arapça', '/') + '<div class="wrap"><p class="lead">Yükleniyor…</p></div>';
   try{ await modYukle() }catch(e){ V.querySelector('.lead').textContent = 'İçerik yüklenemedi.'; return }
+  if(hareOn()) await hrkYukle().catch(() => null);
   if(p1 === 'metin') return modMetin(p2);
   if(p1 === 'kelime'){ const t = MOD.kelime[+p2]; return kartlar(t.liste, t.tema, '/modern') }
   if(p1 === 'diyalog') return modDiyalog(+p2);
@@ -827,16 +906,16 @@ function modDers(){
 function modMetin(id, geri){
   geri = geri || '/modern';
   const m = MOD.metinler.find(x => x.id === id); if(!m) return go(geri);
-  const trG = LS.get('medrese.modTr', false), soz = new Map(m.sozluk.map(x => [x[0].replace(/[ً-ْ]/g, ''), x]));
-  const norm = w => w.replace(/[ً-ْٰ]/g, '').replace(/[،.؛:؟!«»"()]/g, '');
-  const kel = w => { const n = norm(w); let hit = soz.get(n) || soz.get(n.replace(/^(و|ف|ب|ل|ك)/, '')) || soz.get(n.replace(/^(و|ف)?(ال)/, '')) || soz.get(n.replace(/^(وال|فال|بال|لل)/, '')); return hit ? `<span class="gl" data-g="${esc(hit[0])}">${esc(w)}</span>` : esc(w) };
+  const trG = LS.get('medrese.modTr', false), gls = new Set(m.sozluk.map(x => arNorm(x[0])));
+  hrkOto = false; const metin = m.ar.map((p, i) => `<p lang="ar" class="mpa">${arMetin(p)}</p>${trG && m.tr[i] ? `<p class="mtr">${esc(m.tr[i])}</p>` : ''}`).join('');
   V.innerHTML = bar(m.baslik, geri) + `<div class="wrap"><div class="mbas"><span class="sv">${esc(m.seviye)}</span> <small>${esc(m.konu)}</small><h1 lang="ar" class="mh1">${esc(m.ar_baslik)}</h1></div>
-   <div class="tools"><label><input type="checkbox" id="mtr" ${trG ? 'checked' : ''}> Türkçesini göster</label>${'speechSynthesis' in window ? '<button class="btn sm" id="msesli">▶ Sesli oku</button>' : ''}<span class="lnk">Altı çizili kelimeye dokunun: anlamı çıkar</span></div>
-   <div class="mtext">${m.ar.map((p, i) => `<p lang="ar" class="mpa">${p.split(/(\s+)/).map(w => /\s/.test(w) ? w : kel(w)).join('')}</p>${trG && m.tr[i] ? `<p class="mtr">${esc(m.tr[i])}</p>` : ''}`).join('')}</div>
+   <div class="tools"><label><input type="checkbox" id="mtr" ${trG ? 'checked' : ''}> Türkçesini göster</label>${hrkDugme()}${'speechSynthesis' in window ? '<button class="btn sm" id="msesli">▶ Sesli oku</button>' : ''}<span class="lnk">Bir kelimeye dokunun: anlamı çıkar</span>${hrkNot()}</div>
+   <div class="mtext" data-m="${esc(id)}">${metin}</div>
    <h2>Sözlük</h2><table class="orn">${m.sozluk.map(x => `<tr><td lang="ar">${esc(x[0])}</td><td>${esc(x[1])}</td></tr>`).join('')}</table>
    <div class="end"><button class="btn pri big" id="msor">Sorular (${m.sorular.length}) ›</button></div></div>`;
+  $$('.mtext .w').forEach(w => { const n = arNorm(w.textContent); if(gls.has(n) || gls.has(n.replace(/^(و|ف|ب|ل|ك)/, '')) || gls.has(n.replace(/^(و|ف)?(ب|ل|ك)?ال/, '')) || gls.has(n.replace(/^(وال|فال|بال|لل)/, ''))) w.classList.add('gl') });
   $('#mtr').onchange = e => { LS.set('medrese.modTr', e.target.checked); modMetin(id, geri) };
-  $$('.gl').forEach(g => g.onclick = () => { const x = m.sozluk.find(s => s[0] === g.dataset.g); toast(`${x[0]} — ${x[1]}`) });
+  hrkBagla(() => modMetin(id, geri));
   const sb = $('#msesli'); if(sb) sb.onclick = () => seslendir(m.ar.join(' '), sb);
   $('#msor').onclick = () => { const o = LS.get('medrese.modOk', {}); o[id] = 1; LS.set('medrese.modOk', o); alistirma({ ids: m.sorular.map((s, i) => `mo|${id}|${i}`), title: m.baslik }) };
 }
