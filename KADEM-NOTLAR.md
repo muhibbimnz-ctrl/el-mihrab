@@ -244,6 +244,25 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 - Şifre hiçbir dosyaya, commit’e yazılmaz; kullanıcı yeni oturumda yeniden verir.
 - Her yayında sw.js sürümü artırılır (yay.sh yapar), kadem ve main dallarına birlikte itilir.
 
+### 13. oturum — 26 Kasım 2026 (eksik sınavlar: İhtisas, Murakıplık, Yurt Dışı, Arapça)
+- Kaynaklar: kullanıcının yüklediği 17 PDF (2025 yurt dışı duyurusu, 2022 ve 2025 mülakat soruları, OKK notları, “Yurt dışında sıkça sorulan dinî sorular”, Almanca fetvalar, 2024 murakıplık mevzuat derlemesi, 657 disiplin tablosu, 2025 ihtisas çözümleri, vaizlik denemesi…) ve bilgisayardaki klasörler (murakıp: 2012-2018 soruları ve 2026 duyurusu; ihtisas: 2026 A kitapçığı, müfettiş ve VHKİ 2026 duyuruları; umre-hac ve manevi danışmanlık notları).
+- Kullanıcı ilkesi: soru biçimi gerçek sınava (ihtisas kitapçığı, murakıplık kitapçıkları, mülakat soruları) uysun; kolay olmasın; bilgi doğrulanmadan yazılmasın.
+- **Yeni araç:** `tools/kadem/konu_yaz.py kaynak.txt` — sade metinden konu JSON’u (P, B, M, S, A, N, K, AY/HD/MD, T tablo, O özet, C kart, Q soru; dosya başında `#id | ad | ders | sınavlar | öncelik`, `@on` soru id öneki). Kaynak metinler oturum klasöründe (`/home/claude/src`), depoda değil.
+- **Arapça (yeni ders, 5 konu, 75 soru):** arapca-1 (kelime, vezin, bâblar), -2 (aksâm-ı seb‘a, çekim, meçhul, i‘lâl), -3 (mastar, müştaklar, maksûr-mankûs-memdûd, cemi, gayr-i munsarif), -4 (i‘rab, mübteda-haber, fâil, kâne/inne), -5 (mef‘ûller, hâl, temyiz, istisna, münâdâ, bedel, mâ/lâ/lev). Yeni sınav dosyası `arapca.json` (30 soru/45 dk).
+- **İhtisas:** 2026 A kitapçığına göre 80 soru, 120 dk, yanlış götürmez; harita: Arapça 24, Kur’an 4, Tefsir 7, Fıkıh 18, Hadis 12, Kelam 9, Siyer 4, Dinler 1, Mevzuat 1. (Gerçek sınav 4 seçenekli; uygulama 5 seçenek kullanıyor.)
+- **Mevzuat (5 yeni konu):** mevzuat-4 Anayasa · -5 4982, 3071, 6245 · -6 4483, TCK memur suçları (3628 md. 17 izin istisnası), CMK · -7 5018, 4734, Taşınır Mal · -8 5442 ve Görev ve Çalışma Yönetmeliği (murakıp md. 36, cami görevlileri, Kur’an kursu). **turkce-1** (yazım, noktalama, anlatım bozukluğu; yeni ders “Türkçe”).
+- **Murakıplık:** harita 50 soru/70 dk (2018 dağılımı: din 23, Türkçe 2, mevzuat 25); din konuları murakıba bağlandı; **murakip-1** tam deneme (50 soru, 36 zor). Deneme id öneki `mrd`.
+- **Yurt Dışı:** sinavlar.json 2025 duyurusuna göre güncellendi; harita 40 soru/60 dk (13 ders); yeni konular **ydh-1** (Avrupa-Avrasya Müslümanları, DİTİB/ISN/ATİB, yurt dışı teşkilatı, İslamofobi), **ydh-2** (gayrimüslim soruları, helal gıda, faizli kredi, kutup bölgesi vakitleri, cenaze nakli), **genel-1** (uluslararası kuruluşlar, komşular-sınır kapıları, edebiyat, akımlar); yeni dersler “Yurt Dışı Din Hizmetleri”, “Genel Kültür”. **yurtdisi-1** tam deneme (40 soru, mülakatlarda sorulan konulardan). Öneki `ydd`.
+- Düzeltme: 657 md. 125 — resmî araç-gereci **özel işlerinde kullanmak kınama (B-e)**, **özel menfaat için kullanmak aylıktan kesme (C-c)**; huzur ve sükûnu bozmak kınama; amire fiilî tecavüz memurluktan çıkarma.
+- Toplam soru: ~3600.
+
+## Sıradaki iş (26 Kasım 2026, 13. oturum sonu)
+1. **Müfettiş yardımcılığı** (`mufettis.json` yok): 2026 duyurusu — yazılı: Anayasa, 633 ve Başkanlık mevzuatı, 657, 4483, TCK, CMK, Türkçe kompozisyon, Arapça; sözlü: Kur’an, tefsir, hadis, akaid, fıkıh, siyer, Türk-İslam tarihi, genel kültür. Konular büyük ölçüde hazır (mevzuat-1…8, arapca-1…5); sınav dosyası açılıp CMK/TCK genişletilmeli.
+2. **İhtisas denemesi** (80 soru, 24 Arapça) — `deneme_yaz.py … ihtisas`. Arapça soruları 2025-2026 kitapçık tarzında (ayetten kelime i‘rabı, aksâm-ı seb‘a, edat türü).
+3. **Vaizlik, il müftü yardımcılığı, ilçe müftülüğü:** haritalar (2025 il müftü yardımcılığı sınav soruları taranmış PDF; OCR gerekir) ve denemeler.
+4. **Yeni sınav adayları:** Hac-umre görevlisi mülakatı (klasör: “umre görevi ve hac”), Manevi danışmanlık (hastane/cezaevi), Görevde yükselme VHKİ 2026 duyurusu.
+5. Yurt dışı: ezber sureler (Yâsin, Mülk, Fetih, Hucurât, Rahmân, Amme) için ayrı konu; konulu ayet-hadis ezberi (Mesleğe Hazırlık “Konulu Ayet ve Hadisler”); 2. ve 3. denemeler.
+
 ### 7. oturum — 26 Kasım 2026 (açık örnek, X bağlantısı)
 - Açık (şifresiz) olanlar artık yalnız: sınav dosyaları (`data/kadem/*.json`), **ilk dersin ilk konusu** `konu/kuran-1.json` ve **1. MBSTS denemesi** `deneme/mbsts-1.json`. Diğer bütün konular (öbür derslerin ilk üniteleri dâhil) ve denemeler şifreli. Kural iki yerde aynı: `tools/kadem/sifre.py` (`ACIK`) ve `kadem.html` (`acik()`); `.gitignore` istisnaları da bu iki dosya.
 - Kilit ekranında ve sınav sayfasındaki kilit şeridinin altında X kutusu: “Devamı için bize yazın” → https://x.com/hohrzade340 (`XADR`, `xKutu()` kadem.html’de).
