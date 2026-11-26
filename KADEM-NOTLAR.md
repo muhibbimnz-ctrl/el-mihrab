@@ -285,3 +285,4 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 - MBSTS 27. deneme yayımlandı (60 soru).
 - MBSTS 28. deneme yayımlandı (60 soru).
 - MBSTS 29. deneme yayımlandı (60 soru).
+- MBSTS 30. deneme yayımlandı (60 soru).
