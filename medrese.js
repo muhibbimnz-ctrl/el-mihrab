@@ -690,34 +690,23 @@ function kitapRozet(id){
 /* ======================================================================
    OKUMA METİNLERİ: kelimeye dokununca anlam · harekeleme
    Anlam sırası: metnin kendi sözlüğü → YDS ve modern metin sözlükleri → genel Arapça sözlük (data/roman/sozluk_ar.json).
-   Hareke: metin elle harekelenmişse olduğu gibi gösterilir (kapalıyken harekeler silinir);
-   harekesiz metinlerde kelime kelime data/roman/hareke_ar.json'dan doldurulur ve bu durum ekranda belirtilir.
+   Hareke: yalnız elle harekelenmiş metinlerde düğme çıkar; kapalıyken harekeler gizlenir, açıkken metin olduğu gibi gösterilir.
    ====================================================================== */
-const HRK_RE = /[ً-ْٰ]/g;
+const HRK_RE = /[\u064B-\u0652\u0670]/g;
 const harSil = s => String(s == null ? '' : s).replace(HRK_RE, '');
-const harVar = s => (String(s).match(HRK_RE) || []).length * 6 > harSil(s).replace(/[^ء-ي]/g, '').length;
-const arNorm = w => harSil(w).replace(/[^ء-ي]/g, '').replace(/[إأآٱ]/g, 'ا').replace(/ى/g, 'ي');
+const harVar = s => (String(s).match(HRK_RE) || []).length * 2 > harSil(s).replace(/[^\u0621-\u064A]/g, '').length;
+const arNorm = w => harSil(w).replace(/[^\u0621-\u064A]/g, '').replace(/[إأآٱ]/g, 'ا').replace(/ى/g, 'ي');
 const hareOn = () => !!LS.get('medrese.hareke', false);
-let HRK = null, HRKP = null, SZ = null, SZP = null;
-const hrkYukle = () => HRK ? Promise.resolve(HRK) : HRKP || (HRKP = getJSON('data/roman/hareke_ar.json').then(j => { const o = {}; for(const k in j){ o[harSil(k)] = j[k]; const n = arNorm(k); if(!(('~' + n) in o)) o['~' + n] = j[k] } return (HRK = o) }).catch(e => { HRKP = null; throw e }));
-function hrkKelime(w){
-  if(!HRK) return w; const s = harSil(w), n = arNorm(w);
-  if(HRK[s]) return HRK[s]; if(HRK['~' + n]) return HRK['~' + n];
-  const m = s.match(/^([وف])(.{2,})$/); if(m){ const r = HRK[m[2]] || HRK['~' + arNorm(m[2])]; if(r) return (m[1] === 'و' ? 'وَ' : 'فَ') + r }
-  return w;
-}
-let hrkOto = false;
-/* Arapça metni kelime kelime sarar (dokunulabilir) ve hareke ayarına göre gösterir */
-function arMetin(t, sabit){
-  t = String(t == null ? '' : t); const on = hareOn() && !sabit, elle = harVar(t); if(on && !elle) hrkOto = true;
-  const par = tok => { const m = tok.match(/^([^ء-ي]*)([ء-ي][ء-ْٰـ]*)(.*)$/); if(!m) return esc(tok);
-    const c = m[2], g = sabit ? c : on ? (elle ? c : hrkKelime(c)) : elle ? harSil(c) : c;
-    return esc(m[1]) + `<span class="w">${esc(g)}</span>` + (m[3] ? par(m[3]) : '') };
+let SZ = null, SZP = null;
+/* Arapça metni kelime kelime sarar (dokunulabilir); elle harekeli metinde hareke ayarına uyar */
+function arMetin(t){
+  t = String(t == null ? '' : t); const sil = harVar(t) && !hareOn();
+  const par = tok => { const m = tok.match(/^([^\u0621-\u064A]*)([\u0621-\u064A][\u0621-\u0652\u0670\u0640]*)(.*)$/); if(!m) return esc(tok);
+    return esc(m[1]) + `<span class="w">${esc(sil ? harSil(m[2]) : m[2])}</span>` + (m[3] ? par(m[3]) : '') };
   return t.split(/(\s+)/).map(tok => !tok || /^\s+$/.test(tok) ? tok : par(tok)).join('');
 }
-const hrkDugme = () => `<button class="btn sm hrk${hareOn() ? ' on' : ''}" id="hrk" aria-pressed="${hareOn()}">${hareOn() ? 'Harekeyi kaldır' : 'Harekele'}</button>`;
-const hrkNot = () => hareOn() && hrkOto ? '<span class="hrknot">Bu metnin harekesi otomatik konuldu; yer yer hatalı olabilir.</span>' : '';
-function hrkBagla(yenile){ const b = $('#hrk'); if(!b) return; b.onclick = async () => { const on = !hareOn(); if(on){ b.disabled = true; try{ await hrkYukle() }catch(e){ b.disabled = false; return toast('Hareke verisi yüklenemedi.') } } LS.set('medrese.hareke', on); hrkOto = false; yenile() } }
+const hrkDugme = t => t && harVar(t) ? `<button class="btn sm hrk${hareOn() ? ' on' : ''}" id="hrk" aria-pressed="${hareOn()}">${hareOn() ? 'Harekeyi kaldır' : 'Harekele'}</button>` : '';
+function hrkBagla(yenile){ const b = $('#hrk'); if(b) b.onclick = () => { LS.set('medrese.hareke', !hareOn()); yenile() } }
 const szYukle = () => SZ ? Promise.resolve(SZ) : SZP || (SZP = getJSON('data/roman/sozluk_ar.json').then(g => {
   const o = new Map(), ekle = (k, v) => { const n = arNorm(k); if(n && v && !o.has(n)) o.set(n, [k, v]) };
   if(YDSB){ Object.values(YDSB.sozluk || {}).forEach(L => L.forEach(x => ekle(x[0], x[1]))); (YDSB.kelime || []).forEach(x => ekle(x[0], x[1])) }
@@ -760,12 +749,11 @@ window.addEventListener('hashchange', kelKapat);
 function ydsSoruHTML(q){
   const P = q.p && YDSB.pasajlar[q.p], ar = P && arMi(P), qa = arMi(q.q);
   const pas = P ? `<div class="pas" lang="${ar ? 'ar' : 'tr'}"${ar ? ` data-p="${esc(q.p)}"` : ''}>${(ar ? arMetin(P) : esc(P)).replace(/\((\d+)\)/g, '<b class="pn">($1)</b>').replace(/\n/g, '<br>')}</div>` : '';
-  return `<div class="ydst">${esc(YDS_TIP[q.tip][1])}</div>${pas}<div class="${qa ? 'qar' : 'qtr'}" ${qa ? 'lang="ar"' : ''}>${(qa ? arMetin(q.q, true) : esc(q.q)).replace(/----/g, '<span class="bos">-----</span>').replace(/\n/g, '<br>')}</div>`;
+  return `<div class="ydst">${esc(YDS_TIP[q.tip][1])}</div>${pas}<div class="${qa ? 'qar' : 'qtr'}" ${qa ? 'lang="ar"' : ''}>${(qa ? esc(q.q).replace(/[\u0621-\u064A][\u0621-\u0652\u0670\u0640]*/g, '<span class="w">$&</span>') : esc(q.q)).replace(/----/g, '<span class="bos">-----</span>').replace(/\n/g, '<br>')}</div>`;
 }
 async function yds(p1, p2){
   V.innerHTML = bar('YDS Arapça', '/') + '<div class="wrap"><p class="lead">Yükleniyor…</p></div>';
   try{ await ydsYukle() }catch(e){ V.querySelector('.lead').textContent = 'Soru bankası yüklenemedi.'; return }
-  if(hareOn()) await hrkYukle().catch(() => null);
   const Q = YDSB.sorular, S = SRS.all(), ORN = !!YDSB.ornek;
   if(ORN){ if(p1 === 'kilit' || p1 === 'tip' || p1 === 'kelime' || p1 === 'tema' || p1 === 'haber' || (p1 === 'deneme' && p2 && +p2 !== 1)) return ydsKilit();
     if(p1 === 'metin'){ await modYukle().catch(() => null); if(p2 !== ydsAcikMetin()) return ydsKilit('Okuma metni') } }
@@ -830,16 +818,16 @@ function ydsDeneme(n, secim){
     V.innerHTML = bar(n + '. deneme sınavı', '/yds/deneme') + `<div class="wrap"><div class="dbas"><h2>${n}. Deneme</h2><p>${Q.length} soru · yanlış doğruyu götürmez · her doğru 1,25 puan</p>
       <ul class="dbas-l">${YDS_SIRA.filter(t => say[t]).map(t => `<li><span>${YDS_TIP[t][0]}</span><b>${say[t]}</b></li>`).join('')}</ul>
       <div class="dbas-s"><button class="btn pri" id="dsS"><b>Süreli</b><small>180 dakika, süre bitince sınav kapanır</small></button><button class="btn" id="dsZ"><b>Süresiz</b><small>Geçen süre gösterilir, acele yok</small></button></div>
-      <p class="dbas-n">Parçalardaki bir kelimeye dokunduğunuzda anlamı çıkar; “Harekele” düğmesi metni harekeli gösterir.</p></div></div>`;
+      <p class="dbas-n">Parçalardaki bir kelimeye dokunduğunuzda anlamı çıkar; harekeli parçalarda “Harekele” düğmesi harekeleri gösterir.</p></div></div>`;
     $('#dsS').onclick = () => ydsDeneme(n, 'sureli'); $('#dsZ').onclick = () => ydsDeneme(n, 'suresiz'); return;
   }
   const kaydet = () => { if(!bitti) LS.set(KEY, { n, cev, bas, i, sur }) };
   const sureYaz = k => `${Math.floor(k / 6e4)}:${String(Math.floor(k / 1e3) % 60).padStart(2, '0')}`;
   const sureMetin = () => sureYaz(sur ? Math.max(0, SURE - (Date.now() - bas)) : Date.now() - bas);
   const show = () => {
-    const q = Q[i]; kaydet(); hrkOto = false; const govde = ydsSoruHTML(q);
+    const q = Q[i]; kaydet(); const govde = ydsSoruHTML(q), P = q.p && YDSB.pasajlar[q.p];
     V.innerHTML = bar(n + '. deneme sınavı', '/yds/deneme') + `<div class="wrap"><div class="gbar"><span>Soru <b>${i + 1}</b>/${Q.length}</span><span>Cevaplanan <b>${Object.keys(cev).length}</b></span><span>${sur ? 'Kalan' : 'Geçen'} <b id="dsure">${sureMetin()}</b></span></div>
-      <div class="dtl">${hrkDugme()}${hrkNot()}</div>
+      ${hrkDugme(P) ? `<div class="dtl">${hrkDugme(P)}</div>` : ''}
       <div class="q">${govde}<div class="opts">${q.k.map((x, k) => `<button data-k="${k}" class="${cev[q.id] === k ? 'sel' : ''}"><b class="sk">${HARF5[k]})</b> ${arMi(x) ? `<span lang="ar" class="ar2s">${esc(x)}</span>` : esc(x)}</button>`).join('')}</div>
       <div class="qf dnav"><button class="btn" id="dp" ${i ? '' : 'disabled'}>‹ Önceki</button><button class="btn" id="dn">${i < Q.length - 1 ? 'Sonraki ›' : 'Bitir'}</button><button class="btn pri" id="db">Sınavı bitir</button></div>
       <div class="dmap">${Q.map((x, k) => `<button data-g="${k}" class="${cev[x.id] != null ? 'c' : ''} ${k === i ? 'cur' : ''}">${k + 1}</button>`).join('')}</div></div></div>`;
@@ -888,7 +876,6 @@ function kartlar(liste, title, back){
 async function modern(p1, p2){
   V.innerHTML = bar('Modern Arapça', '/') + '<div class="wrap"><p class="lead">Yükleniyor…</p></div>';
   try{ await modYukle() }catch(e){ V.querySelector('.lead').textContent = 'İçerik yüklenemedi.'; return }
-  if(hareOn()) await hrkYukle().catch(() => null);
   if(p1 === 'metin') return modMetin(p2);
   if(p1 === 'kelime'){ const t = MOD.kelime[+p2]; return kartlar(t.liste, t.tema, '/modern') }
   if(p1 === 'diyalog') return modDiyalog(+p2);
@@ -907,9 +894,9 @@ function modMetin(id, geri){
   geri = geri || '/modern';
   const m = MOD.metinler.find(x => x.id === id); if(!m) return go(geri);
   const trG = LS.get('medrese.modTr', false), gls = new Set(m.sozluk.map(x => arNorm(x[0])));
-  hrkOto = false; const metin = m.ar.map((p, i) => `<p lang="ar" class="mpa">${arMetin(p)}</p>${trG && m.tr[i] ? `<p class="mtr">${esc(m.tr[i])}</p>` : ''}`).join('');
+  const metin = m.ar.map((p, i) => `<p lang="ar" class="mpa">${arMetin(p)}</p>${trG && m.tr[i] ? `<p class="mtr">${esc(m.tr[i])}</p>` : ''}`).join('');
   V.innerHTML = bar(m.baslik, geri) + `<div class="wrap"><div class="mbas"><span class="sv">${esc(m.seviye)}</span> <small>${esc(m.konu)}</small><h1 lang="ar" class="mh1">${esc(m.ar_baslik)}</h1></div>
-   <div class="tools"><label><input type="checkbox" id="mtr" ${trG ? 'checked' : ''}> Türkçesini göster</label>${hrkDugme()}${'speechSynthesis' in window ? '<button class="btn sm" id="msesli">▶ Sesli oku</button>' : ''}<span class="lnk">Bir kelimeye dokunun: anlamı çıkar</span>${hrkNot()}</div>
+   <div class="tools"><label><input type="checkbox" id="mtr" ${trG ? 'checked' : ''}> Türkçesini göster</label>${hrkDugme(m.ar.join(' '))}${'speechSynthesis' in window ? '<button class="btn sm" id="msesli">▶ Sesli oku</button>' : ''}<span class="lnk">Bir kelimeye dokunun: anlamı çıkar</span></div>
    <div class="mtext" data-m="${esc(id)}">${metin}</div>
    <h2>Sözlük</h2><table class="orn">${m.sozluk.map(x => `<tr><td lang="ar">${esc(x[0])}</td><td>${esc(x[1])}</td></tr>`).join('')}</table>
    <div class="end"><button class="btn pri big" id="msor">Sorular (${m.sorular.length}) ›</button></div></div>`;
