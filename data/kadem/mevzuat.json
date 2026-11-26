@@ -26,6 +26,16 @@
       "ad": "Diyanet Yönetmelikleri: Kariyer Basamakları, Sınavlar, MBSTS ve Yurt Dışı Görevi",
       "oncelik": 3,
       "konu": "mevzuat-3"
+     },
+     {
+      "ad": "Türkiye Cumhuriyeti Anayasası: Temel İlkeler, Hak ve Ödevler, Yasama-Yürütme-Yargı, Kamu Görevlileri ve Diyanet (md. 136)",
+      "oncelik": 3,
+      "konu": "mevzuat-4"
+     },
+     {
+      "ad": "4982 Bilgi Edinme Hakkı Kanunu, 3071 Dilekçe Hakkının Kullanılmasına Dair Kanun ve 6245 Harcırah Kanunu",
+      "oncelik": 3,
+      "konu": "mevzuat-5"
      }
     ]
    }
@@ -40,6 +50,12 @@
   },
   {
    "ref": "mevzuat-3"
+  },
+  {
+   "ref": "mevzuat-4"
+  },
+  {
+   "ref": "mevzuat-5"
   }
  ],
  "denemeler": [
