@@ -19,6 +19,7 @@
   '.mh-ust .mh-arb{float:right;font-family:"Reem Kufi","Aref Ruqaa",Amiri,serif;font-weight:700;font-size:38px;line-height:1;color:#F5C76B;text-shadow:0 2px 10px rgba(0,0,0,.25);margin-top:-2px;letter-spacing:1px}.mh-ust.b .mh-arb{color:#FFF6D6}'+
   '.mh-ust .mh-ad{display:block;color:#fff;text-decoration:none;font-size:30px;font-weight:800;letter-spacing:-.02em;margin:2px 0 12px;font-size:28px}'+
   '.mh-ust .mh-ad{display:flex!important;align-items:center;gap:10px}.mh-ust .mh-lg{width:34px;height:34px;border-radius:9px;box-shadow:0 2px 8px rgba(0,0,0,.25);flex:none}'+
+  '.mh-ust .mh-dua{display:flex;align-items:center;gap:10px;margin:-6px 0 14px;font-family:"Cormorant Garamond","Source Serif 4",Georgia,serif;font-style:italic;font-weight:600;font-size:17px;letter-spacing:.2px;color:#F5C76B}.mh-ust .mh-dua:before{content:"";width:22px;height:1px;background:currentColor;opacity:.7;flex:none}.mh-ust.b .mh-dua{color:#FFF6D6}'+
   '.mh-ust .mh-alt{font-size:14px;opacity:.85;margin-bottom:18px}'+
   '.mh-ust .mh-oz{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}'+
   '.mh-ust .mh-oz a{display:block;background:rgba(255,255,255,.14);border-radius:16px;padding:9px 6px;color:#fff;text-decoration:none;text-align:center;min-width:0}.mh-ust.b .mh-oz a{background:rgba(255,255,255,.24)}'+
@@ -40,7 +41,7 @@
  function ciz(el){var h=new Date().getHours(),v=vakit(),l=g('beyan2.last')||{s:1,a:1},s=Math.min(114,Math.max(1,+l.s||1)),a=+l.a||1;
   el.className='mh-ust'+(tema()==='b'?' b':'');
   el.innerHTML='<div class="mh-in"><span class="mh-arb" lang="ar">المِحْرَاب</span><div class="mh-sel">'+(h<5?'Hayırlı geceler':h<11?'Hayırlı sabahlar':h<17?'Hayırlı günler':h<22?'Hayırlı akşamlar':'Hayırlı geceler')+'</div>'+
-   '<a class="mh-ad" href="index.html"><img class="mh-lg" src="icon-192.png" alt="" width="34" height="34">El-Mihrâb</a><div class="mh-oz">'+
+   '<a class="mh-ad" href="index.html"><img class="mh-lg" src="icon-192.png" alt="" width="34" height="34">El-Mihrâb</a><div class="mh-dua">Beni dualarınızda unutmayın</div><div class="mh-oz">'+
    '<a href="index.html#namaz"><b>'+(v?v.s:'—')+'</b><small>'+(v?v.ad+' · '+sure(v.kal):'Ezan vakti')+'</small></a>'+
    '<a href="index.html#'+s+'-'+a+'"><b>'+s+':'+a+'</b><small>'+SN[s-1]+'</small></a>'+
    '<a href="kadem.html"><b>'+kadem()+'</b><small>Kadem konusu</small></a></div></div>'}

@@ -3,11 +3,43 @@
 "aciklama": "Âyetler, hadisler ve büyük âlimlerle tasavvuf büyüklerinin sözleri; her gün biri. Açılış ekranında günün nasihati buradan gelir.",
 "n": [
 {
+"b": "Oku",
+"n": "Yaratan Rabbinin adıyla oku! O, insanı bir kan pıhtısından yarattı. Oku! Rabbin en cömert olandır; kalemle öğreten O’dur, insana bilmediğini öğretti.",
+"k": "Alak, 96/1-5",
+"s": "İlk inen emir “oku”dur. Bugün bir sayfa da olsa ilim için oku.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Bilen ve bilmeyen",
+"n": "Hiç bilenlerle bilmeyenler bir olur mu?",
+"k": "Zümer, 39/9",
+"s": "Bilgi insanı yükseltir; cehaleti kader sanma, öğrenmeye başla.",
+"t": "h",
+"il": 1
+},
+{
 "b": "Niyet",
 "n": "Ameller ancak niyetlere göredir; herkese niyet ettiği şey vardır.",
 "k": "Buhârî, Bed’ü’l-vahy 1; Müslim, İmâre 155",
 "s": "Güne başlarken yaptığın işleri Allah rızasına bağla. Aynı iş, niyetle ibadete dönüşür.",
 "t": "h"
+},
+{
+"b": "İlmimi artır",
+"n": "Rabbim, ilmimi artır.",
+"k": "Tâhâ, 20/114",
+"s": "Allah, Peygamberine bile ilmin artmasını istemeyi öğretti. Bu duayı dilinden düşürme.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Derecelerle yükseltir",
+"n": "Allah içinizden iman edenleri ve kendilerine ilim verilenleri derecelerle yükseltir.",
+"k": "Mücâdele, 58/11",
+"s": "İman ve ilim bir araya gelince insanı yükselten iki kanat olur.",
+"t": "h",
+"il": 1
 },
 {
 "b": "Kendini hesaba çek",
@@ -18,11 +50,43 @@
 "kim": "Hz. Ömer"
 },
 {
+"b": "Âlimlerin haşyeti",
+"n": "Kulları içinde Allah’tan ancak âlimler hakkıyla korkar.",
+"k": "Fâtır, 35/28",
+"s": "Gerçek ilim insanı kibre değil, Allah’a saygıya ve tevazua götürür.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Kaleme yemin",
+"n": "Nûn. Kaleme ve yazdıklarına andolsun.",
+"k": "Kalem, 68/1",
+"s": "Allah’ın kaleme yemin etmesi yazının ve ilmin değerini gösterir. Not alarak oku.",
+"t": "h",
+"il": 1
+},
+{
 "b": "Salavat",
 "n": "Kim bana bir salavat getirirse Allah da ona on rahmet eder.",
 "k": "Müslim, Salât 70",
 "s": "Bir salavat az bir sözdür ama karşılığı büyüktür. Dilini gün boyu salavatla meşgul et.",
 "t": "h"
+},
+{
+"b": "Bilenlere sorun",
+"n": "Bilmiyorsanız bilenlere sorun.",
+"k": "Nahl, 16/43",
+"s": "Bilmediğini sormak ayıp değil, ilmin kapısıdır.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Hikmet",
+"n": "Kime hikmet verilmişse, ona pek çok hayır verilmiştir.",
+"k": "Bakara, 2/269",
+"s": "Hikmet, bilgiyi yerli yerinde kullanmaktır; onu Allah’tan iste.",
+"t": "h",
+"il": 1
 },
 {
 "b": "İnsanın değeri",
@@ -33,11 +97,43 @@
 "kim": "Hz. Ali"
 },
 {
+"b": "Düşünenler",
+"n": "Göklerin ve yerin yaratılışında, gece ile gündüzün birbiri ardınca gelişinde akıl sahipleri için deliller vardır.",
+"k": "Âl-i İmrân, 3/190",
+"s": "Kâinat da okunacak bir kitaptır; tefekkür ederek bak.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Beyanı öğretti",
+"n": "Rahmân, Kur’an’ı öğretti; insanı yarattı, ona beyanı öğretti.",
+"k": "Rahmân, 55/1-4",
+"s": "Konuşma ve anlatma gücü bir emanettir; onu ilimle süsle.",
+"t": "h",
+"il": 1
+},
+{
 "b": "İlk hesap",
 "n": "Kıyamet günü kulun ilk hesaba çekileceği ameli namazdır; o düzgün çıkarsa diğer amelleri de düzgün çıkar.",
 "k": "Tirmizî, Salât 188; Nesâî, Salât 9",
 "s": "Namaz, diğer amellerin terazisidir. Vaktini, abdestini ve huşûunu koru.",
 "t": "h"
+},
+{
+"b": "İsimleri öğretti",
+"n": "Allah Âdem’e bütün isimleri öğretti.",
+"k": "Bakara, 2/31",
+"s": "İnsanı meleklerden üstün kılan ilk şey öğrenme kabiliyetidir.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Ancak âlimler anlar",
+"n": "Bu misalleri insanlara veriyoruz; onları ancak bilenler anlar.",
+"k": "Ankebût, 29/43",
+"s": "Kur’an’ın derinliği okuyup düşündükçe açılır.",
+"t": "h",
+"il": 1
 },
 {
 "b": "Günler",
@@ -48,11 +144,43 @@
 "kim": "Hasan-ı Basrî"
 },
 {
+"b": "Bilmediğin şey",
+"n": "Hakkında bilgin olmayan şeyin ardına düşme.",
+"k": "İsrâ, 17/36",
+"s": "Duyduğunu araştırmadan söyleme ve uygulama; önce öğren.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Her bilenin üstünde",
+"n": "Her bilenin üstünde daha iyi bilen biri vardır.",
+"k": "Yûsuf, 12/76",
+"s": "Ne kadar öğrenirsen öğren, öğrenci kalmayı bırakma.",
+"t": "h",
+"il": 1
+},
+{
 "b": "Beş vakit",
 "n": "Kapınızın önünden bir nehir aksa ve her gün beş defa yıkansanız üzerinizde kir kalır mı? Beş vakit namaz da böyledir; Allah onlarla günahları siler.",
 "k": "Buhârî, Mevâkît 6; Müslim, Mesâcid 283",
 "s": "Her namaz bir arınmadır. Bir vakti kaçırmak, o temizlikten mahrum kalmaktır.",
 "t": "h"
+},
+{
+"b": "Mûsâ ve Hızır",
+"n": "Sana öğretilen doğru bilgiden bana da öğretmen için sana uyabilir miyim?",
+"k": "Kehf, 18/66",
+"s": "Bir peygamber bile ilim için yola çıktı ve hocasına edeple sordu.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Düşünmezler mi",
+"n": "Kur’an’ı hiç düşünmüyorlar mı?",
+"k": "Muhammed, 47/24",
+"s": "Okumak yetmez; ayetler üzerinde durup düşünmek de istenir.",
+"t": "h",
+"il": 1
 },
 {
 "b": "Üç gün",
@@ -63,11 +191,43 @@
 "kim": "Hasan-ı Basrî"
 },
 {
+"b": "Mübarek kitap",
+"n": "Bu, âyetlerini düşünsünler ve akıl sahipleri öğüt alsınlar diye sana indirdiğimiz mübarek bir kitaptır.",
+"k": "Sâd, 38/29",
+"s": "Her gün birkaç âyeti meali ve tefsiriyle düşünerek oku.",
+"t": "h",
+"il": 1
+},
+{
+"b": "İlim farzdır",
+"n": "İlim öğrenmek her Müslümana farzdır.",
+"k": "İbn Mâce, Mukaddime 17",
+"s": "Dinini, işini ve sorumluluklarını bilmek her Müslümanın görevidir.",
+"t": "h",
+"il": 1
+},
+{
 "b": "Az ama devamlı",
 "n": "Allah katında amellerin en sevimlisi, az da olsa devamlı olanıdır.",
 "k": "Buhârî, Rikak 18; Müslim, Müsâfirîn 218",
 "s": "Büyük ama kısa süren hevesler yerine küçük ve sürekli bir vird edin: birkaç âyet, birkaç tesbih.",
 "t": "h"
+},
+{
+"b": "Cennete yol",
+"n": "Kim ilim öğrenmek için bir yola girerse, Allah ona cennete giden yolu kolaylaştırır.",
+"k": "Müslim, Zikir 38",
+"s": "Derse giden her adım, kitaba açılan her sayfa cennete bir adımdır.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Dinde anlayış",
+"n": "Allah kimin hayrını dilerse onu dinde derin anlayış sahibi kılar.",
+"k": "Buhârî, İlim 13; Müslim, Zekât 98",
+"s": "İlme yönelmek, Allah’ın senin için hayır dilediğinin işaretidir.",
+"t": "h",
+"il": 1
 },
 {
 "b": "İhlas",
@@ -78,11 +238,44 @@
 "kim": "Fudayl b. İyâz"
 },
 {
+"b": "Kesilmeyen amel",
+"n": "İnsan ölünce ameli kesilir; ancak üç şey müstesna: sadaka-i câriye, faydalanılan ilim ve kendisine dua eden hayırlı evlat.",
+"k": "Müslim, Vasıyyet 14",
+"s": "Öğrettiğin ilim, sen gittikten sonra da sevap yazdırmaya devam eder.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Peygamberlerin vârisleri",
+"n": "Âlimler peygamberlerin vârisleridir. Peygamberler miras olarak altın ve gümüş bırakmadılar; ilim bıraktılar. Onu alan büyük bir pay almıştır.",
+"k": "Ebû Dâvûd, İlim 1; Tirmizî, İlim 19",
+"s": "Gerçek miras ilimdir; ondan payını almak için okumaya devam et.",
+"t": "h",
+"il": 1
+},
+{
 "b": "Kur’an",
 "n": "Sizin en hayırlınız Kur’an’ı öğrenen ve öğretendir.",
 "k": "Buhârî, Fezâilü’l-Kur’ân 21",
 "s": "Bugün Kur’an’dan bir şey öğren ya da bildiğini birine öğret; ikisi de hayırdır.",
-"t": "h"
+"t": "h",
+"il": 1
+},
+{
+"b": "Ay ve yıldızlar",
+"n": "Âlimin âbide üstünlüğü, dolunayın diğer yıldızlara üstünlüğü gibidir.",
+"k": "Ebû Dâvûd, İlim 1; Tirmizî, İlim 19",
+"s": "İbadet kendine, ilim başkalarına da ışık olur.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Allah yolunda",
+"n": "İlim talebi için evinden çıkan kimse, dönünceye kadar Allah yolundadır.",
+"k": "Tirmizî, İlim 2",
+"s": "Ders yolculuğu bir ibadet yolculuğudur; niyetini öyle kur.",
+"t": "h",
+"il": 1
 },
 {
 "b": "Niyet",
@@ -93,11 +286,43 @@
 "kim": "Süfyân-ı Sevrî"
 },
 {
+"b": "Faydasız ilim",
+"n": "Allah’ım, fayda vermeyen ilimden sana sığınırım.",
+"k": "Müslim, Zikir 73",
+"s": "İlmin değeri faydasıyla ölçülür; seni Allah’a yaklaştırmayan bilgiden sakın.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Faydalı ilim duası",
+"n": "Allah’ım, bana öğrettiklerinle beni faydalandır, bana fayda verecek olanı öğret ve ilmimi artır.",
+"k": "Tirmizî, Daavât 128; İbn Mâce, Mukaddime 23",
+"s": "Derse başlarken bu duayı oku.",
+"t": "h",
+"il": 1
+},
+{
 "b": "Faydasızı bırakmak",
 "n": "Kişinin kendisini ilgilendirmeyen şeyleri bırakması, Müslümanlığının güzelliğindendir.",
 "k": "Tirmizî, Zühd 11; İbn Mâce, Fiten 12",
 "s": "Vaktini ve dilini sana fayda vermeyen işlerden koru; ömür sermayedir.",
 "t": "h"
+},
+{
+"b": "Hikmet müminin yitiğidir",
+"n": "Hikmetli söz müminin yitiğidir; onu nerede bulursa almaya en layık olan odur.",
+"k": "Tirmizî, İlim 19",
+"s": "Faydalı bilgiyi kimden gelirse gelsin al; ölçün Kitap ve sünnet olsun.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Bir âyet de olsa",
+"n": "Benden bir âyet de olsa tebliğ edin.",
+"k": "Buhârî, Enbiyâ 50",
+"s": "Öğrendiğini paylaş; ilim öğretildikçe çoğalır.",
+"t": "h",
+"il": 1
 },
 {
 "b": "Niyetin gücü",
@@ -108,6 +333,22 @@
 "kim": "Abdullah b. Mübârek"
 },
 {
+"b": "Yüzü ağarsın",
+"n": "Benden bir söz işitip ezberleyen ve onu duyduğu gibi başkasına ulaştıranın Allah yüzünü ağartsın.",
+"k": "Tirmizî, İlim 7; Ebû Dâvûd, İlim 10",
+"s": "Duyduğunu doğru aktarmak da ilmin emanetidir.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Gıpta",
+"n": "Yalnız iki kişiye gıpta edilir: Allah’ın mal verip hak yolunda harcattığı kişiye ve Allah’ın hikmet verip onunla hükmeden ve onu öğreten kişiye.",
+"k": "Buhârî, İlim 15",
+"s": "Kıskanacaksan ilim öğretenin hâline gıpta et.",
+"t": "h",
+"il": 1
+},
+{
 "b": "Kardeşini sevmek",
 "n": "Sizden biri kendisi için istediğini kardeşi için de istemedikçe (kâmil) iman etmiş olmaz.",
 "k": "Buhârî, Îmân 7; Müslim, Îmân 71",
@@ -115,12 +356,45 @@
 "t": "h"
 },
 {
+"b": "Hayra vesile",
+"n": "Hayra vesile olan, onu yapan gibidir.",
+"k": "Tirmizî, İlim 14",
+"s": "Birine kitap hediye et, bir derse götür; onun öğrendiğinden sana da sevap var.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Kur’an şefaatçidir",
+"n": "Kur’an okuyun; çünkü o kıyamet günü okuyanlarına şefaatçi olarak gelecektir.",
+"k": "Müslim, Müsâfirîn 252",
+"s": "Her gün Kur’an’dan bir miktar oku; az da olsa devam ettir.",
+"t": "h",
+"il": 1
+},
+{
 "b": "Edep",
-"n": "Çok ilimden çok, biraz edebe muhtacız.",
+"n": "Çok ilimden ziyade, az bir edebe daha çok muhtacız.",
 "k": "Abdullah b. Mübârek’e nispet edilir",
 "s": "İlim edeple güzelleşir; edepsiz ilim sahibini de başkasını da yorar.",
 "t": "s",
-"kim": "Abdullah b. Mübârek"
+"kim": "Abdullah b. Mübârek",
+"il": 1
+},
+{
+"b": "Zorlanarak okuyan",
+"n": "Kur’an’ı güzel okuyan, değerli meleklerle beraberdir. Zorlanarak, kekeleyerek okuyana ise iki sevap vardır.",
+"k": "Buhârî, Tefsîr (Abese) 1; Müslim, Müsâfirîn 244",
+"s": "Zorlanıyorsan bırakma; zorlanmanın da ayrı bir sevabı var.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Her harfe on sevap",
+"n": "Kim Allah’ın kitabından bir harf okursa ona bir iyilik vardır; her iyilik on misliyledir.",
+"k": "Tirmizî, Fezâilü’l-Kur’ân 16",
+"s": "Okuduğun her harf hesaba yazılır; okumayı küçümseme.",
+"t": "h",
+"il": 1
 },
 {
 "b": "Dil",
@@ -130,12 +404,45 @@
 "t": "h"
 },
 {
+"b": "İlim meclisi",
+"n": "Bir topluluk Allah’ın evlerinden birinde toplanıp Allah’ın kitabını okur ve aralarında müzakere ederse, üzerlerine sekînet iner, rahmet onları kaplar.",
+"k": "Müslim, Zikir 38",
+"s": "Bir ders halkasına katıl; birlikte okumanın bereketi büyüktür.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Âlim ve öğrenci",
+"n": "Dünya ve içindekiler değersizdir; ancak Allah’ın zikri, ona yaklaştıranlar, âlim ve ilim öğrenen müstesna.",
+"k": "Tirmizî, Zühd 14; İbn Mâce, Zühd 3",
+"s": "Ya öğreten ya öğrenen ol; ikisi de değerlidir.",
+"t": "h",
+"il": 1
+},
+{
 "b": "Fıkıh",
 "n": "Fıkıh, kişinin lehine ve aleyhine olanı bilmesidir.",
 "k": "Sadrüşşerîa, et-Tavzîh",
 "s": "Dinini öğrenmek, neyin sana fayda neyin zarar verdiğini bilmektir.",
 "t": "s",
-"kim": "İmam Ebû Hanîfe"
+"kim": "İmam Ebû Hanîfe",
+"il": 1
+},
+{
+"b": "İlmi gizlemek",
+"n": "Kendisine bildiği bir ilim sorulup da onu gizleyene kıyamet günü ateşten bir gem vurulur.",
+"k": "Ebû Dâvûd, İlim 9; Tirmizî, İlim 3",
+"s": "Bildiğini, ihtiyacı olana cömertçe öğret.",
+"t": "h",
+"il": 1
+},
+{
+"b": "Önce ilim",
+"n": "Söz ve amelden önce ilim gelir.",
+"k": "Buhârî, İlim 10 (bab başlığı)",
+"s": "Bir işe başlamadan önce onun bilgisini edin.",
+"t": "h",
+"il": 1
 },
 {
 "b": "Öfke",
@@ -143,6 +450,24 @@
 "k": "Buhârî, Edeb 76; Müslim, Birr 107",
 "s": "Öfkelendiğinde sus, abdest al, yerini değiştir. Kendine hâkim olmak en büyük güçtür.",
 "t": "h"
+},
+{
+"b": "İlim maldan hayırlıdır",
+"n": "İlim maldan hayırlıdır: ilim seni korur, malı ise sen korursun. Mal harcadıkça azalır, ilim harcadıkça artar.",
+"k": "Nehcü’l-belâğa, Hikem 147",
+"s": "Paranı biriktirdiğin gibi ilmini de biriktir; o seni korur.",
+"t": "s",
+"il": 1,
+"kim": "Hz. Ali"
+},
+{
+"b": "Üç kısım insan",
+"n": "İnsanlar üç kısımdır: Rabbânî âlim, kurtuluş yolundaki öğrenci ve her sesin peşine takılan başıboşlar.",
+"k": "Nehcü’l-belâğa, Hikem 147",
+"s": "Âlim olamıyorsan bile öğrenci ol; başıboş kalma.",
+"t": "s",
+"il": 1,
+"kim": "Hz. Ali"
 },
 {
 "b": "Ümmetin ıslahı",
@@ -153,6 +478,24 @@
 "kim": "İmam Mâlik"
 },
 {
+"b": "Öğrenin",
+"n": "İlim öğrenin; ilim için vakar ve sükûneti de öğrenin. Öğrendiğiniz kimselere karşı alçak gönüllü olun.",
+"k": "Hz. Ömer’e nispet edilir",
+"s": "İlim edeple ve hocaya saygıyla öğrenilir.",
+"t": "s",
+"il": 1,
+"kim": "Hz. Ömer"
+},
+{
+"b": "İlmin hâlleri",
+"n": "İlim öğrenin; Allah için öğrenmek haşyettir, talep etmek ibadettir, müzakeresi tesbihtir, araştırması cihattır, bilmeyene öğretmek sadakadır.",
+"k": "İbn Abdilber, Câmiu beyâni’l-ilm",
+"s": "İlimle geçen her an bir ibadettir.",
+"t": "s",
+"il": 1,
+"kim": "Muâz b. Cebel"
+},
+{
 "b": "Kolaylaştırmak",
 "n": "Kolaylaştırın, zorlaştırmayın; müjdeleyin, nefret ettirmeyin.",
 "k": "Buhârî, İlim 11; Müslim, Cihâd 8",
@@ -160,12 +503,49 @@
 "t": "h"
 },
 {
+"b": "Beşincisi olma",
+"n": "Ya âlim ol, ya öğrenci, ya dinleyici ya da onları seven; beşincisi olma, helâk olursun.",
+"k": "İbn Abdilber, Câmiu beyâni’l-ilm",
+"s": "İlimle bağını hiç koparma; en azından ilim ehlini sev.",
+"t": "s",
+"il": 1,
+"kim": "Ebü’d-Derdâ"
+},
+{
+"b": "Gecenin bir saati",
+"n": "Gecenin bir saatinde ilim müzakere etmek, bütün geceyi ibadetle geçirmekten bana daha sevimlidir.",
+"k": "Dârimî, Mukaddime",
+"s": "Akşamları bir saati ilme ayır.",
+"t": "s",
+"il": 1,
+"kim": "İbn Abbâs"
+},
+{
 "b": "İlim nurdur",
 "n": "İlim çok rivayet etmek değildir; ilim, Allah’ın kalbe koyduğu bir nurdur.",
 "k": "İmam Mâlik’e nispet edilir",
 "s": "Bilgiyi yığmak yetmez; onu kalbe indiren takva ve amel olur.",
 "t": "s",
-"kim": "İmam Mâlik"
+"kim": "İmam Mâlik",
+"il": 1
+},
+{
+"b": "İki ilim",
+"n": "İlim ikidir: dilde kalan ilim, Allah’ın insana karşı delilidir; kalbe inen ilim ise faydalı ilimdir.",
+"k": "Dârimî, Mukaddime",
+"s": "Öğrendiğini kalbine indir; sadece dilde kalmasın.",
+"t": "s",
+"il": 1,
+"kim": "Hasan-ı Basrî"
+},
+{
+"b": "Âlimlerin hayatı",
+"n": "Âlimlerin hayat hikâyeleri bana fıkıh meselelerinin çoğundan daha sevimlidir; çünkü onlar o âlimlerin edebidir.",
+"k": "İbn Abdilber, Câmiu beyâni’l-ilm",
+"s": "Büyüklerin hayatını oku; edep onların yaşayışından öğrenilir.",
+"t": "s",
+"il": 1,
+"kim": "İmam Ebû Hanîfe"
 },
 {
 "b": "Takva ve güzel ahlak",
@@ -175,11 +555,48 @@
 "t": "h"
 },
 {
+"b": "Bütününü ver",
+"n": "İlim, sen ona bütününü vermedikçe sana bir parçasını bile vermez.",
+"k": "İmam Ebû Yûsuf’a nispet edilir",
+"s": "İlim gönül vermeyi ister; dağınık çaba az ürün verir.",
+"t": "s",
+"il": 1,
+"kim": "İmam Ebû Yûsuf"
+},
+{
+"b": "İlme gidilir",
+"n": "İlim ziyaret edilir, kendisi ziyarete gitmez.",
+"k": "İmam Mâlik’e nispet edilir",
+"s": "Bilgi ayağına gelmez; kitabı aç, derse git, hocayı ara.",
+"t": "s",
+"il": 1,
+"kim": "İmam Mâlik"
+},
+{
 "b": "Hafıza",
 "n": "Vekî‘a hafızamın zayıflığını şikâyet ettim; bana günahları bırakmamı öğütledi ve dedi ki: İlim bir nurdur, Allah’ın nuru günahkâra verilmez.",
 "k": "İmam Şâfiî, Dîvân",
 "s": "Ders aklında kalmıyorsa önce kalbini temizle; günah ilmin önünde perdedir.",
 "t": "s",
+"kim": "İmam Şâfiî",
+"il": 1
+},
+{
+"b": "Altı şart",
+"n": "Kardeşim, ilmi ancak altı şeyle elde edersin: zekâ, istek, gayret, azık, hocanın yanında bulunmak ve uzun zaman.",
+"k": "İmam Şâfiî, Dîvân",
+"s": "Sabırsızlanma; ilim uzun soluklu bir yolculuktur.",
+"t": "s",
+"il": 1,
+"kim": "İmam Şâfiî"
+},
+{
+"b": "Kur’an’ı öğrenen",
+"n": "Kur’an’ı öğrenenin kıymeti büyür; hadis yazanın delili güçlenir; ilmini korumayanı ilmi korumaz.",
+"k": "Beyhakî, Menâkıbü’ş-Şâfiî",
+"s": "Öğrendiğini tekrar ederek ve amel ederek koru.",
+"t": "s",
+"il": 1,
 "kim": "İmam Şâfiî"
 },
 {
@@ -190,12 +607,48 @@
 "t": "h"
 },
 {
+"b": "Ekmekten çok",
+"n": "İnsanlar ilme, yemeye ve içmeye muhtaç olduklarından daha çok muhtaçtır; çünkü yemek günde bir iki kez gerekir, ilim ise her nefeste.",
+"k": "İbnü’l-Kayyim, Medâricü’s-sâlikîn",
+"s": "Bedenini doyurduğun gibi aklını ve kalbini de besle.",
+"t": "s",
+"il": 1,
+"kim": "İmam Ahmed b. Hanbel"
+},
+{
+"b": "Ne zamana kadar",
+"n": "Kendisine ne zamana kadar ilim yazacağı sorulunca: Belki kurtuluşum henüz yazmadığım bir kelimededir, dedi.",
+"k": "Abdullah b. Mübârek’e nispet edilir",
+"s": "Öğrenmeye “yeter” deme; faydalı bir söz hayatını değiştirebilir.",
+"t": "s",
+"il": 1,
+"kim": "Abdullah b. Mübârek"
+},
+{
 "b": "Görüş ve hakikat",
 "n": "Görüşüm doğrudur ama yanlış olabilir; bana muhalif olanın görüşü yanlıştır ama doğru olabilir.",
 "k": "İmam Şâfiî’ye nispet edilir",
 "s": "Tartışırken kendi görüşüne de karşındakine de insafla bak.",
 "t": "s",
 "kim": "İmam Şâfiî"
+},
+{
+"b": "En faziletli amel",
+"n": "Niyeti düzgün olursa, ilim talebinden daha faziletli bir amel bilmiyorum.",
+"k": "Süfyân-ı Sevrî’ye nispet edilir",
+"s": "İlmi Allah rızası için öğrendiğinde en büyük ibadetlerden olur.",
+"t": "s",
+"il": 1,
+"kim": "Süfyân-ı Sevrî"
+},
+{
+"b": "Ağaç ve meyve",
+"n": "İlim ağaca, amel meyveye benzer; meyvesiz ağaç işe yaramaz.",
+"k": "İmam Gazâlî’ye nispet edilir",
+"s": "Okuduğundan bugün bir şeyi hayatına geçir.",
+"t": "s",
+"il": 1,
+"kim": "İmam Gazâlî"
 },
 {
 "b": "Tebessüm",
@@ -205,12 +658,49 @@
 "t": "h"
 },
 {
+"b": "İlme saygı",
+"n": "Talebe ancak ilme, ilim ehline ve kitaba saygı göstermekle ilme ulaşır ve ondan faydalanır.",
+"k": "Zernûcî, Ta‘lîmü’l-müteallim, IV. fasıl",
+"s": "Kitabı yere koyma, hocanı incitme; saygı ilmin kapısını açar.",
+"t": "s",
+"il": 1,
+"kim": "Burhâneddîn ez-Zernûcî"
+},
+{
+"b": "Tekrar",
+"n": "Talebe dünkü dersi, ondan önceki dersleri belli bir düzen içinde tekrar etmelidir; tekrar edilmeyen ilim unutulur.",
+"k": "Zernûcî, Ta‘lîmü’l-müteallim",
+"s": "Yeni bir şeye geçmeden önce dünkü dersini bir kez daha oku.",
+"t": "s",
+"il": 1,
+"kim": "Burhâneddîn ez-Zernûcî"
+},
+{
 "b": "Ömür boyu ilim",
 "n": "Hokkadan kabre kadar.",
 "k": "İbnü’l-Cevzî, Menâkıbü’l-İmâm Ahmed",
 "s": "İlim öğrenmenin yaşı yoktur; kalem ancak kabirde bırakılır.",
 "t": "s",
-"kim": "İmam Ahmed b. Hanbel"
+"kim": "İmam Ahmed b. Hanbel",
+"il": 1
+},
+{
+"b": "Okumaktan maksat",
+"n": "Okumaktan mâni ne, kişi Hakk’ı bilmektir; çün okudun bilmezsin, ha bir kuru emektir.",
+"k": "Yunus Emre, Dîvân",
+"s": "Okumanın gayesi Allah’ı tanımaktır; kuru bilgi yorgunluktan ibarettir.",
+"t": "s",
+"il": 1,
+"kim": "Yunus Emre"
+},
+{
+"b": "Amelsiz âlim",
+"n": "Amelsiz âlim, meyvesiz ağaç gibidir.",
+"k": "Sa‘dî, Gülistan, VIII",
+"s": "Bildiğini yaşamak, bilgini meyveye durdurur.",
+"t": "s",
+"il": 1,
+"kim": "Şeyh Sa‘dî-i Şîrâzî"
 },
 {
 "b": "Temizlik",
@@ -225,7 +715,8 @@
 "k": "Kuşeyrî, er-Risâle",
 "s": "Tasavvuf, şeriatın dışında değil, onun özünde bir yoldur.",
 "t": "s",
-"kim": "Cüneyd-i Bağdâdî"
+"kim": "Cüneyd-i Bağdâdî",
+"il": 1
 },
 {
 "b": "Yolcu gibi",
@@ -285,7 +776,8 @@
 "k": "Gazâlî, Eyyühe’l-veled",
 "s": "Öğrendiğinle amel et; amel ettikçe Allah bilmediğini de öğretir.",
 "t": "s",
-"kim": "İmam Gazâlî"
+"kim": "İmam Gazâlî",
+"il": 1
 },
 {
 "b": "Merhamet",
@@ -300,7 +792,8 @@
 "k": "Gazâlî, Kîmyâ-yı Saâdet",
 "s": "Nefsini, zaafını ve muhtaçlığını tanıyan, Rabbinin kudretini ve rahmetini tanır.",
 "t": "s",
-"kim": "İmam Gazâlî"
+"kim": "İmam Gazâlî",
+"il": 1
 },
 {
 "b": "Dua",
@@ -435,7 +928,8 @@
 "k": "Yunus Emre, Dîvân",
 "s": "Okuduğun kitap seni sana tanıtmıyorsa eksik okuyorsun.",
 "t": "s",
-"kim": "Yunus Emre"
+"kim": "Yunus Emre",
+"il": 1
 },
 {
 "b": "Kardeşe yardım",
