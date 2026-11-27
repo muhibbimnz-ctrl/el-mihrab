@@ -357,3 +357,10 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 - Destek metni: “Bu çalışmanın reklamsız ve ücretsiz sürmesine katkıda bulunmak isterseniz…” (Kadem kartı, alt satır, YDS).
 - **Salavat ekranı (salavat.js?v=4; v=4’te telefonda taşma düzeltildi):** tam ekran; yazılar ekran boyuyla büyür (clamp); 700px+ geniş sütun; 960px+ ve yatay ekranda iki sütun (solda salavat, sağda günün nasihati); açıkken arka sayfa kaymaz (`html.slv-acik`).
 - **Ana ekran tablet düzeni:** index.html `<style id="tablet">`: yüklü uygulamada (`html.uyg`) 700px ve üstü, tarayıcıda (`html.web`) 700–899px (900+ masaüstü düzeni zaten vardı). Üst alan tam genişlik ve kemerin içinde, büyük başlık ve özet kutuları; dikey tablette 2×2 büyük kutu, yatayda 4 kutu yan yana + Kadem şeridi.
+
+## 24. oturum — 28 Kasım 2026 (Kadem ana sayfası yenilendi)
+- Eski düzen: yalnız MBSTS ve DHBT büyük kartta, 17 sınav “+ Diğer sınavlar” altında gizliydi; altta büyük “Görünüm” kutuları.
+- Yeni `liste()` (kadem.html): 19 sınavın hepsi açıkta, `sinavlar.json` gruplarına göre bölümler (Diyanet’e giriş, Kariyer, İhtisas ve vaizlik, Müftülük ve yönetim, Merkez uzmanlıkları, Yurt dışı, Ortak dersler). Her satır: renkli kısaltma rozeti (`kisalt()`), ad, tam ad, “N konu · N deneme” + biçim, ilerleme çubuğu ve yüzde. Üstte arama kutusu (ad + tam adda arar, grup sayıları güncellenir) ve kaydırılabilir kategori düğmeleri. Çalışılan bir sınav varsa en üstte “Kaldığın yer” kartı (son çalışılan sınav; `sz.<sınav>` zaman damgası artık konu açılınca yazılıyor). Görünüm seçimi altta küçük tek satır.
+- `hafifOzet()` artık `denemeler` de döndürüyor. Bütün sınav dosyaları ana sayfada yükleniyor (~160 KB, önbellekte).
+- `#toast` boşta görünmez (iPhone alt çubuğunda ucu görünüyordu).
+- `ANA_ID` artık ana sayfada kullanılmıyor (başka yerde kullanılıyorsa duruyor).
