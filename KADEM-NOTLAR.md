@@ -355,5 +355,5 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 
 ## 23. oturum — 27 Kasım 2026 (tablet ve web)
 - Destek metni: “Bu çalışmanın reklamsız ve ücretsiz sürmesine katkıda bulunmak isterseniz…” (Kadem kartı, alt satır, YDS).
-- **Salavat ekranı (salavat.js?v=3):** tam ekran; yazılar ekran boyuyla büyür (clamp); 700px+ geniş sütun; 960px+ ve yatay ekranda iki sütun (solda salavat, sağda günün nasihati); açıkken arka sayfa kaymaz (`html.slv-acik`).
+- **Salavat ekranı (salavat.js?v=4; v=4’te telefonda taşma düzeltildi):** tam ekran; yazılar ekran boyuyla büyür (clamp); 700px+ geniş sütun; 960px+ ve yatay ekranda iki sütun (solda salavat, sağda günün nasihati); açıkken arka sayfa kaymaz (`html.slv-acik`).
 - **Ana ekran tablet düzeni:** index.html `<style id="tablet">`: yüklü uygulamada (`html.uyg`) 700px ve üstü, tarayıcıda (`html.web`) 700–899px (900+ masaüstü düzeni zaten vardı). Üst alan tam genişlik ve kemerin içinde, büyük başlık ve özet kutuları; dikey tablette 2×2 büyük kutu, yatayda 4 kutu yan yana + Kadem şeridi.
