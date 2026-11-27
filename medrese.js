@@ -326,17 +326,27 @@ function route(){
 /* ---- ana ekran ---- */
 function home(){
   const due = SRS.due().length, wr = SRS.wrong().length;
-  V.innerHTML = bar('Medrese') + `<div class="wrap">
-   <div class="hero"><div class="hero-ar" lang="ar">المَدْرَسَة</div><p>Medrese usûlüyle sarf ve nahiv: <b>oku, anla, unutma.</b></p>
-    <div class="hero-b"><a class="btn pri" href="#/tekrar">Bugünün tekrarı <i>${due}</i></a><a class="btn" href="#/yanlislar">Yanlışlarım <i>${wr}</i></a><a class="btn" href="#/rapor">Zayıf konularım</a><a class="btn" href="#/harita">Öğrenme haritam</a></div></div>
-   <div class="boxes">
-    <a class="bigbox b-sarf" href="#/yol/sarf"><span lang="ar">الصَّرْف</span><b>Sarf</b><small>Emsile · Binâ · Maksûd · İzzî</small></a>
-    <a class="bigbox b-nahiv" href="#/yol/nahiv"><span lang="ar">النَّحْو</span><b>Nahiv</b><small>Avâmil · Âcurrûmiyye · Katru’n-nedâ</small></a>
-    <a class="bigbox b-kuran" href="#/kitap/kuran"><span lang="ar">إِعْرَابُ الْقُرْآنِ</span><b>Kur’an i‘râbı</b><small>Her kelimeye dokun: sarf ve nahiv</small></a>
-    <a class="bigbox b-yds" href="#/yds"><span lang="ar">اِخْتِبَار</span><b>YDS Arapça</b><small>Deneme · okuma metinleri · kelime</small></a>
-    <a class="bigbox b-mod" href="arapca.html?medrese=1"><span lang="ar">المُعَاصِرَة</span><b>Modern Arapça</b><small>Sesli Arapça dersleri · hikâyeler</small></a>
-    <a class="bigbox b-oyun" href="#/oyunlar"><span lang="ar">أَلْعَاب</span><b>Oyunlar</b><small>Günün sorusu · İ‘râb · Bâb bul</small></a>
-    <a class="bigbox b-lugat" href="sozluk.html?dil=ar"><span lang="ar">المُعْجَم</span><b>el-Lügat</b><small>Arapça–Türkçe sözlük · şâhid beyitler · kök</small></a>
+  const k = (h, renk, ar, ad, alt, mt) => `<a class="md-k" style="--r:${renk}" href="${h}"><span class="rk" lang="ar">${ar}</span><span class="ic"><b>${ad}</b><small>${alt}</small>${mt ? `<span class="md-mt">${mt}</span>` : ''}</span><span class="ok">›</span></a>`;
+  V.innerHTML = bar('Medrese') + `<div class="wrap md-ana">
+   <div class="md-bas"><div class="hero-ar" lang="ar">المَدْرَسَة</div><p>Medrese usûlüyle sarf ve nahiv, Kur’an i‘râbı ve Arapça. Oku, anla, tekrar et.</p></div>
+   <div class="md-gun">
+    <a href="#/tekrar" class="${due ? 'var' : ''}"><b>${due}</b><span>Bugünün tekrarı</span></a>
+    <a href="#/yanlislar"><b>${wr}</b><span>Yanlışlarım</span></a>
+    <a href="#/rapor"><b class="ik"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 20V12M12 20V5M19 20v-5"/></svg></b><span>Zayıf konularım</span></a>
+    <a href="#/harita"><b class="ik"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v14M15 6v14"/></svg></b><span>Öğrenme haritam</span></a>
+   </div>
+   <h2 class="md-h">Dil bilgisi</h2><div class="md-l">
+    ${k('#/yol/sarf', '#2f5d50', 'الصَّرْف', 'Sarf', 'Kelimenin yapısı: bâblar, çekimler, kalıplar', 'Emsile · Binâ · Maksûd · İzzî')}
+    ${k('#/yol/nahiv', '#6b4a2b', 'النَّحْو', 'Nahiv', 'Cümlenin yapısı ve i‘râb', 'Avâmil · Âcurrûmiyye · Katru’n-nedâ')}
+    ${k('#/kitap/kuran', '#1f4e5f', 'الإِعْرَاب', 'Kur’an i‘râbı', 'Âyetlerde her kelimeye dokun; sarfını ve nahvini gör', '')}
+   </div>
+   <h2 class="md-h">Arapça</h2><div class="md-l">
+    ${k('#/yds', '#3b4a7a', 'اِخْتِبَار', 'YDS Arapça', 'ÖSYM kalıbında denemeler, okuma metinleri, kelime', '30 deneme · 2400 soru')}
+    ${k('arapca.html?medrese=1', '#8a4b2a', 'المُعَاصِرَة', 'Modern Arapça', 'Sesli dersler, hikâyeler ve haber Arapçası', '')}
+    ${k('sozluk.html?dil=ar', '#0e4a3a', 'المُعْجَم', 'el-Lügat', 'Arapça–Türkçe sözlük, kök arama, şâhid beyitler', '')}
+   </div>
+   <h2 class="md-h">Pekiştir</h2><div class="md-l">
+    ${k('#/oyunlar', '#5a6b2e', 'أَلْعَاب', 'Oyunlar', 'Günün sorusu, i‘râb bulmaca, bâb bul', '')}
    </div>
    <p class="foot">Hata görürseniz her ekrandaki <i>Hata bildir</i> bağlantısını kullanın.<br><a href="#" onclick="$('#src').classList.remove('hide');return false">Kaynaklar ve lisans</a></p></div>`;
 }
@@ -771,15 +781,18 @@ async function yds(p1, p2){
   if(p1 === 'haber'){ await modYukle(); return modHaber('/yds') }
   await modYukle().catch(() => null);
   const acc = t => { const ks = Q.filter(q => q.tip === t).map(q => 'yds|' + q.id).filter(k => S[k]); const o = ks.reduce((n, k) => n + S[k].ok, 0), b = ks.reduce((n, k) => n + S[k].bad, 0); return o + b ? `%${Math.round(o / (o + b) * 100)} doğru` : 'başlanmadı' };
-  const son = LS.get('medrese.ydsSon', null), TP = YDSB.toplam || {}, kl = ORN ? ' 🔒' : '';
+  const son = LS.get('medrese.ydsSon', null), TP = YDSB.toplam || {}, kl = ORN ? ' · üyelikle' : '';
   V.innerHTML = bar('YDS Arapça', '/') + `<div class="wrap">
-   <div class="ydsh"><div class="hero-ar" lang="ar">اِخْتِبَارُ اللُّغَةِ</div>${ORN ? `<a class="kilit-yds" href="#/yds/kilit"><span>🔒 1. deneme ve bir okuma metni açık. Bütün bölüm Pro · YDS Arapça ya da Max üyelikle açılır.</span><em>Üyelik ›</em></a>` : ''}<p><b>${ORN ? TP.deneme : ydsDn().length} deneme · ${ORN ? TP.soru : Q.length} soru</b> · Her deneme 80 soru, 180 dakika · Yanlış doğruyu götürmez · Her doğru 1,25 puan</p>${YDS_UCRETSIZ ? `<p class="ydsdes">Bu bölüm uzun bir emeğin ürünü ve şimdilik herkese açık. Bu çalışmanın reklamsız ve ücretsiz sürmesine katkıda bulunmak isterseniz <a href="https://x.com/Elmihr" target="_blank" rel="noopener">X’ten bize yazın ›</a></p>` : ''}
-    <div class="hero-b"><a class="btn pri" href="#/yds/deneme">Deneme sınavları (${ORN ? TP.deneme : ydsDn().length})</a><a class="btn" href="#/yds/kelime">Kelime kartları (${ORN ? TP.kelime : (YDSB.kelime || []).length})${kl}</a><a class="btn" href="#/yds/rehber">Sınav rehberi</a></div>
-    ${son ? `<p class="lead">Son deneme${son.n ? ' (' + (+son.n) + '.)' : ''}: <b>${esc(String(son.puan))}</b> puan (${son.dogru}/${son.toplam}) · ${new Date(son.t).toLocaleDateString('tr-TR')}</p>` : ''}</div>
-   ${MOD ? `<h2>Okuma metinleri</h2><div class="alanlar">${(MOD.alanlar || []).map(a => { const n = MOD.metinler.filter(m => m.alan === a[0]).length; return n ? `<a class="alan a-${a[0]}" href="#/yds/alan/${a[0]}"><span lang="ar">${esc(a[2])}</span><b>${esc(a[1])}</b><small>${n} metin${ORN ? (a[0] === MOD.alanlar[0][0] ? ' · 1 açık' : ' 🔒') : ''}</small></a>` : '' }).join('')}</div>
-   <h2>Kelime temaları${kl}</h2><div class="tiplist">${MOD.kelime.map((k, i) => `<a href="#/yds/tema/${i}"><b>${esc(k.tema)}</b><small lang="ar">${esc(k.liste.slice(0, 3).map(x => x[0]).join('، '))} … (${k.liste.length})</small></a>`).join('')}<a href="#/yds/kelime"><b>YDS sık kelimeleri</b><small>${ORN ? TP.kelime : (YDSB.kelime || []).length} kelime</small></a><a href="#/yds/haber"><b>Haber Arapçası kalıpları</b><small>el-Cezîre okuma rehberi</small></a></div>` : ''}
-   <h2>Konu konu çalış${kl}</h2><div class="tiplist">${Object.keys(YDS_TIP).map(t => { const n = Q.filter(q => q.tip === t).length; return n ? `<a href="#/yds/tip/${t}"><b>${YDS_TIP[t][0]}</b><small>${ORN ? 'Üyelikle açılır' : n + ' soru · ' + acc(t)}</small></a>` : '' }).join('')}</div>
-   <p class="taslak">Sorular ÖSYM YDS Arapça sınavının yapısına göre hazırlanmıştır. Gerçek çıkmış sorular için ÖSYM’nin yayımladığı kitapçıklara bakınız.</p></div>`;
+   <div class="ydsh md-bas"><div class="hero-ar" lang="ar">اِخْتِبَارُ اللُّغَةِ</div>${ORN ? `<a class="kilit-yds" href="#/yds/kilit"><span>1. deneme ve bir okuma metni açık. Bütün bölüm Pro · YDS Arapça ya da Max üyelikle açılır.</span><em>Üyelik ›</em></a>` : ''}<p>ÖSYM YDS Arapça sınavının biçiminde denemeler, açıklamalı sorular ve okuma metinleri.</p></div>
+   <div class="yd-say"><div><b>${ORN ? TP.deneme : ydsDn().length}</b><span>deneme</span></div><div><b>${ORN ? TP.soru : Q.length}</b><span>soru</span></div><div><b>80</b><span>soru · 180 dk</span></div></div>
+   <a class="yd-ana" href="#/yds/deneme"><span><b>Deneme sınavları</b><small>Süreli ya da süresiz çöz; sonunda açıklamalı cevap anahtarı</small></span><em>Başla ›</em></a>
+   ${son ? `<p class="yd-son">Son deneme${son.n ? ' (' + (+son.n) + '.)' : ''}: <b>${esc(String(son.puan))}</b> puan · ${son.dogru}/${son.toplam} doğru · ${new Date(son.t).toLocaleDateString('tr-TR')}</p>` : ''}
+   <div class="yd-iki"><a href="#/yds/kelime"><b>Kelime kartları</b><small>${ORN ? TP.kelime : (YDSB.kelime || []).length} sık kelime${kl}</small></a><a href="#/yds/rehber"><b>Sınav rehberi</b><small>Yapı, puan, strateji</small></a></div>
+   <p class="yd-kural">Her doğru 1,25 puan · Yanlış doğruyu götürmez</p>
+   ${MOD ? `<h2 class="md-h">Okuma metinleri</h2><div class="yd-ml">${(MOD.alanlar || []).map(a => { const n = MOD.metinler.filter(m => m.alan === a[0]).length; return n ? `<a href="#/yds/alan/${a[0]}"><span class="ic"><b>${esc(a[1])}</b><small>${n} metin${ORN ? (a[0] === MOD.alanlar[0][0] ? ' · 1 açık' : ' · üyelikle') : ''}</small></span><span class="ar" lang="ar">${esc(a[2])}</span></a>` : '' }).join('')}</div>
+   <h2 class="md-h">Kelime temaları${kl}</h2><div class="tiplist">${MOD.kelime.map((k, i) => `<a href="#/yds/tema/${i}"><b>${esc(k.tema)}</b><small lang="ar">${esc(k.liste.slice(0, 3).map(x => x[0]).join('، '))} … (${k.liste.length})</small></a>`).join('')}<a href="#/yds/kelime"><b>YDS sık kelimeleri</b><small>${ORN ? TP.kelime : (YDSB.kelime || []).length} kelime</small></a><a href="#/yds/haber"><b>Haber Arapçası kalıpları</b><small>el-Cezîre okuma rehberi</small></a></div>` : ''}
+   <h2 class="md-h">Konu konu çalış${kl}</h2><div class="tiplist">${Object.keys(YDS_TIP).map(t => { const n = Q.filter(q => q.tip === t).length; return n ? `<a href="#/yds/tip/${t}"><b>${YDS_TIP[t][0]}</b><small>${ORN ? 'Üyelikle açılır' : n + ' soru · ' + acc(t)}</small></a>` : '' }).join('')}</div>
+   <p class="taslak">Sorular ÖSYM YDS Arapça sınavının yapısına göre hazırlanmıştır. Gerçek çıkmış sorular için ÖSYM’nin yayımladığı kitapçıklara bakınız.</p>${YDS_UCRETSIZ ? `<p class="ydsdes">Bu bölüm uzun bir emeğin ürünü ve şimdilik herkese açık. Bu çalışmanın reklamsız ve ücretsiz sürmesine katkıda bulunmak isterseniz <a href="https://x.com/Elmihr" target="_blank" rel="noopener">X’ten bize yazın ›</a></p>` : ''}</div>`;
 }
 function ydsRehber(){
   V.innerHTML = bar('YDS rehberi', '/yds') + `<div class="wrap"><div class="rehber">

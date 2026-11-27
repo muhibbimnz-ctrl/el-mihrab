@@ -370,3 +370,8 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 - **Bütün ilimlerde arama:** “kitap, âlim ya da terim” kutusu; ilk yazışta 8 ilmin dosyası bir kez yüklenir (~1,3 MB, önbellekte). Sonuçlar Kitaplar / Şahsiyetler / Terimler diye gruplanır (her grupta en çok 8). Sonuca dokununca ilgili ilmin Kitap rehberi / Şahsiyetler / Terimler sekmesi açılır ve sekmedeki arama kutusu aynı kelimeyle doldurulur (`window.__ihq`).
 - **Alan sayfası sekmeleri:** yana kayan gizli şerit yerine bütün sekmeler görünen düğme ızgarası.
 - Program sekmesindeki emojiler kaldırıldı (“Hedef:” yazısı); boştaki `#toast` gizlendi.
+
+## 26. oturum — 28 Kasım 2026 (Medrese, YDS ve Dirâset görünümü)
+- **Medrese ana sayfası (`medrese.js home()`):** renkli büyük kutular yerine İhtisas’la aynı dilde kartlar (`.md-k`: solda renkli şerit + Arapça ad, sağda ad, açıklama, kitaplar). Gruplar: Dil bilgisi (Sarf, Nahiv, Kur’an i‘râbı) · Arapça (YDS, Modern Arapça, el-Lügat) · Pekiştir (Oyunlar). Üstte dört küçük kutu: Bugünün tekrarı (sayı; varsa altın çerçeve), Yanlışlarım, Zayıf konularım, Öğrenme haritam. 700px+ iki, 1000px+ üç sütun.
+- **YDS ana sayfası:** üç sayı kutusu (deneme, soru, 80 soru · 180 dk), tek büyük “Deneme sınavları” düğmesi, altında Kelime kartları ve Sınav rehberi; son deneme puanı; okuma metinleri renkli kutular yerine sade liste (Türkçe ad + Arapça ad + metin sayısı; genişte iki sütun). Destek satırı sayfa sonuna alındı; kilit emojileri metinle değişti.
+- **Dirâset seçimi (index.html `#hStudy` → `#dsSec`):** büyük renkli düğmeler yerine aynı kart dili; başlık, kısa açıklama, “Kapat”; telefonda alttan açılır, 700px+ ortada pencere; koyu temalarda koyu zemin. Düğme kimlikleri (dsK, dsH, dsF, dsY, dsA, dsAk) aynı kaldı.
