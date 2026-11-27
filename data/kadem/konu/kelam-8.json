@@ -1,0 +1,914 @@
+{
+ "id": "kelam-8",
+ "ad": "Ahiret 2: Ba’s, Haşr, Hesap, Mîzân, Sırat, Şefaat, Havz, A’râf, Cennet ve Cehennem, Rü’yetullah",
+ "ders": "Akaid ve Kelam",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Ba’s ve haşr: Diriliş ve toplanma"
+  },
+  {
+   "merak": "İbn Sînâ gibi büyük bir filozof, cennetin ve cehennemin bedensel lezzet ve acılarını “halkın anlayacağı temsiller” saydı. Gazzâlî ise bu görüşü küfür kabul ettiği üç meseleden biri olarak gösterdi. Tartışmanın merkezinde tek bir soru vardı: Dirilecek olan yalnızca ruh mu, yoksa beden de mi?"
+  },
+  "Ba’s sözlükte “göndermek, harekete geçirmek, uyandırmak” demektir. Terim olarak, Allah’ın kıyamet gününde ölüleri yeniden diriltip kabirlerinden çıkarmasıdır. İkinci sûra üflenmesiyle gerçekleşir (Zümer, 39/68; Yâsîn, 36/51-52). Ba’s gününe “yevmü’l-ba’s” denir (Rûm, 30/56). Diriltilmiş insanların hesap için bir yerde toplanmasına “haşr”, toplanma yerine “mahşer” (arsatü’l-mahşer, arasât) denir. Kısaca: ba’s diriliştir, haşr toplanmadır.",
+  {
+   "ayet": "İnsan, kemiklerini bir araya toplayamayacağımızı mı sanıyor? Evet, biz onun parmak uçlarını bile yeniden düzenlemeye kādiriz.",
+   "kay": "Kıyâme, 75/3-4"
+  },
+  "Dirilişin mahiyeti konusunda görüşler şöyledir:",
+  {
+   "tablo": [
+    [
+     "Görüş",
+     "Sahipleri",
+     "Açıklama"
+    ],
+    [
+     "Cismanî ve ruhanî diriliş",
+     "Ehl-i sünnet ve kelamcıların büyük çoğunluğu",
+     "Ruh bedene iade edilir; insan hem bedeniyle hem ruhuyla dirilir, lezzet ve elem her ikisiyle yaşanır."
+    ],
+    [
+     "Yalnızca ruhanî diriliş (meâd-ı ruhânî)",
+     "Fârâbî, İbn Sînâ gibi Meşşâî filozoflar",
+     "Beden çürüyüp gider; ölümsüz olan ruh (nefs) mutluluğu ya da azabı yaşar. Bedensel tasvirler sembolik kabul edilir."
+    ],
+    [
+     "Dirilişin tamamen inkârı",
+     "Dehrîler, maddeciler",
+     "Ölümle her şey biter (Câsiye, 45/24)."
+    ]
+   ]
+  },
+  "İbn Sînâ eş-Şifâ’da cismanî dirilişin akılla ispat edilemeyeceğini, ancak şeriat bildirdiği için kabul edileceğini söylemiş; el-Adhaviyye adlı risalesinde ise bedensel tasvirleri halkın anlayışına göre yapılmış temsiller saymıştır. Gazzâlî Tehâfütü’l-felâsife’de filozofları tekfir ettiği üç meseleden birinin “cismanî haşrin inkârı” olduğunu belirtmiştir.",
+  "Kelamcılar yok olan bedenin aynısıyla geri getirilmesini (i’âde-i ma’dûm) tartışmıştır. Ehl-i sünnete göre Allah için bedeni yeniden var etmek ilk yaratmadan daha zor değildir. Hadiste insanın her şeyinin çürüyeceği, ancak “acbü’z-zeneb” denilen kuyruk sokumu kemiğinin kalacağı ve yaratılışın ondan yeniden başlayacağı bildirilir (Buhârî, Tefsir; Müslim, Fiten).",
+  "Haşr gününde insanlar yalınayak, çıplak ve sünnetsiz olarak toplanır (Buhârî, Rikāk; Müslim, Cennet). Hz. Âişe bunun mahcubiyetini sorunca Hz. Peygamber “Durum, insanların birbirine bakmasından çok daha çetindir” cevabını vermiştir. O gün güneş yaklaşır, insanlar amelleri ölçüsünde tere batar (Müslim, Cennet). Kur’an o günü “Kişinin kardeşinden, annesinden, babasından, eşinden ve çocuklarından kaçacağı gün” diye tasvir eder (Abese, 80/34-37). Vahşi hayvanların da toplanacağı bildirilir (Tekvîr, 81/5; En’âm, 6/38).",
+  {
+   "hadis": "Hiçbir gölgenin bulunmadığı günde Allah yedi kişiyi arşının gölgesinde gölgelendirir: Adil devlet başkanı; Rabbine ibadet ederek yetişen genç; kalbi mescitlere bağlı kişi; Allah için birbirini sevip O’nun için bir araya gelen ve ayrılan iki kişi; makam ve güzellik sahibi bir kadın tarafından davet edilip “Ben Allah’tan korkarım” diyen kişi; sağ elinin verdiğini sol eli bilmeyecek kadar gizli sadaka veren kişi; tenhada Allah’ı anıp gözyaşı döken kişi.",
+   "kay": "Buhârî, Ezân; Müslim, Zekât"
+  },
+  {
+   "sinav": "Ba’s = diriliş (ikinci sûr), haşr = toplanma, mahşer = toplanma yeri. Gazzâlî’nin üç tekfir meselesinden biri cismanî haşrin inkârıdır. Arş gölgesindeki yedi sınıf hadisi soru kökünde verilip “aşağıdakilerden hangisi bu yedi kişi arasında sayılmamıştır?” diye sorulabilir; çeldirici olarak “çok oruç tutan” veya “hacca giden” konur."
+  },
+  {
+   "akil": "Ehl-i sünnete göre diriliş hem bedenle hem ruhla olur. Filozoflar ruhanî dirilişi savundu; Gazzâlî bunu küfür saydı. İnsanlar mahşerde yalınayak, çıplak toplanır; yedi sınıf arşın gölgesindedir."
+  },
+  {
+   "b": "2. Sual, kitap ve hesap"
+  },
+  {
+   "merak": "Bir gün Hz. Peygamber ashabına sordu: “Müflis kimdir, bilir misiniz?” “Parası ve malı olmayandır” dediler. “Hayır, ümmetimin müflisi kıyamet günü namaz, oruç ve zekâtla gelir; ama şuna sövmüş, bunun malını yemiş, bunun kanını dökmüştür. Sevapları hak sahiplerine dağıtılır…”"
+  },
+  "Kur’an ve hadislerdeki tasvirler bir sıraya konduğunda ahiret safhalarının genel düzeni şöyle ortaya çıkar: diriliş (ba’s) → toplanma (haşr) → sorgu (sual) → amel defterlerinin dağıtılması (kitap) → hesap → amellerin tartılması (mîzân) → sırat → cennet ya da cehennem. Bazı âlimler mîzânı hesaptan önce, havzı sırattan önce sayar; bu ayrıntılarda kesinlik yoktur.",
+  "Sual (sorgu): Peygamberler tebliğ edip etmediklerinden, ümmetler ise tebliğe nasıl karşılık verdiklerinden sorulur: “Kendilerine peygamber gönderilenlere mutlaka soracağız; gönderilen peygamberlere de mutlaka soracağız” (A’râf, 7/6). Hadiste kulun ayağının şu dört şeyden sorulmadıkça yerinden kımıldamayacağı bildirilir: ömrünü nerede tükettiği, ilmiyle ne yaptığı, malını nereden kazanıp nereye harcadığı, bedenini nerede yıprattığı (Tirmizî, Sıfatü’l-kıyâme). Kul hakları arasında ilk hükme bağlanacak olan kan davalarıdır (Buhârî, Rikāk; Müslim, Kasâme); kulun Allah hakları arasında ilk hesaba çekileceği amel ise namazdır (Tirmizî, Salât; Ebû Dâvûd, Salât).",
+  "Kitap (amel defteri): İnsanın bütün söz ve davranışları “kirâmen kâtibîn” adı verilen değerli yazıcı melekler tarafından kaydedilir (İnfitâr, 82/10-12). Sağdaki ve soldaki iki melek her sözü yazar (Kāf, 50/17-18; “rakîb” ve “atîd” gözetleyen ve hazır bulunan demektir). Kıyamet günü bu defter açılır: “Oku kitabını! Bugün hesap sorucu olarak sana nefsin yeter” (İsrâ, 17/14).",
+  {
+   "tablo": [
+    [
+     "Kitabın veriliş şekli",
+     "Kimler",
+     "Ayet"
+    ],
+    [
+     "Sağdan",
+     "Ashâbü’l-yemîn (müminler); kolay hesap, sevinçle ailesine döner",
+     "Hâkka, 69/19-24; İnşikāk, 84/7-9"
+    ],
+    [
+     "Soldan",
+     "Ashâbü’ş-şimâl; “Keşke kitabım verilmeseydi” der",
+     "Hâkka, 69/25-29"
+    ],
+    [
+     "Arkasından",
+     "İnkârcılar; helak çağırır, alevli ateşe girer",
+     "İnşikāk, 84/10-12"
+    ]
+   ]
+  },
+  "Hesap: Allah, kulların amellerini onlara gösterip karşılığını belirler. Allah “hesabı çok çabuk görendir” (Bakara, 2/202). O gün yalnızca defterler değil, insanın kendi organları da şahitlik eder: “O gün ağızlarını mühürleriz; elleri bize konuşur, ayakları da kazandıklarına şahitlik eder” (Yâsîn, 36/65; ayrıca Nûr, 24/24; Fussilet, 41/20-22). Yer de üzerinde yapılanları haber verir (Zilzâl, 99/4-5), peygamberler ümmetlerine şahit olur (Nisâ, 4/41).",
+  {
+   "hadis": "Ümmetimden yetmiş bin kişi hesapsız olarak cennete girecektir. Onlar dağlama yaptırmayan, uğursuzluğa inanmayan ve yalnızca Rablerine tevekkül edenlerdir.",
+   "kay": "Buhârî, Rikāk; Müslim, Îmân"
+  },
+  "Müflis hadisi (Müslim, Birr) kul hakkının ahiretteki ağırlığını gösterir: Hak sahiplerinin alacakları, zalimin sevaplarından ödenir; sevapları bitince onların günahları zalime yüklenir. Ayrıca Buhârî’nin Mezâlim bölümünde geçen rivayete göre müminler cehennemden kurtulduktan sonra cennet ile cehennem arasındaki bir köprüde (kantara) bekletilir ve dünyada birbirlerine yaptıkları haksızlıkların kısası alınır; temizlendikten sonra cennete girerler.",
+  {
+   "sinav": "Tuzaklar: Kirâmen kâtibîn İnfitâr 10-12’dedir; “rakîb-atîd” Kāf 18’dedir. Kitap sağdan verilen kolay hesap görür (İnşikāk 8). Organların şahitliği Yâsîn 65, Nûr 24, Fussilet 20-22. Kul haklarında ilk kan davası, Allah haklarında ilk namaz hesaba çekilir. Müflis hadisi kul hakkı konusudur."
+  },
+  {
+   "akil": "Sıra: diriliş → toplanma → sorgu → kitap → hesap → mîzân → sırat. Amel defterini kirâmen kâtibîn yazar; sağdan alan kurtulur. Organlar şahitlik eder. Kul hakkı sevaplardan ödenir (müflis hadisi)."
+  },
+  {
+   "b": "3. Mîzân ve sırat"
+  },
+  {
+   "merak": "Hayatının her gününü günahla geçirmiş bir adamın doksan dokuz defter dolusu kötülüğü terazinin bir kefesine konur. Öbür kefeye küçük bir kart (bitâka) konur; üzerinde kelime-i şehadet yazılıdır. Hadis, kartın ağır bastığını anlatır."
+  },
+  "Mîzân sözlükte “tartı aleti, terazi” demektir. Terim olarak, kıyamet günü kulların amellerinin tartılıp iyiliklerinin ve kötülüklerinin miktarının ortaya konmasıdır. Mîzânın varlığı Kur’an’la sabittir: “Kıyamet günü için adalet terazileri kurarız. Artık hiç kimseye hiçbir şekilde haksızlık edilmez. Yapılan iş bir hardal tanesi ağırlığınca bile olsa onu getiririz” (Enbiyâ, 21/47). “Kimin tartıları ağır gelirse o hoşnut bir hayattadır; kimin tartıları hafif gelirse onun anası (barınağı) Hâviye’dir” (Kāria, 101/6-9; ayrıca A’râf, 7/8-9; Mü’minûn, 23/102-103).",
+  "Neyin tartılacağı konusunda üç görüş vardır: amel defterleri (Tirmizî, Îmân’daki bitâka hadisi buna dayanır), cisimleştirilmiş ameller, amel sahibinin kendisi. Mîzânın mahiyeti bizce bilinmez; Ehl-i sünnete göre hakiki bir tartıdır. Mu’tezile’den bazıları ise mîzânı mecazi olarak “mutlak adalet” şeklinde yorumlamıştır.",
+  {
+   "hadis": "İki kelime vardır ki dile hafif, mîzânda ağır, Rahmân’a sevimlidir: Sübhânallâhi ve bihamdihî, sübhânallâhi’l-azîm.",
+   "kay": "Buhârî, Tevhîd (kitabın son hadisi); Müslim, Zikir"
+  },
+  "Mîzânda en ağır gelecek amellerden biri güzel ahlaktır: “Kıyamet günü müminin mîzânında güzel ahlaktan daha ağır bir şey yoktur” (Tirmizî, Birr; Ebû Dâvûd, Edeb).",
+  "Sırat sözlükte “yol” demektir. Kur’an’da “sırât-ı müstakîm” (dosdoğru yol) olarak çok geçer; ancak cehennem üzerine kurulmuş köprü anlamında açıkça geçmez. Bu anlamdaki sırat hadislerle sabittir: Cehennemin üzerine bir köprü kurulur; müminler amelleri ölçüsünde göz açıp kapayıncaya kadar, şimşek gibi, rüzgâr gibi, hızlı at gibi geçer; kimi kurtulur, kimi yaralanarak kurtulur, kimi cehenneme düşer (Buhârî, Rikāk; Tevhîd; Müslim, Îmân). Ebû Saîd el-Hudrî’nin rivayetinde sıratın “kıldan ince, kılıçtan keskin” olduğu da geçer (Müslim, Îmân). Müfessirler “Sizden oraya uğramayacak hiç kimse yoktur” ayetini (Meryem, 19/71) sıratla ilişkilendirmiştir.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Sözlük anlamı",
+     "Terim anlamı",
+     "Dayanağı"
+    ],
+    [
+     "Mîzân",
+     "Terazi",
+     "Amellerin tartılması",
+     "Kur’an (Enbiyâ 47; Kāria 6-9) ve hadis"
+    ],
+    [
+     "Sırat",
+     "Yol",
+     "Cehennem üzerine kurulan köprü",
+     "Hadis (Kur’an’da bu anlamda açıkça yok; Meryem 71 işaret)"
+    ],
+    [
+     "Kantara",
+     "Köprü, kemer",
+     "Cennet-cehennem arasında kul haklarının kısas edildiği yer",
+     "Buhârî, Mezâlim"
+    ],
+    [
+     "Arasât (mahşer)",
+     "Geniş alan",
+     "Toplanma yeri",
+     "Kur’an ve hadis"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Kur’an’da cehennem üzerine kurulu köprü anlamıyla açıkça geçmeyip hadislerle sabit olan ahiret safhası hangisidir?” → sırat. Mîzân ise Kur’an’da açıkça geçer. Tuzak: Kāria 9’daki Hâviye bir cehennem adıdır; mîzânın değil, tartıları hafif gelenin varacağı yerin adıdır."
+  },
+  {
+   "akil": "Mîzân Kur’an’la sabittir; mahiyeti bilinmez, hakiki bir tartıdır. Güzel ahlak ve zikir ağır basar. Sırat hadislerle sabittir; cehennem üzerine kurulmuş köprüdür, herkes ameli ölçüsünde geçer."
+  },
+  {
+   "b": "4. Şefaat ve havz"
+  },
+  {
+   "merak": "Mahşerde insanlar sıkıntıdan bunalınca önce Hz. Âdem’e, sonra Hz. Nûh’a, Hz. İbrâhim’e, Hz. Mûsâ’ya, Hz. Îsâ’ya giderler. Her biri “Bu iş bana düşmez” der. Sonunda Hz. Muhammed’e gelirler; o da “Bu iş bana düşer” der ve secdeye kapanır."
+  },
+  "Şefaat sözlükte “bir şeyi başka bir şeye katıp çift yapmak” anlamındaki “şef’” kökünden gelir. Terim olarak, kıyamet günü Allah’ın izin verdiği peygamberlerin, meleklerin, âlimlerin, şehitlerin ve salih kulların, günahkâr müminlerin affı ya da müminlerin derecelerinin yükseltilmesi için Allah’a dua ve niyazda bulunmasıdır. Şefaat edene “şefî’ / şâfi’”, şefaate “şefâat” denir.",
+  "Kur’an’da şefaatle ilgili ayetler iki grupta toplanır. Birinci grup şefaati genel olarak reddeder: “Hiç kimsenin kimseye bir fayda veremeyeceği, kimseden şefaat kabul edilmeyeceği bir günden sakının” (Bakara, 2/48; ayrıca 2/123, 254). İkinci grup ise şefaati Allah’ın izni ve rızası şartına bağlar: “O’nun izni olmadan katında kim şefaat edebilir?” (Bakara, 2/255 – Âyetü’l-kürsî); “O gün, Rahmân’ın izin verdiği ve sözünden razı olduğu kimseden başkasının şefaati fayda vermez” (Tâhâ, 20/109; ayrıca Sebe’, 34/23; Necm, 53/26; Enbiyâ, 21/28). Ehl-i sünnete göre birinci grup ayetler kâfirlerle ve Allah’ın izni olmadan yapılan şefaatle ilgilidir: “Artık şefaatçilerin şefaati onlara fayda vermez” (Müddessir, 74/48).",
+  {
+   "hadis": "Şefaatim, ümmetimden büyük günah işleyenler içindir.",
+   "kay": "Ebû Dâvûd, Sünnet; Tirmizî, Sıfatü’l-kıyâme"
+  },
+  {
+   "tablo": [
+    [
+     "Şefaat türü",
+     "Açıklama"
+    ],
+    [
+     "Şefaat-i uzmâ (büyük şefaat)",
+     "Hz. Peygamber’in mahşerdeki bütün insanlar için hesabın başlaması amacıyla yapacağı şefaat. “Makâm-ı mahmûd” (İsrâ, 17/79) ile ilişkilendirilir; yalnızca ona mahsustur."
+    ],
+    [
+     "Hesapsız cennete girme şefaati",
+     "Bir topluluğun hesapsız cennete girmesi için."
+    ],
+    [
+     "Cehennemi hak etmiş günahkâr müminler için",
+     "Cehenneme girmemeleri için."
+    ],
+    [
+     "Cehenneme girmiş müminler için",
+     "Oradan çıkarılmaları için (Buhârî, Tevhîd)."
+    ],
+    [
+     "Derece yükseltme şefaati",
+     "Cennet ehlinin derecelerinin artması için."
+    ],
+    [
+     "Azabın hafifletilmesi",
+     "Ebû Tâlib’in azabının hafifletilmesi (Müslim, Îmân) bu bağlamda zikredilir."
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Mezhep",
+     "Şefaat görüşü"
+    ],
+    [
+     "Ehl-i sünnet",
+     "Büyük günah işleyen müminler dâhil olmak üzere Allah’ın izniyle şefaat haktır."
+    ],
+    [
+     "Mu’tezile",
+     "Tövbe etmeden ölen büyük günah sahibine şefaat yoktur (va’d ve vaîd ilkesi gereği); şefaat yalnızca müminlerin derecesini yükseltmek içindir."
+    ],
+    [
+     "Hâricîler",
+     "Büyük günah işleyen kâfir olduğundan ona şefaat yoktur."
+    ]
+   ]
+  },
+  "Havz, Hz. Peygamber’e kıyamet günü verilecek olan ve ümmetinin ondan su içeceği havuzdur. Hadislere göre suyu sütten beyaz, baldan tatlı, kokusu miskten güzeldir; bardakları gökteki yıldızlar sayısıncadır; ondan bir kez içen bir daha susamaz (Buhârî, Rikāk; Müslim, Fezâil). Havz ile Kevser’in ilişkisi şöyledir: Kevser suresindeki (108/1) “kevser” kelimesi “çok hayır” anlamına gelir; sahih rivayetlerde cennette Hz. Peygamber’e verilmiş bir nehir olarak açıklanır ve havzın suyunun bu nehirden aktığı bildirilir. Bu nedenle havza “Havz-ı Kevser” de denir. Hadislerde her peygamberin bir havzı olacağı da geçer (Tirmizî, Sıfatü’l-kıyâme).",
+  "Havz rivayetlerinin bir kısmında, bazı kimselerin havuzdan uzaklaştırılacağı ve Hz. Peygamber’e “Sen onların senden sonra neler ihdas ettiklerini bilmiyorsun” denileceği anlatılır (Buhârî, Rikāk). Ehl-i sünnet havzı kabul etmiş; Mu’tezile’den ve Hâricîlerden bir kısmı inkâr etmiştir.",
+  {
+   "sinav": "Sık sorulanlar: Şefaat-i uzmâ yalnızca Hz. Peygamber’e mahsustur ve makâm-ı mahmûd ile ilişkilidir (İsrâ 79). Şefaat izin şartına bağlıdır: Bakara 255, Tâhâ 109. Mu’tezile büyük günahkâra şefaati reddeder, şefaati derece artırmaya hasreder. Havz ile Kevser: Kevser cennette bir nehir, havzın suyu oradan akar."
+  },
+  {
+   "akil": "Şefaat Allah’ın izniyle olur ve haktır; büyük günah sahibi müminleri de kapsar (Ehl-i sünnet). Mu’tezile ve Hâricîler büyük günahkâra şefaati reddeder. Şefaat-i uzmâ Hz. Peygamber’e özgüdür. Havzdan içen bir daha susamaz."
+  },
+  {
+   "b": "5. A’râf ve ehl-i fetret"
+  },
+  {
+   "merak": "Cennet ile cehennem arasında yüksek bir sur var; üzerindeki insanlar bir yandan cennet ehline selam veriyor, bir yandan cehennem ehline bakıp “Rabbimiz, bizi zalimlerle beraber kılma” diye yalvarıyor. Kur’an bu insanlara bir surenin adını vermiştir."
+  },
+  "A’râf, “urf” kelimesinin çoğuludur; “yüksek yerler, tepeler” demektir. Terim olarak cennet ile cehennem arasındaki yüksek sur veya yerin adıdır. A’râf suresinin 46-49. ayetlerinde anlatılır: “İki taraf arasında bir perde vardır. A’râf üzerinde de herkesi simalarından tanıyan adamlar vardır. Onlar cennet ehline ‘Selam size’ diye seslenirler. Bunlar henüz cennete girmemiş ama girmeyi ümit edenlerdir” (A’râf, 7/46).",
+  {
+   "tablo": [
+    [
+     "Ashâbü’l-a’râf kimdir?",
+     "Açıklama"
+    ],
+    [
+     "İyilikleri ile kötülükleri eşit olanlar",
+     "Müfessirlerin çoğunluğunun görüşü; sonunda Allah’ın rahmetiyle cennete girerler."
+    ],
+    [
+     "Ehl-i fetret",
+     "İki peygamber arasındaki dönemde yaşayıp kendilerine tebliğ ulaşmamış kimseler."
+    ],
+    [
+     "Müşriklerin küçük yaşta ölen çocukları",
+     "Bazı âlimlerin görüşü."
+    ],
+    [
+     "Peygamberler, şehitler, âlimler ya da melekler",
+     "İnsanları simalarından tanıyan yüksek mertebeli kimseler olduğu görüşü."
+    ]
+   ]
+  },
+  "Ehl-i fetret meselesi kelamda önemli bir ihtilaf konusudur: Peygamber daveti ulaşmamış kimse Allah’a inanmakla yükümlü müdür? Mâtürîdîlere (özellikle Semerkant âlimlerine) göre akıl Allah’ın varlığını ve birliğini bilmeye yeterli olduğundan, akıl sahibi kişi peygamber gelmese de Allah’ı tanımakla yükümlüdür; şirk üzere ölen mazur değildir. Eş’arîlere göre ise sorumluluk ancak vahiyle başlar; tebliğ ulaşmamış kişi kurtuluş ehlidir. Eş’arîler “Biz bir peygamber göndermedikçe azap edici değiliz” ayetini (İsrâ, 17/15) delil getirir. Buhara Mâtürîdîleri bu konuda Eş’arîlere yakın bir görüş benimsemiştir.",
+  {
+   "sinav": "A’râf = cennet ile cehennem arasındaki yüksek yer (A’râf 46-49). Ashâbü’l-a’râf hakkındaki en yaygın görüş: iyilikleri ile kötülükleri eşit olanlar. Ehl-i fetret: Eş’arî → mazur (İsrâ 15); Semerkant Mâtürîdîleri → aklen Allah’ı tanımakla yükümlü."
+  },
+  {
+   "akil": "A’râf, cennet ile cehennem arasındaki yüksek yerdir; orada bekleyenlerin çoğunluk görüşüne göre iyilikleri ile kötülükleri eşittir ve sonunda cennete girerler. Ehl-i fetretin sorumluluğu Eş’arî-Mâtürîdî farklarındandır."
+  },
+  {
+   "b": "6. Cennet ve cehennem"
+  },
+  {
+   "merak": "Hz. Peygamber Mi’rac’da Sidretü’l-müntehâ’nın yanında “Cennetü’l-me’vâ”yı gördüğünü anlattı. Bu haber, kelamcılar arasında ilginç bir tartışmanın kapısını açtı: Cennet şu anda var mı, yoksa kıyamette mi yaratılacak?"
+  },
+  "Cennet, “örtmek, gizlemek” anlamındaki “cenn” kökünden türemiştir; sözlükte ağaçlarıyla toprağı örten bahçe demektir. Terim olarak iman edip salih amel işleyenlere ahirette mükâfat olarak hazırlanmış, ebedî nimet ve mutluluk yurdudur. Çoğulu “cinân” ve “cennât”tır; Kur’an’da “cennât” şekli sıkça geçer. Cehennem ise inkârcıların ebedî olarak kalacağı, günahkâr müminlerin ise günahları ölçüsünde cezalandırıldıktan sonra çıkacağı azap yurdudur. Cennetteki hayat da cehennemdeki hayat da hem bedenen hem ruhen olacaktır.",
+  {
+   "tablo": [
+    [
+     "Cennetin isimleri",
+     "Ayet (örnek)"
+    ],
+    [
+     "Cennetü’l-firdevs (en yüksek cennet)",
+     "Kehf, 18/107; Mü’minûn, 23/11"
+    ],
+    [
+     "Cennetü’l-adn (ikamet cenneti)",
+     "Tevbe, 9/72; Ra’d, 13/23"
+    ],
+    [
+     "Cennetü’l-me’vâ (barınak cenneti)",
+     "Necm, 53/15; Secde, 32/19"
+    ],
+    [
+     "Cennetü’n-naîm (nimet cenneti)",
+     "Lokmân, 31/8; Vâkıa, 56/12"
+    ],
+    [
+     "Dârü’s-selâm (esenlik yurdu)",
+     "Yûnus, 10/25; En’âm, 6/127"
+    ],
+    [
+     "Dârü’l-mukāme (kalıcı yurt)",
+     "Fâtır, 35/35"
+    ],
+    [
+     "Cennetü’l-huld (ebedîlik cenneti)",
+     "Furkān, 25/15"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Cehennemin isimleri",
+     "Ayet (örnek)"
+    ],
+    [
+     "Cehennem",
+     "Pek çok ayette"
+    ],
+    [
+     "Lezâ (alevli ateş)",
+     "Meâric, 70/15"
+    ],
+    [
+     "Hutame (paramparça eden)",
+     "Hümeze, 104/4-5"
+    ],
+    [
+     "Saîr (çılgın alev)",
+     "Mülk, 67/10"
+    ],
+    [
+     "Sakar (yakıp kavuran)",
+     "Müddessir, 74/26-27"
+    ],
+    [
+     "Cahîm (alevli ateş)",
+     "Bakara, 2/119"
+    ],
+    [
+     "Hâviye (derin uçurum)",
+     "Kāria, 101/9"
+    ],
+    [
+     "ed-Derkü’l-esfel (en alt tabaka)",
+     "Nisâ, 4/145: münafıklar ateşin en alt tabakasındadır"
+    ]
+   ]
+  },
+  "Cennetin bekçisi Rıdvân, cehennemin bekçisi Mâlik’tir (Zuhruf, 43/77). Cehennemin başında on dokuz melek vardır (Müddessir, 74/30) ve görevli meleklere “zebânî” denir (Alak, 96/18). Cehennem ehlinin yiyeceği zakkum (Sâffât, 37/62-66; Duhân, 44/43-46), darî’ (Gāşiye, 88/6), gıslîn (Hâkka, 69/36); içeceği ise kaynar su (hamîm) ve irindir.",
+  "Cennetin nimetleri hem maddi hem manevidir: altlarından ırmaklar akan bahçeler, köşkler, temiz eşler, ölümsüzlük. Ancak en büyük nimet Allah’ın rızasıdır: “Allah’tan bir rıza ise hepsinden büyüktür” (Tevbe, 9/72). Hz. Peygamber cennet nimetleri için şu kudsî hadisi aktarmıştır: “Salih kullarım için hiçbir gözün görmediği, hiçbir kulağın işitmediği, hiçbir insanın hatırına gelmeyen şeyler hazırladım” (Buhârî, Bed’ü’l-halk; Müslim, Cennet; krş. Secde, 32/17).",
+  {
+   "tablo": [
+    [
+     "Mesele",
+     "Ehl-i sünnet",
+     "Karşı görüş"
+    ],
+    [
+     "Cennet ve cehennem şu an yaratılmış mı?",
+     "Evet; ikisi de yaratılmış ve mevcuttur (Âl-i İmrân 133’te “hazırlanmıştır”; Mi’rac’da Cennetü’l-me’vâ’nın görülmesi).",
+     "Mu’tezile’nin bir kısmı (Ebû Hâşim, Kādî Abdülcebbâr gibi): Henüz yaratılmamıştır, kıyamette yaratılacaktır; şimdi yaratılmaları boşuna olur."
+    ],
+    [
+     "Ebedî midir?",
+     "Evet; ikisi de ve ehlinin kalışı ebedîdir.",
+     "Cehm b. Safvân: İkisi de sonunda yok olacaktır (Kasas 88’e dayanarak). Cehennem azabının sonunda biteceği görüşü (fenâü’n-nâr) İbn Teymiyye ve İbn Kayyim’e nispet edilir."
+    ],
+    [
+     "Günahkâr mümin cehennemde ebedî kalır mı?",
+     "Hayır; cezasını çektikten sonra çıkar. “Kalbinde zerre kadar iman bulunan cehennemden çıkar” (Buhârî, Îmân).",
+     "Mu’tezile ve Hâricîler: Tövbesiz ölen büyük günah sahibi ebedî cehennemde kalır (Mu’tezile’ye göre azabı kâfirinkinden hafiftir)."
+    ]
+   ]
+  },
+  {
+   "ayet": "Rabbinizin mağfiretine ve genişliği göklerle yer kadar olan, takva sahipleri için hazırlanmış cennete koşun.",
+   "kay": "Âl-i İmrân, 3/133"
+  },
+  {
+   "sinav": "Cehennemin en alt tabakası münafıkların yeridir (Nisâ 145). Cehennem bekçisi Mâlik (Zuhruf 77), on dokuz melek Müddessir 30’dadır. Firdevs en yüksek cennettir. Cennetin şu an mevcut olmadığını söyleyenler Mu’tezile’nin bir kısmıdır; cennet ve cehennemin fani olduğunu söyleyen Cehm b. Safvân’dır. En büyük nimet: Allah’ın rızası (Tevbe 72) ve rü’yet."
+  },
+  {
+   "akil": "Cennet ve cehennem yaratılmış ve mevcuttur, ebedîdir (Ehl-i sünnet). Günahkâr mümin ebedî kalmaz. Firdevs en yüksek cennet; münafıklar cehennemin en alt tabakasındadır. Cehm b. Safvân ikisinin de fani olduğunu söyledi."
+  },
+  {
+   "b": "7. Rü’yetullah: Allah’ın ahirette görülmesi"
+  },
+  {
+   "merak": "Hz. Mûsâ Tûr’da Rabbine “Bana kendini göster, sana bakayım” dedi. Cevap “Beni asla göremezsin (len terânî); fakat dağa bak…” oldu. Bu ayet, rü’yeti savunanlar da reddedenler de tarafından delil gösterilen nadir ayetlerden biridir."
+  },
+  "Rü’yetullah, müminlerin ahirette Allah’ı görmesidir. Ehl-i sünnete (Eş’arî, Mâtürîdî ve Selef) göre müminler cennette Allah’ı keyfiyetsiz (bilâ keyf), yön ve mekân söz konusu olmaksızın, kuşatmaksızın görecektir. Bu, cennetin en büyük nimetidir. Mu’tezile, Cehmiyye, Hâricîler ve Şîa (İmâmiyye ve Zeydiyye) ise rü’yeti imkânsız sayar; çünkü onlara göre görme, görülen şeyin bir yönde, mekânda ve cisim olmasını gerektirir; Allah ise bunlardan münezzehtir.",
+  {
+   "ayet": "Yüzler vardır o gün ışıl ışıl parlar; Rablerine bakarlar.",
+   "kay": "Kıyâme, 75/22-23"
+  },
+  {
+   "tablo": [
+    [
+     "Ehl-i sünnetin delilleri",
+     "Açıklama"
+    ],
+    [
+     "Kıyâme, 75/22-23",
+     "“Rablerine bakarlar” (ilâ rabbihâ nâzıra): “nazar” ile “ilâ” birlikte kullanıldığında gözle bakmak anlamı taşır."
+    ],
+    [
+     "Yûnus, 10/26",
+     "Güzel davrananlara daha güzeli ve “ziyade” vardır; Müslim’deki rivayette ziyade, Allah’ın cemalini görmekle açıklanır (Müslim, Îmân)."
+    ],
+    [
+     "Mutaffifîn, 83/15",
+     "İnkârcıların o gün Rablerinden perdelenecekleri bildirilir; mefhumundan müminlerin perdelenmeyeceği anlaşılır."
+    ],
+    [
+     "A’râf, 7/143",
+     "Hz. Mûsâ’nın görmeyi istemesi, görmenin imkânsız olmadığını gösterir; bir peygamber imkânsızı istemez. Görmenin dağın sabit kalmasına bağlanması da mümkün bir şarta bağlanmasıdır."
+    ],
+    [
+     "Hadis",
+     "“Siz bu ayı (dolunayı) gördüğünüz gibi Rabbinizi göreceksiniz; onu görmekte izdihama uğramayacaksınız” (Buhârî, Mevâkît; Müslim, Mesâcid)."
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Karşı görüşün delili",
+     "Ehl-i sünnetin cevabı"
+    ],
+    [
+     "“Gözler O’nu idrak edemez, O ise gözleri idrak eder” (En’âm, 6/103)",
+     "İdrak, kuşatarak görmek (ihata) demektir. Ayet görmeyi değil, kuşatmayı nefyeder; ayrıca dünyaya aittir."
+    ],
+    [
+     "“Len terânî” (Beni asla göremezsin) (A’râf, 7/143)",
+     "“Len” edatı dünyadaki görmeyi nefyeder; ahirette görmeyi engellemez. Mu’tezile bunu ebedî nefiy (len-i te’bîd) sayar."
+    ],
+    [
+     "Görme yön, mekân, cisim ve karşılıklılık gerektirir",
+     "Bu, dünyadaki görmenin şartıdır; ahirette Allah bunlar olmadan görme yaratabilir."
+    ]
+   ]
+  },
+  "Eş’arî ile Mâtürîdî arasında delillendirme farkı vardır: Eş’arî rü’yetin aklen de mümkün olduğunu “Var olan her şeyin görülmesi caizdir” ilkesiyle savunmuştur. Mâtürîdî ise rü’yetin aklen mümkün olduğunu kabul etmekle birlikte esas olarak nakille sabit olduğunu vurgular ve keyfiyetinin bilinemeyeceğini öne çıkarır.",
+  "Dünyada Allah’ın gözle görülmesi ise mümkün değildir. Hz. Peygamber’in Mi’rac’da Allah’ı görüp görmediği sahabe döneminden beri tartışılmıştır: Hz. Âişe görmediğini söylemiş ve En’âm 103’ü delil getirmiştir (Buhârî, Tefsir; Müslim, Îmân); İbn Abbâs’tan ise “kalbiyle gördü” şeklinde rivayet gelmiştir (Müslim, Îmân). Allah’ın rüyada görülmesi ise birçok âlime göre mümkündür; ancak bu gerçek bir görme değil, misâlî bir görmedir.",
+  {
+   "sinav": "Rü’yet sorularında iki kilit nokta: (1) Rü’yeti kabul eden: Ehl-i sünnet (Eş’arî, Mâtürîdî, Selef); reddeden: Mu’tezile, Şîa, Hâricîler, Cehmiyye. (2) Ehl-i sünnetin temel ayeti Kıyâme 22-23; karşı tarafın temel ayeti En’âm 103. Yûnus 26’daki “ziyade” Müslim’de rü’yetle açıklanır. A’râf 143 her iki tarafça delil gösterilir. Mi’rac’da rü’yeti reddeden: Hz. Âişe."
+  },
+  {
+   "akil": "Müminler Allah’ı ahirette keyfiyetsiz göreceklerdir; bu, cennetin en büyük nimetidir. Delil: Kıyâme 22-23, Yûnus 26, dolunay hadisi. Mu’tezile ve Şîa En’âm 103’e dayanarak reddeder; Ehl-i sünnet “idrak = kuşatma” diye cevap verir."
+  }
+ ],
+ "ozet": [
+  "Ba’s = Allah’ın ölüleri ikinci sûrla diriltmesi; haşr = mahşerde toplanma; mahşer/arasât = toplanma yeri.",
+  "Ehl-i sünnete göre diriliş cismanî ve ruhanîdir; Fârâbî ve İbn Sînâ ruhanî dirilişi savundu, Gazzâlî cismanî haşri inkârı küfür saydı.",
+  "Kıyâme 3-4: parmak uçlarının yeniden düzenlenmesi; acbü’z-zeneb (kuyruk sokumu) çürümez, yaratılış ondan başlar.",
+  "Arş gölgesindeki yedi sınıf: adil yönetici, ibadetle yetişen genç, kalbi mescide bağlı, Allah için sevişen iki kişi, davete uymayan iffetli kişi, gizli sadaka veren, tenhada ağlayan (Buhârî, Ezân).",
+  "Sorulacak dört şey: ömür, ilim, mal (nereden-nereye), beden (Tirmizî). Kul haklarında ilk kan, Allah haklarında ilk namaz hesaba çekilir.",
+  "Kirâmen kâtibîn: İnfitâr 10-12; rakîb-atîd: Kāf 18. Kitap sağdan verilen kolay hesap görür (İnşikāk 7-9); soldan ve arkadan verilen helak olur.",
+  "Organların şahitliği: Yâsîn 65, Nûr 24, Fussilet 20-22. Müflis hadisi kul hakkının sevaplardan ödenmesini anlatır (Müslim, Birr).",
+  "Mîzân Kur’an’la sabittir (Enbiyâ 47; Kāria 6-9; A’râf 8-9); bitâka hadisi amel defterlerinin tartılacağı görüşüne dayanaktır.",
+  "Sırat Kur’an’da köprü anlamında açıkça geçmez, hadislerle sabittir; Meryem 71 işaret eder. Kantara: kul haklarının kısas edildiği köprü (Buhârî, Mezâlim).",
+  "Şefaat izin şartına bağlıdır (Bakara 255; Tâhâ 109). “Şefaatim ümmetimden büyük günah işleyenler içindir” (Ebû Dâvûd; Tirmizî).",
+  "Şefaat-i uzmâ Hz. Peygamber’e mahsustur, makâm-ı mahmûd (İsrâ 79) ile ilişkilidir. Mu’tezile ve Hâricîler büyük günahkâra şefaati reddeder.",
+  "Havz: suyu sütten beyaz, baldan tatlı; içen bir daha susamaz. Kevser cennette bir nehirdir, havzın suyu ondan akar.",
+  "A’râf: cennet ile cehennem arasındaki yüksek yer (A’râf 46-49); ehli çoğunluğa göre iyilikleri ile kötülükleri eşit olanlardır.",
+  "Ehl-i fetret: Eş’arîlere göre mazur (İsrâ 15); Semerkant Mâtürîdîlerine göre akılla Allah’ı tanımakla yükümlü.",
+  "Cennet ve cehennem şu an mevcut ve ebedîdir; Mu’tezile’nin bir kısmı henüz yaratılmadıklarını, Cehm b. Safvân fani olduklarını söyledi.",
+  "Firdevs en yüksek cennet; münafıklar ed-derkü’l-esfeldedir (Nisâ 145). Cehennem bekçisi Mâlik (Zuhruf 77), on dokuz melek (Müddessir 30).",
+  "Rü’yetullah: Ehl-i sünnet kabul (Kıyâme 22-23; Yûnus 26; dolunay hadisi); Mu’tezile, Şîa, Hâricîler, Cehmiyye red (En’âm 103).",
+  "En’âm 103’teki idrak = kuşatma (ihata); “len terânî” dünyadaki görmeyi nefyeder. Mi’rac’da rü’yeti Hz. Âişe reddetti, İbn Abbâs kalp ile gördü dedi."
+ ],
+ "kartlar": [
+  {
+   "o": "Ba’s – Haşr",
+   "a": "Ba’s: ölülerin diriltilmesi (ikinci sûr). Haşr: diriltilenlerin mahşerde toplanması."
+  },
+  {
+   "o": "Meâd-ı ruhânî",
+   "a": "Yalnızca ruhun dirileceği görüşü; Fârâbî ve İbn Sînâ. Gazzâlî’nin tekfir sebeplerinden."
+  },
+  {
+   "o": "Acbü’z-zeneb",
+   "a": "Kuyruk sokumu kemiği; hadise göre çürümez, yeniden yaratılış ondan başlar (Buhârî, Tefsir; Müslim, Fiten)."
+  },
+  {
+   "o": "Kirâmen kâtibîn",
+   "a": "Amelleri yazan değerli melekler (İnfitâr 10-12). Rakîb ve atîd: Kāf 18."
+  },
+  {
+   "o": "Bitâka hadisi",
+   "a": "Doksan dokuz defter günaha karşı kelime-i şehadet yazılı kartın ağır basması (Tirmizî, Îmân)."
+  },
+  {
+   "o": "Mîzânda en ağır ameller",
+   "a": "Güzel ahlak (Tirmizî; Ebû Dâvûd) ve “Sübhânallâhi ve bihamdihî, sübhânallâhi’l-azîm” (Buhârî, Tevhîd’in son hadisi)."
+  },
+  {
+   "o": "Sırat",
+   "a": "Cehennem üzerine kurulu köprü; hadislerle sabittir. Kur’an’da bu anlamda açıkça geçmez; Meryem 71 işaret kabul edilir."
+  },
+  {
+   "o": "Kantara",
+   "a": "Cehennemden kurtulan müminlerin kul haklarının kısas edildiği, cennet-cehennem arasındaki köprü (Buhârî, Mezâlim)."
+  },
+  {
+   "o": "Şefaat-i uzmâ",
+   "a": "Hz. Peygamber’in mahşerdeki bütün insanlar için hesabın başlaması amacıyla yapacağı şefaat; makâm-ı mahmûd (İsrâ 79)."
+  },
+  {
+   "o": "Mu’tezile’nin şefaat anlayışı",
+   "a": "Tövbesiz ölen büyük günahkâra şefaat yoktur; şefaat sadece müminlerin derecesini yükseltir."
+  },
+  {
+   "o": "Havz – Kevser",
+   "a": "Havz: mahşerde Hz. Peygamber’in havuzu. Kevser: cennette bir nehir (Kevser 108/1); havzın suyu ondan akar."
+  },
+  {
+   "o": "Ashâbü’l-a’râf",
+   "a": "Çoğunluğa göre iyilikleri ile kötülükleri eşit olanlar (A’râf 46-49)."
+  },
+  {
+   "o": "Ed-derkü’l-esfel",
+   "a": "Cehennemin en alt tabakası; münafıkların yeri (Nisâ 145)."
+  },
+  {
+   "o": "Cennet-cehennemin fâni olduğunu söyleyen",
+   "a": "Cehm b. Safvân (Kasas 88’e dayanarak)."
+  },
+  {
+   "o": "Cennetin henüz yaratılmadığını söyleyenler",
+   "a": "Mu’tezile’nin bir kısmı (Ebû Hâşim, Kādî Abdülcebbâr)."
+  },
+  {
+   "o": "Rü’yetullah – Ehl-i sünnet delilleri",
+   "a": "Kıyâme 22-23; Yûnus 26 (ziyade); Mutaffifîn 15 (mefhum); A’râf 143; dolunay hadisi."
+  },
+  {
+   "o": "Rü’yeti reddedenlerin ayeti ve cevabı",
+   "a": "En’âm 103 “Gözler O’nu idrak edemez.” Cevap: idrak = kuşatma (ihata), görme değil."
+  },
+  {
+   "o": "Karıştırma: Lezâ – Hutame – Sakar – Hâviye",
+   "a": "Meâric 15 – Hümeze 4 – Müddessir 26 – Kāria 9; hepsi cehennem adıdır."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "kl8-01",
+   "z": 3,
+   "s": "Bir felsefe öğrencisi şunları savunmaktadır: “Ölümle beden çürüyüp gider; ölümsüz olan ise nefistir. Ahiretteki mutluluk ve acı, nefsin dünyada edindiği bilgi ve erdemlere göre yaşanır. Kur’an’daki bedensel tasvirler, halkın anlayabileceği temsillerdir.”\n\nBu görüşle ilgili aşağıdakilerden hangisi söylenebilir?",
+   "c": [
+    "Ehl-i sünnet kelamcılarının cismanî ve ruhanî diriliş görüşünü yansıtır.",
+    "Mu’tezile’nin va’d ve vaîd ilkesinden doğmuştur.",
+    "Câsiye suresinde sözü edilen dehrîlerin dirilişi tamamen inkâr eden görüşüdür.",
+    "Fârâbî ve İbn Sînâ gibi Meşşâî filozofların meâd-ı ruhânî görüşüdür ve Gazzâlî tarafından tekfir sebebi sayılmıştır.",
+    "İbn Rüşd’ün Tehâfütü’t-tehâfüt’te ilk defa ileri sürdüğü bir görüştür."
+   ],
+   "d": 3,
+   "a": "Yalnızca ruhun ahiret hayatını yaşayacağı, bedensel tasvirlerin temsil olduğu görüşü Meşşâî filozofların (Fârâbî, İbn Sînâ) meâd-ı ruhânî anlayışıdır. Gazzâlî cismanî haşrin inkârını küfür gerektiren üç meseleden biri saymıştır.",
+   "ac": [
+    "Ehl-i sünnet bedenle birlikte dirilişi savunur; metin bedeni dışlar.",
+    "Va’d ve vaîd büyük günah sahibinin cezasıyla ilgili bir Mu’tezile ilkesidir.",
+    "Dehrîler ahiretin kendisini reddeder; metinde ise nefsin ahiret hayatı kabul edilmektedir.",
+    "Doğru: Meâd-ı ruhânî görüşüdür.",
+    "Görüş İbn Rüşd’den önce Fârâbî ve İbn Sînâ’da vardır; İbn Rüşd’ün kitabı Gazzâlî’ye cevaptır."
+   ],
+   "kay": "Gazzâlî, Tehâfütü’l-felâsife; Konu: Ba’s"
+  },
+  {
+   "id": "kl8-02",
+   "z": 2,
+   "s": "Aşağıdaki ayet–konu eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "İnfitâr, 82/10-12 – Amelleri yazan değerli melekler",
+    "Yâsîn, 36/65 – Organların şahitlik etmesi",
+    "Enbiyâ, 21/47 – Adalet terazilerinin kurulması",
+    "Kıyâme, 75/22-23 – Müminlerin Rablerine bakmaları",
+    "Nisâ, 4/145 – Cennetin en yüksek mertebesi olan Firdevs"
+   ],
+   "d": 4,
+   "a": "Nisâ 145, münafıkların cehennemin en alt tabakasında (ed-derkü’l-esfel) olduğunu bildirir. Firdevs Kehf 107 ve Mü’minûn 11’de geçer.",
+   "ac": [
+    "Doğru eşleştirme: kirâmen kâtibîn.",
+    "Doğru eşleştirme: ağızların mühürlenip organların konuşması.",
+    "Doğru eşleştirme: mevâzîne’l-kıst.",
+    "Doğru eşleştirme: rü’yetullahın temel delili.",
+    "Yanlış eşleştirme: Nisâ 145 cehennemin en alt tabakasıyla ilgilidir."
+   ],
+   "kay": "Nisâ, 4/145; Kehf, 18/107"
+  },
+  {
+   "id": "kl8-03",
+   "z": 3,
+   "s": "Mezheplerin şefaat konusundaki görüşleriyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+   "c": [
+    "Ehl-i sünnete göre şefaat, Allah’ın izniyle büyük günah işleyen müminleri de kapsar.",
+    "Mu’tezile’ye göre şefaat, müminlerin derecelerinin yükseltilmesi için söz konusudur.",
+    "Hâricîler büyük günah işleyeni kâfir saydıkları için ona şefaati kabul etmez.",
+    "Ehl-i sünnet, şefaati reddeden ayetleri kâfirler ve izinsiz şefaatle ilgili kabul eder.",
+    "Şefaat-i uzmâ, bütün peygamberlerin kendi ümmetleri için yapacakları şefaatin genel adıdır."
+   ],
+   "d": 4,
+   "a": "Şefaat-i uzmâ yalnızca Hz. Peygamber’e mahsustur; mahşerdeki bütün insanlar için hesabın başlaması amacıyla yapılır ve makâm-ı mahmûd ile ilişkilendirilir.",
+   "ac": [
+    "Doğru: “Şefaatim ümmetimden büyük günah işleyenler içindir.”",
+    "Doğru: Va’d ve vaîd ilkesi gereği Mu’tezile şefaati derece yükseltmeye hasreder.",
+    "Doğru bilgidir.",
+    "Doğru: Bakara 48 gibi ayetler Müddessir 48 ışığında kâfirlerle ilgili anlaşılır.",
+    "Yanlış: Şefaat-i uzmâ Hz. Peygamber’e mahsustur."
+   ],
+   "kay": "İsrâ, 17/79; Buhârî, Tevhîd"
+  },
+  {
+   "id": "kl8-04",
+   "z": 2,
+   "s": "Kur’an’da cehennem üzerine kurulmuş köprü anlamıyla açıkça geçmeyen, varlığı sahih hadislerle bildirilen ve müfessirlerin “Sizden oraya uğramayacak hiç kimse yoktur” ayetiyle ilişkilendirdiği ahiret safhası aşağıdakilerden hangisidir?",
+   "c": [
+    "Mîzân",
+    "A’râf",
+    "Havz",
+    "Sırat",
+    "Haşr"
+   ],
+   "d": 3,
+   "a": "Sırat sözlükte yol demektir; cehennem üzerine kurulan köprü anlamı hadislerle sabittir. Meryem 71 buna işaret olarak yorumlanır.",
+   "ac": [
+    "Mîzân Kur’an’da açıkça geçer (Enbiyâ 47; Kāria 6-9).",
+    "A’râf, A’râf suresinde açıkça anlatılır.",
+    "Havz hadislerle sabittir, ancak bir köprü değil havuzdur.",
+    "Doğru: Sırat.",
+    "Haşr Kur’an’da açıkça geçer."
+   ],
+   "kay": "Meryem, 19/71; Müslim, Îmân"
+  },
+  {
+   "id": "kl8-05",
+   "z": 3,
+   "s": "Rü’yetullah tartışmasıyla ilgili olarak aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Ehl-i sünnet, En’âm 103’teki “idrak” kelimesini kuşatarak görme anlamında yorumlamış ve ayetin görmeyi değil ihatayı nefyettiğini söylemiştir.",
+    "Mu’tezile, “len terânî” ifadesini yalnızca dünyadaki görmenin nefyi olarak anlamıştır.",
+    "İmâmiyye Şîası, Ehl-i sünnet gibi müminlerin Allah’ı ahirette göreceğini kabul eder.",
+    "Yûnus 26’daki “ziyade” kelimesinin rü’yetle açıklanması Mu’tezile’nin delilidir.",
+    "Hz. Âişe, Hz. Peygamber’in Mi’rac’da Allah’ı gözüyle gördüğünü savunmuştur."
+   ],
+   "d": 0,
+   "a": "Ehl-i sünnete göre En’âm 103’teki idrak, bir şeyi bütün sınırlarıyla kuşatmaktır; Allah’ın görülmesi O’nun kuşatılması anlamına gelmez.",
+   "ac": [
+    "Doğru: İdrak = ihata yorumu.",
+    "Bu yorum Ehl-i sünnete aittir; Mu’tezile “len” edatını ebedî nefiy sayar.",
+    "Şîa (İmâmiyye ve Zeydiyye) rü’yeti reddeder.",
+    "Ziyade’nin rü’yetle açıklanması Müslim’deki rivayete dayanan Ehl-i sünnet delilidir.",
+    "Hz. Âişe Mi’rac’da görmeyi reddetmiş ve En’âm 103’ü delil göstermiştir."
+   ],
+   "kay": "En’âm, 6/103; A’râf, 7/143; Kıyâme, 75/22-23"
+  },
+  {
+   "id": "kl8-06",
+   "z": 3,
+   "s": "Cennet ve cehennemle ilgili şu görüşler verilmiştir:\n\nI. Cennet ve cehennem şu anda yaratılmış ve mevcuttur.\nII. Cennet ve cehennem sonunda yok olacaktır.\nIII. Cennet ve cehennem henüz yaratılmamıştır; kıyamette yaratılacaktır.\n\nBu görüşlerin sahipleri sırasıyla aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Ehl-i sünnet – Cehm b. Safvân – Mu’tezile’nin bir kısmı",
+    "Mu’tezile’nin bir kısmı – Ehl-i sünnet – Cehm b. Safvân",
+    "Ehl-i sünnet – Mu’tezile’nin bir kısmı – Cehm b. Safvân",
+    "Cehm b. Safvân – Ehl-i sünnet – Mu’tezile’nin bir kısmı",
+    "Hâricîler – Mürcie – Ehl-i sünnet"
+   ],
+   "d": 0,
+   "a": "Ehl-i sünnet cennet ve cehennemin yaratılmış ve ebedî olduğunu kabul eder. Cehm b. Safvân ikisinin de fani olduğunu, Ebû Hâşim ve Kādî Abdülcebbâr gibi bazı Mu’tezilîler ise henüz yaratılmadıklarını savunmuştur.",
+   "ac": [
+    "Doğru sıralama.",
+    "Birinci ve ikinci görüşlerin sahipleri yer değiştirmiştir.",
+    "İkinci ve üçüncü görüşlerin sahipleri yer değiştirmiştir.",
+    "Cehm b. Safvân cennet ve cehennemin fani olduğunu söylemiştir; birinci görüş onun değildir.",
+    "Bu fırkalar söz konusu görüşlerle tanınmaz; üçüncü görüş Ehl-i sünnete ait değildir."
+   ],
+   "kay": "Âl-i İmrân, 3/133; Kasas, 28/88"
+  },
+  {
+   "id": "kl8-07",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi, hiçbir gölgenin bulunmadığı günde arşın gölgesinde gölgelendirileceği bildirilen yedi kişi arasında sayılmamıştır?",
+   "c": [
+    "Adil devlet başkanı",
+    "Rabbine ibadet ederek yetişen genç",
+    "Her yıl nafile hac ve umre yapan",
+    "Sağ elinin verdiğini sol eli bilmeyecek şekilde sadaka veren",
+    "Tenhada Allah’ı anıp gözyaşı döken"
+   ],
+   "d": 2,
+   "a": "Yedi sınıf: adil devlet başkanı, ibadetle yetişen genç, kalbi mescitlere bağlı kişi, Allah için sevişen iki kişi, makam ve güzellik sahibi kadının davetini reddeden, gizli sadaka veren, tenhada ağlayarak Allah’ı anan kişi.",
+   "ac": [
+    "Yedi sınıftan biridir.",
+    "Yedi sınıftan biridir.",
+    "Doğru: Bu hadiste sayılmamıştır.",
+    "Yedi sınıftan biridir.",
+    "Yedi sınıftan biridir."
+   ],
+   "kay": "Buhârî, Ezân; Müslim, Zekât"
+  },
+  {
+   "id": "kl8-08",
+   "z": 3,
+   "s": "Bir cami imamı vaazında şunları söylemiştir: “Kardeşlerim, kıyamet günü bir adam dağlar kadar namaz, oruç ve zekâtla gelecek. Ama şuna sövmüş, bunun malını yemiş, şunun kanını dökmüş olacak. Onun iyilikleri hak sahiplerine verilecek; iyilikleri biterse onların günahları ona yüklenecek ve ateşe atılacak.”\n\nİmamın aktardığı hadisin asıl vurgusu ve bu hadiste kullanılan kavram aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Kul hakkının ahirette sevaplardan ödenmesi – Müflis",
+    "Şefaatin şartları – Makâm-ı mahmûd",
+    "Kabir azabının sebepleri – Nemîme",
+    "Amellerin tartılma şekli – Bitâka",
+    "Hesapsız cennete girenler – Tevekkül"
+   ],
+   "d": 0,
+   "a": "Müslim’in Birr bölümünde geçen müflis hadisi, kul haklarının ahirette sevaplardan ödeneceğini, sevaplar bitince hak sahiplerinin günahlarının zalime yükleneceğini anlatır.",
+   "ac": [
+    "Doğru: Müflis hadisi ve kul hakkı.",
+    "Makâm-ı mahmûd şefaat-i uzmâ ile ilgilidir.",
+    "Nemîme (laf taşıma) kabir azabı hadisinde geçer; bu metnin konusu değildir.",
+    "Bitâka hadisi kelime-i şehadetin mîzânda ağır basmasıyla ilgilidir.",
+    "Tevekkül, hesapsız cennete girecek yetmiş bin kişinin vasfıdır."
+   ],
+   "kay": "Müslim, Birr"
+  },
+  {
+   "id": "kl8-09",
+   "z": 2,
+   "s": "Amel defterinin veriliş şekilleriyle ilgili aşağıdaki bilgilerden hangisi yanlıştır?",
+   "c": [
+    "Kitabı sağından verilen kolay bir hesapla hesaba çekilir.",
+    "Kitabı sağından verilen sevinçle ailesine döner.",
+    "Kitabı solundan verilen “Keşke kitabım bana verilmeseydi” der.",
+    "Kitabı arkasından verilenler, iyilikleri ile kötülükleri eşit olup A’râf’ta bekleyenlerdir.",
+    "Kitabı arkasından verilen helak çağırır ve alevli ateşe girer."
+   ],
+   "d": 3,
+   "a": "İnşikāk 10-12’ye göre kitabı arkasından verilenler helak çağırıp alevli ateşe girer. A’râf ehli ise A’râf suresinde ayrıca anlatılır ve bu grupla ilgisi yoktur.",
+   "ac": [
+    "Doğru: İnşikāk 8.",
+    "Doğru: İnşikāk 9.",
+    "Doğru: Hâkka 25.",
+    "Yanlış: A’râf ehli ile kitabı arkadan verilenler farklı gruplardır.",
+    "Doğru: İnşikāk 10-12."
+   ],
+   "kay": "İnşikāk, 84/7-12; Hâkka, 69/19-29"
+  },
+  {
+   "id": "kl8-10",
+   "z": 3,
+   "s": "Peygamber daveti kendisine ulaşmamış ve şirk üzere ölmüş bir kimsenin durumu sorulduğunda,\n\nI. Akıl Allah’ın varlığını ve birliğini bilmeye yeterli olduğundan bu kişi Allah’ı tanımakla yükümlüdür.\nII. Sorumluluk ancak vahiyle başlar; “Biz bir peygamber göndermedikçe azap edici değiliz” ayeti buna delildir.\n\nyaklaşımları sırasıyla hangi ekollere aittir?",
+   "c": [
+    "Eş’arîlik – Semerkant Mâtürîdîleri",
+    "Semerkant Mâtürîdîleri – Eş’arîlik",
+    "Selefiyye – Mu’tezile",
+    "Eş’arîlik – Mu’tezile",
+    "Mu’tezile – Semerkant Mâtürîdîleri"
+   ],
+   "d": 1,
+   "a": "Semerkant Mâtürîdîleri aklın Allah’ı bilmede yeterli olduğunu ve peygamber gelmese de akıl sahibinin O’nu tanımakla yükümlü olduğunu söyler. Eş’arîler ise İsrâ 15’e dayanarak sorumluluğun vahiyle başladığını savunur. Mu’tezile de birinci görüşe yakındır, ancak ikinci görüşün sahibi değildir.",
+   "ac": [
+    "Sıralama terstir.",
+    "Doğru sıralama.",
+    "Selefiyye ve Mu’tezile bu sıralamaya uymaz; Mu’tezile ikinci görüşü benimsemez.",
+    "Eş’arîlik birinci görüşün sahibi değildir.",
+    "Mâtürîdîler ikinci görüşün değil birinci görüşün sahibidir."
+   ],
+   "kay": "İsrâ, 17/15; Konu: Ehl-i fetret"
+  },
+  {
+   "id": "kl8-11",
+   "z": 2,
+   "s": "Hz. Peygamber’e mahşerde verilecek havuz (havz) ile ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Suyu sütten beyaz, baldan tatlıdır.",
+    "Varlığı Kur’an’da açık bir ayetle sabit olduğu için bütün mezhepler havzı kabul etmiştir.",
+    "Bardakları gökteki yıldızlar sayısıncadır.",
+    "Kevser suresindeki “kevser” kelimesi, rivayetlerde cennette Hz. Peygamber’e verilmiş bir nehir olarak açıklanır.",
+    "Ondan bir kez içen bir daha susamaz."
+   ],
+   "d": 1,
+   "a": "Havz hadislerle sabittir; Mu’tezile’den ve Hâricîlerden bir kısmı havzı inkâr etmiştir. Kevser suresi havzla ilişkilendirilse de havz Kur’an’da açıkça anlatılmaz.",
+   "ac": [
+    "Doğru: Buhârî, Rikāk.",
+    "Yanlış: Havz hadislerle sabittir ve bazı fırkalar inkâr etmiştir.",
+    "Doğru bilgidir.",
+    "Doğru: Kevser cennette bir nehir, havzın suyu ondan akar.",
+    "Doğru bilgidir."
+   ],
+   "kay": "Buhârî, Rikāk; Müslim, Fezâil; Kevser, 108/1"
+  },
+  {
+   "id": "kl8-12",
+   "z": 3,
+   "s": "Ahiretle ilgili bazı kavramlar ve açıklamaları verilmiştir:\n\nI. Kantara: Cehennemden kurtulan müminlerin aralarındaki haksızlıkların kısasının alındığı köprü\nII. A’râf: Cennet ile cehennem arasındaki yüksek yer\nIII. Hâviye: Amellerin tartıldığı terazinin adı\nIV. Arasât: İnsanların hesap için toplandığı yer\n\nBu eşleştirmelerden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "II ve III",
+    "I, II ve IV",
+    "I, III ve IV",
+    "II, III ve IV"
+   ],
+   "d": 2,
+   "a": "Hâviye, Kāria 9’da tartıları hafif gelenin varacağı yer olarak geçen bir cehennem adıdır; terazinin adı değildir. Diğer üç eşleştirme doğrudur.",
+   "ac": [
+    "Eksiktir: Dördüncü eşleştirme de doğrudur.",
+    "Üçüncü eşleştirme yanlıştır.",
+    "Doğru: Birinci, ikinci ve dördüncü eşleştirmeler doğrudur.",
+    "Üçüncü eşleştirme yanlıştır.",
+    "Üçüncü eşleştirme yanlıştır."
+   ],
+   "kay": "Buhârî, Mezâlim; A’râf, 7/46; Kāria, 101/9"
+  },
+  {
+   "id": "kl8-13",
+   "z": 2,
+   "s": "Hadise göre kul, ahirette ömrünü, ilmini, malını ve bedenini nerede kullandığından sorulacaktır. Ayrıca kul hakları ile Allah hakları arasında ilk hesaba çekilecek hususlar da hadislerde bildirilmiştir.\n\nBuna göre kul hakları ve Allah hakları arasında ilk hesaba çekilecek olanlar sırasıyla hangisinde doğru verilmiştir?",
+   "c": [
+    "Gıybet – Oruç",
+    "Kan davaları – Namaz",
+    "Yetim malı – Zekât",
+    "Faiz – Hac",
+    "Yalan – Namaz"
+   ],
+   "d": 1,
+   "a": "Kul hakları arasında ilk hükme bağlanacak olan kan davalarıdır (Buhârî, Rikāk; Müslim, Kasâme); kulun Allah haklarından ilk hesaba çekileceği amel ise namazdır (Tirmizî; Ebû Dâvûd).",
+   "ac": [
+    "Gıybet ve oruç ilk hesaba çekilecekler olarak bildirilmemiştir.",
+    "Doğru: Kan davaları ve namaz.",
+    "Yetim malı büyük günahtır ama ilk hesaba çekilecek olarak bildirilmemiştir.",
+    "Faiz ve hac için böyle bir bildirim yoktur.",
+    "Namaz doğrudur ama yalan ilk hesaba çekilecek kul hakkı olarak bildirilmemiştir."
+   ],
+   "kay": "Buhârî, Rikāk; Tirmizî, Salât"
+  },
+  {
+   "id": "kl8-14",
+   "z": 3,
+   "s": "Rü’yetullah konusunda Ehl-i sünnet kelamcıları, Hz. Mûsâ’nın “Rabbim, bana kendini göster de sana bakayım” talebini anlatan ayeti de delil olarak kullanmıştır.\n\nEhl-i sünnetin bu ayetten çıkardığı sonuç aşağıdakilerden hangisidir?",
+   "c": [
+    "Görmenin imkânsız olduğu, “len terânî” ifadesinin ebedî nefiy bildirdiğinden anlaşılır.",
+    "Görme yalnızca kalp gözüyle olacaktır.",
+    "Allah’ın dünyada da gözle görülebileceği bu ayetle sabittir.",
+    "Görme, görülenin yön ve mekânda bulunmasını gerektirir.",
+    "Bir peygamberin imkânsız bir şeyi istemesi düşünülemeyeceğinden görme aklen mümkündür; görmenin mümkün bir şarta bağlanması da bunu destekler."
+   ],
+   "d": 4,
+   "a": "Ehl-i sünnet, Hz. Mûsâ’nın talebinden görmenin imkânsız olmadığını çıkarır; ayrıca görme, dağın yerinde durması gibi mümkün bir şarta bağlanmıştır. “Len terânî” dünyadaki görmeyi nefyeder.",
+   "ac": [
+    "Bu, Mu’tezile’nin aynı ayetten çıkardığı sonuçtur.",
+    "Ehl-i sünnete göre ahirette görme gözle ve keyfiyetsiz olacaktır.",
+    "Ayet dünyada görmenin gerçekleşmediğini gösterir.",
+    "Bu, rü’yeti reddedenlerin aklî itirazıdır.",
+    "Doğru: Ehl-i sünnetin istidlalidir."
+   ],
+   "kay": "A’râf, 7/143"
+  },
+  {
+   "id": "kl8-15",
+   "z": 2,
+   "s": "Aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "Cehennemin bekçisi – Mâlik",
+    "Cennetin en yüksek mertebesi – Cennetü’l-me’vâ",
+    "Cennetin en büyük nimeti – Allah’ın rızası ve cemalini görmek",
+    "Cehennemin başındaki melek sayısı – On dokuz",
+    "Cehennemde inkârcıların yiyeceği ağaç – Zakkum"
+   ],
+   "d": 1,
+   "a": "Cennetin en yüksek mertebesi Firdevs’tir. Cennetü’l-me’vâ Necm 15’te geçen ve Mi’rac’da görüldüğü bildirilen cennettir.",
+   "ac": [
+    "Doğru: Zuhruf 77.",
+    "Yanlış: En yüksek mertebe Firdevs’tir.",
+    "Doğru: Tevbe 72 ve rü’yet hadisleri.",
+    "Doğru: Müddessir 30.",
+    "Doğru: Sâffât 62-66; Duhân 43."
+   ],
+   "kay": "Zuhruf, 43/77; Müddessir, 74/30; Kehf, 18/107"
+  },
+  {
+   "id": "kl8-16",
+   "z": 3,
+   "s": "Bir öğrenci ahiret safhalarıyla ilgili şu yargılara varmıştır:\n\nI. Mîzânın mahiyeti bizce bilinmez; Ehl-i sünnete göre hakiki bir tartıdır.\nII. Mu’tezile’den bazıları mîzânı mutlak adalet anlamında mecazi olarak yorumlamıştır.\nIII. Mîzânda güzel ahlaktan daha ağır bir şey bulunmadığı hadiste bildirilmiştir.\nIV. Mîzân yalnızca hadislerle sabittir; Kur’an’da geçmez.\n\nÖğrencinin yargılarından hangileri doğrudur?",
+   "c": [
+    "I ve IV",
+    "II ve III",
+    "I, II ve III",
+    "I, III ve IV",
+    "II, III ve IV"
+   ],
+   "d": 2,
+   "a": "Mîzân Kur’an’da açıkça geçer (Enbiyâ 47; A’râf 8-9; Kāria 6-9). Diğer üç yargı doğrudur.",
+   "ac": [
+    "Dördüncü yargı yanlıştır.",
+    "Eksiktir: Birinci yargı da doğrudur.",
+    "Doğru: Birinci, ikinci ve üçüncü yargılar doğrudur.",
+    "Dördüncü yargı yanlıştır.",
+    "Dördüncü yargı yanlıştır."
+   ],
+   "kay": "Enbiyâ, 21/47; Tirmizî, Birr"
+  }
+ ]
+}

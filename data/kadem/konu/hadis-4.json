@@ -1,0 +1,894 @@
+{
+ "id": "hadis-4",
+ "ad": "Hadis Çeşitleri 2: Kabul ve Ret Bakımından (Sahih, Hasen, Zayıf ve Türleri: Muallel, Şâz, Münker, Muzdarib, Maklûb, Müdrec, Müdelles, Metrûk; Mevzû)",
+ "ders": "Hadis",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Makbul ve merdud; sahih hadisin beş şartı"
+  },
+  {
+   "merak": "Bir altın ustası, saflığından emin olmadığı bir külçeyi beş ayrı testten geçirir. Hadisçiler de bir rivayeti “sahih” damgası vurmadan önce beş ayrı testten geçirdi. Bu testlerden biri bile başarısız olursa hadis bir alt basamağa iner."
+  },
+  "Kabul ve ret bakımından hadisler önce ikiye ayrılır: makbul ve merdud. Makbul hadis, râvisinin doğruluğu kabul edilen ve kendisiyle amel edilmesi gereken hadistir; sahih ve hasen bu gruptadır. Merdud hadis ise râvisinin doğruluğu tespit edilemeyen ya da kusuru sabit olan, kendisiyle amel etmek gerekmeyen hadistir; zayıf ve mevzû bu gruptadır.",
+  "Sahih hadis, adalet ve tam zabt sahibi râvilerin muttasıl bir senedle, kendileri gibi râvilerden rivayet ettiği, şâz ve muallel olmayan hadistir. Bu tanım beş şart içerir:",
+  {
+   "tablo": [
+    [
+     "Şart",
+     "Anlamı",
+     "Eksik olursa ortaya çıkan"
+    ],
+    [
+     "İttisâl (senedin muttasıl olması)",
+     "Her râvi hadisi bir öncekinden bizzat almıştır; zincirde kopukluk yoktur",
+     "Mürsel, munkatı, mu’dal, muallak, müdelles"
+    ],
+    [
+     "Adalet",
+     "Râviler Müslüman, bâliğ, akıllı, takva ve mürûet sahibi",
+     "Mevzû, metrûk, münker, mübhem"
+    ],
+    [
+     "Tam zabt",
+     "Râviler duyduğunu eksiksiz korur ve aktarır",
+     "Zabt hafifse hasen; ağır kusurda münker, muallel, muztarib"
+    ],
+    [
+     "Şâz olmamak",
+     "Güvenilir râvi kendisinden daha güvenilirlere aykırı rivayet etmemiş",
+     "Şâz"
+    ],
+    [
+     "İllet bulunmamak",
+     "Sıhhati zedeleyen gizli bir kusur yok",
+     "Muallel"
+    ]
+   ]
+  },
+  "İlk üç şart senede ve râvilere, son iki şart hem sened hem metne bakar. Râvi sayısı sahihliğin şartı değildir; tek râvili (garîb) bir hadis de bu beş şartı taşıyorsa sahihtir.",
+  "Sahih hadis ikiye ayrılır: Sahih li-zâtihî, beş şartı kendi başına taşıyan hadistir. Sahih li-gayrihî ise kendisi hasen olduğu hâlde başka yollardan gelen benzer rivayetlerle desteklenerek sahih derecesine yükselen hadistir.",
+  "Âlimler râvileri en güvenilir olan senedleri de tespit etmeye çalışmış ve bunlara esahhu’l-esânîd (senedlerin en sahihi) demiştir. Buhârî’ye göre en sahih sened Mâlik – Nâfi’ – İbn Ömer zinciridir; bu zincire “silsiletü’z-zeheb” (altın silsile) denir. Ahmed b. Hanbel ve İshak b. Râhûye ise Zührî – Sâlim – İbn Ömer zincirini öne çıkarmıştır.",
+  "Sahih hadislerin kendi aralarında da dereceleri vardır. Genel kabul gören sıralama şöyledir: 1) Buhârî ve Müslim’in birlikte rivayet ettikleri (müttefekun aleyh), 2) yalnız Buhârî’nin rivayet ettikleri, 3) yalnız Müslim’in rivayet ettikleri, 4) ikisinin şartlarına uygun olup onların almadıkları, 5) Buhârî’nin şartına uygun olanlar, 6) Müslim’in şartına uygun olanlar, 7) diğer âlimlerin sahih saydıkları.",
+  {
+   "sinav": "Sahih hadisin şartları en çok sorulan konudur: ittisal, adalet, tam zabt, şâz olmamak, illetsiz olmak. Tuzak şık: “her tabakada en az üç râvi” ya da “mütevâtir olması” — bunlar şart değildir. “Mâlik – Nâfi’ – İbn Ömer” → silsiletü’z-zeheb."
+  },
+  {
+   "akil": "Makbul: sahih ve hasen; merdud: zayıf ve mevzû. Sahih = ittisal + adalet + tam zabt + şâz değil + illetsiz. Müttefekun aleyh en üst derecedir."
+  },
+  {
+   "b": "2. Hasen hadis ve destekleyici rivayetler"
+  },
+  {
+   "merak": "“Hasen” kelimesini bir terim olarak yaygınlaştıran Tirmizî, aynı hadis için bazen “hasen sahih” der. Bir hadis aynı anda hem hasen hem sahih olabilir mi?"
+  },
+  "Hasen sözlükte “güzel” demektir. Terim olarak, sahih hadisin bütün şartlarını taşıdığı hâlde râvilerinden birinin ya da birkaçının zabtı sahih hadis râvilerine göre biraz hafif olan hadistir. Yani hasende sened yine muttasıldır, râviler yine adildir, hadis şâz ve muallel değildir; tek fark zabttaki hafifliktir. Hasen hadis makbul hadislerdendir ve onunla amel edilir; derecesi sahihin altındadır.",
+  "Hasen terimini yaygınlaştıran Tirmizî’dir. O, el-İlelü’s-sağîr’de haseni, “râvileri arasında yalanla itham edilen bulunmayan, şâz olmayan ve başka yollardan da rivayet edilen hadis” diye tanımlamıştır. Tirmizî’nin “hasen sahîh” ifadesi âlimlerce farklı yorumlanmıştır: hadisin bir yolunun hasen, diğer yolunun sahih olduğu; ya da âlimlerin bir kısmının hasen, diğer kısmının sahih saydığı şeklinde açıklanmıştır.",
+  "Hasen hadis de ikiye ayrılır: Hasen li-zâtihî, yukarıdaki tanıma uyan hadistir. Hasen li-gayrihî ise râvisinin hafızası zayıf olduğu, senedinde hafif bir kopukluk bulunduğu ya da râvisi meçhul olduğu için zayıf olan, fakat başka yollardan gelen benzer rivayetlerle desteklenerek hasen derecesine yükselen hadistir. Ancak râvisi yalancı ya da fâsık olan çok zayıf bir hadis, başka yollarla desteklense de yükselmez.",
+  "Bir rivayetin desteklenip desteklenmediğini anlamak için yapılan araştırmaya i’tibâr denir. Bu araştırmada bulunan destekleyici rivayetler ikiye ayrılır: Mütâbi’, aynı sahabiden gelen, ama alt tabakalarda başka râvilerin rivayet ettiği destekleyici rivayettir; buna mütâbaat denir. Şâhid ise farklı bir sahabiden gelen ve aynı anlamı taşıyan destekleyici rivayettir.",
+  {
+   "tablo": [
+    [
+     "Terim",
+     "Tanım"
+    ],
+    [
+     "İ’tibâr",
+     "Bir hadisin başka yollarını, destekleyici rivayetlerini araştırma işlemi"
+    ],
+    [
+     "Mütâbi’ (mütâbaat)",
+     "Aynı sahabiden, başka râvilerin rivayet ettiği destekleyici yol"
+    ],
+    [
+     "Şâhid",
+     "Başka bir sahabiden gelen, aynı anlamı taşıyan destekleyici rivayet"
+    ],
+    [
+     "Sahih li-gayrihî",
+     "Hasen olup destekle sahihe yükselen hadis"
+    ],
+    [
+     "Hasen li-gayrihî",
+     "Hafif zayıf olup destekle hasene yükselen hadis"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "",
+     "Sahih",
+     "Hasen",
+     "Zayıf"
+    ],
+    [
+     "Sened",
+     "Muttasıl",
+     "Muttasıl",
+     "Kopuk olabilir"
+    ],
+    [
+     "Adalet",
+     "Tam",
+     "Tam",
+     "Eksik olabilir"
+    ],
+    [
+     "Zabt",
+     "Tam",
+     "Biraz hafif",
+     "Zayıf olabilir"
+    ],
+    [
+     "Şâz – illet",
+     "Yok",
+     "Yok",
+     "Olabilir"
+    ],
+    [
+     "Hüküm",
+     "Makbul; delil",
+     "Makbul; delil",
+     "Merdud; ahkâmda delil değil"
+    ]
+   ]
+  },
+  {
+   "sinav": "Sahih ile haseni ayıran tek fark zabtın hafifliğidir. “Hasen hadisin senedi kopuktur” ya da “hasen hadis merduddur” şıkları yanlıştır. Mütâbi’ → aynı sahabi; şâhid → farklı sahabi. Hasen terimini yaygınlaştıran → Tirmizî."
+  },
+  {
+   "akil": "Hasen = sahihin bütün şartları, zabt biraz hafif; makbul. Destekle li-gayrihî yükselme olur. İ’tibâr: araştırma; mütâbi’: aynı sahabi; şâhid: başka sahabi."
+  },
+  {
+   "b": "3. Zayıf hadis: neden zayıflar ve neyle amel edilir?"
+  },
+  {
+   "merak": "Bir hadis kitabında “Bu hadis zayıftır” notunu okuyan biri “Demek ki uydurma” der. Bu doğru mu? Zayıf ile uydurma arasındaki fark, bir gözlük camındaki çizik ile camın hiç olmaması arasındaki fark gibidir."
+  },
+  "Zayıf hadis, sahih ve hasen hadisin şartlarından birini ya da birkaçını taşımayan hadistir. Zayıflığın iki ana sebebi vardır: senette kopukluk (sakt) ve râvide bir kusur (ta’n). Râvi kusurları, cerh-ta’dil konusunda göreceğimiz metâin-i aşere (on kusur) ile ifade edilir; beşi adalet, beşi zabtla ilgilidir.",
+  {
+   "tablo": [
+    [
+     "Zayıflık sebebi",
+     "Oluşan türler"
+    ],
+    [
+     "Senedin başından râvi düşmesi",
+     "Muallak"
+    ],
+    [
+     "Senedin sonundan sahabinin düşmesi",
+     "Mürsel"
+    ],
+    [
+     "Ortadan bir râvi düşmesi",
+     "Munkatı"
+    ],
+    [
+     "Ortadan art arda iki veya daha fazla râvi düşmesi",
+     "Mu’dal"
+    ],
+    [
+     "Kopukluğun gizlenmesi",
+     "Müdelles (mürsel-i hafî de buna yakındır)"
+    ],
+    [
+     "Râvinin hadiste yalan söylemesi",
+     "Mevzû"
+    ],
+    [
+     "Râvinin yalanla itham edilmesi",
+     "Metrûk (matrûh)"
+    ],
+    [
+     "Çok hata, fazla gaflet, fısk",
+     "Münker"
+    ],
+    [
+     "Vehim",
+     "Muallel"
+    ],
+    [
+     "Güvenilirlere muhalefet",
+     "Şâz, münker, müdrec, maklûb, muztarib, musahhaf, muharref, mezîd"
+    ],
+    [
+     "Râvinin bilinmemesi (cehâlet)",
+     "Mübhem / meçhul râvinin rivayeti"
+    ],
+    [
+     "Hafıza zayıflığı (sû-i hıfz)",
+     "Zayıf; sonradan bozulduysa muhtelit"
+    ]
+   ]
+  },
+  {
+   "not": "Seneddeki kopukluktan kaynaklanan türler (mürsel, munkatı, mu’dal, muallak) bir sonraki konuda “senedine göre hadisler” başlığıyla ayrıntılı işlenecek. Burada râvideki kusurdan doğan türlere odaklanıyoruz."
+  },
+  "Zayıf hadisle amel: Âlimlerin çoğu, zayıf hadisin itikat ve helal-haram (ahkâm) konularında delil olamayacağında birleşir. Fezâil-i a’mâl (amellerin faziletleri), terğîb ve terhîb (teşvik ve sakındırma) konularında ise bazı şartlarla zayıf hadisle amel edilebileceğini söylemişlerdir. İbn Hacer’in özetlediği bu şartlar şunlardır: Zayıflık şiddetli olmamalı (râvi yalancı ya da yalanla itham edilmiş olmamalı); hadis dinin genel bir aslına dayanmalı; amel ederken hadisin kesin olarak Hz. Peygamber’e ait olduğuna inanılmamalı, ihtiyat düşüncesiyle amel edilmeli.",
+  "Ahmed b. Hanbel’in “zayıf hadisi kıyasa tercih ederim” sözü meşhurdur. Ancak onun döneminde hasen terimi henüz yerleşmediğinden, burada kastettiği zayıfın sonraki dönemin “hasen”ine yakın olduğu söylenmiştir. Ebû Hanîfe’nin de zayıf hadisi ve sahabe sözünü re’ye tercih ettiği nakledilir.",
+  {
+   "sinav": "“Zayıf hadis uydurmadır” ifadesi yanlıştır; mevzû zayıfın en kötü derecesidir ama her zayıf mevzû değildir. Zayıf hadisle fezâilde amelin şartları sorulabilir: şiddetli zayıf olmamak, genel bir asla dayanmak, sübutuna kesin inanmamak. Ahkâm ve akaidde zayıf hadis delil olmaz."
+  },
+  {
+   "akil": "Zayıflık = senette kopukluk veya râvide kusur. Zayıf hadis ahkâm ve itikatta delil değil; fezâilde şartlı kabul. Mevzû, zayıfın en kötüsüdür."
+  },
+  {
+   "b": "4. Muhalefet kusurları: şâz, münker, müdrec, maklûb, muztarib"
+  },
+  {
+   "merak": "Ebû Hüreyre bir hadisi naklederken önce kendi sözüyle “Abdesti tam alın!” der, ardından Hz. Peygamber’in “Cehennemde yanacak topukların vay hâline!” sözünü aktarır. Sonraki bir râvi bu iki cümleyi birleştirip hepsini Hz. Peygamber’in sözü gibi rivayet eder. Bu hatanın adı nedir?"
+  },
+  "Şâz ve mahfûz: Şâz, güvenilir (sika) bir râvinin, kendisinden daha güvenilir bir râviye ya da daha kalabalık güvenilir râvilere aykırı olarak rivayet ettiği hadistir. Karşısındaki tercih edilen rivayete mahfûz denir. Bazı âlimler, güvenilir râvinin tek başına rivayet ettiği hadise de şâz demiştir; ancak hâkim görüş muhalefet şartını arar.",
+  "Münker ve ma’rûf: Münkerin iki tanımı vardır. Birincisi ve yaygın olanı, zayıf bir râvinin güvenilir râvilere aykırı olarak rivayet ettiği hadistir; karşısındaki tercih edilen rivayete ma’rûf denir. İkincisi, çok hata yapan (fuhş-ı galat), gafleti fazla olan ya da fâsık olan bir râvinin tek kaldığı rivayettir. Şâz ile münkeri ayıran nokta muhalefet eden râvinin durumudur: güvenilirse şâz, zayıfsa münker.",
+  {
+   "tablo": [
+    [
+     "Aykırı rivayet eden",
+     "Aykırı (zayıf) olan rivayet",
+     "Tercih edilen rivayet"
+    ],
+    [
+     "Güvenilir (sika) râvi",
+     "Şâz",
+     "Mahfûz"
+    ],
+    [
+     "Zayıf râvi",
+     "Münker",
+     "Ma’rûf"
+    ]
+   ]
+  },
+  "Ziyâdetü’s-sika: Güvenilir bir râvinin, aynı hadisi rivayet eden diğer râvilerde bulunmayan bir kelime veya cümleyi fazladan rivayet etmesidir. Bu ziyade diğer rivayetlere aykırı değilse genellikle kabul edilir; aykırıysa şâz hükmüne girer.",
+  "Müdrec: Râvinin kendi sözünü ya da başka birinin sözünü, ayırt edilemeyecek biçimde hadisin metnine veya senedine katmasıdır; bu işleme idrâc denir. İdrâc metnin başında, ortasında ya da sonunda olabilir; en çok sonda görülür. Örnekler: Ebû Hüreyre’nin “Abdesti tam alın” sözünün hadisin başına karışması; İbn Mes’ûd’un teşehhüd rivayetinin sonundaki “Bunu söylediğinde namazını tamamlamış olursun” cümlesinin bazı rivayetlerde merfû gibi aktarılması; Zührî’nin vahyin başlangıcı hadisindeki “tehannüs”ü “ibadet etmek” diye açıklamasının metne karışması. Râvi bunu kasten yaparsa haramdır; ama genellikle bir kelimeyi açıklama amacıyla yapılmış ve sonradan ayırt edilemez hâle gelmiştir.",
+  "Maklûb: Senedde bir râvinin adının, ya da metinde bir kelime veya cümlenin yerinin değiştirilmesidir (takdim-tehir). Senedde kalb: “Ka’b b. Mürre” yerine “Mürre b. Ka’b” denmesi ya da bir senedin başka bir metne bağlanması. Metinde kalb: Yedi grubun Allah’ın gölgesinde gölgeleneceğini bildiren hadiste “sağ elinin verdiğini sol eli bilmeyecek kadar gizli sadaka veren” ifadesinin bir rivayette “sol elinin verdiğini sağ eli bilmeyecek” şeklinde rivayet edilmesi; “Bilâl gece ezan okur, İbn Ümmi Mektûm ezan okuyuncaya kadar yiyip için” hadisinin isimleri yer değiştirilerek nakledilmesi. Bağdatlı muhaddislerin Buhârî’yi sınamak için yüz hadisin senedlerini ve metinlerini karıştırıp sormaları, Buhârî’nin de her birini doğru senedine iade etmesi, kasten yapılan kalbe (imtihan amaçlı) meşhur bir örnektir.",
+  "Muztarib (muzdarib): Birbirine denk güçte birden fazla farklı şekilde rivayet edilen, aralarında tercih yapılamayan ve uzlaştırılamayan hadistir. Iztırab senedde de metinde de olabilir. Rivayetlerden biri tercih edilebilirse ıztırab ortadan kalkar; tercih edilen mahfûz/ma’rûf, diğeri şâz/münker olur.",
+  "Mezîd fî muttasıli’l-esânîd: Muttasıl bir senede, aslında bulunmayan bir râvinin yanlışlıkla eklenmesidir.",
+  {
+   "tablo": [
+    [
+     "Tür",
+     "Ne oluyor?",
+     "Örnek / ipucu"
+    ],
+    [
+     "Şâz",
+     "Sika, daha sikaya aykırı",
+     "Karşısı mahfûz"
+    ],
+    [
+     "Münker",
+     "Zayıf, sikaya aykırı",
+     "Karşısı ma’rûf"
+    ],
+    [
+     "Müdrec",
+     "Râvinin sözü hadise karışır (idrâc)",
+     "“Abdesti tam alın” – Ebû Hüreyre"
+    ],
+    [
+     "Maklûb",
+     "Takdim-tehir, yer değiştirme",
+     "Sağ el / sol el; Bilâl – İbn Ümmi Mektûm; Buhârî’nin Bağdat imtihanı"
+    ],
+    [
+     "Muztarib",
+     "Denk farklı rivayetler, tercih yok",
+     "Tercih yapılırsa ıztırab kalkar"
+    ],
+    [
+     "Mezîd",
+     "Muttasıl senede fazladan râvi",
+     "Senedde ekleme"
+    ]
+   ]
+  },
+  {
+   "sinav": "Muhalefet türleri karşılaştırmalı sorulur. Anahtar kelimeler: “kendi sözünü karıştırdı” → müdrec; “yer değiştirdi, takdim-tehir” → maklûb; “denk, tercih edilemiyor” → muztarib; “sika aykırı” → şâz; “zayıf aykırı” → münker. Ebû Hüreyre’nin “Abdesti tam alın” sözü → müdrec. Bilâl – İbn Ümmi Mektûm isimlerinin yer değiştirmesi → maklûb."
+  },
+  {
+   "akil": "Sika aykırıysa şâz (karşısı mahfûz), zayıf aykırıysa münker (karşısı ma’rûf). Karışma = müdrec; yer değiştirme = maklûb; tercih edilemeyen farklılık = muztarib."
+  },
+  {
+   "b": "5. Gizli kusurlar ve yazım hataları: muallel, müdelles, musahhaf, muharref"
+  },
+  {
+   "merak": "Abdurrahman b. Mehdî’ye “Bir hadisin illetli olduğunu nereden biliyorsun?” diye sorulduğunda, sarrafın kalp parayı tanıması gibi bir sezgiyle bildiğini söylediği nakledilir. Gözle görülmeyen bir kusur nasıl yakalanır?"
+  },
+  "Muallel (ma’lûl): Görünüşte sahih olan, ancak dikkatli bir inceleme sonucunda sıhhatini zedeleyen gizli bir kusur (illet) taşıdığı anlaşılan hadistir. İllet çoğunlukla bir râvinin vehminden kaynaklanır: mürsel bir hadisi muttasıl (mevsûl), mevkûf bir hadisi merfû göstermek; bir hadisi başka bir hadisle karıştırmak; bir râviyi başka bir râvi sanmak gibi. Hadisin illetini bulan âlime muallil denir. İllet, bir hadisin bütün yollarının toplanıp karşılaştırılmasıyla ortaya çıkar; bu yüzden ilel ilmi hadis ilimlerinin en zorlarından sayılır. Bu alanda Ali b. el-Medînî, Ahmed b. Hanbel, Buhârî, Tirmizî (el-İlel), İbn Ebû Hâtim (İlelü’l-hadîs) ve Dârekutnî (el-İlel) öne çıkar.",
+  "Müdelles: Tedlîs sözlükte “alacakaranlık, bir kusuru gizlemek”tir. Bir râvinin, senedde bulunan bir kopukluğu ya da bir kusuru gizleyerek hadisi duymuş izlenimi verecek şekilde rivayet etmesidir. Tedlîs yapan râviye müdellis, senedden düşürülen râviye müdellesün anh, bu şekilde rivayet edilen hadise müdelles denir. Müdellis genellikle “haddesenâ” gibi açık işitme lafzı yerine “an” (falandan) veya “kâle” (falan dedi) gibi iki anlama gelebilen lafızlar kullanır.",
+  {
+   "tablo": [
+    [
+     "Tedlîs türü",
+     "Tanım",
+     "Ağırlığı"
+    ],
+    [
+     "Tedlîsü’l-isnâd",
+     "Görüştüğü hocasından duymadığı hadisi, aradaki kişiyi atlayıp “an” lafzıyla doğrudan ondan nakletmek",
+     "Yaygın tür"
+    ],
+    [
+     "Tedlîsü’t-tesviye",
+     "Senedin ortasındaki zayıf bir râviyi atlayıp iki güvenilir râviyi birbirine bağlamak; senedi “düzlemek”",
+     "En kötü tür"
+    ],
+    [
+     "Tedlîsü’ş-şuyûh",
+     "Hocasının bilinmeyen bir lakabını, künyesini veya nisbesini kullanarak onu tanınmaz hâle getirmek",
+     "Râvi düşürülmez, kimliği gizlenir"
+    ],
+    [
+     "Tedlîsü’l-kat’ (sükût)",
+     "“Haddesenâ” deyip susmak, sonra hocanın adını söyleyerek kopukluğu gizlemek",
+     "Nadir"
+    ]
+   ]
+  },
+  {
+   "not": "Müdellisin rivayeti hakkındaki genel kural: Güvenilir bir müdellis “haddesenâ / semi’tü” gibi işittiğini açıkça gösteren bir lafız kullanırsa rivayeti kabul edilir; “an” gibi muhtemel lafızla rivayet ederse, başka bir yoldan işittiği tespit edilmedikçe tevakkuf edilir. Tedlîs, yalan değildir; ama râviyi şüpheli kılar. Mürsel-i hafî ise râvinin aynı dönemde yaşadığı ama hiç görüşmediği birinden “an” lafzıyla rivayet etmesidir; tedlîste ise râvi o hocayla görüşmüştür."
+  },
+  "Musahhaf ve muharref: Yazının noktasız ve harekesiz olduğu dönemlerde kelimelerin yanlış okunmasıyla ortaya çıkan hatalardır. Musahhaf, kelimenin noktalarının değişmesiyle oluşan hatadır (tashîf). Örneğin “Kim Ramazan orucunu tutar, ardından Şevval’den altı gün (sitten) eklerse…” hadisindeki “sitten” (altı) kelimesinin “şey’en” (bir şey) şeklinde okunması. Muharref ise kelimenin harekelerinin ya da şeklinin değişmesiyle oluşan hatadır (tahrîf). Bazı âlimler ikisini birbirinin yerine kullanmıştır; ancak İbn Hacer’in ayrımı yaygınlaşmıştır: nokta → tashîf, hareke/şekil → tahrîf.",
+  {
+   "tablo": [
+    [
+     "",
+     "Musahhaf",
+     "Muharref"
+    ],
+    [
+     "Değişen",
+     "Noktalar",
+     "Harekeler / harfin şekli"
+    ],
+    [
+     "Kaynağı",
+     "Görerek okuma hatası (çoğunlukla)",
+     "Okuma veya yazma hatası"
+    ],
+    [
+     "Örnek",
+     "“sitten” → “şey’en”",
+     "Bir ismin harekesinin farklı okunması"
+    ]
+   ]
+  },
+  {
+   "sinav": "Muallel ile müdellesi karıştırmayın: Muallelde râvi farkında olmadan (vehimle) hata yapar, kusur gizlidir ve ancak uzman fark eder; müdelleste ise râvi kopukluğu bilerek gizler. Tedlîs türleri: isnad, tesviye, şuyûh, kat’ (sükût); “sübût” diye bir tedlîs türü yoktur. Nokta → musahhaf; hareke → muharref."
+  },
+  {
+   "akil": "Muallel: görünüşte sahih, gizli illet (vehim). Müdelles: kopukluğu bilerek gizlemek; en kötüsü tesviye. Musahhaf: nokta; muharref: hareke."
+  },
+  {
+   "b": "6. Mevzû ve metrûk: hadisin en ağır kusurları"
+  },
+  {
+   "merak": "Bir râvi, Kur’an’ın her bir suresinin faziletini anlatan uzun bir rivayeti sahabeden aktarıyordu. Sorgulandığında itiraf etti: “İnsanların Kur’an’dan uzaklaşıp Ebû Hanîfe’nin fıkhına ve İbn İshak’ın megâzîsine yöneldiklerini görünce sevap umarak uydurdum.” İyi niyet, uydurmayı mazur gösterir mi?"
+  },
+  "Mevzû (uydurma) hadis, Hz. Peygamber’e ait olmadığı hâlde ona nispet edilen, onun adına uydurulmuş sözdür. Râvideki kusurlar bakımından en ağır derecedir; bu yüzden bazı âlimler onu zayıf hadisin bir türü olarak değil, ayrı bir grup olarak ele alır. Mevzû hadisi bilerek rivayet etmek haramdır; ancak uydurma olduğunu açıklamak ve insanları uyarmak amacıyla zikretmek caizdir. Hz. Peygamber’e bilerek yalan isnat etmenin cezası “men kezebe” hadisinde açıkça bildirilmiştir.",
+  {
+   "hadis": "Kim benden yalan olduğu sanılan bir hadisi rivayet ederse o da yalancılardan biridir.",
+   "kay": "Müslim, Mukaddime, 1; Tirmizî, İlim, 9"
+  },
+  "Metrûk (matrûh) hadis, günlük hayatında yalan söylediği bilinen ve bu yüzden hadiste de yalanla itham edilen bir râvinin tek başına rivayet ettiği hadistir. Râvinin hadiste yalan söylediği kesin olarak sabit değildir; ama ihtimal yüksek olduğu için rivayeti terk edilir. Ayrıca dinin bilinen kurallarına aykırı rivayeti olan râvinin rivayeti de metrûk sayılır.",
+  {
+   "tablo": [
+    [
+     "Tür",
+     "Râvinin durumu",
+     "Derece"
+    ],
+    [
+     "Mevzû",
+     "Hadiste yalan söylediği sabit (kizbü’r-râvî)",
+     "En kötü; rivayeti haram"
+    ],
+    [
+     "Metrûk",
+     "Yalanla itham edilmiş (ittihâmü’r-râvî bi’l-kizb)",
+     "Mevzûdan sonra en kötü"
+    ],
+    [
+     "Münker",
+     "Çok hata, aşırı gaflet veya fısk; ya da zayıfın sikaya muhalefeti",
+     "Çok zayıf"
+    ],
+    [
+     "Muallel",
+     "Vehim",
+     "Gizli kusur"
+    ]
+   ]
+  },
+  "Uydurmacılığın tarihi, sebepleri, uydurma hadisleri tanıma ölçütleri ve bu alanda yazılan eserler (İbnü’l-Cevzî’nin el-Mevzûât’ı gibi) hadis tarihi konusunda ayrıntılı olarak işlenecektir. Burada sınıflama bakımından şu kadarını bilmek gerekir: Mevzû, “masnû” (yapma) ve “muhtelak” (uydurulmuş) adlarıyla da anılır; uydurmanın en açık göstergesi uyduranın kendi ikrarıdır. Kur’an surelerinin faziletlerine dair uzun rivayeti uyduran Nûh b. Ebû Meryem ile Meysere b. Abdirabbih bu tür itirafların meşhur örnekleridir.",
+  {
+   "kontrol": "Sure faziletleri rivayetini uyduranlar olarak hem Nûh b. Ebû Meryem’in hem de Meysere b. Abdirabbih’in adı geçer; kaynaklarda itiraf sahnesi farklı kişilere nispetle anlatılır."
+  },
+  {
+   "sinav": "“Hadiste yalan söylediği sabit olan râvinin rivayeti” → mevzû; “yalanla itham edilen râvinin tek kaldığı rivayet” → metrûk. Bu iki tanım sık karıştırılır. Mevzû, kopukluk türleri arasında değil, râvi kusuru türleri arasında yer alır; “seneddeki inkıta sebebiyle zayıf olan türlerden hangisi değildir?” sorusunda doğru cevap metrûk veya mevzû olur."
+  },
+  {
+   "akil": "Mevzû = hadiste yalan söyleyenin rivayeti, rivayeti haram; metrûk = yalanla itham edilenin tek kaldığı rivayet. İyi niyetle uydurmak da uydurmadır."
+  }
+ ],
+ "ozet": [
+  "Makbul: sahih ve hasen; merdud: zayıf ve mevzû.",
+  "Sahihin beş şartı: ittisal, adalet, tam zabt, şâz olmamak, illetsiz olmak; râvi sayısı şart değil.",
+  "Sahih li-zâtihî / li-gayrihî; hasen li-zâtihî / li-gayrihî (destekle yükselme).",
+  "Silsiletü’z-zeheb: Mâlik – Nâfi’ – İbn Ömer (Buhârî’ye göre en sahih sened).",
+  "Sahih dereceleri: müttefekun aleyh > Buhârî > Müslim > ikisinin şartı > Buhârî şartı > Müslim şartı > diğerleri.",
+  "Hasen: sahihin bütün şartları, zabt biraz hafif; makbul; terimi yaygınlaştıran Tirmizî.",
+  "İ’tibâr: destek araştırması; mütâbi’ aynı sahabiden, şâhid başka sahabiden.",
+  "Zayıf: sahih ve hasen şartlarını taşımayan; sebebi senette kopukluk veya râvide kusur.",
+  "Zayıf hadis ahkâm ve akaidde delil değil; fezâilde şartlı (şiddetli zayıf olmamak, genel asla dayanmak, sübutuna inanmamak).",
+  "Şâz: sika daha sikaya aykırı (karşısı mahfûz); münker: zayıf sikaya aykırı (karşısı ma’rûf).",
+  "Müdrec: râvinin sözü hadise karışır; Ebû Hüreyre’nin “Abdesti tam alın” sözü.",
+  "Maklûb: takdim-tehir; sağ el – sol el; Bilâl – İbn Ümmi Mektûm; Buhârî’nin Bağdat imtihanı.",
+  "Muztarib: denk farklı rivayetler, tercih ve uzlaştırma yok.",
+  "Muallel: görünüşte sahih, gizli illet (vehim); ilel âlimleri: İbnü’l-Medînî, Buhârî, Dârekutnî.",
+  "Tedlîs türleri: isnad, tesviye (en kötüsü), şuyûh, kat’; müdellis “an” derse tevakkuf.",
+  "Musahhaf: nokta değişikliği (sitten → şey’en); muharref: hareke değişikliği.",
+  "Mevzû: hadiste yalan söyleyenin rivayeti, rivayeti haram; metrûk: yalanla itham edilenin tek kaldığı rivayet."
+ ],
+ "kartlar": [
+  {
+   "o": "Sahih hadisin beş şartı",
+   "a": "Ittisal, adalet, tam zabt, şâz olmamak, illetsiz olmak."
+  },
+  {
+   "o": "Sahih ile haseni ayıran fark",
+   "a": "Hasende bir râvinin zabtı biraz hafiftir; diğer şartlar aynıdır."
+  },
+  {
+   "o": "Silsiletü’z-zeheb",
+   "a": "Mâlik – Nâfi’ – İbn Ömer zinciri (Buhârî’ye göre en sahih sened)."
+  },
+  {
+   "o": "Hasen li-gayrihî",
+   "a": "Hafif zayıf olup başka yollarla desteklenerek hasene yükselen hadis."
+  },
+  {
+   "o": "Mütâbi’ – şâhid",
+   "a": "Mütâbi’: aynı sahabiden destek; şâhid: başka sahabiden aynı anlamlı destek."
+  },
+  {
+   "o": "Şâz – mahfûz",
+   "a": "Sika râvinin daha sikaya aykırı rivayeti şâz; tercih edilen mahfûz."
+  },
+  {
+   "o": "Münker – ma’rûf",
+   "a": "Zayıf râvinin sikaya aykırı rivayeti münker; tercih edilen ma’rûf."
+  },
+  {
+   "o": "Müdrec",
+   "a": "Râvinin sözünün ayırt edilemeyecek biçimde hadise karışması (idrâc)."
+  },
+  {
+   "o": "Maklûb",
+   "a": "Senedde isim, metinde kelime veya cümlede takdim-tehir."
+  },
+  {
+   "o": "Muztarib",
+   "a": "Denk güçte farklı rivayetler; tercih ve uzlaştırma yapılamıyor."
+  },
+  {
+   "o": "Muallel",
+   "a": "Görünüşte sahih, gizli kusurlu hadis; kusuru bulan muallil."
+  },
+  {
+   "o": "Tedlîsü’t-tesviye",
+   "a": "İki sika arasındaki zayıf râviyi düşürüp senedi düzlemek; tedlîsin en kötüsü."
+  },
+  {
+   "o": "Tedlîsü’ş-şuyûh",
+   "a": "Hocayı bilinmeyen lakap veya künyeyle anarak tanınmaz kılmak."
+  },
+  {
+   "o": "Musahhaf – muharref",
+   "a": "Musahhaf: nokta değişikliği; muharref: hareke değişikliği."
+  },
+  {
+   "o": "Mevzû – metrûk",
+   "a": "Mevzû: hadiste yalanı sabit râvi; metrûk: yalanla itham edilen râvi."
+  },
+  {
+   "o": "Zayıf hadisle fezâilde amel şartları",
+   "a": "Şiddetli zayıf olmamak, genel bir asla dayanmak, kesin sübutuna inanmamak."
+  },
+  {
+   "o": "Ziyâdetü’s-sika",
+   "a": "Sika râvinin fazladan rivayet ettiği lafız; aykırı değilse kabul edilir."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "hd4-01",
+   "z": 3,
+   "s": "Bir hadis hakkında şu bilgiler veriliyor: Senedi baştan sona kesintisizdir; râvilerinin tamamı adildir; râvilerden birinin hafızası, sahih hadis râvilerine göre biraz zayıftır; hadis şâz değildir ve gizli bir kusur taşımamaktadır. Ayrıca bu hadisin aynı anlamda başka bir sahabiden gelen ikinci bir rivayeti de bulunmaktadır.\n\nBu hadisin durumu aşağıdakilerden hangisiyle en doğru biçimde ifade edilir?",
+   "c": [
+    "Hasen li-zâtihî; başka sahabiden gelen şâhidle desteklendiği için sahih li-gayrihî",
+    "Zayıf; başka yolla desteklendiği için hasen li-gayrihî",
+    "Sahih li-zâtihî; destekleyici rivayet mütâbi’dir",
+    "Muallel; şâhidi bulunduğu için mahfûz",
+    "Hasen li-zâtihî; destekleyici rivayet mütâbi’dir"
+   ],
+   "d": 0,
+   "a": "Zabtı biraz hafif râvi dışında bütün şartları taşıyan hadis hasen li-zâtihîdir. Başka sahabiden gelen destekleyici rivayet şâhiddir; hasen bir hadis bu destekle sahih li-gayrihî derecesine yükselir.",
+   "ac": [
+    "Doğru: hasen li-zâtihî, şâhidle sahih li-gayrihî.",
+    "Hadis zayıf değil, kendi başına hasendir.",
+    "Zabtı hafif râvi bulunduğu için hadis kendi başına sahih değildir; destek de başka sahabiden geldiği için şâhiddir.",
+    "Hadiste gizli kusur olmadığı belirtilmiştir; mahfûz şâzın karşısıdır.",
+    "Destek başka sahabiden geldiği için mütâbi’ değil şâhiddir."
+   ],
+   "kay": "Konu: Sahih ve hasen li-gayrihî; i’tibâr"
+  },
+  {
+   "id": "hd4-02",
+   "z": 2,
+   "s": "Buhârî’ye göre senedlerin en sahihi olarak kabul edilen ve “silsiletü’z-zeheb” (altın silsile) diye anılan zincir aşağıdakilerden hangisidir?",
+   "c": [
+    "Zührî – Sâlim – İbn Ömer",
+    "A’meş – İbrâhim – Alkame – İbn Mes’ûd",
+    "Mâlik – Nâfi’ – İbn Ömer",
+    "Hammâd b. Seleme – Sâbit – Enes",
+    "Yahyâ b. Saîd – Muhammed b. İbrâhim – Alkame – Ömer"
+   ],
+   "d": 2,
+   "a": "Buhârî’ye göre en sahih sened Mâlik – Nâfi’ – İbn Ömer zinciridir ve “altın silsile” olarak bilinir.",
+   "ac": [
+    "Bu zincir Ahmed b. Hanbel ve İshak b. Râhûye’nin öne çıkardığı senettir.",
+    "Bu, İbn Mes’ûd’dan gelen meşhur bir Kûfe senedidir.",
+    "Doğru: Buhârî’nin en sahih kabul ettiği zincirdir.",
+    "Bu, Enes’ten gelen güçlü bir Basra senedidir; altın silsile değildir.",
+    "Bu, niyet hadisinin senedidir."
+   ],
+   "kay": "Konu: Esahhu’l-esânîd"
+  },
+  {
+   "id": "hd4-03",
+   "z": 3,
+   "s": "Bir hadis kitabında şu rivayet yer almaktadır: “Ebû Hüreyre’den: Resûlullah buyurdu ki: Abdesti tam alın; cehennemde yanacak topukların vay hâline!” Hadisin diğer yolları incelendiğinde “Abdesti tam alın.” cümlesinin Ebû Hüreyre’nin kendi sözü olduğu, Hz. Peygamber’in sözünün ise ikinci cümleden ibaret olduğu anlaşılmıştır.\n\nBu rivayet hadis usulünde aşağıdakilerden hangisiyle nitelendirilir?",
+   "c": [
+    "Maklûb",
+    "Müdrec",
+    "Mevkûf",
+    "Muztarib",
+    "Muharref"
+   ],
+   "d": 1,
+   "a": "Sahabinin kendi sözü ayırt edilemeyecek biçimde merfû hadisin metnine karışmıştır; bu idrâctır ve hadis müdrectir.",
+   "ac": [
+    "Maklûbda takdim-tehir vardır; burada başka birinin sözü karışmıştır.",
+    "Doğru: râvinin (sahabinin) sözü hadise karışmıştır.",
+    "Rivayetin tamamı sahabeye ait değildir; asıl cümle merfûdur.",
+    "Muztaribde denk farklı rivayetler arasında tercih yapılamaz; burada fark tespit edilebilmiştir.",
+    "Muharrefte harekeler değişir."
+   ],
+   "kay": "Buhârî, Vudû’, 29; Konu: Müdrec"
+  },
+  {
+   "id": "hd4-04",
+   "z": 3,
+   "s": "Bir hadisin bir rivayetinde “Bilâl ezan okuduğunda yiyin, için; İbn Ümmi Mektûm ezan okuyunca yemeyi bırakın.” denilmektedir. Hadisin bilinen sahih şekli ise “Bilâl gece ezan okur; İbn Ümmi Mektûm ezan okuyuncaya kadar yiyip için.” şeklindedir.\n\nBirinci rivayetteki hata ve bu rivayetin adı aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Senedden râvi düşmüştür – munkatı",
+    "Râvinin sözü eklenmiştir – müdrec",
+    "Noktalar değiştirilmiştir – musahhaf",
+    "İsimlerin yeri değiştirilmiştir – maklûb",
+    "Rivayetler denk olup tercih edilemez – muztarib"
+   ],
+   "d": 3,
+   "a": "Birinci rivayette iki müezzinin isimleri yer değiştirmiş, anlam tersine dönmüştür; bu metinde kalbdir ve hadis maklûbdur. Sahih şekli bilindiği için ıztırab söz konusu değildir.",
+   "ac": [
+    "Sorun senedde değil metindedir.",
+    "Metne yeni bir söz eklenmemiştir.",
+    "Kelime noktaları değil isimlerin yerleri değişmiştir.",
+    "Doğru: takdim-tehir maklûbdur.",
+    "Sahih rivayet tercih edilebildiği için muztarib değildir."
+   ],
+   "kay": "Buhârî, Ezân, 11; Konu: Maklûb"
+  },
+  {
+   "id": "hd4-05",
+   "z": 2,
+   "s": "Görünüşte sahih olduğu hâlde, bir râvinin vehmi sonucu mevkûf olan bir rivayeti merfû göstermesi gibi, ancak uzman hadisçilerin bütün yolları karşılaştırarak fark edebildiği gizli bir kusur taşıyan hadise ne ad verilir?",
+   "c": [
+    "Müdelles",
+    "Muallel",
+    "Şâz",
+    "Münker",
+    "Metrûk"
+   ],
+   "d": 1,
+   "a": "Görünüşte sahih olup gizli bir kusur (illet) taşıyan hadise muallel (ma’lûl) denir; illeti bulan âlime muallil denir.",
+   "ac": [
+    "Müdelleste râvi kopukluğu bilerek gizler; burada kusur vehimden kaynaklanır.",
+    "Doğru: gizli illet taşıyan hadis mualleldir.",
+    "Şâz, sika râvinin daha sikaya aykırı rivayetidir.",
+    "Münker, zayıf râvinin sikaya aykırı rivayetidir.",
+    "Metrûk, yalanla itham edilen râvinin rivayetidir."
+   ],
+   "kay": "Konu: Muallel"
+  },
+  {
+   "id": "hd4-06",
+   "z": 3,
+   "s": "Tedlîs türleriyle ilgili\nI. Tedlîsü’ş-şuyûhta râvi, hocasını bilinmeyen bir künye veya lakapla anarak tanınmaz hâle getirir.\nII. Tedlîsü’t-tesviye, iki güvenilir râvi arasındaki zayıf bir râvinin düşürülmesiyle yapılır ve tedlîsin en kötüsü sayılır.\nIII. Güvenilir bir müdellisin “haddesenâ” lafzıyla yaptığı rivayet, işittiğini açıkça gösterdiği için kabul edilir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Şuyûh tedlîsinde hocanın kimliği gizlenir; tesviye tedlîsi en kötü türdür; sika müdellisin açık işitme lafzıyla rivayeti kabul edilir. Üç ifade de doğrudur.",
+   "ac": [
+    "II ve III de doğrudur.",
+    "I ve III de doğrudur.",
+    "II de doğrudur.",
+    "I de doğrudur.",
+    "Doğru: üç ifade de doğrudur."
+   ],
+   "kay": "İbn Hacer, Nüzhetü’n-nazar; Konu: Tedlîs"
+  },
+  {
+   "id": "hd4-07",
+   "z": 3,
+   "s": "Zayıf hadislerle fezâil-i a’mâl konusunda amel edilebileceğini söyleyen âlimler bazı şartlar ileri sürmüştür.\n\nAşağıdakilerden hangisi bu şartlardan biri değildir?",
+   "c": [
+    "Hadisin zayıflığının şiddetli olmaması",
+    "Râvisinin yalancı veya yalanla itham edilmiş olmaması",
+    "Hadisin dinin genel bir aslına dayanması",
+    "Hadisin helal ve haram hükümler koyan bir hadis olması",
+    "Amel ederken hadisin kesin olarak Hz. Peygamber’e ait olduğuna inanılmaması"
+   ],
+   "d": 3,
+   "a": "Zayıf hadis helal-haram (ahkâm) konularında delil olamaz; şartlı kabul ancak fezâil, terğîb ve terhîb konularındadır. Diğer seçenekler İbn Hacer’in özetlediği şartlardır.",
+   "ac": [
+    "Bu bir şarttır.",
+    "Bu da şiddetli zayıflık şartının bir ifadesidir.",
+    "Bu bir şarttır.",
+    "Doğru: tam tersine, ahkâm konularında zayıf hadis delil olmaz.",
+    "Bu bir şarttır: ihtiyatla amel edilir."
+   ],
+   "kay": "Süyûtî, Tedrîbü’r-râvî; Konu: Zayıf hadisle amel"
+  },
+  {
+   "id": "hd4-08",
+   "z": 3,
+   "s": "Bir râvi hakkında hadis âlimleri şu bilgiyi vermektedir: “Hadiste yalan söylediği kesin olarak tespit edilmemiştir; ancak günlük konuşmalarında yalan söylediği bilinmektedir. Bu yüzden tek başına rivayet ettiği hadisler terk edilmiştir.”\n\nBu râvinin tek kaldığı rivayet ve râvideki kusurun adı aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Mevzû – kizbü’r-râvî",
+    "Münker – fıskü’r-râvî",
+    "Metrûk – ittihâmü’r-râvî bi’l-kizb",
+    "Muallel – vehim",
+    "Mübhem – cehâletü’r-râvî"
+   ],
+   "d": 2,
+   "a": "Hadiste yalanı sabit olmayıp yalanla itham edilen râvinin tek kaldığı rivayete metrûk (matrûh) denir; kusur ittihâmü’r-râvî bi’l-kizbdir.",
+   "ac": [
+    "Mevzû, hadiste yalan söylediği sabit olan râvinin rivayetidir.",
+    "Fısk, emir ve yasaklara uymamaktır; yalanla itham ayrı bir kusurdur.",
+    "Doğru: yalanla itham → metrûk.",
+    "Vehim yanılmadır; ahlaki kusur değildir.",
+    "Cehâlet râvinin tanınmamasıdır."
+   ],
+   "kay": "Konu: Metrûk"
+  },
+  {
+   "id": "h2-03",
+   "z": 1,
+   "s": "Aşağıdakilerden hangisi bir hadisin sahih kabul edilmesi için aranan şartlardan biri değildir?",
+   "c": [
+    "Her tabakada en az üç râvinin bulunması",
+    "Râvilerin adil olması",
+    "Râvilerin tam zabt sahibi olması",
+    "Senedin baştan sona kesintisiz olması",
+    "Hadisin gizli bir kusur (illet) taşımaması"
+   ],
+   "d": 0,
+   "a": "Râvi sayısı sahihliğin şartı değildir; tek râviyle gelen (garîb) bir hadis de sahih olabilir. Diğer seçenekler sahih hadisin şartlarıdır; beşinci şart hadisin şâz olmamasıdır.",
+   "ac": [
+    "Doğru: bu meşhur hadisin tanımıdır, sahihliğin şartı değildir.",
+    "Adalet sahihliğin şartıdır.",
+    "Tam zabt sahihliğin şartıdır.",
+    "İttisal sahihliğin ilk şartıdır.",
+    "İlletten uzak olmak sahihliğin şartıdır."
+   ],
+   "kay": "İbnü’s-Salâh, Mukaddime: sahih hadis"
+  },
+  {
+   "id": "h2-10",
+   "z": 2,
+   "s": "Zayıf bir râvinin, güvenilir râvilerin rivayetine aykırı olarak naklettiği hadis ile buna karşılık güvenilir râvilerin naklettiği tercih edilen hadis aşağıdaki kavram çiftlerinden hangisiyle ifade edilir?",
+   "c": [
+    "Mütâbi’ – Şâhid",
+    "Muhkem – Muhtelif",
+    "Münker – Ma’rûf",
+    "Şâz – Mahfûz",
+    "Nâsih – Mensûh"
+   ],
+   "d": 2,
+   "a": "Zayıf râvinin güvenilirlere aykırı rivayeti münker, karşısındaki tercih edilen rivayet ma’rûftur. Aykırı rivayet eden güvenilir bir râvi olsaydı şâz – mahfûz çifti söz konusu olurdu.",
+   "ac": [
+    "Mütâbi’ – şâhid destekleyici rivayetlerdir.",
+    "Muhkem – muhtelif, çelişki bulunup bulunmamasıyla ilgilidir.",
+    "Doğru: zayıf → münker, tercih edilen → ma’rûf.",
+    "Şâz’da aykırı rivayet eden râvi güvenilirdir; burada zayıftır.",
+    "Nâsih – mensûh hükmün kaldırılmasıyla ilgilidir."
+   ],
+   "kay": "İbn Hacer, Nuhbetü’l-fiker"
+  },
+  {
+   "id": "h2-11",
+   "z": 2,
+   "s": "Bir râvi, Hz. Peygamber’in sözünü naklettikten sonra kendi açıklamasını ara vermeden ve ayırt edilemeyecek biçimde eklemiş; sonraki râviler bu açıklamayı da hadisin bir parçası sanarak aktarmıştır.\n\nBu tür hadise ne ad verilir?",
+   "c": [
+    "Maklûb",
+    "Muztarib",
+    "Musahhaf",
+    "Müdrec",
+    "Muallel"
+   ],
+   "d": 3,
+   "a": "Râvinin kendi sözünü hadisin içine katmasına idrâc, bu hadise müdrec denir.",
+   "ac": [
+    "Maklûbda kelime veya isimlerin yeri değişir.",
+    "Muztaribde denk farklı rivayetler tercih edilemez.",
+    "Musahhafta noktalar değişir.",
+    "Doğru: râvinin sözü hadise karışmıştır.",
+    "Muallelde gizli bir illet vardır; idrâc bunun özel bir adıdır."
+   ],
+   "kay": "Hadis usulü: müdrec"
+  },
+  {
+   "id": "h2-12",
+   "z": 2,
+   "s": "“Hasen hadis” ile ilgili\nI. Râvilerinden birinin zabtı, sahih hadis râvisine göre biraz zayıftır.\nII. Senedi kesintisizdir.\nIII. Makbul hadislerdendir ve delil olarak kullanılabilir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Hasen hadis, sahih hadisin bütün şartlarını taşır; tek farkı bir râvisinin zabtının biraz zayıf olmasıdır. Senedi muttasıldır ve makbuldür.",
+   "ac": [
+    "II ve III de doğrudur.",
+    "III de doğrudur.",
+    "II de doğrudur; senedi kesintisizdir.",
+    "I de doğrudur; hasenin ayırt edici özelliği budur.",
+    "Doğru: üç ifade de hasen hadisin özelliğidir."
+   ],
+   "kay": "Tirmizî, el-İlel; İbnü’s-Salâh, Mukaddime"
+  },
+  {
+   "id": "h2-13",
+   "z": 3,
+   "s": "Bir hadis, birbirine denk güçte birkaç farklı şekilde rivayet edilmiştir. Rivayetler arasındaki farklılık anlamı etkileyecek düzeydedir; âlimler hiçbirini diğerine tercih edecek bir sebep bulamamış, rivayetleri uzlaştıramamıştır.\n\nBu durumdaki hadise ne ad verilir?",
+   "c": [
+    "Şâz",
+    "Muztarib",
+    "Maklûb",
+    "Muallel",
+    "Münker"
+   ],
+   "d": 1,
+   "a": "Denk güçteki farklı rivayetlerden hiçbirinin tercih edilemediği ve uzlaştırılamadığı hadise muztarib denir. Biri tercih edilebilseydi tercih edilen mahfûz veya ma’rûf, diğeri şâz veya münker olurdu.",
+   "ac": [
+    "Şâzda güçlü olan rivayet tercih edilir; burada tercih yapılamıyor.",
+    "Doğru: tercih edilemeyen denk farklılık ıztıraptır.",
+    "Maklûbda belirli bir takdim-tehir hatası tespit edilir.",
+    "Muallelde gizli bir kusur bulunur; burada sorun açık bir farklılıktır.",
+    "Münkerde zayıf râvi güvenilirlere aykırıdır; denklik yoktur."
+   ],
+   "kay": "Hadis usulü: muztarib"
+  },
+  {
+   "id": "h2-14",
+   "z": 3,
+   "s": "Hadis kitaplarını karşılaştıran bir araştırmacı, aynı hadisin bir nüshasında bir kelimenin noktalarının farklı konulmasıyla bambaşka bir kelimeye dönüştüğünü tespit etmiştir.\n\nBu hata türünü taşıyan hadise ne ad verilir?",
+   "c": [
+    "Muharref",
+    "Müdrec",
+    "Maktû’",
+    "Mu’dal",
+    "Musahhaf"
+   ],
+   "d": 4,
+   "a": "Kelimenin noktalarının değiştirilmesi tashîf, bu hadis musahhaftır. Harekelerin veya şeklin değiştirilmesi ise tahrîf (muharref) olarak adlandırılır.",
+   "ac": [
+    "Muharrefte değişen harekelerdir.",
+    "Müdrecte metne râvinin sözü karışır.",
+    "Maktû’ tâbiûna ait sözdür.",
+    "Mu’dal senetteki kopukluktur.",
+    "Doğru: nokta değişikliği tashîftir."
+   ],
+   "kay": "Hadis usulü: musahhaf ve muharref"
+  },
+  {
+   "id": "h2-19",
+   "z": 3,
+   "s": "Bir râvi, görüştüğü ve başka hadisler dinlediği bir hocasından bizzat duymadığı bir hadisi, aradaki kişiyi zikretmeden “Falan kişiden (an fulân)” ifadesiyle nakletmiş ve böylece hadisi o hocadan duymuş izlenimi vermiştir.\n\nBu rivayet hangi isimle anılır?",
+   "c": [
+    "Müdelles",
+    "Maklûb",
+    "Mu’dal",
+    "Muallak",
+    "Muztarib"
+   ],
+   "d": 0,
+   "a": "Senetteki kopukluğu gizleyerek hadisi duymuş izlenimi vermek tedlîsü’l-isnâddır; bu hadise müdelles, yapan râviye müdellis denir.",
+   "ac": [
+    "Doğru: kopukluk gizlenmiştir; bu tedlîstir.",
+    "Maklûbda isim veya kelimelerin yeri değişir.",
+    "Mu’dalda iki veya daha fazla râvi açıkça düşer.",
+    "Muallakta kopukluk açıktır ve senedin başındadır.",
+    "Muztaribde denk farklı rivayetler söz konusudur."
+   ],
+   "kay": "Hadis usulü: tedlîs"
+  },
+  {
+   "id": "h2-16",
+   "z": 3,
+   "s": "Bir hadisin destekleyici rivayetlerini araştıran bir öğrenci, aynı anlamı taşıyan bir rivayetin bu kez başka bir sahabiden geldiğini tespit etmiştir.\n\nÖğrencinin bulduğu bu destekleyici rivayete ne ad verilir?",
+   "c": [
+    "Mütâbi’",
+    "Mahfûz",
+    "Ma’rûf",
+    "Şâhid",
+    "Müsned"
+   ],
+   "d": 3,
+   "a": "Aynı sahabiden başka bir yolla gelen destekleyici rivayet mütâbi’, farklı bir sahabiden gelen ve aynı anlamı taşıyan rivayet şâhiddir.",
+   "ac": [
+    "Mütâbi’de sahabi aynıdır; yalnız alt tabakalar farklıdır.",
+    "Mahfûz, şâzın karşısındaki tercih edilen rivayettir.",
+    "Ma’rûf, münkerin karşısındaki tercih edilen rivayettir.",
+    "Doğru: farklı sahabiden gelen aynı anlamlı rivayet şâhiddir.",
+    "Müsned, senedi Hz. Peygamber’e kadar bağlantılı hadis veya bir eser türüdür."
+   ],
+   "kay": "Hadis usulü: i’tibâr, mütâbi’, şâhid"
+  },
+  {
+   "id": "h1-14",
+   "z": 3,
+   "s": "Bir râvi, rivayetlerinin büyük kısmında hata yapmasıyla tanınmaktadır. Bu râvinin tek başına naklettiği, başka bir yoldan desteklenmeyen rivayetler hadisçiler tarafından kabul görmemiştir.\n\nBu tür rivayetler hadis usulünde hangi isimle anılır?",
+   "c": [
+    "Mevzu",
+    "Metruk",
+    "Münker",
+    "Muallel",
+    "Maklûb"
+   ],
+   "d": 2,
+   "a": "Fuhş-ı galat (çok hata), kesret-i gaflet ve fısk kusurlarından birini taşıyan râvinin rivayeti münker olarak adlandırılır.",
+   "ac": [
+    "Mevzu, hadiste yalan söylediği sabit olan râvinin rivayetidir.",
+    "Metruk, yalancılıkla itham edilen râvinin rivayetidir.",
+    "Doğru: çok hata yapan râvinin tek kaldığı rivayet münkerdir.",
+    "Muallel, vehim sonucu gizli kusur taşıyan hadistir.",
+    "Maklûb, senette veya metinde takdim-tehir yapılmış hadistir."
+   ],
+   "kay": "İbn Hacer, Nuhbetü’l-fiker"
+  }
+ ]
+}

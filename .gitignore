@@ -6,9 +6,9 @@ __pycache__/
 
 # Kadem: düz içerik yayına gitmez, yalnız şifreli .enc dosyaları gider (tools/kadem/sifre.py)
 # Açık olanlar: sınav dosyaları (data/kadem/*.json), ilk dersin ilk konusu (konu/kuran-1.json) ve 1. MBSTS denemesi
-data/kadem/konu/*.json
-data/kadem/deneme/*.json
-!data/kadem/konu/kuran-1.json
-!data/kadem/deneme/mbsts-1.json
+# (şimdilik ücretsiz, kapalı) data/kadem/konu/*.json
+# (şimdilik ücretsiz, kapalı) data/kadem/deneme/*.json
+# (şimdilik ücretsiz, kapalı) !data/kadem/konu/kuran-1.json
+# (şimdilik ücretsiz, kapalı) !data/kadem/deneme/mbsts-1.json
 # YDS Arapça bankası şifreli gider (banka.enc); açık örnek ornek.json
-data/yds/banka.json
+# (şimdilik ücretsiz, kapalı) data/yds/banka.json

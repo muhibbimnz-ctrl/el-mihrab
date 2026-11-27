@@ -1,0 +1,583 @@
+{
+ "id": "fikih-20",
+ "ad": "Muamelat 2: İcâre (Kira), Şirketler (İnân, Mufâvaza, Mudârebe, Müzâraa), Karz, Âriyet, Vedîa, Hibe, Rehin, Kefalet, Havale, Vekâlet, Şuf’a, Vakıf; Gasp ve İtlaf",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. İcâre: Menfaatin satışı"
+  },
+  {
+   "merak": "Bir terzi, müşterisinin kumaşını dikerken dükkânında çıkan bir yangında kumaş yanar. Bir başka gün, sadece bir müşteri için çalışan bir aşçının elinden tencere düşüp kırılır. Kim neyi tazmin eder? Fıkıh, işçiyi “herkese çalışan” ve “yalnız birine çalışan” diye ikiye ayırır."
+  },
+  "İcâre, bir menfaatin belirli bir bedel karşılığında satılmasıdır; kira ve hizmet akitlerini kapsar. Konusu, ev ve araç gibi eşyanın kullanımı ya da insanın emeğidir. İcârede menfaat ve ücret belirli olmalıdır; süre ya da yapılacak iş tanımlanmalıdır. Kiralanan şey kiracının elinde emanettir; kiracı kusuru veya ihmali olmadan meydana gelen zararı tazmin etmez. İşçiler iki gruptur: Belirli bir süre yalnız bir işverene çalışan ecîr-i hâs (özel işçi) ve terzi, boyacı gibi herkese iş yapan ecîr-i müşterek (ortak işçi). Ecîr-i hâs, kusuru olmadıkça zararı tazmin etmez. Ecîr-i müşterek ise Ebû Hanîfe’ye göre kusuru olmadıkça tazmin etmez; İmâmeyn’e göre önlenebilir sebeplerle oluşan zararı tazmin eder.",
+  {
+   "tablo": [
+    [
+     "İşçi türü",
+     "Tanım",
+     "Sorumluluk"
+    ],
+    [
+     "Ecîr-i hâs",
+     "Belli sürede yalnız bir kişiye çalışan",
+     "Kusur ve ihmal yoksa tazmin etmez"
+    ],
+    [
+     "Ecîr-i müşterek",
+     "Birçok kişiye iş yapan (terzi, boyacı)",
+     "Ebû Hanîfe: kusur yoksa tazmin etmez; İmâmeyn: önlenebilir zararı tazmin eder"
+    ]
+   ]
+  },
+  {
+   "akil": "İcâre = menfaat satışı; menfaat ve ücret belirli. Kiralanan emanettir. Ecîr-i hâs – ecîr-i müşterek ayrımı; müşterekte İmâmeyn daha ağır sorumluluk yükler."
+  },
+  {
+   "b": "2. Şirketler: Ortaklık türleri"
+  },
+  "Şirket, iki veya daha fazla kişinin bir mal ya da iş üzerinde ortak olmasıdır. Şirket-i emlâk, miras veya ortak satın alma gibi yollarla oluşan mülk ortaklığıdır. Şirket-i ukûd ise sözleşmeyle kurulan ortaklıktır ve çeşitli türleri vardır. Bunlardan inân şirketi en yaygın olanıdır; ortakların sermayeleri ve kâr payları farklı olabilir. Mufâvaza şirketinde ise ortakların sermaye, kâr, sorumluluk ve tasarruf yetkileri tamamen eşittir; Hanefîler kabul eder, Şâfiîler kabul etmez.",
+  {
+   "tablo": [
+    [
+     "Şirket türü",
+     "Tanım",
+     "Not"
+    ],
+    [
+     "İnân",
+     "Sermaye ortaklığı; sermaye ve kâr payları farklı olabilir",
+     "Bütün mezheplerce caiz; en yaygın tür"
+    ],
+    [
+     "Mufâvaza",
+     "Her bakımdan tam eşitlik",
+     "Hanefî caiz, Şâfiî caiz görmez"
+    ],
+    [
+     "A’mâl (ebdân, sanâyi)",
+     "Emek ortaklığı (iki terzinin birlikte iş alması)",
+     "Şâfiî caiz görmez"
+    ],
+    [
+     "Vücûh",
+     "Sermayesiz, itibarla veresiye alıp satma",
+     "Şâfiî ve Mâlikî caiz görmez"
+    ],
+    [
+     "Mudârebe",
+     "Birinden sermaye, diğerinden emek; kâr anlaşmaya göre paylaşılır, zarar sermaye sahibine ait",
+     "Emek sahibi kusuru yoksa zarara katılmaz"
+    ],
+    [
+     "Müzâraa",
+     "Biri toprak, diğeri emek; ürün oranlı paylaşılır",
+     "Ebû Hanîfe caiz görmez; İmâmeyn caiz görür, fetva İmâmeyn’e göre"
+    ],
+    [
+     "Musâkāt",
+     "Bahçe sahibi ile bakıcı arasında ürün ortaklığı",
+     "Hayber uygulaması dayanak"
+    ]
+   ]
+  },
+  "Mudârebe, İslam ticaret hukukunun en önemli finansman yöntemlerinden biridir ve günümüzde katılım bankacılığının dayanaklarındandır. Mudârebede emek sahibi (mudârib) sermayeyi emanet olarak kullanır; kusuru yoksa zarardan sorumlu değildir, ama emeğinin karşılığını alamamış olur. Kârın oranı akitte belirlenmelidir; taraflardan birine sabit bir miktar şart koşmak akdi fâsit kılar, çünkü bu faize benzer.",
+  {
+   "sinav": "Mudârebede zararın sermaye sahibine ait olması ve sabit kâr şartının akdi bozması, müzâraada Ebû Hanîfe-İmâmeyn farkı, mufâvaza ve inân ayrımı sık sorulur."
+  },
+  {
+   "akil": "İnân: farklı sermaye ve kâr. Mufâvaza: tam eşitlik (Hanefî). Mudârebe: sermaye + emek; kâr oranla, zarar sermayeye; sabit kâr şartı fâsit. Müzâraa: Ebû Hanîfe hayır, İmâmeyn evet (fetva)."
+  },
+  {
+   "b": "3. Karz, âriyet, vedîa, hibe ve rehin"
+  },
+  {
+   "merak": "Bir kişi komşusundan matkap ister, bir başkası 1000 lira borç alır, bir üçüncüsü tatile giderken altınlarını komşusuna bırakır. Üçü de “emanet” gibi görünür, ama fıkıhta hükümleri farklıdır."
+  },
+  {
+   "tablo": [
+    [
+     "Akit",
+     "Tanım",
+     "Temel hüküm"
+    ],
+    [
+     "Karz",
+     "Mislî bir malın (para gibi) misli geri verilmek üzere ödünç verilmesi",
+     "Fazlalık şart koşulursa faizdir; karz-ı hasen sevaptır"
+    ],
+    [
+     "Âriyet",
+     "Bir malın kullanımının karşılıksız verilmesi",
+     "Alanın elinde emanettir; kusursuz telefte tazmin yok; aynen iade edilir"
+    ],
+    [
+     "Vedîa",
+     "Bir malın korunmak üzere bırakılması",
+     "Emanettir; kusur ve ihmal olmadan telef olursa tazmin edilmez; kullanılamaz"
+    ],
+    [
+     "Hibe",
+     "Bir malın karşılıksız olarak hayattayken temlik edilmesi",
+     "Kabz (teslim) ile tamamlanır; Hanefîlere göre bazı engeller (akrabalık, karşılık alma, malın değişmesi, ölüm) yoksa geri alınabilir, ama mekruhtur"
+    ],
+    [
+     "Rehin",
+     "Borca karşılık bir malın güvence olarak tutulması",
+     "Rehin alan kullanamaz; borç ödenmezse rehin satılıp alacak alınır"
+    ]
+   ]
+  },
+  "Hibede geri dönmenin engelleri Hanefîlerde şöyle sıralanır: Hibe edilenin mahrem akraba olması, eşler arasında yapılması, karşılığının alınmış olması, hibe edilen malın artması veya şeklinin değişmesi, taraflardan birinin ölmesi ve malın elden çıkması. Diğer mezheplere göre ise babanın çocuğuna yaptığı hibe dışında hibeden dönülemez; dayanakları “Hibesinden dönen, kustuğunu yiyen köpek gibidir” hadisidir.",
+  {
+   "akil": "Karz: misli iade, fazlalık şartı faiz. Âriyet: kullanım ödüncü, aynen iade. Vedîa: koruma emaneti, kullanılmaz. Emanetlerde kusursuz telefte tazmin yok. Hibe kabzla tamam. Rehinden yararlanılmaz."
+  },
+  {
+   "b": "4. Kefalet, havale, vekâlet, şuf’a ve vakıf"
+  },
+  "Kefalet, bir borcun ödenmesi ya da bir kişinin getirilmesi konusunda başkasının sorumluluğuna katılmaktır; alacaklı borçluya ya da kefile başvurabilir. Havale, borcun bir kişinin zimmetinden başka birinin zimmetine nakledilmesidir; asıl borçlu borçtan kurtulur. Vekâlet, bir kişinin kendi yapabileceği bir işte başkasını kendi yerine koymasıdır; vekil emindir.",
+  "Şuf’a (önalım hakkı), satılan bir gayrimenkulü, alıcıya mal olduğu bedelle zorla alma hakkıdır; amacı ortaklık ve komşuluktan doğabilecek zararı önlemektir. Hanefîlere göre şuf’a hakkı sırasıyla satılan maldaki ortağa, yol ve su hakkı gibi irtifak haklarındaki ortağa ve bitişik komşuya aittir. Diğer mezheplere göre ise yalnız ortağa aittir. Şuf’a hakkı sahibi satışı öğrenince hemen talep etmelidir; geciktirirse hakkı düşer.",
+  "Vakıf, bir malın mülkiyetinin Allah’a nispet edilerek menfaatinin belirlenen hayır yönlerine ebedî olarak tahsis edilmesidir. Ebû Hanîfe’ye göre vakıf, hâkim hükmü veya vasiyet yoluyla olmadıkça bağlayıcı (lâzım) değildir ve vâkıf dönebilir; İmâmeyn’e göre ise vakıf lâzımdır ve dönülemez; fetva İmâmeyn’e göredir. Ebû Yûsuf’a göre vakıf sözle, İmam Muhammed’e göre mütevelliye teslimle tamamlanır. Para vakıfları Osmanlı’da Ebüssuûd Efendi’nin fetvasıyla yaygınlaşmıştır.",
+  {
+   "tablo": [
+    [
+     "Kurum",
+     "Özü",
+     "Not"
+    ],
+    [
+     "Kefalet",
+     "Borca ortak sorumluluk",
+     "Alacaklı borçluya ya da kefile başvurabilir"
+    ],
+    [
+     "Havale",
+     "Borcun başkasına nakli",
+     "Asıl borçlu kurtulur"
+    ],
+    [
+     "Vekâlet",
+     "Başkasını kendi yerine koyma",
+     "Vekil emindir"
+    ],
+    [
+     "Şuf’a",
+     "Satılan gayrimenkulü bedeliyle alma hakkı",
+     "Hanefî: ortak → irtifak ortağı → bitişik komşu; diğer mezhepler: yalnız ortak"
+    ],
+    [
+     "Vakıf",
+     "Menfaatin ebedî hayra tahsisi",
+     "Ebû Hanîfe: lâzım değil; İmâmeyn: lâzım (fetva)"
+    ],
+    [
+     "Gasp",
+     "Başkasının malını zorla alma",
+     "Mal aynen, telef olmuşsa misli veya kıymeti iade edilir"
+    ]
+   ]
+  },
+  {
+   "sinav": "Şuf’a hakkının Hanefîlerde bitişik komşuya da tanınması, havalede asıl borçlunun kurtulması, vakfın bağlayıcılığında Ebû Hanîfe-İmâmeyn farkı sık sorulur."
+  },
+  {
+   "akil": "Kefalet: borçlu + kefil. Havale: borç nakli, borçlu kurtulur. Şuf’a: Hanefî ortak-irtifak-komşu. Vakıf: Ebû Hanîfe lâzım değil, İmâmeyn lâzım (fetva). Gasp: aynen ya da misil/kıymet."
+  }
+ ],
+ "ozet": [
+  "İcâre, bir menfaatin belirli bir bedel karşılığında satılmasıdır; menfaat ve ücret belirli olmalıdır.",
+  "Kiralanan şey kiracının elinde emanettir; kusursuz telefte tazmin yoktur.",
+  "Ecîr-i hâs yalnız bir kişiye, ecîr-i müşterek herkese çalışan işçidir; ecîr-i müşterekin sorumluluğu İmâmeyn’e göre daha geniştir.",
+  "Şirket-i emlâk mülk ortaklığı, şirket-i ukûd sözleşmeye dayalı ortaklıktır.",
+  "İnân şirketinde sermaye ve kâr payları farklı olabilir; mufâvazada her şey eşittir.",
+  "Mudârebede sermaye birinden emek diğerinden olur; kâr oranla paylaşılır, zarar sermaye sahibine aittir.",
+  "Mudârebede bir tarafa sabit kâr şart koşmak akdi fâsit kılar.",
+  "Müzâraayı Ebû Hanîfe caiz görmez; İmâmeyn caiz görür ve fetva onlara göredir.",
+  "Karzda fazlalık şart koşmak faizdir.",
+  "Âriyet kullanım ödüncüdür; vedîa korunmak üzere bırakılan emanettir; ikisinde de kusursuz telefte tazmin yoktur.",
+  "Hibe kabzla tamamlanır; Hanefîlere göre bazı engeller yoksa geri alınabilir ama mekruhtur.",
+  "Havalede borç başkasına nakledilir ve asıl borçlu kurtulur; kefalette borçlu kurtulmaz.",
+  "Hanefîlere göre şuf’a hakkı ortağa, irtifak ortağına ve bitişik komşuya aittir.",
+  "Ebû Hanîfe’ye göre vakıf lâzım değildir; İmâmeyn’e göre lâzımdır ve fetva bu görüşe göredir."
+ ],
+ "kartlar": [
+  {
+   "o": "İcâre",
+   "a": "Menfaatin bedel karşılığı satışı (kira, hizmet)."
+  },
+  {
+   "o": "Ecîr-i müşterek",
+   "a": "Herkese iş yapan işçi; terzi, boyacı."
+  },
+  {
+   "o": "İnân şirketi",
+   "a": "Sermaye ve kâr payları farklı olabilen ortaklık."
+  },
+  {
+   "o": "Mufâvaza",
+   "a": "Her bakımdan eşit ortaklık; Hanefî caiz görür."
+  },
+  {
+   "o": "Mudârebe",
+   "a": "Sermaye + emek; zarar sermayeye, kâr oranla."
+  },
+  {
+   "o": "Müzâraa",
+   "a": "Toprak + emek; Ebû Hanîfe hayır, İmâmeyn evet (fetva)."
+  },
+  {
+   "o": "Karz",
+   "a": "Para gibi mislî malın ödünç verilmesi; fazlalık şartı faiz."
+  },
+  {
+   "o": "Âriyet",
+   "a": "Kullanımın karşılıksız verilmesi; aynen iade."
+  },
+  {
+   "o": "Vedîa",
+   "a": "Korunmak üzere bırakılan emanet; kullanılmaz."
+  },
+  {
+   "o": "Hibe",
+   "a": "Karşılıksız temlik; kabzla tamam."
+  },
+  {
+   "o": "Havale",
+   "a": "Borcun başkasına nakli; asıl borçlu kurtulur."
+  },
+  {
+   "o": "Kefalet",
+   "a": "Borca ortak sorumluluk; borçlu kurtulmaz."
+  },
+  {
+   "o": "Şuf’a (Hanefî)",
+   "a": "Ortak → irtifak ortağı → bitişik komşu."
+  },
+  {
+   "o": "Vakfın bağlayıcılığı",
+   "a": "Ebû Hanîfe: lâzım değil; İmâmeyn: lâzım (fetva)."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "fq20-01",
+   "z": 3,
+   "s": "Ali, Veli’ye ticaret yapması için 100.000 TL sermaye vermiş; kârın yüzde 60’ı Ali’ye, yüzde 40’ı Veli’ye ait olmak üzere anlaşmışlardır. Veli’nin hiçbir kusuru ve ihmali olmadan piyasa şartları yüzünden işlem 20.000 TL zararla sonuçlanmıştır.\n\nBu akit ve zararın kime ait olduğu aşağıdakilerden hangisinde doğru verilmiştir?",
+   "c": [
+    "İnân şirketi – zarar yarı yarıya paylaşılır",
+    "Karz – Veli 100.000 TL’yi tam olarak geri öder",
+    "Mudârebe – zarar kâr oranında (yüzde 60-40) paylaşılır",
+    "Müzâraa – zarar Veli’ye aittir",
+    "Mudârebe – zarar sermaye sahibi Ali’ye aittir; Veli emeğinin karşılığını alamaz"
+   ],
+   "d": 4,
+   "a": "Biri sermaye, diğeri emek koyduğu için akit mudârebedir. Mudâribin kusuru yoksa zarar sermaye sahibine aittir; mudârib ise emeğinin karşılığını alamamış olur.",
+   "ac": [
+    "Veli sermaye koymadığı için inân değildir.",
+    "Karz ödünç para akdidir; burada ortaklık vardır.",
+    "Mudârebede zarar kâr oranına göre paylaşılmaz.",
+    "Müzâraa tarım ortaklığıdır.",
+    "Doğru."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, III"
+  },
+  {
+   "id": "fq20-02",
+   "z": 3,
+   "s": "I. Mudârebede emek sahibine her ay sabit 5.000 TL kâr şart koşulması\nII. Karz olarak verilen 10.000 TL’nin 11.000 TL olarak geri ödenmesinin şart koşulması\nIII. Kira akdinde kira bedelinin ve süresinin belirlenmesi\n\nYukarıdakilerden hangileri akdi fâsit kılar ya da faiz niteliği taşır?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "II ve III",
+    "I ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "Mudârebede sabit kâr şartı akdi fâsit kılar; karzda fazlalık şartı faizdir. Kira bedelinin ve süresinin belirlenmesi ise icârenin sıhhat şartıdır.",
+   "ac": [
+    "Karzdaki fazlalık şartı da faizdir.",
+    "Doğru.",
+    "Üçüncü durum akdin sıhhat şartıdır.",
+    "Üçüncü durum akdi bozmaz.",
+    "Üçüncü durum akdi bozmaz."
+   ],
+   "kay": "Kâsânî, Bedâi‘, VI"
+  },
+  {
+   "id": "fq20-03",
+   "z": 2,
+   "s": "Ahmet, Mehmet’e olan 5.000 TL borcunu, kendisinden 5.000 TL alacaklı olduğu Ali’ye ödettirmek üzere anlaşmış; Mehmet ve Ali de bunu kabul etmiştir.\n\nBu işlemin adı ve sonucu aşağıdakilerden hangisidir?",
+   "c": [
+    "Havale – Ahmet borçtan kurtulur; Mehmet alacağını Ali’den ister",
+    "Kefalet – Mehmet hem Ahmet’ten hem Ali’den isteyebilir",
+    "Vekâlet – Ali, Ahmet’in vekili olur ve Ahmet’in borcu devam eder",
+    "Rehin – Ali’nin borcu rehin olarak tutulur",
+    "Hibe – Ahmet borcunu Mehmet’e bağışlamıştır"
+   ],
+   "d": 0,
+   "a": "Borcun başkasının zimmetine nakli havaledir; asıl borçlu borçtan kurtulur.",
+   "ac": [
+    "Doğru.",
+    "Kefalette asıl borçlu kurtulmaz.",
+    "İşlem borcun nakli olduğu için havaledir.",
+    "Rehin bir malın güvence olarak tutulmasıdır.",
+    "Hibe söz konusu değildir."
+   ],
+   "kay": "Mecelle, md. 673, 690"
+  },
+  {
+   "id": "fq20-04",
+   "z": 3,
+   "s": "Bir ev satılmıştır. Evin hissedarı olmayan, ancak evin yolunu ortak kullanan bir kişi ile evin bitişiğindeki ev sahibi, evi alıcıya mal olduğu bedelle almak istemektedir.\n\nHanefî mezhebine göre bu kişilerle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Hiçbirinin şuf’a hakkı yoktur; şuf’a yalnız hissedara aittir.",
+    "Her ikisi eşit haklıdır ve evi paylaşırlar.",
+    "Yalnız bitişik komşunun hakkı vardır.",
+    "Her ikisinin de şuf’a hakkı vardır; ancak yol ortağı bitişik komşudan önce gelir.",
+    "Şuf’a hakkı ancak satıcı izin verirse doğar."
+   ],
+   "d": 3,
+   "a": "Hanefîlere göre şuf’a hakkı sırasıyla ortağa, irtifak ortağına (yol, su) ve bitişik komşuya aittir. Burada hissedar olmadığına göre önce yol ortağı, sonra bitişik komşu gelir.",
+   "ac": [
+    "Bu diğer mezheplerin görüşüdür.",
+    "Sıralama vardır.",
+    "Yol ortağı komşudan önce gelir.",
+    "Doğru.",
+    "Şuf’a hakkı kanundan doğar."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, II"
+  },
+  {
+   "id": "fq20-05",
+   "z": 3,
+   "s": "Bir kişi tatile giderken altınlarını korunmak üzere komşusuna bırakmıştır. Komşunun evine, onun hiçbir kusuru ve ihmali olmadan hırsız girmiş ve altınları çalmıştır. Başka bir durumda ise komşu, emanet bırakılan altınları kendi düğününde takmış ve altınlar kaybolmuştur.\n\nBu iki durumda komşunun sorumluluğu aşağıdakilerden hangisidir?",
+   "c": [
+    "Birinci durumda tazmin etmez; ikinci durumda emaneti izinsiz kullandığı için tazmin eder.",
+    "İki durumda da tazmin etmez.",
+    "İki durumda da tazmin eder.",
+    "Birinci durumda tazmin eder, ikinci durumda etmez.",
+    "Yalnız altınların yarısını tazmin eder."
+   ],
+   "d": 0,
+   "a": "Vedîa emanettir; kusursuz telefte tazmin yoktur. Ancak emaneti izinsiz kullanmak teaddîdir ve tazmin sorumluluğu doğurur.",
+   "ac": [
+    "Doğru.",
+    "İkinci durumda izinsiz kullanım vardır.",
+    "Birinci durumda kusur yoktur.",
+    "Durum terstir.",
+    "Böyle bir hüküm yoktur."
+   ],
+   "kay": "Mecelle, md. 777, 787"
+  },
+  {
+   "id": "fq20-06",
+   "z": 2,
+   "s": "Hanefî mezhebinde vakfın bağlayıcılığı (lüzûmu) konusunda fetvaya esas olan görüş aşağıdakilerden hangisidir?",
+   "c": [
+    "Ebû Hanîfe’nin görüşü: Vakıf bağlayıcı değildir, vâkıf dönebilir.",
+    "Vakıf ancak padişahın izniyle bağlayıcı olur.",
+    "Vakıf yalnız camiler için bağlayıcıdır.",
+    "İmâmeyn’in görüşü: Vakıf bağlayıcıdır, vâkıf dönemez.",
+    "Vakıf yalnız para vakfıysa bağlayıcıdır."
+   ],
+   "d": 3,
+   "a": "Ebû Hanîfe vakfı âriyete benzetip bağlayıcı saymamış, İmâmeyn bağlayıcı saymıştır; fetva İmâmeyn’e göredir.",
+   "ac": [
+    "Bu Ebû Hanîfe’nin görüşüdür, fetva bu değildir.",
+    "Böyle bir şart yoktur.",
+    "Böyle bir sınırlama yoktur.",
+    "Doğru.",
+    "Böyle bir sınırlama yoktur."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, III"
+  },
+  {
+   "id": "fq20-07",
+   "z": 3,
+   "s": "I. İnân\nII. Mufâvaza\nIII. A’mâl (emek ortaklığı)\nIV. Vücûh\n\nYukarıdaki şirket türlerinden hangilerini Hanefîler caiz görürken Şâfiîler caiz görmez?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 2,
+   "a": "İnân şirketi bütün mezheplerce caizdir. Mufâvaza, a’mâl ve vücûh şirketlerini Hanefîler caiz görür, Şâfiîler caiz görmez.",
+   "ac": [
+    "İnân her iki mezhepte caizdir.",
+    "İnân her iki mezhepte caizdir.",
+    "Doğru.",
+    "İnân Şâfiîlerce de caizdir.",
+    "İnân Şâfiîlerce de caizdir."
+   ],
+   "kay": "İbn Rüşd, Bidâyetü’l-müctehid, II"
+  },
+  {
+   "id": "fq20-08",
+   "z": 2,
+   "s": "Bir kişi komşusundan matkabını birkaç saat kullanmak üzere karşılıksız olarak ödünç almıştır.\n\nBu akdin adı ve hükmü aşağıdakilerden hangisidir?",
+   "c": [
+    "Karz – matkabın benzeri iade edilir",
+    "Hibe – matkap alana ait olur",
+    "Vedîa – matkap kullanılamaz",
+    "İcâre – ücret ödenir",
+    "Âriyet – matkap aynen iade edilir; kusursuz telefte tazmin yoktur"
+   ],
+   "d": 4,
+   "a": "Bir malın kullanımının karşılıksız verilmesi âriyettir; mal aynen iade edilir ve alanın elinde emanettir.",
+   "ac": [
+    "Karz mislî malda olur ve benzeri iade edilir; burada kullanım ödüncü vardır.",
+    "Mülkiyet geçmemiştir.",
+    "Vedîada mal kullanılamaz; burada kullanım için alınmıştır.",
+    "Ücret yoktur.",
+    "Doğru."
+   ],
+   "kay": "Mecelle, md. 765, 813"
+  },
+  {
+   "id": "f10-02",
+   "z": 1,
+   "s": "Bir malın kullanım hakkının karşılıksız olarak başkasına verilmesini konu alan akit hangisidir?",
+   "c": [
+    "Hibe",
+    "Âriyet",
+    "İcâre",
+    "Karz",
+    "Rehin"
+   ],
+   "d": 1,
+   "a": "Malın mülkiyeti değil yalnız kullanımı karşılıksız verilirse âriyettir.",
+   "ac": [
+    "Hibede mülkiyet devredilir.",
+    "Doğru.",
+    "İcâre bedellidir.",
+    "Karzda tüketilen malın misli iade edilir.",
+    "Rehin teminattır."
+   ],
+   "kay": "Fıkıh: akit türleri"
+  },
+  {
+   "id": "f10-04",
+   "z": 2,
+   "s": "Ev almak isteyen Ahmet’e eşi ziynetlerini karşılıksız vermiştir. Para yetmeyince Ahmet arkadaşı Selim’den borç istemiş; Selim, borcun güvencesi için bir mal ve bir kişinin güvencesini istemiştir. Ahmet bunları sağlayıp borcu almış ve vadesinde ödemiştir.\n\nBu metinde aşağıdaki akitlerden hangisinden söz edilmemiştir?",
+   "c": [
+    "Hibe",
+    "Kefâlet",
+    "Vedîa",
+    "Rehin",
+    "Karz"
+   ],
+   "d": 2,
+   "a": "Ziynetlerin karşılıksız verilmesi hibe, borç karz, mal güvencesi rehin, kişi güvencesi kefâlettir. Emanet (vedîa) yoktur.",
+   "ac": [
+    "Ziynetlerin karşılıksız verilmesi hibedir.",
+    "Kişinin güvence olması kefâlettir.",
+    "Doğru: emanetten söz edilmemiştir.",
+    "Malın güvence olması rehindir.",
+    "Borç alınması karzdır."
+   ],
+   "kay": "Fıkıh: akit türleri"
+  },
+  {
+   "id": "f10-06",
+   "z": 2,
+   "s": "Bir kişinin arazisindeki fazla suyu, komşusunun arazisinden geçirerek dışarı akıtma hakkına ne ad verilir?",
+   "c": [
+    "Teâlî",
+    "Şirb",
+    "Mürûr",
+    "Mesîl",
+    "Şuf’a"
+   ],
+   "d": 3,
+   "a": "Atık veya fazla suyu başkasının arazisinden akıtma hakkı mesîldir.",
+   "ac": [
+    "Teâlî üst kat hakkıdır.",
+    "Şirb su alma hakkıdır.",
+    "Mürûr geçiş hakkıdır.",
+    "Doğru.",
+    "Şuf’a öncelikle satın alma hakkıdır."
+   ],
+   "kay": "Mecelle, md. 1224 vd."
+  },
+  {
+   "id": "f10-08",
+   "z": 2,
+   "s": "Biri sermaye, diğeri emek koyarak kurulan ve zararı sermaye sahibine ait olan ortaklık türü hangisidir?",
+   "c": [
+    "Müsâkât",
+    "Müzâraa",
+    "Şirket-i mufâvada",
+    "Şirket-i inân",
+    "Mudârebe"
+   ],
+   "d": 4,
+   "a": "Sermaye ile emeğin ortaklığı mudârebedir; kâr anlaşmaya göre paylaşılır, zarar sermayedara aittir.",
+   "ac": [
+    "Müsâkât bağ-bahçe ortaklığıdır.",
+    "Müzâraa tarla ortaklığıdır.",
+    "Mufâvadada eşit sermaye ve tam ortaklık vardır.",
+    "İnânda her iki taraf da sermaye koyar.",
+    "Doğru."
+   ],
+   "kay": "Fıkıh: şirketler"
+  },
+  {
+   "id": "f10-12",
+   "z": 3,
+   "s": "Bir evin satışında, bu evin bitişik komşusu, aynı bedeli ödeyerek evi alıcıdan önce satın alma hakkını kullanmak istemiştir.\n\nKomşunun dayandığı hak hangisidir?",
+   "c": [
+    "İkâle",
+    "Şuf’a",
+    "İrtifak",
+    "Muhayyerlik",
+    "Vakıf"
+   ],
+   "d": 1,
+   "a": "Ortak veya komşuya tanınan öncelikle satın alma hakkı şuf’adır.",
+   "ac": [
+    "İkâle tarafların akdi karşılıklı bozmasıdır.",
+    "Doğru.",
+    "İrtifak başkasının mülkünden yararlanma hakkıdır.",
+    "Muhayyerlik akdin taraflarının fesih hakkıdır.",
+    "Vakıf hayra ayrılan maldır."
+   ],
+   "kay": "Buhârî, Şuf’a, 1"
+  },
+  {
+   "id": "f10-20",
+   "z": 3,
+   "s": "Bir tarla sahibinin arazisini, ürün belli oranda paylaşılmak üzere başkasına ekip biçmesi için vermesine ne ad verilir?",
+   "c": [
+    "Musâkât",
+    "İcâre",
+    "Muzâraa",
+    "Mudârebe",
+    "İnân"
+   ],
+   "d": 2,
+   "a": "Ebû Hanîfe muzâraayı caiz görmemiş, imameyn caiz görmüş ve fetva imameynin görüşüyle verilmiştir.",
+   "ac": [
+    "Meyve ağaçlarının bakımı karşılığında ürün ortaklığıdır.",
+    "Belirli bir kira bedeliyle kiralamadır.",
+    "Toprak sahibi ile işçi arasında ürün ortaklığıdır.",
+    "Sermaye-emek ortaklığıdır.",
+    "Sermaye ortaklığıdır."
+   ],
+   "kay": "Hanefî fıkhı"
+  }
+ ]
+}

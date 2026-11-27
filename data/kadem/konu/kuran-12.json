@@ -1,0 +1,1029 @@
+{
+ "id": "kuran-12",
+ "ad": "Tecvid 3: Medler (Bütün Çeşitleri)",
+ "ders": "Kur’an Bilgisi",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Med harfleri ve medlerin sebepleri"
+  },
+  {
+   "merak": "“Câe” kelimesindeki elif neden “kâle”deki eliften daha uzun okunur? İkisinde de aynı harf var. Fark, elifin arkasından gelen harfte."
+  },
+  "Med, sözlükte uzatmak demektir. Tecvidde med harflerinden birinin sesini uzatarak okumaya med denir. Med harfleri üçtür ve her birinin kendinden önceki harfin harekesiyle uyumlu olması gerekir:",
+  {
+   "tablo": [
+    [
+     "Med harfi",
+     "Şartı",
+     "Örnek"
+    ],
+    [
+     "Elif (ا)",
+     "Kendisi harekesiz, öncesi üstün",
+     "قَالَ"
+    ],
+    [
+     "Vav (و)",
+     "Kendisi sakin, öncesi ötre",
+     "يَقُولُ"
+    ],
+    [
+     "Ye (ي)",
+     "Kendisi sakin, öncesi esre",
+     "قِيلَ"
+    ]
+   ]
+  },
+  "Med harfinin bir elif miktarından fazla uzatılması için bir sebep gerekir. Medlerin iki sebebi vardır: hemze ve sükûn (harekesizlik). Sükûn da ikiye ayrılır: kalıcı sükûn (sükûn-ı lâzım; durulsa da geçilse de bulunur) ve sonradan gelen sükûn (sükûn-ı ârız; yalnız vakıf yapılınca ortaya çıkar).",
+  {
+   "tablo": [
+    [
+     "Ölçü",
+     "Açıklama"
+    ],
+    [
+     "Hareke",
+     "Bir harekenin okunduğu süre"
+    ],
+    [
+     "Elif",
+     "İki hareke; bir parmağı açma ya da kapama süresi kadar"
+    ],
+    [
+     "Kasr",
+     "Bir elif (iki hareke)"
+    ],
+    [
+     "Tavassut",
+     "İki elif (dört hareke)"
+    ],
+    [
+     "Tûl",
+     "Üç elif (altı hareke)"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Uzatma miktarları rivayet, tarik ve okuyuş mertebesine (tahkîk, tedvîr, hadr) göre değişir. Türkiye’de basılan tecvid kitapları bazı medler için “iki-iki buçuk elif”, bazıları için “bir ila üç elif” gibi aralıklar verir. Aşağıdaki miktarlar Hafs rivayetinin yaygın uygulamasıdır."
+  },
+  {
+   "akil": "Med harfleri: elif (öncesi üstün), vav (öncesi ötre), ye (öncesi esre). Sebepler: hemze ve sükûn. Kasr = 1 elif, tavassut = 2, tûl = 3."
+  },
+  {
+   "b": "2. Medd-i tabiî (aslî med)"
+  },
+  {
+   "merak": "Bir ipi gererseniz uzar, bırakırsanız kendi boyuna döner. Med harflerinin de bir “kendi boyu” vardır: bir elif. Ondan fazlası için mutlaka bir sebep gerekir."
+  },
+  "Med harfinden sonra hemze ya da sükûn gibi bir sebep bulunmazsa bu med harfi bir elif miktarı uzatılır. Bu temel uzatmaya medd-i tabiî denir. Bütün medlerin aslı budur; bu yüzden medd-i aslî de denir. Medd-i tabiî kısaltılırsa harf eksik okunmuş olur; anlam değişebilir.",
+  {
+   "tablo": [
+    [
+     "Örnek",
+     "Açıklama"
+    ],
+    [
+     "قَالَ ، يَقُولُ ، ق۪يلَ",
+     "Med harflerinden sonra sebep yok"
+    ],
+    [
+     "Huruf-ı mukattaada iki harfli olanlar: حٰمٓ’deki “hâ”, طٰهٰ’deki “tâ” ve “hâ”, يٰسٓ’deki “yâ”, الٓرٰ’deki “râ”",
+     "İki harfli harf isimleri medd-i tabiî ile okunur (“hayy tahur” harfleri: ح ي ط ه ر)"
+    ]
+   ]
+  },
+  {
+   "akil": "Medd-i tabiî = sebepsiz, 1 elif; bütün medlerin aslı. İki harfli mukattaa harfleri (ح ي ط ه ر) tabiîdir."
+  },
+  "Medd-i tabiî ile ilgili iki ince nokta sınavda sık sorulur. Birincisi, med harfinden sonra iki kelime arasında sakin bir harf (çoğunlukla elif-lam takısı) gelirse iki sakin buluşur ve med harfi okunmaz: قَالُوا الْحَمْدُ “kâlü’l-hamdü”, ف۪ي الْاَرْضِ “fi’l-ardı” diye okunur. Buna iltikâ-i sâkineyn (iki sakinin buluşması) denir. Med harfi yazıda durur ama sesi düşer; medd-i lâzım ile karıştırılmamalıdır, çünkü lâzım aynı kelimede olur. İkincisi, Hafs rivayetinde اَنَا (ben) zamirinin sonundaki elif geçerken (vasl) okunmaz, durulunca okunur; لٰكِنَّا۬ (Kehf 38) ile Ahzâb Suresi’ndeki الظُّنُونَا۬ ، الرَّسُولَا۬ ، السَّب۪يلَا۬ kelimelerindeki elifler de aynı şekilde geçerken okunmaz, durulunca okunur. Mushaflarda bu eliflerin üzerinde küçük bir yuvarlak (sıfır) işareti bulunur.",
+  {
+   "tablo": [
+    [
+     "Durum",
+     "Vasl (geçerken)",
+     "Vakıf (dururken)"
+    ],
+    [
+     "قَالُوا الْحَمْدُ (iki sakin buluşur)",
+     "Vav okunmaz: kâlü’l-hamdü",
+     "—"
+    ],
+    [
+     "اَنَا",
+     "Elif okunmaz: ene",
+     "Elif okunur: enâ"
+    ],
+    [
+     "الظُّنُونَا۬ ، الرَّسُولَا۬ ، السَّب۪يلَا۬ (Ahzâb)",
+     "Elif okunmaz",
+     "Elif okunur"
+    ],
+    [
+     "لٰكِنَّا۬ (Kehf 38)",
+     "Elif okunmaz",
+     "Elif okunur"
+    ]
+   ]
+  },
+  {
+   "akil": "İki kelime arasında med harfinden sonra sakin gelirse med düşer (iltikâ-i sâkineyn). Hafs’ta اَنَا ve Ahzâb’daki üç kelimenin elifi geçerken okunmaz, durunca okunur."
+  },
+  {
+   "b": "3. Hemze sebebiyle olan medler: Muttasıl, munfasıl, bedel"
+  },
+  {
+   "merak": "“Câe” kelimesinde hemze elifin hemen arkasında, “yâ eyyühâ” ifadesinde ise bir sonraki kelimede. Hemzenin yeri bir milim değişince medin adı da hükmü de değişir."
+  },
+  {
+   "tablo": [
+    [
+     "Med",
+     "Tanım",
+     "Hüküm ve miktar",
+     "Örnek"
+    ],
+    [
+     "Medd-i muttasıl",
+     "Med harfinden sonra aynı kelimede hemze",
+     "Uzatılması vaciptir (bütün imamlara göre); Hafs’ta 2-2,5 elif (4-5 hareke). Kısaltılamaz",
+     "جَٓاءَ ، السَّمَٓاءِ ، سُٓوءَ ، ج۪ٓيءَ"
+    ],
+    [
+     "Medd-i munfasıl",
+     "Med harfi bir kelimenin sonunda, hemze sonraki kelimenin başında",
+     "Uzatılması caizdir; Hafs’ta Şâtıbiyye tarikiyle 2-2,5 elif. Okuyuş mertebesine göre değişir; hadrde kısaltılabilir",
+     "يَٓا اَيُّهَا ، اِنَّٓا اَعْطَيْنَاكَ ، ف۪ٓي اَنْفُسِكُمْ ، قُوٓا اَنْفُسَكُمْ"
+    ],
+    [
+     "Medd-i bedel",
+     "Hemze önce, med harfi sonra gelir",
+     "Hafs’ta bir elif (tabiî gibi) okunur; Verş rivayetinde uzatılır",
+     "اٰمَنُوا ، ا۪يمَانًا ، اُو۫تُوا"
+    ]
+   ]
+  },
+  {
+   "not": "Muttasılı munfasıldan ayıran şey hemzenin yeridir: Hemze med harfiyle aynı kelimedeyse muttasıl (bitişik), sonraki kelimedeyse munfasıldır (ayrık). Bedelde ise sıralama terstir: önce hemze, sonra med harfi."
+  },
+  {
+   "sinav": "Köklü sorusu tipi: “Hangilerinde medd-i muttasıl vardır?” Hemze ile med harfinin aynı kelimede olup olmadığına bak. رَبَّنَٓا اِنَّكَ tipi ifadelerde hemze sonraki kelimededir: munfasıl. اٰمَنُوا’da hemze önce gelir: bedel."
+  },
+  {
+   "akil": "Muttasıl = aynı kelimede hemze, vacip. Munfasıl = sonraki kelimede hemze, caiz. Bedel = hemze önce, med harfi sonra; Hafs’ta 1 elif."
+  },
+  "Hafs rivayetinin yaygın tariki olan Şâtıbiyye’de muttasıl ve munfasıl medler aynı miktarda, iki-iki buçuk elif (dört-beş hareke) uzatılır. Hafs’ın Tayyibe tarikinde ise munfasılın kasrı (bir elif) da rivayet edilmiştir; bu yüzden hadr mertebesinde hızlı okuyan bazı kâriler munfasılı kısaltır. Muttasıl ise hiçbir tarikte kısaltılmaz. Muttasıl bir medde durulursa (السَّمَٓاءْ) muttasıl ile ârız birleşir: Bu durumda tavassut ya da tûl ile okunur; kasr caiz değildir, çünkü muttasılın asgari miktarının altına inilemez.",
+  {
+   "tablo": [
+    [
+     "Med",
+     "Şâtıbiyye tariki (Hafs)",
+     "Kısaltılabilir mi?"
+    ],
+    [
+     "Muttasıl",
+     "2-2,5 elif",
+     "Hayır (vacip)"
+    ],
+    [
+     "Munfasıl",
+     "2-2,5 elif",
+     "Tayyibe tarikinde kasr rivayeti var (caiz)"
+    ],
+    [
+     "Muttasılda vakıf (السَّمَٓاءْ)",
+     "Tavassut ya da tûl",
+     "Kasr caiz değil"
+    ],
+    [
+     "Bedel",
+     "1 elif",
+     "Hafs’ta zaten tabiî miktarda"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Muttasıl medde durulunca hangi okuyuş caiz değildir?” → kasr (bir elif). “Munfasılın kısaltılması hangi tarikte rivayet edilmiştir?” → Tayyibe. Tuzak: “Muttasıl hadr mertebesinde kısaltılabilir.” Yanlış."
+  },
+  {
+   "b": "4. Sükûn sebebiyle olan medler: Lâzım ve ârız"
+  },
+  {
+   "merak": "“Ve le’d-dâllîn” derken elif neden bu kadar uzun çekilir? Çünkü arkasından şeddeli bir lam gelir ve şedde, gizli bir sükûn taşır."
+  },
+  "Medd-i lâzım: Med harfinden sonra kalıcı bir sükûn (sükûn-ı lâzım) gelirse oluşur. Bu sükûn bazen açık bir cezm, bazen de şeddenin içindeki ilk harftir (şeddeli harf, biri sakin biri harekeli iki harften oluşur). Medd-i lâzım bütün kıraat imamlarınca üç elif (altı hareke) uzatılır. Dört çeşidi vardır:",
+  {
+   "tablo": [
+    [
+     "Medd-i lâzım çeşidi",
+     "Tanım",
+     "Örnek"
+    ],
+    [
+     "Kelime-i müsakkale (ağır)",
+     "Kelimede med harfinden sonra şeddeli harf",
+     "الضَّٓالّ۪ينَ ، الْحَٓاقَّةُ ، دَٓابَّةٍ"
+    ],
+    [
+     "Kelime-i muhaffefe (hafif)",
+     "Kelimede med harfinden sonra cezimli (şeddesiz) harf",
+     "ءٰٓلْـٰٔنَ (Yûnus 51 ve 91; Kur’an’da yalnız bu iki yerde)"
+    ],
+    [
+     "Harf-i müsakkale",
+     "Mukattaa harfinin isminde, med harfinden sonra şeddeli (idgamlı) harf",
+     "الٓمٓ’deki “lâm” (lâm-mîm: lam’ın mimi sonraki mim’e idgam edilir)"
+    ],
+    [
+     "Harf-i muhaffefe",
+     "Mukattaa harfinin isminde, med harfinden sonra şeddesiz sakin harf",
+     "نٓ ، قٓ ، صٓ ، الٓمٓ’deki “mîm”, طٰسٓمٓ’deki “sîn” ve “mîm”"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Mukattaa harflerinin okunuşu",
+     ""
+    ],
+    [
+     "Üç harfli, ortası med harfi olanlar (ن ق ص ع س ل ك م)",
+     "Medd-i lâzım (3 elif). “Ayn” (ع) ortasındaki harf lîn olduğu için medd-i lîn-i lâzım: tavassut ya da tûl"
+    ],
+    [
+     "İki harfli olanlar (ح ي ط ه ر)",
+     "Medd-i tabiî (1 elif)"
+    ],
+    [
+     "Elif",
+     "Uzatılmaz (ortası med harfi değildir)"
+    ]
+   ]
+  },
+  "Medd-i ârız: Med harfinden sonraki harf aslında harekeli olduğu hâlde, vakıf yapılınca sakin hâle gelirse oluşur. Bu sükûn sonradan ortaya çıktığı (ârız olduğu) için bu ada sahiptir. Kasr (1 elif), tavassut (2 elif) ya da tûl (3 elif) ile okunabilir; okuyucu seçer (vecih). Geçilirse (vasl) yalnız medd-i tabiî kalır.",
+  {
+   "tablo": [
+    [
+     "Örnek (durulunca)",
+     "Med"
+    ],
+    [
+     "الْعَالَم۪ينْ ، نَسْتَع۪ينْ ، الرَّح۪يمْ ، يُوقِنُونْ",
+     "Medd-i ârız"
+    ]
+   ]
+  },
+  {
+   "sinav": "Senaryo: “Kâri Fâtiha’nın bir ayet sonunda durdu, son harfi bir elif uzattı…” → kasr. “İki elif uzattı” → tavassut. “Üç elif” → tûl. Medd-i lâzımın kısaltılması caiz değildir; kasr-tavassut-tûl seçimi medd-i ârız ve medd-i lîn içindir."
+  },
+  {
+   "akil": "Lâzım = kalıcı sükûn, herkese göre 3 elif; 4 çeşit (kelime/harf × müsakkale/muhaffefe). ءٰٓلْـٰٔنَ = kelime-i muhaffefe (2 yer). Ârız = vakıfla gelen sükûn; 1-2-3 elif serbest."
+  },
+  {
+   "b": "5. Diğer medler: Lîn, ivaz, sıla, farq, temkîn, ta‘zîm"
+  },
+  {
+   "merak": "“Beyt” kelimesinde ne elif var ne med harfi; ama durulunca ye sesi uzatılabiliyor. Med harfi olmayan yerde med olur mu? Olur; adı “yumuşaklık” anlamına gelen lîndir."
+  },
+  {
+   "tablo": [
+    [
+     "Med",
+     "Tanım",
+     "Miktar",
+     "Örnek"
+    ],
+    [
+     "Medd-i lîn",
+     "Üstünlü harften sonra gelen sakin vav ya da ye’den sonraki harfte vakıf yapılması",
+     "Kasr, tavassut ya da tûl (1-3 elif)",
+     "بَيْتْ ، خَوْفْ ، قُرَيْشْ"
+    ],
+    [
+     "Medd-i ivaz",
+     "Kelime sonundaki iki üstünlü (tenvinli) harfte vakıf yapılınca tenvinin elife dönüşmesi",
+     "1 elif",
+     "عَل۪يمًا → عَل۪يمَا ، تَوَّابًا → تَوَّابَا"
+    ],
+    [
+     "Medd-i sıla",
+     "İki harekeli harf arasındaki zamir (ه) ötreliyse vav, esreliyse ye ile uzatılır",
+     "Sıla-i kasîra: 1 elif (sonraki harf hemze değil). Sıla-i tavîle: munfasıl gibi (sonraki harf hemze)",
+     "اِنَّهُ كَانَ ، بِه۪ ٓ اَنْ"
+    ],
+    [
+     "Medd-i farq",
+     "Soru hemzesinden sonra elif-lamın gelmesi; soru ile haberi ayırmak için",
+     "3 elif (lâzım gibi)",
+     "ءٰٓلذَّكَرَيْنِ (En’âm 143-144), ءٰٓللّٰهُ"
+    ],
+    [
+     "Medd-i temkîn",
+     "Şeddeli ya da esreli ye’den sonra med ye’sinin gelmesi; harfin hakkını vermek için dikkatle okunur",
+     "Ek uzatma yok",
+     "النَّبِيّ۪ينَ ، حُيّ۪يتُمْ"
+    ],
+    [
+     "Medd-i ta‘zîm",
+     "Tevhid kelimesindeki “lâ”nın tazim için uzatılması (Tayyibe tarikinde)",
+     "Munfasıl miktarınca",
+     "لَٓا اِلٰهَ اِلَّا اللّٰهُ"
+    ]
+   ]
+  },
+  {
+   "akil": "Lîn: üstün + sakin vav/ye, sonra vakıf (بَيْتْ ، خَوْفْ). İvaz: tenvinli üstünde durunca elif. Sıla: iki harekeli arasındaki zamir uzar; sonra hemze varsa tavîle."
+  },
+  "Tabloda adı geçen üç küçük med de zaman zaman sorulur. Medd-i farq, soru hemzesinin elif-lam takısıyla başlayan bir kelimeye girdiği yerlerde oluşur: ءٰٓلذَّكَرَيْنِ (En’âm 143-144), ءٰٓللّٰهُ (Yûnus 59; Neml 59) ve ءٰٓلْـٰٔنَ (Yûnus 51, 91). Elif, soru cümlesini haber cümlesinden ayırmak (farq) için uzatılır; sonrasında şeddeli ya da sakin harf bulunduğu için medd-i lâzım gibi üç elif çekilir. Medd-i temkîn, şeddeli ve esreli ye’den sonra med harfi olan sakin ye gelmesidir (حُيّ۪يتُمْ ، النَّبِيّ۪ينَ); harflerin birbirine karışmaması için ye sağlam (temkînli) okunur ve bir elif uzatılır. Medd-i ta‘zîm ise لَٓا اِلٰهَ اِلَّا اللّٰهُ gibi tevhid ifadelerinde “lâ” kelimesinin, Allah’ı yüceltme (ta‘zîm) amacıyla munfasıl kadar uzatılmasıdır; munfasılı kısaltan tariklerde bile burada uzatma yapılır.",
+  {
+   "kontrol": "Medd-i ta‘zîm daha çok munfasılın kasrını rivayet eden tariklerde (Hafs’ın Tayyibe tarikinin bazı yolları gibi) ayrı bir med olarak anılır; Şâtıbiyye tarikinde munfasıl zaten uzatıldığı için fark ortaya çıkmaz."
+  },
+  {
+   "b": "Zamirin okunuşu ve Hafs’ın istisnaları"
+  },
+  {
+   "merak": "Aynı küçük “hû” zamiri bir ayette uzatılır, bir başkasında kısa okunur, bir diğerinde hiç harekesiz kalır. Kurala uymayan bu yerler, Hafs rivayetinin “imzası” gibidir."
+  },
+  "Zamir (ه), iki harekeli harf arasında kalırsa uzatılır (sıla). Önündeki harf sakinse (ya da med harfiyse) uzatılmaz: ف۪يهِ هُدًى ، اِلَيْهِ. Hafs rivayetinde bu kuralın bilinen istisnaları vardır:",
+  {
+   "tablo": [
+    [
+     "Yer",
+     "Hafs’taki okunuş"
+    ],
+    [
+     "Furkân 69: ف۪يه۪ مُهَانًا",
+     "Önündeki harf sakin olduğu hâlde zamir uzatılır (sıla)"
+    ],
+    [
+     "Zümer 7: يَرْضَهُ لَكُمْ",
+     "İki harekeli arasında olduğu hâlde zamir uzatılmaz (kasr)"
+    ],
+    [
+     "A’râf 111 ve Şuarâ 36: اَرْجِهْ",
+     "Zamir sakin okunur"
+    ],
+    [
+     "Neml 28: فَاَلْقِهْ",
+     "Zamir sakin okunur"
+    ],
+    [
+     "Nûr 52: وَيَتَّقْهِ",
+     "Kaf sakin, zamir esreli ve uzatılmadan okunur"
+    ]
+   ]
+  },
+  {
+   "akil": "Hafs’ın zamir istisnaları: Furkân 69 uzatılır; Zümer 7 uzatılmaz; A’râf 111, Şuarâ 36 ve Neml 28 sakin; Nûr 52 esreli ve kısa."
+  },
+  {
+   "b": "Medlerin kuvvet sırası"
+  },
+  {
+   "merak": "Bir kelimede hem hemze hem sükûn sebebi varsa hangisi galip gelir? Medler arasında da bir “rütbe sırası” vardır."
+  },
+  "Bir med harfinde birden fazla sebep birleşirse kuvvetli olan sebebe göre okunur. Medlerin kuvvet sırası şöyledir: medd-i lâzım > medd-i muttasıl > medd-i ârız > medd-i munfasıl > medd-i bedel.",
+  {
+   "sinav": "Kureyş Suresi’nde “bayt” ve “havf” kelimelerinde durunca → medd-i lîn. “Aliymâ” → durunca “aliymâ” (ivaz). Zamir sorularında “Furkân 69 – fîhî mühânâ” istisnası ve “Zümer 7 – yerdahu leküm” istisnası sorulur. كٓهٰيٰعٓصٓ ifadesi çok sorulur: kâf ve sâd lâzım, hâ ve yâ tabiî, ayn lîn-i lâzım; ayn ile sâd arasında ihfâ vardır; muttasıl yoktur."
+  },
+  {
+   "akil": "Lîn = üstün + sakin vav/ye + vakıf. İvaz = iki üstünde vakıf → elif. Sıla = iki harekeli arasındaki zamir. Farq = ءٰٓلذَّكَرَيْنِ. Kuvvet: lâzım > muttasıl > ârız > munfasıl > bedel."
+  },
+  {
+   "b": "6. Uygulama: Kısa surelerde medleri bulmak"
+  },
+  {
+   "merak": "Her gün namazda okuduğumuz Fâtiha’da kaç çeşit med var? Saymaya başlayınca, tecvidin ezber değil bir göz alışkanlığı olduğunu fark edeceksiniz."
+  },
+  "Med sorularında yöntem şudur: Önce med harfini bul (öncesi uygun harekeli elif, vav ya da ye). Sonra arkasına bak: Hemze aynı kelimedeyse muttasıl, sonraki kelimedeyse munfasıl; hemze önce gelmişse bedel. Arkasında kalıcı sükûn ya da şedde varsa lâzım; durunca sükûn oluşuyorsa ârız. Hiçbir sebep yoksa tabiî. Med harfi yoksa ama üstünden sonra sakin vav ya da ye varsa ve durulmuşsa lîn.",
+  {
+   "tablo": [
+    [
+     "İfade",
+     "Med",
+     "Açıklama"
+    ],
+    [
+     "الرَّح۪يمِ (durulunca)",
+     "Medd-i ârız",
+     "Ye’den sonraki mim vakıfla sakin olur"
+    ],
+    [
+     "مَالِكِ يَوْمِ الدّ۪ينِ",
+     "Medd-i tabiî (مَا)",
+     "Elif’ten sonra sebep yok"
+    ],
+    [
+     "الضَّٓالّ۪ينَ",
+     "Medd-i lâzım-ı kelime-i müsakkale",
+     "Elif’ten sonra şeddeli lam"
+    ],
+    [
+     "اِنَّٓا اَعْطَيْنَاكَ (Kevser 1)",
+     "Medd-i munfasıl",
+     "Hemze sonraki kelimede"
+    ],
+    [
+     "جَٓاءَ (Nasr 1)",
+     "Medd-i muttasıl",
+     "Hemze aynı kelimede"
+    ],
+    [
+     "اَفْوَاجًا (Nasr 2, durulunca)",
+     "Medd-i ivaz",
+     "Tenvinli üstün elife döner"
+    ],
+    [
+     "اِنَّهُ كَانَ (Nasr 3)",
+     "Medd-i sıla (kasîra)",
+     "Zamir iki harekeli arasında"
+    ],
+    [
+     "يُرَٓاؤُ۫نَ (Mâûn 6)",
+     "Medd-i muttasıl",
+     "Elif’ten sonra aynı kelimede hemze"
+    ],
+    [
+     "الْبَيْتِ ، خَوْفٍ (Kureyş, durulunca)",
+     "Medd-i lîn",
+     "Üstün + sakin ye / vav"
+    ]
+   ]
+  },
+  {
+   "sinav": "Ayet verilip “hangi med yoktur?” sorulduğunda her med harfini tek tek kontrol et. Sık tuzak: ف۪ي د۪ينِ gibi ifadelerde med harfinden sonra hemze olmadığı hâlde munfasıl sanmak; اٰمَنُوا’daki bedeli muttasıl sanmak; ayet sonundaki ârızı lâzım sanmak."
+  },
+  {
+   "akil": "Yöntem: med harfi → arkasındaki sebep. Aynı kelimede hemze = muttasıl; sonraki kelimede = munfasıl; hemze önde = bedel; kalıcı sükûn/şedde = lâzım; vakıf sükûnu = ârız; sebep yok = tabiî."
+  }
+ ],
+ "ozet": [
+  "Med harfleri elif (öncesi üstün), sakin vav (öncesi ötre) ve sakin ye’dir (öncesi esre). Medlerin sebepleri hemze ve sükûndur.",
+  "Bir elif iki harekedir. Kasr 1 elif, tavassut 2 elif, tûl 3 elif uzatmaktır.",
+  "Medd-i tabiî: sebepsiz, bir elif; bütün medlerin aslıdır. İki harfli mukattaa harfleri (ح ي ط ه ر) tabiîdir.",
+  "Medd-i muttasıl: med harfi ile hemze aynı kelimede; uzatılması vaciptir (جَٓاءَ).",
+  "Medd-i munfasıl: med harfi kelime sonunda, hemze sonraki kelimenin başında; uzatılması caizdir (يَٓا اَيُّهَا).",
+  "Medd-i bedel: hemze önce, med harfi sonra; Hafs’ta bir elif (اٰمَنُوا).",
+  "Medd-i lâzım: med harfinden sonra kalıcı sükûn; bütün imamlara göre üç elif. Çeşitleri: kelime-i müsakkale (الضَّٓالّ۪ينَ), kelime-i muhaffefe (ءٰٓلْـٰٔنَ), harf-i müsakkale (الٓمٓ’deki lâm), harf-i muhaffefe (نٓ ، قٓ ، صٓ).",
+  "Medd-i ârız: vakıf sebebiyle oluşan sükûnda; kasr, tavassut ya da tûl ile okunur (نَسْتَع۪ينْ).",
+  "Medd-i lîn: üstünlü harften sonra sakin vav ya da ye’den sonraki harfte vakıf (بَيْتْ ، خَوْفْ); 1-3 elif.",
+  "Medd-i ivaz: tenvinli üstünde vakıf yapılınca tenvin elife döner (عَل۪يمَا).",
+  "Medd-i sıla: iki harekeli arasındaki zamir uzatılır; sonraki harf hemze ise sıla-i tavîle (munfasıl gibi).",
+  "Hafs istisnaları: Furkân 69 ف۪يه۪ مُهَانًا (sıla), Zümer 7 يَرْضَهُ لَكُمْ (kasr), اَرْجِهْ ve فَاَلْقِهْ (sükûn).",
+  "Medd-i farq: soru hemzesi + elif-lam (ءٰٓلذَّكَرَيْنِ); lâzım gibi üç elif.",
+  "Medlerin kuvvet sırası: lâzım > muttasıl > ârız > munfasıl > bedel."
+ ],
+ "kartlar": [
+  {
+   "o": "Medlerin iki sebebi",
+   "a": "Hemze ve sükûn (lâzım ya da ârız)."
+  },
+  {
+   "o": "Kasr – tavassut – tûl",
+   "a": "1 elif – 2 elif – 3 elif (2 – 4 – 6 hareke)."
+  },
+  {
+   "o": "Medd-i tabiî",
+   "a": "Sebepsiz med; bir elif; bütün medlerin aslı."
+  },
+  {
+   "o": "Medd-i muttasıl",
+   "a": "Med harfi + aynı kelimede hemze; uzatılması vacip (جَٓاءَ)."
+  },
+  {
+   "o": "Medd-i munfasıl",
+   "a": "Med harfi kelime sonunda + hemze sonraki kelimede; uzatılması caiz (يَٓا اَيُّهَا)."
+  },
+  {
+   "o": "Medd-i bedel",
+   "a": "Hemze önce, med harfi sonra (اٰمَنُوا); Hafs’ta bir elif."
+  },
+  {
+   "o": "Medd-i lâzımın miktarı",
+   "a": "Bütün kıraat imamlarına göre üç elif (altı hareke)."
+  },
+  {
+   "o": "Medd-i lâzım-ı kelime-i muhaffefe nerede bulunur?",
+   "a": "ءٰٓلْـٰٔنَ kelimesinde; Yûnus 51 ve 91."
+  },
+  {
+   "o": "Medd-i lâzım-ı harf-i müsakkale örneği",
+   "a": "الٓمٓ’deki “lâm” (mimi sonraki mime idgam edilir)."
+  },
+  {
+   "o": "Medd-i ârız",
+   "a": "Vakıf sebebiyle oluşan sükûnda med; kasr, tavassut ya da tûl (نَسْتَع۪ينْ)."
+  },
+  {
+   "o": "Medd-i lîn",
+   "a": "Üstünlü harf + sakin vav/ye + vakıf: بَيْتْ ، خَوْفْ."
+  },
+  {
+   "o": "Medd-i ivaz",
+   "a": "Tenvinli üstünde vakıf: عَل۪يمًا → عَل۪يمَا."
+  },
+  {
+   "o": "Medd-i sıla",
+   "a": "İki harekeli arasındaki zamirin uzatılması: اِنَّهُ كَانَ."
+  },
+  {
+   "o": "Furkân 69 ve Zümer 7’deki Hafs istisnaları",
+   "a": "Furkân 69: ف۪يه۪ مُهَانًا (önü sakin olduğu hâlde sıla). Zümer 7: يَرْضَهُ لَكُمْ (sıla yapılmaz)."
+  },
+  {
+   "o": "كٓهٰيٰعٓصٓ’deki medler",
+   "a": "Kâf ve sâd: lâzım. Hâ ve yâ: tabiî. Ayn: lîn-i lâzım. Ayn-sâd arasında ihfâ."
+  },
+  {
+   "o": "Medlerin kuvvet sırası",
+   "a": "Lâzım > muttasıl > ârız > munfasıl > bedel."
+  },
+  {
+   "o": "İltikâ-i sâkineyn",
+   "a": "İki kelime arasında med harfinden sonra sakin gelince med harfinin okunmaması (kâlü’l-hamdü)"
+  },
+  {
+   "o": "Muttasılda vakıf (السَّمَٓاءْ)",
+   "a": "Tavassut ya da tûl; kasr caiz değil"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "k2-03",
+   "z": 1,
+   "s": "Med harfi ile hemzenin aynı kelimede bulunduğu (جَٓاءَ gibi) ve uzatılması vacip olan med hangisidir?",
+   "c": [
+    "Medd-i muttasıl",
+    "Medd-i munfasıl",
+    "Medd-i lâzım",
+    "Medd-i ârız",
+    "Medd-i tabiî"
+   ],
+   "d": 0,
+   "a": "Aynı kelimede med harfinden sonra hemze gelirse medd-i muttasıl olur; uzatılması vaciptir.",
+   "ac": [
+    "Doğru: medd-i muttasıl.",
+    "Munfasılda hemze sonraki kelimededir.",
+    "Lâzımın sebebi kalıcı sükûndur.",
+    "Ârızın sebebi vakıftır.",
+    "Tabiî medin sebebi yoktur."
+   ],
+   "kay": "Tecvid: medler"
+  },
+  {
+   "id": "k2-06",
+   "z": 2,
+   "s": "Kureyş Suresi’nde geçen بَيْت ve خَوْف kelimelerinde vakıf yapıldığında aşağıdaki medlerden hangisi oluşur?",
+   "c": [
+    "Medd-i tabiî",
+    "Medd-i muttasıl",
+    "Medd-i lîn",
+    "Medd-i ivaz",
+    "Medd-i sıla"
+   ],
+   "d": 2,
+   "a": "Üstünlü harften sonra gelen sakin vav ya da ye, sonraki harfte vakıf yapılınca medd-i lîn oluşturur.",
+   "ac": [
+    "Tabiî medde vav ya da yeden önceki harf kendi cinsinden harekeyle gelir (ötre ya da esre).",
+    "Bu kelimelerde hemze yoktur.",
+    "Doğru: medd-i lîn.",
+    "İvaz tenvinli üstünde vakıf yapılınca olur.",
+    "Sıla zamirle ilgilidir."
+   ],
+   "kay": "Kureyş, 106/3-4"
+  },
+  {
+   "id": "k2-14",
+   "z": 2,
+   "s": "Med harfinden sonra aynı kelimede şeddeli bir harf gelmesiyle oluşan ve bütün kıraat imamlarınca üç elif miktarı uzatılan med hangisidir?",
+   "c": [
+    "Medd-i muttasıl",
+    "Medd-i ârız",
+    "Medd-i tabiî",
+    "Medd-i lâzım",
+    "Medd-i munfasıl"
+   ],
+   "d": 3,
+   "a": "Şeddeli harf kalıcı bir sükûn taşır; med harfinden sonra kalıcı sükûn gelirse medd-i lâzım olur (الضَّٓالّ۪ينَ ، الْحَٓاقَّةُ). Bu türüne medd-i lâzım-ı kelime-i müsakkale denir.",
+   "ac": [
+    "Muttasıl hemzeyle oluşur.",
+    "Ârız vakıf sebebiyle oluşur; sükûn kalıcı değildir.",
+    "Tabiî med bir elif uzatılır ve sebebi yoktur.",
+    "Doğru: medd-i lâzım.",
+    "Munfasılda hemze sonraki kelimededir."
+   ],
+   "kay": "Tecvid: medd-i lâzım"
+  },
+  {
+   "id": "kb12-01",
+   "z": 1,
+   "s": "Med harfinden sonra hemze ya da sükûn gibi herhangi bir sebep bulunmadığında med harfinin bir elif miktarı uzatılmasına ne ad verilir?",
+   "c": [
+    "Medd-i tabiî",
+    "Medd-i ârız",
+    "Medd-i lîn",
+    "Medd-i bedel",
+    "Medd-i farq"
+   ],
+   "d": 0,
+   "a": "Sebepsiz, bir elif miktarı uzatmaya medd-i tabiî (aslî) denir.",
+   "ac": [
+    "Doğru.",
+    "Ârızın sebebi vakıftır.",
+    "Lîn sakin vav/ye ve vakıfla oluşur.",
+    "Bedelde hemze med harfinden önce gelir.",
+    "Farq soru hemzesi ile elif-lamın birleşmesidir."
+   ],
+   "kay": "Tecvid: medd-i tabiî"
+  },
+  {
+   "id": "kb12-02",
+   "z": 2,
+   "s": "يَٓا اَيُّهَا ifadesinde “yâ” kelimesinin sonundaki elif ile sonraki kelimenin başındaki hemze arasında oluşan med aşağıdakilerden hangisidir?",
+   "c": [
+    "Medd-i muttasıl",
+    "Medd-i munfasıl",
+    "Medd-i lâzım",
+    "Medd-i bedel",
+    "Medd-i ivaz"
+   ],
+   "d": 1,
+   "a": "Med harfi bir kelimenin sonunda, hemze sonraki kelimenin başında olduğu için medd-i munfasıldır.",
+   "ac": [
+    "Muttasılda hemze aynı kelimededir.",
+    "Doğru: medd-i munfasıl.",
+    "Lâzımın sebebi kalıcı sükûndur.",
+    "Bedelde hemze önce gelir.",
+    "İvaz tenvinli üstünde vakıfla oluşur."
+   ],
+   "kay": "Tecvid: medd-i munfasıl"
+  },
+  {
+   "id": "kb12-03",
+   "z": 2,
+   "s": "Fâtiha Suresi’ni okuyan bir kâri, “nesta‘în” kelimesinde durmuş ve son harfi sakin okuduğu için ye harfini üç elif miktarı uzatmıştır. Aynı kelimeyi geçerek okusaydı ye harfini bir elif uzatacaktı.\n\nKârinin durduğunda okuduğu med ve uzatma miktarının adı aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Medd-i lâzım – kasr",
+    "Medd-i lîn – tavassut",
+    "Medd-i ârız – tûl",
+    "Medd-i muttasıl – tûl",
+    "Medd-i ârız – kasr"
+   ],
+   "d": 2,
+   "a": "Vakıf sebebiyle sonradan oluşan sükûnda medd-i ârız olur. Üç elif uzatmaya tûl denir.",
+   "ac": [
+    "Lâzımın sükûnu kalıcıdır; burada vakıfla oluşmuştur. Kasr da bir eliftir.",
+    "Lîn için üstünlü harften sonra sakin vav/ye gerekir.",
+    "Doğru: medd-i ârız ve tûl.",
+    "Muttasılda hemze vardır.",
+    "Medd-i ârız doğru ama kasr bir eliftir, üç elif değil."
+   ],
+   "kay": "Fâtiha, 1/5"
+  },
+  {
+   "id": "kb12-04",
+   "z": 2,
+   "s": "Medd-i ârız ve medd-i lîn okunurken uygulanabilen uzatma miktarlarından “iki elif” (dört hareke) uzatma aşağıdakilerden hangisiyle ifade edilir?",
+   "c": [
+    "Kasr",
+    "Tûl",
+    "Tavassut",
+    "Sekte",
+    "Revm"
+   ],
+   "d": 2,
+   "a": "Kasr bir elif, tavassut iki elif, tûl üç elif uzatmaktır.",
+   "ac": [
+    "Kasr bir eliftir.",
+    "Tûl üç eliftir.",
+    "Doğru: tavassut.",
+    "Sekte nefes almadan kısa duraklamadır.",
+    "Revm vakıfta harekenin bir kısmını okumaktır."
+   ],
+   "kay": "Tecvid: medler"
+  },
+  {
+   "id": "kb12-05",
+   "z": 2,
+   "s": "Bir ayet sonunda yer alan تَوَّابًا kelimesinde durulduğunda kelimenin son harfi nasıl okunur ve bu okuyuşta hangi med oluşur?",
+   "c": [
+    "تَوَّابْ – medd-i ârız",
+    "تَوَّابَا – medd-i ivaz",
+    "تَوَّابُو – medd-i sıla",
+    "تَوَّابِي – medd-i tabiî",
+    "تَوَّابًا – medd-i munfasıl"
+   ],
+   "d": 1,
+   "a": "İki üstünlü (tenvinli) kelimede durulurken tenvin elife dönüşür ve bir elif uzatılır: medd-i ivaz.",
+   "ac": [
+    "Tenvinli üstünde sükûnla durulmaz; elife çevrilir.",
+    "Doğru: medd-i ivaz.",
+    "Sıla zamirle ilgilidir.",
+    "Böyle bir okuyuş yoktur.",
+    "Durulurken tenvin okunmaz; munfasıl için hemze gerekir."
+   ],
+   "kay": "Tecvid: medd-i ivaz"
+  },
+  {
+   "id": "kb12-06",
+   "z": 3,
+   "s": "اِنَّهُ كَانَ ifadesinde ötreli zamir (ه), kendisinden önceki ve sonraki harfin harekeli olması sebebiyle bir vav varmış gibi bir elif uzatılarak “innehû kâne” şeklinde okunur.\n\nBu med aşağıdakilerden hangisidir?",
+   "c": [
+    "Medd-i bedel",
+    "Medd-i farq",
+    "Medd-i lîn",
+    "Medd-i sıla",
+    "Medd-i temkîn"
+   ],
+   "d": 3,
+   "a": "İki harekeli harf arasındaki zamirin uzatılmasına medd-i sıla denir. Sonraki harf hemze değilse sıla-i kasîra (bir elif) olur.",
+   "ac": [
+    "Bedelde hemze med harfinden önce gelir.",
+    "Farq soru hemzesi ile elif-lamın birleşmesidir.",
+    "Lîn sakin vav/ye ve vakıfla oluşur.",
+    "Doğru: medd-i sıla.",
+    "Temkîn şeddeli/esreli ye’den sonra med ye’sinin gelmesidir."
+   ],
+   "kay": "Tecvid: zamirin okunuşu"
+  },
+  {
+   "id": "kb12-07",
+   "z": 3,
+   "s": "Hafs rivayetinde zamirden önceki harf sakin olduğunda zamir uzatılmaz (ف۪يهِ هُدًى gibi). Ancak bir ayette, önündeki harf sakin olduğu hâlde zamir uzatılarak okunur.\n\nBu istisna aşağıdaki ifadelerin hangisindedir?",
+   "c": [
+    "Furkân 69: ف۪يه۪ مُهَانًا",
+    "Zümer 7: يَرْضَهُ لَكُمْ",
+    "Neml 28: فَاَلْقِهْ",
+    "A’râf 111: اَرْجِهْ",
+    "Bakara 2: ف۪يهِ هُدًى"
+   ],
+   "d": 0,
+   "a": "Furkân 69’da “fîhî mühânâ” şeklinde zamir uzatılır; Hafs’ın bilinen istisnasıdır.",
+   "ac": [
+    "Doğru.",
+    "Zümer 7’de tersi olur: iki harekeli arasında olduğu hâlde zamir uzatılmaz.",
+    "Neml 28’de zamir sakin okunur.",
+    "A’râf 111’de zamir sakin okunur.",
+    "Kurala uygundur; zamir uzatılmaz."
+   ],
+   "kay": "Furkân, 25/69"
+  },
+  {
+   "id": "kb12-08",
+   "z": 2,
+   "s": "Aşağıdaki hurûf-ı mukattaadan hangisi medd-i lâzım-ı harf-i muhaffefe ile okunur?",
+   "c": [
+    "حٰمٓ’deki “hâ”",
+    "الٓرٰ’deki “râ”",
+    "يٰسٓ’deki “yâ”",
+    "طٰهٰ’deki “tâ”",
+    "صٓ"
+   ],
+   "d": 4,
+   "a": "“Sâd” harfinin ismi üç harflidir ve ortasında med harfi, sonunda şeddesiz sükûn vardır; üç elif uzatılır. Diğer seçeneklerdeki harfler iki harfli olduğu için medd-i tabiî ile okunur.",
+   "ac": [
+    "İki harfli olduğu için tabiîdir.",
+    "İki harfli olduğu için tabiîdir.",
+    "İki harfli olduğu için tabiîdir.",
+    "İki harfli olduğu için tabiîdir.",
+    "Doğru: medd-i lâzım-ı harf-i muhaffefe."
+   ],
+   "kay": "Tecvid: medd-i lâzım"
+  },
+  {
+   "id": "kb12-09",
+   "z": 3,
+   "s": "كٓهٰيٰعٓصٓ (Meryem, 19/1) ifadesindeki “ayn” harfinin okunuşunda ortasındaki harf üstünlü bir harften sonra gelen sakin ye’dir; kelimenin sonundaki sükûn ise kalıcıdır.\n\nBu harfte oluşan med ve okunuş miktarı aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Medd-i lîn-i lâzım – tavassut ya da tûl",
+    "Medd-i tabiî – bir elif",
+    "Medd-i muttasıl – iki elif",
+    "Medd-i ivaz – bir elif",
+    "Medd-i bedel – bir elif"
+   ],
+   "d": 0,
+   "a": "“Ayn”daki ye lîn harfidir; sonrasındaki sükûn kalıcı olduğu için medd-i lîn-i lâzım oluşur ve tavassut ya da tûl ile okunur.",
+   "ac": [
+    "Doğru.",
+    "İki harfli harflerde tabiî med olur; ayn üç harflidir.",
+    "Muttasıl için hemze gerekir.",
+    "İvaz tenvinle ilgilidir.",
+    "Bedel için hemzenin önce gelmesi gerekir."
+   ],
+   "kay": "Meryem, 19/1"
+  },
+  {
+   "id": "kb12-10",
+   "z": 2,
+   "s": "اٰمَنُوا ve ا۪يمَانًا kelimelerinde hemzeden sonra bir med harfi gelmektedir.\n\nBu medin adı ve Hafs rivayetindeki uzatma miktarı aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Medd-i muttasıl – iki elif",
+    "Medd-i lâzım – üç elif",
+    "Medd-i munfasıl – iki elif",
+    "Medd-i bedel – bir elif",
+    "Medd-i farq – üç elif"
+   ],
+   "d": 3,
+   "a": "Hemze önce, med harfi sonra gelirse medd-i bedel olur. Hafs rivayetinde bir elif (tabiî gibi) okunur; Verş rivayetinde ise uzatılır.",
+   "ac": [
+    "Muttasılda med harfi önce, hemze sonra gelir.",
+    "Lâzımın sebebi kalıcı sükûndur.",
+    "Munfasılda hemze sonraki kelimededir.",
+    "Doğru.",
+    "Farq soru hemzesi ile elif-lamın birleşmesidir."
+   ],
+   "kay": "Tecvid: medd-i bedel"
+  },
+  {
+   "id": "kb12-11",
+   "z": 3,
+   "s": "Medlerle ilgili\nI. Medd-i lâzım bütün kıraat imamlarına göre üç elif miktarı uzatılır.\nII. Medd-i muttasılın uzatılması vaciptir.\nIII. Medd-i ârız kasr, tavassut ya da tûl ile okunabilir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Üç ifade de doğrudur.",
+   "ac": [
+    "II ve III de doğrudur.",
+    "III de doğrudur.",
+    "II de doğrudur.",
+    "I de doğrudur.",
+    "Doğru: üçü de doğrudur."
+   ],
+   "kay": "Tecvid: medler"
+  },
+  {
+   "id": "kb12-12",
+   "z": 2,
+   "s": "Kur’an’da medd-i lâzım-ı kelime-i muhaffefe (med harfinden sonra şeddesiz kalıcı sükûn) yalnızca Yûnus Suresi’nin iki ayetinde, aynı kelimede bulunur.\n\nBu kelime aşağıdakilerden hangisidir?",
+   "c": [
+    "الضَّٓالّ۪ينَ",
+    "ءٰٓلذَّكَرَيْنِ",
+    "ءٰٓلْـٰٔنَ",
+    "دَٓابَّةٍ",
+    "الْحَٓاقَّةُ"
+   ],
+   "d": 2,
+   "a": "ءٰٓلْـٰٔنَ (Yûnus 51 ve 91) kelimesinde med harfinden sonra şeddesiz sakin lam vardır: kelime-i muhaffefe.",
+   "ac": [
+    "Şeddeli lam olduğu için kelime-i müsakkaledir.",
+    "Medd-i farq örneğidir (soru hemzesi + elif-lam).",
+    "Doğru.",
+    "Şeddeli be olduğu için kelime-i müsakkaledir.",
+    "Şeddeli kaf olduğu için kelime-i müsakkaledir."
+   ],
+   "kay": "Yûnus, 10/51, 91"
+  },
+  {
+   "id": "kb12-z01",
+   "z": 3,
+   "s": "Fâtiha Suresi’ndeki medlerle ilgili\nI. الضَّٓالّ۪ينَ kelimesinde medd-i lâzım-ı kelime-i müsakkale vardır.\nII. نَسْتَع۪ينُ kelimesinde durulunca medd-i ârız oluşur.\nIII. مَالِكِ kelimesindeki elif medd-i munfasıl ile uzatılır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "II ve III",
+    "I ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "الضَّٓالّ۪ينَ’de elif’ten sonra şeddeli lam vardır (lâzım). نَسْتَع۪ينُ’de durulunca nun sakin olur (ârız). مَالِكِ’deki elif’ten sonra sebep yoktur; medd-i tabiîdir.",
+   "ac": [
+    "Eksiktir: II de doğrudur.",
+    "Doğrudur: I ve II doğrudur.",
+    "III yanlıştır: medd-i tabiîdir.",
+    "III yanlıştır.",
+    "III yanlış olduğu için doğru değildir."
+   ],
+   "kay": "Fâtiha, 1/4-7"
+  },
+  {
+   "id": "kb12-z02",
+   "z": 3,
+   "s": "Hafs rivayetinde med harflerinin okunuşuyla ilgili\nI. قَالُوا الْحَمْدُ ifadesinde geçerken vav okunmaz.\nII. اَنَا zamirinin sonundaki elif geçerken okunmaz, durulunca okunur.\nIII. İki kelime arasında med harfinden sonra sakin harf gelirse medd-i lâzım oluşur ve üç elif uzatılır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve III",
+    "II ve III",
+    "I ve II"
+   ],
+   "d": 4,
+   "a": "İki kelime arasında med harfinden sonra sakin gelirse iki sakin buluşur ve med harfi okunmaz (iltikâ-i sâkineyn). Medd-i lâzım aynı kelime içindeki kalıcı sükûnla oluşur. اَنَا’nın elifi Hafs’ta vaslda okunmaz.",
+   "ac": [
+    "Eksiktir: II de doğrudur.",
+    "Eksiktir: I de doğrudur.",
+    "III yanlıştır.",
+    "III yanlıştır.",
+    "Doğrudur: I ve II doğrudur."
+   ],
+   "kay": "Konu: İltikâ-i sâkineyn"
+  },
+  {
+   "id": "kb12-z03",
+   "z": 3,
+   "s": "Bir kâri, السَّمَٓاءِ kelimesinde durmuş ve son harfi sakin okumuştur. Bu durumda kelimedeki medde hem aynı kelimede hemze bulunması hem de vakıf sebebiyle oluşan sükûn bir araya gelmiştir.\n\nBu kârinin aşağıdaki uzatma miktarlarından hangisiyle okuması caiz değildir?",
+   "c": [
+    "Tûl (üç elif)",
+    "İki elifle üç elif arası",
+    "Tavassut (iki elif)",
+    "İki buçuk elif",
+    "Kasr (bir elif)"
+   ],
+   "d": 4,
+   "a": "Muttasıl medd vaciptir ve kısaltılamaz. Muttasıla ârız eklenince tavassut ya da tûl ile okunur; kasr (bir elif) muttasılın asgari miktarının altında kaldığı için caiz değildir.",
+   "ac": [
+    "Caizdir: ârız sebebiyle tûl yapılabilir.",
+    "Caizdir: tavassut ile tûl arasıdır.",
+    "Caizdir.",
+    "Caizdir: muttasılın Hafs’taki miktarıdır.",
+    "Doğrudur: kasr caiz değildir."
+   ],
+   "kay": "Konu: Muttasıl ve ârızın birleşmesi"
+  },
+  {
+   "id": "kb12-z04",
+   "z": 3,
+   "s": "Nasr Suresi’ndeki ifadelerle ilgili aşağıdaki med eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "اِذَا جَٓاءَ ifadesinde جَٓاءَ - Medd-i muttasıl",
+    "ف۪ي د۪ينِ اللّٰهِ ifadesinde ف۪ي - Medd-i munfasıl",
+    "اَفْوَاجًا kelimesinde durulunca - Medd-i ivaz",
+    "اِنَّهُ كَانَ ifadesinde zamir - Medd-i sıla",
+    "اِذَا kelimesindeki elif - Medd-i tabiî"
+   ],
+   "d": 1,
+   "a": "ف۪ي’deki ye’den sonra د gelir, hemze gelmez; bu yüzden medd-i tabiîdir. Munfasıl için sonraki kelimenin hemzeyle başlaması gerekir.",
+   "ac": [
+    "Doğrudur: hemze aynı kelimededir.",
+    "Yanlıştır: sonraki kelime hemzeyle başlamaz; tabiîdir.",
+    "Doğrudur: tenvinli üstün elife döner.",
+    "Doğrudur: zamir iki harekeli arasındadır.",
+    "Doğrudur: elif’ten sonra sebep yoktur."
+   ],
+   "kay": "Nasr, 110/1-3"
+  },
+  {
+   "id": "kb12-z05",
+   "z": 3,
+   "s": "Bir med harfinde birden fazla med sebebi bir araya gelirse daha kuvvetli olan sebebe göre okunur.\n\nMedlerin kuvvetliden zayıfa doğru sıralanışı aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Muttasıl - Lâzım - Ârız - Munfasıl - Bedel",
+    "Lâzım - Muttasıl - Munfasıl - Ârız - Bedel",
+    "Lâzım - Ârız - Muttasıl - Bedel - Munfasıl",
+    "Lâzım - Muttasıl - Ârız - Munfasıl - Bedel",
+    "Muttasıl - Munfasıl - Lâzım - Ârız - Bedel"
+   ],
+   "d": 3,
+   "a": "Kuvvet sırası: lâzım > muttasıl > ârız > munfasıl > bedel. Kalıcı sükûn en kuvvetli, hemzenin önde olduğu bedel en zayıf sebeptir.",
+   "ac": [
+    "Lâzım, muttasıldan kuvvetlidir.",
+    "Ârız, munfasıldan kuvvetlidir.",
+    "Muttasıl, ârızdan kuvvetlidir; bedel en zayıftır.",
+    "Doğrudur.",
+    "Lâzım en kuvvetlidir."
+   ],
+   "kay": "Konu: Medlerin kuvvet sırası"
+  },
+  {
+   "id": "kb12-z06",
+   "z": 3,
+   "s": "Hafs rivayetinde zamirin (ه) okunuşunda bazı istisnalar vardır.\n\nAşağıdaki yer - okunuş eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Neml 28 (فَاَلْقِهْ) - Zamir sakin okunur.",
+    "Furkân 69 (ف۪يه۪ مُهَانًا) - Önündeki harf sakin olduğu hâlde zamir uzatılır.",
+    "Zümer 7 (يَرْضَهُ لَكُمْ) - İki harekeli arasında olduğu hâlde zamir uzatılmaz.",
+    "A’râf 111 (اَرْجِهْ) - Zamir sakin okunur.",
+    "Nûr 52 (وَيَتَّقْهِ) - Zamir sakin okunur."
+   ],
+   "d": 4,
+   "a": "Nûr 52’de kaf sakin okunur; zamir ise esreli olarak ve uzatılmadan okunur. Zamirin sakin okunduğu yerler A’râf 111, Şuarâ 36 ve Neml 28’dir.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Yanlıştır: Nûr 52’de zamir esreli ve kısa okunur; sakin olan kaftır."
+   ],
+   "kay": "Konu: Zamirin okunuşu"
+  }
+ ]
+}

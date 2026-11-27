@@ -1,0 +1,645 @@
+{
+ "id": "siyer-16",
+ "ad": "İslam Medeniyeti: İlim ve Eğitim Kurumları (Mescit, Küttâb, Beytülhikme, Nizâmiye Medreseleri), Bilim Tarihi, Devlet Kurumları (Divan, Hisbe, Berîd, Kadılık), Şehir, Vakıf ve Sanat",
+ "ders": "Siyer ve İslam Tarihi",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Eğitim kurumları: Mescitten medreseye"
+  },
+  {
+   "merak": "Bir Abbâsî âlimi, Bağdat’ta bir mescidin direğine yaslanmış, etrafındaki halkaya ders verir. Birkaç sokak ötede çocuklar küttâbda Kur’an ve yazı öğrenir. Biraz ötede Beytülhikme’de Yunanca kitaplar çevrilir. Bir asır sonra aynı şehirde, devletin maaş verdiği hocaların ve burs alan talebelerin bulunduğu medreseler açılacaktır."
+  },
+  "İslam’da eğitimin ilk merkezi mescittir. Hz. Peygamber Mescid-i Nebevî’de ders vermiş, Suffe ilk yatılı eğitim yeri olmuştur. Mescitlerde direklerin dibinde kurulan ilim halkalarına “halka” denir. Çocukların okuma yazma ve Kur’an öğrendiği ilköğretim kurumu “küttâb” (mektep, sıbyan mektebi) idi. Âlimlerin evleri, kitapçı dükkânları (verrâkîn) ve saraylardaki ilmî meclisler de eğitim mekânıydı.",
+  {
+   "tablo": [
+    [
+     "Kurum",
+     "Açıklama",
+     "Not"
+    ],
+    [
+     "Mescit / halka",
+     "İlk eğitim merkezi; direk dibinde ders halkaları",
+     "Mescid-i Nebevî, Emevî Camii, Ezher"
+    ],
+    [
+     "Suffe",
+     "Mescid-i Nebevî’deki yatılı ilim topluluğu",
+     "İlk yatılı eğitim kurumu"
+    ],
+    [
+     "Küttâb",
+     "Çocuklar için okuma-yazma ve Kur’an mektebi",
+     "Osmanlı’da sıbyan mektebi"
+    ],
+    [
+     "Beytülhikme",
+     "Abbâsî Bağdat’ında tercüme, araştırma ve kütüphane merkezi",
+     "Me’mûn döneminde zirveye ulaştı"
+    ],
+    [
+     "Dârü’l-ilm",
+     "Fâtımî Kahire’sinde kütüphane ve ilim merkezi",
+     "1005, Hâkim-Biemrillâh"
+    ],
+    [
+     "Nizâmiye medreseleri",
+     "Devletin desteklediği, vakıf gelirli, burslu, hoca maaşlı ilk sistemli medreseler",
+     "Selçuklu veziri Nizâmülmülk; Bağdat Nizâmiyesi 1067; Gazzâlî burada ders verdi"
+    ],
+    [
+     "Ezher",
+     "Fâtımîlerin 970’te yaptırdığı cami; zamanla dünyanın en eski üniversitelerinden biri oldu",
+     "Eyyûbîlerle Sünnî eğitim merkezi"
+    ]
+   ]
+  },
+  "Nizâmiye medreseleri İslam eğitim tarihinde bir dönüm noktasıdır. Büyük Selçuklu veziri Nizâmülmülk, Fâtımî ve Bâtınî propagandaya karşı Sünnî (Şâfiî-Eş’arî) düşünceyi güçlendirmek ve devlete yetişmiş memur kazandırmak amacıyla Bağdat (1067), Nişabur, İsfahan, Belh, Herat, Musul gibi şehirlerde medreseler kurdu. Bu medreselerin hocalarına maaş, talebelerine burs ve barınma imkânı verildi; giderleri vakıflarla karşılandı. Gazzâlî Bağdat Nizâmiyesi’nde müderrislik yapmıştır.",
+  {
+   "sinav": "Beytülhikme – Me’mûn – tercüme; Nizâmiye – Nizâmülmülk – Bağdat 1067 – Gazzâlî; Ezher – Fâtımîler – 970; Dârü’l-ilm – Fâtımî. İlk sistemli medrese sorusunda cevap Nizâmiye’dir."
+  },
+  {
+   "akil": "Mescit (halka) → küttâb (çocuk) → Beytülhikme (tercüme, Me’mûn) → Nizâmiye (Nizâmülmülk, 1067, burs-maaş-vakıf) → Osmanlı medreseleri."
+  },
+  {
+   "b": "2. Bilim tarihi: Müslüman âlimlerin katkıları"
+  },
+  {
+   "merak": "Avrupa’da “Algoritma” kelimesi, IX. yüzyılda Bağdat’ta yaşamış bir matematikçinin adının Latince söylenişinden gelir. “Cebir” kelimesi de onun kitabının adından. Bu matematikçi kimdi?"
+  },
+  "VIII-XV. yüzyıllar arasında İslam dünyası, tercüme yoluyla aldığı Yunan, Hint ve İran birikimini geliştirerek matematik, astronomi, tıp, kimya, coğrafya ve optik gibi alanlarda öncü eserler ortaya koydu. Bu eserlerin önemli bir kısmı Endülüs ve Sicilya üzerinden Latinceye çevrilerek Avrupa’daki bilimsel uyanışın temellerinden biri oldu.",
+  {
+   "tablo": [
+    [
+     "Bilgin",
+     "Alan",
+     "Katkı"
+    ],
+    [
+     "Hârizmî",
+     "Matematik, astronomi",
+     "el-Kitâbü’l-muhtasar fî hisâbi’l-cebr ve’l-mukābele: cebirin kurucusu; Hint rakamlarını ve sıfırı tanıttı; “algoritma” adından gelir"
+    ],
+    [
+     "Bettânî",
+     "Astronomi",
+     "Güneş yılının uzunluğu, trigonometri"
+    ],
+    [
+     "Ebû Bekir er-Râzî",
+     "Tıp, kimya",
+     "el-Hâvî; çiçek ve kızamığı ayırt etti"
+    ],
+    [
+     "İbn Sînâ",
+     "Tıp, felsefe",
+     "el-Kānûn fi’t-tıb; Avrupa’da asırlarca ders kitabı"
+    ],
+    [
+     "İbnü’l-Heysem",
+     "Optik",
+     "Kitâbü’l-Menâzır; görmenin ışığın gözden değil cisimden gözü ulaşmasıyla gerçekleştiği; deneysel yöntem"
+    ],
+    [
+     "Bîrûnî",
+     "Astronomi, coğrafya, dinler",
+     "Dünyanın çevresini ölçtü; Tahkîku mâ li’l-Hind (Hindistan’ın dinleri ve kültürü)"
+    ],
+    [
+     "Câbir b. Hayyân",
+     "Kimya",
+     "Damıtma, kristalleştirme gibi işlemler"
+    ],
+    [
+     "İdrîsî",
+     "Coğrafya",
+     "Sicilya kralı II. Roger için dünya haritası"
+    ],
+    [
+     "Uluğ Bey, Ali Kuşçu",
+     "Astronomi",
+     "Semerkant rasathanesi; Zîc-i Uluğ Bey"
+    ],
+    [
+     "Takiyyüddin",
+     "Astronomi",
+     "İstanbul rasathanesi (III. Murad)"
+    ],
+    [
+     "Cezerî",
+     "Mühendislik",
+     "Otomatik makineler, su saatleri"
+    ]
+   ]
+  },
+  {
+   "sinav": "Hârizmî (cebir, algoritma), İbnü’l-Heysem (optik), Bîrûnî (Hindistan, dinler tarihi; dünyanın çevresi), Ebû Bekir er-Râzî (çiçek-kızamık), İbn Sînâ (Kānûn) eşleştirmeleri sık sorulur. Bîrûnî’nin Tahkîku mâ li’l-Hind’i dinler tarihinin de ilk örneklerindendir."
+  },
+  {
+   "akil": "Hârizmî – cebir/algoritma; Râzî – çiçek-kızamık; İbn Sînâ – Kānûn; İbnü’l-Heysem – optik; Bîrûnî – Hindistan ve yer ölçümü; Uluğ Bey – Semerkant rasathanesi."
+  },
+  "Kütüphaneler de İslam medeniyetinin en parlak kurumlarındandır. Bağdat’taki Beytülhikme’nin yanında Kahire’deki Fâtımî saray kütüphanesi, Kurtuba’da Endülüs Emevî halifesi II. Hakem’in yüz binlerce cildi bulduğu rivayet edilen kütüphanesi ve Merâga rasathanesine bağlı kütüphane meşhurdur. Kâğıdın VIII. yüzyılda Semerkant üzerinden İslam dünyasına girmesi ve Bağdat’ta kâğıt imalathanelerinin kurulması kitabın yaygınlaşmasını sağladı. Verrâkîn denilen kitap istinsahçıları ve kitapçılar çarşısı, ilmin halka yayılmasında önemli rol oynadı.",
+  {
+   "b": "3. Devlet kurumları: Divan, hisbe, berîd ve kadılık"
+  },
+  "Hz. Ömer döneminde fetihlerle genişleyen devletin gelir-giderlerini ve askerlerin maaşlarını düzenlemek için divan teşkilatı kuruldu; askerlerin isimleri ve maaşlarının yazıldığı “Dîvânü’l-cünd” bunun ilk örneğidir. Hz. Ömer ayrıca hicrî takvimi başlattı (hicret yılı esas alındı), Beytülmâli düzenledi, şehirlere kadılar tayin etti, Basra ve Kûfe gibi ordugâh şehirleri kurdurdu. Emevîler döneminde Abdülmelik b. Mervân divanların dilini Arapçaya çevirdi ve ilk İslam parasını bastırdı. Abbâsîler döneminde vezirlik kurumu gelişti.",
+  {
+   "tablo": [
+    [
+     "Kurum",
+     "Görevi",
+     "Not"
+    ],
+    [
+     "Divan",
+     "Devletin kayıt ve maliye büroları",
+     "Hz. Ömer; Abdülmelik Arapçalaştırdı"
+    ],
+    [
+     "Beytülmâl",
+     "Devlet hazinesi",
+     "Hz. Ebû Bekir döneminde başladı, Hz. Ömer düzenledi"
+    ],
+    [
+     "Kadılık (kazâ)",
+     "Yargı",
+     "Hz. Ömer kadıları valilerden ayırdı; Abbâsîlerde kādi’l-kudât (baş kadı): Ebû Yûsuf"
+    ],
+    [
+     "Hisbe / muhtesip",
+     "Çarşı-pazar denetimi, ölçü-tartı, kamu ahlakı",
+     "Emr-i bi’l-ma’rûf nehy-i ani’l-münkerin kurumsallaşması"
+    ],
+    [
+     "Berîd",
+     "Posta ve haber alma teşkilatı",
+     "Muâviye kurdu, Abdülmelik geliştirdi"
+    ],
+    [
+     "Mezâlim",
+     "Devlet görevlilerine karşı şikâyetlerin görüldüğü yüksek mahkeme",
+     "Halife veya vezir başkanlık ederdi"
+    ],
+    [
+     "Şurta",
+     "Güvenlik (polis) teşkilatı",
+     "Emevîlerde gelişti"
+    ]
+   ]
+  },
+  "Abbâsî halifesi Hârûnürreşîd, Ebû Hanîfe’nin talebesi Ebû Yûsuf’u “kādi’l-kudât” (kadılar kadısı, baş kadı) olarak atamıştır; bu, kadılık teşkilatında merkezî bir yapının başlangıcıdır. Ebû Yûsuf’un halifenin isteği üzerine yazdığı Kitâbü’l-Harâc, İslam maliye hukukunun ilk eserlerindendir.",
+  {
+   "akil": "Hz. Ömer: divan, hicrî takvim, kadıların ayrılması, ordugâh şehirleri. Abdülmelik: divanların Arapçalaşması, İslam parası. Muâviye: berîd. Ebû Yûsuf: kādi’l-kudât, Kitâbü’l-Harâc. Hisbe: muhtesip."
+  },
+  {
+   "b": "4. Şehir, vakıf ve sanat"
+  },
+  {
+   "merak": "Bir Osmanlı şehrine yaklaşan yolcu önce minareleri görür. Çarşıya girdiğinde caminin etrafında medrese, imaret, hamam ve kütüphaneden oluşan bir külliye ile karşılaşır. Bütün bunlar devletin değil, hayır sahiplerinin kurduğu vakıflarla ayaktadır."
+  },
+  "İslam şehri cami merkezli gelişmiştir: Cuma camii, çevresinde çarşı (sûk), hamam ve medrese; ana caddeler ve mahalleler bu çekirdek etrafında şekillenir. Basra, Kûfe, Fustat ve Kayrevan fetih döneminde kurulan ordugâh şehirleridir; Bağdat (Medînetü’s-selâm) Abbâsî halifesi Mansûr tarafından yuvarlak planla kurulmuştur. Vakıflar; cami, medrese, darüşşifa, imaret, kütüphane, köprü, çeşme, kervansaray gibi hizmetleri karşılayarak sivil toplumun omurgasını oluşturmuştur. Hastanelere bîmâristan ya da darüşşifa denirdi; bunların bazılarında akıl hastalarının müzikle tedavi edildiği bilinmektedir.",
+  {
+   "tablo": [
+    [
+     "Sanat dalı",
+     "Açıklama",
+     "Örnek / temsilci"
+    ],
+    [
+     "Mimari",
+     "Cami, medrese, külliye, türbe, kervansaray",
+     "Kubbetü’s-sahra (Abdülmelik), Şam Emevî Camii, Kurtuba Camii, Selimiye (Mimar Sinan)"
+    ],
+    [
+     "Hat",
+     "Güzel yazı; sülüs, nesih, ta’lik, kûfî",
+     "İbn Mukle (aklâm-ı sitte kuralları), Yâkūt el-Müsta’sımî, Şeyh Hamdullah, Hâfız Osman"
+    ],
+    [
+     "Tezhip",
+     "Altınla süsleme",
+     "Mushaf ve yazma eserler"
+    ],
+    [
+     "Minyatür",
+     "Kitap resmi",
+     "Matrakçı Nasuh, Levnî"
+    ],
+    [
+     "Çini",
+     "Sırlı seramik süsleme",
+     "İznik çinileri"
+    ],
+    [
+     "Ebru",
+     "Kâğıt üzerinde su yüzeyinden renk aktarma",
+     "Osmanlı’da gelişti"
+    ]
+   ]
+  },
+  "İslam sanatında soyutlama, geometrik desen (geometrik geçme), bitkisel motif (arabesk, rûmî) ve yazının (hat) süsleme unsuru olarak kullanılması öne çıkar. Bu tercih, tevhid inancının ve canlı tasvirine mesafeli tutumun estetik yansıması olarak yorumlanır. Kubbetü’s-sahra (691, Abdülmelik) İslam’ın günümüze ulaşan en eski anıt yapısıdır.",
+  {
+   "sinav": "Kubbetü’s-sahra – Abdülmelik; Bağdat’ın kurucusu – Mansûr; ordugâh şehirleri – Basra, Kûfe, Fustat, Kayrevan; hat sanatında İbn Mukle ve Şeyh Hamdullah; hisbe ve muhtesip sık sorulur."
+  },
+  {
+   "akil": "Ordugâh şehirleri: Basra, Kûfe, Fustat, Kayrevan. Bağdat: Mansûr. Kubbetü’s-sahra: Abdülmelik (691). Hat: İbn Mukle, Yâkūt, Şeyh Hamdullah, Hâfız Osman. İslam sanatı: geometri, arabesk, hat."
+  }
+ ],
+ "ozet": [
+  "İslam’da eğitimin ilk merkezi mescittir; direk dibindeki ders topluluklarına halka denir.",
+  "Küttâb çocukların okuma yazma ve Kur’an öğrendiği ilköğretim kurumudur.",
+  "Beytülhikme Abbâsî Bağdat’ında tercüme ve araştırma merkezidir; Me’mûn döneminde zirveye ulaşmıştır.",
+  "Fâtımîler Kahire’de Ezher’i (970) ve Dârü’l-ilm’i (1005) kurmuştur.",
+  "Nizâmiye medreseleri Selçuklu veziri Nizâmülmülk tarafından kurulmuş, Bağdat Nizâmiyesi 1067’de açılmıştır; ilk sistemli medreselerdir.",
+  "Hârizmî cebirin kurucusudur; “algoritma” kelimesi onun adından gelir.",
+  "İbnü’l-Heysem optikte, Bîrûnî astronomi, coğrafya ve dinler tarihinde öncüdür.",
+  "Ebû Bekir er-Râzî çiçek ile kızamığı ayırt etmiş, İbn Sînâ’nın Kānûn’u Avrupa’da ders kitabı olmuştur.",
+  "Hz. Ömer divanı kurmuş, hicrî takvimi başlatmış, kadıları valilerden ayırmıştır.",
+  "Abdülmelik divanları Arapçalaştırmış ve ilk İslam parasını bastırmıştır.",
+  "Hârûnürreşîd Ebû Yûsuf’u kādi’l-kudât yapmıştır; Kitâbü’l-Harâc ona aittir.",
+  "Hisbe teşkilatı ve muhtesip, çarşı-pazar ve kamu ahlakı denetimiyle görevlidir.",
+  "Basra, Kûfe, Fustat ve Kayrevan ordugâh şehirleridir; Bağdat’ı Mansûr kurmuştur.",
+  "Kubbetü’s-sahra Abdülmelik döneminde (691) yapılmış, günümüze ulaşan en eski İslam anıtıdır."
+ ],
+ "kartlar": [
+  {
+   "o": "Halka",
+   "a": "Mescitte direk dibinde kurulan ders topluluğu."
+  },
+  {
+   "o": "Küttâb",
+   "a": "Çocuklar için okuma-yazma ve Kur’an mektebi."
+  },
+  {
+   "o": "Beytülhikme",
+   "a": "Abbâsî Bağdat’ında tercüme ve ilim merkezi; Me’mûn."
+  },
+  {
+   "o": "Nizâmiye medreseleri",
+   "a": "Nizâmülmülk; Bağdat 1067; burs, maaş, vakıf."
+  },
+  {
+   "o": "Ezher",
+   "a": "Fâtımîlerin 970’te kurduğu cami-medrese."
+  },
+  {
+   "o": "Hârizmî",
+   "a": "Cebir; algoritma; Hint rakamları ve sıfır."
+  },
+  {
+   "o": "İbnü’l-Heysem",
+   "a": "Kitâbü’l-Menâzır; optik ve deneysel yöntem."
+  },
+  {
+   "o": "Bîrûnî",
+   "a": "Tahkîku mâ li’l-Hind; dünyanın çevresini ölçtü."
+  },
+  {
+   "o": "Kādi’l-kudât",
+   "a": "Baş kadı; ilk Ebû Yûsuf (Hârûnürreşîd dönemi)."
+  },
+  {
+   "o": "Hisbe",
+   "a": "Muhtesibin yürüttüğü çarşı, ölçü-tartı ve kamu ahlakı denetimi."
+  },
+  {
+   "o": "Berîd",
+   "a": "Posta ve haber alma teşkilatı; Muâviye kurdu."
+  },
+  {
+   "o": "Mezâlim mahkemesi",
+   "a": "Devlet görevlilerine karşı şikâyetlerin görüldüğü yüksek mahkeme."
+  },
+  {
+   "o": "Kubbetü’s-sahra",
+   "a": "Abdülmelik, 691; en eski İslam anıtı."
+  },
+  {
+   "o": "İbn Mukle",
+   "a": "Aklâm-ı sitte (altı yazı çeşidi) kurallarını belirleyen hattat-vezir."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "sy16-01",
+   "z": 3,
+   "s": "Bir eğitim kurumuyla ilgili şu bilgiler verilmiştir:\n• Bir Selçuklu veziri tarafından Bağdat başta olmak üzere birçok şehirde kurulmuştur.\n• Hocalarına maaş, talebelerine burs ve barınma imkânı sağlanmış; giderleri vakıflarla karşılanmıştır.\n• Bâtınî propagandaya karşı Sünnî düşünceyi güçlendirmek amaçlarından biridir.\n\nBu kurumla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Abbâsî halifesi Me’mûn tarafından kurulmuştur.",
+    "Fâtımîlerin Kahire’de kurduğu Dârü’l-ilm’in devamıdır.",
+    "Gazzâlî’nin müderrislik yaptığı kurumlardandır.",
+    "Yalnızca tıp eğitimi verilmiştir.",
+    "Osmanlı Devleti’nin kurduğu ilk medresedir."
+   ],
+   "d": 2,
+   "a": "Anlatılan Nizâmiye medreseleridir; Gazzâlî Bağdat Nizâmiyesi’nde müderrislik yapmıştır.",
+   "ac": [
+    "Me’mûn Beytülhikme ile ilişkilendirilir.",
+    "Dârü’l-ilm Fâtımî kurumudur; Nizâmiye ona karşı bir Sünnî kurumdur.",
+    "Doğru.",
+    "Nizâmiye’de ağırlıklı olarak fıkıh, kelam, hadis okutulmuştur.",
+    "İlk Osmanlı medresesi İznik’tedir."
+   ],
+   "kay": "DİA, “Nizâmiye Medresesi” md."
+  },
+  {
+   "id": "sy16-02",
+   "z": 3,
+   "s": "I. Askerlerin isim ve maaşlarının kaydedildiği divanın kurulması\nII. Hicretin takvim başlangıcı olarak kabul edilmesi\nIII. Divanların dilinin Arapçaya çevrilmesi ve ilk İslam parasının basılması\nIV. Kadıların valilerden ayrı olarak tayin edilmesi\n\nYukarıdakilerden hangileri Hz. Ömer döneminde gerçekleşmiştir?",
+   "c": [
+    "I ve II",
+    "I, II ve IV",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Divanın kurulması, hicrî takvimin başlatılması ve kadıların ayrı tayini Hz. Ömer dönemindedir. Divanların Arapçalaşması ve ilk İslam parası Emevî halifesi Abdülmelik dönemindedir.",
+   "ac": [
+    "Kadıların ayrı tayini de Hz. Ömer dönemindedir.",
+    "Doğru.",
+    "Üçüncü öncül Abdülmelik dönemindedir; birinci öncül Hz. Ömer dönemindedir.",
+    "Üçüncü öncül Abdülmelik dönemindedir.",
+    "Üçüncü öncül Hz. Ömer dönemine ait değildir."
+   ],
+   "kay": "Belâzürî, Fütûhu’l-büldân"
+  },
+  {
+   "id": "sy16-03",
+   "z": 2,
+   "s": "“Algoritma” kelimesi adının Latince söylenişinden türeyen ve cebir ilminin kurucusu kabul edilen Müslüman bilgin aşağıdakilerden hangisidir?",
+   "c": [
+    "Bettânî",
+    "İbnü’l-Heysem",
+    "Bîrûnî",
+    "Hârizmî",
+    "Ömer Hayyâm"
+   ],
+   "d": 3,
+   "a": "Hârizmî’nin adı Latincede “Algoritmi” şeklinde söylenmiş, cebir kelimesi de onun kitabının adından gelmiştir.",
+   "ac": [
+    "Bettânî astronomi ve trigonometride öne çıkar.",
+    "İbnü’l-Heysem optikte öne çıkar.",
+    "Bîrûnî astronomi, coğrafya ve dinler tarihinde öne çıkar.",
+    "Doğru.",
+    "Ömer Hayyâm da cebirle uğraşmıştır, ama algoritma adı ondan gelmez."
+   ],
+   "kay": "DİA, “Hârizmî” md."
+  },
+  {
+   "id": "sy16-04",
+   "z": 3,
+   "s": "Bir bilginle ilgili şu bilgiler verilmiştir:\n• Gazneli Mahmud’un seferleri sırasında Hindistan’da bulunmuş, Hint dinlerini ve kültürünü yerinde incelemiştir.\n• Eserinde Hint inançlarını ön yargısız aktarmaya çalışmış, bu yüzden dinler tarihinin öncülerinden sayılmıştır.\n• Dünyanın çevresini ölçmüştür.\n\nBu bilgin ve eseri aşağıdakilerden hangisidir?",
+   "c": [
+    "İbn Sînâ – el-Kānûn",
+    "İbn Battûta – Rihle",
+    "Şehristânî – el-Milel ve’n-nihal",
+    "İdrîsî – Nüzhetü’l-müştâk",
+    "Bîrûnî – Tahkîku mâ li’l-Hind"
+   ],
+   "d": 4,
+   "a": "Bîrûnî Tahkîku mâ li’l-Hind’de Hint dinlerini incelemiş, ayrıca dünyanın çevresini hesaplamıştır.",
+   "ac": [
+    "İbn Sînâ tıp ve felsefecidir.",
+    "İbn Battûta seyyahtır.",
+    "Şehristânî dinler ve mezhepler tarihi yazmıştır, ama Hindistan’da bulunmamış ve yer ölçümü yapmamıştır.",
+    "İdrîsî coğrafyacıdır; Sicilya’da çalışmıştır.",
+    "Doğru."
+   ],
+   "kay": "DİA, “Bîrûnî” md."
+  },
+  {
+   "id": "sy16-05",
+   "z": 3,
+   "s": "Bir şehirde çarşıdaki ölçü ve tartıların doğruluğunu denetleyen, hileli mal satanları ve kamu ahlakını bozanları uyaran, gerektiğinde cezalandıran bir görevli bulunmaktadır.\n\nBu görevli ve dayandığı dinî ilke aşağıdakilerden hangisinde birlikte doğru verilmiştir?",
+   "c": [
+    "Muhtesip – emr-i bi’l-ma’rûf nehy-i ani’l-münker",
+    "Kadı – kısas",
+    "Sâhibü’ş-şurta – cihad",
+    "Sâhibü’l-berîd – istişare",
+    "Âmil – zekât"
+   ],
+   "d": 0,
+   "a": "Hisbe teşkilatının görevlisi muhtesiptir; bu kurum emr-i bi’l-ma’rûf nehy-i ani’l-münker ilkesinin kurumsallaşmış hâlidir.",
+   "ac": [
+    "Doğru.",
+    "Kadı yargı görevlisidir.",
+    "Şurta güvenlik teşkilatıdır.",
+    "Berîd posta teşkilatıdır.",
+    "Âmil zekât toplayan görevlidir."
+   ],
+   "kay": "Mâverdî, el-Ahkâmü’s-sultâniyye"
+  },
+  {
+   "id": "sy16-06",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi fetih döneminde ordugâh şehri olarak kurulan şehirlerden biri değildir?",
+   "c": [
+    "Basra",
+    "Bağdat",
+    "Fustat",
+    "Kayrevan",
+    "Kûfe"
+   ],
+   "d": 1,
+   "a": "Bağdat, Abbâsî halifesi Mansûr tarafından 762’de başkent olarak kurulmuştur; fetih dönemi ordugâh şehri değildir.",
+   "ac": [
+    "Hz. Ömer döneminde ordugâh şehri olarak kurulmuştur.",
+    "Doğru.",
+    "Mısır’ın fethinde Amr b. Âs kurmuştur.",
+    "Ukbe b. Nâfi’ Kuzey Afrika’da kurmuştur.",
+    "Hz. Ömer döneminde ordugâh şehri olarak kurulmuştur."
+   ],
+   "kay": "DİA, “Ordugâh Şehirleri” md."
+  },
+  {
+   "id": "sy16-07",
+   "z": 3,
+   "s": "Abbâsî halifesi Hârûnürreşîd’in “kādi’l-kudât” olarak atadığı ve halifenin isteğiyle İslam maliye hukukuna dair bir eser yazan âlim ile eseri aşağıdakilerden hangisidir?",
+   "c": [
+    "İmam Muhammed – el-Asl",
+    "Ebû Ubeyd – Kitâbü’l-Emvâl",
+    "Ebû Yûsuf – Kitâbü’l-Harâc",
+    "Mâverdî – el-Ahkâmü’s-sultâniyye",
+    "Yahyâ b. Âdem – Kitâbü’l-Harâc"
+   ],
+   "d": 2,
+   "a": "Ebû Yûsuf ilk kādi’l-kudâttır ve Hârûnürreşîd için Kitâbü’l-Harâc’ı yazmıştır.",
+   "ac": [
+    "İmam Muhammed kādi’l-kudât değildir.",
+    "Ebû Ubeyd’in eseri maliye hakkındadır, ama o kādi’l-kudât değildir.",
+    "Doğru.",
+    "Mâverdî daha sonraki bir dönemde yaşamıştır.",
+    "Yahyâ b. Âdem’in de Kitâbü’l-Harâc’ı vardır, ama kādi’l-kudât değildir."
+   ],
+   "kay": "DİA, “Ebû Yûsuf” md."
+  },
+  {
+   "id": "sy16-08",
+   "z": 3,
+   "s": "I. Kubbetü’s-sahra\nII. Ezher Camii\nIII. Bağdat Nizâmiye Medresesi\nIV. Selimiye Camii\n\nYukarıdaki yapıların inşa sırası aşağıdakilerden hangisidir?",
+   "c": [
+    "I – II – III – IV",
+    "II – I – III – IV",
+    "I – III – II – IV",
+    "III – I – II – IV",
+    "I – II – IV – III"
+   ],
+   "d": 0,
+   "a": "Kubbetü’s-sahra (691) → Ezher (970) → Bağdat Nizâmiyesi (1067) → Selimiye (1575).",
+   "ac": [
+    "Doğru.",
+    "Kubbetü’s-sahra Ezher’den öncedir.",
+    "Ezher Nizâmiye’den öncedir.",
+    "Nizâmiye Kubbetü’s-sahra’dan sonradır.",
+    "Selimiye en son yapıdır."
+   ],
+   "kay": "DİA, ilgili maddeler"
+  },
+  {
+   "id": "sy16-09",
+   "z": 2,
+   "s": "İslam sanatında geometrik desenlerin, bitkisel motiflerin (arabesk, rûmî) ve yazının süsleme unsuru olarak yaygın biçimde kullanılması genellikle neyle ilişkilendirilir?",
+   "c": [
+    "Sanatçıların resim tekniği bilmemesiyle",
+    "Kâğıdın pahalı olmasıyla",
+    "Yunan sanatının doğrudan taklidiyle",
+    "Tevhid inancı ve canlı tasvirine mesafeli yaklaşımın estetik yansımasıyla",
+    "Yalnızca Osmanlı dönemine has bir anlayışla"
+   ],
+   "d": 3,
+   "a": "İslam sanatındaki soyutlama ve hat kullanımı, tevhid inancının ve canlı tasvirine mesafeli tutumun estetik bir ifadesi olarak yorumlanır.",
+   "ac": [
+    "Minyatür gibi alanlar resim tekniğinin bilindiğini gösterir.",
+    "Kâğıt fiyatıyla ilgisi yoktur.",
+    "İslam sanatının kendine özgü bir üslubu vardır.",
+    "Doğru.",
+    "Bu özellik Emevîlerden itibaren görülür."
+   ],
+   "kay": "DİA, “İslâm Sanatı” md."
+  },
+  {
+   "id": "sy16-10",
+   "z": 3,
+   "s": "Devlet görevlilerinin halka karşı haksızlıklarına dair şikâyetlerin görüldüğü, genellikle halife, vezir veya onların yetkilendirdiği kişilerin başkanlık ettiği yüksek yargı kurumu aşağıdakilerden hangisidir?",
+   "c": [
+    "Hisbe",
+    "Şurta",
+    "Divânü’l-cünd",
+    "Berîd",
+    "Mezâlim"
+   ],
+   "d": 4,
+   "a": "Mezâlim mahkemesi, güçlülerin ve devlet görevlilerinin haksızlıklarına karşı halkın başvurduğu yüksek yargı kurumudur.",
+   "ac": [
+    "Hisbe çarşı ve ahlak denetimidir.",
+    "Şurta güvenlik teşkilatıdır.",
+    "Divânü’l-cünd askerlerin kayıtlarıdır.",
+    "Berîd posta ve haber alma teşkilatıdır.",
+    "Doğru."
+   ],
+   "kay": "Mâverdî, el-Ahkâmü’s-sultâniyye"
+  },
+  {
+   "id": "sy16-11",
+   "z": 3,
+   "s": "Bir eğitim kurumuyla ilgili şu bilgiler verilmiştir:\n• Abbâsîler döneminde Bağdat’ta faaliyet göstermiştir.\n• Yunan, Hint ve İran ilimlerine ait eserlerin Arapçaya çevrildiği tercüme merkezidir.\n• Bir halife döneminde zirveye ulaşmıştır.\n\nBu kurumun zirveye ulaştığı dönemdeki halife ve dönemin önemli tercümanı aşağıdakilerden hangisinde birlikte verilmiştir?",
+   "c": [
+    "Mansûr – İbn Mukle",
+    "Hârûnürreşîd – İbn Sînâ",
+    "Mütevekkil – Bîrûnî",
+    "Me’mûn – Huneyn b. İshâk",
+    "Mu’tasım – Ebû Yûsuf"
+   ],
+   "d": 3,
+   "a": "Beytülhikme Me’mûn döneminde zirveye ulaşmış, Huneyn b. İshâk bu dönemin en önemli tercümanlarından olmuştur.",
+   "ac": [
+    "İbn Mukle hattat-vezirdir.",
+    "İbn Sînâ daha sonra yaşamıştır.",
+    "Bîrûnî Gazneliler döneminde yaşamıştır.",
+    "Doğru.",
+    "Ebû Yûsuf fakihtir."
+   ],
+   "kay": "DİA, “Beytülhikme” md."
+  },
+  {
+   "id": "s2-10",
+   "z": 3,
+   "s": "Abbâsîler döneminde tercüme faaliyetlerinin yürütüldüğü ve Yunan, Hint ve İran ilimlerinin Arapçaya aktarıldığı kurum hangisidir?",
+   "c": [
+    "Beytü’l-hikme",
+    "Nizamiye Medresesi",
+    "Dârü’l-hadis",
+    "Ezher",
+    "Dârünnedve"
+   ],
+   "d": 0,
+   "a": "Beytü’l-hikme Hârûnürreşîd ve Me’mûn döneminde gelişen ilim ve tercüme merkezidir.",
+   "ac": [
+    "Doğru.",
+    "Selçuklu kurumudur.",
+    "Zengî ve Eyyûbî dönemlerinde yaygınlaşan hadis okuludur.",
+    "Fâtımî kurumudur.",
+    "Cahiliye Mekke’sinin meclisidir."
+   ],
+   "kay": "İslam tarihi"
+  },
+  {
+   "id": "sy16-12",
+   "z": 3,
+   "s": "I. Kâğıdın Semerkant üzerinden İslam dünyasına girmesi\nII. Bağdat’ta kâğıt imalathanelerinin kurulması\nIII. Verrâkîn denilen istinsahçıların ve kitapçılar çarşısının yaygınlaşması\n\nYukarıdaki gelişmelerin İslam medeniyetindeki ortak sonucu aşağıdakilerden hangisidir?",
+   "c": [
+    "Sözlü kültürün tamamen ortadan kalkması",
+    "Hat sanatının önemini yitirmesi",
+    "Medreselerin kapanması",
+    "Tercüme faaliyetlerinin sona ermesi",
+    "Kitabın ucuzlayıp yaygınlaşması ve ilmin geniş kitlelere ulaşması"
+   ],
+   "d": 4,
+   "a": "Kâğıdın yaygınlaşması ve kitap istinsahının bir meslek hâline gelmesi, kitabın ucuzlamasını ve ilmin yayılmasını sağlamıştır.",
+   "ac": [
+    "Sözlü kültür, özellikle hadis rivayetinde, önemini korumuştur.",
+    "Hat sanatı kitapla birlikte gelişmiştir.",
+    "Medreseler bu dönemde çoğalmıştır.",
+    "Tercüme faaliyetleri bu gelişmelerle hız kazanmıştır.",
+    "Doğru."
+   ],
+   "kay": "DİA, “Kâğıt” md."
+  },
+  {
+   "id": "sy16-13",
+   "z": 2,
+   "s": "Hz. Ömer döneminde fetihlerle genişleyen devletin gelir-giderlerini ve askerlerin maaşlarını düzenlemek amacıyla kurulan ilk divan aşağıdakilerden hangisidir?",
+   "c": [
+    "Dîvânü’l-berîd",
+    "Dîvânü’l-cünd",
+    "Dîvânü’l-mezâlim",
+    "Dîvânü’l-hâtem",
+    "Dîvânü’r-resâil"
+   ],
+   "d": 1,
+   "a": "Askerlerin isimlerinin ve maaşlarının kaydedildiği Dîvânü’l-cünd, Hz. Ömer döneminde kurulan ilk divandır.",
+   "ac": [
+    "Posta divanıdır; Muâviye döneminde kurulmuştur.",
+    "Doğru.",
+    "Şikâyet mahkemesidir.",
+    "Mühür divanıdır; Muâviye döneminde kurulmuştur.",
+    "Yazışma divanıdır."
+   ],
+   "kay": "Belâzürî, Fütûhu’l-büldân"
+  }
+ ]
+}

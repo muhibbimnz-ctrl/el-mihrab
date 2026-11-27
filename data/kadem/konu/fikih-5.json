@@ -1,0 +1,593 @@
+{
+ "id": "fikih-5",
+ "ad": "Fıkıh Kaideleri (Kavâid-i Külliyye) ve Şer’î Hükümlerin Amaçları (Makâsıdü’ş-Şerîa): Beş Büyük Kaide, Mecelle Kaideleri, Zarûriyyât-Hâciyyât-Tahsîniyyât",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Kaide nedir? Binlerce meseleyi tek cümlede toplamak"
+  },
+  {
+   "merak": "Bir müftüye üç ayrı soru gelir: Abdestli olduğunu bildiği hâlde abdestinin bozulup bozulmadığından şüphe eden biri, Ramazan’da sabah olup olmadığından şüphe ederek sahur yapan biri, borcunu ödeyip ödemediğinden şüphe eden biri. Müftü üçüne de aynı cümleyle cevap verir: “Yakîn şekle zâil olmaz.” Kesin olan, şüpheyle ortadan kalkmaz."
+  },
+  "Fıkıh kaideleri (kavâid-i fıkhiyye), birçok fıkıh babındaki benzer meselelerin hükmünü kapsayan, kısa ve özlü genel ilkelerdir. Usul kaidelerinden farkı şudur: Usul kaidesi delillerden hüküm çıkarma yöntemini (örneğin “emir vücûb ifade eder”) belirlerken, fıkıh kaidesi çıkarılmış hükümlerin ortak noktasını özetler. Fıkıh kaideleri genellikle “ağlebî”dir, yani çoğu meseleye uyar ama istisnaları bulunabilir. Kaideler fıkhın ezberlenmesini kolaylaştırır, yeni meselelere hüküm bulmada yol gösterir ve fıkhın ruhunu ortaya koyar.",
+  {
+   "tablo": [
+    [
+     "Eser",
+     "Müellif (ölüm)",
+     "Mezhep / not"
+    ],
+    [
+     "Te’sîsü’n-nazar",
+     "Ebû Zeyd ed-Debûsî (430)",
+     "Hanefî; kaideler ve ihtilaf sebepleri; ilk eserlerden"
+    ],
+    [
+     "el-Usûl (Risâle)",
+     "Ebü’l-Hasan el-Kerhî (340)",
+     "Hanefî; 39 kaide; erken metin"
+    ],
+    [
+     "el-Furûk",
+     "Şihâbüddîn el-Karâfî (684)",
+     "Mâlikî; benzer meseleler arasındaki farklar"
+    ],
+    [
+     "el-Eşbâh ve’n-nezâir",
+     "Tâceddîn es-Sübkî; Celâleddîn es-Süyûtî (911)",
+     "Şâfiî"
+    ],
+    [
+     "el-Eşbâh ve’n-nezâir",
+     "İbn Nüceym (970)",
+     "Hanefî; en meşhur Hanefî kaide eseri"
+    ],
+    [
+     "Mecelle (md. 2-100)",
+     "Ahmed Cevdet Paşa heyeti (1869-76)",
+     "99 külli kaide; kaidelerin ilk resmî kanunlaşması"
+    ]
+   ]
+  },
+  {
+   "akil": "Fıkıh kaidesi = hükümlerin ortak noktası (ağlebî); usul kaidesi = hüküm çıkarma yöntemi. Eserler: Kerhî, Debûsî, Karâfî – Furûk, Süyûtî ve İbn Nüceym – Eşbâh, Mecelle 99 kaide."
+  },
+  {
+   "b": "2. Beş büyük kaide (el-kavâidü’l-külliyyetü’l-hams)"
+  },
+  {
+   "tablo": [
+    [
+     "Kaide (Mecelle madde no)",
+     "Anlamı",
+     "Dayanak",
+     "Örnek"
+    ],
+    [
+     "el-Umûru bi-makāsıdihâ – İşler maksatlarına göredir (md. 2)",
+     "Bir fiilin hükmü niyete ve amaca göre değişir",
+     "“Ameller ancak niyetlere göredir.”",
+     "Yere düşmüş malı sahibine vermek için alan emanetçi, kendisi için alan gasıp hükmündedir"
+    ],
+    [
+     "el-Yakînü lâ yezûlü bi’ş-şek – Yakîn şekle zâil olmaz (md. 4)",
+     "Kesin olarak sabit olan şey şüpheyle ortadan kalkmaz",
+     "Namazda abdest şüphesi hadisi",
+     "Abdestli olduğunu bilip bozulduğundan şüphe eden abdestli sayılır"
+    ],
+    [
+     "el-Meşakkatü teclibü’t-teysîr – Meşakkat kolaylığı celbeder (md. 17)",
+     "Zorluk, hükümde kolaylık doğurur",
+     "Bakara 185; “Kolaylaştırın…” hadisi",
+     "Yolculukta namazı kısaltma, orucu erteleme; teyemmüm"
+    ],
+    [
+     "ed-Dararu yüzâl – Zarar izale olunur (md. 20)",
+     "Zarar giderilmelidir",
+     "“Lâ darar ve lâ dırâr”",
+     "Şuf’a hakkı; ayıp muhayyerliği; hacr"
+    ],
+    [
+     "el-Âdetü muhakkemetün – Âdet muhakkemdir (md. 36)",
+     "Örf ve âdet, hükme esas olabilir",
+     "Örfün delil oluşu",
+     "Mehrin peşin-veresiye kısmı, kira bedelinin ödenme zamanı örfe göre belirlenir"
+    ]
+   ]
+  },
+  "Bu beş kaidenin altında çok sayıda alt kaide (fer’î kaide) vardır. Örneğin “Zarar izale olunur” kaidesine bağlı olarak “Zaruretler yasakları mubah kılar” (md. 21), “Zaruret miktarınca takdir edilir” (md. 22), “Zarar-ı âmmı def için zarar-ı hâs ihtiyar olunur” (md. 26), “İki fesat (kötülük) karşılaştığında ehvenine (hafifine) bakılır” (md. 28-29) ve “Def’-i mefâsid celb-i menâfiden evlâdır” (md. 30), yani kötülüğü önlemek fayda sağlamaktan önce gelir, kaideleri sıralanır. “Meşakkat kolaylığı celbeder” kaidesinin altında ise “Bir iş daraldıkta genişler” (md. 18) ve “Hâcet, umumi olsun hususi olsun, zaruret menzilesine tenzil olunur” (md. 32) bulunur.",
+  {
+   "tablo": [
+    [
+     "Alt kaide (Mecelle)",
+     "Örnek"
+    ],
+    [
+     "Zaruretler yasakları mubah kılar (21)",
+     "Açlıktan ölmek üzere olan kişinin haram yiyecekten yemesi"
+    ],
+    [
+     "Zaruret miktarınca takdir edilir (22)",
+     "Zaruret hâlinde sadece canı kurtaracak kadar yenir"
+    ],
+    [
+     "Zarar-ı âmmı def için zarar-ı hâs ihtiyar olunur (26)",
+     "Yol genişletmek için bir evin kamulaştırılması"
+    ],
+    [
+     "Ehven-i şerreyn ihtiyar olunur (29)",
+     "İki kötülükten hafif olanın seçilmesi"
+    ],
+    [
+     "Def’-i mefâsid celb-i menâfiden evlâdır (30)",
+     "Komşuya zarar veren kazancın engellenmesi"
+    ],
+    [
+     "Aslolan berâet-i zimmettir (8)",
+     "Borçlu olduğu ispat edilmedikçe kişi borçsuz sayılır"
+    ],
+    [
+     "Eşyada asıl olan ibâhadır",
+     "Haram kılındığına dair delil yoksa şey mubahtır (Hanefî ve Şâfiîlerin çoğu)"
+    ],
+    [
+     "Ezmanın tağayyürü ile ahkâmın tağayyürü inkâr olunamaz (39)",
+     "Örfe dayalı hükümlerin zamanla değişmesi"
+    ],
+    [
+     "el-Harâcü bi’d-damân – Kazanç, tazmin sorumluluğu karşılığıdır (85)",
+     "Ayıplı malı geri veren alıcı, o süredeki kira gelirini iade etmez"
+    ],
+    [
+     "el-Gurmü bi’l-gunm – Külfet nimete göredir (87)",
+     "Ortak malın masrafına herkes payı oranında katılır"
+    ],
+    [
+     "İçtihat içtihatla nakzolunmaz (16)",
+     "Bir içtihada göre verilmiş hüküm başka bir içtihatla bozulmaz"
+    ]
+   ]
+  },
+  {
+   "sinav": "Bir olay verilip hangi kaideye örnek olduğu sorulur. Anahtar: niyet/amaç → umûr bi-makāsıdihâ; şüphe → yakîn; zorluk-ruhsat → meşakkat; zarar-şuf’a-kamulaştırma → zarar izale olunur ve alt kaideleri; örfe bağlı ölçü → âdet muhakkemdir. “Ezmanın tağayyürü” kaidesinin yalnız örfe dayalı hükümler için geçerli olduğuna dikkat."
+  },
+  {
+   "akil": "Beş büyük kaide: maksat (2), yakîn (4), meşakkat (17), zarar (20), âdet (36). Alt kaideler: zaruret mubah kılar (21) ama zaruret kadar (22); genel zarar için özel zarar (26); ehven-i şerreyn (29); mefsedeti önlemek önce (30); berâet-i zimmet (8); harâc-damân (85)."
+  },
+  {
+   "b": "3. Makâsıdü’ş-şerîa: Şeriat neyi korumak ister?"
+  },
+  {
+   "merak": "Gazzâlî, şer’î hükümleri tek tek incelediğinde hepsinin beş şeyi korumaya yöneldiğini fark etti: Cihad dini, kısas canı, içki yasağı aklı, zina yasağı nesli, hırsızlık cezası malı koruyordu. Hükümlerin arkasında bir amaçlar sistemi vardı."
+  },
+  "Makâsıdü’ş-şerîa, şer’î hükümlerin konuluş amaçları ve gözettiği maslahatlardır. Bu düşüncenin temelleri Cüveynî’de atılmış, Gazzâlî el-Mustasfâ’da beş zarurî maslahatı (din, can, akıl, nesil, mal) sistemli biçimde ortaya koymuş, Şâtıbî (ö. 790/1388) ise el-Muvâfakāt’ta makâsıdı fıkıh usulünün merkezine yerleştirerek bu alanın kurucusu kabul edilmiştir. Modern dönemde Tunuslu Muhammed Tâhir b. Âşûr, Makāsıdü’ş-şerîati’l-İslâmiyye ile bu düşünceyi yeniden canlandırmıştır.",
+  {
+   "tablo": [
+    [
+     "Mertebe",
+     "Tanım",
+     "Örnek"
+    ],
+    [
+     "Zarûriyyât (zorunlular)",
+     "Olmadığında dinî ve dünyevi hayatın düzeni bozulan maslahatlar: din, can (nefis), akıl, nesil (ırz), mal",
+     "İman ve ibadetler (din), kısas (can), içki yasağı (akıl), zina yasağı ve nikâh (nesil), hırsızlık cezası ve alışveriş (mal)"
+    ],
+    [
+     "Hâciyyât (ihtiyaçlar)",
+     "Olmadığında hayat güçleşen, zorluğu kaldıran maslahatlar",
+     "Yolculuk ruhsatları, selem ve icâre akitleri, boşanma"
+    ],
+    [
+     "Tahsîniyyât (güzellikler)",
+     "Güzel ahlak ve âdâba ilişkin, hayatı güzelleştiren maslahatlar",
+     "Temizlik, örtünme, yemek âdâbı, nafile ibadetler"
+    ]
+   ]
+  },
+  "Makâsıd mertebeleri arasında bir öncelik sırası vardır: Zarûriyyât hâciyyâttan, hâciyyât tahsîniyyâttan önce gelir; bir alt mertebenin korunması üst mertebeyi zedeleyecekse üst mertebe korunur. Zarûriyyâtın kendi içindeki sırası da çoğunluğa göre din, can, akıl, nesil, maldır. Örneğin tedavi için avret mahallinin hekime gösterilmesi caizdir, çünkü canın korunması (zarûrî) örtünmeden (tahsînî) önce gelir. Makâsıd düşüncesi, nasların lafzına bağlı kalmakla birlikte amaçlarını da gözeterek yeni meselelere hüküm bulmayı ve şeriatın hikmetini anlamayı sağlar; ancak nasları devre dışı bırakmanın bir aracı olarak kullanılması âlimlerce eleştirilmiştir.",
+  {
+   "sinav": "Beş zarûrî maslahat (din, can, akıl, nesil, mal) ve her birini koruyan hükümler, üç mertebe ve örnekleri, Şâtıbî – el-Muvâfakāt, Gazzâlî – el-Mustasfâ, İbn Âşûr sık sorulur. Bir hüküm verilip hangi maslahatı koruduğu ya da hangi mertebeye ait olduğu sorulur."
+  },
+  {
+   "akil": "Makâsıd: Cüveynî → Gazzâlî (beş zarûrî, Mustasfâ) → Şâtıbî (Muvâfakāt, kurucu) → İbn Âşûr (modern). Mertebeler: zarûrî > hâcî > tahsînî. Beş zarûrî: din, can, akıl, nesil, mal."
+  }
+ ],
+ "ozet": [
+  "Fıkıh kaideleri, benzer meselelerin hükmünü kapsayan genel ve özlü ilkelerdir; çoğunlukla ağlebîdir.",
+  "Usul kaidesi hüküm çıkarma yöntemini, fıkıh kaidesi çıkarılmış hükümlerin ortak noktasını ifade eder.",
+  "Kaide literatürünün ilk örnekleri Kerhî’nin el-Usûl’ü ve Debûsî’nin Te’sîsü’n-nazar’ıdır.",
+  "Hanefîlerde İbn Nüceym’in, Şâfiîlerde Süyûtî’nin el-Eşbâh ve’n-nezâir’i; Mâlikîlerde Karâfî’nin el-Furûk’u meşhurdur.",
+  "Mecelle’nin 2-100. maddeleri 99 külli kaideden oluşur.",
+  "Beş büyük kaide: İşler maksatlarına göredir; yakîn şekle zâil olmaz; meşakkat kolaylığı celbeder; zarar izale olunur; âdet muhakkemdir.",
+  "“Zaruretler yasakları mubah kılar”, ancak “zaruret miktarınca takdir edilir.”",
+  "Genel zararı önlemek için özel zarar tercih edilir; iki kötülükten hafifi seçilir.",
+  "Kötülüğü önlemek fayda sağlamaktan önce gelir.",
+  "Aslolan berâet-i zimmettir; kişi borçlu olduğu ispat edilmedikçe borçsuz sayılır.",
+  "Zamanın değişmesiyle örfe dayalı hükümlerin değişmesi inkâr edilemez (md. 39).",
+  "Makâsıdü’ş-şerîa, şer’î hükümlerin konuluş amaçlarıdır; Şâtıbî el-Muvâfakāt ile bu alanın kurucusudur.",
+  "Beş zarûrî maslahat: din, can, akıl, nesil ve maldır (Gazzâlî).",
+  "Maslahatlar zarûriyyât, hâciyyât ve tahsîniyyât olarak üç mertebeye ayrılır ve bu sırayla öncelik taşır."
+ ],
+ "kartlar": [
+  {
+   "o": "İşler maksatlarına göredir",
+   "a": "Mecelle md. 2; niyet hadisi."
+  },
+  {
+   "o": "Yakîn şekle zâil olmaz",
+   "a": "Mecelle md. 4; kesin olan şüpheyle kalkmaz."
+  },
+  {
+   "o": "Meşakkat kolaylığı celbeder",
+   "a": "Mecelle md. 17; ruhsatların dayanağı."
+  },
+  {
+   "o": "Zarar izale olunur",
+   "a": "Mecelle md. 20; “lâ darar ve lâ dırâr”."
+  },
+  {
+   "o": "Âdet muhakkemdir",
+   "a": "Mecelle md. 36; örf hükme esas olur."
+  },
+  {
+   "o": "Zaruretler yasakları mubah kılar",
+   "a": "Mecelle md. 21; ama zaruret miktarınca (md. 22)."
+  },
+  {
+   "o": "Def’-i mefâsid celb-i menâfiden evlâdır",
+   "a": "Kötülüğü önlemek fayda sağlamaktan önce gelir (md. 30)."
+  },
+  {
+   "o": "el-Harâcü bi’d-damân",
+   "a": "Kazanç, tazmin sorumluluğu karşılığıdır (md. 85)."
+  },
+  {
+   "o": "el-Eşbâh ve’n-nezâir (Hanefî)",
+   "a": "İbn Nüceym."
+  },
+  {
+   "o": "el-Furûk",
+   "a": "Karâfî; Mâlikî."
+  },
+  {
+   "o": "Beş zarûrî maslahat",
+   "a": "Din, can, akıl, nesil, mal."
+  },
+  {
+   "o": "el-Muvâfakāt",
+   "a": "Şâtıbî; makâsıdın kurucu eseri."
+  },
+  {
+   "o": "Hâciyyât",
+   "a": "Zorluğu kaldıran ihtiyaçlar; ruhsatlar, selem, icâre."
+  },
+  {
+   "o": "Tahsîniyyât",
+   "a": "Güzel ahlak ve âdâb; temizlik, örtünme, âdâb."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "fq5-01",
+   "z": 3,
+   "s": "Bir kişi yerde bulduğu bir cüzdanı sahibine ulaştırmak niyetiyle almış, ancak cüzdan elinden kusuru olmadan kaybolmuştur. Başka bir kişi ise bulduğu cüzdanı kendisine ait kılmak niyetiyle almış ve cüzdan aynı şekilde kaybolmuştur. Birinci kişi tazminle sorumlu tutulmazken ikinci kişi tazminle sorumlu tutulmuştur.\n\nBu iki durum arasındaki farkı en iyi açıklayan kaide aşağıdakilerden hangisidir?",
+   "c": [
+    "Yakîn şekle zâil olmaz.",
+    "Meşakkat kolaylığı celbeder.",
+    "Âdet muhakkemdir.",
+    "İşler maksatlarına göredir.",
+    "Aslolan berâet-i zimmettir."
+   ],
+   "d": 3,
+   "a": "Aynı fiil (bulunan malı almak), niyete göre emanet (lukata) ya da gasp hükmünü alır; bu, “İşler maksatlarına göredir” kaidesinin örneğidir.",
+   "ac": [
+    "Şüphe ile kesinlik arasında bir mesele yoktur.",
+    "Zorluk ve ruhsat söz konusu değildir.",
+    "Örfle ilgili değildir.",
+    "Doğru.",
+    "Bu kaide ispat yükümlülüğüyle ilgilidir; farkı açıklamaz."
+   ],
+   "kay": "Mecelle, md. 2; İbn Nüceym, el-Eşbâh"
+  },
+  {
+   "id": "fq5-02",
+   "z": 3,
+   "s": "I. Açlıktan ölmek üzere olan birinin domuz eti yemesi\nII. Bu kişinin zaruret ortadan kalktığı hâlde doyuncaya kadar yemeye devam etmesi\nIII. Kamu yolu genişletilirken bir evin bedeli ödenerek kamulaştırılması\n\nYukarıdaki durumlarla ilgili kaidelerin doğru eşleştirmesi aşağıdakilerden hangisidir?",
+   "c": [
+    "I – Zaruretler yasakları mubah kılar; II – caizdir, çünkü zaruret bir kez doğmuştur; III – Zarar-ı âmm için zarar-ı hâs",
+    "I – Zaruretler yasakları mubah kılar; II – caiz değildir, çünkü zaruret miktarınca takdir edilir; III – Zarar-ı âmmı def için zarar-ı hâs ihtiyar olunur",
+    "I – Âdet muhakkemdir; II – Yakîn şekle zâil olmaz; III – İşler maksatlarına göredir",
+    "I – Meşakkat kolaylığı celbeder; II – caizdir; III – Âdet muhakkemdir",
+    "I – caiz değildir; II – caiz değildir; III – caiz değildir"
+   ],
+   "d": 1,
+   "a": "Zaruret haramı mubah kılar ama zaruret ölçüsüyle sınırlıdır; genel zararı önlemek için özel zarar tercih edilir.",
+   "ac": [
+    "Zaruret kalkınca mubahlık da kalkar; doymaya kadar yemek caiz değildir.",
+    "Doğru.",
+    "Kaideler olaylara uymamaktadır.",
+    "İkinci durum caiz değildir; üçüncü durum örfle ilgili değildir.",
+    "Birinci ve üçüncü durum caizdir."
+   ],
+   "kay": "Mecelle, md. 21, 22, 26"
+  },
+  {
+   "id": "fq5-03",
+   "z": 2,
+   "s": "Bir kişi abdest aldığından emin olduğu hâlde, bir süre sonra abdestinin bozulup bozulmadığından şüphe etmektedir.\n\nBu kişinin durumu hangi kaideye göre değerlendirilir ve sonuç nedir?",
+   "c": [
+    "Meşakkat kolaylığı celbeder; abdest yenilenmez.",
+    "Zarar izale olunur; abdest yenilenmelidir.",
+    "Yakîn şekle zâil olmaz; kişi abdestli sayılır.",
+    "İşler maksatlarına göredir; niyetine bakılır.",
+    "Âdet muhakkemdir; bölgenin âdetine bakılır."
+   ],
+   "d": 2,
+   "a": "Abdestli olmak yakînen sabittir; bozulduğu şüphesi bu kesinliği ortadan kaldırmaz.",
+   "ac": [
+    "Sonuç doğru olsa da dayanak kaide yanlıştır.",
+    "Zarar söz konusu değildir.",
+    "Doğru.",
+    "Niyetle ilgili bir mesele değildir.",
+    "Örfle ilgili değildir."
+   ],
+   "kay": "Mecelle, md. 4; Müslim, Hayz, 98"
+  },
+  {
+   "id": "fq5-04",
+   "z": 3,
+   "s": "Bir hekim, hastanın hayatını kurtarmak için normalde bakılması caiz olmayan avret mahallini muayene etmektedir.\n\nBu durumun makâsıd açısından gerekçesi aşağıdakilerden hangisidir?",
+   "c": [
+    "Tahsînî bir maslahat zarûrî bir maslahattan önce gelir.",
+    "Bu durumda hiçbir maslahat gözetilmez.",
+    "Malın korunması dinin korunmasından önce gelir.",
+    "Hâcî maslahatlar her zaman zarûrîlerden önce gelir.",
+    "Canın korunması (zarûrî maslahat), örtünme gibi tahsînî bir maslahattan önce gelir."
+   ],
+   "d": 4,
+   "a": "Makâsıd mertebeleri arasında zarûriyyât önceliklidir; canın korunması avretin örtülmesinden önce gelir.",
+   "ac": [
+    "Sıralama terstir.",
+    "Can maslahatı gözetilmektedir.",
+    "Bu durumda mal değil can söz konusudur.",
+    "Zarûrîler hâcîlerden önce gelir.",
+    "Doğru."
+   ],
+   "kay": "Şâtıbî, el-Muvâfakāt, II"
+  },
+  {
+   "id": "fq5-05",
+   "z": 3,
+   "s": "I. İçki yasağı\nII. Kısas\nIII. Zina yasağı\nIV. Hırsızlık cezası\n\nYukarıdaki hükümler, koruduğu zarûrî maslahatlara göre sırasıyla aşağıdakilerden hangisinde doğru eşleştirilmiştir?",
+   "c": [
+    "Akıl – can – nesil – mal",
+    "Can – akıl – mal – nesil",
+    "Akıl – din – nesil – mal",
+    "Din – can – mal – nesil",
+    "Nesil – can – akıl – mal"
+   ],
+   "d": 0,
+   "a": "İçki yasağı aklı, kısas canı, zina yasağı nesli, hırsızlık cezası malı korur.",
+   "ac": [
+    "Doğru.",
+    "İlk iki eşleştirme terstir.",
+    "Kısas dini değil canı korur.",
+    "İçki yasağı dini değil aklı korur.",
+    "İçki yasağı nesli değil aklı korur."
+   ],
+   "kay": "Gazzâlî, el-Mustasfâ"
+  },
+  {
+   "id": "fq5-06",
+   "z": 3,
+   "s": "Bir kişi ayıplı olduğunu sonradan fark ettiği bir evi satıcıya geri vermiştir. Satıcı, alıcının evi elinde tuttuğu sürede kiraya vererek elde ettiği kira gelirini de talep etmiştir. Hâkim, alıcının o süre boyunca ev telef olsaydı zararını üstlenecek olması sebebiyle kira gelirinin alıcıya ait olduğuna hükmetmiştir.\n\nHâkimin dayandığı kaide aşağıdakilerden hangisidir?",
+   "c": [
+    "Ezmanın tağayyürü ile ahkâmın tağayyürü inkâr olunamaz",
+    "İçtihat içtihatla nakzolunmaz",
+    "el-Harâcü bi’d-damân (Kazanç, tazmin sorumluluğu karşılığıdır)",
+    "Yakîn şekle zâil olmaz",
+    "Aslolan berâet-i zimmettir"
+   ],
+   "d": 2,
+   "a": "Malın zararını üstlenen, onun gelirine de hak kazanır; bu “el-harâcü bi’d-damân” kaidesidir (Mecelle md. 85).",
+   "ac": [
+    "Bu kaide örfe dayalı hükümlerin değişmesiyle ilgilidir.",
+    "Bu kaide içtihatlarla ilgilidir.",
+    "Doğru.",
+    "Şüphe söz konusu değildir.",
+    "Bu kaide ispat yüküyle ilgilidir."
+   ],
+   "kay": "Mecelle, md. 85; Tirmizî, Büyû’, 53"
+  },
+  {
+   "id": "fq5-07",
+   "z": 2,
+   "s": "Makâsıdü’ş-şerîa düşüncesini fıkıh usulünün merkezine yerleştirerek bu alanın kurucusu kabul edilen âlim ve eseri aşağıdakilerden hangisidir?",
+   "c": [
+    "Gazzâlî – el-Mustasfâ",
+    "İbn Nüceym – el-Eşbâh ve’n-nezâir",
+    "Cüveynî – el-Burhân",
+    "Şâtıbî – el-Muvâfakāt",
+    "Karâfî – el-Furûk"
+   ],
+   "d": 3,
+   "a": "Şâtıbî el-Muvâfakāt’ta makâsıdı sistemleştirmiş ve usulün merkezine koymuştur.",
+   "ac": [
+    "Gazzâlî beş zarûrî maslahatı ortaya koymuştur, ama alanın kurucusu Şâtıbî kabul edilir.",
+    "İbn Nüceym kaide eseri yazmıştır.",
+    "Cüveynî makâsıdın öncülerindendir.",
+    "Doğru.",
+    "Karâfî farklar (furûk) eseri yazmıştır."
+   ],
+   "kay": "DİA, “Makâsıdü’ş-şerîa” md."
+  },
+  {
+   "id": "fq5-08",
+   "z": 3,
+   "s": "Bir bölgede evlilikte mehrin bir kısmının peşin, kalanının boşanma veya ölüm hâlinde ödenmesi yaygın bir uygulamadır. Nikâh akdinde mehrin ödeme şekli belirtilmemişse bu yaygın uygulamaya göre hükmedilir.\n\nBu hüküm aşağıdaki kaidelerden hangisine dayanır?",
+   "c": [
+    "Yakîn şekle zâil olmaz.",
+    "Meşakkat kolaylığı celbeder.",
+    "Zarar izale olunur.",
+    "Def’-i mefâsid celb-i menâfiden evlâdır.",
+    "Âdet muhakkemdir."
+   ],
+   "d": 4,
+   "a": "Akitte belirtilmeyen hususlarda örf ve âdete göre hükmedilir; bu “Âdet muhakkemdir” kaidesidir (md. 36).",
+   "ac": [
+    "Şüphe söz konusu değildir.",
+    "Zorluk ve ruhsat söz konusu değildir.",
+    "Zarar söz konusu değildir.",
+    "Fayda-zarar dengesi söz konusu değildir.",
+    "Doğru."
+   ],
+   "kay": "Mecelle, md. 36, 43"
+  },
+  {
+   "id": "fq5-09",
+   "z": 3,
+   "s": "I. Yolculukta dört rekâtlı farzların iki kılınması\nII. Selem ve icâre akitlerinin meşru kılınması\nIII. Yemek âdâbına ilişkin hükümler\nIV. Kısasın meşru kılınması\n\nYukarıdaki hükümlerin makâsıd mertebelerine göre doğru sınıflandırması aşağıdakilerden hangisidir?",
+   "c": [
+    "I zarûriyyât; II tahsîniyyât; III hâciyyât; IV zarûriyyât",
+    "I ve II hâciyyât; III tahsîniyyât; IV zarûriyyât",
+    "I ve II tahsîniyyât; III hâciyyât; IV zarûriyyât",
+    "I hâciyyât; II zarûriyyât; III tahsîniyyât; IV hâciyyât",
+    "Hepsi zarûriyyâttır."
+   ],
+   "d": 1,
+   "a": "Ruhsatlar ve selem-icâre gibi akitler zorluğu kaldıran hâciyyâttandır; âdâb tahsîniyyâttır; kısas canı koruyan zarûriyyâttır.",
+   "ac": [
+    "Yolculuk ruhsatı zarûrî değil hâcîdir; selem tahsînî değildir.",
+    "Doğru.",
+    "Ruhsatlar ve akitler tahsînî değildir.",
+    "Selem zarûrî değil hâcîdir; kısas zarûrîdir.",
+    "Hepsi aynı mertebede değildir."
+   ],
+   "kay": "Şâtıbî, el-Muvâfakāt, II"
+  },
+  {
+   "id": "fq5-10",
+   "z": 2,
+   "s": "Hanefî mezhebinde fıkıh kaidelerine dair yazılmış en meşhur eser aşağıdakilerden hangisidir?",
+   "c": [
+    "İbn Hazm – el-Muhallâ",
+    "Süyûtî – el-Eşbâh ve’n-nezâir",
+    "Karâfî – el-Furûk",
+    "Şâtıbî – el-Muvâfakāt",
+    "İbn Nüceym – el-Eşbâh ve’n-nezâir"
+   ],
+   "d": 4,
+   "a": "Hanefî kaide literatürünün en meşhur eseri İbn Nüceym’in el-Eşbâh ve’n-nezâir’idir.",
+   "ac": [
+    "İbn Hazm Zâhirî’dir.",
+    "Süyûtî Şâfiî’dir.",
+    "Karâfî Mâlikî’dir.",
+    "Şâtıbî makâsıd eseri yazmıştır ve Mâlikî’dir.",
+    "Doğru."
+   ],
+   "kay": "DİA, “el-Eşbâh ve’n-nezâir” md."
+  },
+  {
+   "id": "fq5-11",
+   "z": 3,
+   "s": "Bir kişi kendi arazisinde, komşusunun evine ciddi zarar verecek şekilde bir fabrika kurmak istemektedir. Fabrikanın sahibine sağlayacağı kazanç büyük olsa da hâkim, komşuya verilecek zararı gerekçe göstererek bu faaliyeti engellemiştir.\n\nHâkimin kararı öncelikle hangi kaideye dayanır?",
+   "c": [
+    "Def’-i mefâsid celb-i menâfiden evlâdır.",
+    "Âdet muhakkemdir.",
+    "İşler maksatlarına göredir.",
+    "Yakîn şekle zâil olmaz.",
+    "İçtihat içtihatla nakzolunmaz."
+   ],
+   "d": 0,
+   "a": "Zararı önlemek, fayda sağlamaktan önce gelir; bu yüzden komşuya verilecek ciddi zarar, sahibin kazancından önce dikkate alınmıştır.",
+   "ac": [
+    "Doğru.",
+    "Örfle ilgili değildir.",
+    "Niyetle ilgili değildir.",
+    "Şüpheyle ilgili değildir.",
+    "İçtihatların bağlayıcılığıyla ilgili değildir."
+   ],
+   "kay": "Mecelle, md. 30"
+  },
+  {
+   "id": "fq5-12",
+   "z": 3,
+   "s": "Mecelle’nin “Ezmanın tağayyürü ile ahkâmın tağayyürü inkâr olunamaz.” (md. 39) kaidesiyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Bütün şer’î hükümlerin zamanla değişebileceğini ifade eder.",
+    "İbadetlerin şeklinin zamana göre değiştirilebileceğini ifade eder.",
+    "Nasla sabit kesin hükümlerin kaldırılabileceğini ifade eder.",
+    "Örf ve maslahata dayalı hükümlerin, örf ve şartlar değiştiğinde değişebileceğini ifade eder.",
+    "Yalnız ceza hukukunda geçerlidir."
+   ],
+   "d": 3,
+   "a": "Kaide, örf ve maslahata dayanan içtihadî hükümlerin şartlar değiştiğinde değişebileceğini ifade eder; nasla sabit kesin hükümleri kapsamaz.",
+   "ac": [
+    "Kaide bütün hükümleri kapsamaz.",
+    "İbadetlerin şekli tevkîfîdir; değişmez.",
+    "Kesin nasla sabit hükümler bu kaidenin kapsamında değildir.",
+    "Doğru.",
+    "Kaide yalnız ceza hukukuna özgü değildir."
+   ],
+   "kay": "Mecelle, md. 39; İbn Âbidîn, Neşrü’l-arf"
+  },
+  {
+   "id": "fq5-13",
+   "z": 3,
+   "s": "I. Yolculukta dört rekâtlı farzların kısaltılması\nII. Hastanın namazı oturarak kılması\nIII. Bir mal satın alırken belirtilmeyen ödeme vadesinin bölgenin uygulamasına göre belirlenmesi\nIV. Abdestli olduğunu bilen kişinin abdestinin bozulduğundan şüphe ettiğinde abdestli sayılması\n\nYukarıdakilerden hangileri “Meşakkat kolaylığı celbeder” kaidesinin uygulamasıdır?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 0,
+   "a": "Yolculuk ve hastalık ruhsatları meşakkat kaidesinin uygulamasıdır. Vadenin örfe göre belirlenmesi “Âdet muhakkemdir”, şüphe hâlinde abdestli sayılma “Yakîn şekle zâil olmaz” kaidesine dayanır.",
+   "ac": [
+    "Doğru.",
+    "Üçüncü durum âdet kaidesine dayanır.",
+    "Dördüncü durum yakîn kaidesine dayanır.",
+    "Üçüncü ve dördüncü durum başka kaidelere dayanır.",
+    "Üçüncü ve dördüncü durum başka kaidelere dayanır."
+   ],
+   "kay": "Mecelle, md. 4, 17, 36"
+  },
+  {
+   "id": "fq5-14",
+   "z": 2,
+   "s": "Mecelle’nin “İçtihat ile içtihat nakzolunmaz.” kaidesinin anlamı aşağıdakilerden hangisidir?",
+   "c": [
+    "Bir müçtehidin görüşü hiçbir zaman değişemez.",
+    "İçtihat nasla çelişse bile geçerlidir.",
+    "Bir içtihada dayanılarak verilmiş yargı kararı, başka bir içtihatla bozulamaz.",
+    "Sonraki müçtehitler öncekilerin görüşlerini tartışamaz.",
+    "Hâkim kendi içtihadına aykırı karar veremez."
+   ],
+   "d": 2,
+   "a": "Kaide, içtihada dayalı olarak verilmiş kesinleşmiş bir hükmün, başka bir içtihat gerekçesiyle bozulmayacağını ifade eder; bu, yargı istikrarını sağlar.",
+   "ac": [
+    "Müçtehit görüşünü değiştirebilir; kaide verilmiş hükümlerle ilgilidir.",
+    "Nassa aykırı içtihat geçersizdir.",
+    "Doğru.",
+    "Görüşler tartışılabilir.",
+    "Kaide bunu ifade etmez."
+   ],
+   "kay": "Mecelle, md. 16"
+  }
+ ]
+}

@@ -1,0 +1,1312 @@
+{
+ "id": "kuran-8",
+ "ad": "İ’câz ve Tehaddî; Kur’an’ın Üslubu: Kasas, Emsâl, Aksâm, Cedel, Tekrar, İcmâl-Tafsîl",
+ "ders": "Kur’an Bilgisi",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Tehaddî: Benzerini getirin!"
+  },
+  {
+   "merak": "Mekke’nin en usta şairleri, hatipleri ve dil bilginleri, okuma yazma bilmeyen bir adamın getirdiği kitaba “Bunun benzerini getirin” meydan okumasıyla karşılaştılar. Kılıçla savaşmayı göze aldılar; ama bir sure yazmayı denemediler."
+  },
+  "Mucize, bir peygamberin peygamberlik iddiasını doğrulamak için Allah’ın onun eliyle yarattığı, insanların benzerini yapmaktan aciz kaldığı olağanüstü olaydır. Hz. Mûsâ’nın asâsı, Hz. Îsâ’nın ölüleri diriltmesi gibi mucizeler kendi zamanlarıyla sınırlı kaldı. Kur’an ise Hz. Peygamber’in kalıcı mucizesidir.",
+  {
+   "hadis": "Her peygambere, insanların ona inanmasını sağlayacak mucizeler verilmiştir. Bana verilen ise Allah’ın bana vahyettiği (Kur’an)dır. Bu yüzden kıyamet günü takipçisi en çok olanın ben olacağımı umarım.",
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 1; Müslim, Îmân, 239"
+  },
+  "Kur’an’ın, onu inkâr edenlere benzerini getirmeleri için meydan okumasına tehaddî, insanları buna karşı aciz bırakmasına i’câz denir. Tehaddî ayetleri meydan okumanın giderek hafiflediği aşamalar hâlinde sıralanır:",
+  {
+   "tablo": [
+    [
+     "Aşama",
+     "Ne isteniyor?",
+     "Ayet"
+    ],
+    [
+     "1",
+     "Kur’an’ın bütününün benzeri; insanlar ve cinler bir araya gelse bile getiremezler",
+     "İsrâ, 17/88; Tûr, 52/33-34 (“onun gibi bir söz”)"
+    ],
+    [
+     "2",
+     "Onun gibi uydurulmuş on sure",
+     "Hûd, 11/13"
+    ],
+    [
+     "3",
+     "Onun gibi tek bir sure",
+     "Yûnus, 10/38"
+    ],
+    [
+     "4",
+     "Tek bir sure ve asla getiremeyeceklerinin bildirilmesi (Medine)",
+     "Bakara, 2/23-24"
+    ]
+   ]
+  },
+  {
+   "ayet": "Eğer kulumuza indirdiğimizden şüphe içindeyseniz, haydi onun benzeri bir sure getirin ve Allah’tan başka bütün şahitlerinizi (yardımcılarınızı) çağırın; eğer doğru söyleyenlerseniz. Eğer bunu yapmazsanız, ki asla yapamayacaksınız, o hâlde yakıtı insanlar ve taşlar olan ateşten sakının…",
+   "kay": "Bakara, 2/23-24"
+  },
+  "Müşriklerin önde gelenlerinden Velîd b. Muğîre, Kur’an’ı dinledikten sonra onun şiir de, kâhin sözü de olmadığını kabul etmek zorunda kalmış; ama kavminin baskısıyla sonunda “Bu, aktarılan bir büyüden başka bir şey değildir” demiştir (Müddessir, 74/18-25). Müseylimetü’l-Kezzâb’ın Kur’an’ı taklit etmeye çalıştığı birkaç cümle ise alay konusu olmaktan öteye geçememiştir.",
+  {
+   "sinav": "Tehaddî ayeti – istenen miktar eşleştirmeleri sık sorulur: İsrâ 88 ve Tûr 34 → bütünü (benzer bir söz); Hûd 13 → on sure; Yûnus 38 ve Bakara 23 → bir sure. Tuzak: Hûd 13’ü “bir sure” diye vermek. “Meydan okumanın tefsirdeki adı” → tehaddî; “aciz bırakma” → i’câz."
+  },
+  {
+   "akil": "Mucize = peygamberliği doğrulayan olağanüstü olay; Kur’an kalıcı mucize. Tehaddî: bütün (İsrâ 88, Tûr 34) → on sure (Hûd 13) → bir sure (Yûnus 38, Bakara 23)."
+  },
+  {
+   "b": "2. Kur’an hangi yönleriyle mucizedir?"
+  },
+  {
+   "merak": "Bir şiir kulağa güzel gelir, bir tarih kitabı bilgi verir, bir kanun düzen kurar. Kur’an’ı dinleyen Araplar bunların hepsini bir arada buldular; ama hiçbirine benzetemediler. Peki mucize tam olarak nerededir?"
+  },
+  "Âlimler Kur’an’ın i’câzını farklı yönlerden açıklamıştır. Çoğunluk, birden fazla yönün birlikte geçerli olduğunu kabul eder.",
+  {
+   "tablo": [
+    [
+     "İ’câz yönü",
+     "Açıklama",
+     "Örnek / temsilci"
+    ],
+    [
+     "Lafız ve nazım (beyanî i’câz)",
+     "Kelimelerin seçimi, dizilişi (nazm), anlamla kurduğu eşsiz uyum",
+     "Abdülkāhir el-Cürcânî’nin nazım teorisi (Delâilü’l-i’câz)"
+    ],
+    [
+     "Gaybî haberler",
+     "Geçmiş ve gelecekle ilgili, insanın bilemeyeceği haberler",
+     "Rûm 1-5 (Bizans zaferi); Kamer 45 (Bedir’de müşriklerin bozguna uğrayacağı); Fetih 27 (Mescid-i Harâm’a girileceği); Tebbet (Ebû Leheb’in inkâr üzere öleceği)"
+    ],
+    [
+     "Tutarlılık",
+     "Yirmi üç yılda, farklı şartlarda indiği hâlde çelişki bulunmaması",
+     "Nisâ, 4/82"
+    ],
+    [
+     "Teşrî (hukuk) bakımından",
+     "Kalıcı, dengeli ve evrensel hükümler koyması",
+     "Aile, miras, ticaret hükümleri"
+    ],
+    [
+     "Kalpler üzerindeki etkisi",
+     "Dinleyenleri derinden etkilemesi",
+     "Hz. Ömer’in Tâhâ’yı okuyunca Müslüman olması"
+    ],
+    [
+     "Ümmî bir peygamberden gelmesi",
+     "Okuma yazma bilmeyen birinin böyle bir kitap getirmesi",
+     "Ankebût, 29/48"
+    ],
+    [
+     "Kâinata dair işaretler",
+     "Yaratılışa dair ifadelerin bilimle çelişmemesi; ihtiyatla ele alınmalıdır",
+     "Enbiyâ 30; Mü’minûn 12-14"
+    ]
+   ]
+  },
+  {
+   "akil": "Çoğunluk i’câzı tek bir yöne bağlamaz: nazım ve belâgat, gaybî haberler, tutarlılık, teşrî, etki ve Peygamber’in ümmîliği birlikte düşünülür. Nazım teorisinin ustası Abdülkāhir el-Cürcânî’dir."
+  },
+  {
+   "b": "Sarfe görüşü"
+  },
+  {
+   "merak": "“Araplar isteseydi Kur’an’ın benzerini yazabilirdi; ama Allah onları bundan alıkoydu.” Bu cümle Kur’an’ı yüceltiyor gibi görünür; âlimlerin çoğu ise onu i’câzı küçülten bir görüş saydı. Neden?"
+  },
+  "Mu’tezile âlimi İbrâhim en-Nazzâm (ö. 231/845 civarı) i’câzı farklı açıkladı: Ona göre Araplar aslında Kur’an’ın benzerini getirebilecek güçteydi; ama Allah onları bundan alıkoydu, iradelerini bu işten çevirdi (sarf etti). Bu görüşe sarfe denir. Âlimlerin büyük çoğunluğu bu görüşü reddetmiştir; çünkü bu açıklamada mucize, Kur’an’ın kendisinde değil, insanların engellenmesinde olur.",
+  {
+   "akil": "Sarfe = Nazzâm (Mu’tezile). Mucize metnin kendisinde değil, insanların alıkonulmasında aranır. Çoğunluk reddetmiştir; çünkü bu görüşte Kur’an’ın kendisi mucize olmaktan çıkar."
+  },
+  {
+   "b": "İ’câz literatürü"
+  },
+  {
+   "merak": "İ’câzı anlatan ilk kitaplar, meydan okumaya cevap veremeyen Arapların neden susmak zorunda kaldığını dil biliminin araçlarıyla açıklamaya çalıştı. Bu kitapların adları sınavın gözdesidir."
+  },
+  {
+   "tablo": [
+    [
+     "Eser",
+     "Müellif",
+     "Not"
+    ],
+    [
+     "Nazmü’l-Kur’ân",
+     "Câhiz (ö. 255/869)",
+     "Nazım kavramının erken izleri; günümüze ulaşmamıştır"
+    ],
+    [
+     "Beyânü i’câzi’l-Kur’ân",
+     "Hattâbî (ö. 388/998)",
+     "Erken dönem i’câz risalesi"
+    ],
+    [
+     "en-Nüket fî i’câzi’l-Kur’ân",
+     "Rummânî (ö. 384/994)",
+     "Belâgat yönünden i’câz"
+    ],
+    [
+     "İ’câzü’l-Kur’ân",
+     "Bâkıllânî (ö. 403/1013)",
+     "Eş’arî kelamcı; kapsamlı i’câz eseri"
+    ],
+    [
+     "Delâilü’l-i’câz; Esrârü’l-belâğa",
+     "Abdülkāhir el-Cürcânî (ö. 471/1078)",
+     "Nazım teorisinin kurucusu"
+    ],
+    [
+     "İşârâtü’l-i’câz",
+     "Said Nursî",
+     "Fâtiha ve Bakara’nın ilk kısmında nazım ve i’câz"
+    ],
+    [
+     "İ’câzü’l-Kur’ân ve’l-belâgatü’n-nebeviyye",
+     "Mustafa Sâdık er-Râfiî",
+     "Modern dönem"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Araplar benzerini getirebilirdi ama Allah onları alıkoydu” → sarfe; sahibi Nazzâm (Mu’tezile). “Kelimelerin anlamla uyumlu dizilişi” → nazım; Abdülkāhir el-Cürcânî. Gaybî haber örneği olarak en sık Rûm 1-5 ve Kamer 45 sorulur."
+  },
+  {
+   "akil": "İ’câz yönleri: nazım, gaybî haber, tutarlılık, teşrî, etki, ümmîlik. Sarfe = Nazzâm, reddedilmiş görüş. Nazım teorisi = Cürcânî. Bâkıllânî, Hattâbî, Rummânî = klasik i’câz eserleri."
+  },
+  {
+   "b": "3. Kasas: Kur’an’ın kıssaları"
+  },
+  {
+   "merak": "Kur’an, Hz. Mûsâ’nın hikâyesini otuzdan fazla yerde anlatır; ama hiçbir yerde “Mısır’da, şu yılda” demez. Neden tarih kitabı gibi anlatmaz?"
+  },
+  "Kıssa, geçmişte yaşanmış olayların ibret ve öğüt amacıyla anlatılmasıdır. Kur’an kıssalarının amacı tarih yazmak değil, insanlara ders vermektir. Bu yüzden tarih, yer ve kişi ayrıntılarına çoğu zaman girilmez; olayın mesaj veren yönü öne çıkarılır.",
+  {
+   "ayet": "Andolsun, onların kıssalarında akıl sahipleri için bir ibret vardır…",
+   "kay": "Yûsuf, 12/111"
+  },
+  {
+   "ayet": "Peygamberlerin haberlerinden, kalbini sağlamlaştıracağımız her şeyi sana anlatıyoruz…",
+   "kay": "Hûd, 11/120"
+  },
+  {
+   "tablo": [
+    [
+     "Kıssaların amaçları",
+     "Kıssaların özellikleri"
+    ],
+    [
+     "İbret ve öğüt vermek (Yûsuf 111)",
+     "Gerçekten yaşanmış olayları anlatır"
+    ],
+    [
+     "Hz. Peygamber’i ve müminleri teselli etmek (Hûd 120)",
+     "Ayrıntıya değil mesaja odaklanır"
+    ],
+    [
+     "Tevhid mesajının bütün peygamberlerde aynı olduğunu göstermek",
+     "Aynı kıssa farklı surelerde farklı yönleriyle anlatılır"
+    ],
+    [
+     "Hz. Peygamber’in peygamberliğine delil olmak (gaybî haber)",
+     "Kahramanlar çoğu zaman adıyla anılmaz (Hızır, Ashâb-ı Kehf)"
+    ],
+    [
+     "Allah’ın değişmeyen kanunlarını (sünnetullah) göstermek",
+     "Diyaloglar ve sahneler canlı bir üslupla verilir"
+    ]
+   ]
+  },
+  {
+   "akil": "Kıssa = ibret için anlatılan gerçek olay. Amaçlar: ibret, teselli, tevhid daveti, önceki kitapları tasdik. Özellikler: tarih ve yer ayrıntısı az; aynı kıssa farklı yönleriyle tekrar edilir. En güzel kıssa: Yûsuf."
+  },
+  {
+   "b": "Helak edilen kavimler ve diğer kıssa toplulukları"
+  },
+  {
+   "merak": "Bir kavim rüzgârla, biri korkunç bir sesle, biri taş yağmuruyla, biri suda boğularak helak oldu. Kur’an bu sonları neden ayrıntılı anlatır? Çünkü her helak, o kavmin işlediği günahın aynasıdır."
+  },
+  {
+   "tablo": [
+    [
+     "Kavim / topluluk",
+     "Peygamberi",
+     "Helak şekli",
+     "Başlıca yerler"
+    ],
+    [
+     "Nûh kavmi",
+     "Hz. Nûh",
+     "Tufan",
+     "Hûd 25-49; Nûh Suresi"
+    ],
+    [
+     "Âd",
+     "Hz. Hûd",
+     "Dondurucu ve uğultulu rüzgâr (rîh-i sarsar)",
+     "Hâkka 6-8; Fussilet 16"
+    ],
+    [
+     "Semûd (Ashâb-ı Hicr)",
+     "Hz. Sâlih",
+     "Korkunç ses (sayha) ve sarsıntı (recfe)",
+     "A’râf 73-79; Hûd 61-68"
+    ],
+    [
+     "Lût kavmi",
+     "Hz. Lût",
+     "Yerin altının üstüne getirilmesi ve taş yağmuru",
+     "Hûd 77-83"
+    ],
+    [
+     "Medyen",
+     "Hz. Şuayb",
+     "Sarsıntı ve korkunç ses",
+     "A’râf 85-93; Hûd 84-95"
+    ],
+    [
+     "Ashâb-ı Eyke",
+     "Hz. Şuayb",
+     "Gölge gününün azabı",
+     "Şuarâ 176-191"
+    ],
+    [
+     "Firavun ve ordusu",
+     "Hz. Mûsâ",
+     "Denizde boğulma",
+     "Tâhâ 77-79; Şuarâ 63-66"
+    ],
+    [
+     "Kârûn",
+     "(Hz. Mûsâ’nın kavminden)",
+     "Yere batırılma",
+     "Kasas 76-82"
+    ],
+    [
+     "Ashâb-ı Ress",
+     "Adı bildirilmez",
+     "Helak edildikleri bildirilir",
+     "Furkân 38; Kâf 12"
+    ],
+    [
+     "Tübba kavmi",
+     "Adı bildirilmez",
+     "Helak edildikleri bildirilir",
+     "Duhân 37; Kâf 14"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "“Ashâb” ile anılan topluluklar",
+     "Kıssa",
+     "Yer"
+    ],
+    [
+     "Ashâb-ı Kehf",
+     "Mağaraya sığınan ve yıllarca uyutulan gençler",
+     "Kehf 9-26"
+    ],
+    [
+     "Ashâb-ı Uhdûd",
+     "Müminleri hendeklerde yakan zalimler",
+     "Bürûc 4-10"
+    ],
+    [
+     "Ashâb-ı Fîl",
+     "Kâbe’yi yıkmaya gelen Ebrehe ordusu",
+     "Fîl Suresi"
+    ],
+    [
+     "Ashâb-ı Sebt",
+     "Cumartesi yasağını hileyle çiğneyen İsrâiloğulları",
+     "A’râf 163-166; Bakara 65"
+    ],
+    [
+     "Ashâb-ı Karye",
+     "Bir kasabaya gönderilen elçiler ve onları savunan adam (adları verilmez)",
+     "Yâsîn 13-29"
+    ],
+    [
+     "Ashâb-ı Cenne",
+     "Yoksullara pay vermemeye yemin eden bahçe sahipleri",
+     "Kalem 17-33"
+    ],
+    [
+     "Ashâb-ı Ress",
+     "Peygamberi adıyla anılmayan helak edilmiş topluluk",
+     "Furkân 38; Kâf 12"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Diğer önemli kıssalar",
+     "Yer"
+    ],
+    [
+     "Hâbil ile Kâbil (adları geçmez, “Âdem’in iki oğlu”)",
+     "Mâide 27-31"
+    ],
+    [
+     "Hz. Mûsâ ile Hızır (“kullarımızdan bir kul”)",
+     "Kehf 60-82"
+    ],
+    [
+     "Zülkarneyn ve Ye’cüc-Me’cüc",
+     "Kehf 83-98"
+    ],
+    [
+     "Tâlût ve Câlût; Hz. Dâvûd",
+     "Bakara 246-251"
+    ],
+    [
+     "Lokmân’ın öğütleri",
+     "Lokmân 12-19"
+    ],
+    [
+     "Sebe’ halkı ve Arim seli",
+     "Sebe’ 15-19"
+    ],
+    [
+     "Hz. Süleyman, karınca, hüdhüd ve Belkıs",
+     "Neml 15-44"
+    ],
+    [
+     "Bakara (inek) kıssası",
+     "Bakara 67-73"
+    ],
+    [
+     "Yüz yıl ölü kalıp dirilen kişi",
+     "Bakara 259"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Peygamberinin adı verilmeyen helak edilmiş kavim” sorusunda cevap Ashâb-ı Ress (ya da Tübba kavmi) olur; Âd, Semûd, Medyen, Lût kavmi tuzaktır çünkü peygamberleri bellidir. Eyke ile Medyen’in ikisine de Hz. Şuayb gönderilmiştir. Ceza eşleştirmelerinde sık tuzak: Âd’a “tufan”, Nûh kavmine “rüzgâr” vermek."
+  },
+  {
+   "akil": "Âd–Hûd–rüzgâr; Semûd–Sâlih–sayha; Lût–taş yağmuru; Medyen/Eyke–Şuayb; Nûh–tufan; Firavun–boğulma; Kârûn–yere batma. Adı verilmeyenler: Ress, Karye elçileri, Hızır, Âdem’in iki oğlu."
+  },
+  {
+   "b": "4. Emsâl: Kur’an’ın misalleri"
+  },
+  {
+   "merak": "Allah neden örümcek ağından, sinekten, kitap yüklü bir merkepten söz eder? Kur’an soyut bir gerçeği akılda kalıcı bir tabloya çevirmeyi sever."
+  },
+  "Mesel, soyut bir anlamı somut bir benzetmeyle anlatmak, ya da atasözü gibi kısa ve etkileyici bir sözle bir gerçeği ifade etmektir. Kur’an, insanların düşünmesi için meseller verdiğini açıkça söyler: “İşte bu misalleri insanlara veriyoruz; ama onları ancak bilenler anlar.” (Ankebût, 29/43). Allah’ın bir sivrisineği bile örnek vermekten çekinmediği de bildirilir (Bakara, 2/26).",
+  {
+   "tablo": [
+    [
+     "Mesel türü",
+     "Açıklama",
+     "Örnek"
+    ],
+    [
+     "Açık (musarraha)",
+     "“Onların durumu şuna benzer…” gibi açık benzetme ifadesi bulunan",
+     "Bakara 17: Ateş yakan adamın durumu"
+    ],
+    [
+     "Gizli (kâmine)",
+     "Açık benzetme kelimesi olmadan bir atasözünün anlamını taşıyan",
+     "Furkân 67: “Harcadıklarında ne israf ne cimrilik ederler; ikisi arası bir yol tutarlar” (işlerin en hayırlısı ortasıdır)"
+    ],
+    [
+     "Mürsel (serbest)",
+     "Benzetme amacı taşımadan halk arasında atasözü gibi yayılan ayet",
+     "“Her nefis ölümü tadacaktır” (Âl-i İmrân 185); “İyiliğin karşılığı iyilikten başkası mıdır?” (Rahmân 60)"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Mesel",
+     "Anlatılan",
+     "Ayet"
+    ],
+    [
+     "Ateş yakan, sonra karanlıkta kalan adam",
+     "Münafıkların hâli",
+     "Bakara, 2/17"
+    ],
+    [
+     "Karanlıkta sağanak, gök gürültüsü ve şimşek",
+     "Münafıkların korku ve şaşkınlığı",
+     "Bakara, 2/19"
+    ],
+    [
+     "Yedi başak veren tane",
+     "Allah yolunda infakın kat kat karşılığı",
+     "Bakara, 2/261"
+    ],
+    [
+     "Üzerinde biraz toprak olan kaya ve sağanak",
+     "Başa kakarak ve gösteriş için verilen sadakanın boşa gitmesi",
+     "Bakara, 2/264"
+    ],
+    [
+     "Tepedeki bahçe",
+     "Allah rızası için yapılan infakın bereketi",
+     "Bakara, 2/265"
+    ],
+    [
+     "Dondurucu rüzgârın vurduğu ekin",
+     "İnkârcıların harcamalarının boşa gitmesi",
+     "Âl-i İmrân, 3/117"
+    ],
+    [
+     "Dilini sarkıtıp soluyan köpek",
+     "Ayetleri bildiği hâlde dünyaya meyleden kişi",
+     "A’râf, 7/176"
+    ],
+    [
+     "Sel ve üstündeki köpük",
+     "Hak kalıcıdır, batıl köpük gibi geçicidir",
+     "Ra’d, 13/17"
+    ],
+    [
+     "Güzel ağaç – kötü ağaç",
+     "Güzel söz (tevhid) – kötü söz",
+     "İbrâhîm, 14/24-26"
+    ],
+    [
+     "İpliğini sağlamca büktükten sonra bozan kadın",
+     "Verilen sözü (ahdi) bozmak",
+     "Nahl, 16/92"
+    ],
+    [
+     "Nur ayeti: kandil, cam, yağ",
+     "Allah’ın nurunun müminin kalbindeki tecellisi",
+     "Nûr, 24/35"
+    ],
+    [
+     "Serap ve derin denizdeki karanlıklar",
+     "İnkârcıların amelleri",
+     "Nûr, 24/39-40"
+    ],
+    [
+     "Örümcek ağı",
+     "Allah’tan başka dost edinenlerin dayanağının zayıflığı",
+     "Ankebût, 29/41"
+    ],
+    [
+     "Sinek",
+     "Putların acizliği",
+     "Hac, 22/73"
+    ],
+    [
+     "Kitap yüklü merkep",
+     "Tevrat’la sorumlu tutulup gereğini yapmayanlar",
+     "Cuma, 62/5"
+    ],
+    [
+     "Ölü kardeşinin etini yemek",
+     "Gıybet",
+     "Hucurât, 49/12"
+    ],
+    [
+     "Yağmurla yeşerip sonra kuruyan bitki",
+     "Dünya hayatının geçiciliği",
+     "Yûnus 24; Kehf 45; Hadîd 20"
+    ],
+    [
+     "Nûh ve Lût’un eşleri; Firavun’un eşi ve Meryem",
+     "Yakınlık değil iman kurtarır",
+     "Tahrîm, 66/10-12"
+    ]
+   ]
+  },
+  {
+   "not": "Kur’an meselleri üzerine Mâverdî’nin ve İbn Kayyim el-Cevziyye’nin el-Emsâl fi’l-Kur’ân adlı eserleri tanınmıştır."
+  },
+  {
+   "sinav": "Mesel sorularında ayet bir paragrafla anlatılır, “bu meselde ne anlatılmaktadır” diye sorulur. Benzer şıklar verilir: Bakara 264 (gösteriş ve başa kakma) ile Âl-i İmrân 117 (inkârcının harcaması) ve Bakara 265 (rıza için infak) birbirine karıştırılır. Ra’d 17 (sel-köpük) hak-batıl; Ankebût 41 (örümcek) Allah’tan başka dost edinmek."
+  },
+  {
+   "akil": "Mesel türleri: açık (musarraha), gizli (kâmine), mürsel (atasözü olmuş ayet). Örümcek = sahte dayanak; köpük = batıl; merkep = gereğini yapmayan âlim; köpek = dünyaya meyleden bilgin; ölü eti = gıybet."
+  },
+  {
+   "b": "5. Aksâm: Kur’an’daki yeminler"
+  },
+  {
+   "merak": "Allah’ın yemine ihtiyacı var mı? Kur’an incire, zeytine, zamana, kaleme yemin eder. Bu yeminler kimin içindir ve neyi kuvvetlendirir?"
+  },
+  "Kasem (yemin), bir sözü kuvvetlendirmek, muhatabın dikkatini çekmek ve onu ikna etmek için kullanılır. Kur’an’daki yeminleri inceleyen ilme aksâmü’l-Kur’ân denir. Bu konudaki en tanınmış eser İbn Kayyim el-Cevziyye’nin et-Tibyân fî aksâmi’l-Kur’ân’ıdır.",
+  {
+   "tablo": [
+    [
+     "Kasemin unsurları",
+     "Açıklama",
+     "Örnek: “Ve’l-asr. İnne’l-insâne lefî husr.”"
+    ],
+    [
+     "Kasem harfi / fiili",
+     "Vav, be, te harfleri ya da “uksimu” fiili",
+     "Vav (ve)"
+    ],
+    [
+     "Muksem bih",
+     "Kendisiyle yemin edilen şey",
+     "el-Asr (zaman)"
+    ],
+    [
+     "Muksem aleyh (cevâbü’l-kasem)",
+     "Yeminle doğruluğu pekiştirilen haber",
+     "İnsanın ziyanda olması"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Allah neye yemin eder?",
+     "Örnek"
+    ],
+    [
+     "Kendi zatına",
+     "“Rabbine andolsun…” (Nisâ 65; Hicr 92; Zâriyât 23; Meâric 40)"
+    ],
+    [
+     "Zamana",
+     "Asr, Fecr, Duhâ, Leyl"
+    ],
+    [
+     "Mekâna",
+     "Beled (Mekke) – Beled 1; Tûr Dağı – Tûr 1; Tîn ve zeytin (bölgeler) – Tîn 1-3"
+    ],
+    [
+     "Gök cisimlerine",
+     "Şems, Kamer, Necm, Bürûc"
+    ],
+    [
+     "Hz. Peygamber’in hayatına",
+     "“Le-amruke” – Senin hayatına andolsun (Hicr 72); Kur’an’da tek örnek"
+    ],
+    [
+     "Kur’an’ın kendisine",
+     "Yâsîn 2; Sâd 1; Kâf 1; Zuhruf 2"
+    ],
+    [
+     "Kaleme ve yazılanlara",
+     "Kalem 1"
+    ]
+   ]
+  },
+  "Allah, üç yerde Hz. Peygamber’e de “Rabbime andolsun” diye yemin etmesini emreder (Yûnus 53; Sebe’ 3; Teğâbün 7). Kıyâme 1 ve Beled 1’deki “Lâ uksimu” ifadesi “yemin etmem” değil, “Hayır! Yemin ederim ki…” anlamında, yemini pekiştiren bir kalıptır.",
+  {
+   "sinav": "“Ve’l-asr” örneğinde muksem bih zaman (asr), muksem aleyh insanın ziyanda olmasıdır; ikisi karıştırılır. “Sure başında Allah’ın bir şeye yemin etmesini inceleyen ilim” → aksâmü’l-Kur’ân (fevâtihu’s-süver genel başlıktır). “Le-amruke” → Hicr 72."
+  },
+  {
+   "akil": "Kasem = harf/fiil + muksem bih (yemin edilen) + muksem aleyh (cevap). Le-amruke = Hicr 72. Lâ uksimu = pekiştirmeli yemin. Eser: İbn Kayyim, et-Tibyân."
+  },
+  {
+   "b": "6. Cedel, tekrar, icmâl-tafsîl ve diğer üslup özellikleri"
+  },
+  {
+   "merak": "Hz. İbrâhim putları kırdı, baltayı en büyük putun boynuna astı ve “Bunu büyükleri yaptı, konuşabiliyorlarsa onlara sorun!” dedi. Bir yalan mı, yoksa muhatabı kendi inancıyla yüzleştiren bir tartışma yöntemi mi?"
+  },
+  "Kur’an inkârcılarla tartışırken de bir yöntem öğretir: “Rabbinin yoluna hikmetle ve güzel öğütle çağır; onlarla en güzel şekilde mücadele et.” (Nahl, 16/125). Ehl-i kitapla da ancak en güzel biçimde tartışılması emredilir (Ankebût, 29/46). Kur’an’daki bu ikna ve tartışma yöntemlerine cedel (cedelü’l-Kur’ân) denir.",
+  {
+   "tablo": [
+    [
+     "Cedel örneği",
+     "Yöntem"
+    ],
+    [
+     "Hz. İbrâhim ile Nemrud: “Allah güneşi doğudan getiriyor, sen de batıdan getir” (Bakara 258)",
+     "Muhatabı cevapsız bırakan delil (ilzâm)"
+    ],
+    [
+     "Hz. İbrâhim’in yıldız, ay ve güneşe bakışı (En’âm 76-79)",
+     "Muhatabın inancını onunla birlikte sınayıp çürütme"
+    ],
+    [
+     "Hz. İbrâhim’in putları kırıp büyük putu bırakması (Enbiyâ 58-67)",
+     "Muhatabı kendi sözüyle çelişkiye düşürme"
+    ],
+    [
+     "“Çürümüş kemikleri kim diriltecek?” sorusuna: “Onları ilk defa yaratan diriltecek” (Yâsîn 78-79)",
+     "İlk yaratılıştan yeniden yaratılışa delil (daha kolay olana kıyas)"
+    ],
+    [
+     "Hz. Mûsâ ile Firavun’un tartışması (Şuarâ 23-28)",
+     "Delilleri adım adım sunma"
+    ],
+    [
+     "Mübâhele: Necran Hristiyanlarına teklif (Âl-i İmrân 61)",
+     "Tarafların Allah’ın lanetini yalancıya istemesi"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Üslup özelliği",
+     "Açıklama",
+     "Örnek"
+    ],
+    [
+     "Tekrar",
+     "Bir kıssa, ifade ya da ayetin pekiştirme, farklı bağlam ve dikkat çekme amacıyla tekrarlanması. Kıssalar her tekrarda farklı bir yönüyle anlatılır",
+     "Rahmân’da 31, Mürselât’ta 10 tekrar; Kamer’de “Andolsun, Kur’an’ı öğüt için kolaylaştırdık” 4 kez; Hz. Mûsâ kıssası en çok tekrarlanan kıssa"
+    ],
+    [
+     "İcmâl – tafsîl",
+     "Bir konunun önce özetlenip (mücmel) sonra açıklanması (mübeyyen); ya da bir yerde özet geçilenin başka yerde açılması",
+     "Bakara 37’deki “kelimeler” → A’râf 23’teki dua; namaz, zekât emirleri → sünnetle tafsil; Fâtiha Kur’an’ın icmali"
+    ],
+    [
+     "İltifat",
+     "Konuşmanın akışı içinde hitap şahsının değişmesi (üçüncü şahıstan ikinci şahsa geçmek gibi)",
+     "Fâtiha 1-4’te “O”, 5’te “Ancak sana kulluk ederiz”"
+    ],
+    [
+     "Soru-cevap",
+     "“Sana … soruyorlar; de ki…” kalıbı",
+     "Bakara 189, 215, 217, 219, 220, 222"
+    ],
+    [
+     "Tasvir",
+     "Soyut anlamı canlı sahnelerle anlatma",
+     "Kıyamet ve cennet sahneleri"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Kur’an’daki tekrarın hikmetlerinden biri değildir” sorusunda tuzak: “Kıssaların her seferinde kelimesi kelimesine aynı anlatılması.” Kıssalar her seferinde farklı bir yönüyle anlatılır. İltifat sorusunda Fâtiha 4→5 geçişi verilir."
+  },
+  {
+   "akil": "Cedel = ikna ve tartışma yöntemi (Nahl 125). İlzâm: Nemrud; kıyas: Yâsîn 78-79. Tekrar = pekiştirme + farklı yön. İcmâl-tafsîl = özet-açıklama. İltifat = hitap değişimi."
+  }
+ ],
+ "ozet": [
+  "Mucize peygamberliği doğrulayan olağanüstü olaydır; Kur’an Hz. Peygamber’in kalıcı mucizesidir (Buhârî, Fezâilü’l-Kur’ân, 1).",
+  "Tehaddî, Kur’an’ın benzerini getirmeye meydan okuması; i’câz, insanları buna karşı aciz bırakmasıdır.",
+  "Tehaddî aşamaları: bütünü (İsrâ 88; Tûr 33-34), on sure (Hûd 13), bir sure (Yûnus 38; Bakara 23-24).",
+  "İ’câz yönleri: nazım ve beyan, gaybî haberler (Rûm 1-5, Kamer 45, Fetih 27), tutarlılık (Nisâ 82), teşrî, kalpler üzerindeki etki, ümmî peygamberden gelmesi.",
+  "Sarfe görüşü Nazzâm’a aittir: Araplar benzerini getirebilirdi ama Allah onları alıkoydu. Çoğunluk reddetmiştir.",
+  "İ’câz eserleri: Hattâbî, Rummânî, Bâkıllânî (İ’câzü’l-Kur’ân), Abdülkāhir el-Cürcânî (Delâilü’l-i’câz – nazım teorisi), Said Nursî (İşârâtü’l-i’câz).",
+  "Kıssaların amacı ibret (Yûsuf 111) ve tesellidir (Hûd 120); tarih kitabı gibi ayrıntı vermez, aynı kıssayı farklı yönleriyle anlatır.",
+  "Helak edilen kavimler: Nûh (tufan), Âd–Hûd (rüzgâr), Semûd–Sâlih (sayha, recfe), Lût (taş yağmuru), Medyen ve Eyke–Şuayb, Firavun (boğulma), Kârûn (yere batma).",
+  "Peygamberinin adı verilmeyen topluluklar: Ashâb-ı Ress, Tübba kavmi; elçilerinin adı verilmeyen: Ashâb-ı Karye (Yâsîn 13-29).",
+  "Mesel türleri: açık (musarraha), gizli (kâmine), mürsel (atasözü olmuş ayet).",
+  "Önemli meseller: Bakara 17 (münafık), 261 (yedi başak), 264 (gösterişli sadaka), Ra’d 17 (sel-köpük), İbrâhîm 24-26 (güzel-kötü ağaç), Nûr 35 (nur), Ankebût 41 (örümcek), Cuma 5 (kitap yüklü merkep), Hucurât 12 (gıybet).",
+  "Kasemin unsurları: kasem harfi/fiili, muksem bih, muksem aleyh. “Le-amruke” (Hicr 72) Allah’ın Hz. Peygamber’in hayatına yeminidir. Eser: İbn Kayyim, et-Tibyân fî aksâmi’l-Kur’ân.",
+  "Cedel, Kur’an’ın ikna ve tartışma yöntemidir (Nahl 125): Nemrud tartışması, Yâsîn 78-79, mübâhele (Âl-i İmrân 61).",
+  "Tekrar pekiştirme ve farklı yönleri gösterme amacı taşır; icmâl-tafsîl özetin sonra açıklanmasıdır; iltifat hitap şahsının değişmesidir (Fâtiha 4→5)."
+ ],
+ "kartlar": [
+  {
+   "o": "Tehaddî ve i’câz",
+   "a": "Tehaddî: benzerini getirmeye meydan okuma. İ’câz: buna karşı aciz bırakma."
+  },
+  {
+   "o": "Tehaddî ayetleri ve istenen miktar",
+   "a": "İsrâ 88, Tûr 34: bütünü. Hûd 13: on sure. Yûnus 38, Bakara 23: bir sure."
+  },
+  {
+   "o": "Sarfe görüşü",
+   "a": "Nazzâm (Mu’tezile): Araplar benzerini getirebilirdi ama Allah onları alıkoydu. Çoğunluk reddetmiştir."
+  },
+  {
+   "o": "Nazım teorisinin kurucusu",
+   "a": "Abdülkāhir el-Cürcânî (Delâilü’l-i’câz, Esrârü’l-belâğa)."
+  },
+  {
+   "o": "Gaybî haberlere örnek",
+   "a": "Rûm 1-5 (Bizans zaferi), Kamer 45 (Bedir’de bozgun), Fetih 27 (Mescid-i Harâm’a giriş), Tebbet (Ebû Leheb)."
+  },
+  {
+   "o": "Âd, Semûd, Medyen kavimlerinin peygamberleri",
+   "a": "Âd: Hûd. Semûd: Sâlih. Medyen (ve Eyke): Şuayb."
+  },
+  {
+   "o": "Âd ve Semûd’un helak şekli",
+   "a": "Âd: dondurucu, uğultulu rüzgâr (sarsar). Semûd: korkunç ses (sayha) ve sarsıntı."
+  },
+  {
+   "o": "Ashâb-ı Eyke’nin azabı",
+   "a": "Gölge gününün azabı (Şuarâ 189)."
+  },
+  {
+   "o": "Ashâb-ı Karye",
+   "a": "Yâsîn 13-29: bir kasabaya gönderilen, adları verilmeyen elçiler ve onları savunan adam."
+  },
+  {
+   "o": "Ra’d 13/17’deki sel ve köpük meseli",
+   "a": "Hak kalıcı, batıl köpük gibi geçicidir."
+  },
+  {
+   "o": "Ankebût 29/41’deki örümcek meseli",
+   "a": "Allah’tan başka dost edinenlerin dayanağı örümcek ağı gibi zayıftır."
+  },
+  {
+   "o": "Cuma 62/5’teki kitap yüklü merkep meseli",
+   "a": "Tevrat’la sorumlu tutulup gereğini yapmayanlar."
+  },
+  {
+   "o": "Mürsel mesel",
+   "a": "Atasözü gibi yayılmış ayet: “Her nefis ölümü tadacaktır.”"
+  },
+  {
+   "o": "Kasemin unsurları",
+   "a": "Kasem harfi/fiili, muksem bih (yemin edilen), muksem aleyh (yeminle pekiştirilen haber)."
+  },
+  {
+   "o": "“Le-amruke” hangi ayette, ne anlama gelir?",
+   "a": "Hicr 72: “Senin hayatına andolsun.” Allah’ın Hz. Peygamber’in hayatına yemini; tek örnek."
+  },
+  {
+   "o": "İltifat",
+   "a": "Hitap şahsının değişmesi; Fâtiha 1-4’te üçüncü şahıs, 5’te “Ancak sana kulluk ederiz”."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "k1-05",
+   "z": 2,
+   "s": "Kur’an’da bir kasabaya önce iki, sonra bir üçüncü elçinin gönderildiği; kasaba halkının onları yalanlayıp tehdit ettiği; şehrin öbür ucundan koşarak gelen bir adamın kavmine elçilere uymalarını öğütlediği anlatılır. Kıssada ne kasabanın ne de elçilerin adı verilir.\n\nBu kıssa ve yer aldığı sure aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Ashâb-ı Karye – Yâsîn",
+    "Ashâb-ı Kehf – Kehf",
+    "Ashâb-ı Uhdûd – Bürûc",
+    "Ashâb-ı Sebt – A’râf",
+    "Ashâb-ı Ress – Furkân"
+   ],
+   "d": 0,
+   "a": "Yâsîn 13-29’da anlatılan kıssa Ashâb-ı Karye (kasaba halkı) kıssasıdır. Elçilerin ve kasabanın adı verilmez; koşarak gelen adamın adı rivayetlerde Habîb en-Neccâr olarak geçer.",
+   "ac": [
+    "Doğru.",
+    "Ashâb-ı Kehf mağaraya sığınan gençlerin kıssasıdır.",
+    "Ashâb-ı Uhdûd müminleri hendeklerde yakanlardır.",
+    "Ashâb-ı Sebt cumartesi yasağını çiğneyenlerdir.",
+    "Ashâb-ı Ress’in yalnız helak edildiği bildirilir; elçi ve koşan adam anlatılmaz."
+   ],
+   "kay": "Yâsîn, 36/13-29"
+  },
+  {
+   "id": "k1-06",
+   "z": 2,
+   "s": "Kur’an’da gökten inen yağmurla vadilerin kendi ölçüleri kadar sel alıp aktığı, selin üstünde bir köpüğün oluştuğu; süs ya da eşya yapmak için ateşte eritilen madenlerde de benzer bir köpüğün çıktığı anlatılır. Köpüğün atılıp gittiği, insanlara fayda veren şeyin ise yeryüzünde kaldığı belirtilir (Ra’d, 13/17).\n\nBu meselde anlatılmak istenen düşünce aşağıdakilerden hangisidir?",
+   "c": [
+    "Dünya hayatının yağmurla yeşerip kuruyan bitki gibi geçici olduğu",
+    "Allah yolunda harcananın kat kat arttığı",
+    "Hakkın kalıcı, batılın ise köpük gibi geçici olduğu",
+    "Gösteriş için yapılan amellerin boşa gittiği",
+    "Allah’tan başka dost edinenlerin dayanağının zayıf olduğu"
+   ],
+   "d": 2,
+   "a": "Ayetin sonunda “Allah hak ile batıla böyle misal verir” denir. Köpük batıldır, kısa süre görünür sonra kaybolur; insanlara fayda veren hak ise kalır.",
+   "ac": [
+    "Bu, Yûnus 24, Kehf 45 ve Hadîd 20’deki meselin konusudur.",
+    "Bu, Bakara 261’deki yedi başak meselinin konusudur.",
+    "Doğru: hak ve batıl meseli.",
+    "Bu, Bakara 264’ün konusudur.",
+    "Bu, Ankebût 41’deki örümcek meselinin konusudur."
+   ],
+   "kay": "Ra’d, 13/17"
+  },
+  {
+   "id": "k1-17",
+   "z": 3,
+   "s": "Bir surenin, başında Allah’ın bir varlığa ya da bir zamana yemin etmesiyle başlaması ve Kur’an’daki bu yeminlerin incelenmesi aşağıdaki kavramlardan hangisiyle ifade edilir?",
+   "c": [
+    "Hurûf-ı mukattaa",
+    "Fevâtihu’s-süver",
+    "Emsâlü’l-Kur’ân",
+    "Aksâmü’l-Kur’ân",
+    "Hevâtimü’s-süver"
+   ],
+   "d": 3,
+   "a": "Kur’an’daki yeminleri (kasem) inceleyen ilme aksâmü’l-Kur’ân denir. Tîn, Şems, Leyl, Duhâ gibi sureler yeminle başlar.",
+   "ac": [
+    "Surelerin başındaki kesik harflerdir.",
+    "Sure başlangıçlarının genel adıdır; yemin özel olarak aksâm başlığında incelenir.",
+    "Kur’an’daki misallerdir.",
+    "Doğru: aksâmü’l-Kur’ân.",
+    "Sure sonlarıdır."
+   ],
+   "kay": "İbn Kayyim, et-Tibyân fî aksâmi’l-Kur’ân"
+  },
+  {
+   "id": "kb8-01",
+   "z": 2,
+   "s": "Aşağıdaki tehaddî ayeti – istenen miktar eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "İsrâ, 17/88 – Kur’an’ın bütününün benzeri",
+    "Hûd, 11/13 – On sure",
+    "Tûr, 52/34 – On sure",
+    "Bakara, 2/23 – Bir sure",
+    "Yûnus, 10/38 – Bir sure"
+   ],
+   "d": 2,
+   "a": "Tûr 34’te “Eğer doğru söylüyorlarsa onun gibi bir söz getirsinler” denir; istenen Kur’an’ın benzeri bir sözdür, on sure değildir.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Yanlış eşleştirme: Tûr 34’te on sure değil, Kur’an gibi bir söz istenir.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme."
+   ],
+   "kay": "İsrâ, 17/88; Hûd, 11/13; Yûnus, 10/38; Bakara, 2/23; Tûr, 52/34"
+  },
+  {
+   "id": "kb8-02",
+   "z": 2,
+   "s": "Mu’tezile âlimlerinden biri, Arapların aslında Kur’an’ın benzerini getirmeye güç yetirebileceğini, ancak Allah’ın onların iradelerini bu işten çevirerek engellediğini ileri sürmüştür.\n\nBu görüşün adı ve sahibi aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Nazım – Abdülkāhir el-Cürcânî",
+    "Sarfe – Nazzâm",
+    "Tehaddî – Bâkıllânî",
+    "Kasem – İbn Kayyim",
+    "İltifat – Zemahşerî"
+   ],
+   "d": 1,
+   "a": "Bu görüşe sarfe (alıkoyma) denir ve en çok Nazzâm ile anılır. Âlimlerin çoğu bu görüşü reddetmiştir.",
+   "ac": [
+    "Cürcânî i’câzı Kur’an’ın nazmında arar; sarfeye karşıdır.",
+    "Doğru.",
+    "Bâkıllânî i’câzın Kur’an’ın kendisinde olduğunu savunur.",
+    "İbn Kayyim aksâm konusunda eser yazmıştır.",
+    "Zemahşerî belâgatçı bir müfessirdir; bu görüşün sahibi değildir."
+   ],
+   "kay": "Kelam ve Kur’an ilimleri: i’câz"
+  },
+  {
+   "id": "kb8-03",
+   "z": 2,
+   "s": "Bir âlim, Kur’an’ın mucize oluşunu tek tek kelimelerin güzelliğinde değil, kelimelerin anlamla uyumlu biçimde dizilişinde (nazım) aramış ve bu görüşünü Delâilü’l-i’câz adlı eserinde işlemiştir.\n\nBu âlim aşağıdakilerden hangisidir?",
+   "c": [
+    "Câhiz",
+    "Hattâbî",
+    "Rummânî",
+    "Nazzâm",
+    "Abdülkāhir el-Cürcânî"
+   ],
+   "d": 4,
+   "a": "Nazım teorisinin kurucusu Abdülkāhir el-Cürcânî’dir; Delâilü’l-i’câz ve Esrârü’l-belâğa onun eserleridir.",
+   "ac": [
+    "Câhiz’in Nazmü’l-Kur’ân’ı günümüze ulaşmamıştır; nazım teorisini sistemleştiren Cürcânî’dir.",
+    "Hattâbî’nin eseri Beyânü i’câzi’l-Kur’ân’dır.",
+    "Rummânî’nin eseri en-Nüket fî i’câzi’l-Kur’ân’dır.",
+    "Nazzâm sarfe görüşünün sahibidir.",
+    "Doğru."
+   ],
+   "kay": "Abdülkāhir el-Cürcânî, Delâilü’l-i’câz"
+  },
+  {
+   "id": "kb8-04",
+   "z": 3,
+   "s": "Mekke’de, Müslümanların sayıca az ve zayıf olduğu bir dönemde “Bu topluluk yakında bozguna uğrayacak ve arkalarını dönüp kaçacaklar.” (Kamer, 54/45) ayeti inmiştir. Hz. Ömer, bu ayetin anlamını Bedir Savaşı’nda müşriklerin kaçtığını görünce anladığını söylemiştir.\n\nBu örnek Kur’an’ın aşağıdaki i’câz yönlerinden hangisine aittir?",
+   "c": [
+    "Gaybî haberler vermesi",
+    "Nazmının eşsizliği",
+    "Hükümlerinin evrenselliği",
+    "Ümmî bir peygambere inmesi",
+    "Ayetleri arasında çelişki olmaması"
+   ],
+   "d": 0,
+   "a": "Henüz gerçekleşmemiş bir olayın haber verilmesi ve sonradan aynen gerçekleşmesi, i’câzın gaybî haber yönüdür.",
+   "ac": [
+    "Doğru: gaybî haber.",
+    "Nazım lafız ve dizilişle ilgilidir; örnek bir haberin gerçekleşmesidir.",
+    "Ayet bir hüküm değil, bir haber içerir.",
+    "Bu da bir i’câz yönüdür ama örnekte vurgulanan haberin gerçekleşmesidir.",
+    "Tutarlılık Nisâ 82’de anlatılan yöndür."
+   ],
+   "kay": "Kamer, 54/45"
+  },
+  {
+   "id": "kb8-05",
+   "z": 2,
+   "s": "Aşağıdaki kavim – helak şekli eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Âd – Dondurucu ve uğultulu rüzgâr",
+    "Lût kavmi – Tufan",
+    "Semûd – Korkunç ses ve sarsıntı",
+    "Firavun ve ordusu – Denizde boğulma",
+    "Kârûn – Yere batırılma"
+   ],
+   "d": 1,
+   "a": "Lût kavmi, yerin altının üstüne getirilmesi ve üzerlerine pişmiş çamurdan taşlar yağdırılmasıyla helak edilmiştir. Tufan Nûh kavmine gelen azaptır.",
+   "ac": [
+    "Doğru eşleştirme (Hâkka 6).",
+    "Yanlış eşleştirme: tufan Nûh kavmine aittir.",
+    "Doğru eşleştirme (Hûd 67; A’râf 78).",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme (Kasas 81)."
+   ],
+   "kay": "Hûd, 11/82; Hâkka, 69/6"
+  },
+  {
+   "id": "kb8-06",
+   "z": 2,
+   "s": "Kur’an’da ölçü ve tartıda hile yapan, ormanlık bir bölgede yaşayan bir topluluğun peygamberlerini yalanladığı ve “gölge gününün azabı” ile cezalandırıldığı anlatılır (Şuarâ, 26/176-191).\n\nBu topluluğa gönderilen peygamber aşağıdakilerden hangisidir?",
+   "c": [
+    "Hz. Hûd",
+    "Hz. Sâlih",
+    "Hz. Lût",
+    "Hz. Şuayb",
+    "Hz. Yûnus"
+   ],
+   "d": 3,
+   "a": "Ashâb-ı Eyke’ye Hz. Şuayb gönderilmiştir. Hz. Şuayb aynı zamanda Medyen halkının da peygamberidir.",
+   "ac": [
+    "Hz. Hûd Âd kavmine gönderilmiştir.",
+    "Hz. Sâlih Semûd kavmine gönderilmiştir.",
+    "Hz. Lût, Sodom halkına gönderilmiştir.",
+    "Doğru: Hz. Şuayb.",
+    "Hz. Yûnus Ninova halkına gönderilmiştir; kavmi iman ettiği için azaptan kurtulmuştur."
+   ],
+   "kay": "Şuarâ, 26/176-191"
+  },
+  {
+   "id": "kb8-07",
+   "z": 2,
+   "s": "“Tevrat’la sorumlu tutulup da onun gereğini yapmayanların durumu, ciltlerle kitap taşıyan merkebin durumu gibidir…” (Cuma, 62/5)\n\nBu meselde aşağıdakilerden hangisi eleştirilmektedir?",
+   "c": [
+    "Bilgiyi taşıyıp onunla amel etmemek",
+    "Kitapları ezberlemeden okumak",
+    "İlim öğrenmek için yolculuk yapmak",
+    "Kutsal kitabı başka dile çevirmek",
+    "Kitapları yazıya geçirmek"
+   ],
+   "a": "Mesel, kitabın bilgisini taşıyıp onun gereğini yapmayanları, sırtındaki kitaplardan habersiz bir yük hayvanına benzetir. Eleştirilen, bilgiyle amel etmemektir.",
+   "d": 0,
+   "ac": [
+    "Doğru.",
+    "Ayette ezber konusu yoktur.",
+    "Ayette yolculuktan söz edilmez.",
+    "Ayette tercüme konusu yoktur.",
+    "Ayette yazıya geçirme eleştirilmez."
+   ],
+   "kay": "Cuma, 62/5"
+  },
+  {
+   "id": "kb8-08",
+   "z": 2,
+   "s": "“Allah’tan başka dostlar edinenlerin durumu, kendine bir ev edinen örümceğin durumu gibidir. Evlerin en çürüğü de şüphesiz örümcek evidir; keşke bilselerdi!” (Ankebût, 29/41)\n\nBu meselde vurgulanan düşünce aşağıdakilerden hangisidir?",
+   "c": [
+    "Dünya hayatının geçiciliği",
+    "Gıybetin çirkinliği",
+    "Hakkın kalıcı, batılın geçici olduğu",
+    "Ahde vefanın önemi",
+    "Allah’tan başkasına dayanmanın güvensizliği"
+   ],
+   "d": 4,
+   "a": "Örümcek ağı görünüşte bir yuva olsa da en zayıf barınaktır. Allah’tan başkasına güvenip dayananların durumu da böyledir.",
+   "ac": [
+    "Bu, Yûnus 24, Kehf 45 gibi meselleri anlatır.",
+    "Bu, Hucurât 12’deki meseli anlatır.",
+    "Bu, Ra’d 17’deki sel ve köpük meselini anlatır.",
+    "Bu, Nahl 92’deki ipliğini bozan kadın meselini anlatır.",
+    "Doğru."
+   ],
+   "kay": "Ankebût, 29/41"
+  },
+  {
+   "id": "kb8-09",
+   "z": 3,
+   "s": "“Ve’l-asr. İnne’l-insâne lefî husr.” (Asr, 103/1-2)\n\nBu ayetlerdeki yemin cümlesinde “muksem bih” ve “muksem aleyh” aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Muksem bih: insan – Muksem aleyh: zaman",
+    "Muksem bih: iman – Muksem aleyh: salih amel",
+    "Muksem bih: zaman (asr) – Muksem aleyh: insanın ziyanda olması",
+    "Muksem bih: ziyan – Muksem aleyh: insan",
+    "Muksem bih: vav harfi – Muksem aleyh: zaman"
+   ],
+   "d": 2,
+   "a": "Muksem bih, kendisiyle yemin edilen şeydir (asr, zaman). Muksem aleyh, yeminle doğruluğu pekiştirilen haberdir (insanın ziyanda olması). Vav ise kasem harfidir.",
+   "ac": [
+    "Sıra ters verilmiştir.",
+    "İman ve salih amel istisna kısmında geçer; kasemin unsuru değildir.",
+    "Doğru.",
+    "Yanlış: ziyan haberin parçasıdır.",
+    "Vav kasem harfidir; muksem bih değildir."
+   ],
+   "kay": "Asr, 103/1-2"
+  },
+  {
+   "id": "kb8-10",
+   "z": 3,
+   "s": "Kur’an’da Allah zatına, zamana, mekânlara, gök cisimlerine ve Kur’an’ın kendisine yemin eder. Bir ayette ise yalnızca bir kez olmak üzere Hz. Peygamber’in hayatına yemin edilir.\n\nBu ifadenin geçtiği ayet ve ifade aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Hicr 72 – Le-amruke",
+    "Kıyâme 1 – Lâ uksimu",
+    "Beled 1 – Lâ uksimu bi-hâze’l-beled",
+    "Yûnus 53 – İy ve rabbî",
+    "Nisâ 65 – Fe-lâ ve rabbike"
+   ],
+   "d": 0,
+   "a": "Hicr Suresi 72. ayette “Le-amruke” (Senin hayatına andolsun) ifadesiyle Hz. Peygamber’in hayatına yemin edilmiştir; Kur’an’da başka örneği yoktur.",
+   "ac": [
+    "Doğru.",
+    "Kıyâme gününe yemindir.",
+    "Mekke şehrine yemindir.",
+    "Hz. Peygamber’e “Rabbime andolsun” dedirtilen ayetlerdendir.",
+    "Allah’ın kendi zatına (Rabbine) yeminidir."
+   ],
+   "kay": "Hicr, 15/72"
+  },
+  {
+   "id": "kb8-11",
+   "z": 2,
+   "s": "Kur’an, ölümden sonra dirilişi inkâr ederek “Çürümüş kemikleri kim diriltecek?” diye soran kişiye “Onları ilk defa yaratan diriltecek; O her türlü yaratmayı bilendir.” cevabını verir (Yâsîn, 36/78-79).\n\nBu ayetlerde Kur’an’ın kullandığı yöntem aşağıdakilerden hangisidir?",
+   "c": [
+    "Bir olayın önce özetlenip sonra açıklandığı icmâl-tafsîl",
+    "Konuşma içinde hitap şahsının değişmesi (iltifat)",
+    "İnkârcıyı, ilk yaratılıştan yeniden yaratılışa delil getirerek ikna etmeye çalışan cedel yöntemi",
+    "Bir yemine dayanarak sözü kuvvetlendirme (kasem)",
+    "Geçmiş kavimlerin helakini anlatan kıssa"
+   ],
+   "d": 2,
+   "a": "Kur’an inkârcının sorusuna akli bir delille cevap verir: İlk defa yaratan, ikinci kez yaratmaya da kadirdir. Bu, ikna ve tartışma yöntemi olan cedelin bir örneğidir.",
+   "ac": [
+    "Ayetlerde önce özet sonra açıklama yoktur.",
+    "Hitap şahsı değişmemektedir.",
+    "Doğru: cedel.",
+    "Ayetlerde yemin yoktur.",
+    "Ayetlerde bir kavmin helaki anlatılmaz."
+   ],
+   "kay": "Yâsîn, 36/78-79"
+  },
+  {
+   "id": "kb8-12",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi Kur’an kıssalarının amaçları arasında yer almaz?",
+   "c": [
+    "İbret ve öğüt vermek",
+    "Hz. Peygamber’i ve müminleri teselli etmek",
+    "Allah’ın değişmeyen kanunlarını göstermek",
+    "Bütün peygamberlerin tevhide çağırdığını göstermek",
+    "Geçmiş olayların tarihlerini ve yerlerini ayrıntılı biçimde kaydetmek"
+   ],
+   "d": 4,
+   "a": "Kur’an kıssaları tarih kitabı değildir; tarih, yer ve kişi ayrıntılarına çoğu zaman girilmez. Amaç mesaj ve ibrettir.",
+   "ac": [
+    "Kıssaların amacıdır (Yûsuf 111).",
+    "Kıssaların amacıdır (Hûd 120).",
+    "Kıssaların amacıdır.",
+    "Kıssaların amacıdır.",
+    "Doğru: bu amaç değildir."
+   ],
+   "kay": "Yûsuf, 12/111; Hûd, 11/120"
+  },
+  {
+   "id": "kb8-13",
+   "z": 2,
+   "s": "Kur’an’daki tekrar üslubuyla ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Bir mesajı pekiştirmek amacı taşır.",
+    "Rahmân Suresi’nde bir ayet otuz bir kez tekrarlanır.",
+    "Aynı kıssa farklı surelerde farklı yönleriyle anlatılır.",
+    "Kıssalar her tekrarlandığında kelimesi kelimesine aynı ifadelerle anlatılır.",
+    "Hz. Mûsâ kıssası Kur’an’da en çok anlatılan kıssalardandır."
+   ],
+   "d": 3,
+   "a": "Kıssalar farklı surelerde farklı bağlamlar ve farklı ayrıntılarla anlatılır; aynı ifadelerle tekrarlanmaz. Tekrarın hikmetlerinden biri de bu farklı yönleri göstermektir.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur: “Febieyyi âlâi rabbikümâ tükezzibân”.",
+    "Doğrudur.",
+    "Yanlış: kıssalar farklı ifadelerle anlatılır.",
+    "Doğrudur."
+   ],
+   "kay": "Kur’an’ın üslubu: tekrar"
+  },
+  {
+   "id": "kb8-14",
+   "z": 2,
+   "s": "Fâtiha Suresi’nin ilk dört ayetinde Allah’tan üçüncü şahıs olarak söz edilirken beşinci ayette “Ancak sana kulluk eder ve ancak senden yardım dileriz.” denilerek doğrudan Allah’a hitap edilir.\n\nKur’an’ın üslubundaki bu özellik aşağıdakilerden hangisiyle ifade edilir?",
+   "c": [
+    "Tekrar",
+    "İltifat",
+    "İcmâl",
+    "Kasem",
+    "Mesel"
+   ],
+   "d": 1,
+   "a": "Konuşmanın akışında hitap şahsının değişmesine (gâibden muhataba geçiş gibi) iltifat denir. Dinleyenin dikkatini canlı tutar.",
+   "ac": [
+    "Tekrar bir ifadenin yinelenmesidir.",
+    "Doğru: iltifat.",
+    "İcmâl bir konunun özet verilmesidir.",
+    "Kasem yemindir.",
+    "Mesel benzetmedir."
+   ],
+   "kay": "Fâtiha, 1/1-5"
+  },
+  {
+   "id": "kb8-z01",
+   "z": 3,
+   "s": "İ’câzü’l-Kur’ân ile ilgili\nI. Sarfe görüşü Mu’tezile âlimi Nazzâm’a nispet edilir ve âlimlerin çoğunluğu tarafından reddedilmiştir.\nII. Kur’an’ın mucize oluşunu kelimelerin anlamla uyumlu dizilişinde gören nazım teorisinin sistemli temsilcisi Abdülkāhir el-Cürcânî’dir.\nIII. Bâkıllânî’nin İ’câzü’l-Kur’ân adlı eseri bu alanın klasik eserlerindendir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Sarfe Nazzâm’a aittir ve reddedilmiştir; nazım teorisi Cürcânî’nin Delâilü’l-i’câz’ında sistemleşmiştir; Bâkıllânî’nin İ’câzü’l-Kur’ân’ı klasik eserdir.",
+   "ac": [
+    "Eksiktir.",
+    "Eksiktir: III de doğrudur.",
+    "Eksiktir: II de doğrudur.",
+    "Eksiktir: I de doğrudur.",
+    "Doğrudur: üç öncül de doğrudur."
+   ],
+   "kay": "Konu: İ’câz"
+  },
+  {
+   "id": "kb8-z02",
+   "z": 3,
+   "s": "Kur’an kıssalarıyla ilgili\nI. Olayların geçtiği zaman ve yer, bir tarih kitabındaki gibi ayrıntılı olarak verilir.\nII. Kıssaların amaçlarından biri Hz. Peygamber’i ve müminleri teselli etmektir.\nIII. Aynı kıssa farklı surelerde farklı yönleri öne çıkarılarak anlatılır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 3,
+   "a": "Kur’an kıssaları tarih anlatısı değildir; zaman ve yer ayrıntısı yerine ibrete odaklanır. Teselli (Hûd 120) amaçlarındandır ve aynı kıssa farklı yönleriyle tekrar edilir.",
+   "ac": [
+    "I yanlıştır.",
+    "Eksiktir: III de doğrudur.",
+    "I yanlış olduğu için doğru değildir.",
+    "Doğrudur: II ve III doğrudur.",
+    "I yanlış olduğu için doğru değildir."
+   ],
+   "kay": "Hûd, 11/120; Yûsuf, 12/111"
+  },
+  {
+   "id": "kb8-z03",
+   "z": 3,
+   "s": "“Ve’t-tîni ve’z-zeytûn. Ve tûri sînîn. Ve hâze’l-beledi’l-emîn. Le-kad halaknâ’l-insâne fî ahseni takvîm.” (Tîn, 95/1-4)\n\nBu ayetlerdeki yeminle ilgili\nI. Muksem bih incir, zeytin, Sînâ Dağı ve güvenli şehirdir.\nII. Muksem aleyh insanın en güzel biçimde yaratılmış olmasıdır.\nIII. Yemin “lâ uksimu” kalıbıyla yapılmıştır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "Kendisiyle yemin edilenler (muksem bih) incir, zeytin, Tûr-i Sînîn ve Mekke’dir; yeminin cevabı (muksem aleyh) insanın ahsen-i takvîm üzere yaratılmasıdır. Yemin vav harfiyle yapılmıştır.",
+   "ac": [
+    "Eksiktir: II de doğrudur.",
+    "Doğrudur: I ve II doğrudur.",
+    "III yanlıştır: yemin vav harfiyledir.",
+    "III yanlış olduğu için doğru değildir.",
+    "III yanlış olduğu için doğru değildir."
+   ],
+   "kay": "Tîn, 95/1-4"
+  },
+  {
+   "id": "kb8-z04",
+   "z": 3,
+   "s": "“Mallarını Allah yolunda harcayanların durumu, yedi başak bitiren ve her başakta yüz tane bulunan bir tohumun durumu gibidir. Allah dilediğine kat kat verir…” (Bakara, 2/261)\n\nBu ayetteki meselle aşağıdakilerden hangisi anlatılmaktadır?",
+   "c": [
+    "Zekâtın miktarının ürünün onda biri olması",
+    "Gösteriş ve başa kakmayla yapılan harcamanın boşa gitmesi",
+    "İnkârcıların harcamalarının dondurucu bir rüzgârla kavrulan ekin gibi yok olması",
+    "Faizin malı artırmayıp eksiltmesi",
+    "Allah rızası için yapılan harcamanın karşılığının kat kat artırılması"
+   ],
+   "d": 4,
+   "a": "Bir tohumdan yedi yüz tane çıkması, Allah yolunda yapılan infakın bereketini ve kat kat karşılığını somutlaştırır.",
+   "ac": [
+    "Ayet zekât miktarı bildirmez.",
+    "Bu, Bakara 264’teki üzerinde toprak bulunan kaya meselidir.",
+    "Bu, Âl-i İmrân 117’deki meseldir.",
+    "Ayette faizden söz edilmez.",
+    "Doğrudur."
+   ],
+   "kay": "Bakara, 2/261"
+  },
+  {
+   "id": "kb8-z05",
+   "z": 3,
+   "s": "Hz. İbrâhim kavminin putlarını kırmış, baltayı en büyük putun boynuna asmıştır. Kavmi “Bunu tanrılarımıza sen mi yaptın?” diye sorunca “Hayır, bunu şu büyükleri yaptı; konuşabiliyorlarsa onlara sorun!” demiştir. Kavmi önce kendi kendine dönmüş, sonra “Sen bunların konuşmadığını bilirsin” demek zorunda kalmıştır.\n\nBu kıssada Kur’an’ın cedel üslubundaki hangi yönteme örnek vardır?",
+   "c": [
+    "İlk yaratılıştan yeniden yaratılışa kıyas",
+    "Muhatabı kendi sözü ve inancıyla çelişkiye düşürme",
+    "Delilleri adım adım sunma",
+    "Kâinattaki düzeni delil olarak gösterme",
+    "Tarafların Allah’ın lanetini yalancıya istemesi (mübâhele)"
+   ],
+   "d": 1,
+   "a": "Hz. İbrâhim, putların konuşamadığını müşriklere kendi ağızlarıyla söyleterek onları kendi inançlarıyla çelişkiye düşürmüştür.",
+   "ac": [
+    "Bu, Yâsîn 78-79’daki yöntemdir.",
+    "Doğrudur: muhatap kendi inancıyla yüzleştirilmiştir.",
+    "Bu, Hz. Mûsâ ile Firavun tartışmasında öne çıkan yöntemdir.",
+    "Kıssada kâinat delili kullanılmamıştır.",
+    "Bu, Necran heyetine yapılan tekliftir."
+   ],
+   "kay": "Enbiyâ, 21/58-67"
+  },
+  {
+   "id": "kb8-z06",
+   "z": 3,
+   "s": "Bakara Suresi 37. ayette Hz. Âdem’in Rabbinden “bazı kelimeler” aldığı ve bunlarla tövbe ettiği bildirilir; ancak bu kelimelerin ne olduğu burada açıklanmaz. A’râf Suresi 23. ayette ise Âdem ile eşinin “Rabbimiz! Biz kendimize zulmettik…” diye başlayan duası yer alır.\n\nBu iki ayet arasındaki ilişki Kur’an’ın hangi üslup özelliğine örnektir?",
+   "c": [
+    "İltifat",
+    "Tekrar",
+    "İcmâl - tafsîl",
+    "Kasem",
+    "Tasvir"
+   ],
+   "d": 2,
+   "a": "Bir yerde kapalı (mücmel) bırakılan bilgi başka bir yerde açıklanmıştır: icmâl-tafsîl. Bu, Kur’an’ı Kur’an’la tefsirin de temelidir.",
+   "ac": [
+    "İltifat hitap şahsının değişmesidir.",
+    "Tekrar aynı ifadenin pekiştirme amacıyla yinelenmesidir.",
+    "Doğrudur: özet ve açıklama ilişkisidir.",
+    "Ayetlerde yemin yoktur.",
+    "Tasvir soyut anlamın canlı sahneyle anlatılmasıdır."
+   ],
+   "kay": "Bakara, 2/37; A’râf, 7/23"
+  },
+  {
+   "id": "kb8-z07",
+   "z": 3,
+   "s": "Aşağıdaki topluluk - kıssa eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Ashâb-ı Eyke - Hz. Sâlih’in uyardığı ve sayha ile helak edilen kavim",
+    "Ashâb-ı Fîl - Kâbe’yi yıkmak için gelen ordu",
+    "Ashâb-ı Sebt - Cumartesi yasağını hileyle çiğneyen İsrailoğulları",
+    "Ashâb-ı Uhdûd - Müminleri hendeklerde ateşe atan zalimler",
+    "Ashâb-ı Kehf - Mağaraya sığınıp yıllarca uyutulan gençler"
+   ],
+   "d": 0,
+   "a": "Ashâb-ı Eyke, Hz. Şuayb’ın gönderildiği, ölçü ve tartıda hile yapan kavimdir; “gölge günü azabı” ile helak edilmiştir. Hz. Sâlih’in kavmi Semûd’dur.",
+   "ac": [
+    "Yanlıştır: Eyke halkının peygamberi Şuayb’dır.",
+    "Doğrudur: Fîl Suresi.",
+    "Doğrudur: A’râf 163-166.",
+    "Doğrudur: Bürûc Suresi.",
+    "Doğrudur: Kehf 9-26."
+   ],
+   "kay": "Şuarâ, 26/176-189"
+  }
+ ]
+}

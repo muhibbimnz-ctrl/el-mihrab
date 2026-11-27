@@ -1,0 +1,559 @@
+{
+ "id": "fikih-22",
+ "ad": "Yargılama Hukuku ve İspat Vasıtaları (İkrar, Şahitlik, Yemin, Karine); Kadı ve Müftü; Devlet (İmamet, Şûrâ, Biat); Milletlerarası Hukuk (Siyer): Dârü’l-İslâm-Dârü’l-Harb, Eman, Zimmet ve Antlaşmalar",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Yargı (kazâ) ve hâkim"
+  },
+  {
+   "merak": "Halife Hz. Ali, zırhının bir Yahudide olduğunu görür ve kadı Şüreyh’e başvurur. Kadı, halifeden delil ister; Ali oğlu Hasan’ı şahit gösterir. Şüreyh “Oğlun babası lehine şahitlik edemez” der ve davayı Yahudinin lehine sonuçlandırır. Etkilenen Yahudi zırhın Ali’ye ait olduğunu itiraf eder ve Müslüman olur."
+  },
+  "Kazâ (yargı), insanlar arasındaki anlaşmazlıkları şer’î hükümlere göre bağlayıcı biçimde çözmektir. Kur’an emanetlerin ehline verilmesini ve insanlar arasında adaletle hükmedilmesini emreder (Nisâ 58). Hâkimde Müslüman, akıllı, ergen, adil olma ve hukuku bilme şartları aranır. Klasik fakihlerin çoğu hâkimin müçtehit olmasını ideal görür; Hanefîler mukallit kadıyı da zaruret hâlinde kabul eder. Hâkim taraflara eşit davranır, öfkeli, aç veya yorgunken hüküm vermez, taraflardan hediye almaz. Hâkimin hükmü bağlayıcıdır; müftünün fetvası ise bağlayıcı değildir, yalnızca bilgilendiricidir.",
+  {
+   "tablo": [
+    [
+     "Kadı (hâkim)",
+     "Müftü"
+    ],
+    [
+     "Somut uyuşmazlıkta hüküm verir",
+     "Sorulan meselenin dinî hükmünü açıklar"
+    ],
+    [
+     "Hükmü bağlayıcıdır ve uygulanır",
+     "Fetvası bağlayıcı değildir"
+    ],
+    [
+     "Delillere ve zâhire göre hükmeder",
+     "Sorana göre cevap verir"
+    ],
+    [
+     "Devlet tarafından atanır",
+     "Bağımsız da olabilir"
+    ]
+   ]
+  },
+  {
+   "akil": "Kazâ: bağlayıcı yargı (Nisâ 58). Hâkim: Müslüman, akıllı, ergen, adil, hukuk bilgisi. Kadı hükmü bağlayıcı; müftü fetvası bağlayıcı değil. Hâkim taraflara eşit davranır, öfkeliyken hükmetmez."
+  },
+  {
+   "b": "2. Dava ve ispat vasıtaları"
+  },
+  "Yargılamanın temel kuralı Hz. Peygamber’in “Delil getirmek davacıya, yemin etmek inkâr edene düşer” hadisidir. Davacı (müddeî) iddiasını delille ispatlamakla yükümlüdür; delili yoksa davalının (müddeâ aleyh) yemin etmesi istenir. Davalı yeminden kaçınırsa (nükûl), Hanefîlere göre bu ikrar gibi değerlendirilir ve aleyhine hükmedilir.",
+  {
+   "tablo": [
+    [
+     "İspat vasıtası",
+     "Açıklama",
+     "Not"
+    ],
+    [
+     "İkrar",
+     "Kişinin kendi aleyhine bir hakkı kabul etmesi",
+     "“Delillerin efendisi”; yalnız ikrar edeni bağlar; had suçlarında ikrardan dönülebilir"
+    ],
+    [
+     "Şahitlik (beyyine)",
+     "Bir olayı bilen kişinin mahkemede bildirmesi",
+     "Mal davalarında iki erkek ya da bir erkek iki kadın; had ve kısasta iki erkek; zinada dört erkek"
+    ],
+    [
+     "Yemin",
+     "Davalının iddiayı inkâr ederek yemin etmesi",
+     "Delil yoksa başvurulur; nükûl aleyhe hüküm doğurur"
+    ],
+    [
+     "Karine",
+     "Kesin delalet eden durum (karîne-i kātıa)",
+     "Mecelle md. 1740: karine-i kātıa ispat vasıtasıdır"
+    ]
+   ]
+  },
+  "Şahitlerde akıl, ergenlik, adalet (güvenilirlik), görme ve konuşma gibi şartlar aranır. Yakın akrabaların (usul ve füru’) birbiri lehine, eşlerin birbiri lehine şahitliği kabul edilmez; düşmanın düşmanı aleyhine şahitliği de reddedilir. Kazf cezası alan kişinin şahitliği tövbe etse bile Hanefîlere göre kabul edilmez. Ayrıca kişinin kendi bilgisiyle hüküm vermesi, sonraki Hanefî fakihlerine göre hâkimin tarafsızlığını zedeleyeceği gerekçesiyle kabul edilmemiştir.",
+  {
+   "sinav": "“Delil davacıya, yemin inkâr edene” hadisi, ikrarın “delillerin efendisi” olması ve yalnız ikrar edeni bağlaması, şahitlerin nitelikleri ve akraba şahitliği, nükûlün hükmü sık sorulur."
+  },
+  {
+   "akil": "Delil davacıya, yemin inkâr edene. İkrar: en kuvvetli, kişiyi bağlar. Şahitlik: mal 2 erkek ya da 1 erkek + 2 kadın; had-kısas 2 erkek; zina 4. Akraba ve eş lehine şahitlik yok. Nükûl → aleyhe hüküm (Hanefî)."
+  },
+  {
+   "b": "3. Devlet: İmamet, şûrâ ve biat"
+  },
+  {
+   "merak": "Hz. Peygamber’in vefatından hemen sonra, daha o defnedilmeden, ensar ve muhacirler Benî Sâide sofasında toplandı. Gündem tekti: Müslümanları kim yönetecek? Bu toplantı, İslam siyaset düşüncesinin ilk ve en önemli olaylarından biri oldu."
+  },
+  "Ehl-i sünnete göre devlet başkanı (imam, halife) seçmek Müslümanlar üzerine farz-ı kifâyedir; çünkü dinin ve dünyanın düzeni, adaletin sağlanması ve hakların korunması buna bağlıdır. Klasik kaynaklar devlet başkanında Müslüman, akıllı, ergen, adil, bilgili ve yönetime ehil olma şartlarını arar; Kureyşli olma şartı ise tartışılmıştır. Devlet başkanı, “ehl-i hal ve akd” denilen toplumun ileri gelenlerinin seçmesi ve halkın biatıyla göreve gelir. İstişare (şûrâ) yönetimin temel ilkesidir (Şûrâ 38; Âl-i İmrân 159). Bu konudaki klasik eser Mâverdî’nin el-Ahkâmü’s-sultâniyye’sidir; Ebû Ya’lâ el-Ferrâ’ aynı adla Hanbelî açıdan bir eser yazmıştır.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Açıklama"
+    ],
+    [
+     "İmamet / hilafet",
+     "Dinin korunması ve dünyanın yönetimi için Peygamber’e halefiyet; Ehl-i sünnete göre farz-ı kifâye"
+    ],
+    [
+     "Ehl-i hal ve akd",
+     "Devlet başkanını seçen yetkin kişiler"
+    ],
+    [
+     "Biat",
+     "Halkın devlet başkanına bağlılık sözü"
+    ],
+    [
+     "Şûrâ",
+     "İstişare; Şûrâ 38, Âl-i İmrân 159"
+    ],
+    [
+     "Ülü’l-emr",
+     "Yetki sahipleri; Nisâ 59: Allah’a, Resûl’e ve sizden olan ülü’l-emre itaat"
+    ],
+    [
+     "el-Ahkâmü’s-sultâniyye",
+     "Mâverdî (Şâfiî) ve Ebû Ya’lâ (Hanbelî)"
+    ]
+   ]
+  },
+  {
+   "akil": "İmamet: farz-ı kifâye (Ehl-i sünnet). Seçim: ehl-i hal ve akd + biat. Şûrâ: Şûrâ 38, Âl-i İmrân 159. Klasik eser: Mâverdî – el-Ahkâmü’s-sultâniyye."
+  },
+  {
+   "b": "4. Siyer: İslam milletlerarası hukuku"
+  },
+  "Fıkıhta devletler arası ilişkileri, savaş ve barış hukukunu düzenleyen alana “siyer” denir. Bu alanın ilk sistemli eserleri İmam Muhammed eş-Şeybânî’nin es-Siyerü’s-sağîr ve es-Siyerü’l-kebîr’idir; Serahsî es-Siyerü’l-kebîr’i şerhetmiştir. Bu yüzden İmam Muhammed, İslam milletlerarası hukukunun kurucusu kabul edilir. Klasik fakihler dünyayı Müslümanların hâkimiyetindeki dârü’l-İslâm, gayrimüslimlerin hâkimiyetindeki dârü’l-harb ve Müslümanlarla antlaşması bulunan dârü’l-ahd (dârü’s-sulh) olarak ayırmıştır.",
+  {
+   "tablo": [
+    [
+     "Siyer kavramı",
+     "Açıklama"
+    ],
+    [
+     "Eman",
+     "Bir gayrimüslime Müslüman ülkede can ve mal güvenliği verilmesi; bir Müslümanın verdiği eman bile geçerlidir; bu kişiye müste’men denir"
+    ],
+    [
+     "Zimmet akdi",
+     "Gayrimüslimlerin cizye ödeyerek İslam devletinin vatandaşı (zimmî) olması; can, mal, din ve ibadet özgürlüğü güvence altındadır"
+    ],
+    [
+     "Cizye",
+     "Zimmîlerden, askerlik yükümlülüğü karşılığında alınan vergi; kadın, çocuk, yaşlı, din adamı ve fakirden alınmaz"
+    ],
+    [
+     "Ahid (antlaşma)",
+     "Antlaşmalara bağlılık; “Ahitlerinizi yerine getirin” (Mâide 1)"
+    ],
+    [
+     "Savaş ahlakı",
+     "Kadın, çocuk, yaşlı ve din adamlarına dokunmama; ağaç ve ekin tahribatını yasaklama; esirlere iyi davranma"
+    ]
+   ]
+  },
+  "İslam hukukunda savaşın meşruiyeti, saldırıya karşı savunma, zulmün önlenmesi ve inanç özgürlüğünün korunması gibi gerekçelere bağlanmıştır. Hz. Ebû Bekir’in Şam’a gönderdiği orduya verdiği on emir (kadın, çocuk ve yaşlıları öldürmeyin, meyveli ağaçları kesmeyin, manastırdaki rahiplere dokunmayın…) savaş ahlakının erken ve meşhur bir örneğidir. Antlaşmalara sadakat, karşı taraf bozmadıkça korunması gereken bir yükümlülüktür (Tevbe 4, 7).",
+  {
+   "sinav": "İmam Muhammed – es-Siyerü’l-kebîr (milletlerarası hukukun kurucusu), dâr ayrımı, eman ve müste’men, zimmet akdi ve cizyeden muaf olanlar, Mâide 1 ve Hz. Ebû Bekir’in ordu emirleri sık sorulur."
+  },
+  {
+   "akil": "Siyer = milletlerarası hukuk; kurucu İmam Muhammed (es-Siyerü’l-kebîr, şerhi Serahsî). Dârü’l-İslâm – dârü’l-harb – dârü’l-ahd. Eman → müste’men. Zimmet → cizye (kadın, çocuk, yaşlı, rahip, fakir muaf). Ahde vefa: Mâide 1."
+  }
+ ],
+ "ozet": [
+  "Kazâ, anlaşmazlıkları şer’î hükümlere göre bağlayıcı biçimde çözmektir; dayanağı Nisâ 58’dir.",
+  "Hâkimde Müslüman, akıllı, ergen, adil ve hukuku bilen biri olma şartı aranır.",
+  "Kadının hükmü bağlayıcıdır; müftünün fetvası bağlayıcı değildir.",
+  "“Delil getirmek davacıya, yemin etmek inkâr edene düşer” yargılamanın temel kuralıdır.",
+  "İkrar, kişinin kendi aleyhine bir hakkı kabul etmesidir; delillerin en kuvvetlisidir ve yalnız ikrar edeni bağlar.",
+  "Mal davalarında iki erkek ya da bir erkek ve iki kadın şahit; had ve kısasta iki erkek; zinada dört erkek şahit gerekir.",
+  "Usul ve füru’un birbiri lehine ve eşlerin birbiri lehine şahitliği kabul edilmez.",
+  "Hanefîlere göre davalının yeminden kaçınması (nükûl) aleyhine hüküm sebebidir.",
+  "Kesin karine (karîne-i kātıa) Mecelle’de ispat vasıtası sayılmıştır.",
+  "Ehl-i sünnete göre devlet başkanı seçmek farz-ı kifâyedir; seçim ehl-i hal ve akd ile ve biatla olur.",
+  "Şûrâ (istişare) yönetimin temel ilkesidir (Şûrâ 38; Âl-i İmrân 159).",
+  "Mâverdî’nin el-Ahkâmü’s-sultâniyye’si İslam kamu hukukunun klasik eseridir.",
+  "İslam milletlerarası hukukunun (siyer) kurucusu İmam Muhammed’dir; es-Siyerü’l-kebîr’i Serahsî şerhetmiştir.",
+  "Zimmîler cizye karşılığında can, mal ve din özgürlüğü güvencesine sahiptir; eman alan gayrimüslime müste’men denir."
+ ],
+ "kartlar": [
+  {
+   "o": "Nisâ 58",
+   "a": "Emanetleri ehline vermek ve adaletle hükmetmek."
+  },
+  {
+   "o": "Kadı – müftü",
+   "a": "Hüküm bağlayıcı – fetva bağlayıcı değil."
+  },
+  {
+   "o": "Yargılamanın temel kuralı",
+   "a": "Delil davacıya, yemin inkâr edene."
+  },
+  {
+   "o": "İkrar",
+   "a": "Delillerin efendisi; yalnız ikrar edeni bağlar."
+  },
+  {
+   "o": "Nükûl",
+   "a": "Davalının yeminden kaçınması; Hanefîlere göre aleyhe hüküm."
+  },
+  {
+   "o": "Mal davasında şahit",
+   "a": "İki erkek ya da bir erkek iki kadın."
+  },
+  {
+   "o": "Kabul edilmeyen şahitlik",
+   "a": "Usul-füru’ ve eşlerin birbiri lehine; düşmanın aleyhe."
+  },
+  {
+   "o": "Karîne-i kātıa",
+   "a": "Kesin karine; Mecelle md. 1740."
+  },
+  {
+   "o": "İmamet",
+   "a": "Ehl-i sünnete göre farz-ı kifâye."
+  },
+  {
+   "o": "Ehl-i hal ve akd",
+   "a": "Devlet başkanını seçen yetkin kişiler."
+  },
+  {
+   "o": "el-Ahkâmü’s-sultâniyye",
+   "a": "Mâverdî; İslam kamu hukuku."
+  },
+  {
+   "o": "es-Siyerü’l-kebîr",
+   "a": "İmam Muhammed; milletlerarası hukuk; şerhi Serahsî."
+  },
+  {
+   "o": "Müste’men",
+   "a": "Eman alarak İslam ülkesine giren gayrimüslim."
+  },
+  {
+   "o": "Cizye muafiyeti",
+   "a": "Kadın, çocuk, yaşlı, din adamı, fakir."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "fq22-01",
+   "z": 3,
+   "s": "Bir kişi mahkemede, komşusunun kendisine 50.000 TL borcu olduğunu iddia etmektedir. Davacının şahidi ve belgesi yoktur; davalı ise borcu inkâr etmektedir.\n\nHanefî mezhebine göre hâkimin izleyeceği yol aşağıdakilerden hangisidir?",
+   "c": [
+    "Davacıya yemin ettirip davayı onun lehine sonuçlandırır.",
+    "Kendi kanaatine göre karar verir.",
+    "Delil olmadığı için hiçbir işlem yapmadan davayı düşürür.",
+    "Davalıya yemin teklif eder; davalı yemin ederse dava reddedilir, yeminden kaçınırsa (nükûl) aleyhine hükmedilir.",
+    "Davacıdan dört şahit ister."
+   ],
+   "d": 3,
+   "a": "Delil davacıya, yemin inkâr edene düşer. Davacının delili yoksa davalıya yemin teklif edilir; Hanefîlere göre nükûl aleyhe hüküm sebebidir.",
+   "ac": [
+    "Yemin davacıya değil inkâr edene düşer.",
+    "Hâkim delillere göre hükmeder.",
+    "Davalıya yemin teklif edilmelidir.",
+    "Doğru.",
+    "Dört şahit zina davasında aranır."
+   ],
+   "kay": "Tirmizî, Ahkâm, 12; Mecelle, md. 1817"
+  },
+  {
+   "id": "fq22-02",
+   "z": 3,
+   "s": "I. Bir babanın oğlu lehine şahitliği\nII. Bir kadının kocası lehine şahitliği\nIII. Bir komşunun, akrabalığı bulunmayan diğer komşusu lehine şahitliği\nIV. Kazf cezası almış ve tövbe etmiş bir kişinin şahitliği\n\nHanefî mezhebine göre yukarıdaki şahitliklerden hangileri kabul edilmez?",
+   "c": [
+    "I ve II",
+    "I, II ve IV",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Usul-füru’ ve eşlerin birbiri lehine şahitliği kabul edilmez; kazf cezası alanın şahitliği Hanefîlere göre tövbe etse de kabul edilmez. Komşunun komşusu lehine şahitliği ise kabul edilir.",
+   "ac": [
+    "Kazf cezası alanın şahitliği de kabul edilmez.",
+    "Doğru.",
+    "Komşunun şahitliği kabul edilir; birinci durum eksiktir.",
+    "Komşunun şahitliği kabul edilir.",
+    "Komşunun şahitliği kabul edilir."
+   ],
+   "kay": "Nûr, 24/4; Mevsılî, el-İhtiyâr, II"
+  },
+  {
+   "id": "fq22-03",
+   "z": 2,
+   "s": "Kadı ile müftü arasındaki temel farkla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Kadının hükmü ve müftünün fetvası aynı şekilde bağlayıcıdır.",
+    "Kadı yalnızca ibadetlerle ilgili hüküm verir.",
+    "Müftünün fetvası bağlayıcı, kadının hükmü bağlayıcı değildir.",
+    "İkisi de bağlayıcı değildir.",
+    "Kadının hükmü bağlayıcıdır; müftünün fetvası ise bağlayıcı değildir, yalnızca bilgilendiricidir."
+   ],
+   "d": 4,
+   "a": "Kadı somut uyuşmazlıkta bağlayıcı hüküm verir; müftü ise sorulan meselenin dinî hükmünü açıklar, fetvası bağlayıcı değildir.",
+   "ac": [
+    "Fetva bağlayıcı değildir.",
+    "Kadı her türlü uyuşmazlıkta hüküm verir.",
+    "Durum terstir.",
+    "Kadının hükmü bağlayıcıdır.",
+    "Doğru."
+   ],
+   "kay": "Karâfî, el-İhkâm"
+  },
+  {
+   "id": "fq22-04",
+   "z": 3,
+   "s": "İslam milletlerarası hukukunun (siyer) ilk sistemli eserlerini kaleme alan ve bu sebeple bu alanın kurucusu kabul edilen fakih ile en önemli eserinin şârihi aşağıdakilerden hangisidir?",
+   "c": [
+    "Ebû Yûsuf – Kâsânî",
+    "İmam Şâfiî – Mâverdî",
+    "İmam Muhammed eş-Şeybânî – Serahsî",
+    "Evzâî – Tahâvî",
+    "Mâverdî – Ebû Ya’lâ"
+   ],
+   "d": 2,
+   "a": "İmam Muhammed’in es-Siyerü’l-kebîr’i İslam milletlerarası hukukunun temel eseridir; Serahsî bu eseri şerhetmiştir.",
+   "ac": [
+    "Ebû Yûsuf Kitâbü’l-Harâc’ı yazmıştır.",
+    "Şâfiî el-Ümm’de siyere yer vermiştir, ama kurucu kabul edilmez.",
+    "Doğru.",
+    "Evzâî’nin siyer görüşlerine Ebû Yûsuf cevap vermiştir; kurucu İmam Muhammed’dir.",
+    "Mâverdî kamu hukuku eseri yazmıştır."
+   ],
+   "kay": "Serahsî, Şerhu’s-Siyeri’l-kebîr"
+  },
+  {
+   "id": "fq22-05",
+   "z": 3,
+   "s": "Bir gayrimüslim tüccar, bir Müslümanın verdiği güvenceyle ticaret yapmak üzere İslam ülkesine gelmiştir. Bir başka gayrimüslim ise cizye ödeyerek İslam ülkesinde sürekli yaşamaktadır.\n\nBu iki kişinin hukuki statüleri sırasıyla aşağıdakilerden hangisidir?",
+   "c": [
+    "Zimmî – müste’men",
+    "Müste’men – zimmî",
+    "Harbî – zimmî",
+    "Müste’men – harbî",
+    "Zimmî – harbî"
+   ],
+   "d": 1,
+   "a": "Eman alarak geçici olarak İslam ülkesine giren gayrimüslim müste’men, cizye ödeyerek sürekli vatandaş olan gayrimüslim zimmîdir.",
+   "ac": [
+    "Sıralama terstir.",
+    "Doğru.",
+    "Birinci kişi eman aldığı için harbî değildir.",
+    "İkinci kişi zimmîdir.",
+    "Sıralama yanlıştır."
+   ],
+   "kay": "Serahsî, Şerhu’s-Siyeri’l-kebîr"
+  },
+  {
+   "id": "fq22-06",
+   "z": 2,
+   "s": "Klasik İslam hukukuna göre aşağıdakilerden hangisi cizye ödemekle yükümlü tutulmaz?",
+   "c": [
+    "Çalışabilecek durumdaki gayrimüslim erkekler",
+    "Ticaretle uğraşan zengin gayrimüslimler",
+    "Gayrimüslim kadınlar, çocuklar, yaşlılar ve din adamları",
+    "Zanaatkâr gayrimüslim erkekler",
+    "Toprak sahibi gayrimüslim erkekler"
+   ],
+   "d": 2,
+   "a": "Cizye, askerlik yükümlülüğü karşılığı olarak savaşabilecek durumdaki erkeklerden alınır; kadın, çocuk, yaşlı, din adamı ve fakirler muaftır.",
+   "ac": [
+    "Cizye bunlardan alınır.",
+    "Cizye bunlardan alınır.",
+    "Doğru.",
+    "Cizye bunlardan alınır.",
+    "Cizye bunlardan alınır; toprak vergisi (haraç) ayrıdır."
+   ],
+   "kay": "Ebû Yûsuf, Kitâbü’l-Harâc"
+  },
+  {
+   "id": "fq22-07",
+   "z": 3,
+   "s": "I. Ehl-i sünnete göre devlet başkanı seçmek Müslümanlar üzerine farz-ı kifâyedir.\nII. Devlet başkanı ehl-i hal ve akdin seçmesi ve halkın biatıyla göreve gelir.\nIII. İstişare (şûrâ) yönetimin temel ilkelerindendir.\nIV. Devlet başkanının kararları hiçbir şer’î sınırla bağlı değildir.\n\nKlasik İslam siyaset düşüncesiyle ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Devlet başkanı da şer’î hükümlerle bağlıdır; “Yaratana isyanda yaratılana itaat yoktur.” Diğer ifadeler klasik siyaset düşüncesini yansıtır.",
+   "ac": [
+    "Şûrâ da temel ilkedir.",
+    "Doğru.",
+    "Dördüncü ifade yanlıştır; birinci ifade doğrudur.",
+    "Dördüncü ifade yanlıştır.",
+    "Dördüncü ifade yanlıştır."
+   ],
+   "kay": "Mâverdî, el-Ahkâmü’s-sultâniyye"
+  },
+  {
+   "id": "fq22-08",
+   "z": 2,
+   "s": "Hz. Ali’nin zırh davasında kadı Şüreyh’in, halifenin oğlunun şahitliğini kabul etmeyerek davayı Yahudi davalı lehine sonuçlandırması aşağıdaki ilkelerden hangisini en iyi yansıtır?",
+   "c": [
+    "Devlet başkanının yargının üstünde olduğu",
+    "Şahitliğin yalnız gayrimüslimler için geçerli olduğu",
+    "Gayrimüslimlerin mahkemeye başvuramayacağı",
+    "Halifenin her davada haklı kabul edileceği",
+    "Yargı önünde eşitlik ve hâkimin bağımsızlığı"
+   ],
+   "d": 4,
+   "a": "Halife de olsa davacı, şer’î ispat kurallarına tabidir; kadı tarafsız davranmış ve yargı önünde eşitlik ilkesini uygulamıştır.",
+   "ac": [
+    "Olay bunun tersini gösterir.",
+    "Böyle bir kural yoktur.",
+    "Yahudi davalı mahkemede taraf olmuştur.",
+    "Halife delil getirememiştir.",
+    "Doğru."
+   ],
+   "kay": "Vekî‘, Ahbârü’l-kudât"
+  },
+  {
+   "id": "f10-03",
+   "z": 1,
+   "s": "“Delil getirmek davacıya, yemin etmek inkâr edene düşer.” hadisi hangi alanla ilgilidir?",
+   "c": [
+    "Vakıf",
+    "Miras",
+    "Nikâh",
+    "Yargılama ve ispat",
+    "Zekât"
+   ],
+   "d": 3,
+   "a": "Hadis, yargılamada ispat yükünün kime ait olduğunu belirler.",
+   "ac": [
+    "İlgisizdir.",
+    "İlgisizdir.",
+    "İlgisizdir.",
+    "Doğru.",
+    "İlgisizdir."
+   ],
+   "kay": "Tirmizî, Ahkâm, 12"
+  },
+  {
+   "id": "f10-09",
+   "z": 3,
+   "s": "Ali’nin aracı çalınmış, hırsızın husumetli olduğu komşusu olduğundan şüphelenmiş ancak delil getirememiştir. Kadı, davalı komşudan yemin etmesini istemiş; davalı yeminden kaçınınca kadı onun aleyhine hüküm vermiştir.\n\nBu hükmün dayandığı ispat yolu hangisidir?",
+   "c": [
+    "Nükûl",
+    "Karîne",
+    "Kasâme",
+    "İkrar",
+    "Beyyine"
+   ],
+   "d": 0,
+   "a": "Davalının yeminden kaçınması nükûldür; Hanefîlere göre mali davalarda aleyhine hükme esas olur.",
+   "ac": [
+    "Doğru.",
+    "Bir durum işareti değil, yeminden kaçınma vardır.",
+    "Kasâme, faili bilinmeyen öldürmede yemin usulüdür.",
+    "Davalı kabul etmemiştir.",
+    "Delil getirilmemiştir."
+   ],
+   "kay": "Kâsânî, Bedâi’: dava ve ispat"
+  },
+  {
+   "id": "f10-19",
+   "z": 2,
+   "s": "Fıkıhta kişinin kendi aleyhine bir hakkı kabul etmesi olan ve “delillerin en kuvvetlisi” sayılan ispat vasıtası hangisidir?",
+   "c": [
+    "Kasâme",
+    "Yemin",
+    "Karîne",
+    "İkrar",
+    "Beyyine"
+   ],
+   "d": 3,
+   "a": "İkrar yalnız ikrar edeni bağlar; başkası aleyhine delil olmaz.",
+   "ac": [
+    "Faili belli olmayan öldürmede yemindir.",
+    "İnkâr edene teklif edilir.",
+    "Yardımcı delildir.",
+    "Kişinin kendi aleyhine beyanıdır.",
+    "Şahitlik ve delillerdir."
+   ],
+   "kay": "Mecelle, md. 1579"
+  },
+  {
+   "id": "fq22-09",
+   "z": 3,
+   "s": "I. Mal davası\nII. Kısas davası\nIII. Zina davası\n\nHanefî mezhebine göre yukarıdaki davalarda gereken asgari şahit sayısı ve niteliği sırasıyla aşağıdakilerden hangisidir?",
+   "c": [
+    "İki erkek veya bir erkek iki kadın – iki erkek – dört erkek",
+    "İki erkek – iki erkek veya bir erkek iki kadın – dört erkek",
+    "Dört erkek – iki erkek – iki erkek",
+    "Bir erkek – iki erkek – dört erkek veya sekiz kadın",
+    "İki erkek veya bir erkek iki kadın – dört erkek – iki erkek"
+   ],
+   "d": 0,
+   "a": "Mal davalarında iki erkek ya da bir erkek ve iki kadın; had ve kısasta iki erkek; zinada dört erkek şahit gerekir.",
+   "ac": [
+    "Doğru.",
+    "Kısasta kadın şahitliği kabul edilmez.",
+    "Mal davasında dört şahit gerekmez.",
+    "Mal davasında tek şahit yetmez; zinada kadın şahit kabul edilmez.",
+    "Kısasta iki, zinada dört erkek gerekir."
+   ],
+   "kay": "Bakara, 2/282; Nûr, 24/4"
+  },
+  {
+   "id": "fq22-10",
+   "z": 2,
+   "s": "“Ahitlerinizi yerine getirin.” (Mâide, 5/1) ayeti İslam milletlerarası hukukunda hangi ilkenin dayanağıdır?",
+   "c": [
+    "Cizye yükümlülüğü",
+    "Ganimetin taksimi",
+    "Antlaşmalara bağlılık (ahde vefa)",
+    "Esirlerin fidye ile serbest bırakılması",
+    "Hicretin zorunluluğu"
+   ],
+   "d": 2,
+   "a": "Ayet, antlaşmalara bağlılık ilkesinin dayanağıdır; İslam hukukunda antlaşmalar, karşı taraf bozmadıkça korunur.",
+   "ac": [
+    "Cizyenin dayanağı Tevbe 29’dur.",
+    "Ganimetin dayanağı Enfâl 41’dir.",
+    "Doğru.",
+    "Esirlerle ilgili hüküm Muhammed 4’tedir.",
+    "Hicretle ilgili değildir."
+   ],
+   "kay": "Mâide, 5/1; Tevbe, 9/4"
+  },
+  {
+   "id": "fq22-11",
+   "z": 3,
+   "s": "Hz. Ebû Bekir, Şam’a gönderdiği orduya verdiği talimatta kadınları, çocukları ve yaşlıları öldürmemelerini, meyveli ağaçları kesmemelerini, manastırlarına çekilmiş rahiplere dokunmamalarını emretmiştir.\n\nBu talimat, İslam hukukunda aşağıdaki konulardan hangisinin erken ve meşhur bir örneğidir?",
+   "c": [
+    "Savaş ahlakı ve sivillerin korunması",
+    "Cizye hukuku",
+    "Miras hukuku",
+    "Ticaret hukuku",
+    "Ganimet taksimi"
+   ],
+   "d": 0,
+   "a": "Bu emirler, savaşta savaşmayanların ve çevrenin korunmasını öngören savaş ahlakının erken örneğidir.",
+   "ac": [
+    "Doğru.",
+    "Cizye ile ilgili değildir.",
+    "Miras ile ilgili değildir.",
+    "Ticaret ile ilgili değildir.",
+    "Ganimet ile ilgili değildir."
+   ],
+   "kay": "Mâlik, el-Muvatta’, Cihâd, 10"
+  }
+ ]
+}

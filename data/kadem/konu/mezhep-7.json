@@ -1,0 +1,562 @@
+{
+ "id": "mezhep-7",
+ "ad": "Fıkhî (Amelî) Mezhepler: Hanefî, Mâlikî, Şâfiî, Hanbelî, Zâhirî, Ca’ferî, Zeydî ve İbâzî Mezhepleri; Ehl-i Re’y – Ehl-i Hadis; Günümüze Ulaşmayan Mezhepler",
+ "ders": "Mezhepler Tarihi",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Fıkhî mezhepler neden doğdu?"
+  },
+  {
+   "merak": "Abbâsî halifesi Mansûr, İmam Mâlik’e “Muvatta’ı bütün şehirlere göndereyim, herkes ona göre amel etsin” teklifinde bulunur. Mâlik reddeder: “Sahabe farklı şehirlere dağıldı; her şehrin halkı onlardan ilim aldı. İnsanları kendi bildiklerinden alıkoyma.” Mezhep farklılığı, tek bir hükümle bastırılmak istenmemişti."
+  },
+  "Fıkhî mezhepler, ibadet ve muamelat gibi amelî konularda Kur’an ve sünnetten hüküm çıkarma yöntemindeki farklılıklar üzerine şekillenen ekollerdir. Bu ekollerin doğmasında nasların farklı anlaşılabilmesi, hadislerin her bölgeye aynı ölçüde ulaşmaması, bölgelerin örf ve ihtiyaçlarının farklılığı ve müçtehitlerin usul tercihleri etkili oldu. İlk dönemde Irak (Kûfe) merkezli “ehl-i re’y” ile Hicaz (Medine) merkezli “ehl-i hadis” iki ana eğilimi temsil etti. Ehl-i re’y, nassın bulunmadığı yerde kıyas ve istihsanı genişçe kullanırken, ehl-i hadis rivayete daha sıkı bağlı kaldı ve re’ye ihtiyatla yaklaştı.",
+  {
+   "tablo": [
+    [
+     "Eğilim",
+     "Merkez",
+     "Yöntem",
+     "Temsilciler"
+    ],
+    [
+     "Ehl-i re’y",
+     "Irak (Kûfe)",
+     "Kıyas, istihsan; hükümlerin illetini araştırma; varsayımlı (takdirî) fıkıh",
+     "İbn Mes’ûd → Alkame → İbrâhim en-Nehaî → Hammâd → Ebû Hanîfe"
+    ],
+    [
+     "Ehl-i hadis",
+     "Hicaz (Medine)",
+     "Rivayete sıkı bağlılık; re’ye ihtiyat; Medine ameli",
+     "İbn Ömer, Saîd b. Müseyyeb → Mâlik"
+    ]
+   ]
+  },
+  {
+   "akil": "Ehl-i re’y = Kûfe, kıyas-istihsan, Ebû Hanîfe. Ehl-i hadis = Medine, rivayet, Mâlik. Mezhep farklılığının sebepleri: nasların anlaşılması, hadislerin ulaşması, örf, usul."
+  },
+  {
+   "b": "2. Dört Sünnî mezhep: Kurucular, usuller, yayılış"
+  },
+  {
+   "tablo": [
+    [
+     "Mezhep",
+     "Kurucu (doğum-ölüm)",
+     "Usulde öne çıkan",
+     "Önemli talebe / eser",
+     "Yayıldığı bölgeler"
+    ],
+    [
+     "Hanefî",
+     "Ebû Hanîfe Nu’mân b. Sâbit (80-150), Kûfe",
+     "İstihsan, örf; haber-i vâhidin genel kaideye aykırı olmaması; kıyas",
+     "Ebû Yûsuf, İmam Muhammed (zâhirü’r-rivâye eserleri), Züfer",
+     "Irak, Türkler, Osmanlı coğrafyası, Balkanlar, Orta Asya, Hindistan"
+    ],
+    [
+     "Mâlikî",
+     "Mâlik b. Enes (93-179), Medine",
+     "Medine ehlinin ameli, maslahat-ı mürsele, sedd-i zerâi‘",
+     "Muvatta’; Sahnûn – el-Müdevvene",
+     "Kuzey ve Batı Afrika, Endülüs"
+    ],
+    [
+     "Şâfiî",
+     "Muhammed b. İdrîs eş-Şâfiî (150-204), Gazze doğumlu, Mısır’da vefat",
+     "Usulün sistemleştirilmesi; istihsanın reddi; sünnetin hücciyeti",
+     "er-Risâle (ilk usul kitabı), el-Ümm; kadîm (Irak) ve cedîd (Mısır) mezhep",
+     "Mısır, Suriye, Doğu Afrika, Endonezya-Malezya, Kürt bölgeleri"
+    ],
+    [
+     "Hanbelî",
+     "Ahmed b. Hanbel (164-241), Bağdat",
+     "Nassa sıkı bağlılık; sahabe fetvası; zayıf hadisi kıyasa tercih",
+     "Müsned; İbn Teymiyye, İbn Kayyim",
+     "Arabistan (Suudi Arabistan), Katar"
+    ]
+   ]
+  },
+  "Ebû Hanîfe, Kûfe ekolünün birikimini sistemleştiren müçtehittir. Talebeleriyle müzakere ederek hüküm çıkarır, henüz yaşanmamış meselelere de cevap arardı (takdirî fıkıh). İmam Muhammed’in el-Asl (el-Mebsût), el-Câmiu’s-sağîr, el-Câmiu’l-kebîr, es-Siyerü’s-sağîr, es-Siyerü’l-kebîr ve ez-Ziyâdât adlı altı eseri “zâhirü’r-rivâye” olarak mezhebin en sağlam kaynaklarıdır. Mâlik, Medine’de sahabe ve tâbiûn neslinin uygulamasını (amel-i ehl-i Medîne) haber-i vâhide tercih edecek kadar güçlü bir delil saymıştır.",
+  "İmam Şâfiî hem ehl-i hadisi (Mâlik’ten Muvatta’ı okumuştu) hem de ehl-i re’yi (İmam Muhammed’den ders aldı) tanımış ve iki yaklaşımı sentezlemiştir. er-Risâle ile fıkıh usulünü ilk kez sistemli bir şekilde yazıya geçirmiştir; bu yüzden fıkıh usulünün kurucusu sayılır. Irak’taki görüşlerine “kadîm mezhep”, Mısır’a geçtikten sonra değiştirdiği görüşlerine “cedîd mezhep” denir. İstihsanı reddederek “İstihsan yapan şeriat koymuş olur” demiştir. Ahmed b. Hanbel ise Şâfiî’nin talebesidir; mihne sırasında halku’l-Kur’ân görüşünü kabul etmemesiyle tanınır. Fıkıhta nassa ve sahabe fetvalarına sıkı bağlılık, gerektiğinde zayıf hadisi kıyasa tercih onun usulünün özelliğidir.",
+  {
+   "sinav": "İmam – talebe zinciri sık sorulur: Mâlik → Şâfiî → Ahmed b. Hanbel; İmam Muhammed Şâfiî’nin hocalarındandır. er-Risâle = ilk usul eseri; kadîm-cedîd ayrımı Şâfiî’ye aittir; Medine ameli Mâlik’e, istihsan Hanefîlere aittir. Türkiye’de Hanefî ve (Doğu ve Güneydoğu’da) Şâfiî mezhepleri yaygındır."
+  },
+  {
+   "akil": "Hanefî: istihsan, örf, zâhirü’r-rivâye (İmam Muhammed). Mâlikî: Medine ameli, maslahat, sedd-i zerâi‘. Şâfiî: er-Risâle, kadîm-cedîd, istihsan reddi. Hanbelî: nass + sahabe fetvası, zayıf hadis > kıyas."
+  },
+  {
+   "b": "3. Zâhirîlik ve Sünnî olmayan fıkıh mezhepleri"
+  },
+  "Zâhirî mezhebi, Dâvûd b. Ali ez-Zâhirî (ö. 270) tarafından kuruldu. Bu mezhep nasların yalnız zâhirî (açık, lafzî) anlamını esas alır; kıyası, istihsanı ve illet araştırmasını reddeder. En büyük temsilcisi Endülüslü İbn Hazm’dır (ö. 456); el-Muhallâ (fıkıh) ve el-İhkâm fî usûli’l-ahkâm (usul) eserleriyle tanınır. Zâhirîlik bağımsız bir mezhep olarak günümüze ulaşmamış, ancak düşünceleri etkisini sürdürmüştür.",
+  {
+   "tablo": [
+    [
+     "Mezhep",
+     "Bağlı olduğu grup",
+     "Özellikler"
+    ],
+    [
+     "Ca’ferî",
+     "Şîa – İmâmiyye",
+     "İmam Ca’fer es-Sâdık’a nispet; masum imamların sözleri sünnet sayılır; mut’a nikâhını caiz görür; kıyası kabul etmez, aklı delil sayar; İran, Irak’ın bir kısmı, Lübnan"
+    ],
+    [
+     "Zeydî",
+     "Şîa – Zeydiyye",
+     "Zeyd b. Ali’ye nispet; Sünnî fıkha, özellikle Hanefîliğe en yakın Şiî mezhep; Yemen"
+    ],
+    [
+     "İbâzî",
+     "Hâricîler – İbâzıyye",
+     "Abdullah b. İbâz ve Câbir b. Zeyd; Hâricîlerin günümüze ulaşan tek kolu; Umman, Cezayir (Mzab), Libya, Tunus (Cerbe)"
+    ]
+   ]
+  },
+  "Dört mezhebin dışında, kendi dönemlerinde önemli olduğu hâlde talebe ve takipçi bulamadığı için günümüze ulaşmayan mezhepler de vardır. Şam’da Evzâî (ö. 157), Mısır’da Leys b. Sa’d (ö. 175), Kûfe’de Süfyân es-Sevrî (ö. 161) ve Bağdat’ta Taberî’nin (Cerîriyye) mezhepleri bunlardandır. İmam Şâfiî, Leys b. Sa’d hakkında “Leys Mâlik’ten daha fakihti, ama talebeleri onu zayi etti” demiştir.",
+  {
+   "sinav": "Zâhirî mezhebinin kıyası reddetmesi ve İbn Hazm, İbâzıyye’nin Hâricîlerin tek yaşayan kolu olması, Zeydîliğin Sünnîliğe en yakın Şiî mezhep olması ve günümüze ulaşmayan mezhep imamları (Evzâî, Leys, Sevrî, Taberî) sık sorulur."
+  },
+  {
+   "akil": "Zâhirî: Dâvûd ez-Zâhirî + İbn Hazm, kıyas yok. Ca’ferî: İmâmiyye, mut’a. Zeydî: Yemen, Sünnîliğe yakın. İbâzî: Hâricîlerin tek kolu, Umman. Yok olanlar: Evzâî, Leys, Sevrî, Taberî."
+  },
+  {
+   "b": "4. Mezhepler arası ilişki: Taklit, telfik ve ihtilafın rahmeti"
+  },
+  {
+   "merak": "İmam Şâfiî, Ebû Hanîfe’nin kabrinin bulunduğu Bağdat’ta sabah namazı kıldırırken kendi mezhebinde sünnet olan kunutu okumadı. Sebebi sorulunca “Bu kabrin sahibine saygımdan” dediği rivayet edilir. Rivayetin sıhhati tartışmalı olsa da, mezhep imamları arasındaki saygı geleneğini yansıtır."
+  },
+  "Müçtehit olmayan bir Müslümanın, bir müçtehidin görüşünü delilini bilmeden kabul etmesine “taklit” denir. Âlimlerin çoğunluğu avamın bir mezhebe uymasını uygun görmüştür. Farklı mezheplerin görüşlerini birleştirerek hiçbir mezhebin kabul etmediği bir sonuç ortaya çıkarmaya ise “telfik” denir; keyfî telfik hoş görülmemiş, ihtiyaç hâlinde ve belirli şartlarla izin verilmiştir. Zor durumda kalan kişinin başka bir mezhebin görüşüyle amel etmesi de caiz görülmüştür. Modern dönemde Hukûk-ı Aile Kararnâmesi (1917) gibi düzenlemelerde mezhepler arası tercih (tahayyür) yöntemi kullanılmıştır.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Açıklama"
+    ],
+    [
+     "Taklit",
+     "Müçtehidin görüşünü delilini bilmeden kabul etmek"
+    ],
+    [
+     "Telfik",
+     "Farklı mezheplerin görüşlerini birleştirip yeni bir sonuç çıkarmak"
+    ],
+    [
+     "Tahayyür",
+     "Mezhepler arasından ihtiyaca uygun görüşü seçmek"
+    ],
+    [
+     "İctihad",
+     "Şer’î hükmü delillerinden çıkarmak için çaba"
+    ],
+    [
+     "Müctehid-i mutlak",
+     "Kendi usulünü kuran müçtehit (dört imam)"
+    ],
+    [
+     "Müctehid fi’l-mezheb",
+     "Mezhep usulüne bağlı kalarak içtihat eden (Ebû Yûsuf, İmam Muhammed)"
+    ]
+   ]
+  },
+  {
+   "akil": "Taklit = delilsiz uyma; telfik = mezhepleri birleştirme (şartlı); tahayyür = ihtiyaca göre seçme. Mutlak müçtehit: dört imam. Mezhep içi müçtehit: Ebû Yûsuf, İmam Muhammed."
+  }
+ ],
+ "ozet": [
+  "Fıkhî mezhepler, amelî konularda hüküm çıkarma yöntemlerindeki farklılıklar üzerine oluşmuştur.",
+  "Ehl-i re’y Kûfe merkezli olup kıyas ve istihsanı genişçe kullanır; ehl-i hadis Medine merkezli olup rivayete sıkı bağlıdır.",
+  "Hanefî mezhebinin kurucusu Ebû Hanîfe’dir (80-150); istihsan ve örf mezhepte önemlidir.",
+  "İmam Muhammed’in altı eseri zâhirü’r-rivâye olarak Hanefî mezhebinin temel kaynaklarıdır.",
+  "Mâlikî mezhebinin kurucusu Mâlik b. Enes’tir; Medine ameli, maslahat-ı mürsele ve sedd-i zerâi‘ öne çıkar.",
+  "İmam Şâfiî er-Risâle ile fıkıh usulünü sistemleştirmiştir; kadîm ve cedîd mezhebi vardır ve istihsanı reddeder.",
+  "Ahmed b. Hanbel Şâfiî’nin talebesidir; nassa ve sahabe fetvasına bağlılık, zayıf hadisi kıyasa tercih usulünün özelliğidir.",
+  "Hanefîlik Türkler arasında, Mâlikîlik Kuzey Afrika’da, Şâfiîlik Mısır ve Güneydoğu Asya’da, Hanbelîlik Arabistan’da yaygındır.",
+  "Zâhirî mezhebi Dâvûd ez-Zâhirî tarafından kurulmuş, kıyası reddetmiştir; en büyük temsilcisi İbn Hazm’dır.",
+  "Ca’ferî mezhebi İmâmiyye Şîası’nın fıkhıdır; Zeydî mezhebi Sünnî fıkha en yakın Şiî mezheptir.",
+  "İbâzıyye, Hâricîlerin günümüze ulaşan tek koludur; Umman’da yaygındır.",
+  "Evzâî, Leys b. Sa’d, Süfyân es-Sevrî ve Taberî’nin mezhepleri günümüze ulaşmamıştır.",
+  "Taklit, delilini bilmeden bir müçtehidin görüşüne uymaktır; telfik, farklı mezhep görüşlerini birleştirmektir.",
+  "Hukûk-ı Aile Kararnâmesi mezhepler arası tercih yönteminin modern örneğidir."
+ ],
+ "kartlar": [
+  {
+   "o": "Ehl-i re’y",
+   "a": "Kûfe merkezli; kıyas ve istihsan; Ebû Hanîfe."
+  },
+  {
+   "o": "Ehl-i hadis",
+   "a": "Medine merkezli; rivayete sıkı bağlılık; Mâlik."
+  },
+  {
+   "o": "Zâhirü’r-rivâye",
+   "a": "İmam Muhammed’in altı eseri; Hanefî mezhebinin temel kaynakları."
+  },
+  {
+   "o": "Amel-i ehl-i Medîne",
+   "a": "Mâlik’in güçlü delil saydığı Medine halkının uygulaması."
+  },
+  {
+   "o": "er-Risâle",
+   "a": "İmam Şâfiî; ilk sistemli fıkıh usulü eseri."
+  },
+  {
+   "o": "Kadîm – cedîd mezhep",
+   "a": "Şâfiî’nin Irak’taki ve Mısır’daki görüşleri."
+  },
+  {
+   "o": "“İstihsan yapan şeriat koymuş olur”",
+   "a": "İmam Şâfiî."
+  },
+  {
+   "o": "Ahmed b. Hanbel’in usulü",
+   "a": "Nass, sahabe fetvası; zayıf hadisi kıyasa tercih."
+  },
+  {
+   "o": "İbn Hazm",
+   "a": "Zâhirî; el-Muhallâ; kıyası reddetti."
+  },
+  {
+   "o": "Ca’ferî mezhebi",
+   "a": "İmâmiyye fıkhı; mut’ayı caiz görür."
+  },
+  {
+   "o": "Zeydî mezhebi",
+   "a": "Sünnî fıkha en yakın Şiî mezhep; Yemen."
+  },
+  {
+   "o": "İbâzıyye",
+   "a": "Hâricîlerin günümüze ulaşan tek kolu; Umman."
+  },
+  {
+   "o": "Leys b. Sa’d",
+   "a": "Mısırlı müçtehit; Şâfiî: “Mâlik’ten daha fakihti, talebeleri zayi etti.”"
+  },
+  {
+   "o": "Telfik",
+   "a": "Farklı mezheplerin görüşlerini birleştirerek yeni bir sonuca ulaşmak."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "mz7-01",
+   "z": 3,
+   "s": "Bir müçtehitle ilgili şu bilgiler verilmiştir:\n• Hem Mâlik’ten Muvatta’ı okumuş hem de İmam Muhammed’den ders almıştır.\n• Fıkıh usulünü ilk defa sistemli bir eserde yazıya geçirmiştir.\n• Irak’taki görüşleri ile Mısır’a geçtikten sonraki görüşleri farklı adlarla anılır.\n\nBu müçtehitle ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "İstihsanı reddetmiştir.",
+    "Ahmed b. Hanbel onun talebesidir.",
+    "er-Risâle ve el-Ümm adlı eserleri vardır.",
+    "Medine ehlinin amelini haber-i vâhide tercih etmiştir.",
+    "Mezhebi Endonezya, Malezya ve Mısır’da yaygındır."
+   ],
+   "d": 3,
+   "a": "Anlatılan İmam Şâfiî’dir. Medine ehlinin amelini haber-i vâhide tercih eden Mâlik’tir; Şâfiî bu görüşü eleştirmiştir.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Yanlış ifade budur.",
+    "Doğrudur."
+   ],
+   "kay": "Şâfiî, er-Risâle; DİA, “Şâfiî” md."
+  },
+  {
+   "id": "mz7-02",
+   "z": 3,
+   "s": "I. Medine ehlinin ameli\nII. İstihsan\nIII. Nasların yalnız zâhirî anlamı\nIV. Sahabe fetvası ve zayıf hadisin kıyasa tercihi\n\nYukarıdaki usul tercihleri sırasıyla hangi mezheplerle özdeşleşmiştir?",
+   "c": [
+    "Mâlikî – Hanefî – Zâhirî – Hanbelî",
+    "Hanefî – Mâlikî – Hanbelî – Zâhirî",
+    "Mâlikî – Şâfiî – Zâhirî – Hanbelî",
+    "Şâfiî – Hanefî – Hanbelî – Zâhirî",
+    "Mâlikî – Hanefî – Hanbelî – Şâfiî"
+   ],
+   "d": 0,
+   "a": "Medine ameli Mâlikîlerle, istihsan Hanefîlerle, zâhire bağlılık Zâhirîlerle, sahabe fetvası ve zayıf hadisi kıyasa tercih Hanbelîlerle özdeşleşmiştir.",
+   "ac": [
+    "Doğru.",
+    "İlk iki eşleştirme ters, son iki eşleştirme yanlıştır.",
+    "Şâfiî istihsanı reddeder.",
+    "Eşleştirmeler karışıktır.",
+    "Zâhirîlik ve Hanbelîlik yanlış yerdedir."
+   ],
+   "kay": "DİA, ilgili maddeler"
+  },
+  {
+   "id": "mz7-03",
+   "z": 2,
+   "s": "Hâricîlerin kollarından olup günümüze ulaşan ve Umman’da resmî mezhep konumunda bulunan fıkhî mezhep aşağıdakilerden hangisidir?",
+   "c": [
+    "Ezârika",
+    "Necedât",
+    "Sufriyye",
+    "Zeydiyye",
+    "İbâzıyye"
+   ],
+   "d": 4,
+   "a": "İbâzıyye, Hâricîlerin günümüze ulaşan tek koludur; Umman, Cezayir, Libya ve Tunus’ta yaşar.",
+   "ac": [
+    "Ezârika aşırı Hâricî koludur ve yok olmuştur.",
+    "Necedât yok olmuştur.",
+    "Sufriyye yok olmuştur.",
+    "Zeydiyye Şiî bir koldur.",
+    "Doğru."
+   ],
+   "kay": "DİA, “İbâzıyye” md."
+  },
+  {
+   "id": "mz7-04",
+   "z": 3,
+   "s": "İmam Şâfiî’nin “Leys, Mâlik’ten daha fakihti; ancak talebeleri onu zayi etti.” sözü, aşağıdaki durumlardan hangisini açıklamak için kullanılır?",
+   "c": [
+    "Leys b. Sa’d’ın görüşlerinin bid’at sayılmasını",
+    "Mâlikî mezhebinin Mısır’da yasaklanmasını",
+    "Bazı büyük müçtehitlerin mezheplerinin, görüşlerini derleyip yayan talebeler bulamadıkları için günümüze ulaşmamasını",
+    "Şâfiî’nin Leys’in talebesi olmasını",
+    "Leys b. Sa’d’ın hadis rivayetinde zayıf olmasını"
+   ],
+   "d": 2,
+   "a": "Bir mezhebin yaşaması, imamın görüşlerini sistemleştirip yayan talebelere bağlıdır. Leys, Evzâî, Sevrî ve Taberî gibi müçtehitlerin mezhepleri bu yüzden günümüze ulaşmamıştır.",
+   "ac": [
+    "Leys’in görüşleri bid’at sayılmamıştır.",
+    "Böyle bir yasak söz konusu değildir.",
+    "Doğru.",
+    "Şâfiî Leys’le görüşememiştir; söz bunu anlatmaz.",
+    "Leys güvenilir bir râvidir."
+   ],
+   "kay": "Zehebî, Siyer"
+  },
+  {
+   "id": "mz7-05",
+   "z": 3,
+   "s": "Bir Hanefî âlim, bir meselede mezhebin en güvenilir görüşünü tespit etmek istemektedir.\n\nBu âlimin öncelikle başvurması gereken kaynak grubu aşağıdakilerden hangisidir?",
+   "c": [
+    "Nevâdir eserleri",
+    "İmam Şâfiî’nin el-Ümm’ü",
+    "İbn Hazm’ın el-Muhallâ’sı",
+    "Sahnûn’un el-Müdevvene’si",
+    "İmam Muhammed’in zâhirü’r-rivâye eserleri (el-Asl, Câmi‘ler, Siyerler, Ziyâdât)"
+   ],
+   "d": 4,
+   "a": "Hanefî mezhebinde zâhirü’r-rivâye eserleri en güvenilir rivayet kabul edilir; nevâdir ikinci, vâkıât üçüncü derecededir.",
+   "ac": [
+    "Nevâdir, zâhirü’r-rivâyeden sonra gelir.",
+    "Şâfiî mezhebine aittir.",
+    "Zâhirî mezhebine aittir.",
+    "Mâlikî mezhebine aittir.",
+    "Doğru."
+   ],
+   "kay": "İbn Âbidîn, Şerhu Ukûdi resmi’l-müftî"
+  },
+  {
+   "id": "mz7-06",
+   "z": 2,
+   "s": "Farklı mezheplerin görüşlerini birleştirerek hiçbir mezhebin bütünüyle kabul etmediği bir sonuca ulaşmaya ne ad verilir?",
+   "c": [
+    "Taklit",
+    "Tercih",
+    "Tahrîc",
+    "Telfik",
+    "İttiba"
+   ],
+   "d": 3,
+   "a": "Farklı mezhep görüşlerini birleştirip yeni bir sonuç çıkarmaya telfik denir.",
+   "ac": [
+    "Taklit bir müçtehidin görüşüne delilini bilmeden uymaktır.",
+    "Tercih, görüşlerden birini üstün tutmaktır.",
+    "Tahrîc, imamın kaidelerinden hüküm çıkarmaktır.",
+    "Doğru.",
+    "İttiba delilini bilerek uymaktır."
+   ],
+   "kay": "DİA, “Telfîk” md."
+  },
+  {
+   "id": "mz7-07",
+   "z": 3,
+   "s": "I. Masum imamların sözlerini sünnet kapsamında görmesi\nII. Mut’a nikâhını caiz görmesi\nIII. Kıyası delil olarak kabul etmemesi\nIV. Sünnî fıkha, özellikle Hanefîliğe en yakın Şiî mezhep olması\n\nYukarıdakilerden hangileri Ca’ferî mezhebinin özellikleridir?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Ca’ferî mezhebi masum imamların sözlerini sünnet sayar, mut’ayı caiz görür ve kıyası reddeder. Sünnî fıkha en yakın Şiî mezhep Zeydiyye’dir.",
+   "ac": [
+    "Kıyası reddetmesi de özelliğidir.",
+    "Doğru.",
+    "Dördüncü öncül Zeydiyye’ye aittir.",
+    "Dördüncü öncül yanlıştır.",
+    "Dördüncü öncül yanlıştır."
+   ],
+   "kay": "DİA, “Ca’feriyye” md."
+  },
+  {
+   "id": "mz7-08",
+   "z": 3,
+   "s": "Ebû Yûsuf ve İmam Muhammed, bazı meselelerde Ebû Hanîfe’den farklı görüşler ileri sürmüş, ancak onun usul ve kaidelerine bağlı kalmışlardır.\n\nBu iki âlimin içtihat mertebesi bakımından en uygun nitelendirmesi aşağıdakilerden hangisidir?",
+   "c": [
+    "Kendi usulünü kuran müctehid-i mutlak",
+    "Yalnızca nakil yapan mukallit",
+    "Mezhep usulüne bağlı kalarak içtihat eden müctehid fi’l-mezheb",
+    "Mezhepten tamamen bağımsız Zâhirî müçtehit",
+    "Sadece hadis rivayet eden muhaddis"
+   ],
+   "d": 2,
+   "a": "Ebû Yûsuf ve İmam Muhammed mezhep imamının usulüne bağlı kalarak meselelerde farklı görüşler ileri sürmüşlerdir; bu yüzden müctehid fi’l-mezheb kabul edilirler.",
+   "ac": [
+    "Kendi bağımsız usullerini kurmamışlardır.",
+    "Onlar içtihat etmiştir; mukallit değillerdir.",
+    "Doğru.",
+    "Zâhirî değillerdir.",
+    "İkisi de fakihtir; yalnız muhaddis değildir."
+   ],
+   "kay": "İbn Kemal, Tabakātü’l-fukahâ"
+  },
+  {
+   "id": "mz7-09",
+   "z": 3,
+   "s": "Bir müçtehidin usulüyle ilgili şu bilgiler verilmiştir:\n• Kıyasın genel kuralına göre ulaşılan sonucun insanlara zorluk doğurduğu durumlarda daha uygun bir delile dayanarak o kuralın dışına çıkmayı meşru görmüştür.\n• Toplumun yerleşik uygulamalarını (örf) hüküm verirken dikkate almıştır.\n• Henüz yaşanmamış meselelere de cevap aramıştır.\n\nBu özellikler hangi mezhebin kurucusunun usulünü yansıtır?",
+   "c": [
+    "Mâlikî",
+    "Hanefî",
+    "Şâfiî",
+    "Hanbelî",
+    "Zâhirî"
+   ],
+   "d": 1,
+   "a": "İstihsan, örf ve takdirî fıkıh Ebû Hanîfe ve Hanefî usulünün belirgin özellikleridir.",
+   "ac": [
+    "Mâlik’in usulünde Medine ameli ve maslahat öne çıkar.",
+    "Doğru.",
+    "Şâfiî istihsanı reddeder.",
+    "Hanbelî usulü nassa sıkı bağlılıkla bilinir.",
+    "Zâhirîler kıyası da istihsanı da reddeder."
+   ],
+   "kay": "Serahsî, Usûl"
+  },
+  {
+   "id": "mz7-10",
+   "z": 3,
+   "s": "I. Mâlik b. Enes\nII. Muhammed b. İdrîs eş-Şâfiî\nIII. Ahmed b. Hanbel\n\nYukarıdaki mezhep imamları arasındaki hoca-talebe ilişkisi aşağıdakilerden hangisinde doğru verilmiştir?",
+   "c": [
+    "II, I’in hocasıdır; I, III’ün hocasıdır.",
+    "III, II’nin hocasıdır; II, I’in hocasıdır.",
+    "I, II’nin hocasıdır; II, III’ün hocasıdır.",
+    "I ile III aynı hocadan okumuştur; II ikisinin de talebesidir.",
+    "Aralarında hoca-talebe ilişkisi yoktur."
+   ],
+   "d": 2,
+   "a": "Şâfiî Mâlik’ten Muvatta’ı okumuş, Ahmed b. Hanbel de Şâfiî’den ders almıştır.",
+   "ac": [
+    "Şâfiî Mâlik’in hocası değildir.",
+    "İlişki ters verilmiştir.",
+    "Doğru.",
+    "Şâfiî ikisinin de talebesi değildir; Ahmed Şâfiî’nin talebesidir.",
+    "Aralarında hoca-talebe ilişkisi vardır."
+   ],
+   "kay": "Zehebî, Siyer"
+  },
+  {
+   "id": "mz7-11",
+   "z": 2,
+   "s": "Türkiye’de halkın büyük çoğunluğunun bağlı olduğu fıkhî mezhep ile Doğu ve Güneydoğu Anadolu’nun bazı bölgelerinde yaygın olan fıkhî mezhep sırasıyla aşağıdakilerden hangisidir?",
+   "c": [
+    "Hanefî – Şâfiî",
+    "Şâfiî – Hanefî",
+    "Hanefî – Mâlikî",
+    "Hanbelî – Şâfiî",
+    "Mâlikî – Hanefî"
+   ],
+   "d": 0,
+   "a": "Türkiye’de çoğunluk Hanefî, Doğu ve Güneydoğu’da önemli bir kesim Şâfiî mezhebine bağlıdır.",
+   "ac": [
+    "Doğru.",
+    "Sıra terstir.",
+    "Mâlikîlik Kuzey Afrika’da yaygındır.",
+    "Hanbelîlik Türkiye’de yaygın değildir.",
+    "Mâlikîlik Türkiye’de yaygın değildir."
+   ],
+   "kay": "DİA, “Hanefî Mezhebi”, “Şâfiî Mezhebi” md."
+  },
+  {
+   "id": "mz7-12",
+   "z": 3,
+   "s": "Bir mezhebin kurucusu, eserinde “Bir haber, Medine’de sahabe ve tâbiûnun yerleşik uygulamasına aykırıysa, o uygulama daha kuvvetlidir; çünkü o, binlerin binlerden naklidir” mealinde bir görüş ortaya koymuştur.\n\nBu görüş aşağıdaki mezheplerden hangisinin temel usul anlayışını yansıtır?",
+   "c": [
+    "Hanefî",
+    "Hanbelî",
+    "Şâfiî",
+    "Mâlikî",
+    "Ca’ferî"
+   ],
+   "d": 3,
+   "a": "Medine ehlinin amelini haber-i vâhide tercih etmek Mâlikî usulünün temel özelliğidir.",
+   "ac": [
+    "Hanefîler haber-i vâhidi farklı ölçütlerle değerlendirir.",
+    "Hanbelîler sahabe fetvasına önem verir, ama Medine amelini bu şekilde öne çıkarmaz.",
+    "Şâfiî bu görüşü eleştirmiştir.",
+    "Doğru.",
+    "Ca’ferî mezhebi imamların sözlerini esas alır."
+   ],
+   "kay": "Kādî İyâz, Tertîbü’l-medârik"
+  },
+  {
+   "id": "mz7-13",
+   "z": 2,
+   "s": "Şam bölgesinde kendi döneminde yaygın olan, ancak daha sonra yerini Şâfiî mezhebine bırakarak günümüze ulaşmayan fıkhî mezhebin imamı aşağıdakilerden hangisidir?",
+   "c": [
+    "Dâvûd ez-Zâhirî",
+    "Leys b. Sa’d",
+    "Süfyân es-Sevrî",
+    "Taberî",
+    "Evzâî"
+   ],
+   "d": 4,
+   "a": "Abdurrahman el-Evzâî’nin mezhebi Şam’da ve Endülüs’te bir süre yaygın olmuş, sonra yerini başka mezheplere bırakmıştır.",
+   "ac": [
+    "Dâvûd ez-Zâhirî Bağdat’ta yaşamış, mezhebi Endülüs’te İbn Hazm ile yaşamıştır.",
+    "Leys Mısır’da yaşamıştır.",
+    "Sevrî Kûfe’de yaşamıştır.",
+    "Taberî Bağdat’ta yaşamıştır.",
+    "Doğru."
+   ],
+   "kay": "DİA, “Evzâî” md."
+  },
+  {
+   "id": "m2-14",
+   "z": 3,
+   "s": "Nasların zahirine bağlı kalarak kıyası reddeden, Dâvûd ez-Zâhirî’nin kurduğu ve Endülüs’te İbn Hazm ile en parlak dönemini yaşayan, bugün mensubu kalmamış fıkıh mezhebi hangisidir?",
+   "c": [
+    "Hanbelîlik",
+    "Zâhirîlik",
+    "Evzâîlik",
+    "Taberîlik",
+    "Leysîlik"
+   ],
+   "d": 1,
+   "a": "İbn Hazm’ın el-Muhallâ’sı Zâhirî fıkhın temel eseridir.",
+   "ac": [
+    "Kıyası sınırlı da olsa kullanır ve günümüzde yaşar.",
+    "Kıyası reddeden mezheptir.",
+    "Şam’da Evzâî’nin kurduğu, kısa ömürlü bir mezheptir; zahircilikle bilinmez.",
+    "Taberî’nin fıkhî ekolüdür.",
+    "Mısır’da Leys b. Sa’d’ın ekolüdür."
+   ],
+   "kay": "İslam hukuk tarihi"
+  }
+ ]
+}

@@ -1,0 +1,1073 @@
+{
+ "id": "kuran-13",
+ "ad": "Tecvid 4: Ra, Lafzatullah, Kalkale, Vakıf ve İbtidâ, Sekte, Revm-İşmâm, Secde Ayetleri, Hafs’ın Farklı Okuyuşları",
+ "ders": "Kur’an Bilgisi",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Ra harfi: Kalın mı, ince mi?"
+  },
+  {
+   "merak": "“Firavun” kelimesinde ra ince okunur, “kırtâs” kelimesinde ise kalın. İkisinde de ra sakin ve önü esreli. Fark nereden geliyor?"
+  },
+  "Ra (ر) harfi kendi harekesine, önceki harfin harekesine ve sonraki harfe göre kalın ya da ince okunur. Kuralları üç gruba ayırmak işi kolaylaştırır: harekeli ra, sakin ra ve vakıfta sakin olan ra.",
+  {
+   "tablo": [
+    [
+     "Durum",
+     "Okunuş",
+     "Örnek"
+    ],
+    [
+     "Ra üstünlü ya da ötreli",
+     "Kalın",
+     "رَبَّنَا ، رُسُلُ"
+    ],
+    [
+     "Ra esreli",
+     "İnce",
+     "رِجَالٌ ، الرِّزْقُ"
+    ],
+    [
+     "Ra sakin, önceki harf üstünlü ya da ötreli",
+     "Kalın",
+     "مَرْيَمَ ، قُرْاٰنٌ"
+    ],
+    [
+     "Ra sakin, önceki harf aslî esreli (aynı kelimede) ve sonrasında isti‘lâ harfi yok",
+     "İnce",
+     "فِرْعَوْنَ ، مِرْيَةٍ ، شِرْعَةً"
+    ],
+    [
+     "Ra sakin, önceki esre arızî (hemze-i vasl esresi ya da sonradan gelen)",
+     "Kalın",
+     "اِرْجِعُوا ، رَبِّ ارْجِعُونِ ، اَمِ ارْتَابُوا"
+    ],
+    [
+     "Ra sakin, önü esreli ama aynı kelimede sonrasında isti‘lâ harfi (üstünlü)",
+     "Kalın",
+     "قِرْطَاسٍ ، فِرْقَةٍ ، مِرْصَادًا"
+    ],
+    [
+     "Vakıfta: ra sakinleşir; önceki harf sakin, ondan önceki esreli",
+     "İnce",
+     "ذِكْرْ ، سِحْرْ"
+    ],
+    [
+     "Vakıfta: ra’dan önce sakin ye",
+     "İnce",
+     "خَيْرْ ، قَد۪يرْ"
+    ],
+    [
+     "Vakıfta: önceki harf üstün/ötre ya da önceki sakin harften önce üstün/ötre",
+     "Kalın",
+     "الْقَدْرْ ، الْاُمُورْ"
+    ]
+   ]
+  },
+  {
+   "not": "Şuarâ 63’teki فِرْقٍ kelimesinde ra’dan sonra gelen kaf esreli olduğu için ra hem kalın hem ince okunabilir (iki vecih)."
+  },
+  {
+   "sinav": "2020 tarzı soru: üç durumun okunuşu sorulur. Ötreli ra → kalın; sakin ra, önceki sakin, ondan önceki esreli (vakıfta) → ince; sakin ra, önceki üstünlü → kalın. “Ra her durumda ince okunur” gibi genellemeler yanlıştır."
+  },
+  {
+   "akil": "Üstün/ötre → kalın; esre → ince. Sakin ra önceki harekeye bakar; esre arızîyse ya da sonra isti‘lâ harfi varsa kalın. Vakıfta önceki sakin ye ya da sakin + esre → ince."
+  },
+  {
+   "b": "2. Lafzatullah"
+  },
+  "Allah lafzındaki lam (lafzatullah), kendinden önceki harfin harekesine göre okunur: Önceki harf üstünlü ya da ötreli ise lam kalın (tefhîm), esreli ise ince (terkîk) okunur. Okumaya “Allah” lafzıyla başlanırsa lam kalın okunur. “Allâhümme” kelimesi de aynı kurala tabidir.",
+  {
+   "tablo": [
+    [
+     "Önceki hareke",
+     "Okunuş",
+     "Örnek"
+    ],
+    [
+     "Üstün",
+     "Kalın",
+     "قَالَ اللّٰهُ ، هُوَ اللّٰهُ"
+    ],
+    [
+     "Ötre",
+     "Kalın",
+     "رَسُولُ اللّٰهِ ، نَصْرُ اللّٰهِ"
+    ],
+    [
+     "Esre (aslî ya da sonradan gelen)",
+     "İnce",
+     "بِسْمِ اللّٰهِ ، لِلّٰهِ ، قُلِ اللّٰهُمَّ"
+    ],
+    [
+     "Okumaya “Allah” lafzıyla başlanması",
+     "Kalın",
+     "اَللّٰهُ لَٓا اِلٰهَ اِلَّا هُوَ"
+    ]
+   ]
+  },
+  {
+   "b": "Nun-ı kutnî"
+  },
+  "Tenvinden sonra hemze-i vasl gelirse iki sakin yan yana gelir. Bunu gidermek için tenvinin sonundaki nun esreli okunur. Mushaflarda tenvinin yanına küçük bir nun yazılır; buna nun-ı kutnî denir. Bu esre lafzatullahtan önce gelirse lafzatullah ince okunur: اَحَدٌ اَللّٰهُ الصَّمَدُ ifadesi birleştirilerek okunursa “ehadunillâhu’s-samed” olur.",
+  {
+   "sinav": "“Lafzatullahın ince okunduğu ifade hangisidir?” Önceki harfin esreli olduğuna bak: بِسْمِ اللّٰهِ ، لِلّٰهِ ، قُلِ اللّٰهُمَّ. Nun-ı kutnîli okuyuşta (اَحَدُنِ اللّٰهُ) de incedir."
+  },
+  {
+   "akil": "Lafzatullah: önce üstün/ötre → kalın; esre → ince; başta → kalın. Nun-ı kutnî: tenvin + hemze-i vasl → esreli küçük nun."
+  },
+  {
+   "b": "3. Kalkale"
+  },
+  "Kalkale, sözlükte sarsmak, kıpırdatmaktır. Terim olarak, ق ط ب ج د (“kutbu cedin”) harflerinden biri sakin olduğunda mahrecinin sarsılarak, hafif bir yankıyla okunmasıdır. Bu harfler hem şiddet hem cehr sıfatı taşıdığı için sakin hâlde sesleri kaybolmasın diye sarsılarak çıkarılır.",
+  {
+   "tablo": [
+    [
+     "Kalkale derecesi",
+     "Durum",
+     "Örnek"
+    ],
+    [
+     "Kübrâ (en kuvvetli)",
+     "Kalkale harfi şeddeli ve vakıf yapılmış",
+     "الْحَقّْ ، تَبّْ"
+    ],
+    [
+     "Vustâ (orta)",
+     "Kalkale harfi vakıf sebebiyle sakin",
+     "الْفَلَقْ ، مُح۪يطْ"
+    ],
+    [
+     "Suğrâ (en hafif)",
+     "Kalkale harfi kelime içinde ya da vasılda cezimli",
+     "يَقْطَعُونَ ، اَطْهَرُ ، لَمْ يَلِدْ وَلَمْ"
+    ]
+   ]
+  },
+  {
+   "akil": "Kalkale harfleri: ق ط ب ج د (kutbu cedin). Kübrâ: şeddeli + vakıf; vustâ: vakıf; suğrâ: kelime içinde cezimli."
+  },
+  {
+   "b": "4. Vakıf ve ibtidâ"
+  },
+  {
+   "merak": "“Fe veylün li’l-musallîn” (Vay hâline o namaz kılanların!) diye durursanız namaz kılanlar kınanmış olur. Oysa ayet devam ediyor: “…ki onlar namazlarından gafildir.” Durak yeri, anlamın kendisidir."
+  },
+  "Vakıf, kelimenin sonunda sesi keserek nefes almak ve okumaya devam etmek niyetiyle durmaktır. Sekte nefes almadan kısa bir an durmak, kat‘ ise okumayı tamamen bitirmektir. İbtidâ ise durduktan sonra okumaya yeniden başlamaktır. İbtidâ, anlamı bozmayacak ve uygun bir yerden yapılmalıdır.",
+  {
+   "tablo": [
+    [
+     "Anlama göre vakıf",
+     "Açıklama",
+     "Hüküm"
+    ],
+    [
+     "Vakf-ı tâm",
+     "Durulan yer sonrasıyla ne lafız ne anlam bakımından bağlı değil (kıssa sonu, ayet sonları çoğunlukla)",
+     "Durmak güzeldir"
+    ],
+    [
+     "Vakf-ı kâfî",
+     "Lafız bağı yok, anlam bağı var",
+     "Durmak caizdir"
+    ],
+    [
+     "Vakf-ı hasen",
+     "Durulan yer anlamlı ama sonrası lafzen ona bağlı",
+     "Durulabilir; ama sonraki kelimeden başlanmaz, geri dönülür (ayet sonu hariç)"
+    ],
+    [
+     "Vakf-ı kabîh",
+     "Anlamı eksik bırakan ya da bozan duruş",
+     "Zorunlu kalmadıkça durulmaz; durulursa uygun yerden geri dönülerek okunur"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Durulan kelimenin sonu",
+     "Vakıfta nasıl okunur?"
+    ],
+    [
+     "Harekeli harf",
+     "Sakin okunur (iskân); revm ya da işmâm da yapılabilir"
+    ],
+    [
+     "Tenvinli üstün",
+     "Elife çevrilir (medd-i ivaz): عَل۪يمَا"
+    ],
+    [
+     "Yuvarlak te (ة)",
+     "He (ه) olarak sakin okunur: رَحْمَهْ"
+    ],
+    [
+     "Hemze-i vasl ile başlanırsa",
+     "Fiilde üçüncü harf ötreliyse ötre (اُدْخُلُوا), değilse esre (اِهْدِنَا); isimlerde esre (اِبْنُ); elif-lamda üstün (اَلْحَمْدُ)"
+    ]
+   ]
+  },
+  {
+   "b": "Vakıf işaretleri (secâvend)"
+  },
+  "Mushaflardaki durak işaretleri büyük ölçüde Muhammed b. Tayfûr es-Secâvendî’ye (ö. 560/1165) dayandığı için secâvend diye anılır. Türkiye’de basılan mushaflarda kullanılan başlıca işaretler şunlardır:",
+  {
+   "tablo": [
+    [
+     "İşaret",
+     "Adı",
+     "Anlamı"
+    ],
+    [
+     "م",
+     "Vakf-ı lâzım",
+     "Durmak gerekir; geçilirse anlam bozulabilir"
+    ],
+    [
+     "ط",
+     "Vakf-ı mutlak",
+     "Durmak iyidir; anlamca bağımsız yer"
+    ],
+    [
+     "ج",
+     "Vakf-ı câiz",
+     "Durulabilir, geçilebilir; durmak daha iyidir"
+    ],
+    [
+     "ز",
+     "Vakf-ı mücevvez",
+     "Durulabilir, geçilebilir; geçmek daha iyidir"
+    ],
+    [
+     "ص",
+     "Vakf-ı murahhas",
+     "Nefes yetmezse durmaya ruhsat vardır; geçmek daha iyidir"
+    ],
+    [
+     "لا",
+     "Lâ (durma)",
+     "Durulmaz; durulursa geri dönülür. Ayet sonundaysa durulabilir, geri dönmeye gerek yoktur"
+    ],
+    [
+     "قف",
+     "Kıf",
+     "Dur; durmak daha iyidir"
+    ],
+    [
+     "صلى",
+     "Sılî (el-vaslu evlâ)",
+     "Geçmek daha iyidir"
+    ],
+    [
+     "ك",
+     "Kef",
+     "Kendinden önceki işaretin hükmündedir"
+    ],
+    [
+     "∴ ∴",
+     "Muânaka",
+     "Yakın iki yerden yalnız birinde durulur; ikisinde birden durulmaz"
+    ],
+    [
+     "ع",
+     "Ayn (aşr/rükû)",
+     "Konunun bittiği yer; namazda burada rükûya gitmek uygundur"
+    ],
+    [
+     "س",
+     "Sekte",
+     "Nefes almadan kısa süre durulur"
+    ]
+   ]
+  },
+  {
+   "sinav": "Senaryo: “İki yakın yerde üç nokta vardı; öğretmen yalnız birinde durulabileceğini söyledi.” → muânaka. “Konu bitti, rükûya gitmek uygun” → ayn (ع). “Durmak gerekir” → م. “Geçmek daha iyi” → ز, ص, صلى. Vakf-ı kabîh örneği: “Fe veylün li’l-musallîn”de durmak."
+  },
+  {
+   "akil": "Vakıf: tâm, kâfî, hasen, kabîh. İşaretler: م gerekir, ط mutlak, ج durmak evlâ, ز geçmek evlâ, ص ruhsat, لا durma, ∴ muânaka, ع konu sonu. Secâvendî."
+  },
+  {
+   "b": "5. Sekte, revm ve işmâm"
+  },
+  "Sekte, nefes almadan, sesi kısa bir süre (yaklaşık iki hareke) keserek durup okumaya devam etmektir. Hafs rivayetinde Şâtıbiyye tarikiyle dört yerde sekte yapılır. Bu yerlerin üzerinde mushafta küçük bir “س” işareti bulunur.",
+  {
+   "tablo": [
+    [
+     "Hafs’ın sekte yerleri",
+     "Sekteden sonra",
+     "Hikmeti"
+    ],
+    [
+     "Kehf 1-2: عِوَجًا (sekte) قَيِّمًا",
+     "“Kayyimen”",
+     "“Eğrilik” ile “dosdoğru” kelimelerinin birbirinin sıfatı sanılmasını önlemek"
+    ],
+    [
+     "Yâsîn 52: مَرْقَدِنَا (sekte) هٰذَا",
+     "“Hâzâ”",
+     "İnkârcıların sözü ile meleklerin (ya da müminlerin) cevabını ayırmak"
+    ],
+    [
+     "Kıyâme 27: مَنْ (sekte) رَاقٍ",
+     "“Râk”",
+     "İdgamı önlemek; “merrâk” (çok çorba yapan) anlamı çıkmasın"
+    ],
+    [
+     "Mutaffifîn 14: بَلْ (sekte) رَانَ",
+     "“Râne”",
+     "İdgamı önlemek; “berrân” (iki yanlı kara) anlamı çıkmasın"
+    ]
+   ]
+  },
+  {
+   "not": "Hâkka 28-29’daki مَالِيَهْ هَلَكَ ifadesinde iki he arasında geçerken sekte ya da idgam yapılabilir (iki vecih). Enfâl ile Tevbe sureleri arasında da vakıf, sekte ya da vasıl caizdir."
+  },
+  {
+   "tablo": [
+    [
+     "",
+     "Revm",
+     "İşmâm"
+    ],
+    [
+     "Tanım",
+     "Vakıfta harekenin yaklaşık üçte birini gizli bir sesle okumak",
+     "Vakıfta harfi sakin okuduktan hemen sonra, ses çıkarmadan dudakları öne doğru büzmek"
+    ],
+    [
+     "Hangi harekede?",
+     "Esre ve ötrede (üstünde yapılmaz)",
+     "Yalnız ötrede"
+    ],
+    [
+     "Duyulur mu?",
+     "Yakındaki dinleyici duyar",
+     "Duyulmaz, ancak görülür"
+    ],
+    [
+     "Hafs’taki özel örnek",
+     "—",
+     "Yûsuf 11: لَا تَأْمَ۫نَّا (iki nunun idgamında dudak işaretiyle)"
+    ]
+   ]
+  },
+  {
+   "sinav": "2026 tarzı senaryo: “Ötreli harfte durdu, bir elif uzattı, ses çıkarmadan dudaklarını büzdü” → kasr + işmâm. Tersine: “Durduğu esreli harfin harekesini hafif ve kısık bir sesle bir miktar okudu” → revm. Üstünlü harfte revm de işmâm da yapılmaz."
+  },
+  {
+   "akil": "Sekte (Hafs): Kehf 1, Yâsîn 52, Kıyâme 27, Mutaffifîn 14. Revm = gizli sesle harekenin üçte biri (esre, ötre). İşmâm = sessizce dudak büzme (yalnız ötre); Yûsuf 11."
+  },
+  {
+   "b": "6. Secde ayetleri"
+  },
+  "Kur’an’da okunduğunda ya da işitildiğinde secde edilmesi gereken ayetlere secde ayetleri denir. Hanefîlere göre on dört secde ayeti vardır ve tilâvet secdesi yapmak vaciptir. Şâfiîlere göre de sayı on dörttür; ama listeleri farklıdır: Şâfiîler Hac Suresi’nde ikinci bir secde (Hac 77) sayar, Sâd 24’ü ise tilâvet secdesi değil şükür secdesi kabul eder.",
+  {
+   "tablo": [
+    [
+     "Hanefîlere göre secde ayetleri",
+     ""
+    ],
+    [
+     "A’râf 206",
+     "Ra’d 15"
+    ],
+    [
+     "Nahl 49-50",
+     "İsrâ 107-109"
+    ],
+    [
+     "Meryem 58",
+     "Hac 18"
+    ],
+    [
+     "Furkân 60",
+     "Neml 25-26"
+    ],
+    [
+     "Secde 15",
+     "Sâd 24"
+    ],
+    [
+     "Fussilet 37-38",
+     "Necm 62"
+    ],
+    [
+     "İnşikâk 21",
+     "Alak 19"
+    ]
+   ]
+  },
+  {
+   "not": "Secde ayetiyle biten sureler A’râf, Necm ve Alak’tır. Tilâvet secdesinin fıkhî hükümleri (abdest, tekbir, namaz içinde yapılışı) Fıkıh dersinde işlenir."
+  },
+  {
+   "sinav": "“Hanefîlere göre secde ayeti olup Şâfiîlere göre tilâvet secdesi olmayan ayet” → Sâd 24. “Şâfiîlere göre olup Hanefîlere göre olmayan” → Hac 77. “Hangi surede secde ayeti yoktur?” sorusunda Mâide, Müzzemmil, Müddessir gibi sureler cevap olabilir."
+  },
+  {
+   "akil": "Hanefî: 14 secde, vacip; Sâd var, Hac’da tek. Şâfiî: Hac’da iki, Sâd yok. Secdeyle biten: A’râf, Necm, Alak."
+  },
+  {
+   "b": "7. Hafs rivayetinde dikkat isteyen okuyuşlar"
+  },
+  {
+   "merak": "Türkiye’deki mushaflarda bazı kelimelerin altında küçük yazılar vardır: “imâle”, “işmâm”, “teshîl”, “sin ile okunur”… Bunlar Hafs rivayetinin özel okuyuşlarını gösterir."
+  },
+  {
+   "tablo": [
+    [
+     "Okuyuş",
+     "Yer",
+     "Açıklama"
+    ],
+    [
+     "İmâle",
+     "Hûd 41: مَجْر۪يهَا",
+     "Ra’nın üstünü esreye, elifi ye’ye yaklaştırarak “mecrêhâ” okumak; Hafs’ta yalnız burada"
+    ],
+    [
+     "İşmâm",
+     "Yûsuf 11: لَا تَأْمَ۫نَّا",
+     "İki nunun idgamında dudakları ötre işaretiyle büzmek"
+    ],
+    [
+     "Teshîl",
+     "Fussilet 44: ءَاَعْجَمِيٌّ",
+     "İkinci hemzeyi hemze ile elif arası yumuşak okumak"
+    ],
+    [
+     "Sin ile okunan sad",
+     "Bakara 245: يَبْصُطُ ؛ A’râf 69: بَصْطَةً",
+     "Sad ile yazılır, sin ile okunur (altında küçük sin)"
+    ],
+    [
+     "İki vecihli sad",
+     "Tûr 37: الْمُصَيْطِرُونَ",
+     "Sad ya da sin ile okunabilir"
+    ],
+    [
+     "Sad ile okunan",
+     "Gâşiye 22: بِمُصَيْطِرٍ",
+     "Sad ile okunur"
+    ],
+    [
+     "İki vecihli dad",
+     "Rûm 54: ضَعْفٍ",
+     "Dad üstünlü ya da ötreli okunabilir"
+    ],
+    [
+     "Vakıfta okunan elif",
+     "اَنَا ؛ Kehf 38: لٰكِنَّا۬ ؛ Ahzâb 10, 66, 67: الظُّنُونَا۬ ، الرَّسُولَا۬ ، السَّب۪يلَا۬",
+     "Durulunca elif okunur (bir elif), geçilince okunmaz"
+    ],
+    [
+     "İki vecihli elif",
+     "İnsan 4: سَلَاسِلَا۬",
+     "Vakıfta elifli ya da elifsiz okunabilir"
+    ],
+    [
+     "Vakıfta yalnız ilkinde okunan elif",
+     "İnsan 15-16: قَوَار۪يرَا۬",
+     "Birincisinde vakıfta elif okunur; ikincisinde okunmaz"
+    ],
+    [
+     "Medd-i farq ya da teshîl",
+     "ءٰٓلذَّكَرَيْنِ ، ءٰٓلْـٰٔنَ ، ءٰٓللّٰهُ",
+     "Uzatma (medd-i farq) ya da ikinci hemzede teshîl"
+    ],
+    [
+     "Harf isimlerinde izhar",
+     "يٰسٓ ۚ وَالْقُرْاٰنِ ؛ نٓ ۚ وَالْقَلَمِ",
+     "Nun vava idgam edilmeden izharla okunur"
+    ],
+    [
+     "Zamir istisnaları",
+     "Furkân 69 (sıla), Zümer 7 (sılasız), اَرْجِهْ ve فَاَلْقِهْ (sakin)",
+     "Medler konusunda ayrıntılı"
+    ]
+   ]
+  },
+  {
+   "sinav": "2019 tarzı soru: “Fethanın kesreye, elifin ye’ye yaklaştırılması; Hafs’ta ‘Mecrâhâ’ örneği” → imâle. Tuzaklar: teshîl (Fussilet 44), işmâm (Yûsuf 11), revm. “Sad ile yazılıp sin ile okunan kelime” → يَبْصُطُ (Bakara 245)."
+  },
+  {
+   "akil": "İmâle: Hûd 41. İşmâm: Yûsuf 11. Teshîl: Fussilet 44. Sin ile okunur: Bakara 245, A’râf 69. Vakıfta elif okunur: ene, lâkinnâ, ez-zunûnâ, er-rasûlâ, es-sebîlâ."
+  }
+ ],
+ "ozet": [
+  "Ra üstünlü ya da ötreliyse kalın, esreliyse ince okunur. Sakin ra önceki harekeye bakar; önceki esre arızîyse ya da sonrasında isti‘lâ harfi varsa (قِرْطَاسٍ) kalın okunur.",
+  "Vakıfta ra’dan önce sakin ye (خَيْرْ) ya da sakin harf ve ondan önce esre (ذِكْرْ) varsa ra ince okunur.",
+  "Lafzatullah: önceki harf üstün ya da ötreliyse kalın, esreliyse ince; okumaya “Allah” ile başlanırsa kalın okunur.",
+  "Nun-ı kutnî: tenvinden sonra hemze-i vasl gelince tenvinin nunu esreli okunur (اَحَدُنِ اللّٰهُ); bu esreden sonra lafzatullah ince okunur.",
+  "Kalkale harfleri ق ط ب ج د’dir; dereceleri kübrâ (şeddeli + vakıf), vustâ (vakıf), suğrâ (kelime içinde cezimli).",
+  "Vakıf nefes alarak durmak, sekte nefes almadan kısa durmak, ibtidâ yeniden başlamaktır. Anlama göre vakıf tâm, kâfî, hasen ve kabîh olarak ayrılır.",
+  "Vakıfta harekeli harf sakin okunur; tenvinli üstün elife, yuvarlak te he’ye döner.",
+  "Vakıf işaretleri Secâvendî’ye dayanır: م (lâzım), ط (mutlak), ج (caiz, durmak evlâ), ز (mücevvez, geçmek evlâ), ص (murahhas), لا (durulmaz), قف, صلى, ك, ∴ (muânaka), ع (konu sonu), س (sekte).",
+  "Hafs’ın sekte yerleri: Kehf 1-2 (ıvecâ), Yâsîn 52 (merkadinâ), Kıyâme 27 (men râk), Mutaffifîn 14 (bel râne).",
+  "Revm vakıfta esreli ya da ötreli harfin harekesini gizli sesle bir miktar okumak; işmâm ötreli harfte durup sessizce dudakları büzmektir.",
+  "Hanefîlere göre 14 secde ayeti vardır; tilâvet secdesi vaciptir. Sâd 24 Hanefîlere göre secde ayetidir; Şâfiîler bunun yerine Hac 77’yi sayar.",
+  "Hafs’ın özel okuyuşları: imâle (Hûd 41), işmâm (Yûsuf 11), teshîl (Fussilet 44), sin ile okunan sad (Bakara 245, A’râf 69), vakıfta okunan elifler (ene, lâkinnâ, ez-zunûnâ, er-rasûlâ, es-sebîlâ)."
+ ],
+ "kartlar": [
+  {
+   "o": "Sakin ra, önü esreli ama sonra isti‘lâ harfi varsa",
+   "a": "Kalın okunur: قِرْطَاسٍ ، فِرْقَةٍ ، مِرْصَادًا."
+  },
+  {
+   "o": "Sakin ra, önceki esre arızî ise",
+   "a": "Kalın okunur: اِرْجِعُوا ، اَمِ ارْتَابُوا."
+  },
+  {
+   "o": "Vakıfta ra’dan önce sakin ye",
+   "a": "İnce okunur: خَيْرْ ، قَد۪يرْ."
+  },
+  {
+   "o": "Lafzatullahın okunuşu",
+   "a": "Önceki harf üstün/ötre → kalın; esre → ince; başta → kalın."
+  },
+  {
+   "o": "Nun-ı kutnî",
+   "a": "Tenvin + hemze-i vasl: tenvinin nunu esreli okunur (اَحَدُنِ اللّٰهُ)."
+  },
+  {
+   "o": "Kalkale harfleri ve dereceleri",
+   "a": "ق ط ب ج د. Kübrâ: şeddeli + vakıf. Vustâ: vakıf. Suğrâ: kelime içinde cezimli."
+  },
+  {
+   "o": "Vakf-ı tâm, kâfî, hasen, kabîh",
+   "a": "Tâm: ne lafız ne anlam bağı. Kâfî: yalnız anlam bağı. Hasen: lafız bağı var. Kabîh: anlamı bozan duruş."
+  },
+  {
+   "o": "Vakıf işaretlerini sistemleştiren âlim",
+   "a": "Muhammed b. Tayfûr es-Secâvendî (ö. 560/1165); işaretlere secâvend denir."
+  },
+  {
+   "o": "Muânaka işareti",
+   "a": "∴ ∴ : yakın iki yerden yalnız birinde durulur."
+  },
+  {
+   "o": "Hafs’ın dört sekte yeri",
+   "a": "Kehf 1-2 (ıvecâ), Yâsîn 52 (merkadinâ), Kıyâme 27 (men râk), Mutaffifîn 14 (bel râne)."
+  },
+  {
+   "o": "Revm ile işmâm farkı",
+   "a": "Revm: harekenin bir kısmını gizli sesle okumak (esre, ötre). İşmâm: sessizce dudak büzmek (yalnız ötre)."
+  },
+  {
+   "o": "Hafs’ta imâle, işmâm ve teshîl yerleri",
+   "a": "İmâle: Hûd 41 (mecrêhâ). İşmâm: Yûsuf 11 (te’mennâ). Teshîl: Fussilet 44 (e a‘cemiyyun)."
+  },
+  {
+   "o": "Sad ile yazılıp sin ile okunan kelimeler",
+   "a": "Bakara 245 يَبْصُطُ ve A’râf 69 بَصْطَةً."
+  },
+  {
+   "o": "Hanefî ve Şâfiî secde ayeti farkı",
+   "a": "Hanefî: Sâd 24 var, Hac’da yalnız 18. Şâfiî: Hac 77 de var, Sâd 24 yok (şükür secdesi)."
+  },
+  {
+   "o": "Vakıfta okunup geçerken okunmayan elif",
+   "a": "اَنَا ، لٰكِنَّا (Kehf 38), الظُّنُونَا ، الرَّسُولَا ، السَّب۪يلَا (Ahzâb)."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "k2-02",
+   "z": 1,
+   "s": "Aşağıdakilerden hangisi kalkale harflerinden biri değildir?",
+   "c": [
+    "ن",
+    "ق",
+    "ب",
+    "د",
+    "ط"
+   ],
+   "d": 0,
+   "a": "Kalkale harfleri ق ط ب ج د’dir (kutbu cedin). Nun kalkale harfi değildir; gunne sıfatı taşır.",
+   "ac": [
+    "Doğru: nun kalkale harfi değildir.",
+    "Kalkale harfidir.",
+    "Kalkale harfidir.",
+    "Kalkale harfidir.",
+    "Kalkale harfidir."
+   ],
+   "kay": "Tecvid: kalkale"
+  },
+  {
+   "id": "k2-05",
+   "z": 2,
+   "s": "Ayetleri tek tek durarak okuyan bir kâri, son harfi esreli bir kelimede durmuş; harfi tamamen sakin okumak yerine harekesinin bir kısmını, yalnızca yakınındakilerin duyabileceği kısık bir sesle okumuştur.\n\nKârinin vakıfta yaptığı bu uygulama aşağıdakilerden hangisidir?",
+   "c": [
+    "İşmâm",
+    "Teshîl",
+    "Sekte",
+    "Revm",
+    "İmâle"
+   ],
+   "d": 3,
+   "a": "Vakıfta harekenin yaklaşık üçte birini gizli bir sesle okumak revmdir. Revm esre ve ötrede yapılır. İşmâm ise yalnız ötrede, ses çıkarmadan dudakları büzmektir.",
+   "ac": [
+    "İşmâmda ses çıkmaz; yalnız dudaklar büzülür ve yalnız ötrede yapılır.",
+    "Teshîl hemzeyi yumuşatmaktır (Fussilet 44).",
+    "Sekte nefes almadan kısa durmaktır; harekeyi gizli okumak değildir.",
+    "Doğru: revm.",
+    "İmâle üstünü esreye yaklaştırmaktır (Hûd 41)."
+   ],
+   "kay": "Tecvid: vakıf, revm ve işmâm"
+  },
+  {
+   "id": "k2-08",
+   "z": 2,
+   "s": "Kur’an’da “durmak gerekir; geçilirse anlam bozulabilir” anlamına gelen vakıf işareti hangisidir?",
+   "c": [
+    "ج",
+    "ز",
+    "م",
+    "ط",
+    "لا"
+   ],
+   "d": 2,
+   "a": "م vakf-ı lâzım işaretidir.",
+   "ac": [
+    "Caiz: durulabilir, durmak daha iyidir.",
+    "Mücevvez: geçmek daha iyidir.",
+    "Doğru: vakf-ı lâzım.",
+    "Mutlak: durmak iyidir; ama zorunluluk ifade etmez.",
+    "Durulmaz."
+   ],
+   "kay": "Tecvid: vakıf işaretleri"
+  },
+  {
+   "id": "k2-09",
+   "z": 3,
+   "s": "Hafs rivayetinde Hûd Suresi 41. ayetteki مَجْر۪يهَا kelimesinde ra harfinin üstününü esreye, elifini ye’ye yaklaştırarak okunması hangi kavramla ifade edilir?",
+   "c": [
+    "Teshîl",
+    "Sekte",
+    "İmâle",
+    "İhfâ",
+    "İşmâm"
+   ],
+   "d": 2,
+   "a": "Bu okuyuş imâledir; Hafs rivayetinde yalnız bu kelimede vardır.",
+   "ac": [
+    "Teshîl Fussilet 44’te hemzenin yumuşatılmasıdır.",
+    "Sekte nefes almadan kısa duraklamadır.",
+    "Doğru: imâle.",
+    "İhfâ sakin nun ve tenvinle ilgilidir.",
+    "İşmâm Yûsuf 11’de dudak işaretidir."
+   ],
+   "kay": "Hûd, 11/41"
+  },
+  {
+   "id": "k2-10",
+   "z": 3,
+   "s": "Hafs rivayetinde sekte yapılan yerlerden biri aşağıdakilerden hangisi değildir?",
+   "c": [
+    "Kıyâme 27 (men râk)",
+    "Fussilet 44 (e a‘cemiyyun)",
+    "Yâsîn 52 (merkadinâ)",
+    "Mutaffifîn 14 (bel râne)",
+    "Kehf 1-2 (ıvecâ)"
+   ],
+   "d": 1,
+   "a": "Fussilet 44’te teshîl yapılır; diğer dört yer Hafs’ın sekte yerleridir.",
+   "ac": [
+    "Sekte yeridir.",
+    "Doğru: burada teshîl vardır.",
+    "Sekte yeridir.",
+    "Sekte yeridir.",
+    "Sekte yeridir."
+   ],
+   "kay": "Tecvid: Hafs rivayeti"
+  },
+  {
+   "id": "k2-12",
+   "z": 3,
+   "s": "Aşağıdaki ifadelerin hangisinde lafzatullah (Allah lafzı) ince okunur?",
+   "c": [
+    "قَالَ اللّٰهُ",
+    "نَصْرُ اللّٰهِ",
+    "رَسُولُ اللّٰهِ",
+    "هُوَ اللّٰهُ",
+    "بِسْمِ اللّٰهِ"
+   ],
+   "d": 4,
+   "a": "Lafzatullahtan önceki harf esreli ise ince okunur; بِسْمِ’deki mim esrelidir.",
+   "ac": [
+    "Önceki harf üstünlüdür; kalın.",
+    "Önceki harf ötrelidir; kalın.",
+    "Önceki harf ötrelidir; kalın.",
+    "Önceki harf üstünlüdür; kalın.",
+    "Doğru."
+   ],
+   "kay": "Tecvid: lafzatullah"
+  },
+  {
+   "id": "k2-15",
+   "z": 2,
+   "s": "Ra harfiyle ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Üstünlü ya da ötreli ra kalın okunur.",
+    "Esreli ra ince okunur.",
+    "Sakin ra’dan önceki harf aslî esreli ise ra (şartlarıyla) ince okunur.",
+    "Ra harfi her durumda ince okunur.",
+    "Sakin ra’dan önce üstün varsa ra kalın okunur."
+   ],
+   "d": 3,
+   "a": "Ra’nın kalınlık ve incelik hükmü kendi harekesine ve önündeki harekeye göre değişir.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur (فِرْعَوْنَ).",
+    "Yanlış: ra hareke ve konumuna göre kalın ya da ince okunur.",
+    "Doğrudur (مَرْيَمَ)."
+   ],
+   "kay": "Tecvid: ra"
+  },
+  {
+   "id": "kb13-01",
+   "z": 2,
+   "s": "قِرْطَاسٍ kelimesinde ra sakindir ve kendisinden önceki harf aslî esrelidir. Buna rağmen ra kalın okunur.\n\nBunun sebebi aşağıdakilerden hangisidir?",
+   "c": [
+    "Ra’dan sonra aynı kelimede üstünlü bir isti‘lâ harfinin gelmesi",
+    "Ra’nın kelimenin başında olması",
+    "Önceki esrenin arızî olması",
+    "Kelimede vakıf yapılması",
+    "Ra’nın şeddeli olması"
+   ],
+   "d": 0,
+   "a": "Sakin ra’dan sonra aynı kelimede üstünlü bir isti‘lâ harfi (ط) geldiği için ra kalın okunur.",
+   "ac": [
+    "Doğru.",
+    "Ra kelimenin başında değildir.",
+    "Buradaki esre aslîdir; arızî değildir.",
+    "Sebep vakıf değildir; vasılda da kalındır.",
+    "Ra şeddeli değildir."
+   ],
+   "kay": "Tecvid: ra"
+  },
+  {
+   "id": "kb13-02",
+   "z": 2,
+   "s": "Bir ayetin sonunda bulunan خَيْرٌ kelimesinde durulduğunda ra harfi nasıl okunur?",
+   "c": [
+    "Kalın; çünkü ra’dan önceki harf sakindir.",
+    "İnce; çünkü ra’nın harekesi esredir.",
+    "Kalın; çünkü kelime üstünle başlar.",
+    "İnce; çünkü ra’dan önce sakin ye vardır.",
+    "Kalın; çünkü vakıfta her ra kalın okunur."
+   ],
+   "d": 3,
+   "a": "Vakıfta sakinleşen ra’dan önce sakin ye bulunursa ra ince okunur.",
+   "ac": [
+    "Önceki harf sakin ye olduğu için hüküm incedir.",
+    "Ra’nın harekesi ötredir; vakıfta sakinleşir.",
+    "Kelimenin ilk harfinin harekesi ölçü değildir.",
+    "Doğru.",
+    "Vakıfta ra’nın hükmü önceki harflere göre değişir."
+   ],
+   "kay": "Tecvid: ra"
+  },
+  {
+   "id": "kb13-03",
+   "z": 2,
+   "s": "İhlâs Suresi’nin birinci ve ikinci ayetleri durmadan birleştirilerek okunduğunda اَحَدٌ اَللّٰهُ ifadesi nasıl okunur?",
+   "c": [
+    "Ehadunillâhu – tenvinin nunu esreli okunur, lafzatullah ince",
+    "Ehadun Allâhu – lafzatullah kalın",
+    "Ehadullâhu – tenvin düşer, lafzatullah kalın",
+    "Ehadin Allâhu – tenvin esreye döner, lafzatullah kalın",
+    "Ehadüm Allâhu – iklab yapılır"
+   ],
+   "d": 0,
+   "a": "Tenvinden sonra hemze-i vasl gelince nun-ı kutnî okunur: tenvinin nunu esreli olur. Lafzatullahtan önceki harf esreli olduğu için Allah lafzı ince okunur.",
+   "ac": [
+    "Doğru.",
+    "Hemze-i vasl birleştirmede okunmaz; nun-ı kutnî gerekir.",
+    "Tenvin düşmez; nun-ı kutnî okunur.",
+    "Tenvinin harekesi değil, nun-ı kutnînin esresi söz konusudur; lafzatullah da incedir.",
+    "İklab yalnız ب’den önce yapılır."
+   ],
+   "kay": "İhlâs, 112/1-2"
+  },
+  {
+   "id": "kb13-04",
+   "z": 2,
+   "s": "Kalkale harflerinden biri şeddeli olup üzerinde vakıf yapıldığında kalkale en kuvvetli şekilde yapılır.\n\nBu durumdaki kalkale aşağıdakilerden hangisidir ve hangi örnekte görülür?",
+   "c": [
+    "Kalkale-i suğrâ – يَقْطَعُونَ",
+    "Kalkale-i vustâ – الْفَلَقْ",
+    "Kalkale-i kübrâ – اَطْهَرُ",
+    "Kalkale-i suğrâ – لَمْ يَلِدْ وَ",
+    "Kalkale-i kübrâ – الْحَقّْ"
+   ],
+   "d": 4,
+   "a": "Şeddeli kalkale harfinde vakıf yapılınca kalkale-i kübrâ olur (الْحَقّْ ، تَبّْ).",
+   "ac": [
+    "Kelime içindeki cezimli harf suğrâdır; ayrıca şedde yoktur.",
+    "Şeddesiz harfte vakıf vustâdır.",
+    "Kelime içindeki cezimli tı suğrâdır; kübrâ değildir.",
+    "Vasılda cezimli harf suğrâdır.",
+    "Doğru."
+   ],
+   "kay": "Tecvid: kalkale"
+  },
+  {
+   "id": "kb13-05",
+   "z": 2,
+   "s": "Bir Kur’an kursu öğretmeni, mushafta birbirine yakın iki yerde üçer nokta bulunduğunu göstermiş; bu iki yerden yalnızca birinde durulabileceğini, ikisinde birden durmanın doğru olmayacağını söylemiştir.\n\nÖğretmenin anlattığı vakıf işareti aşağıdakilerden hangisidir?",
+   "c": [
+    "Vakf-ı lâzım",
+    "Vakf-ı mutlak",
+    "Muânaka",
+    "Kıf",
+    "Sılî"
+   ],
+   "d": 2,
+   "a": "İki yakın yerde üçer noktayla gösterilen işarete muânaka (kucaklaşma) denir; bu yerlerden yalnız birinde durulur.",
+   "ac": [
+    "Vakf-ı lâzım م ile gösterilir ve durmak gerekir.",
+    "Vakf-ı mutlak ط ile gösterilir.",
+    "Doğru: muânaka.",
+    "Kıf (قف) durmanın daha iyi olduğunu gösterir.",
+    "Sılî (صلى) geçmenin daha iyi olduğunu gösterir."
+   ],
+   "kay": "Tecvid: vakıf işaretleri"
+  },
+  {
+   "id": "kb13-06",
+   "z": 2,
+   "s": "Mushaflarda kullanılan vakıf işaretlerini sistemleştiren ve bu yüzden işaretlerin kendi adıyla anıldığı âlim aşağıdakilerden hangisidir?",
+   "c": [
+    "Halîl b. Ahmed",
+    "Muhammed b. Tayfûr es-Secâvendî",
+    "Ebü’l-Esved ed-Düelî",
+    "İbnü’l-Cezerî",
+    "Ebû Amr ed-Dânî"
+   ],
+   "d": 1,
+   "a": "Vakıf işaretleri Secâvendî’ye (ö. 560/1165) nispetle secâvend diye anılır.",
+   "ac": [
+    "Bugünkü hareke işaretlerini geliştirmiştir.",
+    "Doğru.",
+    "Hareke noktalarını koymuştur.",
+    "Kıraat ve tecvid âlimidir; işaretlerin adı ona nispet edilmez.",
+    "Vakıf konusunda el-Muktefâ’yı yazmıştır; ama işaretlere adını veren Secâvendî’dir."
+   ],
+   "kay": "Tecvid: secâvend"
+  },
+  {
+   "id": "kb13-07",
+   "z": 2,
+   "s": "Mâûn Suresi’ni okuyan biri “Fe veylün li’l-musallîn” (Vay hâline o namaz kılanların!) ifadesinde durmuş ve okumayı bitirmiştir. Böylece namaz kılanların kınandığı yanlış bir anlam ortaya çıkmıştır; oysa ayet devamında namazlarından gafil olanlardan söz eder.\n\nBu kişinin yaptığı duruş aşağıdakilerden hangisidir?",
+   "c": [
+    "Vakf-ı tâm",
+    "Vakf-ı kâfî",
+    "Vakf-ı hasen",
+    "Vakf-ı kabîh",
+    "Sekte"
+   ],
+   "d": 3,
+   "a": "Anlamı eksik bırakan ya da bozan duruşa vakf-ı kabîh denir. Zorunlu kalmadıkça yapılmaz; yapılırsa uygun yerden geri dönülerek okunur.",
+   "ac": [
+    "Vakf-ı tâm sonrasıyla hiçbir bağı olmayan yerde durmaktır.",
+    "Vakf-ı kâfî yalnız anlam bağı olan yerde durmaktır.",
+    "Vakf-ı hasen anlamlı ama lafzen bağlı yerde durmaktır.",
+    "Doğru: anlam bozulmuştur.",
+    "Sekte nefes almadan kısa durmaktır; burada okuma bitirilmiştir."
+   ],
+   "kay": "Mâûn, 107/4-5"
+  },
+  {
+   "id": "kb13-08",
+   "z": 2,
+   "s": "Türkiye’de basılan mushaflarda Bakara Suresi 245. ayetteki bir kelimenin sad (ص) harfiyle yazıldığı, ancak altına konan küçük bir işaretle sin (س) harfiyle okunması gerektiğinin belirtildiği görülür.\n\nBu kelime aşağıdakilerden hangisidir?",
+   "c": [
+    "الصِّرَاطَ",
+    "يَبْصُطُ",
+    "الْمُصَيْطِرُونَ",
+    "بِمُصَيْطِرٍ",
+    "الصَّمَدُ"
+   ],
+   "d": 1,
+   "a": "Bakara 245’teki يَبْصُطُ kelimesi sad ile yazılır, Hafs rivayetinde sin ile okunur. A’râf 69’daki بَصْطَةً kelimesi de böyledir.",
+   "ac": [
+    "Hafs’ta sad ile okunur.",
+    "Doğru.",
+    "Tûr 37’dedir; sad ya da sin ile okunabilir (iki vecih).",
+    "Gâşiye 22’dedir; sad ile okunur.",
+    "Sad ile okunur."
+   ],
+   "kay": "Bakara, 2/245"
+  },
+  {
+   "id": "kb13-09",
+   "z": 3,
+   "s": "Hanefîlere ve Şâfiîlere göre Kur’an’da on dört secde ayeti bulunur; ancak iki mezhebin listeleri tamamen aynı değildir.\n\nHanefîlere göre tilâvet secdesi yapılması gereken, Şâfiîlere göre ise tilâvet secdesi değil şükür secdesi kabul edilen ayet aşağıdakilerden hangisidir?",
+   "c": [
+    "Hac, 22/77",
+    "Necm, 53/62",
+    "Sâd, 38/24",
+    "Alak, 96/19",
+    "A’râf, 7/206"
+   ],
+   "d": 2,
+   "a": "Sâd 24 Hanefîlere göre secde ayetidir. Şâfiîler bunu şükür secdesi sayar ve onun yerine Hac 77’yi secde ayeti kabul eder.",
+   "ac": [
+    "Hac 77 Şâfiîlere göre secde ayetidir; Hanefîlere göre değildir. Soru tersini sormaktadır.",
+    "İki mezhebe göre de secde ayetidir.",
+    "Doğru.",
+    "İki mezhebe göre de secde ayetidir.",
+    "İki mezhebe göre de secde ayetidir."
+   ],
+   "kay": "Hanefî ve Şâfiî fıkhı: tilâvet secdesi"
+  },
+  {
+   "id": "kb13-10",
+   "z": 2,
+   "s": "Okumaya اُدْخُلُوا kelimesiyle başlayan bir kâri, kelimenin başındaki hemze-i vasla hangi harekeyi verir?",
+   "c": [
+    "Ötre; çünkü fiilin üçüncü harfi ötrelidir.",
+    "Üstün; çünkü bütün hemze-i vasllar üstünle okunur.",
+    "Esre; çünkü fiillerde hemze-i vasl her zaman esrelidir.",
+    "Hareke verilmez; kelime ikinci harfle başlar.",
+    "Esre; çünkü kelime çoğuldur."
+   ],
+   "d": 0,
+   "a": "Fiillerde hemze-i vaslla başlanırken üçüncü harf ötreliyse hemze ötreli, değilse esreli okunur. اُدْخُلُوا’de üçüncü harf (خ) ötrelidir.",
+   "ac": [
+    "Doğru.",
+    "Üstün yalnız elif-lam takısında okunur.",
+    "Fiilde üçüncü harf ötreliyse hemze ötreli okunur.",
+    "Sakin harfle başlanamaz; hemze-i vasl okunur.",
+    "Çoğul olmasının bir etkisi yoktur."
+   ],
+   "kay": "Tecvid: ibtidâ"
+  },
+  {
+   "id": "kb13-11",
+   "z": 3,
+   "s": "Kehf Suresi 38. ayetteki لٰكِنَّا۬ kelimesinin sonundaki elifle ilgili Hafs rivayetindeki okuyuş aşağıdakilerden hangisidir?",
+   "c": [
+    "Her durumda bir elif uzatılarak okunur.",
+    "Hiçbir durumda okunmaz.",
+    "Üç elif uzatılarak okunur.",
+    "Geçilince okunur, durulunca okunmaz.",
+    "Durulunca okunur, geçilince okunmaz."
+   ],
+   "d": 4,
+   "a": "Bu kelimedeki elif, “ene” ve Ahzâb’daki الظُّنُونَا ، الرَّسُولَا ، السَّب۪يلَا kelimeleri gibi, vakıfta okunur, vasılda okunmaz.",
+   "ac": [
+    "Geçerken elif okunmaz.",
+    "Durulunca okunur.",
+    "Bu bir medd-i lâzım değildir.",
+    "Tersidir.",
+    "Doğru."
+   ],
+   "kay": "Kehf, 18/38"
+  },
+  {
+   "id": "kb13-12",
+   "z": 3,
+   "s": "I. Sakin olan ra’dan önceki harf kesreli ise ve ra’dan sonra kalın harf gelmiyorsa ra ince okunur.\nII. Lafzatullah’tan önceki harf kesreli ise “Allah” lafzındaki lam kalın okunur.\nIII. Kalkale harfleri sakin olduğunda, özellikle vakıf hâlinde, sesin sarsılarak okunmasıdır.\nIV. Revm, vakıf yapılan harekeli harfin harekesini gizli bir sesle, işmâm ise yalnız dudakları ötre okur gibi yuvarlayarak işaret etmektir.\n\nTecvidle ilgili yukarıdaki bilgilerden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I, III ve IV",
+    "II, III ve IV",
+    "I, II ve III",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Lafzatullah’tan önceki harf kesreli ise lam ince okunur; üstün veya ötreli ise kalın okunur. Diğer bilgiler doğrudur.",
+   "ac": [
+    "İkinci bilgi yanlıştır; üçüncü ve dördüncü bilgi doğrudur.",
+    "Doğru.",
+    "İkinci bilgi yanlıştır.",
+    "İkinci bilgi yanlıştır.",
+    "İkinci bilgi yanlıştır."
+   ],
+   "kay": "Karaçam, Kur’ân-ı Kerîm’in Faziletleri ve Okunma Kaideleri"
+  },
+  {
+   "id": "kb13-13",
+   "z": 3,
+   "s": "Hafs rivayetinde Kur’an’ın dört yerinde “sekte” yapılır. Sekte, sesi kesip nefes almadan kısa bir süre durduktan sonra okumaya devam etmektir.\n\nAşağıdakilerden hangisi Hafs rivayetinde sekte yapılan yerlerden biri değildir?",
+   "c": [
+    "Kehf suresinin 1. ayetinin sonunda (ıvecâ)",
+    "Yâsîn suresinin 52. ayetinde (min merkadinâ)",
+    "Kıyâme suresinin 27. ayetinde (men râk)",
+    "Fâtiha suresinin 7. ayetinde (ğayri’l-mağdûbi)",
+    "Mutaffifîn suresinin 14. ayetinde (bel râne)"
+   ],
+   "d": 3,
+   "a": "Hafs rivayetinde sekte yerleri Kehf 1, Yâsîn 52, Kıyâme 27 ve Mutaffifîn 14’tür; Fâtiha’da sekte yoktur.",
+   "ac": [
+    "Sekte yerlerindendir.",
+    "Sekte yerlerindendir.",
+    "Sekte yerlerindendir.",
+    "Doğru.",
+    "Sekte yerlerindendir."
+   ],
+   "kay": "İbnü’l-Cezerî, en-Neşr"
+  },
+  {
+   "id": "kb13-14",
+   "z": 3,
+   "s": "Bir hafız, Hûd suresinin 41. ayetindeki “mecrâhâ” kelimesini Hafs rivayetine göre okurken ra’dan sonraki elifi diğer yerlerden farklı biçimde, “e” sesine yakın okumuştur.\n\nHafs rivayetine özgü bu okuyuşun adı aşağıdakilerden hangisidir?",
+   "c": [
+    "Teshîl",
+    "İmâle",
+    "İşmâm",
+    "İhfâ",
+    "İklâb"
+   ],
+   "d": 1,
+   "a": "Hafs rivayetinde Hûd 41’deki “mecrâhâ” kelimesinde imâle yapılır; elif “e” sesine meylettirilir. Fussılet 44’teki “eâ’cemiyyün” kelimesinde ise teshîl yapılır.",
+   "ac": [
+    "Teshîl Fussılet 44’teki ikinci hemzede yapılır.",
+    "Doğru.",
+    "İşmâm Yûsuf 11’deki “lâ te’mennâ” kelimesinde yapılır.",
+    "İhfâ nun-tenvinle ilgili bir kuraldır.",
+    "İklâb nun-tenvinin ba harfinde mime dönüşmesidir."
+   ],
+   "kay": "İbnü’l-Cezerî, en-Neşr"
+  },
+  {
+   "id": "kb13-15",
+   "z": 3,
+   "s": "I. Vakf-ı lâzım (mim işareti) bulunan yerde durmak gerekir; geçilirse anlam bozulabilir.\nII. “Lâ” işareti bulunan yerde durulmaz; durulursa geri dönülüp önceki kelimeden başlanır.\nIII. Vakf-ı tâmda durulan kelime anlamca da lafızca da sonrakiyle ilgisizdir; sonraki kelimeden başlanabilir.\nIV. Kabîh vakıf, anlamı bozan yerde durmaktır ve kaçınılması gerekir.\n\nVakıf ve ibtidâ ile ilgili yukarıdaki bilgilerden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 4,
+   "a": "Dört bilgi de vakıf ve ibtidâ kurallarıyla uyumludur.",
+   "ac": [
+    "Üçüncü ve dördüncü bilgi de doğrudur.",
+    "Dördüncü bilgi de doğrudur.",
+    "Birinci bilgi de doğrudur.",
+    "İkinci bilgi de doğrudur.",
+    "Doğru."
+   ],
+   "kay": "Dânî, el-Muktefâ"
+  }
+ ]
+}

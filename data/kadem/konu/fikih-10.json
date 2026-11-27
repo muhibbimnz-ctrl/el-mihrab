@@ -1,0 +1,601 @@
+{
+ "id": "fikih-10",
+ "ad": "Namaz 3: Cuma ve Bayram Namazları, Teşrik Tekbirleri; Yolculuk (Seferîlik) ve Vatan Çeşitleri; Hasta ve Korku Namazı; Cenaze İşlemleri ve Namazı",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Cuma namazı: Farz olma ve sahih olma şartları"
+  },
+  {
+   "merak": "Bir köy imamı, köyündeki cemaatin cuma namazı kılmak istediğini, ancak Hanefî fıkıh kitaplarında cumanın “şehirde” kılınacağının yazdığını söyler. Bugün Türkiye’de köylerde de cuma kılınmaktadır. Fıkıhtaki “mısr” (şehir) şartı nasıl anlaşılmalıdır?"
+  },
+  "Cuma namazı, Cuma Suresi’nin 9. ayetiyle farz kılınmıştır. Hanefîlere göre cuma namazının farz olmasının (vücûb) şartları; erkek olmak, hür olmak, mukim olmak, sağlıklı olmak, Ebû Hanîfe’ye göre gözleri görmek ve yürüyebilmektir. Bu şartları taşımayanlara cuma farz değildir; ancak kılarlarsa öğle namazı yerine geçer. Cumanın sahih olmasının (edâ) şartları ise şehir (mısr) olması, devlet başkanının veya temsilcisinin izni, öğle vakti, vakit içinde namazdan önce hutbe okunması, cemaat ve izn-i âm (herkese açık olması)dır.",
+  {
+   "ayet": "Ey iman edenler! Cuma günü namaz için çağrı yapıldığında Allah’ı anmaya koşun ve alışverişi bırakın.",
+   "kay": "Cuma, 62/9"
+  },
+  {
+   "tablo": [
+    [
+     "Cuma şartı",
+     "Hanefî ölçü",
+     "Diğer mezhepler"
+    ],
+    [
+     "Cemaat sayısı",
+     "İmamdan başka en az üç kişi (Ebû Hanîfe ve Muhammed); Ebû Yûsuf: iki",
+     "Şâfiî ve Hanbelî: kırk kişi"
+    ],
+    [
+     "Hutbenin farz kısmı",
+     "Ebû Hanîfe: kısa bir zikir (bir tesbih) bile yeterli; İmâmeyn: örfen hutbe denecek miktar",
+     "Şâfiî: hamd, salâvat, takva tavsiyesi, ayet, dua"
+    ],
+    [
+     "Yer",
+     "Mısr (şehir); günümüzde yerleşim yeri ve cami esas alınır",
+     "Mâlikî ve Şâfiîlerde yerleşik köy yeterli"
+    ],
+    [
+     "Vakit",
+     "Öğle vakti",
+     "Hanbelîlerde öğleden önce de caiz"
+    ]
+   ]
+  },
+  {
+   "akil": "Vücûb: erkek, hür, mukim, sağlıklı, gören, yürüyebilen. Edâ: mısr, sultanın izni, öğle vakti, hutbe, cemaat (imam + 3), izn-i âm. Şâfiî: 40 kişi."
+  },
+  {
+   "b": "2. Bayram namazı ve teşrik tekbirleri"
+  },
+  "Bayram namazı Ebû Hanîfe’ye göre vaciptir; cuma namazı kimlere farzsa bayram namazı da onlara vaciptir. Vakti, güneş doğduktan sonra kerahat vakti çıkınca başlar ve zevale kadar devam eder. Ezan ve kamet okunmaz. İki rekât olup her rekâtta üçer zevâid tekbiri alınır: Birinci rekâtta Sübhâneke’den sonra kıraatten önce, ikinci rekâtta kıraatten sonra rükûdan önce. Bayram hutbesi cumadan farklı olarak namazdan sonra okunur ve sünnettir. Kurban Bayramı’nda namaz, Ramazan Bayramı’na göre biraz erken kılınır.",
+  "Teşrik tekbirleri, Arefe günü sabah namazından başlayarak Kurban Bayramı’nın dördüncü günü ikindi namazına kadar, toplam yirmi üç vakit farz namazın ardından bir kere getirilen “Allâhü ekber Allâhü ekber, lâ ilâhe illallâhü vallâhü ekber, Allâhü ekber ve lillâhi’l-hamd” tekbirleridir. Hanefîlere göre vaciptir ve farz namazdan hemen sonra, namazla bağlantıyı kesecek bir şey yapılmadan getirilir.",
+  {
+   "tablo": [
+    [
+     "Ölçüt",
+     "Cuma namazı",
+     "Bayram namazı"
+    ],
+    [
+     "Hüküm",
+     "Farz",
+     "Vacip (Ebû Hanîfe)"
+    ],
+    [
+     "Hutbe",
+     "Farz, namazdan önce",
+     "Sünnet, namazdan sonra"
+    ],
+    [
+     "Ezan-kamet",
+     "Var",
+     "Yok"
+    ],
+    [
+     "Vakit",
+     "Öğle vakti",
+     "Kerahat çıktıktan zevale kadar"
+    ],
+    [
+     "Zevâid tekbirleri",
+     "Yok",
+     "Her rekâtta üçer"
+    ]
+   ]
+  },
+  {
+   "akil": "Bayram: vacip, ezansız, 3+3 zevâid tekbiri, hutbe sonra ve sünnet. Teşrik: Arefe sabahı → bayramın 4. günü ikindisi = 23 vakit, vacip."
+  },
+  {
+   "b": "3. Yolculuk (seferîlik) ve vatan çeşitleri"
+  },
+  {
+   "merak": "Ankara’da oturan bir memur, iş için yaklaşık 450 km uzaklıktaki bir şehre gider ve orada 10 gün kalacaktır. Arkadaşı ise aynı şehirde 20 gün kalacaktır. Biri namazlarını kısaltır, diğeri tam kılar. Fark nereden doğuyor?"
+  },
+  "Hanefîlere göre yolculuk mesafesi, orta bir yürüyüşle üç günlük (on sekiz saatlik) yoldur; bu, günümüzde yaklaşık 90 kilometre kabul edilir. Bu mesafeye gitmeye niyet ederek yerleşim yerinden ayrılan kişi seferî olur. Gittiği yerde on beş günden az kalmaya niyet ederse seferîliği devam eder; on beş gün veya daha fazla kalmaya niyet ederse mukim olur. Hanefîlere göre seferî kişinin dört rekâtlı farzları iki rekât kılması azimettir (vaciptir); dört kılarsa ve ikinci rekâtta oturmuşsa namazı kerâhetle geçerli olur. Şâfiîlere göre kısaltma bir ruhsattır. Sabah, akşam ve vitir kısaltılmaz; sünnetler ise yolculuk hâline göre kılınabilir ya da terk edilebilir.",
+  {
+   "tablo": [
+    [
+     "Vatan çeşidi",
+     "Tanım",
+     "Ne ile bozulur?"
+    ],
+    [
+     "Vatan-ı aslî",
+     "Doğduğu, evlenip yerleştiği ya da yerleşmeye karar verdiği yer",
+     "Başka bir vatan-ı aslî edinmekle"
+    ],
+    [
+     "Vatan-ı ikamet",
+     "15 gün veya daha fazla kalmaya niyet ettiği yer",
+     "Vatan-ı aslî, başka vatan-ı ikamet ya da yolculukla"
+    ],
+    [
+     "Vatan-ı süknâ",
+     "15 günden az kalmaya niyet ettiği yer",
+     "Seferîlik devam eder"
+    ]
+   ]
+  },
+  "Hanefîlere göre seferî bir imam mukim cemaate dört rekâtlı farz kıldırırsa iki rekâtta selam verir, mukimler kalkıp namazlarını kıraatsiz tamamlar. Mukim bir imama uyan seferî ise namazı dört rekât kılar. İki namazı bir vakitte birleştirmek (cem’) Hanefîlere göre yalnız hacda, Arafat’ta öğle ile ikindiyi (cem-i takdim) ve Müzdelife’de akşam ile yatsıyı (cem-i tehir) birleştirmekle sınırlıdır; diğer mezhepler yolculukta da cem’i caiz görür.",
+  {
+   "sinav": "Yolculuk mesafesi (90 km), 15 gün ikamet niyeti, vatan-ı aslî (doğup büyüdüğü yerden başka bir yere taşınıp evlenen kişinin eski yeri artık vatan-ı aslî değildir), seferî imam-mukim cemaat ve Hanefîlerde cem’in yalnız Arafat ve Müzdelife’de olması senaryolarla sorulur."
+  },
+  {
+   "akil": "Sefer: 90 km, 15 günden az kalma. Kısaltma Hanefîde azimet. Seferî imam → 2 kılıp selam, mukim cemaat tamamlar. Mukim imama uyan seferî → 4. Cem’: Hanefîde yalnız Arafat ve Müzdelife."
+  },
+  {
+   "b": "4. Hasta ve korku namazı"
+  },
+  "Ayakta duramayan hasta namazını oturarak kılar; rükû ve secdeyi yapabiliyorsa yapar, yapamıyorsa başıyla işaret (îmâ) ederek kılar, secde için başını rükûdan daha fazla eğer. Oturamayan kişi sırtüstü ya da yan yatarak başıyla îmâ eder. Hanefîlere göre başıyla da îmâ edemeyen kişiden namaz düşer; bu durum bir gün bir geceden (altı vakit) fazla sürerse kazası da gerekmez. Gözle veya kaşla işaret yeterli değildir. Korku namazı (salâtü’l-havf), savaş ya da büyük tehlike durumunda cemaatin iki gruba ayrılarak sırayla imama uymasıyla kılınan namazdır; dayanağı Nisâ 102’dir.",
+  {
+   "akil": "Hasta: ayakta → oturarak → yatarak îmâ. Baş ile îmâ edemeyen: namaz düşer; 6 vakitten fazla sürerse kaza yok. Korku namazı: Nisâ 102, iki grup."
+  },
+  {
+   "b": "5. Cenaze işlemleri ve namazı"
+  },
+  "Ölümü yaklaşan kişiye kelime-i şehadet telkin edilir. Ölen kişinin yıkanması, kefenlenmesi, namazının kılınması ve defnedilmesi farz-ı kifâyedir. Erkek için sünnet olan kefen üç parçadır: kamis (gömlek), izar (bel bağı) ve lifâfe (sargı); kadın için beş parçadır: bunlara ek olarak başörtüsü ve göğüslük. Allah yolunda savaşta şehit düşen kişi yıkanmaz, kendi elbisesiyle defnedilir; ancak cenaze namazı Hanefîlere göre kılınır.",
+  "Cenaze namazının rükünleri dört tekbir ve kıyamdır. Birinci tekbirden sonra Sübhâneke, ikinciden sonra salli-bârik, üçüncüden sonra cenaze duası okunur, dördüncü tekbirden sonra selam verilir. Rükû, secde ve oturuş yoktur. İmam erkek ve kadın cenazede ölünün göğsü hizasında durur. Cenaze namazının sahih olması için ölünün Müslüman olması, yıkanmış olması ve önde hazır bulunması gerekir; bu yüzden Hanefîlere göre gıyabî cenaze namazı kılınmaz. Necâşî’nin gıyabî cenaze namazı Hanefîlerce ona özgü bir durum sayılmıştır; Şâfiîler ise gıyabî cenaze namazını caiz görür.",
+  {
+   "tablo": [
+    [
+     "Cenaze konusu",
+     "Hanefî hüküm"
+    ],
+    [
+     "Yıkama, kefenleme, namaz, defin",
+     "Farz-ı kifâye"
+    ],
+    [
+     "Erkek kefeni (sünnet)",
+     "3 parça: kamis, izar, lifâfe"
+    ],
+    [
+     "Kadın kefeni (sünnet)",
+     "5 parça"
+    ],
+    [
+     "Cenaze namazının rükünleri",
+     "Dört tekbir ve kıyam"
+    ],
+    [
+     "Gıyabî cenaze namazı",
+     "Caiz değil (Şâfiî: caiz)"
+    ],
+    [
+     "Şehit",
+     "Yıkanmaz, elbisesiyle defnedilir; namazı kılınır"
+    ]
+   ]
+  },
+  {
+   "sinav": "Cenaze namazının rükünleri (dört tekbir ve kıyam), kefen parçaları, gıyabî cenaze namazında Hanefî-Şâfiî farkı ve şehidin yıkanmaması sık sorulur."
+  },
+  {
+   "akil": "Cenaze: farz-ı kifâye. Rükün: 4 tekbir + kıyam. Erkek kefeni 3, kadın 5. Gıyabî: Hanefî caiz değil, Şâfiî caiz. Şehit yıkanmaz, namazı kılınır (Hanefî)."
+  }
+ ],
+ "ozet": [
+  "Cuma namazının dayanağı Cuma 9’dur; erkek, hür, mukim ve sağlıklı olanlara farzdır.",
+  "Cumanın sahih olma şartları: mısr, devlet başkanının izni, öğle vakti, hutbe, cemaat ve izn-i âmdır.",
+  "Hanefîlere göre cuma cemaati imamdan başka en az üç kişidir; Şâfiî ve Hanbelîlere göre kırk kişidir.",
+  "Ebû Hanîfe’ye göre hutbenin farz kısmı kısa bir zikirdir.",
+  "Bayram namazı Ebû Hanîfe’ye göre vaciptir; ezan ve kamet okunmaz, hutbe namazdan sonra okunur ve sünnettir.",
+  "Bayram namazında her rekâtta üçer zevâid tekbiri alınır.",
+  "Teşrik tekbirleri Arefe sabahından bayramın dördüncü günü ikindisine kadar 23 vakit farzın ardından getirilir ve vaciptir.",
+  "Hanefîlere göre yolculuk mesafesi yaklaşık 90 km’dir; 15 günden az kalmaya niyet eden seferîdir.",
+  "Hanefîlere göre seferînin dört rekâtlı farzları iki kılması azimettir; Şâfiîlere göre ruhsattır.",
+  "Seferî imam mukim cemaate iki rekât kıldırıp selam verir, cemaat namazını tamamlar.",
+  "Hanefîlere göre iki namazı birleştirmek yalnız Arafat ve Müzdelife’de caizdir.",
+  "Başıyla îmâ edemeyen hastadan namaz düşer; bu durum altı vakitten fazla sürerse kaza gerekmez.",
+  "Cenaze namazının rükünleri dört tekbir ve kıyamdır; Hanefîlere göre gıyabî cenaze namazı kılınmaz.",
+  "Erkek için sünnet kefen üç, kadın için beş parçadır; şehit yıkanmaz."
+ ],
+ "kartlar": [
+  {
+   "o": "Cumanın vücûb şartları",
+   "a": "Erkek, hür, mukim, sağlıklı, gören, yürüyebilen."
+  },
+  {
+   "o": "Cumanın edâ şartları",
+   "a": "Mısr, izin, öğle vakti, hutbe, cemaat, izn-i âm."
+  },
+  {
+   "o": "Cuma cemaat sayısı",
+   "a": "Hanefî: imam + 3; Şâfiî-Hanbelî: 40."
+  },
+  {
+   "o": "Bayram namazı",
+   "a": "Ebû Hanîfe’ye göre vacip; ezansız; hutbe sonra."
+  },
+  {
+   "o": "Zevâid tekbirleri",
+   "a": "Bayram namazında her rekâtta üçer."
+  },
+  {
+   "o": "Teşrik tekbirleri",
+   "a": "Arefe sabahı – bayramın 4. günü ikindisi; 23 vakit; vacip."
+  },
+  {
+   "o": "Yolculuk mesafesi",
+   "a": "Üç günlük yol; yaklaşık 90 km."
+  },
+  {
+   "o": "İkamet niyeti",
+   "a": "15 gün ve fazlası → mukim."
+  },
+  {
+   "o": "Vatan-ı aslî",
+   "a": "Doğduğu ya da evlenip yerleştiği yer."
+  },
+  {
+   "o": "Seferî imam – mukim cemaat",
+   "a": "İmam iki kılıp selam verir; cemaat tamamlar."
+  },
+  {
+   "o": "Hanefîlerde cem’",
+   "a": "Yalnız Arafat (takdim) ve Müzdelife (tehir)."
+  },
+  {
+   "o": "Hasta namazı",
+   "a": "Başıyla îmâ edemeyen için namaz düşer."
+  },
+  {
+   "o": "Cenaze namazının rükünleri",
+   "a": "Dört tekbir ve kıyam."
+  },
+  {
+   "o": "Gıyabî cenaze",
+   "a": "Hanefî: caiz değil; Şâfiî: caiz."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "fq10-01",
+   "z": 3,
+   "s": "I. Ezan ve kamet okunmaz.\nII. Hutbe namazdan önce okunur ve farzdır.\nIII. Her rekâtta üçer zevâid tekbiri alınır.\nIV. Ebû Hanîfe’ye göre hükmü vaciptir.\n\nYukarıdakilerden hangileri bayram namazının özelliklerindendir?",
+   "c": [
+    "I ve II",
+    "I, III ve IV",
+    "II, III ve IV",
+    "I, II ve III",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Bayram namazında ezan-kamet yoktur, zevâid tekbirleri alınır ve Ebû Hanîfe’ye göre vaciptir. Hutbe namazdan sonra okunur ve sünnettir; ikinci öncül cumaya aittir.",
+   "ac": [
+    "İkinci öncül cumaya aittir.",
+    "Doğru.",
+    "İkinci öncül cumaya aittir.",
+    "İkinci öncül cumaya aittir.",
+    "İkinci öncül cumaya aittir."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "fq10-02",
+   "z": 3,
+   "s": "Bir kişi hacda Arafat’ta öğle ile ikindiyi, Müzdelife’de akşam ile yatsıyı birleştirerek kılmıştır. Aynı kişi başka bir yolculuğunda da öğle ile ikindiyi birleştirmek istemektedir.\n\nHanefî mezhebine göre bu durumla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Hacda da yolculukta da cem’ caizdir.",
+    "Cem’ yalnız yağmurlu havalarda caizdir.",
+    "Hacdaki cem’ler de caiz değildir.",
+    "Yolculukta yalnız akşam ile yatsı birleştirilebilir.",
+    "Hacdaki cem’ler caizdir; diğer yolculuklarda iki namazı bir vakitte birleştirmek caiz değildir."
+   ],
+   "d": 4,
+   "a": "Hanefîlere göre cem’ yalnız hacda Arafat ve Müzdelife’de yapılır; diğer mezhepler yolculukta da cem’i caiz görür.",
+   "ac": [
+    "Hanefîlere göre yolculukta cem’ caiz değildir.",
+    "Yağmur sebebiyle cem’ Şâfiî ve Hanbelîlerde caizdir, Hanefîlerde değil.",
+    "Arafat ve Müzdelife’deki cem’ler caizdir.",
+    "Hanefîlerde yolculukta cem’ yoktur.",
+    "Doğru."
+   ],
+   "kay": "Kâsânî, Bedâi‘, I"
+  },
+  {
+   "id": "fq10-03",
+   "z": 2,
+   "s": "Teşrik tekbirleriyle ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Yalnız cemaatle kılınan bayram namazından sonra bir kez getirilir.",
+    "Kurban Bayramı’nın dördüncü günü ikindi namazında sona erer.",
+    "Toplam yirmi üç vakit farz namazın ardından getirilir.",
+    "Hanefîlere göre vaciptir.",
+    "Arefe günü sabah namazından başlar."
+   ],
+   "d": 0,
+   "a": "Teşrik tekbirleri yirmi üç vakit farz namazın ardından getirilir; yalnız bayram namazına özgü değildir.",
+   "ac": [
+    "Yanlış ifade budur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "fq10-04",
+   "z": 3,
+   "s": "Felç geçiren bir hasta, ayakta ya da oturarak namaz kılamamakta, yatarken başıyla da işaret edememekte, yalnızca gözleriyle işaret edebilmektedir. Bu durum yaklaşık bir hafta sürmüştür.\n\nHanefî mezhebine göre bu hastanın namaz yükümlülüğüyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Başıyla îmâ edemediği için namaz kendisinden düşer; durum altı vakitten fazla sürdüğü için kazası da gerekmez.",
+    "Gözleriyle işaret ederek namaz kılmalıdır.",
+    "İyileştiğinde bütün namazlarını kaza etmelidir.",
+    "Her namaz için fidye vermelidir.",
+    "Yakınlarından biri onun yerine namaz kılmalıdır."
+   ],
+   "d": 0,
+   "a": "Hanefîlere göre gözle veya kaşla işaret yeterli değildir; başıyla îmâ edemeyenden namaz düşer. Bu durum bir gün bir geceden fazla sürerse kaza gerekmez.",
+   "ac": [
+    "Doğru.",
+    "Hanefîlere göre gözle işaret yeterli değildir.",
+    "Altı vakitten fazla sürdüğü için kaza gerekmez.",
+    "Fidye bu durum için öngörülmemiştir.",
+    "Namazda vekâlet olmaz."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "fq10-05",
+   "z": 3,
+   "s": "Hanefî ve Şâfiî mezheplerinin gıyabî cenaze namazı ile ilgili görüşleri ve Necâşî olayına bakışları aşağıdakilerden hangisinde doğru verilmiştir?",
+   "c": [
+    "İki mezhep de gıyabî cenaze namazını caiz görür.",
+    "İki mezhep de caiz görmez; Necâşî olayı uydurmadır.",
+    "Hanefîlere göre caizdir, Şâfiîlere göre caiz değildir.",
+    "Hanefîlere göre caiz değildir, Necâşî olayı ona özgüdür; Şâfiîlere göre caizdir.",
+    "Yalnız şehitler için caizdir."
+   ],
+   "d": 3,
+   "a": "Hanefîler cenazenin önde hazır bulunmasını şart koşar ve Necâşî olayını ona özgü sayar; Şâfiîler gıyabî cenaze namazını caiz görür.",
+   "ac": [
+    "Hanefîlere göre caiz değildir.",
+    "Necâşî olayı sahih hadislerle sabittir.",
+    "Durum terstir.",
+    "Doğru.",
+    "Böyle bir ayrım yoktur."
+   ],
+   "kay": "Kâsânî, Bedâi‘, I; Buhârî, Cenâiz, 4"
+  },
+  {
+   "id": "f4-03",
+   "z": 1,
+   "s": "Cenaze namazının rükünleri aşağıdakilerin hangisinde verilmiştir?",
+   "c": [
+    "İftitah tekbiri ve Fâtiha",
+    "Niyet ve selam",
+    "Rükû ve secde",
+    "Sübhâneke ve dua",
+    "Dört tekbir ve kıyam"
+   ],
+   "d": 4,
+   "a": "Cenaze namazının rükünleri dört tekbir ve kıyamdır; rükû ve secde yoktur.",
+   "ac": [
+    "Fâtiha okunmaz (Hanefî).",
+    "Niyet şart, selam vaciptir.",
+    "Cenaze namazında rükû ve secde yoktur.",
+    "Bunlar sünnettir.",
+    "Doğru."
+   ],
+   "kay": "Hanefî ilmihali: cenaze"
+  },
+  {
+   "id": "f4-06",
+   "z": 2,
+   "s": "Ankara’dan 450 km uzaklıktaki bir şehre gidip orada 10 gün kalmaya niyet eden ve öğle namazını mukim bir imama uyarak kılan Ahmet Bey öğle namazını kaç rekât kılmalıdır?",
+   "c": [
+    "3",
+    "2",
+    "4",
+    "Önce 2, sonra 2 rekât kaza",
+    "Dilerse 2 dilerse 4"
+   ],
+   "d": 2,
+   "a": "Ahmet Bey seferîdir; ancak mukim imama uyan seferî, imama tabi olarak dört rekât kılar.",
+   "ac": [
+    "Böyle bir sayı yoktur.",
+    "Tek başına kılsaydı iki kılardı.",
+    "Doğru.",
+    "Böyle bir uygulama yoktur.",
+    "Hanefîlerde seferîlik kasrı ruhsat değil azimettir; seçim yoktur."
+   ],
+   "kay": "Hanefî ilmihali: seferîlik"
+  },
+  {
+   "id": "f4-07",
+   "z": 2,
+   "s": "Hanefî mezhebine göre cuma namazının sahih olmasının (edâ) şartlarından biri değildir?",
+   "c": [
+    "Namazdan önce hutbe okunması",
+    "Öğle vaktinde kılınması",
+    "İmamdan başka en az üç kişilik cemaat",
+    "Kılınan yerin herkese açık olması",
+    "Namazı kılanın mukim olması"
+   ],
+   "d": 4,
+   "a": "Mukim olmak cumanın farz olmasının (vücûb) şartıdır. Seferî kişi cumaya katılırsa namazı geçerlidir.",
+   "ac": [
+    "Edâ şartıdır.",
+    "Edâ şartıdır.",
+    "Edâ şartıdır.",
+    "İzn-i âm edâ şartıdır.",
+    "Doğru: vücûb şartıdır."
+   ],
+   "kay": "Kâsânî, Bedâi’: cuma"
+  },
+  {
+   "id": "f4-09",
+   "z": 2,
+   "s": "Hanefî mezhebine göre bayram namazı ile ilgili hangisi yanlıştır?",
+   "c": [
+    "Her rekâtta üçer zevâid tekbiri alınır.",
+    "Vaciptir.",
+    "Hutbe namazdan önce okunur.",
+    "İki rekâttır.",
+    "Ezan ve kamet okunmaz."
+   ],
+   "d": 2,
+   "a": "Bayram namazında hutbe namazdan sonra okunur ve sünnettir. Hutbenin namazdan önce okunması cumaya özgüdür.",
+   "ac": [
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Yanlış: hutbe namazdan sonradır.",
+    "Doğru bilgi.",
+    "Doğru bilgi."
+   ],
+   "kay": "Buhârî, Îdeyn, 8"
+  },
+  {
+   "id": "f4-10",
+   "z": 2,
+   "s": "Hanefî mezhebine göre erkek için sünnet olan kefen kaç parçadır?",
+   "c": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "d": 2,
+   "a": "Erkek için kefen-i sünnet izar, kamîs ve lifâfeden oluşan üç parçadır; kadın için beş parçadır.",
+   "ac": [
+    "Kefen-i zarûret olabilir.",
+    "Erkeğin kefen-i kifâyesidir.",
+    "Doğru.",
+    "Böyle bir ölçü yoktur.",
+    "Kadının kefen-i sünnetidir."
+   ],
+   "kay": "Hanefî ilmihali: kefen"
+  },
+  {
+   "id": "f4-12",
+   "z": 3,
+   "s": "Seferî bir imam, mukim bir cemaate öğle namazını kıldırmıştır.\n\nBu durumla ilgili hangisi doğrudur?",
+   "c": [
+    "İmam iki rekâtta selam verir, cemaat kalan iki rekâtı tamamlar.",
+    "İmam dört rekât kılmak zorundadır.",
+    "Cemaat de iki rekâtta selam verir.",
+    "Mukimin seferîye uyması caiz değildir.",
+    "Cemaatin namazı bozulur, iade gerekir."
+   ],
+   "d": 0,
+   "a": "Seferî imam iki rekâtta selam verir; mukimler kalkıp iki rekâtı kıraatsiz olarak tamamlar. İmamın seferî olduğunu cemaate bildirmesi sünnettir.",
+   "ac": [
+    "Doğru.",
+    "Seferî imam iki kılar.",
+    "Mukimler dört kılmak zorundadır.",
+    "Caizdir.",
+    "Namaz bozulmaz."
+   ],
+   "kay": "Hanefî ilmihali: seferîlik"
+  },
+  {
+   "id": "f4-13",
+   "z": 3,
+   "s": "Bir kişi doğduğu Konya’dan Ankara’ya taşınmış ve orada evlenip yerleşmiştir. Tatilde 10 gün kalmak üzere Antalya’ya gitmiştir.\n\nKonya, Ankara ve Antalya bu kişi için sırasıyla hangi vatan çeşididir?",
+   "c": [
+    "Vatan-ı aslî – vatan-ı aslî – vatan-ı süknâ",
+    "Vatan-ı aslî – vatan-ı ikâmet – vatan-ı süknâ",
+    "Vatan-ı ikâmet – vatan-ı aslî – vatan-ı süknâ",
+    "Vatan değil – vatan-ı aslî – vatan-ı süknâ",
+    "Vatan-ı aslî – vatan-ı aslî – vatan-ı ikâmet"
+   ],
+   "d": 3,
+   "a": "Vatan-ı aslî, başka bir vatan-ı aslî edinilince bozulur. Kişi ailesini Konya’dan tamamen taşıdıysa Konya artık vatan-ı aslî değildir; Ankara vatan-ı aslîdir; 15 günden az kalınacak Antalya vatan-ı süknâdır.",
+   "ac": [
+    "Vatan-ı aslî yenisiyle bozulur; Konya’da ailesi ve evi kalmadıysa vatan değildir.",
+    "Ankara’da evlenip yerleştiği için orası vatan-ı aslîdir.",
+    "Konya vatan-ı ikâmet değildir.",
+    "Doğru.",
+    "Antalya’da 15 günden az kalacağı için vatan-ı süknâdır."
+   ],
+   "kay": "Kâsânî, Bedâi’: vatan çeşitleri"
+  },
+  {
+   "id": "f4-19",
+   "z": 2,
+   "s": "Hanefî mezhebine göre aşağıdakilerden hangisi cuma namazının farz olmasının (vücûb) şartlarından biri değildir?",
+   "c": [
+    "Erkek olmak",
+    "Hutbe okunması",
+    "Sağlıklı olmak",
+    "Hür olmak",
+    "Mukim olmak"
+   ],
+   "d": 1,
+   "a": "Vücûb şartları kişinin kendisiyle, edâ şartları ise namazın sıhhatiyle ilgilidir.",
+   "ac": [
+    "Vücûb şartıdır.",
+    "Hutbe cumanın edâ (sıhhat) şartıdır.",
+    "Vücûb şartıdır.",
+    "Vücûb şartıdır.",
+    "Vücûb şartıdır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f4-21",
+   "z": 2,
+   "s": "Cenaze namazında kaç tekbir alınır ve bu tekbirlerin hükmü nedir?",
+   "c": [
+    "Dört tekbir – sünnet",
+    "Üç tekbir – vacip",
+    "Beş tekbir – sünnet",
+    "Dört tekbir – her biri rükün",
+    "İki tekbir – farz"
+   ],
+   "d": 3,
+   "a": "Cenaze namazında rükû, secde ve kıraat (Fâtiha) yoktur; Hanefîlerde Fâtiha dua niyetiyle okunabilir.",
+   "ac": [
+    "Tekbirler rükündür.",
+    "Sayı yanlıştır.",
+    "Yanlıştır.",
+    "Cenaze namazının rükünleri dört tekbir ve kıyamdır.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "fq10-06",
+   "z": 3,
+   "s": "I. Ölünün yıkanması\nII. Cenaze namazının kılınması\nIII. Taziyede bulunulması\nIV. Ölünün defnedilmesi\n\nHanefî mezhebine göre yukarıdakilerden hangileri farz-ı kifâyedir?",
+   "c": [
+    "I ve II",
+    "I, II ve IV",
+    "II ve III",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Ölünün yıkanması, kefenlenmesi, namazının kılınması ve defnedilmesi farz-ı kifâyedir. Taziye ise sünnettir.",
+   "ac": [
+    "Defin de farz-ı kifâyedir.",
+    "Doğru.",
+    "Taziye sünnettir; yıkama ve defin eksiktir.",
+    "Taziye sünnettir.",
+    "Taziye sünnettir."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  }
+ ]
+}

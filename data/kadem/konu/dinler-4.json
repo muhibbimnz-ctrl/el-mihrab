@@ -1,0 +1,808 @@
+{
+ "id": "dinler-4",
+ "ad": "Budizm",
+ "ders": "Dinler Tarihi",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Buda’nın hayatı: Saraydan aydınlanmaya"
+  },
+  {
+   "merak": "Bir prens yirmi dokuz yıl boyunca sarayın dışına çıkarılmadı; babası onu acının her türlüsünden korumak istiyordu. Bir gün dışarı çıktığında ardı ardına bir ihtiyar, bir hasta, bir cenaze ve bir dilenci keşiş gördü. O gece sarayı, eşini ve yeni doğmuş oğlunu bırakıp yola çıktı."
+  },
+  "Budizm’in kurucusu Siddhartha Gautama, bugünkü Nepal sınırları içindeki Lumbini’de, Şakya kabilesinin yönetici ailesinde doğdu. Bu yüzden Şakyamuni (Şakyaların bilgesi) diye de anılır. Geleneksel kronolojiye göre MÖ 563-483 yılları arasında yaşamıştır; bazı araştırmacılar daha geç tarihler önerir. Babası Şuddhodana, oğlunun ya büyük bir hükümdar ya da büyük bir bilge olacağı kehanetini duyunca onu sarayda, her türlü sıkıntıdan uzak büyüttü. Siddhartha evlendi (eşi Yaşodhara) ve bir oğlu (Rahula) oldu.",
+  "Rivayete göre saray dışında gördüğü “dört manzara” (ihtiyar, hasta, ölü ve çileci keşiş) onu hayatın acıyla dolu olduğu gerçeğiyle yüz yüze getirdi. 29 yaşında saraydan ayrıldı; buna “büyük vazgeçiş” denir. Altı yıl boyunca dönemin çileci hocalarının yanında ağır riyazet yaptı, neredeyse açlıktan ölecek hâle geldi; fakat aşırı çileciliğin de hakikate götürmediğini anladı. Saray hayatının zevk düşkünlüğü ile çileciliğin aşırılığı arasında bir orta yol tuttu. 35 yaşında Bodh Gaya’da bir incir ağacının (Bodhi ağacı, aydınlanma ağacı) altında derin bir meditasyonla aydınlandı ve Buda (uyanmış, aydınlanmış) unvanını aldı.",
+  "Aydınlanmadan sonra Benares yakınındaki Sarnath’ta, geyik parkında, daha önce birlikte çile çektiği beş keşişe ilk vaazını verdi. Bu vaaz “dharma (kanun) çarkını döndürme” olarak bilinir; bu yüzden sekiz kollu tekerlek (dharmaçakra) Budizm’in sembolü olmuştur. Buda yaklaşık 45 yıl boyunca Kuzey Hindistan’da öğretisini yaydı, keşişler topluluğu Sangha’yı kurdu ve 80 yaşında Kuşinagara’da vefat etti. Ölümüyle tam ve son kurtuluşa, parinirvanaya ulaştığına inanılır.",
+  {
+   "tablo": [
+    [
+     "Kutsal mekân",
+     "Olay"
+    ],
+    [
+     "Lumbini (Nepal)",
+     "Buda’nın doğumu"
+    ],
+    [
+     "Bodh Gaya (Bihar)",
+     "Bodhi ağacı altında aydınlanma"
+    ],
+    [
+     "Sarnath (Benares yakını)",
+     "İlk vaaz: dharma çarkını döndürme"
+    ],
+    [
+     "Kuşinagara (Uttar Pradeş)",
+     "Ölüm ve parinirvana"
+    ]
+   ]
+  },
+  {
+   "sinav": "Dört kutsal mekân eşleştirmesi sık çıkar: doğum Lumbini, aydınlanma Bodh Gaya, ilk vaaz Sarnath (Benares), ölüm Kuşinagara. Tuzak: aydınlanmayı Sarnath’a, ilk vaazı Bodh Gaya’ya vermek. “Buda” bir isim değil, “aydınlanmış” anlamında unvandır."
+  },
+  {
+   "akil": "Siddhartha Gautama (Şakyamuni), Lumbini’de doğdu; dört manzara → 29 yaşında vazgeçiş → 6 yıl çile → orta yol → 35 yaşında Bodh Gaya’da aydınlanma → Sarnath’ta ilk vaaz → 80 yaşında Kuşinagara’da parinirvana."
+  },
+  {
+   "b": "2. Dört Yüce Gerçek ve Sekiz Dilimli Yol"
+  },
+  {
+   "merak": "Buda kendini bir hekime benzetirdi: Önce hastalığı teşhis et, sonra sebebini bul, iyileşmenin mümkün olduğunu göster, en sonunda tedaviyi yaz. Dört Yüce Gerçek tam olarak bu sırayla ilerler."
+  },
+  "Budizm’in özü, Buda’nın ilk vaazında açıkladığı Dört Yüce (Kutsal, Asil) Gerçek’tir. Bunlar hayatın teşhisini ve tedavisini birlikte verir.",
+  {
+   "tablo": [
+    [
+     "Gerçek",
+     "Pali adı",
+     "İçerik"
+    ],
+    [
+     "1. Acı gerçeği",
+     "Dukkha",
+     "Hayat acı ve ıstırapla doludur: doğum, yaşlılık, hastalık, ölüm, sevilenden ayrılmak, istenmeyene katlanmak"
+    ],
+    [
+     "2. Acının kaynağı",
+     "Samudaya",
+     "Acının sebebi arzu, susuzluk ve bağlanmadır (tanha)"
+    ],
+    [
+     "3. Acının sona ermesi",
+     "Nirodha",
+     "Arzu söndürülürse acı da sona erer; bu sönme hâli nirvanadır"
+    ],
+    [
+     "4. Acıyı sona erdiren yol",
+     "Magga",
+     "Acıdan kurtuluşun yolu Sekiz Dilimli Yol’dur"
+    ]
+   ]
+  },
+  "Sekiz Dilimli Yol, iki aşırılık arasında “orta yol”dur ve üç başlık altında toplanır: bilgelik (prajna), ahlak (sila) ve zihin disiplini (samadhi).",
+  {
+   "tablo": [
+    [
+     "Grup",
+     "Dilim"
+    ],
+    [
+     "Bilgelik (prajna)",
+     "1. Doğru görüş (anlayış)"
+    ],
+    [
+     "Bilgelik (prajna)",
+     "2. Doğru niyet (düşünce, amaç)"
+    ],
+    [
+     "Ahlak (sila)",
+     "3. Doğru söz"
+    ],
+    [
+     "Ahlak (sila)",
+     "4. Doğru eylem (davranış)"
+    ],
+    [
+     "Ahlak (sila)",
+     "5. Doğru geçim (meslek)"
+    ],
+    [
+     "Zihin disiplini (samadhi)",
+     "6. Doğru çaba"
+    ],
+    [
+     "Zihin disiplini (samadhi)",
+     "7. Doğru farkındalık (dikkat)"
+    ],
+    [
+     "Zihin disiplini (samadhi)",
+     "8. Doğru konsantrasyon (meditasyon)"
+    ]
+   ]
+  },
+  "Nirvana kelimesi “sönme, üflenip söndürülme” anlamına gelir: Arzu, nefret ve bilgisizlik ateşlerinin sönmesi, dolayısıyla samsaradan kurtuluş. Nirvana bir mekân ya da cennet değil, bir varoluş hâlidir; hayattayken ulaşılabilir. Ölümle ulaşılan tam kurtuluşa parinirvana denir. Hinduizm’deki mokşada bireysel ruh (Atman) Brahman’la birleşirken, Budizm’de kalıcı bir ruh kabul edilmediği için nirvana, ruhun bir şeyle birleşmesi değil, bütün bağların sönmesidir.",
+  {
+   "sinav": "“Dört yüce gerçekte hangisi yoktur?” sorusunda yanlış şık, kurtuluşu yaratıcı bir tanrıya ibadete bağlayan ya da Hindu kavramı (mokşa, Atman) içeren ifadedir. Sekiz dilimli yol Budizm’e aittir; Zerdüştlük ya da Caynizm şıkkında verilirse yanlıştır. Caynizm’in “üç mücevheri” (doğru inanç, bilgi, davranış) ile karıştırma."
+  },
+  {
+   "akil": "Dört Yüce Gerçek: acı (dukkha) – sebebi arzu (tanha) – arzu sönerse acı biter (nirodha) – yol sekiz dilimli yoldur (magga). Sekiz dilim: görüş, niyet, söz, eylem, geçim, çaba, farkındalık, konsantrasyon. Nirvana = sönme."
+  },
+  {
+   "b": "3. Varoluşun üç niteliği, karma ve tanrı meselesi"
+  },
+  {
+   "merak": "Bir arabayı tekerleklerine, dingiline, gövdesine ayırırsanız “araba” denen şey nerede kalır? Budist bilge Nagasena, kral Milinda’ya “ben” denen şeyin de böyle parçaların geçici bir birleşimi olduğunu anlatır."
+  },
+  "Budizm’e göre bütün şartlı varlıkların üç niteliği (tilakkhana) vardır. Anicca (geçicilik): Hiçbir şey kalıcı değildir, her şey sürekli değişir. Dukkha (acı, tatminsizlik): Geçici olana bağlanmak acı doğurur. Anatta (ben-yokluğu, ruhsuzluk): İnsanda kalıcı, değişmez bir ruh ya da öz yoktur; “ben” dediğimiz şey beş öbeğin (skandha: beden, his, algı, zihinsel oluşumlar, bilinç) geçici bir birleşimidir. Anatta öğretisi Budizm’i Hinduizm’in Atman anlayışından ayıran en temel noktadır.",
+  "Kalıcı bir ruh kabul etmediği hâlde Budizm karma ve yeniden doğuşu kabul eder; yeniden doğan şey bir ruh değil, karmanın sürdürdüğü bir süreçtir, tıpkı bir mumdan diğerine geçen alev gibi. Her şeyin birbirine bağlı sebeplerle var olduğu öğretisine bağımlı oluş (pratitya samutpada, şartlı ortaya çıkış) denir; on iki halkalı bu zincir bilgisizlikle başlar ve yaşlılık-ölümle biter.",
+  "Buda yaratıcı bir tanrının varlığını reddettiğine dair açık bir söz söylememiştir; fakat dikkatini tanrı tartışmasına değil, acıdan kurtuluşa vermiştir. Ona göre bu tür metafizik sorular (âlem ezelî mi, ölümden sonra aydınlanmış kişi var mı?) kurtuluşa yaramadığı için cevapsız bırakılmalıdır; zehirli okla vurulan adamın oku atanın kim olduğunu öğrenmeden okun çıkarılmasına izin vermemesi benzetmesi bu tutumu anlatır. Bu sessizlik sebebiyle Budizm bazılarınca “ateist” ya da “nonteist” bir din olarak nitelenmiştir. Buda, Hinduizm’in çok tanrıcılığına, Vedaların otoritesine, Brahmanların ayrıcalığına, kanlı kurbanlara ve kast sistemine karşı çıktı; Sangha’ya her kasttan insanı kabul etti. Ancak ölümünden sonra, özellikle Mahayana’da, Buda yüceltilmiş, tanrılaştırılmış ve heykelleri önünde ibadet edilmeye başlanmıştır.",
+  {
+   "tablo": [
+    [
+     "Karşılaştırma",
+     "Hinduizm",
+     "Budizm"
+    ],
+    [
+     "Kalıcı ruh",
+     "Atman vardır ve Brahman’la özde birdir",
+     "Anatta: kalıcı ruh yoktur"
+    ],
+    [
+     "Kurtuluş",
+     "Mokşa: Atman’ın Brahman’la birliği",
+     "Nirvana: arzuların sönmesi"
+    ],
+    [
+     "Vedalar",
+     "Otoritedir",
+     "Otoritesi reddedilir"
+    ],
+    [
+     "Kast",
+     "Dinî temelli",
+     "Reddedilir"
+    ],
+    [
+     "Kanlı kurban",
+     "Erken dönemde merkezî",
+     "Reddedilir"
+    ],
+    [
+     "Ortak kavramlar",
+     "Samsara, karma, dharma",
+     "Samsara, karma, dharma (Buda’nın öğretisi anlamında)"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Budizm ile Hinduizm’in ortak kavramı” sorusunda samsara ve karma doğrudur; Atman, kast ve Vedaların otoritesi Budizm’de reddedilir. Anatta (ruhsuzluk) en çok sorulan farktır. “Buda tanrıyı açıkça inkâr etmiştir” ifadesi kaynaklara göre yanlıştır; o, sessiz kalmıştır."
+  },
+  {
+   "akil": "Üç nitelik: anicca (geçicilik), dukkha (acı), anatta (ruh yokluğu). Kalıcı ruh yok ama karma ve yeniden doğuş var. Buda tanrı konusunda sessiz kaldı; Vedaları, kastı, kanlı kurbanı reddetti. Sonradan Mahayana’da tanrılaştırıldı."
+  },
+  {
+   "b": "4. Üç Mücevher, Sangha ve ahlak ilkeleri"
+  },
+  {
+   "merak": "Bir Budist ibadete heykelin önünde diz çöküp şu cümleyle başlar: “Buda’ya sığınırım, Dharma’ya sığınırım, Sangha’ya sığınırım.” Bu üç sığınak, Budist olmanın asgari tanımıdır."
+  },
+  "Budizm’de Buda (aydınlanmış öğretmen), Dharma (onun öğretisi, kurtuluş yasası) ve Sangha (keşişler topluluğu) “Üç Mücevher” (triratna) ya da “Üç Sığınak” olarak anılır. Bu üçüne sığınmak Budist olmanın ifadesidir.",
+  "Sangha, Buda’nın kurduğu ve ölümünden sonra öğretisini koruyup yayan keşiş teşkilatıdır. Keşişlere bhikkhu, kadın keşişlere (rahibelere) bhikkhuni, keşiş olmayan sıradan müminlere upasaka (erkek) ve upasika (kadın) denir. Keşişler başlarını tıraş eder, sarı-turuncu ya da bordo cüppe giyer, bekâr yaşar, sadaka kâsesiyle yiyecek toplar ve öğleden sonra yemek yemezler. Theravada keşişleri Vinaya’daki 227 kurala uyar. Halk keşişlere yiyecek ve hediye vererek sevap (iyi karma) kazanır.",
+  {
+   "tablo": [
+    [
+     "Beş ahlak ilkesi (pançasila) – herkes için",
+     "Keşişler için ek ilkelerden bazıları"
+    ],
+    [
+     "Canlı öldürmemek",
+     "Öğleden sonra yemek yememek"
+    ],
+    [
+     "Verilmeyeni almamak (çalmamak)",
+     "Dans, müzik ve eğlenceden uzak durmak"
+    ],
+    [
+     "Yasak cinsel ilişkiden (zinadan) kaçınmak",
+     "Süs, koku ve takı kullanmamak"
+    ],
+    [
+     "Yalan söylememek",
+     "Yüksek ve rahat yataklarda yatmamak"
+    ],
+    [
+     "Sarhoş edici içki ve madde kullanmamak",
+     "Altın ve gümüş (para) kabul etmemek"
+    ]
+   ]
+  },
+  "Budist ahlakın merkezinde sevgi (metta), merhamet (karuna), başkasının sevincine sevinme (mudita) ve soğukkanlılık-denge (upekkha) gibi erdemler yer alır. Bunlara “dört ölçüsüz hâl” denir. Hiçbir canlıya zarar vermeme (ahimsa) ilkesi Budizm’de de önemlidir; ama Caynizm’deki kadar katı değildir.",
+  {
+   "sinav": "Üç Mücevher = Buda, Dharma, Sangha. “Sangha” keşişler topluluğudur, ibadet yeri değildir. Beş ahlak ilkesinde çalmamak ve zina yapmamak açıkça yer alır; kaynak kitap bunu özellikle belirtir. Caynizm’in beş yemininde ise “sarhoş edici içmemek” yerine “mülk edinmemek (az mal ile yetinmek)” vardır."
+  },
+  {
+   "akil": "Üç Mücevher: Buda, Dharma, Sangha. Sangha: bhikkhu, bhikkhuni; halk upasaka. Beş ilke: öldürmemek, çalmamak, zina etmemek, yalan söylememek, sarhoş edici kullanmamak. Erdemler: metta, karuna, mudita, upekkha."
+  },
+  {
+   "b": "5. Kutsal metinler ve konsiller"
+  },
+  {
+   "merak": "Buda hiçbir şey yazmadı. Öğretisi yüzyıllarca keşişlerin hafızasında, toplu ezberleme ve okuma meclislerinde yaşadı. Yazıya geçirilmesi ise yaklaşık dört yüz yıl sonra, Sri Lanka’da oldu."
+  },
+  "Theravada Budizminin kutsal metinleri Pali dilinde yazılmış olan Tripitaka (Pali’de Tipitaka, “üç sepet”) adlı külliyattır. Pali Kanonu da denen bu metinler MÖ 1. yüzyılda Sri Lanka’da yazıya geçirilmiştir.",
+  {
+   "tablo": [
+    [
+     "Sepet (pitaka)",
+     "İçerik"
+    ],
+    [
+     "Vinaya Pitaka",
+     "Sangha’nın ve keşişlerin uyacağı disiplin kuralları"
+    ],
+    [
+     "Sutta (Sutra) Pitaka",
+     "Buda’nın ve önde gelen öğrencilerinin vaazları; meşhur Dhammapada bu bölümdedir"
+    ],
+    [
+     "Abhidhamma Pitaka",
+     "Budist felsefe ve psikolojinin sistemli açıklaması"
+    ]
+   ]
+  },
+  "Mahayana Budizmi bunlara ek olarak Sanskritçe yazılmış çok sayıda sutrayı kutsal kabul eder: Lotus Sutrası (Saddharma Pundarika), Kalp Sutrası, Elmas Sutrası, Saf Toprak sutraları bunların en meşhurlarıdır. Tibet Budizminin kanonu Kangyur (Buda’nın sözleri) ve Tengyur (şerhler) olmak üzere iki bölümden oluşur. Ayrıca ölümle yeniden doğum arasındaki ara hâli (bardo) anlatan Tibet Ölüler Kitabı (Bardo Thödol) bu geleneğe aittir.",
+  "Buda’nın ölümünden sonra öğretiyi korumak ve anlaşmazlıkları çözmek için konsiller toplandı. Birinci Konsil Buda’nın ölümünden hemen sonra Rajagriha’da toplandı; Vinaya ve Sutta burada ezberden okunarak tespit edildi. Yaklaşık yüz yıl sonra Vaişali’de toplanan İkinci Konsil’de keşiş disiplini konusunda anlaşmazlık çıktı ve topluluk Mahasanghika (büyük topluluk) ile Sthavira (yaşlılar) gruplarına ayrıldı; bu bölünme, ileride Mahayana-Theravada ayrımına zemin hazırladı. Üçüncü Konsil MÖ 3. yüzyılda İmparator Aşoka döneminde Pataliputra’da toplandı ve misyonerler başka ülkelere gönderildi.",
+  {
+   "kontrol": "Dördüncü Konsil’in yeri ve tarihi geleneklere göre farklıdır: Theravada geleneği Pali Kanonu’nun MÖ 1. yüzyılda Sri Lanka’da yazıya geçirilmesini, kuzey geleneği ise Kuşan hükümdarı Kaniska döneminde (MS 1-2. yy) Keşmir’de toplanan meclisi dördüncü konsil sayar."
+  },
+  {
+   "sinav": "Tripitaka sorularında bölüm-içerik eşleştirmesi sık çıkar: Vinaya = disiplin kuralları; Sutta = vaazlar; Abhidhamma = felsefe. Dil Pali’dir; Vedaların dili Sanskritçe, Avesta’nın dili Avestacadır. Tripitaka’yı Caynizm’in Agamaları ya da Sihizm’in Adi Granth’ıyla karıştırma."
+  },
+  {
+   "akil": "Tripitaka (Pali, üç sepet): Vinaya (kurallar), Sutta (vaazlar, Dhammapada), Abhidhamma (felsefe); MÖ 1. yy’da Sri Lanka’da yazıya geçirildi. Mahayana: Lotus, Kalp, Elmas sutraları. Konsiller: Rajagriha, Vaişali (ilk bölünme), Pataliputra (Aşoka)."
+  },
+  {
+   "b": "6. Mezhepler: Theravada, Mahayana, Vajrayana"
+  },
+  {
+   "merak": "Theravada keşişi “Kurtuluş için her insan kendi yolunu kendisi yürür” der. Mahayana keşişi ise şöyle yemin eder: “Sayısız canlı var; hepsini kurtarmaya and içerim.” İkisi de aynı Buda’ya bağlıdır."
+  },
+  "Budizm üç büyük kola ayrılır. Theravada (Yaşlıların Yolu), Buda’nın öğretisinin en eski biçimini koruduğunu savunur. Mahayana mensupları ona küçümseyici bir ifadeyle Hinayana (küçük araç) demiştir; çünkü bu yolda kurtuluş daha çok keşişlere açıktır. Mahayana (büyük araç) ise kurtuluşu herkese açar ve merhameti öne çıkarır. Vajrayana (elmas araç) Mahayana’dan gelişen, tantrik ritüellere dayanan Tibet Budizmidir.",
+  {
+   "tablo": [
+    [
+     "Özellik",
+     "Theravada (Hinayana)",
+     "Mahayana",
+     "Vajrayana (Tibet, Lamaizm)"
+    ],
+    [
+     "Anlamı",
+     "Yaşlıların yolu / küçük araç",
+     "Büyük araç",
+     "Elmas (yıldırım) araç"
+    ],
+    [
+     "Yayıldığı yer",
+     "Sri Lanka, Myanmar, Tayland, Laos, Kamboçya",
+     "Çin, Kore, Japonya, Vietnam",
+     "Tibet, Moğolistan, Butan"
+    ],
+    [
+     "Kutsal dil",
+     "Pali",
+     "Sanskrit (ve Çince tercümeler)",
+     "Tibetçe"
+    ],
+    [
+     "İdeal insan",
+     "Arhat (kendi kurtuluşuna ulaşmış aziz)",
+     "Bodhisattva (başkaları kurtulana kadar nirvanasını erteleyen)",
+     "Bodhisattva; lama (manevi öğretmen)"
+    ],
+    [
+     "Buda anlayışı",
+     "Tarihî bir insan, öğretmen",
+     "Ezelî, kozmik, tanrısal varlık; çok sayıda Buda",
+     "Mahayana anlayışı + tantrik unsurlar"
+    ],
+    [
+     "Kurtuluş",
+     "Bireysel çaba, keşişlik",
+     "Herkese açık; Buda ve bodhisattvaların yardımı",
+     "Ritüel, mantra, mandala ile hızlı yol"
+    ]
+   ]
+  },
+  "Mahayana içinde de farklı okullar doğmuştur. Saf Toprak (Pure Land; Japonya’da Jodo) okulu, Amitabha (Amida) Buda’nın adını iman ve teslimiyetle anmakla onun “Batı cenneti”nde yeniden doğulacağını öğretir. Zen (Çin’de Çan) okulu, geleneğe göre Bodhidharma tarafından Çin’e getirilmiştir; metinden çok oturarak meditasyona (zazen) ve aklı aşan bilmece sorulara (koan) dayanır, ani aydınlanmayı (satori) hedefler. Japonya’da Nichiren okulu Lotus Sutrası’nın adının okunmasını esas alır.",
+  "Tibet Budizminin başında Dalai Lama bulunur. Dalai Lama’nın, merhamet bodhisattvası Avalokiteşvara’nın yeryüzündeki bedenlenmesi olduğuna ve her ölümden sonra yeniden doğduğuna inanılır; yeni Dalai Lama çocuklar arasından bulunarak seçilir. Tibet Budizminde “Om mani padme hum” mantrası, dua çarkları ve evreni simgeleyen mandala resimleri önemli yer tutar. Bütün Budist kollar gelecekte gelecek olan Buda Maitreya’yı (Metteyya) bekler.",
+  {
+   "sinav": "İdeal insan karşılaştırması en çok sorulan noktadır: arhat → Theravada; bodhisattva → Mahayana. “Buda’nın tanrılaştırılması” Mahayana’nın özelliğidir. Zen → Mahayana içinde, meditasyon ve koan; Saf Toprak → Amitabha; Dalai Lama → Vajrayana/Tibet. Budizm’de beklenen kurtarıcı Maitreya’dır."
+  },
+  {
+   "akil": "Theravada: Pali, arhat, Buda insan, Güneydoğu Asya. Mahayana: Sanskrit, bodhisattva, Buda tanrısal, Doğu Asya; okulları Zen, Saf Toprak, Nichiren. Vajrayana: Tibet, Dalai Lama, mantra-mandala. Gelecek Buda: Maitreya."
+  },
+  {
+   "b": "7. Yayılma, ibadet, kutsal yapılar ve bayramlar"
+  },
+  {
+   "merak": "Kalinga savaşında yüz binlerce insanın öldüğünü gören Hint imparatoru Aşoka derin bir pişmanlığa düştü. Kılıçla fethi bıraktı, “dharma ile fetih” ilan etti ve imparatorluğunun dört bir yanına Budist ahlak öğütleri yazılı sütunlar dikti."
+  },
+  "Budizm’in bir Hint mezhebi olmaktan çıkıp dünya dinine dönüşmesinde Maurya imparatoru Aşoka’nın (MÖ 3. yüzyıl) rolü büyüktür. Aşoka misyonerler gönderdi; oğlu Mahinda Budizmi Sri Lanka’ya götürdü. Kuşan hükümdarı Kaniska döneminde Budizm Orta Asya’ya, İpek Yolu üzerinden MS 1. yüzyılda Çin’e, oradan Kore ve Japonya’ya ulaştı. Tibet’e 7. yüzyılda girdi. Göktürkler ve özellikle Uygurlar arasında da yayıldı; Afganistan’daki Bamiyan Buda heykelleri bu dönemin büyük eserlerindendir. Doğduğu Hindistan’da ise Hinduizm’in Budizmi kendi içine alması (Buda bazen Vişnu’nun avatarı sayılır) ve 12. yüzyılda Nalanda gibi büyük manastır merkezlerinin yıkılmasıyla zayıfladı. 20. yüzyılda Ambedkar önderliğinde kast dışılar arasında yeniden canlandı (Neo-Budizm).",
+  "Budist ibadeti, tapınaklarda, evlerde ve iş yerlerinde bulunan Buda heykelleri önünde diz çöküp “Buda’ya, Dharma’ya ve Sangha’ya sığınırım” ifadesiyle başlar; heykel önüne çiçek, mum, tütsü ve yiyecek sunulur. Meditasyon Budist hayatın merkezindedir: zihni sakinleştiren samatha ve içgörü kazandıran vipassana meditasyonu en bilinenleridir. Budizm kanlı kurbana karşıdır. Oruç, kaynak kitaplarda belirtildiği gibi, belli yiyeceklerden kaçınma şeklinde bir perhizdir ve daha çok keşişleri ilgilendirir.",
+  {
+   "tablo": [
+    [
+     "Yapı / kavram",
+     "Anlamı"
+    ],
+    [
+     "Vihara",
+     "Keşişlerin kaldığı manastır ve ibadet mekânı"
+    ],
+    [
+     "Stupa",
+     "Buda’ya ya da azizlere ait kalıntıların saklandığı kubbeli anıt yapı"
+    ],
+    [
+     "Pagoda",
+     "Buda heykelinin bulunduğu çok katlı kule biçimli tapınak (Doğu Asya)"
+    ],
+    [
+     "Çaitya",
+     "Kaya oyma ibadet salonu"
+    ],
+    [
+     "Dharmaçakra",
+     "Sekiz kollu öğreti tekerleği; Budizm’in sembolü"
+    ],
+    [
+     "Lotus",
+     "Çamurdan çıkıp temiz açan çiçek; saflık ve aydınlanmanın sembolü"
+    ],
+    [
+     "Vesak (Vesakha)",
+     "Mayıs dolunayında Buda’nın doğumu, aydınlanması ve ölümünün birlikte anıldığı en büyük bayram"
+    ]
+   ]
+  },
+  {
+   "sinav": "İbadet yeri eşleştirmesinde: vihara ve pagoda Budizm; stupa kalıntı anıtı; gurudvara Sihizm; jinja (jinsa) Şinto; aşram/mandir Hinduizm. Aşoka eşleşmesi: Maurya, MÖ 3. yy, Kalinga, ferman sütunları, Sri Lanka’ya misyon. Vesak üç olayı birlikte anar."
+  },
+  {
+   "akil": "Aşoka Budizmi yaydı (MÖ 3. yy); Kaniska ve İpek Yolu ile Orta Asya-Çin; Hindistan’da zayıfladı, Ambedkar ile canlandı. İbadet: heykel önünde üç sığınak; meditasyon. Yapılar: vihara, stupa, pagoda. Bayram: Vesak. Sembol: tekerlek ve lotus."
+  }
+ ],
+ "ozet": [
+  "Kurucu Siddhartha Gautama (Şakyamuni), Lumbini’de doğdu; Buda “aydınlanmış” demektir.",
+  "Dört manzara → 29 yaşında büyük vazgeçiş → 6 yıl çile → orta yol → 35 yaşında Bodh Gaya’da Bodhi ağacı altında aydınlanma.",
+  "İlk vaaz Sarnath’ta (Benares) beş keşişe: “dharma çarkını döndürme”; sembol tekerlek. Ölüm Kuşinagara’da, 80 yaşında (parinirvana).",
+  "Dört Yüce Gerçek: hayat acıdır (dukkha); sebebi arzudur (tanha); arzu sönerse acı biter (nirodha); yol sekiz dilimli yoldur (magga).",
+  "Sekiz dilimli yol: doğru görüş, niyet, söz, eylem, geçim, çaba, farkındalık, konsantrasyon (bilgelik-ahlak-meditasyon).",
+  "Nirvana “sönme”: arzu, nefret ve bilgisizliğin sönmesiyle samsaradan kurtuluş.",
+  "Üç nitelik: anicca (geçicilik), dukkha (acı), anatta (kalıcı ruh yokluğu) – Hinduizm’in Atman’ından ayrılan nokta.",
+  "Buda tanrı konusunda sessiz kaldı; Vedaları, kastı, kanlı kurbanı reddetti; Mahayana’da sonradan tanrılaştırıldı.",
+  "Üç Mücevher (sığınak): Buda, Dharma, Sangha. Sangha keşişler topluluğu: bhikkhu, bhikkhuni; halk upasaka.",
+  "Beş ahlak ilkesi: öldürmemek, çalmamak, zina etmemek, yalan söylememek, sarhoş edici kullanmamak.",
+  "Tripitaka (Pali, üç sepet): Vinaya (disiplin), Sutta (vaazlar; Dhammapada), Abhidhamma (felsefe); MÖ 1. yy Sri Lanka’da yazıya geçti.",
+  "Konsiller: Rajagriha (ilk), Vaişali (ilk bölünme), Pataliputra (Aşoka).",
+  "Theravada: Pali, arhat, Buda insan, Sri Lanka-Tayland-Myanmar. Mahayana: Sanskrit, bodhisattva, Buda tanrısal, Çin-Japonya-Kore.",
+  "Mahayana okulları: Zen (meditasyon, koan, Bodhidharma), Saf Toprak (Amitabha), Nichiren (Lotus Sutrası).",
+  "Vajrayana: Tibet, Dalai Lama (Avalokiteşvara’nın bedenlenmesi), mantra, mandala; Tibet Ölüler Kitabı. Gelecek Buda: Maitreya.",
+  "Aşoka (Maurya, MÖ 3. yy) Budizmi yaydı. Yapılar: vihara, stupa, pagoda. En büyük bayram Vesak."
+ ],
+ "kartlar": [
+  {
+   "o": "Buda’nın dört kutsal mekânı",
+   "a": "Doğum Lumbini; aydınlanma Bodh Gaya; ilk vaaz Sarnath; ölüm Kuşinagara."
+  },
+  {
+   "o": "Dört Yüce Gerçek",
+   "a": "Dukkha (acı), samudaya (sebebi arzu), nirodha (sona erme), magga (sekiz dilimli yol)."
+  },
+  {
+   "o": "Tanha",
+   "a": "Arzu, susuzluk, bağlanma; acının kaynağı."
+  },
+  {
+   "o": "Nirvana",
+   "a": "“Sönme”; arzu, nefret ve bilgisizliğin sönmesiyle samsaradan kurtuluş."
+  },
+  {
+   "o": "Anatta",
+   "a": "Kalıcı bir ruh ya da benlik olmadığı öğretisi; Hindu Atman anlayışının reddi."
+  },
+  {
+   "o": "Anicca – Dukkha – Anatta",
+   "a": "Varoluşun üç niteliği: geçicilik, acı, ben-yokluğu."
+  },
+  {
+   "o": "Üç Mücevher",
+   "a": "Buda, Dharma, Sangha."
+  },
+  {
+   "o": "Sangha",
+   "a": "Buda’nın kurduğu keşişler topluluğu."
+  },
+  {
+   "o": "Tripitaka",
+   "a": "Pali dilindeki üç sepet: Vinaya (kurallar), Sutta (vaazlar), Abhidhamma (felsefe)."
+  },
+  {
+   "o": "Karıştırma: Arhat – Bodhisattva",
+   "a": "Arhat: kendi kurtuluşuna ulaşmış Theravada azizi. Bodhisattva: başkaları için nirvanasını erteleyen Mahayana ideali."
+  },
+  {
+   "o": "Zen",
+   "a": "Mahayana okulu; meditasyon (zazen), koan, ani aydınlanma (satori); Bodhidharma."
+  },
+  {
+   "o": "Saf Toprak (Jodo)",
+   "a": "Amitabha (Amida) Buda’nın adını iman ve teslimiyetle anmaya dayanan Mahayana okulu."
+  },
+  {
+   "o": "Dalai Lama",
+   "a": "Tibet Budizminin lideri; Avalokiteşvara’nın bedenlenmesi sayılır."
+  },
+  {
+   "o": "Maitreya",
+   "a": "Budizm’de gelecekte gelmesi beklenen Buda."
+  },
+  {
+   "o": "Aşoka",
+   "a": "Maurya imparatoru (MÖ 3. yy); Kalinga savaşından sonra Budist oldu, ferman sütunları, misyonerler."
+  },
+  {
+   "o": "Vihara – Stupa – Pagoda",
+   "a": "Manastır – kalıntı anıtı – heykelli kule tapınak."
+  },
+  {
+   "o": "Vesak",
+   "a": "Buda’nın doğumu, aydınlanması ve ölümünün birlikte anıldığı bayram."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "d2-08",
+   "z": 2,
+   "s": "Buda’nın ilk vaazında açıkladığı ve Budizm’in özünü oluşturan “dört yüce gerçek” arasında aşağıdakilerden hangisi yer almaz?",
+   "c": [
+    "Bireysel ruh mutlak gerçeklikle birleşince acı sona erer.",
+    "Acının kaynağı arzu ve bağlanmadır.",
+    "Arzu söndürülürse acı da sona erer.",
+    "Acıdan kurtuluşun yolu sekiz dilimli yoldur.",
+    "Hayat acı ve ıstırapla doludur."
+   ],
+   "d": 0,
+   "a": "Dört yüce gerçek acı, acının kaynağı, acının sona ermesi ve yol gerçekleridir. Bireysel ruhun (Atman) mutlak gerçeklikle (Brahman) birleşmesi Hindu mokşa anlayışıdır; Budizm kalıcı ruhu kabul etmez (anatta).",
+   "ac": [
+    "Yer almaz: Atman-Brahman birliği Upanişad öğretisidir.",
+    "İkinci gerçektir (samudaya).",
+    "Üçüncü gerçektir (nirodha).",
+    "Dördüncü gerçektir (magga).",
+    "Birinci gerçektir (dukkha)."
+   ],
+   "kay": "Konu: Dört Yüce Gerçek"
+  },
+  {
+   "id": "dn4-01",
+   "z": 3,
+   "s": "Bir prens, saray dışında karşılaştığı dört manzaradan etkilenerek ailesini terk etmiş; altı yıl ağır çile hayatı yaşadıktan sonra bunun da hakikate götürmediğini görüp iki aşırılık arasında bir yol tutmuş ve bir ağacın altında aydınlanmıştır. Ardından eski çile arkadaşlarına ilk vaazını vermiştir.\n\nBu anlatıda geçen aydınlanma yeri ve ilk vaazın verildiği yer sırasıyla aşağıdakilerden hangisidir?",
+   "c": [
+    "Lumbini – Kuşinagara",
+    "Sarnath – Bodh Gaya",
+    "Bodh Gaya – Sarnath",
+    "Kuşinagara – Benares",
+    "Bodh Gaya – Lumbini"
+   ],
+   "d": 2,
+   "a": "Buda Bodh Gaya’da Bodhi ağacı altında aydınlanmış, Benares yakınındaki Sarnath’ta ilk vaazını vermiştir.",
+   "ac": [
+    "Lumbini doğum, Kuşinagara ölüm yeridir.",
+    "Sıralama terstir.",
+    "Doğru: aydınlanma Bodh Gaya, ilk vaaz Sarnath.",
+    "Kuşinagara ölüm yeridir.",
+    "Lumbini doğum yeridir."
+   ],
+   "kay": "Konu: Buda’nın hayatı"
+  },
+  {
+   "id": "dn4-02",
+   "z": 3,
+   "s": "Budizm ile ilgili\nI. İnsanda kalıcı ve değişmez bir ruhun bulunmadığını öğretir.\nII. Kalıcı ruhu reddettiği için yeniden doğuş inancını da reddeder.\nIII. Vedaların otoritesini ve kast sistemini kabul etmez.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Budizm anatta öğretisiyle kalıcı ruhu reddeder; ama karma ve yeniden doğuşu kabul eder. Vedaları ve kastı reddeder.",
+   "ac": [
+    "III. ifade de doğrudur.",
+    "II. ifade yanlıştır; Budizm yeniden doğuşu kabul eder.",
+    "Doğru: I ve III doğrudur.",
+    "II yanlış olduğundan bu seçenek geçersizdir.",
+    "II’nin yanlışlığı bu seçeneği dışarıda bırakır."
+   ],
+   "kay": "Konu: Anatta ve yeniden doğuş"
+  },
+  {
+   "id": "dn4-03",
+   "z": 2,
+   "s": "Pali dilindeki Budist kutsal metin külliyatının bölümleri ile içerikleri aşağıdakilerin hangisinde doğru eşleştirilmiştir?",
+   "c": [
+    "Vinaya – Buda’nın vaazları",
+    "Sutta – Sangha’nın disiplin kuralları",
+    "Sutta – Tibet Ölüler Kitabı",
+    "Vinaya – Budist felsefe ve psikoloji",
+    "Abhidhamma – Budist felsefenin sistemli açıklaması"
+   ],
+   "d": 4,
+   "a": "Tripitaka: Vinaya disiplin kuralları, Sutta vaazlar, Abhidhamma felsefedir.",
+   "ac": [
+    "Vinaya disiplin kurallarıdır; vaazlar Sutta’dadır.",
+    "Sutta vaazlardır; kurallar Vinaya’dadır.",
+    "Tibet Ölüler Kitabı Vajrayana geleneğine aittir; Pali Kanonu’nda değildir.",
+    "Felsefe Abhidhamma’dadır.",
+    "Doğru eşleşme."
+   ],
+   "kay": "Tripitaka"
+  },
+  {
+   "id": "dn4-04",
+   "z": 3,
+   "s": "Budist bir okulda ideal insan, aydınlanmaya ulaşabilecek hâldeyken bütün canlılar kurtuluşa erinceye kadar nirvanaya girmeyi erteleyen merhamet dolu varlıktır. Bu okulda Buda tarihî bir öğretmenden öte, ezelî ve kozmik bir varlık olarak görülür; kurtuluş keşişlerle sınırlı tutulmaz.\n\nParçada sözü edilen okul ve ideal insan aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Theravada – arhat",
+    "Mahayana – bodhisattva",
+    "Theravada – bodhisattva",
+    "Mahayana – arhat",
+    "Vajrayana – sannyasi"
+   ],
+   "d": 1,
+   "a": "Bodhisattva ideali ve Buda’nın kozmik bir varlık olarak görülmesi Mahayana’nın özelliğidir.",
+   "ac": [
+    "Theravada’nın ideali kendi kurtuluşuna ulaşmış arhattır.",
+    "Doğru: Mahayana – bodhisattva.",
+    "Bodhisattva Mahayana idealidir, Theravada’nın değil.",
+    "Arhat Theravada idealidir.",
+    "Sannyasi Hinduizm’de dünyadan el çekmiş çilecidir."
+   ],
+   "kay": "Konu: Budist mezhepleri"
+  },
+  {
+   "id": "dn4-05",
+   "z": 3,
+   "s": "Aşağıdaki Budizm ile ilgili kavram – açıklama eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Sangha – Keşişler topluluğu",
+    "Stupa – Buda’ya ait kalıntıların saklandığı anıt yapı",
+    "Maitreya – Gelecekte gelmesi beklenen Buda",
+    "Vihara – Sih cemaatinin kutsal metni sakladığı mabet",
+    "Vesak – Buda’nın doğumu, aydınlanması ve ölümünün anıldığı bayram"
+   ],
+   "d": 3,
+   "a": "Vihara Budist manastır ve ibadet mekânıdır. Kutsal metnin saklandığı Sih mabedi gurudvaradır.",
+   "ac": [
+    "Doğru eşleşme.",
+    "Doğru eşleşme.",
+    "Doğru eşleşme.",
+    "Yanlış: bu tarif Sihizm’deki gurudvaraya aittir.",
+    "Doğru eşleşme."
+   ],
+   "kay": "Konu: Budist kavramlar"
+  },
+  {
+   "id": "dn4-06",
+   "z": 2,
+   "s": "Kalinga savaşındaki büyük kayıplardan sonra pişmanlık duyarak Budizm’e yönelen, imparatorluğunun dört bir yanına ahlak öğütleri içeren yazıtlı sütunlar diktiren ve oğlunu Budizmi yaymak için Sri Lanka’ya gönderen hükümdar aşağıdakilerden hangisidir?",
+   "c": [
+    "Kaniska",
+    "Kubilay Han",
+    "Ekber Şah",
+    "Şuddhodana",
+    "Aşoka"
+   ],
+   "d": 4,
+   "a": "Maurya imparatoru Aşoka (MÖ 3. yy) Budizmin dünya dinine dönüşmesinde kilit rol oynamıştır; oğlu Mahinda Sri Lanka’ya gitmiştir.",
+   "ac": [
+    "Kaniska Kuşan hükümdarıdır; Budizmin Orta Asya’ya yayılmasında etkilidir ama Kalinga ile ilgisi yoktur.",
+    "Kubilay Han Moğol hükümdarıdır; Tibet Budizmini desteklemiştir.",
+    "Ekber Şah Babür hükümdarıdır; Dîn-i İlâhî ile bilinir.",
+    "Şuddhodana Buda’nın babasıdır.",
+    "Doğru: Aşoka."
+   ],
+   "kay": "Konu: Budizmin yayılması"
+  },
+  {
+   "id": "dn4-07",
+   "z": 2,
+   "s": "Sekiz dilimli yolun Budist gelenekte gruplandırılmasına göre “doğru söz, doğru eylem ve doğru geçim” hangi başlık altında yer alır?",
+   "c": [
+    "Bilgelik (prajna)",
+    "Ahlak (sila)",
+    "Zihin disiplini (samadhi)",
+    "Merhamet (karuna)",
+    "Sığınak (triratna)"
+   ],
+   "d": 1,
+   "a": "Söz, eylem ve geçim ahlak (sila) grubundadır. Görüş ve niyet bilgelik; çaba, farkındalık ve konsantrasyon zihin disiplini grubundadır.",
+   "ac": [
+    "Bilgelik doğru görüş ve doğru niyeti kapsar.",
+    "Doğru: ahlak grubu.",
+    "Zihin disiplini çaba, farkındalık ve konsantrasyonu kapsar.",
+    "Karuna bir erdemdir; yolun gruplarından biri değildir.",
+    "Triratna Buda, Dharma ve Sangha’dır."
+   ],
+   "kay": "Konu: Sekiz Dilimli Yol"
+  },
+  {
+   "id": "dn4-08",
+   "z": 3,
+   "s": "Budizm ile Hinduizm karşılaştırıldığında aşağıdakilerden hangisi iki dinin ortak noktası olarak gösterilebilir?",
+   "c": [
+    "Kast sisteminin dinî bir temele dayandırılması",
+    "Vedaların en yüksek otorite kabul edilmesi",
+    "Bireysel ruhun mutlak gerçeklikle özde bir olduğu inancı",
+    "Samsara ve karma inancı",
+    "Kanlı kurbanların kurtuluş için gerekli görülmesi"
+   ],
+   "d": 3,
+   "a": "Samsara ve karma iki dinde de ortaktır. Budizm kastı, Vedaların otoritesini, Atman’ı ve kanlı kurbanı reddeder.",
+   "ac": [
+    "Budizm kast sistemini reddeder.",
+    "Budizm Vedaların otoritesini kabul etmez.",
+    "Budizm anatta öğretisiyle kalıcı ruhu reddeder.",
+    "Doğru: iki dinde de samsara ve karma vardır.",
+    "Budizm kanlı kurbana karşıdır."
+   ],
+   "kay": "Konu: Budizm ve Hinduizm"
+  },
+  {
+   "id": "dn4-09",
+   "z": 3,
+   "s": "Bir Budist okul, metinlerden çok oturarak yapılan meditasyonu, mantığı aşan bilmece sorularla zihni sarsmayı ve ani aydınlanmayı esas alır. Gelenek bu okulun Hindistan’dan Çin’e bir keşiş tarafından getirildiğini kabul eder; okul daha sonra Japonya’da büyük gelişme göstermiştir.\n\nBu okul ve dahil olduğu ana kol aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Zen – Mahayana",
+    "Saf Toprak – Theravada",
+    "Nichiren – Vajrayana",
+    "Zen – Theravada",
+    "Gelugpa – Mahayana"
+   ],
+   "d": 0,
+   "a": "Zen (Çan) Mahayana içinde bir okuldur; zazen, koan ve satori kavramlarıyla bilinir; Bodhidharma’nın Çin’e getirdiği kabul edilir.",
+   "ac": [
+    "Doğru: Zen, Mahayana.",
+    "Saf Toprak Amitabha’ya iman ve teslimiyete dayanır; Theravada’ya değil Mahayana’ya bağlıdır.",
+    "Nichiren Lotus Sutrası’na dayanan bir Japon Mahayana okuludur.",
+    "Zen Theravada’ya ait değildir.",
+    "Gelugpa Dalai Lama’nın bağlı olduğu Tibet okuludur."
+   ],
+   "kay": "Konu: Mahayana okulları"
+  },
+  {
+   "id": "dn4-10",
+   "z": 2,
+   "s": "Budizmin herkes için koyduğu beş temel ahlak ilkesi arasında aşağıdakilerden hangisi yer almaz?",
+   "c": [
+    "Canlı öldürmemek",
+    "Öğleden sonra yemek yememek",
+    "Yasak cinsel ilişkiden kaçınmak",
+    "Verilmeyeni almamak",
+    "Sarhoş edici içki kullanmamak"
+   ],
+   "d": 1,
+   "a": "Öğleden sonra yemek yememek keşişler için konan ek kurallardandır; herkes için olan beş ilkede yer almaz. Beşinci genel ilke yalan söylememektir.",
+   "ac": [
+    "Beş ilkenin ilkidir.",
+    "Yer almaz: keşişlere özgü ek kuraldır.",
+    "Zinadan kaçınma ilkesidir.",
+    "Çalmamak ilkesidir.",
+    "Beş ilkeden biridir."
+   ],
+   "kay": "Konu: Pançasila"
+  },
+  {
+   "id": "dn4-11",
+   "z": 3,
+   "s": "Tibet Budizmi ile ilgili\nI. Liderinin, merhamet bodhisattvasının yeryüzündeki bedenlenmesi olduğuna inanılır.\nII. Mantra, mandala ve dua çarkı gibi unsurlar önemli yer tutar.\nIII. Kutsal dili Pali’dir ve arhat idealini esas alır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Dalai Lama Avalokiteşvara’nın bedenlenmesi sayılır; mantra ve mandala Vajrayana’nın özelliğidir. Pali dili ve arhat ideali Theravada’ya aittir.",
+   "ac": [
+    "II. ifade de doğrudur.",
+    "III. ifade yanlıştır; Theravada’yı anlatır.",
+    "Doğru: I ve II doğrudur.",
+    "III yanlış olduğundan bu seçenek geçersizdir.",
+    "III’ün yanlışlığı bu seçeneği dışarıda bırakır."
+   ],
+   "kay": "Konu: Vajrayana"
+  },
+  {
+   "id": "dn4-12",
+   "z": 2,
+   "s": "Buda’nın tanrı anlayışıyla ilgili aşağıdaki ifadelerden hangisi kaynaklara göre doğrudur?",
+   "c": [
+    "Buda tanrı tartışmasına girmemiş, dikkatini acıdan kurtuluşa vermiştir.",
+    "Buda kendisinin Vişnu’nun avatarı olduğunu ilan etmiştir.",
+    "Buda yaratıcı bir tanrının varlığını açıkça inkâr eden bir kitap yazmıştır.",
+    "Buda Hinduizm’in çok tanrıcılığını ve putperestliğini benimsemiştir.",
+    "Buda’ya tapınılması bizzat onun emriyle başlamıştır."
+   ],
+   "d": 0,
+   "a": "Buda metafizik sorular karşısında sessiz kalmış, kurtuluşa odaklanmıştır; çok tanrıcılığa ve putperestliğe karşı çıkmıştır. Ölümünden sonra özellikle Mahayana’da tanrılaştırılmıştır.",
+   "ac": [
+    "Doğru: tanrı konusunda sessiz kalmıştır.",
+    "Bazı Hindu metinleri Buda’yı Vişnu’nun avatarı sayar; bu Buda’nın kendi iddiası değildir.",
+    "Buda hiçbir şey yazmamıştır; tanrıyı açıkça inkâr ettiğine dair bilgi de yoktur.",
+    "Çok tanrıcılığa ve putperestliğe karşı çıkmıştır.",
+    "Tanrılaştırma ölümünden sonra gelişmiştir."
+   ],
+   "kay": "Konu: Budizmde tanrı meselesi"
+  },
+  {
+   "id": "dn4-13",
+   "z": 3,
+   "s": "Buda’nın ölümünden yaklaşık yüz yıl sonra keşiş disiplini konusunda çıkan anlaşmazlık sebebiyle toplanan ve Budist topluluğun ilk büyük bölünmesine sahne olan konsil ile bu bölünmenin tarafları aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Rajagriha Konsili – Theravada ve Vajrayana",
+    "Vaişali Konsili – Digambara ve Svetambara",
+    "Pataliputra Konsili – Zen ve Saf Toprak",
+    "Vaişali Konsili – Mahasanghika ve Sthavira",
+    "Rajagriha Konsili – Mahayana ve Hinayana"
+   ],
+   "d": 3,
+   "a": "İkinci Konsil Vaişali’de toplanmış ve topluluk Mahasanghika (büyük topluluk) ile Sthavira (yaşlılar) gruplarına ayrılmıştır.",
+   "ac": [
+    "Rajagriha ilk konsildir; metinlerin tespit edildiği toplantıdır.",
+    "Digambara ve Svetambara Caynizm’in mezhepleridir.",
+    "Pataliputra Aşoka dönemindeki üçüncü konsildir; Zen ve Saf Toprak çok sonraki Mahayana okullarıdır.",
+    "Doğru eşleşme.",
+    "Rajagriha’da bölünme olmamıştır."
+   ],
+   "kay": "Konu: Budist konsiller"
+  },
+  {
+   "id": "dn4-14",
+   "z": 1,
+   "s": "Budizm’de bir müminin ibadete başlarken söylediği “… sığınırım” ifadesinde sığınılan Üç Mücevher aşağıdakilerden hangisidir?",
+   "c": [
+    "Tao, Te, Yin-Yang",
+    "Brahma, Vişnu, Şiva",
+    "Doğru inanç, doğru bilgi, doğru davranış",
+    "Baba, Oğul, Kutsal Ruh",
+    "Buda, Dharma, Sangha"
+   ],
+   "d": 4,
+   "a": "Üç Mücevher (triratna) Buda, Dharma ve Sangha’dır.",
+   "ac": [
+    "Taoizmin kavramlarıdır.",
+    "Hindu trimurtisidir.",
+    "Caynizm’in üç mücevheridir.",
+    "Hristiyan teslisidir.",
+    "Doğru."
+   ],
+   "kay": "Konu: Üç Mücevher"
+  }
+ ]
+}

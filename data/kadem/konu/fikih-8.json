@@ -1,0 +1,618 @@
+{
+ "id": "fikih-8",
+ "ad": "Namaz 1: Farziyeti ve Vakitleri, Kerahat Vakitleri, Ezan ve Kamet; Namazın Şartları ve Rükünleri, Vacipleri, Sünnetleri, Mekruhları ve Namazı Bozan Şeyler",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Namazın farziyeti ve vakitleri"
+  },
+  {
+   "merak": "Bir Hanefî ve bir Şâfiî, yaz günü öğleden sonra camiye girer. Şâfiî “İkindi vakti girdi” der; Hanefî “Daha öğle vakti devam ediyor” der. İkisi de haklıdır; çünkü öğle vaktinin bitişi konusunda Ebû Hanîfe diğer imamlardan farklı düşünür."
+  },
+  "Beş vakit namaz, hicretten önce Mi’rac gecesinde farz kılınmıştır. Namaz; Müslüman, akıllı ve ergenlik çağına ulaşmış her kişiye farzdır. Kur’an namazın belirli vakitlerde farz kılındığını bildirir (Nisâ 103). Vakitlerin ayrıntısı Cibrîl’in Hz. Peygamber’e iki gün imamlık yaptığı hadisle belirlenmiştir.",
+  {
+   "ayet": "Şüphesiz namaz, müminler üzerine vakitleri belirli bir farzdır.",
+   "kay": "Nisâ, 4/103"
+  },
+  {
+   "tablo": [
+    [
+     "Vakit",
+     "Başlangıç",
+     "Bitiş"
+    ],
+    [
+     "Sabah (fecr)",
+     "Fecr-i sâdık (tan yerinin yatay ağarması)",
+     "Güneşin doğuşu"
+    ],
+    [
+     "Öğle (zuhr)",
+     "Zeval (güneşin tepe noktayı geçmesi)",
+     "Ebû Hanîfe: gölgenin, asli gölge hariç iki misli olması; İmâmeyn ve diğer mezhepler: bir misli"
+    ],
+    [
+     "İkindi (asr)",
+     "Öğlenin bitişi",
+     "Güneşin batışı (sararmadan sonrası mekruh)"
+    ],
+    [
+     "Akşam (mağrib)",
+     "Güneşin batışı",
+     "Ebû Hanîfe: batıdaki beyaz şafağın kaybolması; İmâmeyn: kırmızı şafağın kaybolması"
+    ],
+    [
+     "Yatsı (işâ)",
+     "Akşamın bitişi",
+     "Fecr-i sâdık; vitir yatsıdan sonra kılınır"
+    ]
+   ]
+  },
+  "Üç vakitte hiçbir namaz kılınmaz: güneş doğarken (yaklaşık 45-50 dakika), güneş tam tepedeyken (istivâ) ve güneş batarken (sararmadan batışa kadar). Bu vakitlerde farz, vacip, kaza, cenaze (önceden hazırlanmışsa) namazı ve tilâvet secdesi yapılmaz. İstisna olarak o günün ikindi namazı, kılınmamışsa güneş batarken kerâhetle kılınır. Ayrıca sabah namazından sonra güneş doğuncaya kadar ve ikindi namazından sonra güneş sararıncaya kadar nafile namaz kılmak mekruhtur; ancak bu vakitlerde kaza namazı kılınabilir.",
+  {
+   "tablo": [
+    [
+     "Kerahat vakti",
+     "Kılınmayan",
+     "Kılınabilen"
+    ],
+    [
+     "Güneş doğarken, tepedeyken, batarken",
+     "Farz, vacip, kaza, nafile, cenaze, tilâvet secdesi",
+     "Yalnız o günün ikindisi (batarken, kerâhetle)"
+    ],
+    [
+     "Sabah namazından sonra güneş doğana kadar; ikindiden sonra güneş sararana kadar",
+     "Nafile namaz",
+     "Kaza namazı, cenaze namazı, tilâvet secdesi"
+    ]
+   ]
+  },
+  {
+   "sinav": "Öğle vaktinin bitişinde Ebû Hanîfe’nin “iki misil” görüşü, yatsı vaktinin girişinde beyaz-kırmızı şafak farkı ve kerahat vakitlerinde o günün ikindisinin kılınabilmesi sık sorulur."
+  },
+  {
+   "akil": "Öğle bitişi: Ebû Hanîfe iki misil, diğerleri bir misil. Akşam bitişi: Ebû Hanîfe beyaz şafak. Kerahat: doğuş, istivâ, batış → hiçbir namaz yok (o günün ikindisi hariç). Sabahtan ve ikindiden sonra: nafile yok, kaza var."
+  },
+  {
+   "b": "2. Ezan ve kamet"
+  },
+  "Ezan, hicretin birinci yılında Medine’de Abdullah b. Zeyd’in rüyası ve Hz. Ömer’in de aynı rüyayı gördüğünü bildirmesi üzerine meşru kılınmıştır. İlk müezzin Bilâl-i Habeşî’dir. Hanefîlere göre beş vakit farz namaz ve cuma için ezan okumak ve kamet getirmek erkekler için sünnet-i müekkededir. Kaza namazları için de ezan ve kamet sünnettir. Vitir, bayram, cenaze, teravih ve nafile namazlar için ezan okunmaz. Sabah ezanında “es-salâtü hayrun mine’n-nevm” (namaz uykudan hayırlıdır) cümlesi eklenir; buna “tesvîb” denir. Kamet ezan gibidir; yalnız “hayye ale’l-felâh”tan sonra iki kez “kad kāmeti’s-salâh” eklenir.",
+  {
+   "akil": "Ezan: H. 1, Abdullah b. Zeyd’in rüyası; ilk müezzin Bilâl. Farzlar ve cuma için sünnet-i müekkede. Vitir, bayram, cenaze, teravih için ezan yok. Tesvîb: sabah ezanında “namaz uykudan hayırlıdır”."
+  },
+  "Ezan ve kametin yanında namaza hazırlıkta dikkat edilen bir diğer husus, namaz kılınan yerin önüne konan sütredir. Cemaatte imamın sütresi cemaat için de sütre sayılır. Kalabalık ya da insanların geçebileceği yerlerde tek başına namaz kılan kişinin önüne en az bir zira’ (yaklaşık yarım metre) yüksekliğinde bir şey koyması sünnettir. Namaz kılanın önünden geçmek, sütre olmayan durumda secde yerine kadar olan mesafede günahtır; ancak bu durum namazı bozmaz. Ezan ile kamet arasında dua etmek müstehaptır ve bu vakit duaların kabul edildiği vakitlerden sayılır.",
+  {
+   "b": "3. Namazın farzları: Şartlar ve rükünler"
+  },
+  {
+   "merak": "Bir kişi abdestli, temiz elbiseli, kıbleye dönük ve vaktinde namaza durur, ancak oturuşta teşehhüd miktarı oturmadan selam verir. Namazı geçerli olur mu? Hayır; çünkü son oturuş, namazın içindeki farzlardan biridir."
+  },
+  "Hanefî ilmihallerinde namazın on iki farzı sayılır: Namazın dışındaki farzlar (şartlar) ve içindeki farzlar (rükünler). Şartlar namaza başlamadan önce bulunması gereken, rükünler ise namazın kendisini oluşturan unsurlardır. Bu farzlardan biri terk edilirse namaz sahih olmaz.",
+  {
+   "tablo": [
+    [
+     "Namazın dışındaki farzlar (şartlar)",
+     "Namazın içindeki farzlar (rükünler)"
+    ],
+    [
+     "Hadesten taharet (abdest, gusül)",
+     "İftitah tekbiri (bazı Hanefîlere göre şart)"
+    ],
+    [
+     "Necâsetten taharet (beden, elbise, yer)",
+     "Kıyam (ayakta durmak)"
+    ],
+    [
+     "Setr-i avret",
+     "Kıraat (Kur’an okumak)"
+    ],
+    [
+     "İstikbâl-i kıble",
+     "Rükû"
+    ],
+    [
+     "Vakit",
+     "Secde"
+    ],
+    [
+     "Niyet",
+     "Ka’de-i ahîre (son oturuş; teşehhüd miktarı)"
+    ]
+   ]
+  },
+  "Avret, namazda örtülmesi farz olan yerlerdir. Hanefîlere göre erkeğin avreti göbek ile diz arasıdır; diz avrete dahildir. Hür kadının avreti ise yüz, eller ve ayaklar dışında bütün bedenidir. Namazda bir uzvun dörtte birinin bir rükün eda edecek kadar süre açık kalması namazı bozar. Kıraatte Hanefîlere göre farz olan, bir ayet okumaktır; Fâtiha okumak vaciptir. Şâfiîlere göre ise her rekâtta Fâtiha okumak farzdır.",
+  {
+   "akil": "Şartlar 6: hades, necâset, avret, kıble, vakit, niyet. Rükünler 6: tekbir, kıyam, kıraat, rükû, secde, son oturuş. Hanefî: kıraatte farz bir ayet, Fâtiha vacip; Şâfiî: Fâtiha farz. Erkek avreti: göbek-diz (diz dahil)."
+  },
+  {
+   "b": "4. Vacipler, sünnetler, mekruhlar ve namazı bozanlar"
+  },
+  "Hanefî mezhebinde farz ile sünnet arasında “vacip” denilen bir kategori vardır. Namazın vaciplerinden biri unutularak terk edilirse sehiv secdesi gerekir; kasten terk edilirse namaz tahrîmen mekruh olur ve iadesi gerekir.",
+  {
+   "tablo": [
+    [
+     "Namazın vacipleri (Hanefî)",
+     "Namazın bazı sünnetleri"
+    ],
+    [
+     "Fâtiha okumak",
+     "Sübhâneke okumak"
+    ],
+    [
+     "Fâtiha’dan sonra bir sure veya en az üç kısa ayet okumak (zamm-ı sûre)",
+     "Eûzü-besmele çekmek"
+    ],
+    [
+     "Farzların ilk iki rekâtında kıraat",
+     "Fâtiha’dan sonra “âmin” demek"
+    ],
+    [
+     "Tertibe riayet ve tadîl-i erkân (Ebû Hanîfe ve Muhammed’e göre; Ebû Yûsuf’a göre farz)",
+     "Rükû ve secde tesbihleri"
+    ],
+    [
+     "Üç ve dört rekâtlı namazlarda ilk oturuş",
+     "Tekbirlerde elleri kaldırmak"
+    ],
+    [
+     "Teşehhüd (Ettehiyyâtü) okumak",
+     "Salli-bârik okumak"
+    ],
+    [
+     "Selam ile namazdan çıkmak",
+     "Son oturuşta dua"
+    ],
+    [
+     "Vitirde kunut, bayram tekbirleri",
+     "—"
+    ],
+    [
+     "Cehrî ve hafî okunacak yerlere uymak",
+     "—"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Namazı bozanlar",
+     "Namazda mekruh olanlar"
+    ],
+    [
+     "Konuşmak (az da olsa)",
+     "Elbise veya bedenle oynamak"
+    ],
+    [
+     "Yemek ve içmek",
+     "Gözleri kapamak, etrafa bakınmak"
+    ],
+    [
+     "Amel-i kesîr (dışarıdan bakanın namazda olmadığını sanacağı hareket)",
+     "Esnemek, gerinmek"
+    ],
+    [
+     "Kıbleden göğsü çevirmek",
+     "Tembellikten başı açık kılmak"
+    ],
+    [
+     "Kahkaha ile gülmek",
+     "Önünden geçilebilecek yerde sütre koymadan kılmak"
+    ],
+    [
+     "Bir rükün süresince avretin dörtte birinin açılması",
+     "İhtiyaç sıkıştırırken kılmak"
+    ],
+    [
+     "Bir farzı terk etmek",
+     "Secdede kolları yere yaymak"
+    ]
+   ]
+  },
+  {
+   "sinav": "Hanefîlerde vacip kategorisi ve sehiv secdesiyle ilişkisi, tadîl-i erkânın hükmünde Ebû Yûsuf’un farklı görüşü, amel-i kesîrin tanımı ve namazı bozanlarla mekruhların ayrımı sık sorulur."
+  },
+  {
+   "akil": "Vacip terki: unutarak → sehiv secdesi; kasten → iade. Tadîl-i erkân: Ebû Hanîfe-Muhammed vacip, Ebû Yûsuf farz. Amel-i kesîr: dışarıdan bakan namazda değil sanır → namaz bozulur."
+  }
+ ],
+ "ozet": [
+  "Beş vakit namaz hicretten önce Mi’rac gecesinde farz kılınmıştır.",
+  "Namaz Müslüman, akıllı ve ergen her kişiye farzdır; vakitleri Nisâ 103 ve Cibrîl’in imamlığı hadisiyle belirlenmiştir.",
+  "Ebû Hanîfe’ye göre öğle vakti gölgenin asli gölge hariç iki misli olmasıyla, diğer imamlara göre bir misli olmasıyla biter.",
+  "Ebû Hanîfe’ye göre yatsı vakti beyaz şafağın kaybolmasıyla girer; İmâmeyn kırmızı şafağı esas alır.",
+  "Güneş doğarken, tepedeyken ve batarken hiçbir namaz kılınmaz; yalnız o günün ikindisi batarken kerâhetle kılınabilir.",
+  "Sabahtan sonra güneş doğana, ikindiden sonra güneş sararana kadar nafile kılınmaz, kaza kılınabilir.",
+  "Ezan hicretin birinci yılında meşru kılınmış, ilk müezzin Bilâl-i Habeşî olmuştur.",
+  "Farzlar ve cuma için ezan ve kamet sünnet-i müekkededir; vitir, bayram ve cenaze için ezan okunmaz.",
+  "Namazın dışındaki farzlar: hadesten ve necâsetten taharet, setr-i avret, istikbâl-i kıble, vakit ve niyettir.",
+  "Namazın içindeki farzlar: iftitah tekbiri, kıyam, kıraat, rükû, secde ve ka’de-i ahîredir.",
+  "Hanefîlere göre kıraatte farz bir ayettir, Fâtiha okumak vaciptir; Şâfiîlere göre Fâtiha farzdır.",
+  "Erkeğin avreti göbek ile diz arasıdır; diz avrete dahildir.",
+  "Vacip unutularak terk edilirse sehiv secdesi gerekir; kasten terk edilirse namaz iade edilir.",
+  "Konuşmak, yemek, amel-i kesîr, kıbleden dönmek ve kahkaha namazı bozar."
+ ],
+ "kartlar": [
+  {
+   "o": "Namazın farz kılınışı",
+   "a": "Mi’rac gecesi, hicretten önce."
+  },
+  {
+   "o": "Öğle vaktinin bitişi",
+   "a": "Ebû Hanîfe: iki misil; İmâmeyn ve diğerleri: bir misil."
+  },
+  {
+   "o": "Yatsı vaktinin girişi",
+   "a": "Ebû Hanîfe: beyaz şafağın kaybolması."
+  },
+  {
+   "o": "Kerahat vakitleri",
+   "a": "Güneşin doğuşu, istivâ ve batışı."
+  },
+  {
+   "o": "Kerahatte kılınabilen",
+   "a": "O günün ikindisi (güneş batarken)."
+  },
+  {
+   "o": "İlk müezzin",
+   "a": "Bilâl-i Habeşî."
+  },
+  {
+   "o": "Tesvîb",
+   "a": "Sabah ezanında “es-salâtü hayrun mine’n-nevm”."
+  },
+  {
+   "o": "Namazın şartları",
+   "a": "Hades ve necâsetten taharet, avret, kıble, vakit, niyet."
+  },
+  {
+   "o": "Namazın rükünleri",
+   "a": "Tekbir, kıyam, kıraat, rükû, secde, son oturuş."
+  },
+  {
+   "o": "Hanefîlerde kıraatte farz",
+   "a": "Bir ayet; Fâtiha vacip."
+  },
+  {
+   "o": "Erkeğin avreti",
+   "a": "Göbek ile diz arası; diz dahil."
+  },
+  {
+   "o": "Tadîl-i erkân",
+   "a": "Ebû Hanîfe ve Muhammed: vacip; Ebû Yûsuf: farz."
+  },
+  {
+   "o": "Amel-i kesîr",
+   "a": "Dışarıdan bakanın namazda olmadığını sanacağı hareket; namazı bozar."
+  },
+  {
+   "o": "Vacip terki",
+   "a": "Unutarak: sehiv secdesi; kasten: iade."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "fq8-01",
+   "z": 3,
+   "s": "Bir kişi ikindi namazını kılmamış, güneş batmak üzereyken namaza durmuştur. Aynı kişinin kılınmamış bir sabah namazı kazası da vardır ve onu da o sırada kılmak istemektedir.\n\nHanefî mezhebine göre bu durumla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Her iki namaz da bu vakitte kılınabilir.",
+    "Hiçbiri bu vakitte kılınamaz.",
+    "Sabah namazının kazası kılınabilir, ikindi kılınamaz.",
+    "O günün ikindisi kerâhetle kılınabilir; sabah namazının kazası ise bu vakitte kılınmaz.",
+    "İkindi kılınamaz; ertesi gün kaza edilir."
+   ],
+   "d": 3,
+   "a": "Güneş batarken hiçbir namaz kılınmaz; tek istisna o günün ikindi namazıdır. Kaza namazı bu vakitte kılınmaz.",
+   "ac": [
+    "Kaza namazı bu vakitte kılınmaz.",
+    "O günün ikindisi istisnadır.",
+    "Durum terstir.",
+    "Doğru.",
+    "O günün ikindisi kerâhetle kılınabilir."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "fq8-02",
+   "z": 3,
+   "s": "I. Hadesten taharet\nII. Kıyam\nIII. İstikbâl-i kıble\nIV. Ka’de-i ahîre\nV. Setr-i avret\n\nYukarıdakilerden hangileri namazın dışındaki farzlarından (şartlarından) biridir?",
+   "c": [
+    "I, III ve V",
+    "II ve IV",
+    "I, II ve III",
+    "III, IV ve V",
+    "I, II, III, IV ve V"
+   ],
+   "d": 0,
+   "a": "Hadesten taharet, kıbleye yönelmek ve avretin örtülmesi namazın şartlarıdır. Kıyam ve son oturuş ise rükündür.",
+   "ac": [
+    "Doğru.",
+    "Bunlar rükündür.",
+    "Kıyam rükündür.",
+    "Ka’de-i ahîre rükündür.",
+    "Kıyam ve son oturuş rükündür."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "fq8-03",
+   "z": 3,
+   "s": "Hanefî ve Şâfiî mezheplerinin namazda Fâtiha okumanın hükmüyle ilgili görüşleri ve bunun sonucu aşağıdakilerden hangisinde doğru verilmiştir?",
+   "c": [
+    "İki mezhebe göre de farzdır; terk edilirse namaz bozulur.",
+    "Hanefîlere göre yalnız ilk rekâtta farzdır.",
+    "Hanefîlere göre farz, Şâfiîlere göre sünnettir.",
+    "İki mezhebe göre de sünnettir.",
+    "Hanefîlere göre vaciptir, unutularak terk edilirse sehiv secdesi gerekir; Şâfiîlere göre farzdır, terk edilirse rekât geçersiz olur."
+   ],
+   "d": 4,
+   "a": "Hanefîlerde kıraatin farzı bir ayettir, Fâtiha vaciptir. Şâfiîlere göre Fâtiha her rekâtta farzdır.",
+   "ac": [
+    "Hanefîlere göre farz değil vaciptir.",
+    "Böyle bir görüş yoktur.",
+    "Durum terstir.",
+    "İki mezhepte de sünnet değildir.",
+    "Doğru."
+   ],
+   "kay": "İbn Rüşd, Bidâyetü’l-müctehid, I"
+  },
+  {
+   "id": "fq8-04",
+   "z": 2,
+   "s": "Hanefî mezhebine göre öğle namazı vaktinin sona ermesiyle ilgili Ebû Hanîfe’nin görüşü aşağıdakilerden hangisidir?",
+   "c": [
+    "Güneşin tam tepeye gelmesiyle sona erer.",
+    "Bir cismin gölgesinin, asli gölge hariç bir misli olmasıyla sona erer.",
+    "Bir cismin gölgesinin, asli gölge hariç iki misli olmasıyla sona erer.",
+    "Güneşin sararmasıyla sona erer.",
+    "Güneşin batmasıyla sona erer."
+   ],
+   "d": 2,
+   "a": "Ebû Hanîfe’ye göre öğle vakti gölgenin iki misli olmasıyla biter; İmâmeyn ve diğer mezheplere göre bir misli.",
+   "ac": [
+    "Bu öğle vaktinin başlangıcıdır.",
+    "Bu İmâmeyn ve diğer mezheplerin görüşüdür.",
+    "Doğru.",
+    "Bu ikindinin kerahat vaktidir.",
+    "Bu ikindinin bitişidir."
+   ],
+   "kay": "Kâsânî, Bedâi‘, I"
+  },
+  {
+   "id": "fq8-05",
+   "z": 3,
+   "s": "Bir kişi namaz kılarken, namazla ilgisi olmayan ve dışarıdan bakan birinin onun namazda olmadığını düşüneceği kadar çok hareket yapmıştır. Başka bir kişi ise namazda gözlerini kapatmış ve elbisesiyle oynamıştır.\n\nHanefî mezhebine göre bu iki kişinin namazıyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "İkisinin namazı da bozulmuştur.",
+    "Birincinin namazı mekruh, ikincinin namazı bozulmuştur.",
+    "İkisinin namazı da sahih ve mekruh değildir.",
+    "Birincinin namazı amel-i kesîr sebebiyle bozulmuş; ikincinin namazı ise mekruh olmakla birlikte sahihtir.",
+    "İkisinin namazı da mekruhtur ama sahihtir."
+   ],
+   "d": 3,
+   "a": "Amel-i kesîr namazı bozar. Gözleri kapamak ve elbiseyle oynamak ise mekruhtur, namazı bozmaz.",
+   "ac": [
+    "İkincinin namazı bozulmamıştır.",
+    "Durum terstir.",
+    "Birincinin namazı bozulmuştur.",
+    "Doğru.",
+    "Birincinin namazı bozulmuştur."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "fq8-06",
+   "z": 3,
+   "s": "I. Beş vakit farz namaz\nII. Cuma namazı\nIII. Vitir namazı\nIV. Bayram namazı\nV. Kaza namazı\n\nHanefî mezhebine göre yukarıdaki namazlardan hangileri için ezan okunması sünnettir?",
+   "c": [
+    "I ve II",
+    "I, II ve V",
+    "I, III ve IV",
+    "II, IV ve V",
+    "I, II, III, IV ve V"
+   ],
+   "d": 1,
+   "a": "Beş vakit farz, cuma ve kaza namazları için ezan okunur. Vitir ve bayram namazı için ezan okunmaz.",
+   "ac": [
+    "Kaza namazı için de ezan sünnettir.",
+    "Doğru.",
+    "Vitir ve bayram için ezan okunmaz.",
+    "Bayram için ezan okunmaz.",
+    "Vitir ve bayram için ezan okunmaz."
+   ],
+   "kay": "Kâsânî, Bedâi‘, I"
+  },
+  {
+   "id": "fq8-07",
+   "z": 2,
+   "s": "Hanefî mezhebine göre tadîl-i erkânın (rükû ve secdede organların yatışıp sükûnet bulması) hükmüyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Üç imama göre de sünnettir.",
+    "Ebû Hanîfe ve İmam Muhammed’e göre vacip, Ebû Yûsuf’a göre farzdır.",
+    "Ebû Hanîfe’ye göre farz, İmâmeyn’e göre vaciptir.",
+    "Yalnız cuma namazında gereklidir.",
+    "Hanefîlerde böyle bir kavram yoktur."
+   ],
+   "d": 1,
+   "a": "Tadîl-i erkân Ebû Hanîfe ve İmam Muhammed’e göre vacip, Ebû Yûsuf’a ve diğer mezheplere göre farzdır.",
+   "ac": [
+    "Sünnet değildir.",
+    "Doğru.",
+    "Ebû Hanîfe’ye göre vaciptir.",
+    "Bütün namazlarda gereklidir.",
+    "Hanefîlerde vardır."
+   ],
+   "kay": "Kâsânî, Bedâi‘, I"
+  },
+  {
+   "id": "fq8-08",
+   "z": 2,
+   "s": "Hanefî mezhebine göre erkeğin namazda örtmesi farz olan avret yeri aşağıdakilerden hangisidir?",
+   "c": [
+    "Yalnız ön ve arka avret yerleri",
+    "Göbek ile diz arası; diz avrete dahil değildir",
+    "Göbek ile diz arası; diz avrete dahildir",
+    "Omuzlardan dizlere kadar",
+    "Bütün beden"
+   ],
+   "d": 2,
+   "a": "Hanefîlere göre erkeğin avreti göbek ile diz arasıdır ve diz avrete dahildir.",
+   "ac": [
+    "Avret daha geniştir.",
+    "Hanefîlere göre diz avrete dahildir.",
+    "Doğru.",
+    "Omuzlar avret değildir.",
+    "Bütün beden kadının avretiyle ilgili bir ifadeye yakındır; erkek için doğru değildir."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "fq8-09",
+   "z": 3,
+   "s": "Bir kişi akşam namazının farzını kılarken ilk oturuşu unutarak üçüncü rekâta kalkmış ve namazın sonunda sehiv secdesi yapmıştır. Başka bir kişi ise akşamın farzında ilk oturuşu kasten terk etmiş ve sehiv secdesi yapmamıştır.\n\nHanefî mezhebine göre bu iki kişinin namazıyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Birincinin namazı tamamdır; ikincinin namazı tahrîmen mekruh olup iadesi gerekir.",
+    "İkisinin namazı da batıldır.",
+    "İkisinin namazı da tamamdır.",
+    "Birincinin namazı batıl, ikincinin namazı sahihtir.",
+    "İkisinin de yalnız sehiv secdesi yapması yeterlidir."
+   ],
+   "d": 0,
+   "a": "İlk oturuş vaciptir. Unutularak terk edilirse sehiv secdesi namazı tamamlar; kasten terk edilirse namaz tahrîmen mekruh olur ve iade edilmesi gerekir.",
+   "ac": [
+    "Doğru.",
+    "Vacip terki namazı batıl kılmaz.",
+    "Kasten terkte iade gerekir.",
+    "Durum terstir.",
+    "Kasten terkte sehiv secdesi yeterli olmaz."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "fq8-10",
+   "z": 2,
+   "s": "Hanefî mezhebine göre aşağıdakilerden hangisi namazın vaciplerinden biri değildir?",
+   "c": [
+    "Fâtiha okumak",
+    "Fâtiha’dan sonra bir sure okumak",
+    "Selam ile namazdan çıkmak",
+    "Teşehhüd okumak",
+    "Sübhâneke okumak"
+   ],
+   "d": 4,
+   "a": "Sübhâneke okumak sünnettir; diğerleri namazın vaciplerindendir.",
+   "ac": [
+    "Vaciptir.",
+    "Vaciptir.",
+    "Vaciptir.",
+    "Vaciptir.",
+    "Doğru; sünnettir."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "f4-01",
+   "z": 1,
+   "s": "Aşağıdakilerden hangisi namazın dışındaki farzlarından (şartlarından) biridir?",
+   "c": [
+    "Kıyam",
+    "Rükû",
+    "Kıraat",
+    "Secde",
+    "Setr-i avret"
+   ],
+   "d": 4,
+   "a": "Setr-i avret (örtünmek) namazın dışındaki farzlarındandır; diğerleri namazın içindeki rükünlerdir.",
+   "ac": [
+    "Rükündür.",
+    "Rükündür.",
+    "Rükündür.",
+    "Rükündür.",
+    "Doğru."
+   ],
+   "kay": "Hanefî ilmihali: namazın farzları"
+  },
+  {
+   "id": "f4-11",
+   "z": 3,
+   "s": "Güneşin doğduğu, tam tepede bulunduğu ve battığı vakitlerde farz namaz kılınmaz. Bu kuralın istisnası olarak güneş batarken kılınabilen namaz aşağıdakilerden hangisidir?",
+   "c": [
+    "O günün sabah namazı",
+    "Kazaya kalmış bir öğle namazı",
+    "Önceki günün ikindi namazının kazası",
+    "O günün ikindi namazı",
+    "O günün öğle namazı (vakti geçmişse)"
+   ],
+   "d": 3,
+   "a": "Güneş batarken yalnız o günün ikindi namazı kerahetle de olsa kılınabilir; diğer farzlar ve kazalar bu vakitlerde kılınmaz.",
+   "ac": [
+    "Güneş doğarken sabah namazı bozulur (Hanefî).",
+    "Kaza namazları bu üç vakitte kılınmaz.",
+    "Kaza olduğu için bu vakitte kılınmaz.",
+    "Doğru: kerahetle de olsa kılınabilir.",
+    "Vakti çıkmış namaz kazadır; bu vakitte kılınmaz."
+   ],
+   "kay": "Müslim, Salâtü’l-müsâfirîn, 293"
+  },
+  {
+   "id": "f4-15",
+   "z": 1,
+   "s": "Aşağıdakilerden hangisi namazın içindeki farzlarından (rükünlerinden) biri değildir?",
+   "c": [
+    "Rükû",
+    "Kıraat",
+    "Setr-i avret",
+    "Kıyam",
+    "Ka‘de-i ahîre"
+   ],
+   "d": 2,
+   "a": "Namazın şartları: hadesten ve necasetten taharet, setr-i avret, istikbâl-i kıble, vakit, niyet.",
+   "ac": [
+    "Rükündür.",
+    "Rükündür.",
+    "Namazın dışındaki farzlarından (şartlarından)dır.",
+    "Rükündür.",
+    "Rükündür."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f4-16",
+   "z": 2,
+   "s": "Hanefî mezhebine göre aşağıdakilerden hangisi namazın vaciplerinden biri değildir?",
+   "c": [
+    "Rükûda üç kez “Sübhâne rabbiye’l-azîm” demek",
+    "Fâtiha’yı okumak",
+    "İlk oturuş (ka‘de-i ûlâ)",
+    "Vitirde kunut okumak",
+    "Ta‘dil-i erkân"
+   ],
+   "d": 0,
+   "a": "Vaciplerden biri sehven terk edilirse sehiv secdesi gerekir; kasten terk edilirse namaz iade edilir.",
+   "ac": [
+    "Sünnettir.",
+    "Vaciptir.",
+    "Vaciptir.",
+    "Vaciptir.",
+    "Vaciptir."
+   ],
+   "kay": "Hanefî ilmihal"
+  }
+ ]
+}

@@ -1,0 +1,602 @@
+{
+ "id": "arapca-3",
+ "ad": "Sarf III: İsimler – Mastar, Müştak İsimler, Maksûr–Mankûs–Memdûd, Tesniye ve Cemi, Gayr-i Munsarif",
+ "ders": "Arapça",
+ "sinavlar": [
+  "ihtisas",
+  "ilcemuftu",
+  "muftuyrd",
+  "vaizlik",
+  "egitimgorevlisi",
+  "mufettis",
+  "arapca"
+ ],
+ "oncelik": 3,
+ "anlatim": [
+  "İsim; Arapça cümlenin en geniş kelime türüdür. Kur’an’daki Allah’ın isimlerinin çoğu (الرَّحْمٰنُ، الرَّحِيمُ، الْعَلِيمُ، الْغَفُورُ) birer müştak isimdir. Bu ünite isimlerin türetilişini, sonlarına göre çeşitlerini, sayı ve cinsiyet ayrımını ve tenvin almayan isimleri (gayr-i munsarif) anlatır. Yüksek ihtisas sınavında “bu cümlede hangi isim türü yoktur?” tipi sorular düzenli olarak gelir.",
+  {
+   "b": "1. Câmid ve müştak; mastar"
+  },
+  {
+   "merak": "الْعِلْمُ (bilgi), عَالِمٌ (bilen), مَعْلُومٌ (bilinen), عَلِيمٌ (çok bilen), أَعْلَمُ (daha çok bilen) ve مَعْلَمٌ (işaret yeri). Hepsi aynı kökten gelir. Bu kelimelerin hangisi diğerlerinin kaynağıdır? Arap dilcilerinin çoğuna göre kaynak mastardır."
+  },
+  "Bir başka kelimeden türemeyen isme câmid denir: رَجُلٌ، شَمْسٌ، حَجَرٌ. Bir kökten belli bir kalıpla türetilen isme ise müştak denir: كَاتِبٌ، مَكْتُوبٌ. Mastar, işi zamandan ve şahıstan bağımsız olarak bildiren isimdir: نَصْرٌ (yardım), عِلْمٌ (bilgi). Basra dilcilerine göre fiiller ve müştak isimler mastardan türer. Kûfe dilcileri ise mastarın fiilden türediğini söyler. Sülâsî mücerredin mastarları semâîdir, yani duyularak öğrenilir: نَصْرٌ، جُلُوسٌ، ذَهَابٌ، كِتَابَةٌ. Mezîd bâbların mastarları ise kıyâsîdir, yani kurala bağlıdır: إِكْرَامٌ، تَعْلِيمٌ، اِسْتِغْفَارٌ.",
+  "Mastarın özel türleri de vardır. Merre mastarı işin bir kez yapıldığını bildirir: ضَرْبَةٌ (bir vuruş). Hey’et mastarı işin yapılış biçimini bildirir: جِلْسَةٌ (oturuş biçimi). Mîmî mastar başında م bulunan mastardır: مَقْتَلٌ (öldürme), مَرْجِعٌ (dönüş). Sınâî mastar ise ismin sonuna ـِيَّةٌ eklenerek yapılır: إِنْسَانِيَّةٌ (insanlık), حُرِّيَّةٌ (özgürlük).",
+  {
+   "b": "2. Müştak isimler"
+  },
+  "Müştak isimler yedi grupta incelenir. Her birinin sülâsî mücerredde ve mezîd bâblarda kendine özgü kalıbı vardır.",
+  {
+   "tablo": [
+    [
+     "Müştak",
+     "Tanımı",
+     "Sülâsî kalıp ve örnek",
+     "Mezîd kalıp"
+    ],
+    [
+     "İsm-i fâil",
+     "İşi yapanı bildirir",
+     "فَاعِلٌ: كَاتِبٌ، عَالِمٌ",
+     "Muzârinin harfi yerine ötreli م, sondan önceki esre: مُكْرِمٌ، مُسْتَغْفِرٌ"
+    ],
+    [
+     "İsm-i mef‘ûl",
+     "İşin üzerine düştüğü varlığı bildirir",
+     "مَفْعُولٌ: مَكْتُوبٌ، مَعْلُومٌ",
+     "Aynı, ancak sondan önceki üstün: مُكْرَمٌ، مُنْزَلٌ"
+    ],
+    [
+     "Sıfat-ı müşebbehe",
+     "Kalıcı niteliği bildirir; lâzım fiilden türer",
+     "فَعِيلٌ، فَعِلٌ، فَعْلَانُ، أَفْعَلُ: كَرِيمٌ، حَسَنٌ، عَطْشَانُ، أَحْمَرُ",
+     "Genelde sülâsîden"
+    ],
+    [
+     "Mübalağalı ism-i fâil",
+     "İşi çok ve sürekli yapanı bildirir",
+     "فَعَّالٌ، فَعُولٌ، فَعِيلٌ، مِفْعَالٌ: غَفَّارٌ، غَفُورٌ، رَحِيمٌ، مِقْدَامٌ",
+     "Sülâsîden"
+    ],
+    [
+     "İsm-i tafdîl",
+     "Üstünlük derecesini bildirir",
+     "أَفْعَلُ (müennesi فُعْلَى): أَكْبَرُ / كُبْرَى",
+     "Doğrudan yapılmaz: أَشَدُّ + mastar"
+    ],
+    [
+     "İsm-i zaman ve mekân",
+     "İşin yapıldığı zaman ya da yeri bildirir",
+     "مَفْعَلٌ، مَفْعِلٌ: مَكْتَبٌ، مَجْلِسٌ، مَسْجِدٌ",
+     "İsm-i mef‘ûl kalıbında: مُلْتَقًى"
+    ],
+    [
+     "İsm-i âlet",
+     "İşin yapıldığı aleti bildirir",
+     "مِفْعَلٌ، مِفْعَالٌ، مِفْعَلَةٌ: مِبْرَدٌ، مِفْتَاحٌ، مِكْنَسَةٌ",
+     "Yalnız sülâsîden"
+    ]
+   ]
+  },
+  "Bu kalıplarda karıştırılan iki yer vardır. Birincisi أَفْعَلُ kalıbıdır. Bu kalıp hem ism-i tafdîli (أَكْبَرُ daha büyük) hem de renk ve kusur bildiren sıfat-ı müşebbeheyi (أَحْمَرُ kırmızı, أَعْرَجُ topal) karşılar. İkisini müennesten ayırırsın: tafdîlin müennesi فُعْلَى (كُبْرَى), renk sıfatının müennesi فَعْلَاءُ (حَمْرَاءُ) kalıbındadır. Renk ve kusur bildiren kökten ism-i tafdîl doğrudan yapılmaz. أَشَدُّ حُمْرَةً (kırmızılıkça daha şiddetli) şeklinde kurulur. İkincisi فَعِيلٌ kalıbıdır. Bu kalıp sıfat-ı müşebbehe (كَرِيمٌ), mübalağalı ism-i fâil (رَحِيمٌ، سَمِيعٌ) ve ism-i mef‘ûl anlamında (قَتِيلٌ öldürülmüş) gelebilir.",
+  "Mezîd bâblarda ism-i fâil ile ism-i mef‘ûlü ayıran tek fark, son harften önceki harfin harekesidir. مُرْسِلٌ (gönderen) esreli, مُرْسَلٌ (gönderilen) üstünlüdür. مُسْلِمٌ (teslim olan) ism-i fâildir, مُسْتَشْفًى (hastane) ise istif‘âlden ism-i mekândır.",
+  {
+   "sinav": "Sınavda ya bir kelime verilip türü sorulur ya da bir cümle verilip “hangi müştak yer almaz?” denir. Yol şu: önce kalıba bak (فَاعِلٌ، مَفْعُولٌ، أَفْعَلُ، مَفْعَلٌ، مِفْعَالٌ), sonra anlamı kontrol et. أَفْعَلُ gördüğünde renk-kusur mu, üstünlük mü diye sor. مُـ ile başlayan mezîd kalıpta sondan önceki harfin harekesine bak."
+  },
+  {
+   "akil": "İsm-i fâil فَاعِلٌ / مُفْعِلٌ. İsm-i mef‘ûl مَفْعُولٌ / مُفْعَلٌ. Tafdîl أَفْعَلُ – فُعْلَى. Renk-kusur أَفْعَلُ – فَعْلَاءُ. Âlet مِفْعَالٌ. Zaman-mekân مَفْعَلٌ / مَفْعِلٌ."
+  },
+  {
+   "b": "3. Sonuna göre isimler: Sahih, maksûr, mankûs, memdûd"
+  },
+  {
+   "merak": "Neden الْهُدَى kelimesi cümlenin her yerinde aynı okunur, oysa الْكِتَابُ “el-kitâbu, el-kitâbe, el-kitâbi” diye değişir? Çünkü sonu elifle biten isimlerde hareke görünmez. Buna takdîrî i‘rab denir."
+  },
+  "İsimler son harflerine göre dörde ayrılır. Sahih isim, sonunda illet harfi bulunmayan isimdir (كِتَابٌ، رَجُلٌ). Bütün i‘rab harekeleri açıkça görünür. Maksûr isim, sonu lâzım elifle (ا ya da ى) biten isimdir: الْهُدَى، الْعَصَا، مُوسَى. Üç hareke de takdîrî olur, hiçbiri görünmez. Mankûs isim, sonu öncesi esreli lâzım ي ile biten isimdir: الْقَاضِي، الدَّاعِي، النَّادِي. Ref ve cer takdîrî olur, nasb görünür (رَأَيْتُ الْقَاضِيَ). Belirsiz hâlde ref ve cerde ي düşer ve tenvin alır: قَاضٍ، رَاعٍ. Memdûd isim, sonu elif ve ondan sonra ziyade hemze ile biten isimdir: سَمَاءٌ، صَحْرَاءُ، حَمْرَاءُ. Bütün harekeler görünür.",
+  {
+   "tablo": [
+    [
+     "Çeşit",
+     "Sonu",
+     "Örnek",
+     "İ‘rab"
+    ],
+    [
+     "Sahih",
+     "İllet harfi yok",
+     "كِتَابٌ، قَلَمٌ",
+     "Harekeler görünür (lafzî)"
+    ],
+    [
+     "Maksûr",
+     "ا / ى (lâzım elif)",
+     "الْهُدَى، فَتًى، عَصًا",
+     "Üç hareke takdîrî"
+    ],
+    [
+     "Mankûs",
+     "Esreden sonra ي",
+     "الْقَاضِي، قَاضٍ",
+     "Ref ve cer takdîrî, nasb lafzî"
+    ],
+    [
+     "Memdûd",
+     "ا + ء (ziyade hemze)",
+     "سَمَاءٌ، صَحْرَاءُ",
+     "Harekeler görünür"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Verilen cümlede hangi isim çeşidi yoktur?” sorusunda cümlede her kelimenin sonuna bak. Sonu ى/ا olan kelime maksûr, ي (öncesi esreli) ya da tenvinli ـٍ ile biten (رَاعٍ) mankûs, ـَاءُ ile biten memdûddur. أَبْيَضُ gibi renk sıfatı ise sahih bir isimdir; maksûr ya da memdûd sanılmamalıdır. Müennesi بَيْضَاءُ ise memdûddur."
+  },
+  {
+   "b": "4. Müzekker–müennes; tesniye ve cemi"
+  },
+  "Arapçada isim, cinsiyet bakımından müzekker (eril) ya da müennestir (dişil). Müennesin üç alameti vardır: ta-i merbûta (فَاطِمَةُ، شَجَرَةٌ), maksûre elif (كُبْرَى، ذِكْرَى) ve memdûde elif (حَمْرَاءُ). Alametsiz müennesler de vardır. Bunlara semâî müennes denir: شَمْسٌ، أَرْضٌ، نَارٌ، دَارٌ ve vücudun çift organları (عَيْنٌ، يَدٌ، رِجْلٌ). Bazı kelimeler hem müzekker hem müennes kullanılabilir: طَرِيقٌ، سَبِيلٌ، سُوقٌ.",
+  "Sayı bakımından isim müfred (tekil), müsennâ (ikil) ve cemidir (çoğul). Tesniye, ismin sonuna ref hâlinde ـَانِ, nasb ve cer hâlinde ـَيْنِ getirilerek yapılır: كِتَابَانِ، كِتَابَيْنِ. Cemi üç çeşittir. Cem-i müzekker sâlim, akıllı erkekleri bildiren isimlerin sonuna ـُونَ (ref) ve ـِينَ (nasb, cer) getirilerek yapılır: مُؤْمِنُونَ، مُؤْمِنِينَ. Cem-i müennes sâlim, sonuna ـَاتٌ getirilerek yapılır: مُؤْمِنَاتٌ. Bu cemi nasb hâlinde de esre alır: خَلَقَ اللّٰهُ السَّمٰوَاتِ. Cem-i mükesser (kırık çoğul) ise kelimenin yapısının bozulmasıyla yapılır ve semâîdir: كُتُبٌ، رِجَالٌ، مَسَاجِدُ، عُلَمَاءُ.",
+  {
+   "tablo": [
+    [
+     "Çoğul",
+     "Yapılışı",
+     "Ref",
+     "Nasb / Cer"
+    ],
+    [
+     "Tesniye",
+     "Sona ek",
+     "مُسْلِمَانِ",
+     "مُسْلِمَيْنِ"
+    ],
+    [
+     "Cem-i müzekker sâlim",
+     "Sona ek",
+     "مُسْلِمُونَ",
+     "مُسْلِمِينَ"
+    ],
+    [
+     "Cem-i müennes sâlim",
+     "Sona ـَاتٌ",
+     "مُسْلِمَاتٌ",
+     "مُسْلِمَاتٍ (nasbda da esre)"
+    ],
+    [
+     "Cem-i mükesser",
+     "Yapı değişir",
+     "كُتُبٌ، رِجَالٌ",
+     "Harekeyle"
+    ]
+   ]
+  },
+  "Tesniye ve cem-i müzekker sâlim bir isme izafe edildiğinde (tamlamanın birinci öğesi olduğunda) sondaki ن düşer. Kur’an’da تَبَّتْ يَدَا أَبِي لَهَبٍ (Ebû Leheb’in iki eli kurusun) ayetinde يَدَانِ kelimesinin ن harfi düşmüştür. Aynı şekilde مُسْلِمُو الْبَلَدِ (beldenin Müslümanları) şeklinde kullanılır.",
+  {
+   "akil": "Tesniye: ـَانِ / ـَيْنِ. Cem-i müzekker sâlim: ـُونَ / ـِينَ. Cem-i müennes sâlim nasbda da esre alır. İzafette tesniye ve cem nûnu düşer: يَدَا أَبِي لَهَبٍ."
+  },
+  {
+   "b": "5. Munsarif ve gayr-i munsarif"
+  },
+  {
+   "merak": "Kur’an’da مُحَمَّدٌ tenvinle, إِبْرَاهِيمُ ise tenvinsiz okunur. İkisi de özel isimdir. Fark nereden doğar? İkincisi gayr-i munsariftir."
+  },
+  "Tenvin alan isme munsarif, tenvin almayan ve cer hâlinde esre yerine üstün alan isme gayr-i munsarif denir: مَرَرْتُ بِإِبْرَاهِيمَ. Bir isim iki sebep bir araya gelince ya da tek başına yeterli bir sebep bulunduğunda gayr-i munsarif olur. Özel isimlerde başlıca sebepler şunlardır: yabancı (a‘cemî) olmak (إِبْرَاهِيمُ، يُوسُفُ), müennes olmak (فَاطِمَةُ، زَيْنَبُ), sonunun ـَانُ olması (عُثْمَانُ، رَمَضَانُ), fiil veznine benzemesi (أَحْمَدُ، يَزِيدُ), terkîb-i mezcî (بَعْلَبَكُّ) ve ma‘dûl olmak (عُمَرُ). Sıfatlarda ise أَفْعَلُ kalıbı (أَحْسَنُ، أَحْمَرُ) ve فَعْلَانُ kalıbı (عَطْشَانُ) gayr-i munsariftir.",
+  "Tek başına yeterli iki sebep vardır. Birincisi müennes elif (maksûre ya da memdûde) ile bitmektir: ذِكْرَى، صَحْرَاءُ، حَمْرَاءُ. İkincisi “müntehe’l-cumû‘” denen son çoğul kalıbıdır. Bu kalıpta elif-i cem‘den sonra iki ya da üç harf bulunur: مَسَاجِدُ، مَصَابِيحُ، مَفَاتِيحُ. Gayr-i munsarif isim başına el- takısı aldığında ya da izafet tamlamasında birinci öğe olduğunda cer hâlinde normal esre alır: فِي الْمَسَاجِدِ، فِي أَحْسَنِ تَقْوِيمٍ.",
+  {
+   "ayet": "Biz insanı en güzel biçimde yarattık.",
+   "kay": "Tîn, 95/4"
+  },
+  {
+   "sinav": "“Aşağıdakilerin hangisi gayr-i munsarif değildir?” sorusunda üç harfli, ortası sâkin, yabancı ya da müennes özel isimlere dikkat et. نُوحٌ، لُوطٌ، هِنْدٌ gibi isimler munsarif kullanılabilir. مُحَمَّدٌ, أَحْمَدُ’den farklı olarak munsariftir."
+  },
+  {
+   "akil": "Gayr-i munsarif: tenvin yok, cerde üstün. Tek başına yeterli sebepler: müennes elif (صَحْرَاءُ) ve müntehe’l-cumû‘ (مَسَاجِدُ). el- takısı ya da izafet → cerde esre döner."
+  },
+  {
+   "not": "İsimlerdeki bu kalıpları Allah’ın isimleri üzerinde tekrar etmek yararlıdır: الْخَالِقُ (ism-i fâil), الْغَفَّارُ ve الْغَفُورُ (mübalağa), الْكَرِيمُ (sıfat-ı müşebbehe), الْأَكْبَرُ (tafdîl)."
+  }
+ ],
+ "ozet": [
+  "Mastar, işi zaman ve şahıstan bağımsız bildiren isimdir; Basralılara göre türetmenin kaynağıdır.",
+  "Sülâsî mücerred mastarları semâî, mezîd mastarları kıyâsîdir.",
+  "Merre (ضَرْبَةٌ), hey’et (جِلْسَةٌ), mîmî (مَرْجِعٌ) ve sınâî (إِنْسَانِيَّةٌ) mastar özel mastar türleridir.",
+  "Müştaklar: ism-i fâil, ism-i mef‘ûl, sıfat-ı müşebbehe, mübalağa, ism-i tafdîl, ism-i zaman-mekân, ism-i âlet.",
+  "Mezîdde ism-i fâil sondan önceki harfi esreli (مُرْسِلٌ), ism-i mef‘ûl üstünlüdür (مُرْسَلٌ).",
+  "أَفْعَلُ tafdîlde müennes فُعْلَى, renk-kusurda müennes فَعْلَاءُ olur.",
+  "Maksûr isimde üç hareke, mankûs isimde ref ve cer takdîrîdir.",
+  "Memdûd isim elif ve ziyade hemze ile biter (سَمَاءٌ، صَحْرَاءُ).",
+  "Müennes alametleri ta-i merbûta, maksûre ve memdûde eliftir; شَمْسٌ ve أَرْضٌ semâî müennestir.",
+  "Cem-i müennes sâlim nasbda da esre alır; izafette tesniye ve cem nûnu düşer.",
+  "Gayr-i munsarif isim tenvin almaz, cerde üstün alır; el- takısı ya da izafetle esreye döner.",
+  "Müntehe’l-cumû‘ ve müennes elif tek başına gayr-i munsariflik sebebidir."
+ ],
+ "kartlar": [
+  {
+   "o": "Câmid isim",
+   "a": "Başka kelimeden türemeyen isim (رَجُلٌ، شَمْسٌ)"
+  },
+  {
+   "o": "Mîmî mastar",
+   "a": "Başında م bulunan mastar (مَرْجِعٌ، مَقْتَلٌ)"
+  },
+  {
+   "o": "Sınâî mastar",
+   "a": "Sonuna ـِيَّةٌ eklenen mastar (إِنْسَانِيَّةٌ)"
+  },
+  {
+   "o": "Mezîdde ism-i fâil – mef‘ûl farkı",
+   "a": "Sondan önceki harf: esre (مُرْسِلٌ) / üstün (مُرْسَلٌ)"
+  },
+  {
+   "o": "Sıfat-ı müşebbehe",
+   "a": "Lâzım fiilden kalıcı nitelik: كَرِيمٌ، حَسَنٌ"
+  },
+  {
+   "o": "Mübalağa kalıpları",
+   "a": "فَعَّالٌ، فَعُولٌ، فَعِيلٌ، مِفْعَالٌ"
+  },
+  {
+   "o": "İsm-i tafdîl",
+   "a": "أَفْعَلُ, müennesi فُعْلَى (أَكْبَرُ / كُبْرَى)"
+  },
+  {
+   "o": "İsm-i âlet kalıpları",
+   "a": "مِفْعَلٌ، مِفْعَالٌ، مِفْعَلَةٌ (مِفْتَاحٌ)"
+  },
+  {
+   "o": "Maksûr isim",
+   "a": "Sonu lâzım elif; üç hareke takdîrî (الْهُدَى)"
+  },
+  {
+   "o": "Mankûs isim",
+   "a": "Sonu ي; ref ve cer takdîrî (الْقَاضِي، قَاضٍ)"
+  },
+  {
+   "o": "Memdûd isim",
+   "a": "Elif + ziyade hemze (سَمَاءٌ)"
+  },
+  {
+   "o": "Semâî müennes",
+   "a": "Alametsiz müennes: شَمْسٌ، أَرْضٌ، عَيْنٌ"
+  },
+  {
+   "o": "Müntehe’l-cumû‘",
+   "a": "Elif-i cem‘den sonra iki/üç harf: مَسَاجِدُ، مَصَابِيحُ"
+  },
+  {
+   "o": "يَدَا أَبِي لَهَبٍ",
+   "a": "İzafet nedeniyle tesniye nûnu düşmüştür"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "ar3-01",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi mezîd bir fiilden türemiş ism-i mef‘ûldür?",
+   "c": [
+    "مُرْسِلٌ",
+    "مُنْزَلٌ",
+    "مَكْتُوبٌ",
+    "كَاتِبٌ",
+    "مَسْجِدٌ"
+   ],
+   "d": 1,
+   "a": "Mezîd bâblarda ism-i mef‘ûl, muzâraat harfi yerine ötreli م getirilip sondan önceki harf üstünlenerek yapılır: مُنْزَلٌ، مُكْرَمٌ.",
+   "ac": [
+    "Sondan önceki harf esreli olduğu için ism-i fâildir.",
+    "Doğru: أَنْزَلَ fiilinden, sondan önceki harf üstünlü.",
+    "Sülâsî mücerredden ism-i mef‘ûldür.",
+    "Sülâsîden ism-i fâildir.",
+    "Sülâsîden ism-i mekândır."
+   ],
+   "kay": "Müştak isimler"
+  },
+  {
+   "id": "ar3-02",
+   "z": 3,
+   "s": "Aşağıdaki kelime–tür eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "حَمْرَاءُ – ism-i tafdîlin müennesi",
+    "مِفْتَاحٌ – ism-i âlet",
+    "كُبْرَى – ism-i tafdîlin müennesi",
+    "غَفَّارٌ – mübalağalı ism-i fâil",
+    "مَجْلِسٌ – ism-i mekân"
+   ],
+   "d": 0,
+   "a": "أَفْعَلُ kalıbı iki türü karşılar. Tafdîlin müennesi فُعْلَى, renk-kusur sıfatının müennesi فَعْلَاءُ kalıbındadır.",
+   "ac": [
+    "Yanlış eşleştirme budur: حَمْرَاءُ renk bildiren sıfat-ı müşebbehenin (أَحْمَرُ) müennesidir.",
+    "Doğru eşleştirmedir; مِفْعَالٌ kalıbı alet bildirir.",
+    "Doğru eşleştirmedir; أَكْبَرُ’in müennesidir.",
+    "Doğru eşleştirmedir; فَعَّالٌ kalıbı mübalağa bildirir.",
+    "Doğru eşleştirmedir; oturulan yer anlamındadır."
+   ],
+   "kay": "İsm-i tafdîl ve sıfat-ı müşebbehe"
+  },
+  {
+   "id": "ar3-03",
+   "z": 3,
+   "s": "مَشَى السَّاعِي فِي الصَّحْرَاءِ وَمَعَهُ عَصًا طَوِيلَةٌ (Ulak çölde yürüdü, yanında uzun bir asa vardı.) cümlesinde aşağıdaki isim çeşitlerinden hangisi yer almaz?",
+   "c": [
+    "Mankûs isim",
+    "Maksûr isim",
+    "Memdûd isim",
+    "İsm-i tafdîl",
+    "Sıfat-ı müşebbehe"
+   ],
+   "d": 3,
+   "a": "Cümlede mankûs (السَّاعِي), maksûr (عَصًا), memdûd (الصَّحْرَاءِ) ve sıfat-ı müşebbehe (طَوِيلَةٌ) vardır; ism-i tafdîl yoktur.",
+   "ac": [
+    "السَّاعِي mankûstur; sonu öncesi esreli ي ile biter.",
+    "عَصًا maksûr isimdir.",
+    "الصَّحْرَاءِ memdûd isimdir.",
+    "Doğru: cümlede أَفْعَلُ kalıbında üstünlük bildiren bir kelime yoktur.",
+    "طَوِيلَةٌ kalıcı nitelik bildiren sıfat-ı müşebbehedir."
+   ],
+   "kay": "İsim çeşitleri"
+  },
+  {
+   "id": "ar3-04",
+   "z": 3,
+   "s": "Mankûs isimle ilgili:\nI. Ref ve cer hâlinde i‘rab takdîrî olur.\nII. Nasb hâlinde hareke görünür.\nIII. Belirsiz hâlde ref ve cerde ي düşer ve tenvin alır.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Mankûs isimde ref ve cer takdîrî, nasb lafzîdir. Belirsiz hâlde ref ve cerde ي düşer: قَاضٍ.",
+   "ac": [
+    "Eksik: nasbda görünür hareke ve tenvinli kullanım da doğrudur.",
+    "Eksik: قَاضٍ örneğindeki ي düşmesi de doğrudur.",
+    "Eksik: رَأَيْتُ الْقَاضِيَ örneğinde nasb görünür.",
+    "Eksik: ref ve cerde hareke takdîrîdir.",
+    "Doğru: mankûs ismin bütün özellikleri sayılmıştır."
+   ],
+   "kay": "Mankûs isim"
+  },
+  {
+   "id": "ar3-05",
+   "z": 2,
+   "s": "الْهُدَى kelimesinin cümlenin her yerinde aynı okunmasının sebebi aşağıdakilerden hangisidir?",
+   "c": [
+    "Mebnî bir isim olması",
+    "Gayr-i munsarif olması",
+    "Maksûr isim olduğu için harekelerin takdîrî olması",
+    "Mankûs isim olması",
+    "Mastar olması"
+   ],
+   "d": 2,
+   "a": "Maksûr isimde üç i‘rab harekesi de takdîrîdir, çünkü sondaki elif hareke kabul etmez.",
+   "ac": [
+    "İsimdir ve mu‘reb sayılır; harekeler takdîrîdir.",
+    "Gayr-i munsariflik tenvin ve cerle ilgilidir.",
+    "Doğru: sonu lâzım elifle biter, hareke görünmez.",
+    "Mankûsun sonu ي’dir.",
+    "Mastar olmak i‘rabı etkilemez."
+   ],
+   "kay": "Maksûr isim"
+  },
+  {
+   "id": "ar3-06",
+   "z": 3,
+   "s": "Aşağıdaki isimlerden hangisi munsariftir (tenvin alır)?",
+   "c": [
+    "إِبْرَاهِيمُ",
+    "مَسَاجِدُ",
+    "مُحَمَّدٌ",
+    "أَحْمَدُ",
+    "صَحْرَاءُ"
+   ],
+   "d": 2,
+   "a": "مُحَمَّدٌ’de gayr-i munsariflik sebebi yoktur. أَحْمَدُ ise hem özel isim hem fiil veznindedir.",
+   "ac": [
+    "Yabancı özel isim olduğu için gayr-i munsariftir.",
+    "Müntehe’l-cumû‘ kalıbındadır, gayr-i munsariftir.",
+    "Doğru: Arapça, müzekker bir özel isimdir; tenvin alır.",
+    "Fiil veznine benzeyen özel isim olduğu için gayr-i munsariftir.",
+    "Memdûde elifle bittiği için gayr-i munsariftir."
+   ],
+   "kay": "Gayr-i munsarif"
+  },
+  {
+   "id": "ar3-07",
+   "z": 3,
+   "s": "لَقَدْ خَلَقْنَا الْإِنْسَانَ فِي أَحْسَنِ تَقْوِيمٍ (Tîn, 95/4) ayetinde أَحْسَنِ kelimesinin esre almasının sebebi aşağıdakilerden hangisidir?",
+   "c": [
+    "Munsarif bir isim olması",
+    "Sıfat-ı müşebbehe olması",
+    "Mankûs isim olması",
+    "İzafet tamlamasında birinci öğe olması",
+    "Başında el- takısı bulunması"
+   ],
+   "d": 3,
+   "a": "أَحْسَنُ gayr-i munsariftir. Ancak izafette birinci öğe olduğu için cer hâlinde normal esre almıştır.",
+   "ac": [
+    "أَحْسَنُ kalıp olarak gayr-i munsariftir.",
+    "Kelime ism-i tafdîldir.",
+    "Kelimenin sonu illet harfi değildir.",
+    "Doğru: gayr-i munsarif isim izafet hâlinde cerde esre alır.",
+    "Kelimede el- takısı yoktur; esre izafetten gelir."
+   ],
+   "kay": "Tîn, 95/4"
+  },
+  {
+   "id": "ar3-08",
+   "z": 2,
+   "s": "Aşağıdakilerin hangisi semâî (alametsiz) müennestir?",
+   "c": [
+    "شَجَرَةٌ",
+    "أَرْضٌ",
+    "ذِكْرَى",
+    "حَمْرَاءُ",
+    "كِتَابٌ"
+   ],
+   "d": 1,
+   "a": "شَمْسٌ، أَرْضٌ، نَارٌ، دَارٌ ve çift organlar (عَيْنٌ، يَدٌ) alametsiz müennestir.",
+   "ac": [
+    "Ta-i merbûta taşıyan kıyâsî müennestir.",
+    "Doğru: müennes alameti taşımadığı hâlde müennes kabul edilir.",
+    "Maksûre elif taşıyan müennestir.",
+    "Memdûde elif taşıyan müennestir.",
+    "Müzekkerdir."
+   ],
+   "kay": "Müzekker – müennes"
+  },
+  {
+   "id": "ar3-09",
+   "z": 3,
+   "s": "تَبَّتْ يَدَا أَبِي لَهَبٍ (Tebbet, 111/1) ayetindeki يَدَا kelimesi ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Tesniye olup izafet nedeniyle nûnu düşmüştür.",
+    "Cem-i mükesser olup nûnu kırık çoğul nedeniyle yoktur.",
+    "Maksûr isimdir.",
+    "Fiil olup ikil fâile işaret eder.",
+    "Gayr-i munsarif olduğu için tenvin almamıştır."
+   ],
+   "d": 0,
+   "a": "Tesniye ve cem-i müzekker sâlim izafet tamlamasında birinci öğe olunca sondaki ن düşer: يَدَانِ → يَدَا أَبِي لَهَبٍ.",
+   "ac": [
+    "Doğru: aslı يَدَانِ; izafette nûn düşer.",
+    "Kelime tesniyedir, kırık çoğul değildir.",
+    "Sondaki elif tesniye alametidir, lâzım elif değildir.",
+    "Kelime isimdir (el).",
+    "Tenvin yokluğu izafettendir."
+   ],
+   "kay": "Tebbet, 111/1"
+  },
+  {
+   "id": "ar3-10",
+   "z": 2,
+   "s": "خَلَقَ اللّٰهُ السَّمٰوَاتِ وَالْأَرْضَ cümlesinde السَّمٰوَاتِ kelimesi mef‘ûl olduğu hâlde esreli okunur. Bunun sebebi aşağıdakilerden hangisidir?",
+   "c": [
+    "Harf-i cerle kullanılmış olması",
+    "Cem-i müennes sâlimin nasb hâlinde de esre alması",
+    "Gayr-i munsarif olması",
+    "Mankûs isim olması",
+    "İzafette ikinci öğe olması"
+   ],
+   "d": 1,
+   "a": "Cem-i müennes sâlim nasb hâlinde üstün yerine esre alır. Bu, ona özgü bir i‘rab kuralıdır.",
+   "ac": [
+    "Önünde harf-i cer yoktur.",
+    "Doğru: bu çoğul türünde nasb alameti esredir.",
+    "Gayr-i munsarif isim cerde üstün alır, nasbda esre almaz.",
+    "Kelime ـَاتٌ ile biter.",
+    "Kelime tamlamada değil, mef‘ûldür."
+   ],
+   "kay": "Cem-i müennes sâlim"
+  },
+  {
+   "id": "ar3-11",
+   "z": 3,
+   "s": "Aşağıdaki çoğullardan hangisi müntehe’l-cumû‘ kalıbında değildir?",
+   "c": [
+    "مَسَاجِدُ",
+    "مَصَابِيحُ",
+    "مَنَازِلُ",
+    "مَفَاتِيحُ",
+    "رِجَالٌ"
+   ],
+   "d": 4,
+   "a": "Müntehe’l-cumû‘ kalıbında elif-i cem‘den sonra iki ya da üç harf bulunur. رِجَالٌ bu kalıpta değildir ve munsariftir.",
+   "ac": [
+    "Elif-i cem‘den sonra iki harf vardır; müntehe’l-cumû‘dur.",
+    "Elif-i cem‘den sonra üç harf vardır; müntehe’l-cumû‘dur.",
+    "Elif-i cem‘den sonra iki harf vardır.",
+    "Elif-i cem‘den sonra üç harf vardır.",
+    "Doğru: فِعَالٌ kalıbındadır; tenvin alır, müntehe’l-cumû‘ değildir."
+   ],
+   "kay": "Müntehe’l-cumû‘"
+  },
+  {
+   "id": "ar3-12",
+   "z": 3,
+   "s": "“Kırmızılıkça daha koyu” anlamını vermek için Arapçada hangi yapı kullanılır?",
+   "c": [
+    "أَحْمَرُ",
+    "حُمْرَى",
+    "مُحْمَرٌّ",
+    "أَشَدُّ حُمْرَةً",
+    "حَمْرَاءُ"
+   ],
+   "d": 3,
+   "a": "Renk ve kusur bildiren köklerden ism-i tafdîl doğrudan yapılmaz. أَشَدُّ، أَكْثَرُ gibi bir tafdîl kelimesinden sonra mastar temyiz olarak getirilir.",
+   "ac": [
+    "Bu kelime renk sıfatıdır, üstünlük bildirmez.",
+    "Böyle bir tafdîl kalıbı kullanılmaz.",
+    "Bu kelime if‘ilâl bâbından ism-i fâildir.",
+    "Doğru: renk ve kusurdan doğrudan tafdîl yapılmaz; yardımcı tafdîl ve temyiz kullanılır.",
+    "Bu kelime renk sıfatının müennesidir."
+   ],
+   "kay": "İsm-i tafdîl"
+  },
+  {
+   "id": "ar3-13",
+   "z": 2,
+   "s": "مَرْجِعٌ (dönüş) kelimesi mastar anlamında kullanıldığında hangi mastar türüdür?",
+   "c": [
+    "Mîmî mastar",
+    "Merre mastarı",
+    "Sınâî mastar",
+    "Hey’et mastarı",
+    "İsm-i âlet"
+   ],
+   "d": 0,
+   "a": "Başında ziyade م bulunan ve mastar anlamı taşıyan kelimeye mîmî mastar denir: مَرْجِعٌ، مَقْتَلٌ، مَصِيرٌ.",
+   "ac": [
+    "Doğru: başında م bulunan mastardır.",
+    "Merre işin bir kez yapıldığını bildirir (رَجْعَةٌ).",
+    "Sınâî mastar ـِيَّةٌ ile yapılır.",
+    "Hey’et, işin biçimini bildirir (فِعْلَةٌ).",
+    "Alet kalıpları مِفْعَلٌ / مِفْعَالٌ’dir."
+   ],
+   "kay": "Mastar türleri"
+  },
+  {
+   "id": "ar3-14",
+   "z": 3,
+   "s": "Aşağıdaki kelimelerin hangisinde فَعِيلٌ kalıbı ism-i mef‘ûl anlamındadır?",
+   "c": [
+    "كَرِيمٌ",
+    "رَحِيمٌ",
+    "قَتِيلٌ",
+    "عَلِيمٌ",
+    "سَمِيعٌ"
+   ],
+   "d": 2,
+   "a": "فَعِيلٌ kalıbı sıfat-ı müşebbehe, mübalağa ve ism-i mef‘ûl anlamlarında gelebilir. قَتِيلٌ ve جَرِيحٌ ism-i mef‘ûl anlamındadır.",
+   "ac": [
+    "Cömert anlamında sıfat-ı müşebbehedir.",
+    "Çok merhametli anlamında mübalağalı ism-i fâildir.",
+    "Doğru: “öldürülmüş” anlamında ism-i mef‘ûl yerine kullanılır.",
+    "Çok bilen anlamında mübalağadır.",
+    "Çok işiten anlamında mübalağadır."
+   ],
+   "kay": "فَعِيلٌ kalıbı"
+  },
+  {
+   "id": "ar3-15",
+   "z": 3,
+   "s": "Gayr-i munsarif isimlerle ilgili:\nI. Tenvin almazlar.\nII. Cer hâlinde esre yerine üstün alırlar.\nIII. Başlarına el- takısı gelince cer hâlinde esre alırlar.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Gayr-i munsarif isim tenvin almaz ve cerde üstün alır. el- takısı aldığında ya da izafette birinci öğe olduğunda cerde normal esre alır.",
+   "ac": [
+    "Eksik: cerde üstün alma ve el- ile esreye dönme de doğrudur.",
+    "Eksik: فِي الْمَسَاجِدِ örneği üçüncü ifadeyi doğrular.",
+    "Eksik: مَرَرْتُ بِإِبْرَاهِيمَ örneği ikinci ifadeyi doğrular.",
+    "Eksik: tenvin almamak gayr-i munsarifin tanımıdır.",
+    "Doğru: gayr-i munsarifin üç özelliği de sayılmıştır."
+   ],
+   "kay": "Gayr-i munsarif"
+  }
+ ]
+}

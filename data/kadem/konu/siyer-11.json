@@ -1,0 +1,897 @@
+{
+ "id": "siyer-11",
+ "ad": "Abbâsîler",
+ "ders": "Siyer ve İslam Tarihi",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Gizli davetten iktidara: Abbâsî ihtilali"
+  },
+  {
+   "merak": "Otuz yıl boyunca tüccar kılığındaki davetçiler Horasan köylerinde dolaştı. İsim vermeden tek bir şeye çağırdılar: “Muhammed ailesinden razı olunacak kişiye!” Bayrakları ve elbiseleri siyahtı; kimin adına çalıştıklarını yalnızca birkaç kişi biliyordu."
+  },
+  "Abbâsî Devleti (132-656/750-1258), adını Hz. Peygamber’in amcası Abbas b. Abdülmuttalib’den alır. Abbâsî hareketi, Ehl-i beyt’e duyulan sevgiyi ve Emevî yönetimine karşı biriken öfkeyi ustaca kullanan gizli bir teşkilattır. Davet merkezi Ürdün’ün güneyindeki küçük Humeyme köyüydü; teşkilatın başında İbn Abbas’ın torunu Muhammed b. Ali, ardından oğlu İbrâhim el-İmâm bulunuyordu. Propagandanın yürütüldüğü iki ana bölge Kûfe ve Horasan’dı.",
+  "Davetçiler kimin adına çalıştıklarını açıklamadan “er-Rızâ min âl-i Muhammed” (Muhammed ailesinden razı olunacak kişi) sloganını kullandı. Bu belirsizlik, Ali soyunu destekleyenleri de harekete çekti. Hareketin askerî gücü, Horasan’daki mevâlî ve Arap yerleşimcilerdi. Davetin Horasan’daki önderi, kökeni tartışmalı genç bir mevlâ olan Ebû Müslim el-Horasânî’ydi. Ebû Müslim 129/747’de Merv yakınlarında siyah bayrakları açarak ayaklandı. Siyah renk, Abbâsîlerin resmî rengi oldu.",
+  "Horasan ordusu batıya ilerledi; Kûfe’de 132/749 yılında Ebü’l-Abbâs Abdullah’a halife olarak biat edildi. Kûfe’deki davet sorumlusu Ebû Seleme el-Hallâl ise hilafeti Ali soyuna geçirmek istediği için şüpheyle karşılandı ve sonra öldürüldü; kendisine “vezîru âl-i Muhammed” deniyordu. Abbâsî ordusu 132/750’de Büyük Zap Suyu kıyısında Emevî halifesi II. Mervân’ı yendi. Ebü’l-Abbâs, Emevî ailesine karşı yaptığı sert takip ve katliamlar yüzünden “es-Seffâh” (çok kan döken) lakabıyla anıldı.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Açıklama"
+    ],
+    [
+     "Humeyme",
+     "Abbâsî davetinin yönetildiği Ürdün’deki köy"
+    ],
+    [
+     "Kûfe ve Horasan",
+     "Davetin iki büyük faaliyet bölgesi"
+    ],
+    [
+     "er-Rızâ min âl-i Muhammed",
+     "Belirsiz bırakılan, Ehl-i beyt’ten razı olunacak kişiye çağrı sloganı"
+    ],
+    [
+     "Ebû Müslim el-Horasânî",
+     "Horasan’da ihtilali başlatan ve yöneten komutan (747)"
+    ],
+    [
+     "Ebû Seleme el-Hallâl",
+     "Kûfe’deki davet sorumlusu; “vezîru âl-i Muhammed”"
+    ],
+    [
+     "Zap Savaşı",
+     "132/750; Emevîlerin yıkılışı"
+    ],
+    [
+     "Siyah renk",
+     "Abbâsîlerin bayrak ve resmî elbise rengi (Emevîlerinki beyaz)"
+    ]
+   ]
+  },
+  "Abbâsîler iktidara gelince dinî bir meşruiyet dili kullandılar. Ebü’l-Abbâs Kûfe’deki ilk hutbesinde ayet ve hadislere dayanarak hilafetin Ehl-i beyt’in hakkı olduğunu ve Allah tarafından kendilerine verildiğini anlattı. Halifeler sonraları “Zıllullah fi’l-arz” (Allah’ın yeryüzündeki gölgesi) gibi ifadelerle anıldı ve her halife bir saltanat lakabı (el-Mansûr, el-Mehdî, er-Reşîd gibi) kullandı. Bu, Emevîlere göre daha dinî ve merasimli bir halifelik anlayışıdır.",
+  {
+   "sinav": "MBSTS 2023: Emevîlerin son yıllarında dışlanan, Abbâsî iktidarından en çok memnun kalan ve yönetimde söz sahibi olan grup → mevâlî. Abbâsîler mevâlîyi Araplarla eşit tuttu, hatta İranlı ve Türk mevâlî Araplardan daha etkili hâle geldi. Ali soyu (Şîa) ise kısa sürede hayal kırıklığına uğradı."
+  },
+  {
+   "akil": "Humeyme’den yönetilen gizli davet; Kûfe ve Horasan; “er-Rızâ min âl-i Muhammed”; Ebû Müslim, siyah bayrak; Kûfe’de Seffâh’a biat (749), Zap (750)."
+  },
+  {
+   "b": "2. Mansûr’dan Me’mûn’a: altın çağ"
+  },
+  {
+   "merak": "Ebû Ca’fer el-Mansûr yeni başkentini kurmak için Dicle kıyısında yer ararken bir rahip ona eski bir kitabında “Burada Miklâs adlı biri bir şehir kuracak” yazdığını söyledi. Mansûr gülerek cevap verdi: “Çocukken bana Miklâs derlerdi!”"
+  },
+  "Ebû Ca’fer el-Mansûr (136-158/754-775), devletin temellerini sağlamlaştırdığı için Abbâsîlerin gerçek kurucusu kabul edilir. Kendisine rakip olabilecek gücü ortadan kaldırmak için Ebû Müslim’i öldürttü (137/755); bunun üzerine Horasan’da Sinbad gibi Ebû Müslim adına isyanlar çıktı. Ali soyundan Muhammed en-Nefsü’z-Zekiyye Medine’de, kardeşi İbrâhim Basra’da ayaklandı (145/762); her iki isyan da bastırıldı ve Abbâsîlerle Ali soyunun yolları kesin olarak ayrıldı.",
+  "Mansûr, 145-149/762-766 yılları arasında Dicle kıyısında, ticaret yollarının kesiştiği yerde yeni başkent Bağdat’ı kurdu. Şehrin resmî adı “Medînetü’s-Selâm” (barış şehri) idi; merkezinde saray ve camiyi barındıran yuvarlak bir plana sahipti. İmam Ebû Hanîfe, Mansûr’un baş kadılık teklifini kabul etmediği için hapsedildi ve 150/767’de vefat etti.",
+  "Mehdî (158-169/775-785), zındıklarla mücadele için özel bir görevli (sâhibü’z-zenâdıka) atadı. Mukanna isyanı onun döneminde bastırıldı. Kısa süren Hâdî döneminden sonra Hârûnürreşîd (170-193/786-809) halife oldu. Hârûn dönemi, Abbâsî ihtişamının sembolüdür: Bermekî ailesinden Yahyâ b. Hâlid ve oğulları vezir olarak devleti yönetti; ancak güçleri halifeyi rahatsız edince 187/803’te aile aniden gözden düşürüldü (Bermekî faciası). Ebû Hanîfe’nin talebesi Ebû Yûsuf ilk kâdılkudât (baş kadı) oldu ve Hârûn’un isteğiyle vergi hukukunu anlatan Kitâbü’l-harâc’ı yazdı. Frank kralı Charlemagne ile elçi ve hediye değişimi yapıldı; Bizans’la sınır boylarında (avâsım ve sugūr) mücadele sürdü.",
+  {
+   "tablo": [
+    [
+     "Halife",
+     "Dönem",
+     "Öne çıkan olaylar"
+    ],
+    [
+     "Ebü’l-Abbâs es-Seffâh",
+     "132-136/749-754",
+     "Kuruluş, Zap (750), Talas (751)"
+    ],
+    [
+     "Ebû Ca’fer el-Mansûr",
+     "136-158/754-775",
+     "Gerçek kurucu; Ebû Müslim’in öldürülmesi; Bağdat (762); Endülüs’ün kopuşu (756); Ebû Hanîfe’nin hapsi"
+    ],
+    [
+     "Mehdî",
+     "158-169/775-785",
+     "Zındıklarla mücadele, Mukanna isyanı"
+    ],
+    [
+     "Hârûnürreşîd",
+     "170-193/786-809",
+     "Bermekîler, ilk kâdılkudât Ebû Yûsuf, Charlemagne ile ilişki, İdrîsîler ve Ağlebîler"
+    ],
+    [
+     "Emîn",
+     "193-198/809-813",
+     "Me’mûn ile taht mücadelesi; Bağdat kuşatması"
+    ],
+    [
+     "Me’mûn",
+     "198-218/813-833",
+     "Beytülhikme’nin gelişmesi, Mu’tezile resmî görüş, mihne (218/833), Tâhirîler"
+    ],
+    [
+     "Mu’tasım",
+     "218-227/833-842",
+     "Türk askerleri, Sâmerrâ (836), Bâbek isyanının sonu, Amorium (838)"
+    ],
+    [
+     "Vâsık",
+     "227-232/842-847",
+     "Mihnenin devamı"
+    ],
+    [
+     "Mütevekkil",
+     "232-247/847-861",
+     "Mihneye son, Sünnî politikaya dönüş; öldürülmesiyle Türk nüfuz dönemi"
+    ]
+   ]
+  },
+  "Hârûn, oğulları Emîn ile Me’mûn’u sırayla veliaht ilan etti ve devleti aralarında paylaştırdı; anlaşma metni Kâbe’ye asıldı. Hârûn’un ölümünden sonra halife olan Emîn, kardeşinin veliahtlığını iptal edip oğlunu veliaht yapınca iç savaş çıktı. Araplar ve Bağdatlılar Emîn’i, İranlı ve Türk unsurların ağırlıkta olduğu Horasanlılar Me’mûn’u destekledi. Me’mûn’un komutanı Tâhir b. Hüseyin Bağdat’ı kuşattı; Emîn öldürüldü (198/813). Bu savaş, veliahtlık sisteminin taht kavgalarını önleyemediğini ve yönetimde farklı etnik grupların etkili olduğunu gösterir.",
+  "Me’mûn (198-218/813-833) dönemi, ilmî faaliyetlerin zirvesidir: Beytülhikme genişletildi, Yunanca, Süryanice, Farsça ve Sanskritçe eserler Arapçaya çevrildi (ayrıntılar İslam medeniyeti konusunda). Me’mûn, Ali soyunu yanına çekmek için sekizinci imam Ali er-Rızâ’yı veliaht ilan etti ve resmî rengi yeşile çevirdi; ancak Bağdat’ın tepkisi ve Ali er-Rızâ’nın ani ölümü (203/818) üzerine bu girişimden vazgeçildi. Horasan valiliğine Tâhir b. Hüseyin getirildi; onun soyundan gelenler Tâhirîler adıyla yarı bağımsız bir hanedan kurdu (821).",
+  {
+   "sinav": "MBSTS 2017: Emîn-Me’mûn mücadelesi paragrafından “veliahtlık sisteminin taht kavgalarına engel olduğu” sonucuna ULAŞILAMAZ. Ulaşılabilecekler: yönetimde farklı grupların etkisi, hanedan yönetimi, Hârûn’un iki oğlunu da veliaht yapması, kesin bir veraset kuralının olmaması."
+  },
+  {
+   "akil": "Mansûr: gerçek kurucu, Bağdat (Medînetü’s-Selâm, 762). Hârûn: Bermekîler, Ebû Yûsuf (ilk kâdılkudât, Kitâbü’l-harâc). Emîn-Me’mûn savaşı: Araplar Emîn’i, Horasanlılar Me’mûn’u destekledi."
+  },
+  {
+   "b": "3. Mihne ve Mütevekkil’in dönüşü"
+  },
+  {
+   "merak": "Ellerinden zincirle bağlı bir âlim halifenin huzuruna getirildi. Ona soruldu: “Kur’an mahluk mudur?” Cevabı hep aynıydı: “Bana Allah’ın Kitabı’ndan ya da Resûlü’nün sünnetinden bir delil getirin, kabul edeyim.” Kamçılar sırtına inerken de bu cümleyi tekrarladı."
+  },
+  "Emevîler döneminde ortaya çıkan Mu’tezile, Me’mûn döneminde devletin resmî görüşü hâline geldi. Me’mûn 218/833’te Bağdat valisine yazdığı mektuplarla kadıların, fakihlerin ve muhaddislerin “Kur’an’ın mahluk (yaratılmış) olduğu” görüşünü kabul edip etmediklerinin sınanmasını emretti. Bu sorgulama sürecine mihne (imtihan, sınama) denir. Kabul etmeyenler görevden alındı, hapsedildi veya işkence gördü. Mihnenin en ünlü direnişçisi Ahmed b. Hanbel’dir; Me’mûn’un ölümünden sonra Mu’tasım döneminde kırbaçlanmış, Vâsık döneminde de baskı altında yaşamıştır. Mihne’nin uygulayıcısı olarak kadı Ahmed b. Ebî Duâd öne çıkar.",
+  "Mihne, Mu’tasım ve Vâsık dönemlerinde devam etti. Mütevekkil (232-247/847-861) ise mihneyi sona erdirdi (234/848 civarı), Mu’tezile’ye verilen resmî desteği çekti ve Ehl-i hadis çizgisini destekleyen Sünnî bir politika izledi. Bu dönüş, Sünnî kelamın (Eş’arîlik ve Mâtürîdîlik) ilerleyen dönemde güçlenmesine de zemin hazırladı. Mihne, devletin belirli bir itikadi görüşü zorla dayatmasının topluma zarar verdiğini gösteren tarihî bir örnek olarak anılır.",
+  {
+   "tablo": [
+    [
+     "Karıştırılan kavram",
+     "Anlamı"
+    ],
+    [
+     "Mihne",
+     "Me’mûn’un başlattığı, “halku’l-Kur’an” görüşünün zorla kabul ettirilmesi süreci (218-234/833-848)"
+    ],
+    [
+     "Fitne",
+     "Hz. Osman’ın şehadetiyle başlayan iç karışıklıklar dönemi"
+    ],
+    [
+     "Fetret",
+     "Hükümdarsız kalınan ya da devlet otoritesinin dağıldığı dönem (ör. Osmanlı’da 1402-1413)"
+    ],
+    [
+     "İ’tizâl",
+     "Fitnede tarafsız kalma; ayrıca Mu’tezile mezhebinin adının kaynağı tartışmasında geçer"
+    ],
+    [
+     "İstibdat",
+     "Keyfî ve baskıcı yönetim"
+    ]
+   ]
+  },
+  {
+   "sinav": "MBSTS 2020: Mu’tezile’nin Me’mûn ile resmî mezhep olması ve “Kur’an mahluktur” görüşünün zorla dayatılması sürecinin adı → mihne. Çeldiriciler: fitne, fetret, cebir, istibdat. Mihneyi sona erdiren halife Mütevekkil’dir."
+  },
+  {
+   "akil": "Mihne: Me’mûn başlattı (218/833), Mu’tasım ve Vâsık sürdürdü, Mütevekkil bitirdi. Konu: halku’l-Kur’an. Direnişin sembolü Ahmed b. Hanbel."
+  },
+  {
+   "b": "4. Türkler, Sâmerrâ ve halifenin zayıflaması"
+  },
+  {
+   "merak": "Mu’tasım’ın Türk askerleri Bağdat sokaklarında atlarını hızla sürünce halk şikâyet etti. Halife çözümü yeni bir şehir kurmakta buldu: Sâmerrâ, yani “Gören sevinir” (Surre men raâ)."
+  },
+  "Mu’tasım (218-227/833-842), annesi Türk olan bir halifeydi. Arap ve Horasanlı birliklere güvenmediği için Mâverâünnehir’den getirilen Türklerden oluşan bir ordu kurdu. Türk askerleri ile Bağdat halkı arasındaki gerginlik üzerine Dicle’nin yukarısında Sâmerrâ şehri kuruldu ve başkent oraya taşındı (221/836). Sâmerrâ, 892’ye kadar (Mu’temid döneminde Bağdat’a geri dönülene kadar) başkent olarak kaldı.",
+  "Mu’tasım döneminde Türk komutan Afşin, yirmi yıldan fazla süren Bâbek el-Hürremî isyanını bastırdı (223/837-838). Bizans’a karşı yapılan Amorium (Ammûriye) seferi de (223/838) bu dönemdedir. Türk komutanlar (Afşin, Boğa, Eşnas, Vasîf, Itah) devlet yönetiminde giderek etkili oldu. Mütevekkil’in kendi oğlu Müntasır ile işbirliği yapan Türk komutanlarca öldürülmesiyle (247/861) Türk nüfuz dönemi başladı; halifeler komutanların elinde tahta çıkarılıp indirilen sembolik figürlere dönüştü.",
+  "Bu dönemde devleti sarsan büyük isyanlar da patlak verdi. Güney Irak’taki tuzlalarda ağır şartlarda çalıştırılan siyah köleler (Zenc), Ali b. Muhammed önderliğinde ayaklandı ve Basra’yı yağmaladı (255-270/869-883). İsyanı halifenin kardeşi Muvaffak bastırdı. İsmâilî kökenli Karmatîler Bahreyn’de (Ahsâ) devlet kurdu; hac yollarını kesti, 317/930’da Mekke’yi basarak Hacerülesved’i yerinden söküp götürdü. Taş ancak 339/951’de iade edildi.",
+  "Halifeler iktidarı korumak için 324/936’da “emîrü’l-ümerâ” (emirlerin emiri) makamını kurdu ve ilk olarak İbn Râik’e verdi. Bu makam, askerî ve idari yetkinin tamamen bir komutana devredilmesi demekti; halife artık yalnız dinî ve sembolik bir otoriteydi. 334/945’te Şiî Büveyhîler Bağdat’a girdi ve yüz yılı aşkın bir süre halifeyi denetim altında tuttu; halifeyi tahttan indirip yenisini getirebiliyorlardı. 447/1055’te Selçuklu sultanı Tuğrul Bey Bağdat’a girerek Büveyhî hâkimiyetine son verdi ve Sünnî halifeyi koruma altına aldı. Fâtımîler adına Bağdat’ta hutbe okutan Besâsîrî olayı (450-451/1058-1059) da Tuğrul Bey tarafından bitirildi.",
+  {
+   "tablo": [
+    [
+     "Dönem",
+     "Yaklaşık tarih",
+     "Özellik"
+    ],
+    [
+     "Altın çağ",
+     "750-847",
+     "Güçlü halifeler; ilim ve tercüme"
+    ],
+    [
+     "Türk nüfuz (Sâmerrâ) dönemi",
+     "861-945",
+     "Türk komutanların halifeleri belirlemesi; emîrü’l-ümerâ (936)"
+    ],
+    [
+     "Büveyhî hâkimiyeti",
+     "945-1055",
+     "Şiî Büveyhîlerin Bağdat’ı denetlemesi"
+    ],
+    [
+     "Selçuklu hâkimiyeti",
+     "1055-1194",
+     "Tuğrul Bey Bağdat’ta; Sünnî halifeliğin himayesi"
+    ],
+    [
+     "Son dönem",
+     "1194-1258",
+     "Nâsır li-Dînillâh’ın canlanma çabası; Moğol istilasıyla son"
+    ]
+   ]
+  },
+  {
+   "sinav": "Karmatîler → Hacerülesved’in sökülüp götürülmesi (930). Zenc → köle isyanı, Basra (869-883). Sâmerrâ → Mu’tasım (836). Emîrü’l-ümerâ → 936, İbn Râik. Büveyhîler (945) Şiî’dir ve İran-Irak kökenlidir, Kuzey Afrika devleti değildir."
+  },
+  {
+   "akil": "Mu’tasım: Türk ordusu, Sâmerrâ, Bâbek’in sonu (Afşin), Amorium. Mütevekkil’in öldürülmesi (861) → Türk nüfuzu. Zenc (869-883), Karmatîler (Hacerülesved, 930), emîrü’l-ümerâ (936), Büveyhîler (945), Tuğrul Bey Bağdat’ta (1055)."
+  },
+  {
+   "b": "5. İsyanlar ve kopmalar"
+  },
+  {
+   "merak": "Horasan’da yüzünü altın bir peçeyle örten bir adam, kuyudan her gece bir “ay” çıkardığını iddia ediyordu. Taraftarları ona tanrı diye tapıyordu. Kuşatma altındaki kalesinde, yakalanmamak için kendini ateşe attığı anlatılır."
+  },
+  "Abbâsî dönemindeki isyanlar ikiye ayrılır: Bir kısmı yalnızca yönetime karşıdır (Ali soyunun isyanları, Hâricîler); bir kısmı ise hem yönetime hem İslam’a karşıdır. İkinci gruptaki hareketler, çoğunlukla İran ve Horasan’da eski İran dinlerini (Zerdüştlük, Mazdekîlik, Maniheizm) canlandırmak isteyen, tenasüh (ruh göçü) ve hulûl inancını savunan akımlardır.",
+  {
+   "tablo": [
+    [
+     "İsyan",
+     "Bölge / tarih",
+     "Özellik"
+    ],
+    [
+     "Sinbad",
+     "Horasan, 755",
+     "Ebû Müslim’in öldürülmesi üzerine, onun intikamı adına"
+    ],
+    [
+     "Râvendiyye",
+     "Horasan-Irak, 758 civarı",
+     "Halifeyi tanrılaştıran aşırı grup"
+    ],
+    [
+     "Üstâzsîs",
+     "Horasan, 767",
+     "Peygamberlik iddiası"
+    ],
+    [
+     "Mukanna (Peçeli)",
+     "Horasan-Merv, 776-783 civarı",
+     "Hâşim b. Hakîm; önce peygamberlik, sonra ilahlık iddiası, tenasüh"
+    ],
+    [
+     "Bâbek el-Hürremî",
+     "Azerbaycan, 816-837",
+     "En uzun süreli ve teşkilatlı isyan; Afşin bastırdı"
+    ],
+    [
+     "Mazyar",
+     "Taberistan, 839",
+     "Mecûsî kökenli; Bâbek ile bağlantılı"
+    ],
+    [
+     "Zındıklık",
+     "Irak-İran",
+     "Müslüman görünüp Maniheist/Zerdüşt inancını sürdürme"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Mukanna isyanının bastırılma tarihi kaynaklarda 163/780, 166/783 ve 169/785 civarı olarak farklı verilir; bazı Türkçe ders kitapları 789 tarihini kullanır."
+  },
+  "Abbâsî Devleti çok geniş bir coğrafyayı yönettiği için kuruluşundan itibaren kopmalar yaşandı. İlk kopma, Emevî ailesinden kaçan Abdurrahman’ın Endülüs’te bağımsız Emevî Devleti’ni kurmasıdır (756). Daha sonra uzak eyaletlerin valileri, halife adına hutbe okuttukları hâlde fiilen bağımsız hanedanlar kurdular. Bunlar halifeyi dinî lider olarak tanımaya devam ettiği için “bağımsız” değil “yarı bağımsız” sayılır.",
+  {
+   "tablo": [
+    [
+     "Devlet",
+     "Bölge",
+     "Tarih",
+     "Not"
+    ],
+    [
+     "Endülüs Emevîleri",
+     "İspanya",
+     "756-1031",
+     "İlk kopma; 929’da halifelik ilanı"
+    ],
+    [
+     "İdrîsîler",
+     "Fas",
+     "788-985",
+     "Hz. Hasan soyundan İdrîs b. Abdullah; Şiî eğilimli ilk devlet"
+    ],
+    [
+     "Rüstemîler",
+     "Cezayir (Tâhert)",
+     "777-909",
+     "İbâzî Hâricî"
+    ],
+    [
+     "Midrârîler",
+     "Fas (Sicilmâse)",
+     "772-977",
+     "Sufrî Hâricî"
+    ],
+    [
+     "Ağlebîler",
+     "Tunus (Kayrevan)",
+     "800-909",
+     "Hârûn’un izniyle; Sicilya’yı fethetti"
+    ],
+    [
+     "Tâhirîler",
+     "Horasan",
+     "821-873",
+     "Me’mûn’un komutanı Tâhir’in soyu"
+    ],
+    [
+     "Saffârîler",
+     "Sîstan",
+     "861-1003",
+     "Ya’kūb b. Leys"
+    ],
+    [
+     "Sâmânîler",
+     "Mâverâünnehir-Horasan",
+     "819/874-999",
+     "Buhara; Türklerin İslamlaşmasında etkili"
+    ],
+    [
+     "Tolunoğulları",
+     "Mısır",
+     "868-905",
+     "İlk Türk-İslam hanedanlarından"
+    ],
+    [
+     "İhşîdîler",
+     "Mısır",
+     "935-969",
+     "Türk kökenli"
+    ],
+    [
+     "Hamdânîler",
+     "Musul-Halep",
+     "905-1004",
+     "Şiî Arap hanedanı; Seyfüddevle"
+    ],
+    [
+     "Büveyhîler",
+     "İran-Irak",
+     "932-1062",
+     "Şiî; 945’te Bağdat’a girdi"
+    ],
+    [
+     "Fâtımîler",
+     "Kuzey Afrika-Mısır",
+     "909-1171",
+     "İsmâilî Şiî; rakip halifelik"
+    ]
+   ]
+  },
+  {
+   "sinav": "MBSTS 2019: Kuzey Afrika’da Abbâsî otoritesinin zayıflamasıyla kurulan devletler: İdrîsîler, Rüstemîler, Midrârîler, Ağlebîler. Büveyhîler Kuzey Afrika devleti değildir. Hâricî devletler: Rüstemîler (İbâzî), Midrârîler (Sufrî). Abbâsîlerden ilk kopma Endülüs’tür."
+  },
+  {
+   "akil": "İslam karşıtı isyanlar: Sinbad, Mukanna (Peçeli), Bâbek (en tehlikelisi), Mazyar, zındıklar. Kopmalar: Endülüs (ilk), İdrîsî, Rüstemî, Midrârî, Ağlebî, Tâhirî, Saffârî, Sâmânî, Tolunoğulları, İhşîdî, Büveyhî, Fâtımî."
+  },
+  {
+   "b": "6. Abbâsî kurumları ve medeniyete katkıları"
+  },
+  {
+   "merak": "Bir Abbâsî kadısının önüne gelen davada davalı halifenin kendisiydi. Kadı, halifeyi davacıyla aynı hizada oturttu; halife itiraz etmedi. Kurumlar, kişilerden güçlü olduğu sürece adalet işledi."
+  },
+  "Abbâsîler, Sâsânî yönetim geleneğinden de yararlanarak İslam devlet teşkilatını kurumsallaştırdı. Halifeden sonra en yetkili makam olan vezirlik (ilk olarak Ebû Seleme el-Hallâl “vezîru âl-i Muhammed” unvanıyla, kurumsal olarak Bermekîlerle) bu dönemde ortaya çıktı. Vezirler “tefvîz” (geniş yetkili) ve “tenfîz” (yalnız uygulayıcı) olarak ikiye ayrıldı. Yargıda bütün kadıların başı olarak kâdılkudâtlık (Hârûnürreşîd, Ebû Yûsuf) kuruldu. Şehirlerde güvenliği şurta (polis), çarşı-pazar ve kamu ahlakını muhtesib (hisbe teşkilatı) denetledi; ağır davalara bakan mezâlim mahkemeleri, Hz. Peygamber soyundan gelenlerin işlerine bakan nakîbü’l-eşraf görevi de bu dönemde belirginleşti.",
+  {
+   "tablo": [
+    [
+     "Kurum",
+     "Abbâsî dönemindeki işlevi",
+     "Karıştırılan dönem"
+    ],
+    [
+     "Vezirlik",
+     "Halifeden sonra en yetkili makam",
+     "Emevîlerde kurumsal değildir"
+    ],
+    [
+     "Kâdılkudâtlık",
+     "Kadıların başı; ilk Ebû Yûsuf",
+     "Hz. Ömer döneminde valilerin yanında kadı vardı ama baş kadı yoktu"
+    ],
+    [
+     "Emîrü’l-ümerâ",
+     "936’dan itibaren askerî-idari yetkili",
+     "Osmanlı’daki beylerbeyi ile karıştırılmamalı"
+    ],
+    [
+     "Hisbe / muhtesib",
+     "Çarşı-pazar ve kamu ahlakının denetimi",
+     "Osmanlı’da ihtisap ağası"
+    ],
+    [
+     "Mezâlim",
+     "Yönetimden kaynaklanan haksızlıklara bakan yüksek mahkeme",
+     "Normal kadı mahkemesinden ayrıdır"
+    ],
+    [
+     "Berîd",
+     "Posta-istihbarat (Emevîlerden devralındı)",
+     "Muâviye kurdu"
+    ]
+   ]
+  },
+  "Abbâsîlerin İslam medeniyetine en büyük katkısı ilim ve düşünce alanındadır. Hadis, fıkıh, tefsir, kelam ve tasavvuf gibi ilimler bu dönemde olgunlaştı: Dört Sünnî mezhebin imamları (Ebû Hanîfe, Mâlik, Şâfiî, Ahmed b. Hanbel), Kütüb-i Sitte müellifleri, Taberî’nin tefsiri ve tarihi, Eş’arî ve Mâtürîdî bu dönemde yaşadı. Beytülhikme etrafında yürütülen tercüme hareketi, Kindî, Fârâbî, Ebû Bekir er-Râzî, İbn Sînâ gibi filozof ve bilginleri yetiştiren ortamı hazırladı. Bu konular “İslam medeniyeti” başlığında ayrıntılı anlatılmıştır.",
+  "Abbâsî mimarisinin örnekleri: Bağdat’ın yuvarlak şehir planı, Rakka, Sâmerrâ Ulu Camii ve onun sarmal minaresi (Melviye), Ebû Dülef Camii, Uhaydır Sarayı ve Câmiu’l-Hakānî (Halife) Sarayı. Kâğıdın Talas Savaşı’ndan (751) sonra Semerkant’ta üretilmeye başlanması ve Hârûn döneminde Bağdat’ta kâğıt imalathanesinin kurulması, kitap kültürünün yaygınlaşmasında belirleyici oldu.",
+  {
+   "sinav": "Abbâsî kurumları sorusunda vezirlik ve kâdılkudâtlık doğru; “divan teşkilatının ilk kez kurulması” yanlış (Hz. Ömer). Abbâsîlerin “dinî meşruiyete dayalı halifelik” anlayışı ile Emevîlerin “Arap üstünlüğüne dayalı” yönetimi karşılaştırılarak sorulur."
+  },
+  {
+   "akil": "Abbâsî kurumları: vezirlik (Sâsânî etkisi, Bermekîler), kâdılkudât (Ebû Yûsuf), emîrü’l-ümerâ, şurta, hisbe, mezâlim, nakîbü’l-eşraf. En büyük katkı: ilim ve düşünce. 1258’de Moğollar Bağdat’ı yıktı (Hülâgû)."
+  }
+ ],
+ "ozet": [
+  "Abbâsî Devleti 750-1258; adını Hz. Abbas’tan alır; davet merkezi Humeyme, faaliyet alanı Kûfe ve Horasan.",
+  "Slogan “er-Rızâ min âl-i Muhammed”; Horasan’da Ebû Müslim siyah bayrakla ayaklandı (747); Zap (750).",
+  "Abbâsîler mevâlîyi Araplarla eşit tuttu; Emevî Arap üstünlüğünü terk ettiler.",
+  "Mansûr gerçek kurucudur: Ebû Müslim’i öldürttü, Bağdat’ı kurdu (Medînetü’s-Selâm, 762); Ebû Hanîfe hapiste vefat etti (767).",
+  "Hârûnürreşîd: Bermekî vezirler (803’te düşürüldüler), ilk kâdılkudât Ebû Yûsuf (Kitâbü’l-harâc), Charlemagne ile ilişki.",
+  "Emîn-Me’mûn savaşı: Araplar Emîn’i, Horasanlılar Me’mûn’u destekledi; veliahtlık sistemi taht kavgasını önleyemedi.",
+  "Me’mûn: Beytülhikme’nin gelişmesi, Ali er-Rızâ’nın veliahtlığı, mihne (218/833).",
+  "Mihne: “Kur’an mahluktur” görüşünün dayatılması; Ahmed b. Hanbel direndi; Mütevekkil sona erdirdi.",
+  "Mu’tasım: Türk askerleri, Sâmerrâ (836), Bâbek’in sonu (Afşin), Amorium (838).",
+  "Mütevekkil’in öldürülmesi (861) → Türk nüfuz dönemi; emîrü’l-ümerâ (936, İbn Râik).",
+  "Zenc isyanı (869-883) köleler, Basra; Karmatîler Hacerülesved’i söktü (930, iade 951).",
+  "Büveyhîler (Şiî) 945’te Bağdat’a girdi; Tuğrul Bey 1055’te Bağdat’a girip Büveyhî hâkimiyetini bitirdi.",
+  "İslam karşıtı isyanlar: Sinbad, Mukanna, Bâbek (en tehlikelisi), Mazyar, zındıklar.",
+  "İlk kopma Endülüs Emevîleri (756); Kuzey Afrika’da İdrîsî, Rüstemî, Midrârî, Ağlebî.",
+  "Abbâsî kurumları: vezirlik, kâdılkudât, emîrü’l-ümerâ, şurta, hisbe, mezâlim."
+ ],
+ "kartlar": [
+  {
+   "o": "Humeyme",
+   "a": "Abbâsî davetinin yönetildiği Ürdün’deki köy."
+  },
+  {
+   "o": "er-Rızâ min âl-i Muhammed",
+   "a": "Abbâsî davetinin belirsiz bırakılmış sloganı."
+  },
+  {
+   "o": "Ebû Müslim el-Horasânî",
+   "a": "Horasan’da ihtilali başlatan komutan; Mansûr tarafından öldürtüldü (755)."
+  },
+  {
+   "o": "Abbâsîlerin gerçek kurucusu",
+   "a": "Ebû Ca’fer el-Mansûr; Bağdat’ı kurdu."
+  },
+  {
+   "o": "Medînetü’s-Selâm",
+   "a": "Bağdat’ın resmî adı (762, yuvarlak plan)."
+  },
+  {
+   "o": "Bermekîler",
+   "a": "Hârûnürreşîd’in vezir ailesi (Yahyâ b. Hâlid, Ca’fer); 803’te gözden düştüler."
+  },
+  {
+   "o": "İlk kâdılkudât",
+   "a": "Ebû Yûsuf; Hârûnürreşîd döneminde; Kitâbü’l-harâc."
+  },
+  {
+   "o": "Mihne",
+   "a": "Me’mûn’un başlattığı halku’l-Kur’an sorgulaması (833-848); Mütevekkil bitirdi."
+  },
+  {
+   "o": "Sâmerrâ",
+   "a": "Mu’tasım’ın Türk askerleri için kurduğu başkent (836)."
+  },
+  {
+   "o": "Bâbek el-Hürremî",
+   "a": "Azerbaycan’da en uzun ve tehlikeli İslam karşıtı isyan; Türk komutan Afşin bastırdı (837)."
+  },
+  {
+   "o": "Mukanna",
+   "a": "Horasan’da peçe takan, ilahlık iddia eden ve tenasühe inanan isyancı."
+  },
+  {
+   "o": "Zenc isyanı",
+   "a": "869-883; Güney Irak’ta siyah kölelerin isyanı."
+  },
+  {
+   "o": "Karmatîler",
+   "a": "Bahreyn’de İsmâilî kökenli devlet; 930’da Hacerülesved’i götürdüler."
+  },
+  {
+   "o": "Emîrü’l-ümerâ",
+   "a": "936’da kurulan, halifenin askerî-idari yetkisini devrettiği makam; ilk İbn Râik."
+  },
+  {
+   "o": "Büveyhîler",
+   "a": "Şiî İranlı hanedan; 945’te Bağdat’a girdi; 1055’te Tuğrul Bey son verdi."
+  },
+  {
+   "o": "Karıştırma: Rüstemîler / Midrârîler",
+   "a": "İkisi de Hâricî Kuzey Afrika devletidir: Rüstemîler İbâzî (Tâhert), Midrârîler Sufrî (Sicilmâse)."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "s2-01",
+   "z": 2,
+   "s": "Bir Abbâsî halifesiyle ilgili şu bilgiler veriliyor:\n– Kendisine rakip olabilecek gücü ortadan kaldırmak için Abbâsî ihtilalinin Horasan’daki önderini öldürtmüştür.\n– Ali soyundan Nefsü’z-Zekiyye’nin Medine’deki isyanını bastırmıştır.\n– Dicle kıyısında “Medînetü’s-Selâm” adlı yeni başkenti kurmuştur.\n\nBu halife aşağıdakilerden hangisidir?",
+   "c": [
+    "Ebü’l-Abbâs es-Seffâh",
+    "Me’mûn",
+    "Hârûnürreşîd",
+    "Ebû Ca’fer el-Mansûr",
+    "Mu’tasım"
+   ],
+   "d": 3,
+   "a": "Ebû Ca’fer el-Mansûr Ebû Müslim’i öldürtmüş (755), Nefsü’z-Zekiyye isyanını bastırmış (762) ve Bağdat’ı kurmuştur; bu yüzden devletin gerçek kurucusu sayılır.",
+   "ac": [
+    "İlk halifedir; Ebû Müslim onun döneminde öldürülmemiştir.",
+    "Beytülhikme ve mihne ile bilinir.",
+    "Bermekîler ve altın çağ halifesidir.",
+    "Doğru.",
+    "Sâmerrâ’yı kurmuştur."
+   ],
+   "kay": "Konu: Ebû Ca’fer el-Mansûr"
+  },
+  {
+   "id": "sy11-01",
+   "z": 3,
+   "s": "Abbâsî halifesi Hârûnürreşîd’in iki veliahtından biri olan Emîn, babasının ölümü üzerine halife oldu. İlk icraatı kardeşi Me’mûn’un veliahtlığını iptal edip kendi oğlunu veliaht yapmak oldu. Çıkan mücadelede Araplar Emîn’i, İranlı ve Türk unsurların çoğunlukta olduğu Horasanlılar Me’mûn’u destekledi; mücadeleyi Me’mûn kazandı.\n\nBu parçadan aşağıdakilerin hangisine ulaşılamaz?",
+   "c": [
+    "Hilafette kesin bir veraset kuralı bulunmadığına",
+    "Yönetimde farklı etnik grupların etkili olduğuna",
+    "Abbâsî yönetiminin bir hanedanın elinde olduğuna",
+    "Hârûnürreşîd’in iki oğlunu da veliaht ilan ettiğine",
+    "Veliahtlık sisteminin taht kavgalarını önlediğine"
+   ],
+   "d": 4,
+   "a": "Parçada iki kardeş arasında taht savaşı çıktığı anlatıldığından veliahtlık sisteminin taht kavgalarını önlediği sonucuna ulaşılamaz.",
+   "ac": [
+    "Veliahtlığın iptal edilebilmesi bunu gösterir.",
+    "Araplar ve Horasanlılar ayrı tarafları desteklemiştir.",
+    "Halifelik babadan oğula ve kardeşe geçmektedir.",
+    "Parçada açıkça belirtilmiştir.",
+    "Doğru cevap: Parça bunun tersini gösterir."
+   ],
+   "kay": "Konu: Emîn-Me’mûn mücadelesi"
+  },
+  {
+   "id": "sy11-02",
+   "z": 2,
+   "s": "Emevîler döneminde ortaya çıkan Mu’tezile, Abbâsîler döneminde Me’mûn tarafından devletin resmî görüşü hâline getirilmiş; “Kur’an’ın mahluk olduğu” görüşü kadı ve âlimlere zorla kabul ettirilmeye çalışılmıştır.\n\nBu süreç aşağıdakilerden hangisiyle adlandırılır?",
+   "c": [
+    "Fitne",
+    "Fetret",
+    "Mihne",
+    "Cebir",
+    "İstibdat"
+   ],
+   "d": 2,
+   "a": "Me’mûn’un başlattığı ve Mütevekkil’in sona erdirdiği bu sorgulama sürecine mihne denir.",
+   "ac": [
+    "Hz. Osman’la başlayan iç karışıklık dönemidir.",
+    "Hükümdarsız kalınan/dağınıklık dönemidir.",
+    "Doğru.",
+    "Kader tartışmalarında insan iradesini reddeden görüştür.",
+    "Genel olarak baskıcı yönetimi ifade eder; terim değildir."
+   ],
+   "kay": "Konu: Mihne"
+  },
+  {
+   "id": "sy11-03",
+   "z": 3,
+   "s": "Mihne ile ilgili\nI. Me’mûn tarafından 218/833’te başlatılmıştır.\nII. Ahmed b. Hanbel bu süreçte görüşünden dönmeyerek baskıya maruz kalmıştır.\nIII. Mu’tasım mihneyi sona erdirerek Sünnî politikaya dönmüştür.\nIV. Sorgulamanın temel konusu Hz. Ali’nin tahkimi kabul edip etmemesidir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "II ve III",
+    "I, II ve III",
+    "I ve IV",
+    "II, III ve IV"
+   ],
+   "d": 0,
+   "a": "Mihneyi Me’mûn başlatmış, Ahmed b. Hanbel direnmiştir. Mihneyi Mütevekkil sona erdirmiştir (Mu’tasım sürdürmüştür). Konusu halku’l-Kur’an meselesidir; tahkim Hâricîlerin isti’râzının konusudur.",
+   "ac": [
+    "Doğru: I ve II.",
+    "III yanlıştır; Mu’tasım mihneyi sürdürmüştür.",
+    "III yanlıştır.",
+    "IV yanlıştır.",
+    "III ve IV yanlıştır."
+   ],
+   "kay": "Konu: Mihne"
+  },
+  {
+   "id": "sy11-04",
+   "z": 2,
+   "s": "Abbâsî Devleti’nin kuruluşunu destekleyen gruplar arasında, yönetimden en çok memnun kalan ve Abbâsîlerle birlikte devlette söz sahibi olan grup aşağıdakilerden hangisidir?",
+   "c": [
+    "Mevâlî",
+    "Ali soyu taraftarları",
+    "Berberîler",
+    "Hâricîler",
+    "Zimmîler"
+   ],
+   "d": 0,
+   "a": "Abbâsîler, Emevîlerin Arap üstünlüğüne dayalı politikasını terk ederek Arap olmayan Müslümanları (mevâlî) eşit tuttu; İranlı ve Türk mevâlî yönetimde etkili oldu.",
+   "ac": [
+    "Doğru.",
+    "Ali soyu kısa sürede hayal kırıklığına uğradı ve isyan etti (Nefsü’z-Zekiyye).",
+    "Kuzey Afrika’da Hâricî isyanlarına katıldılar.",
+    "Abbâsîlere de muhalefet ettiler.",
+    "Gayrimüslimlerdir; yönetimde söz sahibi grup değildir."
+   ],
+   "kay": "Konu: Abbâsîler ve mevâlî"
+  },
+  {
+   "id": "sy11-05",
+   "z": 3,
+   "s": "X. yüzyılda Abbâsî otoritesinin zayıflamasıyla Kuzey Afrika’da bağımsız ya da yarı bağımsız pek çok devlet kurulmuştur.\n\nAşağıdakilerden hangisi bunlar arasında yer almaz?",
+   "c": [
+    "İdrîsîler",
+    "Rüstemîler",
+    "Midrârîler",
+    "Büveyhîler",
+    "Ağlebîler"
+   ],
+   "d": 3,
+   "a": "Büveyhîler İran ve Irak’ta kurulan Şiî bir hanedandır; 945’te Bağdat’a girmiştir. Diğerleri Kuzey Afrika devletleridir.",
+   "ac": [
+    "Fas’ta kurulmuştur.",
+    "Cezayir’de, İbâzî Hâricî.",
+    "Fas’ta (Sicilmâse), Sufrî Hâricî.",
+    "Doğru cevap: İran-Irak’ta kurulmuştur.",
+    "Tunus’ta kurulmuştur."
+   ],
+   "kay": "Konu: Abbâsîlerden kopmalar"
+  },
+  {
+   "id": "sy11-06",
+   "z": 3,
+   "s": "Abbâsî döneminde çıkan isyanlarla ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "Zenc – Güney Irak’taki tuzlalarda çalışan kölelerin ayaklanması",
+    "Karmatîler – Hacerülesved’in yerinden sökülüp götürülmesi",
+    "Bâbek – Türk komutan Afşin tarafından bastırılması",
+    "Mazyar – Taberistan bölgesinde Mecûsî kökenli isyan",
+    "Mukanna – Ebû Müslim’in intikamını alma iddiasıyla ilk çıkan isyan"
+   ],
+   "d": 4,
+   "a": "Ebû Müslim’in öldürülmesinden hemen sonra onun intikamı adına çıkan ilk isyan Sinbad isyanıdır (755). Mukanna, peygamberlik ve ilahlık iddiasıyla, tenasüh inancıyla bilinir.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme (930).",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme (839).",
+    "Yanlış: Bu Sinbad’dır; Mukanna’nın belirgin özelliği peçe, ilahlık iddiası ve tenasühtür."
+   ],
+   "kay": "Konu: Abbâsî dönemi isyanları"
+  },
+  {
+   "id": "sy11-07",
+   "z": 3,
+   "s": "I. Sâmerrâ’nın başkent yapılması\nII. Bağdat’ın kurulması\nIII. Mihnenin başlaması\nIV. Büveyhîlerin Bağdat’a girmesi\nV. Emîrü’l-ümerâlığın ihdası\n\nAbbâsî dönemine ait bu olayların kronolojik sırası aşağıdakilerden hangisidir?",
+   "c": [
+    "II, I, III, V, IV",
+    "II, III, I, V, IV",
+    "III, II, I, IV, V",
+    "II, III, I, IV, V",
+    "I, II, III, V, IV"
+   ],
+   "d": 1,
+   "a": "Bağdat (762) → mihne (833) → Sâmerrâ (836) → emîrü’l-ümerâ (936) → Büveyhîler Bağdat’ta (945).",
+   "ac": [
+    "Mihne Sâmerrâ’dan öncedir.",
+    "Doğru.",
+    "Bağdat mihneden öncedir.",
+    "Emîrü’l-ümerâ Büveyhîlerden öncedir.",
+    "Bağdat ilk sıradadır."
+   ],
+   "kay": "Konu: Abbâsî kronolojisi"
+  },
+  {
+   "id": "sy11-08",
+   "z": 2,
+   "s": "Abbâsîler döneminde ortaya çıkan ve halifeden sonra devlette en yetkili makam olan kurum aşağıdakilerden hangisidir?",
+   "c": [
+    "Kâdılkudâtlık",
+    "Vezirlik",
+    "Hisbe",
+    "Nakîbü’l-eşraflık",
+    "Şurta"
+   ],
+   "d": 1,
+   "a": "Vezirlik, Sâsânî geleneğinden de yararlanılarak Abbâsîler döneminde kurumsallaşmış ve halifeden sonraki en yetkili makam olmuştur.",
+   "ac": [
+    "Yargı teşkilatının başıdır.",
+    "Doğru.",
+    "Çarşı-pazar denetimidir.",
+    "Peygamber soyundan gelenlerin işlerine bakar.",
+    "Polis teşkilatıdır."
+   ],
+   "kay": "Konu: Abbâsî kurumları"
+  },
+  {
+   "id": "sy11-09",
+   "z": 3,
+   "s": "Bir Abbâsî halifesi; annesi Türk olduğu için Mâverâünnehir’den getirdiği Türklerden bir ordu kurmuş, bu askerlerle Bağdat halkı arasındaki gerginlik üzerine yeni bir başkent inşa etmiş, Bizans’a karşı Amorium seferini yapmıştır.\n\nBu halifenin döneminde aşağıdakilerden hangisi gerçekleşmiştir?",
+   "c": [
+    "Bâbek isyanının bastırılması",
+    "Bermekî ailesinin gözden düşürülmesi",
+    "Mihnenin sona erdirilmesi",
+    "Hacerülesved’in Karmatîlerce götürülmesi",
+    "Ebû Hanîfe’nin hapiste vefatı"
+   ],
+   "d": 0,
+   "a": "Söz konusu halife Mu’tasım’dır. Onun döneminde Türk komutan Afşin Bâbek isyanını bastırmıştır (837).",
+   "ac": [
+    "Doğru.",
+    "Hârûnürreşîd dönemidir (803).",
+    "Mütevekkil dönemidir.",
+    "Muktedir dönemidir (930).",
+    "Mansûr dönemidir (767)."
+   ],
+   "kay": "Konu: Mu’tasım"
+  },
+  {
+   "id": "sy11-10",
+   "z": 2,
+   "s": "Hârûnürreşîd döneminde kâdılkudât olan, Ebû Hanîfe’nin talebesi ve vergi hukukuna dair “Kitâbü’l-harâc” adlı eserin yazarı aşağıdakilerden hangisidir?",
+   "c": [
+    "İmam Muhammed",
+    "Züfer b. Hüzeyl",
+    "Ebû Yûsuf",
+    "Hasan b. Ziyâd",
+    "Ahmed b. Ebî Duâd"
+   ],
+   "d": 2,
+   "a": "Ebû Yûsuf (ö. 182/798) ilk kâdılkudâttır; Kitâbü’l-harâc’ı Hârûnürreşîd’in isteğiyle yazmıştır.",
+   "ac": [
+    "Zâhirü’r-rivâye kitaplarının yazarıdır.",
+    "Ebû Hanîfe’nin kıyasla bilinen talebesidir.",
+    "Doğru.",
+    "Hanefî fakihidir; kâdılkudât değildir.",
+    "Mihne döneminin Mu’tezilî baş kadısıdır."
+   ],
+   "kay": "Konu: Kâdılkudâtlık"
+  },
+  {
+   "id": "sy11-11",
+   "z": 3,
+   "s": "Abbâsî halifeliğinin siyasi gücünü kaybetme süreciyle ilgili\nI. Mütevekkil’in öldürülmesinden sonra halifeleri Türk komutanlar belirlemeye başlamıştır.\nII. 936’da kurulan emîrü’l-ümerâlık ile askerî ve idari yetki bir komutana devredilmiştir.\nIII. Büveyhîler Sünnî oldukları için halifeyi koruma altına almıştır.\nIV. Tuğrul Bey 1055’te Bağdat’a girerek Büveyhî hâkimiyetine son vermiştir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "I ve III",
+    "II ve IV",
+    "I, II ve IV",
+    "I, III ve IV",
+    "II, III ve IV"
+   ],
+   "d": 2,
+   "a": "Büveyhîler Şiî’dir; Sünnî halifeyi denetim altında tutmuş, zaman zaman tahttan indirmiştir. Diğer ifadeler doğrudur.",
+   "ac": [
+    "III yanlıştır.",
+    "I de doğrudur.",
+    "Doğru: I, II ve IV.",
+    "III yanlıştır.",
+    "III yanlıştır."
+   ],
+   "kay": "Konu: Abbâsî halifeliğinin zayıflaması"
+  },
+  {
+   "id": "sy11-12",
+   "z": 1,
+   "s": "Abbâsî Devleti’nin kurulmasında Horasan’da ihtilali başlatan ve yöneten komutan aşağıdakilerden hangisidir?",
+   "c": [
+    "Ebû Seleme el-Hallâl",
+    "Ebû Müslim el-Horasânî",
+    "Tâhir b. Hüseyin",
+    "Afşin",
+    "Kuteybe b. Müslim"
+   ],
+   "d": 1,
+   "a": "Ebû Müslim el-Horasânî 747’de Merv yakınlarında siyah bayrakla ayaklanmış, Abbâsî ordularını yönetmiştir.",
+   "ac": [
+    "Kûfe’deki davet sorumlusudur.",
+    "Doğru.",
+    "Me’mûn’un komutanıdır.",
+    "Mu’tasım’ın Türk komutanıdır.",
+    "Emevî döneminde Mâverâünnehir fatihidir."
+   ],
+   "kay": "Konu: Abbâsî ihtilali"
+  },
+  {
+   "id": "sy11-13",
+   "z": 3,
+   "s": "Bir Abbâsî halifesi, Ali soyunu kendine yakınlaştırmak için sekizinci imamı veliaht ilan etmiş, devletin resmî rengini siyahtan yeşile çevirmiştir. Ancak Bağdat’taki Abbâsî ailesinin tepkisi ve veliahtın ani ölümü üzerine bu politikadan vazgeçmiştir.\n\nBu halife ve veliaht ilan ettiği kişi aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Mansûr – Muhammed en-Nefsü’z-Zekiyye",
+    "Hârûnürreşîd – Mûsâ el-Kâzım",
+    "Mütevekkil – Ali el-Hâdî",
+    "Me’mûn – Ali er-Rızâ",
+    "Mehdî – Ca’fer es-Sâdık"
+   ],
+   "d": 3,
+   "a": "Me’mûn, 201/817’de Ali er-Rızâ’yı veliaht ilan etmiş, ancak onun 203/818’de Tûs’ta vefatı üzerine bu politika terk edilmiştir.",
+   "ac": [
+    "Mansûr Nefsü’z-Zekiyye’nin isyanını bastırmıştır.",
+    "Hârûn Mûsâ el-Kâzım’ı hapsettirmiştir.",
+    "Mütevekkil Ali soyuna karşı sert davranmıştır.",
+    "Doğru.",
+    "Ca’fer es-Sâdık Mansûr döneminde vefat etmiştir."
+   ],
+   "kay": "Konu: Me’mûn"
+  },
+  {
+   "id": "sy11-14",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi Abbâsîlerin Emevîlerden farklı olarak benimsediği yönetim anlayışlarından biri değildir?",
+   "c": [
+    "Arap olmayan Müslümanların yönetimde etkin olması",
+    "Halifeliğin dinî bir makam olarak öne çıkarılması",
+    "Sâsânî geleneğinden alınan vezirlik kurumu",
+    "Siyahın resmî renk olarak kullanılması",
+    "Hilafetin babadan oğula ya da hanedan içinde geçmesi"
+   ],
+   "d": 4,
+   "a": "Hilafetin hanedan içinde geçmesi (veraset) Emevîlerde Muâviye ile başlamış, Abbâsîler bunu sürdürmüştür; farklılık değildir.",
+   "ac": [
+    "Farklılıktır; Emevîlerde Araplar üstündü.",
+    "Farklılıktır; Abbâsîler dinî meşruiyeti öne çıkardı.",
+    "Farklılıktır.",
+    "Farklılıktır; Emevîlerin rengi beyazdı.",
+    "Doğru cevap: Her iki dönemde de veraset vardır."
+   ],
+   "kay": "Konu: Emevî-Abbâsî karşılaştırması"
+  },
+  {
+   "id": "sy11-15",
+   "z": 3,
+   "s": "Abbâsîlerden kopan devletlerle ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "İdrîsîler – Hz. Hasan soyundan İdrîs b. Abdullah",
+    "Hamdânîler – Mısır’da kurulan ilk Türk hanedanı",
+    "Tâhirîler – Me’mûn’un komutanının Horasan’daki soyu",
+    "Saffârîler – Ya’kūb b. Leys",
+    "Ağlebîler – Hârûnürreşîd’in izniyle Tunus’ta kurulması"
+   ],
+   "d": 1,
+   "a": "Hamdânîler Musul ve Halep’te hüküm süren Şiî bir Arap hanedanıdır (Seyfüddevle). Mısır’da kurulan ilk Türk hanedanı Tolunoğullarıdır.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Yanlış eşleştirme.",
+    "Doğru eşleştirme (821).",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme (800)."
+   ],
+   "kay": "Konu: Abbâsîlerden kopmalar"
+  },
+  {
+   "id": "sy11-16",
+   "z": 2,
+   "s": "Abbâsî döneminde Bahreyn’de devlet kuran, hac yollarını kesen ve 930 yılında Mekke’yi basarak Hacerülesved’i yerinden söküp götüren grup aşağıdakilerden hangisidir?",
+   "c": [
+    "Zencler",
+    "Hâricîler",
+    "Karmatîler",
+    "Hürremîler",
+    "Fâtımîler"
+   ],
+   "d": 2,
+   "a": "İsmâilî kökenli Karmatîler Hacerülesved’i götürmüş, ancak yaklaşık yirmi yıl sonra (951) iade etmişlerdir.",
+   "ac": [
+    "Basra çevresindeki köle isyanıdır.",
+    "Hâricîlerin böyle bir eylemi yoktur.",
+    "Doğru.",
+    "Bâbek’in hareketidir.",
+    "İsmâilî’dirler ama Mekke baskını onların işi değildir; Karmatîlerin iadesinde etkili oldukları rivayet edilir."
+   ],
+   "kay": "Konu: Karmatîler"
+  }
+ ]
+}

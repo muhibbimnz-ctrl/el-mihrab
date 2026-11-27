@@ -1,0 +1,968 @@
+{
+ "id": "kelam-3",
+ "ad": "Allah’ın İsimleri ve Sıfatları (Zâtî, Sübûtî, Haberî, Fiilî); Tenzih ve Teşbih",
+ "ders": "Akaid ve Kelam",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Esmâ-i hüsnâ: Allah’ı isimleriyle tanımak"
+  },
+  {
+   "merak": "Bir çocuk babasına sorar: “Allah’ı göremiyoruz, nasıl tanıyacağız?” Baba cevap verir: “Güneşi doğduğu yerden değil, ışığından tanırız. Allah’ı da isimlerinden ve eserlerinden tanırız.”"
+  },
+  "Allah’ın zâtının mahiyeti (ne olduğu, nasıl olduğu) insan aklının kavrayabileceği bir şey değildir; benzeri ve dengi olmadığı için tasavvur edilemez. Bu yüzden Allah kendini insanlara peygamberleri ve kitapları aracılığıyla isimleri ve sıfatlarıyla tanıtmıştır. Kur’an’da Allah’ın en güzel isimlerine “el-esmâü’l-hüsnâ” denir.",
+  {
+   "ayet": "En güzel isimler Allah’ındır. O hâlde O’na o isimlerle dua edin. O’nun isimleri hakkında eğri yola sapanları bırakın; onlar yapmakta olduklarının cezasını göreceklerdir.",
+   "kay": "A’râf, 7/180"
+  },
+  {
+   "ayet": "O, yaratan, var eden, şekil veren Allah’tır. En güzel isimler O’nundur. Göklerde ve yerde olanların hepsi O’nu tesbih eder. O, mutlak güç sahibidir, hüküm ve hikmet sahibidir.",
+   "kay": "Haşr, 59/24"
+  },
+  {
+   "hadis": "Allah’ın doksan dokuz ismi vardır; yüzden bir eksik. Kim onları ihsâ ederse (sayar, anlamını kavrar ve gereğince yaşarsa) cennete girer.",
+   "kay": "Buhârî, Tevhîd; Müslim, Zikir"
+  },
+  "Hadisteki “doksan dokuz” sayısı Allah’ın isimlerini sınırlamak için değil, bu isimlerin fazileti için söylenmiştir; Kur’an ve sünnette doksan dokuzdan fazla isim geçer. İsimlerin listesi Tirmizî’nin bir rivayetinde sayılmıştır. “İhsâ” kelimesi sadece saymayı değil, anlamını bilmeyi, düşünmeyi ve o isimlerin gereğini hayata yansıtmayı ifade eder.",
+  "■ Lafza-i celâl: “Allah” ismi, “ism-i zât”tır; yani Allah’ın zâtına delalet eden özel isimdir. Diğer bütün isimlerin anlamlarını kapsar, başkasına ad olarak verilmez, çoğulu ve dişili yapılmaz. Diğer isimler (Rahmân, Rahîm, Alîm, Kadîr…) ise bir sıfata delalet eden “sıfat isimleri”dir. Kelime-i tevhid ve şehadet de lafza-i celâl ile söylenir.",
+  "■ İsimlerin tevkîfî oluşu: Ehl-i sünnet âlimlerinin çoğunluğuna göre Allah’a ancak Kur’an ve sünnette bildirilen isimlerle isim verilir; anlamı güzel olsa bile kendiliğimizden yeni bir isim uyduramayız. Buna “isimlerin tevkîfî oluşu” denir (tevkîf: nassa bağlı kalma). Mu’tezile ise anlamı Allah’a layık olan isimlerin kullanılabileceğini söylemiştir. Türkçede “Tanrı” kelimesinin kullanılması ise isim koyma değil, “ilah” kavramının tercümesi olarak değerlendirilmiştir.",
+  "■ İsm-i a’zam: Kendisiyle dua edildiğinde duaların kabul edileceği bildirilen en büyük isimdir. Hangi isim olduğu kesin olarak bildirilmemiştir; “Allah”, “el-Hayy el-Kayyûm” gibi farklı görüşler vardır. Bu gizlilik, insanın bütün isimlerle dua etmesi içindir.",
+  {
+   "tablo": [
+    [
+     "İsim",
+     "Anlamı",
+     "Not"
+    ],
+    [
+     "er-Rahmân",
+     "Dünyada mümin-kâfir ayırmadan herkese merhamet eden",
+     "Allah’tan başkasına ad olarak verilmez"
+    ],
+    [
+     "er-Rahîm",
+     "Ahirette müminlere özel merhamet eden",
+     "Hz. Peygamber için de sıfat olarak kullanılmıştır (Tevbe 128)"
+    ],
+    [
+     "el-Kuddûs",
+     "Her türlü eksiklikten arınmış, tertemiz",
+     "Tenzih ifade eden isim"
+    ],
+    [
+     "es-Samed",
+     "Her şeyin kendisine muhtaç olduğu, kendisi hiçbir şeye muhtaç olmayan",
+     "İhlâs suresinde geçer"
+    ],
+    [
+     "el-Kayyûm",
+     "Kendi zâtıyla kâim, her şeyi ayakta tutan",
+     "Âyetü’l-kürsîde geçer"
+    ],
+    [
+     "el-Bâri’",
+     "Kusursuz ve uyumlu yaratan",
+     "Haşr 24"
+    ],
+    [
+     "el-Musavvir",
+     "Her şeye şekil ve suret veren",
+     "Haşr 24"
+    ],
+    [
+     "el-Vedûd",
+     "Çok seven, sevilmeye layık olan",
+     "Hûd 90, Burûc 14"
+    ],
+    [
+     "el-Hakem / el-Adl",
+     "Hüküm veren / mutlak adaletli",
+     ""
+    ]
+   ]
+  },
+  {
+   "sinav": "Hadisteki 99 sayısı sınırlama değildir. İsimler Ehl-i sünnet çoğunluğuna göre tevkîfîdir. “Allah” ism-i zâttır, diğerleri sıfat isimleridir. Tuzak: “İsm-i a’zamın Allah ismi olduğu kesin olarak bildirilmiştir” ifadesi yanlıştır."
+  },
+  {
+   "akil": "Allah kendini isim ve sıfatlarıyla tanıtır. Esmâ-i hüsnâ tevkîfîdir; 99 sayısı fazilet içindir, sınır değildir. “Allah” ism-i zât, diğerleri sıfat isimleridir."
+  },
+  {
+   "b": "2. Sıfatların sınıflandırılması ve zât-sıfat ilişkisi"
+  },
+  {
+   "merak": "“Allah bilendir” dediğimizde iki şey söylemiş oluruz: Allah ve O’nun bilgisi. Peki Allah’ın bilgisi O’nun kendisi midir, yoksa O’ndan başka bir şey mi? Bu küçük soru, kelam tarihinin en büyük tartışmalarından birini başlattı."
+  },
+  "Sıfat, bir zâtı niteleyen anlamdır. Allah’ın sıfatları O’nun zâtına yakışan kemal (yetkinlik) sıfatlarıdır. Kelam kitaplarında sıfatlar farklı ölçütlerle sınıflandırılır. Sınavda karıştırılan bu tasnifleri tek tabloda görelim:",
+  {
+   "tablo": [
+    [
+     "Grup",
+     "Diğer adı",
+     "Sıfatlar",
+     "Özelliği"
+    ],
+    [
+     "Zâtî (nefsî)",
+     "Sıfat-ı nefsiyye",
+     "Vücûd",
+     "Bizzat zâtı ifade eder; zâtın kendisinden ayrı bir anlam eklemez"
+    ],
+    [
+     "Selbî",
+     "Tenzîhî, sıfat-ı selbiyye",
+     "Kıdem, bekā, vahdâniyyet, muhâlefetün li’l-havâdis, kıyâm bi-nefsihî",
+     "Allah’a yakışmayanı O’ndan nefyeder (olumsuzlar): başlangıcı yok, sonu yok, ortağı yok…"
+    ],
+    [
+     "Sübûtî",
+     "Sıfat-ı sübûtiyye, sıfat-ı meânî",
+     "Hayat, ilim, semi’, basar, irade, kudret, kelâm, tekvîn",
+     "Zâta ek (zâit) olarak var olan olumlu kemal sıfatları; Mâtürîdîlere göre 8, Eş’arîlere göre 7 (tekvin yok)"
+    ],
+    [
+     "Haberî",
+     "Sıfat-ı haberiyye",
+     "Yed (el), vech (yüz), ayn (göz), istivâ, nüzûl, gelme, kadem…",
+     "Yalnızca nakil (haber) yoluyla bilinir; zahiri teşbih vehmi doğurur"
+    ],
+    [
+     "Fiilî",
+     "Sıfat-ı fi’liyye",
+     "Halk, terzîk, ihyâ, imâte, inşâ, ibdâ’, ta’zîb, mağfiret…",
+     "Allah’ın yaratılmışlarla ilgili fiillerini ifade eder; Mâtürîdîlere göre hepsi tekvine döner"
+    ]
+   ]
+  },
+  {
+   "not": "Pek çok ders kitabında “zâtî sıfatlar” başlığı altında vücûd ile birlikte beş selbî sıfat birlikte sayılır (toplam altı). Klasik tasnifte ise vücûd “nefsî”, diğer beşi “selbî” sıfattır. Sınavda “selbî sıfat hangisidir” diye sorulursa vücûdu seçmeyin."
+  },
+  "■ Zâtî-fiilî ayrımının ölçütü: Ebû Hanîfe ve Mâtürîdî geleneğinde şu ölçü kullanılır: Allah’ın zıddıyla nitelenemediği sıfat zâtî sıfattır; ilim, kudret, hayat gibi. Allah için “bilmez, gücü yetmez” denemez. Hem kendisiyle hem zıddıyla nitelenebilen sıfat ise fiilî sıfattır: Allah dilediğine rızık verir, dilediğine vermez; diriltir ve öldürür; affeder ve azap eder. Bu yüzden ihyâ-imâte, i’zâz-izlâl (aziz kılma-zelil kılma), terzîk gibi sıfatlar fiilî sıfatlardır.",
+  "■ Sıfatların zâtla ilişkisi: Bu meselede üç ana tutum vardır:",
+  {
+   "tablo": [
+    [
+     "Görüş",
+     "Sahipleri",
+     "İçeriği"
+    ],
+    [
+     "Ta’tîl (sıfatları tamamen nefy)",
+     "Cehmiyye (Cehm b. Safvân), Ca’d b. Dirhem",
+     "Allah’ın sıfatı yoktur; sıfat kabul etmek birden çok kadîm kabul etmektir"
+    ],
+    [
+     "Sıfatlar zâtın aynıdır",
+     "Mu’tezile",
+     "Allah “zâtıyla âlim, zâtıyla kādir”dir; ayrı bir ilim, kudret sıfatı yoktur. Amaç “taaddüd-i kudemâ” (birden fazla ezelî varlık) tehlikesinden kaçmaktır. Ebû Hâşim el-Cübbâî bunu “ahvâl” teorisiyle açıklar"
+    ],
+    [
+     "Sıfatlar zâta zâittir, ama O’ndan ayrı değildir",
+     "Ehl-i sünnet (Mâtürîdî, Eş’arî)",
+     "Sıfatlar ezelîdir, zâtla kāimdir; “ne zâtın aynıdır ne de zâttan başkasıdır” (lâ hüve ve lâ gayruhû)"
+    ]
+   ]
+  },
+  "Ehl-i sünnetin bu formülü ince bir dengeyi korur: Sıfatlar zâtın aynı değildir, çünkü “Allah” ile “Allah’ın ilmi” aynı anlamı taşımaz; zâttan başkası (gayr) da değildir, çünkü zâttan ayrı, bağımsız var olan şeyler değildir. Böylece hem sıfatlar korunmuş hem de birden fazla ilah düşüncesine kapı kapatılmış olur.",
+  {
+   "sinav": "Selbî sıfat sorularında vücûd çeldiricidir (nefsî). “Zâtıyla âlimdir” ifadesi Mu’tezile’yi; “lâ hüve ve lâ gayruhû” Ehl-i sünneti; sıfatların tamamen inkârı (ta’tîl) Cehmiyye’yi gösterir. Zâtî-fiilî ayrımında “zıddıyla nitelenebilir mi?” ölçüsünü uygulayın."
+  },
+  {
+   "akil": "Sıfatlar: nefsî (vücûd), selbî (5), sübûtî (Mâtürîdî 8, Eş’arî 7), haberî, fiilî. Zât-sıfat ilişkisi: Cehmiyye ta’tîl, Mu’tezile ayniyet, Ehl-i sünnet “ne aynısı ne başkası”."
+  },
+  {
+   "b": "3. Zâtî ve selbî sıfatlar: Allah’a yakışmayanı nefyetmek"
+  },
+  {
+   "merak": "“Allah’ı kim yarattı?” Bu çocuk sorusu, aslında kıdem sıfatını anlamanın kapısıdır: Başlangıcı olmayan bir varlığı kimse yaratmış olamaz."
+  },
+  {
+   "tablo": [
+    [
+     "Sıfat",
+     "Anlamı",
+     "Delil / not"
+    ],
+    [
+     "Vücûd",
+     "Allah’ın var olması; varlığı zâtının gereğidir (vâcibü’l-vücûd)",
+     "Varlık delilleri (hudûs, imkân, nizam…)"
+    ],
+    [
+     "Kıdem",
+     "Varlığının başlangıcı olmaması, ezelî olması",
+     "“O, Evvel’dir, Âhir’dir…” (Hadîd, 57/3). Kadîm olmasaydı hâdis olur, bir muhdise muhtaç olurdu"
+    ],
+    [
+     "Bekā",
+     "Varlığının sonu olmaması, ebedî olması",
+     "“Yeryüzündeki her şey yok olacaktır; ancak celâl ve ikram sahibi Rabbinin zâtı bâki kalacaktır” (Rahmân, 55/26-27)"
+    ],
+    [
+     "Vahdâniyyet",
+     "Zâtında, sıfatlarında ve fiillerinde bir ve tek olması; ortağı ve benzeri olmaması",
+     "İhlâs suresi; temânu’ delili (Enbiyâ 22)"
+    ],
+    [
+     "Muhâlefetün li’l-havâdis",
+     "Sonradan olan hiçbir şeye benzememesi",
+     "“O’nun benzeri hiçbir şey yoktur” (Şûrâ, 42/11); “Hiçbir şey O’na denk değildir” (İhlâs, 112/4)"
+    ],
+    [
+     "Kıyâm bi-nefsihî",
+     "Var olmak için hiçbir şeye (yaratıcıya, mahalle, mekâna) muhtaç olmaması, zâtıyla kāim olması",
+     "“Allah ganîdir, âlemlerden müstağnidir” (Âl-i İmrân, 3/97); el-Kayyûm ismi"
+    ]
+   ]
+  },
+  "Bu sıfatlardan çıkan sonuçlar kelamda önemlidir: Allah cisim değildir, bir mekânda yer tutmaz (tahayyüz), bir yöne (cihet) bağlı değildir, zaman içinde değildir, bir şeye girmez (hulûl), bir şeyle birleşmez (ittihâd), parçalardan oluşmaz. Mâtürîdî ve Eş’arî kelamcıları bu nefiyleri muhâlefetün li’l-havâdis ve kıyâm bi-nefsihî sıfatlarına dayandırır. Halk arasında söylenen “Allah her yerdedir” sözü, Ehl-i sünnete göre zâtıyla mekâna yerleşmek değil, ilmi ve kudretiyle her şeyi kuşatmak anlamında doğru kabul edilir. Doğru olan, “Allah mekândan münezzehtir” ifadesidir.",
+  {
+   "not": "Bekā ile kıdem çoğu zaman birlikte sorulur: Kıdem başlangıçsızlık (ezel), bekā sonsuzluk (ebed). Cennet ve cehennem de ebedîdir, ama onların ebediliği zâtlarından değil, Allah’ın bâki kılmasındandır; bu yüzden bekā sıfatında Allah’a ortak olmazlar."
+  },
+  {
+   "sinav": "“Allah’ın varlığı için bir mekâna, bir sebebe muhtaç olmaması” → kıyâm bi-nefsihî. “Hiçbir yaratılmışa benzememesi” → muhâlefetün li’l-havâdis. “Başlangıcının olmaması” → kıdem. Hadîd 3 hem kıdem (Evvel) hem bekā (Âhir) için delildir."
+  },
+  {
+   "akil": "Selbî sıfatlar Allah’a yakışmayanı nefyeder: başlangıçsız (kıdem), sonsuz (bekā), tek (vahdâniyyet), benzersiz (muhâlefet), hiçbir şeye muhtaç değil (kıyâm bi-nefsihî). Sonuç: Allah cisim, mekân, cihet ve zamandan münezzehtir."
+  },
+  {
+   "b": "4. Sübûtî sıfatlar ve Mâtürîdî-Eş’arî farkları"
+  },
+  {
+   "merak": "Hz. Mûsâ Tûr dağında Allah’ın kendisiyle konuştuğunu duydu. Peki Mûsâ’nın kulağına ulaşan neydi: Allah’ın ezelî kelâmının kendisi mi, yoksa ona delalet eden yaratılmış bir ses mi? Mâtürîdî ile Eş’arî bu soruya farklı cevap verir."
+  },
+  "Sübûtî sıfatlar, Allah’ın zâtıyla kāim, ezelî ve ebedî olumlu sıfatlarıdır. Her biri yaratılmışların sıfatlarına benzemez; isimleri ortak olsa da mahiyetleri farklıdır.",
+  {
+   "tablo": [
+    [
+     "Sıfat",
+     "Anlamı",
+     "Önemli ayrıntı"
+    ],
+    [
+     "Hayat",
+     "Diri olmak",
+     "Diğer sıfatların ön şartıdır; el-Hayy (Bakara 255)"
+    ],
+    [
+     "İlim",
+     "Her şeyi bilmek",
+     "Olmuşu, olacağı, olmayacak olsa nasıl olacağını; küllî ve cüz’î her şeyi bilir. İlim malûma tâbidir; bilmek zorlamak değildir"
+    ],
+    [
+     "Semi’",
+     "İşitmek",
+     "Alet ve vasıtasız; gizli-açık her sesi"
+    ],
+    [
+     "Basar",
+     "Görmek",
+     "Göz ve ışığa muhtaç olmadan"
+    ],
+    [
+     "İrade",
+     "Dilemek",
+     "İki ihtimalden birini tahsis eder; tekvînî irade her şeyi kapsar; teşrîî irade (emir, rıza) yalnız hayra yönelir"
+    ],
+    [
+     "Kudret",
+     "Gücü yetmek",
+     "Yalnız mümkinâta taalluk eder; muhal (imkânsız) şeyler kudretin konusu değildir"
+    ],
+    [
+     "Kelâm",
+     "Söylemek, konuşmak",
+     "Harf ve sese muhtaç olmayan ezelî kelâm-ı nefsî; vahiyler bu kelâmın ifadeleridir"
+    ],
+    [
+     "Tekvîn",
+     "Yaratmak, yoktan var etmek",
+     "Mâtürîdîlere göre ayrı, ezelî bir sıfattır; Eş’arîlere göre kudretin yaratılanlara taallukudur"
+    ]
+   ]
+  },
+  "■ Tekvin meselesi: Mâtürîdîlere göre tekvîn (yaratma) ezelî ve kudretten ayrı bir sıfattır; yaratma, rızık verme, diriltme, öldürme gibi bütün fiilî sıfatlar bu sıfata döner ve hepsi ezelîdir. Ancak tekvinin konusu olan “mükevven” (yaratılmış şey) ezelî değil, hâdistir; her şey zamanı gelince var olur. Allah ezelden beri “Hâlık”tır, yaratılmışlar ise sonradan var olur. Eş’arîler ise tekvini ayrı bir sıfat saymaz: Kudret sıfatının bir şeye yönelip onu var etmesi (taalluk) yaratmadır; bu taalluk hâdistir. Eş’arîlere göre fiilî sıfatlar da ezelî değil, hâdis taalluklardır. Eş’arîlerin itirazı şudur: Tekvin ezelî olursa yaratılan şeyin de ezelî olması gerekirdi. Mâtürîdîler bu itiraza, “tekvin ezelîdir ama her şeyi vakti gelince var etmek üzere ezelîdir” diye cevap verir.",
+  "■ Kelâm sıfatı ve halku’l-Kur’ân: Ehl-i sünnete göre Allah’ın kelâmı, zâtıyla kāim, harf ve sesten münezzeh, ezelî bir sıfattır; buna “kelâm-ı nefsî” denir. Mushaftaki harfler, okunan sesler, yazılan mürekkep ise hâdistir; bunlara “kelâm-ı lafzî” denir ve kelâm-ı nefsîye delalet eder. Mu’tezile ise kelâm-ı nefsîyi kabul etmez; Allah’ın kelâmını, O’nun bir cisimde yarattığı harf ve sesler olarak görür; bu yüzden Kur’an mahluktur. Hanbelîlerin bir kısmı ise harf ve seslerin de kadîm olduğunu savunmuştur.",
+  {
+   "tablo": [
+    [
+     "Mesele",
+     "Mâtürîdîler",
+     "Eş’arîler"
+    ],
+    [
+     "Sübûtî sıfat sayısı",
+     "8 (tekvin dahil)",
+     "7 (tekvin yok)"
+    ],
+    [
+     "Tekvin",
+     "Kudretten ayrı, ezelî sıfat",
+     "Kudretin taalluku; ayrı sıfat değil"
+    ],
+    [
+     "Fiilî sıfatlar",
+     "Ezelîdir; hepsi tekvine döner",
+     "Hâdistir (kudretin taallukları)"
+    ],
+    [
+     "Hz. Mûsâ’nın işittiği",
+     "Ezelî kelâmı değil, ona delalet eden yaratılmış sesi işitti",
+     "Ezelî kelâmı, harf ve ses olmaksızın, olağanüstü bir şekilde işitti"
+    ],
+    [
+     "Ezelî kelâmın işitilmesi",
+     "Harf ve ses olmayan şey işitilmez",
+     "Allah dilerse harf ve sessiz kelâmı da işittirebilir"
+    ],
+    [
+     "Beka",
+     "Sübûtî sayılmaz, selbîdir",
+     "Bazı Eş’arîler bekāyı zâta zâit bir sıfat sayar"
+    ],
+    [
+     "Kudretin taalluku",
+     "Mümkinât",
+     "Mümkinât"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Bekānın Eş’arîlerde zâta zâit (sübûtî) bir sıfat sayılması bazı Eş’arî âlimlerine (ör. Eş’arî’nin kendisi ve bir kısım takipçileri) nispet edilir; ekol içinde ittifak yoktur. Sınavda esas olan tekvin farkıdır."
+  },
+  "■ İrade ve rıza: Allah’ın iradesi tekvînî ve teşrîî diye ikiye ayrılır. Tekvînî irade, yaratmayla ilgili iradedir; kâinatta olan her şey, hayır da şer de, iman da küfür de Allah’ın dilemesiyle olur. Teşrîî irade ise emir ve rızayla ilgilidir; Allah yalnızca hayrı emreder ve ondan razı olur: “Kullarının inkârına razı olmaz” (Zümer, 39/7). Ehl-i sünnete göre Allah’ın kötülüğü yaratması kötü değildir; kulun kötülüğü seçip kazanması (kesb) kötüdür. Mu’tezile ise “Allah kötülüğü dilemez” diyerek iradeyi emre indirger.",
+  "■ İlim: Allah’ın ilmi ezelîdir, artmaz eksilmez, değişmez. Bazı filozofların (İbn Sînâ) “Allah cüz’îleri küllî bir tarzda bilir” görüşü Gazzâlî tarafından tekfir sebebi sayılmıştır. Ehl-i sünnete göre “Yerde ve gökte zerre ağırlığınca hiçbir şey O’ndan gizli kalmaz” (Sebe’, 34/3). Allah’ın ilmi olayları zorlamaz; ilim malûma tâbidir, yani Allah bir şeyin nasıl olacağını olacağı gibi bilir.",
+  "■ Kudret: Allah’ın kudreti sınırsızdır, ama yalnızca aklen mümkün olan şeylere yönelir. “Allah kendisi gibi bir ilah yaratabilir mi?” sorusu bir acizlik göstermez; çünkü yaratılmış bir ilah düşüncesi çelişkilidir (muhal), kudretin konusu olmaz. Muhal şey “bir şey” değildir ki kudret ona yönelsin.",
+  {
+   "sinav": "En çok sorulan Mâtürîdî-Eş’arî farkı tekvindir: sübûtî sıfat sayısı (8-7), fiilî sıfatların ezelîliği, Hz. Mûsâ’nın işittiği kelâm. Tuzak: “Eş’arîlere göre Allah yaratıcı değildir” gibi ifadeler yanlıştır; Eş’arîler yaratmayı kudrete bağlar, inkâr etmez. Mu’tezile’nin “Kur’an mahluktur” görüşü kelâm-ı nefsîyi reddetmesinden kaynaklanır."
+  },
+  {
+   "akil": "Sübûtî sıfatlar: hayat, ilim, semi’, basar, irade, kudret, kelâm, tekvin. Mâtürîdî: tekvin ezelî ayrı sıfat, fiilî sıfatlar ezelî; Eş’arî: tekvin kudretin taalluku, fiilî sıfatlar hâdis. Kelâm-ı nefsî ezelî, mushaftaki harfler hâdis."
+  },
+  {
+   "b": "5. Haberî sıfatlar: Allah’ın eli, yüzü ve istivâsı"
+  },
+  {
+   "merak": "Bir adam Medine’de İmam Mâlik’in meclisine gelip “Rahmân arşa istivâ etti” ayetini sorar: “Bu istivâ nasıldır?” İmam Mâlik başını öne eğer, terler ve sonra tarihe geçen o cevabı verir."
+  },
+  "Haberî sıfatlar, akılla değil yalnız nakille (Kur’an ve hadisle) bildirilen, sözlük anlamıyla alındığında yaratılmışlara benzerlik (teşbih) vehmi uyandıran sıfatlardır. Bunlar müteşâbih ayetlerin önemli bir kısmını oluşturur.",
+  {
+   "ayet": "Rahmân, arşa istivâ etmiştir.",
+   "kay": "Tâhâ, 20/5"
+  },
+  {
+   "ayet": "Allah’ın eli onların ellerinin üstündedir.",
+   "kay": "Fetih, 48/10"
+  },
+  {
+   "ayet": "Yeryüzündeki her şey yok olacaktır; ancak celâl ve ikram sahibi Rabbinin vechi (zâtı) bâki kalacaktır.",
+   "kay": "Rahmân, 55/26-27"
+  },
+  "İmam Mâlik’in istivâ sorusuna verdiği cevap Selef’in tutumunu özetler: “İstivâ (kelime olarak) bilinmektedir; keyfiyeti (nasılı) bilinmemektedir; ona iman etmek vaciptir, onun hakkında soru sormak bid’attir.” Bu tutuma “tefvîz” (anlamını Allah’a havale etme) denir. Haberî sıfatlar konusundaki başlıca yaklaşımlar şunlardır:",
+  {
+   "tablo": [
+    [
+     "Yaklaşım",
+     "Temsilcileri",
+     "Tutum"
+    ],
+    [
+     "Tefvîz (Selef yolu)",
+     "Sahabe, tâbiûn, İmam Mâlik, Ahmed b. Hanbel, Ebû Hanîfe; ilk dönem Ehl-i sünnet",
+     "Nassta geçtiği gibi kabul edilir; teşbih yapılmaz, keyfiyet sorulmaz, anlam Allah’a havale edilir"
+    ],
+    [
+     "Te’vil (Halef yolu)",
+     "Mu’tezile; müteahhir Eş’arî ve Mâtürîdîler (Cüveynî, Râzî…)",
+     "Lafız, Allah’a yakışan mecazi anlama yorumlanır: yed → kudret, nimet; vech → zât; istivâ → istîlâ, hâkimiyet; ayn → gözetim, koruma; nüzûl → rahmetin inmesi"
+    ],
+    [
+     "İsbat bilâ keyf",
+     "Eş’arî (el-İbâne), İbn Teymiyye ve Selefiyye",
+     "Keyfiyetsiz olarak, sıfat olarak kabul edilir; ne te’vil ne teşbih"
+    ],
+    [
+     "Teşbih / tecsîm",
+     "Müşebbihe, Mücessime, Kerrâmiyye’nin bir kısmı, Haşviyye",
+     "Allah yaratılmışlara benzetilir, cisim ve organ nispet edilir; Ehl-i sünnet reddeder"
+    ]
+   ]
+  },
+  "Ebû Hanîfe el-Fıkhu’l-ekber’de “Allah’ın eli, yüzü ve nefsi vardır; bunlar keyfiyetsiz sıfatlardır. Eli kudreti veya nimetidir denmez; çünkü bu sıfatı iptal etmek olur” der. Mâtürîdî ise istivâ gibi lafızlarda Allah’ı mekân ve cisimden tenzih ettikten sonra anlamı Allah’a havale etmeyi esas alır; bununla birlikte Arap diline uygun muhtemel anlamları da sıralar. Eş’arî el-İbâne’de haberî sıfatları keyfiyetsiz sıfat olarak kabul eder. Sonraki Eş’arî ve Mâtürîdîler (müteahhirîn), özellikle teşbihçi akımlara karşı te’vili daha çok kullanmıştır. Her iki yolun da amacı aynıdır: Allah’ı yaratılmışlara benzetmemek.",
+  "■ Ru’yetullah (Allah’ın görülmesi): Ehl-i sünnete göre Allah’ın ahirette müminler tarafından görülmesi aklen mümkün, naklen sabittir: “O gün bazı yüzler parıldar, Rablerine bakarlar” (Kıyâme, 75/22-23). Bu görme keyfiyetsizdir; bir yön, mesafe, karşılıklılık ve kuşatma (ihata) olmaksızın gerçekleşir. Mu’tezile “Gözler O’nu idrak edemez” (En’âm, 6/103) ve Hz. Mûsâ’ya söylenen “Beni asla göremezsin” (A’râf, 7/143) ayetlerine dayanarak ru’yeti inkâr eder. Ehl-i sünnet, En’âm 103’teki “idrak”in kuşatarak görmek olduğunu; Hz. Mûsâ’nın ru’yeti istemesinin onun mümkün olduğunu gösterdiğini söyler. Dünyada Allah’ı baş gözüyle görmek ise peygamberler dışında vâki değildir; Hz. Peygamber’in Mi’rac’da görüp görmediği sahabe döneminden beri tartışmalıdır (Hz. Âişe görmediği, İbn Abbas gördüğü görüşündedir).",
+  {
+   "sinav": "İmam Mâlik’in “istivâ malum, keyfiyeti meçhul…” sözü tefvîzin simgesidir. Te’vil eşleştirmelerinde “nüzûl → Allah’ın mekânda yer değiştirmesi” gibi bir seçenek te’vil değil teşbihtir. Ru’yet: Ehl-i sünnet Kıyâme 22-23; Mu’tezile En’âm 103 ve A’râf 143."
+  },
+  {
+   "akil": "Haberî sıfatlar müteşâbihtir. Selef: tefvîz (keyfiyetsiz kabul, anlamı Allah’a havale). Halef: te’vil (yed-kudret, vech-zât, istivâ-hâkimiyet). İkisi de teşbihi reddeder. Ru’yet ahirette müminler için hak, keyfiyetsizdir; Mu’tezile inkâr eder."
+  },
+  {
+   "b": "6. Tenzih ve teşbih: İki uç arasında orta yol"
+  },
+  {
+   "merak": "Bir okul düşünün: Biri Allah’tan bütün sıfatları kaldırır, “O hakkında hiçbir şey söylenemez” der. Diğeri Allah’ı bir hükümdar gibi tahtında oturan bir varlık olarak hayal eder. İkisi de Allah’ı tanımaktan uzaktır. Doğru yol nerededir?"
+  },
+  "Tenzih, Allah’ı yaratılmışlara ait her türlü eksiklik ve benzerlikten uzak tutmaktır; “sübhânallah” sözü tenzihin ifadesidir. Teşbih ise Allah’ı yaratılmışlara benzetmektir. Tenzihte aşırılık “ta’tîl”e (sıfatları işlevsiz bırakmak, inkâr etmek), teşbihte aşırılık “tecsîm”e (Allah’a cisim nispet etmek) götürür. Ehl-i sünnet ikisinin ortasındadır: “Teşbihsiz isbat, ta’tîlsiz tenzih.” Yani Allah’ın Kur’an’da bildirdiği sıfatlar kabul edilir (isbat), ama bunlar yaratılmışların sıfatlarına benzetilmez (tenzih).",
+  {
+   "ayet": "O’nun benzeri hiçbir şey yoktur. O, hakkıyla işitendir, hakkıyla görendir.",
+   "kay": "Şûrâ, 42/11"
+  },
+  "Bu ayet, Ehl-i sünnet dengesinin Kur’anî formülüdür: İlk cümle (“O’nun benzeri hiçbir şey yoktur”) tenzihi, ikinci cümle (“O işitendir, görendir”) sıfatların isbatını ifade eder. Allah hem benzersizdir hem de işitme ve görme gibi gerçek sıfatlara sahiptir; ama O’nun işitmesi ve görmesi bizimkine benzemez.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Anlamı",
+     "Örnek grup"
+    ],
+    [
+     "Tenzih",
+     "Allah’ı noksanlık ve benzerlikten arındırmak",
+     "Ehl-i sünnetin temel ilkesi"
+    ],
+    [
+     "Ta’tîl",
+     "Sıfatları inkâr edip zâtı sıfatsız bırakmak",
+     "Cehmiyye"
+    ],
+    [
+     "Teşbih",
+     "Allah’ı yaratılmışlara benzetmek",
+     "Müşebbihe"
+    ],
+    [
+     "Tecsîm",
+     "Allah’a cisim, organ, mekân nispet etmek",
+     "Mücessime, Kerrâmiyye’nin bir kısmı"
+    ],
+    [
+     "Hulûl",
+     "Allah’ın bir varlığa girmesi",
+     "Bazı aşırı Şiî ve sûfî gruplara nispet edilen, Ehl-i sünnetin reddettiği görüş"
+    ],
+    [
+     "İttihâd",
+     "Allah ile bir varlığın birleşmesi",
+     "Ehl-i sünnetin reddettiği görüş"
+    ],
+    [
+     "Tefvîz",
+     "Müteşâbihin anlamını Allah’a havale etmek",
+     "Selef"
+    ],
+    [
+     "Te’vil",
+     "Lafzı Allah’a yakışan mecazi anlama yorumlamak",
+     "Halef, Mu’tezile"
+    ]
+   ]
+  },
+  "Kur’an’ın tenzih vurgusu Allah’a çocuk isnat edilmesine yönelik eleştirilerde de belirgindir: “Doğurmamış, doğurulmamıştır” (İhlâs, 112/3); “Rahmân’ın çocuk edinmesi yakışmaz” (Meryem, 19/92). Hristiyanların teslis inancı ve müşriklerin melekleri Allah’ın kızları sayması, tenzih ilkesiyle reddedilir.",
+  {
+   "sinav": "Şûrâ 11’in ilk kısmı tenzihi, ikinci kısmı isbatı ifade eder; ÖSYM bu ayetle “Ehl-i sünnetin sıfat anlayışı” sorar. Ta’tîl Cehmiyye’ye, tecsîm Mücessime ve Kerrâmiyye’ye, ayniyet Mu’tezile’ye aittir. “Tekvini kudretin taalluku sayan” Eş’arîlerdir; bu görüşü Mâtürîdîlere vermek klasik tuzaktır."
+  },
+  {
+   "akil": "Ehl-i sünnet: teşbihsiz isbat, ta’tîlsiz tenzih. Formül ayet: “O’nun benzeri hiçbir şey yoktur; O işitendir, görendir” (Şûrâ 11). Tenzihte aşırılık ta’tîl, teşbihte aşırılık tecsîmdir."
+  }
+ ],
+ "ozet": [
+  "Esmâ-i hüsnâ: A’râf 180, Haşr 22-24, İsrâ 110, Tâhâ 8. “99 isim” hadisi sınırlama değil, faziletle ilgilidir.",
+  "Ehl-i sünnet çoğunluğuna göre isimler tevkîfîdir; “Allah” ism-i zât, diğerleri sıfat isimleridir.",
+  "Nefsî sıfat: vücûd. Selbî: kıdem, bekā, vahdâniyyet, muhâlefetün li’l-havâdis, kıyâm bi-nefsihî.",
+  "Sübûtî: hayat, ilim, semi’, basar, irade, kudret, kelâm, tekvîn (Mâtürîdî 8; Eş’arî 7).",
+  "Tekvin: Mâtürîdîlere göre ezelî ve ayrı sıfat, fiilî sıfatlar ona döner ve ezelîdir; Eş’arîlere göre kudretin taalluku, fiilî sıfatlar hâdistir.",
+  "Mükevven (yaratılan) hâdistir; Allah ezelden Hâlık’tır.",
+  "Zâtî-fiilî ölçütü: Zıddıyla nitelenemeyen zâtî (ilim), zıddıyla nitelenebilen fiilî (ihyâ-imâte, rızık verme).",
+  "Zât-sıfat: Cehmiyye ta’tîl; Mu’tezile “zâtıyla âlim” (ayniyet; Ebû Hâşim ahvâl); Ehl-i sünnet “lâ hüve ve lâ gayruhû”.",
+  "Kelâm-ı nefsî ezelî; harf ve sesler (kelâm-ı lafzî) hâdis. Mu’tezile: Kur’an mahluktur.",
+  "Hz. Mûsâ: Mâtürîdî’ye göre ezelî kelâma delalet eden sesi, Eş’arî’ye göre ezelî kelâmı işitti.",
+  "İrade: tekvînî (her şeyi kapsar) – teşrîî (emir ve rıza, yalnız hayır). Allah küfrü yaratır ama razı olmaz (Zümer 7).",
+  "Kudret yalnız mümkinâta taalluk eder; muhal kudretin konusu değildir.",
+  "Haberî sıfatlar: yed, vech, ayn, istivâ, nüzûl. Selef tefvîz, Halef te’vil; İmam Mâlik: “İstivâ malum, keyfiyeti meçhul…”.",
+  "Ru’yet: Ehl-i sünnet ahirette keyfiyetsiz (Kıyâme 22-23); Mu’tezile inkâr (En’âm 103, A’râf 143).",
+  "Şûrâ 11: “O’nun benzeri yoktur” (tenzih) + “O işitendir, görendir” (isbat). Teşbihsiz isbat, ta’tîlsiz tenzih.",
+  "Ta’tîl: Cehmiyye; tecsîm: Mücessime, Kerrâmiyye; “Allah her yerdedir” = ilmi ve kudretiyle."
+ ],
+ "kartlar": [
+  {
+   "o": "Esmâ-i hüsnâ tevkîfîdir ne demek?",
+   "a": "Allah’a ancak Kur’an ve sünnette bildirilen isimlerle isim verilir; yeni isim uydurulmaz (Ehl-i sünnet çoğunluğu)."
+  },
+  {
+   "o": "İsm-i zât",
+   "a": "“Allah” lafzı; zâta delalet eden özel isim. Diğer isimler sıfat isimleridir."
+  },
+  {
+   "o": "Selbî sıfatlar",
+   "a": "Kıdem, bekā, vahdâniyyet, muhâlefetün li’l-havâdis, kıyâm bi-nefsihî. Vücûd nefsî sıfattır."
+  },
+  {
+   "o": "Sübûtî sıfat sayısı",
+   "a": "Mâtürîdîlere göre 8 (tekvin dahil), Eş’arîlere göre 7."
+  },
+  {
+   "o": "Tekvin",
+   "a": "Mâtürîdî: ezelî, ayrı sıfat; fiilî sıfatların kaynağı. Eş’arî: kudretin yaratılanlara taalluku."
+  },
+  {
+   "o": "Zâtî-fiilî sıfat ölçütü",
+   "a": "Zıddıyla nitelenemeyen zâtîdir (ilim, kudret); zıddıyla da nitelenebilen fiilîdir (ihyâ-imâte, terzîk)."
+  },
+  {
+   "o": "“Lâ hüve ve lâ gayruhû”",
+   "a": "Ehl-i sünnet: Sıfatlar ne zâtın aynıdır ne de zâttan başkasıdır."
+  },
+  {
+   "o": "Mu’tezile’nin sıfat görüşü",
+   "a": "Allah zâtıyla âlim, zâtıyla kādirdir; ayrı ezelî sıfat kabulü birden çok kadîm (taaddüd-i kudemâ) doğurur."
+  },
+  {
+   "o": "Kelâm-ı nefsî – kelâm-ı lafzî",
+   "a": "Nefsî: Allah’ın zâtıyla kāim, harf ve sessiz ezelî kelâmı. Lafzî: Mushaftaki harfler, okunan sesler; hâdistir."
+  },
+  {
+   "o": "Hz. Mûsâ ne işitti?",
+   "a": "Mâtürîdî: ezelî kelâma delalet eden yaratılmış ses. Eş’arî: ezelî kelâmın kendisi, harfsiz ve sessiz."
+  },
+  {
+   "o": "Tekvînî – teşrîî irade",
+   "a": "Tekvînî: yaratmayla ilgili, hayır-şer her şeyi kapsar. Teşrîî: emir ve rızayla ilgili, yalnız hayra yönelir."
+  },
+  {
+   "o": "İmam Mâlik’in istivâ sözü",
+   "a": "“İstivâ malum, keyfiyeti meçhul, ona iman vacip, onu sormak bid’attir.” Tefvîzin simgesi."
+  },
+  {
+   "o": "Te’vil örnekleri",
+   "a": "Yed → kudret/nimet; vech → zât; istivâ → istîlâ, hâkimiyet; ayn → gözetim; nüzûl → rahmetin inmesi."
+  },
+  {
+   "o": "Ru’yetullah",
+   "a": "Ehl-i sünnet: Müminler ahirette keyfiyetsiz görecek (Kıyâme 22-23). Mu’tezile: imkânsız (En’âm 103)."
+  },
+  {
+   "o": "Şûrâ 11",
+   "a": "“O’nun benzeri hiçbir şey yoktur” tenzih; “O işitendir, görendir” isbat. Ehl-i sünnet dengesinin ayeti."
+  },
+  {
+   "o": "Karıştırma: ta’tîl – tecsîm",
+   "a": "Ta’tîl: sıfatları inkâr (Cehmiyye). Tecsîm: Allah’a cisim nispeti (Mücessime, Kerrâmiyye)."
+  },
+  {
+   "o": "Kudret neye taalluk eder?",
+   "a": "Yalnız mümkinâta. Muhal (Allah’ın ortağı, kare daire) kudretin konusu değildir; bu acizlik değildir."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "c1-08",
+   "z": 2,
+   "s": "Mâtürîdîlere göre ezelî ve ayrı bir sıfat olup Eş’arîlere göre kudret sıfatının yaratılanlarla ilişkisinden (taalluk) ibaret olan sıfat hangisidir?",
+   "c": [
+    "Tekvîn",
+    "Kelâm",
+    "Hayat",
+    "İrade",
+    "İlim"
+   ],
+   "d": 0,
+   "a": "Yaratma sıfatı olan tekvîn, Mâtürîdîler ile Eş’arîler arasındaki en bilinen farklardandır: Mâtürîdîler sübûtî sıfatları sekiz, Eş’arîler yedi sayar.",
+   "ac": [
+    "Doğru: Tekvin Mâtürîdîlerde ayrı sıfat, Eş’arîlerde kudretin taallukudur.",
+    "Kelâm iki ekolde de ayrı sübûtî sıfattır.",
+    "Hayat iki ekolde de sübûtî sıfattır.",
+    "İrade iki ekolde de ayrı sübûtî sıfattır.",
+    "İlim iki ekolde de sübûtî sıfattır."
+   ],
+   "kay": "Mâtürîdî, Kitâbü’t-Tevhîd; Ebü’l-Muîn en-Nesefî, Tebsıratü’l-edille"
+  },
+  {
+   "id": "c1-13",
+   "z": 1,
+   "s": "Allah’ın zâtına ait olan ve O’nun yaratılmışlardan farkını ifade eden zâtî (nefsî ve selbî) sıfatlar arasında hangisi yoktur?",
+   "c": [
+    "Vücûd",
+    "Kıdem",
+    "Bekā",
+    "Hayat",
+    "Vahdâniyyet"
+   ],
+   "d": 3,
+   "a": "Zâtî sıfatlar vücûd (nefsî) ile kıdem, bekā, vahdâniyyet, muhâlefetün li’l-havâdis ve kıyâm bi-nefsihî (selbî) sıfatlarıdır. Hayat ise sübûtî sıfattır.",
+   "ac": [
+    "Vücûd nefsî (zâtî) sıfattır.",
+    "Kıdem selbî sıfattır.",
+    "Bekā selbî sıfattır.",
+    "Doğru: Hayat sübûtî sıfattır.",
+    "Vahdâniyyet selbî sıfattır."
+   ],
+   "kay": "Konu: Sıfatların tasnifi"
+  },
+  {
+   "id": "c1-17",
+   "z": 3,
+   "s": "Bir kelamcı şöyle der: “Allah ezelden beri Hâlık (yaratıcı), Râzık (rızık veren), Muhyî (dirilten) idi. Yaratılmışlar ise ezelî değildir; her biri Allah’ın ezelde belirlediği vakit gelince var olur. Yaratmak, kudretin bir yansıması değil, ondan ayrı ezelî bir sıfattır.”\n\nBu görüşü savunan ekol ve görüşün dayandığı sıfat aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Eş’arîlik – Kudret",
+    "Mâtürîdîlik – Tekvîn",
+    "Mâtürîdîlik – İlim",
+    "Eş’arîlik – Tekvîn",
+    "Mu’tezile – İrade"
+   ],
+   "d": 1,
+   "a": "Fiilî sıfatların hepsini ezelî tekvin sıfatına bağlayan, tekvini ezelî ama mükevveni (yaratılanı) hâdis sayan Mâtürîdîlerdir. Eş’arîler tekvini ayrı sıfat kabul etmez; fiilî sıfatları hâdis taalluklar olarak görür.",
+   "ac": [
+    "Eş’arîler yaratmayı kudretin taalluku sayar ve fiilî sıfatları ezelî kabul etmez.",
+    "Doğru: Mâtürîdîler tekvini ezelî ve ayrı bir sıfat sayar.",
+    "Ekol doğru, sıfat yanlıştır; yaratma ilim sıfatına dayandırılmaz.",
+    "Eş’arîler tekvini ayrı sıfat olarak kabul etmez.",
+    "Mu’tezile sıfatları zâtın aynı sayar; ayrı ezelî sıfat kabul etmez."
+   ],
+   "kay": "Mâtürîdî, Kitâbü’t-Tevhîd; Sâbûnî, el-Bidâye"
+  },
+  {
+   "id": "kl3-01",
+   "z": 3,
+   "s": "Ebû Hanîfe ve Mâtürîdî geleneğinde zâtî ve fiilî sıfatları ayırmak için şu ölçü kullanılır: Allah’ın zıddıyla nitelenemediği sıfat zâtî, hem kendisiyle hem zıddıyla nitelenebildiği sıfat fiilîdir.\n\nBu ölçüye göre aşağıdaki sıfat çiftlerinden hangisinin her ikisi de fiilî sıfattır?",
+   "c": [
+    "İhyâ – İmâte",
+    "Hayat – İrade",
+    "İlim – Kudret",
+    "Semi’ – Basar",
+    "Kelâm – İlim"
+   ],
+   "d": 0,
+   "a": "Allah hem diriltir (ihyâ) hem öldürür (imâte); bu sıfatlar zıtlarıyla birlikte Allah’a nispet edilebildiği için fiilîdir. Allah için “bilmez, gücü yetmez, diri değildir, işitmez” denemez; bu yüzden ilim, kudret, hayat, semi’, basar zâtî (sübûtî) sıfatlardır.",
+   "ac": [
+    "Doğru: Diriltmek ve öldürmek birbirinin zıddıdır ve ikisi de Allah’a nispet edilir.",
+    "İkisi de sübûtî sıfattır.",
+    "İkisi de zıddıyla nitelenemeyen sübûtî sıfatlardır.",
+    "İkisi de sübûtî sıfattır.",
+    "İkisi de sübûtî sıfattır."
+   ],
+   "kay": "Ebû Hanîfe, el-Fıkhu’l-ekber; Konu: Zâtî-fiilî ayrımı"
+  },
+  {
+   "id": "kl3-02",
+   "z": 3,
+   "s": "Kur’an’da “Allah Mûsâ ile gerçekten konuştu” (Nisâ, 4/164) buyrulur. Kelamcılar, Hz. Mûsâ’nın Tûr’da işittiği şeyin mahiyeti konusunda ayrılmıştır.\n\nBu konudaki görüşlerle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Mâtürîdîlere göre Hz. Mûsâ, harf ve ses olmaksızın Allah’ın ezelî kelâmının kendisini işitmiştir.",
+    "Mâtürîdîlere göre Hz. Mûsâ ezelî kelâma delalet eden yaratılmış bir ses işitmiş; Eş’arîlere göre ise ezelî kelâmı olağanüstü bir şekilde işitmiştir.",
+    "Eş’arîlere göre Hz. Mûsâ’nın işittiği, Allah’ın bir ağaçta yarattığı ve ezelî kelâma delalet etmeyen bir sestir.",
+    "Her iki ekole göre de Hz. Mûsâ’nın işittiği harf ve sesler ezelîdir.",
+    "Mu’tezile’ye göre Hz. Mûsâ Allah’ın zâtıyla kāim ezelî kelâm-ı nefsîyi işitmiştir."
+   ],
+   "d": 1,
+   "a": "Mâtürîdîler, harf ve ses olmayan bir şeyin işitilemeyeceğini düşünerek Hz. Mûsâ’nın ezelî kelâma delalet eden yaratılmış sesi işittiğini söyler. Eş’arîler ise Allah’ın dilerse harfsiz ve sessiz ezelî kelâmı da işittirebileceğini kabul eder.",
+   "ac": [
+    "Bu Eş’arîlerin görüşüdür; ekoller karıştırılmıştır.",
+    "Doğru: İki ekolün görüşü doğru verilmiştir.",
+    "Eş’arîler ezelî kelâmın işitildiğini söyler; delalet etmeyen bir ses görüşü kimseye ait değildir.",
+    "Ehl-i sünnet kelamcılarına göre harf ve sesler hâdistir.",
+    "Mu’tezile kelâm-ı nefsîyi kabul etmez; ona göre Hz. Mûsâ Allah’ın yarattığı sesi işitmiştir."
+   ],
+   "kay": "Nisâ, 4/164; Mâtürîdî, Kitâbü’t-Tevhîd"
+  },
+  {
+   "id": "kl3-03",
+   "z": 2,
+   "s": "Bir kelam ekolü, Allah’ın zâtından ayrı ezelî sıfatlar kabul etmenin birden fazla ezelî varlık kabul etmek anlamına geleceğini ve tevhidi zedeleyeceğini düşünerek “Allah zâtıyla âlimdir, zâtıyla kādirdir.” demiştir. Ehl-i sünnet ise bu görüşe karşı sıfatların zâtla ilişkisini özel bir formülle ifade etmiştir.\n\nBu ekol ve Ehl-i sünnetin formülü aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Cehmiyye – “Sıfatlar zâtın aynıdır.”",
+    "Mu’tezile – “Sıfatlar zâttan tamamen ayrı ezelî varlıklardır.”",
+    "Kerrâmiyye – “Sıfatlar zâttan başka, ayrı varlıklardır.”",
+    "Mu’tezile – “Sıfatlar ne zâtın aynıdır ne de zâttan başkasıdır.”",
+    "Müşebbihe – “Sıfatlar yaratılmışların sıfatlarına benzer.”"
+   ],
+   "d": 3,
+   "a": "Sıfatları zâtın aynı sayıp “zâtıyla âlim” diyen Mu’tezile’dir. Ehl-i sünnetin formülü “lâ hüve ve lâ gayruhû”dur: Sıfatlar ne zâtın aynıdır ne de zâttan ayrı başka bir şeydir.",
+   "ac": [
+    "Cehmiyye sıfatları tamamen inkâr eder (ta’tîl); formül de Ehl-i sünnete ait değildir.",
+    "Ekol doğru, formül yanlıştır; Ehl-i sünnet sıfatların zâttan ayrı varlıklar olduğunu söylemez.",
+    "Kerrâmiyye bu tartışmanın tarafı olarak verilmemiştir; formül Ehl-i sünnetinki değildir.",
+    "Doğru: Ekol Mu’tezile, formül Ehl-i sünnetin formülüdür.",
+    "Müşebbihe teşbihçi bir gruptur; formül Ehl-i sünnete ait değildir."
+   ],
+   "kay": "Konu: Zât-sıfat ilişkisi"
+  },
+  {
+   "id": "kl3-04",
+   "z": 2,
+   "s": "Medine’de bir kişi, “Rahmân arşa istivâ etti” ayetindeki istivânın nasıl olduğunu sorunca bir imam şöyle cevap vermiştir: “İstivâ bilinmektedir; keyfiyeti bilinmemektedir. Ona iman etmek vaciptir; onun hakkında soru sormak ise bid’attir.”\n\nBu cevabı veren imam ve cevabın yansıttığı yaklaşım aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Ahmed b. Hanbel – Te’vil",
+    "Ebû Hanîfe – Tecsîm",
+    "İmam Mâlik – Tefvîz",
+    "İmam Şâfiî – Te’vil",
+    "İmam Mâlik – Ta’tîl"
+   ],
+   "d": 2,
+   "a": "Bu meşhur söz İmam Mâlik’e aittir ve Selef’in haberî sıfatlar konusundaki tefvîz yaklaşımını yansıtır: Lafız kabul edilir, keyfiyet sorulmaz, anlam Allah’a havale edilir.",
+   "ac": [
+    "Ahmed b. Hanbel de tefvîz ehlidir; ama söz ona ait değildir ve yaklaşım te’vil değildir.",
+    "Ebû Hanîfe teşbih ve tecsîmi reddeder; söz de ona ait değildir.",
+    "Doğru: İmam Mâlik ve tefvîz.",
+    "Söz İmam Şâfiî’ye ait değildir; yaklaşım te’vil değildir.",
+    "İmam doğru, yaklaşım yanlıştır; ta’tîl sıfatları inkâr etmektir."
+   ],
+   "kay": "Tâhâ, 20/5; Beyhakî, el-Esmâ ve’s-sıfât"
+  },
+  {
+   "id": "kl3-05",
+   "z": 3,
+   "s": "Müteahhir kelamcıların haberî sıfatlara getirdiği te’viller eşleştirilmiştir.\n\nBu eşleştirmelerden hangisi te’vil kapsamında değerlendirilemez?",
+   "c": [
+    "Yed (el) – Kudret veya nimet",
+    "Nüzûl (inme) – Allah’ın üst bir mekândan alt bir mekâna yer değiştirmesi",
+    "İstivâ – İstîlâ, hâkimiyet ve hükümranlık",
+    "Ayn (göz) – Gözetim ve koruma",
+    "Vech (yüz) – Zât"
+   ],
+   "d": 1,
+   "a": "Te’vil, lafzı Allah’a yakışan mecazi bir anlama yorumlamaktır. Nüzûlü “Allah’ın mekânda yer değiştirmesi” şeklinde anlamak te’vil değil, Allah’a mekân ve hareket nispet eden teşbih ve tecsîmdir. Te’vil edenler nüzûlü rahmetin, lütfun ya da emrin inmesi olarak yorumlar.",
+   "ac": [
+    "Kelamcıların meşhur te’vilidir.",
+    "Doğru: Bu bir te’vil değil, teşbihçi bir anlamlandırmadır.",
+    "İstivânın hâkimiyet ve istîlâ ile yorumlanması meşhur te’vildir.",
+    "“Gözlerimizin önünde” ifadesi gözetim ve koruma ile yorumlanır.",
+    "Rahmân 27’deki vech, zât olarak yorumlanır."
+   ],
+   "kay": "Konu: Haberî sıfatlar ve te’vil"
+  },
+  {
+   "id": "kl3-06",
+   "z": 3,
+   "s": "Allah’ın görülmesi (ru’yetullah) ile ilgili olarak;\n\nI. Ehl-i sünnete göre müminler ahirette Allah’ı göreceklerdir.\nII. Mu’tezile, “Gözler O’nu idrak edemez” ayetine dayanarak ru’yeti imkânsız görmüştür.\nIII. Ehl-i sünnete göre bu görme bir yön, mesafe ve kuşatma olmaksızın, keyfiyetsiz olarak gerçekleşecektir.\nIV. Ehl-i sünnete göre Hz. Mûsâ’nın Allah’ı görmek istemesi, ru’yetin aklen imkânsız olduğunu gösterir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "II ve IV",
+    "I, II ve III",
+    "I, III ve IV",
+    "II, III ve IV"
+   ],
+   "d": 2,
+   "a": "Ehl-i sünnet ru’yeti Kıyâme 22-23’e dayanarak kabul eder ve keyfiyetsiz olduğunu söyler; Mu’tezile En’âm 103’e dayanarak reddeder. Ehl-i sünnete göre Hz. Mûsâ’nın görmeyi istemesi, bir peygamberin imkânsız bir şeyi istemeyeceği için ru’yetin mümkün olduğunu gösterir.",
+   "ac": [
+    "Üçüncü öncül de doğrudur.",
+    "Dördüncü öncül yanlıştır.",
+    "Doğru: İlk üç öncül doğrudur.",
+    "Dördüncü öncül yanlıştır; Ehl-i sünnet bu olayı imkânın delili sayar.",
+    "Dördüncü öncül yanlıştır."
+   ],
+   "kay": "Kıyâme, 75/22-23; En’âm, 6/103; A’râf, 7/143"
+  },
+  {
+   "id": "kl3-07",
+   "z": 2,
+   "s": "Allah’ın iradesi ile ilgili aşağıdaki ifadelerden hangisi Ehl-i sünnet anlayışına göre yanlıştır?",
+   "c": [
+    "Kâinatta meydana gelen her şey, hayır da şer de, Allah’ın tekvînî iradesiyle gerçekleşir.",
+    "Teşrîî irade Allah’ın emir ve rızasıyla ilgilidir ve yalnızca hayra yönelir.",
+    "Allah kullarının küfrünü yaratsa da ondan razı değildir.",
+    "Allah’ın iradesi yalnızca emrettiği şeylerle sınırlıdır; emretmediği hiçbir şey O’nun dilemesiyle olmaz.",
+    "Allah’ın kötülüğü yaratması değil, kulun kötülüğü seçip kazanması kötüdür."
+   ],
+   "d": 3,
+   "a": "Ehl-i sünnete göre irade ile emir birbirinden ayrıdır: Allah emretmediği küfrü de tekvînî iradesiyle diler ve yaratır, ama ondan razı olmaz. İradeyi emre indiren görüş Mu’tezile’ye aittir.",
+   "ac": [
+    "Ehl-i sünnetin görüşüdür.",
+    "Ehl-i sünnetin görüşüdür.",
+    "Zümer 7’ye dayanan Ehl-i sünnet görüşüdür.",
+    "Doğru cevap: Bu Mu’tezile’nin irade-emir özdeşliği anlayışına yakındır; Ehl-i sünnete göre yanlıştır.",
+    "Ehl-i sünnetin görüşüdür."
+   ],
+   "kay": "Zümer, 39/7"
+  },
+  {
+   "id": "kl3-08",
+   "z": 3,
+   "s": "“O’nun benzeri hiçbir şey yoktur. O, hakkıyla işitendir, hakkıyla görendir.” (Şûrâ, 42/11)\n\nBu ayet kelamcılar tarafından Ehl-i sünnetin sıfatlar konusundaki tutumunun Kur’anî formülü olarak değerlendirilmiştir.\n\nBu değerlendirmenin gerekçesi aşağıdakilerden hangisidir?",
+   "c": [
+    "Ayetin, Allah’ın sıfatlarının zâtının aynı olduğunu açıkça bildirmesi",
+    "Ayetin, haberî sıfatların mutlaka te’vil edilmesi gerektiğini bildirmesi",
+    "Ayetin ilk kısmının tenzihi, ikinci kısmının ise sıfatların isbatını ifade ederek ta’tîl ve teşbihi birlikte reddetmesi",
+    "Ayetin, Allah’ın ahirette görülemeyeceğine delalet etmesi",
+    "Ayetin, semi’ ve basar sıfatlarının ilim sıfatına indirgenmesi gerektiğini göstermesi"
+   ],
+   "d": 2,
+   "a": "Ayetin ilk cümlesi Allah’ın hiçbir şeye benzemediğini (tenzih), ikinci cümlesi işitme ve görme sıfatlarına gerçekten sahip olduğunu (isbat) bildirir. Böylece sıfatları inkâr eden ta’tîl de, Allah’ı yaratılmışlara benzeten teşbih de reddedilmiş olur.",
+   "ac": [
+    "Bu Mu’tezile’nin görüşüdür; ayet bunu bildirmez.",
+    "Ayette te’vil zorunluluğuna dair bir ifade yoktur.",
+    "Doğru: Teşbihsiz isbat, ta’tîlsiz tenzih.",
+    "Ayetin ru’yetle doğrudan ilgisi yoktur.",
+    "Semi’ ve basarı ilme indirgeyen bazı Mu’tezilîlerdir; ayet ikisini ayrıca isbat eder."
+   ],
+   "kay": "Şûrâ, 42/11"
+  },
+  {
+   "id": "kl3-09",
+   "z": 2,
+   "s": "Bir hatip hutbesinde Allah’a “Ey kâinatın Baş Mühendisi!” diye dua eder. Cemaatten bir ilahiyatçı, bu ifadenin anlamca güzel olsa da Allah’a isim olarak kullanılmasının doğru olmadığını söyler.\n\nİlahiyatçının bu uyarısı aşağıdaki ilkelerden hangisine dayanmaktadır?",
+   "c": [
+    "Fiilî sıfatların ezelî olması",
+    "İsm-i a’zamın gizli tutulması",
+    "Allah’ın isimlerinin doksan dokuz ile sınırlı olması",
+    "Haberî sıfatların te’vil edilmesi gerekliliği",
+    "Allah’ın isimlerinin tevkîfî olması"
+   ],
+   "d": 4,
+   "a": "Ehl-i sünnet âlimlerinin çoğunluğuna göre Allah’ın isimleri tevkîfîdir; yani Allah’a ancak Kur’an ve sünnette bildirilen isimlerle isim verilir. Anlamı güzel olsa bile nassta geçmeyen bir isim Allah’a ad olarak verilmez.",
+   "ac": [
+    "Fiilî sıfatların ezelîliği tartışmasıyla ilgisi yoktur.",
+    "İsm-i a’zamın gizliliği, yeni isim koymayla ilgili değildir.",
+    "İsimler doksan dokuzla sınırlı değildir; hadisteki sayı fazilet içindir.",
+    "Haberî sıfatların yorumuyla ilgisi yoktur.",
+    "Doğru: İsimlerin tevkîfî oluşu."
+   ],
+   "kay": "A’râf, 7/180; Konu: Esmâ-i hüsnâ"
+  },
+  {
+   "id": "kl3-10",
+   "z": 2,
+   "s": "“Allah” lafzıyla (lafza-i celâl) ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Rahmân, Alîm gibi bir sıfat ismidir ve anlamı itibarıyla başka varlıklara da isim olarak verilebilir.",
+    "Diğer güzel isimlerin anlamlarını kapsar.",
+    "Başkasına ad olarak verilmez.",
+    "Kelime-i tevhid ve şehadet bu isimle söylenir.",
+    "Allah’ın zâtına delalet eden özel isimdir (ism-i zât)."
+   ],
+   "d": 0,
+   "a": "“Allah” ismi bir sıfata değil, doğrudan zâta delalet eden özel isimdir; başka hiçbir varlığa verilmez. Sıfat isimleri ise Rahîm, Alîm, Kadîr gibi bir sıfatı ifade eden isimlerdir.",
+   "ac": [
+    "Doğru cevap: Allah ismi sıfat ismi değildir ve başkasına verilemez.",
+    "Doğru bir bilgidir.",
+    "Doğru bir bilgidir.",
+    "Doğru bir bilgidir.",
+    "Doğru bir bilgidir."
+   ],
+   "kay": "Konu: Lafza-i celâl"
+  },
+  {
+   "id": "kl3-11",
+   "z": 3,
+   "s": "Bir öğrenci, “Allah her şeye kādir ise, kendisinden daha güçlü bir ilah yaratabilir mi? Yaratamazsa kudreti sınırlı olmaz mı?” diye sorar.\n\nKelamcıların bu soruya vereceği cevabın dayandığı ilke aşağıdakilerden hangisidir?",
+   "c": [
+    "Allah’ın kudreti yalnızca aklen mümkün olan şeylere yönelir; muhal olan bir şey kudretin konusu değildir ve bu bir acizlik sayılmaz.",
+    "Allah’ın kudreti yalnızca ezelde takdir ettiği şeylerle sınırlıdır.",
+    "Kudret, Eş’arîlere göre tekvin sıfatının bir parçasıdır.",
+    "Allah’ın kudreti zâtının aynı olduğu için böyle bir soru sorulamaz.",
+    "Allah’ın kudreti yalnızca vâcib olana taalluk eder."
+   ],
+   "d": 0,
+   "a": "Kudret yalnızca mümkinâta taalluk eder. Yaratılmış ama kendisinden güçlü bir ilah düşüncesi kendi içinde çelişkilidir; çünkü yaratılan hâdistir, ilah ise kadîm olmalıdır. Muhal olan “bir şey” değildir ki kudret ona yönelsin.",
+   "ac": [
+    "Doğru: Muhal, kudretin konusu değildir.",
+    "Kudretin taalluku takdirle değil, imkânla ilgilidir; ilke bu değildir.",
+    "Eş’arîler tekvini kudrete bağlar, kudreti tekvine değil; soruyla da ilgili değildir.",
+    "Bu Mu’tezile’nin sıfat görüşüdür ve soruya cevap vermez.",
+    "Vâcib (Allah’ın zâtı ve sıfatları) kudretin konusu değildir; kudret mümkine yönelir."
+   ],
+   "kay": "Konu: Kudret sıfatı"
+  },
+  {
+   "id": "kl3-12",
+   "z": 3,
+   "s": "Allah’ın ilim sıfatı ile ilgili olarak;\n\nI. Allah olmuşu, olacağı ve olmayacak bir şey olsa nasıl olacağını bilir.\nII. Allah’ın ilmi olayları zorlamaz; ilim malûma tâbidir.\nIII. Allah küllî ve cüz’î her şeyi bilir; Allah’ın cüz’îleri ancak küllî bir tarzda bildiği görüşü Gazzâlî tarafından tekfir sebebi sayılmıştır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Üç öncül de doğrudur: Allah’ın ilmi her şeyi kuşatır; ilim zorlayıcı değil, bilineni olduğu gibi kuşatan bir sıfattır; İbn Sînâ’ya nispet edilen “cüz’îleri küllî tarzda bilme” görüşü Gazzâlî’nin tekfir ettiği üç meseleden biridir.",
+   "ac": [
+    "İkinci ve üçüncü öncül de doğrudur.",
+    "Birinci ve ikinci öncül de doğrudur.",
+    "Üçüncü öncül de doğrudur.",
+    "Birinci öncül de doğrudur.",
+    "Doğru: Üç öncül de doğrudur."
+   ],
+   "kay": "Sebe’, 34/3; Gazzâlî, Tehâfütü’l-felâsife"
+  },
+  {
+   "id": "kl3-13",
+   "z": 3,
+   "s": "Sıfatlar konusunda farklı tutumlar sergileyen gruplar ile görüşleri eşleştirilmiştir.\n\nBu eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "Cehmiyye – Allah’ın sıfatlarını tamamen inkâr etmek (ta’tîl)",
+    "Mu’tezile – Sıfatları zâtın aynı saymak",
+    "Müşebbihe – Allah’ı yaratılmışlara benzetmek",
+    "Kerrâmiyye – Allah’a cisim nispet etmek ve zâtında hâdis şeylerin bulunabileceğini söylemek",
+    "Mâtürîdiyye – Tekvini ayrı bir sıfat saymayıp kudretin taalluku olarak görmek"
+   ],
+   "d": 4,
+   "a": "Tekvini ayrı bir sıfat saymayıp kudretin taalluku olarak gören Eş’arîlerdir. Mâtürîdîler tekvini ezelî ve ayrı bir sübûtî sıfat olarak kabul eder.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme: Kerrâmiyye tecsîm ve “hulûlü’l-havâdis” görüşüyle bilinir.",
+    "Yanlış eşleştirme: Bu Eş’arîlerin görüşüdür."
+   ],
+   "kay": "Konu: Sıfatlar konusunda gruplar"
+  },
+  {
+   "id": "kl3-14",
+   "z": 3,
+   "s": "Allah’ın kelâm sıfatı ve Kur’an’ın yaratılmışlığı (halku’l-Kur’ân) tartışmasıyla ilgili olarak;\n\nI. Ehl-i sünnete göre Allah’ın zâtıyla kāim, harf ve sesten münezzeh ezelî kelâmına kelâm-ı nefsî denir.\nII. Ehl-i sünnete göre mushaftaki harfler, mürekkep ve okuyucunun sesi hâdistir.\nIII. Mu’tezile kelâm-ı nefsîyi kabul etmediği için Allah’ın kelâmını O’nun yarattığı harf ve sesler olarak görmüş ve Kur’an’ın mahluk olduğunu söylemiştir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Ehl-i sünnet kelâmı nefsî (ezelî) ve lafzî (hâdis) diye ayırır. Mu’tezile ise kelâm-ı nefsîyi kabul etmediği için “Kur’an mahluktur” der. Üç öncül de doğrudur.",
+   "ac": [
+    "İkinci ve üçüncü öncül de doğrudur.",
+    "Üçüncü öncül de doğrudur.",
+    "İkinci öncül de doğrudur.",
+    "Birinci öncül de doğrudur.",
+    "Doğru: Üç öncül de doğrudur."
+   ],
+   "kay": "Konu: Kelâm sıfatı"
+  },
+  {
+   "id": "kl3-15",
+   "z": 2,
+   "s": "“Allah’ın varlığı için hiçbir yaratıcıya, mahalle, mekâna ve başka bir varlığa muhtaç olmaması; zâtıyla kāim olması” aşağıdaki sıfatlardan hangisiyle ifade edilir?",
+   "c": [
+    "Kıdem",
+    "Bekā",
+    "Vahdâniyyet",
+    "Kıyâm bi-nefsihî",
+    "Vücûd"
+   ],
+   "d": 3,
+   "a": "Allah’ın var olmak ve varlığını sürdürmek için hiçbir şeye muhtaç olmaması kıyâm bi-nefsihî sıfatıdır; el-Kayyûm ve el-Ganî isimleriyle ilgilidir.",
+   "ac": [
+    "Kıdem varlığının başlangıcı olmamasıdır.",
+    "Bekā varlığının sonu olmamasıdır.",
+    "Vahdâniyyet zât, sıfat ve fiillerde tek olmasıdır.",
+    "Doğru: Kıyâm bi-nefsihî.",
+    "Vücûd var olmasıdır; muhtaç olmama anlamını özel olarak taşımaz."
+   ],
+   "kay": "Âl-i İmrân, 3/97; Bakara, 2/255"
+  }
+ ]
+}

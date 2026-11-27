@@ -1,0 +1,885 @@
+{
+ "id": "tefsir-4",
+ "ad": "Lafız Bahisleri: Âm-Hâs, Mutlak-Mukayyed, Hakikat-Mecaz, Emir-Nehiy, Müşterek, Mücmel-Mübeyyen ve Delalet Yolları",
+ "ders": "Tefsir",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Lafız ve anlam: Müfessir neden usul bilmeli?"
+  },
+  {
+   "merak": "Bir grup imam-hatip öğrencisi tartışıyor. Biri “Kur’an’dan kolayınıza geleni okuyun” ayetini gösterip “Namazda herhangi bir yer okunabilir” diyor. Diğeri “Fâtiha’sız namaz olmaz” hadisini hatırlatıyor. Üçüncüsü soruyor: “Peki hadis ayeti değiştirmiş mi oluyor, yoksa sınırını mı çiziyor?” Bu sorunun cevabı, lafız bahislerinde saklıdır."
+  },
+  "Kur’an Arapça bir metindir ve her metin gibi kelimeler, cümleler ve onların anlamlarla kurduğu ilişkilerden oluşur. Tefsir usulü ile fıkıh usulü, lafızların anlamlara nasıl delalet ettiğini sistemli biçimde incelemiştir. Bu konulara “mebâhisü’l-elfâz” (lafız bahisleri) denir. Süyûtî müfessirin bilmesi gereken ilimler arasında usûl-i fıkhı sayarken tam da bunu kasteder: Âmmı hâstan, mutlakı mukayyedden, emri nehiyden ayıramayan biri ayetlerden hüküm çıkaramaz.",
+  "Hanefî usulcüler lafızları dört ana bakış açısıyla sınıflandırır. Bu tablo bütün konunun haritasıdır:",
+  {
+   "tablo": [
+    [
+     "Bakış açısı",
+     "Sorulan soru",
+     "Lafız türleri"
+    ],
+    [
+     "Vaz’ (konuluş)",
+     "Lafız kaç anlam veya fert için konmuştur?",
+     "Hâs (mutlak, mukayyed, emir, nehiy dahil), âm, müşterek, müevvel"
+    ],
+    [
+     "İsti’mâl (kullanım)",
+     "Lafız konduğu anlamda mı kullanılmış?",
+     "Hakikat, mecaz, sarih, kinaye"
+    ],
+    [
+     "Anlamın açıklık derecesi",
+     "Anlam ne kadar açık ya da kapalı?",
+     "Açık: zâhir, nas, müfesser, muhkem. Kapalı: hafî, müşkil, mücmel, müteşâbih"
+    ],
+    [
+     "Delalet yolu",
+     "Lafız anlama hangi yolla ulaştırıyor?",
+     "İbâretü’n-nas, işâretü’n-nas, delâletü’n-nas, iktizâu’n-nas"
+    ]
+   ]
+  },
+  "Şâfiî ve Mâlikîlerin çoğunlukta olduğu mütekellimîn usulü ise delaleti mantûk (lafzın doğrudan söylediği) ve mefhûm (lafzın söylemediği hâlde çıkarılan) diye ikiye ayırır. Mefhûm da ikidir: mefhûm-ı muvâfakat (söylenmeyenin hükmünün söylenenle aynı olması) ve mefhûm-ı muhâlefet (söylenmeyenin hükmünün söylenenin tersi olması). Hanefîler şer’î nasslarda mefhûm-ı muhâlefeti delil kabul etmez; cumhur ise belli şartlarla kabul eder.",
+  {
+   "sinav": "Lafız bahisleri MBSTS’de çoğu zaman ayet ve hadis örneği verilerek “Hz. Peygamber’in bu sözü hangi açıklama türüne girer?” ya da “Bu ayette hangi üslup özelliği vardır?” şeklinde sorulur. Müzzemmil 20 ile “Fâtiha’sız namaz olmaz” hadisi ÖSYM’de mutlakın takyidi olarak cevaplanmıştır."
+  },
+  {
+   "akil": "Lafız bahisleri dört eksende: konuluş (âm, hâs, müşterek), kullanım (hakikat, mecaz, sarih, kinaye), açıklık derecesi (zâhir…muhkem / hafî…müteşâbih), delalet yolu (ibare, işaret, delalet, iktiza). Mütekellimîn: mantûk-mefhûm."
+  },
+  {
+   "b": "2. Âm ve hâs: Genel hüküm, özel durum"
+  },
+  {
+   "merak": "“Hırsızlık eden erkek ve kadının ellerini kesin” (Mâide, 5/38). Ayet bir elma çalanı da kapsar mı? Hz. Peygamber’in hırsızlıkta belli bir değerin (nisab) altında el kesilmeyeceğini bildirmesi, ayetteki “hırsız” kelimesinin kapsamını daraltmıştır."
+  },
+  "Âm, kendisine uygun düşen bütün fertleri bir defada, sınırlama olmaksızın kapsayan lafızdır. Hâs ise tek bir anlama veya sınırlı sayıdaki fertlere delalet eden lafızdır. “İnsanlar”, “müminler”, “kim (men)”, “her (küll)”, “bütün (cemî’)” âm; “Zeyd”, “üç”, “yüz değnek” hâstır.",
+  {
+   "tablo": [
+    [
+     "Âm lafızlar",
+     "Örnek"
+    ],
+    [
+     "Küll, cemî’ (her, bütün)",
+     "“Her nefis ölümü tadacaktır.” (Âl-i İmrân 185)"
+    ],
+    [
+     "Belirlilik takısı almış çoğul ve cins isim",
+     "“el-müminûn”, “es-sârik” (hırsız), “el-insân”"
+    ],
+    [
+     "İsm-i mevsul ve şart isimleri: ellezîne, men, mâ",
+     "“Sizden kim bu aya ulaşırsa onu oruçla geçirsin.” (Bakara 185)"
+    ],
+    [
+     "Olumsuzluk, yasak veya şart bağlamında gelen belirsiz isim (nekire)",
+     "“Dinde zorlama yoktur.” (Bakara 256)"
+    ]
+   ]
+  },
+  "Âmmın kapsamındaki bazı fertlerin bir delille hükmün dışında bırakılmasına tahsis denir. Tahsis eden delile muhassıs denir. Muhassıs iki türlüdür: Âmla aynı cümlede bitişik gelen muttasıl muhassıs (istisna, şart, sıfat, gaye) ve ayrı bir delil olarak gelen munfasıl muhassıs (başka bir ayet, hadis, akıl, his, örf).",
+  {
+   "tablo": [
+    [
+     "Tahsis türü",
+     "Örnek"
+    ],
+    [
+     "İstisna (muttasıl)",
+     "“Ancak tövbe edip ıslah olanlar müstesna” (Nûr 24/5)"
+    ],
+    [
+     "Sıfat (muttasıl)",
+     "“Mümin cariyelerinizden” (Nisâ 4/25)"
+    ],
+    [
+     "Gaye (muttasıl)",
+     "“Temizleninceye kadar onlara yaklaşmayın” (Bakara 2/222)"
+    ],
+    [
+     "Ayetle tahsis (munfasıl)",
+     "Bakara 2/228’deki üç kur’ iddeti; Talâk 65/4 ile hamilelerin iddeti doğuma kadar, Ahzâb 33/49 ile dokunulmadan boşananların iddeti yok"
+    ],
+    [
+     "Sünnetle tahsis (munfasıl)",
+     "Nisâ 4/11 miras ayeti; “Katil mirasçı olamaz” hadisiyle tahsis. Mâide 5/38 hırsızlık ayeti; nisab hadisiyle tahsis"
+    ],
+    [
+     "Akılla tahsis",
+     "“Allah her şeyin yaratıcısıdır” (Zümer 39/62): Allah’ın zatı ve sıfatları aklen bu kapsamın dışındadır"
+    ],
+    [
+     "Hisle (duyuyla) tahsis",
+     "Belkıs için “Ona her şeyden verilmişti” (Neml 27/23): Süleyman’ın mülkü gibi şeyler ona verilmemişti"
+    ]
+   ]
+  },
+  "Âmmın delaleti konusunda mezhepler ayrılır: Hanefîlere göre tahsis edilmemiş âm, fertlerine kat’î olarak delalet eder; bu yüzden âm bir ayet ahad haberle veya kıyasla ilk defa tahsis edilemez. Cumhura (Şâfiî, Mâlikî, Hanbelî) göre ise âmmın delaleti zannîdir ve ahad haberle tahsis edilebilir. Hanefîlere göre bir kez tahsis edilmiş âm artık zannî hâle gelir. Ayrıca Hanefîlerde, âmdan sonra ayrı ve sonra gelen bir delil âmmın bir kısmını çıkarıyorsa bu “kısmî nesih” sayılır; cumhur buna da tahsis der.",
+  "Bir de “hususî anlam kastedilmiş âm” (el-âmmü’l-mürâd bihi’l-husûs) vardır: Lafız genel olduğu hâlde baştan itibaren belli kişiler kastedilmiştir. “İnsanlar onlara ‘İnsanlar size karşı toplandı, onlardan korkun’ dediler” (Âl-i İmrân 3/173) ayetindeki ilk “insanlar”dan kastın tek bir kişi (Nuaym b. Mes’ûd) olduğu rivayet edilir.",
+  {
+   "sinav": "Âm-hâs ile nesih arasındaki fark sık sorulur: Tahsiste hüküm geri kalan fertler için devam eder, nesihte hüküm kalkar. Nisab hadisi Mâide 38’i, “Katil mirasçı olamaz” hadisi Nisâ 11’i neshetmez, tahsis eder. Hanefîlere göre âm kat’îdir; cumhura göre zannîdir."
+  },
+  {
+   "akil": "Âm: bütün fertleri kapsar (küll, cemî’, ellezîne, men, olumsuz bağlamda nekire). Hâs: tek veya sınırlı. Tahsis: muttasıl (istisna, şart, sıfat, gaye) veya munfasıl (ayet, hadis, akıl, his). Hanefî: âm kat’î; cumhur: zannî."
+  },
+  {
+   "b": "3. Mutlak ve mukayyed"
+  },
+  {
+   "merak": "Kur’an, zıhar yapan kocanın keffaret olarak “bir köle azat etmesini” ister (Mücâdele, 58/3). Yanlışlıkla adam öldüren için ise “mümin bir köle azat etmek” der (Nisâ, 4/92). Peki zıhar keffaretinde azat edilecek kölenin de mümin olması gerekir mi? Ebû Hanîfe ile Şâfiî bu soruda ayrıldı."
+  },
+  "Mutlak, türünün yaygın bir ferdine herhangi bir kayıt olmaksızın delalet eden lafızdır: “bir köle”, “oruç”, “kan”. Mukayyed ise bir sıfat, şart veya başka bir kayıtla sınırlanmış lafızdır: “mümin bir köle”, “ardı ardına iki ay oruç”, “akıtılmış kan”. Âm ile mutlak karıştırılmamalıdır: Âm fertlerin hepsini birden kapsar; mutlak ise fertlerden herhangi birine (bedelî olarak) delalet eder.",
+  "Mutlak bir lafız aynı konuda mukayyed olarak da gelmişse mutlakın mukayyede hamledilip edilmeyeceği hüküm ve sebebin aynılığına göre değişir:",
+  {
+   "tablo": [
+    [
+     "Durum",
+     "Örnek",
+     "Hüküm"
+    ],
+    [
+     "Hüküm aynı, sebep aynı",
+     "Mâide 5/3 “Kan size haram kılındı” – En’âm 6/145 “akıtılmış kan”",
+     "İttifakla mutlak mukayyede hamledilir: haram olan akıtılmış kandır"
+    ],
+    [
+     "Hüküm aynı, sebep farklı",
+     "Zıhar keffareti “bir köle” (Mücâdele 3) – katl keffareti “mümin bir köle” (Nisâ 92)",
+     "Hanefîler hamletmez (zıharda kâfir köle de olur); Şâfiî ve cumhur hamleder"
+    ],
+    [
+     "Hüküm farklı, sebep aynı",
+     "Abdestte “ellerinizi dirseklere kadar yıkayın” – teyemmümde “ellerinizi meshedin” (Mâide 6)",
+     "Hamledilmez; teyemmümde dirseğe kadar meshi Hanefîler başka delillerle söyler"
+    ],
+    [
+     "Hüküm farklı, sebep farklı",
+     "Hırsızlıkta “ellerini kesin” – abdestte “dirseklere kadar yıkayın”",
+     "İttifakla hamledilmez"
+    ]
+   ]
+  },
+  "Mutlak sünnetle de kayıtlanır. Müzzemmil 73/20’deki “Kur’an’dan kolayınıza geleni okuyun” ifadesi mutlaktır; “Fâtiha’yı okumayanın namazı yoktur” hadisi kıraatin Fâtiha ile yapılması gerektiğini göstererek ayeti kayıtlar. Burada mezhepler arasında bir ince fark vardır: Cumhura göre Fâtiha namazın rüknüdür. Hanefîlere göre ise farz olan ayetteki mutlak kıraattir; Fâtiha’yı okumak ahad haberle sabit olduğundan vaciptir, çünkü onlara göre kat’î ayet ahad haberle kayıtlanıp üzerine farz eklenemez. Yemin keffaretindeki “üç gün oruç” (Mâide 5/89) mutlak olduğu hâlde Hanefîler, İbn Mes’ûd’un “mütetâbiât” (peş peşe) kıraatine dayanarak orucun ardışık tutulmasını şart koşmuştur.",
+  {
+   "kontrol": "Hanefî usulünde Fâtiha’nın vacip oluşunun gerekçesi “Kur’an’a ahad haberle ziyade” meselesine dayanır; ÖSYM sorusunda hadisin işlevi genel olarak “mutlakın takyidi” diye cevaplanmıştır."
+  },
+  {
+   "sinav": "“Hüküm aynı, sebep farklı” durumunu (zıhar-katl köle azadı) mezhep görüşüyle sorabilirler: Hanefî hamletmez, Şâfiî hamleder. “Kan – akıtılmış kan” ise ittifakla hamledilen örnektir. Müzzemmil 20 – Fâtiha hadisi: mutlakın takyidi (çeldiriciler: müphemin tafsili, müşkilin tavzihi, ahkâmın neshi)."
+  },
+  {
+   "akil": "Mutlak: kayıtsız, herhangi bir ferde delalet. Mukayyed: kayıtlı. Hüküm ve sebep aynıysa hamledilir (kan), hüküm aynı sebep farklıysa Hanefî hamletmez (köle azadı), hüküm farklıysa hamledilmez. Müzzemmil 20 + Fâtiha hadisi = mutlakın takyidi."
+  },
+  {
+   "b": "4. Hakikat ve mecaz, sarih ve kinaye"
+  },
+  {
+   "merak": "Hz. Yûsuf’un kardeşleri babalarına “İçinde bulunduğumuz şehre sor” dediler (Yûsuf, 12/82). Hz. Yakup duvarlara, sokaklara mı soracaktı? Elbette hayır: Şehir halkına soracaktı. Arapçanın, dolayısıyla Kur’an’ın en güçlü anlatım araçlarından biri buydu: mecaz."
+  },
+  "Hakikat, bir kelimenin dilde ilk konulduğu anlamda kullanılmasıdır. Mecaz ise kelimenin, hakiki anlamıyla arasında bir ilgi (alaka) bulunan ve hakiki anlamın kastedilmesine engel olan bir ipucu (karine) sebebiyle başka bir anlamda kullanılmasıdır. Mecazın iki şartı vardır: alaka ve karine. Kelimenin kökü “câze” (geçmek, aşmak) fiilidir; kelime gerçek anlamını aşıp başka bir anlama geçer.",
+  {
+   "tablo": [
+    [
+     "Hakikat türü",
+     "Tanım",
+     "Örnek"
+    ],
+    [
+     "Lügavî hakikat",
+     "Kelimenin dildeki ilk anlamı",
+     "Salât = dua"
+    ],
+    [
+     "Şer’î hakikat",
+     "Kelimenin din dilinde kazandığı terim anlamı",
+     "Salât = namaz; zekât = malın belli bir kısmını vermek"
+    ],
+    [
+     "Örfî hakikat (umumi)",
+     "Toplumun genel kullanımında kazandığı anlam",
+     "Dâbbe: sözlükte yürüyen her canlı, örfte dört ayaklı hayvan"
+    ],
+    [
+     "Örfî hakikat (hususi, ıstılahi)",
+     "Bir ilim dalında kazandığı terim anlamı",
+     "Fiil: gramerde zamana bağlı kelime"
+    ]
+   ]
+  },
+  "Tefsirde bir kelimenin önce şer’î anlamı, sonra örfî anlamı, sonra lügavî anlamı düşünülür; hakikat mümkünken mecaza gidilmez. Mecazın türleri ve Kur’an’dan örnekleri şunlardır:",
+  {
+   "tablo": [
+    [
+     "Mecaz türü",
+     "Alaka",
+     "Kur’an’dan örnek"
+    ],
+    [
+     "İstiare",
+     "Benzerlik",
+     "“Sapıklığı hidayete karşı satın aldılar, ticaretleri kâr etmedi” (Bakara 2/16); “İnsanları karanlıklardan nura çıkarasın” (İbrâhim 14/1); “Onlara merhametten tevazu kanadını indir” (İsrâ 17/24)"
+    ],
+    [
+     "Mecaz-ı mürsel: mahal-hâl",
+     "Yer söylenip içindekiler kastedilir",
+     "“Şehre sor” (Yûsuf 12/82)"
+    ],
+    [
+     "Mecaz-ı mürsel: küll-cüz",
+     "Bütün söylenip parça kastedilir",
+     "“Parmaklarını kulaklarına tıkarlar” (Bakara 2/19): parmak uçları"
+    ],
+    [
+     "Mecaz-ı mürsel: mâ yeûlu",
+     "Gelecekte olacağı hâl",
+     "“Ben rüyamda şarap sıkıyorum” (Yûsuf 12/36): şaraba dönüşecek üzüm"
+    ],
+    [
+     "Mecaz-ı mürsel: mâ kâne",
+     "Önceki hâl",
+     "“Yetimlere mallarını verin” (Nisâ 4/2): artık yetim olmayan, ergenliğe ermiş olanlar"
+    ],
+    [
+     "Mecaz-ı mürsel: sebep-müsebbep",
+     "Sebep söylenip sonuç kastedilir",
+     "“Gökten size rızık indirir” (Mü’min 40/13): rızkın sebebi olan yağmur"
+    ],
+    [
+     "Mecaz-ı aklî",
+     "Fiil gerçek failinden başkasına isnat edilir",
+     "“Firavun oğullarını boğazlıyordu” (Kasas 28/4): emri verdi; “Ayetler okununca imanlarını artırır” (Enfâl 8/2)"
+    ],
+    [
+     "Teşbih (benzetme)",
+     "Ortak niteliğe dayalı benzetme; mecaz sayılmayabilir",
+     "“Onlar sizin için bir elbise, siz de onlar için bir elbisesiniz” (Bakara 2/187); “Kitap yüklü eşek” (Cuma 62/5)"
+    ]
+   ]
+  },
+  "Kinaye, bir sözün hakiki anlamı da kastedilebilecek şekilde başka bir anlam için kullanılmasıdır. Mecazdan farkı budur: Mecazda hakiki anlam kastedilemez, kinayede kastedilebilir. “Elini boynuna bağlı kılma, büsbütün de açıp saçma” (İsrâ 17/29) cimrilik ve israftan kinayedir. “Her insanın amelini (kuşunu) boynuna bağladık” (İsrâ 17/13) ise kuş kelimesinin amel ve kader anlamında kullanıldığı bir örnektir. Kinayenin fıkhî sonucu da vardır: “Ev kadınlara dokundunuz (lâmestümü’n-nisâ)” (Mâide 5/6) ifadesini Hanefîler cinsel ilişkiden kinaye sayar ve kadına dokunmanın abdesti bozmayacağını söyler; Şâfiîler ise hakiki anlamda dokunma olarak alır ve abdestin bozulduğunu söyler. Sarih ise anlamı açıkça ortaya koyan sözdür.",
+  "Kur’an’da mecaz bulunup bulunmadığı da tartışılmıştır. Cumhur, Kur’an’ın Arapların dilini ve üslubunu kullandığını, mecazın bu üslubun ayrılmaz parçası olduğunu söyler. Zâhirî imamı Dâvûd ez-Zâhirî, Mâlikî İbn Huveyzimendâd, sonra İbn Teymiyye ve İbn Kayyim el-Cevziyye ise mecazın bir tür “yalan” izlenimi verdiği ve sıfat ayetlerinin te’viline kapı açtığı gerekçesiyle Kur’an’da (bazıları dilde de) mecaz olduğunu reddetmiştir. Mecaz literatüründe Ebû Ubeyde’nin Mecâzü’l-Kur’ân’ı (mecaz burada ifade yolu demektir), Şerîf er-Radî’nin Telhîsü’l-beyân fî mecâzâti’l-Kur’ân’ı ve İzzeddin b. Abdisselâm’ın el-İşâre ile’l-îcâz fî ba’di envâi’l-mecâz’ı bilinir.",
+  {
+   "sinav": "“Aşağıdaki ayetlerden hangisi mecaza örnek değildir?” sorusunda emir ve hüküm bildiren, gerçek anlamıyla kullanılmış ifadeyi bulun (ör. “Oruç size farz kılındı”). Şehre sor, parmaklar kulakta, kuşunu boynuna bağladık, sapıklığı satın aldılar gibi ifadeler mecazdır (ÖSYM 2021). Kinayede hakiki anlam da kastedilebilir; mecazda kastedilemez."
+  },
+  {
+   "akil": "Hakikat: ilk konulduğu anlam (lügavî, şer’î, örfî). Mecaz: alaka + karine. İstiare benzerlik; mecaz-ı mürsel başka alakalar (mahal, küll-cüz, mâ yeûlu, mâ kâne, sebep); mecaz-ı aklî isnat. Kinaye: hakiki anlam da kastedilebilir. Mecazı reddedenler: Dâvûd ez-Zâhirî, İbn Teymiyye, İbn Kayyim."
+  },
+  {
+   "b": "5. Emir ve nehiy"
+  },
+  {
+   "merak": "“İhramdan çıktığınızda avlanın” (Mâide, 5/2). Bu bir emirdir. Peki ihramdan çıkan her hacının avlanması farz mıdır? Hiçbir fakih böyle demedi. Demek ki her emir kalıbı “farz” anlamına gelmiyordu."
+  },
+  "Emir, bir işin yapılmasını üstten aşağıya doğru istemektir. Kur’an’da emir pek çok kalıpla gelir: Doğrudan emir kipi (“Namazı kılın”), gâib emir kipi (“li-yünfik”: harcasın), “farz kılındı” (kütibe), “Allah için insanlara düşen görev” (Âl-i İmrân 3/97, haccın farziyeti “alâ” edatıyla), emir anlamında mastar (“fe-darbe’r-rikâb”: boyunları vurun, Muhammed 47/4) ve emir anlamında haber cümlesi: “Boşanan kadınlar kendi kendilerine üç kur’ beklerler” (Bakara 2/228), “Anneler çocuklarını iki tam yıl emzirirler” (Bakara 2/233). Haber kalıbındaki bu emirler, emir kipinden daha güçlü bir vurgu taşır; sanki iş zaten yapılıyormuş gibi anlatılır.",
+  "Emrin asıl anlamı vücuptur (bağlayıcılıktır); bir karine bulunursa başka anlamlara gelir:",
+  {
+   "tablo": [
+    [
+     "Emrin anlamı",
+     "Örnek"
+    ],
+    [
+     "Vücup (asıl)",
+     "“Namazı kılın, zekâtı verin” (Bakara 2/43)"
+    ],
+    [
+     "Nedb (tavsiye)",
+     "“Onlarda bir hayır görürseniz onlarla mükâtebe yapın” (Nûr 24/33)"
+    ],
+    [
+     "İbâha (serbestlik)",
+     "“İhramdan çıkınca avlanın” (Mâide 5/2); “Namaz kılınınca yeryüzüne dağılın” (Cuma 62/10)"
+    ],
+    [
+     "İrşad (dünyevi yol gösterme)",
+     "“Borçlandığınız zaman onu yazın… şahit tutun” (Bakara 2/282)"
+    ],
+    [
+     "Tehdit",
+     "“Dilediğinizi yapın; O yaptıklarınızı görür” (Fussilet 41/40)"
+    ],
+    [
+     "Ta’cîz (aciz bırakma)",
+     "“Onun benzeri bir sure getirin” (Bakara 2/23)"
+    ],
+    [
+     "İkram",
+     "“Oraya esenlikle, güven içinde girin” (Hicr 15/46)"
+    ],
+    [
+     "İhanet (aşağılama)",
+     "“Tat bakalım, hani sen güçlü ve değerliydin!” (Duhân 44/49)"
+    ],
+    [
+     "Dua",
+     "“Rabbimiz, bize dünyada da iyilik ver” (Bakara 2/201)"
+    ]
+   ]
+  },
+  "Usulcülerin çoğuna göre bir yasaktan sonra gelen emir, yasaktan önceki hâle döndürür; çoğunlukla ibâha bildirir. İhramdaki av yasağından sonra gelen “avlanın” emri ve cuma namazı vaktindeki alışveriş yasağından sonra gelen “yeryüzüne dağılın” emri bunun örneğidir. Mutlak emir tek bir yapmayı gerektirir; tekrarı gerektirmez. Ancak bir sebebe veya şarta bağlanmışsa, sebep tekrarlandıkça emir de tekrarlanır: “Namaza kalktığınızda yüzlerinizi yıkayın” (Mâide 5/6). Emrin hemen yerine getirilmesi (fevr) mi gerektiği, ertelenebilir (terâhî) mi olduğu da tartışılmıştır; haccın ömürde ne zaman yapılacağı tartışması buna dayanır.",
+  "Nehiy ise bir işten alıkoymayı üstten aşağıya doğru istemektir. Kalıpları: “Lâ tef’al” (yapma), “harrama” (haram kıldı), “lâ yahillu” (helal olmaz), “ictenibû” (kaçının; Mâide 5/90), “zerû” (bırakın; Bakara 2/278, Cuma 62/9). Nehyin asıl anlamı tahrimdir; karine ile kerahet, irşad (“Size açıklandığında hoşunuza gitmeyecek şeyleri sormayın”, Mâide 5/101), dua (“Rabbimiz, bize gücümüzün yetmediği şeyi yükleme”, Bakara 2/286) ve tahkir anlamlarına gelebilir. Nehyedilen fiilin geçerli olup olmadığı (fesada delaleti) da usulde ayrıca tartışılır.",
+  {
+   "sinav": "Bakara 228’deki “yeterabbasne” (beklerler) ve Bakara 233’teki “yürdı’ne” (emzirirler) haber kalıbında emirdir; ÖSYM bunları “haber cümlesiyle emir” ya da “emrin sîgaları” olarak sorabilir. Mâide 2 ve Cuma 10: yasaktan sonra gelen emir → ibâha. Bakara 282 (borcu yazın): irşad."
+  },
+  {
+   "akil": "Emrin asıl anlamı vücup; karineyle nedb (Nûr 33), ibâha (Mâide 2, Cuma 10), irşad (Bakara 282), tehdit (Fussilet 40), ta’cîz (Bakara 23). Haber kalıbında emir: Bakara 228, 233. Nehyin asıl anlamı tahrim; karineyle kerahet, irşad (Mâide 101), dua."
+  },
+  {
+   "b": "6. Müşterek, mücmel-mübeyyen, açıklık dereceleri ve delalet yolları"
+  },
+  {
+   "merak": "“Boşanmış kadınlar üç kur’ beklerler” (Bakara, 2/228). Kur’ kelimesi Arapçada hem hayız hem de iki hayız arasındaki temizlik dönemi için kullanılır. Ebû Hanîfe “hayız” dedi, Şâfiî “temizlik” dedi. Tek bir kelime, bir kadının iddetini günlerce uzatıp kısaltabiliyordu."
+  },
+  "Müşterek, birden fazla anlam için ayrı ayrı konmuş lafızdır: kur’ (hayız/temizlik), ayn (göz, pınar, casus, altın), mevlâ (efendi/azatlı köle), an’as’a (Tekvîr 81/17: gece karardığında ya da gece çekildiğinde). Müşterekin hangi anlamda kullanıldığı karine ile belirlenir. Kur’ konusunda Hanefî ve Hanbelîler hayız, Şâfiî ve Mâlikîler temizlik anlamını tercih etmiştir. Şâfiîler müşterek lafzın aynı anda birden fazla anlamda kullanılabileceğini kabul eder; Hanefîler kabul etmez.",
+  {
+   "kontrol": "Bakara 228’deki kur’ örneği ÖSYM sorusunda “mücmel ve mübeyyen” kapsamında cevaplanmıştır. Usul kitaplarında kur’ müşterek lafız örneği olarak geçer; müşterekin anlamı başka delille belirlenene kadar kapalı kaldığı için ders kitaplarında mücmel başlığında da işlenir. Soruda “müşterek” seçeneği yoksa “mücmel ve mübeyyen” cevaplanmalıdır."
+  },
+  "Mücmel, anlamı kendisinden anlaşılmayan ve ancak onu söyleyenin açıklamasıyla (beyan) anlaşılabilen lafızdır. Salât, zekât, hac, ribâ gibi şer’î terimler Kur’an’da mücmel olarak gelir; nasıl kılınacağı, ne kadar verileceği sünnetle açıklanır (mübeyyen). “Kâria nedir? Kâria’nın ne olduğunu sen nereden bileceksin?” (Kâria 101/1-3) ifadesi de ayetin devamıyla açıklanan bir mücmeldir. Hanefî usulü lafızları anlamın açıklık ve kapalılık derecesine göre şöyle sıralar:",
+  {
+   "tablo": [
+    [
+     "Açık lafızlar (zayıftan güçlüye)",
+     "Tanım",
+     "Örnek"
+    ],
+    [
+     "Zâhir",
+     "Anlamı sözden hemen anlaşılan ama asıl kastedilen o olmayan; te’vil ve nesih ihtimali var",
+     "“Allah alışverişi helal kıldı” (Bakara 275): ayet asıl olarak faizle alışverişin farkını anlatır, helallik zâhirdir"
+    ],
+    [
+     "Nas",
+     "Sözün asıl sevk edildiği anlam",
+     "Aynı ayette alışverişle faizin aynı olmadığı"
+    ],
+    [
+     "Müfesser",
+     "Te’vil ihtimali kalmayacak şekilde açıklanmış; nesih ihtimali var",
+     "“Müşriklerle topyekûn (kâffeten) savaşın” (Tevbe 36); “Seksen değnek vurun” (Nûr 4)"
+    ],
+    [
+     "Muhkem",
+     "Ne te’vil ne nesih ihtimali olan",
+     "“Allah her şeyi bilendir”; Ahzâb 53’te Peygamber’in eşleriyle ebediyen evlenilmemesi"
+    ],
+    [
+     "Kapalı lafızlar (hafiften ağıra)",
+     "Tanım",
+     "Örnek"
+    ],
+    [
+     "Hafî",
+     "Anlamı açık ama bazı fertlere uygulanmasında kapalılık var",
+     "Hırsız (sârık) lafzının yankesici (tarrâr) ve kefen soyucuyu (nebbâş) kapsayıp kapsamadığı"
+    ],
+    [
+     "Müşkil",
+     "Kapalılık lafzın kendisinden; araştırma ve düşünmeyle çözülür",
+     "“Kadınlarınız tarlanızdır; tarlanıza dilediğiniz gibi (ennâ şi’tüm) varın” (Bakara 223): ennâ’nın “nasıl” mı “nerede” mi olduğu"
+    ],
+    [
+     "Mücmel",
+     "Ancak söyleyenin açıklamasıyla anlaşılır",
+     "Salât, zekât, ribâ"
+    ],
+    [
+     "Müteşâbih",
+     "Anlamını bilmenin dünyada mümkün olmadığı (Hanefîlere göre)",
+     "Hurûf-ı mukattaa"
+    ]
+   ]
+  },
+  "Hanefîler beyanı (açıklamayı) da türlere ayırır: Mücmeli açıklayan tefsir beyanı; sözü pekiştiren takrir beyanı (“Melekler hepsi birden secde ettiler”, Hicr 15/30); sözü istisna veya şartla değiştiren tağyir beyanı; konuşmamanın açıklama sayıldığı zaruret beyanı (anne-babanın mirasında annenin payı söylenince geri kalanın babaya ait olması, Nisâ 4/11); ve nesih anlamında tebdil beyanı.",
+  "Lafzın hükme delalet yolları da Hanefî usulünde dörttür:",
+  {
+   "tablo": [
+    [
+     "Delalet yolu",
+     "Tanım",
+     "Örnek"
+    ],
+    [
+     "İbâretü’n-nas",
+     "Sözün doğrudan ve asıl sevk edildiği anlam",
+     "“Allah alışverişi helal, faizi haram kıldı” → faiz haramdır (Bakara 275)"
+    ],
+    [
+     "İşâretü’n-nas",
+     "Sözün asıl amacı olmadığı hâlde lafızdan zorunlu olarak çıkan anlam",
+     "“Çocuğun babası (mevlûdün leh)” ifadesinden nesebin babaya ait olduğu (Bakara 233); Ahkâf 15 (gebelik ve sütten kesme otuz ay) ile Lokmân 14 (sütten kesme iki yıl) birlikte düşünülerek en kısa gebelik süresinin altı ay olduğu (Hz. Ali’nin çıkarımı)"
+    ],
+    [
+     "Delâletü’n-nas (mefhûm-ı muvâfakat)",
+     "Hükmün illeti dil bilen herkesçe anlaşıldığı için söylenmeyen duruma da geçmesi",
+     "“Anne-babaya öf bile deme” (İsrâ 17/23) → dövmek, sövmek öncelikle haramdır; “Yetimlerin mallarını haksızca yiyenler” (Nisâ 10) → yakmak, yok etmek de haramdır"
+    ],
+    [
+     "İktizâu’n-nas",
+     "Sözün doğru veya geçerli olması için zorunlu olarak takdir edilen anlam",
+     "“Anneleriniz size haram kılındı” (Nisâ 4/23) → anneleriniz ile evlenmek haram kılındı"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Öf deme”den dövmenin haramlığının çıkarılması → delâletü’n-nas (mefhûm-ı muvâfakat); kıyas değildir, dil bilen herkes anlar. Altı aylık gebelik → işâretü’n-nas (Hz. Ali). Hanefî açıklık sırası: zâhir < nas < müfesser < muhkem; kapalılık sırası: hafî < müşkil < mücmel < müteşâbih. Çelişki olursa güçlü olan tercih edilir."
+  },
+  {
+   "akil": "Müşterek: birden çok anlam için konmuş (kur’, ayn, mevlâ). Kur’: Hanefî-Hanbelî hayız, Şâfiî-Mâlikî temizlik. Mücmel ancak söyleyenin beyanıyla açılır (salât, zekât, ribâ). Açıklık: zâhir, nas, müfesser, muhkem. Kapalılık: hafî, müşkil, mücmel, müteşâbih. Delalet: ibare, işaret (altı ay), delalet (öf), iktiza (anneleriniz haram)."
+  }
+ ],
+ "ozet": [
+  "Hanefî usulünde lafızlar: vaz’ (âm, hâs, müşterek), kullanım (hakikat, mecaz, sarih, kinaye), açıklık derecesi ve delalet yolu bakımından incelenir.",
+  "Âm bütün fertleri kapsar; tahsis muttasıl (istisna, şart, sıfat, gaye) veya munfasıl (ayet, hadis, akıl, his) delille olur.",
+  "Hanefîlere göre tahsis edilmemiş âm kat’îdir, ahad haberle ilk defa tahsis edilemez; cumhura göre zannîdir.",
+  "Mâide 38 (hırsız) nisab hadisiyle, Nisâ 11 (miras) “Katil mirasçı olamaz” hadisiyle tahsis edilmiştir.",
+  "Mutlak-mukayyed: hüküm ve sebep aynıysa hamledilir (kan – akıtılmış kan); hüküm aynı, sebep farklıysa Hanefî hamletmez (zıhar – katl köle azadı).",
+  "Müzzemmil 20 + “Fâtiha’sız namaz olmaz” = mutlakın takyidi (Hanefîlere göre Fâtiha vacip).",
+  "Hakikat: lügavî, şer’î, örfî; önce şer’î anlam düşünülür. Mecazın şartı alaka ve karinedir.",
+  "Mecaz örnekleri: şehre sor (Yûsuf 82), parmaklar kulakta (Bakara 19), şarap sıkıyorum (Yûsuf 36), sapıklığı satın almak (Bakara 16), kuşunu boynuna bağladık (İsrâ 13).",
+  "Kinayede hakiki anlam da kastedilebilir; “lâmestümü’n-nisâ” Hanefîlere göre cinsel ilişkiden kinayedir.",
+  "Kur’an’da mecazı reddedenler: Dâvûd ez-Zâhirî, İbn Huveyzimendâd, İbn Teymiyye, İbn Kayyim.",
+  "Emrin asıl anlamı vücup; nedb (Nûr 33), ibâha (Mâide 2, Cuma 10), irşad (Bakara 282), tehdit (Fussilet 40), ta’cîz (Bakara 23).",
+  "Bakara 228 ve 233’te haber kalıbıyla emir vardır.",
+  "Nehyin asıl anlamı tahrimdir; karineyle irşad (Mâide 101) ve dua (Bakara 286) olabilir.",
+  "Kur’: Hanefî-Hanbelî hayız, Şâfiî-Mâlikî temizlik; ÖSYM mücmel-mübeyyen başlığında sormuştur.",
+  "Açıklık sırası: zâhir, nas, müfesser, muhkem. Kapalılık sırası: hafî, müşkil, mücmel, müteşâbih.",
+  "Delalet: ibâre, işâret (altı aylık gebelik), delâlet (öf deme → dövme haram), iktizâ (anneleriniz haram kılındı)."
+ ],
+ "kartlar": [
+  {
+   "o": "Âm – hâs",
+   "a": "Âm: bütün fertleri bir defada kapsar. Hâs: tek veya sınırlı fertlere delalet eder."
+  },
+  {
+   "o": "Muttasıl – munfasıl muhassıs",
+   "a": "Muttasıl: istisna, şart, sıfat, gaye (aynı cümlede). Munfasıl: ayrı ayet, hadis, akıl, his."
+  },
+  {
+   "o": "Âmmın delaleti",
+   "a": "Hanefî: kat’î (ilk defa ahad haberle tahsis edilemez). Cumhur: zannî."
+  },
+  {
+   "o": "Mutlak – mukayyed",
+   "a": "Mutlak: kayıtsız (bir köle). Mukayyed: kayıtlı (mümin bir köle)."
+  },
+  {
+   "o": "Zıhar ve katl keffaretinde köle",
+   "a": "Hüküm aynı, sebep farklı: Hanefî mutlakı mukayyede hamletmez, Şâfiî hamleder."
+  },
+  {
+   "o": "Mecazın iki şartı",
+   "a": "Alaka (ilgi) ve karine (hakiki anlama engel ipucu)."
+  },
+  {
+   "o": "Yûsuf 82 “Şehre sor”",
+   "a": "Mecaz-ı mürsel, mahal-hâl alakası: şehir halkı kastedilir."
+  },
+  {
+   "o": "Yûsuf 36 “Şarap sıkıyorum”",
+   "a": "Mecaz-ı mürsel, mâ yeûlu (gelecekteki hâl): üzüm kastedilir."
+  },
+  {
+   "o": "Mecaz – kinaye farkı",
+   "a": "Mecazda hakiki anlam kastedilemez; kinayede kastedilebilir."
+  },
+  {
+   "o": "Lâmestümü’n-nisâ (Mâide 6)",
+   "a": "Hanefî: cinsel ilişkiden kinaye (dokunmak abdesti bozmaz). Şâfiî: dokunma (bozar)."
+  },
+  {
+   "o": "Yasaktan sonra gelen emir",
+   "a": "Çoğunluğa göre ibâha bildirir: Mâide 2 (avlanın), Cuma 10 (dağılın)."
+  },
+  {
+   "o": "Haber kalıbında emir",
+   "a": "Bakara 228 (kadınlar üç kur’ beklerler), Bakara 233 (anneler emzirirler)."
+  },
+  {
+   "o": "Kur’ kelimesi",
+   "a": "Müşterek: hayız (Hanefî, Hanbelî) – temizlik (Şâfiî, Mâlikî)."
+  },
+  {
+   "o": "Hanefî açıklık sıralaması",
+   "a": "Zâhir < nas < müfesser < muhkem; hafî < müşkil < mücmel < müteşâbih (kapalılık artar)."
+  },
+  {
+   "o": "Delâletü’n-nas",
+   "a": "“Öf deme”den dövmenin haram olduğunun anlaşılması; mefhûm-ı muvâfakat."
+  },
+  {
+   "o": "İşâretü’n-nas örneği",
+   "a": "Ahkâf 15 + Lokmân 14’ten en kısa gebeliğin altı ay olduğu (Hz. Ali)."
+  },
+  {
+   "o": "İktizâu’n-nas örneği",
+   "a": "“Anneleriniz size haram kılındı” → evlenmek haram kılındı."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "tf4-01",
+   "z": 1,
+   "s": "Kur’an’da salât, zekât ve ribâ gibi kelimeler, nasıl uygulanacakları ve sınırları belirtilmeden gelmiş; ayrıntıları Hz. Peygamber’in açıklamalarıyla anlaşılmıştır.\n\nUsulcüler bu tür lafızları aşağıdakilerden hangisiyle adlandırır?",
+   "c": [
+    "Müfesser",
+    "Hâs",
+    "Muhkem",
+    "Mücmel",
+    "Zâhir"
+   ],
+   "d": 3,
+   "a": "Anlamı kendisinden anlaşılmayıp ancak söyleyenin açıklamasıyla anlaşılan lafız mücmeldir; açıklanmış hâline mübeyyen denir.",
+   "ac": [
+    "Müfesser, te’vil ihtimali kalmayacak şekilde açıklanmış lafızdır.",
+    "Hâs, tek veya sınırlı fertlere delalet eden lafızdır.",
+    "Muhkem, ne te’vil ne nesih ihtimali olan en açık lafızdır.",
+    "Doğru.",
+    "Zâhir, anlamı sözden hemen anlaşılan lafızdır."
+   ],
+   "kay": "Konu: Mücmel ve mübeyyen"
+  },
+  {
+   "id": "tf4-02",
+   "z": 3,
+   "s": "Aşağıdaki ayet – mecaz türü eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "“Parmaklarını kulaklarına tıkarlar.” – Benzerlik ilgisiyle istiare",
+    "“Ben rüyamda şarap sıkıyorum.” – Gelecekteki hâl ilgisiyle mecaz-ı mürsel",
+    "“Yetimlere mallarını verin.” – Önceki hâl ilgisiyle mecaz-ı mürsel",
+    "“İçinde bulunduğumuz şehre sor.” – Mahal-hâl ilgisiyle mecaz-ı mürsel",
+    "“Firavun oğullarını boğazlıyordu.” – Fiilin emredene isnadıyla mecaz-ı aklî"
+   ],
+   "d": 0,
+   "a": "Bakara 19’da parmakların tamamı söylenip uçları kastedilmiştir; alaka bütün-parça (küll-cüz) ilişkisidir ve bu bir mecaz-ı mürseldir, istiare değildir.",
+   "ac": [
+    "Yanlış: alaka benzerlik değil küll-cüzdür.",
+    "Doğru eşleştirmedir: şaraba dönüşecek üzüm kastedilmiştir.",
+    "Doğru eşleştirmedir: artık yetim olmayan ergenler kastedilmiştir.",
+    "Doğru eşleştirmedir: şehir söylenip halkı kastedilmiştir.",
+    "Doğru eşleştirmedir: boğazlayan Firavun değil, onun emriyle askerleridir."
+   ],
+   "kay": "Yûsuf, 12/36, 82; Nisâ, 4/2; Bakara, 2/19; Kasas, 28/4"
+  },
+  {
+   "id": "tf4-03",
+   "z": 2,
+   "s": "Aşağıdaki ayetlerin hangisinde kelimeler gerçek (hakiki) anlamlarıyla kullanılmıştır?",
+   "c": [
+    "“İşte onlar hidayete karşılık sapıklığı satın aldılar; ticaretleri de kâr etmedi.”",
+    "“Onlara merhametten tevazu kanadını indir.”",
+    "“Her insanın amelini (kuşunu) boynuna bağladık.”",
+    "“Ey iman edenler! Size de oruç farz kılındı.”",
+    "“İnsanları Rablerinin izniyle karanlıklardan nura çıkarasın diye…”"
+   ],
+   "d": 3,
+   "a": "Bakara 183’te oruç ve farz kılınma kelimeleri şer’î hakikat anlamlarıyla kullanılmıştır. Diğer ayetlerde satın alma, kanat, kuş, karanlık ve nur kelimeleri mecazen kullanılmıştır.",
+   "ac": [
+    "Satın alma ve ticaret istiare yoluyla mecazdır.",
+    "Kanat kelimesi istiaredir.",
+    "Kuş kelimesi amel ve kader anlamında mecazdır.",
+    "Doğru: hakiki (şer’î) anlamda kullanılmıştır.",
+    "Karanlık inkâr, nur iman için istiaredir."
+   ],
+   "kay": "Bakara, 2/16, 183; İsrâ, 17/13, 24; İbrâhim, 14/1"
+  },
+  {
+   "id": "tf4-04",
+   "z": 3,
+   "s": "Zıhar keffaretini anlatan ayette “bir köle azat etmek” ifadesi kayıtsız olarak geçerken, yanlışlıkla adam öldürmenin keffaretini anlatan ayette “mümin bir köle azat etmek” şeklinde kayıtlı olarak geçer. Bir öğrenci, zıhar keffaretinde azat edilecek kölenin de mümin olması gerektiğini savunmuştur.\n\nBu öğrencinin görüşü ve dayandığı usul ilkesiyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Hüküm ve sebep aynı olduğu için ittifakla mutlak mukayyede hamledilir; öğrencinin görüşü bütün mezheplerin görüşüdür.",
+    "Bu bir nesih meselesidir; katl ayeti zıhar ayetini neshetmiştir.",
+    "Hüküm ve sebep farklı olduğu için ittifakla hamledilmez; öğrencinin görüşü hiçbir mezhebe uymaz.",
+    "Hüküm farklı, sebep aynıdır; öğrencinin görüşü Hanefîlerin görüşüdür.",
+    "Hüküm aynı, sebep farklıdır; öğrencinin görüşü Şâfiîlerin görüşüne uygundur, Hanefîler mutlakı mukayyede hamletmez."
+   ],
+   "d": 4,
+   "a": "İki ayette de hüküm (köle azadı) aynı, sebep (zıhar ve katl) farklıdır. Şâfiî ve cumhur mutlakı mukayyede hamleder ve zıharda da mümin köle şartı arar; Hanefîler hamletmez, kâfir köle azadını da yeterli görür.",
+   "ac": [
+    "Sebep aynı değildir; ittifakla hamledilen örnek kan ve akıtılmış kandır.",
+    "İki hüküm farklı olaylarla ilgilidir ve birlikte uygulanabilir; nesih yoktur.",
+    "Hüküm aynıdır; ayrıca öğrencinin görüşü Şâfiî görüşüdür.",
+    "Hüküm aynı, sebep farklıdır; Hanefîler bu durumda hamletmez.",
+    "Doğru."
+   ],
+   "kay": "Mücâdele, 58/3; Nisâ, 4/92"
+  },
+  {
+   "id": "tf4-05",
+   "z": 3,
+   "s": "Emir kalıbındaki ayetlerin anlamlarıyla ilgili\nI. “Borçlandığınız zaman onu yazın” emri, dünyevi bir yarara yol gösteren irşad bildirir.\nII. “Dilediğinizi yapın; O yaptıklarınızı görmektedir” emri, ibâha bildirir.\nIII. “Onlarda bir hayır görürseniz onlarla mükâtebe yapın” emri, cumhura göre nedb bildirir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Bakara 282’deki yazma emri irşad, Nûr 33’teki mükâtebe emri cumhura göre nedbdir. Fussilet 40’taki “Dilediğinizi yapın” ise serbestlik değil tehdit bildirir.",
+   "ac": [
+    "III de doğrudur.",
+    "II yanlıştır; ayet tehdit bildirir.",
+    "Doğru: I ve III doğrudur.",
+    "II yanlıştır.",
+    "II yanlış olduğu için üçü birden doğru değildir."
+   ],
+   "kay": "Bakara, 2/282; Fussilet, 41/40; Nûr, 24/33"
+  },
+  {
+   "id": "tf4-06",
+   "z": 2,
+   "s": "İhram yasakları arasında av da sayılmış, ardından “İhramdan çıktığınızda avlanın” buyrulmuştur. Benzer şekilde cuma namazı için çağrı yapıldığında alışveriş bırakılması emredilmiş, sonra “Namaz kılınınca yeryüzüne dağılın” denmiştir.\n\nUsulcülerin çoğunluğuna göre bu emirler aşağıdakilerden hangisini bildirir?",
+   "c": [
+    "İbâha",
+    "Nedb",
+    "Vücup",
+    "Tehdit",
+    "İrşad"
+   ],
+   "d": 0,
+   "a": "Bir yasaktan sonra gelen emir, yasaktan önceki hâle döndürür ve çoğunluğa göre ibâha (serbestlik) bildirir.",
+   "ac": [
+    "Doğru.",
+    "Bu işlerin yapılması tavsiye edilmiş de değildir.",
+    "Avlanmak veya alışverişe dağılmak farz değildir.",
+    "Ayetlerde bir tehdit yoktur.",
+    "Dünyevi bir yol gösterme değil, yasağın kalkması söz konusudur."
+   ],
+   "kay": "Mâide, 5/2; Cuma, 62/10"
+  },
+  {
+   "id": "tf4-07",
+   "z": 3,
+   "s": "Bir müfessir, “Anne-babaya öf bile deme” ayetinden onları dövmenin ve onlara sövmenin öncelikle haram olduğu sonucunu çıkarmış; bu sonuca ulaşmak için içtihada veya kıyas işlemine gerek olmadığını, dili bilen herkesin bunu anlayacağını söylemiştir.\n\nMüfessirin kullandığı delalet yolu aşağıdakilerden hangisidir?",
+   "c": [
+    "İbâretü’n-nas",
+    "İşâretü’n-nas",
+    "Delâletü’n-nas",
+    "İktizâu’n-nas",
+    "Mefhûm-ı muhâlefet"
+   ],
+   "d": 2,
+   "a": "Hükmün illeti (eziyet) dil bilen herkesçe anlaşıldığı için söylenmeyen daha ağır duruma da geçer. Hanefîler buna delâletü’n-nas, mütekellimîn mefhûm-ı muvâfakat der.",
+   "ac": [
+    "İbâre, sözün doğrudan söylediği anlamdır; ayet doğrudan dövmeyi söylemez.",
+    "İşaret, sözün asıl amacı olmayan ama lafızdan zorunlu çıkan anlamdır.",
+    "Doğru.",
+    "İktiza, sözün doğru olması için zorunlu olarak takdir edilen anlamdır.",
+    "Mefhûm-ı muhâlefet söylenmeyenin hükmünün tersini çıkarır; burada aynı hüküm daha güçlü olarak geçmektedir."
+   ],
+   "kay": "İsrâ, 17/23"
+  },
+  {
+   "id": "tf4-08",
+   "z": 3,
+   "s": "Hz. Ali, gebelik ve sütten kesme süresinin toplam otuz ay olduğunu bildiren ayet ile annelerin çocuklarını iki tam yıl emzireceğini bildiren ayeti birlikte değerlendirerek en kısa gebelik süresinin altı ay olduğu sonucuna varmıştır. Ayetlerin hiçbiri asıl olarak gebelik süresini belirlemek için gelmemiştir.\n\nBu çıkarım, Hanefî usulündeki delalet yollarından hangisine örnektir?",
+   "c": [
+    "İbâretü’n-nas",
+    "İşâretü’n-nas",
+    "Delâletü’n-nas",
+    "İktizâu’n-nas",
+    "Kıyas"
+   ],
+   "d": 1,
+   "a": "Sözün asıl sevk ediliş amacı olmadığı hâlde lafızdan zorunlu olarak çıkan anlam işâretü’n-nastır. Ahkâf 15 ve Lokmân 14’ten altı ay sonucunun çıkarılması klasik örnektir.",
+   "ac": [
+    "Ayetler asıl olarak en kısa gebelik süresini anlatmaz.",
+    "Doğru.",
+    "Söylenmeyen bir duruma illet yoluyla geçiş yoktur.",
+    "Sözü doğru kılmak için bir kelime takdir edilmemiştir.",
+    "Bir asıl ile fer arasında illet ortaklığı kurulmamıştır."
+   ],
+   "kay": "Ahkâf, 46/15; Lokmân, 31/14"
+  },
+  {
+   "id": "tf4-09",
+   "z": 2,
+   "s": "“Hırsızlık eden erkek ve kadının ellerini kesin” ayeti bütün hırsızları kapsayan bir ifadeyle gelmişken, Hz. Peygamber belli bir değerin altındaki hırsızlıkta el kesilmeyeceğini bildirmiştir. Böylece ayetin hükmü yürürlükte kalmış, ancak kapsamı daraltılmıştır.\n\nHz. Peygamber’in açıklamasının ayete göre işlevi aşağıdakilerden hangisidir?",
+   "c": [
+    "Neshetmek",
+    "Mücmeli tefsir etmek",
+    "Müşkili gidermek",
+    "Mübhemi tafsil etmek",
+    "Âmmı tahsis etmek"
+   ],
+   "d": 4,
+   "a": "Hırsız lafzı âmdır; nisab hadisi bazı fertleri (nisabın altında çalanları) hükmün dışında bırakmıştır. Hüküm devam ettiği için bu nesih değil tahsistir.",
+   "ac": [
+    "Hüküm kaldırılmamıştır.",
+    "Hırsızlık kavramı anlaşılmayan kapalı bir lafız değildir; kapsam daraltılmıştır.",
+    "Ayetler arasında çelişki görüntüsü yoktur.",
+    "Adı verilmeyen bir kişi belirlenmemiştir.",
+    "Doğru."
+   ],
+   "kay": "Mâide, 5/38; Buhârî, Hudûd"
+  },
+  {
+   "id": "tf4-10",
+   "z": 3,
+   "s": "Âm lafızlarla ilgili\nI. Hanefîlere göre tahsis edilmemiş âm lafız, kapsamındaki fertlere kat’î olarak delalet eder.\nII. Cumhura göre âmmın delaleti zannî olduğundan âm bir ayet ahad haberle tahsis edilebilir.\nIII. “Allah her şeyin yaratıcısıdır” ayetinde Allah’ın zat ve sıfatlarının kapsam dışında kalması, akılla tahsise örnektir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Üç öncül de doğrudur. Âmmın delaletinin kat’î mi zannî mi olduğu Hanefîlerle cumhur arasındaki temel ayrılıklardandır; Zümer 62 akılla tahsisin klasik örneğidir.",
+   "ac": [
+    "II ve III de doğrudur.",
+    "III de doğrudur.",
+    "II de doğrudur.",
+    "I de doğrudur.",
+    "Doğru: üçü de doğrudur."
+   ],
+   "kay": "Zümer, 39/62; Konu: Âm ve hâs"
+  },
+  {
+   "id": "tf4-11",
+   "z": 2,
+   "s": "Abdesti bozan durumların sayıldığı ayette geçen “ev lâmestümü’n-nisâ” ifadesini bir mezhep “kadınlarla cinsel ilişkide bulunduysanız” şeklinde anlamış ve kadına dokunmanın abdesti bozmayacağını söylemiştir; başka bir mezhep ise ifadeyi “kadınlara dokunduysanız” şeklinde hakiki anlamıyla almıştır.\n\nİfadeyi cinsel ilişki olarak anlayan mezhep ve bu anlamın türü aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Şâfiî – kinaye",
+    "Şâfiî – istiare",
+    "Hanefî – sarih",
+    "Hanefî – kinaye",
+    "Mâlikî – mecaz-ı aklî"
+   ],
+   "d": 3,
+   "a": "Hanefîler “mülâmese”yi cinsel ilişkiden kinaye sayar; Şâfiîler ise dokunma olarak hakiki anlamıyla alır ve dokunmanın abdesti bozduğunu söyler.",
+   "ac": [
+    "Şâfiîler hakiki anlamı (dokunma) tercih eder.",
+    "Şâfiîler ifadeyi mecazen değil hakiki anlamıyla alır.",
+    "Sarih anlam dokunmadır; Hanefîler kinaye anlamını almıştır.",
+    "Doğru.",
+    "Mecaz-ı aklî fiilin gerçek failinden başkasına isnadıdır; burada söz konusu değildir."
+   ],
+   "kay": "Mâide, 5/6; Nisâ, 4/43"
+  },
+  {
+   "id": "tf4-12",
+   "z": 3,
+   "s": "Hanefî usulünde lafızlar anlamlarının açıklık derecesine göre sıralanır ve çelişki durumunda daha güçlü olan tercih edilir.\n\nAşağıdakilerin hangisinde açık lafızlar delaleti en zayıftan en güçlüye doğru sıralanmıştır?",
+   "c": [
+    "Nas – zâhir – muhkem – müfesser",
+    "Zâhir – nas – müfesser – muhkem",
+    "Zâhir – müfesser – nas – muhkem",
+    "Muhkem – müfesser – nas – zâhir",
+    "Nas – müfesser – zâhir – muhkem"
+   ],
+   "d": 1,
+   "a": "Zâhirde te’vil ve nesih ihtimali vardır; nas sözün asıl sevk edildiği anlamdır; müfesserde te’vil ihtimali kalmamış, nesih ihtimali vardır; muhkemde ikisi de yoktur. Sıra: zâhir, nas, müfesser, muhkem.",
+   "ac": [
+    "Zâhir nastan zayıftır; muhkem en güçlüdür.",
+    "Doğru.",
+    "Nas müfesserden zayıftır.",
+    "Bu sıralama en güçlüden en zayıfa doğrudur; soru tersini istemektedir.",
+    "Zâhir en zayıftır, en başta olmalıdır."
+   ],
+   "kay": "Konu: Hanefî usulünde açık lafızlar"
+  },
+  {
+   "id": "tf4-13",
+   "z": 2,
+   "s": "“Salât” kelimesi sözlükte dua anlamına gelirken, “Namazı kılın” ayetinde belirli rükünleri olan ibadet anlamında kullanılmıştır.\n\nKelimenin bu ayetteki kullanımı aşağıdakilerden hangisine örnektir?",
+   "c": [
+    "Şer’î hakikat",
+    "Lügavî hakikat",
+    "Örfî mecaz",
+    "İstiare",
+    "Kinaye"
+   ],
+   "d": 0,
+   "a": "Kelimenin din dilinde kazandığı terim anlamıyla kullanılması şer’î hakikattir. Salâtın dua anlamında kullanılması ise lügavî hakikattir.",
+   "ac": [
+    "Doğru.",
+    "Lügavî hakikat kelimenin dildeki ilk anlamıdır; burada dua değil namaz kastedilmiştir.",
+    "Kelime terim anlamında kullanıldığı için hakikattir, mecaz değildir.",
+    "Benzerlik ilgisiyle yapılan bir aktarım yoktur.",
+    "Hakiki anlamla birlikte başka bir anlam kastedilmemiştir."
+   ],
+   "kay": "Bakara, 2/43"
+  },
+  {
+   "id": "tf4-14",
+   "z": 3,
+   "s": "“Boşanmış kadınlar kendi kendilerine üç kur’ beklerler” ve “Anneler çocuklarını iki tam yıl emzirirler” ayetleri gramer bakımından haber cümlesi olduğu hâlde fakihler bunlardan bağlayıcı hükümler çıkarmıştır.\n\nBu durumla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Bu ayetler geçmişte yaşanan olayları haber verdiği için hüküm bildirmez.",
+    "Bu ayetler haber kalıbında gelmiş emirlerdir ve emrin daha vurgulu bir ifade biçimi sayılır.",
+    "Bu ayetlerdeki hükümler sonradan neshedildiği için haber kalıbına dönüşmüştür.",
+    "Haber kalıbı yalnızca nedb bildirdiği için hükümler tavsiye niteliğindedir.",
+    "Bu ayetler mücmel olduğu için haber kalıbında gelmiştir."
+   ],
+   "d": 1,
+   "a": "Kur’an’da emir, haber cümlesiyle de ifade edilir; iş sanki zaten yapılıyormuş gibi anlatılarak vurgu güçlendirilir. Bakara 228 ve 233 bunun örnekleridir.",
+   "ac": [
+    "Ayetler geçmiş olay anlatmaz; hüküm bildirir.",
+    "Doğru.",
+    "Bu ayetlerde nesih iddiası yoktur; kalıp neshe bağlı değildir.",
+    "Haber kalıbındaki bu ifadeler bağlayıcı kabul edilmiştir.",
+    "Kalıbın mücmellikle ilgisi yoktur."
+   ],
+   "kay": "Bakara, 2/228, 233"
+  },
+  {
+   "id": "tf4-15",
+   "z": 2,
+   "s": "“Boşanmış kadınlar üç kur’ beklerler” ayetindeki kur’ kelimesinin hayız anlamında olduğunu söyleyen mezhepler aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Şâfiî ve Mâlikî",
+    "Hanefî ve Şâfiî",
+    "Hanefî ve Hanbelî",
+    "Mâlikî ve Hanbelî",
+    "Şâfiî ve Hanbelî"
+   ],
+   "d": 2,
+   "a": "Kur’ müşterek bir lafızdır. Hanefî ve Hanbelîler hayız, Şâfiî ve Mâlikîler iki hayız arasındaki temizlik dönemi anlamını tercih etmiştir.",
+   "ac": [
+    "Bu iki mezhep temizlik anlamını tercih eder.",
+    "Şâfiîler temizlik anlamını tercih eder.",
+    "Doğru.",
+    "Mâlikîler temizlik anlamını tercih eder.",
+    "Şâfiîler temizlik anlamını tercih eder."
+   ],
+   "kay": "Bakara, 2/228"
+  },
+  {
+   "id": "tf4-16",
+   "z": 3,
+   "s": "Bazı âlimler, mecazın gerçekte olmayan bir şeyi söylemek gibi algılanabileceğini ve özellikle Allah’ın sıfatlarını bildiren ayetlerin te’viline kapı açtığını ileri sürerek Kur’an’da mecaz bulunduğunu kabul etmemiştir.\n\nAşağıdakilerden hangisi bu görüşü savunanlar arasında yer almaz?",
+   "c": [
+    "Dâvûd ez-Zâhirî",
+    "İbn Teymiyye",
+    "Ebû Ubeyde Ma’mer b. el-Müsennâ",
+    "İbn Huveyzimendâd",
+    "İbn Kayyim el-Cevziyye"
+   ],
+   "d": 2,
+   "a": "Ebû Ubeyde, Mecâzü’l-Kur’ân adlı eseriyle Kur’an’ın ifade yollarını incelemiştir; mecazı reddedenlerden değildir. Diğerleri Kur’an’da mecazı reddeden isimlerdir.",
+   "ac": [
+    "Zâhirî mezhebinin kurucusudur; mecazı reddeder.",
+    "Kur’an’da ve dilde mecazı reddeder.",
+    "Doğru: Mecâzü’l-Kur’ân’ın müellifidir.",
+    "Mâlikî fakihtir; Kur’an’da mecazı reddedenlerdendir.",
+    "Hocası İbn Teymiyye gibi mecazı reddeder."
+   ],
+   "kay": "Konu: Hakikat ve mecaz"
+  }
+ ]
+}

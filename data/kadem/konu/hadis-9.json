@@ -1,0 +1,560 @@
+{
+ "id": "hadis-9",
+ "ad": "Hadis Edebiyatı: Şerh, Erbaîn, Zevâid, Etrâf, Cem‘, Müstedrek, Müstahrec, Mu’cem, Garîbü’l-hadîs, Tahrîc, Ahkâm ve Tergîb Kitapları; Osmanlı’da ve Türkiye’de Hadis Çalışmaları",
+ "ders": "Hadis",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Temel kaynaklardan sonra: Hadis edebiyatı neden çeşitlendi?"
+  },
+  {
+   "merak": "Bir müftü, Hidâye’de geçen bir hadisin kaynağını arıyor; bir vaiz yalnızca terğîb ve terhîb hadislerine ihtiyaç duyuyor; bir öğrenci hadisin başını hatırlıyor ama kaynağını bilmiyor; bir talebe Buhârî’deki bir hadisi anlamakta zorlanıyor. Her ihtiyaç ayrı bir eser türü doğurdu."
+  },
+  "Hicrî III. yüzyılda temel hadis kaynakları büyük ölçüde tamamlandıktan sonra, âlimler bu kaynakları açıklamak, düzenlemek, eksiklerini tamamlamak, belirli amaçlar için seçmek ve kolay kullanılır hâle getirmek üzere çok sayıda yeni eser türü geliştirdi. Bu eserlerin bütününe hadis edebiyatı denir.",
+  {
+   "tablo": [
+    [
+     "Tür",
+     "Tanım",
+     "Örnek"
+    ],
+    [
+     "Şerh",
+     "Bir hadis kitabının açıklaması",
+     "Buhârî: İbn Hacer – Fethu’l-bârî; Aynî – Umdetü’l-kārî; Kastallânî – İrşâdü’s-sârî. Müslim: Nevevî – el-Minhâc"
+    ],
+    [
+     "Erbaîn",
+     "Belirli bir konuda kırk hadis derlemesi",
+     "Nevevî – el-Erbaûn (kırk iki hadis); Osmanlı’da çok sayıda Türkçe kırk hadis"
+    ],
+    [
+     "Zevâid",
+     "Bir eserde olup belirli başka eserlerde bulunmayan hadisleri toplama",
+     "Heysemî – Mecmau’z-zevâid; Bûsîrî – Misbâhu’z-zücâce (İbn Mâce zevâidi)"
+    ],
+    [
+     "Etrâf",
+     "Hadislerin ilk kısımlarını alfabetik verip kaynaklarını ve senetlerini gösterme",
+     "Mizzî – Tuhfetü’l-eşrâf (Kütüb-i Sitte)"
+    ],
+    [
+     "Cem‘",
+     "Birden çok kaynaktaki hadisleri tek eserde birleştirme",
+     "İbnü’l-Esîr – Câmiu’l-usûl; Süyûtî – Cem‘u’l-cevâmi‘"
+    ],
+    [
+     "Müstedrek",
+     "Bir müellifin şartlarına uyduğu hâlde eserine almadığı hadisleri toplama",
+     "Hâkim en-Nîsâbûrî – el-Müstedrek ale’s-Sahîhayn"
+    ],
+    [
+     "Müstahrec",
+     "Bir eserdeki hadisleri, o müellifin yoluna girmeden kendi senetleriyle rivayet etme",
+     "Ebû Avâne – Müstahrec ale’s-Sahîhi Müslim; Ebû Nuaym"
+    ],
+    [
+     "Mu’cem",
+     "Hocalara, sahabeye ya da şehirlere göre harf sırasıyla düzenlenmiş eser",
+     "Taberânî – el-Mu’cemü’l-kebîr, el-evsat, es-sağîr"
+    ]
+   ]
+  },
+  {
+   "sinav": "Bu türler çoğu zaman tanım verilerek sorulur: “Bir müellifin şartlarına uyduğu hâlde almadığı hadisler” = müstedrek; “o müellifin yoluna girmeden kendi senediyle” = müstahrec; “hadislerin başları ve tarikleri” = etrâf; “bir eserde olup diğerlerinde olmayanlar” = zevâid. Fethu’l-bârî ve Umdetü’l-kārî’nin Buhârî şerhi olduğu da sık gelir."
+  },
+  {
+   "akil": "Müstedrek = şartına uyanı ekle (Hâkim). Müstahrec = kendi senedinle aynı hadis (Ebû Avâne). Zevâid = fazlalık (Heysemî, Bûsîrî). Etrâf = baş kısım + kaynak (Mizzî). Mu’cem = harf sırası (Taberânî)."
+  },
+  "Bu türlerin her biri belirli bir ihtiyaçtan doğmuştur. Müstedrek ve müstahrec türleri, Buhârî ve Müslim’in eserlerinin otoritesi yerleştikten sonra bu eserlerle bağlantılı çalışmalar olarak gelişmiştir. Müstahrecler, aynı hadisi farklı senetlerle vererek hadisin rivayet yollarını çoğaltır, bazen metinde ek bilgiler sunar ve isnadı daha yüksek (âlî) hâle getirir. Hâkim’in el-Müstedrek’i ise içerdiği bazı zayıf ve hatta uydurma rivayetler sebebiyle eleştirilmiş, Zehebî bu eser üzerine bir telhis yazarak hükümlerini değerlendirmiştir. Zevâid eserleri, bir araştırmacının belirli kaynaklarda bulunmayan hadislere hızla ulaşmasını sağlar; etrâf eserleri ise bir hadisin bütün rivayet yollarını görmek isteyen için anahtar işlevi görür. Mu’cemler, özellikle bir muhaddisin hocalarını ve onlardan aldığı rivayetleri gösterdiği için ricâl araştırmalarında da kullanılır.",
+  {
+   "b": "2. Amaca göre derlemeler: Garîb, ahkâm, tergîb, tahrîc"
+  },
+  "Bazı eserler belirli bir ihtiyaca cevap vermek için yazılmıştır. Garîbü’l-hadîs eserleri, hadislerdeki az bilinen kelimeleri açıklar; Ebû Ubeyd Kāsım b. Sellâm’ın Garîbü’l-hadîs’i ve İbnü’l-Esîr’in en-Nihâye fî garîbi’l-hadîs’i bu türdendir. Muhtelifü’l-hadîs eserleri, birbiriyle çelişkili görünen hadisleri uzlaştırır; İmam Şâfiî’nin İhtilâfü’l-hadîs’i ve İbn Kuteybe’nin Te’vîlü muhtelifi’l-hadîs’i ilk örneklerdir. İlel eserleri, ilk bakışta sahih görünen hadislerdeki gizli kusurları ortaya koyar; Dârekutnî’nin el-İlel’i en kapsamlısıdır.",
+  {
+   "tablo": [
+    [
+     "Tür",
+     "Amaç",
+     "Örnek"
+    ],
+    [
+     "Ahkâm hadisleri",
+     "Fıkhî hükümlerin dayandığı hadisleri toplamak",
+     "İbn Hacer – Bulûğu’l-merâm; Mecdüddîn İbn Teymiyye – Münteka’l-ahbâr (şerhi: Şevkânî – Neylü’l-evtâr)"
+    ],
+    [
+     "Tergîb ve terhîb",
+     "Ameli teşvik ve kötülükten sakındırma hadisleri",
+     "Münzirî – et-Tergîb ve’t-terhîb"
+    ],
+    [
+     "Ahlak ve âdâb",
+     "Günlük hayata dair seçme hadisler",
+     "Nevevî – Riyâzü’s-sâlihîn; Beğavî – Mesâbîhu’s-sünne, Tebrîzî – Mişkâtü’l-mesâbîh"
+    ],
+    [
+     "Tahrîc",
+     "Bir kitapta geçen hadislerin kaynaklarını ve sıhhatini gösterme",
+     "Zeylaî – Nasbu’r-râye (Hidâye hadisleri); Irâkî – el-Muğnî (İhyâ hadisleri); İbn Hacer – et-Telhîsu’l-habîr"
+    ],
+    [
+     "Kısa ve alfabetik derleme",
+     "Kısa hadisleri harf sırasıyla verme",
+     "Süyûtî – el-Câmiu’s-sağîr (şerhi: Münâvî – Feyzü’l-kadîr)"
+    ],
+    [
+     "Garîbü’l-hadîs",
+     "Az bilinen kelimelerin açıklaması",
+     "Ebû Ubeyd; İbnü’l-Esîr – en-Nihâye"
+    ]
+   ]
+  },
+  {
+   "akil": "Tahrîc: Zeylaî – Hidâye; Irâkî – İhyâ. Ahkâm: Bulûğu’l-merâm, Münteka (→ Neylü’l-evtâr). Tergîb: Münzirî. Riyâzü’s-sâlihîn: Nevevî. Garîb: Ebû Ubeyd, İbnü’l-Esîr. İlel: Dârekutnî."
+  },
+  "Şerh geleneğinde Hanefî âlimlerin de önemli katkıları vardır. Bedrüddin el-Aynî’nin Umdetü’l-kārî’si İbn Hacer’in Fethu’l-bârî’siyle çağdaştır ve iki eser arasında bazı tartışmalar yaşanmıştır. Aliyyü’l-Kārî’nin Mişkât şerhi Mirkātü’l-mefâtîh ile Tahâvî’nin Şerhu meâni’l-âsâr’ı da Hanefî hadis anlayışının temel eserleridir. Tahâvî bu eserinde çelişkili görünen rivayetleri bir araya getirip Hanefî görüşün hadis delillerini ortaya koymuştur; aynı müellifin Şerhu müşkili’l-âsâr’ı da muhtelif ve müşkil hadisler alanında önemli bir eserdir.",
+  {
+   "b": "3. Osmanlı’da hadis"
+  },
+  {
+   "merak": "Osmanlı’nın en yüksek dereceli medresesinin adı “Darülhadis” idi. Süleymaniye Darülhadisi’nde ders vermek, müderrisliğin zirvesi sayılırdı. Peki Osmanlı’da hadis neden çoğu zaman fıkıh ve tefsirin gölgesinde kalmış gibi görünür?"
+  },
+  "Osmanlı’da hadis eğitimi, Sultan II. Murad’ın Edirne’de kurduğu Darülhadis ve Kanûnî’nin Süleymaniye külliyesindeki Darülhadis ile kurumsallaştı. Medreselerde Beğavî’nin Mesâbîhu’s-sünne’si ve Sâğânî’nin Meşâriku’l-envâr’ı çok okundu; Meşârik üzerine İbn Melek’in yazdığı Mebâriku’l-ezhâr şerhi yaygın bir ders kitabı oldu. Osmanlı âlimleri daha çok şerh, haşiye, kırk hadis ve tercüme türünde eserler verdi; Türkçe kırk hadis geleneği halkın hadisle buluşmasında önemli rol oynadı. Hadis ilminin fıkıh karşısında geri planda kalmasının sebepleri arasında Hanefî fıkıh geleneğinin medreselerde ağırlıklı yer tutması ve hadis öğreniminin daha çok mevcut kaynakların okunmasına dayanması sayılır.",
+  {
+   "tablo": [
+    [
+     "Osmanlı hadis faaliyeti",
+     "Örnek"
+    ],
+    [
+     "Kurum",
+     "Edirne Darülhadisi (II. Murad), Süleymaniye Darülhadisi (Kanûnî)"
+    ],
+    [
+     "Ders kitabı",
+     "Mesâbîhu’s-sünne, Meşâriku’l-envâr (İbn Melek şerhi)"
+    ],
+    [
+     "Kırk hadis",
+     "Fuzûlî, Nev’î, Nâbî gibi şairlerin manzum kırk hadisleri"
+    ],
+    [
+     "Şerh ve tercüme",
+     "Buhârî şerhleri ve tercümeleri; Kastallânî’nin eseri çok okundu"
+    ]
+   ]
+  },
+  "Osmanlı’nın son döneminde ve Cumhuriyet’in ilk yıllarında hadis alanında önemli bir isim de Babanzâde Ahmed Naim’dir. Darülfünun’da ders veren Ahmed Naim, Tecrîd-i Sarîh mukaddimesinde hadis tarihini ve usulünü modern bir üslupla anlatmış, oryantalistlerin hadise yönelik iddialarına da değinmiştir. Bu mukaddime uzun süre Türkiye’de hadis usulünün temel kaynaklarından biri olarak okunmuştur.",
+  {
+   "b": "4. Cumhuriyet döneminde hadis çalışmaları"
+  },
+  "Cumhuriyet döneminde Diyanet İşleri Reisliği’nin ilk büyük yayın projelerinden biri, Zebîdî’nin Buhârî muhtasarı et-Tecrîdü’s-sarîh’in tercümesi ve şerhidir. Babanzâde Ahmed Naim eserin ilk iki cildini ve hadis usulüne dair kapsamlı bir mukaddimeyi yazmış, Kâmil Miras ise eseri tamamlamıştır (Tecrîd-i Sarîh Tercemesi ve Şerhi). İlahiyat fakültelerinin kurulmasından sonra hadis tarihi, usulü ve metodolojisine dair akademik çalışmalar arttı. Diyanet İşleri Başkanlığı’nın Hadislerle İslam adlı çok ciltli eseri (2013), hadisleri konulara göre güncel bir dille açıklayan kapsamlı bir projedir. Kütüb-i Sitte’nin Türkçe tercümeleri de bu dönemde yayımlanmıştır.",
+  {
+   "sinav": "Tecrîd-i Sarîh Tercemesi = Babanzâde Ahmed Naim (mukaddime ve ilk ciltler) + Kâmil Miras; Diyanet yayını. Hadislerle İslam = Diyanet, 2013. Osmanlı’da Meşâriku’l-envâr ve İbn Melek şerhi sık sorulur."
+  },
+  {
+   "akil": "Osmanlı: Darülhadisler, Mesâbîh, Meşârik (İbn Melek), kırk hadisler. Cumhuriyet: Tecrîd-i Sarîh (Ahmed Naim + Kâmil Miras), Hadislerle İslam (Diyanet, 2013)."
+  },
+  "Hadis edebiyatı bugün de gelişmeye devam etmektedir. Dijital hadis veri tabanları, etrâf ve tahrîc eserlerinin yaptığı işi saniyeler içinde yapabilmektedir; ancak bir hadisin sıhhatine hüküm vermek, isnad ve metin tenkidi bilgisi gerektirdiği için hâlâ uzmanlık işidir. Bu yüzden vaaz ve hutbelerde kullanılacak hadislerin, güvenilir tahrîc eserlerinden ya da Diyanet’in Hadislerle İslam gibi kaynaklarından kontrol edilmesi tavsiye edilir. Özellikle halk arasında yaygın olan ve “hadis” diye nakledilen sözlerin önemli bir kısmının uydurma ya da asılsız olduğu, Aclûnî’nin Keşfü’l-hafâ’sı gibi eserlerde gösterilmiştir.",
+  {
+   "akil": "Bir hadisi kaynağından doğrulamak için tahrîc eserlerine (Zeylaî, Irâkî, İbn Hacer) ve güvenilir derlemelere başvur; halk arasında yaygın sözler için Aclûnî’nin Keşfü’l-hafâ’sına bak."
+  }
+ ],
+ "ozet": [
+  "Hadis edebiyatı, temel kaynakları açıklamak, düzenlemek ve tamamlamak için geliştirilen eser türlerinin bütünüdür.",
+  "Buhârî şerhleri: İbn Hacer – Fethu’l-bârî, Aynî – Umdetü’l-kārî, Kastallânî – İrşâdü’s-sârî; Müslim şerhi: Nevevî – el-Minhâc.",
+  "Erbaîn türünün en meşhur örneği Nevevî’nin kırk hadisidir.",
+  "Zevâid, bir eserde olup diğer belirli eserlerde bulunmayan hadisleri toplar (Heysemî, Bûsîrî).",
+  "Etrâf, hadislerin ilk kısımlarını ve senetlerini gösterir (Mizzî – Tuhfetü’l-eşrâf).",
+  "Müstedrek, bir müellifin şartlarına uyup eserine almadığı hadisleri toplar (Hâkim).",
+  "Müstahrec, bir eserdeki hadisleri o müellifin yoluna girmeden kendi senediyle rivayet eder (Ebû Avâne).",
+  "Mu’cem türü eserler hocalara veya sahabeye göre harf sırasıyla düzenlenir (Taberânî).",
+  "Garîbü’l-hadîs: Ebû Ubeyd, İbnü’l-Esîr – en-Nihâye; muhtelifü’l-hadîs: Şâfiî, İbn Kuteybe; ilel: Dârekutnî.",
+  "Ahkâm hadisleri: Bulûğu’l-merâm, Münteka’l-ahbâr (şerhi Neylü’l-evtâr); tergîb: Münzirî.",
+  "Tahrîc eserleri: Zeylaî – Nasbu’r-râye (Hidâye), Irâkî – el-Muğnî (İhyâ).",
+  "Osmanlı’da Darülhadisler kurulmuş, Mesâbîh ve Meşârik (İbn Melek şerhi) çok okunmuştur.",
+  "Tecrîd-i Sarîh Tercemesi Babanzâde Ahmed Naim ve Kâmil Miras tarafından Diyanet için hazırlanmıştır.",
+  "Hadislerle İslam, Diyanet’in 2013’te yayımladığı çok ciltli eserdir."
+ ],
+ "kartlar": [
+  {
+   "o": "Fethu’l-bârî",
+   "a": "İbn Hacer el-Askalânî; Buhârî şerhi."
+  },
+  {
+   "o": "Umdetü’l-kārî",
+   "a": "Bedrüddin el-Aynî (Hanefî); Buhârî şerhi."
+  },
+  {
+   "o": "el-Minhâc",
+   "a": "Nevevî; Müslim şerhi."
+  },
+  {
+   "o": "Zevâid",
+   "a": "Bir eserde olup diğerlerinde olmayan hadisler; Heysemî – Mecmau’z-zevâid."
+  },
+  {
+   "o": "Etrâf",
+   "a": "Hadis başları ve senetleri; Mizzî – Tuhfetü’l-eşrâf."
+  },
+  {
+   "o": "Müstedrek",
+   "a": "Hâkim; Buhârî ve Müslim’in şartlarına uyan ama alınmayan hadisler."
+  },
+  {
+   "o": "Müstahrec",
+   "a": "Ebû Avâne; Müslim’in hadislerini kendi senediyle."
+  },
+  {
+   "o": "Mu’cem",
+   "a": "Taberânî; harf sırasıyla hocalara/sahabeye göre."
+  },
+  {
+   "o": "en-Nihâye",
+   "a": "İbnü’l-Esîr; garîbü’l-hadîs."
+  },
+  {
+   "o": "Nasbu’r-râye",
+   "a": "Zeylaî; Hidâye hadislerinin tahrîci."
+  },
+  {
+   "o": "el-Muğnî",
+   "a": "Irâkî; İhyâ hadislerinin tahrîci."
+  },
+  {
+   "o": "Riyâzü’s-sâlihîn",
+   "a": "Nevevî; ahlak ve âdâb hadisleri."
+  },
+  {
+   "o": "Meşâriku’l-envâr",
+   "a": "Sâğânî; Osmanlı’da İbn Melek şerhiyle okundu."
+  },
+  {
+   "o": "Tecrîd-i Sarîh Tercemesi",
+   "a": "Babanzâde Ahmed Naim ve Kâmil Miras; Diyanet."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "hd9-01",
+   "z": 3,
+   "s": "Bir hadis eserinde, bir fıkıh kitabında delil olarak zikredilen hadislerin hangi hadis kaynaklarında geçtiği, senetleri ve sıhhat dereceleri tek tek gösterilmektedir. Eser Hanefî fıkhının temel metinlerinden birindeki hadisleri ele almaktadır.\n\nBu eserin türü ve en meşhur örneği aşağıdakilerden hangisidir?",
+   "c": [
+    "Şerh – Fethu’l-bârî",
+    "Müstahrec – Müstahrecü Ebî Avâne",
+    "Zevâid – Mecmau’z-zevâid",
+    "Etrâf – Tuhfetü’l-eşrâf",
+    "Tahrîc – Nasbu’r-râye"
+   ],
+   "d": 4,
+   "a": "Bir kitapta geçen hadislerin kaynaklarını ve sıhhatini gösteren eserlere tahrîc denir. Zeylaî’nin Nasbu’r-râye’si Hidâye’deki hadisleri tahrîc eder.",
+   "ac": [
+    "Şerh bir hadis kitabını açıklar.",
+    "Müstahrec, bir eserin hadislerini başka senetle rivayet eder.",
+    "Zevâid, bir eserdeki fazla hadisleri toplar.",
+    "Etrâf, hadis başlarını ve senetlerini gösterir; fıkıh kitabı üzerine değildir.",
+    "Doğru."
+   ],
+   "kay": "DİA, “Tahrîc” md."
+  },
+  {
+   "id": "hd9-02",
+   "z": 3,
+   "s": "I. Fethu’l-bârî\nII. Umdetü’l-kārî\nIII. el-Minhâc\nIV. İrşâdü’s-sârî\n\nYukarıdaki şerhlerden hangileri Buhârî’nin Sahîh’i üzerine yazılmıştır?",
+   "c": [
+    "I ve II",
+    "I, II ve IV",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Fethu’l-bârî (İbn Hacer), Umdetü’l-kārî (Aynî) ve İrşâdü’s-sârî (Kastallânî) Buhârî şerhidir. el-Minhâc ise Nevevî’nin Müslim şerhidir.",
+   "ac": [
+    "İrşâdü’s-sârî de Buhârî şerhidir.",
+    "Doğru.",
+    "el-Minhâc Müslim şerhidir; Fethu’l-bârî eksiktir.",
+    "el-Minhâc Müslim şerhidir.",
+    "el-Minhâc Müslim şerhidir."
+   ],
+   "kay": "DİA, ilgili maddeler"
+  },
+  {
+   "id": "hd9-03",
+   "z": 2,
+   "s": "Hadislerdeki az bilinen, anlaşılması güç kelimeleri açıklamak amacıyla yazılan eser türü ve bu türün en meşhur örneklerinden biri aşağıdakilerden hangisidir?",
+   "c": [
+    "İlel – Dârekutnî",
+    "Tergîb ve terhîb – Münzirî",
+    "Muhtelifü’l-hadîs – İbn Kuteybe",
+    "Garîbü’l-hadîs – İbnü’l-Esîr, en-Nihâye",
+    "Mevzûât – İbnü’l-Cevzî"
+   ],
+   "d": 3,
+   "a": "Garîbü’l-hadîs eserleri hadislerdeki garip kelimeleri açıklar; İbnü’l-Esîr’in en-Nihâye’si bu türün en meşhur eseridir.",
+   "ac": [
+    "İlel eserleri gizli kusurları inceler.",
+    "Tergîb eserleri teşvik ve sakındırma hadislerini toplar.",
+    "Muhtelifü’l-hadîs çelişkili görünen hadisleri uzlaştırır.",
+    "Doğru.",
+    "Mevzûât uydurma hadisleri toplar."
+   ],
+   "kay": "DİA, “Garîbü’l-hadîs” md."
+  },
+  {
+   "id": "hd9-04",
+   "z": 3,
+   "s": "Cumhuriyet döneminde Diyanet İşleri Reisliği tarafından yayımlanan, Zebîdî’nin Buhârî muhtasarının tercüme ve şerhi olup başında hadis usulüne dair kapsamlı bir mukaddime bulunan eser ve hazırlayanlar aşağıdakilerden hangisidir?",
+   "c": [
+    "Hadislerle İslam – Diyanet heyeti",
+    "Riyâzü’s-sâlihîn Tercümesi – Kâmil Miras",
+    "Tecrîd-i Sarîh Tercemesi ve Şerhi – Babanzâde Ahmed Naim ve Kâmil Miras",
+    "Kütüb-i Sitte Tercümesi – İbrahim Canan",
+    "Mebâriku’l-ezhâr – İbn Melek"
+   ],
+   "d": 2,
+   "a": "Tecrîd-i Sarîh Tercemesi’nin mukaddimesini ve ilk ciltlerini Babanzâde Ahmed Naim yazmış, Kâmil Miras tamamlamıştır.",
+   "ac": [
+    "Hadislerle İslam 2013’te yayımlanmış, konulara göre bir eserdir.",
+    "Riyâzü’s-sâlihîn Nevevî’nin eseridir; bu tercüme Tecrîd değildir.",
+    "Doğru.",
+    "İbrahim Canan’ın tercümesi Tecrîd değildir.",
+    "İbn Melek Osmanlı dönemi âlimidir."
+   ],
+   "kay": "DİA, “Tecrîd-i Sarîh Tercemesi” md."
+  },
+  {
+   "id": "hd9-05",
+   "z": 3,
+   "s": "Osmanlı medreselerinde hadis eğitiminde yaygın olarak okutulan bir eser ve onun en çok okunan şerhiyle ilgili aşağıdaki eşleştirmelerden hangisi doğrudur?",
+   "c": [
+    "Meşâriku’l-envâr (Sâğânî) – Mebâriku’l-ezhâr (İbn Melek)",
+    "Riyâzü’s-sâlihîn – Fethu’l-bârî",
+    "Muvatta’ – Umdetü’l-kārî",
+    "el-Câmiu’s-sağîr – Tuhfetü’l-eşrâf",
+    "Bulûğu’l-merâm – el-Minhâc"
+   ],
+   "d": 0,
+   "a": "Sâğânî’nin Meşâriku’l-envâr’ı ve İbn Melek’in onun üzerine yazdığı Mebâriku’l-ezhâr Osmanlı’da çok okunmuştur.",
+   "ac": [
+    "Doğru.",
+    "Fethu’l-bârî Buhârî şerhidir.",
+    "Umdetü’l-kārî Buhârî şerhidir.",
+    "Tuhfetü’l-eşrâf etrâf eseridir; el-Câmiu’s-sağîr’in şerhi Feyzü’l-kadîr’dir.",
+    "el-Minhâc Müslim şerhidir."
+   ],
+   "kay": "DİA, “Meşâriku’l-envâr” md."
+  },
+  {
+   "id": "hd9-06",
+   "z": 3,
+   "s": "I. Münteka’l-ahbâr\nII. Bulûğu’l-merâm\nIII. et-Tergîb ve’t-terhîb\nIV. Neylü’l-evtâr\n\nYukarıdaki eserlerden hangileri öncelikle fıkhî hükümlerin dayandığı hadisleri içeren (ahkâm hadisleri) türdendir ya da böyle bir eserin şerhidir?",
+   "c": [
+    "I ve II",
+    "I, II ve IV",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Münteka’l-ahbâr ve Bulûğu’l-merâm ahkâm hadisleri derlemesidir; Neylü’l-evtâr Münteka’nın şerhidir. Münzirî’nin et-Tergîb ve’t-terhîb’i ise teşvik ve sakındırma hadislerini toplar.",
+   "ac": [
+    "Neylü’l-evtâr da ahkâm hadisleri şerhidir.",
+    "Doğru.",
+    "Tergîb ve terhîb ahkâm türünden değildir.",
+    "Tergîb ve terhîb ahkâm türünden değildir.",
+    "Tergîb ve terhîb ahkâm türünden değildir."
+   ],
+   "kay": "DİA, ilgili maddeler"
+  },
+  {
+   "id": "hd9-07",
+   "z": 2,
+   "s": "Birbiriyle çelişkili gibi görünen hadisleri uzlaştırma amacıyla yazılan ilk eserlerden biri ve müellifi aşağıdakilerden hangisidir?",
+   "c": [
+    "el-Mevzûât – İbnü’l-Cevzî",
+    "el-İlel – Dârekutnî",
+    "İhtilâfü’l-hadîs – İmam Şâfiî",
+    "en-Nihâye – İbnü’l-Esîr",
+    "Riyâzü’s-sâlihîn – Nevevî"
+   ],
+   "d": 2,
+   "a": "Muhtelifü’l-hadîs türünün ilk örneklerinden biri İmam Şâfiî’nin İhtilâfü’l-hadîs’idir; İbn Kuteybe’nin Te’vîlü muhtelifi’l-hadîs’i de bu türdendir.",
+   "ac": [
+    "Mevzûât uydurmalarla ilgilidir.",
+    "İlel gizli kusurlarla ilgilidir.",
+    "Doğru.",
+    "en-Nihâye garip kelimelerle ilgilidir.",
+    "Riyâzü’s-sâlihîn ahlak hadisleri derlemesidir."
+   ],
+   "kay": "DİA, “Muhtelifü’l-hadîs” md."
+  },
+  {
+   "id": "h3-04",
+   "z": 1,
+   "s": "Nevevî’nin dinin temel ilkelerini özetleyen hadisleri bir araya getirdiği meşhur eseri, hadis edebiyatında hangi türün örneğidir?",
+   "c": [
+    "Erbaîn",
+    "Etrâf",
+    "Mu’cem",
+    "Zevâid",
+    "Müstedrek"
+   ],
+   "d": 0,
+   "a": "Belirli bir konuda veya genel olarak kırk hadis toplayan eserlere erbaîn denir. Nevevî’nin el-Erbaûn’u bu türün en bilinen örneğidir.",
+   "ac": [
+    "Doğru: kırk hadis eserleri erbaîndir.",
+    "Etrâf, hadislerin baş kısmından bütün yollarını gösterir.",
+    "Mu’cem harf sırasıyla düzenlenir.",
+    "Zevâid, bir eserde olup diğerinde olmayan hadisleri toplar.",
+    "Müstedrek, bir müellifin şartına uyup almadığı hadisleri toplar."
+   ],
+   "kay": "Nevevî, el-Erbaûn"
+  },
+  {
+   "id": "h3-08",
+   "z": 2,
+   "s": "Hâkim en-Nîsâbûrî, Buhârî ve Müslim’in sahihlik şartlarına uyduğu hâlde bu iki âlimin eserlerine almadığı hadisleri tespit ederek bir eserde toplamıştır.\n\nHâkim’in bu eseri hangi türdendir?",
+   "c": [
+    "Müstahrec",
+    "Zevâid",
+    "Musannef",
+    "Müstedrek",
+    "Mu’cem"
+   ],
+   "d": 3,
+   "a": "Bir müellifin şartlarına uyduğu hâlde eserine almadığı hadisleri toplayan esere müstedrek denir. Hâkim’in el-Müstedrek ale’s-Sahîhayn’ı türün adını taşıyan en meşhur eserdir.",
+   "ac": [
+    "Müstahrec, var olan hadisleri başka senedle rivayet eder.",
+    "Zevâid, bir eserde olup diğerinde olmayan hadisleri toplar; şart ölçütü yoktur.",
+    "Musannef konulara göre düzenlenen genel bir eserdir.",
+    "Doğru: şarta uyan ama alınmayan hadisler müstedrektir.",
+    "Mu’cem harf sırasına göre düzenlenir."
+   ],
+   "kay": "Hâkim, el-Müstedrek ale’s-Sahîhayn"
+  },
+  {
+   "id": "h3-09",
+   "z": 2,
+   "s": "Bir araştırmacı, İbn Mâce’nin Sünen’inde bulunup Kütüb-i Sitte’nin diğer beş kitabında yer almayan hadisleri tespit ederek ayrı bir kitapta toplamıştır.\n\nBu çalışma hadis edebiyatında hangi türe girer?",
+   "c": [
+    "Etrâf",
+    "Câmi’",
+    "Müstahrec",
+    "Müstedrek",
+    "Zevâid"
+   ],
+   "d": 4,
+   "a": "Bir eserin başka eserlere göre fazla olan hadislerini toplayan çalışmalar zevâiddir. Bûsîrî’nin Misbâhu’z-zücâce adlı eseri tam olarak bu işi yapar.",
+   "ac": [
+    "Etrâf hadis başlarından yolları gösterir.",
+    "Câmi’ sekiz konuyu kapsayan eserdir.",
+    "Müstahrec, aynı hadisleri başka senedle rivayet eder.",
+    "Müstedrek, bir müellifin şartına uyan hadisleri toplar.",
+    "Doğru: fazla hadisleri toplamak zevâiddir."
+   ],
+   "kay": "Bûsîrî, Misbâhu’z-zücâce fî zevâidi İbn Mâce"
+  },
+  {
+   "id": "h3-10",
+   "z": 2,
+   "s": "Bir öğrenci, aradığı hadisin yalnızca ilk cümlesini hatırlamaktadır. Hocası ona, hadislerin baş kısımlarını verip her hadisin bütün senedlerini ve hangi kitaplarda geçtiğini gösteren bir eser tavsiye etmiştir. Mizzî’nin Tuhfetü’l-eşrâf’ı bu tür bir eserdir.\n\nHocanın tavsiye ettiği eser türü aşağıdakilerden hangisidir?",
+   "c": [
+    "Müsned",
+    "Etrâf",
+    "Erbaîn",
+    "Musannef",
+    "Zevâid"
+   ],
+   "d": 1,
+   "a": "Hadisin baş kısmını (tarafını) zikredip senedlerini ve kaynaklarını gösteren eserlere etrâf denir.",
+   "ac": [
+    "Müsned sahabe râvilere göre düzenlenir.",
+    "Doğru: hadis başından yollara ulaştıran eser etrâftır.",
+    "Erbaîn kırk hadisten oluşur.",
+    "Musannef konulara göre düzenlenir.",
+    "Zevâid fazla hadisleri toplar."
+   ],
+   "kay": "Mizzî, Tuhfetü’l-eşrâf"
+  },
+  {
+   "id": "h3-11",
+   "z": 2,
+   "s": "Taberânî’nin, hocalarının isimlerini harf sırasına göre dizip her hocanın adı altında ondan aldığı rivayetleri topladığı eseri hangi türdendir?",
+   "c": [
+    "Müstahrec",
+    "Musannef",
+    "Sünen",
+    "Şerh",
+    "Mu’cem"
+   ],
+   "d": 4,
+   "a": "Râvilerin veya şehirlerin adlarının harf sırasına göre dizildiği eserlere mu’cem denir. Taberânî’nin el-Mu’cemü’l-kebîr, el-evsat ve es-sağîr adlı üç eseri bu türdendir.",
+   "ac": [
+    "Müstahrec başka bir eseri esas alır.",
+    "Musannef konuya göre düzenlenir.",
+    "Sünen fıkıh bablarına göre düzenlenir.",
+    "Şerh başka bir kitabı açıklar.",
+    "Doğru: harf sırasıyla düzenleme mu’cemin özelliğidir."
+   ],
+   "kay": "Taberânî, el-Mu’cemü’l-evsat"
+  },
+  {
+   "id": "h3-12",
+   "z": 2,
+   "s": "Fethu’l-bârî ve Umdetü’l-kârî adlı eserler aşağıdaki hadis kitaplarından hangisinin şerhidir?",
+   "c": [
+    "Ahmed b. Hanbel’in Müsned’i",
+    "Mâlik’in Muvatta’ı",
+    "Tirmizî’nin Sünen’i",
+    "Buhârî’nin Sahîh’i",
+    "Müslim’in Sahîh’i"
+   ],
+   "d": 3,
+   "a": "Fethu’l-bârî İbn Hacer el-Askalânî’nin, Umdetü’l-kârî Bedreddin el-Aynî’nin Buhârî şerhleridir.",
+   "ac": [
+    "Müsned’in şerhinden çok tertip çalışmaları bilinir.",
+    "Muvatta’ın meşhur şerhleri arasında İbn Abdilber’in et-Temhîd’i vardır.",
+    "Tirmizî şerhlerinden biri Mübârekfûrî’nin Tuhfetü’l-ahvezî’sidir.",
+    "Doğru: iki eser de Buhârî şerhidir.",
+    "Müslim’in en meşhur şerhi Nevevî’nin el-Minhâc’ıdır."
+   ],
+   "kay": "İbn Hacer, Fethu’l-bârî; Aynî, Umdetü’l-kârî"
+  },
+  {
+   "id": "h3-15",
+   "z": 3,
+   "s": "Ebû Avâne, Müslim’in Sahîh’indeki hadisleri Müslim’in yoluna girmeden, kendi hocalarından gelen farklı senedlerle yeniden rivayet ettiği bir eser yazmıştır.\n\nBu eserin türü aşağıdakilerden hangisidir?",
+   "c": [
+    "Müstahrec",
+    "Müstedrek",
+    "Zevâid",
+    "Etrâf",
+    "Cüz"
+   ],
+   "d": 0,
+   "a": "Bir eserdeki hadisleri o eserin müellifine uğramadan kendi senedleriyle rivayet eden eserlere müstahrec denir. Bu eserler rivayetlerdeki farklılıkları göstermek ve senedleri güçlendirmek bakımından önemlidir.",
+   "ac": [
+    "Doğru: aynı hadisler başka senedle müstahrecdir.",
+    "Müstedrek yeni (alınmamış) hadisleri toplar; burada hadisler aynıdır.",
+    "Zevâid fazla hadisleri toplar.",
+    "Etrâf hadis başlarından yolları gösterir.",
+    "Cüz tek konu veya tek râvinin rivayetlerini toplayan küçük eserdir."
+   ],
+   "kay": "Ebû Avâne, el-Müsned es-sahîh el-muhrec alâ Sahîhi Müslim"
+  }
+ ]
+}

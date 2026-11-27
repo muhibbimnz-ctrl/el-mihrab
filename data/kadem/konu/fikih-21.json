@@ -1,0 +1,567 @@
+{
+ "id": "fikih-21",
+ "ad": "İslam Ceza Hukuku: Suç ve Ceza Ehliyeti; Had Cezaları (Zina, Kazf, Hırsızlık, Şarap, Hırâbe); Kısas ve Diyet (Kasıt, Şibh-i Amd, Hata; Âkıle); Ta’zir; Şüphe ile Haddin Düşmesi",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Suç, ceza ve ceza ehliyeti"
+  },
+  {
+   "merak": "Hz. Ömer kıtlık yılında hırsızlık cezasını uygulamadı. Neden? Çünkü açlığın zorladığı bir hırsızlıkta “şüphe” vardı ve Hz. Peygamber “Şüpheler sebebiyle had cezalarını düşürün” buyurmuştu."
+  },
+  "İslam ceza hukukunda suç (cinâyet), dinin yasakladığı ve dünyevi bir yaptırıma bağladığı fiillerdir. Cezaların amacı; makâsıdü’ş-şerîada sayılan din, can, akıl, nesil ve malı korumak, toplumda adaleti ve güveni sağlamak, suçluyu ıslah etmek ve başkalarını caydırmaktır. Ceza sorumluluğu için kişinin akıllı ve ergen olması gerekir; çocuk ve akıl hastası ceza almaz, ancak verdikleri maddi zararı malları varsa tazmin ederler. Zorlama (ikrah) altında işlenen suçlarda da ceza sorumluluğu ortadan kalkar ya da hafifler.",
+  {
+   "tablo": [
+    [
+     "Ceza türü",
+     "Tanım",
+     "Örnek"
+    ],
+    [
+     "Had",
+     "Miktarı Kur’an veya sünnetle belirlenmiş, Allah hakkı ağır basan ceza",
+     "Zina, kazf, hırsızlık, şarap, hırâbe"
+    ],
+    [
+     "Kısas",
+     "Kasten öldürme ve yaralamada aynı fiille karşılık; kul hakkı ağır basar",
+     "Kasten öldürme"
+    ],
+    [
+     "Diyet",
+     "Can ve organ kaybı karşılığı ödenen mal",
+     "Hata ile öldürme; kısasın affı"
+    ],
+    [
+     "Ta’zir",
+     "Miktarı belirlenmemiş, devlet ve hâkimin takdirine bırakılmış ceza",
+     "Rüşvet, yalan şahitlik, sahtekârlık"
+    ]
+   ]
+  },
+  {
+   "akil": "Amaç: beş zarûrî maslahatı korumak. Ehliyet: akıl + bulûğ. Had: miktarı belli, Allah hakkı. Kısas-diyet: kul hakkı. Ta’zir: takdirî."
+  },
+  {
+   "b": "2. Had cezaları"
+  },
+  "Had cezaları miktarı belirlenmiş, artırılıp azaltılamayan cezalardır. Hâkime intikal ettikten sonra affedilemez; ancak suçun ispatında en küçük şüphe bulunduğunda ceza düşer. Bu ilke “Şüpheler sebebiyle had cezalarını düşürün” hadisine dayanır. Had suçlarının ispatı için ağır şartlar aranır: Zina dört erkek şahitle ya da Hanefîlere göre dört ayrı mecliste dört kez ikrarla sabit olur; ikrardan dönmek cezayı düşürür.",
+  {
+   "tablo": [
+    [
+     "Had suçu",
+     "Ceza",
+     "Dayanak / not"
+    ],
+    [
+     "Zina",
+     "Bekâra yüz değnek; evli (muhsan) kişiye recm",
+     "Nûr 2; recm sünnetle sabit; ispat: dört erkek şahit veya dört ikrar"
+    ],
+    [
+     "Kazf (zina iftirası)",
+     "Seksen değnek; şahitliği bir daha kabul edilmez",
+     "Nûr 4"
+    ],
+    [
+     "Sirkat (hırsızlık)",
+     "Sağ elin bilekten kesilmesi",
+     "Mâide 38; şartlar: nisap (Hanefî: 10 dirhem), hırz (korunmuş yer), başkasının malı, gizlilik, şüphe olmaması"
+    ],
+    [
+     "Şürb (şarap içme)",
+     "Hanefîlere göre seksen değnek (Hz. Ömer dönemi icmâsı); Şâfiîlere göre kırk",
+     "Sünnet ve sahabe uygulaması"
+    ],
+    [
+     "Hırâbe (yol kesme, silahlı soygun)",
+     "Suçun ağırlığına göre öldürme, asma, el-ayak kesme ya da sürgün",
+     "Mâide 33"
+    ]
+   ]
+  },
+  "Hırsızlık cezasının uygulanması için ağır şartlar vardır: Çalınan mal nisap miktarına (Hanefîlere göre on dirhem gümüş) ulaşmalı, korunmuş bir yerden (hırz) gizlice alınmış olmalı, malda çalan kişinin hakkı veya hak şüphesi bulunmamalı (ortak mal, beytülmâl, baba-oğul arası), mal çabuk bozulan bir şey olmamalıdır. Kıtlık ve zaruret hâlleri de şüphe doğurur. Bu şartlardan biri eksikse had uygulanmaz, ancak ta’zir cezası verilebilir ve çalınan mal tazmin edilir.",
+  {
+   "sinav": "Had cezalarının miktarları (zina 100, kazf 80, şarap Hanefî 80), hırsızlıkta nisap (10 dirhem) ve hırz şartı, “şüpheyle had düşer” ilkesi ve kazf cezası alanın şahitliğinin kabul edilmemesi sık sorulur."
+  },
+  {
+   "akil": "Zina: 100 / recm; 4 şahit veya 4 ikrar. Kazf: 80 + şahitlik kabul edilmez. Hırsızlık: el kesme; nisap 10 dirhem, hırz, gizlilik, şüphesizlik. Şarap: Hanefî 80. Hırâbe: Mâide 33. Şüphe → had düşer."
+  },
+  {
+   "b": "3. Kısas ve diyet"
+  },
+  {
+   "merak": "Bir kişi kasten birini öldürür. Maktulün ailesi mahkemede iki seçenekle karşılaşır: kısas ya da diyet karşılığında af. Kur’an affı teşvik eder: “Kim kardeşi tarafından affedilirse…” (Bakara 178)."
+  },
+  "Kısas, kasten öldürme veya yaralama suçunda suçluya aynı fiille karşılık verilmesidir (Bakara 178-179; Mâide 45). Kısas kul hakkı ağır basan bir cezadır; bu yüzden maktulün velileri kısastan vazgeçip diyet alabilir ya da tamamen affedebilir. Kur’an “Kısasta sizin için hayat vardır” buyurarak cezanın caydırıcı yönüne dikkat çeker. Öldürme fiilleri Hanefîlere göre beş türdür: kasten öldürme (amd), kasta benzer öldürme (şibh-i amd: genellikle öldürücü olmayan bir aletle öldürme), hata ile öldürme, hataya benzer öldürme (uyuyanın birinin üzerine düşmesi) ve sebebiyet yoluyla öldürme (kuyu kazıp birinin düşmesine yol açmak).",
+  {
+   "tablo": [
+    [
+     "Öldürme türü",
+     "Ceza"
+    ],
+    [
+     "Kasten (amd)",
+     "Kısas; velîler affederse diyet; mirastan mahrumiyet"
+    ],
+    [
+     "Kasta benzer (şibh-i amd)",
+     "Ağırlaştırılmış diyet (âkıle öder), keffâret, mirastan mahrumiyet"
+    ],
+    [
+     "Hata",
+     "Diyet (âkıle öder) ve keffâret (Nisâ 92); mirastan mahrumiyet"
+    ],
+    [
+     "Sebebiyet",
+     "Diyet; keffâret ve mirastan mahrumiyet yok (Hanefî)"
+    ]
+   ]
+  },
+  "Diyet, can veya organ kaybına karşılık ödenen maldır. Tam diyet Hanefîlere göre yüz deve, bin dinar altın ya da on bin dirhem gümüştür. Hata ile öldürmede diyeti, failin âkılesi denilen dayanışma grubu (aşireti, divan ehli veya meslek grubu) üç yılda öder. Hata ile öldürmenin keffâreti, bir mümin köle azat etmek, buna imkân yoksa iki ay peş peşe oruç tutmaktır (Nisâ 92). Organ kayıplarında da diyet vardır; örneğin bir göz için yarım diyet, iki göz için tam diyet ödenir.",
+  {
+   "akil": "Kısas: kasten; velî affedebilir ya da diyet alabilir (Bakara 178). Diyet: 100 deve / 1000 dinar / 10.000 dirhem. Hata diyetini âkıle 3 yılda öder. Hata keffâreti: mümin köle ya da 2 ay peş peşe oruç (Nisâ 92)."
+  },
+  {
+   "b": "4. Ta’zir"
+  },
+  "Ta’zir, miktarı ve türü şer’î nasla belirlenmemiş olup suçun niteliğine, suçlunun durumuna ve toplumun ihtiyacına göre devlet başkanı veya hâkim tarafından belirlenen cezadır. Had ve kısas gerektirmeyen bütün suçlar ta’zir kapsamındadır: rüşvet, sahtekârlık, yalan şahitlik, emanete hıyanet, haddin şartlarını taşımayan hırsızlık, kamu düzenini bozan davranışlar gibi. Ta’zir cezaları öğüt, kınama, para cezası, hapis, sürgün, dayak gibi farklı biçimlerde olabilir. Ebû Yûsuf’a göre ta’zir için verilen dayak cezası had cezalarının en azına ulaşmamalıdır. Ta’zirde af ve hafifletme mümkündür.",
+  {
+   "tablo": [
+    [
+     "Ölçüt",
+     "Had",
+     "Kısas",
+     "Ta’zir"
+    ],
+    [
+     "Belirleyen",
+     "Nas",
+     "Nas",
+     "Devlet / hâkim"
+    ],
+    [
+     "Miktar",
+     "Sabit",
+     "Fiilin aynı",
+     "Takdirî"
+    ],
+    [
+     "Af",
+     "Hâkime ulaşınca yok",
+     "Velî affedebilir",
+     "Mümkün"
+    ],
+    [
+     "Şüphe",
+     "Ceza düşer",
+     "Ceza düşer, diyete dönebilir",
+     "Ceza verilebilir"
+    ]
+   ]
+  },
+  {
+   "sinav": "Had-kısas-ta’zir karşılaştırması, ta’zirin tanımı ve affın mümkün olup olmadığı soruları sık gelir. Ta’zirin miktarı ve türü belli değildir; ülü’l-emrin takdirine bağlıdır."
+  },
+  {
+   "akil": "Ta’zir: had ve kısas dışındaki suçlar; miktar ve tür takdirî; af ve hafifletme mümkün. Had: affedilmez (hâkime ulaşınca). Kısas: velî affedebilir."
+  }
+ ],
+ "ozet": [
+  "İslam ceza hukukunun amacı beş zarûrî maslahatı korumak, adaleti sağlamak ve caydırmaktır.",
+  "Ceza sorumluluğu için akıl ve ergenlik şarttır.",
+  "Cezalar had, kısas-diyet ve ta’zir olmak üzere üç gruptur.",
+  "Had cezaları miktarı nasla belirlenmiş cezalardır; hâkime ulaştıktan sonra affedilmez.",
+  "Şüpheler sebebiyle had cezaları düşer.",
+  "Zinanın cezası bekâra yüz değnek, evliye recmdir; ispat için dört erkek şahit veya dört ikrar gerekir.",
+  "Kazf cezası seksen değnektir; ceza alanın şahitliği bir daha kabul edilmez.",
+  "Hırsızlıkta el kesme için nisap (Hanefî: on dirhem), hırz, gizlilik ve şüphe olmaması şarttır.",
+  "Şarap içmenin cezası Hanefîlere göre seksen değnektir.",
+  "Hırâbe (yol kesme) suçunun cezası Mâide 33’te belirlenmiştir.",
+  "Kasten öldürmede kısas uygulanır; maktulün velîleri affedebilir veya diyet alabilir.",
+  "Hanefîlere göre tam diyet yüz deve, bin dinar veya on bin dirhemdir.",
+  "Hata ile öldürmede diyeti âkıle öder; keffâret mümin köle azadı ya da iki ay peş peşe oruçtur.",
+  "Ta’zir, miktarı ve türü belirlenmemiş, hâkimin takdirine bırakılmış cezadır."
+ ],
+ "kartlar": [
+  {
+   "o": "Had",
+   "a": "Miktarı nasla belirli ceza; Allah hakkı ağır basar."
+  },
+  {
+   "o": "Ta’zir",
+   "a": "Miktarı ve türü takdire bırakılmış ceza."
+  },
+  {
+   "o": "Şüphe ilkesi",
+   "a": "Şüpheler sebebiyle had cezaları düşer."
+  },
+  {
+   "o": "Zina cezası",
+   "a": "Bekâr: 100 değnek (Nûr 2); evli: recm."
+  },
+  {
+   "o": "Zinanın ispatı",
+   "a": "Dört erkek şahit veya dört ikrar."
+  },
+  {
+   "o": "Kazf cezası",
+   "a": "80 değnek; şahitliği kabul edilmez (Nûr 4)."
+  },
+  {
+   "o": "Hırsızlıkta nisap (Hanefî)",
+   "a": "On dirhem gümüş."
+  },
+  {
+   "o": "Hırz",
+   "a": "Malın korunduğu yer; hırsızlık haddinin şartı."
+  },
+  {
+   "o": "Şarap cezası (Hanefî)",
+   "a": "80 değnek."
+  },
+  {
+   "o": "Hırâbe",
+   "a": "Yol kesme, silahlı soygun; Mâide 33."
+  },
+  {
+   "o": "Kısasta af",
+   "a": "Maktulün velîleri affedebilir veya diyet alabilir (Bakara 178)."
+  },
+  {
+   "o": "Tam diyet (Hanefî)",
+   "a": "100 deve, 1000 dinar veya 10.000 dirhem."
+  },
+  {
+   "o": "Âkıle",
+   "a": "Hata diyetini üç yılda ödeyen dayanışma grubu."
+  },
+  {
+   "o": "Hata keffâreti",
+   "a": "Mümin köle; yoksa iki ay peş peşe oruç (Nisâ 92)."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "fq21-01",
+   "z": 3,
+   "s": "I. Çalınan malın nisap miktarına ulaşması\nII. Malın korunmuş bir yerden (hırz) alınması\nIII. Çalan kişinin malda bir hak veya hak şüphesinin bulunmaması\nIV. Hırsızlığın kıtlık ve zaruret döneminde işlenmesi\n\nYukarıdakilerden hangileri hırsızlık haddinin uygulanabilmesi için gerekli şartlardandır?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Nisap, hırz ve şüphenin bulunmaması haddin şartlarıdır. Kıtlık ve zaruret ise şüphe doğurduğu için haddi düşürür; Hz. Ömer kıtlık yılında el kesmemiştir.",
+   "ac": [
+    "Şüphenin bulunmaması da şarttır.",
+    "Doğru.",
+    "Dördüncü durum şart değil, haddi düşüren bir sebeptir.",
+    "Dördüncü durum haddi düşürür.",
+    "Dördüncü durum haddi düşürür."
+   ],
+   "kay": "Kâsânî, Bedâi‘, VII"
+  },
+  {
+   "id": "fq21-02",
+   "z": 3,
+   "s": "Bir kişi kasten birini öldürmüştür. Maktulün iki oğlundan biri kısas istemekte, diğeri ise katili affetmektedir.\n\nHanefî mezhebine göre bu durumun sonucu aşağıdakilerden hangisidir?",
+   "c": [
+    "Kısas uygulanır, çünkü bir velî bunu istemektedir.",
+    "Katil hapsedilir ve diyet ödenmez.",
+    "Hiçbir ceza uygulanmaz.",
+    "Velîlerden birinin affı kısası düşürür; kısas talep eden velî diyetten kendi payını alır.",
+    "Kısas ancak devlet başkanının kararıyla uygulanır."
+   ],
+   "d": 3,
+   "a": "Kısas bölünemeyen bir hak olduğundan velîlerden birinin affıyla düşer; affetmeyen velînin payı diyete dönüşür.",
+   "ac": [
+    "Bir velînin affı kısası düşürür.",
+    "Böyle bir hüküm yoktur.",
+    "Affetmeyen velî diyet alır.",
+    "Doğru.",
+    "Kısas kul hakkıdır; velînin affı belirleyicidir."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, V"
+  },
+  {
+   "id": "fq21-03",
+   "z": 2,
+   "s": "Hata ile adam öldüren bir kişinin ödemesi gereken diyetle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Diyeti tek başına ve peşin öder.",
+    "Hata ile öldürmede kısas uygulanır.",
+    "Hata ile öldürmede diyet yoktur.",
+    "Diyet yalnız devlet hazinesinden ödenir.",
+    "Diyeti failin âkılesi denilen dayanışma grubu üç yılda öder; failin ayrıca keffâret yükümlülüğü vardır."
+   ],
+   "d": 4,
+   "a": "Hata ile öldürmede diyet âkıleye aittir ve üç yılda ödenir; fail ayrıca keffâret öder (Nisâ 92).",
+   "ac": [
+    "Âkıle öder.",
+    "Hata ile öldürmede kısas yoktur.",
+    "Diyet vardır.",
+    "Asıl yükümlü âkıledir.",
+    "Doğru."
+   ],
+   "kay": "Nisâ, 4/92"
+  },
+  {
+   "id": "fq21-04",
+   "z": 3,
+   "s": "Bir hâkim, rüşvet alan bir memura, suçun ağırlığını ve memurun durumunu dikkate alarak hapis ve para cezası vermiştir.\n\nBu cezanın türü ve özellikleriyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Had cezasıdır; miktarı Kur’an’da belirlenmiştir.",
+    "Kısas cezasıdır; rüşvet verenin affına bağlıdır.",
+    "Diyet cezasıdır; âkıle tarafından ödenir.",
+    "Ta’zir cezasıdır; miktarı ve türü hâkimin takdirine bırakılmıştır ve af ile hafifletme mümkündür.",
+    "Keffârettir; ibadetle yerine getirilir."
+   ],
+   "d": 3,
+   "a": "Rüşvet için nasla belirlenmiş bir ceza olmadığından ceza ta’zir kapsamındadır; tür ve miktar hâkimin takdirine bağlıdır.",
+   "ac": [
+    "Rüşvetin cezası nasla belirlenmemiştir.",
+    "Kısas can ve yaralama suçlarında olur.",
+    "Diyet can ve organ kayıplarında söz konusudur.",
+    "Doğru.",
+    "Keffâret dinî bir yaptırımdır."
+   ],
+   "kay": "Mâverdî, el-Ahkâmü’s-sultâniyye"
+  },
+  {
+   "id": "fq21-05",
+   "z": 3,
+   "s": "I. Had cezaları\nII. Kısas\nIII. Ta’zir cezaları\n\nYukarıdaki cezalardan hangilerinde af mümkündür?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "II ve III",
+    "I ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Had cezaları hâkime ulaştıktan sonra affedilemez. Kısasta maktulün velîsi affedebilir; ta’zirde de af ve hafifletme mümkündür.",
+   "ac": [
+    "Had cezaları hâkime ulaşınca affedilmez.",
+    "Kısasta da velînin affı mümkündür.",
+    "Doğru.",
+    "Had cezaları affedilmez.",
+    "Had cezaları affedilmez."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, IV"
+  },
+  {
+   "id": "fq21-06",
+   "z": 2,
+   "s": "Namuslu bir kadına zina iftirasında bulunup bunu dört şahitle ispat edemeyen kişiye uygulanan ceza ve ek yaptırım aşağıdakilerden hangisidir?",
+   "c": [
+    "Yüz değnek; sürgün",
+    "El kesme",
+    "Kırk değnek; para cezası",
+    "Recm",
+    "Seksen değnek; şahitliğinin bir daha kabul edilmemesi"
+   ],
+   "d": 4,
+   "a": "Kazf suçunun cezası seksen değnektir; ayrıca suçlunun şahitliği bir daha kabul edilmez (Nûr 4).",
+   "ac": [
+    "Yüz değnek zina cezasıdır.",
+    "El kesme hırsızlık cezasıdır.",
+    "Kırk değnek Şâfiîlere göre şarap cezasıdır.",
+    "Recm evli kişinin zina cezasıdır.",
+    "Doğru."
+   ],
+   "kay": "Nûr, 24/4"
+  },
+  {
+   "id": "fq21-07",
+   "z": 3,
+   "s": "Bir babanın, oğlunun evinden oğluna ait değerli bir eşyayı gizlice alması durumunda hırsızlık haddi uygulanmaz.\n\nBunun gerekçesi aşağıdakilerden hangisidir?",
+   "c": [
+    "Malın değerinin nisaba ulaşmaması",
+    "Malın korunmuş bir yerde olmaması",
+    "Baba ile oğul arasında mülkiyet konusunda hak şüphesi bulunması",
+    "Babanın akıl hastası olması",
+    "Babanın ergen olmaması"
+   ],
+   "d": 2,
+   "a": "“Sen ve malın babana aitsin” hadisi sebebiyle baba ile oğul arasında hak şüphesi vardır; şüphe haddi düşürür.",
+   "ac": [
+    "Değer meselesi değildir.",
+    "Ev korunmuş bir yerdir.",
+    "Doğru.",
+    "Böyle bir bilgi yoktur.",
+    "Böyle bir bilgi yoktur."
+   ],
+   "kay": "İbn Mâce, Ticârât, 64"
+  },
+  {
+   "id": "fq21-08",
+   "z": 3,
+   "s": "Bir kişi yolun kenarına izinsiz bir kuyu kazmış, gece yürüyen biri bu kuyuya düşerek ölmüştür. Başka bir kişi ise avlanırken hayvan sandığı bir insanı yanlışlıkla vurup öldürmüştür.\n\nHanefî mezhebine göre bu iki öldürme sırasıyla hangi türdendir ve keffâret yükümlülüğü bakımından aralarındaki fark nedir?",
+   "c": [
+    "Kasten – hata; ikisinde de keffâret gerekir",
+    "Sebebiyet – hata; sebebiyette keffâret gerekmez, hatada gerekir",
+    "Hata – sebebiyet; ikisinde de keffâret gerekmez",
+    "Şibh-i amd – kasten; ikisinde de kısas uygulanır",
+    "Sebebiyet – kasten; ikisinde de diyet yoktur"
+   ],
+   "d": 1,
+   "a": "Kuyu kazarak ölüme sebep olmak sebebiyet yoluyla öldürmedir; diyet gerekir ama Hanefîlere göre keffâret ve mirastan mahrumiyet yoktur. Avlanırken insanı vurmak hata ile öldürmedir; diyet ve keffâret gerekir.",
+   "ac": [
+    "Birinci olay kasten değildir.",
+    "Doğru.",
+    "Sıralama terstir ve hatada keffâret vardır.",
+    "İki olayda da kısas yoktur.",
+    "İkinci olay kasten değildir ve diyet vardır."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, V"
+  },
+  {
+   "id": "f10-10",
+   "z": 3,
+   "s": "Aşağıdakilerden hangisi had cezası gerektiren suçlardan biri değildir?",
+   "c": [
+    "Rüşvet almak",
+    "Zina iftirası (kazf)",
+    "İçki içmek",
+    "Hırsızlık",
+    "Yol kesmek (hirâbe)"
+   ],
+   "d": 0,
+   "a": "Rüşvetin cezası belirlenmemiştir; ta’zîr ile cezalandırılır.",
+   "ac": [
+    "Doğru: ta’zîr gerektirir.",
+    "Had gerektirir.",
+    "Had gerektirir.",
+    "Had gerektirir.",
+    "Had gerektirir."
+   ],
+   "kay": "Fıkıh: ukûbât"
+  },
+  {
+   "id": "f10-17",
+   "z": 2,
+   "s": "Namuslu bir kadına zina iftirasında bulunup bunu dört şahitle ispat edemeyen kişiye verilecek had cezası nedir?",
+   "c": [
+    "Kırk değnek",
+    "Yüz değnek",
+    "Hapis",
+    "Recm",
+    "Seksen değnek"
+   ],
+   "d": 4,
+   "a": "Ayrıca bu kişilerin şahitliği artık kabul edilmez (Nûr 24/4).",
+   "ac": [
+    "Yanlıştır.",
+    "Zina cezasıdır.",
+    "Had değil ta‘zîr türüdür.",
+    "Yanlıştır.",
+    "Kazf cezasıdır."
+   ],
+   "kay": "Nûr, 24/4"
+  },
+  {
+   "id": "f10-18",
+   "z": 2,
+   "s": "Had ve kısas dışında kalan, miktarı ve türü belirlenmemiş olup yetkili makamın takdirine bırakılan cezalara ne ad verilir?",
+   "c": [
+    "Keffâret",
+    "Kazf",
+    "Diyet",
+    "Ta‘zîr",
+    "Hırâbe"
+   ],
+   "d": 3,
+   "a": "Ta‘zîr suçun ve suçlunun durumuna göre ölçülendirilir.",
+   "ac": [
+    "Bazı günahlar için dinî yaptırımdır.",
+    "Zina iftirasıdır.",
+    "Can ve beden zararının mali bedelidir.",
+    "Takdirî cezalardır.",
+    "Yol kesmedir."
+   ],
+   "kay": "Fıkıh (ceza hukuku)"
+  },
+  {
+   "id": "fq21-09",
+   "z": 3,
+   "s": "Bir kişi zina suçunu mahkemede dört kez ikrar etmiş, ancak ceza uygulanmadan önce ikrarından dönmüştür. Başka bir kişi ise borcunu mahkemede ikrar etmiş, sonra ikrarından dönmek istemiştir.\n\nHanefî mezhebine göre bu iki ikrarın sonucu aşağıdakilerden hangisidir?",
+   "c": [
+    "İki ikrardan da dönülebilir ve iki kişi de sorumlu tutulmaz.",
+    "İki ikrardan da dönülemez.",
+    "Had suçundaki ikrardan dönmek cezayı düşürür; kul hakkıyla ilgili borç ikrarından ise dönülemez.",
+    "Borç ikrarından dönülebilir, zina ikrarından dönülemez.",
+    "Zina ikrarından dönmek yalnız cezayı yarıya indirir."
+   ],
+   "d": 2,
+   "a": "Had cezaları şüpheyle düşer; ikrardan dönmek şüphe doğurduğu için cezayı düşürür. Kul hakları ise ikrarla sabit olur ve dönmekle düşmez.",
+   "ac": [
+    "Borç ikrarından dönülemez.",
+    "Had ikrarından dönülebilir.",
+    "Doğru.",
+    "Durum terstir.",
+    "Ceza tamamen düşer."
+   ],
+   "kay": "Kâsânî, Bedâi‘, VII"
+  },
+  {
+   "id": "fq21-10",
+   "z": 2,
+   "s": "Şarap içmenin had cezası Hanefî ve Şâfiî mezheplerine göre sırasıyla kaç değnektir?",
+   "c": [
+    "80 – 40",
+    "40 – 80",
+    "100 – 80",
+    "80 – 80",
+    "40 – 40"
+   ],
+   "d": 0,
+   "a": "Hanefîlere göre Hz. Ömer döneminde sahabenin ittifakıyla seksen değnek; Şâfiîlere göre kırk değnektir (fazlası ta’zir olarak verilebilir).",
+   "ac": [
+    "Doğru.",
+    "Sıralama terstir.",
+    "Yüz değnek zina cezasıdır.",
+    "Şâfiîlerde kırktır.",
+    "Hanefîlerde seksendir."
+   ],
+   "kay": "İbn Rüşd, Bidâyetü’l-müctehid, II"
+  },
+  {
+   "id": "fq21-11",
+   "z": 3,
+   "s": "I. Suç işlediğinde akıl hastası olan kişi\nII. Suç işlediğinde ergenlik çağına ulaşmamış olan çocuk\nIII. Öldürme tehdidi altında zorlanarak bir başkasının malını telef eden kişi\n\nYukarıdaki kişilerle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Birinci ve ikinci kişiye ceza verilmez, ancak verdikleri maddi zarar mallarından tazmin edilir; üçüncü durumda ceza sorumluluğu kalkar, tazmin zorlayana ait olur.",
+    "Hiçbiri ceza ve tazmin sorumluluğu taşımaz.",
+    "Hepsi tam ceza alır.",
+    "Yalnız üçüncü kişi ceza alır.",
+    "Birinci ve ikinci kişi ceza alır, üçüncüsü almaz."
+   ],
+   "d": 0,
+   "a": "Ceza ehliyeti için akıl ve ergenlik şarttır; ancak mali zararlar tazmin edilir. Tam ikrahta fiil zorlayana nispet edilir.",
+   "ac": [
+    "Doğru.",
+    "Mali tazmin sorumluluğu vardır.",
+    "Akıl hastası ve çocuk ceza almaz.",
+    "Zorlanan kişi ceza almaz.",
+    "Akıl hastası ve çocuk ceza almaz."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, II"
+  }
+ ]
+}

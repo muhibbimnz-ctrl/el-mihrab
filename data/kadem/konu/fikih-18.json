@@ -1,0 +1,629 @@
+{
+ "id": "fikih-18",
+ "ad": "Miras Hukuku (Ferâiz) ve Vasiyet: Terekeden Önce Ödenenler, Mirasçılık Sebepleri ve Engelleri, Ashâbü’l-Ferâiz ve Asabe, Hacb, Avl ve Redd, Zevi’l-Erhâm; Vasiyetin Hükümleri",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Ferâiz ilmi ve terekeden önce ödenenler"
+  },
+  {
+   "merak": "Hz. Peygamber “Ferâizi öğrenin ve öğretin; çünkü o ilmin yarısıdır ve unutulacak ilk ilim odur” buyurmuştur. Kur’an’da paylarıyla birlikte en ayrıntılı anlatılan hukuk konusu mirastır (Nisâ 11, 12, 176)."
+  },
+  "Miras hukukuna ferâiz ilmi denir; çünkü mirasçıların payları (farz) Kur’an’da belirlenmiştir. Bir kişi vefat ettiğinde geride bıraktığı mallara tereke denir. Tereke mirasçılara paylaştırılmadan önce sırasıyla şu haklar ödenir: (1) ölünün teçhiz ve tekfin masrafları (yıkama, kefen, defin), (2) borçları, (3) vasiyeti (borçlardan sonra kalan malın üçte birini aşmamak üzere). Kalan mal mirasçılar arasında paylaştırılır.",
+  {
+   "tablo": [
+    [
+     "Sıra",
+     "Terekeden ödenen",
+     "Not"
+    ],
+    [
+     "1",
+     "Teçhiz ve tekfin",
+     "Ölçülü masraf"
+    ],
+    [
+     "2",
+     "Borçlar",
+     "Önce kul hakkı olan borçlar"
+    ],
+    [
+     "3",
+     "Vasiyet",
+     "Kalanın en çok üçte biri; mirasçıya vasiyet, diğer mirasçılar onaylamadıkça geçersiz"
+    ],
+    [
+     "4",
+     "Miras taksimi",
+     "Ashâbü’l-ferâiz, asabe, zevi’l-erhâm sırasıyla"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Mirasçılık sebebi",
+     "Mirasçılık engeli (mevâni)"
+    ],
+    [
+     "Nesep (kan hısımlığı)",
+     "Mirasbırakanı haksız yere öldürmek (Hanefî: doğrudan öldürme; kasten veya hata)"
+    ],
+    [
+     "Nikâh (sahih evlilik)",
+     "Din farkı (Müslüman ile gayrimüslim birbirine mirasçı olamaz)"
+    ],
+    [
+     "Velâ (azatlılık bağı)",
+     "Kölelik"
+    ],
+    [
+     "—",
+     "Ülke (dâr) farkı (gayrimüslimler arasında; Hanefî)"
+    ]
+   ]
+  },
+  {
+   "sinav": "Terekeden ödenme sırası (teçhiz → borç → vasiyet → miras), vasiyetin üçte bir sınırı, mirasçıya vasiyetin onaya bağlı olması ve öldürme-din farkı engelleri sık sorulur."
+  },
+  {
+   "akil": "Sıra: teçhiz-tekfin → borç → vasiyet (⅓, mirasçıya yok) → miras. Sebepler: nesep, nikâh, velâ. Engeller: öldürme, din farkı, kölelik, ülke farkı."
+  },
+  {
+   "b": "2. Ashâbü’l-ferâiz: Payları belli mirasçılar"
+  },
+  "Kur’an’da belirlenen paylar altı tanedir: 1/2, 1/4, 1/8, 2/3, 1/3 ve 1/6. Bu paylardan birini alan mirasçılara ashâbü’l-ferâiz denir. En sık sorulan ashâbü’l-ferâiz şunlardır: koca, karı, anne, baba, kız, oğlun kızı, kız kardeşler ve anne bir kardeşler. Erkek çocuk (oğul) ashâbü’l-ferâizden değil, asabedendir.",
+  {
+   "tablo": [
+    [
+     "Mirasçı",
+     "Pay",
+     "Şart"
+    ],
+    [
+     "Koca",
+     "1/2",
+     "Ölen karının çocuğu yoksa"
+    ],
+    [
+     "Koca",
+     "1/4",
+     "Çocuğu varsa"
+    ],
+    [
+     "Karı (eş)",
+     "1/4",
+     "Ölen kocanın çocuğu yoksa"
+    ],
+    [
+     "Karı (eş)",
+     "1/8",
+     "Çocuğu varsa (birden çok eş bu payı paylaşır)"
+    ],
+    [
+     "Anne",
+     "1/3",
+     "Ölenin çocuğu ve birden çok kardeşi yoksa"
+    ],
+    [
+     "Anne",
+     "1/6",
+     "Çocuğu ya da iki veya daha fazla kardeşi varsa"
+    ],
+    [
+     "Baba",
+     "1/6 (+ kalan)",
+     "Oğul varsa yalnız 1/6; yalnız kız varsa 1/6 + asabe olarak kalan; çocuk yoksa asabe"
+    ],
+    [
+     "Kız (tek)",
+     "1/2",
+     "Oğul yoksa"
+    ],
+    [
+     "Kızlar (iki ve fazla)",
+     "2/3",
+     "Oğul yoksa"
+    ],
+    [
+     "Kız (oğulla birlikte)",
+     "Asabe",
+     "Erkeğe iki kadın payı kadar (Nisâ 11)"
+    ],
+    [
+     "Anne bir kardeş",
+     "1/6 (tek), 1/3 (çok)",
+     "Ölenin çocuğu, babası ve dedesi yoksa; erkek-kadın eşit pay alır"
+    ]
+   ]
+  },
+  "Kur’an’da kızların erkek kardeşleriyle birlikte mirasçı olduklarında “erkeğe iki kadın payı” kadar verilmesi, İslam aile hukukunda erkeğe yüklenen mehir ve nafaka yükümlülükleriyle birlikte değerlendirilir. Kadın kendi mehrine ve mirasına sahip olup kimseye nafaka vermekle yükümlü değilken, erkek eşinin, çocuklarının ve gerektiğinde ana-babasının nafakasını üstlenir.",
+  {
+   "akil": "Paylar: ½, ¼, ⅛, ⅔, ⅓, ⅙. Koca ½/¼, karı ¼/⅛, anne ⅓/⅙, baba ⅙ (+asabe), kız ½ (tek), ⅔ (çok), oğulla asabe (2:1). Ana bir kardeş ⅙/⅓, eşit pay."
+  },
+  {
+   "b": "3. Asabe, hacb, avl ve redd"
+  },
+  {
+   "merak": "Bir kadın vefat eder; geride kocası, iki öz kız kardeşi ve annesi kalır. Paylar toplandığında 1/2 + 2/3 + 1/6, yani 8/6 eder; mal yetmez. Hz. Ömer bu meseleyi sahabeyle istişare ederek çözdü: payları oranlı olarak küçültmek."
+  },
+  "Asabe, payı belirlenmemiş olup ashâbü’l-ferâizden arta kalanı, ashâbü’l-ferâiz yoksa malın tamamını alan erkek tarafı yakınlardır. Asabenin sırası: oğul ve oğlun oğlu (füru’), baba ve dede (usûl), kardeşler ve onların oğulları, amcalar ve onların oğulları. Hacb, bir mirasçının başka bir mirasçı sebebiyle mirastan tamamen düşmesi (hacb-i hirmân) ya da payının azalmasıdır (hacb-i nuksân). Örneğin oğul, ölenin kardeşlerini tamamen düşürür; çocuğun varlığı kocanın payını 1/2’den 1/4’e indirir. Çocuk, anne-baba ve eşler hiçbir zaman tamamen düşmez.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Tanım",
+     "Örnek"
+    ],
+    [
+     "Asabe",
+     "Kalanı alan erkek tarafı yakın",
+     "Oğul, baba, kardeş, amca"
+    ],
+    [
+     "Hacb-i hirmân",
+     "Mirastan tamamen düşürme",
+     "Oğul kardeşleri; baba dedeyi düşürür"
+    ],
+    [
+     "Hacb-i nuksân",
+     "Payı azaltma",
+     "Çocuk kocanın payını ½’den ¼’e indirir"
+    ],
+    [
+     "Avl",
+     "Paylar toplamı terekeyi aşınca payların oranlı küçültülmesi",
+     "Hz. Ömer döneminde uygulandı"
+    ],
+    [
+     "Redd",
+     "Paylar dağıtılıp asabe yoksa artanın, eşler hariç ashâbü’l-ferâize oranlı dağıtılması",
+     "Yalnız anne ve kız varsa"
+    ],
+    [
+     "Zevi’l-erhâm",
+     "Ashâbü’l-ferâiz ve asabe dışındaki yakınlar",
+     "Kızın çocukları, hala, dayı, teyze; Hanefîlere göre mirasçıdır"
+    ]
+   ]
+  },
+  {
+   "sinav": "Hesap soruları sık gelir: Paylar bulunur, payda eşitlenir, asabe kalanı alır. Örnek: Kadın vefat etti; koca, bir kız ve baba kaldı → koca ¼, kız ½, baba ⅙ + kalan (1/12) = ¼. Hacb örnekleri ve avlin Hz. Ömer’le başlaması da sorulur."
+  },
+  {
+   "akil": "Asabe sırası: oğul → baba → kardeş → amca. Hirmân: tamamen düşürme; nuksân: azaltma. Çocuk, anne-baba ve eşler hiç düşmez. Avl: paylar fazla → oranlı küçültme (Ömer). Redd: artan → ashâbü’l-ferâize (eşler hariç). Zevi’l-erhâm Hanefîde mirasçı."
+  },
+  {
+   "b": "4. Vasiyet"
+  },
+  "Vasiyet, kişinin ölümünden sonra geçerli olmak üzere malının bir kısmını bağışlamasıdır. Vasiyet, borçlardan sonra kalan malın üçte birini aşamaz; aşan kısım mirasçıların onayına bağlıdır. Dayanağı Sa’d b. Ebû Vakkās’ın malının tamamını ya da yarısını vasiyet etmek istemesi üzerine Hz. Peygamber’in “Üçte bir; üçte bir de çoktur. Mirasçılarını zengin bırakman, onları insanlara el açar hâlde bırakmandan daha hayırlıdır” sözüdür. “Mirasçıya vasiyet yoktur” hadisi gereğince mirasçıya yapılan vasiyet, diğer mirasçılar onaylamadıkça geçersizdir. Vasiyetten hayattayken dönülebilir. Vasiyet edilen kişinin vasiyet edenden önce ölmesi ya da onu öldürmesi vasiyeti geçersiz kılar.",
+  {
+   "tablo": [
+    [
+     "Vasiyet kuralı",
+     "Açıklama"
+    ],
+    [
+     "Sınır",
+     "Borçlardan sonra kalanın üçte biri"
+    ],
+    [
+     "Üçte biri aşan kısım",
+     "Mirasçıların onayına bağlı"
+    ],
+    [
+     "Mirasçıya vasiyet",
+     "Diğer mirasçılar onaylamadıkça geçersiz"
+    ],
+    [
+     "Dönme",
+     "Vasiyet eden hayattayken dönebilir"
+    ],
+    [
+     "Hükmün başlaması",
+     "Vasiyet edenin ölümüyle"
+    ]
+   ]
+  },
+  {
+   "akil": "Vasiyet: ölümden sonra geçerli bağış; sınır ⅓ (Sa’d hadisi); mirasçıya vasiyet yok (onay hariç); hayatta dönülebilir."
+  }
+ ],
+ "ozet": [
+  "Miras hukukuna ferâiz denir; mirasçıların payları Nisâ 11, 12 ve 176. ayetlerde belirlenmiştir.",
+  "Terekeden sırasıyla teçhiz-tekfin masrafları, borçlar ve vasiyet ödenir; kalan mirasçılara paylaştırılır.",
+  "Mirasçılık sebepleri nesep, nikâh ve velâdır.",
+  "Mirasbırakanı haksız yere öldürmek ve din farkı mirasçılığa engeldir.",
+  "Kur’an’daki paylar 1/2, 1/4, 1/8, 2/3, 1/3 ve 1/6’dır.",
+  "Koca çocuk yoksa 1/2, varsa 1/4; karı çocuk yoksa 1/4, varsa 1/8 alır.",
+  "Anne çocuk veya birden çok kardeş yoksa 1/3, varsa 1/6 alır.",
+  "Tek kız 1/2, iki ve daha fazla kız 2/3 alır; oğul varsa kızlar asabe olur ve erkeğe iki kadın payı verilir.",
+  "Anne bir kardeşler tekse 1/6, birden çoksa 1/3 alır ve erkek-kadın eşit paylaşır.",
+  "Asabe, ashâbü’l-ferâizden arta kalanı alan erkek tarafı yakınlardır; oğul asabenin başıdır.",
+  "Hacb-i hirmân mirastan tamamen düşürme, hacb-i nuksân payı azaltmadır; çocuk, anne-baba ve eşler tamamen düşmez.",
+  "Avl, paylar toplamı malı aşınca payların oranlı küçültülmesidir; Hz. Ömer döneminde uygulanmıştır.",
+  "Hanefîlere göre zevi’l-erhâm mirasçıdır.",
+  "Vasiyet malın üçte birini aşamaz; mirasçıya vasiyet diğer mirasçılar onaylamadıkça geçersizdir."
+ ],
+ "kartlar": [
+  {
+   "o": "Terekeden ödenme sırası",
+   "a": "Teçhiz-tekfin → borç → vasiyet → miras."
+  },
+  {
+   "o": "Mirasçılık sebepleri",
+   "a": "Nesep, nikâh, velâ."
+  },
+  {
+   "o": "Mirasçılık engelleri",
+   "a": "Öldürme, din farkı, kölelik, ülke farkı."
+  },
+  {
+   "o": "Kocanın payı",
+   "a": "Çocuk yoksa ½, varsa ¼."
+  },
+  {
+   "o": "Karının payı",
+   "a": "Çocuk yoksa ¼, varsa ⅛."
+  },
+  {
+   "o": "Annenin payı",
+   "a": "⅓; çocuk veya 2+ kardeş varsa ⅙."
+  },
+  {
+   "o": "Kızların payı",
+   "a": "Tek ½, çok ⅔; oğulla asabe (2:1)."
+  },
+  {
+   "o": "Anne bir kardeş",
+   "a": "Tek ⅙, çok ⅓; eşit pay."
+  },
+  {
+   "o": "Asabe",
+   "a": "Kalanı alan erkek tarafı yakınlar; oğul başta."
+  },
+  {
+   "o": "Hacb-i hirmân",
+   "a": "Tamamen düşürme; oğul kardeşleri düşürür."
+  },
+  {
+   "o": "Avl",
+   "a": "Paylar fazla gelince oranlı küçültme; Hz. Ömer."
+  },
+  {
+   "o": "Redd",
+   "a": "Artanın eşler hariç ashâbü’l-ferâize dağıtılması."
+  },
+  {
+   "o": "Zevi’l-erhâm",
+   "a": "Kızın çocukları, hala, dayı, teyze; Hanefîde mirasçı."
+  },
+  {
+   "o": "Vasiyet sınırı",
+   "a": "⅓; mirasçıya vasiyet onaya bağlı."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "fq18-01",
+   "z": 3,
+   "s": "Bir erkek vefat etmiştir. Geride bir eşi, annesi, babası ve bir oğlu kalmıştır. Terekesinden borçlar ve masraflar düşüldükten sonra 240.000 TL kalmıştır.\n\nBu durumda oğlun payı ne kadardır?",
+   "c": [
+    "70.000 TL",
+    "100.000 TL",
+    "110.000 TL",
+    "120.000 TL",
+    "130.000 TL"
+   ],
+   "d": 4,
+   "a": "Çocuk olduğu için eş 1/8 (30.000 TL), anne 1/6 (40.000 TL), baba 1/6 (40.000 TL) alır; toplam 110.000 TL eder. Oğul asabe olarak kalanı, yani 240.000 − 110.000 = 130.000 TL alır.",
+   "ac": [
+    "Bu tutar eşin ve annenin paylarının toplamıdır.",
+    "Bu tutar hiçbir payla örtüşmez.",
+    "Bu tutar ashâbü’l-ferâizin toplam payıdır, oğlun payı değildir.",
+    "Bu tutar terekenin yarısıdır; oğul yarısını değil kalanı alır.",
+    "Doğru."
+   ],
+   "kay": "Nisâ, 4/11-12"
+  },
+  {
+   "id": "fq18-02",
+   "z": 3,
+   "s": "I. Ölünün teçhiz ve tekfin masrafları\nII. Mirasçılara paylaştırma\nIII. Vasiyetin yerine getirilmesi\nIV. Borçların ödenmesi\n\nTerekeyle ilgili yukarıdaki işlemlerin yapılış sırası aşağıdakilerden hangisidir?",
+   "c": [
+    "I – IV – III – II",
+    "IV – I – III – II",
+    "I – III – IV – II",
+    "III – I – IV – II",
+    "I – IV – II – III"
+   ],
+   "d": 0,
+   "a": "Önce teçhiz ve tekfin, sonra borçlar, sonra vasiyet ödenir; kalan mirasçılara paylaştırılır.",
+   "ac": [
+    "Doğru.",
+    "Teçhiz ve tekfin borçlardan önce gelir.",
+    "Borçlar vasiyetten önce gelir.",
+    "Vasiyet borçlardan sonra gelir.",
+    "Vasiyet paylaştırmadan önce gelir."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, V"
+  },
+  {
+   "id": "fq18-03",
+   "z": 3,
+   "s": "Bir kadın vefat etmiştir. Geride kocası, iki öz kız kardeşi ve annesi kalmıştır. Paylar toplandığında terekeden fazla çıkmakta ve payların oranlı olarak küçültülmesi gerekmektedir.\n\nBu yöntemin adı ve ilk uygulandığı dönem aşağıdakilerden hangisidir?",
+   "c": [
+    "Redd – Hz. Peygamber dönemi",
+    "Tasîb – Hz. Ali dönemi",
+    "Hacb – Hz. Ebû Bekir dönemi",
+    "Avl – Hz. Ömer dönemi",
+    "Tahâruc – Emevîler dönemi"
+   ],
+   "d": 3,
+   "a": "Paylar toplamı terekeyi aşınca payları oranlı küçültmeye avl denir; Hz. Ömer döneminde sahabenin istişaresiyle uygulanmıştır.",
+   "ac": [
+    "Redd, artan payın dağıtılmasıdır.",
+    "Tasîb, asabe olmaktır.",
+    "Hacb, mirasçının düşmesi veya payının azalmasıdır.",
+    "Doğru.",
+    "Tahâruc, mirasçının bir bedel karşılığı mirastan çekilmesidir."
+   ],
+   "kay": "Serahsî, el-Mebsût, XXIX"
+  },
+  {
+   "id": "fq18-04",
+   "z": 2,
+   "s": "Bir kişi malının yarısını bir hayır kurumuna vasiyet etmiş ve vefat etmiştir. Mirasçıları bu vasiyetin tamamını onaylamamıştır.\n\nBu vasiyetle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Vasiyet tamamen geçersizdir.",
+    "Vasiyet yarısı için de geçerlidir; mirasçıların onayı gerekmez.",
+    "Vasiyet ancak hâkim kararıyla geçerli olur.",
+    "Vasiyet yalnız mirasçılara yapılabilir.",
+    "Vasiyet, borçlardan sonra kalan malın üçte biri kadar geçerlidir; fazlası mirasçıların onayına bağlıdır."
+   ],
+   "d": 4,
+   "a": "Vasiyet üçte birle sınırlıdır; fazlası mirasçılar onaylarsa geçerli olur (Sa’d b. Ebû Vakkās hadisi).",
+   "ac": [
+    "Üçte birlik kısım geçerlidir.",
+    "Üçte birden fazlası onaya bağlıdır.",
+    "Vasiyet için hâkim kararı şart değildir.",
+    "Mirasçıya vasiyet onaysız geçersizdir.",
+    "Doğru."
+   ],
+   "kay": "Buhârî, Vesâyâ, 2"
+  },
+  {
+   "id": "fq18-05",
+   "z": 3,
+   "s": "I. Çocuğun bulunması kocanın payını 1/2’den 1/4’e indirir.\nII. Oğul, ölenin kardeşlerini mirastan tamamen düşürür.\nIII. Ölenin anne ve babası hiçbir mirasçı sebebiyle mirastan tamamen düşmez.\nIV. Eş, ölenin oğlu varsa mirastan tamamen düşer.\n\nHacb ile ilgili yukarıdaki bilgilerden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Eşler, çocuklar ve anne-baba hiçbir zaman mirastan tamamen düşmez; çocuğun varlığı yalnız eşin payını azaltır.",
+   "ac": [
+    "Üçüncü bilgi de doğrudur.",
+    "Doğru.",
+    "Dördüncü bilgi yanlıştır; birinci bilgi doğrudur.",
+    "Dördüncü bilgi yanlıştır.",
+    "Dördüncü bilgi yanlıştır."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, V"
+  },
+  {
+   "id": "fq18-06",
+   "z": 2,
+   "s": "Hanefî mezhebine göre ashâbü’l-ferâiz ve asabe bulunmadığında mirası alan, kızın çocukları, hala, dayı ve teyze gibi yakınlara ne ad verilir?",
+   "c": [
+    "Zevi’l-erhâm",
+    "Asabe-i sebebiyye",
+    "Mevlâ’l-muvâlât",
+    "Ashâbü’l-ferâiz",
+    "Mahrûm"
+   ],
+   "d": 0,
+   "a": "Zevi’l-erhâm, ashâbü’l-ferâiz ve asabe dışındaki yakınlardır; Hanefîlere göre mirasçıdır.",
+   "ac": [
+    "Doğru.",
+    "Asabe-i sebebiyye azat eden efendidir.",
+    "Mevlâ’l-muvâlât sözleşmeyle oluşan mirasçılıktır.",
+    "Payları belli mirasçılardır.",
+    "Mirastan yoksun kalan kişidir."
+   ],
+   "kay": "Serahsî, el-Mebsût, XXX"
+  },
+  {
+   "id": "fq18-07",
+   "z": 3,
+   "s": "Bir kadın vefat etmiş; geride bir kızı, annesi ve kocası kalmıştır. Başka mirasçısı yoktur.\n\nBu mirasçıların payları ve terekede artan kısmın durumu aşağıdakilerden hangisinde doğru verilmiştir?",
+   "c": [
+    "Kız 1/2, anne 1/6, koca 1/4; artan 1/12 kocaya verilir.",
+    "Kız asabe olarak her şeyi alır.",
+    "Kız 2/3, anne 1/3, koca 1/2; avl yapılır.",
+    "Kız 1/2, anne 1/6, koca 1/4; artan 1/12, redd yoluyla eşler hariç kız ve anneye payları oranında verilir.",
+    "Kız 1/2, anne 1/3, koca 1/4; artan yoktur."
+   ],
+   "d": 3,
+   "a": "Kız 1/2, anne (çocuk olduğu için) 1/6, koca (çocuk olduğu için) 1/4 alır. Toplam 11/12’dir; asabe olmadığından artan 1/12 redd yoluyla eşler hariç kız ve anneye oranlı dağıtılır.",
+   "ac": [
+    "Redd eşlere yapılmaz.",
+    "Kız oğulla birlikte olmadıkça asabe olmaz.",
+    "Tek kız 1/2, çocuk varken anne 1/6, koca 1/4 alır.",
+    "Doğru.",
+    "Çocuk olduğu için anne 1/6 alır; 1/12 artar."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, V"
+  },
+  {
+   "id": "f9-07",
+   "z": 2,
+   "s": "Bir kadın vefat etmiş; geride kocası, bir kızı ve babası kalmıştır.\n\nKocanın mirastaki payı hangisidir?",
+   "c": [
+    "1/2",
+    "1/3",
+    "1/4",
+    "1/6",
+    "1/8"
+   ],
+   "d": 2,
+   "a": "Ölen kadının çocuğu olduğu için kocanın payı dörtte birdir.",
+   "ac": [
+    "Çocuk yoksa 1/2 alırdı.",
+    "Kocanın payı 1/3 olmaz.",
+    "Doğru.",
+    "Annenin veya babanın payı olabilir.",
+    "Karının çocuk varken aldığı paydır."
+   ],
+   "kay": "Nisâ, 4/12"
+  },
+  {
+   "id": "f9-08",
+   "z": 2,
+   "s": "İslam miras hukukunda bazı yakınlar, belirli paylarını aldıktan sonra mirastan kalan olursa onu da asabe olarak alır.\n\nAşağıdakilerden hangisi bu şekilde hem pay sahibi hem asabe olabilir?",
+   "c": [
+    "Koca",
+    "Amca",
+    "Baba",
+    "Oğul",
+    "Baba bir erkek kardeş"
+   ],
+   "d": 2,
+   "a": "Ölenin yalnız kız çocuğu varsa baba 1/6 payını alır, kalan olursa asabe olarak onu da alır.",
+   "ac": [
+    "Koca yalnız pay sahibidir.",
+    "Amca yalnız asabedir.",
+    "Doğru.",
+    "Oğul yalnız asabedir.",
+    "Kardeş bu durumda asabedir, pay sahibi değildir."
+   ],
+   "kay": "Nisâ, 4/11; es-Sirâciyye"
+  },
+  {
+   "id": "f9-09",
+   "z": 3,
+   "s": "Hanefî mezhebine mensup Ali Bey vefat ettiğinde kasasında 60 altını vardır. Ayrıca\n• 10 altın borcu,\n• bir hayır kurumuna 6 altın vasiyeti,\n• ödenmemiş 4 altın zekâtının verilmesine dair vasiyeti,\n• vefatıyla birlikte borçlusunun ödediği 20 altın alacağı\nbulunmaktadır. Cenaze masrafları bir yakını tarafından karşılanmıştır.\n\nBuna göre Ali Bey’in mirasçılarına kalan altın miktarı kaçtır?",
+   "c": [
+    "56",
+    "60",
+    "62",
+    "66",
+    "70"
+   ],
+   "d": 1,
+   "a": "Tereke 60 + 20 = 80 altındır. Borç düşülünce 70 kalır. Vasiyetler (6 + 4 = 10) kalanın üçte birini aşmadığı için tamamen yerine getirilir; mirasçılara 60 altın kalır.",
+   "ac": [
+    "Vasiyetler iki kez düşülmüş gibi hesaplanmıştır.",
+    "Doğru.",
+    "Zekât vasiyeti düşülmemiştir.",
+    "Hayır vasiyeti düşülmemiştir.",
+    "Vasiyetler hiç düşülmemiştir."
+   ],
+   "kay": "Nisâ, 4/11-12 (“vasiyetten ve borçtan sonra”)"
+  },
+  {
+   "id": "f9-10",
+   "z": 3,
+   "s": "Bir erkek vefat etmiş; geride annesi, eşi, bir oğlu ve bir kızı kalmıştır.\n\nBu mirasçıların payları ile ilgili hangisi doğrudur?",
+   "c": [
+    "Anne 1/3, eş 1/4 alır; kalanı oğul ve kız eşit paylaşır.",
+    "Anne ve eş pay alamaz; mirasın tamamı çocuklarındır.",
+    "Kız 1/2 alır; kalanı oğul alır.",
+    "Anne 1/6, eş 1/4 alır; kalanı yalnız oğul alır.",
+    "Anne 1/6, eş 1/8 alır; kalanı oğul ve kız, oğula kızın iki katı olacak şekilde paylaşır."
+   ],
+   "d": 4,
+   "a": "Ölenin çocuğu olduğu için anne 1/6, eş 1/8 alır. Oğul ve kız birlikte asabe olur; erkeğe kızın iki katı verilir.",
+   "ac": [
+    "Çocuk varken anne 1/6, eş 1/8 alır; çocuklar eşit paylaşmaz.",
+    "Anne ve eş pay sahibidir.",
+    "Oğulla birlikte kız asabe olur, 1/2 almaz.",
+    "Eşin payı 1/8’dir; kız da mirasçıdır.",
+    "Doğru."
+   ],
+   "kay": "Nisâ, 4/11-12"
+  },
+  {
+   "id": "f9-11",
+   "z": 3,
+   "s": "Aşağıdaki durumların hangisinde kişi mirasbırakanından mirasçı olamaz?",
+   "c": [
+    "Mirasbırakanın vasiyetinde adının geçmemesi",
+    "Mirasbırakanı haksız olarak kasten öldürmek",
+    "Mirasbırakanla aynı şehirde oturmamak",
+    "Mirasbırakandan önce evlenmiş olmak",
+    "Mirasbırakanın borçlu ölmesi"
+   ],
+   "d": 1,
+   "a": "Katillik mirasa engeldir: “Katil mirasçı olamaz.”",
+   "ac": [
+    "Mirasçılık vasiyete bağlı değildir.",
+    "Doğru.",
+    "Mirası engellemez.",
+    "İlgisizdir.",
+    "Borç önce ödenir; mirasçılığı engellemez."
+   ],
+   "kay": "Tirmizî, Ferâiz, 17"
+  },
+  {
+   "id": "f9-17",
+   "z": 2,
+   "s": "Çocuğu bulunmayan bir kadın vefat ettiğinde, eşinin (kocasının) miras payı nedir?",
+   "c": [
+    "Yarım",
+    "Dörtte bir",
+    "Sekizde bir",
+    "Üçte bir",
+    "Altıda bir"
+   ],
+   "d": 0,
+   "a": "Koca: çocuk yoksa 1/2, varsa 1/4. Karı: çocuk yoksa 1/4, varsa 1/8.",
+   "ac": [
+    "Çocuk yoksa koca yarım alır.",
+    "Çocuk varsa kocanın payıdır.",
+    "Çocuk varsa kadının payıdır.",
+    "Annenin payıdır.",
+    "Yanlıştır."
+   ],
+   "kay": "Nisâ, 4/11-12"
+  },
+  {
+   "id": "f9-18",
+   "z": 2,
+   "s": "Vasiyetle ilgili hangisi yanlıştır?",
+   "c": [
+    "Mirasın üçte birini aşan kısım mirasçıların onayına bağlıdır.",
+    "Mirasçıya yapılan vasiyet, diğer mirasçılar onaylamadıkça geçersizdir.",
+    "Vasiyet, terekenin tamamı üzerinde, mirasçıların onayı olmadan geçerlidir.",
+    "Vasiyet edilen kişinin vasiyetçiyi kasten öldürmesi vasiyete engeldir.",
+    "Vasiyet, borçlar ödendikten sonra yerine getirilir."
+   ],
+   "d": 2,
+   "a": "“Üçte bir de çoktur” (Buhârî, Vesâyâ, 2).",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Üçte bir sınırı vardır.",
+    "Doğrudur.",
+    "Doğrudur."
+   ],
+   "kay": "Hanefî fıkhı"
+  }
+ ]
+}

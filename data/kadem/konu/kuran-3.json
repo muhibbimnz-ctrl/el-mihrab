@@ -1,0 +1,879 @@
+{
+ "id": "kuran-3",
+ "ad": "Kur’an’ın Yazılması: Vahiy Kâtipleri ve Hz. Peygamber Dönemi",
+ "ders": "Kur’an Bilgisi",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Okuma yazma bilmeyen bir peygamber ve yazıya dökülen bir kitap"
+  },
+  {
+   "merak": "Hz. Peygamber okuma yazma bilmiyordu; Mekke’de okuryazar sayısı bir elin parmaklarını biraz aşıyordu. Buna rağmen Kur’an, indiği gün yazıya geçirildi. Bu nasıl oldu?"
+  },
+  "Kur’an’ın indiği toplumda bilgi büyük ölçüde ezberle taşınırdı. Şiirler, soy kütükleri, savaş hikâyeleri hafızadan hafızaya aktarılırdı. Arap yazısı ise Nebatî yazısından gelişmiş, Hîre ve Enbâr üzerinden Hicaz’a ulaşmıştı; ama yaygın değildi. Belâzürî’nin aktardığına göre İslam geldiğinde Kureyş’te okuma yazma bilenlerin sayısı on yedi civarındaydı.",
+  {
+   "kontrol": "Kureyş’teki okuryazar sayısı (on yedi) Belâzürî’nin Fütûhu’l-büldân’ındaki bir rivayete dayanır; kesin bir istatistik değildir."
+  },
+  "Hz. Peygamber ümmîydi; yani okuma yazma bilmiyordu. Kur’an bunu bir eksiklik olarak değil, vahyin kaynağına dair güçlü bir delil olarak sunar: Kitap okumamış, yazı yazmamış birinin bu kitabı kendiliğinden ortaya koyması mümkün değildir.",
+  {
+   "ayet": "Sen bundan (Kur’an’dan) önce bir kitap okumuyordun, elinle de onu yazmıyordun. Öyle olsaydı, batıla uyanlar kuşkuya düşerlerdi.",
+   "kay": "Ankebût, 29/48"
+  },
+  {
+   "ayet": "Onlar, yanlarındaki Tevrat ve İncil’de yazılı buldukları o elçiye, o ümmî peygambere uyarlar…",
+   "kay": "A’râf, 7/157"
+  },
+  "Buna rağmen Hz. Peygamber yazıya büyük önem verdi. Kur’an’ın ilk inen ayetleri “kalemle öğreten” Rabbi anar (Alak, 96/4); bir sure kaleme yeminle başlar (Kalem, 68/1); en uzun ayet borçların yazılmasını emreder (Bakara, 2/282). Bedir Savaşı’ndan sonra fidye veremeyen okuryazar esirlerin, Medine’den on çocuğa okuma yazma öğreterek serbest kalabileceği kararlaştırıldı. Mescid-i Nebevî’deki Suffa’da da okuma yazma öğretiliyordu.",
+  {
+   "sinav": "“Hz. Peygamber’in Bedir esirlerinden okuryazar olanlara Müslüman çocuklara okuma yazma öğretmeleri karşılığında özgürlük tanıması” hangi tutumun göstergesidir? Cevap: yazı ve eğitime verdiği önem. Tuzak: “esirlere karşı merhameti” (doğru ama sorulan değil) ya da “Kur’an’ın tek mushafta toplanması” (ilgisiz)."
+  },
+  {
+   "akil": "Ümmî peygamber (A’râf 157, Ankebût 48) → vahyin kaynağının delili. Kalem vurgusu: Alak 4, Kalem 1, Bakara 282. Bedir esirleri ve Suffa → eğitime önem."
+  },
+  {
+   "b": "2. Vahiy kâtipleri"
+  },
+  {
+   "merak": "Bir ayet indiğinde ilk iş ne yapılırdı? Hz. Peygamber hemen birini çağırır ve “Yaz!” derdi."
+  },
+  "Vahiy geldiğinde Hz. Peygamber yanında bulunan ya da çağırttığı bir kâtibe ayetleri yazdırırdı. Bu işi yapan sahabilere vahiy kâtipleri denir. Kaynaklarda adı geçen kâtiplerin sayısı kırkı aşar; bazı çalışmalarda altmışı bulur. Bunların bir kısmı yalnız Kur’an’ı, bir kısmı Hz. Peygamber’in mektuplarını, antlaşmalarını ya da zekât kayıtlarını yazmıştır.",
+  {
+   "tablo": [
+    [
+     "Kâtip",
+     "Bilinmesi gereken"
+    ],
+    [
+     "Zeyd b. Sâbit",
+     "En çok vahiy yazan kâtip; Medine’de bu işi sürekli yaptı. Son arzaya katıldığı rivayet edilir. Hz. Ebû Bekir döneminde cem‘ heyetinin, Hz. Osman döneminde istinsah heyetinin başkanıdır"
+    ],
+    [
+     "Ubey b. Ka’b",
+     "Medine’de ilk vahiy kâtibi; en iyi Kur’an okuyanlardan (“Ümmetimin en iyi okuyucusu Ubey’dir” – Tirmizî, Menâkıb)"
+    ],
+    [
+     "Abdullah b. Sa’d b. Ebî Serh",
+     "Mekke’de ilk vahiy kâtibi (yaygın görüş). Bir süre irtidat etti, Mekke’nin fethinde yeniden Müslüman oldu; Hz. Osman döneminde Mısır valisi"
+    ],
+    [
+     "Dört halife (Ebû Bekir, Ömer, Osman, Ali)",
+     "Vahiy kâtipleri arasında anılır; Hz. Ali Hudeybiye Antlaşması’nı da yazmıştır"
+    ],
+    [
+     "Muâviye b. Ebî Süfyân",
+     "Mekke’nin fethinden sonra kâtiplik yaptı"
+    ],
+    [
+     "Abdullah b. Erkam",
+     "Daha çok Hz. Peygamber’in mektuplarını ve resmî yazışmalarını yazdı"
+    ],
+    [
+     "Hanzala b. Rebî‘",
+     "Sık kâtiplik yaptığı için “el-Kâtib” diye anılır"
+    ],
+    [
+     "Diğerleri",
+     "Hâlid b. Saîd b. Âs, Ebân b. Saîd, Şurahbîl b. Hasene, Âmir b. Füheyre, Sâbit b. Kays, Muğîre b. Şu‘be, Zübeyr b. Avvâm, Muâz b. Cebel, Abdullah b. Revâha, Huzeyfe b. Yemân…"
+    ]
+   ]
+  },
+  {
+   "sinav": "Sık sorulan üçlü: Mekke’de ilk kâtip → Abdullah b. Sa’d b. Ebî Serh; Medine’de ilk kâtip → Ubey b. Ka’b; en çok yazan → Zeyd b. Sâbit. Tuzak: “Medine’de ilk kâtip Zeyd b. Sâbit’tir.” Yanlış; Zeyd sonradan bu görevi sürekli üstlenmiştir."
+  },
+  {
+   "akil": "Mekke ilk: İbn Ebî Serh. Medine ilk: Ubey. En çok: Zeyd. Mektuplar: Abdullah b. Erkam. Lakabı “Kâtip”: Hanzala."
+  },
+  {
+   "b": "3. Neye yazdılar? Yazı malzemeleri"
+  },
+  {
+   "merak": "Kâğıt yok, defter yok, mürekkep bile az. Ama ayetler yazılmalı. Bir deve kemiği, bir hurma dalı, düz bir taş… Sahabe eline geçen her şeyi bir sayfaya dönüştürdü."
+  },
+  "Kâğıt henüz yaygın değildi. Sahabe, yazı yazılabilecek ne bulduysa onu kullandı. Zeyd b. Sâbit, Hz. Ebû Bekir döneminde Kur’an’ı toplarken ayetleri “hurma dallarından, ince taşlardan ve insanların göğüslerinden (hafızalarından)” bir araya getirdiğini anlatır.",
+  {
+   "hadis": "Kur’an’ı hurma dallarından, ince beyaz taşlardan ve insanların hafızalarından araştırıp topladım.",
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3 (Zeyd b. Sâbit’in sözü)"
+  },
+  {
+   "tablo": [
+    [
+     "Arapça terim",
+     "Ne demek?"
+    ],
+    [
+     "Rikâ‘ (tekili ruk‘a)",
+     "Deri, kâğıt ya da yaprak parçaları"
+    ],
+    [
+     "Lihâf (tekili lahfe)",
+     "İnce, yassı, beyaz taşlar"
+    ],
+    [
+     "Usub (tekili asîb)",
+     "Yaprakları ayıklanmış hurma dallarının geniş kısmı"
+    ],
+    [
+     "Ektâf (tekili ketif)",
+     "Deve ya da koyunun kürek kemikleri"
+    ],
+    [
+     "Edlâ‘ (tekili dıl‘)",
+     "Kaburga kemikleri"
+    ],
+    [
+     "Akatâb (tekili katab)",
+     "Deve semerinin tahta parçaları"
+    ],
+    [
+     "Kırtâs",
+     "Kâğıt, parşömen"
+    ],
+    [
+     "Edîm / ricâ‘",
+     "Tabaklanmış deri, ince deri"
+    ]
+   ]
+  },
+  {
+   "ayet": "Tûr’a andolsun! Satır satır yazılmış kitaba, açılmış ince deri üzerinde…",
+   "kay": "Tûr, 52/1-3"
+  },
+  {
+   "sinav": "Eşleştirme sorusunda en çok “lihâf – ince beyaz taşlar”, “usub – hurma dalı”, “ektâf – kürek kemiği”, “rikâ‘ – deri/kâğıt parçası” sorulur. Tuzak: lihâf ile edlâ‘ (kaburga) ya da akatâb (semer tahtası) yer değiştirilir."
+  },
+  {
+   "akil": "Rikâ‘ = parça (deri/kâğıt); lihâf = beyaz taş; usub = hurma dalı; ektâf = kürek kemiği; edlâ‘ = kaburga; akatâb = semer tahtası."
+  },
+  {
+   "b": "4. Ayetlerin yeri nasıl belirlendi?"
+  },
+  {
+   "merak": "Kur’an yirmi üç yılda, olaylara göre parça parça indi; ama mushafta iniş sırasıyla durmuyor. Bir ayetin hangi sureye, hangi ayetin yanına konacağına kim karar verdi?"
+  },
+  "Kur’an kronolojik sırayla değil, Hz. Peygamber’in bildirdiği yerlere göre yazıldı. Hz. Osman’ın anlattığına göre Hz. Peygamber’e birkaç ayet birden indiğinde kâtiplerden birini çağırır ve “Bu ayetleri, içinde şu ve şu konu geçen sureye koyun.” derdi. Bu, ayetlerin sure içindeki sırasının Hz. Peygamber tarafından, vahye dayanarak belirlendiğini, yani tevkîfî olduğunu gösterir.",
+  {
+   "hadis": "Hz. Peygamber’e bir şey indiğinde yazanlardan birini çağırır ve “Bu ayetleri şunun şunun anlatıldığı sureye koyun.” derdi.",
+   "kay": "Ebû Dâvûd, Salât, 122-125; Tirmizî, Tefsîr (Tevbe) (Hz. Osman’ın sözü)"
+  },
+  "Sahabe yazılan bu parçaları hem Hz. Peygamber’in evinde hem de kendi evlerinde saklıyordu. Bazı sahabiler kendileri için ayetleri bir araya getirdikleri özel nüshalar (sahîfe) edindi. Hz. Ömer’in Müslüman olmasına vesile olan olayda kız kardeşi Fâtıma’nın evinde Tâhâ Suresi’nin yazılı olduğu bir sahîfe vardı; bu, Mekke döneminde de ayetlerin yazılıp okunduğunu gösterir.",
+  {
+   "akil": "Ayetlerin sure içindeki sırası tevkîfîdir: Hz. Peygamber “şu sureye koyun” derdi. Mekke’de de yazı vardı (Hz. Ömer – Tâhâ sahifesi)."
+  },
+  {
+   "b": "5. Ezber: Göğüslerdeki mushaf"
+  },
+  {
+   "merak": "Bir sahabinin hafızası ile bir deri parçası arasında hangisi daha güvenliydi? Sahabe ikisini birlikte kullandı."
+  },
+  "Kur’an’ın korunmasında yazı kadar ezber de belirleyiciydi. Hz. Peygamber gelen her ayeti önce kendisi ezberler, sonra sahabeye okurdu. Sahabe ayetleri namazlarında okuyor, birbirine öğretiyordu. Hafız sahabilere kurrâ (okuyucular) denirdi. Hicretin dördüncü yılında Bi’r-i Maûne’de yetmiş kurrâ şehit edildi. Bu, o dönemde Kur’an’ı ezbere bilen sahabilerin sayısının hiç de az olmadığını gösterir.",
+  {
+   "hadis": "Kur’an’ı dört kişiden alın: Abdullah b. Mes’ûd, Ebû Huzeyfe’nin azatlısı Sâlim, Muâz b. Cebel ve Ubey b. Ka’b.",
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 8"
+  },
+  "Enes b. Mâlik’in bir rivayetinde Hz. Peygamber hayattayken Kur’an’ı (ezber ya da yazı olarak) bir araya getiren dört kişiden söz edilir: Ubey b. Ka’b, Muâz b. Cebel, Zeyd b. Sâbit ve Ebû Zeyd. Âlimler bu rivayetin bir sınırlama değil, Ensar’dan Hazrec kabilesine mensup dört kişiyi öne çıkarma olduğunu söyler; çünkü Kur’an’ı ezberleyen sahabe çok daha fazladır.",
+  {
+   "tablo": [
+    [
+     "Rivayet",
+     "İsimler",
+     "Not"
+    ],
+    [
+     "“Kur’an’ı dört kişiden alın”",
+     "İbn Mes’ûd, Sâlim, Muâz, Ubey",
+     "Hz. Peygamber’in tavsiyesi; Zeyd bu listede yoktur"
+    ],
+    [
+     "Enes’in rivayeti: Kur’an’ı toplayan dört Ensarî",
+     "Ubey, Muâz, Zeyd b. Sâbit, Ebû Zeyd",
+     "Sınırlama değil, Hazrec’ten örnek"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Kur’an’ı dört kişiden alın” hadisinde geçmeyen isim sorulur. Cevap genellikle Zeyd b. Sâbit ya da Hz. Ebû Bekir olur. Enes’in rivayetindeki dört kişiyle karıştırma."
+  },
+  {
+   "akil": "Ezber + yazı birlikte. “Kur’an’ı dört kişiden alın”: İbn Mes’ûd, Sâlim, Muâz, Ubey (Zeyd yok). Enes’in dört kişisi: Ubey, Muâz, Zeyd, Ebû Zeyd."
+  },
+  {
+   "b": "6. Arza: Her Ramazan yapılan kontrol"
+  },
+  {
+   "merak": "Her Ramazan, gökten gelen bir “denetçi” Kur’an’ı baştan sona dinliyordu. Hz. Peygamber’in son Ramazan’ında ise bu dinleme iki kez yapıldı. Hz. Fâtıma’ya söylenen bu haber, bir vedanın habercisiydi."
+  },
+  "Cebrâil her yıl Ramazan ayında Hz. Peygamber’le Kur’an’ı karşılıklı okurdu. Bu karşılıklı okuma ve kontrol işine arza (ya da muâraza) denir. Vefat ettiği yıl bu arza iki kez yapıldı; buna arza-i ahîre (son arza) adı verilir. Hz. Peygamber bunu, ecelinin yaklaştığına bir işaret olarak Hz. Fâtıma’ya haber vermişti.",
+  {
+   "hadis": "Cebrâil her yıl Kur’an’ı benimle bir kez karşılıklı okurdu; bu yıl iki kez okudu. Bunu ancak ecelimin yaklaşmasına yoruyorum.",
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 7; Menâkıb, 25"
+  },
+  "Zeyd b. Sâbit’in son arzada hazır bulunduğu rivayet edilir; onun hem Hz. Ebû Bekir hem Hz. Osman döneminde başa getirilmesinin sebeplerinden biri budur. Ramazan’da camilerde yapılan mukabele geleneği de arzanın bir hatırası olarak yaşar.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Anlamı"
+    ],
+    [
+     "Arza (muâraza)",
+     "Cebrâil ile Hz. Peygamber’in her Ramazan Kur’an’ı karşılıklı okuması"
+    ],
+    [
+     "Arza-i ahîre",
+     "Vefat yılında yapılan iki kezlik son arza"
+    ],
+    [
+     "Mukabele",
+     "Birinin okuduğunu diğerlerinin mushaftan takip etmesi; arzanın hatırası olarak yaşayan gelenek"
+    ],
+    [
+     "Hatim",
+     "Kur’an’ı baştan sona okumak"
+    ]
+   ]
+  },
+  {
+   "akil": "Arza = her Ramazan karşılıklı okuma. Son yıl iki kez: arza-i ahîre. Zeyd b. Sâbit son arzada bulundu → cem‘ ve istinsah heyetlerinin başına geçti."
+  },
+  {
+   "b": "7. Hz. Peygamber döneminde neden tek bir mushaf yoktu?"
+  },
+  {
+   "merak": "Her şey yazılmış, her ayet ezberlenmiş… O hâlde Hz. Peygamber neden bütün sayfaları bir cilt hâline getirtmedi? Cevap, vahyin hâlâ inmekte olmasında gizli."
+  },
+  "Hz. Peygamber’in vefatında Kur’an’ın tamamı yazılı ve ezberlenmiş durumdaydı; ama tek bir cilt (mushaf) hâlinde bir araya getirilmemişti. Bunun sebepleri şöyle sıralanır:",
+  {
+   "tablo": [
+    [
+     "Sebep",
+     "Açıklama"
+    ],
+    [
+     "Vahiy devam ediyordu",
+     "Son ayet vefattan birkaç gün önce indi; kitap tamamlanmamıştı"
+    ],
+    [
+     "Nesih ihtimali",
+     "Bir hükmün ya da okunuşun kaldırılması (nesih) ihtimali vardı"
+    ],
+    [
+     "Tertip devam ediyordu",
+     "Yeni inen ayetler önceki surelerin arasına yerleştiriliyordu"
+    ],
+    [
+     "Ezber yaygındı, kayıp tehlikesi yoktu",
+     "Hz. Peygamber hayattaydı; sahabe her şeyi ona sorabiliyordu"
+    ]
+   ]
+  },
+  {
+   "akil": "Tek mushaf olmamasının sebepleri: vahyin sürmesi, nesih ihtimali, ayetlerin yerlerinin son ana kadar belirlenmesi ve ezberin yaygın olması. Yazı yasağı ya da ihmal söz konusu değildir."
+  },
+  {
+   "b": "“Benden Kur’an’dan başka bir şey yazmayın”"
+  },
+  {
+   "merak": "Aynı Peygamber bir gün “Benden Kur’an’dan başka bir şey yazmayın” der, bir başka gün Abdullah b. Amr’a “Yaz!” der. Çelişki mi, yoksa bir zamanlama mı?"
+  },
+  "İlk dönemde Hz. Peygamber, Kur’an ile kendi sözlerinin aynı sayfalara karışmasını önlemek için sahabeye kendisinden Kur’an dışında bir şey yazmamalarını söylemiştir. Daha sonra karışma tehlikesi ortadan kalkınca Abdullah b. Amr b. Âs gibi bazı sahabilerin hadis yazmasına izin vermiştir (onun sahîfesi es-Sahîfetü’s-sâdıka diye bilinir). Bu konu hadis tarihinde ayrıca işlenir.",
+  {
+   "hadis": "Benden bir şey yazmayın. Kim benden Kur’an dışında bir şey yazdıysa onu silsin.",
+   "kay": "Müslim, Zühd, 72"
+  },
+  {
+   "sinav": "“Hz. Peygamber döneminde Kur’an tek mushafta toplanmamıştır; çünkü …” cümlesini tamamlayan yanlış seçenek genellikle “Kur’an’ın yazılması yasaktı” ya da “ayetler yazıya geçirilmemişti” olur. Kur’an o dönemde tamamen yazılmıştı; sadece tek bir cilt hâlinde değildi."
+  },
+  {
+   "akil": "Hz. Peygamber döneminde Kur’an tamamen yazılı ve ezberliydi; tek mushaf yoktu: vahiy sürüyordu, nesih ihtimali vardı, tertip devam ediyordu. Hadis yazımı yasağı karışmayı önlemek içindi; sonra izin verildi."
+  },
+  {
+   "b": "8. Kur’an öğretimi: Mekke’den Medine’ye bir okul"
+  },
+  {
+   "merak": "Akabe’de biat eden Medineliler, şehirlerine dönerken Hz. Peygamber’den bir şey istediler: Kendilerine Kur’an’ı ve dini öğretecek bir öğretmen. Hz. Peygamber onlara genç bir sahabiyi, Mus‘ab b. Umeyr’i gönderdi."
+  },
+  "Kur’an’ın öğretimi ilk günden itibaren düzenli bir iş olarak yürüdü. Mekke’de müşriklerin baskısı yüzünden Müslümanlar Erkam b. Ebi’l-Erkam’ın Safâ tepesindeki evinde toplanıyordu; bu ev, tarihe Dârü’l-Erkam adıyla, İslam’ın ilk eğitim merkezi olarak geçti. Hz. Ömer’in Müslüman oluşu da yazılı bir Kur’an sayfasıyla ilgilidir: Kız kardeşi Fâtıma ile eniştesi Saîd b. Zeyd’in evinde Habbâb b. Eret onlara Tâhâ Suresi’nin yazılı olduğu bir sahifeden ders veriyordu. Bu olay, Mekke döneminde ayetlerin yazıya geçirildiğinin en çok anılan delilidir.",
+  "Birinci Akabe biatından sonra Medine’ye gönderilen Mus‘ab b. Umeyr, Medinelilere Kur’an okuttuğu için “mukrî” (Kur’an okutan) diye anıldı ve hicretten önce Medine’de İslam’ın hızla yayılmasında büyük rol oynadı. Hicretten sonra Mescid-i Nebevî’nin bir köşesindeki Suffa, gece gündüz Kur’an ve din öğrenen sahabenin okulu oldu. Ubâde b. Sâmit burada Kur’an ve yazı öğretenler arasında anılır. Hz. Peygamber yeni Müslüman olan kabilelere Kur’an öğreticileri gönderdi; bunlardan Bi’r-i Maûne’ye giden ve Kur’an’ı iyi bildikleri için “kurrâ” diye anılan sahabiler pusuya düşürülerek şehit edildi (h. 4).",
+  {
+   "tablo": [
+    [
+     "Yer / kişi",
+     "Kur’an öğretimindeki yeri"
+    ],
+    [
+     "Dârü’l-Erkam",
+     "Mekke’de ilk eğitim ve toplanma merkezi"
+    ],
+    [
+     "Habbâb b. Eret",
+     "Fâtıma bint Hattâb’ın evinde Tâhâ sahifesinden ders verdi"
+    ],
+    [
+     "Mus‘ab b. Umeyr",
+     "Akabe sonrası Medine’ye gönderilen ilk öğretmen (mukrî)"
+    ],
+    [
+     "Suffa",
+     "Mescid-i Nebevî’de yatılı eğitim yeri; ashâbü’s-suffa"
+    ],
+    [
+     "Ubâde b. Sâmit",
+     "Suffa’da Kur’an ve yazı öğretenlerden"
+    ],
+    [
+     "Bi’r-i Maûne (h. 4)",
+     "Kurrâ denilen Kur’an öğreticilerinin şehit edildiği olay"
+    ]
+   ]
+  },
+  "Hz. Peygamber döneminde Kur’an’ın tamamını ezberleyen sahabilerin sayısı rivayetlerde verilenden çok fazladır. Kaynaklarda dört halife, Abdullah b. Mes’ûd, Ubey b. Ka’b, Muâz b. Cebel, Zeyd b. Sâbit, Ebü’d-Derdâ, Ebû Mûsâ el-Eş‘arî, Sâlim ve Ebû Zeyd gibi isimler sayılır; Hz. Âişe, Hz. Hafsa ve Hz. Ümmü Seleme de Kur’an’ı iyi bilen ve kendi nüshaları olan sahabiler arasındadır. Bi’r-i Maûne’de ve Yemâme Savaşı’nda çok sayıda hâfızın şehit olması, bir sonraki dönemde Kur’an’ın tek bir mushafta toplanması fikrini doğuracaktır.",
+  {
+   "kontrol": "Bi’r-i Maûne’de şehit edilen kurrânın sayısı kaynaklarda kırk ya da yetmiş olarak geçer; yetmiş rivayeti daha yaygındır."
+  },
+  {
+   "sinav": "Hz. Ömer’in Müslüman oluşu olayı sorulduğunda beklenen sonuç: “Mekke döneminde de ayetler yazıya geçiriliyordu.” Tuzak: “Ayetler Mekke’de yalnız ezberle korunuyordu.” Mus‘ab b. Umeyr = Medine’ye ilk öğretmen; Erkam’ın evi = Mekke’deki ilk merkez; kurrâ = Bi’r-i Maûne şehitleri."
+  },
+  {
+   "akil": "Dârü’l-Erkam (Mekke) → Mus‘ab b. Umeyr (Medine’ye ilk öğretmen) → Suffa (Medine’de okul). Tâhâ sahifesi = Mekke’de yazı vardı. Kurrâ şehitleri: Bi’r-i Maûne; hâfız kaybı: Yemâme."
+  }
+ ],
+ "ozet": [
+  "Hz. Peygamber ümmîydi (A’râf 157, Ankebût 48); bu durum Kur’an’ın onun eseri olmadığının delillerinden sayılır.",
+  "Kur’an yazıya büyük önem verir: Alak 4 (kalemle öğreten), Kalem 1 (kaleme yemin), Bakara 282 (borcu yazın).",
+  "Bedir’de okuryazar esirlerin on çocuğa okuma yazma öğreterek serbest kalabilmesi Hz. Peygamber’in eğitime verdiği önemi gösterir.",
+  "Vahiy kâtiplerinin sayısı kırkı aşar. Mekke’de ilk kâtip Abdullah b. Sa’d b. Ebî Serh, Medine’de ilk kâtip Ubey b. Ka’b, en çok yazan Zeyd b. Sâbit’tir.",
+  "Abdullah b. Erkam daha çok mektupları yazmış, Hanzala b. Rebî‘ “el-Kâtib” lakabıyla anılmıştır.",
+  "Yazı malzemeleri: rikâ‘ (deri/kâğıt parçası), lihâf (ince beyaz taş), usub (hurma dalı), ektâf (kürek kemiği), edlâ‘ (kaburga), akatâb (semer tahtası), kırtâs (kâğıt).",
+  "Hz. Peygamber yeni inen ayetlerin hangi sureye ve nereye konacağını bildirirdi; ayetlerin sure içindeki sırası tevkîfîdir.",
+  "Hz. Ömer’in Müslüman olduğu olayda Tâhâ Suresi’nin yazılı olduğu sahife, Mekke döneminde de ayetlerin yazıldığını gösterir.",
+  "Kur’an hem yazı hem ezberle korunmuştur. Hafız sahabilere kurrâ denirdi; Bi’r-i Maûne’de yetmiş kurrâ şehit edildi.",
+  "“Kur’an’ı dört kişiden alın” hadisi: İbn Mes’ûd, Sâlim, Muâz b. Cebel, Ubey b. Ka’b.",
+  "Enes’in rivayetinde Kur’an’ı toplayan dört Ensarî: Ubey, Muâz, Zeyd b. Sâbit, Ebû Zeyd.",
+  "Arza: Cebrâil’in her Ramazan Hz. Peygamber’le Kur’an’ı karşılıklı okuması; vefat yılında iki kez yapılan arzaya arza-i ahîre denir.",
+  "Zeyd b. Sâbit’in son arzada bulunduğu rivayet edilir; mukabele geleneği arzanın hatırasıdır.",
+  "Hz. Peygamber döneminde Kur’an tamamen yazılıydı ama tek mushaf hâline getirilmemişti; çünkü vahiy devam ediyordu, nesih ihtimali vardı, tertip sürüyordu.",
+  "“Benden Kur’an dışında bir şey yazmayın” (Müslim, Zühd 72) yasağı Kur’an’la başka sözlerin karışmasını önlemek içindi; sonra hadis yazımına izin verildi."
+ ],
+ "kartlar": [
+  {
+   "o": "Mekke’de ilk vahiy kâtibi",
+   "a": "Abdullah b. Sa’d b. Ebî Serh (yaygın görüş)."
+  },
+  {
+   "o": "Medine’de ilk vahiy kâtibi",
+   "a": "Ubey b. Ka’b."
+  },
+  {
+   "o": "En çok vahiy yazan kâtip",
+   "a": "Zeyd b. Sâbit."
+  },
+  {
+   "o": "Hz. Peygamber’in mektuplarını en çok yazan kâtip",
+   "a": "Abdullah b. Erkam."
+  },
+  {
+   "o": "Lihâf",
+   "a": "İnce, yassı, beyaz taşlar."
+  },
+  {
+   "o": "Usub",
+   "a": "Yaprakları ayıklanmış hurma dalları."
+  },
+  {
+   "o": "Ektâf",
+   "a": "Deve ya da koyunun kürek kemikleri."
+  },
+  {
+   "o": "Rikâ‘",
+   "a": "Deri, kâğıt ya da yaprak parçaları."
+  },
+  {
+   "o": "Ümmî peygamber ifadesi hangi ayetlerde geçer, ne gösterir?",
+   "a": "A’râf 157-158; Ankebût 48 (okumuyor, yazmıyordun). Kur’an’ın onun uydurması olmadığını gösterir."
+  },
+  {
+   "o": "“Kur’an’ı dört kişiden alın” hadisindeki isimler",
+   "a": "Abdullah b. Mes’ûd, Sâlim (Ebû Huzeyfe’nin azatlısı), Muâz b. Cebel, Ubey b. Ka’b."
+  },
+  {
+   "o": "Arza ve arza-i ahîre",
+   "a": "Arza: her Ramazan Cebrâil’le karşılıklı okuma. Arza-i ahîre: vefat yılında yapılan iki kezlik son arza."
+  },
+  {
+   "o": "Ayetlerin sure içindeki yeri kim tarafından belirlendi?",
+   "a": "Hz. Peygamber, vahye dayanarak (“şu sureye koyun”). Bu sıra tevkîfîdir."
+  },
+  {
+   "o": "Hz. Peygamber döneminde neden tek mushaf yoktu?",
+   "a": "Vahiy sürüyordu, nesih ihtimali vardı, tertip devam ediyordu, ezber yaygındı."
+  },
+  {
+   "o": "Bi’r-i Maûne’de şehit edilen sahabiler nasıl anılır?",
+   "a": "Kurrâ (Kur’an okuyucuları, hafızlar); yetmiş kişi."
+  },
+  {
+   "o": "Dârü’l-Erkam",
+   "a": "Mekke’de Müslümanların ilk eğitim ve toplanma merkezi"
+  },
+  {
+   "o": "Mus‘ab b. Umeyr",
+   "a": "Akabe’den sonra Medine’ye gönderilen ilk Kur’an öğreticisi (mukrî)"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "k1-14",
+   "z": 2,
+   "s": "Hz. Peygamber’in her yıl Ramazan ayında Kur’an’ı Cebrâil’le karşılıklı okuması, vefat ettiği yıl ise bunu iki kez yapması Kur’an ilimlerinde aşağıdakilerden hangisiyle ifade edilir?",
+   "c": [
+    "Tenzîl",
+    "Cem‘",
+    "Tertîl",
+    "Arza",
+    "İstinsah"
+   ],
+   "d": 3,
+   "a": "Cebrâil ile Hz. Peygamber’in Kur’an’ı her Ramazan karşılıklı okumasına arza denir; vefat yılında yapılan iki kezlik okumaya arza-i ahîre (son arza) adı verilir. Zeyd b. Sâbit’in son arzada bulunması, Kur’an’ın toplanmasında görevlendirilme sebeplerinden sayılır.",
+   "ac": [
+    "Tenzîl Kur’an’ın parça parça indirilmesidir.",
+    "Cem‘ Kur’an’ın bir araya toplanmasıdır (Hz. Ebû Bekir dönemi).",
+    "Tertîl Kur’an’ı ağır ağır, tecvidle okumaktır.",
+    "Doğru: karşılıklı okuma ve kontrol arzadır.",
+    "İstinsah Kur’an’ın çoğaltılmasıdır (Hz. Osman dönemi)."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 7"
+  },
+  {
+   "id": "kb3-01",
+   "z": 1,
+   "s": "Hicretten sonra Medine’de Hz. Peygamber’e ilk vahiy kâtipliği yapan sahabi aşağıdakilerden hangisidir?",
+   "c": [
+    "Ubey b. Ka’b",
+    "Muâviye b. Ebî Süfyân",
+    "Abdullah b. Erkam",
+    "Zeyd b. Sâbit",
+    "Abdullah b. Sa’d b. Ebî Serh"
+   ],
+   "d": 0,
+   "a": "Medine’de ilk vahiy kâtibi Ubey b. Ka’b’dır. Zeyd b. Sâbit sonradan bu görevi sürekli yürütmüş ve en çok vahiy yazan kâtip olmuştur.",
+   "ac": [
+    "Doğru: Medine’de ilk kâtip Ubey b. Ka’b’dır.",
+    "Mekke’nin fethinden sonra kâtiplik yapmıştır.",
+    "Daha çok Hz. Peygamber’in mektuplarını yazmıştır.",
+    "En çok vahiy yazan kâtiptir; ama Medine’deki ilk kâtip değildir.",
+    "Mekke’deki ilk kâtip olarak anılır."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: vahiy kâtipleri"
+  },
+  {
+   "id": "kb3-02",
+   "z": 1,
+   "s": "Hz. Peygamber’e en çok vahiy kâtipliği yapan, Hz. Ebû Bekir döneminde Kur’an’ı toplayan heyetin ve Hz. Osman döneminde mushafları çoğaltan heyetin başında bulunan sahabi aşağıdakilerden hangisidir?",
+   "c": [
+    "Abdullah b. Mes’ûd",
+    "Huzeyfe b. Yemân",
+    "Ubey b. Ka’b",
+    "Muâz b. Cebel",
+    "Zeyd b. Sâbit"
+   ],
+   "d": 4,
+   "a": "Zeyd b. Sâbit hem en çok vahiy yazan kâtip hem de cem‘ ve istinsah heyetlerinin başkanıdır.",
+   "ac": [
+    "Kendi mushafı ve kıraatiyle tanınır; heyetlerin başında değildir.",
+    "Okuyuş farklılıklarını Hz. Osman’a bildiren sahabidir.",
+    "Medine’de ilk kâtiptir; heyet başkanı değildir.",
+    "“Kur’an’ı dört kişiden alın” hadisinde geçer; heyet başkanı değildir.",
+    "Doğru: Zeyd b. Sâbit."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3"
+  },
+  {
+   "id": "kb3-03",
+   "z": 2,
+   "s": "Mekke döneminde vahiy kâtipliği yapan, bir süre dinden dönüp Mekke’nin fethinde yeniden Müslüman olan ve Hz. Osman döneminde Mısır valiliğine getirilen sahabi aşağıdakilerden hangisidir?",
+   "c": [
+    "Abdullah b. Sa’d b. Ebî Serh",
+    "Hâlid b. Saîd b. Âs",
+    "Muğîre b. Şu‘be",
+    "Amr b. Âs",
+    "Şurahbîl b. Hasene"
+   ],
+   "d": 0,
+   "a": "Mekke’de ilk vahiy kâtibi olarak anılan Abdullah b. Sa’d b. Ebî Serh bu bilgilerle tanınır.",
+   "ac": [
+    "Doğru: parçadaki bilgiler ona aittir.",
+    "İlk Müslümanlardan ve kâtiplerdendir; irtidat etmemiştir.",
+    "Kâtipler arasında anılır; Mısır valisi olmamıştır.",
+    "Mısır’ı fetheden komutandır; ama Mekke’de kâtip değildir.",
+    "Kâtipler arasında anılır; parçadaki bilgiler ona ait değildir."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: vahiy kâtipleri"
+  },
+  {
+   "id": "kb3-04",
+   "z": 2,
+   "s": "Aşağıdaki yazı malzemesi – anlamı eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Lihâf – İnce, yassı beyaz taşlar",
+    "Rikâ‘ – Deri ya da kâğıt parçaları",
+    "Ektâf – Kürek kemikleri",
+    "Kırtâs – Deve semerinin tahta parçaları",
+    "Usub – Hurma dallarının yaprak ayıklanmış kısmı"
+   ],
+   "d": 3,
+   "a": "Kırtâs kâğıt ya da parşömendir. Deve semerinin tahta parçalarına akatâb denir.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Yanlış: semer tahtası akatâb, kırtâs ise kâğıttır.",
+    "Doğru eşleştirme."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3"
+  },
+  {
+   "id": "kb3-05",
+   "z": 2,
+   "s": "Hz. Osman’ın anlattığına göre Hz. Peygamber’e birkaç ayet birden indiğinde kâtiplerden birini çağırır ve “Bu ayetleri, içinde şu ve şu konu geçen sureye koyun.” derdi.\n\nBu rivayetten aşağıdaki sonuçlardan hangisine ulaşılabilir?",
+   "c": [
+    "Surelerin mushaftaki sırası sahabenin içtihadıyla belirlenmiştir.",
+    "Ayetlerin sure içindeki yeri Hz. Peygamber tarafından belirlenmiştir.",
+    "Kur’an Hz. Peygamber döneminde tek bir mushafta toplanmıştır.",
+    "Kur’an kronolojik iniş sırasına göre yazılmıştır.",
+    "Ayetler yalnız ezberle korunmuş, yazılmamıştır."
+   ],
+   "a": "Rivayet ayetlerin sure içindeki yerinin Hz. Peygamber tarafından bildirildiğini, yani tevkîfî olduğunu gösterir.",
+   "d": 1,
+   "ac": [
+    "Surelerin sırası tartışmalıdır; ama bu rivayet ayetlerin yeriyle ilgilidir.",
+    "Doğru: “şu sureye koyun” ifadesi bunu gösterir.",
+    "Rivayet tek mushaftan söz etmez; o dönemde tek mushaf yoktu.",
+    "Ayetler indikleri sırayla değil, Hz. Peygamber’in gösterdiği yerlere yazılmıştır.",
+    "Rivayet ayetlerin yazıldığını açıkça gösterir."
+   ],
+   "kay": "Ebû Dâvûd, Salât; Tirmizî, Tefsîr (Tevbe)"
+  },
+  {
+   "id": "kb3-06",
+   "z": 2,
+   "s": "Hz. Peygamber’in vefatı sırasında Kur’an’ın tamamı yazılı ve ezberlenmiş olduğu hâlde tek bir mushafta toplanmamış olmasının sebepleri arasında aşağıdakilerden hangisi yer almaz?",
+   "c": [
+    "Vahyin devam ediyor olması",
+    "Bazı hüküm ya da okunuşların neshedilme ihtimali",
+    "Kur’an’ın yazıya geçirilmesinin yasaklanmış olması",
+    "Hz. Peygamber hayattayken kayıp tehlikesinin bulunmaması",
+    "Yeni inen ayetlerin önceki surelere yerleştirilmesinin sürmesi"
+   ],
+   "d": 2,
+   "a": "Kur’an’ın yazılması hiçbir zaman yasaklanmamıştır; tersine Hz. Peygamber ayetleri hemen yazdırırdı. Yasak, ilk dönemde Kur’an dışındaki sözlerin yazılmasıyla ilgilidir.",
+   "ac": [
+    "Geçerli bir sebeptir; son ayet vefattan kısa süre önce inmiştir.",
+    "Geçerli bir sebeptir.",
+    "Doğru cevap: böyle bir yasak yoktur.",
+    "Geçerli bir sebeptir; sahabe her şeyi doğrudan Hz. Peygamber’e sorabiliyordu.",
+    "Geçerli bir sebeptir; tertip tamamlanmamıştı."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: Kur’an’ın yazılması"
+  },
+  {
+   "id": "kb3-07",
+   "z": 3,
+   "s": "Hz. Peygamber’in ilk dönemde “Benden bir şey yazmayın. Kim benden Kur’an dışında bir şey yazdıysa onu silsin.” buyurduğu, daha sonra ise Abdullah b. Amr b. Âs gibi bazı sahabilerin hadis yazmasına izin verdiği rivayet edilir.\n\nBu iki tutum birlikte değerlendirildiğinde ilk yasağın asıl amacı aşağıdakilerden hangisidir?",
+   "c": [
+    "Hadislerin dinde bağlayıcı olmadığını göstermek",
+    "Sahabenin yazı yazmasını engellemek",
+    "Hadislerin yalnız ezberle aktarılmasını kalıcı bir kural hâline getirmek",
+    "Kur’an ile başka sözlerin aynı sayfalarda karışmasını önlemek",
+    "Yazı malzemesinin israf edilmesini önlemek"
+   ],
+   "d": 3,
+   "a": "İlk yasak, Kur’an metninin başka sözlerle karışma tehlikesine karşıydı. Bu tehlike geçince yazıya izin verilmiştir; bu da yasağın geçici ve tedbir amaçlı olduğunu gösterir.",
+   "ac": [
+    "Sünnet dinde bağlayıcıdır; yasak bunun için değildir.",
+    "Sahabe Kur’an’ı yazmaya devam etmiştir; yasak yazının kendisine değildir.",
+    "Sonradan verilen izin, yasağın kalıcı olmadığını gösterir.",
+    "Doğru: amaç karışmayı önlemektir.",
+    "Rivayetlerde böyle bir gerekçe geçmez."
+   ],
+   "kay": "Müslim, Zühd, 72"
+  },
+  {
+   "id": "kb3-08",
+   "z": 2,
+   "s": "Bedir Savaşı’ndan sonra fidye ödeyemeyen okuryazar esirlerin her birinin Medine’deki on çocuğa okuma yazma öğretmesi karşılığında serbest bırakılması kararlaştırılmıştır.\n\nBu uygulama en çok aşağıdakilerden hangisini gösterir?",
+   "c": [
+    "Kur’an’ın Hz. Peygamber döneminde tek mushafta toplandığını",
+    "Hz. Peygamber’in yazı ve eğitime verdiği önemi",
+    "Esirlerin tamamının Müslüman olduğunu",
+    "Medine’de okuma yazmanın zaten yaygın olduğunu",
+    "Fidyenin İslam’da yasaklandığını"
+   ],
+   "d": 1,
+   "a": "Uygulama, Hz. Peygamber’in okuma yazmayı yaygınlaştırmaya verdiği önemi gösterir. Kur’an’ın yazıya geçirilmesi için de okuryazar sayısının artması önemliydi.",
+   "ac": [
+    "Uygulamanın mushafla bir ilgisi yoktur.",
+    "Doğru: uygulamanın asıl mesajı budur.",
+    "Esirler müşrikti; Müslüman olmaları şart koşulmadı.",
+    "Tersine, okuryazarlık az olduğu için bu yola gidilmiştir.",
+    "Fidye alınmıştır; bu uygulama fidyenin bir türüdür."
+   ],
+   "kay": "Siyer kaynakları (Bedir esirleri)"
+  },
+  {
+   "id": "kb3-09",
+   "z": 3,
+   "s": "Hz. Peygamber dönemiyle ilgili\nI. Kur’an’ın bütün ayetleri yazıya geçirilmişti.\nII. Yazılan bütün ayetler tek bir mushafta bir araya getirilmişti.\nIII. Kur’an’ın korunmasında ezber ve yazı birlikte kullanılıyordu.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Kur’an Hz. Peygamber döneminde tamamen yazılmış ve ezberlenmişti; ama tek bir mushaf hâlinde toplanması Hz. Ebû Bekir dönemindedir. II yanlıştır.",
+   "ac": [
+    "III de doğrudur.",
+    "II yanlıştır; tek mushaf Hz. Ebû Bekir döneminde oluşturuldu.",
+    "Doğru: I ve III.",
+    "II yanlıştır.",
+    "II yanlıştır."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: Kur’an’ın yazılması"
+  },
+  {
+   "id": "kb3-10",
+   "z": 2,
+   "s": "Hz. Peygamber “Kur’an’ı dört kişiden alın.” buyurarak dört sahabiyi Kur’an öğretimi bakımından öne çıkarmıştır.\n\nAşağıdakilerden hangisi bu hadiste adı geçen sahabilerden biri değildir?",
+   "c": [
+    "Abdullah b. Mes’ûd",
+    "Sâlim (Ebû Huzeyfe’nin azatlısı)",
+    "Muâz b. Cebel",
+    "Ubey b. Ka’b",
+    "Zeyd b. Sâbit"
+   ],
+   "d": 4,
+   "a": "Hadiste İbn Mes’ûd, Sâlim, Muâz ve Ubey’in adları geçer. Zeyd b. Sâbit, Enes’in “Kur’an’ı toplayan dört Ensarî” rivayetinde geçer; bu hadiste değil.",
+   "ac": [
+    "Hadiste geçer.",
+    "Hadiste geçer.",
+    "Hadiste geçer.",
+    "Hadiste geçer.",
+    "Doğru: Zeyd b. Sâbit bu hadiste geçmez."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 8"
+  },
+  {
+   "id": "kb3-11",
+   "z": 2,
+   "s": "Hicretin dördüncü yılında Necid bölgesine İslam’ı öğretmek üzere gönderilen ve Bi’r-i Maûne’de pusuya düşürülerek şehit edilen yetmiş sahabi, Kur’an’ı ezbere bilmeleri ve öğretmeleri sebebiyle özel bir adla anılırdı.\n\nBu ad aşağıdakilerden hangisidir?",
+   "c": [
+    "Kurrâ",
+    "Muhacirûn",
+    "Ashâb-ı suffa",
+    "Ensar",
+    "Bedriyyûn"
+   ],
+   "d": 0,
+   "a": "Kur’an’ı ezberleyen ve okuyan sahabilere kurrâ (tekili kâri) denirdi. Bi’r-i Maûne şehitleri kurrâ olarak bilinir.",
+   "ac": [
+    "Doğru: kurrâ.",
+    "Muhacirûn Mekke’den hicret edenlerdir.",
+    "Ashâb-ı suffa Mescid’deki Suffa’da kalan sahabilerdir; aralarında kurrâ bulunsa da bu olaydaki ad kurrâdır.",
+    "Ensar, Medineli Müslümanların genel adıdır.",
+    "Bedriyyûn Bedir’e katılanlardır."
+   ],
+   "kay": "Siyer kaynakları (Bi’r-i Maûne)"
+  },
+  {
+   "id": "kb3-12",
+   "z": 2,
+   "s": "“Sen bundan önce bir kitap okumuyordun, elinle de onu yazmıyordun. Öyle olsaydı batıla uyanlar kuşkuya düşerlerdi.” (Ankebût, 29/48)\n\nBu ayetten ve Hz. Peygamber’in vahyin yazımı konusundaki uygulamalarından hareketle aşağıdakilerden hangisi söylenemez?",
+   "c": [
+    "Hz. Peygamber’in ümmî oluşu, vahyin yazıya geçirilmesine önem vermediğini gösterir.",
+    "Ayet, Kur’an’ın önceki kitaplardan derlendiği iddiasını zayıflatmaktadır.",
+    "Hz. Peygamber’in ümmî oluşu, Kur’an’ın kaynağının ilahî olduğuna dair bir delil olarak sunulmuştur.",
+    "Hz. Peygamber okuma yazma bilmese de ayetleri kâtiplerine yazdırmıştır.",
+    "Ümmîlik, Kur’an’da Hz. Peygamber için bir eksiklik olarak değil, bir özellik olarak anılır."
+   ],
+   "d": 0,
+   "a": "Hz. Peygamber ümmî olduğu hâlde vahyi hemen kâtiplerine yazdırmış, yazı ve eğitime büyük önem vermiştir. Ümmîlik vahyin kaynağına dair bir delildir.",
+   "ac": [
+    "Söylenemez: Hz. Peygamber vahyi yazdırmış, Bedir esirleriyle okuma yazmayı yaygınlaştırmıştır.",
+    "Söylenebilir: kitap okumamış birinin önceki kitaplardan derleme yapması beklenemez.",
+    "Söylenebilir: ayetin vurgusu budur.",
+    "Söylenebilir: vahiy kâtipleri bunun için vardı.",
+    "Söylenebilir: A’râf 157’de “ümmî peygamber” övgüyle anılır."
+   ],
+   "kay": "Ankebût, 29/48; A’râf, 7/157"
+  },
+  {
+   "id": "kb3-z01",
+   "z": 3,
+   "s": "Vahiy kâtipleriyle ilgili\nI. Mekke döneminde vahiy kâtipliği yaptığı bilinen ilk sahabi Abdullah b. Sa’d b. Ebî Serh’tir.\nII. Medine’de ilk vahiy kâtipliği yapan sahabi Zeyd b. Sâbit’tir.\nIII. Abdullah b. Erkam, Hz. Peygamber’in mektuplarını ve resmî yazışmalarını yazanlar arasındadır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Mekke’de ilk kâtip İbn Ebî Serh, Medine’de ilk kâtip Ubey b. Ka’b’dır. Zeyd b. Sâbit en çok vahiy yazan kâtiptir. Abdullah b. Erkam mektupları yazardı.",
+   "ac": [
+    "Eksiktir: III. öncül de doğrudur.",
+    "Yanlıştır: Medine’de ilk kâtip Ubey b. Ka’b’dır.",
+    "Doğrudur: I ve III doğrudur.",
+    "II yanlış olduğu için doğru değildir.",
+    "II yanlış olduğu için doğru değildir."
+   ],
+   "kay": "Konu: Vahiy kâtipleri"
+  },
+  {
+   "id": "kb3-z02",
+   "z": 3,
+   "s": "Arza ile ilgili\nI. Cebrâil her yıl Ramazan ayında Kur’an’ı Hz. Peygamber’le karşılıklı okurdu.\nII. Vefat yılında arza iki kez yapılmış, Hz. Peygamber bunu ecelinin yaklaştığına yormuştur.\nIII. Ayetlerin sure içindeki yerleri arzada sahabenin içtihadıyla belirlenmiştir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "Arza her Ramazan yapılan karşılıklı okumadır; son yıl iki kez yapılmıştır (arza-i ahîre). Ayetlerin yerleri ise Hz. Peygamber’in bildirmesiyle (tevkîfî) belirlenmiştir.",
+   "ac": [
+    "Eksiktir: II. öncül de doğrudur.",
+    "Doğrudur: I ve II doğrudur.",
+    "III yanlıştır: ayet tertibi içtihadî değil tevkîfîdir.",
+    "III yanlış olduğu için doğru değildir.",
+    "III yanlış olduğu için doğru değildir."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân"
+  },
+  {
+   "id": "kb3-z03",
+   "z": 3,
+   "s": "Hz. Ömer bir gün kız kardeşi Fâtıma’nın evine öfkeyle girdiğinde Habbâb b. Eret’in, Fâtıma ile eşi Saîd b. Zeyd’e bir sahifeden Tâhâ Suresi’ni okuttuğunu görür. Sahifeyi okuduktan sonra kalbi yumuşar ve Dârü’l-Erkam’a giderek Müslüman olur.\n\nBu olay Kur’an tarihi açısından en çok aşağıdakilerden hangisine delil olarak gösterilir?",
+   "c": [
+    "Ayetlerin sure içindeki yerlerinin tevkîfî olduğuna",
+    "Kur’an’ın Hz. Peygamber döneminde tek bir mushafta toplandığına",
+    "Kur’an’ın Mekke’de yalnız ezber yoluyla korunduğuna",
+    "Hz. Peygamber’in hadis yazımını yasakladığına",
+    "Mekke döneminde de ayetlerin yazıya geçirildiğine"
+   ],
+   "d": 4,
+   "a": "Tâhâ Suresi’nin yazılı bir sahifeden okunması, ayetlerin Mekke döneminde de yazıya geçirildiğini ve sahabe evlerinde saklandığını gösterir.",
+   "ac": [
+    "Ayet tertibinin delili Hz. Osman’ın “şu sureye koyun” rivayetidir.",
+    "Tek mushaf Hz. Ebû Bekir döneminde oluşmuştur.",
+    "Olay bunun tersini, yazının da kullanıldığını gösterir.",
+    "Olayda hadis yazımıyla ilgili bir bilgi yoktur.",
+    "Doğrudur: olay Mekke’de yazının varlığının en bilinen delilidir."
+   ],
+   "kay": "İbn Hişâm, es-Sîre"
+  },
+  {
+   "id": "kb3-z04",
+   "z": 3,
+   "s": "Bir öğrenci “Kur’an, Hz. Peygamber döneminde yalnızca ezberlenmiştir; ilk kez Hz. Ebû Bekir döneminde yazıya geçirilmiştir.” diyor.\n\nAşağıdakilerden hangisi bu iddiayı en açık biçimde çürütür?",
+   "c": [
+    "Cebrâil’in her Ramazan Kur’an’ı Hz. Peygamber’le karşılıklı okuması",
+    "Hz. Peygamber’in “Kur’an’ı dört kişiden alın.” buyurması",
+    "Zeyd b. Sâbit’in Hz. Ebû Bekir döneminde Kur’an’ı hurma dallarından, ince beyaz taşlardan ve hafızalardan topladığını söylemesi",
+    "Yemâme Savaşı’nda çok sayıda hâfızın şehit olması",
+    "Bi’r-i Maûne’de kurrâ denilen sahabilerin şehit edilmesi"
+   ],
+   "d": 2,
+   "a": "Zeyd’in topladığı hurma dalları ve beyaz taşlar, ayetlerin Hz. Peygamber döneminde yazılmış olduğunu gösterir; Ebû Bekir döneminde yazılanlar bir araya getirilmiştir.",
+   "ac": [
+    "Arza karşılıklı okumadır; yazıyla ilgili değildir.",
+    "Bu hadis ezber ve öğretimle ilgilidir; yazıyı kanıtlamaz.",
+    "Doğrudur: toplanan yazılı malzeme Hz. Peygamber döneminden kalmadır.",
+    "Bu olay hâfızların önemini gösterir, yazının varlığını değil.",
+    "Bu olay Kur’an öğreticilerini anlatır, yazıyı kanıtlamaz."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân"
+  },
+  {
+   "id": "kb3-z05",
+   "z": 3,
+   "s": "Enes b. Mâlik’in rivayetinde Hz. Peygamber hayattayken Kur’an’ı bir araya getiren dört kişi sayılır. Hz. Peygamber’in “Kur’an’ı dört kişiden alın.” hadisinde de dört sahabinin adı geçer.\n\nAşağıdakilerden hangisi Enes’in rivayetinde yer aldığı hâlde “Kur’an’ı dört kişiden alın” hadisinde adı geçmeyen sahabidir?",
+   "c": [
+    "Ubey b. Ka’b",
+    "Zeyd b. Sâbit",
+    "Muâz b. Cebel",
+    "Abdullah b. Mes’ûd",
+    "Sâlim (Ebû Huzeyfe’nin azatlısı)"
+   ],
+   "d": 1,
+   "a": "Enes’in rivayeti: Ubey, Muâz, Zeyd b. Sâbit, Ebû Zeyd. Hadis: İbn Mes’ûd, Sâlim, Muâz, Ubey. Zeyd yalnız Enes’in rivayetinde vardır.",
+   "ac": [
+    "Ubey her iki listede de vardır.",
+    "Doğrudur: Zeyd b. Sâbit yalnız Enes’in rivayetinde geçer.",
+    "Muâz her iki listede de vardır.",
+    "İbn Mes’ûd yalnız hadiste geçer; Enes’in listesinde yoktur.",
+    "Sâlim yalnız hadiste geçer."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân; Müslim, Fezâilü’s-sahâbe"
+  },
+  {
+   "id": "kb3-z06",
+   "z": 3,
+   "s": "Aşağıdaki sahabi - Kur’an tarihindeki yeri eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Zeyd b. Sâbit - En çok vahiy yazan kâtip",
+    "Ubey b. Ka’b - Medine’de ilk vahiy kâtibi",
+    "Mus‘ab b. Umeyr - Akabe’den sonra Medine’ye gönderilen ilk Kur’an öğreticisi",
+    "Hanzala b. Rebî’ - Hz. Osman döneminde mushafları çoğaltan heyetin başkanı",
+    "Abdullah b. Sa’d b. Ebî Serh - Mekke’de vahiy kâtipliği yapan ilk sahabi"
+   ],
+   "d": 3,
+   "a": "Hanzala b. Rebî’ “el-Kâtib” lakabıyla bilinen bir kâtiptir. Hz. Osman döneminde istinsah heyetinin başında Zeyd b. Sâbit vardır.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur: Medinelilere Kur’an okuttuğu için mukrî diye anılmıştır.",
+    "Yanlıştır: istinsah heyetinin başkanı Zeyd b. Sâbit’tir.",
+    "Doğrudur: sonra irtidat etmiş, Mekke’nin fethinde yeniden Müslüman olmuştur."
+   ],
+   "kay": "Konu: Vahiy kâtipleri"
+  },
+  {
+   "id": "kb3-z07",
+   "z": 3,
+   "s": "Zeyd b. Sâbit, Kur’an’ı toplarken ayetleri “usub, lihâf ve sudûrü’r-ricâl”den araştırdığını söylemiştir.\n\nBu sözde geçen\nI. usub\nII. lihâf\nIII. sudûrü’r-ricâl\nkaynaklarından hangileri yazı malzemesidir?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "II ve III",
+    "I ve III",
+    "I ve II"
+   ],
+   "d": 4,
+   "a": "Usub hurma dallarının yapraksız kısmı, lihâf ince beyaz taşlardır; ikisi de yazı malzemesidir. Sudûrü’r-ricâl “insanların göğüsleri”, yani hafızalardır.",
+   "ac": [
+    "Eksiktir: lihâf da yazı malzemesidir.",
+    "Sudûrü’r-ricâl yazı malzemesi değil, hafızadır.",
+    "III yazı malzemesi değildir.",
+    "III yazı malzemesi değildir; II eksik bırakılmıştır.",
+    "Doğrudur: usub ve lihâf yazı malzemesidir."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân"
+  }
+ ]
+}

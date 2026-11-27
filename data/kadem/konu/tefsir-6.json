@@ -1,0 +1,653 @@
+{
+ "id": "tefsir-6",
+ "ad": "Tedvin Dönemi ve Tefsirin Kitaplaşması; Rivayet (Me’sûr) ve Dirayet (Re’y) Tefsiri; Temel Eserler",
+ "ders": "Tefsir",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Tedvin: Tefsir ne zaman kitap oldu?"
+  },
+  {
+   "merak": "Buhârî’nin Sahîh’ini açan biri, namaz, oruç ve hac bölümlerinin arasında “Kitâbü’t-Tefsîr” adlı uzun bir bölümle karşılaşır. Neden tefsir, bir hadis kitabının içinde bir bab olarak duruyor? Çünkü tefsir ilk başta ayrı bir ilim değil, hadisin bir koluydu."
+  },
+  "Hicrî ikinci asrın başlarından itibaren hadislerin yazıya geçirilmesi (tedvin) hızlandı. Tefsirle ilgili rivayetler de bu süreçte toplandı. Tefsirin kitaplaşması üç aşamada gerçekleşti: (1) Tefsir rivayetleri hadis kitaplarının içinde bir bölüm olarak derlendi (Buhârî, Müslim ve Tirmizî’deki tefsir bölümleri); (2) Tefsir rivayetleri hadisten ayrılarak müstakil kitaplarda toplandı, ancak bu ilk kitaplar çoğu zaman Kur’an’ın bütününü kapsamıyordu; (3) Kur’an’ın tamamını mushaf sırasıyla açıklayan tefsirler yazıldı. Bu son aşamanın zirvesi Taberî’dir.",
+  {
+   "tablo": [
+    [
+     "Aşama",
+     "Ne oldu?",
+     "Örnek"
+    ],
+    [
+     "1. Hadis içinde tefsir",
+     "Tefsir rivayetleri hadis kitaplarında bir “kitap” ya da bab olarak yer aldı",
+     "Buhârî ve Tirmizî’nin tefsir bölümleri"
+    ],
+    [
+     "2. Müstakil derlemeler",
+     "Tefsir rivayetleri ayrı kitaplarda toplandı; çoğu eksik ve isnadlı",
+     "Süfyân es-Sevrî, Abdürrezzâk es-San’ânî tefsirleri"
+    ],
+    [
+     "3. Bütün Kur’an’ın tefsiri",
+     "Mushaf sırasıyla bütün ayetler açıklandı",
+     "Mukātil b. Süleyman, Yahyâ b. Sellâm, Taberî"
+    ]
+   ]
+  },
+  "Kur’an’ın tamamını tefsir eden ilk eserlerden biri Mukātil b. Süleyman’ın (ö. 150/767) tefsiridir. Mukātil kıssalar ve mübhemler konusunda çok bilgi vermiş, ancak isnad zikretmemesi, İsrâiliyata çokça yer vermesi ve Allah’ın sıfatlarını yorumlarken teşbihe kaçtığı iddiası yüzünden eleştirilmiştir. Yahyâ b. Sellâm (ö. 200/815) tefsirinde rivayetleri isnadlı verip değerlendirmesi ve tercih yapmasıyla Taberî’nin yöntemini önceden haber veren bir müfessir olarak görülür.",
+  "Aynı dönemde dil âlimleri de Kur’an’ı Arapça açısından açıklayan eserler yazdılar. Ferrâ’nın (ö. 207/822) Meâni’l-Kur’ân’ı, Ebû Ubeyde Ma’mer b. el-Müsennâ’nın (ö. 210/825) Mecâzü’l-Kur’ân’ı, Ahfeş’in ve Zeccâc’ın Meâni’l-Kur’ân’ları ile İbn Kuteybe’nin Te’vîlü müşkili’l-Kur’ân ve Tefsîru garîbi’l-Kur’ân’ı bu türün ilk ürünleridir. Bu eserlerde kelimeler, i’rab ve üslup üzerinde durulur. Ebû Ubeyde’nin eserindeki “mecaz” kelimesi, sonraki belagatteki “hakikatin zıddı” anlamında değil, “ifadenin geçiş yolu, açıklaması” anlamındadır.",
+  {
+   "sinav": "“Mecâzü’l-Kur’ân” = Ebû Ubeyde; “Meâni’l-Kur’ân” = Ferrâ’ (ve Zeccâc, Ahfeş); “Te’vîlü müşkili’l-Kur’ân” = İbn Kuteybe. Bu eşleştirmeler ve “ilk dilbilimsel tefsirler” ifadesi sıkça sorulur. Tuzak: Ebû Ubeyde’nin mecazı belagat terimi değildir."
+  },
+  {
+   "akil": "Tedvin üç basamak: hadis içinde → müstakil ama eksik derlemeler → bütün Kur’an’ın sırayla tefsiri. Erken bütün tefsirler: Mukātil (isnadsız, eleştirilen), Yahyâ b. Sellâm (isnadlı, tercihli). Dil tefsirleri: Ferrâ’, Ebû Ubeyde, Zeccâc, İbn Kuteybe."
+  },
+  {
+   "b": "2. Taberî ve Câmi‘u’l-beyân: Neden “tefsirlerin anası”?"
+  },
+  {
+   "merak": "Bir öğrenci Bakara suresinin bir ayetini Taberî’de açar ve şaşırır: Müellif önce ayetle ilgili sahabe ve tâbiûndan gelen on beş farklı görüşü isnadlarıyla sıralıyor, ardından “Bu görüşlerin en doğrusu bizce şudur” diyerek dil ve bağlam delilleriyle birini seçiyor. Rivayet tefsiri sanılan bir eserde müellifin bu kadar söz sahibi olması nasıl açıklanır?"
+  },
+  "Muhammed b. Cerîr et-Taberî (ö. 310/923), Câmi‘u’l-beyân ‘an te’vîli âyi’l-Kur’ân adlı eseriyle rivayet tefsirinin en önemli ve en kapsamlı örneğini ortaya koymuştur. Eser, kendisinden önceki tefsir rivayetlerini isnadlarıyla birlikte bir araya getirdiği için sonraki müfessirlerin temel kaynağı olmuştur. Taberî yalnızca rivayet aktarmaz; rivayetleri karşılaştırır, dil, kıraat, şiir ve siyak-sibak delilleriyle tercihte bulunur, bazen fıkhî ve kelamî tartışmalara girer. Bu yüzden eser “rivayet tefsirinin temeli olup dirayeti de ihmal etmeyen” bir eser olarak tanımlanır.",
+  {
+   "tablo": [
+    [
+     "Taberî’nin yöntemi",
+     "Açıklama"
+    ],
+    [
+     "İsnad",
+     "Rivayetleri kendi senediyle verir; zayıf rivayetleri de aktarır, ama isnadı göstererek sorumluluğu okuyucuya bırakır"
+    ],
+    [
+     "Tercih",
+     "“Bu görüşlerin en doğrusu…” diyerek görüşler arasında seçim yapar"
+    ],
+    [
+     "Dil ve şiir",
+     "Kelimelerin anlamını câhiliye şiiri ve Arap kullanımıyla destekler"
+    ],
+    [
+     "Kıraat",
+     "Farklı kıraatleri değerlendirir, bazılarını reddeder"
+    ],
+    [
+     "İcmâ",
+     "Sahabe ve tâbiûnun ittifakının dışına çıkmaz"
+    ],
+    [
+     "İsrâiliyat",
+     "Kıssalarda İsrâiliyata yer verir; bu yönüyle eleştirilir"
+    ]
+   ]
+  },
+  {
+   "akil": "Taberî = Câmi‘u’l-beyân = rivayet tefsirinin anası; ama isnad + tercih + dil + kıraat yönüyle dirayeti de içerir."
+  },
+  {
+   "b": "3. Rivayet tefsiri: Tanımı, kaynakları, eserleri ve sorunları"
+  },
+  "Rivayet tefsiri (et-tefsîr bi’l-me’sûr, nakil tefsiri), ayetleri Kur’an’ın başka ayetleri, Hz. Peygamber’in sünneti, sahabe ve tâbiûnun sözleriyle açıklayan tefsir türüdür. Bazı âlimler tâbiûn sözlerini de bu kapsamda sayarken bazıları onları re’y kapsamında değerlendirir. Kaynak sırası şöyledir: Kur’an’ın Kur’an’la tefsiri, Kur’an’ın sünnetle tefsiri, sahabe sözüyle tefsir ve tâbiûn sözüyle tefsir.",
+  {
+   "tablo": [
+    [
+     "Eser",
+     "Müellif (ölüm)",
+     "Not"
+    ],
+    [
+     "Câmi‘u’l-beyân",
+     "Taberî (310)",
+     "Rivayet tefsirinin en önemlisi; isnadlı"
+    ],
+    [
+     "Tefsîru’l-Kur’âni’l-azîm",
+     "İbn Ebû Hâtim (327)",
+     "Sadece rivayet; isnadlı, tercihsiz"
+    ],
+    [
+     "Bahrü’l-ulûm",
+     "Ebü’l-Leys es-Semerkandî (373)",
+     "Hanefî fakih ve müfessir"
+    ],
+    [
+     "el-Keşf ve’l-beyân",
+     "Sa’lebî (427)",
+     "Kıssa ve İsrâiliyatı bol"
+    ],
+    [
+     "Meâlimü’t-tenzîl",
+     "Beğavî (516)",
+     "Sa’lebî’nin özeti gibi; daha temkinli"
+    ],
+    [
+     "el-Muharrerü’l-vecîz",
+     "İbn Atıyye (541)",
+     "Endülüslü; rivayet ve dil dengesi"
+    ],
+    [
+     "Tefsîru’l-Kur’âni’l-azîm",
+     "İbn Kesîr (774)",
+     "Kur’an’ı Kur’an’la tefsir; isnad tenkidi, İsrâiliyata eleştiri"
+    ],
+    [
+     "ed-Dürrü’l-mensûr",
+     "Süyûtî (911)",
+     "Rivayetleri isnadsız toplar; tenkitsiz"
+    ]
+   ]
+  },
+  "Rivayet tefsirinin en önemli sorunları şunlardır: uydurma (mevzu) rivayetler, Ehl-i kitaptan gelen İsrâiliyat ve isnadların kısaltılması (hazf). Özellikle isnadın atılması, sahih ile zayıfı ayırt etmeyi imkânsız hâle getirmiştir. Ahmed b. Hanbel’in “Üç şeyin aslı yoktur: tefsir, melâhim (kıyamet savaşları) ve megāzî” sözü, bu alanlardaki rivayetlerin çoğunun sağlam isnadı olmadığını anlatır. İbn Kesîr, rivayetleri isnad yönünden eleştirmesi ve İsrâiliyata mesafeli durmasıyla bu sorunlara karşı en dikkatli rivayet tefsirlerinden birini yazmıştır.",
+  {
+   "sinav": "ÖSYM rivayet tefsirlerinden birini seçtirir ya da eser-müellif eşleştirmesi ister. Tuzak: Süyûtî’nin ed-Dürrü’l-mensûr’u rivayet tefsiridir ama isnadsızdır; İbn Kesîr ise rivayet tefsiri olmasına rağmen eleştirel yöntemiyle öne çıkar. Ahmed b. Hanbel’in “üç şeyin aslı yoktur” sözü de rivayet tefsirinin zaafı bağlamında sorulur."
+  },
+  {
+   "akil": "Rivayet kaynak sırası: Kur’an → sünnet → sahabe → tâbiûn. Eserler: Taberî, İbn Ebû Hâtim, Semerkandî, Sa’lebî, Beğavî, İbn Atıyye, İbn Kesîr, Süyûtî (ed-Dürrü’l-mensûr). Sorunlar: mevzu, İsrâiliyat, isnad hazfi."
+  },
+  {
+   "b": "4. Dirayet (re’y) tefsiri: Övülen ve yerilen re’y"
+  },
+  {
+   "merak": "Tirmizî’de geçen “Kur’an hakkında bilgisizce konuşan cehennemdeki yerine hazırlansın” hadisini okuyan biri, bütün yorumlu tefsirlerin yasak olduğu sonucuna varır. Oysa Fahreddin er-Râzî’nin, Beyzâvî’nin, Ebüssuûd’un tefsirleri asırlardır medreselerde okutulmaktadır. Bu çelişki nasıl çözülür?"
+  },
+  "Dirayet tefsiri (et-tefsîr bi’r-re’y), müfessirin Arap dili, belagat, usul, kıraat, esbâb-ı nüzûl ve nâsih-mensûh bilgisine dayanarak yaptığı içtihadî tefsirdir. Âlimler re’yi ikiye ayırır: Gerekli ilimlere dayanan, Kur’an ve sünnetin genel ilkelerine aykırı olmayan re’y “memdûh” (övülen) ve caizdir. Bilgisizce, heva ve mezhep taassubuyla yapılan, Arap diline ve nassa aykırı re’y ise “mezmûm” (yerilen) ve haramdır. Re’yi yeren hadisler bu ikinci türle ilgilidir. Kur’an’ın kendisi de tedebbürü emreder: “Onlar Kur’an’ı düşünmüyorlar mı?”",
+  {
+   "ayet": "Bu, sana indirdiğimiz mübarek bir kitaptır ki ayetlerini düşünsünler ve akıl sahipleri öğüt alsın.",
+   "kay": "Sâd, 38/29"
+  },
+  {
+   "tablo": [
+    [
+     "Eser",
+     "Müellif (ölüm)",
+     "Özellik"
+    ],
+    [
+     "Mefâtîhu’l-gayb (et-Tefsîrü’l-kebîr)",
+     "Fahreddin er-Râzî (606)",
+     "Kelam ve felsefe ağırlıklı, Eş’arî; meseleleri “mesele” başlıklarıyla tartışır"
+    ],
+    [
+     "Envârü’t-tenzîl ve esrârü’t-te’vîl",
+     "Kādî Beyzâvî (685)",
+     "Keşşâf’ın Mu’tezilî görüşlerden arındırılmış özeti gibi; medreselerin ders kitabı, en çok haşiye yazılan tefsir"
+    ],
+    [
+     "Medârikü’t-tenzîl",
+     "Ebü’l-Berekât en-Nesefî (710)",
+     "Hanefî-Mâtürîdî; özlü"
+    ],
+    [
+     "İrşâdü’l-akli’s-selîm",
+     "Ebüssuûd Efendi (982)",
+     "Osmanlı şeyhülislamı; belagat ağırlıklı"
+    ],
+    [
+     "Rûhu’l-meânî",
+     "Âlûsî (1270)",
+     "Rivayet, dirayet ve işârî yorumu birleştirir"
+    ]
+   ]
+  },
+  "Rivayet ve dirayet ayrımı mutlak değildir; bir tefsirin hangi türe girdiği, hangi yönün ağır bastığına göre belirlenir. Taberî rivayet tefsiridir ama tercihleriyle dirayeti de kullanır; Râzî dirayet tefsiridir ama rivayetlere de yer verir.",
+  {
+   "tablo": [
+    [
+     "Ölçüt",
+     "Rivayet tefsiri",
+     "Dirayet tefsiri"
+    ],
+    [
+     "Dayanak",
+     "Nakil: ayet, hadis, sahabe-tâbiûn sözü",
+     "Dil, usul ve diğer ilimlere dayalı içtihat"
+    ],
+    [
+     "Güçlü yanı",
+     "Vahyin ilk muhataplarına yakınlık",
+     "Yeni sorulara cevap üretebilme"
+    ],
+    [
+     "Zaafı",
+     "Mevzu, İsrâiliyat, isnad hazfi",
+     "Mezhep taassubu, heva"
+    ],
+    [
+     "Hükmü",
+     "Sahih olanı kabul edilir",
+     "Memdûh caiz, mezmûm haram"
+    ],
+    [
+     "Temsilci",
+     "Taberî, İbn Kesîr",
+     "Râzî, Beyzâvî, Ebüssuûd"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Hangisi dirayet tefsirlerinden biridir?” sorusunda Râzî, Beyzâvî, Nesefî, Ebüssuûd, Âlûsî; “hangisi rivayet tefsiridir?” sorusunda Taberî, İbn Kesîr, Beğavî, Süyûtî’nin ed-Dürrü’l-mensûr’u aranır. Beyzâvî’nin Keşşâf’la ilişkisi ve medreselerdeki yeri de sorulur."
+  },
+  {
+   "akil": "Re’y: memdûh (ilme dayalı) caiz, mezmûm (bilgisiz, taassuplu) haram. Dirayet eserleri: Râzî – Mefâtîh, Beyzâvî – Envâr, Nesefî – Medârik, Ebüssuûd – İrşâd, Âlûsî – Rûhu’l-meânî. Ayrım mutlak değil, ağırlık meselesi."
+  }
+ ],
+ "ozet": [
+  "Tefsir önce hadis kitaplarında bir bölüm olarak, sonra müstakil derlemelerde, en sonunda Kur’an’ın tamamını sırayla açıklayan eserlerde yer aldı.",
+  "Kur’an’ın tamamını tefsir eden ilk eserlerden biri Mukātil b. Süleyman’ındır; isnadsızlık ve İsrâiliyat yüzünden eleştirilir.",
+  "Yahyâ b. Sellâm isnadlı ve tercihli yöntemiyle Taberî’nin öncüsü sayılır.",
+  "İlk dilbilimsel tefsirler: Ferrâ’ – Meâni’l-Kur’ân, Ebû Ubeyde – Mecâzü’l-Kur’ân, Zeccâc, İbn Kuteybe.",
+  "Ebû Ubeyde’nin “mecaz”ı belagat terimi değil, “açıklama, ifade yolu” anlamındadır.",
+  "Taberî’nin Câmi‘u’l-beyân’ı rivayet tefsirinin en önemli eseridir; isnad verir, tercih yapar, dil ve kıraati kullanır.",
+  "Rivayet tefsirinin kaynak sırası: Kur’an, sünnet, sahabe sözü, tâbiûn sözü.",
+  "Rivayet tefsirleri: İbn Ebû Hâtim, Semerkandî, Sa’lebî, Beğavî, İbn Atıyye, İbn Kesîr, Süyûtî.",
+  "Süyûtî’nin ed-Dürrü’l-mensûr’u isnadsız bir rivayet derlemesidir.",
+  "Rivayet tefsirinin sorunları: mevzu rivayetler, İsrâiliyat ve isnad hazfi.",
+  "Ahmed b. Hanbel: “Tefsir, melâhim ve megāzînin aslı yoktur.”",
+  "Re’y tefsiri memdûh (caiz) ve mezmûm (haram) olarak ikiye ayrılır.",
+  "Dirayet tefsirleri: Râzî, Beyzâvî, Nesefî, Ebüssuûd, Âlûsî.",
+  "Beyzâvî’nin Envârü’t-tenzîl’i medreselerde ders kitabı olmuş, en çok haşiye yazılan tefsirdir."
+ ],
+ "kartlar": [
+  {
+   "o": "Tefsirin tedvin aşamaları",
+   "a": "Hadis içinde bab → müstakil eksik derlemeler → bütün Kur’an’ın sırayla tefsiri."
+  },
+  {
+   "o": "Mukātil b. Süleyman",
+   "a": "Bütün Kur’an’ı tefsir eden ilk eserlerden; isnadsız, İsrâiliyatı bol, teşbihle suçlanmış."
+  },
+  {
+   "o": "Yahyâ b. Sellâm",
+   "a": "İsnadlı, tercihli tefsiriyle Taberî’nin öncüsü."
+  },
+  {
+   "o": "Mecâzü’l-Kur’ân",
+   "a": "Ebû Ubeyde Ma’mer b. el-Müsennâ; “mecaz” = açıklama yolu."
+  },
+  {
+   "o": "Meâni’l-Kur’ân",
+   "a": "Ferrâ’ (ayrıca Ahfeş ve Zeccâc)."
+  },
+  {
+   "o": "Te’vîlü müşkili’l-Kur’ân",
+   "a": "İbn Kuteybe."
+  },
+  {
+   "o": "Câmi‘u’l-beyân",
+   "a": "Taberî (ö. 310); rivayet tefsirinin anası."
+  },
+  {
+   "o": "ed-Dürrü’l-mensûr",
+   "a": "Süyûtî; isnadsız rivayet tefsiri."
+  },
+  {
+   "o": "Tefsîru’l-Kur’âni’l-azîm (eleştirel rivayet)",
+   "a": "İbn Kesîr; Kur’an’ı Kur’an’la tefsir, İsrâiliyata eleştiri."
+  },
+  {
+   "o": "Meâlimü’t-tenzîl",
+   "a": "Beğavî; rivayet tefsiri."
+  },
+  {
+   "o": "Memdûh – mezmûm re’y",
+   "a": "İlme dayalı övülen re’y caiz; bilgisiz, taassuplu re’y haram."
+  },
+  {
+   "o": "Mefâtîhu’l-gayb",
+   "a": "Fahreddin er-Râzî; et-Tefsîrü’l-kebîr; kelamî dirayet tefsiri."
+  },
+  {
+   "o": "Envârü’t-tenzîl",
+   "a": "Beyzâvî; medrese ders kitabı, en çok haşiye yazılan tefsir."
+  },
+  {
+   "o": "İrşâdü’l-akli’s-selîm",
+   "a": "Ebüssuûd Efendi; belagat ağırlıklı Osmanlı tefsiri."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "tf6-01",
+   "z": 3,
+   "s": "Bir müfessir, her ayet için sahabe ve tâbiûndan gelen farklı görüşleri kendi isnadlarıyla sıralamakta, ardından dil, şiir, kıraat ve siyak delilleriyle bu görüşler arasında tercih yapmaktadır. Kıssalarda Ehl-i kitap kaynaklı rivayetlere de yer verdiği için eleştirilmiştir.\n\nBu müfessir ve eseri aşağıdakilerden hangisidir?",
+   "c": [
+    "İbn Kesîr – Tefsîru’l-Kur’âni’l-azîm",
+    "Süyûtî – ed-Dürrü’l-mensûr",
+    "Taberî – Câmi‘u’l-beyân",
+    "Râzî – Mefâtîhu’l-gayb",
+    "İbn Ebû Hâtim – Tefsîru’l-Kur’âni’l-azîm"
+   ],
+   "d": 2,
+   "a": "İsnadlı rivayetleri toplayıp aralarında tercih yapan ve rivayet tefsirinin en önemli örneği sayılan eser Taberî’nin Câmi‘u’l-beyân’ıdır.",
+   "ac": [
+    "İbn Kesîr İsrâiliyata eleştirel yaklaşır; isnadları kendi senediyle değil, önceki kaynaklardan aktarır.",
+    "Süyûtî rivayetleri isnadsız toplar ve tercih yapmaz.",
+    "Doğru.",
+    "Râzî dirayet tefsiri yazmıştır; isnadlı rivayet toplamaz.",
+    "İbn Ebû Hâtim isnadlı rivayet verir ama tercih yapmaz."
+   ],
+   "kay": "Zehebî, et-Tefsîr ve’l-müfessirûn"
+  },
+  {
+   "id": "tf6-02",
+   "z": 3,
+   "s": "I. Tefsir rivayetlerinin hadis kitaplarında ayrı bir bölüm olarak derlenmesi\nII. Kur’an’ın tamamını mushaf sırasıyla açıklayan eserlerin yazılması\nIII. Tefsir rivayetlerinin hadisten ayrılarak müstakil, ancak çoğu zaman Kur’an’ın tamamını kapsamayan derlemelerde toplanması\n\nTefsirin tedvin sürecindeki bu aşamaların kronolojik sırası aşağıdakilerden hangisidir?",
+   "c": [
+    "I – II – III",
+    "I – III – II",
+    "III – I – II",
+    "II – I – III",
+    "III – II – I"
+   ],
+   "d": 1,
+   "a": "Tefsir önce hadis kitaplarında bir bab olarak yer almış, sonra müstakil derlemelere dönüşmüş, en sonunda Kur’an’ın tamamını sırasıyla açıklayan eserler ortaya çıkmıştır.",
+   "ac": [
+    "Bütün Kur’an’ın tefsiri en son aşamadır.",
+    "Doğru.",
+    "Müstakil derlemeler, hadis içindeki tefsir bablarından sonra gelir.",
+    "Bütün Kur’an’ın tefsiri ilk aşama değildir.",
+    "Sıra tamamen ters çevrilmiştir."
+   ],
+   "kay": "Zehebî, et-Tefsîr ve’l-müfessirûn"
+  },
+  {
+   "id": "tf6-03",
+   "z": 3,
+   "s": "Erken dönemde Kur’an’ın tamamını tefsir eden ilk eserlerden birinin sahibi olan bu müfessir, kıssalar ve ayetlerde adı geçmeyen kişiler hakkında çok bilgi vermiştir. Ancak rivayetlerinde isnad zikretmemesi, Ehl-i kitap kaynaklı bilgilere çokça yer vermesi ve sıfat ayetlerini yorumlarken teşbihe düştüğü iddiası nedeniyle eleştirilmiştir.\n\nSözü edilen müfessir aşağıdakilerden hangisidir?",
+   "c": [
+    "Mukātil b. Süleyman",
+    "Yahyâ b. Sellâm",
+    "Abdürrezzâk es-San’ânî",
+    "Ferrâ’",
+    "İbn Kuteybe"
+   ],
+   "d": 0,
+   "a": "Mukātil b. Süleyman (ö. 150) bütün Kur’an’ı tefsir eden ilk eserlerden birinin sahibidir; isnadsızlığı, İsrâiliyatı ve teşbih iddiası nedeniyle eleştirilmiştir.",
+   "ac": [
+    "Doğru.",
+    "Yahyâ b. Sellâm rivayetleri isnadlı verir ve tercih yapar.",
+    "Abdürrezzâk’ın tefsiri isnadlı rivayet derlemesidir.",
+    "Ferrâ’ dil âlimidir; Meâni’l-Kur’ân yazmıştır.",
+    "İbn Kuteybe dil ve müşkil üzerine eser vermiştir."
+   ],
+   "kay": "DİA, “Mukātil b. Süleyman” md."
+  },
+  {
+   "id": "tf6-04",
+   "z": 2,
+   "s": "Ebû Ubeyde Ma’mer b. el-Müsennâ’nın Mecâzü’l-Kur’ân adlı eserinde geçen “mecaz” kelimesiyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Belagatteki hakikatin zıddı olan mecaz anlamındadır.",
+    "Ayetlerin bâtınî anlamlarını ifade eder.",
+    "Kur’an’daki müteşâbih ayetleri ifade eder.",
+    "İfadenin geçiş yolu, yani bir sözün anlamının açıklanması anlamındadır.",
+    "Kur’an’daki nesih edilmiş hükümleri ifade eder."
+   ],
+   "d": 3,
+   "a": "Ebû Ubeyde’nin kullandığı mecaz, belagat ilmindeki teknik terim yerleşmeden önceki genel anlamıyla “bir ifadenin açıklaması, geçiş yolu” demektir.",
+   "ac": [
+    "Teknik mecaz anlamı sonraki belagat âlimleriyle yerleşmiştir.",
+    "Eser dilbilimsel bir eserdir, bâtınî yorumla ilgisi yoktur.",
+    "Müteşâbih ayrı bir kavramdır.",
+    "Doğru.",
+    "Nesihle ilgisi yoktur."
+   ],
+   "kay": "DİA, “Mecâzü’l-Kur’ân” md."
+  },
+  {
+   "id": "tf6-05",
+   "z": 3,
+   "s": "Ahmed b. Hanbel’e nispet edilen “Üç şeyin aslı yoktur: tefsir, melâhim ve megāzî.” sözü, aşağıdakilerden hangisini anlatmaktadır?",
+   "c": [
+    "Tefsir ilminin dinde yeri olmadığını",
+    "Bu konuların Kur’an’da hiç geçmediğini",
+    "Bu alanlardaki rivayetlerin çoğunun sağlam, muttasıl bir isnadının bulunmadığını",
+    "Bu ilimlerin yalnızca re’y ile yapılması gerektiğini",
+    "Sahabenin bu konularda hiç bilgi vermediğini"
+   ],
+   "d": 2,
+   "a": "Söz, tefsir, kıyamet savaşları ve gazvelerle ilgili rivayetlerin çoğunun isnad bakımından zayıf ya da isnadsız olduğuna işaret eder; ilmin kendisini reddetmez.",
+   "ac": [
+    "Ahmed b. Hanbel tefsiri reddetmemiştir; söz rivayetlerin isnadıyla ilgilidir.",
+    "Bu konular Kur’an’da geçer; söz rivayetlerle ilgilidir.",
+    "Doğru.",
+    "Söz re’y tefsirini önermez.",
+    "Sahabeden bu konularda rivayetler vardır; sorun isnaddadır."
+   ],
+   "kay": "Zerkeşî, el-Burhân; İbn Teymiyye, Mukaddime"
+  },
+  {
+   "id": "tf6-06",
+   "z": 3,
+   "s": "I. Rivayetleri isnad yönünden eleştirmesi\nII. Kur’an’ı Kur’an’la tefsire önem vermesi\nIII. İsrâiliyata eleştirel yaklaşması\nIV. Kelam ve felsefe tartışmalarına geniş yer vermesi\n\nYukarıdakilerden hangileri İbn Kesîr’in tefsirinin özelliklerindendir?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "İbn Kesîr rivayet tefsiri yazmış, rivayetleri eleştirel değerlendirmiş, Kur’an’ı Kur’an’la tefsire önem vermiş ve İsrâiliyata mesafeli durmuştur. Geniş kelam-felsefe tartışmaları Râzî’nin özelliğidir.",
+   "ac": [
+    "İsrâiliyata eleştirisi de onun özelliğidir.",
+    "Doğru.",
+    "Dördüncü öncül Râzî’ye aittir; birinci ve üçüncü öncül de doğrudur.",
+    "Dördüncü öncül yanlıştır.",
+    "Dördüncü öncül yanlıştır."
+   ],
+   "kay": "DİA, “İbn Kesîr” md."
+  },
+  {
+   "id": "tf6-07",
+   "z": 2,
+   "s": "Aşağıdaki tefsirlerden hangisi rivayet tefsiri türüne girmez?",
+   "c": [
+    "Envârü’t-tenzîl",
+    "Meâlimü’t-tenzîl",
+    "ed-Dürrü’l-mensûr",
+    "Bahrü’l-ulûm",
+    "Câmi‘u’l-beyân"
+   ],
+   "d": 0,
+   "a": "Beyzâvî’nin Envârü’t-tenzîl’i dil, belagat ve kelama dayalı bir dirayet tefsiridir. Diğerleri rivayet tefsiridir.",
+   "ac": [
+    "Doğru; dirayet tefsiridir.",
+    "Beğavî’nin rivayet tefsiridir.",
+    "Süyûtî’nin isnadsız rivayet tefsiridir.",
+    "Ebü’l-Leys es-Semerkandî’nin rivayet ağırlıklı tefsiridir.",
+    "Taberî’nin rivayet tefsiridir."
+   ],
+   "kay": "Zehebî, et-Tefsîr ve’l-müfessirûn"
+  },
+  {
+   "id": "tf6-08",
+   "z": 3,
+   "s": "Bir öğrenci, “Kur’an hakkında bilgisizce konuşan cehennemdeki yerine hazırlansın.” hadisine dayanarak, Râzî, Beyzâvî ve Ebüssuûd’un tefsirlerinin okunmasının caiz olmadığını iddia etmektedir.\n\nBu iddiaya verilecek en isabetli cevap aşağıdakilerden hangisidir?",
+   "c": [
+    "Hadis zayıf olduğu için dikkate alınmaz; re’y tefsiri her durumda caizdir.",
+    "Hadis yalnızca müteşâbih ayetlerle ilgilidir.",
+    "Bu tefsirler aslında rivayet tefsiri olduğu için hadisin kapsamına girmez.",
+    "Hadis, gerekli ilimlere dayanmayan, heva ve taassupla yapılan yerilmiş re’yle ilgilidir; ilme dayalı övülen re’y caizdir ve Kur’an tedebbürü emreder.",
+    "Re’y tefsiri ancak sahabe tarafından yapılmışsa caizdir."
+   ],
+   "d": 3,
+   "a": "Âlimler re’yi memdûh ve mezmûm olarak ayırır; yasaklayan hadisler bilgisiz ve keyfî yorumu hedefler. Sâd 29 gibi ayetler Kur’an üzerinde düşünmeyi emreder.",
+   "ac": [
+    "Doğru cevabın dayanağı hadisi reddetmek değil, onu doğru anlamaktır; ayrıca re’y her durumda caiz değildir.",
+    "Hadisin böyle bir sınırlaması yoktur.",
+    "Bu üç eser dirayet tefsiridir.",
+    "Doğru.",
+    "Bu şart hiçbir âlim tarafından ileri sürülmemiştir."
+   ],
+   "kay": "Tirmizî, Tefsîr, 1; Sâd, 38/29"
+  },
+  {
+   "id": "tf6-09",
+   "z": 3,
+   "s": "Bir tefsirle ilgili şu bilgiler verilmiştir:\n• Müellifi Kādî lakaplı Şâfiî bir âlimdir.\n• Zemahşerî’nin el-Keşşâf’ındaki dil ve belagat zenginliğini korumuş, Mu’tezilî görüşleri ise ayıklamıştır.\n• Osmanlı medreselerinde ders kitabı olarak okutulmuş ve üzerine en çok haşiye yazılan tefsir olmuştur.\n\nBu tefsir aşağıdakilerden hangisidir?",
+   "c": [
+    "Medârikü’t-tenzîl",
+    "Rûhu’l-meânî",
+    "Mefâtîhu’l-gayb",
+    "İrşâdü’l-akli’s-selîm",
+    "Envârü’t-tenzîl ve esrârü’t-te’vîl"
+   ],
+   "d": 4,
+   "a": "Kādî Beyzâvî’nin Envârü’t-tenzîl’i bu özellikleriyle tanınır.",
+   "ac": [
+    "Nesefî’nin eseridir; Nesefî Hanefî’dir ve “Kādî” lakabıyla anılmaz.",
+    "Âlûsî’nin XIX. yüzyılda yazdığı tefsirdir.",
+    "Râzî’nin kelam ağırlıklı geniş tefsiridir.",
+    "Ebüssuûd Efendi’nin Hanefî ve Osmanlı şeyhülislamı olarak yazdığı tefsirdir.",
+    "Doğru."
+   ],
+   "kay": "DİA, “Envârü’t-tenzîl” md."
+  },
+  {
+   "id": "tf6-10",
+   "z": 2,
+   "s": "Rivayet ve dirayet tefsiri ayrımıyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Rivayet tefsirlerinde müellif hiçbir tercih yapmaz.",
+    "Dirayet tefsirlerinde hiçbir rivayete yer verilmez.",
+    "Ayrım mutlak değildir; bir tefsirin türü, hangi yönünün ağır bastığına göre belirlenir.",
+    "Dirayet tefsiri her durumda haramdır.",
+    "Rivayet tefsirinin tek kaynağı Hz. Peygamber’in hadisleridir."
+   ],
+   "d": 2,
+   "a": "Taberî rivayet tefsiri olduğu hâlde tercih yapar; Râzî dirayet tefsiri olduğu hâlde rivayetlere yer verir. Bu yüzden ayrım ağırlık meselesidir.",
+   "ac": [
+    "Taberî gibi rivayet müfessirleri tercih yapar.",
+    "Dirayet tefsirleri de rivayet kullanır.",
+    "Doğru.",
+    "Memdûh re’y caizdir.",
+    "Kur’an, sahabe ve tâbiûn sözleri de rivayet tefsirinin kaynağıdır."
+   ],
+   "kay": "Zehebî, et-Tefsîr ve’l-müfessirûn"
+  },
+  {
+   "id": "tf6-11",
+   "z": 3,
+   "s": "Aşağıdaki eser – müellif eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Meâni’l-Kur’ân – Ferrâ’",
+    "Te’vîlü müşkili’l-Kur’ân – İbn Kuteybe",
+    "Medârikü’t-tenzîl – Ebü’l-Berekât en-Nesefî",
+    "el-Muharrerü’l-vecîz – İbn Atıyye",
+    "el-Keşf ve’l-beyân – Beğavî"
+   ],
+   "d": 4,
+   "a": "el-Keşf ve’l-beyân Sa’lebî’nin eseridir. Beğavî’nin eseri Meâlimü’t-tenzîl’dir.",
+   "ac": [
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir; İbn Atıyye Endülüslü müfessirdir.",
+    "Yanlış eşleştirme budur."
+   ],
+   "kay": "Zehebî, et-Tefsîr ve’l-müfessirûn"
+  },
+  {
+   "id": "t1-11",
+   "z": 3,
+   "s": "Emzirmeyle ilgili Bakara 2/233’ü yalnızca rivayet tefsirlerinden araştıran bir öğrencinin bu kaynaklarda öncelikle aşağıdaki sorulardan hangisinin cevabını bulması beklenmez?",
+   "c": [
+    "Bu ayetle ilgili sahabe ve tâbiûn ne söylemiştir?",
+    "Kur’an’da bu konuda benzer içerikli ayetler var mıdır?",
+    "Bu ayet bir olay üzerine mi inmiştir?",
+    "Annenin bakım masraflarının babaya ait olması değişen örfe göre yeniden değerlendirilebilir mi?",
+    "Hz. Peygamber’in emzirme süresiyle ilgili bir hadisi var mıdır?"
+   ],
+   "d": 3,
+   "a": "Rivayet tefsirleri nüzul sebeplerini, Kur’an’ın ve sünnetin açıklamalarını, sahabe ve tâbiûn görüşlerini aktarır. Hükmün değişen şartlara göre yeniden yorumlanması dirayet ve içtihat konusudur.",
+   "ac": [
+    "Sahabe ve tâbiûn görüşleri rivayet tefsirinin kaynağıdır.",
+    "Kur’an’ı Kur’an’la tefsir rivayet tefsirinin ilk adımıdır.",
+    "Nüzul sebebi rivayet tefsirinde bulunur.",
+    "Doğru: bu, güncel bir içtihat sorusudur.",
+    "Hadisler rivayet tefsirinin kaynağıdır."
+   ],
+   "kay": "Bakara, 2/233"
+  },
+  {
+   "id": "t2-04",
+   "z": 2,
+   "s": "Tefsir tarihiyle ilgili\nI. Ferrâ’nın Meâni’l-Kur’ân adlı eseri ilk dilbilimsel tefsirlerdendir.\nII. Taberî’nin Câmiu’l-beyân adlı eseri rivayet tefsirinin ilk kapsamlı örneklerindendir.\nIII. Tantâvî Cevherî çağdaş dönemde ilmî tefsir hareketinin önemli temsilcilerindendir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Üç ifade de doğrudur.",
+   "ac": [
+    "II ve III de doğrudur.",
+    "I ve III de doğrudur.",
+    "II de doğrudur.",
+    "I de doğrudur.",
+    "Doğru."
+   ],
+   "kay": "Tefsir literatürü"
+  },
+  {
+   "id": "t2-09",
+   "z": 3,
+   "s": "Aşağıdaki tefsir – türü eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Mefâtîhu’l-gayb – dirayet",
+    "Mecmau’l-beyân (Tabersî) – Mu’tezilî",
+    "Hakāiku’t-tefsîr (Sülemî) – işârî",
+    "ed-Dürrü’l-mensûr (Süyûtî) – rivayet",
+    "Ahkâmü’l-Kur’ân (Cessâs) – fıkhî"
+   ],
+   "d": 1,
+   "a": "Tabersî’nin Mecmau’l-beyân’ı Şîî tefsirdir.",
+   "ac": [
+    "Doğru.",
+    "Yanlış: Şîî tefsirdir.",
+    "Doğru.",
+    "Doğru.",
+    "Doğru."
+   ],
+   "kay": "Tefsir literatürü"
+  },
+  {
+   "id": "t2-13",
+   "z": 1,
+   "s": "Rivayet tefsirinin en önemli örneği kabul edilen “Câmi‘u’l-beyân”ın müellifi kimdir?",
+   "c": [
+    "Taberî",
+    "Zemahşerî",
+    "Fahreddîn er-Râzî",
+    "Kurtubî",
+    "Beyzâvî"
+   ],
+   "d": 0,
+   "a": "Taberî (ö. 923) rivayetleri senetleriyle aktarır ve tercih yapar.",
+   "ac": [
+    "Câmi‘u’l-beyân’ın müellifidir.",
+    "el-Keşşâf’ın müellifidir.",
+    "Mefâtîhu’l-gayb’ın müellifidir.",
+    "el-Câmi‘ li-ahkâmi’l-Kur’ân’ın müellifidir.",
+    "Envârü’t-tenzîl’in müellifidir."
+   ],
+   "kay": "Tefsir tarihi"
+  }
+ ]
+}

@@ -1,0 +1,1387 @@
+{
+ "id": "mbsts-25",
+ "ad": "25. Deneme",
+ "aciklama": "ÖSYM tarzı: paragraf, senaryo, öncül ve eşleştirme · 60 soru · 0 kolay, 5 orta, 55 zor",
+ "sorular": [
+  {
+   "id": "md25-01",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "Kur’an ilimlerinde âyetler indiği zamana, mekâna ve duruma göre adlandırılmıştır.\nAşağıdaki kavram – örnek eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Sayfî (yazın inen) – Nisâ 4/176 (kelâle âyeti)",
+    "Seferî (yolculukta inen) – Fetih sûresi",
+    "Leylî (gece inen) – Tevbe 9/118",
+    "Seferî (yolculukta inen) – Bakara 2/285-286",
+    "Firâşî (yatakta inen) – Mâide 5/67"
+   ],
+   "d": 3,
+   "a": "Toplu olarak inen sûrelere Fâtiha, İhlâs, Kevser, Nasr, Mürselât, Felak ve Nâs örnek verilir.",
+   "ac": [
+    "Doğru eşleştirmedir; “yaz âyeti” diye de anılır.",
+    "Doğru eşleştirmedir; Hudeybiye dönüşünde inmiştir.",
+    "Doğru eşleştirmedir; Tebük’e katılmayan üç kişinin tövbesiyle ilgilidir.",
+    "Yanlış; bu âyetlerin Mi‘racda verildiği rivayet edilir, bu yüzden semâvî diye anılır.",
+    "Doğru eşleştirmedir."
+   ],
+   "kay": "Kuran-2 konusu."
+  },
+  {
+   "id": "md25-02",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "Kur’an yazısının gelişimiyle ilgili\n• bugün kullanılan hareke işaretlerini (üstün, esre, ötre) getiren,\n• Arap dilinin ilk sözlüğü kabul edilen Kitâbü’l-Ayn’ın müellifi olan,\n• arûz ilminin kurucusu sayılan\nâlim aşağıdakilerden hangisidir?",
+   "c": [
+    "Halîl b. Ahmed el-Ferâhîdî",
+    "Nasr b. Âsım",
+    "Yahyâ b. Ya‘mer",
+    "Ebü’l-Esved ed-Düelî",
+    "Sîbeveyhi"
+   ],
+   "d": 0,
+   "a": "İ‘câm (harf noktalaması) Haccâc döneminde benzer harflerin karışmasını önlemek için yapılmıştır.",
+   "ac": [
+    "Doğru; bugünkü hareke sistemini o geliştirmiştir.",
+    "Harflere nokta (i‘câm) koyanlardandır.",
+    "Nasr b. Âsım ile birlikte harf noktalamasını yapmıştır.",
+    "Harekeyi ilk kez renkli noktalarla göstermiştir; bugünkü işaretleri getiren o değildir.",
+    "Halîl’in öğrencisidir; el-Kitâb adlı nahiv eseriyle tanınır."
+   ],
+   "kay": "Kuran-4 konusu."
+  },
+  {
+   "id": "md25-03",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "Kısa sûrelerde geçen kelimelerle ilgili aşağıdaki kelime – anlam eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Îlâf (Kureyş) – alıştırma, güvence",
+    "Ebter (Kevser) – soyu kesik",
+    "Hümeze – lümeze (Hümeze) – arkadan çekiştiren, kaş göz işaretiyle alay eden",
+    "Samed (İhlâs) – sinsi vesveseci",
+    "Neffâsât (Felak) – düğümlere üfleyen büyücüler"
+   ],
+   "d": 3,
+   "a": "Ebâbîl sürü sürü, siccîl pişmiş çamur, mâûn en küçük yardım anlamındadır.",
+   "ac": [
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Yanlış; samed her şeyin kendisine muhtaç olduğu, kendisi hiçbir şeye muhtaç olmayan demektir; sinsi vesveseci “hannâs”tır.",
+    "Doğru eşleştirmedir."
+   ],
+   "kay": "Kuran-6 konusu."
+  },
+  {
+   "id": "md25-04",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "Kur’an’daki yeminlerde Allah çoğunlukla kendi zatına veya yarattığı varlıklara yemin eder. Ancak bir âyette Hz. Peygamber’in hayatına yemin edilmiş ve bu, Kur’an’daki tek örnek olarak kabul edilmiştir.\nBu yemin ifadesi ve geçtiği yer aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "“Le-amruke” – Hicr 15/72",
+    "“Ve’d-duhâ” – Duhâ 93/1",
+    "“Ve’l-asr” – Asr 103/1",
+    "“Lâ uksimu bi-hâze’l-beled” – Beled 90/1",
+    "“Ve’n-necm” – Necm 53/1"
+   ],
+   "d": 0,
+   "a": "Kasemin unsurları: kasem harfi veya fiili, muksem bih (kendisiyle yemin edilen) ve muksem aleyh (yeminle pekiştirilen haber).",
+   "ac": [
+    "Doğru; “Senin hayatına andolsun” anlamındadır.",
+    "Kuşluk vaktine yemindir.",
+    "Zamana yemindir.",
+    "Mekke şehrine yemindir.",
+    "Yıldıza yemindir."
+   ],
+   "kay": "Kuran-8 konusu."
+  },
+  {
+   "id": "md25-05",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "Fâtiha sûresinin ilk dört âyetinde Allah’tan üçüncü şahıs olarak söz edilirken, beşinci âyette “Yalnız sana kulluk eder, yalnız senden yardım dileriz.” şeklinde doğrudan ikinci şahısla hitap edilir.\nKur’an üslubunda bu şekilde hitap şahsının değişmesine ne ad verilir?",
+   "c": [
+    "Tekrar",
+    "Cedel",
+    "İcmâl – tafsîl",
+    "İltifat",
+    "Kasem"
+   ],
+   "d": 3,
+   "a": "İltifat belagatte “meânî” ilminin konularındandır.",
+   "ac": [
+    "Aynı ifadenin pekiştirme için yinelenmesidir.",
+    "Muhatabı delille ikna etme yöntemidir.",
+    "Önce özet sonra ayrıntı verme yöntemidir.",
+    "Doğru; konuşmada canlılık ve dikkat sağlamak için şahıs değiştirmektir.",
+    "Yemin yoluyla haberi pekiştirmektir."
+   ],
+   "kay": "Kuran-8 konusu."
+  },
+  {
+   "id": "md25-06",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "Tecvid ilminde isti‘lâ harfleri, her durumda kalın okunan harflerdir.\nAşağıdakilerden hangisi bu harflerden biri değildir?",
+   "c": [
+    "ص",
+    "ط",
+    "ق",
+    "ظ",
+    "ك"
+   ],
+   "d": 4,
+   "a": "İsti‘lâ harfleri “hussa dağtin kız” formülüyle ezberlenir: خ ص ض غ ط ق ظ.",
+   "ac": [
+    "İsti‘lâ ve itbâk harfidir; daima kalın okunur.",
+    "İsti‘lâ ve itbâk harfidir; daima kalın okunur.",
+    "İsti‘lâ harfidir; daima kalın okunur.",
+    "İsti‘lâ ve itbâk harfidir; daima kalın okunur.",
+    "Doğru; kef ince okunan bir harftir."
+   ],
+   "kay": "Kuran-10 konusu."
+  },
+  {
+   "id": "md25-07",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "قَالَتْ طَائِفَةٌ ifadesinde sakin “te” harfi, kendisinden sonra gelen “tı” harfine katılarak okunur. Bu iki harfin mahreci aynı, sıfatları ise farklıdır.\nBu örnekteki idgam türü aşağıdakilerden hangisidir?",
+   "c": [
+    "İdgam-ı misleyn",
+    "İdgam-ı mütecâniseyn",
+    "İdgam-ı mütekâribeyn",
+    "İdgam-ı şemsiyye",
+    "İdgam-ı maal-gunne"
+   ],
+   "d": 1,
+   "a": "قَدْ تَبَيَّنَ, اِذْ ظَلَمُوا ve اِرْكَبْ مَعَنَا da mütecâniseyn örnekleridir.",
+   "ac": [
+    "Aynı iki harfin birleşmesidir; اِضْرِبْ بِعَصَاكَ örnektir.",
+    "Doğru; mahreci aynı, sıfatı farklı harflerin birleşmesidir.",
+    "Mahreci veya sıfatı yakın harflerin birleşmesidir; قُلْ رَبِّ örnektir.",
+    "Elif-lamın şemsî harflere katılmasıdır.",
+    "Sakin nun veya tenvinin ي ن م و harflerine gunneyle katılmasıdır."
+   ],
+   "kay": "Kuran-11 konusu."
+  },
+  {
+   "id": "md25-08",
+   "ders": "Tefsir",
+   "z": 3,
+   "s": "“Namazlara ve orta namaza devam edin.” (Bakara 2/238) âyetindeki “orta namaz”ın ikindi namazı olduğu hadislerle açıklanmıştır.\nBu durum aşağıdakilerden hangisine örnektir?",
+   "c": [
+    "Kur’an’ın sünnetle tefsiri ve mübhemin açıklanması",
+    "Kur’an’ın Kur’an’la tefsiri",
+    "Re’y ile tefsir",
+    "İşârî tefsir",
+    "Nesih"
+   ],
+   "d": 0,
+   "a": "Tefsir kaynaklarının sırası: Kur’an, sünnet, sahâbe, tâbiûn, Arap dili ve içtihat.",
+   "ac": [
+    "Doğru; âyette belirtilmeyen namaz sünnetle belirlenmiştir.",
+    "Açıklama başka bir âyetle değil, hadisle yapılmıştır.",
+    "Açıklama müfessirin içtihadına değil sünnete dayanır.",
+    "Tasavvufi bir yorum değildir.",
+    "Âyetin hükmü kaldırılmamıştır."
+   ],
+   "kay": "Tefsir-1 konusu."
+  },
+  {
+   "id": "md25-09",
+   "ders": "Tefsir",
+   "z": 3,
+   "s": "Âyetler ve sûreler arasındaki münasebetleri inceleyen alanın en kapsamlı eseri kabul edilen Nazmü’d-dürer fî tenâsübi’l-âyât ve’s-süver’in müellifi aşağıdakilerden hangisidir?",
+   "c": [
+    "Zerkeşî",
+    "Süyûtî",
+    "İbn Teymiyye",
+    "Râğıb el-İsfahânî",
+    "Bikāî"
+   ],
+   "d": 4,
+   "a": "Siyak-sibak, bir kelimenin anlamını önceki ve sonraki ifadelerle birlikte belirlemektir.",
+   "ac": [
+    "el-Burhân fî ulûmi’l-Kur’ân’ın müellifidir.",
+    "el-İtkān ve ed-Dürrü’l-mensûr’un müellifidir.",
+    "Mukaddime fî usûli’t-tefsîr’in müellifidir.",
+    "el-Müfredât’ın müellifidir.",
+    "Doğru; eser münasebet ilminin temel kaynağıdır."
+   ],
+   "kay": "Tefsir-1 konusu."
+  },
+  {
+   "id": "md25-10",
+   "ders": "Tefsir",
+   "z": 3,
+   "s": "Nesih ile tahsis arasındaki farkla ilgili\nI. Nesihte önceki hüküm tamamen kalkar.\nII. Tahsiste genel hükümden bir kısım çıkarılır, hüküm geri kalanlarda devam eder.\nIII. Nâsih delilin, mensuh hükümden önce gelmesi gerekir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "I ve III",
+    "II ve III"
+   ],
+   "d": 2,
+   "a": "İbnü’l-Cevzî’nin Nevâsihu’l-Kur’ân’ı nesih konusundaki eserlerdendir.",
+   "ac": [
+    "İkinci ifade de doğrudur.",
+    "Birinci ifade de doğrudur.",
+    "Doğru; nâsih mensuhtan sonra gelir.",
+    "Üçüncü ifade yanlıştır.",
+    "Üçüncü ifade yanlış, birinci ifade doğrudur."
+   ],
+   "kay": "Tefsir-2 konusu."
+  },
+  {
+   "id": "md25-11",
+   "ders": "Tefsir",
+   "z": 3,
+   "s": "Garîbü’l-Kur’ân alanında en meşhur eser kabul edilen el-Müfredât fî garîbi’l-Kur’ân’ın müellifi aşağıdakilerden hangisidir?",
+   "c": [
+    "Ebû Ubeyde Ma‘mer b. Müsennâ",
+    "Ebû Ubeyd el-Kāsım b. Sellâm",
+    "Zemahşerî",
+    "Râğıb el-İsfahânî",
+    "İbn Kuteybe"
+   ],
+   "d": 3,
+   "a": "Ebû Ubeyde ile Ebû Ubeyd farklı kişilerdir; birincisi Kur’an’da yabancı kökenli kelime bulunmasını reddeder.",
+   "ac": [
+    "Mecâzü’l-Kur’ân’ın müellifidir.",
+    "Garîbü’l-hadîs ve muarrab konusundaki görüşleriyle bilinir.",
+    "el-Keşşâf ve Esâsü’l-belâğa’nın müellifidir.",
+    "Doğru; kelimelerin kök anlamlarını Kur’an bağlamında açıklar.",
+    "Te’vîlü müşkili’l-Kur’ân’ın müellifidir."
+   ],
+   "kay": "Tefsir-3 konusu."
+  },
+  {
+   "id": "md25-12",
+   "ders": "Tefsir",
+   "z": 3,
+   "s": "Aşağıdaki tefsir – müellif eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Meâlimü’t-tenzîl – Fahreddin er-Râzî",
+    "Tefsîrü’l-Kur’âni’l-azîm – İbn Kesîr",
+    "Envârü’t-tenzîl – Beyzâvî",
+    "İrşâdü’l-akli’s-selîm – Ebüssuûd Efendi",
+    "ed-Dürrü’l-mensûr – Süyûtî"
+   ],
+   "d": 0,
+   "a": "Râzî’nin tefsiri Mefâtîhu’l-gayb (et-Tefsîrü’l-kebîr) adını taşır ve kelamî dirayet tefsiridir.",
+   "ac": [
+    "Yanlış; Meâlimü’t-tenzîl Beğavî’nin rivayet tefsiridir.",
+    "Doğru eşleştirmedir; israiliyata eleştirel yaklaşır.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir."
+   ],
+   "kay": "Tefsir-6 konusu."
+  },
+  {
+   "id": "md25-13",
+   "ders": "Tefsir",
+   "z": 3,
+   "s": "Bir çağdaş düşünüre göre Kur’an’ı anlamak için önce âyetlerin indiği tarihsel bağlama gidilmeli, oradan âyetlerin taşıdığı genel ahlaki ilke ve gayeye ulaşılmalı, sonra bu gaye bugünün şartlarına uygulanmalıdır. Bu yaklaşım “çift hareket” teorisi olarak bilinir.\nBu teorinin sahibi aşağıdakilerden hangisidir?",
+   "c": [
+    "Muhammed Abduh",
+    "Seyyid Kutub",
+    "İzzet Derveze",
+    "Emîn el-Hûlî",
+    "Fazlurrahman"
+   ],
+   "d": 4,
+   "a": "Mevzûî (konulu) tefsir bir konudaki bütün âyetleri bir arada inceler.",
+   "ac": [
+    "İçtimaî tefsirin öncüsüdür; bu teori ona ait değildir.",
+    "Fî Zılâli’l-Kur’ân’ın müellifidir.",
+    "Nüzul sırasına göre tefsir yazmıştır.",
+    "Edebî tefsir ekolünün kurucusudur.",
+    "Doğru; tarihselci yaklaşımın temel çerçevesini oluşturmuştur."
+   ],
+   "kay": "Tefsir-8 konusu."
+  },
+  {
+   "id": "md25-14",
+   "ders": "Tefsir",
+   "z": 3,
+   "s": "Hucurât sûresiyle ilgili\nI. Fâsık birinin getirdiği haberin araştırılması (tebeyyün) emredilir.\nII. Gıybet, ölü kardeşinin etini yemeye benzetilir.\nIII. Allah katında üstünlüğün ölçüsü soy ve servet olarak belirtilir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "I ve III",
+    "II ve III"
+   ],
+   "d": 2,
+   "a": "Hadis usulündeki cerh-ta‘dil ilminin Kur’anî dayanağı Hucurât 49/6’dır.",
+   "ac": [
+    "İkinci ifade de doğrudur (49/12).",
+    "Birinci ifade de doğrudur (49/6).",
+    "Doğru; üstünlüğün ölçüsü takvadır (49/13).",
+    "Üçüncü ifade yanlıştır.",
+    "Üçüncü ifade yanlış, birinci ifade doğrudur."
+   ],
+   "kay": "Tefsir-9 konusu."
+  },
+  {
+   "id": "md25-15",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "Gazzâlî öncesi Eş‘arî kelamcılarının (mütekaddimîn) benimsediği, sonraki dönemde (müteahhirîn) terk edilen ilke aşağıdakilerden hangisidir?",
+   "c": [
+    "“Akıl, nakille çatışırsa nakil esas alınır.”",
+    "“Delilin bâtıl olması, medlûlün (delille ispatlanan hükmün) bâtıl olmasını gerektirir.”",
+    "“Her hâdisin bir muhdisi vardır.”",
+    "“Teselsül imkânsızdır.”",
+    "“Eşyanın hakikatleri sabittir.”"
+   ],
+   "d": 1,
+   "a": "İbn Haldun’a göre müteahhirîn döneminde kelam ile felsefe birbirine karışmıştır.",
+   "ac": [
+    "Bu, bir bilgi kaynakları tartışmasıdır; mütekaddimîn ilkesi olarak bilinmez.",
+    "Doğru; mütekaddimîn kullandıkları delillere bu yüzden sıkı bağlıydı.",
+    "Hudûs delilinin öncülüdür; terk edilmemiştir.",
+    "Her iki dönemde de kabul edilmiştir.",
+    "Ehl-i sünnetin genel bilgi ilkesidir."
+   ],
+   "kay": "Kelam-1 konusu."
+  },
+  {
+   "id": "md25-16",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "Aşağıdaki kelam eseri – müellif eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Tabsıratü’l-edille – Ebü’l-Muîn en-Nesefî",
+    "el-Akāid – Necmeddin Ömer en-Nesefî",
+    "Şerhu’l-Akāid – Teftâzânî",
+    "Tabsıratü’l-edille – Necmeddin Ömer en-Nesefî",
+    "Kitâbü’t-Tevhîd – Ebû Mansûr el-Mâtürîdî"
+   ],
+   "d": 3,
+   "a": "Mâtürîdîliği ekolleştiren âlim Ebü’l-Muîn en-Nesefî kabul edilir.",
+   "ac": [
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Yanlış; Tabsıratü’l-edille Ebü’l-Muîn en-Nesefî’nindir.",
+    "Doğru eşleştirmedir."
+   ],
+   "kay": "Kelam-1 konusu."
+  },
+  {
+   "id": "md25-17",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "Ehl-i sünnete göre bilgi kaynaklarından olan “haber-i sâdık”ın iki türünden\n• mütevatir haber,\n• peygamberin haberi\nsırasıyla hangi tür bilgi ifade eder?",
+   "c": [
+    "İstidlâlî – zarûrî",
+    "Zarûrî – istidlâlî",
+    "Zannî – zarûrî",
+    "Zarûrî – zannî",
+    "Zannî – zannî"
+   ],
+   "d": 1,
+   "a": "Nesefî’ye göre bilgi kaynakları selim duyular, haber-i sâdık ve akıldır.",
+   "ac": [
+    "Sıralama tersinedir.",
+    "Doğru; mütevatir zorunlu bilgi verir, peygamberin haberi ise mucizeye dayalı akıl yürütmeyle bilinir.",
+    "Mütevatir zan değil kesin bilgi ifade eder.",
+    "Peygamberin haberi kesin bilgi ifade eder.",
+    "Her iki haber de kesin bilgi ifade eder."
+   ],
+   "kay": "Kelam-1 konusu."
+  },
+  {
+   "id": "md25-18",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "Halef âlimleri haberî sıfatları içeren âyetleri, Allah’ı yaratılmışlara benzetmekten kaçınmak için te’vil etmişlerdir.\nAşağıdaki kelime – te’vil eşleştirmelerinden hangisi bu yaklaşıma uygun değildir?",
+   "c": [
+    "Yed (el) – kudret veya nimet",
+    "Vech (yüz) – zât",
+    "İstivâ – istîlâ, hâkimiyet",
+    "Nüzûl (inme) – Allah’ın bir mekândan başka bir mekâna hareket etmesi",
+    "Ayn (göz) – gözetim, koruma"
+   ],
+   "d": 3,
+   "a": "Selef bu âyetleri keyfiyetini sormadan kabul eder (tefvîz); İmam Mâlik’in istivâ sözü bunun simgesidir.",
+   "ac": [
+    "Halefin yaygın te’vilidir.",
+    "Halefin yaygın te’vilidir.",
+    "Halefin yaygın te’vilidir.",
+    "Doğru; bu bir te’vil değil teşbihtir; halef nüzûlü rahmetin inmesi diye yorumlar.",
+    "Halefin yaygın te’vilidir."
+   ],
+   "kay": "Kelam-3 konusu."
+  },
+  {
+   "id": "md25-19",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "Kulun gücünün yetmediği bir şeyle yükümlü tutulması (teklîf-i mâ lâ yutâk) konusunda aşağıdaki görüşlerden hangisi Eş‘arîlere aittir?",
+   "c": [
+    "Aklen câiz değildir; Bakara 2/286 bunu açıkça reddeder.",
+    "Aklen câizdir, ancak fiilen vuku bulmamıştır.",
+    "Hem aklen câizdir hem de bütün kullar için vuku bulmuştur.",
+    "Yalnız peygamberler için câizdir.",
+    "Yalnız ahiret hayatında söz konusudur."
+   ],
+   "d": 1,
+   "a": "Mâtürîdîlere göre teklif kulun gücüyle sınırlıdır; Allah’ın hikmeti bunu gerektirir.",
+   "ac": [
+    "Bu, Mâtürîdî ve Mu‘tezile’nin görüşüdür.",
+    "Doğru; Eş‘arîler Allah’ın mutlak irade sahibi olduğu gerekçesiyle aklen câiz görür.",
+    "Eş‘arîler vukuunu kabul etmez.",
+    "Böyle bir ayrım yapılmamıştır.",
+    "Tartışma dünyadaki yükümlülükle ilgilidir."
+   ],
+   "kay": "Kelam-9 konusu."
+  },
+  {
+   "id": "md25-20",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "Ehl-i sünnet kelamcılarına göre\nI. Öldürülen kişi kendi eceliyle ölmüştür.\nII. Haram da rızık kapsamına girer.\nIII. Rızkın yalnız helal mülk olduğu görüşü Mu‘tezile’ye aittir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Ka‘bî’ye göre öldürülenin iki eceli vardır.",
+   "ac": [
+    "İkinci ve üçüncü ifadeler de doğrudur.",
+    "Üçüncü ifade de doğrudur.",
+    "İkinci ifade de doğrudur; Ehl-i sünnete göre faydalanılan her şey rızıktır.",
+    "Birinci ifade de doğrudur.",
+    "Doğru; Mu‘tezile’ye göre öldürülenin eceli kesilmiştir."
+   ],
+   "kay": "Kelam-9 konusu."
+  },
+  {
+   "id": "md25-21",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "Kesin bilginin dereceleriyle ilgili\nI. İlmelyakîn delille elde edilen kesin bilgidir.\nII. Aynelyakîn görerek elde edilen kesin bilgidir.\nIII. Hakkalyakîn ifadesi Tekâsür sûresinde geçer.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "I ve III",
+    "II ve III"
+   ],
+   "d": 2,
+   "a": "Tahkikî iman delille, taklidî iman ise delil bilmeden inanmaktır.",
+   "ac": [
+    "İkinci ifade de doğrudur (Tekâsür 102/7).",
+    "Birinci ifade de doğrudur (Tekâsür 102/5).",
+    "Doğru; hakkalyakîn Vâkıa 56/95’te geçer.",
+    "Üçüncü ifade yanlıştır.",
+    "Üçüncü ifade yanlış, birinci ifade doğrudur."
+   ],
+   "kay": "Kelam-10 konusu."
+  },
+  {
+   "id": "md25-22",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Bir dernek, köyde yaptırılacak caminin inşaatına harcanmak üzere zekât toplamak istemektedir.\nHanefî mezhebine göre bu uygulamayla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Câizdir; cami “fî sebîlillâh” kapsamına girer.",
+    "Câizdir; çünkü cami herkese aittir.",
+    "Câizdir, ancak zekâtın yarısı kadarıyla sınırlıdır.",
+    "Yalnız fitre için câizdir.",
+    "Câiz değildir; zekâtta bir fakirin mülküne geçirme (temlik) şartı vardır."
+   ],
+   "d": 4,
+   "a": "Ölünün borcunun zekâtla ödenmesi de temlik olmadığı için câiz görülmez.",
+   "ac": [
+    "Hanefîlere göre fî sebîlillâh, ihtiyaç sahibi kişilerdir; bina bu kapsamda değildir.",
+    "Ortak kullanım temlik yerine geçmez.",
+    "Böyle bir sınırlama yoktur; temlik şartı gerçekleşmediği için câiz değildir.",
+    "Fitrede de temlik şartı vardır.",
+    "Doğru; cami, yol ve kefen gibi işler için doğrudan zekât verilmez."
+   ],
+   "kay": "Fıkıh-12 konusu."
+  },
+  {
+   "id": "md25-23",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Ahmet, araştırıp fakir olduğuna kanaat getirdiği birine zekâtını vermiş, sonra bu kişinin zengin olduğu ortaya çıkmıştır.\nHanefî mezhebine göre bu durumla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Ebû Hanîfe ve İmam Muhammed’e göre zekât geçerlidir; Ebû Yûsuf’a göre yeniden verilmesi gerekir.",
+    "Bütün Hanefî imamlarına göre zekâtı yeniden vermesi gerekir.",
+    "Bütün Hanefî imamlarına göre zekât geçerlidir.",
+    "Zekâtı geri isteyip başkasına vermesi farzdır.",
+    "Zekâtı sadakaya dönüşür ve hiçbir sorumluluk kalmaz."
+   ],
+   "d": 0,
+   "a": "Zekât verilecek kişi hakkında araştırma yapmak gerekir; araştırmadan verenin yanılması hâlinde zekât geçerli olmaz.",
+   "ac": [
+    "Doğru; araştırarak hareket eden kişi sorumluluğunu yerine getirmiştir.",
+    "Ebû Hanîfe ve İmam Muhammed zekâtı geçerli sayar.",
+    "Ebû Yûsuf farklı görüştedir.",
+    "Verilen zekâtın geri istenmesi gerekmez.",
+    "Ebû Yûsuf’a göre zekât borcu devam eder."
+   ],
+   "kay": "Fıkıh-12 konusu."
+  },
+  {
+   "id": "md25-24",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Tevbe 9/60’ta zekâtın verileceği yerler arasında sayılan “gârimîn” aşağıdakilerden hangisidir?",
+   "c": [
+    "Yolda kalmış yolcular",
+    "Köleler",
+    "Kalpleri İslam’a ısındırılacak olanlar",
+    "Zekât toplayan görevliler",
+    "Borçlular"
+   ],
+   "d": 4,
+   "a": "Hanefîlere göre zekâtın sekiz sınıfın hepsine paylaştırılması şart değildir.",
+   "ac": [
+    "Bunlar “ibnü’s-sebîl”dir.",
+    "Bunlar “rikāb”dır.",
+    "Bunlar “müellefe-i kulûb”dur.",
+    "Bunlar “âmilîn”dir.",
+    "Doğru; borcunu ödeyemeyen kişilerdir."
+   ],
+   "kay": "Fıkıh-12 konusu."
+  },
+  {
+   "id": "md25-25",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Tavaf ve sa‘yde uygulanan bazı sünnetlerle ilgili aşağıdaki kavram – tanım eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Remel – Tavafın ilk üç şavtında omuzları silkeleyerek çalımlı yürümek",
+    "Iztıbâ – İhram örtüsünün sağ omzu açık bırakılarak giyilmesi",
+    "Remel – Sa‘yde yeşil ışıklar arasında koşar adım yürümek",
+    "Hervele – Sa‘yde yeşil ışıklar arasında koşar adım yürümek",
+    "İstilâm – Hacerülesved’i öpmek veya el ile işaret etmek"
+   ],
+   "d": 2,
+   "a": "Kudüm tavafı sünnet, ziyaret tavafı farz, veda tavafı vaciptir.",
+   "ac": [
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Yanlış; bu tanım hervelenin tanımıdır.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir."
+   ],
+   "kay": "Fıkıh-13 konusu."
+  },
+  {
+   "id": "md25-26",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hanefî mezhebine göre hacda Arafat vakfesinden sonra, tıraş olup ihramdan çıkmadan önce eşiyle cinsel ilişkide bulunan kişinin durumu aşağıdakilerden hangisidir?",
+   "c": [
+    "Haccı bozulur; ertesi yıl kaza etmesi gerekir.",
+    "Hiçbir ceza gerekmez.",
+    "Haccı geçerlidir; yalnız bir koyun (dem) kesmesi yeterlidir.",
+    "Haccı geçerlidir; bedene (deve veya sığır) kesmesi gerekir.",
+    "Haccı geçerlidir; üç gün oruç tutması yeterlidir."
+   ],
+   "d": 3,
+   "a": "Ziyaret tavafını cünüp veya hayızlı yapmak da bedene gerektirir.",
+   "ac": [
+    "Hac, ilişki Arafat vakfesinden önce olursa bozulur.",
+    "İhram yasağı ihlal edildiği için ceza gerekir.",
+    "Büyük tahallülden önceki bu ihlalde ceza bedenedir.",
+    "Doğru; vakfeden sonra tıraştan önce ilişki bedene gerektirir.",
+    "Bu ihlalde oruç yeterli değildir."
+   ],
+   "kay": "Fıkıh-13 konusu."
+  },
+  {
+   "id": "md25-27",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hacca giden Mehmet, hastalanması sebebiyle Arafat vakfesine yetişememiştir.\nHanefî mezhebine göre Mehmet’in durumu aşağıdakilerden hangisidir?",
+   "c": [
+    "Fevât hâlindedir; umre yaparak ihramdan çıkar ve haccını ertesi yıl kaza eder.",
+    "İhsâr hâlindedir; hedy kurbanı kestirip ihramdan çıkar.",
+    "Haccı geçerlidir; yalnız dem gerekir.",
+    "Müzdelife’de vakfe yaparsa haccı tamamlanır.",
+    "Hiçbir şey yapmadan ihramdan çıkar."
+   ],
+   "d": 0,
+   "a": "Arafat vakfesinin vakti 9 Zilhicce zevalden bayram sabahı fecre kadardır.",
+   "ac": [
+    "Doğru; Arafat vakfesini kaçıran haccı kaçırmış olur.",
+    "İhsâr, ihramdan sonra Kâbe’ye ulaşmaktan engellenmektir.",
+    "Arafat vakfesi haccın rüknüdür; terkiyle hac gerçekleşmez.",
+    "Müzdelife vakfesi Arafat vakfesinin yerini tutmaz.",
+    "İhramdan çıkmak için umre yapması gerekir."
+   ],
+   "kay": "Fıkıh-13 konusu."
+  },
+  {
+   "id": "md25-28",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hanefî mezhebine göre umre ile ilgili\nI. İhram umrenin şartıdır.\nII. Tavaf umrenin rüknüdür.\nIII. Sa‘y ve tıraş umrenin vaciplerindendir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Arefe günü ve bayram günlerinde umre yapmak tahrîmen mekruhtur.",
+   "ac": [
+    "İkinci ve üçüncü ifadeler de doğrudur.",
+    "Üçüncü ifade de doğrudur.",
+    "İkinci ifade de doğrudur.",
+    "Birinci ifade de doğrudur.",
+    "Doğru; umrede vakfe yoktur ve belirli bir vakti bulunmaz."
+   ],
+   "kay": "Fıkıh-13 konusu."
+  },
+  {
+   "id": "md25-29",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Ahmet’in danası kaçmış, yakalanamayınca Ahmet besmele çekerek hayvanı tüfekle vurmuş, hayvan da vurulduğu yerde ölmüştür.\nHanefî mezhebine göre bu hayvanın eti hakkında aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Yenmez; çünkü boğazından kesilmemiştir.",
+    "Yenir; bu durum ıztırârî kesim hükmündedir.",
+    "Yenir, ancak mekruhtur.",
+    "Yenmez; çünkü evcil hayvanlar avlanamaz.",
+    "Yalnız fakirlere verilebilir."
+   ],
+   "d": 1,
+   "a": "Gücü yetilen hayvan boğazından kesilir (ihtiyârî kesim); Ebû Hanîfe’ye göre dört damardan herhangi üçünün kesilmesi yeterlidir.",
+   "ac": [
+    "Gücü yetilemeyen hayvanda boğazdan kesme şartı aranmaz.",
+    "Doğru; kaçan ve yakalanamayan hayvan herhangi bir yerinden yaralanarak kesilmiş sayılır.",
+    "Iztırârî kesimle elde edilen et mekruh değildir.",
+    "Kaçıp yabanileşen evcil hayvan av hükmündedir.",
+    "Et helaldir; sahibi de yiyebilir."
+   ],
+   "kay": "Fıkıh-15 konusu."
+  },
+  {
+   "id": "md25-30",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hanefî mezhebine göre av hayvanlarıyla ilgili\nI. Avcı köpek yakaladığı avdan yerse av yenmez.\nII. Avcı doğan yakaladığı avdan yerse av yenir.\nIII. Besmele kasten terk edilerek avlanan hayvan yenir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "I ve III",
+    "II ve III"
+   ],
+   "d": 2,
+   "a": "Şâfiîlere göre besmele terk edilse de kesilen hayvanın eti yenir.",
+   "ac": [
+    "İkinci ifade de doğrudur.",
+    "Birinci ifade de doğrudur.",
+    "Doğru; köpek eğitimle yemeyi bırakabilir, doğan ise bırakmaz.",
+    "Üçüncü ifade yanlıştır; Hanefîlere göre besmelenin kasten terki hayvanı haram kılar.",
+    "Üçüncü ifade yanlış, birinci ifade doğrudur."
+   ],
+   "kay": "Fıkıh-15 konusu."
+  },
+  {
+   "id": "md25-31",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hadislerde lanetlendiği bildirilen “vasl”, “veşm” ve “nems” uygulamaları sırasıyla aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Kaş yolma – saç ekleme – dövme",
+    "Saç ekleme – dövme – kaş yolma",
+    "Dövme – kaş yolma – saç ekleme",
+    "Saç ekleme – kaş yolma – dövme",
+    "Diş törpüleme – dövme – saç ekleme"
+   ],
+   "d": 1,
+   "a": "İpek ve altın kullanmak erkeklere haram, kadınlara helaldir.",
+   "ac": [
+    "Sıralama karışıktır.",
+    "Doğru; vasl saça saç eklemek, veşm dövme yaptırmak, nems kaşı yolmaktır.",
+    "Sıralama karışıktır.",
+    "Veşm dövme, nems kaş yolmadır.",
+    "Diş törpüleme “teflîc”tir; vasl saç eklemedir."
+   ],
+   "kay": "Fıkıh-15 konusu."
+  },
+  {
+   "id": "md25-32",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Ahmet bir kadınla nikâhlanmış, zifaf ve sahih halvet olmadan onu boşamıştır. Daha sonra bu kadının önceki evliliğinden olan kızıyla evlenmek istemektedir.\nHanefî mezhebine göre bu evlilik hakkında aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Câiz değildir; eşinin kızı her durumda sürekli haramdır.",
+    "Annesi vefat ederse câiz olur.",
+    "Câiz değildir; nikâh akdi tek başına sürekli haramlık doğurur.",
+    "Ancak üç yıl geçtikten sonra câizdir.",
+    "Câizdir; annesiyle zifaf olmadığı için kızı sürekli haram değildir."
+   ],
+   "d": 4,
+   "a": "Eşin annesi ise yalnız nikâh akdiyle sürekli haram olur.",
+   "ac": [
+    "Üvey kızın haramlığı annesiyle zifafa bağlıdır (Nisâ 4/23).",
+    "Boşanmayla durum değişmez; belirleyici olan zifaftır.",
+    "Bu hüküm eşin annesi için geçerlidir, üvey kız için değildir.",
+    "Böyle bir süre şartı yoktur.",
+    "Doğru; âyette “zifaf yaptığınız hanımlarınızdan” kaydı vardır."
+   ],
+   "kay": "Fıkıh-16 konusu."
+  },
+  {
+   "id": "md25-33",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Şahitsiz kıyılan bir nikâhtan sonra eşler arasında zifaf gerçekleşmiştir.\nHanefî mezhebine göre bu nikâhla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Nikâh bâtıldır; hiçbir hüküm doğurmaz.",
+    "Nikâh sahihtir; şahit şartı yalnız ispat içindir.",
+    "Nikâh mevkuftur; şahitlerin sonradan onayıyla geçerli olur.",
+    "Nikâh fâsittir; eşlerin ayrılması gerekir, zifaf olduğu için mehir, iddet ve nesep sabit olur.",
+    "Nikâh geçerlidir, ancak yeniden kıyılması müstehaptır."
+   ],
+   "d": 3,
+   "a": "Bâtıl nikâh, sürekli bir evlenme engeli bulunan kişiyle kıyılan nikâhtır ve hiçbir hüküm doğurmaz.",
+   "ac": [
+    "Şahit eksikliği nikâhı bâtıl değil fâsit kılar.",
+    "Hanefîlere göre şahit nikâhın sıhhat şartıdır.",
+    "Mevkuf nikâh yetkisiz kişinin kıydığı nikâhtır.",
+    "Doğru; fâsit nikâhta zifaf bazı hükümler doğurur.",
+    "Fâsit nikâhta ayrılmak gerekir."
+   ],
+   "kay": "Fıkıh-16 konusu."
+  },
+  {
+   "id": "md25-34",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Kocanın eşine dört ay veya daha uzun süre yaklaşmayacağına yemin etmesine ne ad verilir?",
+   "c": [
+    "Zıhar",
+    "Li‘ân",
+    "İlâ",
+    "Hul‘",
+    "Tefvîz"
+   ],
+   "d": 2,
+   "a": "Hanefîlere göre koca dört ay içinde eşine dönmezse bir bâin talak gerçekleşir.",
+   "ac": [
+    "Kocanın eşini annesi gibi kendisine haram olan biriyle bir tutmasıdır.",
+    "Eşin zina ile itham edilmesi üzerine yapılan karşılıklı lanetleşmedir.",
+    "Doğru; Bakara 2/226-227’de düzenlenmiştir.",
+    "Kadının bedel karşılığında ayrılmasıdır.",
+    "Boşama yetkisinin kadına devredilmesidir."
+   ],
+   "kay": "Fıkıh-17 konusu."
+  },
+  {
+   "id": "md25-35",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Zifaf ve sahih halvet olmadan boşanan kadının iddetiyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "İddet beklemesi gerekmez.",
+    "Üç ay iddet bekler.",
+    "Dört ay on gün iddet bekler.",
+    "Üç hayız iddet bekler.",
+    "Doğuma kadar bekler."
+   ],
+   "d": 0,
+   "a": "Kocası vefat eden kadın, zifaf olmasa da dört ay on gün iddet bekler.",
+   "ac": [
+    "Doğru; Ahzâb 33/49’a göre zifaftan önce boşanan kadına iddet yoktur.",
+    "Bu, hayız görmeyen boşanmış kadının iddetidir.",
+    "Bu, kocası vefat eden kadının iddetidir.",
+    "Bu, zifaftan sonra boşanan ve hayız gören kadının iddetidir.",
+    "Bu, hamile kadının iddetidir."
+   ],
+   "kay": "Fıkıh-17 konusu."
+  },
+  {
+   "id": "md25-36",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Anne bir kardeşlerin mirastaki paylarıyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Erkek kardeş kız kardeşin iki katı alır.",
+    "Tek ise 1/6, birden fazla ise 1/3’ü erkek-kadın ayrımı yapmadan eşit paylaşırlar.",
+    "Tek ise 1/2, birden fazla ise 2/3 alırlar.",
+    "Ölenin çocuğu olsa da mirasçı olurlar.",
+    "Asabe olarak kalanı alırlar."
+   ],
+   "d": 1,
+   "a": "Asabe, ashâbü’l-ferâizden arta kalanı alan erkek tarafı yakınlardır; oğul asabenin başıdır.",
+   "ac": [
+    "Anne bir kardeşler arasında erkek-kadın ayrımı yapılmaz.",
+    "Doğru; Nisâ 4/12’de belirlenmiştir.",
+    "Bu paylar kız çocuklar ve ana-baba bir kız kardeşler içindir.",
+    "Çocuk, baba ve dede anne bir kardeşleri mirastan düşürür.",
+    "Anne bir kardeşler ashâbü’l-ferâizdendir, asabe değildir."
+   ],
+   "kay": "Fıkıh-18 konusu."
+  },
+  {
+   "id": "md25-37",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Mirasçıların belirlenmiş payları toplamı terekeyi aştığında, payların oranlı olarak küçültülmesi esasına dayanan ve ilk kez Hz. Ömer döneminde uygulanan yöntem aşağıdakilerden hangisidir?",
+   "c": [
+    "Avl",
+    "Redd",
+    "Hacb-i hirmân",
+    "Hacb-i nuksân",
+    "Tahâruc"
+   ],
+   "d": 0,
+   "a": "Avl meselesine örnek: koca ve iki ana-baba bir kız kardeş (1/2 + 2/3).",
+   "ac": [
+    "Doğru; paydalar büyütülerek her mirasçının payı oranlı olarak azaltılır.",
+    "Paylar terekeden az kalınca artanın eşler dışındaki pay sahiplerine dağıtılmasıdır.",
+    "Bir mirasçının başka biri sebebiyle mirastan tamamen düşmesidir.",
+    "Bir mirasçının payının başka biri sebebiyle azalmasıdır.",
+    "Mirasçılardan birinin bir bedel karşılığında mirastan çekilmesidir."
+   ],
+   "kay": "Fıkıh-18 konusu."
+  },
+  {
+   "id": "md25-38",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hanefî mezhebine göre\nI. Zevi’l-erhâm mirasçıdır.\nII. Mirasçıya yapılan vasiyet diğer mirasçıların onayına bağlıdır.\nIII. Vasiyet malın yarısına kadar onaya gerek olmadan geçerlidir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "I ve III",
+    "II ve III"
+   ],
+   "d": 2,
+   "a": "Terekeden sırasıyla teçhiz-tekfin masrafları, borçlar ve vasiyet ödenir; kalan mirasçılara paylaştırılır.",
+   "ac": [
+    "İkinci ifade de doğrudur.",
+    "Birinci ifade de doğrudur; kızın çocukları, hala, dayı ve teyze zevi’l-erhâmdandır.",
+    "Doğru; vasiyet malın üçte birini aşamaz.",
+    "Üçüncü ifade yanlıştır.",
+    "Üçüncü ifade yanlış, birinci ifade doğrudur."
+   ],
+   "kay": "Fıkıh-18 konusu."
+  },
+  {
+   "id": "md25-39",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Emanet satışlardan (büyû‘u’l-emâne) biri olan ve malın maliyetinin altında bir fiyatla satılmasını ifade eden satış türü aşağıdakilerden hangisidir?",
+   "c": [
+    "Murâbaha",
+    "Tevliye",
+    "Vazîa",
+    "Selem",
+    "Müzâbene"
+   ],
+   "d": 2,
+   "a": "Emanet satışlarda satıcının maliyeti doğru bildirmesi gerekir.",
+   "ac": [
+    "Maliyet üzerine belirli bir kâr eklenerek yapılan satıştır.",
+    "Malın maliyetine satılmasıdır.",
+    "Doğru; maliyetin altında satıştır.",
+    "Bedeli peşin, malı vadeli satıştır.",
+    "Ağaçtaki yaş hurmanın tahminle kuru hurmaya satılmasıdır ve yasaktır."
+   ],
+   "kay": "Fıkıh-19 konusu."
+  },
+  {
+   "id": "md25-40",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Ahmet’in Mehmet’e 10.000 TL borcu vardır. Ahmet, Ali’den olan 10.000 TL alacağını Mehmet’e devretmiş; Mehmet ve Ali bunu kabul etmiştir.\nBu işlemle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Bu işlem kefalettir; Ahmet de borçtan sorumlu olmaya devam eder.",
+    "Bu işlem geçersizdir; borç başkasına devredilemez.",
+    "Bu işlem rehindir; Ali’nin borcu güvence olarak tutulur.",
+    "Bu işlem hibedir; Ahmet Mehmet’e karşılıksız mal vermiştir.",
+    "Bu işlem havaledir; Ahmet Mehmet’e olan borcundan kurtulur."
+   ],
+   "d": 4,
+   "a": "Hibe, karşılıksız temliktir ve kabzla tamamlanır.",
+   "ac": [
+    "Kefalette asıl borçlu kurtulmaz, fakat burada borç nakledilmiştir.",
+    "Havale meşru bir akittir.",
+    "Rehin, alacağa karşı bir malın güvence olarak tutulmasıdır.",
+    "Ahmet borcunu ödemek için alacağını devretmiştir.",
+    "Doğru; havalede borç başka bir kişiye nakledilir."
+   ],
+   "kay": "Fıkıh-20 konusu."
+  },
+  {
+   "id": "md25-41",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hanefî mezhebine göre satılan bir akar için şuf‘a hakkına sahip olanların öncelik sırası aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Bitişik komşu – mülkte ortak olan – irtifak hakkında ortak olan",
+    "Mülkte ortak olan – irtifak hakkında ortak olan – bitişik komşu",
+    "İrtifak hakkında ortak olan – bitişik komşu – mülkte ortak olan",
+    "Mülkte ortak olan – bitişik komşu – irtifak hakkında ortak olan",
+    "Yalnız mülkte ortak olan"
+   ],
+   "d": 1,
+   "a": "Ebû Hanîfe’ye göre vakıf lâzım (bağlayıcı) değildir; İmâmeyn’e göre lâzımdır ve fetva bu görüşe göredir.",
+   "ac": [
+    "Mülkte ortak olan önceliklidir.",
+    "Doğru; Hanefîlerde şuf‘a komşuya da tanınmıştır.",
+    "Mülkte ortak olan en öndedir.",
+    "İrtifak ortağı komşudan önce gelir.",
+    "Hanefîler şuf‘ayı ortakla sınırlamaz; diğer mezhepler sınırlar."
+   ],
+   "kay": "Fıkıh-20 konusu."
+  },
+  {
+   "id": "md25-42",
+   "ders": "Hadis",
+   "z": 2,
+   "s": "Aynı tabakada bulunan akran iki râvinin karşılıklı olarak birbirinden hadis rivayet etmesine ne ad verilir?",
+   "c": [
+    "Müselsel",
+    "Rivâyetü’l-ekâbir ani’l-esâğır",
+    "Mu‘an‘an",
+    "Mudebbec",
+    "Mürsel"
+   ],
+   "d": 3,
+   "a": "Hicrî 300’den önce yaşamış hadis âlimlerine mütekaddimûn denir.",
+   "ac": [
+    "Râvilerin aynı söz veya hâli tekrarladığı rivayettir.",
+    "Büyüklerin küçüklerden rivayetidir.",
+    "“An” edatıyla yapılan rivayettir.",
+    "Doğru; akranların karşılıklı rivayetidir.",
+    "Tâbiînin sahâbîyi zikretmeden yaptığı rivayettir."
+   ],
+   "kay": "Hadis-2 konusu."
+  },
+  {
+   "id": "md25-43",
+   "ders": "Hadis",
+   "z": 3,
+   "s": "Bir râvi, hocasının tanınmaması için onu bilinmeyen bir künye veya lakapla anarak rivayette bulunmuştur.\nBu davranış aşağıdaki tedlîs türlerinden hangisine girer?",
+   "c": [
+    "Tedlîsü’l-isnâd",
+    "Tedlîsü’ş-şuyûh",
+    "Tedlîsü’t-tesviye",
+    "Tedlîsü’l-kat‘",
+    "İdrâc"
+   ],
+   "d": 1,
+   "a": "Müdellis râvi “an” ile rivayet ederse, işittiğini açıklamadıkça hadisinde tevakkuf edilir.",
+   "ac": [
+    "Görüştüğü bir hocadan duymadığını duymuş gibi rivayet etmektir.",
+    "Doğru; hocayı tanınmayacak bir adla anmaktır.",
+    "İki sika arasındaki zayıf râviyi düşürüp senedi düzgün göstermektir; en kötü türdür.",
+    "Râvinin “haddesenâ” deyip susması, sonra hocanın adını söylemesidir.",
+    "Râvinin sözünün hadise karışmasıdır; tedlîs değildir."
+   ],
+   "kay": "Hadis-4 konusu."
+  },
+  {
+   "id": "md25-44",
+   "ders": "Hadis",
+   "z": 3,
+   "s": "Zayıf hadisle fezâil konularında amel edilebilmesi için âlimlerin ileri sürdüğü\nI. Hadisin şiddetli zayıf olmaması\nII. Genel bir dinî esasa dayanması\nIII. Hadisin kesin olarak sabit olduğuna inanılması\nşartlarından hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "I ve III",
+    "II ve III"
+   ],
+   "d": 2,
+   "a": "Zayıf hadis ahkâm ve akaid konularında delil olarak kullanılmaz.",
+   "ac": [
+    "İkinci şart da doğrudur.",
+    "Birinci şart da doğrudur.",
+    "Doğru; amel ederken kesin sübutuna inanılmaması şarttır.",
+    "Üçüncü şart yanlıştır.",
+    "Üçüncü şart yanlış, birinci şart doğrudur."
+   ],
+   "kay": "Hadis-4 konusu."
+  },
+  {
+   "id": "md25-45",
+   "ders": "Hadis",
+   "z": 3,
+   "s": "Bir hadisin rivayetinde her râvi, talebesine hadisi aktarırken Hz. Peygamber’in Muâz b. Cebel’e söylediği “Ey Muâz! Vallahi ben seni seviyorum.” sözünü tekrar etmiştir.\nBu hadis râvilerin bu özelliği bakımından aşağıdaki türlerden hangisine örnektir?",
+   "c": [
+    "Azîz",
+    "Mudebbec",
+    "Müselsel",
+    "Âlî isnad",
+    "Maklûb"
+   ],
+   "d": 2,
+   "a": "Müselsel hadislerde râvilerin aynı söz, hâl veya sıfatı tekrar etmesi rivayetin ezberlenmesine yardımcı olur.",
+   "ac": [
+    "Her tabakada en az iki râvinin bulunduğu hadistir.",
+    "Akranların karşılıklı rivayetidir.",
+    "Doğru; bu hadis müselsel bi’l-mahabbe diye bilinir.",
+    "Az râvili sened demektir.",
+    "Takdim-tehir yapılan hadistir."
+   ],
+   "kay": "Hadis-5 konusu."
+  },
+  {
+   "id": "md25-46",
+   "ders": "Hadis",
+   "z": 3,
+   "s": "Mürsel hadisin delil değeriyle ilgili aşağıdaki görüş – sahibi eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Hadisçilerin çoğunluğu – sahih kabul eder.",
+    "Mâlikîler – delil kabul eder.",
+    "Şâfiî – belli şartlarla kabul eder.",
+    "Hanefîler – delil kabul eder.",
+    "Sahâbînin mürseli – ittifakla delildir."
+   ],
+   "d": 0,
+   "a": "Ebû Dâvûd’un el-Merâsîl’i mürsel hadisleri toplayan eserdir.",
+   "ac": [
+    "Yanlış; muhaddislerin çoğunluğu mürseli zayıf sayar.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir; Saîd b. Müseyyeb’in mürsellerini kabul eder.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir."
+   ],
+   "kay": "Hadis-5 konusu."
+  },
+  {
+   "id": "md25-47",
+   "ders": "Hadis",
+   "z": 3,
+   "s": "Aşağıdaki hadis eseri – müellif – konu eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Nasbu’r-râye – Zeylaî – Hidâye’deki hadislerin tahrîci",
+    "el-Muğnî an hamli’l-esfâr – Irâkî – İhyâ’daki hadislerin tahrîci",
+    "en-Nihâye – İbnü’l-Esîr – garîbü’l-hadîs",
+    "Meşâriku’l-envâr – Nevevî – Buhârî şerhi",
+    "Riyâzü’s-sâlihîn – Nevevî – ahlak ve âdâb hadisleri"
+   ],
+   "d": 3,
+   "a": "Diyanet için hazırlanan Tecrîd-i Sarîh Tercemesi Babanzâde Ahmed Naim ve Kâmil Miras’ın eseridir.",
+   "ac": [
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Yanlış; Meşâriku’l-envâr Sâğânî’nindir ve Osmanlı’da İbn Melek şerhiyle okunmuştur.",
+    "Doğru eşleştirmedir."
+   ],
+   "kay": "Hadis-9 konusu."
+  },
+  {
+   "id": "md25-48",
+   "ders": "Hadis",
+   "z": 2,
+   "s": "Hadis literatüründe “Kütüb-i hamse” ifadesiyle aşağıdakilerden hangisi kastedilir?",
+   "c": [
+    "Şîa’nın beş temel hadis kitabı",
+    "Kütüb-i sitte’den Buhârî’nin Sahîh’i dışındaki beş eser",
+    "Dört sünen ile Muvatta‘",
+    "Ahmed b. Hanbel’in Müsned’i ile dört sünen",
+    "Kütüb-i sitte’den İbn Mâce’nin Sünen’i dışındaki beş eser"
+   ],
+   "d": 4,
+   "a": "İbn Mâce’yi altıncı kitap olarak ilk sayan İbn Tâhir el-Makdisî’dir.",
+   "ac": [
+    "Şîa’nın temel kitapları kütüb-i erbaadır.",
+    "Sahîh-i Buhârî Kütüb-i hamse’ye dâhildir.",
+    "Kütüb-i hamse içinde Muvatta‘ yoktur.",
+    "Müsned Kütüb-i hamse içinde değildir.",
+    "Doğru; Buhârî, Müslim, Ebû Dâvûd, Tirmizî ve Nesâî’nin eserleridir."
+   ],
+   "kay": "Hadis-8 konusu."
+  },
+  {
+   "id": "md25-49",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "Sahâbîlerden\n• Recî‘ olayında esir düşen,\n• Mekke’ye götürülüp müşriklere satılan,\n• idam edilmeden önce iki rekât namaz kılma izni isteyerek bu uygulamayı başlatan\nkişi aşağıdakilerden hangisidir?",
+   "c": [
+    "Hubeyb b. Adî",
+    "Zeyd b. Desine",
+    "Âsım b. Sâbit",
+    "Münzir b. Amr",
+    "Mus‘ab b. Umeyr"
+   ],
+   "d": 0,
+   "a": "Bi’r-i Maûne’de yetmiş kurrâ şehit edilmiş, Hz. Peygamber bir ay kunut yapmıştır.",
+   "ac": [
+    "Doğru; idamdan önce namaz kılmak onunla sünnet olmuştur.",
+    "Recî‘ olayında esir düşüp Mekke’de şehit edilen diğer sahâbîdir; namaz uygulaması ona nispet edilmez.",
+    "Recî‘ olayında şehit olan grubun başındaki sahâbîdir.",
+    "Bi’r-i Maûne’deki grubun başındaki sahâbîdir.",
+    "Uhud’da şehit olan sancaktardır."
+   ],
+   "kay": "Siyer-5 konusu."
+  },
+  {
+   "id": "md25-50",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "Hendek Gazvesi sırasında yeni Müslüman olan ve müşrikler ile Kurayzaoğulları arasında güvensizlik oluşturarak düşman ittifakının dağılmasına katkı sağlayan sahâbî aşağıdakilerden hangisidir?",
+   "c": [
+    "Selmân-ı Fârisî",
+    "Nuaym b. Mes‘ûd",
+    "Sa‘d b. Muâz",
+    "Huzeyfe b. Yemân",
+    "Ali b. Ebû Tâlib"
+   ],
+   "d": 1,
+   "a": "Hendek Gazvesi hicretin beşinci yılında yapılmıştır.",
+   "ac": [
+    "Hendeğin kazılmasını önermiştir.",
+    "Doğru; Gatafanlıdır, Müslüman olduğunu gizleyerek bu görevi yapmıştır.",
+    "Kurayzaoğulları hakkında hakem olmuştur.",
+    "Hendek’te düşman karargâhına keşfe gönderilmiştir.",
+    "Hendek’i aşan Amr b. Abdivüd ile teke tek savaşmıştır."
+   ],
+   "kay": "Siyer-5 konusu."
+  },
+  {
+   "id": "md25-51",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "Mûte Savaşı’nda sancağı taşırken önce sağ, sonra sol kolu kesilen ve bu sebeple kendisine cennette iki kanat verileceği bildirilen sahâbî aşağıdakilerden hangisidir?",
+   "c": [
+    "Zeyd b. Hârise",
+    "Abdullah b. Revâha",
+    "Ca‘fer b. Ebû Tâlib",
+    "Hâlid b. Velîd",
+    "Hamza b. Abdülmuttalib"
+   ],
+   "d": 2,
+   "a": "Mûte Savaşı hicretin sekizinci yılında, elçi Hâris b. Umeyr’in öldürülmesi üzerine yapılmıştır.",
+   "ac": [
+    "Mûte’de ilk komutan olarak şehit olmuştur.",
+    "Mûte’de üçüncü komutan olarak şehit olmuştur.",
+    "Doğru; bu sebeple Ca‘fer-i Tayyâr diye anılır.",
+    "Orduyu geri çekmiş ve “Seyfullah” lakabını almıştır.",
+    "Uhud’da şehit olmuştur."
+   ],
+   "kay": "Siyer-6 konusu."
+  },
+  {
+   "id": "md25-52",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "Abbâsîler dönemiyle ilgili aşağıdaki kişi/olay – bilgi eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Mu‘tasım – Türk askerleri için Sâmerrâ’yı kurmuştur.",
+    "Bâbek el-Hürremî – Azerbaycan’da çıkan en uzun ve tehlikeli isyanın lideridir.",
+    "Mukanna‘ – Horasan’da peçe takarak ilahlık iddia etmiştir.",
+    "Emîrü’l-ümerâ – Halifenin askerî ve idari yetkisini devrettiği makamdır.",
+    "Zenc isyanı – Horasan’da Türk askerlerinin ayaklanmasıdır."
+   ],
+   "d": 4,
+   "a": "Büveyhîler 945’te Bağdat’a girmiş, Tuğrul Bey 1055’te onlara son vermiştir.",
+   "ac": [
+    "Doğru eşleştirmedir (836).",
+    "Doğru eşleştirmedir; Türk komutan Afşin bastırmıştır.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir; ilk kez 936’da İbn Râik’e verilmiştir.",
+    "Yanlış; Zenc isyanı 869-883 yılları arasında Güney Irak’ta siyah kölelerin isyanıdır."
+   ],
+   "kay": "Siyer-11 konusu."
+  },
+  {
+   "id": "md25-53",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "Mısır ve Suriye’de hüküm süren Memlükler iki döneme ayrılır.\nBu dönemler ve hâkim unsurlar aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Bahrî Memlükler: Çerkezler – Burcî Memlükler: Kıpçak Türkleri",
+    "Bahrî Memlükler: Araplar – Burcî Memlükler: Türkmenler",
+    "Bahrî Memlükler: Oğuzlar – Burcî Memlükler: Kürtler",
+    "Bahrî Memlükler: Kıpçak Türkleri – Burcî Memlükler: Çerkezler",
+    "Bahrî Memlükler: Moğollar – Burcî Memlükler: Kıpçaklar"
+   ],
+   "d": 3,
+   "a": "Memlüklere 1517’de Yavuz Sultan Selim son vermiştir.",
+   "ac": [
+    "Unsurlar ters verilmiştir.",
+    "Memlükler köle kökenli askerî bir sınıftır.",
+    "Memlüklerin unsurları Kıpçak ve Çerkezlerdir.",
+    "Doğru; Bahrîler 1250-1382, Burcîler 1382-1517 arasında hüküm sürmüştür.",
+    "Memlükler Moğolları Aynicâlût’ta durdurmuştur."
+   ],
+   "kay": "Siyer-12 konusu."
+  },
+  {
+   "id": "md25-54",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "Aşağıdaki savaşların tarih sırasına göre sıralanışı hangisinde doğru verilmiştir?",
+   "c": [
+    "Dandanakan – Malazgirt – Katvan – Miryokefalon – Yassıçimen",
+    "Malazgirt – Dandanakan – Miryokefalon – Katvan – Yassıçimen",
+    "Dandanakan – Katvan – Malazgirt – Yassıçimen – Miryokefalon",
+    "Katvan – Dandanakan – Malazgirt – Miryokefalon – Yassıçimen",
+    "Dandanakan – Malazgirt – Miryokefalon – Yassıçimen – Katvan"
+   ],
+   "d": 0,
+   "a": "Katvan’da Sultan Sencer Karahıtaylara, Yassıçimen’de Celâleddin Harezmşah Türkiye Selçuklu-Eyyûbî ordusuna yenilmiştir.",
+   "ac": [
+    "Doğru; sırasıyla 1040, 1071, 1141, 1176, 1230.",
+    "Dandanakan Malazgirt’ten öncedir.",
+    "Malazgirt Katvan’dan öncedir.",
+    "Katvan 1141’dedir; Dandanakan’dan sonradır.",
+    "Katvan Miryokefalon’dan öncedir."
+   ],
+   "kay": "Siyer-13 konusu."
+  },
+  {
+   "id": "md25-55",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "İslam yazı sanatında “aklâm-ı sitte” denilen altı yazı türünün kurallarını belirleyen ve aynı zamanda Abbâsî veziri olarak görev yapan hattat aşağıdakilerden hangisidir?",
+   "c": [
+    "İbnü’l-Bevvâb",
+    "Yâkūt el-Müsta‘sımî",
+    "İbn Mukle",
+    "Şeyh Hamdullah",
+    "Hâfız Osman"
+   ],
+   "d": 2,
+   "a": "Muhtesip, çarşı-pazar, ölçü-tartı ve kamu ahlakı denetimiyle görevli memurdur.",
+   "ac": [
+    "İbn Mukle’nin sisteminden sonra gelen ve onu geliştiren meşhur hattattır.",
+    "Abbâsîlerin son döneminde yaşamış ve kalem kesimini geliştirmiştir.",
+    "Doğru; harflerin ölçülerini nokta ve elif esasına göre belirlemiştir.",
+    "Osmanlı hat ekolünün kurucusudur.",
+    "Osmanlı’da nesih yazısının ve hilye düzeninin önemli ustasıdır."
+   ],
+   "kay": "Siyer-16 konusu."
+  },
+  {
+   "id": "md25-56",
+   "ders": "Mezhepler Tarihi",
+   "z": 3,
+   "s": "İbâzıyye’de imametin durumuna göre ayrılan hâller (mesâliku’d-dîn) aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Zâhir – bâtın – te’vil – devir",
+    "Gaybet – ric‘at – bedâ – takıyye",
+    "Va‘d – vaîd – adl – tevhid",
+    "İrcâ – istisna – marifet – ikrar",
+    "Zuhûr – difâ‘ – şirâ‘ – kitmân"
+   ],
+   "d": 4,
+   "a": "İbâzıyye Hâricîlerin günümüze ulaşan tek koludur ve Umman’ın resmî mezhebidir.",
+   "ac": [
+    "Bu kavramlar İsmâiliyye’ye aittir.",
+    "Bu kavramlar Şîa’ya aittir.",
+    "Bu kavramlar Mu‘tezile’nin esaslarındandır.",
+    "Bu kavramlar iman tartışmalarıyla ilgilidir.",
+    "Doğru; açık hâkimiyet, savunma, fedakârlık ve gizlilik dönemlerini ifade eder."
+   ],
+   "kay": "Mezhep-2 konusu."
+  },
+  {
+   "id": "md25-57",
+   "ders": "Mezhepler Tarihi",
+   "z": 3,
+   "s": "Zeydiyye, Mu‘tezile’nin beş esasına büyük ölçüde katılmakla birlikte bunlardan birini kabul etmeyip yerine kendi esasını koymuştur.\nZeydiyye’nin Mu‘tezile’den ayrılarak beş esas arasına koyduğu ilke ve çıkardığı ilke sırasıyla aşağıdakilerin hangisinde verilmiştir?",
+   "c": [
+    "Adl – tevhid",
+    "İmamet – el-menzile beyne’l-menzileteyn",
+    "Ric‘at – va‘d ve vaîd",
+    "Takıyye – emr bi’l-ma‘rûf",
+    "Gaybet – adl"
+   ],
+   "d": 1,
+   "a": "Zeydiyye itikatta Mu‘tezile’ye, fıkıhta Hanefîliğe yakındır.",
+   "ac": [
+    "Zeydiyye her ikisini de kabul eder.",
+    "Doğru; Zeydî beş esas: tevhid, adl, va‘d-vaîd, imamet ve emr bi’l-ma‘rûf.",
+    "Zeydiyye ric‘ati kabul etmez.",
+    "Zeydiyye takıyyeyi benimsemez.",
+    "Zeydiyye gizli imam inancını kabul etmez."
+   ],
+   "kay": "Mezhep-5 konusu."
+  },
+  {
+   "id": "md25-58",
+   "ders": "Mezhepler Tarihi",
+   "z": 3,
+   "s": "Cemâleddin Efgânî ile Muhammed Abduh’un Paris’te birlikte çıkardığı ve İslam dünyasında ıslah düşüncesinin yayılmasında etkili olan gazete aşağıdakilerden hangisidir?",
+   "c": [
+    "el-Urvetü’l-vüskā",
+    "el-Menâr",
+    "Sırât-ı Müstakîm",
+    "el-Ehrâm",
+    "Tercümân-ı Ahvâl"
+   ],
+   "d": 0,
+   "a": "Muhammed Abduh’un kelama dair eseri Risâletü’t-tevhîd’dir.",
+   "ac": [
+    "Doğru; 1884’te Paris’te yayımlanmıştır.",
+    "Reşîd Rızâ’nın Kahire’de çıkardığı dergidir.",
+    "İstanbul’da yayımlanan İslamcı bir dergidir.",
+    "Mısır’da yayımlanan genel bir gazetedir.",
+    "İstanbul’da çıkan ilk özel Türkçe gazetedir."
+   ],
+   "kay": "Mezhep-10 konusu."
+  },
+  {
+   "id": "md25-59",
+   "ders": "Dinler Tarihi",
+   "z": 2,
+   "s": "Eski Türklerde mezarın yanına, ölen kişinin hayatı boyunca öldürdüğü düşman sayısınca dikilen taşlara ne ad verilir?",
+   "c": [
+    "Kurgan",
+    "Kam",
+    "Yuğ",
+    "Balbal",
+    "Uçmak"
+   ],
+   "d": 3,
+   "a": "Eski Türklerde tamu cehennem, kut ise Gök Tanrı’nın kağana verdiği yönetme yetkisidir.",
+   "ac": [
+    "Mezar höyüğüdür.",
+    "Ayin ve kurbanları yöneten din adamıdır.",
+    "Cenaze ve yas törenidir.",
+    "Doğru; ölünün öbür dünyada hizmetçisi olacağına inanılan düşmanları temsil eder.",
+    "Eski Türkçede cennet anlamındadır."
+   ],
+   "kay": "Dinler-2 konusu."
+  },
+  {
+   "id": "md25-60",
+   "ders": "Dinler Tarihi",
+   "z": 3,
+   "s": "Hristiyanlıkta Kutsal Ruh’un yalnız Baba’dan değil Oğul’dan da çıktığını ifade eden ve Katolik ile Ortodoks kiliseleri arasındaki ayrılığın teolojik sebeplerinden biri olan kavram aşağıdakilerden hangisidir?",
+   "c": [
+    "Evharistiya",
+    "Filioque",
+    "Homoousios",
+    "Theotokos",
+    "Sola fide"
+   ],
+   "d": 1,
+   "a": "Katolik ve Ortodoks kiliseleri 1054’te birbirinden ayrılmıştır.",
+   "ac": [
+    "Ekmek ve şarap ayinidir.",
+    "Doğru; Latince “ve Oğul’dan” anlamındadır, Katolikler kabul eder.",
+    "İznik’te kabul edilen “aynı özden” kavramıdır.",
+    "Meryem için kullanılan “Tanrı doğuran” sıfatıdır.",
+    "Protestanlığın “yalnız iman” ilkesidir."
+   ],
+   "kay": "Dinler-9 konusu."
+  }
+ ]
+}

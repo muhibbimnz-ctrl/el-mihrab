@@ -1,0 +1,978 @@
+{
+ "id": "hadis-6",
+ "ad": "Cerh ve Ta’dil, Ricâl İlmi (Adalet, Zabt, Sahabenin Adaleti, Mertebeler); Hadis Öğrenme ve Aktarma Yolları (Semâ’, Kıraat, İcâze, Münâvele, Mükâtebe, İ’lâm, Vasiyye, Vicâde)",
+ "ders": "Hadis",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Güvenilir râvi kimdir? Adalet ve zabt"
+  },
+  {
+   "merak": "Abdullah b. Mübârek’e, namazında son derece dindar, gecelerini ibadetle geçiren bir râvi sorulur. Cevabı şaşırtıcıdır: “Salih bir adam; ama hadiste ona güvenilmez.” Dindarlık tek başına yetmiyorsa, bir râviyi güvenilir kılan nedir?"
+  },
+  "Bir râvinin rivayetinin kabul edilmesi için iki temel nitelik aranır: adalet ve zabt. Adalet râvinin dinî-ahlâkî güvenilirliğini, zabt ise bilgiyi doğru koruyup aktarma yeteneğini ifade eder. Adalet “yalan söylemez” güvencesi verir; zabt ise “yanlış aktarmaz” güvencesi. İbnü’l-Mübârek’in sözündeki salih adamın adaleti tamdır, ama zabtı eksiktir; bu yüzden hadisi alınmaz.",
+  "Adalet, kişiyi takvaya yönelten, büyük günahlardan kaçınmasını ve küçük günahlarda ısrar etmemesini sağlayan, insanı yanlış davranışlardan uzak tutan melekedir. Adaletin unsurları şunlardır: Müslüman olmak (rivayet anında; duyduğu sırada olması şart değildir), bâliğ olmak (sorumluluk için), akıllı olmak (duyduğunu doğru anlamak için), takva sahibi olmak (fısktan uzak durmak) ve mürûet (insanî ve örfî meziyetlere, toplumun saygın gördüğü davranışlara uymak; sokakta yemek yemek, çarşıda başı açık dolaşmak gibi o dönemin örfünde onuru zedeleyen davranışlardan kaçınmak). Hür olmak, erkek olmak ve görmek adaletin şartı değildir; kadınların ve kölelerin rivayeti kabul edilir. Nitekim Hz. Âişe muksirûnun önde gelenlerindendir.",
+  "Zabt, râvinin duyduğu bir rivayeti eksiksiz ve artıksız koruyup aynı şekilde aktarabilmesidir. İki türlüdür: Zabt-ı sadr, hadisi ezberleyip istediği zaman hafızasından aktarabilmek; zabt-ı kitâb, hadisi doğru yazıp kitabını değişikliğe karşı koruyarak ondan rivayet etmektir. Zabıt bir râviden beklenenler şunlardır: uyanık olması (rivayet etmediği bir hadis için “bunu sen rivayet ettin” denildiğinde gaflete düşüp kabul etmemesi), ezberden rivayet ediyorsa iyi ezberlemiş olması, kitaptan rivayet ediyorsa kitabını iyi korumuş olması, mana ile rivayet ediyorsa anlamı bozacak unsurları bilmesi.",
+  {
+   "tablo": [
+    [
+     "",
+     "Adalet",
+     "Zabt"
+    ],
+    [
+     "Neyi ölçer?",
+     "Dinî ve ahlâkî güvenilirlik",
+     "Hafıza, dikkat, doğru aktarma"
+    ],
+    [
+     "Unsurları",
+     "Müslümanlık, bulûğ, akıl, takva, mürûet",
+     "Uyanıklık, ezber (zabt-ı sadr), kitabı koruma (zabt-ı kitâb), mana bilgisi"
+    ],
+    [
+     "Nasıl tespit edilir?",
+     "Tezkiye (âlimlerin güvenilir demesi) veya şöhret (istifâza)",
+     "Rivayetlerinin güvenilir râvilerin rivayetleriyle karşılaştırılması"
+    ],
+    [
+     "Kusurları (metâin)",
+     "Kizb, ittihâm bi’l-kizb, fısk, cehâlet, bid’at",
+     "Fuhş-ı galat, gaflet, vehim, muhalefet, sû-i hıfz"
+    ],
+    [
+     "İkisi birleşirse",
+     "Sika (güvenilir) râvi; hadisiyle amel edilir",
+     "Sika (güvenilir) râvi; hadisiyle amel edilir"
+    ]
+   ]
+  },
+  "Adaletin tespiti iki yolla olur: Tezkiye, bir veya iki güvenilir âlimin râvinin adil olduğunu bildirmesidir; çoğunluğa göre rivayette tek bir âlimin tezkiyesi yeterlidir. Şöhret (istifâza) ise râvinin güvenilirliğinin âlimler arasında yaygın olarak bilinmesidir; Mâlik, Şu’be, Süfyân es-Sevrî ve Ahmed b. Hanbel gibi imamların adaleti için ayrıca tezkiye aranmaz. Zabtın tespiti ise râvinin rivayetlerinin, güvenilirliği bilinen râvilerin rivayetleriyle karşılaştırılmasıyla yapılır; çoğunlukla uyuşuyorsa zabıt kabul edilir.",
+  {
+   "sinav": "“Mürûet adaletin unsurudur” (doğru); “uyanık olmak adaletin unsurudur” (yanlış, zabtın). Adaletin unsurları: Müslümanlık, bulûğ, akıl, takva, mürûet. Zabt-ı sadr = ezber; zabt-ı kitâb = yazılı kaydı koruma. Adalet + zabt = sika. Hür ve erkek olmak şart değildir."
+  },
+  {
+   "akil": "Adalet = güvenilir kişilik (Müslüman, bâliğ, akıllı, takva, mürûet); zabt = güvenilir hafıza (sadr veya kitâb). İkisi birleşince râvi sikadır."
+  },
+  {
+   "b": "2. Cerh ve ta’dil ilmi: tarihi, kuralları, on kusur"
+  },
+  {
+   "merak": "Bir talebe, büyük muhaddis Yahyâ b. Maîn’e “İnsanları cerhettiğin için kıyamette onların senden davacı olmasından korkmuyor musun?” diye sorar. Yahyâ şöyle cevap verir: “Onların bana davacı olması, Hz. Peygamber’in ‘Neden hadisimi yalandan korumadın?’ diye bana davacı olmasından daha hafiftir.” Cerh, gıybet değil midir?"
+  },
+  "Cerh sözlükte “yaralamak”, ta’dîl “dengelemek, adil saymak” demektir. Cerh ve ta’dîl ilmi, râvileri dinî-ahlâkî karakterleri ile hafıza güçleri ve zihnî yetileri bakımından inceleyen, onların rivayetlerinin kabul veya reddine hükmeden ilimdir. Cerh, adalet veya zabtı zedeleyen bir kusur sebebiyle râviyi tenkit etmek; ta’dîl, râvinin adil ve zabıt olduğuna hükmetmektir. Râviyi cerheden âlime cârih, ta’dil edene muaddil denir; cerhedilmiş râvi mecrûh, ta’dil edilmiş râvi muaddel ya da mezkâdır. Bu alan hadis ilminin merkezini oluşturur.",
+  "Cerh ve ta’dilin meşruiyeti Kur’an’a dayanır: “Ey iman edenler! Bir fâsık size bir haber getirirse onu iyice araştırın.” (Hucurât, 49/6). Hz. Peygamber de bir adam hakkında “Kabilesinin ne kötü kardeşi” buyurmuş, evlenmek için kendisine danışan Fâtıma bint Kays’a taliplerinden birinin değneğini omzundan indirmediğini (sert olduğunu), diğerinin fakir olduğunu söylemiştir. Âlimler, dinî bir maslahat için râvinin kusurunu söylemenin gıybet olmadığını, nasihat olduğunu belirtmişlerdir.",
+  {
+   "ayet": "Ey iman edenler! Eğer bir fâsık size bir haber getirirse, bilmeden bir topluluğa kötülük edip sonra yaptığınıza pişman olmamak için o haberin doğruluğunu araştırın.",
+   "kay": "Hucurât, 49/6"
+  },
+  "Cerh ve ta’dilin tarihine bakıldığında sahabe döneminde İbn Abbas, Ubâde b. Sâmit ve Enes b. Mâlik gibi sahabilerin bazı tâbiîler hakkında görüş bildirdikleri görülür. Tâbiûn döneminde Şa’bî ve Muhammed b. Sîrîn râvileri değerlendirmiştir. Râvi tenkidini sistemli hâle getiren ilk büyük isim, Irak’ta Şu’be b. Haccâc’tır (ö. 160/776); Medine’de ise Mâlik b. Enes bu konuda titizdir. Ardından Yahyâ b. Saîd el-Kattân ve Abdurrahman b. Mehdî gelir. Sonraki nesilde Yahyâ b. Maîn, Ali b. el-Medînî ve Ahmed b. Hanbel; daha sonra Buhârî, Ebû Zür’a, Ebû Hâtim er-Râzî ve Nesâî bu ilmin önderleri olmuştur.",
+  {
+   "tablo": [
+    [
+     "Kural",
+     "Açıklama"
+    ],
+    [
+     "Ta’dilde sebep söylemek gerekmez",
+     "Adaletin sebepleri çok olduğundan sayılmaz"
+    ],
+    [
+     "Cerhte sebep açıklanmalıdır (müfesser cerh)",
+     "Âlimler neyin cerh sebebi olduğunda ihtilaf ettiği için"
+    ],
+    [
+     "Müfesser cerh ta’dile tercih edilir",
+     "Cârih, muaddilin bilmediği bir kusuru bilmektedir"
+    ],
+    [
+     "Akranın birbiri hakkındaki sözü ihtiyatla alınır",
+     "Rekabet ve kişisel anlaşmazlık ihtimali"
+    ],
+    [
+     "Mezhep taassubuyla yapılan cerh kabul edilmez",
+     "Görüş ayrılığı tek başına cerh sebebi değil"
+    ],
+    [
+     "Âlimlerin tutumu dikkate alınır",
+     "Mütesâhil (gevşek), mutaşeddid (katı), mutedil (dengeli)"
+    ]
+   ]
+  },
+  "Cerh-ta’dil âlimleri değerlendirmedeki tutumlarına göre de gruplandırılır: Mutaşeddid (katı) olanlar az bir kusurla cerheder: Yahyâ b. Saîd el-Kattân, Yahyâ b. Maîn, Ebû Hâtim er-Râzî, Nesâî. Mütesâhil (gevşek) olanlar kolay ta’dil eder: Tirmizî, Hâkim en-Nîsâbûrî, İbn Hibbân. Mutedil (dengeli) olanlar: Ahmed b. Hanbel, Buhârî, Dârekutnî, Ebû Zür’a.",
+  {
+   "b": "Metâin-i aşere: on kusur"
+  },
+  "Râvi; metâin-i aşere denilen on noktadan incelenir. Bunların beşi adalete, beşi zabta yöneliktir.",
+  {
+   "tablo": [
+    [
+     "Kusur",
+     "Grubu",
+     "Anlamı",
+     "Rivayetinin adı"
+    ],
+    [
+     "Kizbü’r-râvî",
+     "Adalet",
+     "Hadiste yalan söylemesi",
+     "Mevzû"
+    ],
+    [
+     "İttihâmü’r-râvî bi’l-kizb",
+     "Adalet",
+     "Günlük hayatta yalancı olup hadiste yalanla itham edilmesi",
+     "Metrûk (matrûh)"
+    ],
+    [
+     "Fıskü’r-râvî",
+     "Adalet",
+     "Dinin emir ve yasaklarına uymaması; râviye “leyyinü’l-hadîs” denir",
+     "Münker"
+    ],
+    [
+     "Cehâletü’r-râvî",
+     "Adalet",
+     "Râvinin kim olduğunun veya hâlinin bilinmemesi",
+     "Mübhem; râviye mechûl"
+    ],
+    [
+     "Bid’atü’r-râvî",
+     "Adalet",
+     "Temel inanç esaslarına aykırı görüş; propagandacı değilse rivayeti kabul edilir (ağır görüş)",
+     "Durumuna göre"
+    ],
+    [
+     "Fuhş-ı galat (kesret-i galat)",
+     "Zabt",
+     "Rivayetlerinin yarısı veya daha fazlasında hata",
+     "Münker"
+    ],
+    [
+     "Fart-ı gaflet (kesret-i gaflet)",
+     "Zabt",
+     "Dikkat gereken yerde gaflet",
+     "Münker"
+    ],
+    [
+     "Vehim",
+     "Zabt",
+     "Doğru sanarak yanılma",
+     "Muallel"
+    ],
+    [
+     "Muhalefetü’s-sikât",
+     "Zabt",
+     "Güvenilirlere aykırı rivayet",
+     "Şâz, münker, müdrec, maklûb, muztarib, musahhaf, muharref"
+    ],
+    [
+     "Sû-i hıfz",
+     "Zabt",
+     "Hafızanın zayıflığı; râviye seyyiü’l-hıfz",
+     "Zayıf (sonradan bozulursa muhtelit)"
+    ]
+   ]
+  },
+  "Cehâlet konusunda ince bir ayrım vardır: Mechûlü’l-ayn, kendisinden yalnız bir râvinin rivayette bulunduğu ve kimliği yeterince bilinmeyen râvidir; rivayeti kabul edilmez. Mechûlü’l-hâl (mestûr), kendisinden iki veya daha fazla kişi rivayet ettiği hâlde güvenilir olduğu belirtilmemiş râvidir; rivayeti araştırmaya bağlı olarak kabul veya reddedilir. Senedde adı hiç anılmayan (“bir adam”, “bir şeyh” şeklinde geçen) râviye mübhem denir. Râvinin kendisi ve hâli bilinirse ma’rûf denir.",
+  {
+   "sinav": "Adalet – zabt kusuru ayrımı her yıl sorulur. Adalet: kizb, ittihâm bi’l-kizb, fısk, cehâlet, bid’at. Zabt: galat, gaflet, vehim, muhalefet, sû-i hıfz. Tuzak: “vehim” ve “muhalefet” zabt kusurudur; “cehâlet” ve “bid’at” adalet kusurudur. Cerhte sebep açıklanmalı, ta’dilde gerekmez; müfesser cerh ta’dile takdim edilir."
+  },
+  {
+   "akil": "Cerh = yaralama, ta’dil = adil sayma; dayanak Hucurât 6. Şu’be ilk sistemli tenkitçi. Beş adalet kusuru + beş zabt kusuru = metâin-i aşere. Mechûlü’l-ayn reddedilir, mechûlü’l-hâl araştırılır."
+  },
+  {
+   "b": "3. Cerh ve ta’dil mertebeleri ve ricâl kitapları"
+  },
+  {
+   "merak": "Bir râvi için “sika” demek ile “sadûk” demek arasında ne fark var? Hadis âlimleri bu kelimeleri birer not gibi kullanmıştır: biri 90 puan, öteki 70 puan gibi."
+  },
+  "Âlimler râvileri değerlendirirken kullandıkları lafızları derecelere ayırmıştır. İbn Ebû Hâtim er-Râzî el-Cerh ve’t-ta’dîl’inde ta’dil ve cerh için dörder mertebe belirlemiş; Zehebî ve Irâkî bunlara birer mertebe eklemiş; İbn Hacer ise Takrîbü’t-Tehzîb’de sahabe dâhil on iki mertebelik bir sistem kullanmıştır. Sınav açısından önemli olan, lafızların yukarıdan aşağı sıralanışını ve hangi mertebedeki râvinin hadisinin delil olduğunu bilmektir.",
+  {
+   "tablo": [
+    [
+     "Mertebe",
+     "Ta’dil lafzı (yukarıdan aşağı)",
+     "Rivayetin hükmü"
+    ],
+    [
+     "1",
+     "Evsaku’n-nâs, esbetü’n-nâs, ileyhi’l-münteha fi’t-tesebbüt (ism-i tafdil)",
+     "Delil olur"
+    ],
+    [
+     "2",
+     "Sikatün sika, sikatün sebt, sikatün hâfız (tekrar veya iki sıfat)",
+     "Delil olur"
+    ],
+    [
+     "3",
+     "Sika, sebt, hüccet, hâfız, mutkin",
+     "Delil olur"
+    ],
+    [
+     "4",
+     "Sadûk, lâ be’se bih, me’mûn",
+     "Yazılır, incelenir; hasen derecesine yakın"
+    ],
+    [
+     "5",
+     "Şeyh, mahalluhu’s-sıdk",
+     "Yazılır, i’tibâr için"
+    ],
+    [
+     "6",
+     "Sâlihu’l-hadîs, yüktebü hadîsühû",
+     "İ’tibâr için yazılır"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Mertebe",
+     "Cerh lafzı (hafiften ağıra)",
+     "Rivayetin hükmü"
+    ],
+    [
+     "1",
+     "Leyyinü’l-hadîs, fîhi makâl",
+     "İ’tibâr için yazılır"
+    ],
+    [
+     "2",
+     "Zaîf, lâ yuhtecc bih",
+     "Zayıf; i’tibâr için yazılabilir"
+    ],
+    [
+     "3",
+     "Zaîfün ciddan, lâ yüktebü hadîsühû, münkerü’l-hadîs",
+     "Çok zayıf; dikkate alınmaz"
+    ],
+    [
+     "4",
+     "Metrûkü’l-hadîs, müttehem bi’l-kizb, sâkıt",
+     "Terk edilir"
+    ],
+    [
+     "5",
+     "Kezzâb, vaddâ’ (uyduran), deccâl, yeda’u’l-hadîs",
+     "Mevzû; hiç alınmaz"
+    ],
+    [
+     "6",
+     "Ekzebü’n-nâs, rüknü’l-kizb (ism-i tafdil)",
+     "En ağır cerh"
+    ]
+   ]
+  },
+  "Ricâl ilmi ise hadis râvilerini rivayet bakımından tanıtan ilimdir: Kimden hadis aldıklarını, kimlere aktardıklarını, hangi şehirlere gittiklerini, ne zaman doğup öldüklerini inceler. Ricâl ilminin alt dalları arasında tabakat (râvileri nesillere göre sınıflama), esmâ ve künâ (isim ve künyeler), mu’telif-muhtelif (yazılışı aynı, okunuşu farklı isimler) ve müttefik-müfterik (adı aynı, kişisi farklı râviler) vardır.",
+  {
+   "tablo": [
+    [
+     "Eser",
+     "Müellif",
+     "Türü / not"
+    ],
+    [
+     "et-Tabakātü’l-kübrâ",
+     "İbn Sa’d (ö. 230/845)",
+     "Tabakat; sahabe ve tâbiûn"
+    ],
+    [
+     "et-Târîhu’l-kebîr",
+     "Buhârî",
+     "Râvilerin genel tarihi"
+    ],
+    [
+     "el-Cerh ve’t-ta’dîl",
+     "İbn Ebû Hâtim",
+     "Mertebeleri belirleyen ilk sistemli eser"
+    ],
+    [
+     "es-Sikât / el-Mecrûhîn",
+     "İbn Hibbân",
+     "Güvenilir ve cerhedilmiş râviler ayrı ayrı"
+    ],
+    [
+     "el-Kâmil fî duafâi’r-ricâl",
+     "İbn Adî",
+     "Zayıf râviler"
+    ],
+    [
+     "Târîhu Bağdâd",
+     "Hatîb el-Bağdâdî",
+     "Şehir tarihi türünde ricâl"
+    ],
+    [
+     "el-Kemâl fî esmâi’r-ricâl",
+     "Abdülganî el-Makdisî",
+     "Kütüb-i Sitte râvileri"
+    ],
+    [
+     "Tehzîbü’l-Kemâl",
+     "Mizzî",
+     "el-Kemâl’in tehzibi"
+    ],
+    [
+     "Mîzânü’l-i’tidâl",
+     "Zehebî",
+     "Tenkit edilmiş râviler"
+    ],
+    [
+     "Tehzîbü’t-Tehzîb / Takrîbü’t-Tehzîb / Lisânü’l-Mîzân",
+     "İbn Hacer el-Askalânî",
+     "Kütüb-i Sitte râvileri; Takrîb 12 mertebe"
+    ]
+   ]
+  },
+  {
+   "sinav": "Lafız sıralaması sorulur: “sika sebt” en üstlerde; “sadûk, lâ be’se bih” orta; “zaîf” hafif cerh; “metrûk”, “kezzâb”, “vaddâ’” en ağır cerh. “Sikatün sebt” bir ta’dil lafzıdır; “münkerü’l-hadîs” ve “metrûkü’l-hadîs” cerhtir. Ricâl eseri – müellif eşleştirmeleri gelir: Mîzânü’l-i’tidâl → Zehebî; Tehzîbü’l-Kemâl → Mizzî; el-Cerh ve’t-ta’dîl → İbn Ebû Hâtim."
+  },
+  {
+   "akil": "Ta’dil: evsaku’n-nâs > sika sika > sika > sadûk > şeyh > sâlih. Cerh: leyyin < zaîf < münker < metrûk < kezzâb < ekzebü’n-nâs. İlk üç ta’dil mertebesi delildir."
+  },
+  {
+   "b": "4. Sahabe, tâbiûn ve sahabenin adaleti"
+  },
+  {
+   "merak": "Âmâ olan Abdullah b. Ümmi Mektûm, Hz. Peygamber’i hiç gözüyle görmedi; ama hiç kimse onun sahabi olduğundan şüphe etmedi. O hâlde sahabiliğin ölçüsü “görmek” mi?"
+  },
+  "Sahabi sözlükte “arkadaş, dost” demektir. Hadis âlimlerine göre sahabi, Hz. Peygamber’i mümin olarak gören (rü’yet) ya da onunla karşılaşan (likâ) ve Müslüman olarak ölen kimsedir. İbn Hacer’in yaygınlaşan tanımında “görmek” yerine “karşılaşmak” denmesi, âmâ olan sahabileri de kapsamak içindir. Fıkıh usulcüleri ise sahabilik için Hz. Peygamber’le uzun süre birlikte bulunmayı, ondan ilim almayı şart koşar. Arada irtidat edip tekrar Müslüman olarak ölen kişi çoğunluğa göre sahabiliğini korur.",
+  "Bir kimsenin sahabi olduğu şu yollarla anlaşılır: tevâtür (dört halife gibi), şöhret (Ukkâşe b. Mihsan gibi), bir başka sahabinin şehadeti, güvenilir bir tâbiînin şehadeti ve adil bir kişinin “Ben sahabiyim” demesi. Bu son yol için iddianın akla uygun olması, yani kişinin hicrî 110 yılından önce vefat etmiş olması gerekir; çünkü Hz. Peygamber vefatından kısa süre önce yeryüzünde o gün yaşayanlardan yüz yıl sonra hiç kimsenin kalmayacağını haber vermiştir. Vefat eden son sahabinin Ebu’t-Tufeyl Âmir b. Vâsile (ö. 110/728 civarı) olduğu kabul edilir.",
+  "Sahabenin adaleti: Ehl-i sünnet âlimlerine göre sahabenin hepsi adildir; yani hiçbiri Hz. Peygamber adına bilerek yalan söylemez. Bu yüzden sahabe cerh-ta’dil incelemesine tabi tutulmaz ve senedde adı bilinmeyen bir sahabinin bulunması hadise zarar vermez. Bu kabulün dayanakları Kur’an’daki övgü ayetleri (Tevbe 100; Fetih 18, 29; Haşr 8-10) ve Hz. Peygamber’in hadisleridir. Sahabenin adaleti, onların masum (günahsız) olduğu anlamına gelmez; hata yapabilirler, aralarında ictihat farklılıkları ve siyasi ihtilaflar yaşanmıştır. Kastedilen, rivayette doğru sözlü ve güvenilir olmalarıdır.",
+  {
+   "ayet": "Muhâcirler ve ensardan (İslam’a girmede) öne geçen ilkler ile onlara güzellikle uyanlar var ya, Allah onlardan razı olmuştur, onlar da O’ndan razı olmuşlardır…",
+   "kay": "Tevbe, 9/100"
+  },
+  {
+   "hadis": "Ashabıma sövmeyin! Sizden biri Uhud dağı kadar altın infak etse, onlardan birinin infak ettiği bir müdd, hatta yarım müdd kadar sevaba ulaşamaz.",
+   "kay": "Buhârî, Fezâilü ashâbi’n-nebî, 5; Müslim, Fezâilü’s-sahâbe, 221"
+  },
+  {
+   "hadis": "İnsanların en hayırlısı benim asrımdaki insanlardır; sonra onları takip edenler, sonra da onları takip edenlerdir.",
+   "kay": "Buhârî, Şehâdât, 9; Müslim, Fezâilü’s-sahâbe, 210-212"
+  },
+  "Sahabenin sayısı hakkında Veda Haccı’nda yüz bin civarında, Hz. Peygamber’in vefatında yüz yirmi bin civarında Müslüman bulunduğu rivayet edilir. Sahabe faziletleri bakımından derecelendirilir: İlk Müslümanlar (sâbikûn-ı evvelûn), aşere-i mübeşşere, Bedir ehli, Rıdvan biatına katılanlar gibi. Hâkim en-Nîsâbûrî sahabeyi on iki tabakaya ayırmıştır. Sahabe biyografisine dair başlıca eserler İbn Abdilber’in el-İstîâb fî ma’rifeti’l-ashâb’ı, İbnü’l-Esîr’in Üsdü’l-gâbe fî ma’rifeti’s-sahâbe’si ve İbn Hacer’in el-İsâbe fî temyîzi’s-sahâbe’sidir.",
+  "Tâbiî, sahabilerden biriyle mümin olarak karşılaşan ve Müslüman olarak ölen kimsedir; adı Tevbe Suresi’nin 100. ayetindeki “onlara güzellikle uyanlar” ifadesinden alınmıştır. Tâbiûnun büyüklerine kibâr-ı tâbiîn denir. Medine’nin “fukahâ-i seb’a”sı (yedi fakihi) kibâr-ı tâbiîndendir: Saîd b. el-Müseyyeb, Urve b. ez-Zübeyr, Kāsım b. Muhammed, Hârice b. Zeyd, Ebû Bekir b. Abdurrahman, Ubeydullah b. Abdullah b. Utbe ve Süleymân b. Yesâr. Muhadram, câhiliye ve İslam dönemlerini idrak edip Hz. Peygamber’i göremeden Müslüman olan kişidir; Üveys el-Karanî, Necâşî ve Ebû Müslim el-Havlânî örnek verilir; hadis usulünde tâbiûndan sayılır. Etbâu’t-tâbiîn ise tâbiîlerle mümin olarak görüşüp onlardan rivayette bulunan üçüncü nesildir.",
+  {
+   "tablo": [
+    [
+     "Nesil",
+     "Tanım",
+     "Örnek"
+    ],
+    [
+     "Sahabe",
+     "Hz. Peygamber’i mümin olarak görüp/karşılaşıp mümin ölen",
+     "Ebû Bekir, Âişe, İbn Ümmi Mektûm"
+    ],
+    [
+     "Muhadram",
+     "Câhiliye ve İslam’ı idrak etmiş, Hz. Peygamber’i görmeden Müslüman olmuş",
+     "Üveys el-Karanî, Necâşî"
+    ],
+    [
+     "Tâbiûn",
+     "Bir sahabiyle mümin olarak karşılaşıp mümin ölen",
+     "Saîd b. el-Müseyyeb, Hasan-ı Basrî"
+    ],
+    [
+     "Etbâu’t-tâbiîn",
+     "Tâbiîlerle görüşüp onlardan rivayet eden",
+     "Mâlik, Sevrî, Ebû Hanîfe’nin talebeleri"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Ebû Hanîfe’nin bazı sahabileri (Enes b. Mâlik gibi) gördüğü nakledildiğinden tâbiûndan sayılıp sayılmayacağı tartışmalıdır; tablodaki etbâu’t-tâbiîn örneği bu yüzden onun talebeleriyle verilmiştir."
+  },
+  {
+   "sinav": "“Sahabenin hepsi adildir” → rivayette güvenilirlik; masumiyet değil. “Hicrî 110’dan önce ölmek” → sahabilik iddiasının kabul şartı. Son ölen sahabi → Ebu’t-Tufeyl. Muhadram → Üveys el-Karanî. Sahabe biyografileri → İstîâb, Üsdü’l-gâbe, İsâbe (usul eseri değil)."
+  },
+  {
+   "akil": "Sahabi: mümin olarak görmek/karşılaşmak + mümin ölmek. Sahabe adildir, cerh-ta’dile tabi değildir; masum değildir. Tâbiî: sahabiyle karşılaşan; muhadram: Peygamber’i göremeyen eski Müslüman."
+  },
+  {
+   "b": "5. Hadis nasıl alınır, nasıl aktarılır? Sekiz yol"
+  },
+  {
+   "merak": "Mahmûd b. Rebî’, beş yaşındayken Hz. Peygamber’in bir kovadan aldığı suyu şakayla yüzüne püskürttüğünü hayatı boyunca unutmadı ve bunu rivayet etti. Buhârî bu rivayeti “Küçüğün hadis dinlemesi ne zaman sahih olur?” başlığı altında verir."
+  },
+  "Hadisi hocadan alma işine tahammül, başkasına aktarma işine edâ denir. Âlimler hadisin hangi yolla alındığına büyük önem vermiş ve sekiz yol belirlemiştir: semâ’, kıraat (arz), icâze, münâvele, mükâtebe (kitâbet), i’lâm, vasiyye ve vicâde. Tahammül için belirli bir yaş şartı yoktur; temyiz gücü yeterlidir. Mahmûd b. Rebî’ örneğinden hareketle bazı âlimler beş yaşı alt sınır olarak görmüştür.",
+  "Semâ’: Hocanın ezberinden ya da kitabından okuması, talebenin bizzat dinlemesidir. En güçlü tahammül yoludur. Hocanın okuyup talebelerin yazmasına imlâ denir; büyük imlâ meclislerinde hocanın sesini uzaktakilere ulaştıran kişiye müstemlî denir. Edâ lafızları: semi’tü, haddesenâ, haddesenî. Modern eğitimdeki takrir (anlatım) yöntemine benzer.",
+  "Kıraat (arz): Talebenin ezberinden ya da kitaptan okuması, hocanın ezberinden veya elindeki nüshadan takip ederek dinlemesi ve gerekli yerleri düzeltmesidir. Talebe hadisi hocasına “arz ettiği” için arz da denir. Çoğunluğa göre semâ’dan sonra gelir; İmam Mâlik ve bazı Medineliler kıraatin semâ’ya denk, hatta daha sağlam olduğunu söylemiştir. Edâ lafızları: kara’tü alâ fülân, kurie aleyhi ve ene esmeu, ahberanâ.",
+  "İcâze: Hocanın talebesine, kendi rivayetlerini veya kitaplarını kendisinden rivayet etme izni vermesidir. Sözlü veya yazılı olabilir. İzin verene mücîz, izin verilene mücâzün leh denir. En güçlüsü belli bir kişiye belli bir kitap için verilen icâzedir; herkese verilen genel icâzeler zayıftır. İcâze, tahammülü kolaylaştırmış ve senedlerin günümüze kadar ulaşmasını sağlamıştır; icâzetnâme geleneği buradan doğmuştur. Edâ lafzı: enbeenâ (müteahhirîn), ecâze lî.",
+  "Münâvele: Hocanın kendi rivayetlerini içeren kitabı ya da yazılı metni talebeye vermesidir. İcâzeli münâvele (“Bunu benden rivayet et” diyerek vermek) geçerlidir ve icâzenin en güçlü türü sayılır; icâzesiz münâvele (sadece vermek) ise çoğunluğa göre rivayet için yeterli değildir. Edâ lafzı: nâvelenî.",
+  "Mükâtebe (kitâbet): Hocanın yanındaki veya uzaktaki talebesi için bir veya birkaç hadisi kendi eliyle yazması ya da yazdırıp göndermesidir. İcâzeli olanı geçerlidir; icâzesiz olanını da çoğunluk caiz görmüştür. Edâ lafzı: kebete ileyye fülân.",
+  "İ’lâm: Hocanın, rivayet izni vermeden, belli bir hadis veya kitap için yalnızca “Bu benim rivayetimdir” diye bildirmesidir. Sadece bildirim vardır; bu yüzden geçerliliği tartışmalıdır.",
+  "Vasiyye: Ölümü yaklaşan ya da yolculuğa çıkacak bir hocanın, rivayet izninden söz etmeden kitabını talebelerinden birine vasiyet etmesidir; zımnî bir izin vardır. Edâ lafzı: evsâ ileyye.",
+  "Vicâde: Bir kimsenin, bir hocanın el yazısıyla yazılmış hadisleri bulması ya da bir şekilde sahip olmasıdır; hocayla bir semâ’ ya da izin ilişkisi yoktur. Edâ lafzı: vecedtü bi-hattı fülân. Ahmed b. Hanbel’in oğlu Abdullah, babasının yazısında bulduğu rivayetleri Müsned’e “vecedtü bi-hattı ebî” diyerek eklemiştir; bu yüzden Müsned’de vicâde yoluna çokça rastlanır.",
+  {
+   "tablo": [
+    [
+     "Yol",
+     "Kim okur / ne olur?",
+     "Edâ lafzı",
+     "Değeri"
+    ],
+    [
+     "Semâ’",
+     "Hoca okur, talebe dinler (imlâ)",
+     "Semi’tü, haddesenâ",
+     "En güçlü"
+    ],
+    [
+     "Kıraat (arz)",
+     "Talebe okur, hoca dinleyip düzeltir",
+     "Kara’tü alâ, ahberanâ",
+     "Semâ’dan sonra (Mâlik: denk)"
+    ],
+    [
+     "İcâze",
+     "Hoca rivayet izni verir",
+     "Enbeenâ, ecâze lî",
+     "Muayyen kişi-kitap güçlü"
+    ],
+    [
+     "Münâvele",
+     "Hoca kitabı eline verir",
+     "Nâvelenî",
+     "İcâzeli olanı geçerli"
+    ],
+    [
+     "Mükâtebe",
+     "Hoca yazıp gönderir",
+     "Kebete ileyye",
+     "Çoğunluk caiz"
+    ],
+    [
+     "İ’lâm",
+     "Hoca “bu benim rivayetim” der",
+     "A’lemenî",
+     "Tartışmalı"
+    ],
+    [
+     "Vasiyye",
+     "Hoca kitabını vasiyet eder",
+     "Evsâ ileyye",
+     "Zayıf"
+    ],
+    [
+     "Vicâde",
+     "Hocanın yazısı bulunur",
+     "Vecedtü bi-hattı",
+     "En zayıf; Müsned’de çok"
+    ]
+   ]
+  },
+  "Edâ ile ilgili önemli bir konu da mana ile rivayettir. Hadisin lafzını aynen değil, anlamını koruyarak başka kelimelerle aktarmak demektir. Âlimlerin çoğu, Arapçayı ve anlamı bozacak unsurları iyi bilen râvi için mana ile rivayeti caiz görmüştür; ancak Kur’an ayetleri, ibadetle ilgili dua ve zikirler ile Hz. Peygamber’in veciz sözleri (cevâmiu’l-kelim) lafzen rivayet edilmelidir. Hadisin bir kısmını rivayet edip bir kısmını bırakmaya ihtisar denir; bırakılan kısım anlamı etkilemiyorsa caizdir. Hz. Peygamber, sözlerini duyduğu gibi aktaranlara dua etmiştir:",
+  {
+   "hadis": "Sözümü işitip onu ezberleyen ve duyduğu gibi başkasına ulaştıran kişinin Allah yüzünü ağartsın. Nice fıkıh (bilgi) taşıyan vardır ki onu kendisinden daha anlayışlı birine ulaştırır…",
+   "kay": "Tirmizî, İlim, 7; Ebû Dâvûd, İlim, 10"
+  },
+  {
+   "sinav": "Senaryo soruları: “Talebe okudu, hoca dinledi” → kıraat/arz; “hoca kitabını verip ‘benden rivayet et’ dedi” → münâvele; “hoca yazıp gönderdi” → mükâtebe; “ölüm döşeğinde kitabını bıraktı” → vasiyye; “yazıyı buldu, hocayla görüşmedi” → vicâde; “sadece ‘bu benim rivayetim’ dedi” → i’lâm. Vicâdeye çok yer veren → Ahmed b. Hanbel’in Müsned’i. “Mürûet” ve “mülâkat” tahammül yolu değildir."
+  },
+  {
+   "akil": "Sekiz yol: semâ’, kıraat, icâze, münâvele, mükâtebe, i’lâm, vasiyye, vicâde. En güçlü semâ’, en zayıf vicâde. Haddesenâ = semâ’, ahberanâ = kıraat, nâvelenî = münâvele, kebete = mükâtebe, vecedtü = vicâde."
+  }
+ ],
+ "ozet": [
+  "Râvide iki temel şart: adalet (güvenilir kişilik) ve zabt (güvenilir hafıza); ikisi birleşince sika.",
+  "Adaletin unsurları: Müslümanlık, bulûğ, akıl, takva, mürûet; hürriyet ve erkeklik şart değil.",
+  "Zabt-ı sadr: ezber; zabt-ı kitâb: yazıyı koruma; uyanıklık zabtın unsurudur.",
+  "Adaletin tespiti: tezkiye veya şöhret (istifâza); zabtın tespiti: sikaların rivayetleriyle karşılaştırma.",
+  "Cerh = yaralama, ta’dil = adil sayma; dayanak Hucurât 49/6; gıybet değil nasihat.",
+  "Şu’be b. Haccâc ilk sistemli râvi tenkitçisi; sonra Kattân, İbn Mehdî, İbn Maîn, İbnü’l-Medînî, Ahmed.",
+  "Cerhte sebep açıklanmalı; müfesser cerh ta’dile takdim edilir; ta’dilde sebep gerekmez.",
+  "Mutaşeddid: Kattân, İbn Maîn, Ebû Hâtim, Nesâî; mütesâhil: Tirmizî, Hâkim, İbn Hibbân.",
+  "Adalet kusurları: kizb (mevzû), ittihâm bi’l-kizb (metrûk), fısk (münker), cehâlet (mübhem), bid’at.",
+  "Zabt kusurları: fuhş-ı galat, fart-ı gaflet (münker), vehim (muallel), muhalefet (şâz, müdrec, maklûb…), sû-i hıfz.",
+  "Mechûlü’l-ayn (tek râvi rivayet etmiş) reddedilir; mechûlü’l-hâl (mestûr) araştırılır.",
+  "Ta’dil: evsaku’n-nâs > sika sebt > sika > sadûk > şeyh; cerh: leyyin < zaîf < münker < metrûk < kezzâb.",
+  "Ricâl: İbn Ebû Hâtim el-Cerh ve’t-ta’dîl; Mizzî Tehzîbü’l-Kemâl; Zehebî Mîzânü’l-i’tidâl; İbn Hacer Tehzîb, Takrîb, Lisân.",
+  "Sahabi: mümin olarak görmek/karşılaşmak + mümin ölmek; iddia için h. 110’dan önce ölmek; son sahabi Ebu’t-Tufeyl.",
+  "Sahabenin hepsi adildir (rivayette güvenilir), masum değildir; dayanak Tevbe 100, Fetih 18-29, Haşr 8-10.",
+  "Sahabe eserleri: İstîâb (İbn Abdilber), Üsdü’l-gâbe (İbnü’l-Esîr), İsâbe (İbn Hacer).",
+  "Tahammül yolları: semâ’, kıraat (arz), icâze, münâvele, mükâtebe, i’lâm, vasiyye, vicâde; Müsned’de vicâde çok.",
+  "Mana ile rivayet çoğunluğa göre caiz; Kur’an, dualar ve cevâmiu’l-kelim hariç."
+ ],
+ "kartlar": [
+  {
+   "o": "Mürûet",
+   "a": "Adaletin unsuru: insanî ve örfî meziyetlere, saygın davranışlara uymak."
+  },
+  {
+   "o": "Zabt-ı sadr – zabt-ı kitâb",
+   "a": "Sadr: ezber; kitâb: yazdığını doğru tutup değişikliğe karşı korumak."
+  },
+  {
+   "o": "Tezkiye – istifâza",
+   "a": "Adaletin tespiti: âlimin güvenilir demesi ya da güvenilirliğin yaygın olarak bilinmesi."
+  },
+  {
+   "o": "Müfesser cerh",
+   "a": "Sebebi açıklanmış cerh; ta’dile tercih edilir."
+  },
+  {
+   "o": "Metâin-i aşere – adalet",
+   "a": "Kizb, ittihâm bi’l-kizb, fısk, cehâlet, bid’at."
+  },
+  {
+   "o": "Metâin-i aşere – zabt",
+   "a": "Fuhş-ı galat, fart-ı gaflet, vehim, muhalefetü’s-sikât, sû-i hıfz."
+  },
+  {
+   "o": "Mechûlü’l-ayn – mechûlü’l-hâl",
+   "a": "Ayn: tek râvi rivayet etmiş, reddedilir. Hâl (mestûr): birden çok rivayet eden var, güvenilirliği belirsiz; araştırılır."
+  },
+  {
+   "o": "En üst ta’dil lafızları",
+   "a": "Evsaku’n-nâs, esbetü’n-nâs; sonra sikatün sika, sikatün sebt."
+  },
+  {
+   "o": "En ağır cerh lafızları",
+   "a": "Ekzebü’n-nâs, kezzâb, vaddâ’, deccâl."
+  },
+  {
+   "o": "Mîzânü’l-i’tidâl",
+   "a": "Zehebî; tenkit edilmiş râviler."
+  },
+  {
+   "o": "Sahabi tanımı",
+   "a": "Hz. Peygamber’i mümin olarak gören/karşılaşan ve mümin olarak ölen kimse."
+  },
+  {
+   "o": "Son vefat eden sahabi",
+   "a": "Ebu’t-Tufeyl Âmir b. Vâsile (h. 110 civarı)."
+  },
+  {
+   "o": "Fukahâ-i seb’a",
+   "a": "Medine’nin yedi tâbiî fakihi: Saîd b. el-Müseyyeb, Urve, Kāsım b. Muhammed, Hârice, Ebû Bekir b. Abdurrahman, Ubeydullah, Süleymân b. Yesâr."
+  },
+  {
+   "o": "Semâ’ – kıraat",
+   "a": "Semâ’: hoca okur talebe dinler (haddesenâ). Kıraat/arz: talebe okur hoca dinler (ahberanâ)."
+  },
+  {
+   "o": "Münâvele",
+   "a": "Hocanın kitabını talebeye vermesi; icâzeli olanı geçerli (nâvelenî)."
+  },
+  {
+   "o": "Vicâde",
+   "a": "Hocanın el yazısını bulmak; Ahmed b. Hanbel’in Müsned’inde çok (vecedtü bi-hattı ebî)."
+  },
+  {
+   "o": "Mücîz – mücâzün leh",
+   "a": "İcâze veren hoca – icâze verilen talebe."
+  },
+  {
+   "o": "Müstemlî",
+   "a": "İmlâ meclislerinde hocanın sözünü uzaktakilere tekrar eden kişi."
+  }
+ ],
+ "_eski": [
+  "h1-03",
+  "h1-04",
+  "h1-05",
+  "h1-08",
+  "h1-09",
+  "h1-10",
+  "h1-11",
+  "h1-12",
+  "h1-18",
+  "h1-19"
+ ],
+ "_z": {
+  "h1-10": 3
+ },
+ "sorular": [
+  {
+   "id": "hd6-01",
+   "z": 3,
+   "s": "Râvilerin değerlendirilmesinde kullanılan ölçütlerle ilgili\nI. Uyanık olmak ve kitabını iyi korumak adaletin unsurlarındandır.\nII. Mürûet, adaletin unsurlarındandır.\nIII. Kadın ve kölelerin rivayeti, hür ve erkek olmak adaletin şartı olmadığı için kabul edilir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 3,
+   "a": "Uyanıklık ve kitabı koruma zabtın unsurlarıdır. Mürûet adaletin unsurudur; hürriyet ve erkeklik ise adaletin şartı değildir.",
+   "ac": [
+    "I yanlıştır; bunlar zabtla ilgilidir.",
+    "III de doğrudur.",
+    "I yanlıştır.",
+    "Doğru: II ve III doğrudur.",
+    "I yanlış olduğu için üçü birden doğru olamaz."
+   ],
+   "kay": "Konu: Adalet ve zabt"
+  },
+  {
+   "id": "hd6-02",
+   "z": 3,
+   "s": "Bir hadis âlimi, bir râviyi ta’dil eden âlimlerin sözlerine rağmen o râvinin bir şehirde kendisinden hiç duymadığı hadisleri duymuş gibi rivayet ettiğini, delilleriyle ortaya koymuştur.\n\nCerh ve ta’dil kurallarına göre bu durumda ne yapılır?",
+   "c": [
+    "Ta’dil cerhe tercih edilir; çünkü ta’dil edenler daha kalabalıktır.",
+    "Cerh, sebep belirtilmediği için reddedilir.",
+    "Cerh ve ta’dil birbirini düşürür; râvi hakkında hiçbir hüküm verilmez.",
+    "Cerh, ancak râvinin akranı tarafından yapılmışsa kabul edilir.",
+    "Sebebi açıklanmış (müfesser) cerh ta’dile tercih edilir."
+   ],
+   "a": "Sebebi açıklanmış cerh, ta’dile takdim edilir; çünkü cârih, muaddilin bilmediği bir kusuru tespit etmiştir.",
+   "d": 4,
+   "ac": [
+    "Sayı çokluğu müfesser cerhin önüne geçmez.",
+    "Cerhin sebebi açıklanmıştır.",
+    "Böyle bir kural yoktur; müfesser cerh öne alınır.",
+    "Tam tersi: akranın birbiri hakkındaki sözü ihtiyatla alınır.",
+    "Doğru: müfesser cerh ta’dile tercih edilir."
+   ],
+   "kay": "Konu: Cerh ve ta’dil kuralları"
+  },
+  {
+   "id": "hd6-03",
+   "z": 2,
+   "s": "Aşağıdaki lafızlardan hangisi bir râvi hakkında kullanılan en ağır cerh mertebesine aittir?",
+   "c": [
+    "Leyyinü’l-hadîs",
+    "Kezzâb",
+    "Sadûk",
+    "Zaîf",
+    "Lâ be’se bih"
+   ],
+   "d": 1,
+   "a": "“Kezzâb” (çok yalancı) en ağır cerh lafızlarındandır; böyle bir râvinin rivayeti mevzû hükmündedir.",
+   "ac": [
+    "Leyyinü’l-hadîs en hafif cerh lafzıdır.",
+    "Doğru: kezzâb en ağır cerh lafızlarındandır.",
+    "Sadûk bir ta’dil lafzıdır.",
+    "Zaîf hafif-orta derecede bir cerhtir.",
+    "Lâ be’se bih bir ta’dil lafzıdır."
+   ],
+   "kay": "Konu: Cerh mertebeleri"
+  },
+  {
+   "id": "hd6-04",
+   "z": 3,
+   "s": "Bir kişinin sahabi olduğunu tespit yollarıyla ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Sahabilik şöhret yoluyla da bilinebilir.",
+    "Başka bir sahabinin onun sahabi olduğunu bildirmesiyle bilinebilir.",
+    "Adil bir kişinin “Ben sahabiyim” demesi, hicrî 110 yılından önce vefat etmiş olması şartıyla kabul edilir.",
+    "Sahabiliği tevâtür yoluyla bilinebilir.",
+    "Hz. Peygamber’i kâfir olarak görüp vefatından sonra Müslüman olan kişi de sahabidir."
+   ],
+   "d": 4,
+   "a": "Sahabi olmak için Hz. Peygamber’i mümin olarak görmek gerekir. Onu kâfirken görüp vefatından sonra Müslüman olan kişi sahabi değildir.",
+   "ac": [
+    "Doğru bir bilgidir.",
+    "Doğru bir bilgidir.",
+    "Doğru bir bilgidir.",
+    "Doğru bir bilgidir.",
+    "Yanlış: görme anında mümin olmak şarttır."
+   ],
+   "kay": "İbn Hacer, el-İsâbe (mukaddime); Konu: Sahabe"
+  },
+  {
+   "id": "hd6-05",
+   "z": 2,
+   "s": "Ehl-i sünnet âlimlerinin “Sahabenin hepsi adildir.” ilkesiyle ilgili aşağıdakilerden hangisi söylenebilir?",
+   "c": [
+    "Sahabe hiçbir hata yapmamıştır.",
+    "Sahabe rivayette güvenilir kabul edildiği için cerh ve ta’dil incelemesine tabi tutulmaz.",
+    "Senedde adı bilinmeyen bir sahabi bulunması hadisi zayıflatır.",
+    "Sahabenin bütün görüşleri bağlayıcı delildir.",
+    "Sahabe arasında ictihat farklılıkları yaşanmamıştır."
+   ],
+   "d": 1,
+   "a": "Sahabenin adaleti, onların Hz. Peygamber adına bilerek yalan söylemeyeceği, rivayette güvenilir oldukları anlamına gelir; bu yüzden cerh-ta’dile tabi tutulmazlar. Masum oldukları anlamına gelmez.",
+   "ac": [
+    "Adalet masumiyet demek değildir; hata yapabilirler.",
+    "Doğru: adaletin sonucu, cerh-ta’dil dışında tutulmalarıdır.",
+    "Sahabe adil olduğundan adının bilinmemesi hadise zarar vermez.",
+    "Sahabe sözünün delil değeri mezheplere göre farklıdır.",
+    "Sahabe arasında ictihat farklılıkları olmuştur."
+   ],
+   "kay": "Tevbe, 9/100; Buhârî, Fezâilü ashâbi’n-nebî, 5"
+  },
+  {
+   "id": "hd6-06",
+   "z": 3,
+   "s": "Ahmed b. Hanbel’in oğlu Abdullah, babasının ölümünden sonra onun kendi el yazısıyla yazdığı bazı rivayetleri bulmuş ve bunları “vecedtü bi-hattı ebî” ifadesiyle Müsned’e eklemiştir.\n\nBu bilgiyle ilgili\nI. Abdullah’ın kullandığı tahammül yolu vicâdedir.\nII. Bu yolla alınan rivayetlerde hoca ile talebe arasında semâ’ veya izin ilişkisi aranmaz.\nIII. Vicâde, tahammül yollarının en güçlüsü kabul edilir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Yazıyı bularak rivayet etmek vicâdedir ve bu yolda semâ’ ya da izin ilişkisi bulunmaz. Vicâde en zayıf tahammül yoludur; en güçlüsü semâ’dır.",
+   "ac": [
+    "II de doğrudur.",
+    "III yanlıştır.",
+    "Doğru: I ve II doğrudur.",
+    "III yanlıştır.",
+    "III yanlış olduğu için üçü birden doğru olamaz."
+   ],
+   "kay": "Ahmed b. Hanbel, el-Müsned; Konu: Vicâde"
+  },
+  {
+   "id": "hd6-07",
+   "z": 2,
+   "s": "Medine’de bir hadis talebesi, hocasının huzurunda elindeki kitaptan hadisleri okumuş; hoca da kendi nüshasından takip edip yanlış okunan yerleri düzeltmiştir. Talebe daha sonra bu hadisleri rivayet ederken “kara’tü alâ fülân” ifadesini kullanmıştır.\n\nBu tahammül yolu ve bu yolu semâ’ya denk, hatta daha sağlam gören imam aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Semâ’ – Ebû Hanîfe",
+    "Münâvele – Şâfiî",
+    "Kıraat (arz) – Mâlik b. Enes",
+    "İcâze – Ahmed b. Hanbel",
+    "İ’lâm – Buhârî"
+   ],
+   "d": 2,
+   "a": "Talebenin okuyup hocanın dinlemesi kıraat (arz) yoludur; İmam Mâlik ve bazı Medineliler kıraati semâ’ya denk hatta daha sağlam görmüştür.",
+   "ac": [
+    "Semâ’da hoca okur, talebe dinler.",
+    "Münâvelede hoca kitabını talebeye verir.",
+    "Doğru: kıraat (arz) ve İmam Mâlik.",
+    "İcâzede yalnız rivayet izni vardır.",
+    "İ’lâmda hoca yalnızca “bu benim rivayetim” der."
+   ],
+   "kay": "Konu: Kıraat (arz)"
+  },
+  {
+   "id": "h1-03",
+   "z": 1,
+   "s": "Bir râvinin işittiği hadisi eksiksiz kavrayıp koruması ve gerektiğinde aynen aktarabilmesi hadis usulünde hangi kavramla ifade edilir?",
+   "c": [
+    "Zabt",
+    "Adalet",
+    "Mürûet",
+    "Tedlîs",
+    "İcâzet"
+   ],
+   "d": 0,
+   "a": "Duyduğunu doğru biçimde koruyup aktarabilme yeteneği zabttır. Adalet ise râvinin dinî ve ahlâkî güvenilirliğidir.",
+   "ac": [
+    "Doğru: işittiğini koruyup aynen aktarmak zabttır.",
+    "Adalet, râvinin dinî ve ahlâkî durumuyla ilgilidir; hafızayla değil.",
+    "Mürûet, adaletin bir parçasıdır; toplumca saygın davranışlara uymaktır.",
+    "Tedlîs, senetteki bir kusuru gizlemektir.",
+    "İcâzet, hocanın rivayet izni vermesidir."
+   ],
+   "kay": "Hadis usulü: râvinin şartları"
+  },
+  {
+   "id": "h1-04",
+   "z": 1,
+   "s": "Bir hadis hocası, başka bir şehirde yaşayan talebesinin isteği üzerine bazı hadislerini kendi eliyle yazıp ona göndermiştir.\n\nTalebenin bu hadisleri alma yolu aşağıdakilerden hangisidir?",
+   "c": [
+    "Semâ’",
+    "Kıraat",
+    "Vicâde",
+    "Kitâbet",
+    "İ’lâm"
+   ],
+   "d": 3,
+   "a": "Hocanın hadis yazıp yanındaki veya uzaktaki talebesine göndermesi kitâbet (mükâtebe) yoludur.",
+   "ac": [
+    "Semâ’da talebe hocayı bizzat dinler.",
+    "Kıraatte talebe hocaya okur.",
+    "Vicâdede hocayla bağlantı yoktur; yazı bulunur.",
+    "Doğru: yazıp göndermek kitâbettir.",
+    "İ’lâmda hoca yalnızca “bu benim rivayetimdir” diye bildirir."
+   ],
+   "kay": "Hadis usulü: tahammül yolları"
+  },
+  {
+   "id": "h1-05",
+   "z": 2,
+   "s": "Cahiliye döneminde doğup İslam dönemini de idrak eden, Müslüman olduğu hâlde Hz. Peygamber’i görme imkânı bulamayan kişilere hadis usulünde ne ad verilir? Bu gruba Üveys el-Karanî örnek gösterilir.",
+   "c": [
+    "Sahabe",
+    "Etbâu’t-tâbiîn",
+    "Mübhem",
+    "Mukıll",
+    "Muhadram"
+   ],
+   "d": 4,
+   "a": "Cahiliyeyi ve İslam’ı idrak edip Hz. Peygamber’i göremeyen Müslümanlara muhadram denir. Hadis usulünde tâbiûn tabakası içinde değerlendirilirler.",
+   "ac": [
+    "Sahabe olmak için Hz. Peygamber’i mümin olarak görmek gerekir.",
+    "Etbâu’t-tâbiîn, tâbiûnu gören nesildir.",
+    "Mübhem, senette adı verilmeyen râvidir.",
+    "Mukıll, az hadis rivayet eden sahabidir.",
+    "Doğru: tanım muhadrama aittir."
+   ],
+   "kay": "Hadis usulü: râvi tabakaları"
+  },
+  {
+   "id": "h1-08",
+   "z": 2,
+   "s": "Hadisçiler râvilerde görülen kusurları adalet ve zabtla ilgili olmak üzere iki grupta toplamıştır.\n\nAşağıdakilerden hangisi adaletle ilgili kusurlardan biri değildir?",
+   "c": [
+    "Kizb",
+    "Fısk",
+    "Vehim",
+    "Bid’at",
+    "Cehâlet"
+   ],
+   "d": 2,
+   "a": "Vehim, râvinin yanılarak hata yapmasıdır ve zabtla ilgilidir. Kizb, fısk, bid’at ve cehâlet adaletle ilgili kusurlardır.",
+   "ac": [
+    "Kizb (hadiste yalan) adaleti doğrudan zedeler.",
+    "Fısk (dinin emir ve yasaklarına aykırı yaşamak) adaletle ilgilidir.",
+    "Doğru: vehim hafıza ve dikkatle ilgilidir, yani zabt kusurudur.",
+    "Bid’at, inanç bakımından bir kusurdur; adalet grubundadır.",
+    "Cehâlet, râvinin kim olduğunun bilinmemesidir; adalet grubunda sayılır."
+   ],
+   "kay": "İbn Hacer, Nuhbetü’l-fiker (metâin-i aşere)"
+  },
+  {
+   "id": "h1-09",
+   "z": 2,
+   "s": "Bir hadisin senedinde “… bize bir adam haber verdi ki …” ifadesi geçmektedir.\n\nSenette bu şekilde adı verilmeden anılan râviye ne ad verilir?",
+   "c": [
+    "Mübhem",
+    "Mestur",
+    "Mechulü’l-ayn",
+    "Metruk",
+    "Müdellis"
+   ],
+   "d": 0,
+   "a": "Senette ismi zikredilmeyen râviye mübhem denir. Kimliği bilinmediği için güvenilirliği de tespit edilemez.",
+   "ac": [
+    "Doğru: adı verilmeyen râvi mübhemdir.",
+    "Mestur, adı bilinen ama güvenilirliği tespit edilemeyen râvidir.",
+    "Mechulü’l-ayn, adı bilinen ama kendisinden yalnızca bir kişinin rivayet ettiği râvidir.",
+    "Metruk, yalancılıkla itham edilen râvinin rivayetidir.",
+    "Müdellis, senetteki bir kusuru gizleyen râvidir."
+   ],
+   "kay": "Hadis usulü: cehâletü’r-râvi"
+  },
+  {
+   "id": "h1-10",
+   "z": 3,
+   "s": "I. Hocanın kitabını talebesine verip “Bunu benden rivayet edebilirsin.” demesi\nII. Ölüm döşeğindeki bir hocanın kitaplarını talebelerinden birine bırakması\nIII. Bir kimsenin, tanıdığı bir hocanın el yazısıyla yazılmış hadisleri bulup onunla görüşmeden ve izin almadan nakletmesi\n\nYukarıda tanımlanan tahammül yolları aşağıdakilerin hangisinde doğru sıralanmıştır?",
+   "c": [
+    "Münâvele – Vasiyet – Vicâde",
+    "İcâzet – Vicâde – Vasiyet",
+    "Münâvele – İ’lâm – Kitâbet",
+    "Kıraat – Vasiyet – İ’lâm",
+    "Semâ’ – Vicâde – Münâvele"
+   ],
+   "d": 0,
+   "a": "Kitabın izinle elden verilmesi icâzetli münâveledir; hocanın kitabını vefatından önce birine bırakması vasiyettir; el yazısını bulup izinsiz nakletmek vicâdedir.",
+   "ac": [
+    "Doğru sıralama budur.",
+    "I’de yalnız izin değil kitabın elden verilmesi var; bu münâveledir. II ve III de yer değiştirmiş.",
+    "II vasiyettir, i’lâm değildir; III kitâbet değil vicâdedir.",
+    "I’de talebe okumuyor; kıraat değildir.",
+    "I’de hoca okumuyor; semâ’ değildir."
+   ],
+   "kay": "Hadis usulü: tahammül yolları"
+  },
+  {
+   "id": "h1-11",
+   "z": 2,
+   "s": "Râvinin, işittiği hadisleri doğru şekilde yazması ve kitabını değişikliğe karşı koruyarak ondan rivayet etmesi hadis usulünde nasıl adlandırılır?",
+   "c": [
+    "Zabt-ı sadr",
+    "Zabt-ı kitâb",
+    "İcâzet",
+    "Mürûet",
+    "Adalet"
+   ],
+   "d": 1,
+   "a": "Zabt ikiye ayrılır: ezberine güvenen râvinin zabtı zabt-ı sadr, yazdığı kitabı doğru tutan râvinin zabtı zabt-ı kitâbdır.",
+   "ac": [
+    "Zabt-ı sadr ezberle ilgilidir.",
+    "Doğru: yazıya dayalı zabt, zabt-ı kitâbdır.",
+    "İcâzet bir tahammül yoludur.",
+    "Mürûet adaletin parçasıdır.",
+    "Adalet, dinî ve ahlâkî güvenilirliktir."
+   ],
+   "kay": "Hadis usulü: zabt"
+  },
+  {
+   "id": "h1-12",
+   "z": 2,
+   "s": "Aşağıdaki ifadelerden hangisi hadisçilerin bir râviyi güvenilir bulduklarını gösteren bir ta’dil lafzıdır?",
+   "c": [
+    "Vaddâ’",
+    "Metrûkü’l-hadîs",
+    "Münkerü’l-hadîs",
+    "Sikatün sebt",
+    "Kezzâb"
+   ],
+   "d": 3,
+   "a": "“Sika” ve “sebt” en üst ta’dil lafızlarındandır. Diğer seçenekler râviyi ağır biçimde yaralayan cerh lafızlarıdır.",
+   "ac": [
+    "Vaddâ’ “hadis uyduran” demektir; en ağır cerhlerdendir.",
+    "Metrûkü’l-hadîs, hadisi terk edilmiş râvi için kullanılır.",
+    "Münkerü’l-hadîs, münker rivayetleri çok olan râvi içindir.",
+    "Doğru: “güvenilir ve sağlam” anlamında ta’dil lafzıdır.",
+    "Kezzâb “çok yalancı” demektir; ağır bir cerhtir."
+   ],
+   "kay": "Hadis usulü: cerh ve ta’dil lafızları"
+  },
+  {
+   "id": "h1-18",
+   "z": 3,
+   "s": "Bir hadis kitabında râvinin, hadisi aldığı yolu “haddesenâ fulân” (Bize falanca anlattı) ifadesiyle bildirdiği görülmektedir.\n\nBu ifade, râvinin hadisi daha çok hangi yolla aldığını gösterir?",
+   "c": [
+    "Vicâde",
+    "Mükâtebe",
+    "İ’lâm",
+    "Vasiyet",
+    "Semâ’"
+   ],
+   "d": 4,
+   "a": "“Haddesenâ” ve “semi’tu” ifadeleri hadisin hocanın ağzından bizzat dinlendiğini, yani semâ’ yolunu gösterir. Kıraat için daha çok “ahberanâ” kullanılmıştır.",
+   "ac": [
+    "Vicâdede râvi hocayı duymamıştır; “vecedtu” der.",
+    "Mükâtebede hadis yazılı gelir; “kebete ileyye” denir.",
+    "İ’lâmda yalnız bildirim vardır.",
+    "Vasiyette kitap bırakılır; “evsâ ileyye” denir.",
+    "Doğru: “bize anlattı” ifadesi dinlemeyi, yani semâ’yı gösterir."
+   ],
+   "kay": "Hadis usulü: edâ sîgaları"
+  },
+  {
+   "id": "h1-19",
+   "z": 3,
+   "s": "Bir hadis talebesi şu bilgileri not etmiştir:\n• Bu râvilerden birine Hz. Peygamber’in sağlığında Müslüman olduğu hâlde onunla hiç görüşemediği için sahabi denmez.\n• Hz. Peygamber’i mümin olarak görüp mümin olarak vefat eden herkes sahabi sayılır.\n• Hz. Ebû Bekir ve Hz. Ömer, Hz. Peygamber’e çok yakın oldukları için muksirûn arasında sayılır.\n\nTalebenin notlarındaki hangi bilgi yanlıştır?",
+   "c": [
+    "Yalnız birinci",
+    "Yalnız ikinci",
+    "İkinci ve üçüncü",
+    "Yalnız üçüncü",
+    "Birinci ve ikinci"
+   ],
+   "d": 3,
+   "a": "Hz. Ebû Bekir ve Hz. Ömer, Hz. Peygamber’e en yakın sahabilerden olsalar da erken vefat ve devlet işleri gibi sebeplerle az hadis rivayet etmiştir; muksirûn arasında değildir. İlk iki bilgi doğrudur (birincisi muhadramı anlatır).",
+   "ac": [
+    "Birinci not muhadramı doğru tanımlar.",
+    "İkinci not sahabe tanımıdır; doğrudur.",
+    "İkinci not doğrudur.",
+    "Doğru: üçüncü not yanlıştır; muksirûn rivayet sayısına göre belirlenir.",
+    "Birinci ve ikinci notlar doğrudur."
+   ],
+   "kay": "Hadis usulü: sahabe, muhadram, muksirûn"
+  }
+ ]
+}

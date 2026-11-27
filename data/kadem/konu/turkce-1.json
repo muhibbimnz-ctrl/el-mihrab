@@ -1,0 +1,559 @@
+{
+ "id": "turkce-1",
+ "ad": "Türkçe: Yazım Kuralları, Noktalama İşaretleri ve Anlatım Bozuklukları",
+ "ders": "Türkçe",
+ "sinavlar": [
+  "murakip",
+  "mufettis",
+  "gys",
+  "yurtdisi",
+  "kurumici"
+ ],
+ "oncelik": 3,
+ "anlatim": [
+  "Murakıplık sınavının konu listesinde “Türkçe yazım kuralları” ayrı bir maddedir. Müfettiş yardımcılığında Türkçe kompozisyon, yurt dışı temsil yeteneği sınavında ise Türkçe 25 puandır. Bir din görevlisinin yazdığı resmî yazı, rapor ya da vaaz metni, kurumun yüzüdür. Bu konu Türk Dil Kurumu Yazım Kılavuzu’nun güncel kurallarına göre hazırlanmıştır.",
+  {
+   "b": "1. Büyük harflerin kullanımı"
+  },
+  {
+   "merak": "“Müftülük” kelimesi bazen büyük, bazen küçük harfle yazılır. Bunun bir kuralı var mı? Var. Özel bir kurumu karşılıyorsa büyük, genel bir kavramı karşılıyorsa küçük yazılır: “Eskişehir İl Müftülüğü” ama “her ilde bir müftülük vardır”."
+  },
+  "Cümle büyük harfle başlar. Özel adlar (kişi, yer, kurum, kitap, dergi adları) büyük harfle yazılır. Kurum ve kuruluş adlarının her kelimesi büyük harfle başlar: Diyanet İşleri Başkanlığı, Din İşleri Yüksek Kurulu. Kitap, dergi ve gazete adlarının her kelimesi büyük yazılır: Diyanet Aylık Dergi, Hak Dini Kur’an Dili. Kişi adlarından önce ve sonra gelen unvanlar büyük harfle başlar: Hacı Bektaş Velî, Mehmet Âkif Ersoy, Prof. Dr. Ali Bey. Belirli bir tarih bildiren gün ve ay adları büyük yazılır: 29 Mayıs 1453 Salı. Belirli tarih bildirmeyenler küçük yazılır: her pazartesi, mayısta.",
+  {
+   "tablo": [
+    [
+     "Kural",
+     "Doğru",
+     "Yanlış"
+    ],
+    [
+     "Kurum adlarının her kelimesi büyük",
+     "Diyanet İşleri Başkanlığı",
+     "Diyanet işleri başkanlığı"
+    ],
+    [
+     "Belirli tarihteki ay ve gün büyük",
+     "15 Temmuz 2016 Cuma",
+     "15 temmuz 2016 cuma"
+    ],
+    [
+     "Belirli tarih yoksa küçük",
+     "Her cuma camiye gider.",
+     "Her Cuma camiye gider."
+    ],
+    [
+     "Yön adları yer adına dahilse büyük",
+     "Doğu Anadolu, Güneydoğu Asya",
+     "doğu Anadolu"
+    ],
+    [
+     "Dinî kitap ve kutsal kavramlar",
+     "Kur’an-ı Kerim, Allah, Hz. Muhammed",
+     "kur’an, allah"
+    ],
+    [
+     "Özel adlara gelen ekler kesme ile ayrılır, büyük harf korunur",
+     "Ankara’ya, Kur’an’ı",
+     "Ankaraya, Kuranı"
+    ],
+    [
+     "Ay ve gün adlarına gelen ekler kesmeyle ayrılmaz",
+     "29 Ekimde, 15 Haziranda",
+     "29 Ekim’de"
+    ]
+   ]
+  },
+  "Kurum adlarına gelen ekler kesme işaretiyle ayrılmaz: Türk Dil Kurumuna, Diyanet İşleri Başkanlığından. Ancak kurumların kısaltmalarından sonra gelen ekler kesmeyle ayrılır: TDK’ye, DİB’e. Dinî kavramlarda Allah, Peygamber (Hz. Muhammed’i kastediyorsa), Kur’an, İncil, Tevrat büyük yazılır. Ramazan ve kurban gibi kelimeler bayram adı içinde büyük yazılır: Ramazan Bayramı, Kurban Bayramı. Ay adı olarak ramazan küçük yazılır: “ramazan ayında oruç tutulur”.",
+  {
+   "sinav": "Büyük harf sorularında en çok kurum adına gelen ek (kesme yok), kısaltmaya gelen ek (kesme var), belirli tarih ile belirsiz tarih ve bayram adı ile ay adı ayrımı sorulur. “Ramazan Bayramı” büyük, “ramazanda” küçük yazılır."
+  },
+  {
+   "akil": "Kurum adına ek: kesme yok (Başkanlığına). Kısaltmaya ek: kesme var (DİB’e). Belirli tarih: büyük (5 Mart Pazartesi). Bayram adı büyük, ay adı küçük (ramazanda)."
+  },
+  {
+   "b": "2. Birleşik kelimeler, ki, de, mi"
+  },
+  "Bazı kelimeler bitişik, bazıları ayrı yazılır. Anlam kayması olan birleşik kelimeler bitişik yazılır: hanımeli, aslanağzı, kuşburnu. Ses düşmesi ya da türemesi olan birleşik kelimeler bitişik yazılır: kaybolmak, hissetmek, affetmek. “Etmek, olmak, eylemek” yardımcı fiilleriyle kurulan birleşik fiillerde ses olayı yoksa ayrı yazılır: kabul etmek, namaz kılmak, dua etmek. Ses olayı varsa bitişik yazılır: reddetmek, hükmetmek, sabretmek.",
+  {
+   "tablo": [
+    [
+     "Yapı",
+     "Yazılışı",
+     "Örnek"
+    ],
+    [
+     "Bağlaç olan “de/da”",
+     "Ayrı",
+     "Sen de gel. Kurana da baktı."
+    ],
+    [
+     "Bulunma eki “-de/-da”",
+     "Bitişik",
+     "Camide, evde"
+    ],
+    [
+     "Bağlaç olan “ki”",
+     "Ayrı",
+     "Duydum ki…, Öyle bir dua etti ki…"
+    ],
+    [
+     "İlgi zamiri / sıfat yapan “-ki”",
+     "Bitişik",
+     "Benimki, evdeki"
+    ],
+    [
+     "Kalıplaşmış “ki”ler",
+     "Bitişik",
+     "Belki, sanki, çünkü, oysaki, mademki"
+    ],
+    [
+     "Soru eki “mi”",
+     "Ayrı, kendinden önceki kelimeye göre uyum",
+     "Geldi mi? Kur’an mı?"
+    ],
+    [
+     "Ses olayı olan birleşik fiil",
+     "Bitişik",
+     "Affetmek, sabretmek, reddetmek"
+    ],
+    [
+     "Ses olayı olmayan birleşik fiil",
+     "Ayrı",
+     "Kabul etmek, dua etmek"
+    ]
+   ]
+  },
+  "Bağlaç olan “de”yi bulunma ekinden ayırmanın yolu, onu cümleden çıkarmaktır. Çıkınca anlam bozulmuyorsa (yalnızca vurgu kayboluyorsa) bağlaçtır ve ayrı yazılır. Bulunma eki ise kelimenin sonuna bitişir ve “nerede?” sorusuna cevap verir. Bağlaç olan “de” kendinden önceki kelimenin sonuna göre “de” ya da “da” olur, ama hiçbir zaman “te/ta” olmaz: “Kitap da aldım.” Bulunma eki ise sertleşebilir: “kitapta”.",
+  {
+   "sinav": "“Aşağıdaki cümlelerin hangisinde yazım yanlışı yapılmıştır?” sorusunda genellikle bir “de” ya da “ki” bitişik yazılır veya bir birleşik fiil hatalı yazılır. “Hissetmek” bitişik, “kabul etmek” ayrı yazılır. “Ki” ile biten kalıplar (belki, çünkü, sanki, oysaki) bitişiktir."
+  },
+  {
+   "b": "3. Sayıların, kısaltmaların ve şapkanın yazımı"
+  },
+  "Sayılar yazıyla yazılırken her kelime ayrı yazılır: iki yüz elli üç. Para ve senet işlemlerinde karışıklığı önlemek için bitişik yazılabilir. Sıra sayıları rakamla yazılırken rakamdan sonra nokta konur ya da kesme ile ek getirilir: 3. kat, 3’üncü kat. Ancak “3.üncü” gibi nokta ve ek birlikte kullanılmaz. Üleştirme sayıları rakamla yazılmaz: “birer birer”, “ikişer”. Kısaltmalara ek getirilirken kısaltmanın okunuşu esas alınır: TBMM’ye (te-be-me-me-ye), DİB’e, TDK’de.",
+  "Düzeltme işareti (şapka) üç durumda kullanılır. Birincisi, aynı yazılıp farklı okunan kelimeleri ayırmak içindir: âlem (dünya) – alem (bayrak), hâlâ (henüz) – hala (babanın kız kardeşi), adet (sayı) – âdet (gelenek). İkincisi, ince g, k ve l ünsüzlerinden sonra gelen a ve u ünlülerini incelterek okumak içindir: kâğıt, dükkân, hikâye, Kâbe, Lâdik. Üçüncüsü, nispet ekinin (-î) belirtme ekiyle karışmasını önlemek içindir: askerî (askerle ilgili) – askeri (askeri gördüm), dinî, millî, resmî.",
+  {
+   "akil": "Sayılar ayrı yazılır (iki yüz). Sıra sayısı: 3. ya da 3’üncü, ikisi birden olmaz. Şapka: anlam ayrımı (hâlâ), ince okuma (kâğıt), nispet eki (dinî, millî)."
+  },
+  {
+   "b": "4. Noktalama işaretleri"
+  },
+  {
+   "merak": "“Hocam, yarın gelin.” ile “Hocam yarın gelin.” aynı cümle midir? İlkinde “hocam” bir seslenmedir; virgül, konuşulan kişiyi cümlenin geri kalanından ayırır. Noktalama işareti bazen anlamı tek başına değiştirir."
+  },
+  "Nokta; cümlenin sonuna, kısaltmaların sonuna (Prof., Dr., vb.) ve sıra bildiren rakamlardan sonra konur. Virgül; eş görevli kelimeleri ayırır (namaz, oruç, zekât), uzun cümlelerde yüklemden uzak düşmüş öğeyi belirtir, sıralı cümleleri ayırır ve hitap sözlerinden sonra konur. Noktalı virgül; ögeleri arasında virgül bulunan sıralı cümleleri ayırmak ve virgülle ayrılmış tür ya da takımları birbirinden ayırmak için kullanılır: “Kırmızı, sarı, yeşil renkler; kare, daire, üçgen şekiller…” İki nokta; açıklama ya da örnek verilecek cümleden sonra ve kendisinden sonra alıntı yapılacak cümlenin sonuna konur. Kesme işareti; özel adlara getirilen ekleri ayırır. Tırnak işareti başkasından aynen aktarılan sözleri gösterir.",
+  {
+   "tablo": [
+    [
+     "İşaret",
+     "Başlıca kullanımı"
+    ],
+    [
+     "Virgül",
+     "Eş görevli kelimeler arasında; sıralı cümlelerde; hitaptan sonra"
+    ],
+    [
+     "Noktalı virgül",
+     "İçinde virgül bulunan sıralı cümleleri ya da takımları ayırmak"
+    ],
+    [
+     "İki nokta",
+     "Açıklama ya da örnekten önce; alıntıdan önce"
+    ],
+    [
+     "Kesme",
+     "Özel adlara gelen ekleri ayırmak; kısaltmalara gelen ekler"
+    ],
+    [
+     "Tırnak",
+     "Aynen aktarılan sözler; vurgulanmak istenen ifadeler"
+    ]
+   ]
+  },
+  {
+   "b": "5. Anlatım bozuklukları"
+  },
+  "Anlatım bozuklukları, yazım yanlışlarından farklıdır. Kelimelerin yanlış anlamda kullanılması, gereksiz kelime kullanımı (“geri iade etmek”, “en optimum”), özne-yüklem uyumsuzluğu, ortak öge kullanımında yanlışlık ve mantık hataları başlıca bozukluk türleridir. Örneğin “Toplantıya katılım ve destek veren herkese teşekkür ederiz” cümlesinde “katılım” ile “destek veren” ortak yüklemi paylaşamaz. Doğrusu: “Toplantıya katılan ve destek veren herkese teşekkür ederiz.” “Sebebi” ile “-den dolayı” aynı cümlede kullanılırsa gereksiz tekrar olur: “Gecikmenin sebebi yağmurdan dolayıdır” yerine “Gecikmenin sebebi yağmurdur.”",
+  {
+   "not": "Yazım kurallarındaki tartışmalı durumlarda (örneğin bazı birleşik kelimeler) son ölçü Türk Dil Kurumunun güncel Yazım Kılavuzu’dur. Resmî yazışmalarda Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik de dikkate alınır."
+  }
+ ],
+ "ozet": [
+  "Kurum, kitap ve dergi adlarının her kelimesi büyük harfle başlar.",
+  "Kurum adlarına gelen ekler kesmeyle ayrılmaz; kısaltmalara gelen ekler kesmeyle ayrılır (DİB’e).",
+  "Belirli tarih bildiren ay ve gün adları büyük, belirsizleri küçük yazılır.",
+  "Bayram adı büyük (Ramazan Bayramı), ay adı küçük yazılır (ramazanda).",
+  "Bağlaç olan “de” ve “ki” ayrı, bulunma eki “-de” ve sıfat yapan “-ki” bitişik yazılır.",
+  "Belki, sanki, çünkü, oysaki, mademki bitişik yazılır.",
+  "Ses olayı olan birleşik fiiller bitişik (affetmek), olmayanlar ayrı (kabul etmek) yazılır.",
+  "Sayılar ayrı yazılır; sıra sayısında nokta ya da kesmeli ek kullanılır, ikisi birlikte kullanılmaz.",
+  "Kısaltmalara ek, kısaltmanın okunuşuna göre getirilir (TBMM’ye).",
+  "Şapka; anlam ayrımı (hâlâ), ince okuma (kâğıt) ve nispet eki (dinî) için kullanılır.",
+  "Noktalı virgül, içinde virgül bulunan sıralı cümleleri ya da takımları ayırır.",
+  "Gereksiz kelime, anlamca çelişen kelimeler ve ortak öge hatası anlatım bozukluğudur."
+ ],
+ "kartlar": [
+  {
+   "o": "Kurum adına gelen ek",
+   "a": "Kesmeyle ayrılmaz: Diyanet İşleri Başkanlığına"
+  },
+  {
+   "o": "Kısaltmaya gelen ek",
+   "a": "Kesmeyle ayrılır, okunuşa göre: DİB’e, TBMM’ye"
+  },
+  {
+   "o": "Belirli tarih bildiren ay adı",
+   "a": "Büyük: 15 Temmuz 2016"
+  },
+  {
+   "o": "Ramazan",
+   "a": "Bayram adında büyük, ay adı olarak küçük"
+  },
+  {
+   "o": "Bağlaç “de”",
+   "a": "Ayrı yazılır, sertleşmez: kitap da"
+  },
+  {
+   "o": "Kalıplaşmış ki’ler",
+   "a": "Belki, sanki, çünkü, oysaki, mademki"
+  },
+  {
+   "o": "Affetmek – kabul etmek",
+   "a": "Ses olayı var: bitişik; yok: ayrı"
+  },
+  {
+   "o": "Sıra sayısının rakamla yazımı",
+   "a": "3. kat ya da 3’üncü kat (3.üncü yanlış)"
+  },
+  {
+   "o": "Şapkanın üç kullanımı",
+   "a": "Anlam ayrımı, ince okuma, nispet eki"
+  },
+  {
+   "o": "Nispet eki örnekleri",
+   "a": "Dinî, millî, resmî, askerî"
+  },
+  {
+   "o": "Noktalı virgül",
+   "a": "İçinde virgül olan sıralı cümle ve takımları ayırır"
+  },
+  {
+   "o": "İki nokta",
+   "a": "Açıklama, örnek ve alıntıdan önce"
+  },
+  {
+   "o": "Gereksiz kelime örneği",
+   "a": "Geri iade etmek, en optimum"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "tr1-01",
+   "z": 2,
+   "s": "Aşağıdaki cümlelerin hangisinde büyük harflerin kullanımıyla ilgili bir yanlışlık yapılmıştır?",
+   "c": [
+    "Diyanet İşleri Başkanlığına bir dilekçe yazdı.",
+    "29 Mayıs 1453 Salı günü İstanbul fethedildi.",
+    "Her Cuma camiye erken gider.",
+    "Ramazan Bayramı’nda akrabalarını ziyaret etti.",
+    "Kur’an-ı Kerim’i her gün okur."
+   ],
+   "d": 2,
+   "a": "Belirli bir tarih bildirmeyen gün ve ay adları küçük harfle yazılır: her cuma, mayısta.",
+   "ac": [
+    "Kurum adına ek kesmesiz getirilmiştir; doğrudur.",
+    "Belirli tarih bildirdiği için büyük yazılmıştır; doğrudur.",
+    "Doğru cevap: belirli bir tarih bildirmeyen gün adı küçük yazılır: her cuma.",
+    "Bayram adı büyük yazılmıştır; doğrudur.",
+    "Kutsal kitap adı büyük ve eki kesmeyle ayrılmıştır; doğrudur."
+   ],
+   "kay": "TDK Yazım Kılavuzu, büyük harfler"
+  },
+  {
+   "id": "tr1-02",
+   "z": 3,
+   "s": "Aşağıdaki cümlelerin hangisinde kesme işaretinin kullanımıyla ilgili yanlışlık vardır?",
+   "c": [
+    "DİB’e bağlı birimler toplandı.",
+    "Ankara’dan gelen heyet müftülüğü ziyaret etti.",
+    "TBMM’ye bir dilekçe gönderildi.",
+    "Türk Dil Kurumu’nun yeni kılavuzu yayımlandı.",
+    "Hz. Ömer’in adaleti örnek gösterildi."
+   ],
+   "d": 3,
+   "a": "Kurum, kuruluş, kurul, merkez, bakanlık gibi kuruluş adlarına gelen ekler kesmeyle ayrılmaz.",
+   "ac": [
+    "Kısaltmaya gelen ek kesmeyle ayrılır; doğrudur.",
+    "Özel ada gelen ek kesmeyle ayrılır; doğrudur.",
+    "Kısaltmaya gelen ek okunuşa göre kesmeyle getirilmiştir; doğrudur.",
+    "Doğru cevap: kurum adlarına gelen ekler kesmeyle ayrılmaz: Türk Dil Kurumunun.",
+    "Özel ada gelen ek kesmeyle ayrılmıştır; doğrudur."
+   ],
+   "kay": "TDK Yazım Kılavuzu, kesme işareti"
+  },
+  {
+   "id": "tr1-03",
+   "z": 3,
+   "s": "Aşağıdaki cümlelerin hangisinde “de” bağlacının yazımında yanlışlık yapılmıştır?",
+   "c": [
+    "Kitapda yazılanları özetledi.",
+    "Kardeşi de bu sınava girecek.",
+    "Camiye o da geldi.",
+    "Evde kimse yoktu.",
+    "Hem okudu hem de anlattı."
+   ],
+   "d": 0,
+   "a": "Bulunma eki sertleşir (kitapta), bağlaç olan “de” ise sertleşmez ve ayrı yazılır.",
+   "ac": [
+    "Doğru cevap: bu bulunma ekidir ve sertleşmeyle “kitapta” yazılmalıdır.",
+    "Bağlaç ayrı yazılmıştır; doğrudur.",
+    "Bağlaç ayrı yazılmıştır; doğrudur.",
+    "Bulunma eki bitişik yazılmıştır; doğrudur.",
+    "Bağlaç ayrı yazılmıştır; doğrudur."
+   ],
+   "kay": "TDK Yazım Kılavuzu, de/da"
+  },
+  {
+   "id": "tr1-04",
+   "z": 3,
+   "s": "Aşağıdaki cümlelerin hangisinde birleşik fiillerin yazımında yanlışlık vardır?",
+   "c": [
+    "Hocasını her zaman hürmetle andı.",
+    "Kendisine yapılanları affetti.",
+    "Teklifi kabul etti.",
+    "Sıkıntılara sabır etti.",
+    "Vatandaşın isteğini reddetti."
+   ],
+   "d": 3,
+   "a": "“Sabır + etmek” birleşirken “ı” düşer ve bitişik yazılır: sabretmek. Ses olayı olmayanlar ayrı yazılır: kabul etmek.",
+   "ac": [
+    "Birleşik fiil yoktur; cümle doğrudur.",
+    "Ses olayı olduğu için bitişik yazılmıştır; doğrudur.",
+    "Ses olayı olmadığı için ayrı yazılmıştır; doğrudur.",
+    "Doğru cevap: ses düşmesi olduğu için “sabretti” şeklinde bitişik yazılmalıdır.",
+    "Ses türemesi olduğu için bitişik yazılmıştır; doğrudur."
+   ],
+   "kay": "TDK Yazım Kılavuzu, birleşik fiiller"
+  },
+  {
+   "id": "tr1-05",
+   "z": 2,
+   "s": "Aşağıdakilerin hangisinde sıra sayısının yazımında yanlışlık yapılmıştır?",
+   "c": [
+    "5. Din Şûrası",
+    "2.inci kat",
+    "3’üncü sınıf",
+    "Onuncu yıl",
+    "XX. yüzyıl"
+   ],
+   "d": 1,
+   "a": "Sıra sayıları rakamla yazılırken ya yalnız nokta (2.) ya da kesmeyle ek (2’nci) kullanılır; ikisi birlikte kullanılmaz.",
+   "ac": [
+    "Rakamdan sonra nokta konmuştur; doğrudur.",
+    "Doğru cevap: nokta ile ek birlikte kullanılmaz; “2. kat” ya da “2’nci kat” olmalıdır.",
+    "Kesmeli ek kullanılmıştır; doğrudur.",
+    "Yazıyla doğru yazılmıştır.",
+    "Romen rakamından sonra nokta konmuştur; doğrudur."
+   ],
+   "kay": "TDK Yazım Kılavuzu, sayılar"
+  },
+  {
+   "id": "tr1-06",
+   "z": 3,
+   "s": "Aşağıdaki kelimelerin hangisinde düzeltme işareti nispet ekini belirtmek için kullanılmıştır?",
+   "c": [
+    "hâlâ",
+    "kâğıt",
+    "dükkân",
+    "âlem",
+    "dinî"
+   ],
+   "d": 4,
+   "a": "Nispet eki olan -î, belirtme durumundaki -i ile karışmasın diye şapkalı yazılır: dinî (dinle ilgili), millî, resmî.",
+   "ac": [
+    "Anlam ayrımı içindir (hala ile karışmasın).",
+    "İnce okuma içindir.",
+    "İnce okuma içindir.",
+    "Anlam ayrımı içindir (alem: bayrak).",
+    "Doğru: nispet eki -î’yi belirtme ekinden ayırır."
+   ],
+   "kay": "TDK Yazım Kılavuzu, düzeltme işareti"
+  },
+  {
+   "id": "tr1-07",
+   "z": 3,
+   "s": "Düzeltme işaretiyle ilgili:\nI. “Hâlâ” kelimesindeki işaret anlam ayrımı içindir.\nII. “Kâbe” kelimesindeki işaret ince okuma içindir.\nIII. “Askerî” kelimesindeki işaret nispet ekini belirtir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Şapka anlam ayrımı (hâlâ–hala), ince okuma (Kâbe, kâğıt) ve nispet eki (askerî, dinî) için kullanılır.",
+   "ac": [
+    "Eksik: diğer iki ifade de doğrudur.",
+    "Eksik: askerî örneği nispet ekidir.",
+    "Eksik: Kâbe ince okuma örneğidir.",
+    "Eksik: hâlâ anlam ayrımı örneğidir.",
+    "Doğru: şapkanın üç kullanımı doğru eşleştirilmiştir."
+   ],
+   "kay": "TDK Yazım Kılavuzu"
+  },
+  {
+   "id": "tr1-08",
+   "z": 2,
+   "s": "Aşağıdaki cümlelerin hangisinde noktalı virgül doğru kullanılmıştır?",
+   "c": [
+    "Namaz; oruç ve zekât farzdır.",
+    "Çocuklar; ilahi okudu.",
+    "Ayetler, hadisler, kıssalar okundu; sorular, cevaplar, yorumlar dinlendi.",
+    "Hocam; buyurun.",
+    "Şöyle dedi; “Sabır imanın yarısıdır.”"
+   ],
+   "d": 2,
+   "a": "Noktalı virgül, ögeleri arasında virgül bulunan sıralı cümleleri ya da virgülle ayrılmış takımları birbirinden ayırır.",
+   "ac": [
+    "Eş görevli kelimeler arasında virgül kullanılır.",
+    "Özneden sonra noktalı virgül kullanılmaz.",
+    "Doğru: içinde virgül bulunan sıralı cümleler noktalı virgülle ayrılmıştır.",
+    "Hitaptan sonra virgül konur.",
+    "Alıntıdan önce iki nokta konur."
+   ],
+   "kay": "TDK Yazım Kılavuzu, noktalı virgül"
+  },
+  {
+   "id": "tr1-09",
+   "z": 3,
+   "s": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu yoktur?",
+   "c": [
+    "Kurs öğrencileri hafızlık programını başarıyla tamamladı.",
+    "Kursa katılım ve emek veren herkese teşekkür ederiz.",
+    "Gecikmenin sebebi yağmurdan dolayıdır.",
+    "Fazla ödenen parayı geri iade etti.",
+    "Kesinlikle belki gelirim."
+   ],
+   "d": 0,
+   "a": "Gereksiz kelime, ortak öge hatası, aynı anlamı veren yapıların birlikte kullanılması ve çelişen kelimeler anlatım bozukluğudur.",
+   "ac": [
+    "Doğru: cümlede gereksiz kelime ya da uyumsuzluk yoktur.",
+    "Ortak öge hatası vardır: “katılan ve emek veren”.",
+    "“Sebebi” ile “-den dolayı” birlikte kullanılmaz.",
+    "“Geri iade” gereksiz tekrardır.",
+    "“Kesinlikle” ile “belki” anlamca çelişir."
+   ],
+   "kay": "Anlatım bozuklukları"
+  },
+  {
+   "id": "tr1-10",
+   "z": 2,
+   "s": "Aşağıdaki kelimelerden hangisi bitişik yazılmalıdır?",
+   "c": [
+    "de (bağlaç)",
+    "mi (soru eki)",
+    "ki (bağlaç: “duydum ki”)",
+    "ki (“sanki” kalıbında)",
+    "etmek (kabul etmek)"
+   ],
+   "d": 3,
+   "a": "“Belki, sanki, çünkü, oysaki, mademki, halbuki” kalıplaşmış oldukları için bitişik yazılır.",
+   "ac": [
+    "Bağlaç ayrı yazılır.",
+    "Soru eki ayrı yazılır.",
+    "Bağlaç ayrı yazılır.",
+    "Doğru: kalıplaşmış “ki”li kelimeler bitişik yazılır.",
+    "Ses olayı olmayan birleşik fiilde ayrı yazılır."
+   ],
+   "kay": "TDK Yazım Kılavuzu, ki"
+  },
+  {
+   "id": "tr1-11",
+   "z": 3,
+   "s": "Aşağıdaki resmî yazı cümlelerinin hangisinde yazım yanlışı vardır?",
+   "c": [
+    "İl müftülüğümüzce düzenlenen seminere Müftü yardımcıları katılacaktır.",
+    "Konu hakkında bilgilerinizi rica ederim.",
+    "2026 yılı yaz Kur’an kursları 15 Haziranda başlayacaktır.",
+    "İlgi yazınız incelenmiştir.",
+    "Başkanlığımızın 3’üncü Din Şûrası kararları uygulanacaktır."
+   ],
+   "d": 0,
+   "a": "Unvanlar, belli bir kişinin adıyla birlikte kullanıldıklarında büyük harfle başlar; genel anlamda kullanıldıklarında küçük yazılır.",
+   "ac": [
+    "Doğru cevap: unvan, kişi adı olmadan genel olarak kullanıldığında küçük yazılır: müftü yardımcıları.",
+    "Yazım yanlışı yoktur.",
+    "Belirli tarihteki ay adı büyük yazılmış, eki kesmesiz getirilmiştir; doğrudur.",
+    "Yazım yanlışı yoktur.",
+    "Sıra sayısı kesmeli ekle doğru yazılmıştır."
+   ],
+   "kay": "TDK Yazım Kılavuzu"
+  },
+  {
+   "id": "tr1-12",
+   "z": 2,
+   "s": "Aşağıdaki cümlelerin hangisinde iki nokta işareti yanlış kullanılmıştır?",
+   "c": [
+    "Hz. Peygamber şöyle buyurdu: “Kolaylaştırın, zorlaştırmayın.”",
+    "Toplantıya: müftü, vaizler ve murakıplar katıldı.",
+    "İslam’ın beş şartı şunlardır: şehadet, namaz, oruç, zekât, hac.",
+    "Bir dilekçede şunlar bulunmalıdır: ad soyad, imza, adres.",
+    "Rapor kısaydı: sadece iki sayfa."
+   ],
+   "d": 1,
+   "a": "İki nokta, açıklama ya da örnek verilecek bir cümleden sonra ve alıntıdan önce konur. Cümlenin öğeleri arasına konmaz.",
+   "ac": [
+    "Alıntıdan önce iki nokta konur; doğrudur.",
+    "Doğru cevap: cümle tamamlanmadan, örnek ya da açıklama bildirmeyen yerde iki nokta konmaz.",
+    "Açıklamadan önce iki nokta konur; doğrudur.",
+    "Açıklamadan önce iki nokta konur; doğrudur.",
+    "Açıklamadan önce kullanılmış, cümle olmayan açıklama küçük harfle başlamıştır; doğrudur."
+   ],
+   "kay": "TDK Yazım Kılavuzu, iki nokta"
+  },
+  {
+   "id": "tr1-13",
+   "z": 3,
+   "s": "Aşağıdaki cümlelerin hangisinde kısaltmaya getirilen ekin yazımı yanlıştır?",
+   "c": [
+    "TBMM’ye dilekçe verildi.",
+    "DİB’in yayınları dağıtıldı.",
+    "TDK’nın önerisi kabul edildi.",
+    "AB’ye üye ülkeler toplandı.",
+    "TRT’ye konuk oldu."
+   ],
+   "d": 2,
+   "a": "Kısaltmalara gelen ekler kısaltmanın son harfinin okunuşuna göre getirilir. TDK “te-de-ke” okunduğu için doğru yazım “TDK’nin”dir.",
+   "ac": [
+    "Okunuş “te-be-me-me” olduğundan doğrudur.",
+    "Okunuş “dib” olduğundan doğrudur.",
+    "Doğru cevap: okunuş “te-de-ke” olduğundan ek ince ünlüyle gelmelidir: TDK’nin.",
+    "Okunuş “a-be” olduğundan doğrudur.",
+    "Okunuş “te-re-te” olduğundan doğrudur."
+   ],
+   "kay": "TDK Yazım Kılavuzu, kısaltmalar"
+  },
+  {
+   "id": "tr1-14",
+   "z": 3,
+   "s": "Yazım kurallarıyla ilgili:\nI. Kurum adlarına gelen ekler kesme işaretiyle ayrılmaz.\nII. Belirli bir tarih bildiren ay adları büyük harfle başlar.\nIII. Bağlaç olan “de” kendinden önceki kelimeye göre “te” biçiminde de yazılabilir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "Kurum adlarına gelen ekler kesmesiz yazılır, belirli tarihteki ay adları büyük harfle başlar. Bağlaç “de” yalnız “de/da” biçimindedir; “kitap da” örneğindeki gibi sertleşmez.",
+   "ac": [
+    "Eksik: belirli tarihteki ay adlarının büyük yazılması da doğrudur.",
+    "Doğru: bağlaç olan “de” hiçbir zaman sertleşmez.",
+    "Üçüncü ifade yanlıştır.",
+    "Üçüncü ifade yanlıştır.",
+    "Üçüncü ifade yanlıştır."
+   ],
+   "kay": "TDK Yazım Kılavuzu"
+  }
+ ]
+}

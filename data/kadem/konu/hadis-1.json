@@ -1,0 +1,862 @@
+{
+ "id": "hadis-1",
+ "ad": "Hadis ve Sünnet Kavramları (Haber, Eser, Sünnetin Türleri); Sünnetin Dindeki Yeri ve Bağlayıcılığı",
+ "ders": "Hadis",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Hadis kelimesi: “yeni” olandan “söz”e"
+  },
+  {
+   "merak": "Arapçada “kadîm” (eski) kelimesinin zıddı olan bir kelime, nasıl olup da Hz. Peygamber’in sözlerinin adı oldu? Üstelik Kur’an, kendisini de “hadis” diye anar: “Allah sözün en güzelini (ahsene’l-hadîs) indirdi.”"
+  },
+  "Hadis kelimesi sözlükte “yeni, sonradan olan” demektir; kadîm kelimesinin karşıtıdır. Yeni olan şey konuşulup aktarıldığı için kelime zamanla “söz, haber, konuşulan şey” anlamını da kazanmıştır. Kur’an’da hadis kelimesi hem “söz” hem “haber, kıssa” anlamında geçer. Tûr Suresi’nde müşriklere “Doğru iseler onun gibi bir söz (hadîs) getirsinler” denir; Zümer Suresi’nde Kur’an “sözün en güzeli” olarak anılır; Tâhâ Suresi’nde ise “Mûsâ’nın haberi (hadîsü Mûsâ) sana ulaştı mı?” buyrulur.",
+  {
+   "ayet": "Allah sözün en güzelini (ahsene’l-hadîs), birbirine benzeyen ve tekrarlanan bir kitap hâlinde indirdi.",
+   "kay": "Zümer, 39/23"
+  },
+  {
+   "ayet": "Doğru söylüyorlarsa onun gibi bir söz (hadîs) getirsinler.",
+   "kay": "Tûr, 52/34"
+  },
+  "Terim olarak hadis; Hz. Peygamber’e nispet edilen söz, fiil, takrîr (onay) ve onun yaratılış (hılkî) ile ahlâk (hulukî) özelliklerinin tamamıdır. Kısaca “Hz. Muhammed’e izafe edilen her şey” hadistir. Bazı muhaddisler sahabe ve tâbiûna ait sözleri de geniş anlamda hadis kapsamında sayar; ancak “hadis” mutlak olarak söylendiğinde akla Hz. Peygamber’in hadisi (el-hadîsü’n-nebevî) gelir.",
+  "Hz. Peygamber’in kendisi de sözleri için “hadis” kelimesini kullanmıştır. Ebû Hüreyre, kıyamet günü şefaatine en çok kimin nail olacağını sorduğunda Hz. Peygamber, onun hadise olan düşkünlüğünü bildiği için bu soruyu ilk onun soracağını tahmin ettiğini söylemiştir. Bu rivayet, hadis kelimesinin daha o dönemde Hz. Peygamber’in sözleri için kullanıldığını gösterir.",
+  {
+   "hadis": "Ey Ebû Hüreyre! Hadise olan düşkünlüğünü gördüğüm için bu meseleyi senden önce kimsenin bana sormayacağını düşünmüştüm…",
+   "kay": "Buhârî, İlim, 33"
+  },
+  {
+   "b": "Haber ve eser: hadisin kardeş kavramları"
+  },
+  "Hadisle iç içe kullanılan iki kavram daha vardır: haber ve eser.",
+  "Haber sözlükte “bilgi, duyurulan şey” demektir. Muhaddislerin çoğuna göre haber ile hadis eş anlamlıdır. Bazı âlimler ise hadisi Hz. Peygamber’den gelen için, haberi başkalarından (tarih ve kıssalar) gelen için kullanmış; bu yüzden hadisle uğraşana muhaddis, tarihle uğraşana ahbârî denmiştir. Üçüncü bir görüşe göre haber hadisten geniştir: her hadis haberdir, her haber hadis değildir.",
+  "Eser (çoğulu âsâr) sözlükte “iz, kalıntı, bir şeyden geriye kalan” demektir. Muhaddislerin çoğu eseri de hadisle eş anlamlı kullanır. Ancak özellikle Horasanlı fakihler ve bazı Hanefîler eseri sahabe ve tâbiûn sözleri (mevkûf ve maktû) için, haberi ise Hz. Peygamber’in sözü (merfû) için kullanmıştır. Ebû Yûsuf ve İmam Muhammed’in el-Âsâr adlı eserleri, Tahâvî’nin Şerhu meâni’l-âsâr’ı bu kullanımın izlerini taşır. Bir hadis âlimine, sahabe ve tâbiûn sözleriyle de ilgilendiği için bazen eserî denir.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Sözlük anlamı",
+     "Terim anlamı / kullanım"
+    ],
+    [
+     "Hadis",
+     "Yeni; söz, haber",
+     "Hz. Peygamber’e nispet edilen söz, fiil, takrîr ve vasıflar"
+    ],
+    [
+     "Sünnet",
+     "Yol, gidişat, âdet",
+     "Hz. Peygamber’in örnek alınan yolu; uygulamaya dönük yönü"
+    ],
+    [
+     "Haber",
+     "Bilgi, duyuru",
+     "Çoğunluğa göre hadisle eş anlamlı; bazılarına göre daha geniş (tarih haberlerini de kapsar)"
+    ],
+    [
+     "Eser (âsâr)",
+     "İz, kalıntı",
+     "Çoğunluğa göre hadisle eş anlamlı; Horasanlı fakihlere göre sahabe ve tâbiûn sözleri"
+    ]
+   ]
+  },
+  {
+   "sinav": "ÖSYM “eser” kavramını sorarken çoğunlukla “bazı fakihlerin sahabe ve tâbiûn sözleri için kullandığı terim” şeklinde tanımlar. “Hadis kelimesinin sözlük anlamı” sorulursa doğru cevap “yeni”dir; “söz, haber” de kabul gören anlamdır ama kadîmin zıddı olan anlam “yeni”dir. Zümer 23 ve Tûr 34 ayetlerinde hadis kelimesi “söz” anlamındadır."
+  },
+  {
+   "akil": "Hadis = yeni → söz; terimde Hz. Peygamber’e nispet edilen her şey. Haber çoğunlukla hadisle eş; eser bazı fakihlere göre sahabe-tâbiûn sözü. Hz. Peygamber de sözleri için “hadis” kelimesini kullanmıştır."
+  },
+  {
+   "b": "2. Sünnet: yürünen yol"
+  },
+  {
+   "merak": "Abdurrahman b. Mehdî’nin şöyle dediği nakledilir: “Süfyân es-Sevrî hadiste imamdır ama sünnette imam değildir; Evzâî sünnette imamdır ama hadiste imam değildir; Mâlik ise ikisinde de imamdır.” Peki hadis ile sünnet aynı şey değil mi?"
+  },
+  "Sünnet sözlükte “yol, gidişat, usul, âdet, iyi veya kötü uygulama” demektir. Kur’an’da “sünnetullah” (Allah’ın değişmeyen kanunu, toplumlara uyguladığı yasa) ve “sünnetü’l-evvelîn” (öncekilerin yolu) şeklinde geçer. Hz. Peygamber de “Kim İslam’da güzel bir çığır (sünnet-i hasene) açarsa…” buyurarak kelimeyi hem iyi hem kötü uygulama için kullanmıştır.",
+  {
+   "hadis": "Kim İslam’da güzel bir çığır açarsa, hem onun sevabı hem de kendisinden sonra onunla amel edenlerin sevabı ona verilir; onlardan hiçbir şey eksilmez. Kim de İslam’da kötü bir çığır açarsa, hem onun günahı hem de ondan sonra onunla amel edenlerin günahı ona yüklenir…",
+   "kay": "Müslim, Zekât, 69"
+  },
+  {
+   "ayet": "Allah’ın önceden geçip gitmiş olanlar hakkındaki kanunu (sünnetullah) budur. Allah’ın kanununda asla bir değişiklik bulamazsın.",
+   "kay": "Ahzâb, 33/62"
+  },
+  "Terim olarak sünnet, hangi ilim açısından bakıldığına göre farklı tanımlanır. Bu fark, sınavda en çok kullanılan inceliklerden biridir:",
+  {
+   "tablo": [
+    [
+     "İlim dalı",
+     "Sünnetin tanımı",
+     "Bakış açısı"
+    ],
+    [
+     "Hadis (muhaddisler)",
+     "Hz. Peygamber’den nakledilen söz, fiil, takrîr ile yaratılış ve ahlâk vasıfları; peygamberlikten önceki hayatı da dâhil",
+     "Onu “örnek insan” olarak her yönüyle tanımak; bu anlamda hadisle eş anlamlıdır"
+    ],
+    [
+     "Fıkıh usulü (usulcüler)",
+     "Kur’an dışında Hz. Peygamber’den sadır olan ve hükme delil olabilen söz, fiil ve takrîrler",
+     "Onu “kanun koyucu (şâri’)” olarak görmek; Kur’an’dan sonra ikinci kaynak"
+    ],
+    [
+     "Fıkıh (fakihler)",
+     "Farz ve vacip olmayan, Hz. Peygamber’in yaptığı ve yapılması sevap olan davranışlar",
+     "Fiilin hükmü; sünnet-i müekkede / gayr-ı müekkede"
+    ]
+   ]
+  },
+  "Hadis ile sünnet arasındaki ilişkiyi şöyle özetleyebiliriz: Hadis, Hz. Peygamber’in sözlerinin ve yaşantısının rivayet yoluyla aktarılan, teorik ve sözlü kaydıdır; sünnet ise bu yaşantının uygulamaya dönük, örnek alınan, yaşanan yoludur. Bazen sünnet, hadis kitaplarında yazılı bir rivayete ihtiyaç duymadan ümmetin fiilî uygulamasıyla nesilden nesile aktarılmıştır (namazın kılınışı gibi). İmam Mâlik’in “Medine ehlinin ameli”ni delil sayması da bu düşüncenin ürünüdür. Abdurrahman b. Mehdî’nin sözü bu farkı anlatır: Bir âlim çok hadis bilip yine de sünneti (uygulamayı ve doğru anlayışı) temsil etmede o kadar önde olmayabilir.",
+  {
+   "not": "Fıkıhta sünnet, Hz. Peygamber’in devamlı yapıp nadiren terk ettiği sünnet-i müekkede (sabah namazının sünneti gibi) ve ara sıra yaptığı sünnet-i gayr-ı müekkede (ikindinin ilk sünneti gibi) olarak ikiye ayrılır. Hanefî usulcüler ayrıca ibadetle ilgili sünnet-i hüdâ (ezan, cemaat) ile Hz. Peygamber’in giyim, yeme-içme gibi gündelik âdetlerinden oluşan sünnet-i zevâid ayrımını yapar. Sünnet-i hüdânın terki kınanmayı gerektirir; sünnet-i zevâidin terki gerektirmez."
+  },
+  {
+   "sinav": "“Sünnet terimini Hz. Peygamber’i kanun koyucu olarak gören ve onu ikinci kaynak sayan ilim dalı” → fıkıh usulü. “Peygamberlikten önceki hayatını da kapsayan tanım” → muhaddislerin tanımı. “Farz ve vacip dışındaki sevaplı davranış” → fakihlerin tanımı. Tuzak: Üç tanımı birbirine karıştıran şıklar."
+  },
+  {
+   "akil": "Sünnet = yol. Muhaddis: her şey (vasıflar ve nübüvvet öncesi dâhil); usulcü: hükme delil olan söz-fiil-takrîr; fakih: farz-vacip dışı sevaplı fiil. Hadis rivayet, sünnet uygulama."
+  },
+  {
+   "b": "3. Sünnetin türleri: kavlî, fiilî, takrîrî, vasfî"
+  },
+  {
+   "merak": "Bir sahabi, Hz. Peygamber’in yanında kertenkele (dab) eti yer; Hz. Peygamber yemez ama “Yiyin, haram değil; sadece benim kavmimin yurdunda olmadığı için içim çekmiyor” der. Bu olayda hangi sünnet türü var: söz mü, fiil mi, onay mı?"
+  },
+  "Sünnet, Hz. Peygamber’den sadır oluş biçimine göre üç ana kısma ayrılır; muhaddisler buna bir de vasfî sünneti ekler.",
+  "Kavlî (sözlü) sünnet: Hz. Peygamber’in değişik vesilelerle söylediği sözlerdir. “Ameller niyetlere göredir”, “Müslüman, elinden ve dilinden Müslümanların emin olduğu kimsedir” gibi. Rivayetlerde “Resûlullah şöyle buyurdu” (kâle Resûlullah) kalıbıyla aktarılır. Sünnetin en çok sayıdaki ve hüküm bakımından en açık kısmıdır.",
+  "Fiilî sünnet: Hz. Peygamber’in davranış ve uygulamalarının sahabe tarafından anlatılmasıdır. Namazın kılınışı, haccın yapılışı, abdest alışı gibi. Rivayetlerde “Resûlullah’ın şöyle yaptığını gördüm” (raeytü) kalıbı geçer. Hz. Peygamber “Beni nasıl namaz kılarken görüyorsanız öyle kılın” ve “Hac ibadetlerinizi benden alın” buyurarak fiilî sünnetin bağlayıcılığına işaret etmiştir.",
+  {
+   "hadis": "Beni nasıl namaz kılarken gördüyseniz siz de öyle kılın.",
+   "kay": "Buhârî, Ezân, 18"
+  },
+  "Takrîrî sünnet: Hz. Peygamber’in huzurunda yapılan veya söylenen ya da haberdar olduğu bir şeyi onaylamasıdır. İkiye ayrılır: Sarih takrîr, onayın açıkça sözle bildirilmesidir. Zımnî takrîr ise Hz. Peygamber’in gördüğü ya da duyduğu bir şeye itiraz etmeyip susmasıdır. Hz. Peygamber haksızlık ve yanlış karşısında susmayacağı için onun sükûtu onay anlamına gelir.",
+  "Takrîre klasik örnekler: Teyemmümle namaz kılan ve sonra su bulunca namazını iade etmeyen sahabiye “Sünnete isabet ettin”, iade edene “Sana iki sevap var” demesi (sarih takrîr). Amr b. Âs’ın soğuk bir gecede cünüp olduğu hâlde gusletmeyip teyemmüm ederek imamlık yapmasını, gerekçesini dinledikten sonra gülümseyerek karşılaması (zımnî takrîr). Benî Kurayza’ya gönderilen sahabilerin ikindiyi yolda kılması ile oraya varınca kılmasını, iki grubu da kınamaması. Kertenkele etinin sofrasında yenmesine ses çıkarmaması.",
+  "Vasfî sünnet: Hz. Peygamber’in yaratılışı (hılkî: boyu, rengi, yüz hatları, saçı) ve ahlâkı (hulukî: cömertliği, hayâsı, merhameti) ile ilgili anlatımlardır. Bu tür rivayetler “şemâil” kitaplarında toplanmıştır; en meşhuru Tirmizî’nin eş-Şemâilü’l-Muhammediyye’sidir. Fıkıh usulcüleri vasfî sünneti hüküm kaynağı olarak saymadıkları için sünneti üç kısımda (kavlî, fiilî, takrîrî) anlatır; muhaddisler ise dört kısımda anlatır.",
+  {
+   "tablo": [
+    [
+     "Tür",
+     "Tanım",
+     "Rivayet kalıbı / örnek"
+    ],
+    [
+     "Kavlî",
+     "Hz. Peygamber’in sözü",
+     "“Resûlullah buyurdu ki…” — “Ameller niyetlere göredir.”"
+    ],
+    [
+     "Fiilî",
+     "Hz. Peygamber’in davranışı",
+     "“Resûlullah’ı şöyle yaparken gördüm…” — namaz, hac, abdest"
+    ],
+    [
+     "Takrîrî – sarih",
+     "Açık sözle onay",
+     "Teyemmümle kılınan namaz: “Sünnete isabet ettin.”"
+    ],
+    [
+     "Takrîrî – zımnî",
+     "İtiraz etmeyip susma",
+     "Kertenkele etinin yenmesi; Amr b. Âs’ın teyemmümü"
+    ],
+    [
+     "Vasfî – hılkî",
+     "Yaratılış özellikleri",
+     "Boyu, yüzü, saçı (şemâil)"
+    ],
+    [
+     "Vasfî – hulukî",
+     "Ahlâk özellikleri",
+     "Hayâsı, cömertliği, merhameti"
+    ]
+   ]
+  },
+  {
+   "not": "Fiilî sünnet de kendi içinde ayrılır: Cibillî (beşerî) fiiller — yemek, içmek, uyumak gibi insan olarak yaptıkları; Hz. Peygamber’e özgü (hasâis) fiiller — visal orucu tutması, dörtten fazla hanımla evli olması, gece namazının ona farz olması gibi ümmete örnek olmayanlar; teşriî fiiller — namaz, hac gibi ümmetin uyması gereken uygulamalar. Ümmeti bağlayan, teşriî olanlardır."
+  },
+  {
+   "sinav": "ÖSYM en çok takrîrî sünnetin sarih-zımnî ayrımını ve “huzurda yapılan işe ses çıkarmama” örneğini sorar. “Sahabi yaptı, Hz. Peygamber gördü, sustu” → zımnî takrîr. “Hz. Peygamber yaptı, sahabi anlattı” → fiilî. “Visal orucu, dörtten fazla eş” → Hz. Peygamber’e özgü (hasâis), ümmeti bağlamaz. Vasfî sünnet → şemâil; usulcüler saymaz."
+  },
+  {
+   "akil": "Kavlî = söz, fiilî = davranış, takrîrî = onay (sarih: sözle; zımnî: susarak), vasfî = yaratılış ve ahlâk. Fiillerden yalnız teşriî olanlar ümmeti bağlar; cibillî ve hasâis bağlamaz."
+  },
+  {
+   "b": "4. Sünnetin dindeki yeri: Kur’an ne diyor?"
+  },
+  {
+   "merak": "Kur’an’da “namaz kılın” emri onlarca kez geçer; ama hiçbir ayette sabah namazının iki rekât olduğu yazmaz. Bir Müslüman bunu nereden bilir?"
+  },
+  "Sünnet, Kur’an’dan sonra İslam’ın ikinci temel kaynağıdır. Bunun dayanağı bizzat Kur’an’dır. Kur’an, Hz. Peygamber’e yalnız tebliğ değil, açıklama (tebyin), öğretme, hüküm verme ve örnek olma görevi verir; ona itaati Allah’a itaatle birlikte anar.",
+  {
+   "tablo": [
+    [
+     "Ayet",
+     "Vurguladığı görev / ilke"
+    ],
+    [
+     "Nahl, 16/44",
+     "Tebyin: indirileni insanlara açıklamak"
+    ],
+    [
+     "Nahl, 16/64",
+     "İhtilaf ettikleri şeyi açıklamak için Kitap’ın indirilmesi"
+    ],
+    [
+     "Âl-i İmrân, 3/164; Cuma, 62/2",
+     "Kitap’ı ve hikmeti öğretmek, arındırmak (hikmet = sünnet, Şâfiî’nin yorumu)"
+    ],
+    [
+     "Ahzâb, 33/21",
+     "Üsve-i hasene: güzel örnek"
+    ],
+    [
+     "Haşr, 59/7",
+     "Peygamber ne verdiyse alın, neyi yasakladıysa ondan sakının"
+    ],
+    [
+     "Nisâ, 4/80",
+     "Peygamber’e itaat eden Allah’a itaat etmiş olur"
+    ],
+    [
+     "Nisâ, 4/59",
+     "Anlaşmazlıkta Allah’a ve Resûl’e götürün"
+    ],
+    [
+     "Nisâ, 4/65",
+     "Aralarındaki anlaşmazlıkta seni hakem yapmadıkça iman etmiş olmazlar"
+    ],
+    [
+     "Âl-i İmrân, 3/31",
+     "Allah’ı seviyorsanız bana uyun ki Allah da sizi sevsin"
+    ],
+    [
+     "Ahzâb, 33/36",
+     "Allah ve Resûlü bir işe hüküm verdiğinde mümine başka tercih yoktur"
+    ],
+    [
+     "Necm, 53/3-4",
+     "O, hevasından konuşmaz; o ancak vahyolunan bir vahiydir"
+    ],
+    [
+     "A’râf, 7/157",
+     "Temiz şeyleri helal, pis şeyleri haram kılan ümmî peygamber"
+    ]
+   ]
+  },
+  {
+   "ayet": "Biz sana da Zikr’i (Kur’an’ı) indirdik ki insanlara kendilerine indirileni açıklayasın ve onlar da düşünsünler.",
+   "kay": "Nahl, 16/44"
+  },
+  {
+   "ayet": "Peygamber size ne verdiyse onu alın, sizi neden men ettiyse ondan da sakının.",
+   "kay": "Haşr, 59/7"
+  },
+  "İmam Şâfiî, Kur’an’da Kitap ile birlikte anılan “hikmet” kelimesinin sünnet olduğunu söylemiştir. er-Risâle adlı eserinde sünnetin delil oluşunu sistemli biçimde savunduğu için kendisine “Nâsırü’s-sünne” (sünnetin yardımcısı) lakabı verilmiştir.",
+  "Hz. Peygamber de sünnetin önemine dair açık uyarılarda bulunmuştur. Bunların en dikkat çekenlerinden biri, sünnet inkârcılığını önceden haber veren “erîke hadisi”dir: Hz. Peygamber, koltuğuna yaslanmış birinin, kendisinden bir emir ulaştığında “Biz bilmeyiz; Allah’ın kitabında ne bulduysak ona uyarız” diyeceğini bildirmiş ve bunu kınamıştır.",
+  {
+   "hadis": "Sakın sizden birinizi, koltuğuna yaslanmış hâlde, kendisine benim emrettiğim ya da yasakladığım bir şey ulaştığında “Bilmiyorum, Allah’ın kitabında ne bulursak ona uyarız” derken bulmayayım.",
+   "kay": "Ebû Dâvûd, Sünnet, 6; Tirmizî, İlim, 10"
+  },
+  {
+   "hadis": "Size iki şey bırakıyorum; onlara sarıldıkça asla yolunuzu şaşırmazsınız: Allah’ın kitabı ve Peygamberinin sünneti.",
+   "kay": "Muvatta’, Kader, 3"
+  },
+  {
+   "hadis": "Kim benim sünnetimden yüz çevirirse benden değildir.",
+   "kay": "Buhârî, Nikâh, 1; Müslim, Nikâh, 5"
+  },
+  "Muâz b. Cebel Yemen’e gönderilirken Hz. Peygamber ona neyle hüküm vereceğini sormuş; Muâz önce Allah’ın kitabıyla, orada bulamazsa Resûlullah’ın sünnetiyle, orada da bulamazsa kendi re’yiyle içtihat edeceğini söylemiş, Hz. Peygamber de bu cevaptan memnun kalmıştır. Bu rivayet, kaynaklar sıralamasının (Kitap – sünnet – içtihat) erken bir ifadesi olarak sık kullanılır.",
+  {
+   "hadis": "…Allah’ın kitabında bulamazsan? — Resûlullah’ın sünnetiyle hükmederim. — Resûlullah’ın sünnetinde de bulamazsan? — Kendi görüşümle içtihat ederim, gevşeklik göstermem. — Resûlullah’ın elçisini Resûlullah’ın razı olduğu şeye muvaffak kılan Allah’a hamdolsun.",
+   "kay": "Ebû Dâvûd, Akdiye, 11; Tirmizî, Ahkâm, 3"
+  },
+  {
+   "sinav": "Ayet – işlev eşleştirmesi çok sorulur. “Açıklayasın” → Nahl 44 (tebyin); “güzel örnek” → Ahzâb 21; “ne verdiyse alın” → Haşr 7; “itaat eden Allah’a itaat etmiş olur” → Nisâ 80; “hevasından konuşmaz” → Necm 3-4; “hikmet” → Cuma 2 / Âl-i İmrân 164 (Şâfiî: sünnet). Erîke hadisi → sünnet inkârının önceden haber verilmesi."
+  },
+  {
+   "akil": "Sünnetin delil oluşu Kur’an’la sabittir: tebyin (Nahl 44), itaat (Nisâ 59, 80), örneklik (Ahzâb 21), hüküm (Haşr 7). Şâfiî = Nâsırü’s-sünne, er-Risâle. Muâz hadisi: Kitap – sünnet – re’y."
+  },
+  {
+   "b": "5. Sünnetin Kur’an karşısındaki görevleri"
+  },
+  {
+   "merak": "Kur’an hırsızın elinin kesilmesini emreder. Peki hangi el, bileğin neresinden ve ne kadar değerdeki bir mal çalındığında? Cevap ayette değil, sünnettedir."
+  },
+  "Âlimler sünnetin Kur’an’la ilişkisini üç ana başlıkta toplar: Kur’an’daki hükmü pekiştirmek (te’kîd), Kur’an’daki hükmü açıklamak (beyân) ve Kur’an’da bulunmayan bir hükmü koymak (teşrî’). Beyân da kendi içinde dörde ayrılır.",
+  "Te’kîd (teyit): Kur’an’da yer alan bir hükmü sünnetin aynen tekrarlaması, pekiştirmesidir. Namaz, oruç, zekât, haccın farziyeti; anne babaya iyilik, yalan ve yalancı şahitlikten sakınma, kul hakkı yeme yasağı gibi. “Bir Müslümanın malı, ancak gönül hoşluğuyla helal olur” hadisi, Kur’an’daki batıl yolla mal yeme yasağını pekiştirir.",
+  "Beyân – mücmelin tafsili: Kur’an’da ana hatlarıyla emredilen bir hükmün ayrıntılarını açıklamak. Namazın vakitleri, rekât sayıları, kılınışı; zekâtın nisabı ve oranları; haccın menasiki. Hz. Peygamber’in “Beni nasıl namaz kılarken gördüyseniz öyle kılın” ve “Hac menasikinizi benden alın” sözleri bunun ifadesidir.",
+  "Beyân – âmmın tahsisi: Kur’an’daki genel bir hükmün kapsamını daraltmak. Nisâ 11. ayet çocukları genel olarak mirasçı kılar; sünnet ise “Katil mirasçı olamaz” ve “Müslüman kâfire, kâfir de Müslümana mirasçı olmaz” diyerek bu genel hükmü daraltır. Yine “Biz peygamberler miras bırakmayız; bıraktığımız sadakadır” hadisi de bu kapsamdadır.",
+  "Beyân – mutlakın takyidi: Kur’an’da herhangi bir kayıt olmadan (mutlak) geçen bir hükmü sınırlamak. Mâide 38’de “el” mutlak geçer; sünnet bunun sağ el olduğunu ve bilekten kesileceğini belirtir. Vasiyetin malın üçte biriyle sınırlanması (Sa’d b. Ebî Vakkâs hadisi) da mutlakın takyididir.",
+  "Beyân – müşkilin/mübhemin tavzihi: Kur’an’daki kapalı ya da yanlış anlaşılmaya müsait bir ifadeyi açıklamak. En’âm 82. ayette “İman edip imanlarına zulüm karıştırmayanlar” buyrulunca sahabe “Hangimiz kendine zulmetmez ki?” diye endişelenmiş; Hz. Peygamber buradaki zulmün şirk olduğunu Lokmân 13. ayeti hatırlatarak açıklamıştır. Bakara 187’deki “beyaz iplik siyah iplikten ayrılıncaya kadar” ifadesinin gündüzün aydınlığı ve gecenin karanlığı olduğunu açıklaması da (Adî b. Hâtim olayı) bu türdendir. “Orta namaz”ın (salâtü’l-vustâ) ikindi namazı olduğunu bildirmesi de örnek gösterilir.",
+  "Teşrî’ (müstakil hüküm koyma): Kur’an’da bulunmayan bir hükmü sünnetin koymasıdır. Kadının halası veya teyzesiyle bir nikâh altında birleştirilmesinin yasaklanması; ehlî eşek etinin ve azı dişli yırtıcı hayvanlarla pençeli yırtıcı kuşların etinin yasaklanması; erkeklere altın ve ipeğin haram kılınması; süt emme yoluyla haram olan akrabalığın nesep akrabalığı gibi genişletilmesi; ninenin mirastan altıda bir alması; sadaka-i fıtır; şahit ve yeminle hüküm verilmesi (Hanefîler kabul etmez). Âlimlerin bir kısmı bu hükümlerin de aslında Kur’an’ın genel ilkelerine dayandığını, dolayısıyla bir tür beyan olduğunu söyler; ancak sınavda “Kur’an’da yer almayıp sünnetle konan hüküm” diye sorulur.",
+  {
+   "tablo": [
+    [
+     "Görev",
+     "Tanım",
+     "Örnek"
+    ],
+    [
+     "Te’kîd",
+     "Kur’an’daki hükmü pekiştirme",
+     "Namaz, oruç, zekât, haccın farziyeti; anne babaya iyilik"
+    ],
+    [
+     "Mücmelin tafsili",
+     "Ana hatlı hükmü ayrıntılandırma",
+     "Namazın rekâtları ve vakitleri; zekâtın nisabı; hac menasiki"
+    ],
+    [
+     "Âmmın tahsisi",
+     "Genel hükmü daraltma",
+     "Katilin mirastan mahrumiyeti; din farkının mirasa engel olması"
+    ],
+    [
+     "Mutlakın takyidi",
+     "Kayıtsız hükmü sınırlama",
+     "Hırsızlıkta sağ elin bilekten kesilmesi; vasiyetin üçte birle sınırı"
+    ],
+    [
+     "Müşkilin tavzihi",
+     "Kapalı ifadeyi açıklama",
+     "En’âm 82’deki zulmün şirk olması; beyaz-siyah iplik; orta namaz"
+    ],
+    [
+     "Teşrî’",
+     "Kur’an’da olmayan hüküm koyma",
+     "Hala-teyze ile yeğenin bir nikâhta birleştirilmemesi; ehlî eşek eti; erkeğe altın-ipek; ninenin altıda biri"
+    ]
+   ]
+  },
+  {
+   "hadis": "Kadın, halası ya da teyzesi üzerine nikâhlanmaz (bir nikâh altında birleştirilmez).",
+   "kay": "Buhârî, Nikâh, 27; Müslim, Nikâh, 33"
+  },
+  {
+   "not": "Sünnetin Kur’an’ı neshetmesi tartışmalıdır. Hanefîlere göre mütevatir ve meşhur sünnetle Kur’an’ın bir hükmü neshedilebilir; örnek olarak Bakara 180’deki anne baba ve yakınlara vasiyet emrinin “Vârise vasiyet yoktur” hadisiyle kaldırıldığı gösterilir. İmam Şâfiî ise sünnetin Kur’an’ı neshedemeyeceğini savunur. Hanefîler ayrıca haber-i vâhidle Kur’an’a ziyade (ekleme) yapılmasını ve Kur’an’ın âmm lafzının ilk kez haber-i vâhidle tahsisini kabul etmezler; Şâfiîler kabul eder."
+  },
+  {
+   "sinav": "En çok sorulan dört örnek: rekât sayıları → mücmelin tafsili; katilin mirasçı olmaması → âmmın tahsisi; hırsızın sağ eli / vasiyette üçte bir → mutlakın takyidi; En’âm 82 zulüm = şirk → müşkilin tavzihi; hala-teyze yasağı → teşrî’. Tuzak: Hamile kadının iddetinin doğumla bitmesi Kur’an’da (Talâk 65/4) açıkça vardır; sünnetle konmuş hüküm değildir. İki kız kardeşi bir nikâhta birleştirme yasağı da Kur’an’dadır (Nisâ 4/23)."
+  },
+  {
+   "akil": "Sünnet Kur’an’ı ya pekiştirir (te’kîd), ya açıklar (tafsil, tahsis, takyid, tavzih), ya da yeni hüküm koyar (teşrî’). Hanefî: mütevatir/meşhur sünnetle nesih olur; Şâfiî: olmaz."
+  },
+  {
+   "b": "6. Sünnetin bağlayıcılığı: her davranış bağlayıcı mı?"
+  },
+  {
+   "merak": "Hz. Peygamber Medine’de hurma ağaçlarını aşılayanlara “Bunu yapmasanız da olur” gibi bir söz söyler; o yıl hurma az olur. Durumu öğrenince “Siz dünya işlerinizi daha iyi bilirsiniz” buyurur. Peki onun her sözü aynı derecede bağlayıcı değil mi?"
+  },
+  "Hz. Peygamber’in söz ve davranışları, onun hangi sıfatla hareket ettiğine göre değerlendirilir. Mâlikî âlimi Karâfî (ö. 684/1285) el-Furûk adlı eserinde Hz. Peygamber’in tasarruflarını tebliğ ve fetva (risalet), kaza (hâkimlik) ve imamet (devlet başkanlığı) olarak ayırmıştır. Tebliğ ve fetva olarak söylediği hükümler bütün ümmeti doğrudan bağlar. Hâkim sıfatıyla verdiği kararlar ancak bir hâkim kararıyla uygulanır. Devlet başkanı sıfatıyla yaptığı tasarruflar (ganimet taksimi, ordu sevki gibi) ise devlet başkanının iznine bağlıdır. Örneğin “Kim bir ölü araziyi ihya ederse o onundur” hadisinin Hanefîlerce devlet başkanının iznine bağlanması, bunun imamet tasarrufu sayılmasındandır.",
+  "Hz. Peygamber insan olarak da yaşamıştır. Bedir’de ordunun konaklayacağı yeri seçtiğinde Hubâb b. Münzir “Bu yer Allah’ın sana gösterdiği bir yer mi, yoksa bir savaş taktiği mi?” diye sormuş; “Görüş ve taktik” cevabını alınca daha uygun bir yer önermiş, Hz. Peygamber de bu öneriyi kabul etmiştir. Hurma aşılama olayı da benzer şekilde beşerî tecrübeye dayalı bir konudur.",
+  {
+   "hadis": "Ben ancak bir insanım. Size dininizle ilgili bir şey emrettiğimde onu alın; kendi görüşümden bir şey emrettiğimde (bilin ki) ben de bir insanım… Siz dünya işlerinizi daha iyi bilirsiniz.",
+   "kay": "Müslim, Fezâil, 140-141"
+  },
+  {
+   "tablo": [
+    [
+     "Hz. Peygamber’in sıfatı",
+     "Tasarrufun niteliği",
+     "Bağlayıcılık"
+    ],
+    [
+     "Peygamber (tebliğ – fetva)",
+     "Dinî hüküm, ibadet, helal-haram",
+     "Bütün ümmeti doğrudan bağlar"
+    ],
+    [
+     "Hâkim (kaza)",
+     "Davalarda verdiği kararlar",
+     "Benzer davada hâkim kararıyla uygulanır"
+    ],
+    [
+     "Devlet başkanı (imamet)",
+     "Ganimet, arazi, ordu, yönetim",
+     "Devlet başkanının iznine bağlı"
+    ],
+    [
+     "İnsan (beşerî)",
+     "Yeme-içme, giyim, tıbbi-tarımsal tecrübe",
+     "Teşriî değil; sevgiyle uyulursa güzel (sünnet-i zevâid)"
+    ],
+    [
+     "Kendisine özgü (hasâis)",
+     "Visal orucu, dörtten fazla eş, teheccüdün farz oluşu",
+     "Ümmeti bağlamaz"
+    ]
+   ]
+  },
+  "Sünnetin bağlayıcılığına itiraz eden yaklaşımlar tarih boyunca görülmüştür. Erîke hadisi bunun daha Hz. Peygamber zamanında öngörüldüğünü gösterir. Hicrî II. asırda İmam Şâfiî, el-Ümm’ün “Cimâu’l-ilm” bölümünde sünneti bütünüyle ya da haber-i vâhid kısmını reddedenlerle yaptığı tartışmaları anlatır. Hâricîlerin bir kısmı Kur’an’da açıkça bulunmayan hükümleri (recm gibi) kabul etmemiş; bazı Mu’tezilîler itikatta haber-i vâhidi delil saymamıştır. Modern dönemde Hindistan’da Abdullah Çekrâlevî ve Gulâm Ahmed Pervîz gibi isimler “Ehl-i Kur’an” hareketini, Mısır’da Tevfîk Sıdkî “İslam yalnız Kur’an’dır” görüşünü savunmuştur. Bu görüşlere karşı en temel cevap, Kur’an’ın kendisinin Hz. Peygamber’e itaati emretmesi ve namaz gibi temel ibadetlerin ayrıntılarının ancak sünnetle bilinebilmesidir.",
+  {
+   "kontrol": "Hurma aşılama rivayetindeki Hz. Peygamber sözünün lafzı Müslim’in farklı rivayetlerinde değişiklik gösterir; numaraları (Fezâil, 139-141) baskıya göre değişebilir."
+  },
+  {
+   "sinav": "“Hz. Peygamber’in devlet başkanı sıfatıyla yaptığı tasarruf” örneği ve “insan olarak yaptığı, teşriî olmayan davranış” örneği sorulabilir. Hurma aşılama ve Hubâb b. Münzir olayı → dünya işleri ve beşerî görüş; bağlayıcı değil. Karâfî → el-Furûk; risalet/kaza/imamet ayrımı. Ehl-i Kur’an → modern dönemde Hindistan’daki sünnet karşıtı hareket."
+  },
+  {
+   "akil": "Bağlayıcı olan, Hz. Peygamber’in peygamber sıfatıyla yaptığı teşriî tasarruflardır. Dünya işleri (hurma aşılama, Bedir’de yer seçimi) ve ona özgü fiiller ümmeti bağlamaz. Karâfî: tebliğ-fetva, kaza, imamet."
+  }
+ ],
+ "ozet": [
+  "Hadis: sözlükte “yeni” (kadîmin zıddı), “söz, haber”; terimde Hz. Peygamber’e nispet edilen söz, fiil, takrîr ve vasıflar.",
+  "Zümer 23 ve Tûr 34’te hadis kelimesi “söz” anlamındadır; Hz. Peygamber de sözleri için “hadis” kelimesini kullanmıştır.",
+  "Haber çoğunluğa göre hadisle eş anlamlı; eser (âsâr) bazı fakihlere (Horasan) göre sahabe ve tâbiûn sözleri.",
+  "Sünnet: sözlükte yol, gidişat, âdet; “sünnet-i hasene / seyyie” hadisi.",
+  "Muhaddis tanımı vasıfları ve nübüvvet öncesini de kapsar; usulcü tanımı hükme delil olanı; fakih tanımı farz-vacip dışı sevaplı fiili.",
+  "Abdurrahman b. Mehdî: Sevrî hadiste, Evzâî sünnette, Mâlik ikisinde de imam.",
+  "Sünnet türleri: kavlî, fiilî, takrîrî (sarih – zımnî), vasfî (hılkî – hulukî); usulcüler vasfîyi saymaz.",
+  "Huzurda yapılan işe susmak zımnî takrîrdir; teyemmümle kılınan namaza “Sünnete isabet ettin” demek sarih takrîrdir.",
+  "Fiiller: cibillî, hasâis (visal orucu, dörtten fazla eş) ve teşriî; ümmeti bağlayan teşriî olanlardır.",
+  "Sünnetin delil oluşu: Nahl 44 (tebyin), Haşr 7, Nisâ 59-65-80, Ahzâb 21-36, Âl-i İmrân 31, Necm 3-4.",
+  "Şâfiî “hikmet”i sünnet olarak yorumladı; er-Risâle; lakabı Nâsırü’s-sünne.",
+  "Erîke hadisi sünnet inkârını önceden haber verir (Ebû Dâvûd, Sünnet; Tirmizî, İlim).",
+  "Sünnetin görevleri: te’kîd; beyân (mücmelin tafsili, âmmın tahsisi, mutlakın takyidi, müşkilin tavzihi); teşrî’.",
+  "Örnekler: rekâtlar → tafsil; katil mirasçı olamaz → tahsis; sağ el / vasiyette üçte bir → takyid; En’âm 82 zulüm = şirk → tavzih; hala-teyze yasağı → teşrî’.",
+  "Hanefî: mütevatir/meşhur sünnetle nesih caiz (“Vârise vasiyet yoktur”); Şâfiî: caiz değil.",
+  "Karâfî (el-Furûk): tebliğ-fetva, kaza, imamet tasarrufları; hurma aşılama → “Siz dünya işlerinizi daha iyi bilirsiniz.”",
+  "Modern sünnet karşıtlığı: Hindistan’da Ehl-i Kur’an (Çekrâlevî, Pervîz), Mısır’da Tevfîk Sıdkî."
+ ],
+ "kartlar": [
+  {
+   "o": "Hadisin sözlük anlamı",
+   "a": "Yeni (kadîmin zıddı); söz, haber."
+  },
+  {
+   "o": "Hadisin terim anlamı",
+   "a": "Hz. Peygamber’e nispet edilen söz, fiil, takrîr, yaratılış ve ahlâk özellikleri."
+  },
+  {
+   "o": "Eser (âsâr) – Horasanlı fakihlere göre",
+   "a": "Sahabe ve tâbiûn sözleri (mevkûf ve maktû); merfû olana haber denir."
+  },
+  {
+   "o": "Sünnet – muhaddislere göre",
+   "a": "Hz. Peygamber’in söz, fiil, takrîr ve vasıfları; peygamberlik öncesi dâhil."
+  },
+  {
+   "o": "Sünnet – usulcülere göre",
+   "a": "Kur’an dışında Hz. Peygamber’den sadır olan, hükme delil olan söz, fiil ve takrîr."
+  },
+  {
+   "o": "Sünnet – fakihlere göre",
+   "a": "Farz ve vacip olmayan, yapılması sevap olan Hz. Peygamber uygulaması."
+  },
+  {
+   "o": "Sarih takrîr – zımnî takrîr",
+   "a": "Sarih: onayı açıkça söylemek. Zımnî: itiraz etmeyip susmak."
+  },
+  {
+   "o": "Vasfî sünnet",
+   "a": "Hılkî (yaratılış) ve hulukî (ahlâk) özellikler; şemâil kitapları (Tirmizî, eş-Şemâil)."
+  },
+  {
+   "o": "Hasâis-i nebeviyye",
+   "a": "Hz. Peygamber’e özgü hükümler: visal orucu, dörtten fazla eş, teheccüdün farz oluşu; ümmeti bağlamaz."
+  },
+  {
+   "o": "Nahl 16/44",
+   "a": "Tebyin görevi: “İnsanlara indirileni açıklayasın diye…”"
+  },
+  {
+   "o": "Nâsırü’s-sünne",
+   "a": "İmam Şâfiî; er-Risâle’de sünnetin delil oluşunu savundu, “hikmet = sünnet.”"
+  },
+  {
+   "o": "Erîke hadisi",
+   "a": "Koltuğuna yaslanıp “Kur’an’da ne varsa ona uyarız” diyecek kişiyi kınayan hadis; sünnet inkârının haber verilmesi."
+  },
+  {
+   "o": "Katil mirasçı olamaz",
+   "a": "Âmmın tahsisi (Nisâ 11’in genel hükmünü daraltma)."
+  },
+  {
+   "o": "Hırsızın sağ elinin bilekten kesilmesi",
+   "a": "Mutlakın takyidi (Mâide 38)."
+  },
+  {
+   "o": "En’âm 82’deki zulmün şirk olması",
+   "a": "Müşkilin tavzihi (Lokmân 13 ile açıklandı)."
+  },
+  {
+   "o": "Hala/teyze ile yeğeni bir nikâhta birleştirme yasağı",
+   "a": "Teşrî’: Kur’an’da olmayıp sünnetle konan hüküm (Buhârî, Nikâh)."
+  },
+  {
+   "o": "Karâfî’nin ayrımı",
+   "a": "el-Furûk: tebliğ-fetva, kaza (hâkimlik), imamet (devlet başkanlığı) tasarrufları."
+  },
+  {
+   "o": "Karıştırma: Talâk 65/4",
+   "a": "Hamilenin iddetinin doğumla bitmesi Kur’an’da açıkça vardır; sünnetle konmuş hüküm değildir."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "hd1-01",
+   "z": 3,
+   "s": "Bir hadis hocası derste şöyle der: “Bu ilim dalının âlimleri Hz. Peygamber’i her yönüyle örnek alınacak bir insan olarak gördükleri için onun yaratılış özelliklerini, ahlâkını, hatta peygamberlikten önceki hayatına ait bilgileri de bu kavramın kapsamına alırlar. Bir başka ilim dalı ise onu kanun koyucu olarak gördüğünden yalnızca hükme delil olabilecek söz, fiil ve takrîrlerle ilgilenir.”\n\nHocanın sözünü ettiği kavram ve bu iki ilim dalı aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Eser – fıkıh usulcüleri – fakihler",
+    "Hadis – fakihler – kelamcılar",
+    "Sünnet – fakihler – muhaddisler",
+    "Haber – tarihçiler – muhaddisler",
+    "Sünnet – muhaddisler – fıkıh usulcüleri"
+   ],
+   "d": 4,
+   "a": "Sünnet kavramını muhaddisler Hz. Peygamber’e ait her şeyi (vasıflar ve nübüvvet öncesi dâhil) kapsayacak şekilde, fıkıh usulcüleri ise hükme delil olabilecek söz, fiil ve takrîrlerle sınırlı olarak tanımlar.",
+   "ac": [
+    "Eser, bazı fakihlerce sahabe ve tâbiûn sözleri için kullanılır; parçadaki tanımlarla ilgisi yoktur.",
+    "Fakihler sünneti farz ve vacip dışındaki sevaplı fiil olarak tanımlar; kelamcıların sünnet tanımı sınavda bu şekilde verilmez.",
+    "Fakihlerin tanımı fiilin hükmüyle ilgilidir; vasıfları kapsamaz.",
+    "Haber kavramı tarih haberleriyle ilişkilidir; parçadaki ayrım sünnet tanımlarına aittir.",
+    "Doğru: geniş tanım muhaddislerin, hükme delil olanla sınırlı tanım usulcülerindir."
+   ],
+   "kay": "Konu: Sünnetin terim anlamları"
+  },
+  {
+   "id": "hd1-02",
+   "z": 2,
+   "s": "Hanefî ve bazı Horasanlı fakihler, Hz. Peygamber’e ait rivayetler için “haber” kelimesini kullanırken sahabe ve tâbiûna ait söz ve fetvalar için başka bir terim tercih etmişlerdir. Ebû Yûsuf ile İmam Muhammed’in aynı adı taşıyan eserleri de bu kullanımın izlerini taşır.\n\nBu terim aşağıdakilerden hangisidir?",
+   "c": [
+    "Sünnet",
+    "Hadîs-i kudsî",
+    "Takrîr",
+    "Eser",
+    "Merfû"
+   ],
+   "d": 3,
+   "a": "Eser (çoğulu âsâr), bazı fakihlerce sahabe ve tâbiûn sözleri için kullanılmıştır. Ebû Yûsuf ve İmam Muhammed’in el-Âsâr adlı eserleri bunun örneğidir.",
+   "ac": [
+    "Sünnet Hz. Peygamber’in yolu için kullanılır; sahabe sözlerini ayırmak için kullanılan terim değildir.",
+    "Kudsî hadis Hz. Peygamber’in Allah’a nispet ettiği sözdür.",
+    "Takrîr Hz. Peygamber’in onayıdır.",
+    "Doğru: sahabe ve tâbiûn sözleri için kullanılan terim eserdir; el-Âsâr eserleri buna örnektir.",
+    "Merfû Hz. Peygamber’e ulaşan rivayettir; tam tersi kastedilmektedir."
+   ],
+   "kay": "Ebû Yûsuf, el-Âsâr; Konu: Haber ve eser"
+  },
+  {
+   "id": "hd1-03",
+   "z": 3,
+   "s": "Hz. Peygamber’in davranışlarıyla ilgili şu bilgiler veriliyor:\nI. Ara vermeden günlerce oruç tutması (visal orucu)\nII. Bayram namazından önce birkaç hurma yemesi\nIII. Dörtten fazla hanımla evli bulunması\nIV. Hac menasikini “Menasikinizi benden alın” diyerek uygulaması\n\nBunlardan hangileri ümmeti bağlamayan, Hz. Peygamber’e özgü (hasâis) fiillerdendir?",
+   "c": [
+    "I ve II",
+    "II ve IV",
+    "I ve III",
+    "III ve IV",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Visal orucu ve dörtten fazla hanımla evlilik Hz. Peygamber’e özgü hükümlerdendir. Bayramdan önce hurma yemek sünnettir; hac menasiki ise teşriî bir fiil olup ümmeti bağlar.",
+   "ac": [
+    "II Hz. Peygamber’e özgü değildir; ümmet için de sünnettir.",
+    "II sünnet, IV teşriî fiildir; ikisi de hasâisten değildir.",
+    "Doğru: visal orucu ve dörtten fazla eş Hz. Peygamber’e özgüdür.",
+    "IV, ümmetin uyması gereken teşriî fiildir.",
+    "II hasâisten değildir."
+   ],
+   "kay": "Buhârî, Savm, 48 (visal); Konu: Fiilî sünnetin kısımları"
+  },
+  {
+   "id": "hd1-04",
+   "z": 2,
+   "s": "Teyemmüm ederek namaz kılan iki sahabi, vakit çıkmadan su bulmuş; biri abdest alıp namazını yeniden kılmış, diğeri kılmamıştır. Hz. Peygamber iade etmeyene “Sünnete isabet ettin.”, iade edene de “Sana iki kat sevap vardır.” buyurmuştur.\n\nBu olay sünnetin hangi türüne örnektir?",
+   "c": [
+    "Zımnî takrîr",
+    "Sarih takrîr",
+    "Vasfî sünnet",
+    "Fiilî sünnet",
+    "Hulukî sünnet"
+   ],
+   "d": 1,
+   "a": "Hz. Peygamber, sahabilerin yaptığını açık sözlerle onaylamıştır; bu sarih takrîrdir.",
+   "ac": [
+    "Zımnî takrîrde Hz. Peygamber susar; burada açıkça konuşmuştur.",
+    "Doğru: yapılan bir işi açıkça onaylamak sarih takrîrdir.",
+    "Vasfî sünnet yaratılış ve ahlâk özellikleridir.",
+    "Fiili yapan Hz. Peygamber değil sahabilerdir.",
+    "Hulukî sünnet Hz. Peygamber’in ahlâk özellikleridir."
+   ],
+   "kay": "Ebû Dâvûd, Tahâret, 126; Nesâî, Gusl, 27"
+  },
+  {
+   "id": "hd1-05",
+   "z": 3,
+   "s": "Bir ilahiyat öğrencisi şu tespitleri yapmıştır:\nI. Usulcüler sünneti kavlî, fiilî ve takrîrî olmak üzere üç kısımda incelerken muhaddisler bunlara vasfî sünneti de ekler.\nII. Fıkıhta sünnet-i zevâidin terki kınanmayı gerektirir.\nIII. Hadis ile sünnet her zaman aynı anlamda kullanılmış, aralarında hiçbir fark gözetilmemiştir.\n\nBu tespitlerden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "I ve III",
+    "II ve III"
+   ],
+   "d": 0,
+   "a": "Usulcüler vasfî sünneti hüküm kaynağı saymadığı için üç kısım verir. Sünnet-i zevâidin (gündelik âdetler) terki kınanmayı gerektirmez; kınanma sünnet-i hüdânın terkiyle ilgilidir. Hadis-sünnet arasında rivayet ve uygulama farkı gözetilmiştir (Abdurrahman b. Mehdî’nin sözü).",
+   "ac": [
+    "Doğru: yalnız I doğrudur.",
+    "II yanlıştır; sünnet-i zevâidin terki kınanmayı gerektirmez.",
+    "II yanlış olduğu için bu şık doğru değildir.",
+    "III yanlıştır; Abdurrahman b. Mehdî’nin sözü iki kavram arasındaki farka işaret eder.",
+    "II ve III yanlıştır."
+   ],
+   "kay": "Konu: Sünnetin kısımları; sünnet-i hüdâ – zevâid"
+  },
+  {
+   "id": "hd1-06",
+   "z": 3,
+   "s": "Abdurrahman b. Mehdî’ye nispet edilen bir söze göre bir âlim hadiste imam olup sünnette imam olmayabilir, bir başkası ise sünnette imam olup hadiste imam olmayabilir; bazı âlimler ise her ikisinde de imamdır.\n\nBu sözden aşağıdaki sonuçlardan hangisi çıkarılabilir?",
+   "c": [
+    "Hadis ile sünnet arasında hiçbir fark yoktur.",
+    "Sünnet yalnızca yazılı rivayetlerden ibarettir.",
+    "Hadis bilgisi olmayan biri sünneti hiçbir şekilde temsil edemez.",
+    "Hadis rivayet bilgisini, sünnet ise uygulamaya dönük doğru yolu ifade edecek şekilde birbirinden ayırt edilebilir.",
+    "Sünnet kavramı yalnızca Medineli âlimler için kullanılmıştır."
+   ],
+   "d": 3,
+   "a": "Söz, hadisin rivayet ve bilgi yönünü, sünnetin ise yaşanan ve uygulanan yolu ifade ettiğini; bu yüzden bir âlimin birinde önde olup diğerinde o derecede olmayabileceğini gösterir.",
+   "ac": [
+    "Söz tam tersine iki kavramın ayırt edilebildiğini gösterir.",
+    "Sünnet fiilî uygulamayla da nesilden nesile aktarılmıştır; sözden bu sonuç çıkmaz.",
+    "Sözde böyle bir kesin yargı yoktur.",
+    "Doğru: sözün özü hadis (rivayet) – sünnet (uygulama) ayrımıdır.",
+    "Sözde coğrafi bir sınırlama yoktur."
+   ],
+   "kay": "Konu: Hadis – sünnet ilişkisi"
+  },
+  {
+   "id": "hd1-07",
+   "z": 2,
+   "s": "Sünnetin Kur’an’daki hükümlerle ilişkisi bakımından aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "Namaz vakitlerinin ve rekât sayılarının belirlenmesi – mücmelin tafsili",
+    "Ehlî eşek etinin yasaklanması – te’kîd",
+    "Hırsızlıkta kesilecek elin sağ el olması – mutlakın takyidi",
+    "Katilin maktule mirasçı olamaması – âmmın tahsisi",
+    "En’âm 82’deki “zulüm”ün şirk olarak açıklanması – müşkilin tavzihi"
+   ],
+   "d": 1,
+   "a": "Ehlî eşek etinin yasaklanması Kur’an’da bulunmayan, sünnetle konmuş bir hükümdür (teşrî’). Te’kîd Kur’an’daki bir hükmün pekiştirilmesidir.",
+   "ac": [
+    "Doğru eşleştirme: ayrıntıların belirlenmesi tafsildir.",
+    "Yanlış eşleştirme: bu hüküm teşrî’dir; te’kîd değildir.",
+    "Doğru eşleştirme: Mâide 38’deki mutlak “el” sınırlanmıştır.",
+    "Doğru eşleştirme: Nisâ 11’in genel hükmü daraltılmıştır.",
+    "Doğru eşleştirme: kapalı bir ifade açıklanmıştır."
+   ],
+   "kay": "Buhârî, Zebâih, 28; Konu: Sünnetin Kur’an karşısındaki görevleri"
+  },
+  {
+   "id": "hd1-08",
+   "z": 3,
+   "s": "Bir hadiste Hz. Peygamber, ileride koltuğuna yaslanmış bir kişinin, kendisine Peygamber’in emir ya da yasağı ulaştığında “Biz bunu bilmeyiz; Allah’ın kitabında ne bulursak ona uyarız.” diyeceğini haber vermiş ve bu tavrı kınamıştır.\n\nBu hadisle ilgili aşağıdakilerden hangisi söylenemez?",
+   "c": [
+    "Sünneti dışlayıp yalnızca Kur’an’la yetinme iddiasının önceden haber verildiğine işaret eder.",
+    "Ebû Dâvûd ve Tirmizî’nin eserlerinde yer alır.",
+    "Hadis literatüründe “erîke hadisi” olarak bilinir.",
+    "Sünnetin Kur’an’la birlikte bağlayıcı olduğu fikrini destekler.",
+    "Hz. Peygamber’in dünya işlerine dair kişisel görüşlerinin de vahiy olduğunu açıkça bildirir."
+   ],
+   "d": 4,
+   "a": "Erîke hadisi, sünneti reddedip yalnızca Kur’an’la yetinme tavrını kınar. Dünya işlerine dair kişisel görüşlerin vahiy olduğuna dair bir ifade içermez; hatta Hz. Peygamber “Siz dünya işlerinizi daha iyi bilirsiniz” buyurmuştur.",
+   "ac": [
+    "Söylenebilir: hadisin ana fikri budur.",
+    "Söylenebilir: Ebû Dâvûd (Sünnet) ve Tirmizî (İlim) bu hadisi rivayet eder.",
+    "Söylenebilir: erîke “koltuk, sedir” demektir; hadis bu adla bilinir.",
+    "Söylenebilir: sünneti reddetme tavrı kınanmaktadır.",
+    "Söylenemez: hadiste böyle bir bilgi yoktur; dünya işleri konusunda hurma aşılama hadisi aksini gösterir."
+   ],
+   "kay": "Ebû Dâvûd, Sünnet, 6; Tirmizî, İlim, 10"
+  },
+  {
+   "id": "hd1-09",
+   "z": 2,
+   "s": "Bedir Savaşı’ndan önce Hz. Peygamber’in konaklama için seçtiği yer hakkında Hubâb b. Münzir, “Bu, Allah’ın sana gösterdiği bir yer mi, yoksa bir görüş ve savaş taktiği mi?” diye sormuş; “Görüş ve taktik” cevabını alınca kuyuları da kontrol altına alacak başka bir yer önermiş ve öneri kabul edilmiştir.\n\nBu olay en çok aşağıdakilerden hangisine örnek olarak gösterilebilir?",
+   "c": [
+    "Hz. Peygamber’in beşerî tecrübe ve görüşe dayalı tasarruflarının teşriî bağlayıcılık taşımadığına",
+    "Hz. Peygamber’in bütün davranışlarının teşriî olduğuna",
+    "Takrîrî sünnetin sarih ve zımnî kısımlarına",
+    "Sünnetin Kur’an’daki mutlak hükmü takyid ettiğine",
+    "Sahabenin Hz. Peygamber’in kararlarına hiç itiraz etmediğine"
+   ],
+   "d": 0,
+   "a": "Hubâb b. Münzir olayı, Hz. Peygamber’in vahye değil görüşe ve tecrübeye dayalı kararlarının istişareye açık olduğunu ve teşriî bağlayıcılık taşımadığını gösterir.",
+   "ac": [
+    "Doğru: savaş taktiği beşerî görüşe dayanır; istişareyle değiştirilmiştir.",
+    "Olay tam tersini gösterir: bazı tasarruflar teşriî değildir.",
+    "Olayda bir sahabi davranışının onaylanması değil, bir önerinin kabulü söz konusudur.",
+    "Olayın Kur’an hükmünün sınırlanmasıyla ilgisi yoktur.",
+    "Hubâb öneride bulunmuştur; bu ifade olayla çelişir."
+   ],
+   "kay": "İbn Hişâm, es-Sîre (Bedir); Konu: Sünnetin bağlayıcılığı"
+  },
+  {
+   "id": "hd1-10",
+   "z": 3,
+   "s": "Mâlikî âlimi Karâfî, Hz. Peygamber’in tasarruflarını farklı sıfatlarına göre ayırmıştır. Ona göre bazı tasarruflar herkesi doğrudan bağlarken bazıları ancak bir hâkim kararıyla, bazıları ise devlet başkanının izniyle uygulanabilir.\n\nBuna göre aşağıdakilerden hangisi Hz. Peygamber’in devlet başkanı (imam) sıfatıyla yaptığı bir tasarruf olarak değerlendirilmeye en uygundur?",
+   "c": [
+    "Namazın nasıl kılınacağını öğretmesi",
+    "Hind bint Utbe’ye kocasının malından ihtiyacı kadar alabileceğini söylemesi",
+    "Ganimetleri taksim edip orduları sevk etmesi",
+    "Sabah namazının sünnetine devam etmesi",
+    "Abdestin nasıl alınacağını uygulamalı göstermesi"
+   ],
+   "d": 2,
+   "a": "Ganimet taksimi ve ordu sevki, devlet yönetimine ilişkin imamet tasarruflarıdır. Namaz ve abdest tebliğ kapsamındadır; Hind’e verdiği cevap ise fetva mı kaza mı olduğu tartışılan bir örnektir.",
+   "ac": [
+    "Namaz öğretimi tebliğ sıfatıyla yapılmıştır; herkesi bağlar.",
+    "Bu örnek âlimler arasında fetva mı kaza mı olduğu tartışılan bir tasarruftur; imamet örneği değildir.",
+    "Doğru: ganimet ve ordu işleri devlet başkanlığına ilişkin tasarruflardır.",
+    "Sünnet namazına devam ibadetle ilgili bir uygulamadır; tebliğ kapsamındadır.",
+    "Abdestin öğretimi de tebliğ kapsamındadır."
+   ],
+   "kay": "Karâfî, el-Furûk; Buhârî, Nafakât, 9 (Hind olayı)"
+  },
+  {
+   "id": "hd1-11",
+   "z": 2,
+   "s": "Aşağıdaki ayetlerden hangisi, İmam Şâfiî’nin “Kitap ile birlikte anılan hikmet sünnettir.” yorumuna dayanak yaptığı ayetlerden biridir?",
+   "c": [
+    "“Allah’ın kanununda bir değişiklik bulamazsın.” (Ahzâb, 33/62)",
+    "“Mûsâ’nın haberi sana geldi mi?” (Tâhâ, 20/9)",
+    "“Allah sözün en güzelini indirdi.” (Zümer, 39/23)",
+    "“Doğru iseler onun gibi bir söz getirsinler.” (Tûr, 52/34)",
+    "“Ümmîlere kendi içlerinden, onlara ayetlerini okuyan, onları arındıran, onlara Kitap’ı ve hikmeti öğreten bir peygamber gönderen O’dur.” (Cuma, 62/2)"
+   ],
+   "d": 4,
+   "a": "Şâfiî, Kitap ile birlikte anılan hikmeti sünnet olarak yorumlamıştır; Cuma 2 ve Âl-i İmrân 164 bu ayetlerdendir.",
+   "ac": [
+    "Bu ayet sünnetullahtan, yani Allah’ın değişmeyen kanunundan söz eder.",
+    "Bu ayette hadis kelimesi “haber, kıssa” anlamındadır.",
+    "Bu ayette hadis kelimesi Kur’an için “söz” anlamında geçer.",
+    "Bu ayet tehaddî ayetidir; hadis kelimesi “söz” anlamındadır.",
+    "Doğru: Kitap ve hikmetin birlikte anıldığı ayettir."
+   ],
+   "kay": "Şâfiî, er-Risâle; Cuma, 62/2"
+  },
+  {
+   "id": "h1-01",
+   "z": 1,
+   "s": "Sahabeden biri, Hz. Peygamber’in huzurunda daha önce görmediği bir şekilde dua etmiş; Hz. Peygamber bunu görmüş ve herhangi bir itirazda bulunmamıştır.\n\nBu durum sünnetin hangi çeşidine örnektir?",
+   "c": [
+    "Kavlî sünnet",
+    "Fiilî sünnet",
+    "Takrîrî sünnet",
+    "Vasfî sünnet",
+    "Mütevatir sünnet"
+   ],
+   "d": 2,
+   "a": "Hz. Peygamber’in huzurunda yapılan bir işi görüp sessiz kalması zımnî takrîrdir; takrîrî sünnet kapsamına girer.",
+   "ac": [
+    "Kavlî sünnet Hz. Peygamber’in kendi sözüdür; burada söz yok.",
+    "Fiilî sünnet Hz. Peygamber’in bizzat yaptığı davranıştır; davranışı yapan sahabidir.",
+    "Doğru: görüp ses çıkarmamak zımnî takrîrdir.",
+    "Vasfî sünnet onun yaratılış ve ahlâk nitelikleridir.",
+    "Mütevatir bir çeşit değil, râvi sayısıyla ilgili bir sınıflamadır."
+   ],
+   "kay": "Hadis usulü: sünnetin çeşitleri"
+  },
+  {
+   "id": "h1-07",
+   "z": 2,
+   "s": "Hz. Peygamber, malının tamamını veya yarısını vasiyet etmek isteyen Sa’d b. Ebî Vakkâs’a “Üçte bir. Üçte bir de çoktur.” buyurmuştur. Kur’an’da vasiyetten söz edilmiş, ancak miktarı belirtilmemiştir.\n\nBu hadis, sünnetin Kur’an karşısındaki hangi görevine örnektir?",
+   "c": [
+    "Te’kîd",
+    "Mücmeli tafsil",
+    "Âmmı tahsis",
+    "Mutlakı takyid",
+    "Yeni hüküm koyma"
+   ],
+   "d": 3,
+   "a": "Kur’an’da sınırı belirtilmeden (mutlak) geçen vasiyet, sünnetle malın üçte biriyle sınırlanmıştır. Bu, mutlakı takyiddir.",
+   "ac": [
+    "Te’kîd, Kur’an’daki hükmü aynen pekiştirmektir; burada bir sınır getiriliyor.",
+    "Mücmeli tafsil, ana hatlarıyla emredilen bir ibadetin ayrıntılarını açıklamaktır (namazın rekâtları gibi).",
+    "Âmmı tahsis, genel bir hükmün kapsamındaki kişi veya durumları daraltmaktır.",
+    "Doğru: miktarı serbest bırakılmış vasiyete sınır konmuştur.",
+    "Vasiyet Kur’an’da zaten var; yeni bir hüküm konmuyor."
+   ],
+   "kay": "Buhârî, Vesâyâ, 2; Müslim, Vasiyye, 5; Nisâ, 4/11-12"
+  },
+  {
+   "id": "h1-13",
+   "z": 2,
+   "s": "Aşağıdaki ayetlerden hangisi Hz. Peygamber’in Kur’an’ı açıklama (tebyin) görevini en açık biçimde dile getirir?",
+   "c": [
+    "“İnsanlara, kendilerine indirileni açıklayasın diye sana da Zikr’i indirdik.” (Nahl, 16/44)",
+    "“Allah’ın Resûlünde sizin için güzel bir örnek vardır.” (Ahzâb, 33/21)",
+    "“Peygamber size ne verdiyse onu alın.” (Haşr, 59/7)",
+    "“Kim Peygamber’e itaat ederse Allah’a itaat etmiş olur.” (Nisâ, 4/80)",
+    "“O, kendi arzusuyla konuşmaz.” (Necm, 53/3)"
+   ],
+   "d": 0,
+   "a": "Nahl 16/44, Hz. Peygamber’in görevinin indirileni insanlara açıklamak olduğunu doğrudan ifade eder. Diğer ayetler örnekliği, itaati ve sözlerinin vahiyle ilişkisini vurgular.",
+   "ac": [
+    "Doğru: “açıklayasın” ifadesi tebyin görevini doğrudan bildirir.",
+    "Bu ayet onun örnek oluşunu (üsve-i hasene) anlatır.",
+    "Bu ayet onun emir ve yasaklarına uymayı emreder.",
+    "Bu ayet ona itaatin Allah’a itaat olduğunu bildirir.",
+    "Bu ayet onun sözlerinin kişisel arzudan kaynaklanmadığını bildirir."
+   ],
+   "kay": "Nahl, 16/44; Ahzâb, 33/21; Haşr, 59/7; Nisâ, 4/80; Necm, 53/3"
+  },
+  {
+   "id": "h1-15",
+   "z": 3,
+   "s": "Aşağıdaki hükümlerden hangisi Kur’an’da yer almayıp doğrudan sünnetle konmuş bir hükme örnektir?",
+   "c": [
+    "Namazların rekât sayılarının belirlenmesi",
+    "Bir kadının halası veya teyzesiyle aynı kişinin nikâhı altında birleştirilmemesi",
+    "En’âm Suresi 82. ayetteki “zulüm” kelimesinin şirk olarak açıklanması",
+    "Katil olan kişinin maktulün mirasından pay alamaması",
+    "Vasiyetin malın üçte biriyle sınırlandırılması"
+   ],
+   "d": 1,
+   "a": "Kur’an, iki kız kardeşin bir nikâh altında birleştirilmesini yasaklar (Nisâ 4/23); hala ve teyze ile yeğenin birleştirilmesi yasağı ise sünnetle gelmiştir. Diğer seçenekler Kur’an’daki bir hükmü açıklama türleridir.",
+   "ac": [
+    "Namaz Kur’an’da emredilmiş; rekâtların belirlenmesi mücmeli tafsildir.",
+    "Doğru: bu yasak Kur’an’da yoktur, sünnetle konmuştur.",
+    "Bu, kapalı bir ifadenin açıklanmasıdır (müphemi tebyin).",
+    "Kur’an’daki genel miras hükmünün daraltılmasıdır (âmmı tahsis).",
+    "Kur’an’daki vasiyetin sınırlandırılmasıdır (mutlakı takyid)."
+   ],
+   "kay": "Buhârî, Nikâh, 27; Müslim, Nikâh, 33; Nisâ, 4/23"
+  },
+  {
+   "id": "h1-16",
+   "z": 3,
+   "s": "Bir öğretmen, sünnetin Kur’an’daki hükümleri açıklama işlevini anlatırken öğrencilerine bir liste vermiş ve listede yanlışlıkla Kur’an’da açıkça yer alan bir hükmü de yazmıştır.\n\nÖğretmenin yanlışlıkla listeye aldığı hüküm aşağıdakilerden hangisidir?",
+   "c": [
+    "Zekâta tabi malların nisap miktarları",
+    "Kasten oruç bozan kişinin kefaretinin şekli",
+    "Haccın yapılış sırası ve menasiki",
+    "Namaz vakitlerinin başlangıç ve bitişleri",
+    "Hamile kadının iddetinin doğumla sona ermesi"
+   ],
+   "d": 4,
+   "a": "Hamile kadının iddetinin doğumla biteceği Talâk Suresi 4. ayette açıkça bildirilmiştir. Diğer konuların ayrıntıları sünnetle belirlenmiştir.",
+   "ac": [
+    "Zekâtın nisap ve oranları sünnetle belirlenmiştir.",
+    "Kasten oruç bozmanın kefareti hadislerle bildirilmiştir.",
+    "Haccın uygulaması Hz. Peygamber’in Veda Haccı’ndaki uygulamasıyla öğrenilmiştir.",
+    "Namaz vakitlerinin sınırları sünnetle ayrıntılanmıştır.",
+    "Doğru: bu hüküm Kur’an’da açıkça geçer (Talâk 65/4)."
+   ],
+   "kay": "Talâk, 65/4; Buhârî, Savm, 30 (oruç kefareti)"
+  }
+ ]
+}

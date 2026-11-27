@@ -1,0 +1,1047 @@
+{
+ "id": "kuran-10",
+ "ad": "Tecvid 1: Tecvidin Tanımı ve Hükmü, Lahn, Okuyuş Mertebeleri, Mahreçler, Harflerin Sıfatları, Kalın ve İnce Harfler",
+ "ders": "Kur’an Bilgisi",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Tecvid nedir, neden öğrenilir?"
+  },
+  {
+   "merak": "Fâtiha’da “en‘amte” yerine “en‘amtu” okunursa “nimet verdiğin” anlamı “nimet verdiğim” olur ve kul, nimeti kendisine nispet etmiş olur. Tek bir hareke anlamı bu kadar değiştirebilir."
+  },
+  "Tecvid sözlükte bir şeyi güzelleştirmek, iyi ve düzgün yapmak demektir. Terim olarak, her harfi çıkış yerinden (mahreç) ve kendisine ait özelliklerle (sıfat) doğru telaffuz ederek Kur’an’ı Hz. Peygamber’den alındığı şekilde okuma ilmidir. Kur’an’ın kendisi de bunu emreder:",
+  {
+   "ayet": "…Kur’an’ı ağır ağır, tane tane (tertil ile) oku.",
+   "kay": "Müzzemmil, 73/4"
+  },
+  "Hz. Ali’nin tertili “harfleri tecvid etmek ve vakıf yerlerini bilmek” diye tanımladığı nakledilir. Tecvid kuralları sonradan icat edilmiş kurallar değil, Hz. Peygamber’in okuyuşunun sistemleştirilmiş tarifidir; sahabeden itibaren hocadan talebeye ağızdan ağıza (müşâfehe) aktarılmıştır.",
+  {
+   "tablo": [
+    [
+     "Tecvidin hükmü",
+     ""
+    ],
+    [
+     "Tecvid kurallarını bilgi olarak öğrenmek (ilmî tecvid)",
+     "Farz-ı kifâye: toplumda bilen bulunmalıdır"
+    ],
+    [
+     "Kur’an’ı tecvidle okumak (amelî tecvid)",
+     "Anlamı bozan hatalardan (lahn-ı celî) kaçınmak her okuyucuya farz-ı ayndır; güzel okumanın inceliklerine (lahn-ı hafîden kaçınma) uymak gerekir"
+    ]
+   ]
+  },
+  "Tecvid öğrenmenin temel yolu müşâfehedir: Öğrenci hocanın ağzından dinler, kendisi okur, hoca düzeltir. Kitaptan öğrenilen kural ancak bir hocanın kulağında doğrulanınca okuyuşa yerleşir. Bu yüzden kıraat ve tecvidde icazet geleneği vardır; icazet senedi hocadan hocaya Hz. Peygamber’e kadar ulaşır. Kur’an okumanın ilgili terimleri de birbirinden ayrılır: tilâvet, Kur’an’ı ibadet niyetiyle ve sırasıyla okumaktır; kıraat okuma ve okuyuş biçimidir; edâ ise hocadan alınan okuyuşun uygulanmasıdır.",
+  {
+   "tablo": [
+    [
+     "Terim",
+     "Anlamı"
+    ],
+    [
+     "Tilâvet",
+     "Kur’an’ı ibadet niyetiyle, ardı ardınca okumak"
+    ],
+    [
+     "Kıraat",
+     "Okuma; imamlara nispet edilen okuyuş biçimi"
+    ],
+    [
+     "Edâ",
+     "Hocadan alınan okuyuşu uygulama, seslendirme"
+    ],
+    [
+     "Müşâfehe",
+     "Ağızdan ağıza, hocadan dinleyerek öğrenme"
+    ],
+    [
+     "İcazet",
+     "Hocanın öğrencisine okutma izni vermesi"
+    ],
+    [
+     "Ta‘lîm",
+     "Kur’an öğretimi; öğretene muallim, mukrî denir"
+    ]
+   ]
+  },
+  {
+   "akil": "Tecvid müşâfehe ile öğrenilir. Tilâvet = ibadet niyetiyle okuma; edâ = uygulama; icazet = okutma izni."
+  },
+  {
+   "b": "Lahn: Kur’an’ı yanlış okumak"
+  },
+  {
+   "merak": "Bir harfin noktası, bir harekenin yönü… Arapçada küçük bir kayma “Rabbinden korkun” demeyi “Rabbini korkut” demeye çevirebilir. Bütün hatalar aynı ağırlıkta mıdır?"
+  },
+  {
+   "tablo": [
+    [
+     "",
+     "Lahn-ı celî (açık hata)",
+     "Lahn-ı hafî (gizli hata)"
+    ],
+    [
+     "Tanım",
+     "Harfi, harekeyi ya da kelimeyi değiştiren; çoğunlukla anlamı bozan hata",
+     "Anlamı bozmayan, tecvidin inceliklerine uyulmamasından doğan hata"
+    ],
+    [
+     "Örnek",
+     "Bir harfi başka bir harfle okumak (ح yerine ه), harekeyi değiştirmek (en‘amte → en‘amtu), sakin harfi harekeli okumak",
+     "Gunneyi tam yapmamak, medleri ölçüsüz uzatmak, ihfâ yerinde izhar yapmak, kalın harfi ince okumak"
+    ],
+    [
+     "Kim fark eder?",
+     "Arapça bilen herkes",
+     "Tecvid bilenler"
+    ],
+    [
+     "Hüküm",
+     "Haramdır; namazda anlamı bozacak derecede ise namazı bozar",
+     "Mekruhtur; güzel okumanın gereği terk edilmiş olur"
+    ]
+   ]
+  },
+  "Okuyucunun yaptığı hataya zelletü’l-kārî (okuyucunun sürçmesi) denir. Bu hataların namaza etkisi fıkıhta ayrıca incelenir.",
+  "Fıkıhta namazda okuyucunun yaptığı hatalar (zelletü’l-kārî) anlamın bozulup bozulmamasına göre değerlendirilir. Hanefî âlimlerinin genel yaklaşımına göre okunan söz, anlamı ciddi biçimde bozacak ve küfrü gerektirecek bir anlama dönüşürse namaz bozulur; anlam değişmiyor ya da yakın kalıyorsa namaz bozulmaz. Sonraki Hanefî âlimleri, halkın çoğunun Arapça harfleri birbirinden ayırmakta zorlandığını (umûm-i belvâ) dikkate alarak daha kolaylaştırıcı fetvalar vermiştir. Ama her durumda imamın ve okuyucunun görevi lahn-ı celîden titizlikle kaçınmaktır.",
+  {
+   "kontrol": "Zelletü’l-kārî konusundaki ayrıntılar fıkıh kitaplarında uzun örneklerle işlenir; Kur’an Bilgisi sorularında daha çok lahn-ı celî ve lahn-ı hafî ayrımı sorulur."
+  },
+  {
+   "akil": "Lahn-ı celî = harf, hareke ya da kelime değişir, çoğunlukla anlam bozulur; herkes fark eder. Lahn-ı hafî = tecvid inceliğine uyulmaz, anlam bozulmaz; tecvid bilen fark eder."
+  },
+  {
+   "b": "Kur’an’ı okuyuş mertebeleri"
+  },
+  {
+   "merak": "Aynı hafız sabah hocasına ağır ağır okur, öğleden sonra ezberini hızla tekrar eder, teravihte orta bir hızla kıldırır. Üç farklı hız, üç ayrı ad."
+  },
+  {
+   "tablo": [
+    [
+     "Mertebe",
+     "Özelliği"
+    ],
+    [
+     "Tahkîk",
+     "En yavaş okuyuş. Her harfin hakkı tam verilir; medler en uzun ölçüde uzatılır. Öğretim ve öğrenme için tercih edilir"
+    ],
+    [
+     "Tertîl",
+     "Ağır ağır, tane tane, anlam üzerinde düşünerek okumak. Müzzemmil 4’te emredilen okuyuş; bazı kaynaklar tahkîk ile eş tutar"
+    ],
+    [
+     "Tedvîr",
+     "Tahkîk ile hadr arasında orta hızda okuyuş"
+    ],
+    [
+     "Hadr",
+     "Tecvid kurallarına uyarak hızlı okuyuş; hafızlar tekrar ederken kullanır"
+    ],
+    [
+     "Herzeme (caiz değil)",
+     "Kuralları ve harflerin hakkını gözetmeden çok hızlı okuyuş. Lahn-ı celîye düşürdüğü için caiz görülmez"
+    ]
+   ]
+  },
+  {
+   "sinav": "Senaryo: “Teravihi çabuk bitirmek için sureyi tecvid kurallarına uymadan, harflerin mahreç ve sıfatlarını gözetmeden çok hızlı okudu.” → herzeme. “Kurallara uyarak hızlı okudu” → hadr. “Öğretmek için en yavaş okudu” → tahkîk. “Hareke değişip anlam bozuldu” → lahn-ı celî; “gunne eksik kaldı” → lahn-ı hafî."
+  },
+  {
+   "akil": "Tecvid = güzelleştirmek. İlmî tecvid farz-ı kifâye; lahn-ı celîden kaçınmak farz-ı ayn. Mertebeler: tahkîk (en yavaş) – tedvîr (orta) – hadr (hızlı); herzeme caiz değil."
+  },
+  {
+   "b": "2. Mahreçler: Harfler nereden çıkar?"
+  },
+  {
+   "merak": "Ağzınızı kapatıp “m” deyin; ses burnunuzdan gelir. Şimdi “ha” (ح) ile “he” (ه) deyin; biri boğazın ortasından, öbürü en derininden çıkar. Tecvidin ilk dersi sesin coğrafyasıdır."
+  },
+  "Mahreç (çoğulu mehâric), harfin çıktığı yerdir. İbnü’l-Cezerî’nin tasnifine göre harflerin beş ana bölgesi ve on yedi mahreci vardır. Sınav kitaplarında daha çok beş ana bölge ve bu bölgelerin harfleri sorulur.",
+  {
+   "tablo": [
+    [
+     "Ana bölge",
+     "Harfler",
+     "Açıklama"
+    ],
+    [
+     "Cevf (ağız ve boğaz boşluğu)",
+     "Med harfleri: ا (öncesi üstün), و (öncesi ötre), ي (öncesi esre)",
+     "Ses boşlukta biter; uzatma bu harflerle yapılır"
+    ],
+    [
+     "Halk (boğaz)",
+     "ء ه (boğazın en derini), ع ح (ortası), غ خ (dile en yakın kısmı)",
+     "Boğaz harfleri; sakin nun ve tenvinden sonra gelince izhar yapılır"
+    ],
+    [
+     "Lisân (dil)",
+     "ق ك ج ش ي ض ل ن ر ط د ت ص س ز ظ ذ ث",
+     "Dilin kökü, ortası, kenarı ve ucunun damak ve dişlerle temasıyla çıkan 18 harf"
+    ],
+    [
+     "Şefeteyn (iki dudak)",
+     "ف (alt dudak iç kısmı ve üst ön dişler), ب م و (iki dudak)",
+     "Dudak harfleri"
+    ],
+    [
+     "Hayşûm (geniz)",
+     "Gunne",
+     "Nun ve mimin gunnesinin çıktığı yer"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Dil harflerinin ayrıntısı (bilinmesi faydalı)",
+     ""
+    ],
+    [
+     "ق",
+     "Dilin en kökü ile üst damağın yumuşak kısmı"
+    ],
+    [
+     "ك",
+     "Kafın biraz önü"
+    ],
+    [
+     "ج ش ي (sakin olmayan ye)",
+     "Dilin ortası ile üst damak"
+    ],
+    [
+     "ض",
+     "Dilin kenarı ile azı dişleri (en zor mahreçli harf)"
+    ],
+    [
+     "ل",
+     "Dilin kenarının ön kısmı"
+    ],
+    [
+     "ن",
+     "Dilin ucu, lamın biraz önü"
+    ],
+    [
+     "ر",
+     "Dilin ucu ve sırtı, nunun biraz içi"
+    ],
+    [
+     "ط د ت",
+     "Dilin ucu ile üst ön dişlerin dibi"
+    ],
+    [
+     "ص س ز",
+     "Dilin ucu ile alt ön dişlerin ucu (ıslık harfleri)"
+    ],
+    [
+     "ظ ذ ث",
+     "Dilin ucu ile üst ön dişlerin ucu (peltek harfler)"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Boğaz harfleri” sorulduğunda ء ه ع ح غ خ (izhar harfleri) cevaptır. Tuzak: ق ve ك (dil kökü harfleri) boğaz harfi gibi verilir. “Dudak harfleri” → ف ب م و. Peltek (dişler arası) harfler → ث ذ ظ."
+  },
+  {
+   "akil": "Beş bölge: cevf (med harfleri), halk (ء ه ع ح غ خ), lisân (18 harf), şefeteyn (ف ب م و), hayşûm (gunne). Peltek: ث ذ ظ. Islık: ص س ز."
+  },
+  {
+   "b": "3. Harflerin sıfatları"
+  },
+  {
+   "merak": "Aynı yerden çıkan “t” (ت) ile “t” (ط) neden aynı ses değildir? Çünkü mahreç adresi gösterir; sıfat ise sesin karakterini."
+  },
+  "Sıfat, harfin mahrecinden çıkarken taşıdığı özelliktir: nefesin akıp akmaması, sesin kesilip kesilmemesi, dilin damağa yükselip yükselmemesi gibi. Aynı mahreçten çıkan harfler sıfatlarıyla birbirinden ayrılır. Sıfatlar ikiye ayrılır: birbirinin zıddı olan sıfatlar ve zıddı olmayan sıfatlar.",
+  {
+   "tablo": [
+    [
+     "Zıt sıfat çifti",
+     "Anlamı",
+     "Harfler (ezber cümlesi)"
+    ],
+    [
+     "Hems – Cehr",
+     "Hems: telaffuzda nefesin akması. Cehr: nefesin akmaması, sesin güçlü olması",
+     "Hems: ف ح ث ه ش خ ص س ك ت (“fehassehu şahsun sekete”); diğerleri cehr"
+    ],
+    [
+     "Şiddet – Rehâvet (ve arada tevassut)",
+     "Şiddet: sesin bir anda kesilmesi. Rehâvet: sesin akması. Tevassut: ikisi arası",
+     "Şiddet: ء ج د ق ط ب ك ت (“ecidu katin bekeet”); tevassut: ل ن ع م ر (“lin umer”); diğerleri rehâvet"
+    ],
+    [
+     "İsti‘lâ – İstifâl",
+     "İsti‘lâ: dilin kökünün üst damağa yükselmesi (kalınlık). İstifâl: dilin alçalması (incelik)",
+     "İsti‘lâ: خ ص ض غ ط ق ظ (“hussa dağtin kız”)"
+    ],
+    [
+     "İtbâk – İnfitâh",
+     "İtbâk: dilin orta kısmının damağa kapanması. İnfitâh: açık kalması",
+     "İtbâk: ص ض ط ظ"
+    ],
+    [
+     "İzlâk – İsmât",
+     "İzlâk: dil ucu ve dudaktan kolayca çıkış. İsmât: zor çıkış",
+     "İzlâk: ف ر م ن ل ب (“ferre min lübb”)"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Zıddı olmayan sıfat",
+     "Anlamı",
+     "Harfler"
+    ],
+    [
+     "Safîr",
+     "Islık sesi",
+     "ص س ز"
+    ],
+    [
+     "Kalkale",
+     "Sakin olunca mahrecin sarsılması, sesin yankılanması",
+     "ق ط ب ج د (“kutbu cedin”)"
+    ],
+    [
+     "Lîn",
+     "Yumuşaklık",
+     "Önü üstün olan sakin و ve ي"
+    ],
+    [
+     "İnhirâf",
+     "Mahreçten çıkarken başka mahrece meyletme",
+     "ل ر"
+    ],
+    [
+     "Tekrîr",
+     "Titreme, tekrara meyil (abartılmamalı)",
+     "ر"
+    ],
+    [
+     "Tefeşşî",
+     "Sesin ağızda yayılması",
+     "ش"
+    ],
+    [
+     "İstitâle",
+     "Sesin mahreç boyunca uzaması",
+     "ض"
+    ],
+    [
+     "Gunne",
+     "Genizden gelen ses",
+     "ن م"
+    ]
+   ]
+  },
+  "Sıfatlar arasında bir ayrım daha sınavda karşımıza çıkar: sıfat-ı lâzıme ve sıfat-ı ârıza. Lâzıme (zâtiyye), harften hiç ayrılmayan, onsuz harfin başka bir harfe dönüştüğü sıfatlardır: hems, cehr, şiddet, isti‘lâ, itbâk gibi. Ârıza ise harfe bazı durumlarda gelen, bazı durumlarda kalkan özelliklerdir: izhar, idgam, ihfâ, iklab, tefhîm ve terkîk, med ve kasr gibi. Örneğin ra harfinin kalın ya da ince okunması ârıza bir sıfattır; çünkü harekesine ve komşu harflere göre değişir. Ayrıca izlâk (dil ucu ve dudaktan kolayca çıkan ف ر م ن ل ب harfleri, “firre min lübb”) ve ismât (diğerleri) çifti de zıt sıfatlar arasında sayılır.",
+  {
+   "tablo": [
+    [
+     "Sıfat türü",
+     "Tanım",
+     "Örnek"
+    ],
+    [
+     "Sıfat-ı lâzıme",
+     "Harften hiç ayrılmaz; kalkarsa harf değişir",
+     "Hems, şiddet, isti‘lâ, itbâk, kalkale"
+    ],
+    [
+     "Sıfat-ı ârıza",
+     "Duruma göre gelir ya da kalkar",
+     "İzhar, idgam, ihfâ, tefhîm-terkîk, med"
+    ],
+    [
+     "İzlâk",
+     "Dil ucu ve dudaktan kolay çıkış",
+     "ف ر م ن ل ب"
+    ],
+    [
+     "İsmât",
+     "Kolay çıkmayan, kuvvetli harfler",
+     "İzlâk dışındaki harfler"
+    ]
+   ]
+  },
+  {
+   "sinav": "Paragraf tipi: “Telaffuz edilirken nefesin akıp gittiği harflerin sıfatı” → hems. “Dilin kökünün üst damağa yükselmesiyle oluşan, harfi kalın okutan sıfat” → isti‘lâ. Tek harfe ait sıfatlar sık eşleştirilir: istitâle → ض, tefeşşî → ش, tekrîr → ر."
+  },
+  {
+   "akil": "Hems = nefes akar; cehr = akmaz. Şiddet = ses kesilir; rehâvet = akar. İsti‘lâ = kalınlık (7 harf). İtbâk = ص ض ط ظ. Tek harflik sıfatlar: istitâle (ض), tefeşşî (ش), tekrîr (ر)."
+  },
+  {
+   "b": "4. Kalın ve ince harfler"
+  },
+  {
+   "merak": "“Kâle” ile “kâne”: İkisinde de aynı elif var. Ama birinde ağız dolar, öbüründe incelir. Elif kendi kararını vermez; önündeki harfe bakar."
+  },
+  "Harfler okunuşta kalın (tefhîm) ya da ince (terkîk) okunur. İsti‘lâ sıfatı taşıyan yedi harf her durumda kalın okunur. Bir kısım harf ise bulunduğu duruma göre kalın ya da ince okunur. Geri kalan harfler incedir.",
+  {
+   "tablo": [
+    [
+     "Grup",
+     "Harfler",
+     "Not"
+    ],
+    [
+     "Daima kalın (isti‘lâ harfleri)",
+     "خ ص ض غ ط ق ظ",
+     "“Hussa dağtin kız”; en kalını itbâk harfleridir (ص ض ط ظ)"
+    ],
+    [
+     "Duruma göre kalın ya da ince",
+     "ر (ra), Allah lafzındaki ل (lafzatullah), elif (ا)",
+     "Ra ve lafzatullahın kuralları Tecvid 4’te; elif kendinden önceki harfe tabidir: önceki harf kalınsa kalın (قَالَ), inceyse ince (كَانَ) okunur"
+    ],
+    [
+     "Daima ince",
+     "Diğer harfler",
+     "ك, ت, س, ه gibi harfler kalınlaştırılmamalıdır; ince harfi kalın okumak lahn-ı hafîdir"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Daima kalın okunan harflerden biri değildir” sorusunda tuzak genellikle ك (kef) ya da ه (he) olur. “Kendi başına ne kalın ne ince olup önceki harfe göre okunan harf” → elif."
+  },
+  {
+   "akil": "Yedi kalın harf: خ ص ض غ ط ق ظ. Duruma göre: ra, lafzatullah, elif. Elif önceki harfe tabidir."
+  },
+  {
+   "b": "5. Tecvid literatürü"
+  },
+  {
+   "merak": "Osmanlı mahalle mekteplerinde çocukların eline verilen küçük bir kitap vardı; kapağı siyah olduğu için “Karabaş” denirdi. Tecvid kitaplarının hikâyesi Endülüs’ten Anadolu’ya uzanır."
+  },
+  {
+   "tablo": [
+    [
+     "Eser",
+     "Müellif",
+     "Not"
+    ],
+    [
+     "er-Ri‘âye",
+     "Mekkî b. Ebû Tâlib (ö. 437/1045)",
+     "Mahreç ve sıfatları sistemli işleyen erken eser"
+    ],
+    [
+     "et-Tahdîd",
+     "Ebû Amr ed-Dânî (ö. 444/1053)",
+     "Tecvid ve kıraat"
+    ],
+    [
+     "el-Mukaddime (Cezeriyye)",
+     "İbnü’l-Cezerî (ö. 833/1429)",
+     "Manzum tecvid metni; 17 mahreç tasnifi"
+    ],
+    [
+     "Dürr-i Yetîm",
+     "İmam Birgivî (ö. 981/1573)",
+     "Osmanlı medreselerinde okutulan Arapça tecvid risalesi"
+    ],
+    [
+     "Karabaş Tecvidi",
+     "Halk arasında bu adla bilinen Türkçe risale",
+     "Osmanlı ve Cumhuriyet döneminde Kur’an kurslarında yaygın"
+    ]
+   ]
+  },
+  {
+   "akil": "Cezeriyye = İbnü’l-Cezerî’nin manzum tecvid metni. Dürr-i Yetîm = Birgivî. Ri‘âye = Mekkî b. Ebû Tâlib."
+  },
+  {
+   "b": "6. İstiâze ve besmele: Okumaya nasıl başlanır?"
+  },
+  {
+   "merak": "Kur’an okumaya başlarken “Eûzü billâhi mine’ş-şeytâni’r-racîm” denir, ardından besmele çekilir. Bunlar sureye bağlanarak mı okunur, ayrı ayrı mı? Ve neden Tevbe Suresi’nin başında besmele okunmaz?"
+  },
+  "Kur’an okumaya başlarken istiâze (eûzü) okumak Nahl Suresi 98. ayetteki emre dayanır: “Kur’an okuyacağın zaman kovulmuş şeytandan Allah’a sığın.” Cumhura göre istiâze sünnettir. Besmele ise sure başlarında okunur; Tevbe Suresi hariç. Surenin ortasından başlanırsa besmele okumak serbesttir, ama istiâze okunur.",
+  {
+   "ayet": "Kur’an okuyacağın zaman kovulmuş şeytandan Allah’a sığın.",
+   "kay": "Nahl, 16/98"
+  },
+  "Sure başında istiâze, besmele ve surenin ilk ayeti arasında dört okuma şekli (vecih) caizdir: Hepsini ayrı ayrı okumak (kat‘-ı cemî), hepsini bir nefeste birleştirmek (vasl-ı cemî), istiâzeyi ayırıp besmeleyi sureye bağlamak ve istiâze ile besmeleyi bağlayıp sureyi ayırmak. İki sure arasında ise üç vecih caizdir: Hepsini ayırmak, hepsini birleştirmek ve önceki sureyi ayırıp besmeleyi sonraki sureye bağlamak. Besmeleyi önceki surenin sonuna bağlayıp sonraki sureden ayırmak caiz değildir; çünkü besmele önceki surenin sonu gibi algılanır.",
+  {
+   "tablo": [
+    [
+     "Durum",
+     "Caiz vecihler",
+     "Caiz olmayan"
+    ],
+    [
+     "Sure başında (istiâze + besmele + sure)",
+     "Kat‘-ı cemî; vasl-ı cemî; istiâze ayrı + besmele sureye bağlı; istiâze besmeleye bağlı + sure ayrı",
+     "—"
+    ],
+    [
+     "İki sure arasında",
+     "Hepsi ayrı; hepsi bağlı; önceki sure ayrı + besmele sonrakine bağlı",
+     "Besmeleyi önceki sureye bağlayıp sonrakinden ayırmak"
+    ],
+    [
+     "Tevbe Suresi başı",
+     "Besmelesiz başlanır (istiâze okunur)",
+     "Besmele çekmek"
+    ],
+    [
+     "Sure ortasından başlama",
+     "İstiâze okunur; besmele okumak serbest",
+     "—"
+    ]
+   ]
+  },
+  "Mahreç sayısı konusunda da âlimler farklı tasnifler yapmıştır. İbnü’l-Cezerî’nin benimsediği on yedi mahreç tasnifi bugün en yaygın olanıdır. Arap dilinin büyük âlimi Sîbeveyh on altı, Ferrâ ise on dört mahreç saymıştır. Fark, cevf bölgesinin ayrı bir mahreç sayılıp sayılmaması ve dil ucundaki bazı mahreçlerin birleştirilmesinden doğar. Sıfat sayısı ise Cezeriyye’de on yedi olarak verilir: beş zıt çift (on sıfat) ve yedi zıddı olmayan sıfat.",
+  {
+   "kontrol": "Sîbeveyh’in 16, Ferrâ’nın 14 mahreç saydığı bilgisi tecvid kitaplarında yaygındır; kaynaklarda Kutrub ve Cermî de 14 sayanlar arasında anılır."
+  },
+  {
+   "sinav": "“Tevbe Suresi’nin başında besmele çekmek” yanlış öncüldür. “İki sure arasında besmeleyi önceki sureye bağlayıp sonraki sureden ayırmak” caiz olmayan tek vecihtir; sınav bunu “hangisi caiz değildir?” diye sorar. İstiâzenin delili Nahl 98’dir."
+  },
+  {
+   "akil": "Sure başı: 4 vecih caiz. İki sure arası: 3 vecih caiz; besmeleyi öncekine bağlayıp sonrakinden ayırmak caiz değil. Tevbe besmelesiz. Mahreç: İbnü’l-Cezerî 17, Sîbeveyh 16, Ferrâ 14. Sıfat: 17."
+  }
+ ],
+ "ozet": [
+  "Tecvid sözlükte güzelleştirmek, terim olarak harfleri mahreç ve sıfatlarına uygun okuyarak Kur’an’ı Hz. Peygamber’den alındığı gibi okuma ilmidir; dayanağı Müzzemmil 4’teki tertil emridir.",
+  "Tecvidi bilgi olarak öğrenmek farz-ı kifâye, anlamı bozan hatalardan kaçınarak okumak farz-ı ayndır.",
+  "Lahn-ı celî harf, hareke ya da kelimeyi değiştiren açık hatadır (haram); lahn-ı hafî anlamı bozmayan, tecvid inceliklerine uyulmamasından doğan hatadır (mekruh).",
+  "Okuyuş mertebeleri: tahkîk (en yavaş, öğretim), tertîl (ağır, düşünerek), tedvîr (orta), hadr (hızlı ama kurallı). Kuralları gözetmeyen çok hızlı okuyuş (herzeme) caiz değildir.",
+  "Mahreç harfin çıktığı yerdir. Beş ana bölge: cevf (med harfleri), halk/boğaz (ء ه ع ح غ خ), lisân/dil (18 harf), şefeteyn/dudak (ف ب م و), hayşûm/geniz (gunne). İbnü’l-Cezerî’ye göre 17 mahreç vardır.",
+  "Peltek harfler ث ذ ظ, ıslık harfleri ص س ز’dir.",
+  "Zıt sıfatlar: hems-cehr (nefesin akıp akmaması), şiddet-rehâvet-tevassut (sesin kesilip kesilmemesi), isti‘lâ-istifâl (kalınlık-incelik), itbâk-infitâh, izlâk-ismât.",
+  "Hems harfleri “fehassehu şahsun sekete”, şiddet harfleri “ecidu katin bekeet”, tevassut harfleri “lin umer”, isti‘lâ harfleri “hussa dağtin kız”, izlâk harfleri “ferre min lübb” formülleriyle ezberlenir.",
+  "Zıddı olmayan sıfatlar: safîr (ص س ز), kalkale (ق ط ب ج د), lîn, inhirâf (ل ر), tekrîr (ر), tefeşşî (ش), istitâle (ض), gunne (ن م).",
+  "Yedi harf daima kalın okunur: خ ص ض غ ط ق ظ. Ra, lafzatullah ve elif duruma göre kalın ya da ince okunur; elif önceki harfe tabidir.",
+  "Tecvid eserleri: er-Ri‘âye (Mekkî b. Ebû Tâlib), el-Mukaddime/Cezeriyye (İbnü’l-Cezerî), Dürr-i Yetîm (Birgivî), Karabaş Tecvidi.",
+  "Sure başında istiâze-besmele-sure arasında 4, iki sure arasında 3 vecih caizdir; Tevbe besmelesiz okunur."
+ ],
+ "kartlar": [
+  {
+   "o": "Tecvid kelimesinin sözlük anlamı",
+   "a": "Güzelleştirmek, iyi ve düzgün yapmak."
+  },
+  {
+   "o": "Tecvidin hükmü",
+   "a": "Bilgi olarak öğrenmek farz-ı kifâye; lahn-ı celîden kaçınarak okumak farz-ı ayn."
+  },
+  {
+   "o": "Lahn-ı celî ile lahn-ı hafî",
+   "a": "Celî: harf/hareke değiştiren açık hata (haram). Hafî: anlamı bozmayan tecvid hatası (mekruh)."
+  },
+  {
+   "o": "Okuyuş mertebeleri",
+   "a": "Tahkîk (en yavaş), tedvîr (orta), hadr (hızlı ama kurallı). Tertil: ağır ağır, düşünerek. Herzeme: kuralsız hızlı okuyuş, caiz değil."
+  },
+  {
+   "o": "Boğaz (halk) harfleri",
+   "a": "ء ه (en derin), ع ح (orta), غ خ (dile yakın)."
+  },
+  {
+   "o": "Dudak (şefeteyn) harfleri",
+   "a": "ف ب م و."
+  },
+  {
+   "o": "Hayşûm",
+   "a": "Geniz; gunnenin çıktığı yer."
+  },
+  {
+   "o": "Peltek harfler",
+   "a": "ث ذ ظ."
+  },
+  {
+   "o": "Hems sıfatı ve harfleri",
+   "a": "Telaffuzda nefesin akması: ف ح ث ه ش خ ص س ك ت (fehassehu şahsun sekete)."
+  },
+  {
+   "o": "Şiddet harfleri",
+   "a": "Sesin bir anda kesilmesi: ء ج د ق ط ب ك ت (ecidu katin bekeet)."
+  },
+  {
+   "o": "İsti‘lâ harfleri (daima kalın)",
+   "a": "خ ص ض غ ط ق ظ (hussa dağtin kız)."
+  },
+  {
+   "o": "İtbâk harfleri",
+   "a": "ص ض ط ظ."
+  },
+  {
+   "o": "Tek harfe ait sıfatlar",
+   "a": "İstitâle: ض. Tefeşşî: ش. Tekrîr: ر."
+  },
+  {
+   "o": "Elifin kalınlığı",
+   "a": "Kendinden önceki harfe tabidir: قَالَ’de kalın, كَانَ’de ince."
+  },
+  {
+   "o": "el-Mukaddime (Cezeriyye)",
+   "a": "İbnü’l-Cezerî’nin manzum tecvid metni."
+  },
+  {
+   "o": "İki sure arasında caiz olmayan vecih",
+   "a": "Besmeleyi önceki sureye bağlayıp sonrakinden ayırmak"
+  },
+  {
+   "o": "Mahreç sayısı (İbnü’l-Cezerî / Sîbeveyh / Ferrâ)",
+   "a": "17 / 16 / 14"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "kb10-01",
+   "z": 1,
+   "s": "Sözlükte “bir şeyi güzelleştirmek, iyi ve düzgün yapmak” anlamına gelen; terim olarak ise harfleri çıkış yerlerine ve özelliklerine uygun telaffuz ederek Kur’an’ı doğru okuma ilmini ifade eden kavram aşağıdakilerden hangisidir?",
+   "c": [
+    "Tilâvet",
+    "Tertil",
+    "Kıraat",
+    "Tecvid",
+    "Mukabele"
+   ],
+   "d": 3,
+   "a": "Tecvid sözlükte güzelleştirmek demektir; terim olarak Kur’an’ı mahreç ve sıfatlara uygun okuma ilmidir.",
+   "ac": [
+    "Tilâvet, Kur’an okumanın genel adıdır.",
+    "Tertil, ağır ağır, tane tane okumaktır.",
+    "Kıraat, okunuş farklılıklarını imam ve râvilere nispetle inceleyen ilimdir.",
+    "Doğru: tecvid.",
+    "Mukabele, okuyanı mushaftan takip etmektir."
+   ],
+   "kay": "Tecvid ilmi"
+  },
+  {
+   "id": "kb10-02",
+   "z": 2,
+   "s": "Namaz kıldıran bir imam, Fâtiha Suresi’nde “en‘amte aleyhim” ifadesini “en‘amtu aleyhim” şeklinde okumuştur. Bu okuyuşla “nimet verdiğin kimseler” anlamı “nimet verdiğim kimseler” anlamına dönüşmüştür.\n\nİmamın yaptığı hata aşağıdakilerden hangisidir?",
+   "c": [
+    "Lahn-ı celî",
+    "Lahn-ı hafî",
+    "Herzeme",
+    "İhfâ",
+    "Sekte"
+   ],
+   "d": 0,
+   "a": "Harekenin değişmesiyle anlamın bozulması lahn-ı celîdir (açık hata). Lahn-ı hafî ise anlamı bozmayan, tecvidin inceliklerine uyulmamasından doğan hatadır.",
+   "ac": [
+    "Doğru: lahn-ı celî.",
+    "Lahn-ı hafî anlamı bozmaz; burada anlam bozulmuştur.",
+    "Herzeme, kuralları gözetmeden çok hızlı okumaktır; burada tek bir harekenin değişmesi söz konusudur.",
+    "İhfâ, sakin nun ve tenvinle ilgili bir tecvid kuralıdır.",
+    "Sekte, nefes almadan kısa bir duraklamadır."
+   ],
+   "kay": "Tecvid: lahn"
+  },
+  {
+   "id": "kb10-03",
+   "z": 2,
+   "s": "Kur’an kursunda öğrencilerine yeni bir sure öğreten bir hoca, her harfin hakkını tam olarak vererek, medleri en uzun ölçüsüyle uzatarak ve harekeleri birbirinden açıkça ayırarak en yavaş biçimde okumuş; öğrencilerden de aynı şekilde tekrar etmelerini istemiştir.\n\nHocanın tercih ettiği okuyuş mertebesi aşağıdakilerden hangisidir?",
+   "c": [
+    "Hadr",
+    "Tedvîr",
+    "Tahkîk",
+    "Herzeme",
+    "Zemzeme"
+   ],
+   "d": 2,
+   "a": "En yavaş, her harfin hakkının tam verildiği ve öğretimde tercih edilen okuyuş tahkîktir.",
+   "ac": [
+    "Hadr, kurallara uyarak hızlı okumaktır.",
+    "Tedvîr orta hızda okumaktır.",
+    "Doğru: tahkîk.",
+    "Herzeme kuralları gözetmeden çok hızlı okumaktır; caiz değildir.",
+    "Zemzeme bir okuyuş mertebesi değildir."
+   ],
+   "kay": "Tecvid: okuyuş mertebeleri"
+  },
+  {
+   "id": "kb10-04",
+   "z": 2,
+   "s": "Tecvidin hükmüyle ilgili\nI. Tecvid kurallarını bilgi olarak öğrenmek farz-ı kifâyedir.\nII. Kur’an’ı anlamı bozan hatalardan (lahn-ı celî) kaçınarak okumak farz-ı ayndır.\nIII. Gunnenin tam yapılmaması gibi anlamı bozmayan hatalar lahn-ı celî sayılır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Anlamı bozmayan, tecvidin inceliklerine uyulmamasından doğan hatalar lahn-ı hafîdir; III yanlıştır.",
+   "ac": [
+    "II de doğrudur.",
+    "I de doğrudur.",
+    "Doğru: I ve II.",
+    "III yanlıştır.",
+    "III yanlıştır."
+   ],
+   "kay": "Tecvid: hükmü ve lahn"
+  },
+  {
+   "id": "kb10-05",
+   "z": 1,
+   "s": "Aşağıdaki harflerden hangisi her durumda kalın okunan isti‘lâ harflerinden biri değildir?",
+   "c": [
+    "ق",
+    "ص",
+    "ط",
+    "ك",
+    "غ"
+   ],
+   "d": 3,
+   "a": "Daima kalın okunan harfler خ ص ض غ ط ق ظ’dır. Kef (ك) ince bir harftir; kaf (ق) ile karıştırılmamalıdır.",
+   "ac": [
+    "Kaf isti‘lâ harfidir.",
+    "Sad isti‘lâ harfidir.",
+    "Tı isti‘lâ harfidir.",
+    "Doğru: kef ince okunur.",
+    "Ğayın isti‘lâ harfidir."
+   ],
+   "kay": "Tecvid: kalın ve ince harfler"
+  },
+  {
+   "id": "kb10-06",
+   "z": 2,
+   "s": "Dilin ucunun üst ön dişlerin uçlarına değmesiyle çıkan ve “peltek harfler” olarak bilinen harfler aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "ص س ز",
+    "ف ب م",
+    "ط د ت",
+    "ع ح ه",
+    "ث ذ ظ"
+   ],
+   "d": 4,
+   "a": "ث ذ ظ harfleri dil ucunun üst ön dişlerin uçlarına değmesiyle çıkar; peltek harfler olarak bilinir.",
+   "ac": [
+    "Islık (safîr) harfleridir.",
+    "Dudak harfleridir (vav da bu gruptadır).",
+    "Dil ucu ile üst ön dişlerin dibinden çıkan harflerdir.",
+    "Boğaz harfleridir.",
+    "Doğru: peltek harfler."
+   ],
+   "kay": "Tecvid: mahreçler"
+  },
+  {
+   "id": "kb10-07",
+   "z": 2,
+   "s": "ء ه ع ح غ خ harflerinin ortak özelliği aşağıdakilerden hangisidir?",
+   "c": [
+    "Dudaklardan çıkarlar.",
+    "Boğazdan çıkarlar.",
+    "Genizden çıkarlar.",
+    "Daima kalın okunurlar.",
+    "Sakin olduklarında kalkale yapılır."
+   ],
+   "d": 1,
+   "a": "Bu altı harf boğaz (halk) harfleridir: ء ه boğazın en derininden, ع ح ortasından, غ خ dile en yakın kısmından çıkar. Sakin nun ve tenvinden sonra geldiklerinde izhar yapılır.",
+   "ac": [
+    "Dudak harfleri ف ب م و’dir.",
+    "Doğru: boğaz harfleri.",
+    "Genizden gunne çıkar.",
+    "Bunlardan yalnız غ ve خ isti‘lâ harfidir.",
+    "Kalkale harfleri ق ط ب ج د’dir."
+   ],
+   "kay": "Tecvid: mahreçler"
+  },
+  {
+   "id": "kb10-08",
+   "z": 2,
+   "s": "Aşağıdakilerin hangisinde verilen harflerin tamamı dudaklardan (şefeteyn) çıkar?",
+   "c": [
+    "م ن ل ر",
+    "ب ت ث ج",
+    "ف ب م و",
+    "ق ك ج ش",
+    "و ي ا ه"
+   ],
+   "d": 2,
+   "a": "Dudak harfleri ف (alt dudak ve üst dişler), ب م و (iki dudak) harfleridir.",
+   "ac": [
+    "ن ل ر dil harfleridir.",
+    "ت ث ج dil harfleridir.",
+    "Doğru.",
+    "Bunlar dil harfleridir.",
+    "ا ve ي (med hâlinde) cevf harfidir, ه boğaz harfidir."
+   ],
+   "kay": "Tecvid: mahreçler"
+  },
+  {
+   "id": "kb10-09",
+   "z": 3,
+   "s": "Bir tecvid hocası, öğrencilerine “fehassehu şahsun sekete” cümlesindeki harfleri yazdırmış ve bu harfler telaffuz edilirken nefesin akıp gittiğini, sesin zayıf ve fısıltıya yakın çıktığını açıklamıştır.\n\nHocanın anlattığı sıfat aşağıdakilerden hangisidir?",
+   "c": [
+    "Cehr",
+    "Kalkale",
+    "Şiddet",
+    "İsti‘lâ",
+    "Hems"
+   ],
+   "d": 4,
+   "a": "Telaffuzda nefesin akması hems sıfatıdır; harfleri “fehassehu şahsun sekete” (ف ح ث ه ش خ ص س ك ت) formülünde toplanır.",
+   "ac": [
+    "Cehr hemsin zıddıdır; nefes akmaz, ses güçlüdür.",
+    "Kalkale sakin harfte mahrecin sarsılmasıdır (kutbu cedin).",
+    "Şiddet sesin bir anda kesilmesidir (ecidu katin bekeet).",
+    "İsti‘lâ dilin kökünün damağa yükselmesidir (hussa dağtin kız).",
+    "Doğru: hems."
+   ],
+   "kay": "Tecvid: sıfatlar"
+  },
+  {
+   "id": "kb10-10",
+   "z": 3,
+   "s": "Aşağıdaki zıddı olmayan sıfat – harf eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Gunne – ق ك",
+    "Tefeşşî – ش",
+    "Tekrîr – ر",
+    "Safîr – ص س ز",
+    "İstitâle – ض"
+   ],
+   "d": 0,
+   "a": "Gunne genizden gelen sestir ve ن ile م harflerinin sıfatıdır. ق ve ك dil kökü harfleridir; gunneleri yoktur.",
+   "ac": [
+    "Yanlış eşleştirme: gunne ن ve م harflerine aittir.",
+    "Doğru eşleştirme: sesin ağızda yayılması.",
+    "Doğru eşleştirme: titreme.",
+    "Doğru eşleştirme: ıslık sesi.",
+    "Doğru eşleştirme: sesin mahreç boyunca uzaması."
+   ],
+   "kay": "Tecvid: sıfatlar"
+  },
+  {
+   "id": "kb10-11",
+   "z": 2,
+   "s": "Sakin nun, tenvin ve mim harflerinin okunuşunda ortaya çıkan, sesin buruna verilmesiyle oluşan ve bir elif miktarı tutulan ses aşağıdaki mahreçlerin hangisinden çıkar?",
+   "c": [
+    "Cevf",
+    "Halk",
+    "Şefeteyn",
+    "Hayşûm",
+    "Lisân"
+   ],
+   "d": 3,
+   "a": "Gunne hayşûmdan (genizden) çıkar.",
+   "ac": [
+    "Cevf med harflerinin mahrecidir.",
+    "Halk boğaz harflerinin mahrecidir.",
+    "Şefeteyn dudak harflerinin mahrecidir.",
+    "Doğru: hayşûm (geniz).",
+    "Lisân dil harflerinin mahrecidir."
+   ],
+   "kay": "Tecvid: mahreçler"
+  },
+  {
+   "id": "kb10-12",
+   "z": 2,
+   "s": "Tecvid kurallarına göre bir harf, kendi başına kalın ya da ince sayılmaz; kendinden önceki harf kalınsa kalın, inceyse ince okunur. Örneğin “kāle” kelimesinde kalın, “kâne” kelimesinde ince okunur.\n\nBu özellik aşağıdaki harflerden hangisine aittir?",
+   "c": [
+    "Ra",
+    "Elif",
+    "Lam",
+    "Kaf",
+    "Kef"
+   ],
+   "d": 1,
+   "a": "Elif, kendinden önceki harfe tabidir: قَالَ’de kalın, كَانَ’de ince okunur.",
+   "ac": [
+    "Ra da duruma göre kalın ya da ince okunur; ama kendi harekesi ve önceki harekeye bakılır. Örnekler elifle ilgilidir.",
+    "Doğru: elif.",
+    "Lam yalnız Allah lafzında kalınlaşır.",
+    "Kaf daima kalındır.",
+    "Kef daima incedir."
+   ],
+   "kay": "Tecvid: kalın ve ince harfler"
+  },
+  {
+   "id": "kb10-13",
+   "z": 2,
+   "s": "Hicrî IX. yüzyılda yaşayan ve kıraat alanında en-Neşr’in de müellifi olan bir âlim, harflerin mahreç ve sıfatlarını ve temel tecvid kurallarını manzum bir metinde toplamıştır. Bu eser asırlarca tecvid öğretiminde okutulmuştur.\n\nBu eser aşağıdakilerden hangisidir?",
+   "c": [
+    "el-Mukaddime (Cezeriyye)",
+    "er-Ri‘âye",
+    "Dürr-i Yetîm",
+    "Hırzü’l-emânî (Şâtıbiyye)",
+    "et-Teysîr"
+   ],
+   "d": 0,
+   "a": "İbnü’l-Cezerî’nin manzum tecvid metni el-Mukaddime’dir; Cezeriyye diye de bilinir.",
+   "ac": [
+    "Doğru.",
+    "er-Ri‘âye Mekkî b. Ebû Tâlib’in eseridir.",
+    "Dürr-i Yetîm İmam Birgivî’nin tecvid risalesidir.",
+    "Şâtıbiyye, Şâtıbî’nin yedi kıraate dair manzumesidir.",
+    "et-Teysîr Dânî’nin yedi kıraate dair eseridir."
+   ],
+   "kay": "İbnü’l-Cezerî, el-Mukaddime"
+  },
+  {
+   "id": "kb10-z01",
+   "z": 3,
+   "s": "Kur’an okumaya başlarken istiâze ve besmele okunuşuyla ilgili\nI. Sure başında istiâze, besmele ve surenin ilk ayetini ayrı ayrı okumak caizdir.\nII. İki sure arasında besmeleyi önceki surenin sonuna bağlayıp sonraki sureden ayırarak okumak caiz değildir.\nIII. Tevbe Suresi’ne başlarken besmele çekmek gerekir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "Sure başında dört vecih caizdir; iki sure arasında besmeleyi öncekine bağlayıp sonrakinden ayırmak caiz değildir. Tevbe Suresi besmelesiz okunur.",
+   "ac": [
+    "Eksiktir: II de doğrudur.",
+    "Doğrudur: I ve II doğrudur.",
+    "III yanlıştır: Tevbe’de besmele çekilmez.",
+    "III yanlış olduğu için doğru değildir.",
+    "III yanlış olduğu için doğru değildir."
+   ],
+   "kay": "Nahl, 16/98; Konu: İstiâze ve besmele"
+  },
+  {
+   "id": "kb10-z02",
+   "z": 3,
+   "s": "Harflerin sıfatlarıyla ilgili\nI. Şiddet sıfatı taşıyan harflerde ses bir anda kesilir.\nII. ص ض ط ظ harfleri itbâk sıfatı taşır.\nIII. Hems sıfatı taşıyan harfler telaffuz edilirken nefes akmaz.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "II ve III",
+    "I ve III",
+    "I ve II"
+   ],
+   "d": 4,
+   "a": "Şiddette ses kesilir; itbâk harfleri ص ض ط ظ’dır. Hems harflerinde nefes akar; nefesin akmadığı harfler cehr sıfatlıdır.",
+   "ac": [
+    "Eksiktir: II de doğrudur.",
+    "Eksiktir: I de doğrudur.",
+    "III yanlıştır.",
+    "III yanlıştır.",
+    "Doğrudur: I ve II doğrudur."
+   ],
+   "kay": "Konu: Harflerin sıfatları"
+  },
+  {
+   "id": "kb10-z03",
+   "z": 3,
+   "s": "Bir Kur’an kursunda üç öğrenci gözlemlenmiştir. Birinci öğrenci hafızlık tekrarında tecvid kurallarına uyarak hızlı okumaktadır. İkinci öğrenci gunneleri tam yapmamakta, ancak harf ve harekeleri doğru okumaktadır. Üçüncü öğrenci ح harfini ه gibi okumaktadır.\n\nÖğrencilerin okuyuşları sırasıyla aşağıdakilerden hangisiyle nitelendirilir?",
+   "c": [
+    "Hadr - Lahn-ı hafî - Lahn-ı celî",
+    "Herzeme - Lahn-ı celî - Lahn-ı hafî",
+    "Tedvîr - Lahn-ı hafî - Lahn-ı hafî",
+    "Hadr - Lahn-ı celî - Lahn-ı celî",
+    "Tahkîk - Lahn-ı hafî - Lahn-ı celî"
+   ],
+   "d": 0,
+   "a": "Kurallara uyarak hızlı okumak hadrdır. Gunneyi eksik yapmak anlamı bozmayan gizli hatadır (lahn-ı hafî). Bir harfi başka harfle okumak açık hatadır (lahn-ı celî).",
+   "ac": [
+    "Doğrudur.",
+    "Herzeme kuralları gözetmeden hızlı okumaktır; hataların türleri de ters verilmiştir.",
+    "Harf değiştirmek lahn-ı hafî değil, lahn-ı celîdir.",
+    "Gunne eksikliği lahn-ı celî değildir.",
+    "Tahkîk en yavaş okuyuştur."
+   ],
+   "kay": "Konu: Lahn ve okuyuş mertebeleri"
+  },
+  {
+   "id": "kb10-z04",
+   "z": 3,
+   "s": "Bu harf, dilin kenarının (bir ya da iki yanının) azı dişlerine dayanmasıyla çıkar. Mahreci en zor harf kabul edilir; telaffuz edilirken sesin mahreç boyunca uzaması anlamına gelen istitâle sıfatı da yalnız bu harfe aittir. Bu yüzden Arapçaya “bu harfin dili” denmiştir.\n\nBu parçada sözü edilen harf aşağıdakilerden hangisidir?",
+   "c": [
+    "ظ",
+    "ض",
+    "ص",
+    "ط",
+    "ذ"
+   ],
+   "d": 1,
+   "a": "Dâd (ض) dilin kenarı ile azı dişlerinden çıkar ve istitâle sıfatı yalnız ona aittir. Arapçaya “lügatü’d-dâd” (dâd dili) denir.",
+   "ac": [
+    "ظ dilin ucu ile üst ön dişlerin ucundan çıkan peltek harftir.",
+    "Doğrudur: ض.",
+    "ص dilin ucundan çıkan ıslık harfidir.",
+    "ط dilin ucu ile üst ön dişlerin dibinden çıkar.",
+    "ذ peltek harflerdendir."
+   ],
+   "kay": "Konu: Mahreçler ve sıfatlar"
+  },
+  {
+   "id": "kb10-z05",
+   "z": 3,
+   "s": "Aşağıdaki sıfat - harf eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Hems - ف",
+    "Kalkale - ق",
+    "Safîr - ز",
+    "Tefeşşî - ش",
+    "İstitâle - ظ"
+   ],
+   "d": 4,
+   "a": "İstitâle yalnız ض harfine aittir. ظ peltek bir isti‘lâ ve itbâk harfidir ama istitâle sıfatı taşımaz.",
+   "ac": [
+    "Doğrudur: ف hems harflerindendir.",
+    "Doğrudur: “kutbu cedin” harflerindendir.",
+    "Doğrudur: ص س ز ıslık harfleridir.",
+    "Doğrudur: tefeşşî yalnız ش harfindedir.",
+    "Yanlıştır: istitâle ض harfine aittir."
+   ],
+   "kay": "Konu: Zıddı olmayan sıfatlar"
+  },
+  {
+   "id": "kb10-z06",
+   "z": 3,
+   "s": "Bir hoca, öğrencisinin okuyuşunda tespit ettiği hataları not etmiştir.\n\nAşağıdaki hatalardan hangisi lahn-ı celî kapsamındadır?",
+   "c": [
+    "Gunneyi bir elif miktarından kısa tutmak",
+    "İhfâ yapılması gereken yerde izhar yapmak",
+    "Medd-i munfasılı ölçüsüz uzatmak",
+    "ق harfini ك harfiyle okumak",
+    "ك harfini kalınlaştırarak okumak"
+   ],
+   "d": 3,
+   "a": "Bir harfi başka bir harfle okumak (kalb = ك) kelimeyi değiştiren açık hatadır. Diğerleri tecvidin inceliklerine aykırı, anlamı bozmayan gizli hatalardır.",
+   "ac": [
+    "Lahn-ı hafîdir.",
+    "Lahn-ı hafîdir.",
+    "Lahn-ı hafîdir.",
+    "Doğrudur: harf değiştiği için lahn-ı celîdir.",
+    "İnce harfi kalın okumak lahn-ı hafîdir."
+   ],
+   "kay": "Konu: Lahn"
+  },
+  {
+   "id": "kb10-z07",
+   "z": 3,
+   "s": "Aşağıdaki tecvid eseri - müellif eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "er-Ri‘âye - Mekkî b. Ebû Tâlib",
+    "et-Tahdîd - Ebû Amr ed-Dânî",
+    "Dürr-i Yetîm - Şâtıbî",
+    "el-Mukaddime (Cezeriyye) - İbnü’l-Cezerî",
+    "Karabaş Tecvidi - Osmanlı’da yaygın Türkçe risale"
+   ],
+   "d": 2,
+   "a": "Dürr-i Yetîm, Osmanlı âlimi İmam Birgivî’nin Arapça tecvid risalesidir. Şâtıbî’nin meşhur eseri kıraate dair Hırzü’l-emânî (Şâtıbiyye) manzumesidir.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Yanlıştır: Dürr-i Yetîm Birgivî’nindir.",
+    "Doğrudur.",
+    "Doğrudur."
+   ],
+   "kay": "Konu: Tecvid literatürü"
+  }
+ ]
+}

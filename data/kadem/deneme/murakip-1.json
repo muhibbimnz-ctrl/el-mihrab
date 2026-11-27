@@ -1,0 +1,1157 @@
+{
+ "id": "murakip-1",
+ "ad": "1. Deneme",
+ "aciklama": "2026 murakıplık konu listesi, 2018 sınav dağılımı · 50 soru · 0 kolay, 14 orta, 36 zor",
+ "sorular": [
+  {
+   "id": "mrd1-01",
+   "ders": "Kur’an Bilgisi",
+   "z": 2,
+   "s": "مِنْ بَعْدِ ifadesinde uygulanan tecvid kuralı aşağıdakilerden hangisidir?",
+   "c": [
+    "İklab",
+    "İzhar",
+    "İhfâ",
+    "İdgam-ı maal-gunne",
+    "İdgam-ı bilâ gunne"
+   ],
+   "d": 0,
+   "a": "Sakin nun ya da tenvinden sonra ب harfi gelirse nun, mim sesine dönüştürülerek gunneyle okunur. Buna iklab denir.",
+   "ac": [
+    "Doğru: sakin nundan sonra ب gelince nun mim sesine çevrilerek gunneyle okunur.",
+    "İzhar, sakin nundan sonra boğaz harfi gelince yapılır; burada ب gelmiştir.",
+    "İhfâ, sakin nundan sonra kalan on beş harften biri gelince yapılır; ب bunlardan değildir.",
+    "Bu idgam, sakin nundan sonra ي ن م و harfleri gelince yapılır.",
+    "Bu idgam, sakin nundan sonra ل ya da ر gelince yapılır."
+   ],
+   "kay": "Tecvid: sakin nun ve tenvin"
+  },
+  {
+   "id": "mrd1-02",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "Kur’an-ı Kerim’in Hz. Osman döneminde çoğaltılması ile ilgili:\nI. İstinsah heyetinin başında Zeyd b. Sâbit bulunuyordu.\nII. Farklı okuyuşlarda ihtilaf çıkarsa Kureyş lehçesinin esas alınması istenmişti.\nIII. Çoğaltılan nüshalar başlıca İslam merkezlerine gönderilmişti.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Hz. Osman, Zeyd b. Sâbit başkanlığındaki heyete mushafı çoğaltma görevi vermiş, ihtilafta Kureyş lehçesinin esas alınmasını istemiş ve nüshaları Kûfe, Basra, Şam gibi merkezlere göndermiştir.",
+   "ac": [
+    "Eksik: Kureyş lehçesi talimatı ve nüshaların gönderilmesi de doğrudur.",
+    "Eksik: nüshalar merkezlere gönderilmiştir.",
+    "Eksik: Kureyş lehçesi talimatı rivayetlerde yer alır.",
+    "Eksik: heyetin başkanı Zeyd b. Sâbit’tir.",
+    "Doğru: üç bilgi de istinsah faaliyetine ilişkin sahih rivayetlerde yer alır."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3"
+  },
+  {
+   "id": "mrd1-03",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "Aşağıdaki kelimelerin hangisinde medd-i lâzım vardır?",
+   "c": [
+    "اَلرَّح۪يمْ",
+    "قَالُٓوا اٰمَنَّا",
+    "جَٓاءَ",
+    "اَلضَّٓالّ۪ينَ",
+    "خَوْفٌ"
+   ],
+   "d": 3,
+   "a": "Med harfinden sonra aynı kelimede sükûnu asli (lâzım) olan bir harf ya da şedde gelirse medd-i lâzım olur ve en uzun çekilir.",
+   "ac": [
+    "Vakıf sebebiyle sükûn arız olduğu için medd-i ârızdır.",
+    "Med harfinden sonra ayrı kelimede hemze geldiği için medd-i munfasıldır.",
+    "Med harfinden sonra aynı kelimede hemze geldiği için medd-i muttasıldır.",
+    "Doğru: med harfinden sonra aynı kelimede şeddeli (sükûnu lâzım) harf geldiği için medd-i lâzımdır.",
+    "Med harfi değil, lîn harfi vardır; medd-i lîn olur."
+   ],
+   "kay": "Tecvid: medler"
+  },
+  {
+   "id": "mrd1-04",
+   "ders": "Tefsir",
+   "z": 3,
+   "s": "“Kur’an’ın bir kısmı diğer kısmını tefsir eder” ilkesine dayanan tefsir yöntemine aşağıdakilerden hangisi örnektir?",
+   "c": [
+    "Bir ayetin Arap şiirinden bir beyitle açıklanması",
+    "Bakara 2/37’deki “kelimeler”in A‘râf 7/23’teki duayla açıklanması",
+    "Bir ayetin sahabe kavliyle açıklanması",
+    "Bir ayetin bilimsel bir buluşla açıklanması",
+    "Bir ayetin İsrâiliyat rivayetiyle açıklanması"
+   ],
+   "d": 1,
+   "a": "Kur’an’ın Kur’an’la tefsiri rivayet tefsirinin ilk basamağıdır. Hz. Âdem’in aldığı “kelimeler”, A‘râf 7/23’teki “Rabbimiz! Biz kendimize zulmettik…” duasıyla açıklanır.",
+   "ac": [
+    "Bu, dil ve edebiyat kaynaklı açıklamadır.",
+    "Doğru: bir ayetteki kapalı ifade başka bir ayetle açıklanmıştır.",
+    "Bu, sahabe tefsiridir; ayetle tefsir değildir.",
+    "Bu, ilmî tefsir yaklaşımıdır.",
+    "Bu, ehl-i kitap kaynaklı bir açıklamadır."
+   ],
+   "kay": "Bakara, 2/37; A‘râf, 7/23"
+  },
+  {
+   "id": "mrd1-05",
+   "ders": "Tefsir",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi rivayet tefsirinin temel eserlerinden biri olarak kabul edilir?",
+   "c": [
+    "Câmi‘u’l-beyân (Taberî)",
+    "Mefâtîhu’l-gayb (Fahreddin Râzî)",
+    "el-Keşşâf (Zemahşerî)",
+    "Hak Dini Kur’an Dili (Elmalılı)",
+    "el-Menâr (Abduh – Reşîd Rızâ)"
+   ],
+   "d": 0,
+   "a": "Taberî’nin Câmi‘u’l-beyân’ı rivayet tefsirinin ana kaynağıdır. Diğerleri dirayet ya da modern tefsirlerdir.",
+   "ac": [
+    "Doğru: rivayetleri isnadıyla toplayan en önemli rivayet tefsiridir.",
+    "Kelâmî ve felsefi ağırlıklı bir dirayet tefsiridir.",
+    "Mu‘tezilî ve dil ağırlıklı bir dirayet tefsiridir.",
+    "Cumhuriyet dönemi dirayet ağırlıklı bir tefsirdir.",
+    "Modern dönem içtimai tefsirdir."
+   ],
+   "kay": "Tefsir tarihi"
+  },
+  {
+   "id": "mrd1-06",
+   "ders": "Tefsir",
+   "z": 3,
+   "s": "Nesih ile ilgili aşağıdaki ifadelerden hangisi Kur’an ilimleri literatüründeki genel kabule aykırıdır?",
+   "c": [
+    "Nesih ancak hüküm bildiren naslarda söz konusu olur.",
+    "Nâsih, mensûhtan sonra gelmiş olmalıdır.",
+    "Nesihin tespitinde sahih nakil gerekir.",
+    "Haber bildiren ayetler de nesholunabilir.",
+    "İçki yasağının aşamalı gelişi nesih tartışmalarında örnek gösterilir."
+   ],
+   "d": 3,
+   "a": "Nesih yalnız emir ve nehiy bildiren ahkâm ayetlerinde düşünülür; haber, kıssa ve inanç esaslarında nesih olmaz.",
+   "ac": [
+    "Genel kabule uygundur; haberlerde nesih olmaz.",
+    "Genel kabule uygundur.",
+    "Genel kabule uygundur.",
+    "Doğru cevap: kıssa ve haber bildiren ayetlerde nesih olmaz; aksi Allah’ın haberinin değişmesi anlamına gelir.",
+    "Genel kabule uygundur."
+   ],
+   "kay": "Kur’an ilimleri: nesih"
+  },
+  {
+   "id": "mrd1-07",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "Mâtürîdî’ye göre Allah’ı bilmenin (marifetullah) dinî hükmü ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Peygamber gönderilmeden kimse Allah’ı bilmekle sorumlu değildir.",
+    "Allah’ı bilmek yalnız taklitle gerçekleşir.",
+    "Allah’ı bilmek yalnız ilham yoluyla olur.",
+    "Allah’ın varlığı akılla bilinemez.",
+    "Allah’ı bilmek akılla vaciptir; peygamber ulaşmasa da akıl sahibi bundan sorumludur."
+   ],
+   "d": 4,
+   "a": "Mâtürîdîlere göre Allah’ı tanımak akılla vaciptir. Eş‘arîlere göre ise sorumluluk şer‘ ile, yani peygamberin tebliğiyle başlar.",
+   "ac": [
+    "Bu Eş‘arî’nin görüşüne yakındır.",
+    "Taklidî iman tartışılmış, tahkik teşvik edilmiştir.",
+    "Mâtürîdîler ilhamı genel bilgi kaynağı saymaz.",
+    "Mâtürîdî aklın Allah’ı bilebileceğini savunur.",
+    "Doğru: Mâtürîdî ve Hanefî kelamcıların görüşüdür."
+   ],
+   "kay": "Mâtürîdî, Kitâbü’t-Tevhîd"
+  },
+  {
+   "id": "mrd1-08",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "Kelamcıların âlemin sonradan olduğunu (hudûs) ispat ederken kullandıkları ve “cisimler değişen arazlardan ayrı değildir, değişen arazlar sonradan olmuştur; sonradan olandan ayrı olmayan da sonradan olmuştur” şeklinde özetlenen delil aşağıdakilerden hangisidir?",
+   "c": [
+    "İhtira‘ delili",
+    "İnâye delili",
+    "İmkân delili",
+    "Hudûs delili",
+    "Ahlak delili"
+   ],
+   "d": 3,
+   "a": "Hudûs delili, kelamcıların en çok kullandığı delildir: âlem değişir, değişen sonradan olmuştur, sonradan olanın bir yaratıcısı vardır.",
+   "ac": [
+    "Varlıkların yaratılışındaki özelliğe dayanır.",
+    "Varlıkların insana uygunluğuna dayanır.",
+    "Varlığın mümkün ve vacip ayrımına dayanır; filozoflarca geliştirilmiştir.",
+    "Doğru: cisim-araz ilişkisinden âlemin sonradan olduğunu çıkarır.",
+    "Ahlaki sorumluluktan Allah’ın varlığına gider."
+   ],
+   "kay": "Kelam: Allah’ın varlığının delilleri"
+  },
+  {
+   "id": "mrd1-09",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "Allah’ın sıfatlarıyla ilgili:\nI. Kıdem\nII. Kudret\nIII. Bekâ\nIV. Vahdâniyyet\nYukarıdakilerden hangileri selbî sıfatlardandır?",
+   "c": [
+    "I ve II",
+    "II ve IV",
+    "I, III ve IV",
+    "I, II ve III",
+    "II, III ve IV"
+   ],
+   "d": 2,
+   "a": "Selbî sıfatlar Allah’a yakışmayan nitelikleri olumsuzlar: kıdem, bekâ, vahdâniyyet, muhâlefetün li’l-havâdis, kıyâm bi-nefsihî. Kudret sübûtî sıfattır.",
+   "ac": [
+    "Kudret sübûtî sıfattır.",
+    "Kudret sübûtî sıfattır.",
+    "Doğru: kıdem, bekâ ve vahdâniyyet selbî sıfatlardır.",
+    "Kudret sübûtî sıfattır.",
+    "Kudret sübûtî sıfattır."
+   ],
+   "kay": "Kelam: Allah’ın sıfatları"
+  },
+  {
+   "id": "mrd1-10",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hanefî mezhebine göre aşağıdakilerden hangisi abdesti bozmaz?",
+   "c": [
+    "Bir kadına dokunmak",
+    "Yaradan kan çıkıp akması",
+    "Namazda yanındakinin duyacağı şekilde gülmek",
+    "Ağız dolusu kusmak",
+    "Bayılmak"
+   ],
+   "d": 0,
+   "a": "Hanefîlere göre karşı cinse dokunmak abdesti bozmaz. Şâfiîlere göre ise nikâh düşen yabancı bir kadına dokunmak abdesti bozar.",
+   "ac": [
+    "Doğru: Hanefîlere göre karşı cinse dokunmak tek başına abdesti bozmaz.",
+    "Akan kan abdesti bozar.",
+    "Rükûlu secdeli namazda kahkaha abdesti bozar.",
+    "Hanefîlere göre ağız dolusu kusmak abdesti bozar.",
+    "Şuurun kaybolması abdesti bozar."
+   ],
+   "kay": "İlmihal: abdesti bozan durumlar"
+  },
+  {
+   "id": "mrd1-11",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Zekât ile ilgili:\nI. Zekâtın farz olması için malın nisap miktarına ulaşması ve üzerinden bir kamerî yıl geçmesi gerekir.\nII. Zekât, ana-babaya ve çocuklara verilemez.\nIII. Zekât verilecek yerler Tevbe suresinin 60. ayetinde belirtilmiştir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Zekât nisap ve havl şartıyla farz olur. Usul ve fürua verilmez. Sarf yerleri Tevbe 9/60’ta sekiz sınıf olarak sayılır.",
+   "ac": [
+    "Eksik: diğer iki bilgi de doğrudur.",
+    "Eksik: zekâtın sarf yerleri Tevbe 9/60’tadır.",
+    "Eksik: usul ve fürua zekât verilmez.",
+    "Eksik: nisap ve havl şartı da doğrudur.",
+    "Doğru: üç bilgi de zekâtın temel hükümleridir."
+   ],
+   "kay": "Tevbe, 9/60"
+  },
+  {
+   "id": "mrd1-12",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Hanefî mezhebine göre orucu bozup yalnız kazayı gerektiren durum aşağıdakilerden hangisidir?",
+   "c": [
+    "Unutarak yemek içmek",
+    "Bilerek ve isteyerek yemek yemek",
+    "Oruçlu olduğunu bildiği hâlde abdest alırken boğazına su kaçması",
+    "Göze ilaç damlatmak",
+    "İstemeden kusmak"
+   ],
+   "d": 2,
+   "a": "Oruçlu olduğunu bilerek ancak istemeden boğaza su kaçması hata sayılır; oruç bozulur ve yalnız kaza gerekir.",
+   "ac": [
+    "Unutarak yiyen kişinin orucu bozulmaz.",
+    "Kasten yemek kaza ve keffâret gerektirir.",
+    "Doğru: hata ile boğaza su kaçması orucu bozar, yalnız kaza gerekir.",
+    "Hanefîlere göre göze damlatılan ilaç orucu bozmaz.",
+    "İstemeden kusmak orucu bozmaz."
+   ],
+   "kay": "İlmihal: orucu bozan durumlar"
+  },
+  {
+   "id": "mrd1-13",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Cuma namazının sıhhat şartları arasında aşağıdakilerden hangisi yer almaz?",
+   "c": [
+    "Vakit (öğle vakti)",
+    "Mukim olmak",
+    "Cemaat",
+    "İzn-i âm (herkese açık olma)",
+    "Hutbe"
+   ],
+   "d": 1,
+   "a": "Cumanın sıhhat şartları: şehir (ya da büyük yerleşim), izin, vakit, hutbe, cemaat, izn-i âm. Mukim olmak, erkek olmak, sağlıklı olmak vücûb şartlarıdır.",
+   "ac": [
+    "Sıhhat şartıdır.",
+    "Doğru: mukim olmak vücûb (farziyet) şartıdır; sıhhat şartı değildir.",
+    "Sıhhat şartıdır.",
+    "Sıhhat şartıdır.",
+    "Sıhhat şartıdır."
+   ],
+   "kay": "İlmihal: cuma namazı"
+  },
+  {
+   "id": "mrd1-14",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hac ile ilgili:\nI. İhram\nII. Arafat vakfesi\nIII. Ziyaret tavafı\nIV. Sa‘y\nV. Müzdelife vakfesi\nYukarıdakilerden hangileri Hanefî mezhebine göre haccın farzlarındandır?",
+   "c": [
+    "I, II ve III",
+    "I, II ve IV",
+    "II, III ve V",
+    "I, III ve IV",
+    "II, IV ve V"
+   ],
+   "d": 0,
+   "a": "Hanefîlerde haccın farzı üçtür: ihram (şart), Arafat vakfesi ve ziyaret tavafı (rükün). Sa‘y ve Müzdelife vakfesi vaciptir.",
+   "ac": [
+    "Doğru: Hanefîlere göre haccın farzları ihram, Arafat vakfesi ve ziyaret tavafıdır.",
+    "Sa‘y Hanefîlerde vaciptir, farz değildir.",
+    "Müzdelife vakfesi vaciptir; ihram ise farzdır.",
+    "Arafat vakfesi haccın en önemli rüknüdür; sa‘y ise vaciptir.",
+    "Sa‘y ve Müzdelife vakfesi vaciptir."
+   ],
+   "kay": "İlmihal: hac"
+  },
+  {
+   "id": "mrd1-15",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Kurban ile ilgili aşağıdakilerden hangisi Hanefî mezhebine göre yanlıştır?",
+   "c": [
+    "Kurban kesmek, şartlarını taşıyan kişiye vaciptir.",
+    "Küçükbaş hayvan bir kişi adına kesilir.",
+    "Büyükbaş hayvana yedi kişiye kadar ortak olunabilir.",
+    "Kurbanın etinden kesen kişi ve ailesi yiyemez.",
+    "Kurban bayramın ilk gününden üçüncü gününün akşamına kadar kesilebilir."
+   ],
+   "d": 3,
+   "a": "Vacip olan udhiye kurbanının etinden sahibi ve ailesi yiyebilir. Adanmış kurbanın etinden ise adayan ve bakmakla yükümlü olduğu kişiler yiyemez.",
+   "ac": [
+    "Hanefîlere göre doğrudur.",
+    "Hanefî fıkhına göre doğru bir bilgidir.",
+    "Hanefî fıkhına göre doğru bir bilgidir.",
+    "Doğru cevap: vacip kurbanın etinden sahibi de yiyebilir; adak kurbanı ise yenmez.",
+    "Kesim vakti üç gündür; doğru bilgidir."
+   ],
+   "kay": "İlmihal: kurban"
+  },
+  {
+   "id": "mrd1-16",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hanefî mezhebine göre yolculuk (sefer) ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Seferî, dört rekâtlı farzları iki rekât kılar; bu bir ruhsat değil, azimettir.",
+    "Seferîlik için gidilecek yerin en az 45 km uzaklıkta olması yeterlidir.",
+    "Seferî, akşam namazını iki rekât kılar.",
+    "Seferî, gittiği yerde 15 gün kalmaya niyet etse de seferîdir.",
+    "Seferî, imama uyduğunda da iki rekât kılar."
+   ],
+   "d": 0,
+   "a": "Hanefîlere göre seferîlik yaklaşık 90 km’lik yolculukla başlar. Dört rekâtlı farzlar iki kılınır ve bu azimettir. On beş gün kalmaya niyet eden mukim olur.",
+   "ac": [
+    "Doğru: Hanefîlerde seferînin dört rekâtlıları iki kılması vaciptir.",
+    "Diyanet’in esas aldığı mesafe yaklaşık 90 km’dir.",
+    "Akşam ve sabah namazları kısaltılmaz.",
+    "15 gün ve fazlasına niyet eden mukim olur.",
+    "Mukim imama uyan seferî dört rekât kılar."
+   ],
+   "kay": "İlmihal: yolculuk namazı"
+  },
+  {
+   "id": "mrd1-17",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hanefî mezhebine göre namazı bozan durumlarla ilgili:\nI. Namazda unutarak az miktarda konuşmak namazı bozar.\nII. Namazda Kur’an’a bakarak okumak, Ebû Hanîfe’ye göre namazı bozar.\nIII. Namazda gözü kapalı kılmak namazı bozar.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "Hanefîlerde namazda bilerek ya da unutarak konuşmak namazı bozar. Ebû Hanîfe’ye göre mushaftan bakarak okumak bozar; İmameyn’e göre mekruhtur. Gözleri kapamak ise yalnız mekruhtur.",
+   "ac": [
+    "Eksik: Ebû Hanîfe’nin mushaftan okuma görüşü de doğrudur.",
+    "Doğru: göz kapamak mekruhtur, namazı bozmaz.",
+    "Göz kapamak namazı bozmaz.",
+    "Göz kapamak namazı bozmaz; unutarak konuşmak bozar.",
+    "Üçüncü ifade yanlıştır."
+   ],
+   "kay": "İlmihal: namazı bozan durumlar"
+  },
+  {
+   "id": "mrd1-18",
+   "ders": "Hadis",
+   "z": 3,
+   "s": "Ravisi, ilk tabakada tek kişiye düşmeyen, her tabakada en az üç ravi bulunan ve mütevatir derecesine ulaşmayan hadis aşağıdakilerden hangisidir?",
+   "c": [
+    "Garîb",
+    "Azîz",
+    "Mürsel",
+    "Ferd",
+    "Meşhûr"
+   ],
+   "d": 4,
+   "a": "Ravi sayısı bakımından âhâd haberler garîb (bir), azîz (iki) ve meşhûr (en az üç) diye ayrılır.",
+   "ac": [
+    "Ravi sayısı bir tabakada bire düşen hadistir.",
+    "Ravi sayısı hiçbir tabakada ikiden aşağı düşmeyen hadistir.",
+    "İsnadının sonunda sahabe düşmüş hadistir.",
+    "Garîb ile aynı anlamdadır.",
+    "Doğru: her tabakada en az üç ravisi bulunan, mütevatire ulaşmayan hadistir."
+   ],
+   "kay": "Hadis usulü: ravi sayısı"
+  },
+  {
+   "id": "mrd1-19",
+   "ders": "Hadis",
+   "z": 2,
+   "s": "Hadisleri konularına göre bablara ayırarak tasnif eden ve özellikle ahkâm hadislerini toplayan eserlere ne ad verilir?",
+   "c": [
+    "Müsned",
+    "Mu‘cem",
+    "Sünen",
+    "Etrâf",
+    "Cüz"
+   ],
+   "d": 2,
+   "a": "Sünenler, Ebû Dâvûd, Tirmizî, Nesâî ve İbn Mâce’nin eserlerinde olduğu gibi, ahkâm hadislerini fıkıh bablarına göre (ale’l-ebvâb) dizer.",
+   "ac": [
+    "Hadisleri sahabe ravilerine göre dizer.",
+    "Hadisleri hocalara ya da şehirlere göre dizer.",
+    "Doğru: ahkâm hadislerini fıkıh bablarına göre toplar.",
+    "Hadislerin baş kısımlarını ve isnadlarını toplar.",
+    "Tek bir ravinin ya da tek bir konunun hadislerini toplar."
+   ],
+   "kay": "Hadis edebiyatı"
+  },
+  {
+   "id": "mrd1-20",
+   "ders": "Hadis",
+   "z": 3,
+   "s": "Hadis tarihinde resmî tedvin emrini veren halife ile bu emri uygulayan âlim aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Hz. Ömer – Ebû Hüreyre",
+    "Ömer b. Abdülazîz – İbn Şihâb ez-Zührî",
+    "Muâviye – Abdullah b. Amr",
+    "Hârûnürreşîd – İmam Mâlik",
+    "Me’mûn – Buhârî"
+   ],
+   "d": 1,
+   "a": "Emevî halifesi Ömer b. Abdülazîz (ö. 101/720) hadislerin toplanmasını emretmiş, bu işi en kapsamlı biçimde İbn Şihâb ez-Zührî üstlenmiştir.",
+   "ac": [
+    "Hz. Ömer hadislerin yazılmasına sıcak bakmamıştır.",
+    "Doğru: resmî tedvin bu halifenin emriyle Zührî tarafından gerçekleştirilmiştir.",
+    "Abdullah b. Amr’ın kendi sahifesi vardır; resmî tedvin değildir.",
+    "Muvatta’ resmî bir tedvin emriyle yazılmamıştır.",
+    "Buhârî’nin eseri şahsi bir tasniftir."
+   ],
+   "kay": "Hadis tarihi"
+  },
+  {
+   "id": "mrd1-21",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 2,
+   "s": "Hz. Peygamber’in Medine’ye hicretinden sonra yaptığı ilk işlerden biri aşağıdakilerden hangisidir?",
+   "c": [
+    "Mekke’yi fethetmek",
+    "Veda Haccını yapmak",
+    "Hudeybiye Antlaşmasını imzalamak",
+    "Mescid-i Nebevî’yi inşa etmek ve muhacirlerle ensarı kardeş yapmak",
+    "Tebük Seferine çıkmak"
+   ],
+   "d": 3,
+   "a": "Hz. Peygamber Medine’de önce Mescid-i Nebevî’yi inşa etmiş, muhacir ve ensar arasında kardeşlik (muâhât) kurmuş ve Medine Vesikası ile toplumsal düzeni belirlemiştir.",
+   "ac": [
+    "Mekke’nin fethi hicretin sekizinci yılındadır.",
+    "Veda Haccı hicretin onuncu yılındadır.",
+    "Antlaşma hicretin altıncı yılındadır.",
+    "Doğru: hicretin ilk aylarında yapılan işlerdir.",
+    "Tebük Seferi hicretin dokuzuncu yılındadır."
+   ],
+   "kay": "Siyer: hicret"
+  },
+  {
+   "id": "mrd1-22",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "Hz. Ebû Bekir döneminde Kur’an’ın tek bir mushafta toplanmasına doğrudan sebep olan olay aşağıdakilerden hangisidir?",
+   "c": [
+    "Cemel Vakası",
+    "Kadisiye Savaşı",
+    "Yemâme Savaşında çok sayıda hafızın şehit olması",
+    "Sıffîn Savaşı",
+    "Hz. Osman’ın şehit edilmesi"
+   ],
+   "d": 2,
+   "a": "Riddet savaşlarından Yemâme’de çok sayıda hafızın şehit olması üzerine Hz. Ömer, Kur’an’ın bir araya getirilmesini teklif etmiş, Hz. Ebû Bekir de Zeyd b. Sâbit’i görevlendirmiştir.",
+   "ac": [
+    "Hz. Ali döneminde olmuştur.",
+    "Hz. Ömer dönemindedir ve cem işiyle ilgisi yoktur.",
+    "Doğru: Hz. Ömer’in teklifiyle cem işinin sebebi budur.",
+    "Hz. Ali dönemindedir.",
+    "Cem işinden sonradır."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3"
+  },
+  {
+   "id": "mrd1-23",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "Hz. Ömer döneminde gerçekleştirilen uygulamalar arasında aşağıdakilerden hangisi yer almaz?",
+   "c": [
+    "Kur’an’ın çoğaltılarak İslam merkezlerine gönderilmesi",
+    "Divan teşkilatının kurulması",
+    "Kadılık teşkilatının düzenlenmesi",
+    "Ordu ve ordugâh şehirlerinin (Basra, Kûfe) kurulması",
+    "Hicrî takvimin başlatılması"
+   ],
+   "d": 0,
+   "a": "Hz. Ömer hicrî takvimi, divanı, kadılığı ve yeni şehirleri kurmuştur. Mushafın çoğaltılması Hz. Osman dönemindedir.",
+   "ac": [
+    "Doğru: bu Hz. Osman döneminin uygulamasıdır.",
+    "Hz. Ömer döneminde kurulmuştur.",
+    "Hz. Ömer döneminde düzenlenmiştir.",
+    "Hz. Ömer döneminde kurulmuştur.",
+    "Hz. Ömer döneminde başlatılmıştır."
+   ],
+   "kay": "Hulefâ-yi Râşidîn dönemi"
+  },
+  {
+   "id": "mrd1-24",
+   "ders": "Türkçe",
+   "z": 3,
+   "s": "Aşağıdaki cümlelerin hangisinde yazım yanlışı vardır?",
+   "c": [
+    "Ramazanda teravihe her akşam gider.",
+    "Müftülüğe bağlı kurslarda yaz dönemi başladı.",
+    "Belki yarın da gelir.",
+    "Dinî konularda resmî açıklama yapıldı.",
+    "Konuşmasında hiç bir zorluk çekmedi."
+   ],
+   "d": 4,
+   "a": "“Hiçbir, hiçbiri, herhangi” gibi kelimeler bitişik yazılır.",
+   "ac": [
+    "Ay adı belirli tarih bildirmediği için küçük yazılmıştır; doğrudur.",
+    "Yazım doğrudur.",
+    "“Belki” bitişik, bağlaç “da” ayrı yazılmıştır; doğrudur.",
+    "Nispet ekleri şapkayla doğru yazılmıştır.",
+    "Doğru cevap: “hiçbir” bitişik yazılır."
+   ],
+   "kay": "TDK Yazım Kılavuzu"
+  },
+  {
+   "id": "mrd1-25",
+   "ders": "Türkçe",
+   "z": 2,
+   "s": "Aşağıdaki cümlelerin hangisinde virgül yanlış kullanılmıştır?",
+   "c": [
+    "Hocam, bu konuyu tekrar anlatır mısınız?",
+    "Kursa gelen öğrenciler, derslerini dikkatle dinledi.",
+    "Namaz, oruç, zekât ve hac İslam’ın şartlarındandır.",
+    "Eve geldi, yemeğini yedi, kitabını okudu.",
+    "Evet, sınav yarın yapılacak."
+   ],
+   "d": 1,
+   "a": "Kısa ve açık bir cümlede özne ile yüklem arasına virgül konmaz. Virgül; hitap, eş görevli kelimeler, sıralı cümleler ve cevap kelimelerinden sonra kullanılır.",
+   "ac": [
+    "Hitaptan sonra virgül konur; doğrudur.",
+    "Doğru cevap: özne ile yüklem arasında, cümleyi karıştıran bir uzunluk yoksa virgül konmaz.",
+    "Eş görevli kelimeler arasında doğru kullanılmıştır.",
+    "Sıralı cümleleri ayırmıştır; doğrudur.",
+    "Cevap kelimesinden sonra virgül konur; doğrudur."
+   ],
+   "kay": "TDK Yazım Kılavuzu, virgül"
+  },
+  {
+   "id": "mrd1-26",
+   "ders": "Mevzuat",
+   "z": 2,
+   "s": "Anayasa’ya göre yasama yetkisi kime aittir?",
+   "c": [
+    "Cumhurbaşkanına",
+    "Türk Milleti adına Türkiye Büyük Millet Meclisine",
+    "Anayasa Mahkemesine",
+    "Bakanlar Kuruluna",
+    "Danıştaya"
+   ],
+   "d": 1,
+   "a": "Md. 7: Yasama yetkisi Türk Milleti adına TBMM’nindir. Bu yetki devredilemez.",
+   "ac": [
+    "Cumhurbaşkanı yürütme yetkisini kullanır.",
+    "Doğru: md. 7’ye göre yasama yetkisi TBMM’nindir ve devredilemez.",
+    "Anayasa Mahkemesi yargı organıdır.",
+    "2017 değişikliğiyle Bakanlar Kurulu kaldırılmıştır.",
+    "Danıştay yüksek idare mahkemesidir."
+   ],
+   "kay": "Anayasa, md. 7"
+  },
+  {
+   "id": "mrd1-27",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "Anayasa’nın 129. maddesine göre aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Memurlara savunma hakkı tanınmadan disiplin cezası verilemez.",
+    "Uyarma ve kınama cezalarına karşı yargı yolu kapalıdır.",
+    "Memurlar hakkında ceza kovuşturması hiçbir durumda izne bağlı değildir.",
+    "Disiplin cezalarına yalnız idari itiraz yapılabilir.",
+    "Memurun kusurundan doğan tazminat davası doğrudan memura açılır."
+   ],
+   "d": 0,
+   "a": "Md. 129: savunma hakkı tanınmadan disiplin cezası verilemez; disiplin kararları yargı denetimi dışında bırakılamaz; tazminat davaları idare aleyhine açılır.",
+   "ac": [
+    "Doğru: md. 129’un açık hükmüdür.",
+    "2010 değişikliğiyle bütün disiplin kararları yargı denetimine açılmıştır.",
+    "Kural olarak kanunun gösterdiği idari merciin iznine bağlıdır.",
+    "Yargı yolu da açıktır.",
+    "Dava idare aleyhine açılır; idare memura rücu eder."
+   ],
+   "kay": "Anayasa, md. 129"
+  },
+  {
+   "id": "mrd1-28",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "Anayasa’ya göre Cumhurbaşkanlığı kararnameleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Yürütme yetkisine ilişkin konularda çıkarılabilir.",
+    "Temel haklar, kişi hakları ve siyasi haklar kararnameyle düzenlenemez.",
+    "Kanunda açıkça düzenlenen konularda kararname çıkarılamaz.",
+    "TBMM aynı konuda kanun çıkarırsa kararname hükümsüz hâle gelir.",
+    "Kararname ile kanun arasında farklı hüküm olursa kararname uygulanır."
+   ],
+   "d": 4,
+   "a": "Md. 104’e göre kararname ile kanunlarda farklı hükümler bulunması hâlinde kanun hükümleri uygulanır; TBMM aynı konuda kanun çıkarırsa kararname hükümsüz olur.",
+   "ac": [
+    "Md. 104’te yer alır.",
+    "Md. 104’te yer alır.",
+    "Md. 104’te yer alır.",
+    "Md. 104’te yer alır.",
+    "Doğru cevap: farklılık hâlinde kanun hükümleri uygulanır."
+   ],
+   "kay": "Anayasa, md. 104"
+  },
+  {
+   "id": "mrd1-29",
+   "ders": "Mevzuat",
+   "z": 2,
+   "s": "657 sayılı Devlet Memurları Kanununa göre aşağıdakilerden hangisi istihdam şekilleri arasında yer almaz?",
+   "c": [
+    "Memur",
+    "Sözleşmeli personel",
+    "Geçici personel",
+    "Fahri personel",
+    "İşçi"
+   ],
+   "d": 3,
+   "a": "657 md. 4’e göre kamu hizmetleri memurlar, sözleşmeli personel, geçici personel ve işçiler eliyle gördürülür.",
+   "ac": [
+    "Md. 4/A’da yer alır.",
+    "Md. 4/B’de yer alır.",
+    "Md. 4/C’de yer alır.",
+    "Doğru: kanunda böyle bir istihdam şekli yoktur.",
+    "Md. 4/D’de yer alır."
+   ],
+   "kay": "657 s. Kanun, md. 4"
+  },
+  {
+   "id": "mrd1-30",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "657 sayılı Kanuna göre görevine veya iş sahiplerine karşı kayıtsızlık göstermenin ve ilgisiz kalmanın disiplin cezası aşağıdakilerden hangisidir?",
+   "c": [
+    "Aylıktan kesme",
+    "Kınama",
+    "Uyarma",
+    "Kademe ilerlemesinin durdurulması",
+    "Devlet memurluğundan çıkarma"
+   ],
+   "d": 2,
+   "a": "Görevine veya iş sahiplerine karşı kayıtsızlık göstermek ya da ilgisiz kalmak uyarma cezasını gerektirir (657 md. 125/A-f).",
+   "ac": [
+    "Aylıktan kesme, örneğin görevle ilgili resmî belge ve araçları özel işlerinde kullanmaya verilir.",
+    "Kınama, görevde ya da iş sahiplerine karşı söz veya hareketle kötü muamelede bulunmak gibi daha ağır fiillere verilir.",
+    "Doğru: md. 125/A-f’de uyarma cezasını gerektiren fiillerdendir.",
+    "Bu ceza daha ağır fiillere verilir.",
+    "Bu en ağır cezadır."
+   ],
+   "kay": "657 s. Kanun, md. 125"
+  },
+  {
+   "id": "mrd1-31",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "657 sayılı Kanuna göre Devlete ait resmî belge, araç ve gereçleri özel menfaat sağlamak amacıyla kullanmak hangi disiplin cezasını gerektirir?",
+   "c": [
+    "Aylıktan kesme",
+    "Kınama",
+    "Uyarma",
+    "Kademe ilerlemesinin durdurulması",
+    "Devlet memurluğundan çıkarma"
+   ],
+   "d": 0,
+   "a": "Devlete ait araç ve gereçleri özel işlerinde kullanmak kınama (md. 125/B-e), özel menfaat sağlamak için kullanmak aylıktan kesme (md. 125/C-c) cezasını gerektirir. 2022 yurt dışı mülakatında da sorulmuştur.",
+   "ac": [
+    "Doğru: md. 125/C-c’de özel menfaat amacıyla kullanma aylıktan kesmeyi gerektirir.",
+    "Resmî araç ve gereçleri özel işlerinde kullanmak kınamadır; özel menfaat amacı cezayı ağırlaştırır.",
+    "Uyarma, bu araçların korunmasında kayıtsızlık göstermeye verilir.",
+    "Bu ceza daha ağır fiillere verilir.",
+    "Bu ceza ağır fiillere verilir."
+   ],
+   "kay": "657 s. Kanun, md. 125"
+  },
+  {
+   "id": "mrd1-32",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "657 sayılı Kanuna göre disiplin cezaları ile ilgili:\nI. Uyarma, kınama ve aylıktan kesme cezaları disiplin amirlerince verilir.\nII. Kademe ilerlemesinin durdurulması cezası disiplin kurulu kararıyla verilir.\nIII. Devlet memurluğundan çıkarma cezası yüksek disiplin kurulu kararıyla verilir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Uyarma, kınama ve aylıktan kesme disiplin amirince; kademe ilerlemesinin durdurulması disiplin kurulunca; memurluktan çıkarma yüksek disiplin kurulunca verilir.",
+   "ac": [
+    "Eksik: kurulların verdiği cezalar da doğru belirtilmiştir.",
+    "Eksik: memurluktan çıkarma yüksek disiplin kurulunca verilir.",
+    "Eksik: kademe ilerlemesinin durdurulması kurul kararıyla verilir.",
+    "Eksik: ilk üç ceza disiplin amirlerince verilir.",
+    "Doğru: md. 126’nın hükmüdür."
+   ],
+   "kay": "657 s. Kanun, md. 126"
+  },
+  {
+   "id": "mrd1-33",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "657 sayılı Kanuna göre disiplin cezası verme yetkisinin zamanaşımı ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Zamanaşımı süreleri on yıldır.",
+    "Uyarma cezası için soruşturma açma süresi altı aydır.",
+    "Zamanaşımı süresi yalnız memurluktan çıkarma cezası için uygulanır.",
+    "Soruşturmaya başlama süresi fiilin işlendiği tarihten başlar.",
+    "Disiplin cezasını gerektiren fiilin işlendiği tarihten itibaren en geç iki yıl içinde disiplin cezası verilmezse ceza verme yetkisi zamanaşımına uğrar."
+   ],
+   "d": 4,
+   "a": "Soruşturmaya başlama süresi öğrenmeden itibaren bir ay (çıkarmada altı ay); ceza verme yetkisi ise fiilin işlendiği tarihten itibaren iki yıldır.",
+   "ac": [
+    "On yıl, cezanın sicilden silinme süresiyle ilgilidir.",
+    "Bu süre bir aydır; altı ay memurluktan çıkarma içindir.",
+    "Bütün cezalar için zamanaşımı vardır.",
+    "Bu süre fiilin öğrenildiği tarihten başlar.",
+    "Doğru: md. 127’nin ikinci fıkrasıdır."
+   ],
+   "kay": "657 s. Kanun, md. 127"
+  },
+  {
+   "id": "mrd1-34",
+   "ders": "Mevzuat",
+   "z": 2,
+   "s": "657 sayılı Kanuna göre disiplin cezası verilmeden önce memura verilecek savunma süresi en az kaç gündür?",
+   "c": [
+    "3 gün",
+    "5 gün",
+    "7 gün",
+    "10 gün",
+    "15 gün"
+   ],
+   "d": 2,
+   "a": "Savunması alınmadan disiplin cezası verilemez. Soruşturmayı yapanın ya da disiplin amirinin verdiği savunma süresi yedi günden az olamaz.",
+   "ac": [
+    "Kanundaki asgari süre daha uzundur.",
+    "Kanundaki asgari süre daha uzundur.",
+    "Doğru: md. 130’a göre savunma için yedi günden az süre verilemez.",
+    "Bu süre asgari değildir.",
+    "Bu süre asgari değildir."
+   ],
+   "kay": "657 s. Kanun, md. 130"
+  },
+  {
+   "id": "mrd1-35",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "657 sayılı Kanuna göre aday memurlukla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Adaylık süresi en az altı ay, en fazla bir yıldır.",
+    "Adaylık süresi bir yıldan az, iki yıldan fazla olamaz.",
+    "Aday memurlar disiplin cezası alamaz.",
+    "Adaylık süresini başarıyla tamamlayamayanlar başka bir kuruma nakledilir.",
+    "Adaylık döneminde hiçbir eğitim verilmez."
+   ],
+   "d": 1,
+   "a": "657 md. 54’e göre adaylık süresi bir yıldan az, iki yıldan fazla olamaz. Başarısız olanların memurlukla ilişiği kesilir.",
+   "ac": [
+    "Adaylık süresi en az bir, en fazla iki yıldır.",
+    "Doğru: md. 54’ün hükmüdür.",
+    "Aday memurlar da disiplin hükümlerine tabidir.",
+    "Başarısız olanların memurlukla ilişiği kesilir.",
+    "Temel, hazırlayıcı ve staj eğitimleri verilir."
+   ],
+   "kay": "657 s. Kanun, md. 54-56"
+  },
+  {
+   "id": "mrd1-36",
+   "ders": "Mevzuat",
+   "z": 2,
+   "s": "633 sayılı Kanuna göre Diyanet İşleri Başkanının görev süresi ile ilgili hangisi doğrudur?",
+   "c": [
+    "Görev süresi dört yıldır, sınırsız atanabilir.",
+    "Görev süresi yedi yıldır.",
+    "Görev süresi beş yıldır; bir kimse en fazla iki dönem Başkan olarak görevlendirilebilir.",
+    "Başkan TBMM tarafından seçilir.",
+    "Başkanın görev süresi Anayasa’da düzenlenmiştir."
+   ],
+   "d": 2,
+   "a": "633 md. 3’e göre Başkanın görev süresi beş yıldır ve bir kimse en fazla iki dönem görevlendirilebilir.",
+   "ac": [
+    "Görev süresi beş yıldır ve iki dönemle sınırlıdır.",
+    "Kanunda böyle bir süre yoktur.",
+    "Doğru: md. 3’ün hükmüdür.",
+    "Başkan Cumhurbaşkanınca atanır.",
+    "Süre 633 sayılı Kanundadır."
+   ],
+   "kay": "633 s. Kanun, md. 3"
+  },
+  {
+   "id": "mrd1-37",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "633 sayılı Kanuna göre Din İşleri Yüksek Kurulu ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "On iki üyeden oluşur, üyeler dört yıl için seçilir.",
+    "Üyeleri TBMM tarafından seçilir.",
+    "Başkanlığın danışma ve denetim birimidir.",
+    "On altı üyeden oluşur; üyelerin görev süresi beş yıldır.",
+    "Kurul yalnız hac konularında görüş bildirir."
+   ],
+   "d": 3,
+   "a": "Din İşleri Yüksek Kurulu, Başkanlığın en yüksek karar ve danışma organıdır; on altı üyeden oluşur ve üyelerin görev süresi beş yıldır.",
+   "ac": [
+    "Kurul on altı üyelidir ve süre beş yıldır.",
+    "Üyeler TBMM tarafından seçilmez; 633 sayılı Kanundaki usule göre belirlenir.",
+    "Kurul, Başkanlığın en yüksek karar ve danışma organıdır; ana hizmet birimleri arasındadır.",
+    "Doğru: 6002 sayılı Kanunla belirlenen yapıdır.",
+    "Kurul bütün dinî konularda karar verir ve görüş bildirir."
+   ],
+   "kay": "633 s. Kanun, md. 5"
+  },
+  {
+   "id": "mrd1-38",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "633 sayılı Kanuna göre yurt dışı teşkilatında sürekli görev süresi ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Süre iki yıldır, uzatılamaz.",
+    "Süre üç yıldır; hizmetin gerektirdiği hâllerde Cumhurbaşkanının onayı ile bir yıla kadar uzatılabilir.",
+    "Süre beş yıldır.",
+    "Süreyi Din İşleri Yüksek Kurulu belirler.",
+    "Süre dört yıldır, her yıl uzatılır."
+   ],
+   "d": 1,
+   "a": "Md. 18/A: yurt dışı sürekli görev süresi üç yıldır; hizmetin gerektirdiği hâllerde Cumhurbaşkanı onayıyla bir yıla kadar uzatılabilir.",
+   "ac": [
+    "Süre üç yıldır ve uzatılabilir.",
+    "Doğru: md. 18/A’nın hükmüdür.",
+    "Beş yıl, uzun süreli din görevlilerinin uzatmalarla ulaşabileceği üst sınırdır; sürekli görev için değildir.",
+    "Süre kanunla belirlenmiştir.",
+    "Kanundaki süre üç artı birdir."
+   ],
+   "kay": "633 s. Kanun, md. 18/A"
+  },
+  {
+   "id": "mrd1-39",
+   "ders": "Mevzuat",
+   "z": 2,
+   "s": "4982 sayılı Bilgi Edinme Hakkı Kanununa göre kurum ve kuruluşlar, istenen bilgi veya belgeye erişimi olağan durumda kaç iş günü içinde sağlar?",
+   "c": [
+    "7 iş günü",
+    "10 iş günü",
+    "15 iş günü",
+    "30 iş günü",
+    "60 gün"
+   ],
+   "d": 2,
+   "a": "Bilgi veya belgeye erişim 15 iş günü içinde sağlanır. Başka birim ya da kurumun görüşü gerekiyorsa süre 30 iş günüdür.",
+   "ac": [
+    "Kanundaki süre daha uzundur.",
+    "Kanundaki süre daha uzundur.",
+    "Doğru: md. 11’e göre olağan süre 15 iş günüdür.",
+    "Bu süre başka birim ya da kurum görüşü gerektiğinde uygulanır.",
+    "Bu süre TBMM Dilekçe Komisyonu içindir."
+   ],
+   "kay": "4982 s. Kanun, md. 11"
+  },
+  {
+   "id": "mrd1-40",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "3071 sayılı Dilekçe Hakkının Kullanılmasına Dair Kanuna göre aşağıdaki dilekçelerden hangisi incelenmez?",
+   "c": [
+    "Yargı mercilerinin görevine giren bir konudaki dilekçe",
+    "Yetkisiz bir idari makama verilmiş dilekçe",
+    "Türkiye’de ikamet eden ve Türkçe yazılmış, karşılıklılık şartını taşıyan bir yabancının dilekçesi",
+    "Kamu ile ilgili bir dilek bildiren ve adı, imzası, adresi bulunan dilekçe",
+    "Kendisiyle ilgili bir şikâyeti bildiren dilekçe"
+   ],
+   "d": 0,
+   "a": "Md. 6’ya göre yargı mercilerinin görevine giren, yargı kararlarını eleştiren ve zorunlu unsurları taşımayan dilekçeler incelenmez.",
+   "ac": [
+    "Doğru: md. 6’ya göre yargıya ait konulardaki dilekçeler incelenmez.",
+    "Yetkili makama gönderilir ve incelenir.",
+    "Yabancının şartları tamdır; incelenir.",
+    "Zorunlu unsurları taşıdığı için incelenir.",
+    "Dilekçe hakkının asıl konusudur; incelenir."
+   ],
+   "kay": "3071 s. Kanun, md. 6"
+  },
+  {
+   "id": "mrd1-41",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "6245 sayılı Harcırah Kanununa göre yurt içinde geçici görevle gönderilen bir memura, aynı yerde ve aynı iş için bir yıllık dönemde gündelik en fazla kaç gün ödenebilir?",
+   "c": [
+    "60 gün",
+    "90 gün",
+    "120 gün",
+    "180 gün",
+    "365 gün"
+   ],
+   "d": 3,
+   "a": "Md. 42/a: yurt içinde aynı yer, aynı iş ve aynı kişi için bir yılda en fazla 180 gün gündelik verilir.",
+   "ac": [
+    "Kanundaki üst sınır daha yüksektir.",
+    "90 gün, gündeliğin tam ödendiği süredir.",
+    "Kanunda böyle bir sınır yoktur.",
+    "Doğru: ilk 90 gün tam, sonraki 90 gün üçte iki oranında olmak üzere en fazla 180 gün ödenir.",
+    "Bir yılın tamamı için ödeme yapılmaz."
+   ],
+   "kay": "6245 s. Kanun, md. 42"
+  },
+  {
+   "id": "mrd1-42",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "4483 sayılı Kanuna göre il merkezinde görev yapan bir murakıp hakkında görevi sebebiyle işlediği iddia edilen bir suçtan dolayı soruşturma izni vermeye yetkili merci ve izin kararına itiraz mercii aşağıdakilerin hangisinde birlikte doğru verilmiştir?",
+   "c": [
+    "Kaymakam – Danıştay",
+    "Vali – Anayasa Mahkemesi",
+    "İl müftüsü – vali",
+    "Diyanet İşleri Başkanı – Danıştay",
+    "Vali – bölge idare mahkemesi"
+   ],
+   "d": 4,
+   "a": "İl ve merkez ilçede görevli memurlar için izin mercii validir. Vali ve kaymakam kararlarına itiraz bölge idare mahkemesine yapılır.",
+   "ac": [
+    "İl merkezindeki görevli için merci validir.",
+    "Anayasa Mahkemesi bu itirazların mercii değildir.",
+    "Müftü 4483’e göre izin mercii değildir.",
+    "Taşra teşkilatında görev yapan memur için merci validir.",
+    "Doğru: il ve merkez ilçede görevli memurlar için merci vali, kararına itiraz mercii bölge idare mahkemesidir."
+   ],
+   "kay": "4483 s. Kanun, md. 3, 9"
+  },
+  {
+   "id": "mrd1-43",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "5018 sayılı Kanuna göre harcama yetkilisi ile muhasebe yetkilisinin ilişkisi bakımından aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Harcama yetkilisi aynı zamanda muhasebe yetkilisi olabilir.",
+    "Muhasebe yetkilisi harcamanın yerinde olup olmadığını denetler.",
+    "Muhasebe yetkilisi ödenek tahsis edilen birimin en üst yöneticisidir.",
+    "Harcama talimatını harcama yetkilisi verir; ödemeyi, gerekli kontrolleri yaptıktan sonra muhasebe yetkilisi yapar.",
+    "Harcama yetkilisi iç denetçiye bağlıdır."
+   ],
+   "d": 3,
+   "a": "5018’de harcama kararı (harcama yetkilisi) ile ödeme (muhasebe yetkilisi) ayrıdır. Muhasebe yetkilisi ödemeden önce yetki, belge, maddi hata ve hak sahibi kontrolü yapar.",
+   "ac": [
+    "Görevler ayrılığı ilkesi gereği bu iki görev birleşemez.",
+    "Muhasebe yetkilisi yerindelik değil, belge ve yetki kontrolü yapar.",
+    "Bu tanım harcama yetkilisine aittir.",
+    "Doğru: görevler ayrılığı ilkesinin uygulamasıdır.",
+    "İç denetçi üst yöneticiye bağlıdır."
+   ],
+   "kay": "5018 s. Kanun, md. 31-33, 61"
+  },
+  {
+   "id": "mrd1-44",
+   "ders": "Mevzuat",
+   "z": 2,
+   "s": "4734 sayılı Kamu İhale Kanununa göre aşağıdakilerden hangisi bir ihale usulü değildir?",
+   "c": [
+    "Açık ihale",
+    "Belli istekliler arasında ihale",
+    "Kapalı zarf usulüyle artırma",
+    "Doğrudan temin",
+    "Pazarlık usulü"
+   ],
+   "d": 2,
+   "a": "4734’te ihale usulleri açık ihale, belli istekliler arasında ihale ve pazarlık usulüdür; doğrudan temin ve tasarım yarışması da düzenlenmiştir. Kapalı teklifle artırma 2886’ya aittir.",
+   "ac": [
+    "Md. 19’da düzenlenmiştir.",
+    "Md. 20’de düzenlenmiştir.",
+    "Doğru: bu usul 2886 sayılı Devlet İhale Kanunundadır; 4734’te yoktur.",
+    "Md. 22’de düzenlenmiştir.",
+    "Md. 21’de düzenlenmiştir."
+   ],
+   "kay": "4734 s. Kanun, md. 18-23"
+  },
+  {
+   "id": "mrd1-45",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "4734 sayılı Kanuna göre ihale komisyonu ile ilgili:\nI. Biri başkan olmak üzere en az beş ve tek sayıda üyeden oluşur.\nII. Üyelerin en az yarısı ihale konusu işin uzmanıdır.\nIII. Üyeler haklı mazeret olmadan oy kullanmaktan kaçınabilir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "Md. 6: komisyon en az beş, tek sayıda üyeden oluşur; en az yarısı uzmandır; üyeler haklı mazeret olmadıkça görevden kaçınamaz.",
+   "ac": [
+    "Eksik: uzman üye kuralı da doğrudur.",
+    "Doğru: üyeler haklı mazeret olmadıkça oy kullanmak zorundadır.",
+    "Üçüncü ifade yanlıştır.",
+    "Üçüncü ifade yanlıştır.",
+    "Üçüncü ifade yanlıştır."
+   ],
+   "kay": "4734 s. Kanun, md. 6"
+  },
+  {
+   "id": "mrd1-46",
+   "ders": "Mevzuat",
+   "z": 2,
+   "s": "Taşınır Mal Yönetmeliğine göre dayanıklı taşınırların kullanıcıya teslim edildiğini gösteren belge aşağıdakilerden hangisidir?",
+   "c": [
+    "Taşınır işlem fişi",
+    "Taşınır yönetim hesabı",
+    "Ödeme emri belgesi",
+    "Kayıttan düşme tutanağı",
+    "Zimmet fişi"
+   ],
+   "d": 4,
+   "a": "Dayanıklı taşınırlar kullanıcılara zimmet fişiyle teslim edilir. Kullanıcı, kasıt, kusur ya da ihmalden doğan kayıp ve hasardan sorumludur.",
+   "ac": [
+    "Giriş-çıkış ve devirlerde kullanılır.",
+    "Yıl sonunda verilen hesaptır.",
+    "5018’e göre ödeme belgesidir.",
+    "Taşınırın kayıtlardan çıkarılmasında kullanılır.",
+    "Doğru: dayanıklı taşınırların kullanıcıya teslimini gösterir."
+   ],
+   "kay": "Taşınır Mal Yönetmeliği"
+  },
+  {
+   "id": "mrd1-47",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "TCK’ya göre bir kamu görevlisinin, görevinin gereklerine aykırı bir iş yapması için bir vatandaşla anlaşarak para alması hangi suçu oluşturur?",
+   "c": [
+    "Zimmet",
+    "İrtikâp",
+    "Görevi kötüye kullanma",
+    "Rüşvet",
+    "Nitelikli dolandırıcılık"
+   ],
+   "d": 3,
+   "a": "Rüşvet; kamu görevlisinin görevinin gereklerine aykırı bir iş yapması ya da yapmaması için bir kişiyle anlaşarak yarar sağlamasıdır. Cezası 4 yıldan 12 yıla kadar hapistir.",
+   "ac": [
+    "Görevlinin elinde emanet bir mal yoktur.",
+    "İrtikâpta zorlama ya da kandırma vardır; burada karşılıklı anlaşma vardır.",
+    "Rüşvet ayrıca tanımlandığı için bu genel suç uygulanmaz.",
+    "Doğru: göreve aykırı iş için anlaşma ile yarar sağlamak rüşvettir (md. 252).",
+    "Kamu görevlisinin göreviyle ilgili anlaşma rüşvettir."
+   ],
+   "kay": "TCK md. 252"
+  },
+  {
+   "id": "mrd1-48",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "5442 sayılı İl İdaresi Kanununa göre aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Vali, ilde Cumhurbaşkanının temsilcisi ve idari yürütme vasıtasıdır.",
+    "Vali, il sınırları içindeki mahkemelerin işleyişini denetler.",
+    "Kaymakam, ilçe genel idaresinin başı ve merciidir.",
+    "İl ve ilçe kurulması ve kaldırılması kanunla olur.",
+    "Vali, il sınırları içindeki bütün kolluk kuvvetlerinin amiridir."
+   ],
+   "d": 1,
+   "a": "Vali, mahkemeler ve askerî kuruluşlar dışındaki bütün devlet daire ve kuruluşlarını denetler.",
+   "ac": [
+    "Md. 9’da yer alır.",
+    "Doğru cevap: mahkemeler ve askerî kuruluşlar valinin denetimi dışındadır.",
+    "Md. 27’de yer alır.",
+    "Md. 2’de yer alır.",
+    "Md. 11’de yer alır."
+   ],
+   "kay": "5442 s. Kanun, md. 9"
+  },
+  {
+   "id": "mrd1-49",
+   "ders": "Mevzuat",
+   "z": 2,
+   "s": "Diyanet İşleri Başkanlığı Görev ve Çalışma Yönetmeliğine göre aşağıdakilerden hangisi murakıpların görevleri arasındadır?",
+   "c": [
+    "Ön inceleme, inceleme veya soruşturma yapmak",
+    "İl müftüsü adına disiplin cezası vermek",
+    "Cami görevlilerinin yer değiştirmesini onaylamak",
+    "Kur’an kursu açılış onayını vermek",
+    "Hac kafilelerinin kayıtlarını yapmak"
+   ],
+   "d": 0,
+   "a": "Murakıplar programa göre denetim yapar, ön inceleme, inceleme ve soruşturma yürütür, görevlendirilince vaaz eder ve ders verir.",
+   "ac": [
+    "Doğru: md. 36/b’de yer alır.",
+    "Murakıp disiplin amiri değildir.",
+    "Atama ve yer değiştirme murakıbın görevi değildir.",
+    "Kurs açma işlemleri müftülüğün ve Başkanlığın yetkisindedir.",
+    "Bu iş hac-umre hizmetleri kapsamındadır."
+   ],
+   "kay": "DİB Görev ve Çalışma Yönetmeliği, md. 36"
+  },
+  {
+   "id": "mrd1-50",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "Anayasa’ya göre aşağıdakilerden hangisi olağanüstü hâllerde bile dokunulamayan haklar arasında yer almaz?",
+   "c": [
+    "Kimsenin din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaması",
+    "Suç ve cezaların geçmişe yürütülememesi",
+    "Toplantı ve gösteri yürüyüşü düzenleme hakkı",
+    "Suçluluğu mahkeme kararıyla saptanıncaya kadar kimsenin suçlu sayılamaması",
+    "Kişinin yaşama hakkı (meşru savaş fiilleri dışında)"
+   ],
+   "d": 2,
+   "a": "Md. 15 çekirdek hakları korur: yaşama hakkı, din-vicdan hürriyeti, suç ve cezaların geriye yürümezliği ve masumluk karinesi. Toplantı hakkı sınırlanabilir.",
+   "ac": [
+    "Md. 15’te dokunulamayan haklar arasındadır.",
+    "Md. 15’te dokunulamayan haklar arasındadır.",
+    "Doğru: olağanüstü hâlde bu hakkın kullanılması durdurulabilir.",
+    "Md. 15’te dokunulamayan haklar arasındadır.",
+    "Md. 15’te dokunulamayan haklar arasındadır."
+   ],
+   "kay": "Anayasa, md. 15"
+  }
+ ]
+}

@@ -1,0 +1,1204 @@
+{
+ "id": "fikih-12",
+ "ad": "Zekât: Şartlar, Mal Türleri ve Nisaplar, Verilecek ve Verilmeyecek Yerler; Öşür, Fıtır Sadakası ve Sadakalar",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Zekâtın anlamı, hikmeti ve farz kılınışı"
+  },
+  {
+   "merak": "Hz. Peygamber vefat ettiğinde bazı kabileler “Namaz kılarız ama zekâtı Medine’ye göndermeyiz” dedi. Hz. Ebû Bekir “Namazla zekâtın arasını ayıranla savaşırım” diyerek geri adım atmadı. Bir ibadet uğruna devlet neden bu kadar kararlı davranır?"
+  },
+  "Zekât kelimesi sözlükte “artmak, çoğalmak, bereket, temizlenmek” anlamlarına gelir. Terim olarak zekât, dinen zengin sayılan Müslümanın malından, belirli bir kısmını, belirli kimselere, Allah rızası için temlik etmesidir (mülkiyetini devretmesidir). Malı hem bereketlendirdiği hem de sahibini cimrilikten, malı da başkalarının hakkından temizlediği için bu adı almıştır. Kur’an’da zekât yerine “sadaka” kelimesi de kullanılır (Tevbe, 9/60 ve 103).",
+  {
+   "ayet": "Onların mallarından, kendilerini temizleyeceğin ve arındıracağın bir sadaka (zekât) al ve onlar için dua et. Çünkü senin duan onlar için bir huzurdur.",
+   "kay": "Tevbe, 9/103"
+  },
+  "Zekât, İslam’ın beş temel esasından biridir ve Kur’an’da pek çok yerde namazla birlikte anılır (“Namazı kılın, zekâtı verin” – Bakara, 2/43). Mekke döneminde ayetler genel olarak infakı ve yoksulun hakkını emretmiş (Zâriyât, 51/19; Meâric, 70/24-25), oranları ve nisapları belirlenmiş zekât ise hicretin ikinci yılında Medine’de farz kılınmıştır. Hükmü farz-ı ayndır; farz olduğunu inkâr eden dinden çıkar, inandığı hâlde vermeyen büyük günah işlemiş olur.",
+  {
+   "hadis": "İslam beş temel üzerine kurulmuştur: Allah’tan başka ilah olmadığına ve Muhammed’in Allah’ın elçisi olduğuna şahitlik etmek, namazı kılmak, zekâtı vermek, haccetmek ve Ramazan orucunu tutmak.",
+   "kay": "Buhârî, Îmân, 1; Müslim, Îmân, 21"
+  },
+  "Zekâtın hikmetleri: Sosyal adaleti sağlar, zengin ile yoksul arasındaki uçurumu daraltır, kıskançlık ve kini azaltır; zengini cimrilikten ve mal hırsından arındırır; malın Allah’ın emaneti olduğunu hatırlatır; atıl duran sermayeyi harekete geçirir (zekâta tabi malın her yıl azalmaması için işletilmesi gerekir). Bu yüzden zekât hem bireysel hem toplumsal bir ibadettir. Zekât malî bir ibadettir; vekâletle ödenebilir, niyet şarttır.",
+  {
+   "tablo": [
+    [
+     "İbadet türü",
+     "Örnek",
+     "Vekâlet"
+    ],
+    [
+     "Bedenî",
+     "Namaz, oruç",
+     "Vekâletle yapılmaz"
+    ],
+    [
+     "Malî",
+     "Zekât, fitre, kurban",
+     "Vekâletle yapılır"
+    ],
+    [
+     "Hem bedenî hem malî",
+     "Hac",
+     "Gücü yetmeyen için bedel (vekâlet) ile"
+    ]
+   ]
+  },
+  {
+   "not": "Niyet: Zekât, malı fakire verirken ya da zekât için ayırırken niyet edilerek verilir. Niyet etmeden yapılan yardım sonradan zekâta sayılamaz; ancak mal fakirin elinde henüz duruyorsa niyet edilebilir (Hanefî). Fakire zekât olduğunu söylemek şart değildir; hediye adıyla da verilebilir."
+  },
+  {
+   "sinav": "“Zekât hicretin kaçıncı yılında farz kılındı?” → 2. yıl (Medine). Fitre de aynı yıl vacip oldu. Hac 9. yılda (bazı görüşlerde 6.) farz oldu. Tuzak: Mekke’deki infak ayetlerini zekâtın farz kılınışı sanmak."
+  },
+  {
+   "akil": "Zekât = belirli maldan belirli payı belirli kişilere temlik etmek. Hicrî 2. yılda farz; malî ibadet, vekâletle ödenir, niyet şart. Hz. Ebû Bekir zekât vermeyenlerle savaştı."
+  },
+  {
+   "b": "2. Zekâtın farz olmasının şartları"
+  },
+  {
+   "merak": "Bankada nisabın üzerinde parası olan ama aynı miktarda borcu bulunan bir kişi zengin midir? Yoksa yıl boyunca para kazanıp yılın son günü harcayan biri zekât verir mi?"
+  },
+  "Zekâtın şartları iki grupta incelenir: zekât verecek kişiyle (mükellefle) ilgili şartlar ve zekâtı verilecek malla ilgili şartlar. Hanefî mezhebine göre zekât bir ibadet olduğundan çocuğa ve akıl hastasına farz değildir; Şâfiî, Mâlikî ve Hanbelîlere göre ise zekât malın hakkı olduğundan bunların malından velisi zekât verir.",
+  {
+   "tablo": [
+    [
+     "Mükellefle ilgili şartlar",
+     "Malla ilgili şartlar"
+    ],
+    [
+     "Müslüman olmak",
+     "Mülkiyetin tam olması (milk-i tam): mal hem sahibinin mülkü hem elinde (kabz) olmalı"
+    ],
+    [
+     "Akıllı olmak (Hanefî)",
+     "Malın artıcı (nâmî) olması: gerçekten (hayvan, ticaret) veya takdiren (altın, gümüş, para)"
+    ],
+    [
+     "Bâliğ olmak (Hanefî)",
+     "Temel ihtiyaçlardan (havâic-i asliyye) fazla olması"
+    ],
+    [
+     "Hür olmak",
+     "Borçtan fazla olması (kul borcu düşülür)"
+    ],
+    [
+     "Nisaba mâlik olmak",
+     "Üzerinden bir kamerî yıl geçmesi (havelânü’l-havl)"
+    ]
+   ]
+  },
+  "Milk-i tam: Kaybolan, gasp edilen, denize düşen, inkâr edilen ve delili olmayan alacak gibi mallara “mal-ı dımâr” denir; sahibinin elinde olmadığından Hanefîlere göre zekâta tabi değildir, ele geçince geçmiş yılların zekâtı da gerekmez. Vakıf malı ve devlete ait mallar da sahibi belli olmadığından zekâta tabi değildir. Emanet bırakılan malın zekâtını emanetçi değil mal sahibi verir.",
+  "Alacaklar: Hanefîler alacakları üçe ayırır. Güçlü alacak (borçlunun kabul ettiği ödünç ve ticaret malı bedeli) tahsil edildikçe geçmiş yılların zekâtıyla birlikte ödenir; orta alacak (ticaret dışı malın, örneğin ev eşyasının satış bedeli) ve zayıf alacak (mehir, diyet gibi mal karşılığı olmayan alacak) için farklı hükümler vardır. Sınavda genellikle “ele geçme ihtimali kuvvetli alacaklar zekâta tabidir” bilgisi sorulur.",
+  "Artıcılık (nemâ): Kişinin oturduğu ev, binek aracı, ev eşyası, kitapları, sanat aletleri, giysileri artıcı değildir ve temel ihtiyaçlardandır; zekâta tabi değildir. Kiraya verilen evin kendisi de zekâta tabi değildir; elde edilen kira geliri birikip nisaba ulaşırsa paraya katılır. Satmak niyetiyle alınan arsa, ev ve araç ise ticaret malıdır.",
+  "Havelânü’l-havl: Nisap miktarı malın üzerinden bir kamerî (hicrî) yıl geçmelidir. Hanefîlere göre yılın başında ve sonunda nisap tam olmalıdır; yıl içinde azalması zarar vermez, ancak tamamen yok olursa yıl yeniden başlar. Yıl içinde aynı cinsten elde edilen mal (maaş, kâr, doğan yavru) mevcut nisaba eklenir ve onun yılıyla birlikte zekâta tabi olur (müstefâd mal). Toprak ürünlerinde, maden ve definede yıl şartı yoktur.",
+  {
+   "hadis": "Üzerinden bir yıl geçmedikçe malda zekât yoktur.",
+   "kay": "İbn Mâce, Zekât, 5; Ebû Dâvûd, Zekât, 4"
+  },
+  "Borç: Hanefîlere göre kula olan ve talep edilebilen borç zekâta engeldir; borç düşüldükten sonra kalan nisaba ulaşmıyorsa zekât gerekmez. Taksitli uzun vadeli borçlarda Diyanet’in yaklaşımı, o yıl ödenecek taksitlerin düşülmesi yönündedir. Adak, keffâret gibi Allah’a karşı borçlar zekâta engel değildir.",
+  {
+   "kontrol": "Uzun vadeli taksitli borçlarda (konut kredisi vb.) yalnız o yılın taksitlerinin düşülmesi Diyanet’in yayımladığı ilmihal ve fetvalarında yer alan yaklaşımdır; ayrıntısı için Din İşleri Yüksek Kurulu fetvasına bakılmalıdır."
+  },
+  {
+   "sinav": "Zekâtın şartı olmayan bir madde sorulur: “malın nakit olması”, “kişinin hacca gitmiş olması”, “malın mutlaka ticaret malı olması” gibi çeldiriciler gelir. Çocuğun malında Hanefîlere göre zekât yoktur, diğer üç mezhebe göre vardır — mezhep farkı sorusu. Mal-ı dımâr kavramı da sorulur."
+  },
+  {
+   "akil": "Mükellef: Müslüman, akıllı, bâliğ, hür, nisaba mâlik. Mal: milk-i tam, nâmî, havâic-i asliyye ve borçtan fazla, üzerinden kamerî yıl geçmiş. Yıl başı ve sonunda nisap tam olmalı; yıl içindeki kazanç eklenir."
+  },
+  {
+   "b": "3. Zekâta tabi mallar ve nisaplar"
+  },
+  {
+   "merak": "Bir çobanın 39 koyunu varsa zekât vermez; bir koyun doğurur, 40 olur ve yıl dolarsa bir koyun verir. 120 koyunu olan da yine bir koyun verir. Neden?"
+  },
+  "Zekâta tabi mallar dört ana gruptur: altın-gümüş ve para (nükûd), ticaret malları (urûz), hayvanlar (sevâim) ve toprak ürünleri (öşür). Bunlara ayrıca maden ve define (rikâz) eklenir. Malları ayrıca görünen mallar (emvâl-i zâhire: hayvanlar, toprak ürünleri, gümrükten geçen ticaret malları) ve görünmeyen mallar (emvâl-i bâtına: altın, gümüş, para, dükkândaki ticaret malları) diye ikiye ayırırlar. Hz. Osman döneminden itibaren bâtın malların zekâtının sahiplerince bizzat dağıtılmasına izin verilmiştir.",
+  {
+   "tablo": [
+    [
+     "Mal",
+     "Nisap",
+     "Oran",
+     "Yıl şartı"
+    ],
+    [
+     "Altın",
+     "20 miskal = 80,18 g",
+     "1/40 (%2,5)",
+     "Var"
+    ],
+    [
+     "Gümüş",
+     "200 dirhem = 561 g",
+     "1/40",
+     "Var"
+    ],
+    [
+     "Kâğıt para, döviz, banka hesabı",
+     "80,18 g altın değeri (Diyanet altını esas alır)",
+     "1/40",
+     "Var"
+    ],
+    [
+     "Ticaret malları",
+     "Altın veya gümüş nisabının değeri",
+     "1/40, yıl sonundaki piyasa değeri üzerinden",
+     "Var"
+    ],
+    [
+     "Koyun-keçi (sâime)",
+     "40 baş",
+     "40-120: 1 koyun",
+     "Var"
+    ],
+    [
+     "Sığır-manda (sâime)",
+     "30 baş",
+     "30-39: 1 tebî’",
+     "Var"
+    ],
+    [
+     "Deve (sâime)",
+     "5 baş",
+     "5-9: 1 koyun",
+     "Var"
+    ],
+    [
+     "Toprak ürünleri (öşür)",
+     "Ebû Hanîfe: yok; İmameyn: 5 vesk (≈653 kg)",
+     "1/10 veya 1/20",
+     "Yok, her hasatta"
+    ],
+    [
+     "Maden ve define",
+     "Nisap yok",
+     "1/5 (humus)",
+     "Yok"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Öşürde İmameyn’in 5 vesk nisabı Diyanet kaynaklarında yaklaşık 653 kg olarak verilir; bazı kitaplarda (ör. MBSTS soru bankası) yuvarlak olarak 1000 kg yazılmıştır. Sınavda Diyanet’in rakamı (653 kg) esas alınmalıdır."
+  },
+  "Altın ve gümüşün birleştirilmesi: Hanefîlere göre ayrı ayrı nisaba ulaşmayan altın ve gümüş, kıymetleri üzerinden birleştirilir; toplamı nisaba ulaşırsa zekât verilir. Ziynet eşyası: Hanefîlere göre kadının kullandığı altın ve gümüş ziynetler de nisaba ulaşırsa zekâta tabidir (çünkü altın ve gümüş yaratılış itibarıyla para gibi artıcı kabul edilir). Şâfiî, Mâlikî ve Hanbelîlere göre ise mutat ölçüde kullanılan mubah ziynette zekât yoktur.",
+  "Ticaret malı: Satmak niyetiyle satın alınan her türlü mal ticaret malıdır. Satın alırken ticaret niyeti şarttır; miras kalan bir malı sonradan satmaya niyet etmek onu ticaret malı yapmaz. Zekât, yıl sonunda malın o günkü satış (piyasa) değeri üzerinden hesaplanır; dükkânın rafları, kasası, aracı gibi işletmede kullanılan sabit kıymetler zekâta tabi değildir. Tüccar, ticaret malının zekâtını maldan (aynen) ya da kıymetinden verebilir.",
+  "Hayvanlarda zekâta tabi olanlar, yılın yarısından fazlasını merada otlayarak geçiren (sâime) ve süt, yavru, et için beslenen hayvanlardır. Ahırda yemle beslenenler (ma’lûfe), yük ve çift hayvanları (âmile) zekâta tabi değildir. Ticaret için alınan hayvanlar ise ticaret malıdır ve kıymet üzerinden kırkta bir verilir. Atlarda Ebû Hanîfe’ye göre (erkek-dişi karışık sâime ise) zekât vardır; İmameyn’e göre yoktur ve fetva İmameyn’in görüşüne göredir. Katır ve eşekte zekât yoktur (ticaret için değilse).",
+  {
+   "tablo": [
+    [
+     "Koyun ve keçi",
+     "Verilecek"
+    ],
+    [
+     "1-39",
+     "Yok"
+    ],
+    [
+     "40-120",
+     "1 koyun/keçi"
+    ],
+    [
+     "121-200",
+     "2 koyun"
+    ],
+    [
+     "201-399",
+     "3 koyun"
+    ],
+    [
+     "400 ve sonrası",
+     "Her 100’de 1 koyun"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Sığır ve manda",
+     "Verilecek"
+    ],
+    [
+     "1-29",
+     "Yok"
+    ],
+    [
+     "30-39",
+     "1 tebî’ (bir yaşını doldurmuş dana)"
+    ],
+    [
+     "40-59",
+     "1 müsinne (iki yaşını doldurmuş dana)"
+    ],
+    [
+     "60-69",
+     "2 tebî’"
+    ],
+    [
+     "70 ve sonrası",
+     "Her 30’da 1 tebî’, her 40’ta 1 müsinne"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Deve",
+     "Verilecek"
+    ],
+    [
+     "5-9",
+     "1 koyun"
+    ],
+    [
+     "10-14",
+     "2 koyun"
+    ],
+    [
+     "15-19",
+     "3 koyun"
+    ],
+    [
+     "20-24",
+     "4 koyun"
+    ],
+    [
+     "25-35",
+     "1 bint mahâd (1 yaşını doldurmuş dişi deve)"
+    ],
+    [
+     "36-45",
+     "1 bint lebûn (2 yaşını doldurmuş)"
+    ],
+    [
+     "46-60",
+     "1 hıkka (3 yaşını doldurmuş)"
+    ],
+    [
+     "61-75",
+     "1 ceza’a (4 yaşını doldurmuş)"
+    ],
+    [
+     "76-90",
+     "2 bint lebûn"
+    ],
+    [
+     "91-120",
+     "2 hıkka"
+    ]
+   ]
+  },
+  "İki nisap arasında kalan ve zekâtı değiştirmeyen kısma “vakas” (afv) denir: 41 ile 120 arasındaki koyunlar gibi. Zekât olarak hayvanın en iyisi de en kötüsü de değil, orta hâllisi alınır; hamile, yavrusunu emziren, damızlık ve besili hayvan alınmaz. Hanefîlere göre hayvan yerine kıymeti de verilebilir.",
+  {
+   "sinav": "Hayvan tablosundan sayı sorulur: “130 koyunu olan kaç koyun verir?” → 2; “45 sığırı olan?” → 1 müsinne; “12 devesi olan?” → 2 koyun. Tuzak: koyunda 40’ın, sığırda 30’un, devede 5’in nisap olduğunu karıştırmak. Ahırda beslenen hayvan zekâta tabi değildir; ticaret hayvanı ise kıymetiyle 1/40."
+  },
+  {
+   "akil": "Altın 80,18 g, gümüş 561 g, oran 1/40. Koyun 40, sığır 30, deve 5. Sâime şartı; ma’lûfe ve âmile muaf. Ziynet Hanefîde zekâta tabi. Ticaret malı yıl sonu piyasa değeriyle."
+  },
+  {
+   "b": "4. Öşür, maden ve define"
+  },
+  {
+   "merak": "Aynı köyde iki komşu buğday ekti. Biri tarlasını yalnızca yağmurla suladı, öbürü motopomp kurup mazot yaktı. Hasattan biri onda bir, öbürü yirmide bir verdi. Bu fark nereden geliyor?"
+  },
+  "Toprak ürünlerinin zekâtına öşür (onda bir) denir. Ayeti “…Hasat günü de hakkını verin” (En’âm, 6/141) ve “…yerden sizin için çıkardığımız ürünlerden infak edin” (Bakara, 2/267) ayetleridir. Hz. Peygamber yağmur, pınar ve akarsuyla sulanan üründe onda bir, kova, dolap ya da masrafla sulanan üründe yirmide bir alınmasını emretmiştir.",
+  {
+   "hadis": "Yağmurun, pınarların suladığı ya da kendiliğinden (köküyle) sulanan üründe onda bir; kovayla (masrafla) sulananda ise yirmide bir vardır.",
+   "kay": "Buhârî, Zekât, 55"
+  },
+  {
+   "tablo": [
+    [
+     "Öşür konusu",
+     "Ebû Hanîfe",
+     "İmameyn (Ebû Yûsuf, İmam Muhammed)"
+    ],
+    [
+     "Nisap",
+     "Yok; az çok her üründen",
+     "5 vesk (≈653 kg)"
+    ],
+    [
+     "Hangi ürünler",
+     "Topraktan çıkan, ekimi kasdedilen her ürün (sebze ve meyve dâhil)",
+     "Yalnız bir yıl saklanabilen ürünler (tahıl, kuru meyve)"
+    ],
+    [
+     "Yıl şartı",
+     "Yok",
+     "Yok"
+    ],
+    [
+     "Oran",
+     "Masrafsız 1/10, masraflı 1/20",
+     "Aynı"
+    ]
+   ]
+  },
+  "Öşürde gübre, ilaç, işçilik gibi masraflar ürünün oranını 1/10’dan 1/20’ye indirmez; oranı belirleyen sulama yöntemidir. Ancak çağdaş âlimlerin bir kısmı ve Diyanet, sulama dışındaki masrafların da dikkate alınabileceğini belirtir. Öşür ürün hasat edilince verilir; ürünün kendisinden ya da kıymetinden ödenebilir. Haraç arazisinde (fethedilip gayrimüslimlerin elinde bırakılan topraklarda) Hanefîlere göre öşür ve haraç birlikte alınmaz.",
+  {
+   "kontrol": "Gübre, ilaç gibi sulama dışı masrafların öşür oranını düşürüp düşürmeyeceği konusunda Diyanet’in güncel fetvası kontrol edilmelidir; klasik Hanefî görüşte belirleyici olan sulama şeklidir."
+  },
+  "Bal: Hanefîlere göre öşür arazisinden elde edilen balda öşür vardır. Maden ve define (rikâz): Hanefîlere göre ateşte eriyip şekil alan madenlerde (altın, gümüş, demir, bakır) ve İslam öncesine ait definede beşte bir (humus) alınır; kalan bulanındır. Yıl ve nisap şartı yoktur. Sıvı madenlerde (petrol) ve ateşte erimeyen madenlerde (taş, mücevher) humus yoktur. Denizden çıkarılan inci, mercan ve balıkta Ebû Hanîfe ve İmam Muhammed’e göre zekât yoktur; Ebû Yûsuf’a göre humus vardır. İslam dönemine ait define ise lukata (buluntu mal) hükmündedir.",
+  {
+   "hadis": "Definede beşte bir vardır.",
+   "kay": "Buhârî, Zekât, 66; Müslim, Hudûd, 45"
+  },
+  {
+   "sinav": "Öşür oranının belirleyicisi sulama şeklidir: yağmur, nehir, pınar → 1/10; motor, kova, ücretli su → 1/20. Öşürde nisap Ebû Hanîfe’ye göre yok, İmameyn’e göre 5 vesk. Madende ve definede humus (1/5), yıl ve nisap yok. Petrol ve mücevherde humus yok."
+  },
+  {
+   "akil": "Öşür: yıl yok; masrafsız 1/10, masraflı 1/20; Ebû Hanîfe nisapsız, İmameyn 5 vesk. Rikâz: 1/5, yıl ve nisap yok. Denizden çıkanlarda Ebû Yûsuf humus der, diğerleri zekât yok der."
+  },
+  {
+   "b": "5. Zekât kimlere verilir? Sekiz sınıf"
+  },
+  {
+   "merak": "Bir vatandaş caminin tamiri için zekâtını vermek istedi; imam “Bu olmaz, zekâtta temlik şarttır” dedi. Cami Allah’ın evi değil mi? Neden zekât buraya verilmez?"
+  },
+  {
+   "ayet": "Sadakalar (zekâtlar) Allah’tan bir farz olarak ancak yoksullara, düşkünlere, zekât toplayan görevlilere, kalpleri İslam’a ısındırılacak olanlara, kölelerin hürriyetine, borçlulara, Allah yolunda olanlara ve yolda kalmışlara verilir. Allah her şeyi bilendir, hüküm ve hikmet sahibidir.",
+   "kay": "Tevbe, 9/60"
+  },
+  {
+   "tablo": [
+    [
+     "Sınıf",
+     "Kimdir?",
+     "Önemli not"
+    ],
+    [
+     "Fakir",
+     "Nisap miktarı malı olmayan, temel ihtiyaçlarını karşılayamayan",
+     "Bir günlük yiyeceği olsa da fakir sayılabilir"
+    ],
+    [
+     "Miskin",
+     "Hiçbir şeyi olmayan, fakirden daha muhtaç düşkün",
+     "Hanefîlere göre miskin fakirden daha muhtaçtır"
+    ],
+    [
+     "Âmil (zekât görevlisi)",
+     "Devlet adına zekâtı toplayan ve dağıtan memur",
+     "Zengin olsa da emeği karşılığı alır; Hâşimî olmamalı"
+    ],
+    [
+     "Müellefe-i kulûb",
+     "Kalbi İslam’a ısındırılmak istenen ya da şerrinden korkulan kişiler",
+     "Hanefîlere göre Hz. Ömer döneminde illet kalktığı için verilmemiştir"
+    ],
+    [
+     "Rikâb",
+     "Hürriyetine kavuşturulacak köleler, mükâteb köleler",
+     "Günümüzde esirlerin kurtarılması bu sınıfa benzetilir"
+    ],
+    [
+     "Gârimîn",
+     "Borcunu ödeyemeyen borçlular",
+     "Borcu düşülünce nisabı kalmayan kişi"
+    ],
+    [
+     "Fî sebîlillâh",
+     "Allah yolunda olanlar: parasız kalmış gaziler, hacda yolda kalanlar, ilim talebeleri",
+     "Ebû Yûsuf: muhtaç gaziler; İmam Muhammed: hacda kalanlar"
+    ],
+    [
+     "İbnü’s-sebîl",
+     "Memleketinde malı olsa da yolda parasız kalan yolcu",
+     "İhtiyacı kadar alır"
+    ]
+   ]
+  },
+  "Hanefîlere göre zekâtın sekiz sınıfın hepsine paylaştırılması şart değildir; bir sınıfa, hatta bir kişiye verilebilir. Şâfiîlere göre ise mümkünse bulunan sınıflar arasında paylaştırılır. Bir fakire bir defada nisap miktarı veya daha fazlasını vermek mekruhtur (borçlu ve çok çocuklu kişi hariç). Zekâtın bulunduğu yerin fakirlerine verilmesi esastır; başka bir yere nakli mekruhtur; ancak akrabaya ya da daha muhtaç olanlara gönderilmesi mekruh değildir.",
+  {
+   "tablo": [
+    [
+     "Zekât verilemeyen",
+     "Gerekçe"
+    ],
+    [
+     "Usûl: anne, baba, dede, nine (yukarı doğru)",
+     "Nafakaları kişiye ait sayılır; mal yine ailede kalır"
+    ],
+    [
+     "Fürû: çocuk, torun (aşağı doğru)",
+     "Aynı gerekçe"
+    ],
+    [
+     "Eş: koca karısına; Ebû Hanîfe’ye göre karı da kocasına veremez",
+     "Ortak hayat; İmameyn’e göre kadın fakir kocasına verebilir"
+    ],
+    [
+     "Zengin kişi ve zenginin küçük çocuğu",
+     "Küçük çocuk babasının zenginliğiyle zengin sayılır"
+    ],
+    [
+     "Hâşimoğulları (Hz. Ali, Abbas, Ca’fer, Akîl, Hâris b. Abdülmuttalib soyu)",
+     "Hz. Peygamber’in ailesine zekât haram kılınmıştır"
+    ],
+    [
+     "Gayrimüslim (Hanefî)",
+     "Zekât Müslüman fakirin hakkıdır; nafile sadaka verilebilir"
+    ],
+    [
+     "Temliki olmayan yerler: cami, köprü, yol, kefen, ölünün borcu",
+     "Zekâtta mülkiyetin bir fakire geçmesi (temlik) şarttır"
+    ]
+   ]
+  },
+  "Kardeş, amca, dayı, hala, teyze, yeğen, gelin, damat, üvey anne-baba ve kayınpeder ile kayınvalide fakirse zekât verilebilir; akrabaya vermek hem sadaka hem sıla-i rahim olduğundan daha faziletlidir. Zengin bir kadının fakir kocası ise Hanefîlere göre karısından zekât alamaz (Ebû Hanîfe); İmameyn caiz görür.",
+  {
+   "hadis": "Yoksula verilen sadaka yalnızca sadakadır; akrabaya verilen ise iki şeydir: hem sadaka hem de akrabalık bağını gözetmek.",
+   "kay": "Tirmizî, Zekât, 26; Nesâî, Zekât, 82"
+  },
+  "Temlik ve hile-i şer’iyye: Cami, okul, kefen gibi bir kişinin mülkü olmayan yerlere doğrudan zekât verilemez. Hanefî âlimler, bu tür ihtiyaçlar için zekâtın önce bir fakire temlik edilmesini, fakirin de kendi isteğiyle bu hayra bağışlamasını bir çıkış yolu olarak göstermişlerdir. Fakir burada zorlanamaz, mal onun mülkü olur.",
+  "Zekâtta yanılma: Araştırıp kanaat getirerek zekâtı fakir sandığı birine veren kişi, alanın zengin, Hâşimî, gayrimüslim ya da kendi babası veya oğlu olduğu sonradan anlaşılırsa Ebû Hanîfe ve İmam Muhammed’e göre zekâtı geçerlidir, tekrar vermez. Ebû Yûsuf’a göre tekrar verir. Ancak araştırmadan, şüphe içinde verip sonra durumu öğrenirse zekâtı yerini bulmaz.",
+  "Zekâtın öne alınması (ta’cîl): Nisaba mâlik olan kişi, yıl dolmadan önce zekâtını peşin verebilir. Kıymet: Hanefîlere göre zekât olarak malın kendisi yerine kıymeti (parası) da verilebilir; Şâfiîler aynen vermeyi esas alır.",
+  {
+   "sinav": "“Aşağıdakilerden hangisine zekât verilebilir?” sorusunda doğru cevap genellikle kardeş, amca, yeğen, kayınvalide gibi usûl-fürû dışı akrabadır. “Verilemez” sorusunda zenginin küçük çocuğu, Hâşimî, cami inşaatı ve ölünün kefeni çeldiricidir. Ölünün borcuna zekâtla ödeme yapılamaz (temlik yok)."
+  },
+  {
+   "akil": "Sekiz sınıf Tevbe 60. Usûl, fürû, eş, zengin, zenginin küçük çocuğu, Hâşimî, gayrimüslim ve temliksiz yerler (cami, kefen) zekât alamaz. Akrabaya vermek iki sevap. Araştırarak yanılan zekâtı tekrarlamaz (Ebû Hanîfe, Muhammed)."
+  },
+  {
+   "b": "6. Fıtır sadakası (fitre), fidye ve sadakalar"
+  },
+  {
+   "merak": "Bayram sabahı doğan bir bebek için fitre verilir mi? Bayram sabahından önce vefat eden dede için? Cevap tek bir ana bağlı: vücûb vakti."
+  },
+  "Fıtır sadakası, Ramazan Bayramı’na ulaşan ve temel ihtiyaçlarından fazla nisap miktarı malı bulunan Müslümanın, kendisi ve velayeti altındaki küçük çocukları için vermesi gereken sadakadır. Hicretin 2. yılında, Ramazan orucunun farz kılındığı yıl vacip olmuştur. Hanefîlere göre hükmü vaciptir; diğer mezheplerde farz olarak nitelenir.",
+  {
+   "hadis": "Resûlullah fıtır sadakasını, oruçluyu boş ve çirkin sözlerden arındırmak ve yoksullara yiyecek olmak üzere farz kıldı.",
+   "kay": "Ebû Dâvûd, Zekât, 17; İbn Mâce, Zekât, 21"
+  },
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Zekât",
+     "Fıtır sadakası"
+    ],
+    [
+     "Hüküm",
+     "Farz",
+     "Vacip (Hanefî)"
+    ],
+    [
+     "Nisap",
+     "Artıcı mal; nisap + yıl",
+     "Temel ihtiyaç ve borç dışında nisap; artıcılık ve yıl şartı yok"
+    ],
+    [
+     "Kim için",
+     "Kendi malı için",
+     "Kendisi ve küçük çocukları için (eşi ve büyük çocukları için gerekmez, verirse olur)"
+    ],
+    [
+     "Vakit",
+     "Yıl dolunca",
+     "Bayramın 1. günü fecr-i sâdık; Ramazan içinde önceden verilebilir"
+    ],
+    [
+     "Miktar",
+     "1/40 vb.",
+     "Buğdaydan yarım sâ’, arpa-hurma-kuru üzümden bir sâ’ veya kıymeti"
+    ],
+    [
+     "Verilecek yerler",
+     "Tevbe 60",
+     "Zekâtın verildiği yerler; Ebû Hanîfe ve İmam Muhammed’e göre zimmî fakire de verilebilir"
+    ]
+   ]
+  },
+  "Vücûb vakti Hanefîlere göre bayramın birinci günü tan yerinin ağarmasıdır (fecr-i sâdık). Bu ana ulaşan zengin kişi fitreyi borçlanır. Bu yüzden bayram sabahından önce ölen, fecirden sonra doğan ya da fecirden sonra Müslüman olan kişi için fitre gerekmez; fecirden önce doğan çocuk için ise gerekir. Şâfiîlere göre vücûb vakti Ramazan’ın son günü güneşin batışıdır. Bayram namazından önce verilmesi müstehaptır; geciktirilirse düşmez, kaza edilir.",
+  "Diyanet her yıl fitre miktarını buğday, arpa, hurma, kuru üzüm esasına göre para olarak ilan eder; bir kişinin günlük ortalama yiyecek ihtiyacı esas alınır. Oruç tutamayacak kadar yaşlı ya da iyileşme ümidi olmayan hasta, tutamadığı her gün için bir fitre miktarı fidye verir (Bakara, 2/184). Sonradan iyileşirse oruçlarını kaza eder; fidye nafile sadakaya dönüşür.",
+  {
+   "tablo": [
+    [
+     "Sadaka türü",
+     "Açıklama"
+    ],
+    [
+     "Nafile sadaka (sadaka-i tatavvu’)",
+     "Farz ve vacip dışında Allah rızası için verilen her türlü yardım; zengine, gayrimüslime, akrabaya verilebilir"
+    ],
+    [
+     "Sadaka-i câriye",
+     "Sevabı ölümden sonra da süren hayır: vakıf, cami, çeşme, faydalı ilim, hayırlı evlat"
+    ],
+    [
+     "Fidye",
+     "Oruç tutamayan yaşlı ve iyileşme ümidi olmayan hasta için her gün bir fitre miktarı"
+    ],
+    [
+     "Keffâret sadakası",
+     "Keffârette fakir doyurma"
+    ],
+    [
+     "Hac cezası sadakası",
+     "İhram yasağının az miktarda ihlalinde yarım sâ’ buğday"
+    ]
+   ]
+  },
+  {
+   "hadis": "İnsan ölünce ameli kesilir; ancak üç şey müstesnadır: sadaka-i câriye, faydalanılan ilim ve kendisine dua eden hayırlı evlat.",
+   "kay": "Müslim, Vasiyye, 14"
+  },
+  {
+   "ayet": "Sevdiğiniz şeylerden Allah yolunda harcamadıkça iyiliğe asla erişemezsiniz.",
+   "kay": "Âl-i İmrân, 3/92"
+  },
+  "Sadakada gizlilik esastır, ancak örnek olmak için açıktan vermek de güzeldir (Bakara, 2/271). Başa kakmak ve eziyet etmek sadakanın sevabını yok eder (Bakara, 2/264). Kişinin önce kendine ve bakmakla yükümlü olduklarına harcaması, sonra yakınlarına vermesi sünnettir.",
+  {
+   "sinav": "Fitrede yıl ve artıcılık şartı yoktur — en çok sorulan tuzak budur. Vücûb vakti Hanefîde bayram sabahı fecir, Şâfiîde Ramazan’ın son günü güneşin batışı. Fitre eşin ve büyük çocukların yerine verilmesi gerekmez. Fidye yaşlı ve iyileşme ümidi olmayan hasta içindir; geçici hasta fidye değil kaza eder."
+  },
+  {
+   "akil": "Fitre: vacip; nisap var, yıl ve nemâ yok; kendi ve küçük çocukları için; bayramın 1. günü fecirle vacip; önceden verilebilir. Fidye: her gün için bir fitre. Sadaka-i câriye: vakıf, ilim, hayırlı evlat (Müslim, Vasiyye)."
+  },
+  {
+   "b": "Sık sorulan ek bilgiler"
+  },
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Bilgi"
+    ],
+    [
+     "Fitrenin vacip olduğu vakit",
+     "Hanefîlere göre Ramazan Bayramı’nın ilk günü fecrin doğuşu; Şâfiîlere göre Ramazan’ın son günü gün batımı. Bayram namazından önce verilmesi müstehap, Ramazan içinde önceden vermek caizdir"
+    ],
+    [
+     "Zekât vermeyenlerle savaş",
+     "Hz. Ebû Bekir dönemi, ridde olayları"
+    ],
+    [
+     "Bâtın malların zekâtı",
+     "Hz. Osman döneminden itibaren sahibince dağıtılır"
+    ],
+    [
+     "Zekâtın nakli",
+     "Başka beldeye nakil mekruh; akrabaya ve daha muhtaca nakil mekruh değil"
+    ],
+    [
+     "Kıymet ödeme",
+     "Hanefîlerde zekât ve fitre kıymet olarak (para) ödenebilir"
+    ]
+   ]
+  }
+ ],
+ "ozet": [
+  "Zekât hicretin 2. yılında farz oldu; malî ibadettir, vekâletle ödenir, niyet şarttır, temlik (fakire mülk olarak geçirme) gerekir.",
+  "Mükellef: Müslüman, akıllı, bâliğ (Hanefî), hür, nisaba mâlik. Çocuğun ve akıl hastasının malında Hanefîlere göre zekât yok, diğer mezheplere göre var.",
+  "Mal: milk-i tam, artıcı (nâmî), temel ihtiyaç ve borçtan fazla, üzerinden kamerî yıl geçmiş. Mal-ı dımâr (kayıp, gasp edilmiş, inkâr edilen) zekâta tabi değil.",
+  "Altın 20 miskal = 80,18 g; gümüş 200 dirhem = 561 g; oran 1/40. Para ve ticaret malı altın nisabının değeriyle, yıl sonu piyasa değeri üzerinden 1/40.",
+  "Hanefîde kadının ziynet altını da zekâta tabidir; altın ve gümüş kıymetle birleştirilir.",
+  "Koyun 40 (40-120: 1; 121-200: 2; 201-399: 3; sonra her 100’de 1); sığır 30 (30: tebî’, 40: müsinne); deve 5 (her 5’e bir koyun, 25’te bint mahâd).",
+  "Hayvanda sâime şartı: ahırda beslenen (ma’lûfe) ve iş hayvanı (âmile) zekâta tabi değil; ticaret hayvanı kıymetle.",
+  "Öşür: masrafsız sulamada 1/10, masraflıda 1/20; yıl şartı yok; Ebû Hanîfe’ye göre nisap yok, İmameyn’e göre 5 vesk (≈653 kg).",
+  "Maden ve define: 1/5 (humus), yıl ve nisap yok; petrol ve mücevherde humus yok; denizden çıkan inci ve balıkta Ebû Yûsuf humus der.",
+  "Sekiz sınıf (Tevbe 60): fakir, miskin, âmil, müellefe-i kulûb, rikâb, gârimîn, fî sebîlillâh, ibnü’s-sebîl. Hanefîde hepsine paylaştırmak şart değil.",
+  "Müellefe-i kulûb payı Hz. Ömer döneminde illet kalktığı gerekçesiyle verilmemiştir (nesh değil).",
+  "Zekât verilmez: usûl, fürû, eş, zengin ve zenginin küçük çocuğu, Hâşimîler, gayrimüslim (Hanefî), cami-kefen gibi temliksiz yerler. Kardeş, amca, hala, teyze, yeğene verilir.",
+  "Araştırıp yanılarak zengine veya akrabasına veren, Ebû Hanîfe ve İmam Muhammed’e göre zekâtı tekrarlamaz; Ebû Yûsuf tekrarlar der.",
+  "Fitre: Hanefîde vacip; temel ihtiyaç dışı nisap yeter, yıl ve artıcılık yok; kendisi ve küçük çocukları için; bayramın 1. günü fecirle vacip; buğdaydan yarım sâ’, diğerlerinden bir sâ’ ya da kıymeti.",
+  "Fidye: oruç tutamayan yaşlı ve iyileşme ümidi olmayan hasta için her gün bir fitre miktarı (Bakara 184).",
+  "Sadaka-i câriye, faydalı ilim ve hayırlı evlat ölümden sonra sevabı süren amellerdir (Müslim, Vasiyye)."
+ ],
+ "kartlar": [
+  {
+   "o": "Zekâtın farz kılındığı yıl",
+   "a": "Hicretin 2. yılı (Medine). Fitre de aynı yıl vacip oldu."
+  },
+  {
+   "o": "Milk-i tam",
+   "a": "Malın hem mülkiyetinin hem zilyetliğinin (elde bulunmasının) sahibine ait olması. Eksikse (mal-ı dımâr) zekât yok."
+  },
+  {
+   "o": "Mal-ı dımâr",
+   "a": "Kaybolan, gasp edilen, denize düşen, inkâr edilip delili olmayan mal; Hanefîde zekâta tabi değil."
+  },
+  {
+   "o": "Havâic-i asliyye",
+   "a": "Temel ihtiyaçlar: ev, ev eşyası, binek, giysi, kitap, sanat aletleri. Zekâta tabi değil."
+  },
+  {
+   "o": "Altın ve gümüş nisabı",
+   "a": "Altın 20 miskal = 80,18 g; gümüş 200 dirhem = 561 g. Oran 1/40."
+  },
+  {
+   "o": "Sâime – ma’lûfe – âmile",
+   "a": "Sâime: yılın çoğunu merada geçiren (zekâta tabi). Ma’lûfe: yemle beslenen. Âmile: iş hayvanı. Son ikisinde zekât yok."
+  },
+  {
+   "o": "Tebî’ ve müsinne",
+   "a": "Tebî’: bir yaşını doldurmuş dana (30 sığıra). Müsinne: iki yaşını doldurmuş dana (40 sığıra)."
+  },
+  {
+   "o": "Bint mahâd – bint lebûn – hıkka – ceza’a",
+   "a": "Sırasıyla 1, 2, 3, 4 yaşını doldurmuş dişi deve; 25, 36, 46, 61 deveye verilir."
+  },
+  {
+   "o": "Vakas (afv)",
+   "a": "İki nisap arasında zekâtı değiştirmeyen kısım (ör. 41-120 koyun)."
+  },
+  {
+   "o": "Öşür oranı",
+   "a": "Yağmur, pınar, nehirle sulanan: 1/10. Kova, motor, ücretli suyla sulanan: 1/20."
+  },
+  {
+   "o": "Öşürde nisap",
+   "a": "Ebû Hanîfe: nisap yok. İmameyn: 5 vesk (≈653 kg) ve saklanabilir ürün."
+  },
+  {
+   "o": "Rikâz",
+   "a": "Maden ve define; Hanefîde 1/5 (humus), yıl ve nisap yok."
+  },
+  {
+   "o": "Gârimîn – ibnü’s-sebîl – fî sebîlillâh",
+   "a": "Borçlular – yolda kalmış yolcu – Allah yolunda olanlar (muhtaç gazi, hacda kalan, ilim talebesi)."
+  },
+  {
+   "o": "Müellefe-i kulûb",
+   "a": "Kalbi İslam’a ısındırılacaklar; Hz. Ömer döneminde ihtiyaç (illet) kalmadığı için verilmedi."
+  },
+  {
+   "o": "Temlik şartı",
+   "a": "Zekâtın bir fakirin mülküne geçmesi; bu yüzden cami, yol, kefen, ölünün borcu için zekât verilmez."
+  },
+  {
+   "o": "Zekâtta yanılma",
+   "a": "Araştırıp veren yanılırsa Ebû Hanîfe ve Muhammed: geçerli. Ebû Yûsuf: tekrar verir."
+  },
+  {
+   "o": "Fitrenin vücûb vakti",
+   "a": "Hanefî: bayramın 1. günü fecr-i sâdık. Şâfiî: Ramazan’ın son günü güneşin batışı."
+  },
+  {
+   "o": "Karıştırma: zekât nisabı – fitre nisabı",
+   "a": "Zekâtta artıcılık ve yıl şart; fitre ve kurbanda yalnız temel ihtiyaç ve borç dışında nisap miktarı mal yeter."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "f6-01",
+   "z": 3,
+   "s": "Bir tüccarın kamerî yıl sonunda durumu şöyledir:\n• Depodaki satılık malların alış maliyeti 300.000 TL, o günkü satış değeri 400.000 TL\n• Dükkânın rafları ve kasası 50.000 TL\n• Kasadaki nakit 100.000 TL\n• Toptancıya o yıl ödenecek borcu 100.000 TL\nBu kişinin malları nisabın üzerindedir ve üzerinden yıl geçmiştir.\n\nHanefî mezhebine göre bu tüccarın vermesi gereken zekât miktarı kaç TL’dir?",
+   "c": [
+    "10.000",
+    "12.500",
+    "11.250",
+    "7.500",
+    "15.000"
+   ],
+   "d": 0,
+   "a": "Ticaret malı yıl sonundaki piyasa değeriyle (400.000) hesaplanır; işletmede kullanılan raf ve kasa zekâta tabi değildir. Nakit (100.000) eklenir, kul borcu (100.000) düşülür: 400.000 + 100.000 − 100.000 = 400.000 TL. Bunun 1/40’ı 10.000 TL’dir.",
+   "ac": [
+    "Doğru: piyasa değeri + nakit − borç = 400.000; 1/40’ı 10.000.",
+    "Bu sonuç borç düşülmeden (500.000 × 1/40) bulunur; Hanefîlere göre kul borcu zekâta engeldir.",
+    "Raf ve kasa da eklenip borç düşülünce (450.000) bulunur; işletme demirbaşı zekâta tabi değildir.",
+    "Alış maliyeti (300.000) esas alınınca bulunur; esas olan yıl sonu piyasa değeridir.",
+    "Bütün varlıklar katılıp borç düşülmeden ve fazladan hesaplanmıştır."
+   ],
+   "kay": "Ebû Dâvûd, Zekât, 2; Konu: ticaret mallarının zekâtı"
+  },
+  {
+   "id": "f6-04",
+   "z": 3,
+   "s": "Hanefî mezhebine göre\nI. toprak ürünleri,\nII. hayvanlar,\nIII. maden ve defineler,\nIV. ticaret malları\nşeklindeki mallardan hangilerinin zekâtı için üzerinden bir yıl geçme şartı aranır?",
+   "c": [
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "II ve IV",
+    "III ve IV"
+   ],
+   "d": 3,
+   "a": "Hayvanlarda ve ticaret mallarında yıl şartı aranır. Toprak ürünlerinin zekâtı her hasatta, maden ve definenin humusu ele geçtiğinde verilir.",
+   "ac": [
+    "Toprak ürünlerinde yıl şartı yok.",
+    "İkisinde de yıl şartı yok.",
+    "Madende yıl şartı yok.",
+    "Doğru.",
+    "Madende yıl şartı yok."
+   ],
+   "kay": "İbn Mâce, Zekât, 5"
+  },
+  {
+   "id": "f6-02",
+   "z": 3,
+   "s": "Zekât vermek isteyen Hüseyin Bey’in yakınlarının durumu şöyledir:\nI. Kendisinden ayrı evde oturan, fakir annesinin kocası olan üvey babası\nII. Zengin bir iş adamının on yaşındaki oğlu\nIII. Hz. Abbas soyundan geldiği bilinen fakir komşusu\nIV. Fakir kayınvalidesi\nV. Fakir bir adamla evli olan ve kendisi de fakir olan büyük kızı\n\nHanefî mezhebine göre Hüseyin Bey bunlardan hangilerine zekât verebilir?",
+   "c": [
+    "I ve IV",
+    "I, III ve IV",
+    "II ve V",
+    "I, IV ve V",
+    "III ve V"
+   ],
+   "d": 0,
+   "a": "Üvey baba ve kayınvalide usûl-fürû değildir; fakirse zekât alabilir. Zenginin küçük çocuğu babasıyla zengin sayılır; Hâşimoğulları (Abbas soyu dâhil) zekât alamaz; kız evlat fürûdandır, evli ve fakir olsa da zekât verilmez.",
+   "ac": [
+    "Doğru: üvey baba ve kayınvalide sıhrî akrabadır, verilebilir.",
+    "Abbas soyundan gelen Hâşimîdir; zekât alamaz.",
+    "Zenginin küçük çocuğu ve kendi kızı zekât alamaz.",
+    "Kendi kızı fürûdandır; evli olması hükmü değiştirmez.",
+    "Hâşimî ve kendi kızı zekât alamaz."
+   ],
+   "kay": "Konu: zekât verilemeyenler; Kâsânî, Bedâi’"
+  },
+  {
+   "id": "f6-05",
+   "z": 2,
+   "s": "Hiç masraf yapılmadan yağmur suyuyla yetişen buğdayın zekâtı (öşrü) hangi orandadır?",
+   "c": [
+    "Zekât gerekmez",
+    "1/5",
+    "1/20",
+    "1/40",
+    "1/10"
+   ],
+   "d": 4,
+   "a": "Yağmurla veya akarsuyla sulanan ürünlerde onda bir, emek ve masrafla sulananlarda yirmide bir verilir.",
+   "ac": [
+    "Öşür gerekir.",
+    "Humus maden ve definede uygulanır.",
+    "Masrafla sulanan ürünün oranıdır.",
+    "Para ve ticaret malının oranıdır.",
+    "Doğru."
+   ],
+   "kay": "Buhârî, Zekât, 55"
+  },
+  {
+   "id": "f6-03",
+   "z": 3,
+   "s": "Hanefî mezhebine göre fıtır sadakası ile ilgili aşağıdaki durumlardan hangisinde fitre vermek gerekir?",
+   "c": [
+    "Ramazan Bayramı’nın birinci günü fecirden sonra doğan çocuk için babasının",
+    "Bayram gecesi, fecirden önce vefat eden ve temel ihtiyaçları dışında nisap miktarı malı olan kişinin terekesinden",
+    "Bayram sabahı fecirden sonra Müslüman olan zengin kişinin",
+    "Eşinin ve büyük, evli oğlunun yerine kocanın ve babanın",
+    "Ramazan’ın son gecesi fecirden önce doğan çocuğu için temel ihtiyaçları dışında nisap miktarı malı olan babanın"
+   ],
+   "d": 4,
+   "a": "Fitre, bayramın birinci günü fecr-i sâdık anında vacip olur. Bu anda zengin olan Müslüman, o anda hayatta olan kendisi ve küçük çocukları için fitre verir. Fecirden önce doğan çocuk bu ana ulaştığı için babasına fitresi gerekir.",
+   "ac": [
+    "Fecirden sonra doğduğu için vücûb anına ulaşmamıştır.",
+    "Vücûb anından önce öldüğü için fitre gerekmez.",
+    "Vücûb anında Müslüman olmadığından fitre gerekmez.",
+    "Hanefîlere göre kişi eşinin ve büyük çocuklarının fitresini vermekle yükümlü değildir; verirse olur.",
+    "Doğru: çocuk vücûb anına ulaşmıştır."
+   ],
+   "kay": "Ebû Dâvûd, Zekât, 17; Konu: fıtır sadakası"
+  },
+  {
+   "id": "f6-06",
+   "z": 2,
+   "s": "Tevbe Suresi 60. ayette sayılan zekât sınıflarından “gârimîn” kimlerdir?",
+   "c": [
+    "Yolda kalmış yolcular",
+    "Zekât toplayan görevliler",
+    "Borçlular",
+    "Köleler",
+    "Kalbi İslam’a ısındırılmak istenenler"
+   ],
+   "d": 2,
+   "a": "Gârimîn, borcunu ödeyemeyecek durumdaki borçlulardır.",
+   "ac": [
+    "Bunlar ibnü’s-sebîldir.",
+    "Bunlar âmillerdir.",
+    "Doğru.",
+    "Bunlar rikâbdır.",
+    "Bunlar müellefe-i kulûbdur."
+   ],
+   "kay": "Tevbe, 9/60"
+  },
+  {
+   "id": "f6-13",
+   "z": 3,
+   "s": "Merada otlayan hayvanlarının üzerinden bir yıl geçen bir çiftçinin 130 koyunu, 45 sığırı ve 12 devesi vardır.\n\nHanefî mezhebine göre bu çiftçinin vermesi gereken zekât aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "1 koyun, 1 tebî’, 1 koyun",
+    "3 koyun, 1 tebî’, 2 koyun",
+    "2 koyun, 1 tebî’, 1 bint mahâd",
+    "2 koyun, 1 müsinne, 2 koyun",
+    "2 koyun, 2 tebî’, 2 koyun"
+   ],
+   "d": 3,
+   "a": "121-200 koyuna 2 koyun; 40-59 sığıra iki yaşını doldurmuş bir dana (müsinne); 10-14 deveye 2 koyun verilir.",
+   "ac": [
+    "130 koyun ikinci basamaktadır; 45 sığır da müsinne gerektirir.",
+    "3 koyun 201-399 koyun içindir.",
+    "Bint mahâd 25-35 deve içindir; 12 deveye 2 koyun verilir.",
+    "Doğru.",
+    "2 tebî’ 60-69 sığır içindir."
+   ],
+   "kay": "Buhârî, Zekât, 38; Konu: hayvanların zekâtı"
+  },
+  {
+   "id": "f6-07",
+   "z": 2,
+   "s": "Ticaretle uğraşan bir kişi, yılın sonunda dükkânındaki malların değerini tespit etmiştir.\n\nBu kişi ticaret mallarının zekâtını nasıl hesaplar?",
+   "c": [
+    "Malların alış fiyatı üzerinden 1/10",
+    "Malların o günkü değeri üzerinden 1/40",
+    "Yalnız kârı üzerinden 1/5",
+    "Malların sayısına göre her 40 parçadan 1 parça",
+    "Ticaret mallarında zekât yoktur"
+   ],
+   "d": 1,
+   "a": "Ticaret mallarının zekâtı, yıl sonundaki piyasa değeri üzerinden kırkta bir olarak verilir.",
+   "ac": [
+    "Oran ve esas alınan değer yanlış.",
+    "Doğru.",
+    "Kâr değil malın tamamı esas alınır.",
+    "Bu hayvanlardaki usuldür.",
+    "Ticaret malları zekâta tabidir."
+   ],
+   "kay": "Ebû Dâvûd, Zekât, 2"
+  },
+  {
+   "id": "f6-17",
+   "z": 3,
+   "s": "Hanefî mezhebine göre aşağıdakilerden hangisi zekâta tabi değildir?",
+   "c": [
+    "Kadının mutat ölçüde kullandığı ve nisaba ulaşan altın bilezikleri",
+    "Ayrı ayrı nisaba ulaşmayan ama kıymetleri toplamı nisabı aşan altın ve gümüş",
+    "Yılın çoğunu ahırda yemle beslenerek geçiren ve süt için tutulan kırk koyun",
+    "Satmak niyetiyle satın alınıp bekletilen arsa",
+    "Kiraya verilen dairenin birikip nisaba ulaşan ve üzerinden yıl geçen kira gelirleri"
+   ],
+   "d": 2,
+   "a": "Hayvanlarda zekât için yılın yarısından fazlasını merada otlayarak geçirme (sâime) şartı vardır; ahırda yemle beslenen (ma’lûfe) hayvan, ticaret için değilse zekâta tabi değildir.",
+   "ac": [
+    "Hanefîlere göre ziynet altını da zekâta tabidir; diğer mezhepler kullanılan ziynette zekât görmez.",
+    "Hanefîlere göre altın ve gümüş kıymet üzerinden birleştirilir.",
+    "Doğru: ma’lûfe hayvan zekâta tabi değildir.",
+    "Ticaret niyetiyle alınan arsa ticaret malıdır.",
+    "Birikip nisaba ulaşan ve yılı dolan kira geliri para olarak zekâta tabidir."
+   ],
+   "kay": "Konu: zekâta tabi mallar; Kâsânî, Bedâi’"
+  },
+  {
+   "id": "f6-08",
+   "z": 2,
+   "s": "Hanefî mezhebine göre fıtır sadakası ile ilgili hangisi yanlıştır?",
+   "c": [
+    "Bayramın birinci günü fecrin doğuşuyla vacip olur.",
+    "Kişi kendisi ve küçük çocukları için verir.",
+    "Ramazan içinde önceden verilebilir.",
+    "Bu sadakanın vacip olması için malın üzerinden bir yıl geçmiş olması gerekir.",
+    "Buğdaydan yarım sâ’ veya değeri verilebilir."
+   ],
+   "d": 3,
+   "a": "Fitre için yıl şartı ve malın artıcı olması şartı aranmaz; temel ihtiyaçlar dışında nisap miktarı mal yeterlidir.",
+   "ac": [
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Yanlış: yıl şartı yoktur.",
+    "Doğru bilgi."
+   ],
+   "kay": "Hanefî ilmihali: fıtır sadakası"
+  },
+  {
+   "id": "fk12-01",
+   "z": 3,
+   "s": "Öşür ile ilgili\nI. Ebû Hanîfe’ye göre öşürde nisap aranmaz, az çok her üründen verilir.\nII. Tarlasını motopompla sulayan çiftçi ürününün yirmide birini verir.\nIII. Öşürde üzerinden bir yıl geçme şartı aranır.\nIV. İmameyn’e göre öşür yalnız bir yıl saklanabilen ürünlerde ve beş vesk nisapla gerekir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "II ve III",
+    "I, II ve IV",
+    "I, III ve IV",
+    "II, III ve IV"
+   ],
+   "d": 2,
+   "a": "Öşürde yıl şartı yoktur; her hasatta verilir. Ebû Hanîfe nisap aramaz, İmameyn beş vesk ve saklanabilirlik şartı koşar. Masraflı sulamada oran yirmide birdir.",
+   "ac": [
+    "IV. öncül de doğrudur.",
+    "III. öncül yanlıştır: öşürde yıl şartı yoktur.",
+    "Doğru.",
+    "III. öncül yanlıştır.",
+    "III. öncül yanlıştır."
+   ],
+   "kay": "Buhârî, Zekât, 55; En’âm, 6/141"
+  },
+  {
+   "id": "f6-09",
+   "z": 3,
+   "s": "Bir kişi, araştırıp fakir olduğuna kanaat getirdiği birine zekât vermiş; sonra bu kişinin zengin olduğunu öğrenmiştir.\n\nEbû Hanîfe ve İmam Muhammed’e göre bu kişinin durumu hangisidir?",
+   "c": [
+    "Zekâtı geçerlidir, tekrar vermesi gerekmez.",
+    "Zekâtı geçersizdir, tekrar verir.",
+    "Verdiği zekâtı geri almak zorundadır.",
+    "Zekâtın yarısını tekrar verir.",
+    "Keffâret gerekir."
+   ],
+   "d": 0,
+   "a": "Gerekli araştırmayı yapıp kanaatine göre veren kişinin zekâtı, karşı tarafın zengin olduğu anlaşılsa da yerini bulmuş sayılır. Ebû Yûsuf ise tekrar verilmesi gerektiğini söyler.",
+   "ac": [
+    "Doğru.",
+    "Ebû Yûsuf’un görüşüdür.",
+    "Geri alma zorunluluğu yoktur.",
+    "Böyle bir görüş yoktur.",
+    "Keffâret gerekmez."
+   ],
+   "kay": "Kâsânî, Bedâi’: zekâtta yanılma"
+  },
+  {
+   "id": "fk12-02",
+   "z": 3,
+   "s": "Zekât konusunda bir hutbe hazırlayan imam şu cümleleri yazmıştır:\n“Zekât bir ibadettir; bu yüzden zekât verirken niyet şarttır ve mal bir fakirin mülküne geçmelidir. Bu sebeple köyümüzdeki cami tamiri için doğrudan zekât toplanamaz. Ancak Hanefî fakihleri, zekâtın önce bir fakire verilmesini, fakirin de dilerse bunu kendi isteğiyle hayra bağışlamasını bir çıkış yolu olarak göstermiştir.”\n\nİmamın sözünü ettiği zekâtın sıhhat şartı aşağıdakilerden hangisidir?",
+   "c": [
+    "Havelânü’l-havl",
+    "Nemâ",
+    "Ta’cîl",
+    "Milk-i tam",
+    "Temlik"
+   ],
+   "d": 4,
+   "a": "Zekâtın bir fakirin mülküne geçirilmesine temlik denir; temlik şartı olduğu için cami, köprü, kefen gibi bir kişinin mülkü olmayan yerlere doğrudan zekât verilemez.",
+   "ac": [
+    "Malın üzerinden bir yıl geçmesidir; metindeki konu bu değildir.",
+    "Malın artıcı olmasıdır.",
+    "Zekâtı yıl dolmadan peşin vermektir.",
+    "Zekât verecek kişinin malına tam sahip olmasıdır; metin alan tarafla ilgilidir.",
+    "Doğru."
+   ],
+   "kay": "Konu: zekâtın verileceği yerler; temlik"
+  },
+  {
+   "id": "f6-10",
+   "z": 3,
+   "s": "Bir çiftçi tarlasında maden bulmuştur.\n\nHanefî mezhebine göre bu madenle ilgili hangisi doğrudur?",
+   "c": [
+    "Üzerinden bir yıl geçince 1/40 zekât verilir.",
+    "Yıl şartı aranmadan beşte biri (humus) verilir.",
+    "Masrafla çıkarılırsa 1/20 verilir.",
+    "Madenden zekât verilmez.",
+    "Nisaba ulaşırsa 1/10 verilir."
+   ],
+   "d": 1,
+   "a": "Hanefîlere göre maden ve definede yıl ve nisap şartı aranmadan beşte bir (humus) alınır.",
+   "ac": [
+    "Yıl şartı yoktur, oran da farklıdır.",
+    "Doğru.",
+    "Bu masrafla sulanan ürünün oranıdır.",
+    "Humus gerekir.",
+    "Bu öşür oranıdır."
+   ],
+   "kay": "Buhârî, Zekât, 66"
+  },
+  {
+   "id": "fk12-03",
+   "z": 2,
+   "s": "Aşağıdaki eşleştirmelerden hangisi Hanefî mezhebine göre yanlıştır?",
+   "c": [
+    "Altın – 80,18 gram – 1/40",
+    "İslam öncesine ait define – nisapsız – 1/5",
+    "Yağmurla sulanan buğday – yıl şartı yok – 1/10",
+    "Gümüş – 561 gram – 1/40",
+    "Denizden çıkarılan inci – yıl şartı yok – Ebû Hanîfe’ye göre 1/5"
+   ],
+   "d": 4,
+   "a": "Denizden çıkarılan inci, mercan gibi mallarda Ebû Hanîfe ve İmam Muhammed’e göre zekât yoktur; humus görüşü Ebû Yûsuf’a aittir.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Yanlış: denizden çıkan inci için humus Ebû Yûsuf’un görüşüdür."
+   ],
+   "kay": "Konu: maden, define ve deniz ürünleri"
+  },
+  {
+   "id": "f6-11",
+   "z": 3,
+   "s": "Hanefî mezhebine göre aşağıdakilerden hangisine zekât verilmesi caiz değildir?",
+   "c": [
+    "Zengin bir kişinin küçük çocuğuna",
+    "Borcunu ödeyemeyen komşuya",
+    "Fakir bir Müslüman öğrenciye",
+    "Memleketinde malı olan ama yolda parasız kalan yolcuya",
+    "Fakir amcaya"
+   ],
+   "d": 0,
+   "a": "Zenginin küçük çocuğu babasının zenginliğiyle zengin sayılır; ona zekât verilmez.",
+   "ac": [
+    "Doğru.",
+    "Gârimîn sınıfına girer.",
+    "Fî sebîlillâh veya fakir sınıfına girer.",
+    "İbnü’s-sebîl sınıfına girer.",
+    "Amca usûl ve fürûdan değildir."
+   ],
+   "kay": "Hanefî ilmihali: zekât verilemeyenler"
+  },
+  {
+   "id": "f6-12",
+   "z": 2,
+   "s": "Hanefî mezhebine göre koyun ve keçilerde zekâtla ilgili hangisi doğrudur?",
+   "c": [
+    "Nisap 5 baştır.",
+    "Nisap 40 baştır ve yılın çoğunu merada geçiren (sâime) hayvanlardan verilir.",
+    "Yıl şartı aranmaz.",
+    "Ev ihtiyacı için beslenen hayvanlar da zekâta tabidir.",
+    "Zekât 1/10 oranında verilir."
+   ],
+   "d": 1,
+   "a": "Koyun-keçide nisap 40 baştır; yılın yarısından fazlasını merada otlayarak geçiren hayvanlarda 40’ta 1 koyun verilir.",
+   "ac": [
+    "5 baş devenin nisabıdır.",
+    "Doğru.",
+    "Yıl şartı aranır.",
+    "Temel ihtiyaç için beslenen (ölçülü) hayvanlar zekâta tabi değildir; ticaret için ise ticaret malıdır.",
+    "Oran 40’ta 1’dir."
+   ],
+   "kay": "Buhârî, Zekât, 38"
+  },
+  {
+   "id": "f6-14",
+   "z": 2,
+   "s": "Zekâtın farz olmasının şartları arasında aşağıdakilerden hangisi yoktur?",
+   "c": [
+    "Malın üzerinden bir yıl geçmesi (havelân-ı havl)",
+    "Akıl ve bulûğ",
+    "Malın nisaba ulaşması",
+    "Malın mutlaka nakit para olması",
+    "Müslüman olmak"
+   ],
+   "d": 3,
+   "a": "Ayrıca mal temel ihtiyaçlardan (havâic-i asliyye) ve borçtan fazla olmalı, artıcı (nâmî) olmalıdır.",
+   "ac": [
+    "Şarttır.",
+    "Hanefîlerde şarttır.",
+    "Şarttır.",
+    "Ticaret malı ve hayvan gibi mallar da zekâta tabidir.",
+    "Şarttır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f6-15",
+   "z": 2,
+   "s": "Hanefî mezhebine göre bir kişinin zekâtını aşağıdakilerden hangisine vermesi caizdir?",
+   "c": [
+    "Kendi annesine",
+    "Kendi oğluna",
+    "Fakir olan kardeşine",
+    "Eşine",
+    "Zengin bir akrabasına"
+   ],
+   "d": 2,
+   "a": "Nafakası kişiye ait olan usul, füru ve eşe zekât verilmez.",
+   "ac": [
+    "Usul (anne-baba, dede-nine) zekât alamaz.",
+    "Füru (çocuk-torun) zekât alamaz.",
+    "Kardeşe zekât verilebilir.",
+    "Eşler birbirine zekât veremez.",
+    "Zengine zekât verilmez."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f6-16",
+   "z": 2,
+   "s": "Fıtır sadakasının vacip olduğu vakit Hanefî mezhebine göre ne zamandır?",
+   "c": [
+    "Ramazan’ın ilk günü",
+    "Kadir gecesi",
+    "Bayram namazından sonra",
+    "Ramazan’ın son günü güneşin batışı",
+    "Ramazan bayramının birinci günü fecrin doğuşu"
+   ],
+   "d": 4,
+   "a": "Bu vakitte nisaba malik olan kişi kendisi ve küçük çocukları için fitre verir.",
+   "ac": [
+    "Önceden vermek caizdir; ama vücûb vakti değildir.",
+    "Yanlıştır.",
+    "Bayram namazından önce verilmesi müstehaptır.",
+    "Şâfiî görüşüdür.",
+    "Hanefî görüşüdür."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f6-18",
+   "z": 3,
+   "s": "Zekâtın verileceği yerlerden “müellefe-i kulûb” hissesinin Hz. Ömer döneminde verilmemesinin gerekçesi nedir?",
+   "c": [
+    "Ayetin nesh edildiği düşünülmüştür.",
+    "Hissenin miktarı belirsizdir.",
+    "Bu hisse yalnız Hz. Peygamber’e özgüdür.",
+    "İslam güçlendiği için kalplerini İslam’a ısındırma ihtiyacının kalmadığı düşünülmüştür.",
+    "Bu hisse yalnız gayrimüslimlere verilir."
+   ],
+   "d": 3,
+   "a": "Bu uygulama, hükmün illetiyle birlikte değerlendirilmesine örnek gösterilir.",
+   "ac": [
+    "Ayet mensuh değildir.",
+    "Belirleyici değildir.",
+    "Yanlıştır.",
+    "Hükmün illeti ortadan kalkmıştır.",
+    "Gerekçe bu değildir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f6-19",
+   "z": 2,
+   "s": "Hanefî mezhebine göre fıtır sadakası buğdaydan verilirse miktarı nedir?",
+   "c": [
+    "Bir sâ‘",
+    "İki sâ‘",
+    "Yarım sâ‘",
+    "Bir müd",
+    "Bir dirhem"
+   ],
+   "d": 2,
+   "a": "Hanefîler fitrenin değerinin para olarak verilmesini de caiz görür.",
+   "ac": [
+    "Arpa, hurma ve kuru üzüm için ölçüdür.",
+    "Yanlıştır.",
+    "Buğdayda yarım sâ‘dır.",
+    "Yanlıştır.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f6-20",
+   "z": 2,
+   "s": "Hanefî mezhebine göre büyükbaş hayvanlarda (sığır) zekâtın nisabı kaç hayvandır?",
+   "c": [
+    "5",
+    "30",
+    "40",
+    "20",
+    "50"
+   ],
+   "d": 1,
+   "a": "30 sığıra bir yaşını doldurmuş bir dana (tebî‘) verilir.",
+   "ac": [
+    "Devede nisaptır.",
+    "Sığırda nisaptır.",
+    "Koyunda nisaptır.",
+    "Yanlıştır.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî ilmihal"
+  }
+ ]
+}

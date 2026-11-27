@@ -1,0 +1,906 @@
+{
+ "id": "fikih-2",
+ "ad": "Fıkıh Usulü 2: Şer’î Deliller (Kitap, Sünnet, İcmâ, Kıyas, İstihsan, Maslahat, Örf, İstishâb, Sedd-i Zerâi’, Şer’u Men Kablenâ, Kavl-i Sahâbî, Medine Ameli)",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Delillerin haritası"
+  },
+  {
+   "merak": "Hz. Peygamber, Muâz b. Cebel’i Yemen’e kadı olarak gönderirken sordu: “Önüne bir dava gelince neye göre hüküm vereceksin?” Muâz “Allah’ın Kitabı’na” dedi. “Orada bulamazsan?” “Resûlullah’ın sünnetine.” “Orada da bulamazsan?” “Kendi görüşümle içtihat eder, gevşeklik göstermem.” Peygamberimiz onun göğsüne vurup Allah’a hamdetti. Fıkıh usulünün delil sıralaması bu konuşmada saklıdır."
+  },
+  {
+   "hadis": "…“Allah’ın Kitabı’nda bulamazsan?” “Resûlullah’ın sünnetiyle hükmederim.” “Onda da bulamazsan?” “Kendi görüşümle içtihat eder, gevşeklik göstermem.” …",
+   "kay": "Ebû Dâvûd, Akdiye; Tirmizî, Ahkâm"
+  },
+  "Delil, doğru düşünüldüğünde insanı şer’î bir hükme ulaştıran şeydir. Usulcüler delilleri farklı açılardan sınıflandırır. Kaynağı bakımından naklî (Kitap, sünnet, icmâ, örf, şer’u men kablenâ, kavl-i sahâbî) ve aklî (kıyas, istihsan, istislâh, istishâb, sedd-i zerâi’) deliller vardır; ama aklî deliller de mutlaka nassa dayanır. Bağımsızlık bakımından aslî deliller (Kitap ve sünnet) ile bunlara dayanan tâli deliller ayrılır. Kabul bakımından ise dört mezhebin üzerinde birleştiği muttefekun aleyh deliller (Kitap, sünnet, icmâ, kıyas) ile mezhepler arasında tartışmalı muhtelefün fîh deliller ayrılır.",
+  {
+   "ayet": "Ey iman edenler! Allah’a itaat edin, Peygamber’e itaat edin ve sizden olan emir sahiplerine de. Herhangi bir şeyde anlaşmazlığa düşerseniz, onu Allah’a ve Resûl’e götürün…",
+   "kay": "Nisâ, 4/59"
+  },
+  "Usulcüler bu ayeti dört delilin işareti sayar: Allah’a itaat Kitab’ı, Resûl’e itaat sünneti, emir sahiplerine (ulü’l-emr, âlimler) itaat icmâyı, anlaşmazlıkta Allah ve Resûl’e götürmek ise kıyası gösterir. Delil ayrıca sübût (geliş yolu) ve delâlet (anlamı gösterme) yönünden kat’î ya da zannî olur. Kur’an ve mütevâtir sünnet sübût yönünden kat’îdir; âhâd haber zannîdir. Anlamı tek olan lafız delâlet yönünden kat’î, birden çok anlama ihtimali olan lafız zannîdir.",
+  {
+   "tablo": [
+    [
+     "Delil",
+     "Kabul edenler",
+     "Reddeden / sınırlayanlar"
+    ],
+    [
+     "Kitap, sünnet, icmâ, kıyas",
+     "Dört mezhep (muttefekun aleyh)",
+     "Kıyası Zâhirîler, Nazzâm ve İmâmiyye Şîası reddeder"
+    ],
+    [
+     "İstihsan",
+     "Hanefî (en çok), Mâlikî, Hanbelî",
+     "Şâfiî: “İstihsan yapan şeriat koymuş olur”"
+    ],
+    [
+     "Maslahat-ı mürsele (istislâh)",
+     "Mâlikî (en çok), Hanbelî; Gazzâlî şartlı",
+     "Hanefî ve Şâfiî ayrı delil saymaz (istihsan ve kıyas içinde değerlendirir)"
+    ],
+    [
+     "Örf",
+     "Hanefî ve Mâlikî geniş; herkes bir ölçüde",
+     "Nassa aykırı (fâsit) örf hiçbir mezhepte delil değildir"
+    ],
+    [
+     "İstishâb",
+     "Şâfiî ve Hanbelî geniş; Mâlikî",
+     "Hanefî: yalnız savunmada (def’) delil, yeni hak kazandırmada (isbat) değil"
+    ],
+    [
+     "Sedd-i zerâi’",
+     "Mâlikî ve Hanbelî",
+     "Hanefî ve Şâfiî bağımsız delil saymaz"
+    ],
+    [
+     "Şer’u men kablenâ",
+     "Hanefî, Mâlikî, Hanbelî’nin çoğu (şartlı)",
+     "Şâfiî (son görüşü) ve Eş’arîlerin çoğu"
+    ],
+    [
+     "Kavl-i sahâbî",
+     "Hanefî, Mâlikî, Hanbelî",
+     "Şâfiî (yeni görüşü), mütekellimîn"
+    ],
+    [
+     "Medine ameli (icmâ-ı ehl-i Medine)",
+     "Yalnız Mâlikî",
+     "Diğer mezhepler"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Üzerinde ittifak edilen dört delil” sorusunun cevabı Kitap, sünnet, icmâ, kıyas. Tartışmalı delillerde mezhep eşleştirmesi ÖSYM’nin vazgeçilmezidir: istihsan-Hanefî, maslahat-ı mürsele-Mâlikî, Medine ameli-Mâlikî, istishâb-Şâfiî, sedd-i zerâi’-Mâlikî ve Hanbelî. Kıyası reddedenler: Zâhirîler (Dâvûd ez-Zâhirî, İbn Hazm), Nazzâm, Ca’ferîler."
+  },
+  {
+   "akil": "Muâz hadisi sıralamayı verir: Kitap, sünnet, içtihat. Dört delil (Kitap, sünnet, icmâ, kıyas) ortaktır; diğerleri mezhebe göre değişir. Deliller sübût ve delâlet yönünden kat’î ya da zannîdir."
+  },
+  {
+   "b": "2. Kitap ve sünnet"
+  },
+  {
+   "merak": "İbn Mes’ûd’un mushafında yemin keffâreti ayetinde “üç gün oruç” ifadesinden sonra “peş peşe” (mütetâbiât) kelimesi vardı. Bu kelime bugünkü mushafta yok. Hanefîler yine de yemin keffâreti orucunu peş peşe tutmayı şart koşar. Mushafta olmayan bir kelime nasıl hüküm doğurur?"
+  },
+  "Kitap, Hz. Peygamber’e indirilen, mushaflarda yazılı, bize tevâtürle nakledilen, okunmasıyla ibadet edilen ve benzerini getirmekten insanları aciz bırakan Allah kelamıdır. Bu tanımdaki “tevâtür” kaydı yüzünden tevâtürle gelmeyen şâz kıraatler Kur’an sayılmaz. Hanefîler ise şâz kıraati sahabînin Hz. Peygamber’den duyduğu bir açıklama, yani haber-i vâhid hükmünde görür ve amelde delil sayar; yemin keffâretinin peş peşe tutulması şartı buradan gelir. Şâfiîler şâz kıraati delil saymaz.",
+  "Kur’an hükümleri çoğunlukla icmâlî (genel) olarak koyar: Namaz, zekât, hac emredilmiş, ayrıntıları sünnete bırakılmıştır. Miras payları, liân, haddler, haram kılınan kadınlar gibi bazı konularda ise ayrıntı verir. Kur’an’ın hüküm koyma metodunda üç ilke dikkat çeker: güçlüğün kaldırılması (adem-i haraç), yükümlülüklerin azlığı (taklîl-i tekâlîf) ve hükümlerin tedricen konulması (tedrîc). İçkinin yasaklanması tedrîcin bilinen örneğidir: önce içkinin güzel rızıktan ayrı anıldığı ayet (Nahl, 16/67), sonra zararının faydasından büyük olduğu (Bakara, 2/219), sonra sarhoşken namaza yaklaşmama (Nisâ, 4/43), en son kesin yasak (Mâide, 5/90-91).",
+  {
+   "ayet": "…Allah din konusunda üzerinize hiçbir güçlük yüklemedi…",
+   "kay": "Hac, 22/78"
+  },
+  "Sünnet, Hz. Peygamber’in söz (kavlî), fiil (fiilî) ve onayları (takrîrî) toplamıdır. Takrîrî sünnete örnek, Hz. Peygamber’in sofrasında keler yenmesine ses çıkarmamasıdır. Sünnetin Kur’an karşısında üç işlevi vardır: Kur’an’daki hükmü teyit etmek (te’kîd), Kur’an’ı açıklamak (beyân: mücmeli tafsil, âmmı tahsis, mutlakı takyid) ve Kur’an’da bulunmayan yeni bir hüküm koymak (teşrî’). Bir kadınla halası veya teyzesini nikâhta birleştirmenin yasaklanması, ehlî eşek etinin haram kılınması, erkeklere altın ve ipeğin yasaklanması müstakil hüküm örnekleridir.",
+  {
+   "tablo": [
+    [
+     "Sünnetin işlevi",
+     "Açıklama",
+     "Örnek"
+    ],
+    [
+     "Te’kîd",
+     "Kur’an’daki hükmü aynen tekrarlar",
+     "Anne babaya iyilik, yalan şahitlik yasağı"
+    ],
+    [
+     "Beyân: tafsîl",
+     "Mücmeli açıklar",
+     "Namazın vakit ve rekâtları, zekât nisapları, haccın menâsiki"
+    ],
+    [
+     "Beyân: tahsîs",
+     "Âmmın kapsamını daraltır",
+     "“Katil mirasçı olamaz” hadisi miras ayetlerini tahsis eder"
+    ],
+    [
+     "Beyân: takyîd",
+     "Mutlakı kayıtlar",
+     "Hırsızın elinin bilekten kesilmesi; vasiyetin üçte birle sınırlanması"
+    ],
+    [
+     "Teşrî’ (müstakil hüküm)",
+     "Kur’an’da olmayan hüküm",
+     "Hala-yeğen ve teyze-yeğen birleştirme yasağı; ninenin 1/6 payı"
+    ]
+   ]
+  },
+  "Hanefîler haberleri senet bakımından üçe ayırır: mütevâtir (yalan üzerinde birleşmeleri aklen imkânsız bir topluluğun her tabakada naklettiği; kat’î ilim ifade eder), meşhur (ilk tabakada âhâd olup sahabeden sonraki ilk iki nesilde tevâtür derecesine ulaşan; Hanefîlere göre kesin ilme yakın bilgi, tuma’nîne ifade eder) ve âhâd (bu dereceye ulaşmayan; zannî bilgi ifade eder, amelde delildir). Meşhur hadisle Kur’an’a ilave (ziyâde) yapılabilir ve Kur’an’ın âm lafzı tahsis edilebilir; âhâd haberle bunlar ilk defa yapılamaz. Cumhur ise haberleri mütevâtir ve âhâd diye ikiye ayırır.",
+  {
+   "tablo": [
+    [
+     "Mezhep",
+     "Âhâd haberin kabul şartları (sened sahihliğine ek)"
+    ],
+    [
+     "Hanefî",
+     "Râvî rivayetine aykırı amel etmemiş olmalı; herkesin sık karşılaştığı (umûmü’l-belvâ) bir konuda olmamalı; râvî fakih değilse haber kıyasa ve genel kurallara aykırı olmamalı (Îsâ b. Ebân); Kur’an’a ve meşhur sünnete aykırı olmamalı"
+    ],
+    [
+     "Mâlikî",
+     "Medine ehlinin ameline aykırı olmamalı"
+    ],
+    [
+     "Şâfiî",
+     "Senedi sahih ve muttasıl olması yeterli; mürsel haber (Saîd b. el-Müseyyeb’in mürselleri gibi destekleriyle kabul edilenler hariç) delil değil"
+    ],
+    [
+     "Hanbelî",
+     "Zayıf hadisi bile kıyasa tercih eder; mürseli kabul eder"
+    ]
+   ]
+  },
+  {
+   "sinav": "Hanefîlere göre şâz kıraat haber-i vâhid gibi amelde delildir (yemin keffâreti orucu peş peşe). Meşhur haber yalnız Hanefîlerin ayrı bir kategorisidir ve Kur’an’a ziyade yapabilir. “Râvînin rivayetine aykırı ameli”, “umûmü’l-belvâ” şartları Hanefî; “Medine ameline aykırı olmamak” Mâlikî şartıdır. Takrîrî sünnet = sükûtla onay."
+  },
+  {
+   "akil": "Kur’an hükümleri çoğunlukla genel koyar, sünnet açıklar, tahsis eder, kayıtlar ya da yeni hüküm getirir. Hanefîler haberi mütevâtir-meşhur-âhâd diye üçe ayırır ve âhâd habere ek şartlar koyar. Kur’an’ın hüküm koymada ilkeleri: adem-i haraç, taklîl-i tekâlîf, tedrîc."
+  },
+  {
+   "b": "3. İcmâ"
+  },
+  {
+   "merak": "Hz. Peygamber’in vefatının ertesi günü Sakîfe’de toplanan sahabe, kimin halife olacağı konusunda uzun tartıştı; sonunda Hz. Ebû Bekir’e biat ettiler. Usulcüler bu biati, İslam tarihindeki ilk icmâ örneklerinden sayar. Peki tek tek içtihat eden insanların ittifakı neden kesin bir delil sayılır?"
+  },
+  "İcmâ, Hz. Peygamber’in vefatından sonra herhangi bir dönemde ümmet-i Muhammed’in müctehidlerinin şer’î bir hüküm üzerinde ittifak etmesidir. Tanımdaki her kayıt önemlidir: Hz. Peygamber hayattayken icmâ olmaz, çünkü hüküm onun beyanıyla belirlenir. Müctehid olmayanların görüşü dikkate alınmaz. İttifakın bütün müctehidleri kapsaması gerekir; çoğunluğun görüşü cumhurun icmâı değil, sadece cumhur görüşüdür. Konu şer’î bir hüküm olmalıdır; dünyevî tecrübe işleri icmâın konusu değildir.",
+  {
+   "ayet": "Kim kendisine doğru yol apaçık belli olduktan sonra Peygamber’e karşı gelir ve müminlerin yolundan başka bir yola uyarsa, onu döndüğü yolda bırakırız ve cehenneme sokarız…",
+   "kay": "Nisâ, 4/115"
+  },
+  {
+   "hadis": "Ümmetim dalâlet üzerinde birleşmez.",
+   "kay": "İbn Mâce, Fiten; Tirmizî, Fiten (benzer lafızla)"
+  },
+  "İcmâ mutlaka bir dayanağa (senede) bağlı olmalıdır: bir ayete, hadise ya da kıyasa. Fakat icmâ gerçekleştikten sonra artık dayanağı değil icmâın kendisi kesin delil olur; dayanağı zannî olsa bile hüküm kat’îleşir. Gerçekleşme şekline göre icmâ ikiye ayrılır: Sarih icmâda bütün müctehidler görüşlerini sözle ya da fiille açıklar; bu kat’î delildir. Sükûtî icmâda bazı müctehidler görüş bildirir, diğerleri duyup itiraz etmez; Hanefîlere ve Hanbelîlerin çoğuna göre delildir, Şâfiî ve Mâlikîlerin bir kısmına göre değildir.",
+  {
+   "tablo": [
+    [
+     "Tartışmalı mesele",
+     "Görüşler"
+    ],
+    [
+     "Sükûtî icmâ",
+     "Hanefî: delil (zannî ya da kat’î). Şâfiî: delil değil"
+    ],
+    [
+     "İnkırâzü’l-asr (müctehidlerin ölmüş olması şartı)",
+     "Ahmed b. Hanbel ve bazı Şâfiîler şart koşar; Hanefîler ve çoğunluk şart koşmaz"
+    ],
+    [
+     "Medine ehlinin icmâı",
+     "İmam Mâlik delil sayar"
+    ],
+    [
+     "Ehl-i beyt icmâı",
+     "Şîa delil sayar"
+    ],
+    [
+     "Dört halifenin ittifakı",
+     "Bazı Hanbelîler icmâ sayar"
+    ],
+    [
+     "Üçüncü bir görüş ortaya koymak (ihdâs-ı kavl-i sâlis)",
+     "İki görüş üzerinde birleşilmişse, ikisini birden reddeden üçüncü görüş cumhura göre caiz değildir"
+    ],
+    [
+     "İcmâın imkânı",
+     "Nazzâm ve bazı Şîîler imkânını ya da delilliğini reddeder; Ahmed b. Hanbel “İcmâ iddia eden yalan söylemiş olabilir” diyerek kolay icmâ iddiasına karşı çıkar"
+    ]
+   ]
+  },
+  "İcmâ örnekleri sınavda sık sorulur: Hz. Ebû Bekir’in halifeliği, Kur’an’ın Hz. Ebû Bekir döneminde mushaf hâlinde toplanması, ninenin mirastan altıda bir alması, istisnâ (sipariş) akdinin caizliği, ehl-i kitap kadınla evlenme izninde Müslüman erkeğin şartları, oğlu olmayan durumda oğlun oğlunun oğul yerine geçmesi. İcmâ kendisinden sonra nesih edilemez ve icmâ ile nas nesh edilemez; ancak icmâ, dayanağı olan nesihin varlığını gösterebilir.",
+  {
+   "sinav": "İcmâın tanımında “Hz. Peygamber’in vefatından sonra”, “müctehidler”, “şer’î hüküm” kayıtları seçenek olarak sorulur. Sükûtî icmâyı Hanefîler kabul eder, Şâfiî kabul etmez. İnkırâzü’l-asr şartı Hanbelî ağırlıklıdır. Medine ameli icmâı Mâlik’e, ehl-i beyt icmâı Şîa’ya aittir. İcmâın mutlaka bir senedi vardır."
+  },
+  {
+   "akil": "İcmâ, Peygamber sonrası müctehidlerin şer’î bir hükümde ittifakıdır; dayanağı nas ya da kıyastır ama gerçekleşince kendisi kesin delil olur. Sarih icmâ herkesçe kat’î; sükûtî icmâ Hanefîlerce delildir, Şâfiî’ce değildir."
+  },
+  {
+   "b": "4. Kıyas ve illet"
+  },
+  {
+   "merak": "Kur’an şarabı yasakladı. Peki hurmadan, arpadan, baldan yapılan sarhoş edici içkiler ne olacak? Hatta bugün üretilen uyuşturucular? Âlimler bu soruların cevabını, şarabın neden yasaklandığını bulup bu sebebi taşıyan her şeye aynı hükmü vererek aradı: kıyas."
+  },
+  "Kıyas, hakkında nas bulunmayan bir meselenin (fer’) hükmünü, hakkında nas bulunan bir meseleye (asıl) aralarındaki ortak illet sebebiyle bağlamaktır. Kıyas yeni hüküm koymaz; nassta gizli olan hükmü ortaya çıkarır (müzhir, müsbit değil). Kıyasın dört rüknü vardır: asıl (makîs aleyh), fer’ (makîs), aslın hükmü ve illet. Kıyasın sonucunda fer’ için çıkan hüküm ise kıyasın rüknü değil, ürünüdür.",
+  {
+   "tablo": [
+    [
+     "Rükün",
+     "Tanım",
+     "Şarap-nebiz örneğinde"
+    ],
+    [
+     "Asıl (makîs aleyh)",
+     "Hükmü nasla sabit olan mesele",
+     "Şarap"
+    ],
+    [
+     "Fer’ (makîs)",
+     "Hükmü aranan mesele",
+     "Hurma rakısı, bira, nebiz"
+    ],
+    [
+     "Aslın hükmü",
+     "Asla nasla verilmiş hüküm",
+     "Haram (Mâide, 5/90)"
+    ],
+    [
+     "İllet",
+     "Asılda hükmün bağlandığı açık ve belirli vasıf; fer’de de bulunmalı",
+     "Sarhoşluk verme (iskâr)"
+    ]
+   ]
+  },
+  "İllet ile hikmet farklıdır. Hikmet, hükmün konulmasındaki amaçtır (yolcunun karşılaştığı meşakkat); ama meşakkat kişiden kişiye değiştiği için ölçülemez. İllet ise açık (zâhir) ve belirli (münzabıt) bir vasıftır (yolculuğun kendisi). Bu yüzden hükümler hikmete değil illete bağlanır: Yolculuk ne kadar rahat olursa olsun namaz kısaltılır. İlletin tespit yollarına mesâlikü’l-illet denir: nas (açıkça bildirilmesi), icmâ, îmâ ve işaret, sebr ve taksim (olası vasıfları sayıp eleyerek bulmak), münâsebet (uygunluk). İlletle ilgili üç içtihat türü de bilinmelidir:",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Anlamı",
+     "Örnek"
+    ],
+    [
+     "Tahrîcü’l-menât",
+     "Nasta bildirilmeyen illeti bulup çıkarmak",
+     "Şarap yasağının illetinin sarhoşluk olduğunu tespit etmek"
+    ],
+    [
+     "Tenkîhu’l-menât",
+     "Nasta geçen vasıflardan illet olmayanları ayıklamak",
+     "Ramazan’da eşiyle birleşen bedevî hadisinde “bedevîlik” vasfını eleyip illeti orucu kasten bozmak olarak belirlemek"
+    ],
+    [
+     "Tahkîku’l-menât",
+     "Bilinen illetin somut bir olayda bulunup bulunmadığını tespit etmek",
+     "Yeni çıkan bir içeceğin sarhoşluk verip vermediğini incelemek"
+    ]
+   ]
+  },
+  "Kıyas, illetin fer’de bulunma derecesine göre üçe ayrılır: Kıyas-ı evlâ, illetin fer’de asıldan daha güçlü bulunduğu kıyastır (öf demek haramsa dövmek evleviyetle haramdır; Hanefîler bunu kıyas değil delâletü’n-nas sayar). Kıyas-ı müsâvî, illetin eşit bulunduğu kıyastır (yetim malını yemek ile onu yakarak telef etmek). Kıyas-ı ednâ, illetin fer’de daha zayıf bulunduğu kıyastır. Hanefîlere göre had cezaları ve keffâretler kıyasla belirlenemez; ruhsatlarda da kıyas yapılmaz. Kıyası delil kabul etmeyenler Zâhirîler, Mu’tezile’den Nazzâm ve İmâmiyye Şîası’dır; Şîa onun yerine aklı delil sayar.",
+  {
+   "ayet": "…Ey basiret sahipleri, ibret alın!",
+   "kay": "Haşr, 59/2"
+  },
+  {
+   "sinav": "Kıyasın rükünleri: asıl, fer’, aslın hükmü, illet. Çeldirici olarak “icmâ”, “fer’in hükmü”, “müctehid” verilir; fer’in hükmü rükün değil sonuçtur. Tahrîc-tenkîh-tahkîk ayrımı son yıllarda soruluyor: bulmak = tahrîc, ayıklamak = tenkîh, uygulamak = tahkîk. Hükmün hikmete değil illete bağlandığını unutma."
+  },
+  {
+   "akil": "Kıyas, nassın gizli hükmünü ortak illetle yeni meseleye taşır; rükünleri asıl, fer’, aslın hükmü ve illettir. İllet açık ve ölçülebilir vasıf, hikmet ise amaçtır. Hanefîler haddlerde ve keffâretlerde kıyas yapmaz."
+  },
+  {
+   "b": "5. İstihsan ve maslahat-ı mürsele"
+  },
+  {
+   "merak": "Kural açıktır: Kuyuya necaset düşerse su kirlenir; kova da kuyunun duvarı da kirlenir. Kurala harfiyen uyulursa o kuyu bir daha asla temizlenemez. Hanefî fakihler, kuyudan belli miktar su çekilmesiyle kuyunun, kovanın ve duvarların temizlendiğine hükmetti. Kıyasın götürdüğü yerden geri dönmenin adı istihsandır."
+  },
+  "İstihsan, Kerhî’nin tanımıyla müctehidin bir meselede benzerleri hakkında verdiği hükümden, daha kuvvetli bir delil sebebiyle vazgeçip başka bir hükme ulaşmasıdır. İstihsan keyfî bir beğeni değildir; kıyastan nassa, icmâya, zarurete, örfe ya da daha güçlü bir kıyasa (kıyas-ı hafî) dönülmesidir. Hanefîler istihsanı en geniş kullanan mezheptir; Ebû Hanîfe’nin kıyas ile istihsanı ustalıkla dengelediği anlatılır. İmam Mâlik’e nispet edilen “İstihsan ilmin onda dokuzudur” sözü Mâlikîlerin de bu yöntemi kullandığını gösterir. İmam Şâfiî ise “İstihsan yapan, şeriat koymuş olur” diyerek ona karşı çıkmış, el-Ümm içinde İbtâlü’l-istihsân bölümünü yazmıştır. Ancak Şâfiî’nin reddettiği, delile dayanmayan keyfî beğenidir.",
+  {
+   "tablo": [
+    [
+     "İstihsanın türü",
+     "Neye dönülür?",
+     "Örnek"
+    ],
+    [
+     "Nas ile istihsan",
+     "Ayet veya hadis",
+     "Selem akdi (var olmayan malın satışı kıyasa aykırı, hadisle caiz); unutarak yiyenin orucunun bozulmaması"
+    ],
+    [
+     "İcmâ ile istihsan",
+     "Âlimlerin ittifakı",
+     "İstisnâ’ (sipariş) akdi; hamam ücreti (kullanılacak su miktarı belirsiz olsa da)"
+    ],
+    [
+     "Zaruret ile istihsan",
+     "Kaçınılmaz ihtiyaç",
+     "Kirlenen kuyunun belli miktar su çekilerek temizlenmesi"
+    ],
+    [
+     "Örf ile istihsan",
+     "Toplumun yerleşik uygulaması",
+     "Menkul malların (kitap, tencere) vakfının caizliği"
+    ],
+    [
+     "Kıyas-ı hafî ile istihsan",
+     "Daha gizli ama daha güçlü kıyas",
+     "Yırtıcı kuşların artığının temiz sayılması (gagaları kemik olduğu için salyaları suya karışmaz)"
+    ],
+    [
+     "Maslahat ile istihsan",
+     "Toplum yararı",
+     "Ortak işçilerin (terzi, boyacı) ellerindeki malı tazmin etmesi"
+    ]
+   ]
+  },
+  "Maslahat-ı mürsele (istislâh), Şâri’ tarafından ne açıkça kabul ne de açıkça reddedildiğine dair özel bir delil bulunan, ama şerîatın genel amaçlarına uygun düşen yarardır. Usulcüler maslahatları üçe ayırır: Mu’teber maslahat, Şâri’in kabul ettiği yarardır (canı korumak için kısas). Mülğâ maslahat, Şâri’in reddettiği yarardır (faizdeki ticari kazanç; kızın mirasta erkekle eşit pay alması iddiası). Mürsel maslahat ise hakkında özel delil bulunmayan, serbest bırakılmış yarardır.",
+  "Maslahat-ı mürseleyi en geniş kullanan Mâlikî mezhebidir; Hanbelîler de kabul eder. Gazzâlî onu yalnız zarûrî, küllî (bütün toplumu ilgilendiren) ve kat’î maslahatlarda kabul eder ve buna “siper edilen Müslüman esirler” örneğini verir. Hanefî ve Şâfiîler maslahatı bağımsız delil saymasa da istihsan ve kıyas içinde gözetir. Mürsel maslahat örnekleri: Kur’an’ın mushafta toplanması ve Hz. Osman döneminde çoğaltılması, Hz. Ömer’in divan teşkilatı kurması, hapishane yapılması, para basılması, trafik ve tapu kuralları, nikâhın resmî kayda geçirilmesi.",
+  {
+   "sinav": "Yırtıcı kuş artığı = kıyas-ı hafî ile istihsan; kuyu temizliği = zaruret istihsanı; istisnâ’ akdi = icmâ istihsanı; selem = nas istihsanı. “Hakkında özel delil yok, genel amaçlara uygun yarar” = maslahat-ı mürsele. Bulaşıcı hastalıklı hayvanların itlafı, trafik kuralları, resmî nikâh gibi modern örnekler maslahata bağlanır. Şâfiî istihsanı reddeder; Mâlik maslahatın imamıdır."
+  },
+  {
+   "akil": "İstihsan, kıyasın sonucundan daha güçlü bir delil için vazgeçmektir; Hanefîlerin alâmetidir. Maslahat-ı mürsele, hakkında özel delil olmayan ama şerîatın amaçlarına uyan yarardır; Mâlikîlerin alâmetidir. Mülğâ maslahat asla delil olmaz."
+  },
+  {
+   "b": "6. Örf, istishâb, sedd-i zerâi’, şer’u men kablenâ, kavl-i sahâbî, Medine ameli"
+  },
+  {
+   "merak": "Bir köyde “et” denince yalnız koyun eti anlaşılıyorsa, “et yemeyeceğim” diye yemin eden kişi balık yerse yemini bozulur mu? Fakihler bu soruyu sözlüğe değil, insanların konuşma âdetine bakarak cevaplar."
+  },
+  "Örf, insanların benimseyip sürdürdüğü söz ya da davranıştır; âdet ile genellikle eş anlamlı kullanılır. Örf; kavlî (sözlü: “et” kelimesinin balığı kapsamaması) ve amelî (fiilî: satılan arabanın anahtarının da teslim edilmesi), âm (genel) ve hâs (bir yöreye ya da mesleğe özgü), sahih (nassa aykırı olmayan) ve fâsit (nassa aykırı: faizli işlem, içkili düğün) olarak bölümlenir. Yalnız sahih örf delil olur. Hanefî ve Mâlikîler örfe geniş yer verir; İbn Âbidîn’in Neşrü’l-arf risalesi bu konudadır.",
+  {
+   "tablo": [
+    [
+     "Mecelle kaidesi (örf)",
+     "Anlamı"
+    ],
+    [
+     "Âdet muhakkemdir (md. 36)",
+     "Örf ve âdet hükme esas olur"
+    ],
+    [
+     "İnsanların âdeti uyulması gereken bir hüccettir (md. 37)",
+     "Yaygın uygulama bağlayıcıdır"
+    ],
+    [
+     "Ezmânın tagayyürü ile ahkâmın tagayyürü inkâr olunamaz (md. 39)",
+     "Örfe dayalı hükümler zamanla değişir"
+    ],
+    [
+     "Örfen maruf olan şey şart kılınmış gibidir (md. 43)",
+     "Söylenmese de örfte bilinen şart bağlar"
+    ],
+    [
+     "Tüccar beyninde maruf olan şey aralarında meşrut gibidir (md. 44)",
+     "Meslek örfü"
+    ],
+    [
+     "Örf ile tayin nas ile tayin gibidir (md. 45)",
+     "Örf, nassın boş bıraktığı yeri doldurur"
+    ]
+   ]
+  },
+  {
+   "ayet": "Sen affı tut, iyiliği (örfü) emret, cahillerden yüz çevir.",
+   "kay": "A’râf, 7/199"
+  },
+  "İstishâb, varlığı veya yokluğu bilinen bir durumun, aksine delil bulununcaya kadar devam ettiğine hükmetmektir. Türleri: berâet-i asliyye (insanın borçsuz ve yükümsüz olması aslıdır; delil olmadıkça borç ve ceza yoktur), ibâha-i asliyye (eşyada asıl mubahlıktır), vasf istishâbı (abdestli olduğunu bilen, şüphe etse de abdestli sayılır; nikâh varlığı), hükmün istishâbı ve ihtilaf konusunda icmâ istishâbı (çoğunluk reddeder). Şâfiî ve Hanbelîler istishâbı geniş kullanır. Hanefîlere göre ise istishâb “def’ için hüccettir, isbat için değil”: mevcut durumu korur ama yeni bir hak doğurmaz. Bu yüzden kayıp kişi (mefkûd) kendi malı bakımından sağ kabul edilir, malı paylaştırılmaz; ama o arada ölen bir yakınına mirasçı olamaz.",
+  {
+   "tablo": [
+    [
+     "Mecelle kaidesi (istishâb)",
+     "Anlamı"
+    ],
+    [
+     "Yakîn şek ile zâil olmaz (md. 4)",
+     "Kesin bilgi şüpheyle ortadan kalkmaz"
+    ],
+    [
+     "Bir şeyin bulunduğu hâl üzere kalması asıldır (md. 5)",
+     "Aksi ispatlanana kadar durum devam eder"
+    ],
+    [
+     "Beraet-i zimmet asıldır (md. 8)",
+     "Kişi borçsuz kabul edilir; iddia eden ispatlar"
+    ],
+    [
+     "Kadîm, kıdemi üzere terk olunur (md. 6)",
+     "Eskiden beri var olan, eskisi gibi bırakılır"
+    ]
+   ]
+  },
+  "Sedd-i zerâi’, kendisi mubah olduğu hâlde çoğunlukla harama götüren yolların kapatılmasıdır; tersi, farzı yerine getirmek için gereken yolları açmak ise feth-i zerâi’dir. Mâlikî ve Hanbelîler bunu bağımsız delil sayar. Kur’an’dan örnek: “Allah’tan başkasına tapanlara sövmeyin; sonra onlar da bilmeden Allah’a söverler.” (En’âm, 6/108). Fıkıhta örnek: îne satışı (vadeli sattığı malı peşin ve daha ucuza geri almak, faize götürdüğü için), Ramazan’da şehvetine hâkim olamayan oruçlunun eşini öpmesi, ihtikâr için mal stoklamak, iddet bekleyen kadına açıkça evlenme teklif etmemek.",
+  "Şer’u men kablenâ, önceki peygamberlerin şeriatlarındaki hükümlerdir. Hanefîler, Mâlikîler ve Hanbelîlerin çoğu, Kur’an ve sahih sünnette inkâr edilmeden aktarılan önceki şeriat hükümlerini bizim için de bağlayıcı sayar. Hanefîler “cana can” ayetinin (Mâide, 5/45) Tevrat’tan aktarılmasına dayanarak Müslümanın zimmîyi öldürmesi hâlinde kısas uygulanacağını, Hz. Sâlih kıssasındaki su paylaşımından (Kamer, 54/28) yararlanarak suyun nöbetle paylaştırılabileceğini söyler. İmam Şâfiî’nin son görüşüne göre ise önceki şeriatlar bizim için delil değildir.",
+  "Kavl-i sahâbî (mezheb-i sahâbî), bir sahabînin içtihada dayalı fetvasıdır. Ebû Hanîfe “Allah’ın Kitabı’nda ve Resûlullah’ın sünnetinde bulamazsam sahabenin sözleri arasından dilediğimi alırım; onların sözlerinden çıkıp başkalarının sözüne geçmem” der. Hanefîler, Mâlikîler ve Hanbelîler sahabe sözünü delil sayar; özellikle kıyasla bilinemeyecek konulardaki sahabe sözü Hz. Peygamber’den duyulmuş kabul edilir (hayızın en az süresi gibi). Şâfiî yeni görüşünde sahabe sözünü bağlayıcı saymaz. Ancak sahabenin ittifak ettiği görüş icmâdır; sahabenin bir başka sahabiye karşı görüşü ise delil olmaz.",
+  "Medine ameli (amel-i ehl-i Medine), İmam Mâlik’in Medine halkının uygulamasını âhâd habere bile tercih edecek kadar güçlü delil saymasıdır. Mâlik’e göre Medine, vahyin indiği ve sünnetin canlı yaşandığı şehirdir; oradaki uygulama binlerin binlerden aktardığı canlı bir sünnettir. Bu amel ikiye ayrılır: nakle dayanan amel (ezanın şekli, sa’ ve müd ölçüleri, sebzelerden zekât alınmaması) ve içtihada dayanan amel. Nakle dayananı Mâlikîler kesin delil sayar. Mısır fakihi Leys b. Sa’d’ın İmam Mâlik’e yazdığı mektupta, sahabenin başka şehirlere de dağıldığını hatırlatarak bu delile itiraz ettiği nakledilir.",
+  {
+   "sinav": "Hanefî istishâb formülü “def’ için hüccet, isbat için değil”; mefkûd örneğiyle sorulur. “Abdestli olduğunu bilip şüphe eden abdestlidir” = istishâb (vasf istishâbı). Putlara sövme yasağı (En’âm, 6/108) ve îne satışı = sedd-i zerâi’. Mâide, 5/45 ile zimmî için kısas = şer’u men kablenâ. “Sahabenin sözlerinden çıkmam” = Ebû Hanîfe ve kavl-i sahâbî. Âhâd habere tercih edilen uygulama = Medine ameli (Mâlik)."
+  },
+  {
+   "kontrol": "Leys b. Sa’d mektubunun ayrıntıları kaynaklarda farklı aktarılır; sınav için Leys’in Medine ameli delilini eleştirdiğini bilmek yeterlidir."
+  },
+  {
+   "akil": "Sahih örf hükme esastır ve zamanla değişen hükümler ona bağlıdır. İstishâb var olanın devamıdır; Hanefîlerde yalnız savunma delilidir. Sedd-i zerâi’ harama götüren yolu kapatır (Mâlikî-Hanbelî). Önceki şeriatlar ve sahabe sözü Hanefîlerce delildir; Medine ameli Mâlik’in özel delilidir."
+  }
+ ],
+ "ozet": [
+  "Muâz hadisi: Kitap, sünnet, içtihat sırası (Ebû Dâvûd, Akdiye).",
+  "Muttefekun aleyh dört delil: Kitap, sünnet, icmâ, kıyas; Nisâ, 4/59 dördüne işaret sayılır.",
+  "Hanefîlere göre şâz kıraat haber-i vâhid gibi amelde delildir: yemin keffâreti orucu peş peşe tutulur.",
+  "Kur’an’ın hüküm koyma ilkeleri: adem-i haraç, taklîl-i tekâlîf, tedrîc (içki yasağı dört aşamada).",
+  "Sünnetin işlevleri: te’kîd, beyân (tafsîl, tahsîs, takyîd), teşrî’ (hala-yeğen birleştirme yasağı).",
+  "Hanefîler haberi mütevâtir, meşhur, âhâd diye üçe ayırır; meşhurla Kur’an’a ziyade caizdir.",
+  "Hanefî âhâd şartları: râvînin rivayetine aykırı amel etmemesi, umûmü’l-belvâ konusu olmaması; Mâlikî şartı: Medine ameline aykırı olmaması.",
+  "İcmâ: Peygamber sonrası müctehidlerin şer’î hükümde ittifakı; senedi olmalı; sükûtî icmâ Hanefîlerce delil, Şâfiî’ce değil; inkırâzü’l-asr Hanbelî şartı.",
+  "Kıyasın rükünleri: asıl, fer’, aslın hükmü, illet; fer’in hükmü sonuçtur.",
+  "İllet açık ve ölçülebilir vasıf, hikmet amaçtır; tahrîc (bulmak), tenkîh (ayıklamak), tahkîk (uygulamak).",
+  "Kıyası reddedenler: Zâhirîler, Nazzâm, İmâmiyye; Hanefîler haddlerde ve keffâretlerde kıyas yapmaz.",
+  "İstihsan Hanefî: nas (selem), icmâ (istisnâ’), zaruret (kuyu), örf, kıyas-ı hafî (yırtıcı kuş artığı); Şâfiî: “İstihsan yapan şeriat koyar.”",
+  "Maslahat-ı mürsele Mâlikî: mushafın cem’i, divan, hapishane; maslahatlar mu’teber, mülğâ, mürsel.",
+  "Örf: sahih olan delil; “Âdet muhakkemdir” (Mecelle 36), “Ezmânın tagayyürüyle ahkâmın tagayyürü inkâr olunamaz” (39).",
+  "İstishâb: “Yakîn şekle zâil olmaz”; Hanefîlerde def’ için hüccet, isbat için değil (mefkûd).",
+  "Sedd-i zerâi’ (Mâlikî-Hanbelî): En’âm, 6/108; îne satışı.",
+  "Şer’u men kablenâ: Hanefîlere göre inkâr edilmeyen önceki şeriat bağlayıcı (Mâide, 5/45); Şâfiî kabul etmez.",
+  "Kavl-i sahâbî Hanefî, Mâlikî, Hanbelî’de delil; Medine ameli yalnız Mâlikîlerde delildir."
+ ],
+ "kartlar": [
+  {
+   "o": "Muttefekun aleyh deliller",
+   "a": "Kitap, sünnet, icmâ, kıyas."
+  },
+  {
+   "o": "Meşhur haber (Hanefî)",
+   "a": "İlk tabakada âhâd, sonraki iki nesilde mütevâtir derecesine ulaşan haber; Kur’an’a ziyade yapabilir."
+  },
+  {
+   "o": "Şâz kıraat Hanefîlerde",
+   "a": "Haber-i vâhid hükmünde, amelde delil: yemin keffâreti orucu peş peşe."
+  },
+  {
+   "o": "Sükûtî icmâ",
+   "a": "Bir kısmının görüş bildirip diğerlerinin susması; Hanefî delil sayar, Şâfiî saymaz."
+  },
+  {
+   "o": "İnkırâzü’l-asr",
+   "a": "İcmâya katılan müctehidlerin ölmüş olması şartı; Ahmed b. Hanbel ve bazı Şâfiîler."
+  },
+  {
+   "o": "Kıyasın rükünleri",
+   "a": "Asıl, fer’, aslın hükmü, illet."
+  },
+  {
+   "o": "Tenkîhu’l-menât",
+   "a": "Nasta geçen vasıflardan illet olmayanları ayıklamak (bedevî vasfının elenmesi)."
+  },
+  {
+   "o": "Tahkîku’l-menât",
+   "a": "Bilinen illetin yeni olayda bulunup bulunmadığını tespit etmek."
+  },
+  {
+   "o": "Yırtıcı kuş artığının temizliği",
+   "a": "Kıyas-ı hafî ile istihsan."
+  },
+  {
+   "o": "İstisnâ’ (sipariş) akdi",
+   "a": "İcmâ ile istihsan."
+  },
+  {
+   "o": "Maslahat türleri",
+   "a": "Mu’teber (kabul edilen), mülğâ (reddedilen), mürsel (hakkında özel delil yok)."
+  },
+  {
+   "o": "İstishâb Hanefîlerde",
+   "a": "Def’ için hüccet, isbat için değil: mefkûdun malı paylaşılmaz ama o mirasçı olamaz."
+  },
+  {
+   "o": "Sedd-i zerâi’",
+   "a": "Mubah olup harama götüren yolu kapatmak; Mâlikî-Hanbelî; En’âm, 6/108."
+  },
+  {
+   "o": "Şer’u men kablenâ örneği (Hanefî)",
+   "a": "Mâide, 5/45 ile Müslümana zimmî için kısas; Kamer, 54/28 ile suyun nöbetle paylaşımı."
+  },
+  {
+   "o": "“İstihsan ilmin onda dokuzudur”",
+   "a": "İmam Mâlik’e nispet edilir."
+  },
+  {
+   "o": "“İstihsan yapan şeriat koymuş olur”",
+   "a": "İmam Şâfiî; İbtâlü’l-istihsân."
+  },
+  {
+   "o": "Medine ameli",
+   "a": "Mâlik’in özel delili; nakle dayanan amel âhâd habere tercih edilir."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "f2-01",
+   "z": 1,
+   "s": "Üzerinde ittifak edilen dört temel fıkıh delili aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Kitap, Sünnet, İstihsan, Örf",
+    "Kitap, Sünnet, İcmâ, Kıyas",
+    "Kitap, İcmâ, İstishâb, Kıyas",
+    "Sünnet, İcmâ, Maslahat, Örf",
+    "Kitap, Sünnet, Sahabe kavli, İstihsan"
+   ],
+   "d": 1,
+   "a": "Dört ana delil Kitap, Sünnet, İcmâ ve Kıyastır; diğerleri mezheplere göre değişen tâli delillerdir.",
+   "ac": [
+    "İstihsan ve örf tâli delildir.",
+    "Doğru.",
+    "İstishâb tâli delildir.",
+    "Maslahat ve örf tâli delildir.",
+    "Sahabe kavli ve istihsan tâli delildir."
+   ],
+   "kay": "Nisâ, 4/59"
+  },
+  {
+   "id": "f2-02",
+   "z": 1,
+   "s": "Fıkıh usulünü ilk defa sistematik bir eserde ele alan er-Risâle adlı kitabın müellifi kimdir?",
+   "c": [
+    "Ebû Hanîfe",
+    "Mâlik b. Enes",
+    "Ahmed b. Hanbel",
+    "İmam Şâfiî",
+    "Ebû Yûsuf"
+   ],
+   "d": 3,
+   "a": "er-Risâle İmam Şâfiî’nindir ve fıkıh usulünün ilk sistematik eseri kabul edilir.",
+   "ac": [
+    "Ebû Hanîfe’nin usule dair müstakil bir eseri yoktur.",
+    "Mâlik’in eseri Muvatta’dır.",
+    "Ahmed b. Hanbel’in eseri Müsned’dir.",
+    "Doğru.",
+    "Ebû Yûsuf’un meşhur eseri Kitâbü’l-Harâc’dır."
+   ],
+   "kay": "Şâfiî, er-Risâle"
+  },
+  {
+   "id": "f2-03",
+   "z": 2,
+   "s": "Bir müctehid, hurmadan yapılan sarhoş edici bir içeceğin hükmünü araştırmış; şarabın haram kılınmasının sarhoşluk vermesinden kaynaklandığını tespit etmiş ve bu içeceği de haram saymıştır.\n\nBu akıl yürütmede aşağıdakilerden hangisi kıyasın rükünlerinden biri değildir?",
+   "c": [
+    "Şarap",
+    "Hurmadan yapılan içecek",
+    "Sarhoşluk verme",
+    "Şarabın haram oluşu",
+    "Hurma içeceğinin haram oluşu"
+   ],
+   "d": 4,
+   "a": "Kıyasın rükünleri asıl (şarap), fer’ (hurma içeceği), illet (sarhoşluk) ve aslın hükmüdür (şarabın haramlığı). Fer’e verilen hüküm kıyasın rüknü değil, kıyasın sonucudur.",
+   "ac": [
+    "Asıl (makîs aleyh) rükündür.",
+    "Fer’ (makîs) rükündür.",
+    "İllet rükündür.",
+    "Aslın hükmü rükündür.",
+    "Doğru: fer’in hükmü kıyasın ürünüdür, rüknü değildir."
+   ],
+   "kay": "Fıkıh usulü: kıyas"
+  },
+  {
+   "id": "f2-04",
+   "z": 2,
+   "s": "Fıkıhta kural olarak yırtıcı hayvanların artıkları, salyaları karıştığı için temiz sayılmaz. Ancak yırtıcı kuşlar suyu kemikten oluşan gagalarıyla içtiklerinden artıklarına salya karışmaz; bu yüzden onların artığı temiz kabul edilmiştir.\n\nBu hükme hangi delille ulaşılmıştır?",
+   "c": [
+    "Örf",
+    "İstihsan",
+    "İstishâb",
+    "Sedd-i zerâi",
+    "Mesâlih-i mürsele"
+   ],
+   "d": 1,
+   "a": "Açık kıyas yırtıcı kuş artığını da necis sayardı; daha güçlü bir gerekçeyle (gizli kıyas) bu kıyasın bırakılması istihsandır.",
+   "ac": [
+    "Örf toplum uygulamasıdır.",
+    "Doğru: açık kıyas bırakılmış, gizli kıyas tercih edilmiştir.",
+    "İstishâb önceki durumun sürmesidir.",
+    "Sedd-i zerâi harama giden yolu kapatır.",
+    "Mesâlih-i mürsele genel faydaya dayanır."
+   ],
+   "kay": "Serahsî, el-Mebsût (Tahâret)"
+  },
+  {
+   "id": "f2-05",
+   "z": 2,
+   "s": "Abdestli olduğunu kesin olarak bilen bir kişi, sonradan abdestinin bozulup bozulmadığından şüphe etmiştir. Âlimler, bu kişinin abdestli sayılacağını söylemiştir.\n\nBu hükmün dayandığı delil hangisidir?",
+   "c": [
+    "Kıyas",
+    "İstihsan",
+    "Örf",
+    "İstishâb",
+    "Sedd-i zerâi"
+   ],
+   "d": 3,
+   "a": "Aksi kesin olarak bilinene kadar önceki durumun devam ettiğini kabul etmek istishâbtır: “Yakîn şekle zail olmaz.”",
+   "ac": [
+    "Burada iki mesele arasında illet bağı kurulmuyor.",
+    "İstihsan kıyası bırakmaktır.",
+    "Örf toplum uygulamasıdır.",
+    "Doğru.",
+    "Sedd-i zerâi harama giden yolu kapatmaktır."
+   ],
+   "kay": "Mecelle, md. 4"
+  },
+  {
+   "id": "f2-06",
+   "z": 2,
+   "s": "Salgın bir hastalık taşıyan ve insanlara bulaştırma riski yüksek olan hayvanların itlaf edilmesini, hakkında açık nas bulunmamasına rağmen toplumun genel yararı gerekçesiyle caiz gören âlimlerin dayandığı delil aşağıdakilerden hangisidir?",
+   "c": [
+    "Mesâlih-i mürsele",
+    "İstishâb",
+    "Şer’u men kablenâ",
+    "Sahabe kavli",
+    "Örf"
+   ],
+   "d": 0,
+   "a": "Nas bulunmayan bir konuda dinin amaçlarına uygun genel faydaya göre hüküm vermek istıslâh (mesâlih-i mürsele) ile olur.",
+   "ac": [
+    "Doğru.",
+    "İstishâb önceki durumu sürdürmektir.",
+    "Önceki ümmetlerin şeriatı söz konusu değil.",
+    "Bir sahabinin içtihadı aktarılmıyor.",
+    "Toplum uygulaması değil, fayda gerekçesi var."
+   ],
+   "kay": "Fıkıh usulü: istıslâh"
+  },
+  {
+   "id": "f2-09",
+   "z": 2,
+   "s": "İcmânın gerçekleşmesiyle ilgili bazı usulcüler, icmânın kesinleşmesi için ona katılan bütün müctehidlerin ölmüş olmasını şart koşmuştur; gerekçeleri, bir müctehidin görüşünden dönmesiyle icmânın bozulabileceğidir.\n\nBu şart hangi kavramla ifade edilir?",
+   "c": [
+    "İnkıtâ’",
+    "İstihsan",
+    "İnkırâzü’l-asr",
+    "Tevakkuf",
+    "Sükûtî icmâ"
+   ],
+   "d": 2,
+   "a": "İcmâya katılan neslin tamamen vefat etmesi şartına inkırâzü’l-asr denir.",
+   "ac": [
+    "İnkıtâ’ senetteki kopukluktur.",
+    "İstihsan ayrı bir delildir.",
+    "Doğru.",
+    "Tevakkuf hüküm vermeyi ertelemektir.",
+    "Sükûtî icmâ susarak katılımdır."
+   ],
+   "kay": "Fıkıh usulü: icmâ"
+  },
+  {
+   "id": "f2-15",
+   "z": 2,
+   "s": "Kıyasın gerektirdiği hükümden daha güçlü bir delil sebebiyle vazgeçip başka bir hükme ulaşma yöntemi olan ve özellikle Hanefîlerin kullandığı delil hangisidir?",
+   "c": [
+    "Maslahat-ı mürsele",
+    "İstishab",
+    "Şer‘u men kablenâ",
+    "Sedd-i zerâi",
+    "İstihsan"
+   ],
+   "d": 4,
+   "a": "Örneğin istisnâ (sipariş) akdi kıyasa göre caiz değilken örf ve ihtiyaç sebebiyle istihsanla caiz görülmüştür.",
+   "ac": [
+    "Mâlikîlerle özdeşleşen delildir.",
+    "Mevcut durumun devam ettiğine hükmetmektir.",
+    "Önceki ümmetlerin şeriatıdır.",
+    "Harama götüren yolları kapatmaktır.",
+    "Hanefîlerin kullandığı tercih yöntemidir."
+   ],
+   "kay": "Fıkıh usulü"
+  },
+  {
+   "id": "fk2-01",
+   "z": 3,
+   "s": "Bir fakih şöyle demektedir: “Bu delil, var olan bir durumu korumaya yarar; onunla yeni bir hak kazanılmaz. Bu yüzden haber alınamayan kayıp kişi kendi malı bakımından hayatta sayılır ve malı mirasçılarına paylaştırılmaz; ama bu süre içinde ölen bir akrabasına da mirasçı olamaz.”\n\nBu fakihin sözünü ettiği delil ve görüşün ait olduğu mezhep aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Maslahat-ı mürsele – Mâlikî",
+    "Sedd-i zerâi’ – Hanbelî",
+    "İstihsan – Hanefî",
+    "İstishâb – Şâfiî",
+    "İstishâb – Hanefî"
+   ],
+   "d": 4,
+   "a": "Hanefîlere göre istishâb “def’ için hüccettir, isbat için değil”; mevcut durumu (mefkûdun hayatta olması) korur ama ona yeni hak (miras) kazandırmaz. Şâfiîler istishâbı isbat için de delil saydığından mefkûdun mirasçı olabileceğini söyler.",
+   "ac": [
+    "Maslahat-ı mürsele hakkında özel delil bulunmayan yarardır; mevcut durumu koruma ile ilgisi yoktur.",
+    "Sedd-i zerâi’ harama götüren yolu kapatmaktır.",
+    "İstihsan kıyastan daha güçlü delile dönmektir; burada önceki durumun devamı esas alınmıştır.",
+    "Şâfiîler istishâbı isbat için de kullanır; kayıp kişiyi mirasçı yapar.",
+    "Doğru: istishâbın Hanefî yorumu."
+   ],
+   "kay": "Konu: İstishâb; Mecelle, md. 5"
+  },
+  {
+   "id": "fk2-02",
+   "z": 3,
+   "s": "Hz. Peygamber’e gelen bir bedevî “Ramazan’da gündüz eşimle birleştim” demiş, Peygamberimiz ona keffâret emretmiştir. Bir müctehid, bu olayda geçen “bedevî olmak”, “kendi eşiyle birleşmek” gibi vasıfların hükümle ilgisiz olduğunu, keffâretin asıl sebebinin Ramazan orucunu kasten bozmak olduğunu belirlemiş; böylece kasten yiyip içenin de keffâret ödemesi gerektiği sonucuna varmıştır.\n\nBu müctehidin illetle ilgili yaptığı işlem aşağıdakilerden hangisidir?",
+   "c": [
+    "Tenkîhu’l-menât",
+    "Tahkîku’l-menât",
+    "Tahrîcü’l-menât",
+    "Sebr ve taksim ile nesih",
+    "Delâletü’n-nas"
+   ],
+   "d": 0,
+   "a": "Nasta geçen vasıflardan illet olmayanları ayıklayıp asıl illeti belirlemeye tenkîhu’l-menât denir. Hanefîler bu yolla, kasten yiyip içmeye de keffâret gerektiğini söyler; Şâfiîler keffâreti cinsel birleşmeyle sınırlar.",
+   "ac": [
+    "Doğru: ilgisiz vasıflar elenerek illet belirlenmiştir.",
+    "Tahkîk, bilinen illetin somut olayda varlığını tespit etmektir.",
+    "Tahrîc, nasta hiç anılmayan illeti bulup çıkarmaktır; burada vasıflar nasta mevcuttur ve ayıklanmıştır.",
+    "Sebr ve taksim illet bulma yollarından biridir ama nesihle ilgisi yoktur; ayrıca burada bir ayıklama söz konusudur.",
+    "Delâletü’n-nas lafzın anlamından çıkan evleviyet yoludur; illetin vasıflardan arındırılması değildir."
+   ],
+   "kay": "Buhârî, Savm; Konu: Kıyas ve illet"
+  },
+  {
+   "id": "fk2-03",
+   "z": 3,
+   "s": "Aşağıdaki delil – onu en geniş kullanan ya da ona özgü olan mezhep eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "İstihsan – Hanefî",
+    "Medine ameli – Mâlikî",
+    "Maslahat-ı mürsele – Mâlikî",
+    "Sükûtî icmâyı reddetmek – Hanefî",
+    "Sedd-i zerâi’ – Hanbelî"
+   ],
+   "d": 3,
+   "a": "Sükûtî icmâyı delil sayan mezhep Hanefîlerdir; reddeden Şâfiî’dir. Diğer eşleştirmeler doğrudur.",
+   "ac": [
+    "Doğru: istihsan Hanefîlerin alâmetidir.",
+    "Doğru: Medine ameli yalnız Mâlikîlerde delildir.",
+    "Doğru: istislâhı en geniş kullanan Mâlikîlerdir.",
+    "Yanlış: Hanefîler sükûtî icmâyı kabul eder; İmam Şâfiî reddeder.",
+    "Doğru: sedd-i zerâi’ Mâlikî ve Hanbelîlerde bağımsız delildir."
+   ],
+   "kay": "Konu: Tartışmalı deliller"
+  },
+  {
+   "id": "fk2-04",
+   "z": 3,
+   "s": "Sünnetin Kur’an karşısındaki işlevleriyle ilgili aşağıdaki eşleştirmeleri değerlendiriniz:\nI. Hırsızın elinin bilekten kesilmesi – mutlakın takyîdi\nII. Bir kadınla halasının aynı nikâh altında birleştirilmesinin yasaklanması – müstakil hüküm (teşrî’)\nIII. “Katil mirasçı olamaz” hadisi – âmmın tahsîsi\nIV. Namazın rekât sayılarının bildirilmesi – te’kîd\n\nBu eşleştirmelerden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "II ve IV",
+    "I, II ve III",
+    "I, III ve IV",
+    "II, III ve IV"
+   ],
+   "d": 2,
+   "a": "El kesmenin bilekle sınırlanması ayetteki mutlak “el” kelimesini kayıtlar; hala-yeğen birleştirme yasağı Kur’an’da olmayan yeni hükümdür; katilin mirastan mahrumiyeti miras ayetlerinin umumunu daraltır. Rekât sayılarının bildirilmesi ise mücmelin tafsîlidir, te’kîd değildir.",
+   "ac": [
+    "III de doğrudur; eksik.",
+    "IV yanlıştır ve I, III dışarıda bırakılmıştır.",
+    "Doğru: ilk üç eşleştirme doğrudur.",
+    "IV yanlıştır: rekât sayıları mücmeli açıklar (tafsîl).",
+    "IV yanlıştır; I doğru olduğu hâlde dışarıda bırakılmıştır."
+   ],
+   "kay": "Konu: Sünnet"
+  },
+  {
+   "id": "fk2-05",
+   "z": 3,
+   "s": "İmam Mâlik’e göre bu delil, binlerin binlerden aktardığı canlı bir sünnet gibidir; ezanın şekli, sa’ ve müd ölçüleri bu yolla bilinir. Mâlikîler bu delile aykırı düşen âhâd haberi terk eder. Mısırlı fakih Leys b. Sa’d ise sahabenin başka şehirlere de dağıldığını hatırlatarak bu delilin mutlak kabulüne itiraz etmiştir.\n\nParçada sözü edilen delil aşağıdakilerden hangisidir?",
+   "c": [
+    "Kavl-i sahâbî",
+    "Medine ameli",
+    "Sükûtî icmâ",
+    "Örf-i hâs",
+    "Mütevâtir sünnet"
+   ],
+   "d": 1,
+   "a": "Medine halkının uygulaması (amel-i ehl-i Medine), Mâlik’e özgü bir delildir; nakle dayanan Medine ameli âhâd habere tercih edilir.",
+   "ac": [
+    "Kavl-i sahâbî tek bir sahabinin fetvasıdır; şehir halkının uygulaması değildir.",
+    "Doğru: Mâlik’in özel delili.",
+    "Sükûtî icmâ bütün müctehidlerin sessiz onayıdır; bir şehre özgü değildir.",
+    "Örf-i hâs bir yöreye özgü âdettir; Mâlik Medine amelini örften öte, sünnet nakli olarak görür.",
+    "Mütevâtir sünnet bütün mezheplerce kat’î delildir; burada Mâlikîlere özgü bir delil anlatılmaktadır."
+   ],
+   "kay": "Konu: Medine ameli"
+  },
+  {
+   "id": "fk2-06",
+   "z": 2,
+   "s": "Kur’an’da “Allah’tan başkasına tapanlara sövmeyin; sonra onlar da haddi aşarak bilmeden Allah’a söverler.” (En’âm, 6/108) buyrulmuştur.\n\nBu ayetten çıkarılan ve kendisi mubah olsa da harama götüren yolların kapatılmasını ifade eden delil aşağıdakilerden hangisidir?",
+   "c": [
+    "İstishâb",
+    "Maslahat-ı mürsele",
+    "Sedd-i zerâi’",
+    "Şer’u men kablenâ",
+    "İstihsan"
+   ],
+   "d": 2,
+   "a": "Haram bir sonuca götüren mubah fiillerin yasaklanmasına sedd-i zerâi’ denir; Mâlikî ve Hanbelîler bağımsız delil sayar.",
+   "ac": [
+    "İstishâb önceki durumun devamıdır.",
+    "Maslahat-ı mürsele yarar sağlamaya yöneliktir; burada zararın yolu kapatılmaktadır.",
+    "Doğru: kötülüğe giden yol kapatılmıştır.",
+    "Şer’u men kablenâ önceki şeriat hükümleridir.",
+    "İstihsan kıyastan daha güçlü delile dönmektir."
+   ],
+   "kay": "En’âm, 6/108"
+  },
+  {
+   "id": "fk2-07",
+   "z": 3,
+   "s": "Hanefîlere göre Kur’an’daki “cana can, göze göz…” hükmü (Mâide, 5/45) aslında Tevrat’ta yahudilere bildirilmiş bir hükümdür. Ancak Kur’an bu hükmü reddetmeden aktardığı için bizim için de bağlayıcıdır; bu yüzden zimmîyi kasten öldüren Müslümana kısas uygulanır.\n\nHanefîlerin burada başvurduğu delil ile bu delile karşı çıkan imam aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Kavl-i sahâbî – Ahmed b. Hanbel",
+    "Şer’u men kablenâ – Ebû Yûsuf",
+    "İstihsan – Şâfiî",
+    "Şer’u men kablenâ – Şâfiî",
+    "Örf – Mâlik"
+   ],
+   "d": 3,
+   "a": "Önceki şeriatlarda olup Kur’an ve sünnette reddedilmeden aktarılan hükümler şer’u men kablenâ olarak Hanefîlerce bağlayıcıdır. İmam Şâfiî son görüşünde bunu delil saymaz.",
+   "ac": [
+    "Delil sahabe sözü değildir; Ahmed b. Hanbel de bu delili büyük ölçüde kabul eder.",
+    "Ebû Yûsuf Hanefî imamıdır ve bu delile karşı çıkmaz.",
+    "İstihsan kıyastan dönüştür; burada önceki şeriat hükmü söz konusudur.",
+    "Doğru.",
+    "Delil örf değildir."
+   ],
+   "kay": "Mâide, 5/45"
+  },
+  {
+   "id": "fk2-08",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi icmâın tanımında yer alan kayıtlardan biri değildir?",
+   "c": [
+    "İcmâya katılan müctehidlerin hepsinin vefat etmiş olması",
+    "Müctehidlerin ittifakı olması",
+    "Şer’î bir hüküm hakkında olması",
+    "Bütün müctehidlerin ittifak etmesi",
+    "Hz. Peygamber’in vefatından sonra gerçekleşmesi"
+   ],
+   "d": 0,
+   "a": "İcmâ, Hz. Peygamber’in vefatından sonra bir dönemdeki bütün müctehidlerin şer’î bir hüküm üzerindeki ittifakıdır. Müctehidlerin ölmüş olması (inkırâzü’l-asr) tanımın kaydı değil, bazı usulcülerin (özellikle Hanbelî) ileri sürdüğü tartışmalı bir şarttır.",
+   "ac": [
+    "Doğru: inkırâzü’l-asr tartışmalı bir şarttır; çoğunluk aramaz.",
+    "Tanımın kaydıdır: avamın görüşü dikkate alınmaz.",
+    "Tanımın kaydıdır: dünyevî işler icmâın konusu değildir.",
+    "Tanımın kaydıdır: çoğunluk görüşü icmâ sayılmaz.",
+    "Tanımın kaydıdır: Peygamber hayattayken icmâ olmaz."
+   ],
+   "kay": "Konu: İcmâ"
+  },
+  {
+   "id": "fk2-09",
+   "z": 3,
+   "s": "Hanefî mezhebine göre haber-i vâhidle ilgili aşağıdaki ifadeleri değerlendiriniz:\nI. Herkesin sık karşılaştığı (umûmü’l-belvâ) bir konuda yalnız tek kişinin rivayet ettiği haber zayıflatıcı bir kusur taşır.\nII. Râvî, rivayet ettiği hadise aykırı amel etmişse amel esas alınır, hadis terk edilir.\nIII. Haber-i vâhidle Kur’an’ın âm lafzı ilk defa tahsis edilebilir.\nIV. Medine ehlinin ameline aykırı olan haber reddedilir.\n\nBu ifadelerden hangileri Hanefî görüşünü yansıtır?",
+   "c": [
+    "I ve II",
+    "I ve III",
+    "II ve IV",
+    "I, II ve III",
+    "II, III ve IV"
+   ],
+   "d": 0,
+   "a": "Hanefîler, umûmü’l-belvâ konusundaki tek kişilik rivayeti ve râvînin kendi rivayetine aykırı amelini haberin zayıflığına delil sayar. Âm lafız Hanefîlere göre kat’î olduğundan âhâd haberle ilk tahsis yapılamaz; Medine ameli şartı ise Mâlikîlere aittir.",
+   "ac": [
+    "Doğru: I ve II Hanefî şartlarıdır.",
+    "III Hanefî görüşü değildir; âhâdle ilk tahsisi cumhur caiz görür.",
+    "IV Mâlikî şartıdır.",
+    "III Hanefî görüşü değildir.",
+    "III ve IV Hanefî görüşü değildir."
+   ],
+   "kay": "Serahsî, Usûl; Konu: Sünnet"
+  }
+ ]
+}

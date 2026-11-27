@@ -1,0 +1,651 @@
+{
+ "id": "dinler-8",
+ "ad": "Yahudilik: Tarihi, Kutsal Metinleri (Tanah, Talmud), İnanç Esasları, İbadetler ve Bayramlar, Mezhepleri ve Siyonizm",
+ "ders": "Dinler Tarihi",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Tarih: İbrâhim’den diasporaya"
+  },
+  {
+   "merak": "Yahudi geleneğinde “İsrail” kelimesi, Hz. Yakub’a verilen bir addır ve “Tanrı ile güreşen” anlamına gelir. Yakub’un on iki oğlundan on iki kabile doğdu. Bu kabilelerden birinin, Yahuda’nın adı zamanla bütün bir halkın ve dinin adı olacaktı."
+  },
+  "Yahudilik, kendisini Hz. İbrâhim ile yapılan ahde (berit) dayandırır. Hz. İshak ve Hz. Yakub (İsrail) ile devam eden soy, Mısır’da köleleştirildi; Hz. Mûsâ önderliğinde Mısır’dan çıkış (Exodus) gerçekleşti ve Sina Dağı’nda Tora verildi. Hz. Dâvûd döneminde Kudüs başkent oldu, Hz. Süleyman ilk mabedi (Birinci Mabet) inşa etti. Süleyman’dan sonra krallık ikiye bölündü: Kuzeyde İsrail (Asurlularca MÖ 722’de yıkıldı), güneyde Yahuda (Babillilerce MÖ 586’da yıkıldı). Babil Kralı Nebukadnezar mabedi yıkıp halkı sürgün etti (Babil sürgünü). Pers Kralı Kiros’un izniyle dönülerek İkinci Mabet inşa edildi. Romalılar MS 70’te İkinci Mabedi yıktı; Yahudiler dünyaya dağıldı (diaspora). Mabetten günümüze kalan batı duvarı “Ağlama Duvarı” olarak bilinir.",
+  {
+   "tablo": [
+    [
+     "Olay",
+     "Tarih",
+     "Önemi"
+    ],
+    [
+     "Mısır’dan çıkış",
+     "MÖ XIII. yüzyıl (geleneksel)",
+     "Hz. Mûsâ; Sina’da Tora; Pesah bayramının konusu"
+    ],
+    [
+     "Birinci Mabet",
+     "MÖ X. yüzyıl",
+     "Hz. Süleyman; Kudüs"
+    ],
+    [
+     "İsrail’in yıkılışı",
+     "MÖ 722",
+     "Asurlular; on kayıp kabile"
+    ],
+    [
+     "Yahuda’nın yıkılışı, Babil sürgünü",
+     "MÖ 586",
+     "Nebukadnezar; Birinci Mabet yıkıldı"
+    ],
+    [
+     "İkinci Mabet",
+     "MÖ 516",
+     "Pers Kralı Kiros’un izniyle dönüş"
+    ],
+    [
+     "İkinci Mabedin yıkılışı",
+     "MS 70",
+     "Romalılar (Titus); diaspora; rabbinik Yahudiliğin doğuşu"
+    ]
+   ]
+  },
+  {
+   "akil": "İbrâhim’in ahdi → Mısır’dan çıkış (Mûsâ) → Dâvûd-Süleyman (Birinci Mabet) → bölünme → MÖ 722 Asur, MÖ 586 Babil → İkinci Mabet → MS 70 Roma, diaspora."
+  },
+  {
+   "b": "2. Kutsal metinler: Tanah ve Talmud"
+  },
+  "Yahudiliğin kutsal kitabı Tanah’tır (Hristiyanların Eski Ahit dediği metin). Tanah adı, üç bölümün baş harflerinden oluşur: Tora (Tevrat; Mûsâ’nın beş kitabı: Tekvin, Çıkış, Levililer, Sayılar, Tesniye), Neviim (Peygamberler) ve Ketuvim (Kitaplar; Mezmurlar, Süleyman’ın Meselleri vb.). Yahudiler yazılı Tora’nın yanında, Sina’da Mûsâ’ya sözlü olarak da bir Tora verildiğine inanır. Bu sözlü gelenek MS II. yüzyılda Yehuda ha-Nasi tarafından Mişna adıyla yazıya geçirildi. Mişna üzerine yapılan yorumlara Gemara denir. Mişna ve Gemara birlikte Talmud’u oluşturur; Kudüs (Filistin) Talmudu ve daha kapsamlı ve otoriter olan Babil Talmudu olmak üzere iki Talmud vardır.",
+  {
+   "tablo": [
+    [
+     "Metin",
+     "Açıklama"
+    ],
+    [
+     "Tora (Tevrat)",
+     "Mûsâ’nın beş kitabı; dar anlamda Tevrat"
+    ],
+    [
+     "Neviim",
+     "Peygamberler"
+    ],
+    [
+     "Ketuvim",
+     "Kitaplar (Mezmurlar, Eyüp, Meseller…)"
+    ],
+    [
+     "Tanah",
+     "Tora + Neviim + Ketuvim"
+    ],
+    [
+     "Mişna",
+     "Sözlü Tora’nın yazıya geçirilmesi; Yehuda ha-Nasi, MS II. yüzyıl"
+    ],
+    [
+     "Gemara",
+     "Mişna üzerine yorumlar"
+    ],
+    [
+     "Talmud",
+     "Mişna + Gemara; Kudüs ve Babil Talmudları"
+    ],
+    [
+     "Halakha – Aggada",
+     "Talmud’daki hukuki kısım – hikâye ve ahlak kısmı"
+    ]
+   ]
+  },
+  {
+   "sinav": "Tanah’ın üç bölümü, Mişna + Gemara = Talmud, Babil Talmudu’nun otoritesi sık sorulur. “Sözlü Tora” kavramı Talmud’un dayanağıdır."
+  },
+  {
+   "akil": "Tanah = Tora + Neviim + Ketuvim. Talmud = Mişna (sözlü Tora, Yehuda ha-Nasi) + Gemara (yorum). Halakha = hukuk, Aggada = hikâye."
+  },
+  {
+   "b": "3. İnanç esasları ve ibadetler"
+  },
+  {
+   "merak": "Bir Yahudi her sabah ve akşam şu sözleri okur: “Şema Yisrael, Adonai Eloheinu, Adonai Ehad” (Dinle ey İsrail! Rabbimiz Tanrı tektir). Bu cümle, Yahudiliğin inanç beyanının özüdür."
+  },
+  "Ortaçağ Yahudi düşünürü Musa b. Meymûn (Maimonides), Yahudi inancını on üç ilkede özetledi: Tanrı’nın varlığı ve birliği, cisimsizliği, ezelî oluşu, yalnız O’na ibadet edileceği, peygamberliğin hakikati, Mûsâ’nın peygamberlerin en büyüğü olduğu, Tora’nın Tanrı’dan geldiği ve değişmeyeceği, Tanrı’nın insanların fiillerini bildiği, mükâfat ve ceza, Mesih’in geleceği ve ölülerin dirilişi. Mesih inancı, Yahudilerin henüz gelmemiş, Dâvûd soyundan bir kurtarıcı beklemesi şeklindedir; Yahudiler Hz. İsa’yı Mesih olarak kabul etmez.",
+  {
+   "tablo": [
+    [
+     "İbadet / kavram",
+     "Açıklama"
+    ],
+    [
+     "Sinagog",
+     "İbadet ve eğitim yeri (havra)"
+    ],
+    [
+     "Rabbi (haham)",
+     "Din bilgini, öğretmen"
+    ],
+    [
+     "Şabat (Cumartesi)",
+     "Cuma akşamından Cumartesi akşamına kadar dinlenme ve ibadet günü; iş yapmak yasak"
+    ],
+    [
+     "Günlük dualar",
+     "Sabah, öğle ve akşam olmak üzere üç vakit; Şema ve Amida duaları"
+    ],
+    [
+     "Minyan",
+     "Toplu dua için gereken on yetişkin erkek"
+    ],
+    [
+     "Kaşrut (koşer)",
+     "Yiyecek kuralları; domuz eti yasak, et ve süt birlikte yenmez"
+    ],
+    [
+     "Brit mila (sünnet)",
+     "Erkek çocuğun sekizinci gün sünnet edilmesi; ahdin işareti"
+    ],
+    [
+     "Bar mitzva / bat mitzva",
+     "Erkekler 13, kızlar 12 yaşında dinî sorumluluğa giriş"
+    ],
+    [
+     "Tefilin, tallit, mezuza",
+     "Dua kayışları, dua şalı, kapı pervazına asılan muska"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Bayram",
+     "Anlamı"
+    ],
+    [
+     "Pesah (Hamursuz)",
+     "Mısır’dan çıkışın anısı; mayasız ekmek"
+    ],
+    [
+     "Şavuot (Haftalar)",
+     "Sina’da Tora’nın verilişi"
+    ],
+    [
+     "Sukot (Çardak)",
+     "Çölde çadırlarda yaşanan günlerin anısı"
+    ],
+    [
+     "Roş Haşana",
+     "Yeni yıl"
+    ],
+    [
+     "Yom Kippur (Kefaret Günü)",
+     "Yılın en kutsal günü; tam gün oruç ve tövbe"
+    ],
+    [
+     "Hanuka (Işıklar)",
+     "Makabîlerin mabedi yeniden ithafı; sekiz gün mum yakma"
+    ],
+    [
+     "Purim",
+     "Ester kitabındaki kurtuluşun anısı"
+    ]
+   ]
+  },
+  {
+   "sinav": "Şema, Musa b. Meymûn’un 13 ilkesi, Şabat, minyan, koşer, bar mitzva ve bayramlar (özellikle Yom Kippur = Kefaret Günü, Pesah = Mısır’dan çıkış, Şavuot = Tora’nın verilişi) sık sorulur."
+  },
+  {
+   "akil": "Şema = tevhid beyanı. 13 ilke = Musa b. Meymûn. Şabat = Cumartesi. Minyan = 10 erkek. Pesah – çıkış; Şavuot – Tora; Sukot – çardak; Yom Kippur – kefaret ve oruç; Hanuka – ışıklar."
+  },
+  {
+   "b": "4. Mezhepler ve modern hareketler"
+  },
+  "İkinci Mabet döneminde Ferisîler (sözlü geleneği kabul eden, ahirete inanan), Sadukiler (mabet rahipleri, yalnız yazılı Tora’yı kabul eden, ahireti reddeden), Esseniler (münzevi topluluk; Kumran) ve Zelotlar (Roma’ya karşı silahlı direniş) önemli gruplardı. Mabedin yıkılmasından sonra Ferisî geleneği rabbinik Yahudiliğe dönüştü. VIII. yüzyılda Anan b. Davud’un önderliğinde ortaya çıkan Karâîler (Karaimler), Talmud’u reddedip yalnız yazılı Tora’ya bağlı kaldılar; Türkiye’de ve Kırım’da da Karaim toplulukları yaşamıştır.",
+  {
+   "tablo": [
+    [
+     "Grup",
+     "Özellik"
+    ],
+    [
+     "Ferisîler",
+     "Sözlü Tora, ahiret inancı; rabbinik Yahudiliğin atası"
+    ],
+    [
+     "Sadukiler",
+     "Mabet rahipleri; yalnız yazılı Tora; ahireti reddeder"
+    ],
+    [
+     "Esseniler",
+     "Münzevi topluluk; Kumran yazmaları ile ilişkilendirilir"
+    ],
+    [
+     "Karâîler",
+     "Talmud’u reddeder, yalnız yazılı Tevrat’a bağlı"
+    ],
+    [
+     "Ortodoks Yahudilik",
+     "Halakha’ya sıkı bağlılık"
+    ],
+    [
+     "Reform Yahudilik",
+     "XIX. yüzyıl Almanya; geleneği modern hayata uyarlama"
+    ],
+    [
+     "Muhafazakâr Yahudilik",
+     "Ortodoks ile Reform arası"
+    ],
+    [
+     "Hasidizm",
+     "XVIII. yüzyıl Doğu Avrupa; Baal Şem Tov; mistik coşku"
+    ],
+    [
+     "Kabala",
+     "Yahudi mistisizmi; Zohar"
+    ],
+    [
+     "Siyonizm",
+     "Theodor Herzl (1897 Basel Kongresi); Filistin’de Yahudi devleti; 1948 İsrail"
+    ]
+   ]
+  },
+  "Ortaçağ İslam dünyası Yahudi düşüncesinin altın çağına ev sahipliği yaptı: Musa b. Meymûn (Maimonides) Arapça yazdığı Delâletü’l-hâirîn ile Yahudi inancını Aristocu felsefeyle uzlaştırmaya çalıştı. 1492’de İspanya’dan kovulan Sefarad Yahudileri Osmanlı Devleti tarafından kabul edildi. Siyonizm ise XIX. yüzyılın sonunda Theodor Herzl önderliğinde siyasi bir hareket olarak doğdu; 1897 Basel Kongresi’nde Filistin’de bir Yahudi yurdu kurulması hedeflendi ve 1948’de İsrail Devleti ilan edildi.",
+  {
+   "akil": "Ferisî (sözlü Tora, ahiret) – Saduki (yalnız yazılı, ahiret yok) – Esseni (Kumran). Karâî: Talmud’u reddeder (Anan b. Davud). Reform – Ortodoks – Muhafazakâr. Hasidizm: Baal Şem Tov. Kabala: Zohar. Siyonizm: Herzl, 1897 Basel."
+  }
+ ],
+ "ozet": [
+  "Yahudilik kendisini Hz. İbrâhim ile yapılan ahde dayandırır; İsrail Hz. Yakub’un adıdır.",
+  "Hz. Mûsâ önderliğinde Mısır’dan çıkış ve Sina’da Tora’nın verilişi Yahudi tarihinin temel olaylarıdır.",
+  "Hz. Süleyman Birinci Mabedi inşa etmiş; mabet MÖ 586’da Babilliler, İkinci Mabet MS 70’te Romalılar tarafından yıkılmıştır.",
+  "MS 70’ten sonra Yahudiler dünyaya dağılmıştır (diaspora).",
+  "Tanah; Tora, Neviim ve Ketuvim bölümlerinden oluşur.",
+  "Sözlü Tora Mişna adıyla Yehuda ha-Nasi tarafından yazıya geçirilmiş; Mişna ve Gemara birlikte Talmud’u oluşturur.",
+  "Babil Talmudu, Kudüs Talmudu’ndan daha kapsamlı ve otoriterdir.",
+  "Musa b. Meymûn Yahudi inancını on üç ilkede özetlemiştir.",
+  "Şema duası Yahudi tevhid inancının beyanıdır.",
+  "Şabat Cumartesi günüdür; toplu dua için on erkekten oluşan minyan gerekir.",
+  "Yom Kippur (Kefaret Günü) yılın en kutsal günüdür ve tam gün oruç tutulur.",
+  "Pesah Mısır’dan çıkışın, Şavuot Tora’nın verilişinin, Sukot çölde çadır hayatının anısıdır.",
+  "Karâîler Talmud’u reddedip yalnız yazılı Tevrat’a bağlı kalmışlardır.",
+  "Siyonizm Theodor Herzl önderliğinde doğmuş, 1897 Basel Kongresi’nde örgütlenmiştir."
+ ],
+ "kartlar": [
+  {
+   "o": "Tanah",
+   "a": "Tora + Neviim + Ketuvim."
+  },
+  {
+   "o": "Talmud",
+   "a": "Mişna + Gemara; Babil ve Kudüs Talmudları."
+  },
+  {
+   "o": "Mişna",
+   "a": "Sözlü Tora; Yehuda ha-Nasi, MS II. yüzyıl."
+  },
+  {
+   "o": "Şema",
+   "a": "“Dinle ey İsrail, Rabbimiz tektir”; tevhid beyanı."
+  },
+  {
+   "o": "13 inanç ilkesi",
+   "a": "Musa b. Meymûn (Maimonides)."
+  },
+  {
+   "o": "Şabat",
+   "a": "Cumartesi; dinlenme ve ibadet günü."
+  },
+  {
+   "o": "Minyan",
+   "a": "Toplu dua için gereken on yetişkin erkek."
+  },
+  {
+   "o": "Koşer (kaşrut)",
+   "a": "Yahudi yiyecek kuralları."
+  },
+  {
+   "o": "Yom Kippur",
+   "a": "Kefaret Günü; yılın en kutsal günü, tam gün oruç."
+  },
+  {
+   "o": "Pesah",
+   "a": "Mısır’dan çıkışın anısı; mayasız ekmek."
+  },
+  {
+   "o": "Şavuot",
+   "a": "Tora’nın verilişi bayramı."
+  },
+  {
+   "o": "Karâîler",
+   "a": "Talmud’u reddeden, yalnız yazılı Tevrat’a bağlı mezhep."
+  },
+  {
+   "o": "Sadukiler",
+   "a": "Mabet rahipleri; ahireti reddeder."
+  },
+  {
+   "o": "Siyonizm",
+   "a": "Herzl; 1897 Basel Kongresi; 1948 İsrail."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "dn8-01",
+   "z": 3,
+   "s": "I. Tora\nII. Neviim\nIII. Ketuvim\nIV. Mişna\n\nYukarıdakilerden hangileri Yahudilerin kutsal kitabı Tanah’ın bölümleridir?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I, II ve III",
+    "II, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 2,
+   "a": "Tanah; Tora, Neviim ve Ketuvim bölümlerinden oluşur. Mişna Talmud’un bir parçasıdır.",
+   "ac": [
+    "Neviim ve Ketuvim de Tanah’ın bölümleridir.",
+    "Ketuvim de Tanah’ın bölümüdür.",
+    "Doğru.",
+    "Tora Tanah’ın ilk bölümüdür; Mişna Tanah’a dahil değildir.",
+    "Mişna Tanah’a dahil değildir."
+   ],
+   "kay": "DİA, “Tanah” md."
+  },
+  {
+   "id": "dn8-02",
+   "z": 3,
+   "s": "İkinci Mabet dönemi Yahudi gruplarıyla ilgili şu bilgiler verilmiştir:\n• Mabet rahiplerinden oluşur.\n• Yalnızca yazılı Tora’yı kabul eder, sözlü geleneği reddeder.\n• Ahiret ve diriliş inancını kabul etmez.\n\nBu grup aşağıdakilerden hangisidir?",
+   "c": [
+    "Ferisîler",
+    "Zelotlar",
+    "Esseniler",
+    "Sadukiler",
+    "Hasidîler"
+   ],
+   "d": 3,
+   "a": "Sadukiler mabet rahipleridir; yalnız yazılı Tora’yı kabul eder ve ahireti reddederler.",
+   "ac": [
+    "Ferisîler sözlü geleneği ve ahireti kabul eder.",
+    "Zelotlar Roma’ya karşı silahlı direniş grubudur.",
+    "Esseniler münzevi bir topluluktur.",
+    "Doğru.",
+    "Hasidizm XVIII. yüzyılda doğmuştur."
+   ],
+   "kay": "DİA, “Sadukiler” md."
+  },
+  {
+   "id": "dn8-03",
+   "z": 3,
+   "s": "I. Pesah – Mısır’dan çıkışın anısı\nII. Şavuot – Tora’nın verilişi\nIII. Sukot – çölde çadırlarda yaşanan günlerin anısı\nIV. Hanuka – yeni yıl\n\nYukarıdaki bayram – anlam eşleştirmelerinden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Hanuka, Makabîlerin mabedi yeniden ithafını anan ışıklar bayramıdır; yeni yıl Roş Haşana’dır.",
+   "ac": [
+    "Sukot eşleştirmesi de doğrudur.",
+    "Doğru.",
+    "Dördüncü eşleştirme yanlıştır.",
+    "Dördüncü eşleştirme yanlıştır.",
+    "Dördüncü eşleştirme yanlıştır."
+   ],
+   "kay": "DİA, ilgili maddeler"
+  },
+  {
+   "id": "dn8-04",
+   "z": 2,
+   "s": "Ortaçağda İslam dünyasında yaşamış, Yahudi inancını on üç ilkede özetleyen ve Arapça yazdığı Delâletü’l-hâirîn ile Yahudi inancını Aristocu felsefeyle uzlaştırmaya çalışan düşünür aşağıdakilerden hangisidir?",
+   "c": [
+    "Theodor Herzl",
+    "Anan b. Davud",
+    "Baal Şem Tov",
+    "Yehuda ha-Nasi",
+    "Musa b. Meymûn (Maimonides)"
+   ],
+   "d": 4,
+   "a": "Musa b. Meymûn on üç inanç ilkesini ve Delâletü’l-hâirîn’i kaleme almıştır.",
+   "ac": [
+    "Herzl Siyonizmin kurucusudur.",
+    "Anan b. Davud Karâîliğin kurucusudur.",
+    "Baal Şem Tov Hasidizmin kurucusudur.",
+    "Yehuda ha-Nasi Mişna’yı derlemiştir.",
+    "Doğru."
+   ],
+   "kay": "DİA, “İbn Meymûn” md."
+  },
+  {
+   "id": "dn8-05",
+   "z": 3,
+   "s": "Yahudi tarihindeki aşağıdaki olayların kronolojik sıralaması hangisinde doğru verilmiştir?\n\nI. Romalıların İkinci Mabedi yıkması\nII. Babil sürgünü\nIII. Kuzey İsrail Krallığı’nın Asurlularca yıkılması\nIV. Hz. Süleyman’ın Birinci Mabedi inşa etmesi",
+   "c": [
+    "IV – III – II – I",
+    "IV – II – III – I",
+    "III – IV – II – I",
+    "IV – III – I – II",
+    "II – IV – III – I"
+   ],
+   "d": 0,
+   "a": "Birinci Mabet (MÖ X. yüzyıl) → İsrail’in yıkılışı (MÖ 722) → Babil sürgünü (MÖ 586) → İkinci Mabedin yıkılışı (MS 70).",
+   "ac": [
+    "Doğru.",
+    "Asur, Babil’den öncedir.",
+    "Mabet, İsrail’in yıkılışından öncedir.",
+    "Babil sürgünü MS 70’ten öncedir.",
+    "Sıra karışıktır."
+   ],
+   "kay": "DİA, “Yahudilik” md."
+  },
+  {
+   "id": "dn8-06",
+   "z": 2,
+   "s": "Yahudilikte toplu duanın kılınabilmesi için gereken en az on yetişkin erkekten oluşan topluluğa ne ad verilir?",
+   "c": [
+    "Mezuza",
+    "Sinagog",
+    "Rabbi",
+    "Tefilin",
+    "Minyan"
+   ],
+   "d": 4,
+   "a": "Toplu dua için gereken on yetişkin erkeğe minyan denir.",
+   "ac": [
+    "Mezuza kapıya asılan küçük kutudur.",
+    "Sinagog ibadet yeridir.",
+    "Rabbi din bilginidir.",
+    "Tefilin dua kayışlarıdır.",
+    "Doğru."
+   ],
+   "kay": "DİA, “Yahudilik” md."
+  },
+  {
+   "id": "dn8-07",
+   "z": 3,
+   "s": "Yahudilikte Mesih inancıyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Yahudiler Hz. İsa’yı beklenen Mesih olarak kabul eder.",
+    "Mesih inancı Talmud’da hiç geçmez.",
+    "Mesih inancı yalnız Karâîlere özgüdür.",
+    "Mesih’in Dâvûd soyundan gelecek ve henüz gelmemiş bir kurtarıcı olduğuna inanılır.",
+    "Yahudilikte Mesih ilahî bir varlık olarak kabul edilir."
+   ],
+   "d": 3,
+   "a": "Yahudiler Dâvûd soyundan bir Mesih’in geleceğine inanır; Hz. İsa’yı Mesih olarak kabul etmezler. Mesih ilahî değil, insan bir kurtarıcıdır.",
+   "ac": [
+    "Yahudiler Hz. İsa’yı Mesih olarak kabul etmez.",
+    "Mesih inancı Talmud’da geçer.",
+    "Mesih inancı rabbinik Yahudiliğin de temel inancıdır.",
+    "Doğru.",
+    "Yahudilikte Mesih insandır."
+   ],
+   "kay": "Musa b. Meymûn, 13 ilke"
+  },
+  {
+   "id": "dn8-08",
+   "z": 3,
+   "s": "Bir Yahudi hareketiyle ilgili şu bilgiler verilmiştir:\n• XIX. yüzyılın sonunda siyasi bir hareket olarak doğmuştur.\n• Kurucusu Theodor Herzl’dir.\n• 1897’de toplanan kongrede Filistin’de bir Yahudi yurdu kurulması hedeflenmiştir.\n\nBu hareketle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Talmud’u reddeden bir mezheptir.",
+    "Mistik bir tarikattır.",
+    "Siyonizmdir ve 1948’de İsrail Devleti’nin kurulmasıyla sonuçlanmıştır.",
+    "Reform Yahudiliğinin diğer adıdır.",
+    "Ortaçağ Endülüs’ünde doğmuştur."
+   ],
+   "d": 2,
+   "a": "Anlatılan hareket Siyonizmdir; 1897 Basel Kongresi’nde örgütlenmiş, 1948’de İsrail kurulmuştur.",
+   "ac": [
+    "Talmud’u reddeden Karâîlerdir.",
+    "Mistik hareket Hasidizm ve Kabala’dır.",
+    "Doğru.",
+    "Reform Yahudiliği dinî bir harekettir.",
+    "XIX. yüzyılda Avrupa’da doğmuştur."
+   ],
+   "kay": "DİA, “Siyonizm” md."
+  },
+  {
+   "id": "dn8-09",
+   "z": 2,
+   "s": "Yahudilikte erkek çocukların on üç, kız çocukların on iki yaşında dinî sorumluluğa girmesini kutlayan tören aşağıdakilerden hangisidir?",
+   "c": [
+    "Bar mitzva / bat mitzva",
+    "Brit mila",
+    "Şabat",
+    "Kaşrut",
+    "Yom Kippur"
+   ],
+   "d": 0,
+   "a": "Bar mitzva erkeklerin, bat mitzva kızların dinî sorumluluğa girişidir.",
+   "ac": [
+    "Doğru.",
+    "Brit mila sekizinci gün yapılan sünnettir.",
+    "Şabat haftalık dinlenme günüdür.",
+    "Kaşrut yiyecek kurallarıdır.",
+    "Yom Kippur kefaret günüdür."
+   ],
+   "kay": "DİA, “Yahudilik” md."
+  },
+  {
+   "id": "dn8-10",
+   "z": 3,
+   "s": "I. Ferisî geleneği MS 70’ten sonra rabbinik Yahudiliğe dönüşmüştür.\nII. Karâîler sözlü Tora’yı ve Talmud’u kabul eder.\nIII. Hasidizm XVIII. yüzyılda Doğu Avrupa’da Baal Şem Tov ile ortaya çıkmıştır.\nIV. Reform Yahudiliği XIX. yüzyılda Almanya’da doğmuştur.\n\nYukarıdaki bilgilerden hangileri doğrudur?",
+   "c": [
+    "I ve III",
+    "I, III ve IV",
+    "II, III ve IV",
+    "I, II ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Karâîler Talmud’u reddeder ve yalnız yazılı Tevrat’a bağlı kalır; diğer bilgiler doğrudur.",
+   "ac": [
+    "Reform Yahudiliği bilgisi de doğrudur.",
+    "Doğru.",
+    "İkinci bilgi yanlıştır; birinci bilgi doğrudur.",
+    "İkinci bilgi yanlıştır.",
+    "İkinci bilgi yanlıştır."
+   ],
+   "kay": "DİA, ilgili maddeler"
+  },
+  {
+   "id": "dn8-11",
+   "z": 2,
+   "s": "1492’de İspanya’dan kovulan ve Osmanlı Devleti tarafından kabul edilen Yahudi topluluğuna ne ad verilir?",
+   "c": [
+    "Aşkenaz",
+    "Sefarad",
+    "Karaim",
+    "Romaniot",
+    "Falaşa"
+   ],
+   "d": 1,
+   "a": "İber Yarımadası kökenli Yahudilere Sefarad denir; 1492’de İspanya’dan kovulanlar Osmanlı’ya yerleşmiştir.",
+   "ac": [
+    "Aşkenazlar Orta ve Doğu Avrupa Yahudileridir.",
+    "Doğru.",
+    "Karaimler Talmud’u reddeden mezhebin mensuplarıdır.",
+    "Romaniotlar Bizans dönemi Rum dilli Yahudileridir.",
+    "Falaşalar Etiyopya Yahudileridir."
+   ],
+   "kay": "DİA, “Sefarad” md."
+  },
+  {
+   "id": "d1-02",
+   "z": 1,
+   "s": "Yahudilikte Mişna ve Gemara’dan oluşan, sözlü geleneğin yazıya geçirilmiş hâli olan eser hangisidir?",
+   "c": [
+    "Talmud",
+    "Neviim",
+    "Avesta",
+    "Zebur",
+    "Tora"
+   ],
+   "d": 0,
+   "a": "Talmud, Mişna (sözlü kanun) ve onun şerhi Gemara’dan oluşur.",
+   "ac": [
+    "Doğru.",
+    "Peygamberler bölümüdür.",
+    "Zerdüştlüğün kitabıdır.",
+    "Hz. Dâvûd’a verilen kitaptır.",
+    "Tanah’ın ilk beş kitabıdır."
+   ],
+   "kay": "Dinler tarihi: Yahudilik"
+  },
+  {
+   "id": "d1-05",
+   "z": 2,
+   "s": "Talmud’u kabul etmeyip yalnızca yazılı Tevrat’a bağlı kalan Yahudi mezhebi hangisidir?",
+   "c": [
+    "Ortodoks",
+    "Reform",
+    "Hasidizm",
+    "Karaîlik",
+    "Muhafazakâr"
+   ],
+   "d": 3,
+   "a": "Karaîler sözlü geleneği (Talmud) reddeder.",
+   "ac": [
+    "Talmud’u kabul eder.",
+    "Talmud’u yorumlayarak kabul eder.",
+    "Mistik bir harekettir; Talmud’u kabul eder.",
+    "Doğru.",
+    "Talmud’u kabul eder."
+   ],
+   "kay": "Dinler tarihi: Yahudi mezhepleri"
+  },
+  {
+   "id": "d2-10",
+   "z": 1,
+   "s": "Yahudilikte yılın en kutsal günü kabul edilen, tam gün oruç tutulan “Kefaret Günü” hangisidir?",
+   "c": [
+    "Hanuka",
+    "Şavuot",
+    "Pesah",
+    "Purim",
+    "Yom Kippur"
+   ],
+   "d": 4,
+   "a": "Yom Kippur, Roş Haşana’dan (yılbaşı) on gün sonradır.",
+   "ac": [
+    "Tapınağın yeniden adanmasını anar.",
+    "Tevrat’ın verilişini anan bayramdır.",
+    "Mısır’dan çıkışı anan bayramdır.",
+    "Ester kitabındaki kurtuluşu anar.",
+    "Kefaret günüdür."
+   ],
+   "kay": "Yahudi ibadet hayatı"
+  }
+ ]
+}

@@ -1,0 +1,881 @@
+{
+ "id": "kelam-9",
+ "ad": "Kader ve Kaza; İnsan Fiilleri, İrade (Cüz’î-Küllî), Kesb; Hayır-Şer; Ecel, Rızık, Tevekkül, Hidayet-Dalalet",
+ "ders": "Akaid ve Kelam",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Kader ve kaza: Kavramlar"
+  },
+  {
+   "merak": "Hz. Ömer ordusuyla Şam’a giderken Serğ denilen yerde bölgede veba olduğunu öğrendi ve geri dönmeye karar verdi. Ebû Ubeyde “Allah’ın kaderinden mi kaçıyorsun?” diye itiraz etti. Hz. Ömer’in cevabı kader anlayışının özeti oldu: “Evet, Allah’ın kaderinden yine Allah’ın kaderine kaçıyoruz.”"
+  },
+  "Kader sözlükte “ölçü, miktar, sınır, değer; ölçüp biçmek, takdir etmek” demektir. Terim olarak, Allah’ın ezelden ebede kadar olmuş ve olacak her şeyin zamanını, mekânını, özelliklerini ve nasıl olacağını ezelde bilip o şekilde takdir etmesidir. “Biz her şeyi bir ölçüye göre yarattık” (Kamer, 54/49) ve “Her şeyi yaratmış ve ona bir ölçü vermiştir” (Furkān, 25/2) ayetlerinde kader kavramının ölçü ve düzen anlamı öne çıkar.",
+  "Kaza sözlükte “hükmetmek, yerine getirmek, emretmek, ödemek, bitirmek” anlamlarına gelir. Terim olarak, Allah’ın ezelde takdir ettiği şeylerin zamanı gelince bu takdire uygun olarak yaratılıp gerçekleşmesidir. Kur’an’da kaza kelimesi emir (İsrâ, 17/23 “Rabbin, kendisinden başkasına kulluk etmemenizi emretti / kaza etti”), hüküm, yaratma (Fussilet, 41/12 “onları yedi gök olarak kaza etti”), bildirme gibi anlamlarda kullanılır.",
+  {
+   "tablo": [
+    [
+     "Ekol",
+     "Kader",
+     "Kaza"
+    ],
+    [
+     "Mâtürîdîler (ve çoğunluk)",
+     "Allah’ın ezelde her şeyi sınırlarıyla belirlemesi (tahdîd, takdir)",
+     "Takdir edilenin zamanı gelince yaratılması (fiil, icat)"
+    ],
+    [
+     "Eş’arîler",
+     "Takdir edilenin zamanı gelince ezelî iradeye uygun yaratılması (icat)",
+     "Allah’ın ezeldeki iradesi ve hükmü"
+    ]
+   ]
+  },
+  {
+   "not": "Dikkat: Eş’arîlerle Mâtürîdîler kader ve kaza kelimelerini ters anlamlarda kullanır. Mâtürîdîlerde kader ezelî takdir, kaza zamanında yaratmadır; Eş’arîlerde kaza ezelî irade, kader ise zamanında yaratmadır. Halk dilinde ve ders kitaplarında Mâtürîdî tanımı esas alınır."
+  },
+  "Kadere iman iman esaslarındandır. Cebrâil hadisinde iman “Allah’a, meleklerine, kitaplarına, peygamberlerine, ahiret gününe ve kadere, hayrına ve şerrine inanmandır” şeklinde tarif edilmiştir (Müslim, Îmân 1). Âmentü’deki “ve bi’l-kaderi hayrihî ve şerrihî minallâhi teâlâ” ifadesi buradan gelir. Bu hadis, Müslim’de Basra’da kaderi ilk kez inkâr eden Ma’bed el-Cühenî’nin görüşlerini Abdullah b. Ömer’e soran iki kişinin hikâyesiyle başlar; İbn Ömer onlardan uzak olduğunu söyler.",
+  "Kader bilgiye dayalı bir takdirdir; Allah’ın bilgisi ise zorlayıcı değildir. Kelamcılar bunu “İlim ma’lûma tâbidir” (bilgi, bilinen şeye bağlıdır) ilkesiyle açıklar: Allah, kulun kendi iradesiyle ne yapacağını ezelde bildiği için öyle yazmıştır; kul, yazıldığı için yapmaz. Bir öğretmenin öğrencisinin sınavı geçemeyeceğini önceden bilmesinin öğrenciyi başarısız yapmaması gibi (bu benzetme yaklaşıktır, çünkü Allah’ın ilmi tahmin değil kesin bilgidir).",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Anlamı"
+    ],
+    [
+     "Levh-i mahfûz",
+     "Olmuş ve olacak her şeyin yazılı bulunduğu korunmuş levha (Bürûc, 85/22); ümmü’l-kitâb (Ra’d, 13/39)."
+    ],
+    [
+     "Kaza-i mübrem",
+     "Kesin, değişmeyen kaza; hiçbir şarta bağlı olmayan takdir."
+    ],
+    [
+     "Kaza-i muallak",
+     "Bir şarta (dua, sadaka, sıla-i rahim, tedbir) bağlanmış takdir; şart gerçekleşince sonuç ona göre olur. Ra’d 39 bu bağlamda anılır: “Allah dilediğini siler, dilediğini sabit bırakır; ana kitap O’nun katındadır.”"
+    ],
+    [
+     "Sünnetullah",
+     "Allah’ın kâinatta koyduğu değişmeyen yasalar (Ahzâb, 33/62; Fâtır, 35/43): fiziksel, biyolojik ve toplumsal yasalar."
+    ],
+    [
+     "Rıza bi’l-kaza",
+     "Allah’ın hükmüne razı olmak; kazaya rıza gerekir, ama kaza edilen kötülüğe (makzî) rıza gerekmez: küfre rıza küfürdür."
+    ]
+   ]
+  },
+  {
+   "hadis": "Kazayı ancak dua geri çevirir; ömrü ancak iyilik artırır.",
+   "kay": "Tirmizî, Kader"
+  },
+  "Kader konusunda derin tartışmalara dalmak hoş karşılanmamıştır: Hz. Peygamber ashabını kader hakkında tartışırken görünce öfkelenmiş ve önceki ümmetlerin bu yüzden helak olduğunu söylemiştir (Tirmizî, Kader). Bu yasak, kaderin anlaşılmasını değil, onu sorumluluktan kaçmak için bahane yapan kısır tartışmaları hedefler.",
+  {
+   "sinav": "En sık tuzak: kader ve kaza tanımlarının Eş’arî-Mâtürîdî tersliği. Soru Mâtürîdî tanımını verip ekolü sorabilir. Diğer tuzak: “İlim ma’lûma tâbidir” ilkesi, Allah’ın bilgisinin zorlayıcı olmadığını anlatır. Hz. Ömer’in veba olayı (Buhârî, Tıb) tedbirin kadere aykırı olmadığını gösteren örnek olarak sorulur."
+  },
+  {
+   "akil": "Kader: ezelde takdir; kaza: zamanı gelince yaratma (Mâtürîdî). Eş’arîlerde kavramlar tersinedir. Allah’ın ilmi zorlayıcı değildir: ilim ma’lûma tâbidir. Dua ve tedbir kadere aykırı değil, kaderin parçasıdır."
+  },
+  {
+   "b": "2. İnsan fiilleri: Cebir, kader ve kesb"
+  },
+  {
+   "merak": "Emevî Halifesi Hişâm b. Abdülmelik, Gaylân ed-Dımaşkī’yi kader görüşleri yüzünden idam ettirdi. Aynı dönemde Cehm b. Safvân, insanın rüzgârın önündeki tüy gibi olduğunu söylüyordu. İnsan özgür mü, mecbur mu? İslam düşüncesinin en uzun tartışması böyle başladı."
+  },
+  "İnsan fiillerinin yaratıcısı kimdir ve insan ne ölçüde sorumludur? Bu soruya verilen cevaplar iki uç ve aradaki orta yollar şeklinde sıralanır.",
+  {
+   "tablo": [
+    [
+     "Ekol",
+     "Temsilciler",
+     "İnsan fiilleri hakkındaki görüş"
+    ],
+    [
+     "Cebriyye (cebr-i mutlak)",
+     "Ca’d b. Dirhem, Cehm b. Safvân",
+     "İnsanın iradesi ve gücü yoktur; fiiller ona mecazen nispet edilir; “ağaç meyve verdi, güneş doğdu” demek gibi. İnsan rüzgârdaki tüy gibidir."
+    ],
+    [
+     "Kaderiyye",
+     "Ma’bed el-Cühenî (ö. 80/699), Gaylân ed-Dımaşkī",
+     "İnsan fiillerinde tamamen hürdür; ilk Kaderiyye’nin aşırıları Allah’ın olayları önceden bilip takdir ettiğini bile inkâr etmiş, “İş yeni başlar (el-emru ünüf)” demiştir."
+    ],
+    [
+     "Mu’tezile",
+     "Vâsıl b. Atâ, Kādî Abdülcebbâr",
+     "İnsan kendi fiillerinin yaratıcısıdır (halku’l-ef’âl); Allah’ın ilmini kabul eder, ama kötü fiilleri Allah’ın yaratmadığını ve irade etmediğini söyler."
+    ],
+    [
+     "Eş’arîlik",
+     "Ebü’l-Hasen el-Eş’arî",
+     "Fiilleri Allah yaratır, insan kesb eder. İnsanın fiille birlikte yaratılan gücü (kudret-i hâdise) vardır ama bu güç fiilin meydana gelmesinde etkili değildir."
+    ],
+    [
+     "Mâtürîdîlik",
+     "Ebû Mansûr el-Mâtürîdî",
+     "Fiili Allah yaratır; insan cüz’î iradesiyle fiile yönelir ve tercih eder. İnsan fiilin gerçek failidir (fâil-i hakîkî), Allah yaratıcısıdır (hâlık). İnsanın tercihi fiilde etkilidir."
+    ]
+   ]
+  },
+  "Cebriyye’ye göre insan sorumlu tutulamaz; bu da peygamber göndermeyi, emir ve yasakları, mükâfat ve cezayı anlamsız kılar. Kaderiyye ve Mu’tezile ise insan özgürlüğünü korumak isterken Allah’ın yaratıcılığını sınırlamış, “Allah’ın mülkünde O’nun istemediği şeyler olur” sonucuna varmıştır. Ehl-i sünnet iki ucu da reddetmiştir: “Allah sizi de yaptıklarınızı da yaratmıştır” (Sâffât, 37/96) ve “Allah her şeyin yaratıcısıdır” (Zümer, 39/62) ayetleri yaratmanın yalnızca Allah’a ait olduğunu; “İnsan için ancak çalıştığı vardır” (Necm, 53/39) ve “Kim zerre kadar hayır işlerse onu görür” (Zilzâl, 99/7) ayetleri de insanın sorumlu olduğunu gösterir.",
+  {
+   "ayet": "Allah hiç kimseye gücünün yetmediği bir şeyi yüklemez. Herkesin kazandığı iyilik kendi lehine, kazandığı kötülük kendi aleyhinedir.",
+   "kay": "Bakara, 2/286"
+  },
+  "Kesb (iktisâb) “kazanmak, edinmek” demektir. Kur’an’da insanın fiilleri için sıkça kullanılır (Bakara, 2/286; Müddessir, 74/38 “Herkes kazandığına karşılık bir rehindir”). Ehl-i sünnet kelamında kesb, fiilin yaratılması Allah’a, kazanılması insana ait olmak üzere iki yönünü ayırmak için kullanılır. Ancak iki ekol kesbi farklı açıklar:",
+  {
+   "tablo": [
+    [
+     "Mesele",
+     "Eş’arî",
+     "Mâtürîdî"
+    ],
+    [
+     "Kesbin tanımı",
+     "Fiilin, kulda yaratılan kudret-i hâdise ile birlikte meydana gelmesi; kudretin fiile tesiri yok",
+     "Kulun cüz’î iradesini fiile yöneltmesi (azm-i musammem); bu tercih fiilin yaratılmasında etkili"
+    ],
+    [
+     "İnsanın rolü",
+     "Fiilin mahalli (yeri); sorumluluk, fiilin onda yaratılmasından",
+     "Fiilin gerçek faili; tercih kula, yaratma Allah’a"
+    ],
+    [
+     "Eleştiri",
+     "Karşıtlarınca “mutavassıt (orta) cebir” diye nitelenmiştir",
+     "Ehl-i sünnet içinde özgürlüğü en çok vurgulayan yaklaşım"
+    ]
+   ]
+  },
+  "İstitâat (güç, kudret) meselesi de bu tartışmanın parçasıdır. Mu’tezile’ye göre kudret fiilden önce vardır ve iki zıt fiile (yapmaya da yapmamaya da) elverişlidir. Eş’arî ve Mâtürîdî’ye göre fiili meydana getiren kudret fiille birlikte (maa’l-fiil) yaratılır. Mâtürîdîler ise istitâati ikiye ayırır: Organların sağlamlığı ve sebeplerin hazır olması anlamındaki istitâat fiilden öncedir ve sorumluluğun (teklif) şartıdır; fiili gerçekleştiren hakiki güç ise fiille birliktedir.",
+  "Teklîf-i mâ lâ yutâk (güç yetirilemeyecek şeyle yükümlü tutma) meselesinde Eş’arî bunun aklen caiz olduğunu, ama fiilen vuku bulmadığını söyler; Mâtürîdîler ve Mu’tezile ise bunun caiz olmadığını, Allah’ın hikmetine aykırı olduğunu savunur. Her iki taraf da Bakara 286’nın, fiilen böyle bir yükümlülüğün olmadığını gösterdiğinde birleşir.",
+  {
+   "sinav": "Kişi-ekol eşleştirmesi çok sorulur: Cehm b. Safvân ve Ca’d b. Dirhem → Cebriyye; Ma’bed el-Cühenî ve Gaylân ed-Dımaşkī → Kaderiyye. “Kudret-i hâdise fiile etkili değildir” → Eş’arî; “cüz’î irade tercihte etkilidir, insan fâil-i hakîkîdir” → Mâtürîdî. “İnsan fiilinin yaratıcısıdır” → Mu’tezile. Teklîf-i mâ lâ yutâk aklen caiz → Eş’arî."
+  },
+  {
+   "akil": "Cebriyye insanı mecbur, Kaderiyye ve Mu’tezile fiilin yaratıcısı sayar. Ehl-i sünnette fiili Allah yaratır, insan kesb eder; Eş’arî’de kulun kudreti etkisiz, Mâtürîdî’de cüz’î irade tercihte etkilidir. Kudret fiille birliktedir."
+  },
+  {
+   "b": "3. İrade: Küllî irade, cüz’î irade; irade-emir-rıza"
+  },
+  {
+   "merak": "Bir inkârcı “Allah dileseydi biz de babalarımız da şirk koşmazdık” diyordu. Kur’an bu sözü aktarıp reddeder: “Onlardan öncekiler de böyle yalanlamıştı.” Allah her şeyi dilediğine göre, bu söz neden yanlıştı?"
+  },
+  "İrade, iki şeyden birini seçip tercih etmeye yarayan sıfattır. Allah’ın iradesine “küllî irade” (ya da meşîet) denir: ezelîdir, her şeyi kuşatır; Allah’ın dilemediği hiçbir şey olmaz. “Âlemlerin Rabbi olan Allah dilemedikçe siz dileyemezsiniz” (Tekvîr, 81/29; İnsân, 76/30). İnsanın iradesine ise “cüz’î irade” denir: Allah’ın insana verdiği, sınırlı, iki şıktan birini seçme gücüdür. “Hak Rabbinizdendir; dileyen iman etsin, dileyen inkâr etsin” (Kehf, 18/29). Cüz’î irade kavramı özellikle Mâtürîdî kelamında sistemleşmiştir.",
+  "Ehl-i sünnetin en önemli ayrımlarından biri irade, emir ve rıza arasındaki farktır. Allah her şeyi irade eder (diler), ama her irade ettiğini emretmez ve her irade ettiğinden razı olmaz. Allah küfrün ve kötülüğün olmasını (kulun tercihi sebebiyle) diler ve yaratır, ama onu emretmez ve ondan razı olmaz: “Eğer inkâr ederseniz, şüphesiz Allah size muhtaç değildir. Kullarının inkârından razı olmaz” (Zümer, 39/7).",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Kapsamı",
+     "Örnek"
+    ],
+    [
+     "İrade / meşîet (tekvînî irade)",
+     "Var olan her şey; iyi de kötü de",
+     "Ebû Leheb’in inkârı da Allah’ın iradesi dışında gerçekleşmemiştir."
+    ],
+    [
+     "Emir (teşriî irade)",
+     "Yalnızca iyi ve güzel olanlar",
+     "Allah Ebû Leheb’e de iman etmesini emretmiştir."
+    ],
+    [
+     "Rıza",
+     "Yalnızca iyi olanlar",
+     "Allah küfürden razı olmaz (Zümer 7)."
+    ]
+   ]
+  },
+  "Mu’tezile ise irade ile emri aynı saymıştır: Ona göre Allah yalnızca emrettiği iyilikleri irade eder; kötülükleri ve küfrü irade etmez, onlar kulun iradesiyle olur. Ehl-i sünnet bunun, Allah’ın mülkünde O’nun istemediği şeylerin olması sonucunu doğurduğunu ve Allah’ın kudretini sınırladığını söyler.",
+  {
+   "ayet": "Şirk koşanlar diyecekler ki: “Allah dileseydi ne biz şirk koşardık ne de atalarımız; hiçbir şeyi de haram kılmazdık.” Onlardan öncekiler de böyle yalanlamışlardı.",
+   "kay": "En’âm, 6/148"
+  },
+  "Bu ayet kaderi bahane etmenin (ihticâc bi’l-kader) reddedildiğini gösterir. İnkârcılar Allah’ın iradesini ileri sürerek kendi tercihlerinin sorumluluğundan kaçmaya çalışmıştır. Oysa kul, Allah’ın ezelde ne takdir ettiğini bilmez; emir ve yasak ise ona açıkça bildirilmiştir. Sorumluluk bilinen emre göredir, bilinmeyen takdire göre değil. Hadislerdeki Âdem-Mûsâ tartışması (Buhârî, Kader; Müslim, Kader) ise tövbe edilip affedilmiş bir hatanın sonucu için kadere atıftır; işlenecek bir günaha bahane yapılamaz.",
+  {
+   "tablo": [
+    [
+     "Hüsün-kubuh (iyi ve kötünün kaynağı)",
+     "Görüş"
+    ],
+    [
+     "Mu’tezile",
+     "İyilik ve kötülük fiillerin kendisinde (zatî) vardır; akıl bunları belirler ve vahiy gelmeden de hüküm koyar. Allah’ı tanımak ve şükür aklen vaciptir."
+    ],
+    [
+     "Mâtürîdîlik",
+     "Bazı fiillerin iyiliği ve kötülüğü akılla bilinebilir; ancak hükmü koyan Allah’tır. Allah’ı tanımak aklen vaciptir."
+    ],
+    [
+     "Eş’arîlik",
+     "İyi ve kötü şer’îdir; Allah’ın emrettiği iyi, yasakladığı kötüdür. Akıl vahiy olmadan bir yükümlülük doğurmaz."
+    ]
+   ]
+  },
+  {
+   "sinav": "“Allah küfrü irade eder ama ondan razı olmaz” cümlesi Ehl-i sünnetin; “Allah kötülüğü irade etmez” cümlesi Mu’tezile’nindir. En’âm 148 kaderi bahane etmenin reddine örnektir. Hüsün-kubuh: aklî → Mu’tezile; akılla bilinebilir ama hüküm Allah’ın → Mâtürîdî; şer’î → Eş’arî."
+  },
+  {
+   "akil": "Küllî irade Allah’ın her şeyi kuşatan dilemesi, cüz’î irade insanın seçme gücüdür. Allah her şeyi diler ama yalnızca iyiyi emreder ve iyiden razı olur. Kader, günaha bahane yapılamaz (En’âm 148)."
+  },
+  {
+   "b": "4. Hayır ve şer; kötülük problemi"
+  },
+  {
+   "merak": "Hz. Peygamber gece namazına başlarken “Hayrın hepsi senin elindedir; şer sana nispet edilmez” derdi. Peki hayrı da şerri de yaratan Allah değil midir? Bu duadaki incelik, kelamın en zor sorularından birinin cevabını saklar."
+  },
+  "Hayır sözlükte iyi ve faydalı iş; terim olarak Allah’ın emrettiği, razı olduğu ve sevdiği şeylerdir. Şer ise kötü ve zararlı iş; terim olarak Allah’ın yasakladığı, hoşnut olmadığı ve cezayı gerektiren şeylerdir. Kötülükler genellikle ikiye ayrılır: insanın iradesiyle yaptığı ahlaki kötülükler (zulüm, yalan) ve insan iradesi dışındaki tabii kötülükler (deprem, hastalık). Allah’ın varlığı ve iyiliği ile kötülüğün varlığının nasıl bağdaştırılacağı sorusuna “kötülük problemi” (teodise) denir.",
+  {
+   "tablo": [
+    [
+     "Ekol",
+     "Hayır ve şer kimin yaratmasıyladır?",
+     "Allah’a nispet"
+    ],
+    [
+     "Ehl-i sünnet",
+     "Hayrı da şerri de Allah yaratır; şerri kulun tercihi sebebiyle yaratır.",
+     "Edep gereği şer Allah’a nispet edilmez; hayır O’ndan, şer nefistendir denir."
+    ],
+    [
+     "Mu’tezile",
+     "Allah yalnızca hayrı yaratır; ahlaki kötülükleri insan yaratır.",
+     "Allah’ın adaleti (adl) şerri yaratmasına engeldir."
+    ],
+    [
+     "Seneviyye (Mecûsî düalizm)",
+     "İyiliğin tanrısı (nur) ve kötülüğün tanrısı (zulmet) ayrıdır.",
+     "İslam’ın kesinlikle reddettiği görüş; Kaderiyye bu yüzden “bu ümmetin Mecûsîleri” diye anılmıştır."
+    ]
+   ]
+  },
+  {
+   "hadis": "Kaderiyye bu ümmetin Mecûsîleridir.",
+   "kay": "Ebû Dâvûd, Sünnet"
+  },
+  "Kur’an’da iki ayet bir arada düşünülmelidir: “De ki: Hepsi Allah katındandır” (Nisâ, 4/78) ve “Sana gelen her iyilik Allah’tandır; sana gelen her kötülük ise kendindendir” (Nisâ, 4/79). Birincisi yaratma yönünden her şeyin Allah’a ait olduğunu, ikincisi kötülüğün sebebinin insanın kendi tercihi ve kusuru olduğunu anlatır.",
+  "Mu’tezile adalet ilkesinden hareketle “salâh-aslah” görüşünü geliştirmiştir: Allah kulları için iyi (salâh) ve en iyi (aslah) olanı yapmak zorundadır. Bağdat Mu’tezilesi bunu dünya ve din işlerinin tamamına, Basra Mu’tezilesi ise din (ahiret) işleriyle sınırlı olarak savunmuştur. Ehl-i sünnet Allah’a bir şeyin “vacip” olamayacağını, O’nun lütfu ile hareket ettiğini söyler. Eş’arî’nin hocası Cübbâî ile aslah meselesinde tartıştığı ve “üç kardeş meselesi” denilen örnek (küçükken ölen çocuk, mümin olarak ölen kardeş ve kâfir olarak ölen kardeş) onun Mu’tezile’den ayrılmasının sebeplerinden sayılır.",
+  "Ehl-i sünnet ile Mu’tezile arasında başka bir fark da Allah’ın fiillerinin bir amaca (garaz, illet) bağlı olup olmadığıdır. Eş’arîlere göre Allah’ın fiilleri bir amaçla sınırlanamaz; O, dilediğini yapar. Mâtürîdîlere göre ise Allah’ın fiilleri hikmetlidir; hikmet O’nun fiillerinin niteliğidir, ama O’nu bir şeye mecbur kılmaz. Kötülük problemine Ehl-i sünnetin genel cevabı imtihan ve hikmet kavramlarıdır: “Biz sizi şer ile de hayır ile de imtihan ederiz” (Enbiyâ, 21/35); “Hoşlanmadığınız bir şey sizin için hayırlı olabilir” (Bakara, 2/216). Gazzâlî’nin meşhur cümlesi “Var olandan daha güzeli mümkün değildir (leyse fi’l-imkân ebda’ mimmâ kân)” bu konuda sık anılır.",
+  {
+   "sinav": "Nisâ 78-79 birlikte sorulur: 78 yaratma yönü, 79 sebep (kulun kusuru) yönü. “Kaderiyye bu ümmetin Mecûsîleridir” hadisi düalizm benzerliğinden dolayıdır. Aslah: Mu’tezile; Bağdat ekolü dünyevi işlerde de, Basra ekolü dinî işlerde. “Allah’ın fiilleri hikmetlidir” vurgusu Mâtürîdî’ye, “amaçla sınırlanamaz” vurgusu Eş’arî’ye aittir."
+  },
+  {
+   "akil": "Hayrı da şerri de Allah yaratır, ama şerden razı olmaz ve şer edep gereği Allah’a nispet edilmez. Mu’tezile Allah’ın şerri yaratmadığını ve aslahı yapmak zorunda olduğunu söyler. Kötülük, imtihan ve hikmet çerçevesinde anlaşılır."
+  },
+  {
+   "b": "5. Ecel, ömür ve rızık"
+  },
+  {
+   "merak": "Bir adam haksız yere öldürüldü. Katil “Ne yapayım, eceli gelmişti” dedi. Kelamcılar yüzyıllarca sordu: Öldürülen kişi kendi eceliyle mi öldü? Öldürülmeseydi ne olurdu?"
+  },
+  "Ecel sözlükte “belirlenmiş süre, vade, bir şeyin sonu” demektir; terim olarak Allah’ın her canlı için takdir ettiği hayatın sona erme vaktidir. Ömür ise doğumdan ölüme kadar geçen süredir. Ecel değişmez: “Her ümmetin bir eceli vardır. Ecelleri gelince ne bir an geri kalabilirler ne de öne geçebilirler” (A’râf, 7/34; ayrıca Nahl, 16/61; Münâfikūn, 63/11). “Bir canlıya ömür verilmesi de, onun ömründen eksiltilmesi de mutlaka bir kitaptadır” (Fâtır, 35/11).",
+  {
+   "tablo": [
+    [
+     "Mesele: Maktulün eceli",
+     "Görüş"
+    ],
+    [
+     "Ehl-i sünnet",
+     "Öldürülen kişi kendi eceliyle ölmüştür; ecel tektir. Öldürülmeseydi ne olacağı Allah’ın bilgisindedir. Katil yine de suçludur; çünkü yasak bir fiili kendi iradesiyle kesb etmiştir."
+    ],
+    [
+     "Mu’tezile’nin çoğunluğu",
+     "Öldürülen kişinin eceli kesilmiştir; öldürülmeseydi yaşamaya devam edebilirdi."
+    ],
+    [
+     "Ka’bî (Bağdat Mu’tezilesi)",
+     "Maktulün iki eceli vardır: öldürülme eceli ve (öldürülmeseydi ulaşacağı) tabii ölüm eceli."
+    ],
+    [
+     "Ebü’l-Hüzeyl el-Allâf",
+     "Öldürülmeseydi o anda zaten ölecekti."
+    ]
+   ]
+  },
+  "Bazı âlimler En’âm suresinin 2. ayetindeki iki eceli (“Sizi çamurdan yaratan, sonra bir ecel takdir edendir. Bir de O’nun katında belirlenmiş bir ecel vardır”) birincisini kişinin ölümü, ikincisini kıyamet (dirilme vakti) şeklinde yorumlamıştır. Bazı çağdaş yorumlarda ise “tabii (kazâî) ecel” ve “müsemmâ ecel” ayrımı yapılarak ömrün tedbir ve ihmalle değişebileceği, ama her durumun Allah’ın ilminde olduğu vurgulanmıştır.",
+  {
+   "hadis": "Rızkının genişletilmesini ve ömrünün uzatılmasını isteyen, akrabasını gözetsin (sıla-i rahim yapsın).",
+   "kay": "Buhârî, Edeb; Müslim, Birr"
+  },
+  "Âlimler bu hadisteki ömrün uzamasını iki şekilde anlamıştır: Birincisi ömrün bereketlenmesi, verimli geçmesi ve iyi anılma; ikincisi kaza-i muallak çerçevesinde, Allah’ın ezelde “sıla-i rahim yaparsa ömrü şu kadar olur” şeklinde takdir etmiş olması. Her iki durumda da Allah’ın ilmi değişmez.",
+  "Rızık sözlükte “nasip, pay, bağış”; terim olarak Allah’ın canlılara faydalanmaları için verdiği her şeydir. Maddi (yiyecek, mal) ve manevi (ilim, iman, sağlık) olabilir. Rızkı veren Allah’tır: “Yeryüzünde yürüyen hiçbir canlı yoktur ki rızkı Allah’a ait olmasın” (Hûd, 11/6); “Şüphesiz rızık veren, kuvvet sahibi, sapasağlam olan ancak Allah’tır” (Zâriyât, 51/58). Ancak rızık çalışmakla elde edilir: “İnsan için ancak çalıştığı vardır” (Necm, 53/39). Fakirlik ve açlık bir kader değildir; Kur’an servetin yalnızca zenginler arasında dolaşmasını kınar (Haşr, 59/7) ve paylaşmayı emreder.",
+  {
+   "tablo": [
+    [
+     "Mesele: Haram rızık mıdır?",
+     "Görüş ve gerekçe"
+    ],
+    [
+     "Ehl-i sünnet",
+     "Haram da rızıktır; çünkü rızık, canlının faydalandığı şeydir ve onu veren Allah’tır. Ancak kul haram yolla elde ettiği için kınanır ve cezalandırılır."
+    ],
+    [
+     "Mu’tezile",
+     "Haram rızık değildir; çünkü rızık mülk demektir ve Allah haramı kimseye mülk olarak vermez. Aksi hâlde Allah’ın verdiği bir şeyden dolayı cezalandırması gerekir."
+    ]
+   ]
+  },
+  {
+   "hadis": "Hiç kimse elinin emeğinden daha hayırlı bir yiyecek yememiştir. Allah’ın peygamberi Dâvûd da elinin emeğinden yerdi.",
+   "kay": "Buhârî, Büyû’"
+  },
+  {
+   "sinav": "“Maktul kendi eceliyle ölmüştür” → Ehl-i sünnet; “iki ecel” → Ka’bî. “Haram da rızıktır” → Ehl-i sünnet; “Haram rızık değildir” → Mu’tezile. Fâtır 11 ve sıla-i rahim hadisi ömrün artması tartışmasında sorulur. Afet ve fakirliği “kader” deyip tedbir almamak İslam’ın kader anlayışıyla bağdaşmaz."
+  },
+  {
+   "akil": "Ecel tektir ve değişmez (A’râf 34); maktul de kendi eceliyle ölür (Ehl-i sünnet), Mu’tezile karşı çıkar. Rızkı Allah verir, kul çalışmakla elde eder; Ehl-i sünnete göre haram da rızıktır, Mu’tezile’ye göre değildir."
+  },
+  {
+   "b": "6. Tevekkül, hidayet ve dalalet"
+  },
+  {
+   "merak": "Bir bedevi devesini mescidin kapısına bağlamadan içeri girdi ve “Allah’a tevekkül ettim” dedi. Hz. Peygamber’in cevabı kısa ve netti: “Önce deveni bağla, sonra tevekkül et.”"
+  },
+  "Tevekkül sözlükte “güvenmek, dayanmak, işi başkasına havale etmek” demektir. Terim olarak, kişinin yapması gereken her şeyi yaptıktan, gerekli tedbirleri aldıktan sonra sonucu Allah’a bırakıp O’na güvenmesidir. Tevekkülün iki yönü vardır: üzerine düşeni eksiksiz yapmak ve sonra Allah’a dayanıp dua etmek. Hiçbir tedbir almadan sonucu beklemek tevekkül değil, tembellik ve tevâküldür.",
+  {
+   "hadis": "(Deveni) bağla, sonra tevekkül et.",
+   "kay": "Tirmizî, Sıfatü’l-kıyâme"
+  },
+  {
+   "ayet": "…Bir işe azmettiğin zaman da Allah’a tevekkül et. Şüphesiz Allah, tevekkül edenleri sever.",
+   "kay": "Âl-i İmrân, 3/159"
+  },
+  "Âl-i İmrân 159’da tevekkülden hemen önce “işlerde onlarla istişare et” emrinin gelmesi dikkat çekicidir: Önce danışma ve karar, sonra tevekkül. “Kim Allah’a tevekkül ederse O, ona yeter” (Talâk, 65/3). Hz. Peygamber “Allah’a gereği gibi tevekkül etseydiniz, sabah aç çıkıp akşam tok dönen kuşları rızıklandırdığı gibi sizi de rızıklandırırdı” buyurmuştur (Tirmizî, Zühd; İbn Mâce, Zühd); dikkat edilirse kuşlar da yuvalarında beklemez, rızık için uçar.",
+  "Hidayet sözlükte “doğru yolu göstermek, yol göstermek”; terim olarak kişinin küfür ve şirkten kurtulup doğru yolu bulmasıdır. Dalâlet ise “yolunu kaybetmek, sapmak”; terim olarak Allah’ın gösterdiği doğru yoldan sapmaktır. Kur’an hidayeti iki anlamda kullanır:",
+  {
+   "tablo": [
+    [
+     "Hidayet türü",
+     "Anlamı",
+     "Kime nispet edilir",
+     "Ayet"
+    ],
+    [
+     "Hidayet-i beyan (irşad, delâlet)",
+     "Doğru yolu gösterme, açıklama",
+     "Peygamberlere, kitaplara da nispet edilir",
+     "“Sen elbette doğru yola iletirsin (gösterirsin)” (Şûrâ, 42/52); “Semûd’a da yol gösterdik, fakat onlar körlüğü tercih ettiler” (Fussilet, 41/17)"
+    ],
+    [
+     "Hidayet-i tevfik (îsâl, halk)",
+     "Doğru yola eriştirme, kalpte imanı yaratma",
+     "Yalnızca Allah’a",
+     "“Sen sevdiğini hidayete erdiremezsin; fakat Allah dilediğini hidayete erdirir” (Kasas, 28/56)"
+    ]
+   ]
+  },
+  "Kasas 56’nın, Hz. Peygamber’in amcası Ebû Tâlib’in iman etmeden ölmesi üzerine indiği rivayet edilir (Müslim, Îmân). Ehl-i sünnete göre hidayeti de dalaleti de yaratan Allah’tır; ancak Allah, kulun tercihine göre yaratır: “Onlar sapınca Allah da kalplerini saptırdı” (Saf, 61/5). “Allah dilediğini saptırır, dilediğini hidayete erdirir” (Nahl, 16/93) ayetlerindeki dilemek, kulun kendi tercihini ve yönelişini dikkate alan bir dilemedir. Bakara 7’deki kalplerin mühürlenmesi (hatm) de inkârda ısrarın bir sonucudur. Mu’tezile ise hidayeti yalnızca beyan olarak anlar; dalaleti Allah’a nispet eden ayetleri “sapık olarak isimlendirir, lütfunu keser” şeklinde yorumlar.",
+  {
+   "ayet": "Biz ona (insana) yolu gösterdik; ister şükredici olsun ister nankör.",
+   "kay": "İnsân, 76/3"
+  },
+  {
+   "sinav": "Kasas 56 (hidayete erdirme yalnız Allah’a ait) ile Şûrâ 52 (Peygamber yol gösterir) arasındaki fark “beyan – tevfik” ayrımıyla sorulur. “Deveni bağla, sonra tevekkül et” hadisi tevekkülün tedbirle birlikte olduğunu gösterir. Tuzak: Tevekkülü “hiçbir şey yapmadan sonucu beklemek” diye tanımlamak yanlıştır; bu tevâküldür."
+  },
+  {
+   "akil": "Tevekkül = tedbir + Allah’a güven. Hidayet ikidir: yol gösterme (peygamber de yapar) ve hidayete erdirme (yalnız Allah). Allah, kulun tercihine göre hidayeti ya da dalaleti yaratır; kul tercihinden sorumludur."
+  }
+ ],
+ "ozet": [
+  "Kader: Allah’ın ezelde her şeyi takdir etmesi; kaza: zamanı gelince yaratılması (Mâtürîdî). Eş’arîlerde tanımlar tersinedir.",
+  "Kadere iman Cebrâil hadisinde (Müslim, Îmân 1) “hayrına ve şerrine” iman olarak geçer; hadis Ma’bed el-Cühenî olayıyla başlar.",
+  "İlim ma’lûma tâbidir: Allah’ın ezelî bilgisi kulu zorlamaz.",
+  "Kaza-i mübrem kesin, kaza-i muallak şarta bağlıdır (Ra’d 39). “Kazayı ancak dua geri çevirir” (Tirmizî, Kader).",
+  "Hz. Ömer’in vebadan dönmesi: “Allah’ın kaderinden yine Allah’ın kaderine kaçıyoruz” (Buhârî, Tıb).",
+  "Cebriyye: Ca’d b. Dirhem, Cehm b. Safvân. Kaderiyye: Ma’bed el-Cühenî, Gaylân ed-Dımaşkī. “Kaderiyye bu ümmetin Mecûsîleridir” (Ebû Dâvûd).",
+  "Mu’tezile: İnsan fiillerinin yaratıcısıdır (halku’l-ef’âl); Allah kötülüğü irade etmez; aslah Allah’a vaciptir.",
+  "Eş’arî: Allah yaratır, kul kesb eder; kudret-i hâdise fiile etkisizdir. Mâtürîdî: cüz’î irade tercihte etkilidir; insan fâil-i hakîkî, Allah hâlıktır.",
+  "Kudret (istitâat) Ehl-i sünnete göre fiille birliktedir; Mu’tezile’ye göre fiilden öncedir. Mâtürîdîler sebep-alet selameti anlamındaki istitâatin fiilden önce olduğunu da kabul eder.",
+  "Teklîf-i mâ lâ yutâk: Eş’arî aklen caiz (vuku yok); Mâtürîdî ve Mu’tezile caiz değil (Bakara 286).",
+  "Allah her şeyi irade eder, ama yalnızca iyiyi emreder ve iyiden razı olur (Zümer 7). Kaderi bahane etmek En’âm 148’de reddedilir.",
+  "Hüsün-kubuh: Mu’tezile aklî; Mâtürîdî akılla bilinebilir, hüküm Allah’ın; Eş’arî şer’î.",
+  "Nisâ 78: Hepsi Allah katındandır (yaratma); Nisâ 79: kötülük kendindendir (sebep).",
+  "Maktul kendi eceliyle ölür (Ehl-i sünnet); Mu’tezile’ye göre eceli kesilmiştir; Ka’bî’ye göre iki eceli vardır.",
+  "Haram da rızıktır (Ehl-i sünnet); haram rızık değildir (Mu’tezile).",
+  "Tevekkül = tedbir + güven: “Deveni bağla, sonra tevekkül et” (Tirmizî).",
+  "Hidayet-i beyan (Şûrâ 52) peygamberlere de nispet edilir; hidayet-i tevfik yalnız Allah’a aittir (Kasas 56)."
+ ],
+ "kartlar": [
+  {
+   "o": "Kader – Kaza (Mâtürîdî)",
+   "a": "Kader: ezelde takdir (tahdîd). Kaza: zamanı gelince yaratma."
+  },
+  {
+   "o": "Kader – Kaza (Eş’arî)",
+   "a": "Kaza: ezelî irade ve hüküm. Kader: zamanı gelince icat. (Mâtürîdî tanımının tersi.)"
+  },
+  {
+   "o": "İlim ma’lûma tâbidir",
+   "a": "Allah’ın bilgisi kulun ne yapacağına bağlıdır; bilgi zorlayıcı değildir."
+  },
+  {
+   "o": "Kaza-i mübrem – Kaza-i muallak",
+   "a": "Kesin, değişmeyen takdir – Dua, sadaka, tedbir gibi bir şarta bağlı takdir."
+  },
+  {
+   "o": "Cebriyye",
+   "a": "Ca’d b. Dirhem, Cehm b. Safvân: İnsanın iradesi yoktur; rüzgârdaki tüy gibidir."
+  },
+  {
+   "o": "Kaderiyye",
+   "a": "Ma’bed el-Cühenî, Gaylân ed-Dımaşkī: İnsan fiilinde tamamen hür; aşırıları ezelî ilmi inkâr etti (“el-emru ünüf”)."
+  },
+  {
+   "o": "Halku’l-ef’âl",
+   "a": "İnsanın kendi fiillerini yarattığı görüşü: Mu’tezile."
+  },
+  {
+   "o": "Kesb (Eş’arî)",
+   "a": "Fiilin kulda yaratılan kudretle birlikte meydana gelmesi; kulun kudreti fiile etkili değil. Eleştirenlerce “mutavassıt cebir”."
+  },
+  {
+   "o": "Kesb (Mâtürîdî)",
+   "a": "Kulun cüz’î iradesini fiile yöneltmesi; tercih etkilidir; insan fâil-i hakîkî, Allah hâlık."
+  },
+  {
+   "o": "Teklîf-i mâ lâ yutâk",
+   "a": "Güç yetirilemeyecek şeyle yükümlü tutma: Eş’arî aklen caiz; Mâtürîdî ve Mu’tezile caiz değil."
+  },
+  {
+   "o": "İrade – Emir – Rıza",
+   "a": "Allah her şeyi irade eder; yalnızca iyiyi emreder ve iyiden razı olur (Zümer 7)."
+  },
+  {
+   "o": "Salâh-aslah",
+   "a": "Mu’tezile: Allah kul için en iyiyi yapmak zorundadır. Bağdat: dünya ve din; Basra: din işlerinde."
+  },
+  {
+   "o": "Maktulün eceli",
+   "a": "Ehl-i sünnet: kendi eceliyle öldü. Mu’tezile: eceli kesildi. Ka’bî: iki eceli var."
+  },
+  {
+   "o": "Haram rızık mıdır?",
+   "a": "Ehl-i sünnet: evet (faydalanılan her şey). Mu’tezile: hayır (rızık = mülk)."
+  },
+  {
+   "o": "Tevekkül – Tevâkül",
+   "a": "Tedbirden sonra Allah’a dayanmak – Tedbir almadan sonucu beklemek (tembellik)."
+  },
+  {
+   "o": "Hidayet-i beyan – Hidayet-i tevfik",
+   "a": "Yol göstermek (Şûrâ 52; peygamber de yapar) – Hidayete erdirmek (Kasas 56; yalnız Allah)."
+  },
+  {
+   "o": "Karıştırma: Nisâ 78 – Nisâ 79",
+   "a": "78: Her şey Allah katındandır (yaratma). 79: Kötülük kendindendir (sebep, kusur)."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "c1-06",
+   "z": 3,
+   "s": "Kötülüğün varlığı meselesinde bir grup âlim şöyle demiştir: “Bütün varlık ve olayları iradesiyle var eden Allah’tır. Şerrin olmasını dileyen ve yaratan da O’dur. Allah’ın şerri yaratması bir amaca zorunlu olarak bağlı değildir; O’nun fiilleri bir garaz ve illetle sınırlanamaz, dilediğini yapar.”\n\nBu görüş hangi mezhebe aittir?",
+   "c": [
+    "Mu’tezile",
+    "Mâtürîdiyye",
+    "Zeydiyye",
+    "Eş’ariyye",
+    "İmâmiyye"
+   ],
+   "d": 3,
+   "a": "Allah’ın fiillerini bir amaca (garaz, illet) zorunlu olarak bağlamayan ve şerri de O’nun iradesine ve yaratmasına dayandıran görüş Eş’ariyye’nindir. Mâtürîdîler de şerri Allah’ın yarattığını kabul eder; ancak Allah’ın fiillerinin hikmetli olduğunu vurgular.",
+   "ac": [
+    "Mu’tezile Allah’ın şerri yaratmadığını ve irade etmediğini söyler.",
+    "Mâtürîdiyye şerrin yaratılmasında Eş’arîlerle birleşir; fakat Allah’ın fiillerinin hikmetli olduğunu öne çıkarır.",
+    "Zeydiyye itikatta Mu’tezile’ye yakındır; şerri Allah’a nispet etmez.",
+    "Doğru: Fiillerin bir amaçla sınırlanamayacağı vurgusu Eş’arî’ye aittir.",
+    "İmâmiyye itikatta Mu’tezile’ye yakındır ve adalet ilkesini benimser."
+   ],
+   "kay": "Eş’arî, el-Lüma’"
+  },
+  {
+   "id": "c1-12",
+   "z": 3,
+   "s": "İnsan fiilleriyle ilgili “İnsan kendi fiillerini kendisi yaratır; Allah kötülüğü irade etmez ve kulları için en iyi olanı yapmak zorundadır.” görüşü hangi mezhebe aittir?",
+   "c": [
+    "Cebriyye",
+    "Eş’ariyye",
+    "Mâtürîdiyye",
+    "Mu’tezile",
+    "Selefiyye"
+   ],
+   "d": 3,
+   "a": "Halku’l-ef’âl (insanın fiillerini yaratması), Allah’ın kötülüğü irade etmemesi ve aslahın Allah’a vacip olması Mu’tezile’nin adalet ilkesinden doğan görüşleridir.",
+   "ac": [
+    "Cebriyye insanı fiillerinde mecbur görür, yaratıcı saymaz.",
+    "Eş’ariyye kesb görüşündedir ve Allah’a hiçbir şeyin vacip olmadığını savunur.",
+    "Mâtürîdiyye fiili Allah’ın yarattığını, kulun cüz’î iradesiyle kesb ettiğini söyler.",
+    "Doğru: Halku’l-ef’âl ve aslah Mu’tezile görüşüdür.",
+    "Selefiyye de fiillerin yaratıcısının Allah olduğunu kabul eder ve bu görüşü reddeder."
+   ],
+   "kay": "Kādî Abdülcebbâr, Şerhu’l-Usûli’l-hamse"
+  },
+  {
+   "id": "kl9-01",
+   "z": 2,
+   "s": "“Allah’ın ezelde olacak her şeyi bütün özellikleriyle belirlemesi” ile “Bu belirlenmiş şeylerin zamanı gelince yaratılması” tanımları, Mâtürîdî kelamcılara göre sırasıyla hangi kavramlara karşılık gelir?",
+   "c": [
+    "Kaza – Kader",
+    "Kader – Kaza",
+    "Meşîet – Rıza",
+    "Kesb – Halk",
+    "Levh-i mahfûz – Sünnetullah"
+   ],
+   "d": 1,
+   "a": "Mâtürîdîlere göre kader ezelî takdir, kaza ise takdir edilenin zamanı gelince yaratılmasıdır. Eş’arîlerde bu kavramlar ters anlamdadır.",
+   "ac": [
+    "Bu sıralama Eş’arîlerin kullanımına yakındır; soru Mâtürîdî tanımını istemektedir.",
+    "Doğru: Kader – Kaza.",
+    "Meşîet dilemek, rıza hoşnut olmaktır; tanımlarla ilgisi yoktur.",
+    "Kesb kulun kazanması, halk Allah’ın yaratmasıdır.",
+    "Levh-i mahfûz yazılı levha, sünnetullah tabiat yasalarıdır."
+   ],
+   "kay": "Konu: Kader ve kaza"
+  },
+  {
+   "id": "kl9-02",
+   "z": 3,
+   "s": "Basra’da yaşayan bir kişi, kaderi inkâr eden ve “İş yeni başlar; Allah olaylar olmadan önce onları bilmez” diyen bir topluluğun görüşlerini Abdullah b. Ömer’e aktarır. İbn Ömer, onlardan uzak olduğunu söyleyip babası Hz. Ömer’den Cebrâil hadisini rivayet eder.\n\nBu olayda sözü edilen topluluğun öncüsü ve onların görüşünü reddeden hadisin geçtiği kaynak sırasıyla hangisidir?",
+   "c": [
+    "Cehm b. Safvân – Buhârî, Kader",
+    "Vâsıl b. Atâ – Ebû Dâvûd, Sünnet",
+    "Ma’bed el-Cühenî – Müslim, Îmân",
+    "Ca’d b. Dirhem – Tirmizî, Kader",
+    "Gaylân ed-Dımaşkī – Buhârî, Îmân"
+   ],
+   "d": 2,
+   "a": "Müslim’in Îmân bölümünün ilk hadisi, Basra’da kaderi ilk kez inkâr eden Ma’bed el-Cühenî’nin görüşlerinin İbn Ömer’e aktarılmasıyla başlar ve Cebrâil hadisiyle devam eder.",
+   "ac": [
+    "Cehm b. Safvân Cebriyye’nin temsilcisidir; insanın mecbur olduğunu söyler.",
+    "Vâsıl b. Atâ Mu’tezile’nin kurucusudur.",
+    "Doğru: Ma’bed el-Cühenî ve Müslim, Îmân 1.",
+    "Ca’d b. Dirhem cebir görüşünün öncülerindendir.",
+    "Gaylân ed-Dımaşkī Kaderiyye’dendir, ancak bu rivayette anılan kişi Ma’bed’dir; hadis Buhârî’de bu şekilde geçmez."
+   ],
+   "kay": "Müslim, Îmân 1"
+  },
+  {
+   "id": "kl9-03",
+   "z": 3,
+   "s": "İnsan fiilleriyle ilgili aşağıdaki görüşler verilmiştir:\n\nI. Fiili yaratan Allah’tır; kulun fiille birlikte yaratılan gücü fiilin meydana gelmesinde etkili değildir.\nII. Fiili yaratan Allah’tır; kul cüz’î iradesiyle tercihte bulunur ve bu tercih etkilidir; kul fiilin gerçek failidir.\nIII. Kul kendi fiilini yaratır; güç fiilden önce bulunur ve iki zıt fiile elverişlidir.\n\nBu görüşler sırasıyla hangi ekollere aittir?",
+   "c": [
+    "Mâtürîdîlik – Eş’arîlik – Mu’tezile",
+    "Eş’arîlik – Mâtürîdîlik – Mu’tezile",
+    "Eş’arîlik – Mu’tezile – Cebriyye",
+    "Cebriyye – Mâtürîdîlik – Kaderiyye",
+    "Mu’tezile – Eş’arîlik – Mâtürîdîlik"
+   ],
+   "d": 1,
+   "a": "Kudret-i hâdisenin etkisizliği Eş’arî’nin, cüz’î iradenin etkili olduğu ve kulun fâil-i hakîkî sayıldığı görüş Mâtürîdî’nin, kulun fiilini yarattığı ve gücün fiilden önce olduğu görüşü Mu’tezile’nindir.",
+   "ac": [
+    "İlk iki görüşün sahipleri yer değiştirmiştir.",
+    "Doğru sıralama.",
+    "İkinci görüş Mu’tezile’ye ait değildir; üçüncü görüş Cebriyye’nin tam tersidir.",
+    "Cebriyye kula hiçbir güç tanımaz; birinci görüşte kula güç yaratıldığı kabul edilmektedir.",
+    "Sıralama tamamen yanlıştır."
+   ],
+   "kay": "Konu: İnsan fiilleri"
+  },
+  {
+   "id": "kl9-04",
+   "z": 2,
+   "s": "“Şirk koşanlar diyecekler ki: ‘Allah dileseydi ne biz şirk koşardık ne de atalarımız.’ Onlardan öncekiler de böyle yalanlamışlardı.”\n\nBu ayette eleştirilen tutum aşağıdakilerden hangisidir?",
+   "c": [
+    "Tedbir almadan tevekkül etmek",
+    "Dua ile kazanın değişeceğine inanmak",
+    "Allah’ın ezelî ilmini inkâr etmek",
+    "Hayrı da şerri de Allah’ın yarattığına inanmak",
+    "Kaderi, kendi tercihinin sorumluluğundan kaçmak için bahane etmek"
+   ],
+   "d": 4,
+   "a": "En’âm 148, inkârcıların Allah’ın iradesini ileri sürerek kendi şirklerinin sorumluluğundan kaçmalarını eleştirir; buna “ihticâc bi’l-kader” (kaderi delil getirme) denir.",
+   "ac": [
+    "Tevekkülle ilgili bir eleştiri değildir.",
+    "Dua ile kazanın değişmesi Tirmizî’deki hadisle ilgilidir.",
+    "İnkârcılar burada ezelî ilmi değil, kendi sorumluluklarını inkâr etmektedir.",
+    "Hayrı ve şerri Allah’ın yaratması Ehl-i sünnet inancıdır; ayetin eleştirisi bu değildir.",
+    "Doğru: Kaderi bahane etmek reddedilmektedir."
+   ],
+   "kay": "En’âm, 6/148"
+  },
+  {
+   "id": "kl9-05",
+   "z": 3,
+   "s": "Allah’ın iradesi ile ilgili aşağıdaki ifadelerden hangisi Ehl-i sünnet anlayışıyla bağdaşmaz?",
+   "c": [
+    "Allah’ın emri ile iradesi aynıdır; Allah yalnızca emrettiği şeyleri irade eder.",
+    "Allah küfrün olmasını kulun tercihi sebebiyle diler, ama ondan razı olmaz.",
+    "Allah’ın dilemediği hiçbir şey meydana gelmez.",
+    "Allah iyiliği emreder ve ondan razı olur.",
+    "Kul, Allah’ın ezelî takdirini bilmediği için sorumluluğu bilinen emre göredir."
+   ],
+   "d": 0,
+   "a": "Emir ile iradeyi aynı sayan ve Allah’ın yalnızca emrettiğini irade ettiğini söyleyen görüş Mu’tezile’ye aittir. Ehl-i sünnet irade, emir ve rızayı birbirinden ayırır.",
+   "ac": [
+    "Doğru: Bu Mu’tezile görüşüdür, Ehl-i sünnetle bağdaşmaz.",
+    "Ehl-i sünnet görüşüdür: Zümer 7.",
+    "Ehl-i sünnet görüşüdür: Tekvîr 29.",
+    "Ehl-i sünnet görüşüdür.",
+    "Ehl-i sünnet görüşüdür; kader bahane edilemez."
+   ],
+   "kay": "Zümer, 39/7; Tekvîr, 81/29"
+  },
+  {
+   "id": "kl9-06",
+   "z": 2,
+   "s": "Mezhepler ve hüsün-kubuh (iyilik ve kötülüğün kaynağı) görüşleri eşleştirilmiştir. Hangisi doğrudur?",
+   "c": [
+    "Eş’arîlik – İyilik ve kötülük fiilin kendisindedir; akıl vahiyden önce hüküm koyar.",
+    "Mâtürîdîlik – Bazı fiillerin iyiliği ve kötülüğü akılla bilinebilir, ancak hükmü koyan Allah’tır.",
+    "Mu’tezile – İyi ve kötü yalnızca Allah’ın emir ve yasağıyla belirlenir.",
+    "Cebriyye – Akıl Allah’ı tanımayı vacip kılar.",
+    "Eş’arîlik – Peygamber gelmese de Allah’ı tanımak aklen vaciptir."
+   ],
+   "d": 1,
+   "a": "Mâtürîdîler aklın bazı fiillerin güzelliğini ve çirkinliğini bilebileceğini, ancak hüküm koymanın Allah’a ait olduğunu söyler.",
+   "ac": [
+    "Bu görüş Mu’tezile’ye aittir.",
+    "Doğru eşleştirme.",
+    "Bu görüş Eş’arîlik’e aittir.",
+    "Cebriyye bu konuda tanınmış bir görüşe sahip değildir; bu görüş Mu’tezile ve Mâtürîdîlere aittir.",
+    "Eş’arîlere göre Allah’ı tanımak şer’an vaciptir."
+   ],
+   "kay": "Konu: Hüsün-kubuh"
+  },
+  {
+   "id": "kl9-07",
+   "z": 3,
+   "s": "Bir kişi haksız yere öldürülmüştür. Bu kişinin eceli hakkında şu görüşler ileri sürülmüştür:\n\nI. Kendi eceliyle ölmüştür; ecel tektir. Öldürülmeseydi ne olacağını Allah bilir.\nII. Öldürülmüş olmasaydı yaşamaya devam edebilirdi; eceli kesilmiştir.\nIII. Bu kişinin biri öldürülme, diğeri tabii ölüm olmak üzere iki eceli vardır.\n\nBu görüşler sırasıyla kime aittir?",
+   "c": [
+    "Ehl-i sünnet – Mu’tezile’nin çoğunluğu – Ka’bî",
+    "Mu’tezile’nin çoğunluğu – Ehl-i sünnet – Ebü’l-Hüzeyl",
+    "Ka’bî – Ehl-i sünnet – Mu’tezile’nin çoğunluğu",
+    "Ehl-i sünnet – Ka’bî – Ebü’l-Hüzeyl",
+    "Cebriyye – Kaderiyye – Ehl-i sünnet"
+   ],
+   "d": 0,
+   "a": "Ehl-i sünnete göre maktul kendi eceliyle ölür. Mu’tezile’nin çoğunluğu eceli kesildiğini söyler. Bağdat Mu’tezilesinden Ka’bî ise maktulün iki eceli olduğunu ileri sürmüştür.",
+   "ac": [
+    "Doğru sıralama.",
+    "İlk iki görüşün sahipleri yer değiştirmiştir; Ebü’l-Hüzeyl ise öldürülmeseydi o anda öleceğini söylemiştir.",
+    "Ka’bî iki ecel görüşünün sahibidir; birinci görüşün değil.",
+    "İkinci görüş Ka’bî’ye ait değildir.",
+    "Bu fırkalar söz konusu görüşlerle tanınmaz."
+   ],
+   "kay": "Konu: Ecel"
+  },
+  {
+   "id": "kl9-08",
+   "z": 2,
+   "s": "“Rızık, canlının faydalandığı şeydir ve onu veren Allah’tır; dolayısıyla haram da rızıktır. Ancak kul onu haram yoldan elde ettiği için kınanır.”\n\nBu görüşe karşı çıkan mezhep ve gerekçesi aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Eş’arîlik – Rızık yalnızca maddi nimetlerdir.",
+    "Mâtürîdîlik – Rızkı kul kendi çalışmasıyla yaratır.",
+    "Cebriyye – Kul rızkını seçmekte mecburdur.",
+    "Selefiyye – Haram şeyler Allah’ın takdiri dışında gerçekleşir.",
+    "Mu’tezile – Rızık mülktür; Allah haramı kimseye mülk olarak vermez."
+   ],
+   "d": 4,
+   "a": "Mu’tezile’ye göre rızık, sahibinin mülkü olan şeydir; Allah haramı mülk olarak vermediği için haram rızık değildir. Aksi hâlde Allah’ın kendi verdiği şeyden dolayı ceza vermesi gerekir.",
+   "ac": [
+    "Eş’arîler haramın da rızık olduğunu kabul eder.",
+    "Mâtürîdîler de haramın rızık olduğunu kabul eder; kulun yaratıcı olduğunu söylemezler.",
+    "Cebriyye bu tartışmada tanınan bir tarafı temsil etmez.",
+    "Selefiyye her şeyin Allah’ın takdiriyle olduğunu kabul eder.",
+    "Doğru: Mu’tezile görüşü ve gerekçesi."
+   ],
+   "kay": "Hûd, 11/6; Konu: Rızık"
+  },
+  {
+   "id": "kl9-09",
+   "z": 3,
+   "s": "“Sen sevdiğini hidayete erdiremezsin; fakat Allah dilediğini hidayete erdirir.” (Kasas, 28/56)\n“…Şüphesiz sen doğru bir yola iletirsin.” (Şûrâ, 42/52)\n\nBu iki ayet arasındaki ilişkiyle ilgili aşağıdaki yorumlardan hangisi doğrudur?",
+   "c": [
+    "İkinci ayet birinci ayeti neshetmiştir.",
+    "Birinci ayetteki hidayet yol gösterme, ikincisindeki ise kalpte imanı yaratmadır.",
+    "Birinci ayetteki hidayet hidayete erdirme (tevfik) olup yalnız Allah’a, ikincisindeki ise yol gösterme (beyan) olup peygambere de nispet edilir.",
+    "Her iki ayet de hidayetin yalnızca kulun tercihiyle gerçekleştiğini bildirir.",
+    "Ayetler arasında çelişki vardır; bu yüzden Mu’tezile birinci ayeti reddetmiştir."
+   ],
+   "d": 2,
+   "a": "Kasas 56’daki hidayet, kalpte imanı yaratma anlamında tevfik hidayetidir ve yalnız Allah’a aittir. Şûrâ 52’deki ise doğru yolu gösterme ve açıklama anlamında beyan hidayetidir.",
+   "ac": [
+    "Haber bildiren ayetlerde nesih söz konusu değildir; ayetler farklı anlamları ifade eder.",
+    "Anlamlar ters verilmiştir.",
+    "Doğru yorum.",
+    "Birinci ayet hidayete erdirmenin Allah’a ait olduğunu bildirir.",
+    "Ayetler arasında çelişki yoktur; hiçbir mezhep ayeti reddetmemiştir."
+   ],
+   "kay": "Kasas, 28/56; Şûrâ, 42/52"
+  },
+  {
+   "id": "kl9-10",
+   "z": 2,
+   "s": "Bir köylü, tarlasındaki hastalıklı ürün için ilaçlama yapmayı reddederek “Kaderde ne varsa o olur, ben Allah’a tevekkül ediyorum” demektedir.\n\nBu tutumun yanlışlığını en iyi ortaya koyan delil aşağıdakilerden hangisidir?",
+   "c": [
+    "“Allah her şeyin yaratıcısıdır.”",
+    "“Kazayı ancak dua geri çevirir.”",
+    "“Kaderiyye bu ümmetin Mecûsîleridir.”",
+    "“Deveni bağla, sonra tevekkül et.”",
+    "“Allah küfre razı olmaz.”"
+   ],
+   "d": 3,
+   "a": "Tevekkül, gerekli tedbirleri aldıktan sonra Allah’a dayanmaktır. Hz. Peygamber’in “Deveni bağla, sonra tevekkül et” sözü tedbirin tevekkülün parçası olduğunu gösterir.",
+   "ac": [
+    "Bu ayet yaratmanın Allah’a ait olduğunu bildirir; tedbir gerekliliğini doğrudan anlatmaz.",
+    "Dua ile ilgili bu hadis konuyu kısmen destekler; ama tedbiri doğrudan emreden ifade değildir.",
+    "Bu hadis Kaderiyye’nin düalizme benzemesiyle ilgilidir.",
+    "Doğru: Tevekkülün tedbirle birlikte olduğunu doğrudan bildirir.",
+    "Bu ifade irade-rıza ayrımıyla ilgilidir."
+   ],
+   "kay": "Tirmizî, Sıfatü’l-kıyâme"
+  },
+  {
+   "id": "kl9-11",
+   "z": 3,
+   "s": "Mu’tezile ile ilgili olarak,\n\nI. Allah’ın kulları için en iyi olanı yapması gerektiğini savunmuştur.\nII. Kudretin fiilden önce bulunduğunu söylemiştir.\nIII. Güç yetirilemeyecek şeyle yükümlü tutmanın aklen caiz olduğunu kabul etmiştir.\nIV. Allah’ın iradesi ile emrini aynı saymıştır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "I ve III",
+    "II ve III",
+    "I, II ve IV",
+    "I, III ve IV",
+    "II, III ve IV"
+   ],
+   "d": 2,
+   "a": "Aslah, kudretin fiilden önce olması ve irade ile emrin aynı sayılması Mu’tezile görüşleridir. Teklîf-i mâ lâ yutâkın aklen caiz olduğu görüşü ise Eş’arî’ye aittir; Mu’tezile buna karşı çıkar.",
+   "ac": [
+    "Üçüncü ifade Eş’arî görüşüdür.",
+    "Üçüncü ifade Eş’arî görüşüdür.",
+    "Doğru: Birinci, ikinci ve dördüncü ifadeler Mu’tezile’ye aittir.",
+    "Üçüncü ifade Mu’tezile’ye ait değildir.",
+    "Üçüncü ifade Mu’tezile’ye ait değildir."
+   ],
+   "kay": "Kādî Abdülcebbâr, Şerhu’l-Usûli’l-hamse"
+  },
+  {
+   "id": "kl9-12",
+   "z": 2,
+   "s": "Aşağıdaki kişi–görüş eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Ebü’l-Hasen el-Eş’arî – Kulun cüz’î iradesi fiilin yaratılmasında etkilidir ve kul fâil-i hakîkîdir.",
+    "Gaylân ed-Dımaşkī – İnsan fiillerinde hürdür.",
+    "Ka’bî – Maktulün iki eceli vardır.",
+    "Cehm b. Safvân – İnsan rüzgârın önündeki tüy gibidir.",
+    "Hz. Ömer – Allah’ın kaderinden yine Allah’ın kaderine kaçıyoruz."
+   ],
+   "d": 0,
+   "a": "Kulun cüz’î iradesinin etkili olduğu ve kulun fâil-i hakîkî sayıldığı görüşü Mâtürîdî’ye aittir. Eş’arî’ye göre kulun kudreti fiile etkili değildir.",
+   "ac": [
+    "Yanlış eşleştirme: Bu Mâtürîdî görüşüdür.",
+    "Doğru eşleştirme: Kaderiyye.",
+    "Doğru eşleştirme: Bağdat Mu’tezilesi.",
+    "Doğru eşleştirme: Cebriyye.",
+    "Doğru eşleştirme: Buhârî, Tıb."
+   ],
+   "kay": "Konu: İnsan fiilleri"
+  },
+  {
+   "id": "kl9-13",
+   "z": 3,
+   "s": "“De ki: Hepsi Allah katındandır.” (Nisâ, 4/78)\n“Sana gelen her iyilik Allah’tandır; sana gelen her kötülük ise kendindendir.” (Nisâ, 4/79)\n\nEhl-i sünnet kelamcılarının bu iki ayeti uzlaştırma şekli aşağıdakilerden hangisidir?",
+   "c": [
+    "İkinci ayet birinci ayeti neshetmiştir.",
+    "Birinci ayet yaratma bakımından her şeyin Allah’a ait olduğunu, ikinci ayet ise kötülüğün sebebinin kulun tercihi ve kusuru olduğunu bildirir.",
+    "Birinci ayet müminlerle, ikinci ayet kâfirlerle ilgilidir.",
+    "Kötülüğü kul yaratır, iyiliği Allah yaratır.",
+    "Hayır ve şer iki ayrı yaratıcıya aittir."
+   ],
+   "d": 1,
+   "a": "Ehl-i sünnete göre her şey yaratma yönünden Allah’tandır; kötülük ise kulun tercihi ve kusuru sebebiyle meydana geldiğinden ona nispet edilir. Edep gereği şer Allah’a nispet edilmez.",
+   "ac": [
+    "Haber bildiren ayetlerde nesih yoktur.",
+    "Doğru uzlaştırma.",
+    "Ayetlerde böyle bir ayrım yoktur.",
+    "Bu Mu’tezile’nin görüşüdür.",
+    "Bu Seneviyye (düalizm) görüşüdür ve İslam’a aykırıdır."
+   ],
+   "kay": "Nisâ, 4/78-79"
+  },
+  {
+   "id": "kl9-14",
+   "z": 2,
+   "s": "Sıla-i rahim yapanın ömrünün uzayacağını bildiren hadis ile “Ecelleri gelince ne bir an geri kalabilirler ne de öne geçebilirler” ayeti arasındaki ilişki âlimler tarafından açıklanmıştır.\n\nBu açıklamalarda kullanılan kavram aşağıdakilerden hangisidir?",
+   "c": [
+    "Teklîf-i mâ lâ yutâk",
+    "Kesb",
+    "Kaza-i muallak",
+    "Halku’l-ef’âl",
+    "Aslah"
+   ],
+   "d": 2,
+   "a": "Âlimler ömrün uzamasını ya bereket olarak ya da Allah’ın ezelde bir şarta bağlı olarak takdir etmesi (kaza-i muallak) şeklinde açıklamıştır. Her iki durumda da Allah’ın ilmi değişmez.",
+   "ac": [
+    "Güç yetirilemeyecek şeyle yükümlülükle ilgilidir.",
+    "Kesb kulun fiili kazanmasıdır.",
+    "Doğru: Şarta bağlı takdir.",
+    "İnsanın fiillerini yaratması görüşüdür.",
+    "Allah’ın kul için en iyiyi yapması görüşüdür."
+   ],
+   "kay": "Buhârî, Edeb; A’râf, 7/34"
+  },
+  {
+   "id": "kl9-15",
+   "z": 3,
+   "s": "Bir öğrenci, istitâat (güç) konusunda şu tespitleri yapmıştır:\n\nI. Eş’arî ve Mâtürîdîlere göre fiili meydana getiren güç fiille birlikte yaratılır.\nII. Mâtürîdîler, organların sağlamlığı ve sebeplerin hazır olması anlamındaki gücün fiilden önce bulunduğunu ve sorumluluğun şartı olduğunu söyler.\nIII. Mu’tezile’ye göre güç fiilden öncedir ve iki zıt fiile elverişlidir.\n\nÖğrencinin tespitlerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Üç tespit de doğrudur. Ehl-i sünnete göre fiili gerçekleştiren hakiki kudret fiille birliktedir; Mâtürîdîler ayrıca sebep ve alet selameti anlamındaki istitâatin fiilden önce olduğunu kabul eder. Mu’tezile ise kudretin fiilden önce olduğunu savunur.",
+   "ac": [
+    "Eksiktir.",
+    "Eksiktir.",
+    "Eksiktir: Üçüncü tespit de doğrudur.",
+    "Eksiktir: Birinci tespit de doğrudur.",
+    "Doğru: Hepsi doğrudur."
+   ],
+   "kay": "Konu: İstitâat"
+  },
+  {
+   "id": "kl9-16",
+   "z": 1,
+   "s": "Kişinin yapması gereken her şeyi yapıp gerekli tedbirleri aldıktan sonra sonucu Allah’a bırakıp O’na güvenmesine ne ad verilir?",
+   "c": [
+    "Rıza",
+    "Tevâkül",
+    "Kanaat",
+    "Teslimiyet",
+    "Tevekkül"
+   ],
+   "d": 4,
+   "a": "Tevekkül, tedbirden sonra Allah’a güvenip dayanmaktır. Tedbir almadan sonucu beklemek ise tevâküldür.",
+   "ac": [
+    "Rıza, Allah’ın hükmüne hoşnutlukla boyun eğmektir.",
+    "Tevâkül tedbirsiz beklemedir; tembelliktir.",
+    "Kanaat elindekiyle yetinmektir.",
+    "Teslimiyet daha genel bir boyun eğme kavramıdır.",
+    "Doğru: Tevekkül."
+   ],
+   "kay": "Âl-i İmrân, 3/159"
+  }
+ ]
+}

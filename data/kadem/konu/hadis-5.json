@@ -1,0 +1,781 @@
+{
+ "id": "hadis-5",
+ "ad": "Hadis Çeşitleri 3: Kaynağına ve Senedine Göre (Merfû, Mevkûf, Maktû, Kudsî; Mürsel, Munkatı, Mu’dal, Muallak; Müsned, Muttasıl, Âlî-Nâzil)",
+ "ders": "Hadis",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Söz kimin? Merfû, mevkûf, maktû"
+  },
+  {
+   "merak": "Hasan-ı Basrî’nin “Selam vermek sünnettir, almak farzdır” sözü bir hadis kitabında geçiyor. Bu söz Hz. Peygamber’in mi, bir sahabinin mi, yoksa Hasan’ın kendisinin mi? Hadisçiler bu soruya tek bir kelimeyle cevap verir."
+  },
+  "Hadis kitaplarında yalnız Hz. Peygamber’in sözleri değil, sahabe ve tâbiûnun söz ve uygulamaları da yer alır. Metnin kime ait olduğuna, yani “isnadın nerede durduğuna” göre hadisler üçe ayrılır; bunlara Allah’a nispet edilen kudsî hadis de eklenir.",
+  "Merfû hadis: Merfû sözlükte “yükseltilmiş, kaldırılmış” demektir. Terim olarak Hz. Peygamber’e nispet edilen söz, fiil, takrîr ve vasıflardır. Senedin muttasıl ya da munkatı olması merfû olmayı etkilemez; çünkü merfû nitelemesi sened için değil metin içindir, yani sözün sahibini gösterir. Bu isimlendirme Hz. Peygamber’in sözlerini sahabe ve tâbiûn sözlerinden ayırmak içindir.",
+  "Merfû ikiye ayrılır: Sarih (açık) merfû, metinde açıkça Hz. Peygamber’in söz, fiil veya takrîrinden söz edilen hadistir. Hükmen merfû ise sahabiye ait gibi görünen, fakat Hz. Peygamber’den alınmış olması gereken haberdir. Hükmen merfûnun başlıca şekilleri şunlardır: Sahabinin re’y ve içtihatla bilinmesi mümkün olmayan konularda (önceki peygamberler, gelecekteki olaylar, kıyamet ve âhiret hâlleri, belirli amellere özel sevaplar) haber vermesi; sahabinin “Bize şu emrolundu”, “Şundan nehyolunduk” ya da “Bu sünnettendir” demesi; “Hz. Peygamber zamanında şöyle yapardık” demesi; sahabinin bir ayetin nüzûl sebebini bildirmesi.",
+  "Mevkûf hadis: Mevkûf sözlükte “durdurulmuş” demektir; çünkü isnad sahabide durmuş, Hz. Peygamber’e ulaşmamıştır. Terim olarak sahabeye ait söz, fiil ve takrîrlerdir; senedi muttasıl ya da munkatı olabilir. Mevkûf yalnızca açık (sarih) olarak olur; hükmen mevkûf diye bir tür yoktur. Örnek: Ebû Hüreyre’nin “Mümin, müminin aynasıdır” sözünün ona ait olarak rivayet edilmesi; “Ebû Bekir, Ömer ve Osman namazda besmeleyi açıktan okumazlardı” şeklindeki bir uygulama haberi. Mevkûf hadis Hanefîlerde “kavlü’s-sahâbî” (sahabe sözü) olarak re’y ve kıyastan önce gelen bir delil kabul edilir; Şâfiî’nin yeni görüşünde ise bağlayıcı değildir.",
+  "Maktû hadis: Maktû sözlükte “kesilmiş” demektir. Terim olarak tâbiûna ait söz ve fiillerdir; etbâu’t-tâbiîn ve sonrakilerin sözleri de bu kapsamda değerlendirilir. Hasan-ı Basrî’nin “Selam vermek sünnettir, almak farzdır” sözü maktûdur. Maktû haber dinde delil değildir; ancak o dönemin anlayışını yansıttığı için değerlidir.",
+  {
+   "tablo": [
+    [
+     "Tür",
+     "Sözün sahibi",
+     "Sözlük anlamı",
+     "Örnek"
+    ],
+    [
+     "Merfû",
+     "Hz. Peygamber",
+     "Yükseltilmiş",
+     "“Ameller niyetlere göredir.”"
+    ],
+    [
+     "Mevkûf",
+     "Sahabi",
+     "Durdurulmuş",
+     "Ebû Hüreyre: “Mümin, müminin aynasıdır.”"
+    ],
+    [
+     "Maktû",
+     "Tâbiî (ve sonrası)",
+     "Kesilmiş",
+     "Hasan-ı Basrî: “Selam vermek sünnet, almak farzdır.”"
+    ],
+    [
+     "Kudsî",
+     "Mana Allah’a, lafız Hz. Peygamber’e",
+     "Kutsal",
+     "“Rahmetim gazabımı geçti.”"
+    ]
+   ]
+  },
+  {
+   "not": "Maktû ile munkatı mutlaka ayırt edilmelidir: Maktû metnin sahibini (tâbiî) gösterir; munkatı ise senedde kopukluk olduğunu gösterir. Benzer şekilde merfû ile muttasıl da farklıdır: merfû sözün sahibini, muttasıl senedin kesintisizliğini anlatır. Bir hadis hem merfû hem munkatı olabilir; bir başkası hem mevkûf hem muttasıl olabilir."
+  },
+  {
+   "sinav": "“Merfû isimlendirmesi sened için değil metin için söylenmiştir” bilgisi doğrudur; tuzak şık bunun tersini söyler. “Sahabinin re’yle bilinemeyecek haberi” → hükmen merfû. “Bize şu emrolundu / bu sünnettendir” → hükmen merfû. Tâbiî sözü → maktû (munkatı değil)."
+  },
+  {
+   "akil": "Merfû: Hz. Peygamber (sarih veya hükmen). Mevkûf: sahabi (yalnız sarih). Maktû: tâbiî. Merfû-mevkûf-maktû metnin sahibini, muttasıl-munkatı senedin durumunu gösterir."
+  },
+  {
+   "b": "2. Kudsî hadis: Kur’an değil ama Allah’a nispet edilen söz"
+  },
+  {
+   "merak": "“Ey kullarım! Ben zulmü kendime haram kıldım, onu sizin aranızda da haram kıldım; birbirinize zulmetmeyin.” Bu söz Allah’a aittir; ama Kur’an’da yoktur, namazda okunmaz. Peki nedir?"
+  },
+  "Kudsî hadis, Hz. Peygamber’in “Allah Teâlâ şöyle buyurdu” ya da “Rabbiniz şöyle buyurdu” diyerek Allah’a nispet ettiği, ayet olmayan sözlerdir. Bunlara ilâhî veya rabbânî hadis de denir. Çoğunluğa göre kudsî hadisin anlamı Allah’a, lafzı ise Hz. Peygamber’e aittir. Bu yönüyle hem lafzı hem anlamı Allah’a ait olan Kur’an’dan ayrılır; diğer hadislerden (nebevî hadis) ise Allah’a nispet edilmesiyle ayrılır.",
+  "Kudsî hadislerin konuları çoğunlukla Allah’ın sıfatları, rahmeti, kulun Allah’la ilişkisi, ihlâs, tevbe, zikir ve ahlâktır; ahkâm (fıkhî hüküm) içeren kudsî hadis azdır. Sayılarının iki yüz civarında olduğu söylenir. Kudsî hadis olması, sahih olmasını gerektirmez; kudsî hadisler de diğer hadisler gibi sahih, hasen, zayıf hatta mevzû olabilir.",
+  {
+   "hadis": "Allah mahlûkatı yarattığında, Arş’ın üstünde yanında bulunan bir kitaba “Şüphesiz rahmetim gazabımı geçti” diye yazdı.",
+   "kay": "Buhârî, Tevhîd, 15; Müslim, Tevbe, 14"
+  },
+  {
+   "hadis": "Ey kullarım! Ben zulmü kendime haram kıldım, onu sizin aranızda da haram kıldım; öyleyse birbirinize zulmetmeyin…",
+   "kay": "Müslim, Birr, 55"
+  },
+  {
+   "hadis": "Âdemoğlunun her ameli kendisi içindir; ancak oruç müstesna. O benim içindir, onun mükâfatını ben veririm.",
+   "kay": "Buhârî, Savm, 9; Müslim, Sıyâm, 161"
+  },
+  {
+   "tablo": [
+    [
+     "Özellik",
+     "Kur’an",
+     "Kudsî hadis",
+     "Nebevî hadis"
+    ],
+    [
+     "Lafız",
+     "Allah’a ait",
+     "Hz. Peygamber’e ait (çoğunluk)",
+     "Hz. Peygamber’e ait"
+    ],
+    [
+     "Anlam",
+     "Allah’a ait",
+     "Allah’a ait",
+     "Hz. Peygamber’e ait (vahiy kaynaklı olabilir)"
+    ],
+    [
+     "İ’caz ve tehaddî",
+     "Var",
+     "Yok",
+     "Yok"
+    ],
+    [
+     "Nakil",
+     "Tamamı tevâtürle",
+     "Âhâd olabilir",
+     "Âhâd olabilir"
+    ],
+    [
+     "Namazda okunması",
+     "Okunur, namaz onunla sahih olur",
+     "Okunmaz",
+     "Okunmaz"
+    ],
+    [
+     "Okunması ibadet mi?",
+     "Her harfine sevap (tilâveti ibadet)",
+     "Tilâveti ibadet değil",
+     "Tilâveti ibadet değil"
+    ],
+    [
+     "Abdestsiz dokunma",
+     "Caiz değil",
+     "Caiz",
+     "Caiz"
+    ],
+    [
+     "Mana ile rivayet",
+     "Caiz değil",
+     "Caiz",
+     "Caiz"
+    ],
+    [
+     "İnkârı",
+     "Küfür",
+     "Sübutuna göre",
+     "Sübutuna göre"
+    ]
+   ]
+  },
+  "Kudsî hadisleri bir araya getiren eserler de yazılmıştır: Muhyiddîn İbnü’l-Arabî’nin Mişkâtü’l-envâr fîmâ ruviye ani’llâhi Sübhânehû mine’l-ahbâr’ı, Aliyyü’l-Kārî’nin el-Ehâdîsü’l-kudsiyyetü’l-erbaîniyye’si ve Abdürraûf el-Münâvî’nin el-İthâfâtü’s-seniyye bi’l-ehâdîsi’l-kudsiyye’si bunların en bilinenleridir.",
+  {
+   "kontrol": "Kudsî hadislerin sayısı kaynaklarda farklı verilir (yüz ile iki yüz arası, tekrarlarla daha fazla). Sınavda kesin bir sayı sorulması beklenmez."
+  },
+  {
+   "sinav": "Kudsî hadis – Kur’an farkları çok sorulur: kudsî hadis namazda okunmaz, i’caz özelliği yoktur, abdestsiz dokunulabilir, mana ile rivayet edilebilir, tevâtür şartı yoktur. Tuzak: “Kudsî hadislerin tamamı sahihtir” (yanlış). “Rahmetim gazabımı geçti”, “Oruç benim içindir”, “Ben zulmü kendime haram kıldım” → kudsî hadis örnekleri."
+  },
+  {
+   "akil": "Kudsî hadis: mana Allah’tan, lafız Hz. Peygamber’den; Kur’an değildir, namazda okunmaz, i’cazı yoktur, sahih de zayıf da olabilir."
+  },
+  {
+   "b": "3. Sened kesintisiz mi? Muttasıl ve müsned"
+  },
+  {
+   "merak": "Hadis literatüründe “müsned” kelimesi üç ayrı anlamda kullanılır: bir hadis türü, bir kitap türü ve bir sıfat. Ahmed b. Hanbel’in el-Müsned’i ile “müsned hadis” aynı şey mi?"
+  },
+  "Muttasıl (mevsûl) hadis: Senedinde kopukluk bulunmayan, her râvinin hadisi bir önceki râviden bizzat aldığı hadistir. Muttasıl olmak, sözün sahibini belirlemez: Muttasıl bir sened Hz. Peygamber’e ulaşırsa muttasıl merfû, sahabide durursa muttasıl mevkûf olur. Çoğunluğa göre tâbiî sözlerine ulaşan muttasıl senedler için kayıtsız “muttasıl” denmez; “Saîd b. Müseyyeb’e muttasıldır” gibi kayıtla söylenir.",
+  "Müsned hadis: Senedi Hz. Peygamber’e kadar kesintisiz (muttasıl) olarak ulaşan merfû hadistir. Bu, Hâkim en-Nîsâbûrî’nin ve çoğunluğun tanımıdır. İbn Abdilber yalnız merfû olmayı, Hatîb el-Bağdâdî ise yalnız muttasıl olmayı yeterli görmüştür. Çoğunluğun tanımına göre müsned hadiste iki şart birleşir: ittisal + ref’.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Anlamı",
+     "Dikkat"
+    ],
+    [
+     "Müsned (hadis türü)",
+     "Senedi muttasıl olan merfû hadis",
+     "İttisal + merfû"
+    ],
+    [
+     "Müsned (eser türü)",
+     "Hadislerin sahabe râvilere göre dizildiği kitap",
+     "Ahmed b. Hanbel’in el-Müsned’i"
+    ],
+    [
+     "Müsnid (kişi)",
+     "Hadisi kendi senediyle rivayet eden",
+     "Unvan"
+    ],
+    [
+     "Muttasıl / mevsûl",
+     "Senedi kesintisiz",
+     "Merfû veya mevkûf olabilir"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Senedi muttasıl ve merfû olan hadis” → müsned. “Senedi kesintisiz, sahabide duran” → muttasıl mevkûf. Müsned hadisi, müsned eser türüyle ve müsnid unvanıyla karıştırmayın."
+  },
+  {
+   "akil": "Muttasıl = kesintisiz sened (merfû ya da mevkûf). Müsned = muttasıl + merfû. Müsned kitap = sahabeye göre tertip."
+  },
+  {
+   "b": "4. Senedde kopukluk: mürsel, munkatı, mu’dal, muallak"
+  },
+  {
+   "merak": "Büyük tâbiî Saîd b. el-Müseyyeb bir hadise “Resûlullah buyurdu ki…” diye başlar. Oysa Hz. Peygamber’i hiç görmemiştir. Aradaki sahabiyi söylememiş olması hadisi değersiz mi kılar? Mezhepler bu soruya farklı cevaplar verdi."
+  },
+  "Senedde bir veya daha fazla râvinin düşmesine inkıtâ (kopukluk) denir. Kopukluğun senedin neresinde olduğuna ve kaç râvinin düştüğüne göre farklı isimler verilir. Önce senedin yönlerini hatırlayalım: Senedin başı müellife yakın taraf, sonu Hz. Peygamber’e yakın taraftır.",
+  "Mürsel: Tâbiînin, aradaki sahabiyi zikretmeden hadisi doğrudan “Resûlullah şöyle buyurdu / şöyle yaptı” diyerek Hz. Peygamber’e nispet etmesidir. Bu işleme irsâl denir. Kopukluk senedin sonundadır. Muhaddislerin çoğuna göre mürsel, düşen râvinin kimliği bilinmediği için zayıftır. Ebû Hanîfe, Mâlik ve bir rivayette Ahmed b. Hanbel, güvenilir bir tâbiînin mürselini delil kabul eder; çünkü güvenilir bir tâbiînin, kesin inanmadığı bir sözü Hz. Peygamber’e nispet etmeyeceğini düşünürler. İmam Şâfiî ise mürseli bazı şartlarla kabul eder: başka bir müsned veya mürselle desteklenmesi, bir sahabi sözüne uygun olması ya da âlimlerin çoğunluğunun bu yönde fetva vermesi ve irsâl eden tâbiînin yalnız güvenilir kişilerden rivayet ettiğinin bilinmesi gibi. Şâfiî, Saîd b. el-Müseyyeb’in mürsellerini araştırıp sağlam bulduğu için kabul etmiştir. Mürsel hadisleri Ebû Dâvûd el-Merâsîl adlı eserinde toplamıştır.",
+  "Hanefî usulcülerin mürsel tanımı daha geniştir: Güvenilir bir râvinin, senedin herhangi bir yerinden râvi düşürerek rivayet ettiği hadislerin hepsine (munkatı ve mu’dal dâhil) mürsel derler. Sahabinin mürseli (mürselü’s-sahâbî) ise küçük yaştaki bir sahabinin bizzat duymadığı bir hadisi, bir başka sahabiden duyup onu anmadan Hz. Peygamber’den rivayet etmesidir; sahabenin hepsi adil kabul edildiği için ittifakla delildir.",
+  "Munkatı: Senedin ortasından bir râvinin düştüğü ya da farklı yerlerinden, art arda olmamak şartıyla birden fazla râvinin düştüğü hadistir. Munkatı genel anlamda her türlü kopukluğu ifade etmek için de kullanılır.",
+  "Mu’dal: Senedin ortasından art arda iki veya daha fazla râvinin düştüğü hadistir. Mu’dal, munkatıdan daha zayıftır; çünkü kaybolan bilgi daha fazladır. Bir etbâu’t-tâbiînin doğrudan Hz. Peygamber’den rivayet etmesi de (araya tâbiî ve sahabi düştüğü için) mu’daldır.",
+  "Muallak: Senedin baş tarafından (müellif tarafından) bir veya daha fazla râvinin, hatta senedin tamamının hazfedildiği hadistir. Bu işleme ta’lîk denir. Buhârî Sahîh’inde, özellikle bab başlıklarında, pek çok muallak rivayete yer vermiştir. Bunların “kâle” (dedi), “zekera” (zikretti) gibi kesinlik bildiren (cezm) lafızlarla verilenleri Buhârî’ye göre sahih kabul edilir; “ruviye” (rivayet olundu), “yüzkeru” (zikredilir) gibi zayıflık sezdiren (temrîz) lafızlarla verilenler ise araştırmaya muhtaçtır. İbn Hacer, Buhârî’nin muallaklarının senedlerini Tağlîku’t-ta’lîk adlı eserinde tespit etmiştir.",
+  {
+   "tablo": [
+    [
+     "Tür",
+     "Kopukluğun yeri",
+     "Düşen râvi sayısı",
+     "Not"
+    ],
+    [
+     "Muallak",
+     "Senedin başı (müellif tarafı)",
+     "Bir veya daha fazla, hatta tamamı",
+     "Buhârî’nin ta’lîkleri; cezm – temrîz"
+    ],
+    [
+     "Mürsel",
+     "Senedin sonu (sahabi)",
+     "Sahabi (tâbiî doğrudan Hz. Peygamber’den)",
+     "Hanefî ve Mâlikîler delil sayar; Şâfiî şartlı"
+    ],
+    [
+     "Munkatı",
+     "Ortası",
+     "Bir; ya da art arda olmayan birden fazla",
+     "Genel “kopuk” anlamı da var"
+    ],
+    [
+     "Mu’dal",
+     "Ortası",
+     "Art arda iki veya daha fazla",
+     "Munkatıdan daha zayıf"
+    ],
+    [
+     "Müdelles",
+     "Gizlenmiş kopukluk",
+     "Görünmez",
+     "Râvi bilerek gizler"
+    ],
+    [
+     "Mürsel-i hafî",
+     "Gizli kopukluk",
+     "Görüşmediği muasırından “an” ile",
+     "Tedlîse yakın"
+    ]
+   ]
+  },
+  {
+   "sinav": "Kopukluk türleri “yer + sayı” ile ayırt edilir: baş → muallak; son (sahabi) → mürsel; ortadan bir → munkatı; ortadan art arda iki+ → mu’dal; gizli → müdelles. Mürselin hükmü sorulursa: Hanefî ve Mâlikî kabul, Şâfiî şartlı, muhaddislerin çoğu zayıf. Ebû Dâvûd → el-Merâsîl. Buhârî’nin ta’lîklerini tespit eden eser → Tağlîku’t-ta’lîk (İbn Hacer)."
+  },
+  {
+   "akil": "Baş: muallak; son: mürsel; orta bir: munkatı; orta art arda iki+: mu’dal; gizli: müdelles. Mürsel Hanefî-Mâlikîde delil, Şâfiîde şartlı; sahabinin mürseli ittifakla delil."
+  },
+  {
+   "b": "5. Âlî ve nâzil isnad; müselsel hadis"
+  },
+  {
+   "merak": "Yahyâ b. Maîn ölüm döşeğindeyken “Ne arzu edersin?” diye sorulmuş, “Boş bir ev ve âlî bir isnad” demiştir. Bir muhaddisin son arzusu neden “kısa bir sened” olsun?"
+  },
+  "Âlî (yüksek) isnad, râvi sayısı az olan, yani Hz. Peygamber’e daha az aracıyla ulaşan seneddir; bu niteliğe uluvv denir. Nâzil (aşağı) isnad ise râvi sayısı çok olan seneddir; bu niteliğe nüzûl denir. Aracı sayısı azaldıkça hata ihtimali de azaldığı için âlî isnad değerli görülmüş ve hadis yolculuklarının (rihle) en önemli sebeplerinden biri olmuştur. Ahmed b. Hanbel’in “Âlî isnad aramak, selefin sünnetidir” sözü meşhurdur.",
+  "Uluvv iki kısımdır: Uluvv-i mutlak, Hz. Peygamber’e en az aracıyla ulaşmaktır; en değerli türdür. Uluvv-i nisbî ise belli bir hadis imamına ya da belli bir kitaba (örneğin Buhârî’ye) daha az aracıyla ulaşmaktır. Nisbî uluvvün muvâfakat (bir müellifin hocasına onun yoluna girmeden ulaşma), bedel (hocasının hocasına ulaşma), müsâvât (râvi sayısında müellifle eşit olma) ve musâfaha (müellifin talebesiyle eşit olma) gibi alt türleri vardır.",
+  "Âlî isnadın en dikkat çekici örnekleri sülâsiyyâttır: müellif ile Hz. Peygamber arasında yalnız üç râvinin bulunduğu hadisler. Buhârî’nin Sahîh’inde yirmi iki sülâsî hadis bulunduğu ve bunların çoğunun Mekkî b. İbrâhîm aracılığıyla geldiği söylenir. Ahmed b. Hanbel’in Müsned’inde sülâsiyyât çok daha fazladır; Tirmizî’nin Sünen’inde ise bir tane olduğu belirtilir. Dört râvili hadise rubâî (rubâiyyât) denir.",
+  {
+   "kontrol": "Buhârî’de 22, Tirmizî’de 1, İbn Mâce’de 5 sülâsî hadis bulunduğu ve Müsned’deki sülâsiyyâtın üç yüzü aştığı yaygın olarak söylenir; kaynaklarda küçük farklarla verilir."
+  },
+  "Müselsel hadis: Senedindeki râvilerin, hadisi rivayet ederken aynı sözü söylediği, aynı hâli yaşadığı ya da aynı fiili yaptığı hadistir; bu zincirleme özelliğe teselsül denir. Örneğin Hz. Peygamber’in Muâz b. Cebel’e “Ey Muâz! Vallahi ben seni seviyorum…” diyerek namazların ardından okunacak bir duayı öğrettiği hadis, her râvinin talebesine “Ben de seni seviyorum” demesiyle aktarıldığı için müselsel bi’l-mahabbedir. “Merhamet edenlere Rahmân da merhamet eder” hadisi ise her râvinin talebesinden ilk duyduğu hadis olarak rivayet edilmesiyle müselsel bi’l-evveliyyedir. Musâfahayla müselsel (musâfaha ederek rivayet) örnekleri de vardır. Müselsel rivayetler râvilerin dikkatini ve rivayetin canlılığını gösterir; ancak teselsül özelliği çoğu zaman zayıftır, hadisin kendisi sahih olsa bile zincirin baştan sona kesintisiz korunduğu nadirdir.",
+  {
+   "hadis": "Ey Muâz! Vallahi ben seni seviyorum. Sana tavsiye ederim: Her namazın ardından “Allahım! Seni zikretmem, sana şükretmem ve sana güzel ibadet etmem için bana yardım et” demeyi bırakma.",
+   "kay": "Ebû Dâvûd, Vitr, 26; Nesâî, Sehv, 60"
+  },
+  {
+   "tablo": [
+    [
+     "Terim",
+     "Tanım"
+    ],
+    [
+     "Âlî isnad (uluvv)",
+     "Az râvili, Hz. Peygamber’e kısa yoldan ulaşan sened"
+    ],
+    [
+     "Nâzil isnad (nüzûl)",
+     "Çok râvili sened"
+    ],
+    [
+     "Uluvv-i mutlak",
+     "Hz. Peygamber’e en az aracıyla ulaşma"
+    ],
+    [
+     "Uluvv-i nisbî",
+     "Belli bir imama/kitaba az aracıyla ulaşma (muvâfakat, bedel, müsâvât, musâfaha)"
+    ],
+    [
+     "Sülâsiyyât",
+     "Müellif ile Hz. Peygamber arasında üç râvi"
+    ],
+    [
+     "Rubâî",
+     "Dört râvili sened"
+    ],
+    [
+     "Müselsel",
+     "Râvilerin aynı söz, hâl veya fiili tekrarladığı sened"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Uluvv (âlî isnad)” → râvinin Hz. Peygamber’e en kısa yoldan ulaşması; tuzak şıklar: “râvilerin adil ve zabıt olması”, “semâ’ ile alınması”. Rihlenin sebeplerinden biri âlî isnad arayışıdır. “Ey Muâz seni seviyorum” → müselsel bi’l-mahabbe. Sülâsiyyât → üç râvili; Buhârî’de az, Müsned’de çok."
+  },
+  {
+   "akil": "Âlî = az râvi, kısa yol, değerli; nâzil = çok râvi. Sülâsiyyât: üç râvi. Müselsel: râviler aynı söz/hâl/fiili tekrarlar (mahabbe, evveliyye, musâfaha)."
+  }
+ ],
+ "ozet": [
+  "Merfû: Hz. Peygamber’e nispet edilen; sened muttasıl ya da munkatı olabilir; merfû metnin sahibini gösterir.",
+  "Hükmen merfû: re’yle bilinemeyecek sahabe haberi; “emrolunduk”, “sünnettendir”, “Hz. Peygamber zamanında yapardık”; sebeb-i nüzûl.",
+  "Mevkûf: sahabeye ait; yalnız sarih olur; Hanefîlerde kavlü’s-sahâbî olarak delil.",
+  "Maktû: tâbiûna (ve sonrakilere) ait söz; Hasan-ı Basrî örneği. Maktû ≠ munkatı.",
+  "Kudsî hadis: mana Allah’tan, lafız Hz. Peygamber’den; ilâhî/rabbânî hadis.",
+  "Kudsî hadis namazda okunmaz, i’cazı yok, abdestsiz dokunulur, mana ile rivayet edilir; sahih de zayıf da olabilir.",
+  "Kudsî örnekler: “Rahmetim gazabımı geçti”; “Ben zulmü kendime haram kıldım” (Müslim, Birr); “Oruç benim içindir.”",
+  "Kudsî hadis eserleri: İbnü’l-Arabî Mişkâtü’l-envâr; Aliyyü’l-Kārî; Münâvî el-İthâfâtü’s-seniyye.",
+  "Muttasıl (mevsûl): kesintisiz sened; merfû veya mevkûf olabilir.",
+  "Müsned hadis: muttasıl + merfû (Hâkim ve çoğunluk).",
+  "Muallak: senedin başından düşme; Buhârî’nin ta’lîkleri; cezm (kâle) – temrîz (ruviye); İbn Hacer Tağlîku’t-ta’lîk.",
+  "Mürsel: tâbiî sahabiyi atlar; Hanefî-Mâlikî delil, Şâfiî şartlı (Saîd b. Müseyyeb mürselleri), muhaddisler zayıf; Ebû Dâvûd el-Merâsîl.",
+  "Mürselü’s-sahâbî ittifakla delildir; Hanefîlerin mürsel tanımı munkatı ve mu’dalı da kapsar.",
+  "Munkatı: ortadan bir (veya art arda olmayan birden fazla) râvi düşmesi; mu’dal: art arda iki veya daha fazla.",
+  "Âlî isnad: az râvili sened (uluvv); nâzil: çok râvili; rihlenin önemli sebebi.",
+  "Sülâsiyyât: üç râvili hadisler; Buhârî’de 22 civarı, Müsned’de çok.",
+  "Müselsel: râvilerin aynı söz/hâli tekrarladığı sened; “Ey Muâz seni seviyorum” (mahabbe), “Merhametlilere Rahmân merhamet eder” (evveliyye)."
+ ],
+ "kartlar": [
+  {
+   "o": "Merfû",
+   "a": "Hz. Peygamber’e nispet edilen söz, fiil, takrîr; metnin sahibini gösterir, senedin durumunu değil."
+  },
+  {
+   "o": "Hükmen merfû",
+   "a": "Sahabinin re’yle bilinemeyecek konudaki haberi; “emrolunduk”, “sünnettendir” gibi ifadeler."
+  },
+  {
+   "o": "Mevkûf",
+   "a": "Sahabeye ait söz, fiil, takrîr; sened sahabide durur."
+  },
+  {
+   "o": "Maktû",
+   "a": "Tâbiûna ait söz ve fiil (Hasan-ı Basrî’nin selam sözü)."
+  },
+  {
+   "o": "Karıştırma: maktû – munkatı",
+   "a": "Maktû: tâbiî sözü (metin); munkatı: senedde kopukluk."
+  },
+  {
+   "o": "Kudsî hadis",
+   "a": "Hz. Peygamber’in Allah’a nispet ettiği, ayet olmayan söz; mana Allah’tan, lafız Peygamber’den."
+  },
+  {
+   "o": "Kudsî hadisin Kur’an’dan farkı",
+   "a": "İ’cazı yok, namazda okunmaz, tilâveti ibadet değil, abdestsiz dokunulur, mana ile rivayet edilir."
+  },
+  {
+   "o": "Müsned hadis",
+   "a": "Senedi muttasıl olan merfû hadis."
+  },
+  {
+   "o": "Muallak",
+   "a": "Senedin başından (müellif tarafından) râvi(ler) düşmesi; Buhârî’nin ta’lîkleri."
+  },
+  {
+   "o": "Mürsel",
+   "a": "Tâbiînin sahabiyi atlayıp “Resûlullah dedi” demesi."
+  },
+  {
+   "o": "Mürselin hükmü",
+   "a": "Hanefî ve Mâlikî: delil; Şâfiî: şartlı; muhaddislerin çoğu: zayıf."
+  },
+  {
+   "o": "Mu’dal",
+   "a": "Ortadan art arda iki veya daha fazla râvi düşmesi; munkatıdan zayıf."
+  },
+  {
+   "o": "Munkatı",
+   "a": "Ortadan bir râvi düşmesi (veya art arda olmayan birden fazla)."
+  },
+  {
+   "o": "el-Merâsîl",
+   "a": "Ebû Dâvûd’un mürsel hadisleri topladığı eser."
+  },
+  {
+   "o": "Âlî isnad (uluvv)",
+   "a": "Hz. Peygamber’e en az aracıyla ulaşan sened."
+  },
+  {
+   "o": "Sülâsiyyât",
+   "a": "Müellif ile Hz. Peygamber arasında üç râvi bulunan hadisler."
+  },
+  {
+   "o": "Müselsel bi’l-mahabbe",
+   "a": "“Ey Muâz! Vallahi ben seni seviyorum…” hadisi; her râvi talebesine aynı sözü söyler."
+  },
+  {
+   "o": "Tağlîku’t-ta’lîk",
+   "a": "İbn Hacer’in Buhârî’nin muallak rivayetlerinin senedlerini tespit ettiği eser."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "hd5-01",
+   "z": 3,
+   "s": "Bir hadis talebesi şu tespitleri yapmıştır:\nI. Merfû isimlendirmesi senedin kesintisizliğini değil, sözün Hz. Peygamber’e ait olduğunu gösterir.\nII. Senedi kopuk olan bir rivayet merfû olamaz.\nIII. Mevkûf hadisin hükmen olanı da vardır.\n\nBu tespitlerden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "I ve III",
+    "II ve III"
+   ],
+   "d": 0,
+   "a": "Merfû nitelemesi metnin sahibini gösterir; senedi muttasıl da munkatı da olabilir. Mevkûf ise yalnızca sarih olur; hükmen olan merfûdur.",
+   "ac": [
+    "Doğru: yalnız I doğrudur.",
+    "II yanlıştır; merfû hadisin senedi kopuk olabilir.",
+    "II yanlıştır.",
+    "III yanlıştır; hükmen mevkûf diye bir tür yoktur.",
+    "II ve III yanlıştır."
+   ],
+   "kay": "Konu: Merfû ve mevkûf"
+  },
+  {
+   "id": "hd5-02",
+   "z": 3,
+   "s": "Aşağıdaki rivayetlerden hangisi hükmen merfû kabul edilmez?",
+   "c": [
+    "Ümmü Atiyye’nin “Cenazelerin arkasından gitmekten nehyolunduk, ama bu bize kesin olarak yasaklanmadı.” demesi",
+    "Enes’in “Seferden dönen kişinin evine gece habersiz girmemesi sünnettendir.” demesi",
+    "Saîd b. el-Müseyyeb’in bir fıkıh meselesinde kendi içtihadını bildirmesi",
+    "Câbir’in “Kur’an inerken biz azil yapardık.” demesi",
+    "Bir sahabinin kıyamet gününün dehşetini ayrıntılı olarak anlatması"
+   ],
+   "d": 2,
+   "a": "Saîd b. el-Müseyyeb tâbiîdir; onun kendi içtihadı maktû bir haberdir. Diğerleri “nehyolunduk”, “sünnettendir”, re’yle bilinemeyecek haber ve “Hz. Peygamber zamanında yapardık” kalıplarıyla hükmen merfû sayılır.",
+   "ac": [
+    "“Nehyolunduk” ifadesi hükmen merfûdur.",
+    "“Sünnettendir” ifadesi hükmen merfûdur.",
+    "Doğru: tâbiînin kendi görüşü maktûdur, hükmen merfû değildir.",
+    "Hz. Peygamber döneminde yapılan uygulamanın anlatılması hükmen merfûdur.",
+    "Re’yle bilinemeyecek kıyamet hâlleri hükmen merfûdur."
+   ],
+   "kay": "Buhârî, Cenâiz (Ümmü Atiyye); Buhârî, Nikâh (azil); Konu: Hükmen merfû"
+  },
+  {
+   "id": "hd5-03",
+   "z": 2,
+   "s": "“Ebû Bekir, Ömer ve Osman namazda besmeleyi açıktan okumazlardı.” şeklinde, bir sahabinin halifelerin uygulamasını anlattığı ve Hz. Peygamber’e nispet edilmeyen rivayet kaynağı bakımından nasıl nitelendirilir?",
+   "c": [
+    "Merfû",
+    "Mürsel",
+    "Maktû",
+    "Kudsî",
+    "Mevkûf"
+   ],
+   "d": 4,
+   "a": "Sahabenin fiil ve uygulamalarını anlatan, Hz. Peygamber’e nispet edilmeyen rivayet mevkûftur.",
+   "ac": [
+    "Hz. Peygamber’e nispet edilmemiştir.",
+    "Mürsel bir kopukluk türüdür; burada sözün sahibi söz konusudur.",
+    "Maktû tâbiûna ait rivayettir.",
+    "Kudsî hadis Allah’a nispet edilir.",
+    "Doğru: sahabe uygulaması mevkûftur."
+   ],
+   "kay": "Konu: Mevkûf"
+  },
+  {
+   "id": "hd5-04",
+   "z": 3,
+   "s": "Kudsî hadislerle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+   "c": [
+    "Allah’a nispet edildikleri için hepsi sahih kabul edilmiştir.",
+    "Namazda Kur’an yerine okunamaz.",
+    "Konuları çoğunlukla Allah’ın sıfatları, rahmeti ve kulla ilişkisidir.",
+    "Çoğunluğa göre manası Allah’a, lafzı Hz. Peygamber’e aittir.",
+    "Mana ile rivayet edilmeleri caizdir."
+   ],
+   "d": 0,
+   "a": "Kudsî hadisler de diğer hadisler gibi senedlerine göre değerlendirilir; sahih, hasen, zayıf ve hatta mevzû olanları vardır.",
+   "ac": [
+    "Yanlış: Allah’a nispet sahihliği garanti etmez.",
+    "Doğru bir ifadedir; kudsî hadisle namaz sahih olmaz.",
+    "Doğru bir ifadedir.",
+    "Doğru bir ifadedir.",
+    "Doğru bir ifadedir; Kur’an’da ise mana ile rivayet caiz değildir."
+   ],
+   "kay": "Konu: Kudsî hadis"
+  },
+  {
+   "id": "hd5-05",
+   "z": 3,
+   "s": "Aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "“Rahmetim gazabımı geçti.” – kudsî hadis",
+    "Hasan-ı Basrî: “Selam vermek sünnettir, almak farzdır.” – maktû",
+    "Bir etbâu’t-tâbiînin doğrudan “Resûlullah buyurdu” demesi – munkatı",
+    "Senedin baş tarafından râvilerin hazfedilmesi – muallak",
+    "Senedi kesintisiz olan merfû hadis – müsned"
+   ],
+   "d": 2,
+   "a": "Etbâu’t-tâbiînin doğrudan Hz. Peygamber’den rivayet etmesinde araya tâbiî ve sahabi olmak üzere art arda iki râvi düşer; bu mu’daldır.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Yanlış eşleştirme: art arda iki râvi düştüğü için mu’daldır.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme."
+   ],
+   "kay": "Konu: Mu’dal"
+  },
+  {
+   "id": "hd5-06",
+   "z": 3,
+   "s": "Mürsel hadisin delil değeri tartışılmıştır. Bir mezhep imamı, mürseli ancak başka bir müsned veya mürsel rivayetle desteklenmesi, bir sahabi sözüne uygun düşmesi ya da âlimlerin çoğunun o yönde fetva vermesi gibi şartlarla kabul etmiş; bir tâbiînin mürsellerini ise araştırıp sağlam bulduğu için kabul ettiğini söylemiştir.\n\nBu imam ve mürsellerini kabul ettiği tâbiî aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Ebû Hanîfe – Hasan-ı Basrî",
+    "Şâfiî – Saîd b. el-Müseyyeb",
+    "Mâlik – Nâfi’",
+    "Ahmed b. Hanbel – Atâ b. Ebû Rebâh",
+    "Şâfiî – Zührî"
+   ],
+   "d": 1,
+   "a": "Mürseli şartlara bağlayan İmam Şâfiî’dir ve Saîd b. el-Müseyyeb’in mürsellerini kabul etmiştir. Ebû Hanîfe ve Mâlik güvenilir tâbiînin mürselini şartsız delil sayar.",
+   "ac": [
+    "Ebû Hanîfe mürseli şartsız kabul eder.",
+    "Doğru: Şâfiî ve Saîd b. el-Müseyyeb.",
+    "Mâlik de mürseli delil sayar; Nâfi’ ayrıca bir mevlâdır, bu bağlamda anılmaz.",
+    "Ahmed’in bir rivayette mürseli kabul ettiği nakledilir; açıklanan tavır Şâfiî’ye aittir.",
+    "Şâfiî Zührî’nin mürsellerini zayıf bulmuştur."
+   ],
+   "kay": "Şâfiî, er-Risâle; Konu: Mürselin hükmü"
+  },
+  {
+   "id": "hd5-07",
+   "z": 2,
+   "s": "Buhârî’nin Sahîh’indeki bab başlıklarında senedinin baş tarafı hazfedilerek verilen rivayetlerle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Bunlara mürsel denir ve hepsi zayıftır.",
+    "“Ruviye” lafzıyla verilenler kesin olarak sahihtir.",
+    "Bu rivayetlerin senedleri hiçbir eserde tespit edilmemiştir.",
+    "Bu rivayetlerin tamamı mevkûftur.",
+    "“Kâle” gibi kesinlik bildiren lafızlarla verilenler Buhârî’ye göre sahih kabul edilir."
+   ],
+   "d": 4,
+   "a": "Buhârî’nin muallaklarından cezm lafzıyla (kâle, zekera) verilenler onun nazarında sahihtir; temrîz lafzıyla (ruviye, yüzkeru) verilenler araştırmaya muhtaçtır. İbn Hacer bunların senedlerini Tağlîku’t-ta’lîk’te tespit etmiştir.",
+   "ac": [
+    "Bunlar muallaktır; mürselde kopukluk senedin sonundadır.",
+    "“Ruviye” temrîz lafzıdır; zayıflık sezdirir.",
+    "İbn Hacer Tağlîku’t-ta’lîk’te tespit etmiştir.",
+    "Muallak rivayetler merfû da olabilir.",
+    "Doğru: cezm lafızlı muallaklar sahih kabul edilir."
+   ],
+   "kay": "İbn Hacer, Tağlîku’t-ta’lîk; Konu: Muallak"
+  },
+  {
+   "id": "hd5-08",
+   "z": 3,
+   "s": "Âlî isnadla ilgili\nI. Râvi sayısı az olan ve Hz. Peygamber’e kısa yoldan ulaşan seneddir.\nII. Hadis yolculuklarının (rihle) sebeplerinden biri olmuştur.\nIII. Belli bir hadis imamına ya da kitaba daha az aracıyla ulaşmak uluvv-i nisbî olarak adlandırılır.\nIV. Âlî isnad, senedindeki bütün râvilerin sahabe olmasını ifade eder.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I ve IV",
+    "II ve III",
+    "I, II ve III",
+    "I, II, III ve IV"
+   ],
+   "d": 3,
+   "a": "Âlî isnad az râvili senettir, rihlenin önemli sebeplerindendir; belli bir imama kısa yoldan ulaşmak uluvv-i nisbîdir. Râvilerin hepsinin sahabe olması diye bir şart yoktur.",
+   "ac": [
+    "III de doğrudur.",
+    "IV yanlıştır.",
+    "I de doğrudur.",
+    "Doğru: I, II ve III doğrudur.",
+    "IV yanlıştır."
+   ],
+   "kay": "Konu: Âlî ve nâzil isnad"
+  },
+  {
+   "id": "hd5-09",
+   "z": 2,
+   "s": "Hz. Peygamber’in Muâz b. Cebel’e “Ey Muâz! Vallahi ben seni seviyorum.” diyerek namazların ardından okunacak bir dua öğrettiği hadis, her râvinin talebesine aynı sözü söyleyerek aktarmasıyla nakledilmiştir.\n\nSenedinin bu özelliği bakımından hadis nasıl adlandırılır?",
+   "c": [
+    "Müsned",
+    "Müdrec",
+    "Mudebbec",
+    "Müselsel",
+    "Mu’an’an"
+   ],
+   "d": 3,
+   "a": "Râvilerin rivayet sırasında aynı sözü, hâli veya fiili tekrarladığı hadise müselsel denir; bu örnek müselsel bi’l-mahabbedir.",
+   "ac": [
+    "Müsned muttasıl merfû hadistir; bu özelliği anlatmaz.",
+    "Müdrecte râvinin sözü hadise karışır.",
+    "Mudebbec akran râvilerin karşılıklı rivayetidir.",
+    "Doğru: aynı sözün zincirleme tekrarı müselseldir.",
+    "Mu’an’an “an” lafzıyla yapılan rivayettir."
+   ],
+   "kay": "Ebû Dâvûd, Vitr, 26; Konu: Müselsel"
+  },
+  {
+   "id": "h2-01",
+   "z": 1,
+   "s": "Hz. Peygamber’in “Allah Teâlâ şöyle buyurdu…” diyerek Allah’a nispet ettiği, ancak Kur’an’dan olmayan sözlere ne ad verilir?",
+   "c": [
+    "Maktû’ hadis",
+    "Mevkûf hadis",
+    "Merfû hadis",
+    "Kudsî hadis",
+    "Mütevatir hadis"
+   ],
+   "d": 3,
+   "a": "Manası Allah’a, lafzı Hz. Peygamber’e ait olan bu sözlere kudsî hadis denir. Kur’an hükmünde değildir; namazda okunmaz.",
+   "ac": [
+    "Maktû’ tâbiûna aittir.",
+    "Mevkûf sahabeye aittir.",
+    "Merfû, Hz. Peygamber’e nispet edilen her söz ve fiildir; Allah’a nispet özelliği yoktur.",
+    "Doğru: Allah’a nispet edilen, ayet olmayan söz kudsî hadistir.",
+    "Mütevatir, râvi sayısıyla ilgili bir sınıflamadır."
+   ],
+   "kay": "Hadis usulü: kaynağına göre hadisler"
+  },
+  {
+   "id": "h2-02",
+   "z": 1,
+   "s": "Bir rivayet, Hz. Peygamber’e değil, sahabiden Abdullah b. Mes’ûd’a ait bir söz olarak nakledilmiştir.\n\nBu rivayet kaynağı bakımından hangi türe girer?",
+   "c": [
+    "Maktû’",
+    "Mevkûf",
+    "Merfû",
+    "Mürsel",
+    "Kudsî"
+   ],
+   "d": 1,
+   "a": "Sahabeye ait söz, fiil ve takrîrler mevkûf hadis olarak adlandırılır.",
+   "ac": [
+    "Maktû’ tâbiûna aittir.",
+    "Doğru: sened sahabide durmuştur.",
+    "Merfû, Hz. Peygamber’e nispet edilen rivayettir.",
+    "Mürsel, tâbiînin sahabeyi atlayarak Hz. Peygamber’den nakletmesidir.",
+    "Kudsî hadis Allah’a nispet edilir."
+   ],
+   "kay": "Hadis usulü: mevkûf"
+  },
+  {
+   "id": "h2-07",
+   "z": 2,
+   "s": "Bir tâbiî, hadisi kimden duyduğunu belirtmeden doğrudan “Resûlullah şöyle buyurdu” diyerek nakletmiştir.\n\nSenedinde bu tür bir eksiklik bulunan hadis aşağıdakilerden hangisidir?",
+   "c": [
+    "Mürsel",
+    "Mu’dal",
+    "Muallak",
+    "Munkatı’",
+    "Müdelles"
+   ],
+   "d": 0,
+   "a": "Tâbiînin aradaki sahabiyi atlayarak hadisi doğrudan Hz. Peygamber’e nispet etmesine irsâl, bu hadise mürsel denir. Hanefî ve Mâlikîler güvenilir tâbiînin mürselini delil kabul etmiştir.",
+   "ac": [
+    "Doğru: senedin sonundan sahabi düşmüştür.",
+    "Mu’dalda ortadan art arda iki veya daha fazla râvi düşer.",
+    "Muallakta kopukluk senedin başındadır (müellif tarafı).",
+    "Munkatı’da ortadan bir râvi düşer.",
+    "Müdelleste kopukluk gizlenir; burada gizleme yoktur."
+   ],
+   "kay": "Hadis usulü: mürsel"
+  },
+  {
+   "id": "h2-08",
+   "z": 2,
+   "s": "Bir hadis müellifi, kendi hocalarını ve onların hocalarını atlayarak hadisi doğrudan bir sahabiden “… şöyle dedi” diye nakletmiştir.\n\nBu şekilde senedinin baş tarafı hazfedilmiş hadise ne ad verilir?",
+   "c": [
+    "Müdrec",
+    "Mürsel",
+    "Muallak",
+    "Maktû’",
+    "Mu’dal"
+   ],
+   "d": 2,
+   "a": "Senedin müellif tarafından (başından) bir veya daha fazla râvinin düşürülmesiyle oluşan hadise muallak denir. Buhârî’nin Sahîh’indeki bab başlıklarında bunun örnekleri vardır.",
+   "ac": [
+    "Müdrec, râvinin sözünün hadise karışmasıdır.",
+    "Mürselde kopukluk senedin sonundadır.",
+    "Doğru: senedin başı hazfedilmiştir.",
+    "Maktû’ tâbiûna ait sözdür.",
+    "Mu’dalda kopukluk ortadadır."
+   ],
+   "kay": "Hadis usulü: muallak"
+  },
+  {
+   "id": "h2-09",
+   "z": 2,
+   "s": "I. Senedin ortasında art arda iki râvinin düşmesi\nII. Râvinin duymadığı bir hadisi, duymuş izlenimi verecek bir ifadeyle nakletmesi\nIII. Senedin ortasında tek bir râvinin düşmesi\n\nYukarıdaki durumların oluşturduğu hadis türleri aşağıdakilerin hangisinde doğru sıralanmıştır?",
+   "c": [
+    "Munkatı’ – Müdrec – Mu’dal",
+    "Mu’dal – Müdelles – Munkatı’",
+    "Mürsel – Muallak – Mu’dal",
+    "Mu’dal – Maklûb – Mürsel",
+    "Muallak – Müdelles – Munkatı’"
+   ],
+   "d": 1,
+   "a": "Ortadan art arda iki veya daha fazla râvinin düşmesi mu’dal; kopukluğun gizlenmesi tedlîs (müdelles); ortadan tek râvinin düşmesi munkatı’dır.",
+   "ac": [
+    "Sıralama ters; II de müdrec değil müdellestir.",
+    "Doğru sıralama budur.",
+    "Mürsel ve muallakta kopukluk uçlardadır.",
+    "II maklûb değildir; III mürsel değildir.",
+    "I muallak değildir; muallakta kopukluk baştadır."
+   ],
+   "kay": "Hadis usulü: inkıta’ türleri"
+  },
+  {
+   "id": "h2-18",
+   "z": 3,
+   "s": "Bir sahabi, re’y ve içtihatla bilinmesi mümkün olmayan bir konuda, kıyamet gününün hâllerinden birini anlatmış; ancak bunu Hz. Peygamber’den duyduğunu açıkça söylememiştir.\n\nHadis usulüne göre bu haber nasıl değerlendirilir?",
+   "c": [
+    "Maktû’",
+    "Mevkûf (yalnızca sahabinin görüşü)",
+    "Mürsel",
+    "Kudsî",
+    "Hükmen merfû"
+   ],
+   "d": 4,
+   "a": "Sahabinin kendi görüşüyle bilemeyeceği konulardaki haberleri, onu Hz. Peygamber’den duyduğu kabul edilerek hükmen merfû sayılır.",
+   "ac": [
+    "Maktû’ tâbiûna ait sözdür.",
+    "Görünüşte mevkûftur ama konusu re’yle bilinemeyeceği için merfû hükmündedir.",
+    "Mürsel tâbiînin sahabeyi atlamasıdır.",
+    "Kudsî hadis açıkça Allah’a nispet edilir.",
+    "Doğru: re’yle bilinemeyecek konudaki sahabe haberi hükmen merfûdur."
+   ],
+   "kay": "Hadis usulü: hükmen merfû"
+  },
+  {
+   "id": "h1-06",
+   "z": 2,
+   "s": "Hadis rivayet etmek için hocalarını kuşaklar boyunca daha az aracıyla Hz. Peygamber’e ulaşan bir senetle hadis almak isteyen hadisçiler, bu amaçla uzak şehirlere yolculuklar yapmıştır.\n\nBu hadisçilerin elde etmek istedikleri isnad türü aşağıdakilerden hangisidir?",
+   "c": [
+    "Müselsel isnad",
+    "Mürsel isnad",
+    "Munkatı isnad",
+    "Nâzil isnad",
+    "Âlî isnad"
+   ],
+   "d": 4,
+   "a": "Az sayıda râviyle Hz. Peygamber’e ulaşan senede âlî isnad denir. Aracı azaldıkça hata ihtimali düştüğü için âlî isnad değerli görülmüş ve rihlenin önemli sebeplerinden biri olmuştur.",
+   "ac": [
+    "Müselsel, râvilerin aynı tavır veya ifadeyi tekrarladığı senettir.",
+    "Mürsel bir kopukluk türüdür; istenen bir şey değildir.",
+    "Munkatı, senette kopukluk olmasıdır; kusurdur.",
+    "Nâzil isnad, aracısı çok olan senettir; istenenin tersidir.",
+    "Doğru: az aracılı sened âlî isnaddır."
+   ],
+   "kay": "Hadis usulü: isnad türleri; rihle"
+  }
+ ]
+}

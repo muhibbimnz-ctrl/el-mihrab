@@ -1,0 +1,1115 @@
+{
+ "id": "tefsir-3",
+ "ad": "Muhkem ve Müteşâbih, Müşkilü’l-Kur’ân, Mübhemât, Garîbü’l-Kur’ân, Vücûh ve Nezâir",
+ "ders": "Tefsir",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Muhkem ve müteşâbih: Kur’an’ın “ana” ayetleri"
+  },
+  {
+   "merak": "Kur’an bir ayette “ayetleri muhkem kılınmış bir kitap” (Hûd, 11/1), başka bir ayette “birbirine benzeyen (müteşâbih) bir kitap” (Zümer, 39/23) der. Üçüncü bir ayet ise “onun bir kısmı muhkem, bir kısmı müteşâbihtir” (Âl-i İmrân, 3/7) buyurur. Kur’an kendisiyle çelişiyor mu, yoksa aynı kelimeler üç farklı anlamda mı kullanılmış?"
+  },
+  "Muhkem kelimesi h-k-m kökünden gelir; sağlam kılınmış, sapmadan korunmuş, açık ve kesin demektir. Müteşâbih ise ş-b-h kökünden gelir; birbirine benzeyen, dolayısıyla karıştırılabilen demektir. Türkçedeki “şüphe” kelimesi de aynı köktendir. Kur’an bu iki kelimeyi üç farklı bağlamda kullanır:",
+  {
+   "tablo": [
+    [
+     "Ayet",
+     "Nitelik",
+     "Anlamı"
+    ],
+    [
+     "Hûd 11/1: “Ayetleri muhkem kılınmış… bir kitap”",
+     "Kur’an’ın tamamı muhkemdir (umumi ihkâm)",
+     "Bütün ayetler sağlam, kusursuz, çelişkiden uzaktır"
+    ],
+    [
+     "Zümer 39/23: “Ayetleri birbirine benzeyen (müteşâbih), tekrarlanan (mesânî) bir kitap”",
+     "Kur’an’ın tamamı müteşâbihtir (umumi teşâbüh)",
+     "Ayetler güzellikte, doğrulukta ve birbirini doğrulamakta birbirine benzer"
+    ],
+    [
+     "Âl-i İmrân 3/7: “Ondan bir kısmı muhkem ayetlerdir ki onlar kitabın anasıdır; diğerleri de müteşâbihtir”",
+     "Bir kısmı muhkem, bir kısmı müteşâbih (hususi)",
+     "Usul ilminin konusu olan teknik anlam budur"
+    ]
+   ]
+  },
+  {
+   "ayet": "Sana Kitab’ı indiren O’dur. Onun bir kısmı muhkem ayetlerdir ki bunlar Kitab’ın anasıdır. Diğerleri de müteşâbihtir. Kalplerinde eğrilik bulunanlar fitne çıkarmak ve onu te’vil etmek için ondan müteşâbih olanına uyarlar. Oysa onun te’vilini ancak Allah bilir. İlimde derinleşenler ise “Ona inandık, hepsi Rabbimiz katındandır” derler…",
+   "kay": "Âl-i İmrân, 3/7"
+  },
+  "Terim olarak muhkem; anlamı açık, tek anlama gelen, başka bir anlama ihtimali bulunmayan veya açıklanmaya ihtiyaç duymayan ayettir. Müteşâbih ise birden fazla anlama ihtimali olan, anlamı ancak başka bir delille belirlenebilen ya da gerçek mahiyetini yalnız Allah’ın bildiği ayettir. Muhkemlerin “ümmü’l-kitâb” (kitabın anası) diye nitelenmesi, müteşâbihlerin onlara göre yorumlanacağını, yani muhkemlerin merci olduğunu gösterir. Örneğin “O’nun benzeri hiçbir şey yoktur” (Şûrâ, 42/11) muhkemdir; “Rahman arşa istiva etti” (Tâhâ, 20/5) ise bu muhkeme göre anlaşılır.",
+  {
+   "not": "Âl-i İmrân 7’deki durak meselesi — aşağıdaki paragraflar bu alt meseleyi işler."
+  },
+  "Ayetteki “ve mâ ya’lemu te’vîlehû illallâh ve’r-râsihûne fi’l-ilm” cümlesinde nerede durulacağı, müteşâbihi kimin bilebileceği tartışmasını doğurmuştur. “İllallâh” kelimesinde durulursa (vakf), müteşâbihin te’vilini yalnız Allah bilir; ilimde derinleşenler ise “Ona inandık” der. Selefin çoğunluğu ve Hanefîler bu okuyuşu benimser. “Ve’r-râsihûne fi’l-ilm” kelimesi Allah lafzına bağlanırsa (atıf, vasl), ilimde derinleşenler de te’vili bilir. Bu görüş Mücâhid’e ve İbn Abbas’tan gelen bir rivayete dayanır; birçok Şâfiî ve kelamcı bunu tercih etmiştir. Âlimler iki görüşü şöyle uzlaştırır: Mutlak müteşâbihleri (kıyametin vakti, ruhun mahiyeti, ahiret hallerinin keyfiyeti) yalnız Allah bilir; nispî müteşâbihlerin anlamını ise ilimde derinleşenler delillerle belirleyebilir.",
+  {
+   "tablo": [
+    [
+     "Müteşâbih türü",
+     "Açıklama",
+     "Örnek"
+    ],
+    [
+     "Mutlak (hakiki) müteşâbih",
+     "Gerçek mahiyetini yalnız Allah bilir",
+     "Kıyametin vakti, ruh (İsrâ 85), cennet ve cehennemin keyfiyeti; bir görüşe göre hurûf-ı mukattaa"
+    ],
+    [
+     "İzafî (nispî) müteşâbih",
+     "Bazılarına kapalı, ilim ehline delille açık",
+     "Sıfat ayetlerinin yorumu, çok anlamlı kelimeler"
+    ],
+    [
+     "Lafız yönünden müteşâbih",
+     "Kelimenin garîb ya da müşterek olmasından doğan kapalılık",
+     "“Kurû’” (hayız/temizlik), “ebb”"
+    ],
+    [
+     "Mana yönünden müteşâbih",
+     "Anlatılan şeyin keyfiyetinin insan aklını aşması",
+     "Allah’ın sıfatları, kıyamet halleri"
+    ],
+    [
+     "Hem lafız hem mana yönünden",
+     "İkisi birlikte",
+     "Râğıb el-İsfahânî bu üçlü tasnifi yapar"
+    ]
+   ]
+  },
+  "Müteşâbih ayetlerin en çok tartışılanı haberî sıfat ayetleridir: istivâ (Tâhâ 5), yed/el (Fetih 10; Sâd 75), vech/yüz (Rahmân 27), ayn/göz (Tâhâ 39), Allah’ın gelmesi (Fecr 22). Bu ayetlere üç yaklaşım vardır:",
+  {
+   "tablo": [
+    [
+     "Yaklaşım",
+     "Temsilcileri",
+     "Tutum"
+    ],
+    [
+     "Tefvîz (selef yolu)",
+     "Sahabe, tâbiûn, ilk dönem imamları; İmam Mâlik",
+     "Lafza inanılır, teşbih reddedilir, anlam ve keyfiyet Allah’a bırakılır. İmam Mâlik: “İstiva bilinmektedir, keyfiyeti bilinmez; ona iman vacip, onu sormak bid’attir.”"
+    ],
+    [
+     "Te’vil (halef yolu)",
+     "Mâtürîdî ve Eş’arî kelamcıların çoğu, Mu’tezile",
+     "Lafız, Arap dilinde kullanılan ve Allah’a yakışan bir anlama hamledilir: el → kudret, istiva → hâkimiyet"
+    ],
+    [
+     "Zahirî anlam (teşbih)",
+     "Müşebbihe, Mücessime",
+     "Lafız insanî anlamıyla alınır; Ehl-i sünnet tarafından reddedilmiştir"
+    ]
+   ]
+  },
+  "Hurûf-ı mukattaa (kesik harfler) da müteşâbih bahsinde ele alınır. Yirmi dokuz surenin başında yer alan bu harfler, alfabenin yarısı olan on dört harften oluşur. Hz. Ebû Bekir’e nispet edilen “Her kitabın bir sırrı vardır; Kur’an’ın sırrı sure başlarındaki harflerdir” sözü, bunları mutlak müteşâbih sayanların dayanağıdır. Diğer görüşlere göre bunlar surelerin adlarıdır, dikkat çekmek içindir, meydan okumanın (Kur’an’ın sizin bildiğiniz bu harflerden oluştuğunu hatırlatma) bir parçasıdır ya da Allah’ın isimlerinin kısaltmalarıdır.",
+  {
+   "tablo": [
+    [
+     "Müteşâbihlerin bulunmasının hikmetleri"
+    ],
+    [
+     "Aklı düşünmeye ve araştırmaya sevk etmek"
+    ],
+    [
+     "İmtihan: iman edenle kalbinde eğrilik olanı ayırt etmek (Âl-i İmrân 7)"
+    ],
+    [
+     "İlimde derinleşmeyi ve te’vil ilmini teşvik etmek"
+    ],
+    [
+     "İnsan aklının sınırlı olduğunu hatırlatmak, Allah’ın ilminin yüceliğini göstermek"
+    ],
+    [
+     "Farklı anlayış düzeyindeki insanlara hitap etmek; Arap dilinin mecaz ve kinaye zenginliğini kullanmak"
+    ]
+   ]
+  },
+  {
+   "not": "Lafzî müteşâbih: Benzer ifadeler ilmi — aşağıdaki paragraflar bu alt meseleyi işler."
+  },
+  "Müteşâbih kelimesinin bir başka teknik kullanımı daha vardır: Kur’an’da aynı kıssanın ya da konunun küçük lafız farklarıyla tekrar edildiği yerler. Örneğin Bakara 2/58’de İsrailoğullarına “O kasabaya girin… kapıdan secde ederek girin ve ‘hıtta’ deyin” denirken A’râf 7/161’de “Hıtta deyin ve kapıdan secde ederek girin” denir; Bakara 2/35’te “ve kulâ” (ve yiyin), A’râf 7/19’da “fe-kulâ” (yiyin öyleyse) gelir. Bu farkların hikmetini inceleyen ilme müteşâbihü’l-Kur’ân (lafzî müteşâbih) ya da tevcîhü’l-müteşâbih denir. Hafızlar için de önemlidir, çünkü ezberde en çok karıştırılan yerler bunlardır.",
+  {
+   "tablo": [
+    [
+     "Eser",
+     "Müellif",
+     "Alanı"
+    ],
+    [
+     "Müteşâbihü’l-Kur’ân",
+     "Kisâî (ö. 189/805)",
+     "Lafzî müteşâbih; erken eser"
+    ],
+    [
+     "Dürretü’t-tenzîl ve gurretü’t-te’vîl",
+     "Hatîb el-İskâfî (ö. 420/1029)",
+     "Lafzî müteşâbihin hikmetleri"
+    ],
+    [
+     "el-Burhân fî tevcîhi müteşâbihi’l-Kur’ân (Esrârü’t-tekrâr)",
+     "Tâcülkurrâ el-Kirmânî (ö. 505/1111 sonrası)",
+     "Lafzî müteşâbih"
+    ],
+    [
+     "Milâkü’t-te’vîl",
+     "İbnü’z-Zübeyr es-Sekafî (ö. 708/1308)",
+     "Lafzî müteşâbih"
+    ],
+    [
+     "Tenzîhü’l-Kur’ân ani’l-metâin ve Müteşâbihü’l-Kur’ân",
+     "Kadı Abdülcebbâr (ö. 415/1025)",
+     "Mu’tezilî; anlamca müteşâbih ayetleri aklî yorumla açıklar"
+    ],
+    [
+     "Te’vîlü müşkili’l-Kur’ân",
+     "İbn Kuteybe (ö. 276/889)",
+     "Müşkil ve müteşâbih"
+    ]
+   ]
+  },
+  {
+   "sinav": "Kadı Abdülcebbâr’ın Müteşâbihü’l-Kur’ân’ı hakkında ÖSYM “söylenemez” sorusu sordu: Eser itikadi konulara yoğunlaşır, akılcıdır, rivayetlere ihtiyatlıdır, Kur’an’ı Kur’an’la açıklar; ama müteşâbihleri yorumlamaktan kaçınmaz, tam tersine onları Mu’tezile ilkelerine göre te’vil eder. Ayrıca Bakara 58 – A’râf 161 gibi küçük lafız farkları sorulursa cevap lafzî müteşâbihtir, “muhkem-müteşâbih (anlam)” değil."
+  },
+  {
+   "akil": "Hûd 1: hepsi muhkem; Zümer 23: hepsi müteşâbih; Âl-i İmrân 7: bir kısmı muhkem (ümmü’l-kitâb), bir kısmı müteşâbih. “İllallâh”ta durak: te’vili yalnız Allah bilir (selef, Hanefî). Sıfat ayetleri: tefvîz (selef, Mâlik), te’vil (halef). Lafzî müteşâbih eserleri: Kisâî, İskâfî, Kirmânî, İbnü’z-Zübeyr."
+  },
+  {
+   "b": "2. Müşkilü’l-Kur’ân: Çelişki gibi görünenler"
+  },
+  {
+   "merak": "Bir ayet “Kendilerine peygamber gönderilenleri de, peygamberleri de mutlaka sorguya çekeceğiz” (A’râf, 7/6) der. Başka bir ayet “O gün ne insana ne cine günahı sorulmaz” (Rahmân, 55/39) der. Kıyamette sorgu var mı, yok mu?"
+  },
+  "Müşkil sözlükte “karışık, birbirine benzeyip ayırt edilmesi güç olan” demektir. Müşkilü’l-Kur’ân, ilk bakışta birbiriyle çelişiyormuş gibi görünen ayetleri inceleyip aralarındaki uyumu ortaya koyan ilimdir. Kur’an kendisinde çelişki bulunmadığını açıkça bildirir:",
+  {
+   "ayet": "Hâlâ Kur’an’ı gereği gibi düşünmüyorlar mı? Eğer o, Allah’tan başkası tarafından gelmiş olsaydı, kesinlikle onda birçok tutarsızlık bulurlardı.",
+   "kay": "Nisâ, 4/82"
+  },
+  "Dolayısıyla çelişki ayetlerde değil, okuyucunun eksik bilgisinde ya da bakış açısındadır. Müşkili çözmenin yolları şunlardır: Ayetlerin farklı zaman veya mekânları anlattığını görmek, farklı yönleri ele aldığını fark etmek, birinin mücmel diğerinin mufassal olduğunu anlamak, hakikat ile mecazı ayırmak, âm-hâs ilişkisini kurmak.",
+  {
+   "tablo": [
+    [
+     "Çelişki gibi görünen ayetler",
+     "Çözüm yolu"
+    ],
+    [
+     "A’râf 7/6 (herkes sorguya çekilecek) – Rahmân 55/39 (günahı sorulmayacak)",
+     "Farklı mevkif veya farklı soru türü: Bilgi almak için soru sorulmaz (Allah her şeyi bilir), azarlamak ve hesap için sorulur; kıyametin farklı duraklarında farklı haller yaşanır"
+    ],
+    [
+     "Bakara 2/51 (Mûsâ ile kırk gece sözleşildi) – A’râf 7/142 (otuz gece, sonra on gece eklendi)",
+     "İcmal-tafsil: Birinde toplam, diğerinde ayrıntı verilmiştir"
+    ],
+    [
+     "Âdem’in topraktan (Âl-i İmrân 59), çamurdan (Sâd 71), kupkuru balçıktan (Hicr 26) yaratılması",
+     "Yaratılışın safhaları anlatılmaktadır"
+    ],
+    [
+     "Nisâ 4/3 (adaletsizlikten korkarsanız bir eş) – Nisâ 4/129 (eşler arasında adaleti asla sağlayamazsınız)",
+     "İlki maddi ve şekli adalet, ikincisi kalbî sevgi ve meyil adaletidir"
+    ],
+    [
+     "Mürselât 77/35 (o gün konuşamazlar) – Sâffât 37/27 (birbirlerine yönelip soru sorarlar)",
+     "Kıyametin farklı safhaları ve durakları"
+    ],
+    [
+     "Hâkka 69/17’deki “sekiz melek arşı taşır” ile meleklerin sayısız olması",
+     "Görevli meleklerin sayısıdır; genel sayıyla ilgisi yoktur"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Eser",
+     "Müellif"
+    ],
+    [
+     "Te’vîlü müşkili’l-Kur’ân",
+     "İbn Kuteybe (ö. 276/889)"
+    ],
+    [
+     "Def’u îhâmi’l-ıztırâb an âyi’l-Kitâb",
+     "Muhammed el-Emîn eş-Şinkîtî (modern)"
+    ],
+    [
+     "Fevâidü fî müşkili’l-Kur’ân",
+     "İzzeddin b. Abdisselâm"
+    ]
+   ]
+  },
+  {
+   "sinav": "A’râf 6 – Rahmân 39 örneği ÖSYM’de müşkilin klasik örneği olarak çıkmıştı. “Çelişki gibi görünen ayetler” ifadesini görünce müşkil; “birden çok anlama ihtimal, kapalılık” görünce müteşâbih veya mücmel; “kelimenin az bilinmesi” görünce garîb deyin. Kırk gece – otuz artı on gece örneği hem müşkil hem icmal-tafsil sorusu olabilir."
+  },
+  {
+   "akil": "Müşkil = çelişki gibi görünen ayetlerin uzlaştırılması; çelişki ayette değil okuyucunun bilgisindedir (Nisâ 82). Çözümler: farklı zaman-mekân, icmal-tafsil, safhalar, hakikat-mecaz. Eser: İbn Kuteybe, Te’vîlü müşkili’l-Kur’ân."
+  },
+  {
+   "b": "3. Mübhemâtü’l-Kur’ân: Adı verilmeyenler"
+  },
+  {
+   "merak": "Yâsîn suresinde şehrin öbür ucundan koşarak gelen bir adam kavmine “Elçilere uyun!” diye seslenir. Adını Kur’an söylemez. Kehf suresinde Hz. Mûsâ’nın yanındaki genç ve karşılaştığı bilge kul da isimsizdir. Kur’an, tarih kitaplarının hemen yazacağı isimleri neden vermez?"
+  },
+  "Mübhem, sözlükte “kapalı, belirsiz, ne kastedildiği belli olmayan” demektir. Mübhemâtü’l-Kur’ân; Kur’an’da şahıs, topluluk, yer, zaman, sayı ve miktarın açıkça adlandırılmayıp zamir, ism-i mevsul, ism-i işaret, künye, sıfat ya da cins isimle anıldığı ifadeleri ve bunları belirlemeye çalışan ilmi ifade eder. Bu ilim, Kur’an’ın evrensel mesajının kişilerin ve yerlerin adına bağlı olmadığını da gösterir: Önemli olan kim olduğu değil, ne yaptığıdır.",
+  {
+   "tablo": [
+    [
+     "Mübhem ifade",
+     "Ayet",
+     "Rivayetlere göre kastedilen"
+    ],
+    [
+     "“Doğruyu getiren ve onu tasdik eden”",
+     "Zümer 39/33",
+     "Hz. Peygamber ve Hz. Ebû Bekir"
+    ],
+    [
+     "“Sana buğzeden, asıl soyu kesik olan odur”",
+     "Kevser 108/3",
+     "Âs b. Vâil"
+    ],
+    [
+     "“Şehrin öbür ucundan koşarak gelen adam”",
+     "Yâsîn 36/20",
+     "Habîb en-Neccâr"
+    ],
+    [
+     "“Mûsâ’nın yanındaki genç”",
+     "Kehf 18/60",
+     "Yûşa b. Nûn"
+    ],
+    [
+     "“Kullarımızdan bir kul”",
+     "Kehf 18/65",
+     "Hızır"
+    ],
+    [
+     "“Sen ve eşin cennete yerleşin”",
+     "Bakara 2/35",
+     "Hz. Havva"
+    ],
+    [
+     "“İkinin ikincisi… arkadaşına üzülme diyordu”",
+     "Tevbe 9/40",
+     "Hz. Ebû Bekir"
+    ],
+    [
+     "“Âdem’in iki oğlu”",
+     "Mâide 5/27",
+     "Hâbil ve Kâbil"
+    ],
+    [
+     "“İftirayı büyütmeye kalkışan”",
+     "Nûr 24/11",
+     "Abdullah b. Übey"
+    ],
+    [
+     "“Firavun ailesinden imanını gizleyen mümin adam”",
+     "Mü’min (Ğâfir) 40/28",
+     "Rivayetlerde Hızkıl / Sem’ân gibi isimler"
+    ],
+    [
+     "“Orta namaz”",
+     "Bakara 2/238",
+     "İkindi namazı (hadisle)"
+    ],
+    [
+     "“Bir fâsık size bir haber getirirse”",
+     "Hucurât 49/6",
+     "Velîd b. Ukbe"
+    ],
+    [
+     "“Eğer ikiniz Allah’a tövbe ederseniz”",
+     "Tahrîm 66/4",
+     "Hz. Hafsa ve Hz. Âişe"
+    ],
+    [
+     "“Eşi hakkında seninle tartışan kadın”",
+     "Mücâdele 58/1",
+     "Havle bint Sa’lebe"
+    ]
+   ]
+  },
+  {
+   "not": "Kur’an’da adı açıkça geçen tek sahabi Zeyd b. Hârise’dir (Ahzâb 33/37). Kur’an’da adı geçen tek kadın ise Hz. Meryem’dir. Bu iki bilgi, mübhemât sorularında “hangisi mübhem değildir” şıkkı olarak karşınıza çıkabilir."
+  },
+  "Âlimler Kur’an’da mübhem ifadelere yer verilmesinin sebeplerini şöyle sıralar: Kişi çok bilindiği için adını anmaya gerek görülmemesi (“eşin” = Havva); kişiyi güzel bir sıfatla övmek (“doğruyu tasdik eden”); kişiyi kötü bir sıfatla yermek ve tahkir etmek (“sana buğzeden”); kişiyi rencide etmemek, örtmek; mesajın kişiye özel değil, herkese genel olduğunu göstermek; belirlenmesinde bir fayda bulunmaması; ifade zenginliği sağlamak.",
+  "Mübhemleri belirlemenin kaynağı nakildir: Önce Kur’an’ın başka bir ayetine, sonra sahih sünnete, sonra sahabe ve tâbiûn rivayetlerine bakılır; esbâb-ı nüzûl ve tarih bilgisi yardımcı olur. Akılla, kıyasla mübhem belirlenemez. Bu ilim, isrâiliyata en çok başvurulan alanlardandır; Ashâb-ı Kehf’in köpeğinin rengi, Nûh’un gemisinin ölçüleri gibi ayrıntılar bu yolla tefsirlere girmiştir. Unutmayın: Mübhemin belirlenmesi ayetin ana mesajının anlaşılması için çoğu zaman şart değildir; ayet, mübhem çözülmeden de anlaşılır.",
+  {
+   "tablo": [
+    [
+     "Eser",
+     "Müellif",
+     "Not"
+    ],
+    [
+     "et-Ta’rîf ve’l-i’lâm fîmâ ubhime fi’l-Kur’ân mine’l-esmâ’i’l-a’lâm",
+     "Süheylî (ö. 581/1185)",
+     "Alanın ilk müstakil eseri"
+    ],
+    [
+     "et-Tekmîl ve’l-itmâm",
+     "İbn Asâkir (ö. 636/1239)",
+     "Süheylî’nin eserine zeyl"
+    ],
+    [
+     "et-Tibyân fî mübhemâti’l-Kur’ân",
+     "Bedreddin İbn Cemâa (ö. 733/1333)",
+     "Süheylî ve İbn Asâkir’i birleştirir"
+    ],
+    [
+     "Müfhimâtü’l-akrân fî mübhemâti’l-Kur’ân",
+     "Süyûtî (ö. 911/1505)",
+     "Önceki eserleri toplar"
+    ]
+   ]
+  },
+  {
+   "kontrol": "İbn Asâkir’in vefat tarihi ve et-Tekmîl’in tam adı kaynaklarda farklı verilebilir; Süheylî’nin eserinin ilk müstakil mübhemât eseri olduğu genel kabuldür."
+  },
+  {
+   "sinav": "ÖSYM 2020’de “mübhemât hakkında söylenemez” sorusunda cevap “Ayetin mesajı ancak mübhemin açıklanmasıyla anlaşılabilir” idi. Ayrıca 2021’de bir ayetin (adı açıkça anılan Hz. İbrahim’le ilgili ayet) mübhemât kapsamına girmediği soruldu. Kuralı unutmayın: Kişinin ADI ayette açıkça geçiyorsa o ifade mübhem değildir; “eşin”, “bir adam”, “sana buğzeden” gibi ifadeler mübhemdir."
+  },
+  {
+   "akil": "Mübhem = adı verilmeyen kişi, yer, zaman, sayı. Kaynağı nakil; isrâiliyat en çok bu alana girmiştir. Mübhem çözülmeden de mesaj anlaşılır. Eserler: Süheylî (ilk), İbn Asâkir, İbn Cemâa (et-Tibyân), Süyûtî (Müfhimâtü’l-akrân). Kur’an’da adı geçen tek sahabi Zeyd."
+  },
+  {
+   "b": "4. Garîbü’l-Kur’ân ve muarrab: Az bilinen kelimeler"
+  },
+  {
+   "merak": "Kur’an’ın tercümanı İbn Abbas bile itiraf etmişti: “Fâtır kelimesinin anlamını bilmiyordum. Sonra iki bedevi bir kuyu yüzünden tartışırken birinin ‘Onu ilk ben kazdım (ene fatartuhâ)’ dediğini duydum ve anladım.” Göklerin ve yerin yaratıcısı için kullanılan kelime, bir kuyuyu ilk kazan için de kullanılıyordu."
+  },
+  "Garîb sözlükte “yabancı, alışılmamış, kapalı” demektir. Garîbü’l-Kur’ân, Kur’an’da yer alan ve farklı lehçelerden gelmesi, az kullanılması ya da başka dillerden Arapçaya geçmesi sebebiyle anlamı herkesçe bilinmeyen, uzmanına başvurmadan anlaşılmayan kelimeleri açıklayan ilimdir. Burada “garîb” kelimesi fesahate aykırılık anlamında değildir; Kur’an’ın kelimeleri en fasih kelimelerdir. Garâbet, sadece bazı insanlara göredir.",
+  "Garîb kelimelerin ortaya çıkış sebepleri şunlardır: Kur’an ağırlıkla Kureyş lehçesiyle inmiştir, ama Hüzeyl, Kinâne, Temîm gibi kabilelerin lehçelerinden kelimeler de içerir; bazı kelimeler Kureyş’te az kullanılmaktadır; bazı kelimeler Farsça, Habeşçe, Süryanice, İbranice, Rumca gibi dillerden Arapçaya geçmiştir (muarrab). Sahabe bilmediği kelimeyi Hz. Peygamber’e sorar, şiire ya da bedevilere başvururdu. Fetihlerle Arap olmayan halkların Müslüman olması bu ilme ihtiyacı artırmış, garîb literatürü zamanla bütün Kur’an kelimelerini içeren sözlüklere dönüşmüştür. Garîbü’l-Kur’ân, Kur’an’ın anlaşılması için yapılan filolojik çalışmaların ilkidir.",
+  {
+   "not": "Kur’an’da yabancı kelime var mı? Muarrab tartışması — aşağıdaki paragraflar bu alt meseleyi işler."
+  },
+  "Kur’an “apaçık Arapça” (Nahl 16/103; Yûsuf 12/2) olduğunu bildirdiği için içinde yabancı kökenli kelime bulunup bulunmadığı tartışılmıştır. İmam Şâfiî (er-Risâle’de) ve Ebû Ubeyde Ma’mer b. el-Müsennâ Kur’an’da Arapça olmayan kelime bulunmadığını, benzerliklerin dillerin ortak kullanımından (tevâfuk) kaynaklandığını savunur. İbn Abbas, Mücâhid ve İkrime’den ise bazı kelimelerin Habeşçe, Farsça veya Nebatîce olduğuna dair rivayetler gelmiştir. Ebû Ubeyd el-Kāsım b. Sellâm iki görüşü uzlaştırır: Bu kelimelerin aslı yabancıdır; ancak Araplar onları dillerine uydurup kullanmış, Kur’an indiğinde artık Arapçalaşmış kelimelerdi.",
+  {
+   "tablo": [
+    [
+     "Muarrab kelime",
+     "Anlamı",
+     "Kökeni olarak gösterilen dil"
+    ],
+    [
+     "İstebrak, sündüs",
+     "Kalın ve ince ipek",
+     "Farsça"
+    ],
+    [
+     "Siccîl",
+     "Pişmiş çamurdan taş",
+     "Farsça"
+    ],
+    [
+     "Kıstâs",
+     "Terazi",
+     "Rumca"
+    ],
+    [
+     "Mişkât",
+     "Kandil yuvası, oyuk",
+     "Habeşçe"
+    ],
+    [
+     "Sînîn / Sînâ",
+     "Tûr dağı (Tîn 95/2)",
+     "Nebatîce / Süryanice"
+    ],
+    [
+     "Yemm",
+     "Deniz, nehir",
+     "Süryanice / İbranice"
+    ],
+    [
+     "Firdevs",
+     "Bahçe, cennet",
+     "Rumca / Farsça"
+    ],
+    [
+     "Tannûr",
+     "Fırın, tandır",
+     "Farsça"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Garîb eserleri",
+     "Müellif",
+     "Not"
+    ],
+    [
+     "Garîbü’l-Kur’ân",
+     "İbn Abbas’a nispet edilen rivayetler",
+     "Ali b. Ebû Talha kanalıyla aktarılan sahife"
+    ],
+    [
+     "Mecâzü’l-Kur’ân",
+     "Ebû Ubeyde Ma’mer b. el-Müsennâ (ö. 210/825)",
+     "“Mecaz” burada ifade yolu demektir; lügavî tefsirin ilk örneklerinden"
+    ],
+    [
+     "Meâni’l-Kur’ân",
+     "Ferrâ (ö. 207/822)",
+     "Nahiv ağırlıklı dil tefsiri"
+    ],
+    [
+     "Tefsîru garîbi’l-Kur’ân",
+     "İbn Kuteybe (ö. 276/889)",
+     "Garîb kelimeler"
+    ],
+    [
+     "Nüzhetü’l-kulûb (Garîbü’l-Kur’ân)",
+     "Ebû Bekir es-Sicistânî (ö. 330/942)",
+     "Alfabetik ilk garîb eserlerinden"
+    ],
+    [
+     "el-Müfredât fî garîbi’l-Kur’ân",
+     "Râğıb el-İsfahânî (ö. 5./11. yy başı)",
+     "Alanın en meşhur eseri; kök sırasına göre"
+    ],
+    [
+     "Tuhfetü’l-erîb",
+     "Ebû Hayyân el-Endelüsî (ö. 745/1344)",
+     "Garîb kelimeler"
+    ],
+    [
+     "Umdetü’l-huffâz",
+     "Semîn el-Halebî (ö. 756/1355)",
+     "Müfredât tarzında"
+    ],
+    [
+     "el-Mühezzeb fîmâ vakaa fi’l-Kur’ân mine’l-muarrab",
+     "Süyûtî",
+     "Muarrab kelimeler"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Râğıb el-İsfahânî’nin vefat tarihi kesin değildir; 502/1108 yaygın olarak verilse de 5./11. yüzyılın başlarında öldüğünü söyleyen araştırmalar vardır."
+  },
+  {
+   "sinav": "“Başka dillerden Arapçaya geçmiş ve az kullanılan kelimeleri inceleyen ilim” → garîbü’l-Kur’ân (muarrab da bu alanın parçasıdır). Eser-müellif: el-Müfredât – Râğıb; Nüzhetü’l-kulûb – Sicistânî; Mecâzü’l-Kur’ân – Ebû Ubeyde; Meâni’l-Kur’ân – Ferrâ. Çeldirici: Ebû Ubeyde (Mecâz) ile Ebû Ubeyd el-Kāsım b. Sellâm’ı (nesih, garîbü’l-hadîs, muarrab uzlaştırması) karıştırmak."
+  },
+  {
+   "akil": "Garîb = lehçe, az kullanım veya yabancı köken yüzünden kapalı kelime; garâbet görecelidir. Muarrab: Şâfiî ve Ebû Ubeyde “yok”, İbn Abbas-Mücâhid-İkrime “var”, Ebû Ubeyd “aslı yabancı ama Arapçalaşmış”. En meşhur eser Râğıb’ın el-Müfredât’ı."
+  },
+  {
+   "b": "5. Vücûh ve nezâir: Bir kelime, pek çok anlam"
+  },
+  {
+   "merak": "Kur’an’da “hüdâ” kelimesini gördüğünüzde hep “hidayet, doğru yol” mu anlarsınız? Mukātil b. Süleyman bu kelimenin Kur’an’da on yedi farklı anlamda kullanıldığını tespit etmişti: Bazen sebat, bazen din, bazen iman, bazen davetçi peygamber, bazen Kur’an, bazen Tevrat…"
+  },
+  "Vücûh, “vech” kelimesinin çoğuludur ve “yönler, anlamlar” demektir. Tefsir ilminde vücûh, bir kelimenin Kur’an’ın farklı yerlerinde farklı anlamlarda kullanılmasıdır; dil bilimindeki müşterek lafız (çok anlamlılık) kavramına yakındır. Nezâir ise “benzerler” demektir ve iki şekilde tanımlanır: Klasik eserlerde nezâir, aynı kelimenin farklı yerlerde aynı anlamda kullanılan örnekleri, yani bir vechin Kur’an’daki benzer kullanımlarıdır. Bazı çağdaş ders kitapları ve ÖSYM soruları ise nezâiri, aynı şeyi ifade eden farklı kelimeler (eş anlamlılar) olarak tanımlar; örneğin cehennem için saîr, cahîm, hutame; cennet için naîm, firdevs, adn.",
+  {
+   "tablo": [
+    [
+     "",
+     "Vücûh",
+     "Nezâir"
+    ],
+    [
+     "Tanım",
+     "Bir kelimenin farklı yerlerde farklı anlamlarda kullanılması",
+     "Bir kelimenin farklı yerlerde aynı anlamda kullanılması (klasik); aynı şeyi anlatan farklı kelimeler (çağdaş kullanım)"
+    ],
+    [
+     "Dil bilimindeki karşılığı",
+     "Müşterek lafız (eş sesli, çok anlamlı)",
+     "Benzer kullanımlar; terâdüf"
+    ],
+    [
+     "Örnek",
+     "“Ümmet”: topluluk, süre, önder, din",
+     "Cehennem için saîr, cahîm, hutame, lezâ"
+    ],
+    [
+     "Faydası",
+     "Ayeti yanlış anlamdan korumak; helali haram, haramı helal yapmamak",
+     "Aynı konunun farklı yönlerini görmek; her kelimenin kendine özgü vurgusunu fark etmek"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Kelime",
+     "Kur’an’daki farklı anlamları (vücûh)"
+    ],
+    [
+     "Ümmet",
+     "Topluluk (Kasas 23); süre, zaman (Yûsuf 45 “bir süre sonra”); önder, örnek şahsiyet (Nahl 120 “İbrâhim bir ümmetti”); din, yol (Zuhruf 22 “atalarımızı bir din üzere bulduk”)"
+    ],
+    [
+     "Zikr",
+     "Kur’an (Hicr 9); namaz/cuma (Cuma 9); Allah’ı anma; şeref, ün (Zuhruf 44 “O senin ve kavmin için bir şereftir”); öğüt"
+    ],
+    [
+     "Salât",
+     "Namaz; dua (Tevbe 103); Allah’tan rahmet (Ahzâb 56); Yahudi mabedi (Hac 40 “salavât”)"
+    ],
+    [
+     "Af",
+     "Bağışlama; ihtiyaçtan artan (Bakara 219 “kulil-afv”); çoğalma (A’râf 95 “hattâ afev”)"
+    ],
+    [
+     "Fitne",
+     "Şirk (Bakara 191); azap; imtihan (Enfâl 28); sapıklık; sıkıntı"
+    ],
+    [
+     "Rûh",
+     "Cebrâil (Şuarâ 193 “er-rûhu’l-emîn”); vahiy, Kur’an (Şûrâ 52); can (İsrâ 85); rahmet ve güç (Mücâdele 22); Hz. Îsâ (Nisâ 171)"
+    ],
+    [
+     "Hüdâ",
+     "Mukātil’e göre on yedi anlam: sebat, din, iman, davet, Kur’an, Tevrat, peygamberler, irşad…"
+    ]
+   ]
+  },
+  "Vücûh ve nezâir ilmi, Kur’an’ın kendine özgü bir anlam dünyası (semantiği) olduğunu gösterir. Bir kelimenin sözlük anlamına bakıp her yerde aynı anlamı vermek tefsirde büyük hatalara yol açar. Bu yüzden vücûhu bilmek müfessirin şartlarından sayılmış, Kur’an’ın dil yönünden i’câzının bir delili olarak da gösterilmiştir. Çağdaş dönemde Japon âlim Toshihiko Izutsu, Kur’an’da Allah ve İnsan gibi eserlerinde Kur’an kavramlarını semantik yöntemle incelemiş; bu yaklaşım vücûh geleneğinin modern bir devamı sayılmıştır.",
+  "Vücûhla ilişkili bir başka tartışma terâdüftür (eş anlamlılık): Kur’an’da tam eş anlamlı iki kelime var mıdır? Ebû Hilâl el-Askerî gibi dilciler her kelimenin kendine has bir anlam farkı taşıdığını savunmuştur (el-Furûk); örneğin havf (genel korku) ile haşyet (saygıyla karışık, bilgiden doğan korku) aynı değildir. Hakîm et-Tirmizî ise vücûh fikrini eleştirip her kelimenin tek bir temel anlamı olduğunu, farklı görünen kullanımların bu temel anlama döndüğünü savunmuştur.",
+  {
+   "tablo": [
+    [
+     "Vücûh-nezâir eserleri",
+     "Müellif",
+     "Not"
+    ],
+    [
+     "el-Vücûh ve’n-nezâir (el-Eşbâh ve’n-nezâir)",
+     "Mukātil b. Süleyman (ö. 150/767)",
+     "Alanın günümüze ulaşan ilk eseri"
+    ],
+    [
+     "et-Tesârîf",
+     "Yahyâ b. Sellâm (ö. 200/815)",
+     "Mukātil’in eserine dayanır"
+    ],
+    [
+     "Tahsîlü nezâiri’l-Kur’ân",
+     "Hakîm et-Tirmizî",
+     "Vücûhu eleştirir; tek temel anlam fikri"
+    ],
+    [
+     "İslâhu’l-vücûh ve’n-nezâir",
+     "Dâmeğânî (ö. 478/1085)",
+     "Alfabetik"
+    ],
+    [
+     "Nüzhetü’l-a’yüni’n-nevâzır fî ilmi’l-vücûh ve’n-nezâir",
+     "İbnü’l-Cevzî",
+     "Alfabetik ve kapsamlı"
+    ],
+    [
+     "Besâiru zevi’t-temyîz",
+     "Fîrûzâbâdî (ö. 817/1415)",
+     "Ulûm ve vücûh"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Af kelimesi bağışlama, harcamada orta yol ve ihsan anlamlarına gelir” tarzı parçada cevap vücûhtur (ÖSYM 2023). “Cehennem için saîr, cahîm, hutame kullanılması”nın gerekçesi sorulursa: aynı konunun farklı özelliklerini ortaya koymak (ÖSYM 2021). Mukātil’in eseri vücûhun ilk eseri olarak da, ilk tam tefsir olarak da (Tefsîr-i Mukātil) sorulabilir."
+  },
+  {
+   "akil": "Vücûh: bir kelime, çok anlam (ümmet, zikr, salât, rûh, fitne, hüdâ). Nezâir: aynı anlamın farklı yerlerdeki benzerleri; çağdaş kullanımda aynı şey için farklı kelimeler. İlk eser Mukātil b. Süleyman; diğerleri Yahyâ b. Sellâm, Dâmeğânî, İbnü’l-Cevzî."
+  }
+ ],
+ "ozet": [
+  "Hûd 1: Kur’an’ın hepsi muhkem; Zümer 23: hepsi müteşâbih; Âl-i İmrân 7: bir kısmı muhkem, bir kısmı müteşâbih.",
+  "Muhkem: anlamı açık, tek anlamlı; “ümmü’l-kitâb”. Müteşâbih: birden çok anlama ihtimalli veya mahiyetini yalnız Allah’ın bildiği ayet.",
+  "Âl-i İmrân 7’de “illallâh”ta durulursa te’vili yalnız Allah bilir (selef, Hanefî); vasl yapılırsa râsihûn da bilir (Mücâhid).",
+  "Sıfat ayetleri: selef tefvîz (İmam Mâlik’in istiva sözü), halef te’vil, Müşebbihe zahir anlam.",
+  "Hurûf-ı mukattaa: 29 surede, 14 harf; Ebû Bekir’e nispetle “Kur’an’ın sırrı”.",
+  "Lafzî müteşâbih (Bakara 58 – A’râf 161 gibi küçük farklar): Kisâî, Hatîb el-İskâfî (Dürretü’t-tenzîl), Kirmânî (el-Burhân), İbnü’z-Zübeyr (Milâkü’t-te’vîl).",
+  "Kadı Abdülcebbâr’ın Müteşâbihü’l-Kur’ân’ı Mu’tezilîdir; müteşâbihleri aklî olarak te’vil eder.",
+  "Müşkil: çelişki gibi görünen ayetler; A’râf 6 – Rahmân 39; Bakara 51 – A’râf 142. Eser: İbn Kuteybe, Te’vîlü müşkili’l-Kur’ân.",
+  "Mübhem: adı verilmeyen kişi, yer, zaman; Zümer 33 (Peygamber-Ebû Bekir), Kevser 3 (Âs b. Vâil), Yâsîn 20 (Habîb en-Neccâr), Kehf 60-65 (Yûşa, Hızır).",
+  "Mübhemin kaynağı nakildir; isrâiliyat en çok bu alana girer; mesaj mübhem çözülmeden de anlaşılır.",
+  "Mübhemât eserleri: Süheylî (ilk), İbn Asâkir, İbn Cemâa (et-Tibyân), Süyûtî (Müfhimâtü’l-akrân).",
+  "Kur’an’da adı geçen tek sahabi Zeyd b. Hârise; tek kadın Hz. Meryem.",
+  "Garîb: lehçe, az kullanım ve yabancı köken yüzünden kapalı kelime; İbn Abbas – fâtır kıssası.",
+  "Muarrab: Şâfiî ve Ebû Ubeyde reddeder; İbn Abbas, Mücâhid, İkrime kabul eder; Ebû Ubeyd uzlaştırır.",
+  "Garîb eserleri: el-Müfredât (Râğıb), Nüzhetü’l-kulûb (Sicistânî), Mecâzü’l-Kur’ân (Ebû Ubeyde), Tefsîru garîbi’l-Kur’ân (İbn Kuteybe).",
+  "Vücûh: bir kelimenin farklı anlamları (ümmet, zikr, salât, af, rûh); nezâir: benzer kullanımlar. İlk eser Mukātil b. Süleyman."
+ ],
+ "kartlar": [
+  {
+   "o": "Hûd 1 – Zümer 23 – Âl-i İmrân 7",
+   "a": "Hepsi muhkem (sağlam) – hepsi müteşâbih (birbirine benzer güzellikte) – bir kısmı muhkem, bir kısmı müteşâbih."
+  },
+  {
+   "o": "Ümmü’l-kitâb",
+   "a": "Muhkem ayetler; müteşâbihlerin kendisine göre yorumlandığı ana ayetler."
+  },
+  {
+   "o": "Âl-i İmrân 7’de “illallâh”ta durmak",
+   "a": "Müteşâbihin te’vilini yalnız Allah bilir; selef çoğunluğu ve Hanefîler."
+  },
+  {
+   "o": "İmam Mâlik’in istiva sözü",
+   "a": "İstiva bilinir, keyfiyeti bilinmez; iman vacip, sormak bid’at. Tefvîz yaklaşımı."
+  },
+  {
+   "o": "Lafzî müteşâbih",
+   "a": "Benzer ifadelerin küçük lafız farkları; Bakara 58 – A’râf 161. Eserler: Kisâî, İskâfî, Kirmânî."
+  },
+  {
+   "o": "Müşkilü’l-Kur’ân",
+   "a": "Çelişki gibi görünen ayetleri uzlaştıran ilim; İbn Kuteybe, Te’vîlü müşkili’l-Kur’ân."
+  },
+  {
+   "o": "A’râf 6 – Rahmân 39",
+   "a": "Sorgu var – günahı sorulmaz: müşkil örneği; farklı mevkif veya soru türü."
+  },
+  {
+   "o": "Mübhemâtü’l-Kur’ân",
+   "a": "Adı açıkça verilmeyen kişi, yer, zaman, sayının belirlenmesi; kaynağı nakil."
+  },
+  {
+   "o": "Zümer 33 – Kevser 3",
+   "a": "Doğruyu getiren ve tasdik eden: Hz. Peygamber ve Ebû Bekir. Sana buğzeden: Âs b. Vâil."
+  },
+  {
+   "o": "Mübhemâtın ilk müstakil eseri",
+   "a": "Süheylî, et-Ta’rîf ve’l-i’lâm."
+  },
+  {
+   "o": "Garîbü’l-Kur’ân",
+   "a": "Lehçe, az kullanım ve yabancı kökenden dolayı kapalı kelimeleri açıklayan ilim."
+  },
+  {
+   "o": "Muarrab görüşleri",
+   "a": "Şâfiî-Ebû Ubeyde: yok. İbn Abbas-Mücâhid-İkrime: var. Ebû Ubeyd el-Kāsım: aslı yabancı, Arapçalaşmış."
+  },
+  {
+   "o": "el-Müfredât",
+   "a": "Râğıb el-İsfahânî; garîbü’l-Kur’ân’ın en meşhur eseri."
+  },
+  {
+   "o": "Vücûh – nezâir",
+   "a": "Vücûh: bir kelimenin farklı anlamları. Nezâir: aynı anlamdaki benzer kullanımlar (çağdaş kullanımda aynı şey için farklı kelimeler)."
+  },
+  {
+   "o": "Vücûh-nezâirin ilk eseri",
+   "a": "Mukātil b. Süleyman, el-Vücûh ve’n-nezâir."
+  },
+  {
+   "o": "Karıştırma: Ebû Ubeyde – Ebû Ubeyd",
+   "a": "Ebû Ubeyde Ma’mer: Mecâzü’l-Kur’ân, muarrabı reddeder. Ebû Ubeyd Kāsım b. Sellâm: en-Nâsih ve’l-mensûh, muarrabda uzlaştırıcı."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "t1-03",
+   "z": 1,
+   "s": "Kur’an’daki anlaşılması güç ve az kullanılan kelimeleri kök sırasına göre açıklayan, Râğıb el-İsfahânî’nin el-Müfredât adlı eseri hangi ilim dalına aittir?",
+   "c": [
+    "Aksâmü’l-Kur’ân",
+    "Nâsih-mensûh",
+    "Esbâb-ı nüzûl",
+    "Garîbü’l-Kur’ân",
+    "Kıraat"
+   ],
+   "d": 3,
+   "a": "el-Müfredât, garîbü’l-Kur’ân alanının en bilinen eseridir.",
+   "ac": [
+    "Kur’an’daki yeminleri inceler.",
+    "Hükmü kaldırılan ayetleri inceler; eseri Nahhâs, Ebû Ubeyd gibi müelliflere aittir.",
+    "Vâhidî’nin alanıdır.",
+    "Doğru.",
+    "Okuyuş farklılıklarını inceler."
+   ],
+   "kay": "Râğıb el-İsfahânî, el-Müfredât"
+  },
+  {
+   "id": "t1-06",
+   "z": 2,
+   "s": "Hz. Mûsâ’nın yolculuğunda yanında bulunan genç ile karşılaştığı ve kendisine Allah katından ilim verilmiş olan kulun Kur’an’da adları verilmemiş; rivayetlerde bunların Yûşa b. Nûn ve Hızır olduğu belirtilmiştir.\n\nBu tür belirlemeleri konu edinen ilim dalı aşağıdakilerden hangisidir?",
+   "c": [
+    "Mübhemâtü’l-Kur’ân",
+    "Müşkilü’l-Kur’ân",
+    "Garîbü’l-Kur’ân",
+    "Vücûh ve nezâir",
+    "Emsâlü’l-Kur’ân"
+   ],
+   "d": 0,
+   "a": "Kur’an’da ismi açıkça geçmeyen kişi, yer ve zamanları belirlemeye mübhemâtü’l-Kur’ân denir.",
+   "ac": [
+    "Doğru.",
+    "Çelişkili görünen ayetlerle ilgilidir.",
+    "Az bilinen kelimelerin anlamlarıyla ilgilidir.",
+    "Kelimenin farklı anlamlarıyla ilgilidir.",
+    "Kur’an’daki benzetmelerle ilgilidir."
+   ],
+   "kay": "Kehf, 18/60-82"
+  },
+  {
+   "id": "t1-07",
+   "z": 2,
+   "s": "Âl-i İmrân Suresi 7. ayette Kur’an ayetlerinin iki türe ayrıldığı bildirilir. Bunlardan anlamı açık olup “Kitab’ın anası” diye nitelenen ve diğer türün kendisine göre yorumlandığı ayetlere ne ad verilir?",
+   "c": [
+    "Müteşâbih",
+    "Muhkem",
+    "Mensûh",
+    "Mücmel",
+    "Mübhem"
+   ],
+   "d": 1,
+   "a": "Anlamı açık, tek anlamlı ve Kitab’ın anası olarak nitelenen ayetler muhkemdir; müteşâbihler muhkemlere göre yorumlanır.",
+   "ac": [
+    "Ayetteki diğer türdür.",
+    "Doğru.",
+    "Hükmü kaldırılmış ayettir.",
+    "Açıklamaya muhtaç kapalı lafızdır; ayette bu ad geçmez.",
+    "Adı verilmeyen kişi veya yeri ifade eder."
+   ],
+   "kay": "Âl-i İmrân, 3/7"
+  },
+  {
+   "id": "t1-09",
+   "z": 3,
+   "s": "Kur’an’da Allah’ın Hz. Mûsâ ile sözleşmesi bir ayette kırk gece, başka bir ayette otuz gece ve buna eklenen on gece olarak anlatılır. Hz. Mûsâ’nın yol arkadaşı gencin ve bilge kulun adları Kur’an’da verilmemiş, rivayetlerle belirlenmiştir. Tûr Dağı için kullanılan “Sînîn” kelimesinin aslının Arapça olmadığı söylenmiştir. Mûsâ ile Firavun arasındaki mücadele de Kur’an’da uzun uzun anlatılır.\n\nBu metinde aşağıdaki kavramlardan hangisine örnek verilmemiştir?",
+   "c": [
+    "Muarrab",
+    "Mübhem",
+    "Mecaz",
+    "Müşkil",
+    "Kıssa"
+   ],
+   "d": 2,
+   "a": "Otuz ve kırk gece meselesi müşkil, adı verilmeyen kişiler mübhem, “Sînîn” muarrab, Mûsâ-Firavun mücadelesi kıssadır. Mecaza örnek yoktur.",
+   "ac": [
+    "Yabancı kökenli kelime muarrabdır.",
+    "Adı verilmeyen kişiler mübhemdir.",
+    "Doğru: mecaz örneği verilmemiştir.",
+    "Çelişki gibi görünen süre bilgisi müşkildir.",
+    "Mûsâ-Firavun anlatısı kıssadır."
+   ],
+   "kay": "Bakara, 2/51; A’râf, 7/142; Tîn, 95/2"
+  },
+  {
+   "id": "t1-16",
+   "z": 3,
+   "s": "Bir hafız, Bakara 58’de “kapıdan secde ederek girin ve ‘hıtta’ deyin” ifadesinin A’râf 161’de “hıtta deyin ve kapıdan secde ederek girin” şeklinde sırası değişmiş olarak geldiğini; Bakara 35’teki “ve kulâ” ifadesinin A’râf 19’da “fe-kulâ” şeklinde olduğunu fark etmiş ve bu farkların hikmetini araştırmak istemiştir.\n\nHafızın başvurması gereken ilim ve bu alanda yazılmış bir eser aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Müteşâbihü’l-Kur’ân (lafzî müteşâbih) – Dürretü’t-tenzîl",
+    "Garîbü’l-Kur’ân – el-Müfredât",
+    "Muhkem ve müteşâbih (anlam bakımından) – Tenzîhü’l-Kur’ân ani’l-metâin",
+    "Vücûh ve nezâir – Nüzhetü’l-a’yün",
+    "Kıraat ilmi – en-Neşr"
+   ],
+   "d": 0,
+   "a": "Benzer ifadelerdeki küçük lafız farklarını inceleyen ilim lafzî müteşâbihtir; Hatîb el-İskâfî’nin Dürretü’t-tenzîl’i, Kirmânî’nin el-Burhân’ı ve İbnü’z-Zübeyr’in Milâkü’t-te’vîl’i bu alandandır.",
+   "ac": [
+    "Doğru.",
+    "Kelime anlamlarını açıklar; lafız farklarının hikmetini incelemez.",
+    "Anlamca kapalılıkla ilgilenir; Kadı Abdülcebbâr’ın eseri itikadi müteşâbihleri yorumlar.",
+    "Bir kelimenin farklı anlamlarını inceler.",
+    "Farklı okuyuşları inceler; burada mushaftaki farklı ayetler söz konusudur."
+   ],
+   "kay": "Bakara, 2/58; A’râf, 7/161"
+  },
+  {
+   "id": "t1-17",
+   "z": 2,
+   "s": "Bir hoca derste “zikr” kelimesinin bir ayette Kur’an, başka bir ayette cuma namazı, bir diğerinde ise şeref ve ün anlamında kullanıldığını göstermiştir.\n\nHocanın bu açıklaması aşağıdaki ilimlerden hangisinin konusudur?",
+   "c": [
+    "Mübhemâtü’l-Kur’ân",
+    "Garîbü’l-Kur’ân",
+    "İ’râbü’l-Kur’ân",
+    "Vücûh ve nezâir",
+    "Aksâmü’l-Kur’ân"
+   ],
+   "d": 3,
+   "a": "Bir kelimenin Kur’an’da farklı yerlerde farklı anlamlarda kullanılması vücûhtur. Mukātil b. Süleyman’ın el-Vücûh ve’n-nezâir’i bu alanın ilk eseridir.",
+   "ac": [
+    "Adı verilmeyenleri belirler.",
+    "Az bilinen kelimeleri açıklar; zikr bilinen bir kelimedir.",
+    "Dil bilgisi tahlilidir.",
+    "Doğru.",
+    "Yeminleri inceler."
+   ],
+   "kay": "Hicr, 15/9; Cuma, 62/9; Zuhruf, 43/44"
+  },
+  {
+   "id": "tf3-01",
+   "z": 3,
+   "s": "Âl-i İmrân 3/7 ile ilgili\nI. “Ve mâ ya’lemu te’vîlehû illallâh” cümlesinde “illallâh” kelimesinde durulursa, müteşâbihin te’vilini yalnız Allah’ın bildiği anlamı çıkar.\nII. “Ve’r-râsihûne fi’l-ilm” ifadesini Allah lafzına bağlayanlar, ilimde derinleşenlerin de te’vili bilebileceğini savunur.\nIII. Ayette müteşâbihlere uyanların amacı fitne çıkarmak ve onu te’vil etmek olarak gösterilmiştir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Üç öncül de doğrudur. Durak tartışması müteşâbihi kimin bilebileceğini belirler; ayet, kalbinde eğrilik olanların fitne ve te’vil arzusuyla müteşâbihe uyduğunu açıkça söyler.",
+   "ac": [
+    "II ve III de doğrudur.",
+    "III de doğrudur.",
+    "II de doğrudur.",
+    "I de doğrudur.",
+    "Doğru: üçü de doğrudur."
+   ],
+   "kay": "Âl-i İmrân, 3/7"
+  },
+  {
+   "id": "tf3-02",
+   "z": 2,
+   "s": "Kur’an’ın nitelikleriyle ilgili aşağıdaki ayet – anlam eşleştirmelerinden hangisi doğrudur?",
+   "c": [
+    "Hûd 11/1 – Kur’an’ın bir kısmı muhkem bir kısmı müteşâbihtir.",
+    "Hûd 11/1 – Kur’an’ın ayetleri birbirini tekrar eder.",
+    "Âl-i İmrân 3/7 – Kur’an’ın bütün ayetleri sağlam ve kusursuzdur.",
+    "Zümer 39/23 – Kur’an’ın bazı ayetlerinin anlamını yalnız Allah bilir.",
+    "Zümer 39/23 – Kur’an’ın ayetleri güzellikte ve doğrulukta birbirine benzer."
+   ],
+   "d": 4,
+   "a": "Hûd 1 Kur’an’ın tamamının muhkem (sağlam), Zümer 23 tamamının müteşâbih (birbirine benzer güzellikte), Âl-i İmrân 7 ise bir kısmının muhkem bir kısmının müteşâbih olduğunu bildirir.",
+   "ac": [
+    "Bu, Âl-i İmrân 7’nin anlamıdır.",
+    "Tekrar (mesânî) Zümer 23’te geçer; Hûd 1 ihkâmı bildirir.",
+    "Bu, Hûd 1’in anlamıdır.",
+    "Zümer 23 tüm ayetlerin birbirine benzerliğini bildirir; anlamın yalnız Allah’ça bilinmesi Âl-i İmrân 7 ile ilgilidir.",
+    "Doğru."
+   ],
+   "kay": "Hûd, 11/1; Zümer, 39/23; Âl-i İmrân, 3/7"
+  },
+  {
+   "id": "tf3-03",
+   "z": 3,
+   "s": "Aşağıdaki eser – müellif – alan eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Dürretü’t-tenzîl – Hatîb el-İskâfî – Lafzî müteşâbih",
+    "Te’vîlü müşkili’l-Kur’ân – İbn Kuteybe – Müşkil",
+    "et-Ta’rîf ve’l-i’lâm – Süheylî – Mübhemât",
+    "Nüzhetü’l-kulûb – Sicistânî – Vücûh ve nezâir",
+    "Milâkü’t-te’vîl – İbnü’z-Zübeyr – Lafzî müteşâbih"
+   ],
+   "d": 3,
+   "a": "Sicistânî’nin Nüzhetü’l-kulûb’u garîbü’l-Kur’ân eseridir. Vücûh ve nezâirde İbnü’l-Cevzî’nin Nüzhetü’l-a’yüni’n-nevâzır’ı bulunur; iki “Nüzhe” birbirine karıştırılmamalıdır.",
+   "ac": [
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir; alanın ilk müstakil eseridir.",
+    "Yanlış: Nüzhetü’l-kulûb garîbü’l-Kur’ân eseridir.",
+    "Doğru eşleştirmedir."
+   ],
+   "kay": "Konu: Ulûmü’l-Kur’ân literatürü"
+  },
+  {
+   "id": "tf3-04",
+   "z": 3,
+   "s": "Bir âlime “Rahman arşa istiva etti” ayetindeki istivanın nasıl olduğu sorulunca şu cevabı vermiştir: “İstiva bilinmektedir; keyfiyeti ise bilinmez. Ona iman etmek vaciptir; onun hakkında soru sormak bid’attir.”\n\nBu cevap müteşâbih sıfat ayetlerine yaklaşımlardan hangisini yansıtır ve kime nispet edilir?",
+   "c": [
+    "Tefvîz – İmam Mâlik",
+    "Te’vil – Ebû Mansûr el-Mâtürîdî",
+    "Teşbih – Müşebbihe",
+    "Te’vil – Kadı Abdülcebbâr",
+    "Tefvîz – Fahreddin er-Râzî"
+   ],
+   "d": 0,
+   "a": "Lafza iman edip keyfiyeti Allah’a bırakan selef yolu tefvîzdir; bu meşhur söz İmam Mâlik’e nispet edilir.",
+   "ac": [
+    "Doğru.",
+    "Mâtürîdî halef yöntemiyle te’vile de başvurur; söz ona ait değildir.",
+    "Teşbihte lafız insanî anlamıyla alınır; burada keyfiyet reddedilmiştir.",
+    "Mu’tezilî Kadı Abdülcebbâr istivayı istila ve hâkimiyet diye te’vil eder.",
+    "Râzî bir Eş’arî kelamcı olarak sıfat ayetlerini te’vil eder; söz ona ait değildir."
+   ],
+   "kay": "Tâhâ, 20/5"
+  },
+  {
+   "id": "tf3-05",
+   "z": 2,
+   "s": "Bir ayette kıyamet günü insanların konuşamayacağı bildirilirken, başka bir ayette o gün insanların birbirlerine yönelip soru sordukları anlatılır. Müfessirler bu ayetleri, kıyametin farklı safhalarında farklı haller yaşanacağı şeklinde açıklayarak aralarında çelişki olmadığını göstermişlerdir.\n\nMüfessirlerin bu çabası aşağıdaki ilimlerden hangisinin konusudur?",
+   "c": [
+    "Nâsih ve mensûh",
+    "Mübhemâtü’l-Kur’ân",
+    "Müşkilü’l-Kur’ân",
+    "Garîbü’l-Kur’ân",
+    "Vücûh ve nezâir"
+   ],
+   "d": 2,
+   "a": "Çelişki gibi görünen ayetleri uzlaştırmak müşkilü’l-Kur’ân ilminin konusudur.",
+   "ac": [
+    "Ayetlerden biri diğerinin hükmünü kaldırmamaktadır; ayrıca haberlere nesih girmez.",
+    "Adı verilmeyen kişi ve yerlerle ilgilidir.",
+    "Doğru.",
+    "Kelimelerin az bilinmesiyle ilgilidir.",
+    "Bir kelimenin farklı anlamlarıyla ilgilidir."
+   ],
+   "kay": "Mürselât, 77/35; Sâffât, 37/27"
+  },
+  {
+   "id": "tf3-06",
+   "z": 3,
+   "s": "Aşağıdaki ifadelerden hangisi mübhemâtü’l-Kur’ân ilminin inceleme alanına girmez?",
+   "c": [
+    "“Şehrin öbür ucundan koşarak bir adam geldi.” (Yâsîn, 36/20)",
+    "“İkinin ikincisi… arkadaşına ‘Üzülme, Allah bizimle beraberdir’ diyordu.” (Tevbe, 9/40)",
+    "“Allah, eşi hakkında seninle tartışan kadının sözünü işitti.” (Mücâdele, 58/1)",
+    "“Eğer bir fâsık size bir haber getirirse onu araştırın.” (Hucurât, 49/6)",
+    "“Zeyd ondan ilişiğini kesince onu seninle evlendirdik.” (Ahzâb, 33/37)"
+   ],
+   "d": 4,
+   "a": "Mübhem, kişi veya yerin adının açıkça verilmeyip zamir, sıfat, cins isim gibi ifadelerle anılmasıdır. Ahzâb 37’de Zeyd adı açıkça geçmektedir; Kur’an’da adı geçen tek sahabidir.",
+   "ac": [
+    "Koşan adam mübhemdir; rivayetlere göre Habîb en-Neccâr’dır.",
+    "“Arkadaş” mübhemdir; Hz. Ebû Bekir’dir.",
+    "“Tartışan kadın” mübhemdir; Havle bint Sa’lebe’dir.",
+    "“Fâsık” mübhemdir; Velîd b. Ukbe olarak belirlenir.",
+    "Doğru: isim açıkça verildiği için mübhem değildir."
+   ],
+   "kay": "Ahzâb, 33/37"
+  },
+  {
+   "id": "tf3-07",
+   "z": 3,
+   "s": "Mübhemâtü’l-Kur’ân hakkında aşağıdakilerden hangisi söylenemez?",
+   "c": [
+    "Kur’an’da açıkça zikredilmeyen kişi, topluluk, yer ve zamanı belirlemeye çalışır.",
+    "Mübhemlerin belirlenmesinde akıl yürütme ve kıyas temel kaynak olarak kabul edilir.",
+    "İsrâiliyatın tefsire en çok girdiği alanlardan biridir.",
+    "Bazı ifadelerin mübhem bırakılması, mesajın kişiye değil herkese yönelik olduğunu gösterir.",
+    "Süheylî, İbn Cemâa ve Süyûtî bu alanda eser vermiştir."
+   ],
+   "d": 1,
+   "a": "Mübhemlerin belirlenmesinin kaynağı nakildir: Kur’an, sahih sünnet, sahabe ve tâbiûn rivayetleri, esbâb-ı nüzûl ve tarih. Akıl ve kıyasla bir kişinin adı belirlenemez.",
+   "ac": [
+    "Doğru bilgidir; ilmin tanımıdır.",
+    "Söylenemez: mübhemin kaynağı nakildir.",
+    "Doğru bilgidir; rivayet eksikliği isrâiliyata yol açmıştır.",
+    "Doğru bilgidir; mübhemiyetin hikmetlerinden biridir.",
+    "Doğru bilgidir; et-Ta’rîf, et-Tibyân, Müfhimâtü’l-akrân bu alandadır."
+   ],
+   "kay": "Konu: Mübhemâtü’l-Kur’ân"
+  },
+  {
+   "id": "tf3-08",
+   "z": 2,
+   "s": "Kur’an’da “istebrak, siccîl, kıstâs, mişkât” gibi aslı Arapça olmadığı söylenen kelimelerin bulunup bulunmadığı tartışılmıştır. Bir âlim bu tartışmada, söz konusu kelimelerin aslının yabancı olduğunu, ancak Arapların bunları dillerine uydurup kullandığını ve Kur’an indiğinde artık Arapçalaşmış olduklarını söyleyerek iki görüşü uzlaştırmıştır.\n\nBu uzlaştırıcı görüşün sahibi aşağıdakilerden hangisidir?",
+   "c": [
+    "Ebû Ubeyd el-Kāsım b. Sellâm",
+    "Ebû Ubeyde Ma’mer b. el-Müsennâ",
+    "İmam Şâfiî",
+    "Mücâhid b. Cebr",
+    "Süyûtî"
+   ],
+   "d": 0,
+   "a": "Muarrab tartışmasında uzlaştırıcı görüş Ebû Ubeyd el-Kāsım b. Sellâm’a aittir. Şâfiî ve Ebû Ubeyde Kur’an’da yabancı kelime bulunmadığını savunur; İbn Abbas, Mücâhid ve İkrime’den yabancı kökenli kelimelere dair rivayetler gelmiştir.",
+   "ac": [
+    "Doğru.",
+    "Mecâzü’l-Kur’ân müellifidir; o da muarrabı reddeder.",
+    "Kur’an’da Arapça olmayan kelime bulunmadığını savunur.",
+    "Bazı kelimelerin yabancı kökenli olduğunu söyleyenlerdendir.",
+    "el-Mühezzeb’de muarrab kelimeleri toplamıştır; uzlaştırıcı görüşün sahibi olarak bilinmez."
+   ],
+   "kay": "Süyûtî, el-Mühezzeb; Konu: Muarrab"
+  },
+  {
+   "id": "tf3-09",
+   "z": 3,
+   "s": "“Ümmet” kelimesinin Kur’an’daki kullanımlarıyla ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "“Kardeşi bir süre (ümmet) sonra hatırladı.” – Zaman, süre",
+    "“Sizden hayra çağıran bir ümmet bulunsun.” – Süre, zaman",
+    "“Biz atalarımızı bir ümmet üzere bulduk.” – Din, yol",
+    "“Medyen suyuna varınca orada hayvanlarını sulayan bir ümmet buldu.” – Topluluk",
+    "“İbrâhim, Allah’a gönülden boyun eğen bir ümmetti.” – Önder, örnek şahsiyet"
+   ],
+   "d": 1,
+   "a": "Âl-i İmrân 104’te ümmet, hayra çağıran bir topluluk anlamındadır. Diğer eşleştirmeler kelimenin vücûhunu doğru gösterir: Yûsuf 45 süre, Nahl 120 önder, Zuhruf 22 din, Kasas 23 topluluk.",
+   "ac": [
+    "Doğru eşleştirmedir (Yûsuf 45).",
+    "Yanlış: burada ümmet topluluk, cemaat anlamındadır.",
+    "Doğru eşleştirmedir (Zuhruf 22).",
+    "Doğru eşleştirmedir (Kasas 23).",
+    "Doğru eşleştirmedir (Nahl 120)."
+   ],
+   "kay": "Yûsuf, 12/45; Nahl, 16/120; Zuhruf, 43/22; Kasas, 28/23; Âl-i İmrân, 3/104"
+  },
+  {
+   "id": "tf3-10",
+   "z": 2,
+   "s": "İbn Abbas’ın, Kur’an’da geçen bir kelimenin anlamını bilmediğini, iki bedevinin bir kuyu üzerinde tartışırken birinin “Onu ilk ben kazdım” anlamında bu kelimenin fiilini kullandığını duyunca öğrendiğini söylediği nakledilir.\n\nBu rivayet en çok aşağıdakilerden hangisini göstermektedir?",
+   "c": [
+    "Kelimenin anlamının siyak-sibaktan çıkarıldığını",
+    "Sahabenin Kur’an’daki yabancı kökenli kelimeleri ehl-i kitaba sorduğunu",
+    "İbn Abbas’ın kelimenin anlamını sebeb-i nüzûlle belirlediğini",
+    "Sahabenin garîb kelimelerin anlamını Arap dilini koruyan bedevilerden ve günlük kullanımdan öğrendiğini",
+    "İbn Abbas’ın müteşâbih ayetleri tefvîz ettiğini"
+   ],
+   "d": 3,
+   "a": "Fâtır (Fâtır 35/1) kelimesine dair bu rivayet, garîb kelimelerin Arap dilini saf hâliyle koruyan bedevilerden ve dilin canlı kullanımından öğrenildiğini gösterir.",
+   "ac": [
+    "Anlam ayetin bağlamından değil, bedevilerin kullanımından öğrenilmiştir.",
+    "Kelime yabancı kökenli değildir ve ehl-i kitaba sorulmamıştır.",
+    "Bir olay üzerine inen ayet söz konusu değildir.",
+    "Doğru.",
+    "İbn Abbas anlamı öğrenmiş ve açıklamıştır."
+   ],
+   "kay": "Fâtır, 35/1; Süyûtî, el-İtkân"
+  },
+  {
+   "id": "tf3-11",
+   "z": 3,
+   "s": "İlahiyat öğrencisi Zehra, tefsir dersinde şu soruları not almıştır:\n– Kur’an’da “sündüs” ve “istebrak” kelimeleri ne anlama gelir ve nereden gelmiştir?\n– Firavun ailesinden imanını gizleyen mümin adamın adı nedir?\n– “Eşler arasında adaleti asla sağlayamazsınız” ayeti ile “adaletsizlikten korkarsanız bir eşle yetinin” ayeti nasıl bağdaştırılır?\n\nZehra’nın bu sorulara cevap bulmak için sırasıyla başvurması gereken ilimler aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Vücûh ve nezâir – Mübhemât – Nâsih ve mensûh",
+    "Garîbü’l-Kur’ân – Mübhemât – Müşkilü’l-Kur’ân",
+    "Garîbü’l-Kur’ân – Esbâb-ı nüzûl – Müteşâbih",
+    "Mübhemât – Garîbü’l-Kur’ân – Müşkilü’l-Kur’ân",
+    "Vücûh ve nezâir – Esbâb-ı nüzûl – Müşkilü’l-Kur’ân"
+   ],
+   "d": 1,
+   "a": "Yabancı kökenli ve az bilinen kelimeler garîbü’l-Kur’ân’ın; adı verilmeyen kişi mübhemâtın; çelişki gibi görünen ayetler müşkilin konusudur.",
+   "ac": [
+    "Kelimelerin çok anlamlılığı değil yabancı kökeni sorulmaktadır; ayrıca iki ayet arasında nesih yoktur.",
+    "Doğru.",
+    "Mümin adamın adı bir olayın sebebi değil, mübhemin belirlenmesidir; üçüncü soru da müşkildir.",
+    "İlk iki ilim yer değiştirmiştir.",
+    "İlk iki ilim yanlıştır."
+   ],
+   "kay": "Kehf, 18/31; Mü’min, 40/28; Nisâ, 4/3, 129"
+  },
+  {
+   "id": "tf3-12",
+   "z": 3,
+   "s": "Garîbü’l-Kur’ân ve vücûh-nezâir ile ilgili\nI. Garîb kelimeler fesahate aykırı kelimeler değildir; garâbet, bazı insanlara göre bilinmezliktir.\nII. Ebû Ubeyde’nin Mecâzü’l-Kur’ân adlı eserinde “mecaz” kelimesi, belâgatteki hakikatin karşıtı olan teknik anlamıyla değil, “ifade yolu, anlam” karşılığında kullanılmıştır.\nIII. Hakîm et-Tirmizî, bir kelimenin Kur’an’da çok sayıda bağımsız anlam taşıdığını savunarak vücûh ilminin kurucusu olmuştur.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "I ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "I ve II doğrudur. Vücûh ilminin günümüze ulaşan ilk eseri Mukātil b. Süleyman’ındır; Hakîm et-Tirmizî ise tam tersine vücûh fikrini eleştirip her kelimenin tek bir temel anlamı olduğunu savunmuştur.",
+   "ac": [
+    "II. öncül de doğrudur.",
+    "I. öncül de doğrudur.",
+    "Doğru: I ve II doğru, III yanlıştır.",
+    "III. öncül yanlıştır; Hakîm et-Tirmizî vücûhu eleştirmiştir.",
+    "III. öncül yanlış olduğu için üçü birden doğru değildir."
+   ],
+   "kay": "Konu: Garîbü’l-Kur’ân; Vücûh ve nezâir"
+  }
+ ]
+}

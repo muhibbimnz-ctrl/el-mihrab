@@ -1,0 +1,614 @@
+{
+ "id": "arapca-2",
+ "ad": "Sarf II: Aksâm-ı Seb‘a, Fiil Çekimleri, Malûm–Meçhul ve İ‘lâl",
+ "ders": "Arapça",
+ "sinavlar": [
+  "ihtisas",
+  "ilcemuftu",
+  "muftuyrd",
+  "vaizlik",
+  "egitimgorevlisi",
+  "mufettis",
+  "arapca"
+ ],
+ "oncelik": 3,
+ "anlatim": [
+  "Sarfın ikinci basamağı, fiilin kökündeki harflerin niteliğine göre nasıl davrandığını bilmektir. Kökünde hemze, şeddeli (tekrarlanan) harf ya da illet harfi (و، ي، ا) bulunan fiiller çekimde değişikliğe uğrar. Bu değişiklikleri bilmeyen kişi يَقُولُ ile قَالَ’nin aynı fiil olduğunu göremez. Bu ünite aksâm-ı seb‘ayı, fiil çekimlerini, malûm–meçhul ayrımını ve i‘lâl kurallarını anlatır.",
+  {
+   "b": "1. Aksâm-ı seb‘a: Fiilin yedi kısmı"
+  },
+  {
+   "merak": "Neden وَعَدَ fiilinin muzârisi يَوْعِدُ değil, يَعِدُ şeklindedir? Çünkü kökün başındaki vav, misâl fiillerde muzâride düşer. Fiilin hangi kısımdan olduğunu bilmek, çekimdeki bu “kayıpların” yerini bulmayı sağlar."
+  },
+  "Kökündeki harfler bakımından fiil yedi kısma ayrılır. Bunlara aksâm-ı seb‘a denir. Sahih fiilin kökünde illet harfi yoktur. Mu‘tel fiilin kökünde ise en az bir illet harfi vardır.",
+  {
+   "tablo": [
+    [
+     "Kısım",
+     "Tanımı",
+     "Örnek"
+    ],
+    [
+     "Sâlim",
+     "Kökünde hemze, tekrar ve illet harfi bulunmayan fiil",
+     "نَصَرَ، كَتَبَ، ذَهَبَ"
+    ],
+    [
+     "Mehmûz",
+     "Kökünde hemze bulunan fiil; hemzenin yerine göre fâ, ayn ya da lâm mehmûzu",
+     "أَكَلَ (fâ), سَأَلَ (ayn), قَرَأَ (lâm)"
+    ],
+    [
+     "Muzâaf",
+     "Ayn ve lâm harfi aynı olan fiil; çoğunlukla idgamla yazılır",
+     "مَدَّ (aslı مَدَدَ)، شَدَّ"
+    ],
+    [
+     "Misâl",
+     "İlk harfi (fâ’ul-fiil) illet harfi olan fiil",
+     "وَعَدَ، وَجَدَ، يَسَرَ"
+    ],
+    [
+     "Ecvef",
+     "Orta harfi (ayn’ul-fiil) illet harfi olan fiil",
+     "قَالَ (aslı قَوَلَ)، بَاعَ (aslı بَيَعَ)"
+    ],
+    [
+     "Nâkıs",
+     "Son harfi (lâm’ul-fiil) illet harfi olan fiil",
+     "دَعَا (aslı دَعَوَ)، رَمَى (aslı رَمَيَ)"
+    ],
+    [
+     "Lefîf",
+     "Kökünde iki illet harfi bulunan fiil. Mefrûk: illet harfleri ayrı (وَقَى). Makrûn: bitişik (طَوَى)",
+     "وَقَى، وَفَى، طَوَى، رَوَى"
+    ]
+   ]
+  },
+  "Sâlim ile sahih aynı şey değildir. Sahih fiil, kökünde illet harfi bulunmayan fiildir. Bu tanıma mehmûz ve muzâaf da girer. Sâlim fiil ise hemzeden ve tekrardan da uzaktır. Yani her sâlim sahihtir, ama her sahih sâlim değildir. Sorularda “aşağıdakilerden hangisi sahih olduğu hâlde sâlim değildir?” şeklinde bu ayrıntı yoklanır. Cevap mehmûz ya da muzâaf bir fiildir.",
+  {
+   "sinav": "Bir fiilin aksâm-ı seb‘adaki yeri sorulduğunda önce fiilin aslını (kökünü) bul. قَالَ’deki elif aslında vavdır, bu yüzden ecveftir. دَعَا’daki elif aslında vavdır, bu yüzden nâkıstır. مَدَّ şeddesi çözülünce مَدَدَ olur, bu yüzden muzâaftır. Elif, kökte asla asıl harf olmaz; daima و ya da ي’den dönmüştür."
+  },
+  {
+   "akil": "Sâlim → hemze, tekrar ve illet yok. Mehmûz → hemze. Muzâaf → ayn ve lâm aynı. Misâl → baş illetli. Ecvef → orta illetli. Nâkıs → son illetli. Lefîf → iki illet (mefrûk ayrı, makrûn bitişik)."
+  },
+  {
+   "b": "2. Fiil çekimi: Mâzî, muzâri, emir ve nehiy"
+  },
+  "Fiil, zaman bakımından mâzî (geçmiş), muzâri (şimdiki ve gelecek zaman) ve emir olarak üçe ayrılır. Her biri on dört siygada (kalıpta) çekilir: üçü gâib müzekker, üçü gâibe müennes, üçü muhâtab müzekker, üçü muhâtaba müennes, ikisi mütekellim. Mâzî fiil mebnîdir. Muzâri fiil ise başına gelen edatlara göre merfû, mansûb ya da meczûm olur. Emir ve nehiy, muzâriden türetilir.",
+  {
+   "tablo": [
+    [
+     "Siyga (nasara)",
+     "Mâzî",
+     "Muzâri",
+     "Anlamı"
+    ],
+    [
+     "Gâib, tekil müzekker",
+     "نَصَرَ",
+     "يَنْصُرُ",
+     "O (erkek) yardım etti / ediyor"
+    ],
+    [
+     "Gâib, çoğul müzekker",
+     "نَصَرُوا",
+     "يَنْصُرُونَ",
+     "Onlar (erkek) yardım ettiler"
+    ],
+    [
+     "Gâibe, çoğul müennes",
+     "نَصَرْنَ",
+     "يَنْصُرْنَ",
+     "Onlar (kadın) yardım ettiler"
+    ],
+    [
+     "Muhâtab, tekil",
+     "نَصَرْتَ",
+     "تَنْصُرُ",
+     "Sen (erkek) yardım ettin"
+    ],
+    [
+     "Muhâtaba, tekil",
+     "نَصَرْتِ",
+     "تَنْصُرِينَ",
+     "Sen (kadın) yardım ettin"
+    ],
+    [
+     "Mütekellim, tekil",
+     "نَصَرْتُ",
+     "أَنْصُرُ",
+     "Ben yardım ettim"
+    ],
+    [
+     "Mütekellim, çoğul",
+     "نَصَرْنَا",
+     "نَنْصُرُ",
+     "Biz yardım ettik"
+    ]
+   ]
+  },
+  "Emir-i hâzır, muhâtab muzâriden yapılır. Muzâraat harfi atılır, son harf cezmlenir. Kalan kelimenin ilk harfi sâkinse başa bir vasıl hemzesi eklenir. Muzârinin ayn harfi ötreliyse hemze ötreli (اُنْصُرْ), üstün ya da esreliyse hemze esreli olur (اِفْتَحْ، اِضْرِبْ). Nehiy (olumsuz emir) için muzârinin başına لَا-i nâhiye getirilir ve fiil meczûm olur: لَا تَنْصُرْ. Muzâriyi nasb eden edatlar أَنْ، لَنْ، كَيْ، إِذَنْ’dir. Cezm edenler ise لَمْ، لَمَّا، لَامُ الْأَمْرِ ve لَا-i nâhiyedir. لَمْ, muzâriyi cezmederken anlamını mâzîye çevirir: لَمْ يَذْهَبْ “gitmedi”.",
+  {
+   "sinav": "Çekim sorularında genellikle bir fiilin bütün siygaları sıralanır ve “hangisinde yanlışlık yapılmıştır?” diye sorulur. Özellikle dikkat edilecek yerler: müennes çoğulda mâzînin sonu نَ (نَصَرْنَ), muhâtaba muzârisinin sonu ينَ (تَنْصُرِينَ), illetli fiillerde düşen harfler (لَمْ يَقُلْ، لَمْ يَدْعُ) ve emirde vasıl hemzesinin harekesidir."
+  },
+  {
+   "b": "3. Malûm ve meçhul"
+  },
+  {
+   "merak": "Kur’an’da كُتِبَ عَلَيْكُمُ الصِّيَامُ (Oruç size farz kılındı) buyrulur. Fiil “yazdı” değil, “yazıldı” şeklindedir. Fâil zikredilmemiştir. Meçhul fiil, işi yapanın bilinmediği ya da bilinse de söylenmediği durumlarda kullanılır."
+  },
+  {
+   "ayet": "Ey iman edenler! Oruç sizden öncekilere farz kılındığı gibi size de farz kılındı. Umulur ki korunursunuz.",
+   "kay": "Bakara, 2/183"
+  },
+  "Fâili belli olan fiile malûm, fâili zikredilmeyen fiile meçhul denir. Meçhul fiilde fâilin yerini nâib-i fâil alır ve merfû olur. Mâzî meçhul şöyle yapılır: ilk harf ötreli, son harften önceki harf esreli okunur (نُصِرَ، كُتِبَ). Muzâri meçhulde muzâraat harfi ötreli, son harften önceki harf üstünlü olur (يُنْصَرُ، يُكْتَبُ). Mezîd bâblarda da kural aynıdır: أُكْرِمَ / يُكْرَمُ, اُسْتُغْفِرَ / يُسْتَغْفَرُ.",
+  "İllet harfi bulunan fiillerde meçhulün okunuşu değişir. Ecvef mâzî meçhulünde orta harf ي olur (قِيلَ، بِيعَ). Muzâride ise ا olur (يُقَالُ، يُبَاعُ). Nâkıs mâzî meçhulde sonu يَ ile biter (دُعِيَ، رُمِيَ), muzâride ise ى ile (يُدْعَى، يُرْمَى). Yalnız lâzım fiiller meçhul yapılmaz. Ancak harf-i cerle birlikte kullanılırsa meçhul olabilir: غُضِبَ عَلَيْهِمْ. Fâtiha’daki الْمَغْضُوبِ عَلَيْهِمْ ifadesi buna örnektir.",
+  {
+   "tablo": [
+    [
+     "Fiil",
+     "Malûm mâzî",
+     "Meçhul mâzî",
+     "Meçhul muzâri"
+    ],
+    [
+     "Sâlim",
+     "نَصَرَ",
+     "نُصِرَ",
+     "يُنْصَرُ"
+    ],
+    [
+     "Ecvef",
+     "قَالَ",
+     "قِيلَ",
+     "يُقَالُ"
+    ],
+    [
+     "Nâkıs",
+     "دَعَا",
+     "دُعِيَ",
+     "يُدْعَى"
+    ],
+    [
+     "Mezîd (if‘âl)",
+     "أَنْزَلَ",
+     "أُنْزِلَ",
+     "يُنْزَلُ"
+    ]
+   ]
+  },
+  {
+   "akil": "Mâzî meçhul: ilk harf ötre, sondan önceki esre (نُصِرَ). Muzâri meçhul: muzâraat ötre, sondan önceki üstün (يُنْصَرُ). Ecvef: قِيلَ / يُقَالُ."
+  },
+  {
+   "b": "4. İ‘lâl, ibdâl ve idgam"
+  },
+  {
+   "merak": "قَالَ kelimesindeki elif nereden geldi? Aslı قَوَلَ’dir. Harekeli vav, öncesi üstünlü olunca elife dönüşmüştür. Arapçada illet harflerinin bu dönüşümlerine i‘lâl denir. Hafif ve akıcı bir söyleyiş için yapılır."
+  },
+  "İ‘lâl, illet harflerinin dönüşmesi (kalb), düşmesi (hazf) ya da harekesinin atılması (teskîn) ile olur. En sık görülen kurallar şunlardır. Harekeli و ya da ي’den önceki harf üstünlüyse, bu harf elife dönüşür: قَوَلَ → قَالَ، بَيَعَ → بَاعَ، دَعَوَ → دَعَا. İki sâkin yan yana gelince illet harfi düşer: يَقُولْ → لَمْ يَقُلْ، قُولْ → قُلْ. Misâl fiilin ilk harfi olan vav, daraba bâbında muzâride düşer: يَوْعِدُ → يَعِدُ. Mîzanda bu harfler de gösterilmez: يَعِدُ vezni يَعِلُ’dür.",
+  "İbdâl, bir harfin illet harfi olmayan başka bir harfe dönüşmesidir. Örneğin iftiâl tâsının ط’ye dönüşmesi (اِصْطَبَرَ) bir ibdâldir. İdgam ise iki aynı ya da yakın harfin şeddeli tek harf olarak okunmasıdır. Muzâaf fiillerde görülür: مَدَدَ → مَدَّ. Fakat ikinci harf sâkin olursa idgam çözülür (fekk): مَدَدْتُ “uzattım”, مَدَدْنَ. Çünkü sâkin harf öncekine kaynaşamaz.",
+  {
+   "sinav": "“Aşağıdaki kelimelerin hangisinde i‘lâl yoktur?” ya da “hangisinde hazf yapılmıştır?” soruları sık gelir. Elif içeren her fiil i‘lâllidir (elif aslî değildir). Şeddesi çözülmüş muzâaf (مَدَدْتُ) i‘lâl değil, fekk örneğidir. لَمْ يَقُلْ ve قُلْ hazf örneğidir."
+  },
+  {
+   "akil": "Harekeli و/ي + öncesi üstün → elif (قَالَ، دَعَا). İki sâkin → illet harfi düşer (قُلْ). Misâlin vavı muzâride düşer (يَعِدُ). Muzâafta ikinci harf sâkin olunca idgam çözülür (مَدَدْتُ)."
+  },
+  {
+   "b": "5. Emirde illetli fiiller ve dikkat edilecek kalıplar"
+  },
+  "İllet harfli fiillerin emirleri kısa görünür, çünkü cezm illet harfini düşürür. Ecvefte orta harf düşer: قُلْ، بِعْ، خَفْ. Nâkısta son harf düşer: اُدْعُ (دَعَا), اِرْمِ (رَمَى), اِسْعَ (سَعَى). Misâlde ilk harf düşer ve hemzeye gerek kalmaz: عِدْ (وَعَدَ), صِلْ (وَصَلَ). Lefîf mefrûkta hem ilk hem son harf düşer. Bu yüzden وَقَى fiilinin emri tek harfli kalır: قِ (koru!). Kur’an’daki قِنَا عَذَابَ النَّارِ “bizi ateşin azabından koru” duasında bu kelime geçer.",
+  {
+   "ayet": "Rabbimiz! Bize dünyada da iyilik ver, ahirette de iyilik ver ve bizi ateşin azabından koru.",
+   "kay": "Bakara, 2/201"
+  },
+  {
+   "not": "Çekim tablolarını ezberlemek yerine birkaç kök (نَصَرَ، قَالَ، دَعَا، وَعَدَ، مَدَّ، وَقَى) üzerinde bütün siygaları yazarak çalışmak, illetli fiillerdeki değişiklikleri kalıcı olarak öğretir."
+  }
+ ],
+ "ozet": [
+  "Aksâm-ı seb‘a: sâlim, mehmûz, muzâaf, misâl, ecvef, nâkıs, lefîf.",
+  "Sahih fiil illet harfi taşımaz; sâlim ise hemze ve tekrardan da uzaktır. Mehmûz ve muzâaf sahihtir ama sâlim değildir.",
+  "Misâl baş, ecvef orta, nâkıs son harfi illetli fiildir; lefîfte iki illet harfi vardır (mefrûk ayrı, makrûn bitişik).",
+  "Fiil kökünde elif aslî değildir; و ya da ي’den dönmüştür (قَالَ < قَوَلَ).",
+  "Mâzî mebnîdir; muzâri edatlara göre merfû, mansûb ya da meczûm olur.",
+  "Nasb edatları: أَنْ، لَنْ، كَيْ، إِذَنْ. Cezm edatları: لَمْ، لَمَّا، lâm-ı emr, lâ-i nâhiye.",
+  "Emirde muzâraat harfi atılır, son harf cezmlenir; gerekirse vasıl hemzesi eklenir (ötreli aynlı fiilde ötreli).",
+  "Mâzî meçhul: نُصِرَ. Muzâri meçhul: يُنْصَرُ. Ecvefte قِيلَ / يُقَالُ, nâkısta دُعِيَ / يُدْعَى.",
+  "Lâzım fiil ancak harf-i cerle meçhul olur: الْمَغْضُوبِ عَلَيْهِمْ.",
+  "İki sâkin yan yana gelince illet harfi düşer: لَمْ يَقُلْ، قُلْ.",
+  "Muzâafta ikinci harf sâkinleşince idgam çözülür: مَدَدْتُ.",
+  "وَقَى fiilinin emri قِ’dir (lefîf mefrûk)."
+ ],
+ "kartlar": [
+  {
+   "o": "Aksâm-ı seb‘a",
+   "a": "Sâlim, mehmûz, muzâaf, misâl, ecvef, nâkıs, lefîf"
+  },
+  {
+   "o": "Sahih ama sâlim olmayan fiiller",
+   "a": "Mehmûz ve muzâaf"
+  },
+  {
+   "o": "Misâl",
+   "a": "İlk harfi illetli fiil (وَعَدَ)"
+  },
+  {
+   "o": "Ecvef",
+   "a": "Orta harfi illetli fiil (قَالَ < قَوَلَ)"
+  },
+  {
+   "o": "Nâkıs",
+   "a": "Son harfi illetli fiil (دَعَا، رَمَى)"
+  },
+  {
+   "o": "Lefîf mefrûk / makrûn",
+   "a": "وَقَى (ayrı) / طَوَى (bitişik)"
+  },
+  {
+   "o": "Muzâriyi nasb eden edatlar",
+   "a": "أَنْ، لَنْ، كَيْ، إِذَنْ"
+  },
+  {
+   "o": "لَمْ edatının işi",
+   "a": "Muzâriyi cezmeder, anlamı mâzîye çevirir"
+  },
+  {
+   "o": "Mâzî meçhul kalıbı",
+   "a": "İlk harf ötre, sondan önceki esre: نُصِرَ"
+  },
+  {
+   "o": "قَالَ fiilinin meçhulü",
+   "a": "Mâzî قِيلَ, muzâri يُقَالُ"
+  },
+  {
+   "o": "يَعِدُ kelimesinin vezni",
+   "a": "يَعِلُ (misâlin vavı düşmüştür)"
+  },
+  {
+   "o": "مَدَدْتُ",
+   "a": "Muzâafta fekk: ikinci harf sâkin olunca idgam çözülür"
+  },
+  {
+   "o": "وَقَى fiilinin emri",
+   "a": "قِ (koru!) – قِنَا عَذَابَ النَّارِ"
+  },
+  {
+   "o": "İ‘lâl",
+   "a": "İllet harflerinde kalb, hazf ya da teskîn"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "ar2-01",
+   "z": 2,
+   "s": "Aşağıdaki fiillerden hangisi ecvef fiildir?",
+   "c": [
+    "وَعَدَ",
+    "بَاعَ",
+    "دَعَا",
+    "مَدَّ",
+    "وَقَى"
+   ],
+   "d": 1,
+   "a": "Ecvef, orta harfi illet harfi olan fiildir. بَاعَ fiilinin aslı بَيَعَ’dir; ي elife dönüşmüştür.",
+   "ac": [
+    "İlk harfi illetli olduğu için misâldir.",
+    "Doğru: aslı بَيَعَ; orta harf ي illet harfidir.",
+    "Son harfi illetli olduğu için nâkıstır.",
+    "Ayn ve lâm harfi aynı olduğu için muzâaftır.",
+    "İki illet harfi bulunduğu için lefîf mefrûktur."
+   ],
+   "kay": "Aksâm-ı seb‘a"
+  },
+  {
+   "id": "ar2-02",
+   "z": 3,
+   "s": "Aşağıdaki fiillerden hangisi sahih olduğu hâlde sâlim değildir?",
+   "c": [
+    "كَتَبَ",
+    "رَمَى",
+    "قَالَ",
+    "سَأَلَ",
+    "وَجَدَ"
+   ],
+   "d": 3,
+   "a": "Mehmûz ve muzâaf fiiller illet harfi taşımadığı için sahihtir. Ancak hemze ya da tekrar barındırdıkları için sâlim sayılmazlar.",
+   "ac": [
+    "Hemze, tekrar ve illet taşımaz; hem sahih hem sâlimdir.",
+    "Son harfi illetli olduğu için sahih değildir.",
+    "Orta harfi illetli olduğu için sahih değildir.",
+    "Doğru: illet harfi yoktur (sahih) ama hemzelidir (mehmûz), bu yüzden sâlim değildir.",
+    "İlk harfi illetli olduğu için sahih değildir."
+   ],
+   "kay": "Sahih – sâlim ayrımı"
+  },
+  {
+   "id": "ar2-03",
+   "z": 3,
+   "s": "دَعَا fiili ile ilgili:\nI. Aslı دَعَوَ olup nâkıs fiildir.\nII. Emri اُدْعُ şeklindedir.\nIII. Mâzî meçhulü دُعِيَ şeklindedir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "دَعَا nâkıs fiildir (aslı دَعَوَ). Emirde son harf düşer: اُدْعُ. Mâzî meçhulde son harf ي olur: دُعِيَ.",
+   "ac": [
+    "Eksik: emir ve meçhul kalıpları da doğrudur.",
+    "Eksik: meçhul دُعِيَ de doğrudur.",
+    "Eksik: emir اُدْعُ de doğrudur.",
+    "Eksik: fiil nâkıstır ve aslı دَعَوَ’dir.",
+    "Doğru: üç bilgi de nâkıs fiilin çekimine uygundur."
+   ],
+   "kay": "Nâkıs fiil çekimi"
+  },
+  {
+   "id": "ar2-04",
+   "z": 2,
+   "s": "يَعِدُ kelimesinin vezni aşağıdakilerden hangisidir?",
+   "c": [
+    "يَعِلُ",
+    "يَفْعِلُ",
+    "يَفْعُلُ",
+    "تَفْعِلُ",
+    "يَفِلُ"
+   ],
+   "d": 0,
+   "a": "وَعَدَ fiili misâldir ve daraba bâbındandır. Muzâride ilk harf vav düşer: يَعِدُ. Vezin de buna göre يَعِلُ olur.",
+   "ac": [
+    "Doğru: fâ’ul-fiil olan vav düştüğü için vezinde de düşer.",
+    "Vezin kelimede bulunmayan fâ harfini gösteriyor; vav düşmüştür.",
+    "Hem harf düşmesi hem hareke yanlış gösterilmiştir.",
+    "Muzâraat harfi ي’dir, ت değil.",
+    "Düşen harf ayn değil, fâ harfidir."
+   ],
+   "kay": "Misâl fiil"
+  },
+  {
+   "id": "ar2-05",
+   "z": 3,
+   "s": "Aşağıdaki çekim satırlarından hangisinde bir yanlışlık yapılmıştır?",
+   "c": [
+    "نَصَرَ، نَصَرَا، نَصَرُوا",
+    "نَصَرَتْ، نَصَرَتَا، نَصَرْنَ",
+    "تَنْصُرُ، تَنْصُرَانِ، تَنْصُرُونَ",
+    "تَنْصُرِينَ، تَنْصُرَانِ، تَنْصُرُونَ",
+    "أَنْصُرُ، نَنْصُرُ"
+   ],
+   "d": 3,
+   "a": "Muhâtaba müennes muzâri çekimi: تَنْصُرِينَ، تَنْصُرَانِ، تَنْصُرْنَ. Satırdaki son kalıp müzekkere aittir.",
+   "ac": [
+    "Gâib müzekker tekil, tesniye ve çoğul doğrudur.",
+    "Gâibe müennes tekil, tesniye ve çoğul doğrudur.",
+    "Muhâtab müzekker muzâri doğrudur.",
+    "Doğru cevap: muhâtaba müennes çoğulu تَنْصُرْنَ olmalıdır; تَنْصُرُونَ müzekker çoğuldur.",
+    "Mütekellim tekil ve çoğul doğrudur."
+   ],
+   "kay": "Muzâri çekimi"
+  },
+  {
+   "id": "ar2-06",
+   "z": 2,
+   "s": "لَمْ يَقُلْ ifadesinde يَقُولُ fiilindeki vavın düşmesinin sebebi aşağıdakilerden hangisidir?",
+   "c": [
+    "Vavın ibdâl yoluyla elife dönmesi",
+    "İki sâkinin yan yana gelmesi",
+    "Fiilin meçhul yapılması",
+    "İdgam yapılması",
+    "Muzâraat harfinin atılması"
+   ],
+   "d": 1,
+   "a": "لَمْ muzâriyi cezmeder. يَقُولْ’de ل ile و sâkin kalır. İki sâkin yan yana gelince illet harfi düşer: لَمْ يَقُلْ.",
+   "ac": [
+    "Burada dönüşüm değil, düşme vardır.",
+    "Doğru: cezm ile ل sâkinleşir; sâkin vavla birleşince vav düşer.",
+    "Fiil malûmdur; لَمْ yalnız cezm eder.",
+    "İdgam aynı ya da yakın harfler arasında olur.",
+    "Muzâraat harfi (ي) yerinde durmaktadır."
+   ],
+   "kay": "İ‘lâl: hazf"
+  },
+  {
+   "id": "ar2-07",
+   "z": 3,
+   "s": "Aşağıdakilerden hangisi قَالَ fiilinin meçhul çekimini doğru göstermektedir?",
+   "c": [
+    "قُوِلَ – يُقْوَلُ",
+    "قُلْتَ – يَقُولُ",
+    "قِيلَ – يُقَالُ",
+    "قُيِلَ – يُقِيلُ",
+    "قَوْلٌ – مَقُولٌ"
+   ],
+   "d": 2,
+   "a": "Ecvef fiillerde mâzî meçhul قِيلَ, muzâri meçhul يُقَالُ şeklindedir. Kur’an’da وَإِذَا قِيلَ لَهُمْ kalıbı çok geçer.",
+   "ac": [
+    "Bunlar asıl kalıplardır; i‘lâl sonrası söyleyiş farklıdır.",
+    "Birincisi malûm mâzînin muhâtabı, ikincisi malûm muzâridir.",
+    "Doğru: ecvefin meçhulünde mâzîde ي, muzâride ا olur.",
+    "Bu kalıplar Arapçada kullanılmaz.",
+    "Bunlar mastar ve ism-i mef‘ûldür."
+   ],
+   "kay": "Ecvefin meçhulü"
+  },
+  {
+   "id": "ar2-08",
+   "z": 3,
+   "s": "الْمَغْضُوبِ عَلَيْهِمْ (Fâtiha, 1/7) ifadesi ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "غَضِبَ müteaddî olduğu için doğrudan meçhul yapılmıştır.",
+    "Kelime mastardır.",
+    "Kelime ism-i fâil kalıbındadır.",
+    "Kelime mezîd bir fiilden türemiştir.",
+    "Lâzım bir fiil, harf-i cerle birlikte kullanıldığı için ism-i mef‘ûl kalıbına girebilmiştir."
+   ],
+   "d": 4,
+   "a": "Lâzım fiiller kendi başına meçhul yapılmaz. Harf-i cerle kullanıldıklarında meçhul ve ism-i mef‘ûl kalıbı mümkün olur: غُضِبَ عَلَيْهِ، مَغْضُوبٌ عَلَيْهِ.",
+   "ac": [
+    "غَضِبَ lâzımdır; doğrudan mef‘ûl almaz.",
+    "غَضَبٌ mastardır; مَغْضُوبٌ ise ism-i mef‘ûldür.",
+    "Kalıp مَفْعُولٌ’dür, ism-i fâil فَاعِلٌ olurdu.",
+    "غَضِبَ sülâsî mücerreddir (semi‘a bâbı).",
+    "Doğru: عَلَيْهِمْ ism-i mef‘ûlün nâib-i fâili gibi işlev görür."
+   ],
+   "kay": "Fâtiha, 1/7"
+  },
+  {
+   "id": "ar2-09",
+   "z": 2,
+   "s": "وَقَى (korudu) fiilinin muhâtab tekil emri aşağıdakilerden hangisidir?",
+   "c": [
+    "قِ",
+    "اِوْقِ",
+    "وَقِّ",
+    "قِي",
+    "اِقْ"
+   ],
+   "d": 0,
+   "a": "وَقَى lefîf mefrûktur. Muzârisi يَقِي, emri قِ’dir. Bakara 2/201’deki قِنَا “bizi koru” buna örnektir.",
+   "ac": [
+    "Doğru: lefîf mefrûkta baştaki vav ve sondaki ye düşer.",
+    "Vasıl hemzesine gerek kalmaz; ilk vav düşer.",
+    "Bu kalıp şeddeli olup tef‘îl bâbına aittir.",
+    "Emirde son illet harfi düşer; uzatma yoktur.",
+    "Bu kalıpta hem hemze hem hareke yanlıştır."
+   ],
+   "kay": "Lefîf mefrûk"
+  },
+  {
+   "id": "ar2-10",
+   "z": 3,
+   "s": "Aşağıdaki kelimelerin hangisinde i‘lâl yoktur?",
+   "c": [
+    "قَالَ",
+    "يَعِدُ",
+    "مَدَدْتُ",
+    "دَعَا",
+    "قُلْ"
+   ],
+   "d": 2,
+   "a": "İ‘lâl yalnız illet harflerinde olur. مَدَدْتُ kelimesinde ikinci harf sâkin olduğu için idgam çözülmüştür. Bu i‘lâl değildir.",
+   "ac": [
+    "Aslı قَوَلَ; vav elife dönmüştür.",
+    "Aslı يَوْعِدُ; vav düşmüştür.",
+    "Doğru: burada illet harfi yoktur; muzâafta idgamın çözülmesi (fekk) vardır.",
+    "Aslı دَعَوَ; vav elife dönmüştür.",
+    "Aslı قُولْ; vav düşmüştür."
+   ],
+   "kay": "İ‘lâl ve idgam"
+  },
+  {
+   "id": "ar2-11",
+   "z": 2,
+   "s": "لَنْ يَذْهَبَ ve لَمْ يَذْهَبْ ifadeleri karşılaştırıldığında hangisi doğrudur?",
+   "c": [
+    "لَنْ gelecek zamanı olumsuz yapar, لَمْ ise anlamı olumsuz geçmişe çevirir.",
+    "İkisi de muzâriyi cezmeder.",
+    "İkisi de anlamı geçmişe çevirir.",
+    "لَمْ muzâriyi nasb eder.",
+    "İkisi de mâzî fiile gelir."
+   ],
+   "d": 0,
+   "a": "لَنْ muzâriyi nasbeder ve geleceği olumsuz yapar. لَمْ ise muzâriyi cezmeder ve anlamı olumsuz mâzîye çevirir.",
+   "ac": [
+    "Doğru: “asla gitmeyecek” ve “gitmedi”.",
+    "لَنْ nasb eder; yalnız لَمْ cezm eder.",
+    "لَنْ geleceğe yöneliktir.",
+    "لَمْ cezm edatıdır.",
+    "İkisi de yalnız muzâriye gelir."
+   ],
+   "kay": "Nasb ve cezm edatları"
+  },
+  {
+   "id": "ar2-12",
+   "z": 3,
+   "s": "Kökünde iki illet harfi bitişik olarak bulunan fiil aşağıdakilerden hangisidir?",
+   "c": [
+    "وَقَى",
+    "رَمَى",
+    "وَعَدَ",
+    "طَوَى",
+    "قَرَأَ"
+   ],
+   "d": 3,
+   "a": "İki illet harfi yan yana bulunursa lefîf makrûn (طَوَى، رَوَى), arada sahih harf bulunursa lefîf mefrûk olur (وَقَى، وَفَى).",
+   "ac": [
+    "İlleti harfler ayrıdır (و…ي); lefîf mefrûktur.",
+    "Yalnız son harfi illetlidir; nâkıstır.",
+    "Yalnız ilk harfi illetlidir; misâldir.",
+    "Doğru: و ve ي yan yanadır; lefîf makrûndur.",
+    "İllet harfi yoktur; lâm mehmûzudur."
+   ],
+   "kay": "Lefîf"
+  },
+  {
+   "id": "ar2-13",
+   "z": 3,
+   "s": "اُنْصُرْ ve اِضْرِبْ emirlerinde vasıl hemzesinin farklı harekelenmesinin sebebi aşağıdakilerden hangisidir?",
+   "c": [
+    "Fiillerin aksâm-ı seb‘adaki yerinin farklı olması",
+    "Fiillerin farklı siygada olması",
+    "Birinin malûm, diğerinin meçhul olması",
+    "Birinin mezîd, diğerinin mücerred olması",
+    "Muzâride ayn’ul-fiilin harekesinin farklı olması"
+   ],
+   "d": 4,
+   "a": "Vasıl hemzesi, muzâride ayn harfi ötreliyse ötreli, üstün ya da esreliyse esreli okunur: اُنْصُرْ، اِفْتَحْ، اِضْرِبْ.",
+   "ac": [
+    "İkisi de sâlimdir.",
+    "İkisi de muhâtab tekil emirdir.",
+    "İkisi de malûm emirdir.",
+    "İkisi de mücerreddir.",
+    "Doğru: يَنْصُرُ ötreli olduğu için hemze ötreli, يَضْرِبُ esreli olduğu için esrelidir."
+   ],
+   "kay": "Emir-i hâzır"
+  },
+  {
+   "id": "ar2-14",
+   "z": 2,
+   "s": "يُنْزَلُ kelimesi hakkında aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Malûm muzâridir, sülâsî mücerreddir.",
+    "Meçhul muzâridir, if‘âl bâbındandır.",
+    "Meçhul mâzîdir.",
+    "Emir fiildir.",
+    "İsm-i mef‘ûldür."
+   ],
+   "d": 1,
+   "a": "Muzâri meçhulde muzâraat harfi ötreli, son harften önceki harf üstünlüdür. يُنْزَلُ, أَنْزَلَ fiilinin meçhul muzârisidir.",
+   "ac": [
+    "Son harften önceki harf üstünlüdür; bu meçhul alametidir.",
+    "Doğru: malûmu يُنْزِلُ (أَنْزَلَ), meçhulü يُنْزَلُ.",
+    "Muzâraat harfi taşıdığı için muzâridir.",
+    "Emirde muzâraat harfi bulunmaz.",
+    "İsm-i mef‘ûl مُنْزَلٌ olurdu."
+   ],
+   "kay": "Malûm – meçhul"
+  },
+  {
+   "id": "ar2-15",
+   "z": 3,
+   "s": "Muzâri fiille ilgili:\nI. Başına لَنْ gelirse mansûb olur.\nII. Başına لَمْ gelirse meçhul olur.\nIII. Başına لَا-i nâhiye gelirse meczûm olur.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Nasb edatları أَنْ، لَنْ، كَيْ، إِذَنْ; cezm edatları لَمْ، لَمَّا، lâm-ı emr ve lâ-i nâhiyedir. Meçhul, harekelerin değişmesiyle yapılır.",
+   "ac": [
+    "Eksik: lâ-i nâhiye de muzâriyi cezmeder.",
+    "Eksik: لَنْ nasb edatıdır.",
+    "Doğru: لَنْ nasbeder, lâ-i nâhiye cezmeder; لَمْ ise cezm eder, meçhul yapmaz.",
+    "لَمْ fiili meçhul yapmaz, yalnız cezmeder ve anlamı geçmişe çevirir.",
+    "İkinci ifade yanlıştır."
+   ],
+   "kay": "Nasb ve cezm edatları"
+  }
+ ]
+}

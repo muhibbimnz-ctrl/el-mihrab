@@ -1,0 +1,601 @@
+{
+ "id": "hadis-7",
+ "ad": "Hadis Tarihi 1: Hz. Peygamber ve Sahabe Döneminde Hadis (Yazım Yasağı ve İzni, Sahifeler, Rivayette Titizlik, Rıhle); Uydurma Hadisler: Sebepleri, Alametleri ve Mevzûât Kitapları",
+ "ders": "Hadis",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Hz. Peygamber döneminde hadis: Yaz mı, yazma mı?"
+  },
+  {
+   "merak": "Bir hadiste Hz. Peygamber “Benden Kur’an dışında bir şey yazmayın; kim yazdıysa silsin” buyurur. Başka bir hadiste ise Abdullah b. Amr’a “Yaz! Nefsim elinde olana yemin ederim ki ağzımdan haktan başka bir şey çıkmaz” der. Hangisi doğru? İkisi de sahihse nasıl bağdaşır?"
+  },
+  "Hz. Peygamber döneminde hadisler ağırlıklı olarak ezberlenerek ve uygulanarak aktarılıyordu. Araplar güçlü bir hafıza kültürüne sahipti; sahabe Hz. Peygamber’in sözlerini ezberliyor, fiillerini görüp aynen uyguluyordu. Bununla birlikte, hadislerin yazılması konusunda iki tür rivayet vardır: Ebû Saîd el-Hudrî’den gelen ve Müslim’de yer alan yasak rivayeti ile Abdullah b. Amr, Ebû Hüreyre ve Rafi’ b. Hadîc gibi sahabilerden gelen izin rivayetleri.",
+  {
+   "tablo": [
+    [
+     "Yasak ve izin rivayetlerini uzlaştırma görüşleri",
+     "Açıklama"
+    ],
+    [
+     "Nesih görüşü",
+     "Yasak ilk dönemde Kur’an ile karışma endişesiyle konmuş, Kur’an yerleşince izinle kaldırılmıştır (çoğunluk)"
+    ],
+    [
+     "Aynı sayfada yazma yasağı",
+     "Yasak, hadisin Kur’an ile aynı sayfaya yazılmasıyla ilgilidir"
+    ],
+    [
+     "Kişiye göre ayrım",
+     "Yazısı iyi olup karıştırmayacak kişilere izin, diğerlerine yasak"
+    ],
+    [
+     "Ezberin zayıflaması endişesi",
+     "Hafızaya güvenip yazıya bağımlı olmama amacı"
+    ]
+   ]
+  },
+  "Hz. Peygamber döneminde bazı resmî belgeler de yazıya geçirilmiştir: Medine Vesikası, Hudeybiye Antlaşması, hükümdarlara gönderilen mektuplar, zekât miktarlarını gösteren yazılar (Kitâbü’s-sadaka) ve Amr b. Hazm’a Yemen’e giderken verilen ve farzlar, diyetler, sadakalarla ilgili hükümleri içeren mektup bunlardandır. Ayrıca bazı sahabiler kendi sahifelerini tutmuştur.",
+  {
+   "tablo": [
+    [
+     "Sahife",
+     "Sahibi",
+     "Not"
+    ],
+    [
+     "es-Sahîfetü’s-sâdıka",
+     "Abdullah b. Amr b. Âs",
+     "Hz. Peygamber’in izniyle yazdığı; Ebû Hüreyre: “Benden daha çok hadis bilen yalnız Abdullah b. Amr’dır, çünkü o yazardı, ben yazmazdım”"
+    ],
+    [
+     "Sahîfetü Ali",
+     "Hz. Ali",
+     "Diyetler, esirlerin kurtarılması, Medine’nin haremi; kılıcının kınında taşıdığı rivayet edilir"
+    ],
+    [
+     "Sahîfetü Câbir b. Abdullah",
+     "Câbir",
+     "Hac menasiki"
+    ],
+    [
+     "Sahîfetü Semüre b. Cündeb",
+     "Semüre",
+     "Oğullarına bıraktığı hadisler"
+    ],
+    [
+     "es-Sahîfetü’s-sahîha",
+     "Hemmâm b. Münebbih (tâbiî)",
+     "Ebû Hüreyre’den aldığı 138 hadis; günümüze ulaşan en eski hadis metinlerinden; Muhammed Hamîdullah yayımladı"
+    ]
+   ]
+  },
+  {
+   "sinav": "Sahife-sahabi eşleştirmesi ve Ebû Hüreyre’nin Abdullah b. Amr hakkındaki sözü çok sık sorulur. Tuzak: Hemmâm b. Münebbih sahabi değil tâbiîdir; sahifesini Ebû Hüreyre’den yazmıştır. Medine Vesikası, Hudeybiye metni ve mektuplar “Hz. Peygamber döneminde yazılan metinler” arasında sayılır."
+  },
+  {
+   "akil": "Yasak (Ebû Saîd) + izin (Abdullah b. Amr) → çoğunluk: yasak ilk dönemde, sonra izin. Sahifeler: Sâdıka (Abdullah b. Amr), Ali, Câbir, Semüre; Sahîha (Hemmâm – tâbiî – Ebû Hüreyre’den)."
+  },
+  {
+   "b": "2. Sahabe döneminde hadis: Az rivayet, çok titizlik"
+  },
+  {
+   "merak": "Hz. Ebû Bekir’e bir nine gelip torununun mirasından pay ister. Halife “Allah’ın kitabında sana bir pay görmüyorum” der ve sahabeye sorar. Muğîre b. Şu’be “Hz. Peygamber’in nineye altıda bir verdiğine şahit oldum” der. Ebû Bekir sorar: “Seninle beraber başka kim var?” Muhammed b. Mesleme de şahitlik edince hüküm verir."
+  },
+  "Sahabe, Hz. Peygamber adına yalan söyleme tehlikesine karşı son derece dikkatliydi. “Kim benim adıma bilerek yalan söylerse cehennemdeki yerine hazırlansın” hadisi mütevâtirdir. Bu yüzden özellikle ilk iki halife döneminde hadis rivayetinde az rivayet (kıllet-i rivayet) ve sağlamlaştırma (teseddüd/tesebbüt) politikası izlendi. Hz. Ebû Bekir ninenin mirası meselesinde ikinci bir şahit istedi; Hz. Ömer Ebû Mûsâ el-Eş’arî’den izin isteme (istîzân) hadisi için şahit istedi. Hz. Ali ise rivayet edene yemin ettirirdi.",
+  {
+   "tablo": [
+    [
+     "Sahabenin rivayet tedbiri",
+     "Örnek"
+    ],
+    [
+     "Az rivayet (kıllet-i rivayet)",
+     "Hz. Ömer’in sahabeyi çok hadis rivayet etmekten sakındırması; dikkatin Kur’an’a yönelmesi"
+    ],
+    [
+     "Şahit isteme",
+     "Ebû Bekir – Muğîre (nine mirası); Ömer – Ebû Mûsâ (üç kez izin isteme)"
+    ],
+    [
+     "Yemin ettirme",
+     "Hz. Ali"
+    ],
+    [
+     "Metni Kur’an’a ve bilinen sünnete arz",
+     "Hz. Âişe’nin “Ölü, ailesinin ağlaması yüzünden azap görür” rivayetini “Hiç kimse başkasının günahını yüklenmez” ayetiyle değerlendirmesi"
+    ],
+    [
+     "Rıhle (ilim yolculuğu)",
+     "Câbir b. Abdullah’ın tek bir hadis için Şam’a, Abdullah b. Üneys’e bir aylık yolculuğu"
+    ]
+   ]
+  },
+  "Hz. Âişe’nin bazı sahabilerin rivayetlerini Kur’an’a ve kendi bilgisine arz ederek düzeltmesi (istidrâk), hadis tenkidinde metin tenkidinin ilk örnekleri sayılır. Zerkeşî bu düzeltmeleri el-İcâbe li-îrâdi mâ istedrakethü Âişe ale’s-sahâbe adlı eserinde toplamıştır. Rıhle ise, bir hadisi bizzat ilk kaynağından işitmek için yapılan yolculuktur; Câbir b. Abdullah’ın Abdullah b. Üneys’ten bir hadisi işitmek için Şam’a bir aylık yolculuğu bunun meşhur örneğidir. Rıhle, sonraki asırlarda hadis öğreniminin temel unsurlarından biri oldu.",
+  {
+   "sinav": "“Kıllet-i rivayet” ve “teseddüd” kavramları, Ebû Bekir-Muğîre ve Ömer-Ebû Mûsâ olayları, Hz. Âişe’nin istidrâkleri ve Câbir’in rıhlesi sorulur. Muksirûn (en çok rivayet eden yedi sahabi) da sık gelir: Ebû Hüreyre, İbn Ömer, Enes, Âişe, İbn Abbâs, Câbir, Ebû Saîd el-Hudrî."
+  },
+  {
+   "akil": "Sahabe tedbirleri: az rivayet, şahit, yemin, Kur’an’a arz (Âişe’nin istidrâkleri), rıhle (Câbir → Şam). Muksirûn: Ebû Hüreyre, İbn Ömer, Enes, Âişe, İbn Abbâs, Câbir, Ebû Saîd."
+  },
+  "Sahabe arasında hadis rivayetinin miktarı da farklıydı. Hz. Peygamber’le uzun süre birlikte bulunan, genç yaşta Müslüman olup uzun yaşayan ve ilim öğretmeyi görev edinen sahabiler daha çok rivayette bulunmuştur. Ebû Hüreyre yaklaşık beş bin hadis rivayetiyle muksirûnun başındadır; Hz. Peygamber’in yanında geçirdiği dört yılı ilme ayırmış, Suffe ehlinden olmuştur. Hz. Âişe ise hem rivayet hem de fıkıh ve tenkit yönüyle öne çıkar.",
+  {
+   "b": "3. Uydurma hadis (mevzû): Nasıl ve neden?"
+  },
+  {
+   "merak": "Bir vaiz, cemaati ağlatmak için uzun bir hikâye anlatır ve sonunda “Peygamberimiz böyle buyurdu” der. Cemaatten bir âlim kalkar: “Bu sözün isnadı nedir?” Vaiz cevap veremez. İslam tarihinde uydurma hadislerin önemli bir kısmı, iyi niyetle ama bilgisizce davranan kıssacıların eseridir."
+  },
+  "Mevzû (uydurma) hadis, Hz. Peygamber’e ait olmadığı hâlde ona nispet edilen sözdür. Uydurmacılığın başlangıcı genellikle Hz. Osman’ın şehadeti ve ardından yaşanan siyasi bölünmelerle (fitne) ilişkilendirilir. İbn Sîrîn’in sözü bu dönemi anlatır: “Önceleri isnad sorulmazdı; fitne çıkınca ‘Râvilerinizin adını verin’ dendi. Ehl-i sünnetten olanların hadisi alındı, bid’at ehlinin hadisi alınmadı.”",
+  {
+   "tablo": [
+    [
+     "Uydurmacılığın sebebi",
+     "Örnek / açıklama"
+    ],
+    [
+     "Siyasi ayrılıklar",
+     "Hz. Ali, Muâviye, Abbâsîler lehine ve aleyhine uydurulan rivayetler"
+    ],
+    [
+     "Mezhep ve fırka taassubu",
+     "Kelamî ve fıkhî mezhepleri destekleyen ya da karşıtlarını kötüleyen rivayetler"
+    ],
+    [
+     "Zındıklar ve İslam düşmanları",
+     "Dini içten bozmak amacı; Abdülkerîm b. Ebü’l-Avcâ binlerce hadis uydurduğunu itiraf etmiştir"
+    ],
+    [
+     "Kıssacılar (kussâs) ve vaizler",
+     "Halkı etkilemek, ağlatmak, para kazanmak"
+    ],
+    [
+     "İyi niyetli ama cahil zahidler",
+     "Kur’an okumayı ve ibadeti teşvik amacı (sure faziletleri; Ebû İsme Nûh b. Ebû Meryem)"
+    ],
+    [
+     "Kavim, dil ve şehir taassubu",
+     "Bir ırkı, dili ya da şehri övmek"
+    ],
+    [
+     "Yöneticilere yaranma",
+     "Gıyâs b. İbrâhim’in güvercin yarışı hadisine “kanat” ekleyip halife Mehdî’ye yaranması"
+    ]
+   ]
+  },
+  "Hadis âlimleri, bir rivayetin uydurma olduğunu gösteren karineleri senet ve metin açısından belirlemiştir. Senetle ilgili alametler: Uydurmacının bunu itiraf etmesi, râvinin hocasıyla görüşmesinin tarihen imkânsız olması, yalancılığıyla tanınan bir râvinin tek başına rivayet etmesi. Metinle ilgili alametler: Kur’an’a, mütevâtir sünnete, icmâya, akla, tarihî gerçeğe ve duyuya açıkça aykırılık; küçük bir amele aşırı büyük sevap ya da küçük bir kusura aşırı ağır ceza vaat edilmesi; ifadenin rekâketi (Peygamber üslubuna yakışmayan bayağılık); râvinin kendi mezhebini destekleyen ve sadece onun rivayet ettiği bir haber olması.",
+  {
+   "tablo": [
+    [
+     "Mevzûât kitabı",
+     "Müellif"
+    ],
+    [
+     "el-Mevzûât",
+     "İbnü’l-Cevzî (ö. 597) – hükümlerinde aşırı davrandığı eleştirilmiştir"
+    ],
+    [
+     "el-Leâli’l-masnûa",
+     "Süyûtî (İbnü’l-Cevzî’nin kitabının özeti ve eleştirisi)"
+    ],
+    [
+     "el-Fevâidü’l-mecmûa",
+     "Şevkânî"
+    ],
+    [
+     "el-Mesnû‘",
+     "Aliyyü’l-Kārî"
+    ],
+    [
+     "el-Menârü’l-münîf",
+     "İbn Kayyim el-Cevziyye (metin tenkidi ölçütleri)"
+    ],
+    [
+     "Keşfü’l-hafâ",
+     "Aclûnî (halk arasında yaygın sözler)"
+    ]
+   ]
+  },
+  {
+   "sinav": "Uydurmanın sebeplerinden biri verilip örnek istenir ya da “Hangisi uydurma alameti değildir?” diye sorulur. Doğru olmayan şık genellikle “râvinin az hadis rivayet etmesi”, “hadisin tek bir sahabiden gelmesi” (garîb) ya da “metnin kısa olması” gibi tek başına uydurmalık göstermeyen durumlardır. İbnü’l-Cevzî’nin el-Mevzûât’ı ve aşırılığı sık sorulur."
+  },
+  {
+   "akil": "Mevzû başlangıcı: fitne (Hz. Osman sonrası), İbn Sîrîn’in isnad sözü. Sebepler: siyaset, mezhep, zındık, kıssacı, cahil zahid, taassup, yaranma. Alametler: itiraf, tarihî imkânsızlık, Kur’an-akıl-tarihe aykırılık, aşırı sevap/ceza, rekâket. Kitaplar: İbnü’l-Cevzî, Süyûtî, Aliyyü’l-Kārî, Şevkânî, İbn Kayyim, Aclûnî."
+  }
+ ],
+ "ozet": [
+  "Hz. Peygamber döneminde hadisler ağırlıklı olarak ezberleme ve uygulama yoluyla aktarılmıştır.",
+  "Hadis yazımıyla ilgili yasak (Ebû Saîd) ve izin (Abdullah b. Amr) rivayetleri vardır; çoğunluğa göre yasak ilk dönemde Kur’an’la karışma endişesiyle konmuş, sonra kaldırılmıştır.",
+  "Medine Vesikası, Hudeybiye metni, mektuplar ve Amr b. Hazm’a verilen mektup Hz. Peygamber döneminde yazılan metinlerdendir.",
+  "es-Sahîfetü’s-sâdıka Abdullah b. Amr b. Âs’a aittir.",
+  "Ebû Hüreyre, Abdullah b. Amr’ın yazdığı için kendisinden çok hadis bildiğini söylemiştir.",
+  "es-Sahîfetü’s-sahîha, tâbiî Hemmâm b. Münebbih’in Ebû Hüreyre’den yazdığı ve günümüze ulaşan en eski hadis metinlerindendir.",
+  "Sahabe hadis rivayetinde az rivayet ve sağlamlaştırma (teseddüd) politikası izlemiştir.",
+  "Ebû Bekir nine mirasında, Ömer istîzân hadisinde şahit istemiştir; Hz. Ali yemin ettirmiştir.",
+  "Hz. Âişe’nin rivayetleri Kur’an’a arz ederek düzeltmesi metin tenkidinin ilk örneklerindendir.",
+  "Rıhle, bir hadisi ilk kaynağından işitmek için yapılan yolculuktur; Câbir’in Şam yolculuğu meşhurdur.",
+  "En çok rivayet eden yedi sahabi (muksirûn): Ebû Hüreyre, İbn Ömer, Enes, Âişe, İbn Abbâs, Câbir, Ebû Saîd el-Hudrî.",
+  "Uydurmacılık fitne döneminden sonra yaygınlaşmış; isnad sorma bu yüzden başlamıştır (İbn Sîrîn).",
+  "Uydurmanın sebepleri arasında siyaset, mezhep taassubu, zındıklar, kıssacılar, iyi niyetli cahiller ve yöneticilere yaranma vardır.",
+  "Mevzûât kitapları: İbnü’l-Cevzî – el-Mevzûât, Süyûtî – el-Leâli’l-masnûa, Aliyyü’l-Kārî, Şevkânî, İbn Kayyim – el-Menârü’l-münîf."
+ ],
+ "kartlar": [
+  {
+   "o": "Yazım yasağı rivayeti",
+   "a": "Ebû Saîd el-Hudrî; Müslim; “Benden Kur’an dışında bir şey yazmayın.”"
+  },
+  {
+   "o": "es-Sahîfetü’s-sâdıka",
+   "a": "Abdullah b. Amr b. Âs; Peygamber’in izniyle yazdı."
+  },
+  {
+   "o": "es-Sahîfetü’s-sahîha",
+   "a": "Hemmâm b. Münebbih (tâbiî); Ebû Hüreyre’den 138 hadis."
+  },
+  {
+   "o": "Amr b. Hazm’ın mektubu",
+   "a": "Yemen’e giderken verilen; farzlar, diyetler, sadakalar."
+  },
+  {
+   "o": "Kıllet-i rivayet",
+   "a": "Sahabenin, özellikle Hz. Ömer’in az hadis rivayet etme politikası."
+  },
+  {
+   "o": "Ebû Bekir – Muğîre",
+   "a": "Nine mirası; ikinci şahit Muhammed b. Mesleme."
+  },
+  {
+   "o": "Ömer – Ebû Mûsâ",
+   "a": "İstîzân (üç kez izin isteme) hadisi için şahit istendi."
+  },
+  {
+   "o": "Hz. Âişe’nin istidrâkleri",
+   "a": "Sahabenin rivayetlerini Kur’an’a arz ederek düzeltmesi; Zerkeşî’nin eseri."
+  },
+  {
+   "o": "Rıhle",
+   "a": "Hadis için yolculuk; Câbir’in Abdullah b. Üneys’e Şam yolculuğu."
+  },
+  {
+   "o": "Muksirûn",
+   "a": "Ebû Hüreyre, İbn Ömer, Enes, Âişe, İbn Abbâs, Câbir, Ebû Saîd."
+  },
+  {
+   "o": "İbn Sîrîn’in isnad sözü",
+   "a": "Fitneden sonra “Râvilerinizin adını verin” dendi."
+  },
+  {
+   "o": "Gıyâs b. İbrâhim",
+   "a": "Halife Mehdî’ye yaranmak için hadise “kanat” ekleyen uydurmacı."
+  },
+  {
+   "o": "el-Mevzûât",
+   "a": "İbnü’l-Cevzî; hükümlerinde aşırılıkla eleştirilir."
+  },
+  {
+   "o": "el-Menârü’l-münîf",
+   "a": "İbn Kayyim; metin tenkidi ölçütleri."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "hd7-01",
+   "z": 3,
+   "s": "Hz. Peygamber’in hadis yazımını yasakladığına dair rivayet ile bazı sahabilere yazma izni verdiğine dair rivayetler arasındaki çelişki farklı şekillerde uzlaştırılmıştır.\n\nAşağıdakilerden hangisi bu uzlaştırma görüşlerinden biri değildir?",
+   "c": [
+    "İzin rivayetleri uydurmadır; hadis yazımı Hz. Peygamber döneminde hiç olmamıştır.",
+    "Yasak, hadisin Kur’an ile aynı sayfaya yazılmasıyla ilgilidir.",
+    "Yazısı iyi olup karıştırmayacak kişilere izin verilmiş, diğerleri sakındırılmıştır.",
+    "Yasak ilk dönemde Kur’an ile karışma endişesiyle konmuş, sonra kaldırılmıştır.",
+    "Yasak, hafızaya güvenip yazıya bağımlı olmama amacı taşır."
+   ],
+   "d": 0,
+   "a": "İzin rivayetleri sahihtir ve Hz. Peygamber döneminde yazılmış sahifeler ve belgeler vardır. Bu yüzden izin rivayetlerini uydurma saymak bir uzlaştırma görüşü değildir.",
+   "ac": [
+    "Doğru cevap; bu görüş tarihî verilere aykırıdır.",
+    "Uzlaştırma görüşlerinden biridir.",
+    "Uzlaştırma görüşlerinden biridir.",
+    "Çoğunluğun nesih görüşüdür.",
+    "Uzlaştırma görüşlerinden biridir."
+   ],
+   "kay": "Müslim, Zühd, 72; Ebû Dâvûd, İlim, 3"
+  },
+  {
+   "id": "hd7-02",
+   "z": 3,
+   "s": "Bir hadis talebesi şu notu almıştır: “Bu sahife bir tâbiînin, hocası olan sahabiden yazdığı 138 hadisi içerir. Günümüze ulaşan en eski hadis metinlerinden biridir ve Muhammed Hamîdullah tarafından yayımlanmıştır.”\n\nTalebenin sözünü ettiği sahife ve ilgili kişiler aşağıdakilerden hangisidir?",
+   "c": [
+    "es-Sahîfetü’s-sâdıka – Abdullah b. Amr – Hz. Peygamber",
+    "Sahîfetü Câbir – Câbir b. Abdullah – Hz. Peygamber",
+    "Sahîfetü Ali – Hz. Ali – Hz. Peygamber",
+    "es-Sahîfetü’s-sahîha – Hemmâm b. Münebbih – Ebû Hüreyre",
+    "Sahîfetü Semüre – Semüre b. Cündeb – Hz. Peygamber"
+   ],
+   "d": 3,
+   "a": "es-Sahîfetü’s-sahîha, tâbiî Hemmâm b. Münebbih’in Ebû Hüreyre’den yazdığı hadisleri içerir.",
+   "ac": [
+    "Abdullah b. Amr sahabidir ve sahifesini doğrudan Peygamber’den yazmıştır.",
+    "Câbir sahabidir.",
+    "Hz. Ali sahabidir.",
+    "Doğru.",
+    "Semüre sahabidir."
+   ],
+   "kay": "Hamîdullah, Sahîfe-i Hemmâm b. Münebbih"
+  },
+  {
+   "id": "hd7-03",
+   "z": 3,
+   "s": "I. Hz. Ebû Bekir’in nine mirası konusunda Muğîre b. Şu’be’den ikinci bir şahit istemesi\nII. Hz. Ömer’in sahabeyi çok hadis rivayet etmekten sakındırması\nIII. Hz. Âişe’nin bazı rivayetleri Kur’an’a arz ederek düzeltmesi\nIV. Câbir b. Abdullah’ın tek bir hadisi işitmek için Şam’a yolculuk etmesi\n\nYukarıdakilerden hangileri sahabenin hadis rivayetinde titizlik ve güvenilirliği sağlamaya yönelik tutumlarına örnektir?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 4,
+   "a": "Dört örnek de sahabenin hadisi doğru tespit etme ve aktarma konusundaki titizliğinin farklı yönlerini gösterir: şahit isteme, az rivayet, metni Kur’an’a arz ve rıhle.",
+   "ac": [
+    "Hz. Âişe’nin istidrâki ve rıhle de titizlik örnekleridir.",
+    "Rıhle de hadisi ilk kaynağından doğru almak için yapılır.",
+    "Şahit isteme de bu tutumun örneğidir.",
+    "Az rivayet politikası da bu tutumun örneğidir.",
+    "Doğru."
+   ],
+   "kay": "Zehebî, Tezkiretü’l-huffâz"
+  },
+  {
+   "id": "hd7-04",
+   "z": 2,
+   "s": "“Önceleri isnad sorulmazdı. Fitne çıkınca ‘Bize râvilerinizin adını verin’ denildi. Ehl-i sünnetten olanların hadisi alındı, bid’at ehlinin hadisi alınmadı.”\n\nBu söz aşağıdaki âlimlerden hangisine aittir ve neyi anlatır?",
+   "c": [
+    "Zührî – tedvinin başlangıcını",
+    "İbn Sîrîn – isnad sorgulamasının fitne sonrasında başladığını",
+    "Buhârî – sahih hadis şartlarını",
+    "Ahmed b. Hanbel – Müsned’in yazılış sebebini",
+    "Mâlik – Muvatta’ın tasnif yöntemini"
+   ],
+   "d": 1,
+   "a": "Muhammed b. Sîrîn’in bu sözü, fitne ve uydurmacılıkla birlikte râvilerin sorgulanmaya başlandığını anlatır.",
+   "ac": [
+    "Zührî tedvinle anılır, ama bu söz ona ait değildir.",
+    "Doğru.",
+    "Buhârî’nin sözü değildir.",
+    "Ahmed b. Hanbel’in sözü değildir.",
+    "Mâlik’in sözü değildir."
+   ],
+   "kay": "Müslim, Mukaddime, 5"
+  },
+  {
+   "id": "hd7-05",
+   "z": 3,
+   "s": "Bir râvi, halife Mehdî’nin güvercin yarıştırmayı sevdiğini bildiği için, “Yarış ancak ok, deve ve at yarışında olur” hadisine “ve kanatlıda” ifadesini eklemiştir. Halife ona hediye vermiş, ancak “Senin ensenin yalancı bir enseden başka bir şey olmadığına şahitlik ederim” demiştir.\n\nBu örnek, hadis uydurma sebeplerinden hangisini gösterir?",
+   "c": [
+    "Zındıkların dini bozma amacı",
+    "İyi niyetli zahidlerin ibadeti teşvik amacı",
+    "Mezhep taassubu",
+    "Yöneticilere yaranma isteği",
+    "Kavim ve dil taassubu"
+   ],
+   "d": 3,
+   "a": "Gıyâs b. İbrâhim’in bu uydurması, yöneticilere yaranma amacıyla hadis uydurmanın meşhur örneğidir.",
+   "ac": [
+    "Zındıklar dini bozmayı amaçlar; burada amaç halifeye yaranmaktır.",
+    "İbadeti teşvik amacı yoktur.",
+    "Bir mezhebi destekleme amacı yoktur.",
+    "Doğru.",
+    "Kavim taassubu söz konusu değildir."
+   ],
+   "kay": "İbnü’l-Cevzî, el-Mevzûât, mukaddime"
+  },
+  {
+   "id": "hd7-06",
+   "z": 3,
+   "s": "I. Rivayetin Kur’an’ın açık hükmüne ve mütevâtir sünnete aykırı olması\nII. Küçük bir amele akla ve dine aykırı ölçüde büyük sevap vaat edilmesi\nIII. Hadisin yalnızca bir sahabiden rivayet edilmiş olması\nIV. Râvinin, hadisi aldığını söylediği hocayla görüşmesinin tarihen imkânsız olması\nV. İfadenin Hz. Peygamber’in üslubuna yakışmayacak derecede bayağı olması\n\nYukarıdakilerden hangileri bir rivayetin uydurma olduğunu gösteren alametlerdendir?",
+   "c": [
+    "I, II ve III",
+    "I, II, IV ve V",
+    "II, III ve V",
+    "I, III, IV ve V",
+    "I, II, III, IV ve V"
+   ],
+   "d": 1,
+   "a": "Bir hadisin yalnız bir sahabiden gelmesi (garîb/âhâd olması) tek başına uydurma alameti değildir; sahih hadislerin çoğu âhâddır.",
+   "ac": [
+    "Üçüncü öncül uydurma alameti değildir.",
+    "Doğru.",
+    "Üçüncü öncül alamet değildir; birinci ve dördüncü öncül eksiktir.",
+    "Üçüncü öncül alamet değildir; ikinci öncül eksiktir.",
+    "Üçüncü öncül alamet değildir."
+   ],
+   "kay": "İbn Kayyim, el-Menârü’l-münîf"
+  },
+  {
+   "id": "hd7-07",
+   "z": 2,
+   "s": "En çok hadis rivayet eden yedi sahabi (muksirûn) arasında aşağıdakilerden hangisi yer almaz?",
+   "c": [
+    "Ebû Hüreyre",
+    "Abdullah b. Ömer",
+    "Enes b. Mâlik",
+    "Câbir b. Abdullah",
+    "Hz. Ebû Bekir"
+   ],
+   "d": 4,
+   "a": "Hz. Ebû Bekir, Peygamber’den kısa süre sonra vefat etmesi ve hilafet işleri gibi sebeplerle az hadis rivayet etmiştir; muksirûn arasında değildir.",
+   "ac": [
+    "Muksirûnun başındadır.",
+    "Muksirûndandır.",
+    "Muksirûndandır.",
+    "Muksirûndandır.",
+    "Doğru."
+   ],
+   "kay": "İbnü’l-Cevzî, Telkîhu fühûmi ehli’l-eser"
+  },
+  {
+   "id": "hd7-08",
+   "z": 3,
+   "s": "İbnü’l-Cevzî’nin el-Mevzûât adlı eseriyle ilgili aşağıdaki değerlendirmelerden hangisi doğrudur?",
+   "c": [
+    "Eserdeki her rivayetin uydurma olduğu bütün muhaddislerce kabul edilmiştir.",
+    "Eser sadece sahih hadisleri içerir.",
+    "Müellif bazı sahih ve hasen hadisleri de uydurma saydığı için aşırılıkla eleştirilmiş; Süyûtî el-Leâli’l-masnûa’da bu hükümleri gözden geçirmiştir.",
+    "Eser fıkıh usulü kitabıdır.",
+    "Eser yalnızca Buhârî’deki hadisleri tenkit eder."
+   ],
+   "d": 2,
+   "a": "İbnü’l-Cevzî mevzû hükmünde aşırı gittiği için eleştirilmiş; Süyûtî gibi âlimler eserini özetleyip hükümlerini düzeltmiştir.",
+   "ac": [
+    "Eserdeki bazı hükümler tartışılmıştır.",
+    "Eser uydurma rivayetleri toplar.",
+    "Doğru.",
+    "Eser mevzû hadis derlemesidir.",
+    "Eser Buhârî’yi tenkit etmez."
+   ],
+   "kay": "Süyûtî, el-Leâli’l-masnûa"
+  },
+  {
+   "id": "hd7-09",
+   "z": 3,
+   "s": "Hz. Âişe, “Ölü, ailesinin ağlaması sebebiyle azap görür” rivayetini duyunca, bu sözün Hz. Peygamber tarafından belirli bir Yahudi kadının ölümü üzerine söylendiğini, ayrıca “Hiçbir günahkâr başkasının günahını yüklenmez” ayetine aykırı anlaşıldığını belirtmiştir.\n\nHz. Âişe’nin bu tutumu hadis ilminde hangi yaklaşımın erken örneği sayılır?",
+   "c": [
+    "Metin tenkidi ve hadisi Kur’an’a arz",
+    "Senet tenkidi",
+    "Rıhle",
+    "Kitâbet",
+    "İcâzet"
+   ],
+   "d": 0,
+   "a": "Hz. Âişe’nin rivayetleri Kur’an’a ve bağlamına göre değerlendirmesi metin tenkidinin erken örneğidir.",
+   "ac": [
+    "Doğru.",
+    "Râvilerin güvenilirliğini değil, metni değerlendirmektedir.",
+    "Yolculuk söz konusu değildir.",
+    "Yazıyla rivayet söz konusu değildir.",
+    "İcâzet rivayet izni demektir."
+   ],
+   "kay": "Zerkeşî, el-İcâbe"
+  },
+  {
+   "id": "hd7-10",
+   "z": 2,
+   "s": "Hz. Peygamber’in Yemen’e gönderdiği bir sahabiye verdiği; farzlar, sadakalar ve diyetlerle ilgili hükümleri içeren mektup aşağıdakilerden hangisidir?",
+   "c": [
+    "Sahîfetü Câbir",
+    "Medine Vesikası",
+    "Hudeybiye Antlaşması",
+    "es-Sahîfetü’s-sâdıka",
+    "Amr b. Hazm’ın mektubu"
+   ],
+   "d": 4,
+   "a": "Amr b. Hazm’a Necran’a vali olarak gönderilirken verilen mektup; farzlar, sadakalar ve diyetlerle ilgili hükümler içerir.",
+   "ac": [
+    "Câbir’in hac menasikiyle ilgili sahifesidir.",
+    "Medine’deki topluluklar arasındaki ilişkileri düzenler.",
+    "Kureyş ile yapılan antlaşmadır.",
+    "Abdullah b. Amr’ın kişisel sahifesidir.",
+    "Doğru."
+   ],
+   "kay": "Nesâî, Kasâme, 47"
+  },
+  {
+   "id": "h2-17",
+   "z": 3,
+   "s": "Aşağıdakilerden hangisi bir rivayetin uydurma olduğunu gösteren işaretlerden biri değildir?",
+   "c": [
+    "Akla ve duyulara açıkça aykırı bir şey bildirmesi",
+    "Küçük bir amele akıl almaz büyüklükte sevap vaat etmesi",
+    "Kur’an’ın açık bir hükmüne ters düşmesi",
+    "Râvinin hadisi “haddesenâ” ifadesiyle nakletmesi",
+    "Hz. Peygamber’in üslubuna yakışmayan bayağı ifadeler içermesi"
+   ],
+   "d": 3,
+   "a": "“Haddesenâ” hadisin hocadan dinlendiğini gösteren olağan bir edâ ifadesidir; uydurma işareti değildir. Diğerleri metin tenkidinde uydurma rivayetleri ayırt etmek için kullanılan işaretlerdir.",
+   "ac": [
+    "Akla ve duyuya aykırılık uydurma işaretidir.",
+    "Ölçüsüz sevap vaadi kıssacıların uydurmalarında sık görülür.",
+    "Kur’an’ın açık hükmüne aykırılık uydurma işaretidir.",
+    "Doğru: bu bir edâ ifadesidir, kusur değildir.",
+    "Rekâket (bayağı üslup) uydurma işaretidir."
+   ],
+   "kay": "İbnü’l-Cevzî, el-Mevzûât; İbn Kayyim, el-Menârü’l-münîf"
+  },
+  {
+   "id": "h3-05",
+   "z": 2,
+   "s": "Hz. Peygamber’in sağlığında yazdığı hadisleri bir sahifede toplayan ve bu sahifeye es-Sahîfetü’s-Sâdıka adını veren sahabi aşağıdakilerden hangisidir?",
+   "c": [
+    "Ebû Hüreyre",
+    "Abdullah b. Amr b. el-Âs",
+    "Enes b. Mâlik",
+    "Zeyd b. Sâbit",
+    "Abdullah b. Mes’ûd"
+   ],
+   "d": 1,
+   "a": "es-Sahîfetü’s-Sâdıka, Hz. Peygamber’in izniyle hadis yazan Abdullah b. Amr b. el-Âs’a aittir.",
+   "ac": [
+    "Ebû Hüreyre kendisinin yazmadığını söylemiştir (Buhârî, İlim, 39).",
+    "Doğru: Sâdıka sahifesi Abdullah b. Amr’ındır.",
+    "Enes b. Mâlik muksirûndandır ama Sâdıka onun değildir.",
+    "Zeyd b. Sâbit vahiy kâtibi ve Kur’an’ın cem’inde görevlidir.",
+    "İbn Mes’ûd Kûfe’de ders veren büyük sahabidir; Sâdıka onun değildir."
+   ],
+   "kay": "Ebû Dâvûd, İlim, 3; Buhârî, İlim, 39"
+  },
+  {
+   "id": "h3-06",
+   "z": 2,
+   "s": "Ebû Hüreyre şöyle demiştir: “Abdullah b. Amr hariç, Hz. Peygamber’in ashabı arasında benden daha çok hadis bilen yoktur. Çünkü o yazardı, ben yazmazdım.”\n\nBu sözden\nI. Hz. Peygamber döneminde hadis yazan sahabiler vardı.\nII. Ebû Hüreyre, Abdullah b. Amr’ın hadis bilgisinin kendisinden fazla olduğunu kabul etmiştir.\nIII. Hz. Peygamber hadis yazmayı bütün sahabilere yasaklamıştır.\n\nyargılarından hangilerine ulaşılabilir?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve II",
+    "I ve III",
+    "II ve III"
+   ],
+   "d": 2,
+   "a": "Sözde Abdullah b. Amr’ın yazdığı açıkça belirtilir (I) ve Ebû Hüreyre onun daha çok hadis bildiğini kabul eder (II). Bir sahabinin yazması, yazmanın herkese yasak olduğu sonucunu çürütür; III’e ulaşılamaz.",
+   "ac": [
+    "II de sözden çıkar.",
+    "III sözle çelişir: bir sahabi yazıyordu.",
+    "Doğru: I ve II doğrudan sözden çıkar.",
+    "III’e ulaşılamaz.",
+    "III’e ulaşılamaz; I de doğrudur."
+   ],
+   "kay": "Buhârî, İlim, 39"
+  },
+  {
+   "id": "h3-13",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi Hz. Peygamber’in sağlığında yazıya geçirilmiş metinlerden biri değildir?",
+   "c": [
+    "Medine Vesikası",
+    "Hudeybiye Antlaşması",
+    "Mâlik b. Enes’in el-Muvatta’ı",
+    "es-Sahîfetü’s-Sâdıka",
+    "Komşu hükümdarlara gönderilen davet mektupları"
+   ],
+   "d": 2,
+   "a": "el-Muvatta’, hicrî II. yüzyılda Mâlik b. Enes tarafından yazılmıştır. Diğerleri Hz. Peygamber döneminde yazılmış belgelerdir.",
+   "ac": [
+    "Medine Vesikası hicretten sonra yazılmıştır.",
+    "Hudeybiye Antlaşması h. 6’da yazıya geçirilmiştir.",
+    "Doğru: Muvatta’ çok sonraki bir dönemin eseridir.",
+    "Abdullah b. Amr onun sağlığında yazmıştır.",
+    "Davet mektupları Hz. Peygamber’in emriyle yazılmıştır."
+   ],
+   "kay": "Hadis tarihi: Hz. Peygamber dönemi"
+  }
+ ]
+}

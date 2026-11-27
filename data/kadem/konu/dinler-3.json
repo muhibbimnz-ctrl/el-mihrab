@@ -1,0 +1,854 @@
+{
+ "id": "dinler-3",
+ "ad": "Hinduizm",
+ "ders": "Dinler Tarihi",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Hinduizm’in adı ve tarihî gelişimi"
+  },
+  {
+   "merak": "Hindular kendi dinlerine “Hinduizm” demezler. Bu ad, İndus ırmağının ötesinde yaşayan halkı anlatmak için Farslar ve Müslümanlar tarafından kullanılan bir kelimeden türetilmiş, Batılılar tarafından bir din adına dönüştürülmüştür. Hindular ise dinlerine “ezelî ve ebedî düzen” derler."
+  },
+  "“Hindu” kelimesi Sanskritçe Sindhu (İndus ırmağı) kelimesinin Farsça söylenişidir ve başlangıçta İndus havzasında yaşayan halkı ifade ederdi. Hinduizm adı ise 19. yüzyılda Batılılarca bu halkın inanç ve uygulamalarının toplamına verilmiştir. Hindular kendi dinlerini Sanatana Dharma (ezelî-ebedî din, düzen) olarak adlandırır. Hinduizm’in belli bir kurucusu, tek bir kutsal kitabı, merkezî bir otoritesi ve herkesi bağlayan tek bir inanç bildirisi yoktur. Bu yüzden çoğu zaman “tek bir din”den çok, ortak köklerden beslenen bir “dinler ve gelenekler ailesi” olarak tarif edilir. Millî (etnik) bir dindir; Hindu doğulur, sonradan Hindu olmak geleneksel olarak mümkün görülmez.",
+  {
+   "tablo": [
+    [
+     "Dönem",
+     "Yaklaşık tarih",
+     "Öne çıkanlar"
+    ],
+    [
+     "İndus medeniyeti",
+     "MÖ 2500-1500",
+     "Harappa ve Mohenjo-daro; ana tanrıça figürleri, yoga duruşlu mühür; kutsal yıkanma havuzu"
+    ],
+    [
+     "Vedik dönem",
+     "MÖ 1500-800",
+     "Ari kavimlerinin göçü; Vedalar; İndra, Agni, Varuna gibi tabiat tanrıları; ateş kurbanları"
+    ],
+    [
+     "Brahmanizm",
+     "MÖ 800-500",
+     "Kurban ayinlerinin ve Brahman rahip sınıfının önem kazanması; Brahmanalar"
+    ],
+    [
+     "Upanişad dönemi",
+     "MÖ 800-200",
+     "Brahman-Atman, samsara, karma, mokşa öğretilerinin sistemleşmesi; Budizm ve Caynizm’in tepki olarak doğuşu"
+    ],
+    [
+     "Klasik Hinduizm",
+     "MÖ 200 – MS 1200",
+     "Destanlar (Mahabharata, Ramayana), Bhagavad Gita, Manu Kanunları, Puranalar; Vişnu ve Şiva kültleri; bhakti (sevgi) hareketi"
+    ],
+    [
+     "İslam dönemi",
+     "12-18. yüzyıl",
+     "Delhi Sultanlığı, Babürlüler; Kabir ve bhakti şairleri; Sihizm’in doğuşu"
+    ],
+    [
+     "Modern dönem",
+     "19. yüzyıldan itibaren",
+     "Brahmo Samaj, Arya Samaj, Ramakrishna-Vivekananda, Gandhi; Hindu milliyetçiliği"
+    ]
+   ]
+  },
+  "Modern dönemde Hinduizm’de reform hareketleri ortaya çıktı. Ram Mohan Roy 1828’de Brahmo Samaj’ı kurarak putperestliğe, dul kadınların kocalarının ölü yakma ateşinde yakılmasına (sati) ve kast katılığına karşı çıktı; tek tanrıcı ve akılcı bir Hinduizm savundu. Sati 1829’da İngiliz yönetimince yasaklandı. Dayananda Sarasvati 1875’te “Vedalara dönüş” sloganıyla Arya Samaj’ı kurdu. Ramakrishna’nın öğrencisi Vivekananda 1893’te Chicago’daki Dünya Dinler Parlamentosu’nda Hinduizm’i Batı’ya tanıttı. Mahatma Gandhi ahimsa (şiddetsizlik) ve satyagraha (hakikate tutunma) ilkeleriyle bağımsızlık mücadelesini yürüttü; kast dışı sayılanlara Harijan (Tanrı’nın çocukları) adını verdi.",
+  {
+   "not": "Hinduizm ile İslam karşılaşmasının entelektüel ürünleri de vardır: Bîrûnî’nin Tahkîk mâ li’l-Hind’i; Babür hükümdarı Ekber Şah’ın dinleri uzlaştırma denemesi olan Dîn-i İlâhî; Şehzade Dârâ Şükûh’un Upanişadları Farsçaya çevirdiği Sırr-ı Ekber ve iki geleneği karşılaştırdığı Mecmau’l-bahreyn."
+  },
+  {
+   "sinav": "“Kurucusu yoktur, merkezi otoritesi yoktur, millî bir dindir, kendisine Sanatana Dharma der” bilgileri Hinduizm’i işaret eder. Reformcular eşleştirmesi: Brahmo Samaj → Ram Mohan Roy; Arya Samaj → Dayananda Sarasvati (Vedalara dönüş); Chicago 1893 → Vivekananda."
+  },
+  {
+   "akil": "Hindu = Sindhu’nun Farsçası; kendi adı Sanatana Dharma. Kurucusuz, millî, merkezsiz bir dinler ailesi. Gelişim: İndus → Vedik → Brahmanizm → Upanişad → klasik (destanlar, bhakti) → modern reformlar."
+  },
+  {
+   "b": "2. Kutsal metinler: Şruti ve Smriti"
+  },
+  {
+   "merak": "Hindu inancına göre Vedalar yazılmadı, “işitildi.” Ezelî hakikati derin tefekkür içindeki bilge kişiler (rişiler) işitip aktardı. Destanlar ise “hatırlanan” metinlerdir; insan eliyle aktarılmış ama yine kutsaldır."
+  },
+  "Hindu kutsal metinleri Sanskritçedir ve iki büyük gruba ayrılır. Şruti (işitilen), ezelî hakikatin rişilere ilham edildiğine inanılan, en yüksek otoriteye sahip metinlerdir. Smriti (hatırlanan) ise şrutiye dayanan, onu yorumlayan ve halka ulaştıran ikinci derece kutsal metinlerdir: destanlar, kanunnameler, Puranalar.",
+  {
+   "tablo": [
+    [
+     "Grup",
+     "Metin",
+     "İçerik"
+    ],
+    [
+     "Şruti",
+     "Rig Veda",
+     "En eski ve en önemli Veda; tanrılara ilahiler"
+    ],
+    [
+     "Şruti",
+     "Sama Veda",
+     "Ayinlerde ezgiyle okunan ilahiler"
+    ],
+    [
+     "Şruti",
+     "Yajur Veda",
+     "Kurban ayinlerinin formülleri"
+    ],
+    [
+     "Şruti",
+     "Atharva Veda",
+     "Büyü, şifa ve günlük hayat duaları"
+    ],
+    [
+     "Şruti",
+     "Brahmanalar",
+     "Kurban ayinlerinin açıklamaları"
+    ],
+    [
+     "Şruti",
+     "Aranyakalar",
+     "“Orman metinleri”; ayinlerin sembolik yorumu"
+    ],
+    [
+     "Şruti",
+     "Upanişadlar",
+     "Vedaların sonu (Vedanta); Brahman-Atman, samsara, mokşa felsefesi"
+    ],
+    [
+     "Smriti",
+     "Mahabharata",
+     "Dünyanın en uzun destanlarından; Kuru ve Pandu aileleri arasındaki savaş; içinde Bhagavad Gita bulunur"
+    ],
+    [
+     "Smriti",
+     "Bhagavad Gita",
+     "“Yüce Tanrı’nın Ezgisi”; Krişna’nın savaş meydanında (Kurukşetra) Arjuna’ya öğütleri: dharma, karma yoga, bhakti"
+    ],
+    [
+     "Smriti",
+     "Ramayana",
+     "Valmiki’ye atfedilir; Vişnu’nun avatarı Rama’nın, kaçırılan eşi Sita’yı iblis Ravana’dan kurtarışı; maymun Hanuman"
+    ],
+    [
+     "Smriti",
+     "Manu Kanunları (Manu Smriti)",
+     "Kast görevleri, aile, ceza ve ritüel hukuku"
+    ],
+    [
+     "Smriti",
+     "Puranalar",
+     "Tanrıların hikâyeleri, kozmoloji; halk Hinduizmi"
+    ]
+   ]
+  },
+  "Her Veda kendi içinde dört katmana sahiptir: Samhitalar (ilahiler), Brahmanalar (ayin açıklamaları), Aranyakalar (orman metinleri) ve Upanişadlar (felsefi metinler). Upanişadlar Vedaların son kısmı olduğu için Vedanta (Vedaların sonu) adıyla da anılır. Kutsal metinlerin, duaların ve önemli işlerin başında söylenen “Om” (Aum) hecesi, evrenin ilk sesi ve Brahman’ın sembolü kabul edilir.",
+  "Bhagavad Gita, Hinduizm’in en çok okunan metnidir. Prens Arjuna, savaş meydanında karşı safta akrabalarını görünce savaşmaktan vazgeçmek ister. Arabacısı kılığındaki tanrı Krişna (Vişnu’nun avatarı) ona, kastının görevi (svadharma) olan savaşı, sonucuna bağlanmadan yapması gerektiğini öğretir. Gita, eylemi sonucuna bağlanmadan yapmayı (karma yoga), bilgiyi (jnana) ve Tanrı’ya sevgi dolu bağlılığı (bhakti) bir arada sunar.",
+  {
+   "sinav": "En sık tuzak: Bhagavad Gita’yı ayrı bir Veda ya da Ramayana’nın parçası sanmak; o, Mahabharata’nın içindedir. Upanişadlar şruti, destanlar smritidir. Rig Veda en eskisidir; büyü ve şifa formülleri Atharva Veda’dadır."
+  },
+  {
+   "akil": "Şruti (işitilen): 4 Veda (Rig, Sama, Yajur, Atharva) + Brahmana, Aranyaka, Upanişad. Smriti (hatırlanan): Mahabharata (içinde Gita), Ramayana, Manu Kanunları, Puranalar. Om kutsal hece."
+  },
+  {
+   "b": "3. Tanrı anlayışı: Brahman, Trimurti, avatarlar"
+  },
+  {
+   "merak": "Bir Hindu’ya “Kaç tanrınız var?” diye sorsanız, “Otuz üç milyon” cevabını da alabilirsiniz, “Bir” cevabını da. İkisi de Hinduizm’in içinden doğrudur."
+  },
+  "Hinduizm’de sistematik tek bir tanrı anlayışı yoktur. Halk dini açısından çok tanrılı bir görünüm taşır; ama Upanişad felsefesinde bütün tanrıların ardında tek bir mutlak gerçeklik, Brahman vardır. Brahman sonsuz, değişmez, şahsi olmayan evrensel ruhtur. Her canlıdaki bireysel öz ise Atman’dır. Upanişadların temel öğretisine göre Atman özünde Brahman’la birdir; Chandogya Upanişad’daki “Tat tvam asi” (Sen O’sun) ifadesi bunu anlatır. Bu anlayış panteist (vahdet-i vücuda benzer, her şeyi Tanrı’yla özdeş gören) bir yöne sahiptir.",
+  "Vedik dönemde İndra (savaş ve fırtına), Agni (ateş), Varuna (kozmik düzen), Soma (kutsal içki), Surya (güneş) ve Vayu (rüzgâr) gibi tabiat tanrıları öndeydi. Klasik dönemde ise yaratma, koruma ve yok etme işlevlerini temsil eden üç tanrı öne çıktı. Bu üçlüye trimurti denir. Trimurti Hristiyanlıktaki teslisle karıştırılmamalıdır: Teslis tek tanrının üç “kişi”si olduğu iddiasıdır; trimurti ise tek Brahman’ın üç işlevinin üç tanrıda simgelenmesidir ve halk dindarlığında Brahma’ya pek ibadet edilmez.",
+  {
+   "tablo": [
+    [
+     "Tanrı",
+     "İşlevi",
+     "Özellikler"
+    ],
+    [
+     "Brahma",
+     "Yaratıcı",
+     "Dört yüzlü tasvir edilir; adına çok az tapınak vardır (Puşkar)"
+    ],
+    [
+     "Vişnu",
+     "Koruyucu",
+     "Dünyada düzen bozulunca avatar (yeryüzüne iniş, bedenlenme) olarak gelir; on avatarı sayılır: Rama ve Krişna en önemlileri; Kali Yuga’nın sonunda Kalki olarak gelecektir"
+    ],
+    [
+     "Şiva",
+     "Yok edici ve yenileyici",
+     "Dans eden kozmik tanrı (Nataraja); sembolü linga; eşi Parvati; çileci yogilerin tanrısı"
+    ]
+   ]
+  },
+  "Tanrıçalar da önemlidir: Şiva’nın eşi Parvati, onun savaşçı biçimleri Durga ve Kali; Vişnu’nun eşi servet ve bereket tanrıçası Lakşmi; Brahma’nın eşi bilgi ve sanat tanrıçası Sarasvati. Kadın tanrısal enerjisine Şakti denir. Şiva ile Parvati’nin oğlu, fil başlı Ganeşa (Ganapati) engelleri kaldıran ve işlerin başında anılan tanrıdır. Hindular ibadet ettikleri tanrıya göre mezheplere ayrılır: Vişnu’ya bağlılar Vaişnava (Vişnuizm), Şiva’ya bağlılar Şaiva (Şivaizm), tanrıçaya bağlılar Şakta (Şaktizm) olarak anılır. Kitlesel bhakti hareketi ve Krişna bağlılığı, Batı’daki Hare Krişna hareketinin de kaynağıdır.",
+  {
+   "sinav": "Trimurti eşleşmesi: Brahma yaratır, Vişnu korur, Şiva yok eder. Avatar kavramı Vişnu’ya aittir; Rama, Krişna ve gelecek kurtarıcı Kalki Vişnu’nun avatarlarıdır. Budizm’in beklediği kurtarıcı ise Maitreya’dır; ikisini karıştırma."
+  },
+  {
+   "akil": "Brahman mutlak gerçeklik, Atman bireysel öz; Atman = Brahman (Tat tvam asi). Trimurti: Brahma-yaratma, Vişnu-koruma (avatarlar: Rama, Krişna, Kalki), Şiva-yok etme. Ganeşa fil başlı; Lakşmi bereket; Sarasvati bilgi."
+  },
+  {
+   "b": "4. Samsara, karma, mokşa, dharma ve kurtuluş yolları"
+  },
+  {
+   "merak": "Bir Hindu için ölüm son değildir, yalnızca bir elbise değiştirmedir. Asıl korkulan şey ölüm değil, bitmeyen doğumlar zinciridir: Doğmak, acı çekmek, ölmek ve yeniden doğmak…"
+  },
+  "Hinduizm’in ahiret anlayışı doğrusal değil, döngüseldir. Ruh (Atman) ölümden sonra yeni bir bedende yeniden doğar; bu doğum-ölüm-yeniden doğum çarkına samsara (tenasüh, reenkarnasyon, ruh göçü) denir. Ruhun hangi bedende doğacağını, kişinin önceki hayatlarında yaptığı iyi ve kötü işlerin karşılığını belirleyen ahlaki sebeplilik yasası karma belirler. İyi işler daha yüksek bir kastta ya da varlık formunda, kötü işler daha düşük bir hayatta, hatta hayvan bedeninde doğmaya yol açar. Hinduların nihai amacı bu çarktan ve onun doğurduğu her türlü acıdan kurtulmaktır; buna mokşa denir. Mokşada Atman’ın Brahman’la birliği idrak edilir.",
+  "Dharma ise kozmik düzen, ahlak yasası ve kişinin kastına, yaşına, cinsiyetine göre yerine getirmesi gereken görevdir. Dünyanın çokluk ve değişkenlik içinde görünen yüzüne maya (yanılsama) denir; bilgisizlik (avidya) insanı bu yanılsamaya bağlar.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Anlamı"
+    ],
+    [
+     "Samsara",
+     "Doğum-ölüm-yeniden doğum döngüsü (tenasüh)"
+    ],
+    [
+     "Karma",
+     "İşlerin karşılığını belirleyen ahlaki yasa; sonraki doğumu belirler"
+    ],
+    [
+     "Mokşa",
+     "Samsaradan kurtuluş; Atman’ın Brahman’la birliği"
+    ],
+    [
+     "Dharma",
+     "Kozmik düzen, ahlak yasası, kişinin görevi"
+    ],
+    [
+     "Maya",
+     "Çokluk dünyasının yanılsama oluşu"
+    ],
+    [
+     "Avatar",
+     "Tanrının (özellikle Vişnu’nun) yeryüzünde bedenlenmesi"
+    ],
+    [
+     "Ahimsa",
+     "Hiçbir canlıya zarar vermeme"
+    ],
+    [
+     "Yoga",
+     "Beden, zihin ve ruhu birleştirip zihni arındırma disiplini; Patanjali’nin Yoga Sutraları"
+    ]
+   ]
+  },
+  "Mokşaya ulaştıran üç ana yol (marga) vardır: Karma marga, dinî görevleri, ayinleri ve kast vazifelerini yerine getirme yoludur. Jnana marga, Brahman-Atman birliğini kavrayan bilgi ve tefekkür yoludur. Bhakti marga ise kişisel bir tanrıya (çoğunlukla Vişnu-Krişna ya da Şiva) sevgi ve teslimiyetle bağlanma yoludur ve halk arasında en yaygın olanıdır. Yoga bu yolların hepsinde kullanılan bir disiplindir.",
+  "Hayatın dört amacı (puruşartha) dharma (görev), artha (servet, çıkar), kama (zevk, arzu) ve mokşadır (kurtuluş). Yüksek kastlardan bir erkeğin hayatı da dört evreye (aşrama) ayrılır: Brahmaçarya (öğrencilik), grihastha (evlenip aile reisi olma), vanaprastha (ormana çekilme) ve sannyasa (her şeyden el çekmiş dilenci-çileci olma).",
+  {
+   "tablo": [
+    [
+     "Hayatın dört evresi (aşrama)",
+     "Anlamı"
+    ],
+    [
+     "Brahmaçarya",
+     "Bir guru yanında Veda öğrenen, bekâr öğrencilik dönemi"
+    ],
+    [
+     "Grihastha",
+     "Evlenip aile kurma, kazanma, kurban sunma dönemi"
+    ],
+    [
+     "Vanaprastha",
+     "Torunlar doğunca dünyadan çekilip ormanda tefekküre yönelme"
+    ],
+    [
+     "Sannyasa",
+     "Her bağdan kurtulmuş gezgin çileci; mokşaya hazırlık"
+    ]
+   ]
+  },
+  {
+   "not": "Altı ortodoks felsefe sistemi (darşana) Vedaları otorite kabul eder: Nyaya, Vaişeşika, Samkhya, Yoga, Mimamsa ve Vedanta. Vedanta içinde Şankara (8. yy) Advaita’yı (ikiliksizlik: Atman ile Brahman mutlak olarak birdir, dünya mayadır), Ramanuja nitelikli birliği, Madhva ise ikiliği (Tanrı ile ruh ayrıdır) savunmuştur. Vedaları kabul etmeyen Budizm, Caynizm ve materyalist Çarvaka “heterodoks” (nastika) sayılır."
+  },
+  {
+   "sinav": "Boşluk doldurma klasik soru: ruhun yeniden bedenlenmesi = samsara; bunu belirleyen ameller = karma; çarktan kurtuluş = mokşa. Tuzak: Mokşa yerine Budist kavram nirvana, samsara yerine varna (kast) ya da avatar koymak. Bhakti = sevgi-bağlılık yolu; jnana = bilgi yolu."
+  },
+  {
+   "akil": "Samsara çark, karma yasa, mokşa kurtuluş, dharma görev, maya yanılsama. Üç yol: karma (eylem), jnana (bilgi), bhakti (sevgi). Dört amaç: dharma, artha, kama, mokşa. Dört evre: öğrenci, ev reisi, ormana çekilen, çileci."
+  },
+  {
+   "b": "5. Kast (varna) sistemi"
+  },
+  {
+   "merak": "Rig Veda’daki bir ilahide, ilk kozmik insan Puruşa kurban edilir: Ağzından din adamları, kollarından savaşçılar, uyluklarından tüccarlar, ayaklarından da hizmetçiler doğar. Hindistan’ın binlerce yıllık toplum düzeni bu dört satıra dayandırıldı."
+  },
+  "Kast sistemi Hinduizm’in en dikkat çekici özelliklerinden biridir. Sanskritçe karşılığı varna (renk) olan bu sistem, insanları doğuştan belirlenen ve değiştirilemeyen sınıflara ayırır. Kast, dinî bir temele (Rig Veda’daki Puruşa ilahisi ve Manu Kanunları) dayandırıldığı ve kurtuluş kast görevlerini yerine getirmeye bağlandığı için toplumda güçlü kalmıştır. Kişinin hangi kastta doğduğu önceki hayatlarındaki karmasının sonucu sayılır. Farklı kastlar arasında evlenme, birlikte yemek yeme ve bazı işleri yapma yasaktı.",
+  {
+   "tablo": [
+    [
+     "Kast (varna)",
+     "Puruşa’daki yeri",
+     "Görevi"
+    ],
+    [
+     "Brahman (Brahmin)",
+     "Ağız",
+     "Din adamları; Vedaları öğrenme, öğretme, kurban sunma"
+    ],
+    [
+     "Kşatriya",
+     "Kollar",
+     "Yönetici ve askerler; halkı koruma"
+    ],
+    [
+     "Vaişya",
+     "Uyluklar",
+     "Tüccar, esnaf, çiftçi"
+    ],
+    [
+     "Şudra",
+     "Ayaklar",
+     "Diğer üç kasta hizmet eden işçi-hizmetçi sınıfı"
+    ],
+    [
+     "Parya / Dalit (kast dışı)",
+     "Sistemin dışında",
+     "“Dokunulmazlar”; temizlik, deri işleme, ölü yakma gibi işler"
+    ]
+   ]
+  },
+  "İlk üç kast “iki kere doğmuş” (dvija) sayılır; bunlar kutsal ip takma töreniyle (upanayana) ikinci, manevi doğuma kavuşur ve Veda okuyabilir. Şudralar ve kast dışılar bu haktan yoksundur. Dört ana varna dışında meslek ve bölgeye göre binlerce alt kast (jati) vardır. Kast dışı sayılanlara Gandhi Harijan (Tanrı’nın çocukları) demiş, kendileri ise Dalit (ezilmiş) adını tercih etmiştir. 1950 Hindistan Anayasası dokunulmazlığı kaldırdı; anayasanın hazırlayıcılarından, kendisi Dalit olan B. R. Ambedkar 1956’da yüz binlerce takipçisiyle Budizme geçti. Buna rağmen kast ayrımı toplumsal hayatta varlığını büyük ölçüde sürdürmektedir.",
+  {
+   "sinav": "Kast sırası sık sorulur: Brahman → Kşatriya → Vaişya → Şudra; kast dışı Parya/Dalit. Tuzak: Kşatriya’yı tüccar, Vaişya’yı asker vermek. Kast sistemine karşı çıkan dinler: Budizm, Caynizm, Sihizm (ve İslam’ın eşitlik vurgusu)."
+  },
+  {
+   "akil": "Varna: Brahman (ağız, din adamı), Kşatriya (kol, asker-yönetici), Vaişya (uyluk, tüccar-çiftçi), Şudra (ayak, hizmetçi); dışında Parya/Dalit. Dayanağı Puruşa ilahisi ve Manu Kanunları; kurtuluş kast görevine bağlıdır."
+  },
+  {
+   "b": "6. İbadet, kutsal mekânlar, bayramlar ve gelenekler"
+  },
+  {
+   "merak": "Benares’te (Varanasi) Ganj kıyısında gün doğarken binlerce insan suya girer; biraz ötede ölü yakma ateşleri hiç sönmez. Hindu inancında burada ölüp külleri Ganj’a dökülen kişi samsaradan kurtulma umudu taşır."
+  },
+  "Hindu ibadetinin temel biçimi pujadır: Tanrının heykeli ya da tasviri (murti) önünde çiçek, meyve, süt, tereyağı, su, tütsü ve ışık sunmak, dua ve ilahi okumak. İbadet hem tapınakta (mandir) hem de evdeki küçük sunaklarda, iş yerlerinde, hatta araçlarda bulunan tasvirler önünde yapılır. Düzenli, zorunlu bir toplu ibadet yoktur; sabah ve akşam ibadetlerine genellikle “Om” hecesiyle başlanır. Tapınakta ayini Brahman rahip yönetir. Dua ve meditasyon sırasında tekrar edilen kutsal sözlere mantra denir; en meşhuru Gayatri mantrasıdır. Bir manevi öğretmene guru, manevi inzivagâha aşram denir.",
+  {
+   "tablo": [
+    [
+     "Kutsal mekân / uygulama",
+     "Açıklama"
+    ],
+    [
+     "Benares (Varanasi)",
+     "En kutsal şehir; Şiva’nın şehri; Ganj kıyısında ölü yakma yerleri"
+    ],
+    [
+     "Ganj Nehri",
+     "Kutsal ırmak; arındırıcı kabul edilir; küller Ganj’a dökülür"
+    ],
+    [
+     "Mathura ve Vrindavan",
+     "Krişna’nın doğduğu ve yaşadığı düşünülen yerler"
+    ],
+    [
+     "Kumbh Mela",
+     "On iki yılda bir dört kutsal şehirde toplanan, dünyanın en kalabalık dinî toplantılarından biri"
+    ],
+    [
+     "Ölü yakma",
+     "Ruhun bedenden kurtuluşunu kolaylaştırdığına inanılır"
+    ],
+    [
+     "İneğin kutsallığı",
+     "İnek annelik ve bereketin sembolüdür; öldürülmesi ve eti yasak sayılır"
+    ],
+    [
+     "Vejetaryenlik",
+     "Ahimsa ilkesine bağlı olarak özellikle yüksek kastlarda yaygındır"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Bayram",
+     "Anlamı"
+    ],
+    [
+     "Diwali (Dipavali)",
+     "Işık bayramı; Rama’nın Ayodhya’ya dönüşü ve Lakşmi; kandiller yakılır"
+    ],
+    [
+     "Holi",
+     "Renk bayramı; bahar ve Krişna ile ilişkilendirilir; renkli tozlar atılır"
+    ],
+    [
+     "Navaratri / Durga Puja",
+     "Dokuz gece; tanrıça Durga’nın kötülüğü yenmesi"
+    ],
+    [
+     "Janmaştami",
+     "Krişna’nın doğumu"
+    ],
+    [
+     "Mahaşivaratri",
+     "Şiva’nın büyük gecesi"
+    ]
+   ]
+  },
+  "Geçmişte bazı bölgelerde dul kadının kocasının ölü yakma ateşine atılması (sati) uygulanıyordu; bu gelenek 1829’da yasaklandı. Hinduizm’in kozmik zaman anlayışı da döngüseldir: Dünya dört çağdan (yuga) geçer; içinde bulunduğumuz son ve en karanlık çağ Kali Yuga’dır ve bu çağın sonunda Vişnu’nun son avatarı Kalki ak bir at üzerinde gelip kötülüğü yok edecek, yeni bir döngü başlatacaktır.",
+  {
+   "sinav": "“Hinduizm’de ibadet yeri” sorusunda kaynak kitap “aşram” ve tapınak (mandir) bilgisini verir; gurudvara Sihlerin, vihara ve pagoda Budistlerin, jinja Şintoistlerin mabedidir. Diwali-ışık, Holi-renk eşleşmesi; Kali Yuga sonunda gelecek kurtarıcı Kalki."
+  },
+  {
+   "akil": "İbadet: puja (tasvir önünde sunu), mantra, Om; tapınak ve ev sunağı. Kutsal: Benares, Ganj, inek. Bayramlar: Diwali (ışık), Holi (renk), Navaratri. Kali Yuga sonunda Kalki gelecek. Sati 1829’da yasaklandı."
+  }
+ ],
+ "ozet": [
+  "Hindu kelimesi Sindhu (İndus) kökenlidir; Hindular dinlerine Sanatana Dharma (ezelî-ebedî düzen) der.",
+  "Hinduizm’in kurucusu, tek kutsal kitabı ve merkezi otoritesi yoktur; millî bir dindir.",
+  "Şruti (işitilen): Rig, Sama, Yajur, Atharva Vedaları; Brahmanalar, Aranyakalar, Upanişadlar (Vedanta).",
+  "Smriti (hatırlanan): Mahabharata (içinde Bhagavad Gita), Ramayana (Valmiki; Rama-Sita-Ravana-Hanuman), Manu Kanunları, Puranalar.",
+  "Bhagavad Gita: Krişna’nın Kurukşetra’da Arjuna’ya öğütleri; görevini sonucuna bağlanmadan yapmak, bhakti.",
+  "Brahman mutlak gerçeklik, Atman bireysel öz; Atman = Brahman (“Tat tvam asi”).",
+  "Trimurti: Brahma yaratıcı, Vişnu koruyucu (avatarları Rama, Krişna; gelecek Kalki), Şiva yok edici-yenileyici (linga, Nataraja).",
+  "Ganeşa fil başlı engel kaldırıcı; Lakşmi bereket; Sarasvati bilgi; Durga ve Kali savaşçı tanrıçalar.",
+  "Samsara doğum-ölüm döngüsü; karma işlerin karşılığı yasası; mokşa kurtuluş; dharma görev ve düzen; maya yanılsama.",
+  "Kurtuluş yolları: karma (eylem), jnana (bilgi), bhakti (sevgi-bağlılık).",
+  "Dört amaç: dharma, artha, kama, mokşa. Dört evre: brahmaçarya, grihastha, vanaprastha, sannyasa.",
+  "Kast: Brahman (din adamı), Kşatriya (asker-yönetici), Vaişya (tüccar-çiftçi), Şudra (hizmetçi); kast dışı Parya/Dalit; Gandhi’nin adı Harijan.",
+  "Altı ortodoks darşana; Şankara’nın Advaita Vedanta’sı. Vedaları reddeden Budizm ve Caynizm heterodokstur.",
+  "Reformlar: Ram Mohan Roy Brahmo Samaj (1828); Dayananda Arya Samaj (1875, Vedalara dönüş); Vivekananda Chicago 1893; Gandhi ahimsa-satyagraha.",
+  "İbadet: puja, mantra, Om; kutsal şehir Benares, kutsal ırmak Ganj; ölü yakma; ineğin kutsallığı.",
+  "Bayramlar: Diwali ışık, Holi renk, Navaratri-Durga Puja; Kali Yuga sonunda Kalki gelecek."
+ ],
+ "kartlar": [
+  {
+   "o": "Sanatana Dharma",
+   "a": "Hinduların kendi dinlerine verdiği ad: ezelî-ebedî din/düzen."
+  },
+  {
+   "o": "Şruti – Smriti",
+   "a": "Şruti: işitilen (Vedalar, Upanişadlar). Smriti: hatırlanan (destanlar, Manu Kanunları, Puranalar)."
+  },
+  {
+   "o": "Bhagavad Gita",
+   "a": "Mahabharata’nın içinde; Krişna’nın Arjuna’ya öğütleri."
+  },
+  {
+   "o": "Ramayana",
+   "a": "Valmiki’ye atfedilen destan; Rama, Sita, Ravana, Hanuman."
+  },
+  {
+   "o": "Upanişadlar",
+   "a": "Vedaların son kısmı (Vedanta); Brahman-Atman ve mokşa felsefesi."
+  },
+  {
+   "o": "Brahman – Atman",
+   "a": "Brahman evrensel mutlak gerçeklik; Atman bireysel öz; ikisi özde birdir (Tat tvam asi)."
+  },
+  {
+   "o": "Trimurti",
+   "a": "Brahma (yaratma), Vişnu (koruma), Şiva (yok etme-yenileme)."
+  },
+  {
+   "o": "Avatar",
+   "a": "Tanrının, özellikle Vişnu’nun, yeryüzünde bedenlenmesi; Rama, Krişna, Kalki."
+  },
+  {
+   "o": "Samsara – Karma – Mokşa",
+   "a": "Döngü – işlerin karşılığı yasası – döngüden kurtuluş."
+  },
+  {
+   "o": "Karıştırma: Mokşa – Nirvana",
+   "a": "Mokşa Hinduizm’de Atman’ın Brahman’la birliği; nirvana Budizm’de arzuların sönmesiyle kurtuluş."
+  },
+  {
+   "o": "Bhakti",
+   "a": "Kişisel bir tanrıya sevgi ve teslimiyetle bağlanma yolu."
+  },
+  {
+   "o": "Varna sırası",
+   "a": "Brahman, Kşatriya, Vaişya, Şudra; dışında Parya/Dalit."
+  },
+  {
+   "o": "Harijan",
+   "a": "Gandhi’nin kast dışılara verdiği ad: Tanrı’nın çocukları."
+  },
+  {
+   "o": "Brahmo Samaj – Arya Samaj",
+   "a": "Ram Mohan Roy (1828, akılcı tek tanrıcılık) – Dayananda Sarasvati (1875, Vedalara dönüş)."
+  },
+  {
+   "o": "Puja",
+   "a": "Tanrı tasviri önünde çiçek, süt, tütsü, ışık sunarak yapılan Hindu ibadeti."
+  },
+  {
+   "o": "Kalki",
+   "a": "Kali Yuga sonunda gelecek, Vişnu’nun son avatarı olan kurtarıcı."
+  },
+  {
+   "o": "Ganeşa",
+   "a": "Şiva ile Parvati’nin fil başlı oğlu; engelleri kaldıran tanrı."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "d1-04",
+   "z": 2,
+   "s": "Hinduizm’de ………. ölen insanın ruhunun dünyada farklı varlık formlarında yeniden bedenlenmesidir. Ruhun hangi bedende doğacağını kişinin önceki hayatlarındaki iyi ve kötü işlerinin karşılığını belirleyen ………. yasası belirler. Hinduların nihai amacı bu doğum-ölüm çarkından kurtulup ………. ’ya ulaşmaktır.\n\nBu parçada boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?",
+   "c": [
+    "Samsara – Karma – Mokşa",
+    "Avatar – Karma – Nirvana",
+    "Varna – Samsara – Mokşa",
+    "Samsara – Dharma – Nirvana",
+    "Maya – Karma – Mokşa"
+   ],
+   "d": 0,
+   "a": "Ruhun yeniden doğuş döngüsü samsara, bunu belirleyen ahlaki sebeplilik yasası karma, döngüden kurtuluş mokşadır.",
+   "ac": [
+    "Doğru sıralamadır.",
+    "Avatar tanrının bedenlenmesidir; nirvana Budist kurtuluş kavramıdır.",
+    "Varna kast demektir; samsara ise ikinci boşluğa uymaz.",
+    "Dharma görev ve düzendir; nirvana Budizme aittir.",
+    "Maya dünyanın yanılsama oluşudur; yeniden doğuşun adı değildir."
+   ],
+   "kay": "Konu: Hinduizm’de samsara, karma, mokşa"
+  },
+  {
+   "id": "dn3-01",
+   "z": 3,
+   "s": "Bir destanda savaş meydanında karşı safta akrabalarını gören prens savaşmaktan vazgeçmek ister. Arabacısı kılığındaki tanrı ona, kastının görevi olan savaşı sonucuna bağlanmadan yapması gerektiğini, ruhun ölümsüz olduğunu ve kendisine sevgiyle bağlananın kurtuluşa ereceğini öğretir.\n\nBu anlatının yer aldığı metin ve ilgili kişiler aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Ramayana – Rama ve Hanuman",
+    "Rig Veda – İndra ve Agni",
+    "Upanişadlar – Şiva ve Parvati",
+    "Manu Kanunları – Manu ve Brahma",
+    "Bhagavad Gita – Krişna ve Arjuna"
+   ],
+   "d": 4,
+   "a": "Mahabharata destanının içindeki Bhagavad Gita’da Krişna, Kurukşetra savaşı öncesinde Arjuna’ya görev (dharma), karma yoga ve bhakti öğretilerini anlatır.",
+   "ac": [
+    "Ramayana Rama’nın Sita’yı Ravana’dan kurtarışını anlatır.",
+    "Rig Veda tabiat tanrılarına ilahiler içerir; bir destan değildir.",
+    "Upanişadlar felsefi metinlerdir; bu anlatıyı içermez.",
+    "Manu Kanunları kast ve hukuk metnidir.",
+    "Doğru: Bhagavad Gita, Krişna ve Arjuna."
+   ],
+   "kay": "Bhagavad Gita"
+  },
+  {
+   "id": "dn3-02",
+   "z": 3,
+   "s": "Hindu kutsal metinleriyle ilgili\nI. Upanişadlar şruti grubundandır ve Vedanta olarak da anılır.\nII. Bhagavad Gita Ramayana destanının bir bölümüdür.\nIII. Manu Kanunları kast görevlerini ve aile hukukunu düzenleyen bir smriti metnidir.\nIV. Büyü ve şifa formüllerini içeren Veda, Atharva Veda’dır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "II ve IV",
+    "I, II ve III",
+    "I, III ve IV",
+    "II, III ve IV"
+   ],
+   "d": 3,
+   "a": "Bhagavad Gita Mahabharata’nın içindedir; diğer ifadeler doğrudur.",
+   "ac": [
+    "II. ifade yanlıştır.",
+    "II. ifade yanlıştır; ayrıca I ve III de doğrudur.",
+    "II yanlıştır; IV ise doğru olduğu hâlde dışarıda bırakılmıştır.",
+    "Doğru: I, III ve IV doğrudur.",
+    "II yanlıştır, I ise doğru olduğu hâlde dışarıda bırakılmıştır."
+   ],
+   "kay": "Konu: Hindu kutsal metinleri"
+  },
+  {
+   "id": "dn3-03",
+   "z": 2,
+   "s": "Hinduizm’de yaratma, koruma ve yok etme işlevlerini temsil eden üç tanrı “trimurti” olarak adlandırılır. Bunlardan koruyucu olan tanrının dünyada düzen bozulduğunda farklı biçimlerde yeryüzüne indiğine inanılır.\n\nKoruyucu tanrı ve onun yeryüzüne inişini ifade eden kavram aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Brahma – Mokşa",
+    "Şiva – Linga",
+    "Vişnu – Karma",
+    "İndra – Soma",
+    "Vişnu – Avatar"
+   ],
+   "d": 4,
+   "a": "Trimurtide koruyucu tanrı Vişnu’dur; yeryüzünde bedenlenmesine avatar denir. Rama ve Krişna onun avatarlarıdır.",
+   "ac": [
+    "Brahma yaratıcıdır; mokşa kurtuluştur.",
+    "Şiva yok edici-yenileyicidir; linga onun sembolüdür.",
+    "Vişnu doğrudur ama karma işlerin karşılığı yasasıdır, iniş değildir.",
+    "İndra Vedik savaş tanrısıdır; trimurtide yer almaz.",
+    "Doğru: Vişnu ve avatar."
+   ],
+   "kay": "Konu: Trimurti"
+  },
+  {
+   "id": "dn3-04",
+   "z": 3,
+   "s": "Aşağıdaki Hindu kast – görev eşleştirmelerinden hangisi doğrudur?",
+   "c": [
+    "Kşatriya – Tüccar, esnaf ve çiftçiler",
+    "Vaişya – Yönetici ve askerler",
+    "Şudra – Kutsal ip takıp Veda okumak",
+    "Brahman – Kutsal metinleri öğrenip öğretmek, kurban sunmak",
+    "Parya – Kast sisteminin en üst katmanı"
+   ],
+   "d": 3,
+   "a": "Brahmanlar din adamı sınıfıdır. Kşatriyalar yönetici-asker, Vaişyalar tüccar-çiftçi, Şudralar hizmetçi sınıfıdır; Paryalar kast dışıdır.",
+   "ac": [
+    "Kşatriya yönetici ve askerdir; tüccar Vaişya’dır.",
+    "Vaişya tüccar ve çiftçidir; asker Kşatriya’dır.",
+    "Şudralar “iki kere doğmuş” sayılmaz, Veda okuyamaz.",
+    "Doğru eşleşmedir.",
+    "Paryalar kast dışı, “dokunulmaz” sayılanlardır."
+   ],
+   "kay": "Manu Kanunları; Rig Veda, Puruşa ilahisi"
+  },
+  {
+   "id": "dn3-05",
+   "z": 3,
+   "s": "Upanişad düşüncesine göre her canlının özündeki bireysel ruh, evrenin ardındaki mutlak ve değişmez gerçeklikle özde birdir; bu birliğin farkına varamayan insan, çokluk dünyasının yanılsamasına kapılarak doğum-ölüm çarkına bağlı kalır.\n\nBu parçada sözü edilen bireysel ruh, mutlak gerçeklik ve yanılsama kavramları sırasıyla aşağıdakilerin hangisinde verilmiştir?",
+   "c": [
+    "Brahman – Atman – Maya",
+    "Atman – Brahman – Maya",
+    "Atman – Dharma – Karma",
+    "Puruşa – Brahma – Avidya",
+    "Atman – Brahman – Samsara"
+   ],
+   "d": 1,
+   "a": "Bireysel öz Atman, evrensel mutlak gerçeklik Brahman, çokluk dünyasının yanılsama oluşu mayadır.",
+   "ac": [
+    "Sıralama terstir: bireysel ruh Atman, mutlak gerçeklik Brahman’dır.",
+    "Doğru sıralamadır.",
+    "Dharma görev, karma işlerin karşılığıdır.",
+    "Brahma yaratıcı tanrıdır; mutlak gerçeklik Brahman’dır. Avidya bilgisizliktir.",
+    "Samsara döngünün kendisidir, yanılsamanın adı değildir."
+   ],
+   "kay": "Chandogya Upanişad"
+  },
+  {
+   "id": "dn3-06",
+   "z": 2,
+   "s": "Hinduizm’de mokşaya ulaştıran yollardan biri, kişisel bir tanrıya, özellikle Vişnu-Krişna ya da Şiva’ya, sevgi ve teslimiyetle bağlanmayı esas alır ve halk arasında en yaygın kurtuluş yolu hâline gelmiştir.\n\nBu yol aşağıdakilerden hangisidir?",
+   "c": [
+    "Jnana marga",
+    "Bhakti marga",
+    "Karma marga",
+    "Raja yoga",
+    "Sannyasa"
+   ],
+   "d": 1,
+   "a": "Bhakti, kişisel tanrıya sevgi dolu bağlılık yoludur.",
+   "ac": [
+    "Jnana bilgi ve tefekkür yoludur.",
+    "Doğru: sevgi ve bağlılık yolu.",
+    "Karma marga dinî görev ve ayinleri yerine getirme yoludur.",
+    "Raja yoga meditasyon disiplinidir.",
+    "Sannyasa hayatın dördüncü evresi olan çileciliktir; kurtuluş yolu adı değildir."
+   ],
+   "kay": "Konu: Kurtuluş yolları"
+  },
+  {
+   "id": "dn3-07",
+   "z": 2,
+   "s": "Yüksek kastlardan bir Hindu erkeğin hayatı dört evreye ayrılır. Bu evrelerin doğru sıralaması aşağıdakilerden hangisidir?",
+   "c": [
+    "Brahmaçarya – Grihastha – Vanaprastha – Sannyasa",
+    "Grihastha – Brahmaçarya – Sannyasa – Vanaprastha",
+    "Brahmaçarya – Vanaprastha – Grihastha – Sannyasa",
+    "Sannyasa – Grihastha – Vanaprastha – Brahmaçarya",
+    "Vanaprastha – Brahmaçarya – Grihastha – Sannyasa"
+   ],
+   "d": 0,
+   "a": "Öğrencilik (brahmaçarya), aile reisliği (grihastha), ormana çekilme (vanaprastha) ve her şeyden el çekme (sannyasa).",
+   "ac": [
+    "Doğru sıralamadır.",
+    "Öğrencilik aile reisliğinden önce gelir.",
+    "Ormana çekilme aile kurduktan sonradır.",
+    "Sıralama tamamen terstir.",
+    "İlk evre öğrenciliktir."
+   ],
+   "kay": "Konu: Aşrama"
+  },
+  {
+   "id": "dn3-08",
+   "z": 3,
+   "s": "19. yüzyılda Hinduizm’de ortaya çıkan reform hareketleriyle ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "Ram Mohan Roy – Brahmo Samaj",
+    "Dayananda Sarasvati – Arya Samaj",
+    "Ram Mohan Roy – “Vedalara dönüş” sloganıyla Arya Samaj",
+    "Gandhi – Satyagraha",
+    "Vivekananda – Chicago Dünya Dinler Parlamentosu (1893)"
+   ],
+   "d": 2,
+   "a": "“Vedalara dönüş” sloganı ve Arya Samaj (1875) Dayananda Sarasvati’ye aittir. Ram Mohan Roy 1828’de Brahmo Samaj’ı kurmuştur.",
+   "ac": [
+    "Doğru eşleşme.",
+    "Doğru eşleşme.",
+    "Yanlış eşleşme: Arya Samaj Dayananda’nındır.",
+    "Doğru eşleşme: hakikate tutunma ve şiddetsiz direniş.",
+    "Doğru eşleşme: Vivekananda Hinduizm’i Batı’ya burada tanıttı."
+   ],
+   "kay": "Konu: Modern Hinduizm"
+  },
+  {
+   "id": "dn3-09",
+   "z": 3,
+   "s": "Hinduizm ile ilgili\nI. Belli bir kurucusu ve merkezî bir dinî otoritesi yoktur.\nII. Geleneksel anlayışa göre sonradan Hindu olmak mümkün değildir; Hindu doğulur.\nIII. Kozmik zaman anlayışı doğrusaldır; dünya bir kez yaratılmış ve bir kez sona erecektir.\n\nyargılarından hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Hinduizm kurucusuz ve merkezsiz millî bir dindir; zaman anlayışı ise yugalar hâlinde döngüseldir.",
+   "ac": [
+    "II. yargı da doğrudur.",
+    "III. yargı yanlıştır; zaman döngüseldir.",
+    "Doğru: I ve II doğrudur.",
+    "III yanlış olduğundan bu seçenek geçersizdir.",
+    "III’ün yanlışlığı bu seçeneği dışarıda bırakır."
+   ],
+   "kay": "Konu: Hinduizm’in genel özellikleri"
+  },
+  {
+   "id": "dn3-10",
+   "z": 2,
+   "s": "Hinduizm’de dünyanın içinde bulunduğu son ve en karanlık çağın sonunda ak bir at üzerinde gelip kötülüğü yok edeceğine inanılan kurtarıcı ve onun bağlı olduğu tanrı aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Kalki – Vişnu",
+    "Maitreya – Buda",
+    "Saoşyant – Ahura Mazda",
+    "Krişna – Şiva",
+    "Rama – Brahma"
+   ],
+   "d": 0,
+   "a": "Kali Yuga’nın sonunda Vişnu’nun son avatarı Kalki’nin geleceğine inanılır.",
+   "ac": [
+    "Doğru: Kalki, Vişnu’nun avatarıdır.",
+    "Maitreya Budizm’de beklenen kurtarıcıdır.",
+    "Saoşyant Zerdüştlükte beklenen kurtarıcıdır.",
+    "Krişna geçmişte gelmiş bir Vişnu avatarıdır; Şiva’ya bağlı değildir.",
+    "Rama da Vişnu’nun geçmiş avatarıdır."
+   ],
+   "kay": "Puranalar; Konu: Kali Yuga"
+  },
+  {
+   "id": "dn3-11",
+   "z": 1,
+   "s": "Hinduizm’de tanrı tasviri önünde çiçek, meyve, süt, tütsü ve ışık sunarak, dua ve ilahi okuyarak yapılan temel ibadet biçimine ne ad verilir?",
+   "c": [
+    "Yoga",
+    "Mantra",
+    "Sangha",
+    "Puja",
+    "Darşana"
+   ],
+   "d": 3,
+   "a": "Puja tapınakta ya da ev sunağında tanrı tasviri (murti) önünde yapılan sunu ve dua ibadetidir.",
+   "ac": [
+    "Yoga zihni arındırma disiplinidir.",
+    "Mantra ibadet sırasında tekrarlanan kutsal sözdür.",
+    "Sangha Budist keşişler topluluğudur.",
+    "Doğru: Hindu ibadetinin temel biçimi.",
+    "Darşana felsefe sistemi ya da kutsalı görmektir."
+   ],
+   "kay": "Konu: Hindu ibadeti"
+  },
+  {
+   "id": "dn3-12",
+   "z": 2,
+   "s": "Hinduizm’deki bayram – anlamı eşleştirmelerinden hangisi doğrudur?",
+   "c": [
+    "Holi – Işık bayramı; kandiller yakılır",
+    "Navaratri – Tanrıça Durga’nın kötülüğü yenmesi",
+    "Diwali – Renk bayramı; renkli tozlar atılır",
+    "Janmaştami – Şiva’nın büyük gecesi",
+    "Mahaşivaratri – Krişna’nın doğumu"
+   ],
+   "d": 1,
+   "a": "Navaratri (Durga Puja), dokuz gece süren ve Durga’nın kötülüğe karşı zaferini kutlayan bayramdır.",
+   "ac": [
+    "Işık bayramı Diwali’dir; Holi renk bayramıdır.",
+    "Doğru eşleşme.",
+    "Renk bayramı Holi’dir; Diwali ışık bayramıdır.",
+    "Janmaştami Krişna’nın doğumudur.",
+    "Mahaşivaratri Şiva’nın büyük gecesidir."
+   ],
+   "kay": "Konu: Hindu bayramları"
+  },
+  {
+   "id": "dn3-13",
+   "z": 3,
+   "s": "Bir Babür şehzadesi Upanişadları Farsçaya çevirmiş, ayrıca tasavvuf ile Hint felsefesi arasındaki benzerlikleri gösteren bir eser yazmıştır. Aynı hanedandan bir hükümdar ise farklı dinlerin unsurlarını birleştiren yeni bir inanç sistemi oluşturmaya çalışmıştır.\n\nParçada sözü edilen şehzade, eseri ve hükümdarın girişimi aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Babür – Babürnâme – Hümayun’un Sihizmi",
+    "Bîrûnî – Tahkîk mâ li’l-Hind – Gazneli Mahmud’un seferleri",
+    "Dârâ Şükûh – Mecmau’l-bahreyn – Ekber Şah’ın Dîn-i İlâhî’si",
+    "Dârâ Şükûh – el-Milel ve’n-nihal – Evrengzib’in Dîn-i İlâhî’si",
+    "Ekber Şah – Sırr-ı Ekber – Dârâ Şükûh’un Arya Samaj’ı"
+   ],
+   "d": 2,
+   "a": "Dârâ Şükûh Upanişadları Sırr-ı Ekber adıyla Farsçaya çevirmiş, Mecmau’l-bahreyn’i yazmıştır. Ekber Şah Dîn-i İlâhî’yi oluşturmaya çalışmıştır.",
+   "ac": [
+    "Babürnâme hatıratdır; Hümayun’un Sihizmi diye bir şey yoktur.",
+    "Bîrûnî Gazneli dönemi âlimidir, Babür şehzadesi değildir.",
+    "Doğru eşleşmedir.",
+    "el-Milel ve’n-nihal Şehristânî’nindir; Evrengzib Dîn-i İlâhî’nin karşıtı Sünnî bir hükümdardır.",
+    "Arya Samaj 19. yüzyılda Dayananda tarafından kurulmuştur."
+   ],
+   "kay": "Konu: Hinduizm ve İslam karşılaşması"
+  },
+  {
+   "id": "dn3-14",
+   "z": 3,
+   "s": "Hinduizm’de kurtuluş anlayışıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+   "c": [
+    "Kurtuluş, ruhun doğum-ölüm döngüsünden kurtulmasıdır.",
+    "İyi işler sonraki hayatta daha yüksek bir varlık formunda doğmaya yol açar.",
+    "Kast görevini yerine getirmek kurtuluş yolu sayılmıştır.",
+    "Bilgi, eylem ve sevgi yolları kurtuluşa götüren yollar olarak görülür.",
+    "Kurtuluş, kıyamette bedenle dirilip ebedî cennete girmekle gerçekleşir."
+   ],
+   "d": 4,
+   "a": "Hinduizm’de doğrusal bir kıyamet ve bedenle diriliş anlayışı yoktur; kurtuluş samsaradan çıkıp mokşaya ulaşmaktır.",
+   "ac": [
+    "Doğru: mokşa samsaradan kurtuluştur.",
+    "Doğru: karma yasası böyle işler.",
+    "Doğru: karma marga ve svadharma bunu ifade eder.",
+    "Doğru: jnana, karma ve bhakti yollarıdır.",
+    "Yanlış: bu, İbrahimî dinlerin ahiret anlayışıdır."
+   ],
+   "kay": "Konu: Hinduizm’de kurtuluş"
+  },
+  {
+   "id": "dn3-15",
+   "z": 2,
+   "s": "Altı ortodoks Hindu felsefe ekolünden birine bağlı olan bir düşünür, bireysel ruh ile mutlak gerçekliğin kesin olarak bir olduğunu, çokluk dünyasının ise yanılsamadan ibaret olduğunu savunmuştur.\n\nBu düşünür ve savunduğu öğreti aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Patanjali – Yoga",
+    "Kabir – Bhakti",
+    "Madhva – Dvaita (ikilik)",
+    "Ramanuja – Samkhya",
+    "Şankara – Advaita Vedanta"
+   ],
+   "d": 4,
+   "a": "Şankara (8. yy) Advaita (ikiliksizlik) Vedanta’sının kurucusudur.",
+   "ac": [
+    "Patanjali Yoga Sutralarının derleyicisidir.",
+    "Kabir bhakti şairidir; ortodoks bir felsefe ekolü kurmamıştır.",
+    "Madhva Tanrı ile ruhun ayrı olduğunu savunur.",
+    "Ramanuja nitelikli birlik görüşünü savunur; Samkhya ayrı bir ekoldür.",
+    "Doğru: Şankara ve Advaita."
+   ],
+   "kay": "Konu: Hindu felsefe sistemleri"
+  }
+ ]
+}

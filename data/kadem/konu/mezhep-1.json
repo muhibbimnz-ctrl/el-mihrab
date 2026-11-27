@@ -1,0 +1,868 @@
+{
+ "id": "mezhep-1",
+ "ad": "Mezhepler Tarihine Giriş: Mezhep, Fırka, Milel ve Nihal; Ayrılık Sebepleri; Literatür; 73 Fırka Hadisi",
+ "ders": "Mezhepler Tarihi",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Kavramlar: Mezhep, fırka, milel, nihal, makālât"
+  },
+  {
+   "merak": "Bir Müslüman “Mezhebim Hanefî” dediğinde de “Şîa bir mezheptir” dendiğinde de aynı kelime kullanılır. Oysa birincisi namazın nasıl kılınacağıyla, ikincisi devletin başında kimin bulunacağıyla ilgili bir ayrılıktır. Klasik müellifler bu farkı nasıl adlandırdı?"
+  },
+  "İslam Mezhepleri Tarihi, Müslümanlar arasında siyasi ve itikadi sebeplerle ortaya çıkmış toplulukların doğdukları ortamı, doğuş sebeplerini, teşekkül süreçlerini, görüşlerini, önde gelen şahsiyetlerini, edebiyatını, yayıldıkları bölgeleri ve İslam düşüncesine katkılarını inceleyen bilim dalıdır. Yöntemi betimleyicidir: Bir mezhebi doğru ya da yanlış ilan etmekten önce, onu kendi kaynaklarından ve tarihsel bağlamı içinde tanımaya çalışır. Bu yönüyle kelamdan ayrılır; kelam savunur ve reddeder, mezhepler tarihi tarif eder ve açıklar. Bu yüzden mezhepler tarihçisi; İslam tarihi, kelam, fıkıh, dinler tarihi, siyaset bilimi ve sosyoloji gibi alanlardan birlikte yararlanır.",
+  "Mezhep (ذهب kökünden) sözlükte “gidilen yol, gidilecek yer, görüş ve kanaat” demektir. Terim olarak, dinin inanç, ibadet veya muamelatla ilgili alanlarında belli bir yöntem ve görüş etrafında şekillenmiş düşünce ekolüdür. En geniş kavram budur: Hem Hanefîlik gibi fıkhi ekoller hem Mâtürîdîlik gibi itikadi ekoller hem de Şîa gibi siyasi kökenli topluluklar “mezhep” diye anılabilir.",
+  "Fırka (çoğulu fırak) “ayrılmış topluluk, bölük” demektir. Klasik literatürde daha çok itikadi ve siyasi gayelerle bir fikir ya da şahıs etrafında oluşmuş gruplar için kullanılır. “Fırka” kelimesinde ayrılık vurgusu güçlüdür; bu yüzden 73 fırka rivayetinde de bu kelime geçer. Ehl-i sünnet müelliflerinin kendi dışındaki grupları “fırka”, kendilerini ise “cemaat” diye anmaları bu yüzdendir.",
+  "Millet (çoğulu milel), Allah’ın peygamberler aracılığıyla gönderdiği, kitaba dayanan dindir; Kur’an’da “İbrâhim milleti” ifadesinde görüldüğü gibi “din” anlamında kullanılır. Nihle (çoğulu nihal) ise “iddia, kendi kendine edinilen görüş ve inanç” demektir; daha çok vahye dayanmayan, insan ürünü inanç ve felsefi sistemler için kullanılır. Şehristânî’nin eserinin adındaki “el-Milel ve’n-nihal” ikilisi tam olarak bu ayrımı yansıtır: vahye dayanan dinler ve onlardan doğan mezhepler ile felsefi ve beşerî görüşler.",
+  "Makāle (çoğulu makālât) “söz, görüş” demektir. Mezhepler tarihinde, bir grubun görüşlerini derleyen eserlere “makālât” denir; Eş’arî’nin Makālâtü’l-İslâmiyyîn’i bu türün en meşhurudur. Makālât türü başlangıçta çoğunlukla Ehl-i sünnet dışındaki çevrelerde (Mu’tezilî ve Şiî müellifler) gelişmiştir.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Sözlük anlamı",
+     "Terim olarak kullanımı"
+    ],
+    [
+     "Mezhep",
+     "Gidilen yol, görüş",
+     "İtikadi, fıkhi veya siyasi her türlü düşünce ekolü (en geniş kavram)"
+    ],
+    [
+     "Fırka",
+     "Ayrılmış bölük",
+     "İtikadi-siyasi gayelerle oluşmuş grup; ayrılık vurgusu taşır"
+    ],
+    [
+     "Millet (milel)",
+     "Yol, din",
+     "Vahye ve kitaba dayanan din"
+    ],
+    [
+     "Nihle (nihal)",
+     "İddia, edinilen görüş",
+     "Vahye dayanmayan beşerî inanç ve felsefi sistemler"
+    ],
+    [
+     "Makālât",
+     "Sözler, görüşler",
+     "Grupların görüşlerini derleyen eser türü"
+    ],
+    [
+     "Ehl-i ehvâ",
+     "Hevâ sahipleri",
+     "Nasları kendi arzusuna göre yorumladığı düşünülen gruplar"
+    ],
+    [
+     "Ehl-i bid’a",
+     "Bid’at ehli",
+     "Sünnet ve cemaat yolundan ayrılan gruplar (Sünnî terminoloji)"
+    ]
+   ]
+  },
+  "Klasik eserlerde sık geçen birkaç ifade daha vardır. Ehl-i kıble (ehlü’l-kıble), kıbleye yönelip namaz kılan, yani dinin temel esaslarını kabul eden bütün Müslümanların ortak adıdır; Ehl-i sünnet bu kavramla, farklı görüşteki Müslümanları kolayca tekfir etmeme ilkesini ifade etmiştir. Ehl-i sünnet ve’l-cemaat, Hz. Peygamber ve ashabının yolunu izleyen ve ümmetin ana gövdesinden (cemaat) ayrılmayan çoğunluğun adıdır. Ehl-i furkat (ayrılık ehli) ise bu ana gövdeden ayrılanlar için kullanılmıştır. Ehl-i hak ve ehl-i bâtıl, ehl-i istikamet ve ehl-i dalâlet gibi değer yüklü nitelemeler de görülür; her mezhep kendini “hak”, diğerlerini “bâtıl” saymıştır.",
+  {
+   "not": "Din ile mezhep aynı şey değildir. Din, Allah’ın vahiy yoluyla bildirdiği ilahî esaslardır; mezhep ise insanların bu dini anlama ve yorumlama çabasından doğan beşerî bir oluşumdur. Hiçbir mezhep İslam’ın kendisiyle özdeşleştirilemez. Bir kimsenin Müslüman olması için gerekli ortak payda tevhid, nübüvvet ve ahiret inancıdır; mezhepler bu ortak zemin üzerinde farklı yorumlardır."
+  },
+  {
+   "sinav": "“Vahye dayalı dinleri ifade eden kavram” → milel. “Vahye dayanmayan, beşerî inanç ve felsefeler” → nihal. “Grupların görüşlerini derleyen eser türü” → makālât. ÖSYM, din-mezhep ilişkisinde “Dinin ve mezhebin özdeş anlaşılmasında sakınca yoktur” veya “İslam mezhep üzerinden öğrenilmelidir” gibi yanlış ifadeleri çeldirici değil, doğru cevap (söylenemez) olarak sorar."
+  },
+  {
+   "akil": "Mezhep en geniş kavramdır; fırka ayrılık vurgulu itikadi-siyasi gruptur. Milel vahiy dinleri, nihal beşerî görüşlerdir. Mezhepler beşerî yorumlardır; dinin kendisi değildir."
+  },
+  {
+   "b": "2. Ayrılık neden doğdu? Mezheplerin ortaya çıkış sebepleri"
+  },
+  {
+   "merak": "Hz. Peygamber hayattayken ortaya çıkan her soru ona sorulur, cevap alınırdı. Onun vefatının hemen ardından, daha defnedilmeden, Sakîfe’de “Kim halife olacak?” sorusu tartışılıyordu. Sonraki yüzyılların bütün mezhep ayrılıkları bu ilk tartışmadan mı doğdu?"
+  },
+  "Mezheplerin doğuşunu tek bir sebebe bağlamak mümkün değildir. Mezhepler tarihçileri sebepleri genellikle siyasi, dinî-fikrî, sosyal-kültürel ve psikolojik başlıklar altında toplar. Bunlar birbirinden bağımsız değildir; çoğu zaman siyasi bir olay fikrî bir tartışmayı tetiklemiş, fikrî tartışma da zamanla itikadi bir sisteme dönüşmüştür.",
+  "Siyasi sebepler en belirleyici olanlardır. Hz. Peygamber’in vefatından sonra Benî Sâide Sakîfesi’nde (11/632) halife seçimi tartışıldı; Ensar kendi içinden bir emir isterken Muhâcirler Kureyş’in önceliğini savundu ve Hz. Ebû Bekir’e biat edildi. Hz. Ali’nin ve Hâşimoğullarının bu biate bir süre geç katılması, sonraki dönemde Şîa tarafından “Hz. Ali’nin hakkının gasp edildiği” iddiasına dayanak yapılacaktır. Şîa, Hz. Peygamber’in Vedâ Haccı dönüşü Gadîr-i Hum’da Hz. Ali hakkında söylediği “Ben kimin mevlâsı isem Ali de onun mevlâsıdır” sözünü nas ve tayin delili sayar; Ehl-i sünnet ise bu sözü Hz. Ali’nin faziletini ve ona sevgi gösterilmesini bildiren bir ifade olarak anlar.",
+  "Hz. Osman’ın halifeliğinin son yıllarında valilere ve akrabaların göreve getirilmesine yönelik eleştiriler büyüdü; Mısır, Kûfe ve Basra’dan gelen isyancılar halifeyi evinde kuşatıp şehit etti (35/656). Bu olay, İslam tarihinde “fitne” diye anılan iç çatışmalar döneminin başlangıcıdır. Hz. Ali’nin halifeliğinde önce Hz. Âişe, Talha ve Zübeyr’in de bulunduğu tarafla Cemel Vakası (36/656), ardından Şam valisi Muâviye ile Sıffîn Savaşı (37/657) yaşandı. Sıffîn’de mızraklara Mushaf sayfaları takılarak Kur’an’ın hakemliğine çağrı yapıldı; Hz. Ali’nin ordusundaki bir grup önce hakem tayinini zorladı, ardından “Hüküm yalnız Allah’ındır” diyerek hakemi kabul ettiği için Hz. Ali’yi tekfir edip ayrıldı. Hâricîler böyle doğdu. Kerbelâ’da Hz. Hüseyin’in şehit edilmesi (61/680) ise Şîa’nın siyasi bir taraftarlıktan dinî-duygusal bir kimliğe dönüşmesinde dönüm noktası oldu.",
+  "Bu savaşlar Müslümanların zihninde kaçınılmaz sorular doğurdu: Birbirini öldüren Müslümanlardan hangisi haklıydı? Büyük günah işleyen kişi mümin midir, kâfir midir? İman nedir, amel imanın parçası mıdır? Devlet başkanı kim olmalı, nasıl seçilmeli? Bu sorulara verilen farklı cevaplar Hâricîlik, Şîa, Mürcie ve Mu’tezile’nin doğuşuna yol açtı.",
+  "Dinî-fikrî sebepler de önemlidir. Kur’an’da “Allah’ın eli”, “Allah’ın yüzü”, “arşa istivâ” gibi müteşâbih ifadeler ve kader, irade, sıfatlar gibi konulardaki ayetlerin bir kısmı farklı yorumlara açıktır. Kur’an’ın kendisi muhkem ve müteşâbih ayetlerden söz eder (Âl-i İmrân, 3/7). Dilin yapısı (hakikat-mecaz, umum-husus), nasların bir kısmının yoruma açık olması ve hadislerin sübutu konusundaki farklı ölçüler de ayrılıkları besledi. İslam’ın düşünce ve akıl yürütmeyi teşvik etmesi, kişilerin farklı kanaatlere ulaşmasını doğal kıldı.",
+  {
+   "ayet": "Sana Kitab’ı indiren O’dur. Onun bazı ayetleri muhkemdir; bunlar Kitab’ın anasıdır. Diğerleri de müteşâbihtir. Kalplerinde eğrilik bulunanlar, fitne çıkarmak ve onu kendilerince yorumlamak için müteşâbih olanlarına uyarlar…",
+   "kay": "Âl-i İmrân, 3/7"
+  },
+  "Sosyal ve kültürel sebepler arasında kabilecilik (asabiyet) başta gelir: Kureyş ile Ensar, Hâşimoğulları ile Ümeyyeoğulları, Kuzey Arapları ile Güney Arapları arasındaki eski rekabetler yeni bir kılık altında devam etti. Fetihlerle İslam, Hristiyanlık, Yahudilik, Mecûsîlik, Maniheizm, Budizm ve Hint dinlerinin yaşandığı geniş bir coğrafyaya yayıldı; yeni Müslüman olanlar eski kültürlerinin bir kısmını korudu. Arap olmayan Müslümanların (mevâlî) eşitlik talepleri ve Şuûbiyye hareketi de bazı grupların tabanını oluşturdu. Abbâsîler döneminde Yunan felsefesinin Arapçaya çevrilmesi (Beytülhikme), akli tartışmaları derinleştirerek kelam ekollerinin oluşmasına katkı sağladı.",
+  {
+   "tablo": [
+    [
+     "Sebep grubu",
+     "Örnekler",
+     "Doğurduğu tartışma/mezhep"
+    ],
+    [
+     "Siyasi",
+     "Sakîfe, Hz. Osman’ın şehadeti, Cemel, Sıffîn, tahkim, Kerbelâ",
+     "İmamet, büyük günah; Şîa, Hâricîler, Mürcie"
+    ],
+    [
+     "Dinî-fikrî",
+     "Müteşâbih ayetler, dilin yapısı, hadislerin sübutu",
+     "Sıfatlar, kader, halku’l-Kur’an; Mu’tezile, Cebriyye, Selefiyye"
+    ],
+    [
+     "Sosyal",
+     "Asabiyet, Arap-mevâlî ilişkisi, Şuûbiyye",
+     "Hâricîlerin bedevi tabanı, bazı gulât gruplar"
+    ],
+    [
+     "Kültürel",
+     "Eski din ve kültürlerin etkisi, tercüme hareketi",
+     "Tenasüh, hulûl gibi fikirler; felsefi kelam"
+    ],
+    [
+     "Psikolojik",
+     "Kişilik ve mizaç farkları, karizmatik lider arayışı",
+     "Mehdîcilik, aşırı (gulât) yorumlar"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Mezheplerin doğuşunda etkili olan sebeplerden değildir” sorularında doğru cevap genellikle “Dinin temel kaynaklarında mezhep oluşumunun istenmesi” ya da “Hz. Peygamber’in mezhepleşmeyi teşvik etmesi” gibi bir ifadedir. Başka kültürlerin etkisi, siyasi olaylar, geniş coğrafyaya yayılma ve düşünce özgürlüğü sebepler arasındadır."
+  },
+  {
+   "akil": "İlk ayrılıklar siyasidir: Sakîfe → Hz. Osman’ın şehadeti → Cemel → Sıffîn ve tahkim → Kerbelâ. Siyasi sorular (kim haklı, büyük günah, imamet) zamanla itikadi sistemlere dönüştü. Müteşâbih ayetler, asabiyet, eski kültürler ve felsefe süreci derinleştirdi."
+  },
+  {
+   "b": "3. İlk tartışma konuları ve mezheplerin sınıflandırılması"
+  },
+  {
+   "merak": "Bir Hâricî’ye, bir Mürciî’ye, bir Mu’tezilî’ye ve bir Sünnî’ye aynı soruyu sorduğunuzu düşünün: “İçki içen ama Allah’a inanan bir adam mümin midir?” Dört farklı cevap alırsınız. Mezhepler tarihi bir bakıma bu dört cevabın hikâyesidir."
+  },
+  "Mezheplerin ilk tartıştığı konular siyasetle başlayıp zamanla metafiziğe uzanır. İmamet (devlet başkanlığı) meselesi Şîa ile Hâricîleri; büyük günah işleyenin (mürtekib-i kebîre) durumu Hâricîleri, Mürcie’yi, Mu’tezile’yi ve Ehl-i sünneti; insan fiilleri ve kader meselesi Kaderiyye ile Cebriyye’yi; Allah’ın sıfatları ve Kur’an’ın yaratılmışlığı (halku’l-Kur’an) meselesi Mu’tezile ile Ehl-i hadisi karşı karşıya getirdi.",
+  {
+   "tablo": [
+    [
+     "Mesele",
+     "Hâricîler",
+     "Mürcie",
+     "Mu’tezile",
+     "Ehl-i sünnet"
+    ],
+    [
+     "Büyük günah işleyen",
+     "Kâfirdir (çoğunluğa göre); ebedî cehennemlik",
+     "Mümindir; durumu Allah’a bırakılır (ircâ)",
+     "Ne mümin ne kâfir: el-menzile beyne’l-menzileteyn; tövbesiz ölürse ebedî cehennemde",
+     "Mümin ama günahkâr (fâsık); Allah dilerse affeder, dilerse cezalandırır"
+    ],
+    [
+     "Amel-iman ilişkisi",
+     "Amel imandan parçadır",
+     "Amel imandan parça değildir",
+     "Amel imandan parçadır",
+     "Amel imanın parçası değildir (Mâtürîdî, Hanefî); Ehl-i hadise göre kemâlindendir"
+    ],
+    [
+     "İmamet",
+     "Her ehil Müslüman (Kureyş şartı yok)",
+     "Siyasi çatışmada tarafsız",
+     "Seçimle; Kureyş şartı tartışmalı",
+     "Seçimle; Kureyş şartı (çoğunluk)"
+    ]
+   ]
+  },
+  "Mezhepler değişik açılardan sınıflandırılır. Konu bakımından itikadi mezhepler (Eş’ariyye, Mâtürîdiyye, Mu’tezile…), fıkhi mezhepler (Hanefî, Mâlikî, Şâfiî, Hanbelî, Câferî…) ve siyasi kökenli mezhepler (Şîa, Hâricîler) diye ayrılır. Ancak bu ayrım kesin değildir: Şîa ve Hâricîler siyasi olarak doğmuş, zamanla kendi itikadi ve fıkhi sistemlerini kurmuştur.",
+  "Nasları anlama yöntemi bakımından zâhirî ve bâtınî ayrımı yapılır. Zâhirî yaklaşım nassın açık ve lafzi anlamını esas alır; bâtınî yaklaşım ise nasların görünen anlamının ardında, ancak masum bir imam ya da seçkin bir zümrenin bilebileceği gizli (bâtın) bir anlam bulunduğunu savunur. İsmâiliyye, Nusayrîlik ve Dürzîlik bâtınî gruplara örnektir. Akıl-nakil dengesi bakımından ise Ehl-i hadis/Selefiyye nakli, Mu’tezile aklı öne çıkarırken Eş’ariyye ve Mâtürîdiyye ikisi arasında bir denge arar.",
+  "Ehl-i sünnet müellifleri kendi dışındaki grupları genellikle “ehl-i bid’a” veya “ehl-i ehvâ” olarak andı; fakat bu grupları kolayca İslam dışında saymadı. “Kıble ehlinden hiç kimse işlediği günah sebebiyle tekfir edilmez” ilkesi Ebû Hanîfe’ye nispet edilen el-Fıkhü’l-ekber geleneğinde ve sonraki Sünnî akaid metinlerinde yer alır. Ancak ulûhiyet, peygamberlik veya ahiret gibi temel esasları inkâr eden aşırı (gulât) gruplar bu kapsamın dışında değerlendirildi.",
+  {
+   "tablo": [
+    [
+     "Sınıflama ölçütü",
+     "Gruplar",
+     "Örnek"
+    ],
+    [
+     "Konu",
+     "İtikadi / fıkhi / siyasi",
+     "Mâtürîdîlik / Hanefîlik / Şîa"
+    ],
+    [
+     "Nas yorumu",
+     "Zâhirî / bâtınî",
+     "Zâhiriyye / İsmâiliyye"
+    ],
+    [
+     "Akıl-nakil",
+     "Nakilci / akılcı / dengeci",
+     "Selefiyye / Mu’tezile / Mâtürîdiyye"
+    ],
+    [
+     "Sünnî bakış",
+     "Ehl-i sünnet / ehl-i bid’a / gulât",
+     "Eş’ariyye / Mu’tezile / Nusayrîlik"
+    ]
+   ]
+  },
+  {
+   "sinav": "İtikadi-bâtınî eşleştirmesi sık sorulur: “Nasların zahiri manalarını kabul etmeyip gerçek anlamın ancak insanüstü bir kişi veya sınıf tarafından bilinebileceğini ileri süren grup” → İsmâiliyye (Bâtıniyye). Cehmiyye, İbâzıyye, Selefiyye ve Vehhâbîlik çeldiricidir; bunlar bâtınî değildir."
+  },
+  {
+   "akil": "İlk büyük meseleler: imamet, büyük günah, iman-amel, kader, sıfatlar, halku’l-Kur’an. Büyük günah: Hâricî “kâfir”, Mürcie “mümin, Allah’a havale”, Mu’tezile “ara konum”, Ehl-i sünnet “günahkâr mümin”."
+  },
+  {
+   "b": "4. Yetmiş üç fırka hadisi ve fırka-i nâciye"
+  },
+  {
+   "merak": "Mezhep kitaplarının neredeyse hepsi aynı hadisle açılır ve hepsi aynı sonuca varır: Kurtulan fırka biziz! Peki bir hadis, birbirine zıt bu kadar çok iddiaya nasıl dayanak olabildi?"
+  },
+  "Ebû Dâvûd, Tirmizî ve İbn Mâce’nin Sünen’lerinde farklı lafızlarla nakledilen bir rivayette Hz. Peygamber, Yahudilerin yetmiş bir, Hristiyanların yetmiş iki fırkaya ayrıldığını, kendi ümmetinin ise yetmiş üç fırkaya ayrılacağını bildirir. Bazı rivayetlerde bunlardan birinin dışındakilerin cehennemde olacağı eklenir; kurtulanın kim olduğu sorulduğunda da “cemaat” ya da “benim ve ashabımın üzerinde bulunduğu yol (mâ ene aleyhi ve ashâbî)” cevabı verilir.",
+  {
+   "hadis": "Yahudiler yetmiş bir veya yetmiş iki fırkaya ayrıldı; Hristiyanlar da yetmiş bir veya yetmiş iki fırkaya ayrıldı. Ümmetim ise yetmiş üç fırkaya ayrılacaktır.",
+   "kay": "Ebû Dâvûd, Sünnet, 1; Tirmizî, Îmân, 18; İbn Mâce, Fiten, 17"
+  },
+  "Bu rivayet kurtulan gruba “fırka-i nâciye” (kurtuluşa eren fırka) denmesine kaynaklık etmiştir. Ehl-i sünnet müellifleri kendilerini fırka-i nâciye olarak takdim etmiş; ama aynı iddia Şiî, Mu’tezilî ve İbâzî müelliflerde de kendi mezhepleri için dile getirilmiştir. Böylece rivayet, tarihî bir gerçekliği (ümmetin bölünmesini) haber vermekle birlikte, içerik bakımından istismara da açık hâle gelmiştir.",
+  "Rivayetin sıhhati ve yorumu tartışılmıştır. Hadisin “ümmetin yetmiş üç fırkaya ayrılacağı” kısmı birçok muhaddise göre hasen veya sahih kabul edilirken, “biri hariç hepsi cehennemdedir” ziyadesi daha çok eleştirilmiştir. Endülüslü Zâhirî âlim İbn Hazm, fırkaları tekfir veya cehenneme mahkûm etmeye dayanak yapılan bu ziyadeyi sahih kabul etmemiştir. Bazı rivayetlerde ise ifade tersine çevrilerek “hepsi cennette, biri cehennemdedir” şeklinde nakledilmiş; cehennemdeki grubun zındıklar olduğu belirtilmiştir. Bir kısım âlimler de “yetmiş üç” sayısının Arap dilindeki kullanım gereği belirli bir sayıyı değil çokluğu ifade ettiğini söylemiştir.",
+  "Rivayeti esas alan müellifler, saydıkları fırkaları tam yetmiş üçe tamamlamak için zorlamalara gitmiş, bazen aynı grubu farklı adlarla tekrar saymış, bazen de çok küçük alt grupları ayrı fırka gibi göstermiştir. Bunun en tipik örneği Abdülkāhir el-Bağdâdî’nin el-Fark beyne’l-fırak’ıdır: Bağdâdî, Râfıza (Şîa) ile Hâricîlerden ve Kaderiyye’den (Mu’tezile) yirmişer, Mürcie’den beş, Neccâriyye’den üç, Bekriyye, Dırâriyye, Cehmiyye ve Kerrâmiyye’den birer fırka sayarak yetmiş iki “helak olan” fırkaya ulaşır; yetmiş üçüncü ve kurtulan fırka Ehl-i sünnettir.",
+  {
+   "kontrol": "Bağdâdî’nin dağılımı (Râfıza 20, Hâricî 20, Kaderiyye 20, Mürcie 5, Neccâriyye 3, Bekriyye-Dırâriyye-Cehmiyye-Kerrâmiyye 1’er = 72) yaygın aktarımdır; sınavda ayrıntı sayılar sorulursa kitaptaki tasnifle karşılaştırılmalıdır."
+  },
+  {
+   "not": "Rivayetin bugünkü değerlendirmesinde öne çıkan iki nokta vardır: Birincisi, hadis ayrılığı övmez; aksine ümmeti bölünmeye karşı uyarır. İkincisi, kurtuluşun ölçüsü bir grubun adı değil, “Hz. Peygamber ve ashabının yolu”dur. Kur’an da dini parça parça edip fırkalara ayrılmayı kınar (Âl-i İmrân, 3/103, 105; En’âm, 6/159; Rûm, 30/32)."
+  },
+  {
+   "ayet": "Hep birlikte Allah’ın ipine sımsıkı sarılın; parçalanıp ayrılmayın…",
+   "kay": "Âl-i İmrân, 3/103"
+  },
+  {
+   "ayet": "Dinlerini parça parça edip gruplara ayrılanlar var ya, senin onlarla hiçbir ilişkin yoktur…",
+   "kay": "En’âm, 6/159"
+  },
+  "Bid’at kavramı da bu bağlamda önemlidir. Bid’at, sözlükte “önceden örneği olmadan ortaya konan şey”, terim olarak dinde aslı bulunmadığı hâlde sonradan ortaya çıkan inanç ve uygulamadır. Sünnî gelenekte bid’at ehli genellikle İslam dairesi dışında görülmemiştir; çünkü aynı kıbleye yönelenler kolayca küfürle suçlanamaz.",
+  {
+   "sinav": "“Ümmetim yetmiş üç fırkaya ayrılacak” hadisini esas alıp fırkaları sınıflandıran ve Ehl-i sünneti fırka-i nâciye olarak savunan klasik eser → el-Fark beyne’l-fırak (Bağdâdî). Hadisin “biri hariç hepsi cehennemde” kısmını sahih saymayan meşhur âlim → İbn Hazm. Tuzak: Eş’arî’nin Makālât’ı fırkaları tasvir eder ama 73 şemasını zorlamaz."
+  },
+  {
+   "akil": "73 fırka rivayeti: Ebû Dâvûd, Tirmizî, İbn Mâce. Kurtulan: “cemaat” / “ben ve ashabımın yolu” → fırka-i nâciye. “Biri hariç hepsi cehennemde” ziyadesi tartışmalı (İbn Hazm kabul etmez). 73’ü zorla tamamlayan tipik eser: Bağdâdî, el-Fark."
+  },
+  {
+   "b": "5. Mezhepler tarihi literatürü"
+  },
+  {
+   "merak": "Bugün bir mezhebi incelemek isteyen araştırmacı ilk önce hangi kitaba bakar? Dokuz yüz yıldır cevap neredeyse hiç değişmedi: Şehristânî’nin el-Milel ve’n-nihal’i. Bu kitabı bu kadar özel kılan neydi?"
+  },
+  "Mezhepler tarihi yazıcılığı hicrî III. asırda başladı. İlk eserler genellikle belli bir mezhebin içinden, o mezhebin iç bölünmelerini anlatmak veya rakiplerini reddetmek için yazıldı. Şiî müelliflerden Hasan b. Mûsâ en-Nevbahtî’nin Fıraku’ş-Şîa’sı ve Sa’d b. Abdullah el-Kummî’nin el-Makālât ve’l-fırak’ı Şîa’nın iç bölünmeleri için en eski kaynaklardır. Mu’tezilî Nâşi el-Ekber ve Ebü’l-Kāsım el-Belhî el-Kâ’bî de makālât türünde eserler yazdı.",
+  "Ehl-i sünnet içinde türün ilk büyük örneği Ebü’l-Hasen el-Eş’arî’nin (ö. 324/935-36) Makālâtü’l-İslâmiyyîn ve’htilâfü’l-musallîn’idir. Eser, adından da anlaşılacağı gibi “namaz kılanların”, yani Ehl-i kıblenin görüş ayrılıklarını konu alır. Eş’arî fırkaların görüşlerini büyük ölçüde tarafsız ve tasvirci bir dille aktarır; Mu’tezile içinde yetiştiği için bu ekolü çok ayrıntılı bilir. Eş’arî’nin itikadi eserleri ise el-İbâne an usûli’d-diyâne ve el-Lüma’dır.",
+  "Hanefî-Mâtürîdî çevreden Ebû Mutî’ Mekhûl en-Nesefî’nin er-Red alâ ehli’l-bida’ı (ö. 318/930) da 73 fırka şemasını kullanan erken bir eserdir. Ebü’l-Hüseyin el-Malatî’nin et-Tenbîh ve’r-red alâ ehli’l-ehvâ ve’l-bida’ı reddiye karakterlidir.",
+  "Abdülkāhir el-Bağdâdî (ö. 429/1037), el-Fark beyne’l-fırak ve beyânü’l-fırkati’n-nâciye minhüm adlı eseriyle 73 fırka hadisini merkeze alan, polemik dili sert, Ehl-i sünneti fırka-i nâciye olarak savunan bir model kurdu. Bağdâdî’nin talebesi sayılabilecek Ebü’l-Muzaffer el-İsferâyînî’nin et-Tabsîr fi’d-dîn’i bu eserin özeti niteliğindedir.",
+  "Endülüslü Zâhirî âlim İbn Hazm (ö. 456/1064) el-Fasl fi’l-milel ve’l-ehvâ ve’n-nihal adlı eserinde yalnız İslam fırkalarını değil, Yahudilik, Hristiyanlık, Mecûsîlik ve felsefi akımları da ele aldı. Eser karşılaştırmalı dinler tarihinin öncülerinden sayılır; Tevrat ve İncil metinlerine yönelttiği eleştiriler özellikle meşhurdur. İbn Hazm görüşlerini keskin ve tartışmacı bir dille ifade eder.",
+  "Muhammed b. Abdülkerîm eş-Şehristânî (ö. 548/1153) el-Milel ve’n-nihal’de önce İslam fırkalarını, sonra Ehl-i kitabı, Mecûsîleri, Sâbiîleri, Yunan ve İslam filozoflarını ve Hint inançlarını sistemli bir düzen içinde anlattı. Fırkaları ana gruplara ayırıp her birini alt kollarıyla verdi; görüşleri büyük ölçüde mezheplerin kendi ifadelerine sadık ve sakin bir dille aktarmaya çalıştı. Bu yüzden eser, hem mezhepler hem dinler tarihinin en çok başvurulan klasik kaynağı oldu ve Latince dâhil birçok dile çevrildi. Şehristânî İslam fırkalarının ana gruplarını Kaderiyye (Mu’tezile), Sıfâtiyye, Havâric ve Şîa olarak belirler.",
+  "Daha sonraki eserler arasında Fahreddin er-Râzî’nin İ’tikādâtü fıraki’l-müslimîn ve’l-müşrikîn’i, İbnü’l-Cevzî’nin Telbîsü İblîs’i ve tarih-biyografi türündeki eserler sayılabilir. Ayrıca İbn Sa’d, Belâzürî, Ya’kūbî, Taberî, İbn Kuteybe, Zehebî ve İbn Hacer gibi tarih ve tabakat yazarları, Câhiz ve İbnü’n-Nedîm (el-Fihrist) gibi müellifler de mezhepler tarihi için önemli bilgiler sunar. Bîrûnî’nin Tahkîku mâ li’l-Hind’i ise Hint dinleri hakkındaki ilk ciddi incelemedir; mezhepler değil dinler tarihi alanındadır.",
+  {
+   "tablo": [
+    [
+     "Müellif",
+     "Eser",
+     "Özelliği"
+    ],
+    [
+     "Nevbahtî (Şiî)",
+     "Fıraku’ş-Şîa",
+     "Şîa’nın iç bölünmeleri; en eski Şiî fırak eseri"
+    ],
+    [
+     "Eş’arî (ö. 324/935)",
+     "Makālâtü’l-İslâmiyyîn",
+     "Ehl-i kıblenin görüşlerini tarafsız ve tasvirci aktarır"
+    ],
+    [
+     "Mekhûl en-Nesefî (ö. 318/930)",
+     "er-Red alâ ehli’l-bida’",
+     "Erken Hanefî-Mâtürîdî reddiye"
+    ],
+    [
+     "Malatî (ö. 377/987)",
+     "et-Tenbîh ve’r-red",
+     "Reddiye karakterli"
+    ],
+    [
+     "Bağdâdî (ö. 429/1037)",
+     "el-Fark beyne’l-fırak",
+     "73 fırka şeması; Ehl-i sünnet fırka-i nâciye; polemikçi"
+    ],
+    [
+     "İsferâyînî (ö. 471/1078)",
+     "et-Tabsîr fi’d-dîn",
+     "el-Fark’ın özeti niteliğinde"
+    ],
+    [
+     "İbn Hazm (ö. 456/1064)",
+     "el-Fasl fi’l-milel ve’l-ehvâ ve’n-nihal",
+     "Dinler ve mezhepler; karşılaştırmalı; Zâhirî; sert üslup"
+    ],
+    [
+     "Şehristânî (ö. 548/1153)",
+     "el-Milel ve’n-nihal",
+     "Dinler, mezhepler, felsefe; sistematik ve görece tarafsız; en çok başvurulan"
+    ],
+    [
+     "Fahreddin er-Râzî",
+     "İ’tikādâtü fıraki’l-müslimîn ve’l-müşrikîn",
+     "Kısa ve sistematik"
+    ],
+    [
+     "Bîrûnî",
+     "Tahkîku mâ li’l-Hind",
+     "Hint dinleri (dinler tarihi)"
+    ]
+   ]
+  },
+  {
+   "sinav": "Eser-müellif eşleştirmesi bu konunun en çok sorulan kısmıdır. Tuzaklar: el-Milel ve’n-nihal (Şehristânî) ile el-Fasl fi’l-milel ve’l-ehvâ ve’n-nihal (İbn Hazm) adları birbirine benzer; Makālât (Eş’arî) ile el-Fark (Bağdâdî) karıştırılır. “Hem İslam fırkalarını hem diğer din ve felsefeleri sistemli düzen içinde anlatan, en çok başvurulan eser” → Şehristânî. “Karşılaştırmalı dinler tarihinin öncüsü, Endülüslü Zâhirî” → İbn Hazm. Muhammed Abduh, Reşîd Rızâ, Afgânî gibi modern isimler klasik literatür sorularında çeldiricidir."
+  },
+  {
+   "akil": "Eş’arî Makālât (tasvirci) → Bağdâdî el-Fark (73 fırka, polemik) → İbn Hazm el-Fasl (Endülüs, karşılaştırmalı, dinler de var) → Şehristânî el-Milel (sistematik, en çok başvurulan). Nevbahtî Fıraku’ş-Şîa Şiî iç bölünmelerin kaynağıdır."
+  },
+  {
+   "b": "6. Ehl-i sünnetin oluşumu ve mezheplerin genel haritası"
+  },
+  {
+   "merak": "“Ehl-i sünnet” ifadesini Hz. Ebû Bekir’in ya da Hz. Ömer’in ağzından duyamazsınız. Bu kavram ne zaman, kimlere karşı ve neden kullanılmaya başlandı?"
+  },
+  "Ehl-i sünnet ve’l-cemaat; Hz. Peygamber’in sünnetine ve ashabın yoluna bağlı kalan, ümmetin ana gövdesinden ayrılmayan çoğunluğun adıdır. Kavram hicrî III. asırdan itibaren Hâricî, Şiî, Mu’tezilî ve Mürciî olmayan Müslümanları tanımlamak için yaygınlaştı. Bu zihniyetin çekirdeğini oluşturan şahsiyetlerin başında Hasan-ı Basrî (ö. 110/728) gelir. Daha sonra bir yanda Mâlik b. Enes, Şâfiî ve Ahmed b. Hanbel gibi Ehl-i hadis âlimleri, öbür yanda Ebû Hanîfe ve talebeleri bu anlayışın taşıyıcıları oldu. Hicrî IV. asırdan itibaren Ehl-i sünnet kelamı Eş’arî ve Mâtürîdî etrafında iki büyük ekole ayrıldı. Bugün Müslümanların büyük çoğunluğu (yaklaşık yüzde seksen beş ile doksanı) Ehl-i sünnettir.",
+  "Ehl-i sünnet dışındaki başlıca yapıları ana hatlarıyla şöyle gruplayabiliriz: Hâricîler (bugün yalnız İbâzıyye yaşıyor), Şîa (İmâmiyye, Zeydiyye, İsmâiliyye ve gulât gruplar), Mürcie, Cebriyye ve Kaderiyye (tarihte kaldı), Mu’tezile (bağımsız mezhep olarak yaşamıyor ama fikirleri Zeydiyye ve İmâmiyye’de devam ediyor), Müşebbihe ve Kerrâmiyye (tarihte kaldı). Modern dönemde ise Vehhâbîlik, Selefîlik, Kadıyânîlik, Bâbîlik-Bahâîlik, modernist ve ıslahatçı akımlar ortaya çıktı.",
+  {
+   "tablo": [
+    [
+     "Grup",
+     "Doğuş",
+     "Bugünkü durumu"
+    ],
+    [
+     "Hâricîler",
+     "Sıffîn sonrası tahkim (37/657)",
+     "Yalnız İbâzıyye (Umman, Kuzey Afrika)"
+    ],
+    [
+     "Şîa",
+     "Hz. Ali taraftarlığı; Kerbelâ sonrası belirginleşme",
+     "İmâmiyye (İran, Irak…), Zeydiyye (Yemen), İsmâiliyye"
+    ],
+    [
+     "Mürcie",
+     "I. asrın ikinci yarısı, fitneye tepki",
+     "Bağımsız mezhep olarak yaşamıyor; fikirleri Hanefî-Mâtürîdî çizgide yumuşak hâliyle"
+    ],
+    [
+     "Cebriyye, Kaderiyye",
+     "Emevîler dönemi",
+     "Tarihte kaldı"
+    ],
+    [
+     "Mu’tezile",
+     "II. asır başı, Basra (Vâsıl b. Atâ)",
+     "Bağımsız olarak yok; etkisi Zeydiyye ve İmâmiyye kelamında"
+    ],
+    [
+     "Ehl-i sünnet",
+     "Ehl-i hadis ve Ehl-i rey; IV. asırda Eş’arî ve Mâtürîdî",
+     "Müslümanların büyük çoğunluğu"
+    ]
+   ]
+  },
+  "Bir başka önemli ayrım, Ehl-i sünnetin itikadi ve fıkhi mezhepleri arasındadır. İtikatta Eş’arîlik, Mâtürîdîlik ve Selefiyye; fıkıhta Hanefîlik, Mâlikîlik, Şâfiîlik ve Hanbelîlik Ehl-i sünnet içinde yer alır. Genel bir eğilim olarak Hanefîler itikatta Mâtürîdî; Şâfiî ve Mâlikîler çoğunlukla Eş’arî; Hanbelîler ise Selefî (Ehl-i hadis) çizgidedir. Eş’arîlik daha çok Arap dünyasında, Mâtürîdîlik ise Türk dünyasında, Balkanlarda ve Hint alt kıtasında yaygındır. “Mâtürîdîlik fıkhi bir mezheptir” veya “Fıkıhta Hanefî olanların çoğu Eş’arîdir” gibi ifadeler yanlıştır.",
+  {
+   "sinav": "“Ehl-i sünnetin fıkhi mezheplerinden değildir” → Mâtürîdîlik (itikadi mezhep). “Ehl-i sünnet kavramının doğru tanımı” → Hz. Peygamber, ashabı ve sonraki neslin dini uygulamalarına uyanlar. “Ehl-i furkat” → genel dinî akımdan (cemaat) ayrılanlar. Ehl-i sünnetin çekirdeğinde anılan ilk isim → Hasan-ı Basrî."
+  },
+  {
+   "akil": "Ehl-i sünnet kavramı III. asırda yaygınlaştı; çekirdek: Hasan-ı Basrî; iki kanat: Ehl-i hadis ve Ehl-i rey; IV. asırda Eş’arî-Mâtürîdî. Hanefî → Mâtürîdî; Şâfiî/Mâlikî → Eş’arî; Hanbelî → Selefî."
+  }
+ ],
+ "ozet": [
+  "Mezhep: gidilen yol; itikadi, fıkhi, siyasi her ekol için kullanılan en geniş kavram.",
+  "Fırka: itikadi-siyasi gayelerle oluşan, ayrılık vurgulu grup.",
+  "Milel: vahye dayalı dinler; nihal: vahye dayanmayan beşerî görüşler; makālât: görüşleri derleyen eser türü.",
+  "Din ilahî, mezhep beşerîdir; hiçbir mezhep İslam’la özdeşleştirilemez.",
+  "İlk ayrılıklar siyasidir: Sakîfe, Hz. Osman’ın şehadeti (35/656), Cemel (36/656), Sıffîn ve tahkim (37/657), Kerbelâ (61/680).",
+  "Diğer sebepler: müteşâbih ayetler, dilin yapısı, asabiyet, mevâlî meselesi, eski din ve kültürler, tercüme hareketi.",
+  "İlk tartışma konuları: imamet, büyük günah, iman-amel, kader, sıfatlar, halku’l-Kur’an.",
+  "Büyük günah: Hâricî kâfir; Mürcie Allah’a havale; Mu’tezile menzile beyne’l-menzileteyn; Ehl-i sünnet günahkâr mümin.",
+  "73 fırka rivayeti: Ebû Dâvûd, Tirmizî, İbn Mâce; kurtulan fırka: cemaat / Hz. Peygamber ve ashabının yolu (fırka-i nâciye).",
+  "“Biri hariç hepsi cehennemde” ziyadesini İbn Hazm sahih saymaz; 73 sayısı çokluk ifadesi olarak da yorumlanır.",
+  "Eş’arî: Makālâtü’l-İslâmiyyîn (tasvirci, Ehl-i kıblenin görüşleri).",
+  "Bağdâdî: el-Fark beyne’l-fırak (73 fırka şeması, Ehl-i sünnet fırka-i nâciye).",
+  "İbn Hazm: el-Fasl fi’l-milel ve’l-ehvâ ve’n-nihal (Endülüs, karşılaştırmalı dinler).",
+  "Şehristânî: el-Milel ve’n-nihal (dinler-mezhepler-felsefe; en çok başvurulan klasik eser).",
+  "Nevbahtî: Fıraku’ş-Şîa (Şîa’nın iç bölünmeleri).",
+  "Zâhirî-bâtınî ayrımı: bâtınî gruplar İsmâiliyye, Nusayrîlik, Dürzîlik.",
+  "Ehl-i sünnet kavramı III. asırda yaygınlaştı; çekirdeği Hasan-ı Basrî; IV. asırda Eş’arî ve Mâtürîdî ekolleri.",
+  "Hanefî → Mâtürîdî, Şâfiî ve Mâlikî → çoğunlukla Eş’arî, Hanbelî → Selefî."
+ ],
+ "kartlar": [
+  {
+   "o": "Milel ve nihal farkı",
+   "a": "Milel: vahye ve kitaba dayalı dinler. Nihal: vahye dayanmayan beşerî inanç ve felsefi görüşler."
+  },
+  {
+   "o": "Fırka ile mezhep farkı",
+   "a": "Mezhep en geniş kavram (itikadi, fıkhi, siyasi). Fırka: itikadi-siyasi gayelerle oluşmuş, ayrılık vurgulu grup."
+  },
+  {
+   "o": "Makālât",
+   "a": "Grupların görüşlerini derleyen eser türü. En meşhuru Eş’arî’nin Makālâtü’l-İslâmiyyîn’i."
+  },
+  {
+   "o": "Ehl-i kıble",
+   "a": "Kıbleye yönelip namaz kılan, dinin temel esaslarını kabul eden bütün Müslümanlar. “Ehl-i kıble tekfir edilmez” ilkesi."
+  },
+  {
+   "o": "Ehl-i furkat",
+   "a": "Ümmetin ana gövdesinden (cemaat) ayrılanlar."
+  },
+  {
+   "o": "Fırka-i nâciye",
+   "a": "73 fırka rivayetinde kurtuluşa eren grup; ölçüsü “Hz. Peygamber ve ashabının yolu” / “cemaat”."
+  },
+  {
+   "o": "73 fırka hadisinin kaynakları",
+   "a": "Ebû Dâvûd (Sünnet), Tirmizî (Îmân), İbn Mâce (Fiten)."
+  },
+  {
+   "o": "“Biri hariç hepsi cehennemde” ziyadesini kabul etmeyen",
+   "a": "İbn Hazm."
+  },
+  {
+   "o": "el-Fark beyne’l-fırak",
+   "a": "Abdülkāhir el-Bağdâdî; 73 fırka şeması, Ehl-i sünnet fırka-i nâciye, polemikçi üslup."
+  },
+  {
+   "o": "el-Milel ve’n-nihal",
+   "a": "Şehristânî (ö. 548/1153); dinler, mezhepler, felsefe; sistematik, en çok başvurulan klasik eser."
+  },
+  {
+   "o": "el-Fasl fi’l-milel ve’l-ehvâ ve’n-nihal",
+   "a": "İbn Hazm (Endülüs, Zâhirî); karşılaştırmalı dinler tarihinin öncüsü."
+  },
+  {
+   "o": "Fıraku’ş-Şîa",
+   "a": "Hasan b. Mûsâ en-Nevbahtî; Şîa’nın iç bölünmelerini anlatan erken Şiî eser."
+  },
+  {
+   "o": "KARIŞTIRMA: Makālât mı el-Fark mı?",
+   "a": "Makālât (Eş’arî): tasvirci, tarafsız. el-Fark (Bağdâdî): 73 fırka şeması, polemik."
+  },
+  {
+   "o": "İlk siyasi kırılma noktaları",
+   "a": "Sakîfe (11/632), Hz. Osman’ın şehadeti (35/656), Cemel (36/656), Sıffîn-tahkim (37/657), Kerbelâ (61/680)."
+  },
+  {
+   "o": "Ehl-i sünnetin çekirdek şahsiyeti",
+   "a": "Hasan-ı Basrî (ö. 110/728)."
+  },
+  {
+   "o": "Şehristânî’ye göre ana fırkalar",
+   "a": "Kaderiyye (Mu’tezile), Sıfâtiyye, Havâric, Şîa."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "m2-01",
+   "z": 2,
+   "s": "Hem İslam fırkalarını hem de Ehl-i kitap, Mecûsîler, Sâbiîler, Yunan ve İslam filozofları ile Hint inançlarını sistemli bir düzen içinde ele alan; görüşleri büyük ölçüde mezheplerin kendi ifadelerine sadık kalarak aktarmaya çalışan ve Latince dâhil birçok dile çevrilerek dinler ve mezhepler tarihinin en çok başvurulan klasik kaynağı olan eserin müellifi aşağıdakilerden hangisidir?",
+   "c": [
+    "İbn Hazm",
+    "Abdülkāhir el-Bağdâdî",
+    "Nevbahtî",
+    "Ebü’l-Hasen el-Eş’arî",
+    "Şehristânî"
+   ],
+   "d": 4,
+   "a": "Tarif edilen eser Şehristânî’nin (ö. 548/1153) el-Milel ve’n-nihal’idir. Dinleri, mezhepleri ve felsefi akımları sistemli bir düzen içinde ve görece tarafsız bir dille anlatır.",
+   "ac": [
+    "İbn Hazm da dinleri ve mezhepleri ele almıştır (el-Fasl); fakat üslubu sert ve tartışmacıdır, felsefe ve Hint inançlarını bu düzende işlemez.",
+    "Bağdâdî’nin el-Fark’ı yalnız İslam fırkalarını 73 fırka şemasıyla anlatır.",
+    "Nevbahtî’nin Fıraku’ş-Şîa’sı Şîa’nın iç bölünmelerini konu alır.",
+    "Eş’arî’nin Makālât’ı yalnız Ehl-i kıblenin görüş ayrılıklarını tasvir eder.",
+    "Doğru: el-Milel ve’n-nihal Şehristânî’nindir."
+   ],
+   "kay": "Konu: Mezhepler tarihi literatürü"
+  },
+  {
+   "id": "m2-02",
+   "z": 2,
+   "s": "Hicrî V. asrın başlarında yazılan bir eserde müellif, ümmetin yetmiş üç fırkaya ayrılacağını bildiren rivayeti merkeze alır. Râfıza, Hâricîler ve Kaderiyye’den yirmişer, Mürcie’den beş fırka sayarak “helak olan” yetmiş iki fırkaya ulaşır ve yetmiş üçüncü fırkanın Ehl-i sünnet olduğunu savunur. Eserin üslubu, diğer fırkalara karşı oldukça serttir.\n\nBu eser aşağıdakilerden hangisidir?",
+   "c": [
+    "Fıraku’ş-Şîa",
+    "Makālâtü’l-İslâmiyyîn",
+    "el-Fark beyne’l-fırak",
+    "Tahkîku mâ li’l-Hind",
+    "el-Fasl fi’l-milel ve’l-ehvâ ve’n-nihal"
+   ],
+   "d": 2,
+   "a": "73 fırka şemasını en sadık biçimde uygulayan ve Ehl-i sünneti fırka-i nâciye olarak savunan eser, Abdülkāhir el-Bağdâdî’nin (ö. 429/1037) el-Fark beyne’l-fırak’ıdır.",
+   "ac": [
+    "Nevbahtî’nin eseri yalnız Şîa’nın iç bölünmelerini anlatır.",
+    "Eş’arî’nin eseri fırkaları tasvirci bir dille aktarır; 73 şemasını zorlamaz.",
+    "Doğru: Bağdâdî, el-Fark beyne’l-fırak.",
+    "Bîrûnî’nin eseri Hint dinlerini inceler.",
+    "İbn Hazm 73 fırka rivayetinin “biri hariç hepsi cehennemde” kısmını sahih saymaz; eseri bu şemaya dayanmaz."
+   ],
+   "kay": "Konu: 73 fırka rivayeti ve literatür"
+  },
+  {
+   "id": "mz1-01",
+   "z": 3,
+   "s": "Mezhepler tarihinde kullanılan bazı kavramlarla ilgili şu ifadeler veriliyor:\nI. Milel kavramı, vahye ve kitaba dayanan dinleri ifade eder.\nII. Nihal kavramı, vahye dayanmayan beşerî inanç ve felsefi görüşler için kullanılır.\nIII. Fırka kavramı, mezhep kavramından daha geniş olup fıkhi ekolleri de kapsayan en genel terimdir.\nIV. Makālât, grupların görüşlerini derleyen eser türünün adıdır.\n\nYukarıdaki ifadelerden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I, II ve IV",
+    "II ve III",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Milel vahiy dinleri, nihal beşerî görüşler, makālât görüş derleyen eser türüdür. En geniş kavram ise fırka değil mezheptir; fırka ayrılık vurgulu itikadi-siyasi gruplar için kullanılır.",
+   "ac": [
+    "Eksik: IV. ifade de doğrudur.",
+    "Doğru: I, II ve IV doğru; III yanlış.",
+    "III yanlıştır; ayrıca I ve IV de doğrudur.",
+    "III yanlış olduğu için bu birleşim hatalıdır.",
+    "III yanlıştır; en geniş kavram mezheptir."
+   ],
+   "kay": "Konu: Temel kavramlar"
+  },
+  {
+   "id": "mz1-02",
+   "z": 3,
+   "s": "Bir müellif, eserinde Yahudilik, Hristiyanlık ve Mecûsîliği de ele almış; özellikle Tevrat ve İncil metinlerindeki çelişkilere yönelttiği ayrıntılı eleştirilerle karşılaştırmalı dinler tarihinin öncülerinden sayılmıştır. Fıkıhta nasların zahirine bağlı kalan bir mezhebe mensup olan bu Endülüslü âlim, ümmetin bölünmesine dair rivayetin “biri hariç hepsi cehennemdedir” kısmını da sahih kabul etmemiştir.\n\nBu müellif ve eseri aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Şehristânî – el-Milel ve’n-nihal",
+    "Fahreddin er-Râzî – İ’tikādâtü fıraki’l-müslimîn",
+    "Bağdâdî – el-Fark beyne’l-fırak",
+    "Malatî – et-Tenbîh ve’r-red",
+    "İbn Hazm – el-Fasl fi’l-milel ve’l-ehvâ ve’n-nihal"
+   ],
+   "d": 4,
+   "a": "Endülüslü, Zâhirî, Tevrat ve İncil eleştirisiyle tanınan ve 73 fırka rivayetinin cehennem ziyadesini sahih saymayan âlim İbn Hazm’dır (ö. 456/1064); eseri el-Fasl’dır.",
+   "ac": [
+    "Şehristânî Endülüslü ve Zâhirî değildir; Şehristan/Horasan kökenli Eş’arî bir âlimdir.",
+    "Râzî Eş’arî kelamcıdır; tarif edilen özellikler ona uymaz.",
+    "Bağdâdî 73 fırka şemasını savunur; Endülüslü değildir.",
+    "Malatî’nin eseri bir reddiyedir; dinler tarihi karakteri taşımaz.",
+    "Doğru."
+   ],
+   "kay": "Konu: Mezhepler tarihi literatürü"
+  },
+  {
+   "id": "mz1-03",
+   "z": 2,
+   "s": "Aşağıdaki müellif – eser eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Eş’arî – Makālâtü’l-İslâmiyyîn",
+    "Nevbahtî – Fıraku’ş-Şîa",
+    "Bağdâdî – el-Fark beyne’l-fırak",
+    "Şehristânî – el-Fasl fi’l-milel ve’l-ehvâ ve’n-nihal",
+    "İsferâyînî – et-Tabsîr fi’d-dîn"
+   ],
+   "d": 3,
+   "a": "el-Fasl fi’l-milel ve’l-ehvâ ve’n-nihal İbn Hazm’ındır. Şehristânî’nin eseri el-Milel ve’n-nihal’dir. Adların benzerliği klasik bir tuzaktır.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme; Şiî iç bölünmeleri anlatır.",
+    "Doğru eşleştirme.",
+    "Yanlış: el-Fasl İbn Hazm’ın eseridir.",
+    "Doğru eşleştirme; el-Fark’ın özeti niteliğindedir."
+   ],
+   "kay": "Konu: Mezhepler tarihi literatürü"
+  },
+  {
+   "id": "mz1-04",
+   "z": 3,
+   "s": "Bir araştırmacı, mezhepler tarihi literatüründe hicrî IV. asrın başında yazılmış bir eseri incelemektedir. Eserin adı “namaz kılanların görüş ayrılıklarını” konu edindiğini göstermektedir. Müellif, fırkaların görüşlerini büyük ölçüde tarafsız bir tasvirle aktarmakta; uzun süre içinde yetiştiği akılcı kelam ekolünün görüşlerini özellikle ayrıntılı vermektedir.\n\nAraştırmacının incelediği eserin müellifi ve bu müellifin yetiştiği ekol aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Mâtürîdî – Hanefiyye",
+    "Eş’arî – Mu’tezile",
+    "Bağdâdî – Eş’ariyye",
+    "Nevbahtî – İmâmiyye",
+    "Kâ’bî – Mu’tezile"
+   ],
+   "d": 1,
+   "a": "Makālâtü’l-İslâmiyyîn ve’htilâfü’l-musallîn, Eş’arî’nin eseridir. Eş’arî kırk yaşına kadar Ebû Ali el-Cübbâî’nin yanında Mu’tezile içinde yetişmiş, bu yüzden Mu’tezile görüşlerini çok ayrıntılı aktarmıştır.",
+   "ac": [
+    "Mâtürîdî’nin bilinen eserleri Kitâbü’t-Tevhîd ve Te’vîlât’tır; makālât türünde meşhur eseri yoktur.",
+    "Doğru: Eş’arî, Mu’tezile içinde yetişmiştir.",
+    "Bağdâdî’nin eseri polemikçidir ve V. asırdadır.",
+    "Nevbahtî Şîa’nın iç bölünmelerini yazmıştır; eserin adı da farklıdır.",
+    "Kâ’bî Mu’tezilî bir makālât yazarıdır; fakat “ihtilâfü’l-musallîn” başlıklı meşhur eser Eş’arî’nindir ve Kâ’bî bir ekolden ayrılmamıştır."
+   ],
+   "kay": "Konu: Mezhepler tarihi literatürü"
+  },
+  {
+   "id": "mz1-05",
+   "z": 3,
+   "s": "Yetmiş üç fırka rivayetiyle ilgili olarak aşağıdakilerden hangisi söylenemez?",
+   "c": [
+    "Rivayetin bütün tarikleri sahih kabul edildiği için müellifler arasında fırka-i nâciyenin kim olduğu konusunda ihtilaf çıkmamıştır.",
+    "Kurtulan grup bazı rivayetlerde “cemaat”, bazılarında “benim ve ashabımın üzerinde bulunduğu yol” diye tarif edilir.",
+    "Bazı âlimler yetmiş üç sayısını belirli bir sayı değil çokluk ifadesi olarak yorumlamıştır.",
+    "Rivayet Ebû Dâvûd, Tirmizî ve İbn Mâce’nin Sünen’lerinde yer alır.",
+    "Bazı müellifler fırkaları yetmiş üçe tamamlamak için aynı grupları farklı adlarla saymıştır."
+   ],
+   "d": 0,
+   "a": "Rivayetin özellikle “biri hariç hepsi cehennemdedir” ziyadesi tartışılmış, her mezhep kendini fırka-i nâciye saymıştır. Dolayısıyla ihtilaf çıkmadığı iddiası yanlıştır.",
+   "ac": [
+    "Söylenemez: sıhhati tartışılmış, her mezhep kendini kurtulan fırka saymıştır.",
+    "Doğru bir bilgidir.",
+    "Doğru bir bilgidir; sayının çokluk ifadesi olduğu görüşü vardır.",
+    "Doğru bir bilgidir.",
+    "Doğru bir bilgidir; özellikle Bağdâdî’de görülür."
+   ],
+   "kay": "Ebû Dâvûd, Sünnet, 1; Tirmizî, Îmân, 18"
+  },
+  {
+   "id": "mz1-06",
+   "z": 2,
+   "s": "Mezheplerin doğuşuyla ilgili şu etkenler veriliyor:\nI. Başka kültür ve medeniyetlerle etkileşim\nII. Halifelik meselesi etrafındaki siyasi çatışmalar\nIII. Bazı ayetlerin farklı yorumlara açık olması\nIV. Dinin temel kaynaklarında mezhep kurulmasının emredilmesi\n\nYukarıdakilerden hangileri mezheplerin ortaya çıkış sebepleri arasında gösterilebilir?",
+   "c": [
+    "Yalnız II",
+    "I ve II",
+    "I, II ve III",
+    "II, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 2,
+   "a": "Kültürel etkileşim, siyasi çatışmalar ve müteşâbih ayetlerin yoruma açıklığı mezheplerin doğuş sebepleridir. Kur’an ve sünnette mezhep kurulmasını emreden bir hüküm yoktur; aksine bölünme kınanır.",
+   "ac": [
+    "Eksik: I ve III de sebeptir.",
+    "Eksik: III de sebeptir.",
+    "Doğru.",
+    "IV yanlıştır; dinin kaynakları mezhepleşmeyi emretmez.",
+    "IV sebep değildir."
+   ],
+   "kay": "Konu: Mezheplerin ortaya çıkış sebepleri"
+  },
+  {
+   "id": "mz1-07",
+   "z": 3,
+   "s": "İslam tarihinde yaşanan bir iç savaş sırasında taraflardan biri, Kur’an’ın hakemliğine başvurulmasını teklif etti. Karşı ordudaki bir grup önce bu teklifin kabul edilmesi için liderlerini zorladı; anlaşma yapıldıktan sonra ise “Hüküm yalnız Allah’ındır” diyerek liderlerini de tekfir edip ordudan ayrıldı.\n\nBu olay ve sonuçları dikkate alındığında aşağıdakilerden hangisine ulaşılamaz?",
+   "c": [
+    "Olay, Şîa’nın imamet nazariyesini nas ve tayin esasına dayandırmasının doğrudan ve tek sebebidir.",
+    "Ayrılan grup Hâricîlerin çekirdeğini oluşturmuştur.",
+    "Olay, büyük günah işleyenin dinî durumu tartışmasını hızlandırmıştır.",
+    "Olay Sıffîn Savaşı’nda yaşanmıştır.",
+    "Siyasi bir çatışma kısa sürede itikadi bir tartışmaya dönüşmüştür."
+   ],
+   "d": 0,
+   "a": "Sıffîn’deki tahkim olayı Hâricîleri doğurmuş, büyük günah tartışmasını başlatmıştır. Şîa’nın nas ve tayin nazariyesi ise uzun bir süreç içinde, Gadîr-i Hum yorumları, Kerbelâ ve imamların öğretileriyle oluşmuştur; tahkim olayına bağlanamaz.",
+   "ac": [
+    "Ulaşılamaz: Şîa’nın imamet nazariyesi bu olaya bağlı değildir.",
+    "Doğru: Hâricîler bu ayrılıkla doğmuştur.",
+    "Doğru: tahkimi kabul edenlerin büyük günah işlediği iddiası tartışmayı başlatmıştır.",
+    "Doğru: olay Sıffîn’de (37/657) yaşanmıştır.",
+    "Doğru: siyasi olay itikadi tartışmaya dönüşmüştür."
+   ],
+   "kay": "Konu: Mezheplerin ortaya çıkış sebepleri"
+  },
+  {
+   "id": "mz1-08",
+   "z": 2,
+   "s": "Büyük günah işleyen bir Müslümanın durumu hakkında dört farklı görüş şöyledir:\n– Birinci görüş: Kâfir olur.\n– İkinci görüş: Mümindir; ahiretteki durumu Allah’a bırakılır.\n– Üçüncü görüş: Ne mümin ne kâfirdir; iki konum arasında bir yerdedir.\n– Dördüncü görüş: Günahkâr bir mümindir; Allah dilerse affeder, dilerse cezalandırır.\n\nBu görüşlerin sahipleri sırasıyla aşağıdakilerin hangisinde verilmiştir?",
+   "c": [
+    "Hâricîler – Mürcie – Mu’tezile – Ehl-i sünnet",
+    "Mu’tezile – Mürcie – Hâricîler – Ehl-i sünnet",
+    "Hâricîler – Ehl-i sünnet – Mu’tezile – Mürcie",
+    "Mürcie – Hâricîler – Ehl-i sünnet – Mu’tezile",
+    "Hâricîler – Mu’tezile – Mürcie – Ehl-i sünnet"
+   ],
+   "d": 0,
+   "a": "Hâricîler büyük günah işleyeni tekfir eder; Mürcie durumunu Allah’a bırakır (ircâ); Mu’tezile el-menzile beyne’l-menzileteyn der; Ehl-i sünnet onu günahkâr mümin sayar.",
+   "ac": [
+    "Doğru sıralama.",
+    "Mu’tezile tekfir etmez, ara konum der; Hâricîler ara konum değil küfür der.",
+    "İkinci görüş Mürcie’ye, dördüncüsü Ehl-i sünnete aittir.",
+    "Mürcie tekfir etmez; Hâricîler tekfir eder.",
+    "Ara konum görüşü Mu’tezile’nin, ircâ Mürcie’nindir; sıra karışıktır."
+   ],
+   "kay": "Konu: İlk tartışma konuları"
+  },
+  {
+   "id": "mz1-09",
+   "z": 3,
+   "s": "Din ve mezhep ilişkisi hakkında aşağıdakilerden hangisi söylenemez?",
+   "c": [
+    "Mezhepler, dinin anlaşılma biçimleriyle ilgili beşerî oluşumlardır.",
+    "İslam’ın, Kur’an ve sünnetten önce bir mezhebin kabulleri üzerinden öğrenilmesi gerekir.",
+    "Bir kimsenin Müslüman olması için gerekli ortak payda tevhid, nübüvvet ve ahiret inancıdır.",
+    "Hiçbir mezhep İslam’ın kendisiyle özdeşleştirilemez.",
+    "Gruplaşmalar insanın toplumsal bir varlık oluşunun doğal sonuçları arasında görülebilir."
+   ],
+   "d": 1,
+   "a": "Mezhepler dinin yorumlarıdır; dinin asıl kaynakları Kur’an ve sünnettir. İslam’ın mezhep üzerinden öğrenilmesi gerektiği iddiası din ile mezhebi özdeşleştirir ve yanlıştır.",
+   "ac": [
+    "Doğru: mezhepler beşerîdir.",
+    "Söylenemez: din mezhebe indirgenemez.",
+    "Doğru: temel ortak paydadır.",
+    "Doğru.",
+    "Doğru: sosyolojik bir tespittir."
+   ],
+   "kay": "Konu: Din-mezhep ilişkisi"
+  },
+  {
+   "id": "mz1-10",
+   "z": 2,
+   "s": "Hicrî III. asırdan itibaren Hâricî, Şiî, Mu’tezilî ve Mürciî olmayan Müslümanları tanımlamak için kullanılan; çekirdeğinde Hasan-ı Basrî gibi şahsiyetlerin bulunduğu, bir yanda Ehl-i hadis, öbür yanda Ebû Hanîfe ve talebelerince temsil edilen anlayışın adı aşağıdakilerden hangisidir?",
+   "c": [
+    "Ehl-i kıble",
+    "Ehl-i hadis",
+    "Ehl-i sünnet ve’l-cemaat",
+    "Ehl-i furkat",
+    "Ehl-i rey"
+   ],
+   "d": 2,
+   "a": "Tarif edilen kavram Ehl-i sünnet ve’l-cemaattir; hem Ehl-i hadisi hem Ehl-i reyi kapsar.",
+   "ac": [
+    "Ehl-i kıble bütün Müslümanları kapsar; Şiî ve Hâricîleri de içine alır.",
+    "Ehl-i hadis, Ehl-i sünnetin yalnız bir kanadıdır.",
+    "Doğru.",
+    "Ehl-i furkat ana gövdeden ayrılanların adıdır.",
+    "Ehl-i rey de Ehl-i sünnetin yalnız bir kanadıdır."
+   ],
+   "kay": "Konu: Ehl-i sünnetin oluşumu"
+  },
+  {
+   "id": "mz1-11",
+   "z": 3,
+   "s": "Aşağıdaki bilgilerden hangisi yanlıştır?",
+   "c": [
+    "Mâtürîdîlik, Ehl-i sünnetin itikadi mezheplerindendir.",
+    "Hanefîler itikatta genellikle Mâtürîdî çizgidedir.",
+    "Eş’arîlik daha çok Arap dünyasında, Mâtürîdîlik ise Türk dünyasında yaygındır.",
+    "Hanbelîler itikatta genellikle Selefî (Ehl-i hadis) çizgidedir.",
+    "Fıkıhta Hanefî olanların büyük çoğunluğu itikatta Eş’arîdir."
+   ],
+   "d": 4,
+   "a": "Hanefîler itikatta büyük ölçüde Mâtürîdîdir; Eş’arîlik daha çok Şâfiî ve Mâlikîler arasında yaygındır.",
+   "ac": [
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Yanlış: Hanefîlerin çoğu Mâtürîdîdir."
+   ],
+   "kay": "Konu: Mezheplerin genel haritası"
+  },
+  {
+   "id": "mz1-12",
+   "z": 2,
+   "s": "Klasik mezhepler tarihi eserlerinde, nasların görünen anlamının ardında ancak masum bir imam veya seçkin bir zümre tarafından bilinebilecek gizli bir anlam bulunduğunu savunan ve dinî hükümleri bu yoruma dayandıran gruplar ayrı bir başlık altında incelenir.\n\nAşağıdakilerden hangisi bu gruplara örnek olarak gösterilebilir?",
+   "c": [
+    "İbâzıyye",
+    "Cehmiyye",
+    "Selefiyye",
+    "İsmâiliyye",
+    "Kerrâmiyye"
+   ],
+   "d": 3,
+   "a": "Nasların zahirini aşıp bâtınî anlamı esas alan, bu anlamın masum imam tarafından bilindiğini söyleyen grup İsmâiliyye’dir (Bâtıniyye).",
+   "ac": [
+    "İbâzıyye Hâricî bir koldur; bâtınî değildir.",
+    "Cehmiyye cebr ve sıfatları inkârla bilinir; bâtınî değildir.",
+    "Selefiyye nassın zahirine bağlılığıyla bilinir.",
+    "Doğru.",
+    "Kerrâmiyye imanı dille ikrar sayan, teşbihe yakın bir gruptur."
+   ],
+   "kay": "Konu: Mezheplerin sınıflandırılması"
+  },
+  {
+   "id": "mz1-13",
+   "z": 1,
+   "s": "Kur’an’da Allah’ın ipine sımsıkı sarılmayı emreden ve parçalanıp ayrılmayı yasaklayan ayet aşağıdakilerden hangisidir?",
+   "c": [
+    "Bakara, 2/256",
+    "Âl-i İmrân, 3/103",
+    "Hucurât, 49/13",
+    "Nisâ, 4/59",
+    "Mâide, 5/3"
+   ],
+   "d": 1,
+   "a": "“Hep birlikte Allah’ın ipine sımsıkı sarılın; parçalanıp ayrılmayın” ayeti Âl-i İmrân 103’tür.",
+   "ac": [
+    "Dinde zorlama olmadığını bildirir.",
+    "Doğru.",
+    "İnsanların kavimler ve kabileler hâlinde yaratıldığını bildirir.",
+    "Allah’a, Resûle ve ulü’l-emre itaati emreder.",
+    "Dinin kemale erdirildiğini bildirir."
+   ],
+   "kay": "Âl-i İmrân, 3/103"
+  },
+  {
+   "id": "mz1-14",
+   "z": 3,
+   "s": "Mezhepler tarihi literatürüyle ilgili şu bilgiler veriliyor:\nI. Eş’arî’nin Makālâtü’l-İslâmiyyîn’i, Ehl-i kıble dışındaki din mensuplarının görüşlerine de geniş yer verir.\nII. Şehristânî, İslam fırkalarını Kaderiyye, Sıfâtiyye, Havâric ve Şîa gibi ana gruplar altında toplar.\nIII. Bîrûnî’nin Tahkîku mâ li’l-Hind’i mezhepler değil dinler tarihi alanında bir eserdir.\n\nYukarıdaki ifadelerden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 3,
+   "a": "Eş’arî’nin Makālât’ı yalnız Ehl-i kıblenin (namaz kılanların) görüş ayrılıklarını konu alır; diğer dinleri işlemez. Şehristânî’nin ana fırkaları ve Bîrûnî’nin eserinin alanı doğru verilmiştir.",
+   "ac": [
+    "I yanlıştır.",
+    "II de doğrudur.",
+    "I yanlıştır.",
+    "Doğru.",
+    "I yanlış olduğu için bu birleşim hatalıdır."
+   ],
+   "kay": "Konu: Mezhepler tarihi literatürü"
+  },
+  {
+   "id": "mz1-15",
+   "z": 2,
+   "s": "Hz. Peygamber’in vefatından sonra Ensar’ın kendi aralarından bir emir seçmek istediği, Muhâcirlerin ise Kureyş’in önceliğini savunduğu ve sonunda Hz. Ebû Bekir’e biat edilen toplantı mezheplerin oluşumunda ilk siyasi kırılma noktası sayılır.\n\nBu toplantının yapıldığı yer aşağıdakilerden hangisidir?",
+   "c": [
+    "Benî Sâide Sakîfesi",
+    "Gadîr-i Hum",
+    "Dâru’n-Nedve",
+    "Harûrâ",
+    "Dûmetü’l-Cendel"
+   ],
+   "d": 0,
+   "a": "İlk halife seçimi Benî Sâide Sakîfesi’nde yapılmıştır (11/632).",
+   "ac": [
+    "Doğru.",
+    "Gadîr-i Hum, Şîa’nın nas delili saydığı Hz. Peygamber’in Hz. Ali hakkındaki sözünün söylendiği yerdir.",
+    "Dâru’n-Nedve, Mekke’de cahiliye döneminin meclis binasıdır.",
+    "Harûrâ, Hâricîlerin Hz. Ali’den ayrılıp toplandığı yerdir.",
+    "Dûmetü’l-Cendel, Sıffîn sonrası hakemlerin toplandığı yerlerden biridir."
+   ],
+   "kay": "Konu: Mezheplerin ortaya çıkış sebepleri"
+  },
+  {
+   "id": "mz1-16",
+   "z": 3,
+   "s": "Mezhepler tarihi literatürüyle ilgili aşağıdaki değerlendirmelerden hangisi doğru değildir?",
+   "c": [
+    "İlk fırak eserlerinin bir kısmı, belli bir mezhebin içinden o mezhebin bölünmelerini anlatmak için yazılmıştır.",
+    "Makālât türü, başlangıçta Mu’tezilî ve Şiî müellifler arasında da gelişmiştir.",
+    "Mezhepler tarihi araştırmalarında tarih ve tabakat kitapları da önemli bir kaynaktır.",
+    "Şehristânî’nin eseri dinler tarihi açısından da önemli bir kaynaktır.",
+    "Bağdâdî’nin el-Fark’ı, Ehl-i sünnet dışındaki fırkaları tarafsız bir tasvirle aktaran ve hiçbir fırkayı mahkûm etmeyen bir eserdir."
+   ],
+   "d": 4,
+   "a": "Bağdâdî’nin el-Fark’ı 73 fırka şemasına dayanan, diğer fırkaları “helak olan” gruplar olarak niteleyen polemikçi bir eserdir.",
+   "ac": [
+    "Doğru: Nevbahtî ve Kummî örnektir.",
+    "Doğru: Nâşi el-Ekber ve Kâ’bî örnektir.",
+    "Doğru: İbn Sa’d, Belâzürî, Taberî gibi eserler kullanılır.",
+    "Doğru: dinleri ve felsefeyi de anlatır.",
+    "Doğru değildir: el-Fark polemikçidir."
+   ],
+   "kay": "Konu: Mezhepler tarihi literatürü"
+  }
+ ]
+}

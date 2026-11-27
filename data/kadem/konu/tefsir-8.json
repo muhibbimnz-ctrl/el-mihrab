@@ -1,0 +1,654 @@
+{
+ "id": "tefsir-8",
+ "ad": "Modern Dönemde Tefsir (İçtimaî, İlmî, Edebî, Konulu Tefsir, Nüzul Sırasına Göre Tefsir, Tarihselcilik); Osmanlı ve Türkiye’de Tefsir",
+ "ders": "Tefsir",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Modern dönemin sorusu: Kur’an çağa ne söylüyor?"
+  },
+  {
+   "merak": "XIX. yüzyılın sonunda Kahire’de bir genç Ezher hocası, Batı karşısında geri kalmış Müslümanlara seslenir: “Kur’an bir hidayet kitabıdır; onu i’rab tartışmalarına ve İsrâiliyata gömdük.” Bu genç, Muhammed Abduh’tur ve derslerinden doğan tefsir, modern tefsir hareketinin başlangıcı sayılır."
+  },
+  "Modern dönem tefsiri, Müslüman toplumların siyasi ve ilmî gerilemesi ile Batı’nın askerî, bilimsel ve kültürel üstünlüğü karşısında şekillendi. Müfessirler, klasik tefsirlerin hacimli dilbilim tartışmaları, İsrâiliyat ve mezhep polemikleri yerine Kur’an’ın hidayet mesajını, toplumsal ıslah boyutunu ve bilimle ilişkisini öne çıkardılar. Bu çaba farklı yönelimler doğurdu: içtimaî-edebî tefsir, ilmî tefsir, edebî-beyânî tefsir, konulu tefsir, nüzul sırasına göre tefsir ve tarihselci yaklaşımlar.",
+  {
+   "tablo": [
+    [
+     "Yönelim",
+     "Ana fikir",
+     "Temsilci – eser"
+    ],
+    [
+     "İçtimaî-edebî (ıslahçı)",
+     "Kur’an hidayet kitabıdır; toplumun ıslahı, akıl ve sünnetullah vurgusu",
+     "Muhammed Abduh – Reşîd Rızâ: Tefsîrü’l-Menâr"
+    ],
+    [
+     "Hareketçi / edebî",
+     "Kur’an’ı yaşanan hayatın ve mücadelenin kitabı olarak okuma",
+     "Seyyid Kutub – Fî Zılâli’l-Kur’ân; Mevdûdî – Tefhîmü’l-Kur’ân"
+    ],
+    [
+     "İlmî tefsir",
+     "Ayetlerde modern bilimin bulgularını arama",
+     "Tantâvî Cevherî – el-Cevâhir fî tefsîri’l-Kur’ân"
+    ],
+    [
+     "Edebî-beyânî",
+     "Kur’an’ı Arap edebiyatının en büyük metni olarak inceleme; bir kelimenin Kur’an’daki bütün kullanımlarını karşılaştırma",
+     "Emîn el-Hûlî; Bintü’ş-Şâtı’ – et-Tefsîrü’l-beyânî"
+    ],
+    [
+     "Nüzul sırasına göre",
+     "Sureleri iniş sırasıyla tefsir ederek vahyin tarihsel akışını izleme",
+     "İzzet Derveze – et-Tefsîrü’l-hadîs; Câbirî – Fehmü’l-Kur’ân"
+    ],
+    [
+     "Tarihselcilik / çift hareket",
+     "Ayetin indiği ortamdaki gaye bulunup bugüne taşınır",
+     "Fazlurrahman; Nasr Hâmid Ebû Zeyd"
+    ]
+   ]
+  },
+  {
+   "b": "2. İçtimaî tefsir ve Menâr: Abduh’tan Rızâ’ya"
+  },
+  "Tefsîrü’l-Menâr, Muhammed Abduh’un Ezher’de verdiği tefsir derslerinin öğrencisi Reşîd Rızâ tarafından not alınması, Menâr dergisinde yayımlanması ve Abduh’un ölümünden sonra Rızâ’nın kendi görüşleriyle devam ettirmesiyle oluşmuştur. Eser Yûsuf suresinin 101. ayetine kadar gelebilmiştir. Menâr ekolü, İsrâiliyatı ve zayıf rivayetleri sert biçimde eleştirmiş, taklidi reddetmiş, Kur’an’ın sosyal hayata yön veren ilkelerini öne çıkarmıştır. Bazı mucize ve gaybî konuları akla yakınlaştırma çabası ise eleştiri konusu olmuştur.",
+  {
+   "sinav": "Menâr = Abduh + Reşîd Rızâ, içtimaî-edebî tefsir. Fî Zılâli’l-Kur’ân = Seyyid Kutub. Tefhîmü’l-Kur’ân = Mevdûdî. el-Cevâhir = Tantâvî Cevherî (ilmî tefsir). Bunlar en sık sorulan modern eşleştirmelerdir."
+  },
+  {
+   "akil": "Menâr: Abduh’un dersleri, Rızâ’nın kalemi; ıslah, akıl, İsrâiliyat karşıtlığı. Hindistan’da akılcı yorum: Seyyid Ahmed Han."
+  },
+  {
+   "b": "3. İlmî tefsir: Kur’an bir fizik kitabı mı?"
+  },
+  {
+   "merak": "Bir konferansçı, Enbiyâ suresinin 30. ayetini gösterip “Büyük patlama teorisi on dört asır önce Kur’an’da vardı” der. Dinleyicilerden biri itiraz eder: “Peki yarın bu teori değişirse, Kur’an da mı değişmiş olacak?”"
+  },
+  "İlmî tefsir, Kur’an ayetlerini tabiat bilimlerinin verileriyle açıklayan ve ayetlerde bilimsel keşiflere işaretler bulmaya çalışan yönelimdir. Kökleri Gazzâlî’nin bütün ilimlerin Kur’an’dan çıkarılabileceği düşüncesine ve Râzî’nin kozmolojik açıklamalarına kadar götürülür; ancak sistemli bir yönelim olarak modern dönemde, özellikle Tantâvî Cevherî’nin el-Cevâhir’iyle belirginleşmiştir.",
+  {
+   "tablo": [
+    [
+     "İlmî tefsiri savunanlar",
+     "Eleştirenler"
+    ],
+    [
+     "Kur’an kâinat ayetlerine dikkat çeker; bilimle uyumu imanı güçlendirir",
+     "Şâtıbî: Kur’an ümmî bir topluma, onların anlayacağı dille inmiştir; bilim kitabı değildir"
+    ],
+    [
+     "Gazzâlî, Râzî, Süyûtî’nin bazı görüşleri; Tantâvî Cevherî",
+     "Mahmûd Şeltût, Emîn el-Hûlî: Değişken bilimsel teoriler sabit vahye bağlanamaz"
+    ],
+    [
+     "İ’câzın bilimsel boyutu (i’câz-ı ilmî)",
+     "Teori değişirse Kur’an’ın güvenilirliği sorgulanır hâle gelir; ayetler zorlanır"
+    ]
+   ]
+  },
+  "Dengeli yaklaşım şudur: Kur’an bir bilim kitabı değil, hidayet kitabıdır; ancak kâinata ilişkin ifadeleri kesinleşmiş bilimsel gerçeklerle çelişmez. Kesinleşmiş bilgiler ayetin anlaşılmasına yardımcı olabilir, fakat henüz teori düzeyindeki görüşler ayetlere yüklenmemelidir.",
+  {
+   "akil": "İlmî tefsir: Tantâvî Cevherî – el-Cevâhir. Karşı çıkan klasik ilke: Şâtıbî’nin “ümmîlik” ilkesi. Ölçü: kesinleşmiş bilgi destek olabilir, teori ayete yüklenmez."
+  },
+  {
+   "b": "4. Konulu tefsir, nüzul sırası ve tarihselcilik"
+  },
+  "Konulu (mevzûî) tefsir, bir konuyla ilgili bütün ayetleri bir araya getirip bütüncül bir Kur’an görüşü ortaya koymayı amaçlar; örneğin Kur’an’da sabır, Kur’an’da aile, Kur’an’da insan. Klasik dönemde ahkâm tefsirleri ve vücûh-nezâir kitapları bu yöntemin ilk örnekleri sayılır. Tertîbî (tahlîlî) tefsir ise mushaf sırasıyla ayet ayet ilerleyen klasik yöntemdir.",
+  "Nüzul sırasına göre tefsir, sureleri mushaf sırasıyla değil iniş sırasıyla ele alır; böylece vahyin Hz. Peygamber’in hayatı ve toplumun dönüşümüyle birlikte nasıl ilerlediği izlenir. İzzet Derveze’nin et-Tefsîrü’l-hadîs’i bu yöntemin ilk kapsamlı örneğidir. Tarihselci yaklaşımda ise Fazlurrahman’ın “çift hareket” teorisi öne çıkar: Birinci harekette ayetin indiği tarihsel durum ve ayetin gayesi (ratio legis) belirlenir; ikinci harekette bu genel ilke günümüzün şartlarına uygulanır. Tarihselcilik, hükümlerin evrenselliğini zedeleyebileceği gerekçesiyle Türkiye’deki ilahiyat çevrelerinde yoğun tartışılmıştır.",
+  {
+   "tablo": [
+    [
+     "Yöntem",
+     "Kur’an’ı nasıl okur?",
+     "Temsilci"
+    ],
+    [
+     "Tertîbî (tahlîlî)",
+     "Mushaf sırasıyla ayet ayet",
+     "Klasik tefsirlerin çoğu"
+    ],
+    [
+     "Mevzûî (konulu)",
+     "Bir konunun bütün ayetlerini toplayarak",
+     "Modern tezler, Bintü’ş-Şâtı’nın kelime incelemeleri"
+    ],
+    [
+     "Nüzûlî",
+     "Sureleri iniş sırasıyla",
+     "İzzet Derveze, Câbirî"
+    ],
+    [
+     "Tarihselci",
+     "Tarihsel bağlam → gaye → bugüne uygulama",
+     "Fazlurrahman (çift hareket)"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Çift hareket” kavramı Fazlurrahman ile, “et-Tefsîrü’l-hadîs” İzzet Derveze ile, “et-Tefsîrü’l-beyânî” Bintü’ş-Şâtı’ ile eşleştirilir. Konulu tefsirin tanımı da sık sorulur: tek bir konuyla ilgili ayetlerin toplu değerlendirilmesi."
+  },
+  {
+   "akil": "Tertîbî = sırayla; mevzûî = konuya göre; nüzûlî = iniş sırasıyla (Derveze); tarihselci = çift hareket (Fazlurrahman)."
+  },
+  {
+   "b": "5. Osmanlı’da tefsir: Haşiyeler ve büyük eserler"
+  },
+  {
+   "merak": "Bir Osmanlı medresesinde talebe, yıllarca Beyzâvî’yi okur; hocası her derste kenardaki haşiyeleri açar: Şeyhzâde, Siyalkûtî, Konevî… Osmanlı neden yeni bir tefsir yazmak yerine Beyzâvî’nin kenarına notlar düşmeyi tercih etti?"
+  },
+  "Osmanlı tefsir faaliyetinin en belirgin yönü, medrese ders kitabı olan Beyzâvî ve Zemahşerî tefsirleri üzerine yazılan haşiye ve ta’likatlardır. Şeyhzâde Muhammed Efendi’nin Beyzâvî haşiyesi bunların en meşhurudur. Bunun yanında müstakil tefsirler de yazılmıştır: Molla Fenârî’nin Fâtiha tefsiri Aynü’l-a’yân (girişinde tefsir usulü), Molla Gürânî’nin Gāyetü’l-emânî’si, Kemalpaşazâde’nin tefsiri ve Ebüssuûd Efendi’nin İrşâdü’l-akli’s-selîm’i. Ebüssuûd tefsiri Osmanlı’nın en çok itibar gören tefsiridir ve “hatîbü’l-müfessirîn” lakabıyla anılmasına yol açmıştır. İsmâil Hakkı Bursevî’nin Rûhu’l-beyân’ı ise işârî tefsirin Osmanlı’daki zirvesidir.",
+  "Türkçe tefsir geleneği de Osmanlı döneminde gelişmiştir. Ebü’l-Leys es-Semerkandî tefsirinin Türkçe tercümeleri, Ayıntâbî Mehmed Efendi’nin Tibyân tefsiri (XVIII. yüzyıl) ve Hüseyin Vâiz-i Kâşifî’nin Farsça tefsirinin İsmâil Ferruh Efendi tarafından yapılan tercümesi Mevâkib, halk arasında en çok okunan Türkçe tefsirler olmuştur.",
+  {
+   "tablo": [
+    [
+     "Osmanlı müfessiri",
+     "Eser",
+     "Not"
+    ],
+    [
+     "Molla Fenârî",
+     "Aynü’l-a’yân",
+     "Fâtiha tefsiri; usul mukaddimesi"
+    ],
+    [
+     "Molla Gürânî",
+     "Gāyetü’l-emânî",
+     "Fatih’in hocası"
+    ],
+    [
+     "Ebüssuûd Efendi",
+     "İrşâdü’l-akli’s-selîm",
+     "Belagat; en itibarlı Osmanlı tefsiri"
+    ],
+    [
+     "Şeyhzâde",
+     "Beyzâvî haşiyesi",
+     "En meşhur haşiye"
+    ],
+    [
+     "İsmâil Hakkı Bursevî",
+     "Rûhu’l-beyân",
+     "İşârî"
+    ],
+    [
+     "Ayıntâbî Mehmed",
+     "Tibyân",
+     "Türkçe tefsir"
+    ],
+    [
+     "İsmâil Ferruh",
+     "Mevâkib",
+     "Kâşifî’den Türkçe tercüme"
+    ]
+   ]
+  },
+  {
+   "b": "6. Cumhuriyet döneminde tefsir: Hak Dini Kur’an Dili ve sonrası"
+  },
+  "1925’te TBMM, Türkçe bir tefsir ve meal yazdırılması için bütçeye ödenek koydu. Diyanet İşleri Reisliği aracılığıyla tefsir Elmalılı Muhammed Hamdi Yazır’a, meal ise Mehmed Âkif Ersoy’a verildi. Âkif, mealin namazda Kur’an yerine okunacağı endişesiyle meali teslim etmedi. Elmalılı hem meali hem tefsiri yazdı; Hak Dini Kur’an Dili 1935-1938 yılları arasında dokuz cilt olarak basıldı. Eser, klasik tefsir birikimini (Râzî, Beyzâvî, Ebüssuûd, Âlûsî) Türkçe ve çağın meseleleriyle buluşturur; fıkhî konularda Hanefî, itikatta Mâtürîdî çizgidedir.",
+  {
+   "tablo": [
+    [
+     "Cumhuriyet dönemi eser",
+     "Müellif",
+     "Not"
+    ],
+    [
+     "Hak Dini Kur’an Dili",
+     "Elmalılı M. Hamdi Yazır",
+     "TBMM kararıyla, 1935-38, 9 cilt"
+    ],
+    [
+     "Hulâsatü’l-beyân fî tefsîri’l-Kur’ân",
+     "Konyalı Mehmed Vehbi",
+     "Erken Cumhuriyet, 15 cilt"
+    ],
+    [
+     "Kur’ân-ı Kerîm’in Türkçe Meâl-i Âlîsi ve Tefsiri",
+     "Ömer Nasuhi Bilmen",
+     "Diyanet reisi"
+    ],
+    [
+     "Risale-i Nur; İşârâtü’l-i’câz",
+     "Said Nursî",
+     "İman hakikatleri; İşârât, Fâtiha ve Bakara’nın başını nazım (dizim) yönünden tefsir eder"
+    ],
+    [
+     "Yüce Kur’an’ın Çağdaş Tefsiri",
+     "Süleyman Ateş",
+     "12 cilt"
+    ],
+    [
+     "Kur’an Yolu",
+     "Diyanet (H. Karaman, M. Çağrıcı, İ. K. Dönmez, S. Gümüş)",
+     "Meal ve tefsir, 5 cilt"
+    ]
+   ]
+  },
+  {
+   "sinav": "Hak Dini Kur’an Dili sorularında anahtar bilgiler: TBMM kararı (1925), Diyanet aracılığıyla, Elmalılı’nın hem meal hem tefsiri yazması, Âkif’in meali teslim etmemesi. Kur’an Yolu’nun Diyanet heyet tefsiri olduğu ve İşârâtü’l-i’câz’ın Said Nursî’ye ait olduğu da sorulur."
+  },
+  {
+   "akil": "Osmanlı: haşiye geleneği (Şeyhzâde) + Ebüssuûd – İrşâd + Bursevî – Rûhu’l-beyân. Cumhuriyet: Elmalılı – Hak Dini (TBMM 1925), Bilmen, Mehmed Vehbi, Said Nursî – İşârât, Süleyman Ateş, Diyanet – Kur’an Yolu."
+  }
+ ],
+ "ozet": [
+  "Modern tefsir, Batı karşısındaki gerileme ve ıslah arayışıyla şekillenmiştir.",
+  "Tefsîrü’l-Menâr, Muhammed Abduh’un dersleri ve Reşîd Rızâ’nın kalemiyle oluşan içtimaî-edebî tefsirdir; Yûsuf suresinde kalmıştır.",
+  "Fî Zılâli’l-Kur’ân Seyyid Kutub’un, Tefhîmü’l-Kur’ân Mevdûdî’nin eseridir.",
+  "İlmî tefsirin modern temsilcisi Tantâvî Cevherî’dir (el-Cevâhir).",
+  "Şâtıbî, Kur’an’ın ümmî bir topluma onların anlayacağı dille indiğini söyleyerek bilimsel tefsire karşı ilke koymuştur.",
+  "Edebî-beyânî tefsir: Emîn el-Hûlî ve Bintü’ş-Şâtı’ (et-Tefsîrü’l-beyânî).",
+  "Konulu tefsir bir konunun bütün ayetlerini bir arada inceler; tertîbî tefsir mushaf sırasıyla ilerler.",
+  "Nüzul sırasına göre tefsir: İzzet Derveze – et-Tefsîrü’l-hadîs.",
+  "Fazlurrahman’ın “çift hareket” teorisi tarihselci yaklaşımın temelidir.",
+  "Osmanlı tefsirinin ana karakteri Beyzâvî ve Keşşâf üzerine haşiyelerdir; en meşhuru Şeyhzâde haşiyesidir.",
+  "Ebüssuûd Efendi’nin İrşâdü’l-akli’s-selîm’i en itibarlı Osmanlı tefsiridir.",
+  "Türkçe tefsirler: Tibyân (Ayıntâbî Mehmed) ve Mevâkib (İsmâil Ferruh, Kâşifî’den tercüme).",
+  "Hak Dini Kur’an Dili, 1925 TBMM kararıyla Elmalılı’ya yazdırılmış, 1935-38’de 9 cilt basılmıştır; Âkif meali teslim etmemiştir.",
+  "Cumhuriyet dönemi diğer eserler: Bilmen, Mehmed Vehbi, Said Nursî (İşârâtü’l-i’câz), Süleyman Ateş, Diyanet – Kur’an Yolu."
+ ],
+ "kartlar": [
+  {
+   "o": "Tefsîrü’l-Menâr",
+   "a": "Muhammed Abduh ve Reşîd Rızâ; içtimaî-edebî tefsir, Yûsuf 101’e kadar."
+  },
+  {
+   "o": "Fî Zılâli’l-Kur’ân",
+   "a": "Seyyid Kutub; hareketçi-edebî tefsir."
+  },
+  {
+   "o": "Tefhîmü’l-Kur’ân",
+   "a": "Ebü’l-A’lâ Mevdûdî."
+  },
+  {
+   "o": "el-Cevâhir fî tefsîri’l-Kur’ân",
+   "a": "Tantâvî Cevherî; ilmî tefsir."
+  },
+  {
+   "o": "Şâtıbî’nin ümmîlik ilkesi",
+   "a": "Kur’an ümmî Araplara onların anlayacağı dille indi; bilimsel tefsire karşı klasik dayanak."
+  },
+  {
+   "o": "et-Tefsîrü’l-beyânî",
+   "a": "Bintü’ş-Şâtı’ (Âişe Abdurrahman); edebî tefsir."
+  },
+  {
+   "o": "et-Tefsîrü’l-hadîs",
+   "a": "İzzet Derveze; nüzul sırasına göre tefsir."
+  },
+  {
+   "o": "Çift hareket",
+   "a": "Fazlurrahman; tarihsel bağlamdan gayeye, gayeden bugüne."
+  },
+  {
+   "o": "Mevzûî tefsir",
+   "a": "Bir konudaki bütün ayetlerin toplu incelenmesi."
+  },
+  {
+   "o": "Şeyhzâde",
+   "a": "Beyzâvî tefsirinin en meşhur Osmanlı haşiyesi."
+  },
+  {
+   "o": "Aynü’l-a’yân",
+   "a": "Molla Fenârî’nin Fâtiha tefsiri."
+  },
+  {
+   "o": "Mevâkib",
+   "a": "İsmâil Ferruh Efendi; Kâşifî’nin Farsça tefsirinden Türkçeye."
+  },
+  {
+   "o": "Hak Dini Kur’an Dili",
+   "a": "Elmalılı; 1925 TBMM kararı, 1935-38, 9 cilt."
+  },
+  {
+   "o": "Kur’an Yolu",
+   "a": "Diyanet’in heyet tefsiri (Karaman, Çağrıcı, Dönmez, Gümüş)."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "tf8-01",
+   "z": 3,
+   "s": "Bir tefsirle ilgili şu bilgiler verilmiştir:\n• Ezher’de verilen derslerin bir öğrenci tarafından not alınıp dergide yayımlanmasıyla oluşmuştur.\n• İsrâiliyata ve taklide sert biçimde karşı çıkar; Kur’an’ın toplumsal ıslah boyutunu öne çıkarır.\n• Kur’an’ın tamamını kapsamaz; Yûsuf suresinde kalmıştır.\n\nBu tefsir aşağıdakilerden hangisidir?",
+   "c": [
+    "Tefsîrü’l-Menâr",
+    "Fî Zılâli’l-Kur’ân",
+    "el-Cevâhir fî tefsîri’l-Kur’ân",
+    "et-Tefsîrü’l-hadîs",
+    "Tefhîmü’l-Kur’ân"
+   ],
+   "d": 0,
+   "a": "Muhammed Abduh’un Ezher derslerinin Reşîd Rızâ tarafından Menâr dergisinde yayımlanmasıyla oluşan Tefsîrü’l-Menâr, Yûsuf 101’e kadar gelebilmiştir.",
+   "ac": [
+    "Doğru.",
+    "Seyyid Kutub’un tefsiri Kur’an’ın tamamını kapsar ve dergi notlarından doğmamıştır.",
+    "Tantâvî Cevherî’nin ilmî tefsiridir.",
+    "İzzet Derveze’nin nüzul sırasına göre tefsiridir.",
+    "Mevdûdî’nin tefsiridir; Kur’an’ın tamamını kapsar."
+   ],
+   "kay": "DİA, “el-Menâr” md."
+  },
+  {
+   "id": "tf8-02",
+   "z": 3,
+   "s": "“Kur’an, ümmî olan ve ilimlerden haberi bulunmayan bir topluma, onların anlayabileceği dil ve bilgi düzeyinde inmiştir. Bu yüzden ayetlerde Arapların bilmediği ilimleri aramak doğru değildir.”\n\nKlasik dönemde bu ilkeyi ortaya koyan âlim ve bu ilkenin günümüzde dayanak yapıldığı tartışma aşağıdakilerden hangisidir?",
+   "c": [
+    "Gazzâlî – işârî tefsirin meşruiyeti",
+    "Râzî – kelamî tefsir tartışması",
+    "Süyûtî – nâsih-mensûh tartışması",
+    "Şâtıbî – ilmî tefsirin eleştirisi",
+    "İbn Teymiyye – tâbiûn tefsirinin hücciyeti"
+   ],
+   "d": 3,
+   "a": "Şâtıbî el-Muvâfakāt’ta Kur’an’ın ümmî bir topluma onların anlayacağı şekilde indiğini söyler; bu “ümmîlik ilkesi” ilmî tefsire yöneltilen eleştirilerin klasik dayanağıdır.",
+   "ac": [
+    "Gazzâlî bütün ilimlerin Kur’an’dan çıkarılabileceğini söyleyerek tam tersi bir görüşe yakın durmuştur.",
+    "Râzî kozmolojik açıklamalarıyla ilmî tefsirin öncülerinden sayılır.",
+    "Süyûtî ilmî tefsire sıcak bakmıştır; ilke ona ait değildir.",
+    "Doğru.",
+    "Bu ilke İbn Teymiyye’ye ait değildir."
+   ],
+   "kay": "Şâtıbî, el-Muvâfakāt, II"
+  },
+  {
+   "id": "tf8-03",
+   "z": 3,
+   "s": "I. Ayetin indiği tarihsel ortam ve problem belirlenir.\nII. Ayetin bu ortamda gerçekleştirmek istediği genel ilke ve gaye çıkarılır.\nIII. Bu genel ilke günümüzün somut şartlarına uygulanır.\n\nYukarıda aşamaları verilen yöntem ve sahibi aşağıdakilerden hangisidir?",
+   "c": [
+    "Konulu tefsir – Bintü’ş-Şâtı’",
+    "Nüzul sırasına göre tefsir – İzzet Derveze",
+    "Çift hareket – Fazlurrahman",
+    "İlmî tefsir – Tantâvî Cevherî",
+    "İçtimaî tefsir – Reşîd Rızâ"
+   ],
+   "d": 2,
+   "a": "Tarihsel bağlamdan genel ilkeye, oradan bugüne uzanan iki yönlü yöntem Fazlurrahman’ın “çift hareket” teorisidir.",
+   "ac": [
+    "Konulu tefsir bir konunun bütün ayetlerini toplar; bu aşamalarla tanımlanmaz.",
+    "Derveze sureleri iniş sırasıyla tefsir eder; gaye-uygulama formülü ona ait değildir.",
+    "Doğru.",
+    "İlmî tefsir bilimsel verilerle ilgilidir.",
+    "Rızâ ıslahçı tefsirin temsilcisidir; bu formül ona ait değildir."
+   ],
+   "kay": "Fazlurrahman, İslam ve Modernite"
+  },
+  {
+   "id": "tf8-04",
+   "z": 2,
+   "s": "Bir araştırmacı, Kur’an’da “sabır” kavramını incelemek için bu kavramın geçtiği bütün ayetleri bir araya getirmiş, bağlamlarını karşılaştırarak bütüncül bir sonuca ulaşmaya çalışmıştır.\n\nAraştırmacının kullandığı yöntem aşağıdakilerden hangisidir?",
+   "c": [
+    "Tertîbî (tahlîlî) tefsir",
+    "Rivayet tefsiri",
+    "İşârî tefsir",
+    "Nüzûlî tefsir",
+    "Mevzûî (konulu) tefsir"
+   ],
+   "d": 4,
+   "a": "Bir konuya ilişkin bütün ayetleri toplayıp bütüncül değerlendirme yapmak konulu (mevzûî) tefsirdir.",
+   "ac": [
+    "Tertîbî tefsir mushaf sırasıyla ayet ayet ilerler.",
+    "Rivayet tefsiri nakle dayanır; yöntem bir konunun toplanmasıyla tanımlanmaz.",
+    "İşârî tefsir manevi işaretlerle ilgilidir.",
+    "Nüzûlî tefsir sureleri iniş sırasıyla ele alır.",
+    "Doğru."
+   ],
+   "kay": "DİA, “Tefsir” md."
+  },
+  {
+   "id": "tf8-05",
+   "z": 3,
+   "s": "1925’te Türkiye Büyük Millet Meclisi kararıyla başlatılan Türkçe tefsir ve meal çalışmasıyla ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Çalışma Diyanet İşleri Reisliği aracılığıyla yürütülmüştür.",
+    "Tefsir Elmalılı Muhammed Hamdi Yazır’a verilmiştir.",
+    "Mehmed Âkif yazdığı meali teslim etmiş ve meal Elmalılı tefsiriyle birlikte basılmıştır.",
+    "Meal görevi önce Mehmed Âkif Ersoy’a verilmiştir.",
+    "Eser 1935-1938 yılları arasında dokuz cilt olarak yayımlanmıştır."
+   ],
+   "d": 2,
+   "a": "Mehmed Âkif, mealin namazda Kur’an yerine kullanılacağı endişesiyle meali teslim etmemiştir. Hak Dini Kur’an Dili’ndeki meal Elmalılı’nın kendi mealidir.",
+   "ac": [
+    "Doğrudur; ödenek Diyanet aracılığıyla kullanılmıştır.",
+    "Doğrudur.",
+    "Yanlış ifade budur; Âkif meali teslim etmemiştir.",
+    "Doğrudur.",
+    "Doğrudur."
+   ],
+   "kay": "DİA, “Hak Dini Kur’an Dili” md."
+  },
+  {
+   "id": "tf8-06",
+   "z": 3,
+   "s": "I. Şeyhzâde\nII. Ebüssuûd Efendi\nIII. İsmâil Hakkı Bursevî\nIV. Molla Fenârî\n\nAşağıdakilerden hangisinde yukarıdaki müelliflerle tefsir alanındaki eserlerinin niteliği doğru eşleştirilmiştir?",
+   "c": [
+    "I – Fâtiha tefsiri; II – işârî tefsir; III – Beyzâvî haşiyesi; IV – belagat ağırlıklı tefsir",
+    "I – Beyzâvî haşiyesi; II – belagat ağırlıklı tam tefsir; III – işârî tefsir; IV – Fâtiha tefsiri",
+    "I – işârî tefsir; II – Beyzâvî haşiyesi; III – Fâtiha tefsiri; IV – ilmî tefsir",
+    "I – Beyzâvî haşiyesi; II – ahkâm tefsiri; III – rivayet tefsiri; IV – işârî tefsir",
+    "I – Keşşâf tercümesi; II – işârî tefsir; III – belagat ağırlıklı tefsir; IV – Fâtiha tefsiri"
+   ],
+   "d": 1,
+   "a": "Şeyhzâde Beyzâvî haşiyesiyle, Ebüssuûd İrşâdü’l-akli’s-selîm’le, Bursevî işârî Rûhu’l-beyân’la, Molla Fenârî Fâtiha tefsiri Aynü’l-a’yân’la tanınır.",
+   "ac": [
+    "Eşleştirmelerin hepsi karışıktır.",
+    "Doğru.",
+    "Şeyhzâde haşiye, Ebüssuûd tam tefsir, Bursevî işârî, Fenârî Fâtiha tefsiri sahibidir.",
+    "Ebüssuûd’un tefsiri ahkâm tefsiri değildir; Bursevî’ninki işârîdir; Fenârî’ninki Fâtiha tefsiridir.",
+    "Şeyhzâde Keşşâf tercüme etmemiş, Ebüssuûd işârî tefsir yazmamıştır."
+   ],
+   "kay": "DİA, ilgili maddeler"
+  },
+  {
+   "id": "tf8-07",
+   "z": 2,
+   "s": "Aşağıdaki modern tefsir – müellif eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Fî Zılâli’l-Kur’ân – Seyyid Kutub",
+    "Tefhîmü’l-Kur’ân – Mevdûdî",
+    "et-Tefsîrü’l-beyânî – Bintü’ş-Şâtı’",
+    "el-Cevâhir fî tefsîri’l-Kur’ân – Muhammed Abduh",
+    "et-Tefsîrü’l-hadîs – İzzet Derveze"
+   ],
+   "d": 3,
+   "a": "el-Cevâhir, ilmî tefsirin modern temsilcisi Tantâvî Cevherî’nin eseridir.",
+   "ac": [
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Yanlış eşleştirme budur; Abduh’un adı Menâr ile anılır.",
+    "Doğru eşleştirmedir."
+   ],
+   "kay": "Zehebî, et-Tefsîr ve’l-müfessirûn"
+  },
+  {
+   "id": "tf8-08",
+   "z": 3,
+   "s": "Bir hatip, vaazında yeni ortaya atılmış ve bilim çevrelerinde henüz tartışılan bir teoriyi bir ayetin kesin anlamı olarak sunmuştur.\n\nTefsir usulü açısından bu tutuma yöneltilebilecek en isabetli eleştiri aşağıdakilerden hangisidir?",
+   "c": [
+    "Kur’an’daki kâinat ayetleri hiçbir şekilde bilimle ilişkilendirilemez.",
+    "Bu tür yorumlar yalnız Mu’tezile tarafından yapılmıştır.",
+    "Bilimsel bilgiler ancak sahabe tarafından bilinmişse ayetle ilişkilendirilebilir.",
+    "Ayetler yalnızca işârî olarak yorumlanabilir.",
+    "Teori düzeyindeki görüşler ayetin kesin anlamı olarak sunulmamalıdır; teori değişirse Kur’an’ın güvenilirliği sorgulanır hâle gelir."
+   ],
+   "d": 4,
+   "a": "Dengeli görüşe göre kesinleşmiş bilgiler ayetin anlaşılmasına yardımcı olabilir; teori düzeyindeki görüşleri ayete yüklemek ise Kur’an’ı değişken bilgilere bağlamaktır.",
+   "ac": [
+    "Bu aşırı bir görüştür; ayetler bilimle çelişmez ve kesin bilgiler anlamaya katkı sağlayabilir.",
+    "İlmî tefsir mezhebî bir yaklaşım değildir.",
+    "Böyle bir şart yoktur.",
+    "İşârî yorum ayrı bir türdür.",
+    "Doğru."
+   ],
+   "kay": "DİA, “İlmî Tefsir” md."
+  },
+  {
+   "id": "tf8-09",
+   "z": 3,
+   "s": "Bir eserle ilgili şu bilgiler verilmiştir:\n• Müellifi Cumhuriyet döneminde yaşamıştır.\n• Fâtiha suresi ile Bakara suresinin baş kısmını ayetler arasındaki dizim (nazım) ilişkisi ve belagat yönünden açıklar.\n• Arapça yazılmış, sonradan Türkçeye çevrilmiştir.\n\nBu eser aşağıdakilerden hangisidir?",
+   "c": [
+    "İşârâtü’l-i’câz",
+    "Hulâsatü’l-beyân",
+    "Aynü’l-a’yân",
+    "Tibyân",
+    "Yüce Kur’an’ın Çağdaş Tefsiri"
+   ],
+   "d": 0,
+   "a": "Said Nursî’nin İşârâtü’l-i’câz fî mezânni’l-îcâz adlı eseri, Fâtiha ve Bakara’nın başını nazım yönünden açıklar ve Arapça yazılmıştır.",
+   "ac": [
+    "Doğru.",
+    "Mehmed Vehbi’nin Türkçe tam tefsiridir.",
+    "Molla Fenârî’nin Osmanlı dönemi Fâtiha tefsiridir.",
+    "XVIII. yüzyılda yazılmış Türkçe bir Osmanlı tefsiridir.",
+    "Süleyman Ateş’in Türkçe tam tefsiridir."
+   ],
+   "kay": "DİA, “İşârâtü’l-i’câz” md."
+  },
+  {
+   "id": "tf8-10",
+   "z": 2,
+   "s": "Hüseyin Vâiz-i Kâşifî’nin Farsça tefsirinin İsmâil Ferruh Efendi tarafından yapılan Türkçe tercümesi olup Osmanlı halkı arasında en çok okunan tefsirlerden biri hâline gelen eser aşağıdakilerden hangisidir?",
+   "c": [
+    "Mevâkib",
+    "Tibyân",
+    "Rûhu’l-beyân",
+    "Hak Dini Kur’an Dili",
+    "Gāyetü’l-emânî"
+   ],
+   "d": 0,
+   "a": "Mevâkib, Kâşifî’nin Mevâhib-i Aliyye adlı Farsça tefsirinin Türkçe tercümesidir.",
+   "ac": [
+    "Doğru.",
+    "Ayıntâbî Mehmed Efendi’nin tefsiridir.",
+    "Bursevî’nin Arapça işârî tefsiridir.",
+    "Elmalılı’nın tefsiridir.",
+    "Molla Gürânî’nin Arapça tefsiridir."
+   ],
+   "kay": "DİA, “Mevâkib” md."
+  },
+  {
+   "id": "tf8-11",
+   "z": 3,
+   "s": "Bir müfessir, Kur’an’ı sureleri iniş sırasıyla dizerek tefsir etmiş, böylece vahyin Hz. Peygamber’in hayatı ve toplumun dönüşümüyle birlikte nasıl ilerlediğini göstermeyi amaçlamıştır. Aynı yöntemi daha sonra Muhammed Âbid el-Câbirî de Fehmü’l-Kur’ân’da kullanmıştır.\n\nBu yöntemin ilk kapsamlı örneğini veren müfessir ve eseri aşağıdakilerden hangisidir?",
+   "c": [
+    "Emîn el-Hûlî – Menâhicü tecdîd",
+    "Muhammed İzzet Derveze – et-Tefsîrü’l-hadîs",
+    "Seyyid Kutub – Fî Zılâli’l-Kur’ân",
+    "Nasr Hâmid Ebû Zeyd – Mefhûmü’n-nas",
+    "Tantâvî Cevherî – el-Cevâhir"
+   ],
+   "d": 1,
+   "a": "İzzet Derveze et-Tefsîrü’l-hadîs’te sureleri nüzul sırasına göre tefsir etmiştir.",
+   "ac": [
+    "Emîn el-Hûlî edebî tefsir yöntemini savunmuştur.",
+    "Doğru.",
+    "Seyyid Kutub mushaf sırasını izlemiştir.",
+    "Ebû Zeyd metin teorisi üzerine yazmıştır; nüzul sırasına göre tam tefsiri yoktur.",
+    "Tantâvî ilmî tefsir yazmıştır."
+   ],
+   "kay": "DİA, “Derveze” md."
+  },
+  {
+   "id": "tf8-12",
+   "z": 3,
+   "s": "I. Tefsir Elmalılı Muhammed Hamdi Yazır tarafından yazılmıştır.\nII. Fıkhî konularda Hanefî, itikadi konularda Mâtürîdî çizgidedir.\nIII. Klasik tefsir birikiminden, özellikle Râzî, Beyzâvî, Ebüssuûd ve Âlûsî’den yararlanır.\nIV. İsrâiliyatı eleştirmeden aktaran bir rivayet tefsiridir.\n\nHak Dini Kur’an Dili ile ilgili yukarıdaki yargılardan hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Elmalılı tefsiri Hanefî-Mâtürîdî çizgide, klasik dirayet birikimini Türkçe ve çağın meseleleriyle buluşturan bir eserdir; İsrâiliyatı eleştirmeden aktaran bir rivayet tefsiri değildir.",
+   "ac": [
+    "Klasik birikimden yararlanması da doğrudur.",
+    "Doğru.",
+    "Birinci ve üçüncü öncül de doğrudur; dördüncü öncül yanlıştır.",
+    "İkinci öncül doğrudur, dördüncü öncül yanlıştır.",
+    "Dördüncü öncül yanlıştır."
+   ],
+   "kay": "DİA, “Hak Dini Kur’an Dili” md."
+  },
+  {
+   "id": "tf8-13",
+   "z": 2,
+   "s": "Diyanet İşleri Başkanlığı tarafından bir heyete hazırlatılan, meal ve kısa tefsirden oluşan eser aşağıdakilerden hangisidir?",
+   "c": [
+    "Tefsîrü’l-Menâr",
+    "Yüce Kur’an’ın Çağdaş Tefsiri",
+    "Hulâsatü’l-beyân",
+    "Kur’an Yolu",
+    "Hak Dini Kur’an Dili"
+   ],
+   "d": 3,
+   "a": "Kur’an Yolu; Hayreddin Karaman, Mustafa Çağrıcı, İbrahim Kâfi Dönmez ve Sadrettin Gümüş’ten oluşan heyet tarafından Diyanet için hazırlanmıştır.",
+   "ac": [
+    "Abduh ve Rızâ’nın Arapça eseridir.",
+    "Süleyman Ateş’in şahsi eseridir.",
+    "Mehmed Vehbi’nin şahsi eseridir.",
+    "Doğru.",
+    "TBMM kararıyla yazdırılmıştır, ama tek bir müellifin, Elmalılı’nın eseridir."
+   ],
+   "kay": "Diyanet, Kur’an Yolu, önsöz"
+  },
+  {
+   "id": "t2-03",
+   "z": 1,
+   "s": "Türkiye Büyük Millet Meclisi’nin kararıyla yazdırılan Hak Dini Kur’an Dili adlı tefsirin müellifi kimdir?",
+   "c": [
+    "Ömer Nasuhi Bilmen",
+    "Mehmed Âkif Ersoy",
+    "İsmâil Hakkı Bursevî",
+    "Ahmed Cevdet Paşa",
+    "Elmalılı Muhammed Hamdi Yazır"
+   ],
+   "d": 4,
+   "a": "Hak Dini Kur’an Dili Elmalılı Hamdi Yazır’ın eseridir.",
+   "ac": [
+    "Bilmen’in de bir tefsiri vardır ama bu eser onun değildir.",
+    "Meal görevini üstlenmiş ancak tamamlayıp teslim etmemiştir.",
+    "Rûhu’l-beyân’ın yazarıdır.",
+    "Mecelle heyetinin başkanıdır.",
+    "Doğru."
+   ],
+   "kay": "Tefsir literatürü"
+  },
+  {
+   "id": "t2-12",
+   "z": 3,
+   "s": "Muhammed Abduh ve talebesi Reşîd Rızâ’nın birlikte oluşturduğu, ıslahçı ve içtimaî yönüyle öne çıkan çağdaş tefsir hangisidir?",
+   "c": [
+    "Fî zılâli’l-Kur’ân",
+    "Tefhîmü’l-Kur’ân",
+    "el-Menâr",
+    "el-Cevâhir",
+    "Rûhu’l-meânî"
+   ],
+   "d": 2,
+   "a": "el-Menâr, Abduh’un derslerinin Reşîd Rızâ tarafından geliştirilmesiyle oluşmuştur.",
+   "ac": [
+    "Seyyid Kutub’un eseridir.",
+    "Mevdûdî’nin eseridir.",
+    "Doğru.",
+    "Tantâvî Cevherî’nin eseridir.",
+    "Âlûsî’nin eseridir."
+   ],
+   "kay": "Çağdaş tefsir"
+  }
+ ]
+}

@@ -1,0 +1,923 @@
+{
+ "id": "kuran-9",
+ "ad": "Kur’an Tercümeleri ve Meal Tarihi",
+ "ders": "Kur’an Bilgisi",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Kur’an tercüme edilebilir mi? Tercüme, meal ve tefsir"
+  },
+  {
+   "merak": "Bir şiiri başka bir dile çevirdiğinizde anlamı kalır ama ahengi kaybolur. Peki, i’câzı dilinde ve nazmında olan bir kitap başka bir dile tam olarak aktarılabilir mi?"
+  },
+  "Tercüme, bir sözü başka bir dilde ifade etmektir. Kur’an söz konusu olduğunda âlimler iki tür tercümeyi birbirinden ayırmıştır. Kelimeleri sırasıyla karşılayarak, Arapçanın dizilişini koruyarak yapılan çeviriye harfî (lafzî) tercüme denir. Anlamı esas alıp hedef dilin kurallarına göre yeniden ifade eden çeviriye ise tefsîrî (manevî) tercüme denir.",
+  "Âlimlerin çoğuna göre Kur’an’ın harfî tercümesi hem mümkün değildir hem de doğru değildir. Çünkü Kur’an’ın i’câzı lafız ve nazmındadır; kelimelerin çok anlamlılığı, mecazlar, nükteler ve ses ahengi başka bir dile aynen aktarılamaz. Bu yüzden Türkçede Kur’an’ın çevirisi için “tercüme” yerine çoğunlukla meal kelimesi kullanılır. Meal, “bir sözün varacağı yer, anlamın özü” demektir. Meal, mütercimin Kur’an’dan anladığı anlamın kendi diline aktarılmasıdır.",
+  {
+   "tablo": [
+    [
+     "",
+     "Kur’an",
+     "Meal",
+     "Tefsir"
+    ],
+    [
+     "Ne?",
+     "Allah’ın Arapça olarak indirdiği kelamı",
+     "Kur’an’ın anlamının başka bir dile aktarılması",
+     "Kur’an’ın anlamının açıklanması ve yorumlanması"
+    ],
+    [
+     "Kime ait?",
+     "Allah’a",
+     "Mütercime",
+     "Müfessire"
+    ],
+    [
+     "Namazda okunur mu?",
+     "Evet (Arapça aslı)",
+     "Hayır",
+     "Hayır"
+    ],
+    [
+     "İ’câz özelliği",
+     "Vardır",
+     "Yoktur",
+     "Yoktur"
+    ],
+    [
+     "Kur’an hükmünde mi?",
+     "Evet",
+     "Hayır; bir insan ürünüdür, yanılabilir",
+     "Hayır"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Tercüme türü",
+     "Açıklama",
+     "Değerlendirme"
+    ],
+    [
+     "Harfî (lafzî) tercüme",
+     "Kelimeleri sırasıyla karşılayan, Arapça cümle yapısını koruyan çeviri",
+     "Anlam kayıplarına ve anlaşılmaz cümlelere yol açar; çoğunluk Kur’an için uygun görmez"
+    ],
+    [
+     "Tefsîrî (manevî) tercüme / meal",
+     "Anlamı esas alıp hedef dilin kurallarına göre yeniden ifade eden çeviri",
+     "Tebliğ için gerekli ve caiz görülmüştür"
+    ],
+    [
+     "Açıklamalı (tefsirli) meal",
+     "Ayetlerin anlamına parantez içi açıklamalar ve dipnotlar eklenen meal",
+     "Anlamı daha iyi aktarır ama açıklama ile ayetin kendisi karıştırılmamalıdır"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Kur’an’ın kelimeleri sırasıyla karşılanarak, Arapça cümle yapısı korunarak yapılan çevirisi” → harfî tercüme. “Anlamı esas alan, hedef dilin kurallarına göre yapılan çeviri” → tefsîrî tercüme ya da meal. Tuzak: “Meal Kur’an’dır ve namazda okunabilir.” Yanlış."
+  },
+  {
+   "akil": "Harfî tercüme = kelime kelime (uygun görülmez); tefsîrî tercüme = anlam (meal). Meal Kur’an değildir; namazda okunmaz; i’câz taşımaz."
+  },
+  {
+   "b": "2. Namazda tercüme ile okumak: Hanefî mezhebinin görüşü"
+  },
+  {
+   "merak": "İranlı yeni Müslümanlar Arapça bilmiyordu; namazda Fâtiha’yı nasıl okuyacaklardı? İmam-ı Âzam’ın bu soruya verdiği ilk cevap, yıllar sonra kendisi tarafından değiştirildi."
+  },
+  "Ebû Hanîfe’den, Arapça okumaya gücü yetse de namazda Kur’an’ın Farsça tercümesinin okunabileceğine dair bir görüş nakledilmiştir. İmam Ebû Yûsuf ve İmam Muhammed ise bunu yalnız Arapça okumaya gücü yetmeyen kimse için caiz görmüştür. Hanefî kaynakları, Ebû Hanîfe’nin daha sonra bu görüşünden İmameyn’in görüşüne döndüğünü (rücû) bildirir ve mezhepte fetva buna göredir: Namazda Kur’an’ın Arapça aslını okumak gerekir; meal okumakla kıraat farzı yerine gelmez. Şâfiî, Mâlikî ve Hanbelîlere göre de tercümeyle namaz kılınmaz.",
+  {
+   "not": "Bu tartışmada Selmân-ı Fârisî’nin İranlılar için Fâtiha’yı Farsçaya çevirdiğine dair bir rivayet de zikredilir (Serahsî, el-Mebsût). Rivayetin sıhhati tartışmalıdır; ama tartışmanın tarihî bir parçasıdır."
+  },
+  {
+   "sinav": "“Hanefî mezhebinde fetvaya esas olan görüşe göre namazda Kur’an’ın tercümesi okunabilir mi?” Cevap: Hayır; Ebû Hanîfe ilk görüşünden dönmüştür. Tuzak: “Ebû Hanîfe’ye göre Arapça bilen herkes namazda tercüme okuyabilir” ifadesi fetvaya esas görüş olarak verilirse yanlıştır."
+  },
+  {
+   "akil": "Ebû Hanîfe ilk görüş: Farsça okunabilir → rücû etti. İmameyn: yalnız Arapça okuyamayana. Fetva: namazda Arapça aslı okunur."
+  },
+  "Diğer mezhepler bu konuda daha kesindir. Şâfiî, Mâlikî ve Hanbelî mezheplerine göre namazda Kur’an’ın tercümesini okumak caiz değildir; tercüme Kur’an değildir ve onunla kıraat farzı yerine gelmez. Fâtiha’yı Arapça okuyamayan kimse öğreninceye kadar onun yerine tesbih, tekbir ve tehlil gibi zikirler yapar. Hanefîlerde Ebû Hanîfe’nin rücûundan sonra varılan sonuç da pratikte aynıdır: Namazda Arapça aslı okunur, tercüme Kur’an hükmünde değildir.",
+  {
+   "tablo": [
+    [
+     "Görüş sahibi",
+     "Namazda tercüme ile okuma"
+    ],
+    [
+     "Ebû Hanîfe (ilk görüş)",
+     "Arapça bilen için de caiz (Farsça örneği)"
+    ],
+    [
+     "Ebû Yûsuf ve İmam Muhammed",
+     "Yalnız Arapça okuyamayana caiz"
+    ],
+    [
+     "Ebû Hanîfe (son görüş)",
+     "İmameynin görüşüne döndü"
+    ],
+    [
+     "Şâfiî, Mâlikî, Hanbelî",
+     "Caiz değil; okuyamayan zikir yapar"
+    ]
+   ]
+  },
+  {
+   "b": "3. İlk tercümeler: Farsça"
+  },
+  {
+   "merak": "Bir Türk hükümdarının sarayında, Arapça bilmeyen halk için büyük bir tefsir Farsçaya çevrilmeden önce âlimlerden fetva alındı. Kur’an tercümesinin tarihi böyle başladı."
+  },
+  "Hz. Peygamber’in komşu hükümdarlara gönderdiği mektuplarda yer alan ayetler (örneğin Bizans imparatoruna yazılan mektuptaki Âl-i İmrân 64), muhatapların dillerine tercümanlar aracılığıyla aktarılmıştı. Ama Kur’an’ın sistemli ilk tercümesi Farsça yapıldı. Sâmânîler döneminde Emîr Mansûr b. Nûh (X. yüzyıl), Mâverâünnehir âlimlerinden fetva alarak Taberî’nin büyük tefsirini Farsçaya çevirtti. Bu çalışma Kur’an’ın satır arası Farsça tercümesini de içeriyordu ve sonraki Türkçe tercümelerin temel kaynaklarından biri oldu.",
+  {
+   "akil": "İlk sistemli tercüme Farsça: Sâmânî Mansûr b. Nûh, X. yüzyıl, Taberî tefsirinin tercümesi (fetva alınarak)."
+  },
+  {
+   "b": "4. Türkçe tercümelerin tarihi"
+  },
+  {
+   "merak": "Bir kütüphanede, her Arapça kelimenin altına kırmızı mürekkeple küçük harflerle Türkçe karşılığı yazılmış eski bir mushaf duruyor. Bu satırlar, Türkçenin Kur’an’la ilk buluşmasının izleridir."
+  },
+  "İlk Türkçe Kur’an tercümeleri Karahanlılar döneminde (X-XI. yüzyıl), Mâverâünnehir’de yapıldı. Bu tercümeler satır arası (interlinear) tercümelerdi: Her Arapça kelimenin altına Türkçe karşılığı yazılıyordu. Farsça Taberî tercümesinden etkilendikleri kabul edilir. Bu dönemden kalan nüshaların başlıcaları Manchester’daki Rylands nüshası ile İstanbul’daki Türk ve İslam Eserleri Müzesi’nde bulunan 73 numaralı nüshadır. Sonraki asırlarda Harezm, Kıpçak, Çağatay ve Anadolu Türkçesiyle de satır arası ve tefsirli tercümeler yapıldı.",
+  {
+   "kontrol": "İlk Türkçe tercümenin tarihi kaynaklarda X. ya da XI. yüzyıl olarak verilir. TİEM 73 numaralı nüshanın istinsah tarihi 734/1333-34 olarak bilinir; ama tercüme metninin daha eski olduğu kabul edilir."
+  },
+  "Osmanlılar döneminde Kur’an’ın tek başına tercümesine temkinle yaklaşıldı; Türkçe çalışmalar daha çok tefsir ve tefsir tercümesi şeklinde oldu. Kâşifî’nin Farsça tefsiri Mevâhib-i Aliyye, İsmâil Ferruh Efendi’nin Mevâkib adıyla Türkçeye çevirdiği eser bunların tanınmışlarındandır. Ahmed Cevdet Paşa gibi isimlerin Kur’an tercümesi konusundaki görüşleri ve II. Meşrutiyet sonrasında yapılan tartışmalar Cumhuriyet dönemine kadar sürdü.",
+  {
+   "b": "Cumhuriyet dönemi"
+  },
+  {
+   "merak": "Millî Şair Mehmet Âkif, yıllarca üzerinde çalıştığı meali Mısır’da tamamladı ama teslim etmedi. Neden? Mealinin namazda Kur’an yerine okunacağı endişesi, rivayetlere göre onu bu karara götürdü."
+  },
+  "Cumhuriyetin ilk yıllarında Türkçe meal ihtiyacı yoğun biçimde tartışıldı. 1924’te Zekî Megâmiz ve Cemil Said’in mealleri yayımlandı; ama bunlar hatalarla doluydu ve eleştirildi. Bunun üzerine Türkiye Büyük Millet Meclisi 1925’te bir karar aldı ve Diyanet İşleri Başkanlığı aracılığıyla güvenilir bir tefsir ve meal yazdırılmasını istedi. Tefsir Elmalılı Muhammed Hamdi Yazır’a, meal ise Mehmet Âkif Ersoy’a verildi. Elmalılı, “Hak Dini Kur’an Dili” adlı tefsirini (meali de içinde) 1935-1938 yılları arasında tamamladı. Mehmet Âkif ise yaptığı meali, namazda okunacağı ya da Kur’an’ın yerine konacağı endişesiyle teslim etmedi; Mısır’dayken çalıştığı bu meal ancak yıllar sonra yayımlanabildi.",
+  {
+   "tablo": [
+    [
+     "Meal / tefsir",
+     "Müellif",
+     "Not"
+    ],
+    [
+     "Türkçe Tefsirli Kur’ân-ı Kerîm Tercümesi (1924)",
+     "Zekî Megâmiz",
+     "İlk basılı tam Türkçe meallerden; hataları sebebiyle eleştirildi"
+    ],
+    [
+     "Tercüme ve Tefsir-i Kur’ân-ı Kerîm (1924)",
+     "Cemil Said",
+     "Fransızca bir tercümeden etkilendiği için eleştirildi"
+    ],
+    [
+     "Hak Dini Kur’an Dili (1935-1938)",
+     "Elmalılı Muhammed Hamdi Yazır",
+     "TBMM kararıyla Diyanet adına yazıldı; tefsir ve meal"
+    ],
+    [
+     "Kur’an meali",
+     "Mehmet Âkif Ersoy",
+     "TBMM kararıyla görevlendirildi; teslim etmedi; çok sonra yayımlandı"
+    ],
+    [
+     "Kur’ân-ı Hakîm ve Meâl-i Kerîm (1953)",
+     "Hasan Basri Çantay",
+     "Cumhuriyet döneminin tanınmış meallerinden"
+    ],
+    [
+     "Kur’ân-ı Kerîm’in Türkçe Meâl-i Âlîsi ve Tefsiri",
+     "Ömer Nasuhi Bilmen",
+     "Meal ve tefsir"
+    ],
+    [
+     "Kur’an-ı Kerim ve Açıklamalı Meali",
+     "Diyanet heyeti (Ali Özek, Hayreddin Karaman, Ali Turgut, Mustafa Çağrıcı, İbrahim Kâfi Dönmez, Sadreddin Gümüş)",
+     "Diyanet ve Türkiye Diyanet Vakfı yayını"
+    ],
+    [
+     "Kur’an Yolu (meal ve tefsir)",
+     "Hayreddin Karaman, Mustafa Çağrıcı, İbrahim Kâfi Dönmez, Sadreddin Gümüş",
+     "Diyanet İşleri Başkanlığı yayını"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Diyanet meallerinin baskı yılları ve heyetlerin tam listesi baskıdan baskıya değişebilir; sınavda daha çok Elmalılı – Âkif – TBMM kararı (1925) ilişkisi sorulur."
+  },
+  {
+   "sinav": "1925 TBMM kararı ile ilgili tuzak: “Mehmet Âkif tefsiri, Elmalılı meali yazmakla görevlendirildi.” Ters verilmiştir: Elmalılı tefsiri (ve meali), Âkif meali yazmakla görevlendirildi. “Âkif mealini Diyanet’e teslim etti” de yanlıştır."
+  },
+  {
+   "akil": "İlk Türkçe tercüme: Karahanlı, satır arası (Rylands, TİEM 73). Osmanlı: tefsir tercümesi (Mevâkib). 1925 TBMM: Elmalılı → Hak Dini Kur’an Dili; Âkif → meal (teslim etmedi). Çantay → Kur’ân-ı Hakîm ve Meâl-i Kerîm."
+  },
+  "Cumhuriyetin ilk yıllarında Türkçe ibadet tartışmaları da yaşandı. 1932 Ramazan’ında İstanbul camilerinde Türkçe Kur’an tercümesi okutuldu, aynı yıl ezan Türkçe okunmaya başlandı; Arapça ezan 1950’de yeniden serbest bırakıldı. Bu tartışmalar, meal ile Kur’an’ın farkının neden bu kadar önemsendiğini gösterir: Meal anlamayı kolaylaştırır, ama ibadette Kur’an’ın yerini tutmaz.",
+  "Sonraki yıllarda Ömer Nasûhi Bilmen’in Kur’ân-ı Kerîm’in Türkçe Meâl-i Âlîsi ve Tefsiri, Diyanet İşleri Başkanlığı adına hazırlanan Kur’ân-ı Kerîm ve Açıklamalı Meali (Hayrettin Karaman, Ali Özek ve arkadaşları) ve Diyanet’in Kur’an Yolu Türkçe Meal ve Tefsiri gibi çalışmalar geniş okuyucu kitlesine ulaştı. Bugün Türkçede yüzlerce meal bulunmaktadır.",
+  {
+   "tablo": [
+    [
+     "Meal / tefsir",
+     "Müellif / hazırlayan",
+     "Not"
+    ],
+    [
+     "Hak Dini Kur’an Dili",
+     "Elmalılı M. Hamdi Yazır",
+     "1925 TBMM kararıyla; meal ve tefsir"
+    ],
+    [
+     "Kur’ân-ı Hakîm ve Meâl-i Kerîm",
+     "Hasan Basri Çantay",
+     "1953; edebî ve titiz meal"
+    ],
+    [
+     "Kur’ân-ı Kerîm’in Türkçe Meâl-i Âlîsi ve Tefsiri",
+     "Ömer Nasûhi Bilmen",
+     "Diyanet işleri eski başkanı"
+    ],
+    [
+     "Kur’an Yolu",
+     "Diyanet heyeti (Karaman, Çağrıcı, Dönmez, Gümüş)",
+     "Meal ve tefsir"
+    ],
+    [
+     "Kur’ân-ı Kerîm Meali",
+     "Diyanet (Altuntaş - Şahin)",
+     "Diyanet’in yaygın meali"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Diyanet meallerinin heyet adları ve baskı yılları baskıdan baskıya değişir; sınavda en çok Elmalılı, Âkif, Çantay ve Kur’an Yolu sorulur."
+  },
+  {
+   "akil": "1932: camilerde Türkçe tercüme okutuldu, ezan Türkçeleştirildi (1950’de Arapça ezan serbest). Çantay 1953; Bilmen; Kur’an Yolu (Diyanet heyeti)."
+  },
+  {
+   "b": "5. Batı dillerinde tercümeler"
+  },
+  {
+   "merak": "Kur’an’ın ilk Latince tercümesi Müslümanları anlamak için değil, onlara reddiye yazmak için yapıldı. Bu tercüme dört yüz yıl Avrupa’nın Kur’an algısını belirledi."
+  },
+  "İlk Latince tercüme 1143’te, Cluny Manastırı başrahibi Petrus Venerabilis’in (Peter the Venerable) isteğiyle İspanya’da Robertus Ketenensis (Robert of Ketton) tarafından yapıldı. Amaç İslam’ı reddetmekti; tercüme serbest ve hatalıydı. Bu tercüme 1543’te Theodor Bibliander tarafından Basel’de basıldı ve sonraki birçok Avrupa dili tercümesine kaynak oldu.",
+  {
+   "tablo": [
+    [
+     "Tercüme",
+     "Mütercim",
+     "Not"
+    ],
+    [
+     "Latince (1143)",
+     "Robert of Ketton",
+     "Petrus Venerabilis’in isteğiyle; polemik amaçlı; 1543’te Bibliander bastı"
+    ],
+    [
+     "İtalyanca (1547)",
+     "Andrea Arrivabene",
+     "Latince tercümeden aktarıldı"
+    ],
+    [
+     "Fransızca (1647)",
+     "André du Ryer",
+     "Doğrudan Arapçadan ilk Fransızca tercümelerden"
+    ],
+    [
+     "İngilizce (1649)",
+     "Alexander Ross",
+     "Du Ryer’in Fransızca tercümesinden"
+    ],
+    [
+     "Latince (1698)",
+     "Ludovico Marracci",
+     "Arapça metin, tercüme ve reddiyeler birlikte"
+    ],
+    [
+     "İngilizce (1734)",
+     "George Sale",
+     "Arapçadan; uzun süre İngilizcede standart tercüme"
+    ],
+    [
+     "İngilizce (1930)",
+     "Marmaduke Pickthall",
+     "Müslüman bir İngiliz’in tercümesi"
+    ],
+    [
+     "İngilizce (1934)",
+     "Abdullah Yusuf Ali",
+     "Açıklamalı; çok yaygın"
+    ],
+    [
+     "Fransızca (1959)",
+     "Muhammed Hamidullah",
+     "Müslüman bir âlimin Fransızca tercümesi"
+    ],
+    [
+     "İngilizce (1980)",
+     "Muhammed Esed",
+     "The Message of the Qur’an; açıklamalı"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Batı dillerindeki tercümelerin yılları kaynaklarda bir-iki yıl farkla verilebilir."
+  },
+  {
+   "sinav": "“Kur’an’ın Batı dillerine ilk tercümesi” → Latince, 1143, Robert of Ketton, Petrus Venerabilis’in isteği, reddiye amacı. Tuzak: “Bu tercüme İslam’ı tanıtmak için yapılmıştır.”"
+  },
+  {
+   "akil": "İlk Batı tercümesi: Latince 1143, Robert of Ketton, polemik. Sale 1734; Pickthall 1930; Yusuf Ali 1934; Hamidullah 1959 (Fransızca); Esed 1980."
+  },
+  "Batı’daki tercüme tarihinde ikinci büyük adım, Ludovico Marracci’nin 1698’de Arapça metinle birlikte yayımladığı Latince tercümedir; bu tercüme de reddiyeler içeriyordu ama Arapçadan dikkatle yapılmıştı. George Sale 1734’te Arapçadan doğrudan İngilizceye çevirdi; Sale’in tercümesi uzun süre İngilizce konuşan dünyanın temel kaynağı oldu. Almancada Rudi Paret’in tercümesi (1962-1966) akademik çevrelerde esas alınır; Fransızcada Régis Blachère ve Muhammed Hamidullah’ın tercümeleri öne çıkar. Arthur J. Arberry’nin The Koran Interpreted (1955) adlı tercümesi ise Kur’an’ın ahengini İngilizceye yansıtma çabasıyla bilinir. Müslüman mütercimlerin tercümeleri (Pickthall, Yusuf Ali, Hamidullah, Muhammed Esed) XX. yüzyılda polemik amaçlı Batı tercümelerine karşı bir denge oluşturdu.",
+  {
+   "tablo": [
+    [
+     "Dil",
+     "Önemli tercüme",
+     "Özellik"
+    ],
+    [
+     "Latince",
+     "Robert of Ketton (1143); Marracci (1698)",
+     "İlki polemik ve serbest; ikincisi Arapça metinli"
+    ],
+    [
+     "İngilizce",
+     "Ross (1649); Sale (1734); Arberry (1955)",
+     "Ross Fransızcadan; Sale Arapçadan"
+    ],
+    [
+     "Almanca",
+     "Rudi Paret (1962-1966)",
+     "Akademik standart tercüme"
+    ],
+    [
+     "Fransızca",
+     "Du Ryer (1647); Blachère; Hamidullah (1959)",
+     "Hamidullah Müslüman mütercim"
+    ],
+    [
+     "İngilizce (Müslüman)",
+     "Pickthall (1930); Yusuf Ali (1934); Esed (1980)",
+     "Müslüman bakış açısı"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Arapçadan doğrudan yapılan ve uzun süre esas alınan İngilizce tercüme” → George Sale (1734). Tuzak: Alexander Ross; o, Du Ryer’in Fransızcasından çevirmiştir. “Arapça metinle birlikte yayımlanan Latince tercüme” → Marracci (1698)."
+  },
+  {
+   "b": "6. Meal okurken nelere dikkat edilmeli?"
+  },
+  {
+   "merak": "Bir mealde “Elini boynuna bağlı kılma” yazıyor. Okuyucu şaşırıyor: Kim elini boynuna bağlar? Arapçadaki bu deyim “cimri olma” demektir. Meal okurken ilk ders: Kelimeler deyimlerle, deyimler bağlamla anlaşılır."
+  },
+  "Kur’an’ın dilinde mecazlar, deyimler ve kinayeler çoktur. “Elini boynuna bağlı kılma, büsbütün de açma” (İsrâ, 17/29) cimrilik ve savurganlık arasında dengeyi; “Allah’ın eli onların ellerinin üstündedir” (Fetih, 48/10) Allah’ın kudret ve yardımını anlatır. Harfî tercüme bu ifadeleri kelime kelime aktardığında anlam kaybolur ya da yanlış anlaşılır. İyi bir meal ise ya deyimin anlamını verir ya da parantez içinde açıklama ekler. Aynı ayetin farklı meallerini karşılaştırmak, mütercimin tercihlerini görmeyi sağlar.",
+  {
+   "sinav": "Mecazlı ayetin kelime kelime çevrilmesiyle ortaya çıkan anlaşılmazlık sorulursa cevap: harfî tercümenin deyim ve mecazları aktaramaması. Tuzak: “Ayetin anlamı belirsizdir” ya da “Ayet müteşabihtir” şıkları."
+  },
+  {
+   "tablo": [
+    [
+     "İlke",
+     "Açıklama"
+    ],
+    [
+     "Meal Kur’an değildir",
+     "Mütercimin anladığı anlamdır; Kur’an’ın sözü ve i’câzı ondan farklıdır"
+    ],
+    [
+     "Farklı mealleri karşılaştırmak",
+     "Bir ayetin farklı anlaşılabileceğini gösterir"
+    ],
+    [
+     "Bağlamı gözetmek",
+     "Ayeti öncesi ve sonrasıyla, aynı konudaki diğer ayetlerle birlikte okumak"
+    ],
+    [
+     "Nüzul ortamını bilmek",
+     "Esbâb-ı nüzul ve tarihî bağlam anlamı belirler"
+    ],
+    [
+     "Sünnetin açıklamalarına bakmak",
+     "Namaz, zekât gibi kavramların ayrıntısı sünnettedir"
+    ],
+    [
+     "Meale dayanarak kesin hüküm çıkarmamak",
+     "Fıkhî hükümler usul bilgisini gerektirir"
+    ]
+   ]
+  },
+  {
+   "akil": "Meal bir anlama denemesidir: bağlam, nüzul ortamı ve sünnet olmadan tek başına hüküm kaynağı değildir."
+  }
+ ],
+ "ozet": [
+  "Harfî (lafzî) tercüme kelimeleri sırasıyla karşılar; tefsîrî (manevî) tercüme anlamı esas alır. Çoğunluk Kur’an’ın harfî tercümesini mümkün ve uygun görmez.",
+  "Meal “anlamın özü” demektir; mütercimin anladığı anlamın aktarılmasıdır. Meal Kur’an değildir, namazda okunmaz, i’câz taşımaz.",
+  "Ebû Hanîfe’den namazda Farsça tercüme okunabileceği görüşü nakledilmiş, sonra bu görüşten döndüğü bildirilmiştir. Hanefî fetvasına göre namazda Arapça aslı okunur.",
+  "İmameyn tercümeyle okumayı yalnız Arapça okumaya gücü yetmeyen için caiz görmüştür.",
+  "İlk sistemli tercüme Sâmânîler döneminde Mansûr b. Nûh’un emriyle, fetva alınarak yapılan Taberî tefsiri tercümesidir (X. yüzyıl, Farsça).",
+  "İlk Türkçe tercümeler Karahanlılar döneminde satır arası olarak yapılmıştır; Rylands nüshası ve TİEM 73 numaralı nüsha bunların bilinenlerindendir.",
+  "Osmanlı’da çalışmalar daha çok tefsir tercümesi şeklindedir; Kâşifî’nin Mevâhib’inin tercümesi Mevâkib (İsmâil Ferruh) bunlardandır.",
+  "1924’te Zekî Megâmiz ve Cemil Said’in hatalı mealleri yayımlandı.",
+  "1925’te TBMM kararıyla Diyanet aracılığıyla tefsir Elmalılı Hamdi Yazır’a (Hak Dini Kur’an Dili, 1935-38), meal Mehmet Âkif’e verildi; Âkif mealini teslim etmedi.",
+  "Hasan Basri Çantay’ın meali Kur’ân-ı Hakîm ve Meâl-i Kerîm (1953) adını taşır.",
+  "Diyanet’in Kur’an Yolu meal ve tefsirini Hayreddin Karaman, Mustafa Çağrıcı, İbrahim Kâfi Dönmez ve Sadreddin Gümüş hazırlamıştır.",
+  "Batı dillerine ilk tercüme 1143’te Petrus Venerabilis’in isteğiyle Robert of Ketton’ın polemik amaçlı Latince tercümesidir; 1543’te Bibliander bastırmıştır.",
+  "Diğer önemli tercümeler: André du Ryer (Fransızca, 1647), George Sale (İngilizce, 1734), Pickthall (1930), Yusuf Ali (1934), Hamidullah (Fransızca, 1959), Muhammed Esed (1980).",
+  "Meal okurken bağlam, nüzul ortamı ve sünnet dikkate alınmalı; mealden doğrudan kesin hüküm çıkarılmamalıdır."
+ ],
+ "kartlar": [
+  {
+   "o": "Harfî ve tefsîrî tercüme",
+   "a": "Harfî: kelime kelime, Arapça dizilişi koruyan. Tefsîrî: anlamı esas alan, hedef dilin kurallarına uyan (meal)."
+  },
+  {
+   "o": "Meal kelimesinin anlamı",
+   "a": "Bir sözün varacağı yer, anlamın özü."
+  },
+  {
+   "o": "Meal namazda okunur mu?",
+   "a": "Hayır. Hanefî fetvasına göre namazda Kur’an’ın Arapça aslı okunur."
+  },
+  {
+   "o": "Ebû Hanîfe’nin namazda tercüme okuma görüşü",
+   "a": "Önce Farsça okunabileceğini söylediği nakledilir; sonra İmameyn’in görüşüne döndüğü (rücû) bildirilir."
+  },
+  {
+   "o": "İlk sistemli Kur’an tercümesi",
+   "a": "Sâmânî Mansûr b. Nûh döneminde (X. yy) fetva alınarak yapılan Taberî tefsiri tercümesi (Farsça)."
+  },
+  {
+   "o": "İlk Türkçe tercümeler",
+   "a": "Karahanlılar döneminde satır arası tercümeler (Rylands nüshası, TİEM 73)."
+  },
+  {
+   "o": "1925 TBMM kararı",
+   "a": "Diyanet aracılığıyla tefsir Elmalılı Hamdi Yazır’a, meal Mehmet Âkif Ersoy’a verildi."
+  },
+  {
+   "o": "Hak Dini Kur’an Dili",
+   "a": "Elmalılı Muhammed Hamdi Yazır’ın tefsiri (1935-1938)."
+  },
+  {
+   "o": "Mehmet Âkif’in meali",
+   "a": "TBMM kararıyla yazmakla görevlendirildi; namazda okunması endişesiyle teslim etmedi; yıllar sonra yayımlandı."
+  },
+  {
+   "o": "Kur’ân-ı Hakîm ve Meâl-i Kerîm",
+   "a": "Hasan Basri Çantay’ın meali (1953)."
+  },
+  {
+   "o": "Kur’an’ın ilk Latince tercümesi",
+   "a": "1143, Robert of Ketton; Cluny başrahibi Petrus Venerabilis’in isteğiyle; reddiye amaçlı."
+  },
+  {
+   "o": "George Sale",
+   "a": "1734’te Kur’an’ı Arapçadan İngilizceye çevirdi; uzun süre standart tercüme oldu."
+  },
+  {
+   "o": "Muhammed Hamidullah ve Muhammed Esed",
+   "a": "Hamidullah: Fransızca tercüme (1959). Esed: The Message of the Qur’an (1980)."
+  },
+  {
+   "o": "George Sale (1734)",
+   "a": "Arapçadan doğrudan, uzun süre esas alınan İngilizce tercüme"
+  },
+  {
+   "o": "Ludovico Marracci (1698)",
+   "a": "Arapça metinle birlikte Latince tercüme"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "kb9-01",
+   "z": 1,
+   "s": "Kur’an’ın anlamının, mütercimin anladığı şekliyle başka bir dile aktarılmasına Türkçede genellikle “tercüme” yerine verilen ad aşağıdakilerden hangisidir?",
+   "c": [
+    "Tefsir",
+    "Tertil",
+    "Te’vil",
+    "Meal",
+    "Tahzîb"
+   ],
+   "d": 3,
+   "a": "Meal, “bir sözün varacağı yer, anlamın özü” demektir. Kur’an’ın tam tercümesi mümkün görülmediği için anlamın aktarılması meal olarak adlandırılır.",
+   "ac": [
+    "Tefsir anlamın açıklanması ve yorumlanmasıdır.",
+    "Tertil Kur’an’ı ağır ağır, tecvidle okumaktır.",
+    "Te’vil, ayetin muhtemel anlamlarından birini delille tercih etmektir.",
+    "Doğru: meal.",
+    "Tahzîb Kur’an’ı okuma bölümlerine ayırmaktır."
+   ],
+   "kay": "Kur’an tercümesi"
+  },
+  {
+   "id": "kb9-02",
+   "z": 2,
+   "s": "Hanefî kaynaklarına göre Ebû Hanîfe’den, Arapça okumaya gücü yeten kişinin de namazda Kur’an’ın Farsça tercümesini okuyabileceği nakledilmiş; İmam Ebû Yûsuf ve İmam Muhammed ise bunu yalnızca Arapça okumaya gücü yetmeyen için caiz görmüştür.\n\nHanefî mezhebinde bu konuda fetvaya esas olan görüş aşağıdakilerden hangisidir?",
+   "c": [
+    "Ebû Hanîfe bu görüşünden dönmüştür; namazda Kur’an’ın Arapça aslı okunur.",
+    "Namazda isteyen herkes meal okuyabilir.",
+    "Namazda yalnız Farsça tercüme okunabilir.",
+    "Arapça bilmeyen kişi namazda hiçbir şey okumaz.",
+    "Tercüme okumak namazın vaciplerinden biridir."
+   ],
+   "d": 0,
+   "a": "Hanefî kaynakları Ebû Hanîfe’nin ilk görüşünden İmameyn’in görüşüne döndüğünü bildirir. Fetvaya göre kıraat farzı Kur’an’ın Arapça aslıyla yerine gelir.",
+   "ac": [
+    "Doğru.",
+    "Fetvaya esas görüş bu değildir.",
+    "Böyle bir görüş yoktur.",
+    "Arapça bilmeyen kişi Fâtiha ve kısa sureleri öğrenmekle yükümlüdür; bu ifade fetvaya esas görüşü yansıtmaz.",
+    "Böyle bir vacip yoktur."
+   ],
+   "kay": "Hanefî fıkhı: namazda kıraat"
+  },
+  {
+   "id": "kb9-03",
+   "z": 2,
+   "s": "Kur’an’ın Batı dillerine ilk tercümesi 1143’te, Cluny Manastırı başrahibinin isteğiyle İspanya’da Latince olarak yapılmıştır. Serbest ve hatalı olan bu tercüme yüzyıllarca Avrupa’da Kur’an hakkındaki bilgilerin başlıca kaynağı olmuştur.\n\nBu tercümeyi yapan kişi ve tercümenin amacı aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "George Sale – İslam’ı tanıtmak",
+    "André du Ryer – Diplomatik yazışmalar",
+    "Ludovico Marracci – Ticari ilişkiler",
+    "Robert of Ketton – İslam’a reddiye yazmak",
+    "Theodor Bibliander – Arapça öğretmek"
+   ],
+   "d": 3,
+   "a": "İlk Latince tercümeyi Petrus Venerabilis’in isteğiyle Robert of Ketton (Robertus Ketenensis) yapmıştır; amaç İslam’ı reddetmekti. Bibliander bu tercümeyi 1543’te Basel’de basmıştır.",
+   "ac": [
+    "George Sale 1734’te İngilizce tercüme yapmıştır.",
+    "Du Ryer’in Fransızca tercümesi 1647 tarihlidir.",
+    "Marracci’nin Latince tercümesi 1698 tarihlidir ve reddiyeler içerir; ilk tercüme değildir.",
+    "Doğru.",
+    "Bibliander tercümeyi yapan değil, 1543’te basan kişidir."
+   ],
+   "kay": "Kur’an tercümeleri tarihi"
+  },
+  {
+   "id": "kb9-04",
+   "z": 2,
+   "s": "Mâverâünnehir’de Karahanlılar döneminde yapılan ilk Türkçe Kur’an tercümelerinde her Arapça kelimenin altına Türkçe karşılığı yazılmıştır. Bu tercümelerin Farsça bir tefsir tercümesinden etkilendiği kabul edilir.\n\nBu tercümelerin özelliği ve etkilendiği eser aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Manzum tercüme – Zemahşerî’nin Keşşâf’ı",
+    "Satır arası tercüme – Kâşifî’nin Mevâhib’i",
+    "Serbest meal – Beyzâvî tefsiri",
+    "Tefsirli meal – Elmalılı tefsiri",
+    "Satır arası tercüme – Taberî tefsirinin Farsça tercümesi"
+   ],
+   "d": 4,
+   "a": "İlk Türkçe tercümeler satır arası (interlinear) tercümelerdir ve Sâmânîler döneminde yapılan Farsça Taberî tefsiri tercümesinden etkilenmiştir.",
+   "ac": [
+    "Manzum değildir; Keşşâf’tan etkilenmemiştir.",
+    "Kâşifî XV. yüzyılda yaşamıştır; ilk Türkçe tercümelerden sonradır.",
+    "Serbest meal değildir; Beyzâvî daha sonraki bir müfessirdir.",
+    "Elmalılı XX. yüzyıl müfessiridir.",
+    "Doğru."
+   ],
+   "kay": "Türkçe Kur’an tercümeleri tarihi"
+  },
+  {
+   "id": "kb9-05",
+   "z": 3,
+   "s": "1925’te TBMM’nin aldığı kararla Diyanet İşleri Başkanlığı aracılığıyla bir tefsir ve bir meal yazdırılmasına karar verilmiştir. Meal yazmakla görevlendirilen kişi, mealinin Kur’an’ın yerine konup namazda okunacağı endişesiyle çalışmasını teslim etmemiştir.\n\nBu kişi aşağıdakilerden hangisidir?",
+   "c": [
+    "Elmalılı Muhammed Hamdi Yazır",
+    "Mehmet Âkif Ersoy",
+    "Ömer Nasuhi Bilmen",
+    "Hasan Basri Çantay",
+    "Ahmed Cevdet Paşa"
+   ],
+   "d": 1,
+   "a": "Meal görevi Mehmet Âkif Ersoy’a verilmiş, o da mealini teslim etmemiştir. Tefsir görevi ise Elmalılı Hamdi Yazır’a verilmiş, o da Hak Dini Kur’an Dili’ni yazmıştır.",
+   "ac": [
+    "Elmalılı tefsir (ve meal) yazmakla görevlendirilmiş, görevini tamamlamıştır.",
+    "Doğru: Mehmet Âkif.",
+    "Bilmen’in meali bu karar kapsamında değildir.",
+    "Çantay’ın meali 1953’te yayımlanmıştır; bu karar kapsamında değildir.",
+    "Ahmed Cevdet Paşa XIX. yüzyılda yaşamıştır."
+   ],
+   "kay": "Cumhuriyet dönemi meal tarihi"
+  },
+  {
+   "id": "kb9-06",
+   "z": 2,
+   "s": "Bir mütercim, Kur’an ayetlerini kelime kelime karşılayarak ve Arapça cümle yapısını aynen koruyarak Türkçeye aktarmıştır. Okuyucular, ortaya çıkan cümlelerin bir kısmını anlamakta zorlandıklarını, bazı ifadelerin de yanlış anlaşıldığını belirtmişlerdir.\n\nBu mütercimin yöntemi ve karşılaştığı sorun dikkate alındığında aşağıdakilerden hangisi söylenebilir?",
+   "c": [
+    "Tefsîrî tercüme yapmış; anlamı korumuştur.",
+    "Açıklamalı meal yapmış; parantezler anlamı bozmuştur.",
+    "Harfî tercüme yapmış; bu yöntem anlam kayıplarına yol açmıştır.",
+    "Tefsir yazmış; tercümeye gerek kalmamıştır.",
+    "Satır arası tercüme yapmış; bu en ideal yöntemdir."
+   ],
+   "d": 2,
+   "a": "Kelime kelime, Arapça dizilişi koruyarak yapılan çeviri harfî (lafzî) tercümedir. Âlimler bu yöntemin anlam kayıplarına yol açtığı için Kur’an’da uygun olmadığını söylemiştir.",
+   "ac": [
+    "Tefsîrî tercüme anlamı esas alır; parçadaki yöntem değildir.",
+    "Parçada açıklama ve parantezden söz edilmez.",
+    "Doğru.",
+    "Parçada bir tefsirden söz edilmez.",
+    "Satır arası tercüme de harfî tercümenin bir türüdür; ideal yöntem değildir."
+   ],
+   "kay": "Kur’an tercümesi türleri"
+  },
+  {
+   "id": "kb9-07",
+   "z": 2,
+   "s": "Sâmânî hükümdarı Mansûr b. Nûh, X. yüzyılda Arapça bilmeyen halkın Kur’an’ı anlayabilmesi için âlimlerden fetva alarak büyük bir tefsirin Farsçaya çevrilmesini emretmiştir.\n\nTercüme edilen bu tefsir aşağıdakilerden hangisidir?",
+   "c": [
+    "Taberî’nin Câmiu’l-beyân’ı",
+    "Zemahşerî’nin el-Keşşâf’ı",
+    "Râzî’nin Mefâtîhu’l-gayb’ı",
+    "Kurtubî’nin el-Câmi‘ li-ahkâmi’l-Kur’ân’ı",
+    "İbn Kesîr’in Tefsîrü’l-Kur’âni’l-azîm’i"
+   ],
+   "d": 0,
+   "a": "Sâmânîler döneminde Taberî’nin tefsiri Farsçaya çevrilmiştir. Bu, Kur’an’ın sistemli ilk tercümesi sayılır.",
+   "ac": [
+    "Doğru.",
+    "Zemahşerî XII. yüzyılda yaşamıştır.",
+    "Râzî XII-XIII. yüzyılda yaşamıştır.",
+    "Kurtubî XIII. yüzyılda yaşamıştır.",
+    "İbn Kesîr XIV. yüzyılda yaşamıştır."
+   ],
+   "kay": "Farsça tercümeler"
+  },
+  {
+   "id": "kb9-08",
+   "z": 3,
+   "s": "Kur’an meali ile ilgili\nI. Meal, mütercimin Kur’an’dan anladığı anlamın aktarılmasıdır ve yanılmaya açıktır.\nII. Meal namazda Kur’an yerine okunamaz.\nIII. Meal, Kur’an’ın i’câz özelliğini taşımaz.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Üç ifade de doğrudur: meal bir insan ürünüdür, namazda Kur’an yerine okunmaz ve Kur’an’ın lafız ve nazmındaki i’câzı taşımaz.",
+   "ac": [
+    "II ve III de doğrudur.",
+    "III de doğrudur.",
+    "II de doğrudur.",
+    "I de doğrudur.",
+    "Doğru: üçü de doğrudur."
+   ],
+   "kay": "Kur’an tercümesi"
+  },
+  {
+   "id": "kb9-09",
+   "z": 2,
+   "s": "Aşağıdaki mütercim – tercüme eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "George Sale – İngilizce (1734)",
+    "Muhammed Esed – The Message of the Qur’an",
+    "Robert of Ketton – Almanca (1647)",
+    "Abdullah Yusuf Ali – İngilizce, açıklamalı",
+    "Muhammed Hamidullah – Fransızca"
+   ],
+   "d": 2,
+   "a": "Robert of Ketton 1143’te Latince tercüme yapmıştır. 1647 tarihli tercüme André du Ryer’in Fransızca tercümesidir.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Yanlış eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme."
+   ],
+   "kay": "Kur’an tercümeleri tarihi"
+  },
+  {
+   "id": "kb9-10",
+   "z": 2,
+   "s": "Cumhuriyet döneminin tanınmış meallerinden biri “Kur’ân-ı Hakîm ve Meâl-i Kerîm” adını taşır ve 1953’te yayımlanmıştır.\n\nBu mealin sahibi aşağıdakilerden hangisidir?",
+   "c": [
+    "Elmalılı Hamdi Yazır",
+    "Hasan Basri Çantay",
+    "Ömer Nasuhi Bilmen",
+    "Zekî Megâmiz",
+    "Cemil Said"
+   ],
+   "d": 1,
+   "a": "Kur’ân-ı Hakîm ve Meâl-i Kerîm, Hasan Basri Çantay’ın mealidir.",
+   "ac": [
+    "Elmalılı’nın eseri Hak Dini Kur’an Dili’dir.",
+    "Doğru.",
+    "Bilmen’in meali Kur’ân-ı Kerîm’in Türkçe Meâl-i Âlîsi ve Tefsiri adını taşır.",
+    "Megâmiz’in meali 1924’te yayımlanmıştır.",
+    "Cemil Said’in meali 1924’te yayımlanmıştır."
+   ],
+   "kay": "Cumhuriyet dönemi meal tarihi"
+  },
+  {
+   "id": "kb9-11",
+   "z": 2,
+   "s": "Diyanet İşleri Başkanlığı tarafından yayımlanan Kur’an Yolu adlı meal ve tefsiri hazırlayan heyette aşağıdakilerden hangisi yer almaz?",
+   "c": [
+    "Hayreddin Karaman",
+    "Mustafa Çağrıcı",
+    "İbrahim Kâfi Dönmez",
+    "Sadreddin Gümüş",
+    "Elmalılı Muhammed Hamdi Yazır"
+   ],
+   "d": 4,
+   "a": "Kur’an Yolu’nu Hayreddin Karaman, Mustafa Çağrıcı, İbrahim Kâfi Dönmez ve Sadreddin Gümüş hazırlamıştır. Elmalılı, 1942’de vefat etmiş olup Hak Dini Kur’an Dili’nin müellifidir.",
+   "ac": [
+    "Heyettedir.",
+    "Heyettedir.",
+    "Heyettedir.",
+    "Heyettedir.",
+    "Doğru: Elmalılı bu heyette değildir."
+   ],
+   "kay": "Diyanet İşleri Başkanlığı, Kur’an Yolu"
+  },
+  {
+   "id": "kb9-12",
+   "z": 3,
+   "s": "Bir öğretmen öğrencilerine meal okurken dikkat edilmesi gereken ilkeleri anlatmıştır.\n\nAşağıdakilerden hangisi bu ilkelerle bağdaşmaz?",
+   "c": [
+    "Ayeti öncesi ve sonrasıyla birlikte okumak",
+    "Aynı konudaki diğer ayetlere bakmak",
+    "Ayetin iniş ortamını ve sebebini öğrenmek",
+    "Bir mealdeki ifadeyi tek başına kesin dinî hüküm kaynağı olarak kabul etmek",
+    "Farklı mealleri karşılaştırmak"
+   ],
+   "d": 3,
+   "a": "Meal bir anlama denemesidir; bağlam, nüzul ortamı, sünnet ve usul bilgisi olmadan tek başına kesin hüküm kaynağı yapılamaz.",
+   "ac": [
+    "Bağlamı gözetmek doğru bir ilkedir.",
+    "Kur’an’ı Kur’an’la anlamak doğru bir ilkedir.",
+    "Nüzul ortamını bilmek doğru bir ilkedir.",
+    "Doğru cevap: bu ilkelerle bağdaşmaz.",
+    "Mealleri karşılaştırmak doğru bir ilkedir."
+   ],
+   "kay": "Meal okuma ilkeleri"
+  },
+  {
+   "id": "kb9-z01",
+   "z": 3,
+   "s": "1925 yılında TBMM’nin aldığı kararla ilgili\nI. Elmalılı Muhammed Hamdi Yazır tefsir yazmakla görevlendirilmiştir.\nII. Mehmet Âkif meal yazmakla görevlendirilmiş, ancak mealini teslim etmemiştir.\nIII. Hak Dini Kur’an Dili, Mehmet Âkif’in teslim ettiği meal esas alınarak yazılmıştır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "Elmalılı tefsir, Âkif meal yazmakla görevlendirildi. Âkif mealini teslim etmeyince Elmalılı meali de kendisi yazdı; Hak Dini Kur’an Dili’ndeki meal Elmalılı’nındır.",
+   "ac": [
+    "Eksiktir: II de doğrudur.",
+    "Doğrudur: I ve II doğrudur.",
+    "III yanlıştır: Âkif meali teslim etmemiştir.",
+    "III yanlış olduğu için doğru değildir.",
+    "III yanlış olduğu için doğru değildir."
+   ],
+   "kay": "Konu: Cumhuriyet dönemi mealleri"
+  },
+  {
+   "id": "kb9-z02",
+   "z": 3,
+   "s": "Namazda Kur’an’ın tercümesinin okunması meselesiyle ilgili\nI. Ebû Hanîfe’den, Arapça okuyabilen kişinin de Farsça tercüme okuyabileceğine dair bir görüş nakledilmiştir.\nII. Ebû Yûsuf ve İmam Muhammed bunu yalnız Arapça okumaya gücü yetmeyen kişi için caiz görmüştür.\nIII. Şâfiîlere göre Fâtiha’yı Arapça okuyamayan kişi namazda onun tercümesini okur.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "I ve III",
+    "II ve III"
+   ],
+   "d": 2,
+   "a": "I ve II Hanefî kaynaklarındaki görüşlerdir; Ebû Hanîfe sonra imameynin görüşüne dönmüştür. Şâfiîlere göre tercüme okunmaz; Arapça okuyamayan zikir ve tesbih yapar.",
+   "ac": [
+    "Eksiktir: II de doğrudur.",
+    "Eksiktir: I de doğrudur.",
+    "Doğrudur: I ve II doğrudur.",
+    "III yanlıştır.",
+    "III yanlış olduğu için doğru değildir."
+   ],
+   "kay": "Serahsî, el-Mebsût; Konu: Namazda tercüme"
+  },
+  {
+   "id": "kb9-z03",
+   "z": 3,
+   "s": "Aşağıdaki mütercim - tercüme bilgisi eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Alexander Ross - Arapçadan doğrudan yapılan ilk İngilizce tercüme",
+    "Ludovico Marracci - Arapça metinle birlikte yayımlanan Latince tercüme (1698)",
+    "George Sale - Arapçadan yapılan ve uzun süre esas alınan İngilizce tercüme (1734)",
+    "Robert of Ketton - 1143’te polemik amacıyla yapılan ilk Latince tercüme",
+    "Rudi Paret - Akademik çevrelerde esas alınan Almanca tercüme"
+   ],
+   "d": 0,
+   "a": "Alexander Ross’un 1649 tarihli İngilizce tercümesi, André du Ryer’in Fransızca tercümesinden aktarılmıştır; Arapçadan değildir.",
+   "ac": [
+    "Yanlıştır: Ross Fransızcadan çevirmiştir.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur."
+   ],
+   "kay": "Konu: Batı dillerinde tercümeler"
+  },
+  {
+   "id": "kb9-z04",
+   "z": 3,
+   "s": "Hz. Peygamber’in Bizans imparatoru Herakleios’a gönderdiği mektupta “Ey Ehl-i kitap! Sizinle bizim aramızda ortak olan bir söze gelin…” (Âl-i İmrân, 3/64) ayeti yer almış, mektup imparatorun sarayında tercümanlar aracılığıyla okunmuştur.\n\nBu olay Kur’an tercümesi tarihi açısından en çok aşağıdakilerden hangisini gösterir?",
+   "c": [
+    "Tercümenin namazda okunabileceğini",
+    "Kur’an’ın ilk sistemli tercümesinin Rumca yapıldığını",
+    "Hz. Peygamber’in harfî tercümeyi tercih ettiğini",
+    "Ayetlerin anlamının Arapça bilmeyenlere aktarılmasının Hz. Peygamber döneminde başladığını",
+    "Kur’an’ın Batı dillerine ilk tercümesinin VII. yüzyılda yapıldığını"
+   ],
+   "d": 3,
+   "a": "Mektuptaki ayetin tercümanla aktarılması, Kur’an mesajının başka dillere aktarılması ihtiyacının ilk dönemde var olduğunu gösterir. Sistemli ilk tercüme ise X. yüzyılda Farsçadır.",
+   "ac": [
+    "Olayın namazla ilgisi yoktur.",
+    "Sistemli ilk tercüme Farsçadır.",
+    "Olayda tercüme yönteminden söz edilmez.",
+    "Doğrudur.",
+    "Batı dillerine ilk tercüme 1143’te Latincedir."
+   ],
+   "kay": "Buhârî, Bed’ü’l-vahy"
+  },
+  {
+   "id": "kb9-z05",
+   "z": 3,
+   "s": "Bir mütercim İsrâ Suresi 29. ayeti “Elini boynuna bağlı kılma, onu büsbütün de açma” diye çevirmiştir. Okuyucular bu cümleden bir şey anlayamamış; oysa ayet, cimrilik ile savurganlık arasında dengeli olmayı öğütlemektedir.\n\nBu durum aşağıdakilerden hangisini en iyi açıklar?",
+   "c": [
+    "Kelime kelime yapılan çevirinin Arapçadaki deyim ve mecazları aktaramadığını",
+    "Mealin namazda okunamayacağını",
+    "Kur’an’ın Türkçeye hiç tercüme edilemeyeceğini",
+    "Ayetin nüzul sebebinin bilinmediğini",
+    "Ayetin müteşabih olduğu için anlaşılamayacağını"
+   ],
+   "d": 0,
+   "a": "Harfî tercüme deyim ve mecazları kelime kelime aktardığı için anlam kaybına yol açar. Bu yüzden âlimler anlamı esas alan tefsîrî tercümeyi (meal) uygun görür.",
+   "ac": [
+    "Doğrudur: harfî tercümenin temel sorunu budur.",
+    "Bu doğru bir bilgidir ama parçadaki durumu açıklamaz.",
+    "Tefsîrî tercüme mümkün ve caizdir.",
+    "Parçada nüzul sebebinden söz edilmez.",
+    "Ayetin anlamı açıktır; sorun çeviri yöntemindedir."
+   ],
+   "kay": "İsrâ, 17/29"
+  },
+  {
+   "id": "kb9-z06",
+   "z": 3,
+   "s": "Aşağıdaki eser - müellif eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Kur’ân-ı Hakîm ve Meâl-i Kerîm - Hasan Basri Çantay",
+    "Kur’ân-ı Kerîm’in Türkçe Meâl-i Âlîsi ve Tefsiri - Ömer Nasûhi Bilmen",
+    "Hak Dini Kur’an Dili - Mehmet Âkif Ersoy",
+    "Mevâkib - İsmâil Ferruh Efendi",
+    "Kur’an Yolu - Diyanet İşleri Başkanlığı heyeti"
+   ],
+   "d": 2,
+   "a": "Hak Dini Kur’an Dili Elmalılı Muhammed Hamdi Yazır’ındır. Mehmet Âkif’in meali teslim edilmemiş, çok sonra müsveddeleri yayımlanmıştır.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Yanlıştır: eser Elmalılı’nındır.",
+    "Doğrudur: Kâşifî’nin Mevâhib-i Aliyye’sinin tercümesidir.",
+    "Doğrudur."
+   ],
+   "kay": "Konu: Türkçe meal ve tefsirler"
+  },
+  {
+   "id": "kb9-z07",
+   "z": 3,
+   "s": "Osmanlı döneminde âlimler, Kur’an’ın tek başına ve tefsirsiz tercümesinin onun yerine geçebileceği endişesiyle temkinli davranmıştır. Bu yüzden halkın Kur’an’ı anlama ihtiyacı farklı bir yolla karşılanmıştır.\n\nBu parçada sözü edilen yol aşağıdakilerden hangisidir?",
+   "c": [
+    "Latince tercümelerden aktarma yapmak",
+    "Kur’an’ı yalnızca ezberletmek, anlamını öğretmemek",
+    "Kur’an’ın yalnız Farsça tercümesini okutmak",
+    "Namazda Türkçe meal okumak",
+    "Tefsir yazmak ve Arapça ya da Farsça tefsirleri Türkçeye çevirmek"
+   ],
+   "d": 4,
+   "a": "Osmanlı’da Türkçe çalışmalar daha çok tefsir ve tefsir tercümesi biçiminde oldu: Mevâkib (Kâşifî tercümesi), Tibyân gibi eserler bunun örnekleridir.",
+   "ac": [
+    "Osmanlı âlimleri Latince tercümelerden yararlanmamıştır.",
+    "Anlam öğretimi tefsirlerle sürdürülmüştür.",
+    "Farsça tercüme çözüm olarak benimsenmemiştir.",
+    "Namazda meal okunmamıştır.",
+    "Doğrudur."
+   ],
+   "kay": "Konu: Osmanlı dönemi tefsir tercümeleri"
+  }
+ ]
+}

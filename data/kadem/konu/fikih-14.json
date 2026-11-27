@@ -1,0 +1,1039 @@
+{
+ "id": "fikih-14",
+ "ad": "Kurban, Adak, Yemin ve Keffâretler (Yemin Türleri; Yemin, Oruç, Zıhar ve Katl Keffâretleri)",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Kurban: anlamı, hükmü ve kimlere vacip olduğu"
+  },
+  {
+   "merak": "Hz. Âdem’in iki oğlu Allah’a birer kurban sundu; birininki kabul edildi, öbürününki edilmedi. Kur’an kabulün ölçüsünü şöyle verir: “Allah ancak takva sahiplerinden kabul eder.” Kurbanda asıl kesilen nedir?"
+  },
+  "Kurban sözlükte “Allah’a yaklaşmaya vesile olan şey” demektir. Terim olarak kurban, ibadet niyetiyle, belirli bir vakitte, belirli özellikleri taşıyan bir hayvanı kesmektir. Kurban Bayramı’nda kesilen kurbana udhiyye denir. Kurban, Hz. İbrâhim’in oğlunu kurban etme imtihanını ve onun yerine gönderilen koçu hatırlatır (Sâffât, 37/102-107). Hicretin 2. yılında meşru kılınmıştır.",
+  {
+   "ayet": "Onların ne etleri ne de kanları Allah’a ulaşır; fakat O’na sizin takvanız ulaşır…",
+   "kay": "Hac, 22/37"
+  },
+  {
+   "ayet": "Rabbin için namaz kıl ve kurban kes.",
+   "kay": "Kevser, 108/2"
+  },
+  "Hükmü: Ebû Hanîfe’ye göre kurban kesmek, şartlarını taşıyan kişiye vaciptir. Ebû Yûsuf’tan bir rivayete göre ve Şâfiî, Mâlikî, Hanbelî mezheplerine göre sünnet-i müekkededir. Hanefîlerin delili “Kimin imkânı olur da kurban kesmezse namazgâhımıza yaklaşmasın” hadisidir (İbn Mâce, Edâhî, 2).",
+  {
+   "tablo": [
+    [
+     "Kurbanın vacip olma şartları (Hanefî)",
+     "Açıklama"
+    ],
+    [
+     "Müslüman olmak",
+     ""
+    ],
+    [
+     "Akıllı ve bâliğ olmak",
+     "İmam Muhammed’e göre; Ebû Hanîfe ve Ebû Yûsuf’a göre zengin çocuğun malından velisi keser (fetva İmam Muhammed’e göre)"
+    ],
+    [
+     "Hür olmak",
+     ""
+    ],
+    [
+     "Mukim olmak",
+     "Yolcuya (misafire) vacip değildir; keserse nafile olur"
+    ],
+    [
+     "Nisaba mâlik olmak",
+     "Temel ihtiyaç ve borç dışında nisap miktarı mal; yıl ve artıcılık şartı yok (fitre nisabı ile aynı)"
+    ]
+   ]
+  },
+  "Kurbanın vacip olması için bu şartların kurban günlerinin sonuna kadar herhangi bir anda bulunması yeterlidir. Bayramın ilk günü fakir olup üçüncü günü zengin olana kurban vacip olur; bayramın ilk günü zengin olup kesmeden önce fakirleşenden düşer. Fakir kişi kurban almak niyetiyle bir hayvan satın alırsa, bu hayvanı kesmesi ona vacip olur (adak benzeri). Kurban günleri geçtikten sonra kesilemeyen kurbanın kıymeti sadaka olarak verilir; kurban kaza edilmez.",
+  {
+   "sinav": "“Kurbanın vacip olmasının şartı değildir” sorusunda çeldirici: “hacca gitmiş olmak”, “malın üzerinden yıl geçmiş olması”, “malın artıcı olması”. Kurban mukime vaciptir, yolcuya değil. Kurban nisabı fitre nisabıyla aynıdır."
+  },
+  {
+   "akil": "Kurban: Ebû Hanîfe’ye göre vacip, diğerlerine göre sünnet-i müekkede. Şartlar: Müslüman, akıl-bulûğ, hür, mukim, temel ihtiyaç dışı nisap (yıl yok). Vakit geçerse kıymeti sadaka olur."
+  },
+  {
+   "b": "2. Kurbanlık hayvan, vakit, kesim ve et"
+  },
+  {
+   "merak": "Yedi arkadaş bir sığıra ortak oldu; biri “Ben kurban için değil, et için giriyorum” dedi. Diğer altısının kurbanı da geçersiz oldu. Neden?"
+  },
+  {
+   "tablo": [
+    [
+     "Hayvan",
+     "Yaş (Hanefî)",
+     "Ortaklık"
+    ],
+    [
+     "Koyun",
+     "Bir yaşını doldurmuş; altı ayını doldurup bir yaşındaki kadar gösterişli kuzu da olur",
+     "Tek kişi"
+    ],
+    [
+     "Keçi",
+     "Bir yaşını doldurmuş (kuzu istisnası keçide yok)",
+     "Tek kişi"
+    ],
+    [
+     "Sığır, manda",
+     "İki yaşını doldurmuş",
+     "Yedi kişiye kadar"
+    ],
+    [
+     "Deve",
+     "Beş yaşını doldurmuş",
+     "Yedi kişiye kadar"
+    ]
+   ]
+  },
+  "Kurbanlık hayvanlar yalnız koyun, keçi, sığır, manda ve devedir; erkek ya da dişi olabilir. Tavuk, hindi gibi kümes hayvanları ve geyik gibi yabani hayvanlar kurban olmaz. Büyükbaş hayvana yedi kişiye kadar ortak olunabilir; ortakların hepsinin kurban (udhiyye, adak, akîka, hedy gibi) niyeti taşıması gerekir. Ortaklardan birinin yalnız et niyeti varsa hiçbirinin kurbanı geçerli olmaz. Ortaklar eti tartarak paylaşır, tahminî paylaşım caiz değildir. Mâlikîlere göre vacip kurbanda ortaklık caiz değildir.",
+  {
+   "tablo": [
+    [
+     "Kurbana engel kusurlar",
+     "Engel olmayan kusurlar"
+    ],
+    [
+     "Bir veya iki gözü kör olmak",
+     "Boynuzunun doğuştan olmaması veya az kırık olması"
+    ],
+    [
+     "Kesim yerine yürüyemeyecek kadar topal olmak",
+     "Kulağının veya kuyruğunun yarıdan azının kesik olması"
+    ],
+    [
+     "Kulağının, kuyruğunun yarısından fazlasının kesik olması",
+     "Hadım edilmiş (enenmiş) olması"
+    ],
+    [
+     "Kemiklerinde ilik kalmayacak kadar zayıf olmak",
+     "Uyuz olup semiz olması"
+    ],
+    [
+     "Dişlerinin çoğunun dökülmüş olması",
+     "Kulağının yarılmış ya da delinmiş olması"
+    ],
+    [
+     "Memesinin başı kesik ya da kuru olması (sütsüz)",
+     "Delice (cünûn) olup otlayabilmesi"
+    ]
+   ]
+  },
+  "Kurban vakti: Kurban Bayramı’nın birinci günü başlar, üçüncü günün güneş batışına kadar sürer (Şâfiîlere göre dördüncü gün de dâhil). Bayram namazı kılınan yerlerde namazdan önce kesilen kurban geçerli olmaz; namaz kılınmayan köylerde fecirden sonra kesilebilir. En faziletlisi birinci gündür. Geceleyin kesmek tenzîhen mekruhtur.",
+  "Kesim ve et: Kurbanı kişinin kendisinin kesmesi, gücü yetmiyorsa başında bulunması müstehaptır; vekâletle kestirmek caizdir (yurt içi ve yurt dışı vekâletle kurban kampanyaları bu esasa dayanır). Etin üçte birini fakirlere, üçte birini akraba ve komşulara dağıtıp üçte birini evde bırakmak müstehaptır; tamamını yemek de dağıtmak da caizdir. Kurbanın eti, derisi, sakatatı satılıp parası kişinin kendisine kalamaz; kasaba ücret olarak verilemez. Derisi bir hayır kurumuna bağışlanabilir veya evde kullanılabilir.",
+  {
+   "tablo": [
+    [
+     "Kurban türü",
+     "Hüküm (Hanefî)",
+     "Etinden sahibi yiyebilir mi?"
+    ],
+    [
+     "Udhiyye (bayram kurbanı)",
+     "Vacip",
+     "Evet; üçte birini dağıtmak müstehap"
+    ],
+    [
+     "Adak (nezir) kurbanı",
+     "Vacip",
+     "Hayır; adayan, usûlü, fürûu, eşi ve zenginler yiyemez; fakirlerin hakkıdır"
+    ],
+    [
+     "Temettu ve kıran haccında şükür kurbanı (hedy)",
+     "Vacip",
+     "Evet"
+    ],
+    [
+     "Ceza kurbanı (dem, bedene)",
+     "Vacip",
+     "Hayır"
+    ],
+    [
+     "Akîka (doğum şükrü)",
+     "Mübah veya müstehap (Hanefî); diğer üç mezhepte sünnet; Zâhirîlerde vacip",
+     "Evet"
+    ],
+    [
+     "Ihsâr hedyi",
+     "Vacip",
+     "Hayır (muhsarın kurbanı fakirlere)"
+    ]
+   ]
+  },
+  "Akîka: Yeni doğan çocuk için Allah’a şükür amacıyla kesilen kurbandır. Doğumun yedinci günü kesilmesi, çocuğa isim verilmesi ve saçının kesilip ağırlığınca gümüş sadaka verilmesi sünnette yer alır. Erkek çocuk için iki, kız çocuk için bir koyun kesilmesi rivayet edilmiştir; Hanefîler bunu zorunlu görmez. Kurbana engel kusurlar akîkada da dikkate alınır.",
+  {
+   "sinav": "Yaş soruları çok gelir: koyun-keçi 1, sığır-manda 2, deve 5. Altı aylık gösterişli kuzu koyunda geçerlidir, keçide değil. Ortaklardan birinin et niyeti bütün ortakların kurbanını bozar. Kurban bayramın üç günü içinde; şehirde namazdan sonra. Adak kurbanından sahibi yiyemez — en sık sorulan tuzak."
+  },
+  {
+   "akil": "Kurbanlık: koyun-keçi (1), sığır-manda (2), deve (5). Büyükbaşa 7 kişi; hepsinde ibadet niyeti şart. Vakit 3 gün (Şâfiî 4). Deri ve et satılmaz, kasaba ücret olarak verilmez. Adak ve ceza kurbanından sahibi yemez; udhiyye ve hedyden yer."
+  },
+  {
+   "b": "3. Adak (nezir)"
+  },
+  {
+   "merak": "Bir anne, oğlu ameliyattan sağ çıkarsa türbeye mum yakmayı adadı. Komşusu ise üç gün oruç tutmayı adadı. Hangisinin adağı bağlayıcıdır?"
+  },
+  "Adak (nezir), kişinin dinen yükümlü olmadığı, cinsinden farz veya vacip bulunan bir ibadeti Allah rızası için kendisine borç kılmasıdır. Adak Allah’a yapılır; bir velinin, türbenin ya da kişinin adına yapılan adak geçerli olmaz, hatta itikada zarar verebilir. Adağın kaderi değiştirmediği bilinmelidir. Hz. Peygamber adağı teşvik etmemiş, “Adak, kaderden hiçbir şeyi değiştirmez; onunla ancak cimriden mal çıkarılır” buyurmuştur (Buhârî, Kader, 6; Müslim, Nezr, 2). Bu yüzden Şâfiî ve Hanbelîlerin çoğu adakta bulunmayı mekruh sayar; Hanefîlere göre mübahtır. Yapılan geçerli adağı yerine getirmek ise vaciptir.",
+  {
+   "ayet": "…Sonra (kurbanlarını kesince) kirlerini gidersinler, adaklarını yerine getirsinler ve o Kadim Ev’i tavaf etsinler.",
+   "kay": "Hac, 22/29"
+  },
+  {
+   "ayet": "Onlar adaklarını yerine getirirler ve kötülüğü her yeri kaplamış bir günden korkarlar.",
+   "kay": "İnsân, 76/7"
+  },
+  {
+   "tablo": [
+    [
+     "Adak türü",
+     "Tanım",
+     "Örnek",
+     "Hüküm"
+    ],
+    [
+     "Mutlak adak",
+     "Bir şarta bağlanmadan yapılan",
+     "“Allah için bir kurban keseceğim.”",
+     "Hemen yerine getirmek gerekir (vakit tayin edilmemişse ömür boyu)"
+    ],
+    [
+     "Muallak (şarta bağlı) adak",
+     "Bir şartın gerçekleşmesine bağlanan",
+     "“İşe girersem üç gün oruç tutacağım.”",
+     "Şart gerçekleşince vacip olur"
+    ],
+    [
+     "Muayyen adak",
+     "Belli bir zaman, yer, kişiye bağlanan",
+     "“Recep ayında, Mekke fakirlerine…”",
+     "Hanefîlere göre (Züfer hariç) zaman, yer, para ve fakir tayini bağlayıcı değildir"
+    ],
+    [
+     "Günaha adak",
+     "Haram bir fiilin adanması",
+     "“Kardeşimle konuşmamayı adadım.”",
+     "Geçersiz; yemin anlamı taşıyorsa yemin keffâreti gerekir"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Adağın geçerlilik şartları (Hanefî)",
+     "Örnek"
+    ],
+    [
+     "Adayan Müslüman, akıllı ve bâliğ olmalı",
+     "Sekiz yaşındaki çocuğun adağı geçersiz"
+    ],
+    [
+     "Adanan şeyin cinsinden farz veya vacip bir ibadet bulunmalı",
+     "Namaz, oruç, sadaka, kurban, hac, itikâf adanabilir"
+    ],
+    [
+     "Adanan şey, başka bir ibadetin vesilesi olmamalı",
+     "Abdest, ezan, kamet, cami yapmak, hasta ziyareti adağı adak hükmü doğurmaz (yapılması sevaptır)"
+    ],
+    [
+     "Adanan şey zaten farz veya vacip olmamalı",
+     "Beş vakit namazı, Ramazan orucunu, kaza namazını adamak adak olmaz"
+    ],
+    [
+     "Günah olmamalı",
+     "Bayram günü oruç tutmayı adamak: adak sahih, ama başka gün tutulur (Hanefî)"
+    ],
+    [
+     "Adanan şey başkasının mülkü olmamalı, yapılabilir olmalı",
+     "Komşunun koyununu kurban etmeyi adamak geçersiz"
+    ]
+   ]
+  },
+  "Adak kurbanının etinden adayan kişi, bakmakla yükümlü olduğu usûl ve fürûu, eşi ve zenginler yiyemez; tamamı fakirlere verilir. Yediği takdirde yediği kadarının kıymetini fakirlere verir. Adak orucunda Hanefîlere göre peş peşe tutma şartı konmuşsa ona uyulur; aksi hâlde ayrı ayrı tutulabilir. Ölüme yakın hastalığında yerine getirilmemiş adağının fidyesini vasiyet eden kişinin bu vasiyeti terekesinin üçte birinden yerine getirilir.",
+  {
+   "sinav": "Adakta en çok sorulan: “cinsinden farz/vacip ibadet bulunma” şartı. Hasta ziyareti, cami yapmak, ezan okumak, Kur’an hatmi dinlemek adak olmaz; namaz, oruç, kurban, sadaka adanabilir. Hanefîde adakta yer-zaman-fakir tayini bağlayıcı değildir. Adak kurbanından sahibi ve ailesi yiyemez."
+  },
+  {
+   "akil": "Adak: Allah için, ibadet cinsinden, cinsinden farz/vacip bulunan, zaten farz olmayan, günah olmayan şey. Mutlak ve muallak adak vaciptir. Yer, zaman, kişi tayini bağlayıcı değil (Hanefî). Adak kurbanı tamamen fakirlerin."
+  },
+  {
+   "b": "4. Yemin ve türleri"
+  },
+  {
+   "merak": "“Vallahi param yok” diyen biri, cebinde para olduğunu bile bile söylüyorsa; unuttuğu için söylüyorsa; yarın borcunu ödemeyeceğine yemin ediyorsa — üç durumun üç ayrı adı ve hükmü vardır."
+  },
+  "Yemin (kasem, half), bir sözü Allah’ın adını ya da sıfatlarından birini anarak kuvvetlendirmektir: “Vallahi, billahi, tallahi, Allah’a yemin ederim ki…” gibi. Allah’tan başkası adına (anne-baba, peygamber, Kâbe) yemin etmek dinen hoş görülmez; ancak örfte yemin anlamında kullanılan sözler (“Kur’an çarpsın”, “Allah şahit”) yemin hükmündedir. “Haram olsun”, “Kâfir olayım ki…” gibi sözler de Hanefîlerde yemin sayılır; bozulursa keffâret gerekir.",
+  {
+   "hadis": "Allah sizin babalarınız adına yemin etmenizi yasaklıyor. Yemin edecek olan Allah adına yemin etsin ya da sussun.",
+   "kay": "Buhârî, Eymân, 4; Müslim, Eymân, 3"
+  },
+  {
+   "tablo": [
+    [
+     "Yemin",
+     "Tanım",
+     "Örnek",
+     "Hüküm"
+    ],
+    [
+     "Gamûs",
+     "Geçmiş veya şimdiki bir olay hakkında bile bile yalan yere yemin",
+     "Parası olduğunu bildiği hâlde “Vallahi param yok” demek",
+     "Büyük günah; Hanefî, Mâlikî, Hanbelîlere göre keffâreti yok, tövbe gerekir; Şâfiîlere göre keffâret de gerekir"
+    ],
+    [
+     "Lağv",
+     "Doğru sanarak yanlış çıkan şeye yemin veya kasıtsız ağız alışkanlığı",
+     "Arkadaşının geldiğini sanıp “Vallahi geldi” demek",
+     "Günah ve keffâret yok (Bakara 225; Mâide 89)"
+    ],
+    [
+     "Mün’akide",
+     "Gelecekte bir şeyi yapmaya veya yapmamaya kasıtlı yemin",
+     "“Vallahi yarın borcumu ödeyeceğim.”",
+     "Tutulursa bir şey gerekmez; bozulursa keffâret gerekir"
+    ]
+   ]
+  },
+  {
+   "ayet": "Allah sizi kasıtsız yeminlerinizden sorumlu tutmaz; fakat bile bile yaptığınız yeminlerden sorumlu tutar. Bunun keffâreti, ailenize yedirdiğinizin orta hâllisinden on yoksulu doyurmak veya onları giydirmek ya da bir köle azat etmektir. Bunları bulamayan üç gün oruç tutar. Yemin ettiğiniz zaman yeminlerinizin keffâreti budur. Yeminlerinizi koruyun…",
+   "kay": "Mâide, 5/89"
+  },
+  "Günah işlemek için yapılan yemin: Bir haramı yapmaya ya da bir farzı terk etmeye (anne-babayla konuşmamak, kardeşle küsmek) yemin eden kişinin yeminini bozup keffâret ödemesi vaciptir. Bir hayrı yapmamaya yemin eden de yeminini bozup keffâret öder; bu daha hayırlıdır.",
+  {
+   "hadis": "Bir şeye yemin edip de başkasını ondan daha hayırlı gören kimse, o hayırlı olanı yapsın ve yemininin keffâretini versin.",
+   "kay": "Müslim, Eymân, 12"
+  },
+  "Yeminle ilgili diğer hükümler: Yeminin sonuna bitişik olarak “inşallah” diyen kişinin yemini bağlayıcı olmaz (istisna). Yemin, yemin edenin niyetine göre değil, örfteki anlamına göre yorumlanır; ancak hâkim önünde yemin, yemin ettirenin (hâkimin) niyetine göredir. Hanefîlere göre keffâret yemin bozulduktan sonra ödenir; önceden ödenen keffâret geçerli değildir (Şâfiîlere göre malî keffâret önceden verilebilir). Birden çok yemini bozan her biri için ayrı keffâret öder; aynı şey için tekrarlanan yeminler tek yemin sayılabilir. Ta’lîk yemini: Boşamayı bir şarta bağlamak (“Şunu yaparsan boş ol”) da fıkıh kitaplarında yemin başlığında incelenir; şart gerçekleşince talak düşer.",
+  {
+   "sinav": "Yemin türü senaryosu: geçmişe dair bile bile yalan → gamûs; doğru sanılan yanlış veya ağız alışkanlığı → lağv; geleceğe dair → mün’akide. Gamûsun keffâreti Hanefîde yoktur, Şâfiîde vardır — mezhep farkı. Hanefîde keffâret yemin bozulmadan önce ödenmez."
+  },
+  {
+   "akil": "Gamûs: geçmişe bile bile yalan, keffâret yok, tövbe. Lağv: kasıtsız, hiçbir şey yok. Mün’akide: geleceğe, bozulursa keffâret. Günaha yemin bozulur, keffâret verilir. “İnşallah” ile yemin bağlamaz."
+  },
+  {
+   "b": "5. Keffâretler"
+  },
+  {
+   "merak": "Havle bint Sa’lebe, kocası Evs b. Sâmit’in kendisine “Sen bana annemin sırtı gibisin” demesi üzerine Hz. Peygamber’e gelip derdini anlattı. Kur’an’ın bir suresi, “Kocası hakkında seninle tartışan kadının sözünü Allah işitti” ayetiyle başladı."
+  },
+  "Keffâret sözlükte “örtmek, gidermek” demektir. Terim olarak, belirli bir günah veya kusurun manevi sorumluluğunu kaldırmak için yapılması gereken, ceza ve ibadet yönü bulunan malî veya bedenî ameldir. Keffâretler Kur’an ve sünnette belirlenmiştir; kıyasla keffâret konulamaz (Hanefî). Keffâret orucu Hanefîlere göre (yemin keffâreti dâhil) peş peşe tutulur; arada Ramazan, bayram günleri veya kadın için hayız dışında bir sebeple ara verilirse yeniden başlanır.",
+  {
+   "tablo": [
+    [
+     "Keffâret",
+     "Sebebi",
+     "İçeriği",
+     "Sıra (tertip)"
+    ],
+    [
+     "Oruç keffâreti",
+     "Ramazan orucunu mazeretsiz, kasten yiyip içerek veya cinsel ilişkiyle bozmak (Hanefî)",
+     "Köle azadı → 60 gün peş peşe oruç → 60 fakiri sabah-akşam doyurmak",
+     "Tertipli (sırayla)"
+    ],
+    [
+     "Zıhar keffâreti",
+     "Eşini annesi gibi mahrem bir kadına benzetmek",
+     "Köle azadı → 60 gün peş peşe oruç → 60 fakiri doyurmak (Mücâdele, 58/3-4)",
+     "Tertipli; keffâretten önce eşine yaklaşamaz"
+    ],
+    [
+     "Katl (öldürme) keffâreti",
+     "Hata ile adam öldürmek (Hanefî: kasıtta keffâret yok)",
+     "Mümin köle azadı → 60 gün peş peşe oruç (Nisâ, 4/92); doyurma yok",
+     "Tertipli; ayrıca diyet ödenir"
+    ],
+    [
+     "Yemin keffâreti",
+     "Mün’akide yemini bozmak",
+     "10 fakiri doyurmak veya giydirmek veya köle azadı; hiçbirine gücü yetmezse 3 gün oruç",
+     "Önce üçü arasında muhayyer, sonra oruç"
+    ],
+    [
+     "Hacda mazeretle yasak işleme",
+     "Hastalık vb. sebeple tıraş, koku vb.",
+     "Koyun veya 6 fakire yarım sâ’ veya 3 gün oruç (Bakara, 2/196)",
+     "Muhayyer; oruç peş peşe şart değil"
+    ]
+   ]
+  },
+  {
+   "ayet": "Hanımlarına zıhar yapıp sonra söylediklerinden dönenler, birbirlerine dokunmadan önce bir köle azat etmelidirler… Buna imkân bulamayan kimse, birbirlerine dokunmadan önce iki ay peş peşe oruç tutmalıdır. Buna da gücü yetmeyen altmış yoksulu doyurmalıdır…",
+   "kay": "Mücâdele, 58/3-4"
+  },
+  {
+   "ayet": "…Kim bir mümini yanlışlıkla öldürürse, bir mümin köle azat etmesi ve ailesine teslim edilecek bir diyet ödemesi gerekir… Bunu bulamayan kimse, Allah tarafından tövbesinin kabulü için iki ay peş peşe oruç tutar…",
+   "kay": "Nisâ, 4/92"
+  },
+  "Oruç keffâretinin delili, Ramazan’da eşiyle ilişkiye giren sahabiye Hz. Peygamber’in köle azadı, iki ay peş peşe oruç ve altmış fakiri doyurmayı sırasıyla sorduğu hadistir (Buhârî, Savm, 30; Müslim, Sıyâm, 81). Hanefîler kasten yiyip içmeyi de ilişkiye kıyas etmez, aynı hükme bağlarlar (orucun hürmetini çiğneme ortak illeti); Şâfiîlere göre keffâret yalnız cinsel ilişkide gerekir. Hata, unutma, zorlama ve mazeretle bozulan oruçta keffâret değil yalnız kaza gerekir. Aynı Ramazan’da birden fazla bozulan oruç için Hanefîlere göre tek keffâret yeterlidir.",
+  "Fakir doyurmada Hanefîlere göre her fakire iki öğün doyurmak (ibâha) ya da her birine fitre miktarı (yarım sâ’ buğday veya değeri) vermek (temlik) caizdir. Bir fakire 60 gün boyunca her gün bir fitre verilmesi de olur; fakat bir fakire bir günde altmış fitre verilmesi yalnız bir günlük sayılır. Giydirmede her fakire bedenini çoğunlukla örtecek bir elbise verilir.",
+  {
+   "tablo": [
+    [
+     "Karşılaştırma",
+     "Oruç / zıhar",
+     "Katl",
+     "Yemin"
+    ],
+    [
+     "Köle azadı",
+     "Var (ilk sırada)",
+     "Var (mümin köle)",
+     "Var (seçeneklerden biri)"
+    ],
+    [
+     "Oruç",
+     "60 gün peş peşe",
+     "60 gün peş peşe",
+     "3 gün (Hanefî: peş peşe)"
+    ],
+    [
+     "Fakir doyurma",
+     "60 fakir",
+     "Yok",
+     "10 fakir"
+    ],
+    [
+     "Giydirme",
+     "Yok",
+     "Yok",
+     "10 fakir"
+    ],
+    [
+     "Tertip",
+     "Tertipli",
+     "Tertipli",
+     "İlk üçünde muhayyer, oruç son çare"
+    ]
+   ]
+  },
+  "Hayızlı kadınla ilişki: Hanefîlere göre büyük günahtır, tövbe ve istiğfar gerekir; bir dinar veya yarım dinar sadaka vermek müstehaptır. Hanbelîlere göre ise bu miktar keffâret olarak gerekir.",
+  {
+   "sinav": "Keffâret karşılaştırması mutlaka sorulur: “Seçenekler arasında serbestlik olan” → yemin keffâreti; “fakir doyurma seçeneği olmayan” → katl keffâreti; “sıra gözetilen” → oruç, zıhar, katl. Yemin keffâreti orucu 3 gün; diğerleri 60 gün. Zıharda keffâret ödenmeden eşe yaklaşılmaz."
+  },
+  {
+   "akil": "Oruç ve zıhar: köle → 60 gün → 60 fakir (tertipli). Katl: mümin köle → 60 gün, doyurma yok. Yemin: 10 fakir doyur/giydir/köle (muhayyer) → 3 gün oruç. Hanefîde kasten yiyip içmek de oruç keffâreti gerektirir."
+  },
+  {
+   "b": "6. Bayram, kurban ve teşrik tekbirleriyle ilgili ek bilgiler"
+  },
+  {
+   "merak": "Kurban Bayramı’nın arefe sabahı sabah namazını kılan herkes, selam verir vermez “Allâhü ekber” der. Bu tekbirler neden 23 vakit sürer?"
+  },
+  "Teşrik tekbirleri: Arefe günü sabah namazından başlayıp bayramın dördüncü günü ikindi namazına kadar, toplam 23 vakit farz namazın ardından bir kez “Allâhü ekber Allâhü ekber, lâ ilâhe illallâhü vallâhü ekber, Allâhü ekber ve lillâhi’l-hamd” denir. Hanefîlere göre vaciptir. Fetva İmameyn’in görüşüne göredir: cemaatle ya da yalnız kılan, erkek ya da kadın, mukim ya da misafir herkes tekbir getirir. Unutulursa mescitten çıkmadan ve namaza aykırı bir iş yapmadan getirilir. Bayram namazının ardından da tekbir getirmek İmameyn’e göre uygundur.",
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Ramazan Bayramı",
+     "Kurban Bayramı"
+    ],
+    [
+     "Bayram namazı",
+     "Vacip, iki rekât, zevaid tekbirli",
+     "Vacip, iki rekât, zevaid tekbirli"
+    ],
+    [
+     "Namazdan önce",
+     "Bir şey yemek sünnet",
+     "Kurban etinden yemek için aç durmak müstehap"
+    ],
+    [
+     "Malî ibadet",
+     "Fitre (vacip)",
+     "Kurban (vacip)"
+    ],
+    [
+     "Teşrik tekbiri",
+     "Yok (yolda gizlice tekbir)",
+     "23 vakit, vacip"
+    ]
+   ]
+  },
+  {
+   "sinav": "Teşrik tekbirleri arefe sabahından bayramın 4. günü ikindisine kadar 23 vakit; kurban kesimi ise bayramın 3. günü akşamına kadar sürer — bu iki süre karıştırılır."
+  },
+  {
+   "akil": "Teşrik tekbiri 23 vakit, vacip, herkese (İmameyn). Kurban 3 gün, teşrik tekbiri 4. gün ikindiye kadar."
+  },
+  {
+   "b": "Sık sorulan ek bilgiler"
+  },
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Bilgi"
+    ],
+    [
+     "Mün‘akide yemin",
+     "Gelecekte bir şeyi yapma ya da yapmama üzerine bilerek edilen yemin; bozulursa keffâret gerekir. Gamûs: geçmiş hakkında bile bile yalan yemin, keffâreti yok, tövbe gerekir. Lağv: kasıtsız ya da doğru sanılarak edilen yemin"
+    ],
+    [
+     "Kurban nisabı",
+     "Fitre nisabı ile aynı: temel ihtiyaç ve borç dışında 80,18 g altın değeri; yıl şartı yok"
+    ],
+    [
+     "Vekâletle kurban",
+     "Caiz; kesimin vekil tarafından kurban günlerinde yapılması gerekir"
+    ],
+    [
+     "Ölü adına kurban",
+     "Ölünün sevabına nafile kurban kesilebilir; vasiyet etmişse eti tasadduk edilir"
+    ],
+    [
+     "Kurban yerine sadaka",
+     "Kurban günlerinde kurbanın yerine parası sadaka olarak verilemez; günler geçince kıymeti sadaka olur"
+    ]
+   ]
+  }
+ ],
+ "ozet": [
+  "Kurban Ebû Hanîfe’ye göre vacip, diğer mezheplere göre sünnet-i müekkededir; delil Kevser 2 ve “namazgâhımıza yaklaşmasın” hadisi.",
+  "Kurban şartları: Müslüman, akıllı-bâliğ, hür, mukim, temel ihtiyaç ve borç dışında nisap (yıl ve artıcılık yok).",
+  "Kurbanlık yaşları: koyun-keçi 1 (gösterişli 6 aylık kuzu olur), sığır-manda 2, deve 5. Büyükbaşa 7 kişi ortak olur; hepsi ibadet niyeti taşımalı.",
+  "Engel kusurlar: kör, yürüyemeyecek kadar topal, kulak-kuyruğun yarıdan fazlası kesik, çok zayıf, dişlerinin çoğu dökük. Boynuzsuzluk ve hadımlık engel değil.",
+  "Kurban vakti bayramın 1. günü (şehirde namazdan sonra) başlar, 3. gün akşamına kadar sürer (Şâfiî: 4. gün).",
+  "Kurbanın eti, derisi satılıp bedeli alınamaz; kasaba ücret olarak verilemez. Eti üçe bölmek müstehaptır.",
+  "Adak ve ceza kurbanından sahibi, usûl-fürûu, eşi ve zenginler yiyemez; udhiyye, hedy ve akîkadan yenir.",
+  "Akîka Hanefîde mübah/müstehap, diğer üç mezhepte sünnet; doğumun 7. günü kesilmesi sünnettir.",
+  "Adak: cinsinden farz/vacip ibadet bulunan, zaten farz olmayan, günah olmayan, mümkün şey Allah için adanır. Hasta ziyareti, cami yapmak, ezan adak olmaz.",
+  "Hanefîde adakta zaman, yer, para ve fakir tayini bağlayıcı değildir (Züfer hariç).",
+  "Yemin türleri: gamûs (geçmişe bile bile yalan; Hanefîde keffâret yok, tövbe), lağv (kasıtsız; bir şey yok), mün’akide (geleceğe; bozulursa keffâret).",
+  "Yemin keffâreti: 10 fakiri doyurmak veya giydirmek veya köle azadı (muhayyer); hiçbirine gücü yetmeyen 3 gün peş peşe oruç (Mâide 89).",
+  "Oruç ve zıhar keffâreti: köle → 60 gün peş peşe oruç → 60 fakir (tertipli). Zıhar Mücâdele 1-4 (Havle bint Sa’lebe).",
+  "Katl keffâreti: hata ile öldürmede mümin köle, bulamayan 60 gün peş peşe oruç; fakir doyurma yok; ayrıca diyet (Nisâ 92).",
+  "Hanefîde oruç keffâreti kasten yiyip içmede de gerekir; Şâfiîde yalnız cinsel ilişkide. Hata, unutma ve zorlamada yalnız kaza.",
+  "Teşrik tekbiri arefe sabahından bayramın 4. günü ikindisine kadar 23 vakit; vacip."
+ ],
+ "kartlar": [
+  {
+   "o": "Udhiyye",
+   "a": "Kurban Bayramı’nda ibadet niyetiyle kesilen kurban; Ebû Hanîfe’ye göre vacip."
+  },
+  {
+   "o": "Kurbanlık hayvan yaşları",
+   "a": "Koyun-keçi 1 yaş (gösterişli 6 aylık kuzu), sığır-manda 2, deve 5."
+  },
+  {
+   "o": "Büyükbaşa ortaklık",
+   "a": "En fazla 7 kişi; hepsinin kurban niyeti şart; biri et niyetliyse hepsinin kurbanı geçersiz."
+  },
+  {
+   "o": "Kurban vakti",
+   "a": "Bayramın 1. günü (şehirde namazdan sonra) – 3. günün güneş batışı. Şâfiî: 4. gün de."
+  },
+  {
+   "o": "Etinden sahibi yiyemeyen kurbanlar",
+   "a": "Adak kurbanı ve ceza kurbanı (dem, bedene), ihsâr hedyi."
+  },
+  {
+   "o": "Akîka",
+   "a": "Doğum şükrü kurbanı; Hanefîde mübah/müstehap, diğer mezheplerde sünnet, Zâhirîde vacip."
+  },
+  {
+   "o": "Adak (nezir)",
+   "a": "Dinen yükümlü olunmayan, cinsinden farz/vacip bulunan bir ibadeti kendine vacip kılmak."
+  },
+  {
+   "o": "Mutlak – muallak adak",
+   "a": "Şartsız (“Kurban keseceğim”) / şarta bağlı (“İyileşirsem keseceğim”)."
+  },
+  {
+   "o": "Adak olmayanlar",
+   "a": "Abdest, ezan, kamet, cami yapmak, hasta ziyareti, farz namaz, Ramazan orucu, günah."
+  },
+  {
+   "o": "Gamûs yemin",
+   "a": "Geçmiş/şimdi hakkında bile bile yalan yemin; büyük günah; Hanefîde keffâret yok, tövbe. Şâfiîde keffâret de var."
+  },
+  {
+   "o": "Lağv yemin",
+   "a": "Doğru sanılarak yapılan ya da ağız alışkanlığıyla söylenen yemin; günah ve keffâret yok."
+  },
+  {
+   "o": "Mün’akide yemin",
+   "a": "Geleceğe dair kasıtlı yemin; bozulursa keffâret."
+  },
+  {
+   "o": "Yemin keffâreti",
+   "a": "10 fakiri doyurmak / giydirmek / köle azadı (muhayyer); olmazsa 3 gün peş peşe oruç."
+  },
+  {
+   "o": "Zıhar",
+   "a": "Kocanın eşini annesi gibi mahrem bir kadına benzetmesi; keffâret: köle → 60 gün oruç → 60 fakir."
+  },
+  {
+   "o": "Katl keffâreti",
+   "a": "Hata ile öldürmede mümin köle, bulamazsa 60 gün peş peşe oruç; fakir doyurma yok."
+  },
+  {
+   "o": "Karıştırma: muhayyer – tertipli keffâret",
+   "a": "Muhayyer: yemin keffâreti, hacda mazeretli ihlal. Tertipli: oruç, zıhar, katl."
+  },
+  {
+   "o": "Teşrik tekbiri",
+   "a": "Arefe sabahından bayramın 4. günü ikindisine kadar 23 vakit; vacip."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "f7-16",
+   "z": 3,
+   "s": "Hanefî mezhebine göre kurban ile ilgili aşağıdaki durumlardan hangisinde kişiye kurban kesmek vacip olmaz?",
+   "c": [
+    "Bayramın birinci günü fakir olup üçüncü günü öğleden sonra mirasla nisaba mâlik olan mukim kişi",
+    "Bayramın ilk iki gününü yolculukta geçirip üçüncü günü öğle vakti nisaba mâlik olarak evine dönen kişi",
+    "Malının üzerinden henüz bir yıl geçmemiş olan ama temel ihtiyaçları dışında nisap miktarı parası bulunan mukim kişi",
+    "Fakir olduğu hâlde kurban etmek niyetiyle bir koyun satın alan kişi",
+    "Bayramın birinci günü nisaba mâlik olup üçüncü günü akşamüstü yolculuğa çıkan ve henüz kurbanını kesmemiş kişi"
+   ],
+   "d": 4,
+   "a": "Kurbanın vacip olması için şartların kurban vaktinin sonuna kadar herhangi bir anda bulunması yeter; ancak vaktin sonunda kişinin durumu belirleyicidir. Üçüncü gün akşamüstü yolculuğa çıkan kişi vaktin sonunda misafir olduğundan kurban ondan düşer.",
+   "ac": [
+    "Vaktin içinde zenginleşmiştir; vacip olur.",
+    "Vakit içinde mukim ve zengin olmuştur; vacip olur.",
+    "Kurbanda yıl şartı yoktur.",
+    "Fakirin kurban niyetiyle satın aldığı hayvanı kesmesi vacip olur.",
+    "Doğru: vaktin sonunda misafir olduğundan düşer."
+   ],
+   "kay": "Konu: kurbanın vacip olma şartları; Kâsânî, Bedâi’"
+  },
+  {
+   "id": "f7-06",
+   "z": 3,
+   "s": "Hanefî mezhebine göre\nI. temettu ve kıran haccı yapanların kestiği hedy kurbanı,\nII. bir adağın yerine getirilmesi için kesilen adak kurbanı,\nIII. çocuğun doğumu sebebiyle kesilen akîka\nkurbanlarının hükümleri aşağıdakilerin hangisinde doğru sıralanmıştır?",
+   "c": [
+    "Sünnet – mübah – vacip",
+    "Vacip – vacip – mübah",
+    "Mübah – vacip – vacip",
+    "Vacip – sünnet – mübah",
+    "Sünnet – vacip – vacip"
+   ],
+   "d": 1,
+   "a": "Temettu ve kıran hedyi vacip, adak kurbanı vacip, akîka Hanefîlere göre mübahtır.",
+   "ac": [
+    "Hedy sünnet değildir.",
+    "Doğru.",
+    "Hedy vaciptir, akîka vacip değildir.",
+    "Adak kurbanı vaciptir.",
+    "Hedy vaciptir, akîka vacip değildir."
+   ],
+   "kay": "Hanefî ilmihali: kurban çeşitleri"
+  },
+  {
+   "id": "f8-12",
+   "z": 3,
+   "s": "Aşağıdaki durumların hangisinde Hanefî mezhebine göre yemin keffâreti gerekir?",
+   "c": [
+    "Kızgınlıkla “Vallahi bir daha kardeşimle konuşmayacağım” deyip ertesi gün onunla barışan kişi",
+    "Arkadaşının yolda olduğunu sanıp “Vallahi geldi” diyen ve sonra yanıldığını öğrenen kişi",
+    "“Vallahi bu yıl Ramazan orucunu tutacağım, inşallah” diyip tutamayan kişi",
+    "Dün akşam eve geç geldiği hâlde annesine “Vallahi erken geldim” diyen genç",
+    "Konuşurken ağız alışkanlığıyla sık sık “vallahi” diyen kişi"
+   ],
+   "d": 0,
+   "a": "Geleceğe dair kasıtlı yemin mün’akidedir; bozulursa keffâret gerekir. Kardeşle küsmek gibi günaha yapılan yemini bozmak vaciptir ve keffâret ödenir.",
+   "ac": [
+    "Doğru: mün’akide yemin bozulmuştur.",
+    "Doğru sanılarak edilen yemin lağvdır; bir şey gerekmez.",
+    "Yemine bitişik “inşallah” denince yemin bağlayıcı olmaz.",
+    "Geçmişe dair bile bile yalan yemindir (gamûs); Hanefîde keffâret yok, tövbe gerekir.",
+    "Ağız alışkanlığıyla edilen yemin lağvdır."
+   ],
+   "kay": "Mâide, 5/89; Müslim, Eymân, 12"
+  },
+  {
+   "id": "f7-07",
+   "z": 2,
+   "s": "Kurbanlık sığır için aranan yaş ve en fazla kaç kişinin ortak olabileceği hangisinde doğru verilmiştir?",
+   "c": [
+    "1 yaş – 5 kişi",
+    "2 yaş – 7 kişi",
+    "3 yaş – 7 kişi",
+    "5 yaş – 7 kişi",
+    "2 yaş – 10 kişi"
+   ],
+   "d": 1,
+   "a": "Sığır ve manda iki yaşını doldurmuş olmalıdır; sığır ve deveye yedi kişiye kadar ortak olunabilir.",
+   "ac": [
+    "Yaş ve sayı yanlış.",
+    "Doğru.",
+    "Yaş yanlış.",
+    "5 yaş devenin yaşıdır.",
+    "Sayı yanlış."
+   ],
+   "kay": "Müslim, Hac, 350 (yedi kişilik ortaklık)"
+  },
+  {
+   "id": "fk14-01",
+   "z": 3,
+   "s": "Hanefî mezhebine göre aşağıdaki keffâretlerle ilgili eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "Oruç keffâreti – köle azadı, bulamazsa 60 gün peş peşe oruç, ona da gücü yetmezse 60 fakiri doyurmak",
+    "Zıhar keffâreti – keffâret ödenmeden eşine yaklaşmak haramdır",
+    "Katl keffâreti – mümin köle azadı, bulamazsa 60 gün peş peşe oruç, ona da gücü yetmezse 60 fakiri doyurmak",
+    "Yemin keffâreti – 10 fakiri doyurmak, giydirmek veya köle azadı arasında serbestlik",
+    "Hacda mazeretle tıraş olmak – koyun, 6 fakire sadaka veya 3 gün oruç arasında serbestlik"
+   ],
+   "d": 2,
+   "a": "Katl keffâretinde fakir doyurma seçeneği yoktur; Nisâ 92’de yalnız mümin köle azadı ve iki ay peş peşe oruç sayılmıştır.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme (Mücâdele 3).",
+    "Yanlış: katl keffâretinde fakir doyurma yoktur.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme (Bakara 196)."
+   ],
+   "kay": "Nisâ, 4/92; Mücâdele, 58/3-4; Mâide, 5/89"
+  },
+  {
+   "id": "f7-08",
+   "z": 2,
+   "s": "Teşrik tekbirleri ile ilgili hangisi doğrudur?",
+   "c": [
+    "Bayram namazından sonra başlar.",
+    "Bayramın üçüncü günü akşamına kadar devam eder.",
+    "Yalnız hacılar için vaciptir.",
+    "Arefe günü sabah namazından bayramın dördüncü günü ikindi namazına kadar farzların arkasından getirilir.",
+    "Sünnet namazların arkasından getirilir."
+   ],
+   "d": 3,
+   "a": "Teşrik tekbirleri arefe sabahından bayramın dördüncü günü ikindisine kadar 23 vakit farzların ardından getirilir ve vaciptir.",
+   "ac": [
+    "Arefe sabahı başlar.",
+    "Dördüncü günün ikindisine kadardır.",
+    "Herkese vaciptir.",
+    "Doğru.",
+    "Farzlardan sonra getirilir."
+   ],
+   "kay": "Hanefî ilmihali: teşrik tekbirleri"
+  },
+  {
+   "id": "fk14-02",
+   "z": 3,
+   "s": "Bir kişi, “Kızım üniversiteyi kazanırsa Allah rızası için Konya’daki yetim yurdunda kalan çocuklara 10.000 TL dağıtacağım ve recep ayında üç gün oruç tutacağım” diye adakta bulunmuş; kızı üniversiteyi kazanmıştır.\n\nHanefî mezhebine göre bu kişinin durumu ile ilgili aşağıdakilerden hangisi söylenebilir?",
+   "c": [
+    "Parayı başka şehirdeki fakirlere de verebilir; orucu recep ayından önce de tutabilir.",
+    "Parayı mutlaka Konya’daki yurtta kalan çocuklara dağıtmalı, orucu yalnız recep ayında tutmalıdır.",
+    "Adak şarta bağlandığı için geçersizdir.",
+    "Oruç adağı geçerlidir ama para adağı geçerli değildir.",
+    "Adak yerine yemin keffâreti ödemesi yeterlidir."
+   ],
+   "d": 0,
+   "a": "Bu, muallak adaktır; şart gerçekleşince vacip olur. Hanefîlere göre (Züfer hariç) adakta belirtilen yer, zaman, kişi ve para tayini bağlayıcı değildir; başka fakirlere verilebilir, oruç da başka zamanda tutulabilir.",
+   "ac": [
+    "Doğru.",
+    "Hanefîlerde tayin bağlayıcı değildir.",
+    "Şarta bağlı (muallak) adak geçerlidir.",
+    "Sadaka adanabilir; cinsinden vacip olan zekât vardır.",
+    "Şart gerçekleştiği için adağın kendisi yerine getirilir."
+   ],
+   "kay": "Hac, 22/29; Konu: adak"
+  },
+  {
+   "id": "f7-10",
+   "z": 3,
+   "s": "Aşağıdakilerden hangisi kurban olarak kesilmeye engel bir kusur değildir?",
+   "c": [
+    "Bir gözünün kör olması",
+    "Kesim yerine yürüyemeyecek kadar topal olması",
+    "Kulağının yarıdan fazlasının kesik olması",
+    "Boynuzunun doğuştan olmaması",
+    "Dişlerinin çoğunun dökülmüş olması"
+   ],
+   "d": 3,
+   "a": "Boynuzsuz (doğuştan) hayvan kurban edilebilir; boynuzun kökünden kırık olması ise engel sayılır.",
+   "ac": [
+    "Engeldir.",
+    "Engeldir.",
+    "Engeldir.",
+    "Doğru: kurban edilebilir.",
+    "Engeldir."
+   ],
+   "kay": "Tirmizî, Edâhî, 5"
+  },
+  {
+   "id": "fk14-03",
+   "z": 3,
+   "s": "Kurban ile ilgili\nI. Ortaklardan biri yalnızca et almak niyetiyle sığıra ortak olursa diğer ortakların kurbanı da geçersiz olur.\nII. Kurbanın derisi satılıp parası kasabın ücretine eklenebilir.\nIII. Altı aylık olup bir yaşındaki gibi gösterişli bir keçi yavrusu kurban edilebilir.\nIV. Bayram namazı kılınan bir şehirde namazdan önce kesilen kurban geçerli olmaz.\nifadelerinden hangileri Hanefî mezhebine göre doğrudur?",
+   "c": [
+    "I ve II",
+    "I ve IV",
+    "II ve III",
+    "III ve IV",
+    "I, III ve IV"
+   ],
+   "d": 1,
+   "a": "Ortaklardan birinin ibadet niyeti taşımaması bütün ortakların kurbanını bozar. Kurbanın derisi ve eti satılıp ücret olarak verilemez. Altı aylık gösterişli yavru istisnası yalnız koyun içindir. Şehirde bayram namazından önce kurban kesilmez.",
+   "ac": [
+    "II. öncül yanlıştır.",
+    "Doğru.",
+    "II ve III. öncüller yanlıştır.",
+    "III. öncül yanlıştır: istisna keçide geçerli değildir.",
+    "III. öncül yanlıştır."
+   ],
+   "kay": "Konu: kurban; Buhârî, Edâhî, 1"
+  },
+  {
+   "id": "f7-15",
+   "z": 2,
+   "s": "Hanefî mezhebine göre kurban kesmenin vacip olması için aranan şartlar arasında hangisi yoktur?",
+   "c": [
+    "Müslüman olmak",
+    "Mukim olmak",
+    "Fıtır sadakası nisabına sahip olmak",
+    "Hür olmak",
+    "Hacca gitmiş olmak"
+   ],
+   "d": 4,
+   "a": "Kurban Hanefîlere göre vacip, diğer üç mezhebe göre sünnet-i müekkededir.",
+   "ac": [
+    "Şarttır.",
+    "Yolcuya kurban vacip değildir.",
+    "Şarttır.",
+    "Şarttır.",
+    "Böyle bir şart yoktur."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f7-20",
+   "z": 2,
+   "s": "Kurban olarak kesilecek koyun için Hanefî mezhebine göre aranan yaş nedir?",
+   "c": [
+    "İki yaş",
+    "Beş yaş",
+    "Bir yaş; altı ayı geçmiş olup bir yaşındaki gibi gösterişli olanı da caizdir",
+    "Üç ay",
+    "Yaş şartı yoktur."
+   ],
+   "d": 2,
+   "a": "Keçi bir yaşını doldurmalıdır; altı aylık istisnası yalnız koyun için geçerlidir.",
+   "ac": [
+    "Sığırda aranan yaştır.",
+    "Devede aranan yaştır.",
+    "Hanefî görüşüdür.",
+    "Yetmez.",
+    "Yaş şartı vardır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f8-01",
+   "z": 1,
+   "s": "Geçmişte olmuş bir olay hakkında bile bile yalan yere edilen yemine ne ad verilir?",
+   "c": [
+    "Lağv",
+    "Mün’akide",
+    "Zıhar",
+    "Muallak",
+    "Gamûs"
+   ],
+   "d": 4,
+   "a": "Bilerek yalan yere edilen yemin gamûstur; büyük günahtır.",
+   "ac": [
+    "Lağv kasıtsız yemindir.",
+    "Mün’akide geleceğe dair yemindir.",
+    "Zıhar eşi haram kılan benzetmedir.",
+    "Muallak bir adak türüdür.",
+    "Doğru."
+   ],
+   "kay": "Buhârî, Eymân, 16"
+  },
+  {
+   "id": "f8-02",
+   "z": 1,
+   "s": "Mün’akide yeminini bozan ve fakirleri doyuracak, giydirecek veya köle azat edecek gücü bulunmayan kişi ne yapar?",
+   "c": [
+    "60 gün oruç tutar",
+    "Hiçbir şey gerekmez",
+    "Bir fitre verir",
+    "3 gün oruç tutar",
+    "Bir kurban keser"
+   ],
+   "d": 3,
+   "a": "Yemin keffâretinde ilk üç seçeneğe gücü yetmeyen üç gün oruç tutar (Mâide, 5/89).",
+   "ac": [
+    "Oruç keffâretidir.",
+    "Keffâret gerekir.",
+    "Fitre keffâret değildir.",
+    "Doğru.",
+    "Kurban gerekmez."
+   ],
+   "kay": "Mâide, 5/89"
+  },
+  {
+   "id": "f8-04",
+   "z": 3,
+   "s": "Hanefî mezhebine göre aşağıdaki adaklardan hangisi geçerlidir?",
+   "c": [
+    "Küs olan akrabaları barışırsa fakir bir arkadaşına para vermeyi adaması",
+    "Sınavı kazanırsa camide ezan okumayı adaması",
+    "İşe girerse kaza namazlarını kılmayı adaması",
+    "Sekiz yaşındaki bir çocuğun, babası işe girerse kurban kesmeyi adaması",
+    "Annesi iyileşirse huzurevini ziyaret etmeyi adaması"
+   ],
+   "d": 0,
+   "a": "Fakire para vermek sadakadır; sadakanın cinsinden vacip (zekât, fitre) bulunduğu için adak geçerlidir. Çocuğun adağı, ezan, zaten farz olan kaza namazı ve ziyaret adak olmaz.",
+   "ac": [
+    "Doğru.",
+    "Ezanın cinsinden farz bir ibadet yoktur.",
+    "Kaza namazı zaten farzdır.",
+    "Adayan âkil-bâliğ değildir.",
+    "Ziyaretin cinsinden farz ibadet yoktur."
+   ],
+   "kay": "Kâsânî, Bedâi’: nezir"
+  },
+  {
+   "id": "f8-05",
+   "z": 2,
+   "s": "Adak kurbanının etiyle ilgili hangisi doğrudur?",
+   "c": [
+    "Adayan kişi tamamını yiyebilir.",
+    "Üçte biri adayana, üçte ikisi fakirlere ayrılır.",
+    "Adayan kişi, eşi ve çocukları yiyemez; tamamı fakirlere verilir.",
+    "Yalnız zenginlere dağıtılır.",
+    "Eti satılıp parası camiye bağışlanır."
+   ],
+   "d": 2,
+   "a": "Adak kurbanının etinden adayan ve bakmakla yükümlü olduğu kişiler yiyemez; tamamı fakirlere verilir.",
+   "ac": [
+    "Yiyemez.",
+    "Bu udhiyye (bayram kurbanı) için müstehap olan dağıtımdır.",
+    "Doğru.",
+    "Fakirlere verilir.",
+    "Satılmaz."
+   ],
+   "kay": "Hanefî ilmihali: adak kurbanı"
+  },
+  {
+   "id": "f8-06",
+   "z": 2,
+   "s": "Aşağıdaki keffâretlerden hangisinde mükellefe seçenekler arasında serbestlik tanınmıştır?",
+   "c": [
+    "Oruç keffâreti",
+    "Yemin keffâreti",
+    "Katl keffâreti",
+    "Zıhar keffâreti",
+    "Hiçbirinde"
+   ],
+   "d": 1,
+   "a": "Yemin keffâretinde doyurma, giydirme ve köle azadı arasında seçim serbesttir; diğerlerinde sıraya uyulur.",
+   "ac": [
+    "Tertiplidir.",
+    "Doğru.",
+    "Tertiplidir: köle, yoksa oruç.",
+    "Tertiplidir.",
+    "Yemin keffâreti muhayyerdir."
+   ],
+   "kay": "Mâide, 5/89"
+  },
+  {
+   "id": "f8-08",
+   "z": 2,
+   "s": "Hata ile bir insanı öldüren kişi, bulamadığı için köle azat edemiyorsa keffâret olarak ne yapar?",
+   "c": [
+    "3 gün oruç tutar",
+    "Keffâret gerekmez, yalnız diyet öder",
+    "60 fakiri doyurur",
+    "Bir kurban keser",
+    "60 gün peş peşe oruç tutar"
+   ],
+   "d": 4,
+   "a": "Nisâ 4/92’ye göre katl keffâreti mümin bir köle azadıdır; bulamayan iki ay peş peşe oruç tutar. Ayrıca diyet ödenir.",
+   "ac": [
+    "Yemin keffâretinin son basamağıdır.",
+    "Keffâret de gerekir.",
+    "Katl keffâretinde fakir doyurma seçeneği yoktur.",
+    "Kurban gerekmez.",
+    "Doğru."
+   ],
+   "kay": "Nisâ, 4/92"
+  },
+  {
+   "id": "f8-11",
+   "z": 3,
+   "s": "Bir kişi “Yarın kardeşimin evine gitmeyeceğim, vallahi!” diye yemin etmiş, ertesi gün kardeşinin evine gitmiştir.\n\nBu kişinin durumu hangisidir?",
+   "c": [
+    "Gamûs yemin ettiği için tövbe eder.",
+    "Lağv yemin ettiği için bir şey gerekmez.",
+    "Mün’akide yemini bozduğu için yemin keffâreti öder.",
+    "Oruç keffâreti öder.",
+    "Yemini kendiliğinden geçersiz olduğu için bir şey gerekmez."
+   ],
+   "d": 2,
+   "a": "Geleceğe dair bilerek edilen yemin mün’akidedir; bozulunca yemin keffâreti gerekir. Akrabayı ziyaret iyi bir iş olduğu için yemini bozup keffâret vermek daha iyidir.",
+   "ac": [
+    "Gamûs geçmişe dair yalandır.",
+    "Kasıtla edilmiştir.",
+    "Doğru.",
+    "Oruç keffâreti oruç bozmaya özgüdür.",
+    "Yemin geçerlidir."
+   ],
+   "kay": "Mâide, 5/89; Müslim, Eymân, 11"
+  },
+  {
+   "id": "f8-13",
+   "z": 2,
+   "s": "Hanefî mezhebine göre yemin keffâreti olarak tutulacak oruçla ilgili hangisi doğrudur?",
+   "c": [
+    "On gün, ara verilebilir.",
+    "Altmış gün, peş peşe.",
+    "Bir ay.",
+    "Üç gün, peş peşe.",
+    "Üç gün, ara verilebilir."
+   ],
+   "d": 3,
+   "a": "Oruca ancak doyurma, giydirme ve köle azat etmeye gücü yetmeyen geçebilir.",
+   "ac": [
+    "Sayı yanlıştır.",
+    "Bu oruç ve zıhâr keffâretidir.",
+    "Yanlıştır.",
+    "Hanefîlere göre üç gün ardı ardına tutulur.",
+    "Hanefîlerde peş peşe olmalıdır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f8-14",
+   "z": 2,
+   "s": "Hanefî mezhebine göre adağın geçerli olması için aranan şartlardan biri hangisidir?",
+   "c": [
+    "Adanan şeyin cinsinden farz ya da vacip bir ibadet bulunması",
+    "Adanan şeyin bir günah olması",
+    "Adağın mutlaka camide yapılması",
+    "Adağın bir hastanın iyileşmesine bağlanması",
+    "Adanan şeyin zaten farz olan bir ibadet olması"
+   ],
+   "d": 0,
+   "a": "Ayrıca adanan şey bir ibadet olmalı ve mülkiyette bulunan ya da yapılabilecek bir şey olmalıdır.",
+   "ac": [
+    "Adağın şartlarındandır.",
+    "Günah adanamaz.",
+    "Böyle bir şart yoktur.",
+    "Şarta bağlanabilir ama zorunlu değildir.",
+    "Farz olan şey adanmaz."
+   ],
+   "kay": "Hanefî ilmihal"
+  }
+ ]
+}

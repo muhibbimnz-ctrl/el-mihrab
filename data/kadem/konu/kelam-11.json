@@ -1,0 +1,990 @@
+{
+ "id": "kelam-11",
+ "ad": "Kelam Ekolleri ve Görüş Farkları: Mu’tezile, Eş’arîlik, Mâtürîdîlik, Selefiyye",
+ "ders": "Akaid ve Kelam",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Kelam meselelerinin doğuşu: Hangi soru nereden çıktı?"
+  },
+  {
+   "merak": "Hz. Peygamber’in vefatından sonraki ilk yarım asırda Müslümanlar Allah’ın sıfatlarını değil, “Kim halife olmalı?”, “Kardeşini öldüren Müslüman mı?” sorularını tartıştı. Kur’an’ın yaratılmış olup olmadığı sorusu ise ancak iki asır sonra, bir halifenin sarayında devlet meselesi hâline gelecekti."
+  },
+  "Bu dersin konusu mezheplerin tarihçesi değil, itikadî görüş farklarıdır. Yine de farkları doğru anlamak için hangi kelam meselesinin hangi ortamda doğduğunu bilmek gerekir. Hz. Osman’ın şehit edilmesi, Cemel ve Sıffîn savaşları ve tahkim gibi siyasi olaylar; imamet (hilafet), büyük günah işleyenin durumu (mürtekib-i kebîre) ve iman-amel ilişkisi tartışmalarını başlattı. Emevîler döneminde yöneticilerin yaptıklarını “kader” ile meşrulaştırması kader tartışmasını alevlendirdi. Tercüme hareketi, farklı din ve kültürlerle karşılaşma ve felsefi düşünce ise sıfatlar, Kur’an’ın mahiyeti, âlemin yaratılışı gibi soyut meseleleri gündeme getirdi.",
+  {
+   "tablo": [
+    [
+     "Mesele",
+     "Ortaya çıktığı ortam",
+     "İlk taraflar"
+    ],
+    [
+     "İmamet (hilafet)",
+     "Hz. Peygamber’in vefatı, Sakîfe",
+     "Şîa – Ehl-i sünnet"
+    ],
+    [
+     "Mürtekib-i kebîre ve iman-amel",
+     "Tahkim ve sonrası (37/657)",
+     "Hâricîler, Mürcie, Mu’tezile, Ehl-i sünnet"
+    ],
+    [
+     "Kader",
+     "Emevî dönemi; siyasi meşruiyet tartışması",
+     "Kaderiyye (Ma’bed, Gaylân) – Cebriyye (Ca’d, Cehm)"
+    ],
+    [
+     "Sıfatlar ve halku’l-Kur’ân",
+     "Abbâsî dönemi; tercüme hareketi, Hristiyan teolojisiyle karşılaşma",
+     "Mu’tezile, Cehmiyye – Ehl-i hadis"
+    ],
+    [
+     "Rü’yetullah, haberî sıfatlar",
+     "Sıfat tartışmasının devamı",
+     "Mu’tezile – Ehl-i sünnet; Haşviyye-Müşebbihe"
+    ]
+   ]
+  },
+  "Halku’l-Kur’ân tartışması siyasi bir krize dönüştü: Abbâsî halifesi Me’mûn 218/833’te Kur’an’ın mahlûk (yaratılmış) olduğu görüşünü resmî görüş ilan etti ve kadıları, âlimleri bu görüşü kabul edip etmediklerine göre sorgulattı. Bu sorgulama dönemine “mihne” (imtihan, sorgulama) denir. Mihne Mu’tasım ve Vâsık dönemlerinde de sürdü; Mütevekkil döneminde (yaklaşık 234/848) sona erdi. Ahmed b. Hanbel “Kur’an Allah’ın kelamıdır, mahlûk değildir” diyerek direndi, hapsedildi ve dövüldü; bu direniş Ehl-i hadisin güç kazanmasında belirleyici oldu.",
+  {
+   "sinav": "“Aşağıdaki kelam meselelerinden hangisinin doğuşunda ilk dönem siyasi olayların etkisi daha azdır?” sorusunun cevabı genellikle halku’l-Kur’ân’dır; çünkü o Abbâsî döneminde, tercüme hareketi ve sıfat tartışmalarıyla gündeme gelmiştir. Mihne: Me’mûn başlattı, Mütevekkil bitirdi; direnen âlim Ahmed b. Hanbel."
+  },
+  {
+   "akil": "İmamet, büyük günah ve iman-amel meseleleri siyasi olaylardan; kader Emevî döneminden; sıfatlar ve halku’l-Kur’ân Abbâsî döneminden doğdu. Mihne’de Ahmed b. Hanbel direndi."
+  },
+  {
+   "b": "2. Mu’tezile: Beş ilke ve akılcı sistem"
+  },
+  {
+   "merak": "Basra mescidinde Hasan el-Basrî’ye büyük günah işleyenin durumu soruldu. O cevap vermeden öğrencisi Vâsıl b. Atâ atıldı: “O ne mümindir ne kâfir; ikisi arasında bir konumdadır.” Sonra kalkıp mescidin başka bir direğine geçti. Hasan el-Basrî’nin “İ’tezele annâ (Bizden ayrıldı)” sözü bir mezhebe isim oldu."
+  },
+  "Mu’tezile, Vâsıl b. Atâ (ö. 131/748) ve Amr b. Ubeyd’in öncülüğünde doğmuş, Ebü’l-Hüzeyl el-Allâf, Nazzâm, Bişr b. Mu’temir, Câhiz, Cübbâî, Ebû Hâşim el-Cübbâî ve Kādî Abdülcebbâr gibi âlimlerle sistemleşmiştir. Basra ve Bağdat olmak üzere iki ana okulu vardır. Kādî Abdülcebbâr’ın el-Muğnî ve Şerhu’l-Usûli’l-hamse adlı eserleri ile Zemahşerî’nin el-Keşşâf tefsiri en önemli Mu’tezilî kaynaklardandır. Mu’tezile’ye “ashâbü’l-adl ve’t-tevhîd” de denir.",
+  {
+   "tablo": [
+    [
+     "Beş ilke (el-usûlü’l-hamse)",
+     "İçeriği",
+     "Doğurduğu görüşler"
+    ],
+    [
+     "Tevhid",
+     "Allah’ın zatında ve sıfatlarında birliği; ezelî sıfatlar kabul edilirse birden fazla kadîm olur (taaddüd-i kudemâ).",
+     "Sıfatlar zatın aynıdır; Kur’an mahlûktur; rü’yet imkânsızdır; haberî sıfatlar te’vil edilir."
+    ],
+    [
+     "Adl",
+     "Allah’ın adil olması; kötülük yapmaz ve kötülüğü irade etmez.",
+     "Halku’l-ef’âl (kul fiilini yaratır); salâh-aslah; hüsün-kubuh aklîdir."
+    ],
+    [
+     "El-va’d ve’l-vaîd",
+     "Allah vaadinden ve tehdidinden dönmez.",
+     "Tövbesiz ölen büyük günahkâr ebedî cehennemde; büyük günahkâra şefaat yok."
+    ],
+    [
+     "El-menzile beyne’l-menzileteyn",
+     "Büyük günah işleyen ne mümin ne kâfirdir.",
+     "Fâsık; ara konum."
+    ],
+    [
+     "Emr bi’l-ma’rûf nehy ani’l-münker",
+     "İyiliği emretmek, kötülükten sakındırmak her Müslümanın görevidir.",
+     "Gerektiğinde güç kullanarak zalim yöneticiye karşı çıkmak."
+    ]
+   ]
+  },
+  "Mu’tezile sıfatlar konusunda “Allah zatıyla âlimdir, zatıyla kādirdir” der; ilim, kudret gibi zattan ayrı ezelî sıfatlar kabul etmez. Ebü’l-Hüzeyl “Allah’ın ilmi vardır, o ilim de O’nun zatıdır” derken, Ebû Hâşim “ahvâl” (hâller) teorisini geliştirmiştir. Mu’tezile’ye göre Allah’ın kelamı, O’nun bir cisimde (ağaçta, levhada, melekte) yarattığı ses ve harflerdir; bu yüzden Kur’an mahlûktur.",
+  {
+   "tablo": [
+    [
+     "Basra Mu’tezilesi",
+     "Bağdat Mu’tezilesi"
+    ],
+    [
+     "Ebü’l-Hüzeyl, Nazzâm, Câhiz, Cübbâî, Ebû Hâşim, Kādî Abdülcebbâr",
+     "Bişr b. Mu’temir, Ebû Mûsâ el-Murdâr, Ka’bî (Ebü’l-Kāsım el-Belhî)"
+    ],
+    [
+     "Aslah, dinî (ahiret) işlerle sınırlı olarak Allah’a vaciptir",
+     "Aslah, dünya ve din işlerinin hepsinde vaciptir"
+    ],
+    [
+     "Hz. Ali ile Hz. Ebû Bekir arasında tercihte ihtiyat; bir kısmı Ebû Bekir’i öne alır",
+     "Hz. Ali’yi daha faziletli sayma eğilimi (tafdîl)"
+    ]
+   ]
+  },
+  {
+   "not": "Nazzâm, Kur’an’ın i’câzını “sarfe” ile açıklamıştır: Araplar Kur’an’ın benzerini getirebilirdi, ama Allah onları bundan alıkoydu. Bu görüş Mu’tezile içinde de genel kabul görmemiştir."
+  },
+  {
+   "sinav": "Beş ilkeden biri olmayanı soran soruların klasik çeldiricisi “kesb”tir (Eş’arî kavramı). Diğer çeldiriciler: “imamet” (Şîa’nın usulüdür), “nübüvvet”. Kurucu: Vâsıl b. Atâ; yakın arkadaşı Amr b. Ubeyd. Ka’bî Bağdat, Kādî Abdülcebbâr Basra ekolündendir."
+  },
+  {
+   "akil": "Mu’tezile’nin beş ilkesi: tevhid, adl, va’d-vaîd, menzile beyne’l-menzileteyn, emr bi’l-ma’rûf. Tevhid ilkesinden sıfat nefyi, halku’l-Kur’ân ve rü’yetin reddi; adl ilkesinden halku’l-ef’âl, aslah ve aklî hüsün-kubuh doğar."
+  },
+  {
+   "b": "3. Eş’arîlik: Mu’tezile’den dönen kelamcı"
+  },
+  {
+   "merak": "Ebü’l-Hasen el-Eş’arî kırk yaşına kadar Mu’tezile’nin büyük âlimi Cübbâî’nin gözde öğrencisiydi. Bir gün hocasına üç kardeşi sordu: Biri mümin olarak, biri kâfir olarak, biri de küçükken öldü. Küçük ölen “Neden beni büyütmedin ki ben de cennette yüksek dereceye çıkayım?” derse Allah ne cevap verir? Hocanın cevabı onu tatmin etmedi; Cuma günü Basra Camii’nin minberine çıkıp Mu’tezile’den ayrıldığını ilan etti."
+  },
+  "Ebü’l-Hasen el-Eş’arî (260-324/873-935), Mu’tezile’nin yöntemini (aklî delil, kelam) kullanarak Ehl-i hadisin inanç esaslarını savunan bir sistem kurdu. Başlıca eserleri: el-İbâne an usûli’d-diyâne, el-Lüma’ fi’r-red alâ ehli’z-zeyğ ve’l-bida’, Makâlâtü’l-İslâmiyyîn (fırkaların görüşlerini aktaran ilk mezhepler tarihi kaynaklarından) ve İstihsânü’l-havz fî ilmi’l-kelâm (kelamla uğraşmanın meşruluğu).",
+  {
+   "tablo": [
+    [
+     "Eş’arî âlim",
+     "Önemli eser(ler)",
+     "Not"
+    ],
+    [
+     "Bâkıllânî (ö. 403/1013)",
+     "et-Temhîd, İ’câzü’l-Kur’ân",
+     "Cevher-araz sistemini geliştirdi; “Delilin butlanı medlulün butlanını gerektirir” ilkesiyle anılır."
+    ],
+    [
+     "Cüveynî – İmâmü’l-Haremeyn (ö. 478/1085)",
+     "el-İrşâd, eş-Şâmil",
+     "Gazzâlî’nin hocası; Nizâmiye’de ders verdi."
+    ],
+    [
+     "Gazzâlî (ö. 505/1111)",
+     "İhyâ, el-İktisâd fi’l-i’tikād, Tehâfütü’l-felâsife",
+     "Eş’arîliği tasavvuf ve mantıkla zenginleştirdi."
+    ],
+    [
+     "Şehristânî (ö. 548/1153)",
+     "el-Milel ve’n-nihal, Nihâyetü’l-ikdâm",
+     "Dinler ve mezhepler tarihi."
+    ],
+    [
+     "Fahreddin er-Râzî (ö. 606/1210)",
+     "el-Muhassal, Mefâtîhu’l-gayb, Esâsü’t-takdîs",
+     "Kelamı felsefeyle birleştiren müteahhirîn döneminin zirvesi."
+    ],
+    [
+     "Âmidî (ö. 631/1233)",
+     "Ebkârü’l-efkâr",
+     "Müteahhirîn"
+    ],
+    [
+     "Adudüddin el-Îcî (ö. 756/1355)",
+     "el-Mevâkıf",
+     "Şerhi: Seyyid Şerîf Cürcânî"
+    ],
+    [
+     "Teftâzânî (ö. 792/1390)",
+     "Şerhu’l-Makāsıd, Şerhu’l-Akāid",
+     "Nesefî’nin (Mâtürîdî) akaid metnini şerh etmiştir."
+    ]
+   ]
+  },
+  "Eş’arî kelamı tarihî olarak iki döneme ayrılır: Gazzâlî’ye kadar olan mütekaddimîn dönemi ve Gazzâlî ile Râzî’den sonra felsefi konuları da içine alan müteahhirîn dönemi. İbn Haldun, Gazzâlî’den sonra kelam ile felsefe konularının birbirine karıştığını, “müteahhirîn yolu”nun böyle doğduğunu söyler. Eş’arîlik özellikle Şâfiî ve Mâlikî çevrelerde yayılmış; Irak, İran, Suriye, Mısır, Hicaz ve Mağrib’de yaygınlaşmıştır. Selçuklu veziri Nizâmülmülk’ün kurduğu Nizâmiye medreseleri yayılmasında önemli rol oynamıştır.",
+  "Eş’arî’nin temel görüşleri: Allah’ın zatıyla kaim ezelî sıfatları vardır; bunlar ne zatın aynı ne de gayrıdır. Sübûtî sıfatlar yedidir: hayat, ilim, semi’, basar, irade, kudret, kelam (tekvîn ayrı bir sıfat değil, kudretin taallukudur). Haberî sıfatlar (yed, vech, istivâ) mütekaddimîn döneminde keyfiyetsiz kabul edilmiş (bilâ keyf), müteahhirîn döneminde te’vil edilmiştir. Kur’an Allah’ın kelamıdır; kelâm-ı nefsî ezelî ve mahlûk değildir, okunan ve yazılan lafızlar ise mahlûktur. Kelâm-ı nefsî işitilebilir. Fiilleri Allah yaratır, kul kesb eder. Allah’ı tanımak şer’an vaciptir. İyi ve kötü şer’îdir. Allah’ın fiilleri bir amaçla sınırlı değildir. Teklîf-i mâ lâ yutâk aklen caizdir. İman tasdiktir, istisna caizdir, muvâfât esastır. İmamet seçimle olur.",
+  {
+   "sinav": "Eş’arî âlimleri listesinde çeldirici olarak Mâtürîdî âlimler konur: Ebü’l-Muîn en-Nesefî, Pezdevî, Necmeddin Ömer en-Nesefî, Sâbûnî. Eş’arî’nin “üç kardeş” meselesi aslah tartışmasıdır. Makâlâtü’l-İslâmiyyîn Eş’arî’ye, el-Milel ve’n-nihal Şehristânî’ye aittir; karıştırılmamalıdır."
+  },
+  {
+   "akil": "Eş’arî kırk yaşında Mu’tezile’den ayrıldı; kelam yöntemiyle Ehl-i sünnet inancını savundu. Önemli isimler: Bâkıllânî, Cüveynî, Gazzâlî, Şehristânî, Râzî, Îcî, Teftâzânî. Yedi sübûtî sıfat; kesb; hüsün-kubuh şer’î; istisna caiz."
+  },
+  {
+   "b": "4. Mâtürîdîlik: Ebû Hanîfe’nin izinde Semerkant ekolü"
+  },
+  {
+   "merak": "Semerkant’ın Mâtürîd mahallesinde yaşayan bir âlim, Eş’arî ile aynı yıllarda, birbirlerinden habersiz, benzer bir iş yaptı: Mu’tezile’nin akılcılığına da Haşviyye’nin lafızcılığına da karşı Ehl-i sünnet inancını savundu. Ama onun hareket noktası Basra değil, Ebû Hanîfe’nin mirasıydı."
+  },
+  "Ebû Mansûr el-Mâtürîdî (ö. 333/944), Ebû Hanîfe’nin itikadî görüşlerini sistemleştiren Semerkantlı kelamcıdır. Ebû Hanîfe’ye nispet edilen itikadî eserler şunlardır: el-Fıkhu’l-ekber, el-Fıkhu’l-ebsat, el-Âlim ve’l-müteallim, el-Vasiyye ve Osmân el-Bettî’ye yazdığı er-Risâle. Mâtürîdî’nin günümüze ulaşan eserleri Kitâbü’t-Tevhîd (kelam) ve Te’vîlâtü’l-Kur’ân (Te’vîlâtü Ehli’s-sünne; tefsir) adlı eserlerdir.",
+  {
+   "tablo": [
+    [
+     "Mâtürîdî âlim",
+     "Önemli eser(ler)",
+     "Not"
+    ],
+    [
+     "Ebü’l-Yüsr el-Pezdevî (ö. 493/1100)",
+     "Usûlü’d-dîn",
+     "Mâtürîdî’yi ekolün kurucusu olarak öne çıkardı."
+    ],
+    [
+     "Ebü’l-Muîn en-Nesefî (ö. 508/1115)",
+     "Tabsıratü’l-edille, et-Temhîd, Bahrü’l-kelâm",
+     "Mâtürîdîliğin ekolleşmesini ve sistemleşmesini sağlayan âlim; “Mâtürîdîliğin Bâkıllânî’si/Gazzâlî’si” sayılır."
+    ],
+    [
+     "Necmeddin Ömer en-Nesefî (ö. 537/1142)",
+     "el-Akāidü’n-Nesefiyye",
+     "Teftâzânî’nin Şerhu’l-Akāid’i bu metnin şerhidir."
+    ],
+    [
+     "Nûreddin es-Sâbûnî (ö. 580/1184)",
+     "el-Bidâye fî usûli’d-dîn",
+     "Özlü akaid kitabı"
+    ],
+    [
+     "Kemâl b. Hümâm (ö. 861/1457)",
+     "el-Müsâyere",
+     "Eş’arî-Mâtürîdî uzlaşısına önem verdi."
+    ],
+    [
+     "Beyâzîzâde Ahmed Efendi (ö. 1098/1687)",
+     "İşârâtü’l-merâm min ibârâti’l-İmâm",
+     "Osmanlı; Ebû Hanîfe’nin ifadelerini şerh etti."
+    ]
+   ]
+  },
+  "Mâtürîdîlik Hanefî fıkıh mezhebiyle birlikte Mâverâünnehir, Horasan, Anadolu, Balkanlar, Hindistan ve Türk dünyasında yayılmıştır. Osmanlı’nın resmî itikadî ekolü Mâtürîdîliktir. Mâtürîdî kelamının temel karakteri akıl ile nakil arasında denge kurmasıdır: Ne Mu’tezile gibi aklı nakle öncelemiş, ne de Ehl-i hadis gibi nakli tek kaynak saymıştır. Mâtürîdî’ye göre bilginin kaynakları duyular (a’yân), haber (ahbâr) ve akıl (nazar)dır; ilham ise bilgi kaynağı değildir.",
+  "Mâtürîdî’nin temel görüşleri: Sübûtî sıfatlar sekizdir; tekvîn ezelî ve ayrı bir sıfattır. Sıfatlar “ne zatın aynı ne de gayrı”dır. Allah’ın fiilleri hikmetlidir. Allah’ı tanımak aklen vaciptir; peygamber gelmese de akıl sahibi O’nu tanımakla yükümlüdür. Bazı fiillerin iyiliği ve kötülüğü akılla bilinebilir. Kul cüz’î iradesiyle fiilin gerçek failidir; tercih etkilidir. Teklîf-i mâ lâ yutâk caiz değildir. İman tasdiktir, ikrar dünyevi hükümler için şarttır; artmaz ve eksilmez; istisna caiz değildir. Allah’ın kelamı (kelâm-ı nefsî) işitilmez; Hz. Mûsâ’nın işittiği, kelama delalet eden yaratılmış sestir. Mukallidin imanı geçerlidir. Kabir azabı ve rü’yet haktır.",
+  {
+   "tablo": [
+    [
+     "Eş’arî-Mâtürîdî ihtilafları",
+     "Eş’arî",
+     "Mâtürîdî"
+    ],
+    [
+     "Tekvîn sıfatı",
+     "Ayrı sıfat değil; kudretin taalluku (sübûtî sıfatlar 7)",
+     "Ezelî, ayrı bir sıfat (sübûtî sıfatlar 8)"
+    ],
+    [
+     "Allah’ı tanıma yükümlülüğü",
+     "Şer’an (vahiyle) vacip",
+     "Aklen vacip"
+    ],
+    [
+     "Hüsün-kubuh",
+     "Şer’î",
+     "Bazıları akılla bilinebilir"
+    ],
+    [
+     "Allah’ın fiillerinde hikmet",
+     "Fiiller bir amaçla sınırlanamaz",
+     "Fiiller hikmetlidir"
+    ],
+    [
+     "Teklîf-i mâ lâ yutâk",
+     "Aklen caiz",
+     "Caiz değil"
+    ],
+    [
+     "Kulun kudreti",
+     "Fiile etkisiz (kesb)",
+     "Cüz’î irade tercihte etkili"
+    ],
+    [
+     "Kelâm-ı nefsînin işitilmesi",
+     "Mümkün",
+     "Mümkün değil; işitilen yaratılmış sestir"
+    ],
+    [
+     "İmanda istisna",
+     "Caiz",
+     "Caiz değil"
+    ],
+    [
+     "Saîd-şakî",
+     "Değişmez",
+     "Değişebilir"
+    ],
+    [
+     "Kader ve kaza tanımı",
+     "Kaza ezelî irade, kader icat",
+     "Kader ezelî takdir, kaza icat"
+    ],
+    [
+     "İmanın artıp eksilmesi",
+     "Artar eksilir",
+     "Mahiyet bakımından artmaz eksilmez"
+    ],
+    [
+     "Kadın peygamber",
+     "Bazı Eş’arîler mümkün görmüştür (Hz. Meryem örneğiyle)",
+     "Mümkün değildir"
+    ]
+   ]
+  },
+  "Eş’arî ve Mâtürîdî arasındaki ihtilafların sayısı ve niteliği konusunda Osmanlı döneminde müstakil eserler yazılmıştır: Kemalpaşazâde’nin ihtilafları on iki meselede toplayan risalesi, Şeyhzâde Abdurrahîm Efendi’nin Nazmü’l-ferâid adlı eseri ve Ebû Uzbe’nin er-Ravzatü’l-behiyye’si bunlardandır. Bu müellifler ihtilafların bir kısmının lafzî (sözde), bir kısmının manevî (özde) olduğunu, hiçbirinin birbirini sapıklıkla itham etmeyi gerektirmediğini vurgulamıştır.",
+  {
+   "kontrol": "Eş’arî-Mâtürîdî ihtilaflarının sayısı müelliften müellife değişir (Kemalpaşazâde on iki, Ebû Uzbe on üç, Nazmü’l-ferâid daha fazla mesele sayar). Sınavda belirli bir sayı sorulursa soru kökündeki esere dikkat edilmelidir."
+  },
+  {
+   "sinav": "En çok çıkan iki bilgi: (1) Mâtürîdîliğin ekolleşmesi/sistemleşmesi Ebü’l-Muîn en-Nesefî ile olmuştur. (2) Kitâbü’t-Tevhîd Mâtürîdî’nin, el-Fıkhu’l-ekber Ebû Hanîfe’nindir. Karşılaştırma sorularında “peygamber gönderilmese de akıl sahibi Allah’ı tanımakla yükümlüdür” → Mâtürîdî; “tekvîn kudretin taallukudur” → Eş’arî."
+  },
+  {
+   "akil": "Mâtürîdî, Ebû Hanîfe’nin görüşlerini sistemleştirdi; ekol Ebü’l-Muîn en-Nesefî ile olgunlaştı. Akıl-nakil dengesi, tekvîn sıfatı, Allah’ı aklen tanıma yükümlülüğü, cüz’î irade, istisnanın reddi Mâtürîdî’yi Eş’arî’den ayırır."
+  },
+  {
+   "b": "5. Selefiyye: Nassa bağlılık ve kelam yöntemine itiraz"
+  },
+  {
+   "merak": "Bir adam İmam Mâlik’e “Rahmân arşa istivâ etti; nasıl istivâ etti?” diye sordu. Mâlik terledi, başını önüne eğdi, sonra şöyle dedi: “İstivâ bilinmektedir, keyfiyeti meçhuldür, ona iman vaciptir, onu sormak bid’attir.” Bu cümle, Selef’in sıfatlar karşısındaki tavrının özeti oldu."
+  },
+  "Selef sözlükte “önce geçenler” demektir; ilk üç neslin (sahabe, tâbiûn, tebe-i tâbiîn) âlimleri için kullanılır. Selefiyye ise itikadî konularda bu ilk nesillerin yolunu izlediğini söyleyen, nasları zahirine göre anlayan ve kelam yöntemine mesafeli duran ekolün adıdır. Tarih içinde Ehl-i hadis (Mâlik, Şâfiî, Ahmed b. Hanbel ve hadisçiler) olarak başlayan bu çizgi, İbn Teymiyye (ö. 728/1328) ve öğrencisi İbn Kayyim el-Cevziyye ile sistemli bir kelam eleştirisine dönüşmüş, Muhammed b. Abdülvehhâb ile modern dönemde yeniden canlanmıştır.",
+  {
+   "tablo": [
+    [
+     "Selefî tavrın ilkeleri",
+     "Açıklama"
+    ],
+    [
+     "Nassları zahirine göre kabul (isbat)",
+     "Haberî sıfatlar (el, yüz, istivâ, nüzûl) gerçek anlamıyla kabul edilir."
+    ],
+    [
+     "Keyfiyeti sormamak (bilâ keyf)",
+     "Sıfatların nasıllığı Allah’a bırakılır."
+    ],
+    [
+     "Teşbih yok",
+     "Allah’ın sıfatları yaratılmışlara benzetilmez (Şûrâ, 42/11)."
+    ],
+    [
+     "Te’vil yok",
+     "Sıfatlar mecaza hamledilmez (müteahhir Eş’arî ve Mu’tezile te’villeri reddedilir)."
+    ],
+    [
+     "Tefvîz",
+     "Anlamı ve keyfiyeti Allah’a havale etme (ilk Selef’in tutumu olarak da tanımlanır)."
+    ],
+    [
+     "Kelam yöntemine karşı çıkmak",
+     "Ahmed b. Hanbel ve Ehl-i hadis cedelî kelamı bid’at saydı (İbn Kudâme, Tahrîmü’n-nazar fî kütübi ehli’l-kelâm; Herevî, Zemmü’l-kelâm)."
+    ]
+   ]
+  },
+  "Selefiyye’nin diğer görüşleri: Kur’an Allah’ın kelamıdır ve mahlûk değildir (Ahmed b. Hanbel, “Kur’an’ı okuyuşum mahlûktur” diyenleri de Cehmiyye’ye yakın görerek eleştirmiştir). İman söz, amel ve niyettir; artar ve eksilir; imanda istisna caizdir. Büyük günah işleyen mümindir, ama imanı eksiktir. Rü’yet haktır. İbn Teymiyye tevhidi üçe ayırmıştır: rubûbiyyet tevhidi (yaratıcı ve rab olarak Allah’ın birliği), ulûhiyyet tevhidi (ibadette Allah’ın birliği) ve esmâ ve sıfat tevhidi. Ona göre Allah’ın fiilleri hikmetlidir, insan fiilinin gerçek failidir, iyilik ve kötülük akılla da bilinebilir; bu yönleriyle Mâtürîdîlere yakın düşer. İbn Teymiyye kabir ziyaretinde tevessül ve türbelere yolculuk konusundaki sert görüşleriyle de tartışılmıştır.",
+  {
+   "tablo": [
+    [
+     "Haberî sıfatlar karşısında tavır",
+     "Kimler",
+     "İstivâ örneği"
+    ],
+    [
+     "Teşbih / tecsîm",
+     "Müşebbihe, Haşviyye, Kerrâmiyye",
+     "Allah’ın arşa cisim gibi oturması (Ehl-i sünnetçe reddedilir)"
+    ],
+    [
+     "Ta’tîl / te’vil",
+     "Mu’tezile, Cehmiyye",
+     "İstivâ = istîlâ (hâkimiyet)"
+    ],
+    [
+     "İsbat bilâ keyf / tefvîz",
+     "Selef, Ehl-i hadis, ilk Eş’arî",
+     "İstivâ bilinir, keyfiyeti bilinmez"
+    ],
+    [
+     "Te’vil (ihtiyaçla)",
+     "Müteahhir Eş’arî ve Mâtürîdîler",
+     "İstivâ = hâkimiyet, kudretle tasarruf"
+    ]
+   ]
+  },
+  {
+   "sinav": "İmam Mâlik’in istivâ sözü Selef tavrının (bilâ keyf) örneği olarak sorulur. Tevhidin üçe ayrılması İbn Teymiyye’ye aittir. Haberî sıfatları te’vil eden Mu’tezile ile teşbih eden Müşebbihe arasındaki “orta yol”un hem Selef’e hem Ehl-i sünnet kelamcılarına göre farklı biçimde kurulduğu unutulmamalıdır."
+  },
+  {
+   "akil": "Selefiyye: nasları zahirine göre kabul eder, keyfiyeti sormaz, teşbih ve te’vili reddeder; kelam yöntemine mesafelidir. Temsilciler: Ahmed b. Hanbel, İbn Teymiyye, İbn Kayyim. İman söz-amel-niyettir; artar eksilir."
+  },
+  {
+   "b": "6. Büyük karşılaştırma: Dört ekol yan yana"
+  },
+  {
+   "merak": "Bir sınavda sana yalnızca tek cümle verilir: “Allah zatıyla âlimdir.” Ya da: “İman artmaz eksilmez.” Bu tek cümleden ekolü bulman beklenir. Bunun yolu, her ekolün sistemini bir bütün olarak görmekten geçer."
+  },
+  "Aşağıdaki tablolar, ekollerin en sık sorulan meselelerdeki görüşlerini karşılaştırır. Tabloyu ezberlemek yerine her ekolün “ana fikri”nden hareket etmek kolaylık sağlar: Mu’tezile’de tevhid ve adalet; Eş’arîlik’te Allah’ın mutlak irade ve kudreti; Mâtürîdîlik’te akıl-nakil dengesi ve hikmet; Selefiyye’de nassa sadakat.",
+  {
+   "tablo": [
+    [
+     "Mesele",
+     "Mu’tezile",
+     "Eş’arîlik",
+     "Mâtürîdîlik",
+     "Selefiyye"
+    ],
+    [
+     "Sıfatlar",
+     "Zattan ayrı ezelî sıfat yok; zatın aynı",
+     "Ezelî; ne aynı ne gayrı; sübûtî 7",
+     "Ezelî; ne aynı ne gayrı; sübûtî 8 (tekvîn)",
+     "Nasta geçen her sıfat isbat edilir"
+    ],
+    [
+     "Haberî sıfatlar",
+     "Te’vil",
+     "İlk dönem bilâ keyf, sonra te’vil",
+     "Te’vil veya tefvîz",
+     "İsbat bilâ keyf, te’vil yok"
+    ],
+    [
+     "Kur’an",
+     "Mahlûk",
+     "Kelâm-ı nefsî kadîm; lafızlar mahlûk",
+     "Kelâm-ı nefsî kadîm; lafızlar mahlûk",
+     "Mahlûk değil (lafız tartışmasına girmeden)"
+    ],
+    [
+     "Rü’yetullah",
+     "İmkânsız",
+     "Ahirette caiz ve vaki",
+     "Ahirette caiz ve vaki",
+     "Ahirette vaki"
+    ],
+    [
+     "İnsan fiilleri",
+     "Kul yaratır",
+     "Allah yaratır, kul kesb eder (kudret etkisiz)",
+     "Allah yaratır, kul cüz’î iradeyle kesb eder (tercih etkili)",
+     "Allah yaratır, kul gerçek faildir"
+    ],
+    [
+     "Hüsün-kubuh",
+     "Aklî",
+     "Şer’î",
+     "Bir kısmı akılla bilinir",
+     "Akılla da bilinebilir"
+    ],
+    [
+     "Allah’ı bilmek",
+     "Aklen vacip",
+     "Şer’an vacip",
+     "Aklen vacip",
+     "Fıtrî; şer’an vacip"
+    ],
+    [
+     "Aslah",
+     "Allah’a vacip",
+     "Allah’a hiçbir şey vacip değil",
+     "Vacip değil; fiilleri hikmetli",
+     "Fiilleri hikmetli"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Mesele",
+     "Mu’tezile",
+     "Eş’arîlik",
+     "Mâtürîdîlik",
+     "Selefiyye"
+    ],
+    [
+     "İmanın tanımı",
+     "Tasdik, ikrar, amel",
+     "Tasdik",
+     "Tasdik (ikrar şart)",
+     "Söz, amel, niyet"
+    ],
+    [
+     "Artma-eksilme",
+     "Artar eksilir",
+     "Artar eksilir",
+     "Artmaz eksilmez",
+     "Artar eksilir"
+    ],
+    [
+     "İmanda istisna",
+     "—",
+     "Caiz",
+     "Caiz değil",
+     "Caiz"
+    ],
+    [
+     "Büyük günahkâr",
+     "Ara konum, tövbesizse ebedî cehennem",
+     "Mümin-fâsık, af mümkün",
+     "Mümin-fâsık, af mümkün",
+     "Mümin, imanı eksik"
+    ],
+    [
+     "Şefaat",
+     "Yalnız derece artırma",
+     "Büyük günahkâra da",
+     "Büyük günahkâra da",
+     "Büyük günahkâra da"
+    ],
+    [
+     "Kabir azabı",
+     "Çoğunluk kabul (bazıları inkâr)",
+     "Hak",
+     "Hak",
+     "Hak"
+    ],
+    [
+     "İmamet",
+     "Seçimle; nass yok",
+     "Seçimle; Kureyş şartı",
+     "Seçimle; Kureyş şartı",
+     "Seçimle"
+    ]
+   ]
+  },
+  {
+   "not": "Şîa kelamı (özellikle İmâmiyye ve Zeydiyye) tevhid ve adalet konularında Mu’tezile’ye çok yakındır: sıfatların zatın aynı olması, Kur’an’ın mahlûk olması, rü’yetin reddi, kulun fiilini yaratması gibi. Ayrıldığı temel nokta imamettir: İmâmiyye’ye göre imamet nass ve tayinle belirlenir ve imamlar masumdur. İmâmiyye’nin dinin temel esasları (usûl-i dîn) tevhid, adl, nübüvvet, imamet ve meaddır."
+  },
+  {
+   "sinav": "Karşılaştırma soruları genellikle tek bir ekolün iki-üç görüşünü öncül olarak verip “hangi ekole aittir?” diye sorar ya da “Eş’arîlik ile Mâtürîdîlik karşılaştırıldığında hangisi Mâtürîdîlik için doğrudur?” şeklinde gelir. Ayırt edici ipuçları: “zatıyla âlim” → Mu’tezile; “kesb, kudret etkisiz” → Eş’arî; “tekvîn, aklen vacip, istisna yok” → Mâtürîdî; “bilâ keyf, tevhidin üç kısmı” → Selefiyye."
+  },
+  {
+   "akil": "Ekolü bulmak için ana fikri hatırla: Mu’tezile tevhid ve adalet; Eş’arî mutlak irade ve kesb; Mâtürîdî akıl-nakil dengesi ve hikmet; Selefiyye nassa sadakat ve bilâ keyf. Şîa kelamı imamet dışında Mu’tezile’ye yakındır."
+  }
+ ],
+ "ozet": [
+  "Siyasi olaylar → imamet, büyük günah, iman-amel; Emevî dönemi → kader; Abbâsî dönemi → sıfatlar, halku’l-Kur’ân.",
+  "Mihne: Me’mûn 218/833’te başlattı, Mütevekkil döneminde bitti; Ahmed b. Hanbel “Kur’an mahlûk değildir” diyerek direndi.",
+  "Mu’tezile’nin kurucusu Vâsıl b. Atâ; i’tizâl, Hasan el-Basrî’nin meclisinden ayrılmadır. Yakın arkadaşı Amr b. Ubeyd.",
+  "Beş ilke: tevhid, adl, va’d-vaîd, el-menzile beyne’l-menzileteyn, emr bi’l-ma’rûf nehy ani’l-münker. Kesb ve imamet bu ilkelerden değildir.",
+  "Mu’tezile: sıfatlar zatın aynı, Kur’an mahlûk, rü’yet imkânsız, halku’l-ef’âl, aslah, aklî hüsün-kubuh.",
+  "Basra Mu’tezilesi: Ebü’l-Hüzeyl, Nazzâm, Cübbâî, Ebû Hâşim, Kādî Abdülcebbâr. Bağdat: Bişr b. Mu’temir, Ka’bî.",
+  "Eş’arî (ö. 324/935) kırk yaşında Mu’tezile’den ayrıldı (üç kardeş meselesi). Eserleri: el-İbâne, el-Lüma’, Makâlâtü’l-İslâmiyyîn.",
+  "Eş’arî âlimler: Bâkıllânî, Cüveynî, Gazzâlî, Şehristânî, Fahreddin Râzî, Âmidî, Îcî, Cürcânî, Teftâzânî.",
+  "Mâtürîdî (ö. 333/944, Semerkant): Kitâbü’t-Tevhîd, Te’vîlâtü’l-Kur’ân. Ebû Hanîfe’nin el-Fıkhu’l-ekber, el-Âlim ve’l-müteallim, el-Vasiyye, er-Risâle’sini sistemleştirdi.",
+  "Mâtürîdîliğin ekolleşmesi Ebü’l-Muîn en-Nesefî (Tabsıratü’l-edille) ile oldu. Diğerleri: Pezdevî, Ömer Nesefî (Akāid), Sâbûnî, Kemâl b. Hümâm, Beyâzîzâde.",
+  "Eş’arî-Mâtürîdî farkları: tekvîn, Allah’ı aklen bilme, hüsün-kubuh, hikmet, teklîf-i mâ lâ yutâk, kesb, kelâm-ı nefsînin işitilmesi, istisna, saîd-şakî.",
+  "Mâtürîdîlik akıl ile nakil arasında denge kurar; Hanefîler arasında yayılmıştır; Osmanlı’nın resmî itikadî ekolüdür.",
+  "Selefiyye: isbat bilâ keyf, teşbih ve te’vil yok; kelam yöntemine itiraz. Ahmed b. Hanbel, İbn Teymiyye, İbn Kayyim.",
+  "İmam Mâlik: “İstivâ bilinmektedir, keyfiyeti meçhuldür, ona iman vaciptir, onu sormak bid’attir.”",
+  "İbn Teymiyye tevhidi üçe ayırdı: rubûbiyyet, ulûhiyyet, esmâ ve sıfat.",
+  "Şîa kelamı imamet dışında Mu’tezile’ye yakındır; İmâmiyye’nin usûl-i dîni: tevhid, adl, nübüvvet, imamet, mead."
+ ],
+ "kartlar": [
+  {
+   "o": "Mihne",
+   "a": "Me’mûn’un başlattığı (218/833) halku’l-Kur’ân sorgulaması; Mütevekkil’le bitti. Direnen: Ahmed b. Hanbel."
+  },
+  {
+   "o": "İ’tizâl",
+   "a": "Vâsıl b. Atâ’nın Hasan el-Basrî’nin meclisinden ayrılması; Mu’tezile adının kaynağı."
+  },
+  {
+   "o": "Mu’tezile’nin beş ilkesi",
+   "a": "Tevhid, adl, va’d-vaîd, el-menzile beyne’l-menzileteyn, emr bi’l-ma’rûf nehy ani’l-münker."
+  },
+  {
+   "o": "Taaddüd-i kudemâ",
+   "a": "Ezelî sıfatlar kabul edilirse birden fazla ezelî varlık olur itirazı; Mu’tezile’nin sıfat nefyinin gerekçesi."
+  },
+  {
+   "o": "Kādî Abdülcebbâr",
+   "a": "Basra Mu’tezilesinin son büyük âlimi; el-Muğnî, Şerhu’l-Usûli’l-hamse."
+  },
+  {
+   "o": "Ka’bî",
+   "a": "Bağdat Mu’tezilesi; maktulün iki eceli olduğunu söyledi."
+  },
+  {
+   "o": "Eş’arî’nin eserleri",
+   "a": "el-İbâne, el-Lüma’, Makâlâtü’l-İslâmiyyîn, İstihsânü’l-havz fî ilmi’l-kelâm."
+  },
+  {
+   "o": "Üç kardeş meselesi",
+   "a": "Eş’arî ile Cübbâî arasındaki aslah tartışması; Eş’arî’nin Mu’tezile’den ayrılma sebeplerinden."
+  },
+  {
+   "o": "Mütekaddimîn – Müteahhirîn",
+   "a": "Gazzâlî öncesi Eş’arî kelamı – Gazzâlî ve Râzî sonrası felsefeyle iç içe kelam (İbn Haldun)."
+  },
+  {
+   "o": "Mâtürîdî’nin eserleri",
+   "a": "Kitâbü’t-Tevhîd ve Te’vîlâtü’l-Kur’ân."
+  },
+  {
+   "o": "Ebü’l-Muîn en-Nesefî",
+   "a": "Mâtürîdîliği ekolleştiren âlim; Tabsıratü’l-edille, et-Temhîd, Bahrü’l-kelâm."
+  },
+  {
+   "o": "Ebû Hanîfe’ye nispet edilen itikadî eserler",
+   "a": "el-Fıkhu’l-ekber, el-Fıkhu’l-ebsat, el-Âlim ve’l-müteallim, el-Vasiyye, er-Risâle (Osmân el-Bettî’ye)."
+  },
+  {
+   "o": "Tekvîn sıfatı",
+   "a": "Mâtürîdî: ezelî ve ayrı sıfat (sübûtî 8). Eş’arî: kudretin taalluku (sübûtî 7)."
+  },
+  {
+   "o": "Kelâm-ı nefsî işitilir mi?",
+   "a": "Eş’arî: işitilebilir. Mâtürîdî: işitilmez; Hz. Mûsâ yaratılmış sesi işitti."
+  },
+  {
+   "o": "İsbat bilâ keyf",
+   "a": "Haberî sıfatları keyfiyet sormadan kabul etmek: Selef ve Ehl-i hadis."
+  },
+  {
+   "o": "Tevhidin üç kısmı",
+   "a": "İbn Teymiyye: rubûbiyyet, ulûhiyyet, esmâ ve sıfat tevhidi."
+  },
+  {
+   "o": "Karıştırma: Makâlâtü’l-İslâmiyyîn – el-Milel ve’n-nihal",
+   "a": "Eş’arî’nin eseri – Şehristânî’nin eseri."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "c2-01",
+   "z": 2,
+   "s": "Basra’da bir ilim meclisinde büyük günah işleyenin durumu sorulmuş; hocanın öğrencilerinden biri, onun ne mümin ne kâfir olduğunu, iki konum arasında bulunduğunu söyleyerek meclisin başka bir köşesine çekilmiştir. Hocanın “Bizden ayrıldı” sözü, bir mezhebin adının kaynağı olarak rivayet edilmiştir.\n\nBu olayda ayrılan öğrenci ve meclisinden ayrıldığı hoca sırasıyla aşağıdakilerden hangisidir?",
+   "c": [
+    "Ma’bed el-Cühenî – Abdullah b. Ömer",
+    "Vâsıl b. Atâ – Hasan el-Basrî",
+    "Cehm b. Safvân – Ca’d b. Dirhem",
+    "Ebü’l-Hasen el-Eş’arî – Cübbâî",
+    "Amr b. Ubeyd – Ebü’l-Hüzeyl el-Allâf"
+   ],
+   "d": 1,
+   "a": "Mu’tezile adı, Vâsıl b. Atâ’nın büyük günah meselesindeki ara konum görüşüyle Hasan el-Basrî’nin meclisinden ayrılmasından (i’tizâl) gelir.",
+   "ac": [
+    "Ma’bed el-Cühenî Kaderiyye’nin öncüsüdür; İbn Ömer ile ilgili rivayet kader konusundadır.",
+    "Doğru: Vâsıl b. Atâ ve Hasan el-Basrî.",
+    "Cehm b. Safvân Cebriyye’nin temsilcisidir.",
+    "Eş’arî Cübbâî’den ayrılmıştır, ama bu ayrılık Mu’tezile’den çıkıştır; konu aslah meselesidir.",
+    "Amr b. Ubeyd Vâsıl’ın arkadaşıdır; Ebü’l-Hüzeyl daha sonraki bir Mu’tezilîdir."
+   ],
+   "kay": "Şehristânî, el-Milel ve’n-nihal"
+  },
+  {
+   "id": "c2-02",
+   "z": 2,
+   "s": "Semerkant’ta yaşamış, Ebû Hanîfe’nin itikadî görüşlerini sistemleştirmiş ve “Te’vîlâtü Ehli’s-sünne” adlı tefsiriyle de tanınan kelamcının kelam alanındaki temel eseri aşağıdakilerden hangisidir?",
+   "c": [
+    "Kitâbü’t-Tevhîd",
+    "Tabsıratü’l-edille",
+    "el-Fıkhu’l-ekber",
+    "el-İbâne an usûli’d-diyâne",
+    "el-Akāidü’n-Nesefiyye"
+   ],
+   "d": 0,
+   "a": "Sözü edilen âlim Ebû Mansûr el-Mâtürîdî’dir; kelam eseri Kitâbü’t-Tevhîd, tefsiri Te’vîlâtü’l-Kur’ân (Te’vîlâtü Ehli’s-sünne)’dır.",
+   "ac": [
+    "Doğru: Kitâbü’t-Tevhîd.",
+    "Tabsıratü’l-edille Ebü’l-Muîn en-Nesefî’nin eseridir.",
+    "el-Fıkhu’l-ekber Ebû Hanîfe’ye nispet edilir.",
+    "el-İbâne Ebü’l-Hasen el-Eş’arî’nin eseridir.",
+    "el-Akāidü’n-Nesefiyye Necmeddin Ömer en-Nesefî’nin eseridir."
+   ],
+   "kay": "Mâtürîdî, Kitâbü’t-Tevhîd"
+  },
+  {
+   "id": "c2-04",
+   "z": 2,
+   "s": "Hz. Osman’ın şehit edilmesi, Cemel ve Sıffîn savaşları ve tahkim gibi siyasi olaylar Müslümanlar arasında kelami tartışmalara yol açmıştır.\n\nAşağıdaki kelami konuların hangisinde bu olayların etkisi daha azdır?",
+   "c": [
+    "Mürtekib-i kebîre",
+    "Kader",
+    "Hilafet",
+    "Halku’l-Kur’ân",
+    "İmanın mahiyeti"
+   ],
+   "d": 3,
+   "a": "Kur’an’ın yaratılmışlığı tartışması Abbâsîler döneminde, tercüme hareketi ve sıfat tartışmalarıyla öne çıkmıştır; ilk siyasi olaylarla doğrudan ilgili değildir.",
+   "ac": [
+    "Tahkim sonrası Hâricîlerle başladı.",
+    "Emevî döneminde siyasi meşruiyetle ilişkili olarak tartışıldı.",
+    "Doğrudan siyasi olaylardan doğdu.",
+    "Doğru: Abbâsî döneminde gündeme gelmiştir.",
+    "İman-amel tartışması büyük günah meselesinden doğdu."
+   ],
+   "kay": "Kelam tarihi"
+  },
+  {
+   "id": "c2-06",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi Mu’tezile’nin beş temel ilkesinden biri değildir?",
+   "c": [
+    "Tevhid",
+    "Adl",
+    "el-Va’d ve’l-vaîd",
+    "el-Menzile beyne’l-menzileteyn",
+    "Kesb"
+   ],
+   "d": 4,
+   "a": "Mu’tezile’nin beş ilkesi tevhid, adl, va’d-vaîd, el-menzile beyne’l-menzileteyn ve emr bi’l-ma’rûf nehy ani’l-münkerdir. Kesb Eş’arî kelamının kavramıdır.",
+   "ac": [
+    "Mu’tezile ilkesidir.",
+    "Mu’tezile ilkesidir.",
+    "Mu’tezile ilkesidir.",
+    "Mu’tezile ilkesidir.",
+    "Doğru: Kesb Eş’arî kavramıdır."
+   ],
+   "kay": "Kādî Abdülcebbâr, Şerhu’l-Usûli’l-hamse"
+  },
+  {
+   "id": "c2-07",
+   "z": 2,
+   "s": "İslam düşünce geleneğinde bazı ekoller akla değer vermezken bazıları aklı nakle öncelemiştir. Bir ekol ise akıl ile nakil arasında uzlaşı olduğunu savunmuş, iyilik ve kötülüğün bir kısmının akılla da bilinebileceğini ve Allah’ı tanımanın aklen vacip olduğunu ileri sürmüştür.\n\nSözü edilen ekol hangisidir?",
+   "c": [
+    "Bâtıniyye",
+    "Mâtürîdiyye",
+    "Mücessime",
+    "Haşviyye",
+    "Zâhiriyye"
+   ],
+   "d": 1,
+   "a": "Mâtürîdiyye akıl ile nakli uzlaştıran, iyilik ve kötülüğün bir kısmının akılla bilinebileceğini ve Allah’ı tanımanın aklen vacip olduğunu savunan ekoldür.",
+   "ac": [
+    "Bâtıniyye nasların zahirini önemsizleştirip gizli anlam arar.",
+    "Doğru: Mâtürîdiyye.",
+    "Mücessime Allah’ı cisim gibi düşünür.",
+    "Haşviyye aklı dışlar, lafza bağlı kalır.",
+    "Zâhiriyye lafzî yaklaşımı esas alan fıkıh ekolüdür."
+   ],
+   "kay": "Mâtürîdî, Kitâbü’t-Tevhîd"
+  },
+  {
+   "id": "c2-08",
+   "z": 2,
+   "s": "Abbâsî halifesi Me’mûn döneminde Kur’an’ın mahlûk olduğu görüşünü kabul etmeyen âlimlerin sorgulanmasına ne ad verilir ve bu baskıya direnen âlim kimdir?",
+   "c": [
+    "Fitne – İmam Mâlik",
+    "Ridde – İmam Şâfiî",
+    "Tahkim – Hasan el-Basrî",
+    "Mihne – Ebû Hanîfe",
+    "Mihne – Ahmed b. Hanbel"
+   ],
+   "d": 4,
+   "a": "Halku’l-Kur’ân görüşünün resmî görüş yapılıp âlimlerin sorgulanmasına mihne denir; Ahmed b. Hanbel buna direnmiş, hapis ve işkenceye maruz kalmıştır.",
+   "ac": [
+    "Kavram ve kişi yanlıştır.",
+    "Ridde Hz. Ebû Bekir dönemindeki irtidat olaylarıdır.",
+    "Tahkim Sıffîn sonrasıdır.",
+    "Ebû Hanîfe Me’mûn’dan önce (150/767) vefat etmiştir.",
+    "Doğru: Mihne – Ahmed b. Hanbel."
+   ],
+   "kay": "Kelam tarihi: Mihne"
+  },
+  {
+   "id": "c2-09",
+   "z": 3,
+   "s": "Eş’ariyye ve Mâtürîdiyye karşılaştırıldığında aşağıdakilerden hangisi Mâtürîdiyye için doğrudur?",
+   "c": [
+    "Peygamber gönderilmemiş olsa da akıl sahibi Allah’ı tanımakla yükümlüdür.",
+    "Tekvîn, kudret sıfatının taallukundan ibarettir.",
+    "Allah’ı tanıma yükümlülüğü yalnız peygamberin tebliğiyle başlar.",
+    "Kulun kudreti fiilin meydana gelmesinde etkili değildir.",
+    "Fıkıhta en çok Şâfiî ve Mâlikî mezheplerinde yaygınlaşmıştır."
+   ],
+   "d": 0,
+   "a": "Mâtürîdîlere göre akıl Allah’ın varlığını bilmeye yeterlidir; peygamber gelmese de akıl sahibi O’nu tanımakla yükümlüdür.",
+   "ac": [
+    "Doğru: Mâtürîdî görüşüdür.",
+    "Eş’arî görüşüdür; Mâtürîdîler tekvîni ayrı ve ezelî sıfat sayar.",
+    "Eş’arî görüşüdür.",
+    "Eş’arî görüşüdür; Mâtürîdîler cüz’î iradenin etkili olduğunu söyler.",
+    "Mâtürîdîlik Hanefîler arasında yaygınlaşmıştır."
+   ],
+   "kay": "Ebü’l-Muîn en-Nesefî, Tabsıratü’l-edille"
+  },
+  {
+   "id": "c2-12",
+   "z": 3,
+   "s": "Ehl-i sünnet kelamının Eş’arî kolunu geliştiren ve sistemleştiren âlimler arasında aşağıdakilerden hangisi yer almaz?",
+   "c": [
+    "Gazzâlî",
+    "Cüveynî",
+    "Ebü’l-Muîn en-Nesefî",
+    "Fahreddin er-Râzî",
+    "Bâkıllânî"
+   ],
+   "d": 2,
+   "a": "Ebü’l-Muîn en-Nesefî Mâtürîdî kelamını sistemleştiren ve ekolleştiren âlimdir.",
+   "ac": [
+    "Eş’arî âlimdir.",
+    "Eş’arî âlimdir; el-İrşâd’ın müellifidir.",
+    "Doğru: Mâtürîdîdir.",
+    "Eş’arî âlimdir; müteahhirîn döneminin zirvesidir.",
+    "Eş’arî âlimdir; et-Temhîd’in müellifidir."
+   ],
+   "kay": "Kelam tarihi"
+  },
+  {
+   "id": "c2-13",
+   "z": 3,
+   "s": "Mu’tezile’nin Basra ve Bağdat ekolleriyle ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "Kādî Abdülcebbâr – Basra",
+    "Ebû Hâşim el-Cübbâî – Basra",
+    "Bişr b. Mu’temir – Bağdat",
+    "Aslahın dünya ve din işlerinin hepsinde Allah’a vacip olması – Basra",
+    "Ka’bî – Bağdat"
+   ],
+   "d": 3,
+   "a": "Aslahın dünya ve din işlerinin tamamında Allah’a vacip olduğunu Bağdat Mu’tezilesi savunur; Basra Mu’tezilesi bunu din (ahiret) işleriyle sınırlı tutar.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme: Bağdat ekolünün kurucusu sayılır.",
+    "Yanlış: Bu görüş Bağdat Mu’tezilesine aittir.",
+    "Doğru eşleştirme."
+   ],
+   "kay": "Kelam tarihi: Mu’tezile"
+  },
+  {
+   "id": "c2-14",
+   "z": 3,
+   "s": "Ebû Hanîfe’nin itikadi görüşlerini içeren ve ona nispet edilen eserler arasında aşağıdakilerden hangisi yoktur?",
+   "c": [
+    "el-Fıkhu’l-ekber",
+    "el-Âlim ve’l-müteallim",
+    "Kitâbü’t-Tevhîd",
+    "el-Vasiyye",
+    "er-Risâle (Osmân el-Bettî’ye)"
+   ],
+   "d": 2,
+   "a": "Kitâbü’t-Tevhîd, Ebû Hanîfe’nin görüşlerini sistemleştiren Mâtürîdî’nin eseridir. Diğerleri Ebû Hanîfe’ye nispet edilen itikadî eserlerdir.",
+   "ac": [
+    "Ebû Hanîfe’ye nispet edilir.",
+    "Ebû Hanîfe’ye nispet edilir.",
+    "Doğru: Mâtürîdî’nin eseridir.",
+    "Ebû Hanîfe’ye nispet edilir.",
+    "Ebû Hanîfe’ye nispet edilir."
+   ],
+   "kay": "Kelam tarihi"
+  },
+  {
+   "id": "kl11-01",
+   "z": 3,
+   "s": "Bir kelam ekolü hakkında şu bilgiler verilmiştir:\n\nI. Allah’ın sübûtî sıfatlarını sekiz sayar; tekvîni ezelî ve ayrı bir sıfat kabul eder.\nII. Allah’ın kelamının işitilemeyeceğini, Hz. Mûsâ’nın işittiğinin kelama delalet eden yaratılmış ses olduğunu söyler.\nIII. İmanda istisnayı caiz görmez.\n\nBu bilgiler hangi ekole aittir?",
+   "c": [
+    "Eş’arîlik",
+    "Mu’tezile",
+    "Kerrâmiyye",
+    "Selefiyye",
+    "Mâtürîdîlik"
+   ],
+   "d": 4,
+   "a": "Tekvîn sıfatı, kelâm-ı nefsînin işitilemeyeceği ve imanda istisnanın reddi Mâtürîdîliği Eş’arîlikten ayıran görüşlerdir.",
+   "ac": [
+    "Eş’arîlik sübûtî sıfatları yedi sayar, kelâm-ı nefsînin işitilebileceğini ve istisnanın caiz olduğunu söyler.",
+    "Mu’tezile zattan ayrı ezelî sıfat kabul etmez.",
+    "Kerrâmiyye teşbihe yakın görüşleri ve imanı yalnız ikrar saymasıyla bilinir.",
+    "Selefiyye imanda istisnayı caiz görür.",
+    "Doğru: Mâtürîdîlik."
+   ],
+   "kay": "Ebü’l-Muîn en-Nesefî, Tabsıratü’l-edille"
+  },
+  {
+   "id": "kl11-02",
+   "z": 3,
+   "s": "Bir öğrenci Eş’arî kelamıyla ilgili şu bilgileri not etmiştir:\n\nI. Ebü’l-Hasen el-Eş’arî kırk yaşına kadar Cübbâî’nin öğrencisi olarak Mu’tezilî idi.\nII. Makâlâtü’l-İslâmiyyîn ve el-Milel ve’n-nihal Eş’arî’nin eserleridir.\nIII. İbn Haldun, Gazzâlî’den sonra kelam ile felsefenin konularının iç içe geçtiğini ve müteahhirîn yolunun böyle doğduğunu söyler.\nIV. Eş’arîlik Nizâmiye medreseleri aracılığıyla yayılmıştır.\n\nBu notlardan hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "II ve III",
+    "I, III ve IV",
+    "I, II ve IV",
+    "II, III ve IV"
+   ],
+   "d": 2,
+   "a": "el-Milel ve’n-nihal Şehristânî’nin eseridir; diğer notlar doğrudur.",
+   "ac": [
+    "İkinci not yanlıştır.",
+    "İkinci not yanlıştır.",
+    "Doğru: Birinci, üçüncü ve dördüncü notlar doğrudur.",
+    "İkinci not yanlıştır.",
+    "İkinci not yanlıştır."
+   ],
+   "kay": "İbn Haldun, Mukaddime; Konu: Eş’arîlik"
+  },
+  {
+   "id": "kl11-03",
+   "z": 2,
+   "s": "Bir adam İmam Mâlik’e “Rahmân arşa istivâ etti; nasıl istivâ etti?” diye sormuş, İmam Mâlik de “İstivâ bilinmektedir, keyfiyeti meçhuldür, ona iman vaciptir, onu sormak bid’attir” cevabını vermiştir.\n\nBu cevap, haberî sıfatlar karşısındaki hangi tavrı yansıtır?",
+   "c": [
+    "İsbat bilâ keyf",
+    "Ta’tîl",
+    "Te’vil",
+    "Teşbih ve tecsîm",
+    "Tefsîr bi’r-re’y"
+   ],
+   "d": 0,
+   "a": "İmam Mâlik’in cevabı, haberî sıfatları keyfiyetini sormadan, teşbih ve te’vile gitmeden kabul eden Selef tavrını (isbat bilâ keyf) yansıtır.",
+   "ac": [
+    "Doğru: İsbat bilâ keyf.",
+    "Ta’tîl sıfatı işlevsiz bırakmak, nefyetmektir.",
+    "Te’vil sıfatı başka bir anlama hamletmektir; Mâlik anlamı değiştirmemiştir.",
+    "Teşbih, sıfatı yaratılmışlara benzetmektir; Mâlik keyfiyeti bilinmez saymaktadır.",
+    "Re’y ile tefsir bir tefsir yöntemidir; bu bağlamla ilgili değildir."
+   ],
+   "kay": "Konu: Selefiyye"
+  },
+  {
+   "id": "kl11-04",
+   "z": 3,
+   "s": "Aşağıdaki görüş–ekol eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Allah zatıyla âlimdir; ilim zattan ayrı bir sıfat değildir. – Mu’tezile",
+    "İnsan fiillerini Allah yaratır, kul kesb eder; kulun kudreti fiile etkili değildir. – Eş’arîlik",
+    "Tevhid; rubûbiyyet, ulûhiyyet ve esmâ ve sıfat tevhidi olmak üzere üç kısımdır. – Selefiyye (İbn Teymiyye)",
+    "İyilik ve kötülük yalnızca Allah’ın emir ve yasağıyla belirlenir; akıl bir şey ifade etmez. – Mu’tezile",
+    "Peygamber gönderilmese de akıl sahibi Allah’ı tanımakla yükümlüdür. – Mâtürîdîlik"
+   ],
+   "d": 3,
+   "a": "İyiliğin ve kötülüğün yalnızca şer’î olduğu görüşü Eş’arîlik’e aittir. Mu’tezile hüsün ve kubhun aklî olduğunu savunur.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Yanlış: Bu görüş Eş’arîlik’e aittir.",
+    "Doğru eşleştirme."
+   ],
+   "kay": "Konu: Ekollerin karşılaştırılması"
+  },
+  {
+   "id": "kl11-05",
+   "z": 2,
+   "s": "Şîa kelamının, özellikle İmâmiyye’nin itikadî görüşleri değerlendirildiğinde aşağıdakilerden hangisi söylenemez?",
+   "c": [
+    "Tevhid ve adalet konularında Mu’tezile’ye yakındır.",
+    "Kur’an’ın mahlûk olmadığını ve rü’yetin hak olduğunu kabul ederek Ehl-i hadisle birleşir.",
+    "İmametin nass ve tayinle belirlendiğini savunur.",
+    "İmamların masum olduğuna inanır.",
+    "Rü’yetullahı reddeder."
+   ],
+   "d": 1,
+   "a": "İmâmiyye kelamı Kur’an’ın mahlûk olduğu ve rü’yetin imkânsızlığı gibi konularda Mu’tezile’ye yakındır; bu konularda Ehl-i hadisle birleşmez.",
+   "ac": [
+    "Söylenebilir: Tevhid ve adl İmâmiyye’nin usûl-i dînindendir.",
+    "Söylenemez: İmâmiyye bu konularda Mu’tezile’ye yakındır.",
+    "Söylenebilir: İmâmiyye’nin temel görüşüdür.",
+    "Söylenebilir: İsmet imametin şartıdır.",
+    "Söylenebilir: Şîa rü’yeti reddeder."
+   ],
+   "kay": "Konu: Şîa kelamı"
+  },
+  {
+   "id": "kl11-06",
+   "z": 3,
+   "s": "Bir ilahiyat öğrencisi, dört ekolün iman anlayışını karşılaştırırken şu tabloyu hazırlamıştır. Hangi satır yanlıştır?",
+   "c": [
+    "Mu’tezile – İman tasdik, ikrar ve ameldir; artar ve eksilir.",
+    "Eş’arîlik – İman tasdiktir; imanda istisna caizdir.",
+    "Mâtürîdîlik – İman tasdiktir; mahiyeti bakımından artmaz ve eksilmez; istisna caiz değildir.",
+    "Mâtürîdîlik – Büyük günah işleyen ne mümin ne kâfirdir; tövbesiz ölürse ebedî cehennemdedir.",
+    "Selefiyye – İman söz, amel ve niyettir; artar ve eksilir."
+   ],
+   "d": 3,
+   "a": "Büyük günah işleyenin ara konumda olduğu ve tövbesiz ölürse ebedî cehennemde kalacağı görüşü Mu’tezile’ye aittir. Mâtürîdîlere göre büyük günah işleyen mümindir; Allah dilerse affeder.",
+   "ac": [
+    "Doğru satır.",
+    "Doğru satır.",
+    "Doğru satır.",
+    "Yanlış satır: Bu Mu’tezile görüşüdür.",
+    "Doğru satır."
+   ],
+   "kay": "Konu: Ekollerin karşılaştırılması"
+  }
+ ]
+}

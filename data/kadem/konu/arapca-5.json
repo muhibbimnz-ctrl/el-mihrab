@@ -1,0 +1,633 @@
+{
+ "id": "arapca-5",
+ "ad": "Nahiv II: Mansûbât (Mef‘ûller, Hâl, Temyiz, İstisna, Münâdâ), İzafet, Tâbiler ve Edatlar (mâ, lâ, lev)",
+ "ders": "Arapça",
+ "sinavlar": [
+  "ihtisas",
+  "ilcemuftu",
+  "muftuyrd",
+  "vaizlik",
+  "egitimgorevlisi",
+  "mufettis",
+  "arapca"
+ ],
+ "oncelik": 3,
+ "anlatim": [
+  "İhtisas sınavlarındaki Arapça sorularının büyük kısmı mansûb öğeleri, tâbileri ve çok anlamlı edatları sorar. “Hangi cümlede mef‘ûl-ü mutlak yoktur?”, “müstesnânın türü hangisinde yanlış verilmiştir?”, “مَا edatının türü hangisinde yanlıştır?” soru kalıpları her yıl görülür. Bu ünite, nahvin bu en çok sorulan kısmını Kur’an örnekleriyle anlatır.",
+  {
+   "b": "1. Beş mef‘ûl"
+  },
+  {
+   "merak": "Türkçede “Musa ile Allah konuştu” deriz. Kur’an ise وَكَلَّمَ اللّٰهُ مُوسٰى تَكْلِيمًا buyurur. Sondaki تَكْلِيمًا kelimesi konuşmanın gerçekten ve doğrudan olduğunu pekiştirir. Bu kelime bir mef‘ûldür, ama “neyi” sorusunun cevabı değildir. Arapçada beş çeşit mef‘ûl vardır."
+  },
+  {
+   "ayet": "Allah Mûsâ ile gerçekten konuştu.",
+   "kay": "Nisâ, 4/164"
+  },
+  {
+   "tablo": [
+    [
+     "Mef‘ûl",
+     "Tanımı",
+     "Örnek"
+    ],
+    [
+     "Mef‘ûlün bih",
+     "İşin üzerine düştüğü varlık (neyi, kimi?)",
+     "قَرَأَ الطَّالِبُ الْكِتَابَ"
+    ],
+    [
+     "Mef‘ûl-ü mutlak",
+     "Fiilin kendi mastarı; te’kîd, sayı ya da çeşit bildirir",
+     "كَلَّمَ اللّٰهُ مُوسٰى تَكْلِيمًا"
+    ],
+    [
+     "Mef‘ûlün lieclih",
+     "İşin sebebini bildiren mastar (niçin?)",
+     "قُمْتُ إِجْلَالًا لِلْعَالِمِ"
+    ],
+    [
+     "Mef‘ûlün fîh (zarf)",
+     "İşin zamanını ya da yerini bildirir",
+     "صُمْتُ يَوْمًا، جَلَسْتُ أَمَامَ الْمِنْبَرِ"
+    ],
+    [
+     "Mef‘ûlün maah",
+     "“ile” anlamındaki vavdan sonra gelen isim",
+     "سِرْتُ وَالنِّيلَ (Nil boyunca yürüdüm)"
+    ]
+   ]
+  },
+  "Mef‘ûl-ü mutlak üç işlev görür. Te’kîd (pekiştirme) yapar: ضَرَبْتُهُ ضَرْبًا. Sayı bildirir: ضَرَبْتُهُ ضَرْبَتَيْنِ. Çeşit bildirir: سِرْتُ سَيْرَ الْعُقَلَاءِ (akıllıların yürüyüşüyle yürüdüm). Mef‘ûl-ü mutlak her zaman fiilin kendi kökünden olmayabilir. Eş anlamlı bir mastar ya da mastarı gösteren كُلَّ، بَعْضَ gibi kelimeler de bu görevi yapabilir: فَلَا تَمِيلُوا كُلَّ الْمَيْلِ (Nisâ, 4/129) “büsbütün meyletmeyin.” Mef‘ûlün lieclih ile mef‘ûl-ü mutlak karıştırılır. İkisi de mastardır. Ancak mef‘ûlün lieclih “niçin?” sorusuna cevap verir ve fiilin kökünden değildir: يُنْفِقُونَ أَمْوَالَهُمُ ابْتِغَاءَ مَرْضَاتِ اللّٰهِ (Allah’ın rızasını kazanmak için).",
+  {
+   "sinav": "“Hangi cümlede mef‘ûl-ü mutlak yoktur?” sorusunda her cümlede fiilin kendi mastarını ya da كُلَّ الْ… yapısını ara. Mastar “niçin” sorusuna cevap veriyorsa mef‘ûlün lieclihtir, mef‘ûl-ü mutlak değildir. Zaman ya da yer bildiren mansûb isim zarftır."
+  },
+  {
+   "akil": "Mef‘ûl-ü mutlak = fiilin mastarı (te’kîd, sayı, çeşit). Mef‘ûlün lieclih = sebep bildiren başka kökten mastar. Zarf = zaman/yer. Mef‘ûlün maah = “ile” vavı."
+  },
+  {
+   "b": "2. Hâl ve temyiz"
+  },
+  {
+   "merak": "جَاءَ زَيْدٌ رَاكِبًا (Zeyd binekli olarak geldi) ile طَابَ زَيْدٌ نَفْسًا (Zeyd gönülce hoş oldu) cümlelerindeki mansûb kelimeler aynı görevde midir? Hayır. Birincisi durum (hâl), ikincisi belirsizliği gideren açıklamadır (temyiz)."
+  },
+  "Hâl, fâilin ya da mef‘ûlün işi yaptığı andaki durumunu bildiren mansûb ve çoğunlukla nekre isimdir. “Nasıl?” sorusuna cevap verir: رَجَعَ الْجُنْدِيُّ مُنْتَصِرًا. Hâlin sahibi (sâhibu’l-hâl) çoğunlukla marifedir. Hâl tek kelime olabileceği gibi cümle de olabilir: جَاءَ الطَّالِبُ وَهُوَ يَضْحَكُ. Kur’an’daki فَخَرَجَ مِنْهَا خَائِفًا يَتَرَقَّبُ (Kasas, 28/21) ayetinde خَائِفًا hâldir.",
+  "Temyiz, kendisinden önceki belirsiz bir kelimeyi ya da cümleyi açıklayan mansûb nekre isimdir. Sayılardan, ölçülerden ve tafdîlden sonra gelir: اِشْتَرَيْتُ عِشْرِينَ كِتَابًا، أَنَا أَكْثَرُ مِنْكَ مَالًا. Cümleden belirsizliği gideren temyiz de vardır: وَاشْتَعَلَ الرَّأْسُ شَيْبًا (Meryem, 19/4) “baş ağarmaktan tutuştu (saçım ağardı).”",
+  {
+   "tablo": [
+    [
+     "Öğe",
+     "Soru",
+     "Özellik",
+     "Örnek"
+    ],
+    [
+     "Hâl",
+     "Nasıl? Hangi durumda?",
+     "Nekre, sahibi marife; geçici durum",
+     "جَاءَ مُسْرِعًا"
+    ],
+    [
+     "Temyiz",
+     "Ne bakımından? Hangisinden?",
+     "Nekre; belirsizliği giderir",
+     "اِشْتَعَلَ الرَّأْسُ شَيْبًا"
+    ]
+   ]
+  },
+  {
+   "b": "3. İstisna ve münâdâ"
+  },
+  "İstisna, bir hükümden bir şeyi إِلَّا، غَيْرَ، سِوَى، عَدَا، خَلَا، حَاشَا gibi edatlarla dışarıda tutmaktır. Hükümden çıkarılan isme müstesnâ, çıkarıldığı genel isme müstesnâ minh denir. Müstesnâ, müstesnâ minhin cinsinden ise istisna muttasıl olur: جَاءَ الطُّلَّابُ إِلَّا زَيْدًا. Cinsinden değilse istisna munkatı olur: فَسَجَدَ الْمَلَائِكَةُ كُلُّهُمْ أَجْمَعُونَ إِلَّا إِبْلِيسَ (Hicr, 15/30-31). İblis meleklerden değildir. Bu yüzden müfessirlerin çoğu bu istisnayı munkatı sayar. Müstesnâ minh zikredilmemiş ve cümle olumsuz ise istisna müfarrağ olur. Bu durumda müstesnâ cümledeki görevine göre i‘rab alır: مَا جَاءَ إِلَّا زَيْدٌ (Zeyd’den başkası gelmedi), وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ (Âl-i İmrân, 3/144).",
+  {
+   "tablo": [
+    [
+     "İstisna türü",
+     "Şartı",
+     "Müstesnânın i‘rabı",
+     "Örnek"
+    ],
+    [
+     "Muttasıl",
+     "Müstesnâ, müstesnâ minhin cinsinden",
+     "Olumlu cümlede mansûb",
+     "جَاءَ الْقَوْمُ إِلَّا زَيْدًا"
+    ],
+    [
+     "Munkatı",
+     "Müstesnâ, müstesnâ minhin cinsinden değil",
+     "Mansûb",
+     "إِلَّا إِبْلِيسَ (Hicr 15/31)"
+    ],
+    [
+     "Müfarrağ",
+     "Müstesnâ minh yok, cümle olumsuz",
+     "Cümledeki görevine göre",
+     "مَا جَاءَ إِلَّا زَيْدٌ"
+    ]
+   ]
+  },
+  "Münâdâ, nidâ edatıyla (يَا، أَيُّهَا، أَيْ، أَ) seslenilen isimdir. Müfred-i alem (tek kelimelik özel isim) ve maksûd nekre ötre üzere mebnî olur: يَا مُحَمَّدُ، يَا رَجُلُ (belli bir adama). Muzâf olan münâdâ ise mansûb olur: يَا عَبْدَ اللّٰهِ، رَبَّنَا. Başında el- takısı bulunan isme doğrudan يَا getirilmez; araya أَيُّهَا girer: يَا أَيُّهَا الَّذِينَ آمَنُوا.",
+  {
+   "sinav": "İstisna sorularında önce cümlenin olumlu mu olumsuz mu olduğuna, sonra müstesnâ minhin zikredilip edilmediğine bak. Olumsuz cümlede müstesnâ minh yoksa müfarrağdır. Müstesnâ minh varsa cins ilişkisine bak. Münâdâ sorularında يَا رَبِّ (muzâf, mansûb mahalde) ile يَا اللّٰهُ ve اَللّٰهُمَّ ayrımı sorulabilir."
+  },
+  {
+   "akil": "İstisna: cinsten → muttasıl; cinsten değil → munkatı; müstesnâ minh yok + olumsuz → müfarrağ. Münâdâ: müfred-i alem ve maksûd nekre ötre üzere mebnî, muzâf mansûb."
+  },
+  {
+   "b": "4. İzafet ve tâbiler"
+  },
+  "İzafet, iki ismin tamlama oluşturmasıdır. Birinci öğeye muzâf, ikinci öğeye muzâfun ileyh denir. Muzâf el- takısı ve tenvin almaz, muzâfun ileyh daima mecrûrdur: كِتَابُ اللّٰهِ، رَسُولُ اللّٰهِ. Art arda gelen tamlamalara tetâbu‘u’l-izâfe (zincirleme izafet) denir: مِفْتَاحُ بَابِ بَيْتِ الْإِمَامِ (imamın evinin kapısının anahtarı).",
+  "Tâbiler, i‘rabda kendinden önceki kelimeye (metbû) uyan öğelerdir. Dört tanedir. Na‘t (sıfat), nitelediği kelimeye i‘rabda, belirlilikte, cinsiyette ve sayıda uyar: رَجُلٌ صَالِحٌ، اَلْمَرْأَةُ الصَّالِحَةُ. Atıf, bir bağlaçla (و، فَ، ثُمَّ، أَوْ، بَلْ، لٰكِنْ) öncekine bağlanan kelimedir. وَ birlikteliği, فَ sırayı ve hemen ardından gelmeyi, ثُمَّ araya zaman girerek sırayı bildirir. Te’kîd, metbûu pekiştirir. Lafzî te’kîd kelimenin tekrarıdır: كَلَّا إِذَا دُكَّتِ الْأَرْضُ دَكًّا دَكًّا. Manevî te’kîd نَفْسُ، عَيْنُ، كُلُّ، جَمِيعُ، أَجْمَعُ، كِلَا gibi kelimelerle yapılır: فَسَجَدَ الْمَلَائِكَةُ كُلُّهُمْ أَجْمَعُونَ.",
+  "Bedel, asıl kastedilen şeyi açıklayan ve öncekinin yerine geçebilen tâbidir. Dört türü vardır. Bedel-i küll mine’l-küll, metbûun tamamıdır: اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ (Fâtiha, 1/6-7). Bedel-i ba‘z mine’l-küll, metbûun bir parçasıdır ve ona dönen zamir taşır: أَكَلْتُ الرَّغِيفَ ثُلُثَهُ (ekmeğin üçte birini yedim). Bedel-i iştimâl, metbûun kapsadığı bir niteliktir: أَعْجَبَنِي زَيْدٌ عِلْمُهُ (Zeyd’in ilmi hoşuma gitti), يَسْأَلُونَكَ عَنِ الشَّهْرِ الْحَرَامِ قِتَالٍ فِيهِ (Bakara, 2/217). Bedel-i galat (mübâyin) ise dil sürçmesini düzeltir: رَأَيْتُ زَيْدًا فَرَسًا.",
+  {
+   "tablo": [
+    [
+     "Bedel türü",
+     "İlişki",
+     "Örnek"
+    ],
+    [
+     "Küll mine’l-küll",
+     "Aynı varlık",
+     "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ"
+    ],
+    [
+     "Ba‘z mine’l-küll",
+     "Parça; zamir taşır",
+     "أَكَلْتُ الرَّغِيفَ ثُلُثَهُ"
+    ],
+    [
+     "İştimâl",
+     "Kapsadığı nitelik ya da ilgili şey",
+     "عَنِ الشَّهْرِ الْحَرَامِ قِتَالٍ فِيهِ"
+    ],
+    [
+     "Galat",
+     "Yanılmanın düzeltilmesi",
+     "رَأَيْتُ زَيْدًا فَرَسًا"
+    ]
+   ]
+  },
+  {
+   "sinav": "Bedel sorularında parça-bütün ilişkisi varsa ba‘z, nitelik ya da içerik ilişkisi varsa iştimâl, aynı varlıksa küll seçilir. Bakara 2/217’deki قِتَالٍ, “haram ay” ile bütün-parça değil, zaman-olay ilişkisi taşıdığı için bedel-i iştimâldir."
+  },
+  {
+   "b": "5. Çok anlamlı edatlar: مَا، لَا، لَوْ"
+  },
+  {
+   "merak": "مَا kelimesi bir ayette “ne?” diye sorar, bir başkasında “değildir” diye olumsuzlar, bir başkasında ise “ne kadar da…!” diye hayret bildirir. Tek kelime, cümledeki yerine göre on ayrı görev üstlenir."
+  },
+  {
+   "tablo": [
+    [
+     "Edat",
+     "Türü",
+     "Örnek"
+    ],
+    [
+     "مَا",
+     "İstifhâmiyye (soru)",
+     "وَمَا تِلْكَ بِيَمِينِكَ يَا مُوسٰى (Tâhâ, 20/17)"
+    ],
+    [
+     "مَا",
+     "Nâfiye (olumsuzluk)",
+     "مَا هٰذَا بَشَرًا (Yûsuf, 12/31)"
+    ],
+    [
+     "مَا",
+     "Mevsûle (… olan şey)",
+     "مَا عِنْدَكُمْ يَنْفَدُ (Nahl, 16/96)"
+    ],
+    [
+     "مَا",
+     "Taaccübiyye (hayret)",
+     "مَا أَحْسَنَ السَّمَاءَ!"
+    ],
+    [
+     "مَا",
+     "Şartiyye",
+     "وَمَا تَفْعَلُوا مِنْ خَيْرٍ يَعْلَمْهُ اللّٰهُ (Bakara, 2/197)"
+    ],
+    [
+     "مَا",
+     "Masdariyye",
+     "بِمَا نَسُوا يَوْمَ الْحِسَابِ (Sâd, 38/26) – unutmaları sebebiyle"
+    ],
+    [
+     "مَا",
+     "Kâffe (inneyi işten alıkoyan)",
+     "إِنَّمَا يَخْشَى اللّٰهَ…"
+    ],
+    [
+     "مَا",
+     "Zâide (pekiştirme)",
+     "فَبِمَا رَحْمَةٍ مِنَ اللّٰهِ (Âl-i İmrân, 3/159)"
+    ],
+    [
+     "لَا",
+     "Nâfiye / nâhiye / nefy-i cins",
+     "لَا يُكَلِّفُ اللّٰهُ / لَا تَحْزَنْ / لَا رَيْبَ فِيهِ"
+    ],
+    [
+     "لَوْ",
+     "Şartiyye imtinâiyye (… olsaydı)",
+     "لَوْ كَانَ فِيهِمَا آلِهَةٌ إِلَّا اللّٰهُ لَفَسَدَتَا (Enbiyâ, 21/22)"
+    ],
+    [
+     "لَوْ",
+     "Temenniyye / masdariyye",
+     "لَوْ أَنَّ لَنَا كَرَّةً / وَدُّوا لَوْ تُدْهِنُ (Kalem, 68/9)"
+    ]
+   ]
+  },
+  "Bu edatların türünü belirlemenin yolu cümleyi tercüme etmektir. Soru anlamı varsa istifhâmiyye, “değildir” anlamı varsa nâfiye, “-diği şey” anlamı varsa mevsûle, “-mesi” anlamı varsa masdariyyedir. مَا nâfiye bazen leyse gibi çalışır ve haberini nasbeder (Hicazlıların kullanımı): مَا هٰذَا بَشَرًا. لَوْ imtinâiyye, cevabın gerçekleşmediğini, çünkü şartın gerçekleşmediğini bildirir. Enbiyâ 21/22’deki ayet, kelamcıların “temânu‘ delili”nin (birden fazla ilahın bulunamayacağı) Kur’anî dayanağıdır.",
+  {
+   "akil": "مَا: soru, olumsuz, mevsûl, hayret, şart, masdar, kâffe, zâide. لَا: nâfiye, nâhiye, nefy-i cins. لَوْ: imtinâiyye (olsaydı…), temenni, masdariyye."
+  }
+ ],
+ "ozet": [
+  "Beş mef‘ûl: bih, mutlak, lieclih, fîh (zarf), maah.",
+  "Mef‘ûl-ü mutlak fiilin mastarıdır ve te’kîd, sayı ya da çeşit bildirir.",
+  "Mef‘ûlün lieclih sebep bildiren, fiilin kökünden olmayan mastardır.",
+  "Hâl nekre olup durum bildirir; temyiz nekre olup belirsizliği giderir.",
+  "İstisna muttasıl, munkatı ve müfarrağ olmak üzere üç türlüdür.",
+  "Hicr 15/31’deki إِلَّا إِبْلِيسَ çoğunluğa göre munkatı istisnadır.",
+  "Müfarrağ istisnada müstesnâ cümledeki görevine göre i‘rab alır.",
+  "Müfred-i alem münâdâ ötre üzere mebnî, muzâf münâdâ mansûbdur.",
+  "Muzâfun ileyh daima mecrûrdur; zincirleme tamlamaya tetâbu‘u’l-izâfe denir.",
+  "Tâbiler: na‘t, atıf, te’kîd, bedel.",
+  "Bedel türleri: küll mine’l-küll, ba‘z mine’l-küll, iştimâl, galat.",
+  "مَا edatının istifhâmiyye, nâfiye, mevsûle, taaccübiyye, şartiyye, masdariyye, kâffe ve zâide gibi türleri vardır.",
+  "لَوْ imtinâiyye, şartın da cevabın da gerçekleşmediğini bildirir (Enbiyâ, 21/22)."
+ ],
+ "kartlar": [
+  {
+   "o": "Mef‘ûl-ü mutlak",
+   "a": "Fiilin mastarı: كَلَّمَ اللّٰهُ مُوسٰى تَكْلِيمًا"
+  },
+  {
+   "o": "Mef‘ûlün lieclih",
+   "a": "Sebep bildiren mastar: ابْتِغَاءَ مَرْضَاتِ اللّٰهِ"
+  },
+  {
+   "o": "Mef‘ûlün maah",
+   "a": "“ile” vavından sonraki isim: سِرْتُ وَالنِّيلَ"
+  },
+  {
+   "o": "Hâl",
+   "a": "Durum bildiren nekre: خَرَجَ مِنْهَا خَائِفًا"
+  },
+  {
+   "o": "Temyiz",
+   "a": "Belirsizliği gideren nekre: اِشْتَعَلَ الرَّأْسُ شَيْبًا"
+  },
+  {
+   "o": "İstisna müfarrağ",
+   "a": "Müstesnâ minh yok, cümle olumsuz: مَا جَاءَ إِلَّا زَيْدٌ"
+  },
+  {
+   "o": "إِلَّا إِبْلِيسَ (Hicr 15/31)",
+   "a": "İstisna munkatı (İblis meleklerden değildir)"
+  },
+  {
+   "o": "Muzâf münâdâ",
+   "a": "Mansûb: يَا عَبْدَ اللّٰهِ، رَبَّنَا"
+  },
+  {
+   "o": "Tetâbu‘u’l-izâfe",
+   "a": "Zincirleme isim tamlaması"
+  },
+  {
+   "o": "Bedel-i ba‘z mine’l-küll",
+   "a": "Parça; zamir taşır: أَكَلْتُ الرَّغِيفَ ثُلُثَهُ"
+  },
+  {
+   "o": "Bedel-i iştimâl",
+   "a": "Kapsanan nitelik: عَنِ الشَّهْرِ الْحَرَامِ قِتَالٍ فِيهِ"
+  },
+  {
+   "o": "مَا taaccübiyye",
+   "a": "Hayret: مَا أَحْسَنَ السَّمَاءَ!"
+  },
+  {
+   "o": "مَا masdariyye",
+   "a": "“-mesi”: بِمَا نَسُوا يَوْمَ الْحِسَابِ"
+  },
+  {
+   "o": "لَوْ imtinâiyye",
+   "a": "“… olsaydı”: لَوْ كَانَ فِيهِمَا آلِهَةٌ… لَفَسَدَتَا"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "ar5-01",
+   "z": 2,
+   "s": "وَكَلَّمَ اللّٰهُ مُوسٰى تَكْلِيمًا (Nisâ, 4/164) ayetinde تَكْلِيمًا kelimesinin görevi aşağıdakilerden hangisidir?",
+   "c": [
+    "Mef‘ûl-ü mutlak",
+    "Mef‘ûlün bih",
+    "Mef‘ûlün lieclih",
+    "Hâl",
+    "Temyiz"
+   ],
+   "d": 0,
+   "a": "Fiilin kendi mastarının mansûb olarak gelmesine mef‘ûl-ü mutlak denir. Burada te’kîd işlevi görür.",
+   "ac": [
+    "Doğru: fiilin mastarı olup konuşmanın gerçekliğini pekiştirir.",
+    "Konuşulan şey değildir; fiilin kendi mastarıdır.",
+    "Sebep bildirmez.",
+    "Durum bildiren bir sıfat değil, mastardır.",
+    "Bir belirsizliği gidermez."
+   ],
+   "kay": "Nisâ, 4/164"
+  },
+  {
+   "id": "ar5-02",
+   "z": 3,
+   "s": "Aşağıdaki cümlelerden hangisinde mef‘ûl-ü mutlak yoktur?",
+   "c": [
+    "ضَرَبْتُهُ ضَرْبَتَيْنِ",
+    "سِرْتُ سَيْرَ الْعُقَلَاءِ",
+    "فَلَا تَمِيلُوا كُلَّ الْمَيْلِ",
+    "قُمْتُ إِجْلَالًا لِلْعَالِمِ",
+    "فَرِحْتُ فَرَحًا شَدِيدًا"
+   ],
+   "d": 3,
+   "a": "Mastar “niçin?” sorusuna cevap veriyor ve fiilin kökünden değilse mef‘ûlün lieclihtir. Ayağa kalkmanın sebebi saygıdır.",
+   "ac": [
+    "Sayı bildiren mef‘ûl-ü mutlak vardır.",
+    "Çeşit bildiren mef‘ûl-ü mutlak vardır.",
+    "كُلَّ, mastara izafe edilerek mef‘ûl-ü mutlak olmuştur.",
+    "Doğru: إِجْلَالًا sebep bildiren mef‘ûlün lieclihtir; mef‘ûl-ü mutlak yoktur.",
+    "Çeşit bildiren mef‘ûl-ü mutlak vardır."
+   ],
+   "kay": "Mef‘ûller"
+  },
+  {
+   "id": "ar5-03",
+   "z": 3,
+   "s": "Aşağıdaki ayetlerin hangisinde müstesnânın türü yanlış belirtilmiştir?",
+   "c": [
+    "فَسَجَدُوا إِلَّا إِبْلِيسَ – munkatı",
+    "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ – müfarrağ",
+    "فَشَرِبُوا مِنْهُ إِلَّا قَلِيلًا مِنْهُمْ – muttasıl",
+    "إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ إِلَّا الَّذِينَ آمَنُوا – muttasıl",
+    "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِلْعَالَمِينَ – munkatı"
+   ],
+   "d": 4,
+   "a": "Enbiyâ 21/107’de müstesnâ minh zikredilmemiştir ve cümle olumsuzdur. Bu yüzden istisna müfarrağdır; رَحْمَةً cümledeki görevine göre mansûbdur.",
+   "ac": [
+    "Çoğunluğa göre İblis meleklerden olmadığı için munkatıdır; doğru belirtilmiştir.",
+    "Müstesnâ minh yok ve cümle olumsuz; doğru belirtilmiştir.",
+    "Az kişi onların cinsindendir; doğru belirtilmiştir.",
+    "İnananlar insan cinsindendir; doğru belirtilmiştir.",
+    "Doğru cevap: müstesnâ minh zikredilmemiş ve cümle olumsuz olduğu için müfarrağdır."
+   ],
+   "kay": "İstisna"
+  },
+  {
+   "id": "ar5-04",
+   "z": 3,
+   "s": "Aşağıdaki cümlelerin hangisinde altı çizili kelime (parantez içinde verilmiştir) hâl olarak mansûbdur?",
+   "c": [
+    "اِشْتَرَيْتُ عِشْرِينَ كِتَابًا (كِتَابًا)",
+    "فَخَرَجَ مِنْهَا خَائِفًا يَتَرَقَّبُ (خَائِفًا)",
+    "صُمْتُ يَوْمًا كَامِلًا (يَوْمًا)",
+    "أَنَا أَكْثَرُ مِنْكَ مَالًا (مَالًا)",
+    "سِرْتُ وَالنِّيلَ (النِّيلَ)"
+   ],
+   "d": 1,
+   "a": "Hâl, fâil ya da mef‘ûlün iş sırasındaki durumunu bildiren mansûb nekredir ve “nasıl?” sorusuna cevap verir. Kasas 28/21’deki خَائِفًا buna örnektir.",
+   "ac": [
+    "Sayıdan sonra gelen belirsizliği gideren temyizdir.",
+    "Doğru: Hz. Mûsâ’nın şehirden çıkarken içinde bulunduğu durumu bildirir.",
+    "Zaman bildiren mef‘ûlün fîhtir (zarf).",
+    "Tafdîlden sonra gelen temyizdir.",
+    "“ile” vavından sonra gelen mef‘ûlün maahtır."
+   ],
+   "kay": "Kasas, 28/21"
+  },
+  {
+   "id": "ar5-05",
+   "z": 3,
+   "s": "وَاشْتَعَلَ الرَّأْسُ شَيْبًا (Meryem, 19/4) ayetinde شَيْبًا kelimesi ile ilgili:\nI. Cümleden belirsizliği gideren temyizdir.\nII. Nekre ve mansûbdur.\nIII. Fâilin durumunu bildiren hâldir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "شَيْبًا, “baş tutuştu” ifadesindeki belirsizliği giderir: ağarmaktan tutuştu. Bu, cümleden gelen temyizdir.",
+   "ac": [
+    "Eksik: kelimenin nekre ve mansûb olduğu da doğrudur.",
+    "Doğru: temyizdir, nekre ve mansûbdur; hâl değildir.",
+    "Bir kelime aynı yerde hem temyiz hem hâl olamaz.",
+    "Kelime durum değil, “ne bakımından” sorusunun cevabıdır.",
+    "Üçüncü ifade yanlıştır."
+   ],
+   "kay": "Meryem, 19/4"
+  },
+  {
+   "id": "ar5-06",
+   "z": 2,
+   "s": "يَا عَبْدَ اللّٰهِ nidâsında münâdânın üstün okunmasının sebebi aşağıdakilerden hangisidir?",
+   "c": [
+    "Müfred-i alem olması",
+    "Mef‘ûlün bih olması",
+    "Maksûd nekre olması",
+    "Başında el- takısı bulunması",
+    "Muzâf olması"
+   ],
+   "d": 4,
+   "a": "Muzâf münâdâ mansûbdur: يَا عَبْدَ اللّٰهِ، رَبَّنَا. Müfred-i alem ise ötre üzere mebnî okunur: يَا مُحَمَّدُ.",
+   "ac": [
+    "Müfred-i alem ötre üzere mebnî olur.",
+    "Münâdâ ayrı bir mansûb öğedir.",
+    "Maksûd nekre ötre üzere mebnîdir.",
+    "عَبْدَ kelimesinde el- takısı yoktur.",
+    "Doğru: muzâf olan münâdâ mansûb okunur."
+   ],
+   "kay": "Münâdâ"
+  },
+  {
+   "id": "ar5-07",
+   "z": 3,
+   "s": "يَسْأَلُونَكَ عَنِ الشَّهْرِ الْحَرَامِ قِتَالٍ فِيهِ (Bakara, 2/217) ayetinde قِتَالٍ kelimesi hangi bedel türüdür?",
+   "c": [
+    "Bedel-i iştimâl",
+    "Bedel-i ba‘z mine’l-küll",
+    "Bedel-i küll mine’l-küll",
+    "Bedel-i galat",
+    "Atf-ı beyân"
+   ],
+   "d": 0,
+   "a": "Soru, haram ayın kendisi hakkında değil, o ayda savaşmak hakkındadır. Metbûun kapsadığı bir şeyi bildiren bedele bedel-i iştimâl denir.",
+   "ac": [
+    "Doğru: ay, içinde yapılan savaşı kapsar; zaman-olay ilişkisidir.",
+    "Savaş ayın bir parçası değildir.",
+    "Savaş ile ay aynı varlık değildir.",
+    "Bir dil sürçmesi düzeltilmemektedir.",
+    "Atf-ı beyân açıklayıcı özel isim gibidir; burada kapsama ilişkisi vardır."
+   ],
+   "kay": "Bakara, 2/217"
+  },
+  {
+   "id": "ar5-08",
+   "z": 3,
+   "s": "Aşağıdaki bedel–tür eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ – küll mine’l-küll",
+    "أَكَلْتُ الرَّغِيفَ ثُلُثَهُ – ba‘z mine’l-küll",
+    "أَعْجَبَنِي زَيْدٌ عِلْمُهُ – iştimâl",
+    "قَرَأْتُ الْكِتَابَ نِصْفَهُ – iştimâl",
+    "رَأَيْتُ زَيْدًا فَرَسًا – galat"
+   ],
+   "d": 3,
+   "a": "Parça–bütün ilişkisinde bedel-i ba‘z, nitelik ya da kapsam ilişkisinde bedel-i iştimâl kullanılır.",
+   "ac": [
+    "Doğru: sırat-ı müstakîm ile aynı yoldur.",
+    "Doğru: üçte biri ekmeğin parçasıdır.",
+    "Doğru: ilim Zeyd’in bir niteliğidir.",
+    "Yanlış eşleştirme budur: yarısı kitabın parçası olduğu için ba‘z mine’l-küll olmalıdır.",
+    "Doğru: dil sürçmesinin düzeltilmesidir."
+   ],
+   "kay": "Bedel"
+  },
+  {
+   "id": "ar5-09",
+   "z": 3,
+   "s": "Aşağıdaki ayetlerin hangisinde مَا edatının türü yanlış verilmiştir?",
+   "c": [
+    "وَمَا تِلْكَ بِيَمِينِكَ يَا مُوسٰى – istifhâmiyye",
+    "مَا هٰذَا بَشَرًا – nâfiye",
+    "فَبِمَا رَحْمَةٍ مِنَ اللّٰهِ لِنْتَ لَهُمْ – istifhâmiyye",
+    "مَا عِنْدَكُمْ يَنْفَدُ – mevsûle",
+    "بِمَا نَسُوا يَوْمَ الْحِسَابِ – masdariyye"
+   ],
+   "d": 2,
+   "a": "Âl-i İmrân 3/159’daki فَبِمَا رَحْمَةٍ ifadesinde مَا zâidedir ve anlamı pekiştirir: “Allah’tan bir rahmet sebebiyledir ki onlara yumuşak davrandın.”",
+   "ac": [
+    "Doğru: “o elindeki nedir?” sorusudur.",
+    "Doğru: “bu bir insan değildir”.",
+    "Doğru cevap: buradaki مَا pekiştirme için gelen zâidedir; soru anlamı yoktur.",
+    "Doğru: “yanınızda olan şey tükenir”.",
+    "Doğru: “unutmaları sebebiyle”."
+   ],
+   "kay": "مَا edatının türleri"
+  },
+  {
+   "id": "ar5-10",
+   "z": 3,
+   "s": "لَوْ كَانَ فِيهِمَا آلِهَةٌ إِلَّا اللّٰهُ لَفَسَدَتَا (Enbiyâ, 21/22) ayetinde لَوْ edatı ile ilgili hangisi doğrudur?",
+   "c": [
+    "Şartiyye imtinâiyyedir; şart gerçekleşmediği için cevap da gerçekleşmemiştir.",
+    "Masdariyyedir.",
+    "Temenni bildirir.",
+    "Şartiyye câzimedir; fiili cezm etmiştir.",
+    "Nâfiye olup cümleyi olumsuz yapar."
+   ],
+   "d": 0,
+   "a": "لَوْ imtinâiyye, şartın gerçekleşmemesi sebebiyle cevabın da gerçekleşmediğini bildirir. Ayet, kelamdaki temânu‘ delilinin dayanağıdır.",
+   "ac": [
+    "Doğru: birden çok ilah olmadığı için yer ve gökler bozulmamıştır.",
+    "Kendinden sonrasını mastar anlamına çevirmez.",
+    "Ayette bir dilek değil, şart-cevap ilişkisi vardır.",
+    "لَوْ cezm etmez; fiiller mâzîdir.",
+    "لَوْ olumsuzluk edatı değildir."
+   ],
+   "kay": "Enbiyâ, 21/22"
+  },
+  {
+   "id": "ar5-11",
+   "z": 2,
+   "s": "مِفْتَاحُ بَابِ بَيْتِ الْإِمَامِ ifadesi aşağıdakilerden hangisine örnektir?",
+   "c": [
+    "Te’kîd-i lafzî",
+    "Na‘t-men‘ût (sıfat tamlaması)",
+    "Bedel-i küll",
+    "Atıf",
+    "Tetâbu‘u’l-izâfe (zincirleme tamlama)"
+   ],
+   "d": 4,
+   "a": "Art arda gelen izafet tamlamasına tetâbu‘u’l-izâfe denir. Muzâf el- takısı ve tenvin almaz, muzâfun ileyh mecrûrdur.",
+   "ac": [
+    "Aynı kelime tekrarlanmamıştır.",
+    "Kelimeler birbirini nitelemez, birbirine izafe edilmiştir.",
+    "Kelimeler aynı varlığı göstermez.",
+    "Arada bağlaç yoktur.",
+    "Doğru: dört isim art arda tamlama oluşturmuştur."
+   ],
+   "kay": "İzafet"
+  },
+  {
+   "id": "ar5-12",
+   "z": 3,
+   "s": "فَسَجَدَ الْمَلَائِكَةُ كُلُّهُمْ أَجْمَعُونَ (Hicr, 15/30) ayetinde كُلُّهُمْ ve أَجْمَعُونَ kelimeleri hangi tâbi türündendir?",
+   "c": [
+    "Na‘t",
+    "Bedel",
+    "Manevî te’kîd",
+    "Lafzî te’kîd",
+    "Atıf"
+   ],
+   "d": 2,
+   "a": "Manevî te’kîd نَفْسُ، عَيْنُ، كُلُّ، جَمِيعُ، أَجْمَعُ gibi kelimelerle yapılır. Ayette istisnasız bütün meleklerin secde ettiği vurgulanır.",
+   "ac": [
+    "Bu kelimeler nitelik bildirmez.",
+    "Asıl kastedilen başka bir şey değildir.",
+    "Doğru: كُلّ ve أَجْمَع melekleri kapsayıcı şekilde pekiştirir.",
+    "Lafzî te’kîd aynı kelimenin tekrarıdır.",
+    "Arada bağlaç yoktur."
+   ],
+   "kay": "Te’kîd"
+  },
+  {
+   "id": "ar5-13",
+   "z": 2,
+   "s": "ثُمَّ bağlacının anlamı aşağıdakilerden hangisidir?",
+   "c": [
+    "Birliktelik, sıra bildirmeden",
+    "Sıra ve araya zaman girmesi",
+    "Sıra ve hemen ardından gelme",
+    "Seçme (ya … ya)",
+    "Önceki hükmü iptal edip sonrakine geçme"
+   ],
+   "d": 1,
+   "a": "وَ birlikteliği, فَ sırayı ve hemen ardından gelmeyi, ثُمَّ araya zaman girerek sırayı bildirir.",
+   "ac": [
+    "Bu anlam وَ bağlacına aittir.",
+    "Doğru: “sonra, bir süre sonra” anlamını verir.",
+    "Bu anlam فَ bağlacına aittir.",
+    "Bu anlam أَوْ bağlacına aittir.",
+    "Bu anlam بَلْ bağlacına aittir."
+   ],
+   "kay": "Atıf harfleri"
+  },
+  {
+   "id": "ar5-14",
+   "z": 3,
+   "s": "Mef‘ûlün lieclih ile ilgili:\nI. Mastardır.\nII. İşin sebebini bildirir.\nIII. Daima fiilin kendi kökünden gelir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Mef‘ûlün lieclih, işin niçin yapıldığını bildiren mastardır ve çoğunlukla fiilin kökünden değildir: ابْتِغَاءَ مَرْضَاتِ اللّٰهِ.",
+   "ac": [
+    "Eksik: sebep bildirmesi de doğrudur.",
+    "Eksik: mastar olması da doğrudur.",
+    "Doğru: sebep bildiren mastardır; fiilin kökünden olmak mef‘ûl-ü mutlakın özelliğidir.",
+    "Üçüncü ifade yanlıştır.",
+    "Üçüncü ifade yanlıştır."
+   ],
+   "kay": "Mef‘ûlün lieclih"
+  }
+ ]
+}

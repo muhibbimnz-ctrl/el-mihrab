@@ -20,7 +20,9 @@ if not os.path.exists(A):
 a=json.load(open(A))
 key=hashlib.pbkdf2_hmac('sha256',pw.encode(),base64.b64decode(a['tuz']),a['tur'],32)
 ACIK={'konu/kuran-1.json','deneme/mbsts-1.json'}  # örnek olarak açık bırakılanlar: ilk dersin ilk konusu ve bir tam deneme
-def acik(rel): return '/' not in rel or rel in ACIK
+# ŞİMDİLİK ÜCRETSİZ (27 Kasım 2026): bütün Kadem içeriği ve YDS bankası düz .json olarak yayına gider (kadem.html UCRETSIZ ile aynı).
+UCRETSIZ=True
+def acik(rel): return UCRETSIZ or '/' not in rel or rel in ACIK
 def alt(p): return hmac.new(key,('kadem:'+p).encode(),'sha256').digest()
 _m=json.load(open(os.path.join(R,'mbsts.json')))
 MBSTS={'konu/'+k['ref']+'.json' for k in _m['konular'] if k.get('ref')}|{'deneme/'+k['ref']+'.json' for k in _m['denemeler'] if k.get('ref')}
@@ -38,13 +40,15 @@ def yds_kapat():
     f=os.path.join(Y,'banka.json')
     if not os.path.exists(f): return
     veri=open(f,'rb').read(); B=json.loads(veri)
-    open(os.path.join(Y,'banka.enc'),'w').write(sifrele(alt('yds'),'yds/banka.json',veri))
+    if UCRETSIZ:
+        if os.path.exists(os.path.join(Y,'banka.enc')): os.remove(os.path.join(Y,'banka.enc'))
+    else: open(os.path.join(Y,'banka.enc'),'w').write(sifrele(alt('yds'),'yds/banka.json',veri))
     # açık örnek: 1. deneme ve onun parçaları; kelime listesi yok
     S=[q for q in B['sorular'] if (q.get('dn') or 1)==1]
     P={k:v for k,v in B['pasajlar'].items() if any(q.get('p')==k for q in S)}
     json.dump({'ornek':1,'toplam':{'soru':len(B['sorular']),'deneme':len({q.get('dn') or 1 for q in B['sorular']}),'kelime':len(B.get('kelime',[]))},'pasajlar':P,'sorular':S,'kelime':[]},
               open(os.path.join(Y,'ornek.json'),'w'),ensure_ascii=False,separators=(',',':'))
-    print('yds: banka.enc + ornek.json',len(S),'örnek soru')
+    print('yds:', 'banka.json (ücretsiz)' if UCRETSIZ else 'banka.enc', '+ ornek.json',len(S),'örnek soru')
 G=AESGCM(key);mod=sys.argv[1] if len(sys.argv)>1 else ''
 if mod=='kapat':
     n=0

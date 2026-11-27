@@ -1,0 +1,552 @@
+{
+ "id": "mevzuat-6",
+ "ad": "4483 Memurların Yargılanması Kanunu, TCK’da Kamu Görevlilerine Karşı ve Kamu Görevlilerince İşlenen Suçlar, CMK Temel Kavramlar",
+ "ders": "Mevzuat",
+ "sinavlar": [
+  "murakip",
+  "mufettis",
+  "gys",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "mevzuat",
+  "yurtdisi"
+ ],
+ "oncelik": 3,
+ "anlatim": [
+  "Murakıp ve müfettiş, inceleme ve soruşturma yapan görevlilerdir. Bir disiplin olayının aynı zamanda suç olup olmadığını, suç ise soruşturma izninin kimden ve nasıl alınacağını bilmeleri gerekir. 2018 murakıplık sınavında 4483’ten iki, TCK’dan iki, CMK’dan iki soru gelmiştir. Müfettiş yardımcılığı yazılısında ise 4483, TCK ve CMK ayrı başlıklardır.",
+  {
+   "b": "1. 4483: Kapsam ve izin vermeye yetkili merciler"
+  },
+  {
+   "merak": "Bir ilçe müezzininin cami bağışlarını kendi hesabına aktardığı iddia edilirse savcı doğrudan soruşturma açabilir mi? Göreviyle ilgili bir suç iddiası olduğu için önce soruşturma izni gerekir. Ama zimmet gibi bazı suçlarda bu izin aranmaz. Kural ile istisnayı birlikte bilmek gerekir."
+  },
+  "4483 sayılı Kanun (1999), memurlar ve diğer kamu görevlilerinin görevleri sebebiyle işledikleri suçlardan dolayı yargılanabilmeleri için izin vermeye yetkili mercileri ve izlenecek usulü düzenler. Kanun, Anayasa md. 129’daki “idari merciin izni” hükmünün uygulamasıdır. Görevle ilgisi olmayan suçlar ile ağır cezalık suçüstü hâlleri ve kanunlarda ayrıca düzenlenen suçlar (TCK md. 302’deki Devletin birliği ve ülke bütünlüğüne karşı suçlar gibi) bu Kanunun kapsamı dışındadır.",
+  {
+   "tablo": [
+    [
+     "Görevli",
+     "İzin vermeye yetkili merci"
+    ],
+    [
+     "İlçede görevli memurlar",
+     "Kaymakam"
+    ],
+    [
+     "İlde ve merkez ilçede görevli memurlar ile kaymakamlar",
+     "Vali"
+    ],
+    [
+     "Bölge görevlileri",
+     "Görev yaptıkları ilin valisi"
+    ],
+    [
+     "Cumhurbaşkanlığına bağlı kuruluşların ve bakanlıkların merkez teşkilatında görev yapanlar",
+     "Atamaya yetkili merci (ilgili bakan ya da kurum başkanı)"
+    ],
+    [
+     "Cumhurbaşkanı kararıyla atanan memurlar",
+     "Cumhurbaşkanı veya ilgili bakan"
+    ]
+   ]
+  },
+  "Yetkili merciin belirlenmesinde memurun suç tarihindeki görevi esas alınır. Ancak izin, soruşturma izni istendiği sırada görev yapılan yere göre belirlenen merciden istenir. Bu nedenle ilçede görev yapan bir din görevlisi için izin mercii kaymakam, il merkezinde görev yapan bir murakıp için validir.",
+  {
+   "sinav": "4483 sorularında merci eşleştirmesi çok sorulur. Diyanet taşra personelinin büyük kısmı için merci kaymakam (ilçe) ya da validir (il, merkez ilçe). Diyanet merkez teşkilatında görev yapanlar için atamaya yetkili amir izin verir."
+  },
+  {
+   "b": "2. 4483: Ön inceleme, süre ve itiraz"
+  },
+  "Cumhuriyet başsavcılığı, kanun kapsamına giren bir suç ihbarı aldığında izin vermeye yetkili mercie başvurur. Merci, izin verip vermeme kararından önce ön inceleme yaptırır. Ön inceleme merciin kendisi tarafından yapılabileceği gibi, görevlendireceği müfettiş, kontrolör ya da memurun aşağı olmamak üzere bir başka görevli tarafından da yapılabilir. Ön incelemeyi yapan kişi, merciin bütün yetkilerine sahiptir. Gerekli belgeleri toplar, ifade alır, bilirkişi görüşü alabilir ve bir rapor düzenler.",
+  {
+   "tablo": [
+    [
+     "Aşama",
+     "Süre"
+    ],
+    [
+     "Soruşturma izni kararı",
+     "Suçun öğrenilmesinden itibaren, ön inceleme dâhil en geç 30 gün"
+    ],
+    [
+     "Zorunlu hâllerde uzatma",
+     "Bir defa, en çok 15 gün"
+    ],
+    [
+     "Karara itiraz",
+     "Kararın tebliğinden itibaren 10 gün"
+    ],
+    [
+     "İtiraz mercii",
+     "Kaymakam ve valinin kararlarına bölge idare mahkemesi; Cumhurbaşkanlığı ve bakanlık düzeyindeki merci kararlarına Danıştay"
+    ],
+    [
+     "İtirazın sonuçlanması",
+     "Öncelikle incelenir, en geç 3 ay içinde karara bağlanır"
+    ]
+   ]
+  },
+  "Soruşturma iznine itirazı Cumhuriyet başsavcılığı ya da şikâyetçi; izin verilmesine itirazı ise hakkında izin verilen memur yapabilir. İzin verilmezse ve bu karar kesinleşirse, aynı fiil için yeni delil ortaya çıkmadıkça yeniden soruşturma yapılamaz. İhbar ve şikâyetlerde ihbarcının adı soyadı, imzası ve adresi bulunmalıdır. Soyut ve genel nitelikte olan, belli bir olay ya da kişi göstermeyen ihbarlar işleme konulmaz.",
+  {
+   "akil": "4483: Karar 30 gün (+15 uzatma), itiraz 10 gün, itiraz 3 ayda karara bağlanır. Kaymakam/vali → bölge idare mahkemesi; bakan düzeyi → Danıştay."
+  },
+  {
+   "b": "3. TCK: Kamu görevlilerinin işlediği başlıca suçlar"
+  },
+  {
+   "merak": "Zimmet ile irtikâp arasındaki fark nedir? İkisinde de kamu görevlisi haksız bir menfaat elde eder. Zimmette görevli, görevi gereği kendisine teslim edilen malı kendine ya da başkasına mal eder. İrtikâpta ise görevi kötüye kullanarak bir kişiyi kendisine yarar sağlamaya zorlar ya da kandırır."
+  },
+  "5237 sayılı Türk Ceza Kanunu “Kamu idaresinin güvenilirliğine ve işleyişine karşı suçlar” başlığında kamu görevlilerinin işlediği suçları düzenler. Zimmet (md. 247), irtikâp (md. 250), rüşvet (md. 252) ve görevi kötüye kullanma (md. 257) bunların en önemlileridir. 3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzlukla Mücadele Kanunu’nun 17. maddesine göre rüşvet, irtikâp, zimmet gibi yolsuzluk suçlarında 4483’teki izin aranmaz. Bu suçlar Cumhuriyet savcılığınca doğrudan soruşturulur.",
+  {
+   "tablo": [
+    [
+     "Suç",
+     "Tanım",
+     "Temel ceza"
+    ],
+    [
+     "Zimmet (md. 247)",
+     "Görevi gereği zilyedliği kendisine devredilen ya da koruma, gözetim yükümlülüğü bulunan malı kendisinin ya da başkasının zimmetine geçirmek",
+     "5 yıldan 12 yıla kadar hapis"
+    ],
+    [
+     "İrtikâp (md. 250)",
+     "Görevin sağladığı nüfuzu kötüye kullanarak bir kişiyi kendisine ya da başkasına yarar sağlamaya icbar etmek (zorlamak)",
+     "5 yıldan 10 yıla kadar hapis (ikna ya da hatadan yararlanmada daha az)"
+    ],
+    [
+     "Rüşvet (md. 252)",
+     "Görevinin gereklerine aykırı bir iş yapması ya da yapmaması için bir kişiyle anlaşarak doğrudan ya da aracılarla yarar sağlamak",
+     "4 yıldan 12 yıla kadar hapis"
+    ],
+    [
+     "Görevi kötüye kullanma (md. 257)",
+     "Kanunda ayrıca suç olarak tanımlanan hâller dışında görevinin gereklerine aykırı hareket ederek kişilerin mağduriyetine, kamunun zararına ya da kişilere haksız kazanç sağlanmasına neden olmak",
+     "6 aydan 2 yıla kadar hapis"
+    ]
+   ]
+  },
+  "Görevi kötüye kullanma suçu “torba suç”tur. Kanunda ayrıca tanımlanmış bir kamu görevlisi suçu yoksa uygulanır. Zimmet, irtikâp ya da rüşvet varsa bu suçlar uygulanır, görevi kötüye kullanma uygulanmaz. Ayrıca kamu görevlisinin resmi belgede sahtecilik yapması (md. 204), göreve ilişkin sırrı açıklaması (md. 258) ve görevi sırasında öğrendiği bir suçu yetkili makamlara bildirmemesi (md. 279) de ayrı suçlardır. Kamu görevlisinin görevi ile ilgili bir suçu bildirmemesi, Diyanet personeli için de geçerli olan önemli bir yükümlülüktür.",
+  {
+   "sinav": "Bir olay anlatılıp “hangi suç oluşur?” diye sorulur. Malı zaten elinde tutan görevli → zimmet. Vatandaşı zorlayan ya da kandıran görevli → irtikâp. Karşılıklı anlaşma (iş karşılığı menfaat) → rüşvet. Hiçbiri yok ama göreve aykırı davranış ve zarar varsa → görevi kötüye kullanma."
+  },
+  {
+   "akil": "Zimmet 5-12, irtikâp (icbar) 5-10, rüşvet 4-12, görevi kötüye kullanma 6 ay-2 yıl. Rüşvet, zimmet ve irtikâpta 4483 izni aranmaz (3628 md. 17)."
+  },
+  {
+   "b": "4. CMK: Temel kavramlar"
+  },
+  "5271 sayılı Ceza Muhakemesi Kanunu, ceza yargılamasının nasıl yürütüleceğini düzenler. Soruşturma evresi, kanuna göre yetkili mercilerce suç şüphesinin öğrenilmesinden iddianamenin kabulüne kadar geçen evredir. Kovuşturma evresi ise iddianamenin kabulüyle başlayıp hükmün kesinleşmesine kadar geçen evredir. Soruşturma evresinde suç şüphesi altındaki kişiye şüpheli, kovuşturma evresinde sanık denir.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Kural"
+    ],
+    [
+     "Şüpheli / sanık",
+     "Soruşturmada şüpheli, kovuşturmada sanık"
+    ],
+    [
+     "Gözaltı süresi",
+     "Yakalama anından itibaren 24 saat (yol süresi hariç); toplu suçlarda her defasında 1 günü geçmemek üzere en fazla 3 gün uzatılabilir"
+    ],
+    [
+     "İfade ve sorgu",
+     "İfade alma kolluk ya da savcı tarafından; sorgu hâkim ya da mahkeme tarafından yapılır"
+    ],
+    [
+     "Suçüstü",
+     "İşlenmekte olan ya da henüz işlenmiş suç; görülünce herkes geçici olarak yakalayabilir"
+    ],
+    [
+     "Tutuklama",
+     "Kuvvetli suç şüphesi ve kaçma, delil karartma tehlikesi; hâkim kararıyla"
+    ]
+   ]
+  },
+  "İfade ile sorgu arasındaki fark sınavların klasik konusudur. Şüphelinin ya da sanığın kolluk veya Cumhuriyet savcısı tarafından dinlenmesine ifade alma, hâkim ya da mahkeme tarafından dinlenmesine sorgu denir. Her iki durumda da kişiye susma hakkı, müdafi (avukat) yardımından yararlanma hakkı ve lehine delil toplanmasını isteme hakkı hatırlatılır. Kanuna aykırı yöntemlerle elde edilen deliller hükme esas alınamaz.",
+  {
+   "akil": "İfade: kolluk ya da savcı. Sorgu: hâkim. Soruşturmada şüpheli, kovuşturmada sanık. Gözaltı 24 saat."
+  }
+ ],
+ "ozet": [
+  "4483, kamu görevlilerinin görevleri sebebiyle işledikleri suçlarda soruşturma iznini düzenler (Anayasa md. 129).",
+  "İlçede görevli memurlar için izin mercii kaymakam, il ve merkez ilçede validir.",
+  "Ön inceleme, merciin kendisince ya da görevlendirdiği bir başka görevlice yapılır.",
+  "Soruşturma izni kararı ön inceleme dâhil en geç 30 günde verilir; zorunlu hâlde 15 gün uzatılır.",
+  "İzin kararına itiraz süresi tebliğden itibaren 10 gündür.",
+  "Kaymakam ve vali kararlarına itiraz bölge idare mahkemesine, merkezî merci kararlarına itiraz Danıştay’a yapılır.",
+  "İtirazlar en geç 3 ay içinde karara bağlanır.",
+  "Soyut, genel ve kişi göstermeyen ihbarlar işleme konulmaz.",
+  "Zimmet: görevi gereği elindeki malı mal etmek; 5-12 yıl.",
+  "İrtikâp: nüfuzu kötüye kullanarak yarar sağlamaya zorlamak; 5-10 yıl.",
+  "Rüşvet: anlaşma ile yarar sağlamak; 4-12 yıl.",
+  "Görevi kötüye kullanma ayrıca tanımlanmamış göreve aykırı davranışlar için uygulanan torba suçtur; 6 ay-2 yıl.",
+  "İfade kolluk ya da savcı tarafından, sorgu hâkim tarafından yapılır."
+ ],
+ "kartlar": [
+  {
+   "o": "4483’ün dayanağı",
+   "a": "Anayasa md. 129: memurların yargılanmasında idari merciin izni"
+  },
+  {
+   "o": "İlçede görevli memur için izin mercii",
+   "a": "Kaymakam"
+  },
+  {
+   "o": "İl merkezinde görevli memur için izin mercii",
+   "a": "Vali"
+  },
+  {
+   "o": "Soruşturma izni kararının süresi",
+   "a": "Ön inceleme dâhil 30 gün; zorunlu hâlde +15 gün"
+  },
+  {
+   "o": "İzin kararına itiraz süresi",
+   "a": "Tebliğden itibaren 10 gün"
+  },
+  {
+   "o": "Kaymakamın izin kararına itiraz mercii",
+   "a": "Bölge idare mahkemesi"
+  },
+  {
+   "o": "İtirazın karara bağlanma süresi",
+   "a": "En geç 3 ay"
+  },
+  {
+   "o": "Zimmet (TCK 247)",
+   "a": "Görevi gereği elindeki malı mal etme; 5-12 yıl"
+  },
+  {
+   "o": "İrtikâp (TCK 250)",
+   "a": "Nüfuzu kötüye kullanıp yarar sağlamaya icbar; 5-10 yıl"
+  },
+  {
+   "o": "Rüşvet (TCK 252)",
+   "a": "Anlaşma ile haksız yarar; 4-12 yıl"
+  },
+  {
+   "o": "Görevi kötüye kullanma (TCK 257)",
+   "a": "Torba suç; 6 ay-2 yıl"
+  },
+  {
+   "o": "İfade – sorgu farkı",
+   "a": "İfade: kolluk/savcı; sorgu: hâkim/mahkeme"
+  },
+  {
+   "o": "Şüpheli – sanık farkı",
+   "a": "Soruşturmada şüpheli, kovuşturmada sanık"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "mv6-01",
+   "z": 2,
+   "s": "4483 sayılı Kanuna göre bir ilçe müftülüğünde görev yapan imam-hatip hakkında görevi sebebiyle işlediği iddia edilen bir suçtan dolayı soruşturma izni vermeye yetkili merci aşağıdakilerden hangisidir?",
+   "c": [
+    "Kaymakam",
+    "İl müftüsü",
+    "Diyanet İşleri Başkanı",
+    "Cumhuriyet başsavcısı",
+    "İlçe müftüsü"
+   ],
+   "d": 0,
+   "a": "4483 md. 3’e göre ilçede görevli memurlar ve diğer kamu görevlileri için soruşturma izni vermeye yetkili merci kaymakamdır.",
+   "ac": [
+    "Doğru: ilçede görevli memurlar için izin mercii kaymakamdır.",
+    "Müftü disiplin amiridir; 4483’e göre izin mercii değildir.",
+    "Merkez teşkilatına atananlar için atamaya yetkili merci söz konusu olur.",
+    "Başsavcı izni ister; izin vermez.",
+    "Müftü izin mercii değildir."
+   ],
+   "kay": "4483 s. Kanun, md. 3"
+  },
+  {
+   "id": "mv6-02",
+   "z": 3,
+   "s": "4483 sayılı Kanuna göre soruşturma izni süreci ile ilgili:\nI. Yetkili merci kararını, ön inceleme dâhil suçun öğrenilmesinden itibaren en geç 30 gün içinde verir.\nII. Bu süre zorunlu hâllerde bir defa 15 gün uzatılabilir.\nIII. Karara itiraz süresi tebliğden itibaren 15 gündür.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "Md. 7’ye göre karar 30 gün içinde verilir ve 15 gün uzatılabilir. Md. 9’a göre itiraz süresi tebliğden itibaren 10 gündür.",
+   "ac": [
+    "Eksik: uzatma süresi de doğrudur.",
+    "Doğru: itiraz süresi 15 değil, 10 gündür.",
+    "Üçüncü ifade yanlıştır.",
+    "Üçüncü ifade yanlıştır.",
+    "Üçüncü ifade yanlıştır."
+   ],
+   "kay": "4483 s. Kanun, md. 7, 9"
+  },
+  {
+   "id": "mv6-03",
+   "z": 3,
+   "s": "Bir valinin soruşturma izni verilmemesine ilişkin kararına karşı itiraz hangi mercie yapılır?",
+   "c": [
+    "Danıştay",
+    "Ağır ceza mahkemesi",
+    "Bölge idare mahkemesi",
+    "İçişleri Bakanlığı",
+    "Anayasa Mahkemesi"
+   ],
+   "d": 2,
+   "a": "4483 md. 9’a göre ilçe ve il düzeyindeki mercilerin kararlarına itiraz bölge idare mahkemesine, merkezî mercilerin kararlarına itiraz Danıştay’a yapılır.",
+   "ac": [
+    "Danıştay’a itiraz merkezî merci kararları içindir.",
+    "Ceza mahkemesi izin kararlarının itiraz mercii değildir.",
+    "Doğru: kaymakam ve valinin kararlarına itiraz bölge idare mahkemesine yapılır.",
+    "İtiraz idari değil, yargısal mercie yapılır.",
+    "Anayasa Mahkemesi böyle bir itiraz mercii değildir."
+   ],
+   "kay": "4483 s. Kanun, md. 9"
+  },
+  {
+   "id": "mv6-04",
+   "z": 3,
+   "s": "Bir müftülükte kurban bağışlarını tahsil etmekle görevli memur, tahsil ettiği paranın bir kısmını kendi borcunu ödemek için kullanmıştır. Bu eylem TCK’ya göre hangi suçu oluşturur ve soruşturma için 4483’e göre izin gerekir mi?",
+   "c": [
+    "Görevi kötüye kullanma; izin gerekir",
+    "İrtikâp; izin gerekmez",
+    "Rüşvet; izin gerekir",
+    "Zimmet; izin gerekmez",
+    "Güveni kötüye kullanma; izin gerekir"
+   ],
+   "d": 3,
+   "a": "Görevi gereği zilyedliği kendisine devredilen malı kendine mal eden kamu görevlisi zimmet suçunu işler. Zimmet ve irtikâpta soruşturma izni aranmaz.",
+   "ac": [
+    "Daha özel bir suç tanımı (zimmet) vardır.",
+    "Ortada bir kişiyi zorlama ya da kandırma yoktur.",
+    "Bir kişiyle anlaşma ve karşılık yoktur.",
+    "Doğru: görevi gereği elindeki parayı kendine mal etmiştir; zimmette 4483 izni aranmaz.",
+    "Kamu görevlisi ve kamu malı söz konusu olduğundan zimmet oluşur."
+   ],
+   "kay": "TCK md. 247; 3628 s. Kanun, md. 17"
+  },
+  {
+   "id": "mv6-05",
+   "z": 3,
+   "s": "Bir kamu görevlisi, işini yaptırmak için gelen vatandaşa “bu evrak ancak bana bir hediye getirirsen çıkar” diyerek baskı kurmuş ve vatandaş korkarak para vermiştir. Bu eylem hangi suçu oluşturur?",
+   "c": [
+    "Zimmet",
+    "Rüşvet",
+    "İrtikâp",
+    "Görevi kötüye kullanma",
+    "Resmi belgede sahtecilik"
+   ],
+   "d": 2,
+   "a": "İrtikâpta kamu görevlisi nüfuzunu kötüye kullanarak kişiyi yarar sağlamaya icbar eder. Rüşvette ise karşılıklı anlaşma vardır.",
+   "ac": [
+    "Görevlinin elinde emanet bir mal yoktur.",
+    "Rüşvette taraflar özgür iradeyle anlaşır; burada zorlama vardır.",
+    "Doğru: görevin sağladığı nüfuzu kötüye kullanarak kişiyi yarar sağlamaya zorlamıştır (icbar).",
+    "Daha özel bir suç (irtikâp) tanımlıdır.",
+    "Belgede bir değişiklik yapılmamıştır."
+   ],
+   "kay": "TCK md. 250, 252"
+  },
+  {
+   "id": "mv6-06",
+   "z": 2,
+   "s": "TCK’ya göre görevi kötüye kullanma suçu ile ilgili hangisi doğrudur?",
+   "c": [
+    "Kanunda ayrıca suç olarak tanımlanmış hâllerde de öncelikle uygulanır.",
+    "Cezası beş yıldan on iki yıla kadar hapistir.",
+    "Yalnız ihmalle işlenebilir.",
+    "Kanunda ayrıca tanımlanan hâller dışında, görevin gereklerine aykırı hareketle mağduriyet, kamu zararı ya da haksız kazanç oluşturan eylemlerde uygulanır.",
+    "Yalnız seçilmiş kamu görevlileri tarafından işlenebilir."
+   ],
+   "d": 3,
+   "a": "Görevi kötüye kullanma, ayrıca tanımlanmamış göreve aykırı davranışları kapsayan genel (torba) bir suçtur.",
+   "ac": [
+    "Ayrıca tanımlanan suç varsa o uygulanır.",
+    "Bu ceza zimmet içindir.",
+    "Kasten de ihmalle de işlenebilir.",
+    "Doğru: md. 257’nin tanımıdır.",
+    "Bütün kamu görevlileri işleyebilir."
+   ],
+   "kay": "TCK md. 257"
+  },
+  {
+   "id": "mv6-07",
+   "z": 3,
+   "s": "Aşağıdaki suç–ceza eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Görevi kötüye kullanma – 4 yıldan 12 yıla kadar hapis",
+    "Rüşvet – 4 yıldan 12 yıla kadar hapis",
+    "İcbar suretiyle irtikâp – 5 yıldan 10 yıla kadar hapis",
+    "Görevi kötüye kullanma – 6 aydan 2 yıla kadar hapis",
+    "Zimmet – 5 yıldan 12 yıla kadar hapis"
+   ],
+   "d": 0,
+   "a": "Zimmet 5-12, rüşvet 4-12, icbar suretiyle irtikâp 5-10 yıl, görevi kötüye kullanma 6 ay-2 yıl hapis cezası gerektirir.",
+   "ac": [
+    "Yanlış eşleştirme budur: 4-12 yıl rüşvetin cezasıdır.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir."
+   ],
+   "kay": "TCK md. 247, 250, 252, 257"
+  },
+  {
+   "id": "mv6-08",
+   "z": 2,
+   "s": "CMK’ya göre şüpheli ile sanık arasındaki fark aşağıdakilerden hangisidir?",
+   "c": [
+    "Şüpheli tutuklu, sanık serbest kişidir.",
+    "İkisi aynı anlama gelir.",
+    "Şüpheli suçüstü yakalanan, sanık ihbar edilen kişidir.",
+    "Şüpheliyi savcı, sanığı kolluk dinler.",
+    "Şüpheli soruşturma evresinde, sanık kovuşturma evresinde suç şüphesi altındaki kişidir."
+   ],
+   "d": 4,
+   "a": "Soruşturma evresinde suç şüphesi altındaki kişiye şüpheli, iddianamenin kabulünden sonra kovuşturma evresinde sanık denir.",
+   "ac": [
+    "Ayrım tutuklulukla ilgili değildir.",
+    "Kanun iki kavramı ayrı tanımlar.",
+    "Yakalanma şekli ayrımı belirlemez.",
+    "Sanığı hâkim sorgular.",
+    "Doğru: ayrım yargılama evresine göredir."
+   ],
+   "kay": "CMK md. 2"
+  },
+  {
+   "id": "mv6-09",
+   "z": 3,
+   "s": "CMK’ya göre ifade alma ve sorgu ile ilgili:\nI. İfade alma kolluk ya da Cumhuriyet savcısı tarafından yapılır.\nII. Sorgu hâkim ya da mahkeme tarafından yapılır.\nIII. Her ikisinde de kişiye susma hakkı ve müdafi yardımından yararlanma hakkı hatırlatılır.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "İfade kolluk ya da savcı, sorgu hâkim ya da mahkeme tarafından alınır. İki durumda da susma hakkı ve müdafi yardımı hatırlatılır.",
+   "ac": [
+    "Eksik: sorgu tanımı ve haklar da doğrudur.",
+    "Eksik: hakların hatırlatılması da zorunludur.",
+    "Eksik: sorgu hâkim tarafından yapılır.",
+    "Eksik: ifade alma kolluk ya da savcı tarafından yapılır.",
+    "Doğru: CMK md. 2 ve 147’nin hükümleridir."
+   ],
+   "kay": "CMK md. 2, 147"
+  },
+  {
+   "id": "mv6-10",
+   "z": 2,
+   "s": "CMK’ya göre yakalanan kişinin gözaltı süresi, yakalama yerine en yakın hâkim ya da mahkemeye gönderilmesi için zorunlu süre hariç, yakalama anından itibaren kaç saati geçemez?",
+   "c": [
+    "12 saat",
+    "24 saat",
+    "48 saat",
+    "72 saat",
+    "4 gün"
+   ],
+   "d": 1,
+   "a": "Gözaltı süresi yakalama anından itibaren 24 saattir. Toplu suçlarda savcının yazılı emriyle her defasında bir günü geçmemek üzere üç gün uzatılabilir.",
+   "ac": [
+    "Kanundaki süre daha uzundur.",
+    "Doğru: CMK md. 91’e göre gözaltı süresi 24 saati geçemez.",
+    "Bu süre olağan gözaltı için kanunda yer almaz.",
+    "Bu süre olağan gözaltının üst sınırı değildir.",
+    "Toplu suçlarda uzatılmış süreyle karıştırılmıştır."
+   ],
+   "kay": "CMK md. 91"
+  },
+  {
+   "id": "mv6-11",
+   "z": 3,
+   "s": "4483 sayılı Kanuna göre aşağıdaki ihbarlardan hangisi işleme konulmaz?",
+   "c": [
+    "Adı, imzası ve adresi bulunan, belli bir olayı anlatan ihbar",
+    "Kamu zararı iddiası içeren somut ihbar",
+    "Belgelerle desteklenen ve belli bir kişiyi gösteren ihbar",
+    "“Bu müftülükte herkes rüşvet alıyor” şeklinde kişi ve olay göstermeyen, soyut ve genel nitelikteki ihbar",
+    "Cumhuriyet başsavcılığına yapılmış somut şikâyet"
+   ],
+   "d": 3,
+   "a": "Md. 4’e göre ihbar ve şikâyetler, belli bir kişi ya da olay göstermeyen soyut ve genel nitelikte ise işleme konulmaz.",
+   "ac": [
+    "İşleme konulur.",
+    "İşleme konulur.",
+    "İşleme konulur.",
+    "Doğru: soyut ve genel ihbarlar işleme konulmaz.",
+    "İşleme konulur ve mercie iletilir."
+   ],
+   "kay": "4483 s. Kanun, md. 4"
+  },
+  {
+   "id": "mv6-12",
+   "z": 3,
+   "s": "Ön inceleme ile ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "İzin vermeye yetkili merci tarafından bizzat yapılabilir.",
+    "Ön inceleme sonunda incelemeyi yapan kişi soruşturma izni kararını kendisi verir.",
+    "Ön incelemeyi yapan kişi, kendisini görevlendiren merciin bütün yetkilerine sahiptir.",
+    "Merciin görevlendirdiği müfettiş, kontrolör ya da başka bir görevlice yapılabilir.",
+    "İnceleyenler, raporlarını izin vermeye yetkili mercie sunar."
+   ],
+   "d": 1,
+   "a": "Ön incelemeyi yapan görevli bir rapor hazırlar. Soruşturma izni verilmesi ya da verilmemesine ilişkin kararı izin vermeye yetkili merci verir.",
+   "ac": [
+    "Doğru bilgidir.",
+    "Yanlış olan budur: inceleyen kişi rapor düzenler; kararı yetkili merci verir.",
+    "Doğru bilgidir.",
+    "Doğru bilgidir.",
+    "Doğru bilgidir."
+   ],
+   "kay": "4483 s. Kanun, md. 5-6"
+  },
+  {
+   "id": "mv6-13",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisinde soruşturma için 4483 sayılı Kanuna göre izin alınması gerekir?",
+   "c": [
+    "Kamu görevlisinin görevi dışında işlediği trafik kazası",
+    "Kamu görevlisinin zimmet suçu",
+    "Kamu görevlisinin irtikâp suçu",
+    "Ağır cezalık suçüstü hâli",
+    "Kamu görevlisinin göreviyle ilgili olarak görevi kötüye kullanması"
+   ],
+   "d": 4,
+   "a": "Görev sebebiyle işlenen ve kanunda ayrıca istisna tutulmayan suçlar (görevi kötüye kullanma gibi) için soruşturma izni gerekir.",
+   "ac": [
+    "Görevle ilgisiz suçlar kapsam dışıdır.",
+    "Zimmette izin aranmaz.",
+    "İrtikâpta izin aranmaz.",
+    "Kapsam dışıdır.",
+    "Doğru: görev sebebiyle işlenen ve istisna sayılmayan bir suçtur; izin gerekir."
+   ],
+   "kay": "4483 s. Kanun, md. 2; 3628 s. Kanun, md. 17"
+  },
+  {
+   "id": "mv6-14",
+   "z": 3,
+   "s": "Hakkında soruşturma izni verilen bir memur bu karara itiraz etmek istemektedir. Buna göre aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "İtiraz hakkı yalnız Cumhuriyet başsavcılığına aittir.",
+    "Memur 30 gün içinde idare mahkemesinde iptal davası açar.",
+    "Memur, kararın tebliğinden itibaren 10 gün içinde itiraz edebilir ve itiraz en geç 3 ay içinde karara bağlanır.",
+    "İtiraz, izin veren merciin kendisine yapılır.",
+    "Memurun itiraz hakkı yoktur; ancak yargılamada savunma yapar."
+   ],
+   "d": 2,
+   "a": "Soruşturma izni verilmesine karşı hakkında izin verilen kişi, verilmemesine karşı başsavcı ya da şikâyetçi 10 gün içinde itiraz edebilir. İtiraz en geç 3 ayda sonuçlandırılır.",
+   "ac": [
+    "Hakkında izin verilen kişi de itiraz edebilir.",
+    "Kanun özel bir itiraz yolu öngörür.",
+    "Doğru: md. 9’un hükümleridir.",
+    "İtiraz yargı merciine (bölge idare mahkemesi ya da Danıştay) yapılır.",
+    "Kanun memura itiraz hakkı tanır."
+   ],
+   "kay": "4483 s. Kanun, md. 9"
+  }
+ ]
+}

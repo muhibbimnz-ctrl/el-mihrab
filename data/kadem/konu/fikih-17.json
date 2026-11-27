@@ -1,0 +1,566 @@
+{
+ "id": "fikih-17",
+ "ad": "Aile Hukuku 2: Talak (Ric’î, Bâin), Hul’ ve Tefvîz, Tefrik (Lian, İlâ, Zıhar), İddet, Nafaka, Nesep ve Hidâne (Çocuğun Bakımı)",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Talak: Evliliğin koca tarafından sona erdirilmesi"
+  },
+  {
+   "merak": "Hz. Peygamber “Allah’ın helal kıldığı şeyler içinde en sevmediği boşamadır” buyurmuştur. Peki İslam neden boşanmayı tamamen yasaklamadı da onu aşamalara ve dönüş imkânlarına bağladı?"
+  },
+  "Talak, evlilik bağının kocanın tek taraflı irade beyanıyla sona erdirilmesidir. Kur’an boşanmayı son çare olarak görür ve evliliği kurtarmak için önce öğüt, hakem ve barış yollarını gösterir (Nisâ 34-35). Talak sözü açık (sarih) ya da kinayeli olabilir. Sarih talak, “Seni boşadım” gibi başka bir anlama gelmeyen sözlerdir ve niyet aranmaz. Kinayeli talak, “Evine git”, “Serbestsin” gibi başka anlamlara da gelebilen sözlerdir; boşama niyeti varsa talak gerçekleşir.",
+  {
+   "tablo": [
+    [
+     "Talak türü",
+     "Nasıl olur?",
+     "Dönüş imkânı"
+    ],
+    [
+     "Ric’î talak",
+     "Bir veya iki sarih talak",
+     "İddet içinde yeni nikâh ve mehir olmadan dönülebilir (ric’at)"
+    ],
+    [
+     "Bâin-i sugrâ",
+     "Kinayeli sözle boşama; ric’î talakta iddetin bitmesi; hul’",
+     "Yeni nikâh ve mehirle dönülebilir"
+    ],
+    [
+     "Bâin-i kübrâ",
+     "Üçüncü talak",
+     "Kadın başka biriyle sahih evlilik yapıp ayrılmadıkça (hulle) dönülemez"
+    ]
+   ]
+  },
+  "Boşamanın zamanı ve şekli bakımından sünnî ve bid’î talak ayrımı yapılır. Sünnî talak, kadının hayızdan temizlendiği ve bu temizlik döneminde ilişki olmadığı bir zamanda tek talakla boşamaktır. Bid’î talak ise hayız döneminde boşamak ya da tek seferde üç talak vermektir; Hanefîlere ve cumhura göre bid’î talak günahtır, ancak geçerlidir ve üç talak sözü üç talak sayılır. İbn Teymiyye ve İbn Kayyim gibi bazı âlimler ise tek mecliste verilen üç talağı bir talak saymış; günümüzde birçok ülkenin aile kanunları bu görüşü benimsemiştir.",
+  {
+   "sinav": "Ric’î – bâin farkı, üçüncü talakla bâin-i kübrâ ve hulle, bid’î talakın Hanefîlerde geçerli ama günah olması sık sorulur."
+  },
+  {
+   "akil": "Ric’î (1-2 sarih): iddette nikâhsız dönüş. Bâin-i sugrâ: yeni nikâh + mehir. Bâin-i kübrâ (3): başka sahih evlilik olmadan dönüş yok. Bid’î talak: günah ama geçerli (Hanefî)."
+  },
+  {
+   "b": "2. Hul’, tefvîz ve tefrik"
+  },
+  "Hul’, kadının bir bedel (genellikle mehrinden vazgeçme) karşılığında kocasının onayıyla evliliği sona erdirmesidir. Hanefîlere göre hul’ bâin talak hükmündedir. Dayanağı Bakara 229 ve Sâbit b. Kays’ın eşi ile ilgili hadistir. Tefvîz-i talak (isme hakkı), kocanın boşama yetkisini nikâh sırasında ya da sonrasında kadına devretmesidir; bu durumda kadın kendisini boşayabilir.",
+  "Tefrik, hâkimin kararıyla evliliğin sona erdirilmesidir. Hanefî mezhebinde tefrik sebepleri dar tutulmuş; kocanın iktidarsızlığı (bir yıl süre verilir) gibi durumlarla sınırlı kalmıştır. Mâlikî mezhebi ise kocanın nafakayı ödememesi, eşine zarar vermesi, uzun süre kayıp (gaip) olması ve şiddetli geçimsizlik gibi sebeplerle kadına hâkime başvurarak boşanma hakkı tanır. 1917 Hukûk-ı Aile Kararnâmesi bu konuda Mâlikî görüşünü benimsemiştir.",
+  {
+   "tablo": [
+    [
+     "Ayrılık yolu",
+     "Açıklama",
+     "Dayanak"
+    ],
+    [
+     "Hul’",
+     "Kadının bedel karşılığında kocanın onayıyla ayrılması; bâin",
+     "Bakara 229"
+    ],
+    [
+     "Tefvîz",
+     "Boşama yetkisinin kadına verilmesi",
+     "İcmâ ve sahabe uygulaması"
+    ],
+    [
+     "Lian",
+     "Koca karısını zinayla suçlar, dört şahit getiremez; karşılıklı lanetleşme; hâkim ayırır, ebediyen evlenemezler",
+     "Nûr 6-9"
+    ],
+    [
+     "İlâ",
+     "Kocanın dört ay veya daha uzun süre eşine yaklaşmamaya yemin etmesi; dört ay içinde dönmezse bâin talak",
+     "Bakara 226-227"
+    ],
+    [
+     "Zıhar",
+     "Kocanın eşini annesinin bir uzvuna benzetmesi; keffâret ödemeden eşine yaklaşamaz",
+     "Mücâdele 2-4"
+    ]
+   ]
+  },
+  {
+   "akil": "Hul’: kadın bedel verir, koca onaylar → bâin. Tefvîz: boşama yetkisi kadına. Tefrik: Hanefîde dar (iktidarsızlık), Mâlikîde geniş (nafaka, zarar, gaiplik) → 1917 Kararname Mâlikî’den aldı. Lian (Nûr 6-9), ilâ (4 ay), zıhar (keffâret)."
+  },
+  {
+   "b": "3. İddet"
+  },
+  {
+   "merak": "Kocası vefat eden bir kadın hamileyse ve kocasının vefatından iki hafta sonra doğum yaparsa iddeti biter mi, yoksa dört ay on gün mü beklemelidir? Hz. Peygamber, Sübey’a el-Eslemiyye’nin durumunda bu soruyu cevaplamıştır."
+  },
+  "İddet, evliliğin boşanma ya da ölümle sona ermesinden sonra kadının yeni bir evlilik yapamadan beklemesi gereken süredir. Amaçları rahmin boş olduğunun anlaşılması (neseplerin karışmaması), ric’î talakta barışma imkânı ve ölüm hâlinde yas ve vefadır. Zifaftan ve sahih halvetten önce boşanan kadına iddet gerekmez (Ahzâb 49).",
+  {
+   "tablo": [
+    [
+     "Kadının durumu",
+     "İddet süresi"
+    ],
+    [
+     "Boşanmış, hayız gören",
+     "Üç hayız (Hanefî); Şâfiî ve Mâlikîlere göre üç temizlik dönemi"
+    ],
+    [
+     "Boşanmış, hayız görmeyen (küçük ya da menopoz)",
+     "Üç ay"
+    ],
+    [
+     "Hamile (boşanma ya da ölüm)",
+     "Doğumla biter"
+    ],
+    [
+     "Kocası vefat etmiş, hamile değil",
+     "Dört ay on gün"
+    ],
+    [
+     "Zifaftan önce boşanmış",
+     "İddet yok"
+    ]
+   ]
+  },
+  "İddet bekleyen kadının nafakası ve barınması, ric’î ve bâin talakta kocaya aittir (Hanefî). Kocası vefat eden kadın iddet süresince süslenmekten kaçınır (ihdâd) ve zaruret olmadıkça evinden ayrılmaz. İddet içindeki bir kadınla evlenmek haramdır; ona açıkça evlenme teklif edilemez, ancak kocası vefat etmiş kadına kinayeyle niyet belirtilebilir (Bakara 235).",
+  {
+   "sinav": "İddet süreleri (üç hayız/üç kuru’ farkı, üç ay, dört ay on gün, doğum) ve zifaftan önce boşanmada iddet olmaması senaryolarla sorulur. Hanefî ile Şâfiî arasındaki “kuru’” (hayız mı, temizlik mi) farkı zor soru olarak gelir."
+  },
+  {
+   "akil": "Hayız gören boşanmış: 3 hayız (Hanefî) / 3 tuhr (Şâfiî). Hayız görmeyen: 3 ay. Hamile: doğum. Vefat (hamile değil): 4 ay 10 gün. Zifaftan önce: iddet yok."
+  },
+  {
+   "b": "4. Nafaka, nesep ve hidâne"
+  },
+  "Nafaka, yiyecek, giyecek ve barınma gibi temel ihtiyaçların karşılanmasıdır. Kocanın karısına nafaka vermesi, kadın zengin olsa da farzdır. Baba, küçük ve muhtaç çocuklarının; çocuklar da muhtaç anne ve babalarının nafakasını karşılamakla yükümlüdür. Diğer muhtaç yakınların nafakası Hanefîlere göre mirasçı olma sırasına göre mahrem akrabaya düşer.",
+  "Nesep, çocuğun anne ve babasına bağlanmasıdır. Evlilikten en az altı ay sonra doğan çocuk kocaya nispet edilir; bu süre Ahkāf 15 ve Lokmân 14 ayetlerinin birlikte değerlendirilmesinden çıkarılmıştır. Hanefîlere göre gebeliğin en uzun süresi iki yıldır. Hidâne, küçük çocuğun bakım ve terbiyesidir. Hidânede öncelik annenindir; anne yoksa ya da evlenme gibi sebeplerle hakkını kaybetmişse anneanne, babaanne, kız kardeş, teyze ve hala gelir. Hanefîlere göre erkek çocuk yaklaşık yedi yaşına, kız çocuk dokuz yaşına (ya da ergenliğe) kadar annede kalır; sonra velâyet ve terbiye babaya geçer.",
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Hanefî hükmü"
+    ],
+    [
+     "Eşin nafakası",
+     "Kocaya farz; kadın zengin olsa da"
+    ],
+    [
+     "Çocuğun nafakası",
+     "Babaya"
+    ],
+    [
+     "Muhtaç anne-babanın nafakası",
+     "Çocuklara"
+    ],
+    [
+     "Nesep için en az süre",
+     "Evlilikten itibaren 6 ay"
+    ],
+    [
+     "En uzun gebelik",
+     "2 yıl"
+    ],
+    [
+     "Hidâne",
+     "Önce anne; erkek ~7, kız ~9 yaşına kadar"
+    ]
+   ]
+  },
+  {
+   "akil": "Nafaka: eşe (farz), çocuğa (baba), muhtaç anne-babaya (çocuk). Nesep: en az 6 ay (Ahkāf 15 + Lokmân 14), en çok 2 yıl. Hidâne: anne önce; erkek 7, kız 9."
+  }
+ ],
+ "ozet": [
+  "Talak, evliliğin kocanın tek taraflı irade beyanıyla sona erdirilmesidir.",
+  "Sarih talakta niyet aranmaz; kinayeli talakta niyet gerekir.",
+  "Bir veya iki sarih talak ric’îdir; iddet içinde yeni nikâh olmadan dönülebilir.",
+  "Bâin-i sugrâda yeni nikâh ve mehirle dönülür; üçüncü talak bâin-i kübrâdır.",
+  "Bâin-i kübrâda kadın başka biriyle sahih evlilik yapıp ayrılmadıkça eski eşine dönemez.",
+  "Bid’î talak (hayızda veya tek sözle üç talak) Hanefîlere göre günahtır ama geçerlidir.",
+  "Hul’, kadının bedel karşılığında kocasının onayıyla ayrılmasıdır; Hanefîlere göre bâin talaktır.",
+  "Tefvîz, boşama yetkisinin kadına devredilmesidir.",
+  "Hanefîlerde tefrik sebepleri dar, Mâlikîlerde geniştir; 1917 Hukûk-ı Aile Kararnâmesi Mâlikî görüşünü almıştır.",
+  "Lian Nûr 6-9’a, ilâ Bakara 226-227’ye, zıhar Mücâdele 2-4’e dayanır.",
+  "Hayız gören boşanmış kadının iddeti Hanefîlere göre üç hayız, hayız görmeyenin üç aydır.",
+  "Hamile kadının iddeti doğumla, kocası vefat eden hamile olmayan kadının iddeti dört ay on günle biter.",
+  "Zifaftan önce boşanan kadına iddet gerekmez.",
+  "Evlilikten en az altı ay sonra doğan çocuk kocaya nispet edilir; hidânede öncelik annenindir."
+ ],
+ "kartlar": [
+  {
+   "o": "Ric’î talak",
+   "a": "Bir-iki sarih talak; iddet içinde nikâhsız dönüş."
+  },
+  {
+   "o": "Bâin-i sugrâ",
+   "a": "Yeni nikâh ve mehirle dönüş."
+  },
+  {
+   "o": "Bâin-i kübrâ",
+   "a": "Üç talak; başka sahih evlilik olmadan dönüş yok."
+  },
+  {
+   "o": "Bid’î talak",
+   "a": "Hayızda ya da tek sözle üç talak; Hanefî: günah ama geçerli."
+  },
+  {
+   "o": "Hul’",
+   "a": "Kadının bedel vererek kocanın onayıyla ayrılması; bâin."
+  },
+  {
+   "o": "Tefvîz",
+   "a": "Boşama yetkisinin kadına verilmesi."
+  },
+  {
+   "o": "Lian",
+   "a": "Zina suçlaması ve lanetleşme; ebedî ayrılık (Nûr 6-9)."
+  },
+  {
+   "o": "İlâ",
+   "a": "Dört ay yaklaşmama yemini (Bakara 226)."
+  },
+  {
+   "o": "Zıhar",
+   "a": "Eşi anneye benzetme; keffâret (Mücâdele 2-4)."
+  },
+  {
+   "o": "Hayız gören kadının iddeti",
+   "a": "Hanefî: üç hayız; Şâfiî: üç temizlik."
+  },
+  {
+   "o": "Vefat iddeti",
+   "a": "Dört ay on gün (hamile değilse)."
+  },
+  {
+   "o": "Zifaftan önce boşanma",
+   "a": "İddet yok (Ahzâb 49)."
+  },
+  {
+   "o": "Nesep için en az süre",
+   "a": "Altı ay."
+  },
+  {
+   "o": "Hidâne",
+   "a": "Çocuğun bakımı; öncelik annenin."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "fq17-01",
+   "z": 3,
+   "s": "Bir erkek eşini “Seni boşadım” diyerek bir kez boşamış, iddet süresi dolmadan da “Sana döndüm” diyerek evliliğe devam etmiştir. Bir başka erkek ise eşini aynı şekilde boşamış, ancak iddet süresi dolduktan sonra barışmak istemiştir.\n\nHanefî mezhebine göre bu iki durumla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "İki durumda da yeni nikâh gerekir.",
+    "İkinci durumda kadın başka biriyle evlenmedikçe dönülemez.",
+    "İki durumda da nikâhsız dönülebilir.",
+    "Birinci durumda yeni nikâh gerekir, ikinci durumda gerekmez.",
+    "Birinci durumda ric’at geçerlidir, yeni nikâh gerekmez; ikinci durumda talak bâin hâle geldiği için yeni nikâh ve mehir gerekir."
+   ],
+   "d": 4,
+   "a": "Ric’î talakta iddet içinde nikâhsız dönülebilir. İddet bitince talak bâin-i sugrâya dönüşür ve yeni nikâh ile mehir gerekir.",
+   "ac": [
+    "Birinci durumda yeni nikâh gerekmez.",
+    "Bu hüküm üçüncü talaka aittir.",
+    "İddet bitince nikâhsız dönülemez.",
+    "Durum terstir.",
+    "Doğru."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, III"
+  },
+  {
+   "id": "fq17-02",
+   "z": 3,
+   "s": "I. Hayız gören ve boşanmış bir kadın\nII. Kocası vefat etmiş ve hamile olmayan bir kadın\nIII. Zifaftan önce boşanmış bir kadın\nIV. Boşanmış ve hamile bir kadın\n\nHanefî mezhebine göre yukarıdaki kadınların iddet süreleri sırasıyla aşağıdakilerden hangisidir?",
+   "c": [
+    "Üç hayız – dört ay on gün – iddet yok – doğuma kadar",
+    "Üç ay – dört ay on gün – üç ay – doğuma kadar",
+    "Üç hayız – üç ay – iddet yok – dört ay on gün",
+    "Üç temizlik dönemi – dört ay on gün – üç hayız – doğuma kadar",
+    "Üç hayız – dört ay on gün – üç ay – üç hayız"
+   ],
+   "d": 0,
+   "a": "Hayız gören boşanmış kadın üç hayız, kocası vefat eden hamile olmayan kadın dört ay on gün bekler; zifaftan önce boşanana iddet yoktur; hamilenin iddeti doğumla biter.",
+   "ac": [
+    "Doğru.",
+    "Hayız gören kadının iddeti üç ay değildir; zifaftan önce iddet yoktur.",
+    "Vefat iddeti üç ay değildir; hamilenin iddeti doğumla biter.",
+    "Üç temizlik Şâfiî görüşüdür; zifaftan önce iddet yoktur.",
+    "Zifaftan önce iddet yoktur; hamilenin iddeti doğumla biter."
+   ],
+   "kay": "Bakara, 2/228, 234; Talâk, 65/4; Ahzâb, 33/49"
+  },
+  {
+   "id": "fq17-03",
+   "z": 3,
+   "s": "Kocası uzun süredir nafaka vermeyen ve ona zarar veren bir kadın, hâkime başvurarak boşanmak istemektedir.\n\nKlasik Hanefî ve Mâlikî görüşleri ile 1917 Hukûk-ı Aile Kararnâmesi açısından bu durumla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Klasik Hanefî görüşüne göre bu sebeplerle tefrik geniş biçimde kabul edilir.",
+    "1917 Kararnâmesi yalnız Hanefî görüşüne dayanır.",
+    "Hiçbir mezhep bu sebeplerle tefriki kabul etmez.",
+    "Klasik Hanefî görüşünde bu sebeplerle tefrik imkânı dardır; Mâlikîler kabul eder; 1917 Kararnâmesi Mâlikî görüşünü benimseyerek bu hakkı tanımıştır.",
+    "Kadın ancak hul’ yoluyla ayrılabilir; hâkim karar veremez."
+   ],
+   "d": 3,
+   "a": "Hanefîlerde tefrik sebepleri dardır. Mâlikîler nafaka vermeme ve zarar gibi sebeplerle tefriki kabul eder. 1917 Hukûk-ı Aile Kararnâmesi bu konuda Mâlikî görüşünü almıştır.",
+   "ac": [
+    "Klasik Hanefî görüşünde imkân dardır.",
+    "Kararname başka mezheplerden de görüş almıştır.",
+    "Mâlikîler kabul eder.",
+    "Doğru.",
+    "Mâlikî görüşüne göre hâkim karar verebilir."
+   ],
+   "kay": "DİA, “Hukûk-ı Âile Kararnâmesi” md."
+  },
+  {
+   "id": "fq17-04",
+   "z": 2,
+   "s": "Kadının bir bedel karşılığında kocasının onayıyla evliliğini sona erdirmesine ne ad verilir ve Hanefîlere göre hükmü nedir?",
+   "c": [
+    "Tefvîz – ric’î talak",
+    "Lian – ebedî ayrılık",
+    "Hul’ – bâin talak",
+    "İlâ – ric’î talak",
+    "Zıhar – keffâret"
+   ],
+   "d": 2,
+   "a": "Hul’, kadının bedel vererek kocanın onayıyla ayrılmasıdır; Hanefîlere göre bâin talak hükmündedir.",
+   "ac": [
+    "Tefvîz boşama yetkisinin kadına verilmesidir.",
+    "Lian karşılıklı lanetleşmedir.",
+    "Doğru.",
+    "İlâ yaklaşmama yeminidir.",
+    "Zıhar eşi anneye benzetmedir."
+   ],
+   "kay": "Bakara, 2/229"
+  },
+  {
+   "id": "fq17-05",
+   "z": 3,
+   "s": "Bir erkek, eşine dört ay boyunca yaklaşmayacağına yemin etmiş ve bu süre içinde yeminini bozup eşine dönmemiştir.\n\nHanefî mezhebine göre bu durumun sonucu aşağıdakilerden hangisidir?",
+   "c": [
+    "Evlilik devam eder; yalnız yemin keffâreti gerekir.",
+    "Dört ayın sonunda kendiliğinden bir bâin talak gerçekleşir.",
+    "Hâkim kocayı hapse atar.",
+    "Kadın lian yapmalıdır.",
+    "Koca zıhar keffâreti öder."
+   ],
+   "d": 1,
+   "a": "Bu durum ilâdır. Hanefîlere göre dört ay içinde dönülmezse süre sonunda kendiliğinden bir bâin talak gerçekleşir. Süre içinde dönerse yemin keffâreti öder.",
+   "ac": [
+    "Dört ay içinde dönülmediği için talak gerçekleşir.",
+    "Doğru.",
+    "Böyle bir hüküm yoktur.",
+    "Lian zina suçlamasıyla ilgilidir.",
+    "Zıhar farklı bir durumdur."
+   ],
+   "kay": "Bakara, 2/226-227; Mevsılî, el-İhtiyâr, III"
+  },
+  {
+   "id": "fq17-06",
+   "z": 2,
+   "s": "Evlilik akdinden itibaren en az ne kadar süre sonra doğan çocuk kocaya nispet edilir ve bu süre hangi ayetlerin birlikte değerlendirilmesinden çıkarılmıştır?",
+   "c": [
+    "Altı ay – Ahkāf 15 ve Lokmân 14",
+    "Dokuz ay – Bakara 228 ve Talâk 4",
+    "Dört ay – Bakara 226 ve Nûr 6",
+    "Bir yıl – Nisâ 23 ve Mâide 5",
+    "İki yıl – Bakara 233 ve Lokmân 14"
+   ],
+   "d": 0,
+   "a": "Ahkāf 15’te hamilelik ve sütten kesme süresi otuz ay, Lokmân 14’te sütten kesme iki yıl olarak bildirildiği için en kısa gebelik süresi altı ay olarak çıkarılmıştır.",
+   "ac": [
+    "Doğru.",
+    "En az süre dokuz ay değildir.",
+    "Dört ay ilâ süresidir.",
+    "Bu ayetler nesep süresiyle ilgili değildir.",
+    "İki yıl Hanefîlere göre en uzun gebelik süresidir."
+   ],
+   "kay": "Ahkāf, 46/15; Lokmân, 31/14"
+  },
+  {
+   "id": "fq17-07",
+   "z": 3,
+   "s": "Bir erkek eşini tek bir mecliste “Seni üç talakla boşadım” diyerek boşamıştır.\n\nBu talakla ilgili aşağıdaki değerlendirmelerden hangisi doğrudur?",
+   "c": [
+    "Hanefîlere göre sünnî talaktır.",
+    "Bütün âlimlere göre geçersizdir.",
+    "Bütün âlimlere göre tek talaktır.",
+    "Hanefîlere ve cumhura göre bid’î ve günahtır, ancak üç talak olarak geçerlidir; İbn Teymiyye ve İbn Kayyim ise bunu bir talak saymıştır.",
+    "Yalnız hâkim kararıyla geçerli olur."
+   ],
+   "d": 3,
+   "a": "Tek sözle üç talak bid’îdir. Hanefîler ve cumhur günah olmakla birlikte üç talak olarak geçerli sayar; İbn Teymiyye ve İbn Kayyim bir talak kabul eder.",
+   "ac": [
+    "Bid’î talaktır.",
+    "Cumhura göre geçerlidir.",
+    "Cumhura göre üç talaktır.",
+    "Doğru.",
+    "Talak için hâkim kararı şart değildir."
+   ],
+   "kay": "İbn Kayyim, İ’lâmü’l-muvakkıîn"
+  },
+  {
+   "id": "fq17-08",
+   "z": 2,
+   "s": "Hanefî mezhebine göre küçük çocuğun bakım ve terbiyesi (hidâne) hakkında öncelikli olan kişi aşağıdakilerden hangisidir?",
+   "c": [
+    "Baba",
+    "Babaanne",
+    "Anne",
+    "Amca",
+    "Dede"
+   ],
+   "d": 2,
+   "a": "Hidânede öncelik annenindir; anne yoksa ya da hakkını kaybetmişse anneanne, babaanne ve diğer kadın akrabalar gelir.",
+   "ac": [
+    "Baba velâyette önceliklidir; hidânede anne öndedir.",
+    "Anneden sonra gelir.",
+    "Doğru.",
+    "Hidânede kadın akrabalar önceliklidir.",
+    "Hidânede anne önceliklidir."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, IV"
+  },
+  {
+   "id": "fq17-09",
+   "z": 3,
+   "s": "I. Kocası vefat etmiş kadın iddet süresince süslenmekten kaçınır.\nII. İddet bekleyen kadına açıkça evlenme teklif edilebilir.\nIII. Hanefîlere göre ric’î talakta iddet nafakası kocaya aittir.\nIV. İddet içindeki kadınla evlenmek haramdır.\n\nYukarıdaki bilgilerden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I, III ve IV",
+    "II, III ve IV",
+    "I, II ve III",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "İddet bekleyen kadına açıkça evlenme teklif edilemez; kocası vefat eden kadına ancak kinayeyle niyet belirtilebilir (Bakara 235).",
+   "ac": [
+    "İkinci bilgi yanlıştır; üçüncü ve dördüncü bilgi doğrudur.",
+    "Doğru.",
+    "İkinci bilgi yanlıştır.",
+    "İkinci bilgi yanlıştır.",
+    "İkinci bilgi yanlıştır."
+   ],
+   "kay": "Bakara, 2/235"
+  },
+  {
+   "id": "f9-01",
+   "z": 1,
+   "s": "Kocası vefat eden ve hamile olmayan bir kadının iddeti ne kadardır?",
+   "c": [
+    "İddet beklemez",
+    "Üç ay",
+    "Üç hayız",
+    "Bir yıl",
+    "4 ay 10 gün"
+   ],
+   "d": 4,
+   "a": "Kocası ölen ve hamile olmayan kadının iddeti dört ay on gündür (Bakara, 2/234).",
+   "ac": [
+    "Ölümde iddet gerekir.",
+    "Hayız görmeyen boşanmış kadının iddetidir.",
+    "Boşanmış, hayız gören kadının iddetidir.",
+    "Böyle bir iddet yoktur.",
+    "Doğru."
+   ],
+   "kay": "Bakara, 2/234"
+  },
+  {
+   "id": "f9-03",
+   "z": 1,
+   "s": "Kadının bir bedel karşılığında kocasının onayıyla evliliğini sona erdirmesine ne ad verilir?",
+   "c": [
+    "Hul’",
+    "Îlâ",
+    "Tefrik",
+    "Liân",
+    "Zıhar"
+   ],
+   "d": 0,
+   "a": "Kadının bedel vererek boşanmayı sağlamasına hul’ denir (Bakara, 2/229).",
+   "ac": [
+    "Doğru.",
+    "Îlâ yaklaşmama yeminidir.",
+    "Tefrik hâkim kararıyla ayrılıktır.",
+    "Liân karşılıklı yeminleşmedir.",
+    "Zıhar eşi anneye benzetmektir."
+   ],
+   "kay": "Bakara, 2/229"
+  },
+  {
+   "id": "f9-06",
+   "z": 2,
+   "s": "Üç talakla boşanmış bir kadının eski kocasıyla yeniden evlenebilmesi için ne gerekir?",
+   "c": [
+    "Hâkim kararı gerekir.",
+    "Yeni bir nikâh ve mehir yeterlidir.",
+    "İddetin bitmesi yeterlidir.",
+    "Başka biriyle evlenip bu evliliğin sona ermesi ve iddetin bitmesi gerekir.",
+    "Hiçbir şekilde evlenemezler."
+   ],
+   "d": 3,
+   "a": "Büyük ayrılıkta (üç talak) kadın başka biriyle sahih bir evlilik yapıp bu evlilik sona ermedikçe eski kocasıyla evlenemez (Bakara, 2/230).",
+   "ac": [
+    "Hâkim kararı değil, ayetteki şart gerekir.",
+    "Bu küçük ayrılığın hükmüdür.",
+    "Ric’î talakta dönüş iddet içindedir; burada yetmez.",
+    "Doğru.",
+    "Şart gerçekleşirse evlenebilirler."
+   ],
+   "kay": "Bakara, 2/230"
+  },
+  {
+   "id": "f9-15",
+   "z": 2,
+   "s": "Boşanmış ve hayız gören, hamile olmayan bir kadının Hanefî mezhebine göre iddeti nedir?",
+   "c": [
+    "Üç ay",
+    "Üç hayız (üç kur’)",
+    "Dört ay on gün",
+    "Bir hayız",
+    "Doğuma kadar"
+   ],
+   "d": 1,
+   "a": "Şâfiîler kur’ kelimesini temizlik dönemi (tuhr) olarak anlar.",
+   "ac": [
+    "Hayız görmeyen kadının iddetidir.",
+    "Hanefîlerde kur’ hayız anlamındadır.",
+    "Kocası ölen kadının iddetidir.",
+    "Bu istibrâ süresidir.",
+    "Hamile kadının iddetidir."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f9-16",
+   "z": 2,
+   "s": "Kocanın boşamasından sonra iddet içinde yeni bir nikâh ve mehre gerek olmaksızın evliliğe dönebildiği boşama türü hangisidir?",
+   "c": [
+    "Li‘ân",
+    "Bâin talak (beynûnet-i suğrâ)",
+    "Bâin talak (beynûnet-i kübrâ)",
+    "Hul‘",
+    "Ric‘î talak"
+   ],
+   "d": 4,
+   "a": "Bir veya iki açık sözle yapılan boşama ric‘îdir.",
+   "ac": [
+    "Ebedî ayrılık doğurur (Hanefîlerde tartışmalıdır).",
+    "Yeni nikâh ve mehir gerekir.",
+    "Hülle olmadan dönülemez.",
+    "Bâin talak hükmündedir.",
+    "İddet içinde ric‘at (dönüş) mümkündür."
+   ],
+   "kay": "Hanefî fıkhı"
+  }
+ ]
+}

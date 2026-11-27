@@ -1,0 +1,1044 @@
+{
+ "id": "tefsir-2",
+ "ad": "Esbâb-ı Nüzûl; Nâsih ve Mensûh",
+ "ders": "Tefsir",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Esbâb-ı nüzûl: Ayetler hangi olaylarla indi?"
+  },
+  {
+   "merak": "Medine’de bir kadın, Havle bint Sa’lebe, kocası ona “Sen bana annemin sırtı gibisin” deyince Hz. Peygamber’e koştu. Cahiliye âdetine göre bu söz boşanma sayılıyordu. Kadın derdini anlatırken Allah’a da yalvarıyordu. O daha oradayken vahiy geldi: “Allah, eşi hakkında seninle tartışan ve Allah’a şikâyette bulunan kadının sözünü işitti…” Bir surenin adı bile bu olaydan doğdu: Mücâdele (tartışan kadın)."
+  },
+  "Esbâb-ı nüzûl, “iniş sebepleri” demektir; tekili sebeb-i nüzûldür. Terim olarak sebeb-i nüzûl, bir veya birkaç ayetin, meydana geldiği günlerde onu konu edinerek ya da hükmünü bildirerek inmesine vesile olan olay veya sorudur. Tanımdaki “meydana geldiği günlerde” kaydı önemlidir: Ebrehe’nin Kâbe’ye saldırısı Fîl suresinde anlatılır ama sebeb-i nüzûl değildir; çünkü olay surenin inişinden yıllar önce olmuştur. Bu tür geçmiş olaylar kıssa kapsamındadır.",
+  "Kur’an ayetleri iniş bakımından ikiye ayrılır. Ayetlerin büyük çoğunluğu herhangi bir özel olay ya da soru olmadan, doğrudan hidayet, öğüt, iman esasları, kıssalar ve ahiret haberleri için inmiştir; bunlara ibtidâen (başlangıç olarak) inen ayetler denir. Daha az bir kısım ise belirli bir olay ya da soru üzerine inmiştir. Esbâb-ı nüzûl ilmi bu ikinci gruptaki ayetleri inceler.",
+  {
+   "tablo": [
+    [
+     "Sebep türü",
+     "Açıklama",
+     "Örnek"
+    ],
+    [
+     "Bir olay",
+     "Toplumda yaşanan bir hadise üzerine ayet iner",
+     "İfk olayı → Nûr 24/11-26; Havle bint Sa’lebe → Mücâdele 58/1-4; Mescid-i Dırâr → Tevbe 9/107-110"
+    ],
+    [
+     "Hz. Peygamber’e sorulan soru",
+     "“Yes’elûneke” (Sana soruyorlar) kalıbıyla gelen ayetler",
+     "Hilaller → Bakara 2/189; haram ayda savaş → Bakara 2/217; içki ve kumar → Bakara 2/219; ruh → İsrâ 17/85; Zülkarneyn → Kehf 18/83; kıyamet → A’râf 7/187"
+    ],
+    [
+     "Hz. Peygamber’in bir tutumu",
+     "Peygamber’in bir tercihi üzerine uyarı veya yönlendirme",
+     "İbn Ümmü Mektûm’dan yüz çevirme → Abese 80/1-10; helali kendine yasaklama → Tahrîm 66/1"
+    ],
+    [
+     "Sahabenin bir sözü veya dileği",
+     "Bir sahabinin isteğine uygun vahiy",
+     "Hz. Ömer’in Makām-ı İbrâhim’i namazgâh edinme isteği → Bakara 2/125"
+    ]
+   ]
+  },
+  "Esbâb-ı nüzûl ile ilgili en çok sorulan olay-ayet eşleştirmelerini bir arada görelim. Bu tablo MBSTS’de neredeyse her yıl bir soru kaynağı olmuştur:",
+  {
+   "tablo": [
+    [
+     "Olay",
+     "Ayet",
+     "Not"
+    ],
+    [
+     "Batn-ı Nahle seriyyesi (haram ayda çatışma)",
+     "Bakara 2/217",
+     "“O ayda savaş büyük günahtır; ama Allah yolundan alıkoymak daha büyüktür”"
+    ],
+    [
+     "Uhud’da okçuların yerini terk etmesi",
+     "Âl-i İmrân 3/152",
+     "“Emir konusunda tartıştınız ve isyan ettiniz”"
+    ],
+    [
+     "Bedir esirlerinden fidye alınması",
+     "Enfâl 8/67-69",
+     "Fidye tercihine uyarı"
+    ],
+    [
+     "Tebük’e katılmayan üç sahabinin tövbesi (Kâ’b b. Mâlik, Mürâre b. Rebî’, Hilâl b. Ümeyye)",
+     "Tevbe 9/118",
+     "Yeryüzü onlara dar gelmişti"
+    ],
+    [
+     "Tebük’e katılmamak için izin isteyenlere izin verilmesi",
+     "Tevbe 9/43",
+     "“Allah seni affetsin, niçin onlara izin verdin?”"
+    ],
+    [
+     "Münafıkların Mescid-i Dırâr’ı",
+     "Tevbe 9/107",
+     "Karşısındaki takva mescidi: Kuba (9/108)"
+    ],
+    [
+     "İfk (Hz. Âişe’ye iftira)",
+     "Nûr 24/11-26",
+     "Kış günü indiği rivayet edilir (şitâî)"
+    ],
+    [
+     "Hilâl b. Ümeyye ve Uveymir el-Aclânî’nin eşlerini zina ile itham etmesi",
+     "Nûr 24/6-9",
+     "Liân ayetleri"
+    ],
+    [
+     "Temîmoğulları heyetinin sesini yükseltmesi",
+     "Hucurât 49/2-5",
+     "“Odaların arkasından seslenenler”"
+    ],
+    [
+     "Ebû Tâlib’in iman etmeden vefatı",
+     "Kasas 28/56",
+     "“Sen sevdiğini hidayete erdiremezsin”"
+    ],
+    [
+     "Hudeybiye sonrası Mekke’den kaçan mümin kadınlar",
+     "Mümtehine 60/10",
+     "İmtihan edilmeleri, geri gönderilmemeleri"
+    ],
+    [
+     "Velîd b. Muğîre’nin Kur’an için “sihir” demesi",
+     "Müddessir 74/11-25",
+     "“Tek olarak yarattığımı bana bırak”"
+    ],
+    [
+     "Âs b. Vâil’in Hz. Peygamber’e “ebter” demesi",
+     "Kevser 108/3",
+     "“Asıl soyu kesik olan sana buğzedendir”"
+    ],
+    [
+     "Ebû Leheb’in Safâ’daki davette “Helak ol!” demesi",
+     "Tebbet 111",
+     "Sure adını olaydan alır"
+    ],
+    [
+     "Zeyd b. Hârise’nin boşadığı Zeyneb bint Cahş ile evlilik",
+     "Ahzâb 33/37",
+     "Evlatlığın eşi meselesi"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Aşağıdakilerden hangisi sebeb-i nüzûl kapsamında değerlendirilemez?” sorusunda, Kur’an’da doğrudan ayete konu olmamış ya da surenin inişinden önce olmuş bir olay aranır. Örneğin Habeşistan hicreti doğrudan bir ayetin iniş sebebi olarak bilinmez; Fîl olayı ise kıssadır, sebeb-i nüzûl değildir. Sure adını olaydan alan sureler: Mücâdele, Mümtehine, Tebbet, Abese, Tahrîm, Nasr gibi."
+  },
+  {
+   "akil": "Sebeb-i nüzûl = ayetin, meydana geldiği günlerde onu konu edinerek inmesine vesile olan olay veya soru. Ayetlerin çoğu sebepsiz (ibtidâen) inmiştir. Geçmiş olaylar (Fîl) kıssadır, sebep değildir."
+  },
+  {
+   "b": "2. Sebep ifadeleri, birden fazla sebep ve “lafzın umumu” kuralı"
+  },
+  {
+   "merak": "Bir rivayette “Bu ayet şu konuda indi” denir, başka bir rivayette “Şu oldu, bunun üzerine ayet indi” denir. Sizce ikisi aynı kuvvette midir? Usulcüler, tek bir edatın, “fâ” harfinin bile farkı değiştirdiğini söyler."
+  },
+  "Esbâb-ı nüzûl bilgisi yalnızca nakille öğrenilir; akılla ya da tahminle sebep uydurulamaz. Vâhidî, kitabının girişinde sebeplerin ancak inişe şahit olanlardan rivayet ve işitme yoluyla bilinebileceğini vurgular. Rivayetlerde sebep farklı ifadelerle bildirilir:",
+  {
+   "tablo": [
+    [
+     "İfade (sîga)",
+     "Kuvveti",
+     "Açıklama"
+    ],
+    [
+     "“Bu ayetin iniş sebebi şudur”",
+     "Sarih (açık)",
+     "Doğrudan sebep bildirir"
+    ],
+    [
+     "Bir olay anlatılıp “fe-nezelet” (bunun üzerine indi) denmesi",
+     "Sarih",
+     "Takip bildiren “fâ” edatı olayla iniş arasındaki bağı açıkça gösterir"
+    ],
+    [
+     "Hz. Peygamber’e soru sorulup cevabın ayetle gelmesi",
+     "Sarih",
+     "Soru-cevap ilişkisi açıktır"
+    ],
+    [
+     "“Bu ayet şu konuda indi” (nezelet fî kezâ)",
+     "Muhtemel",
+     "Sebep olabileceği gibi ayetin kapsadığı hükmü, konuyu anlatmak da olabilir; sahabe ve tâbiûn bu ifadeyi tefsir anlamında da kullanır"
+    ],
+    [
+     "“Bu ayetin şu konuda indiğini zannediyorum”",
+     "Muhtemel",
+     "Kesinlik bildirmez"
+    ]
+   ]
+  },
+  "Bir ayet için birden fazla sebep rivayeti gelebilir (taaddüdü’l-esbâb). Usulcüler bu durumda şu yolu izler: Rivayetlerden biri sahih, diğeri zayıfsa sahih olan alınır. İkisi de sahihse ve biri tercih sebebine sahipse (ravi olaya şahitse, senedi daha kuvvetliyse) o tercih edilir. İkisi de eşit ve olaylar zamanca birbirine yakınsa, ayetin her iki olay üzerine indiği kabul edilir. Liân ayetlerinin (Nûr 24/6-9) hem Hilâl b. Ümeyye hem Uveymir el-Aclânî olayıyla ilişkilendirilmesi bunun örneğidir. Olaylar arasında uzun zaman varsa ayetin birden fazla kez indiği (nüzulün tekerrürü) söylenir; Fâtiha’nın hem Mekke’de hem Medine’de indiğine dair görüş buna örnek gösterilir.",
+  "Tersi de olur: Tek bir sebep birden fazla ayetin inmesine vesile olabilir. Ümmü Seleme’nin “Ey Allah’ın Resulü, Allah’ın hicrette kadınlardan söz ettiğini duymuyoruz” demesi üzerine Âl-i İmrân 3/195, Nisâ 4/32 ve Ahzâb 33/35 ayetlerinin indiği nakledilir. Ahzâb 35, erkek ve kadın müminleri on sıfatla yan yana anar.",
+  {
+   "madde": "el-İbretü bi-umûmi’l-lafz lâ bi-husûsi’s-sebeb: İtibar, lafzın genelliğinedir; sebebin özel oluşuna değildir.",
+   "kay": "Tefsir ve fıkıh usulü kaidesi (cumhurun görüşü)"
+  },
+  "Bu kural esbâb-ı nüzûl konusunun belkemiğidir. Bir ayet belirli bir kişinin olayı üzerine inse de lafzı genelse hükmü benzer durumdaki herkesi kapsar. Zıhar ayetleri Havle’nin kocası Evs b. Sâmit için indi; ama zıhar yapan her Müslüman aynı hükme tabidir. Liân ayetleri Hilâl b. Ümeyye için indi; ama eşini zina ile itham eden her koca için geçerlidir. Az sayıda âlim ise hükmün sebebe özel olduğunu, diğerlerine kıyasla geçirileceğini söylemiştir. Sonuç pratikte çoğu zaman aynıdır. Lafzın kendisi özel bir kişiye yönelikse (ör. Hz. Peygamber’e özgü hükümler) bu kural uygulanmaz.",
+  {
+   "sinav": "“Ayetin hükmü yalnızca indiği olaydaki kişilerle sınırlıdır” şeklindeki şık kuralın tersidir; çeldirici olarak sık gelir. “Nezelet fî” ifadesi her zaman sebep bildirmez; “fe-nezelet” ise sarihtir. Liân ayetleri birden fazla sebebin tek ayete bağlanmasına, Ümmü Seleme rivayeti tek sebebin birden fazla ayete bağlanmasına örnektir."
+  },
+  {
+   "akil": "Sebep yalnız nakille bilinir. “Fe-nezelet” sarih, “nezelet fî” muhtemel. Çok sebep–tek ayet: liân. Tek sebep–çok ayet: Ümmü Seleme rivayeti. Kural: itibar lafzın umumunadır, sebebin hususuna değil."
+  },
+  {
+   "b": "3. Esbâb-ı nüzûlü bilmenin faydaları, tedrîc ve literatür"
+  },
+  {
+   "merak": "Hz. Âişe’nin yeğeni Urve b. Zübeyr bir gün teyzesine şaşkınlıkla sordu: “Safâ ile Merve arasında sa’y etmeyene günah yok, öyle mi? Ayet ‘lâ cünâha’ (bir sakıncası yoktur) diyor!” Hz. Âişe güldü: “Yeğenim, ne kötü anladın!” Sonra ayetin neden öyle indiğini anlattı."
+  },
+  "Bakara 2/158’de “Safâ ile Merve Allah’ın nişanlarındandır; hac ya da umre yapan kişinin onları tavaf etmesinde bir sakınca yoktur” buyrulur. Urve ifadeden sa’yin zorunlu olmadığı sonucunu çıkarmıştı. Hz. Âişe, Ensar’ın Cahiliye döneminde Safâ ve Merve üzerindeki putlar yüzünden sa’y etmekten çekindiğini, ayetin bu çekinceyi gidermek için “sakınca yoktur” dediğini açıkladı. Sebep bilinince anlam düzeldi.",
+  {
+   "hadis": "Urve’nin ayeti sa’yin zorunlu olmadığı şeklinde anlaması üzerine Hz. Âişe: “Eğer senin dediğin gibi olsaydı ayet ‘onları tavaf etmemesinde sakınca yoktur’ derdi” buyurdu ve ayetin iniş sebebini anlattı.",
+   "kay": "Buhârî, Hac, 79; Müslim, Hac"
+  },
+  {
+   "tablo": [
+    [
+     "Fayda",
+     "Örnek"
+    ],
+    [
+     "Ayetin doğru anlaşılması, yanlış anlamanın önlenmesi",
+     "Bakara 158 (Urve – Hz. Âişe); Mâide 5/93’ü yanlış anlayarak içkiyi helal sanan Kudâme b. Maz’ûn’a Hz. Ömer’in itirazı"
+    ],
+    [
+     "Hükmün hikmetini ve gayesini kavramak",
+     "Tedrîcî yasaklarda (içki, faiz) toplumun durumunun gözetildiğini görmek"
+    ],
+    [
+     "Mübhem kişi veya grubu belirlemek",
+     "Kevser 3’teki “sana buğzeden” → Âs b. Vâil; Müddessir 11’deki kişi → Velîd b. Muğîre"
+    ],
+    [
+     "Hükmün sınırını ve kapsamını belirlemek",
+     "Bakara 2/115 “Nereye dönerseniz Allah’ın yüzü oradadır”ın yolculukta binek üzerinde nafile namaz ya da kıblenin bilinemediği durumla ilgili rivayetleri"
+    ],
+    [
+     "Ezberi ve kavrayışı kolaylaştırmak",
+     "Olayla birlikte öğrenilen ayet akılda kalır"
+    ],
+    [
+     "Hükmün sebebe dahil olan kişiyi mutlaka kapsadığını bilmek",
+     "Sebep olan kişi, hükmün kapsamından tahsisle bile çıkarılamaz"
+    ]
+   ]
+  },
+  "Esbâb-ı nüzûl, Kur’an’daki tedrîc (aşamalılık) ilkesini de görünür kılar. İçki ve faiz yasakları tek seferde değil, toplumun alışkanlıkları gözetilerek aşamalı biçimde gelmiştir. Namaz, oruç, hac gibi ibadetler ve hırsızlık, büyücülük gibi yasaklar ise tek seferde konmuştur.",
+  {
+   "tablo": [
+    [
+     "Aşama",
+     "İçki",
+     "Faiz"
+    ],
+    [
+     "1",
+     "Nahl 16/67: Hurmadan hem sarhoşluk veren içki hem güzel rızık edinilir (Mekkî; övgü yok, ayrım var)",
+     "Rûm 30/39: Faiz Allah katında artmaz (Mekkî)"
+    ],
+    [
+     "2",
+     "Bakara 2/219: İçki ve kumarda büyük günah da fayda da vardır; günahı faydasından büyüktür",
+     "Nisâ 4/161: Yahudilerin faiz alması kınanır"
+    ],
+    [
+     "3",
+     "Nisâ 4/43: Sarhoşken namaza yaklaşmayın",
+     "Âl-i İmrân 3/130: Kat kat artırılmış faizi yemeyin"
+    ],
+    [
+     "4",
+     "Mâide 5/90-91: İçki, kumar, dikili taşlar ve fal okları şeytan işi pisliktir; kaçının",
+     "Bakara 2/275-279: Allah alışverişi helal, faizi haram kıldı; Bakara 278 kesin yasak"
+    ]
+   ]
+  },
+  "Esbâb-ı nüzûl, Mekkî-Medenî ayrımıyla da yakından ilgilidir. Kur’an Bilgisi dersinde ayrıntısıyla gördüğünüz gibi en yaygın ölçüt zamandır: Hicretten önce inenler Mekkî, sonra inenler Medenîdir. Mekkî ayetlerde tevhid, ahiret, peygamber kıssaları, Âdem ve İblis kıssası, “Yâ eyyühe’n-nâs” hitabı ve “kellâ” kelimesi öne çıkar; Medenî ayetlerde ise cihad, hudud, miras, aile hukuku, münafıklar ve ehl-i kitapla tartışma, “Yâ eyyühellezîne âmenû” hitabı ağırlıktadır. Usulcüler vahyin iniş anındaki hallerini de ayrı ayrı adlandırmıştır:",
+  {
+   "tablo": [
+    [
+     "Terim",
+     "Anlamı",
+     "Örnek"
+    ],
+    [
+     "Hadarî – seferî",
+     "Yerleşik iken – yolculukta inen",
+     "Nisâ 4/176 Vedâ haccı yolculuğunda (seferî)"
+    ],
+    [
+     "Nehârî – leylî",
+     "Gündüz – gece inen",
+     "Ayetlerin çoğu nehârî; Tevbe 9/118 gecenin son üçte birinde (leylî)"
+    ],
+    [
+     "Sayfî – şitâî",
+     "Yazın – kışın inen",
+     "Nisâ 176 yazın; Nûr 24/11-26 (ifk) soğuk bir günde"
+    ],
+    [
+     "Firâşî",
+     "Hz. Peygamber yatağındayken inen",
+     "Mâide 5/67 (“Allah seni insanlardan korur”); Ümmü Seleme’nin yanında iken inen ayetler"
+    ],
+    [
+     "Arzî – semâî",
+     "Yeryüzünde – gökte inen",
+     "Bakara 2/285-286’nın Mi’rac’da indiği rivayeti (tartışmalı)"
+    ]
+   ]
+  },
+  "Esbâb-ı nüzûl literatürünün en önemli eserleri şunlardır: Bu alanda ilk eseri Buhârî’nin hocası Ali b. el-Medînî’nin (ö. 234/849) yazdığı nakledilir; ancak günümüze ulaşmamıştır. En meşhur ve en çok kullanılan eser Ebü’l-Hasen el-Vâhidî’nin (ö. 468/1076) Esbâbü’n-nüzûl’üdür. İbn Hacer el-Askalânî’nin el-Ucâb fî beyâni’l-esbâb’ı tamamlanmamıştır. Süyûtî’nin Lübâbü’n-nukûl fî esbâbi’n-nüzûl’ü Vâhidî’nin eserini sadeleştirip ekler yapmıştır.",
+  {
+   "not": "Modern dönemde Fazlurrahman’ın “çift hareket” yöntemi, önce ayetin indiği tarihî ve sosyal bağlama gidip ayetin amacını bulmayı, sonra bu genel ilkeyi bugüne taşımayı önerir. Bu yöntemin ilk aşamasında en çok ihtiyaç duyulan Kur’an ilmi esbâb-ı nüzûldür. ÖSYM bu bağlantıyı sormuştur."
+  },
+  {
+   "sinav": "Eser-müellif: Esbâbü’n-nüzûl – Vâhidî; Lübâbü’n-nukûl – Süyûtî; el-Ucâb – İbn Hacer. Tedrîc sorusunda “benzer aşamalı yasak” aranırsa cevap içkidir (faizle birlikte); domuz eti, hırsızlık, iftira, büyü tek seferde yasaklanmıştır."
+  },
+  {
+   "akil": "Faydalar: doğru anlama (Urve-Âişe, Bakara 158), hikmet, mübhemi belirleme, kapsamı bilme. Tedrîc: içki 4 aşama (Nahl 67, Bakara 219, Nisâ 43, Mâide 90), faiz 4 aşama (Rûm 39, Nisâ 161, Âl-i İmrân 130, Bakara 275-279). Eserler: Vâhidî, Süyûtî (Lübâb), İbn Hacer (Ucâb)."
+  },
+  {
+   "b": "4. Nesih nedir? Tanım, deliller ve şartlar"
+  },
+  {
+   "merak": "Kûfe mescidinde halka vaaz eden birini gören Hz. Ali sordu: “Nâsihi mensuhtan ayırabiliyor musun?” Adam “Hayır” deyince Hz. Ali şöyle dedi: “Hem kendin helak oldun, hem başkalarını helak ettin!” Nesih bilgisi, kürsüye çıkmanın ön şartı sayılıyordu."
+  },
+  "Nesih sözlükte iki temel anlam taşır: İzâle (gidermek, ortadan kaldırmak; “güneş gölgeyi giderdi” anlamında nesahati’ş-şemsü’z-zılle) ve nakil (bir yerden başka yere aktarmak, kitabı kopyalamak; istinsah bu anlamdandır). Terim olarak nesih, şer’î bir hükmün, sonradan gelen şer’î bir delille kaldırılmasıdır. Kaldıran delile nâsih, kaldırılan hükme mensûh denir; hükmü kaldırılan kişilere de mensûhun anh (mükellefler) denir. Nesihte hükmü kaldıran gerçekte Allah’tır; ayet veya hadis bu iradeyi bildiren delildir.",
+  {
+   "ayet": "Biz herhangi bir ayetin hükmünü kaldırır veya onu unutturursak, ondan daha hayırlısını veya benzerini getiririz. Allah’ın her şeye kadir olduğunu bilmez misin?",
+   "kay": "Bakara, 2/106"
+  },
+  "Neshi kabul edenler Bakara 2/106’nın yanında Nahl 16/101 (“Bir ayeti başka bir ayetin yerine getirdiğimizde…”) ve Ra’d 13/39 (“Allah dilediğini siler, dilediğini sabit bırakır; Ümmü’l-kitap O’nun katındadır”) ayetlerini delil getirir. Ayrıca sahabeden gelen nesih rivayetlerini, âlimlerin büyük çoğunluğunun neshi kabul etmesini ve neshin aklen mümkün olmasını gösterirler: Bir doktor hastasına iyileştikçe ilacını değiştirir; Allah da kullarının maslahatına göre hükmü değiştirir.",
+  "Neshi Kur’an içinde kabul etmeyen en tanınmış isim Mu’tezilî müfessir Ebû Müslim el-İsfahânî’dir (ö. 322/934). O, Fussilet 41/42’deki “Bâtıl ona ne önünden ne arkasından gelebilir” ayetini delil getirmiş; Bakara 106’daki “ayet” kelimesini önceki şeriatlerin hükümleri ya da mucize olarak anlamış, nesih denilen örnekleri tahsis ya da tahsis benzeri yorumlarla açıklamıştır. Yahudiler ise neshi, Allah’ın önce bilmediği bir şeyi sonradan öğrenmesi (bedâ) anlamına geleceği gerekçesiyle reddetmiştir. Âlimler neshin bedâ olmadığını söyler: Allah hükmün ne kadar süreceğini baştan bilir; nesih, süresi dolan hükmün bitişini bildirmektir.",
+  {
+   "tablo": [
+    [
+     "",
+     "Nesih",
+     "Bedâ"
+    ],
+    [
+     "Anlam",
+     "Süresi Allah katında belli olan hükmün sona erdiğini bildirmek",
+     "Önce bilinmeyen bir şeyin sonradan ortaya çıkması, görüş değiştirme"
+    ],
+    [
+     "Allah’a nispeti",
+     "Caiz; ilmine bir eksiklik getirmez",
+     "Caiz değil; Allah’ın ilmini sınırlamak olur"
+    ],
+    [
+     "Kabul edenler",
+     "Ehl-i sünnet ve çoğunluk",
+     "Şîa’nın bazı kolları bedâ kavramını kullanmıştır; Yahudiler neshi bedâ sayıp reddetmiştir"
+    ]
+   ]
+  },
+  "Neshin gerçekleşmesi için şu şartlar aranır: Kaldırılan hüküm şer’î olmalıdır (Cahiliye âdetinin kaldırılması nesih değildir); nâsih delil mensuhtan sonra gelmeli ve ondan ayrı olmalıdır (aynı cümle içindeki istisna, şart ve gaye nesih değil tahsistir); mensuh hüküm belli bir süreyle sınırlanmamış olmalıdır (“geceye kadar orucu tamamlayın” ayetinde gecenin gelmesi nesih değildir); nesih ancak vahyin devam ettiği dönemde, yani Hz. Peygamber hayattayken olur; iki hüküm arasında gerçek bir çelişki bulunmalı, birlikte uygulanmaları mümkün olmamalıdır.",
+  {
+   "tablo": [
+    [
+     "Neshin girdiği alan",
+     "Neshin girmediği alan"
+    ],
+    [
+     "Ameli hükümler: ibadet ve muamelata dair emir ve yasaklar",
+     "Akaid esasları: Allah’ın birliği, sıfatları, peygamberlik, ahiret"
+    ],
+    [
+     "Belli bir zaman ve şartla bağlantılı uygulamalar",
+     "Ahlakın temel ilkeleri: adalet, doğruluk, emanete riayet, zulmün haramlığı"
+    ],
+    [
+     "",
+     "Haberler (geçmiş ve gelecekle ilgili bildirimler): haber neshedilirse yalan olur"
+    ],
+    [
+     "",
+     "Te’bîd (ebedîlik) bildiren hükümler ve Hz. Peygamber’den sonraki dönem"
+    ]
+   ]
+  },
+  {
+   "sinav": "ÖSYM sordu: “Neshin geçerli olduğuna dair âlimlerin ittifak ettiği alan” → önceki şeriatlerin hükümleri. Kur’an içindeki nesih tartışmalıdır (Ebû Müslim el-İsfahânî reddeder), ama İslam’ın önceki şeriatlerin bazı hükümlerini kaldırdığında ittifak vardır. Ayrıca neshin temel ayeti Bakara 106’dır; çeldiriciler vücûh-nezâir, mücmel-mübeyyen, i’câz, müteşâbih."
+  },
+  {
+   "akil": "Nesih: şer’î hükmün sonraki şer’î delille kaldırılması. Deliller: Bakara 106, Nahl 101, Ra’d 39. Ret: Ebû Müslim el-İsfahânî. Nesih bedâ değildir. Akaid, ahlak esasları ve haberler neshedilmez; nesih Hz. Peygamber’in hayatıyla sınırlıdır."
+  },
+  {
+   "b": "5. Nesih çeşitleri ve örnekleri"
+  },
+  {
+   "merak": "Bir sure düşünün ki bir yıl boyunca Hz. Peygamber ve sahabe gecenin yarısını, bazen üçte ikisini namazla geçirdi; ayakları şişti. Sonra aynı surenin son ayeti indi: “Kur’an’dan kolayınıza geleni okuyun.” Müzzemmil suresi, neshin hem başını hem sonunu içinde taşır."
+  },
+  "Nesih, mushafta okunması (tilavet) ve hükmü bakımından üç türe ayrılır:",
+  {
+   "tablo": [
+    [
+     "Tür",
+     "Açıklama",
+     "Örnek"
+    ],
+    [
+     "Hükmü kaldırılmış, tilaveti duran",
+     "En yaygın tür; ayet mushafta okunur ama hükmüyle amel edilmez",
+     "Bakara 2/240 (vefat iddeti bir yıl) → Bakara 2/234 (dört ay on gün); Enfâl 8/65 (bire on) → 8/66 (bire iki); Mücâdele 58/12 (Hz. Peygamber’le gizli konuşmadan önce sadaka) → 58/13; Müzzemmil 73/2-4 (gece namazı) → 73/20"
+    ],
+    [
+     "Tilaveti kaldırılmış, hükmü duran",
+     "Ayet mushafta yoktur ama hükmü yürürlüktedir",
+     "Hz. Ömer’in rivayet ettiği recm ayeti (evli zinakârın recmi)"
+    ],
+    [
+     "Hem tilaveti hem hükmü kaldırılmış",
+     "Ne okunur ne hükmüyle amel edilir",
+     "Hz. Âişe’nin rivayetine göre süt akrabalığında önce “bilinen on emzirme” inmiş, sonra “bilinen beş emzirme” ile kaldırılmıştır (Müslim, Radâ’)"
+    ]
+   ]
+  },
+  "Nâsih ile mensuh arasındaki hüküm ağırlığına göre de nesih çeşitlenir. Bedelsiz nesih: Mücâdele 12’deki sadaka yükümlülüğü kaldırılmış, yerine bir şey konmamıştır. Daha hafifiyle nesih: Enfâl 65’te bir müminin on kâfire karşı durması istenmiş, 66. ayette bu bire ikiye indirilmiştir. Eşitiyle nesih: Kıblenin Beytülmakdis’ten Kâbe’ye çevrilmesi (Bakara 2/142-144). Daha ağırıyla nesih: Bakara 2/184’te oruç tutmaya gücü yettiği hâlde fidye verme seçeneği, 185. ayetle kaldırılmış, oruç kesin hükme bağlanmıştır; zina edenler için Nisâ 4/15-16’daki ev hapsi ve eziyet, Nûr 24/2’deki celde cezasıyla değiştirilmiştir.",
+  "Nâsih ile mensuhun hangi delil türünden olabileceği de tartışılmıştır:",
+  {
+   "tablo": [
+    [
+     "Nesih türü",
+     "Görüşler",
+     "Örnek"
+    ],
+    [
+     "Kur’an’ın Kur’an’la neshi",
+     "Neshi kabul edenlerin ittifakıyla caizdir",
+     "Bakara 240 → 234"
+    ],
+    [
+     "Sünnetin sünnetle neshi",
+     "İttifakla caizdir",
+     "“Size kabir ziyaretini yasaklamıştım; artık ziyaret edin” (Müslim, Cenâiz)"
+    ],
+    [
+     "Sünnetin Kur’an’la neshi",
+     "Cumhura göre caizdir ve vakidir",
+     "Hz. Peygamber’in sünnetle belirlenen Beytülmakdis kıblesinin Bakara 144 ile kaldırılması"
+    ],
+    [
+     "Kur’an’ın sünnetle neshi",
+     "Hanefî ve Mâlikîler mütevatir veya meşhur sünnetle caiz görür; Şâfiî ve bir rivayette Ahmed b. Hanbel caiz görmez",
+     "Hanefîlere göre Bakara 2/180’deki vasiyet hükmünün “Vârise vasiyet yoktur” hadisiyle (miras ayetleriyle birlikte) kaldırılması"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Kur’an’ın sünnetle neshi konusunda mezheplere nispet edilen görüşler kaynaklarda farklı ayrıntılarla verilir. İmam Şâfiî er-Risâle’de Kur’an’ın ancak Kur’an’la neshedilebileceğini savunur; Hanefî ve Mâlikîler mütevatir/meşhur sünnetle neshi caiz görür. Bazı özet kitaplarda bu görüşler ters yazılmıştır."
+  },
+  "Kur’an’da mensuh ayetlerin sayısı konusunda büyük farklar vardır. İlk dönem müellifleri, tahsis, takyid, istisna ve beyan gibi durumları da nesih saydıkları için çok yüksek sayılar vermiştir; Tevbe 9/5’teki “seyf (kılıç) ayeti”nin yüzden fazla ayeti neshettiği iddiası bunun en bilinen örneğidir ve sonraki âlimlerce eleştirilmiştir. Süyûtî el-İtkân’da sayıyı yirmi civarına indirmiş, Şah Veliyyullah ed-Dihlevî el-Fevzü’l-kebîr’de bunları da inceleyip gerçekten nesih sayılabilecek ayetleri beş kadar örneğe düşürmüştür.",
+  {
+   "kontrol": "Süyûtî’nin mensuh saydığı ayet sayısı kaynaklarda 20 ya da 21, Dihlevî’nin sayısı 5 olarak verilir; hangi ayetlerin bu listelerde yer aldığı yazarlara göre küçük farklar gösterir."
+  },
+  {
+   "sinav": "“Hükmü kaldırılıp tilaveti duran ayet” sorusunda Bakara 240 → 234, Enfâl 65 → 66, Mücâdele 12 → 13, Müzzemmil başı → sonu klasik cevaplardır. “Tilaveti kaldırılıp hükmü kalan” → recm ayeti; “ikisi birden kalkan” → on emzirme. Bedelsiz nesih → Mücâdele 12; daha ağırıyla nesih → oruçta fidye seçeneğinin kaldırılması veya zina cezası."
+  },
+  {
+   "akil": "Üç tür: hüküm kalktı-tilavet duruyor (en çok), tilavet kalktı-hüküm duruyor (recm), ikisi de kalktı (on emzirme). Hafiflik-ağırlık: bedelsiz, hafifiyle, eşitiyle (kıble), ağırıyla. Kur’an’ın sünnetle neshini Hanefî ve Mâlikî caiz, Şâfiî caiz görmez."
+  },
+  {
+   "b": "6. Nesih, tahsis ve takyid: Karıştırılan kavramlar ve nesih literatürü"
+  },
+  {
+   "merak": "Bakara 228. ayet boşanan kadınların üç kur’ beklemesini emreder. Ahzâb 49 ise “Onlara dokunmadan boşarsanız, onlar için sayacağınız bir iddet yoktur” der. Sonraki ayet öncekini kaldırmış mıdır? Yoksa sadece kapsamını mı daraltmıştır?"
+  },
+  "İlk dönem âlimleri “nesih” kelimesini geniş anlamda kullanıyor, genel bir hükmün daraltılmasını (tahsis), mutlak bir hükmün kayıtlanmasını (takyid) ve kapalı bir ifadenin açıklanmasını (beyan) da nesih diye adlandırabiliyordu. Sonraki usulcüler bu kavramları birbirinden ayırdı. Ayrımı bilmek, “hangisi nesihtir” sorularında hayatidir.",
+  {
+   "tablo": [
+    [
+     "",
+     "Nesih",
+     "Tahsis"
+    ],
+    [
+     "Tanım",
+     "Önceki hükmün tamamen ya da kısmen yürürlükten kalkması",
+     "Genel (âm) bir lafzın kapsamındaki bazı fertlerin hükmün dışında bırakılması"
+    ],
+    [
+     "Zaman",
+     "Nâsih mutlaka sonra gelir",
+     "Tahsis eden delil önce, birlikte ya da sonra gelebilir"
+    ],
+    [
+     "Bağlantı",
+     "Nâsih ayrı bir delildir",
+     "Tahsis aynı cümle içinde (istisna, şart, sıfat, gaye) ya da ayrı delille olabilir"
+    ],
+    [
+     "Sonuç",
+     "Hüküm kalkar",
+     "Hüküm geri kalan fertler için yürürlükte kalır"
+    ],
+    [
+     "Haberlere girmesi",
+     "Haberlere girmez",
+     "Haberlere de girebilir"
+    ],
+    [
+     "Örnek",
+     "Bakara 240 → 234 (bir yıllık iddet kalktı)",
+     "Bakara 228 (üç kur’) – Ahzâb 49 (dokunulmadan boşanan kadın için iddet yok): genel hükümden bir grup çıkarılmış"
+    ]
+   ]
+  },
+  "Kıyaslamaya devam edelim: Nisâ 4/24’te “Bunların dışındakiler size helal kılındı” denir; Hz. Peygamber’in bir kadının teyzesi veya halasıyla birlikte nikâhlanmasını yasaklaması bu genel ifadeyi tahsis eder, neshetmez. Mâide 5/3’teki “kan” haramdır ifadesi En’âm 6/145’teki “akıtılmış kan” ifadesiyle kayıtlanır; bu da takyiddir.",
+  {
+   "tablo": [
+    [
+     "Eser",
+     "Müellif",
+     "Not"
+    ],
+    [
+     "en-Nâsih ve’l-mensûh",
+     "Katâde b. Diâme (ö. 117/735)",
+     "Günümüze ulaşan en eski nesih risalelerinden"
+    ],
+    [
+     "en-Nâsih ve’l-mensûh",
+     "Ebû Ubeyd el-Kāsım b. Sellâm (ö. 224/838)",
+     "Erken dönemin kapsamlı eseri"
+    ],
+    [
+     "en-Nâsih ve’l-mensûh",
+     "Ebû Ca’fer en-Nahhâs (ö. 338/950)",
+     "Rivayetleri toplar"
+    ],
+    [
+     "el-Îzâh li-nâsihi’l-Kur’ân ve mensûhih",
+     "Mekkî b. Ebû Tâlib (ö. 437/1045)",
+     "Endülüs"
+    ],
+    [
+     "Nevâsihu’l-Kur’ân",
+     "İbnü’l-Cevzî (ö. 597/1201)",
+     "Abartılı nesih iddialarını eleştirir"
+    ],
+    [
+     "en-Nesh fi’l-Kur’âni’l-Kerîm",
+     "Mustafa Zeyd",
+     "Modern dönem; mensuh sayısını çok azaltır"
+    ]
+   ]
+  },
+  "Bilgi notu olarak: İmam Şâfiî er-Risâle’de nesih konusunu usul açısından ilk sistemli işleyenlerdendir. Nesih bilgisi tefsir, fıkıh ve hadis usulünün ortak konusudur; hadis usulünde “nâsihu’l-hadîs ve mensûhuh” ayrı bir başlıktır.",
+  {
+   "sinav": "“Hangisi nesih değil tahsistir?” sorusunda iki ayet arasındaki ilişkiye bakın: Önceki hüküm tamamen kalkıyorsa nesih; genel hüküm geri kalanlar için devam ediyor ve sadece bir grup çıkıyorsa tahsis. Mutlak bir ifadenin bir vasıfla sınırlanması (kan → akıtılmış kan) takyiddir. Ayrıca istisna ve şart aynı cümlede geldiği için asla nesih olmaz."
+  },
+  {
+   "akil": "Nesih: hüküm kalkar, nâsih sonra ve ayrı gelir, haberlere girmez. Tahsis: genelden bir kısım çıkar, hüküm geri kalanda sürer (Bakara 228 – Ahzâb 49). Takyid: mutlak kayıtlanır (kan – akıtılmış kan). Eserler: Katâde, Ebû Ubeyd, Nahhâs, Mekkî, İbnü’l-Cevzî (Nevâsih), Mustafa Zeyd."
+  }
+ ],
+ "ozet": [
+  "Sebeb-i nüzûl: bir ayetin, meydana geldiği günlerde onu konu edinerek inmesine vesile olan olay veya soru; ayetlerin çoğu sebepsiz inmiştir.",
+  "Fîl olayı gibi inişten önceki olaylar sebeb-i nüzûl değil kıssadır.",
+  "Sebep yalnız nakille bilinir (Vâhidî). “Fe-nezelet” sarih, “nezelet fî” muhtemeldir.",
+  "Liân ayetleri (Nûr 6-9): Hilâl b. Ümeyye ve Uveymir; birden fazla sebep–tek ayet.",
+  "Ümmü Seleme rivayeti: tek sebep–birden fazla ayet (Âl-i İmrân 195, Nisâ 32, Ahzâb 35).",
+  "Kural: el-ibretü bi-umûmi’l-lafz lâ bi-husûsi’s-sebeb.",
+  "Bakara 158 (Safâ-Merve): Urve’nin yanlış anlaması Hz. Âişe’nin sebep açıklamasıyla düzeldi.",
+  "Olay-ayet: Batn-ı Nahle → Bakara 217; Uhud → Âl-i İmrân 152; Tebük üç kişi → Tevbe 118; Dırâr → Tevbe 107; Ebû Tâlib → Kasas 56; Havle → Mücâdele 1-4.",
+  "Tedrîc: içki (Nahl 67, Bakara 219, Nisâ 43, Mâide 90) ve faiz (Rûm 39, Nisâ 161, Âl-i İmrân 130, Bakara 275-279).",
+  "Firâşî: yatakta inen (Mâide 67); leylî: Tevbe 118; şitâî: ifk ayetleri; seferî/sayfî: Nisâ 176.",
+  "Esbâb eserleri: Vâhidî, Esbâbü’n-nüzûl; Süyûtî, Lübâbü’n-nukûl; İbn Hacer, el-Ucâb; ilk eser Ali b. el-Medînî (kayıp).",
+  "Nesih: şer’î hükmün sonraki şer’î delille kaldırılması; deliller Bakara 106, Nahl 101, Ra’d 39.",
+  "Kur’an’da neshi reddeden: Ebû Müslim el-İsfahânî (Fussilet 42). Nesih bedâ değildir.",
+  "Akaid, ahlak esasları ve haberler neshedilmez; önceki şeriatlerin neshinde ittifak vardır.",
+  "Türler: Bakara 240 → 234 (hüküm kalktı, tilavet duruyor); recm ayeti (tilavet kalktı, hüküm duruyor); on emzirme (ikisi de kalktı).",
+  "Bedelsiz nesih: Mücâdele 12; hafifiyle: Enfâl 65-66; ağırıyla: oruçta fidye seçeneği, zina cezası.",
+  "Kur’an’ın sünnetle neshini Hanefî ve Mâlikî caiz, Şâfiî caiz görmez.",
+  "Tahsis ≠ nesih: Bakara 228 – Ahzâb 49 tahsistir."
+ ],
+ "kartlar": [
+  {
+   "o": "Sebeb-i nüzûl tanımı",
+   "a": "Bir ayetin, meydana geldiği günlerde onu konu edinerek veya hükmünü bildirerek inmesine vesile olan olay veya soru."
+  },
+  {
+   "o": "“Fe-nezelet” – “nezelet fî”",
+   "a": "Fe-nezelet: sarih sebep. Nezelet fî: muhtemel; sebep de olabilir, ayetin kapsadığı konu da."
+  },
+  {
+   "o": "el-İbretü bi-umûmi’l-lafz",
+   "a": "Hüküm lafzın genelliğine göre alınır, sebebin özel olmasına göre değil."
+  },
+  {
+   "o": "Bakara 158 ve Urve",
+   "a": "“Lâ cünâha”yı sa’yin zorunlu olmadığı diye anladı; Hz. Âişe sebebi anlatarak düzeltti."
+  },
+  {
+   "o": "Liân ayetlerinin sebebi",
+   "a": "Hilâl b. Ümeyye ve Uveymir el-Aclânî olayları (Nûr 6-9)."
+  },
+  {
+   "o": "Firâşî ayet",
+   "a": "Hz. Peygamber yatağındayken inen; Mâide 5/67."
+  },
+  {
+   "o": "Vâhidî",
+   "a": "Esbâbü’n-nüzûl’ün müellifi; alanın en meşhur eseri."
+  },
+  {
+   "o": "Lübâbü’n-nukûl",
+   "a": "Süyûtî’nin esbâb-ı nüzûl eseri."
+  },
+  {
+   "o": "İçkinin tedrîcî yasağı",
+   "a": "Nahl 67 → Bakara 219 → Nisâ 43 → Mâide 90-91."
+  },
+  {
+   "o": "Nesih – sözlük",
+   "a": "İzâle (gidermek) ve nakil (aktarmak, istinsah)."
+  },
+  {
+   "o": "Ebû Müslim el-İsfahânî",
+   "a": "Kur’an’da neshi reddeden Mu’tezilî müfessir; Fussilet 42’yi delil getirir."
+  },
+  {
+   "o": "Bakara 240 – 234",
+   "a": "Vefat iddeti bir yıldan dört ay on güne; hükmü kalktı, tilaveti duruyor."
+  },
+  {
+   "o": "Recm ayeti",
+   "a": "Tilaveti kaldırılmış, hükmü devam eden nesih örneği (Hz. Ömer rivayeti)."
+  },
+  {
+   "o": "On emzirme – beş emzirme",
+   "a": "Hem tilaveti hem hükmü kaldırılmış nesih örneği (Hz. Âişe, Müslim)."
+  },
+  {
+   "o": "Bedelsiz nesih",
+   "a": "Mücâdele 12’deki necvâ sadakasının 13. ayetle kaldırılması."
+  },
+  {
+   "o": "Nesih – tahsis farkı",
+   "a": "Nesihte hüküm kalkar, nâsih sonra gelir. Tahsiste genelden bir kısım çıkar, hüküm geri kalanda sürer."
+  },
+  {
+   "o": "Nevâsihu’l-Kur’ân",
+   "a": "İbnü’l-Cevzî’nin nesih eseri."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "t1-01",
+   "z": 1,
+   "s": "Hicretten önce inen ayetlere Mekkî, hicretten sonra inenlere Medenî denmesi hangi ölçüte dayanır?",
+   "c": [
+    "Mekân",
+    "Hitap",
+    "Konu",
+    "Zaman",
+    "Uzunluk"
+   ],
+   "d": 3,
+   "a": "En yaygın ölçüt zamandır: Hicret öncesi Mekkî, sonrası Medenîdir. Bu ölçüte göre Mekke’nin fethi sırasında Mekke’de inen ayet de Medenîdir.",
+   "ac": [
+    "Mekân ölçütünde ayetin indiği yer esas alınır; o zaman Mekke’de inen her ayet Mekkî olurdu.",
+    "Hitap ölçütünde “Ey insanlar” ve “Ey iman edenler” ifadeleri esas alınır.",
+    "Konu bir ölçüt değil, Mekkî-Medenî ayetlerin özelliğidir.",
+    "Doğru: hicret bir zaman sınırıdır.",
+    "Uzunluk bir ölçüt değildir."
+   ],
+   "kay": "Süyûtî, el-İtkân"
+  },
+  {
+   "id": "t1-02",
+   "z": 1,
+   "s": "Hz. Peygamber yatağında iken nazil olan ayetleri adlandırmak için kullanılan kavram hangisidir?",
+   "c": [
+    "Şitâî",
+    "Nehârî",
+    "Hadarî",
+    "Semâî",
+    "Firâşî"
+   ],
+   "d": 4,
+   "a": "Yatakta iken inen ayetlere firâşî denir; Mâide 5/67 örnek gösterilir.",
+   "ac": [
+    "Kışın inen ayettir.",
+    "Gündüz inen ayettir.",
+    "Yerleşik iken inen ayettir.",
+    "Gökte inen ayettir.",
+    "Doğru."
+   ],
+   "kay": "Süyûtî, el-İtkân"
+  },
+  {
+   "id": "t1-05",
+   "z": 2,
+   "s": "Eşine zıhar yapan Evs b. Sâmit’in olayı üzerine Mücâdele Suresi’nin ilk ayetleri inmiş ve zıharın keffareti bildirilmiştir. Hanefî bir fakih, olaydan yüzyıllar sonra eşine aynı sözü söyleyen birine de bu ayetlerdeki keffaretin gerektiğini söylemiştir.\n\nFakihin bu hükmü verirken dayandığı usul kuralı aşağıdakilerden hangisidir?",
+   "c": [
+    "Kur’an’ı Kur’an’la tefsir etmek gerekir.",
+    "Müteşâbih ayetler muhkemlere göre yorumlanır.",
+    "Mekkî ayetler Medenîlerden önce gelir.",
+    "Hüküm, sebebin özel oluşuna göre değil, lafzın genel oluşuna göre alınır.",
+    "Sonraki ayet öncekinin hükmünü kaldırır."
+   ],
+   "d": 3,
+   "a": "Ayet belirli bir olay üzerine inse de lafzı genel olduğu için hükmü benzer durumdaki herkesi kapsar: el-ibretü bi-umûmi’l-lafz lâ bi-husûsi’s-sebeb.",
+   "ac": [
+    "Doğru bir ilkedir ama hükmün başkalarına uygulanmasını açıklamaz.",
+    "Muhkem-müteşâbih ilişkisidir.",
+    "İniş sırasıyla ilgilidir; hükmün kapsamını açıklamaz.",
+    "Doğru.",
+    "Nesih kuralıdır; burada kaldırılan bir hüküm yoktur."
+   ],
+   "kay": "Mücâdele, 58/1-4; Süyûtî, el-İtkân: esbâbü’n-nüzûl"
+  },
+  {
+   "id": "t1-10",
+   "z": 3,
+   "s": "Mekkî ve Medenî ayetlerin özellikleriyle ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Mekkî ayetlerde tevhid ve ahiret konuları ağırlıktadır.",
+    "Miras, nikâh ve ceza hükümleri çoğunlukla Mekkî ayetlerde yer alır.",
+    "“Kellâ” kelimesinin geçtiği ayetler Mekkîdir.",
+    "Âdem ve İblis kıssası Mekkî surelerde sıkça anlatılır.",
+    "Münafıklardan söz eden ayetler genellikle Medenîdir."
+   ],
+   "d": 1,
+   "a": "Ayrıntılı ahkâm (miras, nikâh, hudud) Medenî ayetlerde yer alır; Mekkî ayetler daha çok iman esaslarını işler.",
+   "ac": [
+    "Doğru bilgidir.",
+    "Yanlış: bu hükümler Medenîdir.",
+    "Doğru bilgidir; kellâ yalnız Mekkî surelerde geçer.",
+    "Doğru bilgidir; Bakara hariç Âdem-İblis kıssası Mekkî surelerdedir.",
+    "Doğru bilgidir; nifak Medine’de ortaya çıkmıştır."
+   ],
+   "kay": "Süyûtî, el-İtkân"
+  },
+  {
+   "id": "t1-13",
+   "z": 2,
+   "s": "Bir araştırmacı, Kur’an ayetlerini indiren olayları ve soruları rivayetlere dayanarak bir araya getiren, bu alanda en çok başvurulan klasik eseri incelemek istemektedir.\n\nAraştırmacının başvuracağı ilim dalı ve bu dalın en meşhur eserinin müellifi aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Esbâbü’n-nüzûl – Vâhidî",
+    "Müteşâbihü’l-Kur’ân – Kadı Abdülcebbâr",
+    "Nâsih-mensûh – Nahhâs",
+    "Garîbü’l-Kur’ân – Râğıb el-İsfahânî",
+    "İ’câzü’l-Kur’ân – Bâkıllânî"
+   ],
+   "d": 0,
+   "a": "Ayetlerin iniş sebeplerini inceleyen ilim esbâbü’n-nüzûldür; bu alandaki en meşhur eser Vâhidî’nin Esbâbü’n-nüzûl’üdür. Süyûtî’nin Lübâbü’n-nukûl’ü de bu alandadır.",
+   "ac": [
+    "Doğru.",
+    "Benzer ve kapalı ayetleri inceleyen Mu’tezilî eserdir.",
+    "Hükmü kaldırılan ayetleri inceleyen ilim ve eseridir.",
+    "Garîb kelimeleri açıklayan ilim ve eseridir.",
+    "Kur’an’ın benzersizliğini inceleyen ilim ve eseridir."
+   ],
+   "kay": "Vâhidî, Esbâbü’n-nüzûl"
+  },
+  {
+   "id": "t1-14",
+   "z": 2,
+   "s": "“Sebebin özel olması, hükmün genel olmasına engel değildir.” kuralı aşağıdakilerden hangisini anlatır?",
+   "c": [
+    "Ayetin hükmü yalnız indiği olayın kişileriyle sınırlıdır.",
+    "Nüzul sebebi bilinmeyen ayetler uygulanamaz.",
+    "Belirli bir olay üzerine inen ayetin hükmü, benzer durumdaki herkesi kapsar.",
+    "Her ayetin bir nüzul sebebi vardır.",
+    "Nüzul sebebi ayetin anlamını hiçbir şekilde etkilemez."
+   ],
+   "d": 2,
+   "a": "Lafzın genelliği esas alınır, sebebin özelliği değil (el-ibretü bi-umûmi’l-lafz).",
+   "ac": [
+    "Kuralın tersidir.",
+    "Yanlıştır; ayetlerin çoğunun özel sebebi yoktur ve hepsi uygulanır.",
+    "Doğru.",
+    "Ayetlerin çoğu sebepsiz (ibtidâen) inmiştir.",
+    "Sebep anlamayı kolaylaştırır; Bakara 158 örneğinde anlamı doğrudan etkilemiştir."
+   ],
+   "kay": "Tefsir usulü"
+  },
+  {
+   "id": "tf2-01",
+   "z": 3,
+   "s": "Esbâb-ı nüzûl ile ilgili\nI. Nûr Suresi’ndeki liân ayetlerinin hem Hilâl b. Ümeyye hem Uveymir el-Aclânî olayıyla ilişkilendirilmesi, zamanca yakın iki olayın tek ayetin sebebi sayılmasına örnektir.\nII. Ümmü Seleme’nin kadınlardan söz edilmediğine dair sözü üzerine birden fazla ayetin indiğinin nakledilmesi, tek sebebin birden fazla ayete vesile olmasına örnektir.\nIII. Bir rivayette “Bu ayet şu konuda indi” denmesi, kesin ve sarih bir sebep bildirimi olarak kabul edilir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "I ve II doğru örneklerdir. “Nezelet fî kezâ” ifadesi ise sarih değildir; sebep bildirebileceği gibi ayetin kapsadığı hükmü ve konuyu anlatmak için de kullanılır. Sarih ifade, olayın anlatılıp “fe-nezelet” denmesidir.",
+   "ac": [
+    "II. öncül de doğrudur.",
+    "III. öncül yanlıştır; bu ifade muhtemel kabul edilir.",
+    "Doğru: I ve II doğrudur.",
+    "III. öncül yanlış olduğu için bu seçenek doğru değildir.",
+    "III. öncül yanlıştır."
+   ],
+   "kay": "Nûr, 24/6-9; Süyûtî, el-İtkân"
+  },
+  {
+   "id": "tf2-02",
+   "z": 3,
+   "s": "Tâbiûndan Urve b. Zübeyr, “Safâ ile Merve Allah’ın nişanlarındandır. Hac veya umre yapanın onları tavaf etmesinde bir sakınca yoktur” ayetinin ifadesinden, sa’y yapmamanın da bir sakıncası olmadığı sonucunu çıkarmıştı. Hz. Âişe ise ayetin, Ensar’ın Cahiliye döneminde oradaki putlar sebebiyle sa’y etmekten çekinmesi üzerine indiğini açıklayarak bu yorumu düzeltti.\n\nBu rivayet, esbâb-ı nüzûlü bilmenin aşağıdaki faydalarından hangisine en açık örnektir?",
+   "c": [
+    "Kur’an’da adı verilmeyen kişileri belirlemeye",
+    "Hükmün tedrîcî olarak konduğunu göstermeye",
+    "Ayetin yanlış anlaşılmasını önleyip doğru anlamını ortaya koymaya",
+    "Ayetin Mekkî mi Medenî mi olduğunu belirlemeye",
+    "Mensuh ayeti nâsihten ayırt etmeye"
+   ],
+   "d": 2,
+   "a": "Ayetteki “sakıncası yoktur” ifadesi zorunluluğu kaldırmak için değil, Ensar’ın çekincesini gidermek için gelmiştir. Sebep bilinince Urve’nin yanlış yorumu düzelmiştir.",
+   "ac": [
+    "Rivayette mübhem bir kişi belirlenmemiştir.",
+    "Aşamalı bir hüküm söz konusu değildir.",
+    "Doğru: sebep bilinince yanlış anlam düzelmiştir.",
+    "Tartışma surenin Mekkî ya da Medenî oluşuyla ilgili değildir.",
+    "Bir hükmün kaldırılması söz konusu değildir."
+   ],
+   "kay": "Bakara, 2/158; Buhârî, Hac, 79"
+  },
+  {
+   "id": "tf2-03",
+   "z": 2,
+   "s": "Kur’an’da bir kadının, kocasının kendisine söylediği ve Cahiliye âdetine göre boşanma sayılan bir söz üzerine Hz. Peygamber’e gelip derdini anlattığı ve Allah’a şikâyette bulunduğu; bunun üzerine bu tür sözün keffaretini bildiren ayetlerin indiği anlatılır. Sure, adını da bu olaydan alır.\n\nBu olay ve sure aşağıdakilerin hangisinde birlikte doğru verilmiştir?",
+   "c": [
+    "Liân – Nûr",
+    "Zıhar – Mücâdele",
+    "Îlâ – Bakara",
+    "İmtihan – Mümtehine",
+    "Tahrîm – Tahrîm"
+   ],
+   "d": 1,
+   "a": "Havle bint Sa’lebe’nin kocası Evs b. Sâmit’in zıharı üzerine Mücâdele 58/1-4 inmiştir; sure “tartışan kadın” anlamında Mücâdele adını almıştır.",
+   "ac": [
+    "Liân, kocanın eşini zina ile itham etmesidir; Nûr 6-9’da yer alır.",
+    "Doğru.",
+    "Îlâ, eşine yaklaşmamaya yemin etmektir; Bakara 226-227’de geçer.",
+    "Mümtehine, Mekke’den hicret eden mümin kadınların imtihanını anlatır.",
+    "Tahrîm, Hz. Peygamber’in helal bir şeyi kendine yasaklamasıyla ilgilidir."
+   ],
+   "kay": "Mücâdele, 58/1-4"
+  },
+  {
+   "id": "tf2-04",
+   "z": 3,
+   "s": "Bir tefsir hocası esbâb-ı nüzûl rivayetlerini değerlendirirken şu ölçütleri sıralamıştır:\n– Aynı ayet için gelen iki rivayetten biri sahih diğeri zayıfsa sahih olan alınır.\n– İkisi de sahih ve olaylar zamanca birbirine çok uzaksa ayetin birden fazla kez indiği düşünülür.\n– Sebebi bildiren sahabi olaya bizzat şahit olmuşsa onun rivayeti diğerine tercih edilir.\n\nHocanın ikinci maddede sözünü ettiği durum aşağıdaki kavramlardan hangisiyle ifade edilir?",
+   "c": [
+    "Tekerrürü’n-nüzûl",
+    "Taaddüdü’n-nâzil",
+    "Tencîm",
+    "Tedrîc",
+    "Nüzûl-i def’î"
+   ],
+   "d": 0,
+   "a": "Olaylar arasında uzun zaman bulunduğunda ayetin her olayda yeniden indiği kabul edilir; buna nüzulün tekerrürü denir. Fâtiha’nın hem Mekke’de hem Medine’de indiği görüşü örnek verilir.",
+   "ac": [
+    "Doğru.",
+    "Taaddüdü’n-nâzil, tek sebebin birden fazla ayete vesile olmasıdır (Ümmü Seleme rivayeti).",
+    "Tencîm, Kur’an’ın parça parça indirilmesidir.",
+    "Tedrîc, hükümlerin aşamalı olarak konmasıdır.",
+    "Nüzûl-i def’î, Kur’an’ın bir defada Levh-i Mahfûz’dan dünya semasına indirilmesi için kullanılır."
+   ],
+   "kay": "Süyûtî, el-İtkân; Zerkeşî, el-Burhân"
+  },
+  {
+   "id": "tf2-05",
+   "z": 3,
+   "s": "Nesih konusunu işleyen bir öğretmen öğrencilerine aşağıdaki hükümlerden hangisinin, âlimlerin çoğunluğuna göre neshin konusu olabileceğini sormuştur?",
+   "c": [
+    "Allah’ın birliği ve sıfatlarına dair bildirimler",
+    "Geçmiş kavimlerin helak edilişine dair haberler",
+    "Adalet, doğruluk ve emanete riayet gibi temel ahlak ilkeleri",
+    "Kocası ölen kadının bekleyeceği sürenin miktarı",
+    "Kıyametin kopacağına dair bildirimler"
+   ],
+   "d": 3,
+   "a": "Nesih yalnızca ameli hükümlerde (emir ve yasaklarda) olur. Vefat iddeti bir yıldan (Bakara 240) dört ay on güne (Bakara 234) değiştirilmiştir. Akaid esasları, haberler ve temel ahlak ilkeleri neshedilmez.",
+   "ac": [
+    "Akaid esasları neshedilmez.",
+    "Haber neshedilirse yalan olur; haberlere nesih girmez.",
+    "Temel ahlak ilkeleri her şeriatte ortaktır ve neshedilmez.",
+    "Doğru: ameli bir hükümdür ve neshin klasik örneğidir.",
+    "Gelecekle ilgili haberler de neshedilmez."
+   ],
+   "kay": "Bakara, 2/234, 240"
+  },
+  {
+   "id": "tf2-06",
+   "z": 3,
+   "s": "Nesih örnekleri olarak verilen aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "Enfâl 65’te bir müminin on kâfire karşı durması – Enfâl 66’da bire ikiye indirilmesi",
+    "Mücâdele 12’de Hz. Peygamber’le gizli konuşmadan önce sadaka verilmesi – Mücâdele 13 ile kaldırılması",
+    "Müzzemmil’in başındaki uzun gece namazı – aynı surenin son ayetiyle hafifletilmesi",
+    "Nisâ 15’teki zina eden kadınların evde tutulması – Nûr 2’deki celde cezası",
+    "Bakara 228’de boşanan kadının üç kur’ beklemesi – Ahzâb 49’da dokunulmadan boşanan kadın için iddet olmaması"
+   ],
+   "d": 4,
+   "a": "Bakara 228 ile Ahzâb 49 arasındaki ilişki nesih değil tahsistir: Genel iddet hükmü sürmekte, yalnızca dokunulmadan boşanan kadınlar bu hükmün dışında bırakılmaktadır.",
+   "ac": [
+    "Daha hafifiyle nesih örneğidir.",
+    "Bedelsiz nesih örneğidir.",
+    "Müzzemmil’deki hafifletme klasik nesih örneğidir.",
+    "Daha ağırıyla nesih örneği olarak verilir.",
+    "Yanlış: bu bir tahsis örneğidir."
+   ],
+   "kay": "Enfâl, 8/65-66; Mücâdele, 58/12-13; Ahzâb, 33/49"
+  },
+  {
+   "id": "tf2-07",
+   "z": 2,
+   "s": "Mu’tezile âlimlerinden olan bu müfessir, “Bâtıl ona ne önünden ne de arkasından gelebilir” ayetini delil getirerek Kur’an içinde bir ayetin başka bir ayetle neshedilmediğini savunmuş; Bakara 106’daki neshi önceki şeriatlerin kaldırılması olarak yorumlamıştır.\n\nBu müfessir aşağıdakilerden hangisidir?",
+   "c": [
+    "Nahhâs",
+    "Kadı Abdülcebbâr",
+    "Zemahşerî",
+    "Ebû Ubeyd el-Kāsım b. Sellâm",
+    "Ebû Müslim el-İsfahânî"
+   ],
+   "d": 4,
+   "a": "Kur’an’da neshi reddeden en tanınmış isim Ebû Müslim el-İsfahânî’dir (ö. 322/934). Görüşleri özellikle Fahreddin er-Râzî’nin tefsirinde aktarılır.",
+   "ac": [
+    "Neshi kabul eden ve en-Nâsih ve’l-mensûh yazan âlimdir.",
+    "Mu’tezilîdir; Tenzîhü’l-Kur’ân ve Müteşâbihü’l-Kur’ân’ın müellifidir; neshi reddetmekle tanınmaz.",
+    "Mu’tezilî müfessirdir; el-Keşşâf’ta neshi kabul eder.",
+    "Neshi kabul eden ve en-Nâsih ve’l-mensûh yazan âlimdir.",
+    "Doğru."
+   ],
+   "kay": "Fussilet, 41/42; Bakara, 2/106"
+  },
+  {
+   "id": "tf2-08",
+   "z": 3,
+   "s": "Bir fıkıh öğrencisi şu üç durumu not etmiştir:\n– Mâide 3’te genel olarak haram kılınan “kan”, En’âm 145’te “akıtılmış kan” şeklinde nitelenmiştir.\n– Nisâ 24’teki “bunların dışındakiler size helal kılındı” ifadesi, Hz. Peygamber’in bir kadınla teyzesini birlikte nikâhlamayı yasaklamasıyla daraltılmıştır.\n– Bakara 240’ta bir yıl olarak bildirilen vefat iddeti, Bakara 234 ile dört ay on gün olarak belirlenmiş, ilk hüküm uygulanmaz olmuştur.\n\nBu durumlar sırasıyla aşağıdakilerin hangisinde doğru adlandırılmıştır?",
+   "c": [
+    "Tahsis – Takyid – Nesih",
+    "Takyid – Tahsis – Nesih",
+    "Nesih – Tahsis – Takyid",
+    "Takyid – Nesih – Tahsis",
+    "Tahsis – Nesih – Takyid"
+   ],
+   "d": 1,
+   "a": "Mutlak “kan” lafzının bir vasıfla sınırlanması takyiddir; genel helallik ifadesinden bir grubun çıkarılması tahsistir; önceki hükmün tamamen kalkması nesihtir.",
+   "ac": [
+    "İlk iki durum yer değiştirmiştir.",
+    "Doğru.",
+    "İlk durum nesih değil takyiddir.",
+    "İkinci durum nesih değil tahsistir; üçüncüsü ise nesihtir.",
+    "Sıralama tamamen karışıktır."
+   ],
+   "kay": "Mâide, 5/3; En’âm, 6/145; Nisâ, 4/24; Bakara, 2/234, 240"
+  },
+  {
+   "id": "tf2-09",
+   "z": 2,
+   "s": "Hz. Ömer’in, Kur’an’da yer aldığını ve okunduğunu ancak daha sonra mushafa yazılmadığını, buna rağmen hükmüyle amel edildiğini bildirdiği ayet, nesih çeşitlerinden hangisine örnektir?",
+   "c": [
+    "Hükmü kaldırılıp tilaveti devam eden ayet",
+    "Tilaveti kaldırılıp hükmü devam eden ayet",
+    "Hem tilaveti hem hükmü kaldırılan ayet",
+    "Sünnetle neshedilen ayet",
+    "Bedelsiz neshedilen ayet"
+   ],
+   "d": 1,
+   "a": "Recm ayeti, neshi kabul eden âlimlere göre tilaveti kaldırılıp hükmü devam eden türün örneğidir.",
+   "ac": [
+    "Bu türde ayet mushafta okunur ama hükmüyle amel edilmez (Bakara 240).",
+    "Doğru.",
+    "Bu türe on emzirme rivayeti örnek verilir.",
+    "Rivayette nâsihin sünnet olduğu belirtilmemektedir.",
+    "Bedelsiz nesihte yerine yeni hüküm konmaz; burada hüküm kaldırılmamıştır."
+   ],
+   "kay": "Buhârî, Hudûd; Müslim, Hudûd"
+  },
+  {
+   "id": "tf2-10",
+   "z": 3,
+   "s": "İçkinin yasaklanmasına dair aşağıdaki ayetlerin iniş sırasına göre doğru dizilişi hangisidir?\nI. “Sarhoşken ne söylediğinizi bilinceye kadar namaza yaklaşmayın.”\nII. “İçki, kumar, dikili taşlar ve fal okları şeytan işi birer pisliktir; bunlardan kaçının.”\nIII. “Hurma ağaçlarının ve üzüm bağlarının meyvelerinden hem sarhoşluk veren bir içki hem de güzel bir rızık edinirsiniz.”\nIV. “Sana içki ve kumarı soruyorlar. De ki: İkisinde de büyük günah ve insanlar için bazı faydalar vardır; günahları faydalarından daha büyüktür.”",
+   "c": [
+    "III – IV – I – II",
+    "IV – III – I – II",
+    "III – I – IV – II",
+    "I – IV – III – II",
+    "IV – I – III – II"
+   ],
+   "d": 0,
+   "a": "Sıralama: Nahl 67 (Mekkî) → Bakara 219 → Nisâ 43 → Mâide 90-91. Bu sıralama içki yasağındaki tedrîci gösterir.",
+   "ac": [
+    "Doğru: Nahl 67, Bakara 219, Nisâ 43, Mâide 90.",
+    "Mekkî Nahl 67 Bakara 219’dan önce gelir.",
+    "Nisâ 43 Bakara 219’dan sonra inmiştir.",
+    "İlk aşama Mekkî Nahl 67’dir, Nisâ 43 değildir.",
+    "Nahl 67 Mekkî olduğu için en başta yer alır."
+   ],
+   "kay": "Nahl, 16/67; Bakara, 2/219; Nisâ, 4/43; Mâide, 5/90-91"
+  },
+  {
+   "id": "tf2-11",
+   "z": 2,
+   "s": "Bakara Suresi 184. ayette oruç tutmaya gücü yettiği hâlde tutmak istemeyenlere bir yoksulu doyurma (fidye) seçeneği tanınmış, 185. ayette ise “Sizden kim bu aya ulaşırsa onu oruçla geçirsin” buyrularak bu seçenek kaldırılmıştır.\n\nBu örnek, nâsih ile mensuh arasındaki hüküm ağırlığı bakımından nasıl bir nesihtir?",
+   "c": [
+    "Daha ağır bir hükümle nesih",
+    "Daha hafif bir hükümle nesih",
+    "Eşit bir hükümle nesih",
+    "Bedelsiz nesih",
+    "Tilaveti kaldırılmış nesih"
+   ],
+   "d": 0,
+   "a": "Seçimlik bir hükmün yerine kesin oruç yükümlülüğü gelmiştir; bu daha ağır bir hükümle nesihtir. Zina cezasının ev hapsinden celdeye dönüşmesi de bu türe örnek verilir.",
+   "ac": [
+    "Doğru.",
+    "Daha hafifiyle nesihe Enfâl 65-66 örnektir.",
+    "Eşitiyle nesihe kıblenin değişmesi örnektir.",
+    "Bedelsiz nesihte yerine yeni hüküm konmaz (Mücâdele 12).",
+    "Her iki ayet de mushafta okunmaktadır."
+   ],
+   "kay": "Bakara, 2/184-185"
+  },
+  {
+   "id": "tf2-12",
+   "z": 3,
+   "s": "Nesih türleriyle ilgili\nI. Sünnetle sabit olan Beytülmakdis kıblesinin Bakara 144 ile kaldırılması, sünnetin Kur’an’la neshine örnek verilir.\nII. Hanefîler, Kur’an’ın mütevatir veya meşhur sünnetle neshedilebileceğini kabul eder.\nIII. İmam Şâfiî, Kur’an’ın sünnetle neshini caiz görmeyen âlimlerdendir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Üç öncül de doğrudur. Şâfiî er-Risâle’de Kur’an’ın ancak Kur’an’la neshedilebileceğini savunur; Hanefî ve Mâlikîler mütevatir ve meşhur sünnetle neshi caiz görür.",
+   "ac": [
+    "II ve III de doğrudur.",
+    "III de doğrudur.",
+    "II de doğrudur.",
+    "I de doğrudur.",
+    "Doğru: üçü de doğrudur."
+   ],
+   "kay": "Şâfiî, er-Risâle; Konu: Nesih türleri"
+  }
+ ]
+}

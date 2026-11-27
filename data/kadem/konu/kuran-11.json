@@ -1,0 +1,1139 @@
+{
+ "id": "kuran-11",
+ "ad": "Tecvid 2: Sakin Nun ve Tenvin, Sakin Mim, İdgam Çeşitleri, Gunne",
+ "ders": "Kur’an Bilgisi",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Sakin nun ve tenvin: Dört kader"
+  },
+  {
+   "merak": "Tenvin yazıda görünmez; ama okunuşta sakin bir nundur. Bu küçük nun, kendisinden sonra gelen harfe göre dört farklı biçimde okunur: açık, birleşmiş, gizlenmiş ya da mime dönmüş."
+  },
+  "Sakin nun (نْ) harekesiz nundur. Tenvin ise kelime sonundaki iki üstün, iki esre ya da iki ötredir (ـًـ ـٍـ ـٌـ); yazılmasa da okunuşta sakin bir nun sesi verir. Bu yüzden ikisinin hükümleri aynıdır. Sakin nun ya da tenvinden sonra gelen harfe göre dört kural uygulanır:",
+  {
+   "tablo": [
+    [
+     "Kural",
+     "Sonra gelen harf",
+     "Okunuşu",
+     "Örnek"
+    ],
+    [
+     "İzhar (açık okuma)",
+     "Boğaz harfleri: ء ه ع ح غ خ",
+     "Nun açıkça, gunnesiz okunur",
+     "مَنْ اٰمَنَ ، مِنْ عِلْمٍ ، عَزِيزٌ حَكِيمٌ"
+    ],
+    [
+     "İdgam (birleştirme)",
+     "ي ر م ل و ن (“yermelûn”)",
+     "Nun sonraki harfe katılır, harf şeddeli okunur",
+     "—"
+    ],
+    [
+     "   İdgam-ı maal-gunne",
+     "ي ن م و (“yenmû”)",
+     "Gunneyle birleştirilir",
+     "مَنْ يَقُولُ ، وَمِنْ نَبَاٍ ، يَوْمَئِذٍ وَاجِفَةٌ"
+    ],
+    [
+     "   İdgam-ı bilâ-gunne",
+     "ل ر",
+     "Gunnesiz birleştirilir",
+     "هُدًى لِلْمُتَّقِينَ ، مِنْ رَسُولٍ"
+    ],
+    [
+     "İklab (çevirme)",
+     "ب",
+     "Nun mime çevrilir, gunneyle okunur",
+     "مِنْ بَعْدِ ، اَنْبِئْهُمْ ، عَلِيمٌ بِذَاتِ"
+    ],
+    [
+     "İhfâ (gizleme)",
+     "Kalan 15 harf: ت ث ج د ذ ز س ش ص ض ط ظ ف ق ك",
+     "Nun sesi gizlenir, gunneyle okunur; dil ucu damağa tam yapışmaz",
+     "عِنْدَ ، مِنْ قَبْلِ ، يُنْفِقُونَ ، مِنْ شَرِّ"
+    ]
+   ]
+  },
+  {
+   "b": "Dikkat edilecek istisnalar"
+  },
+  {
+   "merak": "“Dünyâ” kelimesinde sakin nundan sonra ye geliyor; kurala göre gunneli idgam yapılıp “düyyâ” denmeli. Ama hiç kimse böyle okumaz. Kural mı yanlış, yoksa kuralın bir sınırı mı var?"
+  },
+  "İdgam-ı maal-gunne iki kelime arasında yapılır. Sakin nun ile ي ya da و aynı kelimede bulunursa idgam yapılmaz; nun açıkça okunur. Kur’an’da bu durum dört kelimede vardır: دُنْيَا (dünyâ), بُنْيَانٌ (bünyân), قِنْوَانٌ (kınvân), صِنْوَانٌ (sınvân). Bu okuyuşa izhar-ı mutlak denir. Ayrıca Hafs rivayetinde “Yâ-Sîn. Ve’l-Kur’âni’l-hakîm” ile “Nûn. Ve’l-kalemi” ifadelerinde harf isimlerinin sonundaki nun, sonraki vava idgam edilmeden izharla okunur.",
+  {
+   "tablo": [
+    [
+     "İhfânın dereceleri",
+     ""
+    ],
+    [
+     "İhfâ-i akreb (idgama yakın)",
+     "ت د ط harflerinden önce"
+    ],
+    [
+     "İhfâ-i ab‘ad (izhara yakın)",
+     "ق ك harflerinden önce"
+    ],
+    [
+     "İhfâ-i evsat (orta)",
+     "Diğer ihfâ harflerinden önce"
+    ]
+   ]
+  },
+  {
+   "not": "İhfâda gunne, sonraki harfe göre kalın ya da ince yapılır: Kalın harften önce (مِنْ قَبْلِ ، يَنْطِقُونَ) gunne kalın; ince harften önce (عِنْدَ ، كُنْتُمْ) incedir."
+  },
+  {
+   "sinav": "Hangi kuralın sakin nun gerektirdiği sorulur: izhar, idgam (nun için olanlar), iklab ve ihfâ sakin nun ya da tenvinle ilgilidir; medd-i lîn ise sakin vav ya da ye ile ilgilidir. “Tenvinden sonra ب gelirse” → iklab. “Aynı kelimede nun ve ye” (dünyâ) → idgam yapılmaz, izhar-ı mutlak."
+  },
+  {
+   "akil": "İzhar: boğaz harfleri. İdgam: yermelûn (gunneli yenmû, gunnesiz lam-ra). İklab: be. İhfâ: kalan 15 harf. Dünyâ, bünyân, kınvân, sınvân → izhar-ı mutlak."
+  },
+  {
+   "b": "2. Sakin mim: Dudaktaki üç hüküm"
+  },
+  {
+   "merak": "Ağzınızı kapatmadan “m” diyemezsiniz. Sakin mimden sonra yine dudak harfi gelirse ne olur?"
+  },
+  "Sakin mim (مْ) harekesiz mimdir. Kendisinden sonra gelen harfe göre üç hükmü vardır. Bu hükümler dudak harfleriyle ilgili olduğu için “şefevî” (dudakla ilgili) diye anılır.",
+  {
+   "tablo": [
+    [
+     "Kural",
+     "Sonra gelen harf",
+     "Okunuşu",
+     "Örnek"
+    ],
+    [
+     "İdgam-ı misleyn maal-gunne",
+     "م",
+     "İki mim birleştirilir; şeddeli mim gunneyle okunur",
+     "لَكُمْ مَا ، اَمْ مَنْ"
+    ],
+    [
+     "İhfâ-i şefevî",
+     "ب",
+     "Mim dudaklar hafifçe kapatılarak gizlenir, gunneyle okunur",
+     "تَرْمِيهِمْ بِحِجَارَةٍ ، اَمْ بِهِ"
+    ],
+    [
+     "İzhar-ı şefevî",
+     "Diğer bütün harfler",
+     "Mim açıkça okunur; özellikle و ve ف’den önce dikkat edilir",
+     "عَلَيْهِمْ وَلَا ، هُمْ فِيهَا ، لَهُمْ اَجْرٌ"
+    ]
+   ]
+  },
+  {
+   "sinav": "En sık tuzak: “Sakin mimden sonra ب gelirse izhar-ı şefevî olur.” Yanlış; ihfâ-i şefevî olur. Sakin mimden sonra و gelince idgam yapılmaz; izhar-ı şefevî ile okunur."
+  },
+  {
+   "akil": "Sakin mim + م → idgam-ı misleyn maal-gunne. + ب → ihfâ-i şefevî. + diğerleri → izhar-ı şefevî (و ve ف önünde dikkat)."
+  },
+  {
+   "b": "3. İdgam çeşitleri"
+  },
+  {
+   "merak": "“Kul rabbi” diye yazılan ifade neden “kurrabbi” diye okunur? Çünkü lam ile ra birbirine çok yakın komşudur."
+  },
+  "İdgam, sakin bir harfi kendisinden sonra gelen harekeli harfe katarak iki harfi tek bir şeddeli harf gibi okumaktır. Sakin nun ve tenvindeki idgamdan başka, harflerin birbirine benzerliğine göre üç idgam türü daha vardır. Bir de elif-lamla ilgili şemsiyye idgamı bulunur.",
+  {
+   "tablo": [
+    [
+     "İdgam türü",
+     "Tanım",
+     "Örnekler"
+    ],
+    [
+     "İdgam-ı misleyn",
+     "Aynı iki harfin art arda gelmesi; birincisi sakin",
+     "اِضْرِبْ بِعَصَاكَ ، قَدْ دَخَلُوا ، يُدْرِكْكُمُ ، اِذْ ذَهَبَ"
+    ],
+    [
+     "İdgam-ı mütecâniseyn",
+     "Mahreçleri aynı, sıfatları farklı iki harf",
+     "ت → ط: قَالَتْ طَائِفَةٌ / د → ت: قَدْ تَبَيَّنَ / ط → ت: بَسَطْتَ / ذ → ظ: اِذْ ظَلَمُوا / ث → ذ: يَلْهَثْ ذٰلِكَ / ب → م: اِرْكَبْ مَعَنَا"
+    ],
+    [
+     "İdgam-ı mütekâribeyn",
+     "Mahreçleri ya da sıfatları birbirine yakın iki harf",
+     "ل → ر: قُلْ رَبِّ ، بَلْ رَفَعَهُ / ق → ك: اَلَمْ نَخْلُقْكُمْ (Mürselât 20)"
+    ],
+    [
+     "İdgam-ı şemsiyye",
+     "Elif-lam takısından sonra 14 şemsî harften biri gelince lam okunmaz, sonraki harf şeddeli okunur",
+     "اَلشَّمْسُ ، اَلنَّاسُ ، اَلرَّحْمٰنُ ، اَلصَّلٰوةُ"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Elif-lam takısı",
+     ""
+    ],
+    [
+     "Şemsî harfler (idgam-ı şemsiyye)",
+     "ت ث د ذ ر ز س ش ص ض ط ظ ل ن"
+    ],
+    [
+     "Kamerî harfler (izhar-ı kameriyye)",
+     "ا ب ج ح خ ع غ ف ق ك م و ه ي (“ebğı haccek ve haf akîmeh”); lam açıkça okunur: اَلْقَمَرُ ، اَلْحَمْدُ ، اَلْكِتَابُ"
+    ]
+   ]
+  },
+  {
+   "not": "İdgam tam ya da nakıs (eksik) olabilir. Tam idgamda birinci harf tamamen kaybolur. Nakıs idgamda birinci harfin bir sıfatı kalır: أَحَطْتُ kelimesinde ط harfinin kalınlığı (itbâk) hissettirilir. Hafs rivayetinde اَلَمْ نَخْلُقْكُمْ ifadesinde tam idgam tercih edilir."
+  },
+  {
+   "tablo": [
+    [
+     "İdgam yapılmayan bazı durumlar",
+     "Neden?"
+    ],
+    [
+     "Sakin mimden sonra و: عَلَيْهِمْ وَ",
+     "Sakin mim yalnız mime idgam olur"
+    ],
+    [
+     "Aynı kelimede nun ve ي / و: دُنْيَا",
+     "İzhar-ı mutlak"
+    ],
+    [
+     "Lam-ı fiilden sonra ن: قُلْ نَعَمْ",
+     "Lam ile nun arasında idgam yapılmaz"
+    ],
+    [
+     "Hafs’ta sekte yerleri: مَنْ رَاقٍ ، بَلْ رَانَ",
+     "Sekte idgamı engeller"
+    ],
+    [
+     "Med harfi olan vav ve yeden sonra aynı harf: قَالُوا وَهُمْ ، فِي يَوْمٍ",
+     "Med harfi korunur, idgam yapılmaz"
+    ]
+   ]
+  },
+  {
+   "sinav": "Senaryo: “Öğretmen tahtaya قُلْ رَبِّ yazdı ve lamın okunmadığını söyledi.” → mütekâribeyn. “قَالَتْ طَائِفَةٌ’de te harfi tıya katıldı.” → mütecâniseyn. “Aşağıdakilerden hangisinde idgam yapılmaz?” sorusunda doğru cevap çoğu zaman sakin mim + vav ya da sekte yeridir."
+  },
+  {
+   "akil": "Misleyn = aynı harf. Mütecâniseyn = aynı mahreç, farklı sıfat (t-ط, d-t, z-ظ, s-ذ, b-m). Mütekâribeyn = yakın harf (l-r, k-k). Şemsiyye = elif-lam + 14 şemsî harf. Kameriyye = lam açık okunur."
+  },
+  {
+   "b": "4. Gunne"
+  },
+  {
+   "merak": "Burnunuzu tıkayıp “inne” demeyi deneyin: Ses boğulur. Çünkü şeddeli nunun sesinin büyük kısmı genizden gelir. Gunne, tecvidin “müziği”dir."
+  },
+  "Gunne, genizden (hayşûm) gelen hoş sestir. Nun ve mim harflerinin ayrılmaz sıfatıdır; ama her durumda aynı kuvvette değildir. Gunnenin en kuvvetli olduğu yerler şeddeli nun ve mimdir (اِنَّ ، ثُمَّ ، مِنَ الْجِنَّةِ). Bu harfler gunneyle tutularak okunur; buna gunne-i müşeddede de denir.",
+  {
+   "tablo": [
+    [
+     "Gunnenin mertebeleri (kuvvetliden zayıfa)",
+     "Örnek"
+    ],
+    [
+     "Şeddeli nun ve mim",
+     "اِنَّ ، ثُمَّ"
+    ],
+    [
+     "İdgam-ı maal-gunne ve idgam-ı misleyn maal-gunne",
+     "مَنْ يَعْمَلْ ، لَكُمْ مَا"
+    ],
+    [
+     "İhfâ, iklab ve ihfâ-i şefevî",
+     "عِنْدَ ، مِنْ بَعْدِ ، تَرْمِيهِمْ بِحِجَارَةٍ"
+    ],
+    [
+     "Sakin hâlde (izhar)",
+     "مَنْ اٰمَنَ"
+    ],
+    [
+     "Harekeli hâlde",
+     "نَ ، مَ (en az)"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Gunnenin süresi Türkiye’de basılan tecvid kitaplarında çoğunlukla “bir buçuk elif miktarı”, bazı kaynaklarda “bir elif miktarı” olarak verilir. Sınavda bu ifadelerden biri soruda geçebilir."
+  },
+  {
+   "akil": "Gunne = genizden gelen ses; nun ve mimin sıfatı. En kuvvetlisi şeddeli nun ve mim. Gunneli kurallar: idgam-ı maal-gunne, idgam-ı misleyn maal-gunne, ihfâ, iklab, ihfâ-i şefevî."
+  },
+  "Konunun bütününü tek bir tabloda toplamak, sınavda “hangi kuralda gunne yoktur?” ya da “hangi kuralda harf şeddeli okunur?” gibi soruları hızla çözmeyi sağlar. İdgamlarda birinci harf ikinciye katıldığı için sonraki harf şeddeli okunur; ihfâ ve iklabda ise şedde yoktur, ses genizde tutulur. İzhar türlerinde gunne en az düzeyde kalır ve uzatılmaz.",
+  {
+   "tablo": [
+    [
+     "Kural",
+     "Gunne var mı?",
+     "Şedde var mı?",
+     "Harf"
+    ],
+    [
+     "İzhar-ı halkî",
+     "Yok (en az düzeyde)",
+     "Yok",
+     "Sakin nun / tenvin"
+    ],
+    [
+     "İdgam-ı maal-gunne",
+     "Var",
+     "Var",
+     "Sakin nun / tenvin"
+    ],
+    [
+     "İdgam-ı bilâ-gunne",
+     "Yok",
+     "Var",
+     "Sakin nun / tenvin"
+    ],
+    [
+     "İklab",
+     "Var",
+     "Yok",
+     "Sakin nun / tenvin"
+    ],
+    [
+     "İhfâ",
+     "Var",
+     "Yok",
+     "Sakin nun / tenvin"
+    ],
+    [
+     "İdgam-ı misleyn maal-gunne",
+     "Var",
+     "Var",
+     "Sakin mim"
+    ],
+    [
+     "İhfâ-i şefevî",
+     "Var",
+     "Yok",
+     "Sakin mim"
+    ],
+    [
+     "İzhar-ı şefevî",
+     "Yok (en az düzeyde)",
+     "Yok",
+     "Sakin mim"
+    ],
+    [
+     "Şeddeli nun ve mim",
+     "Var (en kuvvetli)",
+     "Var",
+     "Nun, mim"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Gunnesiz okunan ama sonraki harfi şeddeli okutan kural” → idgam-ı bilâ-gunne (ل ر). “Gunneli ama şeddesiz” → ihfâ, iklab, ihfâ-i şefevî. Tuzak: iklabda nunun mime dönmesi şedde sanılır; iklabda şedde yoktur."
+  },
+  {
+   "b": "5. İhfâ harfleri ve izharın çeşitleri"
+  },
+  {
+   "merak": "İhfâ harfleri on beştir; ama sınavda hepsi sorulmaz. Ezber yerine bir yöntem: Sakin nundan sonra gelen harf boğaz harfi, “yermelûn” ya da ب değilse, cevap ihfâdır."
+  },
+  "İhfâ, sakin nun ya da tenvini izhar ile idgam arasında bir hâlde, şeddesiz ve gunneyle okumaktır. Dil nunun mahrecine tam dokunmaz; ses genizden verilirken ağız bir sonraki harfin mahrecine hazırlanır. Bu yüzden ihfânın kalınlığı ve inceliği sonraki harfe bağlıdır. İhfâ harfleri, boğaz harfleri (6), yermelûn harfleri (6) ve be (1) dışında kalan on beş harftir. Aşağıdaki örnekleri sesli okuyarak çalışmak kuralı kalıcı hâle getirir.",
+  {
+   "tablo": [
+    [
+     "İhfâ harfi",
+     "Örnek",
+     "Not"
+    ],
+    [
+     "ت",
+     "كُنْتُمْ ، اَنْتُمْ",
+     "İhfâ-i akreb"
+    ],
+    [
+     "ث",
+     "مَنْثُورًا",
+     "—"
+    ],
+    [
+     "ج",
+     "اَنْجَيْنَاكُمْ",
+     "—"
+    ],
+    [
+     "د",
+     "عِنْدَ ، اَنْدَادًا",
+     "İhfâ-i akreb"
+    ],
+    [
+     "ذ",
+     "مُنْذِرٌ",
+     "—"
+    ],
+    [
+     "ز",
+     "اَنْزَلْنَا",
+     "—"
+    ],
+    [
+     "س",
+     "اَلْاِنْسَانُ",
+     "—"
+    ],
+    [
+     "ش",
+     "مِنْ شَرِّ",
+     "—"
+    ],
+    [
+     "ص",
+     "اَنْصَارٍ",
+     "Gunne kalın"
+    ],
+    [
+     "ض",
+     "مَنْضُودٍ",
+     "Gunne kalın"
+    ],
+    [
+     "ط",
+     "يَنْطِقُ",
+     "İhfâ-i akreb; gunne kalın"
+    ],
+    [
+     "ظ",
+     "اُنْظُرْ",
+     "Gunne kalın"
+    ],
+    [
+     "ف",
+     "يُنْفِقُونَ",
+     "—"
+    ],
+    [
+     "ق",
+     "مِنْ قَبْلُ",
+     "İhfâ-i ab‘ad; gunne kalın"
+    ],
+    [
+     "ك",
+     "مِنْ كُلِّ",
+     "İhfâ-i ab‘ad"
+    ]
+   ]
+  },
+  "Tecvidde “izhar” kelimesi birkaç farklı kuralın adında geçer; sınav bunları birbirine karıştırarak sorar. İzhar-ı halkî sakin nun ve tenvinden sonra boğaz harfi gelmesidir. İzhar-ı mutlak, aynı kelimede sakin nundan sonra ي ya da و gelmesidir (dünyâ, bünyân, kınvân, sınvân). İzhar-ı şefevî sakin mimden sonra م ve ب dışındaki harflerin gelmesidir. İzhar-ı kameriyye ise elif-lam takısından sonra kamerî harflerin gelmesidir; burada lam açıkça okunur. Dördünde de ortak nokta, harfin açıkça ve gunnesiz (ya da gunnesi en az hâliyle) okunmasıdır.",
+  {
+   "tablo": [
+    [
+     "İzhar türü",
+     "Hangi harf?",
+     "Sonra gelen",
+     "Örnek"
+    ],
+    [
+     "İzhar-ı halkî",
+     "Sakin nun / tenvin",
+     "Boğaz harfleri",
+     "مِنْ عِلْمٍ"
+    ],
+    [
+     "İzhar-ı mutlak",
+     "Sakin nun (aynı kelimede)",
+     "ي ya da و",
+     "دُنْيَا ، صِنْوَانٌ"
+    ],
+    [
+     "İzhar-ı şefevî",
+     "Sakin mim",
+     "م ve ب dışındakiler",
+     "لَهُمْ فِيهَا"
+    ],
+    [
+     "İzhar-ı kameriyye",
+     "Elif-lam takısındaki lam",
+     "Kamerî harfler",
+     "اَلْحَمْدُ"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Hangisi izhar-ı şefevîye örnektir?” sorusunda tuzak şık sakin nunlu bir izhar-ı halkî örneğidir (مِنْ عِلْمٍ). Şefevî = mim; halkî = nun ve tenvin; kameriyye = elif-lam. “İhfâ-i şefevî” de mimle ilgilidir ve yalnız ب önünde olur."
+  },
+  {
+   "akil": "İhfâ = 15 harf; gunne sonraki harfe göre kalın ya da ince. İzharın dört türü: halkî (nun-boğaz), mutlak (dünyâ), şefevî (mim), kameriyye (elif-lam)."
+  },
+  {
+   "not": "Türkiye’de basılan mushaflarda tecvid kurallarını kolaylaştırmak için bazı işaretler kullanılır: İdgam yapılacak harfin üzerindeki şedde ve sakin harfin üzerindeki cezmin konmaması, okuyucuya o harfin bir sonrakine katılacağını hatırlatır. Bu işaretleri tanımak, mushaftan doğru okumayı kolaylaştırır."
+  },
+  {
+   "b": "6. İdgam-ı sağîr ve idgam-ı kebîr; Hafs’ta özel idgamlar"
+  },
+  {
+   "merak": "Bazı kıraat imamları “kâle lehum” ifadesini “kâllehum” diye birleştirerek okur. İki harf de harekeliyken idgam nasıl mümkün olur?"
+  },
+  "İdgam, harflerin hareke durumuna göre de ikiye ayrılır. Birinci harf aslen sakinse buna idgam-ı sağîr (küçük idgam) denir; Hafs rivayetinde uygulanan idgamların neredeyse tamamı bu türdendir: قُلْ رَبِّ ، قَدْ تَبَيَّنَ ، مِنْ نَبَاٍ gibi. İki harf de harekeli olup birincisi sakinleştirilerek ikincisine idgam edilirse buna idgam-ı kebîr (büyük idgam) denir. İdgam-ı kebîr, Basra imamı Ebû Amr’ın kıraatinde, özellikle Sûsî rivayetinde yaygındır. Hafs rivayetinde idgam-ı kebîrin bilinen örnekleri sınırlıdır: Yûsuf Suresi 11. ayetteki تَأْمَنَّا kelimesi aslen iki nunludur ve işmâm ya da revm ile okunur; Kehf Suresi 95. ayetteki مَكَّنّ۪ي kelimesi de iki nunun birleştirilmesiyle okunur.",
+  {
+   "tablo": [
+    [
+     "",
+     "İdgam-ı sağîr",
+     "İdgam-ı kebîr"
+    ],
+    [
+     "Birinci harf",
+     "Aslen sakin",
+     "Harekeli; sakinleştirilerek idgam edilir"
+    ],
+    [
+     "Yaygın olduğu rivayet",
+     "Bütün rivayetler, Hafs dâhil",
+     "Ebû Amr (özellikle Sûsî)"
+    ],
+    [
+     "Hafs’taki örnek",
+     "قُلْ رَبِّ ، قَدْ تَبَيَّنَ",
+     "تَأْمَنَّا (Yûsuf 11), مَكَّنّ۪ي (Kehf 95)"
+    ]
+   ]
+  },
+  "Tenvinden sonra vasl hemzesiyle başlayan bir kelime geldiğinde, iki sakinin buluşmasını önlemek için araya küçük ve esreli bir nun eklenir: نُوحٌ ابْنَهُ ifadesi “nûhunibnehû” diye okunur. Mushaflarda küçük bir nunla gösterilen bu nuna nun-ı kutnî denir. Ayrıntısı Tecvid 4 konusunda işlenir; burada bilinmesi gereken, tenvinin vasl hâlinde de nun gibi davrandığıdır.",
+  {
+   "sinav": "“Hafs rivayetinde uygulanan idgamların çoğu hangi türdendir?” → idgam-ı sağîr. “İki harfin de harekeli olduğu idgam” → idgam-ı kebîr; Ebû Amr ve Sûsî ile birlikte anılır. Tuzak: “İdgam-ı kebîr Hafs rivayetinin temel özelliğidir.”"
+  },
+  {
+   "akil": "Sağîr = birinci harf sakin (Hafs’ta yaygın). Kebîr = iki harf de harekeli (Ebû Amr, Sûsî). Hafs’ta kebîr örneği: تَأْمَنَّا, مَكَّنّ۪ي. Tenvin + vasl hemzesi → nun-ı kutnî."
+  },
+  {
+   "b": "7. Uygulama: Bir surede bütün kurallar"
+  },
+  {
+   "merak": "Kadir Suresi beş ayettir; ama içinde izhar, idgam, ihfâ ve elif-lam kurallarının neredeyse hepsi vardır. Kuralları ezberlemenin en iyi yolu, onları bildiğiniz bir surede tek tek bulmaktır."
+  },
+  "Aşağıdaki tabloda Kadir, Asr ve Fîl surelerinden seçilmiş ifadelerde bu konudaki kurallar gösterilmiştir. Sınavda çoğu zaman bir ayet verilir ve “hangi kural yoktur?” ya da “hangisi söylenemez?” diye sorulur. Bunun için her sakin nun, tenvin, sakin mim ve elif-lamın yanına gelen harfe bakmak yeterlidir.",
+  {
+   "tablo": [
+    [
+     "İfade",
+     "Kural",
+     "Gerekçe"
+    ],
+    [
+     "مِنْ اَلْفِ شَهْرٍ (Kadr 3)",
+     "İzhar-ı halkî",
+     "Sakin nun + ء"
+    ],
+    [
+     "خَيْرٌ مِنْ (Kadr 3)",
+     "İdgam-ı maal-gunne",
+     "Tenvin + م"
+    ],
+    [
+     "مِنْ كُلِّ اَمْرٍ (Kadr 4)",
+     "İhfâ",
+     "Sakin nun + ك"
+    ],
+    [
+     "سَلَامٌ هِيَ (Kadr 5)",
+     "İzhar-ı halkî",
+     "Tenvin + ه"
+    ],
+    [
+     "مَطْلَعِ الْفَجْرِ (Kadr 5)",
+     "İzhar-ı kameriyye",
+     "Elif-lam + ف"
+    ],
+    [
+     "اِلَّا الَّذ۪ينَ (Asr 3)",
+     "İdgam-ı şemsiyye",
+     "Elif-lam + ل"
+    ],
+    [
+     "بِالْحَقِّ (Asr 3)",
+     "İzhar-ı kameriyye",
+     "Elif-lam + ح"
+    ],
+    [
+     "تَرْم۪يهِمْ بِحِجَارَةٍ (Fîl 4)",
+     "İhfâ-i şefevî",
+     "Sakin mim + ب"
+    ],
+    [
+     "حِجَارَةٍ مِنْ (Fîl 4)",
+     "İdgam-ı maal-gunne",
+     "Tenvin + م"
+    ],
+    [
+     "مِنْ س۪جّ۪يلٍ (Fîl 4)",
+     "İhfâ",
+     "Sakin nun + س"
+    ]
+   ]
+  },
+  {
+   "sinav": "Ayetli sorularda acele etme: Önce sakin nun ve tenvinleri, sonra sakin mimleri, en son elif-lamları işaretle. “خَيْرٌ مِنْ” gibi tenvin + mim örneklerini “idgam-ı misleyn” sanmak sık yapılan hatadır; misleyn sakin mim + mimdir, tenvin + mim ise idgam-ı maal-gunnedir."
+  },
+  {
+   "akil": "Çalışma sırası: sakin nun/tenvin → sakin mim → elif-lam. Tenvin + م = idgam-ı maal-gunne; sakin mim + م = idgam-ı misleyn. Kadr 5’te izhar (سَلَامٌ هِيَ) ve kameriyye (الْفَجْرِ) birlikte."
+  }
+ ],
+ "ozet": [
+  "Tenvin okunuşta sakin nun sesi verir; sakin nun ve tenvinin hükümleri aynıdır: izhar, idgam, iklab, ihfâ.",
+  "İzhar: sakin nun ya da tenvinden sonra boğaz harfleri (ء ه ع ح غ خ) gelirse nun açıkça okunur.",
+  "İdgam: “yermelûn” harflerinden (ي ر م ل و ن) biri gelirse; ي ن م و ile gunneli (maal-gunne), ل ر ile gunnesiz (bilâ-gunne).",
+  "Aynı kelimede nun ve ي/و bulunursa idgam yapılmaz (dünyâ, bünyân, kınvân, sınvân): izhar-ı mutlak.",
+  "İklab: sakin nun ya da tenvinden sonra ب gelirse nun mime çevrilir ve gunneyle okunur.",
+  "İhfâ: kalan 15 harften biri gelirse nun gizlenir ve gunneyle okunur; ت د ط önünde idgama, ق ك önünde izhara yakındır.",
+  "Sakin mimden sonra م gelirse idgam-ı misleyn maal-gunne, ب gelirse ihfâ-i şefevî, diğer harfler gelirse izhar-ı şefevî olur.",
+  "İdgam-ı misleyn: aynı iki harf (اِضْرِبْ بِعَصَاكَ). Mütecâniseyn: aynı mahreç, farklı sıfat (قَالَتْ طَائِفَةٌ ، قَدْ تَبَيَّنَ). Mütekâribeyn: yakın harfler (قُلْ رَبِّ).",
+  "Şemsî harfler (14) elif-lamdan sonra idgam-ı şemsiyye yaptırır; kamerî harflerde (14) lam açıkça okunur (izhar-ı kameriyye).",
+  "Nakıs idgamda birinci harfin bir sıfatı kalır (أَحَطْتُ).",
+  "Sakin mim + و, med harfinden sonra aynı harf, sekte yerleri ve قُلْ نَعَمْ gibi durumlarda idgam yapılmaz.",
+  "Gunne genizden gelen sestir; en kuvvetlisi şeddeli nun ve mimdir."
+ ],
+ "kartlar": [
+  {
+   "o": "Sakin nun ve tenvinin dört hükmü",
+   "a": "İzhar, idgam, iklab, ihfâ."
+  },
+  {
+   "o": "İzhar harfleri",
+   "a": "Boğaz harfleri: ء ه ع ح غ خ."
+  },
+  {
+   "o": "İdgam harfleri",
+   "a": "Yermelûn: ي ر م ل و ن. Gunneli: ي ن م و. Gunnesiz: ل ر."
+  },
+  {
+   "o": "İklab",
+   "a": "Sakin nun ya da tenvinden sonra ب gelince nunun mime çevrilip gunneyle okunması."
+  },
+  {
+   "o": "İhfâ harf sayısı",
+   "a": "15: ت ث ج د ذ ز س ش ص ض ط ظ ف ق ك."
+  },
+  {
+   "o": "İzhar-ı mutlak",
+   "a": "Aynı kelimede sakin nun + ي/و: دُنْيَا ، بُنْيَانٌ ، قِنْوَانٌ ، صِنْوَانٌ."
+  },
+  {
+   "o": "Sakin mimin üç hükmü",
+   "a": "+م: idgam-ı misleyn maal-gunne. +ب: ihfâ-i şefevî. Diğer: izhar-ı şefevî."
+  },
+  {
+   "o": "İdgam-ı misleyn",
+   "a": "Aynı iki harfin art arda gelmesi: اِضْرِبْ بِعَصَاكَ ، قَدْ دَخَلُوا."
+  },
+  {
+   "o": "İdgam-ı mütecâniseyn",
+   "a": "Mahreci aynı, sıfatı farklı harfler: قَالَتْ طَائِفَةٌ ، قَدْ تَبَيَّنَ ، اِذْ ظَلَمُوا ، اِرْكَبْ مَعَنَا."
+  },
+  {
+   "o": "İdgam-ı mütekâribeyn",
+   "a": "Mahreci ya da sıfatı yakın harfler: قُلْ رَبِّ ، اَلَمْ نَخْلُقْكُمْ."
+  },
+  {
+   "o": "Şemsî harfler",
+   "a": "ت ث د ذ ر ز س ش ص ض ط ظ ل ن (14)."
+  },
+  {
+   "o": "Kamerî harfler",
+   "a": "ا ب ج ح خ ع غ ف ق ك م و ه ي (ebğı haccek ve haf akîmeh)."
+  },
+  {
+   "o": "Nakıs idgam örneği",
+   "a": "أَحَطْتُ: ط’nın kalınlığı (itbâk) hissettirilir."
+  },
+  {
+   "o": "Gunnenin en kuvvetli olduğu yer",
+   "a": "Şeddeli nun ve mim: اِنَّ ، ثُمَّ."
+  },
+  {
+   "o": "İzharın dört türü",
+   "a": "Halkî (nun-boğaz), mutlak (dünyâ), şefevî (mim), kameriyye (elif-lam)"
+  },
+  {
+   "o": "İdgam-ı sağîr - kebîr",
+   "a": "Sağîr: ilk harf sakin (Hafs); kebîr: iki harf harekeli (Ebû Amr, Sûsî)"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "k2-01",
+   "z": 1,
+   "s": "Sakin nun veya tenvinden sonra ب harfi gelirse nunun mime çevrilerek gunneyle okunmasına ne ad verilir?",
+   "c": [
+    "İklab",
+    "İzhar",
+    "İdgam-ı bilâ-gunne",
+    "İdgam-ı maal-gunne",
+    "İhfâ"
+   ],
+   "d": 0,
+   "a": "Nunun ب önünde mime dönüşmesi iklabdır (مِنْ بَعْدِ ، اَنْبِئْهُمْ).",
+   "ac": [
+    "Doğru: iklab.",
+    "İzhar boğaz harflerinden önce yapılır.",
+    "İdgam-ı bilâ-gunne lam ve ra’dan önce yapılır.",
+    "İdgam-ı maal-gunne ي ن م و harflerinden önce yapılır.",
+    "İhfâ 15 harften önce yapılır."
+   ],
+   "kay": "Tecvid: sakin nun ve tenvin"
+  },
+  {
+   "id": "k2-13",
+   "z": 2,
+   "s": "Aşağıdaki ifadelerin hangisinde sakin nun izhar ile okunur?",
+   "c": [
+    "مِنْ قَبْلِ",
+    "مِنْ وَالٍ",
+    "اَنْبِئْهُمْ",
+    "مِنْ خَوْفٍ",
+    "مِنْ لَدُنْهُ"
+   ],
+   "d": 3,
+   "a": "Sakin nun ya da tenvinden sonra boğaz harfi (ء ه ع ح غ خ) gelirse izhar yapılır. مِنْ خَوْفٍ ifadesinde nundan sonra خ gelmiştir.",
+   "ac": [
+    "ق ihfâ harfidir; ihfâ-i ab‘ad yapılır.",
+    "و gunneli idgam harfidir.",
+    "Sakin nundan sonra ب gelmiştir; iklab yapılır.",
+    "Doğrudur: خ boğaz harfidir, izhar yapılır.",
+    "ل gunnesiz idgam harfidir."
+   ],
+   "kay": "Kureyş, 106/4; Konu: Sakin nun ve tenvin"
+  },
+  {
+   "id": "k2-04",
+   "z": 2,
+   "s": "Bir tecvid hocası öğrencilerine şu açıklamayı yapmıştır: “Sakin mimden sonra be harfi gelirse mim açıkça okunmaz; dudaklar hafifçe kapatılarak mim gizlenir ve genizden gunneyle okunur. تَرْمِيهِمْ بِحِجَارَةٍ ifadesinde olduğu gibi.”\n\nHocanın anlattığı kural aşağıdakilerden hangisidir?",
+   "c": [
+    "İzhar-ı şefevî",
+    "İklab",
+    "İdgam-ı mütekâribeyn",
+    "İhfâ-i şefevî",
+    "İdgam-ı misleyn maal-gunne"
+   ],
+   "d": 3,
+   "a": "Sakin mimden sonra ب gelince mim dudakla gizlenir ve gunneyle okunur: ihfâ-i şefevî.",
+   "ac": [
+    "İzhar-ı şefevîde mim açık okunur; ب ve م dışındaki harflerden önce olur.",
+    "İklab sakin nun ya da tenvinden sonra ب gelince olur; burada sakin mim vardır.",
+    "Mütekâribeyn yakın mahreçli harfler arasında olur (lam-ra gibi).",
+    "Doğru: ihfâ-i şefevî.",
+    "İdgam-ı misleyn maal-gunne sakin mimden sonra mim gelince olur."
+   ],
+   "kay": "Tecvid: sakin mim"
+  },
+  {
+   "id": "k2-07",
+   "z": 2,
+   "s": "قَالَتْ طَائِفَةٌ ifadesinde ت harfinin ط harfine idgam edilmesi hangi idgam çeşididir?",
+   "c": [
+    "İdgam-ı mütekâribeyn",
+    "İdgam-ı mütecâniseyn",
+    "İdgam-ı misleyn",
+    "İdgam-ı maal-gunne",
+    "İklab"
+   ],
+   "d": 1,
+   "a": "ت ve ط’nın mahreci aynı, sıfatları farklıdır; bu mütecâniseyn idgamıdır.",
+   "ac": [
+    "Mütekâribeyn mahreci ya da sıfatı yakın harfler arasında olur (lam-ra gibi).",
+    "Doğru: mütecâniseyn.",
+    "Misleyn aynı iki harf arasında olur.",
+    "Bu, sakin nun ve tenvine özgü bir kuraldır.",
+    "İklab nun ile be arasında olur."
+   ],
+   "kay": "Âl-i İmrân, 3/72"
+  },
+  {
+   "id": "k2-11",
+   "z": 3,
+   "s": "Tecvid kurallarıyla ilgili\nI. İzhar harfleri boğaz harfleridir.\nII. İdgam-ı maal-gunne bir kelime içinde olursa yapılmaz; izhar edilir.\nIII. Sakin mimden sonra ب gelirse izhar-ı şefevî olur.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Sakin mimden sonra ب gelirse ihfâ-i şefevî olur; III yanlıştır. دُنْيَا ve قِنْوَانٌ gibi kelimelerde idgam yapılmaz (izhar-ı mutlak).",
+   "ac": [
+    "II de doğrudur.",
+    "III yanlıştır.",
+    "Doğru: I ve II.",
+    "III yanlıştır.",
+    "III yanlıştır."
+   ],
+   "kay": "Tecvid: sakin nun ve sakin mim"
+  },
+  {
+   "id": "kb11-01",
+   "z": 2,
+   "s": "Aşağıdaki ifadelerin hangisinde idgam-ı bilâ-gunne vardır?",
+   "c": [
+    "مَنْ يَقُولُ",
+    "مِنْ بَعْدِ",
+    "هُدًى لِلْمُتَّقِينَ",
+    "عِنْدَ",
+    "مِنْ عِلْمٍ"
+   ],
+   "d": 2,
+   "a": "Tenvinden sonra lam geldiği için gunnesiz idgam (idgam-ı bilâ-gunne) yapılır.",
+   "ac": [
+    "Sakin nundan sonra ي vardır: idgam-ı maal-gunne.",
+    "Sakin nundan sonra ب vardır: iklab.",
+    "Doğru: tenvin + lam → idgam-ı bilâ-gunne.",
+    "Sakin nundan sonra د vardır: ihfâ.",
+    "Sakin nundan sonra ع vardır: izhar."
+   ],
+   "kay": "Tecvid: sakin nun ve tenvin"
+  },
+  {
+   "id": "kb11-02",
+   "z": 1,
+   "s": "Tenvinden sonra aşağıdaki harflerden hangisi gelirse ihfâ yapılır?",
+   "c": [
+    "ح",
+    "ي",
+    "ب",
+    "ل",
+    "ق"
+   ],
+   "d": 4,
+   "a": "Kaf ihfâ harflerindendir; hatta izhara en yakın ihfâ (ihfâ-i ab‘ad) bu harften önce yapılır.",
+   "ac": [
+    "Boğaz harfidir: izhar.",
+    "İdgam-ı maal-gunne yapılır.",
+    "İklab yapılır.",
+    "İdgam-ı bilâ-gunne yapılır.",
+    "Doğru: ihfâ."
+   ],
+   "kay": "Tecvid: ihfâ"
+  },
+  {
+   "id": "kb11-03",
+   "z": 3,
+   "s": "Sakin nundan sonra ي ya da و harfi gelirse normalde gunneli idgam yapılır. Ancak دُنْيَا ve صِنْوَانٌ gibi kelimelerde nun açıkça okunur.\n\nBu kelimelerde idgam yapılmamasının sebebi ve bu okuyuşun adı aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Nun ile sonraki harfin aynı kelimede bulunması – izhar-ı mutlak",
+    "Sonraki harfin boğaz harfi olması – izhar-ı halkî",
+    "Kelimenin vakıf yeri olması – sekte",
+    "Nunun tenvin olması – iklab",
+    "Sonraki harfin kalın olması – ihfâ"
+   ],
+   "d": 0,
+   "a": "İdgam-ı maal-gunne iki kelime arasında yapılır. Nun ile ي/و aynı kelimede olursa kelimenin aslı karışmasın diye idgam yapılmaz; buna izhar-ı mutlak denir.",
+   "ac": [
+    "Doğru.",
+    "ي ve و boğaz harfi değildir.",
+    "Sekte nefes almadan duraklamadır; burada söz konusu değildir.",
+    "Bu kelimelerde tenvin değil sakin nun vardır; iklab da ب önünde olur.",
+    "ي ve و kalın harf değildir; ihfâ harfi de değildir."
+   ],
+   "kay": "Tecvid: izhar-ı mutlak"
+  },
+  {
+   "id": "kb11-04",
+   "z": 2,
+   "s": "Aşağıdaki kelimelerin hangisinde elif-lam takısındaki lam okunmaz ve sonraki harf şeddeli okunur?",
+   "c": [
+    "اَلْقَمَرُ",
+    "اَلْحَمْدُ",
+    "اَلنَّاسُ",
+    "اَلْكِتَابُ",
+    "اَلْيَوْمَ"
+   ],
+   "d": 2,
+   "a": "Nun şemsî bir harftir; elif-lamdan sonra gelince lam okunmaz (idgam-ı şemsiyye).",
+   "ac": [
+    "Kaf kamerî harftir; lam açık okunur.",
+    "Ha kamerî harftir; lam açık okunur.",
+    "Doğru: idgam-ı şemsiyye.",
+    "Kef kamerî harftir; lam açık okunur.",
+    "Ye kamerî harftir; lam açık okunur."
+   ],
+   "kay": "Tecvid: şemsî ve kamerî harfler"
+  },
+  {
+   "id": "kb11-05",
+   "z": 2,
+   "s": "Bir öğrenci قُلْ رَبِّ ifadesini okurken sakin lamı açıkça telaffuz etmiş; hocası ise lamın ra harfine katılarak “kurrabbi” şeklinde okunması gerektiğini söylemiştir.\n\nHocanın hatırlattığı kural aşağıdakilerden hangisidir?",
+   "c": [
+    "İdgam-ı mütecâniseyn",
+    "İdgam-ı mütekâribeyn",
+    "İdgam-ı misleyn",
+    "İdgam-ı şemsiyye",
+    "İdgam-ı bilâ-gunne"
+   ],
+   "d": 1,
+   "a": "Lam ve ra’nın mahreçleri birbirine yakındır; sakin lamın ra’ya katılması idgam-ı mütekâribeyndir.",
+   "ac": [
+    "Mütecâniseyn mahreci aynı harfler arasında olur (t-ط gibi).",
+    "Doğru: mütekâribeyn.",
+    "Misleyn aynı iki harf arasında olur.",
+    "Şemsiyye elif-lam takısıyla ilgilidir; buradaki lam fiile aittir.",
+    "İdgam-ı bilâ-gunne sakin nun ve tenvinle ilgilidir."
+   ],
+   "kay": "Tecvid: idgam çeşitleri"
+  },
+  {
+   "id": "kb11-06",
+   "z": 3,
+   "s": "Aşağıdaki durumların hangisinde idgam yapılmaz?",
+   "c": [
+    "Sakin dalden sonra dal gelmesi",
+    "Sakin teden sonra tı gelmesi",
+    "Sakin mimden sonra mim gelmesi",
+    "Sakin lamdan (lam-ı fiil) sonra ra gelmesi",
+    "Aynı kelimede sakin nundan sonra ye gelmesi"
+   ],
+   "d": 4,
+   "a": "Aynı kelimede sakin nun ile ye bulunursa (دُنْيَا) idgam yapılmaz; izhar-ı mutlak olur.",
+   "ac": [
+    "İdgam-ı misleyn yapılır (قَدْ دَخَلُوا).",
+    "İdgam-ı mütecâniseyn yapılır (قَالَتْ طَائِفَةٌ).",
+    "İdgam-ı misleyn maal-gunne yapılır.",
+    "İdgam-ı mütekâribeyn yapılır (قُلْ رَبِّ).",
+    "Doğru: izhar-ı mutlak."
+   ],
+   "kay": "Tecvid: idgam"
+  },
+  {
+   "id": "kb11-07",
+   "z": 2,
+   "s": "Gunnenin en kuvvetli olarak yapıldığı durum aşağıdakilerden hangisidir?",
+   "c": [
+    "Sakin nunun izharla okunduğu durum",
+    "Harekeli nun ve mim harfleri",
+    "İzhar-ı şefevî",
+    "Şeddeli nun ve mim harfleri",
+    "İdgam-ı bilâ-gunne"
+   ],
+   "d": 3,
+   "a": "Gunnenin en kuvvetli olduğu yer şeddeli nun ve mimdir (اِنَّ ، ثُمَّ).",
+   "ac": [
+    "İzharda gunne en aza iner.",
+    "Harekeli nun ve mimde gunne en azdır.",
+    "İzhar-ı şefevîde mim açık, gunnesi azdır.",
+    "Doğru.",
+    "İdgam-ı bilâ-gunnede gunne yoktur."
+   ],
+   "kay": "Tecvid: gunne"
+  },
+  {
+   "id": "kb11-08",
+   "z": 2,
+   "s": "Felak Suresi’ndeki بِرَبِّ الْفَلَقِ مِنْ شَرِّ مَا خَلَقَ ve وَمِنْ شَرِّ غَاسِقٍ اِذَا وَقَبَ ifadeleriyle ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "شَرِّ kelimesindeki ra harfi kalın okunur.",
+    "الْفَلَقِ kelimesinde lam açıkça okunur (izhar-ı kameriyye).",
+    "غَاسِقٍ اِذَا ifadesinde tenvinden sonra hemze geldiği için izhar yapılır.",
+    "خَلَقَ kelimesindeki خ harfi kalın okunur.",
+    "مِنْ شَرِّ ifadesinde ihfâ vardır."
+   ],
+   "d": 0,
+   "a": "شَرِّ kelimesindeki ra şeddeli ve esrelidir; esreli ra ince okunur. Diğer bilgiler doğrudur.",
+   "ac": [
+    "Yanlıştır: esreli ra ince okunur.",
+    "Doğrudur: ف kamerî harftir.",
+    "Doğrudur: hemze boğaz harfidir.",
+    "Doğrudur: خ isti‘lâ harfidir.",
+    "Doğrudur: ش ihfâ harfidir."
+   ],
+   "kay": "Felak, 113/1-3"
+  },
+  {
+   "id": "kb11-09",
+   "z": 3,
+   "s": "فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ (Zilzâl, 99/7)\n\nBu ayetteki tecvid kurallarıyla ilgili aşağıdakilerden hangisi söylenemez?",
+   "c": [
+    "ذَرَّةٍ خَيْرًا ifadesinde ihfâ vardır.",
+    "مَنْ يَعْمَلْ ifadesinde idgam-ı maal-gunne vardır.",
+    "خَيْرًا يَرَهُ ifadesinde idgam-ı maal-gunne vardır.",
+    "مِثْقَالَ kelimesindeki kaf kalın okunur.",
+    "ذَرَّةٍ kelimesindeki ra kalın okunur."
+   ],
+   "d": 0,
+   "a": "ذَرَّةٍ’deki tenvinden sonra خ gelir; خ boğaz harfi olduğu için izhar yapılır, ihfâ değil.",
+   "ac": [
+    "Söylenemez: tenvin + خ → izhar. Doğru cevap budur.",
+    "Söylenebilir: sakin nun + ي.",
+    "Söylenebilir: tenvin + ي.",
+    "Söylenebilir: kaf daima kalındır.",
+    "Söylenebilir: üstünlü ra kalın okunur."
+   ],
+   "kay": "Zilzâl, 99/7"
+  },
+  {
+   "id": "kb11-10",
+   "z": 2,
+   "s": "عَلَيْهِمْ وَلَا الضَّٓالّ۪ينَ ifadesinde sakin mimden sonra vav gelmektedir.\n\nBu durumda sakin mim nasıl okunur?",
+   "c": [
+    "Mim vava idgam edilir.",
+    "Mim okunmaz.",
+    "Mim gizlenerek gunneyle okunur (ihfâ-i şefevî).",
+    "Mim nuna çevrilir.",
+    "Mim açıkça okunur (izhar-ı şefevî)."
+   ],
+   "d": 4,
+   "a": "Sakin mim yalnız mime idgam olur ve ب önünde ihfâ edilir. Diğer harflerden, özellikle و ve ف’den önce açıkça okunur: izhar-ı şefevî.",
+   "ac": [
+    "Sakin mim vava idgam edilmez.",
+    "Mim açıkça okunur.",
+    "İhfâ-i şefevî ب önünde olur.",
+    "Böyle bir kural yoktur.",
+    "Doğru: izhar-ı şefevî."
+   ],
+   "kay": "Fâtiha, 1/7"
+  },
+  {
+   "id": "kb11-z01",
+   "z": 3,
+   "s": "لَيْلَةُ الْقَدْرِ خَيْرٌ مِنْ اَلْفِ شَهْرٍ (Kadr, 97/3)\n\nBu ayetle ilgili\nI. خَيْرٌ مِنْ ifadesinde idgam-ı maal-gunne vardır.\nII. مِنْ اَلْفِ ifadesinde izhar vardır.\nIII. مِنْ اَلْفِ ifadesinde sakin nun gizlenerek gunneyle okunur.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "Tenvinden sonra م gelince gunneli idgam yapılır. Sakin nundan sonra hemze (boğaz harfi) gelince izhar yapılır; gizleme (ihfâ) söz konusu değildir.",
+   "ac": [
+    "Eksiktir: II de doğrudur.",
+    "Doğrudur: I ve II doğrudur.",
+    "III yanlıştır: hemze önünde izhar yapılır.",
+    "III yanlış olduğu için doğru değildir.",
+    "III yanlış olduğu için doğru değildir."
+   ],
+   "kay": "Kadr, 97/3"
+  },
+  {
+   "id": "kb11-z02",
+   "z": 3,
+   "s": "İdgam çeşitleriyle ilgili\nI. اِذْ ظَلَمُوا ifadesinde idgam-ı mütecâniseyn vardır.\nII. قُلْ رَبِّ ifadesinde idgam-ı mütekâribeyn vardır.\nIII. قَدْ دَخَلُوا ifadesinde idgam-ı mütecâniseyn vardır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve III",
+    "II ve III",
+    "I ve II"
+   ],
+   "d": 4,
+   "a": "ذ ile ظ aynı mahreçten çıkar (mütecâniseyn); ل ile ر yakın harflerdir (mütekâribeyn). قَدْ دَخَلُوا’da aynı iki harf (د-د) buluştuğu için idgam-ı misleyndir.",
+   "ac": [
+    "Eksiktir: II de doğrudur.",
+    "Eksiktir: I de doğrudur.",
+    "III yanlıştır: misleyndir.",
+    "III yanlıştır.",
+    "Doğrudur: I ve II doğrudur."
+   ],
+   "kay": "Bakara, 2/97; Nisâ, 4/64; Mâide, 5/61"
+  },
+  {
+   "id": "kb11-z03",
+   "z": 3,
+   "s": "İdgam, harflerin hareke durumuna göre de ikiye ayrılır. Birinci harf aslen sakinse idgam-ı sağîr, iki harf de harekeli olup birincisi sakinleştirilerek idgam ediliyorsa idgam-ı kebîr söz konusudur. İdgam-ı kebîr Ebû Amr’ın kıraatinde, özellikle Sûsî rivayetinde yaygındır; Hafs rivayetindeki örnekleri ise çok sınırlıdır.\n\nBu parçaya göre aşağıdakilerden hangisi söylenebilir?",
+   "c": [
+    "İdgam-ı kebîr Hafs rivayetinin en belirgin özelliğidir.",
+    "İdgam-ı sağîrde iki harf de harekelidir.",
+    "قُلْ رَبِّ ifadesindeki idgam, sağîr idgama örnektir.",
+    "İdgam-ı kebîr yalnız şemsî harflerde yapılır.",
+    "Sûsî rivayetinde hiç idgam yapılmaz."
+   ],
+   "d": 2,
+   "a": "قُلْ رَبِّ ifadesinde lam aslen sakindir; dolayısıyla buradaki idgam sağîrdir. Hafs’ta idgamların neredeyse tamamı bu türdendir.",
+   "ac": [
+    "Parçaya göre Hafs’ta kebîr örnekleri sınırlıdır.",
+    "Sağîrde birinci harf sakindir.",
+    "Doğrudur: lam aslen sakin olduğu için sağîrdir.",
+    "Parçada böyle bir sınırlama yoktur.",
+    "Parçaya göre Sûsî’de kebîr idgam yaygındır."
+   ],
+   "kay": "Konu: İdgam-ı sağîr ve kebîr"
+  },
+  {
+   "id": "kb11-z04",
+   "z": 3,
+   "s": "Aşağıdaki ifade - tecvid kuralı eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "مِنْ بَعْدِ - İklab",
+    "مِنْ كُلِّ - İdgam-ı maal-gunne",
+    "مِنْ رَبِّهِمْ - İdgam-ı bilâ-gunne",
+    "عَلِيمٌ حَكِيمٌ - İzhar",
+    "تَرْم۪يهِمْ بِحِجَارَةٍ - İhfâ-i şefevî"
+   ],
+   "d": 1,
+   "a": "مِنْ كُلِّ ifadesinde sakin nundan sonra ك gelir; ك ihfâ harfidir (ihfâ-i ab‘ad). Gunneli idgam yalnız ي ن م و önünde yapılır.",
+   "ac": [
+    "Doğrudur: nun + ب.",
+    "Yanlıştır: nun + ك ihfâdır.",
+    "Doğrudur: nun + ر.",
+    "Doğrudur: tenvin + ح.",
+    "Doğrudur: sakin mim + ب."
+   ],
+   "kay": "Konu: Sakin nun, tenvin ve sakin mim"
+  },
+  {
+   "id": "kb11-z05",
+   "z": 3,
+   "s": "Bir öğrenci عِنْدَ ve مِنْ قَبْلِ kelimelerindeki ihfâları aynı biçimde okumaktadır. Hocası ona, ihfânın sonraki harfe göre derecelendiğini, ت د ط harflerinden önce idgama yakın, ق ك harflerinden önce ise izhara yakın yapıldığını hatırlatmıştır.\n\nBu açıklamaya göre عِنْدَ kelimesindeki ihfânın derecesi aşağıdakilerden hangisidir?",
+   "c": [
+    "İhfâ-i şefevî",
+    "İhfâ-i ab‘ad",
+    "İhfâ-i evsat",
+    "İhfâ-i akreb",
+    "İzhar-ı mutlak"
+   ],
+   "d": 3,
+   "a": "د harfinden önce yapılan ihfâ idgama en yakın olan ihfâ-i akrebdir. مِنْ قَبْلِ’deki ise ihfâ-i ab‘addır.",
+   "ac": [
+    "İhfâ-i şefevî sakin mim ile ب arasında olur.",
+    "Bu, ق ve ك önündeki derecedir.",
+    "Bu, diğer ihfâ harfleri önündeki orta derecedir.",
+    "Doğrudur: د önünde ihfâ-i akreb.",
+    "İzhar-ı mutlak, aynı kelimede nun + ي / و durumudur."
+   ],
+   "kay": "Konu: İhfânın dereceleri"
+  },
+  {
+   "id": "kb11-z06",
+   "z": 3,
+   "s": "Aşağıdaki ifadelerin hangisinde gunne yapılmaz?",
+   "c": [
+    "اِنَّ",
+    "مِنْ بَعْدِ",
+    "مَنْ يَقُولُ",
+    "عِنْدَ",
+    "مِنْ رَسُولٍ"
+   ],
+   "d": 4,
+   "a": "Sakin nundan sonra ل ya da ر gelirse gunnesiz idgam (idgam-ı bilâ-gunne) yapılır. Diğerlerinde şedde, gunneli idgam, ihfâ ve iklab sebebiyle gunne vardır.",
+   "ac": [
+    "Şeddeli nun en kuvvetli gunneyle okunur.",
+    "İklabda nun mime çevrilir ve gunneyle okunur.",
+    "Nun + ي gunneli idgamdır.",
+    "İhfâda gunne vardır.",
+    "Doğrudur: nun + ر gunnesiz idgamdır."
+   ],
+   "kay": "Konu: Gunne"
+  }
+ ]
+}

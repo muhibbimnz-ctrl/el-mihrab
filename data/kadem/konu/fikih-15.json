@@ -1,0 +1,1026 @@
+{
+ "id": "fikih-15",
+ "ad": "Helal ve Haram: Yiyecek ve İçecekler, Kesim (Zekât) ve Av; Giyim, Kılık ve Süslenme",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Helal ve haramın ölçüsü"
+  },
+  {
+   "merak": "Bir sahabi Hz. Peygamber’e peynir, yağ ve kürkün hükmünü sordu. Cevap şuydu: “Helal, Allah’ın kitabında helal kıldığıdır; haram da kitabında haram kıldığıdır. Hakkında sustukları ise affettiklerindendir.” Yani asıl olan nedir?"
+  },
+  "İslam fıkhında eşya ve yiyeceklerde asıl olan mubahlıktır (“el-aslu fi’l-eşyâi’l-ibâha”). Bir şeyin haram olması için delil gerekir; helal olması için delil aranmaz. Haram kılma yetkisi yalnız Allah’a aittir; insanların kendi keyfiyle helali haram, haramı helal saymaları Kur’an’da şiddetle kınanır (Nahl, 16/116; Mâide, 5/87). Haramlar sınırlı, helaller geniştir.",
+  {
+   "ayet": "Ey iman edenler! Allah’ın size helal kıldığı temiz şeyleri haram kılmayın ve sınırı aşmayın. Şüphesiz Allah sınırı aşanları sevmez. Allah’ın size verdiği rızıklardan helal ve temiz olarak yiyin…",
+   "kay": "Mâide, 5/87-88"
+  },
+  {
+   "ayet": "O (Peygamber) onlara temiz şeyleri helal, pis şeyleri (habâis) haram kılar…",
+   "kay": "A’râf, 7/157"
+  },
+  "Yiyecek ve içeceklerde haram kılmanın temel gerekçeleri: pislik ve zarar (habâis: leş, kan, domuz), aklı gidermek (hamr), Allah’tan başkası adına kesilmek (tevhide aykırılık), başkasının hakkı (gasp ve haram kazanç). Yasakların amacı can, akıl, din, nesil ve malın korunmasıdır (makâsıdü’ş-şerîa). İsraf (ihtiyaç fazlası tüketim) ve tebzir (gereksiz yere saçıp savurma) da haramdır (A’râf, 7/31; İsrâ, 17/26-27).",
+  "Zaruret: Ölüm veya ağır bir sağlık zararı tehlikesiyle karşılaşan kişi, hayatını kurtaracak kadar haram yiyip içebilir. “Zaruretler yasakları mubah kılar” (Mecelle, md. 21) ve “Zaruret kendi miktarınca takdir olunur” (Mecelle, md. 22) kaideleri bu hükmün ifadesidir. Zaruret, zevk ve keyif amacıyla değil, “isteyerek değil, sınırı aşmayarak” olmalıdır (Bakara, 2/173). Başkasının hakkını ise zaruret tamamen düşürmez: açlıktan ölmek üzere olan başkasının yiyeceğini yerse sonra bedelini öder (“Zaruret başkasının hakkını iptal etmez” – Mecelle, md. 33).",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Anlamı"
+    ],
+    [
+     "Helal",
+     "Yapılmasında dinen sakınca olmayan"
+    ],
+    [
+     "Haram",
+     "Kesin delille yasaklanan; yapan günahkâr olur"
+    ],
+    [
+     "Tahrîmen mekruh (Hanefî)",
+     "Harama yakın; zannî delille yasaklanan"
+    ],
+    [
+     "Tenzîhen mekruh",
+     "Helale yakın; yapılmaması daha iyi olan"
+    ],
+    [
+     "Şüpheli (müştebih)",
+     "Helal mi haram mı olduğu açık olmayan; sakınmak takvadır"
+    ]
+   ]
+  },
+  {
+   "hadis": "Helal bellidir, haram da bellidir. Bu ikisi arasında birçok insanın bilmediği şüpheli şeyler vardır. Kim şüpheli şeylerden sakınırsa dinini ve ırzını korumuş olur…",
+   "kay": "Buhârî, Îmân, 39; Müslim, Müsâkât, 107"
+  },
+  {
+   "sinav": "“Eşyada asıl olan ibâhadır” ilkesi ve zaruret kaideleri sorulur: Mecelle 21 (zaruretler memnu olanı mubah kılar), 22 (zaruret kendi miktarınca takdir olunur), 33 (ıztırar gayrın hakkını iptal etmez). Haram yiyeceğin zaruretle yalnız ölümü önleyecek kadarı mubahtır."
+  },
+  {
+   "akil": "Asıl olan helallik; haram için delil gerekir. Haram kılmak yalnız Allah’ın hakkı. Zaruret haramı mubah kılar ama miktarınca; başkasının hakkı ödenir."
+  },
+  {
+   "b": "2. Yiyecekler: helal ve haram hayvanlar"
+  },
+  {
+   "merak": "Bir Türk turist Japonya’da ahtapot, İspanya’da midye, Fransa’da kurbağa bacağı ikram edildiğinde hangisini yiyebileceğini merak etti. Bir Şâfiî arkadaşı “Hepsini” dedi, Hanefî imam ise “Yalnız balığı” dedi."
+  },
+  {
+   "ayet": "Leş, kan, domuz eti, Allah’tan başkası adına kesilen, boğulmuş, vurulmuş, yukarıdan düşmüş, boynuzlanmış ve yırtıcı hayvanların yediği hayvanlar —canlı yetişip kestikleriniz hariç— ve dikili taşlar üzerine kesilenler size haram kılındı…",
+   "kay": "Mâide, 5/3"
+  },
+  {
+   "tablo": [
+    [
+     "Mâide 3’te sayılan",
+     "Anlamı"
+    ],
+    [
+     "Meyte (leş)",
+     "Usulüne uygun kesilmeden ölen hayvan (balık ve çekirge hariç)"
+    ],
+    [
+     "Dem (kan)",
+     "Akıtılmış kan; et içinde kalan kan, ciğer ve dalak helal"
+    ],
+    [
+     "Domuz eti",
+     "Domuzun her parçası (Hanefîde necis-i ayn)"
+    ],
+    [
+     "Allah’tan başkası adına kesilen",
+     "Put, kişi vb. adına kesilen"
+    ],
+    [
+     "Münhanika",
+     "Boğularak ölen"
+    ],
+    [
+     "Mevkûze",
+     "Darbeyle (taş, sopa) vurularak ölen"
+    ],
+    [
+     "Mütereddiye",
+     "Yüksekten düşerek ölen"
+    ],
+    [
+     "Natîha",
+     "Başka hayvan tarafından boynuzlanarak ölen"
+    ],
+    [
+     "Yırtıcı hayvanın yediği",
+     "Parçalanıp ölen; canlı yetişilip kesilirse helal (“illâ mâ zekkeytüm”)"
+    ],
+    [
+     "Nusub üzerine kesilen",
+     "Dikili taşlar (putlar) üzerine kesilen"
+    ]
+   ]
+  },
+  {
+   "hadis": "Resûlullah azı dişi olan her yırtıcı hayvanın ve pençesi olan her yırtıcı kuşun etini yemeyi yasakladı.",
+   "kay": "Müslim, Sayd, 16"
+  },
+  {
+   "hadis": "Bize iki ölü ve iki kan helal kılındı. İki ölü balık ve çekirgedir; iki kan da ciğer ve dalaktır.",
+   "kay": "İbn Mâce, Et’ime, 31"
+  },
+  {
+   "tablo": [
+    [
+     "Hayvan",
+     "Hanefî",
+     "Diğer mezhepler"
+    ],
+    [
+     "Koyun, keçi, sığır, deve, tavuk, kaz, ördek, hindi",
+     "Helal",
+     "Helal"
+    ],
+    [
+     "Geyik, ceylan, yaban keçisi, yabani eşek, tavşan",
+     "Helal",
+     "Helal"
+    ],
+    [
+     "Güvercin, serçe, bıldırcın, keklik",
+     "Helal",
+     "Helal"
+    ],
+    [
+     "Çekirge",
+     "Helal, kesim gerekmez",
+     "Helal"
+    ],
+    [
+     "Azı dişli yırtıcılar (kurt, aslan, kaplan, köpek, kedi, ayı, maymun)",
+     "Haram",
+     "Çoğunluk haram; Mâlikîde bazıları mekruh"
+    ],
+    [
+     "Pençeli yırtıcı kuşlar (kartal, şahin, doğan, akbaba)",
+     "Haram",
+     "Çoğunluk haram"
+    ],
+    [
+     "Evcil eşek, katır",
+     "Haram (katırda anaya bakılır)",
+     "Haram"
+    ],
+    [
+     "At",
+     "Ebû Hanîfe: tahrîmen mekruh; İmameyn: helal (fetva İmameyn’e göre helal)",
+     "Helal"
+    ],
+    [
+     "Fare, yılan, akrep, böcekler, haşerat",
+     "Haram",
+     "Çoğunluk haram"
+    ],
+    [
+     "Kirpi",
+     "Haram",
+     "Şâfiî ve Mâlikî: helal"
+    ],
+    [
+     "Leşle beslenen kuzgun ve karga (ekin kargası hariç)",
+     "Haram/mekruh",
+     "Haram"
+    ],
+    [
+     "Pislikle beslenen tavuk (cellâle)",
+     "Birkaç gün temiz yemle beslenmeden mekruh",
+     "Benzer"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Su hayvanları",
+     "Hanefî",
+     "Şâfiî, Mâlikî, Hanbelî"
+    ],
+    [
+     "Balık (her türü)",
+     "Helal; kesim gerekmez",
+     "Helal"
+    ],
+    [
+     "Kendiliğinden ölüp su yüzüne çıkan balık (tâfî)",
+     "Mekruh (yenmez)",
+     "Helal"
+    ],
+    [
+     "Midye, karides, yengeç, ahtapot, istakoz",
+     "Yenmez (balık dışındaki deniz hayvanları)",
+     "Helal (Mâlikî ve Şâfiî; Hanbelîde çoğu helal)"
+    ],
+    [
+     "Kurbağa, kaplumbağa, timsah",
+     "Haram",
+     "Kurbağa ve timsah çoğunlukça haram; Mâlikîde geniş"
+    ]
+   ]
+  },
+  "Hanefîlerin balık dışındaki deniz hayvanlarını yememe görüşü, “pis şeyler” (habâis) ayetinin ve deniz ürünlerinin balık dışındakilerinin bu kapsama girdiği yorumuna dayanır. Diğer mezhepler ise “Deniz avı ve onun yiyeceği… size helal kılındı” (Mâide, 5/96) ayetini ve “Denizin suyu temiz, ölüsü helaldir” (Ebû Dâvûd, Tahâret, 41; Tirmizî, Tahâret, 52) hadisini genel kabul eder. Diyanet, midye, karides gibi deniz ürünlerinin diğer mezheplere göre helal olduğunu, Hanefî mensubunun bunları yemesinin de mümkün olduğunu ifade eder.",
+  {
+   "kontrol": "Diyanet’in karides, midye gibi deniz ürünleri hakkındaki güncel fetvası (Hanefî mezhebi mensubu için “yenmesinde sakınca yoktur” yönünde olup olmadığı) Din İşleri Yüksek Kurulu fetvalarından kontrol edilmelidir."
+  },
+  "Diğer yiyecekler: Jelatin domuz kaynaklıysa haramdır; Hanefî âlimlerin bir kısmı maddenin özünün değişmesini (istihâle) temizlik ve helallik sebebi saydığından, kimyasal dönüşüm geçirmiş katkılar konusunda farklı görüşler vardır. Diyanet, kaynağı belli olmayan ürünlerde helal sertifikalı ürünlerin tercih edilmesini tavsiye eder. Gayrimüslim ülkelerde ehl-i kitabın usulüne göre kestiği etler helal sayılır; kesim yöntemi şüpheliyse sakınmak gerekir.",
+  {
+   "sinav": "Hanefî – Şâfiî farkı en çok deniz ürünlerinde sorulur: Hanefîde yalnız balık helal, tâfî balık mekruh; Şâfiîde bütün deniz hayvanları helal. At eti Ebû Hanîfe’de mekruh, İmameyn’de helal. Ciğer ve dalak kan olduğu hâlde helal; balık ve çekirge leş olduğu hâlde helal."
+  },
+  {
+   "akil": "Mâide 3: leş, kan, domuz, Allah’tan başkası adına kesilen, boğulan, vurulan, düşen, boynuzlanan, yırtıcının parçaladığı. Azı dişli yırtıcı ve pençeli kuş haram (Müslim). Hanefîde denizde yalnız balık helal. İki ölü: balık-çekirge; iki kan: ciğer-dalak."
+  },
+  {
+   "b": "3. İçecekler, uyuşturucu ve keyif verici maddeler"
+  },
+  {
+   "merak": "İçki yasağı tek bir ayetle gelmedi. Önce “zararı faydasından büyüktür” denildi, sonra “sarhoşken namaza yaklaşmayın” buyruldu, en sonunda “pis bir şeydir, ondan kaçının” hükmü indi. Neden kademe kademe?"
+  },
+  {
+   "tablo": [
+    [
+     "Aşama",
+     "Ayet",
+     "Hüküm"
+    ],
+    [
+     "1",
+     "Nahl, 16/67 (Mekkî)",
+     "Hurma ve üzümden sarhoş edici içki ve güzel rızık elde edildiği anlatılır; övgü yok"
+    ],
+    [
+     "2",
+     "Bakara, 2/219",
+     "İçki ve kumarda büyük günah ve bazı faydalar var, günahı faydasından büyük"
+    ],
+    [
+     "3",
+     "Nisâ, 4/43",
+     "Sarhoşken namaza yaklaşmayın"
+    ],
+    [
+     "4",
+     "Mâide, 5/90-91",
+     "Hamr, kumar, dikili taşlar ve fal okları şeytan işi pisliktir; kaçının (kesin yasak, hicrî 4. yıl civarı)"
+    ]
+   ]
+  },
+  {
+   "ayet": "Ey iman edenler! Şarap, kumar, dikili taşlar ve fal okları şeytan işi birer pisliktir; bunlardan kaçının ki kurtuluşa eresiniz.",
+   "kay": "Mâide, 5/90"
+  },
+  {
+   "hadis": "Sarhoşluk veren her şey hamrdır ve her sarhoş edici haramdır.",
+   "kay": "Müslim, Eşribe, 73"
+  },
+  {
+   "hadis": "Çoğu sarhoş eden şeyin azı da haramdır.",
+   "kay": "Ebû Dâvûd, Eşribe, 5; Tirmizî, Eşribe, 3"
+  },
+  "Ebû Hanîfe ve Ebû Yûsuf’a göre hamr, özellikle üzüm suyundan yapılan sarhoş edici içkidir; azı da çoğu da haramdır ve haddi gerektirir. Hurma, bal, buğday gibi başka maddelerden yapılan içkilerin (nebîz) ise sarhoş etmeyecek miktarını onlar caiz görmüştür. İmam Muhammed ve diğer üç mezhep, “Her sarhoş edici hamrdır” hadisi gereği maddesi ne olursa olsun sarhoşluk veren her içkinin azını da çoğunu da haram saymıştır. Hanefîlerde fetva İmam Muhammed’in görüşüne göredir.",
+  "Uyuşturucu maddeler (esrar, eroin, afyon türevleri, sentetik uyuşturucular) aklı giderdiği ve sağlığa ciddi zarar verdiği için haramdır; kıyas ve “Zarar vermek de zarara zararla karşılık vermek de yoktur” hadisi (İbn Mâce, Ahkâm, 17) bu hükmün dayanağıdır. Tedavi amacıyla, başka ilaç bulunmadığında ve güvenilir hekimin tavsiyesiyle alkollü ya da uyuşturucu içeren ilaç kullanmak zaruret gereği caizdir.",
+  "Sigara: Klasik âlimler arasında tütün hakkında mubah, mekruh ve haram görüşleri ileri sürülmüştür. Bugün sağlığa zararı kesin bilgiyle sabit olduğundan Diyanet İşleri Başkanlığı sigara içmenin dinen caiz olmadığını (haram olduğunu) açıklamıştır.",
+  {
+   "kontrol": "Diyanet’in sigara hakkındaki görüşünün “haram” olarak açıklandığı tarih ve metin (Din İşleri Yüksek Kurulu kararı ya da fetvası) kontrol edilmelidir."
+  },
+  "Kolonya ve alkol: İçilmeyen, temizlik ve güzel koku için kullanılan kolonya ve alkollü dezenfektanlar Diyanet’e göre necis değildir; kullanılması, üzerinde namaz kılınması caizdir. Çünkü kullanılan alkol (etil alkol) içki olarak değil, kimyasal madde olarak üretilir ve Hanefîlerde üzüm-hurma dışından elde edilen alkolün necis olmadığı görüşü vardır. İçkinin alım satımı, taşınması, sunulması ve içilen sofrada oturmak da haramdır.",
+  {
+   "hadis": "Allah içkiye, onu içene, sunana, satana, satın alana, yapana, yaptırana, taşıyana, kendisine taşınana ve parasını yiyene lanet etmiştir.",
+   "kay": "Ebû Dâvûd, Eşribe, 2; İbn Mâce, Eşribe, 6"
+  },
+  {
+   "sinav": "İçki yasağının aşamaları sıralama sorusu olarak gelir: Nahl 67 → Bakara 219 → Nisâ 43 → Mâide 90-91. Ebû Hanîfe ve Ebû Yûsuf’un nebîz görüşü ile İmam Muhammed’in “her sarhoş edici haram” görüşü karşılaştırılır; fetva İmam Muhammed’e göredir."
+  },
+  {
+   "akil": "Hamr dört aşamada yasaklandı; son hüküm Mâide 90. Sarhoşluk veren her şeyin azı da çoğu da haram (fetva İmam Muhammed). Uyuşturucu haram; tedavi zarureti istisna. Kolonya Diyanet’e göre necis değil."
+  },
+  {
+   "b": "4. Kesim (zekât/tezkiye)"
+  },
+  {
+   "merak": "Kesimde dört damar sayılır, ama Ebû Hanîfe “herhangi üçü yeter” der, Ebû Yûsuf “nefes ve yemek borusu ile birer damar” der, İmam Muhammed “her birinin çoğu” der. Bir kasap hangi görüşe uymalı?"
+  },
+  "Fıkıhta hayvanın usulüne uygun kesilmesine zekât, tezkiye veya zebh denir (mal zekâtıyla karıştırılmamalıdır). Kesimin amacı kanın akıtılması, hayvanın en az acıyla canının alınması ve etin temiz olmasıdır. Kesim iki türdür: Hakiki (ihtiyârî) kesim, gücü yetilen hayvanın boğazından kesilmesidir; deve için boynun göğse yakın yerinden kesmeye nahr, diğer hayvanlar için boğazdan kesmeye zebh denir. Hükmî (ıztırârî) kesim ise kaçan, kuyuya düşen, yakalanamayan hayvanın vücudunun herhangi bir yerinden yaralanarak kanının akıtılmasıdır; av da bu türdendir.",
+  {
+   "tablo": [
+    [
+     "Kesimin şartları",
+     "Açıklama"
+    ],
+    [
+     "Kesen ehil olmalı",
+     "Müslüman veya ehl-i kitap (Yahudi, Hristiyan); temyiz gücü olan çocuk ve kadın da kesebilir. Mecusi, müşrik, putperest, ateist ve mürtedin kestiği yenmez"
+    ],
+    [
+     "Besmele (tesmiye)",
+     "Kesim anında Allah’ın adını anmak. Hanefî: kasten terk edilirse yenmez, unutulursa yenir. Şâfiî: sünnet; kasten terk edilse de yenir"
+    ],
+    [
+     "Kesim yeri ve damarlar",
+     "Hulkum (nefes borusu), mer’î (yemek borusu), vedecân (iki şah damarı)"
+    ],
+    [
+     "Kesici alet",
+     "Kanı akıtacak keskin alet (bıçak, keskin taş); diş ve tırnakla kesim caiz değil"
+    ],
+    [
+     "Hayvanın canlı olması",
+     "Kesim anında hayat belirtisi bulunmalı"
+    ],
+    [
+     "Allah’tan başkası adına kesmemek",
+     "Put, kişi, türbe adına kesilen yenmez"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Damarlar",
+     "Ebû Hanîfe",
+     "Ebû Yûsuf",
+     "İmam Muhammed"
+    ],
+    [
+     "Kesilmesi gereken",
+     "Dördünden herhangi üçü",
+     "Nefes borusu, yemek borusu ve iki şah damarından biri",
+     "Dördünün de çoğu"
+    ]
+   ]
+  },
+  {
+   "ayet": "Üzerine Allah’ın adı anılmayan hayvanlardan yemeyin; çünkü bu, doğru yoldan çıkmaktır…",
+   "kay": "En’âm, 6/121"
+  },
+  {
+   "ayet": "…Kendilerine kitap verilenlerin yiyeceği size helaldir, sizin yiyeceğiniz de onlara helaldir…",
+   "kay": "Mâide, 5/5"
+  },
+  "Kesimin sünnetleri: Bıçağı iyi bilemek, hayvanın göreceği yerde bıçak bilememek, hayvanı kıbleye yöneltmek, sol tarafına yatırmak, kesimi hızlı yapmak, can tamamen çıkmadan derisini yüzmemek ve başını koparmamak. Hayvana eziyet etmek mekruhtur.",
+  {
+   "hadis": "Allah her şeyde iyiliği (ihsanı) emretmiştir. Öldürdüğünüzde güzel öldürün; kestiğinizde güzel kesin. Biriniz bıçağını iyice bilesin ve hayvanını rahatlatsın.",
+   "kay": "Müslim, Sayd, 57"
+  },
+  "Sersemletme: Kesimden önce hayvanı elektrik şokuyla ya da benzeri bir yöntemle bayıltmak, hayvanı öldürmüyor ve kanın akmasını engellemiyorsa Diyanet’e göre caizdir; hayvan kesimden önce ölürse eti yenmez. Makineyle kesim: Kesen kişinin makineyi çalıştırırken besmele çekmesi ve kesimin damarları kesecek şekilde yapılması hâlinde Diyanet caiz görmüştür.",
+  {
+   "kontrol": "Sersemletme ve makineli (seri) kesim hakkında Din İşleri Yüksek Kurulu’nun karar tarihi ve şartları (ör. her vardiyada besmele, bıçağın tek tek kesmesi) kontrol edilmelidir."
+  },
+  "Ana karnındaki yavru (cenin): Anası kesildikten sonra karnından ölü çıkan yavru Ebû Hanîfe’ye göre yenmez (ayrıca kesilmesi gerekir); İmameyn, Şâfiî ve Hanbelîlere göre yaratılışı tamamlanmışsa annesinin kesimi onun da kesimi sayılır, yenir (“Ceninin zekâtı annesinin zekâtıdır” hadisi – Ebû Dâvûd, Edâhî, 18).",
+  {
+   "sinav": "Besmeleyi kasten terk: Hanefîde yenmez, Şâfiîde yenir; unutarak terk: her iki mezhepte yenir. Ehl-i kitabın kestiği helal, mecusi ve mürtedinki haram. Ebû Hanîfe’de dört damardan herhangi üçü yeterlidir. Deveye nahr, diğerlerine zebh."
+  },
+  {
+   "akil": "Kesim: ehil kesen (Müslüman/kitabî) + besmele + damarlar (Ebû Hanîfe: dördün üçü) + keskin alet. Kasten besmele terki Hanefîde haram kılar. Zebh boğazdan, nahr deve için boyun dibinden. Sersemletme öldürmüyorsa caiz."
+  },
+  {
+   "b": "5. Av"
+  },
+  {
+   "merak": "Eğitilmiş bir köpek, salınan av kuşunu getirirken bir parçasını yemişti. Hanefî fakih “Bu avı yeme” dedi; aynı şeyi bir doğan yapsaydı “Ye” diyecekti. Fark nereden geliyor?"
+  },
+  "Av, eti yenen ya da derisinden, kürkünden yararlanılan yabani hayvanları yakalamak ya da öldürmektir. Meşru bir amaçla (yemek, zarardan korunmak, deri) avlanmak mubahtır; eğlence için hayvan öldürmek, nesli tükenen türleri avlamak ve avlanma yasaklarına uymamak caiz değildir. İhramlıya ve Harem bölgesinde herkese kara avı haramdır; deniz avı ihramlıya da helaldir (Mâide, 5/95-96).",
+  {
+   "ayet": "Sana kendilerine neyin helal kılındığını soruyorlar. De ki: Size temiz şeyler ve Allah’ın size öğrettiğinden öğreterek yetiştirdiğiniz avcı hayvanların sizin için tuttukları helal kılındı. Onların tuttuklarından yiyin ve üzerine Allah’ın adını anın…",
+   "kay": "Mâide, 5/4"
+  },
+  {
+   "tablo": [
+    [
+     "Avın şartları",
+     "Açıklama"
+    ],
+    [
+     "Avcı",
+     "Kesim yapmaya ehil (Müslüman veya kitabî), ihramda olmayan"
+    ],
+    [
+     "Besmele",
+     "Silahı atarken veya avcı hayvanı salarken"
+    ],
+    [
+     "Silahla av",
+     "Kesici, delici alet (ok, mızrak, tüfek mermisi) avı yaralamalı; ağırlığıyla ezerek öldüren (taş, sopa) avın eti Hanefîde yenmez"
+    ],
+    [
+     "Avcı hayvanla av",
+     "Hayvan eğitilmiş (muallem) olmalı, sahibi tarafından salınmalı, avı yaralayarak öldürmeli, eğitimsiz başka bir hayvan katılmamalı"
+    ],
+    [
+     "Köpeğin eğitilmişliği (Hanefî)",
+     "Üç kez avı yemeden tutması; avdan yerse o av yenmez"
+    ],
+    [
+     "Doğan, şahin",
+     "Eğitilmişliği çağırınca dönmesidir; avdan yemesi zarar vermez"
+    ],
+    [
+     "Avcı canlı yetişirse",
+     "Hayvanı kesmelidir; kesmeden ölürse yenmez"
+    ]
+   ]
+  },
+  "Tüfekle avlanma: Klasik dönemde bulunmayan ateşli silahla avda, merminin delip yaralayarak kanı akıtması sebebiyle Diyanet, besmeleyle atılan ve avcı yetişmeden ölen avın yenebileceğini belirtir. Saçmalı tüfekte de saçma avı delip yaraladığı için aynı hüküm geçerlidir. Avcı yetiştiğinde hayvan hâlâ canlıysa kesilmesi gerekir.",
+  {
+   "kontrol": "Tüfekle vurulup avcı yetişmeden ölen avın yenmesinin caiz olduğu görüşü Diyanet’in yayımlarında yer alır; klasik Hanefî kitaplarında kurşunun ezerek öldürmesi sebebiyle farklı görüşler bulunduğu not edilmelidir."
+  },
+  {
+   "sinav": "Av sorularında senaryolar: avdan yiyen köpek → yenmez (Hanefî); avdan yiyen doğan → yenir. Taşla ezilerek ölen av yenmez. İhramlı kara avı yapamaz, deniz avı yapabilir. Avcı canlı yetişip kesmezse av yenmez."
+  },
+  {
+   "akil": "Av Mâide 4’e dayanır. Avcı ehil ve ihramsız, besmele şart. Silah delici-kesici olmalı; ezerek öldüren yenmez. Köpek avdan yerse av yenmez, doğan yerse yenir. Canlı yetişilen av kesilir."
+  },
+  {
+   "b": "6. Giyim, kılık-kıyafet ve süslenme"
+  },
+  {
+   "merak": "Hz. Peygamber bir elinde ipek, öbür elinde altın tutarak şöyle buyurdu: “Bu ikisi ümmetimin erkeklerine haram, kadınlarına helaldir.” Neden erkeklere haram?"
+  },
+  "İslam giyimde belirli bir model değil, ilkeler koyar: avret yerlerini örtmek, temiz olmak, kibir ve israftan uzak durmak, karşı cinse benzememek, başka dinlerin dinî kıyafetlerini taklit etmemek ve güzel görünmek. “Ey Âdemoğulları! Her mescide gidişinizde güzel giyinin; yiyin, için fakat israf etmeyin” (A’râf, 7/31).",
+  {
+   "tablo": [
+    [
+     "Örtünme (avret)",
+     "Hanefî"
+    ],
+    [
+     "Erkeğin avreti",
+     "Göbek ile diz arası (diz avret, göbek değil)"
+    ],
+    [
+     "Kadının yabancı erkeklere karşı avreti",
+     "El, yüz ve (Ebû Hanîfe’ye göre) ayaklar dışında bütün beden"
+    ],
+    [
+     "Kadının mahremlerine karşı",
+     "Göbek-diz arası, sırt ve karın (baş, saç, kol, bacak görünebilir)"
+    ],
+    [
+     "Kadının kadına karşı",
+     "Erkeğin erkeğe karşı avreti gibi: göbek-diz arası"
+    ]
+   ]
+  },
+  {
+   "ayet": "Mümin kadınlara da söyle: Gözlerini harama dikmesinler, iffetlerini korusunlar; görünen kısmı müstesna, ziynetlerini göstermesinler; başörtülerini yakalarının üzerine örtsünler…",
+   "kay": "Nûr, 24/31"
+  },
+  "Kıyafetin şartları: vücut hatlarını belli etmeyecek bolluk, içini göstermeyecek kalınlık. Nûr 31 (başörtüsü – humur) ve Ahzâb 59 (dış örtü – celâbîb) tesettürün temel ayetleridir. Nûr 30’da önce erkeklere gözlerini sakınmaları emredilir.",
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Erkek",
+     "Kadın"
+    ],
+    [
+     "Saf ipek giysi",
+     "Haram (savaşta, cilt hastalığında ve dört parmak eninde süs olarak caiz)",
+     "Helal"
+    ],
+    [
+     "İpek karışımlı kumaş",
+     "Atkısı ipek değilse ya da ipek az ise caiz",
+     "Helal"
+    ],
+    [
+     "Altın takı, altın yüzük",
+     "Haram",
+     "Helal"
+    ],
+    [
+     "Gümüş yüzük",
+     "Bir miskal (4,5 g) kadar caiz",
+     "Helal"
+    ],
+    [
+     "Altın-gümüş kaptan yemek-içmek",
+     "Haram",
+     "Haram"
+    ],
+    [
+     "Saçı siyaha boyamak",
+     "Hanefîde savaş dışında mekruh (Ebû Yûsuf caiz)",
+     "Caiz"
+    ],
+    [
+     "Kına",
+     "Tedavi dışında mekruh",
+     "Caiz"
+    ],
+    [
+     "Dövme (veşm)",
+     "Haram",
+     "Haram"
+    ]
+   ]
+  },
+  {
+   "hadis": "Bu ikisi (ipek ve altın) ümmetimin erkeklerine haram, kadınlarına helaldir.",
+   "kay": "Ebû Dâvûd, Libâs, 11; Nesâî, Zînet, 40"
+  },
+  {
+   "hadis": "Altın ve gümüş kaplardan içmeyin, onlardan yapılmış tabaklardan yemeyin.",
+   "kay": "Buhârî, Et’ime, 29; Müslim, Libâs, 4"
+  },
+  {
+   "hadis": "Allah, saç ekleyene ve ekletene, dövme yapana ve yaptırana lanet etmiştir.",
+   "kay": "Buhârî, Libâs, 83; Müslim, Libâs, 119"
+  },
+  "Süslenme ve estetik: Fıtratı değiştirme (tağyîr-i halkillâh) amacı taşımayan, normal ölçüde süslenme caizdir. Saça başka saç eklemek (vasl), dövme (veşm), kaşları incelterek yolmak (nems) ve dişleri güzellik için seyreltmek (tefelluc) hadislerde yasaklanmıştır. Diyanet’e göre insan saçından yapılan peruk caiz değildir; sentetik peruk ise tedavi ya da kusuru gizlemek amacıyla kullanılabilir. Tedavi amaçlı estetik ameliyat (yanık izi, doğuştan kusur, kaza sonrası bozukluk) caizdir; sırf güzelleşmek için yaratılışı değiştiren estetik ise caiz görülmez. Erkeğin kadına, kadının erkeğe benzemesi lanetlenmiştir (Buhârî, Libâs, 61).",
+  "İsbâl: Elbiseyi kibir için yerde sürümek haramdır; kibir kastı olmadan uzun giymek ise Hanefîlere göre tenzîhen mekruh görülmüştür. Erkeklerin sakal bırakması sünnettir. Resim ve heykel: Tapınma ve saygı amacı taşıyan, ibadet yerlerinde bulunan heykel ve resimler yasaktır; fotoğraf ve eğitim amaçlı resimler Diyanet’e göre caizdir.",
+  {
+   "sinav": "Altın-ipek hadisi (Ebû Dâvûd, Libâs; Nesâî, Zînet) en sık sorulur. Erkeğe gümüş yüzük caiz, altın yüzük haram; altın-gümüş kaptan yemek herkese haram. Erkeğin avreti Hanefîde göbek-diz arası, diz dâhil. Vasl, veşm, nems hadislerde lanetlenmiştir."
+  },
+  {
+   "akil": "Giyimde ölçü: örtünme, temizlik, kibirsizlik, israfsızlık, karşı cinse benzememek. İpek ve altın erkeğe haram, kadına helal; gümüş yüzük erkeğe caiz. Altın-gümüş kap herkese haram. Dövme, saç ekleme, kaş yolma yasak; tedavi amaçlı estetik caiz."
+  },
+  {
+   "b": "Sık sorulan ek bilgiler"
+  },
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Bilgi"
+    ],
+    [
+     "Mecelle md. 21-22",
+     "Zaruretler memnu olanı mubah kılar; zaruret kendi miktarınca takdir olunur"
+    ],
+    [
+     "Ehl-i kitabın kestiği",
+     "Mâide 5 gereği helal; Allah’tan başkası adına kesildiği bilinirse yenmez"
+    ],
+    [
+     "Domuz yağı, jelatin",
+     "Domuz kaynaklıysa haram; istihâle (öz değişimi) tartışması vardır"
+    ],
+    [
+     "Faiz, rüşvet, kumar kazancı",
+     "Haram kazanç; bununla alınan yiyecek de şüphelidir"
+    ],
+    [
+     "Hayvan hakları",
+     "Hayvana eziyet, aç bırakmak, yüzüne vurmak, damgalamak yasaklanmıştır"
+    ]
+   ]
+  }
+ ],
+ "ozet": [
+  "Eşyada asıl olan mubahlıktır; haram kılmak yalnız Allah’a aittir (Mâide 87; Nahl 116).",
+  "Zaruret haramı mubah kılar ama yalnız ihtiyaç miktarınca (Mecelle 21-22); başkasının hakkı düşmez (Mecelle 33).",
+  "Mâide 3’te haramlar: leş, kan, domuz, Allah’tan başkası adına kesilen, boğulan (münhanika), vurulan (mevkûze), düşen (mütereddiye), boynuzlanan (natîha), yırtıcının parçaladığı (canlı yetişilip kesilen hariç), nusub üzerine kesilen.",
+  "Azı dişli yırtıcı hayvanlar ve pençeli yırtıcı kuşlar haramdır (Müslim, Sayd). Evcil eşek haram; at Ebû Hanîfe’de mekruh, İmameyn’de helal.",
+  "İki ölü (balık, çekirge) ve iki kan (ciğer, dalak) helaldir.",
+  "Hanefîde deniz hayvanlarından yalnız balık helal; kendiliğinden ölüp yüzen balık mekruh. Diğer mezheplerde bütün deniz hayvanları helal.",
+  "İçki dört aşamada yasaklandı: Nahl 67 → Bakara 219 → Nisâ 43 → Mâide 90-91.",
+  "Sarhoşluk veren her şeyin azı da çoğu da haramdır; Ebû Hanîfe ve Ebû Yûsuf nebîzin sarhoş etmeyen azını caiz görmüş, fetva İmam Muhammed’in görüşüne göredir.",
+  "Uyuşturucu haram; tedavi zarureti istisna. Diyanet sigarayı caiz görmez; kolonyayı necis saymaz.",
+  "Kesim: kesen Müslüman veya ehl-i kitap; mecusi, müşrik, mürtedinki yenmez. Besmeleyi kasten terk Hanefîde haram kılar, Şâfiîde kılmaz; unutmak her iki mezhepte zarar vermez.",
+  "Dört damar: nefes borusu, yemek borusu, iki şah damarı. Ebû Hanîfe: herhangi üçü yeterli. Deveye nahr, diğerlerine zebh.",
+  "Cenin: Ebû Hanîfe’ye göre anası kesildikten sonra ölü çıkan yavru yenmez; İmameyn ve diğerlerine göre yenir.",
+  "Av: Mâide 4; avcı ehil ve ihramsız, besmele şart; delici-kesici silah; köpek avdan yerse av yenmez, doğan yerse yenir; ezerek öldüren av yenmez.",
+  "İpek ve altın erkeklere haram, kadınlara helal; erkeğe gümüş yüzük caiz; altın-gümüş kaptan yemek-içmek herkese haram.",
+  "Erkeğin avreti Hanefîde göbek-diz arası (diz dâhil); kadının yabancıya karşı avreti el, yüz ve ayaklar dışında bütün beden.",
+  "Vasl (saç ekleme), veşm (dövme), nems (kaş yolma) lanetlenmiştir; tedavi amaçlı estetik caizdir."
+ ],
+ "kartlar": [
+  {
+   "o": "Münhanika – mevkûze – mütereddiye – natîha",
+   "a": "Boğularak – darbeyle vurularak – yüksekten düşerek – boynuzlanarak ölen hayvan (Mâide 3)."
+  },
+  {
+   "o": "“İllâ mâ zekkeytüm”",
+   "a": "Mâide 3’teki istisna: canlı yetişip usulünce kestikleriniz helaldir."
+  },
+  {
+   "o": "İki ölü ve iki kan",
+   "a": "Balık ve çekirge; ciğer ve dalak helaldir (İbn Mâce, Et’ime)."
+  },
+  {
+   "o": "Hanefîde deniz ürünleri",
+   "a": "Yalnız balık helal; tâfî (kendiliğinden ölüp yüzen) balık mekruh; midye, karides vb. yenmez."
+  },
+  {
+   "o": "At eti",
+   "a": "Ebû Hanîfe: tahrîmen mekruh. İmameyn ve diğer mezhepler: helal."
+  },
+  {
+   "o": "İçki yasağının aşamaları",
+   "a": "Nahl 67 → Bakara 219 → Nisâ 43 → Mâide 90-91."
+  },
+  {
+   "o": "Nebîz",
+   "a": "Üzüm dışı maddelerden yapılan içki; Ebû Hanîfe ve Ebû Yûsuf sarhoş etmeyen azını caiz gördü; fetva İmam Muhammed’e göre haram."
+  },
+  {
+   "o": "Zebh – nahr",
+   "a": "Zebh: boğazdan kesim. Nahr: devenin boyun dibinden kesilmesi."
+  },
+  {
+   "o": "İhtiyârî – ıztırârî kesim",
+   "a": "Gücü yetilen hayvanı boğazından kesmek / kaçan, düşen hayvanı ve avı herhangi bir yerinden yaralamak."
+  },
+  {
+   "o": "Kesimde kesilecek damarlar",
+   "a": "Hulkum (nefes), mer’î (yemek), vedecân (iki şah damarı). Ebû Hanîfe: herhangi üçü."
+  },
+  {
+   "o": "Besmele terki",
+   "a": "Hanefî: kasten terk → yenmez, unutarak → yenir. Şâfiî: her durumda yenir."
+  },
+  {
+   "o": "Kimin kestiği yenmez?",
+   "a": "Mecusi, müşrik, putperest, ateist, mürted. Müslüman ve ehl-i kitabın kestiği yenir."
+  },
+  {
+   "o": "Avcı köpek ve doğan farkı (Hanefî)",
+   "a": "Köpek avdan yerse av yenmez; doğan yerse yenir."
+  },
+  {
+   "o": "İpek ve altın",
+   "a": "Erkeklere haram, kadınlara helal (Ebû Dâvûd, Libâs; Nesâî, Zînet)."
+  },
+  {
+   "o": "Vasl – veşm – nems",
+   "a": "Saç ekleme – dövme – kaş yolma; hadislerde lanetlenmiştir."
+  },
+  {
+   "o": "Mecelle md. 21-22-33",
+   "a": "Zaruretler memnu olanı mubah kılar / zaruret kendi miktarınca takdir olunur / ıztırar gayrın hakkını iptal etmez."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "f8-18",
+   "z": 3,
+   "s": "Mâide Suresi 3. ayette haram kılınanlar arasında “yırtıcı hayvanların yediği” hayvan da sayılır; ancak hemen ardından “canlı yetişip kestikleriniz hariç” istisnası gelir.\n\nBu istisnadan hareketle aşağıdaki hayvanlardan hangisinin eti Hanefî mezhebine göre helaldir?",
+   "c": [
+    "Kurt tarafından parçalanıp ölü bulunan koyun",
+    "Yüksek bir kayadan düşüp sahibi yetişemeden ölen keçi",
+    "Elektrik çarpmasıyla ölen sığır",
+    "Başka bir koçun boynuzuyla yaralanıp hayattayken yetişilerek besmeleyle kesilen koç",
+    "Kaçarken başına taş isabet edip ölen ve kesilemeyen kuzu"
+   ],
+   "d": 3,
+   "a": "Mâide 3’te boğulan, vurulan, düşen, boynuzlanan ve yırtıcının parçaladığı hayvanlar haram kılınmış; ancak bunlardan hayattayken yetişilip usulünce kesilenler (“illâ mâ zekkeytüm”) istisna edilmiştir.",
+   "ac": [
+    "Yırtıcının parçalayıp öldürdüğü hayvandır; kesilmemiştir.",
+    "Mütereddiye: düşerek ölen hayvan haramdır.",
+    "Kesilmeden ölen hayvan leştir.",
+    "Doğru: natîha olmakla birlikte canlı yetişilip kesilmiştir.",
+    "Mevkûze: darbeyle ölen hayvan haramdır."
+   ],
+   "kay": "Mâide, 5/3"
+  },
+  {
+   "id": "f8-03",
+   "z": 1,
+   "s": "Aşağıdakilerden hangisi Kur’an’da açıkça haram kılınan yiyeceklerden biri değildir?",
+   "c": [
+    "Leş",
+    "Akıtılmış kan",
+    "Domuz eti",
+    "Allah’tan başkası adına kesilen hayvan",
+    "Pençeli yırtıcı kuşların eti"
+   ],
+   "d": 4,
+   "a": "Pençeli yırtıcı kuşların eti hadisle yasaklanmıştır. Diğerleri Mâide 5/3 ve Bakara 2/173’te açıkça sayılır.",
+   "ac": [
+    "Kur’an’da geçer.",
+    "Kur’an’da geçer.",
+    "Kur’an’da geçer.",
+    "Kur’an’da geçer.",
+    "Doğru: hadisle yasaklanmıştır."
+   ],
+   "kay": "Mâide, 5/3; Müslim, Sayd, 16"
+  },
+  {
+   "id": "fk15-01",
+   "z": 3,
+   "s": "İçki yasağıyla ilgili ayetler iniş sırasına göre aşağıdakilerin hangisinde doğru sıralanmıştır?",
+   "c": [
+    "Mâide 90 – Nisâ 43 – Bakara 219 – Nahl 67",
+    "Nahl 67 – Bakara 219 – Nisâ 43 – Mâide 90",
+    "Bakara 219 – Nahl 67 – Mâide 90 – Nisâ 43",
+    "Nisâ 43 – Bakara 219 – Nahl 67 – Mâide 90",
+    "Nahl 67 – Nisâ 43 – Mâide 90 – Bakara 219"
+   ],
+   "d": 1,
+   "a": "İçki yasağı tedricen gelmiştir: Mekkî Nahl 67 içkiyi güzel rızıktan ayırır; Bakara 219 günahının faydasından büyük olduğunu bildirir; Nisâ 43 sarhoşken namaza yaklaşmayı yasaklar; Mâide 90-91 kesin yasağı koyar.",
+   "ac": [
+    "Sıra tersine çevrilmiştir.",
+    "Doğru.",
+    "Nahl 67 Mekkî olup ilk sıradadır.",
+    "Nisâ 43 Bakara 219’dan sonradır.",
+    "Mâide 90 son hükümdür."
+   ],
+   "kay": "Nahl, 16/67; Bakara, 2/219; Nisâ, 4/43; Mâide, 5/90-91"
+  },
+  {
+   "id": "f8-07",
+   "z": 2,
+   "s": "Hanefî mezhebine göre deniz ürünlerinin yenmesiyle ilgili hangisi doğrudur?",
+   "c": [
+    "Bütün deniz hayvanları helaldir.",
+    "Yalnız balık helaldir.",
+    "Balık dâhil hiçbiri helal değildir.",
+    "Yalnız kabuklular helaldir.",
+    "Kendiliğinden ölüp su yüzüne çıkan balık helal ve müstehaptır."
+   ],
+   "d": 1,
+   "a": "Hanefîlere göre denizden yalnız balık helaldir; kendiliğinden ölüp su yüzüne çıkan balık mekruhtur.",
+   "ac": [
+    "Şâfiî ve Mâlikî görüşüdür.",
+    "Doğru.",
+    "Balık helaldir.",
+    "Kabuklular Hanefîlerde helal değildir.",
+    "Mekruhtur."
+   ],
+   "kay": "Hanefî ilmihali: yiyecekler"
+  },
+  {
+   "id": "fk15-02",
+   "z": 3,
+   "s": "Yurt dışında bir restoranda bulunan Hanefî mezhebine mensup Mehmet ile Şâfiî mezhebine mensup Abdullah’ın önüne aşağıdaki yemekler gelmiştir.\n\nBu yemeklerden hangisini Abdullah’ın yemesi kendi mezhebine göre helal olduğu hâlde Mehmet’in yemesi kendi mezhebine göre uygun değildir?",
+   "c": [
+    "Domuz eti",
+    "Kartal eti",
+    "Izgara levrek",
+    "Bir Hristiyanın Allah’ın adını anarak kestiği tavuk",
+    "Karides güveci"
+   ],
+   "d": 4,
+   "a": "Hanefîlere göre deniz hayvanlarından yalnız balık helaldir; karides, midye gibi balık dışı deniz ürünleri yenmez. Şâfiîlere göre denizde yaşayan bütün hayvanlar helaldir.",
+   "ac": [
+    "Her iki mezhebe göre haramdır.",
+    "Pençeli yırtıcı kuş her iki mezhebe göre haramdır.",
+    "Balık her iki mezhebe göre helaldir.",
+    "Ehl-i kitabın Allah’ın adını anarak kestiği hayvan her iki mezhebe göre helaldir (Mâide 5).",
+    "Doğru."
+   ],
+   "kay": "Mâide, 5/96; Konu: su hayvanları"
+  },
+  {
+   "id": "f8-09",
+   "z": 3,
+   "s": "Hanefî mezhebine göre kesimle ilgili hangisi yanlıştır?",
+   "c": [
+    "Yemek borusu, nefes borusu ve iki şah damarından en az üçünün kesilmesi gerekir.",
+    "Besmeleyi unutarak terk ederek kesilen hayvanın eti yenir.",
+    "Besmele çekilmeden kesilen hayvan, kesen Müslüman ise her durumda yenir.",
+    "Ehl-i kitabın kestiği hayvan helaldir.",
+    "Besmeleyi kasten terk ederek kesilen hayvanın eti yenmez."
+   ],
+   "d": 2,
+   "a": "Hanefîlere göre besmelenin kasten terki hayvanın etini haram kılar; kesenin Müslüman olması bunu değiştirmez.",
+   "ac": [
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Yanlış: kasten terkte yenmez.",
+    "Doğru bilgi (Mâide, 5/5).",
+    "Doğru bilgi."
+   ],
+   "kay": "En’âm, 6/121"
+  },
+  {
+   "id": "fk15-03",
+   "z": 3,
+   "s": "Hanefî mezhebine göre av ile ilgili\nI. Besmeleyle salınan eğitilmiş köpek avdan yerse o av yenmez.\nII. Besmeleyle salınan eğitilmiş doğan avdan yerse o av yenir.\nIII. İhramlı kişinin deniz avı yapması haramdır.\nIV. Besmeleyle atılan bir sopanın ağırlığıyla ezilip ölen av yenir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I ve III",
+    "II ve IV",
+    "I, II ve III",
+    "II, III ve IV"
+   ],
+   "d": 0,
+   "a": "Hanefîlere göre köpeğin eğitilmişliği avdan yememesiyle anlaşılır; yerse av yenmez. Doğan ve şahinin eğitilmişliği çağrılınca dönmesidir; avdan yemesi zarar vermez. Deniz avı ihramlıya da helaldir. Kesici-delici olmayan, ağırlığıyla ezerek öldüren aletle ölen av yenmez.",
+   "ac": [
+    "Doğru.",
+    "III. öncül yanlıştır: deniz avı ihramlıya helaldir.",
+    "IV. öncül yanlıştır.",
+    "III. öncül yanlıştır.",
+    "III ve IV. öncüller yanlıştır."
+   ],
+   "kay": "Mâide, 5/4, 96"
+  },
+  {
+   "id": "f8-10",
+   "z": 3,
+   "s": "Çölde kalıp açlıktan ölmek üzere olan bir kişi, yanında yalnızca domuz eti bulunmaktadır. Âlimler bu kişinin hayatını kurtaracak kadar yemesinin caiz olduğunu, fazlasının ise caiz olmadığını söylemiştir.\n\nBu hüküm aşağıdaki külli kaidelerden hangi ikisine dayanır?",
+   "c": [
+    "Zaruretler memnu olanı mubah kılar – Zaruret kendi miktarınca takdir olunur",
+    "Meşakkat kolaylığı celbeder – Âdet hakemdir",
+    "Yakîn şekle zail olmaz – Âdet hakemdir",
+    "İşler maksatlarına göredir – Zarar izale olunur",
+    "Kadîm, kıdemi üzere terk olunur – Zarar zararla izale olunmaz"
+   ],
+   "d": 0,
+   "a": "Zaruret hâlinde haram mubah olur ama yalnızca zarureti giderecek kadar.",
+   "ac": [
+    "Doğru: Mecelle md. 21 ve 22.",
+    "İkinci kaide ilgisizdir.",
+    "Bu kaidelerin konuyla ilgisi yoktur.",
+    "Miktar sınırını açıklamaz.",
+    "İlgisizdir."
+   ],
+   "kay": "Bakara, 2/173; Mecelle, md. 21-22"
+  },
+  {
+   "id": "fk15-04",
+   "z": 3,
+   "s": "Bir kasap, kesim sırasında hayvanın nefes borusunu, yemek borusunu ve şah damarlarından yalnız birini kesmiştir.\n\nBu kesimin geçerliliği ile ilgili Hanefî imamların görüşleri aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Ebû Hanîfe: geçersiz – Ebû Yûsuf: geçerli – İmam Muhammed: geçerli",
+    "Üç imama göre de geçersiz",
+    "Ebû Hanîfe: geçerli – Ebû Yûsuf: geçersiz – İmam Muhammed: geçerli",
+    "Ebû Hanîfe: geçerli – Ebû Yûsuf: geçerli – İmam Muhammed: her bir damarın çoğu kesilmediyse geçersiz",
+    "Ebû Hanîfe: geçersiz – Ebû Yûsuf: geçersiz – İmam Muhammed: geçerli"
+   ],
+   "d": 3,
+   "a": "Ebû Hanîfe’ye göre dört damardan herhangi üçünün kesilmesi yeterlidir. Ebû Yûsuf nefes ve yemek borusu ile şah damarlarından birinin kesilmesini şart koşar; bu kesim ona göre de geçerlidir. İmam Muhammed ise dört damarın her birinin çoğunun kesilmesini arar; kesilmeyen bir şah damarı olduğundan ona göre geçerli değildir.",
+   "ac": [
+    "Ebû Hanîfe’ye göre üç damar yeterlidir.",
+    "Ebû Hanîfe ve Ebû Yûsuf’a göre geçerlidir.",
+    "Ebû Yûsuf’un şartı yerine gelmiştir; İmam Muhammed’in şartı gelmemiştir.",
+    "Doğru.",
+    "Görüşler ters verilmiştir."
+   ],
+   "kay": "Konu: kesim; Merğînânî, el-Hidâye"
+  },
+  {
+   "id": "f8-15",
+   "z": 2,
+   "s": "Hanefî mezhebine göre kesim esnasında besmeleyi unutarak terk etmenin hükmü nedir?",
+   "c": [
+    "Hayvanın eti yenir.",
+    "Hayvan leş hükmündedir.",
+    "Hayvan ancak fakirlere verilir.",
+    "Eti mekruhtur.",
+    "Kesim yeniden yapılır."
+   ],
+   "d": 0,
+   "a": "Besmeleyi kasten terk etmek ise Hanefîlere göre eti haram kılar.",
+   "ac": [
+    "Unutarak terk etmek etin yenmesine engel değildir.",
+    "Kasten terkte böyledir.",
+    "Yanlıştır.",
+    "Yanlıştır.",
+    "Mümkün değildir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "fk15-05",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi erkekler için Hanefî mezhebine göre caizdir?",
+   "c": [
+    "Altın kaplama saat kordonu takmak",
+    "Saf ipekten gömlek giymek",
+    "Süs amacıyla kaşlarını yoldurmak",
+    "Altın bir tabaktan yemek yemek",
+    "Yaklaşık bir miskal ağırlığında gümüş yüzük takmak"
+   ],
+   "d": 4,
+   "a": "Erkeklere altın ve saf ipek haramdır; altın-gümüş kaplardan yemek herkese haramdır. Erkeğin bir miskal (yaklaşık 4,5 g) kadar gümüş yüzük takması ise caizdir; Hz. Peygamber’in gümüş mührü vardı.",
+   "ac": [
+    "Erkeğe altın süs haramdır.",
+    "Saf ipek erkeğe haramdır.",
+    "Kaş yolma (nems) hadiste yasaklanmıştır.",
+    "Altın kaptan yemek herkese haramdır.",
+    "Doğru."
+   ],
+   "kay": "Ebû Dâvûd, Libâs, 11; Buhârî, Libâs, 46"
+  },
+  {
+   "id": "f8-16",
+   "z": 2,
+   "s": "Hanefî mezhebine göre kesimde kesilmesi gereken dört organdan (yemek borusu, hava borusu ve iki şah damarı) en az kaçının kesilmesi yeterlidir?",
+   "c": [
+    "Biri",
+    "Üçü",
+    "Dördü de mutlaka",
+    "İkisi",
+    "Yalnız şah damarları"
+   ],
+   "d": 1,
+   "a": "Kesimin amacı kanın tamamen akıtılmasıdır.",
+   "ac": [
+    "Yetmez.",
+    "Ebû Hanîfe’ye göre dördünden herhangi üçü yeterlidir.",
+    "Tamamı müstehaptır, şart değildir.",
+    "Yetmez.",
+    "Yetmez."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "fk15-06",
+   "z": 2,
+   "s": "Aşağıdaki Mecelle kaidesi – örnek eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Zaruretler memnu olanı mubah kılar – Açlıktan ölmek üzere olanın domuz eti yemesi",
+    "Zaruret kendi miktarınca takdir olunur – Açlıktan ölmek üzere olanın yalnız hayatını kurtaracak kadar haram yemesi",
+    "Iztırar gayrın hakkını iptal etmez – Açlıktan ölmek üzere olanın başkasının ekmeğini yiyip sonra bedelini ödemesi",
+    "Zaruret kendi miktarınca takdir olunur – Kişinin, hiçbir zaruret bulunmadan helal sanarak içki içmesi",
+    "Zaruretler memnu olanı mubah kılar – Tedavi amacıyla, başka ilaç bulunmadığında alkollü ilaç kullanılması"
+   ],
+   "d": 3,
+   "a": "Zaruret kaideleri, gerçek bir zaruret bulunduğunda haramın ihtiyaç kadar mubah olmasını ifade eder. Zaruret yokken haram işlemek bu kaidelerle açıklanamaz.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Yanlış: örnekte zaruret yoktur.",
+    "Doğru eşleştirme."
+   ],
+   "kay": "Mecelle, md. 21, 22, 33; Bakara, 2/173"
+  },
+  {
+   "id": "f8-17",
+   "z": 2,
+   "s": "Hanefî mezhebine göre aşağıdaki hayvanlardan hangisinin eti yenmez?",
+   "c": [
+    "Tavşan",
+    "Geyik",
+    "Pençeli yırtıcı kuşlar (kartal, şahin)",
+    "Bıldırcın",
+    "Çekirge"
+   ],
+   "d": 2,
+   "a": "Azı dişiyle avlanan yırtıcı hayvanlar ve pençeli yırtıcı kuşlar haramdır (Müslim, Sayd, 16).",
+   "ac": [
+    "Yenir.",
+    "Yenir.",
+    "Pençesiyle avlanan kuşlar haramdır.",
+    "Yenir.",
+    "Kesilmeden yenir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "fk15-07",
+   "z": 3,
+   "s": "Aşağıdaki kişilerden hangisinin, usulüne uygun olarak boğazlayıp kestiği koyunun eti Hanefî mezhebine göre yenmez?",
+   "c": [
+    "On iki yaşındaki, kesimi bilen Müslüman çocuğun",
+    "İslam’dan dönmüş (mürted) birinin",
+    "Allah’ın adını anarak kesen Hristiyan çiftçinin",
+    "Kesim öncesi kısa süreli elektrik şokuyla bayıltılan ama canlı olarak kesilen koyunu kesen Müslüman kasabın",
+    "Besmele çekmeyi unutan Müslüman kasabın"
+   ],
+   "d": 1,
+   "a": "Kesimin geçerli olması için kesenin Müslüman ya da ehl-i kitap olması gerekir. Mürted, mecusi, müşrik ve ateistin kestiği yenmez.",
+   "ac": [
+    "Temyiz gücü olan çocuğun kesimi geçerlidir.",
+    "Doğru: mürtedin kestiği yenmez.",
+    "Ehl-i kitabın kestiği helaldir (Mâide 5).",
+    "Hayvanı öldürmeyen sersemletme Diyanet’e göre kesimi bozmaz.",
+    "Besmeleyi unutarak terk zarar vermez."
+   ],
+   "kay": "Mâide, 5/5; En’âm, 6/121"
+  },
+  {
+   "id": "fk15-08",
+   "z": 2,
+   "s": "Hanefî mezhebine göre örtünme ile ilgili\nI. Erkeğin avret yeri göbek ile diz arasıdır; diz de avrete dâhildir.\nII. Kadının kadına karşı avreti, erkeğin erkeğe karşı avreti gibidir.\nIII. Kadının babası ve kardeşi gibi mahremlerinin yanında saçının görünmesi caiz değildir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Erkeğin avreti göbek-diz arasıdır ve diz avrettir. Kadının kadına karşı avreti göbek-diz arasıdır. Kadının mahremlerine karşı baş, saç, boyun, kol ve bacakları avret değildir.",
+   "ac": [
+    "II. öncül de doğrudur.",
+    "III. öncül yanlıştır.",
+    "Doğru.",
+    "III. öncül yanlıştır.",
+    "III. öncül yanlıştır: mahremlerin yanında saçın görünmesi caizdir."
+   ],
+   "kay": "Nûr, 24/31"
+  }
+ ]
+}

@@ -1,0 +1,634 @@
+{
+ "id": "arapca-1",
+ "ad": "Sarf I: Kelime Türleri, Kök ve Vezin, Sülâsî Mücerred ve Mezîd Bâbları",
+ "ders": "Arapça",
+ "sinavlar": [
+  "ihtisas",
+  "ilcemuftu",
+  "muftuyrd",
+  "vaizlik",
+  "egitimgorevlisi",
+  "mufettis",
+  "arapca"
+ ],
+ "oncelik": 3,
+ "anlatim": [
+  "Arapça; Kur’an’ı, hadisi ve klasik kaynakları doğrudan okuyabilmenin anahtarıdır. Yüksek ihtisas kursiyer seçiminde 80 sorunun yaklaşık 24’ü Arapçadan gelir. İlçe müftülüğü ve il müftü yardımcılığı sözlüsünde Arapça 30 puandır, müfettiş yardımcılığı yazılısında ise ayrı bir derstir. Bu ünite sarfın (kelime bilgisi) temelini anlatır: kelime türleri, kök ve vezin, sülâsî mücerred ve mezîd bâblar.",
+  {
+   "merak": "Bir sözlüğe bakan kişi neden مُسْتَغْفِر kelimesini “م” harfinde değil, “غ” harfinde arar? Çünkü Arapçada kelimeler kökten türer. Sözlük köke göre dizilir. Kelimeyi çözmenin ilk adımı, asıl harfleri ziyade harflerden ayırmaktır."
+  },
+  {
+   "b": "1. Kelime türleri: İsim, fiil, harf"
+  },
+  "Arap dilcileri kelimeyi (kelime) üç türe ayırır. İsim, kendi başına bir anlam taşır ve zamana bağlı değildir (كِتَابٌ، زَيْدٌ، عِلْمٌ). Fiil, bir iş ya da oluşu üç zamandan birine bağlı olarak bildirir (كَتَبَ، يَكْتُبُ، اُكْتُبْ). Harf ise tek başına tam bir anlam taşımaz, ancak başka bir kelimeyle birlikte anlam kazanır (فِي، مِنْ، هَلْ، لَمْ). Bu ayrım önemlidir, çünkü i‘rab (kelime sonunun değişmesi) isimde ve muzâri fiilde görülür; harfler ise mebnîdir, yani sonları değişmez.",
+  {
+   "tablo": [
+    [
+     "Tür",
+     "Alametleri (âlâmât)",
+     "Örnek"
+    ],
+    [
+     "İsim",
+     "Tenvin, başında el- takısı, harf-i cer alması, nidâ edilmesi, kendisine bir hüküm isnad edilmesi",
+     "بِسْمِ اللّٰهِ، اَلْكِتَابُ، يَا زَيْدُ"
+    ],
+    [
+     "Fiil",
+     "Başına قَدْ, سَ ya da سَوْفَ gelmesi; sonuna sâkin te’nis tâsı (كَتَبَتْ) ya da fâil zamiri (كَتَبْتُ) bitişmesi",
+     "قَدْ قَامَتِ الصَّلَاةُ"
+    ],
+    [
+     "Harf",
+     "İsim ve fiil alametlerinden hiçbirini almaz",
+     "لَمْ، لَنْ، إِلَى، ثُمَّ"
+    ]
+   ]
+  },
+  {
+   "sinav": "Sınavda bir cümle verilip içindeki kelimelerin türü sorulur. En çok karıştırılan nokta şudur: قَدْ ve سَوْفَ fiil alameti olup isme gelmez; harf-i cer ve tenvin ise isim alametidir. Bir kelime harf-i cer almışsa kesinlikle isimdir."
+  },
+  {
+   "b": "2. Kök ve vezin: Mîzân-ı sarfî"
+  },
+  "Arapça kelimelerin çoğu üç harfli bir kökten türer. Dilciler kelimenin yapısını göstermek için ف - ع - ل harflerinden oluşan bir ölçü kullanır. Buna mîzân-ı sarfî ya da vezin denir. Ölçüye vurulan kelimeye mevzûn denir. Kökün ilk harfi “fâ’ul-fiil”, ikinci harfi “ayn’ul-fiil”, üçüncü harfi “lâm’ul-fiil” diye adlandırılır. Örnekte كَاتِبٌ kelimesi فَاعِلٌ, مَكْتُوبٌ kelimesi مَفْعُولٌ, مَكْتَبٌ kelimesi مَفْعَلٌ veznindedir. Üç kelimenin kökü aynıdır (ك ت ب). Farklı anlamlar, kalıbın değişmesinden doğar.",
+  "Kökte bulunmayıp sonradan eklenen harflere ziyade (zâid) harfler denir. Klasik sarf kitapları bunları سَأَلْتُمُونِيهَا kelimesinde toplar: س، أ، ل، ت، م، و، ن، ي، ه، ا. Bu on harf dışındaki bir harf (örneğin ك، ب، ر، ق) kelimede ziyade olarak bulunmaz, mutlaka köktendir. Ancak bu on harften birinin kelimede bulunması onun ziyade olduğunu göstermez: سَأَلَ fiilindeki üç harf de asıldır.",
+  "Kelimede bir harf düşerse vezinde de o harf düşer. Örneğin قُلْ (de!) emrinin aslı قُوْلْ şeklindedir. İki sâkin yan yana gelince vav düşmüştür. Bu yüzden vezni فُلْ olur. Aynı şekilde عِدْ (vaat et!) emri, ilk harfi düştüğü için عِلْ vezninde gösterilir. Dört harfli köklerde ölçüye ikinci bir lâm eklenir: دَحْرَجَ (yuvarladı) فَعْلَلَ veznindedir.",
+  {
+   "akil": "Vezin = ف ع ل kalıbı. Ziyade harfler: سَأَلْتُمُونِيهَا. Harf düşerse vezinde de düşer: قُلْ → فُلْ, عِدْ → عِلْ. Dört harfli kök: فَعْلَلَ."
+  },
+  {
+   "b": "3. Sülâsî mücerred: Altı bâb"
+  },
+  {
+   "merak": "Neden نَصَرَ fiilinin muzârisi يَنْصُرُ, ضَرَبَ fiilinin muzârisi ise يَضْرِبُ şeklindedir? Mâzîleri aynı kalıpta olduğu hâlde muzârilerinin farklı olması kuralsızlık değildir. Her fiil belirli bir “bâb”a aittir. Bâbı bilmeden muzâri doğru çekilemez."
+  },
+  "Kökü yalnız üç asıl harften oluşan fiillere sülâsî mücerred denir. Bu fiiller, mâzî ve muzârideki ayn’ul-fiil harekesine göre altı bâba ayrılır. Medrese geleneğinde sıra şöyledir:",
+  {
+   "tablo": [
+    [
+     "Bâb",
+     "Mâzî – Muzâri kalıbı",
+     "Örnek",
+     "Not"
+    ],
+    [
+     "1. Nasara",
+     "فَعَلَ – يَفْعُلُ",
+     "نَصَرَ يَنْصُرُ (yardım etti)",
+     "En yaygın bâblardandır"
+    ],
+    [
+     "2. Daraba",
+     "فَعَلَ – يَفْعِلُ",
+     "ضَرَبَ يَضْرِبُ (vurdu)",
+     "Misâl fiillerin çoğu buradadır: وَعَدَ يَعِدُ"
+    ],
+    [
+     "3. Fataha",
+     "فَعَلَ – يَفْعَلُ",
+     "فَتَحَ يَفْتَحُ (açtı)",
+     "Ayn ya da lâm harfi boğaz harfidir (ء ه ع ح غ خ)"
+    ],
+    [
+     "4. Semi‘a",
+     "فَعِلَ – يَفْعَلُ",
+     "عَلِمَ يَعْلَمُ، سَمِعَ يَسْمَعُ",
+     "Duygu ve hâl bildiren fiiller çoktur"
+    ],
+    [
+     "5. Hasibe",
+     "فَعِلَ – يَفْعِلُ",
+     "حَسِبَ يَحْسِبُ (sandı)",
+     "Az sayıda fiil"
+    ],
+    [
+     "6. Kerume",
+     "فَعُلَ – يَفْعُلُ",
+     "كَرُمَ يَكْرُمُ (cömert oldu)",
+     "Daima lâzımdır; kalıcı nitelik bildirir"
+    ]
+   ]
+  },
+  "Kerume bâbının fiilleri, hiçbir zaman mef‘ûl almaz (lâzımdır). Çoğunlukla güzellik, çirkinlik, büyüklük, küçüklük gibi kalıcı nitelikler bildirir (حَسُنَ، قَبُحَ، كَبُرَ). Bu fiillerden türeyen sıfat da çoğunlukla ism-i fâil kalıbında değil, sıfat-ı müşebbehe kalıbında gelir: كَرِيمٌ، حَسَنٌ. Fataha bâbının şartı bir boğaz harfidir. Ancak her boğaz harfli fiil fataha bâbından değildir: دَخَلَ يَدْخُلُ (nasara) ve رَجَعَ يَرْجِعُ (daraba) buna örnektir.",
+  {
+   "sinav": "Sorularda bir fiilin mâzî ve muzârisi verilip bâbı istenir ya da bâb–örnek eşleştirmesi yapılır. Kerume için “daima lâzım”, fataha için “boğaz harfi”, semi‘a ve hasibe için “mâzîde ayn esreli” bilgileri ayırt edicidir. Hasibe ile semi‘ayı muzârideki harekeden ayırırsın: يَحْسِبُ esreli, يَعْلَمُ üstünlüdür."
+  },
+  {
+   "akil": "Altı bâbın muzâri harekeleri sırasıyla: ötre (nasara), esre (daraba), üstün (fataha), üstün (semi‘a), esre (hasibe), ötre (kerume)."
+  },
+  {
+   "b": "4. Sülâsî mezîd bâbları ve anlamları"
+  },
+  {
+   "merak": "Aynı kökten gelen عَلِمَ “bildi”, عَلَّمَ “öğretti”, تَعَلَّمَ “öğrendi”, اِسْتَعْلَمَ ise “bilgi istedi” anlamına gelir. Kök aynı kaldığı hâlde anlamı değiştiren, kökün eklenen ziyade harflerle girdiği kalıptır. Mezîd bâbları Arapçanın anlam üretme makinesidir."
+  },
+  "Üç asıl harfine bir, iki ya da üç harf eklenmiş fiillere sülâsî mezîd denir. Her bâbın kendine özgü anlam eğilimleri vardır. Bu eğilimler mutlak kural değildir ama soruların büyük kısmı bunlara dayanır.",
+  {
+   "tablo": [
+    [
+     "Bâb",
+     "Kalıp – Mastar",
+     "Örnek",
+     "Başlıca anlamı"
+    ],
+    [
+     "İf‘âl",
+     "أَفْعَلَ – إِفْعَالٌ",
+     "أَكْرَمَ إِكْرَامًا",
+     "Ta‘diye: lâzımı geçişli yapar (خَرَجَ çıktı → أَخْرَجَ çıkardı)"
+    ],
+    [
+     "Tef‘îl",
+     "فَعَّلَ – تَفْعِيلٌ",
+     "عَلَّمَ تَعْلِيمًا",
+     "Ta‘diye ve teksîr (çokluk): كَسَّرَ paramparça etti"
+    ],
+    [
+     "Mufâale",
+     "فَاعَلَ – مُفَاعَلَةٌ / فِعَالٌ",
+     "قَاتَلَ مُقَاتَلَةً وَقِتَالًا",
+     "Müşâreke: iki taraf arasında karşılıklılık"
+    ],
+    [
+     "Tefe‘‘ul",
+     "تَفَعَّلَ – تَفَعُّلٌ",
+     "تَعَلَّمَ تَعَلُّمًا",
+     "Tef‘îlin mutâvaatı (etkisini kabul), tekellüf (zorlanarak yapma)"
+    ],
+    [
+     "Tefâ‘ul",
+     "تَفَاعَلَ – تَفَاعُلٌ",
+     "تَشَاوَرَ، تَمَارَضَ",
+     "Çok taraflı müşâreke; tezâhür (öyleymiş gibi görünme)"
+    ],
+    [
+     "İnfiâl",
+     "اِنْفَعَلَ – اِنْفِعَالٌ",
+     "اِنْكَسَرَ اِنْكِسَارًا",
+     "Mutâvaat (kırıldı); daima lâzımdır"
+    ],
+    [
+     "İftiâl",
+     "اِفْتَعَلَ – اِفْتِعَالٌ",
+     "اِجْتَمَعَ اِجْتِمَاعًا",
+     "Mutâvaat, ittihâz (edinme)"
+    ],
+    [
+     "İf‘ilâl",
+     "اِفْعَلَّ – اِفْعِلَالٌ",
+     "اِحْمَرَّ اِحْمِرَارًا",
+     "Renk ve kusur; mübalağa"
+    ],
+    [
+     "İstif‘âl",
+     "اِسْتَفْعَلَ – اِسْتِفْعَالٌ",
+     "اِسْتَغْفَرَ اِسْتِغْفَارًا",
+     "Taleb (isteme); bir şeyi öyle bulma (اِسْتَحْسَنَ güzel buldu)"
+    ]
+   ]
+  },
+  "Muzâride bir ince ayrıntı vardır. Mâzîsi dört harfli olan fiillerde muzâraat harfi ötrelidir: if‘âl (يُكْرِمُ), tef‘îl (يُعَلِّمُ), mufâale (يُقَاتِلُ) ve rubâî mücerred (يُدَحْرِجُ). Diğer bütün bâblarda muzâraat harfi üstünlüdür: يَنْصُرُ، يَتَعَلَّمُ، يَنْكَسِرُ، يَسْتَغْفِرُ. Bu ayrıntı, meçhul ile malûmu ayırırken de işe yarar.",
+  "İftiâl bâbında bir ses uyumu görülür. Fâ’ul-fiil ص، ض، ط، ظ harflerinden biri olursa iftiâl tâsı ط harfine dönüşür: صَبَرَ → اِصْطَبَرَ، ضَرَبَ → اِضْطَرَبَ. Fâ’ul-fiil د، ذ، ز olursa tâ د harfine dönüşür: زَحَمَ → اِزْدَحَمَ. Bir harfin başka bir harfe dönüşmesine ibdâl denir.",
+  {
+   "sinav": "“Aşağıdaki fiil–anlam eşleştirmelerinden hangisi yanlıştır?” tipi sık gelir. Taleb istif‘âldedir, müşâreke mufâaledir, renk ve kusur if‘ilâldir, mutâvaat infiâl ve tefe‘‘uldür. Ta‘diye en çok if‘âl ve tef‘îlde görülür. تَمَارَضَ “hastalandı” değil, “hasta numarası yaptı” anlamına gelir (tezâhür)."
+  },
+  {
+   "akil": "Muzâraat harfi ötreli olanlar dört harfli mâzîler: يُكْرِمُ، يُعَلِّمُ، يُقَاتِلُ، يُدَحْرِجُ. İftiâlde ص ض ط ظ’den sonra ت → ط."
+  },
+  {
+   "b": "5. Rubâî fiil, lâzım ve müteaddî"
+  },
+  "Dört asıl harfli fiillere rubâî denir. Rubâî mücerredin tek bâbı vardır: فَعْلَلَ – يُفَعْلِلُ (دَحْرَجَ يُدَحْرِجُ، تَرْجَمَ يُتَرْجِمُ). Rubâî mezîd kalıpları ise تَفَعْلَلَ (تَدَحْرَجَ yuvarlandı), اِفْعَنْلَلَ ve اِفْعَلَلَّ (اِطْمَأَنَّ içi rahat etti) şeklindedir.",
+  "Fâilin işi kendisinde kalan, mef‘ûl almayan fiile lâzım; işi başka bir varlığa geçen ve mef‘ûl alan fiile müteaddî denir. جَلَسَ (oturdu) lâzım, كَتَبَ الدَّرْسَ (dersi yazdı) müteaddîdir. Lâzım fiil üç yolla müteaddî yapılır: if‘âl bâbına nakil (أَجْلَسَ oturttu), tef‘îl bâbına nakil (فَرَّحَ sevindirdi) ya da harf-i cer kullanılması (ذَهَبَ بِهِ onu götürdü).",
+  {
+   "not": "Mezîd bâbların anlamları eğilimdir. Bir fiilin hangi anlamda kullanıldığına son kararı sözlük ve bağlam verir. Kur’an örnekleri üzerinde çalışmak bu bilgiyi kalıcı kılar."
+  }
+ ],
+ "ozet": [
+  "Kelime üçe ayrılır: isim (zamandan bağımsız anlam), fiil (zamana bağlı iş), harf (başka kelimeyle anlam kazanır).",
+  "İsim alametleri tenvin, el- takısı, harf-i cer, nidâ ve isnaddır; fiil alametleri قَدْ، سَ، سَوْفَ, sâkin te’nis tâsı ve fâil zamiridir.",
+  "Mîzân-ı sarfî ف ع ل harfleriyle kurulur; ölçülen kelimeye mevzûn denir.",
+  "Ziyade harfler سَأَلْتُمُونِيهَا kelimesinde toplanır; bu on harf dışındaki harf ziyade olamaz.",
+  "Kelimede düşen harf vezinde de düşer: قُلْ → فُلْ.",
+  "Sülâsî mücerredin altı bâbı: nasara, daraba, fataha, semi‘a, hasibe, kerume.",
+  "Fataha bâbında ayn ya da lâm harfi boğaz harfidir; kerume bâbı daima lâzımdır.",
+  "İf‘âl ve tef‘îl çoğunlukla ta‘diye, mufâale müşâreke, istif‘âl taleb, if‘ilâl renk ve kusur bildirir.",
+  "İnfiâl daima lâzımdır ve mutâvaat bildirir; tefâ‘ul çok taraflı müşâreke ve tezâhür bildirir.",
+  "Mâzîsi dört harfli fiillerin muzârisinde muzâraat harfi ötrelidir.",
+  "İftiâlde fâ’ul-fiil ص ض ط ظ ise tâ ط’ye, د ذ ز ise د’ye dönüşür (ibdâl).",
+  "Rubâî mücerredin tek bâbı فَعْلَلَ – يُفَعْلِلُ kalıbıdır."
+ ],
+ "kartlar": [
+  {
+   "o": "Mîzân-ı sarfî",
+   "a": "ف ع ل harflerinden kurulan ölçü; ölçülen kelime mevzûndur"
+  },
+  {
+   "o": "Ziyade harfler",
+   "a": "سَأَلْتُمُونِيهَا: س أ ل ت م و ن ي ه ا"
+  },
+  {
+   "o": "قُلْ emrinin vezni",
+   "a": "فُلْ (orta harf vav düşmüştür)"
+  },
+  {
+   "o": "Nasara bâbı",
+   "a": "فَعَلَ – يَفْعُلُ (نَصَرَ يَنْصُرُ)"
+  },
+  {
+   "o": "Daraba bâbı",
+   "a": "فَعَلَ – يَفْعِلُ (ضَرَبَ يَضْرِبُ)"
+  },
+  {
+   "o": "Fataha bâbının şartı",
+   "a": "Ayn ya da lâm harfinin boğaz harfi olması"
+  },
+  {
+   "o": "Kerume bâbı",
+   "a": "فَعُلَ – يَفْعُلُ; daima lâzım, kalıcı nitelik"
+  },
+  {
+   "o": "İf‘âl bâbının mastarı",
+   "a": "إِفْعَالٌ (إِكْرَامٌ)"
+  },
+  {
+   "o": "Mufâale bâbının anlamı",
+   "a": "Müşâreke: karşılıklılık (قَاتَلَ)"
+  },
+  {
+   "o": "İstif‘âl bâbının anlamı",
+   "a": "Taleb: isteme (اِسْتَغْفَرَ mağfiret diledi)"
+  },
+  {
+   "o": "İf‘ilâl bâbı",
+   "a": "اِفْعَلَّ: renk ve kusur (اِحْمَرَّ)"
+  },
+  {
+   "o": "تَمَارَضَ",
+   "a": "Tefâ‘ul; hasta numarası yaptı (tezâhür)"
+  },
+  {
+   "o": "اِصْطَبَرَ",
+   "a": "İftiâl; ت harfi ص’dan sonra ط olmuştur"
+  },
+  {
+   "o": "Rubâî mücerred",
+   "a": "فَعْلَلَ – يُفَعْلِلُ (دَحْرَجَ يُدَحْرِجُ)"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "ar1-01",
+   "z": 1,
+   "s": "Arap dilcilerine göre kendi başına anlam taşıyan ve bu anlamı zamana bağlı olmaksızın bildiren kelime türü aşağıdakilerden hangisidir?",
+   "c": [
+    "Fiil",
+    "İsim",
+    "Harf",
+    "Edat-ı cer",
+    "Zamir"
+   ],
+   "d": 1,
+   "a": "Kelime isim, fiil ve harf olmak üzere üçe ayrılır. Zamandan bağımsız anlam isme aittir.",
+   "ac": [
+    "Fiil anlamını üç zamandan birine bağlı olarak bildirir.",
+    "Doğru: isim, zamana bağlı olmayan bağımsız anlam taşır.",
+    "Harf kendi başına tam anlam taşımaz; başka kelimeyle anlam kazanır.",
+    "Cer harfleri, harf türünün bir alt kümesidir.",
+    "Zamir ayrı bir tür değildir; isimlerin bir çeşididir."
+   ],
+   "kay": "Sarf ve nahiv kitaplarında kelimenin taksimi"
+  },
+  {
+   "id": "ar1-02",
+   "z": 2,
+   "s": "سَأَلْتُمُونِيهَا kelimesinde toplanan ziyade harfleri göz önüne alındığında, aşağıdaki harflerden hangisi bir kelimede kesinlikle asıl harftir?",
+   "c": [
+    "س",
+    "ت",
+    "ن",
+    "ك",
+    "م"
+   ],
+   "d": 3,
+   "a": "Ziyade harfler on tanedir: س أ ل ت م و ن ي ه ا. Bunların dışındaki harfler ziyade olarak gelmez.",
+   "ac": [
+    "Bu harf ziyade harfleri arasındadır; istif‘âl bâbında olduğu gibi ziyade olabilir.",
+    "Bu harf ziyade olabilir; iftiâl ve tefe‘‘ul bâblarında ziyadedir.",
+    "Bu harf ziyade olabilir; infiâl bâbında ziyadedir.",
+    "Doğru: bu harf on ziyade harften biri değildir, bu yüzden kelimede ancak asıl olabilir.",
+    "Bu harf ism-i fâil ve ism-i mef‘ûl kalıplarındaki gibi ziyade olabilir."
+   ],
+   "kay": "Klasik sarf: hurûf-ı zevâid"
+  },
+  {
+   "id": "ar1-03",
+   "z": 2,
+   "s": "اِسْتَغْفَرَ fiilinin vezni aşağıdakilerden hangisidir?",
+   "c": [
+    "اِسْتَفْعَلَ",
+    "اِفْتَعَلَ",
+    "اِنْفَعَلَ",
+    "تَفَاعَلَ",
+    "أَفْعَلَ"
+   ],
+   "d": 0,
+   "a": "Kök غ ف ر’dir. Başa eklenen ا س ت harfleriyle istif‘âl bâbına geçmiştir ve taleb (bağışlanma dileme) anlamı taşır.",
+   "ac": [
+    "Doğru: asıl harfler غ ف ر; başa ا س ت eklenmiştir.",
+    "Bu kalıpta yalnız elif ve ت ziyadedir; kelimedeki س ise açıklanamaz.",
+    "Bu kalıpta ziyade harf ن’dir; kelimede ن yoktur.",
+    "Bu kalıpta ت başta, elif ayn’dan öncedir; kelime buna uymaz.",
+    "Bu kalıpta yalnız bir hemze ziyadedir."
+   ],
+   "kay": "İstif‘âl bâbı"
+  },
+  {
+   "id": "ar1-04",
+   "z": 3,
+   "s": "قُلْ (de!) emrinin vezni aşağıdakilerden hangisidir?",
+   "c": [
+    "اُفْعُلْ",
+    "فُعْلْ",
+    "فَعْ",
+    "فُلْ",
+    "فُعْ"
+   ],
+   "d": 3,
+   "a": "Kelimede düşen harf vezinde de düşürülür. قُلْ kelimesinde orta harf (vav) düştüğü için vezin فُلْ olur.",
+   "ac": [
+    "Bu, sahih fiillerin emir kalıbıdır (اُنْصُرْ); illetli fiilde harf düşer.",
+    "Vezinde düşen harf gösterilmemiştir; ayn’ul-fiil kelimede yoktur.",
+    "Lâm’ul-fiil kelimede mevcuttur (ل), düşen harf ayn’dır.",
+    "Doğru: aslı قُوْلْ; vav düştüğü için vezinde de ayn düşer.",
+    "Düşen harf lâm değil, ayn’dır; bu vezin yanlıştır."
+   ],
+   "kay": "Mîzân-ı sarfî: hazf"
+  },
+  {
+   "id": "ar1-05",
+   "z": 3,
+   "s": "Kerume bâbı ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+   "c": [
+    "Mâzîsi فَعِلَ, muzârisi يَفْعَلُ kalıbındadır.",
+    "Fiilleri çoğunlukla müteaddî olup iki mef‘ûl alır.",
+    "Fiilleri daima lâzımdır ve çoğunlukla kalıcı nitelik bildirir.",
+    "Ayn ya da lâm harfinin boğaz harfi olması şarttır.",
+    "Misâl fiillerin büyük çoğunluğu bu bâbdandır."
+   ],
+   "d": 2,
+   "a": "Kerume bâbı (فَعُلَ – يَفْعُلُ) daima lâzımdır, kalıcı nitelik bildirir. Sıfatları çoğunlukla sıfat-ı müşebbehe kalıbındadır (كَرِيمٌ).",
+   "ac": [
+    "Bu kalıp semi‘a bâbına aittir.",
+    "Kerume fiilleri hiçbir zaman mef‘ûl almaz.",
+    "Doğru: كَرُمَ، حَسُنَ، كَبُرَ gibi fiiller lâzımdır ve nitelik bildirir.",
+    "Bu şart fataha bâbı içindir.",
+    "Misâl fiillerin çoğu daraba bâbındandır (وَعَدَ يَعِدُ)."
+   ],
+   "kay": "Sülâsî mücerred bâbları"
+  },
+  {
+   "id": "ar1-06",
+   "z": 2,
+   "s": "فَتَحَ يَفْتَحُ örneğiyle bilinen bâbın şartı aşağıdakilerden hangisidir?",
+   "c": [
+    "Fâ’ul-fiilin illet harfi olması",
+    "Kökte hemze bulunması",
+    "Fiilin daima lâzım olması",
+    "Mâzîde ayn’ul-fiilin esreli olması",
+    "Ayn ya da lâm’ul-fiilin boğaz harfi olması"
+   ],
+   "d": 4,
+   "a": "Fataha bâbı (فَعَلَ – يَفْعَلُ) fiillerinin ayn ya da lâm harfi boğaz harflerinden (ء ه ع ح غ خ) biridir.",
+   "ac": [
+    "Bu, misâl fiilin tanımıdır.",
+    "Bu, mehmûz fiilin tanımıdır.",
+    "Bu, kerume bâbının özelliğidir.",
+    "Fataha bâbında mâzîde ayn üstünlüdür.",
+    "Doğru: فَتَحَ fiilinde lâm’ul-fiil ح boğaz harfidir."
+   ],
+   "kay": "Sülâsî mücerred bâbları"
+  },
+  {
+   "id": "ar1-07",
+   "z": 3,
+   "s": "İf‘âl bâbı hakkında:\nI. Muzârisinde muzâraat harfi ötrelidir.\nII. Mastarı إِفْعَالٌ kalıbında gelir.\nIII. Çoğunlukla lâzım fiili müteaddî yapar.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "İf‘âl bâbının mâzîsi dört harflidir, bu yüzden muzâraat harfi ötrelidir. Mastarı إِفْعَالٌ’dir. En belirgin anlamı ta‘diyedir.",
+   "ac": [
+    "Eksik: mastar kalıbı ve ta‘diye anlamı da doğrudur.",
+    "Eksik: muzâri harekesi ve ta‘diye de doğrudur.",
+    "Eksik: ta‘diye if‘âlin en belirgin anlamıdır.",
+    "Eksik: يُكْرِمُ örneğinde muzâraat harfi ötrelidir.",
+    "Doğru: يُكْرِمُ، إِكْرَامٌ ve خَرَجَ → أَخْرَجَ üçünü de gösterir."
+   ],
+   "kay": "Sülâsî mezîd bâbları"
+  },
+  {
+   "id": "ar1-08",
+   "z": 3,
+   "s": "Aşağıdaki bâb–anlam eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Mufâale – müşâreke",
+    "Tefe‘‘ul – taleb",
+    "İf‘ilâl – renk ve kusur",
+    "İnfiâl – mutâvaat",
+    "İstif‘âl – taleb"
+   ],
+   "d": 1,
+   "a": "Taleb anlamının asıl bâbı istif‘âldir. Tefe‘‘ul, tef‘îlin etkisini kabul etme (عَلَّمْتُهُ فَتَعَلَّمَ) ve zorlanarak yapma bildirir.",
+   "ac": [
+    "Doğru eşleştirmedir; قَاتَلَ iki taraflı çarpışmayı gösterir.",
+    "Yanlış eşleştirme budur: tefe‘‘ul mutâvaat ve tekellüf bildirir; taleb istif‘âlin anlamıdır.",
+    "Doğru eşleştirmedir; اِحْمَرَّ kızardı.",
+    "Doğru eşleştirmedir; اِنْكَسَرَ kırıldı.",
+    "Doğru eşleştirmedir; اِسْتَغْفَرَ bağışlanma istemektir."
+   ],
+   "kay": "Sülâsî mezîd bâbları"
+  },
+  {
+   "id": "ar1-09",
+   "z": 2,
+   "s": "اِنْكَسَرَ الزُّجَاجُ (cam kırıldı) cümlesindeki fiil hakkında hangisi söylenebilir?",
+   "c": [
+    "İnfiâl bâbındandır ve mutâvaat bildirir.",
+    "İftiâl bâbındandır ve müteaddîdir.",
+    "İf‘âl bâbındandır ve ta‘diye bildirir.",
+    "Tefâ‘ul bâbındandır ve müşâreke bildirir.",
+    "İstif‘âl bâbındandır ve taleb bildirir."
+   ],
+   "d": 0,
+   "a": "اِنْكَسَرَ, infiâl bâbındandır. Bu bâb daima lâzımdır ve bir işin etkisinin kabulünü (mutâvaat) bildirir.",
+   "ac": [
+    "Doğru: كَسَرَ (kırdı) fiilinin etkisinin kabulünü gösterir; lâzımdır.",
+    "Kelimede ziyade ن vardır; bu infiâl bâbıdır ve lâzımdır.",
+    "İf‘âlde başa hemze gelir; burada ا ن ziyadedir.",
+    "Tefâ‘ul kalıbı تَفَاعَلَ’dir; kelime buna uymaz.",
+    "Kelimede س ت yoktur."
+   ],
+   "kay": "İnfiâl bâbı"
+  },
+  {
+   "id": "ar1-10",
+   "z": 3,
+   "s": "تَمَارَضَ الْغُلَامُ لِيَتْرُكَ الدَّرْسَ cümlesindeki fiilin anlamı aşağıdakilerden hangisidir?",
+   "c": [
+    "Çocuk ağır hastalandı.",
+    "Çocuk hastalarla ilgilendi.",
+    "Çocuk iyileşmek istedi.",
+    "Çocuk, dersi bırakmak için hasta numarası yaptı.",
+    "Çocuk başkalarını hasta etti."
+   ],
+   "d": 3,
+   "a": "Tefâ‘ul bâbı çok taraflı müşâreke yanında tezâhür de bildirir: تَمَارَضَ hasta görünmek, تَغَافَلَ bilmezlikten gelmek.",
+   "ac": [
+    "Gerçek hastalık مَرِضَ fiiliyle anlatılır; burada tefâ‘ul kalıbı vardır.",
+    "Bu anlam tefâ‘ulün tezâhür anlamıyla örtüşmez.",
+    "Taleb anlamı istif‘âl bâbına aittir.",
+    "Doğru: tefâ‘ulün tezâhür (öyleymiş gibi görünme) anlamıdır.",
+    "Ta‘diye anlamı if‘âl ya da tef‘îl ile verilir."
+   ],
+   "kay": "Tefâ‘ul bâbı"
+  },
+  {
+   "id": "ar1-11",
+   "z": 2,
+   "s": "قَاتَلَ fiilinin mastarları aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "قَتْلٌ – تَقْتِيلٌ",
+    "تَقَاتُلٌ – اِقْتِتَالٌ",
+    "مُقَاتَلَةٌ – قِتَالٌ",
+    "إِقْتَالٌ – مَقْتَلٌ",
+    "قَاتِلٌ – مَقْتُولٌ"
+   ],
+   "d": 2,
+   "a": "Mufâale bâbının mastarı مُفَاعَلَةٌ ve فِعَالٌ kalıplarında gelir: مُقَاتَلَةٌ ve قِتَالٌ.",
+   "ac": [
+    "قَتْلٌ mücerredin, تَقْتِيلٌ tef‘îlin mastarıdır.",
+    "Bunlar tefâ‘ul ve iftiâl bâblarının mastarlarıdır.",
+    "Doğru: mufâalenin iki mastar kalıbı مُفَاعَلَةٌ ve فِعَالٌ’dir.",
+    "Birincisi if‘âl kalıbına benzer, ikincisi ism-i mekândır.",
+    "Bunlar ism-i fâil ve ism-i mef‘ûldür."
+   ],
+   "kay": "Mufâale bâbı"
+  },
+  {
+   "id": "ar1-12",
+   "z": 3,
+   "s": "Aşağıdaki özelliklerden:\nI. Tenvin alması\nII. Başına قَدْ gelmesi\nIII. Harf-i cer alması\nhangileri isim alametidir?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Tenvin ve harf-i cer isim alametidir. قَدْ, سَ ve سَوْفَ ise fiil alametidir.",
+   "ac": [
+    "Eksik: harf-i cer de isim alametidir.",
+    "قَدْ fiil alametidir.",
+    "Doğru: tenvin ve harf-i cer yalnız isimde görülür.",
+    "قَدْ isim alameti değildir.",
+    "قَدْ fiile gelir; isme gelmez."
+   ],
+   "kay": "Kelimenin alametleri"
+  },
+  {
+   "id": "ar1-13",
+   "z": 3,
+   "s": "اِجْتَمَعَ fiilinde ziyade harfler aşağıdakilerin hangisinde doğru gösterilmiştir?",
+   "c": [
+    "ا ve ت",
+    "ت ve م",
+    "ا ve ج",
+    "ج ve ع",
+    "Yalnız ت"
+   ],
+   "d": 0,
+   "a": "اِجْتَمَعَ kelimesi iftiâl (اِفْتَعَلَ) bâbındandır. Kökü ج م ع, ziyade harfleri baştaki elif ve fâ’ul-fiilden sonraki ت’dir.",
+   "ac": [
+    "Doğru: kök ج م ع; iftiâl bâbının elifi ve tâsı ziyadedir.",
+    "م asıl harftir.",
+    "ج asıl harftir (kök ج م ع).",
+    "İkisi de asıl harftir.",
+    "Baştaki vasıl elifi de ziyadedir."
+   ],
+   "kay": "İftiâl bâbı"
+  },
+  {
+   "id": "ar1-14",
+   "z": 2,
+   "s": "دَحْرَجَ (yuvarladı) fiili hakkında hangisi doğrudur?",
+   "c": [
+    "Sülâsî mezîddir, tef‘îl bâbındandır.",
+    "Rubâî mücerreddir, vezni فَعْلَلَ’dir.",
+    "Sülâsî mücerreddir, nasara bâbındandır.",
+    "Rubâî mezîddir, vezni تَفَعْلَلَ’dir.",
+    "Mufâale bâbındandır."
+   ],
+   "d": 1,
+   "a": "Dört asıl harfli fiillere rubâî denir. Ziyade harf yoksa rubâî mücerred olur. Tek bâbı فَعْلَلَ – يُفَعْلِلُ kalıbıdır.",
+   "ac": [
+    "Kelimede şeddeli harf yoktur; dört harfin hepsi asıldır.",
+    "Doğru: dört asıl harfli, ziyadesiz fiildir.",
+    "Kökü üç değil, dört harflidir.",
+    "تَدَحْرَجَ bu kalıptadır; دَحْرَجَ ise mücerreddir.",
+    "Mufâalede ف’den sonra elif gelir (فَاعَلَ)."
+   ],
+   "kay": "Rubâî fiil"
+  },
+  {
+   "id": "ar1-15",
+   "z": 3,
+   "s": "Aşağıdaki muzâri fiillerin hangisinde muzâraat harfi ötrelidir?",
+   "c": [
+    "يَنْصُرُ",
+    "يَسْتَغْفِرُ",
+    "يَنْكَسِرُ",
+    "يَتَعَلَّمُ",
+    "يُعَلِّمُ"
+   ],
+   "d": 4,
+   "a": "Mâzîsi dört harfli fiillerde (if‘âl, tef‘îl, mufâale, rubâî mücerred) muzâraat harfi ötrelidir. Diğerlerinde üstünlüdür.",
+   "ac": [
+    "Sülâsî mücerredde muzâraat harfi üstünlüdür.",
+    "İstif‘âlin mâzîsi altı harflidir; muzâraat harfi üstünlüdür.",
+    "İnfiâlin mâzîsi beş harflidir; muzâraat harfi üstünlüdür.",
+    "Tefe‘‘ulün mâzîsi beş harflidir; muzâraat harfi üstünlüdür.",
+    "Doğru: tef‘îlin mâzîsi (عَلَّمَ) dört harflidir; muzâraat harfi ötrelidir."
+   ],
+   "kay": "Muzâri fiilin yapılışı"
+  },
+  {
+   "id": "ar1-16",
+   "z": 3,
+   "s": "اِصْطَبَرَ fiili ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "İstif‘âl bâbındandır; س harfi ص’ye dönüşmüştür.",
+    "İnfiâl bâbındandır; ن harfi ط’ye dönüşmüştür.",
+    "İf‘ilâl bâbındandır ve renk bildirir.",
+    "İftiâl bâbındandır; ziyade ت harfi ص’dan sonra ط’ye dönüşmüştür.",
+    "Rubâî mücerreddir."
+   ],
+   "d": 3,
+   "a": "İftiâl bâbında fâ’ul-fiil ص، ض، ط، ظ harflerinden biri olursa ziyade ت harfi ط’ye dönüşür: صَبَرَ → اِصْطَبَرَ.",
+   "ac": [
+    "Kelimede istif‘âlin üç ziyade harfi yoktur.",
+    "İnfiâlin ن harfi değişmez.",
+    "İf‘ilâlde son harf şeddelidir (اِفْعَلَّ).",
+    "Doğru: aslı اِصْتَبَرَ’dir; ibdâl olmuştur.",
+    "Kelimenin kökü üç harflidir: ص ب ر."
+   ],
+   "kay": "İftiâl bâbında ibdâl"
+  }
+ ]
+}

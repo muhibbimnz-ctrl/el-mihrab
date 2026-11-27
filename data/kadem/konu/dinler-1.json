@@ -1,0 +1,923 @@
+{
+ "id": "dinler-1",
+ "ad": "Dinler Tarihine Giriş: Din Bilimleri, Dinlerin Sınıflandırılması ve Dinin Kökeni Teorileri",
+ "ders": "Dinler Tarihi",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Dinler tarihi nedir, nasıl çalışır?"
+  },
+  {
+   "merak": "Bir Müslüman araştırmacı Budizmi anlatırken “Bu din yanlıştır” diye başlasa, bir Budist de İslam’ı “Bu din eksiktir” diye anlatsa, ikisinin de yazdığı kitap ilmî olur mu? Dinler tarihi tam da bu soruya cevap vermek için doğmuş bir bilimdir: Önce anla, olduğu gibi anlat, sonra karşılaştır."
+  },
+  "Dinler tarihi, “din” ve “tarih” kelimelerinden oluşan bir bilim adıdır. Tarih, olayları yer ve zaman göstererek sebep-sonuç ilişkisi içinde inceleyen bilimdir; dinleri konu edinen tarih dalına da dinler tarihi denir. Bu bilim, yeryüzünde tarih boyunca ortaya çıkmış bütün dinleri, bugün mensubu bulunsun ya da bulunmasın, inceleme konusu yapar: Doğuşlarını, gelişmelerini, kollara ayrılmalarını, inanç, ibadet ve ahlak sistemlerini, kurumlarını ve birbirleriyle etkileşimlerini araştırır.",
+  "Dinler tarihinin en önemli özelliği tarafsızlıktır. Bu bilim hiçbir dinin savunuculuğunu ya da reddiyesini yapmaz; her dini kendi kaynaklarına ve mensuplarının anlayışına göre, olduğu gibi tasvir eder. Kaynak kitaplarda bu yönteme nitelendirici (tasvirî) metot denir. Birden çok dini konu edindiği için dinler arasındaki ortak ve farklı yönleri karşılaştırmalı metotla ortaya koyar. Dinlerin doğuşu, gelişmesi ve kaybolması gibi konularda tarih metodundan; kutsal metinlerin dilini ve aslını anlamada filolojiden yararlanır.",
+  {
+   "tablo": [
+    [
+     "Metot",
+     "Ne yapar?",
+     "Örnek"
+    ],
+    [
+     "Nitelendirici (tasvirî)",
+     "Dini, mensubunun gözüyle ve kendi kaynaklarına göre olduğu gibi anlatır; değer hükmü vermez",
+     "Budizmi Tripitaka’ya göre anlatmak"
+    ],
+    [
+     "Karşılaştırmalı (mukayeseli)",
+     "Dinlerin benzer ve farklı yönlerini yan yana koyar",
+     "Yahudilik, Hristiyanlık ve İslam’da oruç"
+    ],
+    [
+     "Tarihî",
+     "Doğuş, gelişme, bölünme ve yok oluşu sebep-sonuç içinde inceler",
+     "Hristiyanlığın Katolik-Ortodoks ayrılığı (1054)"
+    ],
+    [
+     "Filolojik",
+     "Kutsal metinlerin dilini, aslını ve tercümesini inceler",
+     "Vedaların Sanskritçesi, Avesta’nın dili"
+    ]
+   ]
+  },
+  "Dinler tarihinin bağımsız bir bilim dalı olarak kurucusu kabul edilen kişi, Almanya doğumlu olup Oxford’da çalışan Friedrich Max Müller’dir (1823-1900). Müller 1870’te verdiği derslerini 1873’te “Din Bilimine Giriş” (Introduction to the Science of Religion) adıyla yayımladı. Karşılaştırmalı din araştırmasını savunurken kullandığı “Yalnız bir dini bilen hiçbirini bilmez” sözü dinler tarihinin sloganı hâline geldi. Müller ayrıca Doğu dinlerinin kutsal metinlerini İngilizceye kazandıran 50 ciltlik “Doğu’nun Kutsal Kitapları” (Sacred Books of the East) dizisini yönetti. Almanca karşılığı Religionswissenschaft (din bilimi) olan bu alana Batı’da bugün çoğunlukla “dinler tarihi” ya da “karşılaştırmalı dinler” denir.",
+  {
+   "not": "Bu bilim Türkiye’de farklı adlarla anılmıştır: Tarih-i Edyân, Mukayeseli Dinler Tarihi, Karşılaştırmalı Dinler Tarihi, Dinler Tarihi. Günümüzde ilahiyat fakültelerinde Felsefe ve Din Bilimleri Anabilim Dalı içinde Dinler Tarihi Bilim Dalı olarak yer alır."
+  },
+  {
+   "sinav": "ÖSYM, “bir dinler tarihçisinden beklenen tutum” sorusunu sever: Doğru cevap her zaman tarafsız ve tasvirî bir cümledir (“Yahudilikte yeme-içme konusunda ayrıntılı kurallar vardır” gibi). “Şu din en üstündür”, “Şu kitaba inanmayan kurtulamaz”, “Dinler şöyle gelişmelidir” gibi değer hükmü ya da tavsiye içeren cümleler dinler tarihçisinin cümlesi değildir."
+  },
+  {
+   "akil": "Dinler tarihi = bütün dinleri tarafsız (nitelendirici), karşılaştırmalı ve tarihî metotla inceleyen bilim. Kurucusu Max Müller; sloganı “Yalnız bir dini bilen hiçbirini bilmez.”"
+  },
+  {
+   "b": "2. Din bilimleri ailesi ve dinler tarihinin yeri"
+  },
+  {
+   "merak": "Bir köyde yağmur duası yapılıyor. Sosyolog topluluğun bir araya gelişine, psikolog duayı edenin iç dünyasına, fenomenolog bu ritüelin başka dinlerdeki benzerlerine, dinler tarihçisi de bu uygulamanın tarih içinde nasıl doğup değiştiğine bakar. Aynı manzara, dört farklı bilim."
+  },
+  "Dini bir nesne olarak ele alıp inceleyen bilimlerin ortak adı din bilimleridir. Dinler tarihi, din sosyolojisi, din psikolojisi, din fenomenolojisi, din felsefesi ve din antropolojisi bu çatı altında yer alır. Bu disiplinler birbirinden beslenir; dinler tarihi ayrıca filoloji, mitoloji, arkeoloji, sanat tarihi ve folklordan yararlanır.",
+  {
+   "tablo": [
+    [
+     "Bilim dalı",
+     "Neyi inceler?",
+     "Öne çıkan isimler ve eserler"
+    ],
+    [
+     "Dinler tarihi",
+     "Dinlerin tarih içindeki doğuşu, gelişmesi, inanç-ibadet-kurumları",
+     "Max Müller (Din Bilimine Giriş, 1873)"
+    ],
+    [
+     "Din fenomenolojisi",
+     "Dinî olayların (dua, kurban, kutsal mekân, kutsal zaman) özünü ve yapısını, dinler üstü tipler hâlinde",
+     "Chantepie de la Saussaye (terimi ilk kullanan, 1887), Gerardus van der Leeuw, Rudolf Otto (Kutsal, 1917), Mircea Eliade (Kutsal ve Dindışı)"
+    ],
+    [
+     "Din sosyolojisi",
+     "Din ile toplum arasındaki karşılıklı etkileşim",
+     "Émile Durkheim (Dinî Hayatın İlkel Biçimleri, 1912), Max Weber (Protestan Ahlakı ve Kapitalizmin Ruhu, 1905), Joachim Wach"
+    ],
+    [
+     "Din psikolojisi",
+     "Bireyin dinî tecrübesi, dönüşüm (ihtida), dua ve inancın psikolojik yönü",
+     "E. D. Starbuck (Din Psikolojisi, 1899), William James (Dinî Tecrübenin Çeşitleri, 1902), Freud, C. G. Jung"
+    ],
+    [
+     "Din felsefesi",
+     "Dinî iddiaların (Tanrı’nın varlığı, kötülük problemi) akli temellendirilmesi",
+     "Kant, Hegel, John Hick"
+    ],
+    [
+     "Din antropolojisi",
+     "İlkel ve geleneksel toplumlarda din, büyü, mit ve ritüel",
+     "E. B. Tylor, J. G. Frazer (Altın Dal), Malinowski"
+    ]
+   ]
+  },
+  "Din fenomenolojisinin en çok sorulan kavramları Rudolf Otto ve Mircea Eliade’den gelir. Otto, “Kutsal” (Das Heilige, 1917) adlı eserinde dinin özünü akılla tam kavranamayan numinous (kutsal olan) tecrübesinde görür; bu kutsal hem ürperten, korkutan (mysterium tremendum) hem de cezbeden, kendine çeken (mysterium fascinans) bir sırdır. Eliade ise kutsalın dünyada kendini gösterişine hiyerofani (kutsalın tezahürü) der ve kutsal (sacred) ile dindışı (profane) ayrımı üzerinde durur. Van der Leeuw, fenomenoloğun kendi yargılarını askıya almasını (epoché, paranteze alma) ve olayı içeriden anlamaya çalışmasını ister.",
+  "Din sosyolojisinde Durkheim, dini kutsal ile kutsal olmayanı ayıran ve bir cemaat (kilise) oluşturan inanç ve uygulamalar sistemi olarak tanımlar. Max Weber ise Protestan (özellikle Kalvinist) ahlakın çalışmayı ve biriktirmeyi kutsamasının kapitalizmin ruhunu beslediğini savunmuştur. Din psikolojisinin ilk sistematik kitabını Starbuck yazmış (1899), William James ise dinî tecrübeyi “sağlıklı ruh” ve “hasta ruh” tipleri üzerinden incelemiştir.",
+  {
+   "not": "Dinler tarihi temel İslam bilimleriyle de ilişkilidir: Tefsirde İsrâiliyatı ayıklamaya, hadiste eski kavimlere dair rivayetleri değerlendirmeye ve İslam’ın ruhuna uymayan bazı rivayetlerin kaynağını bulmaya, kelamda Allah’ın sıfatları, nübüvvet, vahiy ve ahiret konularında karşılaştırmalı malzeme sağlamaya yardım eder."
+  },
+  {
+   "sinav": "Eşleştirme sorularında karıştırılanlar: Otto → kutsal / numinous (fenomenoloji, sosyoloji değil); Eliade → hiyerofani, kutsal-dindışı; Weber → Protestan ahlakı ve kapitalizm (sosyoloji); William James → dinî tecrübenin çeşitleri (psikoloji); Durkheim → hem din sosyolojisi hem totemizm teorisi; Chantepie de la Saussaye → “din fenomenolojisi” terimini ilk kullanan."
+  },
+  {
+   "akil": "Din bilimleri: tarih (Müller), fenomenoloji (Otto, Eliade, van der Leeuw), sosyoloji (Durkheim, Weber), psikoloji (Starbuck, James, Freud), antropoloji (Tylor, Frazer). Fenomenolojinin anahtarları: numinous, tremendum-fascinans, hiyerofani, epoché."
+  },
+  {
+   "b": "3. İslam dünyasında ve Türkiye’de dinler tarihi"
+  },
+  {
+   "merak": "Avrupa’da dinler tarihi 19. yüzyılda kurulurken, bundan sekiz yüz yıl önce Hindistan’da Sanskritçe öğrenip Hindu bilginlerle oturan, Hint dinini “onların kendi söyledikleri gibi” anlatmaya özen gösteren bir Müslüman âlim vardı: Bîrûnî."
+  },
+  "Kur’an-ı Kerim, kendinden önceki din mensuplarından sıkça söz eder ve Müslümanları diğer dinler hakkında bilgi sahibi olmaya yöneltir. Hac suresinde iman edenlerle birlikte Yahudiler, Sâbiîler, Hristiyanlar, Mecûsîler ve müşrikler sayılır; aralarında hükmün kıyamet günü Allah tarafından verileceği bildirilir.",
+  {
+   "ayet": "Şüphesiz iman edenler, Yahudiler, Sâbiîler, Hristiyanlar, Mecûsîler ve Allah’a ortak koşanlar var ya, Allah kıyamet günü onların arasında mutlaka hüküm verecektir. Şüphesiz Allah her şeye şahittir.",
+   "kay": "Hac, 22/17"
+  },
+  "Bu Kur’anî ilgi, İslam dünyasında milel ve nihal (dinler ve mezhepler) adıyla zengin bir literatür doğurdu. Bu eserler hem İslam mezheplerini hem de diğer dinleri anlatır. Bunların bir kısmı reddiye amaçlıyken, bir kısmı dikkat çekici bir tarafsızlıkla yazılmıştır.",
+  {
+   "tablo": [
+    [
+     "Müellif",
+     "Eser",
+     "Özellik"
+    ],
+    [
+     "Bîrûnî (ö. 1048 sonrası)",
+     "Tahkîk mâ li’l-Hind; el-Âsâru’l-bâkıye",
+     "Hint dinlerini yerinde gözlem ve Sanskritçe kaynaklarla anlatır; tarafsız ve karşılaştırmalı yöntemiyle ilk “bilimsel dinler tarihçisi” sayılır"
+    ],
+    [
+     "Şehristânî (ö. 548/1153)",
+     "el-Milel ve’n-nihal",
+     "Dinleri ve mezhepleri sistemli, sade ve tarafsız bir üslupla tasnif eder; en meşhur milel-nihal eseri"
+    ],
+    [
+     "İbn Hazm (ö. 456/1064)",
+     "el-Fasl fi’l-milel ve’l-ehvâ ve’n-nihal",
+     "Endülüslü Zâhirî âlim; Yahudi ve Hristiyan kutsal metinlerinin metin tenkidini yapar, eleştirel ve polemik yönü güçlüdür"
+    ],
+    [
+     "Abdülkāhir el-Bağdâdî (ö. 429/1037)",
+     "el-Fark beyne’l-fırak",
+     "Daha çok İslam fırkalarını “fırka-i nâciye” hadisi çerçevesinde anlatır"
+    ],
+    [
+     "Ebü’l-Hasan el-Eş’arî",
+     "Makâlâtü’l-İslâmiyyîn",
+     "İslam fırkalarının görüşlerini aktarır"
+    ],
+    [
+     "Ebü’l-Meâlî",
+     "Beyânü’l-edyân (1092)",
+     "Farsça yazılmış ilk dinler-mezhepler kitabı kabul edilir"
+    ]
+   ]
+  },
+  "Osmanlı’da 19. yüzyıla kadar çalışmalar milel-nihal ve kısas-ı enbiyâ geleneği çerçevesinde kaldı. Modern anlamda ilk adımlardan biri, 1859’da açılan Mülkiye Mektebi’nin programına “Tarih-i Edyân” dersinin konulmasıdır. Darülfünun Edebiyat Fakültesi’nde de dinler tarihi okutuldu. Cumhuriyet döneminde 1949’da açılan Ankara Üniversitesi İlahiyat Fakültesi’nin programında Dinler Tarihi dersi yer aldı; 1959’da İstanbul’da açılan ilk Yüksek İslam Enstitüsü’nde Mukayeseli Dinler Tarihi okutuldu. Enstitüler 1982’de ilahiyat fakültelerine dönüştürüldü.",
+  {
+   "kontrol": "Darülfünun’da dinler tarihi dersinin başlangıç yılı kaynaklarda farklı verilir (1874’te “Tarih-i Umûmî ve İlm-i Esâtîr-i Evvelîn” adıyla okutulduğu kaydı vardır). Sınav için en güvenli bilgiler: Mülkiye 1859 – Tarih-i Edyân; Ankara İlahiyat 1949; ilk Yüksek İslam Enstitüsü 1959 İstanbul."
+  },
+  "Diğer dinleri öğrenmenin bir Müslüman açısından faydaları şöyle sıralanır: Diğer din mensuplarını tanımak, anlamak ve kendi inancıyla karşılaştırmak; kendi dininin farkını ve değerini daha iyi görmek; Kur’an’da önceki ümmetler için eleştirilen davranışların kendi toplumunda bulunup bulunmadığını fark etmek; misyonerlik faaliyetlerini tanıyıp önlem almak; İslam’ı diğer din mensuplarına daha iyi anlatmak ve din hizmetini verimli kılmak; İslam’a karışmış hurafeleri ayırt etmek.",
+  {
+   "sinav": "“Diğer dinleri öğrenmenin önemi” sorusunda yanlış şık genellikle “İslam’ın açıklamakta eksik kaldığı konulara cevap bulma” gibi İslam’ı eksik gösteren bir ifadedir. Eser-müellif eşleştirmesinde en sık tuzak: Tahkîk mâ li’l-Hind’i Şehristânî’ye, el-Fasl’ı Bağdâdî’ye vermek."
+  },
+  {
+   "akil": "Kur’an, Hac 22/17’de altı grubu sayar. Milel-nihal: Şehristânî (el-Milel ve’n-nihal), İbn Hazm (el-Fasl), Bağdâdî (el-Fark), Bîrûnî (Tahkîk mâ li’l-Hind; tarafsız gözlem). Türkiye: Mülkiye 1859 Tarih-i Edyân."
+  },
+  {
+   "b": "4. Din nedir? Tanımlar ve dinin unsurları"
+  },
+  {
+   "merak": "Yüzlerce bilim insanı dini tanımlamaya çalıştı; ama üzerinde ittifak edilmiş tek bir tanım yok. Çünkü herkes dine kendi penceresinden baktı: Sosyolog topluma, psikolog duyguya, filozof akla…"
+  },
+  "“Din” kelimesi Arapçadır; sözlükte ceza, karşılık, hesap, itaat, boyun eğme, yol, âdet ve şeriat anlamlarına gelir. Kur’an’da “yevmü’d-dîn” (hesap günü), “dîn-i hak” (hak din) gibi kullanımlarla hem hesap hem de yol ve hayat tarzı anlamlarında geçer. Kaynaklar din tanımlarını genellikle üç grupta toplar.",
+  {
+   "tablo": [
+    [
+     "Tanım grubu",
+     "Sahibi",
+     "Tanım (özü)"
+    ],
+    [
+     "İslam âlimleri",
+     "Seyyid Şerîf el-Cürcânî",
+     "Akıl sahiplerini peygamberin bildirdiklerini kabule çağıran ilahi kanun"
+    ],
+    [
+     "İslam âlimleri",
+     "Elmalılı M. Hamdi Yazır",
+     "Akıl sahiplerini kendi iradeleriyle bizzat hayır olan şeylere sevk eden ilahi kanun"
+    ],
+    [
+     "İslam âlimleri",
+     "Ömer Nasuhi Bilmen",
+     "Allah’ın peygamberleri aracılığıyla bildirdiği, uyulduğunda iki dünya mutluluğuna götüren kanun"
+    ],
+    [
+     "Sosyolojik",
+     "Émile Durkheim",
+     "Kutsal şeylere ilişkin, inananları bir cemaatte birleştiren inanç ve uygulamalar sistemi"
+    ],
+    [
+     "Antropolojik",
+     "E. B. Tylor",
+     "Manevi (ruhani) varlıklara inanç (asgari tanım)"
+    ],
+    [
+     "Psikolojik / duygusal",
+     "F. Schleiermacher",
+     "Mutlak bağımlılık duygusu"
+    ],
+    [
+     "Fenomenolojik",
+     "Rudolf Otto",
+     "Kutsal (numinous) olanın tecrübesi"
+    ],
+    [
+     "Eleştirel",
+     "L. Feuerbach; K. Marx",
+     "İnsanın kendi özünü dışarıya yansıtması; “halkın afyonu”"
+    ],
+    [
+     "Ahlakçı",
+     "I. Kant",
+     "Ahlaki ödevleri ilahi emirler olarak tanımak"
+    ]
+   ]
+  },
+  "İslam âlimlerinin tanımlarında üç unsur öne çıkar: Dinin kaynağı ilahidir (vaz’-ı ilâhî), muhatabı akıl sahipleridir ve insan onu kendi iradesiyle seçer; amacı da insanı dünya ve ahiret mutluluğuna ulaştırmaktır. Dinin özünü oluşturan unsurlar açısından yapılan genel tanım ise şöyledir: Din, Tanrı’nın ya da din kurucusunun kutsal metinlerdeki sözlerinden, insanların bu amaca ulaşmak için yaptıkları davranışlardan ve oluşturdukları kurumlardan meydana gelen bir sistemdir. Joachim Wach bu yapıyı üç ifade biçimine ayırır: teorik (inanç, doktrin), pratik (ibadet, ritüel) ve sosyolojik (cemaat, kurum).",
+  "Din ile mitoloji de sık karşılaştırılır. Mitos “hikâye, efsane” demektir; mitoloji efsaneleri belli usullerle inceleyen disiplindir. İlk ölüm, ilk günah, tufan, ateş gibi konular mitolojide de işlenir. Her ikisinde de kutsallık atfı, uygulamalar ve psikolojik rahatlama vardır. Ama din tevhid, nübüvvet ve ahiret üzerine kuruludur; dinde Tanrı mücerret (soyut) iken mitoslarda müşahhas (somut, insan biçimli) bir varlıktır; din insana sorumluluk yükler, mitosun böyle hukuki bir yönü yoktur; din Tanrı’ya dayanır, mitos ise insan hayalinden ve dinden beslenir.",
+  {
+   "sinav": "Tanım-sahip eşleştirmesi: “Mutlak bağımlılık duygusu” Schleiermacher’dir, Otto değil. “Manevi varlıklara inanç” Tylor’dır. “Cemaat oluşturan inanç ve uygulamalar sistemi” Durkheim’dır. Din-mitos sorusunda “mitoslar insanı psikolojik olarak rahatlatır” bir benzerliktir, farklılık değildir."
+  },
+  {
+   "akil": "Din tanımında ittifak yok. İslam tanımları: ilahi kaynak + akıl + irade + iki dünya mutluluğu. Tylor: ruhani varlıklara inanç; Durkheim: kutsal + cemaat; Schleiermacher: mutlak bağımlılık."
+  },
+  {
+   "b": "5. Dinlerin sınıflandırılması"
+  },
+  {
+   "merak": "Budizm’e “dinsiz bir din” diyenler oldu, Konfüçyüsçülüğe “din değil ahlak felsefesi” denildi, Hinduizm’e “dinler ailesi” adı verildi. Dinleri tek bir ölçüyle sınıflamak neden bu kadar zor?"
+  },
+  "Dinler farklı ölçütlere göre sınıflandırılır ve her sınıflama bir yönü öne çıkarırken başka yönleri gölgede bırakır. En yaygın ölçütler kaynak, tanrı anlayışı, yayılma alanı, kurucu ve coğrafya-kültür havzasıdır.",
+  {
+   "tablo": [
+    [
+     "Ölçüt",
+     "Gruplar",
+     "Örnekler"
+    ],
+    [
+     "Kaynağına göre",
+     "Vahye dayalı (semavî, ilahi) / Beşerî (tabii, vahye dayanmayan)",
+     "Yahudilik, Hristiyanlık, İslam / Hinduizm, Budizm, Konfüçyüsçülük"
+    ],
+    [
+     "Kurucusuna göre",
+     "Kurucusu belli olan / Kurucusu belli olmayan",
+     "Budizm (Buda), Caynizm (Mahavira), Sihizm (Nanak), Zerdüştlük / Hinduizm, Şinto, kabile dinleri"
+    ],
+    [
+     "Yayılma alanına göre",
+     "Millî (etnik) / Evrensel (cihanşümul)",
+     "Yahudilik, Hinduizm, Şinto / Budizm, Hristiyanlık, İslam"
+    ],
+    [
+     "Coğrafya-kültür havzasına göre",
+     "Sami-İbrahimî / Hint / Uzak Doğu / İran",
+     "Yahudilik-Hristiyanlık-İslam / Hinduizm-Budizm-Caynizm-Sihizm / Konfüçyüsçülük-Taoizm-Şinto / Zerdüştlük-Maniheizm"
+    ],
+    [
+     "Yaşayıp yaşamamasına göre",
+     "Yaşayan / Tarihe karışmış (ölü)",
+     "Hinduizm / Eski Mısır, Mezopotamya, Maniheizm"
+    ],
+    [
+     "Gelişmişliğe göre",
+     "Kabile (ilkel, sözlü) dinleri / Kitaplı, kurumsal dinler",
+     "Afrika, Avustralya yerli dinleri / büyük dünya dinleri"
+    ]
+   ]
+  },
+  "Tanrı anlayışına göre sınıflamada kullanılan terimler sınavlarda ayrı bir başlık olarak sorulur. Henoteizm, Max Müller’in Vedalar için kullandığı bir kavramdır: Birçok tanrının varlığı inkâr edilmeden, ibadet sırasında içlerinden biri en yüce tanrı gibi görülür; bu üstün tutulan tanrının değişmesine kathenoteizm de denir. Monolatri ise başka tanrıların varlığını kabul edip yalnız birine tapınmaktır.",
+  {
+   "tablo": [
+    [
+     "Terim",
+     "Anlamı",
+     "Örnek / not"
+    ],
+    [
+     "Monoteizm",
+     "Tek Tanrı inancı",
+     "İslam, Yahudilik; Sihizm"
+    ],
+    [
+     "Politeizm",
+     "Çok tanrıcılık",
+     "Eski Yunan, Eski Mısır"
+    ],
+    [
+     "Henoteizm",
+     "Çok tanrı içinde, o an yöneldiği tanrıyı en yüce sayma",
+     "Max Müller’in Vedalar için kavramı"
+    ],
+    [
+     "Monolatri",
+     "Başka tanrıları inkâr etmeden yalnız birine tapma",
+     "Bazı eski Sami toplulukları için kullanılır"
+    ],
+    [
+     "Düalizm",
+     "İyilik ve kötülüğün iki ayrı ilke/güç olarak görülmesi",
+     "Zerdüştlük (geç dönem), Maniheizm"
+    ],
+    [
+     "Panteizm",
+     "Tanrı ile evreni özdeş görme, “her şey Tanrı’dır”",
+     "Upanişad düşüncesinde Brahman-Atman birliği"
+    ],
+    [
+     "Deizm",
+     "Tanrı’yı yaratıcı olarak kabul edip vahyi ve âleme müdahaleyi reddetme",
+     "17-18. yüzyıl Avrupa düşüncesi"
+    ],
+    [
+     "Ateizm / Agnostisizm",
+     "Tanrı’yı inkâr / Tanrı’nın bilinemeyeceğini söyleme",
+     "Erken Budizm bazen “nonteist” diye nitelenir"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Millî din” sorularında Yahudilik, Hinduizm ve Şinto akla gelmeli; “evrensel, misyoner din” denince Budizm, Hristiyanlık ve İslam. “Kurucusu olmayan din” denince Hinduizm ve Şinto; Caynizm’in kurucusu Mahavira sayılsa da Caynistler onu 24. tirthankara, yani yenileyici kabul eder. Henoteizm-Max Müller eşleşmesi sık çıkar."
+  },
+  {
+   "akil": "Sınıflama ölçütleri: kaynak (vahyî/beşerî), kurucu, yayılma (millî/evrensel), coğrafya, yaşayan/ölü. Tanrı anlayışı terimleri: monoteizm, politeizm, henoteizm (Müller), monolatri, düalizm, panteizm, deizm."
+  },
+  {
+   "b": "6. Dinin kökeni teorileri: Evrimci yaklaşımlar"
+  },
+  {
+   "merak": "19. yüzyıl Avrupa’sında Darwin’in evrim düşüncesi her alana taşındı. Bilim insanları şunu sordu: Din de basit bir şeyden başlayıp gelişerek mi bugünkü hâline geldi? Ruh inancından mı, tabiat korkusundan mı, ataya saygıdan mı, kabile totemlerinden mi?"
+  },
+  "Evrimci teorilere göre din, insanlığın başlangıcında basit bir biçimde doğmuş, zamanla çok tanrıcılığa, en sonunda da tek tanrıcılığa doğru gelişmiştir. Bu teoriler 19. yüzyılda büyük ilgi gördü; ancak 20. yüzyılda toplanan yeni etnografik veriler karşısında büyük ölçüde geçerliliğini yitirdi. Bunların ortak zaafı, “ilkel” sayılan bugünkü kabilelerin insanlığın ilk hâlini temsil ettiği varsayımı ve masa başında, ikinci el raporlarla çalışmalarıdır.",
+  {
+   "tablo": [
+    [
+     "Teori",
+     "Temsilcisi",
+     "Eseri",
+     "Temel iddia"
+    ],
+    [
+     "Natürizm",
+     "Friedrich Max Müller",
+     "Din Bilimine Giriş; Mitoloji çalışmaları",
+     "Din, tabiat olaylarının (güneş, gök, fırtına) karşısında duyulan hayranlık ve korkunun bunları kişileştirmesiyle doğdu; mitler “dilin hastalığı”dır"
+    ],
+    [
+     "Animizm",
+     "Edward Burnett Tylor",
+     "İlkel Kültür (Primitive Culture, 1871)",
+     "İlkel insan rüya, ölüm, bayılma gibi tecrübelerden bedenden ayrılabilen bir ruh fikrine ulaştı; ruhlara inanç tanrı inancına dönüştü"
+    ],
+    [
+     "Atalar kültü (manizm)",
+     "Herbert Spencer",
+     "Sosyolojinin İlkeleri",
+     "Dinin ilk biçimi ölmüş atalara saygı ve onların ruhlarına tapınmadır"
+    ],
+    [
+     "Preanimizm (manaizm, dinamizm)",
+     "Robert Ranulph Marett",
+     "Dinin Eşiği (The Threshold of Religion, 1909)",
+     "Ruh inancından önce, kişiliği olmayan gizli bir güç (mana) inancı vardı"
+    ],
+    [
+     "Totemizm",
+     "Émile Durkheim",
+     "Dinî Hayatın İlkel Biçimleri (1912)",
+     "Avustralya yerlilerinde (Arunta) görülen totem, aslında klanın (toplumun) sembolüdür; insanın taptığı şey toplumun kendisidir"
+    ],
+    [
+     "Fetişizm",
+     "Charles de Brosses (1760); Auguste Comte",
+     "Fetiş Tanrıların Kültü",
+     "Din, olağanüstü güç taşıdığına inanılan nesnelere (fetiş) tapınmayla başladı"
+    ],
+    [
+     "Büyü teorisi",
+     "James George Frazer",
+     "Altın Dal (The Golden Bough)",
+     "İnsanlık büyü → din → bilim aşamalarından geçmiştir"
+    ],
+    [
+     "Psikanalitik teori",
+     "Sigmund Freud",
+     "Totem ve Tabu (1913); Bir İllüzyonun Geleceği (1927)",
+     "Din, ilkel kalabalığın babayı öldürmesinden doğan suçluluk duygusunun ve korunma arzusunun ürünü bir illüzyondur"
+    ]
+   ]
+  },
+  "Kabile dinlerini anlamak için bu teorilerin kullandığı kavramları bilmek gerekir. Mana, Melanezya ve Polinezya dillerinde kişiliksiz, gizli, olağanüstü güç demektir; misyoner R. H. Codrington tarafından Batı’ya tanıtılmış, Marett tarafından teoriye dönüştürülmüştür. Tabu, Polinezya kökenli bir kelimedir; kutsal ya da tehlikeli olduğu için dokunulması, yaklaşılması yasak olan şeyi ifade eder. Totem, Kuzey Amerika yerlilerinin (Ojibwa) dilinden gelir; bir klanın kendisini akraba saydığı, genellikle öldürülüp yenmesi yasak olan hayvan ya da bitkidir. Fetiş, Portekizce “yapma, büyülü nesne” kökünden gelir; mana taşıdığına inanılan taş, muska, maskot gibi nesnelerdir.",
+  "Frazer büyüyü iki türe ayırır: Benzerin benzeri doğurduğu inancına dayanan taklit (benzerlik) büyüsü, örneğin düşmanın bir bebeğine iğne batırmak; ve bir kez temas etmiş şeylerin birbirini etkilemeye devam ettiği inancına dayanan bulaşma (temas) büyüsü, örneğin birinin saçı ya da tırnağı üzerinden ona etki etmek. Her ikisine birden sempatik büyü denir. Frazer’e göre büyücü tabiatı zorlamaya, dindar ise yüce güçlere yalvarmaya çalışır.",
+  {
+   "sinav": "En çok sorulan eşleştirme: Müller → natürizm; Tylor → animizm; Spencer → atalar kültü; Marett → preanimizm/mana; Durkheim → totemizm; de Brosses → fetişizm; Frazer → büyü; Freud → Totem ve Tabu, baba katli; Schmidt → ilkel tek tanrıcılık. Tuzak: Totemizmi Freud’a vermek. Freud “Totem ve Tabu”yu yazmıştır ama totemizmi dinin kökeni olarak sistemleştiren sosyolog Durkheim’dır; Freud ise totem yemeğini ilk baba katliyle açıklar."
+  },
+  {
+   "akil": "Evrimci teoriler: dinin basitten (ruh, mana, totem, tabiat, ata) gelişerek tek tanrıcılığa vardığını savunur ve bugün büyük ölçüde terk edilmiştir. Anahtar eşleşmeler: Müller-natürizm, Tylor-animizm, Marett-mana, Durkheim-totemizm, Frazer-büyü, Freud-illüzyon."
+  },
+  {
+   "b": "7. İlkel tek tanrıcılık ve İslam’ın bakışı"
+  },
+  {
+   "merak": "Avustralya’nın, Ateş Toprakları’nın, Afrika’nın pigme kabilelerine giden araştırmacılar beklemedikleri bir şeyle karşılaştı: En basit teknolojiye sahip bu topluluklar, göklerde oturan, ahlak kurallarını koyan, yaratıcı ve iyi bir “Yüce Varlık”tan söz ediyordu. Evrim şeması tersine mi işliyordu?"
+  },
+  "Evrimci teorilere ilk ciddi itiraz İskoç yazar Andrew Lang’den geldi. Lang “Dinin Oluşumu” (The Making of Religion, 1898) adlı eserinde en ilkel kabul edilen kavimlerde bile yaratıcı ve ahlaki bir “yüce varlık” (high god) inancının bulunduğunu gösterdi. Bu düşünceyi Avusturyalı rahip-etnolog Wilhelm Schmidt (1868-1954), Viyana kültür-tarihi okulu çerçevesinde sistemleştirdi. Schmidt’in 12 ciltlik “Tanrı Fikrinin Kökeni” (Der Ursprung der Gottesidee) adlı eseri, en eski kültür katmanlarında bir ilk tek tanrı inancının (Urmonotheismus, ilkel monoteizm) bulunduğunu, çok tanrıcılığın, animizmin ve büyünün bu inancın bozulmasıyla sonradan ortaya çıktığını savunur. Bu yaklaşıma dejenerasyon (bozulma) teorisi de denir.",
+  {
+   "tablo": [
+    [
+     "Karşılaştırma",
+     "Evrimci teoriler",
+     "İlkel tek tanrıcılık"
+    ],
+    [
+     "Başlangıç noktası",
+     "Ruh, mana, totem, tabiat ya da ata inancı",
+     "Yaratıcı, ahlaki, tek bir yüce varlık inancı"
+    ],
+    [
+     "Gidiş yönü",
+     "Basitten karmaşığa; çok tanrıdan tek tanrıya",
+     "Tek tanrıdan sapmaya; tek tanrıdan çok tanrıya"
+    ],
+    [
+     "Temsilciler",
+     "Tylor, Müller, Spencer, Marett, Durkheim, Frazer",
+     "Andrew Lang, Wilhelm Schmidt"
+    ],
+    [
+     "İslam’ın görüşüyle ilişkisi",
+     "Uyuşmaz",
+     "Fıtrat ve tevhid anlayışıyla örtüşür"
+    ]
+   ]
+  },
+  "İslam’a göre din, insanlıkla birlikte başlamıştır: İlk insan Hz. Âdem aynı zamanda ilk peygamberdir ve tevhid inancı insanın yaratılışında (fıtrat) vardır. Kur’an, insanların başlangıçta tek bir ümmet olduğunu, sonra ayrılığa düştüklerini; her topluma bir uyarıcı gönderildiğini bildirir. Çok tanrıcılık ise tevhidden sapmanın sonucudur. Bu yüzden İslam düşüncesi, evrimci teorilerden çok ilkel tek tanrıcılık görüşüyle uyuşur.",
+  {
+   "ayet": "İnsanlar tek bir ümmetti. Allah, müjdeleyici ve uyarıcı olarak peygamberler gönderdi…",
+   "kay": "Bakara, 2/213"
+  },
+  {
+   "ayet": "Sen yüzünü hanîf olarak dine, Allah insanları hangi fıtrat üzere yaratmışsa ona çevir. Allah’ın yaratışında değişiklik yoktur. İşte dosdoğru din budur…",
+   "kay": "Rûm, 30/30"
+  },
+  "Kur’an’daki “elest bezmi” (A’râf, 7/172) da insanın yaratılıştan Rabbini tanıma kabiliyetiyle donatıldığı şeklinde yorumlanır. Kaynak kitaplar, dinin kökeni konusunda tarihî veri olarak dayanılabilecek bilgilerin kutsal kitaplardaki bilgilerin ötesine geçemediğini; teorilerin ise birer varsayım olarak kaldığını hatırlatır.",
+  {
+   "sinav": "“Evrimci teorilere karşı geliştirilen ve İslam’ın tevhidle başlayan din anlayışıyla örtüşen görüş” → ilkel tek tanrıcılık (Schmidt, Lang). Öncül sorularında “ilkel tek tanrıcılık çok tanrıcılığı sonraki bir bozulma sayar” doğrudur; “dinin kaynağını ruh inancına bağlar” yanlıştır (o animizmdir)."
+  },
+  {
+   "akil": "Andrew Lang yüce varlık inancını gösterdi; Wilhelm Schmidt “Tanrı Fikrinin Kökeni”nde ilkel monoteizmi sistemleştirdi. İslam’a göre ilk insan ilk peygamberdir, tevhid fıtridir; şirk sonradan bir sapmadır."
+  }
+ ],
+ "ozet": [
+  "Dinler tarihi bütün dinleri tarafsız (nitelendirici), karşılaştırmalı, tarihî ve filolojik metotla inceler; savunma ya da reddiye yapmaz.",
+  "Kurucusu Max Müller (Din Bilimine Giriş, 1873); sloganı “Yalnız bir dini bilen hiçbirini bilmez”; Sacred Books of the East dizisi.",
+  "Din fenomenolojisi: Chantepie de la Saussaye (terim), van der Leeuw (epoché), Rudolf Otto (Kutsal 1917, numinous, tremendum-fascinans), Eliade (hiyerofani, kutsal-dindışı).",
+  "Din sosyolojisi: Durkheim (kutsal + cemaat), Weber (Protestan Ahlakı ve Kapitalizmin Ruhu). Din psikolojisi: Starbuck (1899), William James (Dinî Tecrübenin Çeşitleri 1902), Freud, Jung.",
+  "Kur’an Hac 22/17’de iman edenlerle birlikte Yahudi, Sâbiî, Hristiyan, Mecûsî ve müşrikleri sayar.",
+  "Milel-nihal: Şehristânî el-Milel ve’n-nihal; İbn Hazm el-Fasl; Bağdâdî el-Fark beyne’l-fırak; Bîrûnî Tahkîk mâ li’l-Hind (tarafsız, yerinde gözlem).",
+  "Türkiye: Mülkiye 1859 Tarih-i Edyân; Ankara İlahiyat 1949; ilk Yüksek İslam Enstitüsü 1959 İstanbul.",
+  "Din tanımları: Cürcânî, Elmalılı, Bilmen (ilahi kanun + akıl + irade + iki dünya saadeti); Tylor (ruhani varlıklara inanç); Durkheim (kutsal + cemaat); Schleiermacher (mutlak bağımlılık duygusu).",
+  "Din-mitos farkı: din tevhid-nübüvvet-ahiret ve sorumluluk içerir; dinde Tanrı mücerret, mitosta müşahhas; mitos insan hayalinden beslenir.",
+  "Millî dinler: Yahudilik, Hinduizm, Şinto. Evrensel dinler: Budizm, Hristiyanlık, İslam. Kurucusu belli olmayan: Hinduizm, Şinto, kabile dinleri.",
+  "Henoteizm Max Müller’in Vedalar için kullandığı kavramdır: Çok tanrı içinde o an yönelineni en yüce görme.",
+  "Kökeni teorileri: Müller-natürizm, Tylor-animizm (İlkel Kültür 1871), Spencer-atalar kültü, Marett-preanimizm/mana, Durkheim-totemizm (1912), de Brosses-fetişizm, Frazer-büyü (Altın Dal), Freud-Totem ve Tabu, illüzyon.",
+  "Frazer: büyü → din → bilim; taklit (benzerlik) ve bulaşma (temas) büyüsü = sempatik büyü.",
+  "Mana: kişiliksiz gizli güç; tabu: dokunulmaz yasak; totem: klanın akraba saydığı hayvan/bitki; fetiş: güç taşıdığına inanılan nesne.",
+  "İlkel tek tanrıcılık: Andrew Lang (1898) ve Wilhelm Schmidt (Tanrı Fikrinin Kökeni); çok tanrıcılık sonradan bozulmadır; İslam’ın fıtrat-tevhid anlayışıyla örtüşür.",
+  "İslam’a göre ilk insan Hz. Âdem ilk peygamberdir; din insanla başlar (Bakara 213, Rûm 30, A’râf 172)."
+ ],
+ "kartlar": [
+  {
+   "o": "Dinler tarihinin kurucusu ve sloganı",
+   "a": "Friedrich Max Müller; “Yalnız bir dini bilen hiçbirini bilmez.” Eseri: Din Bilimine Giriş (1873)."
+  },
+  {
+   "o": "Nitelendirici (tasvirî) metot",
+   "a": "Dini, kendi kaynaklarına ve mensubunun anlayışına göre olduğu gibi anlatmak; değer hükmü vermemek."
+  },
+  {
+   "o": "Rudolf Otto",
+   "a": "Din fenomenolojisi; Kutsal (Das Heilige, 1917); numinous, mysterium tremendum et fascinans."
+  },
+  {
+   "o": "Mircea Eliade",
+   "a": "Hiyerofani (kutsalın tezahürü); kutsal (sacred) – dindışı (profane) ayrımı."
+  },
+  {
+   "o": "Max Weber",
+   "a": "Din sosyolojisi; Protestan Ahlakı ve Kapitalizmin Ruhu (1905)."
+  },
+  {
+   "o": "William James",
+   "a": "Din psikolojisi; Dinî Tecrübenin Çeşitleri (1902)."
+  },
+  {
+   "o": "Bîrûnî",
+   "a": "Tahkîk mâ li’l-Hind ve el-Âsâru’l-bâkıye; Hint dinlerini yerinde, tarafsız gözlemle anlatan öncü."
+  },
+  {
+   "o": "Şehristânî – İbn Hazm – Bağdâdî",
+   "a": "el-Milel ve’n-nihal – el-Fasl – el-Fark beyne’l-fırak."
+  },
+  {
+   "o": "Henoteizm",
+   "a": "Çok tanrı içinde ibadet edilen tanrıyı o an en yüce sayma; Max Müller’in Vedalar için kavramı."
+  },
+  {
+   "o": "Animizm",
+   "a": "E. B. Tylor, İlkel Kültür (1871): Rüya ve ölüm tecrübesinden ruh fikri, ruhlara inançtan din."
+  },
+  {
+   "o": "Preanimizm (manaizm)",
+   "a": "R. R. Marett: Ruh inancından önce kişiliksiz gizli güç (mana) inancı vardı."
+  },
+  {
+   "o": "Totemizm",
+   "a": "Durkheim, Dinî Hayatın İlkel Biçimleri (1912): Totem klanın sembolüdür; tapılan toplumdur."
+  },
+  {
+   "o": "Natürizm",
+   "a": "Max Müller: Tabiat olaylarının kişileştirilmesi; mitler “dilin hastalığı”."
+  },
+  {
+   "o": "Karıştırma: Freud – Durkheim",
+   "a": "Freud: Totem ve Tabu, baba katli, din bir illüzyon (psikanaliz). Durkheim: totemizm, din toplumun kutsanması (sosyoloji)."
+  },
+  {
+   "o": "Frazer",
+   "a": "Altın Dal; büyü → din → bilim; taklit ve bulaşma büyüsü."
+  },
+  {
+   "o": "İlkel tek tanrıcılık",
+   "a": "Andrew Lang ve Wilhelm Schmidt (Tanrı Fikrinin Kökeni); ilk inanç tek tanrı, çok tanrıcılık sonraki bozulma."
+  },
+  {
+   "o": "Tabu – Fetiş – Totem",
+   "a": "Tabu: dokunulmaz yasak. Fetiş: mana taşıyan nesne. Totem: klanın akraba saydığı hayvan/bitki."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "d2-01",
+   "z": 2,
+   "s": "19. yüzyılın ikinci yarısında Oxford’da çalışan bir bilgin, Doğu dinlerinin kutsal metinlerini İngilizceye kazandıran geniş bir tercüme dizisini yönetmiş; Vedalar için “henoteizm” kavramını kullanmış ve dinlerin karşılaştırmalı incelenmesi gerektiğini, “Yalnız bir dini bilen hiçbirini bilmez.” sözüyle savunmuştur. Dinin kökenini tabiat olaylarının kişileştirilmesine bağlayan görüşün de temsilcisidir.\n\nBu parçada tanıtılan bilgin aşağıdakilerden hangisidir?",
+   "c": [
+    "Émile Durkheim",
+    "Edward B. Tylor",
+    "Rudolf Otto",
+    "William James",
+    "Friedrich Max Müller"
+   ],
+   "d": 4,
+   "a": "Max Müller dinler tarihinin bağımsız bir bilim olarak kurucusu sayılır; Sacred Books of the East dizisini yönetmiş, henoteizm kavramını kullanmış ve natürizm teorisini savunmuştur.",
+   "ac": [
+    "Din sosyolojisinin kurucularındandır ve totemizm teorisini savunmuştur; tercüme dizisi ve henoteizm ona ait değildir.",
+    "Animizm teorisinin sahibidir; tabiatın kişileştirilmesi (natürizm) onun görüşü değildir.",
+    "Kutsal (numinous) kavramıyla din fenomenolojisinde etkilidir.",
+    "Din psikolojisinin öncüsüdür; Dinî Tecrübenin Çeşitleri’nin yazarıdır.",
+    "Doğru: Sacred Books of the East, henoteizm, natürizm ve meşhur söz Max Müller’e aittir."
+   ],
+   "kay": "Konu: Dinler tarihinin kuruluşu"
+  },
+  {
+   "id": "d2-02",
+   "z": 2,
+   "s": "Bir antropolog, “İlkel insan uykuda gördüğü rüyalarda uzak yerlere gittiğini, ölmüş yakınlarıyla konuştuğunu görünce bedenden ayrılabilen bir varlığın bulunduğu sonucuna vardı. Ölümle bedeni terk eden bu varlık zamanla tabiattaki nesnelere de yüklendi ve ruhlara tapınma tanrı inancına dönüştü.” şeklinde bir görüş ileri sürmüştür.\n\nBu görüşün adı ve sahibi aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Preanimizm – Robert R. Marett",
+    "Totemizm – Émile Durkheim",
+    "İlkel tek tanrıcılık – Wilhelm Schmidt",
+    "Animizm – Edward B. Tylor",
+    "Fetişizm – Charles de Brosses"
+   ],
+   "d": 3,
+   "a": "Tylor “İlkel Kültür” (1871) adlı eserinde dinin kökenini rüya ve ölüm tecrübelerinden doğan ruh inancına (animizm) bağlamıştır.",
+   "ac": [
+    "Marett ruh inancından önce kişiliksiz bir güç (mana) inancı bulunduğunu söyler; rüyadan ruh fikri onun değil Tylor’ın görüşüdür.",
+    "Durkheim dinin kökenini klanın sembolü olan totemde bulur.",
+    "Schmidt en eski inancın yüce ve tek bir yaratıcı olduğunu savunur.",
+    "Doğru: rüya-ölüm-ruh zinciri animizmdir ve Tylor’a aittir.",
+    "De Brosses dinin olağanüstü güç taşıdığına inanılan nesnelere tapınmayla başladığını söyler."
+   ],
+   "kay": "Tylor, Primitive Culture (1871)"
+  },
+  {
+   "id": "d2-03",
+   "z": 3,
+   "s": "Bazı etnologlar, teknolojik bakımdan en basit hayatı süren Pigme, Ateş Toprakları ve Avustralya yerli topluluklarında gökte oturan, yaratıcı, ahlak kurallarını koyan ve iyiliği isteyen bir “yüce varlık” inancının bulunduğunu tespit etmiştir. Bu veriler, din tarihinde çok tanrıcılığın ve ruhlara tapınmanın sonradan ortaya çıkmış bir bozulma olduğu şeklinde yorumlanmıştır.\n\nBu yorumu sistemli bir teori hâline getiren bilgin ve görüşü aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Wilhelm Schmidt – ilkel tek tanrıcılık",
+    "Émile Durkheim – totemizm",
+    "Edward B. Tylor – animizm",
+    "Max Müller – natürizm",
+    "Robert R. Marett – manaizm"
+   ],
+   "d": 0,
+   "a": "Andrew Lang’ın açtığı yolu Wilhelm Schmidt “Tanrı Fikrinin Kökeni” adlı çok ciltli eseriyle sistemleştirmiştir. Bu görüş evrimci teorilere karşıdır ve İslam’ın tevhidle başlayan din anlayışıyla örtüşür.",
+   "ac": [
+    "Doğru: Schmidt, Urmonotheismus (ilkel tek tanrıcılık) teorisinin sistemli temsilcisidir.",
+    "Totemizm dinin klanın sembolüne tapınmayla başladığını söyler; yüce varlık inancını esas almaz.",
+    "Animizm ruh inancını dinin başlangıcı sayar; tek tanrı inancını sonraki aşamaya koyar.",
+    "Natürizm dinin tabiat olaylarının kişileştirilmesinden doğduğunu söyleyen evrimci bir görüştür.",
+    "Marett ruh inancından önce kişiliksiz güç (mana) inancını esas alır."
+   ],
+   "kay": "W. Schmidt, Der Ursprung der Gottesidee"
+  },
+  {
+   "id": "d2-04",
+   "z": 2,
+   "s": "Gazneli Mahmud’un Hindistan seferleri sırasında bölgeyi tanıyan bir Müslüman âlim, Sanskritçe öğrenerek Hint dinini ve felsefesini onların kendi kaynaklarından ve bilginleriyle görüşerek anlatmış; eserinde Hinduların görüşlerini reddetmek yerine olduğu gibi aktarmaya, gerektiğinde Yunan düşüncesiyle karşılaştırmaya özen göstermiştir.\n\nParçada sözü edilen âlim ve eseri aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Bîrûnî – Tahkîk mâ li’l-Hind",
+    "Şehristânî – el-Milel ve’n-nihal",
+    "İbn Hazm – el-Fasl",
+    "Abdülkāhir el-Bağdâdî – el-Fark beyne’l-fırak",
+    "Ebü’l-Hasan el-Eş’arî – Makâlâtü’l-İslâmiyyîn"
+   ],
+   "d": 0,
+   "a": "Bîrûnî’nin Tahkîk mâ li’l-Hind’i yerinde gözlem, kaynak dilini bilme ve tarafsızlık yönüyle dinler tarihinin ilk objektif çalışmalarından sayılır.",
+   "ac": [
+    "Doğru: Gazneli seferleri, Sanskritçe ve tarafsız aktarım Bîrûnî’yi gösterir.",
+    "Şehristânî dinleri ve mezhepleri tasnif eden el-Milel ve’n-nihal’in yazarıdır; Hindistan’da yerinde gözlem yapmamıştır.",
+    "İbn Hazm Endülüslüdür; el-Fasl’da özellikle Yahudi ve Hristiyan metinlerini eleştirir.",
+    "el-Fark daha çok İslam fırkalarını anlatır.",
+    "Makâlât İslam fırkalarının görüşlerini aktaran bir eserdir."
+   ],
+   "kay": "Bîrûnî, Tahkîk mâ li’l-Hind"
+  },
+  {
+   "id": "dn1-01",
+   "z": 3,
+   "s": "Bir araştırmacı Hindistan’daki bir tapınak ayinini incelerken şu cümleleri not etmiştir:\nI. Ayin sırasında rahip ateşe tereyağı sunmakta, katılanlar “om” hecesini tekrarlamaktadır.\nII. Bu ayinin unsurları Vedalardaki ateş kurbanlarıyla karşılaştırıldığında benzerlikler göstermektedir.\nIII. Bu tür uygulamalar insanı tek Tanrı’ya götüren hakiki yoldan uzaklaştırdığı için terk edilmelidir.\n\nBu cümlelerden hangileri bir dinler tarihçisinin bilimsel tutumuyla bağdaşır?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Dinler tarihçisi dini olayları olduğu gibi tasvir eder (nitelendirici metot) ve karşılaştırır (karşılaştırmalı metot); değer hükmü verip tavsiyede bulunmaz.",
+   "ac": [
+    "Tasvirî cümle doğrudur, ama karşılaştırma içeren II. cümle de bilimsel tutuma uygundur.",
+    "III. cümle değer hükmü ve tavsiye içerir; dinler tarihçisinin tutumuyla bağdaşmaz.",
+    "Doğru: I tasvirî, II karşılaştırmalıdır; ikisi de dinler tarihinin metodudur.",
+    "III. cümle bir teolojik değerlendirmedir; dinler tarihçisine ait olamaz.",
+    "III. cümlenin değer hükmü içermesi bu seçeneği geçersiz kılar."
+   ],
+   "kay": "Konu: Dinler tarihinin metodu"
+  },
+  {
+   "id": "dn1-02",
+   "z": 3,
+   "s": "Aşağıdaki bilim insanı – alan – kavram eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Rudolf Otto – din fenomenolojisi – numinous",
+    "Mircea Eliade – din fenomenolojisi – hiyerofani",
+    "Max Weber – din sosyolojisi – Protestan ahlakı",
+    "William James – din sosyolojisi – kolektif bilinç",
+    "Gerardus van der Leeuw – din fenomenolojisi – epoché"
+   ],
+   "d": 3,
+   "a": "William James din psikolojisinin öncüsüdür (Dinî Tecrübenin Çeşitleri). Kolektif bilinç kavramı ise Durkheim sosyolojisine aittir.",
+   "ac": [
+    "Doğru eşleşme: Otto kutsalı numinous olarak tanımlar.",
+    "Doğru eşleşme: Eliade kutsalın tezahürünü hiyerofani olarak adlandırır.",
+    "Doğru eşleşme: Weber Protestan ahlakı ile kapitalizm arasında bağ kurar.",
+    "Yanlış eşleşme: James psikolojidedir; kolektif bilinç Durkheim’ın kavramıdır.",
+    "Doğru eşleşme: van der Leeuw yargıları askıya almayı (epoché) önerir."
+   ],
+   "kay": "Konu: Din bilimleri"
+  },
+  {
+   "id": "dn1-03",
+   "z": 2,
+   "s": "Avustralya yerlilerini inceleyen bir sosyolog, her klanın kendini akraba saydığı bir hayvanı ya da bitkiyi kutsal kabul ettiğini, bu kutsal varlığın aslında klanın kendisinin sembolü olduğunu ileri sürmüştür. Ona göre insanlar ayinlerde tapındıklarını sandıkları şeyde gerçekte toplumun gücünü ve birliğini kutsamaktadır.\n\nBu görüşün sahibi ve eseri aşağıdakilerin hangisinde verilmiştir?",
+   "c": [
+    "Sigmund Freud – Totem ve Tabu",
+    "Émile Durkheim – Dinî Hayatın İlkel Biçimleri",
+    "James G. Frazer – Altın Dal",
+    "Herbert Spencer – Sosyolojinin İlkeleri",
+    "Andrew Lang – Dinin Oluşumu"
+   ],
+   "d": 1,
+   "a": "Durkheim 1912’de yayımladığı eserinde totemizmi dinin en ilkel biçimi sayar ve totemi klanın (toplumun) sembolü olarak açıklar.",
+   "ac": [
+    "Freud da totemden söz eder; ama o totemi ilk baba katlinden doğan suçluluk duygusuyla, psikanalitik olarak açıklar; toplumun kendini kutsaması onun tezi değildir.",
+    "Doğru: Durkheim, sosyolog, Avustralya, totem = klanın sembolü.",
+    "Frazer insanlığın büyü, din ve bilim aşamalarından geçtiğini söyler.",
+    "Spencer dinin başlangıcını atalar kültüne bağlar.",
+    "Lang ilkel kavimlerde yüce varlık inancını gösterir."
+   ],
+   "kay": "É. Durkheim, Les formes élémentaires de la vie religieuse (1912)"
+  },
+  {
+   "id": "dn1-04",
+   "z": 3,
+   "s": "Din ile ilgili aşağıdaki tanımlardan hangisinin sahibi yanlış verilmiştir?",
+   "c": [
+    "“Akıl sahiplerini kendi iradeleriyle bizzat hayır olan şeylere sevk eden ilahi bir kanun.” – Elmalılı Hamdi Yazır",
+    "“Manevi varlıklara inanç.” – Edward B. Tylor",
+    "“Kutsal şeylere ilişkin, inananları bir cemaatte birleştiren inanç ve uygulamalar sistemi.” – Émile Durkheim",
+    "“Akıl sahiplerini peygamberin bildirdiği şeyleri kabule çağıran ilahi kanun.” – Seyyid Şerîf el-Cürcânî",
+    "“Mutlak bağımlılık duygusu.” – Rudolf Otto"
+   ],
+   "d": 4,
+   "a": "“Mutlak bağımlılık duygusu” tanımı Alman ilahiyatçı Friedrich Schleiermacher’e aittir. Otto dini kutsalın (numinous) tecrübesiyle açıklar.",
+   "ac": [
+    "Doğru: Elmalılı’nın meşhur tanımıdır.",
+    "Doğru: Tylor’ın asgari din tanımıdır.",
+    "Doğru: Durkheim’ın sosyolojik tanımıdır.",
+    "Doğru: Cürcânî’nin et-Ta’rîfât’taki tanımının özüdür.",
+    "Yanlış: Bu tanım Schleiermacher’indir; Otto’yla karıştırılmıştır."
+   ],
+   "kay": "Konu: Dinin tanımı"
+  },
+  {
+   "id": "dn1-05",
+   "z": 2,
+   "s": "Melanezya’da çalışan bir misyonerin tanıttığı, kişiliği olmayan, insanlara, nesnelere ve olaylara geçebilen gizli ve olağanüstü güç anlamındaki bir kavramdan hareketle, dinin ruh inancından da önceki bir aşamada bu güce duyulan hayranlık ve korkuyla başladığı ileri sürülmüştür.\n\nBu görüş aşağıdakilerden hangisidir?",
+   "c": [
+    "Animizm",
+    "Natürizm",
+    "Atalar kültü",
+    "Fetişizm",
+    "Preanimizm"
+   ],
+   "d": 4,
+   "a": "Codrington’ın tanıttığı mana kavramından hareketle R. R. Marett, ruh inancından (animizmden) önceki aşamayı preanimizm (manaizm, dinamizm) olarak adlandırmıştır.",
+   "ac": [
+    "Animizm ruh inancını esas alır; parçadaki görüş tam da ruh inancından önceki aşamayı anlatır.",
+    "Natürizm tabiat olaylarının kişileştirilmesine dayanır; kişiliksiz güç vurgusu yoktur.",
+    "Atalar kültü ölmüş ataların ruhlarına saygı ve tapınmayı esas alır.",
+    "Fetişizm gücün belli nesnelerde toplandığı inancına, nesneye tapınmaya dayanır; parçadaki güç her şeye geçebilen kişiliksiz bir enerjidir.",
+    "Doğru: mana kavramı ve “ruh inancından önce” vurgusu preanimizmi gösterir."
+   ],
+   "kay": "R. R. Marett, The Threshold of Religion (1909)"
+  },
+  {
+   "id": "dn1-06",
+   "z": 3,
+   "s": "Dinlerin sınıflandırılmasıyla ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "Millî (etnik) din – Hristiyanlık",
+    "Evrensel din – Budizm",
+    "Kurucusu belli olmayan din – Şinto",
+    "Vahye dayanmayan din – Konfüçyüsçülük",
+    "Millî (etnik) din – Yahudilik"
+   ],
+   "d": 0,
+   "a": "Hristiyanlık, Budizm ve İslam gibi evrensel ve misyoner dinlerdendir. Yahudilik, Hinduizm ve Şinto ise millî dinlere örnektir.",
+   "ac": [
+    "Yanlış: Hristiyanlık bütün insanlara yönelen evrensel bir dindir.",
+    "Doğru: Budizm Hindistan dışına yayılmış evrensel bir dindir.",
+    "Doğru: Şinto’nun belli bir kurucusu yoktur.",
+    "Doğru: Konfüçyüsçülük beşerî kaynaklı bir sistemdir.",
+    "Doğru: Yahudilik belli bir kavme (İsrailoğulları) bağlı millî bir dindir."
+   ],
+   "kay": "Konu: Dinlerin sınıflandırılması"
+  },
+  {
+   "id": "dn1-07",
+   "z": 3,
+   "s": "Dinin kökeniyle ilgili teorilerle ilgili olarak\nI. Evrimci teoriler dinin basit bir inançtan başlayıp tek tanrıcılığa doğru geliştiğini savunur.\nII. Frazer’e göre insanlık zihni büyü, din ve bilim aşamalarından geçmiştir.\nIII. Freud dini, ilkel topluluktaki baba katlinin doğurduğu suçluluk duygusu ve korunma arzusuyla açıklamıştır.\nIV. Preanimizm teorisine göre ruh inancı, kişiliksiz güç inancından önce ortaya çıkmıştır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "II ve IV",
+    "I, II ve III",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 2,
+   "a": "I, II ve III doğrudur. Preanimizm ise tam tersini söyler: Kişiliksiz güç (mana) inancı ruh inancından öncedir.",
+   "ac": [
+    "III. öncül de doğrudur; Freud dini Totem ve Tabu’da baba katliyle açıklar.",
+    "IV. öncül yanlıştır; I ve III de doğrudur.",
+    "Doğru: Yalnız IV yanlıştır.",
+    "II doğru olduğu hâlde dışarıda bırakılmış, yanlış olan IV alınmıştır.",
+    "IV. öncül preanimizmi ters anlatmaktadır."
+   ],
+   "kay": "Konu: Dinin kökeni teorileri"
+  },
+  {
+   "id": "dn1-08",
+   "z": 2,
+   "s": "Kur’an-ı Kerim’de iman edenlerle birlikte Yahudiler, Sâbiîler, Hristiyanlar, Mecûsîler ve Allah’a ortak koşanların sayıldığı ve aralarındaki hükmün kıyamet günü Allah tarafından verileceğinin bildirildiği ayet aşağıdakilerden hangisidir?",
+   "c": [
+    "Bakara, 2/62",
+    "Mâide, 5/69",
+    "Âl-i İmrân, 3/19",
+    "Hac, 22/17",
+    "Bakara, 2/256"
+   ],
+   "d": 3,
+   "a": "Hac 22/17, Mecûsîler ve müşriklerin de sayıldığı tek ayettir. Bakara 62 ve Mâide 69’da iman edenler, Yahudiler, Hristiyanlar ve Sâbiîler anılır.",
+   "ac": [
+    "Bakara 62’de Mecûsîler ve müşrikler sayılmaz.",
+    "Mâide 69’da da Mecûsîler ve müşrikler yoktur.",
+    "Bu ayet Allah katında dinin İslam olduğunu bildirir.",
+    "Doğru: altı grubun birlikte sayıldığı ayettir.",
+    "Bu ayet dinde zorlama olmadığını bildirir."
+   ],
+   "kay": "Hac, 22/17"
+  },
+  {
+   "id": "dn1-09",
+   "z": 3,
+   "s": "Din ile mitos arasındaki ilişkiye dair\nI. Her ikisinde de kutsallık atfı ve buna bağlı uygulamalar bulunur.\nII. Dinde Tanrı soyut (mücerret) iken mitoslarda somut (müşahhas) varlıklar öne çıkar.\nIII. Mitoslar da dinler gibi insana hukuki sorumluluk yükleyen hükümler içerir.\n\nyargılarından hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Din ile mitos kutsallık ve uygulama yönünden benzeşir; Tanrı tasavvuru ve sorumluluk bakımından ayrılır. Mitosların hukuki, bağlayıcı bir yönü yoktur.",
+   "ac": [
+    "II. yargı da doğrudur.",
+    "III. yargı yanlıştır; sorumluluk yüklemek dinin özelliğidir.",
+    "Doğru: I benzerlik, II farklılık olarak doğrudur.",
+    "III yanlış olduğundan bu seçenek geçersizdir.",
+    "III’ün yanlışlığı bu seçeneği dışarıda bırakır."
+   ],
+   "kay": "Konu: Din ve mitoloji"
+  },
+  {
+   "id": "dn1-10",
+   "z": 2,
+   "s": "Bir kabilede avcılar, avlanmadan önce yere kazıdıkları geyik resmine mızrak saplamakta; ayrıca hastalık getirdiğine inandıkları birinin kesilmiş saçını ele geçirip yakmaktadır.\n\nFrazer’in sınıflamasına göre bu iki uygulama sırasıyla aşağıdakilerden hangisiyle adlandırılır?",
+   "c": [
+    "Bulaşma büyüsü – Taklit büyüsü",
+    "Taklit büyüsü – Bulaşma büyüsü",
+    "Fetişizm – Tabu",
+    "Totemizm – Animizm",
+    "Taklit büyüsü – Fetişizm"
+   ],
+   "d": 1,
+   "a": "Frazer’e göre benzerin benzeri doğurduğu inancı taklit (benzerlik) büyüsünü, bir kez temas etmiş şeylerin etkileşmeye devam ettiği inancı bulaşma (temas) büyüsünü doğurur; ikisine birden sempatik büyü denir.",
+   "ac": [
+    "Sıralama terstir: resim üzerinden etki benzerliğe, saç üzerinden etki temasa dayanır.",
+    "Doğru: resim = taklit büyüsü; saç = bulaşma büyüsü.",
+    "Fetiş güç taşıdığına inanılan nesne, tabu dokunulmaz yasaktır; bu uygulamaları adlandırmaz.",
+    "Totemizm klan-totem ilişkisi, animizm ruh inancıdır.",
+    "Saç üzerinden etki bir fetişe tapınma değil, temas büyüsüdür."
+   ],
+   "kay": "J. G. Frazer, The Golden Bough"
+  },
+  {
+   "id": "dn1-11",
+   "z": 1,
+   "s": "Türkiye’de modern anlamda dinler tarihi öğretiminin ilk adımlarından biri olarak kabul edilen “Tarih-i Edyân” dersi ilk kez hangi okulun programına konmuştur?",
+   "c": [
+    "Darülfünun Edebiyat Fakültesi",
+    "Mülkiye Mektebi",
+    "Ankara Üniversitesi İlahiyat Fakültesi",
+    "İstanbul Yüksek İslam Enstitüsü",
+    "Medresetü’l-Vâizîn"
+   ],
+   "d": 1,
+   "a": "1859’da açılan Mülkiye Mektebi’nin programına Tarih-i Edyân dersi konmuştur. Ankara İlahiyat 1949’da, ilk Yüksek İslam Enstitüsü 1959’da açılmıştır.",
+   "ac": [
+    "Darülfünun’da da dinler tarihi okutulmuştur, ama ilk adım Mülkiye’dir.",
+    "Doğru: Mülkiye Mektebi, 1859.",
+    "Ankara İlahiyat 1949’da açılmış ve Dinler Tarihi dersi koymuştur; ilk değildir.",
+    "İlk Yüksek İslam Enstitüsü 1959’da açılmıştır.",
+    "Medresetü’l-Vâizîn vaiz yetiştiren bir Osmanlı okuludur; ders ilk orada konmamıştır."
+   ],
+   "kay": "Konu: Türkiye’de dinler tarihi"
+  },
+  {
+   "id": "dn1-12",
+   "z": 3,
+   "s": "Bir öğrenci tanrı anlayışlarıyla ilgili şu notları almıştır:\nI. Henoteizm: Birçok tanrı kabul edilirken ibadet anında yönelinen tanrının en yüce sayılması\nII. Panteizm: Tanrı’nın âlemi yarattıktan sonra ona müdahale etmediği inancı\nIII. Düalizm: İyilik ve kötülüğün iki ayrı ilke olarak görülmesi\n\nÖğrencinin notlarından hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "II. not deizmin tanımıdır. Panteizm Tanrı ile evreni özdeş sayan “her şey Tanrı’dır” görüşüdür.",
+   "ac": [
+    "III. not da doğrudur; Zerdüştlük ve Maniheizm düalizme örnektir.",
+    "II. not deizmle karıştırılmıştır.",
+    "Doğru: I ve III doğru tanımlardır.",
+    "II yanlış olduğu için bu seçenek doğru değildir.",
+    "II’nin yanlışlığı bu seçeneği geçersiz kılar."
+   ],
+   "kay": "Konu: Tanrı anlayışına göre sınıflama"
+  }
+ ]
+}

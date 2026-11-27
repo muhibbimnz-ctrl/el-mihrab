@@ -1,0 +1,817 @@
+{
+ "id": "siyer-2",
+ "ad": "Hz. Peygamber’in Doğumundan Peygamberliğe",
+ "ders": "Siyer ve İslam Tarihi",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Siyer ilmi ve kaynakları"
+  },
+  {
+   "merak": "Hz. Peygamber’in hayatını bize ilk kim yazdı? İlk büyük siyer kitabının yazarı Muhammed b. İshak’tır; ama onun kitabını bugün aslıyla değil, bir başkasının düzenlemesiyle okuyoruz: İbn Hişâm’ın es-Sîretü’n-nebeviyye’si."
+  },
+  "Siyer, sözlükte “yol, gidiş, hayat tarzı” demektir; terim olarak Hz. Peygamber’in hayatını, ahlakını, savaşlarını ve faaliyetlerini inceleyen ilimdir. Erken dönemde Hz. Peygamber’in savaşlarına odaklanan eserlere meğāzî (gazveler) denirdi; zamanla siyer ve meğāzî aynı anlamda kullanıldı. Hz. Peygamber’in dış görünüşünü anlatan eserlere hilye, ahlakını ve günlük hayatını anlatan eserlere şemâil, mucizelerini anlatan eserlere delâil (delâilü’n-nübüvve), doğumunu anlatan manzum eserlere mevlid denir.",
+  {
+   "tablo": [
+    [
+     "Müellif",
+     "Eser",
+     "Not"
+    ],
+    [
+     "Urve b. Zübeyr (ö. 94/713)",
+     "Meğāzî rivayetleri",
+     "İlk meğāzî müelliflerinden; Hz. Âişe’nin yeğeni"
+    ],
+    [
+     "İbn Şihâb ez-Zührî (ö. 124/742)",
+     "Meğāzî",
+     "Hadis ve siyerin büyük râvisi"
+    ],
+    [
+     "Mûsâ b. Ukbe (ö. 141/758)",
+     "el-Meğāzî",
+     "Güvenilir kabul edilen erken eser"
+    ],
+    [
+     "Muhammed b. İshak (ö. 151/768)",
+     "es-Sîre (el-Mübtedâ, el-Meb’as, el-Meğāzî)",
+     "İlk kapsamlı siyer"
+    ],
+    [
+     "Vâkıdî (ö. 207/823)",
+     "Kitâbü’l-Meğāzî",
+     "Gazvelerin kronolojisi ayrıntılı"
+    ],
+    [
+     "İbn Hişâm (ö. 218/833)",
+     "es-Sîretü’n-nebeviyye",
+     "İbn İshak’ın eserini kısaltıp düzenledi"
+    ],
+    [
+     "İbn Sa’d (ö. 230/845)",
+     "et-Tabakātü’l-kübrâ",
+     "Vâkıdî’nin kâtibi; sahabe biyografileri"
+    ],
+    [
+     "Belâzürî (ö. 279/892)",
+     "Ensâbü’l-eşrâf, Fütûhu’l-büldân",
+     "Soy ve fetih tarihi"
+    ],
+    [
+     "Taberî (ö. 310/923)",
+     "Târîhu’r-rusül ve’l-mülûk",
+     "Genel tarih"
+    ],
+    [
+     "Tirmizî (ö. 279/892)",
+     "eş-Şemâilü’l-Muhammediyye",
+     "Şemâilin temel eseri"
+    ],
+    [
+     "Kādî İyâz (ö. 544/1149)",
+     "eş-Şifâ",
+     "Hz. Peygamber’in hakları ve faziletleri"
+    ],
+    [
+     "Süleyman Çelebi (ö. 825/1422)",
+     "Vesîletü’n-necât (Mevlid)",
+     "Türkçe mevlid"
+    ]
+   ]
+  },
+  {
+   "sinav": "İbn İshak – İbn Hişâm ilişkisi ve “Vâkıdî – İbn Sa’d (kâtibi)” ilişkisi sık sorulur. Hilye = dış görünüş, şemâil = ahlak ve yaşayış, delâil = mucizeler, meğāzî = gazveler."
+  },
+  {
+   "akil": "İlk kapsamlı siyer İbn İshak’ındır; elimizdeki hâli İbn Hişâm’ın düzenlemesidir. Meğāzî denince Vâkıdî, tabakat denince İbn Sa’d, şemâil denince Tirmizî akla gelir."
+  },
+  {
+   "b": "2. Soyu ve ailesi"
+  },
+  {
+   "merak": "Hz. Peygamber’in dedesinin asıl adı Şeybe’dir; yani “ak saçlı”. Ama herkes onu Abdülmuttalib (Muttalib’in kölesi) diye tanır. Neden mi? Amcası Muttalib onu Medine’den Mekke’ye getirirken terkisindeki tozlu çocuğu gören Mekkeliler “Muttalib bir köle almış” sandılar."
+  },
+  "Hz. Muhammed, Kureyş kabilesinin Hâşimoğulları koluna mensuptur. Soyu Adnân’a kadar sahih olarak bilinir; Adnân’dan Hz. İsmâil’e kadarki halkalar tartışmalıdır. Hz. Peygamber’in soyu şöyledir: Muhammed b. Abdullah b. Abdülmuttalib (Şeybe) b. Hâşim (Amr) b. Abdümenâf b. Kusay b. Kilâb b. Mürre b. Ka’b b. Lüey b. Gālib b. Fihr (Kureyş) b. Mâlik b. Nadr b. Kinâne b. Huzeyme b. Müdrike b. İlyâs b. Mudar b. Nizâr b. Mead b. Adnân.",
+  {
+   "kontrol": "Kureyş adının Fihr’e mi yoksa Nadr b. Kinâne’ye mi ait olduğu tartışmalıdır; yaygın görüş Fihr b. Mâlik’tir."
+  },
+  "Hâşim: Asıl adı Amr’dır. Kıtlık yılında ekmek ufalayıp tirit yaptırdığı için Hâşim (ufalayan) lakabını aldı. Kureyş’in yaz ve kış kervanlarını ilk düzenleyen odur. Yesrib’de Neccâroğullarından (Hazrec’in kolu) Selmâ bint Amr ile evlendi; bu evlilikten Şeybe (Abdülmuttalib) doğdu. Hâşim Gazze’de vefat etti. Bu evlilik, Hz. Peygamber ile Medine arasındaki akrabalık bağının kaynağıdır; Hz. Peygamber hicrette Neccâroğullarının misafiri olacaktır.",
+  "Abdülmuttalib: Sekiz yaşına kadar annesinin yanında Yesrib’de büyüdü; amcası Muttalib onu Mekke’ye getirdi. Zamanla Hâşimoğullarının reisi oldu, Rifâde ve Sikâye görevlerini üstlendi. Gördüğü bir rüya üzerine, Cürhümlülerin Mekke’den ayrılırken kapattığı Zemzem kuyusunu yeniden buldu. Bu sırada tek oğlu olduğu için diğer Kureyşlilerin baskısına ve alayına uğradı ve on oğlu olursa birini Kâbe’nin yanında kurban edeceğine adak adadı.",
+  "Abdullah: On oğlu olunca Abdülmuttalib fal oku çektirdi; ok en sevdiği oğlu Abdullah’a çıktı. Kureyş’in ve dayılarının (Mahzûmoğulları) itirazı ve bir kâhinin tavsiyesiyle Abdullah ile on deve arasında kura çekildi; ok her seferinde Abdullah’a çıktıkça develer onar onar artırıldı. Sayı yüze ulaşınca ok develere çıktı ve Abdullah’ın yerine yüz deve kurban edildi. İslam’da da insan diyetinin yüz deve olması bu olayla birlikte anılır. Hz. İsmâil’in ve Abdullah’ın kurban edilmekten kurtulması sebebiyle Hz. Peygamber’e “iki kurbanlığın oğlu” (İbnü’z-zebîhayn) denildiği rivayet edilir.",
+  {
+   "kontrol": "“Ben iki kurbanlığın oğluyum” sözü hadis olarak zayıf kabul edilir; siyer kitaplarında bir lakap olarak geçer."
+  },
+  "Abdullah, Zühreoğullarından Vehb’in kızı Âmine ile evlendi. Evliliğin ardından ticaret için Gazze’ye gitti; dönüşte Yesrib’de hastalandı, dayıları Neccâroğullarının yanında vefat etti ve oraya defnedildi. Yaşı 25 civarındaydı. Bu yüzden Hz. Peygamber yetim olarak doğdu. Babasından ona Ümmü Eymen (Bereke) adlı Habeşli bir cariye, birkaç deve ve bir miktar koyun kaldı.",
+  {
+   "tablo": [
+    [
+     "Akraba",
+     "Adı",
+     "Kabilesi / bilgi"
+    ],
+    [
+     "Baba",
+     "Abdullah b. Abdülmuttalib",
+     "Hâşimoğulları; Yesrib’de vefat"
+    ],
+    [
+     "Anne",
+     "Âmine bint Vehb",
+     "Zühreoğulları; Ebvâ’da vefat"
+    ],
+    [
+     "Dede",
+     "Abdülmuttalib (Şeybe)",
+     "Zemzem’i buldu; Fil olayında Ebrehe ile görüştü"
+    ],
+    [
+     "Büyük dede",
+     "Hâşim (Amr)",
+     "Kervanlar; Gazze’de vefat"
+    ],
+    [
+     "Babaanne",
+     "Fâtıma bint Amr",
+     "Mahzûmoğulları"
+    ],
+    [
+     "Anneanne",
+     "Berre bint Abdüluzzâ",
+     "Abdüddâroğulları"
+    ],
+    [
+     "Dadı",
+     "Ümmü Eymen (Bereke)",
+     "“Annemden sonra annem”"
+    ],
+    [
+     "Bakan amca",
+     "Ebû Tâlib ve eşi Fâtıma bint Esed",
+     "8 yaşından itibaren"
+    ]
+   ]
+  },
+  "Hz. Peygamber’in amcaları içinde Müslüman olanlar Hz. Hamza ve Hz. Abbas’tır. Ebû Tâlib iman etmediği hâlde onu sonuna kadar korudu; Ebû Leheb ise en azılı düşmanı oldu (Tebbet Suresi). Halaları arasında Safiyye bint Abdülmuttalib Müslüman olmuştur (Zübeyr b. Avvâm’ın annesi).",
+  {
+   "sinav": "Anne-baba kabilesi sorusu: baba Hâşimoğulları, anne Zühreoğulları. Abdülmuttalib’in Kureyş tarafından alaya alındığı olay Zemzem’in bulunmasıdır (adak bunun üzerine adandı). Tuzak: Hz. Hatice Esedoğullarından, Hz. Ebû Bekir Teymoğullarındandır."
+  },
+  {
+   "akil": "Hâşim (kervan, Medineli eş Selmâ) → Abdülmuttalib (Zemzem, adak) → Abdullah (yüz deve, Yesrib’de vefat) → Muhammed. Anne Âmine Zühreoğullarındandır."
+  },
+  {
+   "b": "3. Fil Vak’ası ve doğum"
+  },
+  {
+   "merak": "Ebrehe’nin askerleri Abdülmuttalib’in iki yüz devesini aldılar. Yaşlı reis Ebrehe’nin huzuruna çıktığında herkes Kâbe için yalvaracağını sanıyordu. O ise yalnızca develerini istedi: “Develerin sahibi benim; Kâbe’nin de bir sahibi var, onu O korur.”"
+  },
+  "Habeşistan’ın Yemen valisi Ebrehe, Arapların hac için Mekke’ye gitmesini kıskanarak San’a’da Kulleys adlı görkemli bir kilise yaptırdı ve hacıları oraya çevirmek istedi. Kinâne kabilesinden birinin kiliseyi pisletmesi üzerine öfkelenen Ebrehe, Kâbe’yi yıkmak için içinde Mahmûd adlı büyük bir filin de bulunduğu bir orduyla Mekke’ye yürüdü. Mekkeliler şehri boşaltıp dağlara çekildi. Ordu Mekke yakınındaki Muhassir vadisine geldiğinde fil Kâbe yönüne yürümedi. Allah, deniz tarafından gelen sürü sürü kuşlara (tayran ebâbîl) gaga ve ayaklarında taşıdıkları pişkin çamurdan (siccîl) taşlar attırdı; ordu yenik ekin yaprağı gibi oldu. Ebrehe de yaralı olarak San’a’ya dönerken öldü. Olay Fîl Suresi’nde anlatılır.",
+  {
+   "ayet": "Rabbinin fil sahiplerine ne yaptığını görmedin mi? Onların tuzaklarını boşa çıkarmadı mı? Üzerlerine sürü sürü kuşlar gönderdi. Onlara pişkin çamurdan taşlar atıyorlardı. Sonunda onları yenik ekin yaprağı gibi yaptı.",
+   "kay": "Fîl, 105/1-5"
+  },
+  "Bu olaydan sonra Araplar Kureyş’e “Allah’ın ehli” gözüyle baktı ve olayın yaşandığı yıla Fil Yılı (Âmü’l-fîl) dediler; uzun süre bu yılı takvim başlangıcı olarak kullandılar. Hz. Peygamber, Fil Vak’asından kısa bir süre sonra (yaygın görüşe göre 50-55 gün sonra) doğdu.",
+  "Doğumu: Hz. Muhammed yaygın kabule göre Fil Yılı, 12 Rebîülevvel Pazartesi gecesi, miladi 20 Nisan 571’de Mekke’de doğdu. Pazartesi günü doğduğu kesindir; Hz. Peygamber Pazartesi orucunu sorana “O gün doğdum, o gün bana vahiy indi” demiştir. Dedesi Abdülmuttalib torununa, “gökte ve yerde övülsün” diye, Araplar arasında pek bilinmeyen Muhammed (çok övülen) adını verdi. Annesi rüyasında ona Ahmed adını vermesi söylendiğini anlatmıştır. Sünnetli doğduğu da, yedinci gün dedesinin onu sünnet ettirip ziyafet verdiği de rivayet edilir.",
+  {
+   "hadis": "(Pazartesi orucu sorulunca:) O gün doğduğum gündür; o gün bana peygamberlik verildi (ya da vahiy indirildi).",
+   "kay": "Müslim, Sıyâm (Pazartesi orucu babı)"
+  },
+  {
+   "kontrol": "Doğum tarihi için 12 Rebîülevvel yaygındır; 2, 8, 9, 10 Rebîülevvel rivayetleri de vardır. Miladi karşılık olarak 20 Nisan 571 kabul edilir; 569-570 diyenler de vardır. Fil Vak’ası ile doğum arasındaki süre 50 gün, 55 gün ya da daha fazla diye rivayet edilir."
+  },
+  {
+   "sinav": "Fîl Suresi’ndeki kavramlar (ebâbîl = sürü sürü, siccîl = pişkin çamurdan taş, asf = yenik ekin yaprağı) ve Fil Vak’asının doğumdan kısa süre önce olduğu bilgisi sorulur. Kulleys kilisesi San’a’dadır. Tuzak: Ebrehe’yi Himyerî kral sanmak; o Habeş valisidir."
+  },
+  {
+   "akil": "Fil Yılı = 571 (yaygın görüş), Hz. Peygamber’in doğum yılı. 12 Rebîülevvel Pazartesi. Adını dedesi koydu: Muhammed."
+  },
+  {
+   "b": "4. Çocukluk: Sütanne, yetimlik ve amcanın evi"
+  },
+  {
+   "merak": "Halîme, kafiledeki en zayıf merkebe binmişti; sütü az, devesi kuruydu. Kimse yetim bir bebeği almak istemedi, o da eli boş dönmemek için onu aldı. Dönüş yolunda merkebi kafilenin önüne geçti, devesinin memeleri sütle doldu. Halîme bu bereketi ömür boyu anlattı."
+  },
+  "Mekke’nin ileri gelen aileleri bebeklerini çölde yaşayan kabilelerin sütannelerine verirdi. Bunun sebepleri şunlardı: çölün havası ve suyu temiz, şehrin salgın hastalıklarından uzaktı; çocuk fasih (bozulmamış) Arapçayı öğrenirdi; çölün sade ve zorlu hayatı onu dayanıklı yetiştirirdi; ayrıca sütkardeşlik yoluyla bedevî kabilelerle akrabalık kurulurdu. Hz. Peygamber’i ilk olarak birkaç gün Ebû Leheb’in cariyesi Süveybe emzirdi. Süveybe Hz. Hamza’yı ve Ebû Seleme’yi de emzirdiği için bu ikisi Hz. Peygamber’in sütkardeşidir. Ardından Hevâzin kabilesinin, fasih Arapçasıyla ünlü Sa’d b. Bekir kolundan Halîme bint Ebû Züeyb’e verildi. Sütbabası Hâris, sütkardeşleri Abdullah, Üneyse ve Şeymâ’dır. Şeymâ, Huneyn’den sonra esirler arasında getirildiğinde Hz. Peygamber ridasını yere serip onu oturtmuştur.",
+  "Şakk-ı sadr: Hz. Peygamber yaklaşık dört yaşındayken Halîme’nin yanında, iki meleğin onu yatırıp göğsünü yardığı, kalbini çıkarıp temizlediği rivayet edilir. Bu olay Mi’rac gecesinde de tekrarlanmıştır. Halîme, olaydan korkarak çocuğu annesine geri getirdi. Böylece Hz. Peygamber yaklaşık dört-beş yaşına kadar çölde kaldı.",
+  {
+   "kontrol": "Şakk-ı sadr olayının yaşı (dört, beş) ve kaç kez yaşandığı rivayetlerde farklıdır; Mi’rac öncesi olay Buhârî ve Müslim’de geçer."
+  },
+  "Annesinin vefatı: Altı yaşındayken annesi Âmine, onu babasının kabrini ve Neccâroğullarındaki akrabalarını ziyaret için Yesrib’e götürdü; yanlarında Ümmü Eymen vardı. Dönüşte Mekke ile Medine arasındaki Ebvâ köyünde Âmine hastalanıp vefat etti ve oraya defnedildi. Ümmü Eymen yetim çocuğu Mekke’ye getirdi. Hz. Peygamber yıllar sonra Hudeybiye yolunda Ebvâ’dan geçerken annesinin kabrini ziyaret edip ağlamıştır.",
+  "Dedesinin yanında: Altı yaşından sekiz yaşına kadar dedesi Abdülmuttalib’in himayesinde kaldı. Abdülmuttalib, Kâbe’nin gölgesinde oğullarının bile oturamadığı minderine torununu oturtur, “Bu oğlumun büyük bir geleceği var” derdi. Hz. Peygamber sekiz yaşındayken seksen yaşı aşkın Abdülmuttalib vefat etti; ölmeden önce torununu, Abdullah’ın öz kardeşi olan Ebû Tâlib’e emanet etti.",
+  "Amcasının yanında: Ebû Tâlib cömert ama fakir ve kalabalık ailesi olan biriydi. Eşi Fâtıma bint Esed, Hz. Peygamber’e öz annesi gibi baktı; Hz. Peygamber onun vefatında “O benim annemdi” demiştir. Amcasının yükünü hafifletmek için Hz. Peygamber küçük yaşta Mekkelilerin koyunlarını birkaç kırat karşılığında güttü. Daha sonra “Allah’ın gönderdiği her peygamber koyun gütmüştür” buyurmuştur.",
+  {
+   "hadis": "Allah’ın gönderdiği her peygamber koyun gütmüştür. (Ashabı: Sen de mi? diye sorunca:) Evet, ben de birkaç kırat karşılığında Mekkelilerin koyunlarını güderdim.",
+   "kay": "Buhârî, İcâre, 2"
+  },
+  {
+   "tablo": [
+    [
+     "Yaş (yaklaşık)",
+     "Olay"
+    ],
+    [
+     "Doğum",
+     "Babası doğumundan önce vefat etmişti; Süveybe ve sonra Halîme emzirdi"
+    ],
+    [
+     "4-5",
+     "Şakk-ı sadr; annesine teslim edildi"
+    ],
+    [
+     "6",
+     "Annesi Âmine Ebvâ’da vefat etti"
+    ],
+    [
+     "8",
+     "Dedesi Abdülmuttalib vefat etti; Ebû Tâlib’in himayesine girdi"
+    ],
+    [
+     "9-12",
+     "Ebû Tâlib’le Suriye yolculuğu; Busrâ’da Rahip Bahîrâ"
+    ],
+    [
+     "14-20",
+     "Ficâr savaşları (dördüncüsüne katıldı)"
+    ],
+    [
+     "20 civarı",
+     "Hılfu’l-fudûl"
+    ],
+    [
+     "25",
+     "Hz. Hatice ile evlilik"
+    ],
+    [
+     "35",
+     "Kâbe hakemliği"
+    ],
+    [
+     "40",
+     "İlk vahiy"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Sütanneye verme sebepleri” öncüllü sorulur: temiz hava, fasih Arapça, sağlam bünye doğrudur. Süveybe-Halîme sırası, Ebvâ’da annenin vefatı, sekiz yaşında dedenin vefatı ve Ebû Tâlib’in himayesi sıralama sorularında gelir."
+  },
+  {
+   "akil": "Süveybe (sütkardeşler Hamza ve Ebû Seleme) → Halîme (Sa’d b. Bekir, Hevâzin) → 6 yaşında annesiz (Ebvâ) → 8 yaşında dedesiz → Ebû Tâlib ve Fâtıma bint Esed. Çobanlık yaptı."
+  },
+  {
+   "b": "5. Gençlik: Bahîrâ, Ficâr ve Erdemliler Yemini"
+  },
+  {
+   "merak": "Hz. Peygamber, peygamberliğinden yıllar sonra cahiliye döneminde katıldığı bir yemini anarak şöyle dedi: “Bana kızıl develer verseler o antlaşmayı bozmam; İslam’da da böyle bir antlaşmaya çağrılsam hemen koşarım.” Cahiliye’de övülen bu antlaşma neydi?"
+  },
+  "Bahîrâ olayı: Hz. Peygamber dokuz ile on iki yaşları arasında (yaygın görüşe göre 12) amcası Ebû Tâlib’in ticaret kervanıyla Suriye’ye gitti. Kervan Busrâ’da konakladığında, bir bulutun kervandaki bir çocuğu gölgelediğini gören Hristiyan rahip Bahîrâ kervanı yemeğe davet etti. Çocuktaki işaretleri (sırtındaki nübüvvet mührü gibi) inceledikten sonra Ebû Tâlib’e onun gelecekte peygamber olacağını ve Yahudilerin ona zarar verebileceğini söyleyerek onu Mekke’ye geri götürmesini tavsiye etti. Ebû Tâlib mallarını orada satıp geri döndü.",
+  {
+   "kontrol": "Bahîrâ rivayeti Tirmizî’de (Menâkıb) geçer; yaş (9 ya da 12) ve bazı ayrıntılar hakkında farklı görüşler vardır."
+  },
+  "Ficâr savaşları: Haram aylarda yapıldıkları için “günahkârlık, haddi aşma savaşları” anlamında Ficâr adını alan dört savaştır. Hz. Peygamber yaklaşık 14 ile 20 yaşları arasında dördüncü Ficâr savaşında, Kureyş-Kinâne ile Kays-Aylân kabileleri arasında, amcalarının yanında bulundu; kendisi savaşmadan amcalarına ok toplayıp verdiğini söylemiştir. Savaş Kureyş-Kinâne’nin üstünlüğüyle bitti ve Utbe b. Rebîa’nın aracılığıyla barış yapıldı. Kureyş için önemi; haram aylardaki barış ortamının korunması, ticaretin ve Harem’in kutsallığının zedelenmemesiydi.",
+  "Hılfu’l-fudûl (Erdemliler Yemini): Ficâr savaşının ardından, Zilkade ayında, Yemen’in Zübeyd kabilesinden bir tüccar Mekke’de mallarını Sehmoğullarından Âs b. Vâil’e sattı; Âs parasını ödemedi. Tüccar Ebû Kubeys dağına çıkıp şiirle yardım istedi. Bunun üzerine Hz. Peygamber’in amcası Zübeyr b. Abdülmuttalib’in çağrısıyla Hâşim, Muttalib, Esed, Zühre ve Teym kollarının ileri gelenleri, Teymoğullarından zengin ve yaşlı Abdullah b. Cüd’ân’ın evinde toplandı. Mekkeli ya da yabancı, kim haksızlığa uğrarsa hakkı alınıncaya kadar mazlumun yanında olacaklarına yemin ettiler. Ardından Âs b. Vâil’e gidip tüccarın malını aldılar. Yirmi yaşlarındaki Hz. Peygamber de bu yemine katıldı.",
+  "Adı: Yeminin adının, daha önce benzer bir antlaşma yapan ve adları Fadl olan (Fadl b. Fudâle, Fadl b. Vedâa gibi) kişilere nispetle ya da “erdemler, fazîletler” anlamına gelen fudûl kelimesinden geldiği söylenir. Antlaşmanın son mensubunun Emevîler döneminde ölümüne kadar varlığını sürdürdüğü, Hz. Hüseyin’in bir hak meselesinde Fudûl’e başvurmakla tehdit ettiği nakledilir.",
+  {
+   "hadis": "Abdullah b. Cüd’ân’ın evinde öyle bir antlaşmada bulundum ki karşılığında bana kızıl develer verilse bunu istemezdim. İslam’da da böyle bir antlaşmaya çağrılsam hemen kabul ederim.",
+   "kay": "İbn Hişâm, es-Sîre; Beyhakī, es-Sünenü’l-kübrâ"
+  },
+  "Ticaret: Hz. Peygamber gençliğinde ticaretle geçimini sağladı. Yemen’e, Yemen yolu üzerindeki Hubâşe panayırına, doğu Arabistan’daki Müşakkar ve Debâ panayırlarına gittiği bilinir. Ukâz’da Kus b. Sâide’nin tevhid hutbesini dinlemiştir. Ortaklarına karşı dürüstlüğüyle tanındı; ticaret ortağı Sâib b. Ebi’s-Sâib, yıllar sonra onu “Ne aldatırdın ne de çekişirdin” diye anlatmıştır. Bu dürüstlük ona Mekkelilerin dilinde el-Emîn (güvenilir) lakabını kazandırdı. Peygamberlikten sonra bile müşrikler değerli eşyalarını ona emanet etmeye devam ettiler; hicret gecesi bu emanetleri sahiplerine Hz. Ali teslim etmiştir.",
+  {
+   "sinav": "Hılfu’l-fudûl her yıl bir şekilde sorulur: yer (Abdullah b. Cüd’ân’ın evi), sebep (Zübeydli tüccar ve Âs b. Vâil), Hz. Peygamber’in yaşı (20 civarı) ve sonraki övgüsü. Tuzaklar: Hılfu’l-mutayyebîn (Kusay’ın görevleri için kurulan ittifak), Hılfu’l-ahlâf (karşı ittifak), Ficâr (savaş), Buâs (Medine’de Evs-Hazrec savaşı)."
+  },
+  {
+   "akil": "12 yaş Bahîrâ (Busrâ), 14-20 yaş Ficâr (ok topladı), 20 yaş civarı Hılfu’l-fudûl (Abdullah b. Cüd’ân’ın evi, Âs b. Vâil’e karşı). Lakabı el-Emîn."
+  },
+  {
+   "b": "6. Hz. Hatice ile evlilik ve Kâbe hakemliği"
+  },
+  {
+   "merak": "Mekke’nin en zengin kadınlarından biri, kervanını götüren gencin dürüstlüğünü kölesinden dinleyince bir arkadaşını aracı gönderdi. Kırk yaşındaki dul tüccar Hatice, yirmi beş yaşındaki el-Emîn’le evlenmek istiyordu."
+  },
+  "Hz. Hatice, Kureyş’in Esedoğulları kolundan Huveylid b. Esed’in kızıdır; Varaka b. Nevfel’in amcasının kızıdır. Daha önce Ebû Hâle ve Atîk b. Âiz ile evlenmiş, iki evliliğinden de çocukları olmuştu. Kendi sermayesini kâr ortaklığıyla (mudârebe) tüccarlara işletiyordu. Hz. Peygamber’in dürüstlüğünü duyunca ona Suriye’ye giden kervanını emanet etti; yanına kölesi Meysere’yi verdi. Kervan Busrâ’da Nestûrâ adlı bir rahibin dikkatini çekti; mallar beklenenden çok kârla satıldı. Meysere yolculuk boyunca gördüklerini Hatice’ye anlattı.",
+  "Hz. Hatice, Nefîse bint Münye aracılığıyla evlilik teklif etti. Hz. Peygamber amcalarına danıştı; Ebû Tâlib ve Hz. Hamza ile birlikte Hatice’nin amcası Amr b. Esed’e (babası Huveylid Ficâr’dan önce vefat etmişti) gidip onu istediler. Nikâh hutbesini Ebû Tâlib okudu; mehir yirmi genç deve olarak verildi. O sırada Hz. Peygamber 25, Hz. Hatice 40 yaşındaydı (yaklaşık 595). Bu evlilik 25 yıl sürdü; Hz. Hatice hayattayken Hz. Peygamber başka bir evlilik yapmadı ve İbrâhim hariç bütün çocukları ondan dünyaya geldi.",
+  {
+   "kontrol": "Hz. Hatice’nin evlilik sırasındaki yaşı için 28 rivayeti de vardır; yaygın görüş 40’tır. Mehir için 20 deve yaygın rivayettir, bazı kaynaklar 400 miskal altın (ya da 12,5 ukiyye) der."
+  },
+  "Zeyd b. Hârise ve Hz. Ali: Hz. Hatice’nin yeğeni Hakîm b. Hizâm’ın Ukâz’dan satın aldığı köle Zeyd b. Hârise’yi Hatice, Hz. Peygamber’e hediye etti. Babası ve amcası onu bulup fidyeyle geri almak istediğinde Zeyd, Hz. Peygamber’in yanında kalmayı tercih etti; Hz. Peygamber de onu azat edip Kâbe’de evlat edindiğini ilan etti. O artık “Zeyd b. Muhammed” diye anılıyordu. Evlatlığın öz evlat hükmünde olmadığı, Medine döneminde Ahzâb Suresi’yle (33/4-5, 37, 40) bildirilince yeniden babasına nispet edildi. Zeyd, Kur’an’da adı geçen tek sahabidir. Mekke’de bir kıtlık yılında Hz. Peygamber, yükünü hafifletmek için Ebû Tâlib’in oğlu Ali’yi, Abbas da Câfer’i yanlarına aldı.",
+  "Kâbe hakemliği: Hz. Peygamber 35 yaşındayken (yaklaşık 605) sel baskınıyla çatlayan ve tavanı olmadığı için hazinesi çalınan Kâbe’yi Kureyş yeniden inşa etmeye karar verdi. Cidde açıklarında karaya oturan bir Bizans gemisinin kerestesi satın alındı; gemideki Bâkûm adlı Rum usta işe katıldı. Kureyş kolları duvarları paylaşarak çalıştı; inşaata yalnızca helal kazançla katkı yapılmasına karar verildi. Para yetmediği için Hz. İbrâhim’in temellerinin kuzey kısmı dışarıda bırakıldı; bu bölüm bugün Hicr (Hatîm) diye bilinir. Hacerülesved’i yerine koyma sırası gelince her kol bu şerefi istedi; kılıçlar çekildi, kana bulanmış ellerle yemin edildi. Kureyş’in en yaşlısı Ebû Ümeyye b. Muğîre, Benî Şeybe kapısından ilk girecek kişinin hakem olmasını önerdi. İlk giren Hz. Muhammed’di; onu görenler “İşte el-Emîn, ona razıyız” dediler. Hz. Peygamber ridasını yere serdi, taşı ortasına koydu, her kolun reisine bir ucundan tutturdu; taş hizasına gelince kendi eliyle yerine yerleştirdi.",
+  {
+   "sinav": "Kâbe hakemliği sorularında yaş (35), olayın önlediği şey (kabileler arası çatışma) ve Hz. Peygamber’in güvenilirliği sorulur. Hz. Hatice’nin kolu Esedoğullarıdır; aracı Nefîse bint Münye’dir; kervan yolculuğunda yanında Meysere vardı."
+  },
+  {
+   "akil": "25 yaş: Hatice (40, Esedoğulları, mehir 20 deve). Zeyd b. Hârise evlat edinildi, Ali yanına alındı. 35 yaş: Kâbe hakemliği; ridaya konan Hacerülesved."
+  },
+  {
+   "b": "7. Peygamberliğe doğru: Hira ve ilk vahiy"
+  },
+  {
+   "merak": "Kırk yaşına yaklaşan bir adam, her yıl bir ayını Mekke’nin dışında, Nur dağının tepesindeki küçük bir mağarada geçiriyordu. Mağaranın ağzından Kâbe görünürdü. Bir gece mağarada yalnız değildi."
+  },
+  "Hz. Peygamber peygamberlik öncesinde hiçbir zaman putlara tapmadı, putlara kesilen etten yemedi, içki içmedi, kumar oynamadı; bir iki kez katılmak istediği bir eğlenceye uykuya dalarak gidemediğini anlatmıştır. Kureyş Hums âdetine rağmen hacda Arafat’a çıkardı. Otuz beş yaşından sonra yalnızlığı sevmeye başladı. Her yıl, özellikle Ramazan ayında, Mekke’ye yaklaşık iki saat mesafedeki Nur (Hira) dağındaki Hira mağarasına çekilip günlerce ibadet ve tefekkürle meşgul oldu. Buna tehannüs (tehannüf) denir. Bu dönemde nasıl ibadet ettiği konusunda “Hz. İbrâhim’in dinine göre” diyenler çoğunluktadır.",
+  "Sadık rüyalar: Vahyin başlangıcı, sabahın aydınlığı gibi aynen çıkan rüyalarla oldu (rüyâ-yı sâdıka). Bu dönemin yaklaşık altı ay sürdüğü rivayet edilir. Ayrıca taşların ve ağaçların ona selam verdiğini duyduğu nakledilir.",
+  "İlk vahiy: Kırk yaşında, Ramazan ayında, Kadir gecesi (yaygın görüşe göre 27 Ramazan, miladi 610) Hira’da Cebrâil göründü ve “Oku!” dedi. Hz. Peygamber “Ben okuma bilmem” dedi. Melek onu üç kez kuvvetle sıktı ve bıraktı; sonra Alak Suresi’nin ilk beş ayetini okudu. Hz. Peygamber korku ve heyecan içinde evine döndü, “Beni örtün, beni örtün” dedi.",
+  {
+   "ayet": "Yaratan Rabbinin adıyla oku! O, insanı bir aşılanmış yumurtadan yarattı. Oku! Rabbin sonsuz kerem sahibidir. O, kalemle (yazmayı) öğretendir. İnsana bilmediğini öğretendir.",
+   "kay": "Alak, 96/1-5"
+  },
+  "Hz. Hatice onu şu sözlerle teselli etti: “Allah seni asla utandırmaz. Sen akrabanı gözetirsin, düşkünün yükünü taşırsın, yoksula kazandırırsın, misafiri ağırlarsın, hak yolunda karşılaşılan musibetlerde yardım edersin.” Bu sözler, Hz. Peygamber’in peygamberlik öncesi ahlakının en güzel özetidir. Sonra onu amcasının oğlu Varaka b. Nevfel’e götürdü. Tevrat ve İncil’i bilen yaşlı ve gözleri görmeyen Varaka, anlatılanları dinleyince: “Bu, Allah’ın Mûsâ’ya indirdiği Nâmûs’tur (vahiy meleği). Keşke senin davet günlerinde genç olsaydım; kavmin seni yurdundan çıkaracağı zaman hayatta olsaydım!” dedi. Hz. Peygamber “Beni çıkaracaklar mı?” diye sorunca “Evet, senin getirdiğin gibi bir şey getiren herkese düşmanlık edilmiştir” cevabını verdi. Varaka kısa süre sonra vefat etti.",
+  {
+   "hadis": "Hayır, vallahi Allah seni asla utandırmaz. Sen akrabanı gözetirsin, düşkünün yükünü taşırsın, yoksula kazandırırsın, misafiri ağırlarsın, hak yolunda başa gelen musibetlerde yardım edersin.",
+   "kay": "Buhârî, Bed’ü’l-vahy, 3"
+  },
+  "Fetret-i vahy: İlk vahiyden sonra vahiy bir süre kesildi. Bu döneme fetretü’l-vahy denir; süresi hakkında birkaç gün, kırk gün, altı ay ve üç yıl gibi farklı görüşler vardır. Hz. Peygamber bu sürede büyük bir özlem ve endişe yaşadı. Sonra yolda yürürken Hira’daki meleği gökle yer arasında bir kürsüde gördü, eve dönüp yine örtünmek istedi ve Müddessir Suresi’nin ilk ayetleri indi: “Ey örtüsüne bürünen! Kalk ve uyar!” Böylece nübüvvet (peygamberlik) ile birlikte risâlet (tebliğ görevi) başladı. Duhâ Suresi’nin de fetretten sonra teselli için indiği rivayet edilir.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Anlamı"
+    ],
+    [
+     "Tehannüs",
+     "Hira’da inzivaya çekilip ibadet ve tefekkür"
+    ],
+    [
+     "Rüyâ-yı sâdıka",
+     "Vahiy öncesi sabah aydınlığı gibi çıkan rüyalar"
+    ],
+    [
+     "Nâmûs",
+     "Varaka’nın vahiy meleği için kullandığı ad"
+    ],
+    [
+     "Fetret-i vahy",
+     "İlk vahiyden sonra vahyin kesildiği dönem"
+    ],
+    [
+     "İlk inen ayetler",
+     "Alak 1-5"
+    ],
+    [
+     "Fetretten sonra ilk inen",
+     "Müddessir 1-7 (tebliğ emri)"
+    ]
+   ]
+  },
+  {
+   "sinav": "Peygamberlikten önce ve sonra yaşanan olayları ayırt ettiren sorular çok sık gelir: Kâbe hakemliği, el-Emîn lakabı, Hatice ile evlilik ve Ficâr peygamberlik öncesidir; Tâif yolculuğu, Habeşistan hicreti, boykot sonrasıdır. Bir öncüllü soruda “bütün çocukları peygamberlikten önce doğmuştur” ifadesi yanlıştır (İbrâhim Medine’de doğdu; Abdullah’ın da peygamberlikten sonra doğduğu kabul edilir)."
+  },
+  {
+   "akil": "35’ten sonra Hira’da tehannüs → sadık rüyalar → 40 yaşında Kadir gecesi Alak 1-5 (610) → Hatice’nin tesellisi ve Varaka (“Nâmûs”) → fetret → Müddessir 1-7 ile tebliğ görevi."
+  }
+ ],
+ "ozet": [
+  "İlk kapsamlı siyer İbn İshak’ındır; elimizdeki hâli İbn Hişâm’ın es-Sîre’sidir. Vâkıdî Meğāzî, İbn Sa’d Tabakāt, Tirmizî Şemâil yazdı.",
+  "Hilye = dış görünüş; şemâil = ahlak ve yaşayış; delâil = mucizeler; meğāzî = gazveler; mevlid = doğum.",
+  "Soy: Muhammed b. Abdullah b. Abdülmuttalib b. Hâşim b. Abdümenâf b. Kusay... Adnân. Baba Hâşimoğulları, anne Âmine Zühreoğulları.",
+  "Hâşim Medine’de Neccâroğullarından Selmâ ile evlendi; Abdülmuttalib bu evlilikten doğdu → Medine ile akrabalık bağı.",
+  "Abdülmuttalib Zemzem’i buldu, alaya alınınca adak adadı; Abdullah’ın yerine 100 deve kurban edildi.",
+  "Babası Abdullah Gazze dönüşü Yesrib’de vefat etti; Hz. Peygamber yetim doğdu.",
+  "Fil Vak’ası: Ebrehe, San’a’daki Kulleys kilisesi, ebâbîl kuşları, siccîl taşları (Fîl Suresi). Doğum kısa süre sonra: 12 Rebîülevvel Pazartesi, 20 Nisan 571.",
+  "Sütanneler: Süveybe (sütkardeşler Hamza ve Ebû Seleme) ve Halîme (Sa’d b. Bekir, Hevâzin); sütkardeşi Şeymâ.",
+  "6 yaşında annesi Ebvâ’da, 8 yaşında dedesi vefat etti; Ebû Tâlib ve Fâtıma bint Esed büyüttü; çobanlık yaptı.",
+  "12 yaş civarı Busrâ’da Rahip Bahîrâ; 14-20 yaş Ficâr savaşı (ok topladı).",
+  "Hılfu’l-fudûl: Zübeydli tüccarın Âs b. Vâil’den alacağı; Abdullah b. Cüd’ân’ın evi; Hâşim, Muttalib, Esed, Zühre, Teym; Hz. Peygamber İslam’da da çağrılsa katılacağını söyledi.",
+  "Lakabı el-Emîn; Yemen, Hubâşe, Müşakkar, Debâ, Busrâ’ya ticaret için gitti.",
+  "25 yaşında 40 yaşındaki Hatice ile evlendi (Esedoğulları; aracı Nefîse; mehir 20 deve; nikâh hutbesini Ebû Tâlib okudu).",
+  "Zeyd b. Hârise evlat edinildi (Ahzâb 4-5, 37, 40 ile hüküm değişti); Ali yanına alındı.",
+  "35 yaşında Kâbe hakemliği: ridaya konan Hacerülesved; Benî Şeybe kapısından ilk giren hakem.",
+  "40 yaşında Ramazan’da Kadir gecesi (610) Hira’da Alak 1-5 indi; Varaka “Nâmûs” dedi; fetretten sonra Müddessir 1-7 ile tebliğ başladı."
+ ],
+ "kartlar": [
+  {
+   "o": "İbn İshak – İbn Hişâm",
+   "a": "İbn İshak ilk kapsamlı siyeri yazdı; İbn Hişâm onu kısaltıp düzenledi (es-Sîretü’n-nebeviyye)."
+  },
+  {
+   "o": "Vâkıdî – İbn Sa’d",
+   "a": "Vâkıdî: Kitâbü’l-Meğāzî. Kâtibi İbn Sa’d: et-Tabakātü’l-kübrâ."
+  },
+  {
+   "o": "Hilye – Şemâil – Delâil",
+   "a": "Hilye: dış görünüş. Şemâil: ahlak ve yaşayış (Tirmizî). Delâil: mucizeler."
+  },
+  {
+   "o": "Abdülmuttalib’in adağı",
+   "a": "Zemzem’i bulduğunda alaya alındı; on oğlu olursa birini kurban edecekti; Abdullah yerine 100 deve kesildi."
+  },
+  {
+   "o": "Hz. Peygamber’in anne ve babasının kolları",
+   "a": "Baba Abdullah: Hâşimoğulları. Anne Âmine: Zühreoğulları."
+  },
+  {
+   "o": "Fil Vak’ası",
+   "a": "Habeşistan’ın Yemen valisi Ebrehe; San’a’da Kulleys kilisesi; ebâbîl ve siccîl; Fîl Suresi; Fil Yılı 571."
+  },
+  {
+   "o": "Süveybe",
+   "a": "Ebû Leheb’in cariyesi; Hz. Peygamber’i ilk emziren; Hamza ve Ebû Seleme de sütkardeşidir."
+  },
+  {
+   "o": "Halîme",
+   "a": "Hevâzin’in Sa’d b. Bekir kolundan sütanne; kızı Şeymâ sütkardeşidir."
+  },
+  {
+   "o": "Ebvâ",
+   "a": "Annesi Âmine’nin Medine dönüşü vefat ettiği yer; Hz. Peygamber 6 yaşındaydı."
+  },
+  {
+   "o": "Bahîrâ",
+   "a": "Busrâ’daki Hristiyan rahip; 12 yaşındaki Hz. Peygamber’de nübüvvet işaretlerini gördü."
+  },
+  {
+   "o": "Ficâr savaşları",
+   "a": "Haram aylarda yapılan savaşlar; dördüncüsüne Hz. Peygamber katıldı (ok topladı); Kureyş-Kinâne ile Kays-Aylân."
+  },
+  {
+   "o": "Hılfu’l-fudûl",
+   "a": "Abdullah b. Cüd’ân’ın evinde mazlumu koruma yemini; Zübeydli tüccar ve Âs b. Vâil; Hz. Peygamber 20 yaşlarındaydı."
+  },
+  {
+   "o": "Hz. Hatice ile evlilik",
+   "a": "Hz. Peygamber 25, Hatice 40 yaşında; aracı Nefîse bint Münye; mehir 20 deve; Meysere ile kervan yolculuğu."
+  },
+  {
+   "o": "Kâbe hakemliği",
+   "a": "35 yaş; Hacerülesved ridaya konup kabile reislerine taşıtıldı; çatışma önlendi."
+  },
+  {
+   "o": "Tehannüs",
+   "a": "Hira mağarasında inzivaya çekilip ibadet ve tefekkür etme."
+  },
+  {
+   "o": "İlk vahiy ve fetret",
+   "a": "610 Ramazan, Kadir gecesi, Alak 1-5. Ardından fetret; sonra Müddessir 1-7."
+  },
+  {
+   "o": "Nâmûs",
+   "a": "Varaka b. Nevfel’in vahiy meleği Cebrâil için kullandığı kelime: “Mûsâ’ya inen Nâmûs.”"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "sy2-01",
+   "z": 3,
+   "s": "Hz. Peygamber’in hayatıyla ilgili;\nI. Kâbe’nin yeniden inşasında Hacerülesved’in yerine konmasında hakemlik yapması\nII. Dördüncü Ficâr savaşında amcalarının yanında bulunması\nIII. Hz. Hatice ile evlenmesi\nIV. Abdullah b. Cüd’ân’ın evinde yapılan yemine katılması\n\nolaylarının kronolojik sırası aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "II – IV – III – I",
+    "IV – II – III – I",
+    "II – III – IV – I",
+    "II – IV – I – III",
+    "III – II – IV – I"
+   ],
+   "d": 0,
+   "a": "Ficâr savaşı (14-20 yaş), hemen ardından Hılfu’l-fudûl (20 yaş civarı), Hz. Hatice ile evlilik (25 yaş) ve Kâbe hakemliği (35 yaş) sırası doğrudur.",
+   "ac": [
+    "Doğru sıra.",
+    "Hılfu’l-fudûl Ficâr savaşının ardından yapılmıştır.",
+    "Hılfu’l-fudûl evlilikten öncedir.",
+    "Kâbe hakemliği 35 yaşındadır, evlilikten (25) sonradır.",
+    "Evlilik Ficâr’dan sonradır."
+   ],
+   "kay": "Konu: Peygamberlik öncesi hayat"
+  },
+  {
+   "id": "sy2-02",
+   "z": 2,
+   "s": "Mekke’ye ticaret için gelen bir Yemenli tüccarın mallarını alan Sehmoğullarından biri parasını ödemeyince, Hâşim, Muttalib, Esed, Zühre ve Teym kollarının ileri gelenleri bir evde toplanarak Mekkeli ya da yabancı, haksızlığa uğrayan herkesin hakkı alınana kadar yanında olacaklarına yemin ettiler.\n\nBu yeminin yapıldığı ev ve hakkı yenen tüccarın borçlusu aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Erkam b. Ebü’l-Erkam’ın evi – Ebû Cehil",
+    "Dârünnedve – Velîd b. Muğîre",
+    "Abdullah b. Cüd’ân’ın evi – Ebû Leheb",
+    "Ebû Tâlib’in evi – Ümeyye b. Halef",
+    "Abdullah b. Cüd’ân’ın evi – Âs b. Vâil"
+   ],
+   "d": 4,
+   "a": "Hılfu’l-fudûl, Teymoğullarından Abdullah b. Cüd’ân’ın evinde, Zübeydli tüccarın parasını ödemeyen Âs b. Vâil’e karşı yapılmıştır.",
+   "ac": [
+    "Erkam’ın evi Mekke döneminin gizli davet merkezidir.",
+    "Dârünnedve Kureyş’in meclisidir; orada daha çok Ahlâf bloğu etkiliydi.",
+    "Yer doğru; ancak borçlu Âs b. Vâil’dir, Ebû Leheb değildir.",
+    "Ebû Tâlib’in evi ile ilgili böyle bir yemin yoktur.",
+    "Doğru."
+   ],
+   "kay": "İbn Hişâm, es-Sîre"
+  },
+  {
+   "id": "sy2-03",
+   "z": 3,
+   "s": "Mekkeli ailelerin yeni doğan çocuklarını çöldeki sütannelere vermelerinin sebepleriyle ilgili;\nI. Çölün havasının ve suyunun şehre göre daha sağlıklı olması\nII. Çocuğun fasih Arapçayı öğrenmesi\nIII. Sütkardeşlik yoluyla bedevî kabilelerle bağ kurulması\nIV. Çocuğun sütannesinin kabilesine mirasçı olması\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Sütanneye vermenin sebepleri temiz hava ve su, fasih Arapça, dayanıklı bir bünye ve bedevî kabilelerle sütkardeşlik bağıdır. Sütkardeşlik nikâh engeli doğurur ama miras hakkı doğurmaz.",
+   "ac": [
+    "Eksik; sütkardeşlik bağı da bir sebeptir.",
+    "Doğru.",
+    "Dördüncü ifade yanlıştır.",
+    "Dördüncü ifade yanlıştır; sütkardeşlik miras doğurmaz.",
+    "Dördüncü ifade yanlış olduğu için doğru değildir."
+   ],
+   "kay": "Konu: Çocukluk"
+  },
+  {
+   "id": "sy2-04",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi Hz. Peygamber’in sütkardeşlerinden biri değildir?",
+   "c": [
+    "Hz. Hamza",
+    "Ebû Seleme",
+    "Şeymâ",
+    "Zeyd b. Hârise",
+    "Abdullah b. Hâris"
+   ],
+   "d": 3,
+   "a": "Süveybe Hz. Hamza’yı ve Ebû Seleme’yi de emzirmiştir; Şeymâ ve Abdullah ise Halîme’nin çocuklarıdır. Zeyd b. Hârise sütkardeş değil, evlat edinilmiş azatlıdır.",
+   "ac": [
+    "Süveybe’den sütkardeştir.",
+    "Süveybe’den sütkardeştir; Ümmü Seleme’nin ilk eşidir.",
+    "Halîme’nin kızıdır.",
+    "Doğru cevap; Zeyd evlatlıktır.",
+    "Halîme’nin oğludur."
+   ],
+   "kay": "Konu: Sütanneler"
+  },
+  {
+   "id": "sy2-05",
+   "z": 3,
+   "s": "Hz. Peygamber’in doğumundan peygamberliğine kadar yaşadığı bazı olaylar ile bunların yeri eşleştirilmiştir.\n\nAşağıdaki eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "Kâbe hakemliğinde Hacerülesved’in yerine konması – Safâ tepesi",
+    "Rahip Bahîrâ ile karşılaşması – Busrâ",
+    "Babasının kabrinin bulunduğu yer – Yesrib",
+    "Annesinin vefatı – Ebvâ",
+    "İlk vahyin gelmesi – Nur dağındaki Hira mağarası"
+   ],
+   "d": 0,
+   "a": "Kâbe hakemliği Kâbe’nin kendisinde yaşanmıştır; ilk giren kişinin hakem olacağı kararı da Benî Şeybe kapısıyla ilgilidir. Safâ tepesi, açık davetin ilanıyla ilgili yerdir.",
+   "ac": [
+    "Yanlış eşleştirme; Safâ açık davetin yapıldığı tepedir.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme; Abdullah dayılarının yanında Yesrib’de vefat etti.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme."
+   ],
+   "kay": "Konu: Peygamberlik öncesi hayat"
+  },
+  {
+   "id": "sy2-06",
+   "z": 2,
+   "s": "Bir hükümdar kendi şehrinde yaptırdığı görkemli mabede Arapları çekemeyince Kâbe’yi yıkmak üzere fillerle yola çıkmış, ancak ordusu helak olmuştur. Bu olaydan kısa süre sonra Hz. Peygamber doğmuştur.\n\nBu olayla ilgili aşağıdaki bilgilerden hangisi yanlıştır?",
+   "c": [
+    "Ordunun başındaki kişi, Habeşistan’ın Yemen valisi Ebrehe’dir.",
+    "Yaptırılan mabet San’a’daki Kulleys kilisesidir.",
+    "Ebrehe, Himyerî krallarından Zû Nüvâs’ın oğludur.",
+    "Abdülmuttalib Ebrehe’den yalnızca kendisine ait develeri istemiştir.",
+    "Olay Fîl Suresi’nde anlatılmıştır."
+   ],
+   "d": 2,
+   "a": "Ebrehe Himyerî değildir; Himyer’i yıkan Habeş ordusunda yer almış, Eryât’ı bertaraf ederek Habeşistan’ın Yemen valisi olmuştur. Zû Nüvâs Yahudi Himyer kralıdır.",
+   "ac": [
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Yanlış; Ebrehe Habeşlidir, Zû Nüvâs ile akrabalığı yoktur.",
+    "Doğru bilgi; “Kâbe’nin bir sahibi var” demiştir.",
+    "Doğru bilgi."
+   ],
+   "kay": "Fîl, 105/1-5"
+  },
+  {
+   "id": "sy2-07",
+   "z": 3,
+   "s": "Hz. Peygamber ilk vahiyden sonra korku içinde evine döndüğünde eşi ona şöyle demiştir: “Allah seni asla utandırmaz. Sen akrabanı gözetirsin, düşkünün yükünü taşırsın, yoksula kazandırırsın, misafiri ağırlarsın, hak yolunda başa gelen musibetlerde yardım edersin.”\n\nBu sözlere dayanarak aşağıdakilerden hangisi söylenemez?",
+   "c": [
+    "Hz. Peygamber’in peygamberlik öncesi ahlakı toplum tarafından biliniyordu.",
+    "Hz. Hatice olayı değerlendirmek için ilk olarak Hz. Ebû Bekir’e başvurmuştur.",
+    "Hz. Peygamber’in sosyal yardımlaşmaya önem verdiği anlaşılmaktadır.",
+    "Hz. Hatice, Allah’ın iyi ahlaklı kimseyi zayi etmeyeceğine inanıyordu.",
+    "Hz. Hatice, Hz. Peygamber’i teselli ederek ona destek olmuştur."
+   ],
+   "d": 1,
+   "a": "Hz. Hatice olayı değerlendirmek için amcasının oğlu Varaka b. Nevfel’e başvurmuştur. Ayrıca metinde başvurulacak bir kişiden hiç söz edilmez.",
+   "ac": [
+    "Söylenebilir; sayılan özellikler herkesçe bilinen davranışlardır.",
+    "Doğru cevap. Hem metinde yoktur hem de tarihen Varaka’ya başvurulmuştur.",
+    "Söylenebilir.",
+    "Söylenebilir; “Allah seni asla utandırmaz” sözü bunu gösterir.",
+    "Söylenebilir."
+   ],
+   "kay": "Buhârî, Bed’ü’l-vahy, 3"
+  },
+  {
+   "id": "sy2-08",
+   "z": 2,
+   "s": "Hz. Peygamber’in peygamberlikten önceki hayatıyla ilgili aşağıdaki bilgilerden hangisi yanlıştır?",
+   "c": [
+    "Mekkelilerin koyunlarını ücret karşılığı gütmüştür.",
+    "Ticaret için Yemen’e ve Hubâşe panayırına gitmiştir.",
+    "Güvenilirliği sebebiyle “el-Emîn” lakabını almıştır.",
+    "Bir savaşta amcalarının yanında bulunmuştur.",
+    "Bütün çocukları peygamberlikten önce dünyaya gelmiştir."
+   ],
+   "d": 4,
+   "a": "Hz. Peygamber’in oğlu İbrâhim hicretin 8. yılında Medine’de Mâriye’den doğmuştur; Abdullah’ın da peygamberlikten sonra doğduğu kabul edilir.",
+   "ac": [
+    "Doğrudur (Buhârî, İcâre).",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur; dördüncü Ficâr savaşı.",
+    "Doğru cevap; İbrâhim Medine’de doğdu."
+   ],
+   "kay": "Konu: Peygamberlik öncesi hayat"
+  },
+  {
+   "id": "sy2-09",
+   "z": 3,
+   "s": "Kureyş Kâbe’yi yeniden inşa ederken;\nI. Gemisi karaya oturan bir Bizanslı ustadan yararlanılması\nII. İnşaata yalnızca helal kazançla katkıda bulunulması\nIII. Paranın yetmemesi sebebiyle Hz. İbrâhim’in temellerinin bir kısmının dışarıda bırakılması\nIV. Hacerülesved’in yerine konması için Dârünnedve’de kura çekilmesi\n\ngelişmelerinden hangileri yaşanmıştır?",
+   "c": [
+    "I ve II",
+    "II ve IV",
+    "I, II ve III",
+    "I, III ve IV",
+    "II, III ve IV"
+   ],
+   "d": 2,
+   "a": "Bâkûm adlı Rum usta çalıştı, yalnız helal kazanç kabul edildi, temellerin kuzey kısmı (Hicr/Hatîm) dışarıda kaldı. Hacerülesved için kura çekilmedi; ilk girecek kişinin hakem olmasına karar verildi.",
+   "ac": [
+    "Üçüncü ifade de doğrudur.",
+    "Dördüncü ifade yanlıştır.",
+    "Doğru.",
+    "Dördüncü ifade yanlıştır; kura değil hakem yöntemi kullanıldı.",
+    "Dördüncü ifade yanlıştır."
+   ],
+   "kay": "Konu: Kâbe hakemliği"
+  },
+  {
+   "id": "sy2-10",
+   "z": 2,
+   "s": "İlk inen ayetlerden sonra vahyin bir süre kesildiği döneme ne ad verilir ve bu dönemin ardından tebliğ emrini içeren ayetler hangi surenin başında yer alır?",
+   "c": [
+    "Rüyâ-yı sâdıka – Müzzemmil",
+    "Tehannüs – Alak",
+    "Fetret-i vahy – Kevser",
+    "Fetret-i vahy – Müddessir",
+    "Tehannüs – Müddessir"
+   ],
+   "d": 3,
+   "a": "Vahyin kesildiği döneme fetretü’l-vahy denir; ardından “Ey örtüsüne bürünen! Kalk ve uyar!” diye başlayan Müddessir Suresi inmiş, tebliğ görevi başlamıştır.",
+   "ac": [
+    "Sadık rüyalar vahiy öncesindedir.",
+    "Tehannüs Hira’daki inzivadır; Alak ilk inen suredir.",
+    "Kavram doğru, sure yanlış.",
+    "Doğru.",
+    "Tehannüs vahiy öncesi inzivadır."
+   ],
+   "kay": "Müddessir, 74/1-7"
+  },
+  {
+   "id": "sy2-11",
+   "z": 3,
+   "s": "Bir siyer hocası öğrencilerine şunları anlatıyor: “Bu zat Hz. Peygamber’in dedesinin babasıdır. Kıtlık yılında halkı doyurmak için yaptığı yemekten dolayı lakabıyla anıldı. Kureyş’in büyük ticaret seferlerini ilk o düzenledi. Yesrib’de yaptığı bir evlilik, torununun torunu ile o şehir arasında akrabalık bağı kurdu. Bir ticaret yolculuğunda vefat etti.”\n\nHocanın anlattığı kişi ve vefat ettiği yer aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Abdülmuttalib – Mekke",
+    "Kusay – Mekke",
+    "Abdümenâf – Tâif",
+    "Abdullah – Yesrib",
+    "Hâşim – Gazze"
+   ],
+   "d": 4,
+   "a": "Lakabı tirit için ekmek ufalamasından gelen, kış-yaz kervanlarını düzenleyen, Yesrib’de Neccâroğullarından Selmâ ile evlenen ve Gazze’de vefat eden kişi Hâşim’dir.",
+   "ac": [
+    "Abdülmuttalib Hz. Peygamber’in dedesidir.",
+    "Kusay beşinci kuşaktan dededir; Kureyş’i toplamıştır.",
+    "Abdümenâf Hâşim’in babasıdır.",
+    "Abdullah babasıdır; Yesrib’de vefat etmiştir ama tarif ona uymaz.",
+    "Doğru."
+   ],
+   "kay": "Konu: Soy ve aile"
+  },
+  {
+   "id": "sy2-12",
+   "z": 2,
+   "s": "Aşağıdaki siyer eseri – müellif eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "es-Sîretü’n-nebeviyye – İbn Hişâm",
+    "Fütûhu’l-büldân – Kādî İyâz",
+    "et-Tabakātü’l-kübrâ – İbn Sa’d",
+    "eş-Şemâilü’l-Muhammediyye – Tirmizî",
+    "Kitâbü’l-Meğāzî – Vâkıdî"
+   ],
+   "d": 1,
+   "a": "Fütûhu’l-büldân Belâzürî’nin eseridir. Kādî İyâz’ın eseri eş-Şifâ’dır.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Yanlış eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme."
+   ],
+   "kay": "Konu: Siyer kaynakları"
+  },
+  {
+   "id": "sy2-13",
+   "z": 1,
+   "s": "Hz. Peygamber’in annesi Âmine hangi kabiledendir?",
+   "c": [
+    "Zühreoğulları",
+    "Esedoğulları",
+    "Teymoğulları",
+    "Mahzûmoğulları",
+    "Neccâroğulları"
+   ],
+   "d": 0,
+   "a": "Âmine bint Vehb, Kureyş’in Zühreoğulları kolundandır.",
+   "ac": [
+    "Doğru.",
+    "Hz. Hatice’nin koludur.",
+    "Hz. Ebû Bekir’in koludur.",
+    "Babaannesi Fâtıma bint Amr ve Ebû Cehil bu koldandır.",
+    "Dedesi Abdülmuttalib’in annesi Selmâ’nın koludur."
+   ],
+   "kay": "Konu: Soy ve aile"
+  },
+  {
+   "id": "sy2-14",
+   "z": 3,
+   "s": "Hz. Peygamber’in hayatında aşağıdaki kişilerden hangisinin onun bakımıyla ilgili rolü, Hz. Peygamber’in yaşıyla birlikte yanlış verilmiştir?",
+   "c": [
+    "Halîme – Yaklaşık dört-beş yaşına kadar onu çölde büyütmüştür.",
+    "Ümmü Eymen – Annesinin vefatından sonra onu Mekke’ye getirmiştir.",
+    "Ebû Leheb – Dedesinin vefatından sonra on iki yaşına kadar onu himaye etmiştir.",
+    "Fâtıma bint Esed – Sekiz yaşından itibaren ona annelik etmiştir.",
+    "Abdülmuttalib – Altı yaşından sekiz yaşına kadar onu himaye etmiştir."
+   ],
+   "d": 2,
+   "a": "Dedesinin vefatından sonra Hz. Peygamber’i himaye eden amcası Ebû Tâlib’dir; Ebû Leheb ileride onun en büyük düşmanlarından oldu. Ebû Tâlib’in himayesi peygamberliğin 10. yılındaki vefatına kadar sürdü.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur; Ebvâ’dan Mekke’ye getiren odur.",
+    "Yanlış; himaye eden Ebû Tâlib’dir.",
+    "Doğrudur; Ebû Tâlib’in eşidir.",
+    "Doğrudur."
+   ],
+   "kay": "Konu: Çocukluk"
+  },
+  {
+   "id": "sy2-15",
+   "z": 3,
+   "s": "Hz. Peygamber Kâbe’de bir gün şu ilanı yapmıştır: “Ey orada bulunanlar! Şahit olun ki bu benim oğlumdur; o bana mirasçı olur, ben de ona.” Bu kişi daha sonra babası ve amcası onu almaya geldiğinde onlarla gitmek yerine Hz. Peygamber’in yanında kalmayı tercih etmişti.\n\nSöz konusu kişiyle ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Hz. Hatice ona yeğeni Hakîm b. Hizâm aracılığıyla sahip olmuş ve Hz. Peygamber’e hediye etmiştir.",
+    "Adı Kur’an-ı Kerîm’de geçen tek sahabidir.",
+    "Medine döneminde inen ayetlerle yeniden kendi babasına nispet edilmiştir.",
+    "Hz. Peygamber’in sütkardeşi olduğu için evlat edinilmiştir.",
+    "Mûte Savaşı’nda ordunun ilk komutanı olarak şehit düşmüştür."
+   ],
+   "d": 3,
+   "a": "Anlatılan kişi Zeyd b. Hârise’dir. Sütkardeş değildir; köle olarak Hz. Hatice’ye gelmiş, Hz. Peygamber’e hediye edilmiş, azat edilip evlat edinilmiştir.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur (Ahzâb, 33/37).",
+    "Doğrudur (Ahzâb, 33/4-5).",
+    "Yanlış; Zeyd sütkardeş değildir.",
+    "Doğrudur."
+   ],
+   "kay": "Ahzâb, 33/4-5, 37, 40"
+  },
+  {
+   "id": "sy2-16",
+   "z": 2,
+   "s": "Hz. Peygamber’in Hz. Hatice ile evliliğiyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Evlilik teklifini Hz. Peygamber, Ebû Bekir aracılığıyla yapmıştır.",
+    "Evlendiklerinde Hz. Hatice’nin ilk evliliğiydi.",
+    "Hz. Hatice evlilikten önce Habeşistan’a ticaret kervanı göndermemiş, yalnızca Yemen’le ticaret yapmıştır.",
+    "Hz. Hatice Kureyş’in Zühreoğulları kolundandır.",
+    "Nikâh hutbesini Ebû Tâlib okumuş, mehir olarak develer verilmiştir."
+   ],
+   "d": 4,
+   "a": "Hz. Hatice Nefîse bint Münye aracılığıyla teklif etti; Esedoğullarındandı ve daha önce iki kez evlenmişti. Nikâh hutbesini Ebû Tâlib okudu, mehir yirmi genç deve olarak verildi. Hz. Peygamber onun Suriye’ye giden kervanını götürmüştü.",
+   "ac": [
+    "Aracı Nefîse bint Münye’dir.",
+    "Daha önce Ebû Hâle ve Atîk ile evlenmişti.",
+    "Hz. Peygamber’in götürdüğü kervan Suriye’ye gitmişti; ifade dayanaksızdır.",
+    "Hz. Hatice Esedoğullarındandır.",
+    "Doğru."
+   ],
+   "kay": "Konu: Hz. Hatice ile evlilik"
+  }
+ ]
+}

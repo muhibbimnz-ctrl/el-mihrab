@@ -1,0 +1,927 @@
+{
+ "id": "dhbt-3",
+ "ad": "3. Deneme",
+ "aciklama": "DHBT tarzı, zor ağırlıklı · 40 soru · 0 kolay, 5 orta, 35 zor",
+ "sorular": [
+  {
+   "id": "dh3-01",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "I. Kur’an’ın Allah kelamı olması\nII. Hz. Peygamber’in son peygamber olması\nIII. Kabir hayatının bulunması\nIV. Ahirette Allah’ın müminlerce görülmesi (rü’yetullah)\nYukarıdakilerden hangilerini Ehl-i sünnet kabul edip Mu‘tezile reddetmiştir?",
+   "c": [
+    "Yalnız IV",
+    "I ve II",
+    "II ve III",
+    "III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 0,
+   "a": "Mu‘tezile ahirette Allah’ın gözle görülmesini (rü’yet) teşbihe yol açacağı gerekçesiyle reddetmiş, Ehl-i sünnet ise “O gün bazı yüzler parlaktır, Rablerine bakarlar.” (Kıyâme, 75/22-23) ayetine dayanarak kabul etmiştir.",
+   "ac": [
+    "Mu‘tezile Kur’an’ın Allah kelamı olduğunu kabul eder ama mahlûk sayar; son peygamberliği ve kabri de reddetmez; asıl ayrılık rü’yettedir.",
+    "Mu‘tezile hem Kur’an’ı Allah kelamı hem Hz. Muhammed’i son peygamber kabul eder.",
+    "Son peygamberlik konusunda ayrılık yoktur; kabir azabı konusunda da Mu‘tezile çoğunluğu inkârcı değildir.",
+    "Kabir hayatını Mu‘tezile’nin tamamı reddetmez; bu seçenek kesin bir ayrılık ifade etmez.",
+    "Mu‘tezile ilk iki maddeyi kabul eder."
+   ],
+   "kay": "Kıyâme, 75/22-23; Eş‘arî, el-İbâne"
+  },
+  {
+   "id": "dh3-02",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "Kader konusunda “İnsan kendi fiillerinin yaratıcısıdır; Allah insanın fiillerini yaratmaz.” diyen grup ile “İnsanın iradesi yoktur; rüzgâr önündeki yaprak gibidir.” diyen grup sırasıyla aşağıdakilerden hangisidir?",
+   "c": [
+    "Mürcie – Hâricîler",
+    "Kaderiyye (Mu‘tezile) – Cebriyye",
+    "Cebriyye – Kaderiyye",
+    "Eş‘arîler – Mâtürîdîler",
+    "Şîa – Selefiyye"
+   ],
+   "d": 1,
+   "a": "Ehl-i sünnete göre fiilleri yaratan Allah, kesbeden (seçip yönelen) insandır. Mâtürîdîler bunu “cüz’î irade” kavramıyla açıklar; böylece hem cebr hem de insanın fiilinin yaratıcısı olduğu görüşü reddedilir.",
+   "ac": [
+    "Mürcie iman-amel ilişkisiyle, Hâricîler tekfirle tanınır; bu görüşler onlara ait değildir.",
+    "İnsanın fiillerini kendisinin yarattığını Kaderiyye ve Mu‘tezile, insanın iradesiz olduğunu Cebriyye savunur.",
+    "Sıralama terstir.",
+    "Her iki ekol de fiillerin yaratıcısının Allah olduğunu, insanın kesb/cüz’î irade sahibi olduğunu söyler.",
+    "Bu görüşler bu ekollerin ayırt edici görüşleri değildir."
+   ],
+   "kay": "Mâtürîdî, Kitâbü’t-Tevhîd; Şehristânî, el-Milel"
+  },
+  {
+   "id": "dh3-03",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "Ahiret inancıyla ilgili aşağıdaki kavram–açıklama eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Haşr – insanların hesap için bir araya toplanması",
+    "Mîzan – amellerin tartılması",
+    "Ba‘s – kıyametin kopması için sûra ilk üfleme",
+    "Şefaat – Allah’ın izin verdiği kimselerin başkaları için af dilemesi",
+    "Sırat – cehennem üzerine kurulan geçit"
+   ],
+   "d": 2,
+   "a": "Kıyamet sûra ilk üflemeyle kopar; ikinci üflemeyle ölüler diriltilir (ba‘s). Ardından haşr, hesap, mîzan ve sırat gelir.",
+   "ac": [
+    "Haşr, diriltilen insanların mahşerde toplanmasıdır.",
+    "Mîzan, amellerin adaletle tartılmasıdır.",
+    "Ba‘s, ölülerin diriltilmesidir; kıyametin kopması sûra ilk üflemeyle olur.",
+    "Ehl-i sünnete göre Hz. Peygamber ve izin verilenler şefaat edebilir.",
+    "Sırat, cehennemin üzerine kurulduğu bildirilen geçittir."
+   ],
+   "kay": "Zümer, 39/68; Diyanet İlmihali, Ahiret"
+  },
+  {
+   "id": "dh3-04",
+   "ders": "Akaid ve Kelam",
+   "z": 2,
+   "s": "“Allah’ın, Hz. Peygamber’e indirilen Kur’an’dan önce Hz. Mûsâ’ya Tevrat’ı, Hz. Dâvûd’a Zebur’u, Hz. Îsâ’ya İncil’i indirdiğine ve önceki peygamberlere sahifeler verdiğine inanmak” imanın hangi esası kapsamındadır?",
+   "c": [
+    "Allah’a iman",
+    "Peygamberlere iman",
+    "Kadere iman",
+    "Kitaplara iman",
+    "Ahirete iman"
+   ],
+   "d": 3,
+   "a": "Kur’an, önceki kitapların asıllarının Allah’tan indirildiğini bildirir; Müslüman bu kitaplara inanır ancak bunların sonradan tahrif edildiğini ve Kur’an’ın onları tasdik edip gözetleyici (müheymin) olduğunu kabul eder.",
+   "ac": [
+    "Bu esas, Allah’ın varlığı ve sıfatlarına inanmayı konu edinir.",
+    "Peygamberlere iman, onların gönderildiğine ve sıfatlarına inanmaktır; vahyedilen kitaplar ayrı bir esastır.",
+    "Kader inancı her şeyin Allah’ın bilgisi ve takdiriyle olduğuna inanmaktır.",
+    "İlahî kitaplara ve sahifelere inanmak imanın ayrı bir esasıdır.",
+    "Ahiret inancı ölümden sonraki hayatla ilgilidir."
+   ],
+   "kay": "Bakara, 2/4; Mâide, 5/48"
+  },
+  {
+   "id": "dh3-05",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "Bir kelamcı şöyle demektedir: “Allah’ın fiillerinde bir hikmet ve gaye vardır; O, abes iş yapmaz. Ancak bu, Allah’ın bir şeyi yapmaya mecbur olduğu anlamına gelmez.”\nBu görüş aşağıdaki ekollerden hangisinin anlayışını en iyi yansıtır?",
+   "c": [
+    "Hâricîler",
+    "Mu‘tezile",
+    "Cebriyye",
+    "Mâtürîdîlik",
+    "Mücessime"
+   ],
+   "d": 3,
+   "a": "Mâtürîdîler Allah’ın fiillerinin hikmet ve maslahat içerdiğini kabul eder, fakat Mu‘tezile’den farklı olarak aslahın Allah’a vacip olduğunu reddeder. Eş‘arîler ise Allah’ın fiillerini bir illete bağlamaktan kaçınır.",
+   "ac": [
+    "Hâricîler siyasi-itikadi tekfir görüşleriyle bilinir.",
+    "Mu‘tezile “aslah” (en iyiyi yapmanın Allah’a vacip olması) görüşüyle Allah’a bir tür zorunluluk yükler.",
+    "Cebriyye insan fiilleriyle ilgili bir görüşle tanınır; bu ifadenin yaklaşımı değildir.",
+    "Mâtürîdîler Allah’ın fiillerinin hikmetli olduğunu, ancak O’na bir şeyin vacip olmadığını söyler.",
+    "Mücessime Allah’ı cisimle nitelendiren bir anlayıştır; görüşle ilgisi yoktur."
+   ],
+   "kay": "Mâtürîdî, Kitâbü’t-Tevhîd"
+  },
+  {
+   "id": "dh3-06",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "I. İsmet\nII. Emanet\nIII. Tebliğ\nIV. Ulûhiyyet\nV. Fetânet\nYukarıdakilerden hangileri peygamberlerde bulunması gereken sıfatlardan değildir?",
+   "c": [
+    "Yalnız IV",
+    "I ve IV",
+    "II ve V",
+    "III ve IV",
+    "I, III ve IV"
+   ],
+   "d": 0,
+   "a": "Peygamberlerin sıfatları: sıdk, emanet, tebliğ, fetânet ve ismettir. Peygamberler beşerdir; ulûhiyyet sıfatı taşımazlar (Kehf, 18/110).",
+   "ac": [
+    "Ulûhiyyet (ilahlık) yalnız Allah’a aittir; peygamberler insandır.",
+    "İsmet, peygamberlerin günahtan korunmuş olmasıdır ve peygamber sıfatıdır.",
+    "Emanet ve fetânet peygamber sıfatlarındandır.",
+    "Tebliğ peygamber sıfatıdır; yalnız ulûhiyyet dışarıda kalır.",
+    "İsmet ve tebliğ peygamber sıfatlarındandır."
+   ],
+   "kay": "Kehf, 18/110; Diyanet İlmihali"
+  },
+  {
+   "id": "dh3-07",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hanefî mezhebine göre aşağıdaki durumlardan hangisinde teyemmüm yapılamaz?",
+   "c": [
+    "Suyun bir milden (yaklaşık 1,8 km) daha uzakta olması",
+    "Suyu kullanmanın hastalığı artıracağının tecrübe veya doktor bildirimiyle anlaşılması",
+    "Suyun yalnız içme ihtiyacına yetecek kadar bulunması",
+    "Cenaze namazının kaçırılacağından korkulması",
+    "Vakit namazının vaktinin çıkacağından korkulması, su ise yakında bulunması"
+   ],
+   "d": 4,
+   "a": "Hanefîlere göre teyemmüm suyun bulunmaması ya da kullanılamaması durumunda caizdir. Yerine kazası olmayan cenaze ve bayram namazı için istisna vardır; vakit namazı kaza edilebildiği için su varken teyemmüm yapılmaz.",
+   "ac": [
+    "Hanefîlere göre su bir mil veya daha uzaktaysa teyemmüm caizdir.",
+    "Hastalığın artması ya da iyileşmenin gecikmesi teyemmümü mubah kılar.",
+    "Susuzluk tehlikesi varken su içmeye ayrılır ve teyemmüm yapılır.",
+    "Hanefîlere göre cenaze ve bayram namazını kaçırma korkusuyla teyemmüm yapılabilir.",
+    "Hanefîlere göre vakit namazında, su varken vakit çıkacak diye teyemmüm yapılmaz; namaz kazaya kalır."
+   ],
+   "kay": "Merğînânî, el-Hidâye, Teyemmüm"
+  },
+  {
+   "id": "dh3-08",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "I. Hadesten taharet\nII. Vakit\nIII. Kıyam\nIV. Niyet\nV. Kade-i ahîre\nVI. Setr-i avret\nYukarıdakilerden hangileri namazın şartlarındandır?",
+   "c": [
+    "I, III, V ve VI",
+    "II, III, IV ve V",
+    "I, II, IV ve VI",
+    "I, II, III ve IV",
+    "Hepsi"
+   ],
+   "d": 2,
+   "a": "Namazın şartları: hadesten ve necasetten taharet, setr-i avret, istikbâl-i kıble, vakit, niyet. Rükünleri: iftitah tekbiri (bazılarına göre şart), kıyam, kıraat, rükû, secde, kade-i ahîre.",
+   "ac": [
+    "Kıyam ve kade-i ahîre rükündür, şart değildir.",
+    "Kıyam ve son oturuş namazın içindeki farzlardır (rükünler).",
+    "Hadesten taharet, vakit, niyet ve setr-i avret namazın dışındaki farzlardır (şartlar).",
+    "Kıyam namazın rüknüdür.",
+    "Kıyam ve kade-i ahîre rükün olduğu için şartlar arasında sayılmaz."
+   ],
+   "kay": "Diyanet İlmihali, I, Namaz"
+  },
+  {
+   "id": "dh3-09",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Bir kişi cuma namazına giderken imamı ikinci rekâtın rükûsundan sonra yakalamıştır.\nHanefî mezhebine göre bu kişinin durumu ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Cumaya yetişmiş sayılmaz, öğle namazını kılması gerekir.",
+    "Bir rekât kılıp selam vermesi yeterlidir.",
+    "Dört rekât olarak tamamlaması gerekir.",
+    "Hiçbir şey kılmadan dönmesi gerekir.",
+    "Cumaya yetişmiş sayılır; imam selam verince kalkıp iki rekâtı tamamlar."
+   ],
+   "d": 4,
+   "a": "Ebû Hanîfe ve Ebû Yûsuf’a göre cuma namazında imamın selamından önce herhangi bir kısma yetişen, cumaya yetişmiş sayılır. İmam Muhammed’e göre ikinci rekâtın rükûsuna yetişmeyen öğleyi kılar.",
+   "ac": [
+    "Ebû Hanîfe ve Ebû Yûsuf’a göre teşehhüdde de yetişen cumayı kılar; bu görüş İmam Muhammed’e aittir.",
+    "Kaçırılan iki rekât da kaza edilerek tamamlanır.",
+    "Cumaya yetişen iki rekât kılar; dört rekât öğle namazıdır.",
+    "Yetişen kişi cumayı tamamlar.",
+    "Ebû Hanîfe ve Ebû Yûsuf’a göre imamla birlikte herhangi bir kısmına yetişen cumayı iki rekât olarak tamamlar."
+   ],
+   "kay": "Merğînânî, el-Hidâye, Cuma"
+  },
+  {
+   "id": "dh3-10",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Bir kişi 10.000 TL borcu olduğu hâlde 60.000 TL nakit paraya sahiptir ve bu para üzerinden bir yıl geçmiştir. Nisap miktarı 40.000 TL kabul edilmektedir.\nHanefî mezhebine göre bu kişinin vermesi gereken zekât miktarı aşağıdakilerden hangisidir?",
+   "c": [
+    "1.500 TL",
+    "1.000 TL",
+    "1.250 TL",
+    "500 TL",
+    "Zekât gerekmez."
+   ],
+   "d": 2,
+   "a": "Hanefîlere göre kul borcu zekât matrahından düşülür. Kalan miktar nisaba ulaşırsa tamamının kırkta biri (%2,5) zekât olarak verilir.",
+   "ac": [
+    "60.000 TL’nin kırkta biridir; borç düşülmemiştir.",
+    "Bu miktar 40.000 TL’nin kırkta biridir; nisabı aşan kısım da zekâta tabidir.",
+    "Borç düşülünce kalan 50.000 TL nisabı aştığı için zekâtı 50.000 / 40 = 1.250 TL olur.",
+    "Yalnız nisap fazlasına zekât düşmez; malın tamamının kırkta biri verilir.",
+    "Borç düşüldükten sonra kalan miktar nisabı aşmaktadır."
+   ],
+   "kay": "Kâsânî, Bedâi‘u’s-sanâi‘, Zekât"
+  },
+  {
+   "id": "dh3-11",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hanefî mezhebine göre aşağıdaki durumların hangisinde oruç bozulmaz?",
+   "c": [
+    "Burna ilaç damlatıp boğaza ulaşması",
+    "Kulak, burun veya ağız yoluyla bir şeyin bilerek mideye ulaştırılması",
+    "Sigara içmek",
+    "Gözüne damla damlatmak veya sürme çekmek",
+    "Kendi isteğiyle ağız dolusu kusmak"
+   ],
+   "d": 3,
+   "a": "Hanefî fakihlerine göre gözden verilen ilaç ve sürme, boğazda tadı hissedilse de orucu bozmaz; çünkü göz ile mide arasında açık bir yol (menfez) bulunmadığı kabul edilir.",
+   "ac": [
+    "Burundan verilip boğaza ulaşan ilaç orucu bozar; kazâ gerekir.",
+    "Bu durum orucu bozar.",
+    "Sigara dumanını bilerek içe çekmek orucu bozar.",
+    "Göz bir boşluk (cevf) yolu kabul edilmediğinden göz damlası orucu bozmaz.",
+    "Kasten ağız dolusu kusmak Hanefîlere göre orucu bozar."
+   ],
+   "kay": "Diyanet İlmihali, I, Orucu bozmayan durumlar"
+  },
+  {
+   "id": "dh3-12",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Bir kişi, hac için ihrama girdikten sonra Arafat vakfesinden önce eşiyle cinsel ilişkide bulunmuştur.\nHanefî mezhebine göre bu kişinin durumu ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Haccı geçerlidir; yalnız bir koyun kurban etmesi yeterlidir.",
+    "Haccı bozulur; menasiki tamamlar, kurban keser ve ertesi yıl haccı kaza eder.",
+    "Haccı bozulmaz, sadaka vermesi yeterlidir.",
+    "Haccı bozulur ve bedel olarak deve kurban etmesi yeterlidir, kaza gerekmez.",
+    "İhramdan derhâl çıkar ve bir sonraki yıl tekrar başlar."
+   ],
+   "d": 1,
+   "a": "Hanefîlere göre Arafat vakfesinden önceki cinsel ilişki haccı bozar; kişi hac fiillerini tamamlar, bir koyun keser ve haccı kaza eder. Vakfeden sonra, tıraştan önceki ilişkide ise hac bozulmaz, bedene (deve veya sığır) gerekir.",
+   "ac": [
+    "Vakfeden önce cinsel ilişki haccı bozar; yalnız dem yetmez.",
+    "Vakfeden önce ilişki haccı bozar; hac fiillerine devam edilir, dem gerekir ve hac kaza edilir.",
+    "Sadaka hafif ihlallerde gerekir; bu durum haccı bozar.",
+    "Deve (bedene) vakfeden sonra tıraştan önce ilişkide gerekir; vakfeden önce kaza da gerekir.",
+    "Bozulan hacca rağmen hac fiilleri tamamlanır."
+   ],
+   "kay": "Merğînânî, el-Hidâye, Cinâyât"
+  },
+  {
+   "id": "dh3-13",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Miras hukukuyla ilgili aşağıdaki bilgilerden hangisi yanlıştır?",
+   "c": [
+    "Mirasçıya vasiyet, diğer mirasçılar onaylamadıkça geçerli değildir.",
+    "Vasiyet terekenin üçte birini aşamaz.",
+    "Kız çocuğu tek ise terekenin tamamını farz hisse olarak alır.",
+    "Mirasçısını kasten öldüren kişi ondan mirasçı olamaz.",
+    "Mirasın taksiminden önce cenaze masrafları ve borçlar ödenir."
+   ],
+   "d": 2,
+   "a": "Nisâ 4/11’e göre tek kız çocuğunun payı yarım, birden fazla kız çocuğunun payı üçte ikidir; erkek çocukla birlikte kızlar asabe olur ve erkeğe iki kız payı verilir.",
+   "ac": [
+    "“Mirasçıya vasiyet yoktur.” hadisine göre diğer mirasçıların izni gerekir.",
+    "Hz. Peygamber “Üçte bir, üçte bir de çoktur.” buyurmuştur; fazlası mirasçıların iznine bağlıdır.",
+    "Tek kız çocuğu farz olarak yarısını alır; diğer mirasçı yoksa kalan red yoluyla verilebilir.",
+    "Öldürme mirasa engeldir.",
+    "Terekeden önce teçhiz-tekfin, sonra borçlar, sonra vasiyet, sonra miras gelir."
+   ],
+   "kay": "Nisâ, 4/11-12; Ebû Dâvûd, Vesâyâ, 6"
+  },
+  {
+   "id": "dh3-14",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Bir kişi yemin ettikten sonra yeminini bozmuştur.\nBu kişinin ödemesi gereken keffâret ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Altmış gün arka arkaya oruç tutar.",
+    "Bir koyun kurban eder.",
+    "Yalnız tövbe etmesi yeterlidir.",
+    "On fakiri doyurur ya da giydirir ya da bir köle azat eder; buna gücü yetmezse üç gün oruç tutar.",
+    "Bir ay oruç tutar."
+   ],
+   "d": 3,
+   "a": "“Bunun keffâreti, ailenize yedirdiğinizin orta hâllisinden on yoksulu doyurmak yahut onları giydirmek ya da bir köle azat etmektir. Bunlara gücü yetmeyen üç gün oruç tutar.” (Mâide, 5/89).",
+   "ac": [
+    "Altmış gün oruç, oruç ve zıhâr keffâretidir; yemin keffâreti değildir.",
+    "Kurban yemin keffâreti değildir.",
+    "Bozulan yemin için Kur’an keffâret öngörmüştür.",
+    "Mâide 5/89’da yemin keffâreti bu şekilde açıklanmıştır.",
+    "Yemin keffâretindeki oruç süresi üç gündür."
+   ],
+   "kay": "Mâide, 5/89"
+  },
+  {
+   "id": "dh3-15",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Cenaze namazıyla ilgili aşağıdaki bilgilerden hangisi Hanefî mezhebine göre yanlıştır?",
+   "c": [
+    "Cenaze namazı farz-ı kifâyedir.",
+    "Cenaze namazında her tekbirde eller kulak hizasına kaldırılır.",
+    "Cenaze namazının rükünleri dört tekbir ve kıyamdır.",
+    "Cenaze namazında ikinci tekbirden sonra salli-bârik duaları okunur.",
+    "Cenaze namazında rükû ve secde yoktur."
+   ],
+   "d": 1,
+   "a": "Hanefîlere göre cenaze namazında ilk tekbirden sonra Sübhâneke, ikinciden sonra salli-bârik, üçüncüden sonra cenaze duası okunur; dördüncü tekbirden sonra selam verilir. Eller yalnız ilk tekbirde kaldırılır.",
+   "ac": [
+    "Bir kısım Müslümanın kılmasıyla diğerlerinden sorumluluk düşer.",
+    "Hanefîlere göre eller yalnız ilk tekbirde kaldırılır; diğer tekbirlerde kaldırılmaz.",
+    "Hanefîlere göre rükünleri dört tekbir ile kıyamdır.",
+    "İkinci tekbirden sonra Hz. Peygamber’e salavat getirilir.",
+    "Cenaze namazı ayakta dört tekbirle kılınır; rükû ve secdesi yoktur."
+   ],
+   "kay": "Diyanet İlmihali, I, Cenaze namazı"
+  },
+  {
+   "id": "dh3-16",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "Kur’an’ın indirilişiyle ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Kur’an yaklaşık yirmi üç yılda parça parça indirilmiştir.",
+    "İlk vahiy Ramazan ayında Kadir gecesinde gelmiştir.",
+    "İlk vahiy Hira mağarasında gelmiştir.",
+    "Kur’an’ın parça parça inmesinin hikmetlerinden biri Hz. Peygamber’in kalbini pekiştirmektir.",
+    "Kur’an’ın tamamı Mekke döneminde inmiştir."
+   ],
+   "d": 4,
+   "a": "Hicretten önce inenler Mekkî, sonra inenler Medenî kabul edilir; Mekkî sureler 86, Medenî sureler 28 olarak sayılır (sayılar kaynağa göre değişebilir).",
+   "ac": [
+    "Kur’an olaylara ve ihtiyaca göre tedricen yirmi üç yılda inmiştir.",
+    "Bakara 2/185 ve Kadr 97/1 Kur’an’ın Ramazan’da Kadir gecesinde indirilmeye başlandığını bildirir.",
+    "Hz. Peygamber’e ilk vahiy Hira’da Alak suresinin ilk ayetleriyle geldi.",
+    "Furkān 25/32’de bu hikmet açıkça belirtilir.",
+    "Kur’an’ın yaklaşık üçte biri Medine döneminde (hicretten sonra) inmiştir; Medenî sureler bunlardır."
+   ],
+   "kay": "Furkān, 25/32; Suyûtî, el-İtkān"
+  },
+  {
+   "id": "dh3-17",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "I. Hurûf-ı mukattaa ile başlayan sureler\nII. Hz. Âdem ile İblis kıssası\nIII. Mirasla ilgili ayrıntılı hükümler\nIV. Münafıkların özellikleri\nV. Tevhid ve ahiret inancının yoğun işlenmesi\nYukarıdakilerden hangileri Medenî surelerin daha çok öne çıkan özelliklerindendir?",
+   "c": [
+    "I ve II",
+    "III ve IV",
+    "II, IV ve V",
+    "I, III ve V",
+    "III, IV ve V"
+   ],
+   "d": 1,
+   "a": "Münafıklar hicretten sonra Medine’de ortaya çıktığından onlardan bahseden ayetler Medenîdir. Miras, ceza, aile, ticaret gibi ayrıntılı hükümler de Medenî dönemde inmiştir.",
+   "ac": [
+    "Hurûf-ı mukattaa ve Âdem-İblis kıssası daha çok Mekkî surelerde (Bakara ve Âl-i İmrân hariç) yer alır.",
+    "Ayrıntılı hukuki hükümler ve münafıklardan bahsedilmesi Medenî surelerin özelliğidir.",
+    "Tevhid ve ahiret vurgusu Mekkî surelerin belirgin özelliğidir.",
+    "Hurûf-ı mukattaa ve tevhid vurgusu daha çok Mekkî surelerde öne çıkar.",
+    "Tevhid-ahiret yoğunluğu Mekkî dönemin özelliğidir."
+   ],
+   "kay": "Suyûtî, el-İtkān, Mekkî-Medenî"
+  },
+  {
+   "id": "dh3-18",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "Tecvidde medlerle ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "Medd-i tabîî – med harfinden sonra sebep bulunmaması",
+    "Medd-i ârız – med harfinden sonra hemze gelmesi",
+    "Medd-i munfasıl – med harfi bir kelimenin sonunda, hemze sonraki kelimenin başında bulunması",
+    "Medd-i lâzım – med harfinden sonra aslî sükûn bulunması",
+    "Medd-i muttasıl – med harfi ile hemzenin aynı kelimede bulunması"
+   ],
+   "d": 1,
+   "a": "Med sebepleri hemze ve sükûndur. Hemze sebebiyle muttasıl ve munfasıl, sükûn sebebiyle lâzım ve ârız medler oluşur.",
+   "ac": [
+    "Tabiî med harfin aslî uzunluğudur, bir elif miktarı uzatılır.",
+    "Ârız med, med harfinden sonra vakf sebebiyle sonradan gelen sükûndur; hemze değildir.",
+    "Munfasıl med iki ayrı kelimede bulunur.",
+    "Lâzım med, med harfinden sonra aslî (lâzım) sükûn gelmesidir.",
+    "Muttasıl med aynı kelimede med harfinden sonra hemze gelmesidir."
+   ],
+   "kay": "Tecvid kitapları, Medler"
+  },
+  {
+   "id": "dh3-19",
+   "ders": "Kur’an Bilgisi",
+   "z": 2,
+   "s": "“Ey iman edenler! Oruç sizden öncekilere farz kılındığı gibi size de farz kılındı. Umulur ki korunursunuz.” ayeti hangi surede yer alır?",
+   "c": [
+    "Âl-i İmrân",
+    "Nisâ",
+    "Mâide",
+    "Bakara",
+    "Tevbe"
+   ],
+   "d": 3,
+   "a": "Bakara 2/183-187 ayetleri orucun farziyeti, ruhsatları ve Ramazan ayında Kur’an’ın indirilmesi hakkındadır.",
+   "ac": [
+    "Âl-i İmrân suresinde orucun farziyetini bildiren bu ayet yer almaz.",
+    "Nisâ suresi daha çok aile ve miras hükümleriyle ilgilidir.",
+    "Mâide suresinde oruç keffâret bağlamında geçer, farziyet ayeti burada değildir.",
+    "Orucun farz kılınmasını bildiren ayet Bakara 2/183’tür.",
+    "Tevbe suresinde orucun farziyeti geçmez."
+   ],
+   "kay": "Bakara, 2/183"
+  },
+  {
+   "id": "dh3-20",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "Kur’an’ın kıraatleriyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Kıraatleri yediye indiren âlim İmam Şâtıbî’dir.",
+    "Yedi kıraat imamı Hz. Peygamber’in sahabileridir.",
+    "Kıraat farklılıkları Hz. Osman döneminde ortaya çıkmış, Hz. Peygamber zamanında yoktur.",
+    "Şâz kıraatlerle namaz kılınması caizdir.",
+    "Türkiye’de yaygın olan okuyuş Âsım kıraatinin Hafs rivayetidir."
+   ],
+   "d": 4,
+   "a": "Yedi kıraat İbn Mücâhid’in (ö. 324/936) Kitâbü’s-Seb‘a’sıyla belirginleşmiş, İbnü’l-Cezerî üç kıraat daha ekleyerek on kıraati mütevâtir kabul etmiştir. Türkiye’de Âsım’ın Hafs rivayeti okunur.",
+   "ac": [
+    "Kıraatleri yedi imamla sınırlayan İbn Mücâhid’dir; Şâtıbî bunları manzum hâle getirmiştir.",
+    "Kıraat imamları tâbiûn ve sonraki nesillerden kişilerdir.",
+    "Farklı okuyuşlar Hz. Peygamber döneminde vardı; “yedi harf” hadisi buna işaret eder.",
+    "Mütevâtir olmayan şâz kıraatlerle namaz kılınmaz.",
+    "Türkiye ve İslam dünyasının çoğunda Âsım’ın Hafs rivayeti okunur."
+   ],
+   "kay": "DİA, “Kıraat”; İbnü’l-Cezerî, en-Neşr"
+  },
+  {
+   "id": "dh3-21",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "Kur’an’ın i‘câzı ile ilgili “sarfe” görüşü aşağıdakilerden hangisini ifade eder?",
+   "c": [
+    "Kur’an’ın dil ve üslup bakımından eşsiz olması",
+    "Kur’an’ın gaybdan haber vermesi",
+    "Allah’ın, insanları Kur’an’ın benzerini getirmekten engellemesi",
+    "Kur’an’da bilimsel gerçeklere işaret edilmesi",
+    "Kur’an’ın insan ruhu üzerindeki etkisi"
+   ],
+   "d": 2,
+   "a": "Sarfe görüşü Mu‘tezile’den Nazzâm’a nispet edilir ve âlimlerin çoğunluğu tarafından eleştirilmiştir. Cumhur i‘câzı Kur’an’ın nazmında, dil ve üslubunda görür (Abdülkāhir el-Cürcânî, Delâilü’l-i‘câz).",
+   "ac": [
+    "Bu, cumhurun benimsediği belâgat yönünden i‘câz görüşüdür.",
+    "Bu, i‘câzın yönlerinden biri olan ihbâr-ı bi’l-gayb’dır.",
+    "Sarfe görüşüne göre Araplar güç yetirebilecekken Allah onları bundan alıkoymuştur; Nazzâm’a nispet edilir.",
+    "Bu, modern dönemde ileri sürülen ilmî i‘câz görüşüdür.",
+    "Bu görüş Hattâbî gibi âlimlerin vurguladığı i‘câz yönüdür."
+   ],
+   "kay": "DİA, “İ‘câzü’l-Kur’ân”"
+  },
+  {
+   "id": "dh3-22",
+   "ders": "Tefsir",
+   "z": 3,
+   "s": "I. Tefsir “keşfetmek, açığa çıkarmak” anlamındaki “fesr” kökünden gelir.\nII. Te’vil, lafzın muhtemel anlamlarından birini delille tercih etmektir.\nIII. Tefsir rivayete, te’vil daha çok dirayete dayanır şeklinde bir ayrım yapılmıştır.\nIV. Taberî tefsir ile te’vili eş anlamlı kullanmıştır.\nTefsir ve te’vil ile ilgili yukarıdaki bilgilerden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "II ve III",
+    "I, II ve III",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 4,
+   "a": "Taberî eserine “Câmiu’l-beyân an te’vîli âyi’l-Kur’ân” adını vermiş ve “te’vil” kelimesini tefsir anlamında kullanmıştır. Mâtürîdî’ye göre tefsir sahabeye, te’vil fakihlere aittir.",
+   "ac": [
+    "Bilgiler doğrudur; ancak III ve IV de doğrudur.",
+    "Bilgiler doğrudur; ancak I ve IV de doğrudur.",
+    "Taberî’nin tefsir ve te’vili eş anlamlı kullandığı bilgisi de doğrudur.",
+    "Te’vilin tanımı da doğrudur.",
+    "Dört bilgi de tefsir usulünde kabul gören bilgilerdir."
+   ],
+   "kay": "Taberî, Câmiu’l-beyân; Mâtürîdî, Te’vîlâtü’l-Kur’ân, mukaddime"
+  },
+  {
+   "id": "dh3-23",
+   "ders": "Tefsir",
+   "z": 3,
+   "s": "Tâbiûn döneminde tefsir ekollerinin oluştuğu şehirler ve bu ekollerin dayandığı sahabiler aşağıdakilerin hangisinde doğru eşleştirilmiştir?",
+   "c": [
+    "Mekke – Abdullah b. Mes‘ûd",
+    "Medine – Übeyy b. Kâ‘b",
+    "Kûfe – Abdullah b. Abbâs",
+    "Mekke – Übeyy b. Kâ‘b",
+    "Kûfe – Zeyd b. Sâbit"
+   ],
+   "d": 1,
+   "a": "Mekke ekolü İbn Abbâs (öğrencileri Mücâhid, İkrime, Atâ, Saîd b. Cübeyr), Medine ekolü Übeyy b. Kâ‘b (Zeyd b. Eslem, Ebü’l-Âliye, Muhammed b. Ka‘b), Irak ekolü İbn Mes‘ûd (Alkame, Mesrûk, Hasan-ı Basrî) etrafında şekillenmiştir.",
+   "ac": [
+    "Mekke ekolü İbn Abbâs’a dayanır.",
+    "Medine ekolü Übeyy b. Kâ‘b’ın etrafında gelişmiştir.",
+    "Irak (Kûfe) ekolü İbn Mes‘ûd’a dayanır.",
+    "Übeyy b. Kâ‘b Medine ekolünün öncüsüdür.",
+    "Kûfe ekolü İbn Mes‘ûd’la anılır."
+   ],
+   "kay": "Zehebî, et-Tefsîr ve’l-müfessirûn"
+  },
+  {
+   "id": "dh3-24",
+   "ders": "Tefsir",
+   "z": 2,
+   "s": "Tefsirde “İsrâiliyat” ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Hz. Peygamber’den gelen sahih hadislerdir.",
+    "Fıkhî hükümlerin dayandığı temel kaynaklardır.",
+    "Yahudi ve Hristiyan kültüründen tefsire giren rivayetlerdir.",
+    "Tefsirde hiçbir şekilde kullanılmamıştır.",
+    "Kur’an’ın Kur’an’la tefsiri yöntemidir."
+   ],
+   "d": 2,
+   "a": "Hz. Peygamber “Ehl-i kitabı ne tasdik edin ne de yalanlayın” buyurmuştur. İslam’a uygun olanlar nakledilebilir, aykırı olanlar reddedilir, hakkında hüküm bulunmayanlarda susulur.",
+   "ac": [
+    "İsrâiliyat Yahudi ve Hristiyan kaynaklarından gelen rivayetlerdir.",
+    "İsrâiliyat hüküm kaynağı değildir.",
+    "İsrâiliyat, özellikle kıssaların ayrıntılarında Ehl-i kitap kaynaklarından tefsire giren haberlerdir.",
+    "Özellikle erken dönem rivayet tefsirlerinde çok sayıda İsrâiliyat bulunur.",
+    "Kur’an’ın Kur’an’la tefsiri ayrı bir yöntemdir."
+   ],
+   "kay": "Buhârî, Tefsîr (Bakara), 11"
+  },
+  {
+   "id": "dh3-25",
+   "ders": "Hadis",
+   "z": 3,
+   "s": "Bir hadis âlimi, bir rivayet için “Senedi muttasıl, râvileri adil ve zabıt, şâz ve illetli değil.” değerlendirmesini yapmıştır.\nBu değerlendirmeye göre hadis aşağıdakilerden hangisidir?",
+   "c": [
+    "Hasen",
+    "Mürsel",
+    "Zayıf",
+    "Mevzû",
+    "Sahih"
+   ],
+   "d": 4,
+   "a": "Sahih hadisin beş şartı: ittisâlü’s-sened, adalet, tam zabt, şâz olmama ve illetli olmama. Hasen hadis aynı şartları taşır ancak râvilerin zaptı hafiftir.",
+   "ac": [
+    "Hasen hadiste râvilerin zaptı sahih hadis râvilerinden biraz aşağıdadır.",
+    "Mürselde senette kopukluk vardır; muttasıl şartı sağlanmaz.",
+    "Zayıf hadiste sahih ve hasenin şartlarından biri eksiktir.",
+    "Mevzû uydurma hadistir; değerlendirme bunun tam tersidir.",
+    "Senedin muttasıl, râvilerin adil ve tam zabıt olması, şâz ve illetli olmaması sahih hadisin beş şartıdır."
+   ],
+   "kay": "İbnü’s-Salâh, Mukaddime"
+  },
+  {
+   "id": "dh3-26",
+   "ders": "Hadis",
+   "z": 3,
+   "s": "I. Hadislerin resmî olarak toplanmasını emreden halife Ömer b. Abdülazîz’dir.\nII. Bu görevi yürütenlerden biri İbn Şihâb ez-Zührî’dir.\nIII. Hadislerin bablara göre tasnifi Buhârî ile başlamıştır.\nIV. Hz. Peygamber döneminde bazı sahabiler hadis yazmıştır.\nHadis tarihi ile ilgili yukarıdaki bilgilerden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I, III ve IV",
+    "II ve III",
+    "I, II ve IV",
+    "Hepsi"
+   ],
+   "d": 3,
+   "a": "Ömer b. Abdülazîz (ö. 101/720) hadislerin toplanmasını resmen emretmiş, ilk tedvin Zührî ile yapılmıştır. Abdullah b. Amr’ın “es-Sahîfetü’s-sâdıka”sı sahabe dönemi yazımına örnektir. Muvatta’ ve musannefler Buhârî’den önce bablara göre düzenlenmiştir.",
+   "ac": [
+    "Doğrudur; ancak IV de doğrudur.",
+    "Bablara göre tasnif Buhârî ile başlamamıştır.",
+    "Bablara göre tasnif Buhârî’den önce de vardır (Muvatta’ gibi musannefler).",
+    "Ömer b. Abdülazîz’in resmî tedvin emri, Zührî’nin görevi ve sahabe dönemindeki yazım doğrudur.",
+    "Bablara göre tasnif (musannefler) Buhârî’den önce başlamıştır."
+   ],
+   "kay": "DİA, “Hadis”; “Tedvin”"
+  },
+  {
+   "id": "dh3-27",
+   "ders": "Hadis",
+   "z": 3,
+   "s": "Bir hadis için “Bu rivayeti bir tâbiî, arada sahabiyi zikretmeden doğrudan ‘Resûlullah şöyle buyurdu’ diyerek nakletmiştir.” denilmektedir.\nBu hadis türü aşağıdakilerden hangisidir?",
+   "c": [
+    "Mürsel",
+    "Maktû‘",
+    "Mevkûf",
+    "Mu‘dal",
+    "Müdelles"
+   ],
+   "d": 0,
+   "a": "Mürsel hadisin delil olup olmadığı tartışmalıdır: Hanefî ve Mâlikîler güvenilir tâbiînin mürselini kabul eder, Şâfiî ise bazı şartlarla kabul eder.",
+   "ac": [
+    "Mürsel, tâbiînin sahabiyi atlayarak Hz. Peygamber’den naklettiği hadistir.",
+    "Maktû‘, tâbiîye ait söz veya fiildir.",
+    "Mevkûf, sahabiye ait söz veya fiildir.",
+    "Mu‘dal, senedinden art arda iki veya daha fazla râvi düşmüş hadistir.",
+    "Müdelles, râvinin işittiği hâlde kusurunu gizleyerek rivayet ettiği hadistir."
+   ],
+   "kay": "İbn Hacer, Nuhbetü’l-fiker"
+  },
+  {
+   "id": "dh3-28",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "Mekke döneminde müşriklerin Müslümanlara uyguladığı baskılar karşısında Hz. Peygamber’in aldığı tedbirlerle ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Bedir Savaşı’nı yaparak baskıyı sona erdirmiştir.",
+    "Dâru’l-Erkam’ı tebliğ ve eğitim merkezi olarak kullanmıştır.",
+    "Tâif’e giderek destek aramıştır.",
+    "Bazı Müslümanların Habeşistan’a hicret etmesine izin vermiştir.",
+    "Hac mevsiminde gelen kabilelere İslam’ı anlatmıştır."
+   ],
+   "d": 0,
+   "a": "Mekke döneminde Hz. Peygamber savaşa izin verilmediği için sabır ve hicret yolunu seçmiş, savaş izni hicretten sonra gelmiştir (Hac, 22/39).",
+   "ac": [
+    "Bedir Savaşı hicretten sonra Medine döneminde (2/624) yapılmıştır.",
+    "Erkam b. Ebü’l-Erkam’ın evi ilk dönemde merkez olarak kullanılmıştır.",
+    "Hz. Hatice ve Ebû Tâlib’in vefatından sonra Tâif’e gitmiştir.",
+    "Peygamberliğin 5. yılında ilk Habeşistan hicreti gerçekleşmiştir.",
+    "Akabe biatları bu çalışmaların sonucunda gerçekleşmiştir."
+   ],
+   "kay": "İbn Hişâm, es-Sîre; Hac, 22/39"
+  },
+  {
+   "id": "dh3-29",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "I. Hz. Peygamber’in vefatı\nII. Hz. Ali’nin halife seçilmesi\nIII. Cemel Vakası\nIV. Sıffîn Savaşı\nV. Kerbelâ Olayı\nYukarıdaki olayların kronolojik sıralaması aşağıdakilerden hangisidir?",
+   "c": [
+    "I – II – III – IV – V",
+    "I – III – II – IV – V",
+    "I – II – IV – III – V",
+    "I – II – III – V – IV",
+    "II – I – III – IV – V"
+   ],
+   "d": 0,
+   "a": "Hz. Osman’ın şehadetinden sonra 656’da Hz. Ali halife seçildi; aynı yıl Cemel, 657’de Sıffîn oldu. Kerbelâ 10 Muharrem 61 (680) tarihindedir.",
+   "ac": [
+    "Vefat (632), Hz. Ali’nin halifeliği (656), Cemel (656), Sıffîn (657), Kerbelâ (680).",
+    "Cemel Vakası Hz. Ali halife seçildikten sonra olmuştur.",
+    "Cemel Sıffîn’den öncedir.",
+    "Kerbelâ (680) Sıffîn’den (657) sonradır.",
+    "Hz. Ali’nin halifeliği Hz. Peygamber’in vefatından çok sonradır."
+   ],
+   "kay": "DİA, “Cemel Vak‘ası”, “Sıffîn Savaşı”, “Kerbelâ”"
+  },
+  {
+   "id": "dh3-30",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "Abbâsîler dönemiyle ilgili aşağıdakilerden hangisi söylenebilir?",
+   "c": [
+    "Başkentleri Şam olmuştur.",
+    "Endülüs’ü fethetmişlerdir.",
+    "Türkler devlet yönetiminde ve orduda etkin rol almaya başlamıştır.",
+    "Saltanat usulünü ilk kez başlatmışlardır.",
+    "Talas Savaşı’nı Bizans’a karşı yapmışlardır."
+   ],
+   "d": 2,
+   "a": "Abbâsî ordusunda Türklerin ağırlığı Mu‘tasım (833-842) döneminde arttı; Sâmerrâ şehri bu dönemde kuruldu. 751 Talas Savaşı’nda Türkler Abbâsîleri desteklemiştir.",
+   "ac": [
+    "Abbâsîlerin başkenti Bağdat’tır (bir dönem Sâmerrâ).",
+    "Endülüs Emevîler döneminde fethedilmiş, sonra Endülüs Emevî Devleti kurulmuştur.",
+    "Özellikle Mu‘tasım döneminden itibaren Türkler orduda ve yönetimde etkin olmuştur.",
+    "Saltanat usulü Emevîler döneminde Muâviye ile başlamıştır.",
+    "Talas Savaşı (751) Abbâsîlerle Çinliler arasında yapılmıştır."
+   ],
+   "kay": "DİA, “Abbâsîler”; “Talas Savaşı”"
+  },
+  {
+   "id": "dh3-31",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "Hz. Ebû Bekir’in halifeliği döneminde ortaya çıkan “ridde olayları” ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Bizans’a karşı yapılan savaşlardır.",
+    "Zekât vermeyi reddeden ve sahte peygamberlerin etrafında toplanan kabilelere karşı yürütülmüştür.",
+    "Hz. Ömer döneminde başlamıştır.",
+    "İran’ın fethiyle sonuçlanmıştır.",
+    "Müslümanların yenilgisiyle sonuçlanmıştır."
+   ],
+   "d": 1,
+   "a": "Yemâme Savaşı’nda (632) Müseylimetü’l-Kezzâb öldürüldü; bu savaşta çok sayıda hâfızın şehit olması Kur’an’ın cem‘ edilmesine yol açtı.",
+   "ac": [
+    "Ridde savaşları Arap yarımadası içindeki irtidat ve isyan hareketlerine karşıdır.",
+    "Ridde olayları zekâtı reddedenler ve Müseylime gibi yalancı peygamberlere karşı yürütülmüştür.",
+    "Ridde olayları Hz. Peygamber’in vefatının hemen ardından, Hz. Ebû Bekir döneminde başlamıştır.",
+    "İran’ın fethi büyük ölçüde Hz. Ömer döneminde gerçekleşmiştir.",
+    "Ridde hareketleri bastırılmış, Arap yarımadasında birlik yeniden sağlanmıştır."
+   ],
+   "kay": "DİA, “Ridde”; “Yemâme Savaşı”"
+  },
+  {
+   "id": "dh3-32",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 2,
+   "s": "İslam medeniyetinde vakıfların gördüğü işlevlerle ilgili aşağıdakilerden hangisi söylenemez?",
+   "c": [
+    "Eğitim kurumlarının (medrese, mektep) giderlerini karşılamıştır.",
+    "Darüşşifa gibi sağlık kurumlarını desteklemiştir.",
+    "Yolculara hizmet eden kervansaraylar kurmuştur.",
+    "İmaret ve aşevleriyle yoksullara yemek vermiştir.",
+    "Devletin askeri harcamalarının tamamını karşılamıştır."
+   ],
+   "d": 4,
+   "a": "Vakıf, bir malın menfaatini sürekli olarak bir hayır amacına tahsis etmektir; cami, medrese, darüşşifa, imaret, çeşme, kervansaray, köprü gibi kurumların büyük kısmı vakıflarla yaşatılmıştır.",
+   "ac": [
+    "Medreseler büyük ölçüde vakıf gelirleriyle ayakta durmuştur.",
+    "Darüşşifalar vakıflar aracılığıyla işletilmiştir.",
+    "Kervansaraylar vakıf yoluyla kurulmuş ve işletilmiştir.",
+    "İmaretler vakıf gelirleriyle yoksul ve öğrencilere yemek dağıtmıştır.",
+    "Vakıflar sosyal ve dinî hizmet kurumudur; ordunun giderleri devlet hazinesi ve tımar gibi düzenlerle karşılanmıştır."
+   ],
+   "kay": "DİA, “Vakıf”"
+  },
+  {
+   "id": "dh3-33",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "I. Hz. Ömer – Divan teşkilatının kurulması\nII. Hz. Osman – İlk donanmanın kurulması\nIII. Hz. Ali – Hicrî takvimin başlatılması\nIV. Hz. Ebû Bekir – Kur’an’ın mushaf hâlinde toplanması\nDört halife dönemiyle ilgili yukarıdaki eşleştirmelerden hangileri doğrudur?",
+   "c": [
+    "I, III ve IV",
+    "I ve III",
+    "II ve III",
+    "I, II ve IV",
+    "Hepsi"
+   ],
+   "d": 3,
+   "a": "Hz. Ömer divanları kurmuş ve hicrî takvimi başlatmış; Hz. Osman döneminde Muâviye’nin girişimiyle ilk donanma kurulmuş, Kıbrıs seferi yapılmıştır.",
+   "ac": [
+    "Hicrî takvimin başlatılması Hz. Ali’ye ait değildir.",
+    "Hicrî takvim Hz. Ali değil Hz. Ömer döneminde başlatılmıştır.",
+    "Hicrî takvim Hz. Ömer dönemine aittir.",
+    "Divan Hz. Ömer, ilk donanma Hz. Osman, Kur’an’ın cem‘i Hz. Ebû Bekir döneminde gerçekleşmiştir.",
+    "Üçüncü eşleştirme yanlıştır; hicrî takvim Hz. Ömer döneminde kabul edilmiştir."
+   ],
+   "kay": "DİA, “Divan”, “Takvim”"
+  },
+  {
+   "id": "dh3-34",
+   "ders": "İslam Ahlakı",
+   "z": 3,
+   "s": "I. Hilm\nII. Haya\nIII. İsraf\nIV. Kanaat\nV. Tecessüs\nYukarıdakilerden hangileri İslam ahlakında övülen (mahmûd) huylardandır?",
+   "c": [
+    "I, II ve IV",
+    "I, III ve V",
+    "II, III ve IV",
+    "II, IV ve V",
+    "I, II, IV ve V"
+   ],
+   "d": 0,
+   "a": "“Haya imandandır.” (Buhârî, Îmân, 3); “Zenginlik mal çokluğu değil, gönül zenginliğidir.” (Buhârî, Rikāk, 15). İsraf (A‘râf, 7/31) ve tecessüs (Hucurât, 49/12) Kur’an’da yasaklanmıştır.",
+   "ac": [
+    "Hilm (yumuşak huyluluk), haya ve kanaat övülen huylardır.",
+    "İsraf ve tecessüs yerilen huylardır.",
+    "İsraf yerilen bir huydur.",
+    "Tecessüs (kusur araştırma) Hucurât 49/12’de yasaklanmıştır.",
+    "Tecessüs övülen huy değildir."
+   ],
+   "kay": "Buhârî, Îmân, 3; Rikāk, 15"
+  },
+  {
+   "id": "dh3-35",
+   "ders": "İslam Ahlakı",
+   "z": 3,
+   "s": "Hz. Peygamber’in “Müslüman, elinden ve dilinden Müslümanların emin olduğu kimsedir.” hadisi aşağıdaki ahlaki ilkelerden hangisini öne çıkarır?",
+   "c": [
+    "İlim öğrenmek",
+    "İbadetlere düzenli devam etmek",
+    "Ticarette dürüst olmak",
+    "Ana babaya iyilik etmek",
+    "Başkalarına zarar vermemek (eza etmemek)"
+   ],
+   "d": 4,
+   "a": "Hadisin devamında “Muhâcir de Allah’ın yasakladığı şeyleri terk eden kimsedir.” buyrulur. Hadis, dinin ahlaki ve sosyal boyutunu öne çıkarır.",
+   "ac": [
+    "Hadisin konusu ilim değildir.",
+    "Hadis ibadetten değil sosyal davranıştan söz eder.",
+    "Ticaret ahlakı hadisin doğrudan konusu değildir.",
+    "Hadiste ana babaya iyilikten söz edilmez.",
+    "Hadis Müslümanın sözüyle ve davranışıyla kimseye zarar vermemesini Müslümanlığın ölçüsü yapar."
+   ],
+   "kay": "Buhârî, Îmân, 4"
+  },
+  {
+   "id": "dh3-36",
+   "ders": "Mezhepler Tarihi",
+   "z": 3,
+   "s": "Mâtürîdîlik ile Eş‘arîlik arasındaki görüş ayrılıklarıyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Mâtürîdîlere göre Allah’ı bilmek akılla değil yalnız vahiyle vacip olur.",
+    "Eş‘arîler imanda istisnayı caiz görmez, Mâtürîdîler caiz görür.",
+    "Mâtürîdîler tekvîni ayrı bir sıfat kabul eder, Eş‘arîler kabul etmez.",
+    "Eş‘arîlere göre güzellik ve çirkinlik eşyada zâtidir ve akılla bilinir.",
+    "İki ekol de büyük günah işleyenin kâfir olduğunu söyler."
+   ],
+   "d": 2,
+   "a": "Mâtürîdîler akla daha geniş alan tanır: Allah’ın varlığını bilmek vahiy gelmese de akılla vaciptir. Ayrıca tekvîni ezelî bir sıfat sayarlar; imanda istisnayı uygun görmezler.",
+   "ac": [
+    "Mâtürîdîlere göre Allah’ı bilmek akılla vaciptir; vahiyle vaciptir görüşü Eş‘arîlerindir.",
+    "Durum tersidir: Eş‘arîler “inşallah müminim” demeyi caiz görür, Mâtürîdîler görmez.",
+    "Tekvîn konusundaki ayrılık iki ekol arasındaki bilinen farklardandır.",
+    "Bu görüş Mâtürîdîlere ve Mu‘tezile’ye yakındır; Eş‘arîler hüsün-kubhun şer‘î olduğunu söyler.",
+    "İki ekole göre de büyük günah işleyen mümindir."
+   ],
+   "kay": "DİA, “Mâtürîdiyye”; Ebû Uzbe, er-Ravzatü’l-behiyye"
+  },
+  {
+   "id": "dh3-37",
+   "ders": "Dinler Tarihi",
+   "z": 3,
+   "s": "I. Teslis (üçleme) inancı\nII. Vaftiz\nIII. Asli günah inancı\nIV. Şabat (Cumartesi yasağı)\nYukarıdakilerden hangileri Hristiyanlıkla ilgilidir?",
+   "c": [
+    "I, II ve III",
+    "I ve IV",
+    "II ve IV",
+    "III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 0,
+   "a": "Hristiyanlıkta Baba-Oğul-Kutsal Ruh üçlemesi (teslis), Âdem’in günahının insanlığa geçtiği inancı (asli günah) ve vaftiz sakramenti temeldir. Şabat Yahudilikte haftanın kutsal günüdür.",
+   "ac": [
+    "Teslis, vaftiz ve asli günah Hristiyanlığın temel inanç ve ritüellerindendir.",
+    "Şabat Yahudilikte cumartesi gününe ait dinî yasak ve kutlamadır.",
+    "Şabat Yahudiliğe aittir; teslis ve asli günah eksik bırakılmıştır.",
+    "Şabat Yahudiliğe aittir.",
+    "Şabat Hristiyanlığa değil Yahudiliğe aittir."
+   ],
+   "kay": "DİA, “Hristiyanlık”; “Sebt”"
+  },
+  {
+   "id": "dh3-38",
+   "ders": "Dinler Tarihi",
+   "z": 2,
+   "s": "Hinduizmle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Kurucusu Siddhartha Gautama’dır.",
+    "Kutsal metinlerinin en eskisi Vedalardır.",
+    "Tek tanrılı bir dindir ve kast sistemi bulunmaz.",
+    "Kutsal kitabı Avesta’dır.",
+    "Temel ibadet yeri sinagogdur."
+   ],
+   "d": 1,
+   "a": "Hinduizmde Vedalar, Upanişadlar ve Bhagavad Gita önemli metinlerdir; samsara, karma ve mokşa temel kavramlardır.",
+   "ac": [
+    "Siddhartha Gautama Budizmin kurucusudur; Hinduizmin belirli bir kurucusu yoktur.",
+    "Vedalar Hinduizmin en eski ve en temel kutsal metinleridir.",
+    "Hinduizmde çok tanrılı unsurlar ve kast sistemi vardır.",
+    "Avesta Zerdüştlüğün kutsal kitabıdır.",
+    "Sinagog Yahudilerin ibadet yeridir."
+   ],
+   "kay": "DİA, “Hinduizm”"
+  },
+  {
+   "id": "dh3-39",
+   "ders": "Din Hizmetleri ve Hitabet",
+   "z": 3,
+   "s": "Bir imam-hatip, cemaatin dikkatini toplamak için vaaza bir soru sorarak başlamış, konuyu üç ana fikir hâlinde işlemiş ve son bölümde ana fikirleri kısaca tekrar ederek bitirmiştir.\nBu konuşmada aşağıdaki hitabet ilkelerinden hangisine yer verilmemiştir?",
+   "c": [
+    "Konuyu ayet ve hadislerle temellendirmek",
+    "Konuyu planlı ve düzenli bir yapı içinde sunmak",
+    "Sonuç bölümünde ana fikirleri özetlemek",
+    "Dikkat çekici bir girişle dinleyiciyi konuya hazırlamak",
+    "Konuşmayı giriş, gelişme ve sonuç bölümlerine ayırmak"
+   ],
+   "d": 0,
+   "a": "Etkili bir dinî konuşmanın giriş, gelişme ve sonuç bölümleri olmalı; konu ayet ve hadislerle temellendirilmeli, örneklerle somutlaştırılmalıdır.",
+   "ac": [
+    "Metinde konuşmanın ayet ve hadislerle desteklendiğine dair bilgi verilmemiştir.",
+    "Konunun üç ana fikirle işlenmesi planlı sunumu gösterir.",
+    "Konuşma ana fikirlerin tekrarıyla bitirilmiştir.",
+    "Soruyla başlamak etkili bir giriş tekniğidir; bu ilkeye yer verilmiştir.",
+    "Giriş, ana fikirler ve özetle biten sonuç bölümleri bulunmaktadır."
+   ],
+   "kay": "Din Hizmetleri ve Hitabet ders kitapları"
+  },
+  {
+   "id": "dh3-40",
+   "ders": "Din Hizmetleri ve Hitabet",
+   "z": 3,
+   "s": "Diyanet İşleri Başkanlığının din hizmetlerinde rehberlik hizmetiyle ilgili aşağıdakilerden hangisi doğru değildir?",
+   "c": [
+    "Aile ve dinî rehberlik büroları müftülükler bünyesinde hizmet verir.",
+    "Hastane, cezaevi ve gençlik merkezlerinde manevi danışmanlık hizmeti sunulur.",
+    "ALO 190 hattı vatandaşların dinî sorularını cevaplar.",
+    "Rehberlik hizmeti yalnız cami içinde ve namaz vakitlerinde verilebilir.",
+    "Din görevlisinin rehberlikte esas aldığı ilke, kişiyi yargılamadan dinlemek ve doğru bilgiyle yönlendirmektir."
+   ],
+   "d": 3,
+   "a": "Diyanet İşleri Başkanlığı din hizmetlerini cami merkezli yürütmekle birlikte; aile, gençlik, hastane, cezaevi, huzurevi gibi alanlarda rehberlik ve manevi danışmanlık hizmetleri de sunmaktadır.",
+   "ac": [
+    "Aile ve Dinî Rehberlik Büroları il ve ilçe müftülüklerinde hizmet vermektedir.",
+    "Diyanet, ilgili kurumlarla işbirliği içinde manevi danışmanlık ve rehberlik yapar.",
+    "ALO 190 Dinî Danışma Hattı Diyanet’in hizmetidir.",
+    "Rehberlik hizmeti cami dışında da (aile büroları, hastane, cezaevi, yurtlar) verilmektedir.",
+    "Rehberlikte empati ve doğru bilgi esastır."
+   ],
+   "kay": "633 sayılı Kanun, md. 1; Diyanet faaliyet raporları"
+  }
+ ]
+}

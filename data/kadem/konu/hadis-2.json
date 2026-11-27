@@ -1,0 +1,857 @@
+{
+ "id": "hadis-2",
+ "ad": "Hadis Usulüne Giriş: Temel Terimler (İsnad, Sened, Metin, Râvi, Muhaddis, Hâfız, Hüccet, Emîrü’l-Mü’minîn fi’l-Hadîs)",
+ "ders": "Hadis",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Bir hadisin anatomisi: sened ve metin"
+  },
+  {
+   "merak": "Buhârî’nin Sahîh’ini açtığınızda ilk hadisin başında altı kişinin adı sıralanır: Humeydî, Süfyân, Yahyâ b. Saîd, Muhammed b. İbrâhîm, Alkame, Ömer… Ve ancak ondan sonra “Ameller niyetlere göredir” sözü gelir. Neden Hz. Peygamber’in sözünden önce bu kadar isim var?"
+  },
+  "Bir hadis iki ana bölümden oluşur: sened ve metin. Sened, hadisi birbirinden alarak Hz. Peygamber’e kadar ulaştıran râvilerin isimlerinden oluşan zincirdir. Metin ise bu zincirin taşıdığı sözün, fiilin ya da takrîrin kendisidir; senedin bittiği yerden başlar. Metin kelimesinin çoğulu mütûndur.",
+  "İsnad kelimesi sözlükte “bir şeyi bir yere dayamak” demektir. Terim olarak iki anlamda kullanılır: Birincisi, sözü söyleyenine kadar râviler zinciriyle ulaştırma, yani hadisi kaynağına dayandırma işidir. İkincisi, çoğu muhaddise göre sened ile eş anlamlıdır ve râviler zincirinin kendisini ifade eder. İnce bir ayrım yapan âlimler sened için “zincir”, isnad için “zinciri zikretme eylemi” derler; ama sınavda ikisi büyük ölçüde eş anlamlı kabul edilir.",
+  {
+   "tablo": [
+    [
+     "Örnek (Buhârî’nin ilk hadisi)",
+     "Hadisteki yeri"
+    ],
+    [
+     "Humeydî → Süfyân b. Uyeyne → Yahyâ b. Saîd el-Ensârî → Muhammed b. İbrâhîm et-Teymî → Alkame b. Vakkâs → Ömer b. el-Hattâb",
+     "Sened (râviler zinciri)"
+    ],
+    [
+     "Her bir isim",
+     "Râvi"
+    ],
+    [
+     "Humeydî (müellifin hocası)",
+     "Senedin başı (müellif tarafı)"
+    ],
+    [
+     "Hz. Ömer (sahabi)",
+     "Senedin sonu / müntehâsı (Hz. Peygamber tarafı)"
+    ],
+    [
+     "“Ameller ancak niyetlere göredir…”",
+     "Metin"
+    ]
+   ]
+  },
+  "Senedin “baş” ve “son” tarafını iyi öğrenmek gerekir; çünkü ileride göreceğimiz muallak (baştan düşme) ve mürsel (sondan sahabinin düşmesi) gibi türler bu ayrıma dayanır. Senedin başı, kitabı yazan müellife en yakın taraf; sonu ise Hz. Peygamber’e en yakın taraftır.",
+  "Tarîk (çoğulu turuk), bir hadisin ulaştığı yollardan her biridir. Aynı metin farklı râvi zincirleriyle geldiğinde hadisin birden fazla tarîki var denir. Bir hadisin bütün yollarını toplamaya cem’u’t-turuk, bu yolları karşılaştırmaya muâraza denir.",
+  {
+   "sinav": "“Râviler zinciri” → sened (isnad); “senedin ardından gelen söz” → metin; “her bir isim” → râvi; “hadisin farklı yolları” → turuk. Tuzak: Rihle (hadis yolculuğu), muhaddis (hadis âlimi) ve müsnid (senediyle rivayet eden) zincirin adı değildir."
+  },
+  {
+   "akil": "Hadis = sened + metin. İsnad: dayamak; çoğunluğa göre senedle eş anlamlı. Senedin başı müellif, sonu Hz. Peygamber tarafıdır. Tarîk = yol, turuk = yollar."
+  },
+  {
+   "b": "2. İsnad neden bu kadar önemli?"
+  },
+  {
+   "merak": "Tâbiûn neslinin büyük âlimi Muhammed b. Sîrîn şöyle der: “Önceleri isnad sorulmazdı. Fitne çıkınca ‘Bize râvilerinizi söyleyin’ dediler.” Peki hangi fitne, isnadı bu kadar zorunlu kıldı?"
+  },
+  "Hz. Peygamber hayattayken sahabe birbirinden duyduğu hadisi rahatlıkla aktarıyordu; herkes birbirini tanıyor ve güveniyordu. Hz. Osman’ın şehit edilmesiyle başlayan iç karışıklıklar (Cemel, Sıffîn, tahkim) Müslümanları siyasi ve itikadi gruplara böldü; bazı gruplar kendi görüşlerini desteklemek için hadis uydurmaya başladı. Güven ortamının sarsılması üzerine âlimler, bir rivayeti dinlemeden önce onu kimden aldığını sormaya başladılar. Böylece isnad, rivayetin güvenilirliğini sınamanın temel aracı hâline geldi.",
+  {
+   "hadis": "Önceleri isnadı sormazlardı. Fitne çıkınca “Bize râvilerinizi söyleyin” dediler. Ehl-i sünnetten olanlara bakılıp hadisleri alınır, bid’at ehline bakılıp hadisleri alınmazdı.",
+   "kay": "Müslim, Mukaddime, 5 (Muhammed b. Sîrîn’in sözü)"
+  },
+  "Abdullah b. Mübârek’in meşhur sözü isnadın dindeki yerini özetler: “İsnad dindendir. İsnad olmasaydı dileyen dilediğini söylerdi.” Bir başka ifadesinde senetsiz hadis isteyeni, merdivensiz dama çıkmak isteyene benzetir. Süfyân es-Sevrî de isnadı “müminin silahı” olarak nitelemiştir.",
+  {
+   "hadis": "İsnad dindendir. İsnad olmasaydı isteyen istediğini söylerdi.",
+   "kay": "Müslim, Mukaddime, 5 (Abdullah b. Mübârek’in sözü)"
+  },
+  "İsnad sistemi, İslam medeniyetine özgü bir bilgi güvenliği yöntemidir. Önceki dinlerin kutsal metinleri ve peygamberlerinin sözleri için bu çapta bir râvi zinciri ve râvi tenkidi geliştirilmemiştir. Bu nedenle âlimler, isnadı ümmet-i Muhammed’e verilmiş bir ikram olarak görmüştür. İsnadın yaygınlaşması, râvileri tanıma ihtiyacını doğurmuş; bu da cerh-ta’dil ve ricâl ilimlerinin doğmasına yol açmıştır.",
+  {
+   "tablo": [
+    [
+     "Söz",
+     "Sahibi",
+     "Ana fikir"
+    ],
+    [
+     "“Önceleri isnad sorulmazdı; fitne çıkınca râvilerinizi söyleyin dediler.”",
+     "Muhammed b. Sîrîn",
+     "İsnadın fitneden sonra zorunlu hâle gelişi"
+    ],
+    [
+     "“İsnad dindendir; olmasaydı dileyen dilediğini söylerdi.”",
+     "Abdullah b. Mübârek",
+     "İsnadın dinî değeri"
+    ],
+    [
+     "“İsnad müminin silahıdır.”",
+     "Süfyân es-Sevrî",
+     "İsnadın uydurmaya karşı savunma aracı oluşu"
+    ],
+    [
+     "“Bu ilim dindir; dininizi kimden aldığınıza bakın.”",
+     "Muhammed b. Sîrîn",
+     "Râvi seçiminde titizlik"
+    ]
+   ]
+  },
+  {
+   "sinav": "“İsnad dindendir” → Abdullah b. Mübârek; “fitne çıkınca isnad soruldu” → İbn Sîrîn; ikisi de Müslim’in Mukaddime’sinde geçer. “Cemel, Sıffîn ve tahkim gibi olaylar hadis tarihinde neye yol açtı?” sorusunun cevabı → isnad uygulamasının yaygınlaşması (ve uydurmanın başlaması)."
+  },
+  {
+   "akil": "Fitne → güvensizlik → isnad sorgusu → cerh-ta’dil ve ricâl ilmi. İsnad, uydurmaya karşı ümmetin kalkanıdır."
+  },
+  {
+   "b": "3. Râvi, tahammül ve edâ"
+  },
+  {
+   "merak": "Bir talebe hocasından hadis dinler; yıllar sonra o hadisi kendi talebelerine aktarır. Bu iki ayrı eylemin ayrı ayrı adları ve hatta ayrı şartları vardır. Mesela hadisi çocukken duyup büyüyünce rivayet etmek mümkün müdür?"
+  },
+  "Râvi sözlükte “nakleden, taşıyan, ileten” demektir. Terim olarak hadisi belli usullere göre alan (tahammül) ve bu usullere uygun rivayet lafızlarını kullanarak başkasına aktaran (edâ) kimsedir. Rivayet, bir hadisi kaynağına dayandırarak nakletmektir.",
+  "Tahammül, hadisi hocadan alma, öğrenmedir. Edâ ise öğrenilen hadisi başkasına aktarma, rivayet etmedir. Âlimlerin çoğuna göre tahammül için Müslüman ve bâliğ olmak şart değildir; temyiz gücüne sahip bir çocuk ve henüz Müslüman olmamış biri de hadis duyabilir. Ancak edâ sırasında râvinin Müslüman, bâliğ, akıllı, adil ve zabıt olması gerekir. Hz. Hasan, Hz. Hüseyin, İbn Abbas ve Abdullah b. Zübeyr gibi küçük yaştaki sahabilerin çocukken duyduklarını büyüyünce rivayet etmeleri kabul edilmiştir. Cübeyr b. Mut’im de Hz. Peygamber’i Müslüman olmadan önce akşam namazında Tûr Suresi’ni okurken dinlemiş, Müslüman olduktan sonra bunu rivayet etmiştir.",
+  "Râvinin hadisi aldığı yolu gösteren ifadelere edâ sîgaları (rivayet lafızları) denir. Bunlar hadisin semâ’ ile mi, kıraatle mi, icâzetle mi alındığını gösterir. Ayrıntısını tahammül yolları konusunda göreceğiz; burada temel lafızları tanıyalım:",
+  {
+   "tablo": [
+    [
+     "Edâ sîgası",
+     "Anlamı",
+     "Gösterdiği yol (çoğunluğa göre)"
+    ],
+    [
+     "Semi’tü / haddesenî / haddesenâ",
+     "İşittim / bana – bize anlattı",
+     "Semâ’"
+    ],
+    [
+     "Ahberanî / ahberanâ",
+     "Bana / bize haber verdi",
+     "Kıraat (arz); bazılarınca semâ’ da"
+    ],
+    [
+     "Kara’tü alâ fülân / kurie aleyhi ve ene esmeu",
+     "Falana okudum / ona okundu, ben dinliyordum",
+     "Kıraat (arz)"
+    ],
+    [
+     "Enbeenâ",
+     "Bize bildirdi",
+     "Çoğunlukla icâzet (müteahhirîn)"
+    ],
+    [
+     "Nâvelenî",
+     "Bana verdi",
+     "Münâvele"
+    ],
+    [
+     "Kebete ileyye",
+     "Bana yazdı",
+     "Mükâtebe"
+    ],
+    [
+     "Vecedtü bi-hatti fülân",
+     "Falanın el yazısıyla buldum",
+     "Vicâde"
+    ],
+    [
+     "An fülân",
+     "Falandan",
+     "An’ane: işitmeye açık delil değil; müdellisten gelirse şüpheli"
+    ]
+   ]
+  },
+  "“An fülân” (falandan) ifadesiyle yapılan rivayete mu’an’an, “enne fülânen kâle” (falan şöyle dedi ki) ifadesiyle yapılana müennen denir. Bu lafızlar râvinin hocasından bizzat işittiğini açıkça göstermez. Çoğunluk, râvinin müdellis olmaması ve hocasıyla karşılaşmasının mümkün olması şartıyla mu’an’an rivayeti muttasıl sayar. Müslim, iki râvinin aynı dönemde yaşamış olmasını (muâsara) yeterli görürken, Buhârî ve hocası Ali b. el-Medînî en az bir kez karşılaşmış olmalarını (likâ) şart koşmuştur. Buhârî’nin Sahîh’inin Müslim’inkinden daha güçlü sayılmasının sebeplerinden biri budur.",
+  {
+   "sinav": "“Haddesenâ” → semâ’; “ahberanâ / kara’tü alâ” → kıraat; “vecedtü” → vicâde. Buhârî: likâ şartı; Müslim: muâsara yeterli. Tahammülde Müslümanlık ve bulûğ şart değil, edâda şarttır; tuzak şık “Çocukken duyduğu hadisi rivayet edemez.”"
+  },
+  {
+   "akil": "Tahammül = almak; edâ = aktarmak. Tahammülde temyiz yeterli, edâda Müslüman, bâliğ, adil ve zabıt olmak şart. An’ane: Buhârî likâ, Müslim muâsara arar."
+  },
+  {
+   "b": "4. Hadisçilerin unvanları: tâlibden emîrü’l-mü’minîn’e"
+  },
+  {
+   "merak": "Şu’be b. Haccâc’a, Buhârî’ye ve Dârekutnî’ye aynı lakap verilmiştir: “Hadiste müminlerin emiri.” Halife olmadan “emîrü’l-mü’minîn” olmak nasıl mümkün olur?"
+  },
+  "Hadis âlimleri, bilgi ve yetkinliklerine göre çeşitli unvanlarla anılmıştır. Bu unvanların kesin sınırları âlimden âlime değişse de sınavda kullanılan genel sıralama şöyledir:",
+  "Tâlib: Hadis öğrenmeye başlamış, yolun başındaki talebedir. Müsnid: Hadisi kendi senediyle rivayet eden kişidir; hadisin anlamını bilsin bilmesin rivayetle meşgul olandır. Muhaddis: Hadisi rivayet ve dirâyet yönünden bilen, râvileri tanıyan, rivayetlerin çoğunu bilen ve hadisle meşgul olan âlimdir; müsnidden üst derecededir. Şeyh: Kendisinden hadis alınan hoca; çoğulu şuyûh ve meşâyihtir.",
+  "Hâfız: Sözlükte “ezberleyen, koruyan”; hadis ilminde hadislerin büyük çoğunluğunu senedleri ve râvileriyle bilen, sahihini zayıfından ayırabilen üst düzey muhaddistir. Bazı kaynaklarda yüz bin hadisi senediyle bilmek ölçüt olarak verilir. Hüccet: Hâfızdan da ileri, bilgisine delil olarak güvenilen âlim; bazı kaynaklarda üç yüz bin hadis ölçüsü verilir. Hâkim: Bazı âlimlere göre hadislerin hemen tamamını metin, sened, cerh-ta’dil ve tarih yönünden kuşatan âlimdir.",
+  "Emîrü’l-mü’minîn fi’l-hadîs: Hadis ilmindeki derin vukufu ve liyakati sebebiyle bu ilimde önder sayılan âlimlere verilen en yüksek unvandır. Bu unvanla anılanlar arasında Şu’be b. Haccâc, Süfyân es-Sevrî, Abdullah b. Mübârek, Mâlik b. Enes, Ahmed b. Hanbel, İshak b. Râhûye, Buhârî, Dârekutnî ve İbn Hacer el-Askalânî sayılır.",
+  {
+   "tablo": [
+    [
+     "Unvan",
+     "Kısaca",
+     "Not"
+    ],
+    [
+     "Tâlib",
+     "Yeni başlayan öğrenci",
+     "Hadis talebesi"
+    ],
+    [
+     "Müsnid",
+     "Hadisi senediyle rivayet eden",
+     "Dirâyet şart değil"
+    ],
+    [
+     "Muhaddis",
+     "Rivayet ve dirâyet yönünden hadis âlimi",
+     "Râvileri tanır, rivayetlerin çoğunu bilir"
+    ],
+    [
+     "Hâfız",
+     "Hadislerin çoğunu sened ve râvileriyle bilen",
+     "Bazı kaynaklarda 100.000 hadis"
+    ],
+    [
+     "Hüccet",
+     "Bilgisine delil olarak güvenilen",
+     "Bazı kaynaklarda 300.000 hadis"
+    ],
+    [
+     "Hâkim",
+     "Hadislerin tamamını kuşatan (bazılarına göre)",
+     "Hâkim en-Nîsâbûrî’nin lakabı ayrıca bir isimdir"
+    ],
+    [
+     "Emîrü’l-mü’minîn fi’l-hadîs",
+     "Hadiste önder, en yüksek unvan",
+     "Şu’be, Sevrî, Buhârî, Dârekutnî, İbn Hacer…"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Hâfız için 100.000, hüccet için 300.000 hadis gibi sayılar bazı geç dönem kaynaklarında geçer; âlimler arasında üzerinde uzlaşılmış kesin ölçütler değildir. Sınavda sayı yerine sıralama ve tanım sorulması beklenir."
+  },
+  "Bu unvanların yanında râvilerin birbirleriyle ilişkisini anlatan terimler de vardır: Aynı tabakadan, yaşça ve hoca bakımından birbirine yakın iki râvinin birbirinden rivayetine rivâyetü’l-akrân, bu iki râvi karşılıklı olarak birbirinden rivayet etmişse mudebbec denir. Büyüğün küçükten rivayetine rivâyetü’l-ekâbir ani’l-esâğır, babanın oğuldan rivayetine rivâyetü’l-âbâ ani’l-ebnâ denir. Mütekaddimûn hicrî 300 yılından önce, müteahhirûn ise sonra yaşamış hadis âlimleri için kullanılır.",
+  {
+   "sinav": "“Hadis ilmindeki derin vukufu sebebiyle önder kabul edilen âlime verilen unvan” → emîrü’l-mü’minîn fi’l-hadîs. Sıralama soruları: tâlib < müsnid < muhaddis < hâfız < hüccet < hâkim. Tuzak: “Hâfız” Kur’an hâfızlığıyla karıştırılmasın; hadis ilminde üst düzey muhaddistir."
+  },
+  {
+   "akil": "Tâlib → müsnid → muhaddis → hâfız → hüccet → hâkim; zirvede emîrü’l-mü’minîn fi’l-hadîs (Şu’be, Sevrî, Buhârî, Dârekutnî, İbn Hacer)."
+  },
+  {
+   "b": "5. Hadis ilimleri: rivâyet ve dirâyet"
+  },
+  {
+   "merak": "Bir âlim bir hadisin senedini harfi harfine ezbere bilir ama içindeki garip bir kelimenin anlamını bilmez; bir başkası kelimenin anlamını bilir ama râvileri tanımaz. İkisi de “hadisçi” midir?"
+  },
+  "Hadis ilmi genel olarak iki kısma ayrılır. İlmü rivâyeti’l-hadîs, Hz. Peygamber’e, sahabe ve tâbiûna nispet edilen söz, fiil, takrîr ve vasıflardan ibaret haberlerin naklini konu alır; hadislerin doğru biçimde rivayet edilmesi, yazılması ve korunmasıyla ilgilenir. İlmü dirâyeti’l-hadîs ise rivayetlerin kabul ve ret bakımından incelenmesini, râvilerin ve rivayetin durumunu konu alır; buna hadis usulü veya mustalahu’l-hadîs de denir. İlk dört asırda dirâyet ilmi, “hadisleri râvilerinin adalet ve zabtı, senedlerin ittisal ve inkıtaı yönünden inceleyen ilim” olarak tanımlanmış; sonraki âlimler bunu “râvi ve rivayeti kabul ve ret yönünden inceleyen ilim” diye tanımlamıştır.",
+  "Hadis usulü, hadis ilminin prensiplerini açıklayan, sened ve metnin durumunu anlamaya imkân veren kurallar bütünüdür. Hadis ilminin “ulûmü’l-hadîs” denilen alt dalları ise şunlardır:",
+  {
+   "tablo": [
+    [
+     "Hadis ilmi dalı",
+     "Konusu",
+     "Öncelikle neyle ilgilenir?"
+    ],
+    [
+     "Cerh ve ta’dîl",
+     "Râvilerin adalet ve zabt yönünden değerlendirilmesi",
+     "Sened"
+    ],
+    [
+     "Ricâlü’l-hadîs (rical / tarihu’r-ruvât)",
+     "Râvilerin hayatı, hocaları, talebeleri, doğum-vefatları",
+     "Sened"
+    ],
+    [
+     "İlelü’l-hadîs",
+     "Sahih görünen hadislerdeki gizli kusurlar",
+     "Sened ve metin"
+    ],
+    [
+     "Garîbü’l-hadîs",
+     "Metindeki anlaşılması zor, az kullanılan kelimeler",
+     "Metin"
+    ],
+    [
+     "Muhtelifü’l-hadîs (ihtilâfü’l-hadîs)",
+     "Birbirine zıt görünen hadislerin uzlaştırılması",
+     "Metin"
+    ],
+    [
+     "Nâsihu’l-hadîs ve mensûhuhu",
+     "Hükmü kaldıran ve kaldırılan hadisler",
+     "Metin"
+    ],
+    [
+     "Esbâbü vürûdi’l-hadîs",
+     "Hadisin söylenme sebebi ve bağlamı",
+     "Metin"
+    ],
+    [
+     "Tashîf ve tahrîf",
+     "Nokta ve hareke hataları",
+     "Metin (ve sened)"
+    ],
+    [
+     "Mevzûât",
+     "Uydurma hadislerin tespiti",
+     "Sened ve metin"
+    ]
+   ]
+  },
+  {
+   "not": "Ricâl ilmi ile cerh-ta’dil ilmi yakın akrabadır: Ricâl ilmi râvinin kimliğini ve tarihini (kim, nerede, kimden, ne zaman), cerh-ta’dil ise güvenilirliğini (adil mi, zabıt mı) inceler. İlel ilmi hadis ilimlerinin en zorlarından sayılır; bu alanda Ali b. el-Medînî, Ahmed b. Hanbel, Buhârî, Tirmizî (el-İlel), İbn Ebû Hâtim (İlelü’l-hadîs) ve Dârekutnî (el-İlel) öne çıkar. Garîbü’l-hadîs alanında Ebû Ubeyd Kāsım b. Sellâm’ın ve İbnü’l-Esîr’in en-Nihâye fî garîbi’l-hadîs’i meşhurdur."
+  },
+  {
+   "sinav": "“Metinle değil senetle ilgilenen ilim” → cerh-ta’dil veya ricâl. “Gizli kusur” → ilel; “anlaşılması zor kelime” → garîb; “zıt görünen hadisler” → muhtelif; “söylenme sebebi” → esbâb-ı vürûd. Dirâyet = usul (kabul-ret), rivâyet = nakil."
+  },
+  {
+   "akil": "Rivâyet ilmi nakli, dirâyet ilmi (usul) kabul-reddi inceler. Sened ilimleri: cerh-ta’dil, ricâl; metin ilimleri: garîb, muhtelif, nâsih-mensûh, esbâb-ı vürûd; ikisine birden: ilel, mevzûât."
+  },
+  {
+   "b": "6. Hadis usulünün kitapları"
+  },
+  {
+   "merak": "Hadis usulü üzerine yazılan ilk müstakil kitap, Kütüb-i Sitte müelliflerinin ölümünden yaklaşık yarım asır sonra kaleme alındı. O güne kadar usul kuralları neredeydi?"
+  },
+  "İlk dönemde usul kuralları hadis kitaplarının mukaddimelerine ve âlimlerin dağınık sözlerine serpiştirilmişti. İmam Şâfiî’nin er-Risâle’si haber-i vâhidin şartları ve sünnetin delil oluşu üzerine ilk sistemli tartışmaları içerir. Müslim’in Sahîh’ine yazdığı Mukaddime ve Tirmizî’nin el-İlelü’s-sağîr’i de erken dönem usul metinleri sayılır.",
+  "Hadis usulüne dair ilk müstakil eser, Râmhürmüzî’nin (ö. 360/971) el-Muhaddisü’l-fâsıl beyne’r-râvî ve’l-vâ’î adlı kitabıdır. Ardından Hâkim en-Nîsâbûrî (ö. 405/1014) Ma’rifetü ulûmi’l-hadîs’i yazdı ve hadis ilimlerini elli iki türde ele aldı. Hatîb el-Bağdâdî (ö. 463/1071) rivayet kurallarını el-Kifâye fî ilmi’r-rivâye’de, hoca-talebe âdâbını el-Câmi’ li-ahlâki’r-râvî ve âdâbi’s-sâmi’de işledi; usulün hemen her konusunda müstakil eserler yazdığı için sonraki muhaddislerin “Hatîb’e muhtaç” olduğu söylenmiştir. Kadı İyâz (ö. 544/1149) el-İlmâ’ adlı eserinde tahammül ve edâ yollarını inceledi.",
+  "Usulün klasik ders kitabı İbnü’s-Salâh’ın (ö. 643/1245) Ulûmü’l-hadîs’idir; Mukaddime-i İbnü’s-Salâh diye bilinir ve hadis ilimlerini altmış beş türde toplar. Bu eser üzerine pek çok ihtisar, şerh ve nazım yapılmıştır: Nevevî’nin et-Takrîb’i ve onun Süyûtî tarafından yapılan şerhi Tedrîbü’r-râvî; İbn Kesîr’in İhtisâru ulûmi’l-hadîs’i; Irâkî’nin manzum Elfiyye’si ve Sehâvî’nin buna yazdığı Fethu’l-muğîs. İbn Hacer el-Askalânî (ö. 852/1449) ise kısa ama yoğun Nuhbetü’l-fiker’i yazmış, onu kendisi Nüzhetü’n-nazar adıyla şerh etmiştir.",
+  {
+   "tablo": [
+    [
+     "Eser",
+     "Müellif",
+     "Not"
+    ],
+    [
+     "er-Risâle",
+     "Şâfiî (ö. 204/820)",
+     "Haber-i vâhid ve sünnetin delil oluşu; fıkıh usulünün de ilk eseri"
+    ],
+    [
+     "el-Muhaddisü’l-fâsıl",
+     "Râmhürmüzî (ö. 360/971)",
+     "Hadis usulünde ilk müstakil eser"
+    ],
+    [
+     "Ma’rifetü ulûmi’l-hadîs",
+     "Hâkim en-Nîsâbûrî (ö. 405/1014)",
+     "52 tür"
+    ],
+    [
+     "el-Kifâye fî ilmi’r-rivâye",
+     "Hatîb el-Bağdâdî (ö. 463/1071)",
+     "Rivayet kuralları"
+    ],
+    [
+     "el-Câmi’ li-ahlâki’r-râvî",
+     "Hatîb el-Bağdâdî",
+     "Hoca ve talebe âdâbı"
+    ],
+    [
+     "el-İlmâ’",
+     "Kadı İyâz (ö. 544/1149)",
+     "Tahammül ve edâ"
+    ],
+    [
+     "Ulûmü’l-hadîs (Mukaddime)",
+     "İbnü’s-Salâh (ö. 643/1245)",
+     "65 tür; klasik ders kitabı"
+    ],
+    [
+     "et-Takrîb",
+     "Nevevî (ö. 676/1277)",
+     "Mukaddime’nin ihtisarı"
+    ],
+    [
+     "Tedrîbü’r-râvî",
+     "Süyûtî (ö. 911/1505)",
+     "Takrîb’in şerhi"
+    ],
+    [
+     "İhtisâru ulûmi’l-hadîs",
+     "İbn Kesîr (ö. 774/1373)",
+     "Mukaddime’nin ihtisarı"
+    ],
+    [
+     "Elfiyye",
+     "Irâkî (ö. 806/1404)",
+     "Manzum usul"
+    ],
+    [
+     "Fethu’l-muğîs",
+     "Sehâvî (ö. 902/1497)",
+     "Elfiyye şerhi"
+    ],
+    [
+     "Nuhbetü’l-fiker / Nüzhetü’n-nazar",
+     "İbn Hacer (ö. 852/1449)",
+     "Metin ve kendi şerhi"
+    ]
+   ]
+  },
+  {
+   "not": "Türkiye’de hadis usulü alanında Talât Koçyiğit’in Hadis Usûlü ve Hadis Istılahları Sözlüğü, Ahmed Naim’in Tecrîd-i Sarîh Mukaddimesi ve Mehmed Said Hatiboğlu’nun çalışmaları sık başvurulan eserlerdir."
+  },
+  {
+   "sinav": "Usul eseri – müellif eşleştirmesi favori sorudur: Tedrîbü’r-râvî → Süyûtî (Buhârî veya Nevevî değil); Nuhbe → İbn Hacer; Mukaddime → İbnü’s-Salâh; el-Kifâye → Hatîb; Ma’rifetü ulûmi’l-hadîs → Hâkim; ilk usul eseri → Râmhürmüzî. Tuzak: el-İsâbe (İbn Hacer) bir usul eseri değil, sahabe biyografisidir; el-İstîâb (İbn Abdilber) ve Üsdü’l-gâbe (İbnü’l-Esîr) de öyle."
+  },
+  {
+   "akil": "Râmhürmüzî ilk; Hâkim 52 tür; Hatîb Kifâye ve Câmi’; İbnü’s-Salâh 65 tür (Mukaddime) → Nevevî Takrîb → Süyûtî Tedrîb; İbn Hacer Nuhbe ve Nüzhe."
+  }
+ ],
+ "ozet": [
+  "Hadis = sened + metin; sened râviler zinciri, metin zincirin taşıdığı söz/fiil/takrîr (çoğulu mütûn).",
+  "İsnad: “dayamak”; sözü kaynağına ulaştırma; çoğunluğa göre senedle eş anlamlı.",
+  "Senedin başı müellif tarafı, sonu (müntehâsı) Hz. Peygamber tarafıdır.",
+  "Tarîk: hadisin yollarından biri (çoğulu turuk); cem’u’t-turuk: yolları toplamak.",
+  "İbn Sîrîn: “Fitne çıkınca râvilerinizi söyleyin dediler.” İbnü’l-Mübârek: “İsnad dindendir.” (Müslim, Mukaddime).",
+  "Tahammül = hadisi almak; edâ = aktarmak. Tahammülde temyiz yeterli; edâda Müslüman, bâliğ, adil, zabıt olmak şart.",
+  "Haddesenâ → semâ’; ahberanâ / kara’tü alâ → kıraat; nâvelenî → münâvele; kebete → mükâtebe; vecedtü → vicâde.",
+  "Mu’an’an: “an fülân”la rivayet; Buhârî likâ, Müslim muâsara şartı arar.",
+  "Unvanlar: tâlib < müsnid < muhaddis < hâfız < hüccet < hâkim.",
+  "Emîrü’l-mü’minîn fi’l-hadîs: Şu’be, Sevrî, İbnü’l-Mübârek, Ahmed, Buhârî, Dârekutnî, İbn Hacer.",
+  "Rivâyet ilmi: nakil; dirâyet ilmi (usul, mustalah): kabul-ret.",
+  "Sened ilimleri: cerh-ta’dil, ricâl; metin ilimleri: garîb, muhtelif, nâsih-mensûh, esbâb-ı vürûd; ilel her ikisi.",
+  "İlk müstakil usul eseri: Râmhürmüzî, el-Muhaddisü’l-fâsıl.",
+  "Hâkim: Ma’rifetü ulûmi’l-hadîs (52 tür); Hatîb: el-Kifâye ve el-Câmi’; Kadı İyâz: el-İlmâ’.",
+  "İbnü’s-Salâh: Ulûmü’l-hadîs / Mukaddime (65 tür); Nevevî et-Takrîb; Süyûtî Tedrîbü’r-râvî.",
+  "İbn Hacer: Nuhbetü’l-fiker ve şerhi Nüzhetü’n-nazar; Irâkî Elfiyye, Sehâvî Fethu’l-muğîs; İbn Kesîr İhtisâr.",
+  "el-İsâbe, el-İstîâb ve Üsdü’l-gâbe usul değil sahabe biyografisi kitaplarıdır."
+ ],
+ "kartlar": [
+  {
+   "o": "Sened",
+   "a": "Hadisi Hz. Peygamber’e kadar ulaştıran râviler zinciri."
+  },
+  {
+   "o": "Metin",
+   "a": "Senedin ardından gelen, sözü/fiili/takrîri içeren kısım; çoğulu mütûn."
+  },
+  {
+   "o": "İsnad",
+   "a": "Sözlükte dayamak; sözü kaynağına ulaştırmak; çoğunluğa göre senedle eş anlamlı."
+  },
+  {
+   "o": "Tarîk / turuk",
+   "a": "Hadisin geldiği yol / yollar; cem’u’t-turuk: bütün yolları toplamak."
+  },
+  {
+   "o": "“İsnad dindendir.”",
+   "a": "Abdullah b. Mübârek (Müslim, Mukaddime)."
+  },
+  {
+   "o": "“Fitne çıkınca râvilerinizi söyleyin dediler.”",
+   "a": "Muhammed b. Sîrîn (Müslim, Mukaddime)."
+  },
+  {
+   "o": "Tahammül – edâ",
+   "a": "Tahammül: hadisi almak; edâ: hadisi aktarmak."
+  },
+  {
+   "o": "Mu’an’an hadis",
+   "a": "“An fülân” ile rivayet; Buhârî likâ, Müslim muâsara şartı arar."
+  },
+  {
+   "o": "Müsnid",
+   "a": "Hadisi kendi senediyle rivayet eden kişi (eser türü olan müsnedle karıştırma)."
+  },
+  {
+   "o": "Hâfız (hadis ilminde)",
+   "a": "Hadislerin çoğunu sened ve râvileriyle bilen üst düzey muhaddis."
+  },
+  {
+   "o": "Emîrü’l-mü’minîn fi’l-hadîs",
+   "a": "Hadiste önder âlime verilen en yüksek unvan (Şu’be, Sevrî, Buhârî, Dârekutnî, İbn Hacer)."
+  },
+  {
+   "o": "Mudebbec",
+   "a": "Akran iki râvinin karşılıklı olarak birbirinden rivayet etmesi."
+  },
+  {
+   "o": "Mütekaddimûn",
+   "a": "Hicrî 300’den önce yaşamış hadis âlimleri."
+  },
+  {
+   "o": "İlmü dirâyeti’l-hadîs",
+   "a": "Râvi ve rivayeti kabul-ret yönünden inceleyen ilim; hadis usulü."
+  },
+  {
+   "o": "İlk müstakil hadis usulü eseri",
+   "a": "Râmhürmüzî, el-Muhaddisü’l-fâsıl beyne’r-râvî ve’l-vâ’î."
+  },
+  {
+   "o": "Tedrîbü’r-râvî",
+   "a": "Süyûtî; Nevevî’nin et-Takrîb’inin şerhi."
+  },
+  {
+   "o": "Nuhbetü’l-fiker",
+   "a": "İbn Hacer el-Askalânî; şerhi Nüzhetü’n-nazar."
+  },
+  {
+   "o": "Mukaddime-i İbnü’s-Salâh",
+   "a": "Ulûmü’l-hadîs; 65 tür; usulün klasik ders kitabı."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "hd2-01",
+   "z": 3,
+   "s": "Bir hadis talebesi, bir rivayetle ilgili şu notları almıştır:\nI. Senedin müellife en yakın tarafına senedin başı denir.\nII. İsnad, çoğu muhaddise göre sened ile eş anlamlıdır.\nIII. Bir hadisin farklı râvi zincirleriyle gelmesi, o hadisin birden çok tarîkinin bulunduğunu gösterir.\nIV. Metin, senedden önce gelen ve râvilerin adlarını içeren kısımdır.\n\nBu notlardan hangileri doğrudur?",
+   "c": [
+    "I ve IV",
+    "II ve III",
+    "I, II ve III",
+    "II, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 2,
+   "a": "Senedin başı müellif tarafıdır; isnad çoğunluğa göre senedle eş anlamlıdır; farklı zincirler farklı tarîklerdir. Metin ise senedden sonra gelir ve sözün kendisidir; IV yanlıştır.",
+   "ac": [
+    "IV yanlıştır; I doğru olmakla birlikte II ve III de doğrudur.",
+    "I de doğrudur.",
+    "Doğru: I, II ve III doğrudur.",
+    "IV yanlıştır.",
+    "IV yanlış olduğu için hepsi doğru olamaz."
+   ],
+   "kay": "Konu: Sened, isnad, metin, tarîk"
+  },
+  {
+   "id": "hd2-02",
+   "z": 2,
+   "s": "“Önceleri isnad sorulmazdı. Fitne çıkınca ‘Bize râvilerinizi söyleyin.’ dediler. Ehl-i sünnetten olanlara bakılıp hadisleri alınır, bid’at ehline bakılıp hadisleri alınmazdı.”\n\nMüslim’in Sahîh’inin mukaddimesinde nakledilen bu söz kime aittir ve en çok neyi açıklar?",
+   "c": [
+    "Muhammed b. Sîrîn – isnad uygulamasının siyasi karışıklıklardan sonra yaygınlaşmasını",
+    "Abdullah b. Mübârek – isnadın dinî değerini",
+    "Süfyân es-Sevrî – hadis yolculuklarının başlamasını",
+    "İbn Şihâb ez-Zührî – hadislerin resmî tedvinini",
+    "Şu’be b. Haccâc – cerh-ta’dil lafızlarının ortaya çıkışını"
+   ],
+   "d": 0,
+   "a": "Söz Muhammed b. Sîrîn’e aittir ve isnadın fitne (iç karışıklıklar) sonrasında zorunlu hâle geldiğini anlatır.",
+   "ac": [
+    "Doğru: söz İbn Sîrîn’e aittir; fitne sonrası isnad sorgusunu anlatır.",
+    "İbnü’l-Mübârek’in meşhur sözü “İsnad dindendir”dir.",
+    "Sevrî isnadı müminin silahına benzetmiştir; sözde rihle konusu yoktur.",
+    "Zührî resmî tedvinle anılır; söz ona ait değildir.",
+    "Şu’be cerh-ta’dilin öncülerindendir; ama söz ona ait değildir."
+   ],
+   "kay": "Müslim, Mukaddime, 5"
+  },
+  {
+   "id": "hd2-03",
+   "z": 3,
+   "s": "Bir hadis râvisi hakkında şu bilgiler veriliyor: Bu sahabi, Hz. Peygamber’in akşam namazında Tûr Suresi’ni okuduğunu Müslüman olmadan önce, Bedir esirleri meselesi için Medine’ye geldiğinde duymuş; Müslüman olduktan sonra da bunu rivayet etmiştir. Hadisçiler bu rivayeti kabul etmişlerdir.\n\nBu örnekten hareketle aşağıdaki yargılardan hangisine ulaşılır?",
+   "c": [
+    "Edâ sırasında râvinin Müslüman olması şart değildir.",
+    "Râvinin rivayeti kabul edilmek için hadisi semâ’ yoluyla almış olması yeterlidir.",
+    "Gayrimüslimken duyulan hadis yalnızca vicâde yoluyla rivayet edilebilir.",
+    "Tahammül sırasında Müslüman olmak şart değildir; edâ sırasında ise şarttır.",
+    "Tahammül ve edânın şartları aynıdır."
+   ],
+   "d": 3,
+   "a": "Cübeyr b. Mut’im örneği, tahammülde Müslümanlığın şart olmadığını; ancak edâ (rivayet) anında râvinin Müslüman olması gerektiğini gösterir.",
+   "ac": [
+    "Tam tersi: edâ sırasında Müslüman olmak şarttır; sahabi rivayeti Müslüman olduktan sonra yapmıştır.",
+    "Semâ’ tek başına yetmez; edâ anında adalet ve zabt da aranır.",
+    "Rivayet semâ’ yoluyla duyulmuştur; vicâdeyle ilgisi yoktur.",
+    "Doğru: duyma anında Müslüman değildi, rivayet anında Müslümandı.",
+    "Örnek iki şartın farklı olduğunu gösterir."
+   ],
+   "kay": "Buhârî, Ezân, 99 (Cübeyr b. Mut’im); Konu: Tahammül ve edâ"
+  },
+  {
+   "id": "hd2-04",
+   "z": 2,
+   "s": "Bir hadis kitabında aynı râvinin farklı hadislerde “haddesenâ”, “ahberanâ” ve “vecedtü bi-hattı ebî” ifadelerini kullandığı görülmektedir.\n\nBu ifadelerin çoğunluğa göre gösterdiği tahammül yolları sırasıyla aşağıdakilerden hangisidir?",
+   "c": [
+    "Kıraat – semâ’ – icâzet",
+    "Semâ’ – icâzet – münâvele",
+    "Semâ’ – kıraat – vicâde",
+    "İcâzet – kıraat – mükâtebe",
+    "Semâ’ – münâvele – vasiyyet"
+   ],
+   "d": 2,
+   "a": "“Haddesenâ” semâ’, “ahberanâ” çoğunlukla kıraat (arz), “vecedtü bi-hattı” (el yazısıyla buldum) ise vicâde yolunu gösterir.",
+   "ac": [
+    "İlk ifade semâ’yı gösterir; sıra yanlıştır.",
+    "“Ahberanâ” icâzet değil kıraat için kullanılır; üçüncüsü münâvele değil vicâdedir.",
+    "Doğru sıralama budur.",
+    "“Haddesenâ” icâzet değildir; üçüncü ifade mükâtebe değil vicâdedir.",
+    "“Ahberanâ” münâvele lafzı değildir; vasiyyette “evsâ ileyye” denir."
+   ],
+   "kay": "Konu: Edâ sîgaları"
+  },
+  {
+   "id": "hd2-05",
+   "z": 3,
+   "s": "Buhârî ve Müslim, “an fülân” ifadesiyle yapılan (mu’an’an) rivayetlerin muttasıl sayılması için farklı şartlar ileri sürmüştür.\n\nBu farkı en doğru ifade eden seçenek aşağıdakilerden hangisidir?",
+   "c": [
+    "Buhârî iki râvinin aynı dönemde yaşamasını yeterli görür; Müslim en az bir kez karşılaşmalarını şart koşar.",
+    "Müslim mu’an’an rivayetleri reddeder; Buhârî müdellislerden gelen mu’an’an rivayetleri de kabul eder.",
+    "Her ikisi de mu’an’an rivayeti hiçbir şartla kabul etmez.",
+    "Buhârî yalnızca semâ’ ile alınmış rivayetleri, Müslim yalnızca kıraatle alınmışları kabul eder.",
+    "Buhârî en az bir kez karşılaşmalarını (likâ) şart koşar; Müslim aynı dönemde yaşamalarını (muâsara) ve karşılaşma imkânını yeterli görür."
+   ],
+   "d": 4,
+   "a": "Buhârî (ve hocası Ali b. el-Medînî) râvi ile hocası arasında en az bir defa karşılaşma (likâ) şartı arar; Müslim ise muâsarayı ve karşılaşma imkânını yeterli görür. Bu, Buhârî’nin şartlarının daha ağır sayılmasının sebeplerindendir.",
+   "ac": [
+    "Şartlar ters verilmiştir.",
+    "Müslim mu’an’anı reddetmez; müdellisten gelen mu’an’an ise ikisinde de şüphelidir.",
+    "İkisi de belirli şartlarla mu’an’an rivayeti kabul eder.",
+    "İki müellif de farklı tahammül yollarını kabul eder; ayrım bu değildir.",
+    "Doğru: likâ Buhârî’nin, muâsara Müslim’in şartıdır."
+   ],
+   "kay": "Müslim, Mukaddime; İbn Hacer, Nüzhetü’n-nazar"
+  },
+  {
+   "id": "hd2-06",
+   "z": 2,
+   "s": "Hadis ilmindeki derin vukufu ve liyakati sebebiyle bu ilimde önder kabul edilen âlimlere verilen en yüksek unvan aşağıdakilerden hangisidir?",
+   "c": [
+    "Hâfız",
+    "Müsnid",
+    "Hüccet",
+    "Şeyhu’l-İslam",
+    "Emîrü’l-mü’minîn fi’l-hadîs"
+   ],
+   "d": 4,
+   "a": "Hadiste önder sayılan âlimlere verilen en yüksek unvan emîrü’l-mü’minîn fi’l-hadîstir; Şu’be, Sevrî, Buhârî, Dârekutnî ve İbn Hacer bu unvanla anılır.",
+   "ac": [
+    "Hâfız üst düzey bir unvandır ama en yükseği değildir.",
+    "Müsnid hadisi senediyle rivayet edendir; alt düzey bir unvandır.",
+    "Hüccet hâfızdan üstündür ama tanımlanan zirve unvan değildir.",
+    "Şeyhu’l-İslam bir ilmî-idari unvandır; hadise özgü değildir.",
+    "Doğru: hadiste önderlik unvanıdır."
+   ],
+   "kay": "Konu: Hadisçilerin unvanları"
+  },
+  {
+   "id": "hd2-07",
+   "z": 3,
+   "s": "Hadisçilerin unvanları, bilgi düzeyine göre en alttan en üste doğru aşağıdakilerin hangisinde doğru sıralanmıştır?",
+   "c": [
+    "Müsnid – tâlib – hâfız – muhaddis – hüccet",
+    "Tâlib – müsnid – muhaddis – hâfız – hüccet",
+    "Tâlib – muhaddis – müsnid – hüccet – hâfız",
+    "Müsnid – muhaddis – tâlib – hâfız – hüccet",
+    "Tâlib – hâfız – müsnid – muhaddis – hüccet"
+   ],
+   "d": 1,
+   "a": "Genel kabul gören sıralama: tâlib (öğrenci) → müsnid (senediyle rivayet eden) → muhaddis → hâfız → hüccet (→ hâkim).",
+   "ac": [
+    "Tâlib en alttadır; müsnidden önce gelir.",
+    "Doğru sıralama budur.",
+    "Müsnid muhaddisten alttadır; hâfız da hüccetten alttadır.",
+    "Tâlib en alttadır.",
+    "Hâfız muhaddis ve müsnidden üstündür."
+   ],
+   "kay": "Konu: Hadisçilerin unvanları"
+  },
+  {
+   "id": "hd2-08",
+   "z": 3,
+   "s": "Bir araştırmacı, aynı tabakada bulunan ve yaşça birbirine yakın iki râvinin karşılıklı olarak birbirinden hadis rivayet ettiğini tespit etmiştir.\n\nBu rivayet türü aşağıdakilerden hangisiyle adlandırılır?",
+   "c": [
+    "Mudebbec",
+    "Rivâyetü’l-ekâbir ani’l-esâğır",
+    "Müselsel",
+    "Rivâyetü’l-âbâ ani’l-ebnâ",
+    "Mu’an’an"
+   ],
+   "d": 0,
+   "a": "Akran iki râvinin karşılıklı olarak birbirinden rivayet etmesine mudebbec denir; tek taraflıysa rivâyetü’l-akrândır.",
+   "ac": [
+    "Doğru: karşılıklı akran rivayeti mudebbectir.",
+    "Bu, büyüğün küçükten rivayetidir; karşılıklılık yoktur.",
+    "Müselsel, râvilerin aynı söz veya hâli tekrarladığı rivayettir.",
+    "Bu, babanın oğuldan rivayetidir.",
+    "Mu’an’an “an” lafzıyla yapılan rivayettir."
+   ],
+   "kay": "Konu: Râvi ilişkileri terimleri"
+  },
+  {
+   "id": "hd2-09",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi hadis usulüne dair bir eser değildir?",
+   "c": [
+    "el-Muhaddisü’l-fâsıl beyne’r-râvî ve’l-vâ’î",
+    "el-İsâbe fî temyîzi’s-sahâbe",
+    "el-Kifâye fî ilmi’r-rivâye",
+    "Nuhbetü’l-fiker",
+    "Ma’rifetü ulûmi’l-hadîs"
+   ],
+   "d": 1,
+   "a": "el-İsâbe, İbn Hacer’in sahabe biyografilerini topladığı eserdir; usul eseri değildir.",
+   "ac": [
+    "Râmhürmüzî’nin ilk müstakil usul eseridir.",
+    "Doğru: el-İsâbe bir sahabe biyografisi (tabakat) eseridir.",
+    "Hatîb el-Bağdâdî’nin rivayet kurallarına dair usul eseridir.",
+    "İbn Hacer’in usul metnidir.",
+    "Hâkim en-Nîsâbûrî’nin usul eseridir."
+   ],
+   "kay": "Konu: Hadis usulü literatürü"
+  },
+  {
+   "id": "hd2-10",
+   "z": 3,
+   "s": "Hadis usulü literatürüyle ilgili şu bilgiler veriliyor:\nI. Bu alanda ilk müstakil eser Râmhürmüzî’ye aittir.\nII. İbnü’s-Salâh’ın Ulûmü’l-hadîs’i üzerine Nevevî ihtisar, Irâkî nazım çalışması yapmıştır.\nIII. Tedrîbü’r-râvî, İbn Hacer’in Nuhbetü’l-fiker’ine yazılmış bir şerhtir.\n\nBu bilgilerden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "İlk müstakil usul eseri Râmhürmüzî’nin el-Muhaddisü’l-fâsıl’ıdır; Mukaddime üzerine Nevevî et-Takrîb’i, Irâkî Elfiyye’yi yazmıştır. Tedrîbü’r-râvî ise Süyûtî’nin Takrîb şerhidir; Nuhbe’nin şerhi İbn Hacer’in kendi Nüzhetü’n-nazar’ıdır.",
+   "ac": [
+    "II de doğrudur.",
+    "III yanlıştır.",
+    "Doğru: I ve II doğrudur.",
+    "III yanlıştır.",
+    "III yanlış olduğu için üçü birden doğru olamaz."
+   ],
+   "kay": "Konu: Hadis usulü literatürü"
+  },
+  {
+   "id": "hd2-11",
+   "z": 2,
+   "s": "Hadis ilminin, rivayetlerin kabul ve ret bakımından incelenmesini, râvilerin ve rivayetin durumunu konu edinen; hadis usulü veya mustalahu’l-hadîs adlarıyla da anılan kısmı aşağıdakilerden hangisidir?",
+   "c": [
+    "İlmü rivâyeti’l-hadîs",
+    "Esbâbü vürûdi’l-hadîs",
+    "Garîbü’l-hadîs",
+    "İlmü dirâyeti’l-hadîs",
+    "Ricâlü’l-hadîs"
+   ],
+   "d": 3,
+   "a": "Rivayetin kabul ve ret yönünden incelenmesi dirâyet ilminin (hadis usulü) konusudur; rivâyet ilmi ise haberlerin doğru nakliyle ilgilenir.",
+   "ac": [
+    "Rivâyet ilmi haberlerin naklini konu alır.",
+    "Esbâb-ı vürûd hadisin söylenme sebebini inceler.",
+    "Garîbü’l-hadîs metindeki zor kelimelerle ilgilidir.",
+    "Doğru: kabul-ret incelemesi dirâyet ilmidir.",
+    "Ricâl ilmi râvilerin hayatını inceleyen bir alt daldır."
+   ],
+   "kay": "Konu: Rivâyet ve dirâyet ilmi"
+  },
+  {
+   "id": "hd2-12",
+   "z": 2,
+   "s": "Aşağıdaki hadis ilmi – konu eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Esbâbü vürûdi’l-hadîs – râvilerin doğum ve vefat tarihleri",
+    "Garîbü’l-hadîs – metinde geçen, anlaşılması zor ve az kullanılan kelimeler",
+    "Muhtelifü’l-hadîs – birbiriyle çelişkili gibi görünen hadisler",
+    "İlelü’l-hadîs – sahih görünen hadislerdeki gizli kusurlar",
+    "Nâsih ve mensûh – hükmü kaldıran ve kaldırılan hadisler"
+   ],
+   "d": 0,
+   "a": "Esbâb-ı vürûd hadisin söylenme sebebini inceler. Râvilerin doğum ve vefat tarihleri ricâl ilminin konusudur.",
+   "ac": [
+    "Yanlış eşleştirme: bu bilgi ricâl ilmine aittir.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme."
+   ],
+   "kay": "Konu: Ulûmü’l-hadîs"
+  },
+  {
+   "id": "hd2-13",
+   "z": 3,
+   "s": "Bir hoca, derste “Bu âlim, usulün hemen her konusunda müstakil eser yazmıştır; rivayet kurallarını bir eserinde, hoca ile talebenin uyması gereken âdâbı ise başka bir eserinde ele almıştır. Bu yüzden sonraki muhaddislerin ona muhtaç olduğu söylenmiştir.” demiştir.\n\nHocanın sözünü ettiği âlim ve eserleri aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Hâkim en-Nîsâbûrî – Ma’rifetü ulûmi’l-hadîs, el-Müstedrek",
+    "Hatîb el-Bağdâdî – el-Kifâye fî ilmi’r-rivâye, el-Câmi’ li-ahlâki’r-râvî ve âdâbi’s-sâmi’",
+    "İbnü’s-Salâh – Ulûmü’l-hadîs, et-Takrîb",
+    "Kadı İyâz – el-İlmâ’, eş-Şifâ",
+    "Süyûtî – Tedrîbü’r-râvî, el-Itkân"
+   ],
+   "d": 1,
+   "a": "Rivayet kurallarını el-Kifâye’de, hoca-talebe âdâbını el-Câmi’ li-ahlâki’r-râvî’de işleyen ve usulün her dalında eser veren âlim Hatîb el-Bağdâdî’dir.",
+   "ac": [
+    "Hâkim’in eserleri doğru olsa da âdâba dair eser bunlar arasında değildir; el-Müstedrek bir hadis derlemesidir.",
+    "Doğru: Hatîb el-Bağdâdî ve iki eseri.",
+    "et-Takrîb Nevevî’nindir.",
+    "el-İlmâ’ tahammül-edâ üzerinedir; eş-Şifâ Hz. Peygamber’in hakları üzerine bir eserdir.",
+    "el-Itkân Kur’an ilimlerine dair bir eserdir."
+   ],
+   "kay": "Hatîb el-Bağdâdî, el-Kifâye; el-Câmi’"
+  },
+  {
+   "id": "h1-02",
+   "z": 1,
+   "s": "Bir hadisin, onu birbirinden alarak Hz. Peygamber’e kadar ulaştıran kişilerin isimlerinden oluşan bölümüne ne ad verilir?",
+   "c": [
+    "Metin",
+    "Rihle",
+    "Muhaddis",
+    "Müsnid",
+    "Sened"
+   ],
+   "d": 4,
+   "a": "Hadisi taşıyan râviler zinciri senettir. Senedin ardından gelen söz, fiil veya takrîr ise metindir.",
+   "ac": [
+    "Metin, senedin ulaştırdığı sözün kendisidir.",
+    "Rihle, hadis için yapılan yolculuktur.",
+    "Muhaddis, hadisle uğraşan âlimdir.",
+    "Müsnid, hadisi senediyle rivayet eden kişidir; zincirin adı değildir.",
+    "Doğru: râviler zinciri senettir."
+   ],
+   "kay": "Hadis usulü: hadisin yapısı"
+  },
+  {
+   "id": "h1-17",
+   "z": 3,
+   "s": "Aşağıdaki ilimlerden hangisi öncelikle hadisin metniyle değil, senediyle ilgilenir?",
+   "c": [
+    "Nâsihu’l-hadîs ve mensûhu",
+    "Muhtelifü’l-hadîs",
+    "Garîbü’l-hadîs",
+    "Ricâlü’l-hadîs",
+    "Esbâbü vürûdi’l-hadîs"
+   ],
+   "d": 3,
+   "a": "Rical ilmi senetteki râvilerin hayatını, hocalarını ve talebelerini inceler. Diğerleri metnin anlamı, çelişkisi, hükmü ve söylenme sebebiyle ilgilenir.",
+   "ac": [
+    "Nâsih-mensûh, metindeki hükmün yürürlükte olup olmadığını inceler.",
+    "Muhtelifü’l-hadîs, metinler arasındaki görünürdeki çelişkiyi inceler.",
+    "Garîbü’l-hadîs, metindeki anlaşılması zor kelimeleri inceler.",
+    "Doğru: rical ilmi doğrudan senetteki kişileri inceler.",
+    "Esbâbü vürûd, metnin söylenme sebebini inceler."
+   ],
+   "kay": "Hadis usulü: ulûmü’l-hadîs"
+  },
+  {
+   "id": "h3-16",
+   "z": 3,
+   "s": "Aşağıdaki hadis usulü eseri – müellif eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Ma’rifetü ulûmi’l-hadîs – Hâkim en-Nîsâbûrî",
+    "Nuhbetü’l-fiker – İbn Hacer el-Askalânî",
+    "Ulûmü’l-hadîs (Mukaddime) – İbnü’s-Salâh",
+    "Tedrîbü’r-râvî – Buhârî",
+    "el-Kifâye fî ilmi’r-rivâye – Hatîb el-Bağdâdî"
+   ],
+   "d": 3,
+   "a": "Tedrîbü’r-râvî Celâleddîn es-Süyûtî’nin eseridir. Diğer eşleştirmeler doğrudur.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Yanlış: Tedrîbü’r-râvî Süyûtî’nindir.",
+    "Doğru eşleştirme."
+   ],
+   "kay": "Hadis usulü literatürü"
+  }
+ ]
+}

@@ -1,0 +1,877 @@
+{
+ "id": "kuran-4",
+ "ad": "Cem‘ ve İstinsah: Hz. Ebû Bekir ve Hz. Osman Dönemleri, Resm-i Osmânî, Nokta ve Hareke",
+ "ders": "Kur’an Bilgisi",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Hz. Ebû Bekir dönemi: Yemâme’den sonra gelen endişe"
+  },
+  {
+   "merak": "Hz. Ömer, halifeye bir teklifle geldi. Hz. Ebû Bekir’in ilk cevabı “Resûlullah’ın yapmadığı bir şeyi nasıl yaparım?” oldu. Peki onu ikna eden neydi?"
+  },
+  "Hz. Peygamber’in vefatından sonra Arap Yarımadası’nda irtidat (ridde) hareketleri ve yalancı peygamberler ortaya çıktı. Bunların en güçlüsü Müseylimetü’l-Kezzâb’dı. Hicretin 11. yılının sonu ile 12. yılının başında yapılan Yemâme Savaşı’nda Müseylime yenildi; ama Müslümanlar da ağır kayıp verdi. Şehitlerin arasında Kur’an’ı ezbere bilen çok sayıda sahabi (kurrâ) vardı. Rivayetlerde bu sayı yetmiş olarak geçer; daha yüksek rakamlar veren rivayetler de vardır.",
+  "Hz. Ömer, hafızların başka savaşlarda da şehit düşmesiyle Kur’an’ın bir kısmının kaybolabileceğinden endişe etti ve Hz. Ebû Bekir’e Kur’an’ı bir araya toplamayı teklif etti. Hz. Ebû Bekir önce çekindi; Hz. Peygamber’in yapmadığı bir işi yapmak istemiyordu. Hz. Ömer ısrar etti, sonunda Hz. Ebû Bekir bu işin hayır olduğuna kanaat getirdi. Görev, genç, akıllı, güvenilir ve Hz. Peygamber’in vahiy kâtibi olan Zeyd b. Sâbit’e verildi.",
+  {
+   "hadis": "Sen genç ve akıllı bir adamsın; seni hiçbir şeyle itham etmiyoruz. Sen Resûlullah’a vahiy yazıyordun. Kur’an’ı araştır ve topla.",
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3 (Hz. Ebû Bekir’in Zeyd’e sözü)"
+  },
+  "Zeyd, bu görevin ağırlığını “Bir dağı yerinden oynatmamı isteselerdi bu kadar ağır gelmezdi” sözleriyle anlatmıştır. Çalışmada çok titiz bir yöntem izlendi: Bir ayet ancak Hz. Peygamber’in huzurunda yazılmış bir belgeyle ve hafızlarda bulunmasıyla birlikte kabul edildi. Rivayetlerdeki “iki şahit” şartını âlimler, ya yazı ve ezber, ya da ayetin Hz. Peygamber’in huzurunda yazıldığına şahitlik eden iki kişi olarak yorumlamıştır. Zeyd kendisi hafız olduğu hâlde yalnız kendi hafızasıyla yetinmedi.",
+  "Bu titizliğin güzel bir örneği Tevbe Suresi’nin son iki ayetidir (128-129). Zeyd bu ayetleri ezbere bildiği ve birçok sahabi de bildiği hâlde, Hz. Peygamber’in huzurunda yazılmış belgeyi ancak Ebû Huzeyme el-Ensârî’de bulabildi. Benzer bir durum Hz. Osman dönemindeki istinsahta Ahzâb 23. ayet için yaşandı; o ayetin yazılı belgesi Huzeyme b. Sâbit’te bulundu. Huzeyme, şahitliği iki kişinin şahitliğine denk tutulduğu için “zü’ş-şehâdeteyn” lakabıyla anılır.",
+  {
+   "tablo": [
+    [
+     "Hz. Ebû Bekir dönemi cem‘i: künye",
+     ""
+    ],
+    [
+     "Tarih",
+     "Hicrî 12 (Yemâme Savaşı’ndan hemen sonra)"
+    ],
+    [
+     "Teklif eden",
+     "Hz. Ömer"
+    ],
+    [
+     "Sebep",
+     "Yemâme’de çok sayıda hafızın şehit olması; Kur’an’ın bir kısmının kaybolma endişesi"
+    ],
+    [
+     "Görevli",
+     "Zeyd b. Sâbit (Hz. Ömer’in de yardımı rivayet edilir)"
+    ],
+    [
+     "Yöntem",
+     "Her ayet için Hz. Peygamber’in huzurunda yazılmış belge + hafızlardaki karşılığı"
+    ],
+    [
+     "Sonuç",
+     "Sahifeler hâlinde (suhuf) tek nüsha; bu nüshaya “mushaf” adı verildiği rivayet edilir"
+    ],
+    [
+     "Nüshanın yolculuğu",
+     "Hz. Ebû Bekir → Hz. Ömer → Hz. Ömer’in kızı ve Hz. Peygamber’in eşi Hz. Hafsa"
+    ]
+   ]
+  },
+  {
+   "not": "Hz. Ebû Bekir’in topladığı nüsha bir “resmî metin” niteliğindeydi ama çoğaltılmadı; ümmetin genelinde okunuş birliği sağlamak amacı taşımıyordu. Bu nüsha, Hz. Osman döneminde mushafların çoğaltılmasında esas alındı."
+  },
+  {
+   "sinav": "“Hz. Ebû Bekir döneminde Kur’an’ın toplanmasının doğrudan sebebi” sorulduğunda cevap Yemâme Savaşı’nda hafızların şehit olmasıdır. Tuzaklar: Hz. Peygamber’in vefatı (arka plan), Ermeniye seferindeki okuyuş ihtilafı (Hz. Osman dönemi), ridde olayları (genel ortam)."
+  },
+  {
+   "akil": "Ebû Bekir dönemi = cem‘. Sebep: Yemâme. Teklif: Ömer. Görevli: Zeyd. Yöntem: yazı + ezber. Tevbe sonu Ebû Huzeyme’de. Suhuf: Ebû Bekir → Ömer → Hafsa."
+  },
+  {
+   "b": "2. Hz. Osman dönemi: Okuyuş birliği için istinsah"
+  },
+  {
+   "merak": "Ermenistan’da savaşan iki ordu birliği, Kur’an’ı farklı okudukları için birbirini suçlamaya başladı. Bu sahneyi gören bir sahabi, Medine’ye döner dönmez halifenin kapısını çaldı."
+  },
+  "Hz. Osman döneminde İslam toprakları hızla genişledi. Farklı şehirlerde farklı sahabilerden Kur’an öğrenen Müslümanlar vardı: Kûfeliler Abdullah b. Mes’ûd’un, Şamlılar Ubey b. Ka’b’ın, Basralılar Ebû Mûsâ el-Eş’arî’nin okuyuşunu izliyordu. Hz. Peygamber’in izin verdiği yedi harf ruhsatına dayanan bu farklılıkları, sahabeyi görmemiş yeni nesiller bir çatışma konusu yapmaya başladı.",
+  "Hicrî 25 yılı civarında Ermeniye ve Azerbaycan seferine katılan Huzeyfe b. Yemân, Iraklı ve Şamlı askerlerin okuyuş farklılıkları yüzünden birbirini suçladığını gördü. Medine’ye dönünce Hz. Osman’a, Yahudi ve Hristiyanların kitapları hakkında düştükleri ihtilafa bu ümmet de düşmeden bir önlem alınmasını söyledi.",
+  "Hz. Osman, Hz. Hafsa’dan Hz. Ebû Bekir döneminde toplanan suhufu istetti ve dört kişilik bir heyet kurdu: Zeyd b. Sâbit (Ensar’dan, başkan), Abdullah b. Zübeyr, Saîd b. Âs ve Abdurrahman b. Hâris b. Hişâm (üçü de Kureyşli). Heyete şu talimat verildi: Bir kelimenin yazımında Zeyd ile Kureyşliler arasında ihtilaf olursa Kureyş lehçesine göre yazılacak; çünkü Kur’an Kureyş lehçesiyle inmiştir. Rivayete göre böyle bir ihtilaf “tâbût” kelimesinde yaşandı; Zeyd “tâbûh”, Kureyşliler “tâbût” dedi ve Kureyş’in yazımı tercih edildi.",
+  {
+   "hadis": "Siz ve Zeyd b. Sâbit Kur’an’dan bir şeyde ihtilafa düşerseniz onu Kureyş diliyle yazın; çünkü Kur’an onların diliyle inmiştir.",
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3 (Hz. Osman’ın talimatı)"
+  },
+  "Hazırlanan nüshalar İslam dünyasının merkezlerine gönderildi. Her nüshayla birlikte, o şehirde Kur’an’ı bu nüshaya göre öğretecek bir kâri de yollandı. Böylece metin yazıyla, okuyuş ise canlı öğretimle aktarıldı. Medine’de kalan nüshaya “el-Mushafü’l-imâm” denir. Hz. Osman, mushaflar gönderildikten sonra şahsi nüshaların ve sahifelerin yakılmasını istedi; sahabenin çoğunluğu bunu onayladı. Hz. Ali’nin “Osman bunu ancak bizim istişaremizle yaptı” dediği rivayet edilir. Abdullah b. Mes’ûd başta itiraz etse de sonra bu birliğe katıldı. Hz. Hafsa’daki suhuf ise kendisine geri verildi; Hafsa’nın vefatından sonra Medine valisi Mervân b. Hakem tarafından imha edildi.",
+  {
+   "tablo": [
+    [
+     "Hz. Osman’ın nüshaları",
+     ""
+    ],
+    [
+     "Sayı",
+     "Rivayetlerde 4, 5, 6 ya da 7 nüsha geçer; yaygın görüş 6 ya da 7"
+    ],
+    [
+     "Gönderildiği yerler (yaygın liste)",
+     "Mekke, Şam, Kûfe, Basra; bazı rivayetlerde Yemen ve Bahreyn; bir nüsha Medine’de kaldı (el-Mushafü’l-imâm)"
+    ],
+    [
+     "Nüshalarla gönderilen kâriler",
+     "Mekke: Abdullah b. Sâib; Şam: Muğîre b. Ebî Şihâb; Kûfe: Ebû Abdurrahman es-Sülemî; Basra: Âmir b. Abdülkays; Medine’de: Zeyd b. Sâbit"
+    ],
+    [
+     "Bugün",
+     "İstanbul (Topkapı, Türk ve İslam Eserleri Müzesi), Taşkent ve Kahire gibi yerlerde Hz. Osman’a nispet edilen erken dönem mushaflar bulunur; bunların Hz. Osman’ın bizzat gönderdiği nüshalar olup olmadığı tartışmalıdır"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Nüshaların sayısı ve kârilerin listesi rivayetlere göre değişir. Topkapı ve Taşkent mushaflarının Hz. Osman’ın gönderdiği asıl nüshalar olduğu kesin değildir; uzmanlar bunları erken dönem (çoğunlukla hicrî 1. asrın sonu – 2. asır) nüshaları olarak değerlendirir."
+  },
+  {
+   "akil": "Kureyş lehçesi esas alındı; nüshalar şehirlere bir kâriyle gönderildi. Okuyuş birliği öğretimle de sağlandı: Mekke’ye Abdullah b. Sâib, Şam’a Mugîre b. Ebî Şihâb, Kûfe’ye Ebû Abdirrahman es-Sülemî, Basra’ya Âmir b. Abdilkays."
+  },
+  {
+   "b": "İki dönemin karşılaştırması"
+  },
+  {
+   "merak": "“Kur’an’ı ilk kim topladı: Ebû Bekir mi, Osman mı?” Bu soru, Müslümanların asırlardır tartıştığı bir sorudur. Cevap, “toplamak” kelimesinden ne anladığınıza bağlı."
+  },
+  {
+   "tablo": [
+    [
+     "",
+     "Hz. Ebû Bekir dönemi",
+     "Hz. Osman dönemi"
+    ],
+    [
+     "Adı",
+     "Cem‘ (cem‘-i Kur’an)",
+     "İstinsah (çoğaltma); bazı kaynaklarda cem‘-i sânî"
+    ],
+    [
+     "Tarih",
+     "h. 12",
+     "h. 25 civarı"
+    ],
+    [
+     "Sebep",
+     "Yemâme’de hafızların şehit olması",
+     "Fetih bölgelerinde okuyuş farklılıklarının çatışmaya dönüşmesi"
+    ],
+    [
+     "Teklif eden",
+     "Hz. Ömer",
+     "Huzeyfe b. Yemân"
+    ],
+    [
+     "Amaç",
+     "Kur’an’ı kaybolmaktan korumak; dağınık parçaları bir araya getirmek",
+     "Ümmeti tek bir resmî metin etrafında birleştirmek"
+    ],
+    [
+     "Görevli",
+     "Zeyd b. Sâbit",
+     "Zeyd b. Sâbit başkanlığında dört kişilik heyet"
+    ],
+    [
+     "Kaynak",
+     "Yazılı belgeler ve hafızlar",
+     "Hz. Hafsa’daki suhuf (karşılaştırma ile)"
+    ],
+    [
+     "Lehçe talimatı",
+     "Yok",
+     "İhtilafta Kureyş lehçesi"
+    ],
+    [
+     "Sonuç",
+     "Tek nüsha (suhuf)",
+     "Çoğaltılıp merkezlere gönderilen mushaflar; şahsi nüshaların imhası"
+    ]
+   ]
+  },
+  {
+   "not": "Bazı âlimler Kur’an’ın “toplanması”nı üç aşamada anlatır: Hz. Peygamber dönemi (hıfz ve yazı), Hz. Ebû Bekir dönemi (tek nüsha hâlinde bir araya getirme), Hz. Osman dönemi (çoğaltma ve okuyuş birliği). Hz. Ali’nin kendi nüshasını iniş sırasına göre tuttuğu rivayet edilir; ama Hz. Ali döneminde resmî bir cem‘ yapılmamıştır."
+  },
+  {
+   "sinav": "I-II-III sorularında en çok yanlış öncül: “Kur’an ilk defa Hz. Osman döneminde yazıya geçirilmiştir.” Yanlış; Hz. Peygamber döneminde yazılmıştı. Bir başka yanlış öncül: “Hz. Osman döneminde Hafsa’daki suhuf yakılmıştır.” Yanlış; suhuf Hafsa’ya iade edilmiş, ölümünden sonra Mervân imha etmiştir. Heyet sorusunda yanıltıcı isim çoğunlukla Abdullah b. Mes’ûd ya da Ubey b. Ka’b olur."
+  },
+  {
+   "akil": "Osman dönemi = istinsah. Sebep: Huzeyfe’nin Ermeniye-Azerbaycan gözlemi. Heyet: Zeyd + İbn Zübeyr + Saîd b. Âs + Abdurrahman b. Hâris. Kural: Kureyş lehçesi. Medine nüshası: el-Mushafü’l-imâm."
+  },
+  {
+   "b": "Sahabe mushafları ve Hz. Osman’ın kararı"
+  },
+  {
+   "merak": "Kûfe’de İbn Mes’ûd’un mushafını okuyan bir öğrenci, Dımaşk’ta Ubey’in mushafını gören bir başkasıyla karşılaşırsa ne olurdu? Sureler farklı sırada, bazı sayfalarda tefsir notları, bazılarında dualar…"
+  },
+  "Hz. Peygamber döneminde ve sonrasında bazı sahabiler kendileri için özel nüshalar edinmişti. Bunların en tanınmışları Abdullah b. Mes’ûd, Ubey b. Ka’b, Hz. Ali, Ebû Mûsâ el-Eş‘arî ve Mikdâd b. Esved’in mushaflarıdır. Bu nüshalar şahsi kullanım içindi: Sahibinin işittiği açıklama ve tefsir notlarını, bazen dua metinlerini de içerebiliyordu; sure sıraları da birbirinden farklıydı. Rivayetlere göre İbn Mes’ûd’un mushafında Fâtiha ve Muavvizeteyn (Felak ve Nâs) yazılı değildi; o bunları Kur’an’dan saymadığı için değil, herkesçe ezbere bilindiği için yazmaya gerek görmemiştir. Ubey’in mushafında ise kunut duaları olan Hal‘ ve Hafd sureleri diye anılan iki dua bulunduğu nakledilir. Hz. Ali’nin mushafının nüzul sırasına göre düzenlendiği rivayet edilir.",
+  "Hz. Osman resmî nüshaları gönderdikten sonra, bunlara aykırı şahsi nüshaların imha edilmesini istedi. Amaç, okunuşu bölen farklılıkları ortadan kaldırmak ve bütün ümmeti Hz. Peygamber’in son arzasına dayanan tek bir metin etrafında birleştirmekti. Hz. Ali’nin “Osman bu işi bizim istişaremizle yaptı; ben onun yerinde olsaydım ben de aynısını yapardım” anlamındaki sözü, kararın sahabe tarafından benimsendiğini gösterir. İbn Mes’ûd başlangıçta heyete alınmamasından üzüntü duymuş, sonra resmî mushafı kabul etmiştir.",
+  {
+   "tablo": [
+    [
+     "Sahabe mushafı",
+     "Rivayet edilen özellik"
+    ],
+    [
+     "Abdullah b. Mes’ûd (Kûfe)",
+     "Fâtiha ve Muavvizeteyn yazılmamıştı; sure sırası farklıydı"
+    ],
+    [
+     "Ubey b. Ka’b (Şam)",
+     "Hal‘ ve Hafd adlı iki kunut duası bulunuyordu"
+    ],
+    [
+     "Hz. Ali",
+     "Nüzul sırasına göre düzenlendiği rivayet edilir"
+    ],
+    [
+     "Ebû Mûsâ el-Eş‘arî (Basra)",
+     "Basralıların okuduğu nüsha"
+    ],
+    [
+     "Hz. Osman mushafı (İmam)",
+     "Resmî nüsha; ümmetin icmaıyla kabul edildi"
+    ]
+   ]
+  },
+  {
+   "sinav": "“İbn Mes’ûd Muavvizeteyn’i Kur’an’dan saymıyordu” ifadesi sınavda yanlış öncül olarak verilir; doğrusu, bilindiği için yazmaya gerek görmediğidir. Hz. Osman’ın kendi nüshasına “mushaf-ı imam” denir. Şahsi nüshaların imhası suhuf ile karıştırılmamalı: Ebû Bekir dönemi suhufu Hafsa’dadır, Mervân döneminde imha edilmiştir."
+  },
+  {
+   "akil": "Sahabe mushafları şahsi nüshalardı: notlar, dualar, farklı sure sırası. Hz. Osman okuyuş birliği için bunları kaldırdı; Ali bu kararı destekledi. Resmî nüsha = mushaf-ı imam."
+  },
+  {
+   "b": "3. Resm-i Osmânî: Mushafın imlası"
+  },
+  {
+   "merak": "Fâtiha’daki “mâliki yevmi’d-dîn” bazı kıraatlerde “meliki” diye okunur. Mushaftaki yazı iki okuyuşa da nasıl izin verir?"
+  },
+  "Hz. Osman döneminde yazılan mushafların imlasına resm-i Osmânî (Osmanlı değil, Hz. Osman’a nispetle “Osmânî”) ya da kısaca resm (rasm) denir. Bu yazı noktasız ve harekesizdi; bazı kelimelerde günümüz Arapça imlasından farklı yazımlar bulunuyordu. Bu özellikler sayesinde tek bir yazım, sahih kabul edilen birden fazla okuyuşu içine alabildi. Örneğin Fâtiha 4’teki kelime mushafta elifsiz yazıldığı için hem “mâliki” hem “meliki” okunabilir.",
+  {
+   "tablo": [
+    [
+     "Resm-i Osmânî kuralı",
+     "Açıklama",
+     "Örnek"
+    ],
+    [
+     "Hazf (eksiltme)",
+     "Okunduğu hâlde bazı harflerin (özellikle elifin) yazılmaması",
+     "الرحمن ve العلمين kelimelerinde elif yazılmaz"
+    ],
+    [
+     "Ziyâde (ekleme)",
+     "Okunmayan bir harfin yazılması",
+     "مائة (mi’e) kelimesindeki elif; أولئك"
+    ],
+    [
+     "Hemze",
+     "Hemzenin farklı şekillerde ya da hiç yazılmaması",
+     "Kelimenin yapısına göre değişir"
+    ],
+    [
+     "Bedel (harf değişimi)",
+     "Bir harfin yerine başka bir harf yazılması",
+     "الصلوة، الزكوة، الحيوة kelimelerinde elif yerine vav"
+    ],
+    [
+     "Vasl ve fasl",
+     "Bazı kelimelerin bitişik ya da ayrı yazılması",
+     "Aynı ifadenin farklı yerlerde bitişik ya da ayrı yazılması"
+    ],
+    [
+     "İki kıraatli kelimeler",
+     "Birden fazla sahih okuyuşa uygun tek yazım",
+     "ملك يوم الدين"
+    ]
+   ]
+  },
+  "Resm-i Osmânî’nin hükmü konusunda âlimler tartışmıştır. Cumhura göre mushaf yazarken bu imlaya uymak gerekir; İmam Mâlik ve Ahmed b. Hanbel bu imlanın değiştirilmemesi gerektiğini açıkça söylemiştir. Bazı âlimler bu imlanın Hz. Peygamber’in gözetiminde oluştuğunu (tevkîfî), bazıları ise sahabenin yazı alışkanlığına dayandığını (ıstılâhî) savunmuştur. Resm-i Osmânî’ye uygunluk, sahih kıraatin üç şartından biridir (kıraat konusunda işlenir).",
+  {
+   "sinav": "“الصلوة kelimesinin vav ile yazılması” → bedel. “الرحمن kelimesinde elifin yazılmaması” → hazf. “مائة kelimesindeki okunmayan elif” → ziyâde. Soru “bir kelimenin birden fazla kıraate imkân vermesi”ni sorarsa cevap, resm-i Osmânî’nin noktasız-harekesiz ve kimi yerde elifsiz yazımıdır."
+  },
+  {
+   "akil": "Resm = Hz. Osman mushaflarının imlası. Kurallar: hazf, ziyâde, hemze, bedel, vasl-fasl. Noktasız-harekesiz olduğu için birden fazla sahih kıraati kapsar. Cumhura göre bu imlaya uymak gerekir."
+  },
+  {
+   "b": "4. Nokta ve hareke: Lahn tehlikesine karşı"
+  },
+  {
+   "merak": "Bir adam Tevbe Suresi’nin üçüncü ayetinde tek bir harekeyi yanlış okudu ve anlam “Allah müşriklerden de Resûlünden de uzaktır” hâline geldi. Bu hatayı duyan bir âlim, harekeleri işaretlemeye karar verdi."
+  },
+  "Fetihlerle birlikte Arap olmayan pek çok topluluk Müslüman oldu. Arapçayı sonradan öğrenen bu insanlar noktasız ve harekesiz mushafı okurken hata yapmaya başladı. Kur’an’ı yanlış okumaya lahn denir. Bu tehlike, mushafa önce i’râb (hareke) noktalarının, sonra harfleri birbirinden ayıran noktaların, en sonunda da bugünkü hareke işaretlerinin eklenmesine yol açtı.",
+  {
+   "tablo": [
+    [
+     "Aşama",
+     "Kim?",
+     "Ne yaptı?",
+     "Dönem"
+    ],
+    [
+     "1. Nakt-ı i’râb (hareke noktaları)",
+     "Ebü’l-Esved ed-Düelî (ö. 69/688)",
+     "Harekeleri renkli (çoğunlukla kırmızı) noktalarla gösterdi: harfin üstünde nokta = üstün, altında = esre, önünde (yanında) = ötre; iki nokta = tenvin",
+     "Basra valisi Ziyâd b. Ebîh’in isteğiyle, Muâviye dönemi"
+    ],
+    [
+     "2. İ’câm (harf noktaları)",
+     "Nasr b. Âsım el-Leysî ve Yahyâ b. Ya’mer",
+     "Yazılışı aynı olan harfleri (ب ت ث gibi) ayırt eden noktaları koydu",
+     "Irak valisi Haccâc b. Yûsuf’un isteğiyle, Abdülmelik b. Mervân dönemi"
+    ],
+    [
+     "3. Bugünkü hareke sistemi",
+     "Halîl b. Ahmed el-Ferâhîdî (ö. 175/791)",
+     "Üstün, esre, ötre işaretlerini harflerden türetti (küçük yatık elif, küçük ye, küçük vav); şedde, sükûn, hemze gibi işaretleri ekledi",
+     "Abbâsîler dönemi"
+    ]
+   ]
+  },
+  {
+   "not": "Sahabe ve tâbiûndan bazıları mushafa Kur’an dışında bir işaret eklenmesini önce hoş karşılamadı. Ama yanlış okumanın yaygınlaşması karşısında nokta ve harekelerin faydası görüldü ve genel kabul gördü. Ayet sonu işaretleri, aşr (onar ayet) işaretleri, cüz ve hizb işaretleri de zamanla eklendi."
+  },
+  {
+   "sinav": "En çok karıştırılan iki isim: Ebü’l-Esved ile Halîl b. Ahmed. Soru “harekeyi ilk kez nokta ile gösteren” derse Ebü’l-Esved; “bugün kullandığımız üstün, esre, ötre, şedde işaretlerini getiren” derse Halîl b. Ahmed. “Harfleri birbirinden ayıran noktalar” sorulursa Nasr b. Âsım ve Yahyâ b. Ya’mer. Haccâc bu işi yaptıran validir, kendisi yapmamıştır."
+  },
+  {
+   "akil": "Sıra: Ebü’l-Esved (i’râb noktası, kırmızı) → Nasr b. Âsım ve Yahyâ b. Ya’mer (harf noktası, Haccâc döneminde) → Halîl b. Ahmed (bugünkü hareke). Sebep: lahn."
+  },
+  {
+   "b": "5. Basma mushaflar ve Mushafları İnceleme"
+  },
+  {
+   "merak": "Avrupa’da basılan ilk Arapça mushaf neden hiç kullanılmadı? Hata dolu olduğu için… Müslümanlar mushafı basmaya ancak hatasız baskının güvencesi sağlandığında yöneldi."
+  },
+  "Kur’an yüzyıllarca el yazmasıyla çoğaltıldı. Osmanlı’da mushaf hattı büyük bir sanat hâline geldi; Hâfız Osman’ın (ö. 1110/1698) yazdığı mushaflar sonraki asırlarda örnek alındı. Matbaada basılan ilk mushaflar Avrupa’da (Venedik, Hamburg) hazırlandı ve hatalarla doluydu. İslam dünyasında ilk baskılar Rusya’daki Müslümanlar için St. Petersburg ve Kazan’da yapıldı. Osmanlı’da mushaf basımına XIX. yüzyılın ikinci yarısında izin verildi.",
+  {
+   "kontrol": "Basma mushafların tarihleri (Venedik 1537-38, Hamburg 1694, St. Petersburg 1787, Kazan 1803, Osmanlı’da Osman Bey matbaası 1874 civarı) kaynaklarda küçük farklarla verilir; sınavda bu ayrıntı nadiren sorulur."
+  },
+  "Bugün Türkiye’de basılan mushafların hatasız olmasını Diyanet İşleri Başkanlığı bünyesindeki Mushafları İnceleme ve Kıraat Kurulu denetler. Basılacak her mushaf bu kurulun incelemesinden geçer.",
+  {
+   "akil": "Hâfız Osman: Osmanlı mushaf hattının ustası. Bugün mushafları Diyanet’in Mushafları İnceleme ve Kıraat Kurulu denetler."
+  }
+ ],
+ "ozet": [
+  "Hz. Ebû Bekir döneminde (h. 12) Yemâme Savaşı’nda çok sayıda hafızın şehit olması üzerine Hz. Ömer’in teklifiyle Kur’an bir araya toplandı (cem‘).",
+  "Görevi Zeyd b. Sâbit üstlendi; çünkü genç, akıllı, güvenilir ve vahiy kâtibiydi. Hz. Ebû Bekir önce “Resûlullah’ın yapmadığı bir işi nasıl yaparım?” diye çekinmişti.",
+  "Cem‘de her ayet için Hz. Peygamber’in huzurunda yazılmış belge ve hafızlardaki karşılığı arandı. Tevbe 128-129’un yazılı belgesi yalnız Ebû Huzeyme el-Ensârî’de bulundu.",
+  "Toplanan suhuf Hz. Ebû Bekir’den Hz. Ömer’e, ondan Hz. Hafsa’ya geçti.",
+  "Hz. Osman döneminde (h. 25 civarı) Ermeniye-Azerbaycan seferinde okuyuş ihtilaflarını gören Huzeyfe b. Yemân’ın uyarısıyla mushaflar çoğaltıldı (istinsah).",
+  "İstinsah heyeti: Zeyd b. Sâbit (başkan), Abdullah b. Zübeyr, Saîd b. Âs, Abdurrahman b. Hâris b. Hişâm. İhtilafta Kureyş lehçesi esas alındı (tâbût örneği).",
+  "Hafsa’daki suhuf esas alındı ve ona iade edildi; Hafsa’nın vefatından sonra Mervân b. Hakem imha etti.",
+  "Nüshalar Mekke, Şam, Kûfe, Basra (ve rivayete göre Yemen, Bahreyn) gibi merkezlere birer kâriyle gönderildi; Medine’dekine el-Mushafü’l-imâm denir. Şahsi nüshalar yakıldı.",
+  "Ebû Bekir dönemi: koruma amaçlı, tek nüsha. Osman dönemi: okuyuş birliği amaçlı, çoğaltılmış nüshalar.",
+  "Kur’an Hz. Peygamber döneminde tamamen yazılmıştı; ilk defa Osman döneminde yazıldığı bilgisi yanlıştır.",
+  "Resm-i Osmânî, Hz. Osman mushaflarının imlasıdır; hazf, ziyâde, hemze, bedel (الصلوة), vasl-fasl kurallarıyla bilinir ve birden fazla sahih kıraati kapsayabilir.",
+  "Cumhura göre mushaf yazımında resm-i Osmânî’ye uymak gerekir; resme uygunluk sahih kıraatin şartlarındandır.",
+  "Ebü’l-Esved ed-Düelî harekeleri ilk kez (kırmızı) noktalarla gösterdi (nakt-ı i’râb).",
+  "Nasr b. Âsım ve Yahyâ b. Ya’mer, Haccâc döneminde benzer harfleri ayıran noktaları koydu (i’câm).",
+  "Halîl b. Ahmed bugünkü üstün, esre, ötre, şedde ve sükûn işaretlerini geliştirdi.",
+  "Türkiye’de mushafları Diyanet İşleri Başkanlığı Mushafları İnceleme ve Kıraat Kurulu denetler."
+ ],
+ "kartlar": [
+  {
+   "o": "Hz. Ebû Bekir dönemi cem‘inin sebebi",
+   "a": "Yemâme Savaşı’nda çok sayıda hafızın (kurrânın) şehit olması."
+  },
+  {
+   "o": "Cem‘i teklif eden ve yürüten",
+   "a": "Teklif: Hz. Ömer. Yürüten: Zeyd b. Sâbit."
+  },
+  {
+   "o": "Tevbe 128-129’un yazılı belgesi kimde bulundu?",
+   "a": "Ebû Huzeyme el-Ensârî’de."
+  },
+  {
+   "o": "Zü’ş-şehâdeteyn kimdir?",
+   "a": "Huzeyme b. Sâbit; şahitliği iki kişiye denk tutulmuştur. İstinsahta Ahzâb 23’ün belgesi onda bulundu."
+  },
+  {
+   "o": "Suhufun el değiştirmesi",
+   "a": "Hz. Ebû Bekir → Hz. Ömer → Hz. Hafsa; Hafsa’nın vefatından sonra Mervân imha etti."
+  },
+  {
+   "o": "Hz. Osman dönemindeki istinsahın sebebi ve uyaran sahabi",
+   "a": "Ermeniye-Azerbaycan seferindeki okuyuş ihtilafları; Huzeyfe b. Yemân."
+  },
+  {
+   "o": "İstinsah heyeti",
+   "a": "Zeyd b. Sâbit (başkan), Abdullah b. Zübeyr, Saîd b. Âs, Abdurrahman b. Hâris b. Hişâm."
+  },
+  {
+   "o": "İstinsahta ihtilaf olursa hangi lehçe esas alındı?",
+   "a": "Kureyş lehçesi (örnek: tâbût – tâbûh)."
+  },
+  {
+   "o": "el-Mushafü’l-imâm",
+   "a": "Hz. Osman’ın çoğalttığı nüshalardan Medine’de kalan nüsha."
+  },
+  {
+   "o": "Resm-i Osmânî’de الصلوة yazımı hangi kurala örnektir?",
+   "a": "Bedel: elif yerine vav yazılması."
+  },
+  {
+   "o": "Resm-i Osmânî’de الرحمن kelimesinde elifin yazılmaması",
+   "a": "Hazf (eksiltme)."
+  },
+  {
+   "o": "Harekeyi ilk kez nokta ile gösteren",
+   "a": "Ebü’l-Esved ed-Düelî (Ziyâd b. Ebîh’in isteğiyle)."
+  },
+  {
+   "o": "Harf noktalarını (i’câm) koyanlar",
+   "a": "Nasr b. Âsım ve Yahyâ b. Ya’mer (Haccâc döneminde)."
+  },
+  {
+   "o": "Bugünkü hareke işaretlerini getiren",
+   "a": "Halîl b. Ahmed el-Ferâhîdî (ö. 175/791)."
+  },
+  {
+   "o": "Türkiye’de basılan mushafları kim denetler?",
+   "a": "Diyanet İşleri Başkanlığı Mushafları İnceleme ve Kıraat Kurulu."
+  },
+  {
+   "o": "Mushaf-ı imam",
+   "a": "Hz. Osman’ın kendi yanında tuttuğu resmî nüsha"
+  },
+  {
+   "o": "İbn Mes’ûd mushafı",
+   "a": "Fâtiha ve Muavvizeteyn yazılmamıştı (bilindiği için)"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "k1-02",
+   "z": 1,
+   "s": "Kur’an’ın dağınık hâldeki yazılı parçalardan ve hafızlardan derlenerek tek bir nüsha hâlinde bir araya getirilmesi (cem‘) hangi halife döneminde gerçekleşmiştir?",
+   "c": [
+    "Hz. Ebû Bekir",
+    "Hz. Ali",
+    "Hz. Osman",
+    "Hz. Ömer",
+    "Muâviye"
+   ],
+   "d": 0,
+   "a": "Yemâme Savaşı’ndan sonra Hz. Ömer’in teklifiyle Hz. Ebû Bekir döneminde Zeyd b. Sâbit başkanlığında toplanmıştır.",
+   "ac": [
+    "Doğru: cem‘ Hz. Ebû Bekir dönemindedir.",
+    "Hz. Ali döneminde resmî bir cem‘ yapılmamıştır; onun iniş sırasına göre şahsi bir nüshası olduğu rivayet edilir.",
+    "Hz. Osman döneminde toplanmış olan nüsha esas alınarak çoğaltma (istinsah) yapılmıştır.",
+    "Teklif Hz. Ömer’indir; ama toplama Hz. Ebû Bekir’in halifeliğinde yapılmıştır.",
+    "Muâviye vahiy kâtiplerindendir; cem‘ onun döneminde olmamıştır."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3"
+  },
+  {
+   "id": "k1-16",
+   "z": 2,
+   "s": "Hz. Ebû Bekir döneminde Kur’an’ın tek bir nüsha hâlinde toplanmasına doğrudan sebep olan olay aşağıdakilerden hangisidir?",
+   "c": [
+    "Kudüs’ün fethedilmesi",
+    "Yemâme Savaşı’nda çok sayıda hafızın şehit düşmesi",
+    "Ermeniye seferinde okuyuş ihtilaflarının ortaya çıkması",
+    "Hz. Peygamber’in vefat etmesi",
+    "Ridde olaylarının başlaması"
+   ],
+   "d": 1,
+   "a": "Yemâme’de kurrânın şehit olması Hz. Ömer’i endişelendirmiş, onun teklifiyle cem‘ yapılmıştır.",
+   "ac": [
+    "Kudüs Hz. Ömer döneminde fethedilmiştir.",
+    "Doğru: Hz. Ömer’in teklifine bu olay yol açmıştır.",
+    "Bu, Hz. Osman dönemindeki istinsahın sebebidir.",
+    "Vefat arka plandır; doğrudan sebep değildir.",
+    "Ridde olayları genel ortamdır; Yemâme de bu olayların parçasıdır ama doğrudan sebep hafızların şehit olmasıdır."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3"
+  },
+  {
+   "id": "k1-09",
+   "z": 3,
+   "s": "Hz. Osman dönemindeki istinsah ile ilgili\nI. Ermeniye ve Azerbaycan seferinde okuyuş farklılıklarını gören Huzeyfe b. Yemân’ın uyarısı üzerine yapılmıştır.\nII. Heyetin ihtilafa düştüğü yerlerde Kureyş lehçesi esas alınmıştır.\nIII. Kur’an ilk defa bu dönemde yazıya geçirilmiştir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Kur’an Hz. Peygamber döneminden itibaren yazılıyordu ve Hz. Ebû Bekir döneminde tek nüsha hâlinde toplanmıştı; III yanlıştır.",
+   "ac": [
+    "II de doğrudur.",
+    "III yanlıştır.",
+    "Doğru: I ve II.",
+    "III yanlıştır.",
+    "III yanlıştır."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3"
+  },
+  {
+   "id": "k1-07",
+   "z": 2,
+   "s": "Kur’an harflerine bugün kullandığımız üstün, esre, ötre, sükûn ve şedde işaretlerini getiren âlim kimdir?",
+   "c": [
+    "Ebü’l-Esved ed-Düelî",
+    "Nasr b. Âsım",
+    "Yahyâ b. Ya’mer",
+    "Halîl b. Ahmed",
+    "Haccâc b. Yûsuf"
+   ],
+   "d": 3,
+   "a": "Bugünkü hareke sistemini Halîl b. Ahmed geliştirmiştir. Ebü’l-Esved renkli noktalarla i’râbı göstermiş, Nasr b. Âsım ve Yahyâ b. Ya’mer harf noktalarını koymuştur.",
+   "ac": [
+    "Harekeleri ilk kez renkli noktalarla gösteren odur; bugünkü işaretleri o getirmemiştir.",
+    "Harfleri ayıran noktaları (i’câm) koyanlardandır.",
+    "Harf noktalarını koyanlardandır.",
+    "Doğru: Halîl b. Ahmed el-Ferâhîdî.",
+    "Bu çalışmalar onun valiliği döneminde yaptırılmıştır; kendisi yapmamıştır."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: nokta ve hareke"
+  },
+  {
+   "id": "kb4-01",
+   "z": 2,
+   "s": "Hz. Ebû Bekir, Kur’an’ı toplama görevini Zeyd b. Sâbit’e verirken onu bu işe uygun bulmasının gerekçelerini sıralamıştır.\n\nAşağıdakilerden hangisi bu gerekçeler arasında yer almaz?",
+   "c": [
+    "Genç olması",
+    "Kureyş kabilesinden olması",
+    "Güvenilir olup hakkında bir şüphe bulunmaması",
+    "Hz. Peygamber’e vahiy kâtipliği yapmış olması",
+    "Akıllı olması"
+   ],
+   "d": 1,
+   "a": "Zeyd b. Sâbit Medineli (Ensar’dan) bir sahabidir; Kureyşli değildir. Hz. Ebû Bekir onun gençliğini, aklını, güvenilirliğini ve vahiy kâtipliğini saymıştır.",
+   "ac": [
+    "Rivayette sayılan bir gerekçedir.",
+    "Doğru cevap: Zeyd Ensar’dandır; Kureyşli olmak Osman dönemindeki diğer heyet üyelerinin özelliğidir.",
+    "Rivayette sayılan bir gerekçedir: “seni hiçbir şeyle itham etmiyoruz”.",
+    "Rivayette sayılan bir gerekçedir.",
+    "Rivayette sayılan bir gerekçedir."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3"
+  },
+  {
+   "id": "kb4-02",
+   "z": 2,
+   "s": "Hz. Ömer, Kur’an’ın bir araya toplanmasını teklif ettiğinde Hz. Ebû Bekir “Resûlullah’ın yapmadığı bir işi nasıl yaparım?” diyerek önce çekinmiş, sonra bu işin hayır olduğuna kanaat getirerek kabul etmiştir.\n\nHz. Ebû Bekir’in bu tutumu aşağıdakilerden hangisini en iyi yansıtır?",
+   "c": [
+    "Kur’an’ın toplanmasına karşı olduğunu",
+    "Kur’an’ın yazılmasını gereksiz bulduğunu",
+    "Hz. Ömer’e güvenmediğini",
+    "Hafızların sayısının yeterli olduğunu düşündüğünü",
+    "Dinde Hz. Peygamber’in yapmadığı bir işe girişmekte gösterdiği hassasiyeti"
+   ],
+   "d": 4,
+   "a": "Hz. Ebû Bekir’in ilk çekincesi, dinde yeni bir şey ortaya koyma endişesinden, yani sünnete bağlılık hassasiyetinden kaynaklanır. İşin maslahatını görünce kabul etmiştir.",
+   "ac": [
+    "Sonunda kabul etmiştir; karşı değildi.",
+    "Kur’an zaten yazılıydı; çekince yazıyla ilgili değildi.",
+    "Rivayette böyle bir şey yoktur; Hz. Ömer’in teklifini dinlemiş ve ikna olmuştur.",
+    "Rivayette böyle bir değerlendirme yoktur.",
+    "Doğru: tutumun özü bu hassasiyettir."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3"
+  },
+  {
+   "id": "kb4-03",
+   "z": 3,
+   "s": "Hz. Osman döneminde mushafları çoğaltmak üzere kurulan heyette aşağıdakilerden hangisi yer almamıştır?",
+   "c": [
+    "Zeyd b. Sâbit",
+    "Abdullah b. Zübeyr",
+    "Saîd b. Âs",
+    "Abdullah b. Mes’ûd",
+    "Abdurrahman b. Hâris b. Hişâm"
+   ],
+   "d": 3,
+   "a": "Heyet Zeyd b. Sâbit başkanlığında Abdullah b. Zübeyr, Saîd b. Âs ve Abdurrahman b. Hâris b. Hişâm’dan oluşuyordu. Abdullah b. Mes’ûd o sırada Kûfe’deydi ve başlangıçta bu işe itiraz etmişti.",
+   "ac": [
+    "Heyetin başkanıdır.",
+    "Heyet üyesidir (Kureyşli).",
+    "Heyet üyesidir (Kureyşli).",
+    "Doğru cevap: İbn Mes’ûd heyette yer almamıştır.",
+    "Heyet üyesidir (Kureyşli)."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3"
+  },
+  {
+   "id": "kb4-04",
+   "z": 2,
+   "s": "İstinsah sırasında heyet, Bakara Suresi’nde geçen bir kelimenin yazımında ihtilafa düşmüştür. Zeyd b. Sâbit kelimenin sonunu “h” ile, diğer üyeler “t” ile yazmak istemiş; mesele Hz. Osman’a götürülmüş ve “t” ile yazılmasına karar verilmiştir.\n\nBu kararda esas alınan ölçü aşağıdakilerden hangisidir?",
+   "c": [
+    "Kureyş lehçesine uygunluk",
+    "Hz. Ebû Bekir’in görüşü",
+    "Heyette çoğunluğun oyu",
+    "Şam halkının okuyuşu",
+    "Arap yazısının genel imla kuralları"
+   ],
+   "d": 0,
+   "a": "Hz. Osman heyete “ihtilaf ederseniz Kureyş diliyle yazın; Kur’an onların diliyle indi” demişti. “Tâbût” kelimesi bu kurala göre yazılmıştır.",
+   "ac": [
+    "Doğru: talimat Kureyş lehçesini esas almaktı.",
+    "Hz. Ebû Bekir o sırada hayatta değildi.",
+    "Üç Kureyşli üye çoğunluktaydı; ama karar çoğunluk oyu olarak değil, Kureyş lehçesi ölçüsüyle verildi.",
+    "Şam halkının okuyuşu ölçü alınmamıştır.",
+    "Resm-i Osmânî genel imla kurallarından bazı noktalarda ayrılır; ölçü lehçedir."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3"
+  },
+  {
+   "id": "kb4-05",
+   "z": 3,
+   "s": "Hz. Ebû Bekir ve Hz. Osman dönemlerindeki çalışmalarla ilgili\nI. Hz. Ebû Bekir dönemindeki çalışmanın amacı Kur’an’ı kaybolma tehlikesine karşı korumaktı.\nII. Hz. Osman dönemindeki çalışmanın amacı okuyuş farklılıklarından doğan ihtilafları gidermekti.\nIII. Her iki çalışmada da kaynak olarak yalnızca Hz. Hafsa’daki suhuf kullanılmıştır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Hz. Ebû Bekir döneminde kaynak, dağınık yazılı belgeler ve hafızlardı; Hafsa’daki suhuf zaten bu çalışmanın ürünüdür. III yanlıştır.",
+   "ac": [
+    "II de doğrudur.",
+    "I de doğrudur.",
+    "Doğru: I ve II.",
+    "III yanlıştır.",
+    "III yanlıştır: suhuf ilk çalışmanın sonucudur, kaynağı değildir."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3"
+  },
+  {
+   "id": "kb4-06",
+   "z": 2,
+   "s": "Fâtiha Suresi’nin dördüncü ayetindeki kelime bazı kıraat imamlarınca “mâliki”, bazılarınca “meliki” diye okunur. Mushaftaki yazım her iki okuyuşa da uygundur.\n\nBu durum en çok resm-i Osmânî’nin aşağıdaki özelliklerinden hangisiyle açıklanır?",
+   "c": [
+    "Bazı harflerin (elifin) yazılmaması ve yazının harekesiz olması",
+    "Kelimelerin bitişik ya da ayrı yazılması",
+    "Okunmayan bir harfin yazılması",
+    "Elif yerine vav yazılması",
+    "Hemzenin her yerde aynı şekilde yazılması"
+   ],
+   "d": 0,
+   "a": "Elifin yazılmaması (hazf) ve yazının harekesiz olması, tek bir yazımın birden fazla sahih kıraati kapsamasına imkân vermiştir.",
+   "ac": [
+    "Doğru: elifsiz ve harekesiz yazım iki okuyuşa da uygundur.",
+    "Vasl-fasl kuralı bitişik-ayrı yazımla ilgilidir; bu örneği açıklamaz.",
+    "Ziyâde kuralıdır; burada fazladan bir harf yoktur.",
+    "Bedel kuralıdır (الصلوة gibi); bu örnekle ilgili değildir.",
+    "Resm-i Osmânî’de hemze farklı biçimlerde yazılır; bu ifade de örneği açıklamaz."
+   ],
+   "kay": "Fâtiha, 1/4; resm-i Osmânî"
+  },
+  {
+   "id": "kb4-07",
+   "z": 2,
+   "s": "Basra valisi Ziyâd b. Ebîh’in isteğiyle bir âlim, mushaftaki harekeleri renkli noktalarla göstermiştir: harfin üstüne konan nokta üstünü, altına konan esreyi, önüne konan ötreyi; iki nokta da tenvini gösteriyordu.\n\nBu çalışmayı yapan âlim ve çalışmanın temel sebebi aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Halîl b. Ahmed – Arap yazısını güzelleştirmek",
+    "Ebü’l-Esved ed-Düelî – Kur’an’ın yanlış okunmasının (lahn) yaygınlaşması",
+    "Nasr b. Âsım – Benzer harflerin karıştırılması",
+    "Zeyd b. Sâbit – Mushafların çoğaltılması",
+    "Yahyâ b. Ya’mer – Kıraat farklılıklarını gidermek"
+   ],
+   "d": 1,
+   "a": "Hareke noktalarını (nakt-ı i’râb) ilk koyan Ebü’l-Esved ed-Düelî’dir. Sebep, Arap olmayan Müslümanların çoğalmasıyla yanlış okumanın yaygınlaşmasıdır.",
+   "ac": [
+    "Halîl bugünkü hareke işaretlerini getirmiştir; renkli noktaları değil. Sebep de estetik değildir.",
+    "Doğru: Ebü’l-Esved ve lahn tehlikesi.",
+    "Nasr b. Âsım harf noktalarını (i’câm) koymuştur; hareke noktalarını değil.",
+    "Zeyd istinsah heyetinin başkanıdır; nokta-hareke ile ilgisi yoktur.",
+    "Yahyâ b. Ya’mer harf noktalarını koyanlardandır."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: nokta ve hareke"
+  },
+  {
+   "id": "kb4-08",
+   "z": 3,
+   "s": "Mushafın okunmasını kolaylaştıran aşağıdaki çalışmalar tarih sırasına göre sıralanmak istenmektedir:\nI. Halîl b. Ahmed’in bugünkü hareke işaretlerini geliştirmesi\nII. Ebü’l-Esved ed-Düelî’nin harekeleri renkli noktalarla göstermesi\nIII. Nasr b. Âsım ve Yahyâ b. Ya’mer’in harf noktalarını koyması\n\nBu çalışmaların doğru sıralanışı aşağıdakilerden hangisidir?",
+   "c": [
+    "I – II – III",
+    "II – I – III",
+    "II – III – I",
+    "III – II – I",
+    "III – I – II"
+   ],
+   "d": 2,
+   "a": "Önce Ebü’l-Esved (Muâviye dönemi), sonra Nasr b. Âsım ve Yahyâ b. Ya’mer (Abdülmelik-Haccâc dönemi), en son Halîl b. Ahmed (Abbâsîler dönemi).",
+   "ac": [
+    "Halîl en sondadır.",
+    "Halîl, Nasr ve Yahyâ’dan sonradır.",
+    "Doğru sıralama budur.",
+    "Ebü’l-Esved ilk sıradadır.",
+    "Ebü’l-Esved ilk, Halîl son sıradadır."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: nokta ve hareke"
+  },
+  {
+   "id": "kb4-09",
+   "z": 2,
+   "s": "Mushafta “salât”, “zekât” ve “hayât” kelimeleri, okunuşta elif olan yerde vav harfiyle (الصلوة، الزكوة، الحيوة) yazılmıştır.\n\nResm-i Osmânî’deki bu kural aşağıdakilerden hangisidir?",
+   "c": [
+    "Hazf",
+    "Ziyâde",
+    "Vasl",
+    "Fasl",
+    "Bedel"
+   ],
+   "d": 4,
+   "a": "Bir harfin yerine başka bir harfin yazılmasına bedel denir. Bu kelimelerde elif yerine vav yazılmıştır.",
+   "ac": [
+    "Hazf, okunan bir harfin yazılmamasıdır.",
+    "Ziyâde, okunmayan bir harfin yazılmasıdır.",
+    "Vasl, kelimelerin bitişik yazılmasıdır.",
+    "Fasl, kelimelerin ayrı yazılmasıdır.",
+    "Doğru: bedel."
+   ],
+   "kay": "Resm-i Osmânî kuralları"
+  },
+  {
+   "id": "kb4-10",
+   "z": 2,
+   "s": "Zeyd b. Sâbit, Tevbe Suresi’nin son iki ayetini kendisi ve başka sahabiler ezbere bildiği hâlde, bu ayetlerin Hz. Peygamber’in huzurunda yazılmış belgesini arayıp ancak Ebû Huzeyme el-Ensârî’de bulduktan sonra nüshaya geçirmiştir.\n\nBu davranış aşağıdakilerden hangisini en iyi gösterir?",
+   "c": [
+    "Tevbe Suresi’nin son ayetlerinin sahabece bilinmediğini",
+    "Tevbe Suresi’nin Hz. Osman döneminde yazıldığını",
+    "Ebû Huzeyme’nin heyetin başkanı olduğunu",
+    "Cem‘ sırasında yalnız ezberin yeterli görülmediğini, yazılı belgenin de arandığını",
+    "Ayetlerin yerinin sahabe tarafından belirlendiğini"
+   ],
+   "d": 3,
+   "a": "Zeyd’in tutumu, cem‘ çalışmasında yazı ile ezberin birlikte arandığını ve çok titiz bir yöntem izlendiğini gösterir.",
+   "ac": [
+    "Ayetler biliniyordu; aranan yazılı belgeydi.",
+    "Olay Hz. Ebû Bekir dönemindeki cem‘ sırasında yaşanmıştır.",
+    "Heyetin başkanı Zeyd b. Sâbit’tir.",
+    "Doğru: titiz yöntemin bir örneğidir.",
+    "Ayetlerin yeri Hz. Peygamber tarafından belirlenmişti; bu olay belgeyle ilgilidir."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 3"
+  },
+  {
+   "id": "kb4-11",
+   "z": 1,
+   "s": "Hz. Osman’ın çoğalttığı mushafların gönderildiği merkezler arasında, yaygın rivayetlere göre aşağıdakilerden hangisi yer almaz?",
+   "c": [
+    "Mekke",
+    "Şam",
+    "Kûfe",
+    "Kurtuba",
+    "Basra"
+   ],
+   "d": 3,
+   "a": "Hz. Osman döneminde Endülüs fethedilmemişti; Kurtuba (Córdoba) ancak 711’den sonra İslam topraklarına katılmıştır. Nüshalar Mekke, Şam, Kûfe, Basra ve rivayete göre Yemen ile Bahreyn’e gönderilmiş, biri Medine’de kalmıştır.",
+   "ac": [
+    "Nüsha gönderilen merkezlerdendir.",
+    "Nüsha gönderilen merkezlerdendir.",
+    "Nüsha gönderilen merkezlerdendir.",
+    "Doğru: Kurtuba o dönemde İslam toprağı değildi.",
+    "Nüsha gönderilen merkezlerdendir."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: istinsah"
+  },
+  {
+   "id": "kb4-z01",
+   "z": 3,
+   "s": "Sahabe mushaflarıyla ilgili\nI. İbn Mes’ûd’un mushafında Felak ve Nâs surelerinin yazılmadığı rivayet edilir.\nII. Ubey b. Ka’b’ın mushafında Hal‘ ve Hafd diye anılan iki kunut duasının bulunduğu nakledilir.\nIII. Hz. Ali’nin mushafının nüzul sırasına göre düzenlendiği rivayet edilir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Üç bilgi de sahabe mushaflarıyla ilgili meşhur rivayetlerdir. Bu nüshalar şahsi olduğundan notlar ve dualar içerebiliyor, sure sıraları farklı olabiliyordu.",
+   "ac": [
+    "Eksiktir: II ve III de doğrudur.",
+    "Eksiktir: III de doğrudur.",
+    "Eksiktir: II de doğrudur.",
+    "Eksiktir: I de doğrudur.",
+    "Doğrudur: üç öncül de rivayetlerle sabittir."
+   ],
+   "kay": "Konu: Sahabe mushafları"
+  },
+  {
+   "id": "kb4-z02",
+   "z": 3,
+   "s": "Hz. Osman, hazırladığı nüshaları İslam dünyasının merkezlerine gönderdikten sonra, bunlara aykırı olan şahsi nüshaların imha edilmesini istemiştir. Hz. Ali bu karar hakkında “Ben onun yerinde olsaydım ben de aynısını yapardım.” demiştir.\n\nBu uygulamanın temel amacı aşağıdakilerden hangisidir?",
+   "c": [
+    "Ümmeti tek bir metin etrafında birleştirip okuyuş ayrılığını önlemek",
+    "Kur’an’ı kaybolma tehlikesinden korumak",
+    "Yedi harf ruhsatını büsbütün kaldırıp tek kıraat bırakmak",
+    "Mushafa nokta ve hareke eklemek",
+    "Surelerin nüzul sırasına göre dizilmesini sağlamak"
+   ],
+   "d": 0,
+   "a": "Hz. Osman döneminde Kur’an kaybolma tehlikesi değil, okuyuş ayrılığı tehlikesi vardı. İmha kararı, ümmetin son arzaya dayanan tek metinde birleşmesini amaçlar.",
+   "ac": [
+    "Doğrudur: amaç okuyuş birliğidir.",
+    "Bu, Hz. Ebû Bekir dönemindeki cem‘in amacıdır.",
+    "Resm birden fazla sahih kıraate imkân verir; tek kıraat bırakılmamıştır.",
+    "Nokta ve hareke daha sonra, Emevîler döneminde eklenmiştir.",
+    "Osman mushafları nüzul sırasına göre değil, tevkîfî ve bugünkü tertibe göre dizilmiştir."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân"
+  },
+  {
+   "id": "kb4-z03",
+   "z": 3,
+   "s": "Bakara Suresi 132. ayette bir kelime bazı sahih kıraatlerde “ve vessâ”, bazılarında “ve evsâ” diye okunur. Bu iki okuyuş tek bir yazımla gösterilemeyecek kadar farklıdır.\n\nHz. Osman döneminde bu tür kelimelerin yazımında izlenen yol aşağıdakilerden hangisidir?",
+   "c": [
+    "Kelime Hz. Ebû Bekir dönemi suhufundaki hâliyle değiştirilmeden yazılmış, ikinci okuyuş şâz sayılmıştır.",
+    "Kureyş lehçesine uygun olan yazılmış, diğeri tamamen terk edilmiştir.",
+    "İki okuyuş da aynı nüshada yan yana yazılmıştır.",
+    "Kelimenin yeri boş bırakılmış, okuyuş kârilere havale edilmiştir.",
+    "Bazı nüshalar bir okuyuşa, bazıları diğer okuyuşa göre yazılmıştır."
+   ],
+   "d": 4,
+   "a": "Resm iki okuyuşu da kapsayabiliyorsa tek yazımla yazılmış; kapsayamıyorsa farklı şehir nüshalarında farklı yazılarak iki sahih kıraat korunmuştur.",
+   "ac": [
+    "Her iki okuyuş da mütevâtirdir; biri şâz sayılmamıştır.",
+    "Her iki okuyuş da sahihtir; biri terk edilmemiştir.",
+    "Aynı nüshada iki yazım yan yana konmamıştır.",
+    "Mushafta boşluk bırakılması söz konusu değildir.",
+    "Doğrudur: şehir nüshaları arasındaki küçük yazım farkları buradan gelir."
+   ],
+   "kay": "Bakara, 2/132; Konu: Resm-i Osmânî"
+  },
+  {
+   "id": "kb4-z04",
+   "z": 3,
+   "s": "Hz. Ebû Bekir döneminde bir araya getirilen suhufun sırasıyla kimlerin elinde bulunduğu aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Ebû Bekir - Osman - Hafsa - Ali",
+    "Ebû Bekir - Zeyd b. Sâbit - Osman - Mervân",
+    "Ebû Bekir - Ömer - Hafsa - Mervân (imha)",
+    "Ebû Bekir - Ömer - Osman - Hafsa",
+    "Ebû Bekir - Âişe - Hafsa - Osman (imha)"
+   ],
+   "d": 2,
+   "a": "Suhuf Hz. Ebû Bekir’den sonra Hz. Ömer’e, onun vefatıyla kızı Hz. Hafsa’ya geçti. Hz. Osman istinsah için alıp geri verdi. Hafsa’nın vefatından sonra Medine valisi Mervân b. Hakem imha etti.",
+   "ac": [
+    "Hz. Osman suhufu yalnız istinsah için ödünç almıştır; Ali’ye geçmemiştir.",
+    "Zeyd suhufun sahibi olmamıştır.",
+    "Doğrudur.",
+    "Osman suhufu Hafsa’dan almıştır; sıralama yanlıştır.",
+    "Suhuf Hz. Âişe’de bulunmamıştır."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân"
+  },
+  {
+   "id": "kb4-z05",
+   "z": 3,
+   "s": "Aşağıdaki kişi - Kur’an tarihindeki katkısı eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Ebü’l-Esved ed-Düelî - Harekeleri renkli noktalarla göstermek",
+    "Huzeyfe b. Yemân - Hz. Osman dönemindeki istinsah heyetine başkanlık etmek",
+    "Halîl b. Ahmed - Bugün kullanılan hareke işaretlerini geliştirmek",
+    "Nasr b. Âsım ve Yahyâ b. Ya‘mer - Benzer harfleri noktalarla ayırmak",
+    "Hâfız Osman - Osmanlı mushaf hattında örnek alınan mushaflar yazmak"
+   ],
+   "d": 1,
+   "a": "Huzeyfe b. Yemân, okuyuş farklılıklarını görüp Hz. Osman’ı uyaran sahabidir; heyetin başkanı Zeyd b. Sâbit’tir.",
+   "ac": [
+    "Doğrudur: i’râb noktaları onundur.",
+    "Yanlıştır: Huzeyfe istinsaha sebep olan uyarıyı yapmıştır; başkan Zeyd’dir.",
+    "Doğrudur: üstün, esre, ötre, şedde, sükûn işaretleri ondandır.",
+    "Doğrudur: Haccâc döneminde i’câm (harf noktası) yapılmıştır.",
+    "Doğrudur: mushafları asırlarca örnek alınmıştır."
+   ],
+   "kay": "Konu: Nokta-hareke ve istinsah"
+  }
+ ]
+}

@@ -1,0 +1,1000 @@
+{
+ "id": "fikih-4",
+ "ad": "Fıkıh Tarihi, Mezhepler ve Fıkıh Literatürü (Dönemler; Hanefî Zâhirü’r-Rivâye Kitapları, Mebsût, Bedâi’, Hidâye, Kudûrî, Mecelle; Tabakat ve Fetva Usulü)",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Fıkhın doğuşu: Peygamber, sahabe ve tâbiîn dönemleri"
+  },
+  {
+   "merak": "Kıtlık yılında aç kalan birkaç kişi bir devenin etini çalmış, sahibi onları Hz. Ömer’e şikâyet etmişti. Ayet hırsızın elinin kesilmesini emrediyordu; ama Hz. Ömer el kesmedi, deve sahibine bedel ödetti. Sahabe döneminin fıkhı, nassın lafzı kadar amacını da gözeten bu kararlarla şekillendi."
+  },
+  "Fıkıh tarihi genellikle beş-altı döneme ayrılarak incelenir: Hz. Peygamber dönemi (teşrî’ dönemi), sahabe dönemi (11-40/632-661), tâbiîn dönemi (yaklaşık 1. asrın sonuna kadar), müctehid imamlar ve tedvin dönemi (2-4. asırlar), mezhep merkezli dönem (taklit, şerh ve tercih dönemi, 4-13. asırlar) ve kanunlaştırma (tedvin-i kavânîn) ile yeni dönem.",
+  "Hz. Peygamber döneminde hükümlerin kaynağı vahiydir. Mekke’de iman, ahlak ve ibadetin temelleri; Medine’de toplumsal ve hukukî hükümler ağırlık kazandı. Hz. Peygamber de içtihat ederdi; içtihadı vahiyle onaylanır ya da düzeltilirdi (Bedir esirleri meselesi). Sahabeye de içtihat izni verdi; Benî Kurayza’ya giderken “İkindiyi orada kılın” emrini bazı sahabîler lafzına, bazıları amacına göre anladı ve Peygamberimiz ikisini de kınamadı. Bu dönemin özellikleri: hükümlerin tedricen gelmesi, kolaylık, az yükümlülük, vahyin hükümleri hemen düzeltmesi.",
+  "Sahabe döneminde vahiy kesildi, ama fetihlerle yeni sorunlar çoğaldı. Sahabe önce Kitab’a, sonra sünnete bakar, bulamazsa istişare eder ve içtihada başvururdu; Hz. Ebû Bekir ve Hz. Ömer önemli meseleleri ileri gelen sahabîlerle tartışırdı, böylece icmâ doğdu. Hz. Ömer’in içtihatları ünlüdür: müellefe-i kulûba zekâttan pay verilmesini durdurması, Irak’ın Sevâd arazisini gazilere dağıtmayıp devlet mülkü olarak bırakması (harac), kıtlık yılında hırsızlık cezasını uygulamaması, bir mecliste verilen üç talakı üç saymaya başlaması. Fetva veren sahabîler arasında Hz. Ömer, Hz. Ali, İbn Mes’ûd, Hz. Âişe, Zeyd b. Sâbit, İbn Abbas ve İbn Ömer çok fetva verenler (müksirûn) olarak anılır.",
+  {
+   "tablo": [
+    [
+     "Şehir",
+     "Etkili sahabî",
+     "Sonraki ekol"
+    ],
+    [
+     "Medine",
+     "Hz. Ömer, Zeyd b. Sâbit, İbn Ömer, Hz. Âişe",
+     "Ehl-i hadis ağırlıklı Hicaz ekolü → Mâlik"
+    ],
+    [
+     "Mekke",
+     "İbn Abbas",
+     "Atâ b. Ebû Rebâh, Mücâhid"
+    ],
+    [
+     "Kûfe",
+     "Abdullah b. Mes’ûd, Hz. Ali",
+     "Ehl-i re’y: Alkame, Esved, Mesrûk, Kadı Şureyh, İbrâhim en-Nehaî, Hammâd b. Ebû Süleyman → Ebû Hanîfe"
+    ],
+    [
+     "Basra",
+     "Ebû Mûsâ el-Eş’arî, Enes b. Mâlik",
+     "Hasan-ı Basrî, İbn Sîrîn"
+    ],
+    [
+     "Şam",
+     "Muâz b. Cebel, Ebü’d-Derdâ",
+     "Evzâî"
+    ],
+    [
+     "Mısır",
+     "Abdullah b. Amr b. el-Âs",
+     "Leys b. Sa’d"
+    ]
+   ]
+  },
+  "Tâbiîn döneminde iki büyük yaklaşım belirginleşti. Hicaz’da, özellikle Medine’de, hadis ve sahabe fetvalarının bolluğu ve meselelerin azlığı nedeniyle nassa bağlı ehl-i hadis yaklaşımı; Irak’ta, özellikle Kûfe’de, hadisin görece az, yeni meselelerin çok olması ve İbn Mes’ûd’un re’ye dayalı yöntemi nedeniyle illet ve kıyası öne çıkaran ehl-i re’y yaklaşımı güç kazandı. Ehl-i re’y henüz yaşanmamış meseleleri de varsayarak çözmüş (fıkh-ı takdîrî, “eraeyte” fıkhı), ehl-i hadis bunu hoş görmemiştir. Medine’nin yedi fakihi (fukahâ-i seb’a) bu dönemin simgesidir: Saîd b. el-Müseyyeb, Urve b. ez-Zübeyr, Kāsım b. Muhammed, Ebû Bekir b. Abdurrahman, Hârice b. Zeyd, Ubeydullah b. Abdullah b. Utbe ve Süleyman b. Yesâr.",
+  {
+   "sinav": "Hz. Ömer’in içtihatları (müellefe-i kulûb, Sevâd arazisi, kıtlık yılında el kesmeme, üç talak) maslahat ve makāsıd örneği olarak sorulur. Ehl-i re’y = Kûfe, İbn Mes’ûd, İbrâhim en-Nehaî, Hammâd; ehl-i hadis = Medine, yedi fakih. Fıkh-ı takdîrî (farazi fıkıh) Iraklıların, yani Hanefî geleneğinin özelliğidir."
+  },
+  {
+   "akil": "Peygamber döneminde kaynak vahiydir; sahabe Kitap, sünnet, istişare ve içtihatla hükmetti. Tâbiîn döneminde Medine ehl-i hadis, Kûfe ehl-i re’y merkezi oldu. Hz. Ömer’in içtihatları nassın amacını gözetmenin klasik örnekleridir."
+  },
+  {
+   "b": "2. Müctehid imamlar ve mezhepler"
+  },
+  {
+   "merak": "Hicrî ikinci asırda Kûfe’de bir kumaş tüccarı, talebeleriyle her meseleyi günlerce tartışır, varılan sonucu yazdırırdı. Aynı yıllarda Medine’de bir imam, kapısında kuyruk olan halka hadis okutuyordu. Bugün dünyanın yarısının ibadetini nasıl yaptığı, bu iki halkada şekillendi."
+  },
+  "Hicrî 2. ve 3. asırlar fıkhın altın çağıdır: Hadisler toplandı, fıkıh ve usul yazıya geçirildi (tedvin), mezhepler doğdu. Bu dönemde onlarca müctehid yaşadı; ama görüşleri öğrencileri tarafından sistemleştirilip aktarılanlar mezhep hâline geldi. Evzâî (Şam), Leys b. Sa’d (Mısır), Süfyân es-Sevrî (Kûfe), İbn Ebû Leylâ (Kûfe) ve Taberî (Cerîriyye) gibi büyük müctehidlerin mezhepleri ise zamanla kayboldu.",
+  {
+   "tablo": [
+    [
+     "Mezhep",
+     "İmam (vefat)",
+     "Merkez ve yöntem",
+     "Önemli talebe ve eserler",
+     "Bugünkü yayılım"
+    ],
+    [
+     "Hanefî",
+     "Ebû Hanîfe Nu’mân b. Sâbit (ö. 150/767)",
+     "Kûfe; ehl-i re’y; kıyas, istihsan, örf",
+     "Ebû Yûsuf (ö. 182), İmam Muhammed eş-Şeybânî (ö. 189), Züfer (ö. 158), Hasan b. Ziyâd (ö. 204); el-Fıkhu’l-ekber ve el-Âlim ve’l-müteallim akaide dairdir",
+     "Türkiye, Balkanlar, Kafkasya, Orta Asya, Afganistan, Pakistan, Hindistan"
+    ],
+    [
+     "Mâlikî",
+     "Mâlik b. Enes (ö. 179/795)",
+     "Medine; ehl-i hadis; Medine ameli, maslahat, sedd-i zerâi’",
+     "el-Muvatta’; İbnü’l-Kāsım, Sahnûn (el-Müdevvene)",
+     "Kuzey ve Batı Afrika, Endülüs (tarihte), Sudan"
+    ],
+    [
+     "Şâfiî",
+     "Muhammed b. İdrîs eş-Şâfiî (ö. 204/820)",
+     "Hicaz ve Irak sentezi; Bağdat’ta eski (kadîm), Mısır’da yeni (cedîd) görüş",
+     "er-Risâle, el-Ümm; Müzenî, Rebî’ b. Süleyman, Büveytî",
+     "Mısır, Endonezya, Malezya, Doğu Afrika, Yemen, Doğu Anadolu’nun bir kısmı"
+    ],
+    [
+     "Hanbelî",
+     "Ahmed b. Hanbel (ö. 241/855)",
+     "Bağdat; hadise sıkı bağlılık, zayıf hadisi kıyasa tercih",
+     "el-Müsned; mihne (Halku’l-Kur’ân) direnişi",
+     "Suudi Arabistan, Katar"
+    ],
+    [
+     "Zâhirî",
+     "Dâvûd b. Ali ez-Zâhirî (ö. 270/884)",
+     "Nassın zâhiri; kıyası ve ta’lîli reddeder",
+     "İbn Hazm, el-Muhallâ (Endülüs)",
+     "Bugün mezhep olarak yaşamıyor"
+    ],
+    [
+     "Ca’ferî",
+     "Ca’fer es-Sâdık (ö. 148/765)",
+     "İmâmiyye Şîası; imamın sözü sünnettir; kıyas yerine akıl",
+     "Kütüb-i erbaa",
+     "İran, Irak, Lübnan, Azerbaycan"
+    ],
+    [
+     "Zeydî",
+     "Zeyd b. Ali (ö. 122/740)",
+     "Hanefîliğe yakın; kıyas ve istihsanı kullanır",
+     "el-Mecmû’ (Müsnedü Zeyd)",
+     "Yemen"
+    ],
+    [
+     "İbâdî",
+     "Câbir b. Zeyd (Abdullah b. İbâd’a nispet)",
+     "Hâricîliğin ılımlı kolu",
+     "—",
+     "Umman, Kuzey Afrika’nın bir kısmı"
+    ]
+   ]
+  },
+  "Ebû Hanîfe’nin yöntemi şöyle özetlenir: Önce Kitap, sonra sahih sünnet, sonra sahabe sözleri (onların görüşlerinden birini seçer, dışına çıkmaz); İbrâhim en-Nehaî, Şa’bî gibi tâbiîne gelince “Onlar içtihat ettiyse ben de ederim” der. Ders halkasında meseleleri talebeleriyle tartışarak karara bağlaması, Hanefî mezhebini bir “şûrâ mezhebi” yaptı. Ebû Yûsuf, Abbâsî halifesi Hârûnürreşîd döneminde ilk kādi’l-kudât (başkadı) oldu ve halifenin isteğiyle Kitâbü’l-harâc’ı yazdı; bu eser İslam kamu maliyesinin temel kitabıdır. İmam Muhammed ise mezhebin yazıya geçirilmesinde en büyük paya sahiptir; es-Siyerü’l-kebîr’i İslam devletler hukukunun ilk kapsamlı eseri sayılır.",
+  {
+   "not": "İmam Şâfiî hem Mâlik’ten Muvatta’ı okumuş hem de Bağdat’ta İmam Muhammed’den Hanefî fıkhını öğrenmiştir; bu yüzden onun sistemi Hicaz ile Irak’ın sentezi kabul edilir. Ahmed b. Hanbel de Şâfiî’nin öğrencisidir."
+  },
+  {
+   "sinav": "Vefat sırası: Ebû Hanîfe (150) – Mâlik (179) – Şâfiî (204) – Ahmed (241). Hocalık zinciri: Mâlik → Şâfiî → Ahmed; İmam Muhammed → Şâfiî. İlk başkadı ve Kitâbü’l-harâc = Ebû Yûsuf. Kadîm-cedîd görüş ayrımı = Şâfiî. Mezhebi kaybolan müctehidler (Evzâî, Leys, Sevrî, Taberî) çeldirici olarak verilir."
+  },
+  {
+   "akil": "Dört Sünnî mezhep sırasıyla Kûfe (Hanefî), Medine (Mâlikî), Bağdat-Mısır (Şâfiî) ve Bağdat’ta (Hanbelî) doğdu. Hanefîlik ehl-i re’yin, Mâlikîlik ehl-i Medine’nin, Şâfiîlik sentezin, Hanbelîlik hadis bağlılığının mezhebidir."
+  },
+  {
+   "b": "3. Hanefî mezhebinin kaynakları: Zâhirü’r-rivâye ve sonrası"
+  },
+  {
+   "merak": "Serahsî, Özkent’te bir kuyu (zindan) içinde hapisteyken elinde tek bir kitap yoktu. Talebeleri kuyunun ağzına oturdu, o da otuz ciltlik bir fıkıh ansiklopedisini ezberinden yazdırdı: el-Mebsût."
+  },
+  "Hanefî mezhebinde görüşler, rivayet güvenilirliğine göre üç tabakaya ayrılır. En güvenilir olanı zâhirü’r-rivâye (usûl) denen, İmam Muhammed’in yazdığı ve kendisinden tevâtür ya da şöhretle rivayet edilen altı kitaptır. İkinci tabaka, yine üç imamdan rivayet edilen ama bu kadar sağlam yolla gelmeyen nâdirü’r-rivâye (nevâdir) eserleridir. Üçüncü tabaka ise üç imamdan bir rivayet bulunmayan konularda sonraki müctehidlerin verdiği fetvalar, yani vâkıât ya da nevâzildir; bu türün ilk eseri Ebü’l-Leys es-Semerkandî’nin en-Nevâzil’idir.",
+  {
+   "tablo": [
+    [
+     "Zâhirü’r-rivâye kitabı",
+     "İçeriği"
+    ],
+    [
+     "el-Asl (el-Mebsût)",
+     "En hacimli kitap; Ebû Hanîfe, Ebû Yûsuf ve kendisinin görüşleri, çoğu meselede Ebû Yûsuf’tan rivayetle"
+    ],
+    [
+     "el-Câmiu’s-sağîr",
+     "Ebû Yûsuf aracılığıyla Ebû Hanîfe’den rivayet edilen meseleler"
+    ],
+    [
+     "el-Câmiu’l-kebîr",
+     "Daha ayrıntılı ve zor meseleler; dil inceliklerine dayanan çözümler"
+    ],
+    [
+     "es-Siyerü’s-sağîr",
+     "Devletler hukuku, savaş ve barış hükümleri (kısa)"
+    ],
+    [
+     "es-Siyerü’l-kebîr",
+     "Devletler hukukunun büyük eseri; Serahsî şerh etmiştir"
+    ],
+    [
+     "ez-Ziyâdât",
+     "el-Câmiu’l-kebîr’e ek meseleler"
+    ]
+   ]
+  },
+  "Hâkim eş-Şehîd el-Mervezî (ö. 334/945) bu altı kitabı tekrarlarından arındırarak el-Kâfî fî fürûi’l-Hanefiyye adlı eserde topladı. Şemsüleimme es-Serahsî (ö. 483/1090) de el-Kâfî’yi şerh ederek el-Mebsût’u yazdırdı. Nevâdir eserleri arasında İmam Muhammed’in Keysâniyyât, Cürcâniyyât, Hârûniyyât ve Rakkıyyât adlı kitapları ile Hasan b. Ziyâd’ın el-Mücerred’i sayılır.",
+  "Hanefî literatürü daha sonra metin, şerh, haşiye ve fetva zinciri hâlinde büyüdü. Kudûrî’nin (ö. 428/1037) muhtasarı “el-Kitâb” diye anılacak kadar meşhur oldu. Alâeddin es-Semerkandî’nin Tuhfetü’l-fukahâ’sını, talebesi Kâsânî (ö. 587/1191) Bedâiu’s-sanâi’ fî tertîbi’ş-şerâi’ adıyla şerh etti; anlatılana göre hocası bu eseri, kızı Fâtıma’yı Kâsânî ile evlendirirken mehir olarak kabul etti. Bedâi’, meseleleri mantıkî bir düzen içinde sistemleştirmesiyle ünlüdür. Burhâneddin el-Merğînânî (ö. 593/1197) Kudûrî ile el-Câmiu’s-sağîr’i birleştirdiği Bidâyetü’l-mübtedî’yi el-Hidâye adıyla şerh etti; Hidâye, Hanefî medreselerinin en çok okunan kitabı oldu ve İbnü’l-Hümâm’ın Fethu’l-kadîr’i, Bâbertî’nin el-İnâye’si gibi şerhlere konu oldu.",
+  {
+   "tablo": [
+    [
+     "Eser",
+     "Müellif",
+     "Not"
+    ],
+    [
+     "el-Muhtasar (el-Kitâb)",
+     "Kudûrî (ö. 428)",
+     "Temel metin; Hidâye’nin dayanağı"
+    ],
+    [
+     "el-Mebsût",
+     "Serahsî (ö. 483)",
+     "Hâkim eş-Şehîd’in el-Kâfî’sinin şerhi; hapiste dikte"
+    ],
+    [
+     "Tuhfetü’l-fukahâ",
+     "Alâeddin es-Semerkandî",
+     "Bedâi’in aslı"
+    ],
+    [
+     "Bedâiu’s-sanâi’",
+     "Kâsânî (ö. 587)",
+     "Sistematik şerh; “mehir kitabı”"
+    ],
+    [
+     "el-Hidâye",
+     "Merğînânî (ö. 593)",
+     "Bidâyetü’l-mübtedî şerhi; şerhleri: Fethu’l-kadîr (İbnü’l-Hümâm), el-İnâye (Bâbertî), el-Kifâye"
+    ],
+    [
+     "el-Muhtâr ve şerhi el-İhtiyâr",
+     "Mevsılî (ö. 683)",
+     "Dört muteber metinden biri"
+    ],
+    [
+     "Kenzü’d-dekāik",
+     "Ebü’l-Berekât en-Nesefî (ö. 710)",
+     "Şerhleri: Tebyînü’l-hakāik (Zeylaî), el-Bahrü’r-râik (İbn Nüceym)"
+    ],
+    [
+     "Vikāyetü’r-rivâye",
+     "Tâcüşşerîa",
+     "Torunu Sadrüşşerîa’nın Şerhu’l-Vikāye’si"
+    ],
+    [
+     "Mecmau’l-bahreyn",
+     "İbnü’s-Sââtî (ö. 694)",
+     "Kudûrî ile Mevsılî’nin el-Muhtâr’ını birleştirir"
+    ],
+    [
+     "Dürerü’l-hükkâm fî şerhi Ğureri’l-ahkâm",
+     "Molla Hüsrev (ö. 885)",
+     "Osmanlı’nın klasiği"
+    ],
+    [
+     "Mülteka’l-ebhur",
+     "İbrâhim el-Halebî (ö. 956)",
+     "Osmanlı medrese ve mahkemelerinin temel metni; şerhi Mecmau’l-enhur (Dâmâd)"
+    ],
+    [
+     "Gunyetü’l-mütemellî (Halebî-i Kebîr)",
+     "İbrâhim el-Halebî",
+     "Münyetü’l-musallî şerhi; namaz ilmihali"
+    ],
+    [
+     "Tenvîrü’l-ebsâr → ed-Dürrü’l-muhtâr → Reddü’l-muhtâr",
+     "Timurtâşî → Haskefî → İbn Âbidîn (ö. 1252/1836)",
+     "Reddü’l-muhtâr (İbn Âbidîn haşiyesi) son dönem Hanefî fetvasının ana kaynağı"
+    ],
+    [
+     "el-Eşbâh ve’n-nezâir",
+     "İbn Nüceym (ö. 970)",
+     "Kaideler ve benzer meseleler"
+    ],
+    [
+     "Merâki’l-felâh, Nûru’l-îzâh",
+     "Şürünbülâlî",
+     "İbadet ilmihali"
+    ],
+    [
+     "el-Fetâva’l-Hindiyye (Âlemgîriyye)",
+     "Babür hükümdarı Evrengzîb’in emriyle bir heyet",
+     "Hint Hanefî fetvaları"
+    ],
+    [
+     "Fetâvâ-yı Kādîhân, el-Fetâva’l-Bezzâziyye",
+     "Kādîhân, Bezzâzî",
+     "Fetva mecmuaları"
+    ]
+   ]
+  },
+  {
+   "not": "Muteber metinler (mütûn-i erbaa): el-Muhtâr (Mevsılî), Kenzü’d-dekāik (Nesefî), Vikāyetü’r-rivâye (Tâcüşşerîa) ve Mecmau’l-bahreyn (İbnü’s-Sââtî). Bazı kaynaklar Kudûrî’yi de bu listeye ekleyerek “mütûn-i selâse/hamse”den söz eder."
+  },
+  {
+   "sinav": "Zâhirü’r-rivâye altı kitabının müellifi İmam Muhammed’dir; el-Muhtasar (Kudûrî), el-Mebsût (Serahsî) ve el-Kâfî bu listede yer almaz. Zincirler sık sorulur: el-Kâfî → el-Mebsût; Tuhfe → Bedâi’; Bidâyetü’l-mübtedî → Hidâye → Fethu’l-kadîr; Kenz → Tebyîn ve el-Bahrü’r-râik; Tenvîr → ed-Dürrü’l-muhtâr → Reddü’l-muhtâr. Mülteka Osmanlı’nın temel metnidir."
+  },
+  {
+   "akil": "Hanefî mezhebinde en güvenilir kaynak İmam Muhammed’in altı zâhirü’r-rivâye kitabıdır; onları el-Kâfî topladı, el-Mebsût şerh etti. Klasik eserler: Kudûrî, Bedâi’, Hidâye; Osmanlı’da Dürer ve Mülteka; son dönemde Reddü’l-muhtâr."
+  },
+  {
+   "b": "4. Diğer mezheplerin literatürü ve fıkhın dalları"
+  },
+  {
+   "merak": "Bir hukuk öğrencisi, dört mezhebin aynı meseledeki görüşlerini ve delillerini tek kitapta görmek istese hangi esere başvurmalı? Endülüslü bir filozof-fakih bu ihtiyacı sekiz asır önce karşılamıştı."
+  },
+  {
+   "tablo": [
+    [
+     "Mezhep",
+     "Temel eserler"
+    ],
+    [
+     "Mâlikî",
+     "el-Muvatta’ (Mâlik); el-Müdevvene (Sahnûn, İbnü’l-Kāsım’dan); er-Risâle (İbn Ebû Zeyd el-Kayrevânî); Muhtasar-ı Halîl; ez-Zahîre ve el-Furûk (Karâfî); el-Kavânînü’l-fıkhiyye (İbn Cüzeyy)"
+    ],
+    [
+     "Şâfiî",
+     "el-Ümm ve er-Risâle (Şâfiî); Muhtasarü’l-Müzenî; el-Mühezzeb ve et-Tenbîh (Şîrâzî); el-Vasît, el-Vecîz (Gazzâlî); el-Mecmû’, Ravzatü’t-tâlibîn, Minhâcü’t-tâlibîn (Nevevî); el-Ahkâmü’s-sultâniyye (Mâverdî)"
+    ],
+    [
+     "Hanbelî",
+     "Muhtasarü’l-Hırakî; el-Muğnî ve el-Mukni’ (İbn Kudâme); el-Ahkâmü’s-sultâniyye (Ebû Ya’lâ el-Ferrâ); İ’lâmü’l-muvakkıîn (İbn Kayyim); Mecmûu’l-fetâvâ (İbn Teymiyye)"
+    ],
+    [
+     "Zâhirî",
+     "el-Muhallâ ve el-İhkâm fî usûli’l-ahkâm (İbn Hazm)"
+    ],
+    [
+     "Mukayeseli (hilâf)",
+     "Bidâyetü’l-müctehid (İbn Rüşd, Mâlikî); İhtilâfü’l-ulemâ (Tahâvî); Te’sîsü’n-nazar (Debûsî); el-Fıkh ale’l-mezâhibi’l-erbaa (Cezîrî, modern)"
+    ]
+   ]
+  },
+  "Fıkıh literatüründe konulara göre özel dallar da gelişti. Bunlar ÖSYM’nin eşleştirme sorularında sürekli karşına çıkar.",
+  {
+   "tablo": [
+    [
+     "Dal",
+     "Konusu",
+     "Örnek eser"
+    ],
+    [
+     "Kavâid ve eşbâh-nezâir",
+     "Küllî kaideler ve benzer meseleler",
+     "el-Eşbâh ve’n-nezâir (İbn Nüceym, Süyûtî)"
+    ],
+    [
+     "Furûk",
+     "Görünüşte benzeyen meseleler arasındaki farklar",
+     "el-Furûk (Karâfî)"
+    ],
+    [
+     "Hiyel (mehâric)",
+     "Hukukî çıkış yolları",
+     "Kitâbü’l-hiyel (Hassâf)"
+    ],
+    [
+     "Şurût ve vesâik",
+     "Sözleşme ve belge yazımı",
+     "Tahâvî’nin şurût eserleri"
+    ],
+    [
+     "Edebü’l-kādî",
+     "Yargılama usulü ve hâkimin âdabı",
+     "Edebü’l-kādî (Hassâf)"
+    ],
+    [
+     "Ahkâm-ı sultâniyye (siyâset-i şer’iyye)",
+     "Kamu yönetimi, anayasa ve idare hukuku",
+     "el-Ahkâmü’s-sultâniyye (Mâverdî; Ebû Ya’lâ)"
+    ],
+    [
+     "Harâc ve emvâl",
+     "Kamu maliyesi, vergi",
+     "Kitâbü’l-harâc (Ebû Yûsuf; Yahyâ b. Âdem), Kitâbü’l-emvâl (Ebû Ubeyd)"
+    ],
+    [
+     "Siyer",
+     "Devletler hukuku, savaş-barış",
+     "es-Siyerü’l-kebîr (İmam Muhammed)"
+    ],
+    [
+     "Ferâiz",
+     "Miras hukuku",
+     "es-Sirâciyye (Sirâceddin es-Secâvendî)"
+    ],
+    [
+     "Fetâvâ ve nevâzil",
+     "Yaşanmış olaylara verilen fetvalar",
+     "en-Nevâzil (Ebü’l-Leys); Behcetü’l-fetâvâ"
+    ]
+   ]
+  },
+  {
+   "sinav": "Eser-müellif-mezhep üçlüsü klasik sorudur: el-Muğnî = İbn Kudâme (Hanbelî), Minhâc ve el-Mecmû’ = Nevevî (Şâfiî), el-Müdevvene = Sahnûn (Mâlikî), el-Muhallâ = İbn Hazm (Zâhirî), Bidâyetü’l-müctehid = İbn Rüşd (mukayeseli). el-Ahkâmü’s-sultâniyye kamu yönetimi; Kitâbü’l-harâc kamu maliyesi; siyer devletler hukuku; edebü’l-kādî yargılama hukukudur."
+  },
+  {
+   "akil": "Her mezhebin temel eserlerini müellifiyle birlikte ezberle; özellikle Muğnî-İbn Kudâme, Minhâc-Nevevî, Müdevvene-Sahnûn. Fıkhın alt dallarında ahkâm-ı sultâniyye yönetim, harâc maliye, siyer devletler arası ilişkiler, furûk farklar demektir."
+  },
+  {
+   "b": "5. Mezhep dönemi, tabakat ve fetva usulü"
+  },
+  {
+   "merak": "Bir Hanefî müftü, aynı meselede Ebû Hanîfe ile iki talebesinin farklı görüşte olduğunu görür. Hangisiyle fetva vermelidir? Hanefî âlimleri bu soruya cevap vermek için fakihleri derecelere ayırmış ve bir fetva usulü geliştirmiştir."
+  },
+  "Hicrî 4. asırdan itibaren yeni mezhep kurma dönemi kapandı; âlimler mezhep içinde içtihat, tahrîc (imamın usulünden yeni meselelere hüküm çıkarma), tercih ve şerh faaliyetlerine yöneldi. Buna “içtihat kapısının kapanması” denmesi, mutlak içtihadın değil, yeni mezhep kurmanın sona ermesini anlatır. Osmanlı âlimi İbn Kemal Paşa (Kemalpaşazâde, ö. 940/1534) Hanefî fakihlerini yedi tabakaya ayırdı. Bu tasnif İbn Âbidîn tarafından benimsenmiş, Şihâbüddin Mercânî gibi âlimlerce ise eleştirilmiştir.",
+  {
+   "tablo": [
+    [
+     "Tabaka",
+     "Özelliği",
+     "Örnekler"
+    ],
+    [
+     "1. Müctehid fi’ş-şer’ (mutlak müctehid)",
+     "Usul ve furûu kendisi kurar",
+     "Dört imam, Evzâî, Sevrî"
+    ],
+    [
+     "2. Müctehid fi’l-mezheb",
+     "Usulde imama uyar, furûda ona muhalefet edebilir",
+     "Ebû Yûsuf, İmam Muhammed"
+    ],
+    [
+     "3. Müctehid fi’l-mesâil",
+     "İmamdan rivayet olmayan meselelerde mezhep usulüyle içtihat eder",
+     "Hassâf, Tahâvî, Kerhî, Halvânî, Serahsî, Pezdevî, Kādîhân"
+    ],
+    [
+     "4. Ashâbü’t-tahrîc",
+     "İmamın kapalı sözünü açıklar, iki ihtimalli sözü belirler",
+     "Ebû Bekir er-Râzî el-Cessâs"
+    ],
+    [
+     "5. Ashâbü’t-tercîh",
+     "Rivayetlerden birini “bu evlâdır, bu daha sahihtir” diye tercih eder",
+     "Kudûrî, Merğînânî (Hidâye sahibi)"
+    ],
+    [
+     "6. Ashâbü’t-temyîz",
+     "Kuvvetli ile zayıfı, zâhirü’r-rivâye ile nâdiri ayırır",
+     "Mütûn sahipleri: Kenz, Muhtâr, Vikāye, Mecma’ müellifleri"
+    ],
+    [
+     "7. Mukallitler",
+     "Ayırt etme gücü olmayanlar",
+     "—"
+    ]
+   ]
+  },
+  "Hanefî fetva usulünün ana kuralları şöyledir: Zâhirü’r-rivâyede bulunan görüş, nâdir rivayete tercih edilir. Üç imam bir görüşte birleşmişse o görüşten çıkılmaz. Görüş ayrılığında genel kural Ebû Hanîfe’nin görüşünü esas almaktır; Ebû Hanîfe ile talebelerinden biri birleşmişse o görüş alınır. Ancak bazı alanlarda istisnalar vardır: Yargılama ve devlet işlerinde (kazâ, şahitlik) Ebû Yûsuf’un görüşü, başkadılık tecrübesi nedeniyle tercih edilir. Zevi’l-erhâm mirası gibi bazı konularda İmam Muhammed’in görüşü esas alınır. Züfer’in görüşüyle fetva verilen meseleler sınırlıdır (sayıları yirmiye yakın olarak anılır). Zamanın ve örfün değişmesiyle oluşan farklılıklarda (ihtilâfü asr ve zamân, ihtilâfü hüccet ve burhân değil) sonraki âlimlerin görüşü tercih edilir: Ebû Hanîfe’nin zamanında şahitlerin zahiren adil sayılması, İmameyn döneminde ahlakın bozulmasıyla şahitlerin araştırılması (tezkiye) gerekmiş ve fetva İmameyn görüşüne göre verilmiştir.",
+  {
+   "tablo": [
+    [
+     "Tercih (tashih) lafzı",
+     "Anlamı"
+    ],
+    [
+     "“Aleyhi’l-fetvâ”, “bihî yüftâ”",
+     "Fetva buna göredir (en güçlü tercih lafızlarından)"
+    ],
+    [
+     "“el-Esah”",
+     "En sahih (karşı görüş de sahih kabul edilir)"
+    ],
+    [
+     "“es-Sahîh”",
+     "Sahih (karşısındaki zayıftır)"
+    ],
+    [
+     "“el-Evcah”, “el-Esbeh”",
+     "Daha güçlü, delile daha uygun"
+    ],
+    [
+     "“Bihî ne’huz”, “aleyhi’l-amel”",
+     "Biz bununla amel ederiz; uygulama budur"
+    ]
+   ]
+  },
+  "Fetva ile kazâ (yargı kararı) farklıdır: Fetva dinî hükmü bildirir ve bağlayıcı değildir; kazâ ise hâkimin taraflar için bağlayıcı hükmüdür. Fetva dinî (diyâneten) hükmü, kazâ ise görünen delillere dayalı (kazâen) hükmü esas alır. Osmanlı’da şeyhülislam en yüksek müftüydü; Ebüssuûd Efendi’nin fetvaları ünlüdür. İbn Âbidîn’in Ukūdü resmi’l-müftî adlı manzumesi ve şerhi, Hanefî fetva usulünün temel metnidir.",
+  {
+   "sinav": "İbn Kemal’in yedi tabakası sıralama sorusu olarak gelir: mutlak – mezhepte – meselede müctehid – tahrîc – tercih – temyiz – mukallit. Cessâs tahrîc; Kudûrî ve Merğînânî tercih; Tahâvî, Kerhî, Serahsî meselede müctehid tabakasındadır. Kazâ ile ilgili konularda Ebû Yûsuf’un görüşü esas alınır. “Aleyhi’l-fetvâ” en güçlü tercih ifadesidir."
+  },
+  {
+   "kontrol": "Züfer’in görüşüyle fetva verilen mesele sayısı kaynaklarda 17 ile 20 arasında farklı verilir; rakam sorulursa “yirmi civarı” bilgisini esas al."
+  },
+  {
+   "akil": "4. asırdan sonra mezhep içi içtihat, tahrîc ve tercih dönemi başladı. İbn Kemal Paşa Hanefî fakihleri yedi tabakaya ayırdı. Fetvada zâhirü’r-rivâye ve Ebû Hanîfe esastır; kazâda Ebû Yûsuf, zamanla değişen konularda İmameyn tercih edilir."
+  },
+  {
+   "b": "6. Kanunlaştırma: Mecelle ve sonrası"
+  },
+  {
+   "merak": "1868’de Osmanlı Devleti’nde Fransız Medeni Kanunu’nun tercüme edilip yürürlüğe konulması tartışılıyordu. Ahmed Cevdet Paşa ve arkadaşları bunun yerine, Hanefî fıkhını madde madde yazan yerli bir kanun hazırlamayı önerdi ve kazandı."
+  },
+  "Mecelle-i Ahkâm-ı Adliyye, Ahmed Cevdet Paşa başkanlığındaki Mecelle Cemiyeti tarafından 1869-1876 yılları arasında hazırlanan, Hanefî mezhebine göre muamelat (borçlar, eşya, usul) hükümlerini maddeler hâlinde düzenleyen ilk İslam medeni kanunudur. Toplam 16 kitap ve 1851 maddedir. Kitâbü’l-büyû’ ile başlar, Kitâbü’l-kazâ ile biter. Mukaddimesi 100 maddedir: Birinci madde fıkhın tanımını verir, 2-100. maddeler 99 küllî kaidedir. Mecelle aile ve miras hukukunu, ceza hukukunu ve ibadetleri kapsamaz. Hazırlanırken Hanefî mezhebinin zayıf ama zamanın ihtiyacına uygun görüşleri de tercih edilmiştir (örneğin istisnâ akdinin bağlayıcılığında Ebû Yûsuf’un görüşü).",
+  {
+   "tablo": [
+    [
+     "Kanunlaştırma",
+     "Yıl",
+     "Özellik"
+    ],
+    [
+     "Fetâvâ-yı Âlemgîriyye (Hindiyye)",
+     "17. yüzyıl",
+     "Babür devletinde fetvaların derlenmesi; henüz madde hâlinde değil"
+    ],
+    [
+     "Mecelle-i Ahkâm-ı Adliyye",
+     "1869-1876",
+     "Hanefî muamelat hukuku; 16 kitap, 1851 madde; Türkiye’de 1926’da Medenî Kanun’la kaldırıldı"
+    ],
+    [
+     "Hukuk-ı Aile Kararnamesi",
+     "1917",
+     "İlk aile hukuku kanunu; yalnız Hanefî değil diğer mezheplerden de yararlandı (telfik); Osmanlı’da 1919’da kaldırıldı, bazı Arap ülkelerinde uzun süre uygulandı"
+    ],
+    [
+     "Mürşidü’l-hayrân",
+     "19. yüzyıl, Mısır",
+     "Kadri Paşa’nın Hanefî fıkhını madde hâlinde derlemesi"
+    ]
+   ]
+  },
+  {
+   "sinav": "Mecelle sayıları: 1869-1876, 16 kitap, 1851 madde, 100 maddelik mukaddime (99 kaide), başkan Ahmed Cevdet Paşa. Konusu muamelat; aile, miras ve ceza yoktur. Hukuk-ı Aile Kararnamesi 1917, mezheplerden yararlanma. Türkiye’de 1926’da Medenî Kanun’la yürürlükten kalktı."
+  },
+  {
+   "akil": "Mecelle, Hanefî muamelat hukukunun Ahmed Cevdet Paşa heyetince 1869-1876’da 1851 madde hâlinde kanunlaştırılmasıdır. Aile hukuku 1917 Hukuk-ı Aile Kararnamesi ile, mezheplerden yararlanılarak düzenlendi."
+  }
+ ],
+ "ozet": [
+  "Dönemler: Peygamber (vahiy), sahabe (istişare, içtihat), tâbiîn (ehl-i hadis-ehl-i re’y), müctehid imamlar (tedvin), mezhep dönemi (tahrîc-tercih-şerh), kanunlaştırma.",
+  "Hz. Ömer içtihatları: müellefe-i kulûb, Sevâd arazisi, kıtlık yılında el kesmeme, üç talak.",
+  "Kûfe ehl-i re’y: İbn Mes’ûd → Alkame → İbrâhim en-Nehaî → Hammâd → Ebû Hanîfe; Medine’nin yedi fakihi ehl-i hadis.",
+  "Vefatlar: Ebû Hanîfe 150, Mâlik 179, Şâfiî 204, Ahmed 241; Ebû Yûsuf 182, İmam Muhammed 189.",
+  "Ebû Yûsuf: ilk kādi’l-kudât ve Kitâbü’l-harâc; İmam Muhammed: zâhirü’r-rivâye ve es-Siyerü’l-kebîr.",
+  "Zâhirü’r-rivâye: el-Asl, el-Câmiu’s-sağîr, el-Câmiu’l-kebîr, es-Siyerü’s-sağîr, es-Siyerü’l-kebîr, ez-Ziyâdât.",
+  "Hâkim eş-Şehîd el-Kâfî’de topladı; Serahsî el-Mebsût’ta hapiste şerh etti.",
+  "Tuhfetü’l-fukahâ → Bedâiu’s-sanâi’ (Kâsânî); Kudûrî + Câmiu’s-sağîr → Bidâyetü’l-mübtedî → el-Hidâye (Merğînânî) → Fethu’l-kadîr.",
+  "Mütûn-i erbaa: el-Muhtâr, Kenz, Vikāye, Mecmau’l-bahreyn; Osmanlı: Dürer (Molla Hüsrev), Mülteka (Halebî).",
+  "Reddü’l-muhtâr (İbn Âbidîn) son dönem Hanefî fetvasının ana kaynağıdır.",
+  "el-Muğnî İbn Kudâme; Minhâc ve el-Mecmû’ Nevevî; el-Müdevvene Sahnûn; el-Muhallâ İbn Hazm; Bidâyetü’l-müctehid İbn Rüşd.",
+  "Ahkâm-ı sultâniyye kamu yönetimi; harâc kamu maliyesi; siyer devletler hukuku; edebü’l-kādî yargılama; furûk farklar.",
+  "İbn Kemal’in yedi tabakası: mutlak, mezhepte, meselede müctehid, tahrîc, tercih, temyiz, mukallit.",
+  "Fetva: zâhirü’r-rivâye ve Ebû Hanîfe esas; kazâ işlerinde Ebû Yûsuf; zaman değişikliğinde İmameyn.",
+  "Fetva bağlayıcı değil, kazâ bağlayıcıdır.",
+  "Mecelle: 1869-1876, Ahmed Cevdet Paşa, 16 kitap, 1851 madde, 99 kaide, muamelat; 1926’da kalktı.",
+  "Hukuk-ı Aile Kararnamesi 1917; diğer mezheplerden yararlandı."
+ ],
+ "kartlar": [
+  {
+   "o": "Fukahâ-i seb’a",
+   "a": "Medine’nin yedi tâbiîn fakihi: Saîd b. el-Müseyyeb, Urve, Kāsım b. Muhammed, Ebû Bekir b. Abdurrahman, Hârice b. Zeyd, Ubeydullah b. Abdullah, Süleyman b. Yesâr."
+  },
+  {
+   "o": "Ebû Hanîfe’nin hoca zinciri",
+   "a": "İbn Mes’ûd → Alkame → İbrâhim en-Nehaî → Hammâd b. Ebû Süleyman → Ebû Hanîfe."
+  },
+  {
+   "o": "Zâhirü’r-rivâye",
+   "a": "İmam Muhammed’in altı kitabı: Asl, Câmiu’s-sağîr, Câmiu’l-kebîr, Siyer-i sağîr, Siyer-i kebîr, Ziyâdât."
+  },
+  {
+   "o": "Nevâdir örnekleri",
+   "a": "Keysâniyyât, Cürcâniyyât, Hârûniyyât, Rakkıyyât; Hasan b. Ziyâd’ın el-Mücerred’i."
+  },
+  {
+   "o": "el-Kâfî",
+   "a": "Hâkim eş-Şehîd el-Mervezî; zâhirü’r-rivâyenin özeti; Serahsî’nin Mebsût’u bunun şerhi."
+  },
+  {
+   "o": "Bedâiu’s-sanâi’",
+   "a": "Kâsânî; Semerkandî’nin Tuhfetü’l-fukahâ’sının sistematik şerhi."
+  },
+  {
+   "o": "el-Hidâye",
+   "a": "Merğînânî; kendi Bidâyetü’l-mübtedî’sinin şerhi; şerhi Fethu’l-kadîr (İbnü’l-Hümâm)."
+  },
+  {
+   "o": "Mülteka’l-ebhur",
+   "a": "İbrâhim el-Halebî; Osmanlı’nın temel Hanefî metni; şerhi Mecmau’l-enhur."
+  },
+  {
+   "o": "Reddü’l-muhtâr",
+   "a": "İbn Âbidîn; ed-Dürrü’l-muhtâr (Haskefî) haşiyesi; Tenvîrü’l-ebsâr zincirinin son halkası."
+  },
+  {
+   "o": "el-Muğnî",
+   "a": "İbn Kudâme, Hanbelî."
+  },
+  {
+   "o": "Bidâyetü’l-müctehid",
+   "a": "İbn Rüşd; mezhepleri karşılaştıran (hilâf) eser."
+  },
+  {
+   "o": "Kitâbü’l-harâc",
+   "a": "Ebû Yûsuf (Hârûnürreşîd için); kamu maliyesi."
+  },
+  {
+   "o": "Ashâbü’t-tahrîc",
+   "a": "İbn Kemal tabakatında 4. tabaka; örnek Ebû Bekir el-Cessâs."
+  },
+  {
+   "o": "Ashâbü’t-tercîh",
+   "a": "5. tabaka; Kudûrî, Merğînânî."
+  },
+  {
+   "o": "Kazâ meselelerinde fetva",
+   "a": "Ebû Yûsuf’un görüşüne göre (başkadılık tecrübesi)."
+  },
+  {
+   "o": "Mecelle",
+   "a": "1869-1876, Ahmed Cevdet Paşa, 16 kitap, 1851 madde, Hanefî muamelat; ilk kitap Büyû’, son kitap Kazâ."
+  },
+  {
+   "o": "Hukuk-ı Aile Kararnamesi",
+   "a": "1917; ilk aile kanunu; Hanefî dışı mezheplerden de yararlandı."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "f2-10",
+   "z": 2,
+   "s": "Aşağıdaki eser – müellif eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "el-Mebsût – Serahsî",
+    "Bedâiu’s-sanâi’ – Kâsânî",
+    "el-Hidâye – Merğînânî",
+    "el-Müdevvene – Sahnûn",
+    "el-Muğnî – Nevevî"
+   ],
+   "d": 4,
+   "a": "el-Muğnî Hanbelî âlimi İbn Kudâme’nin eseridir. Nevevî’nin fıkıh eserleri el-Minhâc ve el-Mecmû’dur.",
+   "ac": [
+    "Doğru.",
+    "Doğru.",
+    "Doğru.",
+    "Doğru.",
+    "Yanlış: el-Muğnî İbn Kudâme’nindir."
+   ],
+   "kay": "Fıkıh literatürü"
+  },
+  {
+   "id": "f2-11",
+   "z": 3,
+   "s": "İslam hukuku dersinde Hanefî ve Şâfiî mezheplerinin hükümlerini karşılaştıran bir ödev hazırlayan öğrencinin aşağıdaki eser çiftlerinden hangisine başvurması beklenir?",
+   "c": [
+    "el-İhtiyâr – Minhâcü’t-tâlibîn",
+    "el-Ahkâmü’s-sultâniyye – el-Muvatta’",
+    "Kitâbü’l-Harâc – el-Muhallâ",
+    "el-Müdevvene – el-Muğnî",
+    "el-Furûk – el-Müdevvene"
+   ],
+   "d": 0,
+   "a": "Mevsılî’nin el-İhtiyâr’ı Hanefî, Nevevî’nin Minhâcü’t-tâlibîn’i Şâfiî fıkhının temel eserlerindendir.",
+   "ac": [
+    "Doğru: Hanefî ve Şâfiî.",
+    "Biri kamu yönetimi, biri hadis-fıkıh eseri; mezhep karşılaştırması için uygun değil.",
+    "Biri kamu maliyesi, biri Zâhirî eseri.",
+    "Biri Mâlikî, biri Hanbelî.",
+    "Furûk benzer meseleler arası farkları inceler; Müdevvene Mâlikîdir."
+   ],
+   "kay": "Fıkıh literatürü"
+  },
+  {
+   "id": "f2-12",
+   "z": 3,
+   "s": "Fıkhın alt dalları ve konuları eşleştirilmiştir:\nI. Edebü’l-kâdî – Muhakeme (yargılama) hukuku\nII. el-Ahkâmü’s-sultâniyye – Kamu maliyesi\nIII. Kitâbü’l-harâc – Kamu yönetimi\nIV. Furûk – Benzer meseleler arasındaki farklar\n\nHangi eşleştirmelerin yeri değiştirilirse tablo doğru olur?",
+   "c": [
+    "I ve II",
+    "I ve IV",
+    "II ve III",
+    "II ve IV",
+    "III ve IV"
+   ],
+   "d": 2,
+   "a": "el-Ahkâmü’s-sultâniyye kamu yönetimini, Kitâbü’l-harâc kamu maliyesini inceler; II ve III’ün konuları yer değiştirmelidir.",
+   "ac": [
+    "I doğrudur.",
+    "I ve IV doğrudur.",
+    "Doğru.",
+    "IV doğrudur.",
+    "IV doğrudur."
+   ],
+   "kay": "Fıkıh literatürü"
+  },
+  {
+   "id": "f2-13",
+   "z": 3,
+   "s": "Hanefî mezhebinde “zâhirü’r-rivâye” adıyla anılan ve mezhebin en güvenilir rivayetlerini içeren eserlerin müellifi kimdir?",
+   "c": [
+    "Ebû Yûsuf",
+    "Kudûrî",
+    "Züfer b. Hüzeyl",
+    "İmam Muhammed eş-Şeybânî",
+    "Tahâvî"
+   ],
+   "d": 3,
+   "a": "el-Asl, el-Câmiu’s-sağîr, el-Câmiu’l-kebîr, es-Siyerü’s-sağîr, es-Siyerü’l-kebîr ve ez-Ziyâdât İmam Muhammed’in eserleridir.",
+   "ac": [
+    "Ebû Yûsuf’un meşhur eseri Kitâbü’l-Harâc’dır.",
+    "Kudûrî’nin eseri el-Muhtasar’dır.",
+    "Züfer, Ebû Hanîfe’nin talebesidir; zâhirü’r-rivâye onun değildir.",
+    "Doğru.",
+    "Tahâvî’nin de bir Muhtasar’ı vardır; zâhirü’r-rivâye değildir."
+   ],
+   "kay": "Hanefî mezhebi tarihi"
+  },
+  {
+   "id": "f2-17",
+   "z": 2,
+   "s": "1869-1876 yılları arasında Ahmed Cevdet Paşa başkanlığında hazırlanan, Hanefî fıkhına göre muamelat hükümlerini maddeler hâlinde düzenleyen kanun hangisidir?",
+   "c": [
+    "el-Hidâye",
+    "Mecelle-i Ahkâm-ı Adliyye",
+    "Mültekâ’l-ebhur",
+    "Fetâvâ-yı Hindiyye",
+    "Hukûk-ı Âile Kararnâmesi"
+   ],
+   "d": 1,
+   "a": "Mecelle’nin ilk 100 maddesi külli kaidelerden oluşur.",
+   "ac": [
+    "Merğinânî’nin fıkıh eseridir.",
+    "1851 maddelik medeni kanundur.",
+    "İbrâhim el-Halebî’nin eseridir.",
+    "Hindistan’da hazırlanmış fetva derlemesidir.",
+    "1917’de aile hukuku için hazırlanmıştır."
+   ],
+   "kay": "Fıkıh tarihi"
+  },
+  {
+   "id": "f2-18",
+   "z": 2,
+   "s": "Ebû Hanîfe’nin öğrencisi olup ilk kâdi’l-kudât (baş kadı) unvanını alan ve Hârûnürreşîd için devletin mali meselelerine dair “Kitâbü’l-Harâc”ı yazan âlim kimdir?",
+   "c": [
+    "İmam Muhammed",
+    "Ebû Yûsuf",
+    "Züfer b. Hüzeyl",
+    "Hasan b. Ziyâd",
+    "Tahâvî"
+   ],
+   "d": 1,
+   "a": "Ebû Yûsuf Abbâsîler döneminde kadılar kadısı olmuştur.",
+   "ac": [
+    "Zâhirü’r-rivâye kitaplarının yazarıdır.",
+    "Kitâbü’l-Harâc onundur.",
+    "Ebû Hanîfe’nin öğrencisidir; bu eserle bilinmez.",
+    "Ebû Hanîfe’nin talebesidir.",
+    "Daha sonraki bir Hanefî âlimdir."
+   ],
+   "kay": "Hanefî fıkıh tarihi"
+  },
+  {
+   "id": "f2-19",
+   "z": 3,
+   "s": "Aşağıdakilerden hangisi İmam Muhammed’in “zâhirü’r-rivâye” kitapları arasında yer almaz?",
+   "c": [
+    "el-Muhtasar",
+    "el-Asl (el-Mebsût)",
+    "es-Siyerü’l-kebîr",
+    "ez-Ziyâdât",
+    "el-Câmi‘u’s-sağîr"
+   ],
+   "d": 0,
+   "a": "Zâhirü’r-rivâye altı kitaptır: el-Asl, el-Câmi‘u’s-sağîr, el-Câmi‘u’l-kebîr, es-Siyerü’s-sağîr, es-Siyerü’l-kebîr, ez-Ziyâdât.",
+   "ac": [
+    "el-Muhtasar Kudûrî’nindir; zâhirü’r-rivâye değildir.",
+    "Zâhirü’r-rivâye kitabıdır.",
+    "Zâhirü’r-rivâye kitabıdır.",
+    "Zâhirü’r-rivâye kitabıdır.",
+    "Zâhirü’r-rivâye kitabıdır."
+   ],
+   "kay": "Hanefî fıkıh tarihi"
+  },
+  {
+   "id": "f2-21",
+   "z": 1,
+   "s": "Aşağıdaki fıkıh eseri – mezhep eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "el-Muvatta’ – Mâlikî",
+    "Bedâi‘u’s-sanâi‘ – Hanefî",
+    "el-Muğnî – Hanbelî",
+    "el-Mebsût (Serahsî) – Şâfiî",
+    "el-Ümm – Şâfiî"
+   ],
+   "d": 3,
+   "a": "Serahsî el-Mebsût’u hapiste iken öğrencilerine yazdırmıştır.",
+   "ac": [
+    "İmam Mâlik’indir.",
+    "Kâsânî’nindir.",
+    "İbn Kudâme’nindir.",
+    "Serahsî’nin el-Mebsût’u Hanefî fıkhının temel eseridir.",
+    "İmam Şâfiî’nindir."
+   ],
+   "kay": "Fıkıh tarihi"
+  },
+  {
+   "id": "fk4-01",
+   "z": 3,
+   "s": "Hanefî literatüründe eser zincirleriyle ilgili aşağıdaki ifadeleri değerlendiriniz:\nI. Serahsî’nin el-Mebsût’u, Hâkim eş-Şehîd’in el-Kâfî’sinin şerhidir.\nII. Kâsânî’nin Bedâiu’s-sanâi’i, Kudûrî’nin el-Muhtasar’ının şerhidir.\nIII. İbnü’l-Hümâm’ın Fethu’l-kadîr’i, Merğînânî’nin el-Hidâye’sinin şerhidir.\nIV. İbn Âbidîn’in Reddü’l-muhtâr’ı, Haskefî’nin ed-Dürrü’l-muhtâr’ına yazılmış haşiyedir.\n\nBu ifadelerden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "II ve III",
+    "I, III ve IV",
+    "II, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 2,
+   "a": "Bedâi’, Alâeddin es-Semerkandî’nin Tuhfetü’l-fukahâ’sının şerhidir; Kudûrî’ye değil. Diğer üç zincir doğrudur.",
+   "ac": [
+    "II yanlıştır; III ve IV doğru olduğu hâlde dışarıda kalmıştır.",
+    "II yanlıştır.",
+    "Doğru: I, III ve IV doğrudur.",
+    "II yanlıştır; I doğru olduğu hâlde dışarıda kalmıştır.",
+    "II yanlış olduğu için hepsi doğru olamaz."
+   ],
+   "kay": "Konu: Hanefî literatürü"
+  },
+  {
+   "id": "fk4-02",
+   "z": 3,
+   "s": "İbn Kemal Paşa’nın Hanefî fakihleri için yaptığı tasnifte bu tabakadaki âlimler usulde ve furûda imamlarına uyar; imamdan rivayet bulunmayan meselelerde mezhebin usulüne göre içtihat ederler. Hassâf, Tahâvî, Kerhî, Halvânî, Serahsî ve Kādîhân bu tabakada sayılır.\n\nSözü edilen tabaka aşağıdakilerden hangisidir?",
+   "c": [
+    "Müctehid fi’l-mezheb",
+    "Ashâbü’t-tahrîc",
+    "Ashâbü’t-temyîz",
+    "Ashâbü’t-tercîh",
+    "Müctehid fi’l-mesâil"
+   ],
+   "d": 4,
+   "a": "İmamdan rivayet olmayan meselelerde mezhep usulüyle hüküm çıkaranlar üçüncü tabaka olan müctehid fi’l-mesâildir.",
+   "ac": [
+    "Bu tabaka (Ebû Yûsuf, İmam Muhammed) furûda imama muhalefet edebilir.",
+    "Ashâbü’t-tahrîc imamın kapalı sözünü açıklar; örneği Cessâs’tır.",
+    "Ashâbü’t-temyîz güçlüyü zayıftan ayırır; mütûn sahipleri.",
+    "Ashâbü’t-tercîh rivayetler arasında tercih yapar; Kudûrî ve Merğînânî.",
+    "Doğru."
+   ],
+   "kay": "İbn Âbidîn, Reddü’l-muhtâr, mukaddime"
+  },
+  {
+   "id": "fk4-03",
+   "z": 2,
+   "s": "Aşağıdaki âlimlerden hangisinin mezhebi, görüşleri sistemli biçimde talebeleri tarafından aktarılmadığı için günümüze bir mezhep olarak ulaşmamıştır?",
+   "c": [
+    "Muhammed b. İdrîs eş-Şâfiî",
+    "Mâlik b. Enes",
+    "Ahmed b. Hanbel",
+    "Leys b. Sa’d",
+    "Nu’mân b. Sâbit"
+   ],
+   "d": 3,
+   "a": "Mısır’ın büyük müctehidi Leys b. Sa’d’ın mezhebi, talebelerince sistemleştirilip yaşatılamadığı için kaybolmuştur. Evzâî, Süfyân es-Sevrî ve Taberî de bu gruptadır.",
+   "ac": [
+    "Şâfiî mezhebi yaşamaktadır.",
+    "Mâlikî mezhebi yaşamaktadır.",
+    "Hanbelî mezhebi yaşamaktadır.",
+    "Doğru.",
+    "Nu’mân b. Sâbit Ebû Hanîfe’dir."
+   ],
+   "kay": "Konu: Mezhepler"
+  },
+  {
+   "id": "fk4-04",
+   "z": 3,
+   "s": "Hanefî fetva usulüne göre aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Zâhirü’r-rivâyede yer alan görüş, nâdir rivayete tercih edilir.",
+    "Yargılama ve kazâ ile ilgili meselelerde genellikle Ebû Yûsuf’un görüşü esas alınır.",
+    "Zamanın ve örfün değişmesinden doğan görüş ayrılıklarında sonraki âlimlerin görüşüne göre fetva verilebilir.",
+    "Ebû Hanîfe ile talebelerinden biri aynı görüşte birleşmişse fetva bu görüşe göre verilir.",
+    "Mezhep imamlarının görüşleri arasında tercih yapılırken her durumda Züfer’in görüşü önceliklidir."
+   ],
+   "d": 4,
+   "a": "Züfer’in görüşüyle fetva verilen meseleler yirmi civarında sınırlı bir sayıdadır; genel öncelik Ebû Hanîfe, sonra Ebû Yûsuf, sonra İmam Muhammed’dir.",
+   "ac": [
+    "Doğru: zâhirü’r-rivâye en güvenilir tabakadır.",
+    "Doğru: Ebû Yûsuf başkadılık tecrübesi nedeniyle kazâda esas alınır.",
+    "Doğru: şahitlerin tezkiyesi bu türün örneğidir.",
+    "Doğru: imam ile talebesinin ittifakı güçlü kabul edilir.",
+    "Yanlış: Züfer’in görüşü yalnız sınırlı meselelerde esas alınır."
+   ],
+   "kay": "İbn Âbidîn, Şerhu Ukūdi resmi’l-müftî"
+  },
+  {
+   "id": "fk4-05",
+   "z": 2,
+   "s": "Mecelle-i Ahkâm-ı Adliyye ile ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Aile ve miras hukukunu da kapsayan 16 kitaptan oluşur.",
+    "1869-1876 yılları arasında kitaplar hâlinde yürürlüğe girmiştir.",
+    "Hanefî mezhebine göre muamelat hükümlerini düzenler.",
+    "Ahmed Cevdet Paşa başkanlığındaki bir heyet tarafından hazırlanmıştır.",
+    "Mukaddimesinde fıkhın tanımı ile 99 küllî kaide yer alır."
+   ],
+   "d": 0,
+   "a": "Mecelle 16 kitap ve 1851 maddeden oluşur, ancak aile ve miras hukukunu kapsamaz; aile hukuku 1917’de Hukuk-ı Aile Kararnamesi ile düzenlenmiştir.",
+   "ac": [
+    "Yanlış: Mecelle’de aile ve miras hukuku yoktur.",
+    "Doğru.",
+    "Doğru.",
+    "Doğru.",
+    "Doğru: mukaddime 100 maddedir; ilki tanım, kalanı kaidedir."
+   ],
+   "kay": "Mecelle, Mukaddime"
+  },
+  {
+   "id": "fk4-06",
+   "z": 3,
+   "s": "Hicrî ikinci asırda Irak’ta yaşayan bu fakihler hadislerin görece az, yeni meselelerin çok olduğu bir çevrede, hükümlerin gerekçelerini araştırmayı ve henüz yaşanmamış olaylar için de çözüm üretmeyi benimsedi. Bu yaklaşımın kökü İbn Mes’ûd’a, oradan Alkame ve İbrâhim en-Nehaî’ye uzanır.\n\nParçada anlatılan yaklaşım ve özelliğiyle ilgili kavramlar aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Ehl-i hadis – fukahâ-i seb’a",
+    "Ehl-i re’y – fıkh-ı takdîrî",
+    "Ehl-i re’y – amel-i ehl-i Medine",
+    "Ehl-i hadis – fıkh-ı takdîrî",
+    "Zâhirîlik – ta’lîlin reddi"
+   ],
+   "d": 1,
+   "a": "Kûfe merkezli ehl-i re’y, illet araştırmasını ve farazi meselelere çözüm üretmeyi (fıkh-ı takdîrî) benimsemiştir.",
+   "ac": [
+    "Ehl-i hadis Medine merkezlidir; fukahâ-i seb’a da Medineli tâbiîndir.",
+    "Doğru.",
+    "Medine ameli Mâlikî delilidir.",
+    "Ehl-i hadis farazi meselelerle uğraşmayı hoş görmemiştir.",
+    "Zâhirîlik 3. asırda ortaya çıkmış, illet araştırmasını reddetmiştir."
+   ],
+   "kay": "Konu: Tâbiîn dönemi"
+  },
+  {
+   "id": "fk4-07",
+   "z": 2,
+   "s": "Aşağıdaki eserlerden hangisi, mezheplerin görüşlerini delilleriyle karşılaştırmalı olarak ele alan bir hilâf eseridir?",
+   "c": [
+    "el-Müdevvene",
+    "Mülteka’l-ebhur",
+    "Bidâyetü’l-müctehid ve nihâyetü’l-muktesid",
+    "Minhâcü’t-tâlibîn",
+    "Muhtasarü’l-Hırakî"
+   ],
+   "d": 2,
+   "a": "İbn Rüşd’ün Bidâyetü’l-müctehid’i mezhepler arasındaki ihtilafları sebepleri ve delilleriyle inceleyen mukayeseli bir eserdir.",
+   "ac": [
+    "Mâlikî mezhebinin temel eseridir.",
+    "Hanefî mezhebinin Osmanlı’daki temel metnidir.",
+    "Doğru.",
+    "Nevevî’nin Şâfiî metnidir.",
+    "Hanbelî mezhebinin ilk muhtasarlarındandır."
+   ],
+   "kay": "Konu: Fıkıh literatürü"
+  },
+  {
+   "id": "fk4-08",
+   "z": 3,
+   "s": "Bir fakih şöyle demektedir: “Ebû Hanîfe döneminde insanların çoğunluğu dürüst olduğu için şahitlerin dış görünüşüne bakılarak adil sayılması yeterliydi. Sonraki dönemde ahlak bozulunca şahitlerin gizlice araştırılması gerekli oldu. Bu, delil farkı değil, zaman farkıdır.”\n\nBu açıklama, Hanefî fetva usulündeki hangi ilkeyi örneklendirir?",
+   "c": [
+    "Zâhirü’r-rivâyenin nevâdire tercihi",
+    "Kazâ meselelerinde Ebû Yûsuf’un tercihi",
+    "Mefhûm-ı muhâlefetin akitlerde dikkate alınması",
+    "Zamanın değişmesiyle sonraki âlimlerin görüşünün tercih edilmesi",
+    "İçtihadın içtihatla nakzedilmemesi"
+   ],
+   "d": 3,
+   "a": "Hanefî fetva usulünde “ihtilâfü asr ve zamân” denilen, zamanın ve örfün değişmesinden doğan görüş farklılıklarında sonraki âlimlerin (burada İmameyn) görüşü esas alınır.",
+   "ac": [
+    "Rivayet tabakası değil, zaman farkı söz konusudur.",
+    "Ebû Yûsuf kazâ tecrübesiyle tercih edilir; ama burada ölçü zamanın değişmesidir.",
+    "Konu lafız delâleti değildir.",
+    "Doğru.",
+    "Bu kaide önceki kararların bozulmamasıyla ilgilidir."
+   ],
+   "kay": "Mecelle, md. 39; Konu: Fetva usulü"
+  },
+  {
+   "id": "fk4-09",
+   "z": 3,
+   "s": "Aşağıdaki fıkıh dalı – konu – eser eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Siyer – devletler hukuku – es-Siyerü’l-kebîr",
+    "Furûk – benzer meseleler arasındaki farklar – el-Furûk (Karâfî)",
+    "Hiyel – hukukî çıkış yolları – Kitâbü’l-hiyel (Hassâf)",
+    "Ferâiz – miras hukuku – es-Sirâciyye",
+    "Edebü’l-kādî – kamu maliyesi – Kitâbü’l-emvâl"
+   ],
+   "d": 4,
+   "a": "Edebü’l-kādî yargılama usulü ve hâkimin âdabını inceler; kamu maliyesi harâc ve emvâl kitaplarının konusudur. Kitâbü’l-emvâl Ebû Ubeyd’in maliye eseridir.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Yanlış: edebü’l-kādî yargılama hukukudur; Kitâbü’l-emvâl maliye eseridir."
+   ],
+   "kay": "Konu: Fıkhın dalları"
+  }
+ ]
+}

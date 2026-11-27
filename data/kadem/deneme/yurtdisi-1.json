@@ -1,0 +1,927 @@
+{
+ "id": "yurtdisi-1",
+ "ad": "1. Deneme",
+ "aciklama": "2022 ve 2025 mülakat konuları, 2025 duyurusundaki bölüm ağırlıkları · 40 soru · 0 kolay, 11 orta, 29 zor",
+ "sorular": [
+  {
+   "id": "ydd1-01",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "ص harfinin sıfatları ile ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Safîr (ıslık sesi) sıfatına sahiptir.",
+    "İstiʿlâ (kalın okunma) sıfatına sahiptir.",
+    "İtbâk sıfatına sahiptir.",
+    "Kalkale sıfatına sahiptir.",
+    "Hems (nefesin akması) sıfatına sahiptir."
+   ],
+   "d": 3,
+   "a": "ص harfi safîr, isti‘lâ, itbâk, hems ve rehâvet sıfatlarını taşır. Kalkale harfleri “kutbu cedin” (ق ط ب ج د) ile toplanır.",
+   "ac": [
+    "Safîr harfleri ص، س، ز’dir; doğru bilgidir.",
+    "ص isti‘lâ harflerindendir; doğru bilgidir.",
+    "İtbâk harfleri ص، ض، ط، ظ’dir; doğru bilgidir.",
+    "Doğru cevap: kalkale harfleri ق، ط، ب، ج، د’dir; ص bunlardan değildir.",
+    "ص mehmûse harflerindendir; doğru bilgidir."
+   ],
+   "kay": "Tecvid: harflerin sıfatları"
+  },
+  {
+   "id": "ydd1-02",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "Mesleki yeterlik sözlüsünde ezberden sorulan sureler ile ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "Yâsîn – “Kur’an’ın kalbi” olarak anılır, ahiret ve diriliş delilleri ağırlıktadır.",
+    "Mülk – Allah’ın yaratmadaki kusursuzluğu ve kabir azabından koruyuculuğu ile bilinir.",
+    "Rahmân – Bedir Savaşının ganimetlerini düzenler.",
+    "Hucurât – Toplumsal adaplar, kardeşlik, gıybet ve alay etmenin yasaklanması",
+    "Fetih – Hudeybiye Antlaşması dönüşünde inmiş, “apaçık bir fetih” müjdesini verir."
+   ],
+   "d": 2,
+   "a": "Rahmân suresi “Rabbinizin hangi nimetini yalanlayabilirsiniz?” nakaratıyla nimetleri hatırlatır. Bedir ve ganimet konusu Enfâl suresindedir.",
+   "ac": [
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Yanlış eşleştirme budur: ganimet hükümleri Enfâl suresindedir; Rahmân nimetleri sayar.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir."
+   ],
+   "kay": "Yâsîn, Mülk, Fetih, Hucurât, Rahmân sureleri"
+  },
+  {
+   "id": "ydd1-03",
+   "ders": "Kur’an Bilgisi",
+   "z": 2,
+   "s": "“Ey insanlar! Şüphesiz biz sizi bir erkek ile bir dişiden yarattık. Birbirinizi tanımanız için sizi milletlere ve kabilelere ayırdık. Allah katında en üstün olanınız, O’na karşı gelmekten en çok sakınanınızdır.” ayeti hangi suredendir?",
+   "c": [
+    "Rûm",
+    "Nisâ",
+    "Hucurât",
+    "Mülk",
+    "Yâsîn"
+   ],
+   "d": 2,
+   "a": "Hucurât 49/13, insanların eşitliğini ve üstünlüğün takvada olduğunu bildirir. Yurt dışında ırkçılığa karşı en çok kullanılan ayettir.",
+   "ac": [
+    "Rûm suresinde dillerin ve renklerin farklılığından söz edilir; bu ayet orada değildir.",
+    "Nisâ suresi “sizi tek bir candan yaratan” ifadesiyle başlar; bu ayet orada değildir.",
+    "Doğru: Hucurât 49/13’tür.",
+    "Mülk suresi yaratmadaki kusursuzluğu anlatır.",
+    "Yâsîn suresinde bu ayet yer almaz."
+   ],
+   "kay": "Hucurât, 49/13"
+  },
+  {
+   "id": "ydd1-04",
+   "ders": "Kur’an Bilgisi",
+   "z": 3,
+   "s": "Mahreçler ile ilgili:\nI. ح ve ع harfleri boğazın ortasından çıkar.\nII. ض harfi dilin yan tarafının azı dişlerine dayanmasıyla çıkar.\nIII. ث، ذ، ظ harfleri dil ucunun ön dişlerin ucuna değmesiyle çıkar.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "ح ve ع vasat-ı halktan, ض dilin yanından (hâfe), ث ذ ظ ise dil ucu ile üst ön dişlerin ucundan çıkar.",
+   "ac": [
+    "Eksik: diğer iki mahreç bilgisi de doğrudur.",
+    "Eksik: peltek harflerin mahreci de doğru verilmiştir.",
+    "Eksik: ض harfinin mahreci doğru verilmiştir.",
+    "Eksik: ح ve ع vasat-ı halktandır.",
+    "Doğru: üç mahreç bilgisi de doğrudur."
+   ],
+   "kay": "Tecvid: mehâric-i hurûf"
+  },
+  {
+   "id": "ydd1-05",
+   "ders": "Tefsir",
+   "z": 2,
+   "s": "Diyanet İşleri Başkanlığı tarafından hazırlanan ve hayatın içinden konularla ayetleri yorumlayan son tefsir çalışması aşağıdakilerden hangisidir?",
+   "c": [
+    "Hak Dini Kur’an Dili",
+    "Tefhîmü’l-Kur’ân",
+    "Kur’an-ı Kerim’in Türkçe Meâl-i Âlîsi ve Tefsiri",
+    "Hayat Rehberi Kur’an Tefsiri",
+    "Fî Zılâli’l-Kur’ân"
+   ],
+   "d": 3,
+   "a": "Diyanet, Kur’an Yolu Tefsiri’nden sonra Hayat Rehberi Kur’an Tefsiri’ni yayımlamıştır. Kurumun güncel yayınları mülakatta sıkça sorulur.",
+   "ac": [
+    "Elmalılı’nın Cumhuriyet dönemindeki tefsiridir.",
+    "Mevdûdî’nin tefsiridir.",
+    "Ömer Nasuhi Bilmen’in eseridir.",
+    "Doğru: Diyanet’in son tefsir çalışması olarak bilinir; 2022 mülakatında sorulmuştur.",
+    "Seyyid Kutub’un tefsiridir."
+   ],
+   "kay": "Diyanet yayınları"
+  },
+  {
+   "id": "ydd1-06",
+   "ders": "Tefsir",
+   "z": 3,
+   "s": "Tâbiûn tefsiri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Bu dönemde bütün Kur’an’ı kapsayan yazılı tefsirler tamamlanmış ve rivayet tefsiri sona ermiştir.",
+    "Medine’de Übey b. Kâ‘b’ın öğrencileri (Zeyd b. Eslem, Ebü’l-Âliye) öne çıkar.",
+    "Kûfe’de İbn Mes‘ûd’un öğrencileri (Alkame, Mesrûk) öne çıkar.",
+    "Bu dönemde İsrâiliyat rivayetleri artmıştır.",
+    "Mekke’de İbn Abbâs’ın öğrencileri (Mücâhid, İkrime, Saîd b. Cübeyr) öne çıkar."
+   ],
+   "d": 0,
+   "a": "Tâbiûn döneminde Mekke, Medine ve Irak tefsir ekolleri oluşmuş, İsrâiliyat artmıştır. Tefsirin müstakil bir ilim olarak tedvini sonraki asırlara aittir.",
+   "ac": [
+    "Doğru cevap: tefsir bu dönemde henüz tedvin edilmemişti; müstakil tefsirler sonraki dönemde yazılmıştır.",
+    "Doğru bilgidir.",
+    "Doğru bilgidir.",
+    "Doğru bilgidir.",
+    "Doğru bilgidir."
+   ],
+   "kay": "Tefsir tarihi"
+  },
+  {
+   "id": "ydd1-07",
+   "ders": "Tefsir",
+   "z": 3,
+   "s": "Aşağıdakilerden hangisi İsrâiliyat rivayetleriyle adı en çok anılan tâbiûn âlimidir?",
+   "c": [
+    "Hasan-ı Basrî",
+    "Saîd b. Müseyyeb",
+    "Ka‘bü’l-Ahbâr",
+    "İbn Şihâb ez-Zührî",
+    "İbrâhim en-Nehaî"
+   ],
+   "d": 2,
+   "a": "Ka‘bü’l-Ahbâr ve Vehb b. Münebbih, İsrâiliyatın en çok anılan ravileridir. 2025 mülakatında bu konuda bir isim istenmiştir.",
+   "ac": [
+    "Zühd ve vaazlarıyla tanınır.",
+    "Medine fakihlerindendir.",
+    "Doğru: Yahudi kökenli olup Müslüman olmuş, ehl-i kitap kültürünü nakletmiştir.",
+    "Hadis tedvini ile tanınır.",
+    "Kûfe fıkıh ekolünün öncülerindendir."
+   ],
+   "kay": "Tefsir tarihi: İsrâiliyat"
+  },
+  {
+   "id": "ydd1-08",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "Evrendeki düzen ve uyumdan, onu bilinçli bir yaratıcının amaçlı olarak var ettiği sonucuna ulaşan delil aşağıdakilerden hangisidir?",
+   "c": [
+    "Hudûs delili",
+    "İmkân delili",
+    "Ahlak delili",
+    "Gaye ve nizam delili",
+    "Fıtrat delili"
+   ],
+   "d": 3,
+   "a": "Gaye ve nizam delili, evrendeki düzen, uyum ve amaçlılığın bilinçli bir yaratıcıya işaret ettiğini savunur.",
+   "ac": [
+    "Âlemin sonradan oluşuna dayanır.",
+    "Varlıkların mümkün oluşuna dayanır.",
+    "Ahlaki sorumluluk bilincinden yola çıkar.",
+    "Doğru: düzen ve amaçlılıktan yaratıcıya gider; 2025 mülakatında sorulmuştur.",
+    "İnsanın yaratılıştan gelen inanma eğiliminden yola çıkar."
+   ],
+   "kay": "Kelam: Allah’ın varlığının delilleri"
+  },
+  {
+   "id": "ydd1-09",
+   "ders": "Akaid ve Kelam",
+   "z": 3,
+   "s": "İmam Ebû Hanîfe’ye nispet edilen akaid eserleri aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "el-İbâne, Makâlâtü’l-İslâmiyyîn",
+    "Kitâbü’t-Tevhîd, Te’vîlâtü’l-Kur’ân",
+    "el-Fıkhu’l-ekber, el-Âlim ve’l-müteallim, el-Vasıyye",
+    "el-Muvatta’, el-Müdevvene",
+    "er-Risâle, el-Ümm"
+   ],
+   "d": 2,
+   "a": "Ebû Hanîfe’nin görüşleri el-Fıkhu’l-ekber, el-Fıkhu’l-ebsat, er-Risâle, el-Âlim ve’l-müteallim ve el-Vasıyye ile günümüze ulaşmıştır.",
+   "ac": [
+    "Bunlar Eş‘arî’nindir.",
+    "Bunlar İmam Mâturîdî’nindir.",
+    "Doğru: Ebû Hanîfe’nin itikadi görüşlerini aktaran beş risaleden üçüdür.",
+    "Mâlikî fıkıh eserleridir.",
+    "Şâfiî’nin eserleridir."
+   ],
+   "kay": "Kelam tarihi"
+  },
+  {
+   "id": "ydd1-10",
+   "ders": "Akaid ve Kelam",
+   "z": 2,
+   "s": "Eş‘arî’nin hocası Cübbâî ile tartıştığı ve Allah’a “en uygun olanı yaratmanın” vacip olup olmadığı meselesini gündeme getiren örnek aşağıdakilerden hangisidir?",
+   "c": [
+    "Üç kardeş meselesi (ihve-i selâse)",
+    "Halku’l-Kur’ân meselesi",
+    "Tahkîm meselesi",
+    "Mihne meselesi",
+    "Kader meselesi"
+   ],
+   "d": 0,
+   "a": "Eş‘arî, mümin, kâfir ve küçükken ölen üç kardeş örneğiyle Allah’a aslahın vacip olduğu görüşünü eleştirmiş ve Mu‘tezile’den ayrılmıştır.",
+   "ac": [
+    "Doğru: Mu‘tezile’nin salah-aslah görüşüne karşı tasarlanmıştır.",
+    "Kur’an’ın mahluk olup olmadığı tartışmasıdır.",
+    "Sıffîn sonrasında hakem olayıdır.",
+    "Abbâsîler döneminde halku’l-Kur’ân sorgulamasıdır.",
+    "Genel bir tartışmadır; bu örneğin adı değildir."
+   ],
+   "kay": "Kelam tarihi"
+  },
+  {
+   "id": "ydd1-11",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Miras hukukunda paylar toplamının terekeyi aşması durumunda payların orantılı olarak azaltılmasına ve paylar toplamı terekeyi doldurmadığında artanın hak sahiplerine payları oranında geri dağıtılmasına sırasıyla ne ad verilir?",
+   "c": [
+    "Avl – redd",
+    "Redd – avl",
+    "Hacb – avl",
+    "Tahâruc – redd",
+    "Asabe – hacb"
+   ],
+   "d": 0,
+   "a": "Avl, paylar toplamı terekeyi aşınca payların orantılı azaltılmasıdır. Redd ise paylar toplamı terekeyi doldurmayınca artanın ashâbü’l-ferâiza dağıtılmasıdır.",
+   "ac": [
+    "Doğru: 2025 mülakatında sorulan kavramlardır.",
+    "Kavramların sırası ters verilmiştir.",
+    "Hacb, bir mirasçının başka bir mirasçı sebebiyle mirastan düşmesidir.",
+    "Tahâruc, mirastan bir karşılık alarak çekilmedir.",
+    "Asabe, kalan mirası alan mirasçılardır."
+   ],
+   "kay": "Ferâiz"
+  },
+  {
+   "id": "ydd1-12",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hanefî mezhebine göre aşağıdakilerden hangisi orucu bozmaz?",
+   "c": [
+    "Diş çekiminden sonra çıkan kanın tükürükten fazla olup yutulması",
+    "Burna ilaç çekmek",
+    "Ağız dolusu kasten kusmak",
+    "Besin değeri taşımayan bir iğne yaptırmak",
+    "Unuttuğunu hatırladıktan sonra yemeye devam etmek"
+   ],
+   "d": 3,
+   "a": "Damar yoluyla besleme dışındaki, besin değeri taşımayan iğneler orucu bozmaz. Diş kanaması ise kan tükürükten fazla olup yutulursa orucu bozar.",
+   "ac": [
+    "Tükürükten fazla kan yutulursa oruç bozulur.",
+    "Burundan alınan ilaç orucu bozar.",
+    "Kasten ağız dolusu kusmak orucu bozar.",
+    "Doğru: 2022 mülakatında sorulmuştur; besin değeri taşımayan iğne orucu bozmaz.",
+    "Hatırladıktan sonra yemeye devam eden kişinin orucu bozulur."
+   ],
+   "kay": "İlmihal: oruç"
+  },
+  {
+   "id": "ydd1-13",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Mest üzerine mesh ile ilgili:\nI. Mest, abdestli olarak giyilmiş olmalıdır.\nII. Mukim için mesh süresi bir gün bir gece (24 saat), seferî için üç gün üç gecedir.\nIII. Ayağı topuklarla birlikte örten ve üzerinde yürünebilen bot ve çizmeye de şartları varsa mesh yapılabilir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Mest abdestli giyilir; mesh süresi mukimde 24 saat, seferîde 72 saattir. Topukları örten, dayanıklı ve su geçirmeyen bot ve çizmelere de mesh yapılabilir.",
+   "ac": [
+    "Eksik: mesh süresi ve bot-çizme bilgisi de doğrudur.",
+    "Eksik: şartları taşıyan bot ve çizmeye mesh yapılabilir.",
+    "Eksik: mesh süreleri de doğrudur.",
+    "Eksik: mestin abdestli giyilmesi şarttır.",
+    "Doğru: üç bilgi de doğrudur; bot ve çizme sorusu 2022 mülakatında gelmiştir."
+   ],
+   "kay": "İlmihal: mest üzerine mesh"
+  },
+  {
+   "id": "ydd1-14",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 2,
+   "s": "Yemin keffâreti ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "On fakiri doyurmak ya da giydirmek veya bir köle azat etmek; buna gücü yetmeyen üç gün oruç tutar.",
+    "Yalnız üç gün oruç tutmakla ödenir.",
+    "Altmış gün peş peşe oruç tutmaktır.",
+    "Yalnız kurban kesmektir.",
+    "Keffâret gerekmez, tövbe yeterlidir."
+   ],
+   "d": 0,
+   "a": "Mâide 5/89’a göre yemin keffâreti on fakiri doyurmak ya da giydirmek veya köle azat etmektir; bunlara gücü yetmeyen üç gün oruç tutar.",
+   "ac": [
+    "Doğru: Mâide 5/89’daki sıralamadır.",
+    "Oruç, diğer seçeneklere gücü yetmeyen için son seçenektir.",
+    "Bu, oruç keffâretidir.",
+    "Yemin keffâretinde kurban yoktur.",
+    "Bozulan yemin için keffâret gerekir."
+   ],
+   "kay": "Mâide, 5/89"
+  },
+  {
+   "id": "ydd1-15",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hacca gitmekle yükümlü olmanın (vücûb) şartları arasında aşağıdakilerden hangisi yer almaz?",
+   "c": [
+    "Müslüman olmak",
+    "Akıllı ve ergen olmak",
+    "Hür olmak",
+    "İhrama girmek",
+    "Haccın masraflarını karşılayacak mali güce sahip olmak"
+   ],
+   "d": 3,
+   "a": "Haccın farz olma şartları: Müslüman, akıllı, ergen, hür ve mali güce sahip olmak, vakit. Edânın şartları arasında sağlık ve yol güvenliği sayılır. İhram ise haccın farzıdır.",
+   "ac": [
+    "Vücûb şartıdır.",
+    "Vücûb şartıdır.",
+    "Vücûb şartıdır.",
+    "Doğru cevap: ihram haccın farzlarındandır, yükümlülük şartı değildir.",
+    "Vücûb şartıdır."
+   ],
+   "kay": "İlmihal: hac"
+  },
+  {
+   "id": "ydd1-16",
+   "ders": "Fıkıh ve İlmihal",
+   "z": 3,
+   "s": "Hanefî fıkhının dört temel metni (mütûn-i erbaa) aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "el-Fıkhu’l-ekber, Kitâbü’t-Tevhîd, Akâid, Tahâvî",
+    "el-Hidâye, el-Mebsût, Bedâi‘u’s-sanâi‘, Fethu’l-kadîr",
+    "el-Muvatta’, el-Ümm, el-Muğnî, el-Mecmû‘",
+    "Mecelle, Dürer, Mülteka, Reddü’l-muhtâr",
+    "Muhtasarü’l-Kudûrî, el-Muhtâr, Kenzü’d-dekâik, Vikâyetü’r-rivâye"
+   ],
+   "d": 4,
+   "a": "Mütûn-i erbaa genellikle Kudûrî, Muhtâr, Kenz ve Vikâye (ya da Mecma‘) olarak sayılır. 2025 mülakatında sorulmuştur.",
+   "ac": [
+    "Bunlar akaid eserleridir.",
+    "Bunlar şerh ve büyük eserlerdir; metin değildir.",
+    "Bunlar farklı mezheplerin eserleridir.",
+    "Mülteka bir metin ise de dörtlü listede yer almaz; Reddü’l-muhtâr haşiyedir.",
+    "Doğru: bazı kaynaklarda Vikâye yerine Mecma‘u’l-bahreyn sayılır."
+   ],
+   "kay": "Hanefî fıkıh literatürü"
+  },
+  {
+   "id": "ydd1-17",
+   "ders": "Hadis",
+   "z": 3,
+   "s": "Zayıf bir ravinin, güvenilir ravilerin rivayetine aykırı olarak tek başına rivayet ettiği hadis aşağıdakilerden hangisidir?",
+   "c": [
+    "Şâz",
+    "Münker",
+    "Mevzû",
+    "Mürsel",
+    "Muallel"
+   ],
+   "d": 1,
+   "a": "Münker, zayıf bir ravinin sika ravilere aykırı rivayetidir. Şâz ise sika ravinin kendisinden daha güvenilir ravilere aykırı rivayetidir.",
+   "ac": [
+    "Şâz, sika ravinin daha sika ravilere aykırı rivayetidir.",
+    "Doğru: zayıf ravinin sika ravilere muhalif ve tek kaldığı rivayettir.",
+    "Uydurma hadistir.",
+    "Sahabesi düşmüş hadistir.",
+    "Gizli bir kusur taşıyan hadistir."
+   ],
+   "kay": "Hadis usulü"
+  },
+  {
+   "id": "ydd1-18",
+   "ders": "Hadis",
+   "z": 2,
+   "s": "“Merhamet edenlere Rahmân olan Allah merhamet eder. Yeryüzündekilere merhamet edin ki gökte olanlar da size merhamet etsin.” hadisinin kaynağı aşağıdakilerden hangisidir?",
+   "c": [
+    "Müslim, Hac, 147",
+    "Buhârî, Îmân, 1",
+    "Tirmizî, Birr, 16",
+    "Ebû Dâvûd, Salât, 62",
+    "Nesâî, Nikâh, 36"
+   ],
+   "d": 2,
+   "a": "“er-Râhimûne yerhamuhumu’r-Rahmân…” hadisi Tirmizî’nin Birr bölümünde (16) yer alır ve “müselsel bi’l-evveliyye” olarak bilinir.",
+   "ac": [
+    "Bu yer Veda Hutbesine ilişkin rivayeti içerir.",
+    "Bu yerde niyet ve iman konularına ilişkin hadisler vardır.",
+    "Doğru: 2025 mülakatında bu hadis istenmiştir.",
+    "Bu yer Ümmü Varaka rivayetini içerir.",
+    "Bu yer Hansâ rivayetini içerir."
+   ],
+   "kay": "Tirmizî, Birr, 16"
+  },
+  {
+   "id": "ydd1-19",
+   "ders": "Hadis",
+   "z": 3,
+   "s": "Hasen hadis ile ilgili:\nI. Sahih hadisin şartlarını taşır; ancak ravilerinden birinin zabtı biraz eksiktir.\nII. Makbul hadislerdendir ve onunla amel edilir.\nIII. Bu ıstılahı yaygınlaştıran muhaddis Tirmizî’dir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Hasen hadis, ravilerinden birinin zabtı sahih ravisinden biraz aşağı olan makbul hadistir. Istılahı Tirmizî yaygınlaştırmıştır.",
+   "ac": [
+    "Eksik: amel edilmesi ve Tirmizî bilgisi de doğrudur.",
+    "Eksik: hasen ıstılahını yaygınlaştıran Tirmizî’dir.",
+    "Eksik: hasen hadisle amel edilir.",
+    "Eksik: tanım da doğrudur.",
+    "Doğru: hasen hadisin tanımı, hükmü ve ıstılahın tarihi doğru verilmiştir."
+   ],
+   "kay": "Hadis usulü"
+  },
+  {
+   "id": "ydd1-20",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "Abbâsî halifesi Me’mûn döneminde Bağdat’ta tercüme ve ilim faaliyetlerinin merkezi olarak öne çıkan kurum aşağıdakilerden hangisidir?",
+   "c": [
+    "Nizâmiye Medresesi",
+    "Dârü’l-hadîs",
+    "Ezher",
+    "Beytü’l-hikme",
+    "Süleymaniye Medresesi"
+   ],
+   "d": 3,
+   "a": "Beytü’l-hikme, Me’mûn döneminde Yunanca, Süryanice ve Farsça eserlerin Arapçaya çevrildiği ilim merkezidir. 2022 mülakatında sorulmuştur.",
+   "ac": [
+    "Selçuklu veziri Nizâmülmülk döneminde kurulmuştur.",
+    "Hadis eğitimi veren kurumların genel adıdır.",
+    "Fâtımîler döneminde Kahire’de kurulmuştur.",
+    "Doğru: tercüme, kütüphane ve araştırma merkezi olarak öne çıkmıştır.",
+    "Osmanlı dönemindedir."
+   ],
+   "kay": "İslam medeniyeti tarihi"
+  },
+  {
+   "id": "ydd1-21",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 2,
+   "s": "Hz. Peygamber’in sağlığında yaşayıp Müslüman olduğu hâlde onu görmeyen kimselere ne ad verilir?",
+   "c": [
+    "Sahabe",
+    "Ensar",
+    "Tâbiî",
+    "Muhacir",
+    "Muhadram"
+   ],
+   "d": 4,
+   "a": "Muhadram, Hz. Peygamber döneminde yaşayıp Müslüman olduğu hâlde onu göremeyen kişidir; Üveys el-Karanî buna örnektir. 2022 mülakatında sorulmuştur.",
+   "ac": [
+    "Sahabe, Hz. Peygamber’i mümin olarak gören kişidir.",
+    "Medineli Müslümanlardır.",
+    "Tâbiî, sahabeyi görmüş Müslümandır.",
+    "Mekke’den Medine’ye göç eden Müslümandır.",
+    "Doğru: cahiliye ve İslam dönemine yetişip Hz. Peygamber’i görmeyen Müslümandır."
+   ],
+   "kay": "Hadis ve siyer terimleri"
+  },
+  {
+   "id": "ydd1-22",
+   "ders": "Siyer ve İslam Tarihi",
+   "z": 3,
+   "s": "Hz. Peygamber’e hakaret içeren karikatür yayınlarıyla ilgili aşağıdaki eşleştirmelerden hangisi doğrudur?",
+   "c": [
+    "2005 – Danimarka – Jyllands-Posten gazetesi",
+    "2005 – Fransa – Le Monde gazetesi",
+    "2011 – Hollanda – PVV yayın organı",
+    "2015 – Almanya – Der Spiegel",
+    "2019 – İsveç – Aftonbladet"
+   ],
+   "d": 0,
+   "a": "Karikatür krizi 2005’te Danimarka’da Jyllands-Posten gazetesiyle başlamış, Fransa’da Charlie Hebdo dergisiyle sürmüştür. 2025 mülakatında sorulmuştur.",
+   "ac": [
+    "Doğru: karikatür krizini başlatan yayındır.",
+    "Kriz Danimarka’da başlamıştır.",
+    "Charlie Hebdo Fransız dergisidir.",
+    "Kriz bu yayınla ilgili değildir.",
+    "Kriz bu yayınla ilgili değildir."
+   ],
+   "kay": "Güncel olaylar"
+  },
+  {
+   "id": "ydd1-23",
+   "ders": "Mezhepler Tarihi",
+   "z": 3,
+   "s": "19. yüzyılda Hindistan’da Mirza Gulâm Ahmed tarafından kurulan ve Hz. Muhammed’den sonra peygamberlik iddiası nedeniyle İslam âlimlerinin büyük çoğunluğunca İslam dışı kabul edilen hareket aşağıdakilerden hangisidir?",
+   "c": [
+    "Vehhâbîlik",
+    "Bahâîlik",
+    "Ahmedîlik (Kādiyânîlik)",
+    "Nusayrîlik",
+    "Selefîlik"
+   ],
+   "d": 2,
+   "a": "Ahmedîlik (Kādiyânîlik), Mirza Gulâm Ahmed’in (ö. 1908) kurduğu harekettir; hatm-i nübüvveti reddettiği için İslam dışı sayılır. 2022 ve 2025 mülakatlarında sorulmuştur.",
+   "ac": [
+    "Arap yarımadasında Muhammed b. Abdülvehhâb’ın başlattığı harekettir.",
+    "İran’da Bahâullah’ın kurduğu harekettir.",
+    "Doğru: Mirza Gulâm Ahmed’in kurduğu harekettir.",
+    "Hz. Ali’ye ilahlık isnat eden bâtınî bir fırkadır.",
+    "İlk nesillerin anlayışına dönüşü savunan akımdır."
+   ],
+   "kay": "Mezhepler tarihi"
+  },
+  {
+   "id": "ydd1-24",
+   "ders": "Dinler Tarihi",
+   "z": 3,
+   "s": "Protestanlık ile Katoliklik arasındaki farklarla ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Protestanlar Papanın dinî otoritesini kabul etmez.",
+    "Protestanlığın kurucusu Ortodoks Kilisesinden ayrılan Petrus’tur.",
+    "Katoliklikte yedi sakrament kabul edilir; Protestanlar çoğunlukla vaftiz ve komünyonu kabul eder.",
+    "Protestanlıkta din adamlarının evlenmesi serbesttir.",
+    "Protestanlıkta kurtuluş “yalnız iman” ve “yalnız Kitap” ilkelerine dayanır."
+   ],
+   "d": 1,
+   "a": "Protestanlık, 1517’de Martin Luther’in tezleriyle başlamış, Calvin ile yayılmıştır. Papanın otoritesini reddeder ve “yalnız iman, yalnız Kitap, yalnız lütuf” ilkelerine dayanır.",
+   "ac": [
+    "Doğru bilgidir.",
+    "Doğru cevap: Protestanlık 16. yüzyılda Martin Luther ve Jean Calvin ile başlamıştır; Petrus Katoliklerin ilk papa saydığı havaridir.",
+    "Doğru bilgidir.",
+    "Doğru bilgidir.",
+    "Doğru bilgidir."
+   ],
+   "kay": "Dinler tarihi: Hristiyan mezhepleri"
+  },
+  {
+   "id": "ydd1-25",
+   "ders": "Dinler Tarihi",
+   "z": 3,
+   "s": "Hristiyan ayinleri ile ilgili:\nI. Vaftiz, kişinin Hristiyan topluluğuna katıldığını simgeleyen sudan geçirme ayinidir.\nII. Komünyon (Evharistiya), ekmek ve şarapla yapılan ayindir.\nIII. Katoliklikte yedi sakrament kabul edilir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "Vaftiz Hristiyanlığa giriş ayinidir. Komünyon ekmek ve şarapla yapılır. Katoliklik ve Ortodokslukta yedi sakrament vardır.",
+   "ac": [
+    "Eksik: komünyon ve sakrament sayısı da doğrudur.",
+    "Eksik: Katoliklikte sakrament sayısı yedidir.",
+    "Eksik: komünyon tanımı da doğrudur.",
+    "Eksik: vaftiz tanımı da doğrudur.",
+    "Doğru: üç bilgi de doğrudur; vaftiz 2022 mülakatında sorulmuştur."
+   ],
+   "kay": "Dinler tarihi: Hristiyan ayinleri"
+  },
+  {
+   "id": "ydd1-26",
+   "ders": "Din Hizmetleri ve Hitabet",
+   "z": 3,
+   "s": "Yurt dışında bir camide cuma hutbesi okuyan din görevlisinin dikkat etmesi gereken hususlarla ilgili:\nI. Hutbe, Başkanlıkça hazırlanan metin esas alınarak kısa ve anlaşılır tutulmalıdır.\nII. Cemaatin bir kısmı Türkçeyi iyi anlamıyorsa hutbenin özeti bulunulan ülkenin dilinde de verilebilir.\nIII. Hutbede güncel siyasi tartışmalarda taraf tutan bir dil kullanılmalıdır.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "Hutbe kısa, anlaşılır ve birleştirici olmalıdır. Anayasa md. 136 gereği Diyanet hizmetleri siyasi görüş ve düşünüşlerin dışında kalır.",
+   "ac": [
+    "Eksik: ülke dilinde özet de uygun bir uygulamadır.",
+    "Doğru: hutbede siyasi taraf tutmak din hizmetinin tarafsızlığına aykırıdır.",
+    "Üçüncü ifade yanlıştır.",
+    "Üçüncü ifade yanlıştır.",
+    "Üçüncü ifade yanlıştır."
+   ],
+   "kay": "Anayasa md. 136; hitabet ilkeleri"
+  },
+  {
+   "id": "ydd1-27",
+   "ders": "Din Hizmetleri ve Hitabet",
+   "z": 2,
+   "s": "Gençlere yönelik olarak Diyanet İşleri Başkanlığınca yayımlanan dergi aşağıdakilerden hangisidir?",
+   "c": [
+    "Cîm Dergisi",
+    "Diyanet Aile Dergisi",
+    "Diyanet Çocuk Dergisi",
+    "Diyanet İlmî Dergi",
+    "Diyanet Aylık Dergi"
+   ],
+   "d": 0,
+   "a": "Diyanet’in süreli yayınları arasında Diyanet Aylık, Aile, Çocuk, gençlik dergisi Cîm ve akademik Diyanet İlmî Dergi bulunur.",
+   "ac": [
+    "Doğru: Diyanet’in gençlik dergisidir.",
+    "Ailelere yöneliktir.",
+    "Çocuklara yöneliktir.",
+    "Akademik bir dergidir.",
+    "Genel okuyucuya yöneliktir."
+   ],
+   "kay": "Diyanet süreli yayınları"
+  },
+  {
+   "id": "ydd1-28",
+   "ders": "Yurt Dışı Din Hizmetleri",
+   "z": 3,
+   "s": "Avrupa’daki Diyanet bağlantılı kuruluşlarla ilgili:\nI. DİTİB 1984’te Köln’de kurulmuştur.\nII. Hollanda’daki çatı kuruluş ISN’dir.\nIII. Camilerin mülkiyeti doğrudan Diyanet İşleri Başkanlığına aittir.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "DİTİB 1984’te Köln’de, ISN Hollanda’da kurulmuştur. Camiler bulunulan ülkenin hukukuna göre kurulmuş derneklere aittir; din görevlisini Diyanet görevlendirir.",
+   "ac": [
+    "Eksik: ISN bilgisi de doğrudur.",
+    "Doğru: camilerin mülkiyeti yerel derneklerdedir.",
+    "Üçüncü ifade yanlıştır.",
+    "Üçüncü ifade yanlıştır.",
+    "Üçüncü ifade yanlıştır."
+   ],
+   "kay": "Avrupa’da Diyanet’le bağlantılı kuruluşlar"
+  },
+  {
+   "id": "ydd1-29",
+   "ders": "Yurt Dışı Din Hizmetleri",
+   "z": 3,
+   "s": "2025 yurt dışı sınav duyurusuna göre aşağıdakilerden hangisi başvuru şartları arasında yer almaz?",
+   "c": [
+    "Başkanlıkta 657 sayılı Kanunun 4/A maddesine göre beş yıl görev yapmış olmak",
+    "En az iki yıllık dinî yükseköğrenim mezunu olmak",
+    "2023, 2024 veya 2025 MBSTS’lerinden birine girmiş olmak",
+    "Son on yılda uyarma ve kınamadan daha ağır disiplin cezası almamış olmak",
+    "Hafızlık belgesine sahip olmak"
+   ],
+   "d": 4,
+   "a": "Genel şartlar: 4/A ile beş yıl hizmet, adaylığın kalkmış olması, iki yıllık dinî yükseköğrenim, son üç yılın MBSTS’sine girmiş olmak, son on yılda uyarma-kınamadan ağır ceza almamak.",
+   "ac": [
+    "Şartlar arasındadır.",
+    "Şartlar arasındadır.",
+    "Şartlar arasındadır.",
+    "Şartlar arasındadır.",
+    "Doğru cevap: hafızlık yalnız bazı özel kontenjanlarda aranır, genel şart değildir."
+   ],
+   "kay": "2025 Yurt Dışı Uzun Süreli Din Görevlisi Sınav Duyurusu"
+  },
+  {
+   "id": "ydd1-30",
+   "ders": "Yurt Dışı Din Hizmetleri",
+   "z": 2,
+   "s": "İslam’a ve Müslümanlara yönelik korku, önyargı ve düşmanlığı ifade eden kavram aşağıdakilerden hangisidir?",
+   "c": [
+    "Antisemitizm",
+    "Oryantalizm",
+    "Ksenofobi",
+    "İslamofobi",
+    "Sekülerizm"
+   ],
+   "d": 3,
+   "a": "İslamofobi, İslam ve Müslümanlara yönelik korku, önyargı ve düşmanlıktır.",
+   "ac": [
+    "Yahudilere yönelik düşmanlıktır.",
+    "Batının Doğu’yu inceleme ve tasvir etme biçimidir.",
+    "Genel olarak yabancı düşmanlığıdır.",
+    "Doğru: 2022 ve 2025 mülakatlarında sorulmuştur.",
+    "Toplumsal hayatın dinden bağımsızlaşmasıdır."
+   ],
+   "kay": "Güncel kavramlar"
+  },
+  {
+   "id": "ydd1-31",
+   "ders": "Yurt Dışı Din Hizmetleri",
+   "z": 3,
+   "s": "Yurt dışında görev yapan bir din görevlisinin, cemaatinden gelen “Ev kredisi faizli; kirada oturmak çok pahalı, ne yapayım?” sorusuna vereceği en uygun cevap aşağıdakilerden hangisidir?",
+   "c": [
+    "Faizin haram olduğunu hatırlatıp önce faizsiz finans ve diğer imkânları araştırmasını; gerçek bir zaruret varsa durumunu ayrıntılı değerlendirmek için Din İşleri Yüksek Kurulunun görüşüne başvurulabileceğini söylemek",
+    "Gayrimüslim ülkede faiz yasağının uygulanmadığını söylemek",
+    "Faizli krediyi her durumda caiz görmek",
+    "Kiranın pahalı olmasının tek başına zaruret olduğunu söylemek",
+    "Soruyu cevaplamayıp konuyu geçiştirmek"
+   ],
+   "d": 0,
+   "a": "Din görevlisi hükmü ve şartlarını doğru aktarır; zaruret değerlendirmesinde DİYK’nin ölçülerini esas alır.",
+   "ac": [
+    "Doğru: ilke, zaruret şartları ve doğru kaynak birlikte verilmiştir.",
+    "Faiz yasağı mekâna göre değişmez.",
+    "Zaruret şartı aranmadan caiz görmek doğru değildir.",
+    "Pahalılık tek başına zaruret sayılmaz.",
+    "Din görevlisinin rehberlik görevine aykırıdır."
+   ],
+   "kay": "DİYK kararları; ydh-2"
+  },
+  {
+   "id": "ydd1-32",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "657 sayılı Kanuna göre görev yerinde huzuru ve sükûnu bozacak davranışlarda bulunan memura verilecek disiplin cezası aşağıdakilerden hangisidir?",
+   "c": [
+    "Uyarma",
+    "Kınama",
+    "Aylıktan kesme",
+    "Kademe ilerlemesinin durdurulması",
+    "Devlet memurluğundan çıkarma"
+   ],
+   "d": 1,
+   "a": "Görev mahallinde huzur ve sükûnu bozacak davranışlarda bulunmak, 657 md. 125/B’ye göre kınama cezasını gerektirir.",
+   "ac": [
+    "Daha hafif fiillere verilir.",
+    "Doğru: 2022 mülakatında sorulmuştur; md. 125/B’de sayılır.",
+    "Daha ağır fiillere verilir.",
+    "Daha ağır fiillere verilir.",
+    "En ağır cezadır."
+   ],
+   "kay": "657 s. Kanun, md. 125"
+  },
+  {
+   "id": "ydd1-33",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "657 sayılı Kanuna göre amirine ya da maiyetindekilere fiilen tecavüz eden memura verilecek disiplin cezası aşağıdakilerden hangisidir?",
+   "c": [
+    "Kınama",
+    "Aylıktan kesme",
+    "Devlet memurluğundan çıkarma",
+    "Kademe ilerlemesinin durdurulması",
+    "Uyarma"
+   ],
+   "d": 2,
+   "a": "Amirine veya maiyetindekilere fiili tecavüzde bulunmak devlet memurluğundan çıkarma cezasını gerektirir.",
+   "ac": [
+    "Amire saygısızlık kınamayı gerektirir; fiilî tecavüz çok daha ağırdır.",
+    "Daha hafif fiillere verilir.",
+    "Doğru: md. 125/E’de sayılan fiillerdendir; 2022 mülakatında sorulmuştur.",
+    "Amire sözle sataşmak bu cezayı gerektirebilir; fiilî tecavüz daha ağırdır.",
+    "En hafif cezadır."
+   ],
+   "kay": "657 s. Kanun, md. 125"
+  },
+  {
+   "id": "ydd1-34",
+   "ders": "Mevzuat",
+   "z": 2,
+   "s": "633 sayılı Kanuna göre Diyanet İşleri Başkanlığı hangi makama bağlıdır?",
+   "c": [
+    "TBMM Başkanlığına",
+    "Cumhurbaşkanlığına",
+    "Kültür ve Turizm Bakanlığına",
+    "Millî Eğitim Bakanlığına",
+    "Dışişleri Bakanlığına"
+   ],
+   "d": 1,
+   "a": "633 md. 1’e göre Diyanet İşleri Başkanlığı Cumhurbaşkanlığına bağlıdır.",
+   "ac": [
+    "Başkanlık yasama organına bağlı değildir.",
+    "Doğru: 703 sayılı KHK ile Cumhurbaşkanlığına bağlanmıştır.",
+    "Böyle bir bağlılık yoktur.",
+    "Böyle bir bağlılık yoktur.",
+    "Yurt dışı teşkilatı büyükelçiliklerde çalışsa da Başkanlık bu bakanlığa bağlı değildir."
+   ],
+   "kay": "633 s. Kanun, md. 1"
+  },
+  {
+   "id": "ydd1-35",
+   "ders": "Mevzuat",
+   "z": 3,
+   "s": "2025 yurt dışı sınav duyurusuna göre sınavın aşamaları ve geçme puanları ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Mesleki yeterlik sözlüsünde en az 70, temsil yeteneği sınavında en az 60 gerekir.",
+    "MBSTS puanı hesaba katılmaz.",
+    "Temsil yeteneği sınavını Dış İlişkiler Genel Müdürlüğü yapar.",
+    "Sözlü sınava kontenjanın üç katı aday çağrılır.",
+    "Mesleki yeterlik sözlüsünde en az 60, temsil yeteneği sınavında en az 70 gerekir."
+   ],
+   "d": 4,
+   "a": "Mesleki yeterlik sözlüsü için en az 60, temsil yeteneği için en az 70 gerekir. Sıralamada MBSTS ve sözlü puanlarının ortalaması kullanılır.",
+   "ac": [
+    "Puanlar tersine verilmiştir.",
+    "MBSTS puanı sözlü puanla ortalamaya girer.",
+    "Bu sınavı Bakanlıklararası Ortak Kültür Komisyonu yapar.",
+    "Kontenjanın iki katı aday çağrılır.",
+    "Doğru: duyurudaki baraj puanlarıdır."
+   ],
+   "kay": "2025 Yurt Dışı Uzun Süreli Din Görevlisi Sınav Duyurusu"
+  },
+  {
+   "id": "ydd1-36",
+   "ders": "Mevzuat",
+   "z": 2,
+   "s": "Mal bildiriminde bulunma yükümlülüğünü düzenleyen kanun aşağıdakilerden hangisidir?",
+   "c": [
+    "657 sayılı Devlet Memurları Kanunu",
+    "3628 sayılı Mal Bildiriminde Bulunulması, Rüşvet ve Yolsuzluklarla Mücadele Kanunu",
+    "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+    "3071 sayılı Dilekçe Kanunu",
+    "5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu"
+   ],
+   "d": 1,
+   "a": "Mal bildirimi 3628 sayılı Kanunla düzenlenir. Kamu görevlileri belirli dönemlerde ve mal varlıklarında önemli değişiklik olduğunda bildirim verir.",
+   "ac": [
+    "Memurların genel hak ve ödevlerini düzenler; mal bildirimi ayrı kanunda düzenlenmiştir.",
+    "Doğru: mal bildirimini ve yolsuzluk suçlarının soruşturma usulünü düzenler.",
+    "Bilgi edinme hakkını düzenler.",
+    "Dilekçe hakkını düzenler.",
+    "Kamu malî yönetimini düzenler."
+   ],
+   "kay": "3628 s. Kanun"
+  },
+  {
+   "id": "ydd1-37",
+   "ders": "Türkçe",
+   "z": 3,
+   "s": "Aşağıdaki cümlelerin hangisinde yazım yanlışı vardır?",
+   "c": [
+    "Yarın Almanya’ya gideceğiz.",
+    "DİTİB’e bağlı camide görev yaptı.",
+    "Kurban bayramında herkesi ziyaret etti.",
+    "Hutbeyi Türkçe ve Almanca okudu.",
+    "Dinî ve millî bayramlarda cemaate hitap etti."
+   ],
+   "d": 2,
+   "a": "Bayram adları büyük harfle yazılır: Kurban Bayramı, Ramazan Bayramı.",
+   "ac": [
+    "Özel ada gelen ek kesmeyle ayrılmıştır; doğrudur.",
+    "Kısaltmaya gelen ek kesmeyle ayrılmıştır; doğrudur.",
+    "Doğru cevap: bayram adı olduğu için “Kurban Bayramı” şeklinde büyük harfle yazılmalıdır.",
+    "Dil adları büyük yazılmıştır; doğrudur.",
+    "Nispet ekleri şapkayla yazılmıştır; doğrudur."
+   ],
+   "kay": "TDK Yazım Kılavuzu"
+  },
+  {
+   "id": "ydd1-38",
+   "ders": "Genel Kültür",
+   "z": 2,
+   "s": "Türkiye’nin NATO’ya üye olduğu yıl aşağıdakilerden hangisidir?",
+   "c": [
+    "1949",
+    "1952",
+    "1955",
+    "1963",
+    "1996"
+   ],
+   "d": 1,
+   "a": "Türkiye 18 Şubat 1952’de NATO’ya katılmıştır.",
+   "ac": [
+    "NATO’nun kuruluş yılıdır.",
+    "Doğru: 18 Şubat 1952’de Yunanistan ile birlikte üye olmuştur.",
+    "Bu yıl Varşova Paktı kurulmuştur.",
+    "Ankara Antlaşması yılıdır.",
+    "Gümrük Birliği yılıdır."
+   ],
+   "kay": "NATO"
+  },
+  {
+   "id": "ydd1-39",
+   "ders": "Genel Kültür",
+   "z": 3,
+   "s": "Aşağıdaki ülke grubu–ülkeler eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Baltık – Polonya, Macaristan, Çekya",
+    "Baltık – Estonya, Letonya, Litvanya",
+    "İskandinavya – Norveç, İsveç, Danimarka",
+    "Batı Afrika – Fildişi Sahili, Gana, Nijerya, Senegal",
+    "Benelüks – Belçika, Hollanda, Lüksemburg"
+   ],
+   "d": 0,
+   "a": "Baltık ülkeleri Estonya, Letonya ve Litvanya’dır. Polonya, Macaristan, Çekya ve Slovakya Vişegrad grubunu oluşturur.",
+   "ac": [
+    "Yanlış eşleştirme budur: Polonya, Macaristan ve Çekya Orta Avrupa ülkeleridir (Vişegrad grubu).",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir."
+   ],
+   "kay": "Dünya coğrafyası"
+  },
+  {
+   "id": "ydd1-40",
+   "ders": "Genel Kültür",
+   "z": 3,
+   "s": "Aşağıdaki yazar–eser eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Ahmet Hamdi Tanpınar – Saatleri Ayarlama Enstitüsü",
+    "Necip Fazıl Kısakürek – Çile",
+    "Orhan Kemal – Bereketli Topraklar Üzerinde",
+    "Peyami Safa – Kara Kitap",
+    "Halit Ziya Uşaklıgil – Aşk-ı Memnu"
+   ],
+   "d": 3,
+   "a": "Kara Kitap Orhan Pamuk’un romanıdır. Peyami Safa Dokuzuncu Hariciye Koğuşu ve Matmazel Noraliya’nın Koltuğu ile tanınır.",
+   "ac": [
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Yanlış eşleştirme budur: Kara Kitap Orhan Pamuk’undur.",
+    "Doğru eşleştirmedir."
+   ],
+   "kay": "Türk edebiyatı"
+  }
+ ]
+}

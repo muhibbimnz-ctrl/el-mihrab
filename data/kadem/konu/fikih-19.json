@@ -1,0 +1,613 @@
+{
+ "id": "fikih-19",
+ "ad": "Muamelat 1: Mal ve Mülkiyet, Akit Teorisi (Rükün, Unsurlar, Sahih-Fâsit-Bâtıl, Muhayyerlikler), Alım-Satım Çeşitleri (Murâbaha, Selem, İstisnâ), Ribâ (Faiz) ve Garar",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Mal ve mülkiyet"
+  },
+  {
+   "merak": "Bir Müslüman başka bir Müslümanın şarabını döker. Mahkemede tazminat ödemesi gerekmez. Ama aynı kişi bir gayrimüslimin şarabını dökerse Hanefîlere göre tazmin eder. Neden? Çünkü şarap, Müslüman için “mütekavvim” bir mal değildir."
+  },
+  "Mal, insanın tabiatının meylettiği, ihtiyaç anında kullanılmak üzere saklanabilen şeydir. Hanefîlere göre faydalanma hakları (menfaatler) kendi başına mal sayılmaz, ancak akitlerle değer kazanır. Mal çeşitli açılardan sınıflandırılır: Dinen kullanılması mubah olan mal mütekavvim, Müslümanlar için mubah olmayan (şarap, domuz) mal gayr-i mütekavvimdir. Piyasada benzeri bulunan (buğday, para) mal mislî, benzeri bulunmayan (hayvan, ev) mal kıyemîdir. Taşınabilen mallar menkul, taşınamayanlar gayrimenkuldür.",
+  {
+   "tablo": [
+    [
+     "Mal ayrımı",
+     "Açıklama",
+     "Örnek"
+    ],
+    [
+     "Mütekavvim – gayr-i mütekavvim",
+     "Dinen mubah ve korunmuş – Müslüman için mubah olmayan",
+     "Ekmek – şarap, domuz"
+    ],
+    [
+     "Mislî – kıyemî",
+     "Benzeri piyasada bulunan – bulunmayan",
+     "Buğday, para – koyun, el yazması kitap"
+    ],
+    [
+     "Menkul – gayrimenkul",
+     "Taşınabilen – taşınamayan",
+     "Araba – arsa"
+    ],
+    [
+     "İstihlâkî – istimâlî",
+     "Kullanmakla tükenen – tükenmeyen",
+     "Yiyecek – ev, araç"
+    ]
+   ]
+  },
+  "Mülkiyet, bir mal üzerinde sahibine tasarruf ve faydalanma yetkisi veren hukuki bağdır. Mülkiyet tam (hem aynı hem menfaati) ya da nâkıs (yalnız menfaati, kiracı gibi) olabilir. Mülkiyeti kazanma yolları şunlardır: sahipsiz mubah malları ele geçirmek (ihrâz-ı mübâhât: avlanma, ölü araziyi ihya etmek, ormandan odun toplamak), akitler (satış, hibe), halefiyet (miras, tazminat) ve tevellüd (mülkten doğan ürün, hayvanın yavrusu).",
+  {
+   "akil": "Mütekavvim (mubah) – gayr-i mütekavvim (şarap); mislî – kıyemî; menkul – gayrimenkul. Mülkiyet kazanma: ihrâz-ı mübâhât, akit, halefiyet, tevellüd."
+  },
+  {
+   "b": "2. Akit teorisi"
+  },
+  "Akit, iki tarafın karşılıklı irade beyanlarının (icap ve kabul) hukuken geçerli şekilde birleşmesidir. Hanefîlere göre akdin tek rüknü icap ve kabuldür; diğer mezhepler akit taraflarını ve akdin konusunu da rükün sayar. Akdin konusu (mahall) mevcut, teslim edilebilir, belirli ve dinen meşru olmalıdır. Akit tarafları ehliyet sahibi olmalıdır: Vücûb ehliyeti hak sahibi olabilme, edâ ehliyeti ise tasarruflarında bulunabilmedir; tam edâ ehliyeti akıl ve ergenlikle kazanılır.",
+  {
+   "tablo": [
+    [
+     "Akdin sıhhat bakımından türü",
+     "Tanım",
+     "Örnek"
+    ],
+    [
+     "Sahih",
+     "Rükün ve şartları tam",
+     "Usulüne uygun satış"
+    ],
+    [
+     "Fâsit (Hanefîye özgü)",
+     "Aslı meşru, ama bir vasfı (şartı) bozuk; düzeltilebilir",
+     "Vadesi belirsiz satış; malı teslimden sonra satıcıya fayda şartı"
+    ],
+    [
+     "Bâtıl",
+     "Rükünde ya da konusunda bozukluk; hiç hüküm doğurmaz",
+     "Şarap ya da domuz satışı; akıl hastasının satışı"
+    ],
+    [
+     "Mevkuf",
+     "Sahih, ama başkasının onayına bağlı",
+     "Fuzûlînin başkası adına satışı; temyiz gücüne sahip çocuğun satışı"
+    ]
+   ]
+  },
+  "Muhayyerlik (hıyâr), taraflardan birine akdi feshetme ya da onaylama hakkı veren durumdur. Hanefîlere göre şart muhayyerliği en çok üç gün süreyle kararlaştırılabilir (İmâmeyn: belirlenen süre kadar). Ayıp muhayyerliği, malda satıştan önce bulunan ve alıcının bilmediği bir kusur çıkarsa alıcıya iade hakkı verir. Görme (rü’yet) muhayyerliği, görmeden satın alınan malı görünce beğenmeyen alıcıya fesih hakkı tanır. Meclis muhayyerliği (taraflar akit meclisinden ayrılıncaya kadar fesih hakkı) Şâfiî ve Hanbelîlerce kabul edilir, Hanefî ve Mâlikîlerce kabul edilmez.",
+  {
+   "tablo": [
+    [
+     "Muhayyerlik",
+     "Açıklama"
+    ],
+    [
+     "Şart",
+     "Tarafların kararlaştırdığı süre içinde fesih; Ebû Hanîfe: en çok 3 gün"
+    ],
+    [
+     "Ayıp",
+     "Satıştan önce mevcut, bilinmeyen kusur → iade veya kabul"
+    ],
+    [
+     "Rü’yet (görme)",
+     "Görmeden alınan malı görünce fesih hakkı"
+    ],
+    [
+     "Vasıf",
+     "Malın belirtilen vasıfta çıkmaması"
+    ],
+    [
+     "Meclis",
+     "Meclisten ayrılıncaya kadar fesih; Şâfiî ve Hanbelî kabul eder"
+    ]
+   ]
+  },
+  {
+   "sinav": "Hanefîlere göre akdin tek rüknünün icap-kabul olması, fâsit-bâtıl ayrımı (Hanefîye özgü fâsit kategorisi), fuzûlî akdin mevkuf olması ve muhayyerlik türleri sık sorulur."
+  },
+  {
+   "akil": "Rükün (Hanefî): icap + kabul. Sahih – fâsit (vasıf bozuk, düzeltilebilir) – bâtıl (asıl bozuk) – mevkuf (onaya bağlı). Muhayyerlik: şart (3 gün), ayıp, rü’yet, vasıf; meclis Hanefîde yok."
+  },
+  {
+   "b": "3. Alım-satım çeşitleri"
+  },
+  {
+   "merak": "Bir çiftçi ekim zamanı paraya ihtiyaç duyar. Bir tüccar ona bugün para öder ve hasat zamanı belli vasıfta ve miktarda buğday teslim almak üzere anlaşır. Henüz var olmayan bir malın satışı nasıl caiz olur?"
+  },
+  "Satış, fiyatın belirlenme şekline göre dörde ayrılır: Pazarlıkla fiyatın belirlendiği müsâveme, maliyetin açıklanıp üzerine belirli bir kâr konularak yapılan murâbaha, maliyetine satılan tevliye ve maliyetinin altında satılan vazîa. Murâbaha, günümüzde katılım bankacılığında finansman yöntemi olarak yaygın biçimde kullanılmaktadır. Teslim bakımından ise peşin satış, vadeli (veresiye) satış, bedeli peşin malı vadeli selem ve sipariş üzerine imal olan istisnâ akitleri vardır.",
+  {
+   "tablo": [
+    [
+     "Satış türü",
+     "Tanım",
+     "Şart / not"
+    ],
+    [
+     "Murâbaha",
+     "Maliyet + belirlenen kâr",
+     "Maliyetin doğru açıklanması"
+    ],
+    [
+     "Tevliye",
+     "Maliyetine satış",
+     "—"
+    ],
+    [
+     "Vazîa",
+     "Maliyetin altında satış",
+     "—"
+    ],
+    [
+     "Selem",
+     "Bedel peşin, mal belirli vasıfla ileri tarihte teslim",
+     "Cins, vasıf, miktar, vade ve teslim yeri belirli; bedel akit meclisinde ödenir"
+    ],
+    [
+     "İstisnâ",
+     "Malzemesi üreticiye ait, sipariş üzerine imal",
+     "Hanefîler istihsanla caiz görür; örf varsa"
+    ],
+    [
+     "Bey’ bi’l-vefâ",
+     "Borç karşılığı satılan malın borç ödenince geri alınması",
+     "Osmanlı’da uygulandı; faize karşı bir yol"
+    ]
+   ]
+  },
+  {
+   "akil": "Fiyata göre: müsâveme, murâbaha (maliyet + kâr), tevliye, vazîa. Selem: para peşin, mal vadeli; her şey belirli. İstisnâ: sipariş üzerine imal, malzeme üreticinin (istihsan)."
+  },
+  {
+   "b": "4. Ribâ (faiz) ve garar"
+  },
+  "Ribâ, Kur’an’da kesin olarak haram kılınmıştır (Bakara 275-279). Fıkıhta iki tür ribâ vardır: Ribe’n-nesîe (vade faizi), borç verilen paranın vade karşılığında fazlasıyla geri alınması ya da ribevî malların vadeli değişimidir; câhiliye ribâsı budur. Ribe’l-fadl (fazlalık faizi), aynı cins ribevî malların peşin olsa da farklı miktarlarda değiştirilmesidir. Hz. Peygamber altın, gümüş, buğday, arpa, hurma ve tuzun “misli misline, peşin peşine” değiştirilmesini emretmiştir. Bu altı maldaki ribânın illeti mezheplere göre farklıdır: Hanefîlere göre cins birliği ile birlikte ölçü veya tartıyla satılması (kadr); Şâfiîlere göre altın-gümüşte para (semen) olması, diğerlerinde gıda (ta’m) olmasıdır.",
+  {
+   "tablo": [
+    [
+     "Ribâ türü",
+     "Tanım",
+     "Örnek"
+    ],
+    [
+     "Ribe’n-nesîe",
+     "Vade karşılığı fazlalık",
+     "100 lira borç verip bir yıl sonra 120 almak"
+    ],
+    [
+     "Ribe’l-fadl",
+     "Aynı cinsin farklı miktarda değişimi",
+     "1 kg kaliteli hurmayı 2 kg düşük hurmayla peşin değişmek"
+    ]
+   ]
+  },
+  "Garar, sonucu belirsiz, aldatma ve anlaşmazlığa yol açabilecek akitlerdir; Hz. Peygamber garar satışını yasaklamıştır. Câhiliye döneminde yaygın olan müzâbene (ağaçtaki yaş hurmanın tahminle kuru hurmaya satışı), mülâmese (dokunmakla satışın kesinleşmesi), münâbeze (atmakla satışın kesinleşmesi), henüz olgunlaşmamış meyvelerin satışı ve suda yüzen balığın satışı bu kapsamdadır. Ayrıca şarap, domuz, leş ve put gibi haram şeylerin satışı bâtıldır; cuma ezanı okunduktan sonra namaza gidecek olanların alışveriş yapması tahrîmen mekruhtur (Cuma 9).",
+  {
+   "sinav": "Ribâ türleri, altı ribevî mal ve illet farkı (Hanefî: kadr + cins; Şâfiî: semeniyet ve ta’m), müzâbene ve garar satışları, murâbaha ile selem ve istisnânın tanımları sık sorulur."
+  },
+  {
+   "akil": "Nesîe: vade fazlası; fadl: aynı cins fazlası. 6 mal: altın, gümüş, buğday, arpa, hurma, tuz. İllet: Hanefî cins + ölçü/tartı; Şâfiî semen ve gıda. Garar: müzâbene, mülâmese, münâbeze, olgunlaşmamış meyve."
+  }
+ ],
+ "ozet": [
+  "Mal, insanın meylettiği ve saklanabilen şeydir; Hanefîlere göre menfaatler kendi başına mal sayılmaz.",
+  "Mütekavvim mal dinen mubahtır; şarap ve domuz Müslüman için gayr-i mütekavvimdir.",
+  "Benzeri piyasada bulunan mallar mislî, bulunmayanlar kıyemîdir.",
+  "Mülkiyet ihrâz-ı mübâhât, akit, halefiyet ve tevellüd yollarıyla kazanılır.",
+  "Hanefîlere göre akdin tek rüknü icap ve kabuldür.",
+  "Akdin konusu mevcut, teslim edilebilir, belirli ve meşru olmalıdır.",
+  "Hanefîlerde akit sahih, fâsit, bâtıl ve mevkuf olarak ayrılır; fâsit kategorisi Hanefîlere özgüdür.",
+  "Fuzûlînin başkası adına yaptığı akit mevkuftur ve onaya bağlıdır.",
+  "Şart muhayyerliği Ebû Hanîfe’ye göre en çok üç gündür; meclis muhayyerliğini Hanefîler kabul etmez.",
+  "Murâbaha maliyet artı kâr satışıdır; tevliye maliyetine, vazîa maliyetin altında satıştır.",
+  "Selemde bedel peşin, mal belirli vasıflarla ileri bir tarihte teslim edilir.",
+  "İstisnâ, malzemesi üreticiye ait sipariş üzerine imal akdidir.",
+  "Ribâ ribe’n-nesîe ve ribe’l-fadl olarak ikiye ayrılır; altı ribevî mal hadiste sayılmıştır.",
+  "Müzâbene, mülâmese ve münâbeze gibi garar içeren satışlar yasaklanmıştır."
+ ],
+ "kartlar": [
+  {
+   "o": "Mütekavvim mal",
+   "a": "Dinen mubah ve korunmuş mal."
+  },
+  {
+   "o": "Mislî – kıyemî",
+   "a": "Benzeri bulunan – bulunmayan mal."
+  },
+  {
+   "o": "İhrâz-ı mübâhât",
+   "a": "Sahipsiz mubah malı ele geçirerek mülkiyet kazanma."
+  },
+  {
+   "o": "Akdin rüknü (Hanefî)",
+   "a": "İcap ve kabul."
+  },
+  {
+   "o": "Fâsit akit",
+   "a": "Aslı meşru, vasfı bozuk; Hanefîye özgü."
+  },
+  {
+   "o": "Bâtıl akit",
+   "a": "Rükün ya da konusu bozuk; şarap satışı."
+  },
+  {
+   "o": "Mevkuf akit",
+   "a": "Onaya bağlı; fuzûlî akdi."
+  },
+  {
+   "o": "Şart muhayyerliği",
+   "a": "Ebû Hanîfe: en çok 3 gün."
+  },
+  {
+   "o": "Ayıp muhayyerliği",
+   "a": "Satıştan önce mevcut gizli kusur → iade hakkı."
+  },
+  {
+   "o": "Murâbaha",
+   "a": "Maliyet + belirli kâr."
+  },
+  {
+   "o": "Selem",
+   "a": "Para peşin, mal vadeli; cins, vasıf, miktar, vade belirli."
+  },
+  {
+   "o": "İstisnâ",
+   "a": "Sipariş üzerine imal; malzeme üreticinin."
+  },
+  {
+   "o": "Ribe’l-fadl",
+   "a": "Aynı cins ribevî malın farklı miktarda değişimi."
+  },
+  {
+   "o": "Müzâbene",
+   "a": "Ağaçtaki yaş hurmanın tahminle kuru hurmaya satışı; yasak."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "fq19-01",
+   "z": 3,
+   "s": "I. Şarap satışı\nII. Vadesi belirsiz bırakılmış bir satış\nIII. Bir kişinin, kardeşinin malını onun izni olmadan satması\nIV. Rükün ve şartları tam olan bir satış\n\nHanefî mezhebine göre yukarıdaki akitler sırasıyla aşağıdakilerden hangisinde doğru nitelendirilmiştir?",
+   "c": [
+    "Bâtıl – fâsit – mevkuf – sahih",
+    "Fâsit – bâtıl – mevkuf – sahih",
+    "Bâtıl – mevkuf – fâsit – sahih",
+    "Mevkuf – fâsit – bâtıl – sahih",
+    "Bâtıl – fâsit – sahih – mevkuf"
+   ],
+   "d": 0,
+   "a": "Şarap satışı konusu bakımından bâtıl; belirsiz vade bir vasıf bozukluğu olduğu için fâsit; fuzûlînin satışı mevkuf; şartları tam satış sahihtir.",
+   "ac": [
+    "Doğru.",
+    "İlk iki nitelendirme yer değiştirmiştir.",
+    "İkinci ve üçüncü nitelendirme yer değiştirmiştir.",
+    "Nitelendirmeler karışıktır.",
+    "Son ikisi yer değiştirmiştir."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, II"
+  },
+  {
+   "id": "fq19-02",
+   "z": 3,
+   "s": "Bir kişi kuyumcudan 10 gram 22 ayar altın bileziği, 12 gram 14 ayar altın kolye karşılığında, peşin olarak değiştirmiştir.\n\nBu işlemin hükmü ve gerekçesi aşağıdakilerden hangisidir?",
+   "c": [
+    "Caizdir; çünkü ayarlar farklıdır.",
+    "Caiz değildir; çünkü vade farkı faizi (ribe’n-nesîe) vardır.",
+    "Caizdir; çünkü peşin yapılmıştır.",
+    "Caiz değildir; aynı cins ribevî malların (altın) farklı miktarda değiştirilmesi ribe’l-fadldır. Doğru yol, birini parayla satıp parayla diğerini almaktır.",
+    "Caizdir; çünkü işçilik farkı vardır."
+   ],
+   "d": 3,
+   "a": "Altın ribevî maldır; altının altınla değişiminde kalite ve işçilik farkı dikkate alınmaz, miktarların eşit olması ve peşin olması gerekir. Aksi ribe’l-fadldır.",
+   "ac": [
+    "Ayar farkı miktar eşitliği şartını kaldırmaz.",
+    "İşlem peşin olduğu için vade faizi yoktur; sorun miktar farkıdır.",
+    "Peşinlik tek başına yeterli değildir; eşitlik de şarttır.",
+    "Doğru.",
+    "İşçilik farkı aynı cins değişimde dikkate alınmaz."
+   ],
+   "kay": "Müslim, Müsâkāt, 81"
+  },
+  {
+   "id": "fq19-03",
+   "z": 2,
+   "s": "Altı ribevî maldaki faiz yasağının illeti (gerekçesi) konusunda Hanefîlerin görüşü aşağıdakilerden hangisidir?",
+   "c": [
+    "Altın ve gümüşte para olma, diğerlerinde gıda olma",
+    "Malın ithal edilmesi",
+    "Yalnızca saklanabilir gıda olma",
+    "Malın pahalı olması",
+    "Cins birliği ile birlikte ölçü veya tartıyla satılma (kadr)"
+   ],
+   "d": 4,
+   "a": "Hanefîlere göre ribânın illeti cins birliği ve kadr (ölçü veya tartıyla satılma) birlikteliğidir.",
+   "ac": [
+    "Bu Şâfiî görüşüdür.",
+    "İthalat illet değildir.",
+    "Bu Mâlikî görüşüne yakındır.",
+    "Fiyat illet değildir.",
+    "Doğru."
+   ],
+   "kay": "Kâsânî, Bedâi‘, V"
+  },
+  {
+   "id": "fq19-04",
+   "z": 3,
+   "s": "Bir müşteri, bir mobilya atölyesine ölçülerini ve modelini belirttiği bir dolap sipariş etmiş; ağaç ve diğer malzemeler atölyeye ait olmak üzere fiyat ve teslim tarihi kararlaştırılmıştır. Başka bir müşteri ise bir çiftçiye bugün ödeme yapmış, hasat zamanı belirli vasıflarda 2 ton buğday teslim almak üzere anlaşmıştır.\n\nBu iki akit sırasıyla aşağıdakilerden hangisidir?",
+   "c": [
+    "Selem – istisnâ",
+    "İstisnâ – selem",
+    "İcâre – selem",
+    "İstisnâ – murâbaha",
+    "Murâbaha – selem"
+   ],
+   "d": 1,
+   "a": "Malzemesi üreticiye ait sipariş üzerine imal istisnâdır; bedeli peşin ödenip malın belirli vasıflarla ileride teslim edildiği akit selemdir.",
+   "ac": [
+    "Sıralama terstir.",
+    "Doğru.",
+    "Birinci akit kira değil istisnâdır.",
+    "İkinci akit murâbaha değil selemdir.",
+    "Birinci akit murâbaha değildir."
+   ],
+   "kay": "Mecelle, md. 123-124, 388"
+  },
+  {
+   "id": "fq19-05",
+   "z": 3,
+   "s": "İki kişi bir satış akdini yapmış, satıcı ve alıcı henüz akit meclisinden ayrılmadan alıcı vazgeçtiğini söylemiştir.\n\nBu durumun mezheplere göre değerlendirilmesi aşağıdakilerden hangisinde doğru verilmiştir?",
+   "c": [
+    "Bütün mezheplere göre alıcı vazgeçebilir.",
+    "Hanefîlere göre vazgeçebilir, Şâfiîlere göre vazgeçemez.",
+    "Şâfiî ve Hanbelîlere göre meclis muhayyerliği sebebiyle vazgeçebilir; Hanefî ve Mâlikîlere göre akit icap ve kabulle bağlayıcı olduğundan tek taraflı vazgeçemez.",
+    "Hiçbir mezhebe göre vazgeçemez.",
+    "Ancak üç gün içinde vazgeçebilir."
+   ],
+   "d": 2,
+   "a": "“Satıcı ve alıcı ayrılmadıkça muhayyerdir” hadisini Şâfiî ve Hanbelîler meclis muhayyerliği olarak anlar; Hanefî ve Mâlikîler ayrılmayı sözle ayrılma olarak yorumlar.",
+   "ac": [
+    "Hanefî ve Mâlikîlere göre vazgeçemez.",
+    "Durum terstir.",
+    "Doğru.",
+    "Şâfiî ve Hanbelîlere göre vazgeçebilir.",
+    "Üç gün şart muhayyerliğiyle ilgilidir."
+   ],
+   "kay": "Buhârî, Büyû’, 19; İbn Rüşd, Bidâyetü’l-müctehid, II"
+  },
+  {
+   "id": "fq19-06",
+   "z": 2,
+   "s": "Bir kişinin ormandan odun toplayarak ya da sahipsiz araziyi ihya ederek o mal üzerinde mülkiyet kazanmasına ne ad verilir?",
+   "c": [
+    "Halefiyet",
+    "Tevellüd",
+    "İstihkak",
+    "Akit",
+    "İhrâz-ı mübâhât"
+   ],
+   "d": 4,
+   "a": "Sahipsiz mubah malları ele geçirerek mülkiyet kazanmaya ihrâz-ı mübâhât denir.",
+   "ac": [
+    "Halefiyet miras ve tazminat gibi yollardır.",
+    "Tevellüd mülkten doğan üründür.",
+    "İstihkak bir malın gerçek sahibinin ortaya çıkmasıdır.",
+    "Akit iki tarafın anlaşmasıdır.",
+    "Doğru."
+   ],
+   "kay": "Mecelle, md. 1248"
+  },
+  {
+   "id": "f10-01",
+   "z": 1,
+   "s": "Bedelin peşin, malın ise belirli vasıflarla ileri bir tarihte teslim edilmek üzere yapılan satışa ne ad verilir?",
+   "c": [
+    "Murâbaha",
+    "Tevliye",
+    "Selem",
+    "İstisnâ’",
+    "Müzâbene"
+   ],
+   "d": 2,
+   "a": "Parası peşin, malı vadeli satış selemdir.",
+   "ac": [
+    "Murâbaha maliyet + kârla satıştır.",
+    "Tevliye maliyetine satıştır.",
+    "Doğru.",
+    "İstisnâ’ sipariş üzerine üretimdir.",
+    "Müzâbene yasaklanmış tahminî satıştır."
+   ],
+   "kay": "Buhârî, Selem, 1"
+  },
+  {
+   "id": "f10-05",
+   "z": 2,
+   "s": "Hz. Peygamber yaş hurmanın kuru hurma karşılığında tahminen satışını (müzâbene) yasaklamıştır. Ancak kuru hurmadan başka malı olmayan ihtiyaç sahiplerine, beş veskten az miktarda ve peşin olmak şartıyla bu satışa izin vermiştir.\n\nİzin verilen bu satışın adı nedir?",
+   "c": [
+    "Arâyâ",
+    "Tevliye",
+    "Murâbaha",
+    "Selem",
+    "Müsâkât"
+   ],
+   "d": 0,
+   "a": "Müzâbene yasağından istisna edilen bu satışa arâyâ denir.",
+   "ac": [
+    "Doğru.",
+    "Tevliye maliyetine satıştır.",
+    "Murâbaha kârlı satıştır.",
+    "Selemde para peşin mal vadelidir.",
+    "Müsâkât bahçe ortaklığıdır."
+   ],
+   "kay": "Buhârî, Büyû’, 84; Müslim, Büyû’, 57"
+  },
+  {
+   "id": "f10-07",
+   "z": 2,
+   "s": "Hiçbir temsil yetkisi bulunmadığı hâlde başkası adına onun malını satan kişiye ne ad verilir ve bu satışın hükmü nedir?",
+   "c": [
+    "Vekil – geçerlidir",
+    "Velî – geçerlidir",
+    "Kayyım – bâtıldır",
+    "Fuzûlî – mal sahibinin onayına bağlıdır",
+    "Vasî – mekruhtur"
+   ],
+   "d": 3,
+   "a": "Yetkisiz temsilciye fuzûlî denir; yaptığı işlem Hanefîlere göre mevkuftur, hak sahibi onaylarsa geçerli olur.",
+   "ac": [
+    "Vekil yetkilidir.",
+    "Velînin kanuni yetkisi vardır.",
+    "Kayyımı hâkim atar.",
+    "Doğru.",
+    "Vasî, vasiyetle yetkilendirilmiştir."
+   ],
+   "kay": "Mecelle, md. 368, 378"
+  },
+  {
+   "id": "f10-11",
+   "z": 3,
+   "s": "Hz. Peygamber’in bildirdiği altı mal (altın, gümüş, buğday, arpa, hurma, tuz) kendi cinsiyle değiştirilirken aşağıdaki şartlardan hangisi aranır?",
+   "c": [
+    "Şahit huzurunda yapılması",
+    "Yalnız miktarların eşit olması",
+    "Yalnız peşin olması",
+    "Vadeli ve fazlalıklı olması",
+    "Hem eşit miktarda hem peşin olması"
+   ],
+   "d": 4,
+   "a": "Aynı cins değişimde hem eşitlik (fazlalık ribe’l-fadl) hem peşinlik (vade ribe’n-nesîe) şarttır.",
+   "ac": [
+    "Şahit şartı yoktur.",
+    "Peşinlik de şarttır.",
+    "Eşitlik de şarttır.",
+    "Bu faizin ta kendisidir.",
+    "Doğru."
+   ],
+   "kay": "Müslim, Müsâkât, 81"
+  },
+  {
+   "id": "f10-13",
+   "z": 1,
+   "s": "Hanefî mezhebine göre akdin tek rüknü nedir?",
+   "c": [
+    "Akdin tarafları",
+    "Şahitler",
+    "Akdin konusu",
+    "İcap ve kabul (sîga)",
+    "Yazılı belge"
+   ],
+   "d": 3,
+   "a": "Taraflar ve konu Hanefîlerde akdin unsuru (tarafları ve mahalli) olarak ele alınır.",
+   "ac": [
+    "Diğer mezheplerde rükün sayılır.",
+    "Akitlerin rüknü değildir.",
+    "Diğer mezheplerde rükün sayılır.",
+    "Hanefîlerde rükün yalnız icap ve kabuldür.",
+    "Rükün değildir."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f10-14",
+   "z": 2,
+   "s": "Alıcının, satın aldığı maldaki satıştan önce mevcut olan ve kendisinin bilmediği bir kusur sebebiyle akdi bozma hakkına ne ad verilir?",
+   "c": [
+    "Şart muhayyerliği",
+    "Vasıf muhayyerliği",
+    "Ayıp muhayyerliği",
+    "Tayin muhayyerliği",
+    "Görme muhayyerliği"
+   ],
+   "d": 2,
+   "a": "Ayıp muhayyerliği taraflar şart koşmasa da kendiliğinden doğar.",
+   "ac": [
+    "Taraflarca belirlenen süre içinde dönme hakkıdır.",
+    "Vaat edilen vasfın bulunmamasıyla ilgilidir.",
+    "Kusurdan doğan dönme hakkıdır.",
+    "Belirli mallardan birini seçme hakkıdır.",
+    "Görmeden alınan malı görünce dönme hakkıdır."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f10-15",
+   "z": 2,
+   "s": "Bir ürünün, malzemesi üreticiye ait olmak üzere belirli özelliklerle sipariş edilmesini konu alan ve Hanefîlerin istihsanla caiz gördüğü akit hangisidir?",
+   "c": [
+    "Selem",
+    "İstisnâ‘",
+    "Îne",
+    "Murâbaha",
+    "İcâre"
+   ],
+   "d": 1,
+   "a": "İstisnâ‘ kıyasa göre olmayan malın satışı sayılırken örf ve ihtiyaç sebebiyle caiz görülmüştür.",
+   "ac": [
+    "Bedel peşin, mal vadelidir; mal genellikle üretim gerektirmez.",
+    "Sipariş akdidir.",
+    "Vadeli satıp peşin geri alma hilesidir.",
+    "Maliyet artı kârla satıştır.",
+    "Kira akdidir."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f10-16",
+   "z": 2,
+   "s": "Bir kimsenin bir malı kendisine mal olan bedelini açıklayarak üzerine belirli bir kâr ekleyip satmasına ne ad verilir?",
+   "c": [
+    "Murâbaha",
+    "Vazîa",
+    "Tevliye",
+    "Müsâveme",
+    "Sarf"
+   ],
+   "d": 0,
+   "a": "Emanet satışları maliyetin dürüstçe açıklanmasına dayanır.",
+   "ac": [
+    "Maliyet artı kârla satıştır.",
+    "Maliyetin altında satıştır.",
+    "Maliyet bedeliyle, kârsız satıştır.",
+    "Maliyet açıklanmadan pazarlıkla satıştır.",
+    "Paranın parayla değişimidir."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "fq19-07",
+   "z": 3,
+   "s": "I. Ağaçtaki yaş hurmanın tahminle kuru hurma karşılığında satılması\nII. Bir malın maliyeti açıklanıp üzerine belirli bir kâr konularak satılması\nIII. Satılacak malın, alıcının ona dokunmasıyla belirlenip satışın kesinleşmesi\nIV. Henüz olgunlaşmamış meyvelerin dalda satılması\n\nYukarıdakilerden hangileri garar (belirsizlik) sebebiyle yasaklanan satışlardandır?",
+   "c": [
+    "I ve II",
+    "I, III ve IV",
+    "II, III ve IV",
+    "I, II ve III",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Müzâbene, mülâmese ve olgunlaşmamış meyvenin satışı garar içerdiği için yasaklanmıştır. Maliyet artı kâr satışı (murâbaha) ise meşrudur.",
+   "ac": [
+    "Murâbaha meşrudur; mülâmese ve olgunlaşmamış meyve eksiktir.",
+    "Doğru.",
+    "Murâbaha meşrudur.",
+    "Murâbaha meşrudur.",
+    "Murâbaha meşrudur."
+   ],
+   "kay": "Müslim, Büyû’, 4, 13, 72"
+  }
+ ]
+}

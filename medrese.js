@@ -594,7 +594,9 @@ const kitapYukle = id => KP[id] || (KP[id] = getJSON(`data/kitap/${id}.json`, j 
 let YDSB = null, MOD = null;
 /* YDS Arapça: tam banka şifreli (banka.enc, Pro YDS ya da Max anahtarıyla açılır — kilit.js); anahtar yoksa açık örnek (1. deneme) yüklenir */
 const ydsOrnek = () => getJSON('data/yds/ornek.json', j => Array.isArray(j.sorular) && j.pasajlar);
-const ydsYukle = () => YDSB ? Promise.resolve(YDSB) : (window.Kilit && Kilit.var('yds')
+/* ŞİMDİLİK ÜCRETSİZ: tam banka düz banka.json olarak yayında (kadem.html UCRETSIZ ile aynı karar) */
+const YDS_UCRETSIZ = true;
+const ydsYukle = () => YDSB ? Promise.resolve(YDSB) : YDS_UCRETSIZ ? getJSON('data/yds/banka.json', j => Array.isArray(j.sorular) && j.pasajlar).catch(() => ydsOrnek()).then(j => (YDSB = j)) : (window.Kilit && Kilit.var('yds')
   ? fetch('data/yds/banka.enc', { cache: 'no-cache' }).then(r => { if(!r.ok) throw 0; return r.text() }).then(x => Kilit.coz(x)).then(j => { if(!Array.isArray(j.sorular)) throw 0; return j }).catch(() => ydsOrnek())
   : ydsOrnek()).then(j => (YDSB = j));
 const UYG = () => { try{ return sessionStorage.getItem('mihrab.uyg') === '1' || matchMedia('(display-mode: standalone)').matches || document.referrer.indexOf('android-app://') === 0 }catch(e){ return false } };
@@ -771,7 +773,7 @@ async function yds(p1, p2){
   const acc = t => { const ks = Q.filter(q => q.tip === t).map(q => 'yds|' + q.id).filter(k => S[k]); const o = ks.reduce((n, k) => n + S[k].ok, 0), b = ks.reduce((n, k) => n + S[k].bad, 0); return o + b ? `%${Math.round(o / (o + b) * 100)} doğru` : 'başlanmadı' };
   const son = LS.get('medrese.ydsSon', null), TP = YDSB.toplam || {}, kl = ORN ? ' 🔒' : '';
   V.innerHTML = bar('YDS Arapça', '/') + `<div class="wrap">
-   <div class="ydsh"><div class="hero-ar" lang="ar">اِخْتِبَارُ اللُّغَةِ</div>${ORN ? `<a class="kilit-yds" href="#/yds/kilit"><span>🔒 1. deneme ve bir okuma metni açık. Bütün bölüm Pro · YDS Arapça ya da Max üyelikle açılır.</span><em>Üyelik ›</em></a>` : ''}<p><b>${ORN ? TP.deneme : ydsDn().length} deneme · ${ORN ? TP.soru : Q.length} soru</b> · Her deneme 80 soru, 180 dakika · Yanlış doğruyu götürmez · Her doğru 1,25 puan</p>
+   <div class="ydsh"><div class="hero-ar" lang="ar">اِخْتِبَارُ اللُّغَةِ</div>${ORN ? `<a class="kilit-yds" href="#/yds/kilit"><span>🔒 1. deneme ve bir okuma metni açık. Bütün bölüm Pro · YDS Arapça ya da Max üyelikle açılır.</span><em>Üyelik ›</em></a>` : ''}<p><b>${ORN ? TP.deneme : ydsDn().length} deneme · ${ORN ? TP.soru : Q.length} soru</b> · Her deneme 80 soru, 180 dakika · Yanlış doğruyu götürmez · Her doğru 1,25 puan</p>${YDS_UCRETSIZ ? `<p class="ydsdes">Bu bölüm şimdilik herkese açık ve ücretsiz. Çalışmaya katkıda bulunmak isterseniz <a href="https://x.com/hohrzade340" target="_blank" rel="noopener">X’ten bize yazın ›</a></p>` : ''}
     <div class="hero-b"><a class="btn pri" href="#/yds/deneme">Deneme sınavları (${ORN ? TP.deneme : ydsDn().length})</a><a class="btn" href="#/yds/kelime">Kelime kartları (${ORN ? TP.kelime : (YDSB.kelime || []).length})${kl}</a><a class="btn" href="#/yds/rehber">Sınav rehberi</a></div>
     ${son ? `<p class="lead">Son deneme${son.n ? ' (' + (+son.n) + '.)' : ''}: <b>${esc(String(son.puan))}</b> puan (${son.dogru}/${son.toplam}) · ${new Date(son.t).toLocaleDateString('tr-TR')}</p>` : ''}</div>
    ${MOD ? `<h2>Okuma metinleri</h2><div class="alanlar">${(MOD.alanlar || []).map(a => { const n = MOD.metinler.filter(m => m.alan === a[0]).length; return n ? `<a class="alan a-${a[0]}" href="#/yds/alan/${a[0]}"><span lang="ar">${esc(a[2])}</span><b>${esc(a[1])}</b><small>${n} metin${ORN ? (a[0] === MOD.alanlar[0][0] ? ' · 1 açık' : ' 🔒') : ''}</small></a>` : '' }).join('')}</div>

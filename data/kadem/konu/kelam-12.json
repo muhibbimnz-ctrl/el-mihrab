@@ -1,0 +1,673 @@
+{
+ "id": "kelam-12",
+ "ad": "Kelam ve Felsefe: İslam Filozofları, Gazzâlî’nin Eleştirisi, Müteahhirîn Kelamı; Yeni İlm-i Kelam ve Çağdaş İnanç Problemleri (Deizm, Ateizm, Agnostisizm, Kötülük Problemi)",
+ "ders": "Akaid ve Kelam",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Felsefe İslam dünyasına nasıl girdi?"
+  },
+  {
+   "merak": "IX. yüzyılın Bağdat’ında Beytülhikme’de bir Nestûrî Hristiyan tercüman, Galen’in tıp kitaplarını ve Aristo’nun mantık eserlerini Arapçaya çeviriyor. Halife Me’mûn, çevirilen kitabın ağırlığınca altın verdiği söylenen bu tercümanlara büyük paralar ödüyor. Bu tercümeler, kelamcılarla filozoflar arasındaki asırlık tartışmanın kapısını aralayacaktı."
+  },
+  "Antik Yunan felsefesi İslam dünyasına özellikle Abbâsîler döneminde, Me’mûn’un kurduğu ya da genişlettiği Beytülhikme etrafında yürütülen tercüme hareketiyle girdi. Huneyn b. İshâk, Sâbit b. Kurre ve İshâk b. Huneyn gibi tercümanlar Aristo, Eflâtun, Galen ve Yeni Eflâtuncu metinleri Süryânîce ve Yunancadan Arapçaya aktardı. Bu metinlerle tanışan Müslüman düşünürler, aklı esas alan ve Aristo’nun sistemini İslam inancıyla uzlaştırmaya çalışan Meşşâî felsefeyi geliştirdiler.",
+  {
+   "tablo": [
+    [
+     "Filozof",
+     "Lakap / eser",
+     "Öne çıkan görüş"
+    ],
+    [
+     "Kindî (ö. 252/866?)",
+     "Feylesofü’l-Arab; ilk Müslüman filozof",
+     "Âlemin yoktan ve zaman içinde yaratıldığını savundu; din ile felsefenin aynı hakikati aradığını söyledi"
+    ],
+    [
+     "Fârâbî (ö. 339/950)",
+     "Muallim-i sânî (ikinci öğretmen); el-Medînetü’l-fâzıla",
+     "Sudûr (feyz) teorisi; mantık ve siyaset felsefesi; erdemli şehir"
+    ],
+    [
+     "İbn Sînâ (ö. 428/1037)",
+     "Şeyhü’r-reîs; eş-Şifâ, en-Necât, el-İşârât, Kânûn (tıp)",
+     "Vâcibü’l-vücûd – mümkinü’l-vücûd ayrımı ve imkân delili"
+    ],
+    [
+     "İbn Rüşd (ö. 595/1198)",
+     "Şârih (Aristo şârihi); Tehâfütü’t-tehâfüt, Faslü’l-makāl",
+     "Gazzâlî’ye cevap; din ile felsefe arasında uyum; Batı’da Averroizm"
+    ],
+    [
+     "İbn Tufeyl (ö. 581/1185)",
+     "Hay b. Yakzân",
+     "Yalnız aklıyla Allah’ı bulan insan anlatısı"
+    ],
+    [
+     "Sühreverdî el-Maktûl (ö. 587/1191)",
+     "Hikmetü’l-işrâk",
+     "İşrâkî (aydınlanmacı, nur) felsefe; keşfe dayalı bilgi"
+    ]
+   ]
+  },
+  {
+   "sinav": "Lakap-filozof eşleştirmesi çok sık gelir: Feylesofü’l-Arab = Kindî, Muallim-i sânî = Fârâbî (birinci öğretmen Aristo), Şeyhü’r-reîs = İbn Sînâ, Şârih = İbn Rüşd. İmkân (vücûb-imkân) delili İbn Sînâ ile, sudûr teorisi Fârâbî ve İbn Sînâ ile anılır."
+  },
+  {
+   "akil": "Kindî – ilk filozof, âlem hâdis. Fârâbî – Muallim-i sânî, sudûr, erdemli şehir. İbn Sînâ – Şeyhü’r-reîs, vâcib-mümkin. İbn Rüşd – Tehâfütü’t-tehâfüt, uyum. Sühreverdî – işrâk."
+  },
+  {
+   "b": "2. Gazzâlî’nin filozoflara eleştirisi: Üç mesele"
+  },
+  {
+   "merak": "Gazzâlî önce Mekāsıdü’l-felâsife’yi yazarak filozofların görüşlerini öyle tarafsız anlatır ki, Latin Batı onu uzun süre bir filozof sanır. Sonra Tehâfütü’l-felâsife’yi yazar ve aynı filozofların yirmi meselede tutarsız olduğunu, üç meselede ise küfre düştüğünü ilan eder."
+  },
+  "Gazzâlî (ö. 505/1111), Tehâfütü’l-felâsife’de (Filozofların Tutarsızlığı) özellikle Fârâbî ve İbn Sînâ’nın temsil ettiği Meşşâî felsefeyi yirmi meselede eleştirmiştir. Bunlardan on yedisinde filozofları bid’atle, üçünde ise küfürle itham etmiştir. Gazzâlî’nin amacı felsefeyi bütünüyle reddetmek değildir; mantığı ve matematiği kabul eder, hatta mantığı kelam ve usule sokar. Eleştirisi metafizik alandadır.",
+  {
+   "tablo": [
+    [
+     "Gazzâlî’nin filozofları tekfir ettiği mesele",
+     "Filozofların görüşü",
+     "Gazzâlî’nin itirazı"
+    ],
+    [
+     "Âlemin kıdemi (ezelîliği)",
+     "Âlem Allah’tan zorunlu olarak sudûr ettiği için ezelîdir",
+     "Âlem yoktan ve zaman içinde yaratılmıştır; kıdem tevhide aykırıdır"
+    ],
+    [
+     "Allah’ın cüz’iyyâtı bilmemesi",
+     "Allah tikelleri ancak tümel bir yolla bilir",
+     "“Göklerde ve yerde zerre ağırlığınca bir şey ondan gizli kalmaz” (Sebe 3)"
+    ],
+    [
+     "Cismani haşrin inkârı",
+     "Ahirette yalnız ruhlar dirilir",
+     "Kur’an bedenlerin dirileceğini açıkça bildirir"
+    ]
+   ]
+  },
+  "İbn Rüşd, Tehâfütü’t-tehâfüt’te Gazzâlî’ye cevap vererek onun filozofları yanlış anladığını, bu meselelerde tekfirin yerinde olmadığını savunmuştur. Faslü’l-makāl adlı eserinde de dinin felsefeyi emrettiğini, hakkın hakka zıt olmayacağını, nas ile akıl çatışır görünürse nassın te’vil edileceğini söylemiştir. Gazzâlî’nin sebeplilik eleştirisi de önemlidir: Ona göre ateş ile pamuğun yanması arasındaki bağ zorunlu değildir; Allah’ın âdeti (âdetullah) böyle cereyan eder. Bu görüş mucizenin imkânını temellendirmek içindir.",
+  {
+   "sinav": "Gazzâlî’nin tekfir ettiği üç mesele klasik bir sorudur: kıdem-i âlem, cüz’iyyâtın bilinmemesi, cismani haşrin inkârı. Çeldirici olarak “sıfatların inkârı”, “nübüvvetin inkârı” ya da “sebepliliğin zorunluluğu” gelir; bunlar tekfir edilen üç mesele arasında değildir."
+  },
+  {
+   "akil": "Tehâfüt: 20 mesele; 17 bid’at, 3 küfür (kıdem, cüz’iyyât, cismani haşir). Cevap: İbn Rüşd – Tehâfütü’t-tehâfüt. Sebeplilik: âdetullah."
+  },
+  {
+   "b": "3. Müteahhirîn kelamı: Felsefe kelama nasıl girdi?"
+  },
+  "Gazzâlî ve özellikle Fahreddin er-Râzî’den sonra kelam kitapları felsefi konularla doldu. İbn Haldun, kelamı mütekaddimîn (öncekiler) ve müteahhirîn (sonrakiler) olarak ikiye ayırır ve sonrakilerin eserlerinde kelam ile felsefenin birbirine karıştığını söyler. Müteahhirîn kelam kitapları önce “umûr-ı âmme” (varlık, bilgi, hâdis-kadîm, cevher-araz) gibi felsefi meseleleri, sonra ilahiyat ve nübüvvet konularını işler.",
+  {
+   "tablo": [
+    [
+     "Dönem",
+     "Özellik",
+     "Temsilci eserler"
+    ],
+    [
+     "Mütekaddimîn",
+     "Kelam akaidi savunur; cevher-araz ve cüz-i lâ yetecezzâ ile âlemin hudûsunu ispatlar; felsefe ayrı tutulur",
+     "Bâkıllânî – et-Temhîd; Cüveynî – el-İrşâd; Mâtürîdî – Kitâbü’t-Tevhîd"
+    ],
+    [
+     "Müteahhirîn",
+     "Felsefi konular kelama girer; mantık kullanılır; filozoflara onların diliyle cevap verilir",
+     "Râzî – el-Muhassal; Beyzâvî – Tavâliu’l-envâr; Îcî – el-Mevâkıf; Teftâzânî – Şerhu’l-Makāsıd"
+    ]
+   ]
+  },
+  {
+   "akil": "Müteahhirîn = Gazzâlî ve Râzî sonrası, felsefeyle karışmış kelam (İbn Haldun). Eserler: Mevâkıf (Îcî), Makāsıd (Teftâzânî), Tavâli’ (Beyzâvî)."
+  },
+  {
+   "b": "4. Yeni ilm-i kelam: Pozitivizme karşı yeni bir savunma"
+  },
+  {
+   "merak": "1900’lerin İstanbul’unda medreseli bir genç, Fransızca bir materyalizm kitabını okuyup hocasına gelir: “Hocam, bu kitap Allah’ın varlığını reddediyor; ama bizim kelam kitaplarımız cevher ve araz ile cevap veriyor. Bu kitabın yazarı cevher-araz nedir bilmiyor ki!” Yeni bir kelama ihtiyaç doğmuştu."
+  },
+  "XIX. yüzyılın sonu ve XX. yüzyılın başında pozitivizm, materyalizm ve Darwinizm gibi akımlar İslam dünyasında yayılınca, klasik kelamın cevher-araz teorisine dayalı delillerinin bu yeni itirazlara cevap veremediği düşüncesi yaygınlaştı. Bunun üzerine yöntemini ve konularını yenilemeyi amaçlayan “yeni ilm-i kelam” hareketi doğdu. Bu hareket, çağın bilimsel ve felsefi verilerini kullanarak inanç esaslarını savunmayı, din-bilim ilişkisini ve dinin sosyal faydalarını öne çıkarmayı amaçladı.",
+  {
+   "tablo": [
+    [
+     "Temsilci",
+     "Eser",
+     "Not"
+    ],
+    [
+     "Şiblî Nu’mânî (Hindistan)",
+     "İlmü’l-kelâm el-cedîd",
+     "Terimin yaygınlaşmasında etkili"
+    ],
+    [
+     "İzmirli İsmail Hakkı",
+     "Yeni İlm-i Kelâm (1922-23)",
+     "Türkiye’de hareketin en sistemli temsilcisi"
+    ],
+    [
+     "Şehbenderzâde Filibeli Ahmed Hilmi",
+     "Allah’ı İnkâr Mümkün müdür?",
+     "Materyalizme cevap"
+    ],
+    [
+     "Muhammed Abduh",
+     "Risâletü’t-tevhîd",
+     "Akıl-vahiy uyumu"
+    ],
+    [
+     "Seyyid Ahmed Han",
+     "—",
+     "Hindistan’da akılcı, tabiatçı yorum"
+    ],
+    [
+     "Said Nursî",
+     "Risale-i Nur",
+     "İman hakikatlerini çağın diliyle anlatma"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Yeni İlm-i Kelâm” kitabı = İzmirli İsmail Hakkı; terim Hindistan’da Şiblî Nu’mânî ile yaygınlaştı. Hareketin muhatabı pozitivizm, materyalizm ve Darwinizmdir; sorularda bu üçü veya “klasik kelam yönteminin yetersiz kalması” vurgusu geçer."
+  },
+  {
+   "akil": "Yeni ilm-i kelam: XIX-XX. yüzyıl, muhatap pozitivizm-materyalizm-Darwinizm. İzmirli – Yeni İlm-i Kelâm; Şiblî – İlmü’l-kelâm el-cedîd; Filibeli Ahmed Hilmi – Allah’ı İnkâr Mümkün müdür?"
+  },
+  {
+   "b": "5. Çağdaş inanç problemleri: Deizm, ateizm, agnostisizm"
+  },
+  {
+   "merak": "Bir lise öğrencisi diyor ki: “Allah’a inanıyorum; kâinatı o yarattı. Ama peygamber, kitap, ibadet… Bunlar insan icadı. Allah saati kurdu ve bıraktı.” Bu düşüncenin adı nedir ve İslam’ın cevabı ne olabilir?"
+  },
+  {
+   "tablo": [
+    [
+     "Akım",
+     "Temel iddia",
+     "İslam açısından değerlendirme"
+    ],
+    [
+     "Teizm",
+     "Yaratıcı, kâinatla ilgilenen, vahiy gönderen bir Tanrı vardır",
+     "İslam teist bir dindir"
+    ],
+    [
+     "Deizm",
+     "Tanrı vardır, âlemi yaratmıştır, ama âleme müdahale etmez; vahiy, peygamberlik ve mucize yoktur (“saat yapıcı” Tanrı)",
+     "Allah’ın kelam, irade ve kudret sıfatlarına; nübüvvetin gerekliliğine ve Allah’ın her an yaratıcı olmasına aykırıdır"
+    ],
+    [
+     "Ateizm",
+     "Tanrı yoktur",
+     "Allah’ın varlığının delilleri (hudûs, imkân, nizam) ile cevaplanır"
+    ],
+    [
+     "Agnostisizm",
+     "Tanrının var olup olmadığı bilinemez (terim: T. H. Huxley)",
+     "Aklın ve vahyin bilgi kaynağı olduğu (kelam bilgi teorisi) ile cevaplanır"
+    ],
+    [
+     "Panteizm",
+     "Tanrı ile evren aynıdır",
+     "Allah’ın âlemden ayrı ve onu aşkın (muhâlefetün li’l-havâdis) olmasına aykırıdır"
+    ],
+    [
+     "Sekülerizm",
+     "Din ile dünya işlerinin, özellikle devlet ve kamu alanının ayrılması",
+     "Bir dünya görüşü olarak dini hayattan dışlayan biçimleri İslam’ın bütüncül hayat anlayışıyla çatışır"
+    ]
+   ]
+  },
+  "Deizme karşı kelamî cevap birkaç noktada toplanır: (1) Allah’ın kelam sıfatı vardır ve insanlara hitap eder; konuşmayan, bildirmeyen bir Tanrı tasavvuru eksiktir. (2) İnsan aklı Allah’ın varlığını bulabilir, ama ibadetin şeklini, ahiretin ayrıntılarını ve ahlakın bütün ölçülerini tek başına bulamaz; bu yüzden nübüvvet gereklidir. (3) Kâinat bir kere yaratılıp bırakılmamıştır; Mâtürîdî ve Eş’arî kelamına göre Allah her an yaratır ve âlem varlığını sürdürmek için de O’na muhtaçtır (“O her an bir iştedir”, Rahmân 29). (4) Aklın Allah’ı bilmesi ile vahye ihtiyaç duyulmaması birbirinden farklı iddialardır.",
+  {
+   "ayet": "Göklerde ve yerde olanlar O’ndan ister. O her an bir iştedir.",
+   "kay": "Rahmân, 55/29"
+  },
+  "Kötülük problemi (teodise), “Allah hem her şeye kādir hem de mutlak iyi ise dünyada kötülük neden var?” sorusudur. Kelamcılar bu soruya şu açılardan cevap verir: Dünya bir imtihan yeridir ve imtihan, iyi ile kötünün birlikte bulunmasını gerektirir (Mülk 2). Kötülüklerin bir kısmı insanın kendi özgür iradesinin sonucudur. Bazı şerler izafîdir; bir açıdan şer görünen, bütün içinde hayır olabilir. Ahiret hayatı, dünyadaki adaletsizliklerin telafi edileceği yerdir; bu yüzden ahirete iman, kötülük probleminin cevabının ayrılmaz parçasıdır. Ehl-i sünnete göre hayrı da şerri de Allah yaratır, ama Allah şerre razı olmaz; Mu’tezile ise kulun kötü fiillerini kulun yarattığını söyler.",
+  {
+   "sinav": "Deizmin tanımı (yaratıcıyı kabul, vahyi ve müdahaleyi ret), agnostisizmin tanımı (bilinemezcilik) ve panteizmin tanımı karıştırılarak sorulur. Kötülük probleminde imtihan (Mülk 2), irade ve ahiret cevapları beklenir."
+  },
+  {
+   "akil": "Deizm: yaratıcı var, vahiy-müdahale yok. Ateizm: Tanrı yok. Agnostisizm: bilinemez. Panteizm: Tanrı = evren. Cevap: kelam sıfatı, nübüvvetin gerekliliği, Allah her an yaratır (Rahmân 29). Kötülük: imtihan, irade, izafî şer, ahiret."
+  }
+ ],
+ "ozet": [
+  "Felsefe, Abbâsîler döneminde Beytülhikme etrafındaki tercüme hareketiyle İslam dünyasına girdi.",
+  "Kindî “Feylesofü’l-Arab” lakaplı ilk Müslüman filozoftur ve âlemin yaratılmışlığını savunmuştur.",
+  "Fârâbî “Muallim-i sânî”dir; sudûr teorisi ve el-Medînetü’l-fâzıla ile tanınır.",
+  "İbn Sînâ “Şeyhü’r-reîs”tir; vâcibü’l-vücûd – mümkinü’l-vücûd ayrımıyla imkân delilini geliştirmiştir.",
+  "İbn Rüşd Tehâfütü’t-tehâfüt ile Gazzâlî’ye cevap vermiş, Faslü’l-makāl’de din-felsefe uyumunu savunmuştur.",
+  "Gazzâlî Tehâfütü’l-felâsife’de filozofları 20 meselede eleştirmiş, 3 meselede tekfir etmiştir: âlemin kıdemi, Allah’ın cüz’iyyâtı bilmemesi, cismani haşrin inkârı.",
+  "Gazzâlî sebeplilik bağını zorunlu görmez; olayları âdetullah ile açıklar.",
+  "İbn Haldun’a göre müteahhirîn kelamında kelam ile felsefe birbirine karışmıştır.",
+  "Müteahhirîn eserleri: Râzî – el-Muhassal, Beyzâvî – Tavâliu’l-envâr, Îcî – el-Mevâkıf, Teftâzânî – Şerhu’l-Makāsıd.",
+  "Yeni ilm-i kelam, XIX-XX. yüzyılda pozitivizm, materyalizm ve Darwinizme cevap olarak doğmuştur.",
+  "İzmirli İsmail Hakkı Yeni İlm-i Kelâm’ı, Filibeli Ahmed Hilmi Allah’ı İnkâr Mümkün müdür?’ü yazmıştır.",
+  "Deizm yaratıcıyı kabul edip vahyi, peygamberliği ve Allah’ın âleme müdahalesini reddeder.",
+  "Agnostisizm Tanrı’nın varlığının bilinemeyeceğini, panteizm Tanrı ile evrenin aynı olduğunu savunur.",
+  "Kötülük problemine kelamî cevap: imtihan, insan iradesi, izafî şer ve ahirette telafi."
+ ],
+ "kartlar": [
+  {
+   "o": "Feylesofü’l-Arab",
+   "a": "Kindî; ilk Müslüman filozof."
+  },
+  {
+   "o": "Muallim-i sânî",
+   "a": "Fârâbî (birinci öğretmen Aristo)."
+  },
+  {
+   "o": "Şeyhü’r-reîs",
+   "a": "İbn Sînâ; eş-Şifâ, en-Necât, el-İşârât."
+  },
+  {
+   "o": "Vâcibü’l-vücûd – mümkinü’l-vücûd",
+   "a": "İbn Sînâ’nın imkân delilinin temel ayrımı."
+  },
+  {
+   "o": "Tehâfütü’l-felâsife",
+   "a": "Gazzâlî; 20 mesele, 3’ünde tekfir."
+  },
+  {
+   "o": "Gazzâlî’nin tekfir ettiği üç mesele",
+   "a": "Âlemin kıdemi, Allah’ın cüz’iyyâtı bilmemesi, cismani haşrin inkârı."
+  },
+  {
+   "o": "Tehâfütü’t-tehâfüt",
+   "a": "İbn Rüşd’ün Gazzâlî’ye cevabı."
+  },
+  {
+   "o": "Faslü’l-makāl",
+   "a": "İbn Rüşd; din ile felsefenin uyumu."
+  },
+  {
+   "o": "Hikmetü’l-işrâk",
+   "a": "Sühreverdî el-Maktûl; işrâkî felsefe."
+  },
+  {
+   "o": "el-Mevâkıf",
+   "a": "Adudüddîn el-Îcî; müteahhirîn kelamı."
+  },
+  {
+   "o": "Yeni İlm-i Kelâm",
+   "a": "İzmirli İsmail Hakkı (1922-23)."
+  },
+  {
+   "o": "Deizm",
+   "a": "Yaratıcıyı kabul, vahiy, peygamberlik ve müdahaleyi ret; “saat yapıcı Tanrı”."
+  },
+  {
+   "o": "Agnostisizm",
+   "a": "Tanrı’nın varlığı bilinemez (bilinemezcilik)."
+  },
+  {
+   "o": "Teodise",
+   "a": "Kötülük problemi: kādir ve iyi Tanrı ile kötülüğün varlığının uzlaştırılması."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "kl12-01",
+   "z": 3,
+   "s": "Gazzâlî Tehâfütü’l-felâsife’de filozofları yirmi meselede eleştirmiş, bunların on yedisinde bid’at, üçünde küfürle itham etmiştir.\n\nAşağıdakilerden hangisi filozofların küfürle itham edildiği meselelerden biridir?",
+   "c": [
+    "Allah’ın sıfatlarının zâtının aynısı olduğu",
+    "Allah’ın tikelleri (cüz’iyyâtı) ancak tümel bir yolla bildiği",
+    "Ateş ile yanma arasındaki sebeplilik bağının zorunlu olduğu",
+    "Göklerin iradeyle hareket eden canlı varlıklar olduğu",
+    "İnsan nefsinin cisim olmadığının akılla ispatlanabileceği"
+   ],
+   "d": 1,
+   "a": "Gazzâlî’nin tekfir ettiği üç mesele âlemin kıdemi, Allah’ın cüz’iyyâtı bilmemesi ve cismani haşrin inkârıdır. Diğerleri bid’at saydığı on yedi mesele arasındadır.",
+   "ac": [
+    "Sıfatlar meselesi bid’at sayılan meselelerdendir.",
+    "Doğru.",
+    "Sebeplilik meselesi bid’at sayılan meselelerdendir.",
+    "Bid’at sayılan meselelerdendir.",
+    "Gazzâlî bu meselede filozofların delillerini yetersiz bulur, ama tekfir etmez."
+   ],
+   "kay": "Gazzâlî, Tehâfütü’l-felâsife"
+  },
+  {
+   "id": "kl12-02",
+   "z": 3,
+   "s": "Bir filozof, varlığı “var olması için başka bir şeye muhtaç olmayan, varlığı zorunlu olan” ve “var olması ya da olmaması eşit olup var olmak için bir sebebe muhtaç olan” şeklinde ikiye ayırmış ve bu ayrımdan hareketle Allah’ın varlığını ispat etmiştir. Tıp alanındaki Kânûn adlı eseriyle de Batı’da asırlarca okutulmuştur.\n\nBu filozof aşağıdakilerden hangisidir?",
+   "c": [
+    "Kindî",
+    "Fârâbî",
+    "İbn Rüşd",
+    "İbn Sînâ",
+    "İbn Tufeyl"
+   ],
+   "d": 3,
+   "a": "Vâcibü’l-vücûd – mümkinü’l-vücûd ayrımına dayanan imkân delili ve el-Kânûn fi’t-tıb İbn Sînâ’ya aittir.",
+   "ac": [
+    "Kindî âlemin hudûsunu savunmuş, ama bu ayrımın sahibi değildir.",
+    "Fârâbî bu ayrımın öncülerindendir, ama Kânûn’un yazarı değildir.",
+    "İbn Rüşd Aristo şârihidir; Kânûn’un yazarı değildir.",
+    "Doğru.",
+    "İbn Tufeyl Hay b. Yakzân’ın yazarıdır."
+   ],
+   "kay": "İbn Sînâ, en-Necât"
+  },
+  {
+   "id": "kl12-03",
+   "z": 2,
+   "s": "Aşağıdaki filozof – eser eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Fârâbî – el-Medînetü’l-fâzıla",
+    "İbn Rüşd – Faslü’l-makāl",
+    "Kindî – Tehâfütü’t-tehâfüt",
+    "Sühreverdî – Hikmetü’l-işrâk",
+    "İbn Tufeyl – Hay b. Yakzân"
+   ],
+   "d": 2,
+   "a": "Tehâfütü’t-tehâfüt, İbn Rüşd’ün Gazzâlî’ye cevap olarak yazdığı eserdir.",
+   "ac": [
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Yanlış eşleştirme budur.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir."
+   ],
+   "kay": "DİA, ilgili maddeler"
+  },
+  {
+   "id": "kl12-04",
+   "z": 3,
+   "s": "İbn Haldun, Mukaddime’de kelam ilmini iki döneme ayırmış ve sonraki dönemde kelam ile felsefenin konularının birbirine karıştığını, öyle ki bu iki ilmin birbirinden ayırt edilemez hâle geldiğini söylemiştir.\n\nİbn Haldun’un sözünü ettiği bu sonraki dönemin özelliklerini en iyi yansıtan eser aşağıdakilerden hangisidir?",
+   "c": [
+    "Bâkıllânî – et-Temhîd",
+    "Mâtürîdî – Kitâbü’t-Tevhîd",
+    "Eş’arî – el-İbâne",
+    "Ebû Hanîfe – el-Fıkhü’l-ekber",
+    "Adudüddîn el-Îcî – el-Mevâkıf"
+   ],
+   "d": 4,
+   "a": "Îcî’nin el-Mevâkıf’ı, umûr-ı âmme gibi felsefi konularla başlayan müteahhirîn kelamının tipik örneğidir.",
+   "ac": [
+    "Bâkıllânî mütekaddimîn dönemine aittir.",
+    "Mâtürîdî mütekaddimîn dönemine aittir.",
+    "Eş’arî mütekaddimîn dönemine aittir.",
+    "Erken dönem akaid metnidir.",
+    "Doğru."
+   ],
+   "kay": "İbn Haldun, Mukaddime"
+  },
+  {
+   "id": "kl12-05",
+   "z": 3,
+   "s": "Bir kişi şöyle demektedir: “Kâinatın bir yaratıcısı olduğuna inanıyorum; bu düzen kendiliğinden oluşamaz. Ama Tanrı âlemi yarattıktan sonra ona karışmaz; peygamber göndermez, kitap indirmez, dua işitmez.”\n\nBu kişinin görüşü ve bu görüşe yöneltilebilecek kelamî eleştiri aşağıdakilerden hangisinde birlikte doğru verilmiştir?",
+   "c": [
+    "Ateizm – Allah’ın varlığının delilleri",
+    "Agnostisizm – bilginin imkânı",
+    "Deizm – Allah’ın kelam ve irade sıfatları, nübüvvetin gerekliliği ve Allah’ın her an yaratıcı olması",
+    "Panteizm – Allah’ın âlemden ayrı olması",
+    "Sekülerizm – dinin toplumsal işlevi"
+   ],
+   "d": 2,
+   "a": "Yaratıcıyı kabul edip vahyi ve müdahaleyi reddeden görüş deizmdir. Kelamî cevap, Allah’ın konuşan ve dileyen bir zât olduğu, aklın ibadet ve ahiret ayrıntılarını bulamayacağı için nübüvvetin gerekli olduğu ve âlemin her an Allah’a muhtaç olduğu esasına dayanır.",
+   "ac": [
+    "Kişi yaratıcıyı kabul ettiği için ateist değildir.",
+    "Kişi bilinemezlik iddiasında bulunmamaktadır.",
+    "Doğru.",
+    "Kişi Tanrı ile evreni özdeş saymamaktadır.",
+    "Sekülerizm din ile kamu alanının ayrılmasıyla ilgilidir; bu görüş doğrudan Tanrı tasavvuruyla ilgilidir."
+   ],
+   "kay": "Rahmân, 55/29; DİA, “Deizm” md."
+  },
+  {
+   "id": "kl12-06",
+   "z": 3,
+   "s": "I. Dünyanın imtihan yeri olması ve imtihanın iyi ile kötünün birlikte bulunmasını gerektirmesi\nII. Kötülüklerin bir kısmının insanın özgür iradesinin sonucu olması\nIII. Bazı şerlerin izafî olup bütün içinde hayra hizmet etmesi\nIV. Dünyadaki adaletsizliklerin ahirette telafi edilecek olması\n\nYukarıdakilerden hangileri kelamcıların kötülük problemine verdiği cevaplar arasındadır?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 4,
+   "a": "Kelamcılar kötülük problemine imtihan, irade, izafî şer ve ahirette telafi gibi birbirini tamamlayan cevaplar vermiştir.",
+   "ac": [
+    "Diğer iki cevap da kelamcılarca kullanılmıştır.",
+    "Ahirette telafi de önemli bir cevaptır.",
+    "İmtihan cevabı Mülk 2’ye dayanır ve temel cevaptır.",
+    "İrade cevabı da kullanılmıştır.",
+    "Doğru."
+   ],
+   "kay": "Mülk, 67/2; Enbiyâ, 21/35"
+  },
+  {
+   "id": "kl12-07",
+   "z": 2,
+   "s": "“Tanrı’nın var olup olmadığı insan aklı tarafından bilinemez; bu yüzden ne var ne de yok denebilir.”\n\nBu görüşü ifade eden kavram aşağıdakilerden hangisidir?",
+   "c": [
+    "Deizm",
+    "Panteizm",
+    "Teizm",
+    "Agnostisizm",
+    "Fideizm"
+   ],
+   "d": 3,
+   "a": "Tanrı’nın varlığının bilinemeyeceğini savunan görüş agnostisizmdir (bilinemezcilik).",
+   "ac": [
+    "Deizm yaratıcıyı kabul eder.",
+    "Panteizm Tanrı ile evreni özdeş sayar.",
+    "Teizm vahiy gönderen bir Tanrı’ya inanır.",
+    "Doğru.",
+    "Fideizm inancın akla değil imana dayandığını savunur; bilinemezlik iddiası değildir."
+   ],
+   "kay": "DİA, “Agnostisizm” md."
+  },
+  {
+   "id": "kl12-08",
+   "z": 3,
+   "s": "Gazzâlî, ateşin pamuğa değmesiyle pamuğun yanması arasındaki bağın zorunlu olmadığını, bu olayların Allah’ın âdeti (âdetullah) gereği birlikte gerçekleştiğini savunmuştur.\n\nGazzâlî’nin bu görüşü öncelikle hangi inanç esasını temellendirmeye yöneliktir?",
+   "c": [
+    "Ahirette Allah’ın görülmesi",
+    "Mucizelerin imkânı ve Allah’ın mutlak kudreti",
+    "Meleklerin varlığı",
+    "Kur’an’ın yaratılmamış olması",
+    "İmanın artıp eksilmemesi"
+   ],
+   "d": 1,
+   "a": "Sebep-sonuç bağı zorunlu olursa, ateşin Hz. İbrâhîm’i yakmaması gibi mucizeler açıklanamaz. Gazzâlî, âdetullah görüşüyle Allah’ın mutlak kudretini ve mucizelerin imkânını temellendirmiştir.",
+   "ac": [
+    "Rü’yetullah bu tartışmanın konusu değildir.",
+    "Doğru.",
+    "Meleklerin varlığı bu tartışmanın konusu değildir.",
+    "Kur’an’ın yaratılmışlığı ayrı bir meseledir.",
+    "İmanın artıp eksilmesi ayrı bir meseledir."
+   ],
+   "kay": "Gazzâlî, Tehâfütü’l-felâsife, 17. mesele"
+  },
+  {
+   "id": "kl12-09",
+   "z": 2,
+   "s": "İslam felsefesinde “Muallim-i sânî” (ikinci öğretmen) lakabıyla anılan ve bu lakabı Aristo’dan sonra mantık ve felsefeyi en iyi öğreten kişi olarak kabul edildiği için alan filozof aşağıdakilerden hangisidir?",
+   "c": [
+    "Fârâbî",
+    "Kindî",
+    "İbn Sînâ",
+    "İbn Bâcce",
+    "İbn Rüşd"
+   ],
+   "d": 0,
+   "a": "Fârâbî, Aristo’dan (Muallim-i evvel) sonra “Muallim-i sânî” olarak anılır.",
+   "ac": [
+    "Doğru.",
+    "Kindî “Feylesofü’l-Arab” olarak anılır.",
+    "İbn Sînâ “Şeyhü’r-reîs” olarak anılır.",
+    "İbn Bâcce Endülüslü filozoftur; bu lakapla anılmaz.",
+    "İbn Rüşd “Şârih” olarak anılır."
+   ],
+   "kay": "DİA, “Fârâbî” md."
+  },
+  {
+   "id": "kl12-10",
+   "z": 3,
+   "s": "Bir hareketle ilgili şu bilgiler verilmiştir:\n• Hindistan’da Şiblî Nu’mânî’nin eseriyle adı yaygınlaşmıştır.\n• Türkiye’de en sistemli temsilcisi aynı adı taşıyan bir eser yazmıştır.\n• Klasik cevher-araz delillerinin modern itirazlara cevap vermekte yetersiz kaldığı düşüncesinden doğmuştur.\n\nBu hareket ve Türkiye’deki temsilcisi aşağıdakilerden hangisidir?",
+   "c": [
+    "Müteahhirîn kelamı – Teftâzânî",
+    "İşrâkîlik – Sühreverdî",
+    "Selefîlik – Muhammed b. Abdülvehhâb",
+    "Yeni ilm-i kelam – İzmirli İsmail Hakkı",
+    "Islahçılık – Reşîd Rızâ"
+   ],
+   "d": 3,
+   "a": "Yeni ilm-i kelam hareketinin Türkiye’deki en sistemli temsilcisi, Yeni İlm-i Kelâm adlı eseri yazan İzmirli İsmail Hakkı’dır.",
+   "ac": [
+    "Teftâzânî XIV. yüzyılda yaşamıştır.",
+    "İşrâkîlik XII. yüzyıldaki bir felsefe akımıdır.",
+    "Selefîlik bu hareketle ilgili değildir.",
+    "Doğru.",
+    "Reşîd Rızâ Mısır’daki ıslahçı hareketin temsilcisidir."
+   ],
+   "kay": "DİA, “Kelâm” md."
+  },
+  {
+   "id": "kl12-11",
+   "z": 3,
+   "s": "İbn Rüşd’ün Faslü’l-makāl adlı eserindeki temel tezlerle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Felsefe dine aykırıdır ve öğrenilmesi haramdır.",
+    "Kur’an’ın zâhiri her durumda akla tercih edilir; te’vil caiz değildir.",
+    "Din felsefi düşünmeyi emreder; hak hakka zıt olmaz; akıl ile nas çatışır görünürse nas te’vil edilir.",
+    "Gazzâlî’nin filozofları tekfir etmesi yerindedir.",
+    "Felsefe yalnızca mantıktan ibarettir; metafizik konularda söz söyleyemez."
+   ],
+   "d": 2,
+   "a": "İbn Rüşd, Faslü’l-makāl’de felsefeyle uğraşmanın dinen emredildiğini, hakikatin tek olduğunu ve görünürdeki çatışmalarda nassın te’vil edileceğini savunur.",
+   "ac": [
+    "İbn Rüşd’ün görüşünün tam tersidir.",
+    "İbn Rüşd te’vili savunur.",
+    "Doğru.",
+    "İbn Rüşd Gazzâlî’ye karşı çıkmıştır.",
+    "İbn Rüşd metafizikle de uğraşmıştır."
+   ],
+   "kay": "İbn Rüşd, Faslü’l-makāl"
+  },
+  {
+   "id": "c2-03",
+   "z": 1,
+   "s": "İslam düşünce tarihinde “Feylesofü’l-Arab” lakabıyla anılan ilk Müslüman filozof kimdir?",
+   "c": [
+    "Fârâbî",
+    "Kindî",
+    "İbn Tufeyl",
+    "İbn Rüşd",
+    "İbn Sînâ"
+   ],
+   "d": 1,
+   "a": "Kindî, ilk Müslüman filozof kabul edilir ve Feylesofü’l-Arab diye anılır.",
+   "ac": [
+    "Muallim-i sânîdir.",
+    "Doğru.",
+    "Hay b. Yakzân’ın yazarıdır.",
+    "Tehâfütü’t-tehâfüt’ün yazarıdır.",
+    "Şeyhü’r-reîstir."
+   ],
+   "kay": "İslam felsefesi tarihi"
+  },
+  {
+   "id": "c2-11",
+   "z": 3,
+   "s": "Gazzâlî, Tehâfütü’l-felâsife adlı eserinde filozofları bazı görüşleri sebebiyle tekfir etmiştir.\n\nAşağıdakilerden hangisi bu görüşlerden biri değildir?",
+   "c": [
+    "Allah’ın varlığının imkân deliliyle ispatı",
+    "Allah’ın cüz’îleri bilmemesi",
+    "Âlemin ezelî olması",
+    "Bedenle dirilişin inkârı",
+    "Ahirette yalnız ruhların dirilmesi"
+   ],
+   "d": 0,
+   "a": "Gazzâlî filozofları üç konuda tekfir etmiştir: âlemin ezelîliği, Allah’ın cüz’îleri bilmemesi ve cismani haşrin inkârı. İmkân delili bunlardan biri değildir.",
+   "ac": [
+    "Doğru.",
+    "Tekfir sebebidir.",
+    "Tekfir sebebidir.",
+    "Tekfir sebebidir.",
+    "Cismani haşrin inkârının diğer ifadesidir."
+   ],
+   "kay": "Gazzâlî, Tehâfütü’l-felâsife"
+  },
+  {
+   "id": "c2-15",
+   "z": 2,
+   "s": "İslam filozoflarıyla ilgili eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "Kindî – ilk Müslüman Arap filozof",
+    "İbn Rüşd – Tehâfütü’t-Tehâfüt",
+    "İbn Sînâ – eş-Şifâ",
+    "Fârâbî – Muallim-i Sânî",
+    "Gazzâlî – Tehâfütü’t-Tehâfüt"
+   ],
+   "d": 4,
+   "a": "Gazzâlî filozofları üç meselede tekfir etmiş, İbn Rüşd ona cevap vermiştir.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Gazzâlî’nin eseri Tehâfütü’l-felâsife’dir; Tehâfütü’t-Tehâfüt İbn Rüşd’ün cevabıdır."
+   ],
+   "kay": "Kelam tarihi"
+  },
+  {
+   "id": "c2-16",
+   "z": 3,
+   "s": "Klasik kelam yönteminin yetersiz kaldığı düşüncesiyle 19-20. yüzyılda pozitivizm ve materyalizme karşı yeni yöntemler öneren yaklaşım hangisidir?",
+   "c": [
+    "Selefiyye",
+    "Haşviyye",
+    "Mu‘tezile",
+    "Kerrâmiyye",
+    "Yeni İlm-i Kelam"
+   ],
+   "d": 4,
+   "a": "Şehbenderzâde Filibeli Ahmed Hilmi, İzmirli İsmail Hakkı bu yaklaşımın temsilcilerindendir.",
+   "ac": [
+    "Kelamî tartışmadan uzak durur.",
+    "Zahirci bir akımdır.",
+    "Klasik bir ekoldür.",
+    "Klasik bir fırkadır.",
+    "Modern itirazlara cevap için yöntem yenilemeyi savunur."
+   ],
+   "kay": "Kelam tarihi"
+  },
+  {
+   "id": "kl12-12",
+   "z": 3,
+   "s": "I. Abbâsîler döneminde Beytülhikme etrafında yürütülen tercüme faaliyetleri\nII. Pozitivizm, materyalizm ve Darwinizmin İslam dünyasında yayılması\nIII. Gazzâlî ve Fahreddin er-Râzî’nin kelama mantık ve felsefi konuları sokması\n\nYukarıdaki gelişmeler, sonuçlarıyla birlikte düşünüldüğünde sırasıyla aşağıdakilerden hangisine zemin hazırlamıştır?",
+   "c": [
+    "Meşşâî felsefenin doğuşu – yeni ilm-i kelam – müteahhirîn kelamı",
+    "Yeni ilm-i kelam – Meşşâî felsefe – mütekaddimîn kelamı",
+    "Müteahhirîn kelamı – işrâkî felsefe – yeni ilm-i kelam",
+    "Meşşâî felsefe – müteahhirîn kelamı – yeni ilm-i kelam",
+    "Mihne – Selefîlik – işrâkî felsefe"
+   ],
+   "d": 0,
+   "a": "Tercüme hareketi Meşşâî felsefenin, modern akımlar yeni ilm-i kelamın, Gazzâlî ve Râzî’nin yöntemi ise müteahhirîn kelamının doğuşuna zemin hazırlamıştır.",
+   "ac": [
+    "Doğru.",
+    "Sıralama karışıktır; yeni ilm-i kelam modern döneme aittir.",
+    "Tercüme hareketi müteahhirîn kelamını değil, felsefeyi doğurmuştur.",
+    "İkinci ve üçüncü sonuç yer değiştirmiştir.",
+    "Mihne halku’l-Kur’ân tartışmasının sonucudur."
+   ],
+   "kay": "İbn Haldun, Mukaddime; DİA, “Kelâm” md."
+  }
+ ]
+}

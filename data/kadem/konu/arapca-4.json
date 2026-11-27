@@ -1,0 +1,586 @@
+{
+ "id": "arapca-4",
+ "ad": "Nahiv I: Cümle, İ‘rab, Mübteda–Haber, Fâil–Nâib-i Fâil, Kâne ve İnne Grupları",
+ "ders": "Arapça",
+ "sinavlar": [
+  "ihtisas",
+  "ilcemuftu",
+  "muftuyrd",
+  "vaizlik",
+  "egitimgorevlisi",
+  "mufettis",
+  "arapca"
+ ],
+ "oncelik": 3,
+ "anlatim": [
+  "Nahiv, kelimelerin cümle içindeki görevini ve buna göre son harflerinin nasıl değiştiğini inceler. Kur’an’ı doğru anlamak nahvi bilmeye bağlıdır. إِنَّمَا يَخْشَى اللّٰهَ مِنْ عِبَادِهِ الْعُلَمَاءُ ayetinde Allah lafzının mansûb, الْعُلَمَاءُ kelimesinin merfû okunması anlamı belirler: “Allah’tan ancak âlimler korkar.” İ‘rab ters okunursa anlam bozulur. Bu ünite cümleyi, i‘rabı ve merfû öğeleri anlatır.",
+  {
+   "ayet": "Kulları içinden Allah’tan ancak âlimler (hakkıyla) korkar.",
+   "kay": "Fâtır, 35/28"
+  },
+  {
+   "b": "1. Cümle çeşitleri ve i‘rab"
+  },
+  {
+   "merak": "الْعِلْمُ نُورٌ ile جَاءَ الْحَقُّ cümleleri arasındaki fark nedir? Birincisi isimle, ikincisi fiille başlar. Arap dilcileri cümleyi ilk kelimesine göre adlandırır."
+  },
+  "İsimle başlayan cümleye isim cümlesi (cümle-i ismiyye), fiille başlayan cümleye fiil cümlesi (cümle-i fi‘liyye) denir. İsim cümlesinin iki temel öğesi mübteda ve haberdir. Fiil cümlesinin temel öğeleri fiil ve fâildir. Müteaddî fiil varsa mef‘ûl de cümleye girer.",
+  "İ‘rab, kelimenin sonunun cümledeki görevine göre değişmesidir. Dört i‘rab hâli vardır: ref (merfû), nasb (mansûb), cer (mecrûr) ve cezm (meczûm). İsimlerde ref, nasb ve cer bulunur, cezm bulunmaz. Muzâri fiilde ref, nasb ve cezm bulunur, cer bulunmaz. Sonu değişmeyen kelimelere mebnî denir: harflerin hepsi, mâzî ve emir fiiller, zamirler, işaret isimleri, ism-i mevsuller (çoğunlukla) ve soru isimleri.",
+  {
+   "tablo": [
+    [
+     "İ‘rab hâli",
+     "Asıl alamet",
+     "Fer‘î (yan) alametler",
+     "Kimde görülür"
+    ],
+    [
+     "Ref",
+     "Ötre (ـُ)",
+     "Tesniyede elif (ـَانِ), cem-i müzekkerde vav (ـُونَ), esmâ-i hamsede vav (أَبُوكَ), beş fiilde nûn (يَفْعَلُونَ)",
+     "İsim ve muzâri"
+    ],
+    [
+     "Nasb",
+     "Üstün (ـَ)",
+     "Tesniye ve cemde ي, cem-i müennes sâlimde esre, esmâ-i hamsede elif (أَبَاكَ), beş fiilde nûnun düşmesi",
+     "İsim ve muzâri"
+    ],
+    [
+     "Cer",
+     "Esre (ـِ)",
+     "Tesniye ve cemde ي, gayr-i munsarifte üstün, esmâ-i hamsede ي (أَبِيكَ)",
+     "Yalnız isim"
+    ],
+    [
+     "Cezm",
+     "Sükûn (ـْ)",
+     "İlletli fiilde illet harfinin düşmesi, beş fiilde nûnun düşmesi",
+     "Yalnız muzâri"
+    ]
+   ]
+  },
+  "Esmâ-i hamse (beş isim) şunlardır: أَبٌ، أَخٌ، حَمٌ، فُو، ذُو. Bir isme izafe edildiklerinde i‘rabı harfle yaparlar: جَاءَ أَبُوكَ، رَأَيْتُ أَبَاكَ، مَرَرْتُ بِأَبِيكَ. Beş fiil (ef‘âl-i hamse) ise sonuna ikil elifi, çoğul vavı ya da muhâtaba yası bitişen muzârilerdir: يَفْعَلَانِ، تَفْعَلَانِ، يَفْعَلُونَ، تَفْعَلُونَ، تَفْعَلِينَ. Merfû hâlde sondaki ن ile, mansûb ve meczûm hâlde bu nûnun düşmesiyle i‘rab yaparlar: لَنْ تَفْعَلُوا، لَمْ يَفْعَلُوا.",
+  {
+   "sinav": "Sınavda “aşağıdakilerin hangisinde i‘rab harfle yapılmıştır?” ya da “hangisi fer‘î alametle mansûbdur?” diye sorulur. Tesniye, cem-i müzekker sâlim, esmâ-i hamse ve beş fiil bu sorunun ana malzemesidir. Bakara 2/24’teki فَإِنْ لَمْ تَفْعَلُوا وَلَنْ تَفْعَلُوا ifadesinde nûn, hem cezm hem nasb sebebiyle düşmüştür."
+  },
+  {
+   "akil": "İsimde cezm yok, fiilde cer yok. Fer‘î alamet: tesniye, cem-i müzekker sâlim, esmâ-i hamse, beş fiil, cem-i müennes sâlim (nasbda esre), gayr-i munsarif (cerde üstün)."
+  },
+  {
+   "b": "2. Mübteda ve haber; haberin çeşitleri"
+  },
+  {
+   "merak": "Türkçede “Allah büyüktür” cümlesinin yüklemi “-dir” ekiyle kurulur. Arapçada اَللّٰهُ أَكْبَرُ cümlesinde böyle bir ek yoktur. İki merfû isim yan yana gelir, birincisi hakkında hüküm verilir. Bu yapı Arapçanın en temel cümlesidir."
+  },
+  "Mübteda, isim cümlesinin başında bulunan ve hakkında hüküm verilen merfû isimdir. Haber, mübteda hakkında verilen ve cümleyi tamamlayan bilgidir. Mübteda kural olarak marife (belirli), haber ise nekre (belirsiz) olur: اَلْعِلْمُ نَافِعٌ. Mübteda nekre olursa genellikle haber öne geçer: فِي الدَّارِ رَجُلٌ (evde bir adam var). Haber üç çeşittir. Müfred haber tek kelimedir (ikil ya da çoğul olabilir): اَلطَّالِبَانِ مُجْتَهِدَانِ. Cümle haber bir isim ya da fiil cümlesidir: زَيْدٌ أَبُوهُ كَرِيمٌ، اَلْمُؤْمِنُ يَصْدُقُ. Şibh-i cümle haber, câr-mecrûr ya da zarftan oluşur: اَلْحَمْدُ لِلّٰهِ، اَلْجَنَّةُ تَحْتَ أَقْدَامِ الْأُمَّهَاتِ.",
+  {
+   "tablo": [
+    [
+     "Haber türü",
+     "Yapısı",
+     "Örnek"
+    ],
+    [
+     "Müfred",
+     "Tek isim (ikil/çoğul dâhil)",
+     "اَللّٰهُ غَفُورٌ"
+    ],
+    [
+     "Cümle (ismiyye)",
+     "Mübteda + haber; mübtedaya dönen zamir (râbıt) bulunur",
+     "زَيْدٌ أَبُوهُ عَالِمٌ"
+    ],
+    [
+     "Cümle (fi‘liyye)",
+     "Fiil + fâil; râbıt zamir bulunur",
+     "اَلطُّيُورُ تُغَرِّدُ"
+    ],
+    [
+     "Şibh-i cümle",
+     "Câr-mecrûr ya da zarf",
+     "اَلْحَمْدُ لِلّٰهِ، اَلْكِتَابُ فَوْقَ الْمَكْتَبِ"
+    ]
+   ]
+  },
+  {
+   "sinav": "Haberin çeşidi sorulduğunda haberi oluşturan kelimelere bak. Haber harf-i cerle başlıyorsa (لِلّٰهِ، فِي الدَّارِ) ya da فَوْقَ، تَحْتَ، عِنْدَ gibi bir zarfsa şibh-i cümledir. Haber bir fiil ya da yeni bir mübteda-haber içeriyorsa cümledir. Cümle haberde mübtedaya dönen bir zamir (râbıt) bulunması gerekir."
+  },
+  {
+   "akil": "Mübteda marife ve merfû, haber nekre ve merfû. Haber: müfred, cümle (râbıtlı), şibh-i cümle (câr-mecrûr ya da zarf). Nekre mübtedada haber öne geçer: فِي الدَّارِ رَجُلٌ."
+  },
+  {
+   "b": "3. Fâil ve nâib-i fâil"
+  },
+  "Fâil, fiilin işini yapan ve fiilden sonra gelen merfû isimdir: قَرَأَ الطَّالِبُ الْقُرْآنَ. Fâil zamir de olabilir: قَرَأْتُ (ben okudum). Fâil zâhir bir isim (gizli olmayan) olduğunda fiil tekil kalır. Fâil çoğul da olsa fiil tekil gelir: جَاءَ الطُّلَّابُ، قَالَتِ الْأَعْرَابُ. Fâil hakîki müennes ve fiile bitişik ise fiil müennes olur: قَامَتْ فَاطِمَةُ. Cem-i mükesser fâillerde fiil müzekker de müennes de olabilir: قَالَ / قَالَتِ الْأَعْرَابُ.",
+  "Nâib-i fâil, meçhul fiilden sonra fâilin yerini alan merfû isimdir. Asıl cümlede mef‘ûl olan isim meçhul cümlede nâib-i fâil olur: كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ. Kur’an’daki كُتِبَ عَلَيْكُمُ الصِّيَامُ (Bakara, 2/183) ayetinde الصِّيَامُ nâib-i fâildir.",
+  {
+   "sinav": "Fâil ile mübteda karıştırılır. Bir isim fiilden önce gelirse fâil değil mübtedadır, fiil onun haberi olur: اَلطَّالِبُ قَرَأَ. Fiilden sonra gelince fâildir: قَرَأَ الطَّالِبُ. Meçhul fiilden sonra gelen merfû isim ise fâil değil, nâib-i fâildir."
+  },
+  {
+   "b": "4. Kâne ve kardeşleri (nâkıs fiiller)"
+  },
+  {
+   "merak": "كَانَ اللّٰهُ غَفُورًا رَحِيمًا ayetinde neden غَفُورًا mansûb okunur? Çünkü كَانَ, isim cümlesinin üzerine gelip haberi nasbeden bir fiildir. Bu fiiller tek başına anlamı tamamlamadığı için nâkıs fiil adını alır."
+  },
+  "Kâne ve kardeşleri isim cümlesinin başına gelir. Mübtedayı merfû bırakır (kânenin ismi), haberi mansûb yapar (kânenin haberi). Bu grupta şu fiiller bulunur: كَانَ (idi), صَارَ (oldu), أَصْبَحَ (sabahladı, oldu), أَمْسَى (akşamladı), أَضْحَى (kuşluk vaktine girdi), ظَلَّ (gün boyu…), بَاتَ (gece boyu…), لَيْسَ (değildir), مَا زَالَ (hâlâ… durmakta), مَا بَرِحَ، مَا فَتِئَ، مَا انْفَكَّ (sürekliliği bildirir), مَا دَامَ (… olduğu sürece). Bunlardan لَيْسَ olumsuzluk bildirir ve yalnız mâzî kalıbında kullanılır (câmid fiil).",
+  {
+   "ayet": "Allah çok bağışlayan, çok merhamet edendir.",
+   "kay": "Nisâ, 4/96"
+  },
+  {
+   "b": "5. İnne ve kardeşleri; lâ-yı nefy-i cins"
+  },
+  "İnne ve kardeşleri harf olup kâne grubunun tersine çalışır. Mübtedayı mansûb yapar (innenin ismi), haberi merfû bırakır (innenin haberi): إِنَّ اللّٰهَ غَفُورٌ رَحِيمٌ. Bu grupta إِنَّ (muhakkak), أَنَّ (… olduğunu), كَأَنَّ (sanki), لٰكِنَّ (fakat), لَيْتَ (keşke) ve لَعَلَّ (umulur ki) bulunur. Bunlara harf-i müşebbehe bi’l-fiil de denir, çünkü fiil gibi ism ve haber alır ve sonları üstünlüdür.",
+  {
+   "tablo": [
+    [
+     "Grup",
+     "Tür",
+     "İsme etkisi",
+     "Habere etkisi",
+     "Örnek"
+    ],
+    [
+     "Kâne ve kardeşleri",
+     "Nâkıs fiil",
+     "Merfû",
+     "Mansûb",
+     "كَانَ اللّٰهُ عَلِيمًا"
+    ],
+    [
+     "İnne ve kardeşleri",
+     "Harf",
+     "Mansûb",
+     "Merfû",
+     "إِنَّ اللّٰهَ عَلِيمٌ"
+    ],
+    [
+     "Lâ-yı nefy-i cins",
+     "Harf",
+     "Mansûb (genellikle tenvinsiz, mebnî)",
+     "Merfû",
+     "لَا إِلٰهَ إِلَّا اللّٰهُ"
+    ],
+    [
+     "Zanne ve kardeşleri",
+     "Tam fiil",
+     "Mansûb (1. mef‘ûl)",
+     "Mansûb (2. mef‘ûl)",
+     "ظَنَنْتُ زَيْدًا عَالِمًا"
+    ]
+   ]
+  },
+  "Lâ-yı nefy-i cins, bir cinsin tamamını olumsuzlar. İsmi nekre olur ve üstün üzere mebnî okunur: لَا رَيْبَ فِيهِ (onda hiçbir şüphe yoktur). Kelime-i tevhiddeki لَا إِلٰهَ إِلَّا اللّٰهُ ifadesinde إِلٰهَ, lâ-yı nefy-i cinsin ismidir. Zanne ve kardeşleri (ظَنَّ، حَسِبَ، خَالَ، زَعَمَ، عَلِمَ، رَأَى، جَعَلَ) ise mübteda ile haberin ikisini de mef‘ûl olarak nasbeder.",
+  {
+   "sinav": "“Aşağıdakilerin hangisinde haber mansûbdur?” sorusunda kâne grubunu ara. “Hangisinde mübteda mansûb hâle gelmiştir?” sorusunda inne grubunu ve lâ-yı nefy-i cinsi ara. لَيْسَ fiildir, لَا ve إِنَّ harftir. إِنَّ kesreli ise cümle başında ya da قَالَ’dan sonra, أَنَّ üstünlü ise mastar anlamı taşıyan yerde gelir."
+  },
+  {
+   "akil": "Kâne: ism merfû, haber mansûb (fiil). İnne: ism mansûb, haber merfû (harf). Lâ-yı nefy-i cins: ism nekre ve üstün üzere mebnî. لَيْسَ olumsuz, câmid bir fiildir."
+  }
+ ],
+ "ozet": [
+  "Cümle isimle başlarsa isim cümlesi, fiille başlarsa fiil cümlesidir.",
+  "İ‘rab hâlleri ref, nasb, cer ve cezmdir; isimde cezm, fiilde cer bulunmaz.",
+  "Mebnîler: harfler, mâzî ve emir, zamirler, işaret isimleri, mevsuller, soru isimleri.",
+  "Fer‘î alametler: tesniye, cem-i müzekker sâlim, esmâ-i hamse, beş fiil, cem-i müennes sâlim ve gayr-i munsarif.",
+  "Esmâ-i hamse: أَبٌ، أَخٌ، حَمٌ، فُو، ذُو; izafette harfle i‘rab yaparlar.",
+  "Beş fiil merfû hâlde nûnla, mansûb ve meczûm hâlde nûnun düşmesiyle i‘rab yapar.",
+  "Mübteda ve haber merfûdur; haber müfred, cümle ya da şibh-i cümle olabilir.",
+  "Cümle haberde mübtedaya dönen bir râbıt zamir bulunur.",
+  "Fâil fiilden sonra gelir ve merfûdur; fâil çoğul da olsa zâhir isim olduğunda fiil tekil kalır.",
+  "Meçhul fiilden sonra gelen merfû isim nâib-i fâildir (كُتِبَ عَلَيْكُمُ الصِّيَامُ).",
+  "Kâne grubunda ism merfû, haber mansûb; inne grubunda ism mansûb, haber merfûdur.",
+  "Lâ-yı nefy-i cinsin ismi nekre ve üstün üzere mebnîdir (لَا رَيْبَ فِيهِ)."
+ ],
+ "kartlar": [
+  {
+   "o": "İsim cümlesinin öğeleri",
+   "a": "Mübteda ve haber"
+  },
+  {
+   "o": "Mebnî fiiller",
+   "a": "Mâzî ve emir (muzâri, nûn-ı nisve ve te’kîd nûnu bitişmedikçe mu‘rebdir)"
+  },
+  {
+   "o": "Esmâ-i hamse",
+   "a": "أَبٌ، أَخٌ، حَمٌ، فُو، ذُو"
+  },
+  {
+   "o": "Beş fiil",
+   "a": "يَفْعَلَانِ، تَفْعَلَانِ، يَفْعَلُونَ، تَفْعَلُونَ، تَفْعَلِينَ"
+  },
+  {
+   "o": "Şibh-i cümle haber",
+   "a": "Câr-mecrûr ya da zarf: اَلْحَمْدُ لِلّٰهِ"
+  },
+  {
+   "o": "Râbıt",
+   "a": "Cümle haberde mübtedaya dönen zamir"
+  },
+  {
+   "o": "Nâib-i fâil",
+   "a": "Meçhul fiilden sonra fâilin yerini alan merfû isim"
+  },
+  {
+   "o": "Kâne ve kardeşleri",
+   "a": "İsim merfû, haber mansûb: كَانَ اللّٰهُ غَفُورًا"
+  },
+  {
+   "o": "لَيْسَ",
+   "a": "Olumsuz, câmid nâkıs fiil"
+  },
+  {
+   "o": "İnne ve kardeşleri",
+   "a": "إِنَّ، أَنَّ، كَأَنَّ، لٰكِنَّ، لَيْتَ، لَعَلَّ: ism mansûb, haber merfû"
+  },
+  {
+   "o": "Lâ-yı nefy-i cins",
+   "a": "Cinsin tamamını olumsuzlar: لَا رَيْبَ فِيهِ"
+  },
+  {
+   "o": "Zanne ve kardeşleri",
+   "a": "Mübteda ve haberi iki mef‘ûl olarak nasbeder"
+  },
+  {
+   "o": "مَا دَامَ",
+   "a": "“… olduğu sürece” anlamında kâne kardeşi"
+  },
+  {
+   "o": "Fâtır 35/28",
+   "a": "اللّٰهَ mef‘ûl, الْعُلَمَاءُ fâil: Allah’tan ancak âlimler korkar"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "ar4-01",
+   "z": 2,
+   "s": "Aşağıdaki cümlelerden hangisi fiil cümlesidir?",
+   "c": [
+    "اَلْعِلْمُ نُورٌ",
+    "جَاءَ الْحَقُّ",
+    "اَلطَّالِبُ يَقْرَأُ",
+    "فِي الْبَيْتِ رَجُلٌ",
+    "إِنَّ اللّٰهَ سَمِيعٌ"
+   ],
+   "d": 1,
+   "a": "Arap dilcileri cümleyi ilk kelimesine göre adlandırır. Fiille başlayan cümle fiil cümlesidir.",
+   "ac": [
+    "İsimle başlar; mübteda ve haberden oluşur.",
+    "Doğru: fiille başlar; fiil ve fâilden oluşur.",
+    "İsimle başlar; fiil haber konumundadır.",
+    "Haber öne geçmiş isim cümlesidir.",
+    "İnne ile başlayan isim cümlesidir."
+   ],
+   "kay": "Cümle çeşitleri"
+  },
+  {
+   "id": "ar4-02",
+   "z": 3,
+   "s": "Aşağıdakilerin hangisinde altı çizili kelime fer‘î bir alametle mansûbdur? (Altı çizili kelime parantez içinde verilmiştir.)",
+   "c": [
+    "رَأَيْتُ الطَّالِبَ (الطَّالِبَ)",
+    "مَرَرْتُ بِالْمُعَلِّمِ (الْمُعَلِّمِ)",
+    "جَاءَ الْمُسْلِمُونَ (الْمُسْلِمُونَ)",
+    "رَأَيْتُ أَبَاكَ (أَبَاكَ)",
+    "رَأَيْتُ رَجُلًا (رَجُلًا)"
+   ],
+   "d": 3,
+   "a": "Esmâ-i hamse izafet hâlinde i‘rabı harfle yapar: ref vav, nasb elif, cer ي ile.",
+   "ac": [
+    "Asıl alamet olan üstünle mansûbdur.",
+    "Mecrûrdur.",
+    "Merfûdur.",
+    "Doğru: esmâ-i hamseden olup nasb alameti eliftir.",
+    "Asıl alamet olan üstünle mansûbdur."
+   ],
+   "kay": "Esmâ-i hamse"
+  },
+  {
+   "id": "ar4-03",
+   "z": 3,
+   "s": "فَإِنْ لَمْ تَفْعَلُوا وَلَنْ تَفْعَلُوا (Bakara, 2/24) ifadesinde fiillerdeki nûnun düşmesinin sebebi aşağıdakilerden hangisidir?",
+   "c": [
+    "Her iki fiilin de meçhul olması",
+    "İzafet nedeniyle nûnun düşmesi",
+    "Birincisinde cezm, ikincisinde nasb sebebiyle beş fiilin nûnunun düşmesi",
+    "İki sâkinin yan yana gelmesi",
+    "Fiillerin emir olması"
+   ],
+   "d": 2,
+   "a": "Beş fiil (ef‘âl-i hamse) merfû hâlde nûnla, mansûb ve meczûm hâlde nûnun düşmesiyle i‘rab yapar.",
+   "ac": [
+    "Fiiller malûmdur.",
+    "İzafet isimlerde olur; bunlar fiildir.",
+    "Doğru: لَمْ cezm, لَنْ nasb eder; beş fiilde ikisinin alameti nûnun düşmesidir.",
+    "Burada illet harfi düşmesi yoktur.",
+    "Fiiller muzâridir."
+   ],
+   "kay": "Bakara, 2/24"
+  },
+  {
+   "id": "ar4-04",
+   "z": 3,
+   "s": "اَلْجَنَّةُ تَحْتَ أَقْدَامِ الْأُمَّهَاتِ cümlesinde haberin türü aşağıdakilerden hangisidir?",
+   "c": [
+    "Şibh-i cümle haber",
+    "İsim cümlesi şeklinde haber",
+    "Fiil cümlesi şeklinde haber",
+    "Müfred haber",
+    "Mahzûf haber"
+   ],
+   "d": 0,
+   "a": "Câr-mecrûr ya da zarftan oluşan habere şibh-i cümle haber denir: اَلْحَمْدُ لِلّٰهِ، تَحْتَ أَقْدَامِ…",
+   "ac": [
+    "Doğru: تَحْتَ zarfı ve izafetinden oluşur.",
+    "Haberde mübteda-haber yapısı yoktur.",
+    "Haberde fiil yoktur.",
+    "Haber tek bir isim değil, zarf tamlamasıdır.",
+    "Haber açıkça zikredilmiştir."
+   ],
+   "kay": "Haberin çeşitleri"
+  },
+  {
+   "id": "ar4-05",
+   "z": 3,
+   "s": "زَيْدٌ أَبُوهُ كَرِيمٌ cümlesi ile ilgili:\nI. زَيْدٌ mübtedadır.\nII. Haber, isim cümlesi şeklindedir.\nIII. أَبُوهُ kelimesindeki zamir râbıttır.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "زَيْدٌ birinci mübteda, أَبُوهُ كَرِيمٌ isim cümlesi şeklinde haberdir. Haberdeki ـهُ zamiri mübtedaya dönerek bağı kurar.",
+   "ac": [
+    "Eksik: haberin türü ve râbıt zamir de doğru belirtilmiştir.",
+    "Eksik: ـهُ zamiri mübtedaya dönen râbıttır.",
+    "Eksik: أَبُوهُ كَرِيمٌ bir isim cümlesidir.",
+    "Eksik: زَيْدٌ birinci mübtedadır.",
+    "Doğru: cümle haber ve râbıt zamir yapısı eksiksizdir."
+   ],
+   "kay": "Cümle haber"
+  },
+  {
+   "id": "ar4-06",
+   "z": 2,
+   "s": "كُتِبَ عَلَيْكُمُ الصِّيَامُ (Bakara, 2/183) ayetinde الصِّيَامُ kelimesinin cümledeki görevi aşağıdakilerden hangisidir?",
+   "c": [
+    "Fâil",
+    "Mef‘ûlün bih",
+    "Mübteda",
+    "Nâib-i fâil",
+    "Haber"
+   ],
+   "d": 3,
+   "a": "Meçhul fiilde fâilin yerini alan merfû isme nâib-i fâil denir.",
+   "ac": [
+    "Fiil meçhuldür; fâil zikredilmemiştir.",
+    "Mansûb değil, merfûdur.",
+    "Fiilden sonra geldiği için mübteda değildir.",
+    "Doğru: meçhul fiilden sonra gelen merfû isimdir.",
+    "Cümle isim cümlesi değildir."
+   ],
+   "kay": "Bakara, 2/183"
+  },
+  {
+   "id": "ar4-07",
+   "z": 3,
+   "s": "Aşağıdaki cümlelerin hangisinde haber mansûbdur?",
+   "c": [
+    "إِنَّ اللّٰهَ غَفُورٌ",
+    "كَانَ اللّٰهُ عَلِيمًا حَكِيمًا",
+    "لَا رَيْبَ فِيهِ",
+    "اَللّٰهُ أَكْبَرُ",
+    "لَعَلَّكُمْ تَتَّقُونَ"
+   ],
+   "d": 1,
+   "a": "Kâne ve kardeşleri isim cümlesinin başına gelir; ismini merfû bırakır, haberini mansûb yapar.",
+   "ac": [
+    "İnne ile haber merfû kalır.",
+    "Doğru: kâne haberi mansûb yapar.",
+    "Lâ-yı nefy-i cinsin haberi merfû ya da şibh-i cümledir.",
+    "Yalın isim cümlesinde haber merfûdur.",
+    "Leallenin haberi fiil cümlesidir, merfû mahaldedir."
+   ],
+   "kay": "Kâne ve kardeşleri"
+  },
+  {
+   "id": "ar4-08",
+   "z": 3,
+   "s": "Aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "لَيْتَ – kâne kardeşi fiil",
+    "لَعَلَّ – ümit (terecci)",
+    "كَأَنَّ – benzetme (teşbih)",
+    "لَيْسَ – nâkıs fiil",
+    "مَا دَامَ – süreklilik (… olduğu sürece)"
+   ],
+   "d": 0,
+   "a": "لَيْتَ “keşke” anlamında, inne ve kardeşlerinden bir harftir. İsmini nasbeder, haberini merfû bırakır.",
+   "ac": [
+    "Yanlış eşleştirme budur: لَيْتَ temenni bildiren bir inne kardeşidir ve harftir.",
+    "Doğru eşleştirmedir; “umulur ki” anlamındadır.",
+    "Doğru eşleştirmedir; “sanki” anlamındadır.",
+    "Doğru eşleştirmedir; kâne kardeşidir.",
+    "Doğru eşleştirmedir; kâne kardeşidir."
+   ],
+   "kay": "İnne ve kardeşleri"
+  },
+  {
+   "id": "ar4-09",
+   "z": 2,
+   "s": "لَا إِلٰهَ إِلَّا اللّٰهُ cümlesinde إِلٰهَ kelimesinin üstün okunmasının sebebi aşağıdakilerden hangisidir?",
+   "c": [
+    "Mef‘ûlün bih olması",
+    "Kânenin haberi olması",
+    "Lâ-yı nefy-i cinsin ismi olması",
+    "Münâdâ olması",
+    "Hâl olması"
+   ],
+   "d": 2,
+   "a": "Lâ-yı nefy-i cins cinsin tamamını olumsuzlar. İsmi nekre olur ve tenvinsiz üstün üzere mebnî okunur.",
+   "ac": [
+    "Cümlede fiil yoktur.",
+    "Cümlede kâne yoktur.",
+    "Doğru: nekre isim lânın ismi olarak üstün üzere mebnîdir.",
+    "Nidâ edatı yoktur.",
+    "Kelime bir durum bildirmez."
+   ],
+   "kay": "Lâ-yı nefy-i cins"
+  },
+  {
+   "id": "ar4-10",
+   "z": 3,
+   "s": "إِنَّمَا يَخْشَى اللّٰهَ مِنْ عِبَادِهِ الْعُلَمَاءُ (Fâtır, 35/28) ayetinin i‘rabı ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "اللّٰهَ fâil, الْعُلَمَاءُ mef‘ûldür.",
+    "مِنْ عِبَادِهِ fâildir.",
+    "اللّٰهَ mübtedadır.",
+    "الْعُلَمَاءُ nâib-i fâildir.",
+    "اللّٰهَ mef‘ûl, الْعُلَمَاءُ fâildir; mef‘ûl fâilden önce gelmiştir."
+   ],
+   "d": 4,
+   "a": "Ayette mef‘ûl (اللّٰهَ) fâilden (الْعُلَمَاءُ) önce gelmiştir. Bu takdim, haşyetin âlimlere has olduğunu vurgular.",
+   "ac": [
+    "İ‘rab alametleri bunun tersini gösterir.",
+    "Câr-mecrûr fâil olmaz.",
+    "Cümle fiille başlar; mübteda yoktur.",
+    "Fiil malûmdur.",
+    "Doğru: ötre fâile, üstün mef‘ûle işarettir."
+   ],
+   "kay": "Fâtır, 35/28"
+  },
+  {
+   "id": "ar4-11",
+   "z": 3,
+   "s": "قَالَتِ الْأَعْرَابُ آمَنَّا (Hucurât, 49/14) ayetinde fiilin müennes gelmesi ile ilgili hangisi doğrudur?",
+   "c": [
+    "Fâil cem-i mükesser olduğu için fiil müennes de müzekker de gelebilir.",
+    "Fâil hakîki müennes olduğu için fiil müennes gelmek zorundadır.",
+    "Fâil zamir olduğu için müennes gelmiştir.",
+    "Fiil meçhul olduğu için müennes gelmiştir.",
+    "Fâil tesniye olduğu için müennes gelmiştir."
+   ],
+   "d": 0,
+   "a": "Cem-i mükesser fâil ile fiil müzekker de (قَالَ) müennes de (قَالَتْ) kullanılabilir.",
+   "ac": [
+    "Doğru: kırık çoğul fâillerde iki kullanım caizdir.",
+    "الْأَعْرَابُ hakîki müennes değildir.",
+    "Fâil zâhir bir isimdir.",
+    "Fiil malûmdur.",
+    "الْأَعْرَابُ çoğuldur."
+   ],
+   "kay": "Hucurât, 49/14"
+  },
+  {
+   "id": "ar4-12",
+   "z": 2,
+   "s": "ظَنَنْتُ الْامْتِحَانَ سَهْلًا cümlesinde سَهْلًا kelimesinin mansûb olmasının sebebi aşağıdakilerden hangisidir?",
+   "c": [
+    "Kânenin haberi olması",
+    "Hâl olması",
+    "Zanne ve kardeşlerinin ikinci mef‘ûlü olması",
+    "Temyiz olması",
+    "İnnenin ismi olması"
+   ],
+   "d": 2,
+   "a": "Zanne ve kardeşleri (ظَنَّ، حَسِبَ، خَالَ، عَلِمَ…) mübteda ile haberi iki mef‘ûl olarak nasbeder.",
+   "ac": [
+    "Cümlede kâne yoktur.",
+    "Kelime asıl cümlenin haberidir, hâl değildir.",
+    "Doğru: zanne mübteda ve haberi iki mef‘ûl olarak nasbeder.",
+    "Belirsizliği gideren bir temyiz değildir.",
+    "Cümlede inne yoktur."
+   ],
+   "kay": "Zanne ve kardeşleri"
+  },
+  {
+   "id": "ar4-13",
+   "z": 3,
+   "s": "Aşağıdakilerden hangisi mebnî değildir?",
+   "c": [
+    "هٰذَا",
+    "كَتَبَ",
+    "هُوَ",
+    "يَكْتُبُ",
+    "اُكْتُبْ"
+   ],
+   "d": 3,
+   "a": "Muzâri fiil, nûn-ı nisve ve te’kîd nûnu bitişmedikçe mu‘rebdir. Mâzî, emir, zamirler ve işaret isimleri mebnîdir.",
+   "ac": [
+    "İşaret isimleri mebnîdir.",
+    "Mâzî fiil mebnîdir.",
+    "Zamirler mebnîdir.",
+    "Doğru: muzâri fiil mu‘rebdir; başına gelen edatlara göre sonu değişir.",
+    "Emir fiil mebnîdir."
+   ],
+   "kay": "Mu‘reb – mebnî"
+  },
+  {
+   "id": "ar4-14",
+   "z": 3,
+   "s": "Aşağıdaki cümlelerin hangisinde mübteda, inne ya da kâne grubunun etkisiyle mansûb hâle gelmiştir?",
+   "c": [
+    "كَانَ النَّاسُ أُمَّةً وَاحِدَةً",
+    "إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ",
+    "اَللّٰهُ نُورُ السَّمٰوَاتِ",
+    "جَاءَ نَصْرُ اللّٰهِ",
+    "لَيْسَ الْبِرُّ أَنْ تُوَلُّوا"
+   ],
+   "d": 1,
+   "a": "İnne ve kardeşleri mübtedayı (innenin ismi) mansûb, haberi merfû yapar. Asr 103/2’deki الْإِنْسَانَ buna örnektir.",
+   "ac": [
+    "Kâne ismini merfû bırakır; النَّاسُ merfûdur.",
+    "Doğru: inne mübtedayı (الْإِنْسَانَ) mansûb yapmıştır.",
+    "Yalın isim cümlesidir; mübteda merfûdur.",
+    "Fiil cümlesidir; mübteda yoktur.",
+    "Leyse ismini merfû bırakır."
+   ],
+   "kay": "Asr, 103/2"
+  },
+  {
+   "id": "ar4-15",
+   "z": 3,
+   "s": "İnne ve kardeşleri ile ilgili:\nI. Harftirler; fiil değildirler.\nII. İsimlerini mansûb, haberlerini merfû yaparlar.\nIII. Sonlarına مَا bitişince (إِنَّمَا) çoğunlukla amel etmez, hasr anlamı katarlar.\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 4,
+   "a": "İnne ve kardeşleri harftir; ismi nasbeder, haberi merfû bırakır. مَا-i kâffe bitişince amelden düşer ve hasr bildirir: إِنَّمَا يَخْشَى اللّٰهَ…",
+   "ac": [
+    "Eksik: amel biçimi ve kâffe mâ bilgisi de doğrudur.",
+    "Eksik: إِنَّمَا yapısındaki kâffe mâ da doğru anlatılmıştır.",
+    "Eksik: isim ve haber üzerindeki etki de doğrudur.",
+    "Eksik: inne grubu harf grubudur.",
+    "Doğru: üç bilgi de inne grubunu doğru anlatır."
+   ],
+   "kay": "İnne ve kardeşleri"
+  }
+ ]
+}

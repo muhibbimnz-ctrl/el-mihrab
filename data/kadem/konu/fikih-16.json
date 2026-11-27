@@ -1,0 +1,624 @@
+{
+ "id": "fikih-16",
+ "ad": "Aile Hukuku 1: Nikâh (Hükmü, Rüknü ve Şartları, Şahitler, Velâyet ve Kefâet), Mehir, Evlenme Engelleri (Sürekli ve Geçici), Nikâh Çeşitleri",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Nikâhın hükmü, rüknü ve şartları"
+  },
+  {
+   "merak": "Bir genç kadın, ailesinin rızası olmadan, iki şahit huzurunda ve uygun mehirle, kendisine denk bir erkekle evlenir. Babası nikâhın geçersiz olduğunu iddia eder. Ebû Hanîfe’ye göre bu nikâh sahihtir; Şâfiîlere göre ise velisiz nikâh olmaz."
+  },
+  "Nikâh, erkek ile kadın arasında karşılıklı hak ve yükümlülükler doğuran, aile kurmak amacıyla yapılan bir akittir. Normal şartlarda evlenmek sünnettir. Evlenmediği takdirde harama düşeceğinden korkan ve evlenmeye gücü yeten kişi için farz veya vacip; eşine zulmedeceğinden ve haklarını yerine getiremeyeceğinden korkan kişi için mekruh, bunu kesin bilen için haramdır. Hanefîlere göre nikâhın rüknü icap ve kabuldür; yani taraflardan birinin evlenme teklifi ve diğerinin bunu kabul etmesi.",
+  {
+   "tablo": [
+    [
+     "Nikâhın sahih olma şartları (Hanefî)",
+     "Açıklama"
+    ],
+    [
+     "Tarafların ehliyeti",
+     "Akıllı ve (kendi akdi için) ergen olmak; ergen olmayanın nikâhını velisi yapar"
+    ],
+    [
+     "Şahitler",
+     "İki erkek ya da bir erkek ve iki kadın; Müslüman (Müslüman taraflar için), akıllı, ergen, hür; Hanefîlere göre adalet şart değil"
+    ],
+    [
+     "İcap ve kabulün aynı mecliste olması",
+     "Yazışmayla da olabilir; mektup şahitler önünde okunur"
+    ],
+    [
+     "Kadının o erkeğe haram olmaması",
+     "Evlenme engeli bulunmaması"
+    ],
+    [
+     "Nikâhın süresiz olması",
+     "Süreli (muvakkat) nikâh ve mut’a batıldır"
+    ]
+   ]
+  },
+  "Ebû Hanîfe ve Ebû Yûsuf’a göre akıllı ve ergen bir kadın velisinin izni olmadan kendi nikâhını kıyabilir; ancak kendisine denk (küfüv) olmayan biriyle ya da mehr-i misilden çok düşük bir mehirle evlenirse veli nikâhın feshi için hâkime başvurabilir. Mâlikî, Şâfiî ve Hanbelîlere göre ise velisiz nikâh geçersizdir; dayanakları “Velisiz nikâh olmaz” hadisidir. Ergen olmayanların nikâhını velileri kıyar; baba ve dede dışındaki veliler tarafından kıyılan nikâhlarda çocuğa ergenlikte nikâhı feshettirme (hıyârü’l-bülûğ) hakkı tanınır.",
+  {
+   "tablo": [
+    [
+     "Kefâet (denklik) unsuru",
+     "Açıklama"
+    ],
+    [
+     "Din ve dindarlık",
+     "Fâsık erkek salih kadına denk sayılmaz"
+    ],
+    [
+     "Nesep",
+     "Arap olmayanlarda dikkate alınmaz"
+    ],
+    [
+     "Hürriyet",
+     "Köle hür kadına denk değildir"
+    ],
+    [
+     "Mal",
+     "Mehri ve nafakayı karşılayabilmek"
+    ],
+    [
+     "Meslek",
+     "Toplumda itibar görülen meslek"
+    ]
+   ]
+  },
+  {
+   "sinav": "Ebû Hanîfe’ye göre ergen kadının velisiz evlenebilmesi ve diğer mezheplerin “velisiz nikâh olmaz” görüşü, şahitlerin nitelikleri (Hanefîlerde fâsık şahit olabilir), kefâetin erkekte aranması sık sorulur."
+  },
+  {
+   "akil": "Rükün: icap + kabul. Şartlar: ehliyet, iki şahit, aynı meclis, engel yok, süresiz. Velisiz nikâh: Ebû Hanîfe sahih (küfüv yoksa veli itiraz eder); cumhur geçersiz. Kefâet erkekte aranır."
+  },
+  {
+   "b": "2. Mehir"
+  },
+  {
+   "merak": "Hz. Peygamber, mehir olarak verecek bir şeyi olmayan bir sahabiye “Demirden bir yüzük de olsa ara” der; bulamayınca “Kur’an’dan ne biliyorsun?” diye sorar ve bildiği sureleri öğretmesi karşılığında nikâhını kıyar."
+  },
+  "Mehir, nikâh akdiyle kocanın eşine vermekle yükümlü olduğu mal veya menfaattir; kadının şahsi malıdır ve evlilik bağının ciddiyetini gösterir (Nisâ 4). Hanefîlere göre mehrin en az miktarı on dirhem gümüştür; en çoğunun sınırı yoktur. Akitte miktarı belirlenen mehre mehr-i müsemmâ, belirlenmeyen durumda kadının baba tarafından akrabası olan benzer kadınların mehrine göre belirlenen mehre mehr-i misil denir. Mehrin peşin ödenen kısmına muaccel, sonraya bırakılan kısmına müeccel denir.",
+  {
+   "tablo": [
+    [
+     "Durum",
+     "Mehir hükmü"
+    ],
+    [
+     "Zifaf veya halvet-i sahîhadan sonra ayrılık ya da ölüm",
+     "Mehrin tamamı"
+    ],
+    [
+     "Mehir belirlenmiş, zifaftan önce boşanma",
+     "Belirlenen mehrin yarısı"
+    ],
+    [
+     "Mehir belirlenmemiş, zifaftan önce boşanma",
+     "Müt’a (elbise takımı gibi hediye)"
+    ],
+    [
+     "Mehir belirlenmemiş, zifaf olmuş",
+     "Mehr-i misil"
+    ]
+   ]
+  },
+  {
+   "akil": "Mehir: kadının malı; Hanefî en az 10 dirhem. Müsemmâ – misil; muaccel – müeccel. Zifaftan önce boşanma: belirlenmişse yarısı, belirlenmemişse müt’a."
+  },
+  {
+   "b": "3. Evlenme engelleri (muharremât)"
+  },
+  "Evlenme engelleri sürekli (ebedî) ve geçici olmak üzere ikiye ayrılır. Sürekli engeller kan hısımlığı (nesep), evlilik yoluyla oluşan hısımlık (sıhriyet) ve süt hısımlığıdır. Nisâ suresinin 22-24. ayetleri bu engelleri sayar. Süt hısımlığında “Nesepten haram olan sütten de haramdır” ilkesi geçerlidir. Ebû Hanîfe’ye göre evlenme engeli doğuran emzirme süresi otuz ay, İmâmeyn ve diğer mezheplere göre iki yıldır; fetva İmâmeyn’in görüşüne göredir. Hanefîlere göre az da olsa emme engel doğurur; Şâfiîlere göre beş doyurucu emzirme şarttır.",
+  {
+   "tablo": [
+    [
+     "Sürekli engel",
+     "Kimler?"
+    ],
+    [
+     "Nesep",
+     "Anne, nineler; kız, torunlar; kız kardeş; hala, teyze; kardeş çocukları"
+    ],
+    [
+     "Sıhriyet",
+     "Kayınvalide; üvey anne; gelin; üvey kız (annesiyle zifaf olmuşsa)"
+    ],
+    [
+     "Süt",
+     "Süt annesi, süt kardeşi ve nesepten haram olanların süt karşılıkları"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Geçici engel",
+     "Açıklama"
+    ],
+    [
+     "Başkasıyla evli ya da iddet bekleyen kadın",
+     "Evlilik veya iddet bitince engel kalkar"
+    ],
+    [
+     "İki kız kardeşi aynı anda nikâh altında tutmak",
+     "Biri boşanıp iddeti bitince diğeriyle evlenilebilir; kadın ile halası/teyzesi de birlikte alınamaz"
+    ],
+    [
+     "Dörtten fazla eş",
+     "Dördüncü eşten sonra beşinci geçici olarak haramdır"
+    ],
+    [
+     "Üç talakla boşanmış kadın",
+     "Başka biriyle sahih evlilik ve ayrılıktan sonra helal olur"
+    ],
+    [
+     "Din farkı",
+     "Müslüman erkek müşrik kadınla, Müslüman kadın gayrimüslim erkekle evlenemez; Müslüman erkek Ehl-i kitap kadınla evlenebilir"
+    ]
+   ]
+  },
+  {
+   "sinav": "Süt hısımlığında süre farkı (Ebû Hanîfe 30 ay, İmâmeyn 2 yıl; fetva İmâmeyn) ve az emzirmenin Hanefîlerde engel olması, üvey kızın annesiyle zifaf şartı, din farkı ve geçici-sürekli engel ayrımı sık sorulur."
+  },
+  {
+   "akil": "Sürekli: nesep, sıhriyet, süt (nesepten haram olan sütten de haram). Süt süresi: Ebû Hanîfe 30 ay, İmâmeyn 2 yıl. Geçici: evli/iddetli kadın, iki kız kardeş, beşinci eş, üç talak, din farkı."
+  },
+  {
+   "b": "4. Nikâh çeşitleri"
+  },
+  "Hanefîlere göre nikâh, sıhhat bakımından dört türlüdür. Sahih nikâh, rükün ve şartları tam olan nikâhtır; bütün hükümlerini doğurur. Fâsit nikâh, rüknü tam olup şartlarından biri eksik olan nikâhtır (şahitsiz nikâh ya da kız kardeşiyle evli iken diğer kız kardeşle yapılan nikâh gibi); taraflar ayrılmak zorundadır, zifaf olmuşsa mehir, iddet ve nesep sabit olur. Bâtıl nikâh, sürekli engeli bulunan bir kadınla yapılan nikâhtır; hiçbir hüküm doğurmaz. Mevkuf nikâh ise başkası adına yetkisiz kıyılan (fuzûlî) nikâhtır; ilgili kişinin onayına bağlıdır.",
+  {
+   "tablo": [
+    [
+     "Nikâh türü",
+     "Durum",
+     "Sonuç"
+    ],
+    [
+     "Sahih",
+     "Rükün ve şartlar tam",
+     "Bütün hükümler doğar"
+    ],
+    [
+     "Fâsit",
+     "Bir şart eksik",
+     "Ayrılık gerekir; zifaf olmuşsa mehir, iddet, nesep sabit"
+    ],
+    [
+     "Bâtıl",
+     "Sürekli engel",
+     "Hiçbir hüküm doğmaz"
+    ],
+    [
+     "Mevkuf",
+     "Yetkisiz kişi kıymış",
+     "Onaya bağlı"
+    ]
+   ]
+  },
+  {
+   "akil": "Sahih: tam. Fâsit: şart eksik (şahitsiz) → ayrılık, zifaf olmuşsa mehir-iddet-nesep. Bâtıl: sürekli engel → hüküm yok. Mevkuf: fuzûlî → onaya bağlı."
+  }
+ ],
+ "ozet": [
+  "Nikâh normal şartlarda sünnettir; harama düşme korkusu varsa farz, zulmetme korkusu varsa mekruh veya haramdır.",
+  "Hanefîlere göre nikâhın rüknü icap ve kabuldür.",
+  "Nikâhta iki erkek ya da bir erkek ve iki kadın şahit gerekir; Hanefîlere göre şahitlerde adalet şart değildir.",
+  "Süreli nikâh ve mut’a nikâhı batıldır.",
+  "Ebû Hanîfe’ye göre akıllı ve ergen kadın velisiz evlenebilir; diğer mezheplere göre velisiz nikâh geçersizdir.",
+  "Kefâet erkekte aranır; denk olmayan evlilikte veli itiraz edebilir.",
+  "Mehir kadının malıdır; Hanefîlere göre en az on dirhemdir.",
+  "Mehir belirlenmiş ve zifaftan önce boşanma olmuşsa mehrin yarısı, belirlenmemişse müt’a verilir.",
+  "Sürekli evlenme engelleri nesep, sıhriyet ve süt hısımlığıdır.",
+  "Nesepten haram olan sütten de haramdır.",
+  "Ebû Hanîfe’ye göre süt emme süresi 30 ay, İmâmeyn’e göre 2 yıldır; fetva İmâmeyn’e göredir.",
+  "Müslüman erkek Ehl-i kitap kadınla evlenebilir; Müslüman kadın gayrimüslim erkekle evlenemez.",
+  "Fâsit nikâhta zifaf olmuşsa mehir, iddet ve nesep sabit olur; bâtıl nikâh hiçbir hüküm doğurmaz.",
+  "Yetkisiz kişinin kıydığı nikâh mevkuftur ve onaya bağlıdır."
+ ],
+ "kartlar": [
+  {
+   "o": "Nikâhın rüknü (Hanefî)",
+   "a": "İcap ve kabul."
+  },
+  {
+   "o": "Nikâh şahitleri",
+   "a": "İki erkek ya da bir erkek ve iki kadın; Müslüman, akıllı, ergen, hür."
+  },
+  {
+   "o": "Velisiz nikâh",
+   "a": "Ebû Hanîfe: sahih; cumhur: geçersiz."
+  },
+  {
+   "o": "Kefâet",
+   "a": "Erkeğin kadına denkliği: din, nesep, hürriyet, mal, meslek."
+  },
+  {
+   "o": "Hıyârü’l-bülûğ",
+   "a": "Baba ve dede dışındaki velinin kıydığı nikâhı ergenlikte feshettirme hakkı."
+  },
+  {
+   "o": "Mehrin en azı (Hanefî)",
+   "a": "On dirhem gümüş."
+  },
+  {
+   "o": "Mehr-i misil",
+   "a": "Baba tarafından benzer kadınların mehri."
+  },
+  {
+   "o": "Zifaftan önce boşanma",
+   "a": "Mehir belirlenmişse yarısı; belirlenmemişse müt’a."
+  },
+  {
+   "o": "Süt emme süresi",
+   "a": "Ebû Hanîfe 30 ay; İmâmeyn 2 yıl (fetva)."
+  },
+  {
+   "o": "Üvey kız",
+   "a": "Annesiyle zifaf olmuşsa sürekli haram."
+  },
+  {
+   "o": "Ehl-i kitap kadın",
+   "a": "Müslüman erkek evlenebilir."
+  },
+  {
+   "o": "Fâsit nikâh",
+   "a": "Şart eksik; ayrılık gerekir, zifaf varsa mehir-iddet-nesep sabit."
+  },
+  {
+   "o": "Bâtıl nikâh",
+   "a": "Sürekli engel; hüküm doğurmaz."
+  },
+  {
+   "o": "Mevkuf nikâh",
+   "a": "Fuzûlînin kıydığı; onaya bağlı."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "fq16-01",
+   "z": 3,
+   "s": "Akıllı ve ergen bir kadın, velisinin izni olmadan, iki şahit huzurunda ve uygun bir mehirle, kendisine denk bir erkekle evlenmiştir.\n\nBu nikâhın geçerliliği mezheplere göre nasıl değerlendirilir?",
+   "c": [
+    "Bütün mezheplere göre sahihtir.",
+    "Bütün mezheplere göre geçersizdir.",
+    "Yalnız Hanbelîlere göre sahihtir.",
+    "Ebû Hanîfe’ye göre geçersiz, diğer mezheplere göre sahihtir.",
+    "Ebû Hanîfe’ye göre sahihtir; Mâlikî, Şâfiî ve Hanbelîlere göre velisiz olduğu için geçersizdir."
+   ],
+   "d": 4,
+   "a": "Ebû Hanîfe’ye göre ergen ve akıllı kadın kendi nikâhını kıyabilir; denklik ve mehir uygun olduğu için veli itiraz edemez. Diğer mezheplere göre velisiz nikâh geçersizdir.",
+   "ac": [
+    "Cumhura göre geçersizdir.",
+    "Ebû Hanîfe’ye göre sahihtir.",
+    "Hanbelîlere göre de veli şarttır.",
+    "Durum terstir.",
+    "Doğru."
+   ],
+   "kay": "Kâsânî, Bedâi‘, II; İbn Rüşd, Bidâyetü’l-müctehid, II"
+  },
+  {
+   "id": "fq16-02",
+   "z": 3,
+   "s": "Bir erkek, mehrini 100 gram altın olarak belirleyerek bir kadınla evlenmiş, ancak zifaftan ve sahih halvetten önce onu boşamıştır. Başka bir erkek ise mehir belirlemeden evlenmiş ve yine zifaftan önce boşanmıştır.\n\nBu iki kadının hakları sırasıyla aşağıdakilerden hangisidir?",
+   "c": [
+    "100 gram altın – mehr-i misil",
+    "50 gram altın – müt’a",
+    "Hiçbir şey – hiçbir şey",
+    "100 gram altın – müt’a",
+    "50 gram altın – mehr-i misilin yarısı"
+   ],
+   "d": 1,
+   "a": "Mehir belirlenmiş ve zifaftan önce boşanma olmuşsa mehrin yarısı; mehir belirlenmemişse müt’a verilir (Bakara 236-237).",
+   "ac": [
+    "Zifaftan önce boşanmada mehrin tamamı verilmez.",
+    "Doğru.",
+    "İkisinin de hakkı vardır.",
+    "Birinci kadına yarısı verilir.",
+    "İkinci kadına müt’a verilir."
+   ],
+   "kay": "Bakara, 2/236-237"
+  },
+  {
+   "id": "fq16-03",
+   "z": 3,
+   "s": "I. Annesiyle zifaf olmuş bir kadının başka bir evlilikten olan kızı\nII. Eşinin kız kardeşi (eşi nikâhı altındayken)\nIII. Süt kardeşi\nIV. Babasının boşadığı eski eşi\n\nYukarıdakilerden hangileri bir erkek için sürekli evlenme engeli oluşturur?",
+   "c": [
+    "I ve II",
+    "I, III ve IV",
+    "II, III ve IV",
+    "I, II ve III",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Üvey kız (annesiyle zifaf olmuşsa), süt kardeş ve üvey anne (babanın eski eşi) sürekli haramdır. Eşinin kız kardeşi ise geçici engeldir.",
+   "ac": [
+    "Eşin kız kardeşi geçici engeldir; diğer sürekli engeller eksiktir.",
+    "Doğru.",
+    "Eşin kız kardeşi geçici engeldir.",
+    "Eşin kız kardeşi geçici engeldir.",
+    "Eşin kız kardeşi geçici engeldir."
+   ],
+   "kay": "Nisâ, 4/22-24"
+  },
+  {
+   "id": "fq16-04",
+   "z": 2,
+   "s": "Hanefî mezhebine göre şahitsiz kıyılan bir nikâhın türü ve hükmü aşağıdakilerden hangisidir?",
+   "c": [
+    "Sahihtir; hiçbir sonuç değişmez.",
+    "Mevkuftur; velinin onayına bağlıdır.",
+    "Bâtıldır; hiçbir hüküm doğurmaz.",
+    "Fâsittir; taraflar ayrılmak zorundadır, zifaf olmuşsa mehir, iddet ve nesep sabit olur.",
+    "Mekruhtur ama sahihtir."
+   ],
+   "d": 3,
+   "a": "Şahit nikâhın sıhhat şartıdır; şahitsiz nikâh fâsittir ve ayrılmak gerekir. Zifaf gerçekleşmişse mehir, iddet ve nesep sabit olur.",
+   "ac": [
+    "Şahit şarttır.",
+    "Mevkuf nikâh fuzûlînin kıydığı nikâhtır.",
+    "Bâtıl nikâh sürekli engellerle ilgilidir.",
+    "Doğru.",
+    "Fâsittir."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, III"
+  },
+  {
+   "id": "fq16-05",
+   "z": 3,
+   "s": "Bir erkek, iki yaşını doldurmuş ama otuz ayını doldurmamış bir kız çocuğunu bir kez emzirmiş olan kadının kızıyla evlenmek istemektedir. Erkek bu kadından süt emen çocuktur.\n\nHanefî mezhebi açısından bu durumla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Hanefîlere göre süt hısımlığı evlenme engeli değildir.",
+    "Hanefîlere göre beş doyurucu emzirme şart olduğundan tek emzirme engel doğurmaz.",
+    "Ebû Hanîfe’ye göre emzirme süresi otuz ay olduğu için süt kardeşlik oluşur; fetvaya esas olan İmâmeyn’in görüşüne göre iki yıldan sonra emzirme engel doğurmaz.",
+    "Bütün mezheplere göre emzirme süresi otuz aydır.",
+    "İki yıldan sonraki emzirme bütün imamlara göre engel doğurur."
+   ],
+   "d": 2,
+   "a": "Ebû Hanîfe’ye göre emzirme süresi 30 ay, İmâmeyn’e göre 2 yıldır; fetva İmâmeyn’e göredir. Hanefîlerde az emzirme de yeterlidir.",
+   "ac": [
+    "Süt hısımlığı sürekli engeldir.",
+    "Beş emzirme şartı Şâfiîlere aittir.",
+    "Doğru.",
+    "Cumhura göre süre iki yıldır.",
+    "İmâmeyn’e göre iki yıldan sonra engel doğmaz."
+   ],
+   "kay": "Kâsânî, Bedâi‘, IV"
+  },
+  {
+   "id": "fq16-06",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi Hanefî mezhebine göre kefâette (denklikte) dikkate alınan unsurlardan biri değildir?",
+   "c": [
+    "Kadının yaşının erkekten küçük olması",
+    "Hürriyet",
+    "Mal",
+    "Meslek",
+    "Din ve dindarlık"
+   ],
+   "d": 0,
+   "a": "Kefâet erkeğin kadına din, nesep, hürriyet, mal ve meslek bakımından denkliğidir; yaş bir kefâet unsuru değildir.",
+   "ac": [
+    "Doğru.",
+    "Kefâet unsurudur.",
+    "Kefâet unsurudur.",
+    "Kefâet unsurudur.",
+    "Kefâet unsurudur."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, III"
+  },
+  {
+   "id": "fq16-07",
+   "z": 3,
+   "s": "Bir kişi, ağabeyi adına onun haberi ve izni olmadan bir kadınla nikâh akdi yapmıştır.\n\nHanefî mezhebine göre bu nikâhla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Bâtıldır; hiçbir şekilde geçerli olamaz.",
+    "Akdi yapan kişinin kendi nikâhı sayılır.",
+    "Kendiliğinden sahih olur.",
+    "Fâsittir; taraflar hemen ayrılmalıdır.",
+    "Mevkuftur; ağabeyi onaylarsa geçerli olur, reddederse geçersiz olur."
+   ],
+   "d": 4,
+   "a": "Yetkisi olmadan başkası adına yapılan (fuzûlî) akit Hanefîlere göre mevkuftur, ilgili kişinin onayına bağlıdır.",
+   "ac": [
+    "Hanefîlere göre bâtıl değildir.",
+    "Akit başkası adına yapılmıştır.",
+    "Onay olmadan geçerli olmaz.",
+    "Fâsit değil mevkuftur.",
+    "Doğru."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, III"
+  },
+  {
+   "id": "f9-02",
+   "z": 1,
+   "s": "Aşağıdakilerden hangisi sürekli evlenme engellerinden biri değildir?",
+   "c": [
+    "Hala olmak",
+    "Kayınvalide olmak",
+    "Başkasıyla evli olmak",
+    "Süt kardeşlik",
+    "Üvey anne olmak"
+   ],
+   "d": 2,
+   "a": "Başkasıyla evli olmak geçici bir engeldir; evlilik sona erip iddet bitince ortadan kalkar.",
+   "ac": [
+    "Nesep hısımlığı süreklidir.",
+    "Sıhriyet hısımlığı süreklidir.",
+    "Doğru: geçici engeldir.",
+    "Süt hısımlığı süreklidir.",
+    "Sıhriyet hısımlığı süreklidir."
+   ],
+   "kay": "Nisâ, 4/22-24"
+  },
+  {
+   "id": "f9-04",
+   "z": 2,
+   "s": "24 yaşındaki Orhan ile 22 yaşındaki Gökçen Hanım’ın nikâhı kıyılmış, düğün ve zifaf olmadan Orhan bir kazada vefat etmiştir.\n\nGökçen Hanım’ın iddeti hangisidir?",
+   "c": [
+    "İddet beklemez",
+    "Doğuma kadar",
+    "Üç ay",
+    "4 ay 10 gün",
+    "Üç hayız"
+   ],
+   "d": 3,
+   "a": "Ölüm iddeti, zifaf olsun olmasın 4 ay 10 gündür. Zifaftan önce iddetin düşmesi yalnız boşanmaya özgüdür.",
+   "ac": [
+    "Bu, zifaftan önce boşanmanın hükmüdür; ölümde iddet vardır.",
+    "Hamilelik söz konusu değildir.",
+    "Hayız görmeyenin boşanma iddetidir.",
+    "Doğru.",
+    "Boşanma iddetidir."
+   ],
+   "kay": "Bakara, 2/234; Ahzâb, 33/49"
+  },
+  {
+   "id": "f9-05",
+   "z": 2,
+   "s": "Hanefî mezhebine göre aşağıdakilerden hangisi nikâhın geçerlilik şartlarından biri değildir?",
+   "c": [
+    "Âkil-bâliğ kadının nikâhında velisinin bulunması",
+    "İki şahidin bulunması",
+    "Şahitlerin Müslüman, akıllı ve bâliğ olması",
+    "İcap ve kabulün aynı mecliste olması",
+    "Taraflar arasında evlenme engeli olmaması"
+   ],
+   "d": 0,
+   "a": "Hanefîlere göre akıllı ve bâliğ kadın velisiz evlenebilir; diğer mezheplerde veli şarttır.",
+   "ac": [
+    "Doğru: Hanefîlerde şart değildir.",
+    "Şarttır.",
+    "Şarttır.",
+    "Şarttır.",
+    "Şarttır."
+   ],
+   "kay": "Kâsânî, Bedâi’: nikâh"
+  },
+  {
+   "id": "f9-12",
+   "z": 1,
+   "s": "Hanefî mezhebine göre nikâh akdinde bulunması gereken şahitlerle ilgili hangisi doğrudur?",
+   "c": [
+    "Şahit şart değildir.",
+    "Bir erkek şahit yeterlidir.",
+    "İki erkek ya da bir erkek ve iki kadın şahit gerekir.",
+    "Yalnız kadın şahitler yeterlidir.",
+    "Dört erkek şahit gerekir."
+   ],
+   "d": 2,
+   "a": "Şahitler akıllı, ergin, hür ve Müslüman (eş Müslümansa) olmalıdır.",
+   "ac": [
+    "Şahitler şarttır.",
+    "Yeterli değildir.",
+    "Hanefî görüşüdür.",
+    "Yeterli değildir.",
+    "Bu zina ispatıyla ilgilidir."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f9-13",
+   "z": 2,
+   "s": "Ebû Hanîfe’ye göre akıllı ve ergin bir kadının velisinin izni olmadan kendi nikâhını kıymasının hükmü nedir?",
+   "c": [
+    "Bâtıldır.",
+    "Mekruh ama geçerlidir ve hiçbir itiraz hakkı yoktur.",
+    "Yalnız mahkeme kararıyla geçerli olur.",
+    "Yalnız velinin huzurunda kıyılırsa geçerlidir.",
+    "Sahihtir; ancak denk olmayan biriyle evlenirse veli itiraz edebilir."
+   ],
+   "d": 4,
+   "a": "Bu görüş Hanefî mezhebinin kadının akit ehliyetine verdiği öneme örnektir.",
+   "ac": [
+    "Diğer üç mezhebin görüşüne yakındır.",
+    "Denklik (kefâet) şartı vardır.",
+    "Yanlıştır.",
+    "Ebû Hanîfe’ye göre velinin bulunması geçerlilik şartı değildir.",
+    "Ebû Hanîfe’nin görüşüdür."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f9-14",
+   "z": 2,
+   "s": "Hanefî mezhebine göre mehrin en az miktarı ne kadardır?",
+   "c": [
+    "Bir dirhem",
+    "Üç dirhem",
+    "Bir sınırı yoktur.",
+    "On dirhem",
+    "Yüz dirhem"
+   ],
+   "d": 3,
+   "a": "Mehrin en çok miktarı için sınır yoktur.",
+   "ac": [
+    "Yanlıştır.",
+    "Mâlikî görüşüne yakındır.",
+    "Şâfiî ve Hanbelî görüşüdür.",
+    "Hanefîlerde en az mehir on dirhem gümüştür.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "f9-19",
+   "z": 3,
+   "s": "Ebû Hanîfe’ye göre evlenme engeli doğuran süt emzirmenin (radâ‘) süresi nedir?",
+   "c": [
+    "Bir yıl",
+    "Otuz ay",
+    "İki yıl",
+    "Üç yıl",
+    "Süre sınırı yoktur."
+   ],
+   "d": 1,
+   "a": "Hanefî mezhebinde fetva, iki yıl görüşündedir; Ebû Hanîfe’nin görüşü sınavlarda ayrıca sorulur.",
+   "ac": [
+    "Yanlıştır.",
+    "Ebû Hanîfe’nin görüşüdür.",
+    "İmameyn ve diğer mezheplerin görüşüdür.",
+    "Yanlıştır.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî fıkhı"
+  },
+  {
+   "id": "fq16-08",
+   "z": 3,
+   "s": "I. Müslüman bir erkeğin Hristiyan bir kadınla evlenmesi\nII. Müslüman bir kadının Yahudi bir erkekle evlenmesi\nIII. Müslüman bir erkeğin müşrik bir kadınla evlenmesi\nIV. Bir erkeğin karısıyla evliyken onun halasıyla da evlenmesi\n\nYukarıdaki evliliklerden hangisi caizdir?",
+   "c": [
+    "Yalnız I",
+    "I ve II",
+    "I ve IV",
+    "II ve III",
+    "I, II ve IV"
+   ],
+   "d": 0,
+   "a": "Müslüman erkek Ehl-i kitap kadınla evlenebilir (Mâide 5). Müslüman kadının gayrimüslimle, Müslüman erkeğin müşrik kadınla evlenmesi ve kadın ile halasını aynı nikâh altında toplamak caiz değildir.",
+   "ac": [
+    "Doğru.",
+    "Müslüman kadın gayrimüslim erkekle evlenemez.",
+    "Kadın ile halası birlikte nikâhlanamaz.",
+    "İkisi de caiz değildir.",
+    "İkinci ve dördüncü evlilik caiz değildir."
+   ],
+   "kay": "Mâide, 5/5; Bakara, 2/221"
+  }
+ ]
+}

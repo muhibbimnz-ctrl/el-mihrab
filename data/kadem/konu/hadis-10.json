@@ -1,0 +1,604 @@
+{
+ "id": "hadis-10",
+ "ad": "Hadisleri Anlama ve Yorumlama İlkeleri (Kur’an ve Sünnet Bütünlüğü, Sebeb-i Vürûd, Bağlam, Hz. Peygamber’in Konumları, Muhtelifü’l-hadîs ve Nâsih-Mensûh); Seçme Hadisler",
+ "ders": "Hadis",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Sahih bir hadis neden yanlış anlaşılabilir?"
+  },
+  {
+   "merak": "Bir genç, “Kim dinini değiştirirse onu öldürün” hadisini okuyup bunun her zaman ve her şartta uygulanacak bir hüküm olduğunu iddia eder. Hocası sorar: “Bu söz hangi ortamda, kimlere karşı, hangi savaş şartlarında söylendi? Aynı konudaki diğer hadislere ve Kur’an’daki ‘Dinde zorlama yoktur’ ayetine baktın mı?”"
+  },
+  "Bir hadisin sahih olması, onun doğru anlaşıldığı anlamına gelmez. Hadis ilmi senet ve metin tenkidiyle hadisin sıhhatini araştırırken, “fıkhu’l-hadîs” ya da “fehmü’l-hadîs” denilen alan da hadisin nasıl anlaşılması gerektiğini inceler. Âlimler hadisleri yorumlarken bazı temel ilkelere dikkat etmiştir. Bu ilkeler, hadisi kendi bağlamından koparmadan, Kur’an ve sünnetin bütünlüğü içinde anlamayı amaçlar.",
+  {
+   "tablo": [
+    [
+     "Anlama ilkesi",
+     "Açıklama",
+     "Örnek"
+    ],
+    [
+     "Kur’an bütünlüğü",
+     "Hadis Kur’an’ın ışığında anlaşılır; Kur’an’la çelişir görünen anlam ya te’vil edilir ya da rivayetin sıhhati yeniden incelenir",
+     "Hz. Âişe’nin “ölünün ailesinin ağlamasıyla azap görmesi” rivayetini En’âm 164 ile değerlendirmesi"
+    ],
+    [
+     "Sünnet bütünlüğü",
+     "Aynı konudaki bütün rivayetler birlikte değerlendirilir",
+     "Tek bir rivayetten hüküm çıkarmadan bütün tarikleri toplamak"
+    ],
+    [
+     "Sebeb-i vürûd",
+     "Hadisin söylenme sebebi ve olayı dikkate alınır",
+     "“Dünya işlerinizi siz daha iyi bilirsiniz” – hurma aşılama"
+    ],
+    [
+     "Bağlam (siyak-sibak)",
+     "Sözün öncesi, sonrası ve muhatabı dikkate alınır",
+     "Bayram namazında kadınlara yapılan konuşma"
+    ],
+    [
+     "Dil ve üslup",
+     "Mecaz, teşbih, mübalağa gibi Arapça üslup özellikleri gözetilir",
+     "“Cennet kılıçların gölgesi altındadır”"
+    ],
+    [
+     "Hz. Peygamber’in konumu",
+     "Sözün tebliğ, fetva, yargı ya da devlet başkanlığı konumunda mı söylendiği ayırt edilir",
+     "Karâfî’nin tasnifi"
+    ],
+    [
+     "Gaye ve vesile ayrımı",
+     "Hükmün amacı sabittir; o amaca ulaştıran araç zamanla değişebilir",
+     "Misvak (temizlik amacı), hilali görme (ayın başlangıcını tespit)"
+    ]
+   ]
+  },
+  "Sebeb-i vürûd, hadisin söylenmesine yol açan olay ya da sorudur; tefsirdeki sebeb-i nüzûlün hadisteki karşılığıdır. Bu alandaki en meşhur eser İbn Hamza el-Hüseynî’nin el-Beyân ve’t-ta’rîf fî esbâbi vürûdi’l-hadîsi’ş-şerîf’idir. Âlimler sebeb-i vürûdun, hadisin genel ya da özel bir hüküm mü bildirdiğini, mutlak mı yoksa belirli bir duruma mı ilişkin olduğunu anlamada önemli olduğunu vurgular.",
+  {
+   "sinav": "Sebeb-i vürûd tanımı ve İbn Hamza’nın eseri, gaye-vesile ayrımı ve Hz. Peygamber’in konumları sık sorulur. Bir hadis ve olay verilip “hangi anlama ilkesine örnektir?” şeklinde sorular gelir."
+  },
+  {
+   "akil": "Anlama ilkeleri: Kur’an bütünlüğü, sünnet bütünlüğü, sebeb-i vürûd (İbn Hamza), bağlam, dil-üslup, Peygamber’in konumu, gaye-vesile ayrımı."
+  },
+  "Bu ilkelerin hiçbiri hadisi keyfî olarak geçersiz saymanın aracı değildir; amaç Hz. Peygamber’in kastını doğru anlamaktır.",
+  {
+   "b": "2. Hz. Peygamber’in konumları: Her söz aynı türden mi?"
+  },
+  {
+   "merak": "Hz. Peygamber “Kim bir ölü araziyi ihya ederse o arazi onundur” buyurdu. Ebû Hanîfe bu hükmün uygulanması için devlet başkanının izninin şart olduğunu söyledi; Şâfiî ise izne gerek görmedi. Bu fark nereden doğuyordu?"
+  },
+  "Mâlikî âlim Şihâbüddîn el-Karâfî, Hz. Peygamber’in sözlerinin hangi sıfatla söylendiğine göre farklı hükümler doğuracağını belirtmiş ve dört konum saymıştır: tebliğ (risalet), fetva, kazâ (yargı) ve imamet (devlet başkanlığı). Tebliğ ve fetva konumunda söylenen sözler bütün ümmet için genel ve bağlayıcıdır. Yargı konumunda verilen hüküm, benzer davada hâkimin kararıyla uygulanır. Devlet başkanı sıfatıyla alınan kararlar ise yöneticinin iznine ve dönemin maslahatına bağlıdır. Ölü araziyi ihya hadisini Ebû Hanîfe imamet konumunda, Şâfiî tebliğ konumunda söylenmiş kabul ettiği için görüşleri farklılaşmıştır. Şah Veliyyullah ed-Dihlevî de Hz. Peygamber’in sözlerini tebliğ amaçlı olanlar (risalet) ve olmayanlar (beşerî tecrübe, örf, maslahat) olarak ayırmıştır.",
+  {
+   "tablo": [
+    [
+     "Konum (Karâfî)",
+     "Bağlayıcılığı",
+     "Örnek"
+    ],
+    [
+     "Tebliğ (risalet)",
+     "Herkes için genel ve sürekli",
+     "İbadetlerin şekli"
+    ],
+    [
+     "Fetva",
+     "Benzer durumda herkes için",
+     "Ebû Süfyân’ın eşi Hind’e “Sana ve çocuğuna yetecek kadarını örfe göre al” cevabı (fetva yorumuna göre)"
+    ],
+    [
+     "Kazâ (yargı)",
+     "Hâkimin hükmüyle uygulanır",
+     "Taraflar arasındaki davalar"
+    ],
+    [
+     "İmamet (devlet başkanlığı)",
+     "Yöneticinin izni ve maslahata bağlı",
+     "“Kim bir ölü araziyi ihya ederse onundur” (Ebû Hanîfe’ye göre); ganimet dağıtımı"
+    ]
+   ]
+  },
+  {
+   "akil": "Karâfî: tebliğ – fetva – kazâ – imamet. Ölü arazi ihyası: Ebû Hanîfe imamet (izin şart), Şâfiî tebliğ (izin gerekmez). Dihlevî: risalet olan – olmayan."
+  },
+  {
+   "b": "3. Muhtelifü’l-hadîs ve nâsih-mensûh: Çelişki gibi görünenler"
+  },
+  {
+   "merak": "Bir hadiste “Hastalıkta (kendiliğinden) bulaşma yoktur” denirken, başka bir hadiste “Aslandan kaçar gibi cüzzamlıdan kaç” buyrulur. İkisi de sahih. Bir öğrenci “Hangisine uyacağız?” diye sorar."
+  },
+  "Muhtelifü’l-hadîs, birbiriyle çelişkili görünen makbul hadisleri inceleyen ilimdir. Hadisler gerçekte çelişmez; çelişki, anlayışımızdan, bağlamın bilinmemesinden ya da hükümlerden birinin neshedilmiş olmasından kaynaklanır. Âlimler bu tür hadislerle karşılaşınca belirli bir sıra izlemiştir. Cumhur (özellikle Şâfiîler ve muhaddisler) önce uzlaştırmayı (cem‘ ve te’lîf), mümkün değilse neshi, o da mümkün değilse tercihi, o da yapılamazsa tevakkufu (beklemeyi) esas alır. Hanefîler ise önce nesih olup olmadığına bakar, sonra tercih, sonra cem‘, en son da delillerin düşmesi (tesâkut) yoluna gider.",
+  {
+   "tablo": [
+    [
+     "Yöntem",
+     "Açıklama",
+     "Örnek"
+    ],
+    [
+     "Cem‘ / te’lîf (uzlaştırma)",
+     "İki hadisin farklı durumlara, kişilere ya da anlamlara yorumlanması",
+     "“Bulaşma yoktur”: hastalık Allah’ın takdiri olmadan kendiliğinden geçmez; “Cüzzamlıdan kaç”: sebeplere riayet ve tedbir"
+    ],
+    [
+     "Nesih",
+     "Tarihi bilinen sonraki hadisin öncekinin hükmünü kaldırması",
+     "“Size kabir ziyaretini yasaklamıştım; artık ziyaret edin”"
+    ],
+    [
+     "Tercih",
+     "İsnad veya metin yönünden güçlü olanın alınması",
+     "Râvinin daha zabıtlı ya da olayın sahibi olması"
+    ],
+    [
+     "Tevakkuf",
+     "Delil belirginleşene kadar hüküm vermemek",
+     "Cem‘, nesih ve tercih mümkün olmayınca"
+    ]
+   ]
+  },
+  "Nâsih ve mensûh hadisler konusunda en meşhur eser Hâzimî’nin el-İ’tibâr fi’n-nâsih ve’l-mensûh mine’l-âsâr’ıdır. Bir hadisin neshedildiği; Hz. Peygamber’in açık beyanıyla (“…yasaklamıştım, artık yapın”), sahabenin bildirmesiyle, tarihin bilinmesiyle ya da icmâ ile anlaşılır. Kabir ziyaretinin önce yasaklanıp sonra serbest bırakılması, kurban etlerinin üç günden fazla saklanmasının önce yasaklanıp sonra izin verilmesi bilinen örneklerdir.",
+  {
+   "sinav": "Muhtelif hadislerde izlenen yolların sırası (cumhur: cem‘-nesih-tercih-tevakkuf; Hanefî: nesih-tercih-cem‘-tesâkut) ve “bulaşma yoktur – cüzzamlıdan kaç” örneği çok sık sorulur. Kabir ziyareti ve kurban eti saklama nesih örneği olarak gelir."
+  },
+  {
+   "akil": "Cumhur: cem‘ → nesih → tercih → tevakkuf. Hanefî: nesih → tercih → cem‘ → tesâkut. Nesih örnekleri: kabir ziyareti, kurban etini saklama. Eser: Hâzimî – el-İ’tibâr; muhtelif: Şâfiî, İbn Kuteybe."
+  },
+  {
+   "b": "4. Seçme hadisler: Dinin özünü taşıyan sözler"
+  },
+  "Âlimler bazı hadislerin dinin büyük bir kısmını özetlediğini söylemiştir. Ebû Dâvûd’a nispet edilen bir söze göre, “Ameller ancak niyetlere göredir”, “Kişinin kendisini ilgilendirmeyen şeyi terk etmesi Müslümanlığının güzelliğindendir”, “Sizden biriniz kendisi için istediğini kardeşi için de istemedikçe iman etmiş olmaz” ve “Helal bellidir, haram bellidir” hadisleri dinin temelini oluşturur. Nevevî’nin Kırk Hadis’i de bu tür temel hadisleri bir araya getirir.",
+  {
+   "tablo": [
+    [
+     "Hadis",
+     "Kaynak / not",
+     "Ana fikir"
+    ],
+    [
+     "“Ameller ancak niyetlere göredir.”",
+     "Hz. Ömer’den; Buhârî’nin ilk hadisi",
+     "Niyetin amelin değerini belirlemesi; “Niyette hüküm maksada göredir” kaidesi"
+    ],
+    [
+     "Cibrîl hadisi",
+     "Hz. Ömer’den; Müslim",
+     "İman, İslam, ihsan ve kıyamet alametleri"
+    ],
+    [
+     "“Din nasihattir.”",
+     "Temîm ed-Dârî’den; Müslim",
+     "Allah’a, kitabına, Resûlüne, Müslümanların yöneticilerine ve geneline samimiyet"
+    ],
+    [
+     "“Müslüman, elinden ve dilinden Müslümanların emin olduğu kimsedir.”",
+     "Buhârî",
+     "Toplumsal güven"
+    ],
+    [
+     "“Kolaylaştırın, zorlaştırmayın; müjdeleyin, nefret ettirmeyin.”",
+     "Enes’ten; Buhârî",
+     "Tebliğde kolaylık"
+    ],
+    [
+     "“Zarar vermek de zarara zararla karşılık vermek de yoktur.”",
+     "İbn Mâce; Mâlik",
+     "Fıkhın beş büyük kaidesinden “Zarar izale olunur”un dayanağı"
+    ],
+    [
+     "“Helal bellidir, haram bellidir; ikisi arasında şüpheli şeyler vardır.”",
+     "Nu’mân b. Beşîr’den; Buhârî, Müslim",
+     "Şüphelilerden sakınma (vera’)"
+    ],
+    [
+     "“Allah güzeldir, güzeli sever.”",
+     "Müslim",
+     "Kibrin tanımı: hakkı inkâr ve insanları küçümseme"
+    ]
+   ]
+  },
+  {
+   "sinav": "Seçme hadislerin anlamı ve hangi ilkeye dayanak olduğu sorulur: “Ameller niyetlere göredir” – niyet ve maksat kaidesi; “Zarar yoktur” – zarar izale olunur; “Din nasihattir” – samimiyet; Cibrîl hadisi – iman-İslam-ihsan. Bir hadisin hangi anlama ilkesine (sebeb-i vürûd, bağlam, konum) örnek olduğu da yorum sorusu olarak gelir."
+  },
+  {
+   "akil": "Niyet hadisi = Buhârî’nin ilk hadisi, Hz. Ömer. Cibrîl hadisi = iman-İslam-ihsan. “Lâ darar ve lâ dırâr” = zarar izale olunur. Helal-haram hadisi = şüphelilerden sakınma."
+  }
+ ],
+ "ozet": [
+  "Bir hadisin sahih olması, doğru anlaşıldığı anlamına gelmez; fıkhu’l-hadîs hadislerin anlaşılmasını inceler.",
+  "Hadisler Kur’an bütünlüğü ve aynı konudaki diğer rivayetlerle birlikte değerlendirilmelidir.",
+  "Sebeb-i vürûd, hadisin söylenme sebebidir; en meşhur eser İbn Hamza el-Hüseynî’nin el-Beyân ve’t-ta’rîf’idir.",
+  "Hadislerin anlaşılmasında bağlam, dil ve üslup özellikleri (mecaz, teşbih) gözetilir.",
+  "Gaye sabit, vesile değişkendir: misvak temizliğin, hilali görmek ay başını tespitin aracıdır.",
+  "Karâfî Hz. Peygamber’in konumlarını tebliğ, fetva, kazâ ve imamet olarak dörde ayırır.",
+  "Ölü araziyi ihya hadisini Ebû Hanîfe imamet konumunda, Şâfiî tebliğ konumunda değerlendirmiştir.",
+  "Muhtelifü’l-hadîs, çelişkili görünen makbul hadisleri inceler.",
+  "Cumhurun sırası: cem‘, nesih, tercih, tevakkuf; Hanefîlerin sırası: nesih, tercih, cem‘, tesâkut.",
+  "“Bulaşma yoktur” ile “Cüzzamlıdan kaç” hadisleri cem‘ yoluyla uzlaştırılmıştır.",
+  "Kabir ziyareti ve kurban etinin saklanması hadislerde nesih örnekleridir.",
+  "Nâsih-mensûh hadislerle ilgili en meşhur eser Hâzimî’nin el-İ’tibâr’ıdır.",
+  "“Ameller ancak niyetlere göredir” hadisi Buhârî’nin ilk hadisidir ve Hz. Ömer’den rivayet edilmiştir.",
+  "“Zarar vermek de zarara zararla karşılık vermek de yoktur” hadisi “Zarar izale olunur” kaidesinin dayanağıdır."
+ ],
+ "kartlar": [
+  {
+   "o": "Fıkhu’l-hadîs",
+   "a": "Hadislerin doğru anlaşılmasını inceleyen alan."
+  },
+  {
+   "o": "Sebeb-i vürûd",
+   "a": "Hadisin söylenme sebebi; İbn Hamza – el-Beyân ve’t-ta’rîf."
+  },
+  {
+   "o": "Gaye – vesile",
+   "a": "Amaç sabit, araç değişebilir; misvak, hilal örnekleri."
+  },
+  {
+   "o": "Karâfî’nin dört konumu",
+   "a": "Tebliğ, fetva, kazâ, imamet."
+  },
+  {
+   "o": "Ölü araziyi ihya",
+   "a": "Ebû Hanîfe: imamet (izin şart); Şâfiî: tebliğ (izin gerekmez)."
+  },
+  {
+   "o": "Muhtelifü’l-hadîs",
+   "a": "Çelişkili görünen makbul hadislerin incelenmesi."
+  },
+  {
+   "o": "Cumhurun yöntemi",
+   "a": "Cem‘ → nesih → tercih → tevakkuf."
+  },
+  {
+   "o": "Hanefîlerin yöntemi",
+   "a": "Nesih → tercih → cem‘ → tesâkut."
+  },
+  {
+   "o": "Kabir ziyareti hadisi",
+   "a": "“Yasaklamıştım, artık ziyaret edin”; nesih örneği."
+  },
+  {
+   "o": "el-İ’tibâr",
+   "a": "Hâzimî; nâsih ve mensûh hadisler."
+  },
+  {
+   "o": "Niyet hadisi",
+   "a": "Hz. Ömer; Buhârî’nin ilk hadisi."
+  },
+  {
+   "o": "Cibrîl hadisi",
+   "a": "İman, İslam, ihsan, kıyamet alametleri."
+  },
+  {
+   "o": "“Din nasihattir”",
+   "a": "Temîm ed-Dârî; samimiyet."
+  },
+  {
+   "o": "“Lâ darar ve lâ dırâr”",
+   "a": "“Zarar izale olunur” kaidesinin dayanağı."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "hd10-01",
+   "z": 3,
+   "s": "“Kim bir ölü araziyi ihya ederse o arazi onundur.” hadisinden hareketle Ebû Hanîfe, araziyi ihya edenin mülkiyet kazanması için devlet başkanının izninin şart olduğunu söylemiş; Şâfiî ise izni şart görmemiştir.\n\nBu görüş farklılığının temelinde aşağıdakilerden hangisi yatmaktadır?",
+   "c": [
+    "Hadisin sıhhatinde ihtilaf edilmesi",
+    "Hadisin mürsel olması",
+    "Hadisin neshedildiğinin düşünülmesi",
+    "Hadisin garîb kelimeler içermesi",
+    "Hadisin Hz. Peygamber’in hangi konumunda (tebliğ ya da devlet başkanlığı) söylendiğinin farklı değerlendirilmesi"
+   ],
+   "d": 4,
+   "a": "Ebû Hanîfe sözü imamet (devlet başkanlığı) konumunda, Şâfiî tebliğ konumunda değerlendirdiği için iki farklı sonuca ulaşmışlardır. Karâfî bu örneği konumlar tasnifinde kullanır.",
+   "ac": [
+    "İki imam da hadisi kabul eder.",
+    "İsnad meselesi bu farkın sebebi değildir.",
+    "Nesih iddia edilmemiştir.",
+    "Garip kelime meselesi yoktur.",
+    "Doğru."
+   ],
+   "kay": "Karâfî, el-İhkâm; Ebû Dâvûd, Harâc, 37"
+  },
+  {
+   "id": "hd10-02",
+   "z": 3,
+   "s": "I. Önce uzlaştırma (cem‘)\nII. Sonra nesih\nIII. Sonra tercih\nIV. En son tevakkuf\n\nYukarıdaki sıralama, çelişkili görünen hadisler karşısında hangi grubun izlediği yöntemi yansıtır?",
+   "c": [
+    "Hanefîler",
+    "Mu’tezile",
+    "Cumhur (özellikle Şâfiîler ve muhaddisler)",
+    "Zâhirîler",
+    "Hâricîler"
+   ],
+   "d": 2,
+   "a": "Cumhur önce cem‘, sonra nesih, sonra tercih ve en son tevakkuf yolunu izler. Hanefîler ise önce neshe, sonra tercihe, sonra cem‘e, en son tesâkuta başvurur.",
+   "ac": [
+    "Hanefîlerin sırası nesih ile başlar.",
+    "Bu sıralama Mu’tezile ile anılmaz.",
+    "Doğru.",
+    "Bu sıralama Zâhirîlere özgü değildir.",
+    "Hâricîlerle ilgisi yoktur."
+   ],
+   "kay": "Şâfiî, İhtilâfü’l-hadîs; Serahsî, Usûl"
+  },
+  {
+   "id": "hd10-03",
+   "z": 2,
+   "s": "“Size kabir ziyaretini yasaklamıştım; artık ziyaret edin, çünkü kabir ziyareti ahireti hatırlatır.”\n\nBu hadis, aşağıdaki kavramlardan hangisine örnektir?",
+   "c": [
+    "Nâsih ve mensûh",
+    "Muhtelifü’l-hadîs içinde cem‘",
+    "Sebeb-i vürûd",
+    "Garîbü’l-hadîs",
+    "Ziyâdetü’s-sika"
+   ],
+   "d": 0,
+   "a": "Hz. Peygamber önceki yasağı açıkça kaldırmıştır; bu, hadiste nesih örneğidir.",
+   "ac": [
+    "Doğru.",
+    "Burada iki hüküm uzlaştırılmamış, biri kaldırılmıştır.",
+    "Söyleniş sebebinden çok hükmün kaldırılması söz konusudur.",
+    "Garip kelime yoktur.",
+    "Ziyâdetü’s-sika güvenilir râvinin eklemesidir."
+   ],
+   "kay": "Müslim, Cenâiz, 106"
+  },
+  {
+   "id": "hd10-04",
+   "z": 3,
+   "s": "Bir hoca şöyle demektedir: “Hz. Peygamber’in misvak kullanmayı teşvik etmesinin amacı ağız temizliğidir; bu amaç sabittir, misvak ise bu amaca ulaştıran bir araçtır. Aynı şekilde ayın başlangıcını tespit amacı sabittir; hilali gözle görmek ise o dönemin imkânlarıyla bu amaca ulaştıran araçtır.”\n\nHocanın açıklaması hangi hadis anlama ilkesine örnektir?",
+   "c": [
+    "Sebeb-i vürûd",
+    "Nâsih-mensûh",
+    "Muhtelifü’l-hadîs",
+    "Gaye ile vesileyi ayırma",
+    "Hadisin Kur’an’a arzı"
+   ],
+   "d": 3,
+   "a": "Hükmün amacı (gaye) ile o amaca ulaştıran araç (vesile) arasında ayrım yapılmaktadır; amaç sabit, araç değişebilir.",
+   "ac": [
+    "Söyleniş sebebinden söz edilmemektedir.",
+    "Bir hükmün kaldırılması söz konusu değildir.",
+    "Çelişkili hadisler söz konusu değildir.",
+    "Doğru.",
+    "Kur’an’a arz söz konusu değildir."
+   ],
+   "kay": "Karadâvî, Keyfe neteâmel mea’s-sünne"
+  },
+  {
+   "id": "hd10-05",
+   "z": 3,
+   "s": "I. Hz. Peygamber’in sözünün hangi olay ve soru üzerine söylendiğinin bilinmesi\nII. Aynı konudaki bütün rivayetlerin bir arada değerlendirilmesi\nIII. Sözün Arapçadaki mecaz ve teşbih gibi üslup özelliklerinin gözetilmesi\nIV. Hadisin yalnız lafzına bakılıp bağlamının dikkate alınmaması\n\nYukarıdakilerden hangileri hadisleri doğru anlamak için âlimlerin gözettiği ilkeler arasındadır?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Sebeb-i vürûd, sünnet bütünlüğü ve dil-üslup ilkeleri hadisi anlamada gözetilir. Bağlamı dikkate almamak ise bir ilke değil, yanlış anlamanın sebebidir.",
+   "ac": [
+    "Üçüncü öncül de ilkedir.",
+    "Doğru.",
+    "Dördüncü öncül ilke değildir; birinci öncül ilkedir.",
+    "Dördüncü öncül ilke değildir.",
+    "Dördüncü öncül ilke değildir."
+   ],
+   "kay": "Karadâvî, Keyfe neteâmel mea’s-sünne"
+  },
+  {
+   "id": "hd10-06",
+   "z": 2,
+   "s": "“Ameller ancak niyetlere göredir. Herkese niyet ettiği şey vardır.” hadisiyle ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Hz. Ömer’den rivayet edilmiştir.",
+    "Buhârî’nin Sahîh’ine aldığı ilk hadistir.",
+    "Fıkıhtaki “İşler maksatlarına göredir” kaidesinin dayanağıdır.",
+    "Hadis mütevâtir lafzî olup sahabe arasında çok sayıda râvisi vardır.",
+    "Hadis, hicret eden bir kişinin niyetiyle ilgili bir bağlamda söylenmiştir."
+   ],
+   "d": 3,
+   "a": "Niyet hadisi ilk tabakalarda garîbtir: Sahabeden yalnız Hz. Ömer, ondan yalnız Alkame rivayet eder; sonraki tabakalarda meşhur olmuştur. Mütevâtir lafzî değildir.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Doğrudur.",
+    "Yanlış ifade budur.",
+    "Doğrudur; Ümmü Kays’ın muhaciri rivayetiyle ilişkilendirilir."
+   ],
+   "kay": "Buhârî, Bed’ü’l-vahy, 1"
+  },
+  {
+   "id": "hd10-07",
+   "z": 3,
+   "s": "Bir fıkıh kaidesi ile dayandığı hadis aşağıdakilerden hangisinde doğru eşleştirilmiştir?",
+   "c": [
+    "“Zarar izale olunur.” – “Zarar vermek de zarara zararla karşılık vermek de yoktur.”",
+    "“Meşakkat kolaylığı celbeder.” – “Ameller ancak niyetlere göredir.”",
+    "“Yakîn şekle zâil olmaz.” – “Din nasihattir.”",
+    "“Âdet muhakkemdir.” – “Allah güzeldir, güzeli sever.”",
+    "“İşler maksatlarına göredir.” – “Helal bellidir, haram bellidir.”"
+   ],
+   "d": 0,
+   "a": "“Lâ darar ve lâ dırâr” hadisi, fıkhın beş büyük kaidesinden “Zarar izale olunur” kaidesinin dayanağıdır.",
+   "ac": [
+    "Doğru.",
+    "Meşakkat kaidesinin dayanağı kolaylaştırma ayet ve hadisleridir; niyet hadisi “işler maksatlarına göredir” kaidesinin dayanağıdır.",
+    "Yakîn kaidesinin dayanağı, namazda abdest şüphesiyle ilgili hadistir.",
+    "Âdet kaidesinin dayanağı bu hadis değildir.",
+    "Bu kaidenin dayanağı niyet hadisidir."
+   ],
+   "kay": "İbn Mâce, Ahkâm, 17; Mecelle, md. 19-20"
+  },
+  {
+   "id": "hd10-08",
+   "z": 3,
+   "s": "Hz. Âişe, “Ölü, ailesinin kendisi için ağlaması sebebiyle azap görür.” rivayetini, “Hiçbir günahkâr başkasının günahını yüklenmez.” ayetine aykırı bulmuş ve bu sözün Hz. Peygamber tarafından ailesi ağlayan kâfir bir kadın hakkında söylendiğini belirtmiştir.\n\nHz. Âişe’nin bu değerlendirmesinde aşağıdaki ilkelerden hangileri birlikte kullanılmıştır?",
+   "c": [
+    "Gaye-vesile ayrımı ve nesih",
+    "Tercih ve tevakkuf",
+    "Hadisin Kur’an’a arzı ve sebeb-i vürûd (bağlam)",
+    "İsnad tenkidi ve cerh",
+    "İcmâ ve kıyas"
+   ],
+   "d": 2,
+   "a": "Hz. Âişe rivayeti hem Kur’an’la karşılaştırmış hem de sözün söylendiği bağlamı hatırlatmıştır.",
+   "ac": [
+    "Bu ilkeler kullanılmamıştır.",
+    "Hz. Âişe bir hadisi diğerine tercih etmemiş, rivayeti bağlamına oturtmuştur.",
+    "Doğru.",
+    "Râvileri cerh etmemiştir.",
+    "İcmâ ve kıyas söz konusu değildir."
+   ],
+   "kay": "Buhârî, Cenâiz, 32; Müslim, Cenâiz, 22"
+  },
+  {
+   "id": "hd10-09",
+   "z": 2,
+   "s": "Hadislerin söylenme sebeplerini toplayan en meşhur eser aşağıdakilerden hangisidir?",
+   "c": [
+    "İbnü’l-Esîr – en-Nihâye",
+    "Hâzimî – el-İ’tibâr",
+    "İbn Kuteybe – Te’vîlü muhtelifi’l-hadîs",
+    "Vâhidî – Esbâbü’n-nüzûl",
+    "İbn Hamza el-Hüseynî – el-Beyân ve’t-ta’rîf"
+   ],
+   "d": 4,
+   "a": "el-Beyân ve’t-ta’rîf fî esbâbi vürûdi’l-hadîs, sebeb-i vürûd alanının en meşhur eseridir.",
+   "ac": [
+    "Garîbü’l-hadîsle ilgilidir.",
+    "Nâsih-mensûh hadislerle ilgilidir.",
+    "Muhtelifü’l-hadîsle ilgilidir.",
+    "Ayetlerin iniş sebepleriyle ilgilidir.",
+    "Doğru."
+   ],
+   "kay": "DİA, “Sebeb-i Vürûd” md."
+  },
+  {
+   "id": "hd10-10",
+   "z": 3,
+   "s": "Bir sahabi Hz. Peygamber’e iman, İslam, ihsan ve kıyametin ne zaman kopacağını sormuş, Hz. Peygamber de bu soruları cevaplamıştır. Soran kişi gittikten sonra Hz. Peygamber onun Cebrâil olduğunu ve insanlara dinlerini öğretmek için geldiğini bildirmiştir.\n\nBu hadisle ilgili aşağıdakilerden hangisi söylenemez?",
+   "c": [
+    "Hz. Ömer’den rivayet edilmiştir.",
+    "Kıyametin vaktini Hz. Peygamber’in bildiğini ve açıkladığını gösterir.",
+    "İman esasları arasında kadere imanı da sayar.",
+    "Dinin iman, İslam ve ihsan boyutlarını özetler.",
+    "İhsanı “Allah’ı görüyormuş gibi kulluk etmek” olarak tanımlar."
+   ],
+   "d": 1,
+   "a": "Hz. Peygamber kıyametin vaktini sorandan daha fazla bilmediğini söylemiş, yalnızca bazı alametlerini bildirmiştir.",
+   "ac": [
+    "Müslim’in rivayeti Hz. Ömer’dendir.",
+    "Söylenemez; doğru cevap budur.",
+    "Doğrudur; “hayrıyla şerriyle kadere”.",
+    "Doğrudur.",
+    "Doğrudur."
+   ],
+   "kay": "Müslim, İman, 1"
+  },
+  {
+   "id": "h2-15",
+   "z": 3,
+   "s": "Birbiriyle çelişkili görünen iki makbul hadis yorumla uzlaştırılamamış, ancak hangisinin daha sonra söylendiği tarihî bilgilerle kesin olarak tespit edilmiştir.\n\nAlimlerin bu durumda başvuracağı yol aşağıdakilerden hangisidir?",
+   "c": [
+    "Cem’ ve te’lîf",
+    "Nesh",
+    "Tevakkuf",
+    "Tercih",
+    "İ’tibâr"
+   ],
+   "d": 1,
+   "a": "Muhtelif hadislerde önce cem’ denenir. Uzlaştırma mümkün değilse ve hangisinin sonra geldiği biliniyorsa sonraki öncekinin hükmünü kaldırır (nesh). Tarih bilinmiyorsa tercihe, o da olmuyorsa tevakkufa gidilir.",
+   "ac": [
+    "Cem’ denenmiş, sonuç vermemiştir.",
+    "Doğru: tarih bilindiği için nesh uygulanır.",
+    "Tevakkuf son çaredir; burada tarih bilindiği için gerek yoktur.",
+    "Tercih, tarih bilinmediğinde yapılır.",
+    "İ’tibâr, bir hadisin başka yollarını araştırmaktır; çelişki çözme yolu değildir."
+   ],
+   "kay": "Şâfiî, İhtilâfü’l-hadîs; İbn Kuteybe, Te’vîlü muhtelifi’l-hadîs"
+  },
+  {
+   "id": "h2-20",
+   "z": 3,
+   "s": "“Hastalıkta (kendiliğinden) bulaşma yoktur.” anlamındaki hadis ile “Aslandan kaçar gibi cüzzamlıdan kaçın.” hadisi ilk bakışta çelişkili görünmektedir. Âlimlerin çoğu bu iki hadisi, hastalığın kendiliğinden değil Allah’ın takdiriyle geçtiğini, sebeplere uyup tedbir almanın ise gerekli olduğunu belirterek birlikte anlamıştır.\n\nÂlimlerin bu tutumu aşağıdakilerden hangisidir?",
+   "c": [
+    "Nesh",
+    "Tercih",
+    "Tevakkuf",
+    "Tashîf",
+    "Cem’ ve te’lîf"
+   ],
+   "d": 4,
+   "a": "İki hadis de geçerli kabul edilip yorumla uzlaştırıldığı için bu yol cem’ ve te’lîftir.",
+   "ac": [
+    "Neshte biri diğerinin hükmünü kaldırır; burada ikisi de geçerli.",
+    "Tercihte biri bırakılır; burada ikisiyle de amel ediliyor.",
+    "Tevakkufta hüküm verilmez; burada hüküm verilmiştir.",
+    "Tashîf bir yazım hatasıdır.",
+    "Doğru: iki hadis yorumla uzlaştırılmıştır."
+   ],
+   "kay": "Buhârî, Tıb, 19; İbn Kuteybe, Te’vîlü muhtelifi’l-hadîs"
+  },
+  {
+   "id": "hd10-11",
+   "z": 3,
+   "s": "Hz. Peygamber’in Ebû Süfyân’ın eşi Hind’e, kocasının cimriliğinden şikâyet etmesi üzerine “Ondan, sana ve çocuğuna örfe göre yetecek kadarını al” demesi, bazı âlimlerce bir fetva olarak, bazılarınca ise bir yargı kararı olarak değerlendirilmiştir.\n\nBu farklı değerlendirmenin pratik sonucu aşağıdakilerden hangisidir?",
+   "c": [
+    "Fetva kabul edenlere göre benzer durumdaki kişi hâkime başvurmadan hakkını alabilir; yargı kabul edenlere göre hâkim kararı gerekir.",
+    "Fetva kabul edenlere göre hadis zayıftır; yargı kabul edenlere göre sahihtir.",
+    "İki görüşe göre de nafaka yükümlülüğü yoktur.",
+    "Fetva kabul edenlere göre hadis neshedilmiştir.",
+    "Yargı kabul edenlere göre hüküm yalnız Hind’e özeldir ve hiç kimseye uygulanmaz."
+   ],
+   "d": 0,
+   "a": "Karâfî’nin konumlar tasnifine göre fetva genel bir hükümdür ve herkes uygulayabilir; yargı kararı ise hâkimin hükmüne bağlıdır.",
+   "ac": [
+    "Doğru.",
+    "Tartışma hadisin sıhhatiyle ilgili değildir.",
+    "Nafaka yükümlülüğü iki görüşe göre de vardır.",
+    "Nesih iddiası yoktur.",
+    "Yargı kabul edenler de benzer durumlarda hâkimin hükmüyle uygulanacağını söyler."
+   ],
+   "kay": "Buhârî, Nafakāt, 9; Karâfî, el-Furûk"
+  },
+  {
+   "id": "hd10-12",
+   "z": 2,
+   "s": "“Kolaylaştırın, zorlaştırmayın; müjdeleyin, nefret ettirmeyin.” hadisi, aşağıdaki fıkıh kaidelerinden hangisinin dayanakları arasında gösterilir?",
+   "c": [
+    "Âdet muhakkemdir.",
+    "Yakîn şekle zâil olmaz.",
+    "Meşakkat kolaylığı celbeder.",
+    "İçtihat içtihatla nakzolunmaz.",
+    "Kadîm kıdemi üzere terk olunur."
+   ],
+   "d": 2,
+   "a": "Kolaylaştırma emri, “Meşakkat kolaylığı celbeder” kaidesinin dayanaklarındandır.",
+   "ac": [
+    "Bu kaidenin dayanağı örfle ilgili delillerdir.",
+    "Bu kaidenin dayanağı şüpheyle ilgili hadislerdir.",
+    "Doğru.",
+    "Bu kaide içtihatların bağlayıcılığıyla ilgilidir.",
+    "Bu kaide mevcut durumun korunmasıyla ilgilidir."
+   ],
+   "kay": "Buhârî, İlim, 11; Mecelle, md. 17"
+  }
+ ]
+}

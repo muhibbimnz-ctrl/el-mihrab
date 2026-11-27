@@ -1,0 +1,770 @@
+{
+ "id": "fikih-11",
+ "ad": "Oruç ve İtikâf: Orucun Farziyeti ve Çeşitleri, Niyet Vakitleri, Orucu Bozan ve Bozmayan Durumlar (Kaza ve Keffâret), Ruhsatlar ve Fidye, Sahur-İftar, İtikâf ve Kadir Gecesi",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Orucun farziyeti ve çeşitleri"
+  },
+  {
+   "merak": "Bir kişi Ramazan bayramının birinci günü “sevap kazanayım” diye oruç tutmak ister. Bir başkası her yıl yalnız Aşure günü oruç tutar. Bir üçüncüsü ise yıl boyunca hiç ara vermeden oruç tutmaya karar verir. Üçü de ibadet etmek istiyor, ama üçünün de tutumu dinen sorunludur."
+  },
+  "Ramazan orucu, hicretin ikinci yılı Şaban ayında Bakara suresinin 183-185. ayetleriyle farz kılınmıştır. Oruç; Müslüman, akıllı, ergen ve oruç tutmaya gücü yeten kişiye farzdır. Kadınların hayız ve nifas hâlinde oruç tutmaları caiz değildir; bu günleri sonradan kaza ederler. Orucun rüknü, imsak vaktinden (fecr-i sâdık) güneş batıncaya kadar yemek, içmek ve cinsel ilişkiden uzak durmaktır; niyet ise orucun şartıdır.",
+  {
+   "ayet": "Ey iman edenler! Oruç sizden öncekilere farz kılındığı gibi size de farz kılındı; umulur ki korunursunuz.",
+   "kay": "Bakara, 2/183"
+  },
+  {
+   "tablo": [
+    [
+     "Oruç çeşidi",
+     "Örnekler"
+    ],
+    [
+     "Farz",
+     "Ramazan orucu, kazası, keffâret orucu"
+    ],
+    [
+     "Vacip",
+     "Adak orucu; başlanıp bozulan nafile orucun kazası"
+    ],
+    [
+     "Sünnet ve müstehap",
+     "Muharrem’in 9-10 veya 10-11. günleri (Aşure), Arefe günü, her ayın 13-14-15. günleri (eyyâm-ı bîd), Pazartesi ve Perşembe, Şevval’in altı günü"
+    ],
+    [
+     "Mekruh",
+     "Yalnız Aşure günü, yalnız Cuma günü tutmak; şek günü (Şaban’ın 30’u) nafileden başka niyetle tutmak; savm-ı visâl (iftar etmeden peş peşe), savm-ı dehr (bütün yıl)"
+    ],
+    [
+     "Haram (tahrîmen mekruh)",
+     "Ramazan Bayramı’nın birinci günü; Kurban Bayramı’nın dört günü"
+    ]
+   ]
+  },
+  {
+   "akil": "Farz: Ramazan, kaza, keffâret. Vacip: adak, bozulan nafilenin kazası. Sünnet: Aşure (9-10/10-11), Arefe, eyyâm-ı bîd, Pazartesi-Perşembe, Şevval altısı. Mekruh: yalnız Aşure, yalnız Cuma, şek günü, visâl, dehr. Haram: Ramazan Bayramı 1. gün, Kurban Bayramı 4 gün."
+  },
+  {
+   "b": "2. Niyet ve niyet vakitleri"
+  },
+  "Hanefîlere göre Ramazan orucu, vakti belirli adak orucu ve nafile oruç için niyet, geceden başlayarak ertesi günün kuşluk vaktine (dahve-i kübrâ; imsak ile iftar arasının yarısı) kadar yapılabilir; ancak niyet edilinceye kadar orucu bozan bir şey yapılmamış olmalıdır. Kaza orucu, keffâret orucu ve vakti belirsiz (mutlak) adak orucu için ise niyetin geceden, yani imsak vaktinden önce yapılması ve tutulacak orucun belirlenmesi gerekir. Şâfiîlere göre Ramazan orucunda da niyetin geceden yapılması şarttır ve her gün için ayrı niyet gerekir.",
+  {
+   "tablo": [
+    [
+     "Oruç",
+     "Niyet vakti (Hanefî)"
+    ],
+    [
+     "Ramazan, belirli adak, nafile",
+     "Geceden kuşluk vaktine (dahve-i kübrâ) kadar"
+    ],
+    [
+     "Kaza, keffâret, mutlak adak",
+     "Geceden; imsaktan önce ve tayin ederek"
+    ]
+   ]
+  },
+  {
+   "akil": "Ramazan-belirli adak-nafile: dahve-i kübrâya kadar. Kaza-keffâret-mutlak adak: geceden ve tayinle. Şâfiî: Ramazan’da da geceden."
+  },
+  {
+   "b": "3. Orucu bozan ve bozmayan durumlar"
+  },
+  {
+   "merak": "Ramazan’da biri unutarak su içer; bir başkası abdest alırken boğazına su kaçar; bir üçüncüsü bilerek ve mazeretsiz öğle yemeği yer. Üçünün de ağzından içeri su ya da yemek girmiştir, ama hükümleri tamamen farklıdır."
+  },
+  "Orucu bozan durumlar iki gruba ayrılır: Yalnız kaza gerektirenler ve hem kaza hem keffâret gerektirenler. Keffâret, Ramazan orucunu, geceden niyet edilmiş olduğu hâlde, kasten ve hiçbir mazeret olmaksızın yeme, içme ya da cinsel ilişki yoluyla bozmanın cezasıdır. Hanefîlere göre gıda, ilaç ya da keyif verici bir şeyin bilerek ve mazeretsiz alınması keffâret gerektirir. Hata, zorlama, şüphe ya da gıda niteliği taşımayan şeylerin yutulması ise yalnız kazayı gerektirir.",
+  {
+   "tablo": [
+    [
+     "Yalnız kaza gerektirenler",
+     "Kaza ve keffâret gerektirenler",
+     "Orucu bozmayanlar"
+    ],
+    [
+     "Abdest alırken boğaza su kaçması (hata)",
+     "Ramazan orucunu bilerek ve mazeretsiz yemek veya içmek",
+     "Unutarak yemek, içmek veya cinsel ilişki"
+    ],
+    [
+     "Zorlama ile yemek",
+     "Ramazan’da bilerek cinsel ilişki",
+     "İhtilam olmak"
+    ],
+    [
+     "Taş, toprak, kâğıt gibi gıda olmayan şeyleri yutmak",
+     "Keyif verici bir şeyi (sigara gibi) bilerek kullanmak",
+     "Misvak kullanmak, yıkanmak"
+    ],
+    [
+     "Kasten ağız dolusu kusmak",
+     "—",
+     "Kendiliğinden kusmak"
+    ],
+    [
+     "İmsak vakti girdiği hâlde girmedi sanarak yemek",
+     "—",
+     "Kan vermek, besleyici olmayan iğne (Diyanet görüşü)"
+    ],
+    [
+     "Güneş batmadığı hâlde battı sanarak iftar etmek",
+     "—",
+     "Gözlerine sürme veya damla (Hanefî)"
+    ],
+    [
+     "Başlanmış nafile orucu bozmak (vacip kaza)",
+     "—",
+     "Gıybet (sevabı azaltır, orucu bozmaz)"
+    ]
+   ]
+  },
+  "Keffâret orucu, Mücâdele suresindeki zıhar keffâreti örneğine göre ve sünnetle sabit olduğu üzere şu sırayla yerine getirilir: bir köle azat etmek; buna imkân yoksa altmış gün ara vermeden peş peşe oruç tutmak; buna da gücü yetmezse altmış fakiri iki öğün doyurmak ya da her birine bir fıtır sadakası miktarı vermek. Keffâret orucuna Ramazan ve bayram günleri girerse ya da mazeretsiz ara verilirse oruca baştan başlanır; ancak kadının hayız günleri ara sayılmaz. Bir Ramazan içinde birden fazla gün bozulmuşsa Hanefîlere göre tek keffâret yeterlidir.",
+  {
+   "sinav": "Keffâret gerektiren ile yalnız kaza gerektiren durumların ayrımı en çok sorulan konudur. Senaryo: “İmsak vaktinin girdiğini bilmeden yiyen” → yalnız kaza; “unutarak yiyen” → oruç bozulmaz; “Ramazan’da mazeretsiz yiyen” → kaza + keffâret. Keffâretin sırası (köle, 60 gün oruç, 60 fakir) ve oruç keffâretinin yemin keffâretinden farkı sorulur."
+  },
+  {
+   "akil": "Keffâret: Ramazan + niyetli + kasten + mazeretsiz + yeme-içme-cinsellik. Sıra: köle → 60 gün peş peşe oruç → 60 fakir. Unutarak yemek bozmaz; hata ve zorlama yalnız kaza; gıda olmayanı yutmak yalnız kaza."
+  },
+  {
+   "b": "4. Ruhsatlar, fidye, sahur ve iftar"
+  },
+  "Yolculuk (seferîlik), hastalık, hamilelik ve emzirme (kendisi veya çocuğu için zarar endişesi), aşırı açlık ve susuzluk tehlikesi, ileri yaşlılık ve zorlama oruç tutmamayı mubah kılan mazeretlerdir. Yolcu, hasta, hamile ve emzikli kadınlar tutamadıkları oruçları mazeretleri sona erdiğinde kaza ederler; fidye gerekmez. Yolcu için oruç tutmak zarar vermiyorsa tutması daha faziletlidir. İleri yaşlılık ya da iyileşme ümidi olmayan bir hastalık sebebiyle oruç tutamayanlar ise her gün için bir fakiri doyuracak kadar fidye verirler; fidye miktarı bir fıtır sadakası kadardır. Fidye veren kişi sonradan iyileşirse oruçlarını kaza eder.",
+  "Sahur yemek ve sahuru imsak vaktine yakın yapmak sünnettir; Hz. Peygamber “Sahur yemeği yiyiniz; çünkü sahurda bereket vardır” buyurmuştur. Güneşin battığı kesinleşince iftarda acele etmek de sünnettir. Oruçlunun bir şeyin tadına bakması, sakız çiğnemesi, ağzında bir şey çiğnemesi, gargara ve burna aşırı su çekmekte mübalağa etmesi mekruhtur. Oruç, iffet ve ahlakla birlikte anlam kazanır: “Kim yalan söylemeyi ve onunla amel etmeyi bırakmazsa, Allah’ın onun yemesini ve içmesini bırakmasına ihtiyacı yoktur.”",
+  {
+   "tablo": [
+    [
+     "Mazeret",
+     "Hüküm"
+    ],
+    [
+     "Yolculuk, hastalık",
+     "Tutmayabilir; sonra kaza eder"
+    ],
+    [
+     "Hamilelik, emzirme (zarar endişesi)",
+     "Tutmayabilir; sonra kaza eder, fidye gerekmez (Hanefî)"
+    ],
+    [
+     "İleri yaşlılık, iyileşme ümidi olmayan hastalık",
+     "Fidye verir; iyileşirse kaza eder"
+    ],
+    [
+     "Hayız ve nifas",
+     "Tutamaz; sonra kaza eder"
+    ]
+   ]
+  },
+  {
+   "akil": "Yolcu, hasta, hamile, emzikli: kaza (fidye yok). Yaşlı ve kronik hasta: fidye (bir fıtır sadakası); iyileşirse kaza. Sahur ve iftarda acele: sünnet."
+  },
+  {
+   "b": "5. İtikâf ve Kadir gecesi"
+  },
+  "İtikâf, ibadet niyetiyle bir süre mescitte kalmaktır. Ramazan’ın son on gününde yapılan itikâf sünnet-i müekkede alâ’l-kifâyedir; bir mahallede birinin yapmasıyla diğerlerinden sorumluluk kalkar. Adanmış itikâf vaciptir; Hanefîlere göre oruçlu olarak ve en az bir gün yapılır. Nafile itikâfın en az süresi kısa bir zamandır ve oruç şart değildir. Erkekler cemaatle namaz kılınan bir mescitte, kadınlar evlerinde namaz için ayırdıkları yerde itikâfa girer. Zorunlu ihtiyaçlar (abdest, gusül, cuma namazı) dışında mescitten çıkmak ve cinsel ilişki itikâfı bozar.",
+  "Kadir gecesi, Kur’an’ın indirilmeye başlandığı ve bin aydan daha hayırlı olan gecedir (Kadr suresi). Hangi gece olduğu kesin olarak bildirilmemiş; Hz. Peygamber Ramazan’ın son on gününde, özellikle tek gecelerinde aranmasını tavsiye etmiştir. Ülkemizde Ramazan’ın 27. gecesi Kadir gecesi olarak ihya edilir.",
+  {
+   "sinav": "İtikâf türleri (Ramazan son on gün sünnet-i müekkede kifâye; adak vacip ve oruçlu en az bir gün; nafile kısa süre) ve itikâfı bozan durumlar sık sorulur."
+  },
+  {
+   "akil": "İtikâf: son on gün sünnet-i müekkede kifâye; adak itikâf vacip, oruçlu, en az bir gün; nafile oruçsuz, kısa. Bozanlar: zorunlu ihtiyaç dışında çıkmak, cinsel ilişki. Kadir: son on günün tek geceleri."
+  }
+ ],
+ "ozet": [
+  "Ramazan orucu hicretin ikinci yılında Bakara 183-185 ile farz kılınmıştır.",
+  "Orucun rüknü imsak vaktinden güneş batıncaya kadar yeme, içme ve cinsel ilişkiden uzak durmaktır.",
+  "Adak orucu ve başlanıp bozulan nafile orucun kazası Hanefîlere göre vaciptir.",
+  "Aşure, Arefe, eyyâm-ı bîd, Pazartesi-Perşembe ve Şevval’in altı günü oruç tutmak sünnet veya müstehaptır.",
+  "Yalnız Aşure veya yalnız Cuma günü oruç tutmak ile şek günü ve savm-ı visâl mekruhtur.",
+  "Ramazan Bayramı’nın birinci günü ve Kurban Bayramı’nın dört günü oruç tutmak tahrîmen mekruhtur.",
+  "Ramazan, belirli adak ve nafile oruçta niyet kuşluk vaktine kadar; kaza, keffâret ve mutlak adakta geceden yapılmalıdır.",
+  "Unutarak yemek orucu bozmaz.",
+  "Hata, zorlama, gıda olmayan şeyi yutma ve vakit konusunda yanılma yalnız kaza gerektirir.",
+  "Ramazan orucunu bilerek ve mazeretsiz yiyerek, içerek ya da cinsel ilişkiyle bozmak kaza ve keffâret gerektirir.",
+  "Keffâret: köle azadı, yoksa 60 gün peş peşe oruç, ona da gücü yetmezse 60 fakiri doyurmaktır.",
+  "Yolcu, hasta, hamile ve emzikli kadın tutamadığı oruçları kaza eder; fidye gerekmez.",
+  "İleri yaşlı ve iyileşme ümidi olmayan hasta fidye verir; fidye bir fıtır sadakası miktarıdır.",
+  "Ramazan’ın son on günündeki itikâf sünnet-i müekkede alâ’l-kifâyedir; adak itikâf oruçlu ve en az bir gündür."
+ ],
+ "kartlar": [
+  {
+   "o": "Orucun farz kılınışı",
+   "a": "Hicretin ikinci yılı; Bakara 183-185."
+  },
+  {
+   "o": "Orucun rüknü",
+   "a": "İmsak: yeme, içme ve cinsel ilişkiden uzak durmak."
+  },
+  {
+   "o": "Tahrîmen mekruh oruç günleri",
+   "a": "Ramazan Bayramı’nın 1. günü, Kurban Bayramı’nın 4 günü."
+  },
+  {
+   "o": "Savm-ı visâl",
+   "a": "İftar etmeden peş peşe oruç; mekruh."
+  },
+  {
+   "o": "Şek günü",
+   "a": "Şaban’ın 30. günü; nafileden başka niyetle tutmak mekruh."
+  },
+  {
+   "o": "Dahve-i kübrâ",
+   "a": "İmsak ile iftar arasının yarısı; Ramazan orucunda niyetin son vakti."
+  },
+  {
+   "o": "Geceden niyet gereken oruçlar",
+   "a": "Kaza, keffâret, mutlak adak."
+  },
+  {
+   "o": "Unutarak yemek",
+   "a": "Orucu bozmaz."
+  },
+  {
+   "o": "İmsakı bilmeden yemek",
+   "a": "Yalnız kaza."
+  },
+  {
+   "o": "Oruç keffâreti",
+   "a": "Köle azadı → 60 gün peş peşe oruç → 60 fakir."
+  },
+  {
+   "o": "Birden fazla günü bozan",
+   "a": "Hanefîlere göre aynı Ramazan için tek keffâret."
+  },
+  {
+   "o": "Fidye",
+   "a": "Yaşlı ve kronik hasta için; her gün bir fıtır sadakası."
+  },
+  {
+   "o": "Hamile ve emzikli",
+   "a": "Zarar endişesiyle tutmaz; kaza eder, fidye yok."
+  },
+  {
+   "o": "Adak itikâf",
+   "a": "Vacip; oruçlu, en az bir gün (Hanefî)."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "fq11-01",
+   "z": 3,
+   "s": "Ramazan ayında aşağıdaki durumlar yaşanmıştır:\nI. Ahmet oruçlu olduğunu unutarak su içmiştir.\nII. Mehmet abdest alırken ağzına aldığı su istemeden boğazına kaçmıştır.\nIII. Ali geceden niyet ettiği orucunu öğle vakti mazeretsiz olarak yemek yiyerek bozmuştur.\n\nHanefî mezhebine göre bu kişilerin durumu sırasıyla aşağıdakilerden hangisinde doğru verilmiştir?",
+   "c": [
+    "Oruç bozulmaz – yalnız kaza – kaza ve keffâret",
+    "Yalnız kaza – yalnız kaza – kaza ve keffâret",
+    "Oruç bozulmaz – oruç bozulmaz – yalnız kaza",
+    "Yalnız kaza – kaza ve keffâret – kaza ve keffâret",
+    "Oruç bozulmaz – kaza ve keffâret – yalnız kaza"
+   ],
+   "d": 0,
+   "a": "Unutarak içmek orucu bozmaz; hata ile boğaza su kaçması yalnız kazayı; mazeretsiz ve kasten yemek kaza ve keffâreti gerektirir.",
+   "ac": [
+    "Doğru.",
+    "Unutarak içmek orucu bozmaz.",
+    "Boğaza su kaçması orucu bozar; Ali’nin durumu keffâret gerektirir.",
+    "Unutmak orucu bozmaz; hata keffâret gerektirmez.",
+    "Hata keffâret gerektirmez; Ali’ye keffâret gerekir."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "fq11-02",
+   "z": 3,
+   "s": "I. Ramazan orucu\nII. Kaza orucu\nIII. Belirli bir günü adanmış oruç\nIV. Keffâret orucu\nV. Nafile oruç\n\nHanefî mezhebine göre yukarıdaki oruçlardan hangileri için niyetin mutlaka geceden (imsaktan önce) yapılması gerekir?",
+   "c": [
+    "I ve III",
+    "II ve IV",
+    "I, II ve IV",
+    "II, III ve V",
+    "II, IV ve V"
+   ],
+   "d": 1,
+   "a": "Kaza ve keffâret orucunda (ayrıca mutlak adakta) niyet geceden ve tayin edilerek yapılmalıdır. Ramazan, belirli adak ve nafile oruçta niyet kuşluk vaktine kadar yapılabilir.",
+   "ac": [
+    "Bunlarda niyet kuşluk vaktine kadar yapılabilir.",
+    "Doğru.",
+    "Ramazan orucunda niyet kuşluk vaktine kadar yapılabilir.",
+    "Belirli adak ve nafilede kuşluğa kadar niyet caizdir.",
+    "Nafilede kuşluğa kadar niyet caizdir."
+   ],
+   "kay": "Kâsânî, Bedâi‘, II"
+  },
+  {
+   "id": "fq11-03",
+   "z": 3,
+   "s": "Bir kişi geçen yılın Ramazan ayında üç ayrı gün, orucunu mazeretsiz olarak yemek yiyerek bozmuştur. Keffâretlerini henüz ödememiştir.\n\nHanefî mezhebine göre bu kişinin yükümlülüğü aşağıdakilerden hangisidir?",
+   "c": [
+    "Üç gün kaza ve üç ayrı keffâret",
+    "Doksan gün oruç ve üç gün kaza",
+    "Yalnız üç gün kaza",
+    "Yalnız bir keffâret",
+    "Üç gün kaza ve bir keffâret"
+   ],
+   "d": 4,
+   "a": "Hanefîlere göre aynı Ramazan içinde bozulan birden fazla gün için keffâretler birbirine dahil olur; tek keffâret yeterlidir. Bozulan günler ayrıca kaza edilir.",
+   "ac": [
+    "Aynı Ramazan için tek keffâret yeterlidir.",
+    "Tek keffâret 60 gündür; üç keffâret gerekmez.",
+    "Keffâret de gerekir.",
+    "Kaza da gerekir.",
+    "Doğru."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "f5-01",
+   "z": 1,
+   "s": "Aşağıdaki günlerin hangisinde oruç tutmak haramdır (tahrimen mekruhtur)?",
+   "c": [
+    "Arefe günü",
+    "Aşure günü",
+    "Kurban Bayramı’nın ikinci günü",
+    "Şevval ayının ikinci günü",
+    "Pazartesi günü"
+   ],
+   "d": 2,
+   "a": "Ramazan Bayramı’nın birinci günü ile Kurban Bayramı’nın dört gününde oruç tutmak yasaktır.",
+   "ac": [
+    "Hacı olmayana müstehaptır.",
+    "Muharremin 9. günüyle birlikte tutulması sünnettir.",
+    "Doğru.",
+    "Şevval’in ikinci günü bayram değildir; altı gün orucuna başlanabilir.",
+    "Sünnettir."
+   ],
+   "kay": "Buhârî, Savm, 66"
+  },
+  {
+   "id": "f5-02",
+   "z": 2,
+   "s": "Oruçlu olduğunu unutarak yemek yiyen bir kişinin durumu nedir?",
+   "c": [
+    "Orucu bozulur, kaza ve keffâret gerekir.",
+    "Orucu bozulmaz ama fidye verir.",
+    "Orucu bozulur, kaza gerekir.",
+    "Orucu bozulmaz, orucunu tamamlar.",
+    "Orucu mekruh olur, iade gerekir."
+   ],
+   "d": 3,
+   "a": "Hz. Peygamber unutarak yiyenin orucunu tamamlamasını, onu Allah’ın yedirip içirdiğini bildirmiştir.",
+   "ac": [
+    "Bozulmaz.",
+    "Fidye gerekmez.",
+    "Bozulmaz.",
+    "Doğru.",
+    "İade gerekmez."
+   ],
+   "kay": "Buhârî, Savm, 26"
+  },
+  {
+   "id": "f5-03",
+   "z": 2,
+   "s": "Hanefî mezhebine göre adak orucunun hükmü nedir?",
+   "c": [
+    "Farz",
+    "Mübah",
+    "Vacip",
+    "Müstehap",
+    "Sünnet"
+   ],
+   "d": 2,
+   "a": "Adak orucu vaciptir.",
+   "ac": [
+    "Ramazan orucu farzdır.",
+    "Adandıktan sonra yerine getirilmesi gerekir.",
+    "Doğru.",
+    "Müstehap değildir.",
+    "Sünnet değildir."
+   ],
+   "kay": "Hac, 22/29"
+  },
+  {
+   "id": "f5-04",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi orucu bozar ve yalnız kazayı gerektirir?",
+   "c": [
+    "Göze damla damlatmak",
+    "Kendi isteğiyle ağız dolusu kusmak",
+    "Uykuda ihtilam olmak",
+    "İstemeden kusmak",
+    "Kan vermek"
+   ],
+   "d": 1,
+   "a": "Kasten ağız dolusu kusmak orucu bozar; keffâret değil yalnız kaza gerekir. Diğerleri orucu bozmaz.",
+   "ac": [
+    "Bozmaz.",
+    "Doğru.",
+    "Bozmaz.",
+    "Bozmaz.",
+    "Hanefîlerde bozmaz."
+   ],
+   "kay": "Tirmizî, Savm, 25"
+  },
+  {
+   "id": "f5-05",
+   "z": 3,
+   "s": "Ramazan orucunu bilerek ve mazeretsiz olarak yemek yiyerek bozan, köle azat etme imkânı bulunmayan sağlıklı bir kişinin keffâreti hangisidir?",
+   "c": [
+    "Bir gün kaza etmek",
+    "60 fakiri doyurmak",
+    "60 gün ara vererek oruç tutmak",
+    "Bir fıtır sadakası vermek",
+    "60 gün ara vermeden oruç tutmak"
+   ],
+   "d": 4,
+   "a": "Keffâret tertiplidir: köle azadı yoksa 60 gün peş peşe oruç; buna gücü yetmezse 60 fakiri doyurmak. Ayrıca bir gün kaza da tutulur.",
+   "ac": [
+    "Kaza tek başına yetmez.",
+    "Oruca gücü yeten için fakir doyurmak caiz değildir.",
+    "Ara vermek caiz değildir.",
+    "Fitre keffâret değildir.",
+    "Doğru."
+   ],
+   "kay": "Buhârî, Savm, 30"
+  },
+  {
+   "id": "f5-06",
+   "z": 3,
+   "s": "Hanefî mezhebine göre aşağıdaki oruçlardan hangisi için niyetin imsaktan önce yapılması şarttır?",
+   "c": [
+    "Ramazan orucu",
+    "Pazartesi nafile orucu",
+    "Belirli bir günü belirlenmiş adak orucu",
+    "Ramazan orucunun kazası",
+    "Arefe orucu"
+   ],
+   "d": 3,
+   "a": "Kaza, keffâret ve günü belirlenmemiş adak oruçlarında niyetin imsaktan önce ve belirlenerek yapılması gerekir.",
+   "ac": [
+    "Kuşluğa kadar niyet edilebilir.",
+    "Nafile için kuşluğa kadar niyet edilebilir.",
+    "Günü belli adakta kuşluğa kadar niyet edilebilir.",
+    "Doğru.",
+    "Nafiledir; kuşluğa kadar niyet edilebilir."
+   ],
+   "kay": "Hanefî ilmihali: orucun niyeti"
+  },
+  {
+   "id": "f5-07",
+   "z": 2,
+   "s": "Aşağıdaki oruçlardan hangisi mekruhtur?",
+   "c": [
+    "Yalnızca cuma gününü oruçla geçirmek",
+    "Kamerî ayın 13, 14 ve 15. günlerinde oruç tutmak",
+    "Şevval ayında altı gün oruç tutmak",
+    "Muharremin 9 ve 10. günlerinde oruç tutmak",
+    "Pazartesi ve perşembe oruç tutmak"
+   ],
+   "d": 0,
+   "a": "Yalnız cuma gününü oruç için ayırmak mekruhtur; öncesi veya sonrasıyla birlikte tutulması tavsiye edilir.",
+   "ac": [
+    "Doğru.",
+    "Eyyâm-ı bîz orucu sünnettir.",
+    "Sünnettir.",
+    "Sünnettir.",
+    "Sünnettir."
+   ],
+   "kay": "Buhârî, Savm, 63"
+  },
+  {
+   "id": "f5-08",
+   "z": 2,
+   "s": "İyileşme ümidi olmayan bir hastalığı sebebiyle oruç tutamayan yaşlı bir kişi ne yapmalıdır?",
+   "c": [
+    "İyileşince kaza eder.",
+    "Bir başkasına kendi yerine oruç tutturur.",
+    "Her gün için fidye verir.",
+    "Hiçbir şey gerekmez.",
+    "Keffâret orucu tutar."
+   ],
+   "d": 2,
+   "a": "Oruç tutamayacak durumdaki yaşlı ve ümitsiz hasta, her gün için bir fakir doyumu (fitre miktarı) fidye verir.",
+   "ac": [
+    "İyileşme ümidi yoktur.",
+    "Oruç bedenî ibadettir; vekâletle tutulmaz.",
+    "Doğru.",
+    "Fidye gerekir.",
+    "Keffâret kasten bozmada gerekir."
+   ],
+   "kay": "Bakara, 2/184"
+  },
+  {
+   "id": "f5-09",
+   "z": 3,
+   "s": "Sabah imsak vaktinin girdiğini bilmeyen bir kişi, saatin geri kaldığını fark etmeden imsaktan sonra da sahur yemeye devam etmiştir.\n\nBu kişinin durumu Hanefî mezhebine göre hangisidir?",
+   "c": [
+    "Orucu bozulur, yalnız kaza gerekir.",
+    "Orucu bozulmaz.",
+    "Orucu bozulur, kaza ve keffâret gerekir.",
+    "Orucu bozulur, fidye gerekir.",
+    "Orucu bozulmaz ama mekruh olur."
+   ],
+   "d": 0,
+   "a": "Vaktin girdiğini bilmeden yemek hata sayılır; oruç bozulur, kasıt olmadığı için yalnız kaza gerekir. Gün boyu oruçlu gibi davranması gerekir.",
+   "ac": [
+    "Doğru.",
+    "Unutma değil hata vardır; oruç bozulur.",
+    "Kasıt yoktur.",
+    "Fidye gerekmez.",
+    "Oruç bozulmuştur."
+   ],
+   "kay": "Hanefî ilmihali: orucu bozanlar"
+  },
+  {
+   "id": "f5-10",
+   "z": 3,
+   "s": "Oruç keffâreti ile yemin keffâreti karşılaştırıldığında aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "İkisinde de seçenekler arasında serbestlik vardır.",
+    "Oruç keffâreti tertipli, yemin keffâreti ise muhayyerdir (oruç dışındaki seçeneklerde).",
+    "Yemin keffâreti yalnız oruçla ödenir.",
+    "Oruç keffâretinde 3 gün, yemin keffâretinde 60 gün oruç tutulur.",
+    "İkisinde de sıraya uymak gerekir."
+   ],
+   "d": 1,
+   "a": "Oruç keffâretinde köle → 60 gün oruç → 60 fakir sırasına uyulur. Yemin keffâretinde doyurma, giydirme ve köle azadı arasında serbestlik vardır; hiçbirine gücü yetmeyen üç gün oruç tutar.",
+   "ac": [
+    "Oruç keffâreti seçmeli değildir.",
+    "Doğru.",
+    "Oruç son çaredir.",
+    "Sayılar ters verilmiştir.",
+    "Yemin keffâretinin ilk üç seçeneği serbesttir."
+   ],
+   "kay": "Mâide, 5/89; Buhârî, Savm, 30"
+  },
+  {
+   "id": "f5-11",
+   "z": 3,
+   "s": "Ramazan’da hayız sebebiyle namaz kılamayan ve oruç tutamayan bir kadının durumu hangisidir?",
+   "c": [
+    "Oruçları için fidye verir.",
+    "Yalnız namazlarını kaza eder.",
+    "Namazlarını da oruçlarını da kaza eder.",
+    "Hiçbirini kaza etmez.",
+    "Yalnız oruçlarını kaza eder."
+   ],
+   "d": 4,
+   "a": "Hayız ve nifas hâlinde terk edilen oruçlar kaza edilir, namazlar kaza edilmez. Bu hüküm Hz. Âişe’nin rivayetine dayanır.",
+   "ac": [
+    "Fidye gerekmez; kaza edilir.",
+    "Ters verilmiştir.",
+    "Namazlar kaza edilmez.",
+    "Oruçlar kaza edilir.",
+    "Doğru."
+   ],
+   "kay": "Müslim, Hayz, 69"
+  },
+  {
+   "id": "f5-12",
+   "z": 3,
+   "s": "İtikâfla ilgili hangisi Hanefî mezhebine göre yanlıştır?",
+   "c": [
+    "Ramazan’ın son on gününde itikâf sünnet-i müekkede alâ’l-kifâyedir.",
+    "Adak itikâfı vaciptir.",
+    "Kadınlar evlerinde namaz için ayırdıkları yerde itikâfa girebilir.",
+    "Vacip itikâf, oruç tutmadan da geçerli olur.",
+    "Erkekler cemaatle namaz kılınan bir mescitte itikâfa girer."
+   ],
+   "d": 3,
+   "a": "Hanefîlere göre vacip (adak) itikâfta oruç şarttır.",
+   "ac": [
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Yanlış: vacip itikâfta oruç şarttır.",
+    "Doğru bilgi."
+   ],
+   "kay": "Buhârî, İ’tikâf, 1"
+  },
+  {
+   "id": "f5-13",
+   "z": 2,
+   "s": "Hanefî mezhebine göre başlanmış bir nafile orucun mazeretsiz bozulmasının hükmü nedir?",
+   "c": [
+    "Hiçbir şey gerekmez.",
+    "Yalnız fidye gerekir.",
+    "Kazası gerekir.",
+    "Kaza ve keffâret gerekir.",
+    "Kurban kesmek gerekir."
+   ],
+   "d": 2,
+   "a": "Hanefîlere göre başlanan nafile namaz ve oruç bozulursa kaza edilir.",
+   "ac": [
+    "Şâfiî görüşüdür.",
+    "Yanlıştır.",
+    "Başlanan nafile ibadet tamamlanması gereken bir yükümlülük olur.",
+    "Keffâret yalnız Ramazan orucunda söz konusudur.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f5-14",
+   "z": 2,
+   "s": "Hamile ya da emziren bir kadının kendisi veya çocuğu için zarar endişesiyle tutamadığı Ramazan oruçlarıyla ilgili hükmü nedir?",
+   "c": [
+    "Fidye vermesi yeterlidir.",
+    "Hiçbir şey gerekmez.",
+    "Kaza ve keffâret gerekir.",
+    "Daha sonra kaza eder; fidye gerekmez.",
+    "Hem kaza hem fidye gerekir."
+   ],
+   "d": 3,
+   "a": "Mazeret ortadan kalkınca kaza edilir.",
+   "ac": [
+    "Fidye iyileşme ümidi olmayanlar içindir.",
+    "Kaza gerekir.",
+    "Keffâret gerekmez.",
+    "Hanefî görüşüdür.",
+    "Şâfiî mezhebinde çocuk için endişe durumunda böyle denmiştir; Hanefîlerde yalnız kaza."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f5-15",
+   "z": 1,
+   "s": "Aşağıdakilerden hangisi orucu bozmaz?",
+   "c": [
+    "Kasten ağız dolusu kusmak",
+    "Göze sürme çekmek",
+    "Burna ilaç damlatmak",
+    "Sigara içmek",
+    "Bilerek su yutmak"
+   ],
+   "d": 1,
+   "a": "Göz, deri gibi yollarla bedene geçen şeyler orucu bozmaz.",
+   "ac": [
+    "Bozar, kaza gerekir.",
+    "Bozmaz.",
+    "Bozar.",
+    "Bozar.",
+    "Bozar."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f5-16",
+   "z": 2,
+   "s": "Ramazan orucunu mazeretsiz ve kasten yiyerek bozan kişinin keffâret orucunun özelliği hangisidir?",
+   "c": [
+    "On gün, ara verilebilir",
+    "Otuz gün, ara verilebilir",
+    "Kırk gün",
+    "Üç gün peş peşe",
+    "Altmış gün, ara vermeden peş peşe"
+   ],
+   "d": 4,
+   "a": "Ara verilirse baştan başlanır; kadın için hayız günleri kesinti sayılmaz.",
+   "ac": [
+    "Süre yanlıştır.",
+    "Süre yanlıştır.",
+    "Yanlıştır.",
+    "Bu yemin keffâreti orucudur.",
+    "Keffâret orucu kesintisiz altmış gündür."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f5-17",
+   "z": 2,
+   "s": "Ramazan bayramından sonra Şevval ayında tutulan altı günlük orucun hükmü nedir?",
+   "c": [
+    "Müstehap (nafile)",
+    "Vacip",
+    "Mekruh",
+    "Farz",
+    "Haram"
+   ],
+   "d": 0,
+   "a": "Ramazan’ı tutup Şevval’den altı gün tutmak bütün yılı oruçla geçirmiş gibi sevap kazandırır (Müslim, Sıyâm, 204).",
+   "ac": [
+    "Hz. Peygamber’in teşvik ettiği nafile oruçtur.",
+    "Yanlıştır.",
+    "Bayram günü dışında tutulması mekruh değildir.",
+    "Yanlıştır.",
+    "Yalnız bayram günleri oruç haramdır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f5-18",
+   "z": 2,
+   "s": "Ramazan’ın son on gününde yapılan itikâfın Hanefî mezhebine göre hükmü nedir?",
+   "c": [
+    "Farz",
+    "Vacip",
+    "Bid‘at",
+    "Mekruh",
+    "Sünnet-i kifâye (müekkede)"
+   ],
+   "d": 4,
+   "a": "İtikâfın vacip, sünnet ve müstehap türleri vardır.",
+   "ac": [
+    "Yanlıştır.",
+    "Adanan itikâf vaciptir.",
+    "Hz. Peygamber’in sünnetidir.",
+    "Yanlıştır.",
+    "Ramazan’ın son on gününde yapılır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f5-19",
+   "z": 3,
+   "s": "Hanefî mezhebine göre aşağıdakilerden hangisi orucu bozar ve hem kaza hem keffâreti gerektirir?",
+   "c": [
+    "Unutarak yemek",
+    "Kasten ağız dolusu kusmak",
+    "Gündüz oruçlu olduğunu bilerek ve mazeretsiz su içmek",
+    "Zorlanarak yemek",
+    "İmsak vaktinin geçtiğini bilmeden sahur yemek"
+   ],
+   "d": 2,
+   "a": "Keffâret için Ramazan orucunun niyetle başlanmış olması ve kasten, mazeretsiz, gıda ya da ilaç niteliğinde bir şeyle bozulması gerekir.",
+   "ac": [
+    "Orucu bozmaz.",
+    "Yalnız kaza gerekir.",
+    "Ramazan orucunda kaza ve keffâret gerekir.",
+    "Yalnız kaza gerekir.",
+    "Yalnız kaza gerekir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f5-20",
+   "z": 2,
+   "s": "Aşağıdaki günlerin hangisinde oruç tutmak sünnettir?",
+   "c": [
+    "Muharrem’in 9 ve 10. günleri (Âşûrâ)",
+    "Kurban bayramının ikinci günü",
+    "Ramazan bayramının birinci günü",
+    "Yalnız cuma günü",
+    "Şüpheli gün (Şaban’ın 30’u)"
+   ],
+   "d": 0,
+   "a": "Âşûrâ orucunu bir gün önce ya da sonrayla birlikte tutmak müstehaptır.",
+   "ac": [
+    "Sünnettir.",
+    "Tahrîmen mekruhtur.",
+    "Tahrîmen mekruhtur.",
+    "Tek başına cuma tenzîhen mekruhtur.",
+    "Ramazan niyetiyle tutmak mekruhtur."
+   ],
+   "kay": "Hanefî ilmihal"
+  }
+ ]
+}

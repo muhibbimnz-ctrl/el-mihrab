@@ -1,0 +1,1280 @@
+{
+ "id": "kuran-5",
+ "ad": "Kur’an’ın Yapısı: Sure, Ayet, Cüz, Hizb; Sure Adları ve Grupları; Tertip; Fevâsıl; Sayılar",
+ "ders": "Kur’an Bilgisi",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Ayet: Bir işaretten fazlası"
+  },
+  {
+   "merak": "Kur’an’ın tek kelimelik bir ayeti var: “Müdhâmmetân” (koyu yeşil). Bir kelime nasıl tek başına ayet olur?"
+  },
+  "Ayet kelimesi sözlükte açık işaret, alâmet, delil, ibret ve mucize demektir. Kur’an bu kelimeyi hem kâinattaki delilleri (Rûm, 30/20-25), hem peygamberlere verilen mucizeleri (İsrâ, 17/101), hem de kendi cümlelerini anlatmak için kullanır. Terim olarak ayet, sureleri oluşturan, başı ve sonu belli, bir ya da birkaç kelime veya cümleden oluşan Kur’an bölümüdür.",
+  "Ayetlerin nerede başlayıp nerede bittiği Hz. Peygamber’in okuyuşundan öğrenilmiştir; yani tevkîfîdir. Ayet sonlarındaki kelimelere ve oluşturdukları ses uyumuna fâsıla (çoğulu fevâsıl) denir. Fevâsıl, Kur’an’a kendine has bir ahenk kazandırır; ama şiirdeki kafiye ve vezin kurallarına bağlı değildir. Ayet sonlarını ve sayılarını inceleyen ilme ilmü’l-fevâsıl ya da addü’l-âyi (ayet sayımı ilmi) denir.",
+  {
+   "tablo": [
+    [
+     "Ayetle ilgili uç bilgiler",
+     ""
+    ],
+    [
+     "En uzun ayet",
+     "Bakara, 2/282 (borç / müdâyene ayeti) – yaklaşık bir sayfa"
+    ],
+    [
+     "En kısa ayetler",
+     "Tek kelimeden oluşanlar ya da mukattaa harfleri: “Yâ-Sîn”, “Tâ-Hâ”, “Ve’d-duhâ” gibi"
+    ],
+    [
+     "Anlamlı tek kelimelik en kısa ayet",
+     "Rahmân, 55/64: “Müdhâmmetân” (koyu yeşil iki bahçe)"
+    ],
+    [
+     "En faziletli ayet",
+     "Âyetü’l-kürsî (Bakara, 2/255) – Müslim, Salâtü’l-müsâfirîn, 258"
+    ],
+    [
+     "En son inen ayet (yaygın görüş)",
+     "Bakara, 2/281"
+    ]
+   ]
+  },
+  "Ayet sayısı konusunda farklı rakamlar verilir. Bu farklar metinde bir eksiklik ya da fazlalık olduğunu göstermez; aynı metnin ayet sonlarının farklı yerlerden işaretlenmesinden doğar. Örneğin besmelenin Fâtiha’nın ilk ayeti sayılıp sayılmaması ya da bazı mukattaa harflerinin ayrı ayet kabul edilip edilmemesi sayıyı değiştirir. Türkiye’de ve İslam dünyasının çoğunda kullanılan sayım, Hz. Ali’ye dayanan Kûfe sayımıdır: 6236 ayet.",
+  {
+   "tablo": [
+    [
+     "Sayım ekolü",
+     "Ayet sayısı"
+    ],
+    [
+     "Kûfe (Hz. Ali’ye dayanır; Âsım/Hafs mushaflarında kullanılır)",
+     "6236"
+    ],
+    [
+     "Basra",
+     "6204"
+    ],
+    [
+     "Şam",
+     "6226"
+    ],
+    [
+     "Mekke",
+     "6219 / 6220"
+    ],
+    [
+     "Medine (birinci ve ikinci sayım)",
+     "6000 / 6214 civarı"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Kûfe dışındaki sayımlar için kaynaklarda küçük farklar vardır. Sınavda sorulan sayı 6236’dır. Kelime ve harf sayıları da kaynaklara göre değişir (yaklaşık 77.400 kelime, 320.000’i aşkın harf)."
+  },
+  {
+   "sinav": "“Kur’an’daki ayet sayısı hakkındaki farklılıkların sebebi” sorulursa cevap: ayet sonlarının (fevâsıl) farklı tespit edilmesi. Tuzak: “bazı ayetlerin bazı mushaflarda bulunmaması” (yanlış)."
+  },
+  {
+   "akil": "Ayet = işaret, delil, mucize. Ayet sınırları tevkîfî. Fâsıla = ayet sonu. 6236 = Kûfe sayımı. En uzun: Bakara 282; en faziletli: Âyetü’l-kürsî; anlamlı en kısa: Müdhâmmetân."
+  },
+  {
+   "b": "2. Sure: Yüksek bir surla çevrili bölüm"
+  },
+  {
+   "merak": "Bir şehir surla çevrilir, içindekiler korunur. Kur’an’ın bölümlerine neden “sure” denmiş olabilir? Her sure, ayetleri bir surun içinde toplayan bağımsız bir bütündür."
+  },
+  "Sure kelimesi sözlükte yüksek mertebe, şeref, binanın katı ve şehri çeviren sur (duvar) anlamlarına gelir. Terim olarak sure, en az üç ayetten oluşan, başı ve sonu belli Kur’an bölümüdür. Kur’an’da 114 sure vardır. Bir surenin, etrafı duvarla çevrili bir şehir gibi kendi bütünlüğü vardır.",
+  {
+   "tablo": [
+    [
+     "Sureyle ilgili uç bilgiler",
+     ""
+    ],
+    [
+     "Sure sayısı",
+     "114"
+    ],
+    [
+     "En uzun sure",
+     "Bakara (286 ayet)"
+    ],
+    [
+     "En kısa sure",
+     "Kevser (3 ayet, kelime ve harf sayısı en az). Asr ve Nasr da 3 ayettir"
+    ],
+    [
+     "Ayet sayısı en çok Mekkî sure",
+     "Şuarâ (227)"
+    ],
+    [
+     "Besmeleyle başlamayan sure",
+     "Tevbe (Berâe)"
+    ],
+    [
+     "İki besmelesi olan sure",
+     "Neml (başta ve 30. ayette, Hz. Süleyman’ın mektubunda)"
+    ],
+    [
+     "Tilâvet secdesiyle biten sureler",
+     "A’râf, Necm, Alak"
+    ],
+    [
+     "İki secde ayeti olan sure",
+     "Hac (Hanefîlere göre ikinci secde vacip değildir)"
+    ]
+   ]
+  },
+  {
+   "akil": "Sure = sur ile çevrili bölüm; en az üç ayet. 114 sure: en uzun Bakara (286), en kısa Kevser (3). Tevbe besmelesiz başlar, Neml’de iki besmele vardır."
+  },
+  {
+   "b": "Surelerin başlangıçları (fevâtihu’s-süver)"
+  },
+  {
+   "merak": "Bir sure “Elhamdülillâh” ile, bir başkası “Ve’l-asr” yemini ile, bir diğeri “Ey iman edenler!” seslenişiyle açılır. Sınavda bir surenin ilk kelimesi, kimliğinin anahtarı olabilir."
+  },
+  "Sureler farklı üsluplarla başlar. Âlimler bu başlangıçları on kadar türe ayırmıştır. Başlangıç türü bazen soruların anahtarıdır.",
+  {
+   "tablo": [
+    [
+     "Başlangıç türü",
+     "Örnek sureler"
+    ],
+    [
+     "Hamd ile (5 sure)",
+     "Fâtiha, En’âm, Kehf, Sebe’, Fâtır"
+    ],
+    [
+     "Tesbih ile (musebbihât)",
+     "İsrâ (sübhâne), Hadîd, Haşr, Saf (sebbaha), Cuma, Tegâbün (yüsebbihu), A’lâ (sebbih)"
+    ],
+    [
+     "Hurûf-ı mukattaa ile (29 sure)",
+     "Bakara, Âl-i İmrân, Yâsîn, Sâd, Kâf, Kalem…"
+    ],
+    [
+     "Nida (seslenme) ile",
+     "Nisâ, Hac (Ey insanlar), Mâide, Hucurât (Ey iman edenler), Müzzemmil, Müddessir"
+    ],
+    [
+     "Haber cümlesiyle",
+     "Enfâl, Tevbe, Nahl, Kamer"
+    ],
+    [
+     "Kasem (yemin) ile",
+     "Sâffât, Zâriyât, Tûr, Necm, Şems, Leyl, Duhâ, Tîn, Asr…"
+    ],
+    [
+     "Şart ile",
+     "Vâkıa, Münâfikûn, Tekvîr, İnfitâr, İnşikâk, Zilzâl, Nasr"
+    ],
+    [
+     "Emir ile",
+     "Alak (Oku), Cin, Kâfirûn, İhlâs, Felak, Nâs (De ki)"
+    ],
+    [
+     "Soru ile",
+     "İnsan, Nebe’, Gâşiye, İnşirâh, Fîl, Mâûn"
+    ],
+    [
+     "Beddua / tehdit (“veyl”) ile",
+     "Mutaffifîn, Hümeze, Tebbet"
+    ],
+    [
+     "Ta’lîl (sebep bildirme) ile",
+     "Kureyş (li-îlâfi…)"
+    ]
+   ]
+  },
+  "Tabloda sayılanların dışında bir başlangıç türü daha vardır: Allah’ı yücelten senâ ifadesi “Tebâreke” (Ne yücedir!). Furkân ve Mülk sureleri bu kelimeyle başlar. Sınavda bu iki sure tesbih ile başlayanlar arasına tuzak olarak konabilir; “sebbaha / yüsebbihu / sübhâne / sebbih” kökü yoksa sure musebbihâttan değildir.",
+  {
+   "akil": "Hamd: 5 sure. Tesbih: İsrâ, Hadîd, Haşr, Saf, Cuma, Tegâbün, A’lâ. Tebâreke: Furkân, Mülk. Şart: Vâkıa, Tekvîr, Zilzâl, Nasr… Ta’lîl: Kureyş."
+  },
+  {
+   "b": "Hurûf-ı mukattaa"
+  },
+  {
+   "merak": "Elif-Lâm-Mîm… Bu harfler bir kelime değil; tek tek okunur ve anlamı Allah’a havale edilir. Neden yalnızca yirmi dokuz surenin başında yer alırlar?"
+  },
+  "Yirmi dokuz surenin başında, ayrı ayrı okunan harfler bulunur: Elif-Lâm-Mîm, Yâ-Sîn, Tâ-Hâ, Kâf, Nûn gibi. Bunlara hurûf-ı mukattaa (kesik harfler) denir. Bu harfler Arap alfabesinin yarısını, yani on dört harfi oluşturur ve on dört farklı kalıpta gelir. En çok tekrarlanan kalıp Elif-Lâm-Mîm’dir (altı surede). Tek harfle başlayan sureler Sâd, Kâf ve Kalem’dir (Nûn). Anlamları hakkında birçok görüş vardır: Allah’ın bildiği sırlar olduğu, surelerin adı olduğu, dikkat çekme ve meydan okuma amacı taşıdığı (“Kur’an bu harflerden oluşuyor, siz de benzerini getirin”) gibi. Bu harfle başlayan surelerin hemen hepsi Mekkî’dir; Bakara ve Âl-i İmrân Medenî istisnalardır.",
+  {
+   "sinav": "“Hurûf-ı mukattaa yalnız Mekkî surelerde bulunur” öncülü yanlıştır (Bakara, Âl-i İmrân). “Hamd ile başlayan sure değildir” sorusunda tuzak genellikle Mülk (Tebâreke ile başlar) ya da Furkân’dır (Tebâreke)."
+  },
+  {
+   "akil": "114 sure. Tevbe besmelesiz; Neml iki besmeleli. Hamdle başlayan beş sure: Fâtiha, En’âm, Kehf, Sebe’, Fâtır. Mukattaa: 29 sure, 14 harf, en çok Elif-Lâm-Mîm; tek harfli: Sâd, Kâf, Nûn."
+  },
+  {
+   "b": "3. Sure adları ve birden fazla adı olan sureler"
+  },
+  {
+   "merak": "Mü’min Suresi neden aynı zamanda Gâfir Suresi’dir? Bir surenin iki, hatta on adı olabilir mi?"
+  },
+  "Sure adlarının büyük kısmı Hz. Peygamber’in kullanımından gelir (tevkîfî); bir kısmı ise sahabe ve sonraki âlimlerin, surede geçen dikkat çekici bir kelime, olay ya da konuya göre verdiği adlardır. Sure adı çoğunlukla surenin içinden bir kelimedir (Bakara’daki inek kıssası, Fil’deki fil olayı, Nahl’deki arı); bazen de surenin ana konusudur (İhlâs, Tevhid’i anlatır ama kelime surede geçmez).",
+  {
+   "tablo": [
+    [
+     "Sure",
+     "Diğer adları"
+    ],
+    [
+     "Fâtiha",
+     "Ümmü’l-Kur’ân, Ümmü’l-kitâb, es-Seb‘u’l-mesânî (Hicr, 15/87), Esâs, Kâfiye, Vâfiye, Şifâ, Hamd, Salât"
+    ],
+    [
+     "Tevbe",
+     "Berâe, Fâdıha (münafıkların içyüzünü açtığı için)"
+    ],
+    [
+     "İsrâ",
+     "Benî İsrâîl, Sübhân"
+    ],
+    [
+     "Mü’min",
+     "Gâfir, Tavl"
+    ],
+    [
+     "Fussilet",
+     "Hâ-Mîm es-Secde"
+    ],
+    [
+     "Muhammed",
+     "Kıtâl"
+    ],
+    [
+     "İnsan",
+     "Dehr, Hel etâ"
+    ],
+    [
+     "Tebbet",
+     "Mesed, Leheb"
+    ],
+    [
+     "Beyyine",
+     "Lem yekün"
+    ],
+    [
+     "Nebe’",
+     "Amme"
+    ],
+    [
+     "İnşirâh",
+     "Şerh, Elem neşrah"
+    ],
+    [
+     "Mülk",
+     "Tebâreke, Münciye, Mâni‘a (kabir azabından kurtaran)"
+    ],
+    [
+     "Secde",
+     "Elif-Lâm-Mîm Tenzîl"
+    ],
+    [
+     "Mâide",
+     "Ukûd"
+    ],
+    [
+     "İhlâs",
+     "Tevhid, Esâs"
+    ],
+    [
+     "Mutaffifîn",
+     "Tatfîf"
+    ]
+   ]
+  },
+  {
+   "akil": "Gâfir = Mü’min; Fussilet = Hâ-Mîm es-Secde; İsrâ = Benî İsrâîl; Tevbe = Berâe; Muhammed = Kıtâl; İnsan = Dehr; Fâtiha = Seb‘u’l-mesânî, Ümmü’l-kitâb."
+  },
+  {
+   "b": "Sure grupları"
+  },
+  {
+   "merak": "Hz. Peygamber bazı sureleri ikişer ikişer anar: “iki parlak sure”, “iki sığınma suresi”. Âlimler de başlangıç harflerine göre aile gibi gruplar kurmuştur: Hâmîmler, Tavâsîn…"
+  },
+  {
+   "tablo": [
+    [
+     "Grup adı",
+     "Kapsadığı sureler"
+    ],
+    [
+     "ez-Zehrâveyn (iki parlak sure)",
+     "Bakara ve Âl-i İmrân"
+    ],
+    [
+     "el-Muavvizeteyn (iki sığınma suresi)",
+     "Felak ve Nâs; İhlâs da eklenince el-Muavvizât"
+    ],
+    [
+     "el-İhlâseyn",
+     "İhlâs ve Kâfirûn (ikisi de tevhidi ve şirkten uzaklığı anlatır)"
+    ],
+    [
+     "Hâmîmler (Âlu Hâ-Mîm, Dîbâcü’l-Kur’ân)",
+     "Hâ-Mîm ile başlayan yedi sure: Mü’min (Gâfir), Fussilet, Şûrâ, Zuhruf, Duhân, Câsiye, Ahkâf"
+    ],
+    [
+     "Tavâsîn",
+     "Tâ-Sîn ile başlayanlar: Şuarâ, Neml, Kasas"
+    ],
+    [
+     "Musebbihât",
+     "Tesbih kelimesiyle başlayanlar: Hadîd, Haşr, Saf, Cuma, Tegâbün (İsrâ ve A’lâ da sayılır)"
+    ],
+    [
+     "Peygamber adını taşıyan sureler",
+     "Yûnus, Hûd, Yûsuf, İbrâhîm, Nûh, Muhammed"
+    ],
+    [
+     "Kalbü’l-Kur’ân",
+     "Yâsîn (Tirmizî, Fezâilü’l-Kur’ân, 7; hadisin senedi zayıf görülmüştür)"
+    ],
+    [
+     "Arûsü’l-Kur’ân",
+     "Rahmân"
+    ]
+   ]
+  },
+  {
+   "akil": "Hâmîmler (Hâ-Mîm ile başlayan) 7 sure: Gâfir’den Ahkâf’a. Tavâsîn: Şuarâ, Neml, Kasas. Zehrâveyn ve Muavvizeteyn hadislerde geçen ikili adlardır."
+  },
+  {
+   "b": "Uzunluklarına göre sure grupları"
+  },
+  {
+   "merak": "Hz. Peygamber “Bana Tevrat yerine yedi uzun sure, Zebur yerine mieîn, İncil yerine mesânî verildi; mufassal ile de üstün kılındım.” buyurmuştur. Bu dört kelime, Kur’an’ın uzunluk haritasıdır."
+  },
+  {
+   "tablo": [
+    [
+     "Grup",
+     "Tarif",
+     "Sureler"
+    ],
+    [
+     "es-Seb‘u’t-tıvâl (yedi uzun)",
+     "Bakara’dan itibaren en uzun yedi sure",
+     "Bakara, Âl-i İmrân, Nisâ, Mâide, En’âm, A’râf; yedincisi Enfâl-Tevbe (tek sayılarak) ya da Yûnus"
+    ],
+    [
+     "el-Mi’ûn",
+     "Ayet sayısı yüz civarında ya da yüzü biraz aşan sureler",
+     "Tıvâl’den sonra gelenler"
+    ],
+    [
+     "el-Mesânî",
+     "Ayet sayısı yüzden az olan sureler",
+     "Mi’ûn’dan sonra gelenler"
+    ],
+    [
+     "el-Mufassal",
+     "Mushafın sonundaki, aralarında besmeleyle sık sık ayrılan kısa sureler",
+     "Hanefîlerin ve çoğunluğun görüşüyle Hucurât’tan Nâs’a kadar"
+    ]
+   ]
+  },
+  "Hanefî fıkhında namazda okunacak kıraatin miktarı için mufassal üçe ayrılır. Sabah ve öğle namazlarında tıvâl-i mufassal, ikindi ve yatsıda evsât-ı mufassal, akşamda kısâr-ı mufassal okunması sünnettir.",
+  {
+   "tablo": [
+    [
+     "Mufassalın bölümleri (Hanefî)",
+     "Sınırları"
+    ],
+    [
+     "Tıvâl-i mufassal",
+     "Hucurât’tan Bürûc’a kadar"
+    ],
+    [
+     "Evsât-ı mufassal",
+     "Bürûc’tan Beyyine’ye (Lem yekün) kadar"
+    ],
+    [
+     "Kısâr-ı mufassal",
+     "Beyyine’den (ya da Zilzâl’den) Nâs’a kadar"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Mufassalın başlangıcı ve iç bölümlerinin sınırları kaynaklarda farklı verilir: başlangıç olarak Kâf ya da Hucurât; evsâtın sonu olarak Beyyine ya da Leyl gibi. Hanefî ilmihallerinde yaygın olan tablodaki tasniftir."
+  },
+  {
+   "sinav": "“Kur’an’da adı geçen tek kadın” → Hz. Meryem (sure adı da vardır). “Peygamber adını taşımayan sure” sorulursa tuzak Lokmân’dır; Lokmân hikmet sahibi bir kişidir, peygamber olduğu kesin değildir. Âl-i İmrân bir peygamberin değil, İmrân ailesinin adıdır. Fâtiha’nın diğer adı sorusunda “es-Seb‘u’l-mesânî” doğru; “Mesânî” tek başına uzunluk grubunun adıdır, karıştırma."
+  },
+  {
+   "akil": "Zehrâveyn = Bakara + Âl-i İmrân. Muavvizeteyn = Felak + Nâs. İhlâseyn = İhlâs + Kâfirûn. Hâmîmler 7, Tavâsîn 3. Gâfir = Mü’min; Hâ-Mîm Secde = Fussilet; Benî İsrâîl = İsrâ; Dehr = İnsan; Mesed = Tebbet."
+  },
+  {
+   "b": "4. Cüz, hizb ve hatim bölümleri"
+  },
+  {
+   "merak": "Türkiye’de bir hafız “yirminci cüzün üçüncü sayfası” dediğinde herkes aynı yeri açar. Bu düzen vahiyle mi geldi, yoksa okumayı kolaylaştırmak için mi konuldu?"
+  },
+  "Kur’an’ın okunmasını kolaylaştırmak için mushaf eşit uzunlukta bölümlere ayrılmıştır. Bu bölümler vahiyle değil, okuyuşu düzenlemek için sonradan konmuştur.",
+  {
+   "tablo": [
+    [
+     "Bölüm",
+     "Açıklama"
+    ],
+    [
+     "Cüz",
+     "Mushafın otuzda biri. Türkiye mushaflarında her cüz yirmi sayfadır; 30 cüzde bir hatim olur"
+    ],
+    [
+     "Hizb",
+     "Arap dünyasında bir cüz iki hizbe (toplam 60 hizb), her hizb dört rub‘a ayrılır. Türkiye’de hizb işaretleri cüzü dört eşit parçaya böler"
+    ],
+    [
+     "Aşr",
+     "On ayetlik bölüm; “aşr-ı şerif okumak” buradan gelir"
+    ],
+    [
+     "Rükû (ع işareti)",
+     "Konu bütünlüğü olan, sonunda rükûya gidilebilecek bölüm"
+    ],
+    [
+     "Menzil / tahzîb",
+     "Sahabenin Kur’an’ı haftada bir hatim için yedi bölüme ayırması"
+    ]
+   ]
+  },
+  {
+   "kontrol": "Türkiye mushaflarındaki hizb uygulaması (çeyrek cüz) ile Arap dünyasındaki hizb (yarım cüz) farklıdır; sınavda “cüz = otuzda bir” bilgisi esastır."
+  },
+  "Sahabeden Evs b. Huzeyfe’nin anlattığına göre sahabe Kur’an’ı haftada bir hatim edecek şekilde yedi bölüme (hizb) ayırırdı: üç sure, beş sure, yedi sure, dokuz sure, on bir sure, on üç sure ve mufassal (Kâf’tan sona kadar). Bu ayırma işine tahzîb denir.",
+  {
+   "tablo": [
+    [
+     "Sahabenin yedi hizbi",
+     "Sureler"
+    ],
+    [
+     "1. hizb (3 sure)",
+     "Bakara, Âl-i İmrân, Nisâ"
+    ],
+    [
+     "2. hizb (5 sure)",
+     "Mâide, En’âm, A’râf, Enfâl, Tevbe"
+    ],
+    [
+     "3. hizb (7 sure)",
+     "Yûnus, Hûd, Yûsuf, Ra’d, İbrâhîm, Hicr, Nahl"
+    ],
+    [
+     "4. hizb (9 sure)",
+     "İsrâ, Kehf, Meryem, Tâhâ, Enbiyâ, Hac, Mü’minûn, Nûr, Furkân"
+    ],
+    [
+     "5. hizb (11 sure)",
+     "Şuarâ’dan Yâsîn’e"
+    ],
+    [
+     "6. hizb (13 sure)",
+     "Sâffât’tan Hucurât’a"
+    ],
+    [
+     "7. hizb (mufassal)",
+     "Kâf’tan Nâs’a"
+    ]
+   ]
+  },
+  {
+   "hadis": "(Sahabe Kur’an’ı) üç, beş, yedi, dokuz, on bir, on üç sure ve bir de mufassal hizbi olarak bölerdi.",
+   "kay": "Ebû Dâvûd, Ramazân, 9 (Evs b. Huzeyfe’den)"
+  },
+  {
+   "akil": "Cüz = 1/30. Tahzîb = sahabenin yedi bölümü: 3-5-7-9-11-13-mufassal. Aşr = 10 ayet. Bu bölümler tevkîfî değil, okuma kolaylığı içindir."
+  },
+  {
+   "b": "5. Tertip: Ayetlerin ve surelerin sırası"
+  },
+  {
+   "merak": "Mushaf neden Alak ile değil, Fâtiha ile başlıyor? Kur’an iniş sırasıyla mı dizilmiştir?"
+  },
+  "Kur’an’ın mushaftaki sırası (tilâvet tertibi) iniş sırasından (nüzul tertibi) farklıdır. İlk inen Alak 96. sıradadır; Medine’de inen uzun Bakara Suresi ise Fâtiha’dan hemen sonradır.",
+  {
+   "tablo": [
+    [
+     "",
+     "Ayetlerin sure içindeki sırası",
+     "Surelerin mushaftaki sırası"
+    ],
+    [
+     "Hüküm",
+     "Tevkîfî (Hz. Peygamber’in bildirmesiyle); bu konuda icma vardır",
+     "Tartışmalı"
+    ],
+    [
+     "Görüşler",
+     "—",
+     "1) Tevkîfîdir (çoğunluk). 2) Sahabenin içtihadıdır. 3) Büyük kısmı tevkîfî, bir kısmı içtihadîdir"
+    ],
+    [
+     "Delil",
+     "Hz. Osman: “Bu ayetleri şu sureye koyun” rivayeti; Hz. Peygamber’in namazda sureleri sırayla okuması",
+     "Sahabe mushaflarında sure sırasının farklı olması (Ubey, İbn Mes’ûd; Hz. Ali’nin nüzul sırasına göre tuttuğu nüsha); Enfâl ile Tevbe arasında besmele bulunmaması hakkında Hz. Osman’ın açıklaması"
+    ]
+   ]
+  },
+  "İbn Abbas’ın, Enfâl ile Tevbe’nin neden besmeleyle ayrılmadan art arda yazıldığını sorduğunda Hz. Osman’ın verdiği cevap meşhurdur: İki surenin konusu birbirine benziyordu ve Hz. Peygamber Tevbe’nin ayrı bir sure olup olmadığını açıkça bildirmeden vefat etmişti; bu yüzden ikisi yan yana yazıldı ama aralarına besmele konmadı. Bu rivayet, sure tertibinde bir ölçüde içtihada yer olduğunu düşünenlerin delilidir.",
+  {
+   "not": "Ayetler ve sureler arasındaki anlam ilişkisini inceleyen ilme ilmü’l-münâsebe denir. Bu alanda Bikāî’nin Nazmü’d-dürer’i tanınmış bir eserdir. Kur’an’ı iniş sırasına göre tefsir edenler de vardır (İzzet Derveze, et-Tefsîrü’l-hadîs)."
+  },
+  {
+   "sinav": "“Ayetlerin sure içindeki sırası ile ilgili ihtilaf vardır” öncülü yanlıştır; ayet tertibi tevkîfîdir. “Surelerin bugünkü sırası iniş sırasıdır” da yanlıştır. Doğru: sure tertibi konusunda üç görüş vardır."
+  },
+  {
+   "akil": "Ayet tertibi = tevkîfî (icma). Sure tertibi = tartışmalı (üç görüş; çoğunluk tevkîfî). Mushaf sırası ≠ iniş sırası. Münâsebe ilmi: ayetler/sureler arası bağ."
+  },
+  {
+   "b": "6. Sınavda sık geçen sure kimlikleri"
+  },
+  {
+   "merak": "“Mushafta birinci, iniş sırasına göre beşinci sure; Kur’an’ın hem girişi hem özeti…” Bu tarif hangi sureye ait? ÖSYM ve sınav kitapları sureleri böyle “kimlik” bilgileriyle sormayı sever."
+  },
+  {
+   "tablo": [
+    [
+     "Sure",
+     "Kimlik bilgisi"
+    ],
+    [
+     "Fâtiha",
+     "Mushafta 1.; Mekkî; Kur’an’ın özeti; Ümmü’l-kitâb; namazın her rekâtında okunur"
+    ],
+    [
+     "Bakara",
+     "En uzun sure; Âyetü’l-kürsî (255) ve en uzun ayet (282) bu suredir; kıblenin değişmesi (142-150); son iki ayeti Mi’rac’da verildi"
+    ],
+    [
+     "Âl-i İmrân",
+     "Uhud Savaşı, Necran heyeti ve mübâhele ayeti (61)"
+    ],
+    [
+     "Nisâ",
+     "Aile ve miras hükümleri; kadın haklarına geniş yer verir"
+    ],
+    [
+     "Mâide",
+     "Ukûd (sözleşmeler); Veda Haccı’nda inen “dininizi kemale erdirdim” ayeti (3)"
+    ],
+    [
+     "En’âm",
+     "Toptan inen uzun Mekkî sure; inişine yetmiş bin meleğin eşlik ettiği rivayet edilir"
+    ],
+    [
+     "Tevbe",
+     "Besmelesiz; Tebük seferi ve münafıklar"
+    ],
+    [
+     "Yûsuf",
+     "Tek kıssayı baştan sona anlatır; Kur’an ona “kıssaların en güzeli” der (Yûsuf, 12/3)"
+    ],
+    [
+     "Kehf",
+     "Dört kıssa: Ashâb-ı Kehf, iki bahçe sahibi, Hz. Mûsâ ile Hızır, Zülkarneyn; cuma günü okunması tavsiye edilir"
+    ],
+    [
+     "Meryem",
+     "Kur’an’da adı geçen tek kadın Hz. Meryem’in adını taşır"
+    ],
+    [
+     "Nûr",
+     "İfk olayı, tesettür, aile mahremiyeti, zina cezası"
+    ],
+    [
+     "Ahzâb",
+     "Hendek Savaşı; adı geçen tek sahabi Zeyd (37)"
+    ],
+    [
+     "Yâsîn",
+     "Kalbü’l-Kur’ân; Mekkî"
+    ],
+    [
+     "Rahmân",
+     "“Febieyyi âlâi rabbikümâ tükezzibân” 31 kez tekrarlanır; Arûsü’l-Kur’ân"
+    ],
+    [
+     "Mücâdele",
+     "Havle bint Sa’lebe’nin zıhar şikâyeti üzerine indi"
+    ],
+    [
+     "Saf",
+     "Hz. Peygamber’in “Ahmed” adıyla müjdelendiği ayet (6)"
+    ],
+    [
+     "Mürselât",
+     "“Veylün yevmeizin li’l-mükezzibîn” 10 kez tekrarlanır"
+    ],
+    [
+     "Mülk",
+     "Kabir azabından koruyan sure (Münciye)"
+    ],
+    [
+     "İhlâs",
+     "Kur’an’ın üçte birine denk (Buhârî, Fezâilü’l-Kur’ân, 13)"
+    ],
+    [
+     "Nasr",
+     "Tamamı bir arada inen son sure; Hz. Peygamber’in vefatının yaklaştığına işaret"
+    ],
+    [
+     "Kevser",
+     "En kısa sure"
+    ]
+   ]
+  },
+  {
+   "sinav": "Sure kimliği sorularında anahtar kelimeyi yakala: “toptan ve meleklerle” → En’âm; “ahsenü’l-kasas” → Yûsuf; “Ahmed” → Saf; “Zeyd” → Ahzâb; “31 kez tekrarlanan ayet” → Rahmân; “10 kez veyl” → Mürselât; “Kur’an’ın üçte biri” → İhlâs; “besmelesiz” → Tevbe; “iki besmele” → Neml."
+  },
+  {
+   "akil": "Fâtiha = Ümmü’l-kitâb; En’âm = toptan; Yûsuf = ahsenü’l-kasas; Kehf = dört kıssa; Rahmân = 31 tekrar; Mürselât = 10 veyl; Saf = Ahmed; Ahzâb = Zeyd; İhlâs = üçte bir; Nasr = son tam sure."
+  },
+  "Bazı sure grupları, Hz. Peygamber’in onlardan söz ederken kullandığı bir ifadeyle bilinir. Hz. Ebû Bekir, Hz. Peygamber’e saçına ak düştüğünü söylediğinde o “Beni Hûd, Vâkıa, Mürselât, Amme yetesâelûn (Nebe’) ve İze’ş-şemsü küvvirat (Tekvîr) ihtiyarlattı.” buyurmuştur (Tirmizî, Tefsîr, Vâkıa). Bu surelerin ortak noktası kıyamet ve ahiret sahnelerini, helak edilen kavimleri ve “emrolunduğun gibi dosdoğru ol” (Hûd, 11/112) gibi ağır sorumlulukları anlatmasıdır.",
+  {
+   "tablo": [
+    [
+     "Sure",
+     "Sınavda tuzak olabilecek ikinci bilgi"
+    ],
+    [
+     "Hûd",
+     "“Beni ihtiyarlattı” dediği surelerin başı; “emrolunduğun gibi dosdoğru ol” (112)"
+    ],
+    [
+     "Furkân ve Mülk",
+     "“Tebâreke” ile başlar; tesbih ile başlayanlardan değildir"
+    ],
+    [
+     "Neml",
+     "Biri sure içinde (30) olmak üzere iki besmele"
+    ],
+    [
+     "Tevbe",
+     "Besmelesiz; Enfâl ile birlikte “karîneteyn”"
+    ],
+    [
+     "Kâfirûn ve İhlâs",
+     "İhlâseyn; sabah namazının sünnetinde okunması sünnet"
+    ]
+   ]
+  },
+  {
+   "akil": "“Beni ihtiyarlattı” sureleri: Hûd, Vâkıa, Mürselât, Nebe’, Tekvîr. Furkân ve Mülk “Tebâreke” ile başlar."
+  }
+ ],
+ "ozet": [
+  "Ayet sözlükte işaret, delil, ibret, mucize demektir; ayet sınırları tevkîfîdir. Ayet sonlarına fâsıla (fevâsıl) denir.",
+  "Türkiye’de kullanılan Kûfe sayımına göre 6236 ayet vardır; sayım farkları ayet sonlarının farklı tespitinden doğar.",
+  "En uzun ayet Bakara 282, en faziletli ayet Âyetü’l-kürsî (Bakara 255), anlamlı tek kelimelik ayet Rahmân 64 (Müdhâmmetân).",
+  "Sure sözlükte yüksek mertebe, sur, binanın katı demektir; Kur’an’da 114 sure vardır. En uzun Bakara, en kısa Kevser.",
+  "Tevbe besmelesiz başlar; Neml’de iki besmele vardır. A’râf, Necm ve Alak secde ayetiyle biter.",
+  "Hamd ile başlayan beş sure: Fâtiha, En’âm, Kehf, Sebe’, Fâtır. Tesbihle başlayanlara musebbihât denir.",
+  "Hurûf-ı mukattaa 29 surenin başındadır; 14 harf, 14 kalıp; en çok Elif-Lâm-Mîm; tek harfli: Sâd, Kâf, Nûn. Bakara ve Âl-i İmrân Medenî istisnadır.",
+  "Çok adı olan sureler: Fâtiha (Ümmü’l-kitâb, Seb‘u’l-mesânî), Tevbe (Berâe), İsrâ (Benî İsrâîl), Mü’min (Gâfir), Fussilet (Hâ-Mîm Secde), İnsan (Dehr), Tebbet (Mesed), Muhammed (Kıtâl).",
+  "Sure grupları: Zehrâveyn (Bakara-Âl-i İmrân), Muavvizeteyn (Felak-Nâs), İhlâseyn (İhlâs-Kâfirûn), Hâmîmler (7), Tavâsîn (3), musebbihât.",
+  "Peygamber adını taşıyan altı sure: Yûnus, Hûd, Yûsuf, İbrâhîm, Nûh, Muhammed.",
+  "Uzunluklarına göre sureler: es-Seb‘u’t-tıvâl, Mi’ûn, Mesânî, Mufassal. Mufassal Hanefîlere göre Hucurât’tan başlar; tıvâl, evsât ve kısâr olarak üçe ayrılır.",
+  "Cüz mushafın otuzda biridir; sahabe haftalık hatim için Kur’an’ı yedi hizbe ayırırdı (3-5-7-9-11-13-mufassal): tahzîb.",
+  "Ayetlerin sure içindeki tertibi icma ile tevkîfîdir; surelerin tertibi konusunda tevkîfî, içtihadî ve karma olmak üzere üç görüş vardır.",
+  "Mushaf sırası iniş sırasından farklıdır; ayetler ve sureler arasındaki anlam ilişkisini münâsebe ilmi inceler.",
+  "Sure kimlikleri: En’âm toptan indi; Yûsuf ahsenü’l-kasas; Kehf dört kıssa; Rahmân’da 31, Mürselât’ta 10 tekrar; Saf’ta Ahmed; Ahzâb’da Zeyd; İhlâs Kur’an’ın üçte biri; Nasr son tam sure."
+ ],
+ "kartlar": [
+  {
+   "o": "Fâsıla (fevâsıl)",
+   "a": "Ayet sonlarındaki kelimeler ve oluşturdukları ses uyumu."
+  },
+  {
+   "o": "6236 ayet sayısı hangi sayıma aittir?",
+   "a": "Hz. Ali’ye dayanan Kûfe sayımı."
+  },
+  {
+   "o": "Hamd ile başlayan beş sure",
+   "a": "Fâtiha, En’âm, Kehf, Sebe’, Fâtır."
+  },
+  {
+   "o": "Musebbihât",
+   "a": "Tesbihle başlayan sureler: Hadîd, Haşr, Saf, Cuma, Tegâbün (İsrâ ve A’lâ da sayılır)."
+  },
+  {
+   "o": "Hurûf-ı mukattaa sayıları",
+   "a": "29 surede, 14 harf, 14 kalıp. En çok Elif-Lâm-Mîm (6 sure). Tek harfli: Sâd, Kâf, Nûn."
+  },
+  {
+   "o": "Zehrâveyn",
+   "a": "Bakara ve Âl-i İmrân."
+  },
+  {
+   "o": "İhlâseyn",
+   "a": "İhlâs ve Kâfirûn."
+  },
+  {
+   "o": "Hâmîmler",
+   "a": "Mü’min (Gâfir), Fussilet, Şûrâ, Zuhruf, Duhân, Câsiye, Ahkâf."
+  },
+  {
+   "o": "Tavâsîn",
+   "a": "Şuarâ, Neml, Kasas."
+  },
+  {
+   "o": "Gâfir, Benî İsrâîl, Dehr, Mesed, Kıtâl hangi surelerin adıdır?",
+   "a": "Gâfir = Mü’min; Benî İsrâîl = İsrâ; Dehr = İnsan; Mesed = Tebbet; Kıtâl = Muhammed."
+  },
+  {
+   "o": "Peygamber adını taşıyan altı sure",
+   "a": "Yûnus, Hûd, Yûsuf, İbrâhîm, Nûh, Muhammed."
+  },
+  {
+   "o": "Mufassalın bölümleri (Hanefî)",
+   "a": "Tıvâl: Hucurât–Bürûc; evsât: Bürûc–Beyyine; kısâr: Beyyine–Nâs."
+  },
+  {
+   "o": "Tahzîb",
+   "a": "Sahabenin haftalık hatim için Kur’an’ı yedi hizbe ayırması: 3-5-7-9-11-13 sure ve mufassal."
+  },
+  {
+   "o": "Ayet ve sure tertibinin hükmü",
+   "a": "Ayet tertibi tevkîfî (icma). Sure tertibi tartışmalı: tevkîfî, içtihadî, karma."
+  },
+  {
+   "o": "Kur’an’da adı geçen tek sahabi ve tek kadın",
+   "a": "Zeyd (Ahzâb 37) ve Hz. Meryem."
+  },
+  {
+   "o": "Hz. Peygamber’in “Ahmed” adıyla anıldığı ayet",
+   "a": "Saf, 61/6."
+  },
+  {
+   "o": "“Beni ihtiyarlattı” sureleri",
+   "a": "Hûd, Vâkıa, Mürselât, Nebe’, Tekvîr"
+  },
+  {
+   "o": "“Tebâreke” ile başlayanlar",
+   "a": "Furkân ve Mülk"
+  }
+ ],
+ "sorular": [
+  {
+   "id": "k1-03",
+   "z": 1,
+   "s": "Mushafta besmeleyle başlamayan tek sure hangisidir?",
+   "c": [
+    "Tevbe",
+    "Fâtiha",
+    "Neml",
+    "Nâs",
+    "Yâsîn"
+   ],
+   "d": 0,
+   "a": "Tevbe (Berâe) Suresi besmelesiz başlar; Neml Suresi’nde ise biri başta, biri 30. ayette olmak üzere iki besmele vardır.",
+   "ac": [
+    "Doğru: Tevbe besmelesiz başlar.",
+    "Fâtiha besmeleyle başlar; Kûfe sayımında besmele Fâtiha’nın ilk ayetidir.",
+    "Neml’de iki besmele vardır.",
+    "Nâs besmeleyle başlar.",
+    "Yâsîn besmeleyle başlar."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: sureler"
+  },
+  {
+   "id": "k1-04",
+   "z": 2,
+   "s": "Hz. Peygamber, iki sureyi kıyamet günü sahiplerini savunmak üzere bulut ya da gölgelik gibi gelecek “iki parlak sure” olarak nitelemiş; bu sebeple iki sure birlikte bir ikil adla anılmıştır.\n\nBu ikil ad ve kapsadığı sureler aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Muavvizeteyn – Felak ve Nâs",
+    "İhlâseyn – İhlâs ve Kâfirûn",
+    "Hâmîmler – Mü’min ve Fussilet",
+    "Tavâsîn – Şuarâ ve Neml",
+    "Zehrâveyn – Bakara ve Âl-i İmrân"
+   ],
+   "d": 4,
+   "a": "“Zehrâveyn” iki parlak sure demektir; Bakara ve Âl-i İmrân için kullanılır (Müslim, Salâtü’l-müsâfirîn, 252).",
+   "ac": [
+    "Muavvizeteyn “iki sığınma suresi”dir; parçadaki nitelemeyle ilgisi yoktur.",
+    "İhlâseyn tevhidi anlatan iki sureye verilen addır.",
+    "Hâmîmler yedi suredir ve “parlak” nitelemesiyle anılmaz.",
+    "Tavâsîn Tâ-Sîn ile başlayan üç suredir.",
+    "Doğru: Zehrâveyn, Bakara ve Âl-i İmrân."
+   ],
+   "kay": "Müslim, Salâtü’l-müsâfirîn, 252"
+  },
+  {
+   "id": "k1-10",
+   "z": 3,
+   "s": "Aşağıdaki sure – diğer adı eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Tevbe – Berâe",
+    "Fussilet – Benî İsrâîl",
+    "İnsan – Dehr",
+    "Tebbet – Mesed",
+    "Mü’min – Gâfir"
+   ],
+   "d": 1,
+   "a": "Fussilet’in diğer adı Hâ-Mîm es-Secde’dir; Benî İsrâîl ise İsrâ Suresi’nin adıdır.",
+   "ac": [
+    "Doğru eşleştirme: sure “Berâetün…” diye başlar.",
+    "Yanlış eşleştirme: Benî İsrâîl, İsrâ Suresi’nin adıdır.",
+    "Doğru eşleştirme: “Hel etâ ale’l-insâni hînün mine’d-dehr”.",
+    "Doğru eşleştirme: surenin son kelimesi “mesed”dir.",
+    "Doğru eşleştirme: sure “Gâfiri’z-zenb” ifadesiyle başlar."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: sure adları"
+  },
+  {
+   "id": "k1-13",
+   "z": 2,
+   "s": "Kur’an’daki ayet ve surelerle ilgili aşağıdaki “en” bilgilerinden hangisi yanlıştır?",
+   "c": [
+    "En uzun ayet, Bakara Suresi’ndeki Âyetü’l-kürsîdir.",
+    "En kısa sure üç ayetlik Kevser Suresi’dir.",
+    "En uzun sure 286 ayetlik Bakara Suresi’dir.",
+    "Kur’an’ın en büyük ayeti olarak Âyetü’l-kürsî nitelendirilmiştir.",
+    "En uzun ayet borç ilişkilerini düzenleyen müdâyene ayetidir."
+   ],
+   "d": 0,
+   "a": "En uzun ayet Bakara 282 (müdâyene/borç ayeti) olup yaklaşık bir sayfadır. Âyetü’l-kürsî (Bakara 255) ise hadiste “Kur’an’ın en büyük ayeti” diye övülmüştür; en uzun ayet değildir.",
+   "ac": [
+    "Yanlıştır: en uzun ayet Bakara 282’dir; Âyetü’l-kürsî 255. ayettir.",
+    "Doğrudur: Kevser kelime ve harf sayısı bakımından da en kısadır.",
+    "Doğrudur.",
+    "Doğrudur: Müslim’deki Übey b. Ka’b hadisinde böyle nitelenmiştir.",
+    "Doğrudur: Bakara 282 müdâyene ayetidir."
+   ],
+   "kay": "Bakara, 2/255, 282; Müslim, Salâtü’l-müsâfirîn"
+  },
+  {
+   "id": "k1-15",
+   "z": 2,
+   "s": "Uzunluk bakımından Kur’an sureleri gruplandırıldığında, Bakara’dan itibaren gelen en uzun yedi sureye ne ad verilir?",
+   "c": [
+    "Hâmîmler",
+    "Mufassal",
+    "Mesânî",
+    "Mi’ûn",
+    "es-Seb‘u’t-tıvâl"
+   ],
+   "d": 4,
+   "a": "Sure grupları uzunluklarına göre tıvâl, mi’ûn, mesânî ve mufassal diye sıralanır. Yedi uzun sureye es-Seb‘u’t-tıvâl denir.",
+   "ac": [
+    "Hâ-Mîm ile başlayan yedi suredir; uzunluk grubu değildir.",
+    "Mushafın sonundaki kısa sureler grubudur.",
+    "Ayet sayısı yüzden az olan sureler grubudur.",
+    "Ayet sayısı yüz civarında olan sureler grubudur.",
+    "Doğru: yedi uzun sure."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: sure grupları"
+  },
+  {
+   "id": "kb5-01",
+   "z": 2,
+   "s": "Kur’an’da bazı sureler “el-hamdü lillâh” ifadesiyle başlar.\n\nAşağıdakilerden hangisi bu surelerden biri değildir?",
+   "c": [
+    "Fâtiha",
+    "Mülk",
+    "Kehf",
+    "Fâtır",
+    "En’âm"
+   ],
+   "d": 1,
+   "a": "Hamd ile başlayan beş sure Fâtiha, En’âm, Kehf, Sebe’ ve Fâtır’dır. Mülk Suresi “Tebâreke” ile başlar.",
+   "ac": [
+    "Hamd ile başlar.",
+    "Doğru: Mülk “Tebâreke’llezî…” diye başlar.",
+    "Hamd ile başlar.",
+    "Hamd ile başlar.",
+    "Hamd ile başlar."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: fevâtihu’s-süver"
+  },
+  {
+   "id": "kb5-02",
+   "z": 2,
+   "s": "Hadîd, Haşr, Saf, Cuma ve Tegâbün sureleri, Allah’ı her türlü eksiklikten tenzih eden ifadelerle (sebbaha, yüsebbihu) başlar.\n\nBu özelliği taşıyan sureler topluca nasıl adlandırılır?",
+   "c": [
+    "Hâmîmler",
+    "Tavâsîn",
+    "Muavvizât",
+    "Musebbihât",
+    "Zehrâveyn"
+   ],
+   "d": 3,
+   "a": "Tesbih kökünden gelen bir fiille başlayan surelere musebbihât denir. İsrâ ve A’lâ da bu grupta sayılır.",
+   "ac": [
+    "Hâ-Mîm ile başlayan yedi suredir.",
+    "Tâ-Sîn ile başlayan üç suredir.",
+    "Sığınma sureleridir (Felak, Nâs, İhlâs).",
+    "Doğru: musebbihât.",
+    "Bakara ve Âl-i İmrân’dır."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: sure grupları"
+  },
+  {
+   "id": "kb5-03",
+   "z": 3,
+   "s": "Evs b. Huzeyfe’nin aktardığına göre sahabe, Kur’an’ı haftada bir hatim edebilmek için üç, beş, yedi, dokuz, on bir ve on üç sureden oluşan altı bölüm ile bir de mufassal bölümü olmak üzere yedi kısma ayırıyordu.\n\nKur’an’ı bu şekilde günlük okuma bölümlerine ayırma işi aşağıdakilerden hangisiyle ifade edilir?",
+   "c": [
+    "Tertîl",
+    "Tenzîl",
+    "Tahkîk",
+    "Tahzîb",
+    "Tensîk"
+   ],
+   "d": 3,
+   "a": "Kur’an’ı hizblere (okuma bölümlerine) ayırmaya tahzîb denir. Son bölüm olan mufassal hizbi Kâf Suresi’nden başlar.",
+   "ac": [
+    "Tertîl Kur’an’ı ağır ağır, tecvidle okumaktır.",
+    "Tenzîl Kur’an’ın parça parça indirilmesidir.",
+    "Tahkîk en yavaş okuyuş mertebesidir.",
+    "Doğru: tahzîb.",
+    "Böyle bir Kur’an terimi yoktur."
+   ],
+   "kay": "Ebû Dâvûd, Ramazân, 9"
+  },
+  {
+   "id": "kb5-04",
+   "z": 2,
+   "s": "Türkiye’de basılan mushaflarda ayetler 6236 olarak numaralanmıştır. Başka ekollerde bu sayı 6204, 6219 ya da 6226 gibi farklı verilmiştir.\n\nBu konuyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "6236 sayısı Basra sayımına aittir.",
+    "6236 sayısı Hz. Ali’ye dayanan Kûfe sayımına aittir.",
+    "Sayı farkları kıraat imamlarının farklı kelimeler okumasından kaynaklanır.",
+    "Ayet sınırları sahabenin içtihadıyla belirlendiği için sayılar farklıdır.",
+    "Sayı farkları bazı ayetlerin bazı mushaflarda bulunmamasından kaynaklanır."
+   ],
+   "d": 1,
+   "a": "6236, Hz. Ali’ye dayanan Kûfe sayımıdır. Farklar metindeki bir eksiklikten değil, ayet sonlarının farklı yerlerde işaretlenmesinden (örneğin besmele, bazı mukattaa harfleri) doğar.",
+   "ac": [
+    "Basra sayımı 6204’tür.",
+    "Doğru.",
+    "Kıraat farkları ayet sayısını belirleyen temel etken değildir.",
+    "Ayet sınırları Hz. Peygamber’in okuyuşundan öğrenilmiştir; farklılık rivayetlerin farklı ayet sonu bildirmesinden doğar.",
+    "Metin aynıdır; farklılık ayet sonlarının tespitindedir."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: addü’l-âyi"
+  },
+  {
+   "id": "kb5-05",
+   "z": 2,
+   "s": "Kur’an’da ayetlerin sonunda yer alan ve çoğu zaman birbirine benzer seslerle biterek okuyuşa ahenk katan kelimelere özel bir ad verilir. Bunlar şiirdeki kafiye gibi görünse de vezin ve kafiye kurallarına bağlı değildir.\n\nBu kelimeleri ifade eden terim aşağıdakilerden hangisidir?",
+   "c": [
+    "Hâtime",
+    "Secâvend",
+    "Kasem",
+    "Seci",
+    "Fâsıla"
+   ],
+   "d": 4,
+   "a": "Ayet sonlarına fâsıla (çoğulu fevâsıl) denir.",
+   "ac": [
+    "Hâtime bir surenin ya da sözün sonudur; ayet sonu terimi değildir.",
+    "Secâvend vakıf işaretleridir.",
+    "Kasem yemindir.",
+    "Seci nesirde kafiyeli söyleyiştir; Kur’an’ın ayet sonları için kullanılan terim fâsıladır.",
+    "Doğru: fâsıla."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: fevâsıl"
+  },
+  {
+   "id": "kb5-06",
+   "z": 2,
+   "s": "Kur’an’daki bazı sureler adını bir peygamberden alır.\n\nAşağıdakilerden hangisi bu surelerden biri değildir?",
+   "c": [
+    "Yûnus",
+    "Hûd",
+    "Lokmân",
+    "Nûh",
+    "İbrâhîm"
+   ],
+   "d": 2,
+   "a": "Peygamber adını taşıyan sureler Yûnus, Hûd, Yûsuf, İbrâhîm, Nûh ve Muhammed’dir. Lokmân, oğluna öğütleri anlatılan hikmet sahibi bir kişidir; peygamber olduğuna dair kesin bir bilgi yoktur.",
+   "ac": [
+    "Peygamber adını taşır.",
+    "Peygamber adını taşır.",
+    "Doğru: Lokmân’ın peygamberliği kesin değildir; çoğunluk onu hikmet sahibi bir kul olarak kabul eder.",
+    "Peygamber adını taşır.",
+    "Peygamber adını taşır."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: sure adları"
+  },
+  {
+   "id": "kb5-07",
+   "z": 3,
+   "s": "“Mushafta on ikinci suredir; Mekke’de inmiştir. Bir peygamberin çocukluğundan yönetici oluşuna kadarki hayatını tek bir kıssa hâlinde anlatır. Kur’an bu anlatıma ‘kıssaların en güzeli’ adını verir.”\n\nBu bilgiler aşağıdaki surelerden hangisine aittir?",
+   "c": [
+    "Yûsuf",
+    "Hûd",
+    "Tâhâ",
+    "Meryem",
+    "Kasas"
+   ],
+   "d": 0,
+   "a": "Yûsuf Suresi Hz. Yûsuf’un hayatını baştan sona tek bir kıssa olarak anlatır; 3. ayette “ahsenü’l-kasas” ifadesi geçer.",
+   "ac": [
+    "Doğru: Yûsuf.",
+    "Hûd birçok peygamberin kıssasını kısa kısa anlatır.",
+    "Tâhâ ağırlıklı olarak Hz. Mûsâ kıssasını içerir.",
+    "Meryem birden çok peygamber ve Hz. Meryem’den söz eder.",
+    "Kasas Hz. Mûsâ’nın hayatını anlatır; ama “ahsenü’l-kasas” nitelemesi Yûsuf içindir."
+   ],
+   "kay": "Yûsuf, 12/3"
+  },
+  {
+   "id": "kb5-08",
+   "z": 2,
+   "s": "Hurûf-ı mukattaa ile ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Yirmi dokuz surenin başında yer alır.",
+    "Yalnız Mekkî surelerde bulunur.",
+    "En çok tekrarlanan kalıp Elif-Lâm-Mîm’dir.",
+    "Sâd, Kâf ve Kalem sureleri tek harfle başlar.",
+    "Anlamları hakkında âlimler farklı görüşler ileri sürmüştür."
+   ],
+   "d": 1,
+   "a": "Mukattaa harfleriyle başlayan surelerin çoğu Mekkî’dir; ama Bakara ve Âl-i İmrân Medenî’dir. Bu yüzden “yalnız Mekkî” ifadesi yanlıştır.",
+   "ac": [
+    "Doğrudur: 29 sure.",
+    "Yanlış: Bakara ve Âl-i İmrân Medenî’dir.",
+    "Doğrudur: altı surede geçer.",
+    "Doğrudur: Sâd, Kâf, Nûn.",
+    "Doğrudur: sır olduğu, sure adı olduğu, meydan okuma amacı taşıdığı gibi görüşler vardır."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: hurûf-ı mukattaa"
+  },
+  {
+   "id": "kb5-09",
+   "z": 3,
+   "s": "Kur’an’ın tertibiyle ilgili\nI. Ayetlerin sure içindeki sırası Hz. Peygamber’in bildirmesiyle belirlenmiştir.\nII. Surelerin mushaftaki sırası iniş sırasıyla aynıdır.\nIII. Surelerin mushaftaki sırasının tevkîfî olup olmadığı tartışılmıştır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve III",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Ayet tertibi tevkîfîdir (I). Sure tertibi tartışmalıdır (III). Mushaf sırası iniş sırasından farklıdır; ilk inen Alak 96. suredir (II yanlış).",
+   "ac": [
+    "III de doğrudur.",
+    "II yanlıştır.",
+    "Doğru: I ve III.",
+    "II yanlıştır.",
+    "II yanlıştır."
+   ],
+   "kay": "Ulûmü’l-Kur’ân: tertip"
+  },
+  {
+   "id": "kb5-10",
+   "z": 1,
+   "s": "Hz. Îsâ’nın, kendisinden sonra gelecek bir peygamberi müjdelediği ve bu peygamberin adının “Ahmed” olarak geçtiği ayet hangi suredir?",
+   "c": [
+    "Âl-i İmrân",
+    "Ahzâb",
+    "Mâide",
+    "Fetih",
+    "Saf"
+   ],
+   "d": 4,
+   "a": "Saf Suresi 6. ayette Hz. Îsâ’nın “benden sonra gelecek, adı Ahmed olan bir peygamberi müjdeleyici olarak” geldiği bildirilir.",
+   "ac": [
+    "Âl-i İmrân 144’te “Muhammed” adı geçer.",
+    "Ahzâb 40’ta “Muhammed” adı geçer.",
+    "Mâide’de bu müjde geçmez.",
+    "Fetih 29’da “Muhammed” adı geçer.",
+    "Doğru: Saf, 61/6."
+   ],
+   "kay": "Saf, 61/6"
+  },
+  {
+   "id": "kb5-11",
+   "z": 3,
+   "s": "Aşağıdaki sure – özellik eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Rahmân – Bir ayetin otuz bir kez tekrarlanması",
+    "Mürselât – “O gün yalanlayanların vay hâline!” ayetinin on kez tekrarlanması",
+    "Kevser – Kur’an’ın üçte birine denk tutulması",
+    "Neml – İki besmele bulunması",
+    "Ahzâb – Adı geçen tek sahabinin bu surede anılması"
+   ],
+   "d": 2,
+   "a": "Kur’an’ın üçte birine denk tutulan sure İhlâs’tır (Buhârî, Fezâilü’l-Kur’ân, 13). Kevser en kısa suredir.",
+   "ac": [
+    "Doğru eşleştirme: “Febieyyi âlâi rabbikümâ tükezzibân”.",
+    "Doğru eşleştirme.",
+    "Yanlış eşleştirme: bu özellik İhlâs’a aittir.",
+    "Doğru eşleştirme: başta ve 30. ayette.",
+    "Doğru eşleştirme: Zeyd (37. ayet)."
+   ],
+   "kay": "Buhârî, Fezâilü’l-Kur’ân, 13"
+  },
+  {
+   "id": "kb5-12",
+   "z": 2,
+   "s": "Hanefî fıkhında sabah ve öğle namazlarında okunması sünnet olan kıraat miktarı “tıvâl-i mufassal” olarak belirlenmiştir.\n\nHanefîlere göre mufassal sureler hangi sureyle başlar?",
+   "c": [
+    "Rahmân",
+    "Yâsîn",
+    "Fâtiha",
+    "Hucurât",
+    "Nebe’"
+   ],
+   "d": 3,
+   "a": "Hanefîlerin ve çoğunluğun görüşüne göre mufassal Hucurât’tan başlar; tıvâl-i mufassal Hucurât’tan Bürûc’a kadardır.",
+   "ac": [
+    "Rahmân mufassalın içindedir ama başlangıcı değildir.",
+    "Yâsîn mufassal grubunda değildir.",
+    "Fâtiha mushafın ilk suresidir; mufassal grubunda değildir.",
+    "Doğru: Hucurât.",
+    "Nebe’ tıvâl-i mufassalın içinde yer alır (30. cüzün ilk suresi); ama mufassalın başlangıcı değildir."
+   ],
+   "kay": "Hanefî ilmihali: namazda kıraat miktarı"
+  },
+  {
+   "id": "kb5-z01",
+   "z": 3,
+   "s": "Hurûf-ı mukattaa ile ilgili\nI. Yirmi dokuz surenin başında yer alır.\nII. Bakara ve Âl-i İmrân gibi Medenî surelerde de bulunur.\nIII. Hurûf-ı mukattaa ile başlayan surelerin tamamında hemen ardından Kitap’tan (Kur’an’dan) söz edilir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "I ve III",
+    "II ve III"
+   ],
+   "d": 2,
+   "a": "Mukattaa harfleri 29 surenin başındadır; çoğu Mekkî olsa da Bakara ve Âl-i İmrân Medenî’dir. Çoğunda ardından Kitap’tan söz edilse de Meryem, Ankebût ve Rûm gibi istisnalar vardır.",
+   "ac": [
+    "Eksiktir: II de doğrudur.",
+    "Eksiktir: I de doğrudur.",
+    "Doğrudur: I ve II doğru, III yanlıştır.",
+    "III yanlıştır: Meryem, Ankebût, Rûm gibi surelerde ardından Kitap’tan söz edilmez.",
+    "III yanlış olduğu için doğru değildir."
+   ],
+   "kay": "Konu: Hurûf-ı mukattaa"
+  },
+  {
+   "id": "kb5-z02",
+   "z": 3,
+   "s": "Sure adlarıyla ilgili\nI. Gâfir Suresi’nin diğer adı Mü’min’dir.\nII. Fussilet Suresi’nin diğer adı Câsiye’dir.\nIII. İsrâ Suresi Benî İsrâîl adıyla da anılır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız II",
+    "Yalnız III",
+    "I ve II",
+    "I ve III",
+    "I, II ve III"
+   ],
+   "d": 3,
+   "a": "Gâfir = Mü’min, İsrâ = Benî İsrâîl. Fussilet’in diğer adı Hâ-Mîm es-Secde’dir; Câsiye ayrı bir suredir.",
+   "ac": [
+    "II yanlıştır.",
+    "Eksiktir: I de doğrudur.",
+    "II yanlış olduğu için doğru değildir.",
+    "Doğrudur: I ve III doğrudur.",
+    "II yanlış olduğu için doğru değildir."
+   ],
+   "kay": "Konu: Sure adları"
+  },
+  {
+   "id": "kb5-z03",
+   "z": 3,
+   "s": "Hz. Ebû Bekir, Hz. Peygamber’e saçlarına ak düştüğünü söylediğinde o, bazı sureleri sayarak bu sureler “beni ihtiyarlattı” buyurmuştur. Bu surelerin ortak noktası, kıyamet ve ahiret sahnelerini ve ağır sorumlulukları etkileyici biçimde anlatmalarıdır.\n\nAşağıdakilerden hangisi bu rivayette sayılan sureler arasında yer almaz?",
+   "c": [
+    "Yûsuf",
+    "Vâkıa",
+    "Mürselât",
+    "Nebe’",
+    "Tekvîr"
+   ],
+   "d": 0,
+   "a": "Rivayette Hûd, Vâkıa, Mürselât, Nebe’ ve Tekvîr sayılır. Yûsuf Suresi tek bir kıssayı anlatan ve “kıssaların en güzeli” denen suredir.",
+   "ac": [
+    "Doğrudur: Yûsuf bu rivayette geçmez.",
+    "Rivayette geçer.",
+    "Rivayette geçer.",
+    "Rivayette “Amme yetesâelûn” adıyla geçer.",
+    "Rivayette “İze’ş-şemsü küvvirat” adıyla geçer."
+   ],
+   "kay": "Tirmizî, Tefsîr, Vâkıa"
+  },
+  {
+   "id": "kb5-z04",
+   "z": 3,
+   "s": "İbn Abbas, Hz. Osman’a Enfâl ile Tevbe surelerinin neden aralarına besmele yazılmadan art arda konduğunu sormuştur. Hz. Osman, Hz. Peygamber’in Tevbe’nin yerini açıkça bildirmeden vefat ettiğini, iki surenin konularının birbirine benzediğini ve bu yüzden onları yan yana koyduklarını söylemiştir.\n\nBu rivayet en çok aşağıdaki görüşlerden hangisine dayanak yapılmıştır?",
+   "c": [
+    "Ayetlerin sure içindeki sırasının içtihadî olduğu",
+    "Surelerin mushaftaki sırasının, en azından bir kısmında, sahabe içtihadına dayandığı",
+    "Tevbe Suresi’nin Enfâl’in bir parçası olduğu kesin olarak bilinmektedir",
+    "Besmelenin hiçbir surenin ayeti olmadığı",
+    "Surelerin mushafta nüzul sırasına göre dizildiği"
+   ],
+   "d": 1,
+   "a": "Rivayet, Tevbe’nin yerinin sahabe tarafından belirlendiğini gösterdiği için sure tertibinin (kısmen) içtihadî olduğu görüşüne dayanak yapılır. Ayet tertibinin tevkîfî olduğunda icma vardır.",
+   "ac": [
+    "Ayet tertibi tevkîfîdir; rivayet sureler arasıyla ilgilidir.",
+    "Doğrudur: sure tertibinin kısmen içtihadî olduğu görüşünün temel delilidir.",
+    "Rivayette kesinlik yoktur; iki ayrı sure olarak kalmışlardır.",
+    "Rivayet yalnız Tevbe’nin başındaki besmeleyle ilgilidir.",
+    "Mushaf tertibi nüzul sırasından farklıdır."
+   ],
+   "kay": "Ebû Dâvûd, Salât; Tirmizî, Tefsîr"
+  },
+  {
+   "id": "kb5-z05",
+   "z": 3,
+   "s": "Hanefî mezhebine göre yatsı namazında evsât-ı mufassaldan okumak sünnettir. Bir imam bu sünnete uygun olarak okuyacağı sureyi seçmek istemektedir.\n\nAşağıdaki surelerden hangisi bu imamın tercihine uygundur?",
+   "c": [
+    "Hucurât",
+    "Rahmân",
+    "Zilzâl",
+    "Kevser",
+    "A’lâ"
+   ],
+   "d": 4,
+   "a": "Evsât-ı mufassal Bürûc’tan Beyyine’ye kadardır; A’lâ bu aralıktadır. Hucurât ve Rahmân tıvâl-i mufassal, Zilzâl ve Kevser kısâr-ı mufassaldır.",
+   "ac": [
+    "Hucurât tıvâl-i mufassalın başıdır; sabah ve öğleye uygundur.",
+    "Rahmân tıvâl-i mufassaldandır.",
+    "Zilzâl kısâr-ı mufassaldandır; akşama uygundur.",
+    "Kevser kısâr-ı mufassaldandır.",
+    "Doğrudur: A’lâ evsât-ı mufassaldandır."
+   ],
+   "kay": "Konu: Mufassal ve namazda kıraat"
+  },
+  {
+   "id": "kb5-z06",
+   "z": 3,
+   "s": "Aşağıdaki sure başlangıç türü - sure eşleştirmelerinden hangisi yanlıştır?",
+   "c": [
+    "Tesbih ile başlayan - Mülk",
+    "Kasem (yemin) ile başlayan - Asr",
+    "Haber cümlesiyle başlayan - Tevbe",
+    "Şart ile başlayan - Vâkıa",
+    "Nidâ (seslenme) ile başlayan - Ahzâb"
+   ],
+   "d": 0,
+   "a": "Mülk Suresi “Tebâreke” (ne yücedir) senâ ifadesiyle başlar; tesbih ile (sebbaha, yüsebbihu, sübhâne, sebbih) başlayanlar arasında değildir.",
+   "ac": [
+    "Yanlıştır: Mülk “Tebâreke” ile başlar.",
+    "Doğrudur: “Ve’l-asr” yeminiyle başlar.",
+    "Doğrudur: “Berâetün…” haberiyle başlar.",
+    "Doğrudur: “İzâ vakaati’l-vâkıa” şartıyla başlar.",
+    "Doğrudur: “Ey Peygamber!” hitabıyla başlar."
+   ],
+   "kay": "Konu: Fevâtihu’s-süver"
+  }
+ ]
+}

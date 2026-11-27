@@ -1,0 +1,608 @@
+{
+ "id": "dinler-9",
+ "ad": "Hristiyanlık: Hz. İsa ve Pavlus, Kutsal Kitap (Yeni Ahit), Teslis ve Konsiller, Sakramentler ve Bayramlar, Mezhepler (Katolik, Ortodoks, Protestan, Doğu Kiliseleri)",
+ "ders": "Dinler Tarihi",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Hz. İsa’dan kiliseye: Pavlus’un rolü"
+  },
+  {
+   "merak": "Hz. İsa’yı hiç görmemiş, hatta önce onun takipçilerine zulmetmiş bir Yahudi, Şam yolunda bir görüm yaşadığını söyler ve Hristiyanlığın en etkili yorumcusu olur. Onun mektupları, İncillerden bile önce yazılmıştır. Bu kişi Tarsuslu Pavlus’tur."
+  },
+  "Hristiyanlık, Hz. İsa’nın (Yeşu) MS I. yüzyılın başında Filistin’deki tebliği etrafında doğdu. Hz. İsa Aramice konuşan bir Yahudiydi ve tebliğini öncelikle İsrailoğullarına yöneltti. Hristiyan inancına göre çarmıha gerilip öldürüldü, üçüncü gün dirildi ve göğe yükseldi. İslam ise onun öldürülmediğini ve çarmıha gerilmediğini, Allah tarafından kendi katına yükseltildiğini bildirir (Nisâ 157-158). İsa’nın on iki havarisinden Petrus (Simun) ilk topluluğun önderiydi.",
+  "Hristiyanlığın Yahudi çevresinden çıkıp evrensel bir dine dönüşmesinde en büyük rolü Tarsuslu Pavlus (Saul) oynadı. Pavlus, Hz. İsa’yı hayattayken görmemiş, ancak Şam yolunda onun görümünü yaşadığını iddia etmişti. Yahudi olmayanların (putperestlerin) Hristiyan olmak için sünnet olmaları ve Tevrat şeriatına uymaları gerekmediğini savundu. İsa’nın ölümünü insanlığın aslî günahının kefareti olarak yorumladı ve İsa’yı “Tanrı’nın oğlu” olarak öne çıkardı. Kudüs’te havarilerle yapılan toplantıda (Kudüs Konsili, MS 49-50 civarı) Yahudi olmayanlardan sünnet şartı kaldırıldı. Pavlus’un mektupları Yeni Ahit’in en eski metinleridir.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Açıklama"
+    ],
+    [
+     "Havari",
+     "Hz. İsa’nın on iki öğrencisi; önderleri Petrus"
+    ],
+    [
+     "Pavlus",
+     "İsa’yı görmemiş; Şam yolu görümü; Hristiyanlığı Yahudi olmayanlara açtı; aslî günah ve kefaret teolojisi"
+    ],
+    [
+     "Aslî günah",
+     "Âdem’in günahının bütün insanlığa geçtiği inancı"
+    ],
+    [
+     "Kefaret",
+     "İsa’nın çarmıhta ölümünün insanlığın günahlarına bedel olduğu inancı"
+    ],
+    [
+     "Nisâ 157-158",
+     "Kur’an’a göre İsa öldürülmemiş, çarmıha gerilmemiş, Allah katına yükseltilmiştir"
+    ]
+   ]
+  },
+  {
+   "sinav": "Pavlus’un rolü çok sık sorulur: İsa’yı görmemesi, Yahudi olmayanlara açılım, sünnet ve şeriatın kaldırılması, aslî günah-kefaret. İslam’ın aslî günahı reddettiği (“Hiçbir günahkâr başkasının günahını yüklenmez”) karşılaştırma sorusu olarak gelir."
+  },
+  {
+   "akil": "İsa: Aramice, Yahudi; havariler (Petrus). Pavlus: Şam yolu, mektuplar, Yahudi olmayanlara açılım, aslî günah + kefaret. Kur’an: İsa öldürülmedi (Nisâ 157-158)."
+  },
+  {
+   "b": "2. Kutsal Kitap ve konsiller: Teslis nasıl şekillendi?"
+  },
+  "Hristiyanların Kutsal Kitabı (Bible) Eski Ahit ve Yeni Ahit’ten oluşur. Eski Ahit büyük ölçüde Yahudilerin Tanah’ıdır; Katolik ve Ortodoks kiliseler ayrıca bazı ek kitapları (deuterokanonik/apokrif) kabul eder. Yeni Ahit 27 kitaptan oluşur: dört İncil (Matta, Markos, Luka, Yuhanna), Resullerin İşleri, mektuplar (en çoğu Pavlus’a nispet edilir) ve Vahiy (Yuhanna’nın Vahyi). İlk üç İncil birbirine benzediği için “sinoptik İnciller” diye anılır; Yuhanna İncili ise İsa’nın ilahlığını en belirgin biçimde vurgular. Barnabas İncili gibi kilisece kabul edilmeyen metinlere apokrif denir.",
+  {
+   "tablo": [
+    [
+     "Konsil",
+     "Tarih",
+     "Karar"
+    ],
+    [
+     "İznik (I. Ekümenik)",
+     "325",
+     "Ariusçuluk mahkûm edildi; Oğul’un Baba ile aynı özden (homoousios) olduğu kabul edildi; İznik İnanç Bildirgesi"
+    ],
+    [
+     "İstanbul (I)",
+     "381",
+     "Kutsal Ruh’un ilahlığı kabul edildi; teslis formülü tamamlandı"
+    ],
+    [
+     "Efes",
+     "431",
+     "Nestûriusçuluk mahkûm edildi; Meryem “Tanrı doğuran” (Theotokos)"
+    ],
+    [
+     "Kadıköy (Kalkedon)",
+     "451",
+     "İsa’da iki tabiat (ilahî ve insanî) tek şahısta; Monofizitler ayrıldı"
+    ]
+   ]
+  },
+  "Teslis (üçleme) inancı, Tanrı’nın tek bir öz (ousia) içinde Baba, Oğul ve Kutsal Ruh olmak üzere üç şahıs (hipostaz) olduğunu savunur. Bu inanç uzun tartışmalar sonucunda, özellikle İznik (325) ve İstanbul (381) konsilleriyle resmî kilise öğretisi hâline geldi. İskenderiyeli rahip Arius, Oğul’un Baba tarafından yaratıldığını ve O’na eşit olmadığını savunmuş, İmparator Konstantin’in topladığı İznik Konsili’nde mahkûm edilmişti. Kur’an teslisi açıkça reddeder: “Üçtür demeyin; vazgeçin, sizin için daha hayırlıdır. Allah ancak tek bir ilahtır” (Nisâ 171; ayrıca Mâide 73).",
+  {
+   "sinav": "İznik Konsili (325) – Ariusçuluk – İmparator Konstantin; Efes (431) – Nestûrius; Kadıköy (451) – iki tabiat ve Monofizitler. Sinoptik İnciller ve Yuhanna İncili’nin farkı da sorulur."
+  },
+  {
+   "akil": "Yeni Ahit 27 kitap: 4 İncil (Matta, Markos, Luka sinoptik; Yuhanna), Resullerin İşleri, mektuplar, Vahiy. İznik 325 – Arius; İstanbul 381 – Kutsal Ruh; Efes 431 – Nestûrius; Kadıköy 451 – iki tabiat."
+  },
+  {
+   "b": "3. Sakramentler, ibadet ve bayramlar"
+  },
+  {
+   "merak": "Bir Katolik çocuğu bebekken suyla kutsanır, gençliğinde ilk kez kutsanmış ekmeği alır, evlenirken kilisede nikâh kıyar, ölüm döşeğinde rahip ona son yağlamayı yapar. Hayatının her önemli anı bir sakramentle işaretlenmiştir."
+  },
+  "Sakrament, Tanrı’nın lütfunun görünür bir işaretle insana ulaştığına inanılan kilise ayinidir. Katolik ve Ortodoks kiliseler yedi sakrament kabul eder: vaftiz, konfirmasyon (Ortodokslarda mirun), evharistiya (komünyon, Aşai Rabbani), tövbe-itiraf, hastaların yağlanması, kutsal evlilik ve rahiplik. Protestanlar ise yalnız İncil’de Hz. İsa’nın bizzat emrettiğine inandıkları iki sakramenti, vaftiz ve evharistiyayı kabul eder.",
+  {
+   "tablo": [
+    [
+     "Sakrament",
+     "Açıklama"
+    ],
+    [
+     "Vaftiz",
+     "Hristiyanlığa giriş; aslî günahtan arınma"
+    ],
+    [
+     "Evharistiya (komünyon, Aşai Rabbani)",
+     "Ekmek ve şarabın İsa’nın bedeni ve kanını temsil ettiği / ona dönüştüğü ayin; Son Akşam Yemeği’nin anısı"
+    ],
+    [
+     "Konfirmasyon",
+     "İnancın onaylanması"
+    ],
+    [
+     "Tövbe-itiraf",
+     "Rahibe günah itirafı ve bağışlanma"
+    ],
+    [
+     "Hastaların yağlanması",
+     "Hasta ve ölmek üzere olanlar için"
+    ],
+    [
+     "Evlilik",
+     "Kilisede kutsal nikâh"
+    ],
+    [
+     "Rahiplik",
+     "Din adamı takdisi"
+    ]
+   ]
+  },
+  {
+   "tablo": [
+    [
+     "Bayram",
+     "Anlamı"
+    ],
+    [
+     "Noel",
+     "İsa’nın doğumu (Batı’da 25 Aralık, birçok Ortodoks kilisede 7 Ocak)"
+    ],
+    [
+     "Paskalya",
+     "İsa’nın dirilişi; en büyük bayram"
+    ],
+    [
+     "Paskalya öncesi büyük perhiz",
+     "Kırk günlük oruç dönemi"
+    ],
+    [
+     "Hamsin (Pentekost)",
+     "Kutsal Ruh’un havarilere inişi"
+    ],
+    [
+     "Göğe yükseliş",
+     "İsa’nın göğe yükselişi"
+    ],
+    [
+     "Pazar günü",
+     "Haftalık ayin günü (dirilişin anısı)"
+    ]
+   ]
+  },
+  {
+   "akil": "7 sakrament (Katolik-Ortodoks): vaftiz, konfirmasyon, evharistiya, tövbe, yağlama, evlilik, rahiplik. Protestan: yalnız vaftiz ve evharistiya. Paskalya en büyük bayram (diriliş); Noel doğum; Pentekost Kutsal Ruh."
+  },
+  {
+   "b": "4. Mezhepler: Büyük ayrılıklar"
+  },
+  "Kadıköy Konsili’nden (451) sonra İsa’nın tek bir (ilahî) tabiatı olduğunu savunan Monofizit kiliseler ayrıldı: Mısır Kıpti Kilisesi, Süryani Kadim Kilisesi, Ermeni Gregoryen Kilisesi ve Habeş Kilisesi. Efes’te mahkûm edilen Nestûrîler ise İran ve Orta Asya’ya yayıldı. 1054’te Roma (Batı) ile İstanbul (Doğu) kiliseleri birbirini aforoz ederek ayrıldı (Büyük Ayrılık). Ayrılığın sebepleri arasında Papa’nın üstünlük iddiası, Kutsal Ruh’un yalnız Baba’dan mı yoksa Baba ve Oğul’dan mı çıktığı tartışması (filioque) ve ayinde mayalı-mayasız ekmek kullanımı vardır.",
+  "XVI. yüzyılda Martin Luther’in 1517’de endüljans (günah bağışlama belgesi) satışına karşı Wittenberg kilisesinin kapısına astığı 95 tezle Protestan Reformu başladı. Protestanlığın temel ilkeleri “yalnız Kutsal Kitap” (sola scriptura), “yalnız iman” (sola fide) ve “yalnız lütuf” (sola gratia) ile her inananın kendi rahibi olduğu (rahiplik kurumunun reddi) anlayışıdır. Protestanlar Papa’nın otoritesini, rahiplerin evlenmeme şartını, azizlere ve Meryem’e yakarışı, araf inancını ve yedi sakramentin beşini reddetmiştir. Ulrich Zwingli ve Jean Calvin (kader-predestinasyon) diğer önemli reformculardır; İngiltere’de VIII. Henry ile Anglikan Kilisesi kuruldu.",
+  {
+   "tablo": [
+    [
+     "Mezhep",
+     "Merkez / önder",
+     "Ayırt edici özellik"
+    ],
+    [
+     "Katoliklik",
+     "Roma, Papa",
+     "Papa’nın yanılmazlığı (1870 I. Vatikan); yedi sakrament; filioque; rahiplerin bekârlığı; araf"
+    ],
+    [
+     "Ortodoksluk",
+     "İstanbul (Fener) Ekümenik Patrikhanesi ve millî kiliseler",
+     "İkonalar; yedi sakrament; Kutsal Ruh yalnız Baba’dan; din adamlarının (alt kademede) evlenebilmesi"
+    ],
+    [
+     "Protestanlık",
+     "Luther, Calvin, Zwingli",
+     "Yalnız Kutsal Kitap, yalnız iman; iki sakrament; Papa’yı ve rahiplik hiyerarşisini reddetme"
+    ],
+    [
+     "Monofizit kiliseler",
+     "Kıpti, Süryani, Ermeni, Habeş",
+     "İsa’da tek tabiat"
+    ],
+    [
+     "Nestûrîler",
+     "Doğu Süryanileri",
+     "İsa’da iki ayrı şahsiyet; Meryem’e “Tanrı doğuran” denmemesi"
+    ]
+   ]
+  },
+  {
+   "sinav": "1054 ayrılığı, 1517 Luther ve 95 tez, Protestanlığın ilkeleri ve iki sakrament, Monofizit kiliseler ve Papa’nın yanılmazlığı dogması (1870) sık sorulur."
+  },
+  {
+   "akil": "451 Kadıköy → Monofizitler. 1054 → Katolik-Ortodoks ayrılığı (Papa, filioque). 1517 Luther → Protestanlık (sola scriptura, sola fide; 2 sakrament). Calvin: predestinasyon. Anglikan: VIII. Henry."
+  }
+ ],
+ "ozet": [
+  "Hz. İsa Aramice konuşan bir Yahudi idi; tebliğini öncelikle İsrailoğullarına yöneltmiştir.",
+  "Kur’an’a göre Hz. İsa öldürülmemiş ve çarmıha gerilmemiş, Allah katına yükseltilmiştir (Nisâ 157-158).",
+  "Pavlus Hz. İsa’yı görmemiş, Hristiyanlığı Yahudi olmayanlara açmış, aslî günah ve kefaret teolojisini geliştirmiştir.",
+  "Yeni Ahit 27 kitaptır; Matta, Markos ve Luka sinoptik İncillerdir.",
+  "Teslis, Tanrı’nın tek öz içinde Baba, Oğul ve Kutsal Ruh olmak üzere üç şahıs olduğu inancıdır.",
+  "İznik Konsili (325) Ariusçuluğu mahkûm etmiş, Oğul’un Baba ile aynı özden olduğunu kabul etmiştir.",
+  "İstanbul Konsili (381) Kutsal Ruh’un ilahlığını kabul etmiştir.",
+  "Efes Konsili (431) Nestûriusçuluğu, Kadıköy Konsili (451) tek tabiat görüşünü reddetmiştir.",
+  "Kur’an teslisi açıkça reddeder (Nisâ 171; Mâide 73).",
+  "Katolik ve Ortodokslar yedi, Protestanlar iki sakrament (vaftiz ve evharistiya) kabul eder.",
+  "Paskalya İsa’nın dirilişini anan en büyük Hristiyan bayramıdır.",
+  "Katolik ve Ortodoks kiliseleri 1054’te ayrılmıştır.",
+  "Protestan Reformu 1517’de Martin Luther’in 95 teziyle başlamıştır.",
+  "Protestanlığın temel ilkeleri yalnız Kutsal Kitap ve yalnız imandır."
+ ],
+ "kartlar": [
+  {
+   "o": "Pavlus",
+   "a": "İsa’yı görmemiş; Şam yolu; Yahudi olmayanlara açılım; aslî günah ve kefaret."
+  },
+  {
+   "o": "Aslî günah",
+   "a": "Âdem’in günahının bütün insanlığa geçtiği inancı."
+  },
+  {
+   "o": "Sinoptik İnciller",
+   "a": "Matta, Markos, Luka."
+  },
+  {
+   "o": "Teslis",
+   "a": "Baba, Oğul, Kutsal Ruh; tek öz, üç şahıs."
+  },
+  {
+   "o": "İznik Konsili",
+   "a": "325; Ariusçuluk mahkûm; homoousios."
+  },
+  {
+   "o": "Kadıköy Konsili",
+   "a": "451; iki tabiat; Monofizitler ayrıldı."
+  },
+  {
+   "o": "Monofizit kiliseler",
+   "a": "Kıpti, Süryani, Ermeni, Habeş."
+  },
+  {
+   "o": "Evharistiya",
+   "a": "Komünyon; ekmek ve şarap ayini."
+  },
+  {
+   "o": "Protestan sakramentleri",
+   "a": "Vaftiz ve evharistiya."
+  },
+  {
+   "o": "Paskalya",
+   "a": "İsa’nın dirilişi; en büyük bayram."
+  },
+  {
+   "o": "1054",
+   "a": "Katolik-Ortodoks ayrılığı."
+  },
+  {
+   "o": "Filioque",
+   "a": "Kutsal Ruh’un Baba ve Oğul’dan çıktığı görüşü (Katolik)."
+  },
+  {
+   "o": "95 Tez",
+   "a": "Luther, 1517; endüljans karşıtlığı; Reform."
+  },
+  {
+   "o": "Sola scriptura – sola fide",
+   "a": "Yalnız Kutsal Kitap – yalnız iman; Protestan ilkeleri."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "dn9-01",
+   "z": 3,
+   "s": "Hristiyanlık tarihinde bir şahsiyetle ilgili şu bilgiler verilmiştir:\n• Hz. İsa’yı hayattayken görmemiştir.\n• Önce Hristiyanlara karşı çıkmış, sonra bir görüm yaşadığını söyleyerek Hristiyan olmuştur.\n• Yahudi olmayanların Hristiyan olabilmesi için sünnet ve Tevrat şeriatı şartını kaldırmayı savunmuştur.\n• İsa’nın ölümünü insanlığın günahının kefareti olarak yorumlamıştır.\n\nBu şahsiyetle ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Tarsuslu Pavlus’tur.",
+    "Mektupları Yeni Ahit’in en eski metinleri arasındadır.",
+    "Hz. İsa’nın on iki havarisinden biridir ve İsa’nın sağlığında onunla birlikte bulunmuştur.",
+    "Aslî günah ve kefaret teolojisinin gelişmesinde etkili olmuştur.",
+    "Hristiyanlığın evrensel bir dine dönüşmesinde büyük rol oynamıştır."
+   ],
+   "d": 2,
+   "a": "Pavlus on iki havariden değildir ve Hz. İsa’yı hayattayken görmemiştir.",
+   "ac": [
+    "Doğrudur.",
+    "Doğrudur.",
+    "Yanlış ifade budur.",
+    "Doğrudur.",
+    "Doğrudur."
+   ],
+   "kay": "Resullerin İşleri, 9; DİA, “Pavlus” md."
+  },
+  {
+   "id": "dn9-02",
+   "z": 3,
+   "s": "I. İznik Konsili\nII. Efes Konsili\nIII. Kadıköy Konsili\nIV. I. İstanbul Konsili\n\nYukarıdaki konsillerin kronolojik sıralaması aşağıdakilerden hangisidir?",
+   "c": [
+    "I – IV – II – III",
+    "I – II – IV – III",
+    "IV – I – II – III",
+    "I – IV – III – II",
+    "II – I – IV – III"
+   ],
+   "d": 0,
+   "a": "İznik (325) → İstanbul (381) → Efes (431) → Kadıköy (451).",
+   "ac": [
+    "Doğru.",
+    "İstanbul Efes’ten öncedir.",
+    "İznik İstanbul’dan öncedir.",
+    "Efes Kadıköy’den öncedir.",
+    "İznik ilk konsildir."
+   ],
+   "kay": "DİA, “Konsil” md."
+  },
+  {
+   "id": "dn9-03",
+   "z": 3,
+   "s": "1054’te Roma ve İstanbul kiliselerinin birbirini aforoz etmesiyle sonuçlanan ayrılığın sebepleri arasında aşağıdakilerden hangisi yer almaz?",
+   "c": [
+    "Papa’nın bütün kiliseler üzerinde üstünlük iddiası",
+    "Kutsal Ruh’un Baba’dan mı yoksa Baba ve Oğul’dan mı çıktığı tartışması",
+    "Ayinlerde mayalı ya da mayasız ekmek kullanımı",
+    "Martin Luther’in endüljans satışına karşı 95 tezi",
+    "Doğu ve Batı arasındaki siyasi ve kültürel farklılıklar"
+   ],
+   "d": 3,
+   "a": "Luther’in 95 tezi 1517’de Protestan Reformu’nu başlatmıştır; 1054 ayrılığının sebebi değildir.",
+   "ac": [
+    "Ayrılığın temel sebeplerindendir.",
+    "Filioque tartışmasıdır; sebeplerdendir.",
+    "Sebeplerdendir.",
+    "Doğru; 1517’ye aittir.",
+    "Sebeplerdendir."
+   ],
+   "kay": "DİA, “Ortodoksluk” md."
+  },
+  {
+   "id": "dn9-04",
+   "z": 3,
+   "s": "Bir kilise geleneğiyle ilgili şu bilgiler verilmiştir:\n• Kutsal Kitap’ı inancın tek kaynağı kabul eder.\n• Kurtuluşun yalnız imanla olacağını savunur.\n• Papa’nın otoritesini, rahiplerin evlenmeme şartını ve araf inancını reddeder.\n• Yalnız iki sakrament kabul eder.\n\nBu gelenek aşağıdakilerden hangisidir?",
+   "c": [
+    "Katoliklik",
+    "Ortodoksluk",
+    "Kıpti Kilisesi",
+    "Nestûrîlik",
+    "Protestanlık"
+   ],
+   "d": 4,
+   "a": "Bu özellikler Martin Luther’le başlayan Protestanlığa aittir.",
+   "ac": [
+    "Katoliklik Papa’yı ve yedi sakramenti kabul eder.",
+    "Ortodoksluk yedi sakrament kabul eder ve geleneği de kaynak sayar.",
+    "Kıpti Kilisesi Monofizit bir kilisedir ve yedi sakrament kabul eder.",
+    "Nestûrîlik V. yüzyılda ayrılmış bir Doğu kilisesidir.",
+    "Doğru."
+   ],
+   "kay": "DİA, “Protestanlık” md."
+  },
+  {
+   "id": "dn9-05",
+   "z": 2,
+   "s": "“Ey Ehl-i kitap! Dininizde aşırı gitmeyin… ‘Üçtür’ demeyin; vazgeçin, sizin için daha hayırlıdır. Allah ancak tek bir ilahtır.”\n\nBu ayetin reddettiği Hristiyan inancı aşağıdakilerden hangisidir?",
+   "c": [
+    "Teslis",
+    "Vaftiz",
+    "Aslî günah",
+    "Kefaret",
+    "Evharistiya"
+   ],
+   "d": 0,
+   "a": "Nisâ 171, Hristiyanlardaki teslis inancını açıkça reddeder.",
+   "ac": [
+    "Doğru.",
+    "Ayet vaftizle ilgili değildir.",
+    "Aslî günah başka ayetlerle reddedilir.",
+    "Kefaret bu ayette doğrudan söz konusu değildir.",
+    "Ayet evharistiyayla ilgili değildir."
+   ],
+   "kay": "Nisâ, 4/171"
+  },
+  {
+   "id": "dn9-06",
+   "z": 3,
+   "s": "I. Mısır Kıpti Kilisesi\nII. Süryani Kadim Kilisesi\nIII. Ermeni Gregoryen Kilisesi\nIV. Anglikan Kilisesi\n\nYukarıdaki kiliselerden hangileri Kadıköy Konsili’nden (451) sonra İsa’da tek tabiat bulunduğunu savunarak ayrılan Monofizit kiliselerdendir?",
+   "c": [
+    "I ve II",
+    "I, II ve III",
+    "II, III ve IV",
+    "I, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Kıpti, Süryani ve Ermeni kiliseleri (Habeş Kilisesi ile birlikte) Monofizit kiliselerdir. Anglikan Kilisesi XVI. yüzyılda İngiltere’de Protestan Reformu sürecinde kurulmuştur.",
+   "ac": [
+    "Ermeni Kilisesi de Monofizittir.",
+    "Doğru.",
+    "Anglikan Kilisesi Monofizit değildir.",
+    "Anglikan Kilisesi Monofizit değildir.",
+    "Anglikan Kilisesi Monofizit değildir."
+   ],
+   "kay": "DİA, “Monofizitler” md."
+  },
+  {
+   "id": "dn9-07",
+   "z": 2,
+   "s": "Hristiyanlıkta Hz. İsa’nın dirilişini anan ve en büyük bayram kabul edilen gün aşağıdakilerden hangisidir?",
+   "c": [
+    "Noel",
+    "Göğe yükseliş",
+    "Pentekost",
+    "Epifani",
+    "Paskalya"
+   ],
+   "d": 4,
+   "a": "Paskalya İsa’nın dirilişini anar ve Hristiyanlığın en büyük bayramıdır.",
+   "ac": [
+    "Noel İsa’nın doğumunu anar.",
+    "Göğe yükseliş ayrı bir bayramdır.",
+    "Pentekost Kutsal Ruh’un inişini anar.",
+    "Epifani İsa’nın vaftizini veya Mecusilerin ziyaretini anar.",
+    "Doğru."
+   ],
+   "kay": "DİA, “Paskalya” md."
+  },
+  {
+   "id": "dn9-08",
+   "z": 3,
+   "s": "Bir öğrenci Katoliklik ile Ortodoksluğu karşılaştırmaktadır. Aşağıdaki ifadelerden hangisi bu iki mezhep arasındaki farkı doğru yansıtmaz?",
+   "c": [
+    "Katolikler Papa’nın yanılmazlığını kabul eder, Ortodokslar kabul etmez.",
+    "Katolikler Kutsal Ruh’un Baba ve Oğul’dan, Ortodokslar yalnız Baba’dan çıktığını savunur.",
+    "Katoliklikte rahiplerin evlenmemesi esastır; Ortodokslukta alt kademe din adamları evlenebilir.",
+    "Katolikler yedi sakrament kabul ederken Ortodokslar yalnız iki sakrament kabul eder.",
+    "Katolik kilisesinin merkezi Roma, Ortodoks dünyasının önemli merkezlerinden biri İstanbul’daki Fener Patrikhanesi’dir."
+   ],
+   "d": 3,
+   "a": "Ortodokslar da Katolikler gibi yedi sakrament kabul eder; iki sakrament Protestanlığa aittir.",
+   "ac": [
+    "Doğru bir farktır.",
+    "Filioque farkıdır; doğrudur.",
+    "Doğru bir farktır.",
+    "Yanlış ifade budur.",
+    "Doğru bir farktır."
+   ],
+   "kay": "DİA, “Katoliklik”, “Ortodoksluk” md."
+  },
+  {
+   "id": "dn9-09",
+   "z": 3,
+   "s": "İskenderiyeli bir rahip, Oğul’un Baba tarafından yaratıldığını ve O’na eşit olmadığını savunmuş; bu görüş İmparator Konstantin’in topladığı bir konsilde mahkûm edilmiştir.\n\nBu rahip ve konsil aşağıdakilerden hangisidir?",
+   "c": [
+    "Nestûrius – Efes",
+    "Pavlus – Kudüs",
+    "Arius – İznik",
+    "Luther – Trento",
+    "Eutykhes – Kadıköy"
+   ],
+   "d": 2,
+   "a": "Arius’un görüşleri 325 İznik Konsili’nde mahkûm edilmiştir.",
+   "ac": [
+    "Nestûrius 431’de Efes’te mahkûm edilmiştir.",
+    "Pavlus’un görüşleri mahkûm edilmemiştir.",
+    "Doğru.",
+    "Luther XVI. yüzyıl reformcusudur.",
+    "Eutykhes Monofizit görüşüyle Kadıköy’de mahkûm edilmiştir; görüşü bu değildir."
+   ],
+   "kay": "DİA, “Ariusçuluk” md."
+  },
+  {
+   "id": "dn9-10",
+   "z": 2,
+   "s": "İsa’nın Son Akşam Yemeği’nin anısına ekmek ve şarabın kullanıldığı Hristiyan ayini aşağıdakilerden hangisidir?",
+   "c": [
+    "Vaftiz",
+    "Konfirmasyon",
+    "Evharistiya (komünyon)",
+    "Hastaların yağlanması",
+    "Tövbe-itiraf"
+   ],
+   "d": 2,
+   "a": "Evharistiya (komünyon, Aşai Rabbani) Son Akşam Yemeği’nin anısına yapılan ekmek ve şarap ayinidir.",
+   "ac": [
+    "Vaftiz suyla yapılan giriş ayinidir.",
+    "Konfirmasyon inancın onaylanmasıdır.",
+    "Doğru.",
+    "Hastalar için yapılan yağlama ayinidir.",
+    "Rahibe günah itirafıdır."
+   ],
+   "kay": "DİA, “Evharistiya” md."
+  },
+  {
+   "id": "d1-01",
+   "z": 1,
+   "s": "Hristiyanlığın Protestan mezhebiyle ilgili hangisi yanlıştır?",
+   "c": [
+    "Papanın yanılmazlığı ve otoritesi kabul edilir.",
+    "Yalnızca vaftiz ve evharistiya sahih sakrament kabul edilir.",
+    "Dini anlamada Kitab-ı Mukaddes esas alınır.",
+    "İbadet ve ayinler ana dilde yapılabilir.",
+    "Kiliseler tasvirlerden arındırılır."
+   ],
+   "d": 0,
+   "a": "Papanın otoritesini ve yanılmazlığını Katolikler kabul eder; Protestanlar reddeder.",
+   "ac": [
+    "Yanlış.",
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Doğru bilgi."
+   ],
+   "kay": "Dinler tarihi: Protestanlık"
+  },
+  {
+   "id": "d1-06",
+   "z": 3,
+   "s": "Katolik ve Ortodoks kiliselerinin ayrılması ile Protestanlığın ortaya çıkışına ilişkin tarihler hangisinde doğru verilmiştir?",
+   "c": [
+    "325 – 1517",
+    "1054 – 1517",
+    "1054 – 1870",
+    "325 – 1054",
+    "1517 – 1870"
+   ],
+   "d": 1,
+   "a": "Doğu ve Batı kiliseleri 1054’te ayrılmış, Protestanlık 1517’de Luther’in tezleriyle başlamıştır.",
+   "ac": [
+    "325 İznik Konsili’dir.",
+    "Doğru.",
+    "1870 papanın yanılmazlığı dogmasıdır.",
+    "İkisi de ayrılık tarihleri değil.",
+    "Sıra ve tarihler uygun değil."
+   ],
+   "kay": "Dinler tarihi: Hristiyanlık"
+  },
+  {
+   "id": "d2-11",
+   "z": 2,
+   "s": "Ariusçuluğun mahkûm edildiği ve İsa’nın tanrılığının resmî inanç olarak kabul edildiği ilk ekümenik konsil hangisidir?",
+   "c": [
+    "İstanbul (381)",
+    "İznik (325)",
+    "Efes (431)",
+    "Kadıköy (451)",
+    "Trento (1545)"
+   ],
+   "d": 1,
+   "a": "İznik Konsili İmparator Konstantin döneminde toplanmıştır.",
+   "ac": [
+    "Kutsal Ruh’un tanrılığı ve teslis kesinleşmiştir.",
+    "İlk ekümenik konsildir.",
+    "Nesturîlik mahkûm edilmiştir.",
+    "İsa’da iki tabiat kabul edilmiştir.",
+    "Katoliklerin Reform’a cevabıdır."
+   ],
+   "kay": "Hristiyanlık tarihi"
+  },
+  {
+   "id": "d2-12",
+   "z": 2,
+   "s": "Katolik ve Ortodoks kiliselerinin kabul ettiği yedi sakramentten yalnız ikisini kabul eden Hristiyan mezhebi ve kabul ettiği sakramentler hangisidir?",
+   "c": [
+    "Ortodoksluk – vaftiz ve evlilik",
+    "Nesturîlik – vaftiz ve konfirmasyon",
+    "Katoliklik – vaftiz ve tövbe",
+    "Protestanlık – evlilik ve tövbe",
+    "Protestanlık – vaftiz ve komünyon"
+   ],
+   "d": 4,
+   "a": "Protestanlık sakramentleri Kitab-ı Mukaddes’te açık dayanağı olanlarla sınırlar.",
+   "ac": [
+    "Ortodokslar yedi sakramenti kabul eder.",
+    "Doğru değildir.",
+    "Katolikler yedi sakramenti kabul eder.",
+    "Sakramentler yanlıştır.",
+    "Protestanlar yalnız bu ikisini sakrament sayar."
+   ],
+   "kay": "Hristiyanlık"
+  }
+ ]
+}

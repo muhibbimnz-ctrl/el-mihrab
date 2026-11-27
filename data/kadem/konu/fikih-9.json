@@ -1,0 +1,609 @@
+{
+ "id": "fikih-9",
+ "ad": "Namaz 2: Sehiv, Tilâvet ve Şükür Secdeleri; Kaza Namazları ve Tertip; Cemaat ve İmamet (Mesbûk, Lâhik); Vitir, Teravih ve Nafile Namazlar",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Sehiv secdesi: Unutmanın telafisi"
+  },
+  {
+   "merak": "Hz. Peygamber bir gün öğle namazını iki rekât kıldırıp selam verdi. Zülyedeyn adlı sahabi sordu: “Ey Allah’ın Resûlü! Namaz mı kısaldı, yoksa unuttun mu?” Hz. Peygamber kalkıp kalan iki rekâtı kıldı, sonra iki secde yaptı. Unutmanın da bir telafisi vardı."
+  },
+  "Sehiv secdesi, namazda vaciplerden birinin unutularak terk edilmesi, geciktirilmesi ya da bir farzın tehir edilmesi durumunda namazın sonunda yapılan iki secdedir. Hanefîlere göre sehiv secdesi vaciptir ve son oturuşta yalnız sağ tarafa selam verildikten sonra iki secde yapılır, ardından tekrar oturup Ettehiyyâtü, salli-bârik ve dualar okunarak selam verilir. Şâfiîlere göre ise sehiv secdesi selamdan önce yapılır. İmama uyan kişi kendi yanılmasından dolayı sehiv secdesi yapmaz; imam yanılırsa cemaat de imamla birlikte sehiv secdesi yapar.",
+  {
+   "tablo": [
+    [
+     "Sehiv secdesini gerektiren durum",
+     "Örnek"
+    ],
+    [
+     "Bir vacibin unutularak terki",
+     "Fâtiha’yı veya zamm-ı sûreyi unutmak; ilk oturuşu unutmak"
+    ],
+    [
+     "Bir vacibin geciktirilmesi",
+     "Fâtiha’dan sonra düşünerek bir rükün miktarı beklemek"
+    ],
+    [
+     "Bir farzın geciktirilmesi",
+     "Rükûya geç gitmek"
+    ],
+    [
+     "Bir farzın tekrarlanması",
+     "İki kez rükû etmek"
+    ],
+    [
+     "Cehrî-hafî kurallarına aykırılık",
+     "İmamın gizli okunacak yerde sesli okuması"
+    ]
+   ]
+  },
+  "Dört rekâtlı farz bir namazın ikinci rekâtında ilk oturuşu unutup ayağa kalkan kişi, tam doğrulmamışsa oturur; tam doğrulduysa oturmaz, namazına devam eder ve sonunda sehiv secdesi yapar. Son oturuşu unutup beşinci rekâta kalkan kişi, beşinci rekâtın secdesini yapmadan hatırlarsa oturur ve sehiv secdesi yapar; secdesini yapmışsa farz nafileye dönüşür ve bir rekât daha ekleyip altıya tamamlar.",
+  {
+   "akil": "Sehiv secdesi: vacip terki/gecikmesi, farz gecikmesi. Hanefî: sağa selamdan sonra iki secde. Şâfiî: selamdan önce. Muktedi kendi hatası için yapmaz; imamın hatasında imamla yapar. İlk oturuşu unutup tam kalkan dönmez, sonunda sehiv yapar."
+  },
+  {
+   "b": "2. Tilâvet ve şükür secdesi"
+  },
+  "Tilâvet secdesi, Kur’an’daki secde ayetlerinden birini okuyan veya işiten kişinin yaptığı secdedir. Hanefîlere göre tilâvet secdesi vaciptir; diğer mezheplere göre sünnettir. Hanefîlerde secde ayetleri on dörttür: A’râf, Ra’d, Nahl, İsrâ, Meryem, Hac (ilk secde), Furkân, Neml, Secde, Sâd, Fussılet, Necm, İnşikāk ve Alak surelerinde. Şâfiîler Sâd suresindeki secdeyi sayılmaz, Hac suresinin ikinci secdesini sayar. Tilâvet secdesi için namazın şartları gerekir; tekbirle secdeye gidilip “sübhâne rabbiye’l-a’lâ” denir, tekbirle kalkılır, selam ve teşehhüd yoktur. Namazda secde ayeti okunursa hemen rükû ya da secde ile yerine getirilebilir. Şükür secdesi ise bir nimete kavuşma ya da bir musibetten kurtulma üzerine yapılan secdedir; Ebû Hanîfe’ye göre müstehap değil, İmâmeyn’e göre müstehaptır.",
+  {
+   "tablo": [
+    [
+     "Secde",
+     "Hükmü (Hanefî)",
+     "Not"
+    ],
+    [
+     "Sehiv",
+     "Vacip",
+     "Namazın sonunda, sağa selamdan sonra"
+    ],
+    [
+     "Tilâvet",
+     "Vacip",
+     "14 yer; Hac’da yalnız ilk secde, Sâd’da secde var"
+    ],
+    [
+     "Şükür",
+     "İmâmeyn’e göre müstehap",
+     "Nimet ya da kurtuluş üzerine"
+    ]
+   ]
+  },
+  {
+   "akil": "Tilâvet secdesi Hanefîlerde vacip, 14 yer (Sâd var, Hac’ın ikincisi yok). Selam ve teşehhüd yok. Şükür secdesi İmâmeyn’e göre müstehap."
+  },
+  {
+   "sinav": "Sehiv secdesi sorularında “imama uyan kişinin kendi hatası” tuzağına dikkat: secde gerekmez. Tilâvet secdesinde ise Hanefîlerin Sâd’daki secdeyi saydığı, Hac suresinin ikinci secdesini saymadığı sorulur. Bir surede secde ayeti olup olmadığı da sorulabilir."
+  },
+  {
+   "b": "3. Kaza namazları ve tertip"
+  },
+  "Vaktinde kılınmayan farz namazların daha sonra kılınmasına kaza denir. Farz namazların kazası farz, vitrin kazası Hanefîlere göre vaciptir. Sünnetlerin kazası yoktur; ancak sabah namazının sünneti, aynı günün öğle vaktinden önce farzıyla birlikte kaza edilir. Hanefîlere göre “sâhib-i tertip” olan kişi, yani kazaya kalmış namazı altı vakitten az olan kişi, kaza namazlarını birbirine göre ve vakit namazından önce sırasıyla kılmak zorundadır. Kazası altı vakit veya daha fazla olan, vaktin daralmasından korkan ya da kazasını unutan kişi için tertip düşer.",
+  {
+   "tablo": [
+    [
+     "Durum",
+     "Hüküm"
+    ],
+    [
+     "Kazası altı vakitten az",
+     "Sâhib-i tertip: kazalar ve vakit namazı sırayla kılınır"
+    ],
+    [
+     "Kazası altı vakit ve fazla",
+     "Tertip düşer"
+    ],
+    [
+     "Vaktin daralması",
+     "Tertip düşer; önce vakit namazı kılınır"
+    ],
+    [
+     "Kazayı unutmak",
+     "Tertip düşer"
+    ],
+    [
+     "Sabah sünneti",
+     "Aynı gün öğleden önce farzla birlikte kaza edilir"
+    ]
+   ]
+  },
+  {
+   "akil": "Farz kazası farz, vitir kazası vacip, sünnetin kazası yok (sabah sünneti hariç, öğleye kadar). Tertip: 6 vakitten az kazası olan; düşme sebepleri: 6+ vakit, vaktin daralması, unutmak."
+  },
+  {
+   "b": "4. Cemaat ve imamet: Mesbûk ve lâhik"
+  },
+  {
+   "merak": "İki kişi camiye geç gelir. Biri namaza ikinci rekâtta yetişir; diğeri ilk rekâtta imamla başlamış ama abdesti bozulup abdest almaya gitmiştir. İmam selam verince ikisi de kalkar, ama biri “Sübhâneke”den başlar, diğeri hiç okumadan kılar. Neden?"
+  },
+  "Hanefîlere göre beş vakit farz namazı erkeklerin cemaatle kılması sünnet-i müekkededir; bazı Hanefîler vacip olduğunu söylemiştir. İmamete en layık olan, sırasıyla namazla ilgili fıkhî hükümleri en iyi bilen, Kur’an’ı en güzel okuyan, en takvalı ve yaşça en büyük olandır. Cemaatte imama sonradan yetişen kişiye “mesbûk”, imamla başlayıp bir mazeretle bazı rekâtları kaçıran kişiye “lâhik” denir. Mesbûk, imam selam verdikten sonra kalkıp kaçırdığı rekâtları kıraat bakımından namazın başı gibi kılar; yani Sübhâneke ve Fâtiha-zamm-ı sûre okur. Lâhik ise kaçırdığı rekâtları imamın arkasındaymış gibi, kıraat yapmadan kılar. Rükûda imama yetişen o rekâta yetişmiş sayılır.",
+  {
+   "tablo": [
+    [
+     "Kavram",
+     "Tanım",
+     "Kılış"
+    ],
+    [
+     "Mesbûk",
+     "İmama sonradan yetişen",
+     "Kaçırdığı rekâtları başlangıç rekâtları gibi kıraatle kılar"
+    ],
+    [
+     "Lâhik",
+     "İmamla başlayıp sonra bir sebeple rekât kaçıran",
+     "Kaçırdığını imamın arkasındaymış gibi, kıraatsiz kılar"
+    ],
+    [
+     "Müdrik",
+     "Namazın başından sonuna imamla kılan",
+     "—"
+    ]
+   ]
+  },
+  {
+   "akil": "Cemaat: sünnet-i müekkede. İmamete layık: fıkıh > kıraat > takva > yaş. Mesbûk: sonradan yetişen, kıraatle kılar. Lâhik: imamla başlayıp kaçıran, kıraatsiz kılar. Rükûya yetişen rekâta yetişmiştir."
+  },
+  {
+   "b": "5. Vitir, teravih ve nafile namazlar"
+  },
+  "Vitir namazı Ebû Hanîfe’ye göre vacip, İmâmeyn ve diğer mezheplere göre sünnettir. Hanefîlere göre üç rekâttır ve tek selamla kılınır; üçüncü rekâtta Fâtiha ve zamm-ı sûreden sonra tekbir alınıp kunut duaları okunur, sonra rükûya gidilir. Teravih, Ramazan gecelerinde yatsıdan sonra kılınan, erkekler ve kadınlar için sünnet-i müekkede olan yirmi rekâtlık namazdır. Cemaatle kılınması sünnet-i kifâyedir; Hz. Ömer döneminde Übey b. Ka’b’ın imametinde cemaatle kılınması yaygınlaşmıştır. Ramazan’da vitir cemaatle kılınabilir.",
+  {
+   "tablo": [
+    [
+     "Revâtib (vakit namazlarının sünnetleri)",
+     "Rekât ve hüküm"
+    ],
+    [
+     "Sabah",
+     "2 rekât önce; sünnetlerin en kuvvetlisi"
+    ],
+    [
+     "Öğle",
+     "4 rekât önce, 2 rekât sonra; müekkede"
+    ],
+    [
+     "İkindi",
+     "4 rekât önce; gayr-i müekkede"
+    ],
+    [
+     "Akşam",
+     "2 rekât sonra; müekkede"
+    ],
+    [
+     "Yatsı",
+     "4 rekât önce gayr-i müekkede; 2 rekât sonra müekkede"
+    ]
+   ]
+  },
+  "Bunların dışında kılınan nafile namazlar arasında teheccüd (gece namazı), duhâ (kuşluk), evvâbîn (akşamdan sonra), tahiyyetü’l-mescid (mescide girince), istihâre (hayırlısını isteme), hâcet, tesbih, küsûf (güneş tutulması) ve istiskā (yağmur duası) namazları vardır. Küsûf namazı cemaatle kılınır; Ebû Hanîfe’ye göre husûf (ay tutulması) namazı ise cemaatle değil, ferdî olarak kılınır.",
+  {
+   "sinav": "Vitrin hükmü (Ebû Hanîfe vacip, İmâmeyn sünnet), kunutun yeri, teravihin rekât sayısı (20) ve hükmü, sabah sünnetinin kazası, mesbûk-lâhik farkı ve tertip sahibi olma ölçüsü (altı vakitten az) en sık sorulan bilgilerdir."
+  },
+  {
+   "akil": "Vitir: Ebû Hanîfe vacip, 3 rekât tek selam, kunut 3. rekâtta rükûdan önce. Teravih: sünnet-i müekkede, 20 rekât. Revâtib: sabah 2, öğle 4+2, ikindi 4, akşam 2, yatsı 4+2. Küsûf cemaatle, husûf ferdî."
+  }
+ ],
+ "ozet": [
+  "Sehiv secdesi bir vacibin unutularak terki ya da geciktirilmesiyle gerekir; Hanefîlere göre vaciptir.",
+  "Hanefîlerde sehiv secdesi sağa selam verdikten sonra, Şâfiîlerde selamdan önce yapılır.",
+  "İmama uyan kişi kendi yanılmasından dolayı sehiv secdesi yapmaz; imamın yanılmasında onunla birlikte yapar.",
+  "İlk oturuşu unutup tam doğrulan kişi oturmaz, namazın sonunda sehiv secdesi yapar.",
+  "Tilâvet secdesi Hanefîlere göre vaciptir; Kur’an’da on dört secde yeri vardır.",
+  "Hanefîler Sâd suresindeki secdeyi kabul eder, Hac suresinin ikinci secdesini kabul etmez.",
+  "Farz namazların kazası farz, vitrin kazası vaciptir; sünnetlerin kazası yoktur.",
+  "Sabah namazının sünneti aynı gün öğleden önce farzıyla birlikte kaza edilir.",
+  "Kazası altı vakitten az olan kişi sâhib-i tertiptir; kazalarını sırasıyla kılar.",
+  "Hanefîlere göre beş vakit namazı cemaatle kılmak erkekler için sünnet-i müekkededir.",
+  "Mesbûk sonradan yetişen, lâhik imamla başlayıp rekât kaçıran kişidir.",
+  "Ebû Hanîfe’ye göre vitir vaciptir; üç rekât tek selamla kılınır, kunut üçüncü rekâtta okunur.",
+  "Teravih yirmi rekâttır ve sünnet-i müekkededir.",
+  "Küsûf namazı cemaatle, husûf namazı ferdî kılınır."
+ ],
+ "kartlar": [
+  {
+   "o": "Sehiv secdesi (Hanefî)",
+   "a": "Vacip; sağa selamdan sonra iki secde."
+  },
+  {
+   "o": "Muktedinin yanılması",
+   "a": "Kendi hatası için sehiv secdesi yapmaz."
+  },
+  {
+   "o": "İlk oturuşu unutup tam kalkan",
+   "a": "Geri dönmez; sonunda sehiv secdesi yapar."
+  },
+  {
+   "o": "Tilâvet secdesi",
+   "a": "Hanefîlerde vacip; 14 yer."
+  },
+  {
+   "o": "Sâd suresi secdesi",
+   "a": "Hanefîlerde var; Şâfiîlerde yok."
+  },
+  {
+   "o": "Şükür secdesi",
+   "a": "İmâmeyn’e göre müstehap."
+  },
+  {
+   "o": "Sâhib-i tertip",
+   "a": "Kazası altı vakitten az olan kişi."
+  },
+  {
+   "o": "Sabah sünnetinin kazası",
+   "a": "Aynı gün öğleden önce farzla birlikte."
+  },
+  {
+   "o": "Mesbûk",
+   "a": "İmama sonradan yetişen; kaçırdığını kıraatle kılar."
+  },
+  {
+   "o": "Lâhik",
+   "a": "İmamla başlayıp sonra kaçıran; kıraatsiz kılar."
+  },
+  {
+   "o": "Vitir (Ebû Hanîfe)",
+   "a": "Vacip; üç rekât, tek selam, kunut."
+  },
+  {
+   "o": "Teravih",
+   "a": "Sünnet-i müekkede; 20 rekât."
+  },
+  {
+   "o": "İkindinin sünneti",
+   "a": "Dört rekât, gayr-i müekkede."
+  },
+  {
+   "o": "Husûf namazı",
+   "a": "Ay tutulması; Ebû Hanîfe’ye göre ferdî kılınır."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "fq9-01",
+   "z": 3,
+   "s": "Bir kişi öğle namazının farzını cemaatle kılarken kendisi Fâtiha’dan sonra okunacak ayetleri unutmuş gibi bir yanılgıya düşmüş, aynı namazda imam da ilk oturuşu unutarak üçüncü rekâta kalkmıştır.\n\nHanefî mezhebine göre bu cemaatin sehiv secdesiyle ilgili durumu aşağıdakilerden hangisidir?",
+   "c": [
+    "Muktedi kendi yanılması için sehiv secdesi yapmaz; imam sehiv secdesi yapınca cemaat de onunla birlikte yapar.",
+    "Muktedi kendi yanılması için ayrıca sehiv secdesi yapar; imamın yanılması için secde gerekmez.",
+    "Kimse sehiv secdesi yapmaz.",
+    "Yalnız imam sehiv secdesi yapar, cemaat yapmaz.",
+    "Cemaat namazı iade etmelidir."
+   ],
+   "d": 0,
+   "a": "İmama uyan kişinin kendi yanılması sehiv secdesi gerektirmez. İmamın yanılması ise sehiv secdesi gerektirir ve cemaat imama uyarak secde yapar.",
+   "ac": [
+    "Doğru.",
+    "Muktedi kendi hatası için secde yapmaz; imamın hatası secde gerektirir.",
+    "İmamın vacip terki secde gerektirir.",
+    "Cemaat imama uyar.",
+    "İade gerekmez."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "fq9-02",
+   "z": 3,
+   "s": "I. Sâd suresindeki secde ayeti\nII. Hac suresindeki ikinci secde ayeti\nIII. Alak suresindeki secde ayeti\nIV. Necm suresindeki secde ayeti\n\nHanefî mezhebine göre yukarıdakilerden hangileri tilâvet secdesi gerektirir?",
+   "c": [
+    "I ve II",
+    "I, III ve IV",
+    "II, III ve IV",
+    "I, II ve III",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Hanefîler Sâd, Alak ve Necm surelerindeki secdeleri kabul eder; Hac suresinin ikinci secdesini kabul etmez.",
+   "ac": [
+    "Hac suresinin ikinci secdesi Hanefîlerde yoktur.",
+    "Doğru.",
+    "Hac’ın ikinci secdesi Hanefîlerde yoktur; Sâd eksiktir.",
+    "Hac’ın ikinci secdesi Hanefîlerde yoktur.",
+    "Hac’ın ikinci secdesi Hanefîlerde yoktur."
+   ],
+   "kay": "Kâsânî, Bedâi‘, I"
+  },
+  {
+   "id": "fq9-03",
+   "z": 3,
+   "s": "Bir kişi cemaatle kılınan yatsı namazına üçüncü rekâtta yetişmiştir. Başka bir kişi ise imamla birlikte başlamış, ancak ikinci rekâtta abdesti bozulunca abdest almaya gitmiş ve döndüğünde imam dördüncü rekâttaydı.\n\nHanefî mezhebine göre bu iki kişinin kaçırdığı rekâtları kılışıyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "İkisi de kaçırdığı rekâtları kıraatle kılar.",
+    "İkisi de kıraatsiz kılar.",
+    "Birincisi mesbûktur ve kaçırdığı rekâtları kıraatle kılar; ikincisi lâhiktir ve kaçırdığı rekâtları imamın arkasındaymış gibi kıraatsiz kılar.",
+    "Birincisi lâhik, ikincisi mesbûktur.",
+    "İkisinin de namazı bozulmuştur."
+   ],
+   "d": 2,
+   "a": "İmama sonradan yetişen mesbûk, kaçırdığını kıraatle kılar. İmamla başlayıp bir mazeretle ayrılan lâhik, kaçırdığını imamın arkasındaymış gibi kıraatsiz kılar.",
+   "ac": [
+    "Lâhik kıraat yapmaz.",
+    "Mesbûk kıraat yapar.",
+    "Doğru.",
+    "Tanımlar ters verilmiştir.",
+    "Abdesti bozulan kişi bina edebilir (ilk yere dönüp devam edebilir)."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "fq9-04",
+   "z": 2,
+   "s": "Hanefî mezhebine göre vitir namazıyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Ebû Hanîfe’ye göre sünnettir ve tek rekâttır.",
+    "Ezan ve kametle kılınır.",
+    "İki selamla kılınır ve kunut rükûdan sonra okunur.",
+    "Kazası yoktur.",
+    "Ebû Hanîfe’ye göre vaciptir; üç rekât tek selamla kılınır ve kunut üçüncü rekâtta rükûdan önce okunur."
+   ],
+   "d": 4,
+   "a": "Ebû Hanîfe’ye göre vitir vaciptir; üç rekât, tek selam, üçüncü rekâtta rükûdan önce kunut.",
+   "ac": [
+    "Ebû Hanîfe’ye göre vaciptir ve üç rekâttır.",
+    "Vitir için ezan okunmaz.",
+    "Hanefîlerde tek selam ve rükûdan önce kunut vardır.",
+    "Vaciptir ve kazası gerekir.",
+    "Doğru."
+   ],
+   "kay": "Kâsânî, Bedâi‘, I"
+  },
+  {
+   "id": "fq9-05",
+   "z": 3,
+   "s": "Kılınmamış üç vakit namazı bulunan bir kişi, yatsı vakti girdikten bir süre sonra kazalarını kılmaya başlamak istemektedir. Vakit yeterince geniştir.\n\nHanefî mezhebine göre bu kişinin yapması gereken aşağıdakilerden hangisidir?",
+   "c": [
+    "Önce yatsıyı kılmalı, kazaları istediği sırayla kılabilir.",
+    "Kazalar ancak bir sonraki gün kılınabilir.",
+    "Kazaları kılmasına gerek yoktur; tövbe yeterlidir.",
+    "Sâhib-i tertip olduğu için önce kazalarını sırasıyla, sonra yatsıyı kılmalıdır.",
+    "Yatsıdan sonra yalnız bir kazayı kılabilir."
+   ],
+   "d": 3,
+   "a": "Kazası altı vakitten az olan kişi sâhib-i tertiptir; vakit genişse önce kazalarını sırasıyla, sonra vakit namazını kılar.",
+   "ac": [
+    "Vakit genişken tertip gereklidir.",
+    "Kaza her vakit (kerahat dışında) kılınabilir.",
+    "Farz namazların kazası farzdır.",
+    "Doğru.",
+    "Kazaların tamamı kılınabilir."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "fq9-06",
+   "z": 2,
+   "s": "Hanefî mezhebine göre vakit namazlarının sünnetlerinden hangisi gayr-i müekkede (bazen terk edilen) sünnettir?",
+   "c": [
+    "İkindi namazının sünneti",
+    "Öğle namazının ilk sünneti",
+    "Sabah namazının sünneti",
+    "Akşam namazının sünneti",
+    "Öğle namazının son sünneti"
+   ],
+   "d": 0,
+   "a": "İkindinin dört rekâtlık sünneti ve yatsının ilk sünneti gayr-i müekkededir.",
+   "ac": [
+    "Doğru.",
+    "Müekkededir.",
+    "Sabah sünneti sünnetlerin en kuvvetlisidir.",
+    "Müekkededir.",
+    "Müekkededir."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "f4-02",
+   "z": 1,
+   "s": "Hanefî mezhebine göre vitir namazının hükmü nedir?",
+   "c": [
+    "Sünnet-i müekkede",
+    "Farz",
+    "Vacip",
+    "Müstehap",
+    "Mübah"
+   ],
+   "d": 2,
+   "a": "Hanefîlere göre vitir namazı vaciptir; diğer üç mezhebe göre sünnettir.",
+   "ac": [
+    "Diğer mezheplerin görüşüdür.",
+    "Farz değildir.",
+    "Doğru.",
+    "Müstehap değildir.",
+    "Mübah değildir."
+   ],
+   "kay": "Ebû Dâvûd, Vitir, 2"
+  },
+  {
+   "id": "f4-04",
+   "z": 2,
+   "s": "Hanefî mezhebine göre sehiv secdesi ile ilgili\nI. İmama uyan kişi, kendi hatası varsa imam selam verdikten sonra sehiv secdesi yapar.\nII. Cuma ve bayram namazlarında karışıklığa sebep olacağı için imam sehiv secdesini terk edebilir.\nIII. Sehiv secdesinden sonra Tahiyyât okunmadan Salli-Bârik duaları okunup selam verilir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız II",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 1,
+   "a": "İmama uyanın kendi hatası için sehiv secdesi gerekmez; secdeden sonra Tahiyyât yeniden okunur. Kalabalık cemaatte imamın sehvi terk edebilmesi doğrudur.",
+   "ac": [
+    "I yanlıştır.",
+    "Doğru.",
+    "I yanlıştır.",
+    "III yanlıştır.",
+    "I ve III yanlıştır."
+   ],
+   "kay": "Hanefî ilmihali: sehiv secdesi"
+  },
+  {
+   "id": "f4-05",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi namazda sehiv secdesini gerektirir?",
+   "c": [
+    "Rükûyu tamamen terk etmek",
+    "Son oturuşu hiç yapmamak",
+    "İftitah tekbirini almamak",
+    "Abdestsiz namaza durmak",
+    "Fâtiha’yı okumayı unutmak"
+   ],
+   "d": 4,
+   "a": "Fâtiha okumak vaciptir; unutularak terk edilmesi sehiv secdesiyle telafi edilir. Diğerleri farz olduğu için namazı bozar.",
+   "ac": [
+    "Rükû farzdır; terki namazı bozar.",
+    "Son oturuş farzdır.",
+    "İftitah tekbiri farzdır.",
+    "Abdest şarttır; namaz geçersizdir.",
+    "Doğru."
+   ],
+   "kay": "Hanefî ilmihali: vacipler"
+  },
+  {
+   "id": "f4-08",
+   "z": 2,
+   "s": "Aşağıdaki surelerden hangisinde secde ayeti yoktur?",
+   "c": [
+    "A’râf",
+    "Meryem",
+    "Alak",
+    "Yâsîn",
+    "Necm"
+   ],
+   "d": 3,
+   "a": "Yâsîn Suresi’nde secde ayeti yoktur. Diğerleri 14 secde ayeti bulunan sureler arasındadır.",
+   "ac": [
+    "Secde ayeti vardır.",
+    "Secde ayeti vardır.",
+    "Secde ayeti vardır.",
+    "Doğru.",
+    "Secde ayeti vardır."
+   ],
+   "kay": "Hanefî ilmihali: secde-i tilâvet"
+  },
+  {
+   "id": "f4-14",
+   "z": 3,
+   "s": "Vitir namazıyla ilgili hangisi Hanefî mezhebine göre yanlıştır?",
+   "c": [
+    "İkinci rekâttan sonra oturulmaz, üç rekât tek oturuşla kılınır.",
+    "Her rekâtında Fâtiha’dan sonra sure okunur.",
+    "Kunut duası üçüncü rekâtta rükûdan önce okunur.",
+    "Kunut okumak vaciptir.",
+    "Üç rekâttır."
+   ],
+   "d": 0,
+   "a": "Vitir namazı akşam namazı gibi ikinci rekâtta oturularak kılınır; ilk oturuş vaciptir.",
+   "ac": [
+    "Yanlış: ikinci rekâtta oturulur.",
+    "Doğru bilgi: vitirde zamm-ı sûre her rekâtta vaciptir.",
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Doğru bilgi."
+   ],
+   "kay": "Hanefî ilmihali: vitir"
+  },
+  {
+   "id": "f4-17",
+   "z": 2,
+   "s": "Hanefî mezhebine göre kılınmamış (kaza) namazı altı vakitten az olan kişiye ne ad verilir ve bu kişi için hangi kural geçerlidir?",
+   "c": [
+    "Mesbûk – kazaları sonraya bırakabilir",
+    "Müdrik – sıra gerekmez",
+    "Lâhik – kaza borcu düşer",
+    "Sâhib-i tertip – kazaları vakit namazından önce sırayla kılmalıdır",
+    "Mâzur – kaza gerekmez"
+   ],
+   "d": 3,
+   "a": "Vakit darlığı, unutma ya da kazaların altıya ulaşması tertibi düşürür.",
+   "ac": [
+    "Mesbûk cemaate sonradan yetişendir.",
+    "Müdrik namaza baştan yetişendir.",
+    "Lâhik cemaate baştan yetişip sonra kaçırandır.",
+    "Tertip sahibi için kaza ile vakit namazı arasında sıra gözetmek farzdır.",
+    "Kaza borcu düşmez."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f4-18",
+   "z": 1,
+   "s": "Cemaatle kılınan bir namazın ilk rekâtında imama yetişemeyip sonraki rekâtlarda uyan kişiye ne ad verilir?",
+   "c": [
+    "Müdrik",
+    "Lâhik",
+    "Mesbûk",
+    "Münferit",
+    "Mukim"
+   ],
+   "d": 2,
+   "a": "Mesbûk, imam selam verince kalkıp kaçırdığı rekâtları tamamlar.",
+   "ac": [
+    "Namaza baştan yetişendir.",
+    "Baştan uyup bir sebeple bir kısmını kaçırandır.",
+    "Sonradan yetişendir.",
+    "Tek başına kılandır.",
+    "Yolcu olmayandır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f4-20",
+   "z": 2,
+   "s": "Hanefî mezhebine göre teravih namazının hükmü ve rekât sayısı hangisidir?",
+   "c": [
+    "Vacip – 8 rekât",
+    "Farz – 20 rekât",
+    "Müstehap – 8 rekât",
+    "Sünnet-i gayr-i müekkede – 12 rekât",
+    "Sünnet-i müekkede – 20 rekât"
+   ],
+   "d": 4,
+   "a": "Teravihi cemaatle kılmak da sünnet-i kifâyedir.",
+   "ac": [
+    "Yanlıştır.",
+    "Yanlıştır.",
+    "Yanlıştır.",
+    "Yanlıştır.",
+    "Hanefî görüşüdür."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f4-22",
+   "z": 3,
+   "s": "Bir kişi dört rekâtlı farz namazın ikinci rekâtında oturmayı unutup ayağa kalkmış, tam doğrulmadan hatırlamıştır.\nHanefî mezhebine göre bu kişi ne yapmalıdır?",
+   "c": [
+    "Namazı bozup yeniden kılar.",
+    "Oturuşa yakın durumdaysa geri oturur ve sehiv secdesi gerekmez; ayağa daha yakınsa kalkar ve sonunda sehiv secdesi yapar.",
+    "Kalkmaya devam eder ve sehiv secdesi yapmaz.",
+    "Geri oturur ve iki kez sehiv secdesi yapar.",
+    "Kalkar ve namaz sonunda kaza eder."
+   ],
+   "d": 1,
+   "a": "Tam ayağa kalkıp doğrulmuşsa geri dönmez; namazın sonunda sehiv secdesi yapar.",
+   "ac": [
+    "Gerekmez.",
+    "Hanefî ilmihallerindeki ölçü budur.",
+    "Oturmaya daha yakınsa oturması gerekir.",
+    "Sehiv secdesi bir defa yapılır.",
+    "Kaza gerekmez."
+   ],
+   "kay": "Hanefî ilmihal"
+  }
+ ]
+}

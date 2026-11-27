@@ -1,0 +1,737 @@
+{
+ "id": "mezhep-6",
+ "ad": "Ehl-i Sünnet: Selefiyye (Ehl-i Hadis), Eş’ariyye ve Mâtürîdiyye; Tarihçe ve Temsilciler",
+ "ders": "Mezhepler Tarihi",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Ehl-i sünnetin iki kanadı: Ehl-i hadis ve Ehl-i rey"
+  },
+  {
+   "merak": "Hicrî II. asırda Medine’de bir âlim “Hadis varken reye ne gerek var?” diyordu; Kûfe’de bir başkası ise “Karşımıza her gün hadiste geçmeyen yeni bir mesele çıkıyor” cevabını veriyordu. İkisi de kendini Hz. Peygamber’in sünnetine bağlı görüyordu. Ehl-i sünnet bu iki sesin buluşmasından mı doğdu?"
+  },
+  "Ehl-i sünnet ve’l-cemaat; Hz. Peygamber’in sünnetini ve ashabının yolunu izleyen, ümmetin ana gövdesinden ayrılmayan Müslümanların adıdır. Kavram hicrî III. asırdan itibaren Hâricî, Şiî, Mu’tezilî ve Mürciî olmayan Müslümanları tanımlamak için yaygınlaştı. Ehl-i sünnetin oluşumunda iki ana damar vardır: Medine ve Hicaz merkezli Ehl-i hadis (hadis taraftarları) ile Irak (Kûfe) merkezli Ehl-i rey (rey taraftarları).",
+  "Ehl-i hadis (Ashâbü’l-hadîs), hicrî II. asrın ortalarından itibaren Hâricî, Mürciî, Mu’tezilî ve Cehmî görüşlere, yabancı kültür ve felsefi düşüncelere tepki olarak belirginleşti. Onlara göre ümmetin kurtuluşu, Hz. Peygamber’e kadar uzanan sünnetin ve hadislerin yeniden hayata geçirilmesindedir. Zührî, Şa’bî, Süfyân es-Sevrî, Evzâî, Abdullah b. Mübârek, Mâlik b. Enes, Şâfiî ve Ahmed b. Hanbel bu çizginin önde gelen isimleridir. Ehl-i rey ise Ebû Hanîfe’nin öncülüğünde, nasları esas almakla birlikte sorunları çözmede akla ve akli çıkarıma geniş yer veren ekoldür. Ebû Hanîfe yalnız fıkıhta değil itikadi görüşlerin şekillenmesinde de etkili oldu; Mâtürîdîlik onun çizgisi üzerinde vücut buldu.",
+  "Hicrî IV. asırda Ehl-i sünnet kelamı iki büyük ekolde sistemleşti: Irak’ta Ebü’l-Hasen el-Eş’arî’nin kurduğu Eş’ariyye ve Mâverâünnehir’de Ebû Mansûr el-Mâtürîdî’nin kurduğu Mâtürîdiyye. Böylece Ehl-i sünnetin itikadi yapısı, akli yöntemi sınırlı tutan Selefiyye (Ehl-i hadis) ile aklı nakille birlikte kullanan iki kelam ekolünden oluşan üçlü bir görünüm kazandı.",
+  {
+   "tablo": [
+    [
+     "Ekol",
+     "Merkez",
+     "Akıl-nakil tavrı",
+     "Fıkhi bağlantı"
+    ],
+    [
+     "Selefiyye (Ehl-i hadis)",
+     "Hicaz, Bağdat (Hanbelîler)",
+     "Nakil esas; te’vile ve kelama mesafeli",
+     "Hanbelî (ayrıca bazı Mâlikî ve Şâfiîler)"
+    ],
+    [
+     "Eş’ariyye",
+     "Basra, Bağdat; sonra Nişabur ve bütün Arap dünyası",
+     "Nakil öncelikli, akılla destek",
+     "Çoğunlukla Şâfiî ve Mâlikî"
+    ],
+    [
+     "Mâtürîdiyye",
+     "Semerkant (Mâverâünnehir)",
+     "Akıl ve nakil dengesi; akla daha geniş alan",
+     "Hanefî"
+    ]
+   ]
+  },
+  {
+   "sinav": "“İnanç esaslarıyla ilgili ayet ve hadislerde bildirilenleri aynen kabul eden, Allah’a cisimlere mahsus özellikler atfetmeyen ama te’vil yoluna da gitmeyen mezhep” → Selefiyye. “Allah’ın eli ifadesini mahiyetini sorgulamadan ve te’vil etmeden olduğu gibi kabul ederim” diyen kişi → Selefiyye mensubu. Kaderiyye, Mu’tezile, Hâricîlik, Mürcie çeldiricidir."
+  },
+  {
+   "akil": "Ehl-i sünnet = Ehl-i hadis + Ehl-i rey. IV. asırda kelam: Eş’ariyye (Irak) ve Mâtürîdiyye (Semerkant). Selefiyye nakille yetinir, iki kelam ekolü aklı da kullanır."
+  },
+  {
+   "b": "2. Selefiyye (Ehl-i hadis): Tarihçe, ilkeler ve temsilciler"
+  },
+  {
+   "merak": "İmam Mâlik’in meclisinde bir adam “Rahmân arşa istivâ etti” ayetini okuyup “Nasıl istivâ etti?” diye sordu. İmam’ın alnından ter boşaldı ve şöyle dedi: “İstivâ bilinmektedir; keyfiyeti bilinmez; ona iman vaciptir, bunu sormak ise bid’attır.” Bu cevap, bir ekolün yönteminin özeti oldu."
+  },
+  "Selef, “önce gelenler” demektir; terim olarak sahabe, tâbiîn ve tebe-i tâbiînden oluşan ilk üç nesli ifade eder. Hz. Peygamber’in “İnsanların en hayırlısı benim neslimdir, sonra onları takip edenler, sonra da onları takip edenlerdir” hadisi bu nesillerin örnekliğine dayanak yapılır. Selefiyye, itikadi konularda bu nesillerin anlayışını esas alan, ayet ve hadislerde bildirilenleri teşbihe kaçmadan ve te’vile başvurmadan olduğu gibi kabul eden yaklaşımın adıdır.",
+  {
+   "hadis": "İnsanların en hayırlısı benim asrımda yaşayanlardır; sonra onları takip edenler, sonra da onları takip edenlerdir.",
+   "kay": "Buhârî, Şehâdât; Müslim, Fezâilü’s-sahâbe"
+  },
+  "Ehl-i hadisin itikadi görüşleri şöyle özetlenebilir: İman; söz (ikrar), niyet (tasdik) ve amelden oluşur, ameller imanın parçasıdır; iman artar ve eksilir; imanda istisna (“İnşallah müminim”) caizdir. İman ile İslam farklı kavramlardır. Hayır ve şer Allah’ın kaza ve kaderiyledir. Allah’ın ezelî sıfatları vardır; Kur’an Allah’ın kelamıdır, mahluk değildir; müminler Allah’ı ahirette göreceklerdir. Haberî sıfatlar (el, yüz, istivâ, nüzûl) keyfiyeti sorulmadan, yaratılmışlara benzetilmeden ve te’vil edilmeden kabul edilir. Kelam ilmi ve akli tartışmalar genellikle hoş karşılanmaz.",
+  "Selefiyye’nin müteşâbih (özellikle haberî sıfat) ayetler karşısındaki tavrı, Gazzâlî’nin İlcâmü’l-avâm an ilmi’l-kelâm adlı eserinde yedi ilke olarak özetlenir. Bu ilkeler, Diyanet-Sen kitabında ve birçok sınav kaynağında “Selefiyye’nin genel prensipleri” olarak geçer.",
+  {
+   "tablo": [
+    [
+     "İlke",
+     "Anlamı"
+    ],
+    [
+     "Takdis",
+     "Allah’ı layık olmadığı nitelik ve benzetmelerden tenzih etmek"
+    ],
+    [
+     "Tasdik",
+     "Kur’an ve sünnetteki isim ve sıfatları olduğu gibi kabul etmek"
+    ],
+    [
+     "Acz-i itiraf",
+     "Müteşâbihlerin mahiyetini bilmekte aczi itiraf etmek"
+    ],
+    [
+     "Sükût",
+     "Cahilin bunları sormaması, âlimin de cevap vermemesi"
+    ],
+    [
+     "İmsâk",
+     "Müteşâbih lafızları te’vil etmemek, değiştirmemek"
+    ],
+    [
+     "Keff",
+     "Bu konuları zihninde dahi kurcalamamak"
+    ],
+    [
+     "Marifet ehline teslim",
+     "Hz. Peygamber ve ashabın açıklamasına uymak"
+    ]
+   ]
+  },
+  "Selefî çizginin tarihî taşıyıcısı Hanbelî mezhebi oldu. Ahmed b. Hanbel’in (ö. 241/855) mihnedeki direnişi onu Ehl-i hadisin sembolü yaptı; Selefîler bütün görüşlerinin ona dayandığını kabul etti. Berbehârî, İbn Batta, Kādî Ebû Ya’lâ ve İbn Kudâme (Lüm’atü’l-i’tikād) bu çizginin önemli isimleridir. Ehl-i hadis hicrî IV. asırdan itibaren kendini daha çok “Selefiyye” adıyla konumlandırdı. Haberî sıfatları lafzi anlamıyla alıp Allah’ı yaratıklara benzeten aşırı uçlar ise “Müşebbihe”, “Mücessime” veya “Haşviyye” diye eleştirildi; Hanbelî âlim İbnü’l-Cevzî bile Def’u şübehi’t-teşbîh adlı eserinde bu eğilimi eleştirmiştir.",
+  "Selefiyye’yi hicrî VIII. asırda yeniden canlandıran isim Takıyyüddîn İbn Teymiyye’dir (ö. 728/1328). İbn Teymiyye kelamcıları, filozofları, sûfîleri ve Şîa’yı eleştirdi; kabir ziyareti, tevessül ve evliyaya aşırı tazim konusunda sert görüşler ileri sürdü. Akıl ile naklin gerçekte çatışmadığını Der’ü teâruzi’l-akl ve’n-nakl’de savundu; el-Akīdetü’l-Vâsıtıyye, Minhâcü’s-sünne ve el-Furkān beyne evliyâi’r-Rahmân ve evliyâi’ş-şeytân önemli eserleridir. Tevhidi rubûbiyyet, ulûhiyyet ve esmâ-sıfât olarak üçlü bir tasnifle ele alan yaklaşım onun düşüncesine dayanır. Öğrencisi İbn Kayyim el-Cevziyye (ö. 751/1350) bu düşünceyi yaydı. İbn Teymiyye’nin fikirleri hicrî XII. asırda Muhammed b. Abdülvehhâb tarafından Necid’de Vehhâbîlik adıyla yeniden seslendirildi; günümüzde Selefîlik adıyla yayılmaktadır.",
+  {
+   "sinav": "Selefiyye’nin yedi ilkesi (takdis, tasdik, acz-i itiraf, sükût, imsâk, keff, marifet ehline teslim) sorulabilir; “te’vil” bu ilkelerden değildir. Selefiyye’yi VIII./XIV. asırda canlandıran → İbn Teymiyye. Vehhâbîlerin kendilerini dayandırdığı tarihî isim → İbn Teymiyye (Fahreddin Râzî, Kādî Abdülcebbâr, Ebü’l-Muîn en-Nesefî, Cüveynî çeldiricidir)."
+  },
+  {
+   "akil": "Selefiyye: ilk üç neslin yolu; sıfatlarda teşbihsiz ve te’vilsiz kabul (bilâ keyf). İman: söz, niyet, amel; artar-eksilir; istisna caiz. Ahmed b. Hanbel sembol; İbn Teymiyye yeniden canlandırdı; Muhammed b. Abdülvehhâb Vehhâbîlik."
+  },
+  {
+   "b": "3. Eş’ariyye: Kurucusu, eserleri ve temsilcileri"
+  },
+  {
+   "merak": "Bir cuma günü Basra Camii’nde kırk yaşlarında bir âlim minbere çıkıp şöyle dedi: “Ey insanlar, şu elbiseyi çıkarıp attığım gibi bundan önceki görüşlerimi de çıkarıp atıyorum.” Ardından üzerindeki elbiseyi çıkarıp attı. Bu, Mu’tezile’nin en parlak öğrencisinin mezhebinden ayrılışıydı."
+  },
+  "Eş’ariyye, Ebü’l-Hasen Ali b. İsmâil el-Eş’arî’nin (260-324/873-935/36) görüşleri etrafında oluşan kelam ekolüdür. Eş’arî, sahabî Ebû Mûsâ el-Eş’arî’nin soyundandır. Basra’da doğdu; annesinin ikinci eşi, dönemin büyük Mu’tezilî âlimi Ebû Ali el-Cübbâî’ydi. Kırk yaşına kadar onun yanında Mu’tezile’yi okudu. Rivayete göre üç kardeş tartışmasında hocasının Mu’tezile’nin adalet ve aslah anlayışına dayanan cevaplarından tatmin olmadı; ayrıca Ramazan’da gördüğü rüyalarda Hz. Peygamber’in kendisine hadislere sarılmasını emrettiği nakledilir. 300/912 civarında Mu’tezile’den ayrıldığını Basra Camii’nde ilan etti.",
+  "Eş’arî’nin kelamı, Ehl-i hadisin savunduğu inanç esaslarını kelamın akli yöntemleriyle savunma girişimidir. Bu çizginin öncüsü, Eş’arî’den önce yaşayan Abdullah b. Saîd b. Küllâb’dır (Küllâbiyye). Eş’arî’nin günümüze ulaşan başlıca eserleri; el-İbâne an usûli’d-diyâne, Kitâbü’l-Lüma’, Makālâtü’l-İslâmiyyîn ve İstihsânü’l-havz fî ilmi’l-kelâm’dır. el-İbâne’de Ahmed b. Hanbel’e bağlılığını vurgulayan Selefî bir üslup, el-Lüma’da ise kelami bir üslup hâkimdir.",
+  "Ekolün sistemleşmesi Eş’arî’den sonraki kuşaklarla gerçekleşti. Kādî Ebû Bekir el-Bâkıllânî (ö. 403/1013), et-Temhîd adlı eseriyle cevher-araz ve boşluk gibi akli öncülleri sistemleştirdi ve “ekolün ikinci kurucusu” sayıldı. İbn Fûrek, Ebû İshak el-İsferâyînî ve Abdülkāhir el-Bağdâdî ekolü Nişabur’da güçlendirdi. İmâmü’l-Haremeyn el-Cüveynî (ö. 478/1085), el-İrşâd ve eş-Şâmil’in yazarıdır ve Nişabur Nizâmiye Medresesi’nde ders verdi. Onun öğrencisi Gazzâlî (ö. 505/1111), Bağdat Nizâmiyesi’nde müderrislik yaptı; el-İktisâd fi’l-i’tikād, Tehâfütü’l-felâsife ve İhyâü ulûmi’d-dîn ile hem kelamı hem tasavvufu etkiledi. Gazzâlî ve Fahreddin er-Râzî (ö. 606/1209; el-Muhassal, Mefâtîhu’l-gayb) ile başlayan dönem, mantık ve felsefeyi kelama yoğun biçimde katan “müteahhirîn” dönemidir. Adudüddîn el-Îcî’nin (ö. 756/1355) el-Mevâkıf’ı ve Seyyid Şerîf el-Cürcânî’nin Şerhu’l-Mevâkıf’ı bu dönemin en çok okunan eserleridir; Teftâzânî’nin Şerhu’l-Makāsıd’ı da bu çizgidedir.",
+  "Eş’arîlik Selçuklu veziri Nizâmülmülk’ün kurduğu Nizâmiye medreseleri aracılığıyla resmî destek kazandı; Eyyûbîler (Selahaddin Eyyûbî) Mısır ve Suriye’de, Muvahhidler (İbn Tûmert) Kuzey Afrika’da bu ekolü yaydı. Bugün Irak, Suriye, Mısır, Hicaz, Yemen, Kuzey Afrika ve Endonezya-Malezya gibi bölgelerde yaygındır; mensuplarının çoğu fıkıhta Şâfiî veya Mâlikîdir.",
+  {
+   "tablo": [
+    [
+     "Eş’arî âlim",
+     "Önemli eseri / rolü"
+    ],
+    [
+     "Ebü’l-Hasen el-Eş’arî (ö. 324/935)",
+     "el-İbâne, el-Lüma’, Makālâtü’l-İslâmiyyîn, İstihsânü’l-havz"
+    ],
+    [
+     "Bâkıllânî (ö. 403/1013)",
+     "et-Temhîd; ekolün ikinci kurucusu"
+    ],
+    [
+     "Cüveynî (ö. 478/1085)",
+     "el-İrşâd, eş-Şâmil; İmâmü’l-Haremeyn"
+    ],
+    [
+     "Gazzâlî (ö. 505/1111)",
+     "el-İktisâd, Tehâfütü’l-felâsife, İhyâ; Bağdat Nizâmiyesi"
+    ],
+    [
+     "Şehristânî (ö. 548/1153)",
+     "el-Milel ve’n-nihal, Nihâyetü’l-ikdâm"
+    ],
+    [
+     "Fahreddin er-Râzî (ö. 606/1209)",
+     "el-Muhassal, Mefâtîhu’l-gayb; müteahhirîn"
+    ],
+    [
+     "Îcî (ö. 756/1355)",
+     "el-Mevâkıf"
+    ],
+    [
+     "Cürcânî (ö. 816/1413)",
+     "Şerhu’l-Mevâkıf"
+    ]
+   ]
+  },
+  {
+   "sinav": "“el-İbâne an usûli’d-diyâne, el-Lüma’ ve Makālâtü’l-İslâmiyyîn gibi eserlerin müellifi” → İmam Eş’arî. Eş’arîliği güçlendiren isimler listesi (Bâkıllânî, Cüveynî, Gazzâlî, Fahreddin Râzî, Îcî, Cürcânî) sık sorulur; Ebü’l-Muîn en-Nesefî, Pezdevî, Sâbûnî ise Mâtürîdîdir."
+  },
+  {
+   "akil": "Eş’arî: Basra, Cübbâî’nin öğrencisi, 40 yaşında ayrıldı (300/912). Öncü İbn Küllâb. Sistem: Bâkıllânî → Cüveynî → Gazzâlî → Râzî (müteahhirîn) → Îcî, Cürcânî. Nizâmiye medreseleriyle yayıldı; Şâfiî ve Mâlikîlerde yaygın."
+  },
+  {
+   "b": "4. Mâtürîdiyye: Semerkant’tan Osmanlı’ya"
+  },
+  {
+   "merak": "Ebû Mansûr el-Mâtürîdî, Eş’arî ile aynı yıllarda yaşadı ve benzer bir işi yaptı. Ama Bağdat ve Basra’daki âlimlerin çoğu onun adını yüzyıllarca neredeyse hiç anmadı. Bugün ise Türk dünyasının büyük kısmı itikatta Mâtürîdîdir. Bu gecikmeli şöhretin sırrı neydi?"
+  },
+  "Mâtürîdiyye, Ebû Mansûr Muhammed b. Muhammed el-Mâtürîdî’nin (ö. 333/944) görüşleri etrafında oluşan kelam ekolüdür. Mâtürîdî, Semerkant’ın Mâtürîd mahallesinde doğdu. Hocaları Ebû Nasr el-İyâzî, Ebû Bekir el-Cûzcânî ve Nusayr b. Yahyâ el-Belhî gibi Hanefî âlimlerdir; ilmî silsilesi İmam Muhammed eş-Şeybânî ve Ebû Yûsuf üzerinden Ebû Hanîfe’ye ulaşır. Mâtürîdî, Ebû Hanîfe’nin el-Fıkhü’l-ekber, el-Fıkhü’l-ebsat, el-Âlim ve’l-müteallim, Osmân el-Bettî’ye Risâle ve el-Vasiyye gibi eserlerde yer alan itikadi görüşlerini akli delillerle sistemleştirdi ve Ehl-i sünnet adıyla meşhur olacak bir yapıya kavuşturdu.",
+  "Mâtürîdî’nin günümüze ulaşan iki büyük eseri vardır: Kelam alanında Kitâbü’t-Tevhîd ve tefsir alanında Te’vîlâtü’l-Kur’ân (Te’vîlâtü Ehli’s-sünne). Kitâbü’t-Tevhîd’de Mu’tezile (özellikle Ka’bî), Şîa, Kerrâmiyye, Seneviyye (düalist dinler), Dehriyye ve Sümeniyye (Budistler) gibi farklı görüşleri eleştirir; bilginin kaynaklarını duyular, haber ve akıl olarak belirler. Mâtürîdî dinî konularda ne Ehl-i hadis gibi nakli tek başına yeterli gördü ne de Mu’tezile gibi akla mutlak öncelik verdi; ikisi arasında orta bir yol izledi.",
+  "Ekolün ilk asırlarında Mâtürîdî’nin görüşleri daha çok Semerkant ve Buhara’daki Hanefî âlimler arasında yayıldı. Hakîm es-Semerkandî’nin es-Sevâdü’l-a’zam’ı, Ebü’l-Yüsr el-Pezdevî’nin Usûlü’d-dîn’i bu dönemin eserleridir. Ekolün asıl sistemleşmesi ve “ikinci kurucu” sayılan isim Ebü’l-Muîn en-Nesefî’dir (ö. 508/1115); Tabsıratü’l-edille adlı eseri Mâtürîdî kelamının en kapsamlı kaynaklarındandır. Necmeddin Ömer en-Nesefî’nin (ö. 537/1142) kısa akaid metni el-Akāidü’n-Nesefiyye, Eş’arî âlim Teftâzânî’nin şerhiyle (Şerhu’l-Akāid) asırlarca medreselerin ders kitabı oldu. Nûreddin es-Sâbûnî’nin el-Bidâye’si, Ebü’l-Berekât en-Nesefî’nin el-Umde’si ve Medârik tefsiri, İbnü’l-Hümâm’ın el-Müsâyere’si, Osmanlı âlimi Beyâzîzâde Ahmed Efendi’nin Ebû Hanîfe’nin risalelerini şerh ettiği İşârâtü’l-merâm’ı da Mâtürîdî literatürünün önemli eserleridir.",
+  "Mâtürîdîliğin geç tanınmasının sebepleri arasında Semerkant’ın İslam dünyasının merkezlerinden uzak olması ve ekolün başlangıçta “Hanefî akaidi” olarak görülüp ayrı bir adla anılmaması sayılır. Karahanlılar, Gazneliler, Selçuklular ve Osmanlılar başta olmak üzere Türk devletlerinin desteğiyle ekol Mâverâünnehir’den Anadolu’ya, Balkanlara, Hint alt kıtasına (Babürlüler) ve Orta Asya’ya yayıldı. Bugün Türkiye, Orta Asya, Balkanlar, Afganistan, Pakistan ve Hindistan’daki Hanefîlerin büyük çoğunluğu itikatta Mâtürîdîdir.",
+  {
+   "tablo": [
+    [
+     "Mâtürîdî âlim",
+     "Önemli eseri / rolü"
+    ],
+    [
+     "Ebû Mansûr el-Mâtürîdî (ö. 333/944)",
+     "Kitâbü’t-Tevhîd, Te’vîlâtü’l-Kur’ân"
+    ],
+    [
+     "Hakîm es-Semerkandî",
+     "es-Sevâdü’l-a’zam"
+    ],
+    [
+     "Ebü’l-Yüsr el-Pezdevî",
+     "Usûlü’d-dîn"
+    ],
+    [
+     "Ebü’l-Muîn en-Nesefî (ö. 508/1115)",
+     "Tabsıratü’l-edille; ekolün sistemleştiricisi"
+    ],
+    [
+     "Necmeddin Ömer en-Nesefî (ö. 537/1142)",
+     "el-Akāidü’n-Nesefiyye"
+    ],
+    [
+     "Nûreddin es-Sâbûnî",
+     "el-Bidâye"
+    ],
+    [
+     "Ebü’l-Berekât en-Nesefî",
+     "el-Umde, Medârikü’t-tenzîl"
+    ],
+    [
+     "İbnü’l-Hümâm",
+     "el-Müsâyere"
+    ],
+    [
+     "Beyâzîzâde Ahmed Efendi",
+     "İşârâtü’l-merâm"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Kitâbü’t-Tevhîd ve Te’vîlâtü’l-Kur’ân” → Mâtürîdî. Mâtürîdiyye’nin ekolleşmesi → Ebü’l-Muîn en-Nesefî. Mâtürîdî’ye ait olmayan görüş sorulursa “Nasların zahir ve bâtın olmak üzere iki ayrı boyutu vardır” gibi bâtınî bir ifade cevaptır. “Ehl-i sünnetin fıkhi mezheplerinden değildir” → Mâtürîdîlik (itikadi mezheptir)."
+  },
+  {
+   "akil": "Mâtürîdî: Semerkant, ö. 333/944; Ebû Hanîfe çizgisi; Kitâbü’t-Tevhîd ve Te’vîlât. Sistemleştiren Ebü’l-Muîn en-Nesefî (Tabsıratü’l-edille). Türk devletleriyle yayıldı; Hanefîlerin itikadi mezhebi."
+  },
+  {
+   "b": "5. Eş’arî – Mâtürîdî farkları ve ortak zemin"
+  },
+  {
+   "merak": "Osmanlı âlimi Kemalpaşazâde iki ekol arasındaki ihtilafları sayıp hepsinin “lafzi” denebilecek ayrıntılar olduğunu söyledi. Peki sınavda sorulan bu ayrıntılar neler?"
+  },
+  "Eş’ariyye ve Mâtürîdiyye Ehl-i sünnetin temel esaslarında birleşir: Allah’ın zatıyla kaim ezelî sıfatları vardır; Kur’an Allah’ın kelamıdır ve kelâm-ı nefsî olarak kadîmdir; müminler ahirette Allah’ı göreceklerdir; kul fiillerini Allah yaratır, kul kesbeder; amel imanın parçası değildir; büyük günah işleyen imandan çıkmaz ve affı Allah’ın dilemesine kalmıştır; şefaat, kabir azabı, mizan ve sırat haktır; imamet nas ve tayinle değil seçimle olur, imamlar masum değildir. Aradaki farklar daha çok akla verilen yer ve bazı teknik meselelerle ilgilidir. Bu farkları sayan eserler de yazılmıştır; Kemalpaşazâde’nin risalesi ve Şeyhzâde’nin Nazmü’l-ferâid’i bunlardandır. Ayrıntılı tartışma kelam dersine aittir; burada sınavda en çok sorulanlar verilmiştir.",
+  {
+   "tablo": [
+    [
+     "Mesele",
+     "Eş’ariyye",
+     "Mâtürîdiyye"
+    ],
+    [
+     "Allah’ı bilmek (marifetullah)",
+     "Şer’an (vahiyle) vaciptir; vahiy gelmeden sorumluluk yok",
+     "Aklen vaciptir; peygamber gelmese de akıl sahibi sorumludur"
+    ],
+    [
+     "Hüsün-kubuh",
+     "Şer’îdir; emir ve nehiyle belirlenir",
+     "Bazı fiillerin iyiliği ve kötülüğü akılla bilinebilir"
+    ],
+    [
+     "Tekvîn sıfatı",
+     "Ayrı bir sıfat değil; kudretin taallukudur",
+     "Ezelî, ayrı bir sıfattır"
+    ],
+    [
+     "İmanın artıp eksilmesi",
+     "Artar ve eksilir (bir kısmına göre)",
+     "Mahiyet olarak artmaz, eksilmez"
+    ],
+    [
+     "İmanda istisna",
+     "Caizdir",
+     "Caiz değildir"
+    ],
+    [
+     "İman-İslam ilişkisi",
+     "Farklı kavramlar",
+     "Aynı konumdadır, ayrılmaz"
+    ],
+    [
+     "Güç yetirilemeyen yükümlülük",
+     "Aklen caiz",
+     "Caiz değil"
+    ],
+    [
+     "Allah’ın fiillerinde hikmet",
+     "Allah’ın fiilleri bir amaçla (garaz) sınırlanamaz",
+     "Allah’ın fiilleri hikmetlidir; abes iş yapmaz"
+    ]
+   ]
+  },
+  "Bu karşılaştırmadan şu genel sonuç çıkar: Mâtürîdiyye akla Eş’ariyye’den daha geniş bir alan tanır; insanın iradesini ve sorumluluğunu daha çok vurgular. Eş’ariyye ise ilahî kudretin ve iradenin mutlaklığını öne çıkarır. Selefiyye ile karşılaştırıldığında her iki ekol de müteşâbih ayetlerde gerektiğinde te’vile başvurmuş, haberî sıfatları ya tafsilatsız tenzihle (tefvîz) ya da dilin imkânlarına uygun te’villerle anlamıştır; Selefiyye ise te’vili reddeder.",
+  "Ehl-i sünnet bugün Müslümanların büyük çoğunluğunu oluşturur. İtikatta Müslümanların çoğu Eş’arî veya Mâtürîdîdir. Genel bir eğilim olarak Eş’arîlik Arap dünyasında ve Güneydoğu Asya’da, Mâtürîdîlik Türk dünyasında, Balkanlarda ve Hint alt kıtasında hâkimdir. Fıkıhta Hanefîlerin büyük kısmı Mâtürîdî, Şâfiî ve Mâlikîlerin büyük kısmı Eş’arî, Hanbelîler ise Selefîdir.",
+  {
+   "sinav": "Öncüllü Mâtürîdî sorularında doğru seçilecekler: imanda aslolan kalp ile tasdik, dil ile ikrar kalpteki imanın ifadesi; iman ve İslam aynı konumda; iman artıp eksilmez; istisna caiz değil. Yanlış seçilecekler: imanda derecelendirme ve istisnanın caiz oluşu (Eş’arî/Ehl-i hadis). “Allah’ı bilmek aklen değil naklen vaciptir; vahiy gelmedikçe insan sorumlu değildir” → Eş’arîlik."
+  },
+  {
+   "akil": "Ortak: sıfatlar ezelî, Kur’an kadîm, ru’yet var, kesb, amel imandan değil, büyük günahkâr mümin, imamet seçimle. Fark: Mâtürîdî akla daha geniş yer verir (marifet aklen vacip, tekvîn ayrı sıfat, istisna yok, iman-İslam bir); Eş’arî ilahî kudreti öne çıkarır."
+  }
+ ],
+ "ozet": [
+  "Ehl-i sünnet iki damardan doğdu: Ehl-i hadis (Hicaz, Mâlik, Şâfiî, Ahmed b. Hanbel) ve Ehl-i rey (Kûfe, Ebû Hanîfe).",
+  "IV. asırda kelam iki ekolde sistemleşti: Eş’ariyye (Irak) ve Mâtürîdiyye (Semerkant).",
+  "Selef: ilk üç nesil; Selefiyye: sıfatları teşbihsiz ve te’vilsiz kabul eder.",
+  "Ehl-i hadis: iman söz, niyet ve ameldir; artar-eksilir; istisna caizdir; iman ile İslam farklıdır.",
+  "Selefiyye’nin yedi ilkesi: takdis, tasdik, acz-i itiraf, sükût, imsâk, keff, marifet ehline teslim (Gazzâlî, İlcâmü’l-avâm).",
+  "İmam Mâlik: “İstivâ bilinmektedir, keyfiyeti bilinmez, ona iman vacip, sormak bid’attır.”",
+  "Selefiyye’nin taşıyıcısı Hanbelîler; İbn Teymiyye (ö. 728/1328) yeniden canlandırdı; öğrencisi İbn Kayyim.",
+  "İbn Teymiyye’nin fikirleri Muhammed b. Abdülvehhâb ile Vehhâbîliğe dönüştü.",
+  "Eş’arî (260-324/873-935): Cübbâî’nin öğrencisi; 40 yaşında Mu’tezile’den ayrıldı; öncü İbn Küllâb.",
+  "Eş’arî’nin eserleri: el-İbâne, el-Lüma’, Makālâtü’l-İslâmiyyîn, İstihsânü’l-havz.",
+  "Eş’arî temsilciler: Bâkıllânî (et-Temhîd), Cüveynî, Gazzâlî, Şehristânî, Fahreddin Râzî, Îcî, Cürcânî.",
+  "Eş’arîlik Nizâmiye medreseleri, Eyyûbîler ve Muvahhidlerle yayıldı; Şâfiî ve Mâlikîlerde yaygın.",
+  "Mâtürîdî (ö. 333/944): Semerkant; Ebû Hanîfe çizgisi; Kitâbü’t-Tevhîd ve Te’vîlâtü’l-Kur’ân.",
+  "Mâtürîdiyye’yi sistemleştiren Ebü’l-Muîn en-Nesefî (Tabsıratü’l-edille); Ömer Nesefî’nin Akāid’i Teftâzânî şerhiyle okutuldu.",
+  "Mâtürîdîlik Türk devletleriyle yayıldı; Hanefîlerin itikadi mezhebidir.",
+  "Fark: Mâtürîdî’de marifetullah aklen vacip, tekvîn ayrı sıfat, istisna caiz değil, iman-İslam aynı; Eş’arî’de aksi."
+ ],
+ "kartlar": [
+  {
+   "o": "Selef",
+   "a": "İlk üç nesil: sahabe, tâbiîn, tebe-i tâbiîn."
+  },
+  {
+   "o": "Selefiyye’nin yedi ilkesi",
+   "a": "Takdis, tasdik, acz-i itiraf, sükût, imsâk, keff, marifet ehline teslim."
+  },
+  {
+   "o": "Ehl-i hadiste iman",
+   "a": "Söz, niyet ve amel; artar ve eksilir; istisna caiz."
+  },
+  {
+   "o": "İbn Teymiyye",
+   "a": "Selefiyye’yi VIII./XIV. asırda canlandıran Hanbelî âlim; Der’ü teâruz, Minhâcü’s-sünne, el-Akīdetü’l-Vâsıtıyye."
+  },
+  {
+   "o": "İbn Küllâb",
+   "a": "Eş’arî’den önce Ehl-i hadis inançlarını kelam yöntemiyle savunan öncü (Küllâbiyye)."
+  },
+  {
+   "o": "Eş’arî’nin eserleri",
+   "a": "el-İbâne, Kitâbü’l-Lüma’, Makālâtü’l-İslâmiyyîn, İstihsânü’l-havz."
+  },
+  {
+   "o": "Bâkıllânî",
+   "a": "Eş’ariyye’nin ikinci kurucusu; et-Temhîd."
+  },
+  {
+   "o": "Cüveynî",
+   "a": "İmâmü’l-Haremeyn; el-İrşâd, eş-Şâmil; Gazzâlî’nin hocası."
+  },
+  {
+   "o": "Müteahhirîn dönemi",
+   "a": "Gazzâlî ve Fahreddin Râzî ile başlayan, mantık ve felsefeyi kelama katan dönem."
+  },
+  {
+   "o": "Mâtürîdî’nin eserleri",
+   "a": "Kitâbü’t-Tevhîd ve Te’vîlâtü’l-Kur’ân (Te’vîlâtü Ehli’s-sünne)."
+  },
+  {
+   "o": "Ebü’l-Muîn en-Nesefî",
+   "a": "Mâtürîdiyye’nin sistemleştiricisi (ö. 508/1115); Tabsıratü’l-edille."
+  },
+  {
+   "o": "el-Akāidü’n-Nesefiyye",
+   "a": "Necmeddin Ömer en-Nesefî’nin akaid metni; Teftâzânî şerh etti."
+  },
+  {
+   "o": "İşârâtü’l-merâm",
+   "a": "Beyâzîzâde Ahmed Efendi; Ebû Hanîfe’nin risalelerinin Mâtürîdî şerhi."
+  },
+  {
+   "o": "Marifetullah: Eş’arî – Mâtürîdî",
+   "a": "Eş’arî: şer’an vacip. Mâtürîdî: aklen vacip."
+  },
+  {
+   "o": "Tekvîn",
+   "a": "Mâtürîdî: ezelî, ayrı sıfat. Eş’arî: kudretin taalluku."
+  },
+  {
+   "o": "KARIŞTIRMA: İstisna ve iman-İslam",
+   "a": "Mâtürîdî: istisna caiz değil, iman-İslam aynı. Eş’arî ve Ehl-i hadis: istisna caiz, iman-İslam farklı."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "mz6-01",
+   "z": 2,
+   "s": "“Kur’an-ı Kerim’de geçen ‘Allah’ın eli’ ifadesini mahiyetini sorgulamadan ve te’vil etmeden olduğu gibi kabul eder, Allah’ı yaratılmışlara benzetmeden ona inanırım.” diyen bir kimsenin aşağıdakilerden hangisine mensup olması beklenir?",
+   "c": [
+    "Kaderiyye",
+    "Mürcie",
+    "Hâricîler",
+    "Mu’tezile",
+    "Selefiyye"
+   ],
+   "d": 4,
+   "a": "Haberî sıfatları teşbihsiz ve te’vilsiz kabul eden yaklaşım Selefiyye’ye aittir.",
+   "ac": [
+    "Kaderiyye kul fiilleriyle ilgili görüşüyle bilinir.",
+    "Mürcie iman-amel tartışmasıyla bilinir.",
+    "Hâricîler büyük günah ve imamet görüşleriyle bilinir.",
+    "Mu’tezile bu tür ifadeleri te’vil eder (el = kudret).",
+    "Doğru."
+   ],
+   "kay": "Konu: Selefiyye"
+  },
+  {
+   "id": "mz6-02",
+   "z": 3,
+   "s": "Müteşâbih ayetler karşısındaki tavırla ilgili şu ilkeler veriliyor:\nI. Takdis\nII. Acz-i itiraf\nIII. Sükût\nIV. Te’vil\nV. İmsâk\n\nBunlardan hangileri Selefiyye’nin benimsediği ilkeler arasında yer almaz?",
+   "c": [
+    "Yalnız IV",
+    "Yalnız V",
+    "II ve IV",
+    "III ve V",
+    "IV ve V"
+   ],
+   "d": 0,
+   "a": "Takdis, acz-i itiraf, sükût ve imsâk Selefiyye’nin ilkelerindendir; imsâk zaten te’vil etmemek demektir. Te’vil ise Selefiyye’nin reddettiği yöntemdir.",
+   "ac": [
+    "Doğru: te’vil Selefiyye ilkesi değildir.",
+    "İmsâk Selefiyye ilkesidir.",
+    "Acz-i itiraf Selefiyye ilkesidir.",
+    "Sükût ve imsâk Selefiyye ilkeleridir.",
+    "İmsâk Selefiyye ilkesidir."
+   ],
+   "kay": "Gazzâlî, İlcâmü’l-avâm"
+  },
+  {
+   "id": "mz6-03",
+   "z": 2,
+   "s": "el-İbâne an usûli’d-diyâne, Kitâbü’l-Lüma’ fi’r-red alâ ehli’z-zeyğ ve’l-bida’ ve Makālâtü’l-İslâmiyyîn gibi eserlerin müellifi aşağıdakilerden hangisidir?",
+   "c": [
+    "İmam Mâtürîdî",
+    "İmam Eş’arî",
+    "Ebû Hanîfe",
+    "Bâkıllânî",
+    "İmam Şâfiî"
+   ],
+   "d": 1,
+   "a": "Bu eserler Ebü’l-Hasen el-Eş’arî’ye aittir.",
+   "ac": [
+    "Mâtürîdî’nin eserleri Kitâbü’t-Tevhîd ve Te’vîlât’tır.",
+    "Doğru.",
+    "Ebû Hanîfe’ye el-Fıkhü’l-ekber gibi risaleler nispet edilir.",
+    "Bâkıllânî’nin meşhur eseri et-Temhîd’dir.",
+    "Şâfiî’nin eserleri er-Risâle ve el-Ümm’dür."
+   ],
+   "kay": "Konu: Eş’ariyye"
+  },
+  {
+   "id": "mz6-04",
+   "z": 3,
+   "s": "“Allah’ı bilmek aklen değil naklen vaciptir. İnsanın ilahî teklifle muhatap olabilmesi için akıl tek başına yeterli değildir; bu konuda belirleyici olan vahiydir. Vahiy gelmediği sürece insan yaptığı hiçbir şeyden sorumlu değildir.”\n\nMarifetullah hakkında bu görüşü savunan itikadi mezhep aşağıdakilerden hangisidir?",
+   "c": [
+    "Mâtürîdiyye",
+    "Mu’tezile",
+    "Zeydiyye",
+    "Eş’ariyye",
+    "Ca’feriyye"
+   ],
+   "d": 3,
+   "a": "Marifetullahın şer’an vacip olduğu ve vahiy gelmeden sorumluluk olmadığı görüşü Eş’ariyye’ye aittir.",
+   "ac": [
+    "Mâtürîdiyye marifetullahı aklen vacip sayar.",
+    "Mu’tezile de aklen vacip sayar.",
+    "Zeydiyye itikatta Mu’tezile’ye yakındır; aklen vacip der.",
+    "Doğru.",
+    "Ca’feriyye (İmâmiyye) de hüsün-kubuhu aklî sayar."
+   ],
+   "kay": "Konu: Eş’arî-Mâtürîdî farkları"
+  },
+  {
+   "id": "mz6-05",
+   "z": 3,
+   "s": "Mâtürîdî mezhebine mensup bir kimsenin iman konusunda şu hususlardan hangilerini savunması beklenir?\nI. İmanda derecelendirme söz konusudur; iman amellerle artar.\nII. İmanda aslolan kalp ile tasdiktir; dil ile ikrar kalpteki imanın ifadesidir.\nIII. İmanda istisnada bulunmak caizdir.\nIV. İman ve İslam kavramları aynı konumdadır.",
+   "c": [
+    "I ve II",
+    "I ve III",
+    "II ve III",
+    "II ve IV",
+    "III ve IV"
+   ],
+   "d": 3,
+   "a": "Mâtürîdîlere göre imanda asıl unsur tasdiktir; iman ile İslam birbirinden ayrılmaz. İmanın artıp eksilmesi ve istisna Eş’arî ve Ehl-i hadis görüşüdür.",
+   "ac": [
+    "I Mâtürîdî görüşü değildir.",
+    "I ve III Mâtürîdî görüşü değildir.",
+    "III Mâtürîdî görüşü değildir.",
+    "Doğru.",
+    "III Mâtürîdî görüşü değildir."
+   ],
+   "kay": "Konu: Mâtürîdiyye’de iman"
+  },
+  {
+   "id": "mz6-06",
+   "z": 2,
+   "s": "Aşağıdakilerden hangisi Eş’arî kelam ekolünün temsilcilerinden biri değildir?",
+   "c": [
+    "Bâkıllânî",
+    "Cüveynî",
+    "Gazzâlî",
+    "Fahreddin er-Râzî",
+    "Ebü’l-Muîn en-Nesefî"
+   ],
+   "d": 4,
+   "a": "Ebü’l-Muîn en-Nesefî, Mâtürîdiyye’nin sistemleştiricisidir.",
+   "ac": [
+    "Bâkıllânî Eş’arîdir; ikinci kurucu sayılır.",
+    "Cüveynî Eş’arîdir.",
+    "Gazzâlî Eş’arîdir.",
+    "Râzî müteahhir Eş’arîdir.",
+    "Doğru: Ebü’l-Muîn Mâtürîdîdir."
+   ],
+   "kay": "Konu: Eş’arî temsilciler"
+  },
+  {
+   "id": "mz6-07",
+   "z": 3,
+   "s": "Bir âlim hakkında şu bilgiler veriliyor:\n– Semerkant’ta yaşamış, ilmî silsilesi Ebû Hanîfe’ye ulaşan Hanefî hocalardan okumuştur.\n– Bilginin kaynaklarını duyular, haber ve akıl olarak belirlemiştir.\n– Kelam alanındaki eserinde Mu’tezilî Ka’bî’yi, Seneviyye ve Sümeniyye gibi grupları eleştirmiştir.\n– Tefsir alanında da günümüze ulaşmış büyük bir eseri vardır.\n\nBu âlim ve kelam alanındaki eseri aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Ebü’l-Muîn en-Nesefî – Tabsıratü’l-edille",
+    "Ebü’l-Yüsr el-Pezdevî – Usûlü’d-dîn",
+    "Ebû Mansûr el-Mâtürîdî – Kitâbü’t-Tevhîd",
+    "Hakîm es-Semerkandî – es-Sevâdü’l-a’zam",
+    "Necmeddin Ömer en-Nesefî – el-Akāid"
+   ],
+   "d": 2,
+   "a": "Semerkantlı, Ebû Hanîfe çizgisinde, Ka’bî’yi eleştiren ve Te’vîlâtü’l-Kur’ân adlı tefsiri bulunan âlim Mâtürîdî’dir; kelam eseri Kitâbü’t-Tevhîd’dir.",
+   "ac": [
+    "Ebü’l-Muîn ekolü sistemleştiren sonraki âlimdir; günümüze ulaşan büyük bir tefsiri yoktur.",
+    "Pezdevî Buharalıdır; tefsir eseriyle tanınmaz.",
+    "Doğru.",
+    "Hakîm es-Semerkandî’nin eseri kısa bir akaid metnidir.",
+    "Ömer en-Nesefî’nin Akāid’i kısa bir metindir; Ka’bî eleştirisiyle bilinmez."
+   ],
+   "kay": "Konu: Mâtürîdiyye"
+  },
+  {
+   "id": "mz6-08",
+   "z": 2,
+   "s": "Köken arayışı neredeyse bütün dinî-toplumsal hareketlerde görülür. Vehhâbîlik de kendisini geçmişte yaşamış bazı isimler üzerinden temellendirmeye çalışmıştır.\n\nAşağıdakilerden hangisi Vehhâbîliğin kendisini dayandırdığı isimlerden biridir?",
+   "c": [
+    "İbn Teymiyye",
+    "Kādî Abdülcebbâr",
+    "Ebü’l-Muîn en-Nesefî",
+    "Cüveynî",
+    "Fahreddin er-Râzî"
+   ],
+   "d": 0,
+   "a": "Vehhâbîlik, Selefiyye’yi VIII./XIV. asırda yeniden canlandıran İbn Teymiyye’yi ve öğrencisi İbn Kayyim’i kendisine dayanak edinir.",
+   "ac": [
+    "Doğru.",
+    "Kādî Abdülcebbâr Mu’tezilîdir.",
+    "Ebü’l-Muîn Mâtürîdîdir.",
+    "Cüveynî Eş’arîdir.",
+    "Râzî Eş’arî kelamcıdır; Vehhâbîlerin eleştirdiği bir isimdir."
+   ],
+   "kay": "Konu: Selefiyye ve İbn Teymiyye"
+  },
+  {
+   "id": "mz6-09",
+   "z": 3,
+   "s": "Eş’ariyye ve Mâtürîdiyye ile ilgili şu karşılaştırmalar veriliyor:\nI. Tekvîn sıfatını Mâtürîdîler ezelî ve ayrı bir sıfat sayar; Eş’arîler kudretin taalluku olarak görür.\nII. Güç yetirilemeyen yükümlülüğü Eş’arîler aklen caiz görür; Mâtürîdîler caiz görmez.\nIII. Kul fiillerini Mâtürîdîler kulun yarattığını, Eş’arîler Allah’ın yarattığını savunur.\n\nBu karşılaştırmalardan hangileri doğrudur?",
+   "c": [
+    "Yalnız I",
+    "Yalnız III",
+    "I ve II",
+    "II ve III",
+    "I, II ve III"
+   ],
+   "d": 2,
+   "a": "Tekvîn ve teklîf-i mâ lâ yutak konusundaki farklar doğrudur. Kul fiilleri konusunda ise iki ekol de “Allah yaratır, kul kesbeder” der; kulun fiilini yarattığı görüşü Mu’tezile’ye aittir.",
+   "ac": [
+    "Eksik: II de doğrudur.",
+    "III yanlıştır.",
+    "Doğru.",
+    "III yanlıştır.",
+    "III yanlıştır."
+   ],
+   "kay": "Konu: Eş’arî-Mâtürîdî farkları"
+  },
+  {
+   "id": "mz6-10",
+   "z": 2,
+   "s": "Aşağıdaki görüşlerden hangisi İmam Mâtürîdî’ye ait değildir?",
+   "c": [
+    "İslam’a girmenin şartı ameller değil, Allah’ı tasdiktir.",
+    "İnsanlar amellerini terk etmekle mümin vasfını kaybetmez.",
+    "Nasların ve şeriatın biri zâhir, diğeri bâtın olmak üzere iki ayrı boyutu vardır; gerçek anlamı ancak masum imam bilir.",
+    "Allah’ın ahirette müminler tarafından görüleceği nakli ve akli delillerle sabittir.",
+    "Kul fiillerini Allah yaratır, kul cüz’î iradesiyle kesbeder."
+   ],
+   "d": 2,
+   "a": "Nasların zâhir ve bâtın olmak üzere iki boyutu olduğu ve gerçek anlamı masum imamın bildiği görüşü bâtınî (İsmâilî) anlayışa aittir.",
+   "ac": [
+    "Mâtürîdî görüşüdür.",
+    "Mâtürîdî görüşüdür.",
+    "Doğru: bu bâtınî bir görüştür.",
+    "Mâtürîdî görüşüdür.",
+    "Mâtürîdî görüşüdür."
+   ],
+   "kay": "Konu: Mâtürîdiyye"
+  },
+  {
+   "id": "mz6-11",
+   "z": 3,
+   "s": "Bir âlim hakkında şu bilgiler veriliyor: Basra’da doğmuş, sahabî Ebû Mûsâ el-Eş’arî’nin soyundandır. Kırk yaşına kadar annesinin eşi olan Mu’tezilî hocasının yanında yetişmiş, sonra Basra Camii’nde eski görüşlerini terk ettiğini ilan etmiştir. Ondan önce de Ehl-i hadisin inançlarını kelam yöntemiyle savunan bir öncü bulunmaktadır.\n\nBu âlimin ayrıldığı hocası ve kendisinden önceki öncü aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Ka’bî – İbn Kerrâm",
+    "Ebü’l-Hüzeyl el-Allâf – Ahmed b. Hanbel",
+    "Nazzâm – Hâris el-Muhâsibî",
+    "Ebû Hâşim el-Cübbâî – Bâkıllânî",
+    "Ebû Ali el-Cübbâî – İbn Küllâb"
+   ],
+   "d": 4,
+   "a": "Eş’arî’nin hocası ve annesinin eşi Ebû Ali el-Cübbâî’dir. Eş’arî’den önce Ehl-i hadis inançlarını kelam yöntemiyle savunan öncü Abdullah b. Saîd b. Küllâb’dır.",
+   "ac": [
+    "Ka’bî Bağdatlı Mu’tezilîdir; İbn Kerrâm Kerrâmiyye’nin kurucusudur.",
+    "Allâf Eş’arî’nin hocası değildir; Ahmed b. Hanbel kelamcı değildir.",
+    "Nazzâm Eş’arî’nin hocası değildir.",
+    "Ebû Hâşim, Cübbâî’nin oğludur, Eş’arî’nin hocası değildir; Bâkıllânî Eş’arî’den sonra gelir.",
+    "Doğru."
+   ],
+   "kay": "Konu: Eş’arî’nin hayatı"
+  },
+  {
+   "id": "mz6-12",
+   "z": 3,
+   "s": "Ehl-i sünnetin itikadi ve fıkhi mezhepleriyle ilgili aşağıdaki bilgilerden hangisi doğru değildir?",
+   "c": [
+    "Günümüzde Müslümanların büyük çoğunluğu Ehl-i sünnettir.",
+    "Mâtürîdîlik, Ehl-i sünnetin dört fıkıh mezhebinden biridir.",
+    "Eş’arîlik genelde Arap dünyasında, Mâtürîdîlik Türk dünyasında hâkimdir.",
+    "Hanbelîler itikatta genellikle Selefî çizgidedir.",
+    "İtikatta Müslümanların çoğu Eş’arî veya Mâtürîdîdir."
+   ],
+   "d": 1,
+   "a": "Mâtürîdîlik itikadi bir mezheptir; dört fıkıh mezhebi Hanefî, Mâlikî, Şâfiî ve Hanbelîdir.",
+   "ac": [
+    "Doğru.",
+    "Doğru değildir: Mâtürîdîlik itikadi mezheptir.",
+    "Doğru.",
+    "Doğru.",
+    "Doğru."
+   ],
+   "kay": "Konu: Ehl-i sünnetin haritası"
+  },
+  {
+   "id": "mz6-13",
+   "z": 2,
+   "s": "Medreselerde asırlarca okutulan el-Akāidü’n-Nesefiyye adlı akaid metni ile bu metne yazılan ve Eş’arî bir âlime ait olan meşhur şerh sırasıyla aşağıdakilerin hangisinde verilmiştir?",
+   "c": [
+    "Ebü’l-Muîn en-Nesefî – Cürcânî",
+    "Necmeddin Ömer en-Nesefî – Teftâzânî",
+    "Ebü’l-Berekât en-Nesefî – Îcî",
+    "Ebü’l-Yüsr el-Pezdevî – Gazzâlî",
+    "Nûreddin es-Sâbûnî – Râzî"
+   ],
+   "d": 1,
+   "a": "el-Akāidü’n-Nesefiyye Necmeddin Ömer en-Nesefî’nin metnidir; en meşhur şerhi Teftâzânî’nin Şerhu’l-Akāid’idir.",
+   "ac": [
+    "Ebü’l-Muîn’in eseri Tabsıratü’l-edille’dir; Cürcânî’nin meşhur şerhi Şerhu’l-Mevâkıf’tır.",
+    "Doğru.",
+    "Ebü’l-Berekât’ın eserleri el-Umde ve Medârik’tir; Îcî el-Mevâkıf’ın yazarıdır.",
+    "Pezdevî’nin eseri Usûlü’d-dîn’dir.",
+    "Sâbûnî’nin eseri el-Bidâye’dir."
+   ],
+   "kay": "Konu: Mâtürîdî literatürü"
+  },
+  {
+   "id": "mz6-14",
+   "z": 2,
+   "s": "Eş’arî kelamının resmî destek kazanarak yayılmasında Selçuklu veziri Nizâmülmülk’ün kurduğu medreseler önemli rol oynamıştır. Bu medreselerden birinde Cüveynî, bir diğerinde ise onun öğrencisi Gazzâlî müderrislik yapmıştır.\n\nBu medreselerin bulunduğu şehirler sırasıyla (Cüveynî – Gazzâlî) aşağıdakilerin hangisinde verilmiştir?",
+   "c": [
+    "Nişabur – Bağdat",
+    "Bağdat – Dımaşk",
+    "Semerkant – Buhara",
+    "Kahire – Bağdat",
+    "Rey – Nişabur"
+   ],
+   "d": 0,
+   "a": "Cüveynî Nişabur Nizâmiyesi’nde, Gazzâlî Bağdat Nizâmiyesi’nde ders vermiştir.",
+   "ac": [
+    "Doğru.",
+    "Cüveynî Bağdat’ta değil Nişabur’da ders vermiştir.",
+    "Semerkant ve Buhara Mâtürîdî merkezleridir.",
+    "Kahire’de Nizâmiye medresesi Cüveynî’nin görev yeri değildir.",
+    "Rey Cüveynî’nin görev yeri değildir; Gazzâlî Bağdat Nizâmiyesi’nde ders vermiştir."
+   ],
+   "kay": "Konu: Eş’arîliğin yayılması"
+  },
+  {
+   "id": "mz6-15",
+   "z": 3,
+   "s": "Hicrî VIII. asırda yaşayan bir Hanbelî âlim; kelamcıları, filozofları ve bazı sûfî uygulamaları eleştirmiş, akıl ile naklin gerçekte çatışmadığını savunan hacimli bir eser yazmış, Şîa’ya karşı da kapsamlı bir reddiye kaleme almıştır. Tevhidi rubûbiyyet, ulûhiyyet ve esmâ-sıfât şeklinde üçlü bir tasnifle ele alan yaklaşım onun düşüncesine dayanır.\n\nBu âlimin eserleri aşağıdakilerin hangisinde birlikte verilmiştir?",
+   "c": [
+    "Tabsıratü’l-edille – et-Temhîd",
+    "Telbîsü İblîs – Def’u şübehi’t-teşbîh",
+    "el-Muhassal – Mefâtîhu’l-gayb",
+    "Der’ü teâruzi’l-akl ve’n-nakl – Minhâcü’s-sünne",
+    "el-İrşâd – eş-Şâmil"
+   ],
+   "d": 3,
+   "a": "Tarif edilen âlim İbn Teymiyye’dir; Der’ü teâruzi’l-akl ve’n-nakl ve Şîa’ya reddiye olan Minhâcü’s-sünne onun eserleridir.",
+   "ac": [
+    "Ebü’l-Muîn en-Nesefî ve Bâkıllânî’nin eserleridir.",
+    "İbnü’l-Cevzî’nin eserleridir.",
+    "Fahreddin er-Râzî’nin eserleridir.",
+    "Doğru.",
+    "Cüveynî’nin eserleridir."
+   ],
+   "kay": "Konu: İbn Teymiyye"
+  },
+  {
+   "id": "mz6-16",
+   "z": 1,
+   "s": "Ebû Mansûr el-Mâtürîdî’nin doğup yaşadığı ve Mâtürîdî kelamının ilk merkezi olan şehir aşağıdakilerden hangisidir?",
+   "c": [
+    "Buhara",
+    "Basra",
+    "Nişabur",
+    "Semerkant",
+    "Belh"
+   ],
+   "d": 3,
+   "a": "Mâtürîdî Semerkant’ın Mâtürîd mahallesinde doğmuş ve orada yaşamıştır.",
+   "ac": [
+    "Buhara da önemli bir Hanefî merkezidir; fakat Mâtürîdî’nin şehri değildir.",
+    "Basra Eş’arî’nin şehridir.",
+    "Nişabur Eş’arîliğin önemli merkezidir.",
+    "Doğru.",
+    "Belh Mâtürîdî’nin bazı hocalarının yetiştiği yerdir."
+   ],
+   "kay": "Konu: Mâtürîdî’nin hayatı"
+  }
+ ]
+}

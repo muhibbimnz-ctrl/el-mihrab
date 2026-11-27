@@ -1,0 +1,858 @@
+{
+ "id": "siyer-12",
+ "ad": "Endülüs, Kuzey Afrika ve Mısır’da Kurulan İslam Devletleri",
+ "ders": "Siyer ve İslam Tarihi",
+ "oncelik": 2,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Endülüs Emevîleri: Kurtuba’nın yükselişi"
+  },
+  {
+   "merak": "Bağdat’ta katliamdan kaçan yirmi yaşındaki bir Emevî prensi, Fırat’ı yüzerek geçti, beş yıl boyunca Filistin’den Mağrib’e saklanarak yolculuk etti ve sonunda İspanya’ya ulaştı. Rakibi Abbâsî halifesi Mansûr bile ona “Kureyş’in şahini” (Sakru Kureyş) demekten kendini alamadı."
+  },
+  "Endülüs (İber Yarımadası), 92/711’de Târık b. Ziyâd ve Mûsâ b. Nusayr tarafından fethedildi. 711-756 arasındaki döneme, Şam’daki halifenin veya Kuzey Afrika valisinin atadığı valilerle yönetildiği için “Valiler Dönemi” (Asrü’l-vülât) denir. Bu dönemde Araplar arasındaki Kays-Yemen çekişmesi ve Araplarla Berberîler arasındaki gerginlik ülkeyi sık sık iç savaşa sürükledi. Valilerden Abdurrahman el-Gâfikî Fransa içlerine ilerlediyse de Puvatya’da (732) yenildi.",
+  "Abbâsîlerin Emevî ailesini katletmesinden kaçan Hişâm b. Abdülmelik’in torunu Abdurrahman b. Muâviye, Endülüs’teki Emevî mevâlîsinin ve Yemenli kabilelerin desteğini aldı ve 138/756’da Kurtuba’da emirliğini ilan etti. Böylece Endülüs, Abbâsî Devleti’nden kopan ilk bölge oldu. Abdurrahman’a “ed-Dâhil” (ülkeye giren) lakabı verilir. Kurduğu devlet, Abbâsî halifesini tanımadığı hâlde başlangıçta “halife” değil “emîr” unvanını kullandı.",
+  "I. Hişâm (172-180/788-796) Mâlikî mezhebini Endülüs’ün resmî mezhebi yaptı. Bu tercih, Endülüs ve Kuzey Afrika’nın bugün hâlâ büyük ölçüde Mâlikî olmasının başlangıcıdır. II. Abdurrahman döneminde Doğu’nun kültür ve sanatı (müzisyen Ziryâb örneğinde olduğu gibi) Endülüs’e taşındı. III. Abdurrahman (300-350/912-961), Fâtımîlerin halifelik ilanına karşılık 316/929’da “en-Nâsır li-dînillâh” unvanıyla halifeliğini ilan etti. Böylece İslam dünyasında aynı anda üç halifelik vardı: Bağdat’ta Abbâsî, Kuzey Afrika’da Fâtımî, Kurtuba’da Endülüs Emevî.",
+  "III. Abdurrahman’ın Kurtuba yakınında kurdurduğu saray şehri Medînetü’z-Zehrâ, oğlu II. Hakem’in (350-366/961-976) yüz binlerce cilt olduğu rivayet edilen kütüphanesi, Kurtuba Ulu Camii’nin genişletilmesi devletin altın çağını gösterir. II. Hakem’den sonra küçük yaştaki II. Hişâm’ın hâcibi (başveziri) Muhammed b. Ebû Âmir, “el-Mansûr” lakabıyla fiilen devleti yönetti ve Hristiyan krallıklara karşı ellinin üzerinde sefer yaptı. Onun ölümünden sonra iç savaşlar (fitne) başladı ve Kurtuba eşrafının 422/1031’de aldığı kararla halifeliğe son verildi.",
+  {
+   "tablo": [
+    [
+     "Dönem",
+     "Tarih",
+     "Önemli kişi / olay"
+    ],
+    [
+     "Fetih",
+     "711",
+     "Târık b. Ziyâd, Mûsâ b. Nusayr"
+    ],
+    [
+     "Valiler dönemi",
+     "711-756",
+     "Puvatya yenilgisi (732)"
+    ],
+    [
+     "Emirlik dönemi",
+     "756-929",
+     "I. Abdurrahman ed-Dâhil; I. Hişâm Mâlikî mezhebini resmî yaptı"
+    ],
+    [
+     "Halifelik dönemi",
+     "929-1031",
+     "III. Abdurrahman en-Nâsır; Medînetü’z-Zehrâ; II. Hakem’in kütüphanesi; Hâcib el-Mansûr"
+    ],
+    [
+     "Mülûkü’t-tavâif",
+     "1031-1090 civarı",
+     "Küçük devletçikler; Toledo’nun kaybı (1085)"
+    ],
+    [
+     "Murâbıt ve Muvahhid hâkimiyeti",
+     "1086-1228 civarı",
+     "Zallâka (1086), Ikāb yenilgisi (1212)"
+    ],
+    [
+     "Nasrîler (Gırnata)",
+     "1238-1492",
+     "Elhamra Sarayı; 1492’de Gırnata’nın düşüşü"
+    ]
+   ]
+  },
+  "Endülüs toplumu çok renkliydi: Araplar, Berberîler, İspanya’nın yerli halkından Müslüman olanlar (muvalledûn), Müslüman olmayıp Arap kültürünü benimseyen Hristiyanlar (müsta’ribûn, Mozarablar), Vizigotların baskısından kurtulup hakları iade edilen Yahudiler ve saray hizmetindeki Slav kökenli sakâlibe. Hristiyan egemenliğine girdikten sonra dinini koruyan Müslümanlara müdeccen (Mudejar), zorla Hristiyanlaştırılan Müslümanlara Morisko denildi.",
+  {
+   "sinav": "“Abbâsîlerden kopan ilk devlet” → Endülüs Emevîleri (756). “Endülüs’te Mâlikî mezhebini resmî yapan” → I. Hişâm. “929’da halifelik ilanı” → III. Abdurrahman. Muvalledûn (yerli Müslüman) ile müsta’ribûn (Araplaşmış Hristiyan) karıştırılır."
+  },
+  {
+   "akil": "Endülüs: Valiler (711-756) → Abdurrahman ed-Dâhil emirlik (756) → III. Abdurrahman halifelik (929) → hilafetin sonu (1031). I. Hişâm: Mâlikî mezhebi resmî."
+  },
+  {
+   "b": "2. Endülüs’ün son yüzyılları ve ilim mirası"
+  },
+  {
+   "merak": "1492’nin Ocak ayında Gırnata’nın son sultanı Ebû Abdullah, şehrin anahtarlarını teslim edip dağlara doğru çekilirken dönüp Elhamra’ya baktı ve ağladı. Annesinin ona söylediği rivayet edilen söz hâlâ anlatılır: “Erkekler gibi koruyamadığın ülke için kadınlar gibi ağla!”"
+  },
+  "Halifeliğin yıkılmasından sonra Endülüs; Sevilla, Toledo, Saragosa, Gırnata, Badajoz gibi şehirlerde hüküm süren yirmiden fazla küçük devlete bölündü. Bu döneme Mülûkü’t-tavâif (taifa krallıkları, “bölük beyleri”) denir. Kültürel bakımdan parlak, siyasi bakımdan çok zayıf olan bu devletler, birbirine karşı Hristiyan krallardan yardım istedi ve onlara vergi ödedi. Kastilya kralı VI. Alfonso 478/1085’te Toledo’yu (Tuleytula) aldı.",
+  "Bunun üzerine Endülüslü emirler Kuzey Afrika’daki Murâbıtların hükümdarı Yûsuf b. Tâşfîn’i yardıma çağırdı. Yûsuf, Zallâka Savaşı’nda (479/1086) Alfonso’yu ağır bir yenilgiye uğrattı; sonra Endülüs’ü kendi devletine kattı. Murâbıtlardan sonra Endülüs Muvahhidlerin eline geçti; ancak Muvahhidler Ikāb (Las Navas de Tolosa) Savaşı’nda (609/1212) Hristiyan krallıkların birleşik ordusuna yenildi. Kurtuba (1236) ve Sevilla (1248) gibi büyük şehirler kaybedildi.",
+  "Müslümanların elinde yalnız Gırnata ve çevresi kaldı. Burada Nasrîler (Benî Ahmer) hanedanı 635-897/1238-1492 arasında hüküm sürdü ve ünlü Elhamra Sarayı’nı yaptırdı. Aragon kralı Ferdinand ile Kastilya kraliçesi İsabella’nın evliliğiyle birleşen İspanya, 2 Ocak 1492’de Gırnata’yı aldı. Teslim antlaşmasında Müslümanlara din özgürlüğü sözü verildiyse de kısa sürede zorla vaftiz, Engizisyon mahkemeleri ve yasaklar başladı. 1609-1614 yıllarında yaklaşık beş yüz bin Morisko İspanya’dan sürüldü. Osmanlı Devleti, Kemal Reis ve sonra Oruç-Hızır Reis kardeşler aracılığıyla Endülüs Müslümanlarının bir kısmını Kuzey Afrika’ya taşıdı.",
+  {
+   "tablo": [
+    [
+     "Endülüslü âlim",
+     "Alanı",
+     "Eseri / özelliği"
+    ],
+    [
+     "İbn Abdilberr (ö. 1071)",
+     "Hadis, fıkıh",
+     "et-Temhîd, el-İstîâb (sahabe biyografileri)"
+    ],
+    [
+     "İbn Hazm (ö. 1064)",
+     "Zâhirî fıkıh, mezhepler, edebiyat",
+     "el-Muhallâ, el-Fasl (mezhepler ve dinler), Tavku’l-hamâme"
+    ],
+    [
+     "Kurtubî (ö. 1273)",
+     "Tefsir",
+     "el-Câmi’ li-ahkâmi’l-Kur’ân"
+    ],
+    [
+     "Şâtıbî (ö. 1388)",
+     "Fıkıh usulü (Gırnata)",
+     "el-Muvâfakāt (makāsıd), el-İ’tisâm"
+    ],
+    [
+     "İbn Rüşd (ö. 1198)",
+     "Felsefe, fıkıh, tıp",
+     "Bidâyetü’l-müctehid, Tehâfütü’t-tehâfüt, Faslü’l-makāl; Aristo şârihi (Averroes)"
+    ],
+    [
+     "İbn Tufeyl (ö. 1185)",
+     "Felsefe",
+     "Hay b. Yakzân"
+    ],
+    [
+     "İbn Bâcce (ö. 1138)",
+     "Felsefe",
+     "Tedbîrü’l-mütevahhid"
+    ],
+    [
+     "Muhyiddin İbnü’l-Arabî (ö. 1240)",
+     "Tasavvuf",
+     "el-Fütûhâtü’l-Mekkiyye, Fusûsu’l-hikem; vahdet-i vücûd"
+    ],
+    [
+     "Zehrâvî (ö. 1013 civarı)",
+     "Tıp, cerrahi",
+     "et-Tasrîf; cerrahi aletler"
+    ],
+    [
+     "İbn Meserre (ö. 931)",
+     "Felsefe-tasavvuf",
+     "Endülüs felsefe geleneğinin başlatıcısı"
+    ]
+   ]
+  },
+  {
+   "sinav": "Endülüs eser-müellif eşleştirmeleri sık sorulur: Tefsirde Kurtubî, hadiste İbn Abdilberr, tasavvufta İbnü’l-Arabî, makāsıtta Şâtıbî, felsefede İbn Rüşd. Kurtuba Ulu Camii, Medînetü’z-Zehrâ ve Elhamra Sarayı Endülüs mimarisinin simgeleridir (Elhamra Nasrîlere aittir, Emevîlere değil)."
+  },
+  {
+   "akil": "Mülûkü’t-tavâif → Toledo’nun kaybı (1085) → Zallâka (1086, Yûsuf b. Tâşfîn) → Ikāb yenilgisi (1212, Muvahhidler) → Nasrîler, Elhamra → Gırnata’nın düşüşü (1492) → Morisko sürgünü (1609-1614)."
+  },
+  {
+   "b": "3. Kuzey Afrika’nın ilk İslam devletleri"
+  },
+  {
+   "merak": "Hz. Hasan’ın torununun torunu İdrîs, Mekke yakınlarındaki Fah’ta Abbâsîlere karşı yapılan isyandan sağ kurtuldu, kölesi Râşid ile birlikte Mısır üzerinden Mağrib’in en uç köşesine kaçtı. Orada Berberî kabileleri onu imam olarak tanıdı; bir kaçak, bir devletin kurucusu oldu."
+  },
+  "Kuzey Afrika’nın fethi Hz. Ömer döneminde başlamış, Emevîler döneminde Ukbe b. Nâfi, Hassân b. Nu’mân ve Mûsâ b. Nusayr’ın seferleriyle tamamlanmıştı. Ancak Arap yöneticilerin Berberîlere ikinci sınıf muamelesi, Hâricî davetçilerin eşitlikçi söylemini cazip kıldı ve 122/740’taki büyük Berberî isyanından sonra bölgede Hâricî devletler doğdu. Abbâsîlerin merkezî otoritesinin uzak bölgelere yetmemesi ise yarı bağımsız hanedanların kurulmasına yol açtı.",
+  {
+   "tablo": [
+    [
+     "Devlet",
+     "Merkez / bölge",
+     "Tarih",
+     "Kurucu",
+     "Mezhep / özellik"
+    ],
+    [
+     "Midrârîler",
+     "Sicilmâse (Fas)",
+     "772-977",
+     "Midrâr ailesi (Benî Midrâr)",
+     "Sufrî Hâricî"
+    ],
+    [
+     "Rüstemîler",
+     "Tâhert (Cezayir)",
+     "777-909",
+     "Abdurrahman b. Rüstem (İran asıllı)",
+     "İbâzî Hâricî; imamet seçimle"
+    ],
+    [
+     "İdrîsîler",
+     "Fas (Fes şehrini kurdular)",
+     "788-985",
+     "İdrîs b. Abdullah (Hz. Hasan soyundan)",
+     "Şiî eğilimli (Zeydî çizgiye yakın) ilk devlet; Berberî desteği"
+    ],
+    [
+     "Ağlebîler",
+     "Kayrevan (Tunus)",
+     "800-909",
+     "İbrâhim b. Ağleb",
+     "Sünnî; Abbâsî halifesini tanıyan yarı bağımsız valilik"
+    ]
+   ]
+  },
+  "İdrîsîler, Hz. Peygamber soyundan gelen ilk hanedan ve Ehl-i beyt adına kurulan ilk devlet olarak önemlidir. Kurucu İdrîs b. Abdullah, Hârûnürreşîd’in gönderdiği bir ajan tarafından zehirletildi (791); oğlu II. İdrîs Fes şehrini başkent yaptı. Fes’teki Karaviyyîn Camii (859, Fâtıma el-Fihriyye) zamanla dünyanın en eski eğitim kurumlarından biri sayılan bir medrese-üniversiteye dönüştü.",
+  "Ağlebîler, Hârûnürreşîd’in İfrîkıye valiliğini İbrâhim b. Ağleb’e yıllık vergi ve halifeyi tanıma şartıyla babadan oğula geçmek üzere vermesiyle kuruldu (184/800). Böylece Abbâsî Devleti, kopmayı önleyemediği bir bölgeyi bu yolla bağlı tutmaya çalıştı. Ağlebîler güçlü bir donanma kurdu; kadı ve fakih Esed b. Furât komutasında Sicilya’nın fethine başlandı (212/827), Malta ve Güney İtalya’ya akınlar yapıldı. Kayrevan Ulu Camii (Ukbe Camii) onlar döneminde bugünkü hâlini aldı. Ağlebîlere Fâtımîler son verdi (909).",
+  {
+   "sinav": "MBSTS 2019: Kuzey Afrika’da Abbâsî otoritesinin zayıflamasıyla kurulanlar: İdrîsîler, Rüstemîler, Midrârîler, Ağlebîler. Büveyhîler, Gazneliler, Harezmşahlar, Karahanlılar doğu devletleridir ve çeldirici olarak verilir. Hâricî devletleri ayırt et: Rüstemîler (İbâzî), Midrârîler (Sufrî)."
+  },
+  {
+   "akil": "Kuzey Afrika’nın ilk devletleri: Midrârîler (Sufrî), Rüstemîler (İbâzî), İdrîsîler (Hz. Hasan soyu, Fes), Ağlebîler (Hârûn’un izni, Sicilya’nın fethi)."
+  },
+  {
+   "b": "4. Fâtımîler: rakip bir halifelik"
+  },
+  {
+   "merak": "Fâtımî komutanı Cevher es-Sıkıllî, Mısır’ı aldığı gece yeni şehrin temellerini atmak için işaret olarak çanlar astırdı. Bir karga ipe konup çanları çaldırınca işçiler kazmaya başladı; o anda Mars (Arapçada el-Kāhir) yükseliyordu. Şehrin adı böyle kondu: el-Kāhire."
+  },
+  "Fâtımîler (297-567/909-1171), adlarını Hz. Fâtıma’dan alan ve soylarını İsmâil b. Ca’fer es-Sâdık’a dayandıran İsmâilî Şiî bir hanedandır. İsmâilî dâî Ebû Abdullah eş-Şîî’nin Kutâme Berberîleri arasındaki faaliyetleri sonucunda Ağlebîler yıkıldı ve Ubeydullah el-Mehdî 297/909’da Rakkāde’de halifeliğini ilan etti. Böylece Abbâsî halifeliğine karşı ilk kez rakip bir halifelik kuruldu. Sünnî kaynaklar onlara kurucunun adından dolayı “Ubeydîler” der. Tunus kıyısında Mehdiye şehri kuruldu.",
+  "Fâtımîler 358/969’da komutan Cevher es-Sıkıllî ile Mısır’ı İhşîdîlerden aldı ve Kahire’yi kurdu; halife Muiz li-dînillâh 973’te başkenti Kahire’ye taşıdı. Ezher Camii 359-361/970-972 yılları arasında yapıldı ve İsmâilî davetin eğitim merkezi oldu; Selâhaddin’den sonra Sünnî eğitimin en büyük merkezlerinden birine dönüştü. Fâtımîler Dârü’l-ilm (Dârü’l-hikme, 395/1005) adlı ilim ve propaganda merkezini de kurdu.",
+  "Fâtımî halifesi Hâkim bi-emrillâh (386-411/996-1021) çelişkili ve sert uygulamalarıyla bilinir; onun ilahlığına inananlardan Dürzîlik doğdu. Mustansır döneminde (427-487/1036-1094) uzun bir kıtlık ve iç karışıklık yaşandı; Besâsîrî Bağdat’ta kısa süre Fâtımîler adına hutbe okuttu (1058-1059). Mustansır’ın ölümünden sonra oğulları Nizâr ve Müsta’lî arasında çıkan veraset kavgası İsmâilîleri ikiye böldü: Nizâr’ı imam kabul eden Hasan Sabbâh, İran’da Alamut kalesinde Nizârî (Haşşâşîn) teşkilatını kurdu. Son Fâtımî halifesi Âdıd’ın ölümüyle (567/1171) Selâhaddin Eyyûbî Mısır’da hutbeyi Abbâsî halifesi adına okutarak Fâtımî Devleti’ne son verdi.",
+  {
+   "tablo": [
+    [
+     "Fâtımî bilgisi",
+     "Açıklama"
+    ],
+    [
+     "Mezhep",
+     "İsmâilî Şiî (Bâtınî yorumlar)"
+    ],
+    [
+     "Kuruluş",
+     "909, Ubeydullah el-Mehdî, Tunus (Rakkāde, sonra Mehdiye)"
+    ],
+    [
+     "Mısır’ın alınması",
+     "969, Cevher es-Sıkıllî; Kahire’nin kuruluşu"
+    ],
+    [
+     "Kurumlar",
+     "Ezher (970-972), Dârü’l-ilm (1005)"
+    ],
+    [
+     "Hâkim bi-emrillâh",
+     "Dürzîliğin ortaya çıkışı"
+    ],
+    [
+     "Nizâr-Müsta’lî ayrılığı",
+     "1094; Hasan Sabbâh ve Nizârîler (Alamut)"
+    ],
+    [
+     "Yıkılış",
+     "1171, Selâhaddin Eyyûbî"
+    ]
+   ]
+  },
+  {
+   "sinav": "Eski soru tarzı: “Mısır’da kurulup 969’da Kahire’yi inşa eden, İsmâilî, Ezher’i kuran” → Fâtımîler. Ezher’i kuranla (Fâtımîler) Ezher’i Sünnî merkeze dönüştüreni (Eyyûbîler) karıştırma. Fâtımîler Tunus’ta (909) kurulmuş, Mısır’a sonra geçmiştir."
+  },
+  {
+   "akil": "Fâtımîler: İsmâilî, 909 Tunus, 969 Mısır-Kahire (Cevher), Ezher. Hâkim → Dürzîler; Nizâr → Hasan Sabbâh. Son: Selâhaddin, 1171."
+  },
+  {
+   "b": "5. Murâbıtlar ve Muvahhidler"
+  },
+  {
+   "merak": "Sahra çölünde yüzlerini peçeyle örten Sanhâce Berberîlerine İslam’ı öğretmeye gelen bir fakih, onları anlaşamayınca bir nehir adasına çekildi ve orada bir ribât (sınır manastırı) kurdu. Ribâtın öğrencileri birkaç on yılda Senegal’den İspanya’ya uzanan bir devlet kurdu."
+  },
+  "Murâbıtlar (448-541/1056-1147), Sanhâce Berberîlerinden Lemtûne kabilesi arasında Mâlikî fakih Abdullah b. Yâsîn’in kurduğu ribâtta yetişen savaşçıların (murâbıt) kurduğu devlettir. Sert bir Mâlikî fıkıh anlayışını esas aldılar. Ebû Bekir b. Ömer’den sonra yeğeni Yûsuf b. Tâşfîn (ö. 500/1106) devleti zirveye taşıdı: Merakeş (Marakeş) şehrini kurdu (1070), Fas ve Cezayir’i ele geçirdi, Endülüs emirlerinin çağrısıyla İspanya’ya geçip Zallâka’da (1086) Kastilya kralı VI. Alfonso’yu yendi ve Endülüs’ü birleştirdi. Abbâsî halifesini tanıyıp “Emîrü’l-müslimîn” unvanını kullandı. Murâbıtlar Gazzâlî’nin İhyâ’sını yaktırmalarıyla da bilinir.",
+  "Muvahhidler (524-668/1130-1269), Masmûde Berberîlerinden Muhammed b. Tûmert’in kurduğu dinî-siyasi hareketin devletidir. İbn Tûmert Doğu’da tahsil görmüş, Murâbıtların Allah’ı insana benzeten (teşbihçi) anlayışını ve fıkıhta furûa boğulmalarını eleştirmiş, Eş’arî kelamına yakın sıkı bir tevhid anlayışını savunmuştu; bu yüzden taraftarlarına “Muvahhidûn” (Allah’ı birleyenler) denir. Kendini “Mehdî” ilan etti. Halefi Abdülmü’min b. Ali, Merakeş’i alarak Murâbıtlara son verdi (1147) ve “halife” unvanını kullandı. Muvahhid hükümdarı Ebû Ya’kūb Yûsuf, İbn Tufeyl ve İbn Rüşd’ü sarayında himaye etti. Ikāb (Las Navas de Tolosa) yenilgisinden (1212) sonra devlet zayıfladı; yerine Tunus’ta Hafsîler, Fas’ta Merînîler, Tilimsan’da Zeyyânîler kuruldu.",
+  {
+   "tablo": [
+    [
+     "Karşılaştırma",
+     "Murâbıtlar",
+     "Muvahhidler"
+    ],
+    [
+     "Kabile",
+     "Sanhâce (Lemtûne)",
+     "Masmûde"
+    ],
+    [
+     "Kurucu / önder",
+     "Abdullah b. Yâsîn; Yûsuf b. Tâşfîn",
+     "Muhammed b. Tûmert (Mehdî iddiası); Abdülmü’min"
+    ],
+    [
+     "Dinî çizgi",
+     "Katı Mâlikî fıkıhçılığı",
+     "Tevhid vurgusu, Eş’arî kelamı, mehdîlik"
+    ],
+    [
+     "Unvan",
+     "Emîrü’l-müslimîn (Abbâsî halifesini tanıdılar)",
+     "Halife"
+    ],
+    [
+     "Endülüs’teki önemli savaş",
+     "Zallâka zaferi (1086)",
+     "Erek zaferi (1195), Ikāb yenilgisi (1212)"
+    ],
+    [
+     "Başkent",
+     "Merakeş (kurdular)",
+     "Merakeş"
+    ]
+   ]
+  },
+  {
+   "sinav": "“Ribât’tan doğan, Zallâka’yı kazanan, Merakeş’i kuran” → Murâbıtlar (Yûsuf b. Tâşfîn). “İbn Tûmert, mehdîlik iddiası, tevhid vurgusu, İbn Rüşd’ün himayesi” → Muvahhidler. Eski soru: Kuzey Afrika ve Endülüs’te kurulanlar: İdrîsîler, Ağlebîler, Murâbıtlar (Harezmşahlar, Gazneliler, Karahanlılar doğudadır)."
+  },
+  {
+   "akil": "Murâbıtlar: Sanhâce, ribât, Mâlikî, Yûsuf b. Tâşfîn, Merakeş, Zallâka (1086). Muvahhidler: Masmûde, İbn Tûmert (Mehdî), tevhid, Abdülmü’min, İbn Rüşd’ün himayesi, Ikāb yenilgisi (1212)."
+  },
+  {
+   "b": "6. Mısır’da Türk hanedanları, Eyyûbîler ve Memlükler"
+  },
+  {
+   "merak": "Abbâsî ordusunda yetişmiş Türk bir komutanın oğlu Mısır’a vali yardımcısı olarak gönderildi. Birkaç yıl içinde Mısır’ı ve Suriye’yi kendi adına yönetiyor, Kahire’de bugün hâlâ ayakta olan, sarmal minareli dev bir cami yaptırıyordu."
+  },
+  "Tolunoğulları (254-292/868-905), Abbâsî ordusundaki Türk komutan Tolun’un oğlu Ahmed b. Tolun tarafından kuruldu. Ahmed, Mısır’a vali vekili olarak gelmiş, Abbâsî merkezinin zaafından yararlanıp Mısır ve Suriye’de fiilen bağımsız hâle gelmişti. Mısır’da kurulan ilk Türk-İslam devleti olarak kabul edilir. Fustat’ın kuzeyinde Katâi şehrini kurdu ve Sâmerrâ mimarisinin etkisini taşıyan İbn Tolun Camii’ni yaptırdı. Abbâsîler 905’te Mısır’ı yeniden aldı.",
+  "İhşîdîler (323-358/935-969), Fergana kökenli Türk komutan Muhammed b. Tuğç tarafından kuruldu; “İhşîd” unvanı Fergana hükümdarlarının eski unvanıdır. Hükümdarların küçük yaşta olması üzerine yönetim Habeşli hadım Kâfûr’un eline geçti. 969’da Fâtımîler Mısır’ı aldı.",
+  "Eyyûbîler (567-648/1171-1250): Zengî hükümdarı Nûreddin Mahmud’un Mısır’a gönderdiği Kürt asıllı komutan Şîrkûh’un yeğeni Selâhaddin Eyyûbî, Fâtımî vezirliğinden yükselerek 1171’de Fâtımî Devleti’ne son verdi, Mısır’da hutbeyi Abbâsî halifesi adına okuttu. Selâhaddin, Mısır’da Sünnîliği yeniden yerleştirdi, Şâfiî ve Mâlikî medreseler açtı. Nûreddin’in ölümünden sonra Suriye’yi de birleştirdi ve Hıttîn Savaşı’nda (583/1187) Haçlıları yenerek Kudüs’ü geri aldı (ayrıntı Haçlı Seferleri konusunda).",
+  "Memlükler (648-923/1250-1517): Eyyûbî sultanı es-Sâlih Necmeddin Eyyûb’un satın alıp yetiştirdiği Kıpçak Türkü askerî köleler (memlûk), sultanın ölümünden sonra yönetimi ele geçirdi. Devletin ilk dönemine Nil adasındaki kışlalarından dolayı Bahrî Memlükler (Kıpçak Türkleri, 1250-1382), ikinci dönemine Kahire kalesindeki kulelerinden dolayı Burcî Memlükler (Çerkezler, 1382-1517) denir. Sultan Kutuz ve komutanı Baybars, 658/1260’ta Aynicâlût Savaşı’nda Moğolları yenerek onların batıya ilerleyişini durdurdu. Baybars, Bağdat’tan kaçan bir Abbâsî soylusunu 659/1261’de Kahire’de halife ilan ederek Abbâsî halifeliğini sembolik olarak yeniden canlandırdı. Memlük sultanı Kalavun’un oğlu el-Eşref Halil 690/1291’de Akkâ’yı alarak Suriye kıyılarındaki iki yüz yıllık Haçlı varlığına son verdi. Memlükler Haremeyn’in hizmetkârı sayıldı, Sünnîliği savundu. Osmanlı padişahı Yavuz Sultan Selim, Mercidâbık (1516) ve Ridâniye (1517) savaşlarıyla Memlük Devleti’ne son verdi; halifelik Osmanlılara geçti.",
+  {
+   "tablo": [
+    [
+     "Devlet",
+     "Tarih",
+     "Kurucu",
+     "Akılda kalacak bilgi"
+    ],
+    [
+     "Tolunoğulları",
+     "868-905",
+     "Ahmed b. Tolun",
+     "Mısır’daki ilk Türk-İslam devleti; Katâi, İbn Tolun Camii"
+    ],
+    [
+     "İhşîdîler",
+     "935-969",
+     "Muhammed b. Tuğç",
+     "Fergana kökenli Türk; Kâfûr; Fâtımîlere yenildi"
+    ],
+    [
+     "Fâtımîler",
+     "909-1171",
+     "Ubeydullah el-Mehdî",
+     "İsmâilî; Kahire, Ezher"
+    ],
+    [
+     "Eyyûbîler",
+     "1171-1250",
+     "Selâhaddin Eyyûbî",
+     "Fâtımîlerin sonu, Sünnîlik, Hıttîn (1187), Kudüs"
+    ],
+    [
+     "Memlükler",
+     "1250-1517",
+     "Aybek; Kutuz, Baybars",
+     "Aynicâlût (1260), Abbâsî halifeliği Kahire’de (1261), Akkâ (1291), Yavuz Selim son verdi"
+    ]
+   ]
+  },
+  {
+   "sinav": "MBSTS 2024: “Kuzey Afrika’nın en güçlü devletlerinden, Akkâ’yı alarak iki yüzyıllık Haçlı varlığına son veren, Şiîliğe karşı Sünnîliği savunan, Osmanlılar tarafından son verilen” → Memlükler. Hafsîler, Murâbıtlar, Harezmşahlar çeldiricidir. Mısır sıralaması: Tolunoğulları → İhşîdîler → Fâtımîler → Eyyûbîler → Memlükler → Osmanlı."
+  },
+  {
+   "akil": "Mısır: Tolunoğulları (ilk Türk) → İhşîdîler → Fâtımîler (Kahire, Ezher) → Eyyûbîler (Selâhaddin, 1171) → Memlükler (Aynicâlût 1260, Akkâ 1291) → Osmanlı (1517)."
+  }
+ ],
+ "ozet": [
+  "Endülüs 711’de Târık b. Ziyâd ve Mûsâ b. Nusayr tarafından fethedildi; 711-756 Valiler dönemi.",
+  "Abdurrahman ed-Dâhil 756’da Kurtuba’da emirlik ilan etti; Abbâsîlerden ilk kopma.",
+  "I. Hişâm Mâlikî mezhebini Endülüs’ün resmî mezhebi yaptı.",
+  "III. Abdurrahman 929’da halifelik ilan etti; Medînetü’z-Zehrâ; 1031’de halifeliğe son verildi.",
+  "Mülûkü’t-tavâif → Toledo’nun kaybı (1085) → Murâbıtların Zallâka zaferi (1086).",
+  "Muvahhidler Ikāb’da (1212) yenildi; Nasrîler Gırnata’da (Elhamra) 1492’ye kadar kaldı; Moriskolar 1609-1614’te sürüldü.",
+  "Endülüs âlimleri: Kurtubî (tefsir), İbn Abdilberr (hadis), İbn Hazm (Zâhirî), Şâtıbî (el-Muvâfakāt), İbn Rüşd, İbn Tufeyl, İbnü’l-Arabî.",
+  "Kuzey Afrika: Midrârîler (Sufrî), Rüstemîler (İbâzî), İdrîsîler (Hz. Hasan soyu, Fes, 788), Ağlebîler (800, Sicilya’nın fethi).",
+  "Fâtımîler: İsmâilî; 909 Tunus’ta kuruldu; 969’da Cevher es-Sıkıllî Mısır’ı aldı, Kahire kuruldu; Ezher (970-972).",
+  "Hâkim bi-emrillâh → Dürzîler; Nizâr-Müsta’lî ayrılığı → Hasan Sabbâh, Alamut.",
+  "Murâbıtlar: Sanhâce, Abdullah b. Yâsîn, Yûsuf b. Tâşfîn, Merakeş, Zallâka, Mâlikî.",
+  "Muvahhidler: İbn Tûmert (Mehdî), tevhid vurgusu, Abdülmü’min; İbn Rüşd’ü himaye ettiler.",
+  "Tolunoğulları (868-905) Mısır’daki ilk Türk-İslam devletidir; İbn Tolun Camii.",
+  "Selâhaddin Eyyûbî 1171’de Fâtımîlere son verdi, Hıttîn’de (1187) Kudüs’ü aldı.",
+  "Memlükler: Aynicâlût (1260), Kahire’de Abbâsî halifeliği (1261), Akkâ’nın alınması (1291); Yavuz Selim son verdi (1517)."
+ ],
+ "kartlar": [
+  {
+   "o": "Sakru Kureyş / ed-Dâhil",
+   "a": "Endülüs Emevî Devleti’nin kurucusu I. Abdurrahman (756)."
+  },
+  {
+   "o": "Asrü’l-vülât",
+   "a": "Endülüs’te 711-756 arası Valiler dönemi."
+  },
+  {
+   "o": "Endülüs’te Mâlikî mezhebini resmî yapan",
+   "a": "I. Hişâm (788-796)."
+  },
+  {
+   "o": "929 halifelik ilanı",
+   "a": "III. Abdurrahman en-Nâsır li-dînillâh."
+  },
+  {
+   "o": "Mülûkü’t-tavâif",
+   "a": "1031’den sonra Endülüs’teki küçük devletçikler dönemi."
+  },
+  {
+   "o": "Zallâka (1086)",
+   "a": "Murâbıt hükümdarı Yûsuf b. Tâşfîn’in Kastilya kralı VI. Alfonso’yu yendiği savaş."
+  },
+  {
+   "o": "Ikāb (Las Navas de Tolosa, 1212)",
+   "a": "Muvahhidlerin Hristiyan krallıklara yenildiği savaş."
+  },
+  {
+   "o": "Nasrîler (Benî Ahmer)",
+   "a": "Gırnata’da 1238-1492; Elhamra Sarayı."
+  },
+  {
+   "o": "Muvalledûn / müsta’ribûn",
+   "a": "Yerli halktan Müslüman olanlar / Arap kültürünü benimseyen Hristiyanlar."
+  },
+  {
+   "o": "İdrîsîler",
+   "a": "Fas’ta Hz. Hasan soyundan İdrîs b. Abdullah’ın kurduğu devlet (788); Fes."
+  },
+  {
+   "o": "Ağlebîler",
+   "a": "Hârûnürreşîd’in izniyle Tunus’ta (800); Sicilya’nın fethi (827)."
+  },
+  {
+   "o": "Rüstemîler / Midrârîler",
+   "a": "Hâricî devletler: İbâzî (Tâhert) / Sufrî (Sicilmâse)."
+  },
+  {
+   "o": "Cevher es-Sıkıllî",
+   "a": "969’da Mısır’ı Fâtımîler adına alan ve Kahire’yi kuran komutan."
+  },
+  {
+   "o": "Ezher",
+   "a": "Fâtımîlerin kurduğu cami-medrese (970-972); Eyyûbîlerden sonra Sünnî merkez."
+  },
+  {
+   "o": "İbn Tûmert",
+   "a": "Muvahhid hareketinin kurucusu; Mehdî iddiası; tevhid vurgusu."
+  },
+  {
+   "o": "Tolunoğulları",
+   "a": "Mısır’daki ilk Türk-İslam devleti (868-905); Ahmed b. Tolun."
+  },
+  {
+   "o": "Bahrî / Burcî Memlükler",
+   "a": "Kıpçak Türkleri (1250-1382) / Çerkezler (1382-1517)."
+  },
+  {
+   "o": "Akkâ’nın alınması (1291)",
+   "a": "Memlüklerin Suriye kıyılarındaki Haçlı varlığına son vermesi."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "s2-06",
+   "z": 2,
+   "s": "I. İdrîsîler\nII. Harezmşahlar\nIII. Gazneliler\nIV. Ağlebîler\nV. Murâbıtlar\nVI. Karahanlılar\n\nKuzey Afrika ve Endülüs coğrafyasında kurulan devletleri işaretlemek isteyen bir öğrenci hangilerini işaretlemelidir?",
+   "c": [
+    "I, II ve III",
+    "I, IV ve V",
+    "II, III ve VI",
+    "II, IV ve V",
+    "III, V ve VI"
+   ],
+   "d": 1,
+   "a": "İdrîsîler (Fas), Ağlebîler (Tunus) ve Murâbıtlar (Fas-Endülüs) Kuzey Afrika ve Endülüs’te kurulmuştur. Harezmşahlar, Gazneliler ve Karahanlılar doğuda kurulan Türk-İslam devletleridir.",
+   "ac": [
+    "II ve III doğudadır.",
+    "Doğru.",
+    "Üçü de doğudadır.",
+    "II doğudadır.",
+    "III ve VI doğudadır."
+   ],
+   "kay": "Konu: Kuzey Afrika devletleri"
+  },
+  {
+   "id": "s2-12",
+   "z": 2,
+   "s": "Mısır’da kurulan bir devletle ilgili şu bilgiler veriliyor:\n– Kuzey Afrika’da kurulduktan sonra Mısır’ı İhşîdîlerden almıştır.\n– Yeni başkentini kurduğu şehirde inşa ettirdiği cami-medrese, propagandasının merkezi olmuştur.\n– Abbâsî halifeliğine rakip bir halifelik ilan etmiştir.\n\nBu devlet aşağıdakilerden hangisidir?",
+   "c": [
+    "Fâtımîler",
+    "Eyyûbîler",
+    "Memlükler",
+    "Tolunoğulları",
+    "Ağlebîler"
+   ],
+   "d": 0,
+   "a": "Fâtımîler 909’da Tunus’ta kurulmuş, 969’da Mısır’ı İhşîdîlerden alarak Kahire’yi kurmuş, Ezher’i İsmâilî davetin merkezi yapmıştır.",
+   "ac": [
+    "Doğru.",
+    "Sünnîdir; Fâtımîlere son vermiştir.",
+    "Sünnîdir; Kahire’de Abbâsî halifeliğini canlandırmıştır.",
+    "Fâtımîlerden önce Mısır’dadır ve rakip halifelik ilan etmemiştir.",
+    "Tunus’ta kalmış, Fâtımîler tarafından yıkılmıştır."
+   ],
+   "kay": "Konu: Fâtımîler"
+  },
+  {
+   "id": "sy12-01",
+   "z": 3,
+   "s": "İslam ülkeleri içerisinde\n– Moğolların batıya ilerleyişini durduran,\n– Akkâ şehrini alarak bölgedeki iki yüzyıllık Haçlı varlığına son veren,\n– Bağdat’ın düşüşünden sonra Abbâsî halifeliğini sembolik olarak kendi başkentinde yaşatan,\n– Osmanlılar tarafından varlığına son verilen\n\ndevlet aşağıdakilerden hangisidir?",
+   "c": [
+    "Eyyûbîler",
+    "Hafsîler",
+    "Harezmşahlar",
+    "Memlükler",
+    "Murâbıtlar"
+   ],
+   "d": 3,
+   "a": "Memlükler Aynicâlût’ta (1260) Moğolları durdurmuş, 1261’de Abbâsî halifeliğini Kahire’de canlandırmış, 1291’de Akkâ’yı almış ve 1517’de Yavuz Selim tarafından yıkılmıştır.",
+   "ac": [
+    "Kudüs’ü almış ama Akkâ’daki Haçlı varlığına son vermemiştir; Memlüklerce yıkılmıştır.",
+    "Tunus’ta kurulan Muvahhid ardılı bir devlettir.",
+    "Moğollara yenilmiştir.",
+    "Doğru.",
+    "Endülüs ve Mağrib’te hüküm sürmüş, Muvahhidlerce yıkılmıştır."
+   ],
+   "kay": "Konu: Memlükler"
+  },
+  {
+   "id": "sy12-02",
+   "z": 3,
+   "s": "Endülüs Emevîleri ile ilgili\nI. Abbâsî Devleti’nden kopan ilk bölgede kurulmuştur.\nII. Kurucusu 756’da kendini halife ilan etmiştir.\nIII. I. Hişâm döneminde Mâlikî mezhebi resmî mezhep olmuştur.\nIV. Elhamra Sarayı bu devletin halifelik döneminde yaptırılmıştır.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I ve III",
+    "II ve IV",
+    "I, III ve IV",
+    "II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Abdurrahman ed-Dâhil 756’da emîr unvanını kullanmıştır; halifelik 929’da III. Abdurrahman ile ilan edilmiştir. Elhamra Sarayı Gırnata’daki Nasrîlere aittir.",
+   "ac": [
+    "II yanlıştır.",
+    "Doğru: I ve III.",
+    "II ve IV yanlıştır.",
+    "IV yanlıştır.",
+    "II ve IV yanlıştır."
+   ],
+   "kay": "Konu: Endülüs Emevîleri"
+  },
+  {
+   "id": "sy12-03",
+   "z": 3,
+   "s": "Endülüs’te yetişen âlimler ve eserleriyle ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "Kurtubî – el-Câmi’ li-ahkâmi’l-Kur’ân",
+    "İbn Abdilberr – et-Temhîd",
+    "Şâtıbî – el-Muvâfakāt",
+    "İbn Rüşd – Bidâyetü’l-müctehid",
+    "İbn Tufeyl – el-Muhallâ"
+   ],
+   "d": 4,
+   "a": "el-Muhallâ, Zâhirî fakih İbn Hazm’ın eseridir. İbn Tufeyl’in meşhur eseri Hay b. Yakzân’dır.",
+   "ac": [
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Doğru eşleştirme.",
+    "Yanlış eşleştirme."
+   ],
+   "kay": "Konu: Endülüs ilim mirası"
+  },
+  {
+   "id": "sy12-04",
+   "z": 2,
+   "s": "Hristiyan krallıklarının baskısı karşısında zayıf düşen Endülüslü emirler, Kastilya kralının Toledo’yu almasından sonra Kuzey Afrika’daki bir hükümdarı yardıma çağırdılar. Bu hükümdar İspanya’ya geçerek büyük bir zafer kazandı, ardından Endülüs’ü kendi devletine kattı.\n\nBu hükümdar ve kazandığı savaş aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Yûsuf b. Tâşfîn – Zallâka",
+    "Abdülmü’min – Ikāb",
+    "İbn Tûmert – Erek",
+    "Târık b. Ziyâd – Vâdilekke",
+    "III. Abdurrahman – Simancas"
+   ],
+   "d": 0,
+   "a": "Murâbıt hükümdarı Yûsuf b. Tâşfîn, Toledo’nun düşüşünden (1085) sonra Zallâka’da (1086) VI. Alfonso’yu yenmiştir.",
+   "ac": [
+    "Doğru.",
+    "Muvahhid hükümdarıdır; Ikāb (1212) bir yenilgidir.",
+    "İbn Tûmert Endülüs’e sefer yapmamıştır; Erek zaferi (1195) Muvahhidlere aittir.",
+    "711 fethinin komutanıdır.",
+    "Endülüs Emevî halifesidir; Kuzey Afrikalı değildir."
+   ],
+   "kay": "Konu: Murâbıtlar"
+  },
+  {
+   "id": "sy12-05",
+   "z": 3,
+   "s": "Kuzey Afrika’da kurulan bir hareketin kurucusu Doğu’da tahsil görmüş, döndüğünde mevcut yönetimi Allah’ı yaratılmışlara benzeten bir anlayışa sahip olmak ve fıkıhta furû meselelerine boğulmakla eleştirmiştir. Kendini “Mehdî” ilan etmiş, taraftarları sıkı bir tevhid anlayışını savundukları için kendilerine özel bir isim vermiştir.\n\nBu parçada sözü edilen hareket ve kurucusu aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "Murâbıtlar – Abdullah b. Yâsîn",
+    "Fâtımîler – Ubeydullah el-Mehdî",
+    "İdrîsîler – İdrîs b. Abdullah",
+    "Muvahhidler – Muhammed b. Tûmert",
+    "Rüstemîler – Abdurrahman b. Rüstem"
+   ],
+   "d": 3,
+   "a": "Muhammed b. Tûmert Murâbıtları teşbihçilik ve furûculukla eleştirmiş, mehdîlik iddia etmiş; taraftarları “Muvahhidûn” adını almıştır.",
+   "ac": [
+    "Murâbıtlar eleştirilen taraftır.",
+    "Ubeydullah da Mehdî unvanı kullanmıştır ama İsmâilîdir; eleştiri ve tevhid vurgusu Muvahhidlere aittir.",
+    "Ehl-i beyt soyundan bir devlet kurucusudur; mehdîlik iddiası yoktur.",
+    "Doğru.",
+    "İbâzî Hâricî imamdır."
+   ],
+   "kay": "Konu: Muvahhidler"
+  },
+  {
+   "id": "sy12-06",
+   "z": 2,
+   "s": "Mısır’da kurulan ilk Türk-İslam devleti kabul edilen, kurucusu adına Kahire’de bugün hâlâ ayakta olan büyük bir cami bulunan devlet aşağıdakilerden hangisidir?",
+   "c": [
+    "İhşîdîler",
+    "Memlükler",
+    "Zengîler",
+    "Eyyûbîler",
+    "Tolunoğulları"
+   ],
+   "d": 4,
+   "a": "Tolunoğulları (868-905), Ahmed b. Tolun tarafından kurulmuş; İbn Tolun Camii onun eseridir.",
+   "ac": [
+    "Tolunoğullarından sonra kurulmuştur (935).",
+    "Çok sonradır (1250).",
+    "Musul-Halep merkezli bir Türk atabeyliğidir; Mısır’da kurulmamıştır.",
+    "Kürt asıllı Selâhaddin’in kurduğu devlettir.",
+    "Doğru."
+   ],
+   "kay": "Konu: Tolunoğulları"
+  },
+  {
+   "id": "sy12-07",
+   "z": 3,
+   "s": "I. Fâtımîlerin Mısır’ı alması\nII. Tolunoğullarının kurulması\nIII. Aynicâlût Savaşı\nIV. Selâhaddin’in Fâtımî Devleti’ne son vermesi\nV. İhşîdîlerin kurulması\n\nMısır tarihine ait bu olayların kronolojik sırası aşağıdakilerin hangisinde doğru verilmiştir?",
+   "c": [
+    "II, I, V, IV, III",
+    "V, II, I, IV, III",
+    "II, V, I, IV, III",
+    "II, V, IV, I, III",
+    "V, II, IV, I, III"
+   ],
+   "d": 2,
+   "a": "Tolunoğulları (868) → İhşîdîler (935) → Fâtımîler Mısır’da (969) → Selâhaddin (1171) → Aynicâlût (1260).",
+   "ac": [
+    "İhşîdîler Fâtımîlerden öncedir.",
+    "Tolunoğulları İhşîdîlerden öncedir.",
+    "Doğru.",
+    "Fâtımîlerin gelişi yıkılışından öncedir.",
+    "Hem ilk iki hem orta sıralama yanlıştır."
+   ],
+   "kay": "Konu: Mısır’daki devletler"
+  },
+  {
+   "id": "sy12-08",
+   "z": 3,
+   "s": "Fâtımîlerle ilgili\nI. İsmâilî Şiî bir hanedandır.\nII. İlk olarak Mısır’da kurulmuş, sonra Tunus’a yayılmıştır.\nIII. Hâkim bi-emrillâh döneminde ortaya çıkan inançlardan Dürzîlik doğmuştur.\nIV. Nizâr-Müsta’lî ayrılığı Hasan Sabbâh’ın teşkilatının ortaya çıkışıyla ilişkilidir.\n\nifadelerinden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "II ve III",
+    "I, III ve IV",
+    "I, II ve IV",
+    "II, III ve IV"
+   ],
+   "d": 2,
+   "a": "Fâtımîler 909’da Tunus’ta kurulmuş, 969’da Mısır’a geçmiştir; II terstir. Diğer ifadeler doğrudur.",
+   "ac": [
+    "II yanlıştır.",
+    "II yanlıştır.",
+    "Doğru: I, III ve IV.",
+    "II yanlıştır.",
+    "II yanlıştır."
+   ],
+   "kay": "Konu: Fâtımîler"
+  },
+  {
+   "id": "sy12-09",
+   "z": 2,
+   "s": "Hârûnürreşîd, İfrîkıye valiliğini yıllık vergi ödemesi ve halifeyi tanıması şartıyla babadan oğula geçmek üzere bir valiye vermiştir. Bu valinin kurduğu hanedan güçlü bir donanmayla Sicilya’nın fethine başlamıştır.\n\nBu hanedan aşağıdakilerden hangisidir?",
+   "c": [
+    "Ağlebîler",
+    "İdrîsîler",
+    "Tâhirîler",
+    "Rüstemîler",
+    "Zîrîler"
+   ],
+   "d": 0,
+   "a": "İbrâhim b. Ağleb’in kurduğu Ağlebîler (800-909), Esed b. Furât komutasında Sicilya’nın fethine başlamıştır (827).",
+   "ac": [
+    "Doğru.",
+    "Abbâsîlere karşı kurulmuştur; halifeyi tanımaz.",
+    "Horasan’da Me’mûn’un izniyle kurulmuştur.",
+    "İbâzî Hâricî devlettir; halifeyi tanımaz.",
+    "Fâtımîlerin Tunus valisi olarak sonradan kurulmuştur."
+   ],
+   "kay": "Konu: Ağlebîler"
+  },
+  {
+   "id": "sy12-10",
+   "z": 3,
+   "s": "Endülüs tarihine ait\nI. Ikāb Savaşı\nII. Halifeliğin ilanı\nIII. Zallâka Savaşı\nIV. Gırnata’nın düşüşü\nV. Toledo’nun kaybedilmesi\n\nolaylarının kronolojik sırası aşağıdakilerden hangisidir?",
+   "c": [
+    "II, III, V, I, IV",
+    "II, V, III, I, IV",
+    "V, II, III, I, IV",
+    "II, V, I, III, IV",
+    "II, I, V, III, IV"
+   ],
+   "d": 1,
+   "a": "Halifelik (929) → Toledo’nun kaybı (1085) → Zallâka (1086) → Ikāb (1212) → Gırnata (1492).",
+   "ac": [
+    "Toledo Zallâka’dan öncedir.",
+    "Doğru.",
+    "Halifelik ilanı en öncedir.",
+    "Zallâka Ikāb’dan öncedir.",
+    "Ikāb sondan ikincidir."
+   ],
+   "kay": "Konu: Endülüs kronolojisi"
+  },
+  {
+   "id": "sy12-11",
+   "z": 1,
+   "s": "Fâtımî komutanı Cevher es-Sıkıllî’nin 969’da Mısır’ı almasından sonra kurulan şehir aşağıdakilerden hangisidir?",
+   "c": [
+    "Fustat",
+    "Katâi",
+    "Mehdiye",
+    "Kahire",
+    "Kayrevan"
+   ],
+   "d": 3,
+   "a": "Cevher es-Sıkıllî 969’da Kahire’yi kurdu; 973’te Fâtımî başkenti oldu.",
+   "ac": [
+    "Amr b. Âs’ın Hz. Ömer döneminde kurduğu şehirdir.",
+    "Ahmed b. Tolun’un kurduğu şehirdir.",
+    "Fâtımîlerin Tunus’taki ilk başkentidir.",
+    "Doğru.",
+    "Ukbe b. Nâfi’nin kurduğu şehirdir."
+   ],
+   "kay": "Konu: Fâtımîler"
+  },
+  {
+   "id": "sy12-12",
+   "z": 2,
+   "s": "Endülüs’te Müslümanların hâkimiyetinden sonra dinlerini korumalarına izin verilen Müslümanlara “müdeccen”, zorla Hristiyanlaştırılan Müslümanlara ise başka bir ad verilmiştir.\n\nZorla Hristiyanlaştırılan Müslümanlara verilen ad aşağıdakilerden hangisidir?",
+   "c": [
+    "Muvalledûn",
+    "Müsta’ribûn",
+    "Morisko",
+    "Sakâlibe",
+    "Mevâlî"
+   ],
+   "d": 2,
+   "a": "Gırnata’nın düşüşünden sonra zorla vaftiz edilen Müslümanlara Morisko denir; 1609-1614 arasında İspanya’dan sürülmüşlerdir.",
+   "ac": [
+    "Yerli halktan gönüllü Müslüman olanlardır.",
+    "Arap kültürünü benimseyen Hristiyanlardır (Mozarab).",
+    "Doğru.",
+    "Saray hizmetindeki Slav kökenli kişilerdir.",
+    "Arap olmayan Müslümanlar için kullanılan genel terimdir."
+   ],
+   "kay": "Konu: Endülüs toplumu"
+  },
+  {
+   "id": "sy12-13",
+   "z": 3,
+   "s": "Eyyûbîler ve Memlüklerle ilgili aşağıdakilerden hangisi yanlıştır?",
+   "c": [
+    "Selâhaddin, Mısır’da hutbeyi Abbâsî halifesi adına okutarak Fâtımî Devleti’ne son vermiştir.",
+    "Memlükler, Eyyûbî sultanının yetiştirdiği Kıpçak Türkü askerlerden doğmuştur.",
+    "Baybars, Abbâsî halifeliğini Kahire’de sembolik olarak yeniden canlandırmıştır.",
+    "Burcî Memlükler döneminde yönetim Çerkezlerin eline geçmiştir.",
+    "Memlüklere Mercidâbık’ta Moğollar son vermiştir."
+   ],
+   "d": 4,
+   "a": "Memlüklere Osmanlı padişahı Yavuz Sultan Selim Mercidâbık (1516) ve Ridâniye (1517) savaşlarıyla son vermiştir.",
+   "ac": [
+    "Doğru bilgi (1171).",
+    "Doğru bilgi.",
+    "Doğru bilgi (1261).",
+    "Doğru bilgi (1382-1517).",
+    "Yanlış: Mercidâbık’ta Osmanlılar galip gelmiştir."
+   ],
+   "kay": "Konu: Eyyûbîler ve Memlükler"
+  },
+  {
+   "id": "sy12-14",
+   "z": 2,
+   "s": "Hz. Hasan soyundan gelen bir kişinin Abbâsîlere karşı yapılan bir isyandan kaçarak Mağrib’in en uç bölgesine ulaşması ve Berberî kabilelerinin onu imam tanımasıyla kurulan, Fes şehrini başkent yapan devlet aşağıdakilerden hangisidir?",
+   "c": [
+    "Merînîler",
+    "Midrârîler",
+    "Fâtımîler",
+    "Ağlebîler",
+    "İdrîsîler"
+   ],
+   "d": 4,
+   "a": "İdrîs b. Abdullah, Fah isyanından (786) sonra Fas’a kaçmış, 788’de İdrîsî Devleti’ni kurmuştur; oğlu II. İdrîs Fes’i başkent yapmıştır.",
+   "ac": [
+    "Muvahhidlerden sonra kurulmuştur.",
+    "Sufrî Hâricî devlettir.",
+    "İsmâilî’dir ve Tunus’ta kurulmuştur.",
+    "Abbâsî valilerinin kurduğu devlettir.",
+    "Doğru."
+   ],
+   "kay": "Konu: İdrîsîler"
+  },
+  {
+   "id": "sy12-15",
+   "z": 3,
+   "s": "Bir Endülüs Emevî hükümdarının dönemi şöyle anlatılıyor: “Hükümdar küçük yaştaydı. Devlet işlerini başveziri yürütüyordu. Bu başvezir ‘el-Mansûr’ lakabını aldı, Hristiyan krallıklara karşı elliden fazla sefer yaptı. Onun ölümünden sonra başlayan iç karışıklıklar, Kurtuba eşrafının hanedana son verme kararına kadar sürdü.”\n\nBu parçadan aşağıdakilerden hangisi çıkarılamaz?",
+   "c": [
+    "Hükümdar küçük yaşta tahta çıkmıştır.",
+    "Fiilî iktidar başvezirin elindedir.",
+    "Başvezir askerî başarılar kazanmıştır.",
+    "Endülüs’te halifelik bu dönemde ilan edilmiştir.",
+    "Halifeliğin sona ermesinde iç karışıklıklar etkili olmuştur."
+   ],
+   "d": 3,
+   "a": "Parça II. Hişâm ve Hâcib el-Mansûr dönemini anlatır. Halifelik ilanı ondan önce, III. Abdurrahman döneminde (929) gerçekleşmiştir ve parçada geçmez.",
+   "ac": [
+    "Parçada açıkça belirtilmiştir.",
+    "Parçada açıkça belirtilmiştir.",
+    "Seferleri bunu gösterir.",
+    "Çıkarılamaz: Parçada böyle bir bilgi yoktur; ayrıca halifelik 929’da ilan edilmiştir.",
+    "Parçada iç karışıklıklar ve eşrafın kararı geçer."
+   ],
+   "kay": "Konu: Endülüs Emevîleri"
+  },
+  {
+   "id": "sy12-16",
+   "z": 2,
+   "s": "Muvahhid hükümdarı Ebû Ya’kūb Yûsuf’un sarayında himaye gören ve Aristo’nun eserlerine yazdığı şerhlerle Batı’da “Averroes” adıyla tanınan filozof aşağıdakilerden hangisidir?",
+   "c": [
+    "İbn Bâcce",
+    "İbn Tufeyl",
+    "İbn Rüşd",
+    "İbn Hazm",
+    "İbn Meserre"
+   ],
+   "d": 2,
+   "a": "İbn Rüşd (ö. 1198), İbn Tufeyl’in tavsiyesiyle Muvahhid sarayına girmiş, Aristo şerhleriyle Avrupa’da Averroes adıyla tanınmıştır.",
+   "ac": [
+    "Murâbıtlar döneminde yaşamış filozoftur (Avempace).",
+    "İbn Rüşd’ü saraya tanıtan filozoftur; Hay b. Yakzân’ın yazarıdır.",
+    "Doğru.",
+    "Zâhirî fakih ve mezhepler tarihçisidir.",
+    "Endülüs felsefesinin başlatıcısıdır; Muvahhidlerden çok öncedir."
+   ],
+   "kay": "Konu: Muvahhidler ve İbn Rüşd"
+  }
+ ]
+}

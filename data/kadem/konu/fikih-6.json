@@ -1,0 +1,630 @@
+{
+ "id": "fikih-6",
+ "ad": "Taharet 1: Sular ve Hükümleri, Artıklar, Necâset (Galîza-Hafîfe) ve Temizleme Yolları, İstincâ; Hayız, Nifas, İstihâze ve Özür Hâli",
+ "ders": "Fıkıh ve İlmihal",
+ "oncelik": 3,
+ "sinavlar": [
+  "mbsts",
+  "dhbt",
+  "kbys",
+  "ilcemuftu",
+  "muftuyrd",
+  "egitimgorevlisi",
+  "ihtisas",
+  "vaizlik",
+  "aday",
+  "kurumici",
+  "murakip",
+  "yurtdisi"
+ ],
+ "anlatim": [
+  {
+   "b": "1. Taharetin iki yönü: Hades ve necâset"
+  },
+  {
+   "merak": "Bir kişi elbisesinde hiçbir kir olmadığı, bedeni tertemiz olduğu hâlde namaz kılamaz; çünkü abdesti yoktur. Bir başkasının abdesti vardır, ama elbisesine idrar bulaşmıştır; o da namaz kılamaz. Fıkıh bu iki durumu iki ayrı kirlilik olarak tanımlar."
+  },
+  "Taharet, sözlükte temizlik demektir. Fıkıhta iki türlü kirlilikten temizlenmeyi ifade eder: Hükmî kirlilik (hades) ve hakikî kirlilik (necâset). Hades, gözle görülmeyen, dinen kirli sayılma hâlidir; abdestsizlik küçük hades, cünüplük, hayız ve nifas ise büyük hadestir. Küçük hadesten abdestle, büyük hadesten gusülle temizlenilir; su bulunmadığında her ikisi için teyemmüm yapılır. Necâset ise beden, elbise ve namaz kılınan yerde bulunan, dinen pis sayılan maddelerdir; bunlardan temizlenmek namazın şartlarındandır.",
+  {
+   "tablo": [
+    [
+     "Kirlilik",
+     "Türü",
+     "Temizlenme"
+    ],
+    [
+     "Hükmî (hades)",
+     "Küçük hades: abdestsizlik",
+     "Abdest (su yoksa teyemmüm)"
+    ],
+    [
+     "Hükmî (hades)",
+     "Büyük hades: cünüplük, hayız, nifas",
+     "Gusül (su yoksa teyemmüm)"
+    ],
+    [
+     "Hakikî (necâset)",
+     "Galîza (ağır) ve hafîfe (hafif)",
+     "Su ve diğer temizleme yolları"
+    ]
+   ]
+  },
+  {
+   "akil": "Hades (hükmî): küçük → abdest; büyük → gusül; ikisi için su yoksa teyemmüm. Necâset (hakikî): galîza – hafîfe."
+  },
+  {
+   "b": "2. Sular ve artıklar"
+  },
+  "Hanefî mezhebine göre sular hükümleri bakımından şöyle sınıflandırılır: Mutlak su (yağmur, kar, deniz, nehir, kuyu, kaynak suyu) hem kendisi temiz hem de temizleyicidir; abdest ve gusül bununla alınır. Mukayyed su (gül suyu, karpuz suyu, meyve suyu gibi bir şeye nispet edilerek anılan sular) temizdir, ama hadesi gidermez; bu yüzden onunla abdest alınmaz. Ebû Hanîfe ve Ebû Yûsuf’a göre mukayyed sularla necâset-i hakikiyye giderilebilir. Müstamel su (abdest ve gusülde kullanılmış su), fetvaya esas olan İmam Muhammed’in görüşüne göre temizdir, fakat temizleyici değildir. İçine necâset düşen az su necis olur. Çok su (Hanefîlerde on zira’a on zira’ genişliğinde, bir kenarı hareket ettirildiğinde diğer kenarı hareket etmeyen havuz) ise necâsetin rengi, kokusu veya tadı belirmedikçe necis olmaz. Şâfiîlerde çok su ölçüsü iki küllelik (yaklaşık 200 litre) sudur.",
+  {
+   "tablo": [
+    [
+     "Su türü",
+     "Kendisi temiz mi?",
+     "Hades giderir mi?",
+     "Örnek"
+    ],
+    [
+     "Mutlak",
+     "Evet",
+     "Evet",
+     "Yağmur, deniz, kuyu, kar"
+    ],
+    [
+     "Mukayyed",
+     "Evet",
+     "Hayır",
+     "Gül suyu, karpuz suyu"
+    ],
+    [
+     "Müstamel",
+     "Evet (fetva)",
+     "Hayır",
+     "Abdestte kullanılmış su"
+    ],
+    [
+     "Necis",
+     "Hayır",
+     "Hayır",
+     "İçine necâset düşmüş az su"
+    ],
+    [
+     "Mekruh",
+     "Evet",
+     "Evet (mekruh)",
+     "Kedi, serbest dolaşan tavuk artığı"
+    ],
+    [
+     "Şüpheli (meşkûk)",
+     "Evet",
+     "Şüpheli; başka su yoksa abdestle birlikte teyemmüm de yapılır",
+     "Eşek ve katır artığı"
+    ]
+   ]
+  },
+  "Bir canlının içtikten sonra kaptaki artığına “sü’r” denir. İnsanın ve eti yenen hayvanların artığı temizdir. Köpek, domuz ve yırtıcı hayvanların artığı necistir. Kedi, fare, serbest dolaşan tavuk ve yırtıcı kuşların artığı mekruhtur. Eşek ve katırın artığı ise şüphelidir.",
+  {
+   "sinav": "Mukayyed suyla abdest alınamayacağı, müstamel suyun fetvaya göre temiz ama temizleyici olmadığı (İmam Muhammed), Hanefî çok su ölçüsü (10x10) ile Şâfiî kulleteyn ölçüsü ve artıkların sınıflandırılması sık sorulur."
+  },
+  {
+   "akil": "Mutlak: temiz + temizleyici. Mukayyed: temiz, hades gidermez. Müstamel: temiz, temizleyici değil (fetva). Artık: insan ve eti yenen temiz; köpek-domuz-yırtıcı necis; kedi-fare-tavuk mekruh; eşek-katır şüpheli."
+  },
+  {
+   "b": "3. Necâsetler ve temizleme yolları"
+  },
+  {
+   "merak": "Bir talebe elbisesine bir damla kan sıçradığını fark eder ve namazını bozmaya kalkar. Hocası sorar: “Bu leke ne kadar büyük? Avuç içinden mi küçük?” İslam, necâsette de bir ölçü koymuş, az miktarı affetmiştir."
+  },
+  "Hanefî mezhebinde necâset ikiye ayrılır: Necâset-i galîza (ağır pislik), necis olduğu konusunda sağlam ve çelişkisiz bir delil bulunan pisliklerdir: insan idrarı ve dışkısı, akıcı kan, şarap, domuz, leş, eti yenmeyen hayvanların idrarı ve dışkısı, irin, kusmuk (ağız dolusu). Necâset-i hafîfe (hafif pislik), necis olup olmadığı konusunda deliller arasında farklılık bulunan pisliklerdir: eti yenen hayvanların (koyun, sığır, at) idrarı ve eti yenmeyen kuşların pisliği. Eti yenen kuşların (güvercin, serçe) pisliği ise temizdir.",
+  {
+   "tablo": [
+    [
+     "Necâset",
+     "Affedilen miktar (Hanefî)",
+     "Örnek"
+    ],
+    [
+     "Galîza – katı",
+     "Bir dirhem ağırlığı (yaklaşık 3,2 gr)",
+     "Dışkı"
+    ],
+    [
+     "Galîza – sıvı",
+     "Avuç içi genişliği",
+     "Kan, idrar, şarap"
+    ],
+    [
+     "Hafîfe",
+     "Elbisenin veya bulaştığı uzvun dörtte biri",
+     "Eti yenen hayvanların idrarı"
+    ]
+   ]
+  },
+  "Affedilen miktar namazın sahih olmasına engel değildir, ancak bu miktar kadar necâsetle namaz kılmak mekruhtur; temizlenmesi gerekir. Necâset; su ile ve sıvı temizleyicilerle yıkama, ovma (kurumuş ve cirmi olan necâsetin mest veya ayakkabıdan toprağa sürtülerek giderilmesi), silme (cam, ayna, bıçak gibi gözeneksiz parlak yüzeyler), kuruma (toprağın kuruyup necâset izinin kaybolması; bu toprak üzerinde namaz kılınabilir ama teyemmüm yapılamaz), tabaklama (domuz derisi hariç ölü hayvan derileri), yakma ve mahiyet değişimi (istihâle; şarabın sirkeye dönüşmesi gibi) yollarıyla temizlenir. Görünen necâset, aynı ve izi gidinceye kadar; görünmeyen necâset ise üç kez yıkanıp her seferinde sıkılarak temizlenir.",
+  {
+   "tablo": [
+    [
+     "Temizleme yolu",
+     "Neyle ilgili?"
+    ],
+    [
+     "Yıkama",
+     "Her türlü necâset; görünmeyen necâset için üç kez yıkayıp sıkma"
+    ],
+    [
+     "Ovma",
+     "Kurumuş ve cirmi olan necâsetin mest ve ayakkabıdan giderilmesi"
+    ],
+    [
+     "Silme",
+     "Cam, ayna, bıçak gibi parlak sert yüzeyler"
+    ],
+    [
+     "Kuruma",
+     "Toprak ve yere sabit şeyler; namaz kılınır, teyemmüm yapılmaz"
+    ],
+    [
+     "Tabaklama",
+     "Ölü hayvan derisi (domuz derisi hariç)"
+    ],
+    [
+     "İstihâle",
+     "Şarabın sirkeye dönüşmesi"
+    ]
+   ]
+  },
+  {
+   "akil": "Galîza: katı 1 dirhem, sıvı avuç içi affedilir. Hafîfe (eti yenen hayvan idrarı): dörtte bir affedilir. Temizleme: yıkama (görünmeyen 3 kez), ovma, silme, kuruma, tabaklama (domuz hariç), istihâle."
+  },
+  {
+   "b": "4. İstincâ, hayız, nifas, istihâze ve özür"
+  },
+  "İstincâ, büyük ve küçük abdestten sonra necâset çıkış yerinin su, taş veya benzeri temizleyicilerle temizlenmesidir. Hanefîlere göre istincâ sünnettir; ancak necâset çıkış yerini aşarak bir dirhemden fazla yayılmışsa yıkamak farz olur. İstincâ sol elle yapılır; ihtiyaç giderirken kıbleye önü ya da arkası dönülmesi tahrîmen mekruhtur.",
+  "Hayız, ergenlik çağına ulaşmış sağlıklı bir kadının rahminden belirli günlerde gelen kandır. Hanefîlere göre hayızın en azı üç gün, en çoğu on gündür; iki hayız arasındaki temizlik süresinin en azı on beş gündür. Nifas, doğumdan sonra gelen kandır; en çoğu kırk gündür, en azının sınırı yoktur. Hayız ve nifas dışında, en az süreden kısa ya da en çok süreden uzun gelen kana istihâze (özür kanı) denir; istihâzeli kadın namaz kılar, oruç tutar. Hayızlı ve nifaslı kadın namaz kılamaz, oruç tutamaz, Kâbe’yi tavaf edemez, Kur’an okuyamaz, mushafa dokunamaz ve mescide giremez; cinsel ilişki de haramdır. Bu dönemde kılınmayan namazlar kaza edilmez, tutulamayan oruçlar ise kaza edilir.",
+  {
+   "tablo": [
+    [
+     "Konu",
+     "Hanefî ölçü"
+    ],
+    [
+     "Hayızın en azı – en çoğu",
+     "3 gün – 10 gün"
+    ],
+    [
+     "En az temizlik süresi",
+     "15 gün"
+    ],
+    [
+     "Nifasın en çoğu",
+     "40 gün"
+    ],
+    [
+     "Hayızda namaz",
+     "Kılınmaz, kaza edilmez"
+    ],
+    [
+     "Hayızda oruç",
+     "Tutulmaz, kaza edilir"
+    ],
+    [
+     "İstihâze",
+     "Özür kanı; namaz kılınır, oruç tutulur"
+    ]
+   ]
+  },
+  "Özür sahibi, idrar kaçırma, sürekli kanama, yel kaçırma gibi abdesti bozan bir durumu, bir namaz vaktinin tamamında abdest alıp farzı kılacak kadar bir süre bile kesilmeden devam eden kişidir. Özür sahibi her namaz vakti için abdest alır ve o abdestle o vakit içinde dilediği kadar farz ve nafile namaz kılar; vakit çıkınca abdesti bozulur. Özrün devam etmesi için sonraki her vakitte en az bir kez görülmesi yeterlidir; bir vakit boyunca hiç görülmezse özür hâli sona erer.",
+  {
+   "sinav": "Hayız (3-10 gün), temizlik (15 gün), nifas (40 gün) ölçüleri; hayızlı kadının namazı kaza etmemesi ama orucu kaza etmesi; özür sahibinin her vakit için abdest alması ve vakit çıkınca abdestinin bozulması sık sorulur."
+  },
+  {
+   "akil": "İstincâ sünnet; dirhemi aşarsa yıkamak farz. Hayız 3-10, temizlik 15, nifas 40. Namaz kaza yok, oruç kaza var. Özür: bir vakit kesintisiz → her vakit abdest; vakit çıkınca bozulur; bir vakit hiç görülmezse özür biter."
+  }
+ ],
+ "ozet": [
+  "Taharet, hükmî kirlilikten (hades) ve hakikî kirlilikten (necâset) temizlenmektir.",
+  "Küçük hadesten abdestle, büyük hadesten gusülle temizlenilir; su yoksa teyemmüm yapılır.",
+  "Mutlak su hem temiz hem temizleyicidir; mukayyed su temizdir ama hadesi gidermez.",
+  "Müstamel su, fetvaya esas olan İmam Muhammed’in görüşüne göre temiz ama temizleyici değildir.",
+  "Hanefîlerde çok su ölçüsü 10x10 zira’lık havuz, Şâfiîlerde iki küllelik sudur.",
+  "İnsan ve eti yenen hayvanların artığı temiz; köpek, domuz ve yırtıcıların artığı necis; kedi ve farenin artığı mekruh; eşek ve katırın artığı şüphelidir.",
+  "Necâset-i galîzada katı için bir dirhem, sıvı için avuç içi kadarı affedilir.",
+  "Eti yenen hayvanların idrarı necâset-i hafîfedir; elbisenin dörtte birinden azı affedilir.",
+  "Necâset yıkama, ovma, silme, kuruma, tabaklama ve istihâle gibi yollarla temizlenir.",
+  "Domuz derisi tabaklamakla temizlenmez.",
+  "İstincâ sünnettir; necâset dirhemden fazla yayılmışsa yıkamak farzdır.",
+  "Hanefîlere göre hayızın en azı 3, en çoğu 10 gün; en az temizlik süresi 15 gün; nifasın en çoğu 40 gündür.",
+  "Hayızlı kadın namazı kaza etmez, orucu kaza eder.",
+  "Özür sahibi her vakit için abdest alır; vakit çıkınca abdesti bozulur."
+ ],
+ "kartlar": [
+  {
+   "o": "Hades",
+   "a": "Hükmî kirlilik; küçük (abdestsizlik) ve büyük (cünüplük, hayız, nifas)."
+  },
+  {
+   "o": "Mukayyed su",
+   "a": "Gül suyu gibi; temiz, ama hadesi gidermez."
+  },
+  {
+   "o": "Müstamel su",
+   "a": "Kullanılmış su; temiz, temizleyici değil (fetva)."
+  },
+  {
+   "o": "Hanefî çok su ölçüsü",
+   "a": "10x10 zira’lık havuz."
+  },
+  {
+   "o": "Kulleteyn",
+   "a": "Şâfiîlerde çok su ölçüsü; iki külle."
+  },
+  {
+   "o": "Eşek ve katır artığı",
+   "a": "Şüpheli; başka su yoksa abdest + teyemmüm."
+  },
+  {
+   "o": "Necâset-i galîza affı",
+   "a": "Katı: bir dirhem; sıvı: avuç içi."
+  },
+  {
+   "o": "Necâset-i hafîfe",
+   "a": "Eti yenen hayvanların idrarı; dörtte biri affedilir."
+  },
+  {
+   "o": "Ovma",
+   "a": "Kurumuş ve cirmi olan necâsetin mestten giderilmesi."
+  },
+  {
+   "o": "İstihâle",
+   "a": "Mahiyet değişimi; şarabın sirkeye dönüşmesi."
+  },
+  {
+   "o": "Hayız süreleri",
+   "a": "En az 3, en çok 10 gün; temizlik en az 15 gün."
+  },
+  {
+   "o": "Nifas",
+   "a": "Doğum sonrası kan; en çok 40 gün."
+  },
+  {
+   "o": "İstihâze",
+   "a": "Özür kanı; namaz kılınır, oruç tutulur."
+  },
+  {
+   "o": "Özür sahibi",
+   "a": "Her vakit için abdest alır; vakit çıkınca abdesti bozulur."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "fq6-01",
+   "z": 3,
+   "s": "I. Yağmur suyu\nII. Karpuz suyu\nIII. Abdest alınırken kullanılmış su\nIV. Deniz suyu\n\nHanefî mezhebine göre yukarıdaki sulardan hangileriyle abdest alınabilir?",
+   "c": [
+    "I ve II",
+    "I ve IV",
+    "I, III ve IV",
+    "II ve III",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Yağmur ve deniz suyu mutlak sudur; abdest alınır. Karpuz suyu mukayyed, abdestte kullanılmış su ise müstameldir; ikisiyle de abdest alınmaz.",
+   "ac": [
+    "Karpuz suyu mukayyed sudur.",
+    "Doğru.",
+    "Müstamel su fetvaya göre temizleyici değildir.",
+    "İkisiyle de abdest alınmaz.",
+    "Karpuz suyu ve müstamel suyla abdest alınmaz."
+   ],
+   "kay": "Kâsânî, Bedâi‘, I"
+  },
+  {
+   "id": "fq6-02",
+   "z": 3,
+   "s": "Bir kişinin elbisesine avuç içi genişliğinden az miktarda kan, başka bir yerine ise elbisenin dörtte birinden az miktarda koyun idrarı bulaşmıştır. Kişi bu elbiseyle namaz kılmıştır.\n\nHanefî mezhebine göre bu kişinin namazıyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Namaz batıldır; iade edilmelidir.",
+    "Namaz sahihtir ve bu durum hiçbir şekilde mekruh değildir.",
+    "Kan galîza olduğu için namaz batıldır; koyun idrarı temizdir.",
+    "Koyun idrarı galîza olduğu için namaz batıldır.",
+    "Namaz sahihtir; çünkü her iki necâset de affedilen miktarın altındadır, ancak temizlemeden kılması mekruhtur."
+   ],
+   "d": 4,
+   "a": "Kan galîzadır ve sıvıda avuç içi kadarı affedilir; koyun idrarı hafîfedir ve dörtte birden azı affedilir. Namaz sahihtir, ancak bu miktar necâsetle kılmak mekruhtur.",
+   "ac": [
+    "Her ikisi de affedilen miktarın altındadır.",
+    "Affedilen miktarla namaz kılmak mekruhtur.",
+    "Kan affedilen miktarın altındadır; koyun idrarı hafîfe olarak necistir.",
+    "Koyun idrarı hafîfedir.",
+    "Doğru."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "fq6-03",
+   "z": 2,
+   "s": "Hanefî mezhebine göre aşağıdaki canlılardan hangisinin artığı (sü’r) şüpheli (meşkûk) kabul edilir?",
+   "c": [
+    "Kedi",
+    "Koyun",
+    "Eşek",
+    "Köpek",
+    "İnsan"
+   ],
+   "d": 2,
+   "a": "Eşek ve katırın artığı şüphelidir; başka su yoksa bu suyla abdest alınır ve ayrıca teyemmüm yapılır.",
+   "ac": [
+    "Kedi artığı mekruhtur.",
+    "Koyun eti yenen bir hayvandır; artığı temizdir.",
+    "Doğru.",
+    "Köpek artığı necistir.",
+    "İnsan artığı temizdir."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "fq6-04",
+   "z": 3,
+   "s": "Hanefî mezhebine göre aşağıdaki temizleme yollarıyla ilgili eşleştirmelerden hangisi yanlıştır?",
+   "c": [
+    "Tabaklama – domuz derisinin temizlenmesi",
+    "Silme – bıçak ve ayna gibi parlak yüzeylerin temizlenmesi",
+    "Ovma – kurumuş ve cirmi olan necâsetin mestten giderilmesi",
+    "İstihâle – şarabın sirkeye dönüşmesi",
+    "Kuruma – toprağın kuruyup necâset izinin kaybolması"
+   ],
+   "d": 0,
+   "a": "Domuz bizzat necis (necisü’l-ayn) olduğu için derisi tabaklamakla temizlenmez.",
+   "ac": [
+    "Yanlış eşleştirme budur.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir.",
+    "Doğru eşleştirmedir; ancak bu toprakla teyemmüm yapılmaz."
+   ],
+   "kay": "Kâsânî, Bedâi‘, I"
+  },
+  {
+   "id": "fq6-05",
+   "z": 3,
+   "s": "Bir kadın Ramazan ayında hayız sebebiyle beş gün namaz kılamamış ve oruç tutamamıştır. Temizlendikten sonra bu günlerdeki ibadetlerini nasıl telafi edeceğini sormaktadır.\n\nHanefî mezhebine göre verilecek cevap aşağıdakilerden hangisidir?",
+   "c": [
+    "Namazları ve oruçları kaza etmelidir.",
+    "Namazları kaza etmeli, oruçları kaza etmemelidir.",
+    "Oruçları kaza etmeli, namazları kaza etmemelidir.",
+    "Hiçbirini kaza etmesi gerekmez.",
+    "Oruçlar için fidye vermesi yeterlidir."
+   ],
+   "d": 2,
+   "a": "Hayızlı kadın namazları kaza etmez; çünkü namaz sık tekrarlanır ve kazası güçlük doğurur. Oruçları ise kaza eder.",
+   "ac": [
+    "Namaz kaza edilmez.",
+    "Durum tam tersidir.",
+    "Doğru.",
+    "Oruç kaza edilir.",
+    "Fidye, iyileşme ümidi olmayanlar içindir."
+   ],
+   "kay": "Müslim, Hayz, 69"
+  },
+  {
+   "id": "fq6-06",
+   "z": 3,
+   "s": "Burnundan sürekli kan gelen bir kişi, öğle namazı vakti boyunca abdest alıp farzı kılacak kadar bir süre bile kanamanın kesilmediğini fark etmiştir. Öğle vakti için abdest almış, aynı abdestle öğlenin farzını ve sünnetlerini kılmıştır.\n\nHanefî mezhebine göre bu kişiyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Özür sahibidir; ikindi vakti girince abdesti bozulmuş olur ve ikindi için yeniden abdest alır.",
+    "Her rekâttan önce yeniden abdest alması gerekir.",
+    "Özür sahibi değildir; kanama durana kadar namaz kılamaz.",
+    "Bir kez abdest alması bütün gün için yeterlidir.",
+    "Abdest yerine teyemmüm yapmalıdır."
+   ],
+   "d": 0,
+   "a": "Bir vakit boyunca özrü kesilmeyen kişi özür sahibidir; her vakit için abdest alır, vakit çıkınca abdesti bozulur.",
+   "ac": [
+    "Doğru.",
+    "Vakit içinde aynı abdestle dilediği kadar namaz kılabilir.",
+    "Bu kişi özür sahibidir.",
+    "Abdest vaktin çıkmasıyla bozulur.",
+    "Su varken teyemmüm yapılmaz."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  },
+  {
+   "id": "fq6-07",
+   "z": 2,
+   "s": "Hanefî mezhebine göre istincâ ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "c": [
+    "Her durumda farzdır.",
+    "Kıbleye karşı ihtiyaç gidermek müstehaptır.",
+    "Yalnız taşla yapılabilir.",
+    "Sağ elle yapılması sünnettir.",
+    "Sünnettir; ancak necâset çıkış yerini aşarak bir dirhemden fazla yayılmışsa yıkamak farz olur."
+   ],
+   "d": 4,
+   "a": "Hanefîlerde istincâ sünnettir; necâset dirhemden fazla yayılmışsa giderilmesi farzdır.",
+   "ac": [
+    "İstincâ esasen sünnettir.",
+    "Kıbleye karşı ihtiyaç gidermek tahrîmen mekruhtur.",
+    "Su ile de yapılabilir; su daha faziletlidir.",
+    "Sol elle yapılır.",
+    "Doğru."
+   ],
+   "kay": "Kâsânî, Bedâi‘, I"
+  },
+  {
+   "id": "f3-03",
+   "z": 1,
+   "s": "Gül suyu, karpuz suyu gibi bir şeye nispet edilerek anılan sularla ilgili hangisi doğrudur?",
+   "c": [
+    "Az miktarı abdestte kullanılabilir",
+    "Yalnızca gusülde kullanılabilir",
+    "Necistir",
+    "Temizdir ama abdest ve gusülde kullanılmaz",
+    "Hem temiz hem temizleyicidir"
+   ],
+   "d": 3,
+   "a": "Mukayyed sular temizdir ama hadesi gidermez; bunlarla abdest alınmaz.",
+   "ac": [
+    "Miktarı fark etmez.",
+    "Gusülde de kullanılmaz.",
+    "Necis değildir.",
+    "Doğru.",
+    "Bu mutlak suyun özelliğidir."
+   ],
+   "kay": "Hanefî ilmihali: sular"
+  },
+  {
+   "id": "f3-05",
+   "z": 2,
+   "s": "Bir kişinin elbisesine eti yenen bir hayvanın idrarı bulaşmıştır.\n\nHanefî mezhebine göre bu necasetin türü ve namaza engel olmayan miktarı hangisidir?",
+   "c": [
+    "Hafife – dörtte birden az",
+    "Galiza – dörtte birden az",
+    "Hafife – bir dirhemden az",
+    "Galiza – bir dirhemden az",
+    "Necaset sayılmaz"
+   ],
+   "d": 0,
+   "a": "Eti yenen hayvanların idrarı hafif necasettir; bulaştığı elbise parçasının dörtte birinden azı affedilir.",
+   "ac": [
+    "Doğru.",
+    "Hafif necasettir; miktar doğru ama tür yanlış.",
+    "Dirhem ölçüsü galiza için kullanılır.",
+    "Galiza değildir.",
+    "Necasettir."
+   ],
+   "kay": "Hanefî ilmihali: necaset"
+  },
+  {
+   "id": "f3-08",
+   "z": 2,
+   "s": "Hanefî mezhebine göre hayız süresi ile ilgili hangisi doğrudur?",
+   "c": [
+    "En az süresi yoktur, en çok 40 gündür.",
+    "En az 1, en çok 15 gündür.",
+    "En az 3, en çok 10 gündür.",
+    "En az 5, en çok 15 gündür.",
+    "Süre sınırı yoktur."
+   ],
+   "d": 2,
+   "a": "Hanefîlerde hayız en az üç, en çok on gündür. En çok 40 gün nifas içindir.",
+   "ac": [
+    "Bu nifasın süresidir.",
+    "Bu Şâfiî görüşüne yakındır (en az 1 gün 1 gece, en çok 15 gün).",
+    "Doğru.",
+    "Böyle bir görüş yoktur.",
+    "Süre sınırı vardır."
+   ],
+   "kay": "Hanefî ilmihali: hayız"
+  },
+  {
+   "id": "f3-10",
+   "z": 3,
+   "s": "Sürekli idrar damlatma rahatsızlığı olan bir kişi, öğle vakti boyunca abdest alıp farzı kılacak kadar bir süre bile bu durumu kesilmemiştir.\n\nHanefî mezhebine göre bu kişinin durumuyla ilgili hangisi yanlıştır?",
+   "c": [
+    "Aldığı abdestle o vakit içinde farz, vacip ve nafile namazlar kılabilir.",
+    "Her namaz vakti için abdest alır.",
+    "Öğle vakti çıkınca abdesti bozulur.",
+    "Özür sahibi sayılır.",
+    "Aldığı abdest bir sonraki güne kadar geçerlidir."
+   ],
+   "d": 4,
+   "a": "Özür sahibinin abdesti vaktin çıkmasıyla bozulur; her vakit için yeniden abdest alır.",
+   "ac": [
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Doğru bilgi.",
+    "Yanlış: abdest vakitle sınırlıdır."
+   ],
+   "kay": "Hanefî ilmihali: özür sahibi"
+  },
+  {
+   "id": "f3-13",
+   "z": 3,
+   "s": "Abdest veya gusülde kullanılmış su için Hanefî mezhebindeki fetvaya esas görüş hangisidir?",
+   "c": [
+    "Necistir",
+    "Temizdir ama temizleyici değildir",
+    "Çoksa temizleyici, azsa necistir",
+    "Temizdir ve temizleyicidir",
+    "Kullanılması mekruhtur ama abdest geçerlidir"
+   ],
+   "d": 1,
+   "a": "Müstamel su, fetvaya göre temizdir; ancak hadesi gidermediği için onunla abdest alınmaz.",
+   "ac": [
+    "Necis olduğu görüşü zayıf rivayettir.",
+    "Doğru.",
+    "Böyle bir ayrım yoktur.",
+    "Mutlak suyun özelliğidir.",
+    "Müstamel suyla abdest geçerli olmaz."
+   ],
+   "kay": "Hanefî ilmihali: müstamel su"
+  },
+  {
+   "id": "f3-17",
+   "z": 2,
+   "s": "Hanefî mezhebine göre necâset-i galîzadan elbiseye bulaşan katı bir pislikle namaz kılmaya engel olmayan (affedilen) miktar nedir?",
+   "c": [
+    "Elbisenin dörtte biri",
+    "Bir karış",
+    "Hiçbir miktar affedilmez",
+    "Ağırlık olarak bir dirhem (yaklaşık 3 gram) kadarı",
+    "Elbisenin yarısı"
+   ],
+   "d": 3,
+   "a": "Affedilen miktarla namaz sahihtir ama temizlemek gerekir (bulunan miktar tahrîmen mekruhtur).",
+   "ac": [
+    "Bu necâset-i hafîfe ölçüsüdür.",
+    "Yanlıştır.",
+    "Dirhem ölçüsü affedilir.",
+    "Sıvılarda avuç içi genişliği esas alınır.",
+    "Yanlıştır."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "f3-18",
+   "z": 1,
+   "s": "Hanefî mezhebine göre lohusalığın (nifas) en uzun süresi kaç gündür?",
+   "c": [
+    "10",
+    "15",
+    "30",
+    "40",
+    "60"
+   ],
+   "d": 3,
+   "a": "Nifasın en az süresi için sınır yoktur.",
+   "ac": [
+    "Hayzın en uzun süresidir.",
+    "İki hayız arasındaki en az temizlik süresidir.",
+    "Yanlıştır.",
+    "Nifasın en uzun süresidir.",
+    "Şâfiîlerde en uzun süredir."
+   ],
+   "kay": "Hanefî ilmihal"
+  },
+  {
+   "id": "fq6-08",
+   "z": 3,
+   "s": "I. Hayızın en az süresi üç gündür.\nII. Hayızın en çok süresi on beş gündür.\nIII. İki hayız arasındaki temizlik süresinin en azı on beş gündür.\nIV. Nifasın en çok süresi kırk gündür.\n\nHanefî mezhebine göre yukarıdaki bilgilerden hangileri doğrudur?",
+   "c": [
+    "I ve II",
+    "I, III ve IV",
+    "II ve IV",
+    "II, III ve IV",
+    "I, II, III ve IV"
+   ],
+   "d": 1,
+   "a": "Hanefîlere göre hayızın en azı üç, en çoğu on gündür; en az temizlik süresi on beş, nifasın en çoğu kırk gündür. On beş gün hayızın en çok süresi değil, Şâfiîlerin görüşüdür.",
+   "ac": [
+    "İkinci bilgi yanlıştır; üçüncü ve dördüncü bilgi doğrudur.",
+    "Doğru.",
+    "İkinci bilgi yanlıştır.",
+    "İkinci bilgi Hanefîlere göre yanlıştır.",
+    "İkinci bilgi yanlıştır."
+   ],
+   "kay": "Mevsılî, el-İhtiyâr, I"
+  }
+ ]
+}
