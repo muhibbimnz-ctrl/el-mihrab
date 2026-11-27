@@ -305,3 +305,4 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 
 ## 18. oturum — 27 Kasım 2026 (YDS 16–20)
 - **16. deneme** yayımlandı (kaynak depo dışında: /home/claude/src/yds16.txt; parçalar 94–105 kelime, harekeli). Konular: Râzî ve çiçek-kızamık, ahtapot zekâsı, Dunning-Kruger, Pîrî Reis haritası, Ebbinghaus ve aralıklı tekrar, Mansa Musa’nın haccı ve Kahire’de altın. Kısa parçalar: tasarruf, halk çarşıları, rüzgâr kuleleri, dinleme, Nilometre, gürültü; vaha, işaret dili, pusula, gülme, çadır.
+- **17. deneme** yayımlandı (/home/claude/src/yds17.txt; parçalar 90–107 kelime, harekeli). Konular: Kâtip Çelebi ve Keşfü’z-zunûn, tardigradlar, seyirci etkisi (Darley-Latané), Zheng He seferleri, kentsel ısı adası, lale çılgınlığı. Kısa parçalar: günlük tutmak, posta güvercini, sebiller, erteleme, baobab, gözlük; penguen, Hint-Arap rakamları, muvakkit, nar, yanardağ.
