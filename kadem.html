@@ -434,13 +434,13 @@ function coz(txt,k){return Kilit.coz(txt,k)}
 /* ŞİMDİLİK ÜCRETSİZ (27 Kasım 2026, kullanıcı kararı): bütün konular ve denemeler şifresiz .json olarak yayında.
    Yeniden kilitlemek için: UCRETSIZ=false, tools/kadem/sifre.py içinde UCRETSIZ=False, .gitignore'daki Kadem satırlarını geri aç, yeni şifreyle kapat. */
 var UCRETSIZ=true;
-function destekH(tam){var x='https://x.com/hohrzade340';
- if(tam)return '<div class="destek" id="destek"><div class="d-et">Herkese açık</div><h3>Bu bölüm artık ücretsiz</h3><p>Kadem ve YDS Arapça; binlerce soru, konu anlatımları ve denemelerle uzun bir emeğin ürünü. Şimdilik bütün içerik şifresiz ve ücretsiz; dilediğiniz kadar istifade edin, dualarınızda bizi de unutmayın.</p><p>Bu çalışmanın sürmesine katkıda bulunmak isterseniz X (Twitter) üzerinden bize mesaj yazabilirsiniz.</p><div class="d-bt"><a class="btn pri" href="'+x+'" target="_blank" rel="noopener">X’ten mesaj yaz</a><button class="btn ik" type="button" id="destekKapa">Kapat</button></div></div>';
- return '<p class="destek-alt">Bu çalışmaya katkıda bulunmak isterseniz <a href="'+x+'" target="_blank" rel="noopener">X’ten bize yazın ›</a></p>'}
+function destekH(tam){var x='https://x.com/Elmihr';
+ if(tam)return '<div class="destek" id="destek"><div class="d-et">Herkese açık</div><h3>Bu bölüm artık ücretsiz</h3><p>Kadem ve YDS Arapça; binlerce soru, konu anlatımları ve denemelerle, uzun ve emek isteyen bir çalışmanın ürünü. Şimdilik bütün içerik şifresiz ve ücretsiz; dilediğiniz kadar istifade edin, dualarınızda bizi de unutmayın.</p><p>Uygulamanın reklamsız ve ücretsiz kalabilmesi, bu çalışmanın da sürebilmesi için katkıda bulunmak isterseniz X (Twitter) üzerinden <b>@Elmihr</b> hesabına mesaj yazabilirsiniz.</p><div class="d-bt"><a class="btn pri" href="'+x+'" target="_blank" rel="noopener">Mesaj yaz</a><button class="btn ik" type="button" id="destekKapa">Kapat</button></div></div>';
+ return '<p class="destek-alt">Uygulamanın reklamsız ve ücretsiz kalmasına katkıda bulunmak isterseniz <a href="'+x+'" target="_blank" rel="noopener">X’ten bize yazın ›</a></p>'}
 function destekGoster(){try{return !localStorage.getItem('kadem.destek')}catch(e){return false}}
 function destekBagla(){var b=document.getElementById('destekKapa');if(b)b.onclick=function(){try{localStorage.setItem('kadem.destek','1')}catch(e){}var d=document.getElementById('destek');if(d)d.outerHTML=destekH(false)}}
 function acik(u){if(UCRETSIZ)return true;return/^data\/kadem\/[^\/]+\.json$/.test(u)||u==='data/kadem/konu/kuran-1.json'||u==='data/kadem/deneme/mbsts-1.json'}
-var XADR='https://x.com/hohrzade340',XAD='@hohrzade340';
+var XADR='https://x.com/Elmihr',XAD='@Elmihr';
 function xKutu(){return '<a class="x-kutu" href="'+XADR+'" target="_blank" rel="noopener"><span class="x-ik">𝕏</span><span><b>Devamı için bize yazın</b><small>Bütün konulara ve denemelere erişmek isterseniz X (Twitter) hesabımızdan ulaşabilirsiniz: '+XAD+'</small></span><em>›</em></a>'}
 function anahtarVar(){return Kilit.var()}
 function tamVar(){try{return!!localStorage.getItem('kadem.anahtar')}catch(x){return false}}
