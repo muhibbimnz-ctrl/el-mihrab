@@ -302,3 +302,6 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 - Önbellek: sw.js’de data/yds ve data/modern artık önce ağdan alınıyor (yeni içerik hemen görünür). YDS denemeleri ve okuma metinlerinin çoğu üyelikle açılır; kullanıcı kendi hesabıyla giriş yapmadan 14. deneme kilitli görünür.
 - **Kısa metinler birleştirildi:** `tools/yds/birlestir.py` (bir kez çalıştı) 42 grupta 45 kısa metni yakın konulu kardeşine kattı; modern.json 279 metin. İlk id korunur; ek parçalar “§ başlık” paragrafıyla ayrılır, modMetin bunları ara başlık (`.mara`) olarak gösterir.
 - **15. deneme eklendi** (kaynak depo dışında: /home/claude/src/yds15.txt; parçalar 95–103 kelime, harekeli). Konular: İdrîsî, arıların dansı, kahvenin yayılışı, çoklu görev, Montagu ve aşılama, Çin’de kâğıt para. **Sırada: 16–20. denemeler** (aynı biçim; yeni konular seçilmeli, bankada aynı soru kökü olmamalı).
+
+## 18. oturum — 27 Kasım 2026 (YDS 16–20)
+- **16. deneme** yayımlandı (kaynak depo dışında: /home/claude/src/yds16.txt; parçalar 94–105 kelime, harekeli). Konular: Râzî ve çiçek-kızamık, ahtapot zekâsı, Dunning-Kruger, Pîrî Reis haritası, Ebbinghaus ve aralıklı tekrar, Mansa Musa’nın haccı ve Kahire’de altın. Kısa parçalar: tasarruf, halk çarşıları, rüzgâr kuleleri, dinleme, Nilometre, gürültü; vaha, işaret dili, pusula, gülme, çadır.
