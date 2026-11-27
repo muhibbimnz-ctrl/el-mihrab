@@ -99,8 +99,7 @@ ol{padding-left:22px}ol li{margin:6px 0}
 </style></head><body><main>
 <h1>Sesli Farsça Ders <span class="ar">درس‌های صوتی فارسی</span></h1>
 
-<div class="warnar" id="warnar"><b>Ses bulunamadı.</b> En kolay çözüm: claude.ai’yi <b>bilgisayarda Chrome ya da Edge</b> ile açıp bu sayfaya gir; sayfa <b>Claude sesiyle</b> okunur, hiçbir şey yüklemen gerekmez (Claude mobil uygulamasında ve Safari’de bu ses yoktur). Ya da cihazına ses yükle: En kolay yol: <b>bilgisayarda Microsoft Edge</b> ile aç (içinde “Dilara” ve “Farid” adlı Farsça sesler hazır gelir; iki ses olunca diyaloglar kadın ve erkek sesiyle okunur). <b>Windows:</b> Ayarlar › Zaman ve dil › Konuşma › Ses ekle › Farsça. <b>Android:</b> Farsçayı destekleyen bir metin okuma motoru kurup Ayarlar › Metin okuma çıkışı’ndan seç. iPhone/iPad’de Farsça ses genellikle yoktur. Sonra sayfayı yenile.</div>
-<div class="warn" id="warn">Bu tarayıcı sesli okumayı desteklemiyor. Telefonda Safari ya da Chrome, bilgisayarda Chrome ya da Edge dene.</div>
+<div class="warnar" id="warnar"><b>Ses çalınamadı.</b> Bu cihazda Farsça ses yok, internet sesine de şu an ulaşılamıyor. Bağlantını kontrol edip ▶ düğmesine yeniden bas.</div>
 <div class="modes" id="modes">
 <button class="mode" data-m="basic">🔤 Temel Farsça (Elifba)</button>
 <button class="mode" data-m="book">📖 Hikâye Programı B1→B2 (182 gün)</button>
@@ -113,7 +112,7 @@ ol{padding-left:22px}ol li{margin:6px 0}
 </div>
 <div class="bar">
 <label>Hız <select id="rate"><option value="0.6">Çok yavaş</option><option value="0.7">Yavaş</option><option value="0.85">Normal</option><option value="1">Hızlı</option></select></label>
-<label>Kaynak <select id="eng"><option value="auto">Otomatik</option><option value="claude">Claude sesi</option><option value="device">Cihaz sesi</option></select></label>
+<label>Kaynak <select id="eng"><option value="auto">Otomatik</option><option value="claude">Claude sesi</option><option value="device">Cihaz sesi</option><option value="net">İnternet sesi</option></select></label>
 <label>Cihaz sesi <select id="voice"></select></label>
 <button id="trb" aria-pressed="false">Türkçeyi göster</button>
 <button id="hb" aria-pressed="false">Okunuşu göster</button>
@@ -161,65 +160,102 @@ function isStory(i){return !!D[i].read}
 var NORM=[],TXT=[];D.forEach(function(d,i){if(d.read)NORM.push(i);else if(d.txt)TXT.push(i)});
 function dayT(i){var o=NORM.indexOf(i);return o<0?null:COL.d.ORD[o%COL.d.ORD.length]}
 
-/* ===== Ses ===== */
-var synth=window.speechSynthesis,vs=[],tok=0;
-if(!synth)document.getElementById("warn").style.display="block";
-function loadV(){if(!synth)return;vs=synth.getVoices().filter(function(v){return /^fa/i.test(v.lang)});
- var s=document.getElementById("voice");s.innerHTML=vs.map(function(v,i){return '<option value="'+i+'">'+v.name+' ('+v.lang+')</option>'}).join("")||'<option>Varsayılan</option>';
- if(typeof engUI==="function")engUI();
- if(typeof engUI==="function")engUI();
- if(st.voice!==undefined&&vs[st.voice])s.value=st.voice}
-if(synth){loadV();synth.onvoiceschanged=loadV;setTimeout(loadV,1500)}
+/* ===== Ses =====
+   Sıra (Otomatik): claude.ai içinde Claude sesi → cihazda Farsça ses varsa o → internet sesi (api/ses: Dilara, Farid).
+   iPhone'da ve çoğu telefonda Farsça (fa-IR) cihaz sesi yoktur; ses listesi de geç gelir. Farsça ses yokken metin
+   cihaz motoruna gönderilmez (iOS onu ya susarak ya da yanlış dille okur). "Ses yok" uyarısı yalnız hiçbir yol çalışmazsa çıkar. */
+var synth=window.speechSynthesis||null,vs=[],tok=0,NETOK=null,AU=null;
+function loadV(){if(!synth)return;var all=[];try{all=synth.getVoices()||[]}catch(e){}
+ vs=all.filter(function(v){return /^fa([-_]|$)/i.test(v.lang)||/persian|farsi|dilara|farid/i.test(v.name)});
+ var s=document.getElementById("voice");s.innerHTML=vs.length?vs.map(function(v,i){return '<option value="'+i+'">'+v.name+'</option>'}).join(""):'<option value="">Bu cihazda yok</option>';
+ s.disabled=!vs.length;if(st.voice!==undefined&&vs[st.voice])s.value=st.voice;engUI()}
+if(synth){try{synth.addEventListener("voiceschanged",loadV)}catch(e){synth.onvoiceschanged=loadV}[0,500,1500,3000,6000].forEach(function(t){setTimeout(loadV,t)})}
 document.getElementById("rate").value=st.rate||"0.85";
-document.getElementById("rate").onchange=function(){st.rate=this.value;save()};
+document.getElementById("rate").onchange=function(){st.rate=this.value;save();if(AU)AU.playbackRate=hizN()};
 document.getElementById("voice").onchange=function(){st.voice=this.value;save()};
+addEventListener("online",function(){NETOK=null;engUI()});
 function clearOn(){document.querySelectorAll(".on").forEach(function(r){r.classList.remove("on")})}
+function hiz(){return parseFloat(document.getElementById("rate").value)||0.85}
+function hizN(){return Math.max(0.6,Math.min(1.3,hiz()/0.85))}
+function konusan(it){var k=it.el&&it.el.id?+it.el.id.slice(1):NaN;return (typeof SPK!=="undefined")?SPK[k]:undefined}
+function motor(){
+ var cl=!!TT&&(!TTL||TTL.indexOf(LANG)>=0),net=NETOK!==false&&navigator.onLine!==false;
+ if(ENG==="claude"&&TT)return "claude";
+ if(ENG==="device"&&vs.length)return "device";
+ if(ENG==="net")return net?"net":(vs.length?"device":(TT?"claude":"yok"));
+ if(cl)return "claude";if(vs.length)return "device";if(net)return "net";if(TT)return "claude";return "yok"}
+function dur(){tok++;if(synth)try{synth.cancel()}catch(e){}ttStop();if(AU){AU.onended=AU.onerror=null;try{AU.pause()}catch(e){}}clearOn()}
 function say(items){
- if(useClaude()){sayC(items);return}
- if(!synth)return;synth.cancel();tok++;var my=tok;clearOn();var i=0;
+ items=items.filter(function(it){return String(it.t||"").trim()});if(!items.length)return;
+ dur();var m=motor();
+ if(m==="claude")return sayC(items);if(m==="device")return sayD(items);if(m==="net")return sayN(items);sesYok()}
+function sayT(t){say([{t:t}])}
+function sesYok(){clearOn();engUI();var w=document.getElementById("warnar");if(w){w.style.display="block";w.scrollIntoView({block:"nearest",behavior:"smooth"})}}
+/* Cihaz sesi */
+function sayD(items){
+ var my=tok,i=0;
  (function next(){
   if(my!==tok||i>=items.length)return;
-  var it=items[i++],u=new SpeechSynthesisUtterance(it.t);
-  u.lang="fa-IR";var vi=document.getElementById("voice").value,vv=vs[vi];var sk=it.el&&it.el.id?SPK[+it.el.id.slice(1)]:undefined;
-  if(sk%2===1&&vs.length>1){var alt=vs.filter(function(v){return v!==vv})[0];if(alt)vv=alt;else u.pitch=0.8}else if(sk%2===1)u.pitch=0.8;if(sk===2)u.pitch=1.15;
-  if(vv){u.voice=vv;u.lang=vv.lang}
-  u.rate=parseFloat(document.getElementById("rate").value);
+  var it=items[i++],u=new SpeechSynthesisUtterance(it.t),vv=vs[document.getElementById("voice").value]||vs[0],sk=konusan(it);
+  if(sk%2===1&&vs.length>1){var alt=vs.filter(function(v){return v!==vv})[0];if(alt)vv=alt}else if(sk%2===1)u.pitch=0.8;if(sk===2)u.pitch=1.15;
+  u.voice=vv;u.lang=vv.lang;u.rate=hiz();
   if(it.el){it.el.classList.add("on");if(items.length>1)it.el.scrollIntoView({block:"nearest",behavior:"smooth"})}
   u.onend=function(){if(it.el)it.el.classList.remove("on");setTimeout(next,280)};
   u.onerror=function(){if(it.el)it.el.classList.remove("on")};
   synth.speak(u)})()}
-function sayT(t){say([{t:t}])}
-/* ===== Ses motoru: Claude sesi (tts) + cihaz sesi yedeği ===== */
+/* İnternet sesi: cümleler 280 harflik parçalara bölünür, tek bir <audio> sırayla çalar (iPhone yalnız dokunuşla açılan öğeye izin verir). */
+function parcala(t){t=String(t).replace(/\s+/g," ").trim();if(t.length<=280)return t?[t]:[];
+ var c=t.match(/[^.!?؟؛…]+[.!?؟؛…»"]*\s*/g)||[t],o=[],b="";
+ c.forEach(function(s){while(s.length>280){var k=s.lastIndexOf("،",280);if(k<80)k=s.lastIndexOf(" ",280);if(k<1)k=280;if(b){o.push(b.trim());b=""}o.push(s.slice(0,k+1).trim());s=s.slice(k+1)}
+  if((b+s).length>280){o.push(b.trim());b=s}else b+=s});
+ if(b.trim())o.push(b.trim());return o.filter(Boolean)}
+function sesUrl(t,v){return "api/ses?v="+v+"&t="+encodeURIComponent(t)}
+function sayN(items){
+ var my=tok,q=[];
+ items.forEach(function(it){var sk=konusan(it),v=sk%2===1?"m":"f",p=parcala(it.t);p.forEach(function(x,j){q.push({t:x,v:v,el:it.el,son:j===p.length-1,it:it})})});
+ if(!q.length)return;
+ if(!AU){AU=new Audio();AU.preload="auto"}
+ var a=AU,i=0,calan=false;
+ function sonraki(){if(q[i+1])fetch(sesUrl(q[i+1].t,q[i+1].v)).catch(function(){})}
+ function cal(){
+  if(my!==tok)return;if(i>=q.length){clearOn();return}
+  var x=q[i];if(x.el&&!x.el.classList.contains("on")){clearOn();x.el.classList.add("on");if(items.length>1)x.el.scrollIntoView({block:"nearest",behavior:"smooth"})}
+  a.onended=function(){if(my!==tok)return;calan=true;if(x.son&&x.el)x.el.classList.remove("on");i++;setTimeout(cal,x.son?250:0)};
+  a.onerror=function(){if(my!==tok)return;
+   if(!calan){NETOK=false;engUI();var kalan=items.slice(items.indexOf(x.it));
+    if(TT)return sayC(kalan);if(vs.length)return sayD(kalan);return sesYok()}
+   i++;cal()};
+  a.src=sesUrl(x.t,x.v);a.defaultPlaybackRate=a.playbackRate=hizN();
+  var p=a.play();if(p&&p.then)p.then(function(){a.playbackRate=hizN();NETOK=true;engUI()},function(e){if(my!==tok)return;if(e&&e.name==="NotAllowedError"){clearOn();engNote("▶ düğmesine bir kez daha bas.")}});
+  sonraki()}
+ cal()}
+/* ===== Claude sesi (claude.ai içinde açılınca) ===== */
 var TT=null,TTL=null,ttDone=false,ENG=st.eng||"auto",LANG="fa";
-function useClaude(){return !!TT&&ENG!=="device"}
+if(ENG!=="auto"&&ENG!=="claude"&&ENG!=="device"&&ENG!=="net")ENG="auto";
 function engNote(m){var s=document.getElementById("engst");if(s)s.textContent=m||""}
 function engUI(){
- var hasDev=!!(synth&&vs.length),w=document.getElementById("warnar");
- var sel=document.getElementById("eng");if(sel){sel.value=ENG;sel.querySelector('[value="claude"]').disabled=!TT}
- if(useClaude())engNote("🔊 Claude sesi açık"+(TTL&&TTL.indexOf(LANG)<0?" (bu dil için ses tahminle seçilir)":""));
- else if(hasDev)engNote("🔊 Cihaz sesi açık");
- else engNote(ttDone?"🔇 Ses bulunamadı":"Ses hazırlanıyor…");
- if(w)w.style.display=(ttDone&&!TT&&!hasDev)?"block":"none"}
+ var sel=document.getElementById("eng");if(sel){sel.value=ENG;var o=sel.querySelector('[value="claude"]');if(o)o.disabled=!TT}
+ var m=motor(),w=document.getElementById("warnar");
+ engNote(m==="claude"?"Claude sesi":m==="device"?"Cihaz sesi":m==="net"?"İnternet sesi (Dilara · Farid)":"Ses yok");
+ if(w&&m!=="yok")w.style.display="none"}
 try{if(window.claude&&claude.use){claude.use("tts").then(function(t){ttDone=true;if(!t){engUI();return}TT=t;
   try{t.onState(function(e){if(e.state==="idle"){clearOn();if(e.reason==="not_granted"||e.reason==="unavailable"){TT=null;engUI()}}})}catch(x){}
   try{t.onLine(function(e){clearOn();var el=e.id&&document.getElementById(e.id);if(el){el.classList.add("on");el.scrollIntoView({block:"nearest",behavior:"smooth"})}})}catch(x){}
   try{if(t.languages)t.languages().then(function(l){TTL=l||null;engUI()}).catch(function(){})}catch(x){}
   engUI()}).catch(function(){ttDone=true;engUI()})}else ttDone=true}catch(e){ttDone=true}
-setTimeout(function(){ttDone=true;engUI()},11000);
 function ttStop(){if(TT){try{TT.stop().catch(function(){})}catch(e){}}}
 function sayC(items){
- tok++;if(synth)synth.cancel();clearOn();
- var r=Math.max(0.7,Math.min(1.5,parseFloat(document.getElementById("rate").value)+0.1));
- var lines=items.filter(function(it){return String(it.t).trim()}).slice(0,100).map(function(it){
-  var id=it.el&&it.el.id?it.el.id:undefined,k=id?+id.slice(1):NaN,sk=(typeof SPK!=="undefined")?SPK[k]:undefined;
-  return {text:String(it.t).slice(0,2000),id:id,voice:sk%2===1?"glassy":(sk===2?"rounded":"buttery"),language:LANG,rate:r}});
- if(!lines.length)return;
- TT.speak(lines).catch(function(e){clearOn();var c=e&&e.code;
-  if(c==="no_gesture")engNote("▶ düğmesine tekrar bas.");
-  else if(c==="rate_limited")engNote("Ses kotası doldu; biraz sonra tekrar dene.");
-  else if(c==="not_granted"||c==="unavailable"){TT=null;engUI()}
-  else if(c==="busy")engNote("Şu an meşgul; biraz sonra tekrar dene.")})}
-document.getElementById("eng").onchange=function(){ENG=this.value;st.eng=ENG;save();ttStop();if(synth)synth.cancel();clearOn();engUI()};
+ var my=tok,r=Math.max(0.7,Math.min(1.5,hiz()+0.1));
+ var lines=items.slice(0,100).map(function(it){var sk=konusan(it);
+  return {text:String(it.t).slice(0,2000),id:it.el&&it.el.id?it.el.id:undefined,voice:sk%2===1?"glassy":(sk===2?"rounded":"buttery"),language:LANG,rate:r}});
+ TT.speak(lines).catch(function(e){if(my!==tok)return;clearOn();var c=e&&e.code;
+  if(c==="no_gesture"){engNote("▶ düğmesine bir kez daha bas.");return}
+  if(c==="not_granted"||c==="unavailable")TT=null;
+  /* Claude sesi okuyamadıysa sıradaki yola geç */
+  if(NETOK!==false)return sayN(items);if(vs.length)return sayD(items);
+  if(c==="rate_limited")engNote("Ses kotası doldu; biraz sonra tekrar dene.");else if(c==="busy")engNote("Şu an meşgul; biraz sonra tekrar dene.");else sesYok()})}
+document.getElementById("eng").onchange=function(){ENG=this.value;st.eng=ENG;save();dur();engUI()};
+engUI();
 
 
 /* ===== Yardımcılar ===== */
@@ -308,7 +344,7 @@ function navCol(k){
  C.ORD.forEach(function(ti){if(C.arr[ti].c===S.cat)h+='<button class="tab" data-les="'+k+'|'+ti+'" aria-pressed="'+(ti===S.cur)+'">'+({a:"A",i:"İ",c:"",d:"",p:"🎧"})[k]+C.NUM[ti]+': '+esc(C.arr[ti].en)+(k==="p"&&C.arr[ti].tp?" · "+esc(C.arr[ti].tp):"")+(pr[ti]?" ✓":"")+'</button> '});
  return h+'</div>'}
 function render(){
- if(synth)synth.cancel();ttStop();tok++;PL=[];SPK={};G={};DK={};QZ={};TF={};LQ={};
+ dur();PL=[];SPK={};G={};DK={};QZ={};TF={};LQ={};
  st.mode=mode;st.cur=cur;st.cur_d=CS.d.cur;st.cur_a=CS.a.cur;st.cur_i=CS.i.cur;st.cur_c=CS.c.cur;st.cur_p=CS.p.cur;st.ucur=ucur;save();
  document.querySelectorAll(".mode").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.m===mode)});
  var nav=document.getElementById("nav"),o=document.getElementById("out");
@@ -548,7 +584,7 @@ function navClick(e){
  if(a.cat!==undefined){x=a.cat.split("|");var k=x[0];if(!catHas(k,+x[1])){var nv=document.getElementById("nav"),sn=document.getElementById("soonMsg");if(!sn){sn=document.createElement("p");sn.id="soonMsg";sn.className="muted";nv.appendChild(sn)}sn.textContent="“"+COL[k].cats[+x[1]]+"” kategorisinin metinleri henüz hazırlanıyor. Şimdilik diğer kategorilerdeki metinleri okuyabilirsin.";return true}CS[k].cat=+x[1];CS[k].cur=COL[k].ORD.filter(function(t){return COL[k].arr[t].c===CS[k].cat})[0];render();return true}
  if(a.les!==undefined||a.gol!==undefined){x=(a.les||a.gol).split("|");var k2=x[0];CS[k2].cur=+x[1];CS[k2].cat=COL[k2].arr[CS[k2].cur].c;mode=({a:"acad",i:"islam",c:"adv",d:"daily",p:"pod"})[k2];render();window.scrollTo(0,0);return true}
  return false}
-document.getElementById("stop").onclick=function(){tok++;if(synth)synth.cancel();ttStop();clearOn()};
+document.getElementById("stop").onclick=dur;
 document.getElementById("trb").onclick=function(){var on=document.body.classList.toggle("showtr");this.setAttribute("aria-pressed",on);this.textContent=on?"Türkçeyi gizle":"Türkçeyi göster"};
 var hb=document.getElementById("hb");function hbSet(){document.body.classList.toggle("showtl",!!st.stl);hb.setAttribute("aria-pressed",!!st.stl);hb.textContent=st.stl?"Okunuşu gizle":"Okunuşu göster"}hbSet();
 hb.onclick=function(){st.stl=!st.stl;save();hbSet()};
@@ -566,7 +602,7 @@ hb.onclick=function(){st.stl=!st.stl;save();hbSet()};
 
 
 </script>
-<style>#modes a.mode[href^="sozluk"]{--c1:#10284d;--c2:#1f6f8b;position:relative;overflow:hidden;background:linear-gradient(135deg,#10284d,#1f6f8b)!important;color:#fff!important;border:1px solid #a8e0da!important}body.mdLanding #modes a.mode[href^="sozluk"]{text-align:left!important;grid-column:1/-1;min-height:96px!important;padding-inline-end:110px!important;box-shadow:0 8px 20px rgba(0,0,0,.2),inset 0 0 0 3px rgba(255,255,255,.08)!important}#modes a.mode[href^="sozluk"] small{color:#a8e0da;opacity:1!important}#modes a.mode[href^="sozluk"] .szhat{position:absolute;right:14px;top:50%;transform:translateY(-50%);font:700 34px Vazirmatn,Tahoma,sans-serif;color:#a8e0da;opacity:.95;line-height:1.4}body:not(.mdLanding) #modes a.mode[href^="sozluk"] .szhat{display:none}</style><script src="hesap-ayar.js?v=8"></script><script src="hesap.js?v=5" defer></script><script src="nasil.js?v=2" data-b="farsca"></script></body></html>
+<style>#modes a.mode[href^="sozluk"]{--c1:#10284d;--c2:#1f6f8b;position:relative;overflow:hidden;background:linear-gradient(135deg,#10284d,#1f6f8b)!important;color:#fff!important;border:1px solid #a8e0da!important}body.mdLanding #modes a.mode[href^="sozluk"]{text-align:left!important;grid-column:1/-1;min-height:96px!important;padding-inline-end:110px!important;box-shadow:0 8px 20px rgba(0,0,0,.2),inset 0 0 0 3px rgba(255,255,255,.08)!important}#modes a.mode[href^="sozluk"] small{color:#a8e0da;opacity:1!important}#modes a.mode[href^="sozluk"] .szhat{position:absolute;right:14px;top:50%;transform:translateY(-50%);font:700 34px Vazirmatn,Tahoma,sans-serif;color:#a8e0da;opacity:.95;line-height:1.4}body:not(.mdLanding) #modes a.mode[href^="sozluk"] .szhat{display:none}</style><script src="hesap-ayar.js?v=8"></script><script src="hesap.js?v=6" defer></script><script src="nasil.js?v=2" data-b="farsca"></script></body></html>
 <script>(function(){function go(){try{var m=document.querySelector("main")||document.body,h=m.querySelector("h1");if(!h||document.getElementById("mihrabHead"))return;var d=document.createElement("div");d.id="mihrabHead";d.innerHTML='<a class="mb" href="./">‹ el-Mihrâb</a><button id="mihrabQ" aria-label="Ses yardımı">?</button>';var nx=h.nextElementSibling;h.parentNode.insertBefore(d,h);d.appendChild(h);if(nx&&nx.tagName==="P")d.appendChild(nx);
 var w=document.getElementById("warnar"),q=document.getElementById("mihrabQ");if(!w)return;w.innerHTML=w.innerHTML.replace(/En kolay çözüm:[\s\S]*?Ya da /,"").replace(/Claude sesi,[\s\S]*?çalışmaz\)\. /,"");w.classList.add("mq");
 var chk=function(){var s=w.style.display;q.style.display=(s&&s!=="none")?"block":"none"};new MutationObserver(chk).observe(w,{attributes:true,attributeFilter:["style"]});chk();

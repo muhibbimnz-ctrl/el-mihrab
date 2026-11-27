@@ -184,4 +184,4 @@ Promise.all([getJ('data/fikih/meseleler.json'),getJ('data/fikih/liste.json'),get
   if((m=/^#m=([a-z]+)/.exec(hs))){for(var i=0;i<MS.length;i++)if(MS[i].id===m[1])return mesele(i)}
   if((m=/^#kt=([a-z]+)(?:&s=(\d+))?/.exec(hs))){return m[2]!=null?kitapBolum(m[1],+m[2]):kitap(m[1])}
   if(hs==='#kt')return kutuphane();meseleListe()}).catch(function(){M.innerHTML='<p class="not">Veri yüklenemedi. İnternet bağlantınızı kontrol edip sayfayı yenileyin.</p>'});
-</script><script src="hesap-ayar.js?v=8"></script><script src="hesap.js?v=5" defer></script><script src="nasil.js?v=2" data-b="fikih"></script></body></html>
+</script><script src="hesap-ayar.js?v=8"></script><script src="hesap.js?v=6" defer></script><script src="nasil.js?v=2" data-b="fikih"></script></body></html>

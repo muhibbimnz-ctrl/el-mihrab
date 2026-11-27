@@ -90,4 +90,4 @@ $('#hesX').onclick=function(e){e.preventDefault();$('#hes').classList.add('hide'
 $('#hOk').onclick=function(){if(hs==null)return;if(toplam()&&!confirm('Şimdiki sayılar silinip her vakit için '+hs.toLocaleString('tr-TR')+' yazılacak. Devam edilsin mi?'))return;
   NV.forEach(function(v){K.s[v[0]]=hs});K.son=[];K.hes={};['hD','hE','hC','hB','hA','hL','hN','hY'].forEach(function(i){K.hes[i]=$('#'+i).value});kay();ciz();$('#hes').classList.add('hide');toast('Kaydedildi')};
 ciz();if(!toplam()&&!K.kilinan)$('#ilk').textContent='Kaza borcunu bilmiyorsan sağ üstteki “Hesapla” ile bul; biliyorsan “+” ile ekle.';
-</script><script src="hesap-ayar.js?v=8"></script><script src="hesap.js?v=5" defer></script></body></html>
+</script><script src="hesap-ayar.js?v=8"></script><script src="hesap.js?v=6" defer></script></body></html>

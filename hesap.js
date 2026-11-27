@@ -87,8 +87,8 @@ function esitle(neden) {
         sonEsit = Date.now(); Y('hesap.sonEsit', sonEsit); Y('hesap.esitUid', U.uid); degisti = false; durum = 'tamam'; ciz();
         if (uygulanan && neden === 'acilis' && !sessionStorage.getItem('hesap.yenilendi')) {
           sessionStorage.setItem('hesap.yenilendi', '1');
-          bildir('İlerlemen hesabından yüklendi'); setTimeout(function () { location.reload() }, 900);
-        } else if (uygulanan) bildir('İlerlemen hesabından yüklendi');
+          setTimeout(function () { location.reload() }, 300);
+        }
         if (disari.length) console.warn('Hesap: çok büyük olduğu için eşitlenmeyen kayıtlar', disari);
       });
     });
@@ -188,12 +188,13 @@ function kur() {
   if (!dugmeler.length && !giris_yapilmis && !document.documentElement.hasAttribute('data-hesap-yukle')) return;
   var ilk = true;
   var karsila = !!document.getElementById('home') && !J('hesap.uid', null) && !J('hesap.karsilandi', 0);
-  if (karsila) setTimeout(function () { if (!U && !document.querySelector('.hs-ov')) { Y('hesap.karsilandi', Date.now()); pencere.ilk = true; pencere() } }, 2200);
+  if (karsila) setTimeout(function dene() { if (window.__salavatAcik) return setTimeout(dene, 1500); if (!U && !document.querySelector('.hs-ov')) { Y('hesap.karsilandi', Date.now()); pencere.ilk = true; pencere() } }, 2200);
   yukle().then(function (f) {
     f.au.getRedirectResult(f.auth).catch(function () {});
     f.au.onAuthStateChanged(f.auth, function (u) {
       var onceki = U; U = u || null;
-      if (U) { Y('hesap.uid', U.uid); esitle(ilk ? 'acilis' : 'giris').then(function () { if (!onceki && !ilk) bildir('Hoş geldin, ' + (U.displayName || U.email)) }) }
+      /* Gmail ile giriş sessiz olur: giriş penceresi kapanır, karşılama ya da hesap kartı gösterilmez */
+      if (U) { Y('hesap.uid', U.uid); if (!onceki) { var ov = document.querySelector('.hs-ov'); if (ov) ov.remove() } esitle(ilk ? 'acilis' : 'giris') }
       else try { LS.removeItem('hesap.uid') } catch (e) {}
       ilk = false; ciz(); bildirOturum();
     });
