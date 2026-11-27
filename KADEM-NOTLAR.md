@@ -364,3 +364,9 @@ Yeni içerik eklenince yapılacak kontroller: her sorunun 5 şıkkı ve 5 şık 
 - `hafifOzet()` artık `denemeler` de döndürüyor. Bütün sınav dosyaları ana sayfada yükleniyor (~160 KB, önbellekte).
 - `#toast` boşta görünmez (iPhone alt çubuğunda ucu görünüyordu).
 - `ANA_ID` artık ana sayfada kullanılmıyor (başka yerde kullanılıyorsa duruyor).
+
+## 25. oturum — 28 Kasım 2026 (İhtisas bölümü düzenlendi)
+- **Ana sayfa (ihtisas.html `liste()`):** alan kartları sadeleşti (solda renkli şerit + Arapça ad, sağda ad, iki satır açıklama, basamak/kitap sayısı, ilerleme); telefonda tek, 700px+ iki sütun. En üstte “Kaldığın yer” kartı (`localStorage ihtisas.son` = son açılan ilim + sekme; `alan()` her açılışta yazar).
+- **Bütün ilimlerde arama:** “kitap, âlim ya da terim” kutusu; ilk yazışta 8 ilmin dosyası bir kez yüklenir (~1,3 MB, önbellekte). Sonuçlar Kitaplar / Şahsiyetler / Terimler diye gruplanır (her grupta en çok 8). Sonuca dokununca ilgili ilmin Kitap rehberi / Şahsiyetler / Terimler sekmesi açılır ve sekmedeki arama kutusu aynı kelimeyle doldurulur (`window.__ihq`).
+- **Alan sayfası sekmeleri:** yana kayan gizli şerit yerine bütün sekmeler görünen düğme ızgarası.
+- Program sekmesindeki emojiler kaldırıldı (“Hedef:” yazısı); boştaki `#toast` gizlendi.
