@@ -136,7 +136,7 @@ document.querySelectorAll('#modes .mode').forEach(function(b){if(b.tagName==='BU
 addEventListener('popstate',function(e){if(e&&e.state&&e.state.ders)return;if(mb&&!document.body.classList.contains('mdLanding')){document.body.classList.add('mdLanding');document.body.classList.remove('ayarAcik');scrollTo(0,0)}});
 if(location.hash==='#p')try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}
 })();</script><!--/MIHRAB-SADE-->
-<!--VERI-SONDA--><script src="veri/farsca.js?v=fe43ebafdb"></script>
+<!--VERI-SONDA--><script src="veri/farsca.js?v=c05f3e1e0c"></script>
 <script>
 if(typeof D==="undefined"){(function(){var o=document.getElementById("out");if(o)o.innerHTML='<div class="card" style="padding:18px;text-align:center"><p>Ders verisi indirilemedi. İnternet bağlantınızı kontrol edin.</p><button onclick="location.reload()">Tekrar dene</button></div>'})();throw new Error("ders verisi yok")}
 /* ===== Durum ===== */
@@ -423,8 +423,8 @@ function lesson(k,ti){
  if(L.q)h+='<h2>Anlama soruları</h2><p class="lead">Metne göre doğru mu, yanlış mı?</p>'+tfHTML(L.q);  if(L.mq){h+='<h2>Anlama soruları</h2><p class="lead">Seçeneğe dokun; doğru cevap yeşil görünür.</p><div class="card">';L.mq.forEach(function(q,qi){h+='<div class="mqq"><p><b>'+(qi+1)+'.</b> '+esc(q[0])+'</p><div class="mqk">'+q[1].map(function(o,oi){return '<button type="button" data-mq="'+(oi===q[2]?1:0)+'">'+esc(o)+'</button>'}).join('')+'</div><div class="mqa trx" hidden>'+esc(q[3]||'')+'</div></div>'});h+='</div>'}
  if(L.d){h+='<h2>Uzun diyalog: '+esc(L.dt[0])+'</h2><p class="lead">'+esc(L.dt[1])+'</p>'+allBtn("dia")+'<div class="card">';
  var sm=spk(L.d);L.d.forEach(function(r){var q=addP(r[1]);SPK[q]=sm[r[0]];G.dia.push(q);h+=row(q,'<div class="en"><span class="sp">'+esc(r[0])+':</span> '+esc(r[1])+'</div><div class="trx">'+esc(r[2])+'</div>')});h+='</div>'}
- if(L.g){h+='<h2>Gramer: '+esc(L.g.t)+'</h2><div class="note">'+esc(L.g.x)+'</div>'+allBtn("gr")+'<div class="card">';
- L.g.e.forEach(function(e){var q=addP(e[0]);G.gr.push(q);h+=row(q,'<div class="en"><b>'+esc(e[0])+'</b></div><div class="trx">'+esc(e[1])+'</div>')});h+='</div>'}
+ if(L.g){h+='<h2>Gramer: '+esc(L.g.t)+'</h2><div class="note">'+esc(L.g.x)+'</div>';
+ if(L.g.e&&L.g.e.length){h+=allBtn("gr")+'<div class="card">';L.g.e.forEach(function(e){var q=addP(e[0]);G.gr.push(q);h+=row(q,'<div class="en"><b>'+esc(e[0])+'</b></div><div class="trx">'+esc(e[1])+'</div>')});h+='</div>'}}
  h+='<h2>Sarmal tekrar</h2><p class="lead">Önceki metinlerden karışık kelimeler</p>'+allBtn("sp")+'<div class="card">';
  spiral(k,ti).forEach(function(v){var q=addP(v.w+". "+v.ex);G.sp.push(q);h+=row(q,'<b>'+esc(v.w)+'</b>'+tl(v.tl)+' <span class="muted">('+esc(v.src)+')</span> — '+esc(v.tr)+'<div class="en ex"><b>'+esc(v.ex)+'</b></div>'+(v.extr?'<div class="trx">'+esc(v.extr)+'</div>':''),"v")});
  h+='</div><h2>Dinle ve yaz (dikte)</h2>'+dict(pickDict(sentences(L),3));

@@ -24,9 +24,9 @@
   '#slv .nas .et{font-size:11.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#D9B868;margin:0 0 8px}'+
   '#slv .nas h2{font-family:"Cormorant Garamond","Source Serif 4",Georgia,serif;font-size:21px;font-weight:700;margin:0 0 8px;color:#F4ECDA}'+
   '#slv .nas blockquote{margin:0;font-family:"Source Serif 4",Georgia,serif;font-size:16px;line-height:1.6;color:#EFE6D2}'+
-  '#slv .nas .kay{font-size:12.5px;color:rgba(239,230,210,.6);margin:6px 0 10px}'+
+  '#slv .nas .kay b{color:#D9B868;font-weight:600}#slv .nas .kay{font-size:12.5px;color:rgba(239,230,210,.6);margin:6px 0 10px}'+
   '#slv .nas p{margin:0;font-size:14.5px;line-height:1.55;color:rgba(239,230,210,.82)}'+
-  '#slv .alt{display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-size:13.5px}#slv .alt a{color:#D9B868;text-decoration:none;font-weight:600}#slv .alt button{border:0;background:none;color:rgba(239,230,210,.6);font:inherit;cursor:pointer;padding:6px 0}'+
+  '#slv .alt{display:flex;justify-content:space-between;align-items:center;margin-top:16px;font-size:15px}#slv .alt a{color:#D9B868;text-decoration:none;font-weight:600}#slv .alt button{border:1px solid rgba(239,230,210,.28);background:rgba(239,230,210,.06);color:rgba(239,230,210,.9);font:600 16px "Source Sans 3",system-ui,sans-serif;cursor:pointer;padding:10px 26px;border-radius:12px;min-height:44px}'+
   '@media(min-height:760px){#slv .slv-ar{font-size:34px}}';
  var CER='<svg class="cer" viewBox="0 0 150 14" fill="none" stroke="#D9B868" stroke-width="1"><path d="M0 7h58M92 7h58"/><path d="M75 1l6 6-6 6-6-6z"/><circle cx="63" cy="7" r="1.6" fill="#D9B868" stroke="none"/><circle cx="87" cy="7" r="1.6" fill="#D9B868" stroke="none"/></svg>';
  function kur(){
@@ -44,7 +44,7 @@
   d.querySelector('.dg').onclick=kapa;d.querySelector('[data-k]').onclick=kapa;
   addEventListener('keydown',function k(e){if(e.key==='Escape'){kapa();removeEventListener('keydown',k)}});
   fetch('data/nasihat.json').then(function(r){return r.json()}).then(function(j){var L=j.n||[];if(!L.length)return;var x=L[gunSira(L.length)],N=document.getElementById('slvN');if(!N)return;
-   N.innerHTML='<div class="et">Günün nasihati</div><h2>'+esc(x.b)+'</h2><blockquote>“'+esc(x.n)+'”</blockquote><div class="kay">'+esc(x.k)+'</div><p>'+esc(x.s)+'</p>';N.hidden=false}).catch(function(){});
+   N.innerHTML='<div class="et">Günün nasihati</div><h2>'+esc(x.b)+'</h2><blockquote>“'+esc(x.n)+'”</blockquote><div class="kay">'+(x.kim?'<b>'+esc(x.kim)+'</b> · ':'')+esc(x.k)+'</div><p>'+esc(x.s)+'</p>';N.hidden=false}).catch(function(){});
  }
  if(document.body)kur();else document.addEventListener('DOMContentLoaded',kur);
 })();

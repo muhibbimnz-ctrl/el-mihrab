@@ -1,192 +1,503 @@
 {
 "ad": "Nasihatler",
-"aciklama": "Her gün bir âyet ya da hadis ve kısa bir nasihat. Açılış ekranında günün nasihati buradan gelir.",
+"aciklama": "Âyetler, hadisler ve büyük âlimlerle tasavvuf büyüklerinin sözleri; her gün biri. Açılış ekranında günün nasihati buradan gelir.",
 "n": [
 {
 "b": "Niyet",
 "n": "Ameller ancak niyetlere göredir; herkese niyet ettiği şey vardır.",
 "k": "Buhârî, Bed’ü’l-vahy 1; Müslim, İmâre 155",
-"s": "Güne başlarken yaptığın işleri Allah rızasına bağla. Aynı iş, niyetle ibadete dönüşür."
+"s": "Güne başlarken yaptığın işleri Allah rızasına bağla. Aynı iş, niyetle ibadete dönüşür.",
+"t": "h"
+},
+{
+"b": "Kendini hesaba çek",
+"n": "Hesaba çekilmeden önce kendinizi hesaba çekin; tartılmadan önce amellerinizi tartın.",
+"k": "Tirmizî, Kıyâmet 25",
+"s": "Her akşam günün muhasebesini yap: neyi iyi yaptın, neyi düzeltmelisin.",
+"t": "s",
+"kim": "Hz. Ömer"
 },
 {
 "b": "Salavat",
 "n": "Kim bana bir salavat getirirse Allah da ona on rahmet eder.",
 "k": "Müslim, Salât 70",
-"s": "Bir salavat az bir sözdür ama karşılığı büyüktür. Dilini gün boyu salavatla meşgul et."
+"s": "Bir salavat az bir sözdür ama karşılığı büyüktür. Dilini gün boyu salavatla meşgul et.",
+"t": "h"
+},
+{
+"b": "İnsanın değeri",
+"n": "Her insanın değeri, iyi yaptığı iştedir.",
+"k": "Nehcü’l-belâğa, Hikem 81",
+"s": "İşini güzel yap; insanın kıymeti makamında değil, emeğinin güzelliğindedir.",
+"t": "s",
+"kim": "Hz. Ali"
 },
 {
 "b": "İlk hesap",
 "n": "Kıyamet günü kulun ilk hesaba çekileceği ameli namazdır; o düzgün çıkarsa diğer amelleri de düzgün çıkar.",
 "k": "Tirmizî, Salât 188; Nesâî, Salât 9",
-"s": "Namaz, diğer amellerin terazisidir. Vaktini, abdestini ve huşûunu koru."
+"s": "Namaz, diğer amellerin terazisidir. Vaktini, abdestini ve huşûunu koru.",
+"t": "h"
+},
+{
+"b": "Günler",
+"n": "Ey Âdemoğlu! Sen ancak günlerden ibaretsin; bir gün gittiğinde senden bir parça da gitmiş olur.",
+"k": "Ebû Nuaym, Hilyetü’l-evliyâ",
+"s": "Bugün ömrünün bir parçasıdır; onu boşa harcama.",
+"t": "s",
+"kim": "Hasan-ı Basrî"
 },
 {
 "b": "Beş vakit",
 "n": "Kapınızın önünden bir nehir aksa ve her gün beş defa yıkansanız üzerinizde kir kalır mı? Beş vakit namaz da böyledir; Allah onlarla günahları siler.",
 "k": "Buhârî, Mevâkît 6; Müslim, Mesâcid 283",
-"s": "Her namaz bir arınmadır. Bir vakti kaçırmak, o temizlikten mahrum kalmaktır."
+"s": "Her namaz bir arınmadır. Bir vakti kaçırmak, o temizlikten mahrum kalmaktır.",
+"t": "h"
+},
+{
+"b": "Üç gün",
+"n": "Dünya üç gündür: dün geçti, yarına belki yetişmezsin; senin olan bugündür.",
+"k": "Hasan-ı Basrî’ye nispet edilir",
+"s": "Tövbeyi ve hayrı yarına bırakma; elindeki tek gün bugündür.",
+"t": "s",
+"kim": "Hasan-ı Basrî"
 },
 {
 "b": "Az ama devamlı",
 "n": "Allah katında amellerin en sevimlisi, az da olsa devamlı olanıdır.",
 "k": "Buhârî, Rikak 18; Müslim, Müsâfirîn 218",
-"s": "Büyük ama kısa süren hevesler yerine küçük ve sürekli bir vird edin: birkaç âyet, birkaç tesbih."
+"s": "Büyük ama kısa süren hevesler yerine küçük ve sürekli bir vird edin: birkaç âyet, birkaç tesbih.",
+"t": "h"
+},
+{
+"b": "İhlas",
+"n": "İnsanlar için ameli terk etmek riyadır; insanlar için amel etmek şirktir. İhlas, Allah’ın seni bu ikisinden korumasıdır.",
+"k": "Kuşeyrî, er-Risâle, İhlâs bâbı",
+"s": "Görülmek için yapma, görülürüm diye de bırakma; yalnız Allah için yap.",
+"t": "s",
+"kim": "Fudayl b. İyâz"
 },
 {
 "b": "Kur’an",
 "n": "Sizin en hayırlınız Kur’an’ı öğrenen ve öğretendir.",
 "k": "Buhârî, Fezâilü’l-Kur’ân 21",
-"s": "Bugün Kur’an’dan bir şey öğren ya da bildiğini birine öğret; ikisi de hayırdır."
+"s": "Bugün Kur’an’dan bir şey öğren ya da bildiğini birine öğret; ikisi de hayırdır.",
+"t": "h"
+},
+{
+"b": "Niyet",
+"n": "Niyetimden daha zor tedavi ettiğim bir şey olmadı; çünkü o bana karşı dönüp durur.",
+"k": "Süfyân-ı Sevrî’ye nispet edilir",
+"s": "Niyet bir kere düzeltilip bırakılmaz; her işte yeniden tazelenir.",
+"t": "s",
+"kim": "Süfyân-ı Sevrî"
 },
 {
 "b": "Faydasızı bırakmak",
 "n": "Kişinin kendisini ilgilendirmeyen şeyleri bırakması, Müslümanlığının güzelliğindendir.",
 "k": "Tirmizî, Zühd 11; İbn Mâce, Fiten 12",
-"s": "Vaktini ve dilini sana fayda vermeyen işlerden koru; ömür sermayedir."
+"s": "Vaktini ve dilini sana fayda vermeyen işlerden koru; ömür sermayedir.",
+"t": "h"
+},
+{
+"b": "Niyetin gücü",
+"n": "Nice küçük amel vardır ki niyet onu büyütür; nice büyük amel vardır ki niyet onu küçültür.",
+"k": "İbn Receb, Câmiu’l-ulûm ve’l-hikem",
+"s": "Küçük bir iyiliği hafife alma; güzel niyetle büyür.",
+"t": "s",
+"kim": "Abdullah b. Mübârek"
 },
 {
 "b": "Kardeşini sevmek",
 "n": "Sizden biri kendisi için istediğini kardeşi için de istemedikçe (kâmil) iman etmiş olmaz.",
 "k": "Buhârî, Îmân 7; Müslim, Îmân 71",
-"s": "Kendine dilediğin hayrı kardeşine de dile; kıskançlığın ilacı duadır."
+"s": "Kendine dilediğin hayrı kardeşine de dile; kıskançlığın ilacı duadır.",
+"t": "h"
+},
+{
+"b": "Edep",
+"n": "Çok ilimden çok, biraz edebe muhtacız.",
+"k": "Abdullah b. Mübârek’e nispet edilir",
+"s": "İlim edeple güzelleşir; edepsiz ilim sahibini de başkasını da yorar.",
+"t": "s",
+"kim": "Abdullah b. Mübârek"
 },
 {
 "b": "Dil",
 "n": "Allah’a ve âhiret gününe iman eden ya hayır söylesin ya da sussun.",
 "k": "Buhârî, Edeb 31; Müslim, Îmân 74",
-"s": "Konuşmadan önce düşün: Bu söz hayır mı? Değilse susmak da bir ibadettir."
+"s": "Konuşmadan önce düşün: Bu söz hayır mı? Değilse susmak da bir ibadettir.",
+"t": "h"
+},
+{
+"b": "Fıkıh",
+"n": "Fıkıh, kişinin lehine ve aleyhine olanı bilmesidir.",
+"k": "Sadrüşşerîa, et-Tavzîh",
+"s": "Dinini öğrenmek, neyin sana fayda neyin zarar verdiğini bilmektir.",
+"t": "s",
+"kim": "İmam Ebû Hanîfe"
 },
 {
 "b": "Öfke",
 "n": "Güçlü kimse güreşte yenen değil, öfkelendiğinde kendine hâkim olandır.",
 "k": "Buhârî, Edeb 76; Müslim, Birr 107",
-"s": "Öfkelendiğinde sus, abdest al, yerini değiştir. Kendine hâkim olmak en büyük güçtür."
+"s": "Öfkelendiğinde sus, abdest al, yerini değiştir. Kendine hâkim olmak en büyük güçtür.",
+"t": "h"
+},
+{
+"b": "Ümmetin ıslahı",
+"n": "Bu ümmetin sonu, ancak evvelini ıslah eden şeyle ıslah olur.",
+"k": "Kādî Iyâz, eş-Şifâ",
+"s": "İlk neslin yolu Kitap ve sünnetti; düzelmek isteyen oraya döner.",
+"t": "s",
+"kim": "İmam Mâlik"
 },
 {
 "b": "Kolaylaştırmak",
 "n": "Kolaylaştırın, zorlaştırmayın; müjdeleyin, nefret ettirmeyin.",
 "k": "Buhârî, İlim 11; Müslim, Cihâd 8",
-"s": "Dini anlatırken ve insanlarla muamelede yumuşak ol; sertlik kapıları kapatır."
+"s": "Dini anlatırken ve insanlarla muamelede yumuşak ol; sertlik kapıları kapatır.",
+"t": "h"
+},
+{
+"b": "İlim nurdur",
+"n": "İlim çok rivayet etmek değildir; ilim, Allah’ın kalbe koyduğu bir nurdur.",
+"k": "İmam Mâlik’e nispet edilir",
+"s": "Bilgiyi yığmak yetmez; onu kalbe indiren takva ve amel olur.",
+"t": "s",
+"kim": "İmam Mâlik"
 },
 {
 "b": "Takva ve güzel ahlak",
 "n": "Nerede olursan ol Allah’tan kork. Kötülüğün ardından bir iyilik yap ki onu silsin. İnsanlara güzel ahlakla davran.",
 "k": "Tirmizî, Birr 55",
-"s": "Hatanın ardından hemen bir iyilik yap: bir sadaka, bir tövbe, bir güzel söz."
+"s": "Hatanın ardından hemen bir iyilik yap: bir sadaka, bir tövbe, bir güzel söz.",
+"t": "h"
+},
+{
+"b": "Hafıza",
+"n": "Vekî‘a hafızamın zayıflığını şikâyet ettim; bana günahları bırakmamı öğütledi ve dedi ki: İlim bir nurdur, Allah’ın nuru günahkâra verilmez.",
+"k": "İmam Şâfiî, Dîvân",
+"s": "Ders aklında kalmıyorsa önce kalbini temizle; günah ilmin önünde perdedir.",
+"t": "s",
+"kim": "İmam Şâfiî"
 },
 {
 "b": "Sağlık ve vakit",
 "n": "İki nimet vardır ki insanların çoğu onlarda aldanmıştır: sağlık ve boş vakit.",
 "k": "Buhârî, Rikak 1",
-"s": "Sağlıklıyken ve vaktin varken hayrı erteleme; ikisi de bir gün elden gider."
+"s": "Sağlıklıyken ve vaktin varken hayrı erteleme; ikisi de bir gün elden gider.",
+"t": "h"
+},
+{
+"b": "Görüş ve hakikat",
+"n": "Görüşüm doğrudur ama yanlış olabilir; bana muhalif olanın görüşü yanlıştır ama doğru olabilir.",
+"k": "İmam Şâfiî’ye nispet edilir",
+"s": "Tartışırken kendi görüşüne de karşındakine de insafla bak.",
+"t": "s",
+"kim": "İmam Şâfiî"
 },
 {
 "b": "Tebessüm",
 "n": "Kardeşinin yüzüne gülümsemen senin için bir sadakadır.",
 "k": "Tirmizî, Birr 36",
-"s": "Sadaka yalnız para değildir. Güler yüz, güzel söz ve yol göstermek de sadakadır."
+"s": "Sadaka yalnız para değildir. Güler yüz, güzel söz ve yol göstermek de sadakadır.",
+"t": "h"
+},
+{
+"b": "Ömür boyu ilim",
+"n": "Hokkadan kabre kadar.",
+"k": "İbnü’l-Cevzî, Menâkıbü’l-İmâm Ahmed",
+"s": "İlim öğrenmenin yaşı yoktur; kalem ancak kabirde bırakılır.",
+"t": "s",
+"kim": "İmam Ahmed b. Hanbel"
 },
 {
 "b": "Temizlik",
 "n": "Temizlik imanın yarısıdır.",
 "k": "Müslim, Tahâret 1",
-"s": "Bedenini, elbiseni, evini ve kalbini temiz tut; namaz temizlikle başlar."
+"s": "Bedenini, elbiseni, evini ve kalbini temiz tut; namaz temizlikle başlar.",
+"t": "h"
+},
+{
+"b": "Kitap ve sünnet",
+"n": "Bu ilmimiz Kitap ve sünnetle bağlıdır. Kur’an’ı ezberlemeyen ve hadis yazmayana bu işte uyulmaz.",
+"k": "Kuşeyrî, er-Risâle",
+"s": "Tasavvuf, şeriatın dışında değil, onun özünde bir yoldur.",
+"t": "s",
+"kim": "Cüneyd-i Bağdâdî"
 },
 {
 "b": "Yolcu gibi",
 "n": "Dünyada bir garip ya da bir yolcu gibi ol.",
 "k": "Buhârî, Rikak 3",
-"s": "Yolcu yükünü hafif tutar ve varacağı yeri unutmaz. Dünyayı ahiretin yolu bil."
+"s": "Yolcu yükünü hafif tutar ve varacağı yeri unutmaz. Dünyayı ahiretin yolu bil.",
+"t": "h"
+},
+{
+"b": "Kerametin ölçüsü",
+"n": "Havada bağdaş kurup oturan birini görseniz bile, emir ve yasaklara nasıl uyduğuna bakmadıkça ona aldanmayın.",
+"k": "Kuşeyrî, er-Risâle",
+"s": "Ölçü harikalar değil, dosdoğru bir kulluktur.",
+"t": "s",
+"kim": "Bâyezîd-i Bistâmî"
 },
 {
 "b": "Elinden ve dilinden",
 "n": "Müslüman, Müslümanların elinden ve dilinden emin olduğu kimsedir.",
 "k": "Buhârî, Îmân 4; Müslim, Îmân 64",
-"s": "Bugün kimse senin elinden ve dilinden incinmesin; ibadetin güzelliği ahlakta görünür."
+"s": "Bugün kimse senin elinden ve dilinden incinmesin; ibadetin güzelliği ahlakta görünür.",
+"t": "h"
+},
+{
+"b": "Yolun esasları",
+"n": "Yolumuzun esasları yedidir: Kitaba sarılmak, sünnete uymak, helal yemek, eziyet etmemek, günahlardan sakınmak, tövbe ve hakları ödemek.",
+"k": "Sülemî, Tabakātü’s-sûfiyye",
+"s": "Bu yedi esası günlük hayatında bir bir yokla.",
+"t": "s",
+"kim": "Sehl b. Abdullah et-Tüsterî"
 },
 {
 "b": "Kalbe bakar",
 "n": "Allah sizin dış görünüşünüze ve mallarınıza bakmaz; kalplerinize ve amellerinize bakar.",
 "k": "Müslim, Birr 34",
-"s": "Görünüşü değil kalbi düzeltmeye çalış; Allah’ın nazar ettiği yer orasıdır."
+"s": "Görünüşü değil kalbi düzeltmeye çalış; Allah’ın nazar ettiği yer orasıdır.",
+"t": "h"
+},
+{
+"b": "Allah için",
+"n": "Allah’ım, sana cehennem korkusundan ibadet ediyorsam beni onda yak; cennet umudundan ediyorsam beni ondan mahrum et. Yalnız senin için ediyorsam, cemalini benden esirgeme.",
+"k": "Ferîdüddîn Attâr, Tezkiretü’l-evliyâ",
+"s": "Kulluğun en yükseği, karşılık beklemeden sevgiyle yapılanıdır.",
+"t": "s",
+"kim": "Râbia el-Adeviyye"
 },
 {
 "b": "Secde",
 "n": "Kulun Rabbine en yakın olduğu an secde hâlidir; secdede duayı çoğaltın.",
 "k": "Müslim, Salât 215",
-"s": "Secdeyi aceleye getirme; derdini, şükrünü ve dileğini orada Rabbine aç."
+"s": "Secdeyi aceleye getirme; derdini, şükrünü ve dileğini orada Rabbine aç.",
+"t": "h"
+},
+{
+"b": "İlim ve amel",
+"n": "Amelsiz ilim delilik, ilimsiz amel boşunadır.",
+"k": "Gazâlî, Eyyühe’l-veled",
+"s": "Öğrendiğinle amel et; amel ettikçe Allah bilmediğini de öğretir.",
+"t": "s",
+"kim": "İmam Gazâlî"
 },
 {
 "b": "Merhamet",
 "n": "Merhamet etmeyene merhamet olunmaz.",
 "k": "Buhârî, Edeb 18; Müslim, Fezâil 65",
-"s": "Çocuğa, yaşlıya, hayvana ve hataya düşene merhametle bak; rahmet merhamete iner."
+"s": "Çocuğa, yaşlıya, hayvana ve hataya düşene merhametle bak; rahmet merhamete iner.",
+"t": "h"
+},
+{
+"b": "Kendini bilmek",
+"n": "Kendini bilmek, Rabbini bilmenin anahtarıdır.",
+"k": "Gazâlî, Kîmyâ-yı Saâdet",
+"s": "Nefsini, zaafını ve muhtaçlığını tanıyan, Rabbinin kudretini ve rahmetini tanır.",
+"t": "s",
+"kim": "İmam Gazâlî"
 },
 {
 "b": "Dua",
 "n": "Dua ibadetin ta kendisidir.",
 "k": "Tirmizî, Daavât 1; Ebû Dâvûd, Vitir 23",
-"s": "Duayı yalnız sıkıntıda değil her an et; dua kulluğun ifadesidir."
+"s": "Duayı yalnız sıkıntıda değil her an et; dua kulluğun ifadesidir.",
+"t": "h"
+},
+{
+"b": "Amelin ruhu",
+"n": "Ameller dikilmiş suretlerdir; onların ruhu, içlerindeki ihlas sırrıdır.",
+"k": "İbn Atâullah, el-Hikem, 10",
+"s": "İbadetin şekli kadar içini de gözet; ruhsuz suret ayakta durmaz.",
+"t": "s",
+"kim": "İbn Atâullah el-İskenderî"
 },
 {
 "b": "Hayâ",
 "n": "Hayâ imandandır.",
 "k": "Buhârî, Îmân 3; Müslim, Îmân 57",
-"s": "Hayâ insanı kötülükten alıkoyan bir perdedir; onu yırtacak söz ve bakıştan sakın."
+"s": "Hayâ insanı kötülükten alıkoyan bir perdedir; onu yırtacak söz ve bakıştan sakın.",
+"t": "h"
+},
+{
+"b": "Duanın gecikmesi",
+"n": "İstediğinin gecikmesi seni ümitsizliğe düşürmesin; Allah sana senin seçtiğin vakitte değil, kendi seçtiği vakitte icabet etmeyi tekeffül etmiştir.",
+"k": "İbn Atâullah, el-Hikem, 6",
+"s": "Duana cevap gecikirse bil ki en hayırlı vakit hazırlanıyor.",
+"t": "s",
+"kim": "İbn Atâullah el-İskenderî"
 },
 {
 "b": "Güzel ahlak",
 "n": "Müminlerin iman bakımından en olgunu, ahlakı en güzel olanıdır.",
 "k": "Ebû Dâvûd, Sünnet 15; Tirmizî, Radâ 11",
-"s": "İmanın ölçüsü ahlakta görünür. Evde, işte ve yolda aynı güzel insan ol."
+"s": "İmanın ölçüsü ahlakta görünür. Evde, işte ve yolda aynı güzel insan ol.",
+"t": "h"
+},
+{
+"b": "Rızık ve kulluk",
+"n": "Senin için garanti edilen rızık için çabalayıp senden istenen kullukta gevşek davranman, basiretinin bulandığının işaretidir.",
+"k": "İbn Atâullah, el-Hikem, 5",
+"s": "Rızkı Allah üstlendi; sen üzerine düşen kulluğa bak.",
+"t": "s",
+"kim": "İbn Atâullah el-İskenderî"
 },
 {
 "b": "Namaz alıkoyar",
 "n": "Namazı dosdoğru kıl. Şüphesiz namaz hayâsızlıktan ve kötülükten alıkoyar.",
 "k": "Ankebût, 29/45",
-"s": "Namaz kıldığın hâlde kötülükten uzaklaşamıyorsan namazının huşûuna bak."
+"s": "Namaz kıldığın hâlde kötülükten uzaklaşamıyorsan namazının huşûuna bak.",
+"t": "h"
+},
+{
+"b": "Ney",
+"n": "Dinle, bu ney nasıl şikâyet ediyor, ayrılıkları nasıl anlatıyor.",
+"k": "Mesnevî, I/1",
+"s": "İnsan da aslından ayrı düşmüş bir ney gibidir; onun iniltisi Rabbine özlemdir.",
+"t": "s",
+"kim": "Mevlânâ Celâleddîn-i Rûmî"
 },
 {
 "b": "Kalplerin huzuru",
 "n": "Bilin ki kalpler ancak Allah’ı anmakla huzura kavuşur.",
 "k": "Ra‘d, 13/28",
-"s": "Daralan kalbin ilacı zikirdir. Namazın ardından tesbihatı bırakma."
+"s": "Daralan kalbin ilacı zikirdir. Namazın ardından tesbihatı bırakma.",
+"t": "h"
+},
+{
+"b": "Kur’an’ın bendesi",
+"n": "Yaşadıkça ben Kur’an’ın kölesiyim; ben Muhammed Muhtâr’ın yolunun toprağıyım.",
+"k": "Mevlânâ, Rubâiyyât",
+"s": "Mevlânâ’nın yolu Kur’an ve sünnetin yoludur; onu bundan ayırmak ona haksızlıktır.",
+"t": "s",
+"kim": "Mevlânâ Celâleddîn-i Rûmî"
 },
 {
 "b": "Sabır ve namaz",
 "n": "Sabır ve namazla Allah’tan yardım isteyin.",
 "k": "Bakara, 2/45",
-"s": "Sıkıntıda önce namaza dur; Peygamberimiz bir iş onu üzdüğünde namaza koşardı."
+"s": "Sıkıntıda önce namaza dur; Peygamberimiz bir iş onu üzdüğünde namaza koşardı.",
+"t": "h"
+},
+{
+"b": "Gönül incitmemek",
+"n": "Sünnettir: kâfir de olsa incitme; gönlü katı, gönül incitenden Hak bîzardır.",
+"k": "Ahmed Yesevî, Dîvân-ı Hikmet",
+"s": "Sözün sertliği gönülleri kırar; dili tatlı olan gönülleri kazanır.",
+"t": "s",
+"kim": "Ahmed Yesevî"
 },
 {
 "b": "Zorlukla kolaylık",
 "n": "Şüphesiz zorlukla beraber bir kolaylık vardır. Evet, zorlukla beraber bir kolaylık vardır.",
 "k": "İnşirâh, 94/5-6",
-"s": "Hiçbir darlık kalıcı değildir; ümidini kesme, çabanı bırakma."
+"s": "Hiçbir darlık kalıcı değildir; ümidini kesme, çabanı bırakma.",
+"t": "h"
+},
+{
+"b": "Gönül",
+"n": "Bir kez gönül yıktın ise, bu kıldığın namaz değil; yetmiş iki millet dahi elin yüzün yumaz değil.",
+"k": "Yunus Emre, Dîvân",
+"s": "Namaz gönül kırmanın kefareti değildir; kul hakkını gözet.",
+"t": "s",
+"kim": "Yunus Emre"
 },
 {
 "b": "Anne baba",
 "n": "Rabbin, yalnız kendisine ibadet etmenizi ve anne babaya iyilik etmenizi emretti.",
 "k": "İsrâ, 17/23",
-"s": "Bugün anne babanı ara, onlara dua et; hayatta değillerse onlar için Kur’an oku."
+"s": "Bugün anne babanı ara, onlara dua et; hayatta değillerse onlar için Kur’an oku.",
+"t": "h"
+},
+{
+"b": "Tanış olalım",
+"n": "Gelin tanış olalım, işi kolay kılalım; sevelim sevilelim, dünya kimseye kalmaz.",
+"k": "Yunus Emre, Dîvân",
+"s": "Küskünlüğü uzatma; dünya kısa, sevgi kalıcıdır.",
+"t": "s",
+"kim": "Yunus Emre"
 },
 {
 "b": "Cemaat",
 "n": "Cemaatle kılınan namaz, tek başına kılınandan yirmi yedi derece daha faziletlidir.",
 "k": "Buhârî, Ezân 30; Müslim, Mesâcid 249",
-"s": "Fırsat buldukça camiye git; cemaat hem sevabı hem kardeşliği artırır."
+"s": "Fırsat buldukça camiye git; cemaat hem sevabı hem kardeşliği artırır.",
+"t": "h"
+},
+{
+"b": "İlim",
+"n": "İlim ilim bilmektir, ilim kendin bilmektir; sen kendini bilmezsin, ya nice okumaktır.",
+"k": "Yunus Emre, Dîvân",
+"s": "Okuduğun kitap seni sana tanıtmıyorsa eksik okuyorsun.",
+"t": "s",
+"kim": "Yunus Emre"
 },
 {
 "b": "Kardeşe yardım",
 "n": "Kul, kardeşinin yardımında olduğu sürece Allah da onun yardımındadır.",
 "k": "Müslim, Zikir 38",
-"s": "Bir kardeşinin işini kolaylaştır; Allah da senin işini kolaylaştırır."
+"s": "Bir kardeşinin işini kolaylaştır; Allah da senin işini kolaylaştırır.",
+"t": "h"
+},
+{
+"b": "Mal da yalan",
+"n": "Mal sahibi mülk sahibi, hani bunun ilk sahibi? Mal da yalan mülk de yalan, var biraz da sen oyalan.",
+"k": "Yunus Emre, Dîvân",
+"s": "Elindekiler emanettir; onlara gönül bağlama.",
+"t": "s",
+"kim": "Yunus Emre"
 },
 {
 "b": "En sevimli amel",
 "n": "Allah’a en sevimli amel, vaktinde kılınan namaz; sonra anne babaya iyilik; sonra Allah yolunda gayrettir.",
 "k": "Buhârî, Mevâkît 5; Müslim, Îmân 137",
-"s": "Namazı vaktin başında kılmaya gayret et; ertelemek çoğu zaman kaçırmaya götürür."
+"s": "Namazı vaktin başında kılmaya gayret et; ertelemek çoğu zaman kaçırmaya götürür.",
+"t": "h"
+},
+{
+"b": "Kendini bilmek",
+"n": "Bilmek istersen seni, can içre ara canı; geç canından bulasın, sen seni bilesin seni.",
+"k": "Hacı Bayram-ı Velî, İlâhî",
+"s": "Kendini bulmak, nefsin isteklerini aşmakla olur.",
+"t": "s",
+"kim": "Hacı Bayram-ı Velî"
+},
+{
+"b": "Üç emanet",
+"n": "Eline, diline, beline sahip ol.",
+"k": "Hacı Bektâş-ı Velî’ye nispet edilir",
+"s": "Harama uzanmayan el, yalan söylemeyen dil, iffetli bir hayat: edebin özü budur.",
+"t": "s",
+"kim": "Hacı Bektâş-ı Velî"
+},
+{
+"b": "El işte, gönül Hak’ta",
+"n": "Dest be kâr, dil be yâr: el işte, gönül Allah’ta.",
+"k": "Nakşibendî büyüklerine nispet edilir",
+"s": "Çalışırken de zikretmek mümkündür; kalp Allah’la, el helal kazançla meşgul olsun.",
+"t": "s",
+"kim": "Bahâeddîn Nakşibend"
+},
+{
+"b": "Kapıya gelen",
+"n": "Bu kapıya gelene ekmeğini verin, imanını sormayın; Allah katında can bulan, Ebu’l-Hasan’ın sofrasında ekmeği elbette bulur.",
+"k": "Ebu’l-Hasan Harakānî’ye nispet edilir",
+"s": "İyilik yaparken insanları ayırma; ikram, gönülleri açar.",
+"t": "s",
+"kim": "Ebu’l-Hasan Harakānî"
+},
+{
+"b": "İnsanlar bir bedendir",
+"n": "İnsanoğulları birbirinin uzuvlarıdır, çünkü yaratılışta bir cevherdendirler. Zaman bir uzvu ağrıttı mı, öbür uzuvlara da huzur kalmaz.",
+"k": "Sa‘dî, Gülistan, I",
+"s": "Kardeşinin derdini kendi derdin bil; ümmet tek bir beden gibidir.",
+"t": "s",
+"kim": "Şeyh Sa‘dî-i Şîrâzî"
 }
 ]
 }
