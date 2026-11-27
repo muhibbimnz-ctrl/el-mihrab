@@ -525,7 +525,52 @@ a{color:var(--accent)}
 /* Uzun sûrelerde ekranda olmayan âyetler ve mushaf sayfaları çizilmez: kaydırma akıcı kalır */
 #ayList>.ay,main .ay{content-visibility:auto;contain-intrinsic-size:auto 260px}#okB .okp{content-visibility:auto;contain-intrinsic-size:auto 1400px}
 </style><script>window.__ANT={"mihrab": "#0D1B18", "sabah": "#E9D3B5", "gece": "#0B1733", "kutup": "#07261F", "krem": "#F4E6C6"};var __t='';try{__t=localStorage.getItem('mihrab.anaTema')||''}catch(e){}var __u=false;try{__u=matchMedia('(display-mode: standalone)').matches||matchMedia('(display-mode: fullscreen)').matches||navigator.standalone===true||document.referrer.indexOf('android-app://')===0||sessionStorage.getItem('mihrab.uyg')==='1';if(__u)sessionStorage.setItem('mihrab.uyg','1')}catch(e){}if(!window.__ANT[__t])__t=__u?'mihrab':'krem';document.documentElement.classList.add(__u?'uyg':'web');document.documentElement.classList.add('at-'+__t);if(!location.hash)document.documentElement.classList.add('evde');setTimeout(function(){var h=document.getElementById('home');if(h)h.classList.add('hz')},1500);document.documentElement.classList.add('yukl');setTimeout(function(){document.documentElement.classList.remove('yukl')},1800)</script>
-</head>
+<style id="tablet">/* Tablet düzeni: yüklü uygulamada 700px ve üstü, tarayıcıda 700–899px (900+ masaüstü düzeni ayrı) */
+@media (min-width:700px){
+html.uyg #home .hm{max-width:980px!important;padding:0 28px 18px!important}
+html.uyg #home .hm>header.mh-ust{margin:0 -28px!important}
+html.uyg #home .mh-ust{padding:26px 64px 24px!important}
+html.uyg #home .mh-ust .mh-in{max-width:920px!important}
+html.uyg #home .mh-ust .mh-ad{font-size:36px!important}
+html.uyg #home .mh-ust .mh-lg{width:44px!important;height:44px!important;border-radius:11px!important}
+html.uyg #home .mh-slo,html.uyg #home .mh-dua{font-size:18px!important;margin-left:56px!important}
+html.uyg.at-gece #home .mh-dua{margin-left:0!important}
+html.uyg #home .mh-ust .mh-oz{gap:14px!important;max-width:760px}
+html.uyg #home .mh-ust .mh-oz a{padding:14px 10px!important;border-radius:18px!important}
+html.uyg #home .mh-ust .mh-oz b{font-size:24px!important}
+html.uyg #home .mh-ust .mh-oz small{font-size:13.5px!important}
+html.uyg #home .hmgrid{max-width:920px;width:100%!important;margin:18px auto 0!important;gap:18px!important}
+html.uyg #home .hmgrid .tile{padding:22px 18px!important;border-radius:26px!important}
+html.uyg #home .hmgrid .tile svg{width:76px!important;height:60px!important}
+html.uyg #home .hmgrid .tile b{font-size:23px!important;margin-top:6px}
+html.uyg #home .hm-sub{font-size:15px!important;line-height:1.45}
+html.uyg #home #hKadem{padding:18px 22px!important}
+html.uyg #home #hKadem b{font-size:22px!important}
+@media (min-aspect-ratio:1/1){html.uyg #home .hmgrid{grid-template-columns:repeat(4,1fr)!important;grid-template-rows:minmax(0,1fr) auto!important}html.uyg #home .hmgrid .tile svg{width:64px!important;height:52px!important}html.uyg #home .hmgrid .tile b{font-size:20px!important}html.uyg #home .hm-sub{font-size:13.5px!important}}
+}
+@media (min-width:700px) and (max-width:899px){
+html.web #home .hm{max-width:980px!important;padding:0 28px 18px!important}
+html.web #home .hm>header.mh-ust{margin:0 -28px!important}
+html.web #home .mh-ust{padding:26px 64px 24px!important}
+html.web #home .mh-ust .mh-in{max-width:920px!important}
+html.web #home .mh-ust .mh-ad{font-size:36px!important}
+html.web #home .mh-ust .mh-lg{width:44px!important;height:44px!important;border-radius:11px!important}
+html.web #home .mh-slo,html.web #home .mh-dua{font-size:18px!important;margin-left:56px!important}
+html.web.at-gece #home .mh-dua{margin-left:0!important}
+html.web #home .mh-ust .mh-oz{gap:14px!important;max-width:760px}
+html.web #home .mh-ust .mh-oz a{padding:14px 10px!important;border-radius:18px!important}
+html.web #home .mh-ust .mh-oz b{font-size:24px!important}
+html.web #home .mh-ust .mh-oz small{font-size:13.5px!important}
+html.web #home .hmgrid{max-width:920px;width:100%!important;margin:18px auto 0!important;gap:18px!important}
+html.web #home .hmgrid .tile{padding:22px 18px!important;border-radius:26px!important}
+html.web #home .hmgrid .tile svg{width:76px!important;height:60px!important}
+html.web #home .hmgrid .tile b{font-size:23px!important;margin-top:6px}
+html.web #home .hm-sub{font-size:15px!important;line-height:1.45}
+html.web #home #hKadem{padding:18px 22px!important}
+html.web #home #hKadem b{font-size:22px!important}
+@media (min-aspect-ratio:1/1){html.web #home .hmgrid{grid-template-columns:repeat(4,1fr)!important;grid-template-rows:minmax(0,1fr) auto!important}html.web #home .hmgrid .tile svg{width:64px!important;height:52px!important}html.web #home .hmgrid .tile b{font-size:20px!important}html.web #home .hm-sub{font-size:13.5px!important}}
+}
+</style></head>
 <body>
 <header class="top">
   <div class="brand">
@@ -557,7 +602,7 @@ a{color:var(--accent)}
   <button class="tile" id="hKadem" style="grid-column:1/-1;aspect-ratio:auto!important;min-height:0;padding:14px 10px!important;background:linear-gradient(135deg,#0e3d31,#1d5c4a 55%,#b08a3e)"><svg viewBox="0 0 64 48"><path d="M6 42h14V32h12V22h12V12h14" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 6l8 6-8 6" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></svg><b>Kadem</b><span class="hm-sub">Diyanet sınavları · MBSTS · DHBT · Müftü yardımcılığı</span></button>
   </div>
   
-</div></section><script src="salavat.js?v=2"></script><script>(function(){try{if(location.hash)return;var nv=performance.getEntriesByType("navigation")[0],sc=null;if(nv&&nv.type==="reload"){try{sc=sessionStorage.getItem("mihrab.scr")}catch(e){}if(sc&&sc!=="home")return}document.getElementById("home").classList.remove("hide")}catch(e){}})();</script><script>(function(){var h=document.getElementById('home'),d=document.documentElement;var tc=document.querySelector('meta[name=theme-color]'),tc0=tc&&tc.content;function g(){var ev=!h.classList.contains('hide');d.classList.toggle('evde',ev);if(tc){var at='';try{at=localStorage.getItem('mihrab.anaTema')||''}catch(e){}tc.content=ev?((window.__ANT||{})[(window.__ANT||{})[at]?at:(d.classList.contains('uyg')?'mihrab':'krem')]||'#2B3D6E'):tc0}if(!h.classList.contains('hide'))d.classList.remove('yukl')}g();var mm=document.querySelector('main');if(mm)try{new MutationObserver(function(){if(mm.childElementCount)setTimeout(function(){d.classList.remove('yukl')},60)}).observe(mm,{childList:true,subtree:true})}catch(e){}try{new MutationObserver(g).observe(h,{attributes:true,attributeFilter:['class']})}catch(e){}})();</script><script>/* ust.js gömülü: ana sayfanın üst alanı ilk boyamada hazır olsun */
+</div></section><script src="salavat.js?v=3"></script><script>(function(){try{if(location.hash)return;var nv=performance.getEntriesByType("navigation")[0],sc=null;if(nv&&nv.type==="reload"){try{sc=sessionStorage.getItem("mihrab.scr")}catch(e){}if(sc&&sc!=="home")return}document.getElementById("home").classList.remove("hide")}catch(e){}})();</script><script>(function(){var h=document.getElementById('home'),d=document.documentElement;var tc=document.querySelector('meta[name=theme-color]'),tc0=tc&&tc.content;function g(){var ev=!h.classList.contains('hide');d.classList.toggle('evde',ev);if(tc){var at='';try{at=localStorage.getItem('mihrab.anaTema')||''}catch(e){}tc.content=ev?((window.__ANT||{})[(window.__ANT||{})[at]?at:(d.classList.contains('uyg')?'mihrab':'krem')]||'#2B3D6E'):tc0}if(!h.classList.contains('hide'))d.classList.remove('yukl')}g();var mm=document.querySelector('main');if(mm)try{new MutationObserver(function(){if(mm.childElementCount)setTimeout(function(){d.classList.remove('yukl')},60)}).observe(mm,{childList:true,subtree:true})}catch(e){}try{new MutationObserver(g).observe(h,{attributes:true,attributeFilter:['class']})}catch(e){}})();</script><script>/* ust.js gömülü: ana sayfanın üst alanı ilk boyamada hazır olsun */
 /* el-Mihrâb ortak üst alan: selam, sıradaki namaz vakti, kaldığın âyet. Kadem dışındaki sayfalara eklenir.
    Vakitler ana sayfanın kaydettiği verilerden okunur (localStorage mihrab.loc, mihrab.pt2); kaldığın âyet beyan2.last.
    Renk: Sabah Ferahlığı seçiliyse turkuaz, diğer durumlarda Gece Mavisi. */
